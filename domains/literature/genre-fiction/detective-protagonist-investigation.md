@@ -32,36 +32,39 @@ Detective fiction centers on a protagonist using logic, observation, or intuitio
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "How does the detective's specific method of investigation affect the meaning of detective fiction?"
-    options:
-      - "The method doesn't matter; all investigations produce identical results"
-      - "The detective's method of reasoning (deduction vs. intuition vs. procedure) shapes how the investigation unfolds and what the story means"
-      - "Detectives all use identical investigation techniques"
-      - "Method is only important for plot convenience, not thematic meaning"
-    correct_answer: 1
-    explanation: "The core idea states that detectives 'vary by method' and that 'the detective's character...shapes both the investigation's nature and the mystery's meaning,' showing method is fundamental to the story."
-  - type: multiple-choice
-    question: "What factor beyond investigation method distinguishes different detective protagonists?"
-    options:
-      - "Only their intelligence level"
-      - "Only their physical attractiveness"
-      - "Their social position—professional investigator, amateur, or reluctant solver"
-      - "All detectives have identical social positions"
-    correct_answer: 2
-    explanation: "The core idea explicitly mentions detectives 'vary...by social position (professional investigator, amateur, reluctant solver),' making position a key variable alongside method."
-  - type: true-false
-    question: "A detective's quirks and limitations are merely personality details without significant impact on the investigation or its meaning."
-    correct_answer: false
-    explanation: "The core idea states that 'the detective's character—quirks, limitations, motivations—shapes both the investigation's nature and the mystery's meaning,' making character integral to narrative function."
-  - type: true-false
-    question: "Different detective methods (deduction, intuition, systematic procedure) can produce the same solution to a mystery but reveal different aspects of the crime and criminal."
-    correct_answer: true
-    explanation: "The core idea's emphasis on how method and character shape 'the investigation's nature and the mystery's meaning' implies that different approaches reveal different truths from the same crime."
-  - type: short-answer
-    question: "How does matching the detective's method and personality to their social position create coherent character?"
-    explanation: "Good answers should explain that a professional investigator's systematic procedures fit their institutional position, while an amateur's intuitive insight comes from their outsider perspective. A reluctant solver must be forced or motivated by personal stakes. The detective's methods make sense given their position and motivations, creating characters where everything coheres."
+- question: How does the detective's specific method of investigation affect the meaning of detective fiction?
+  type: multiple-choice
+  options:
+  - The method doesn't matter; all investigations produce identical results
+  - The detective's method of reasoning (deduction vs. intuition vs. procedure) shapes how the investigation unfolds and what the story means
+  - Detectives all use identical investigation techniques
+  - Method is only important for plot convenience, not thematic meaning
+  answer: 1
+  explanation: The core idea states that detectives 'vary by method' and that 'the detective's character...shapes both the investigation's nature and the mystery's meaning,' showing method is fundamental to the story.
+
+- question: What factor beyond investigation method distinguishes different detective protagonists?
+  type: multiple-choice
+  options:
+  - Only their intelligence level
+  - Only their physical attractiveness
+  - Their social position—professional investigator, amateur, or reluctant solver
+  - All detectives have identical social positions
+  answer: 2
+  explanation: The core idea explicitly mentions detectives 'vary...by social position (professional investigator, amateur, reluctant solver),' making position a key variable alongside method.
+
+- question: A detective's quirks and limitations are merely personality details without significant impact on the investigation or its meaning.
+  type: true-false
+  answer: false
+  explanation: The core idea states that 'the detective's character—quirks, limitations, motivations—shapes both the investigation's nature and the mystery's meaning,' making character integral to narrative function.
+
+- question: Different detective methods (deduction, intuition, systematic procedure) can produce the same solution to a mystery but reveal different aspects of the crime and criminal.
+  type: true-false
+  answer: true
+  explanation: The core idea's emphasis on how method and character shape 'the investigation's nature and the mystery's meaning' implies that different approaches reveal different truths from the same crime.
+
+- question: How does matching the detective's method and personality to their social position create coherent character?
+  type: short-answer
+  explanation: Good answers should explain that a professional investigator's systematic procedures fit their institutional position, while an amateur's intuitive insight comes from their outsider perspective. A reluctant solver must be forced or motivated by personal stakes. The detective's methods make sense given their position and motivations, creating characters where everything coheres.
 ```
 
 ## Explainer

@@ -35,39 +35,39 @@ Dostoevsky's psychology is not naturalistic character study—it represents cons
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What does Dostoevsky achieve by making 'psychological complexity and philosophical inquiry central to narrative structure'?"
+- question: What does Dostoevsky achieve by making 'psychological complexity and philosophical inquiry central to narrative structure'?
+  type: multiple-choice
   options:
-    - "He adds philosophical discussions to otherwise conventional psychological novels"
-    - "He establishes that consciousness itself is philosophical—that psychological states and existential questions are inseparable"
-    - "He writes philosophy instead of fiction"
-    - "He creates confusion by mixing narrative with philosophical argument"
+  - He adds philosophical discussions to otherwise conventional psychological novels
+  - He establishes that consciousness itself is philosophical—that psychological states and existential questions are inseparable
+  - He writes philosophy instead of fiction
+  - He creates confusion by mixing narrative with philosophical argument
   answer: 1
-  explanation: "Dostoevsky's key innovation is recognizing that psychology and philosophy are not separate domains but aspects of consciousness. A character does not have psychology and then encounter philosophy—consciousness IS philosophical. A person experiencing moral crisis, spiritual doubt, or existential questioning IS undergoing psychological transformation. By making these philosophical dimensions central to narrative structure, Dostoevsky shows that the deepest psychology reaches toward metaphysical questions. The novel does not describe consciousness and then add philosophical reflection; instead, the narrative form enacts consciousness in crisis. Philosophical dialogue, interior monologue, and narrative structure all work together to represent consciousness at its limits—where psychology exceeds itself and becomes existential inquiry."
+  explanation: Dostoevsky's key innovation is recognizing that psychology and philosophy are not separate domains but aspects of consciousness. A character does not have psychology and then encounter philosophy—consciousness IS philosophical. A person experiencing moral crisis, spiritual doubt, or existential questioning IS undergoing psychological transformation. By making these philosophical dimensions central to narrative structure, Dostoevsky shows that the deepest psychology reaches toward metaphysical questions. The novel does not describe consciousness and then add philosophical reflection; instead, the narrative form enacts consciousness in crisis. Philosophical dialogue, interior monologue, and narrative structure all work together to represent consciousness at its limits—where psychology exceeds itself and becomes existential inquiry.
 
-- type: multiple-choice
-  question: "How does Dostoevsky's use of 'interior monologue' serve his project of representing consciousness shaped by existential questioning?"
+- question: How does Dostoevsky's use of 'interior monologue' serve his project of representing consciousness shaped by existential questioning?
+  type: multiple-choice
   options:
-    - "Interior monologue provides unstructured thoughts that confuse readers"
-    - "Interior monologue allows representation of consciousness as self-dialogue, where the mind argues with itself about ultimate questions of meaning, faith, and existence"
-    - "Interior monologue is merely a technique for making novels longer"
-    - "It has no particular philosophical purpose"
+  - Interior monologue provides unstructured thoughts that confuse readers
+  - Interior monologue allows representation of consciousness as self-dialogue, where the mind argues with itself about ultimate questions of meaning, faith, and existence
+  - Interior monologue is merely a technique for making novels longer
+  - It has no particular philosophical purpose
   answer: 1
-  explanation: "In interior monologue, consciousness becomes audible as internal debate. A character does not simply feel despair—they articulate despair to themselves, argue against it, propose and discard solutions. This form allows representation of consciousness as inherently dialogical, as divided against itself. By depicting consciousness as internal argument, Dostoevsky shows how existential questions work: they cannot be simply answered but must be lived as ongoing crisis. The interior monologue enacts this crisis. The reader experiences the character's mind working through impossible questions—is faith possible? Is morality objective or subjective? How should one live when God is dead? This is not merely psychological description but philosophical action enacted through narrative form."
+  explanation: 'In interior monologue, consciousness becomes audible as internal debate. A character does not simply feel despair—they articulate despair to themselves, argue against it, propose and discard solutions. This form allows representation of consciousness as inherently dialogical, as divided against itself. By depicting consciousness as internal argument, Dostoevsky shows how existential questions work: they cannot be simply answered but must be lived as ongoing crisis. The interior monologue enacts this crisis. The reader experiences the character''s mind working through impossible questions—is faith possible? Is morality objective or subjective? How should one live when God is dead? This is not merely psychological description but philosophical action enacted through narrative form.'
 
-- type: true-false
-  statement: "Dostoevsky's novels employ 'philosophical dialogue' and 'interior monologue' as decoration added to psychological realism, with the philosophical elements being supplementary to the main narrative."
+- question: Dostoevsky's novels employ 'philosophical dialogue' and 'interior monologue' as decoration added to psychological realism, with the philosophical elements being supplementary to the main narrative.
+  type: true-false
   answer: false
-  explanation: "Dostoevsky demonstrates that philosophy and psychology are inseparable in narrative representation. The philosophical dialogue is not supplementary but central. The interior monologue does not pause the narrative to add philosophical reflection; instead, the narrative IS the representation of consciousness struggling with philosophical questions. Form and philosophical content are unified. A novel's structure, its use of dialogue, its narrative perspective—all these choices embody philosophical positions. Dostoevsky treats philosophical inquiry not as separate from narrative but as the core of what narrative can represent."
+  explanation: Dostoevsky demonstrates that philosophy and psychology are inseparable in narrative representation. The philosophical dialogue is not supplementary but central. The interior monologue does not pause the narrative to add philosophical reflection; instead, the narrative IS the representation of consciousness struggling with philosophical questions. Form and philosophical content are unified. A novel's structure, its use of dialogue, its narrative perspective—all these choices embody philosophical positions. Dostoevsky treats philosophical inquiry not as separate from narrative but as the core of what narrative can represent.
 
-- type: true-false
-  statement: "In Dostoevsky's work, consciousness is represented as shaped by philosophical and existential questions—moral doubt, spiritual crisis, the search for meaning—which are central to psychological representation rather than separate from it."
+- question: In Dostoevsky's work, consciousness is represented as shaped by philosophical and existential questions—moral doubt, spiritual crisis, the search for meaning—which are central to psychological representation rather than separate from it.
+  type: true-false
   answer: true
-  explanation: "This correctly identifies Dostoevsky's fundamental insight. Consciousness is not merely biological or social psychology—it is consciousness in dialogue with ultimate questions. Dostoevsky demonstrates that the deepest psychology reaches toward these existential dimensions. A character's psychology cannot be understood without recognizing how philosophical crisis shapes their consciousness. This allows the novel to achieve unprecedented depth by treating psychological representation as simultaneously philosophical inquiry."
+  explanation: This correctly identifies Dostoevsky's fundamental insight. Consciousness is not merely biological or social psychology—it is consciousness in dialogue with ultimate questions. Dostoevsky demonstrates that the deepest psychology reaches toward these existential dimensions. A character's psychology cannot be understood without recognizing how philosophical crisis shapes their consciousness. This allows the novel to achieve unprecedented depth by treating psychological representation as simultaneously philosophical inquiry.
 
-- type: short-answer
-  question: "Explain how Dostoevsky establishes 'the novel as vehicle for exploring consciousness at its limits.' What does it mean for consciousness to be 'at its limits,' and how does narrative form represent this condition?"
-  explanation: "Consciousness 'at its limits' means consciousness approaching questions it cannot fully answer: Is there meaning? Is faith possible? Is morality objective? When consciousness encounters these limits, it cannot retreat to comfortable certainty; it must remain engaged in crisis. Dostoevsky's narrative form represents this condition by refusing narrative resolution. The novel does not settle the philosophical questions; instead, it enacts them in the consciousness of characters. Interior monologue gives access to consciousness as it struggles with impossible questions. Philosophical dialogue between characters becomes action—arguments are not supplementary but what the characters actually do. The narrative structure itself remains open-ended, refusing to impose meaning. This form allows the novel to represent consciousness in authentic crisis. By keeping consciousness in dialogue with ultimate questions, Dostoevsky discovers the novel's capacity to explore the deepest dimensions of human experience. Earlier novels described characters; Dostoevsky's novels allow readers to inhabit consciousness itself as it approaches its limits."
+- question: Explain how Dostoevsky establishes 'the novel as vehicle for exploring consciousness at its limits.' What does it mean for consciousness to be 'at its limits,' and how does narrative form represent this condition?
+  type: short-answer
+  explanation: 'Consciousness ''at its limits'' means consciousness approaching questions it cannot fully answer: Is there meaning? Is faith possible? Is morality objective? When consciousness encounters these limits, it cannot retreat to comfortable certainty; it must remain engaged in crisis. Dostoevsky''s narrative form represents this condition by refusing narrative resolution. The novel does not settle the philosophical questions; instead, it enacts them in the consciousness of characters. Interior monologue gives access to consciousness as it struggles with impossible questions. Philosophical dialogue between characters becomes action—arguments are not supplementary but what the characters actually do. The narrative structure itself remains open-ended, refusing to impose meaning. This form allows the novel to represent consciousness in authentic crisis. By keeping consciousness in dialogue with ultimate questions, Dostoevsky discovers the novel''s capacity to explore the deepest dimensions of human experience. Earlier novels described characters; Dostoevsky''s novels allow readers to inhabit consciousness itself as it approaches its limits.'
 ```
 
 ## Explainer

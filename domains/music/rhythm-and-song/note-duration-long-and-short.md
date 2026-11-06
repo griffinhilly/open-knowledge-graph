@@ -35,40 +35,40 @@ Use movement to feel duration: step and hold for long notes, quick taps for shor
 ## Questions
 
 ```yaml
-- question: "What does note duration tell you?"
-  type: mc
+- question: What does note duration tell you?
+  type: multiple-choice
   options:
-    - "How high or low a note is"
-    - "How long a sound should last"
-    - "What instrument to use"
-    - "How loud a note should be"
+  - How high or low a note is
+  - How long a sound should last
+  - What instrument to use
+  - How loud a note should be
   answer: 1
-  explanation: "Duration is about time—how long each sound continues. It tells you if a note is short or long."
+  explanation: Duration is about time—how long each sound continues. It tells you if a note is short or long.
 
-- question: "A long note and a short note can be the same pitch (the same height)."
-  type: tf
+- question: A long note and a short note can be the same pitch (the same height).
+  type: true-false
   answer: true
-  explanation: "Yes! You can sing the same note—like the letter C—but hold it for different amounts of time. Duration is separate from pitch."
+  explanation: Yes! You can sing the same note—like the letter C—but hold it for different amounts of time. Duration is separate from pitch.
 
-- question: "If a song uses mostly long notes, how would it feel?"
-  type: mc
+- question: If a song uses mostly long notes, how would it feel?
+  type: multiple-choice
   options:
-    - "Fast and bouncy"
-    - "Slow and calm or peaceful"
-    - "Loud and exciting"
-    - "Very confusing"
+  - Fast and bouncy
+  - Slow and calm or peaceful
+  - Loud and exciting
+  - Very confusing
   answer: 1
-  explanation: "Long notes make music sound slower and more flowing. Short notes make it feel quick and energetic."
+  explanation: Long notes make music sound slower and more flowing. Short notes make it feel quick and energetic.
 
-- question: "Short notes always sound quieter than long notes."
-  type: tf
+- question: Short notes always sound quieter than long notes.
+  type: true-false
   answer: false
-  explanation: "A short note can be played loudly or softly. Duration and loudness are two different things in music."
+  explanation: A short note can be played loudly or softly. Duration and loudness are two different things in music.
 
-- question: "Describe how the combination of long and short notes helps create the rhythm of a song."
-  type: sa
-  answer: "Different lengths create patterns and make the song interesting. Some sounds hold, some are quick, and this pattern repeats to make the rhythm."
-  explanation: "A good answer shows that different durations create variety and pattern in music, not just random sounds."
+- question: Describe how the combination of long and short notes helps create the rhythm of a song.
+  type: short-answer
+  answer: Different lengths create patterns and make the song interesting. Some sounds hold, some are quick, and this pattern repeats to make the rhythm.
+  explanation: A good answer shows that different durations create variety and pattern in music, not just random sounds.
 ```
 
 ## Explainer

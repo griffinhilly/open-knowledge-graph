@@ -31,35 +31,39 @@ Analyze dystopian YA texts like 'The Hunger Games' or 'Divergent,' identifying r
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What function does a rigidly controlled dystopian society serve narratively in YA literature?"
-    options:
-      - "Dystopian settings serve no narrative purpose"
-      - "The tightly controlled system creates obvious power structures and injustice that force adolescent protagonists to confront institutional oppression, often catalyzing resistance and raising questions about authority and freedom"
-      - "Dystopian settings are only for showing how bad things can be"
-      - "YA dystopias don't explore themes"
-    answer: 1
-    explanation: "Dystopian worldbuilding creates high stakes and clear power structures that function as narrative vehicles for exploring adolescent themes of autonomy, resistance, and identity formation."
-  - question: "Why might dystopian worldbuilding appeal to YA audiences specifically?"
-    options:
-      - "It doesn't appeal to YA audiences"
-      - "Teenagers are beginning to recognize institutional power structures and social control; dystopias make these systems visible, exaggerated, and thematic, validating adolescent awareness of institutional constraint"
-      - "Only adults are interested in dystopias"
-      - "Dystopias have nothing to do with adolescent development"
-    answer: 1
-    explanation: "YA readers navigating schools, families, and institutions are beginning to recognize how institutional systems shape their lives. Dystopias make these systems explicit and central, which resonates with adolescent experience."
+- question: What function does a rigidly controlled dystopian society serve narratively in YA literature?
+  type: multiple-choice
+  options:
+  - Dystopian settings serve no narrative purpose
+  - The tightly controlled system creates obvious power structures and injustice that force adolescent protagonists to confront institutional oppression, often catalyzing resistance and raising questions about authority and freedom
+  - Dystopian settings are only for showing how bad things can be
+  - YA dystopias don't explore themes
+  answer: 1
+  explanation: Dystopian worldbuilding creates high stakes and clear power structures that function as narrative vehicles for exploring adolescent themes of autonomy, resistance, and identity formation.
 
-true-false:
-  - question: "True or False: Dystopian YA typically features powerful, autonomous protagonists who easily overcome the dystopian system."
-    answer: false
-    explanation: "False. Most dystopian YA features protagonists initially constrained by the system, gradually recognizing injustice, and struggling against institutional power—their resistance is difficult, costly, and doesn't guarantee success."
-  - question: "True or False: The popularity of dystopian YA in specific historical moments may reflect adolescent anxieties about contemporary social conditions."
-    answer: true
-    explanation: "True. Peaks in dystopian YA popularity often correlate with periods of social anxiety, surveillance expansion, or political uncertainty—the fiction reflects real concerns."
+- question: Why might dystopian worldbuilding appeal to YA audiences specifically?
+  type: multiple-choice
+  options:
+  - It doesn't appeal to YA audiences
+  - Teenagers are beginning to recognize institutional power structures and social control; dystopias make these systems visible, exaggerated, and thematic, validating adolescent awareness of institutional constraint
+  - Only adults are interested in dystopias
+  - Dystopias have nothing to do with adolescent development
+  answer: 1
+  explanation: YA readers navigating schools, families, and institutions are beginning to recognize how institutional systems shape their lives. Dystopias make these systems explicit and central, which resonates with adolescent experience.
 
-short-answer:
-  - question: "Analyze a dystopian YA novel you know. How does the dystopian worldbuilding function thematically? What anxieties or concerns does it address? What does the protagonist's relationship to the system reveal about YA audiences' concerns?"
-    explanation: "Your answer should identify specific worldbuilding elements (faction system, surveillance, resource control, etc.) and analyze what they represent thematically. For example, 'The Hunger Games' uses extreme surveillance and forced violence to represent how institutional power shapes bodies and choices; the protagonist's resistance explores autonomy and agency. 'Divergent' uses faction-based categorization to explore identity and belonging. The worldbuilding externalizes and makes visible systems that exist in less obvious forms in actual society. By analyzing how protagonists navigate these systems—what choices they make, what it costs them, what alternatives they imagine—we can see what the fiction suggests about institutional power, freedom, and resistance. The point is recognizing that dystopian worldbuilding is not mere backdrop but carries thematic weight reflecting real adolescent anxieties."
+- question: 'True or False: Dystopian YA typically features powerful, autonomous protagonists who easily overcome the dystopian system.'
+  type: true-false
+  answer: false
+  explanation: False. Most dystopian YA features protagonists initially constrained by the system, gradually recognizing injustice, and struggling against institutional power—their resistance is difficult, costly, and doesn't guarantee success.
+
+- question: 'True or False: The popularity of dystopian YA in specific historical moments may reflect adolescent anxieties about contemporary social conditions.'
+  type: true-false
+  answer: true
+  explanation: True. Peaks in dystopian YA popularity often correlate with periods of social anxiety, surveillance expansion, or political uncertainty—the fiction reflects real concerns.
+
+- question: Analyze a dystopian YA novel you know. How does the dystopian worldbuilding function thematically? What anxieties or concerns does it address? What does the protagonist's relationship to the system reveal about YA audiences' concerns?
+  type: short-answer
+  explanation: Your answer should identify specific worldbuilding elements (faction system, surveillance, resource control, etc.) and analyze what they represent thematically. For example, 'The Hunger Games' uses extreme surveillance and forced violence to represent how institutional power shapes bodies and choices; the protagonist's resistance explores autonomy and agency. 'Divergent' uses faction-based categorization to explore identity and belonging. The worldbuilding externalizes and makes visible systems that exist in less obvious forms in actual society. By analyzing how protagonists navigate these systems—what choices they make, what it costs them, what alternatives they imagine—we can see what the fiction suggests about institutional power, freedom, and resistance. The point is recognizing that dystopian worldbuilding is not mere backdrop but carries thematic weight reflecting real adolescent anxieties.
 ```
 
 ## Explainer

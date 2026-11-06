@@ -25,36 +25,39 @@ Pulp fiction—published in cheap pulp magazines from the 1890s through mid-20th
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "Which of the following best describes pulp fiction's material and economic context?"
-    options:
-      - "Prestigious hardcover books sold to elite literary audiences"
-      - "Cheap magazines made from low-quality pulp paper designed for mass consumption"
-      - "Serialized novels in expensive literary journals"
-      - "Handwritten manuscripts for private collectors"
-    correct_answer: 1
-    explanation: "The core idea describes pulp as 'cheap pulp magazines' that were 'disposable (literally made of pulp paper),' emphasizing the material and economic aspects of their production."
-  - type: multiple-choice
-    question: "What narrative priorities does pulp fiction emphasize over character depth?"
-    options:
-      - "Realism and social criticism"
-      - "Philosophical complexity and moral ambiguity"
-      - "Action, clear morality, and spectacle"
-      - "Experimental narrative techniques"
-    correct_answer: 2
-    explanation: "The core idea explicitly states that pulp 'emphasized action, clear morality (often), and spectacle over psychological depth.'"
-  - type: true-false
-    question: "Pulp fiction's influence on genre literature was limited to its own era and has little relevance to contemporary narratives."
-    correct_answer: false
-    explanation: "The core idea states that pulp was 'deeply influential on subsequent genre development' and notes that 'contemporary superhero narratives, detective fiction, and adventure fiction inherit pulp's traditions.'"
-  - type: true-false
-    question: "The disposable nature of pulp magazines was both a literal material fact and a reflection of their economic purpose."
-    correct_answer: true
-    explanation: "The core idea notes they were 'disposable (literally made of pulp paper),' suggesting both the physical material and the commercial intent of producing temporary entertainment products."
-  - type: short-answer
-    question: "How did pulp fiction's emphasis on action and clear morality shape the conventions used in contemporary genre narratives?"
-    explanation: "A strong answer should explain that pulp's prioritization of plot momentum, straightforward character motivations, and spectacle over psychological complexity created templates that persists in modern action, superhero, and adventure narratives. Students should demonstrate understanding that genre conventions are not arbitrary but emerged from specific historical conditions."
+- question: Which of the following best describes pulp fiction's material and economic context?
+  type: multiple-choice
+  options:
+  - Prestigious hardcover books sold to elite literary audiences
+  - Cheap magazines made from low-quality pulp paper designed for mass consumption
+  - Serialized novels in expensive literary journals
+  - Handwritten manuscripts for private collectors
+  answer: 1
+  explanation: The core idea describes pulp as 'cheap pulp magazines' that were 'disposable (literally made of pulp paper),' emphasizing the material and economic aspects of their production.
+
+- question: What narrative priorities does pulp fiction emphasize over character depth?
+  type: multiple-choice
+  options:
+  - Realism and social criticism
+  - Philosophical complexity and moral ambiguity
+  - Action, clear morality, and spectacle
+  - Experimental narrative techniques
+  answer: 2
+  explanation: The core idea explicitly states that pulp 'emphasized action, clear morality (often), and spectacle over psychological depth.'
+
+- question: Pulp fiction's influence on genre literature was limited to its own era and has little relevance to contemporary narratives.
+  type: true-false
+  answer: false
+  explanation: The core idea states that pulp was 'deeply influential on subsequent genre development' and notes that 'contemporary superhero narratives, detective fiction, and adventure fiction inherit pulp's traditions.'
+
+- question: The disposable nature of pulp magazines was both a literal material fact and a reflection of their economic purpose.
+  type: true-false
+  answer: true
+  explanation: The core idea notes they were 'disposable (literally made of pulp paper),' suggesting both the physical material and the commercial intent of producing temporary entertainment products.
+
+- question: How did pulp fiction's emphasis on action and clear morality shape the conventions used in contemporary genre narratives?
+  type: short-answer
+  explanation: A strong answer should explain that pulp's prioritization of plot momentum, straightforward character motivations, and spectacle over psychological complexity created templates that persists in modern action, superhero, and adventure narratives. Students should demonstrate understanding that genre conventions are not arbitrary but emerged from specific historical conditions.
 ```
 
 ## Explainer

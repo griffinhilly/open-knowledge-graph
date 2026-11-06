@@ -29,35 +29,39 @@ Boarding school narratives place protagonists in closed communities away from fa
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What is the central function of the boarding school setting in children's and YA literature?"
-    options:
-      - "To provide a realistic depiction of contemporary education"
-      - "To create a self-contained community where adolescents can explore identity, belonging, and independence away from parental authority"
-      - "To eliminate all friendships and social bonding among characters"
-      - "To serve exclusively as a location for academic achievement narratives"
-    answer: 1
-    explanation: "The boarding school in children's literature functions as an isolated social microcosm where adolescent characters can navigate identity formation, peer relationships, and independence without direct parental oversight, making it ideal for coming-of-age narratives."
-  - question: "Which literary convention is foundational to the boarding school narrative tradition?"
-    options:
-      - "The protagonist must fail academically"
-      - "Friendships formed at school are temporary and meaningless"
-      - "The protagonist arrives as an outsider and gradually becomes integrated into a complex social hierarchy through trials, friendships, and character development"
-      - "Schools are portrayed as purely authoritarian institutions with no community"
-    answer: 2
-    explanation: "The classic boarding school narrative arc involves arrival as an outsider, navigation of social systems, formation of deep friendships, and gradual belonging—a structure that mirrors adolescent identity formation."
+- question: What is the central function of the boarding school setting in children's and YA literature?
+  type: multiple-choice
+  options:
+  - To provide a realistic depiction of contemporary education
+  - To create a self-contained community where adolescents can explore identity, belonging, and independence away from parental authority
+  - To eliminate all friendships and social bonding among characters
+  - To serve exclusively as a location for academic achievement narratives
+  answer: 1
+  explanation: The boarding school in children's literature functions as an isolated social microcosm where adolescent characters can navigate identity formation, peer relationships, and independence without direct parental oversight, making it ideal for coming-of-age narratives.
 
-true-false:
-  - question: "True or False: Boarding school narratives primarily focus on classroom learning and academic subjects."
-    answer: false
-    explanation: "This is false. While academic life provides setting, boarding school narratives typically emphasize peer relationships, social hierarchies, personal growth, and identity formation outside the classroom."
-  - question: "True or False: The boarding school setting allows for exploration of themes like belonging and independence because it physically separates adolescents from parental authority."
-    answer: true
-    explanation: "This is true. The boarding school's defining characteristic—parental absence combined with a self-contained community—creates conditions where adolescents must navigate identity and belonging primarily through peer relationships and institutional structures."
+- question: Which literary convention is foundational to the boarding school narrative tradition?
+  type: multiple-choice
+  options:
+  - The protagonist must fail academically
+  - Friendships formed at school are temporary and meaningless
+  - The protagonist arrives as an outsider and gradually becomes integrated into a complex social hierarchy through trials, friendships, and character development
+  - Schools are portrayed as purely authoritarian institutions with no community
+  answer: 2
+  explanation: The classic boarding school narrative arc involves arrival as an outsider, navigation of social systems, formation of deep friendships, and gradual belonging—a structure that mirrors adolescent identity formation.
 
-short-answer:
-  - question: "Why might an author choose a boarding school setting rather than a day school to tell a story about an adolescent character's journey toward self-discovery and belonging?"
-    explanation: "The boarding school creates a complete, enclosed social world where the protagonist's entire life occurs within the school community, intensifying peer relationships and social hierarchies while removing the parental buffer that would exist in a day school or home setting. This allows the narrative to focus entirely on the adolescent's peer relationships, social positioning, and internal development without interruption from family dynamics. The separation from home also symbolically represents the adolescent's move toward independence, making the boarding school not just a setting but a physical manifestation of the coming-of-age process itself."
+- question: 'True or False: Boarding school narratives primarily focus on classroom learning and academic subjects.'
+  type: true-false
+  answer: false
+  explanation: This is false. While academic life provides setting, boarding school narratives typically emphasize peer relationships, social hierarchies, personal growth, and identity formation outside the classroom.
+
+- question: 'True or False: The boarding school setting allows for exploration of themes like belonging and independence because it physically separates adolescents from parental authority.'
+  type: true-false
+  answer: true
+  explanation: This is true. The boarding school's defining characteristic—parental absence combined with a self-contained community—creates conditions where adolescents must navigate identity and belonging primarily through peer relationships and institutional structures.
+
+- question: Why might an author choose a boarding school setting rather than a day school to tell a story about an adolescent character's journey toward self-discovery and belonging?
+  type: short-answer
+  explanation: The boarding school creates a complete, enclosed social world where the protagonist's entire life occurs within the school community, intensifying peer relationships and social hierarchies while removing the parental buffer that would exist in a day school or home setting. This allows the narrative to focus entirely on the adolescent's peer relationships, social positioning, and internal development without interruption from family dynamics. The separation from home also symbolically represents the adolescent's move toward independence, making the boarding school not just a setting but a physical manifestation of the coming-of-age process itself.
 ```
 
 ## Explainer

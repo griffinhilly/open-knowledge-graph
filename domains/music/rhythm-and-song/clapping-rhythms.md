@@ -37,40 +37,40 @@ Start with simple two-beat patterns and gradually add complexity. Use rhythm syl
 ## Questions
 
 ```yaml
-- question: "What skill are you practicing when you clap along to a song?"
-  type: mc
+- question: What skill are you practicing when you clap along to a song?
+  type: multiple-choice
   options:
-    - "How to sing louder"
-    - "How to follow the rhythm and keep time with the music"
-    - "How to read music"
-    - "How to play an instrument"
+  - How to sing louder
+  - How to follow the rhythm and keep time with the music
+  - How to read music
+  - How to play an instrument
   answer: 1
-  explanation: "Clapping along helps you feel the rhythm and learn to stay with the music at the right time."
+  explanation: Clapping along helps you feel the rhythm and learn to stay with the music at the right time.
 
-- question: "You can clap different rhythms than your friends and still be clapping the same song."
-  type: tf
+- question: You can clap different rhythms than your friends and still be clapping the same song.
+  type: true-false
   answer: true
-  explanation: "Yes! Different parts of a song can have different rhythms. The beat under the song stays the same, but the rhythm patterns can be different for different instruments or voices."
+  explanation: Yes! Different parts of a song can have different rhythms. The beat under the song stays the same, but the rhythm patterns can be different for different instruments or voices.
 
-- question: "When you clap the rhythm of a song, what are you copying?"
-  type: mc
+- question: When you clap the rhythm of a song, what are you copying?
+  type: multiple-choice
   options:
-    - "The beats your foot would tap"
-    - "The pattern of long and short sounds in the melody"
-    - "The notes on the staff"
-    - "The speed of the song"
+  - The beats your foot would tap
+  - The pattern of long and short sounds in the melody
+  - The notes on the staff
+  - The speed of the song
   answer: 1
-  explanation: "You're clapping the pattern of long and short sounds that match the song. This is the rhythm, which is different from the steady beat."
+  explanation: You're clapping the pattern of long and short sounds that match the song. This is the rhythm, which is different from the steady beat.
 
-- question: "Clapping requires hearing the music but not understanding it."
-  type: tf
+- question: Clapping requires hearing the music but not understanding it.
+  type: true-false
   answer: false
-  explanation: "To clap rhythms well, you need to listen carefully and understand the pattern of long and short sounds in the music."
+  explanation: To clap rhythms well, you need to listen carefully and understand the pattern of long and short sounds in the music.
 
-- question: "What can you learn about a song by clapping its rhythm with a friend?"
-  type: sa
-  answer: "You can learn how the melody goes, notice patterns, and understand how different parts fit together."
-  explanation: "A good answer shows that clapping teaches you to listen carefully, feel timing, and understand how a song is built from smaller pieces."
+- question: What can you learn about a song by clapping its rhythm with a friend?
+  type: short-answer
+  answer: You can learn how the melody goes, notice patterns, and understand how different parts fit together.
+  explanation: A good answer shows that clapping teaches you to listen carefully, feel timing, and understand how a song is built from smaller pieces.
 ```
 
 ## Explainer

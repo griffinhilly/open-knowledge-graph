@@ -27,36 +27,39 @@ Satire uses exaggeration, irony, and ridicule to critique social systems, instit
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What does satire primarily target with its critique?"
-    options:
-      - "Individual authors or specific literary works"
-      - "Social systems, institutions, or ideologies"
-      - "Personal quirks of individual characters"
-      - "The reader's moral failings"
-    correct_answer: 1
-    explanation: "The core idea explicitly states that 'satire targets institutions or ideologies,' distinguishing it from parody which mocks individual works or styles."
-  - type: multiple-choice
-    question: "How does satire use genre conventions and realistic detail to create its critique?"
-    options:
-      - "By abandoning all literary conventions and writing randomly"
-      - "By using genre conventions and realistic detail as tools to reveal absurdities and contradictions"
-      - "By creating purely fantastical worlds divorced from reality"
-      - "By avoiding all humor and maintaining absolute seriousness"
-    correct_answer: 1
-    explanation: "The core idea states that satire employs 'genre conventions and realistic detail to reveal absurdities and contradictions,' using the very structures it critiques as tools for exposure."
-  - type: true-false
-    question: "Satire and parody target the same subjects—they are essentially the same literary technique."
-    correct_answer: false
-    explanation: "The core idea distinguishes the two: 'Unlike parody (which mocks individual works or styles), satire targets institutions or ideologies.' They are distinct techniques with different targets."
-  - type: true-false
-    question: "Exaggeration and irony are essential techniques in satirical writing."
-    correct_answer: true
-    explanation: "The core idea identifies 'exaggeration, irony, and ridicule' as the primary techniques satire uses to achieve its critique."
-  - type: short-answer
-    question: "Why is the combination of sharp observation with formal wit important for effective satire?"
-    explanation: "A strong answer should explain that sharp observation reveals genuine absurdities in social systems while formal wit makes those absurdities entertaining and memorable. Students should demonstrate understanding that satire requires both intellectual rigor (spotting real contradictions) and stylistic skill (making the critique witty and engaging)."
+- question: What does satire primarily target with its critique?
+  type: multiple-choice
+  options:
+  - Individual authors or specific literary works
+  - Social systems, institutions, or ideologies
+  - Personal quirks of individual characters
+  - The reader's moral failings
+  answer: 1
+  explanation: The core idea explicitly states that 'satire targets institutions or ideologies,' distinguishing it from parody which mocks individual works or styles.
+
+- question: How does satire use genre conventions and realistic detail to create its critique?
+  type: multiple-choice
+  options:
+  - By abandoning all literary conventions and writing randomly
+  - By using genre conventions and realistic detail as tools to reveal absurdities and contradictions
+  - By creating purely fantastical worlds divorced from reality
+  - By avoiding all humor and maintaining absolute seriousness
+  answer: 1
+  explanation: The core idea states that satire employs 'genre conventions and realistic detail to reveal absurdities and contradictions,' using the very structures it critiques as tools for exposure.
+
+- question: Satire and parody target the same subjects—they are essentially the same literary technique.
+  type: true-false
+  answer: false
+  explanation: 'The core idea distinguishes the two: ''Unlike parody (which mocks individual works or styles), satire targets institutions or ideologies.'' They are distinct techniques with different targets.'
+
+- question: Exaggeration and irony are essential techniques in satirical writing.
+  type: true-false
+  answer: true
+  explanation: The core idea identifies 'exaggeration, irony, and ridicule' as the primary techniques satire uses to achieve its critique.
+
+- question: Why is the combination of sharp observation with formal wit important for effective satire?
+  type: short-answer
+  explanation: A strong answer should explain that sharp observation reveals genuine absurdities in social systems while formal wit makes those absurdities entertaining and memorable. Students should demonstrate understanding that satire requires both intellectual rigor (spotting real contradictions) and stylistic skill (making the critique witty and engaging).
 ```
 
 ## Explainer

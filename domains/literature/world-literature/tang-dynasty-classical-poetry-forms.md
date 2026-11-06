@@ -36,39 +36,39 @@ Tang poetry was not 'free expression within forms'—the regulations were absolu
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What is the significance of Tang Dynasty poets perfecting the lüshi (regulated verse) form?"
+- question: What is the significance of Tang Dynasty poets perfecting the lüshi (regulated verse) form?
+  type: multiple-choice
   options:
-    - "Lüshi was a simple form that required no technical mastery"
-    - "The perfection of lüshi created a closed formal system of extraordinary constraint where every element—tonal pattern, rhyme, parallelism—was regulated absolutely"
-    - "Tang poets rejected regulated forms in favor of free composition"
-    - "Lüshi was a minor form compared to other Chinese poetic traditions"
+  - Lüshi was a simple form that required no technical mastery
+  - The perfection of lüshi created a closed formal system of extraordinary constraint where every element—tonal pattern, rhyme, parallelism—was regulated absolutely
+  - Tang poets rejected regulated forms in favor of free composition
+  - Lüshi was a minor form compared to other Chinese poetic traditions
   answer: 1
-  explanation: "The lüshi form, fully developed in the Tang, represents one of world literature's most rigorous formal systems. An eight-line lüshi poem has absolutely specified requirements: each line contains five or seven characters; the tonal pattern must follow specific rules (level and oblique tones in specified positions); rhyme appears at specific positions; the middle couplets (lines 3-4 and 5-6) must display parallelism—syntax mirrors while meanings are antithetical or complementary. These are not guidelines but absolute requirements; violations were considered technical failures. This closed formal system created extraordinary constraint: the poet must find words that simultaneously convey intended meaning, fit the required tonal pattern, maintain the rhyme scheme, and satisfy parallelism requirements. The regulations were not burdensome but generative: they forced compression and precision, creating meaning-density impossible in less constrained forms."
+  explanation: 'The lüshi form, fully developed in the Tang, represents one of world literature''s most rigorous formal systems. An eight-line lüshi poem has absolutely specified requirements: each line contains five or seven characters; the tonal pattern must follow specific rules (level and oblique tones in specified positions); rhyme appears at specific positions; the middle couplets (lines 3-4 and 5-6) must display parallelism—syntax mirrors while meanings are antithetical or complementary. These are not guidelines but absolute requirements; violations were considered technical failures. This closed formal system created extraordinary constraint: the poet must find words that simultaneously convey intended meaning, fit the required tonal pattern, maintain the rhyme scheme, and satisfy parallelism requirements. The regulations were not burdensome but generative: they forced compression and precision, creating meaning-density impossible in less constrained forms.'
 
-- type: multiple-choice
-  question: "How do the canonical aesthetic standards established during the Tang Dynasty affect subsequent Chinese poetry tradition?"
+- question: How do the canonical aesthetic standards established during the Tang Dynasty affect subsequent Chinese poetry tradition?
+  type: multiple-choice
   options:
-    - "Later poets rejected Tang standards in favor of innovation"
-    - "The Tang established aesthetic standards—regulated forms, tonal schemes, allusive depth—that became prescriptive for all subsequent Chinese poetry"
-    - "Standards established in earlier periods were more important than Tang innovations"
-    - "There is no connection between Tang aesthetics and later poetry"
+  - Later poets rejected Tang standards in favor of innovation
+  - The Tang established aesthetic standards—regulated forms, tonal schemes, allusive depth—that became prescriptive for all subsequent Chinese poetry
+  - Standards established in earlier periods were more important than Tang innovations
+  - There is no connection between Tang aesthetics and later poetry
   answer: 1
-  explanation: "The Tang Dynasty's achievement in perfecting and establishing canonical standards for regulated verse was so powerful that these standards became normative for all subsequent Chinese poetry. Later poets measured their work against Tang achievement. The lüshi form, the aesthetic principles, the understanding of how tonal and semantic elements work together—these became binding conventions. Even when poets challenged or modified these standards, they did so in conscious dialogue with Tang achievement. The prescriptiveness is not restrictive in the sense of preventing innovation; rather, it establishes the ground on which innovation occurs. Poets could be innovative within the Tang framework or in deliberate violation of it, but the frame is always present."
+  explanation: The Tang Dynasty's achievement in perfecting and establishing canonical standards for regulated verse was so powerful that these standards became normative for all subsequent Chinese poetry. Later poets measured their work against Tang achievement. The lüshi form, the aesthetic principles, the understanding of how tonal and semantic elements work together—these became binding conventions. Even when poets challenged or modified these standards, they did so in conscious dialogue with Tang achievement. The prescriptiveness is not restrictive in the sense of preventing innovation; rather, it establishes the ground on which innovation occurs. Poets could be innovative within the Tang framework or in deliberate violation of it, but the frame is always present.
 
-- type: true-false
-  statement: "The absolute regulations in Tang regulated verse prevented poets from expressing complex ideas or individual perspective."
+- question: The absolute regulations in Tang regulated verse prevented poets from expressing complex ideas or individual perspective.
+  type: true-false
   answer: false
-  explanation: "This misconception treats constraint as preventing expression. In fact, individual genius in Tang poetry consisted partly in manipulating the regulations brilliantly. A great poet like Du Fu could express complex thoughts, philosophical depth, and distinctive voice while maintaining perfect technical control. The regulations did not prevent this; they provided the framework within which it occurred. The greatest Tang poets are distinguished partly by their technical mastery—their ability to satisfy all formal requirements while expressing sophisticated content. The constraint forced precision: every word had to do multiple kinds of work simultaneously. This intensified rather than prevented meaning-making."
+  explanation: 'This misconception treats constraint as preventing expression. In fact, individual genius in Tang poetry consisted partly in manipulating the regulations brilliantly. A great poet like Du Fu could express complex thoughts, philosophical depth, and distinctive voice while maintaining perfect technical control. The regulations did not prevent this; they provided the framework within which it occurred. The greatest Tang poets are distinguished partly by their technical mastery—their ability to satisfy all formal requirements while expressing sophisticated content. The constraint forced precision: every word had to do multiple kinds of work simultaneously. This intensified rather than prevented meaning-making.'
 
-- type: true-false
-  statement: "The absolute nature of Tang poetry regulations means that all properly constructed poems are equally excellent."
+- question: The absolute nature of Tang poetry regulations means that all properly constructed poems are equally excellent.
+  type: true-false
   answer: false
-  explanation: "Technical correctness is necessary but not sufficient for poetic excellence. A poem that perfectly satisfies all formal requirements is still a failure if the content is banal or if the poem fails to achieve emotional or intellectual depth. Conversely, the greatest Tang poems satisfy perfect technical requirements while achieving extraordinary meaning-density and emotional impact. The regulations create the conditions for excellence but do not guarantee it; they are a baseline. Recognizing what distinguishes great Tang poetry requires both technical understanding of the form and literary judgment about depth, significance, and impact."
+  explanation: Technical correctness is necessary but not sufficient for poetic excellence. A poem that perfectly satisfies all formal requirements is still a failure if the content is banal or if the poem fails to achieve emotional or intellectual depth. Conversely, the greatest Tang poems satisfy perfect technical requirements while achieving extraordinary meaning-density and emotional impact. The regulations create the conditions for excellence but do not guarantee it; they are a baseline. Recognizing what distinguishes great Tang poetry requires both technical understanding of the form and literary judgment about depth, significance, and impact.
 
-- type: short-answer
-  question: "How does the Tang Dynasty's perfection of regulated verse establish aesthetic standards that become binding for all subsequent Chinese poetry, yet still allow for innovation and genius?"
-  explanation: "The Tang established not merely a form but a standard of excellence: the recognition that regulated verse, when perfectly executed, could achieve extraordinary meaning-density and beauty. This standard became binding: later poets understood that matching or exceeding Tang achievement was the measure of poetic excellence. The bindingness is not restrictive because it creates a shared frame within which innovation occurs. Poets can work within the Tang framework, perfecting it further; they can challenge specific aspects while respecting others; they can deliberately violate standards in ways that comment on those standards. But the frame is always present and powerful. The genius of great poets lies partly in how they navigate this prescriptive tradition—accepting and mastering the standards while finding ways to express individual vision within them. The Tang established that form and meaning are inseparable, that constraint can generate rather than prevent meaning, and that the pursuit of formal perfection is not opposed to philosophical or emotional depth. These principles, established through Tang achievement, become binding aesthetic convictions for subsequent poetry."
+- question: How does the Tang Dynasty's perfection of regulated verse establish aesthetic standards that become binding for all subsequent Chinese poetry, yet still allow for innovation and genius?
+  type: short-answer
+  explanation: 'The Tang established not merely a form but a standard of excellence: the recognition that regulated verse, when perfectly executed, could achieve extraordinary meaning-density and beauty. This standard became binding: later poets understood that matching or exceeding Tang achievement was the measure of poetic excellence. The bindingness is not restrictive because it creates a shared frame within which innovation occurs. Poets can work within the Tang framework, perfecting it further; they can challenge specific aspects while respecting others; they can deliberately violate standards in ways that comment on those standards. But the frame is always present and powerful. The genius of great poets lies partly in how they navigate this prescriptive tradition—accepting and mastering the standards while finding ways to express individual vision within them. The Tang established that form and meaning are inseparable, that constraint can generate rather than prevent meaning, and that the pursuit of formal perfection is not opposed to philosophical or emotional depth. These principles, established through Tang achievement, become binding aesthetic convictions for subsequent poetry.'
 ```
 
 ## Explainer

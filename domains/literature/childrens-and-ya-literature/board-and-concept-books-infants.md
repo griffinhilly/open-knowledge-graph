@@ -23,35 +23,39 @@ Board books and concept books for very young children prioritize sensory experie
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What distinguishes board and concept books from narrative picture books?"
-    options:
-      - "They contain longer, more complex stories"
-      - "They prioritize sensory experience, physical interaction, and conceptual naming over narrative development"
-      - "They use only black and white images"
-      - "They are easier to create than narrative books"
-    answer: 1
-    explanation: "Board and concept books focus on sensory engagement and conceptual learning rather than storytelling, serving different developmental purposes."
-  - question: "Why are durable materials and tactile elements important design choices in board books for infants?"
-    options:
-      - "They are expensive and therefore make books seem more valuable"
-      - "Infants and toddlers need books that withstand physical interaction including chewing, while tactile elements support sensory exploration"
-      - "Soft materials make reading less important"
-      - "Durability is irrelevant to infant literature"
-    answer: 1
-    explanation: "Physical design in board books serves developmental purposes: durability accommodates how babies interact with objects, and tactile elements engage sensory development."
+- question: What distinguishes board and concept books from narrative picture books?
+  type: multiple-choice
+  options:
+  - They contain longer, more complex stories
+  - They prioritize sensory experience, physical interaction, and conceptual naming over narrative development
+  - They use only black and white images
+  - They are easier to create than narrative books
+  answer: 1
+  explanation: Board and concept books focus on sensory engagement and conceptual learning rather than storytelling, serving different developmental purposes.
 
-true-false:
-  - question: "True or False: High contrast colors and simple images in concept books serve meaningful developmental purposes rather than being arbitrary design choices."
-    answer: true
-    explanation: "This is true. High contrast supports developing visual discrimination, and simple images allow young children to focus on identifying concepts."
-  - question: "True or False: Board and concept books are solely functional products with no artistic or literary value."
-    answer: false
-    explanation: "This is false. While functional, well-designed board books represent sophisticated design where artistic choices serve developmental purposes."
+- question: Why are durable materials and tactile elements important design choices in board books for infants?
+  type: multiple-choice
+  options:
+  - They are expensive and therefore make books seem more valuable
+  - Infants and toddlers need books that withstand physical interaction including chewing, while tactile elements support sensory exploration
+  - Soft materials make reading less important
+  - Durability is irrelevant to infant literature
+  answer: 1
+  explanation: 'Physical design in board books serves developmental purposes: durability accommodates how babies interact with objects, and tactile elements engage sensory development.'
 
-short-answer:
-  - question: "How do physical book properties (durability, size, tactile elements) constitute part of the literary experience of board and concept books?"
-    explanation: "In board and concept books, the physical properties of the book itself are integral to the experience in ways different from chapter books or even narrative picture books. The book's durability allows babies to hold, manipulate, and even mouth it safely—the book is both reading object and toy, and its ability to withstand physical interaction is essential. Size and weight are calibrated for small hands. Thick pages are easier for tiny fingers to manipulate than thin paper. Textured elements—rough fabrics, smooth plastics, bumpy beads—engage sensory development. Tactile features aren't decorative supplements to text; they ARE the primary content for preliterate children. High-contrast colors support developing visual discrimination. Simple, bold images allow young children to recognize and name concepts. The physical design communicates concepts and supports learning as effectively as narrative does in other books. Understanding board and concept books as literary works thus requires recognizing that their 'content' includes physical properties and sensory experience, not just visual and textual information."
+- question: 'True or False: High contrast colors and simple images in concept books serve meaningful developmental purposes rather than being arbitrary design choices.'
+  type: true-false
+  answer: true
+  explanation: This is true. High contrast supports developing visual discrimination, and simple images allow young children to focus on identifying concepts.
+
+- question: 'True or False: Board and concept books are solely functional products with no artistic or literary value.'
+  type: true-false
+  answer: false
+  explanation: This is false. While functional, well-designed board books represent sophisticated design where artistic choices serve developmental purposes.
+
+- question: How do physical book properties (durability, size, tactile elements) constitute part of the literary experience of board and concept books?
+  type: short-answer
+  explanation: In board and concept books, the physical properties of the book itself are integral to the experience in ways different from chapter books or even narrative picture books. The book's durability allows babies to hold, manipulate, and even mouth it safely—the book is both reading object and toy, and its ability to withstand physical interaction is essential. Size and weight are calibrated for small hands. Thick pages are easier for tiny fingers to manipulate than thin paper. Textured elements—rough fabrics, smooth plastics, bumpy beads—engage sensory development. Tactile features aren't decorative supplements to text; they ARE the primary content for preliterate children. High-contrast colors support developing visual discrimination. Simple, bold images allow young children to recognize and name concepts. The physical design communicates concepts and supports learning as effectively as narrative does in other books. Understanding board and concept books as literary works thus requires recognizing that their 'content' includes physical properties and sensory experience, not just visual and textual information.
 ```
 
 ## Explainer

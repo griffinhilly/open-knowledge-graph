@@ -33,40 +33,39 @@ Myth's primary function is to explain natural phenomena. (Pre-scientific explana
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What is meant by the 'cosmological function' of myth?"
-    options:
-      - "Myth's ability to entertain audiences with exciting stories"
-      - "Myth's encoding of a culture's understanding of the structure and origin of the universe, reality, and the place of humans within it"
-      - "Myth's role in justifying social hierarchies and power structures"
-      - "Myth's psychological work of integrating unconscious and conscious material"
-    correct: "B"
-    explanation: "The cosmological function of myth addresses ultimate questions about existence: How did the universe come to be? What is its fundamental structure? What is the relationship between the divine and the material? How do humans fit into this cosmos? These are not scientific questions but metaphysical and theological ones."
+- question: What is meant by the 'cosmological function' of myth?
+  type: multiple-choice
+  options:
+  - Myth's ability to entertain audiences with exciting stories
+  - Myth's encoding of a culture's understanding of the structure and origin of the universe, reality, and the place of humans within it
+  - Myth's role in justifying social hierarchies and power structures
+  - Myth's psychological work of integrating unconscious and conscious material
+  answer: 1
+  explanation: 'The cosmological function of myth addresses ultimate questions about existence: How did the universe come to be? What is its fundamental structure? What is the relationship between the divine and the material? How do humans fit into this cosmos? These are not scientific questions but metaphysical and theological ones.'
 
-  - type: multiple-choice
-    question: "How do myths simultaneously serve social, cosmological, and psychological functions?"
-    options:
-      - "Different myths serve different single functions; they don't overlap"
-      - "A single myth often encodes social hierarchies within a cosmic narrative while also processing psychological material, making it multivalent and culturally productive"
-      - "Myths serve these functions sequentially—first social, then cosmological, then psychological"
-      - "The three functions are unrelated aspects of mythology"
-    correct: "B"
-    explanation: "The power of myths lies in their multivalence. A creation myth, for example, establishes cosmic order (cosmological), embeds gender or class hierarchies as divinely ordained (social), and processes anxieties about origins and mortality (psychological). The same myth operates on multiple registers simultaneously."
+- question: How do myths simultaneously serve social, cosmological, and psychological functions?
+  type: multiple-choice
+  options:
+  - Different myths serve different single functions; they don't overlap
+  - A single myth often encodes social hierarchies within a cosmic narrative while also processing psychological material, making it multivalent and culturally productive
+  - Myths serve these functions sequentially—first social, then cosmological, then psychological
+  - The three functions are unrelated aspects of mythology
+  answer: 1
+  explanation: The power of myths lies in their multivalence. A creation myth, for example, establishes cosmic order (cosmological), embeds gender or class hierarchies as divinely ordained (social), and processes anxieties about origins and mortality (psychological). The same myth operates on multiple registers simultaneously.
 
-  - type: true-false
-    question: "All myths within a single culture serve the same primary function."
-    correct: false
-    explanation: "Different myths within a culture emphasize different functions. A trickster tale might primarily serve psychological functions, while a creation myth emphasizes cosmological functions, and a hero myth might justify social hierarchies. The variation reflects the complexity of cultural meaning-making."
+- question: All myths within a single culture serve the same primary function.
+  type: true-false
+  answer: false
+  explanation: Different myths within a culture emphasize different functions. A trickster tale might primarily serve psychological functions, while a creation myth emphasizes cosmological functions, and a hero myth might justify social hierarchies. The variation reflects the complexity of cultural meaning-making.
 
-  - type: true-false
-    question: "The psychological function of myth refers to entertainment value and emotional engagement with narrative."
-    correct: false
-    explanation: "The psychological function refers to myth's work of processing unconscious material, integrating contradictions, and mediating between conscious desire and cultural constraint—not merely entertainment. Myths allow communities to unconsciously explore anxieties, desires, and conflicts."
+- question: The psychological function of myth refers to entertainment value and emotional engagement with narrative.
+  type: true-false
+  answer: false
+  explanation: The psychological function refers to myth's work of processing unconscious material, integrating contradictions, and mediating between conscious desire and cultural constraint—not merely entertainment. Myths allow communities to unconsciously explore anxieties, desires, and conflicts.
 
-  - type: short-answer
-    question: "Choose a well-known myth and explain how it operates simultaneously on cosmological, social, and psychological levels."
-    explanation: "Consider the myth of Prometheus stealing fire for humans. Cosmologically, it establishes the relationship between divine order and human transgression—the stealing of fire marks a boundary between divine and human realms. Socially, it justifies hierarchy (gods control knowledge and power; humans are subordinate) while also justifying human aspiration and rebellion against oppressive limits. Psychologically, it processes the human desire for knowledge and autonomy against the fear of punishment and loss. The same myth encodes a cosmology, a social arrangement, and psychological conflict. Different audiences may emphasize different layers: ancient Greeks might foreground the cosmological boundary, while modern readers might emphasize psychological or social critique. This multivalence is what makes myths endure."
+- question: Choose a well-known myth and explain how it operates simultaneously on cosmological, social, and psychological levels.
+  type: short-answer
+  explanation: 'Consider the myth of Prometheus stealing fire for humans. Cosmologically, it establishes the relationship between divine order and human transgression—the stealing of fire marks a boundary between divine and human realms. Socially, it justifies hierarchy (gods control knowledge and power; humans are subordinate) while also justifying human aspiration and rebellion against oppressive limits. Psychologically, it processes the human desire for knowledge and autonomy against the fear of punishment and loss. The same myth encodes a cosmology, a social arrangement, and psychological conflict. Different audiences may emphasize different layers: ancient Greeks might foreground the cosmological boundary, while modern readers might emphasize psychological or social critique. This multivalence is what makes myths endure.'
 ```
 
 ## Explainer

@@ -34,40 +34,39 @@ The quest succeeds when the hero obtains the object. (Many quests' real transfor
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "In a quest narrative, what is the primary function of the object being sought?"
-    options:
-      - "It is the most important element; the entire point is to acquire it"
-      - "It provides narrative trajectory and purpose, but the real transformation often occurs in the seeking process rather than in obtaining the object"
-      - "It is merely symbolic and has no actual importance in the story"
-      - "It is only important if the hero successfully obtains it"
-    correct: "B"
-    explanation: "While the object focuses the quest, the real work of the narrative often lies in the seeking. Obstacles, trials, and encounters transform the hero. Many quests end in disappointment, failure to obtain the object, or realization that the object's value is different than expected. The sought object structures the narrative but obtaining it is not always the point."
+- question: In a quest narrative, what is the primary function of the object being sought?
+  type: multiple-choice
+  options:
+  - It is the most important element; the entire point is to acquire it
+  - It provides narrative trajectory and purpose, but the real transformation often occurs in the seeking process rather than in obtaining the object
+  - It is merely symbolic and has no actual importance in the story
+  - It is only important if the hero successfully obtains it
+  answer: 1
+  explanation: While the object focuses the quest, the real work of the narrative often lies in the seeking. Obstacles, trials, and encounters transform the hero. Many quests end in disappointment, failure to obtain the object, or realization that the object's value is different than expected. The sought object structures the narrative but obtaining it is not always the point.
 
-  - type: multiple-choice
-    question: "What does it reveal about a quest narrative when the hero obtains the object but finds it disappointing or less valuable than expected?"
-    options:
-      - "The quest has failed because the hero didn't truly want the object"
-      - "It suggests the real value of the quest lay in the seeking process, in transformation and self-discovery, not in possession"
-      - "It means the object was worthless from the beginning"
-      - "The hero has been deceived and the narrative is ending badly"
-    correct: "B"
-    explanation: "When a quest's payoff is disappointing—the Holy Grail brings no miraculous reward, the treasure is less valuable than imagined, the person sought is unavailable—the narrative suggests that the true transformation and value lay in the journey itself. The hero has changed through the seeking; that change is the real achievement, not the object."
+- question: What does it reveal about a quest narrative when the hero obtains the object but finds it disappointing or less valuable than expected?
+  type: multiple-choice
+  options:
+  - The quest has failed because the hero didn't truly want the object
+  - It suggests the real value of the quest lay in the seeking process, in transformation and self-discovery, not in possession
+  - It means the object was worthless from the beginning
+  - The hero has been deceived and the narrative is ending badly
+  answer: 1
+  explanation: When a quest's payoff is disappointing—the Holy Grail brings no miraculous reward, the treasure is less valuable than imagined, the person sought is unavailable—the narrative suggests that the true transformation and value lay in the journey itself. The hero has changed through the seeking; that change is the real achievement, not the object.
 
-  - type: true-false
-    question: "All quest narratives follow an identical structure of hero, object sought, obstacles overcome, and successful attainment."
-    correct: false
-    explanation: "Quest structures vary significantly. Some quests fail to attain the object; some quests end with the hero realizing the object is not what they thought; some quests transform the hero's understanding of what they were seeking. There is no single quest template."
+- question: All quest narratives follow an identical structure of hero, object sought, obstacles overcome, and successful attainment.
+  type: true-false
+  answer: false
+  explanation: Quest structures vary significantly. Some quests fail to attain the object; some quests end with the hero realizing the object is not what they thought; some quests transform the hero's understanding of what they were seeking. There is no single quest template.
 
-  - type: true-false
-    question: "A quest narrative's value depends primarily on whether the hero successfully obtains the sought object."
-    correct: false
-    explanation: "Many important quests derive their meaning from the seeking process itself, not from attainment. Failure, partial success, or disappointment can be more meaningful than successful acquisition."
+- question: A quest narrative's value depends primarily on whether the hero successfully obtains the sought object.
+  type: true-false
+  answer: false
+  explanation: Many important quests derive their meaning from the seeking process itself, not from attainment. Failure, partial success, or disappointment can be more meaningful than successful acquisition.
 
-  - type: short-answer
-    question: "Explain how the structure of a quest narrative can reveal that what the hero actually seeks is different from what they initially believe they're seeking."
-    explanation: "A quest is often structured so that the obstacles the hero encounters and the companions met transform the hero's understanding of their own desire. A knight seeking military glory may, through the quest, discover he seeks wisdom or peace. A seeker pursuing a magical object may discover what they really seek is self-knowledge. The obstacles are not merely impediments but teachers. When the hero finally encounters the object, they may realize it no longer matters, or that they've already found what they truly sought in the seeking itself. This structure reveals a psychological insight: what we think we seek and what we actually need are often different. The quest narrative structures a journey of realization about the self."
+- question: Explain how the structure of a quest narrative can reveal that what the hero actually seeks is different from what they initially believe they're seeking.
+  type: short-answer
+  explanation: 'A quest is often structured so that the obstacles the hero encounters and the companions met transform the hero''s understanding of their own desire. A knight seeking military glory may, through the quest, discover he seeks wisdom or peace. A seeker pursuing a magical object may discover what they really seek is self-knowledge. The obstacles are not merely impediments but teachers. When the hero finally encounters the object, they may realize it no longer matters, or that they''ve already found what they truly sought in the seeking itself. This structure reveals a psychological insight: what we think we seek and what we actually need are often different. The quest narrative structures a journey of realization about the self.'
 ```
 
 ## Explainer

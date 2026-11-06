@@ -26,35 +26,39 @@ Compare children's horror across developmental stages (picture book scares, midd
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "Why do children seek out scary stories and horror literature despite the discomfort fear produces?"
-    options:
-      - "Because they enjoy pure suffering"
-      - "Because fear in controlled, narrative contexts allows practice managing fear, understanding danger, and experiencing catharsis in a psychologically safe environment"
-      - "Because horror is less educational than other genres"
-      - "Because children cannot actually distinguish between real and fictional danger"
-    answer: 1
-    explanation: "Children's developmental psychologists recognize that controlled fear experiences—horror stories with clear fictional frames and resolutions—help children process anxiety, rehearse fear responses, and develop emotional regulation. The contained nature of a story provides safety even as it explores danger."
-  - question: "What distinguishes age-appropriate children's horror from horror intended for adults?"
-    options:
-      - "Children's horror uses no scary elements at all"
-      - "Children's horror calibrates fear intensity, usually includes recovery/resolution, protects emotional safety, and concerns threats children might realistically face rather than gratuitous violence"
-      - "Adult horror is always more effective than children's horror"
-      - "Age-appropriateness in horror is not actually a meaningful category"
-    answer: 1
-    explanation: "Children's horror creators deliberately choose which fears to activate (Is the house haunted? Will the friend betray you?) while protecting against psychological harm through narrative resolution, manageable threat levels, and avoidance of gratuitous suffering. An 8-year-old's scary story works psychologically very differently from an adult's horror."
+- question: Why do children seek out scary stories and horror literature despite the discomfort fear produces?
+  type: multiple-choice
+  options:
+  - Because they enjoy pure suffering
+  - Because fear in controlled, narrative contexts allows practice managing fear, understanding danger, and experiencing catharsis in a psychologically safe environment
+  - Because horror is less educational than other genres
+  - Because children cannot actually distinguish between real and fictional danger
+  answer: 1
+  explanation: Children's developmental psychologists recognize that controlled fear experiences—horror stories with clear fictional frames and resolutions—help children process anxiety, rehearse fear responses, and develop emotional regulation. The contained nature of a story provides safety even as it explores danger.
 
-true-false:
-  - question: "True or False: Children's picture books use scary imagery and moments even when marketed to very young children."
-    answer: true
-    explanation: "True. Many beloved picture books for young children—'Where the Wild Things Are,' 'The Giving Tree,' 'Hansel and Gretel'—include genuinely disturbing elements (abandonment, darkness, danger), calibrated so that the reader can experience mild fear within a psychologically safe frame."
-  - question: "True or False: The presence of scary elements in children's literature is a sign that a book is unsuitable for children."
-    answer: false
-    explanation: "False. Scary elements, when age-appropriately calibrated, serve important developmental functions. A children's book without any tension or threat would feel emotionally false and provide no opportunity for the child to experience managing fear."
+- question: What distinguishes age-appropriate children's horror from horror intended for adults?
+  type: multiple-choice
+  options:
+  - Children's horror uses no scary elements at all
+  - Children's horror calibrates fear intensity, usually includes recovery/resolution, protects emotional safety, and concerns threats children might realistically face rather than gratuitous violence
+  - Adult horror is always more effective than children's horror
+  - Age-appropriateness in horror is not actually a meaningful category
+  answer: 1
+  explanation: Children's horror creators deliberately choose which fears to activate (Is the house haunted? Will the friend betray you?) while protecting against psychological harm through narrative resolution, manageable threat levels, and avoidance of gratuitous suffering. An 8-year-old's scary story works psychologically very differently from an adult's horror.
 
-short-answer:
-  - question: "Explain how a children's horror author might use narrative closure and protagonist agency to keep a genuinely frightening story emotionally safe for young readers."
-    explanation: "A skilled children's horror author creates genuine fear through suspense, disturbing imagery, or supernatural threat—but crucially, the protagonist actively confronts the threat and the story reaches resolution. Rather than uncontrollable doom, the child protagonist finds courage, ingenuity, or support to face danger. The story ends with the threat neutralized or understood, providing psychological closure. Additionally, the author might frame the story with safety markers: a trusted narrator, a warm setting before/after the scary section, or a return to normal life. For example, a middle-grade ghost story might feature vivid, frightening encounters but end with the ghost being helped or explained, the protagonist understanding what happened and finding peace. This approach honors the reader's interest in experiencing fear while protecting them from the psychological damage of unresolved threat—they get the thrilling experience of being scared while maintaining the underlying sense that they are safe and in control."
+- question: 'True or False: Children''s picture books use scary imagery and moments even when marketed to very young children.'
+  type: true-false
+  answer: true
+  explanation: True. Many beloved picture books for young children—'Where the Wild Things Are,' 'The Giving Tree,' 'Hansel and Gretel'—include genuinely disturbing elements (abandonment, darkness, danger), calibrated so that the reader can experience mild fear within a psychologically safe frame.
+
+- question: 'True or False: The presence of scary elements in children''s literature is a sign that a book is unsuitable for children.'
+  type: true-false
+  answer: false
+  explanation: False. Scary elements, when age-appropriately calibrated, serve important developmental functions. A children's book without any tension or threat would feel emotionally false and provide no opportunity for the child to experience managing fear.
+
+- question: Explain how a children's horror author might use narrative closure and protagonist agency to keep a genuinely frightening story emotionally safe for young readers.
+  type: short-answer
+  explanation: 'A skilled children''s horror author creates genuine fear through suspense, disturbing imagery, or supernatural threat—but crucially, the protagonist actively confronts the threat and the story reaches resolution. Rather than uncontrollable doom, the child protagonist finds courage, ingenuity, or support to face danger. The story ends with the threat neutralized or understood, providing psychological closure. Additionally, the author might frame the story with safety markers: a trusted narrator, a warm setting before/after the scary section, or a return to normal life. For example, a middle-grade ghost story might feature vivid, frightening encounters but end with the ghost being helped or explained, the protagonist understanding what happened and finding peace. This approach honors the reader''s interest in experiencing fear while protecting them from the psychological damage of unresolved threat—they get the thrilling experience of being scared while maintaining the underlying sense that they are safe and in control.'
 ```
 
 ## Explainer

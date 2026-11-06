@@ -32,40 +32,39 @@ Myths are simply false stories or pre-scientific superstitions. (Actually, mythi
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What distinguishes a myth from other narrative forms like history or fiction?"
-    options:
-      - "Myths are longer and more complex than other narratives"
-      - "Myths encode a culture's ultimate understanding of reality and meaning through symbolic narrative, functioning to establish worldviews and values"
-      - "Myths always involve superhuman characters, while history and fiction do not"
-      - "Myths are believed literally by modern audiences, while fiction is known to be invented"
-    correct: "B"
-    explanation: "The defining feature of myth is not its content (supernatural beings, cosmic events) but its function: myths work on symbolic and metaphorical levels to encode a culture's answers to ultimate questions. Myths establish worldviews, justify social structures, and transmit values. This gives myths a different kind of 'truth' than factual accuracy—mythic truth is about meaning."
+- question: What distinguishes a myth from other narrative forms like history or fiction?
+  type: multiple-choice
+  options:
+  - Myths are longer and more complex than other narratives
+  - Myths encode a culture's ultimate understanding of reality and meaning through symbolic narrative, functioning to establish worldviews and values
+  - Myths always involve superhuman characters, while history and fiction do not
+  - Myths are believed literally by modern audiences, while fiction is known to be invented
+  answer: 1
+  explanation: 'The defining feature of myth is not its content (supernatural beings, cosmic events) but its function: myths work on symbolic and metaphorical levels to encode a culture''s answers to ultimate questions. Myths establish worldviews, justify social structures, and transmit values. This gives myths a different kind of ''truth'' than factual accuracy—mythic truth is about meaning.'
 
-  - type: multiple-choice
-    question: "Which of the following best describes what scholars mean by 'mythic truth'?"
-    options:
-      - "A story that is scientifically accurate and verifiable"
-      - "A narrative that is completely fictional and has no basis in reality"
-      - "Symbolic truth that encodes cultural values, cosmic understanding, and moral wisdom—operating on a different register than factual or scientific truth"
-      - "A story that all members of a culture believe in literally"
-    correct: "C"
-    explanation: "Mythic truth is not about literal factuality (whether the event happened exactly as described) but about cultural meaning. A myth can be 'true' in transmitting values, establishing a cosmology, or justifying a social practice—even if its events never literally occurred. This is a different mode of truth from scientific explanation."
+- question: Which of the following best describes what scholars mean by 'mythic truth'?
+  type: multiple-choice
+  options:
+  - A story that is scientifically accurate and verifiable
+  - A narrative that is completely fictional and has no basis in reality
+  - Symbolic truth that encodes cultural values, cosmic understanding, and moral wisdom—operating on a different register than factual or scientific truth
+  - A story that all members of a culture believe in literally
+  answer: 2
+  explanation: Mythic truth is not about literal factuality (whether the event happened exactly as described) but about cultural meaning. A myth can be 'true' in transmitting values, establishing a cosmology, or justifying a social practice—even if its events never literally occurred. This is a different mode of truth from scientific explanation.
 
-  - type: true-false
-    question: "Myths should be understood primarily as ancient, pre-scientific attempts to explain natural phenomena that have been superseded by scientific knowledge."
-    correct: false
-    explanation: "While some myths do address natural phenomena, their primary function is not explanation in the scientific sense. Myths encode cultural values, establish meaning, and justify social structures. Modern societies continue to produce and use myths (national origin stories, heroic narratives) even with scientific knowledge available."
+- question: Myths should be understood primarily as ancient, pre-scientific attempts to explain natural phenomena that have been superseded by scientific knowledge.
+  type: true-false
+  answer: false
+  explanation: While some myths do address natural phenomena, their primary function is not explanation in the scientific sense. Myths encode cultural values, establish meaning, and justify social structures. Modern societies continue to produce and use myths (national origin stories, heroic narratives) even with scientific knowledge available.
 
-  - type: true-false
-    question: "A single culture's mythology is always internally consistent and expresses a unified worldview."
-    correct: false
-    explanation: "Cultures frequently contain competing, contradictory, or even paradoxical myths. Different myths may emphasize different values or offer different cosmologies. This multiplicity can be intentional—myths allowing a culture to hold multiple perspectives simultaneously."
+- question: A single culture's mythology is always internally consistent and expresses a unified worldview.
+  type: true-false
+  answer: false
+  explanation: Cultures frequently contain competing, contradictory, or even paradoxical myths. Different myths may emphasize different values or offer different cosmologies. This multiplicity can be intentional—myths allowing a culture to hold multiple perspectives simultaneously.
 
-  - type: short-answer
-    question: "Explain how myths function as tools for justifying social hierarchies and transmitting values, and give an example of how a mythic narrative might serve this function."
-    explanation: "Myths establish certain social arrangements as natural, inevitable, or divinely ordained. They do this by embedding social relationships into cosmic narrative. For example, myths about gender often naturalize gender hierarchies: a creation myth in which women are created from men's bodies (or secondary to men's creation) encodes a subordination that appears cosmological rather than cultural. Or myths about caste systems in Hindu mythology embed social hierarchy into the cosmic body: different castes are said to have originated from different parts of the divine body, making hierarchy seem like natural order rather than human invention. The power of myth for value-transmission is that it makes chosen arrangements feel inevitable—'this is how the world is'—rather than contingent or chosen."
+- question: Explain how myths function as tools for justifying social hierarchies and transmitting values, and give an example of how a mythic narrative might serve this function.
+  type: short-answer
+  explanation: 'Myths establish certain social arrangements as natural, inevitable, or divinely ordained. They do this by embedding social relationships into cosmic narrative. For example, myths about gender often naturalize gender hierarchies: a creation myth in which women are created from men''s bodies (or secondary to men''s creation) encodes a subordination that appears cosmological rather than cultural. Or myths about caste systems in Hindu mythology embed social hierarchy into the cosmic body: different castes are said to have originated from different parts of the divine body, making hierarchy seem like natural order rather than human invention. The power of myth for value-transmission is that it makes chosen arrangements feel inevitable—''this is how the world is''—rather than contingent or chosen.'
 ```
 
 ## Explainer

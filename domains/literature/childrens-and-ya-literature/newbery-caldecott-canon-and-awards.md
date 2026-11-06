@@ -26,35 +26,39 @@ The Newbery Medal (American fiction, 1921-present) and Caldecott Medal (American
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What is the relationship between major awards like the Newbery Medal and literary canon formation in children's literature?"
-    options:
-      - "Awards have no effect on what children read or what librarians purchase"
-      - "Awards shape canon by conferring prestige on specific works, increasing their visibility, sales, and cultural authority, making award-winners more likely to be remembered and taught"
-      - "Literary merit is completely separate from award recognition"
-      - "Awards simply celebrate equal merit among all books"
-    answer: 1
-    explanation: "Awards create visibility and cultural prestige that determine which books survive in print, are taught in schools, and become 'canonical' versus forgotten."
-  - question: "What do the historical evolution of Newbery Medal winners reveal about changing cultural values in children's literature?"
-    options:
-      - "Cultural values regarding children's literature never change"
-      - "Historical award lists show evolution in what judges value: increasing representation of diverse authors and characters, greater social awareness in plots, and shifting definitions of literary merit"
-      - "Awards are purely objective and don't reflect cultural perspectives"
-      - "Children's literature values have remained static for a century"
-    answer: 1
-    explanation: "Award selections reflect shifting cultural values; comparing winners across decades reveals how definitions of merit and representation have evolved."
+- question: What is the relationship between major awards like the Newbery Medal and literary canon formation in children's literature?
+  type: multiple-choice
+  options:
+  - Awards have no effect on what children read or what librarians purchase
+  - Awards shape canon by conferring prestige on specific works, increasing their visibility, sales, and cultural authority, making award-winners more likely to be remembered and taught
+  - Literary merit is completely separate from award recognition
+  - Awards simply celebrate equal merit among all books
+  answer: 1
+  explanation: Awards create visibility and cultural prestige that determine which books survive in print, are taught in schools, and become 'canonical' versus forgotten.
 
-true-false:
-  - question: "True or False: A book that wins the Newbery Medal or Caldecott Medal is guaranteed to be superior to all other children's books published that year."
-    answer: false
-    explanation: "This is false. While awards recognize excellence, they reflect judges' perspectives and values; other equally excellent books may not win, and 'excellence' is culturally constructed."
-  - question: "True or False: The Newbery Medal has historically underrepresented authors of color and books featuring diverse characters compared to their actual publication and quality."
-    answer: true
-    explanation: "This is true. Historical analysis of Newbery winners shows significant underrepresentation of diverse authors and characters until recent years of increasing diversity."
+- question: What do the historical evolution of Newbery Medal winners reveal about changing cultural values in children's literature?
+  type: multiple-choice
+  options:
+  - Cultural values regarding children's literature never change
+  - 'Historical award lists show evolution in what judges value: increasing representation of diverse authors and characters, greater social awareness in plots, and shifting definitions of literary merit'
+  - Awards are purely objective and don't reflect cultural perspectives
+  - Children's literature values have remained static for a century
+  answer: 1
+  explanation: Award selections reflect shifting cultural values; comparing winners across decades reveals how definitions of merit and representation have evolved.
 
-short-answer:
-  - question: "How do major children's literature awards both reflect and shape what becomes considered 'canonical' children's literature, and why does this matter?"
-    explanation: "Awards reflect judges' perspectives on literary merit and value at specific historical moments—these perspectives both embody and shape broader cultural views. When judges select certain books as worthy of highest honor, those books gain visibility, prestige, and commercial success. Schools and libraries prioritize award-winners for purchasing and teaching, making them accessible to more readers. Books remain in print longer and are remembered longer if they've won major awards. Conversely, excellent books that don't win awards risk falling out of print and being forgotten. This creates a self-reinforcing cycle: award-winners become canonical, canonical books are taught and remembered, forgotten books are harder to discover. This matters because canon formation determines what counts as part of our cultural conversation about childhood, what stories are considered worth preserving and teaching, and whose stories (authors, characters, perspectives) get to be seen as representative or important. Analysis of award-winners across history reveals shifts in values—increased representation of diverse authors and characters, growing recognition of social realism, expansion of what counts as literary merit. By making this connection between awards and canon visible, we recognize that 'classics' are not natural or inevitable but constructed through choices about what to honor and preserve."
+- question: 'True or False: A book that wins the Newbery Medal or Caldecott Medal is guaranteed to be superior to all other children''s books published that year.'
+  type: true-false
+  answer: false
+  explanation: This is false. While awards recognize excellence, they reflect judges' perspectives and values; other equally excellent books may not win, and 'excellence' is culturally constructed.
+
+- question: 'True or False: The Newbery Medal has historically underrepresented authors of color and books featuring diverse characters compared to their actual publication and quality.'
+  type: true-false
+  answer: true
+  explanation: This is true. Historical analysis of Newbery winners shows significant underrepresentation of diverse authors and characters until recent years of increasing diversity.
+
+- question: How do major children's literature awards both reflect and shape what becomes considered 'canonical' children's literature, and why does this matter?
+  type: short-answer
+  explanation: 'Awards reflect judges'' perspectives on literary merit and value at specific historical moments—these perspectives both embody and shape broader cultural views. When judges select certain books as worthy of highest honor, those books gain visibility, prestige, and commercial success. Schools and libraries prioritize award-winners for purchasing and teaching, making them accessible to more readers. Books remain in print longer and are remembered longer if they''ve won major awards. Conversely, excellent books that don''t win awards risk falling out of print and being forgotten. This creates a self-reinforcing cycle: award-winners become canonical, canonical books are taught and remembered, forgotten books are harder to discover. This matters because canon formation determines what counts as part of our cultural conversation about childhood, what stories are considered worth preserving and teaching, and whose stories (authors, characters, perspectives) get to be seen as representative or important. Analysis of award-winners across history reveals shifts in values—increased representation of diverse authors and characters, growing recognition of social realism, expansion of what counts as literary merit. By making this connection between awards and canon visible, we recognize that ''classics'' are not natural or inevitable but constructed through choices about what to honor and preserve.'
 ```
 
 ## Explainer

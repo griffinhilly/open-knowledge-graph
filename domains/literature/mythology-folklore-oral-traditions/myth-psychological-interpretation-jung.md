@@ -34,40 +34,39 @@ Jungian interpretation reveals the true meaning of myths. (Jungian analysis is o
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "In Jungian psychology, what is the central function of myth in relation to the unconscious?"
-    options:
-      - "Myths are stories told to distract people from unconscious conflicts"
-      - "Myths express the collective unconscious and activate archetypal material, offering paths toward psychological integration and wholeness"
-      - "Myths are primarily conscious inventions designed to control behavior"
-      - "Myths suppress unconscious material to maintain social order"
-    correct: "B"
-    explanation: "Jung understood myths as expressions of the collective unconscious—the shared psychological patterns that all humans inherit. Myths activate archetypal figures (the Hero, the Shadow, the Wise Old Man, etc.) and engage the reader/listener in a psychological process toward individuation (integration and wholeness)."
+- question: In Jungian psychology, what is the central function of myth in relation to the unconscious?
+  type: multiple-choice
+  options:
+  - Myths are stories told to distract people from unconscious conflicts
+  - Myths express the collective unconscious and activate archetypal material, offering paths toward psychological integration and wholeness
+  - Myths are primarily conscious inventions designed to control behavior
+  - Myths suppress unconscious material to maintain social order
+  answer: 1
+  explanation: Jung understood myths as expressions of the collective unconscious—the shared psychological patterns that all humans inherit. Myths activate archetypal figures (the Hero, the Shadow, the Wise Old Man, etc.) and engage the reader/listener in a psychological process toward individuation (integration and wholeness).
 
-  - type: multiple-choice
-    question: "What does the Jungian concept of 'individuation' refer to in the context of mythological interpretation?"
-    options:
-      - "The process of becoming uniquely individual and separate from society"
-      - "The psychological journey toward integration and wholeness, where conscious and unconscious elements of the psyche are unified"
-      - "The development of ego consciousness and rational thought"
-      - "The process of conforming to social norms and conventions"
-    correct: "B"
-    explanation: "Individuation in Jungian psychology is not isolation but integration. It involves bringing unconscious material (shadow, anima/animus, etc.) into consciousness and integrating these elements into a more complete, whole self. Myths that depict hero journeys, transformations, and confrontations with shadow figures map this psychological process."
+- question: What does the Jungian concept of 'individuation' refer to in the context of mythological interpretation?
+  type: multiple-choice
+  options:
+  - The process of becoming uniquely individual and separate from society
+  - The psychological journey toward integration and wholeness, where conscious and unconscious elements of the psyche are unified
+  - The development of ego consciousness and rational thought
+  - The process of conforming to social norms and conventions
+  answer: 1
+  explanation: Individuation in Jungian psychology is not isolation but integration. It involves bringing unconscious material (shadow, anima/animus, etc.) into consciousness and integrating these elements into a more complete, whole self. Myths that depict hero journeys, transformations, and confrontations with shadow figures map this psychological process.
 
-  - type: true-false
-    question: "Jungian interpretation of myth is universally valid and reveals the single true psychological meaning of any myth."
-    correct: false
-    explanation: "Jungian analysis is a valuable interpretive lens, but it is one among several. Myths have multiple meanings—social, cosmological, historical, textual—and Jungian psychology may illuminate the psychological dimensions while missing or downplaying other important aspects."
+- question: Jungian interpretation of myth is universally valid and reveals the single true psychological meaning of any myth.
+  type: true-false
+  answer: false
+  explanation: Jungian analysis is a valuable interpretive lens, but it is one among several. Myths have multiple meanings—social, cosmological, historical, textual—and Jungian psychology may illuminate the psychological dimensions while missing or downplaying other important aspects.
 
-  - type: true-false
-    question: "All cultures organize psychological integration and wholeness (individuation) in the same way, as reflected in their myths."
-    correct: false
-    explanation: "While archetypal patterns may recur across cultures (the hero, the shadow, the transformation), different cultures construct psychological development and integration differently. What counts as wholeness, maturity, or integration varies culturally. Jungian frameworks must be applied with cultural awareness."
+- question: All cultures organize psychological integration and wholeness (individuation) in the same way, as reflected in their myths.
+  type: true-false
+  answer: false
+  explanation: While archetypal patterns may recur across cultures (the hero, the shadow, the transformation), different cultures construct psychological development and integration differently. What counts as wholeness, maturity, or integration varies culturally. Jungian frameworks must be applied with cultural awareness.
 
-  - type: short-answer
-    question: "Explain the strength and a significant limitation of using Jungian psychology to interpret myths."
-    explanation: "The strength of Jungian interpretation is its capacity to reveal how myths activate and integrate unconscious material, showing how archetypal figures and symbolic patterns engage the reader at a deep psychological level. It illuminates the psychological work that myths do and why mythic narratives have such power and persistence. A significant limitation is the risk of universalizing: Jungian frameworks can impose a Western, individualistic concept of psychological wholeness onto culturally specific narratives. Different cultures may not value or construct 'individuation' as Jung defined it. Additionally, psychological interpretation can reduce myth's multivalence—a myth is simultaneously cosmological, social, historical, and psychological, and focusing exclusively on psychological function may obscure how it legitimates social hierarchies or encodes cosmological principles. Interpretation must balance psychological insight with attention to cultural specificity."
+- question: Explain the strength and a significant limitation of using Jungian psychology to interpret myths.
+  type: short-answer
+  explanation: 'The strength of Jungian interpretation is its capacity to reveal how myths activate and integrate unconscious material, showing how archetypal figures and symbolic patterns engage the reader at a deep psychological level. It illuminates the psychological work that myths do and why mythic narratives have such power and persistence. A significant limitation is the risk of universalizing: Jungian frameworks can impose a Western, individualistic concept of psychological wholeness onto culturally specific narratives. Different cultures may not value or construct ''individuation'' as Jung defined it. Additionally, psychological interpretation can reduce myth''s multivalence—a myth is simultaneously cosmological, social, historical, and psychological, and focusing exclusively on psychological function may obscure how it legitimates social hierarchies or encodes cosmological principles. Interpretation must balance psychological insight with attention to cultural specificity.'
 ```
 
 ## Explainer

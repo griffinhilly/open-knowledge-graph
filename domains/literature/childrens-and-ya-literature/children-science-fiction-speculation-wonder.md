@@ -23,35 +23,39 @@ Science fiction for children emphasizes wonder and imaginative possibility while
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "Why does science fiction for children often prioritize wonder and adventure over technical scientific accuracy?"
-    options:
-      - "Because children cannot understand science"
-      - "Because the primary goal is imaginative engagement with possibility; technical accuracy, while present, is secondary to the sense of awe and speculative thinking the genre cultivates"
-      - "Because science fiction is fundamentally anti-educational"
-      - "Because children's SF is never scientifically informed"
-    answer: 1
-    explanation: "Children's SF serves the developmental function of expanding imaginative possibility and engagement with 'what if' thinking. While science-based, it prioritizes wonder and narrative engagement over technical explanations that might alienate young readers."
-  - question: "What environmental or social themes appear frequently in contemporary children's and YA science fiction?"
-    options:
-      - "None—science fiction for children avoids serious themes"
-      - "Environmental degradation, resource scarcity, technological ethics, and power structures—allowing young readers to think speculatively about contemporary global challenges"
-      - "Only entertainment without educational value"
-      - "Science fiction for children only features space adventure with no thematic depth"
-    answer: 1
-    explanation: "Contemporary YA science fiction often engages with environmental collapse, technological control, inequality, and resistance—allowing young readers to think critically about global concerns through speculative narrative."
+- question: Why does science fiction for children often prioritize wonder and adventure over technical scientific accuracy?
+  type: multiple-choice
+  options:
+  - Because children cannot understand science
+  - Because the primary goal is imaginative engagement with possibility; technical accuracy, while present, is secondary to the sense of awe and speculative thinking the genre cultivates
+  - Because science fiction is fundamentally anti-educational
+  - Because children's SF is never scientifically informed
+  answer: 1
+  explanation: Children's SF serves the developmental function of expanding imaginative possibility and engagement with 'what if' thinking. While science-based, it prioritizes wonder and narrative engagement over technical explanations that might alienate young readers.
 
-true-false:
-  - question: "True or False: Science fiction can help children develop scientific thinking by encouraging 'what if' speculation about how the world could be different."
-    answer: true
-    explanation: "True. SF's central thinking mode—speculating about alternative possibilities based on changed conditions—develops exactly the kind of imaginative scientific thinking that supports curiosity and hypothesis formation."
-  - question: "True or False: Children's science fiction is a minor genre of less importance than realistic children's fiction."
-    answer: false
-    explanation: "False. Science fiction for children serves important functions in developing imaginative horizons, engaging scientific thinking, and allowing speculation about future possibilities in ways realistic fiction cannot."
+- question: What environmental or social themes appear frequently in contemporary children's and YA science fiction?
+  type: multiple-choice
+  options:
+  - None—science fiction for children avoids serious themes
+  - Environmental degradation, resource scarcity, technological ethics, and power structures—allowing young readers to think speculatively about contemporary global challenges
+  - Only entertainment without educational value
+  - Science fiction for children only features space adventure with no thematic depth
+  answer: 1
+  explanation: Contemporary YA science fiction often engages with environmental collapse, technological control, inequality, and resistance—allowing young readers to think critically about global concerns through speculative narrative.
 
-short-answer:
-  - question: "Describe a piece of children's or YA science fiction you know. How does it balance scientific plausibility with narrative accessibility for young readers? What speculative 'what if' does it explore?"
-    explanation: "Your answer should show understanding that effective children's SF maintains some scientific grounding while prioritizing narrative engagement. For example, 'The Hunger Games' asks 'What if society organized around violent spectacle?' without needing extensive technical explanation. 'Ender's Game' explores military ethics and strategic thinking through science fictional frames. 'Crispr' picture books introduce genetic science through accessible narrative. The point is recognizing that children's SF doesn't need to be technically rigorous in ways adult hard SF demands—it needs to make readers wonder about possibility and think speculatively, while grounding wonder in some version of scientific plausibility."
+- question: 'True or False: Science fiction can help children develop scientific thinking by encouraging ''what if'' speculation about how the world could be different.'
+  type: true-false
+  answer: true
+  explanation: True. SF's central thinking mode—speculating about alternative possibilities based on changed conditions—develops exactly the kind of imaginative scientific thinking that supports curiosity and hypothesis formation.
+
+- question: 'True or False: Children''s science fiction is a minor genre of less importance than realistic children''s fiction.'
+  type: true-false
+  answer: false
+  explanation: False. Science fiction for children serves important functions in developing imaginative horizons, engaging scientific thinking, and allowing speculation about future possibilities in ways realistic fiction cannot.
+
+- question: Describe a piece of children's or YA science fiction you know. How does it balance scientific plausibility with narrative accessibility for young readers? What speculative 'what if' does it explore?
+  type: short-answer
+  explanation: Your answer should show understanding that effective children's SF maintains some scientific grounding while prioritizing narrative engagement. For example, 'The Hunger Games' asks 'What if society organized around violent spectacle?' without needing extensive technical explanation. 'Ender's Game' explores military ethics and strategic thinking through science fictional frames. 'Crispr' picture books introduce genetic science through accessible narrative. The point is recognizing that children's SF doesn't need to be technically rigorous in ways adult hard SF demands—it needs to make readers wonder about possibility and think speculatively, while grounding wonder in some version of scientific plausibility.
 ```
 
 ## Explainer

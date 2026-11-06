@@ -26,35 +26,39 @@ Analyze children's texts designed for different developmental stages, examining 
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What does 'implied reader' refer to in children's literature criticism?"
-    options:
-      - "The actual child reading the book"
-      - "The imagined, idealized reader that an author assumes and designs the text for—including assumptions about age, competency, and emotional maturity"
-      - "A fictional character who appears in the book"
-      - "The publisher's intended sales demographic"
-    answer: 1
-    explanation: "The implied reader is a literary concept representing the 'ideal' reader an author envisions—the developmental stage, prior knowledge, emotional capacity, and reading ability the author assumes while writing. This may or may not match any actual reader."
-  - question: "How might analyzing the implied reader of a children's text reveal authorial assumptions about child development?"
-    options:
-      - "It doesn't—the implied reader is irrelevant to understanding the author's perspective"
-      - "By examining vocabulary, narrative complexity, emotional themes, and explanations provided, we can infer what the author assumed children of that age could understand and process"
-      - "Children's authors don't make assumptions about their readers"
-      - "The implied reader is identical for all children's books"
-    answer: 1
-    explanation: "When we analyze how complex the plot is, what vocabulary is used, what is explicitly explained vs. left implicit, and what emotional weight is given to events, we are essentially reverse-engineering the author's assessment of child competency. Simple explanations suggest the author assumes limited prior knowledge; complex thematic layers suggest assumptions of sophisticated understanding."
+- question: What does 'implied reader' refer to in children's literature criticism?
+  type: multiple-choice
+  options:
+  - The actual child reading the book
+  - The imagined, idealized reader that an author assumes and designs the text for—including assumptions about age, competency, and emotional maturity
+  - A fictional character who appears in the book
+  - The publisher's intended sales demographic
+  answer: 1
+  explanation: The implied reader is a literary concept representing the 'ideal' reader an author envisions—the developmental stage, prior knowledge, emotional capacity, and reading ability the author assumes while writing. This may or may not match any actual reader.
 
-true-false:
-  - question: "True or False: The implied reader of a children's book always matches the actual age group who reads it most successfully."
-    answer: false
-    explanation: "False. Sometimes implied readers diverge from actual readers. A book might underestimate children's emotional maturity (talking down), overestimate their knowledge, or simply appeal to readers older or younger than the target age."
-  - question: "True or False: Understanding the implied reader requires knowledge of child development psychology and literacy development."
-    answer: true
-    explanation: "True. Critics who effectively analyze implied readers draw on knowledge of what children at different stages can cognitively understand, how they process narrative, what scares or disturbs them, and how their moral reasoning develops."
+- question: How might analyzing the implied reader of a children's text reveal authorial assumptions about child development?
+  type: multiple-choice
+  options:
+  - It doesn't—the implied reader is irrelevant to understanding the author's perspective
+  - By examining vocabulary, narrative complexity, emotional themes, and explanations provided, we can infer what the author assumed children of that age could understand and process
+  - Children's authors don't make assumptions about their readers
+  - The implied reader is identical for all children's books
+  answer: 1
+  explanation: When we analyze how complex the plot is, what vocabulary is used, what is explicitly explained vs. left implicit, and what emotional weight is given to events, we are essentially reverse-engineering the author's assessment of child competency. Simple explanations suggest the author assumes limited prior knowledge; complex thematic layers suggest assumptions of sophisticated understanding.
 
-short-answer:
-  - question: "Choose a children's book you know well. Describe the implied reader the author seems to assume, citing specific textual evidence (vocabulary, explanations provided, emotional themes)."
-    explanation: "Your answer should identify specific markers that reveal authorial assumptions. For example, if a picture book explains what 'divorce' means in simple terms, the author implies a reader who hasn't encountered the concept; if a YA novel references complex social media dynamics without explanation, it implies a digitally native reader. If a middle-grade book's protagonist solves problems primarily through friendship and kindness, it might imply an author who assumes readers are developing moral reasoning around prosocial behavior. The point is to recognize that authors encode assumptions about their readers' cognitive, emotional, and social development through their narrative choices—and these assumptions are visible through careful textual analysis."
+- question: 'True or False: The implied reader of a children''s book always matches the actual age group who reads it most successfully.'
+  type: true-false
+  answer: false
+  explanation: False. Sometimes implied readers diverge from actual readers. A book might underestimate children's emotional maturity (talking down), overestimate their knowledge, or simply appeal to readers older or younger than the target age.
+
+- question: 'True or False: Understanding the implied reader requires knowledge of child development psychology and literacy development.'
+  type: true-false
+  answer: true
+  explanation: True. Critics who effectively analyze implied readers draw on knowledge of what children at different stages can cognitively understand, how they process narrative, what scares or disturbs them, and how their moral reasoning develops.
+
+- question: Choose a children's book you know well. Describe the implied reader the author seems to assume, citing specific textual evidence (vocabulary, explanations provided, emotional themes).
+  type: short-answer
+  explanation: Your answer should identify specific markers that reveal authorial assumptions. For example, if a picture book explains what 'divorce' means in simple terms, the author implies a reader who hasn't encountered the concept; if a YA novel references complex social media dynamics without explanation, it implies a digitally native reader. If a middle-grade book's protagonist solves problems primarily through friendship and kindness, it might imply an author who assumes readers are developing moral reasoning around prosocial behavior. The point is to recognize that authors encode assumptions about their readers' cognitive, emotional, and social development through their narrative choices—and these assumptions are visible through careful textual analysis.
 ```
 
 ## Explainer

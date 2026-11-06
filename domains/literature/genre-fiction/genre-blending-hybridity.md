@@ -26,36 +26,39 @@ Contemporary fiction increasingly blends genres—fantasy mysteries, science fic
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What is the primary advantage of genre blending in contemporary fiction?"
-    options:
-      - "It allows writers to ignore established conventions entirely"
-      - "It produces innovation through the collision and unexpected combination of multiple genre traditions"
-      - "It guarantees a larger commercial audience than single-genre works"
-      - "It simplifies the reader's experience by reducing complexity"
-    correct_answer: 1
-    explanation: "The core idea states that 'genre blending often produces innovation through collision and unexpected combination.' This is presented as the primary value of hybrid genres—they create new possibilities by bringing traditions into dialogue."
-  - type: multiple-choice
-    question: "How do hybrid genres affect reader expectations?"
-    options:
-      - "They eliminate all reader expectations by being entirely unpredictable"
-      - "They require readers to understand multiple genre conventions and navigate competing expectations"
-      - "They satisfy genre expectations by doubling the narrative satisfaction"
-      - "They replace traditional reader contracts with entirely new ones"
-    correct_answer: 1
-    explanation: "The core idea explicitly notes that 'hybrid genres require readers and writers to understand multiple genre conventions and navigate competing expectations,' indicating the complexity of engaging with blended forms."
-  - type: true-false
-    question: "Genre blending can be used to honor established traditions or to subvert them for critical effect."
-    correct_answer: true
-    explanation: "The core idea directly states that 'genre blending can honor both traditions or subvert them for critical effect,' showing that blending can serve different artistic purposes."
-  - type: true-false
-    question: "Genre hybridity is a recent invention exclusive to contemporary fiction and had no precedent in earlier literary periods."
-    correct_answer: false
-    explanation: "While the core idea notes that contemporary fiction 'increasingly blends genres,' it does not claim this is entirely new—only that it is becoming more prevalent in recent work."
-  - type: short-answer
-    question: "Explain how understanding genre conventions is essential to successfully reading a hybrid genre work."
-    explanation: "A good answer should recognize that hybrid genres put multiple genre conventions in dialogue with each other, and that readers need to understand what expectations each tradition brings in order to appreciate how the work honors, subverts, or combines them. Students should show that genre knowledge is not optional but foundational."
+- question: What is the primary advantage of genre blending in contemporary fiction?
+  type: multiple-choice
+  options:
+  - It allows writers to ignore established conventions entirely
+  - It produces innovation through the collision and unexpected combination of multiple genre traditions
+  - It guarantees a larger commercial audience than single-genre works
+  - It simplifies the reader's experience by reducing complexity
+  answer: 1
+  explanation: The core idea states that 'genre blending often produces innovation through collision and unexpected combination.' This is presented as the primary value of hybrid genres—they create new possibilities by bringing traditions into dialogue.
+
+- question: How do hybrid genres affect reader expectations?
+  type: multiple-choice
+  options:
+  - They eliminate all reader expectations by being entirely unpredictable
+  - They require readers to understand multiple genre conventions and navigate competing expectations
+  - They satisfy genre expectations by doubling the narrative satisfaction
+  - They replace traditional reader contracts with entirely new ones
+  answer: 1
+  explanation: The core idea explicitly notes that 'hybrid genres require readers and writers to understand multiple genre conventions and navigate competing expectations,' indicating the complexity of engaging with blended forms.
+
+- question: Genre blending can be used to honor established traditions or to subvert them for critical effect.
+  type: true-false
+  answer: true
+  explanation: The core idea directly states that 'genre blending can honor both traditions or subvert them for critical effect,' showing that blending can serve different artistic purposes.
+
+- question: Genre hybridity is a recent invention exclusive to contemporary fiction and had no precedent in earlier literary periods.
+  type: true-false
+  answer: false
+  explanation: While the core idea notes that contemporary fiction 'increasingly blends genres,' it does not claim this is entirely new—only that it is becoming more prevalent in recent work.
+
+- question: Explain how understanding genre conventions is essential to successfully reading a hybrid genre work.
+  type: short-answer
+  explanation: A good answer should recognize that hybrid genres put multiple genre conventions in dialogue with each other, and that readers need to understand what expectations each tradition brings in order to appreciate how the work honors, subverts, or combines them. Students should show that genre knowledge is not optional but foundational.
 ```
 
 ## Explainer

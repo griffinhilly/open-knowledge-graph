@@ -22,36 +22,39 @@ Fantasy magic systems operate according to internal rules and typically entail c
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What is the primary function of internal rules and limitations in fantasy magic systems?"
-    options:
-      - "Rules make magic less interesting and should be minimized"
-      - "Rules provide no actual function in fantasy narratives"
-      - "Rules and limitations answer key questions (who can use magic, what costs, what limits) and shape narrative possibility"
-      - "Rules are only important for physical magic, not narrative magic"
-    correct_answer: 2
-    explanation: "The core idea states that well-designed systems answer specific questions 'and these constraints shape narrative possibility,' showing limitations are essential to creating compelling narrative."
-  - type: multiple-choice
-    question: "Why does a magic system's cost or limitation matter more than the magic's power?"
-    options:
-      - "Cost doesn't matter; only power matters"
-      - "Costs and limitations define narrative conflict because they determine what magic can and cannot accomplish"
-      - "Magic should have no costs"
-      - "Cost only matters for comedy, not serious fiction"
-    correct_answer: 1
-    explanation: "The core idea emphasizes that 'magic systems typically entail costs or limitations' and that 'constraints shape narrative possibility,' indicating costs create the actual narrative tension."
-  - type: true-false
-    question: "A well-designed magic system must answer who can use magic, what costs they incur, and what limits constrain it."
-    correct_answer: true
-    explanation: "The core idea explicitly lists these as questions 'well-designed magic systems answer,' making them essential to proper magic system design."
-  - type: true-false
-    question: "Magic systems without rules or limitations are more narratively powerful than systems with clear constraints."
-    correct_answer: false
-    explanation: "The core idea emphasizes that constraints, not unlimited power, 'shape narrative possibility,' suggesting limitations actually enable stronger narratives."
-  - type: short-answer
-    question: "How do the costs and limits of a magic system determine what stories can be told within that world?"
-    explanation: "Good answers should explain that costs prevent magic from solving all problems instantly (creating narrative tension), limits determine what magic cannot do (forcing characters to find non-magical solutions), and restrictions on who can use magic (creating social hierarchies or chosen-one narratives). These constraints force characters into specific conflicts and solutions."
+- question: What is the primary function of internal rules and limitations in fantasy magic systems?
+  type: multiple-choice
+  options:
+  - Rules make magic less interesting and should be minimized
+  - Rules provide no actual function in fantasy narratives
+  - Rules and limitations answer key questions (who can use magic, what costs, what limits) and shape narrative possibility
+  - Rules are only important for physical magic, not narrative magic
+  answer: 2
+  explanation: The core idea states that well-designed systems answer specific questions 'and these constraints shape narrative possibility,' showing limitations are essential to creating compelling narrative.
+
+- question: Why does a magic system's cost or limitation matter more than the magic's power?
+  type: multiple-choice
+  options:
+  - Cost doesn't matter; only power matters
+  - Costs and limitations define narrative conflict because they determine what magic can and cannot accomplish
+  - Magic should have no costs
+  - Cost only matters for comedy, not serious fiction
+  answer: 1
+  explanation: The core idea emphasizes that 'magic systems typically entail costs or limitations' and that 'constraints shape narrative possibility,' indicating costs create the actual narrative tension.
+
+- question: A well-designed magic system must answer who can use magic, what costs they incur, and what limits constrain it.
+  type: true-false
+  answer: true
+  explanation: The core idea explicitly lists these as questions 'well-designed magic systems answer,' making them essential to proper magic system design.
+
+- question: Magic systems without rules or limitations are more narratively powerful than systems with clear constraints.
+  type: true-false
+  answer: false
+  explanation: The core idea emphasizes that constraints, not unlimited power, 'shape narrative possibility,' suggesting limitations actually enable stronger narratives.
+
+- question: How do the costs and limits of a magic system determine what stories can be told within that world?
+  type: short-answer
+  explanation: Good answers should explain that costs prevent magic from solving all problems instantly (creating narrative tension), limits determine what magic cannot do (forcing characters to find non-magical solutions), and restrictions on who can use magic (creating social hierarchies or chosen-one narratives). These constraints force characters into specific conflicts and solutions.
 ```
 
 ## Explainer

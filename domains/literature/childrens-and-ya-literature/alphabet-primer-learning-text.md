@@ -25,35 +25,39 @@ Alphabet books and primers teach letters, sounds, and foundational literacy conc
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "Which of the following BEST distinguishes modern instructional alphabet books from purely pedagogical primers?"
-    options:
-      - "They eliminate all teaching of phonemic awareness"
-      - "They integrate artistic storytelling and visual sophistication while maintaining letter instruction"
-      - "They focus only on uppercase letters, never lowercase"
-      - "They require children to have prior reading skills"
-    answer: 1
-    explanation: "Modern alphabet books often blend pedagogy with artistry, creating narratively engaging texts that teach letters while telling stories, whereas traditional primers were purely instructional."
-  - question: "What is the primary pedagogical advantage of organizing alphabet books alphabetically rather than in random order?"
-    options:
-      - "It reduces the number of pages needed"
-      - "It creates a memorable, systematic progression that mirrors how children naturally learn the sequence of letters"
-      - "It prevents children from memorizing the content"
-      - "It eliminates the need for illustrations"
-    answer: 1
-    explanation: "The alphabetic sequence provides a structured framework that helps children internalize letter order and phonemic awareness through predictable progression."
+- question: Which of the following BEST distinguishes modern instructional alphabet books from purely pedagogical primers?
+  type: multiple-choice
+  options:
+  - They eliminate all teaching of phonemic awareness
+  - They integrate artistic storytelling and visual sophistication while maintaining letter instruction
+  - They focus only on uppercase letters, never lowercase
+  - They require children to have prior reading skills
+  answer: 1
+  explanation: Modern alphabet books often blend pedagogy with artistry, creating narratively engaging texts that teach letters while telling stories, whereas traditional primers were purely instructional.
 
-true-false:
-  - question: "True or False: Alphabet books can contain sophisticated narrative elements and still serve as effective instructional texts."
-    answer: true
-    explanation: "This is true. Many alphabet books demonstrate that instruction and artistry coexist—they can teach letters while engaging children through compelling stories and art."
-  - question: "True or False: Primers are designed exclusively for adults teaching children how to read."
-    answer: false
-    explanation: "This is false. Primers are instructional texts designed for children to use (sometimes with adult guidance) to learn basic literacy concepts like letters and sounds."
+- question: What is the primary pedagogical advantage of organizing alphabet books alphabetically rather than in random order?
+  type: multiple-choice
+  options:
+  - It reduces the number of pages needed
+  - It creates a memorable, systematic progression that mirrors how children naturally learn the sequence of letters
+  - It prevents children from memorizing the content
+  - It eliminates the need for illustrations
+  answer: 1
+  explanation: The alphabetic sequence provides a structured framework that helps children internalize letter order and phonemic awareness through predictable progression.
 
-short-answer:
-  - question: "Why might an alphabet book that tells a coherent story about a character from A to Z be more effective at teaching young readers than one that simply lists words for each letter?"
-    explanation: "Story-driven alphabet books engage children emotionally and create memorable connections between letters and meanings, improving retention. The narrative arc gives children reasons to continue through the sequence and provides context for understanding how letters function in language, whereas isolated word lists may not create lasting connections or demonstrate letter use in meaningful communication."
+- question: 'True or False: Alphabet books can contain sophisticated narrative elements and still serve as effective instructional texts.'
+  type: true-false
+  answer: true
+  explanation: This is true. Many alphabet books demonstrate that instruction and artistry coexist—they can teach letters while engaging children through compelling stories and art.
+
+- question: 'True or False: Primers are designed exclusively for adults teaching children how to read.'
+  type: true-false
+  answer: false
+  explanation: This is false. Primers are instructional texts designed for children to use (sometimes with adult guidance) to learn basic literacy concepts like letters and sounds.
+
+- question: Why might an alphabet book that tells a coherent story about a character from A to Z be more effective at teaching young readers than one that simply lists words for each letter?
+  type: short-answer
+  explanation: Story-driven alphabet books engage children emotionally and create memorable connections between letters and meanings, improving retention. The narrative arc gives children reasons to continue through the sequence and provides context for understanding how letters function in language, whereas isolated word lists may not create lasting connections or demonstrate letter use in meaningful communication.
 ```
 
 ## Explainer

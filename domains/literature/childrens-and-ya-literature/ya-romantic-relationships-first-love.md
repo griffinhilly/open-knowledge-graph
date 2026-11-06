@@ -25,35 +25,39 @@ Romantic relationships are central to many YA narratives, often representing pro
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "Why do romantic relationships occupy significant narrative space in YA literature?"
-    options:
-      - "Romantic relationships are irrelevant to adolescent experience"
-      - "Romantic relationships often represent adolescents' first experiences with vulnerability, desire, and intimate connection, making them narratively and developmentally significant"
-      - "YA literature should exclude romantic content"
-      - "Romance is less important in adolescence than in adulthood"
-    answer: 1
-    explanation: "Romantic relationships are central to many adolescents' experience; YA literature treats them seriously as meaningful and developmentally important."
-  - question: "How do the most sophisticated YA romances interweave romantic plots with other coming-of-age themes?"
-    options:
-      - "Romantic plots should remain entirely separate from identity or psychological development"
-      - "The best YA romances show how romantic connection intertwines with identity exploration, helping protagonists understand themselves through relationships"
-      - "Romantic plots prevent character development"
-      - "Romance and identity are incompatible narrative elements"
-    answer: 1
-    explanation: "Sophisticated YA treats romance not as separate from but integrated with identity development—relationships facilitate self-understanding."
+- question: Why do romantic relationships occupy significant narrative space in YA literature?
+  type: multiple-choice
+  options:
+  - Romantic relationships are irrelevant to adolescent experience
+  - Romantic relationships often represent adolescents' first experiences with vulnerability, desire, and intimate connection, making them narratively and developmentally significant
+  - YA literature should exclude romantic content
+  - Romance is less important in adolescence than in adulthood
+  answer: 1
+  explanation: Romantic relationships are central to many adolescents' experience; YA literature treats them seriously as meaningful and developmentally important.
 
-true-false:
-  - question: "True or False: YA portrayal of romantic intensity as emotionally meaningful validates adolescents' actual experience of romantic feelings."
-    answer: true
-    explanation: "This is true. Adolescent romantic feelings are genuinely intense and meaningful; YA literature that validates this respects adolescent experience."
-  - question: "True or False: All YA literature should center romance as its primary plot element."
-    answer: false
-    explanation: "This is false. While romance is important in many YA narratives, other themes and plots are equally valid; YA literature encompasses diverse emphases."
+- question: How do the most sophisticated YA romances interweave romantic plots with other coming-of-age themes?
+  type: multiple-choice
+  options:
+  - Romantic plots should remain entirely separate from identity or psychological development
+  - The best YA romances show how romantic connection intertwines with identity exploration, helping protagonists understand themselves through relationships
+  - Romantic plots prevent character development
+  - Romance and identity are incompatible narrative elements
+  answer: 1
+  explanation: Sophisticated YA treats romance not as separate from but integrated with identity development—relationships facilitate self-understanding.
 
-short-answer:
-  - question: "How does YA literature's validation of romantic intensity differ from dismissing first relationships as 'not real love,' and why does this distinction matter?"
-    explanation: "Dismissive attitudes toward adolescent romance—suggesting first relationships are superficial, temporary, and less meaningful than adult romance—diminish adolescents' actual experience. When a teenager experiences romantic intensity, that intensity is real and emotionally significant whether the relationship lasts or not. YA literature that validates this significance says to adolescent readers: your feelings matter, your experiences are meaningful, your emerging capacity for intimate connection is worthy of narrative attention. This validation is developmentally important because it affirms that adolescents are capable of genuine emotional connection and that navigating relationships thoughtfully is part of growing up. Furthermore, the most sophisticated YA romances show that first relationships can facilitate genuine growth and self-understanding—that through vulnerability and connection with another person, adolescents learn about themselves, develop empathy, navigate conflict, and grow emotionally. This portrayal respects romantic relationships as meaningful developmental experiences, not as distractions from 'important' development happening elsewhere. Additionally, validating romantic intensity doesn't mean endorsing all relationship dynamics; sophisticated YA can show healthy and unhealthy relationship patterns, helping readers develop awareness of what constitutes respectful, supportive relationships."
+- question: 'True or False: YA portrayal of romantic intensity as emotionally meaningful validates adolescents'' actual experience of romantic feelings.'
+  type: true-false
+  answer: true
+  explanation: This is true. Adolescent romantic feelings are genuinely intense and meaningful; YA literature that validates this respects adolescent experience.
+
+- question: 'True or False: All YA literature should center romance as its primary plot element.'
+  type: true-false
+  answer: false
+  explanation: This is false. While romance is important in many YA narratives, other themes and plots are equally valid; YA literature encompasses diverse emphases.
+
+- question: How does YA literature's validation of romantic intensity differ from dismissing first relationships as 'not real love,' and why does this distinction matter?
+  type: short-answer
+  explanation: 'Dismissive attitudes toward adolescent romance—suggesting first relationships are superficial, temporary, and less meaningful than adult romance—diminish adolescents'' actual experience. When a teenager experiences romantic intensity, that intensity is real and emotionally significant whether the relationship lasts or not. YA literature that validates this significance says to adolescent readers: your feelings matter, your experiences are meaningful, your emerging capacity for intimate connection is worthy of narrative attention. This validation is developmentally important because it affirms that adolescents are capable of genuine emotional connection and that navigating relationships thoughtfully is part of growing up. Furthermore, the most sophisticated YA romances show that first relationships can facilitate genuine growth and self-understanding—that through vulnerability and connection with another person, adolescents learn about themselves, develop empathy, navigate conflict, and grow emotionally. This portrayal respects romantic relationships as meaningful developmental experiences, not as distractions from ''important'' development happening elsewhere. Additionally, validating romantic intensity doesn''t mean endorsing all relationship dynamics; sophisticated YA can show healthy and unhealthy relationship patterns, helping readers develop awareness of what constitutes respectful, supportive relationships.'
 ```
 
 ## Explainer

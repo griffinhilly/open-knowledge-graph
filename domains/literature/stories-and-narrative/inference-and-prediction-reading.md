@@ -34,35 +34,40 @@ Pause while reading a story and predict what might happen next. Use evidence—w
 ## Questions
 
 ```yaml
-- question: "A character in a story receives a mysterious letter from a stranger. The character shows anxiety and avoids discussing it, changes the subject when asked, and later tries to destroy the letter. The text never explicitly states the character's feelings. What inference can a reader make?"
+- question: A character in a story receives a mysterious letter from a stranger. The character shows anxiety and avoids discussing it, changes the subject when asked, and later tries to destroy the letter. The text never explicitly states the character's feelings. What inference can a reader make?
+  type: multiple-choice
   options:
-    - "The character definitely knows the letter-writer"
-    - "The character probably feels fear, shame, or guilt about something connected to the letter. The avoidance and attempt to destroy it are evidence of strong negative emotion. A reader can infer emotional state from behavior, even without explicit statements"
-    - "The reader can't know anything about the character"
-    - "The letter is definitely important"
+  - The character definitely knows the letter-writer
+  - The character probably feels fear, shame, or guilt about something connected to the letter. The avoidance and attempt to destroy it are evidence of strong negative emotion. A reader can infer emotional state from behavior, even without explicit statements
+  - The reader can't know anything about the character
+  - The letter is definitely important
   answer: 1
-  explanation: "Inference is drawing conclusions from textual evidence that isn't directly stated. Here, the evidence is the character's behavior: anxiety, avoidance, and destruction. These behaviors logically suggest strong negative emotion. This is inference, not guessing—it's reasoning from evidence."
+  explanation: 'Inference is drawing conclusions from textual evidence that isn''t directly stated. Here, the evidence is the character''s behavior: anxiety, avoidance, and destruction. These behaviors logically suggest strong negative emotion. This is inference, not guessing—it''s reasoning from evidence.'
 
-- question: "A reader making predictions about a story thinks: 'The protagonist has been kind and selfless to everyone. The antagonist has been cruel and manipulative. The story is almost over. I predict the antagonist will be punished and the protagonist will succeed.' Is this a valid prediction? Why or why not?"
+- question: 'A reader making predictions about a story thinks: ''The protagonist has been kind and selfless to everyone. The antagonist has been cruel and manipulative. The story is almost over. I predict the antagonist will be punished and the protagonist will succeed.'' Is this a valid prediction? Why or why not?'
+  type: multiple-choice
   options:
-    - "No, predictions must be original and surprising"
-    - "Yes, it's valid because it's based on story conventions the reader knows. In many traditional stories, good characters are rewarded and bad characters are punished. The reader is using knowledge of narrative patterns to make a reasoned prediction. However, a skilled author might subvert this expectation, so the prediction could still be wrong"
-    - "All predictions are equally valid"
-    - "Predictions can't use story conventions"
+  - No, predictions must be original and surprising
+  - Yes, it's valid because it's based on story conventions the reader knows. In many traditional stories, good characters are rewarded and bad characters are punished. The reader is using knowledge of narrative patterns to make a reasoned prediction. However, a skilled author might subvert this expectation, so the prediction could still be wrong
+  - All predictions are equally valid
+  - Predictions can't use story conventions
   answer: 1
-  explanation: "Good predictions use knowledge of narrative patterns and textual evidence. The reader is making an informed guess based on (1) character development shown in the text and (2) common story structures. This is valid prediction-making. The prediction might be wrong—that's fine. What makes it valid is the reasoning, not whether it's correct."
+  explanation: Good predictions use knowledge of narrative patterns and textual evidence. The reader is making an informed guess based on (1) character development shown in the text and (2) common story structures. This is valid prediction-making. The prediction might be wrong—that's fine. What makes it valid is the reasoning, not whether it's correct.
 
-- question: "True or False: A prediction is only valuable if it turns out to be correct."
+- question: 'True or False: A prediction is only valuable if it turns out to be correct.'
+  type: true-false
   answer: false
-  explanation: "A well-reasoned prediction that turns out wrong is valuable because it shows engaged, active reading. The reader was paying attention, making connections, and using evidence to anticipate. Being wrong doesn't diminish this value. In fact, analyzing why a prediction was wrong is deeply rewarding—it often reveals the author's craft or foreshadowing the reader missed."
+  explanation: A well-reasoned prediction that turns out wrong is valuable because it shows engaged, active reading. The reader was paying attention, making connections, and using evidence to anticipate. Being wrong doesn't diminish this value. In fact, analyzing why a prediction was wrong is deeply rewarding—it often reveals the author's craft or foreshadowing the reader missed.
 
-- question: "True or False: Inference requires that all readers reach the same conclusion."
+- question: 'True or False: Inference requires that all readers reach the same conclusion.'
+  type: true-false
   answer: false
-  explanation: "Different readers can make different inferences from the same textual evidence, and both can be valid as long as they're grounded in the text. However, an inference that contradicts textual evidence or ignores relevant details is weak. Valid inferences differ; baseless guesses do not."
+  explanation: Different readers can make different inferences from the same textual evidence, and both can be valid as long as they're grounded in the text. However, an inference that contradicts textual evidence or ignores relevant details is weak. Valid inferences differ; baseless guesses do not.
 
-- question: "A character says 'I'm fine' while clenching their jaw, avoiding eye contact, and sitting rigidly. The text doesn't explicitly state their emotional state. What inference might a reader make, and how confident should they be in it?"
-  answer: "A reader might infer the character is not fine—they're upset, angry, anxious, or hurt. The physical evidence (clenched jaw, avoided eye contact, rigid posture) contradicts the verbal statement. The reader should be fairly confident in the inference that something is wrong, because the physical evidence is strong. However, they should remain open to what specifically is wrong—the character could be angry, afraid, embarrassed, or struggling with something they're trying to hide. Confidence should be proportional to the evidence."
-  explanation: "This tests understanding that inferences vary in strength depending on evidence quality. A strong inference is well-grounded in textual evidence. A weaker inference might fit the evidence but have alternatives. Good readers assess their confidence based on evidence, not certainty."
+- question: A character says 'I'm fine' while clenching their jaw, avoiding eye contact, and sitting rigidly. The text doesn't explicitly state their emotional state. What inference might a reader make, and how confident should they be in it?
+  type: short-answer
+  answer: A reader might infer the character is not fine—they're upset, angry, anxious, or hurt. The physical evidence (clenched jaw, avoided eye contact, rigid posture) contradicts the verbal statement. The reader should be fairly confident in the inference that something is wrong, because the physical evidence is strong. However, they should remain open to what specifically is wrong—the character could be angry, afraid, embarrassed, or struggling with something they're trying to hide. Confidence should be proportional to the evidence.
+  explanation: This tests understanding that inferences vary in strength depending on evidence quality. A strong inference is well-grounded in textual evidence. A weaker inference might fit the evidence but have alternatives. Good readers assess their confidence based on evidence, not certainty.
 ```
 
 ## Explainer

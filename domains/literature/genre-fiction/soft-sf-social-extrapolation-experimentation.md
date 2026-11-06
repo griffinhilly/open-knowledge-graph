@@ -24,36 +24,39 @@ Soft science fiction prioritizes social, psychological, and anthropological extr
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What is the primary focus of soft science fiction's speculation?"
-    options:
-      - "Advanced physics and technological implementation"
-      - "Social, psychological, and anthropological change under different conditions"
-      - "Historical accuracy and documentary realism"
-      - "Military strategy and tactical planning"
-    correct_answer: 1
-    explanation: "The core idea states that soft SF 'prioritizes social, psychological, and anthropological extrapolation over technical accuracy,' making human and social change the central focus."
-  - type: multiple-choice
-    question: "How does soft SF approach the trade-off between technical plausibility and thematic depth?"
-    options:
-      - "It maintains perfect technical accuracy while sacrificing thematic depth"
-      - "It sacrifices technical plausibility for thematic and philosophical depth"
-      - "It achieves complete balance between technical accuracy and themes"
-      - "It ignores both technical accuracy and thematic development"
-    correct_answer: 1
-    explanation: "The core idea directly states that 'soft SF often sacrifices technical plausibility for thematic and philosophical depth,' indicating the deliberate trade-off."
-  - type: true-false
-    question: "Soft SF assumes that advanced physics and technology are necessary to explore interesting speculative premises."
-    correct_answer: false
-    explanation: "The core idea states that soft SF explores 'how societies and human psychology might evolve' 'rather than assuming advanced physics,' showing it doesn't rely on technical speculation."
-  - type: true-false
-    question: "Soft SF uses speculation about different social and psychological conditions to explore philosophical questions."
-    correct_answer: true
-    explanation: "The core idea identifies that soft SF explores 'how societies and human psychology might evolve under different conditions' and prioritizes 'thematic and philosophical depth.'"
-  - type: short-answer
-    question: "What kinds of questions does soft SF ask that hard SF might not prioritize?"
-    explanation: "A strong answer should explain that soft SF prioritizes questions about society, psychology, and meaning (What would gender relations be like without biological sex differences? How would psychology develop in extreme isolation? How would ethics change in a resource-abundant society?) rather than questions about technology and physics. Students should demonstrate understanding that soft SF explores human implications rather than technical mechanics."
+- question: What is the primary focus of soft science fiction's speculation?
+  type: multiple-choice
+  options:
+  - Advanced physics and technological implementation
+  - Social, psychological, and anthropological change under different conditions
+  - Historical accuracy and documentary realism
+  - Military strategy and tactical planning
+  answer: 1
+  explanation: The core idea states that soft SF 'prioritizes social, psychological, and anthropological extrapolation over technical accuracy,' making human and social change the central focus.
+
+- question: How does soft SF approach the trade-off between technical plausibility and thematic depth?
+  type: multiple-choice
+  options:
+  - It maintains perfect technical accuracy while sacrificing thematic depth
+  - It sacrifices technical plausibility for thematic and philosophical depth
+  - It achieves complete balance between technical accuracy and themes
+  - It ignores both technical accuracy and thematic development
+  answer: 1
+  explanation: The core idea directly states that 'soft SF often sacrifices technical plausibility for thematic and philosophical depth,' indicating the deliberate trade-off.
+
+- question: Soft SF assumes that advanced physics and technology are necessary to explore interesting speculative premises.
+  type: true-false
+  answer: false
+  explanation: The core idea states that soft SF explores 'how societies and human psychology might evolve' 'rather than assuming advanced physics,' showing it doesn't rely on technical speculation.
+
+- question: Soft SF uses speculation about different social and psychological conditions to explore philosophical questions.
+  type: true-false
+  answer: true
+  explanation: The core idea identifies that soft SF explores 'how societies and human psychology might evolve under different conditions' and prioritizes 'thematic and philosophical depth.'
+
+- question: What kinds of questions does soft SF ask that hard SF might not prioritize?
+  type: short-answer
+  explanation: A strong answer should explain that soft SF prioritizes questions about society, psychology, and meaning (What would gender relations be like without biological sex differences? How would psychology develop in extreme isolation? How would ethics change in a resource-abundant society?) rather than questions about technology and physics. Students should demonstrate understanding that soft SF explores human implications rather than technical mechanics.
 ```
 
 ## Explainer

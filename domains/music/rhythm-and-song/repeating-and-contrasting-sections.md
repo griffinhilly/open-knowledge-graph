@@ -34,40 +34,40 @@ Listen to a piece with clear ABA form and label the sections as they happen. Use
 ## Questions
 
 ```yaml
-- question: "What does it mean when a section repeats?"
-  type: mc
+- question: What does it mean when a section repeats?
+  type: multiple-choice
   options:
-    - "You play the same melody and rhythm again"
-    - "The song gets louder"
-    - "The tempo changes"
-    - "You are finished"
+  - You play the same melody and rhythm again
+  - The song gets louder
+  - The tempo changes
+  - You are finished
   answer: 0
-  explanation: "Repetition means playing the same material again."
+  explanation: Repetition means playing the same material again.
 
-- question: "A contrasting section sounds the same as what came before."
-  type: tf
+- question: A contrasting section sounds the same as what came before.
+  type: true-false
   answer: false
-  explanation: "No! Contrasting means different."
+  explanation: No! Contrasting means different.
 
-- question: "Why do composers use both repetition and contrast?"
-  type: mc
+- question: Why do composers use both repetition and contrast?
+  type: multiple-choice
   options:
-    - "To make songs confusing"
-    - "To create familiarity and variety so songs are memorable but not boring"
-    - "Because they have to"
-    - "To make songs longer"
+  - To make songs confusing
+  - To create familiarity and variety so songs are memorable but not boring
+  - Because they have to
+  - To make songs longer
   answer: 1
-  explanation: "Repetition makes songs memorable. Contrast keeps them from being boring."
+  explanation: Repetition makes songs memorable. Contrast keeps them from being boring.
 
-- question: "If you keep repeating the exact same section, the song will always sound interesting."
-  type: tf
+- question: If you keep repeating the exact same section, the song will always sound interesting.
+  type: true-false
   answer: false
-  explanation: "Too much repetition without contrast gets boring."
+  explanation: Too much repetition without contrast gets boring.
 
-- question: "Describe how a song could use both repetition and contrast."
-  type: sa
-  answer: "Repeat the verse twice then do a completely different-sounding chorus then repeat the pattern."
-  explanation: "A good answer shows understanding that both work together."
+- question: Describe how a song could use both repetition and contrast.
+  type: short-answer
+  answer: Repeat the verse twice then do a completely different-sounding chorus then repeat the pattern.
+  explanation: A good answer shows understanding that both work together.
 ```
 
 ## Explainer

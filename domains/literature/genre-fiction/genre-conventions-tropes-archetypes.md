@@ -33,36 +33,39 @@ Relying on tropes is not lazy writing; it's economical storytelling. The skill l
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What is the primary function of tropes in genre fiction?"
-    options:
-      - "To replace original storytelling with predictable formulas"
-      - "To serve as compressed narrative shortcuts that enable efficient storytelling"
-      - "To ensure all stories within a genre are identical"
-      - "To limit creative possibilities for writers"
-    correct_answer: 1
-    explanation: "The core idea states that 'tropes are compressed narrative shortcuts; they enable efficient storytelling.' This efficiency is presented as their essential function, allowing writers to convey complex ideas quickly."
-  - type: multiple-choice
-    question: "Which of the following is an example of a genre convention mentioned in the core idea?"
-    options:
-      - "Long descriptive passages about landscapes"
-      - "The chosen-one character type in fantasy or the cozy mystery's amateur detective"
-      - "Avoiding character development entirely"
-      - "Using primarily dialogue instead of narrative"
-    correct_answer: 1
-    explanation: "The core idea provides specific examples of recurring character types that serve as genre conventions, including 'the cozy mystery's amateur detective' and 'the chosen-one in fantasy.'"
-  - type: true-false
-    question: "Using tropes and conventions in writing indicates lazy authorship rather than skillful economical storytelling."
-    correct_answer: false
-    explanation: "The Common Misconceptions section directly refutes this: 'Relying on tropes is not lazy writing; it's economical storytelling. The skill lies in deploying tropes with enough variation and emotional authenticity.'"
-  - type: true-false
-    question: "Genre tropes function the same way and serve the same purpose across different genres and contexts."
-    correct_answer: false
-    explanation: "The 'How It's Best Learned' section suggests tracking conventions 'across multiple genres' and noticing 'how the convention serves different functions and resonates differently depending on context,' indicating genre context matters significantly."
-  - type: short-answer
-    question: "Explain why a trope can feel 'earned' or inevitable depending on how it is deployed. What makes the difference?"
-    explanation: "A good answer should recognize that the same trope can feel fresh or stale depending on how much variation and emotional authenticity the writer brings to it. Students should understand that skill lies not in avoiding tropes but in bringing enough specificity, character development, and context to make familiar patterns feel new and genuine."
+- question: What is the primary function of tropes in genre fiction?
+  type: multiple-choice
+  options:
+  - To replace original storytelling with predictable formulas
+  - To serve as compressed narrative shortcuts that enable efficient storytelling
+  - To ensure all stories within a genre are identical
+  - To limit creative possibilities for writers
+  answer: 1
+  explanation: The core idea states that 'tropes are compressed narrative shortcuts; they enable efficient storytelling.' This efficiency is presented as their essential function, allowing writers to convey complex ideas quickly.
+
+- question: Which of the following is an example of a genre convention mentioned in the core idea?
+  type: multiple-choice
+  options:
+  - Long descriptive passages about landscapes
+  - The chosen-one character type in fantasy or the cozy mystery's amateur detective
+  - Avoiding character development entirely
+  - Using primarily dialogue instead of narrative
+  answer: 1
+  explanation: The core idea provides specific examples of recurring character types that serve as genre conventions, including 'the cozy mystery's amateur detective' and 'the chosen-one in fantasy.'
+
+- question: Using tropes and conventions in writing indicates lazy authorship rather than skillful economical storytelling.
+  type: true-false
+  answer: false
+  explanation: 'The Common Misconceptions section directly refutes this: ''Relying on tropes is not lazy writing; it''s economical storytelling. The skill lies in deploying tropes with enough variation and emotional authenticity.'''
+
+- question: Genre tropes function the same way and serve the same purpose across different genres and contexts.
+  type: true-false
+  answer: false
+  explanation: The 'How It's Best Learned' section suggests tracking conventions 'across multiple genres' and noticing 'how the convention serves different functions and resonates differently depending on context,' indicating genre context matters significantly.
+
+- question: Explain why a trope can feel 'earned' or inevitable depending on how it is deployed. What makes the difference?
+  type: short-answer
+  explanation: A good answer should recognize that the same trope can feel fresh or stale depending on how much variation and emotional authenticity the writer brings to it. Students should understand that skill lies not in avoiding tropes but in bringing enough specificity, character development, and context to make familiar patterns feel new and genuine.
 ```
 
 ## Explainer

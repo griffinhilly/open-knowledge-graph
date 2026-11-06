@@ -38,39 +38,39 @@ Read multiple essays or memoirs by the same author to identify their distinctive
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What does 'authenticity requires honesty, which can be achieved with privacy' mean?"
+- question: What does 'authenticity requires honesty, which can be achieved with privacy' mean?
+  type: multiple-choice
   options:
-    - "You must reveal personal secrets to be authentic."
-    - "You can be honest without being confessional; you can have boundaries and still have authentic voice."
-    - "Privacy compromises authenticity."
-    - "Authentic voice requires maximum self-disclosure."
+  - You must reveal personal secrets to be authentic.
+  - You can be honest without being confessional; you can have boundaries and still have authentic voice.
+  - Privacy compromises authenticity.
+  - Authentic voice requires maximum self-disclosure.
   answer: 1
-  explanation: "Authentic voice is about intellectual honesty and emotional truth, not about how much personal information you reveal. You can have a strong, distinctive, trustworthy voice while maintaining privacy."
+  explanation: Authentic voice is about intellectual honesty and emotional truth, not about how much personal information you reveal. You can have a strong, distinctive, trustworthy voice while maintaining privacy.
 
-- type: multiple-choice
-  question: "What is meant by 'artfully natural' voice in nonfiction?"
+- question: What is meant by 'artfully natural' voice in nonfiction?
+  type: multiple-choice
   options:
-    - "Voice should sound unwritten and artless."
-    - "Voice is crafted to feel natural—it's carefully constructed to seem effortless."
-    - "All natural voices are equal."
-    - "Craft compromises authenticity."
+  - Voice should sound unwritten and artless.
+  - Voice is crafted to feel natural—it's carefully constructed to seem effortless.
+  - All natural voices are equal.
+  - Craft compromises authenticity.
   answer: 1
-  explanation: "Authentic voice is not accidental. It's developed through attention to cadence, diction, how you structure sentences. It appears natural but is actually the result of craft. It feels true but is artfully constructed."
+  explanation: Authentic voice is not accidental. It's developed through attention to cadence, diction, how you structure sentences. It appears natural but is actually the result of craft. It feels true but is artfully constructed.
 
-- type: true-false
-  statement: "True: A distinctive voice in nonfiction communicates both personality and trustworthiness, making readers believe what the writer says."
+- question: 'True: A distinctive voice in nonfiction communicates both personality and trustworthiness, making readers believe what the writer says.'
+  type: true-false
   answer: true
-  explanation: "A voice that's distinctive but honest, that reveals personality but maintains integrity, creates the conditions for readers to trust the writer. The voice is a form of credibility."
+  explanation: A voice that's distinctive but honest, that reveals personality but maintains integrity, creates the conditions for readers to trust the writer. The voice is a form of credibility.
 
-- type: true-false
-  statement: "False: Different nonfiction writers develop the same kind of authentic voice; individual distinctiveness is less important than sounding natural."
+- question: 'False: Different nonfiction writers develop the same kind of authentic voice; individual distinctiveness is less important than sounding natural.'
+  type: true-false
   answer: false
-  explanation: "This is false. Authentic voices are distinctive. What makes a voice authentic is not that it's universal but that it's genuinely yours—your cadence, your diction, your sensibility. This distinctiveness is part of what creates trust."
+  explanation: This is false. Authentic voices are distinctive. What makes a voice authentic is not that it's universal but that it's genuinely yours—your cadence, your diction, your sensibility. This distinctiveness is part of what creates trust.
 
-- type: short-answer
-  question: "How might a writer develop an authentic voice? What practices help?"
-  explanation: "Reading widely in nonfiction to encounter diverse voices and understand what makes a voice work. Writing regularly in your own voice without trying to imitate other writers. Paying attention to cadence—how sentences sound when read aloud. Being aware of diction—word choice that reveals character and sensibility. Revising for voice—reading work aloud, noticing where language sounds false or where it hits true. Being honest in writing—letting your actual perspective show rather than trying to sound objective or neutral. Understanding that voice develops over time and practice, not by trying to sound a particular way but by being yourself on the page with increasing authenticity and craft."
+- question: How might a writer develop an authentic voice? What practices help?
+  type: short-answer
+  explanation: Reading widely in nonfiction to encounter diverse voices and understand what makes a voice work. Writing regularly in your own voice without trying to imitate other writers. Paying attention to cadence—how sentences sound when read aloud. Being aware of diction—word choice that reveals character and sensibility. Revising for voice—reading work aloud, noticing where language sounds false or where it hits true. Being honest in writing—letting your actual perspective show rather than trying to sound objective or neutral. Understanding that voice develops over time and practice, not by trying to sound a particular way but by being yourself on the page with increasing authenticity and craft.
 ```
 
 ## Explainer

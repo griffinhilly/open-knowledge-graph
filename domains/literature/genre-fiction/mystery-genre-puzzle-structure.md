@@ -34,36 +34,39 @@ Fair play mysteries are not less sophisticated than psychological mysteries; the
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What is the fundamental principle of the fair play convention in mystery fiction?"
-    options:
-      - "Readers should be left in the dark until the revelation"
-      - "All necessary clues are presented fairly to readers, allowing attentive readers to solve before revelation"
-      - "Only the detective should have access to information"
-      - "Clues should be hidden until the final chapter"
-    correct_answer: 1
-    explanation: "The core idea states that 'all necessary clues are presented fairly to readers, allowing attentive readers to solve the crime before its revelation,' establishing fair play as equal access to information."
-  - type: multiple-choice
-    question: "What does fair play demand about information in a mystery?"
-    options:
-      - "Readers should be deliberately deceived"
-      - "Readers see everything the detective sees, and no crucial information is withheld"
-      - "Some information should be withheld until the end"
-      - "Only professional readers can understand the clues"
-    correct_answer: 1
-    explanation: "The core idea specifies that 'fair play demands that readers see everything the detective sees, that no crucial information is withheld,' establishing transparency as a requirement."
-  - type: true-false
-    question: "A mystery's satisfaction depends on plausibility, clue clarity, and misdirection that feels earned rather than cheating."
-    correct_answer: true
-    explanation: "The core idea states that 'the mystery's satisfaction depends on plausibility, clue clarity, and clever misdirection that feels earned rather than cheating,' confirming these as satisfaction sources."
-  - type: true-false
-    question: "Fair play mysteries are less sophisticated than psychological mysteries because they prioritize puzzles over surprise."
-    correct_answer: false
-    explanation: "The Common Misconceptions section directly refutes this: 'Fair play mysteries are not less sophisticated than psychological mysteries; they simply prioritize the reader's capacity to solve the puzzle,' indicating different priorities, not different sophistication levels."
-  - type: short-answer
-    question: "How do red herrings function in a fair play mystery? Why are they acceptable deception even though readers are supposed to see everything?"
-    explanation: "A good answer should recognize that red herrings aren't hidden information but misdirection—the clues are present and visible, but readers (and the detective) interpret them incorrectly. A red herring is fair because it's not withheld; it's just not what it appears. This is different from crucial information being hidden. Fair play allows the author to mislead through interpretation and emphasis, not through information hiding. Students should understand that this distinction between 'hiding information' and 'misdirecting interpretation' is fundamental to fair play mystery craft."
+- question: What is the fundamental principle of the fair play convention in mystery fiction?
+  type: multiple-choice
+  options:
+  - Readers should be left in the dark until the revelation
+  - All necessary clues are presented fairly to readers, allowing attentive readers to solve before revelation
+  - Only the detective should have access to information
+  - Clues should be hidden until the final chapter
+  answer: 1
+  explanation: The core idea states that 'all necessary clues are presented fairly to readers, allowing attentive readers to solve the crime before its revelation,' establishing fair play as equal access to information.
+
+- question: What does fair play demand about information in a mystery?
+  type: multiple-choice
+  options:
+  - Readers should be deliberately deceived
+  - Readers see everything the detective sees, and no crucial information is withheld
+  - Some information should be withheld until the end
+  - Only professional readers can understand the clues
+  answer: 1
+  explanation: The core idea specifies that 'fair play demands that readers see everything the detective sees, that no crucial information is withheld,' establishing transparency as a requirement.
+
+- question: A mystery's satisfaction depends on plausibility, clue clarity, and misdirection that feels earned rather than cheating.
+  type: true-false
+  answer: true
+  explanation: The core idea states that 'the mystery's satisfaction depends on plausibility, clue clarity, and clever misdirection that feels earned rather than cheating,' confirming these as satisfaction sources.
+
+- question: Fair play mysteries are less sophisticated than psychological mysteries because they prioritize puzzles over surprise.
+  type: true-false
+  answer: false
+  explanation: 'The Common Misconceptions section directly refutes this: ''Fair play mysteries are not less sophisticated than psychological mysteries; they simply prioritize the reader''s capacity to solve the puzzle,'' indicating different priorities, not different sophistication levels.'
+
+- question: How do red herrings function in a fair play mystery? Why are they acceptable deception even though readers are supposed to see everything?
+  type: short-answer
+  explanation: A good answer should recognize that red herrings aren't hidden information but misdirection—the clues are present and visible, but readers (and the detective) interpret them incorrectly. A red herring is fair because it's not withheld; it's just not what it appears. This is different from crucial information being hidden. Fair play allows the author to mislead through interpretation and emphasis, not through information hiding. Students should understand that this distinction between 'hiding information' and 'misdirecting interpretation' is fundamental to fair play mystery craft.
 ```
 
 ## Explainer

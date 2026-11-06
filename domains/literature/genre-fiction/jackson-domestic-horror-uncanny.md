@@ -23,36 +23,39 @@ Shirley Jackson's horror emerges from darkness lurking beneath ordinary suburban
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "Where does the horror in Shirley Jackson's work typically originate?"
-    options:
-      - "Supernatural forces completely separate from human society"
-      - "Darkness lurking beneath ordinary suburban life and social rituals"
-      - "Exotic locations far removed from American experience"
-      - "Historical events from the distant past"
-    correct_answer: 1
-    explanation: "The core idea states that Jackson's horror 'emerges from darkness lurking beneath ordinary suburban life' and that she 'finds terror in family dynamics, social rituals, and community traditions,' locating horror in the ordinary."
-  - type: multiple-choice
-    question: "How does horror accumulate in Jackson's stories?"
-    options:
-      - "Through sudden, dramatic supernatural events"
-      - "Through graphic descriptions of violence"
-      - "Through ordinary details and social observation, with shocking revelations"
-      - "Through mysterious plot twists with no logical foundation"
-    correct_answer: 2
-    explanation: "The core idea specifies that 'horror accumulates through ordinary details and social observation, with shocking revelations that expose how evil can hide within normalcy,' describing her specific narrative method."
-  - type: true-false
-    question: "In Jackson's fiction, evil is exposed as something that hides within normalcy and social conventions."
-    correct_answer: true
-    explanation: "The core idea states that her work exposes 'how evil can hide within normalcy,' indicating that she reveals darkness beneath the surface of ordinary life."
-  - type: true-false
-    question: "Jackson's horror primarily depends on supernatural or fantastical elements."
-    correct_answer: false
-    explanation: "The core idea emphasizes 'darkness lurking beneath ordinary suburban life' and focuses on 'family dynamics, social rituals, and community traditions' rather than supernatural forces as the source of horror."
-  - type: short-answer
-    question: "What is specifically unsettling about finding horror in 'social rituals' and 'community traditions'? Why is this more disturbing than supernatural threats?"
-    explanation: "A good answer should recognize that social rituals and community traditions are things the reader participates in, making the horror disturbingly close to home. If evil can hide in family dynamics and community rituals, then it can exist anywhere, including the reader's own life. The horror isn't distant or fantastical but alarmingly plausible. This makes Jackson's work psychologically disturbing in ways supernatural horror may not be. Students should understand that the normalcy makes the darkness more unsettling."
+- question: Where does the horror in Shirley Jackson's work typically originate?
+  type: multiple-choice
+  options:
+  - Supernatural forces completely separate from human society
+  - Darkness lurking beneath ordinary suburban life and social rituals
+  - Exotic locations far removed from American experience
+  - Historical events from the distant past
+  answer: 1
+  explanation: The core idea states that Jackson's horror 'emerges from darkness lurking beneath ordinary suburban life' and that she 'finds terror in family dynamics, social rituals, and community traditions,' locating horror in the ordinary.
+
+- question: How does horror accumulate in Jackson's stories?
+  type: multiple-choice
+  options:
+  - Through sudden, dramatic supernatural events
+  - Through graphic descriptions of violence
+  - Through ordinary details and social observation, with shocking revelations
+  - Through mysterious plot twists with no logical foundation
+  answer: 2
+  explanation: The core idea specifies that 'horror accumulates through ordinary details and social observation, with shocking revelations that expose how evil can hide within normalcy,' describing her specific narrative method.
+
+- question: In Jackson's fiction, evil is exposed as something that hides within normalcy and social conventions.
+  type: true-false
+  answer: true
+  explanation: The core idea states that her work exposes 'how evil can hide within normalcy,' indicating that she reveals darkness beneath the surface of ordinary life.
+
+- question: Jackson's horror primarily depends on supernatural or fantastical elements.
+  type: true-false
+  answer: false
+  explanation: The core idea emphasizes 'darkness lurking beneath ordinary suburban life' and focuses on 'family dynamics, social rituals, and community traditions' rather than supernatural forces as the source of horror.
+
+- question: What is specifically unsettling about finding horror in 'social rituals' and 'community traditions'? Why is this more disturbing than supernatural threats?
+  type: short-answer
+  explanation: A good answer should recognize that social rituals and community traditions are things the reader participates in, making the horror disturbingly close to home. If evil can hide in family dynamics and community rituals, then it can exist anywhere, including the reader's own life. The horror isn't distant or fantastical but alarmingly plausible. This makes Jackson's work psychologically disturbing in ways supernatural horror may not be. Students should understand that the normalcy makes the darkness more unsettling.
 ```
 
 ## Explainer

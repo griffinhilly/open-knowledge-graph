@@ -27,39 +27,39 @@ In Cold Blood demonstrates how true-crime reporting can achieve novelistic suspe
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "How does Capote create narrative suspense in In Cold Blood while remaining factually accurate about a crime with a known outcome?"
+- question: How does Capote create narrative suspense in In Cold Blood while remaining factually accurate about a crime with a known outcome?
+  type: multiple-choice
   options:
-    - "He invents new evidence and motive to make the story more dramatic."
-    - "He structures the narrative, alternates between perspectives, and controls pacing to create tension despite knowing the outcome."
-    - "Suspense is impossible in true-crime reporting; Capote's book is actually fiction."
-    - "He reveals the crime's resolution slowly through investigation, mirroring how detectives discover facts."
+  - He invents new evidence and motive to make the story more dramatic.
+  - He structures the narrative, alternates between perspectives, and controls pacing to create tension despite knowing the outcome.
+  - Suspense is impossible in true-crime reporting; Capote's book is actually fiction.
+  - He reveals the crime's resolution slowly through investigation, mirroring how detectives discover facts.
   answer: 1
-  explanation: "Capote knew the crime's outcome from the beginning. Instead of inventing surprise, he creates suspense through narrative structure: intercutting between the criminals' preparation and the families' daily life, building dread through detail and proximity. The suspense comes from literary technique applied to known facts, not from withholding information."
+  explanation: 'Capote knew the crime''s outcome from the beginning. Instead of inventing surprise, he creates suspense through narrative structure: intercutting between the criminals'' preparation and the families'' daily life, building dread through detail and proximity. The suspense comes from literary technique applied to known facts, not from withholding information.'
 
-- type: multiple-choice
-  question: "What is the relationship between character complexity and journalistic integrity in Capote's approach to true crime?"
+- question: What is the relationship between character complexity and journalistic integrity in Capote's approach to true crime?
+  type: multiple-choice
   options:
-    - "Creating character complexity requires simplifying or distorting facts."
-    - "By researching deeply and showing multiple perspectives, Capote creates genuine character complexity while maintaining accuracy."
-    - "Character and accuracy are incompatible in true crime."
-    - "Capote sacrifices realism for sympathetic character portrayal."
+  - Creating character complexity requires simplifying or distorting facts.
+  - By researching deeply and showing multiple perspectives, Capote creates genuine character complexity while maintaining accuracy.
+  - Character and accuracy are incompatible in true crime.
+  - Capote sacrifices realism for sympathetic character portrayal.
   answer: 1
-  explanation: "Capote spends time with the murderers, learns their backgrounds, motivations, and psychology. This creates complexity—they're not cardboard villains—while remaining grounded in facts. He shows their humanity without excusing their crime. This is possible through deep reporting, not fabrication."
+  explanation: Capote spends time with the murderers, learns their backgrounds, motivations, and psychology. This creates complexity—they're not cardboard villains—while remaining grounded in facts. He shows their humanity without excusing their crime. This is possible through deep reporting, not fabrication.
 
-- type: true-false
-  statement: "True: In Cold Blood proved that true-crime reporting can achieve the emotional and narrative power of fiction without fabricating facts."
+- question: 'True: In Cold Blood proved that true-crime reporting can achieve the emotional and narrative power of fiction without fabricating facts.'
+  type: true-false
   answer: true
-  explanation: "This is the book's revolutionary achievement. Before Capote, many assumed that truth was incompatible with narrative power and emotional depth. Capote showed that structure, perspective, and literary technique can create compelling narrative from factual events. The book doesn't invent; it selects, structures, and presents."
+  explanation: This is the book's revolutionary achievement. Before Capote, many assumed that truth was incompatible with narrative power and emotional depth. Capote showed that structure, perspective, and literary technique can create compelling narrative from factual events. The book doesn't invent; it selects, structures, and presents.
 
-- type: true-false
-  statement: "False: Capote's technique of creating suspense in true-crime narrative requires moral judgment about the criminals, approving of their actions or disapproving."
+- question: 'False: Capote''s technique of creating suspense in true-crime narrative requires moral judgment about the criminals, approving of their actions or disapproving.'
+  type: true-false
   answer: false
-  explanation: "Capote's technique is morally neutral in method—it works regardless of moral judgment. By creating character complexity and refusing simple villain/hero binaries, he actually creates space for readers to form their own moral judgments. The technique doesn't require the author to judge; it creates conditions for readers to think."
+  explanation: Capote's technique is morally neutral in method—it works regardless of moral judgment. By creating character complexity and refusing simple villain/hero binaries, he actually creates space for readers to form their own moral judgments. The technique doesn't require the author to judge; it creates conditions for readers to think.
 
-- type: short-answer
-  question: "How might a true-crime narrative structured as a linear investigation (facts revealed chronologically as detectives discover them) differ from Capote's structure of intercutting between criminals' preparation and victims' daily lives? Which creates more meaning?"
-  explanation: "A linear investigation structure builds toward revelation—readers know a crime happened and follow the detective work to understand it. This creates suspense about 'whodunit.' Capote's intercutting creates a different kind of suspense and meaning—it puts preparation and normalcy side by side, creating tragic irony (the family going about their day, unaware they're about to be killed). It also humanizes the criminals and creates moral complexity by showing them before the crime. Neither structure is inherently superior, but they create different effects and raise different questions. Capote's structure emphasizes the human cost and moral ambiguity. The detective-investigation structure emphasizes the puzzle of solving crime. Meaning isn't just in facts but in how facts are structured."
+- question: How might a true-crime narrative structured as a linear investigation (facts revealed chronologically as detectives discover them) differ from Capote's structure of intercutting between criminals' preparation and victims' daily lives? Which creates more meaning?
+  type: short-answer
+  explanation: A linear investigation structure builds toward revelation—readers know a crime happened and follow the detective work to understand it. This creates suspense about 'whodunit.' Capote's intercutting creates a different kind of suspense and meaning—it puts preparation and normalcy side by side, creating tragic irony (the family going about their day, unaware they're about to be killed). It also humanizes the criminals and creates moral complexity by showing them before the crime. Neither structure is inherently superior, but they create different effects and raise different questions. Capote's structure emphasizes the human cost and moral ambiguity. The detective-investigation structure emphasizes the puzzle of solving crime. Meaning isn't just in facts but in how facts are structured.
 ```
 
 ## Explainer

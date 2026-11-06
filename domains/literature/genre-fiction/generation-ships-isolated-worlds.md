@@ -25,36 +25,39 @@ Generation ship narratives feature self-contained societies traveling through sp
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What makes generation ships unique as narrative settings?"
-    options:
-      - "They are ordinary cities in space"
-      - "They are completely open to external influence"
-      - "They are self-contained societies where outside help is impossible and evolution happens in isolation"
-      - "They have unlimited resources and no constraints"
-    correct_answer: 2
-    explanation: "The core idea states generation ships 'create a bounded world where outside help is impossible' and 'the future depends entirely on internal resources,' making isolation and self-sufficiency central."
-  - type: multiple-choice
-    question: "Over what timescale do generation ships explore human social change?"
-    options:
-      - "Days"
-      - "Single human lifetimes"
-      - "Multiple human generations born, living, and dying aboard"
-      - "Only fictional time, no real duration"
-    correct_answer: 2
-    explanation: "The core idea notes these narratives feature 'multiple human generations born, living, and dying aboard,' showing generational timescale as essential to the form."
-  - type: true-false
-    question: "Generation ships allow narratives to explore how knowledge, social structures, and psychology evolve under isolation."
-    correct_answer: true
-    explanation: "The core idea explicitly states these narratives 'explore how knowledge, social structures, and psychology evolve in isolation from external input.'"
-  - type: true-false
-    question: "A generation ship's isolation from external help makes crew dependent on outside rescue."
-    correct_answer: false
-    explanation: "The core idea emphasizes isolation means 'outside help is impossible,' directly contrasting with dependence on rescue."
-  - type: short-answer
-    question: "Why do generation ships function as microcosms of human society rather than just survival vessels?"
-    explanation: "Good answers should explain that the bounded timeframe (centuries) and population (enough for genetic diversity) allow exploration of how society develops internally. Social hierarchies, knowledge systems, and psychology develop without external reference. The ship becomes a laboratory for understanding human social evolution."
+- question: What makes generation ships unique as narrative settings?
+  type: multiple-choice
+  options:
+  - They are ordinary cities in space
+  - They are completely open to external influence
+  - They are self-contained societies where outside help is impossible and evolution happens in isolation
+  - They have unlimited resources and no constraints
+  answer: 2
+  explanation: The core idea states generation ships 'create a bounded world where outside help is impossible' and 'the future depends entirely on internal resources,' making isolation and self-sufficiency central.
+
+- question: Over what timescale do generation ships explore human social change?
+  type: multiple-choice
+  options:
+  - Days
+  - Single human lifetimes
+  - Multiple human generations born, living, and dying aboard
+  - Only fictional time, no real duration
+  answer: 2
+  explanation: The core idea notes these narratives feature 'multiple human generations born, living, and dying aboard,' showing generational timescale as essential to the form.
+
+- question: Generation ships allow narratives to explore how knowledge, social structures, and psychology evolve under isolation.
+  type: true-false
+  answer: true
+  explanation: The core idea explicitly states these narratives 'explore how knowledge, social structures, and psychology evolve in isolation from external input.'
+
+- question: A generation ship's isolation from external help makes crew dependent on outside rescue.
+  type: true-false
+  answer: false
+  explanation: The core idea emphasizes isolation means 'outside help is impossible,' directly contrasting with dependence on rescue.
+
+- question: Why do generation ships function as microcosms of human society rather than just survival vessels?
+  type: short-answer
+  explanation: Good answers should explain that the bounded timeframe (centuries) and population (enough for genetic diversity) allow exploration of how society develops internally. Social hierarchies, knowledge systems, and psychology develop without external reference. The ship becomes a laboratory for understanding human social evolution.
 ```
 
 ## Explainer

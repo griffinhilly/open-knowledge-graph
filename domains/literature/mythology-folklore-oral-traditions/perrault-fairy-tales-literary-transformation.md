@@ -32,40 +32,39 @@ Perrault simply recorded oral tales. (Perrault deliberately transformed folk mat
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "How did Perrault's publication of fairy tales transform them from oral narratives?"
-    options:
-      - "He recorded them exactly as told, with no changes"
-      - "He deliberately refined language, added explicit morals, and emphasized elegance and civility to suit aristocratic salon culture"
-      - "He translated them from other languages without altering content"
-      - "He made them more violent and crude to appeal to peasant audiences"
-    correct: "B"
-    explanation: "Perrault was not a neutral recorder but an active transformer. He reshhaped rough folk narratives into polished salon literature. He refined the language to meet salon aesthetic standards, added explicit morals, and softened violent or crude elements. His 'Cinderella' has a happy ending arranged by a fairy godmother; oral versions often include darker elements."
+- question: How did Perrault's publication of fairy tales transform them from oral narratives?
+  type: multiple-choice
+  options:
+  - He recorded them exactly as told, with no changes
+  - He deliberately refined language, added explicit morals, and emphasized elegance and civility to suit aristocratic salon culture
+  - He translated them from other languages without altering content
+  - He made them more violent and crude to appeal to peasant audiences
+  answer: 1
+  explanation: Perrault was not a neutral recorder but an active transformer. He reshhaped rough folk narratives into polished salon literature. He refined the language to meet salon aesthetic standards, added explicit morals, and softened violent or crude elements. His 'Cinderella' has a happy ending arranged by a fairy godmother; oral versions often include darker elements.
 
-  - type: multiple-choice
-    question: "What significant difference appears between Perrault's 'Red Riding Hood' and many oral versions of the same tale?"
-    options:
-      - "Perrault's version is longer and more complex"
-      - "Oral versions often contain cannibalism and explicit violence; Perrault's version omits these elements in favor of a refined, moralized narrative"
-      - "Perrault adds new magical elements not in oral versions"
-      - "There is no significant difference between Perrault's and oral versions"
-    correct: "B"
-    explanation: "Perrault sanitized folk narratives for salon audiences. Many oral versions of 'Red Riding Hood' or similar tales contain shocking violence, cannibalism, and disturbing elements. Perrault removed these, creating safer, more morally instructive tales suited to aristocratic children and salon entertainment."
+- question: What significant difference appears between Perrault's 'Red Riding Hood' and many oral versions of the same tale?
+  type: multiple-choice
+  options:
+  - Perrault's version is longer and more complex
+  - Oral versions often contain cannibalism and explicit violence; Perrault's version omits these elements in favor of a refined, moralized narrative
+  - Perrault adds new magical elements not in oral versions
+  - There is no significant difference between Perrault's and oral versions
+  answer: 1
+  explanation: Perrault sanitized folk narratives for salon audiences. Many oral versions of 'Red Riding Hood' or similar tales contain shocking violence, cannibalism, and disturbing elements. Perrault removed these, creating safer, more morally instructive tales suited to aristocratic children and salon entertainment.
 
-  - type: true-false
-    question: "Perrault's fairy tales represent authentic, unaltered recordings of traditional folk narratives."
-    correct: false
-    explanation: "Perrault's tales are literary transformations adapted to suit 17th-century French salon culture, aesthetic values, and moral expectations. They are valuable works in their own right but represent a deliberate reshaping of folk material, not faithful documentation."
+- question: Perrault's fairy tales represent authentic, unaltered recordings of traditional folk narratives.
+  type: true-false
+  answer: false
+  explanation: Perrault's tales are literary transformations adapted to suit 17th-century French salon culture, aesthetic values, and moral expectations. They are valuable works in their own right but represent a deliberate reshaping of folk material, not faithful documentation.
 
-  - type: true-false
-    question: "Perrault's versions of fairy tales are more authentic than the Grimm brothers' versions because Perrault published first."
-    correct: false
-    explanation: "Both are literary adaptations reflecting their respective contexts. Perrault shaped tales for French salon culture; the Grimms shaped tales for German Romantic nationalist purposes. Neither is 'more authentic'—they represent different aesthetic and cultural values."
+- question: Perrault's versions of fairy tales are more authentic than the Grimm brothers' versions because Perrault published first.
+  type: true-false
+  answer: false
+  explanation: Both are literary adaptations reflecting their respective contexts. Perrault shaped tales for French salon culture; the Grimms shaped tales for German Romantic nationalist purposes. Neither is 'more authentic'—they represent different aesthetic and cultural values.
 
-  - type: short-answer
-    question: "Explain how Perrault's transformation of fairy tales reflects the values and aesthetic preferences of 17th-century French aristocratic salon culture."
-    explanation: "Salon culture valued refinement, civility, wit, and moral improvement. Perrault's tales embody these values: language is polished rather than crude, morals are explicit rather than implicit, and narratives emphasize civility and social grace. Cinderella's virtue is rewarded through elegance and beauty; Red Riding Hood's disobedience is corrected. The tales become tools for moral instruction and aesthetic refinement. This reflects the salon's function as a space where aristocratic men and women gathered to display wit, taste, and cultivated sensibility. Perrault elevated fairy tales from crude folk entertainment to respectable salon literature by infusing them with the salon's own values. His transformation shows how literary forms are shaped by the social contexts and audiences they serve."
+- question: Explain how Perrault's transformation of fairy tales reflects the values and aesthetic preferences of 17th-century French aristocratic salon culture.
+  type: short-answer
+  explanation: 'Salon culture valued refinement, civility, wit, and moral improvement. Perrault''s tales embody these values: language is polished rather than crude, morals are explicit rather than implicit, and narratives emphasize civility and social grace. Cinderella''s virtue is rewarded through elegance and beauty; Red Riding Hood''s disobedience is corrected. The tales become tools for moral instruction and aesthetic refinement. This reflects the salon''s function as a space where aristocratic men and women gathered to display wit, taste, and cultivated sensibility. Perrault elevated fairy tales from crude folk entertainment to respectable salon literature by infusing them with the salon''s own values. His transformation shows how literary forms are shaped by the social contexts and audiences they serve.'
 ```
 
 ## Explainer

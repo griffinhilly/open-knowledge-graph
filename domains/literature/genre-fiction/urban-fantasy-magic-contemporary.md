@@ -23,36 +23,39 @@ Urban fantasy overlays magical systems onto contemporary urban settings, where m
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "How does urban fantasy typically integrate magic into contemporary settings?"
-    options:
-      - "Magic is openly recognized and regulated by governments"
-      - "Magic is completely absent from the contemporary world"
-      - "Magic exists secretly alongside ordinary reality through concealment or disbelief"
-      - "Magic and mundane reality are kept in separate dimensions"
-    correct_answer: 2
-    explanation: "The core idea states that in urban fantasy 'magic exists secretly alongside ordinary reality through concealment or disbelief,' describing the primary method of integration."
-  - type: multiple-choice
-    question: "What does urban fantasy accomplish by grounding magical conflict in recognizable locations?"
-    options:
-      - "It makes magical elements seem less fantastical and more credible"
-      - "It forces magic to operate according to mundane rules"
-      - "It blends fantasy wonder with mundane details of city life and makes magical conflict feel immediate and accessible"
-      - "It eliminates the need for elaborate worldbuilding"
-    correct_answer: 2
-    explanation: "The core idea states that the genre 'grounds magical conflict in recognizable locations,' creating the effect of blending 'fantasy wonder with the mundane details and challenges of city life.'"
-  - type: true-false
-    question: "In urban fantasy, magical beings and systems must adapt to and navigate contemporary urban environments."
-    correct_answer: true
-    explanation: "The core idea emphasizes that urban fantasy overlays magical systems 'onto contemporary urban settings,' implying magical elements must function within and accommodate urban reality."
-  - type: true-false
-    question: "Urban fantasy typically requires elaborate alternate universes separate from the contemporary world."
-    correct_answer: false
-    explanation: "The core idea describes magic existing 'alongside ordinary reality' in the same contemporary urban setting, not in separate universes."
-  - type: short-answer
-    question: "How does the secrecy or concealment of magic change the experience of urban fantasy compared to secondary-world fantasy?"
-    explanation: "A strong answer should explain that secrecy creates tension about discovery and forces magic to adapt to mundane constraints (hiding from technology, surveillance, law enforcement). Students should demonstrate understanding that the overlay of magic onto a recognizable contemporary world creates different narrative possibilities than a secondary world where magic operates openly and without mundane interference."
+- question: How does urban fantasy typically integrate magic into contemporary settings?
+  type: multiple-choice
+  options:
+  - Magic is openly recognized and regulated by governments
+  - Magic is completely absent from the contemporary world
+  - Magic exists secretly alongside ordinary reality through concealment or disbelief
+  - Magic and mundane reality are kept in separate dimensions
+  answer: 2
+  explanation: The core idea states that in urban fantasy 'magic exists secretly alongside ordinary reality through concealment or disbelief,' describing the primary method of integration.
+
+- question: What does urban fantasy accomplish by grounding magical conflict in recognizable locations?
+  type: multiple-choice
+  options:
+  - It makes magical elements seem less fantastical and more credible
+  - It forces magic to operate according to mundane rules
+  - It blends fantasy wonder with mundane details of city life and makes magical conflict feel immediate and accessible
+  - It eliminates the need for elaborate worldbuilding
+  answer: 2
+  explanation: The core idea states that the genre 'grounds magical conflict in recognizable locations,' creating the effect of blending 'fantasy wonder with the mundane details and challenges of city life.'
+
+- question: In urban fantasy, magical beings and systems must adapt to and navigate contemporary urban environments.
+  type: true-false
+  answer: true
+  explanation: The core idea emphasizes that urban fantasy overlays magical systems 'onto contemporary urban settings,' implying magical elements must function within and accommodate urban reality.
+
+- question: Urban fantasy typically requires elaborate alternate universes separate from the contemporary world.
+  type: true-false
+  answer: false
+  explanation: The core idea describes magic existing 'alongside ordinary reality' in the same contemporary urban setting, not in separate universes.
+
+- question: How does the secrecy or concealment of magic change the experience of urban fantasy compared to secondary-world fantasy?
+  type: short-answer
+  explanation: A strong answer should explain that secrecy creates tension about discovery and forces magic to adapt to mundane constraints (hiding from technology, surveillance, law enforcement). Students should demonstrate understanding that the overlay of magic onto a recognizable contemporary world creates different narrative possibilities than a secondary world where magic operates openly and without mundane interference.
 ```
 
 ## Explainer

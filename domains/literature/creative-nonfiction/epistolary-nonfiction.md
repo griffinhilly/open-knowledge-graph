@@ -22,39 +22,39 @@ Epistolary nonfiction employs the letter form to convey experience, reflection, 
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What is the primary formal advantage of using the letter form in nonfiction?"
+- question: What is the primary formal advantage of using the letter form in nonfiction?
+  type: multiple-choice
   options:
-    - "Letters are easier to write than essays."
-    - "Direct address to a reader/recipient creates intimacy and immediacy while formal constraints enable literary sophistication."
-    - "Letters are too informal for serious writing."
-    - "The letter form has no advantages."
+  - Letters are easier to write than essays.
+  - Direct address to a reader/recipient creates intimacy and immediacy while formal constraints enable literary sophistication.
+  - Letters are too informal for serious writing.
+  - The letter form has no advantages.
   answer: 1
-  explanation: "Letters are addressed to someone—'Dear [name]'—which creates a sense of direct communication and intimacy. Yet the form also allows literary work: careful language, structure, reflection. The apparent spontaneity of a letter masks the craftedness of the writing. This combination of intimacy and craft is distinctive."
+  explanation: 'Letters are addressed to someone—''Dear [name]''—which creates a sense of direct communication and intimacy. Yet the form also allows literary work: careful language, structure, reflection. The apparent spontaneity of a letter masks the craftedness of the writing. This combination of intimacy and craft is distinctive.'
 
-- type: multiple-choice
-  question: "How do epistolary nonfiction pieces 'compress time through selective correspondence'?"
+- question: How do epistolary nonfiction pieces 'compress time through selective correspondence'?
+  type: multiple-choice
   options:
-    - "By writing all letters at once."
-    - "By selecting which moments and conversations to present as letters, skipping over time not represented in correspondence."
-    - "By making letters very short."
-    - "Time cannot be compressed in epistolary form."
+  - By writing all letters at once.
+  - By selecting which moments and conversations to present as letters, skipping over time not represented in correspondence.
+  - By making letters very short.
+  - Time cannot be compressed in epistolary form.
   answer: 1
-  explanation: "An epistolary nonfiction work doesn't include every letter or every moment. The writer selects letters that represent significant moments or developments. The gaps between letters compress time and create narrative momentum. What's not represented (the time between letters) is as important as what is represented."
+  explanation: An epistolary nonfiction work doesn't include every letter or every moment. The writer selects letters that represent significant moments or developments. The gaps between letters compress time and create narrative momentum. What's not represented (the time between letters) is as important as what is represented.
 
-- type: true-false
-  statement: "True: In epistolary nonfiction, the letter form is primarily a neutral container for content; the form itself doesn't shape meaning."
+- question: 'True: In epistolary nonfiction, the letter form is primarily a neutral container for content; the form itself doesn''t shape meaning.'
+  type: true-false
   answer: false
-  explanation: "This is false. The letter form shapes meaning fundamentally. The direct address creates intimacy. The form allows the voice to be personal and present. The selectivity of correspondence creates narrative structure. The form is not neutral; it's essential to how the work means."
+  explanation: This is false. The letter form shapes meaning fundamentally. The direct address creates intimacy. The form allows the voice to be personal and present. The selectivity of correspondence creates narrative structure. The form is not neutral; it's essential to how the work means.
 
-- type: true-false
-  statement: "True: Epistolary nonfiction can allow multiple voices by including letters from different correspondents, showing relationship and perspective from different angles."
+- question: 'True: Epistolary nonfiction can allow multiple voices by including letters from different correspondents, showing relationship and perspective from different angles.'
+  type: true-false
   answer: true
-  explanation: "Yes. Unlike a single-voiced essay, epistolary nonfiction can include letters from multiple people. A correspondence between two people shows both perspectives. This multiplicity can reveal the complexity of relationship or shared experience better than a unified voice could."
+  explanation: Yes. Unlike a single-voiced essay, epistolary nonfiction can include letters from multiple people. A correspondence between two people shows both perspectives. This multiplicity can reveal the complexity of relationship or shared experience better than a unified voice could.
 
-- type: short-answer
-  question: "How might an epistolary nonfiction work about a significant life relationship work differently than a memoir or personal essay about the same relationship?"
-  explanation: "A memoir or essay would narrate the relationship from the writer's perspective, reflecting back on it. An epistolary work would present actual (or literarily crafted) letters—communication happening in real time, before the outcome is known. This creates immediacy and uncertainty. You're in the moment of the relationship as it's being lived, not reflecting on it afterward. The letter form also allows the other person's voice, their perspective, their words. An epistolary work about a significant relationship might include letters from both people, showing how they understood situations differently. The epistolary form can create more nuance, complexity, and authentic-feeling engagement with relationship than retrospective narrative. It trades the interpretive depth of memoir for the immediacy and dialogue of correspondence."
+- question: How might an epistolary nonfiction work about a significant life relationship work differently than a memoir or personal essay about the same relationship?
+  type: short-answer
+  explanation: A memoir or essay would narrate the relationship from the writer's perspective, reflecting back on it. An epistolary work would present actual (or literarily crafted) letters—communication happening in real time, before the outcome is known. This creates immediacy and uncertainty. You're in the moment of the relationship as it's being lived, not reflecting on it afterward. The letter form also allows the other person's voice, their perspective, their words. An epistolary work about a significant relationship might include letters from both people, showing how they understood situations differently. The epistolary form can create more nuance, complexity, and authentic-feeling engagement with relationship than retrospective narrative. It trades the interpretive depth of memoir for the immediacy and dialogue of correspondence.
 ```
 
 ## Explainer

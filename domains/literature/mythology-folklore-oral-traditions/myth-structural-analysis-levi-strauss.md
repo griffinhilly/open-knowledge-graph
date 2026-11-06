@@ -34,40 +34,39 @@ Structural analysis finds the hidden truth in myths. (Structuralism is one inter
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "According to Lévi-Strauss's structural analysis, what is the primary function of binary opposition in myths?"
-    options:
-      - "Binary oppositions are errors in mythic thinking that modern rational analysis should correct"
-      - "Binary oppositions allow cultures to work through logical contradictions that cannot be fully resolved, mediating between conceptual extremes"
-      - "Binary oppositions are primarily decorative elements with no functional significance"
-      - "Binary oppositions are remnants of primitive thinking that have no use in modern societies"
-    correct: "B"
-    explanation: "Lévi-Strauss argued that myths don't resolve contradictions but work through them using binary pairs. A myth might present nature/culture, male/female, or raw/cooked, and the mythic narrative traces how these oppositions relate and transform. The myth doesn't resolve the contradiction but provides a space for cultures to contemplate it."
+- question: According to Lévi-Strauss's structural analysis, what is the primary function of binary opposition in myths?
+  type: multiple-choice
+  options:
+  - Binary oppositions are errors in mythic thinking that modern rational analysis should correct
+  - Binary oppositions allow cultures to work through logical contradictions that cannot be fully resolved, mediating between conceptual extremes
+  - Binary oppositions are primarily decorative elements with no functional significance
+  - Binary oppositions are remnants of primitive thinking that have no use in modern societies
+  answer: 1
+  explanation: Lévi-Strauss argued that myths don't resolve contradictions but work through them using binary pairs. A myth might present nature/culture, male/female, or raw/cooked, and the mythic narrative traces how these oppositions relate and transform. The myth doesn't resolve the contradiction but provides a space for cultures to contemplate it.
 
-  - type: multiple-choice
-    question: "How does structural analysis of myth differ from interpreting myths through plot or character?"
-    options:
-      - "Structural analysis ignores the narrative entirely and focuses only on literary style"
-      - "Structural analysis seeks meaning through formal patterns and binary oppositions rather than through plot development or psychological character development"
-      - "Structural analysis is a newer method that has completely replaced all other interpretive approaches"
-      - "There is no meaningful difference—structural and narrative analysis ask identical questions"
-    correct: "B"
-    explanation: "Structuralism is a fundamentally different approach. Rather than asking 'what happens to the hero?' or 'what does the character feel?', structural analysis asks 'what binary concepts organize this myth?' and 'how do oppositions recur and transform?' This reveals patterns that character or plot analysis might miss."
+- question: How does structural analysis of myth differ from interpreting myths through plot or character?
+  type: multiple-choice
+  options:
+  - Structural analysis ignores the narrative entirely and focuses only on literary style
+  - Structural analysis seeks meaning through formal patterns and binary oppositions rather than through plot development or psychological character development
+  - Structural analysis is a newer method that has completely replaced all other interpretive approaches
+  - There is no meaningful difference—structural and narrative analysis ask identical questions
+  answer: 1
+  explanation: Structuralism is a fundamentally different approach. Rather than asking 'what happens to the hero?' or 'what does the character feel?', structural analysis asks 'what binary concepts organize this myth?' and 'how do oppositions recur and transform?' This reveals patterns that character or plot analysis might miss.
 
-  - type: true-false
-    question: "Lévi-Strauss argued that all human cultures use identical binary oppositions in their myths."
-    correct: false
-    explanation: "While some binary oppositions recur across cultures (nature/culture appears frequently), Lévi-Strauss recognized that different cultures prioritize and elaborate different binary pairs. The method is universal, but the specific oppositions are culturally variable."
+- question: Lévi-Strauss argued that all human cultures use identical binary oppositions in their myths.
+  type: true-false
+  answer: false
+  explanation: While some binary oppositions recur across cultures (nature/culture appears frequently), Lévi-Strauss recognized that different cultures prioritize and elaborate different binary pairs. The method is universal, but the specific oppositions are culturally variable.
 
-  - type: true-false
-    question: "Structural analysis of myth reveals the single, true, hidden meaning of a myth that other interpretive methods fail to uncover."
-    correct: false
-    explanation: "Structural analysis is one valuable interpretive method that reveals formal patterns, but it doesn't exhaust meaning. A myth has multiple layers—psychological, social, cosmological, textual—and structuralism illuminates the formal/oppositional dimension while other methods illuminate different dimensions."
+- question: Structural analysis of myth reveals the single, true, hidden meaning of a myth that other interpretive methods fail to uncover.
+  type: true-false
+  answer: false
+  explanation: Structural analysis is one valuable interpretive method that reveals formal patterns, but it doesn't exhaust meaning. A myth has multiple layers—psychological, social, cosmological, textual—and structuralism illuminates the formal/oppositional dimension while other methods illuminate different dimensions.
 
-  - type: short-answer
-    question: "Explain what Lévi-Strauss meant by saying that myths work to 'mediate' binary oppositions and why this is significant for understanding how myths function."
-    explanation: "Lévi-Strauss observed that myths don't resolve logical contradictions between binary opposites (nature/culture, raw/cooked, male/female)—these contradictions cannot be resolved. Instead, myths 'mediate' between opposites by introducing intermediate terms or by showing how opposites depend on or transform into each other. For example, cooking (mediation) lies between raw (nature) and cooked (culture), so myths about cooking can address the nature/culture boundary. This is significant because it reveals why myths are necessary: cultures face logical or social contradictions that cannot be rationally resolved. Myths provide a narrative space to work through these contradictions. The myth doesn't eliminate the contradiction but allows the culture to contemplate it, potentially discovering new meanings or relationships between the opposing terms."
+- question: Explain what Lévi-Strauss meant by saying that myths work to 'mediate' binary oppositions and why this is significant for understanding how myths function.
+  type: short-answer
+  explanation: 'Lévi-Strauss observed that myths don''t resolve logical contradictions between binary opposites (nature/culture, raw/cooked, male/female)—these contradictions cannot be resolved. Instead, myths ''mediate'' between opposites by introducing intermediate terms or by showing how opposites depend on or transform into each other. For example, cooking (mediation) lies between raw (nature) and cooked (culture), so myths about cooking can address the nature/culture boundary. This is significant because it reveals why myths are necessary: cultures face logical or social contradictions that cannot be rationally resolved. Myths provide a narrative space to work through these contradictions. The myth doesn''t eliminate the contradiction but allows the culture to contemplate it, potentially discovering new meanings or relationships between the opposing terms.'
 ```
 
 ## Explainer

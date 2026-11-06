@@ -23,36 +23,39 @@ Jane Austen established the romance plot combining emotional development with so
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What makes Austen's approach to the marriage plot distinctive compared to earlier romance traditions?"
-    options:
-      - "She removed all economic considerations from marriage and focused only on love"
-      - "She combined emotional development with social satire, making romance serve larger critiques"
-      - "She eliminated the romance plot entirely in favor of social commentary"
-      - "She was the first to feature female protagonists in marriage plots"
-    correct_answer: 1
-    explanation: "The core idea states that Austen 'established the romance plot combining emotional development with social satire' and that her novels function 'simultaneously as love stories and social critiques.' This dual function is what distinguishes her approach."
-  - type: multiple-choice
-    question: "What economic reality shapes Austen's heroines' approach to marriage?"
-    options:
-      - "Women could inherit property and achieve wealth independently"
-      - "Marriage was a business transaction with no emotional dimension"
-      - "Marriage was an economic necessity, yet heroines seek emotional authenticity within that constraint"
-      - "Women had no economic concerns and could marry purely for love"
-    correct_answer: 2
-    explanation: "The core idea explains that 'Austen's heroines navigate marriage as economic necessity while seeking emotional authenticity,' combining awareness of practical reality with romantic aspiration."
-  - type: true-false
-    question: "Austen's satire of social hypocrisy undermines or contradicts the romantic elements in her plots."
-    correct_answer: false
-    explanation: "The core idea states her novels 'balance romance with sharp observation of social hypocrisy' and function 'simultaneously as love stories and social critiques,' showing that satire and romance work together, not against each other."
-  - type: true-false
-    question: "In Austen's novels, a heroine can achieve emotional authenticity in marriage only by rejecting economic practicality."
-    correct_answer: false
-    explanation: "The core idea presents these as balanced concerns: Austen shows heroines 'navigating marriage as economic necessity while seeking emotional authenticity,' suggesting both must be addressed, not that one requires rejecting the other."
-  - type: short-answer
-    question: "How does Austen's social satire enhance rather than diminish the emotional power of her romance plots?"
-    explanation: "Good answers should explain that satire reveals hypocrisy in social values, making genuine emotional connections more precious and hard-won. By showing the falseness in society's assumptions, Austen's satire makes her heroines' pursuit of authentic feeling more meaningful. The satire also provides ironic distance and humor that prevents romance from becoming sentimental."
+- question: What makes Austen's approach to the marriage plot distinctive compared to earlier romance traditions?
+  type: multiple-choice
+  options:
+  - She removed all economic considerations from marriage and focused only on love
+  - She combined emotional development with social satire, making romance serve larger critiques
+  - She eliminated the romance plot entirely in favor of social commentary
+  - She was the first to feature female protagonists in marriage plots
+  answer: 1
+  explanation: The core idea states that Austen 'established the romance plot combining emotional development with social satire' and that her novels function 'simultaneously as love stories and social critiques.' This dual function is what distinguishes her approach.
+
+- question: What economic reality shapes Austen's heroines' approach to marriage?
+  type: multiple-choice
+  options:
+  - Women could inherit property and achieve wealth independently
+  - Marriage was a business transaction with no emotional dimension
+  - Marriage was an economic necessity, yet heroines seek emotional authenticity within that constraint
+  - Women had no economic concerns and could marry purely for love
+  answer: 2
+  explanation: The core idea explains that 'Austen's heroines navigate marriage as economic necessity while seeking emotional authenticity,' combining awareness of practical reality with romantic aspiration.
+
+- question: Austen's satire of social hypocrisy undermines or contradicts the romantic elements in her plots.
+  type: true-false
+  answer: false
+  explanation: The core idea states her novels 'balance romance with sharp observation of social hypocrisy' and function 'simultaneously as love stories and social critiques,' showing that satire and romance work together, not against each other.
+
+- question: In Austen's novels, a heroine can achieve emotional authenticity in marriage only by rejecting economic practicality.
+  type: true-false
+  answer: false
+  explanation: 'The core idea presents these as balanced concerns: Austen shows heroines ''navigating marriage as economic necessity while seeking emotional authenticity,'' suggesting both must be addressed, not that one requires rejecting the other.'
+
+- question: How does Austen's social satire enhance rather than diminish the emotional power of her romance plots?
+  type: short-answer
+  explanation: Good answers should explain that satire reveals hypocrisy in social values, making genuine emotional connections more precious and hard-won. By showing the falseness in society's assumptions, Austen's satire makes her heroines' pursuit of authentic feeling more meaningful. The satire also provides ironic distance and humor that prevents romance from becoming sentimental.
 ```
 
 ## Explainer

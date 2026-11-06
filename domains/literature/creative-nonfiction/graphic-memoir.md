@@ -22,39 +22,39 @@ Graphic memoir tells life narrative through the integration and interaction of v
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What advantage does the visual element offer in graphic memoir?"
+- question: What advantage does the visual element offer in graphic memoir?
+  type: multiple-choice
   options:
-    - "Visual art is less serious than writing."
-    - "Drawing can convey embodied experience, emotion, and spatial relationships that words alone might not capture as immediately."
-    - "Graphics are just decoration added to memoir text."
-    - "Graphic memoirs are not true nonfiction."
+  - Visual art is less serious than writing.
+  - Drawing can convey embodied experience, emotion, and spatial relationships that words alone might not capture as immediately.
+  - Graphics are just decoration added to memoir text.
+  - Graphic memoirs are not true nonfiction.
   answer: 1
-  explanation: "Visual narrative offers possibilities distinct from text. How a body looks and moves, spatial relationships, emotional intensity—these can be conveyed through image in ways that require more text to describe. The combination of image and text creates meaning that neither alone could create."
+  explanation: Visual narrative offers possibilities distinct from text. How a body looks and moves, spatial relationships, emotional intensity—these can be conveyed through image in ways that require more text to describe. The combination of image and text creates meaning that neither alone could create.
 
-- type: multiple-choice
-  question: "What does it mean that 'page layout functions rhetorically' in graphic memoir?"
+- question: What does it mean that 'page layout functions rhetorically' in graphic memoir?
+  type: multiple-choice
   options:
-    - "Layout is only aesthetic, unrelated to meaning."
-    - "The arrangement of panels, text, and white space on the page shapes how readers interpret and experience the narrative."
-    - "Graphic memoirs have no structure."
-    - "Page layout only matters in graphic novels, not memoirs."
+  - Layout is only aesthetic, unrelated to meaning.
+  - The arrangement of panels, text, and white space on the page shapes how readers interpret and experience the narrative.
+  - Graphic memoirs have no structure.
+  - Page layout only matters in graphic novels, not memoirs.
   answer: 1
-  explanation: "In graphic memoir, page layout is not neutral. The size and arrangement of panels, the use of white space, the relationship between image and text on the page—these choices shape meaning. A large panel emphasizes a moment; a sequence of small panels conveys rapid change. Layout is rhetorical."
+  explanation: In graphic memoir, page layout is not neutral. The size and arrangement of panels, the use of white space, the relationship between image and text on the page—these choices shape meaning. A large panel emphasizes a moment; a sequence of small panels conveys rapid change. Layout is rhetorical.
 
-- type: true-false
-  statement: "True: Graphic memoir can represent memory not as linear narrative but through visual layering and fragmentation that mirrors how memory actually works."
+- question: 'True: Graphic memoir can represent memory not as linear narrative but through visual layering and fragmentation that mirrors how memory actually works.'
+  type: true-false
   answer: true
-  explanation: "Memory is not perfectly sequential. It's fragmentary, layered, visual. Graphic form can represent this. A page might show multiple moments simultaneously through panel arrangement. Images might blur or fragment. The form can enact memory more authentically than linear text."
+  explanation: Memory is not perfectly sequential. It's fragmentary, layered, visual. Graphic form can represent this. A page might show multiple moments simultaneously through panel arrangement. Images might blur or fragment. The form can enact memory more authentically than linear text.
 
-- type: true-false
-  statement: "False: Drawing in memoir requires documentary accuracy, photographically representing what happened."
+- question: 'False: Drawing in memoir requires documentary accuracy, photographically representing what happened.'
+  type: true-false
   answer: false
-  explanation: "This is false. Drawing is not photography. A graphic memoirist chooses style, level of detail, visual language. The drawing is interpretive, not documentary. Different styles create different meanings. The choice of how to draw is as important as what is drawn."
+  explanation: This is false. Drawing is not photography. A graphic memoirist chooses style, level of detail, visual language. The drawing is interpretive, not documentary. Different styles create different meanings. The choice of how to draw is as important as what is drawn.
 
-- type: short-answer
-  question: "How might a graphic memoir represent a difficult experience (trauma, grief, complex identity) differently than a written memoir about the same experience?"
-  explanation: "A written memoir would use language to describe experience and emotion. A graphic memoir could show embodied experience directly—the posture of a traumatized person, the physicality of grief, how a person of a particular identity occupies space. Some things are easier to show visually than to describe. Complex emotions might be conveyed through visual metaphor, through distorted drawing, through fragmented panels. The reader experiences emotional intensity through the visual form. A graphic memoir about identity might show physical transformation, might use drawing style to convey internal shifts. Graphic form allows memoirists to express what's difficult to put into words."
+- question: How might a graphic memoir represent a difficult experience (trauma, grief, complex identity) differently than a written memoir about the same experience?
+  type: short-answer
+  explanation: A written memoir would use language to describe experience and emotion. A graphic memoir could show embodied experience directly—the posture of a traumatized person, the physicality of grief, how a person of a particular identity occupies space. Some things are easier to show visually than to describe. Complex emotions might be conveyed through visual metaphor, through distorted drawing, through fragmented panels. The reader experiences emotional intensity through the visual form. A graphic memoir about identity might show physical transformation, might use drawing style to convey internal shifts. Graphic form allows memoirists to express what's difficult to put into words.
 ```
 
 ## Explainer

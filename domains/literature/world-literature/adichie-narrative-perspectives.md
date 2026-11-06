@@ -34,39 +34,39 @@ Adichie's narrative complexity is not ambiguity that avoids commitment—it repr
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "Why does Adichie use multiple shifting perspectives rather than a single unified narrator?"
+- question: Why does Adichie use multiple shifting perspectives rather than a single unified narrator?
+  type: multiple-choice
   options:
-    - "To create confusion and test the reader's ability to follow complex plots"
-    - "To represent postcolonial consciousness itself—how colonialism fragments identity and makes unified perspective impossible"
-    - "Because multiple perspectives are easier to write than developing a single coherent voice"
-    - "To appeal to different audience members who identify with different characters"
+  - To create confusion and test the reader's ability to follow complex plots
+  - To represent postcolonial consciousness itself—how colonialism fragments identity and makes unified perspective impossible
+  - Because multiple perspectives are easier to write than developing a single coherent voice
+  - To appeal to different audience members who identify with different characters
   answer: 1
-  explanation: "Adichie's formal choice is fundamentally political. Postcolonial societies and individuals inherit competing legacies—colonial authority, indigenous traditions, global capitalism, national nationalism. No single perspective can adequately represent this reality. By fragmenting narrative perspective, Adichie enacts this consciousness rather than merely describing it. The reader experiences the dissonance, contradiction, and partiality that postcolonial subjects experience. Form becomes content: the narrative technique IS the representation of postcolonial consciousness."
+  explanation: 'Adichie''s formal choice is fundamentally political. Postcolonial societies and individuals inherit competing legacies—colonial authority, indigenous traditions, global capitalism, national nationalism. No single perspective can adequately represent this reality. By fragmenting narrative perspective, Adichie enacts this consciousness rather than merely describing it. The reader experiences the dissonance, contradiction, and partiality that postcolonial subjects experience. Form becomes content: the narrative technique IS the representation of postcolonial consciousness.'
 
-- type: multiple-choice
-  question: "What does Adichie mean by saying that narrative form can represent 'how colonial history shapes consciousness'?"
+- question: What does Adichie mean by saying that narrative form can represent 'how colonial history shapes consciousness'?
+  type: multiple-choice
   options:
-    - "By telling stories about colonial events that happened in the past"
-    - "By showing how colonialism is still actively shaping how people think, remember, and understand themselves—visible in narrative instability and competing truths"
-    - "By depicting violence and trauma explicitly in narrative descriptions"
-    - "By having characters discuss their feelings about colonialism directly"
+  - By telling stories about colonial events that happened in the past
+  - By showing how colonialism is still actively shaping how people think, remember, and understand themselves—visible in narrative instability and competing truths
+  - By depicting violence and trauma explicitly in narrative descriptions
+  - By having characters discuss their feelings about colonialism directly
   answer: 1
-  explanation: "Adichie's insight is that colonialism is not just historical—it is ongoing, internalized, and structural. The way a postcolonial consciousness narrates itself is fragmented because colonial history has fragmented identity. By using narrative instability, shifting perspectives, and stylistic variation, Adichie shows how consciousness itself bears the marks of colonial domination. A reader experiences this not through exposition but through the difficulty of arriving at a single, stable understanding. The form reproduces the psychological and social reality."
+  explanation: Adichie's insight is that colonialism is not just historical—it is ongoing, internalized, and structural. The way a postcolonial consciousness narrates itself is fragmented because colonial history has fragmented identity. By using narrative instability, shifting perspectives, and stylistic variation, Adichie shows how consciousness itself bears the marks of colonial domination. A reader experiences this not through exposition but through the difficulty of arriving at a single, stable understanding. The form reproduces the psychological and social reality.
 
-- type: true-false
-  statement: "In Adichie's novels, the presence of multiple conflicting narratives means the author is avoiding taking a political position."
+- question: In Adichie's novels, the presence of multiple conflicting narratives means the author is avoiding taking a political position.
+  type: true-false
   answer: false
-  explanation: "This is a key misconception. Multiplicity is Adichie's political position. By insisting that no single narrative can capture postcolonial reality, she refuses the imposition of false unity or singular truth. She is arguing politically that postcolonial consciousness is necessarily multiple and that this multiplicity must be respected in representation. Far from avoiding commitment, she is committed to representing the complexity that other writers might simplify. The politics is in the form."
+  explanation: This is a key misconception. Multiplicity is Adichie's political position. By insisting that no single narrative can capture postcolonial reality, she refuses the imposition of false unity or singular truth. She is arguing politically that postcolonial consciousness is necessarily multiple and that this multiplicity must be respected in representation. Far from avoiding commitment, she is committed to representing the complexity that other writers might simplify. The politics is in the form.
 
-- type: true-false
-  statement: "Adichie's use of temporal fragmentation and shifting perspectives is a technique for representing how colonialism and its aftermath have shaped individual identity and collective consciousness."
+- question: Adichie's use of temporal fragmentation and shifting perspectives is a technique for representing how colonialism and its aftermath have shaped individual identity and collective consciousness.
+  type: true-false
   answer: true
-  explanation: "This directly reflects Adichie's formal and political project. Historical trauma, competing loyalties, and fractured identity are not abstract concepts but experiential realities in postcolonial contexts. By fragmenting narrative time and multiplying perspectives, Adichie gives readers access to how this fragmentation feels from the inside. The narrative form is inseparable from the content: both are representations of the postcolonial condition."
+  explanation: 'This directly reflects Adichie''s formal and political project. Historical trauma, competing loyalties, and fractured identity are not abstract concepts but experiential realities in postcolonial contexts. By fragmenting narrative time and multiplying perspectives, Adichie gives readers access to how this fragmentation feels from the inside. The narrative form is inseparable from the content: both are representations of the postcolonial condition.'
 
-- type: short-answer
-  question: "Explain why narrative perspective and political representation are inseparable in Adichie's work. How does changing perspectives function as a political act?"
-  explanation: "In Adichie's understanding, the way a story is told—whose perspective dominates, whose voice is silenced, how time is structured, which truths are validated—is inherently political. In colonial and postcolonial contexts, the power to narrate is the power to define reality. Western narratives about Africa, for example, typically centered Western perspectives and erased or simplified African complexity. By refusing a single unified perspective and instead fragmenting narrative authority, Adichie decolonizes the novel form itself. She insists that multiple truths coexist, that no single narrator has privileged access to reality, and that readers must sit with contradiction rather than resolve it into false harmony. This technique distributes narrative power rather than concentrating it. The political act is in the refusal of narrative closure and singular authority—a formal resistance to the authoritarian voice of colonial domination."
+- question: Explain why narrative perspective and political representation are inseparable in Adichie's work. How does changing perspectives function as a political act?
+  type: short-answer
+  explanation: In Adichie's understanding, the way a story is told—whose perspective dominates, whose voice is silenced, how time is structured, which truths are validated—is inherently political. In colonial and postcolonial contexts, the power to narrate is the power to define reality. Western narratives about Africa, for example, typically centered Western perspectives and erased or simplified African complexity. By refusing a single unified perspective and instead fragmenting narrative authority, Adichie decolonizes the novel form itself. She insists that multiple truths coexist, that no single narrator has privileged access to reality, and that readers must sit with contradiction rather than resolve it into false harmony. This technique distributes narrative power rather than concentrating it. The political act is in the refusal of narrative closure and singular authority—a formal resistance to the authoritarian voice of colonial domination.
 ```
 
 ## Explainer

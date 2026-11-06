@@ -23,39 +23,39 @@ Some nonfiction writers make their research process visible through footnotes, p
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "Why would a nonfiction writer make their research process visible rather than hide it behind finished prose?"
+- question: Why would a nonfiction writer make their research process visible rather than hide it behind finished prose?
+  type: multiple-choice
   options:
-    - "Because visible research is more scholarly and less literary."
-    - "Because visible research creates credibility by showing readers the evidence and acknowledging where knowledge is incomplete."
-    - "Because readers don't care about sources or process, and visible research confuses them."
-    - "Because all nonfiction must include footnotes and citations."
+  - Because visible research is more scholarly and less literary.
+  - Because visible research creates credibility by showing readers the evidence and acknowledging where knowledge is incomplete.
+  - Because readers don't care about sources or process, and visible research confuses them.
+  - Because all nonfiction must include footnotes and citations.
   answer: 1
-  explanation: "Making research visible transforms the reader's relationship to the text. Rather than presenting conclusions as settled fact, visible research shows readers where those conclusions come from. Footnotes might reveal that a claim comes from a single source that could be disputed. Acknowledgments of gaps (I could not find…) create honesty about limitations. Parenthetical asides let readers watch thinking in progress. This transparency builds credibility rather than weakening it, because it respects readers' intelligence and desire to evaluate claims themselves."
+  explanation: Making research visible transforms the reader's relationship to the text. Rather than presenting conclusions as settled fact, visible research shows readers where those conclusions come from. Footnotes might reveal that a claim comes from a single source that could be disputed. Acknowledgments of gaps (I could not find…) create honesty about limitations. Parenthetical asides let readers watch thinking in progress. This transparency builds credibility rather than weakening it, because it respects readers' intelligence and desire to evaluate claims themselves.
 
-- type: multiple-choice
-  question: "What does 'enhancing credibility through transparency' mean in nonfiction research?"
+- question: What does 'enhancing credibility through transparency' mean in nonfiction research?
+  type: multiple-choice
   options:
-    - "Making writing harder to understand by adding too many technical details."
-    - "Hiding all the difficult parts of research so writing seems effortless."
-    - "Showing readers the basis of claims so they can evaluate reliability and see limitations."
-    - "Using citations to avoid engaging with opposing viewpoints."
+  - Making writing harder to understand by adding too many technical details.
+  - Hiding all the difficult parts of research so writing seems effortless.
+  - Showing readers the basis of claims so they can evaluate reliability and see limitations.
+  - Using citations to avoid engaging with opposing viewpoints.
   answer: 2
-  explanation: "Transparency builds credibility by inviting readers into the thinking process. When a writer acknowledges 'I found three sources on this topic, but they contradict each other about dates—here's what I know and don't know,' readers see honesty rather than evasion. When footnotes reveal that a key claim comes from one study or one person's testimony, readers can weigh it appropriately. This approach respects reader intelligence and creates trust through demonstrated integrity."
+  explanation: Transparency builds credibility by inviting readers into the thinking process. When a writer acknowledges 'I found three sources on this topic, but they contradict each other about dates—here's what I know and don't know,' readers see honesty rather than evasion. When footnotes reveal that a key claim comes from one study or one person's testimony, readers can weigh it appropriately. This approach respects reader intelligence and creates trust through demonstrated integrity.
 
-- type: true-false
-  statement: "True: Acknowledging knowledge gaps and limitations in nonfiction weakens the argument and makes writing seem less authoritative."
+- question: 'True: Acknowledging knowledge gaps and limitations in nonfiction weakens the argument and makes writing seem less authoritative.'
+  type: true-false
   answer: false
-  explanation: "The opposite is true. Pretending certainty where uncertainty exists damages credibility when readers discover it. Acknowledging gaps actually strengthens credibility by showing the writer is honest about what they know and don't know. This is particularly important in nonfiction, where the contract with readers includes truthfulness. A writer who says 'I don't know why this happened, but here are the competing explanations' seems more trustworthy than one who presents a guess as fact."
+  explanation: The opposite is true. Pretending certainty where uncertainty exists damages credibility when readers discover it. Acknowledging gaps actually strengthens credibility by showing the writer is honest about what they know and don't know. This is particularly important in nonfiction, where the contract with readers includes truthfulness. A writer who says 'I don't know why this happened, but here are the competing explanations' seems more trustworthy than one who presents a guess as fact.
 
-- type: true-false
-  statement: "True: Making research visible means that all nonfiction writing must use footnotes and academic citations."
+- question: 'True: Making research visible means that all nonfiction writing must use footnotes and academic citations.'
+  type: true-false
   answer: false
-  explanation: "Visible research can take many forms. Footnotes are one approach (common in scholarly writing), but parenthetical asides, endnotes, embedded citations, explicit acknowledgments of sources within the text, and author's notes are all ways of making research visible. Even narrative acknowledgments ('I learned this from interviews with…') make process visible. The form depends on the writing context; literary essays might use different strategies than academic papers, but both can prioritize transparency."
+  explanation: Visible research can take many forms. Footnotes are one approach (common in scholarly writing), but parenthetical asides, endnotes, embedded citations, explicit acknowledgments of sources within the text, and author's notes are all ways of making research visible. Even narrative acknowledgments ('I learned this from interviews with…') make process visible. The form depends on the writing context; literary essays might use different strategies than academic papers, but both can prioritize transparency.
 
-- type: short-answer
-  question: "Write a brief passage about something you researched, making your research process visible. What sources did you use? Where did information come from? What remained uncertain? How does this visibility change the passage?"
-  explanation: "For example, rather than simply stating that a company was founded in 1987, you might write about finding conflicting dates in different sources and having no way to verify which was accurate. This makes visible the research process — showing where information came from, what sources say, where uncertainty remains. Readers see that you checked multiple sources and honestly acknowledge contradiction. The transparency makes thinking visible rather than hidden."
+- question: Write a brief passage about something you researched, making your research process visible. What sources did you use? Where did information come from? What remained uncertain? How does this visibility change the passage?
+  type: short-answer
+  explanation: For example, rather than simply stating that a company was founded in 1987, you might write about finding conflicting dates in different sources and having no way to verify which was accurate. This makes visible the research process — showing where information came from, what sources say, where uncertainty remains. Readers see that you checked multiple sources and honestly acknowledge contradiction. The transparency makes thinking visible rather than hidden.
 ```
 
 ## Explainer

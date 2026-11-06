@@ -35,40 +35,40 @@ Introduce one note value at a time, starting with quarter notes (one beat). Clap
 ## Questions
 
 ```yaml
-- question: "What does rhythm notation tell you?"
-  type: mc
+- question: What does rhythm notation tell you?
+  type: multiple-choice
   options:
-    - "What song to play"
-    - "How long each sound lasts"
-    - "Where to put your fingers"
-    - "How fast to play"
+  - What song to play
+  - How long each sound lasts
+  - Where to put your fingers
+  - How fast to play
   answer: 1
-  explanation: "Rhythm notation is a system of symbols that shows the duration of each note—how long it should be held."
+  explanation: Rhythm notation is a system of symbols that shows the duration of each note—how long it should be held.
 
-- question: "A quarter note lasts as long as two eighth notes."
-  type: tf
+- question: A quarter note lasts as long as two eighth notes.
+  type: true-false
   answer: true
-  explanation: "Yes! An eighth note is half as long as a quarter note, so you need two eighth notes to equal one quarter note."
+  explanation: Yes! An eighth note is half as long as a quarter note, so you need two eighth notes to equal one quarter note.
 
-- question: "What does a rhythm symbol show about a note?"
-  type: mc
+- question: What does a rhythm symbol show about a note?
+  type: multiple-choice
   options:
-    - "The pitch (high or low)"
-    - "The volume (loud or soft)"
-    - "The duration (how long it lasts)"
-    - "The instrument that plays it"
+  - The pitch (high or low)
+  - The volume (loud or soft)
+  - The duration (how long it lasts)
+  - The instrument that plays it
   answer: 2
-  explanation: "Rhythm notation symbols only show duration. They tell you how many beats to hold, not how high the note is."
+  explanation: Rhythm notation symbols only show duration. They tell you how many beats to hold, not how high the note is.
 
-- question: "Once you learn rhythm notation, you can play any song someone writes down for you."
-  type: tf
+- question: Once you learn rhythm notation, you can play any song someone writes down for you.
+  type: true-false
   answer: false
-  explanation: "Rhythm notation only tells you timing. To play the actual song, you'd also need to know the pitches (notes). Both rhythm and pitch are needed."
+  explanation: Rhythm notation only tells you timing. To play the actual song, you'd also need to know the pitches (notes). Both rhythm and pitch are needed.
 
-- question: "Name two different rhythm symbols and tell how long each one lasts."
-  type: sa
-  answer: "A quarter note lasts one beat, and a half note lasts two beats."
-  explanation: "A good answer includes any two correct rhythm symbols with their correct durations. Other examples: whole note (4 beats), eighth note (half a beat)."
+- question: Name two different rhythm symbols and tell how long each one lasts.
+  type: short-answer
+  answer: A quarter note lasts one beat, and a half note lasts two beats.
+  explanation: 'A good answer includes any two correct rhythm symbols with their correct durations. Other examples: whole note (4 beats), eighth note (half a beat).'
 ```
 
 ## Explainer

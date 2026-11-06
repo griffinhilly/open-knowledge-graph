@@ -25,39 +25,39 @@ Gonzo journalism places the reporter at the narrative center, making their subje
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "How does gonzo journalism differ from traditional objective journalism?"
+- question: How does gonzo journalism differ from traditional objective journalism?
+  type: multiple-choice
   options:
-    - "Gonzo journalism tries to be objective; traditional journalism doesn't."
-    - "Gonzo journalism rejects the pretense of objectivity, making the reporter's subjective experience part of the story."
-    - "They are the same form."
-    - "Gonzo journalism is less rigorous than traditional journalism."
+  - Gonzo journalism tries to be objective; traditional journalism doesn't.
+  - Gonzo journalism rejects the pretense of objectivity, making the reporter's subjective experience part of the story.
+  - They are the same form.
+  - Gonzo journalism is less rigorous than traditional journalism.
   answer: 1
-  explanation: "Traditional journalism aims for objectivity—the reporter is invisible, facts speak for themselves. Gonzo journalism says: objectivity is impossible and undesirable. The reporter is present, emotional, subjective. This presence is not a flaw; it's the story. The honest about what the reporter experiences and feels."
+  explanation: 'Traditional journalism aims for objectivity—the reporter is invisible, facts speak for themselves. Gonzo journalism says: objectivity is impossible and undesirable. The reporter is present, emotional, subjective. This presence is not a flaw; it''s the story. The honest about what the reporter experiences and feels.'
 
-- type: multiple-choice
-  question: "What does 'complete honesty about the observer's state creates paradoxical truthfulness' mean?"
+- question: What does 'complete honesty about the observer's state creates paradoxical truthfulness' mean?
+  type: multiple-choice
   options:
-    - "Being honest about subjectivity somehow makes reporting false."
-    - "By being completely transparent about the reporter's perspective, feelings, and state, gonzo journalism paradoxically achieves a kind of truth impossible in supposedly objective reporting."
-    - "Honesty and truth are opposites."
-    - "Observers should hide their reactions."
+  - Being honest about subjectivity somehow makes reporting false.
+  - By being completely transparent about the reporter's perspective, feelings, and state, gonzo journalism paradoxically achieves a kind of truth impossible in supposedly objective reporting.
+  - Honesty and truth are opposites.
+  - Observers should hide their reactions.
   answer: 1
-  explanation: "This is the central insight of gonzo journalism. Pretending to objectivity while actually being subjective is dishonest. Being openly subjective—'Here's what I think, how I feel, how I'm reacting'—is more honest. This honesty creates a different kind of truth: not false claims of objectivity but genuine witness from a particular perspective."
+  explanation: 'This is the central insight of gonzo journalism. Pretending to objectivity while actually being subjective is dishonest. Being openly subjective—''Here''s what I think, how I feel, how I''m reacting''—is more honest. This honesty creates a different kind of truth: not false claims of objectivity but genuine witness from a particular perspective.'
 
-- type: true-false
-  statement: "True: In gonzo journalism, the reporter becomes part of the story being reported, challenging the traditional separation between reporter and subject."
+- question: 'True: In gonzo journalism, the reporter becomes part of the story being reported, challenging the traditional separation between reporter and subject.'
+  type: true-false
   answer: true
-  explanation: "This is fundamental to gonzo. The reporter isn't standing outside observing; they're embedded, implicated, reacting. Their reactions matter. This challenges the boundary between observer and observed—the reporter's subjectivity is data, not something to be eliminated."
+  explanation: This is fundamental to gonzo. The reporter isn't standing outside observing; they're embedded, implicated, reacting. Their reactions matter. This challenges the boundary between observer and observed—the reporter's subjectivity is data, not something to be eliminated.
 
-- type: true-false
-  statement: "False: Gonzo journalism is just subjective opinion, not real reporting—it's closer to personal essay than journalism."
+- question: 'False: Gonzo journalism is just subjective opinion, not real reporting—it''s closer to personal essay than journalism.'
+  type: true-false
   answer: false
-  explanation: "While gonzo journalism embraces subjectivity, that doesn't mean it abandons rigor. Gonzo journalists still do research, interview, investigate. The difference is they admit their perspective is part of what's being reported. The subjectivity doesn't exempt them from accuracy; it complicates but doesn't negate their responsibility to facts."
+  explanation: While gonzo journalism embraces subjectivity, that doesn't mean it abandons rigor. Gonzo journalists still do research, interview, investigate. The difference is they admit their perspective is part of what's being reported. The subjectivity doesn't exempt them from accuracy; it complicates but doesn't negate their responsibility to facts.
 
-- type: short-answer
-  question: "How might a gonzo journalist report on an event or scene differently than a traditional journalist? What does each approach offer?"
-  explanation: "A traditional journalist reporting on a concert might describe the music, the crowd, the performance without reference to their own experience. They'd hide their perspective. A gonzo journalist might write: 'The music was deafening, and I found myself unable to think clearly. The crowd was frenzied, and their frenzy was contagious. I felt myself being pulled into the collective experience despite my intentions to observe objectively.' The gonzo reporter admits they're affected. They describe their emotional and sensory state. This might seem less reliable, but gonzo argues it's more honest. You're not getting supposedly objective facts; you're getting genuine witness. What's lost is false objectivity. What's gained is honesty about perspective. In situations with high stakes—political moments, social unrest—gonzo journalism's willingness to acknowledge the reporter's reactions and state can offer insights objective reporting misses."
+- question: How might a gonzo journalist report on an event or scene differently than a traditional journalist? What does each approach offer?
+  type: short-answer
+  explanation: 'A traditional journalist reporting on a concert might describe the music, the crowd, the performance without reference to their own experience. They''d hide their perspective. A gonzo journalist might write: ''The music was deafening, and I found myself unable to think clearly. The crowd was frenzied, and their frenzy was contagious. I felt myself being pulled into the collective experience despite my intentions to observe objectively.'' The gonzo reporter admits they''re affected. They describe their emotional and sensory state. This might seem less reliable, but gonzo argues it''s more honest. You''re not getting supposedly objective facts; you''re getting genuine witness. What''s lost is false objectivity. What''s gained is honesty about perspective. In situations with high stakes—political moments, social unrest—gonzo journalism''s willingness to acknowledge the reporter''s reactions and state can offer insights objective reporting misses.'
 ```
 
 ## Explainer

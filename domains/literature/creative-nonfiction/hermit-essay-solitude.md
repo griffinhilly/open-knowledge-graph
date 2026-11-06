@@ -25,39 +25,39 @@ The hermit essay uses deliberate withdrawal from society to observe, reflect, an
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What distinguishes the hermit essay from simple personal reflection?"
+- question: What distinguishes the hermit essay from simple personal reflection?
+  type: multiple-choice
   options:
-    - "Hermit essays are just lonely people complaining."
-    - "The hermit essay uses deliberate withdrawal and sustained solitude as a method for generating insight and then reporting that insight."
-    - "Hermit essays don't involve reflection."
-    - "There is no difference."
+  - Hermit essays are just lonely people complaining.
+  - The hermit essay uses deliberate withdrawal and sustained solitude as a method for generating insight and then reporting that insight.
+  - Hermit essays don't involve reflection.
+  - There is no difference.
   answer: 1
-  explanation: "The hermit essay is not solitude for its own sake. It's a method—you withdraw to observe, to reflect, and then you report back what you've learned. It's not about being isolated but about using isolation as a tool for understanding. Thoreau at Walden wasn't just living alone; he was experimenting with how solitude might deepen attention and thought."
+  explanation: The hermit essay is not solitude for its own sake. It's a method—you withdraw to observe, to reflect, and then you report back what you've learned. It's not about being isolated but about using isolation as a tool for understanding. Thoreau at Walden wasn't just living alone; he was experimenting with how solitude might deepen attention and thought.
 
-- type: multiple-choice
-  question: "How does the hermit essay position the essayist in relation to society?"
+- question: How does the hermit essay position the essayist in relation to society?
+  type: multiple-choice
   options:
-    - "The essayist rejects society permanently."
-    - "The essayist withdraws voluntarily and temporarily to generate insight that will be shared with society."
-    - "The essayist ignores society."
-    - "The hermit essay doesn't engage with society."
+  - The essayist rejects society permanently.
+  - The essayist withdraws voluntarily and temporarily to generate insight that will be shared with society.
+  - The essayist ignores society.
+  - The hermit essay doesn't engage with society.
   answer: 1
-  explanation: "The hermit essay is not permanently anti-social. It's strategic withdrawal. The essayist steps back from society deliberately, generates insight, and returns to report. The withdrawal is temporary and purposeful, not permanent exile."
+  explanation: The hermit essay is not permanently anti-social. It's strategic withdrawal. The essayist steps back from society deliberately, generates insight, and returns to report. The withdrawal is temporary and purposeful, not permanent exile.
 
-- type: true-false
-  statement: "True: Sustained attention and solitude can generate insights impossible to reach in the midst of social activity."
+- question: 'True: Sustained attention and solitude can generate insights impossible to reach in the midst of social activity.'
+  type: true-false
   answer: true
-  explanation: "This is the hermit essay's fundamental assumption. In solitude, without social demands and stimulation, attention deepens. Thought becomes possible. What you notice, what you understand, what you reflect on—these can shift fundamentally with sustained attention."
+  explanation: This is the hermit essay's fundamental assumption. In solitude, without social demands and stimulation, attention deepens. Thought becomes possible. What you notice, what you understand, what you reflect on—these can shift fundamentally with sustained attention.
 
-- type: true-false
-  statement: "False: Following Thoreau's tradition means the hermit essay must involve living in nature, in isolation from civilization."
+- question: 'False: Following Thoreau''s tradition means the hermit essay must involve living in nature, in isolation from civilization.'
+  type: true-false
   answer: false
-  explanation: "While Thoreau was important to the tradition, the hermit essay doesn't require literal isolation or nature. Contemporary hermit essays might involve urban solitude, temporary withdrawal, or simply a practice of sustained attention and reflection. It's the willingness to step back that matters, not the location."
+  explanation: While Thoreau was important to the tradition, the hermit essay doesn't require literal isolation or nature. Contemporary hermit essays might involve urban solitude, temporary withdrawal, or simply a practice of sustained attention and reflection. It's the willingness to step back that matters, not the location.
 
-- type: short-answer
-  question: "How might a hermit essay work? What would the structure or practice involve?"
-  explanation: "A hermit essay might involve actual withdrawal—a writer spends a month in solitude, keeping notes about what happens, what they observe, how attention shifts. Or it might involve a practice of regular solitude—early mornings alone, intentional retreat from social media and distraction. The essayist then reflects on what the solitude generates. Has attention deepened? Have new thoughts emerged? What does it feel like to step outside ordinary social pace? The essay reports back: here's what solitude revealed. It might be about how we think when not responding to others, about attention to natural world, about what becomes visible when distraction is removed. The power comes from the real experience of withdrawal and the genuine reflection it generates, not from literary pretense."
+- question: How might a hermit essay work? What would the structure or practice involve?
+  type: short-answer
+  explanation: 'A hermit essay might involve actual withdrawal—a writer spends a month in solitude, keeping notes about what happens, what they observe, how attention shifts. Or it might involve a practice of regular solitude—early mornings alone, intentional retreat from social media and distraction. The essayist then reflects on what the solitude generates. Has attention deepened? Have new thoughts emerged? What does it feel like to step outside ordinary social pace? The essay reports back: here''s what solitude revealed. It might be about how we think when not responding to others, about attention to natural world, about what becomes visible when distraction is removed. The power comes from the real experience of withdrawal and the genuine reflection it generates, not from literary pretense.'
 ```
 
 ## Explainer

@@ -27,36 +27,39 @@ Weird fiction blends science fiction and horror elements, emphasizing the strang
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What does weird fiction emphasize as its primary narrative focus?"
-    options:
-      - "Linear plot progression and clear resolution"
-      - "The strange, uncanny, and fundamentally alien; atmosphere and confronting the incomprehensible"
-      - "Realistic character development and emotional arcs"
-      - "Elaborate social and political worldbuilding"
-    correct_answer: 1
-    explanation: "The core idea states that weird fiction 'emphasizes the strange, uncanny, and fundamentally alien' and 'prioritizes atmosphere and the sense of confronting the incomprehensible.'"
-  - type: multiple-choice
-    question: "How do non-Euclidean geometries and tentacle creatures function in weird fiction?"
-    options:
-      - "They are decorative elements with no thematic purpose"
-      - "They serve to confuse readers unnecessarily"
-      - "They feature as phenomena that challenge human perception and language, emphasizing incomprehensibility"
-      - "They are metaphors for psychological states"
-    correct_answer: 2
-    explanation: "The core idea identifies these elements as phenomena that 'challenge human perception and language,' serving the genre's emphasis on the incomprehensible."
-  - type: true-false
-    question: "Weird fiction prioritizes coherent worldbuilding and consistent logical systems."
-    correct_answer: false
-    explanation: "The core idea states that weird fiction 'prioritizes atmosphere and the sense of confronting the incomprehensible over coherent worldbuilding,' showing worldbuilding takes secondary importance."
-  - type: true-false
-    question: "Weird fiction deliberately challenges human ability to perceive and describe alien phenomena."
-    correct_answer: true
-    explanation: "The core idea identifies that weird fiction features phenomena 'that challenge human perception and language,' showing that the limits of human understanding are central."
-  - type: short-answer
-    question: "Why would coherent worldbuilding actually work against weird fiction's goal of creating a sense of the incomprehensible?"
-    explanation: "A strong answer should explain that if everything is explained and systematized, the alien becomes comprehensible and loses its power to disturb. By leaving phenomena unexplained and emphasizing their alienness, weird fiction maintains the unsettling sense that the universe doesn't conform to human logic or perception. Students should demonstrate understanding that incomprehensibility requires leaving gaps and refusing explanation."
+- question: What does weird fiction emphasize as its primary narrative focus?
+  type: multiple-choice
+  options:
+  - Linear plot progression and clear resolution
+  - The strange, uncanny, and fundamentally alien; atmosphere and confronting the incomprehensible
+  - Realistic character development and emotional arcs
+  - Elaborate social and political worldbuilding
+  answer: 1
+  explanation: The core idea states that weird fiction 'emphasizes the strange, uncanny, and fundamentally alien' and 'prioritizes atmosphere and the sense of confronting the incomprehensible.'
+
+- question: How do non-Euclidean geometries and tentacle creatures function in weird fiction?
+  type: multiple-choice
+  options:
+  - They are decorative elements with no thematic purpose
+  - They serve to confuse readers unnecessarily
+  - They feature as phenomena that challenge human perception and language, emphasizing incomprehensibility
+  - They are metaphors for psychological states
+  answer: 2
+  explanation: The core idea identifies these elements as phenomena that 'challenge human perception and language,' serving the genre's emphasis on the incomprehensible.
+
+- question: Weird fiction prioritizes coherent worldbuilding and consistent logical systems.
+  type: true-false
+  answer: false
+  explanation: The core idea states that weird fiction 'prioritizes atmosphere and the sense of confronting the incomprehensible over coherent worldbuilding,' showing worldbuilding takes secondary importance.
+
+- question: Weird fiction deliberately challenges human ability to perceive and describe alien phenomena.
+  type: true-false
+  answer: true
+  explanation: The core idea identifies that weird fiction features phenomena 'that challenge human perception and language,' showing that the limits of human understanding are central.
+
+- question: Why would coherent worldbuilding actually work against weird fiction's goal of creating a sense of the incomprehensible?
+  type: short-answer
+  explanation: A strong answer should explain that if everything is explained and systematized, the alien becomes comprehensible and loses its power to disturb. By leaving phenomena unexplained and emphasizing their alienness, weird fiction maintains the unsettling sense that the universe doesn't conform to human logic or perception. Students should demonstrate understanding that incomprehensibility requires leaving gaps and refusing explanation.
 ```
 
 ## Explainer

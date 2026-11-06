@@ -27,39 +27,39 @@ Family memoirs navigate competing narratives, private intimacy, and public revel
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What is the central tension in family memoirs?"
+- question: What is the central tension in family memoirs?
+  type: multiple-choice
   options:
-    - "Family memoirs have no tension."
-    - "Between individual truth-telling and loyalty to family members who will read and be affected by the narrative."
-    - "Families are always perfectly supportive of memoir."
-    - "Truth and loyalty never conflict."
+  - Family memoirs have no tension.
+  - Between individual truth-telling and loyalty to family members who will read and be affected by the narrative.
+  - Families are always perfectly supportive of memoir.
+  - Truth and loyalty never conflict.
   answer: 1
-  explanation: "Family memoirs often deal with complicated family dynamics. The writer knows family members will read what they write. There's tension between honest representation of what happened and protecting family relationships. This tension is genuine and requires navigation."
+  explanation: Family memoirs often deal with complicated family dynamics. The writer knows family members will read what they write. There's tension between honest representation of what happened and protecting family relationships. This tension is genuine and requires navigation.
 
-- type: multiple-choice
-  question: "How do family memoirs negotiate 'multiple perspectives within shared history'?"
+- question: How do family memoirs negotiate 'multiple perspectives within shared history'?
+  type: multiple-choice
   options:
-    - "Only the writer's perspective matters."
-    - "Different family members experienced the same events differently; good memoirs acknowledge these competing narratives rather than presenting only one truth."
-    - "Family history has no competing perspectives."
-    - "Multiple perspectives make memoir impossible."
+  - Only the writer's perspective matters.
+  - Different family members experienced the same events differently; good memoirs acknowledge these competing narratives rather than presenting only one truth.
+  - Family history has no competing perspectives.
+  - Multiple perspectives make memoir impossible.
   answer: 1
-  explanation: "The same family event is experienced and remembered differently by different people. An event traumatic to one family member might be forgotten by another. A parent's understanding of a situation differs from a child's. Good family memoirs acknowledge this complexity rather than claiming single truth."
+  explanation: The same family event is experienced and remembered differently by different people. An event traumatic to one family member might be forgotten by another. A parent's understanding of a situation differs from a child's. Good family memoirs acknowledge this complexity rather than claiming single truth.
 
-- type: true-false
-  statement: "True: Family memoirs raise ethical questions about the writer's responsibility to represent others' private experiences accurately and respectfully."
+- question: 'True: Family memoirs raise ethical questions about the writer''s responsibility to represent others'' private experiences accurately and respectfully.'
+  type: true-false
   answer: true
-  explanation: "When you write about family, you're writing about real people who didn't consent to being characters in your narrative. They have privacy rights, dignity rights. Good family memoirs grapple with these ethical responsibilities consciously."
+  explanation: When you write about family, you're writing about real people who didn't consent to being characters in your narrative. They have privacy rights, dignity rights. Good family memoirs grapple with these ethical responsibilities consciously.
 
-- type: true-false
-  statement: "False: A family memoirist should write only about themselves, never representing what family members thought or felt."
+- question: 'False: A family memoirist should write only about themselves, never representing what family members thought or felt.'
+  type: true-false
   answer: false
-  explanation: "This is false. Family memoirs inherently involve representing family. The challenge isn't avoiding representation but doing it ethically and honestly. You can explore how family members affected you, what you understood about their experiences, while being transparent about limits of your knowledge."
+  explanation: This is false. Family memoirs inherently involve representing family. The challenge isn't avoiding representation but doing it ethically and honestly. You can explore how family members affected you, what you understood about their experiences, while being transparent about limits of your knowledge.
 
-- type: short-answer
-  question: "How might a family memoirist approach representing a family conflict where their understanding differs from family members' understandings?"
-  explanation: "The writer might: present their own perspective and experience clearly. Acknowledge how other family members understood the same events differently. Be transparent about limits of knowledge—'I didn't know why my parents made that decision' rather than inventing motivation. Consider why the conflict mattered, what it revealed. Possibly quote or paraphrase what family members said, without claiming to know their internal thoughts. The memoir would show the complexity of multiple perspectives existing simultaneously, rather than declaring one perspective the 'truth.' This approach honors both the writer's truth-telling and the complexity of family relationships."
+- question: How might a family memoirist approach representing a family conflict where their understanding differs from family members' understandings?
+  type: short-answer
+  explanation: 'The writer might: present their own perspective and experience clearly. Acknowledge how other family members understood the same events differently. Be transparent about limits of knowledge—''I didn''t know why my parents made that decision'' rather than inventing motivation. Consider why the conflict mattered, what it revealed. Possibly quote or paraphrase what family members said, without claiming to know their internal thoughts. The memoir would show the complexity of multiple perspectives existing simultaneously, rather than declaring one perspective the ''truth.'' This approach honors both the writer''s truth-telling and the complexity of family relationships.'
 ```
 
 ## Explainer

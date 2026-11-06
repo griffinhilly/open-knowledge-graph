@@ -27,35 +27,39 @@ Read Dahl's major works and analyze his narrative voice, character types, and tr
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What distinguishes Roald Dahl's narrative voice from earlier children's literature conventions?"
-    options:
-      - "It is more obedient to adult authority"
-      - "It is irreverent toward authority, employs dark humor, and treats adults with mockery while allowing children narrative centrality"
-      - "Dahl's voice is identical to all other children's authors"
-      - "Dahl employs traditional adult-centered moral instruction"
-    answer: 1
-    explanation: "Dahl's voice fundamentally differs from conventional children's literature by mocking adults, treating them as incompetent or morally questionable, and inviting child readers into complicity against the adult world."
-  - question: "How does Dahl's treatment of grotesque or morally dubious adult characters serve narrative and developmental functions?"
-    options:
-      - "It is harmful and inappropriate for children"
-      - "By depicting adults as flawed, selfish, or cruel, Dahl validates children's growing awareness that adults are not infallible, giving permission to question authority while the grotesqueness makes the mockery feel safe and entertaining"
-      - "Grotesque characters serve no purpose"
-      - "Dahl's characters are unrealistic"
-    answer: 1
-    explanation: "Dahl's grotesque adults serve multiple functions: they validate child perspective that adults can be wrong, they make mockery entertaining through exaggeration, and they allow children psychological permission to develop their own judgment."
+- question: What distinguishes Roald Dahl's narrative voice from earlier children's literature conventions?
+  type: multiple-choice
+  options:
+  - It is more obedient to adult authority
+  - It is irreverent toward authority, employs dark humor, and treats adults with mockery while allowing children narrative centrality
+  - Dahl's voice is identical to all other children's authors
+  - Dahl employs traditional adult-centered moral instruction
+  answer: 1
+  explanation: Dahl's voice fundamentally differs from conventional children's literature by mocking adults, treating them as incompetent or morally questionable, and inviting child readers into complicity against the adult world.
 
-true-false:
-  - question: "True or False: Dahl's books contain dark content (death, cruelty, moral ambiguity) that was unprecedented in children's literature before his work."
-    answer: false
-    explanation: "False. Dark themes existed in earlier children's literature (fairytales, Grimm's tales), but Dahl's particular combination of dark humor, explicit mockery of adults, and morally ambiguous resolutions was innovative."
-  - question: "True or False: Dahl's influence on contemporary children's literature legitimized irreverence and dark humor as acceptable approaches."
-    answer: true
-    explanation: "True. After Dahl, irreverent humor and darker content became increasingly acceptable in children's literature, expanding what was considered appropriate for young readers."
+- question: How does Dahl's treatment of grotesque or morally dubious adult characters serve narrative and developmental functions?
+  type: multiple-choice
+  options:
+  - It is harmful and inappropriate for children
+  - By depicting adults as flawed, selfish, or cruel, Dahl validates children's growing awareness that adults are not infallible, giving permission to question authority while the grotesqueness makes the mockery feel safe and entertaining
+  - Grotesque characters serve no purpose
+  - Dahl's characters are unrealistic
+  answer: 1
+  explanation: 'Dahl''s grotesque adults serve multiple functions: they validate child perspective that adults can be wrong, they make mockery entertaining through exaggeration, and they allow children psychological permission to develop their own judgment.'
 
-short-answer:
-  - question: "Analyze how Dahl's narrator treats adult authority figures in one of his works (e.g., the Trunchbull in 'Matilda' or the parents in 'Charlie and the Chocolate Factory'). What effects does this treatment create?"
-    explanation: "Your answer should identify specific instances where the narrator mocks or critiques adults, either through direct commentary or through depicting their incompetence or cruelty. In 'Matilda,' the headmaster Trunchbull is grotesquely drawn and her cruelty is acknowledged while being treated as ridiculous and ultimately defeated. The narrator's tone toward her is contemptuous and humorous—readers are invited to laugh at her, to recognize her as evil, and to celebrate when Matilda outwits her. This serves multiple functions: it validates the reader's own frustration with unreasonable authority, it makes darkness entertaining through grotesque exaggeration, and it gives permission to resist authority through intelligence and cleverness. This treatment was revolutionary because earlier children's literature typically depicted authority figures (teachers, headmasters, parents) as ultimately correct even when flawed, whereas Dahl depicts them as often wrong, selfish, or cruel—with children proving morally superior."
+- question: 'True or False: Dahl''s books contain dark content (death, cruelty, moral ambiguity) that was unprecedented in children''s literature before his work.'
+  type: true-false
+  answer: false
+  explanation: False. Dark themes existed in earlier children's literature (fairytales, Grimm's tales), but Dahl's particular combination of dark humor, explicit mockery of adults, and morally ambiguous resolutions was innovative.
+
+- question: 'True or False: Dahl''s influence on contemporary children''s literature legitimized irreverence and dark humor as acceptable approaches.'
+  type: true-false
+  answer: true
+  explanation: True. After Dahl, irreverent humor and darker content became increasingly acceptable in children's literature, expanding what was considered appropriate for young readers.
+
+- question: Analyze how Dahl's narrator treats adult authority figures in one of his works (e.g., the Trunchbull in 'Matilda' or the parents in 'Charlie and the Chocolate Factory'). What effects does this treatment create?
+  type: short-answer
+  explanation: 'Your answer should identify specific instances where the narrator mocks or critiques adults, either through direct commentary or through depicting their incompetence or cruelty. In ''Matilda,'' the headmaster Trunchbull is grotesquely drawn and her cruelty is acknowledged while being treated as ridiculous and ultimately defeated. The narrator''s tone toward her is contemptuous and humorous—readers are invited to laugh at her, to recognize her as evil, and to celebrate when Matilda outwits her. This serves multiple functions: it validates the reader''s own frustration with unreasonable authority, it makes darkness entertaining through grotesque exaggeration, and it gives permission to resist authority through intelligence and cleverness. This treatment was revolutionary because earlier children''s literature typically depicted authority figures (teachers, headmasters, parents) as ultimately correct even when flawed, whereas Dahl depicts them as often wrong, selfish, or cruel—with children proving morally superior.'
 ```
 
 ## Explainer

@@ -36,39 +36,39 @@ Lu Xun's stories are not straightforward social realist critiques—they employ 
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "How does Lu Xun's use of 'vernacular language' in modern Chinese fiction serve both literary and ideological purposes?"
+- question: How does Lu Xun's use of 'vernacular language' in modern Chinese fiction serve both literary and ideological purposes?
+  type: multiple-choice
   options:
-    - "Vernacular is inferior to classical Chinese and indicates the author's limitations"
-    - "Vernacular language is the form of modern Chinese consciousness and allows critique of classical Confucian traditions while creating space for individual voice"
-    - "Language choice has no ideological significance"
-    - "Vernacular is only used for entertainment"
+  - Vernacular is inferior to classical Chinese and indicates the author's limitations
+  - Vernacular language is the form of modern Chinese consciousness and allows critique of classical Confucian traditions while creating space for individual voice
+  - Language choice has no ideological significance
+  - Vernacular is only used for entertainment
   answer: 1
-  explanation: "Classical Chinese was the language of the educated elite, of tradition, of Confucian authority. By writing in vernacular—the language of ordinary people—Lu Xun makes formal statement: modern consciousness is not expressed through classical forms but through living language. This is simultaneously aesthetic and political. Aesthetically, vernacular allows psychological realism and individual voice that classical forms resist. Politically, the choice asserts that modern literature addresses ordinary people, not just educated elite. It makes space for perspectives excluded from classical tradition. By combining vernacular with classical allusion, Lu Xun creates productive tension: modern consciousness encounters traditional forms, resistance meets inheritance. This linguistic strategy permits him to critique Confucian traditions from within, using classical allusion to undermine classical authority."
+  explanation: 'Classical Chinese was the language of the educated elite, of tradition, of Confucian authority. By writing in vernacular—the language of ordinary people—Lu Xun makes formal statement: modern consciousness is not expressed through classical forms but through living language. This is simultaneously aesthetic and political. Aesthetically, vernacular allows psychological realism and individual voice that classical forms resist. Politically, the choice asserts that modern literature addresses ordinary people, not just educated elite. It makes space for perspectives excluded from classical tradition. By combining vernacular with classical allusion, Lu Xun creates productive tension: modern consciousness encounters traditional forms, resistance meets inheritance. This linguistic strategy permits him to critique Confucian traditions from within, using classical allusion to undermine classical authority.'
 
-- type: multiple-choice
-  question: "What does Lu Xun accomplish through 'unreliable narration' and 'satirical indirection' in his critiques of social structures?"
+- question: What does Lu Xun accomplish through 'unreliable narration' and 'satirical indirection' in his critiques of social structures?
+  type: multiple-choice
   options:
-    - "Unreliability means readers cannot understand the story"
-    - "Unreliable narration forces readers to question the narrator's perspective and to recognize how ideology shapes consciousness—making critique not explicit but structural"
-    - "Satire is just entertainment with no critical purpose"
-    - "Indirection makes the story less effective"
+  - Unreliability means readers cannot understand the story
+  - Unreliable narration forces readers to question the narrator's perspective and to recognize how ideology shapes consciousness—making critique not explicit but structural
+  - Satire is just entertainment with no critical purpose
+  - Indirection makes the story less effective
   answer: 1
-  explanation: "Rather than making social critique explicit and didactic, Lu Xun employs unreliable narrators whose perspective reveals ideology through distortion. Readers must recognize that the narrator's view is partial, shaped by social position and ideology. This makes readers active participants in critique: they must perceive how power shapes consciousness. A supposedly 'mad' narrator in 'The Madman's Diary' articulates critique of Confucian cannibalism (metaphorically the devouring of individual within oppressive tradition). But the frame narrator's attempt to rationalize the madman's view reveals how deeply ideology is internalized. The narrative technique, not explicit statement, creates critique. This is more sophisticated and powerful than straightforward denunciation because it forces readers to confront how ideology operates—how even those resisting it internalize it."
+  explanation: 'Rather than making social critique explicit and didactic, Lu Xun employs unreliable narrators whose perspective reveals ideology through distortion. Readers must recognize that the narrator''s view is partial, shaped by social position and ideology. This makes readers active participants in critique: they must perceive how power shapes consciousness. A supposedly ''mad'' narrator in ''The Madman''s Diary'' articulates critique of Confucian cannibalism (metaphorically the devouring of individual within oppressive tradition). But the frame narrator''s attempt to rationalize the madman''s view reveals how deeply ideology is internalized. The narrative technique, not explicit statement, creates critique. This is more sophisticated and powerful than straightforward denunciation because it forces readers to confront how ideology operates—how even those resisting it internalize it.'
 
-- type: true-false
-  statement: "Lu Xun's use of satire and narrative unreliability represents inability to express clear political positions, compared to social realist literature that makes ideology explicit."
+- question: Lu Xun's use of satire and narrative unreliability represents inability to express clear political positions, compared to social realist literature that makes ideology explicit.
+  type: true-false
   answer: false
-  explanation: "Satire and unreliability are not evasion but sophisticated forms of critique. They force readers to think rather than passively receive ideology. By employing narrative technique where meaning is not given but must be constructed, Lu Xun makes critique more powerful, not less. The reader's active interpretation of unreliable narrative makes them participant in the critique rather than passive consumer. This is more politically effective because it engages readers intellectually."
+  explanation: Satire and unreliability are not evasion but sophisticated forms of critique. They force readers to think rather than passively receive ideology. By employing narrative technique where meaning is not given but must be constructed, Lu Xun makes critique more powerful, not less. The reader's active interpretation of unreliable narrative makes them participant in the critique rather than passive consumer. This is more politically effective because it engages readers intellectually.
 
-- type: true-false
-  statement: "Lu Xun demonstrates that modern Chinese literature can combine vernacular language with classical tradition and Western modernist techniques to create form capable of both aesthetic sophistication and ideological critique."
+- question: Lu Xun demonstrates that modern Chinese literature can combine vernacular language with classical tradition and Western modernist techniques to create form capable of both aesthetic sophistication and ideological critique.
+  type: true-false
   answer: true
-  explanation: "This correctly identifies Lu Xun's innovation. Rather than choosing between Chinese tradition and Western modernism, he synthesizes them. Vernacular addresses modern consciousness while classical allusion preserves connection to tradition. Modernist techniques (unreliability, irony, psychological depth) are deployed to critique Confucian ideology from within. This synthesis allowed modern Chinese literature to emerge as distinctive form."
+  explanation: This correctly identifies Lu Xun's innovation. Rather than choosing between Chinese tradition and Western modernism, he synthesizes them. Vernacular addresses modern consciousness while classical allusion preserves connection to tradition. Modernist techniques (unreliability, irony, psychological depth) are deployed to critique Confucian ideology from within. This synthesis allowed modern Chinese literature to emerge as distinctive form.
 
-- type: short-answer
-  question: "Explain how Lu Xun's linguistic strategy—combining vernacular language with classical allusion and employing narrative unreliability—enables him to critique Confucian social structures. How does form become critique?"
-  explanation: "Classical Chinese and Confucian tradition were inseparable from Chinese identity and authority. Direct attack on Confucianism might seem foreign, might be rejected as outside critique. But by writing in vernacular—the language of modern consciousness—while employing classical allusions, Lu Xun positions critique from within tradition itself. He uses tradition's own language and forms to undermine it. Additionally, unreliable narration creates space for critique without explicit didacticism. By depicting characters caught in social structures, by employing narrators whose perspective reveals ideology's distortions, Lu Xun makes visible how Confucian tradition shapes consciousness—often against individual well-being or freedom. The critique is not imposed from outside but emerges through form. Readers recognize how ideology operates, how individuals internalize oppressive structures. This formal strategy is more powerful than straightforward denunciation because it forces intellectual engagement and demonstrates that ideology operates not through explicit indoctrination but through consciousness itself. The form is the critique."
+- question: Explain how Lu Xun's linguistic strategy—combining vernacular language with classical allusion and employing narrative unreliability—enables him to critique Confucian social structures. How does form become critique?
+  type: short-answer
+  explanation: Classical Chinese and Confucian tradition were inseparable from Chinese identity and authority. Direct attack on Confucianism might seem foreign, might be rejected as outside critique. But by writing in vernacular—the language of modern consciousness—while employing classical allusions, Lu Xun positions critique from within tradition itself. He uses tradition's own language and forms to undermine it. Additionally, unreliable narration creates space for critique without explicit didacticism. By depicting characters caught in social structures, by employing narrators whose perspective reveals ideology's distortions, Lu Xun makes visible how Confucian tradition shapes consciousness—often against individual well-being or freedom. The critique is not imposed from outside but emerges through form. Readers recognize how ideology operates, how individuals internalize oppressive structures. This formal strategy is more powerful than straightforward denunciation because it forces intellectual engagement and demonstrates that ideology operates not through explicit indoctrination but through consciousness itself. The form is the critique.
 ```
 
 ## Explainer

@@ -35,15 +35,15 @@ Sing familiar melodies and trace their shape in the air with your hand, moving u
 ## Questions
 
 ```yaml
-- question: "What is a melody?"
-  type: mc
+- question: What is a melody?
+  type: multiple-choice
   options:
-    - "The steady beat"
-    - "A series of notes going up and down that form a tune"
-    - "The rhythm pattern"
-    - "An instrument"
+  - The steady beat
+  - A series of notes going up and down that form a tune
+  - The rhythm pattern
+  - An instrument
   answer: 1
-  explanation: "A melody is the main tune."
+  explanation: A melody is the main tune.
 ```
 
 ## Explainer

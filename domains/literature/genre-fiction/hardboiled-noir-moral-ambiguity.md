@@ -38,36 +38,39 @@ Hardboiled is not simply violent detective fiction; it's morally serious about t
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "In hardboiled detective fiction, what type of protagonist is typical?"
-    options:
-      - "Law enforcement officials working within the system"
-      - "Cynical, tough protagonists navigating corrupt urban environments where law enforcement is complicit"
-      - "Amateur sleuths who stumble onto mysteries accidentally"
-      - "Righteous heroes fighting against evil"
-    correct_answer: 1
-    explanation: "The core idea describes 'cynical, tough protagonists navigating corrupt urban environments where law enforcement is complicit in crime,' establishing this as the characteristic hardboiled protagonist type."
-  - type: multiple-choice
-    question: "What distinguishes hardboiled from other detective fiction styles?"
-    options:
-      - "It uses magical solutions to mysteries"
-      - "Spare, direct prose; physical action; and moral compromise"
-      - "It avoids violence entirely"
-      - "It focuses on psychological analysis without action"
-    correct_answer: 1
-    explanation: "The core idea specifies that hardboiled 'emphasizes spare, direct prose; physical action; and moral compromise,' identifying these as the style's distinguishing features."
-  - type: true-false
-    question: "Hardboiled detective fiction originated in pulp magazines and established archetypes that influenced literary modernism."
-    correct_answer: true
-    explanation: "The core idea states these narratives 'originated in pulp magazines and influenced literary modernism, establishing archetypes (the lonely operative, the femme fatale, the brutal landscape),' confirming this historical development."
-  - type: true-false
-    question: "Hardboiled detectives are simply cynical characters with no personal code of honor or ethics."
-    correct_answer: false
-    explanation: "The Common Misconceptions section refutes this: 'Hardboiled detectives often possess codes of honor even while doubting authority,' indicating moral seriousness beneath the cynicism."
-  - type: short-answer
-    question: "Explain how Chandler's 'lyrical, philosophical' hardboiled style differs from Hammett's 'minimalist' approach. What effect do these stylistic choices have on the reader's experience?"
-    explanation: "A good answer should recognize that Chandler's lyricism creates space for reflection, moral questioning, and the detective's interiority, allowing readers to feel the detective's moral cost. Hammett's minimalism creates distance and force readers to infer meaning from sparse description, creating alienation and a sense of an opaque world. The same genre tradition produces different emotional effects through stylistic choice. Students should understand that style is not decorative but fundamental to meaning."
+- question: In hardboiled detective fiction, what type of protagonist is typical?
+  type: multiple-choice
+  options:
+  - Law enforcement officials working within the system
+  - Cynical, tough protagonists navigating corrupt urban environments where law enforcement is complicit
+  - Amateur sleuths who stumble onto mysteries accidentally
+  - Righteous heroes fighting against evil
+  answer: 1
+  explanation: The core idea describes 'cynical, tough protagonists navigating corrupt urban environments where law enforcement is complicit in crime,' establishing this as the characteristic hardboiled protagonist type.
+
+- question: What distinguishes hardboiled from other detective fiction styles?
+  type: multiple-choice
+  options:
+  - It uses magical solutions to mysteries
+  - Spare, direct prose; physical action; and moral compromise
+  - It avoids violence entirely
+  - It focuses on psychological analysis without action
+  answer: 1
+  explanation: The core idea specifies that hardboiled 'emphasizes spare, direct prose; physical action; and moral compromise,' identifying these as the style's distinguishing features.
+
+- question: Hardboiled detective fiction originated in pulp magazines and established archetypes that influenced literary modernism.
+  type: true-false
+  answer: true
+  explanation: The core idea states these narratives 'originated in pulp magazines and influenced literary modernism, establishing archetypes (the lonely operative, the femme fatale, the brutal landscape),' confirming this historical development.
+
+- question: Hardboiled detectives are simply cynical characters with no personal code of honor or ethics.
+  type: true-false
+  answer: false
+  explanation: 'The Common Misconceptions section refutes this: ''Hardboiled detectives often possess codes of honor even while doubting authority,'' indicating moral seriousness beneath the cynicism.'
+
+- question: Explain how Chandler's 'lyrical, philosophical' hardboiled style differs from Hammett's 'minimalist' approach. What effect do these stylistic choices have on the reader's experience?
+  type: short-answer
+  explanation: A good answer should recognize that Chandler's lyricism creates space for reflection, moral questioning, and the detective's interiority, allowing readers to feel the detective's moral cost. Hammett's minimalism creates distance and force readers to infer meaning from sparse description, creating alienation and a sense of an opaque world. The same genre tradition produces different emotional effects through stylistic choice. Students should understand that style is not decorative but fundamental to meaning.
 ```
 
 ## Explainer

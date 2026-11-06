@@ -25,36 +25,39 @@ First contact narratives explore humanity's encounter with alien intelligence. T
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What is the central epistemological challenge in first contact narratives?"
-    options:
-      - "Whether aliens are evil"
-      - "How to communicate with minds operating on potentially incommensurable logic"
-      - "Whether aliens have sufficient technology"
-      - "Whether humans are intelligent enough"
-    correct_answer: 1
-    explanation: "The core idea identifies 'how to communicate with minds potentially operating on incommensurable logic' as a fundamental challenge, making understanding and communication the central issue."
-  - type: multiple-choice
-    question: "What philosophical problem arises when interpreting alien behavior in first contact narratives?"
-    options:
-      - "Aliens always think identically to humans"
-      - "Avoiding projection of human assumptions while interpreting potentially alien logic"
-      - "Aliens communicate primarily through physical violence"
-      - "Interpretation requires no understanding of difference"
-    correct_answer: 1
-    explanation: "The core idea notes the challenge is 'how to interpret alien behavior without projecting human assumptions,' showing the difficulty of understanding without bias."
-  - type: true-false
-    question: "First contact narratives necessarily result in either cooperation or conflict, with no other outcomes possible."
-    correct_answer: false
-    explanation: "The core idea asks 'whether cooperation or conflict is inevitable,' posing this as an open question rather than a predetermined outcome."
-  - type: true-false
-    question: "First contact narratives explore xenophobia and the possibility of understanding radical otherness."
-    correct_answer: true
-    explanation: "The core idea explicitly lists these as questions raised by first contact narratives: 'xenophobia, cultural relativism, and the possibility of understanding radical otherness.'"
-  - type: short-answer
-    question: "Why is the failure or success of communication in first contact narratives more significant than the alien species' technological capabilities?"
-    explanation: "Good answers should explain that communication determines whether mutual understanding is possible, while technology is just one variable. Even advanced aliens can't communicate with species whose logic is incommensurable. The narrative tension comes from whether understanding is possible, not from military capability. First contact explores what understanding even means when facing radical difference."
+- question: What is the central epistemological challenge in first contact narratives?
+  type: multiple-choice
+  options:
+  - Whether aliens are evil
+  - How to communicate with minds operating on potentially incommensurable logic
+  - Whether aliens have sufficient technology
+  - Whether humans are intelligent enough
+  answer: 1
+  explanation: The core idea identifies 'how to communicate with minds potentially operating on incommensurable logic' as a fundamental challenge, making understanding and communication the central issue.
+
+- question: What philosophical problem arises when interpreting alien behavior in first contact narratives?
+  type: multiple-choice
+  options:
+  - Aliens always think identically to humans
+  - Avoiding projection of human assumptions while interpreting potentially alien logic
+  - Aliens communicate primarily through physical violence
+  - Interpretation requires no understanding of difference
+  answer: 1
+  explanation: The core idea notes the challenge is 'how to interpret alien behavior without projecting human assumptions,' showing the difficulty of understanding without bias.
+
+- question: First contact narratives necessarily result in either cooperation or conflict, with no other outcomes possible.
+  type: true-false
+  answer: false
+  explanation: The core idea asks 'whether cooperation or conflict is inevitable,' posing this as an open question rather than a predetermined outcome.
+
+- question: First contact narratives explore xenophobia and the possibility of understanding radical otherness.
+  type: true-false
+  answer: true
+  explanation: 'The core idea explicitly lists these as questions raised by first contact narratives: ''xenophobia, cultural relativism, and the possibility of understanding radical otherness.'''
+
+- question: Why is the failure or success of communication in first contact narratives more significant than the alien species' technological capabilities?
+  type: short-answer
+  explanation: Good answers should explain that communication determines whether mutual understanding is possible, while technology is just one variable. Even advanced aliens can't communicate with species whose logic is incommensurable. The narrative tension comes from whether understanding is possible, not from military capability. First contact explores what understanding even means when facing radical difference.
 ```
 
 ## Explainer

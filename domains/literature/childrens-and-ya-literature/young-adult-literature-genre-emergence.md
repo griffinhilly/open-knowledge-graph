@@ -26,35 +26,39 @@ Young Adult literature emerged as a distinct market category in the 1960s-1970s,
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What historical significance did the emergence of Young Adult literature as a distinct market category in the 1960s-1970s represent?"
-    options:
-      - "YA literature has always existed in its current form"
-      - "YA emergence represented recognition that adolescents' developmental needs and reading interests differed from both children and adults, creating a specific category"
-      - "YA literature emerged to replace all other forms"
-      - "Market categories have no effect on literature"
-    answer: 1
-    explanation: "The emergence of YA as a category acknowledged adolescence as a distinct developmental period with distinctive reading needs, creating space for literature specifically addressing this audience."
-  - question: "What conventions established by early YA canonical texts like *The Outsiders* persist in contemporary YA?"
-    options:
-      - "Early YA conventions are completely irrelevant to modern YA"
-      - "Adolescent protagonists, themes of identity and independence, engagement with social struggle, and focus on peer relationships established patterns still central to contemporary YA"
-      - "YA literature has no traditions or conventions"
-      - "Contemporary YA rejects all earlier traditions"
-    answer: 1
-    explanation: "Modern YA builds on conventions established by foundational texts: protagonist age, thematic focus on identity and social positioning, and direct engagement with adolescent concerns."
+- question: What historical significance did the emergence of Young Adult literature as a distinct market category in the 1960s-1970s represent?
+  type: multiple-choice
+  options:
+  - YA literature has always existed in its current form
+  - YA emergence represented recognition that adolescents' developmental needs and reading interests differed from both children and adults, creating a specific category
+  - YA literature emerged to replace all other forms
+  - Market categories have no effect on literature
+  answer: 1
+  explanation: The emergence of YA as a category acknowledged adolescence as a distinct developmental period with distinctive reading needs, creating space for literature specifically addressing this audience.
 
-true-false:
-  - question: "True or False: YA literature as a distinct category represents a publishing marketing decision with no literary significance."
-    answer: false
-    explanation: "This is false. While publishing decisions matter commercially, the emergence of YA also represents recognition of adolescents' distinctive needs and created space for literature addressing them."
-  - question: "True or False: Before the 1960s-1970s, no literature specifically addressed adolescent readers."
-    answer: false
-    explanation: "This is false. Literature for adolescents existed before; what emerged was recognition of this as a distinct, prominent market category."
+- question: What conventions established by early YA canonical texts like *The Outsiders* persist in contemporary YA?
+  type: multiple-choice
+  options:
+  - Early YA conventions are completely irrelevant to modern YA
+  - Adolescent protagonists, themes of identity and independence, engagement with social struggle, and focus on peer relationships established patterns still central to contemporary YA
+  - YA literature has no traditions or conventions
+  - Contemporary YA rejects all earlier traditions
+  answer: 1
+  explanation: 'Modern YA builds on conventions established by foundational texts: protagonist age, thematic focus on identity and social positioning, and direct engagement with adolescent concerns.'
 
-short-answer:
-  - question: "Why was the emergence of YA as a distinct literary category important for adolescent readers and the broader literary landscape?"
-    explanation: "Before YA emerged as a category, adolescent readers had limited options: they could read children's literature (often feeling too young) or adult literature (sometimes inappropriate or not addressing their concerns). The establishment of YA as a distinct category meant publishers and authors created literature specifically designed for adolescent readers' developmental level and interests. This created space for novels with adolescent protagonists navigating adolescent concerns—identity, social belonging, independence, sexuality—without being relegated to children's categories or expected to address adult issues. Furthermore, the emergence of YA as a market category gave adolescents cultural validation: an entire literary category existed for them, treating their experiences and concerns as worthy of sustained, serious narrative attention. This had psychological and literary significance: adolescence became recognized as more than a transition period en route to 'real' adulthood, but as a significant developmental stage with its own developmental tasks and reading needs. From a literary perspective, the emergence of YA created space for innovation: authors began developing conventions, narrative techniques, and thematic approaches specifically suited to adolescent readers' developmental level and interests. The dominance of YA in contemporary publishing reflects both this historical emergence and the ongoing power of literature designed for adolescent readers."
+- question: 'True or False: YA literature as a distinct category represents a publishing marketing decision with no literary significance.'
+  type: true-false
+  answer: false
+  explanation: This is false. While publishing decisions matter commercially, the emergence of YA also represents recognition of adolescents' distinctive needs and created space for literature addressing them.
+
+- question: 'True or False: Before the 1960s-1970s, no literature specifically addressed adolescent readers.'
+  type: true-false
+  answer: false
+  explanation: This is false. Literature for adolescents existed before; what emerged was recognition of this as a distinct, prominent market category.
+
+- question: Why was the emergence of YA as a distinct literary category important for adolescent readers and the broader literary landscape?
+  type: short-answer
+  explanation: 'Before YA emerged as a category, adolescent readers had limited options: they could read children''s literature (often feeling too young) or adult literature (sometimes inappropriate or not addressing their concerns). The establishment of YA as a distinct category meant publishers and authors created literature specifically designed for adolescent readers'' developmental level and interests. This created space for novels with adolescent protagonists navigating adolescent concerns—identity, social belonging, independence, sexuality—without being relegated to children''s categories or expected to address adult issues. Furthermore, the emergence of YA as a market category gave adolescents cultural validation: an entire literary category existed for them, treating their experiences and concerns as worthy of sustained, serious narrative attention. This had psychological and literary significance: adolescence became recognized as more than a transition period en route to ''real'' adulthood, but as a significant developmental stage with its own developmental tasks and reading needs. From a literary perspective, the emergence of YA created space for innovation: authors began developing conventions, narrative techniques, and thematic approaches specifically suited to adolescent readers'' developmental level and interests. The dominance of YA in contemporary publishing reflects both this historical emergence and the ongoing power of literature designed for adolescent readers.'
 ```
 
 ## Explainer

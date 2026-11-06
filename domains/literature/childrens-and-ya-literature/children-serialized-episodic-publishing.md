@@ -25,35 +25,39 @@ Serialized children's literature, from newspaper comics to modern web serials to
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What is the primary narrative challenge in serialized children's literature like long-running series?"
-    options:
-      - "Maintaining reader interest across many episodes while balancing immediate closure with long-term story development"
-      - "Serialization has no unique narrative challenges"
-      - "Making each episode exactly identical"
-      - "Never allowing any character development"
-    answer: 0
-    explanation: "Serialized narratives must satisfy readers with each episode (providing narrative closure, delivering on promised entertainment) while also maintaining ongoing character arcs and overarching plot momentum that makes readers return for subsequent episodes."
-  - question: "How do serialization economics influence narrative decisions in children's series?"
-    options:
-      - "They don't—narrative form is independent of publishing format"
-      - "The need for consistent character popularity, episode-by-episode viewer retention, and extending series longevity shapes what happens to characters and which plot threads get developed"
-      - "Economics only matter in adult literature"
-      - "Publishers never consider how long to extend a series"
-    answer: 1
-    explanation: "Serialization economics create incentives to keep beloved characters alive and popular (because they drive readership), to resolve episodes satisfyingly (so readers return), and to maintain series longevity (which extends revenue streams). These economic factors shape narrative outcomes."
+- question: What is the primary narrative challenge in serialized children's literature like long-running series?
+  type: multiple-choice
+  options:
+  - Maintaining reader interest across many episodes while balancing immediate closure with long-term story development
+  - Serialization has no unique narrative challenges
+  - Making each episode exactly identical
+  - Never allowing any character development
+  answer: 0
+  explanation: Serialized narratives must satisfy readers with each episode (providing narrative closure, delivering on promised entertainment) while also maintaining ongoing character arcs and overarching plot momentum that makes readers return for subsequent episodes.
 
-true-false:
-  - question: "True or False: An episodic narrative can include both immediate closure (each episode has a complete story) and ongoing character development across the series."
-    answer: true
-    explanation: "True. Effective serialized narratives achieve both: each episode delivers narrative satisfaction while also advancing character relationships and plot arcs that unfold across the series."
-  - question: "True or False: The episodic structure is a relatively new invention in children's literature, originating in modern web comics."
-    answer: false
-    explanation: "False. Episodic structures have long histories—from serial publication of novels in newspapers to comic strips to television series. Episodic form is an ancient and versatile narrative strategy."
+- question: How do serialization economics influence narrative decisions in children's series?
+  type: multiple-choice
+  options:
+  - They don't—narrative form is independent of publishing format
+  - The need for consistent character popularity, episode-by-episode viewer retention, and extending series longevity shapes what happens to characters and which plot threads get developed
+  - Economics only matter in adult literature
+  - Publishers never consider how long to extend a series
+  answer: 1
+  explanation: Serialization economics create incentives to keep beloved characters alive and popular (because they drive readership), to resolve episodes satisfyingly (so readers return), and to maintain series longevity (which extends revenue streams). These economic factors shape narrative outcomes.
 
-short-answer:
-  - question: "Analyze a children's series you know well. How does each episode achieve both narrative closure and contribute to ongoing series development?"
-    explanation: "Your answer should identify concrete examples. For instance, in 'Harry Potter,' each book resolves the immediate plot problem (defeating Voldemort's scheme in that book) while advancing the larger seven-book arc about Horcruxes and Voldemort's past. In 'Junie B. Jones' early readers, each chapter completes a small story (a problem encountered and solved) while the overall series develops Junie's character and relationships. The point is recognizing that effective serialized narrative operates on multiple timescales simultaneously: providing satisfaction at the episode/chapter level while maintaining momentum across the larger series arc."
+- question: 'True or False: An episodic narrative can include both immediate closure (each episode has a complete story) and ongoing character development across the series.'
+  type: true-false
+  answer: true
+  explanation: 'True. Effective serialized narratives achieve both: each episode delivers narrative satisfaction while also advancing character relationships and plot arcs that unfold across the series.'
+
+- question: 'True or False: The episodic structure is a relatively new invention in children''s literature, originating in modern web comics.'
+  type: true-false
+  answer: false
+  explanation: False. Episodic structures have long histories—from serial publication of novels in newspapers to comic strips to television series. Episodic form is an ancient and versatile narrative strategy.
+
+- question: Analyze a children's series you know well. How does each episode achieve both narrative closure and contribute to ongoing series development?
+  type: short-answer
+  explanation: 'Your answer should identify concrete examples. For instance, in ''Harry Potter,'' each book resolves the immediate plot problem (defeating Voldemort''s scheme in that book) while advancing the larger seven-book arc about Horcruxes and Voldemort''s past. In ''Junie B. Jones'' early readers, each chapter completes a small story (a problem encountered and solved) while the overall series develops Junie''s character and relationships. The point is recognizing that effective serialized narrative operates on multiple timescales simultaneously: providing satisfaction at the episode/chapter level while maintaining momentum across the larger series arc.'
 ```
 
 ## Explainer

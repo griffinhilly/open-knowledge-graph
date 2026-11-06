@@ -31,29 +31,29 @@ Korean literature is not simply response to trauma; it is creative literature en
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "How did Korean literature respond to the unique pressures of colonialism and national division?"
+- question: How did Korean literature respond to the unique pressures of colonialism and national division?
+  type: multiple-choice
   options:
-    - "By ignoring political conditions entirely"
-    - "By simply imitating colonizers' literature uncritically"
-    - "By grappling with how to assert literary and national autonomy while addressing trauma, occupation, and division"
-    - "By abandoning all literary forms"
+  - By ignoring political conditions entirely
+  - By simply imitating colonizers' literature uncritically
+  - By grappling with how to assert literary and national autonomy while addressing trauma, occupation, and division
+  - By abandoning all literary forms
   answer: 2
-  explanation: "Korean literature developed under extraordinary historical pressures. During Japanese colonialism, writers had to assert Korean literary and cultural identity while writing under foreign occupation. After division, they had to address the trauma of separation. This shaped how Korean writers understood literature: not as separate from politics but as a site of asserting national identity, addressing trauma, and maintaining cultural consciousness. The literature is marked by historical awareness: writers could not treat literature as purely aesthetic because history was too urgent."
+  explanation: 'Korean literature developed under extraordinary historical pressures. During Japanese colonialism, writers had to assert Korean literary and cultural identity while writing under foreign occupation. After division, they had to address the trauma of separation. This shaped how Korean writers understood literature: not as separate from politics but as a site of asserting national identity, addressing trauma, and maintaining cultural consciousness. The literature is marked by historical awareness: writers could not treat literature as purely aesthetic because history was too urgent.'
 
-- type: true-false
-  statement: "Korean literature demonstrates how historical trauma and political conditions shape literary forms and concerns, making literature inseparable from historical consciousness."
+- question: Korean literature demonstrates how historical trauma and political conditions shape literary forms and concerns, making literature inseparable from historical consciousness.
+  type: true-false
   answer: true
-  explanation: "This statement captures how Korean literature operates. The literature is politically engaged not as propaganda but as creative response to extraordinary historical conditions. Writers use literature to assert identity, address trauma, and maintain consciousness of national division."
+  explanation: This statement captures how Korean literature operates. The literature is politically engaged not as propaganda but as creative response to extraordinary historical conditions. Writers use literature to assert identity, address trauma, and maintain consciousness of national division.
 
-- type: true-false
-  statement: "Korean literature simply imitated European modernist forms without adaptation to Korean contexts."
+- question: Korean literature simply imitated European modernist forms without adaptation to Korean contexts.
+  type: true-false
   answer: false
-  explanation: "Korean writers engaged European modernist techniques while adapting them to address Korean historical and cultural contexts. The literature is distinctively Korean in its historical consciousness and engagement with national trauma."
+  explanation: Korean writers engaged European modernist techniques while adapting them to address Korean historical and cultural contexts. The literature is distinctively Korean in its historical consciousness and engagement with national trauma.
 
-- type: short-answer
-  question: "How did Korean literature establish autonomy and national consciousness under colonialism and division? What role did literature play in Korean cultural and political identity?"
-  explanation: "Korean literature became a crucial site for asserting national identity when political autonomy was denied. Under colonialism, creating Korean literature in the Korean language was an act of resistance and cultural assertion. After division, literature became a way of maintaining consciousness of national wholeness and addressing the trauma of separation. Literature served functions beyond entertainment: it asserted that Korea had a distinctive literary tradition, that Korean language and culture had value, that Koreans could create modernist literature addressing contemporary consciousness. This made literature politically significant without being propaganda. The very existence of distinctive Korean modernist literature was an assertion of Korean identity and autonomy."
+- question: How did Korean literature establish autonomy and national consciousness under colonialism and division? What role did literature play in Korean cultural and political identity?
+  type: short-answer
+  explanation: 'Korean literature became a crucial site for asserting national identity when political autonomy was denied. Under colonialism, creating Korean literature in the Korean language was an act of resistance and cultural assertion. After division, literature became a way of maintaining consciousness of national wholeness and addressing the trauma of separation. Literature served functions beyond entertainment: it asserted that Korea had a distinctive literary tradition, that Korean language and culture had value, that Koreans could create modernist literature addressing contemporary consciousness. This made literature politically significant without being propaganda. The very existence of distinctive Korean modernist literature was an assertion of Korean identity and autonomy.'
 ```
 
 ## Explainer

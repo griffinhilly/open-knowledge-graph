@@ -25,39 +25,39 @@ New Journalism emerged in the 1960s-70s as a deliberate movement applying litera
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What did New Journalism 'explicitly reject'?"
+- question: What did New Journalism 'explicitly reject'?
+  type: multiple-choice
   options:
-    - "Rigorous reporting and facts."
-    - "The assumption that objective journalistic distance creates credibility and truth."
-    - "Literary technique in journalism."
-    - "The importance of accuracy."
+  - Rigorous reporting and facts.
+  - The assumption that objective journalistic distance creates credibility and truth.
+  - Literary technique in journalism.
+  - The importance of accuracy.
   answer: 1
-  explanation: "New Journalism rejected the assumption that objective distance equals truthfulness. It argued that you could be subjective, stylistically ambitious, even literary—while still being grounded in reported facts."
+  explanation: New Journalism rejected the assumption that objective distance equals truthfulness. It argued that you could be subjective, stylistically ambitious, even literary—while still being grounded in reported facts.
 
-- type: multiple-choice
-  question: "How did New Journalism use 'literary fiction techniques' in nonfiction reporting?"
+- question: How did New Journalism use 'literary fiction techniques' in nonfiction reporting?
+  type: multiple-choice
   options:
-    - "By inventing facts."
-    - "By applying scene construction, dialogue, characterization, and stylistic sophistication to actual reported events."
-    - "By abandoning journalism."
-    - "By ignoring facts in favor of artistry."
+  - By inventing facts.
+  - By applying scene construction, dialogue, characterization, and stylistic sophistication to actual reported events.
+  - By abandoning journalism.
+  - By ignoring facts in favor of artistry.
   answer: 1
-  explanation: "New Journalists used literary tools—vivid scenes, dialogue, character development, stylistic flair—but grounded everything in actual reporting. They showed that literary technique and journalistic rigor weren't opposed."
+  explanation: New Journalists used literary tools—vivid scenes, dialogue, character development, stylistic flair—but grounded everything in actual reporting. They showed that literary technique and journalistic rigor weren't opposed.
 
-- type: true-false
-  statement: "True: New Journalism demonstrated that journalism could be subjectively inflected—showing the writer's perspective and style—while remaining factually accurate."
+- question: 'True: New Journalism demonstrated that journalism could be subjectively inflected—showing the writer''s perspective and style—while remaining factually accurate.'
+  type: true-false
   answer: true
-  explanation: "This was the movement's central contribution. It refused the false choice between objective distance and literary engagement. You could be both accurate and engaged, both journalistic and literary."
+  explanation: This was the movement's central contribution. It refused the false choice between objective distance and literary engagement. You could be both accurate and engaged, both journalistic and literary.
 
-- type: true-false
-  statement: "False: New Journalism required that writers be entirely invisible in their reporting, maintaining strict objectivity."
+- question: 'False: New Journalism required that writers be entirely invisible in their reporting, maintaining strict objectivity.'
+  type: true-false
   answer: false
-  explanation: "This is false. New Journalism made writers visible. Tom Wolfe's distinctive style is always present. Joan Didion's perspective shapes her journalism. The visibility didn't compromise accuracy; it changed how accuracy was achieved."
+  explanation: This is false. New Journalism made writers visible. Tom Wolfe's distinctive style is always present. Joan Didion's perspective shapes her journalism. The visibility didn't compromise accuracy; it changed how accuracy was achieved.
 
-- type: short-answer
-  question: "What impact did New Journalism have on how nonfiction writing is understood and practiced?"
-  explanation: "New Journalism changed what was possible in nonfiction. It showed that rigorous reporting and literary technique could coexist. After the New Journalists, it became acceptable—even expected—for nonfiction to have a distinctive voice and style. Contemporary creative nonfiction, long-form journalism, and literary essays all inherit from New Journalism's breakthrough. The movement showed that the best nonfiction could be both factually rigorous and beautifully written, that the writer's perspective and style could strengthen rather than compromise journalism. This fundamentally changed the landscape of nonfiction writing."
+- question: What impact did New Journalism have on how nonfiction writing is understood and practiced?
+  type: short-answer
+  explanation: New Journalism changed what was possible in nonfiction. It showed that rigorous reporting and literary technique could coexist. After the New Journalists, it became acceptable—even expected—for nonfiction to have a distinctive voice and style. Contemporary creative nonfiction, long-form journalism, and literary essays all inherit from New Journalism's breakthrough. The movement showed that the best nonfiction could be both factually rigorous and beautifully written, that the writer's perspective and style could strengthen rather than compromise journalism. This fundamentally changed the landscape of nonfiction writing.
 ```
 
 ## Explainer

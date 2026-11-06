@@ -26,35 +26,39 @@ Mystery narratives for children present puzzles (who committed a crime, what sec
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What is the distinctive reader engagement strategy in children's mystery fiction?"
-    options:
-      - "Readers passively observe the detective without attempting to solve the mystery"
-      - "Clues are hidden from readers so they cannot solve the mystery"
-      - "Readers are invited to solve the puzzle alongside protagonists through fairly planted clues, creating active participation in problem-solving"
-      - "Mysteries deliberately confuse readers with misleading information"
-    answer: 2
-    explanation: "Successful children's mysteries engage readers as active problem-solvers by planting clues they can notice and use to attempt solutions before the revelation."
-  - question: "How does mystery fiction develop logical thinking in young readers?"
-    options:
-      - "Mysteries prevent logical thinking through confusing narratives"
-      - "Mysteries present problems requiring readers to connect clues, test hypotheses, and evaluate evidence—exercising deductive reasoning"
-      - "Logic is irrelevant to mystery fiction"
-      - "Mysteries rely purely on guessing rather than reasoning"
-    answer: 1
-    explanation: "Mystery fiction invites readers to notice clues, consider possibilities, and evaluate evidence, developing logical and analytical thinking."
+- question: What is the distinctive reader engagement strategy in children's mystery fiction?
+  type: multiple-choice
+  options:
+  - Readers passively observe the detective without attempting to solve the mystery
+  - Clues are hidden from readers so they cannot solve the mystery
+  - Readers are invited to solve the puzzle alongside protagonists through fairly planted clues, creating active participation in problem-solving
+  - Mysteries deliberately confuse readers with misleading information
+  answer: 2
+  explanation: Successful children's mysteries engage readers as active problem-solvers by planting clues they can notice and use to attempt solutions before the revelation.
 
-true-false:
-  - question: "True or False: A fair mystery gives readers the same information detectives have, allowing readers to theoretically solve the mystery before it is revealed."
-    answer: true
-    explanation: "This is true. Fair play mysteries present all essential clues to readers; solving happens when readers notice and correctly interpret evidence."
-  - question: "True or False: Children's mystery fiction must be pure puzzle-solving with no character development or emotional complexity."
-    answer: false
-    explanation: "This is false. Mystery can range from puzzle-focused to psychologically complex; contemporary children's mystery often combines puzzle-solving with character development."
+- question: How does mystery fiction develop logical thinking in young readers?
+  type: multiple-choice
+  options:
+  - Mysteries prevent logical thinking through confusing narratives
+  - Mysteries present problems requiring readers to connect clues, test hypotheses, and evaluate evidence—exercising deductive reasoning
+  - Logic is irrelevant to mystery fiction
+  - Mysteries rely purely on guessing rather than reasoning
+  answer: 1
+  explanation: Mystery fiction invites readers to notice clues, consider possibilities, and evaluate evidence, developing logical and analytical thinking.
 
-short-answer:
-  - question: "Why do mystery writers typically plant clues fairly rather than hiding information from readers, and what does this choice reveal about the purpose of the mystery genre?"
-    explanation: "Fair clue-planting invites readers to participate in solving rather than passively waiting for revelation, creating engagement and intellectual challenge. Mystery fiction's purpose is not merely to surprise readers with a revelation but to invite them to think logically, notice details, and test hypotheses—activities that develop analytical skills. Additionally, when readers have all information detectives have, readers feel validated if they solve the mystery, creating satisfaction and sense of achievement. Hiding information creates cheap surprise but denies readers the intellectual engagement that makes mystery fiction distinctive. From a developmental perspective, fair mysteries teach readers that careful attention and logical reasoning can lead to understanding—a valuable lesson about how thinking works."
+- question: 'True or False: A fair mystery gives readers the same information detectives have, allowing readers to theoretically solve the mystery before it is revealed.'
+  type: true-false
+  answer: true
+  explanation: This is true. Fair play mysteries present all essential clues to readers; solving happens when readers notice and correctly interpret evidence.
+
+- question: 'True or False: Children''s mystery fiction must be pure puzzle-solving with no character development or emotional complexity.'
+  type: true-false
+  answer: false
+  explanation: This is false. Mystery can range from puzzle-focused to psychologically complex; contemporary children's mystery often combines puzzle-solving with character development.
+
+- question: Why do mystery writers typically plant clues fairly rather than hiding information from readers, and what does this choice reveal about the purpose of the mystery genre?
+  type: short-answer
+  explanation: Fair clue-planting invites readers to participate in solving rather than passively waiting for revelation, creating engagement and intellectual challenge. Mystery fiction's purpose is not merely to surprise readers with a revelation but to invite them to think logically, notice details, and test hypotheses—activities that develop analytical skills. Additionally, when readers have all information detectives have, readers feel validated if they solve the mystery, creating satisfaction and sense of achievement. Hiding information creates cheap surprise but denies readers the intellectual engagement that makes mystery fiction distinctive. From a developmental perspective, fair mysteries teach readers that careful attention and logical reasoning can lead to understanding—a valuable lesson about how thinking works.
 ```
 
 ## Explainer

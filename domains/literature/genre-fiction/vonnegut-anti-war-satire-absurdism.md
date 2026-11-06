@@ -23,36 +23,39 @@ Kurt Vonnegut's satire combines black humor, absurdist logic, and direct social 
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What is the primary target of Vonnegut's satirical critique?"
-    options:
-      - "Grammatical errors in literature"
-      - "War, violence, militarism, and nationalism"
-      - "Commercial advertising and marketing"
-      - "Academic institutions and education"
-    correct_answer: 1
-    explanation: "The core idea states that Vonnegut's satire is 'particularly regarding war and violence' and specifically critiques 'militarism and nationalism.'"
-  - type: multiple-choice
-    question: "How does Vonnegut maintain the emotional impact of his anti-war message despite using humor?"
-    options:
-      - "He avoids any comedic elements in serious passages"
-      - "He relies only on tragedy with no humor at all"
-      - "He maintains emotional depth beneath the comedic surface through deadpan narration and metafictional elements"
-      - "He uses humor to replace emotional impact entirely"
-    correct_answer: 2
-    explanation: "The core idea states that Vonnegut maintains 'emotional depth beneath comedic surface,' showing that humor and emotional impact work together rather than against each other."
-  - type: true-false
-    question: "Vonnegut uses science fiction devices purely as decorative genre elements with no thematic purpose."
-    correct_answer: false
-    explanation: "The core idea states that Vonnegut 'employs deadpan narration, metafictional elements, and science fiction devices to critique militarism and nationalism,' showing these devices serve thematic purposes."
-  - type: true-false
-    question: "Black humor and absurdist logic are central to Vonnegut's satirical approach."
-    correct_answer: true
-    explanation: "The core idea explicitly identifies that Vonnegut's satire 'combines black humor, absurdist logic, and direct social critique.'"
-  - type: short-answer
-    question: "How does using absurdist logic allow Vonnegut to critique war more effectively than straightforward realism would?"
-    explanation: "A strong answer should explain that absurdist logic reveals the inherent irrationality and contradiction in war and militarism by taking them to logical extremes. By showing the absurd consequences of military logic, Vonnegut makes readers recognize the absurdity they would otherwise accept as normal. Students should demonstrate understanding that satire using absurdism works by making the reader see familiar systems through distorted but logically consistent logic."
+- question: What is the primary target of Vonnegut's satirical critique?
+  type: multiple-choice
+  options:
+  - Grammatical errors in literature
+  - War, violence, militarism, and nationalism
+  - Commercial advertising and marketing
+  - Academic institutions and education
+  answer: 1
+  explanation: The core idea states that Vonnegut's satire is 'particularly regarding war and violence' and specifically critiques 'militarism and nationalism.'
+
+- question: How does Vonnegut maintain the emotional impact of his anti-war message despite using humor?
+  type: multiple-choice
+  options:
+  - He avoids any comedic elements in serious passages
+  - He relies only on tragedy with no humor at all
+  - He maintains emotional depth beneath the comedic surface through deadpan narration and metafictional elements
+  - He uses humor to replace emotional impact entirely
+  answer: 2
+  explanation: The core idea states that Vonnegut maintains 'emotional depth beneath comedic surface,' showing that humor and emotional impact work together rather than against each other.
+
+- question: Vonnegut uses science fiction devices purely as decorative genre elements with no thematic purpose.
+  type: true-false
+  answer: false
+  explanation: The core idea states that Vonnegut 'employs deadpan narration, metafictional elements, and science fiction devices to critique militarism and nationalism,' showing these devices serve thematic purposes.
+
+- question: Black humor and absurdist logic are central to Vonnegut's satirical approach.
+  type: true-false
+  answer: true
+  explanation: The core idea explicitly identifies that Vonnegut's satire 'combines black humor, absurdist logic, and direct social critique.'
+
+- question: How does using absurdist logic allow Vonnegut to critique war more effectively than straightforward realism would?
+  type: short-answer
+  explanation: A strong answer should explain that absurdist logic reveals the inherent irrationality and contradiction in war and militarism by taking them to logical extremes. By showing the absurd consequences of military logic, Vonnegut makes readers recognize the absurdity they would otherwise accept as normal. Students should demonstrate understanding that satire using absurdism works by making the reader see familiar systems through distorted but logically consistent logic.
 ```
 
 ## Explainer

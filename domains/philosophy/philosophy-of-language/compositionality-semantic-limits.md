@@ -44,43 +44,45 @@ The clearest case of compositional success is logical and mathematical language.
 
 ## Questions
 
-- id: compositionality-semantic-limits-q1
-  type: mc
-  question: "How does Kaplan's framework handle the apparent compositionality failure of context-sensitive expressions like 'I,' 'here,' and 'now'?"
+```yaml
+- question: How does Kaplan's framework handle the apparent compositionality failure of context-sensitive expressions like 'I,' 'here,' and 'now'?
+  type: multiple-choice
   options:
-    - "It treats these expressions as idioms with stored meanings"
-    - "It argues that compositionality applies to character (a function from context to content) rather than content directly"
-    - "It abandons compositionality for sentences containing indexicals"
-    - "It assigns each indexical a fixed referent determined by convention"
-  correct: 1
-  explanation: "Kaplan's framework preserves compositionality by operating over character rather than content. The semantic value of 'I' is not a specific individual but a rule ('pick the speaker in this context'). Composition applies to these rules, and context then determines the specific content."
+  - It treats these expressions as idioms with stored meanings
+  - It argues that compositionality applies to character (a function from context to content) rather than content directly
+  - It abandons compositionality for sentences containing indexicals
+  - It assigns each indexical a fixed referent determined by convention
+  answer: 1
+  explanation: Kaplan's framework preserves compositionality by operating over character rather than content. The semantic value of 'I' is not a specific individual but a rule ('pick the speaker in this context'). Composition applies to these rules, and context then determines the specific content.
+  id: compositionality-semantic-limits-q1
 
-- id: compositionality-semantic-limits-q2
-  type: mc
-  question: "Why might idioms like 'kick the bucket' not be a straightforward violation of compositionality?"
+- question: Why might idioms like 'kick the bucket' not be a straightforward violation of compositionality?
+  type: multiple-choice
   options:
-    - "Because idioms are not real expressions in any language"
-    - "Because 'kick' and 'bucket' literally combine to produce the meaning 'to die'"
-    - "Because the idiomatic meaning may be compositional at a conventionalized metaphorical level"
-    - "Because compositionality only applies to sentences, not phrases"
-  correct: 2
-  explanation: "While idioms cannot be composed from the literal meanings of their parts, they may be compositional at a metaphorical level — the image encodes a conventional metaphorical mapping. Whether this counts as 'real' compositionality is debatable, but apparent failures often mask subtler compositional structure."
+  - Because idioms are not real expressions in any language
+  - Because 'kick' and 'bucket' literally combine to produce the meaning 'to die'
+  - Because the idiomatic meaning may be compositional at a conventionalized metaphorical level
+  - Because compositionality only applies to sentences, not phrases
+  answer: 2
+  explanation: While idioms cannot be composed from the literal meanings of their parts, they may be compositional at a metaphorical level — the image encodes a conventional metaphorical mapping. Whether this counts as 'real' compositionality is debatable, but apparent failures often mask subtler compositional structure.
+  id: compositionality-semantic-limits-q2
 
-- id: compositionality-semantic-limits-q3
-  type: tf
-  question: "The compositionality principle explains how speakers can understand an infinite number of sentences from a finite vocabulary."
-  correct: true
-  explanation: "Compositionality's explanatory power lies precisely in this: because meaning is a function of parts and their mode of combination, finite minds can compute the meanings of infinitely many novel sentences by knowing base meanings and combination rules."
+- question: The compositionality principle explains how speakers can understand an infinite number of sentences from a finite vocabulary.
+  type: true-false
+  answer: true
+  explanation: 'Compositionality''s explanatory power lies precisely in this: because meaning is a function of parts and their mode of combination, finite minds can compute the meanings of infinitely many novel sentences by knowing base meanings and combination rules.'
+  id: compositionality-semantic-limits-q3
 
-- id: compositionality-semantic-limits-q4
-  type: tf
-  question: "Donkey anaphora, ellipsis, and nominal coercion are cases that have been fully resolved within standard compositional semantics."
-  correct: false
-  explanation: "These cases remain active research areas where the genuine limits of compositionality are tested. They resist treatment even under Kaplan's extended framework and remind us that the syntax-semantics interface is more complex than any simple formulation captures."
+- question: Donkey anaphora, ellipsis, and nominal coercion are cases that have been fully resolved within standard compositional semantics.
+  type: true-false
+  answer: false
+  explanation: These cases remain active research areas where the genuine limits of compositionality are tested. They resist treatment even under Kaplan's extended framework and remind us that the syntax-semantics interface is more complex than any simple formulation captures.
+  id: compositionality-semantic-limits-q4
 
-- id: compositionality-semantic-limits-q5
-  type: sa
-  question: "What is the classic example of 'donkey anaphora' discussed in the topic?"
-  correct: "Every farmer who owns a donkey beats it"
-  explanation: "This sentence is a canonical example of donkey anaphora, where the pronoun 'it' refers back to 'a donkey' in a way that resists standard compositional treatment. It remains an active area of research at the limits of compositionality."
+- question: What is the classic example of 'donkey anaphora' discussed in the topic?
+  type: short-answer
+  answer: Every farmer who owns a donkey beats it
+  explanation: This sentence is a canonical example of donkey anaphora, where the pronoun 'it' refers back to 'a donkey' in a way that resists standard compositional treatment. It remains an active area of research at the limits of compositionality.
+  id: compositionality-semantic-limits-q5
+```
 

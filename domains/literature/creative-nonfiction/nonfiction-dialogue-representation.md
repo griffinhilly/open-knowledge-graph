@@ -24,39 +24,39 @@ Representing dialogue in nonfiction requires fidelity to what was actually said 
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What is the distinction between direct quotation and paraphrase in nonfiction dialogue?"
+- question: What is the distinction between direct quotation and paraphrase in nonfiction dialogue?
+  type: multiple-choice
   options:
-    - "They are the same thing."
-    - "Direct quotation is exact words; paraphrase is the writer's summary of what was said, which requires different accuracy standards."
-    - "Quotation marks can be used for either."
-    - "Paraphrase is more accurate than quotation."
+  - They are the same thing.
+  - Direct quotation is exact words; paraphrase is the writer's summary of what was said, which requires different accuracy standards.
+  - Quotation marks can be used for either.
+  - Paraphrase is more accurate than quotation.
   answer: 1
-  explanation: "When you directly quote someone, readers expect exact words. When you paraphrase, you're providing your summary, which allows more flexibility but still requires accuracy about meaning. The distinction matters for credibility."
+  explanation: When you directly quote someone, readers expect exact words. When you paraphrase, you're providing your summary, which allows more flexibility but still requires accuracy about meaning. The distinction matters for credibility.
 
-- type: multiple-choice
-  question: "What challenge does 'reconstruction from memory' present in nonfiction dialogue?"
+- question: What challenge does 'reconstruction from memory' present in nonfiction dialogue?
+  type: multiple-choice
   options:
-    - "Memory is perfectly accurate."
-    - "People don't remember exact dialogue; writers must choose between approximate reconstruction or avoiding dialogue entirely."
-    - "Dialogue from memory should always be in quotation marks."
-    - "Memory of dialogue is irrelevant to nonfiction."
+  - Memory is perfectly accurate.
+  - People don't remember exact dialogue; writers must choose between approximate reconstruction or avoiding dialogue entirely.
+  - Dialogue from memory should always be in quotation marks.
+  - Memory of dialogue is irrelevant to nonfiction.
   answer: 1
-  explanation: "Few conversations are recorded. Writers reconstruct dialogue from memory, notes, or partial information. This is legitimate if done honestly—writers should be clear about what's reconstructed versus directly recorded."
+  explanation: Few conversations are recorded. Writers reconstruct dialogue from memory, notes, or partial information. This is legitimate if done honestly—writers should be clear about what's reconstructed versus directly recorded.
 
-- type: true-false
-  statement: "True: A nonfiction writer should be transparent about whether dialogue is directly quoted, paraphrased, or reconstructed from memory."
+- question: 'True: A nonfiction writer should be transparent about whether dialogue is directly quoted, paraphrased, or reconstructed from memory.'
+  type: true-false
   answer: true
-  explanation: "Transparency about sources of information maintains trust. Readers deserve to know whether you're quoting someone exactly or reconstructing from memory. This honesty doesn't undermine credibility; it strengthens it."
+  explanation: Transparency about sources of information maintains trust. Readers deserve to know whether you're quoting someone exactly or reconstructing from memory. This honesty doesn't undermine credibility; it strengthens it.
 
-- type: true-false
-  statement: "False: Dialogue in nonfiction should always be edited for grammar and clarity, even if that changes what was actually said."
+- question: 'False: Dialogue in nonfiction should always be edited for grammar and clarity, even if that changes what was actually said.'
+  type: true-false
   answer: false
-  explanation: "This is false. Dialogue should be edited minimally to avoid transcription errors or filler words ('um,' 'like'), but should preserve how someone actually spoke. Changing someone's speech to make them sound smarter or more articulate is misrepresenting them."
+  explanation: This is false. Dialogue should be edited minimally to avoid transcription errors or filler words ('um,' 'like'), but should preserve how someone actually spoke. Changing someone's speech to make them sound smarter or more articulate is misrepresenting them.
 
-- type: short-answer
-  question: "How should a nonfiction writer handle dialogue when they don't remember exact words or don't have a recording?"
-  explanation: "Options include: not using dialogue if uncertain. Using paraphrase instead of quotation. Reconstructing dialogue in quotation marks while being transparent about limitation ('As I remember it, she said something like...'). Using partial quotes—quoting key phrases while paraphrasing the rest. The key is honesty about how the dialogue was obtained and any uncertainty. Readers respect transparency about memory limitations more than false certainty about words you don't actually remember."
+- question: How should a nonfiction writer handle dialogue when they don't remember exact words or don't have a recording?
+  type: short-answer
+  explanation: 'Options include: not using dialogue if uncertain. Using paraphrase instead of quotation. Reconstructing dialogue in quotation marks while being transparent about limitation (''As I remember it, she said something like...''). Using partial quotes—quoting key phrases while paraphrasing the rest. The key is honesty about how the dialogue was obtained and any uncertainty. Readers respect transparency about memory limitations more than false certainty about words you don''t actually remember.'
 ```
 
 ## Explainer

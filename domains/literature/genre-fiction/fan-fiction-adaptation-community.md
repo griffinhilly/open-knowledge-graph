@@ -23,36 +23,39 @@ Fan fiction comprises stories written by fans using characters and worlds from e
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What is the primary function of fan fiction in relation to source material?"
-    options:
-      - "Fan fiction reproduces the source material exactly"
-      - "Fan fiction transforms source material through new narratives and thematic reinterpretation"
-      - "Fan fiction is inferior to source material"
-      - "Fan fiction ignores the source material entirely"
-    correct_answer: 1
-    explanation: "The core idea states fan fiction 'transforms source material through new narratives, alternative relationships, or thematic reinterpretation,' showing transformation and reinterpretation as central functions."
-  - type: multiple-choice
-    question: "What is a significant function of fan communities beyond individual creative works?"
-    options:
-      - "Fan communities discourage collaboration"
-      - "Fan communities create collaborative networks and shared universes"
-      - "Fan communities eliminate discussion"
-      - "Fan communities have no social function"
-    correct_answer: 1
-    explanation: "The core idea notes that 'fan communities create collaborative networks and shared universes,' identifying community-building as essential to fan fiction culture."
-  - type: true-false
-    question: "Fan fiction uses characters and worlds from established media to create new stories that expand or reinterpret the source material."
-    correct_answer: true
-    explanation: "The core idea directly states that fan fiction comprises 'stories written by fans using characters and worlds from established media' that 'transform source material through new narratives.'"
-  - type: true-false
-    question: "Fan fiction raises no important questions about authorship and creative ownership."
-    correct_answer: false
-    explanation: "The core idea explicitly notes fan fiction raises 'questions about authorship, adaptation, and creative ownership,' making these intellectual and legal questions central to the form."
-  - type: short-answer
-    question: "How does fan fiction's transformative approach to source material differ from adaptation, and why might this distinction matter legally and creatively?"
-    explanation: "Good answers should address that adaptation typically seeks fidelity to source material while fan fiction explicitly transforms it. Creative: fan fiction prioritizes the fan's vision and community over author intent. Legal: questions about derivative works, copyright, fair use, and whether transformation constitutes fair use or copyright infringement. Answers should reflect understanding that fan fiction is explicitly about making source material serve new creative purposes."
+- question: What is the primary function of fan fiction in relation to source material?
+  type: multiple-choice
+  options:
+  - Fan fiction reproduces the source material exactly
+  - Fan fiction transforms source material through new narratives and thematic reinterpretation
+  - Fan fiction is inferior to source material
+  - Fan fiction ignores the source material entirely
+  answer: 1
+  explanation: The core idea states fan fiction 'transforms source material through new narratives, alternative relationships, or thematic reinterpretation,' showing transformation and reinterpretation as central functions.
+
+- question: What is a significant function of fan communities beyond individual creative works?
+  type: multiple-choice
+  options:
+  - Fan communities discourage collaboration
+  - Fan communities create collaborative networks and shared universes
+  - Fan communities eliminate discussion
+  - Fan communities have no social function
+  answer: 1
+  explanation: The core idea notes that 'fan communities create collaborative networks and shared universes,' identifying community-building as essential to fan fiction culture.
+
+- question: Fan fiction uses characters and worlds from established media to create new stories that expand or reinterpret the source material.
+  type: true-false
+  answer: true
+  explanation: The core idea directly states that fan fiction comprises 'stories written by fans using characters and worlds from established media' that 'transform source material through new narratives.'
+
+- question: Fan fiction raises no important questions about authorship and creative ownership.
+  type: true-false
+  answer: false
+  explanation: The core idea explicitly notes fan fiction raises 'questions about authorship, adaptation, and creative ownership,' making these intellectual and legal questions central to the form.
+
+- question: How does fan fiction's transformative approach to source material differ from adaptation, and why might this distinction matter legally and creatively?
+  type: short-answer
+  explanation: 'Good answers should address that adaptation typically seeks fidelity to source material while fan fiction explicitly transforms it. Creative: fan fiction prioritizes the fan''s vision and community over author intent. Legal: questions about derivative works, copyright, fair use, and whether transformation constitutes fair use or copyright infringement. Answers should reflect understanding that fan fiction is explicitly about making source material serve new creative purposes.'
 ```
 
 ## Explainer

@@ -30,36 +30,39 @@ Read both canonical westerns (Louis L'Amour, Cormac McCarthy's Blood Meridian) a
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What central conflicts does western fiction explore?"
-    options:
-      - "Urban politics and bureaucratic systems"
-      - "Civilization vs. wilderness, law vs. justice, individual freedom vs. community order"
-      - "Magical powers and technological advancement"
-      - "Psychological trauma and emotional relationships"
-    correct_answer: 1
-    explanation: "The core idea states that westerns 'feature recurring conflicts between civilization and wilderness, law and justice, individual freedom and community order.'"
-  - type: multiple-choice
-    question: "How does the western landscape function in the genre?"
-    options:
-      - "Purely as realistic geographic setting"
-      - "Symbolically as opportunity, hostile nature, and moral frontier, as much as geographically"
-      - "As a character with consciousness and agency"
-      - "As an obstacle to be overcome and discarded"
-    correct_answer: 1
-    explanation: "The core idea states that 'the western landscape often functions symbolically—as opportunity, as hostile nature, as moral frontier—as much as geographically.'"
-  - type: true-false
-    question: "Western fiction exclusively celebrates frontier mythology and American expansion."
-    correct_answer: false
-    explanation: "The How It's Best Learned section notes that the genre 'accommodates both celebration and critique of frontier mythology,' showing diversity of approach."
-  - type: true-false
-    question: "Westerns create mythology about American identity and the consequences of settlement."
-    correct_answer: true
-    explanation: "The core idea states that 'westerns create mythology about American identity and the price of settlement,' identifying mythology-making as a core function."
-  - type: short-answer
-    question: "How do revisionist westerns differ from canonical westerns in their treatment of frontier mythology?"
-    explanation: "A strong answer should explain that canonical westerns often celebrate frontier expansion and individual heroism, while revisionist westerns critique the mythology by revealing its costs (indigenous displacement, violence, environmental destruction) and expanding perspectives beyond the canonical hero. Students should demonstrate understanding that a genre can accommodate multiple ideological positions within its formal structures."
+- question: What central conflicts does western fiction explore?
+  type: multiple-choice
+  options:
+  - Urban politics and bureaucratic systems
+  - Civilization vs. wilderness, law vs. justice, individual freedom vs. community order
+  - Magical powers and technological advancement
+  - Psychological trauma and emotional relationships
+  answer: 1
+  explanation: The core idea states that westerns 'feature recurring conflicts between civilization and wilderness, law and justice, individual freedom and community order.'
+
+- question: How does the western landscape function in the genre?
+  type: multiple-choice
+  options:
+  - Purely as realistic geographic setting
+  - Symbolically as opportunity, hostile nature, and moral frontier, as much as geographically
+  - As a character with consciousness and agency
+  - As an obstacle to be overcome and discarded
+  answer: 1
+  explanation: The core idea states that 'the western landscape often functions symbolically—as opportunity, as hostile nature, as moral frontier—as much as geographically.'
+
+- question: Western fiction exclusively celebrates frontier mythology and American expansion.
+  type: true-false
+  answer: false
+  explanation: The How It's Best Learned section notes that the genre 'accommodates both celebration and critique of frontier mythology,' showing diversity of approach.
+
+- question: Westerns create mythology about American identity and the consequences of settlement.
+  type: true-false
+  answer: true
+  explanation: The core idea states that 'westerns create mythology about American identity and the price of settlement,' identifying mythology-making as a core function.
+
+- question: How do revisionist westerns differ from canonical westerns in their treatment of frontier mythology?
+  type: short-answer
+  explanation: A strong answer should explain that canonical westerns often celebrate frontier expansion and individual heroism, while revisionist westerns critique the mythology by revealing its costs (indigenous displacement, violence, environmental destruction) and expanding perspectives beyond the canonical hero. Students should demonstrate understanding that a genre can accommodate multiple ideological positions within its formal structures.
 ```
 
 ## Explainer

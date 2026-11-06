@@ -34,40 +34,40 @@ Clap along to music in 4/4 time, accenting beat one of every group of four. Then
 ## Questions
 
 ```yaml
-- question: "What does a time signature in music tell you?"
-  type: mc
+- question: What does a time signature in music tell you?
+  type: multiple-choice
   options:
-    - "What key the song is in"
-    - "How many beats are in each measure and what kind of note gets one beat"
-    - "How fast to play the song"
-    - "What instrument to use"
+  - What key the song is in
+  - How many beats are in each measure and what kind of note gets one beat
+  - How fast to play the song
+  - What instrument to use
   answer: 1
-  explanation: "The time signature is written as two numbers. The top tells you how many beats, the bottom tells you what kind of note gets one beat."
+  explanation: The time signature is written as two numbers. The top tells you how many beats, the bottom tells you what kind of note gets one beat.
 
-- question: "A measure is a group of beats that repeats throughout a song."
-  type: tf
+- question: A measure is a group of beats that repeats throughout a song.
+  type: true-false
   answer: true
-  explanation: "Yes! Measures group beats together in a regular pattern. If the time signature says 4/4, each measure has exactly four beats."
+  explanation: Yes! Measures group beats together in a regular pattern. If the time signature says 4/4, each measure has exactly four beats.
 
-- question: "In 4/4 time, how many beats are in each measure?"
-  type: mc
+- question: In 4/4 time, how many beats are in each measure?
+  type: multiple-choice
   options:
-    - "Two beats"
-    - "Three beats"
-    - "Four beats"
-    - "Eight beats"
+  - Two beats
+  - Three beats
+  - Four beats
+  - Eight beats
   answer: 2
-  explanation: "In 4/4 time (the most common), there are four beats in each measure, and a quarter note gets one beat."
+  explanation: In 4/4 time (the most common), there are four beats in each measure, and a quarter note gets one beat.
 
-- question: "The time signature can change during a song."
-  type: tf
+- question: The time signature can change during a song.
+  type: true-false
   answer: true
-  explanation: "Yes! Some songs change time signature to create different rhythmic feels or to match changes in the music."
+  explanation: Yes! Some songs change time signature to create different rhythmic feels or to match changes in the music.
 
-- question: "Explain what 3/4 time means in terms of beats and measures."
-  type: sa
-  answer: "3/4 means there are three beats in each measure, and a quarter note gets one beat."
-  explanation: "A good answer shows understanding that the top number is the beat count per measure and the bottom is which note gets the beat."
+- question: Explain what 3/4 time means in terms of beats and measures.
+  type: short-answer
+  answer: 3/4 means there are three beats in each measure, and a quarter note gets one beat.
+  explanation: A good answer shows understanding that the top number is the beat count per measure and the bottom is which note gets the beat.
 ```
 
 ## Explainer

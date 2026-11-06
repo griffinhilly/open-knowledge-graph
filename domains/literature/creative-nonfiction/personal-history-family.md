@@ -25,39 +25,39 @@ Personal and family histories trace origins, relationships, and transformations 
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "How do personal and family histories differ from general family memoirs?"
+- question: How do personal and family histories differ from general family memoirs?
+  type: multiple-choice
   options:
-    - "Family histories are less personal than memoirs."
-    - "They emphasize tracing origins and genealogical connections while exploring how individual lives connect to broader historical forces."
-    - "Personal histories ignore research."
-    - "They are the same form."
+  - Family histories are less personal than memoirs.
+  - They emphasize tracing origins and genealogical connections while exploring how individual lives connect to broader historical forces.
+  - Personal histories ignore research.
+  - They are the same form.
   answer: 1
-  explanation: "Family memoirs might focus on relationships and stories. Family histories trace lineages and ask how personal history intersects with social and historical change. They're genealogical and contextual."
+  explanation: Family memoirs might focus on relationships and stories. Family histories trace lineages and ask how personal history intersects with social and historical change. They're genealogical and contextual.
 
-- type: multiple-choice
-  question: "What is the significance of understanding 'how individual and family histories connect to larger social currents'?"
+- question: What is the significance of understanding 'how individual and family histories connect to larger social currents'?
+  type: multiple-choice
   options:
-    - "Individual history is separate from social history."
-    - "Personal stories reveal how broader historical forces shape individual lives and families."
-    - "Social history is irrelevant to personal narrative."
-    - "These connections cannot be explored."
+  - Individual history is separate from social history.
+  - Personal stories reveal how broader historical forces shape individual lives and families.
+  - Social history is irrelevant to personal narrative.
+  - These connections cannot be explored.
   answer: 1
-  explanation: "A family's migration reveals historical displacement. A family's economic rise reflects social mobility patterns. Personal histories gain depth when connected to larger historical context."
+  explanation: A family's migration reveals historical displacement. A family's economic rise reflects social mobility patterns. Personal histories gain depth when connected to larger historical context.
 
-- type: true-false
-  statement: "True: Personal and family histories require both family memory/stories and historical research to tell complete stories."
+- question: 'True: Personal and family histories require both family memory/stories and historical research to tell complete stories.'
+  type: true-false
   answer: true
-  explanation: "Memory provides personal insight and emotional truth. Research provides context and verification. Both are necessary for full understanding."
+  explanation: Memory provides personal insight and emotional truth. Research provides context and verification. Both are necessary for full understanding.
 
-- type: true-false
-  statement: "False: Personal and family histories should focus only on individual family stories without broader historical context."
+- question: 'False: Personal and family histories should focus only on individual family stories without broader historical context.'
+  type: true-false
   answer: false
-  explanation: "This is false. The form's power comes from connecting personal to historical. Individual stories gain meaning through historical understanding."
+  explanation: This is false. The form's power comes from connecting personal to historical. Individual stories gain meaning through historical understanding.
 
-- type: short-answer
-  question: "How might a family history writer combine family memory with research to understand a family's story more completely?"
-  explanation: "A writer might interview family members to collect stories and memories. Then research immigration records, census data, historical documents to verify and contextualize those memories. Research might reveal family members' participation in historical events. Understanding the broader historical period (migration waves, wars, economic shifts) helps explain family choices and experiences. Family memories and historical research together create fuller understanding than either alone could provide."
+- question: How might a family history writer combine family memory with research to understand a family's story more completely?
+  type: short-answer
+  explanation: A writer might interview family members to collect stories and memories. Then research immigration records, census data, historical documents to verify and contextualize those memories. Research might reveal family members' participation in historical events. Understanding the broader historical period (migration waves, wars, economic shifts) helps explain family choices and experiences. Family memories and historical research together create fuller understanding than either alone could provide.
 ```
 
 ## Explainer

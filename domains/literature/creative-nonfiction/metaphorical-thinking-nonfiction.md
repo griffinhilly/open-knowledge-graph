@@ -25,39 +25,39 @@ Nonfiction writers use metaphor and analogy as thinking tools, not just ornament
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What does it mean that metaphor is a 'thinking tool' rather than just ornament in nonfiction?"
+- question: What does it mean that metaphor is a 'thinking tool' rather than just ornament in nonfiction?
+  type: multiple-choice
   options:
-    - "Metaphor decorates argument but doesn't contribute to meaning."
-    - "Metaphor helps the writer understand and communicate ideas—it's a method of thinking, not decoration."
-    - "Metaphor is irrelevant to nonfiction."
-    - "Thinking requires avoiding metaphor."
+  - Metaphor decorates argument but doesn't contribute to meaning.
+  - Metaphor helps the writer understand and communicate ideas—it's a method of thinking, not decoration.
+  - Metaphor is irrelevant to nonfiction.
+  - Thinking requires avoiding metaphor.
   answer: 1
-  explanation: "A writer might use a metaphor about architecture to think through social structures. The metaphor isn't decoration; it's helping them—and readers—understand. Through the metaphor, abstract ideas become tangible and apprehensible."
+  explanation: A writer might use a metaphor about architecture to think through social structures. The metaphor isn't decoration; it's helping them—and readers—understand. Through the metaphor, abstract ideas become tangible and apprehensible.
 
-- type: multiple-choice
-  question: "How can 'a sustained metaphor structure an entire essay'?"
+- question: How can 'a sustained metaphor structure an entire essay'?
+  type: multiple-choice
   options:
-    - "Metaphors are too brief to structure essays."
-    - "An essay might return repeatedly to a metaphor, using it to organize ideas and make connections between disparate material."
-    - "Metaphors contradict structure."
-    - "Only linear arguments can structure essays."
+  - Metaphors are too brief to structure essays.
+  - An essay might return repeatedly to a metaphor, using it to organize ideas and make connections between disparate material.
+  - Metaphors contradict structure.
+  - Only linear arguments can structure essays.
   answer: 1
-  explanation: "An essay about grief might use a sustained metaphor of seasons or geography. The writer explores different aspects of grief through this metaphoric lens. The metaphor becomes the organizing principle, allowing coherence without explicit argument."
+  explanation: An essay about grief might use a sustained metaphor of seasons or geography. The writer explores different aspects of grief through this metaphoric lens. The metaphor becomes the organizing principle, allowing coherence without explicit argument.
 
-- type: true-false
-  statement: "True: Metaphorical thinking mirrors how consciousness actually works—through association, comparison, and non-linear connection."
+- question: 'True: Metaphorical thinking mirrors how consciousness actually works—through association, comparison, and non-linear connection.'
+  type: true-false
   answer: true
-  explanation: "We don't think purely logically. We think through association and analogy. A metaphor allows the writer to honor this actual texture of thought while also helping readers think in similarly non-linear ways."
+  explanation: We don't think purely logically. We think through association and analogy. A metaphor allows the writer to honor this actual texture of thought while also helping readers think in similarly non-linear ways.
 
-- type: true-false
-  statement: "False: Nonfiction should avoid metaphor because metaphor isn't factual."
+- question: 'False: Nonfiction should avoid metaphor because metaphor isn''t factual.'
+  type: true-false
   answer: false
-  explanation: "This is false. Metaphor and fact aren't opposites in nonfiction. Metaphor can help communicate facts and ideas more clearly. A factual claim explained through apt metaphor isn't less factual; it's more understandable."
+  explanation: This is false. Metaphor and fact aren't opposites in nonfiction. Metaphor can help communicate facts and ideas more clearly. A factual claim explained through apt metaphor isn't less factual; it's more understandable.
 
-- type: short-answer
-  question: "How might an essay about an abstract concept use sustained metaphor as a thinking tool? Give an example."
-  explanation: "An essay about identity might use sustained metaphor of a journey, a mirror, a conversation, or building. The writer explores identity through the lens of the chosen metaphor. Each paragraph develops a different aspect of identity while also developing the metaphor. The metaphor isn't just decoration—it's the structure that helps both writer and reader think through a complex concept. Readers encounter not just ideas about identity but these ideas made tangible through the metaphor. The metaphor becomes a thinking device that makes abstract concept concrete and apprehensible."
+- question: How might an essay about an abstract concept use sustained metaphor as a thinking tool? Give an example.
+  type: short-answer
+  explanation: An essay about identity might use sustained metaphor of a journey, a mirror, a conversation, or building. The writer explores identity through the lens of the chosen metaphor. Each paragraph develops a different aspect of identity while also developing the metaphor. The metaphor isn't just decoration—it's the structure that helps both writer and reader think through a complex concept. Readers encounter not just ideas about identity but these ideas made tangible through the metaphor. The metaphor becomes a thinking device that makes abstract concept concrete and apprehensible.
 ```
 
 ## Explainer

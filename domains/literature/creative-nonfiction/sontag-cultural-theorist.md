@@ -25,39 +25,39 @@ Sontag synthesizes art history, philosophy, literature, and contemporary culture
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What does it mean for Sontag to 'diagnose cultural moments'?"
+- question: What does it mean for Sontag to 'diagnose cultural moments'?
+  type: multiple-choice
   options:
-    - "To describe what is happening in culture without evaluation."
-    - "To identify underlying patterns, assumptions, or problems in contemporary culture and explain their significance."
-    - "To predict the future of culture."
-    - "To reject all contemporary culture as inferior."
+  - To describe what is happening in culture without evaluation.
+  - To identify underlying patterns, assumptions, or problems in contemporary culture and explain their significance.
+  - To predict the future of culture.
+  - To reject all contemporary culture as inferior.
   answer: 1
-  explanation: "Sontag analyzes culture to understand what it reveals about our historical moment. Her famous essay on camp diagnoses why certain forms of 'bad taste' became culturally significant. Her essays on photography diagnose how cameras changed human consciousness and ethics. She identifies patterns (how form connects to content, how aesthetics reveal ideology) and explains what they mean. This is diagnosis in the sense a doctor uses—identifying symptoms, understanding causes, explaining implications."
+  explanation: Sontag analyzes culture to understand what it reveals about our historical moment. Her famous essay on camp diagnoses why certain forms of 'bad taste' became culturally significant. Her essays on photography diagnose how cameras changed human consciousness and ethics. She identifies patterns (how form connects to content, how aesthetics reveal ideology) and explains what they mean. This is diagnosis in the sense a doctor uses—identifying symptoms, understanding causes, explaining implications.
 
-- type: multiple-choice
-  question: "What technique does Sontag use to build 'essays around formal analysis, historical comparison, and provocative thesis'?"
+- question: What technique does Sontag use to build 'essays around formal analysis, historical comparison, and provocative thesis'?
+  type: multiple-choice
   options:
-    - "She uses only one of these; the others are unimportant."
-    - "She analyzes a specific cultural form closely (camp, photography, illness), compares it historically, and builds an argument about its cultural significance."
-    - "These three elements contradict each other in her work."
-    - "Technique is unimportant; only the thesis matters."
+  - She uses only one of these; the others are unimportant.
+  - She analyzes a specific cultural form closely (camp, photography, illness), compares it historically, and builds an argument about its cultural significance.
+  - These three elements contradict each other in her work.
+  - Technique is unimportant; only the thesis matters.
   answer: 1
-  explanation: "Sontag's method is to combine close analysis of specific cultural phenomena with historical perspective and argumentative force. Her essay 'Notes on Camp' analyzes camp aesthetics formally (what are its characteristics?), traces its history (when did it emerge? how has it evolved?), and argues that camp is significant to understanding contemporary sensibility. The three elements work together: formal analysis provides evidence, historical comparison shows scope, and the thesis stakes a larger claim about cultural meaning."
+  explanation: 'Sontag''s method is to combine close analysis of specific cultural phenomena with historical perspective and argumentative force. Her essay ''Notes on Camp'' analyzes camp aesthetics formally (what are its characteristics?), traces its history (when did it emerge? how has it evolved?), and argues that camp is significant to understanding contemporary sensibility. The three elements work together: formal analysis provides evidence, historical comparison shows scope, and the thesis stakes a larger claim about cultural meaning.'
 
-- type: true-false
-  statement: "True: Sontag's essays are learned and erudite but also accessible and engaged with immediate cultural questions rather than removed from contemporary concerns."
+- question: 'True: Sontag''s essays are learned and erudite but also accessible and engaged with immediate cultural questions rather than removed from contemporary concerns.'
+  type: true-false
   answer: true
-  explanation: "This is what makes Sontag's work distinctive. She draws on philosophy, art history, and theory—she is genuinely learned. But she uses this learning not to create obscurity but to illuminate contemporary culture. Her essays about photography, illness, American character, and aesthetics address questions readers care about. She refuses the false choice between being intellectually serious and being engaged with present-moment culture."
+  explanation: This is what makes Sontag's work distinctive. She draws on philosophy, art history, and theory—she is genuinely learned. But she uses this learning not to create obscurity but to illuminate contemporary culture. Her essays about photography, illness, American character, and aesthetics address questions readers care about. She refuses the false choice between being intellectually serious and being engaged with present-moment culture.
 
-- type: true-false
-  statement: "True: Sontag's provocative theses are presented as tentative suggestions rather than argued with rigor."
+- question: 'True: Sontag''s provocative theses are presented as tentative suggestions rather than argued with rigor.'
+  type: true-false
   answer: false
-  explanation: "Sontag's theses are provocative precisely because she argues them with rigor. She presents evidence, builds logical argument, and acknowledges counterarguments before addressing them. A provocative thesis without rigorous support is merely outrageous. Sontag is provocative because she combines serious argumentation with uncomfortable positions—she makes readers take her arguments seriously while disagreeing with them."
+  explanation: Sontag's theses are provocative precisely because she argues them with rigor. She presents evidence, builds logical argument, and acknowledges counterarguments before addressing them. A provocative thesis without rigorous support is merely outrageous. Sontag is provocative because she combines serious argumentation with uncomfortable positions—she makes readers take her arguments seriously while disagreeing with them.
 
-- type: short-answer
-  question: "Choose a contemporary cultural form or phenomenon (a genre, an art form, a technology, a social practice). Write a brief analysis that diagnoses its cultural significance. What patterns does it reveal about our moment? What is its relationship to earlier cultural moments? What larger claim can you make about it?"
-  explanation: "For example, analyzing social media: Formally, it combines public performance (posts, photos) with personal relationship (following friends). Historically, it continues a tradition of diaries and letters made public (predecessors: blogs, early internet forums). The diagnosis: social media has transformed privacy and identity—what was private (personal reflection, intimate communication) is now performed publicly. This reveals something about contemporary culture: we're negotiating new relationships between private and public, self and audience. The larger claim might be that social media reflects anxieties about visibility and identity in late capitalism. This combines close analysis of the form, historical perspective on its emergence, and argumentative thesis about its meaning."
+- question: Choose a contemporary cultural form or phenomenon (a genre, an art form, a technology, a social practice). Write a brief analysis that diagnoses its cultural significance. What patterns does it reveal about our moment? What is its relationship to earlier cultural moments? What larger claim can you make about it?
+  type: short-answer
+  explanation: 'For example, analyzing social media: Formally, it combines public performance (posts, photos) with personal relationship (following friends). Historically, it continues a tradition of diaries and letters made public (predecessors: blogs, early internet forums). The diagnosis: social media has transformed privacy and identity—what was private (personal reflection, intimate communication) is now performed publicly. This reveals something about contemporary culture: we''re negotiating new relationships between private and public, self and audience. The larger claim might be that social media reflects anxieties about visibility and identity in late capitalism. This combines close analysis of the form, historical perspective on its emergence, and argumentative thesis about its meaning.'
 ```
 
 ## Explainer

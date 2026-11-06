@@ -30,35 +30,40 @@ Select a short passage and read it multiple times, attending to different elemen
 ## Questions
 
 ```yaml
-- question: "A passage reads: 'He walked across the room.' A student over-analyzes: 'The character WALKED, which means he's afraid to move normally, so he must be anxious about something.' Is this close reading?"
+- question: 'A passage reads: ''He walked across the room.'' A student over-analyzes: ''The character WALKED, which means he''s afraid to move normally, so he must be anxious about something.'' Is this close reading?'
+  type: multiple-choice
   options:
-    - "Yes, finding deeper meanings is always good literary analysis"
-    - "No, this is over-analysis. Close reading means observing what the text actually says, not projecting psychological meanings onto simple words"
-    - "Yes, because the student is analyzing carefully"
-    - "No, because the passage is too short to analyze"
+  - Yes, finding deeper meanings is always good literary analysis
+  - No, this is over-analysis. Close reading means observing what the text actually says, not projecting psychological meanings onto simple words
+  - Yes, because the student is analyzing carefully
+  - No, because the passage is too short to analyze
   answer: 1
-  explanation: "Close reading is grounded in textual evidence. The word 'walked' simply means he moved by foot. Assuming this indicates anxiety requires evidence from the passage itself—the author's other word choices, the context, the description of how he walked (slowly? reluctantly?). Close reading follows the text; it doesn't imagine layers the text doesn't support."
+  explanation: Close reading is grounded in textual evidence. The word 'walked' simply means he moved by foot. Assuming this indicates anxiety requires evidence from the passage itself—the author's other word choices, the context, the description of how he walked (slowly? reluctantly?). Close reading follows the text; it doesn't imagine layers the text doesn't support.
 
-- question: "An author writes: 'The old, creaking house with its broken windows stood empty.' When a close reader analyzes this passage, what should they examine?"
+- question: 'An author writes: ''The old, creaking house with its broken windows stood empty.'' When a close reader analyzes this passage, what should they examine?'
+  type: multiple-choice
   options:
-    - "Whether the house is real"
-    - "Whether the reader likes the house"
-    - "The specific word choices—'old,' 'creaking,' 'broken'—and how they work together to create a sense of decay and abandonment. What does the author's choice of these particular words communicate?"
-    - "Whether there are hidden supernatural meanings"
+  - Whether the house is real
+  - Whether the reader likes the house
+  - The specific word choices—'old,' 'creaking,' 'broken'—and how they work together to create a sense of decay and abandonment. What does the author's choice of these particular words communicate?
+  - Whether there are hidden supernatural meanings
   answer: 2
-  explanation: "Close reading focuses on how specific textual choices (word choice, sentence structure, imagery) create meaning. The words 'old,' 'creaking,' and 'broken' aren't randomly chosen—they accumulate to establish a sense of ruin and neglect. This is what close reading reveals: the author's deliberate choices and their effects."
+  explanation: 'Close reading focuses on how specific textual choices (word choice, sentence structure, imagery) create meaning. The words ''old,'' ''creaking,'' and ''broken'' aren''t randomly chosen—they accumulate to establish a sense of ruin and neglect. This is what close reading reveals: the author''s deliberate choices and their effects.'
 
-- question: "True or False: In close reading, every word in a sentence must have deep symbolic significance."
+- question: 'True or False: In close reading, every word in a sentence must have deep symbolic significance.'
+  type: true-false
   answer: false
-  explanation: "Close reading means attending carefully to language, but not all words carry equal weight. Sometimes the simple word is the powerful word precisely because it's simple. Close reading asks 'How does this word choice work?' not 'This must mean something profound.' Sometimes it does; sometimes simplicity itself is the point."
+  explanation: Close reading means attending carefully to language, but not all words carry equal weight. Sometimes the simple word is the powerful word precisely because it's simple. Close reading asks 'How does this word choice work?' not 'This must mean something profound.' Sometimes it does; sometimes simplicity itself is the point.
 
-- question: "True or False: Close reading requires you to ignore the overall plot and focus only on individual sentences."
+- question: 'True or False: Close reading requires you to ignore the overall plot and focus only on individual sentences.'
+  type: true-false
   answer: false
-  explanation: "Close reading examines specific passages in detail, but you must understand the broader context. How does this passage fit into the larger story? What else has the author said about this character or situation? Context matters. Close reading is zooming in on details while maintaining awareness of the whole."
+  explanation: Close reading examines specific passages in detail, but you must understand the broader context. How does this passage fit into the larger story? What else has the author said about this character or situation? Context matters. Close reading is zooming in on details while maintaining awareness of the whole.
 
-- question: "A passage describes a character's hands as 'trembling.' Write a brief close reading that examines this word choice and what it might communicate to a reader, using evidence from storytelling principles (not imagination)."
-  answer: "Trembling hands indicate physical response to emotion—fear, cold, anger, or excitement. The word 'trembling' is more specific and evocative than 'shaking' (less controlled) or 'moving' (too vague). By choosing 'trembling,' the author shows the character is not fully in control of their body, suggesting strong emotion is overtaking them. In context, this word choice signals to readers to pay attention to what this emotion is and why the character feels it so intensely. The trembling makes the emotion visible and believable."
-  explanation: "This tests understanding that close reading examines specific word choices and their effects, grounded in textual evidence. The student should show how the particular word (not just any word meaning movement) contributes to the reader's understanding of the character's state."
+- question: A passage describes a character's hands as 'trembling.' Write a brief close reading that examines this word choice and what it might communicate to a reader, using evidence from storytelling principles (not imagination).
+  type: short-answer
+  answer: Trembling hands indicate physical response to emotion—fear, cold, anger, or excitement. The word 'trembling' is more specific and evocative than 'shaking' (less controlled) or 'moving' (too vague). By choosing 'trembling,' the author shows the character is not fully in control of their body, suggesting strong emotion is overtaking them. In context, this word choice signals to readers to pay attention to what this emotion is and why the character feels it so intensely. The trembling makes the emotion visible and believable.
+  explanation: This tests understanding that close reading examines specific word choices and their effects, grounded in textual evidence. The student should show how the particular word (not just any word meaning movement) contributes to the reader's understanding of the character's state.
 ```
 
 ## Explainer

@@ -23,36 +23,39 @@ Mystery writers employ sophisticated techniques to hide solutions while maintain
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "How do mystery writers hide solutions while maintaining fair play?"
-    options:
-      - "By withholding crucial information"
-      - "Through point-of-view manipulation, selective detail, false emphasis, and psychological suggestion"
-      - "By changing important facts without warning"
-      - "By lying to readers directly"
-    correct_answer: 1
-    explanation: "The core idea specifies that misdirection works 'through point-of-view manipulation, selective detail, false emphasis, and psychological suggestion,' identifying these techniques as the author's methods."
-  - type: multiple-choice
-    question: "What is the function of red herrings in mystery fiction?"
-    options:
-      - "To provide additional clues about the true culprit"
-      - "To misdirect attention toward false suspects while the author maintains fair play"
-      - "To indicate which characters are innocent"
-      - "To slow down the pacing"
-    correct_answer: 1
-    explanation: "The core idea references 'red herrings and misdirection,' indicating they serve to divert reader attention from the true solution through the various manipulation techniques."
-  - type: true-false
-    question: "Effective mysteries present multiple suspects while strategically guiding attention."
-    correct_answer: true
-    explanation: "The core idea states that 'effective mysteries balance multiple suspects while guiding attention toward the true culprit,' confirming this balancing act as central."
-  - type: true-false
-    question: "Point-of-view manipulation means withholding information the detective doesn't know."
-    correct_answer: false
-    explanation: "The core idea mentions point-of-view manipulation alongside other misdirection techniques, suggesting it's about directing attention and interpretation, not withholding information. Fair play mysteries typically keep readers at the same information level as the detective."
-  - type: short-answer
-    question: "How do 'selective detail' and 'false emphasis' work as misdirection techniques? Give an example of how emphasizing something irrelevant can misdirect readers."
-    explanation: "A good answer should recognize that selective detail means describing some suspects or clues in rich detail while treating others sparsely, which can misdirect because readers often assume detailed description indicates importance. False emphasis means treating an irrelevant detail in ways that suggest importance (investigating it thoroughly, having characters react to it emotionally), causing readers to wrongly assume it matters. Example: A victim's expensive watch is described in elaborate detail, the detective investigates who knew the victim had it, readers assume it's the motive—but the actual motive is unrelated and the watch is misdirection. Students should understand these techniques work on reader psychology, not information withholding."
+- question: How do mystery writers hide solutions while maintaining fair play?
+  type: multiple-choice
+  options:
+  - By withholding crucial information
+  - Through point-of-view manipulation, selective detail, false emphasis, and psychological suggestion
+  - By changing important facts without warning
+  - By lying to readers directly
+  answer: 1
+  explanation: The core idea specifies that misdirection works 'through point-of-view manipulation, selective detail, false emphasis, and psychological suggestion,' identifying these techniques as the author's methods.
+
+- question: What is the function of red herrings in mystery fiction?
+  type: multiple-choice
+  options:
+  - To provide additional clues about the true culprit
+  - To misdirect attention toward false suspects while the author maintains fair play
+  - To indicate which characters are innocent
+  - To slow down the pacing
+  answer: 1
+  explanation: The core idea references 'red herrings and misdirection,' indicating they serve to divert reader attention from the true solution through the various manipulation techniques.
+
+- question: Effective mysteries present multiple suspects while strategically guiding attention.
+  type: true-false
+  answer: true
+  explanation: The core idea states that 'effective mysteries balance multiple suspects while guiding attention toward the true culprit,' confirming this balancing act as central.
+
+- question: Point-of-view manipulation means withholding information the detective doesn't know.
+  type: true-false
+  answer: false
+  explanation: The core idea mentions point-of-view manipulation alongside other misdirection techniques, suggesting it's about directing attention and interpretation, not withholding information. Fair play mysteries typically keep readers at the same information level as the detective.
+
+- question: How do 'selective detail' and 'false emphasis' work as misdirection techniques? Give an example of how emphasizing something irrelevant can misdirect readers.
+  type: short-answer
+  explanation: 'A good answer should recognize that selective detail means describing some suspects or clues in rich detail while treating others sparsely, which can misdirect because readers often assume detailed description indicates importance. False emphasis means treating an irrelevant detail in ways that suggest importance (investigating it thoroughly, having characters react to it emotionally), causing readers to wrongly assume it matters. Example: A victim''s expensive watch is described in elaborate detail, the detective investigates who knew the victim had it, readers assume it''s the motive—but the actual motive is unrelated and the watch is misdirection. Students should understand these techniques work on reader psychology, not information withholding.'
 ```
 
 ## Explainer

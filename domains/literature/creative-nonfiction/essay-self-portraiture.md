@@ -29,39 +29,39 @@ The personal essay as self-portraiture presents the writer as the subject under 
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What is the difference between self-portraiture in personal essays and simple confession or autobiography?"
+- question: What is the difference between self-portraiture in personal essays and simple confession or autobiography?
+  type: multiple-choice
   options:
-    - "Self-portraiture just shares personal stories without reflection."
-    - "Self-portraiture examines the self intellectually, exploring contradictions and complexity through thinking, not just revealing personal facts."
-    - "Personal essays are not about the self."
-    - "Confession and self-portraiture are identical."
+  - Self-portraiture just shares personal stories without reflection.
+  - Self-portraiture examines the self intellectually, exploring contradictions and complexity through thinking, not just revealing personal facts.
+  - Personal essays are not about the self.
+  - Confession and self-portraiture are identical.
   answer: 1
-  explanation: "Self-portraiture as essay practice is not simply telling what happened or confessing secrets. It's examining yourself as a subject—your contradictions, your assumptions, your limitations. It's intellectual self-examination presented in an essay."
+  explanation: Self-portraiture as essay practice is not simply telling what happened or confessing secrets. It's examining yourself as a subject—your contradictions, your assumptions, your limitations. It's intellectual self-examination presented in an essay.
 
-- type: multiple-choice
-  question: "What does 'intellectual honesty' mean in essayistic self-portraiture?"
+- question: What does 'intellectual honesty' mean in essayistic self-portraiture?
+  type: multiple-choice
   options:
-    - "Avoiding personal revelations to seem objective."
-    - "The willingness to think critically about yourself, to follow ideas even when uncomfortable, and to revise your understanding of yourself through writing."
-    - "Pretending to self-knowledge you don't have."
-    - "Refusing to examine your own biases."
+  - Avoiding personal revelations to seem objective.
+  - The willingness to think critically about yourself, to follow ideas even when uncomfortable, and to revise your understanding of yourself through writing.
+  - Pretending to self-knowledge you don't have.
+  - Refusing to examine your own biases.
   answer: 1
-  explanation: "Intellectual honesty means being willing to follow your thinking wherever it leads, even if it reveals something unflattering about you. It means not performing certainty about who you are, but actually thinking about yourself on the page. It's honest about the limits of self-knowledge."
+  explanation: Intellectual honesty means being willing to follow your thinking wherever it leads, even if it reveals something unflattering about you. It means not performing certainty about who you are, but actually thinking about yourself on the page. It's honest about the limits of self-knowledge.
 
-- type: true-false
-  statement: "True: The most powerful self-portraiture essays come from revelation of secrets, vulnerability, and confessional material."
+- question: 'True: The most powerful self-portraiture essays come from revelation of secrets, vulnerability, and confessional material.'
+  type: true-false
   answer: false
-  explanation: "While vulnerability can matter, the real power of self-portraiture comes from thinking—intellectual examination and honesty. An essay that confesses something dramatic but doesn't think about it is less powerful than an essay that thinks carefully about something less dramatic. The thinking is what matters."
+  explanation: While vulnerability can matter, the real power of self-portraiture comes from thinking—intellectual examination and honesty. An essay that confesses something dramatic but doesn't think about it is less powerful than an essay that thinks carefully about something less dramatic. The thinking is what matters.
 
-- type: true-false
-  statement: "True: Writing self-portraiture can actually change how a writer understands themselves, as the act of writing produces new understanding."
+- question: 'True: Writing self-portraiture can actually change how a writer understands themselves, as the act of writing produces new understanding.'
+  type: true-false
   answer: true
-  explanation: "This is one of writing's most interesting capacities. You sit down thinking you know something about yourself. Through the act of writing and thinking, you discover something different. Self-portraiture harnesses this capacity—it treats writing as a method of self-discovery."
+  explanation: This is one of writing's most interesting capacities. You sit down thinking you know something about yourself. Through the act of writing and thinking, you discover something different. Self-portraiture harnesses this capacity—it treats writing as a method of self-discovery.
 
-- type: short-answer
-  question: "How might self-portraiture in an essay work differently than a personal memoir about the same period of your life? What does each form accomplish?"
-  explanation: "A memoir tells the story of a period—what happened, how you experienced it, how it changed you. The form is narrative. Self-portraiture in an essay might focus on a single contradiction or question about yourself—say, your habit of people-pleasing, or your ambivalence about ambition—and examine it intellectually. Rather than telling the story of how you developed the trait, you analyze it, explore its implications, think about it. Memoir is narrative and emotional; self-portraiture is analytical and intellectual. Memoir says 'Here's what happened to me.' Self-portraiture says 'Here's what I think about this aspect of myself.' Both can be powerful, but they accomplish different things. Memoir offers narrative understanding; self-portraiture offers analytical understanding."
+- question: How might self-portraiture in an essay work differently than a personal memoir about the same period of your life? What does each form accomplish?
+  type: short-answer
+  explanation: A memoir tells the story of a period—what happened, how you experienced it, how it changed you. The form is narrative. Self-portraiture in an essay might focus on a single contradiction or question about yourself—say, your habit of people-pleasing, or your ambivalence about ambition—and examine it intellectually. Rather than telling the story of how you developed the trait, you analyze it, explore its implications, think about it. Memoir is narrative and emotional; self-portraiture is analytical and intellectual. Memoir says 'Here's what happened to me.' Self-portraiture says 'Here's what I think about this aspect of myself.' Both can be powerful, but they accomplish different things. Memoir offers narrative understanding; self-portraiture offers analytical understanding.
 ```
 
 ## Explainer

@@ -34,36 +34,40 @@ Identify the antagonist in several stories and describe what they want and why. 
 ## Questions
 
 ```yaml
-- question: "In the story *The Hunger Games*, President Snow actively tries to prevent Katniss from winning. However, from Snow's perspective, he is trying to protect his nation's stability. Which statement best explains why Snow is still the antagonist?"
+- question: In the story *The Hunger Games*, President Snow actively tries to prevent Katniss from winning. However, from Snow's perspective, he is trying to protect his nation's stability. Which statement best explains why Snow is still the antagonist?
+  type: multiple-choice
   options:
-    - "Snow is evil and that makes him the antagonist regardless of his perspective"
-    - "The antagonist is defined by their opposition to the protagonist's goals, not by moral judgment of their motivations"
-    - "Snow cannot be an antagonist if he has understandable reasons for his actions"
-    - "Katniss must be the antagonist since she opposes Snow's rule"
+  - Snow is evil and that makes him the antagonist regardless of his perspective
+  - The antagonist is defined by their opposition to the protagonist's goals, not by moral judgment of their motivations
+  - Snow cannot be an antagonist if he has understandable reasons for his actions
+  - Katniss must be the antagonist since she opposes Snow's rule
   answer: 1
-  explanation: "An antagonist is anyone or anything that opposes the protagonist, not a character defined by being evil. Snow opposes Katniss's goals, making him the antagonist regardless of whether his motivations are understandable or even sympathetic."
+  explanation: An antagonist is anyone or anything that opposes the protagonist, not a character defined by being evil. Snow opposes Katniss's goals, making him the antagonist regardless of whether his motivations are understandable or even sympathetic.
 
-- question: "A sailor is fighting against a hurricane to save her ship and crew. The hurricane is not a character and has no conscious goals. Which best describes the hurricane in this scenario?"
+- question: A sailor is fighting against a hurricane to save her ship and crew. The hurricane is not a character and has no conscious goals. Which best describes the hurricane in this scenario?
+  type: multiple-choice
   options:
-    - "The hurricane cannot be an antagonist because it is not a person"
-    - "The hurricane is the antagonist because it directly opposes the sailor's goal of survival"
-    - "The hurricane is neither antagonist nor protagonist because it lacks consciousness"
-    - "The sailor is her own antagonist because she must overcome nature"
+  - The hurricane cannot be an antagonist because it is not a person
+  - The hurricane is the antagonist because it directly opposes the sailor's goal of survival
+  - The hurricane is neither antagonist nor protagonist because it lacks consciousness
+  - The sailor is her own antagonist because she must overcome nature
   answer: 1
-  explanation: "An antagonist is the force or character that opposes the protagonist. The force can be abstract—like nature, weather, or circumstance—not just a person. The hurricane opposes the sailor's goal, making it the antagonist."
+  explanation: An antagonist is the force or character that opposes the protagonist. The force can be abstract—like nature, weather, or circumstance—not just a person. The hurricane opposes the sailor's goal, making it the antagonist.
 
-- question: "True or False: In all stories, the antagonist and protagonist have completely opposite values and goals with no common ground."
+- question: 'True or False: In all stories, the antagonist and protagonist have completely opposite values and goals with no common ground.'
+  type: true-false
   answer: false
-  explanation: "Many complex stories blur the line between protagonist and antagonist. Characters often share values, face genuine dilemmas where both sides are partly right, or discover unexpected connections. The antagonist's opposition comes from conflicting goals, not necessarily from total moral opposition."
+  explanation: Many complex stories blur the line between protagonist and antagonist. Characters often share values, face genuine dilemmas where both sides are partly right, or discover unexpected connections. The antagonist's opposition comes from conflicting goals, not necessarily from total moral opposition.
 
-- question: "True or False: An antagonist must be a villain who commits evil acts."
+- question: 'True or False: An antagonist must be a villain who commits evil acts.'
+  type: true-false
   answer: false
-  explanation: "Antagonists can be well-meaning characters with conflicting goals, social forces, or circumstances. A parent preventing a child from dropping out of school is an antagonist to the child's goal, but not a villain. The role depends on opposing the protagonist, not on moral judgment."
+  explanation: Antagonists can be well-meaning characters with conflicting goals, social forces, or circumstances. A parent preventing a child from dropping out of school is an antagonist to the child's goal, but not a villain. The role depends on opposing the protagonist, not on moral judgment.
 
-- question: "A character named Marcus wants to leave his hometown to pursue a career in music, but his family wants him to stay and run the family business. Is the family the antagonist? Explain your reasoning."
-  answer: "The family can function as an antagonist because they oppose Marcus's central goal. However, they are not necessarily a villain—they have understandable motivations (preserving the family legacy, keeping Marcus close). A good story might show why both Marcus and his family are right in some ways, making the conflict complex and the antagonistic role less clear-cut."
-  explanation: "This question tests understanding that antagonism is about opposition to goals, not about moral character. Students should recognize that opposing goals can exist between good-intentioned people, and that understanding the antagonist's perspective deepens the story's complexity."
-
+- question: A character named Marcus wants to leave his hometown to pursue a career in music, but his family wants him to stay and run the family business. Is the family the antagonist? Explain your reasoning.
+  type: short-answer
+  answer: The family can function as an antagonist because they oppose Marcus's central goal. However, they are not necessarily a villain—they have understandable motivations (preserving the family legacy, keeping Marcus close). A good story might show why both Marcus and his family are right in some ways, making the conflict complex and the antagonistic role less clear-cut.
+  explanation: This question tests understanding that antagonism is about opposition to goals, not about moral character. Students should recognize that opposing goals can exist between good-intentioned people, and that understanding the antagonist's perspective deepens the story's complexity.
 ```
 
 ## Explainer

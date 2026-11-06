@@ -30,35 +30,40 @@ Select a story and imagine how it would change if the setting were different. If
 ## Questions
 
 ```yaml
-- question: "A story involves a character needing to escape a dangerous situation. If the story is set on a remote island with no communication to the outside world, how does setting shape what the character can do? How would the story change if it were set in a modern city?"
+- question: A story involves a character needing to escape a dangerous situation. If the story is set on a remote island with no communication to the outside world, how does setting shape what the character can do? How would the story change if it were set in a modern city?
+  type: multiple-choice
   options:
-    - "Setting doesn't affect plot"
-    - "Setting shapes what's possible. On an island, the character can't call for help easily—they're isolated and must escape using only available resources. In a city, they could call police, find crowds, use transportation. The setting determines what options and challenges exist. Different settings create completely different stories"
-    - "All settings create the same possibilities"
-    - "Plot determines setting"
+  - Setting doesn't affect plot
+  - Setting shapes what's possible. On an island, the character can't call for help easily—they're isolated and must escape using only available resources. In a city, they could call police, find crowds, use transportation. The setting determines what options and challenges exist. Different settings create completely different stories
+  - All settings create the same possibilities
+  - Plot determines setting
   answer: 1
-  explanation: "Setting actively enables and constrains action. What happens in a story is directly shaped by when and where it takes place. Authors choose settings that create the specific challenges and possibilities they need for their stories."
+  explanation: Setting actively enables and constrains action. What happens in a story is directly shaped by when and where it takes place. Authors choose settings that create the specific challenges and possibilities they need for their stories.
 
-- question: "A historical fiction story is set during World War II. The time period creates constraints (no modern technology, specific political situation) and opportunities (historical events that create drama). How does this setting shape what the story can be?"
+- question: A historical fiction story is set during World War II. The time period creates constraints (no modern technology, specific political situation) and opportunities (historical events that create drama). How does this setting shape what the story can be?
+  type: multiple-choice
   options:
-    - "Setting is just background"
-    - "The time period fundamentally shapes the narrative. Characters have access only to WWII-era technology and knowledge. They're living under specific political pressures and experiencing specific historical events. They can't use modern weapons or communication. These constraints and opportunities created by the time period are essential to the plot. Change the time period, and you change the entire story"
-    - "Any time period would work equally well"
-    - "Setting doesn't affect historical fiction"
+  - Setting is just background
+  - The time period fundamentally shapes the narrative. Characters have access only to WWII-era technology and knowledge. They're living under specific political pressures and experiencing specific historical events. They can't use modern weapons or communication. These constraints and opportunities created by the time period are essential to the plot. Change the time period, and you change the entire story
+  - Any time period would work equally well
+  - Setting doesn't affect historical fiction
   answer: 1
-  explanation: "Historical settings are never interchangeable. The specific time period creates specific conditions that shape what characters face, what they can do, and what the plot becomes. This is why historical fiction depends on accurate period detail."
+  explanation: Historical settings are never interchangeable. The specific time period creates specific conditions that shape what characters face, what they can do, and what the plot becomes. This is why historical fiction depends on accurate period detail.
 
-- question: "True or False: A story set in a wealthy gated community will naturally have different plot possibilities than one set in a poor neighborhood."
+- question: 'True or False: A story set in a wealthy gated community will naturally have different plot possibilities than one set in a poor neighborhood.'
+  type: true-false
   answer: true
-  explanation: "Economic setting creates different circumstances, access to resources, social dynamics, and challenges. A character in poverty faces constraints a wealthy character doesn't; a wealthy character faces different social pressures. Setting determines who has access to what and therefore what plots are possible."
+  explanation: Economic setting creates different circumstances, access to resources, social dynamics, and challenges. A character in poverty faces constraints a wealthy character doesn't; a wealthy character faces different social pressures. Setting determines who has access to what and therefore what plots are possible.
 
-- question: "True or False: A story's setting can be so minimal or vague that it doesn't really matter."
+- question: 'True or False: A story''s setting can be so minimal or vague that it doesn''t really matter.'
+  type: true-false
   answer: false
-  explanation: "Even minimal or vague settings make choices. A story set in 'a small town' carries different implications than 'a major city.' A story set in 'an unspecified time' creates different possibilities than one set explicitly in the past or future. Even sparse setting makes meaningful choices about constraints and possibilities."
+  explanation: Even minimal or vague settings make choices. A story set in 'a small town' carries different implications than 'a major city.' A story set in 'an unspecified time' creates different possibilities than one set explicitly in the past or future. Even sparse setting makes meaningful choices about constraints and possibilities.
 
-- question: "A murder mystery is set in a snowbound hotel where guests are trapped by a blizzard, unable to leave or call for help. How does this setting make the mystery more complex than if the same murder happened in a police precinct?"
-  answer: "The snowbound hotel creates isolation, which fundamentally changes the mystery's dynamics. In a police station, authorities are present, evidence can be sent for testing, suspects can be separated and monitored. In a snowbound hotel, the guests must investigate themselves, evidence stays with them, suspects remain mixed together. The setting creates forced proximity and isolation that intensifies psychological pressure. The same murder plot has completely different complications depending on setting. The hotel setting creates a pressure cooker environment where characters can't escape each other or get outside help—this makes internal conflict and relationships central to the mystery. Setting isn't decoration; it's structural."
-  explanation: "This tests understanding that setting shapes not just atmosphere but plot mechanics. Different settings create different constraints that fundamentally alter how a story unfolds. Authors choose settings that create the specific conditions their stories need."
+- question: A murder mystery is set in a snowbound hotel where guests are trapped by a blizzard, unable to leave or call for help. How does this setting make the mystery more complex than if the same murder happened in a police precinct?
+  type: short-answer
+  answer: The snowbound hotel creates isolation, which fundamentally changes the mystery's dynamics. In a police station, authorities are present, evidence can be sent for testing, suspects can be separated and monitored. In a snowbound hotel, the guests must investigate themselves, evidence stays with them, suspects remain mixed together. The setting creates forced proximity and isolation that intensifies psychological pressure. The same murder plot has completely different complications depending on setting. The hotel setting creates a pressure cooker environment where characters can't escape each other or get outside help—this makes internal conflict and relationships central to the mystery. Setting isn't decoration; it's structural.
+  explanation: This tests understanding that setting shapes not just atmosphere but plot mechanics. Different settings create different constraints that fundamentally alter how a story unfolds. Authors choose settings that create the specific conditions their stories need.
 ```
 
 ## Explainer

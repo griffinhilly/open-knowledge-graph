@@ -28,39 +28,39 @@ The lyric essay privileges sensory immediacy, image, and emotional intensity ove
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What does 'privileging sensory immediacy' mean in lyric essays?"
+- question: What does 'privileging sensory immediacy' mean in lyric essays?
+  type: multiple-choice
   options:
-    - "Ignoring meaning for pure sensation."
-    - "Prioritizing reader's direct sensory and emotional experience over explaining or summarizing that experience."
-    - "Lyric essays are not intellectual."
-    - "Sensory experience is less important than ideas."
+  - Ignoring meaning for pure sensation.
+  - Prioritizing reader's direct sensory and emotional experience over explaining or summarizing that experience.
+  - Lyric essays are not intellectual.
+  - Sensory experience is less important than ideas.
   answer: 1
-  explanation: "Rather than explaining feeling or setting, the lyric essay makes readers feel and see through precise sensory language. You're not told 'I was sad'; you experience sadness through concrete sensory details that evoke it."
+  explanation: Rather than explaining feeling or setting, the lyric essay makes readers feel and see through precise sensory language. You're not told 'I was sad'; you experience sadness through concrete sensory details that evoke it.
 
-- type: multiple-choice
-  question: "How do poetic and modernist techniques like 'fragmentation' and 'white space' function in lyric essays?"
+- question: How do poetic and modernist techniques like 'fragmentation' and 'white space' function in lyric essays?
+  type: multiple-choice
   options:
-    - "They make the essay confusing."
-    - "They create meaning through form—disruptions in narrative mirror disruptions in consciousness; white space suggests silence, absence, or emotional weight."
-    - "Fragmentation is a failure of coherence."
-    - "White space is a mistake."
+  - They make the essay confusing.
+  - They create meaning through form—disruptions in narrative mirror disruptions in consciousness; white space suggests silence, absence, or emotional weight.
+  - Fragmentation is a failure of coherence.
+  - White space is a mistake.
   answer: 1
-  explanation: "In lyric essays, form enacts meaning. Fragmentation can mirror how consciousness actually works—jumping between moments, images, ideas. White space on the page can suggest silences, gaps, emotional intensity. These aren't flaws; they're meaning-making techniques."
+  explanation: In lyric essays, form enacts meaning. Fragmentation can mirror how consciousness actually works—jumping between moments, images, ideas. White space on the page can suggest silences, gaps, emotional intensity. These aren't flaws; they're meaning-making techniques.
 
-- type: true-false
-  statement: "True: Lyric essays often create meaning through juxtaposition—putting images or ideas next to each other without explicit explanation of their connection."
+- question: 'True: Lyric essays often create meaning through juxtaposition—putting images or ideas next to each other without explicit explanation of their connection.'
+  type: true-false
   answer: true
-  explanation: "This is core to lyric form. Rather than the writer explaining how two images relate, the reader discovers connection through their proximity. The juxtaposition itself generates meaning. This makes reading active and intimate."
+  explanation: This is core to lyric form. Rather than the writer explaining how two images relate, the reader discovers connection through their proximity. The juxtaposition itself generates meaning. This makes reading active and intimate.
 
-- type: true-false
-  statement: "False: Lyric essays combine multiple temporal planes, which means they're disorganized and lack coherence."
+- question: 'False: Lyric essays combine multiple temporal planes, which means they''re disorganized and lack coherence.'
+  type: true-false
   answer: false
-  explanation: "This is false. Combining multiple time periods isn't disorganization; it's a sophisticated technique for exploring how past and present interpenetrate. The form creates coherence through thematic resonance rather than linear sequence. This is intentional structure, not accident."
+  explanation: This is false. Combining multiple time periods isn't disorganization; it's a sophisticated technique for exploring how past and present interpenetrate. The form creates coherence through thematic resonance rather than linear sequence. This is intentional structure, not accident.
 
-- type: short-answer
-  question: "How might a lyric essay about a memory work? How would its form differ from a traditional narrative memoir about the same memory?"
-  explanation: "A traditional memoir would narrate: I was five years old, walking through my grandmother's garden. I saw a butterfly. I followed it and got lost. My grandmother found me and was angry. Now, thinking back, I understand that moment taught me about fear and care. A lyric essay might present the memory differently: fragments of sensory detail from the garden (colors, sounds, smells), interwoven with present reflection, broken into short paragraphs with white space between them. Images might jump—from childhood garden to adult understanding of loss. Rather than explaining the memory's significance, the form enacts it. The reader experiences disorientation and beauty and sadness through the fragmented form, not through explanation. Lyric form asks readers to feel and understand through experience, not through narrative explanation."
+- question: How might a lyric essay about a memory work? How would its form differ from a traditional narrative memoir about the same memory?
+  type: short-answer
+  explanation: 'A traditional memoir would narrate: I was five years old, walking through my grandmother''s garden. I saw a butterfly. I followed it and got lost. My grandmother found me and was angry. Now, thinking back, I understand that moment taught me about fear and care. A lyric essay might present the memory differently: fragments of sensory detail from the garden (colors, sounds, smells), interwoven with present reflection, broken into short paragraphs with white space between them. Images might jump—from childhood garden to adult understanding of loss. Rather than explaining the memory''s significance, the form enacts it. The reader experiences disorientation and beauty and sadness through the fragmented form, not through explanation. Lyric form asks readers to feel and understand through experience, not through narrative explanation.'
 ```
 
 ## Explainer

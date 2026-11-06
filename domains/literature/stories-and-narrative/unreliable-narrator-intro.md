@@ -30,35 +30,40 @@ Read a story with an obvious or subtle unreliable narrator (e.g., an unreliable 
 ## Questions
 
 ```yaml
-- question: "A narrator tells a story of how they were wronged: 'He was cruel to me. I never did anything to deserve it. I was always kind.' But the narrative shows the narrator actually being cold, dismissive, and controlling toward the person they're complaining about. Is the narrator reliable or unreliable?"
+- question: 'A narrator tells a story of how they were wronged: ''He was cruel to me. I never did anything to deserve it. I was always kind.'' But the narrative shows the narrator actually being cold, dismissive, and controlling toward the person they''re complaining about. Is the narrator reliable or unreliable?'
+  type: multiple-choice
   options:
-    - "The narrator is reliable"
-    - "The narrator is unreliable. They believe their own version—they genuinely think they were kind and wronged—but their actions contradict their self-assessment. This is subtle unreliability: the narrator isn't deliberately lying, they're misrepresenting themselves, possibly through denial or rationalization. Readers see the contradiction and understand the narrator's blindness"
-    - "The contradiction makes no sense"
-    - "Unreliable narrators always know they're lying"
+  - The narrator is reliable
+  - 'The narrator is unreliable. They believe their own version—they genuinely think they were kind and wronged—but their actions contradict their self-assessment. This is subtle unreliability: the narrator isn''t deliberately lying, they''re misrepresenting themselves, possibly through denial or rationalization. Readers see the contradiction and understand the narrator''s blindness'
+  - The contradiction makes no sense
+  - Unreliable narrators always know they're lying
   answer: 1
-  explanation: "Unreliable narrators can genuinely believe their account while being factually wrong. The discrepancy between how they perceive themselves and how they actually behave makes them unreliable. This is often the most interesting kind of unreliability because it mirrors human self-deception."
+  explanation: Unreliable narrators can genuinely believe their account while being factually wrong. The discrepancy between how they perceive themselves and how they actually behave makes them unreliable. This is often the most interesting kind of unreliability because it mirrors human self-deception.
 
-- question: "A narrator's account of events keeps changing slightly. In Chapter 1, they say they did something for one reason. In Chapter 5, they reveal they did it for a different reason. In Chapter 10, hints suggest a third possible motivation. What might this reveal?"
+- question: A narrator's account of events keeps changing slightly. In Chapter 1, they say they did something for one reason. In Chapter 5, they reveal they did it for a different reason. In Chapter 10, hints suggest a third possible motivation. What might this reveal?
+  type: multiple-choice
   options:
-    - "The author can't keep track"
-    - "This could show the narrator gradually revealing the truth as memory becomes clearer, or it could show the narrator constructing different justifications. The shifting account suggests the narrator either doesn't fully understand their own motives or is hiding something, even from themselves. This creates the sense that understanding their true motivation is what the story is exploring"
-    - "The account must be accurate"
-    - "All narrators tell consistent stories"
+  - The author can't keep track
+  - This could show the narrator gradually revealing the truth as memory becomes clearer, or it could show the narrator constructing different justifications. The shifting account suggests the narrator either doesn't fully understand their own motives or is hiding something, even from themselves. This creates the sense that understanding their true motivation is what the story is exploring
+  - The account must be accurate
+  - All narrators tell consistent stories
   answer: 1
-  explanation: "Inconsistency in a narrator's account often signals unreliability. It might be deliberate deception, unconscious self-deception, or genuine confusion about motives. Either way, it cues readers to question what's really true."
+  explanation: Inconsistency in a narrator's account often signals unreliability. It might be deliberate deception, unconscious self-deception, or genuine confusion about motives. Either way, it cues readers to question what's really true.
 
-- question: "True or False: An unreliable narrator always knows they're being deceptive."
+- question: 'True or False: An unreliable narrator always knows they''re being deceptive.'
+  type: true-false
   answer: false
-  explanation: "Many unreliable narrators are unconsciously misrepresenting reality through denial, trauma response, rationalization, or mental illness. They genuinely believe what they're saying. Conscious deception is only one form of unreliability."
+  explanation: Many unreliable narrators are unconsciously misrepresenting reality through denial, trauma response, rationalization, or mental illness. They genuinely believe what they're saying. Conscious deception is only one form of unreliability.
 
-- question: "True or False: Readers should be able to identify an unreliable narrator on a first read."
+- question: 'True or False: Readers should be able to identify an unreliable narrator on a first read.'
+  type: true-false
   answer: false
-  explanation: "Some unreliable narrators are obvious (confessing criminals, clearly delusional characters). Others are subtle and only become apparent on reflection or rereading. The best unreliable narration often grows clearer over time as contradictions accumulate."
+  explanation: Some unreliable narrators are obvious (confessing criminals, clearly delusional characters). Others are subtle and only become apparent on reflection or rereading. The best unreliable narration often grows clearer over time as contradictions accumulate.
 
-- question: "A narrator describes their parents as loving and supportive, yet casually mentions instances of neglect, criticism, and control. The narrator seems unaware these incidents are problematic. How does this unreliability work, and what does it reveal?"
-  answer: "The narrator is unreliable because they normalize abuse—they describe harmful behavior as normal or don't recognize it as harmful. This unreliability often results from trauma response or learned acceptance of mistreatment. The gap between what the narrator claims (loving parents) and what the evidence shows (harmful behavior) reveals the narrator's psychological state: they've internalized their parents' behavior and don't recognize it as wrong. Readers see what the narrator doesn't—the parents' harm. This creates complex emotional response: readers feel the narrator's pain while seeing clearly what the narrator can't see about themselves. Understanding this unreliability reveals how trauma and abuse affect perception and self-understanding."
-  explanation: "This tests understanding that unreliable narrators are often revealed through what they don't see or don't recognize. Their blindness to harm, injustice, or their own behavior reveals psychological truths about them. This makes unreliable narration a powerful tool for exploring trauma and psychology."
+- question: A narrator describes their parents as loving and supportive, yet casually mentions instances of neglect, criticism, and control. The narrator seems unaware these incidents are problematic. How does this unreliability work, and what does it reveal?
+  type: short-answer
+  answer: 'The narrator is unreliable because they normalize abuse—they describe harmful behavior as normal or don''t recognize it as harmful. This unreliability often results from trauma response or learned acceptance of mistreatment. The gap between what the narrator claims (loving parents) and what the evidence shows (harmful behavior) reveals the narrator''s psychological state: they''ve internalized their parents'' behavior and don''t recognize it as wrong. Readers see what the narrator doesn''t—the parents'' harm. This creates complex emotional response: readers feel the narrator''s pain while seeing clearly what the narrator can''t see about themselves. Understanding this unreliability reveals how trauma and abuse affect perception and self-understanding.'
+  explanation: This tests understanding that unreliable narrators are often revealed through what they don't see or don't recognize. Their blindness to harm, injustice, or their own behavior reveals psychological truths about them. This makes unreliable narration a powerful tool for exploring trauma and psychology.
 ```
 
 ## Explainer

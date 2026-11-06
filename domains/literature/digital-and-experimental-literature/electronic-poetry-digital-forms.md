@@ -28,46 +28,39 @@ Electronic poetry exploits digital media affordances—interactivity, animation,
 ## Questions
 
 ```yaml
-- correct_answer: 0
-  explanation: 'The distinction is not merely technical (print vs. screen) but conceptual. Electronic poetry exploits possibilities unavailable in print: text can animate over time, create interactive affordances,
-    integrate sound and visual design, operate algorithmically. These are not merely enhancements; they fundamentally change what poetry can be. Print poetry is spatially static; electronic poetry unfolds
-    temporally.'
+- question: What distinguishes electronic poetry from conventional print poetry at a fundamental level?
+  type: multiple-choice
   options:
-  - Electronic poetry exploits affordances unique to digital media—animation, interactivity, sound, code—that are impossible in print, reconceptualizing poetry as temporal and multimodal rather than spatially
-    static
+  - Electronic poetry exploits affordances unique to digital media—animation, interactivity, sound, code—that are impossible in print, reconceptualizing poetry as temporal and multimodal rather than spatially static
   - Electronic poetry uses the same techniques as print poetry but displays them on screens
   - Electronic poetry is simply poetry typed on computers
   - Electronic poetry replaces words with images
-  question: What distinguishes electronic poetry from conventional print poetry at a fundamental level?
+  answer: 0
+  explanation: 'The distinction is not merely technical (print vs. screen) but conceptual. Electronic poetry exploits possibilities unavailable in print: text can animate over time, create interactive affordances, integrate sound and visual design, operate algorithmically. These are not merely enhancements; they fundamentally change what poetry can be. Print poetry is spatially static; electronic poetry unfolds temporally.'
+
+- question: Why does electronic poetry 'reconceptualize poetry as multimodal'?
   type: multiple-choice
-- correct_answer: 0
-  explanation: Multimodal means operating through multiple sensory channels and modes of engagement. Print poetry engages readers primarily through language—visual language on a static page. Electronic
-    poetry can integrate language with animation (temporal visual form), sound (acoustic dimension), interactivity (reader agency), and visual design (color, typography). These modes interact; the poem's
-    meaning emerges from the interplay of language, sound, visual form, and interaction. This is fundamentally different from print poetry's linguistic focus.
   options:
-  - Electronic works can integrate text with sound, animation, visual design, and interactivity simultaneously, requiring readers to engage with poetry across multiple sensory and interactive modes rather
-    than purely through language
+  - Electronic works can integrate text with sound, animation, visual design, and interactivity simultaneously, requiring readers to engage with poetry across multiple sensory and interactive modes rather than purely through language
   - Electronic poetry uses multiple colors of ink
   - Electronic poetry is written by multiple authors
   - Electronic poetry uses multiple programming languages
-  question: Why does electronic poetry 'reconceptualize poetry as multimodal'?
-  type: multiple-choice
-- correct_answer: false
-  explanation: False. Electronic media affordances enable fundamentally new poetic possibilities. Animation, interactivity, sound integration, algorithmic generation—these are not available in print. Electronic
-    poetry is not merely print poetry displayed digitally; it exploits possibilities that only exist in digital media.
-  statement: Electronic poetry is simply a delivery mechanism for conventional print poetry; it doesn't change what poetry fundamentally is
+  answer: 0
+  explanation: Multimodal means operating through multiple sensory channels and modes of engagement. Print poetry engages readers primarily through language—visual language on a static page. Electronic poetry can integrate language with animation (temporal visual form), sound (acoustic dimension), interactivity (reader agency), and visual design (color, typography). These modes interact; the poem's meaning emerges from the interplay of language, sound, visual form, and interaction. This is fundamentally different from print poetry's linguistic focus.
+
+- question: Electronic poetry is simply a delivery mechanism for conventional print poetry; it doesn't change what poetry fundamentally is
   type: true-false
-- correct_answer: true
+  answer: false
+  explanation: False. Electronic media affordances enable fundamentally new poetic possibilities. Animation, interactivity, sound integration, algorithmic generation—these are not available in print. Electronic poetry is not merely print poetry displayed digitally; it exploits possibilities that only exist in digital media.
+
+- question: Electronic poetry challenges the assumption that poetry must be static, spatially arranged text by demonstrating that poetry can unfold temporally, integrate sound, and operate interactively
+  type: true-false
+  answer: true
   explanation: Correct. Electronic poetry breaks the assumption that poetry is static and purely linguistic by exploiting temporal, sonic, and interactive affordances.
-  statement: Electronic poetry challenges the assumption that poetry must be static, spatially arranged text by demonstrating that poetry can unfold temporally, integrate sound, and operate interactively
-  type: true-false
-- explanation: 'An affordance is a possibility or capacity that a medium enables. Print affords certain things: spatial arrangement, visual form, textual permanence. Digital media affords different things:
-    animation (text that moves over time), interactivity (reader input that shapes the work), computational logic (algorithms generating variation), sound integration, networked distribution. Electronic
-    poetry exploits these affordances—not treating them as accidental features, but as essential artistic dimensions. This is conceptually significant because it recognizes that different media enable different
-    artistic possibilities. Print poetry cannot animate text or integrate sound; electronic poetry can. Recognizing affordances means understanding that form and medium are not separate—that the medium
-    shapes what kinds of art are possible. Electronic poetry doesn''t try to make digital media behave like print; it discovers what digital media uniquely enables and exploits that.'
-  question: Explain what it means for electronic poetry to exploit 'affordances' of digital media. What does affordance mean in this context, and why is the concept significant?
+
+- question: Explain what it means for electronic poetry to exploit 'affordances' of digital media. What does affordance mean in this context, and why is the concept significant?
   type: short-answer
+  explanation: 'An affordance is a possibility or capacity that a medium enables. Print affords certain things: spatial arrangement, visual form, textual permanence. Digital media affords different things: animation (text that moves over time), interactivity (reader input that shapes the work), computational logic (algorithms generating variation), sound integration, networked distribution. Electronic poetry exploits these affordances—not treating them as accidental features, but as essential artistic dimensions. This is conceptually significant because it recognizes that different media enable different artistic possibilities. Print poetry cannot animate text or integrate sound; electronic poetry can. Recognizing affordances means understanding that form and medium are not separate—that the medium shapes what kinds of art are possible. Electronic poetry doesn''t try to make digital media behave like print; it discovers what digital media uniquely enables and exploits that.'
 ```
 
 ## Explainer

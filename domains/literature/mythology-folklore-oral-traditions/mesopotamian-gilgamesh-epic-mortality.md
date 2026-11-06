@@ -34,40 +34,39 @@ Gilgamesh succeeds by finding immortality. (The epic's resolution involves accep
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What transforms Gilgamesh's motivation from tyrannical kingship to the quest for immortality?"
-    options:
-      - "A warning from the gods that he will lose his kingdom"
-      - "The death of his friend and companion Enkidu, which confronts him with mortality"
-      - "A prophecy that reveals his shameful deeds as king"
-      - "Desire to become a warrior and conquer neighboring lands"
-    correct: "B"
-    explanation: "Gilgamesh's friendship with Enkidu is the emotional and narrative pivot of the epic. When Enkidu dies, Gilgamesh is seized by grief and the realization of human mortality. This personal loss drives him to seek the plant of immortality, transforming his quest from personal glory to metaphysical denial of death itself."
+- question: What transforms Gilgamesh's motivation from tyrannical kingship to the quest for immortality?
+  type: multiple-choice
+  options:
+  - A warning from the gods that he will lose his kingdom
+  - The death of his friend and companion Enkidu, which confronts him with mortality
+  - A prophecy that reveals his shameful deeds as king
+  - Desire to become a warrior and conquer neighboring lands
+  answer: 1
+  explanation: Gilgamesh's friendship with Enkidu is the emotional and narrative pivot of the epic. When Enkidu dies, Gilgamesh is seized by grief and the realization of human mortality. This personal loss drives him to seek the plant of immortality, transforming his quest from personal glory to metaphysical denial of death itself.
 
-  - type: multiple-choice
-    question: "What does Gilgamesh's loss of the plant of eternal life represent philosophically in the epic's resolution?"
-    options:
-      - "A punishment for his arrogance and hybris"
-      - "Evidence that the gods have abandoned him"
-      - "An inevitable teaching that mortality cannot be escaped and must be accepted"
-      - "A temporary setback before he finds another path to immortality"
-    correct: "C"
-    explanation: "The plant's loss is structural to the epic's meaning. Gilgamesh reaches the plant but fails to keep it (a serpent eats it, or he forgets it while bathing—versions vary). This is not arbitrary misfortune but the narrative mechanism by which the epic teaches acceptance. The loss completes his journey from denial of mortality to wisdom about the human condition."
+- question: What does Gilgamesh's loss of the plant of eternal life represent philosophically in the epic's resolution?
+  type: multiple-choice
+  options:
+  - A punishment for his arrogance and hybris
+  - Evidence that the gods have abandoned him
+  - An inevitable teaching that mortality cannot be escaped and must be accepted
+  - A temporary setback before he finds another path to immortality
+  answer: 2
+  explanation: The plant's loss is structural to the epic's meaning. Gilgamesh reaches the plant but fails to keep it (a serpent eats it, or he forgets it while bathing—versions vary). This is not arbitrary misfortune but the narrative mechanism by which the epic teaches acceptance. The loss completes his journey from denial of mortality to wisdom about the human condition.
 
-  - type: true-false
-    question: "The Epic of Gilgamesh is primarily a historical record of a Sumerian king's actual military conquests and achievements."
-    correct: false
-    explanation: "While Gilgamesh may have been based on a historical Sumerian ruler, the epic is fundamentally theological and philosophical, not historical chronicle. The narrative is shaped by Mesopotamian religious concepts and existential questions about mortality, not by historical documentation of actual events."
+- question: The Epic of Gilgamesh is primarily a historical record of a Sumerian king's actual military conquests and achievements.
+  type: true-false
+  answer: false
+  explanation: While Gilgamesh may have been based on a historical Sumerian ruler, the epic is fundamentally theological and philosophical, not historical chronicle. The narrative is shaped by Mesopotamian religious concepts and existential questions about mortality, not by historical documentation of actual events.
 
-  - type: true-false
-    question: "Mesopotamian afterlife beliefs in the Gilgamesh epic emphasize a joyful reunion with departed loved ones in a heavenly realm."
-    correct: false
-    explanation: "Mesopotamian underworld belief, as reflected in Gilgamesh, depicts the afterlife as a shadowy, diminished existence—not rewarding or joyful. This view of the afterlife intensifies the epic's meditation on mortality: death is not a transition to a better place but an unavoidable diminishment."
+- question: Mesopotamian afterlife beliefs in the Gilgamesh epic emphasize a joyful reunion with departed loved ones in a heavenly realm.
+  type: true-false
+  answer: false
+  explanation: 'Mesopotamian underworld belief, as reflected in Gilgamesh, depicts the afterlife as a shadowy, diminished existence—not rewarding or joyful. This view of the afterlife intensifies the epic''s meditation on mortality: death is not a transition to a better place but an unavoidable diminishment.'
 
-  - type: short-answer
-    question: "Explain how the theme of friendship in Gilgamesh's relationship with Enkidu serves the epic's larger exploration of mortality and acceptance."
-    explanation: "Enkidu serves as Gilgamesh's other self—his equal, his complement, his mirror. Their friendship transforms Gilgamesh from a solitary, tyrannical king into someone capable of love and vulnerability. When Enkidu dies, Gilgamesh's grief is not merely personal—it is existential. Enkidu's death teaches Gilgamesh that even bonds of intimate friendship cannot protect against mortality. The epic uses this particular loss (not abstract philosophical reflection) to motivate Gilgamesh's desperate quest. By the epic's end, when Gilgamesh accepts mortality, he does so with the memory of Enkidu embedded in that acceptance. He cannot have Enkidu back, but he can honor him by accepting the human condition they share. The friendship is thus the mechanism by which the epic moves from denial to wisdom."
+- question: Explain how the theme of friendship in Gilgamesh's relationship with Enkidu serves the epic's larger exploration of mortality and acceptance.
+  type: short-answer
+  explanation: Enkidu serves as Gilgamesh's other self—his equal, his complement, his mirror. Their friendship transforms Gilgamesh from a solitary, tyrannical king into someone capable of love and vulnerability. When Enkidu dies, Gilgamesh's grief is not merely personal—it is existential. Enkidu's death teaches Gilgamesh that even bonds of intimate friendship cannot protect against mortality. The epic uses this particular loss (not abstract philosophical reflection) to motivate Gilgamesh's desperate quest. By the epic's end, when Gilgamesh accepts mortality, he does so with the memory of Enkidu embedded in that acceptance. He cannot have Enkidu back, but he can honor him by accepting the human condition they share. The friendship is thus the mechanism by which the epic moves from denial to wisdom.
 ```
 
 ## Explainer

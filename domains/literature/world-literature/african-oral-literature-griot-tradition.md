@@ -32,39 +32,39 @@ Oral literature is not 'less sophisticated' than written literature—griots pos
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "Griots serve multiple social functions in West African communities. Which of the following best describes their primary role?"
+- question: Griots serve multiple social functions in West African communities. Which of the following best describes their primary role?
+  type: multiple-choice
   options:
-    - "They were entertainment performers with no formal authority or responsibility"
-    - "Genealogists, historians, and custodians of cultural memory who served as living archives and mediators of social authority"
-    - "They replaced the need for written records entirely and made literacy impossible"
-    - "They were subordinate to European colonial administrators and had little cultural influence"
+  - They were entertainment performers with no formal authority or responsibility
+  - Genealogists, historians, and custodians of cultural memory who served as living archives and mediators of social authority
+  - They replaced the need for written records entirely and made literacy impossible
+  - They were subordinate to European colonial administrators and had little cultural influence
   answer: 1
-  explanation: "Griots held formalized, authoritative positions in West African societies. They memorized genealogies that established lineage, inheritance rights, and social status. They performed histories that legitimized rulers and resolved disputes. They served as advisors and witnesses to important events. Their role required formal training and was essential to social cohesion. Understanding the griot as 'custodian of cultural memory' rather than 'mere entertainer' is crucial to recognizing African oral literature as a sophisticated system, not as entertainment or preliminary stage to 'real' (written) literature."
+  explanation: Griots held formalized, authoritative positions in West African societies. They memorized genealogies that established lineage, inheritance rights, and social status. They performed histories that legitimized rulers and resolved disputes. They served as advisors and witnesses to important events. Their role required formal training and was essential to social cohesion. Understanding the griot as 'custodian of cultural memory' rather than 'mere entertainer' is crucial to recognizing African oral literature as a sophisticated system, not as entertainment or preliminary stage to 'real' (written) literature.
 
-- type: multiple-choice
-  question: "How do African oral literary traditions reconcile memorization with improvisation?"
+- question: How do African oral literary traditions reconcile memorization with improvisation?
+  type: multiple-choice
   options:
-    - "Improvisation and memorization are opposed—oral literature is either strictly memorized or entirely improvised"
-    - "Oral traditions use formulaic structures and recurrent patterns that allow improvisational variation while maintaining narrative coherence"
-    - "Griots memorized every single word identically and never varied their performance under any circumstances"
-    - "Only modern oral traditions use improvisation; ancient African oral literature was always identical"
+  - Improvisation and memorization are opposed—oral literature is either strictly memorized or entirely improvised
+  - Oral traditions use formulaic structures and recurrent patterns that allow improvisational variation while maintaining narrative coherence
+  - Griots memorized every single word identically and never varied their performance under any circumstances
+  - Only modern oral traditions use improvisation; ancient African oral literature was always identical
   answer: 1
-  explanation: "The sophistication of African oral literary systems lies in their recursive structure. Griots work within formulas—stock phrases, narrative sequences, thematic patterns—that they have memorized. But within these structures, they improvise, adapting performances to specific audiences, occasions, and occasions. This is comparable to jazz musicians working within chord changes, or oral-formulaic traditions throughout human cultures. The variation is not random but operates within constraints. Understanding this tension between memorization and improvisation reveals the complexity of oral literature as a literary system, not a primitive precursor to writing."
+  explanation: The sophistication of African oral literary systems lies in their recursive structure. Griots work within formulas—stock phrases, narrative sequences, thematic patterns—that they have memorized. But within these structures, they improvise, adapting performances to specific audiences, occasions, and occasions. This is comparable to jazz musicians working within chord changes, or oral-formulaic traditions throughout human cultures. The variation is not random but operates within constraints. Understanding this tension between memorization and improvisation reveals the complexity of oral literature as a literary system, not a primitive precursor to writing.
 
-- type: true-false
-  statement: "The griot tradition demonstrates that sophisticated literary and historical systems can exist and flourish without written text."
+- question: The griot tradition demonstrates that sophisticated literary and historical systems can exist and flourish without written text.
+  type: true-false
   answer: true
-  explanation: "This statement directly challenges the assumption that literacy and written language are prerequisites for literary or historical sophistication. Griots maintained genealogies, histories, and cultural narratives with remarkable accuracy and complexity for centuries without writing. They developed specialized vocabularies, performance techniques, and mnemonic systems that rival written documentation in their functionality. Accepting this statement requires revising the assumption that 'oral' is inherently less developed or less 'literary' than 'written.'"
+  explanation: This statement directly challenges the assumption that literacy and written language are prerequisites for literary or historical sophistication. Griots maintained genealogies, histories, and cultural narratives with remarkable accuracy and complexity for centuries without writing. They developed specialized vocabularies, performance techniques, and mnemonic systems that rival written documentation in their functionality. Accepting this statement requires revising the assumption that 'oral' is inherently less developed or less 'literary' than 'written.'
 
-- type: true-false
-  statement: "Because griots rely on memory rather than written texts, their narratives are unstable, unreliable, and subject to constant distortion across generations."
+- question: Because griots rely on memory rather than written texts, their narratives are unstable, unreliable, and subject to constant distortion across generations.
+  type: true-false
   answer: false
-  explanation: "While griots' narratives do vary in performance, they are not arbitrary or unstable. Oral traditions use formulaic language, repetition, and mnemonic devices that maintain consistency across time. Historical research on oral narratives in West Africa and other cultures shows that they preserve core information with remarkable accuracy—genealogies, major events, causal relationships—even as surface details vary. The mechanisms of oral transmission (repeated performance, formal training, social oversight) provide stability comparable to, though different from, written records. Equating memorization with unreliability is a misconception that devalues non-literate knowledge systems."
+  explanation: While griots' narratives do vary in performance, they are not arbitrary or unstable. Oral traditions use formulaic language, repetition, and mnemonic devices that maintain consistency across time. Historical research on oral narratives in West Africa and other cultures shows that they preserve core information with remarkable accuracy—genealogies, major events, causal relationships—even as surface details vary. The mechanisms of oral transmission (repeated performance, formal training, social oversight) provide stability comparable to, though different from, written records. Equating memorization with unreliability is a misconception that devalues non-literate knowledge systems.
 
-- type: short-answer
-  question: "How does understanding the griot tradition change the way we define 'literature'? What does it suggest about the relationship between literature and writing?"
-  explanation: "The griot tradition challenges the assumption that literature requires writing. Griots create and perform sophisticated narratives within formal constraints—formulaic language, structural patterns, aesthetic conventions. They compose new performances within traditional frameworks. They command specialized knowledge and technique. If we expand the definition of literature to include oral traditions, we recognize that literature is fundamentally about structured language use for cultural transmission and aesthetic effect, not about the medium of writing. This has major implications: it means literature is not a European invention; it means many cultures developed literary systems independently; it means that 'pre-literate' does not mean 'non-literary.' Understanding griots as literary practitioners (rather than story-tellers or entertainers) reorganizes how we map the history of human literature globally."
+- question: How does understanding the griot tradition change the way we define 'literature'? What does it suggest about the relationship between literature and writing?
+  type: short-answer
+  explanation: 'The griot tradition challenges the assumption that literature requires writing. Griots create and perform sophisticated narratives within formal constraints—formulaic language, structural patterns, aesthetic conventions. They compose new performances within traditional frameworks. They command specialized knowledge and technique. If we expand the definition of literature to include oral traditions, we recognize that literature is fundamentally about structured language use for cultural transmission and aesthetic effect, not about the medium of writing. This has major implications: it means literature is not a European invention; it means many cultures developed literary systems independently; it means that ''pre-literate'' does not mean ''non-literary.'' Understanding griots as literary practitioners (rather than story-tellers or entertainers) reorganizes how we map the history of human literature globally.'
 ```
 
 ## Explainer

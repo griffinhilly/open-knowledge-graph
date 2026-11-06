@@ -36,36 +36,39 @@ Alternate history is not alternate fantasy; the divergence should be plausible g
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What distinguishes the divergence point in alternate history from arbitrary magical changes?"
-    options:
-      - "Magical changes always produce larger consequences than historical divergences"
-      - "The divergence point must be plausible and grounded in actual historical forces and possibilities"
-      - "Alternate history divergence points must occur before the year 1800"
-      - "The divergence point determines whether the story is told from a modern or historical perspective"
-    correct_answer: 1
-    explanation: "The core idea emphasizes that 'the divergence point must be plausible, and subsequent history should follow logically from the change.' This distinguishes alternate history from fantasy—the divergence must arise from believable historical circumstances, not authorial whimsy."
-  - type: multiple-choice
-    question: "How does alternate history treat the relationship between small changes and historical outcomes?"
-    options:
-      - "Small changes have negligible effects on history and are usually ignored"
-      - "Small changes can only matter if they involve military conflicts"
-      - "History is treated as a complex system where small changes produce large consequences"
-      - "Changes only matter if they involve famous historical figures"
-    correct_answer: 2
-    explanation: "The core idea states that alternate history treats 'history as a complex system where small changes produce large consequences,' reflecting the concept that small divergences can cascade into vastly different historical timelines."
-  - type: true-false
-    question: "Alternate history requires rigorous historical knowledge about both the original timeline and the speculative one to maintain credibility."
-    correct_answer: true
-    explanation: "The core idea directly states that 'alternate history requires rigorous historical knowledge to make both the original and the speculative timeline credible.' Without understanding real history, the speculative divergence lacks plausibility."
-  - type: true-false
-    question: "Alternate history can disregard historical logic in the speculative timeline as long as the divergence point itself is plausible."
-    correct_answer: false
-    explanation: "The misconceptions section explicitly states that 'the speculative timeline should follow historical logic, not author convenience.' The entire timeline must be internally consistent with historical principles."
-  - type: short-answer
-    question: "Why is understanding historical complexity essential to writing effective alternate history, rather than just picking an event to change?"
-    explanation: "Good answers should discuss how understanding underlying historical forces, economic systems, social pressures, and political dynamics allows an author to logically extrapolate consequences from a divergence point. Without this knowledge, the speculative timeline becomes implausible. Effective alternate history shows how changing one event ripples through interconnected systems."
+- question: What distinguishes the divergence point in alternate history from arbitrary magical changes?
+  type: multiple-choice
+  options:
+  - Magical changes always produce larger consequences than historical divergences
+  - The divergence point must be plausible and grounded in actual historical forces and possibilities
+  - Alternate history divergence points must occur before the year 1800
+  - The divergence point determines whether the story is told from a modern or historical perspective
+  answer: 1
+  explanation: The core idea emphasizes that 'the divergence point must be plausible, and subsequent history should follow logically from the change.' This distinguishes alternate history from fantasy—the divergence must arise from believable historical circumstances, not authorial whimsy.
+
+- question: How does alternate history treat the relationship between small changes and historical outcomes?
+  type: multiple-choice
+  options:
+  - Small changes have negligible effects on history and are usually ignored
+  - Small changes can only matter if they involve military conflicts
+  - History is treated as a complex system where small changes produce large consequences
+  - Changes only matter if they involve famous historical figures
+  answer: 2
+  explanation: The core idea states that alternate history treats 'history as a complex system where small changes produce large consequences,' reflecting the concept that small divergences can cascade into vastly different historical timelines.
+
+- question: Alternate history requires rigorous historical knowledge about both the original timeline and the speculative one to maintain credibility.
+  type: true-false
+  answer: true
+  explanation: The core idea directly states that 'alternate history requires rigorous historical knowledge to make both the original and the speculative timeline credible.' Without understanding real history, the speculative divergence lacks plausibility.
+
+- question: Alternate history can disregard historical logic in the speculative timeline as long as the divergence point itself is plausible.
+  type: true-false
+  answer: false
+  explanation: The misconceptions section explicitly states that 'the speculative timeline should follow historical logic, not author convenience.' The entire timeline must be internally consistent with historical principles.
+
+- question: Why is understanding historical complexity essential to writing effective alternate history, rather than just picking an event to change?
+  type: short-answer
+  explanation: Good answers should discuss how understanding underlying historical forces, economic systems, social pressures, and political dynamics allows an author to logically extrapolate consequences from a divergence point. Without this knowledge, the speculative timeline becomes implausible. Effective alternate history shows how changing one event ripples through interconnected systems.
 ```
 
 ## Explainer

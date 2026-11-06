@@ -26,35 +26,39 @@ Picture books tell stories through carefully integrated sequences of images and 
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "How does the page turn function as a narrative technique in picture books?"
-    options:
-      - "Page turns are merely visual breaks with no narrative significance"
-      - "Each page turn creates anticipation and allows emotional beats to develop with visual pacing, making the transition between pages carry narrative weight"
-      - "Picture books should avoid page turns entirely"
-      - "The physical act of turning pages prevents narrative development"
-    answer: 1
-    explanation: "Picture book narratives use page turns deliberately—the pause, reveal, and new image create rhythm, suspense, and emotional pacing."
-  - question: "Why do picture book narratives emphasize visual clarity and emotional truth rather than plot complexity?"
-    options:
-      - "Young children cannot understand emotions"
-      - "Picture books are less sophisticated than other children's literature"
-      - "Visual clarity and emotional authenticity allow young children to understand and engage with stories, while complex plots with many events would overwhelm developing comprehension"
-      - "Emotional content is irrelevant to picture books"
-    answer: 2
-    explanation: "Picture books match form to audience: simpler plots and clear visual storytelling allow young children to follow and understand, while genuine emotion creates meaningful engagement."
+- question: How does the page turn function as a narrative technique in picture books?
+  type: multiple-choice
+  options:
+  - Page turns are merely visual breaks with no narrative significance
+  - Each page turn creates anticipation and allows emotional beats to develop with visual pacing, making the transition between pages carry narrative weight
+  - Picture books should avoid page turns entirely
+  - The physical act of turning pages prevents narrative development
+  answer: 1
+  explanation: Picture book narratives use page turns deliberately—the pause, reveal, and new image create rhythm, suspense, and emotional pacing.
 
-true-false:
-  - question: "True or False: In picture books, the illustrations are secondary to the text and serve mainly as decoration."
-    answer: false
-    explanation: "This is false. In picture books, illustrations are primary narrative vehicles; the story is told through integrated text and image."
-  - question: "True or False: Picture book narratives can contain sophisticated character development and emotional complexity despite their brevity."
-    answer: true
-    explanation: "This is true. Exceptional picture books develop complex emotions and character growth through efficient visual and textual storytelling."
+- question: Why do picture book narratives emphasize visual clarity and emotional truth rather than plot complexity?
+  type: multiple-choice
+  options:
+  - Young children cannot understand emotions
+  - Picture books are less sophisticated than other children's literature
+  - Visual clarity and emotional authenticity allow young children to understand and engage with stories, while complex plots with many events would overwhelm developing comprehension
+  - Emotional content is irrelevant to picture books
+  answer: 2
+  explanation: 'Picture books match form to audience: simpler plots and clear visual storytelling allow young children to follow and understand, while genuine emotion creates meaningful engagement.'
 
-short-answer:
-  - question: "How do picture book authors and illustrators coordinate text and image to create narrative meaning, and why is this coordination essential?"
-    explanation: "Picture books function as collaborative works between author (text) and illustrator (image), where narrative meaning emerges from coordination between these channels. Text might describe what a character says while images reveal the character's emotional state through facial expression or body language—both saying something true but different. Images might show time passing while text remains brief, allowing visual narrative to carry temporal development. The illustrations' pacing and composition guide readers' emotional responses—a close-up suggests intimacy, a wide view suggests freedom or isolation, color shifts can mark emotional change. This coordination is essential because each medium has distinctive powers: text can convey internal thought and dialogue, images can convey emotion and action through visual language. Effective picture books leverage both simultaneously. Furthermore, young children reading pictures before they decode text fluently depend on visual narrative to understand stories—the images must be clear, emotionally expressive, and narratively coherent so that preliterate or beginning readers can comprehend stories through visual literacy before verbal literacy is fully developed. The coordination of text and image makes picture books accessible across literacy stages while creating sophisticated narratives."
+- question: 'True or False: In picture books, the illustrations are secondary to the text and serve mainly as decoration.'
+  type: true-false
+  answer: false
+  explanation: This is false. In picture books, illustrations are primary narrative vehicles; the story is told through integrated text and image.
+
+- question: 'True or False: Picture book narratives can contain sophisticated character development and emotional complexity despite their brevity.'
+  type: true-false
+  answer: true
+  explanation: This is true. Exceptional picture books develop complex emotions and character growth through efficient visual and textual storytelling.
+
+- question: How do picture book authors and illustrators coordinate text and image to create narrative meaning, and why is this coordination essential?
+  type: short-answer
+  explanation: 'Picture books function as collaborative works between author (text) and illustrator (image), where narrative meaning emerges from coordination between these channels. Text might describe what a character says while images reveal the character''s emotional state through facial expression or body language—both saying something true but different. Images might show time passing while text remains brief, allowing visual narrative to carry temporal development. The illustrations'' pacing and composition guide readers'' emotional responses—a close-up suggests intimacy, a wide view suggests freedom or isolation, color shifts can mark emotional change. This coordination is essential because each medium has distinctive powers: text can convey internal thought and dialogue, images can convey emotion and action through visual language. Effective picture books leverage both simultaneously. Furthermore, young children reading pictures before they decode text fluently depend on visual narrative to understand stories—the images must be clear, emotionally expressive, and narratively coherent so that preliterate or beginning readers can comprehend stories through visual literacy before verbal literacy is fully developed. The coordination of text and image makes picture books accessible across literacy stages while creating sophisticated narratives.'
 ```
 
 ## Explainer

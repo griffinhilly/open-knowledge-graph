@@ -23,36 +23,39 @@ Agatha Christie pioneered the puzzle-plot mystery where readers have access to t
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What does 'fair play' mean in the context of Christie's puzzle-plot mysteries?"
-    options:
-      - "The detective always catches the criminal in the end"
-      - "Readers have access to the same clues as the detective and theoretically could solve the case themselves"
-      - "The author never uses violence or dark content"
-      - "All characters in the mystery are likeable and sympathetic"
-    correct_answer: 1
-    explanation: "The core idea states that Christie 'pioneered the puzzle-plot mystery where readers have access to the same clues as the detective and theoretically could solve the case,' defining fair play as reader access to the necessary information."
-  - type: multiple-choice
-    question: "Which of these techniques is NOT mentioned as central to Christie's mystery construction?"
-    options:
-      - "Misdirection"
-      - "Psychological insight"
-      - "Selective information management"
-      - "Surprise supernatural revelations"
-    correct_answer: 3
-    explanation: "The core idea identifies psychological insight, misdirection, and selective information management as key techniques. Supernatural elements are not mentioned, and would actually violate fair-play conventions that ground solutions in psychology and logic."
-  - type: true-false
-    question: "In a Christie puzzle-plot mystery, readers theoretically could solve the case before the detective does because they have all the clues."
-    correct_answer: true
-    explanation: "The core idea explicitly states that 'readers have access to the same clues as the detective and theoretically could solve the case,' making this a fundamental feature of fair-play mystery convention."
-  - type: true-false
-    question: "Christie's emphasis on selective information management means she deliberately hides clues from readers to prevent them from solving the mystery."
-    correct_answer: false
-    explanation: "Selective information management doesn't mean hiding clues; it means controlling the order, emphasis, and interpretation of available information to manipulate reader assumptions and misdirection. The clues are present, but their significance is obscured through psychology and structure."
-  - type: short-answer
-    question: "How can misdirection work while still maintaining fair play—giving readers all necessary clues?"
-    explanation: "Good answers should explain that misdirection operates through psychology and interpretation, not through information hiding. The clue is present, but readers (and the detective) interpret it incorrectly based on assumptions, psychology, or false leads. For example, a character's alibi might be truthful (fair play) but misinterpreted as providing an alibi for a different crime than the one they committed."
+- question: What does 'fair play' mean in the context of Christie's puzzle-plot mysteries?
+  type: multiple-choice
+  options:
+  - The detective always catches the criminal in the end
+  - Readers have access to the same clues as the detective and theoretically could solve the case themselves
+  - The author never uses violence or dark content
+  - All characters in the mystery are likeable and sympathetic
+  answer: 1
+  explanation: The core idea states that Christie 'pioneered the puzzle-plot mystery where readers have access to the same clues as the detective and theoretically could solve the case,' defining fair play as reader access to the necessary information.
+
+- question: Which of these techniques is NOT mentioned as central to Christie's mystery construction?
+  type: multiple-choice
+  options:
+  - Misdirection
+  - Psychological insight
+  - Selective information management
+  - Surprise supernatural revelations
+  answer: 3
+  explanation: The core idea identifies psychological insight, misdirection, and selective information management as key techniques. Supernatural elements are not mentioned, and would actually violate fair-play conventions that ground solutions in psychology and logic.
+
+- question: In a Christie puzzle-plot mystery, readers theoretically could solve the case before the detective does because they have all the clues.
+  type: true-false
+  answer: true
+  explanation: The core idea explicitly states that 'readers have access to the same clues as the detective and theoretically could solve the case,' making this a fundamental feature of fair-play mystery convention.
+
+- question: Christie's emphasis on selective information management means she deliberately hides clues from readers to prevent them from solving the mystery.
+  type: true-false
+  answer: false
+  explanation: Selective information management doesn't mean hiding clues; it means controlling the order, emphasis, and interpretation of available information to manipulate reader assumptions and misdirection. The clues are present, but their significance is obscured through psychology and structure.
+
+- question: How can misdirection work while still maintaining fair play—giving readers all necessary clues?
+  type: short-answer
+  explanation: Good answers should explain that misdirection operates through psychology and interpretation, not through information hiding. The clue is present, but readers (and the detective) interpret it incorrectly based on assumptions, psychology, or false leads. For example, a character's alibi might be truthful (fair play) but misinterpreted as providing an alibi for a different crime than the one they committed.
 ```
 
 ## Explainer

@@ -32,35 +32,40 @@ Identify a round character (complex motivations, inner conflicts, depth) and a f
 ## Questions
 
 ```yaml
-- question: "In a story, the main character (a lawyer fighting for justice) is round: they have doubts about their career, struggle with the ethical gray areas of their work, fear that their personal ambitions are selfish, and grapple with whether justice is even possible. A secondary character (the lawyer's supportive spouse) is flat: they are consistently loving, supportive, and wise, with no internal conflict or character arc. Is using a flat character for the spouse problematic?"
+- question: 'In a story, the main character (a lawyer fighting for justice) is round: they have doubts about their career, struggle with the ethical gray areas of their work, fear that their personal ambitions are selfish, and grapple with whether justice is even possible. A secondary character (the lawyer''s supportive spouse) is flat: they are consistently loving, supportive, and wise, with no internal conflict or character arc. Is using a flat character for the spouse problematic?'
+  type: multiple-choice
   options:
-    - "Yes, all characters should be round and complex"
-    - "No, flat characters are appropriate for supporting roles. The spouse's consistency and unwavering support actually serve the story—they provide stability against the protagonist's doubt. Not every character needs complexity; the story's focus and length determine which characters deserve round development"
-    - "Flat characters are always bad"
-    - "Only the protagonist can be round"
+  - Yes, all characters should be round and complex
+  - No, flat characters are appropriate for supporting roles. The spouse's consistency and unwavering support actually serve the story—they provide stability against the protagonist's doubt. Not every character needs complexity; the story's focus and length determine which characters deserve round development
+  - Flat characters are always bad
+  - Only the protagonist can be round
   answer: 1
-  explanation: "Flat characters are an efficient, valid choice. Using them for secondary roles allows the author to focus development on main characters. A flat supporting character isn't a failure—it's a strategic choice. Round characters require significant narrative space; flat characters allow that space for characters where complexity matters more."
+  explanation: Flat characters are an efficient, valid choice. Using them for secondary roles allows the author to focus development on main characters. A flat supporting character isn't a failure—it's a strategic choice. Round characters require significant narrative space; flat characters allow that space for characters where complexity matters more.
 
-- question: "A comic relief character in an adventure story always makes jokes, provides lighthearted moments, and never shows vulnerability, doubt, or growth. By the story's end, readers still don't understand their deeper motivations or fears. Is this good character design?"
+- question: A comic relief character in an adventure story always makes jokes, provides lighthearted moments, and never shows vulnerability, doubt, or growth. By the story's end, readers still don't understand their deeper motivations or fears. Is this good character design?
+  type: multiple-choice
   options:
-    - "No, this character should have had a full arc with emotional depth"
-    - "Yes, for a comic relief role in a fast-paced adventure story. A flat character serves a specific function: entertainment and tonal contrast. Developing them fully would slow the story and shift focus. Flatness is appropriate to their role"
-    - "All characters must have equal development"
-    - "Flat characters can't be funny"
+  - No, this character should have had a full arc with emotional depth
+  - 'Yes, for a comic relief role in a fast-paced adventure story. A flat character serves a specific function: entertainment and tonal contrast. Developing them fully would slow the story and shift focus. Flatness is appropriate to their role'
+  - All characters must have equal development
+  - Flat characters can't be funny
   answer: 1
-  explanation: "Flat characters are fit-for-purpose. A comic relief character who suddenly becomes complex might lose their effectiveness. Stories have limited space; authors choose where to invest in round character development. Flat characters allow this focus by handling other roles efficiently."
+  explanation: Flat characters are fit-for-purpose. A comic relief character who suddenly becomes complex might lose their effectiveness. Stories have limited space; authors choose where to invest in round character development. Flat characters allow this focus by handling other roles efficiently.
 
-- question: "True or False: A flat character cannot be a protagonist."
+- question: 'True or False: A flat character cannot be a protagonist.'
+  type: true-false
   answer: false
-  explanation: "A flat character can be a protagonist, especially in certain genres. Some stories feature a simple, unchanging hero who faces external challenges without internal transformation. Fairy tale heroes are sometimes flat. Modern literary fiction usually prefers round protagonists, but it's not a requirement."
+  explanation: A flat character can be a protagonist, especially in certain genres. Some stories feature a simple, unchanging hero who faces external challenges without internal transformation. Fairy tale heroes are sometimes flat. Modern literary fiction usually prefers round protagonists, but it's not a requirement.
 
-- question: "True or False: A round character is always superior storytelling to a flat character."
+- question: 'True or False: A round character is always superior storytelling to a flat character.'
+  type: true-false
   answer: false
-  explanation: "Neither is superior—they serve different purposes. Round characters create psychological depth and emotional complexity. Flat characters create efficiency, quick understanding, and specific tonal effects. The best stories often use both, deploying each type strategically."
+  explanation: Neither is superior—they serve different purposes. Round characters create psychological depth and emotional complexity. Flat characters create efficiency, quick understanding, and specific tonal effects. The best stories often use both, deploying each type strategically.
 
-- question: "A character begins as flat: the loyal friend who is always present, supportive, and one-dimensional. Midway through the story, readers discover the character harbors jealousy and resentment toward the protagonist that's been hidden beneath the loyalty. By the end, they understand the friend's complexity and conflicting motivations. Did the author add depth that wasn't there before, or reveal depth that existed?"
-  answer: "The author revealed depth that existed. The character wasn't suddenly given complexity—they always had it, but it was hidden. The flatness was what the protagonist perceived or what the character projected, not the character's complete reality. This technique transforms a flat character into a round character by revealing hidden dimensions. It's often more powerful than gradual character development because it shocks readers into reassessment and makes them question what they thought they knew."
-  explanation: "This tests understanding that flatness and roundness relate to narrative revelation, not to whether depth exists. A character can appear flat to the reader until their complexity is revealed. This technique creates surprise and complexity while maintaining the flatness served earlier in the story."
+- question: 'A character begins as flat: the loyal friend who is always present, supportive, and one-dimensional. Midway through the story, readers discover the character harbors jealousy and resentment toward the protagonist that''s been hidden beneath the loyalty. By the end, they understand the friend''s complexity and conflicting motivations. Did the author add depth that wasn''t there before, or reveal depth that existed?'
+  type: short-answer
+  answer: The author revealed depth that existed. The character wasn't suddenly given complexity—they always had it, but it was hidden. The flatness was what the protagonist perceived or what the character projected, not the character's complete reality. This technique transforms a flat character into a round character by revealing hidden dimensions. It's often more powerful than gradual character development because it shocks readers into reassessment and makes them question what they thought they knew.
+  explanation: This tests understanding that flatness and roundness relate to narrative revelation, not to whether depth exists. A character can appear flat to the reader until their complexity is revealed. This technique creates surprise and complexity while maintaining the flatness served earlier in the story.
 ```
 
 ## Explainer

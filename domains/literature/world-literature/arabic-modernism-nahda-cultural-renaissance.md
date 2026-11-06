@@ -32,39 +32,39 @@ The Nahda was not simply "Westernization" or imitation of Europe; it was a delib
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What was the central challenge that Arabic writers faced during the Nahda (Arab Renaissance)?"
+- question: What was the central challenge that Arabic writers faced during the Nahda (Arab Renaissance)?
+  type: multiple-choice
   options:
-    - "How to completely abandon Arabic tradition and adopt European literary forms without modification"
-    - "How to modernize Arabic literature and society while maintaining Arabic cultural and linguistic identity"
-    - "How to prevent any change or modernization and preserve classical forms unchanged"
-    - "How to isolate Arabic literature from global literary developments entirely"
+  - How to completely abandon Arabic tradition and adopt European literary forms without modification
+  - How to modernize Arabic literature and society while maintaining Arabic cultural and linguistic identity
+  - How to prevent any change or modernization and preserve classical forms unchanged
+  - How to isolate Arabic literature from global literary developments entirely
   answer: 1
-  explanation: "The Nahda was not simply Western imitation; it was a deliberate modernization project that positioned Arabic culture and literature as capable of engaging modern forms, ideas, and political realities while remaining authentically Arab. Writers did not simply import European novels unchanged. Instead, they adapted European forms (the realist novel, short story, free verse) to Arabic language and cultural contexts. They modernized Arabic language for contemporary use while maintaining connection to classical tradition. They addressed modern political issues (nationalism, independence, women's education, social reform) while asserting that these concerns were Arab concerns, not foreign impositions. Understanding the Nahda requires recognizing it as a selective, deliberate modernization, not as cultural capitulation."
+  explanation: The Nahda was not simply Western imitation; it was a deliberate modernization project that positioned Arabic culture and literature as capable of engaging modern forms, ideas, and political realities while remaining authentically Arab. Writers did not simply import European novels unchanged. Instead, they adapted European forms (the realist novel, short story, free verse) to Arabic language and cultural contexts. They modernized Arabic language for contemporary use while maintaining connection to classical tradition. They addressed modern political issues (nationalism, independence, women's education, social reform) while asserting that these concerns were Arab concerns, not foreign impositions. Understanding the Nahda requires recognizing it as a selective, deliberate modernization, not as cultural capitulation.
 
-- type: multiple-choice
-  question: "How did Nahda writers approach the question of literary language?"
+- question: How did Nahda writers approach the question of literary language?
+  type: multiple-choice
   options:
-    - "They rejected Arabic entirely and wrote exclusively in European languages"
-    - "They used only classical fusha (formal Arabic) without any modern adaptations"
-    - "They engaged in debates about how to modernize Arabic language to address contemporary audiences while maintaining connection to classical tradition"
-    - "They kept Arabic language completely separate from literary forms borrowed from Europe"
+  - They rejected Arabic entirely and wrote exclusively in European languages
+  - They used only classical fusha (formal Arabic) without any modern adaptations
+  - They engaged in debates about how to modernize Arabic language to address contemporary audiences while maintaining connection to classical tradition
+  - They kept Arabic language completely separate from literary forms borrowed from Europe
   answer: 2
-  explanation: "One of the defining projects of the Nahda was language reform. Writers recognized that classical Arabic (fusha), while prestigious and connected to Islamic and poetic tradition, was increasingly distant from how contemporary Arabs actually spoke and understood language. But they also recognized that abandoning Arabic for European languages would sever connection to their own cultural and religious traditions. The response was deliberate modernization: introducing contemporary vocabulary, adapting syntax for clarity, moving toward a literary Arabic that could address modern audiences. This was not a simple choice between tradition and modernity but a negotiation: how to make Arabic language adequate to modern expression while maintaining its cultural prestige and connection to classical forms. This language question was inseparable from the broader literary modernization project."
+  explanation: 'One of the defining projects of the Nahda was language reform. Writers recognized that classical Arabic (fusha), while prestigious and connected to Islamic and poetic tradition, was increasingly distant from how contemporary Arabs actually spoke and understood language. But they also recognized that abandoning Arabic for European languages would sever connection to their own cultural and religious traditions. The response was deliberate modernization: introducing contemporary vocabulary, adapting syntax for clarity, moving toward a literary Arabic that could address modern audiences. This was not a simple choice between tradition and modernity but a negotiation: how to make Arabic language adequate to modern expression while maintaining its cultural prestige and connection to classical forms. This language question was inseparable from the broader literary modernization project.'
 
-- type: true-false
-  statement: "The Arabic Nahda (Arab Renaissance) was a movement of cultural and literary modernization that selectively adopted European forms and ideas while asserting the compatibility of Arab cultural identity with modernism."
+- question: The Arabic Nahda (Arab Renaissance) was a movement of cultural and literary modernization that selectively adopted European forms and ideas while asserting the compatibility of Arab cultural identity with modernism.
+  type: true-false
   answer: true
-  explanation: "This statement captures the essential character of the Nahda. It was neither wholesale Westernization nor conservative rejection of change. Instead, Nahda writers claimed that Arabs could modernize—adopting new literary forms, engaging new political ideas, reforming social institutions—while remaining authentically Arab and maintaining connection to Arabic tradition. This required argument and deliberate choice: which forms to adopt, how to adapt them, what aspects of tradition to preserve. But the fundamental claim was that modernization and Arab identity were not contradictory. This self-conscious assertion of compatible modernity and identity differentiates the Nahda from both simple imitation and simple conservatism."
+  explanation: 'This statement captures the essential character of the Nahda. It was neither wholesale Westernization nor conservative rejection of change. Instead, Nahda writers claimed that Arabs could modernize—adopting new literary forms, engaging new political ideas, reforming social institutions—while remaining authentically Arab and maintaining connection to Arabic tradition. This required argument and deliberate choice: which forms to adopt, how to adapt them, what aspects of tradition to preserve. But the fundamental claim was that modernization and Arab identity were not contradictory. This self-conscious assertion of compatible modernity and identity differentiates the Nahda from both simple imitation and simple conservatism.'
 
-- type: true-false
-  statement: "The Nahda produced new literary genres like the modern Arabic novel and short story, but these were direct copies of European forms with no adaptation to Arabic language or cultural contexts."
+- question: The Nahda produced new literary genres like the modern Arabic novel and short story, but these were direct copies of European forms with no adaptation to Arabic language or cultural contexts.
+  type: true-false
   answer: false
-  explanation: "While Nahda writers did adopt and adapt genres like the realist novel from European literature, they were not simply copying European models. They adapted these forms to Arabic language, addressed Arab social and political contexts, drew on Arabic narrative traditions, and created something distinctly Arabic-modern. The modern Arabic novel emerged from this adaptation process: it is neither purely European nor purely classical Arabic, but a hybrid form developed by Arab writers. Recognizing this as creative adaptation rather than imitation is essential to understanding the Nahda as a generative modernization project, not as a moment of cultural subordination."
+  explanation: 'While Nahda writers did adopt and adapt genres like the realist novel from European literature, they were not simply copying European models. They adapted these forms to Arabic language, addressed Arab social and political contexts, drew on Arabic narrative traditions, and created something distinctly Arabic-modern. The modern Arabic novel emerged from this adaptation process: it is neither purely European nor purely classical Arabic, but a hybrid form developed by Arab writers. Recognizing this as creative adaptation rather than imitation is essential to understanding the Nahda as a generative modernization project, not as a moment of cultural subordination.'
 
-- type: short-answer
-  question: "Explain what it means to describe the Nahda as a period of 'cultural reform' rather than simply 'literary change.' What larger project was the Nahda addressing?"
-  explanation: "The Nahda was not only about changing literary forms and styles; it was a comprehensive project of cultural transformation. Writers, journalists, educators, and intellectuals were grappling with larger questions: How should Arab societies respond to European political and economic dominance? What does modernity mean for Arab identity? How can Arabs educate themselves and participate in modern global culture? What role should women play in modern Arab society? What is the relationship between Arabic language and Islamic tradition in a modern context? Literary modernization was one dimension of this larger project. By introducing new literary forms, by modernizing language, by addressing contemporary social issues through literature, writers were participating in a broader cultural project of defining what it meant to be modern and Arab simultaneously. Understanding the Nahda as cultural reform means recognizing that literary innovation was never merely aesthetic; it was always also a claim about Arab cultural identity and Arab possibilities in the modern world."
+- question: Explain what it means to describe the Nahda as a period of 'cultural reform' rather than simply 'literary change.' What larger project was the Nahda addressing?
+  type: short-answer
+  explanation: 'The Nahda was not only about changing literary forms and styles; it was a comprehensive project of cultural transformation. Writers, journalists, educators, and intellectuals were grappling with larger questions: How should Arab societies respond to European political and economic dominance? What does modernity mean for Arab identity? How can Arabs educate themselves and participate in modern global culture? What role should women play in modern Arab society? What is the relationship between Arabic language and Islamic tradition in a modern context? Literary modernization was one dimension of this larger project. By introducing new literary forms, by modernizing language, by addressing contemporary social issues through literature, writers were participating in a broader cultural project of defining what it meant to be modern and Arab simultaneously. Understanding the Nahda as cultural reform means recognizing that literary innovation was never merely aesthetic; it was always also a claim about Arab cultural identity and Arab possibilities in the modern world.'
 ```
 
 ## Explainer

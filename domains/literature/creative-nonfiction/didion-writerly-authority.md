@@ -28,39 +28,39 @@ Didion establishes authority through precise observation, controlled syntax, and
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What does Didion mean by 'authority through precise observation'?"
+- question: What does Didion mean by 'authority through precise observation'?
+  type: multiple-choice
   options:
-    - "She observes without judgment, reporting only objective facts."
-    - "She proves her authority to speak by demonstrating exact attention to detail—what she notices, others might miss."
-    - "She claims authority based on her credentials and education."
-    - "She uses observation as distraction from argument."
+  - She observes without judgment, reporting only objective facts.
+  - She proves her authority to speak by demonstrating exact attention to detail—what she notices, others might miss.
+  - She claims authority based on her credentials and education.
+  - She uses observation as distraction from argument.
   answer: 1
-  explanation: "Didion's authority comes partly from the specificity of her seeing. She notices details—the clothes people wear, the words they use, the architecture of a place—that reveal character and systems. Readers trust her because she obviously sees and remembers with precision. This observational authority makes her subsequent analysis credible."
+  explanation: Didion's authority comes partly from the specificity of her seeing. She notices details—the clothes people wear, the words they use, the architecture of a place—that reveal character and systems. Readers trust her because she obviously sees and remembers with precision. This observational authority makes her subsequent analysis credible.
 
-- type: multiple-choice
-  question: "How does Didion use 'controlled syntax' as a rhetorical strategy?"
+- question: How does Didion use 'controlled syntax' as a rhetorical strategy?
+  type: multiple-choice
   options:
-    - "She writes long, flowing sentences to create emotion."
-    - "She varies sentence length and complexity to control pacing, emphasis, and reader response—short sentences can be devastating."
-    - "Syntax and rhetoric are unrelated."
-    - "She uses grammar to hide her argument."
+  - She writes long, flowing sentences to create emotion.
+  - She varies sentence length and complexity to control pacing, emphasis, and reader response—short sentences can be devastating.
+  - Syntax and rhetoric are unrelated.
+  - She uses grammar to hide her argument.
   answer: 1
-  explanation: "Didion's prose is famous for its precision. A short sentence can hit hard. Longer sentences build complexity. By controlling how sentences are structured, she shapes how readers experience ideas. The style itself is argumentative—how something is said contributes to what argument is being made."
+  explanation: Didion's prose is famous for its precision. A short sentence can hit hard. Longer sentences build complexity. By controlling how sentences are structured, she shapes how readers experience ideas. The style itself is argumentative—how something is said contributes to what argument is being made.
 
-- type: true-false
-  statement: "True: Didion's detachment from her subject demonstrates journalistic objectivity and lack of bias."
+- question: 'True: Didion''s detachment from her subject demonstrates journalistic objectivity and lack of bias.'
+  type: true-false
   answer: false
-  explanation: "This is false. Didion's detachment is a rhetorical strategy, not objectivity. She's making a political argument through her cool tone and distance. The detachment is deliberate technique for persuasive effect. She is biased, and her style enacts that bias. The coolness doesn't mean she lacks judgment; it's how she expresses it."
+  explanation: This is false. Didion's detachment is a rhetorical strategy, not objectivity. She's making a political argument through her cool tone and distance. The detachment is deliberate technique for persuasive effect. She is biased, and her style enacts that bias. The coolness doesn't mean she lacks judgment; it's how she expresses it.
 
-- type: true-false
-  statement: "True: Didion's combination of journalistic immersion with analytical distance allows her to report what she's learned while maintaining critical perspective on it."
+- question: 'True: Didion''s combination of journalistic immersion with analytical distance allows her to report what she''s learned while maintaining critical perspective on it.'
+  type: true-false
   answer: true
-  explanation: "This is accurate. Didion immerses herself in her subject—she's present, observing, experiencing. But she maintains distance—she's not advocating or emotional. This balance allows her to present material while analyzing it. She's in the scene but not of it. This technique is powerful for political writing because it allows criticism without apparent polemic."
+  explanation: This is accurate. Didion immerses herself in her subject—she's present, observing, experiencing. But she maintains distance—she's not advocating or emotional. This balance allows her to present material while analyzing it. She's in the scene but not of it. This technique is powerful for political writing because it allows criticism without apparent polemic.
 
-- type: short-answer
-  question: "How might Didion's rhetorical strategy differ from Baldwin's in a similar political argument about American culture? Why might each strategy be effective?"
-  explanation: "Baldwin uses passion, moral urgency, and personal stake—he brings emotion and moral judgment into the essay explicitly. Didion uses coolness, precise observation, and controlled distance—her moral judgment is enacted through what she chooses to observe and how she arranges details, not stated directly. Baldwin's approach says 'This is morally wrong, and I'm angry about it.' Didion's says 'Look at what's actually happening' and lets the reader be chilled by the implications. Both are argumentative, but they perform argument differently. Baldwin's approach is immediate and moving; Didion's is cumulative and devastating. Both can be powerful precisely because they use different rhetorical strategies—emotion isn't necessary for force, and detachment isn't objectivity."
+- question: How might Didion's rhetorical strategy differ from Baldwin's in a similar political argument about American culture? Why might each strategy be effective?
+  type: short-answer
+  explanation: Baldwin uses passion, moral urgency, and personal stake—he brings emotion and moral judgment into the essay explicitly. Didion uses coolness, precise observation, and controlled distance—her moral judgment is enacted through what she chooses to observe and how she arranges details, not stated directly. Baldwin's approach says 'This is morally wrong, and I'm angry about it.' Didion's says 'Look at what's actually happening' and lets the reader be chilled by the implications. Both are argumentative, but they perform argument differently. Baldwin's approach is immediate and moving; Didion's is cumulative and devastating. Both can be powerful precisely because they use different rhetorical strategies—emotion isn't necessary for force, and detachment isn't objectivity.
 ```
 
 ## Explainer

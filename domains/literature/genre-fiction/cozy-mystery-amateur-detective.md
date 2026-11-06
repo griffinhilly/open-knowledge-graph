@@ -28,36 +28,39 @@ Read a traditional cozy (Agatha Christie's Miss Marple) and a contemporary cozy 
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "How does the limited community setting enable an amateur detective's investigative advantage?"
-    options:
-      - "Professional investigators cannot operate in villages"
-      - "The amateur's intimate knowledge of community relationships and secrets provides investigative access unavailable to outsiders"
-      - "Limited communities have less crime"
-      - "Amateurs are naturally more skilled at detection than professionals"
-    correct_answer: 1
-    explanation: "The core idea indicates amateurs 'possess insight, access, or unexpected expertise,' with the community setting providing access to information and relationships that professional outside investigators would lack."
-  - type: multiple-choice
-    question: "What is the primary appeal of cozy mysteries compared to action-oriented detective fiction?"
-    options:
-      - "More graphic violence and danger"
-      - "Faster-paced action sequences"
-      - "The puzzle-solving process and community relationships, with minimal on-page violence"
-      - "Higher stakes and life-or-death consequences"
-    correct_answer: 2
-    explanation: "The core idea explicitly states that cozies 'emphasize the puzzle-solving process and community relationships over action and danger' and feature 'minimal on-page violence.'"
-  - type: true-false
-    question: "Cozy mystery detectives possess professional training and operate within official law enforcement structures."
-    correct_answer: false
-    explanation: "The core idea clearly identifies them as 'amateur detectives' who 'lack professional training,' distinguishing them from professional law enforcement."
-  - type: true-false
-    question: "Ensemble casts and detailed attention to domestic and community life are essential to the cozy mystery experience."
-    correct_answer: true
-    explanation: "The core idea states that cozies 'often include ensemble casts and domestic details that create intimacy,' making these community elements central to the genre."
-  - type: short-answer
-    question: "Why does the intimate, limited community setting make cozy mysteries emotionally and narratively distinct from hardboiled detective fiction?"
-    explanation: "Good answers should address how limited communities create emotional stakes around people the detective cares about (not strangers), how the puzzle becomes secondary to community disruption, how the detective's outsiderness (if any) or insiderness shapes investigation, and how domestic details and relationships provide both investigation tools and emotional resonance beyond the puzzle."
+- question: How does the limited community setting enable an amateur detective's investigative advantage?
+  type: multiple-choice
+  options:
+  - Professional investigators cannot operate in villages
+  - The amateur's intimate knowledge of community relationships and secrets provides investigative access unavailable to outsiders
+  - Limited communities have less crime
+  - Amateurs are naturally more skilled at detection than professionals
+  answer: 1
+  explanation: The core idea indicates amateurs 'possess insight, access, or unexpected expertise,' with the community setting providing access to information and relationships that professional outside investigators would lack.
+
+- question: What is the primary appeal of cozy mysteries compared to action-oriented detective fiction?
+  type: multiple-choice
+  options:
+  - More graphic violence and danger
+  - Faster-paced action sequences
+  - The puzzle-solving process and community relationships, with minimal on-page violence
+  - Higher stakes and life-or-death consequences
+  answer: 2
+  explanation: The core idea explicitly states that cozies 'emphasize the puzzle-solving process and community relationships over action and danger' and feature 'minimal on-page violence.'
+
+- question: Cozy mystery detectives possess professional training and operate within official law enforcement structures.
+  type: true-false
+  answer: false
+  explanation: The core idea clearly identifies them as 'amateur detectives' who 'lack professional training,' distinguishing them from professional law enforcement.
+
+- question: Ensemble casts and detailed attention to domestic and community life are essential to the cozy mystery experience.
+  type: true-false
+  answer: true
+  explanation: The core idea states that cozies 'often include ensemble casts and domestic details that create intimacy,' making these community elements central to the genre.
+
+- question: Why does the intimate, limited community setting make cozy mysteries emotionally and narratively distinct from hardboiled detective fiction?
+  type: short-answer
+  explanation: Good answers should address how limited communities create emotional stakes around people the detective cares about (not strangers), how the puzzle becomes secondary to community disruption, how the detective's outsiderness (if any) or insiderness shapes investigation, and how domestic details and relationships provide both investigation tools and emotional resonance beyond the puzzle.
 ```
 
 ## Explainer

@@ -33,40 +33,39 @@ A symbol has one correct meaning that must be discovered. (Symbols are radically
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "Why does the same symbol often carry different meanings in different myths or cultures?"
-    options:
-      - "Because earlier cultures were confused and created symbols badly"
-      - "Symbols are culturally and contextually inflected; meaning depends on cultural values, narrative position, and association with other elements"
-      - "All symbols universally mean the same thing—different interpretations are modern misreadings"
-      - "Symbols have random meanings with no pattern or logic"
-    correct: "B"
-    explanation: "A serpent symbol represents fertility in one culture or myth (associated with cycles and renewal), chaos in another (associated with danger and disorder), and wisdom in a third (associated with knowledge and transformation). The culture's values and the narrative context activate different symbolic associations. The same symbol is not random but also not monovalent—its meaning emerges from the interpretive community."
+- question: Why does the same symbol often carry different meanings in different myths or cultures?
+  type: multiple-choice
+  options:
+  - Because earlier cultures were confused and created symbols badly
+  - Symbols are culturally and contextually inflected; meaning depends on cultural values, narrative position, and association with other elements
+  - All symbols universally mean the same thing—different interpretations are modern misreadings
+  - Symbols have random meanings with no pattern or logic
+  answer: 1
+  explanation: A serpent symbol represents fertility in one culture or myth (associated with cycles and renewal), chaos in another (associated with danger and disorder), and wisdom in a third (associated with knowledge and transformation). The culture's values and the narrative context activate different symbolic associations. The same symbol is not random but also not monovalent—its meaning emerges from the interpretive community.
 
-  - type: multiple-choice
-    question: "What is meant by saying that symbols are 'polysemic' in the context of mythic interpretation?"
-    options:
-      - "Symbols only have one meaning that must be correct"
-      - "Symbols have multiple possible meanings that coexist and can be activated by different contexts and interpreters"
-      - "Symbols in myths are ambiguous and meaningless"
-      - "Polysemy means symbols sound similar in different languages"
-    correct: "B"
-    explanation: "Polysemy means multiple meanings. A mythic symbol does not have one correct meaning waiting to be discovered. Instead, a symbol can carry multiple associations—fertility, danger, wisdom, transformation—and which meaning is activated depends on narrative context, cultural emphasis, and the interpreter's framework."
+- question: What is meant by saying that symbols are 'polysemic' in the context of mythic interpretation?
+  type: multiple-choice
+  options:
+  - Symbols only have one meaning that must be correct
+  - Symbols have multiple possible meanings that coexist and can be activated by different contexts and interpreters
+  - Symbols in myths are ambiguous and meaningless
+  - Polysemy means symbols sound similar in different languages
+  answer: 1
+  explanation: Polysemy means multiple meanings. A mythic symbol does not have one correct meaning waiting to be discovered. Instead, a symbol can carry multiple associations—fertility, danger, wisdom, transformation—and which meaning is activated depends on narrative context, cultural emphasis, and the interpreter's framework.
 
-  - type: true-false
-    question: "A symbol's meaning in myth is identical to its meaning in other cultural contexts—e.g., a serpent means the same thing whether it appears in myth, heraldry, or medicine."
-    correct: false
-    explanation: "While a symbol may retain some associations across contexts, mythic symbols draw power from their narrative position and the myth's deeper meanings. A serpent in a creation myth functions differently than a serpent in heraldry or on a medicine cabinet. Context transforms meaning."
+- question: A symbol's meaning in myth is identical to its meaning in other cultural contexts—e.g., a serpent means the same thing whether it appears in myth, heraldry, or medicine.
+  type: true-false
+  answer: false
+  explanation: While a symbol may retain some associations across contexts, mythic symbols draw power from their narrative position and the myth's deeper meanings. A serpent in a creation myth functions differently than a serpent in heraldry or on a medicine cabinet. Context transforms meaning.
 
-  - type: true-false
-    question: "All cultures interpret the same symbols identically because symbols have universal meanings rooted in human psychology."
-    correct: false
-    explanation: "While some symbols may have widely recurring meanings (serpents often have associations with fertility, danger, or transformation), the specific meaning and emphasis vary culturally. The same symbol can be positive in one culture (wisdom) and negative in another (chaos). Culture shapes interpretation."
+- question: All cultures interpret the same symbols identically because symbols have universal meanings rooted in human psychology.
+  type: true-false
+  answer: false
+  explanation: While some symbols may have widely recurring meanings (serpents often have associations with fertility, danger, or transformation), the specific meaning and emphasis vary culturally. The same symbol can be positive in one culture (wisdom) and negative in another (chaos). Culture shapes interpretation.
 
-  - type: short-answer
-    question: "Explain how the meaning of a mythic symbol can shift depending on narrative context and cultural values. Give an example."
-    explanation: "A symbol's meaning emerges from the values the culture emphasizes and the narrative role the symbol plays. Consider the serpent: In Mesopotamian mythology (Enuma Elish), the serpent Tiamat represents primordial chaos that must be defeated to establish cosmic order, so the serpent is negative—the obstacle to overcome. In Egyptian mythology, the serpent represents renewal and protection (the uraeus crown worn by pharaohs)—here the symbol is positive. In Genesis, the serpent represents temptation and deception—neither cosmic force nor protector but moral danger. The difference is not that one culture was right and others wrong, but that the symbol activates different associations depending on what the culture valued. In Mesopotamia, establishing order against chaos was the central cultural concern; in Egypt, renewal and protection; in the Abrahamic tradition, obedience and moral boundaries. The symbol's meaning follows the culture's preoccupations."
+- question: Explain how the meaning of a mythic symbol can shift depending on narrative context and cultural values. Give an example.
+  type: short-answer
+  explanation: 'A symbol''s meaning emerges from the values the culture emphasizes and the narrative role the symbol plays. Consider the serpent: In Mesopotamian mythology (Enuma Elish), the serpent Tiamat represents primordial chaos that must be defeated to establish cosmic order, so the serpent is negative—the obstacle to overcome. In Egyptian mythology, the serpent represents renewal and protection (the uraeus crown worn by pharaohs)—here the symbol is positive. In Genesis, the serpent represents temptation and deception—neither cosmic force nor protector but moral danger. The difference is not that one culture was right and others wrong, but that the symbol activates different associations depending on what the culture valued. In Mesopotamia, establishing order against chaos was the central cultural concern; in Egypt, renewal and protection; in the Abrahamic tradition, obedience and moral boundaries. The symbol''s meaning follows the culture''s preoccupations.'
 ```
 
 ## Explainer

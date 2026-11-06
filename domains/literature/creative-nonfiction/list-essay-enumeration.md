@@ -25,39 +25,39 @@ List essays use enumeration as the primary organizing principle, permitting vari
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "How does a list essay differ from linear argument in an essay?"
+- question: How does a list essay differ from linear argument in an essay?
+  type: multiple-choice
   options:
-    - "They are identical."
-    - "List essays organize through enumeration and accumulation; readers find patterns across items rather than following a single line of argument."
-    - "Linear essays are more interesting than list essays."
-    - "List essays have no structure."
+  - They are identical.
+  - List essays organize through enumeration and accumulation; readers find patterns across items rather than following a single line of argument.
+  - Linear essays are more interesting than list essays.
+  - List essays have no structure.
   answer: 1
-  explanation: "A linear essay builds toward a thesis or conclusion. A list essay presents items (which might be observations, definitions, examples, stories) and lets patterns emerge through accumulation. The reader must recognize connections across items rather than having them explained."
+  explanation: A linear essay builds toward a thesis or conclusion. A list essay presents items (which might be observations, definitions, examples, stories) and lets patterns emerge through accumulation. The reader must recognize connections across items rather than having them explained.
 
-- type: multiple-choice
-  question: "What does 'permitting variety in item length, tone, and abstraction level' allow?"
+- question: What does 'permitting variety in item length, tone, and abstraction level' allow?
+  type: multiple-choice
   options:
-    - "Sloppy writing without structure."
-    - "The form to include diverse material—from concrete examples to abstract reflection, from humorous to serious items—creating richness through variety."
-    - "Writers to avoid thinking clearly."
-    - "Coherence to be impossible."
+  - Sloppy writing without structure.
+  - The form to include diverse material—from concrete examples to abstract reflection, from humorous to serious items—creating richness through variety.
+  - Writers to avoid thinking clearly.
+  - Coherence to be impossible.
   answer: 1
-  explanation: "The list form's flexibility is an advantage. An item might be a sentence; another might be a paragraph. Some items might be concrete and specific; others abstract and philosophical. Some might be funny; others serious. This variety creates richness and prevents monotony."
+  explanation: The list form's flexibility is an advantage. An item might be a sentence; another might be a paragraph. Some items might be concrete and specific; others abstract and philosophical. Some might be funny; others serious. This variety creates richness and prevents monotony.
 
-- type: true-false
-  statement: "True: In list essays, the order of items matters—how items are arranged shapes patterns readers discover."
+- question: 'True: In list essays, the order of items matters—how items are arranged shapes patterns readers discover.'
+  type: true-false
   answer: true
-  explanation: "Although the form appears simple enumeration, order is crucial. The same ten items arranged differently would create different meanings. A list moving from specific to abstract creates different implications than one moving from abstract to specific. Skilled list essayists attend carefully to sequence."
+  explanation: Although the form appears simple enumeration, order is crucial. The same ten items arranged differently would create different meanings. A list moving from specific to abstract creates different implications than one moving from abstract to specific. Skilled list essayists attend carefully to sequence.
 
-- type: true-false
-  statement: "False: List essays require a formal numbered or bulleted presentation; they must look like lists on the page."
+- question: 'False: List essays require a formal numbered or bulleted presentation; they must look like lists on the page.'
+  type: true-false
   answer: false
-  explanation: "This is false. While some list essays appear as visual lists on the page, many are written as prose that operates according to list logic. The form is about organizational principle, not appearance. Readers recognize it's a list because items accumulate and patterns emerge, not necessarily because it looks like a list."
+  explanation: This is false. While some list essays appear as visual lists on the page, many are written as prose that operates according to list logic. The form is about organizational principle, not appearance. Readers recognize it's a list because items accumulate and patterns emerge, not necessarily because it looks like a list.
 
-- type: short-answer
-  question: "How might a list essay about a concept (like nostalgia, perfection, failure) work? What would the items be?"
-  explanation: "A list essay about nostalgia might include: a memory of a place from childhood, a definition of nostalgia from a dictionary, an observation about why people are nostalgic now, a reflection on how nostalgia differs from memory, an analysis of nostalgia in advertising, a personal example of feeling nostalgic for something that wasn't actually good, a historical observation about when nostalgia became fashionable, a counter-example of someone who isn't nostalgic. Each item approaches nostalgia from a different angle. Some are short; some longer. Some concrete, some abstract. Readers, moving through the list, recognize patterns—that nostalgia is both genuine feeling and constructed narrative, that it's about time and identity, that it's increasing. The list form allows exploration from multiple angles without requiring all items to be equal or building toward a single conclusion."
+- question: How might a list essay about a concept (like nostalgia, perfection, failure) work? What would the items be?
+  type: short-answer
+  explanation: 'A list essay about nostalgia might include: a memory of a place from childhood, a definition of nostalgia from a dictionary, an observation about why people are nostalgic now, a reflection on how nostalgia differs from memory, an analysis of nostalgia in advertising, a personal example of feeling nostalgic for something that wasn''t actually good, a historical observation about when nostalgia became fashionable, a counter-example of someone who isn''t nostalgic. Each item approaches nostalgia from a different angle. Some are short; some longer. Some concrete, some abstract. Readers, moving through the list, recognize patterns—that nostalgia is both genuine feeling and constructed narrative, that it''s about time and identity, that it''s increasing. The list form allows exploration from multiple angles without requiring all items to be equal or building toward a single conclusion.'
 ```
 
 ## Explainer

@@ -27,39 +27,39 @@ Baldwin's essays fuse personal narrative, historical analysis, and passionate ar
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "How does Baldwin use personal narrative in his essays about systemic racism?"
+- question: How does Baldwin use personal narrative in his essays about systemic racism?
+  type: multiple-choice
   options:
-    - "He separates his personal story from the political argument to maintain objectivity."
-    - "He weaves personal experience into moral and historical analysis, making his individual perspective the basis for public argument."
-    - "He avoids personal narrative entirely, focusing on abstract principles."
-    - "He uses personal narrative only in his fiction, not his essays."
+  - He separates his personal story from the political argument to maintain objectivity.
+  - He weaves personal experience into moral and historical analysis, making his individual perspective the basis for public argument.
+  - He avoids personal narrative entirely, focusing on abstract principles.
+  - He uses personal narrative only in his fiction, not his essays.
   answer: 1
-  explanation: "Baldwin's power lies in refusing to separate the personal from the political. When he writes about racism, he writes from the position of someone who has lived it—his individual experience becomes evidence and moral authority for arguments about systemic injustice. This approach shows that nonfiction doesn't have to choose between intimacy and political force."
+  explanation: Baldwin's power lies in refusing to separate the personal from the political. When he writes about racism, he writes from the position of someone who has lived it—his individual experience becomes evidence and moral authority for arguments about systemic injustice. This approach shows that nonfiction doesn't have to choose between intimacy and political force.
 
-- type: multiple-choice
-  question: "What does Baldwin's work suggest about the relationship between voice and authority in nonfiction?"
+- question: What does Baldwin's work suggest about the relationship between voice and authority in nonfiction?
+  type: multiple-choice
   options:
-    - "A distinctive personal voice weakens argumentative authority."
-    - "A distinctive personal voice, rooted in lived experience, can strengthen authority and credibility."
-    - "Authority comes only from detached, objective analysis."
-    - "Voice and authority are unrelated concepts in nonfiction."
+  - A distinctive personal voice weakens argumentative authority.
+  - A distinctive personal voice, rooted in lived experience, can strengthen authority and credibility.
+  - Authority comes only from detached, objective analysis.
+  - Voice and authority are unrelated concepts in nonfiction.
   answer: 1
-  explanation: "Baldwin demonstrates that a strong, distinctive voice doesn't undermine authority—it creates it. His voice, shaped by his experiences as a Black writer, an expatriate, and a moral witness, gives his essays power. Readers trust the argument partly because of the voice delivering it, not despite it. This challenges the assumption that objectivity equals authority."
+  explanation: Baldwin demonstrates that a strong, distinctive voice doesn't undermine authority—it creates it. His voice, shaped by his experiences as a Black writer, an expatriate, and a moral witness, gives his essays power. Readers trust the argument partly because of the voice delivering it, not despite it. This challenges the assumption that objectivity equals authority.
 
-- type: true-false
-  statement: "True: In Baldwin's essays, the personal narrative is subordinate to the political argument, serving mainly as supporting evidence."
+- question: 'True: In Baldwin''s essays, the personal narrative is subordinate to the political argument, serving mainly as supporting evidence.'
+  type: true-false
   answer: false
-  explanation: "This statement is false. In Baldwin's best essays, personal narrative and political argument are inseparable. The personal is the political—his individual experiences illuminate systemic patterns. Neither element is subordinate; they're fused into a unified argument. To separate them would be to misunderstand how the essays work."
+  explanation: This statement is false. In Baldwin's best essays, personal narrative and political argument are inseparable. The personal is the political—his individual experiences illuminate systemic patterns. Neither element is subordinate; they're fused into a unified argument. To separate them would be to misunderstand how the essays work.
 
-- type: true-false
-  statement: "True: Baldwin's essays demonstrate that an essayist can be both intellectually rigorous and emotionally passionate without sacrificing credibility."
+- question: 'True: Baldwin''s essays demonstrate that an essayist can be both intellectually rigorous and emotionally passionate without sacrificing credibility.'
+  type: true-false
   answer: true
-  explanation: "Baldwin's essays are simultaneously rigorous (informed by history, philosophy, careful analysis) and passionate (angry, grief-stricken, morally urgent). He shows that these are not opposites—the passion is justified by the analysis, the analysis is urgent because of what's at stake. Emotional and intellectual force can reinforce each other."
+  explanation: Baldwin's essays are simultaneously rigorous (informed by history, philosophy, careful analysis) and passionate (angry, grief-stricken, morally urgent). He shows that these are not opposites—the passion is justified by the analysis, the analysis is urgent because of what's at stake. Emotional and intellectual force can reinforce each other.
 
-- type: short-answer
-  question: "How might Baldwin's approach to the essay differ from traditional argumentative essays that avoid first-person narration? What does his approach gain?"
-  explanation: "Traditional argumentative essays often use third-person or impersonal voice to create distance and authority—'Research shows...' rather than 'I experienced...' Baldwin inverts this. He uses first-person, brings in emotion and personal memory, and gains authority rather than losing it. What he gains is credibility rooted in lived knowledge, accessibility through identification with his particular perspective, and the power of moral witness. He loses the false neutrality of objectivity, but that loss is acceptable when your argument is that neutrality is itself a form of complicity with injustice. His essays show that nonfiction can be personally situated and universally significant at the same time."
+- question: How might Baldwin's approach to the essay differ from traditional argumentative essays that avoid first-person narration? What does his approach gain?
+  type: short-answer
+  explanation: Traditional argumentative essays often use third-person or impersonal voice to create distance and authority—'Research shows...' rather than 'I experienced...' Baldwin inverts this. He uses first-person, brings in emotion and personal memory, and gains authority rather than losing it. What he gains is credibility rooted in lived knowledge, accessibility through identification with his particular perspective, and the power of moral witness. He loses the false neutrality of objectivity, but that loss is acceptable when your argument is that neutrality is itself a form of complicity with injustice. His essays show that nonfiction can be personally situated and universally significant at the same time.
 ```
 
 ## Explainer

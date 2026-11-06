@@ -33,35 +33,39 @@ Examine canonical picture books by Sendak, Carle, and others, analyzing how illu
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What distinguishes a picture book as a unified art form from an illustrated novel?"
-    options:
-      - "Picture books are simply novels with more illustrations"
-      - "Picture books integrate text and illustration as a complete design, where page layout, visual composition, and narrative pacing create meaning through the interaction of word and image—neither can be removed without destroying the work"
-      - "There is no meaningful difference between picture books and illustrated novels"
-      - "Picture books are inferior to novels"
-    answer: 1
-    explanation: "Picture books are a distinct form where text, illustration, page design, and narrative pacing all contribute meaningfully. The visual layout matters; illustrations advance narrative rather than decorating it; removing either text or image destroys the intended experience."
-  - question: "How does the page turn function as a narrative device in picture books?"
-    options:
-      - "Page turns serve no narrative purpose"
-      - "The anticipation and reveal of page turns creates pacing, suspense, and narrative surprise—the blank back of a page creates space for reader anticipation before the next visual-textual revelation"
-      - "Page turns are merely practical considerations"
-      - "Picture books don't use page turns meaningfully"
-    answer: 1
-    explanation: "Skilled picture book authors and illustrators use page turns deliberately: the blank space creates pause, the next spread's visual impact creates surprise or revelation, creating narrative momentum through design choices."
+- question: What distinguishes a picture book as a unified art form from an illustrated novel?
+  type: multiple-choice
+  options:
+  - Picture books are simply novels with more illustrations
+  - Picture books integrate text and illustration as a complete design, where page layout, visual composition, and narrative pacing create meaning through the interaction of word and image—neither can be removed without destroying the work
+  - There is no meaningful difference between picture books and illustrated novels
+  - Picture books are inferior to novels
+  answer: 1
+  explanation: Picture books are a distinct form where text, illustration, page design, and narrative pacing all contribute meaningfully. The visual layout matters; illustrations advance narrative rather than decorating it; removing either text or image destroys the intended experience.
 
-true-false:
-  - question: "True or False: A picture book where the illustration directly replicates what the text states is using illustration most effectively."
-    answer: false
-    explanation: "False. The most sophisticated picture books use illustration to add layers of meaning, show what text doesn't say, create mood and tone, or provide visual counterpoint to text—creating richer meaning through the combination."
-  - question: "True or False: Caldecott Medal standards recognize picture books as worthy of serious artistic and literary criticism."
-    answer: true
-    explanation: "True. The Caldecott Prize honors distinguished illustration in children's picture books, establishing picture books as serious artistic works worthy of critical evaluation."
+- question: How does the page turn function as a narrative device in picture books?
+  type: multiple-choice
+  options:
+  - Page turns serve no narrative purpose
+  - The anticipation and reveal of page turns creates pacing, suspense, and narrative surprise—the blank back of a page creates space for reader anticipation before the next visual-textual revelation
+  - Page turns are merely practical considerations
+  - Picture books don't use page turns meaningfully
+  answer: 1
+  explanation: 'Skilled picture book authors and illustrators use page turns deliberately: the blank space creates pause, the next spread''s visual impact creates surprise or revelation, creating narrative momentum through design choices.'
 
-short-answer:
-  - question: "Analyze a picture book you know well, examining how illustrations advance the narrative beyond simply showing what text describes."
-    explanation: "Your answer should identify specific ways illustrations contribute meaning. For example, in 'Where the Wild Things Are,' Sendak's illustrations show emotional states (Max's anger gradually subsiding as he travels toward the wild things, then crescendoing in the wild rumpus, then subsiding again as he returns home) that wouldn't be apparent from text alone. The page turns create pacing and emotional rhythm. In 'The Very Hungry Caterpillar,' Carle's die-cut pages aren't merely decorative but create tactile engagement and visual rhythm that advances the reading experience. In a wordless picture book, illustration is literally the entire narrative. The point is recognizing that illustrations don't decorate text but advance narrative, create pacing, establish mood, and create meaning through visual composition."
+- question: 'True or False: A picture book where the illustration directly replicates what the text states is using illustration most effectively.'
+  type: true-false
+  answer: false
+  explanation: False. The most sophisticated picture books use illustration to add layers of meaning, show what text doesn't say, create mood and tone, or provide visual counterpoint to text—creating richer meaning through the combination.
+
+- question: 'True or False: Caldecott Medal standards recognize picture books as worthy of serious artistic and literary criticism.'
+  type: true-false
+  answer: true
+  explanation: True. The Caldecott Prize honors distinguished illustration in children's picture books, establishing picture books as serious artistic works worthy of critical evaluation.
+
+- question: Analyze a picture book you know well, examining how illustrations advance the narrative beyond simply showing what text describes.
+  type: short-answer
+  explanation: Your answer should identify specific ways illustrations contribute meaning. For example, in 'Where the Wild Things Are,' Sendak's illustrations show emotional states (Max's anger gradually subsiding as he travels toward the wild things, then crescendoing in the wild rumpus, then subsiding again as he returns home) that wouldn't be apparent from text alone. The page turns create pacing and emotional rhythm. In 'The Very Hungry Caterpillar,' Carle's die-cut pages aren't merely decorative but create tactile engagement and visual rhythm that advances the reading experience. In a wordless picture book, illustration is literally the entire narrative. The point is recognizing that illustrations don't decorate text but advance narrative, create pacing, establish mood, and create meaning through visual composition.
 ```
 
 ## Explainer

@@ -28,35 +28,39 @@ Children's fantasy literature creates secondary worlds—fully imagined alternat
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What is a secondary world in fantasy literature?"
-    options:
-      - "A fictional world that follows the same physical laws and history as our real world"
-      - "A fully imagined alternative universe with its own geography, history, rules, and internal logical consistency"
-      - "A world that is secondary in importance to the main character's emotional journey"
-      - "A setting that appears in only one chapter of a story"
-    answer: 1
-    explanation: "A secondary world is a complete alternative reality with its own rules and coherence, not merely a realistic setting or a background for emotion."
-  - question: "Why do children's fantasy authors typically create 'accessible entry points' for protagonists into secondary worlds?"
-    options:
-      - "The author is lazy and cannot create convincing fantasy settings"
-      - "Readers need familiar connection points and guides (often human protagonists) to make the strange secondary world comprehensible and emotionally engaging"
-      - "Secondary worlds should be impossible for readers to imagine or visualize"
-      - "Human protagonists are superior to native inhabitants of fantasy worlds"
-    answer: 1
-    explanation: "By having protagonists (often human or relatable) enter the secondary world alongside readers, authors allow audiences to explore and understand the secondary world through a familiar perspective."
+- question: What is a secondary world in fantasy literature?
+  type: multiple-choice
+  options:
+  - A fictional world that follows the same physical laws and history as our real world
+  - A fully imagined alternative universe with its own geography, history, rules, and internal logical consistency
+  - A world that is secondary in importance to the main character's emotional journey
+  - A setting that appears in only one chapter of a story
+  answer: 1
+  explanation: A secondary world is a complete alternative reality with its own rules and coherence, not merely a realistic setting or a background for emotion.
 
-true-false:
-  - question: "True or False: In children's fantasy, a secondary world can feel real to readers even though it operates under different rules than our world."
-    answer: true
-    explanation: "This is true. A secondary world feels convincing when it maintains internal logical consistency—even if its rules differ from our world, readers accept it as 'real' within the story's logic."
-  - question: "True or False: Secondary worlds in children's fantasy are primarily about escapism and have no connection to real-world meaning or symbolism."
-    answer: false
-    explanation: "This is false. While secondary worlds offer imaginative escape, they often function symbolically, exploring real-world themes (courage, belonging, good versus evil) through the metaphor of the fantasy setting."
+- question: Why do children's fantasy authors typically create 'accessible entry points' for protagonists into secondary worlds?
+  type: multiple-choice
+  options:
+  - The author is lazy and cannot create convincing fantasy settings
+  - Readers need familiar connection points and guides (often human protagonists) to make the strange secondary world comprehensible and emotionally engaging
+  - Secondary worlds should be impossible for readers to imagine or visualize
+  - Human protagonists are superior to native inhabitants of fantasy worlds
+  answer: 1
+  explanation: By having protagonists (often human or relatable) enter the secondary world alongside readers, authors allow audiences to explore and understand the secondary world through a familiar perspective.
 
-short-answer:
-  - question: "How does the internal consistency of a secondary world's rules contribute to a reader's belief in and engagement with a fantasy story?"
-    explanation: "When a secondary world maintains consistent rules—magic works according to specific principles, geography follows its own logic, cause and effect operate predictably—readers trust the world's reality and can follow story events without constantly questioning feasibility. This consistency creates immersion: readers accept the fantasy world's premises and concentrate on the narrative rather than suspecting the author of arbitrary invention. Additionally, consistent rules allow readers to anticipate consequences and participate imaginatively in problem-solving; if magic worked randomly with no rules, readers could never predict outcomes or feel the protagonist's resourcefulness. When a world has coherent rules that we come to understand, the protagonist's clever use of those rules within limitations feels earned and satisfying, whereas rule-breaking feels like cheating."
+- question: 'True or False: In children''s fantasy, a secondary world can feel real to readers even though it operates under different rules than our world.'
+  type: true-false
+  answer: true
+  explanation: This is true. A secondary world feels convincing when it maintains internal logical consistency—even if its rules differ from our world, readers accept it as 'real' within the story's logic.
+
+- question: 'True or False: Secondary worlds in children''s fantasy are primarily about escapism and have no connection to real-world meaning or symbolism.'
+  type: true-false
+  answer: false
+  explanation: This is false. While secondary worlds offer imaginative escape, they often function symbolically, exploring real-world themes (courage, belonging, good versus evil) through the metaphor of the fantasy setting.
+
+- question: How does the internal consistency of a secondary world's rules contribute to a reader's belief in and engagement with a fantasy story?
+  type: short-answer
+  explanation: 'When a secondary world maintains consistent rules—magic works according to specific principles, geography follows its own logic, cause and effect operate predictably—readers trust the world''s reality and can follow story events without constantly questioning feasibility. This consistency creates immersion: readers accept the fantasy world''s premises and concentrate on the narrative rather than suspecting the author of arbitrary invention. Additionally, consistent rules allow readers to anticipate consequences and participate imaginatively in problem-solving; if magic worked randomly with no rules, readers could never predict outcomes or feel the protagonist''s resourcefulness. When a world has coherent rules that we come to understand, the protagonist''s clever use of those rules within limitations feels earned and satisfying, whereas rule-breaking feels like cheating.'
 ```
 
 ## Explainer

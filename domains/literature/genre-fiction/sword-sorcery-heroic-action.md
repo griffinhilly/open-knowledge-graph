@@ -25,36 +25,39 @@ Sword and sorcery emphasizes personal heroic action and direct combat over large
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What does sword and sorcery prioritize over large-scale political fantasy?"
-    options:
-      - "Detailed governmental structures and diplomacy"
-      - "Personal heroic action and direct combat"
-      - "Psychological exploration of characters' inner lives"
-      - "Scientific explanations for magical phenomena"
-    correct_answer: 1
-    explanation: "The core idea explicitly states that sword and sorcery 'emphasizes personal heroic action and direct combat over large-scale political fantasy.'"
-  - type: multiple-choice
-    question: "What type of protagonist is characteristic of sword and sorcery narratives?"
-    options:
-      - "Scholarly mages studying ancient texts"
-      - "Political negotiators solving conflicts through diplomacy"
-      - "Skilled warriors facing magical threats in exotic settings"
-      - "Ordinary peasants discovering hidden powers"
-    correct_answer: 2
-    explanation: "The core idea states that 'protagonists are skilled warriors facing magical threats in exotic settings,' indicating martial skill and direct confrontation are central."
-  - type: true-false
-    question: "Sword and sorcery narratives prioritize elaborate worldbuilding and cosmological detail over action sequences."
-    correct_answer: false
-    explanation: "The core idea states that the subgenre 'prioritizes exciting action sequences and personal quests over elaborate worldbuilding,' showing action takes precedence."
-  - type: true-false
-    question: "Personal quests and exciting action are central to sword and sorcery narratives."
-    correct_answer: true
-    explanation: "The core idea explicitly identifies that sword and sorcery 'prioritizes exciting action sequences and personal quests.'"
-  - type: short-answer
-    question: "How does emphasizing personal heroic action allow sword and sorcery to move more quickly than elaborate fantasy worldbuilding?"
-    explanation: "A strong answer should explain that personal action narratives don't require detailed explanation of worldbuilding, governmental systems, or magical rules. Readers care about what the protagonist can do and achieve, not how the world functions comprehensively. Students should demonstrate understanding that narrative focus determines pacing."
+- question: What does sword and sorcery prioritize over large-scale political fantasy?
+  type: multiple-choice
+  options:
+  - Detailed governmental structures and diplomacy
+  - Personal heroic action and direct combat
+  - Psychological exploration of characters' inner lives
+  - Scientific explanations for magical phenomena
+  answer: 1
+  explanation: The core idea explicitly states that sword and sorcery 'emphasizes personal heroic action and direct combat over large-scale political fantasy.'
+
+- question: What type of protagonist is characteristic of sword and sorcery narratives?
+  type: multiple-choice
+  options:
+  - Scholarly mages studying ancient texts
+  - Political negotiators solving conflicts through diplomacy
+  - Skilled warriors facing magical threats in exotic settings
+  - Ordinary peasants discovering hidden powers
+  answer: 2
+  explanation: The core idea states that 'protagonists are skilled warriors facing magical threats in exotic settings,' indicating martial skill and direct confrontation are central.
+
+- question: Sword and sorcery narratives prioritize elaborate worldbuilding and cosmological detail over action sequences.
+  type: true-false
+  answer: false
+  explanation: The core idea states that the subgenre 'prioritizes exciting action sequences and personal quests over elaborate worldbuilding,' showing action takes precedence.
+
+- question: Personal quests and exciting action are central to sword and sorcery narratives.
+  type: true-false
+  answer: true
+  explanation: The core idea explicitly identifies that sword and sorcery 'prioritizes exciting action sequences and personal quests.'
+
+- question: How does emphasizing personal heroic action allow sword and sorcery to move more quickly than elaborate fantasy worldbuilding?
+  type: short-answer
+  explanation: A strong answer should explain that personal action narratives don't require detailed explanation of worldbuilding, governmental systems, or magical rules. Readers care about what the protagonist can do and achieve, not how the world functions comprehensively. Students should demonstrate understanding that narrative focus determines pacing.
 ```
 
 ## Explainer

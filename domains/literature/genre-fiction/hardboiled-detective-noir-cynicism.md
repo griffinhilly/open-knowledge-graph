@@ -23,36 +23,39 @@ Hardboiled detective fiction emphasizes corruption, cynicism, and moral ambiguit
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "Where do hardboiled detectives typically operate in relation to the legal system?"
-    options:
-      - "As official law enforcement officers"
-      - "Outside legal systems, in worlds where police are corrupt"
-      - "In cooperation with professional police departments"
-      - "As judges and legal authorities"
-    correct_answer: 1
-    explanation: "The core idea states that 'private investigators work outside legal systems in worlds where police are corrupt,' establishing the hardboiled detective's position as outside official law enforcement."
-  - type: multiple-choice
-    question: "What narrative style characterizes hardboiled detective fiction?"
-    options:
-      - "Ornate, flowery prose focused on emotional nuance"
-      - "Academic, formal language emphasizing legal precision"
-      - "Direct narration and hard-hitting prose"
-      - "Stream of consciousness focused on philosophical reflection"
-    correct_answer: 2
-    explanation: "The core idea specifies that the genre 'values direct narration and hard-hitting prose,' defining the stylistic approach characteristic of hardboiled fiction."
-  - type: true-false
-    question: "Hardboiled detectives typically operate in worlds where violence is uncommon."
-    correct_answer: false
-    explanation: "The core idea explicitly states that hardboiled detectives work 'in worlds where police are corrupt and violence is common,' indicating that violence is endemic to the hardboiled world."
-  - type: true-false
-    question: "The protagonists in hardboiled fiction tend to be morally compromised rather than purely virtuous."
-    correct_answer: true
-    explanation: "The core idea describes the protagonists as 'morally compromised protagonists operating in corrupt institutions,' indicating that moral compromise characterizes the genre's typical hero."
-  - type: short-answer
-    question: "Why do hardboiled detectives work outside the legal system rather than within it? What does this reveal about the genre's worldview?"
-    explanation: "A good answer should recognize that working outside legal systems indicates that official institutions (police, law) are corrupt or ineffective, and that justice cannot be achieved through legitimate channels. This reveals the genre's skepticism about institutional authority and its belief that the individual operative must act independently to address injustice. Students should understand this as both practical (corrupt cops won't help) and ideological (questioning whether justice is possible in corrupt systems)."
+- question: Where do hardboiled detectives typically operate in relation to the legal system?
+  type: multiple-choice
+  options:
+  - As official law enforcement officers
+  - Outside legal systems, in worlds where police are corrupt
+  - In cooperation with professional police departments
+  - As judges and legal authorities
+  answer: 1
+  explanation: The core idea states that 'private investigators work outside legal systems in worlds where police are corrupt,' establishing the hardboiled detective's position as outside official law enforcement.
+
+- question: What narrative style characterizes hardboiled detective fiction?
+  type: multiple-choice
+  options:
+  - Ornate, flowery prose focused on emotional nuance
+  - Academic, formal language emphasizing legal precision
+  - Direct narration and hard-hitting prose
+  - Stream of consciousness focused on philosophical reflection
+  answer: 2
+  explanation: The core idea specifies that the genre 'values direct narration and hard-hitting prose,' defining the stylistic approach characteristic of hardboiled fiction.
+
+- question: Hardboiled detectives typically operate in worlds where violence is uncommon.
+  type: true-false
+  answer: false
+  explanation: The core idea explicitly states that hardboiled detectives work 'in worlds where police are corrupt and violence is common,' indicating that violence is endemic to the hardboiled world.
+
+- question: The protagonists in hardboiled fiction tend to be morally compromised rather than purely virtuous.
+  type: true-false
+  answer: true
+  explanation: The core idea describes the protagonists as 'morally compromised protagonists operating in corrupt institutions,' indicating that moral compromise characterizes the genre's typical hero.
+
+- question: Why do hardboiled detectives work outside the legal system rather than within it? What does this reveal about the genre's worldview?
+  type: short-answer
+  explanation: A good answer should recognize that working outside legal systems indicates that official institutions (police, law) are corrupt or ineffective, and that justice cannot be achieved through legitimate channels. This reveals the genre's skepticism about institutional authority and its belief that the individual operative must act independently to address injustice. Students should understand this as both practical (corrupt cops won't help) and ideological (questioning whether justice is possible in corrupt systems).
 ```
 
 ## Explainer

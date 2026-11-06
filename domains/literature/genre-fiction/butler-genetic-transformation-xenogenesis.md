@@ -24,36 +24,39 @@ Octavia Butler's Xenogenesis trilogy explores alien genetic engineering and huma
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What is Butler's primary concern in exploring alien genetic engineering in Xenogenesis?"
-    options:
-      - "Whether humans can survive in space with alien technology"
-      - "How genetic transformation relates to questions of consent, agency, and survival"
-      - "Whether aliens are fundamentally evil and should be opposed"
-      - "How humans can achieve genetic perfection through hybridization"
-    correct_answer: 1
-    explanation: "The core idea states that Butler's fiction grapples with 'consent, agency, and survival' in the context of genetic transformation, indicating these are her central ethical and philosophical concerns."
-  - type: multiple-choice
-    question: "How does Butler use speculative biology in her fiction?"
-    options:
-      - "As pure imagination disconnected from real-world issues"
-      - "To explore abstract scientific questions in isolation"
-      - "To examine real questions of race, reproduction, and power through genetic transformation"
-      - "As a distraction from actual character development"
-    correct_answer: 2
-    explanation: "The core idea explicitly states that 'Butler's fiction uses speculative biology to examine real questions of race, reproduction, and power in the context of genetic transformation,' connecting fictional biology to actual social issues."
-  - type: true-false
-    question: "In Butler's Xenogenesis, genetic transformation by aliens raises genuine ethical questions about consent and human agency."
-    correct_answer: true
-    explanation: "The core idea identifies that the fiction grapples with 'consent, agency, and survival' in the context of genetic engineering, meaning these are not resolved issues but genuine dilemmas the fiction explores."
-  - type: true-false
-    question: "Butler treats human-alien hybridity as an unambiguous good that solves human problems without cost or complication."
-    correct_answer: false
-    explanation: "The core idea emphasizes that Butler 'grapples with' these questions, suggesting complexity and tension. Questions of consent and agency indicate that hybridity involves cost, dilemma, and risk, not simple benefit."
-  - type: short-answer
-    question: "Why is the question of consent crucial in Butler's depiction of genetic transformation by alien beings?"
-    explanation: "Good answers should address how consent connects to bodily autonomy, agency, and the ethics of transformation. If humans didn't consent to genetic modification, then the aliens are violating human bodily autonomy and agency. The question becomes how to balance survival (what the aliens offer) against agency and consent (what they may violate). This is especially significant given historical contexts of coerced reproduction and genetic intervention targeting specific populations."
+- question: What is Butler's primary concern in exploring alien genetic engineering in Xenogenesis?
+  type: multiple-choice
+  options:
+  - Whether humans can survive in space with alien technology
+  - How genetic transformation relates to questions of consent, agency, and survival
+  - Whether aliens are fundamentally evil and should be opposed
+  - How humans can achieve genetic perfection through hybridization
+  answer: 1
+  explanation: The core idea states that Butler's fiction grapples with 'consent, agency, and survival' in the context of genetic transformation, indicating these are her central ethical and philosophical concerns.
+
+- question: How does Butler use speculative biology in her fiction?
+  type: multiple-choice
+  options:
+  - As pure imagination disconnected from real-world issues
+  - To explore abstract scientific questions in isolation
+  - To examine real questions of race, reproduction, and power through genetic transformation
+  - As a distraction from actual character development
+  answer: 2
+  explanation: The core idea explicitly states that 'Butler's fiction uses speculative biology to examine real questions of race, reproduction, and power in the context of genetic transformation,' connecting fictional biology to actual social issues.
+
+- question: In Butler's Xenogenesis, genetic transformation by aliens raises genuine ethical questions about consent and human agency.
+  type: true-false
+  answer: true
+  explanation: The core idea identifies that the fiction grapples with 'consent, agency, and survival' in the context of genetic engineering, meaning these are not resolved issues but genuine dilemmas the fiction explores.
+
+- question: Butler treats human-alien hybridity as an unambiguous good that solves human problems without cost or complication.
+  type: true-false
+  answer: false
+  explanation: The core idea emphasizes that Butler 'grapples with' these questions, suggesting complexity and tension. Questions of consent and agency indicate that hybridity involves cost, dilemma, and risk, not simple benefit.
+
+- question: Why is the question of consent crucial in Butler's depiction of genetic transformation by alien beings?
+  type: short-answer
+  explanation: Good answers should address how consent connects to bodily autonomy, agency, and the ethics of transformation. If humans didn't consent to genetic modification, then the aliens are violating human bodily autonomy and agency. The question becomes how to balance survival (what the aliens offer) against agency and consent (what they may violate). This is especially significant given historical contexts of coerced reproduction and genetic intervention targeting specific populations.
 ```
 
 ## Explainer

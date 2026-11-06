@@ -34,40 +34,40 @@ Practice clapping rhythm patterns that include rests, using an open-palm "catch"
 ## Questions
 
 ```yaml
-- question: "What is a rest in music?"
-  type: mc
+- question: What is a rest in music?
+  type: multiple-choice
   options:
-    - "Taking a break to play later"
-    - "A symbol that means silence, a moment with no sound"
-    - "A slow part of a song"
-    - "A type of instrument"
+  - Taking a break to play later
+  - A symbol that means silence, a moment with no sound
+  - A slow part of a song
+  - A type of instrument
   answer: 1
-  explanation: "A rest is a symbol in written music that represents a moment of silence. It has a specific duration, just like a note does."
+  explanation: A rest is a symbol in written music that represents a moment of silence. It has a specific duration, just like a note does.
 
-- question: "In rhythm, a rest and a note of the same length create the same sound."
-  type: tf
+- question: In rhythm, a rest and a note of the same length create the same sound.
+  type: true-false
   answer: false
-  explanation: "No! A note makes a sound while a rest is silence. They have the same duration but very different effects on how the music sounds."
+  explanation: No! A note makes a sound while a rest is silence. They have the same duration but very different effects on how the music sounds.
 
-- question: "Why are rests important in music?"
-  type: mc
+- question: Why are rests important in music?
+  type: multiple-choice
   options:
-    - "They let musicians take a break"
-    - "They create space and help shape the rhythm and feeling of music"
-    - "They make songs shorter"
-    - "They make songs easier to play"
+  - They let musicians take a break
+  - They create space and help shape the rhythm and feeling of music
+  - They make songs shorter
+  - They make songs easier to play
   answer: 1
-  explanation: "Rests create silence that is just as important as the sounds. Silence in music makes space, adds drama, and shapes how the rhythm feels."
+  explanation: Rests create silence that is just as important as the sounds. Silence in music makes space, adds drama, and shapes how the rhythm feels.
 
-- question: "If you clap on a rest symbol while reading music, you are reading it correctly."
-  type: tf
+- question: If you clap on a rest symbol while reading music, you are reading it correctly.
+  type: true-false
   answer: false
-  explanation: "No! On a rest, you should be silent. Clapping during a rest means you read the symbol wrong."
+  explanation: No! On a rest, you should be silent. Clapping during a rest means you read the symbol wrong.
 
-- question: "Describe how rests can change how a song feels."
-  type: sa
-  answer: "Rests create silence and pauses that give the music space to breathe, can create dramatic effect, or make the music feel calm and open."
-  explanation: "A good answer shows that silence is part of the rhythm and that it can affect the mood and feeling of music, not just fill space."
+- question: Describe how rests can change how a song feels.
+  type: short-answer
+  answer: Rests create silence and pauses that give the music space to breathe, can create dramatic effect, or make the music feel calm and open.
+  explanation: A good answer shows that silence is part of the rhythm and that it can affect the mood and feeling of music, not just fill space.
 ```
 
 ## Explainer

@@ -27,35 +27,39 @@ Nonsense verse prioritizes sound, rhythm, and linguistic play over semantic cohe
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What is the primary function of nonsense verse in children's poetry?"
-    options:
-      - "To teach children clear semantic meaning"
-      - "To prioritize linguistic play, sound effects, and unconventional uses of language for pleasure, liberating poetry from demands for conventional meaning"
-      - "To make poetry confusing and unintelligible"
-      - "To eliminate rhythm and rhyme entirely"
-    answer: 1
-    explanation: "Nonsense verse celebrates language as sound and play rather than as a vehicle for clear meaning, inviting readers to enjoy linguistic creativity."
-  - question: "How does nonsense verse use invented words and unusual syntax?"
-    options:
-      - "To confuse readers intentionally"
-      - "To demonstrate language's flexibility and allow poets to create new sounds and meanings unconstrained by existing vocabulary"
-      - "Invented words are grammatically incorrect mistakes"
-      - "Unusual syntax prevents readers from understanding"
-    answer: 1
-    explanation: "Invented words and unusual syntax are sophisticated techniques allowing poets to explore what language can do beyond conventional communication."
+- question: What is the primary function of nonsense verse in children's poetry?
+  type: multiple-choice
+  options:
+  - To teach children clear semantic meaning
+  - To prioritize linguistic play, sound effects, and unconventional uses of language for pleasure, liberating poetry from demands for conventional meaning
+  - To make poetry confusing and unintelligible
+  - To eliminate rhythm and rhyme entirely
+  answer: 1
+  explanation: Nonsense verse celebrates language as sound and play rather than as a vehicle for clear meaning, inviting readers to enjoy linguistic creativity.
 
-true-false:
-  - question: "True or False: Nonsense verse requires no skill or sophistication because it abandons conventional meaning."
-    answer: false
-    explanation: "This is false. While nonsense prioritizes play, creating effective nonsense requires sophisticated understanding of rhythm, sound, and language structure."
-  - question: "True or False: Nonsense verse can be educational because it develops phonological awareness and playful understanding of language."
-    answer: true
-    explanation: "This is true. Engaging with sound patterns, invented words, and linguistic play develops sophisticated language awareness and creativity."
+- question: How does nonsense verse use invented words and unusual syntax?
+  type: multiple-choice
+  options:
+  - To confuse readers intentionally
+  - To demonstrate language's flexibility and allow poets to create new sounds and meanings unconstrained by existing vocabulary
+  - Invented words are grammatically incorrect mistakes
+  - Unusual syntax prevents readers from understanding
+  answer: 1
+  explanation: Invented words and unusual syntax are sophisticated techniques allowing poets to explore what language can do beyond conventional communication.
 
-short-answer:
-  - question: "Why might nonsense verse be particularly valuable for young readers' language development, even though (or precisely because) it abandons conventional meaning?"
-    explanation: "Nonsense verse liberates language from the singular focus on communicating fixed meanings, allowing children to experience language as material with sound properties, flexibility, and playful potential. When children encounter invented words like 'brillig' or 'tumblebum,' they experience language not as a fixed system to master but as creative medium they can play with. This builds phonological awareness—sensitivity to sound patterns—and demonstrates that language is flexible and generative. Furthermore, nonsense verse often combines sound play with rhythm and humor, making language learning intrinsically pleasurable rather than instrumental. A child delighting in the sounds of Shel Silverstein's poems is simultaneously developing language sophistication, phonological awareness, and appreciation for linguistic creativity. Nonsense verse also validates playing with language and breaking conventional rules as activities worthy of attention and respect, encouraging children to experiment with language themselves rather than treating it as a rigid system of rules to follow. Finally, by prioritizing sound and play over meaning, nonsense verse teaches that communication and meaning-making can happen through multiple channels simultaneously—through sound effects, visual imagery, wordplay—not just through explicit semantic content."
+- question: 'True or False: Nonsense verse requires no skill or sophistication because it abandons conventional meaning.'
+  type: true-false
+  answer: false
+  explanation: This is false. While nonsense prioritizes play, creating effective nonsense requires sophisticated understanding of rhythm, sound, and language structure.
+
+- question: 'True or False: Nonsense verse can be educational because it develops phonological awareness and playful understanding of language.'
+  type: true-false
+  answer: true
+  explanation: This is true. Engaging with sound patterns, invented words, and linguistic play develops sophisticated language awareness and creativity.
+
+- question: Why might nonsense verse be particularly valuable for young readers' language development, even though (or precisely because) it abandons conventional meaning?
+  type: short-answer
+  explanation: Nonsense verse liberates language from the singular focus on communicating fixed meanings, allowing children to experience language as material with sound properties, flexibility, and playful potential. When children encounter invented words like 'brillig' or 'tumblebum,' they experience language not as a fixed system to master but as creative medium they can play with. This builds phonological awareness—sensitivity to sound patterns—and demonstrates that language is flexible and generative. Furthermore, nonsense verse often combines sound play with rhythm and humor, making language learning intrinsically pleasurable rather than instrumental. A child delighting in the sounds of Shel Silverstein's poems is simultaneously developing language sophistication, phonological awareness, and appreciation for linguistic creativity. Nonsense verse also validates playing with language and breaking conventional rules as activities worthy of attention and respect, encouraging children to experiment with language themselves rather than treating it as a rigid system of rules to follow. Finally, by prioritizing sound and play over meaning, nonsense verse teaches that communication and meaning-making can happen through multiple channels simultaneously—through sound effects, visual imagery, wordplay—not just through explicit semantic content.
 ```
 
 ## Explainer

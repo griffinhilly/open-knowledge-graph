@@ -23,36 +23,39 @@ Genres establish contracts between authors and readers: readers expect certain c
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What is the 'reader contract' in genre fiction?"
-    options:
-      - "A legal binding agreement between reader and publisher"
-      - "An agreement where readers expect certain genre conventions in exchange for suspending disbelief"
-      - "A promise that all genre fiction must be commercially successful"
-      - "A requirement that all protagonists must survive to the end"
-    correct_answer: 1
-    explanation: "The core idea explicitly defines the reader contract as an expectation: 'readers expect certain conventions in exchange for suspension of disbelief.' This is the foundational compact that allows genre fiction to work."
-  - type: multiple-choice
-    question: "When is it acceptable to break a genre convention, such as killing a protagonist unexpectedly?"
-    options:
-      - "Never—genre conventions must always be maintained"
-      - "Only if the author is famous enough"
-      - "When the author has sufficient narrative authority and justification within the story"
-      - "Anytime the author wants to surprise readers"
-    correct_answer: 2
-    explanation: "The core idea states that 'breaking genre contracts... requires authorial authority and narrative justification,' indicating that rule-breaking needs both earned credibility and story-based reasons."
-  - type: true-false
-    question: "Successful genre fiction must always fulfill reader expectations exactly as they anticipate them."
-    correct_answer: false
-    explanation: "The core idea notes that successful genre fiction 'fulfills reader expectations while offering innovation'—meaning it must honor the contract but also provide something new, not merely repeat expectations."
-  - type: true-false
-    question: "The reader contract in genre fiction depends on readers being willing to suspend disbelief in the story world."
-    correct_answer: true
-    explanation: "The core idea directly states that 'readers expect certain conventions in exchange for suspension of disbelief,' making the reader's willingness to suspend disbelief central to the contract."
-  - type: short-answer
-    question: "Why does breaking a genre convention require 'authorial authority'? What gives an author this kind of authority?"
-    explanation: "A good answer should explain that authorial authority is earned through demonstrating competence within the genre (showing you understand the conventions before breaking them) and through narrative justification (making the rule-break feel inevitable and meaningful within the story). Students should recognize that authority isn't arbitrary but earned."
+- question: What is the 'reader contract' in genre fiction?
+  type: multiple-choice
+  options:
+  - A legal binding agreement between reader and publisher
+  - An agreement where readers expect certain genre conventions in exchange for suspending disbelief
+  - A promise that all genre fiction must be commercially successful
+  - A requirement that all protagonists must survive to the end
+  answer: 1
+  explanation: 'The core idea explicitly defines the reader contract as an expectation: ''readers expect certain conventions in exchange for suspension of disbelief.'' This is the foundational compact that allows genre fiction to work.'
+
+- question: When is it acceptable to break a genre convention, such as killing a protagonist unexpectedly?
+  type: multiple-choice
+  options:
+  - Never—genre conventions must always be maintained
+  - Only if the author is famous enough
+  - When the author has sufficient narrative authority and justification within the story
+  - Anytime the author wants to surprise readers
+  answer: 2
+  explanation: The core idea states that 'breaking genre contracts... requires authorial authority and narrative justification,' indicating that rule-breaking needs both earned credibility and story-based reasons.
+
+- question: Successful genre fiction must always fulfill reader expectations exactly as they anticipate them.
+  type: true-false
+  answer: false
+  explanation: The core idea notes that successful genre fiction 'fulfills reader expectations while offering innovation'—meaning it must honor the contract but also provide something new, not merely repeat expectations.
+
+- question: The reader contract in genre fiction depends on readers being willing to suspend disbelief in the story world.
+  type: true-false
+  answer: true
+  explanation: The core idea directly states that 'readers expect certain conventions in exchange for suspension of disbelief,' making the reader's willingness to suspend disbelief central to the contract.
+
+- question: Why does breaking a genre convention require 'authorial authority'? What gives an author this kind of authority?
+  type: short-answer
+  explanation: A good answer should explain that authorial authority is earned through demonstrating competence within the genre (showing you understand the conventions before breaking them) and through narrative justification (making the rule-break feel inevitable and meaningful within the story). Students should recognize that authority isn't arbitrary but earned.
 ```
 
 ## Explainer

@@ -34,40 +34,39 @@ Griots simply memorize and repeat fixed narratives. (Griots improvise within for
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What is the primary role of a griot in West African societies?"
-    options:
-      - "Griots are entertainers with no social importance"
-      - "Griots are valued specialists who preserve and transmit genealogies, histories, and epics; they are simultaneously historians, musicians, poets, and social commentators"
-      - "Griots are servants with no prestige or authority"
-      - "Griots are only concerned with entertainment and have no historical function"
-    correct: "B"
-    explanation: "Griots occupy a unique and prestigious position. They are trained specialists who master language, history, music, and performance. Their role combines what Western culture separates into distinct professions. A griot is historian, poet, musician, and social critic—all in one person."
+- question: What is the primary role of a griot in West African societies?
+  type: multiple-choice
+  options:
+  - Griots are entertainers with no social importance
+  - Griots are valued specialists who preserve and transmit genealogies, histories, and epics; they are simultaneously historians, musicians, poets, and social commentators
+  - Griots are servants with no prestige or authority
+  - Griots are only concerned with entertainment and have no historical function
+  answer: 1
+  explanation: Griots occupy a unique and prestigious position. They are trained specialists who master language, history, music, and performance. Their role combines what Western culture separates into distinct professions. A griot is historian, poet, musician, and social critic—all in one person.
 
-  - type: multiple-choice
-    question: "How do griots approach the narratives they perform, particularly regarding variation and adaptation?"
-    options:
-      - "Griots memorize narratives word-for-word and never vary from the original text"
-      - "Griots improvise randomly with no attention to tradition"
-      - "Griots improvise within formulaic structures, adapting their performance to audience, occasion, patron, and context"
-      - "Griots follow written scripts exactly"
-    correct: "C"
-    explanation: "Griots are skilled improvisers. They know the core narrative—the genealogies, historical events, epic structure—but adapt the performance. A performance for a patron involves different emphasis than one for community; a performance during a celebration differs from one during mourning. This flexibility is skill, not failure."
+- question: How do griots approach the narratives they perform, particularly regarding variation and adaptation?
+  type: multiple-choice
+  options:
+  - Griots memorize narratives word-for-word and never vary from the original text
+  - Griots improvise randomly with no attention to tradition
+  - Griots improvise within formulaic structures, adapting their performance to audience, occasion, patron, and context
+  - Griots follow written scripts exactly
+  answer: 2
+  explanation: Griots are skilled improvisers. They know the core narrative—the genealogies, historical events, epic structure—but adapt the performance. A performance for a patron involves different emphasis than one for community; a performance during a celebration differs from one during mourning. This flexibility is skill, not failure.
 
-  - type: true-false
-    question: "Griots function as neutral, objective historians comparable to modern academic historians."
-    correct: false
-    explanation: "Griots are advocates for their patrons, interpreters of events, musicians, and cultural voices. Their narratives serve social, political, and entertainment functions, not neutral documentation. They actively shape narratives to serve patrons and communities."
+- question: Griots function as neutral, objective historians comparable to modern academic historians.
+  type: true-false
+  answer: false
+  explanation: Griots are advocates for their patrons, interpreters of events, musicians, and cultural voices. Their narratives serve social, political, and entertainment functions, not neutral documentation. They actively shape narratives to serve patrons and communities.
 
-  - type: true-false
-    question: "The social status of griots is low because they are 'merely' entertainers."
-    correct: false
-    explanation: "Griots are valued specialists with significant social prestige. Their knowledge, skill, and cultural function make them important figures in their societies. They have access to powerful patrons and shape how history and genealogy are understood."
+- question: The social status of griots is low because they are 'merely' entertainers.
+  type: true-false
+  answer: false
+  explanation: Griots are valued specialists with significant social prestige. Their knowledge, skill, and cultural function make them important figures in their societies. They have access to powerful patrons and shape how history and genealogy are understood.
 
-  - type: short-answer
-    question: "Explain how the griot tradition represents a fundamentally different approach to history and culture transmission than Western written historical scholarship."
-    explanation: "Griots transmit history through performance, not through written documentation. This means history is alive, responsive, and situated in present social context. A griot performs history not as neutral fact but as narrative shaped by patron, audience, and occasion. The same events might be emphasized or minimized depending on who is listening. This makes griot history active and participatory—the audience is not consuming passive information but engaging in a social event where history is narrated and interpreted. Moreover, griots synthesize what Western culture separates: history and music, genealogy and poetry, documentation and interpretation. For a griot, these are inseparable. This reflects a worldview where knowledge is embedded in performance, in music, in social relationship. Griots also legitimize power through narratives of descent and deed—they establish why a particular family or person deserves authority by narrating their history. This means griots are not neutral observers but active participants in political and social structures. Understanding griots requires recognizing that oral history transmission serves functions written history does not: it creates community, honors patrons, establishes legitimacy, and keeps knowledge alive in social performance."
+- question: Explain how the griot tradition represents a fundamentally different approach to history and culture transmission than Western written historical scholarship.
+  type: short-answer
+  explanation: 'Griots transmit history through performance, not through written documentation. This means history is alive, responsive, and situated in present social context. A griot performs history not as neutral fact but as narrative shaped by patron, audience, and occasion. The same events might be emphasized or minimized depending on who is listening. This makes griot history active and participatory—the audience is not consuming passive information but engaging in a social event where history is narrated and interpreted. Moreover, griots synthesize what Western culture separates: history and music, genealogy and poetry, documentation and interpretation. For a griot, these are inseparable. This reflects a worldview where knowledge is embedded in performance, in music, in social relationship. Griots also legitimize power through narratives of descent and deed—they establish why a particular family or person deserves authority by narrating their history. This means griots are not neutral observers but active participants in political and social structures. Understanding griots requires recognizing that oral history transmission serves functions written history does not: it creates community, honors patrons, establishes legitimacy, and keeps knowledge alive in social performance.'
 ```
 
 ## Explainer

@@ -27,35 +27,39 @@ Chapter books employ episodic narrative structure where each chapter is a relati
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What is the primary structural advantage of episodic narrative for children learning to sustain reading through longer texts?"
-    options:
-      - "Each chapter can be read independently without understanding any other chapter"
-      - "Each chapter provides a satisfying narrative unit that builds comprehension confidence while individual episodes are short enough to complete in one sitting"
-      - "Episodes eliminate the need for character consistency across chapters"
-      - "Episodic structure guarantees that children will understand the overall plot"
-    answer: 1
-    explanation: "Episodic chapter structure balances accessibility with progression: each chapter is complete and satisfying in itself, building reading stamina and confidence, while chapters connect through recurring elements to maintain engagement across multiple reading sessions."
-  - question: "How does episodic structure in chapter books differ from a continuous, uninterrupted narrative?"
-    options:
-      - "Episodic chapters ignore character development entirely"
-      - "Each episode contains resolved conflicts while contributing to a larger arc, allowing stopping points and recap opportunities that don't exist in continuous narratives"
-      - "Episodic chapters cannot contain complex characterization"
-      - "Continuous narratives are always longer than episodic ones"
-    answer: 1
-    explanation: "Episodic narratives provide structural breathing points—each chapter can be a distinct unit while still advancing the larger story, enabling readers to pause, comprehend, and anticipate without losing narrative momentum."
+- question: What is the primary structural advantage of episodic narrative for children learning to sustain reading through longer texts?
+  type: multiple-choice
+  options:
+  - Each chapter can be read independently without understanding any other chapter
+  - Each chapter provides a satisfying narrative unit that builds comprehension confidence while individual episodes are short enough to complete in one sitting
+  - Episodes eliminate the need for character consistency across chapters
+  - Episodic structure guarantees that children will understand the overall plot
+  answer: 1
+  explanation: 'Episodic chapter structure balances accessibility with progression: each chapter is complete and satisfying in itself, building reading stamina and confidence, while chapters connect through recurring elements to maintain engagement across multiple reading sessions.'
 
-true-false:
-  - question: "True or False: In an episodic chapter book, each chapter must be completely unrelated to every other chapter."
-    answer: false
-    explanation: "This is false. While each chapter can stand alone as a unit, episodic chapter books connect episodes through recurring characters, settings, and themes that create continuity and cumulative meaning."
-  - question: "True or False: The episodic structure of chapter books is primarily designed to make reading less challenging for children."
-    answer: true
-    explanation: "This is true. Episodic chapters provide scaffolding for sustained reading by breaking narrative into manageable units that can be completed in single sessions, building reading stamina gradually."
+- question: How does episodic structure in chapter books differ from a continuous, uninterrupted narrative?
+  type: multiple-choice
+  options:
+  - Episodic chapters ignore character development entirely
+  - Each episode contains resolved conflicts while contributing to a larger arc, allowing stopping points and recap opportunities that don't exist in continuous narratives
+  - Episodic chapters cannot contain complex characterization
+  - Continuous narratives are always longer than episodic ones
+  answer: 1
+  explanation: Episodic narratives provide structural breathing points—each chapter can be a distinct unit while still advancing the larger story, enabling readers to pause, comprehend, and anticipate without losing narrative momentum.
 
-short-answer:
-  - question: "Why might an author structure a story about a character's year at school as distinct chapters representing individual school days or weeks rather than as a single continuous narrative?"
-    explanation: "Episodic chapter structure mirrors the actual rhythm of children's experience—days and weeks are natural units of time for young readers—and allows each chapter to present a complete conflict and resolution while cumulatively building toward larger themes. The structure also enables readers to process information in digestible units, pause without losing comprehension, and anticipate what might happen next based on the pattern established. Additionally, episodic structure allows younger readers to experience the satisfaction of narrative closure multiple times (once per chapter) rather than waiting until the end of the entire book, which sustains motivation and reading confidence."
+- question: 'True or False: In an episodic chapter book, each chapter must be completely unrelated to every other chapter.'
+  type: true-false
+  answer: false
+  explanation: This is false. While each chapter can stand alone as a unit, episodic chapter books connect episodes through recurring characters, settings, and themes that create continuity and cumulative meaning.
+
+- question: 'True or False: The episodic structure of chapter books is primarily designed to make reading less challenging for children.'
+  type: true-false
+  answer: true
+  explanation: This is true. Episodic chapters provide scaffolding for sustained reading by breaking narrative into manageable units that can be completed in single sessions, building reading stamina gradually.
+
+- question: Why might an author structure a story about a character's year at school as distinct chapters representing individual school days or weeks rather than as a single continuous narrative?
+  type: short-answer
+  explanation: Episodic chapter structure mirrors the actual rhythm of children's experience—days and weeks are natural units of time for young readers—and allows each chapter to present a complete conflict and resolution while cumulatively building toward larger themes. The structure also enables readers to process information in digestible units, pause without losing comprehension, and anticipate what might happen next based on the pattern established. Additionally, episodic structure allows younger readers to experience the satisfaction of narrative closure multiple times (once per chapter) rather than waiting until the end of the entire book, which sustains motivation and reading confidence.
 ```
 
 ## Explainer

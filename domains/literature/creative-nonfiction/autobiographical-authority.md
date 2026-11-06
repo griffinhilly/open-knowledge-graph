@@ -26,39 +26,39 @@ The writer's personal presence in nonfiction creates a specific kind of authorit
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What is the primary source of autobiographical authority in nonfiction?"
+- question: What is the primary source of autobiographical authority in nonfiction?
+  type: multiple-choice
   options:
-    - "The writer's educational credentials and professional expertise."
-    - "The claim to direct, lived experience of the events being narrated."
-    - "The publisher's reputation and market success."
-    - "The use of third-person narration to create distance and objectivity."
+  - The writer's educational credentials and professional expertise.
+  - The claim to direct, lived experience of the events being narrated.
+  - The publisher's reputation and market success.
+  - The use of third-person narration to create distance and objectivity.
   answer: 1
-  explanation: "Autobiographical authority comes from the writer's insider status—they were there, they experienced it. This is different from journalistic authority (research and corroboration) or academic authority (credentials). The 'I' in a memoir or essay claims access to inner experience and direct observation that third parties don't have. This gives the writer power but also obligates truthfulness."
+  explanation: Autobiographical authority comes from the writer's insider status—they were there, they experienced it. This is different from journalistic authority (research and corroboration) or academic authority (credentials). The 'I' in a memoir or essay claims access to inner experience and direct observation that third parties don't have. This gives the writer power but also obligates truthfulness.
 
-- type: multiple-choice
-  question: "How does autobiographical authority differ from other forms of credibility in nonfiction writing?"
+- question: How does autobiographical authority differ from other forms of credibility in nonfiction writing?
+  type: multiple-choice
   options:
-    - "It's less reliable because personal experience is always subjective."
-    - "It grants the writer authority to speak from within an experience while requiring transparency about perspective and limitations."
-    - "It is the same as journalistic objectivity, just written in first person."
-    - "It requires the writer to be an expert in the field they're writing about."
+  - It's less reliable because personal experience is always subjective.
+  - It grants the writer authority to speak from within an experience while requiring transparency about perspective and limitations.
+  - It is the same as journalistic objectivity, just written in first person.
+  - It requires the writer to be an expert in the field they're writing about.
   answer: 1
-  explanation: "Autobiographical authority is unique because it embraces subjectivity—the writer's authority comes from having lived through something, not from attempting objectivity. But this creates responsibility: the writer must be truthful about what they actually experienced, must acknowledge the limitations of their perspective, and must distinguish between fact and interpretation. It's powerful precisely because it's personal, not despite that."
+  explanation: 'Autobiographical authority is unique because it embraces subjectivity—the writer''s authority comes from having lived through something, not from attempting objectivity. But this creates responsibility: the writer must be truthful about what they actually experienced, must acknowledge the limitations of their perspective, and must distinguish between fact and interpretation. It''s powerful precisely because it''s personal, not despite that.'
 
-- type: true-false
-  statement: "True: A writer's autobiographical authority gives them absolute right to present their experience however they choose, without concern for how it affects others."
+- question: 'True: A writer''s autobiographical authority gives them absolute right to present their experience however they choose, without concern for how it affects others.'
+  type: true-false
   answer: false
-  explanation: "Autobiographical authority comes with responsibility. While the writer has unquestionable authority over their own experience, they must still consider ethical obligations to others depicted in their narrative. Privacy, dignity, and accuracy matter even in personal writing. Authority over experience doesn't mean license to distort or harm."
+  explanation: Autobiographical authority comes with responsibility. While the writer has unquestionable authority over their own experience, they must still consider ethical obligations to others depicted in their narrative. Privacy, dignity, and accuracy matter even in personal writing. Authority over experience doesn't mean license to distort or harm.
 
-- type: true-false
-  statement: "True: If a reader questions whether something actually happened in a memoir, they're attacking the writer's authority to speak from lived experience."
+- question: 'True: If a reader questions whether something actually happened in a memoir, they''re attacking the writer''s authority to speak from lived experience.'
+  type: true-false
   answer: false
-  explanation: "Readers can acknowledge a writer's authority over their lived experience while still asking critical questions about memory, interpretation, and representation. A reader asking 'How accurate is this account of a conversation?' isn't denying the writer's autobiographical authority; they're engaging with the responsibilities that accompany it. Good nonfiction invites such questions."
+  explanation: Readers can acknowledge a writer's authority over their lived experience while still asking critical questions about memory, interpretation, and representation. A reader asking 'How accurate is this account of a conversation?' isn't denying the writer's autobiographical authority; they're engaging with the responsibilities that accompany it. Good nonfiction invites such questions.
 
-- type: short-answer
-  question: "Why might a writer have strong autobiographical authority to write a memoir about their own trauma, yet still need to be careful about how they represent dialogue, internal motivations of others, or disputed facts? What does this teach us about the limits of autobiographical authority?"
-  explanation: "A writer has absolute authority over their own experience—what they felt, how they understood things, their perspective on events. But they don't have direct access to others' thoughts or motivations, and memory of dialogue is notoriously unreliable. Autobiographical authority covers 'what it felt like to be me in this situation' but not 'what was objectively true about what happened.' This shows that autobiographical authority is real and powerful but not unlimited. It's most honest when writers distinguish between what they directly experienced and what they're interpreting or reconstructing. This transparency actually strengthens authority rather than weakening it, because it signals an honest engagement with the limitations of first-person narration."
+- question: Why might a writer have strong autobiographical authority to write a memoir about their own trauma, yet still need to be careful about how they represent dialogue, internal motivations of others, or disputed facts? What does this teach us about the limits of autobiographical authority?
+  type: short-answer
+  explanation: A writer has absolute authority over their own experience—what they felt, how they understood things, their perspective on events. But they don't have direct access to others' thoughts or motivations, and memory of dialogue is notoriously unreliable. Autobiographical authority covers 'what it felt like to be me in this situation' but not 'what was objectively true about what happened.' This shows that autobiographical authority is real and powerful but not unlimited. It's most honest when writers distinguish between what they directly experienced and what they're interpreting or reconstructing. This transparency actually strengthens authority rather than weakening it, because it signals an honest engagement with the limitations of first-person narration.
 ```
 
 ## Explainer

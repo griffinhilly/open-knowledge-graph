@@ -27,35 +27,39 @@ Representation in children's literature—depicting protagonists and perspective
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "Why is representation of diverse protagonists and perspectives important in children's literature?"
-    options:
-      - "Representation has no effect on children's development or identity"
-      - "Children from marginalized groups who see themselves represented in literature develop stronger identity affirmation, and all children benefit from encountering diverse perspectives"
-      - "Only majority-culture children need or deserve representation"
-      - "Books should exclude diverse characters"
-    answer: 1
-    explanation: "Representation matters developmentally and socially: children who see themselves in literature develop stronger self-affirmation, and diverse literature expands all children's understanding."
-  - question: "What does the #OwnVoices movement emphasize in discussions of authentic representation?"
-    options:
-      - "Anyone can authentically represent any identity they choose"
-      - "Lived experience and authority from belonging to a community lend authenticity to representation of that community"
-      - "Authenticity is irrelevant to representation"
-      - "All representations are equally authentic"
-    answer: 1
-    explanation: "The #OwnVoices movement emphasizes that writers with lived experience of particular identities bring distinctive authority and authenticity to representation."
+- question: Why is representation of diverse protagonists and perspectives important in children's literature?
+  type: multiple-choice
+  options:
+  - Representation has no effect on children's development or identity
+  - Children from marginalized groups who see themselves represented in literature develop stronger identity affirmation, and all children benefit from encountering diverse perspectives
+  - Only majority-culture children need or deserve representation
+  - Books should exclude diverse characters
+  answer: 1
+  explanation: 'Representation matters developmentally and socially: children who see themselves in literature develop stronger self-affirmation, and diverse literature expands all children''s understanding.'
 
-true-false:
-  - question: "True or False: Children from marginalized communities benefit from seeing themselves represented as protagonists in literature."
-    answer: true
-    explanation: "This is true. Research shows children develop stronger self-esteem and sense of possibility when they see protagonists similar to themselves succeeding."
-  - question: "True or False: Diverse representation in children's literature is solely a matter of moral representation with no literary significance."
-    answer: false
-    explanation: "This is false. Diverse representation expands literary possibilities and creates richer, more varied literature benefiting all readers."
+- question: 'What does the #OwnVoices movement emphasize in discussions of authentic representation?'
+  type: multiple-choice
+  options:
+  - Anyone can authentically represent any identity they choose
+  - Lived experience and authority from belonging to a community lend authenticity to representation of that community
+  - Authenticity is irrelevant to representation
+  - All representations are equally authentic
+  answer: 1
+  explanation: 'The #OwnVoices movement emphasizes that writers with lived experience of particular identities bring distinctive authority and authenticity to representation.'
 
-short-answer:
-  - question: "How does seeing oneself represented in literature as a protagonist (rather than as an absence, stereotype, or minor character) affect children's development and relationship to reading?"
-    explanation: "When a child from a marginalized community sees a protagonist from their community as the central character—making choices, facing challenges, growing and changing—several developmental effects occur. First, the child internalizes that people like them are worthy of being stories' protagonists, that their experiences and perspectives are narratively important. This increases self-affirmation and sense of possibility: if a character like me can be a hero in a story, perhaps I can be an active agent in my own life. Second, seeing one's identity depicted authentically and complexly rather than stereotypically develops stronger identity integration. A child encountering realistic, complex protagonists from their community develops more nuanced self-understanding than a child seeing stereotypes or no representation at all. Third, literature offers psychological modeling—children learn how characters navigate challenges and develop capabilities by observing protagonists in narrative. Characters from marginalized communities facing real-world challenges provide especially valuable modeling for children facing similar challenges. Additionally, all children benefit from encountering diverse protagonists and perspectives: they develop understanding that human experience is vast and varied, that perspectives different from their own are valid and valuable, and that stories from diverse communities are narratively interesting and worth engaging with."
+- question: 'True or False: Children from marginalized communities benefit from seeing themselves represented as protagonists in literature.'
+  type: true-false
+  answer: true
+  explanation: This is true. Research shows children develop stronger self-esteem and sense of possibility when they see protagonists similar to themselves succeeding.
+
+- question: 'True or False: Diverse representation in children''s literature is solely a matter of moral representation with no literary significance.'
+  type: true-false
+  answer: false
+  explanation: This is false. Diverse representation expands literary possibilities and creates richer, more varied literature benefiting all readers.
+
+- question: How does seeing oneself represented in literature as a protagonist (rather than as an absence, stereotype, or minor character) affect children's development and relationship to reading?
+  type: short-answer
+  explanation: 'When a child from a marginalized community sees a protagonist from their community as the central character—making choices, facing challenges, growing and changing—several developmental effects occur. First, the child internalizes that people like them are worthy of being stories'' protagonists, that their experiences and perspectives are narratively important. This increases self-affirmation and sense of possibility: if a character like me can be a hero in a story, perhaps I can be an active agent in my own life. Second, seeing one''s identity depicted authentically and complexly rather than stereotypically develops stronger identity integration. A child encountering realistic, complex protagonists from their community develops more nuanced self-understanding than a child seeing stereotypes or no representation at all. Third, literature offers psychological modeling—children learn how characters navigate challenges and develop capabilities by observing protagonists in narrative. Characters from marginalized communities facing real-world challenges provide especially valuable modeling for children facing similar challenges. Additionally, all children benefit from encountering diverse protagonists and perspectives: they develop understanding that human experience is vast and varied, that perspectives different from their own are valid and valuable, and that stories from diverse communities are narratively interesting and worth engaging with.'
 ```
 
 ## Explainer

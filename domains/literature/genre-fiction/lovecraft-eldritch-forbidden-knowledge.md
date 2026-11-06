@@ -23,36 +23,39 @@ H.P. Lovecraft created a shared universe featuring incomprehensibly vast entitie
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What type of horror does Lovecraft emphasize in his work?"
-    options:
-      - "Human-scale interpersonal conflict"
-      - "Supernatural ghosts and spirits"
-      - "Humanity's cosmic insignificance and incomprehensibly vast entities"
-      - "Realistic mundane fears"
-    correct_answer: 2
-    explanation: "The core idea states his horror 'emphasizes humanity's cosmic insignificance and the danger of forbidden knowledge' and features 'incomprehensibly vast entities,' establishing cosmic insignificance as his horror's foundation."
-  - type: multiple-choice
-    question: "What role do forbidden texts play in Lovecraft's horror?"
-    options:
-      - "They are background decoration"
-      - "They contain knowledge that drives readers mad"
-      - "They are purely fictional with no effect on characters"
-      - "They teach readers helpful information"
-    correct_answer: 1
-    explanation: "The core idea references 'forbidden texts that drive readers mad,' indicating that accessing forbidden knowledge is itself dangerous and terrifying in Lovecraft's universe."
-  - type: true-false
-    question: "The Cthulhu Mythos is Lovecraft's invention that has been isolated to his own stories."
-    correct_answer: false
-    explanation: "The core idea states the Cthulhu Mythos 'has profoundly influenced horror, fantasy, and cosmic fiction for over a century' and is described as a 'shared universe,' indicating it has been developed and expanded by many authors."
-  - type: true-false
-    question: "In Lovecraft's horror, knowledge and discovery are dangerous and potentially sanity-threatening."
-    correct_answer: true
-    explanation: "The core idea emphasizes 'the danger of forbidden knowledge' and mentions 'forbidden texts that drive readers mad,' indicating that learning certain things is inherently dangerous."
-  - type: short-answer
-    question: "How does the concept of 'cosmic insignificance' function as a source of horror? Why is humanity's smallness in the universe frightening?"
-    explanation: "A good answer should recognize that cosmic insignificance undermines the human sense of importance, meaning, and control. If humanity is tiny and insignificant in a vast universe populated by incomprehensible entities, then human concerns, values, and survival are fundamentally unimportant. This creates existential horror—not fear of death but fear of meaninglessness. Traditional horror asks 'will I survive?' Cosmic horror asks 'does my survival matter?' Students should understand this as philosophical horror grounded in existential dread."
+- question: What type of horror does Lovecraft emphasize in his work?
+  type: multiple-choice
+  options:
+  - Human-scale interpersonal conflict
+  - Supernatural ghosts and spirits
+  - Humanity's cosmic insignificance and incomprehensibly vast entities
+  - Realistic mundane fears
+  answer: 2
+  explanation: The core idea states his horror 'emphasizes humanity's cosmic insignificance and the danger of forbidden knowledge' and features 'incomprehensibly vast entities,' establishing cosmic insignificance as his horror's foundation.
+
+- question: What role do forbidden texts play in Lovecraft's horror?
+  type: multiple-choice
+  options:
+  - They are background decoration
+  - They contain knowledge that drives readers mad
+  - They are purely fictional with no effect on characters
+  - They teach readers helpful information
+  answer: 1
+  explanation: The core idea references 'forbidden texts that drive readers mad,' indicating that accessing forbidden knowledge is itself dangerous and terrifying in Lovecraft's universe.
+
+- question: The Cthulhu Mythos is Lovecraft's invention that has been isolated to his own stories.
+  type: true-false
+  answer: false
+  explanation: The core idea states the Cthulhu Mythos 'has profoundly influenced horror, fantasy, and cosmic fiction for over a century' and is described as a 'shared universe,' indicating it has been developed and expanded by many authors.
+
+- question: In Lovecraft's horror, knowledge and discovery are dangerous and potentially sanity-threatening.
+  type: true-false
+  answer: true
+  explanation: The core idea emphasizes 'the danger of forbidden knowledge' and mentions 'forbidden texts that drive readers mad,' indicating that learning certain things is inherently dangerous.
+
+- question: How does the concept of 'cosmic insignificance' function as a source of horror? Why is humanity's smallness in the universe frightening?
+  type: short-answer
+  explanation: A good answer should recognize that cosmic insignificance undermines the human sense of importance, meaning, and control. If humanity is tiny and insignificant in a vast universe populated by incomprehensible entities, then human concerns, values, and survival are fundamentally unimportant. This creates existential horror—not fear of death but fear of meaninglessness. Traditional horror asks 'will I survive?' Cosmic horror asks 'does my survival matter?' Students should understand this as philosophical horror grounded in existential dread.
 ```
 
 ## Explainer

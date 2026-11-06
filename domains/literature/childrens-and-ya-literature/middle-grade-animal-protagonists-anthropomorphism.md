@@ -31,35 +31,39 @@ Compare animal protagonists across canonical works ('Charlotte's Web,' 'Watershi
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What narrative advantage does an animal protagonist provide that a human protagonist might not?"
-    options:
-      - "Animal protagonists are always less interesting than human protagonists"
-      - "Animal protagonists' vulnerability and size difference from humans creates natural power dynamics and invites reader identification with the underdog or vulnerable position"
-      - "There is no advantage to using animal protagonists"
-      - "Animal stories are inherently inferior to human-centered stories"
-    answer: 1
-    explanation: "Animal protagonists are small, vulnerable, and exist in a world where humans are larger and more powerful. This creates natural vulnerability and power differentials that parallel childhood experiences, making animal protagonists particularly effective for middle-grade fiction."
-  - question: "How does anthropomorphism function thematically in animal-protagonist stories like 'Charlotte's Web'?"
-    options:
-      - "It serves no thematic purpose"
-      - "By giving animals human emotions, language, and consciousness while retaining animal characteristics, the story explores friendship, mortality, and sacrifice in ways that feel accessible through the psychological distance the animal framing provides"
-      - "Anthropomorphism is purely for entertainment"
-      - "It makes the story less meaningful"
-    answer: 1
-    explanation: "Anthropomorphism allows readers to engage emotionally with Charlotte's friendship, sacrifice, and death while the animal framing provides psychological distance—readers can process heavy themes through the 'lens' of animal characters."
+- question: What narrative advantage does an animal protagonist provide that a human protagonist might not?
+  type: multiple-choice
+  options:
+  - Animal protagonists are always less interesting than human protagonists
+  - Animal protagonists' vulnerability and size difference from humans creates natural power dynamics and invites reader identification with the underdog or vulnerable position
+  - There is no advantage to using animal protagonists
+  - Animal stories are inherently inferior to human-centered stories
+  answer: 1
+  explanation: Animal protagonists are small, vulnerable, and exist in a world where humans are larger and more powerful. This creates natural vulnerability and power differentials that parallel childhood experiences, making animal protagonists particularly effective for middle-grade fiction.
 
-true-false:
-  - question: "True or False: Animal protagonists are limited to picture books and early readers; middle-grade literature primarily features human protagonists."
-    answer: false
-    explanation: "False. Animal protagonists dominate middle-grade literature—from classic canonical works to contemporary series, animal characters are central to the genre."
-  - question: "True or False: Anthropomorphic characters can be as psychologically complex and emotionally compelling as human protagonists."
-    answer: true
-    explanation: "True. Works like 'Watership Down' demonstrate that animal characters with human psychology can be profoundly complex, facing genuine moral dilemmas and psychological development."
+- question: How does anthropomorphism function thematically in animal-protagonist stories like 'Charlotte's Web'?
+  type: multiple-choice
+  options:
+  - It serves no thematic purpose
+  - By giving animals human emotions, language, and consciousness while retaining animal characteristics, the story explores friendship, mortality, and sacrifice in ways that feel accessible through the psychological distance the animal framing provides
+  - Anthropomorphism is purely for entertainment
+  - It makes the story less meaningful
+  answer: 1
+  explanation: Anthropomorphism allows readers to engage emotionally with Charlotte's friendship, sacrifice, and death while the animal framing provides psychological distance—readers can process heavy themes through the 'lens' of animal characters.
 
-short-answer:
-  - question: "Choose an animal-protagonist middle-grade book you know. Explain how the animal characteristics of the protagonist shape the story's themes or narrative in ways a human protagonist could not."
-    explanation: "Your answer should identify how animal-specific features matter to the narrative. In 'Charlotte's Web,' Wilbur is a pig facing slaughter—his animal nature makes the stakes specific and visceral in ways a human character couldn't. The pig's vulnerability and ultimate inability to prevent his slaughter despite friendship and love adds to the story's poignancy. In 'Watership Down,' the rabbits' vulnerability to predators, their warren social structure, and their natural behaviors create specific narrative challenges and themes about survival, community, and power. In 'Babe,' the pig's status as livestock destined for slaughter creates the story's fundamental tension. The point is that animal protagonists aren't simply humans in animal form—their animal nature creates specific narrative and thematic possibilities."
+- question: 'True or False: Animal protagonists are limited to picture books and early readers; middle-grade literature primarily features human protagonists.'
+  type: true-false
+  answer: false
+  explanation: False. Animal protagonists dominate middle-grade literature—from classic canonical works to contemporary series, animal characters are central to the genre.
+
+- question: 'True or False: Anthropomorphic characters can be as psychologically complex and emotionally compelling as human protagonists.'
+  type: true-false
+  answer: true
+  explanation: True. Works like 'Watership Down' demonstrate that animal characters with human psychology can be profoundly complex, facing genuine moral dilemmas and psychological development.
+
+- question: Choose an animal-protagonist middle-grade book you know. Explain how the animal characteristics of the protagonist shape the story's themes or narrative in ways a human protagonist could not.
+  type: short-answer
+  explanation: Your answer should identify how animal-specific features matter to the narrative. In 'Charlotte's Web,' Wilbur is a pig facing slaughter—his animal nature makes the stakes specific and visceral in ways a human character couldn't. The pig's vulnerability and ultimate inability to prevent his slaughter despite friendship and love adds to the story's poignancy. In 'Watership Down,' the rabbits' vulnerability to predators, their warren social structure, and their natural behaviors create specific narrative challenges and themes about survival, community, and power. In 'Babe,' the pig's status as livestock destined for slaughter creates the story's fundamental tension. The point is that animal protagonists aren't simply humans in animal form—their animal nature creates specific narrative and thematic possibilities.
 ```
 
 ## Explainer

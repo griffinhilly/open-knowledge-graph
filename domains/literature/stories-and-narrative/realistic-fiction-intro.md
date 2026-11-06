@@ -30,35 +30,40 @@ Read a realistic fiction story and identify: What makes this feel like 'real lif
 ## Questions
 
 ```yaml
-- question: "A story depicts a teenager dealing with pressure from family and peers to choose a career path they don't want. The story shows the conflict between the teen's dreams and others' expectations, family dinner arguments about the future, and the teen's anxiety about disappointing people they love. No magic occurs; all events are realistic. Is this realistic fiction?"
+- question: A story depicts a teenager dealing with pressure from family and peers to choose a career path they don't want. The story shows the conflict between the teen's dreams and others' expectations, family dinner arguments about the future, and the teen's anxiety about disappointing people they love. No magic occurs; all events are realistic. Is this realistic fiction?
+  type: multiple-choice
   options:
-    - "No, because it's about everyday problems"
-    - "Yes, this is realistic fiction. The conflict is internal and relational, grounded in real human experience. No magical elements exist. The story explores genuine concerns that many people face. Realistic fiction doesn't require extraordinary plot events; character conflict and development create the story"
-    - "Realistic fiction must have exciting external events"
-    - "Conflict must be magical to be interesting"
+  - No, because it's about everyday problems
+  - Yes, this is realistic fiction. The conflict is internal and relational, grounded in real human experience. No magical elements exist. The story explores genuine concerns that many people face. Realistic fiction doesn't require extraordinary plot events; character conflict and development create the story
+  - Realistic fiction must have exciting external events
+  - Conflict must be magical to be interesting
   answer: 1
-  explanation: "Realistic fiction's power comes from showing human truths through plausible scenarios. A story about family pressure and personal dreams can be gripping because these are real concerns. The absence of magic doesn't make realistic fiction less powerful—it makes it intimate, relatable, and deeply human."
+  explanation: Realistic fiction's power comes from showing human truths through plausible scenarios. A story about family pressure and personal dreams can be gripping because these are real concerns. The absence of magic doesn't make realistic fiction less powerful—it makes it intimate, relatable, and deeply human.
 
-- question: "A contemporary story is set in modern-day New York City. It includes all realistic details: actual locations, accurate technology, recognizable social dynamics. However, the main character has a superpower that appears partway through the story. Is this realistic fiction?"
+- question: 'A contemporary story is set in modern-day New York City. It includes all realistic details: actual locations, accurate technology, recognizable social dynamics. However, the main character has a superpower that appears partway through the story. Is this realistic fiction?'
+  type: multiple-choice
   options:
-    - "Yes, because it's set in the modern day"
-    - "No, this is not realistic fiction. Realistic fiction requires that everything that happens could occur in the real world. The introduction of a superpower violates that rule. This is science fiction or superhero fiction, even though the setting is contemporary. Contemporary setting doesn't make a story realistic if it includes fantastical elements"
-    - "Any modern setting is realistic fiction"
-    - "Superpowers can exist in realistic fiction"
+  - Yes, because it's set in the modern day
+  - No, this is not realistic fiction. Realistic fiction requires that everything that happens could occur in the real world. The introduction of a superpower violates that rule. This is science fiction or superhero fiction, even though the setting is contemporary. Contemporary setting doesn't make a story realistic if it includes fantastical elements
+  - Any modern setting is realistic fiction
+  - Superpowers can exist in realistic fiction
   answer: 1
-  explanation: "Realistic fiction requires adherence to how the real world actually works. Contemporary setting is not enough—the story's events must be plausibly real. Adding fantastical elements changes the genre, regardless of setting."
+  explanation: Realistic fiction requires adherence to how the real world actually works. Contemporary setting is not enough—the story's events must be plausibly real. Adding fantastical elements changes the genre, regardless of setting.
 
-- question: "True or False: A realistic fiction story must be set in the present day."
+- question: 'True or False: A realistic fiction story must be set in the present day.'
+  type: true-false
   answer: false
-  explanation: "Realistic fiction can be set in the past, present, or even projected future, as long as the world follows rules of our actual reality. Historical fiction is often realistic fiction because it depicts historical times and events (with fictional characters added to real events)."
+  explanation: Realistic fiction can be set in the past, present, or even projected future, as long as the world follows rules of our actual reality. Historical fiction is often realistic fiction because it depicts historical times and events (with fictional characters added to real events).
 
-- question: "True or False: Realistic fiction is less artistic or sophisticated than fantasy or science fiction."
+- question: 'True or False: Realistic fiction is less artistic or sophisticated than fantasy or science fiction.'
+  type: true-false
   answer: false
-  explanation: "All genres can be sophisticated or simplistic. Realistic fiction demands that authors create compelling meaning without fantastical elements. This often requires more nuance in character development and emotional truth. Complexity and artistry aren't dependent on genre."
+  explanation: All genres can be sophisticated or simplistic. Realistic fiction demands that authors create compelling meaning without fantastical elements. This often requires more nuance in character development and emotional truth. Complexity and artistry aren't dependent on genre.
 
-- question: "A realistic fiction story about a high school senior features: academic pressure, friendship dynamics, family expectations, romantic interest, and the character's struggle to figure out who they are and what they want. Nothing magical or fantastical occurs. The narrative moves through the character's internal and relational world. Why might some readers find this more affecting than an action-packed fantasy story?"
-  answer: "Because the conflicts are recognizable and personally relevant. Readers who've faced similar pressures, friendships, or identity questions see themselves in the character. The story mirrors real experience. Additionally, without fantastical elements, the character can't solve problems magically—they must navigate real consequences and limitations, which feels true to actual life. The emotional weight comes from this authenticity: if this character faces these real pressures, what choices will they make? What will they learn? This immediacy and relevance creates powerful reader engagement. Fantasy and action stories create excitement; realistic fiction creates resonance."
-  explanation: "This tests understanding that realistic fiction's power comes from authenticity and relatability. By avoiding magic and fantastical solutions, realistic fiction forces characters to navigate real constraints and real consequences, which often mirrors readers' actual experience more directly than fantasy can."
+- question: 'A realistic fiction story about a high school senior features: academic pressure, friendship dynamics, family expectations, romantic interest, and the character''s struggle to figure out who they are and what they want. Nothing magical or fantastical occurs. The narrative moves through the character''s internal and relational world. Why might some readers find this more affecting than an action-packed fantasy story?'
+  type: short-answer
+  answer: 'Because the conflicts are recognizable and personally relevant. Readers who''ve faced similar pressures, friendships, or identity questions see themselves in the character. The story mirrors real experience. Additionally, without fantastical elements, the character can''t solve problems magically—they must navigate real consequences and limitations, which feels true to actual life. The emotional weight comes from this authenticity: if this character faces these real pressures, what choices will they make? What will they learn? This immediacy and relevance creates powerful reader engagement. Fantasy and action stories create excitement; realistic fiction creates resonance.'
+  explanation: This tests understanding that realistic fiction's power comes from authenticity and relatability. By avoiding magic and fantastical solutions, realistic fiction forces characters to navigate real constraints and real consequences, which often mirrors readers' actual experience more directly than fantasy can.
 ```
 
 ## Explainer

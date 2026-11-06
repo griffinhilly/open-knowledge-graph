@@ -25,39 +25,39 @@ Said's essays combine close textual analysis, historical scope, and personal ref
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What does Said's work demonstrate about the relationship between representation and politics?"
+- question: What does Said's work demonstrate about the relationship between representation and politics?
+  type: multiple-choice
   options:
-    - "Representation is neutral and objective; politics should not affect how we represent others."
-    - "Only overtly political writing is political; literary and cultural writing can be neutral."
-    - "All representation is shaped by power and politics; what appears neutral is actually making political claims."
-    - "Politics and intellectual analysis are incompatible."
+  - Representation is neutral and objective; politics should not affect how we represent others.
+  - Only overtly political writing is political; literary and cultural writing can be neutral.
+  - All representation is shaped by power and politics; what appears neutral is actually making political claims.
+  - Politics and intellectual analysis are incompatible.
   answer: 2
-  explanation: "Said's most important insight is that representation is never neutral. When Europeans represented 'the Orient,' those representations were not factual but ideological—they served colonial interests by portraying non-European peoples as exotic, irrational, inferior. These representations appeared objective but were deeply political. Said's method shows how to analyze representation as a site of power rather than innocent description. All cultural representation—novels, travel accounts, academic studies, museums—embeds political assumptions."
+  explanation: Said's most important insight is that representation is never neutral. When Europeans represented 'the Orient,' those representations were not factual but ideological—they served colonial interests by portraying non-European peoples as exotic, irrational, inferior. These representations appeared objective but were deeply political. Said's method shows how to analyze representation as a site of power rather than innocent description. All cultural representation—novels, travel accounts, academic studies, museums—embeds political assumptions.
 
-- type: multiple-choice
-  question: "What does Said mean when he argues that intellectuals have a 'responsibility to intervene in public discourse'?"
+- question: What does Said mean when he argues that intellectuals have a 'responsibility to intervene in public discourse'?
+  type: multiple-choice
   options:
-    - "Intellectuals should stay neutral and not express opinions."
-    - "Only political activists have responsibility for public discourse; intellectuals should focus on academic study."
-    - "Intellectuals should use their knowledge to analyze and challenge systems of power in public writing."
-    - "Intervention means forcing others to accept one's views."
+  - Intellectuals should stay neutral and not express opinions.
+  - Only political activists have responsibility for public discourse; intellectuals should focus on academic study.
+  - Intellectuals should use their knowledge to analyze and challenge systems of power in public writing.
+  - Intervention means forcing others to accept one's views.
   answer: 2
-  explanation: "Said believed intellectuals have both the knowledge and the obligation to speak publicly about systems of power they analyze. This doesn't mean imposing views but making analysis accessible and intervening in dominant narratives with more complex understandings. When a colonial power claims moral superiority through its cultural narratives, intellectuals have a responsibility to analyze and challenge those narratives. This responsibility follows from intellectual privilege—intellectuals have training and platforms others lack."
+  explanation: Said believed intellectuals have both the knowledge and the obligation to speak publicly about systems of power they analyze. This doesn't mean imposing views but making analysis accessible and intervening in dominant narratives with more complex understandings. When a colonial power claims moral superiority through its cultural narratives, intellectuals have a responsibility to analyze and challenge those narratives. This responsibility follows from intellectual privilege—intellectuals have training and platforms others lack.
 
-- type: true-false
-  statement: "True: Said's essays combine close reading of specific texts with broad historical analysis and personal perspective."
+- question: 'True: Said''s essays combine close reading of specific texts with broad historical analysis and personal perspective.'
+  type: true-false
   answer: true
-  explanation: "This combination is Said's signature method. He reads a novel sentence by sentence (close reading), connects it to colonial history and global power structures (historical scope), and discusses his own experience of displacement and colonialism (personal reflection). This approach shows how individual cultural products connect to larger systems of power and how intellectuals are implicated in those systems. The combination makes argument more powerful than either element alone would be."
+  explanation: This combination is Said's signature method. He reads a novel sentence by sentence (close reading), connects it to colonial history and global power structures (historical scope), and discusses his own experience of displacement and colonialism (personal reflection). This approach shows how individual cultural products connect to larger systems of power and how intellectuals are implicated in those systems. The combination makes argument more powerful than either element alone would be.
 
-- type: true-false
-  statement: "True: According to Said, once systems of power are named and analyzed, they cease to operate."
+- question: 'True: According to Said, once systems of power are named and analyzed, they cease to operate.'
+  type: true-false
   answer: false
-  explanation: "Said did not claim that intellectual analysis alone transforms power structures. Rather, he argued that making systems visible and explicitly analyzed is a necessary first step toward resistance. Naming orientalism doesn't end it, but it allows people to see how it operates and to resist its claims. His work is an invitation to readers to think critically about representation and power, not a claim that his analysis automatically creates change."
+  explanation: Said did not claim that intellectual analysis alone transforms power structures. Rather, he argued that making systems visible and explicitly analyzed is a necessary first step toward resistance. Naming orientalism doesn't end it, but it allows people to see how it operates and to resist its claims. His work is an invitation to readers to think critically about representation and power, not a claim that his analysis automatically creates change.
 
-- type: short-answer
-  question: "Take a cultural text you know well (a film, novel, advertisement, news story) and analyze it using Said's approach. How does representation work? What power relationships are embedded in it? Whose perspective is centered, and whose is marginalized?"
-  explanation: "For example, analyzing a nature documentary: Who made it and from what perspective? Is the narration authoritative, claiming to know the animals' experience? What is the relationship between the documentary audience (often Western, wealthy) and the nature being observed (often in poor countries)? Does the representation suggest that 'nature' exists for human consumption? A Western documentary about African wildlife might unconsciously reproduce colonial relationships—portraying Africa as exotic landscape for Western viewers' entertainment, centering the Western observer, excluding African perspectives. Said's method means asking: what power relationships does this text embed, reinforce, or challenge? Who benefits from this representation? What other representations are made invisible?"
+- question: Take a cultural text you know well (a film, novel, advertisement, news story) and analyze it using Said's approach. How does representation work? What power relationships are embedded in it? Whose perspective is centered, and whose is marginalized?
+  type: short-answer
+  explanation: 'For example, analyzing a nature documentary: Who made it and from what perspective? Is the narration authoritative, claiming to know the animals'' experience? What is the relationship between the documentary audience (often Western, wealthy) and the nature being observed (often in poor countries)? Does the representation suggest that ''nature'' exists for human consumption? A Western documentary about African wildlife might unconsciously reproduce colonial relationships—portraying Africa as exotic landscape for Western viewers'' entertainment, centering the Western observer, excluding African perspectives. Said''s method means asking: what power relationships does this text embed, reinforce, or challenge? Who benefits from this representation? What other representations are made invisible?'
 ```
 
 ## Explainer

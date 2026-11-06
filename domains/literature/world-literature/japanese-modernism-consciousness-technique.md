@@ -34,39 +34,39 @@ Japanese modernism is not simple imitation of European modernism; it represents 
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "How did Japanese modernist writers approach European stream-of-consciousness techniques?"
+- question: How did Japanese modernist writers approach European stream-of-consciousness techniques?
+  type: multiple-choice
   options:
-    - "They rejected all European techniques and relied only on traditional forms"
-    - "They imitated European techniques without modification"
-    - "They synthesized European techniques with native aesthetic traditions of psychological indirection and suggestion"
-    - "Modernism did not reach Japan"
+  - They rejected all European techniques and relied only on traditional forms
+  - They imitated European techniques without modification
+  - They synthesized European techniques with native aesthetic traditions of psychological indirection and suggestion
+  - Modernism did not reach Japan
   answer: 2
-  explanation: "Japanese modernism demonstrates creative adaptation rather than simple imitation. Writers engaged European stream-of-consciousness techniques, adapting them to Japanese aesthetic and philosophical contexts. The result was distinctively Japanese modernism that used experimental techniques of representing interiority while maintaining connection to waka and monogatari traditions of suggestion, emotional precision, and aesthetic refinement. This shows how modernization is not wholesale adoption of foreign forms but creative adaptation to local contexts."
+  explanation: Japanese modernism demonstrates creative adaptation rather than simple imitation. Writers engaged European stream-of-consciousness techniques, adapting them to Japanese aesthetic and philosophical contexts. The result was distinctively Japanese modernism that used experimental techniques of representing interiority while maintaining connection to waka and monogatari traditions of suggestion, emotional precision, and aesthetic refinement. This shows how modernization is not wholesale adoption of foreign forms but creative adaptation to local contexts.
 
-- type: multiple-choice
-  question: "What distinctive feature characterizes Japanese approaches to representing consciousness compared to European modernism?"
+- question: What distinctive feature characterizes Japanese approaches to representing consciousness compared to European modernism?
+  type: multiple-choice
   options:
-    - "Japanese modernism uses direct, explicit psychological analysis"
-    - "Japanese modernism maintains emphasis on aesthetic suggestion, emotional precision, and psychological indirection even while using experimental techniques"
-    - "Japanese modernism has no relationship to aesthetics"
-    - "Japanese and European modernism are identical"
+  - Japanese modernism uses direct, explicit psychological analysis
+  - Japanese modernism maintains emphasis on aesthetic suggestion, emotional precision, and psychological indirection even while using experimental techniques
+  - Japanese modernism has no relationship to aesthetics
+  - Japanese and European modernism are identical
   answer: 1
-  explanation: "Rather than the explicit psychological analysis found in some European modernism, Japanese modernism tends to maintain emphasis on suggestion and indirection. Consciousness is represented through aesthetic moments, sensory perception, and emotional precision rather than through explicit introspection. This reflects the influence of waka and monogatari traditions where interiority is suggested rather than stated."
+  explanation: Rather than the explicit psychological analysis found in some European modernism, Japanese modernism tends to maintain emphasis on suggestion and indirection. Consciousness is represented through aesthetic moments, sensory perception, and emotional precision rather than through explicit introspection. This reflects the influence of waka and monogatari traditions where interiority is suggested rather than stated.
 
-- type: true-false
-  statement: "Japanese modernist adaptation of European techniques while maintaining native aesthetic traditions demonstrates that modernization can happen selectively, maintaining cultural distinctiveness while engaging global literary developments."
+- question: Japanese modernist adaptation of European techniques while maintaining native aesthetic traditions demonstrates that modernization can happen selectively, maintaining cultural distinctiveness while engaging global literary developments.
+  type: true-false
   answer: true
-  explanation: "This statement captures an important principle about cultural modernization. Japanese writers did not choose between modernity and tradition; they synthesized both, adapting European techniques to their own aesthetic and philosophical traditions."
+  explanation: This statement captures an important principle about cultural modernization. Japanese writers did not choose between modernity and tradition; they synthesized both, adapting European techniques to their own aesthetic and philosophical traditions.
 
-- type: true-false
-  statement: "Japanese modernism represents complete rejection of traditional Japanese aesthetics in favor of imported European modernism."
+- question: Japanese modernism represents complete rejection of traditional Japanese aesthetics in favor of imported European modernism.
+  type: true-false
   answer: false
-  explanation: "Japanese modernism maintained connection to native traditions even while engaging European techniques. This shows that tradition and modernity are not opposed; they can be synthesized creatively."
+  explanation: Japanese modernism maintained connection to native traditions even while engaging European techniques. This shows that tradition and modernity are not opposed; they can be synthesized creatively.
 
-- type: short-answer
-  question: "How does Japanese modernism illustrate that literary modernization can happen in culturally specific ways? What does this reveal about the nature of modernism itself?"
-  explanation: "Japanese modernism shows that modernization is not universal or singular but can take multiple forms reflecting different cultural contexts. Japanese writers engaged experimental techniques while maintaining aesthetic principles rooted in centuries of literary tradition. This demonstrates that modernism is not a single movement imported from Europe but a broader phenomenon of artistic experimentation and innovation that takes different forms in different cultures. Understanding this prevents treating 'modernism' as exclusively European and recognizes that modernism emerges in multiple sites through creative adaptation of techniques to local contexts and traditions."
+- question: How does Japanese modernism illustrate that literary modernization can happen in culturally specific ways? What does this reveal about the nature of modernism itself?
+  type: short-answer
+  explanation: Japanese modernism shows that modernization is not universal or singular but can take multiple forms reflecting different cultural contexts. Japanese writers engaged experimental techniques while maintaining aesthetic principles rooted in centuries of literary tradition. This demonstrates that modernism is not a single movement imported from Europe but a broader phenomenon of artistic experimentation and innovation that takes different forms in different cultures. Understanding this prevents treating 'modernism' as exclusively European and recognizes that modernism emerges in multiple sites through creative adaptation of techniques to local contexts and traditions.
 ```
 
 ## Explainer

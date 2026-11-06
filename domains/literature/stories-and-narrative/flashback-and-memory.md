@@ -31,35 +31,40 @@ Identify flashbacks in a story and ask: Why does the author include this past ev
 ## Questions
 
 ```yaml
-- question: "A character in the present refuses to board an airplane, showing signs of panic and trauma. The author includes a flashback showing a plane crash the character survived as a child. What does this flashback accomplish?"
+- question: A character in the present refuses to board an airplane, showing signs of panic and trauma. The author includes a flashback showing a plane crash the character survived as a child. What does this flashback accomplish?
+  type: multiple-choice
   options:
-    - "It's boring backstory that interrupts the present action"
-    - "It explains the character's present behavior by showing its origin. Without the flashback, the character's fear seems irrational. With it, readers understand the fear is rooted in genuine trauma. The flashback transforms a character quirk into a comprehensible wound"
-    - "Flashbacks can't explain current behavior"
-    - "The character should just get over it"
+  - It's boring backstory that interrupts the present action
+  - It explains the character's present behavior by showing its origin. Without the flashback, the character's fear seems irrational. With it, readers understand the fear is rooted in genuine trauma. The flashback transforms a character quirk into a comprehensible wound
+  - Flashbacks can't explain current behavior
+  - The character should just get over it
   answer: 1
-  explanation: "Flashbacks illuminate the present by revealing causes. They show not just what happened in the past, but how past events shaped current behavior and psychology. This transforms character understanding and creates empathy."
+  explanation: Flashbacks illuminate the present by revealing causes. They show not just what happened in the past, but how past events shaped current behavior and psychology. This transforms character understanding and creates empathy.
 
-- question: "A narrator says: 'I remember my mother always making this pie.' The author then shows a vivid scene of the narrator as a child watching the mother bake. Is this a flashback, and what's the difference between the narrator's memory and the scene shown?"
+- question: 'A narrator says: ''I remember my mother always making this pie.'' The author then shows a vivid scene of the narrator as a child watching the mother bake. Is this a flashback, and what''s the difference between the narrator''s memory and the scene shown?'
+  type: multiple-choice
   options:
-    - "This isn't a flashback"
-    - "This is a flashback. The narrator's statement is exposition about memory, but the scene shown is a flashback—it puts readers in the moment, showing events in vivid scene rather than telling about them. Flashbacks let readers experience the past directly"
-    - "Memories and flashbacks are identical"
-    - "Exposition and flashbacks do the same thing"
+  - This isn't a flashback
+  - This is a flashback. The narrator's statement is exposition about memory, but the scene shown is a flashback—it puts readers in the moment, showing events in vivid scene rather than telling about them. Flashbacks let readers experience the past directly
+  - Memories and flashbacks are identical
+  - Exposition and flashbacks do the same thing
   answer: 1
-  explanation: "Flashbacks are scenes that dramatize the past, not summaries of it. A narrator telling readers about a memory is exposition. A flashback drops readers into that past moment as it happens, in scene. This distinction matters because scenes create emotional immediacy while exposition creates distance."
+  explanation: Flashbacks are scenes that dramatize the past, not summaries of it. A narrator telling readers about a memory is exposition. A flashback drops readers into that past moment as it happens, in scene. This distinction matters because scenes create emotional immediacy while exposition creates distance.
 
-- question: "True or False: A flashback must be brief and short, returning quickly to the present story."
+- question: 'True or False: A flashback must be brief and short, returning quickly to the present story.'
+  type: true-false
   answer: false
-  explanation: "Some flashbacks are brief, but others can be substantial. Some stories devote entire chapters or sections to exploring the past. The length should serve the story's needs—if understanding the past is crucial, the flashback deserves significant space."
+  explanation: Some flashbacks are brief, but others can be substantial. Some stories devote entire chapters or sections to exploring the past. The length should serve the story's needs—if understanding the past is crucial, the flashback deserves significant space.
 
-- question: "True or False: Flashbacks are a way for authors to provide exposition to readers without it feeling forced."
+- question: 'True or False: Flashbacks are a way for authors to provide exposition to readers without it feeling forced.'
+  type: true-false
   answer: true
-  explanation: "Flashbacks are effective exposition because they show rather than tell. Instead of having a character explain their past directly to another character (which feels artificial), a flashback lets readers experience the past. This feels more natural and engages readers emotionally in the revelation."
+  explanation: Flashbacks are effective exposition because they show rather than tell. Instead of having a character explain their past directly to another character (which feels artificial), a flashback lets readers experience the past. This feels more natural and engages readers emotionally in the revelation.
 
-- question: "A character repeatedly makes self-sabotaging choices in relationships, pushing away people who care about them. In a flashback, readers see the character's childhood: their parents fought constantly, with each parent threatening to leave, which caused the child terrible anxiety. As an adult, the character unconsciously sabotages relationships to avoid the pain of potential abandonment—if they push people away first, they control the abandonment. How does this flashback deepen understanding of the character?"
-  answer: "The flashback shows the origin of the character's pattern, transforming it from seeming irrational to comprehensible. Readers understand that the adult behavior is actually a logical response to childhood trauma—a survival strategy that made sense for protecting the child but now damages the adult's relationships. This creates empathy: the character isn't broken or bad; they're running a coping mechanism that once kept them safe. Understanding this origin doesn't excuse the behavior, but it makes it understandable and opens possibility for change."
-  explanation: "This tests understanding that flashbacks do more than provide information—they create psychological understanding. By showing origins, flashbacks help readers see how past trauma shapes present behavior. This is the deepest function of flashback: illuminating the psychological logic of characters' choices and patterns."
+- question: 'A character repeatedly makes self-sabotaging choices in relationships, pushing away people who care about them. In a flashback, readers see the character''s childhood: their parents fought constantly, with each parent threatening to leave, which caused the child terrible anxiety. As an adult, the character unconsciously sabotages relationships to avoid the pain of potential abandonment—if they push people away first, they control the abandonment. How does this flashback deepen understanding of the character?'
+  type: short-answer
+  answer: 'The flashback shows the origin of the character''s pattern, transforming it from seeming irrational to comprehensible. Readers understand that the adult behavior is actually a logical response to childhood trauma—a survival strategy that made sense for protecting the child but now damages the adult''s relationships. This creates empathy: the character isn''t broken or bad; they''re running a coping mechanism that once kept them safe. Understanding this origin doesn''t excuse the behavior, but it makes it understandable and opens possibility for change.'
+  explanation: 'This tests understanding that flashbacks do more than provide information—they create psychological understanding. By showing origins, flashbacks help readers see how past trauma shapes present behavior. This is the deepest function of flashback: illuminating the psychological logic of characters'' choices and patterns.'
 ```
 
 ## Explainer

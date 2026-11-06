@@ -33,39 +33,39 @@ Wabi-sabi is not merely "simplicity" or "rusticity" but a sophisticated aestheti
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What is the fundamental principle of wabi-sabi as a Japanese aesthetic?"
+- question: What is the fundamental principle of wabi-sabi as a Japanese aesthetic?
+  type: multiple-choice
   options:
-    - "Seeking grandeur, permanence, and complete perfection in art"
-    - "Valuing imperfection, impermanence, incompleteness, and finding beauty in decay, weathering, and the marks of time"
-    - "Avoiding all aesthetic concern for external beauty"
-    - "Imitating European standards of beauty and proportion"
+  - Seeking grandeur, permanence, and complete perfection in art
+  - Valuing imperfection, impermanence, incompleteness, and finding beauty in decay, weathering, and the marks of time
+  - Avoiding all aesthetic concern for external beauty
+  - Imitating European standards of beauty and proportion
   answer: 1
-  explanation: "Wabi-sabi represents a radically different aesthetic from Western ideals of perfect form and permanent beauty. Rather than seeking to create lasting, complete, perfect objects, wabi-sabi finds beauty in imperfection, transience, and incompleteness. A ceramic bowl with uneven glaze, a garden showing seasonal decay, a poem that suggests rather than states—these embody wabi-sabi. The aesthetic recognizes that all things are impermanent and incompl ete. Rather than mourning this as loss, wabi-sabi celebrates it. The cracks and weathering on an ancient temple are not flaws to be repaired but evidence of time's passage and thus beautiful. Understanding wabi-sabi requires rejecting the assumption that perfection is the highest aesthetic value."
+  explanation: Wabi-sabi represents a radically different aesthetic from Western ideals of perfect form and permanent beauty. Rather than seeking to create lasting, complete, perfect objects, wabi-sabi finds beauty in imperfection, transience, and incompleteness. A ceramic bowl with uneven glaze, a garden showing seasonal decay, a poem that suggests rather than states—these embody wabi-sabi. The aesthetic recognizes that all things are impermanent and incompl ete. Rather than mourning this as loss, wabi-sabi celebrates it. The cracks and weathering on an ancient temple are not flaws to be repaired but evidence of time's passage and thus beautiful. Understanding wabi-sabi requires rejecting the assumption that perfection is the highest aesthetic value.
 
-- type: multiple-choice
-  question: "How does the concept of ma (empty space/interval) function in Japanese literature and aesthetics?"
+- question: How does the concept of ma (empty space/interval) function in Japanese literature and aesthetics?
+  type: multiple-choice
   options:
-    - "Empty space is wasted space that should be filled with content"
-    - "Ma is pregnant emptiness that holds meaning; what is not said or depicted carries aesthetic and spiritual significance"
-    - "Empty space has no function in serious literature"
-    - "Ma is purely a technical term with no aesthetic significance"
+  - Empty space is wasted space that should be filled with content
+  - Ma is pregnant emptiness that holds meaning; what is not said or depicted carries aesthetic and spiritual significance
+  - Empty space has no function in serious literature
+  - Ma is purely a technical term with no aesthetic significance
   answer: 1
-  explanation: "Ma refers to the meaningful emptiness or interval—the space between things, the silence between words, the white space on a page. In Japanese aesthetics, ma is not absence or lack but a positive presence. The emptiness invites contemplation and allows the viewer/reader to participate in creating meaning. In literature, what is not said often carries more weight than explicit statement. A pause in a poem, a moment of silence in drama, white space surrounding a few words on a page—these create meaning through their presence. Ma reflects Buddhist and Daoist philosophy where emptiness is understood as generative void. Understanding ma means recognizing that meaning can be created through absence as much as through presence, through space as much as through content."
+  explanation: Ma refers to the meaningful emptiness or interval—the space between things, the silence between words, the white space on a page. In Japanese aesthetics, ma is not absence or lack but a positive presence. The emptiness invites contemplation and allows the viewer/reader to participate in creating meaning. In literature, what is not said often carries more weight than explicit statement. A pause in a poem, a moment of silence in drama, white space surrounding a few words on a page—these create meaning through their presence. Ma reflects Buddhist and Daoist philosophy where emptiness is understood as generative void. Understanding ma means recognizing that meaning can be created through absence as much as through presence, through space as much as through content.
 
-- type: true-false
-  statement: "Wabi-sabi aesthetics value impermanence and imperfection as intrinsically beautiful, reflecting a philosophical acceptance of transience and incompleteness as fundamental to existence."
+- question: Wabi-sabi aesthetics value impermanence and imperfection as intrinsically beautiful, reflecting a philosophical acceptance of transience and incompleteness as fundamental to existence.
+  type: true-false
   answer: true
-  explanation: "This statement captures the philosophical dimensions of wabi-sabi. The aesthetic is not merely formal preference but reflects philosophical understanding rooted in Buddhism: all things are impermanent (anicca), and clinging to permanence causes suffering. By finding beauty in impermanence and imperfection, wabi-sabi aesthetics embody this philosophical recognition. The beauty of a sunset lies partly in its transience; the beauty of aging lies in its acceptance of inevitable decay. This means wabi-sabi is simultaneously aesthetic, philosophical, and spiritual practice."
+  explanation: 'This statement captures the philosophical dimensions of wabi-sabi. The aesthetic is not merely formal preference but reflects philosophical understanding rooted in Buddhism: all things are impermanent (anicca), and clinging to permanence causes suffering. By finding beauty in impermanence and imperfection, wabi-sabi aesthetics embody this philosophical recognition. The beauty of a sunset lies partly in its transience; the beauty of aging lies in its acceptance of inevitable decay. This means wabi-sabi is simultaneously aesthetic, philosophical, and spiritual practice.'
 
-- type: true-false
-  statement: "The concept of ma and the principle of wabi-sabi are unrelated to the development of minimalism and suggestion as core principles in Japanese literature."
+- question: The concept of ma and the principle of wabi-sabi are unrelated to the development of minimalism and suggestion as core principles in Japanese literature.
+  type: true-false
   answer: false
-  explanation: "Ma and wabi-sabi are foundational to understanding Japanese literary minimalism and the principle of suggestion. Because meaning can be created through emptiness and incompleteness, Japanese poets and writers can achieve powerful effects through apparent simplicity or incompleteness. A haiku with 17 syllables can suggest entire emotional and philosophical landscapes because the form works within traditions of ma and wabi-sabi where what is unsaid carries meaning. Minimalism in Japanese literature is not poverty of expression but sophisticated use of emptiness and suggestion. Understanding this requires seeing minimalism not as simple but as refined."
+  explanation: Ma and wabi-sabi are foundational to understanding Japanese literary minimalism and the principle of suggestion. Because meaning can be created through emptiness and incompleteness, Japanese poets and writers can achieve powerful effects through apparent simplicity or incompleteness. A haiku with 17 syllables can suggest entire emotional and philosophical landscapes because the form works within traditions of ma and wabi-sabi where what is unsaid carries meaning. Minimalism in Japanese literature is not poverty of expression but sophisticated use of emptiness and suggestion. Understanding this requires seeing minimalism not as simple but as refined.
 
-- type: short-answer
-  question: "How do wabi-sabi and ma as aesthetic principles shape the formal characteristics of Japanese literature? Give specific examples of how these principles operate in poetic or narrative form."
-  explanation: "Wabi-sabi and ma shape Japanese literature by valuing incompleteness, suggestion, and the significance of what is withheld. A haiku might present fragmentary images without explicit connection or statement—the reader must contemplate how the images relate and complete the meaning. The form's brevity and incompleteness are not limitations but essential to its power. A 17-syllable poem in the haiku form achieves its effects precisely through compression and what is left unsaid. In narrative, wabi-sabi might manifest as accepting incompleteness: a story might end without resolution or full explanation, trusting the reader to contemplate implications. Ma operates as white space: poems or narratives that use silence, pause, or visual white space as integral to meaning. The space around words on a page is not empty but meaningful. A monogatari narrative that ends at an emotional moment rather than resolving all plot elements embodies both wabi-sabi (acceptance of incompleteness) and ma (the gap left for reader contemplation). These aesthetics demonstrate that literary power does not require completeness or explicit clarity. Japanese literature's achievement is showing that fragmentation, imperfection, and suggestion can create profound aesthetic and philosophical effects."
+- question: How do wabi-sabi and ma as aesthetic principles shape the formal characteristics of Japanese literature? Give specific examples of how these principles operate in poetic or narrative form.
+  type: short-answer
+  explanation: 'Wabi-sabi and ma shape Japanese literature by valuing incompleteness, suggestion, and the significance of what is withheld. A haiku might present fragmentary images without explicit connection or statement—the reader must contemplate how the images relate and complete the meaning. The form''s brevity and incompleteness are not limitations but essential to its power. A 17-syllable poem in the haiku form achieves its effects precisely through compression and what is left unsaid. In narrative, wabi-sabi might manifest as accepting incompleteness: a story might end without resolution or full explanation, trusting the reader to contemplate implications. Ma operates as white space: poems or narratives that use silence, pause, or visual white space as integral to meaning. The space around words on a page is not empty but meaningful. A monogatari narrative that ends at an emotional moment rather than resolving all plot elements embodies both wabi-sabi (acceptance of incompleteness) and ma (the gap left for reader contemplation). These aesthetics demonstrate that literary power does not require completeness or explicit clarity. Japanese literature''s achievement is showing that fragmentation, imperfection, and suggestion can create profound aesthetic and philosophical effects.'
 ```
 
 ## Explainer

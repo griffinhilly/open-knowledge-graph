@@ -28,42 +28,39 @@ Interactive fiction uses parser-driven interaction where readers navigate storie
 ## Questions
 
 ```yaml
-- correct_answer: 0
-  explanation: The interface difference is significant. Hypertext offers link choices; IF accepts typed commands. This creates different reader experiences. Hypertext feels like choosing from options; IF
-    feels like navigating a world with natural-language commands. IF's parser creates the illusion that you are navigating a simulated world—that the system understands your intentions and responds to them.
+- question: How does parser-driven interaction in interactive fiction differ from hypertext link-following?
+  type: multiple-choice
   options:
-  - IF requires readers to type commands ('go north,' 'examine object') into a parser, creating the illusion of free navigation of a simulated world, whereas hypertext presents predefined links requiring
-    only clicks
+  - IF requires readers to type commands ('go north,' 'examine object') into a parser, creating the illusion of free navigation of a simulated world, whereas hypertext presents predefined links requiring only clicks
   - Interactive fiction uses links just like hypertext
   - Interactive fiction doesn't require reader input
   - Hypertext and IF are the same thing
-  question: How does parser-driven interaction in interactive fiction differ from hypertext link-following?
+  answer: 0
+  explanation: The interface difference is significant. Hypertext offers link choices; IF accepts typed commands. This creates different reader experiences. Hypertext feels like choosing from options; IF feels like navigating a world with natural-language commands. IF's parser creates the illusion that you are navigating a simulated world—that the system understands your intentions and responds to them.
+
+- question: Why does interactive fiction create an 'illusion of navigating a simulated world'?
   type: multiple-choice
-- correct_answer: 0
-  explanation: A hypertext link is clearly a choice—you pick from options. An IF command feels like direct action—you tell the world what to do and it responds. This creates immersion. You feel like you
-    are in the world, navigating it through natural language, rather than choosing narrative branches. The illusion is that the world is dynamic and responsive, not scripted as predetermined paths.
   options:
   - The parser accepts natural-language commands, making it feel as if you are directly controlling actions in a world rather than choosing from predetermined narrative branches
   - Interactive fiction worlds are not simulated
   - The illusion is not important to the form
   - IF doesn't involve worlds at all
-  question: Why does interactive fiction create an 'illusion of navigating a simulated world'?
-  type: multiple-choice
-- correct_answer: false
+  answer: 0
+  explanation: A hypertext link is clearly a choice—you pick from options. An IF command feels like direct action—you tell the world what to do and it responds. This creates immersion. You feel like you are in the world, navigating it through natural language, rather than choosing narrative branches. The illusion is that the world is dynamic and responsive, not scripted as predetermined paths.
+
+- question: Interactive fiction and hypertext fiction are interchangeable forms; they use identical mechanics
+  type: true-false
+  answer: false
   explanation: False. Hypertext uses link navigation (predetermined choices); IF uses parser-driven commands (free-form natural language input). The mechanics and player experience are fundamentally different.
-  statement: Interactive fiction and hypertext fiction are interchangeable forms; they use identical mechanics
+
+- question: Games like Zork established interactive fiction as a form combining ludic elements (gameplay, simulation) with literary elements (narrative, character)
   type: true-false
-- correct_answer: true
+  answer: true
   explanation: Correct. Zork and similar games demonstrated that IF could integrate game-like challenge and simulation with literary narrative.
-  statement: Games like Zork established interactive fiction as a form combining ludic elements (gameplay, simulation) with literary elements (narrative, character)
-  type: true-false
-- explanation: 'Hypertext makes the reading act visible: you see links and choose. This foregrounds that you are making narrative choices. IF aims to hide this: the parser accepts commands, and the world
-    responds, creating the illusion that you are directly navigating a world rather than choosing narrative branches. This affects immersion: hypertext reading feels like conscious choice-making; IF playing
-    feels like world-navigation. For narrative, this distinction matters because it shapes how players relate to story. In hypertext, you are aware of yourself as choosing narrative paths. In IF, you can
-    lose yourself in the illusion of world-navigation. For gameplay, the distinction matters because IF can incorporate puzzle-solving and exploration mechanics that depend on the illusion of a navigable
-    world. You don''t choose ''examine the statue''—you type the command and discover what happens, which feels more like interaction with a world than predetermined choice.'
-  question: Explain how parser-driven interaction creates immersion differently than hypertext link-following. Why might this distinction matter for narrative and gameplay?
+
+- question: Explain how parser-driven interaction creates immersion differently than hypertext link-following. Why might this distinction matter for narrative and gameplay?
   type: short-answer
+  explanation: 'Hypertext makes the reading act visible: you see links and choose. This foregrounds that you are making narrative choices. IF aims to hide this: the parser accepts commands, and the world responds, creating the illusion that you are directly navigating a world rather than choosing narrative branches. This affects immersion: hypertext reading feels like conscious choice-making; IF playing feels like world-navigation. For narrative, this distinction matters because it shapes how players relate to story. In hypertext, you are aware of yourself as choosing narrative paths. In IF, you can lose yourself in the illusion of world-navigation. For gameplay, the distinction matters because IF can incorporate puzzle-solving and exploration mechanics that depend on the illusion of a navigable world. You don''t choose ''examine the statue''—you type the command and discover what happens, which feels more like interaction with a world than predetermined choice.'
 ```
 
 ## Explainer

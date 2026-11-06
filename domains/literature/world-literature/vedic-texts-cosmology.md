@@ -33,39 +33,39 @@ The Vedas are not primarily mythological narratives but ritualistic utterances w
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What is the relationship between ritual function and poetic form in the Vedic hymns?"
+- question: What is the relationship between ritual function and poetic form in the Vedic hymns?
+  type: multiple-choice
   options:
-    - "Poetic form and ritual function are unrelated; the hymns are primarily narrative"
-    - "Language in the Vedas has performative, reality-creating force; the form (repetition, parallel structure, sound patterns) is integral to how ritual utterance creates and maintains cosmic order"
-    - "The Vedas are purely poetic without ritual significance"
-    - "Ritual language is distinct from literary language in the Vedas"
+  - Poetic form and ritual function are unrelated; the hymns are primarily narrative
+  - Language in the Vedas has performative, reality-creating force; the form (repetition, parallel structure, sound patterns) is integral to how ritual utterance creates and maintains cosmic order
+  - The Vedas are purely poetic without ritual significance
+  - Ritual language is distinct from literary language in the Vedas
   answer: 1
-  explanation: "The Vedic understanding of language is fundamentally different from modern assumptions about language as representational (describing pre-existing reality). In the Vedas, utterance creates reality: ritual words and sounds maintain cosmic order. The hymns employ repetition, parallel structures, and carefully controlled sound patterns not as ornament but as essential to the ritual's function. The repetition creates cosmic resonance; the parallel structures mirror cosmic correspondences; the sound patterns generate the reality-creating force of the utterance. Understanding Vedic hymns requires recognizing that form and function are inseparable—the poetic devices are not decorative but performative; they do the ritual work. Language itself is generative: proper utterance maintains cosmos, while improper utterance can disrupt order."
+  explanation: 'The Vedic understanding of language is fundamentally different from modern assumptions about language as representational (describing pre-existing reality). In the Vedas, utterance creates reality: ritual words and sounds maintain cosmic order. The hymns employ repetition, parallel structures, and carefully controlled sound patterns not as ornament but as essential to the ritual''s function. The repetition creates cosmic resonance; the parallel structures mirror cosmic correspondences; the sound patterns generate the reality-creating force of the utterance. Understanding Vedic hymns requires recognizing that form and function are inseparable—the poetic devices are not decorative but performative; they do the ritual work. Language itself is generative: proper utterance maintains cosmos, while improper utterance can disrupt order.'
 
-- type: multiple-choice
-  question: "How did the Vedas establish Sanskrit as a self-reflexive language system?"
+- question: How did the Vedas establish Sanskrit as a self-reflexive language system?
+  type: multiple-choice
   options:
-    - "Sanskrit developed independently of Vedic texts"
-    - "The Vedas established grammatical principles where Sanskrit grammar mirrors cosmic structure; language becomes a representation of cosmic order"
-    - "The Vedas rejected systematic grammar"
-    - "Sanskrit grammar is unrelated to philosophy or cosmology"
+  - Sanskrit developed independently of Vedic texts
+  - The Vedas established grammatical principles where Sanskrit grammar mirrors cosmic structure; language becomes a representation of cosmic order
+  - The Vedas rejected systematic grammar
+  - Sanskrit grammar is unrelated to philosophy or cosmology
   answer: 1
-  explanation: "The Vedas initiated a distinctive approach to language: Sanskrit grammar itself was understood as reflecting cosmic structure. The grammatical categories, the patterns of formation, the rules of transformation—these were not arbitrary but mirrors of how the cosmos itself is organized. Language became a system that reflects and generates cosmic order simultaneously. The development of Sanskrit grammar by later thinkers (particularly in Panini's system) was partly grounded in recognizing patterns established in the Vedas. This made Sanskrit not just a language for communication but a sophisticated system where linguistic structure, cosmic structure, and ritual function aligned. Understanding language meant understanding cosmos; mastering language meant participating in cosmic order."
+  explanation: 'The Vedas initiated a distinctive approach to language: Sanskrit grammar itself was understood as reflecting cosmic structure. The grammatical categories, the patterns of formation, the rules of transformation—these were not arbitrary but mirrors of how the cosmos itself is organized. Language became a system that reflects and generates cosmic order simultaneously. The development of Sanskrit grammar by later thinkers (particularly in Panini''s system) was partly grounded in recognizing patterns established in the Vedas. This made Sanskrit not just a language for communication but a sophisticated system where linguistic structure, cosmic structure, and ritual function aligned. Understanding language meant understanding cosmos; mastering language meant participating in cosmic order.'
 
-- type: true-false
-  statement: "Categorizing the Vedas as 'mythology' is an accurate way to understand their nature and function."
+- question: Categorizing the Vedas as 'mythology' is an accurate way to understand their nature and function.
+  type: true-false
   answer: false
-  explanation: "Mythology as a category typically implies narrative about supernatural beings (gods, heroes, monsters) whose truth-value may be disputed. The Vedas are more accurately understood as ritual utterances whose function is to maintain cosmic order. The cosmological narratives in the Vedas (accounts of how the cosmos came into being, what sustains it) are not primarily narrative for entertainment or explanation but ritual utterances that perform the very ordering they describe. Calling them mythology obscures their performative dimension. More adequate categories would recognize them as ritual literature, as cosmological utterance, or as language with generative reality-creating force."
+  explanation: Mythology as a category typically implies narrative about supernatural beings (gods, heroes, monsters) whose truth-value may be disputed. The Vedas are more accurately understood as ritual utterances whose function is to maintain cosmic order. The cosmological narratives in the Vedas (accounts of how the cosmos came into being, what sustains it) are not primarily narrative for entertainment or explanation but ritual utterances that perform the very ordering they describe. Calling them mythology obscures their performative dimension. More adequate categories would recognize them as ritual literature, as cosmological utterance, or as language with generative reality-creating force.
 
-- type: true-false
-  statement: "The Vedic use of repetition and parallel structure serves decorative purposes and could be removed without affecting the hymns' meaning or function."
+- question: The Vedic use of repetition and parallel structure serves decorative purposes and could be removed without affecting the hymns' meaning or function.
+  type: true-false
   answer: false
-  explanation: "The formal features of Vedic hymns—repetition, parallel structures, sound patterns—are integral to their ritual function. Repetition is not decoration but creates resonance; it intensifies the reality-creating force of the utterance. Parallel structures mirror cosmic correspondences; they show how different domains of reality relate to each other. Sound patterns have performative power; they generate vibrations and frequencies understood as maintaining order. Removing these formal features would not merely make the hymns less beautiful; it would destroy their ritual efficacy. The form and meaning are inseparable."
+  explanation: The formal features of Vedic hymns—repetition, parallel structures, sound patterns—are integral to their ritual function. Repetition is not decoration but creates resonance; it intensifies the reality-creating force of the utterance. Parallel structures mirror cosmic correspondences; they show how different domains of reality relate to each other. Sound patterns have performative power; they generate vibrations and frequencies understood as maintaining order. Removing these formal features would not merely make the hymns less beautiful; it would destroy their ritual efficacy. The form and meaning are inseparable.
 
-- type: short-answer
-  question: "How does the Vedic understanding of language as performative and reality-creating differ from modern assumptions about language as representational, and what does this reveal about the relationship between language and reality?"
-  explanation: "Modern Western understanding typically treats language as representational: words refer to things; sentences describe pre-existing states of affairs; language captures or expresses reality that exists independently of language. The Vedic understanding is fundamentally different: language is performative and generative; utterance creates reality; proper utterance maintains order. This is not primitive misunderstanding but a different philosophical position with consequences: if utterance creates reality, then formal precision in language is crucial; if ritual speech maintains cosmos, then language mastery becomes cosmic significance; if grammar mirrors cosmic structure, then studying language is studying cosmos. This reveals that the relationship between language and reality is more complex than simple representation. Language both responds to reality (it must be adequate to what it addresses) and creates reality (utterance has world-making force). The Vedas understood this relationship in a way that modern representational theories of language obscure."
+- question: How does the Vedic understanding of language as performative and reality-creating differ from modern assumptions about language as representational, and what does this reveal about the relationship between language and reality?
+  type: short-answer
+  explanation: 'Modern Western understanding typically treats language as representational: words refer to things; sentences describe pre-existing states of affairs; language captures or expresses reality that exists independently of language. The Vedic understanding is fundamentally different: language is performative and generative; utterance creates reality; proper utterance maintains order. This is not primitive misunderstanding but a different philosophical position with consequences: if utterance creates reality, then formal precision in language is crucial; if ritual speech maintains cosmos, then language mastery becomes cosmic significance; if grammar mirrors cosmic structure, then studying language is studying cosmos. This reveals that the relationship between language and reality is more complex than simple representation. Language both responds to reality (it must be adequate to what it addresses) and creates reality (utterance has world-making force). The Vedas understood this relationship in a way that modern representational theories of language obscure.'
 ```
 
 ## Explainer

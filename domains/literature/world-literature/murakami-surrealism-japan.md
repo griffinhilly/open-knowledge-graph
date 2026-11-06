@@ -32,39 +32,39 @@ Murakami's surrealism is not whimsy or fantasy—it represents a specific formal
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "How does Murakami's presentation of 'surreal and everyday coexisting without explanation' serve as formal representation of contemporary consciousness?"
+- question: How does Murakami's presentation of 'surreal and everyday coexisting without explanation' serve as formal representation of contemporary consciousness?
+  type: multiple-choice
   options:
-    - "Lack of explanation means the novel is confused or poorly constructed"
-    - "Presenting surreal events with mundane narrative tone represents dissociation and alienation in contemporary consciousness where coherence breaks down"
-    - "The surreal and everyday cannot coexist meaningfully"
-    - "Explanation would make the novel more philosophical"
+  - Lack of explanation means the novel is confused or poorly constructed
+  - Presenting surreal events with mundane narrative tone represents dissociation and alienation in contemporary consciousness where coherence breaks down
+  - The surreal and everyday cannot coexist meaningfully
+  - Explanation would make the novel more philosophical
   answer: 1
-  explanation: "Murakami recognizes that contemporary consciousness is not coherent or unified. Surreal, dreamlike, and irrational elements intrude into ordinary life without warning or explanation. Rather than imposing narrative order, Murakami presents this dissociation directly. A character encounters impossible situations with the same flat affect they might use for everyday occurrences. This narrative strategy represents psychological reality: in contemporary alienation, the surreal becomes ordinary, the bizarre is normalized, coherence dissolves. By refusing to explain how surreal elements are possible, Murakami represents consciousness for which such explanation is no longer available. The form enacts alienation—readers cannot achieve the stable understanding that conventional narrative provides. This is philosophically significant: it represents the condition of postmodern consciousness."
+  explanation: 'Murakami recognizes that contemporary consciousness is not coherent or unified. Surreal, dreamlike, and irrational elements intrude into ordinary life without warning or explanation. Rather than imposing narrative order, Murakami presents this dissociation directly. A character encounters impossible situations with the same flat affect they might use for everyday occurrences. This narrative strategy represents psychological reality: in contemporary alienation, the surreal becomes ordinary, the bizarre is normalized, coherence dissolves. By refusing to explain how surreal elements are possible, Murakami represents consciousness for which such explanation is no longer available. The form enacts alienation—readers cannot achieve the stable understanding that conventional narrative provides. This is philosophically significant: it represents the condition of postmodern consciousness.'
 
-- type: multiple-choice
-  question: "What does Murakami accomplish by 'integrating Western popular culture, Japanese aesthetic tradition, and postmodern narrative technique' without hierarchizing them?"
+- question: What does Murakami accomplish by 'integrating Western popular culture, Japanese aesthetic tradition, and postmodern narrative technique' without hierarchizing them?
+  type: multiple-choice
   options:
-    - "He randomly mixes unrelated elements"
-    - "He represents a genuinely globalized consciousness where different cultural traditions coexist without one being dominant"
-    - "One tradition should be dominant over others"
-    - "Integration of different traditions destroys meaning"
+  - He randomly mixes unrelated elements
+  - He represents a genuinely globalized consciousness where different cultural traditions coexist without one being dominant
+  - One tradition should be dominant over others
+  - Integration of different traditions destroys meaning
   answer: 1
-  explanation: "Murakami's work represents genuinely global consciousness. Western pop culture (jazz, American film, hamburgers), Japanese aesthetics (attention to season, appreciation of emptiness, Zen sensibility), and European modernist technique coexist without hierarchy. No single cultural tradition is positioned as origin or norm. This reflects actual contemporary experience, particularly in Japan, where globalization creates hybrid consciousness. By not privileging any tradition, Murakami represents how consciousness in globalized world is genuinely multinational, combining elements from multiple sources. This is not fragmentation or confusion but accurate representation of postmodern consciousness."
+  explanation: Murakami's work represents genuinely global consciousness. Western pop culture (jazz, American film, hamburgers), Japanese aesthetics (attention to season, appreciation of emptiness, Zen sensibility), and European modernist technique coexist without hierarchy. No single cultural tradition is positioned as origin or norm. This reflects actual contemporary experience, particularly in Japan, where globalization creates hybrid consciousness. By not privileging any tradition, Murakami represents how consciousness in globalized world is genuinely multinational, combining elements from multiple sources. This is not fragmentation or confusion but accurate representation of postmodern consciousness.
 
-- type: true-false
-  statement: "Murakami's surrealism and his global popularity indicate that his work is entertaining escapism without serious philosophical content."
+- question: Murakami's surrealism and his global popularity indicate that his work is entertaining escapism without serious philosophical content.
+  type: true-false
   answer: false
-  explanation: "Popularity and accessibility do not diminish philosophical rigor. Murakami's work addresses serious philosophical questions—about alienation, consciousness, meaning—through forms that are globally accessible. The surrealism is not escape but formal strategy for representing contemporary consciousness. His work demonstrates that philosophical complexity need not be difficult or obscure."
+  explanation: Popularity and accessibility do not diminish philosophical rigor. Murakami's work addresses serious philosophical questions—about alienation, consciousness, meaning—through forms that are globally accessible. The surrealism is not escape but formal strategy for representing contemporary consciousness. His work demonstrates that philosophical complexity need not be difficult or obscure.
 
-- type: true-false
-  statement: "Murakami demonstrates that surrealism, when combined with accessibility and global cultural synthesis, can represent postmodern alienation and contemporary consciousness while achieving both philosophical depth and popular reach."
+- question: Murakami demonstrates that surrealism, when combined with accessibility and global cultural synthesis, can represent postmodern alienation and contemporary consciousness while achieving both philosophical depth and popular reach.
+  type: true-false
   answer: true
-  explanation: "This correctly identifies how Murakami's work functions. His surrealism is not fantasy but philosophical strategy. His accessibility makes that philosophy available to broad audience. His cultural synthesis represents actual contemporary consciousness."
+  explanation: This correctly identifies how Murakami's work functions. His surrealism is not fantasy but philosophical strategy. His accessibility makes that philosophy available to broad audience. His cultural synthesis represents actual contemporary consciousness.
 
-- type: short-answer
-  question: "Explain how Murakami's combination of 'surrealism, Western references, and Japanese aesthetics' allows representation of contemporary consciousness in globalized context. How does form reflect content?"
-  explanation: "Contemporary consciousness, particularly in urban Japan, is shaped by globalization where multiple cultural traditions and aesthetic systems coexist. A person might appreciate jazz (American cultural form), understand seasons through traditional Japanese aesthetic sensibility, and approach meaning through postmodern skepticism. Rather than treating these as contradictory or hierarchizing them, Murakami's narrative gives them equal weight. Surrealism permits representation of this hybrid consciousness: the boundaries between rational and irrational, real and imagined become fluid. By presenting surreal and mundane without distinction, Murakami represents how consciousness in globalized world lacks stable coherence. The Western references (often popular culture) and Japanese aesthetic elements coexist without one dominating. This synthesis is both formal strategy (representing consciousness) and philosophical statement (insisting that globalized consciousness genuinely combines traditions). The accessibility of Murakami's work is integral to this: if the novel were formally difficult, it might seem to privilege intellectual over popular elements. Instead, the clarity allows the content (hybrid consciousness) to be primary."
+- question: Explain how Murakami's combination of 'surrealism, Western references, and Japanese aesthetics' allows representation of contemporary consciousness in globalized context. How does form reflect content?
+  type: short-answer
+  explanation: 'Contemporary consciousness, particularly in urban Japan, is shaped by globalization where multiple cultural traditions and aesthetic systems coexist. A person might appreciate jazz (American cultural form), understand seasons through traditional Japanese aesthetic sensibility, and approach meaning through postmodern skepticism. Rather than treating these as contradictory or hierarchizing them, Murakami''s narrative gives them equal weight. Surrealism permits representation of this hybrid consciousness: the boundaries between rational and irrational, real and imagined become fluid. By presenting surreal and mundane without distinction, Murakami represents how consciousness in globalized world lacks stable coherence. The Western references (often popular culture) and Japanese aesthetic elements coexist without one dominating. This synthesis is both formal strategy (representing consciousness) and philosophical statement (insisting that globalized consciousness genuinely combines traditions). The accessibility of Murakami''s work is integral to this: if the novel were formally difficult, it might seem to privilege intellectual over popular elements. Instead, the clarity allows the content (hybrid consciousness) to be primary.'
 ```
 
 ## Explainer

@@ -23,36 +23,39 @@ Thriller fiction emphasizes suspense, danger, and rapid pacing. Thrillers center
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What are the primary characteristics of thriller fiction?"
-    options:
-      - "Detailed character exploration and philosophical reflection"
-      - "Suspense, danger, and rapid pacing"
-      - "Worldbuilding and magical system explanation"
-      - "Historical accuracy and period detail"
-    correct_answer: 1
-    explanation: "The core idea explicitly states that thriller fiction 'emphasizes suspense, danger, and rapid pacing,' making these the defining characteristics."
-  - type: multiple-choice
-    question: "What creates the intensity in thriller narratives?"
-    options:
-      - "Complex interpersonal relationships and social commentary"
-      - "Characters facing threats with high stakes and time pressure"
-      - "Exotic settings and fantastical elements"
-      - "Experimental narrative structure and metafiction"
-    correct_answer: 1
-    explanation: "The core idea states that thrillers 'center on characters facing threats with high stakes and time pressure,' identifying threat and urgency as the source of intensity."
-  - type: true-false
-    question: "Contemporary thrillers never develop character complexity and focus exclusively on plot."
-    correct_answer: false
-    explanation: "The core idea states that 'contemporary thrillers often develop character complexity alongside suspense,' showing evolution toward balanced character and plot development."
-  - type: true-false
-    question: "Time pressure is an essential element that distinguishes thrillers from other action-focused genres."
-    correct_answer: true
-    explanation: "The core idea explicitly mentions 'time pressure' as a central characteristic of thrillers, distinguishing them from genres that feature action but lack time constraints."
-  - type: short-answer
-    question: "How does the combination of high stakes and time pressure work together to create thriller intensity?"
-    explanation: "A strong answer should explain that high stakes mean the outcome matters greatly and time pressure means the protagonist cannot afford to wait for better circumstances or safer plans. Together, these force protagonists into desperate action and difficult decisions quickly. Students should demonstrate understanding that each element amplifies the effect of the other."
+- question: What are the primary characteristics of thriller fiction?
+  type: multiple-choice
+  options:
+  - Detailed character exploration and philosophical reflection
+  - Suspense, danger, and rapid pacing
+  - Worldbuilding and magical system explanation
+  - Historical accuracy and period detail
+  answer: 1
+  explanation: The core idea explicitly states that thriller fiction 'emphasizes suspense, danger, and rapid pacing,' making these the defining characteristics.
+
+- question: What creates the intensity in thriller narratives?
+  type: multiple-choice
+  options:
+  - Complex interpersonal relationships and social commentary
+  - Characters facing threats with high stakes and time pressure
+  - Exotic settings and fantastical elements
+  - Experimental narrative structure and metafiction
+  answer: 1
+  explanation: The core idea states that thrillers 'center on characters facing threats with high stakes and time pressure,' identifying threat and urgency as the source of intensity.
+
+- question: Contemporary thrillers never develop character complexity and focus exclusively on plot.
+  type: true-false
+  answer: false
+  explanation: The core idea states that 'contemporary thrillers often develop character complexity alongside suspense,' showing evolution toward balanced character and plot development.
+
+- question: Time pressure is an essential element that distinguishes thrillers from other action-focused genres.
+  type: true-false
+  answer: true
+  explanation: The core idea explicitly mentions 'time pressure' as a central characteristic of thrillers, distinguishing them from genres that feature action but lack time constraints.
+
+- question: How does the combination of high stakes and time pressure work together to create thriller intensity?
+  type: short-answer
+  explanation: A strong answer should explain that high stakes mean the outcome matters greatly and time pressure means the protagonist cannot afford to wait for better circumstances or safer plans. Together, these force protagonists into desperate action and difficult decisions quickly. Students should demonstrate understanding that each element amplifies the effect of the other.
 ```
 
 ## Explainer

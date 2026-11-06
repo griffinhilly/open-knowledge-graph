@@ -33,39 +33,39 @@ Mishima's linkage of beauty to death is not simple decadence but philosophical e
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What does Mishima achieve by positioning 'beauty and death as ultimate values transcending postwar materialism'?"
+- question: What does Mishima achieve by positioning 'beauty and death as ultimate values transcending postwar materialism'?
+  type: multiple-choice
   options:
-    - "He rejects all modern values without discrimination"
-    - "He articulates philosophical position that beauty and aesthetic experience are more significant than material prosperity or rational progress"
-    - "He argues that death is good for society"
-    - "Materialism is the only legitimate modern value"
+  - He rejects all modern values without discrimination
+  - He articulates philosophical position that beauty and aesthetic experience are more significant than material prosperity or rational progress
+  - He argues that death is good for society
+  - Materialism is the only legitimate modern value
   answer: 1
-  explanation: "Postwar Japan was rapidly modernizing and Westernizing—embracing material prosperity, consumerism, and rational efficiency. Mishima recognized something being lost: traditional Japanese aesthetic values, connection to Edo-period beauty, spiritual meaning beyond material accumulation. His philosophical position is that beauty—particularly the beauty of the body, of aesthetic form, of the moment—has transcendent value that mere material prosperity cannot replace. By linking beauty to death (through the aesthetics of traditional samurai culture, through the idea that beauty is fleeting and precious precisely because it ends), Mishima suggests that modernity's focus on material progress and duration misses what is most important: beauty, intensity, meaning that exceeds material terms. This is philosophical position about what makes life worth living, not mere rejection of modernity."
+  explanation: 'Postwar Japan was rapidly modernizing and Westernizing—embracing material prosperity, consumerism, and rational efficiency. Mishima recognized something being lost: traditional Japanese aesthetic values, connection to Edo-period beauty, spiritual meaning beyond material accumulation. His philosophical position is that beauty—particularly the beauty of the body, of aesthetic form, of the moment—has transcendent value that mere material prosperity cannot replace. By linking beauty to death (through the aesthetics of traditional samurai culture, through the idea that beauty is fleeting and precious precisely because it ends), Mishima suggests that modernity''s focus on material progress and duration misses what is most important: beauty, intensity, meaning that exceeds material terms. This is philosophical position about what makes life worth living, not mere rejection of modernity.'
 
-- type: multiple-choice
-  question: "How does Mishima's construction of 'beauty as irrecoverable loss' function as both aesthetic and philosophical statement?"
+- question: How does Mishima's construction of 'beauty as irrecoverable loss' function as both aesthetic and philosophical statement?
+  type: multiple-choice
   options:
-    - "Loss is purely negative emotional state"
-    - "By representing beauty as unavoidable loss, Mishima positions aesthetic and traditional experience as belonging to past that modernization has destroyed—making beauty precious precisely because it is impossible now"
-    - "Beauty is recoverable if one merely tries harder"
-    - "Loss and beauty are unrelated concepts"
+  - Loss is purely negative emotional state
+  - By representing beauty as unavoidable loss, Mishima positions aesthetic and traditional experience as belonging to past that modernization has destroyed—making beauty precious precisely because it is impossible now
+  - Beauty is recoverable if one merely tries harder
+  - Loss and beauty are unrelated concepts
   answer: 1
-  explanation: "Traditional Japanese aesthetics emphasized transience—the cherry blossom is most beautiful because it falls, the moment is precious because it passes. Mishima adapts this through modernist alienation: beauty was authentic in traditional Japan, but modernization has made it irrecoverable. By narrating beauty as lost, Mishima creates melancholic beauty—recognition that what was once possible (living authentically through aesthetic experience) is now impossible. This loss is philosophically productive: it explains why modern existence feels empty despite material prosperity. The emptiness is because authenticity and traditional beauty are no longer available. Characters in his novels yearn for beauty and authenticity they can never fully achieve. The formal representation of this—lyrical passages describing lost beauty—enacts the philosophical position."
+  explanation: 'Traditional Japanese aesthetics emphasized transience—the cherry blossom is most beautiful because it falls, the moment is precious because it passes. Mishima adapts this through modernist alienation: beauty was authentic in traditional Japan, but modernization has made it irrecoverable. By narrating beauty as lost, Mishima creates melancholic beauty—recognition that what was once possible (living authentically through aesthetic experience) is now impossible. This loss is philosophically productive: it explains why modern existence feels empty despite material prosperity. The emptiness is because authenticity and traditional beauty are no longer available. Characters in his novels yearn for beauty and authenticity they can never fully achieve. The formal representation of this—lyrical passages describing lost beauty—enacts the philosophical position.'
 
-- type: true-false
-  statement: "Mishima's linkage of beauty to death and his focus on aesthetic experience represent simple decadence or escape from serious engagement with contemporary reality."
+- question: Mishima's linkage of beauty to death and his focus on aesthetic experience represent simple decadence or escape from serious engagement with contemporary reality.
+  type: true-false
   answer: false
-  explanation: "This misconception treats Mishima's aestheticism as frivolous. But his linkage of beauty and death is serious philosophical position about value, authenticity, and modernization. His engagement with Edo-period aesthetics and traditional samurai culture is not escape but critique of postwar modernization's spiritual emptiness. His concern with the body and physical beauty is not superficial but understanding of how bodies carry aesthetic and spiritual meaning. The form is philosophical, not decorative."
+  explanation: This misconception treats Mishima's aestheticism as frivolous. But his linkage of beauty and death is serious philosophical position about value, authenticity, and modernization. His engagement with Edo-period aesthetics and traditional samurai culture is not escape but critique of postwar modernization's spiritual emptiness. His concern with the body and physical beauty is not superficial but understanding of how bodies carry aesthetic and spiritual meaning. The form is philosophical, not decorative.
 
-- type: true-false
-  statement: "In Mishima's work, the formal complexity, lyrical descriptions of beauty, and narrative structure embodying nihilism about traditional values serve to demonstrate how modernization destroys aesthetic authenticity and meaningful existence."
+- question: In Mishima's work, the formal complexity, lyrical descriptions of beauty, and narrative structure embodying nihilism about traditional values serve to demonstrate how modernization destroys aesthetic authenticity and meaningful existence.
+  type: true-false
   answer: true
-  explanation: "This correctly identifies how Mishima's form and content are unified. The way he constructs his narratives—with intense focus on physical beauty, with philosophical complexity, with characters yearning for impossible authenticity—enacts his philosophical position. The form is not decoration but necessary vehicle for expressing his philosophical engagement with modernization."
+  explanation: This correctly identifies how Mishima's form and content are unified. The way he constructs his narratives—with intense focus on physical beauty, with philosophical complexity, with characters yearning for impossible authenticity—enacts his philosophical position. The form is not decoration but necessary vehicle for expressing his philosophical engagement with modernization.
 
-- type: short-answer
-  question: "Explain how Mishima's synthesizing of 'Edo-period aesthetics with Western modernism' allows him to make both philosophical and formal arguments about the loss of traditional beauty and authenticity in modern Japan. How does combining two traditions enable his critique?"
-  explanation: "By synthesizing Edo-period Japanese aesthetics with Western modernism, Mishima can simultaneously: (1) claim authority of traditional Japanese value (the Edo-period beauty and its philosophical depth), (2) employ modernist techniques (psychological complexity, formal innovation, engagement with Western philosophical traditions) that allow sophisticated expression of loss and alienation, and (3) critique postwar modernization from two directions—as betrayal of Japanese tradition AND as inadequate by modernist standards. The synthesis allows him to argue that both traditions—if lived authentically—offered value that postwar materialism lacks. By employing modernist form to narrate the impossibility of returning to traditional aesthetics, he makes the loss philosophically and formally present in the work itself. The reader experiences modernist alienation while encountering descriptions of traditional beauty: the form embodies what cannot be recovered. This strategy is more powerful than either tradition alone could achieve. Pure traditionalism might seem reactionary; pure modernism might seem to accept postwar conditions as inevitable. By synthesizing them in productive tension, Mishima creates philosophical and aesthetic work that preserves memory of what was lost while fully acknowledging the impossibility of recovery."
+- question: Explain how Mishima's synthesizing of 'Edo-period aesthetics with Western modernism' allows him to make both philosophical and formal arguments about the loss of traditional beauty and authenticity in modern Japan. How does combining two traditions enable his critique?
+  type: short-answer
+  explanation: 'By synthesizing Edo-period Japanese aesthetics with Western modernism, Mishima can simultaneously: (1) claim authority of traditional Japanese value (the Edo-period beauty and its philosophical depth), (2) employ modernist techniques (psychological complexity, formal innovation, engagement with Western philosophical traditions) that allow sophisticated expression of loss and alienation, and (3) critique postwar modernization from two directions—as betrayal of Japanese tradition AND as inadequate by modernist standards. The synthesis allows him to argue that both traditions—if lived authentically—offered value that postwar materialism lacks. By employing modernist form to narrate the impossibility of returning to traditional aesthetics, he makes the loss philosophically and formally present in the work itself. The reader experiences modernist alienation while encountering descriptions of traditional beauty: the form embodies what cannot be recovered. This strategy is more powerful than either tradition alone could achieve. Pure traditionalism might seem reactionary; pure modernism might seem to accept postwar conditions as inevitable. By synthesizing them in productive tension, Mishima creates philosophical and aesthetic work that preserves memory of what was lost while fully acknowledging the impossibility of recovery.'
 ```
 
 ## Explainer

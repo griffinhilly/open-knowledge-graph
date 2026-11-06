@@ -23,29 +23,29 @@ status: draft
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What is the central tension in literary translation ethics?"
+- question: What is the central tension in literary translation ethics?
+  type: multiple-choice
   options:
-    - "Fidelity to source language form vs. readability in target language; preserving meaning vs. creating equivalent aesthetic effect"
-    - "Translation has no ethical dimensions"
-    - "Perfect word-for-word correspondence is always possible"
-    - "Only source language matters; target language is irrelevant"
+  - Fidelity to source language form vs. readability in target language; preserving meaning vs. creating equivalent aesthetic effect
+  - Translation has no ethical dimensions
+  - Perfect word-for-word correspondence is always possible
+  - Only source language matters; target language is irrelevant
   answer: 0
-  explanation: "Translation involves fundamental tensions between competing values. Literal fidelity to source form may produce unreadable target language. Prioritizing readability may lose source nuances. Translation theory grapples with these tensions and the ethical questions they raise about what translators owe source texts, source languages, target readers, and target languages."
+  explanation: Translation involves fundamental tensions between competing values. Literal fidelity to source form may produce unreadable target language. Prioritizing readability may lose source nuances. Translation theory grapples with these tensions and the ethical questions they raise about what translators owe source texts, source languages, target readers, and target languages.
 
-- type: true-false
-  statement: "Translation is a form of interpretation and creation, not merely transparent transmission of meaning from source to target."
+- question: Translation is a form of interpretation and creation, not merely transparent transmission of meaning from source to target.
+  type: true-false
   answer: true
-  explanation: "Recognizing translation as interpretive and creative avoids the false ideal of perfect, transparent translation. Translators make choices that shape how texts appear in target language. These choices are ethical matters."
+  explanation: Recognizing translation as interpretive and creative avoids the false ideal of perfect, transparent translation. Translators make choices that shape how texts appear in target language. These choices are ethical matters.
 
-- type: true-false
-  statement: "Questions of translation are technical matters with no relationship to broader literary, cultural, and political concerns."
+- question: Questions of translation are technical matters with no relationship to broader literary, cultural, and political concerns.
+  type: true-false
   answer: false
-  explanation: "Translation choices have cultural and political implications. Which texts get translated into which languages shapes what literature people can access and how they understand other cultures."
+  explanation: Translation choices have cultural and political implications. Which texts get translated into which languages shapes what literature people can access and how they understand other cultures.
 
-- type: short-answer
-  question: "How does translation enable world literature while also potentially distorting or appropriating source texts?"
-  explanation: "Translation makes world literature possible by enabling cross-cultural literary circulation. Yet translation also involves loss, interpretation, and potential distortion. Translators make choices that inevitably shape how texts appear. Understanding this double dimension—translation as enabling and as potentially limiting or distorting—reveals translation's complex cultural and ethical significance."
+- question: How does translation enable world literature while also potentially distorting or appropriating source texts?
+  type: short-answer
+  explanation: Translation makes world literature possible by enabling cross-cultural literary circulation. Yet translation also involves loss, interpretation, and potential distortion. Translators make choices that inevitably shape how texts appear. Understanding this double dimension—translation as enabling and as potentially limiting or distorting—reveals translation's complex cultural and ethical significance.
 ```
 
 ## Explainer

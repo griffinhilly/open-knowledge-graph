@@ -25,39 +25,39 @@ The profile merges journalism, observation, and literary technique to create com
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What distinguishes a profile from a biography?"
+- question: What distinguishes a profile from a biography?
+  type: multiple-choice
   options:
-    - "Profiles focus on famous people; biographies focus on ordinary people."
-    - "Profiles are accounts of living subjects using journalistic and literary techniques; biographies are longer historical accounts that may be written after a person dies."
-    - "Profiles use literary technique; biographies use only factual information."
-    - "There is no meaningful distinction between the two forms."
+  - Profiles focus on famous people; biographies focus on ordinary people.
+  - Profiles are accounts of living subjects using journalistic and literary techniques; biographies are longer historical accounts that may be written after a person dies.
+  - Profiles use literary technique; biographies use only factual information.
+  - There is no meaningful distinction between the two forms.
   answer: 1
-  explanation: "While both forms document a person's life, they differ in scope and subject. A profile is typically focused, often in a magazine or periodical format, capturing a living person in a moment of their life through interviews, observation, and research. A biography is usually longer, comprehensive, and often (though not always) written after the subject's death or in retrospect. Profiles emphasize the writer's direct encounter with the subject; biographies may encompass broader historical research."
+  explanation: While both forms document a person's life, they differ in scope and subject. A profile is typically focused, often in a magazine or periodical format, capturing a living person in a moment of their life through interviews, observation, and research. A biography is usually longer, comprehensive, and often (though not always) written after the subject's death or in retrospect. Profiles emphasize the writer's direct encounter with the subject; biographies may encompass broader historical research.
 
-- type: multiple-choice
-  question: "What does it mean for a profile to 'respect ethical responsibilities to the subject'?"
+- question: What does it mean for a profile to 'respect ethical responsibilities to the subject'?
+  type: multiple-choice
   options:
-    - "Profiles should always portray subjects positively."
-    - "Profiles should hide any negative information about the subject."
-    - "Profiles should be accurate, should fairly represent the subject's voice and perspective, and should consider how publication affects a living person."
-    - "Ethical responsibility is irrelevant to profile writing."
+  - Profiles should always portray subjects positively.
+  - Profiles should hide any negative information about the subject.
+  - Profiles should be accurate, should fairly represent the subject's voice and perspective, and should consider how publication affects a living person.
+  - Ethical responsibility is irrelevant to profile writing.
   answer: 2
-  explanation: "Ethical responsibility in profiles means honesty, fairness, and awareness of consequences. A profile writer should verify facts, should represent the subject's actual words and perspectives (not distort them), should disclose how they obtained information, and should consider whether publication might harm the subject in real ways. This doesn't mean portraying subjects as purely positive; it means portraying them truthfully and fairly. The subject is a living person who will read the profile and live with its publication—this demands more ethical care than writing about the dead."
+  explanation: Ethical responsibility in profiles means honesty, fairness, and awareness of consequences. A profile writer should verify facts, should represent the subject's actual words and perspectives (not distort them), should disclose how they obtained information, and should consider whether publication might harm the subject in real ways. This doesn't mean portraying subjects as purely positive; it means portraying them truthfully and fairly. The subject is a living person who will read the profile and live with its publication—this demands more ethical care than writing about the dead.
 
-- type: true-false
-  statement: "True: A profile combines observation of the subject in real time with biographical research and narrative construction to create a multidimensional portrait."
+- question: 'True: A profile combines observation of the subject in real time with biographical research and narrative construction to create a multidimensional portrait.'
+  type: true-false
   answer: true
-  explanation: "This is central to profile writing. The writer observes the subject in action (what they do, how they speak, their environment), interviews them and others (biographical information and perspective), researches their background and accomplishments (historical context), and then constructs a narrative that weaves these elements together. This combination creates depth that no single element could achieve alone. The profile shows the person in action, not just documented through facts."
+  explanation: This is central to profile writing. The writer observes the subject in action (what they do, how they speak, their environment), interviews them and others (biographical information and perspective), researches their background and accomplishments (historical context), and then constructs a narrative that weaves these elements together. This combination creates depth that no single element could achieve alone. The profile shows the person in action, not just documented through facts.
 
-- type: true-false
-  statement: "True: Literary technique in profiles (scene construction, dialogue, narrative arc) compromises journalistic accuracy and ethical responsibility."
+- question: 'True: Literary technique in profiles (scene construction, dialogue, narrative arc) compromises journalistic accuracy and ethical responsibility.'
+  type: true-false
   answer: false
-  explanation: "Literary technique and journalistic accuracy are not opposed. Using dialogue means recording what people actually said. Constructing scenes means observing and describing real moments. Creating narrative shape means organizing true information coherently, not fabricating events. The 'literary' aspect is in the crafting—how information is presented, what details are emphasized, how scenes are constructed—not in inventing facts. The strongest profiles combine literary sophistication with journalistic rigor."
+  explanation: Literary technique and journalistic accuracy are not opposed. Using dialogue means recording what people actually said. Constructing scenes means observing and describing real moments. Creating narrative shape means organizing true information coherently, not fabricating events. The 'literary' aspect is in the crafting—how information is presented, what details are emphasized, how scenes are constructed—not in inventing facts. The strongest profiles combine literary sophistication with journalistic rigor.
 
-- type: short-answer
-  question: "What kind of research and observation would you need to do to write a strong profile of someone? What sources and methods would you use, and what ethical questions would you face?"
-  explanation: "You would likely interview the subject multiple times, observe them in their natural context (workplace, home, with friends), interview people who know them well, research their background and public record. Ethical questions would include: What permission is needed before publishing? How do you handle information the subject doesn't want public but others tell you? What if your observation reveals contradictions between what the subject says and what you observe? How do you represent someone fairly while still making independent judgments? A strong profile acknowledges these tensions—it shows the complexity of the person and the writer's relationship to them, rather than pretending to unmediated access."
+- question: What kind of research and observation would you need to do to write a strong profile of someone? What sources and methods would you use, and what ethical questions would you face?
+  type: short-answer
+  explanation: 'You would likely interview the subject multiple times, observe them in their natural context (workplace, home, with friends), interview people who know them well, research their background and public record. Ethical questions would include: What permission is needed before publishing? How do you handle information the subject doesn''t want public but others tell you? What if your observation reveals contradictions between what the subject says and what you observe? How do you represent someone fairly while still making independent judgments? A strong profile acknowledges these tensions—it shows the complexity of the person and the writer''s relationship to them, rather than pretending to unmediated access.'
 ```
 
 ## Explainer

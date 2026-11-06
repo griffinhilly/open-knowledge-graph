@@ -23,35 +23,39 @@ In picture books, author and illustrator function as collaborative artists whose
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "In successful author-illustrator collaborations, how do text and image function?"
-    options:
-      - "One artist dominates while the other is secondary"
-      - "Both contribute essential meaning-making; neither text nor image alone conveys the complete narrative"
-      - "Text and image should be completely independent"
-      - "Visual elements are decorative supplements to text"
-    answer: 1
-    explanation: "Successful collaborations treat author and illustrator as equal partners whose contributions are interdependent and necessary for the complete work."
-  - question: "What does mutual respect for each artist's contribution mean in author-illustrator collaboration?"
-    options:
-      - "The author controls all narrative decisions while the illustrator follows instructions"
-      - "Each artist respects the other's expertise and allows genuine artistic contribution rather than treating one as subordinate"
-      - "Illustrators should not contribute to narrative meaning"
-      - "Text and image need not communicate with each other"
-    answer: 1
-    explanation: "True collaboration involves both artists bringing expertise and having meaningful input on how the book communicates."
+- question: In successful author-illustrator collaborations, how do text and image function?
+  type: multiple-choice
+  options:
+  - One artist dominates while the other is secondary
+  - Both contribute essential meaning-making; neither text nor image alone conveys the complete narrative
+  - Text and image should be completely independent
+  - Visual elements are decorative supplements to text
+  answer: 1
+  explanation: Successful collaborations treat author and illustrator as equal partners whose contributions are interdependent and necessary for the complete work.
 
-true-false:
-  - question: "True or False: An illustrator's visual choices and artistic decisions can create meaning that text doesn't explicitly address."
-    answer: true
-    explanation: "This is true. Visual language can communicate emotion, pacing, character development, and thematic elements independently of or in addition to textual content."
-  - question: "True or False: Picture books function adequately even when author and illustrator work separately with minimal communication."
-    answer: false
-    explanation: "This is false. Best picture books result from close collaboration where both artists understand how their contributions work together."
+- question: What does mutual respect for each artist's contribution mean in author-illustrator collaboration?
+  type: multiple-choice
+  options:
+  - The author controls all narrative decisions while the illustrator follows instructions
+  - Each artist respects the other's expertise and allows genuine artistic contribution rather than treating one as subordinate
+  - Illustrators should not contribute to narrative meaning
+  - Text and image need not communicate with each other
+  answer: 1
+  explanation: True collaboration involves both artists bringing expertise and having meaningful input on how the book communicates.
 
-short-answer:
-  - question: "Why is the relationship between author and illustrator significant both artistically and from a production perspective in picture book creation?"
-    explanation: "Artistically, picture books are hybrid works where text and image create meaning together. When author and illustrator communicate extensively and respect each other's contribution, the result is a unified aesthetic object where both elements enhance each other. From a production perspective, unclear collaboration can result in mismatches between text and image—an illustrator might interpret the text differently than intended, or text might not account for what the illustrations will emphasize. Early, ongoing collaboration prevents these mismatches. Furthermore, understanding that picture books require true collaboration—not author dictating to illustrator—improves the final product because it leverages both artists' skills. An illustrator might suggest ways illustrations could communicate something textually stated, perhaps more efficiently or with greater emotional impact. An author might recognize that an illustration changes the narrative meaning and work with that change rather than against it. This collaborative iterative process creates better books than either artist could create alone following predetermined plans."
+- question: 'True or False: An illustrator''s visual choices and artistic decisions can create meaning that text doesn''t explicitly address.'
+  type: true-false
+  answer: true
+  explanation: This is true. Visual language can communicate emotion, pacing, character development, and thematic elements independently of or in addition to textual content.
+
+- question: 'True or False: Picture books function adequately even when author and illustrator work separately with minimal communication.'
+  type: true-false
+  answer: false
+  explanation: This is false. Best picture books result from close collaboration where both artists understand how their contributions work together.
+
+- question: Why is the relationship between author and illustrator significant both artistically and from a production perspective in picture book creation?
+  type: short-answer
+  explanation: Artistically, picture books are hybrid works where text and image create meaning together. When author and illustrator communicate extensively and respect each other's contribution, the result is a unified aesthetic object where both elements enhance each other. From a production perspective, unclear collaboration can result in mismatches between text and image—an illustrator might interpret the text differently than intended, or text might not account for what the illustrations will emphasize. Early, ongoing collaboration prevents these mismatches. Furthermore, understanding that picture books require true collaboration—not author dictating to illustrator—improves the final product because it leverages both artists' skills. An illustrator might suggest ways illustrations could communicate something textually stated, perhaps more efficiently or with greater emotional impact. An author might recognize that an illustration changes the narrative meaning and work with that change rather than against it. This collaborative iterative process creates better books than either artist could create alone following predetermined plans.
 ```
 
 ## Explainer

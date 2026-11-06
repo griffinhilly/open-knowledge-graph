@@ -36,36 +36,39 @@ Hard SF is not inherently superior to soft SF; they offer different satisfaction
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What is the primary priority of hard science fiction?"
-    options:
-      - "Character development and emotional depth"
-      - "Scientific and technological accuracy, rigorous speculation from known principles"
-      - "Political messaging and social critique"
-      - "Entertaining action sequences and plot twists"
-    correct_answer: 1
-    explanation: "The core idea states that 'hard SF prioritizes scientific and technological accuracy, rigorous speculation from known principles, and plausible technology.'"
-  - type: multiple-choice
-    question: "What distinguishes soft SF from hard SF in terms of narrative priorities?"
-    options:
-      - "Soft SF is faster-paced and more action-oriented"
-      - "Soft SF prioritizes character development, social dynamics, and philosophical questions over technical accuracy"
-      - "Soft SF uses simpler vocabulary and writing style"
-      - "Soft SF focuses exclusively on near-future settings"
-    correct_answer: 1
-    explanation: "The core idea explicitly states that 'soft SF prioritizes character development, social dynamics, and philosophical questions over technical accuracy.'"
-  - type: true-false
-    question: "Hard SF is inherently superior to soft SF and offers more literary value."
-    correct_answer: false
-    explanation: "The core idea explicitly states that 'hard SF is not inherently superior to soft SF; they offer different satisfactions.' This is also emphasized in the Common Misconceptions section."
-  - type: true-false
-    question: "The best SF often integrates both rigorous scientific thinking and emotional depth."
-    correct_answer: true
-    explanation: "The core idea states in the Common Misconceptions section that 'the best SF often integrates both rigorous thinking and emotional depth,' showing the value of blending both approaches."
-  - type: short-answer
-    question: "Why would a hard SF reader ask different questions of a narrative than a soft SF reader?"
-    explanation: "A strong answer should explain that hard SF readers prioritize scientific plausibility and check whether speculation follows from established principles, while soft SF readers prioritize emotional authenticity and what the speculative elements reveal about human meaning. Students should demonstrate understanding that different reader priorities lead to different satisfaction criteria."
+- question: What is the primary priority of hard science fiction?
+  type: multiple-choice
+  options:
+  - Character development and emotional depth
+  - Scientific and technological accuracy, rigorous speculation from known principles
+  - Political messaging and social critique
+  - Entertaining action sequences and plot twists
+  answer: 1
+  explanation: The core idea states that 'hard SF prioritizes scientific and technological accuracy, rigorous speculation from known principles, and plausible technology.'
+
+- question: What distinguishes soft SF from hard SF in terms of narrative priorities?
+  type: multiple-choice
+  options:
+  - Soft SF is faster-paced and more action-oriented
+  - Soft SF prioritizes character development, social dynamics, and philosophical questions over technical accuracy
+  - Soft SF uses simpler vocabulary and writing style
+  - Soft SF focuses exclusively on near-future settings
+  answer: 1
+  explanation: The core idea explicitly states that 'soft SF prioritizes character development, social dynamics, and philosophical questions over technical accuracy.'
+
+- question: Hard SF is inherently superior to soft SF and offers more literary value.
+  type: true-false
+  answer: false
+  explanation: The core idea explicitly states that 'hard SF is not inherently superior to soft SF; they offer different satisfactions.' This is also emphasized in the Common Misconceptions section.
+
+- question: The best SF often integrates both rigorous scientific thinking and emotional depth.
+  type: true-false
+  answer: true
+  explanation: The core idea states in the Common Misconceptions section that 'the best SF often integrates both rigorous thinking and emotional depth,' showing the value of blending both approaches.
+
+- question: Why would a hard SF reader ask different questions of a narrative than a soft SF reader?
+  type: short-answer
+  explanation: A strong answer should explain that hard SF readers prioritize scientific plausibility and check whether speculation follows from established principles, while soft SF readers prioritize emotional authenticity and what the speculative elements reveal about human meaning. Students should demonstrate understanding that different reader priorities lead to different satisfaction criteria.
 ```
 
 ## Explainer

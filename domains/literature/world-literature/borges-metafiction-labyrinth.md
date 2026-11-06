@@ -33,39 +33,39 @@ Borges is not 'too intellectual'—his stories integrate philosophical content a
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What does Borges achieve by making 'narrative form itself become the subject of inquiry' in his stories?"
+- question: What does Borges achieve by making 'narrative form itself become the subject of inquiry' in his stories?
+  type: multiple-choice
   options:
-    - "He avoids having to write about real human emotions or relationships"
-    - "He makes stories that explore the relationship between literature, reality, and knowledge—where form and content become inseparable philosophical arguments"
-    - "He writes stories that only academics can understand"
-    - "He abandons narrative altogether in favor of pure philosophy"
+  - He avoids having to write about real human emotions or relationships
+  - He makes stories that explore the relationship between literature, reality, and knowledge—where form and content become inseparable philosophical arguments
+  - He writes stories that only academics can understand
+  - He abandons narrative altogether in favor of pure philosophy
   answer: 1
-  explanation: "Borges' fundamental insight is that narrative form is not a neutral vehicle for content but a mode of philosophical inquiry. By making form itself the subject, he transforms stories into philosophical investigations. A story structured as a labyrinth makes an argument about the nature of knowledge and reality—if all paths lead to the same center, or if centers multiply infinitely, what does this tell us about how we understand truth? A fictional library containing all possible books raises questions about language, possibility, and the limits of human knowledge. The stories function simultaneously as philosophical arguments and literary experiences. You do not read about philosophy; you encounter philosophy as the structure of the narrative itself. This integration of form and philosophical meaning is Borges' defining achievement."
+  explanation: Borges' fundamental insight is that narrative form is not a neutral vehicle for content but a mode of philosophical inquiry. By making form itself the subject, he transforms stories into philosophical investigations. A story structured as a labyrinth makes an argument about the nature of knowledge and reality—if all paths lead to the same center, or if centers multiply infinitely, what does this tell us about how we understand truth? A fictional library containing all possible books raises questions about language, possibility, and the limits of human knowledge. The stories function simultaneously as philosophical arguments and literary experiences. You do not read about philosophy; you encounter philosophy as the structure of the narrative itself. This integration of form and philosophical meaning is Borges' defining achievement.
 
-- type: multiple-choice
-  question: "How does Borges' brevity and formal density relate to his exploration of philosophical paradox?"
+- question: How does Borges' brevity and formal density relate to his exploration of philosophical paradox?
+  type: multiple-choice
   options:
-    - "Short stories are easier to write than novels"
-    - "Brevity allows him to concentrate philosophical density and create paradoxes that expand in meaning long after reading"
-    - "He writes short stories because he cannot sustain longer narratives"
-    - "Density and brevity have no relationship to philosophical content"
+  - Short stories are easier to write than novels
+  - Brevity allows him to concentrate philosophical density and create paradoxes that expand in meaning long after reading
+  - He writes short stories because he cannot sustain longer narratives
+  - Density and brevity have no relationship to philosophical content
   answer: 1
-  explanation: "Borges recognised that philosophical paradoxes are best conveyed through compression, not elaboration. A brief, dense story can lodge in the mind, its implications expanding in the reader's understanding. The 'Garden of Forking Paths,' a relatively short story, encodes multiple nested narratives, temporal paradoxes, and epistemological questions that readers continue unpacking. If Borges had elaborated these ideas across hundreds of pages, he would have dissipated their paradoxical force. Instead, the compressed form concentrates meaning: every word matters, every structural choice reverberates. This is why Borges' stories function like philosophical koans—brief utterances that contain infinite potential meanings. The brevity is essential to the philosophical work the stories perform."
+  explanation: 'Borges recognised that philosophical paradoxes are best conveyed through compression, not elaboration. A brief, dense story can lodge in the mind, its implications expanding in the reader''s understanding. The ''Garden of Forking Paths,'' a relatively short story, encodes multiple nested narratives, temporal paradoxes, and epistemological questions that readers continue unpacking. If Borges had elaborated these ideas across hundreds of pages, he would have dissipated their paradoxical force. Instead, the compressed form concentrates meaning: every word matters, every structural choice reverberates. This is why Borges'' stories function like philosophical koans—brief utterances that contain infinite potential meanings. The brevity is essential to the philosophical work the stories perform.'
 
-- type: true-false
-  statement: "In Borges' stories, the labyrinthine structures and fictional libraries are primarily decorative devices that make his stories seem more exotic and interesting."
+- question: In Borges' stories, the labyrinthine structures and fictional libraries are primarily decorative devices that make his stories seem more exotic and interesting.
+  type: true-false
   answer: false
-  explanation: "This fundamentally misunderstands Borges' method. The labyrinth and library are not decorative but structural principles that generate the stories' philosophical meaning. A story structured as a labyrinth makes a specific argument about knowledge, reality, and choice. A library containing all possible books raises questions about language, representation, and the infinite. These structures are not ornament but the very substance of the philosophical inquiry. Remove them and the story collapses because the meaning depends entirely on the form. Borges demonstrates that in modernist fiction, form and content cannot be separated—the labyrinth is not decoration of meaning but the meaning itself."
+  explanation: This fundamentally misunderstands Borges' method. The labyrinth and library are not decorative but structural principles that generate the stories' philosophical meaning. A story structured as a labyrinth makes a specific argument about knowledge, reality, and choice. A library containing all possible books raises questions about language, representation, and the infinite. These structures are not ornament but the very substance of the philosophical inquiry. Remove them and the story collapses because the meaning depends entirely on the form. Borges demonstrates that in modernist fiction, form and content cannot be separated—the labyrinth is not decoration of meaning but the meaning itself.
 
-- type: true-false
-  statement: "Borges demonstrates that narrative form can be a vehicle for philosophical inquiry—where how a story is structured embodies and generates philosophical arguments about knowledge, reality, and human understanding."
+- question: Borges demonstrates that narrative form can be a vehicle for philosophical inquiry—where how a story is structured embodies and generates philosophical arguments about knowledge, reality, and human understanding.
+  type: true-false
   answer: true
-  explanation: "This is the core of Borges' innovation. Rather than using narrative to illustrate pre-existing philosophical ideas, Borges makes narrative form itself do philosophical work. The structure of the story IS the philosophical argument. A nested narrative demonstrates infinite regress; a branching labyrinth shows how all choices contain multiple futures; a fictional library containing every possible book explores the relationship between language and infinity. The stories are not philosophy written as fiction but fiction that performs philosophy through its very structure. This is why form and content are inseparable in Borges—they are not two separate elements but aspects of a unified philosophical investigation."
+  explanation: This is the core of Borges' innovation. Rather than using narrative to illustrate pre-existing philosophical ideas, Borges makes narrative form itself do philosophical work. The structure of the story IS the philosophical argument. A nested narrative demonstrates infinite regress; a branching labyrinth shows how all choices contain multiple futures; a fictional library containing every possible book explores the relationship between language and infinity. The stories are not philosophy written as fiction but fiction that performs philosophy through its very structure. This is why form and content are inseparable in Borges—they are not two separate elements but aspects of a unified philosophical investigation.
 
-- type: short-answer
-  question: "Explain how Borges' use of 'modernist self-reflexivity'—stories about writing, libraries, narratives within narratives—makes intellectual complexity central to literary form. How does this differ from simple 'difficult' writing?"
-  explanation: "Self-reflexivity might seem like playful complexity, but in Borges it is philosophically motivated. When a story is about writing itself, or a library containing all books, the narrative form becomes an investigation into the nature of narrative, literature, and knowledge. This is not difficulty for its own sake but necessary to the inquiry. A conventional love story might be complex in execution, but its philosophical work is limited. A Borges story about a fictional encyclopedia or a story that contains itself might seem more 'difficult,' but the difficulty is purposeful—it arises from the philosophical paradoxes the form enacts. The intellectual complexity is not aesthetic flourish but the essence of the philosophical exploration. This distinguishes Borges from writers who are merely complicated: his complexity serves meaning. Every formal choice—brevity, nested structure, philosophical paradox, metafictional reference—generates philosophical content. The form and the idea are unified, making intellectual engagement not optional but necessary to understanding what the story means."
+- question: Explain how Borges' use of 'modernist self-reflexivity'—stories about writing, libraries, narratives within narratives—makes intellectual complexity central to literary form. How does this differ from simple 'difficult' writing?
+  type: short-answer
+  explanation: 'Self-reflexivity might seem like playful complexity, but in Borges it is philosophically motivated. When a story is about writing itself, or a library containing all books, the narrative form becomes an investigation into the nature of narrative, literature, and knowledge. This is not difficulty for its own sake but necessary to the inquiry. A conventional love story might be complex in execution, but its philosophical work is limited. A Borges story about a fictional encyclopedia or a story that contains itself might seem more ''difficult,'' but the difficulty is purposeful—it arises from the philosophical paradoxes the form enacts. The intellectual complexity is not aesthetic flourish but the essence of the philosophical exploration. This distinguishes Borges from writers who are merely complicated: his complexity serves meaning. Every formal choice—brevity, nested structure, philosophical paradox, metafictional reference—generates philosophical content. The form and the idea are unified, making intellectual engagement not optional but necessary to understanding what the story means.'
 ```
 
 ## Explainer

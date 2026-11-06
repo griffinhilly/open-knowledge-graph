@@ -29,36 +29,39 @@ Action thrillers emphasize physical movement, combat, and spectacle. These narra
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What distinguishes action in an action thriller from action in other genres?"
-    options:
-      - "Action is always morally justified and heroic"
-      - "Action serves the plot and builds tension, not mere spectacle for its own sake"
-      - "Action requires elaborate special effects and high budgets"
-      - "Action focuses on emotional character development rather than physical danger"
-    correct_answer: 1
-    explanation: "The core idea states that 'action serves the plot and tension rather than existing independently.' This means action thrillers use physical sequences to advance narrative and suspense, not just for visual entertainment."
-  - type: multiple-choice
-    question: "Which type of protagonist is most typical in action thrillers?"
-    options:
-      - "Amateur civilians forced into dangerous situations"
-      - "Professional operatives (soldiers, spies, assassins) executing complex operations"
-      - "Ordinary people with supernatural powers"
-      - "Reluctant heroes who avoid confrontation"
-    correct_answer: 1
-    explanation: "The core idea explicitly mentions that action thrillers 'often feature professional protagonists (soldiers, spies, assassins) executing complex operations,' which emphasizes competence and strategic thinking."
-  - type: true-false
-    question: "In action thrillers, the thrill comes primarily from the protagonist's physical strength rather than their strategic thinking and competence under pressure."
-    correct_answer: false
-    explanation: "The core idea states the thrill derives from 'physical danger, strategic thinking, and the protagonist's competence under pressure'—it's a combination of factors, not just physical strength alone."
-  - type: true-false
-    question: "Action thrillers prioritize physical movement and spectacular sequences as essential elements of the narrative experience."
-    correct_answer: true
-    explanation: "The core idea opens by stating that action thrillers 'emphasize physical movement, combat, and spectacle,' making these core features of the genre's appeal."
-  - type: short-answer
-    question: "How does the role of action in an action thriller differ from gratuitous action sequences in other stories?"
-    explanation: "A good answer should reference how action thrillers use physical sequences to serve plot development and tension-building, rather than as standalone spectacle. Students should demonstrate understanding that action is functional to narrative purpose and character competence demonstration."
+- question: What distinguishes action in an action thriller from action in other genres?
+  type: multiple-choice
+  options:
+  - Action is always morally justified and heroic
+  - Action serves the plot and builds tension, not mere spectacle for its own sake
+  - Action requires elaborate special effects and high budgets
+  - Action focuses on emotional character development rather than physical danger
+  answer: 1
+  explanation: The core idea states that 'action serves the plot and tension rather than existing independently.' This means action thrillers use physical sequences to advance narrative and suspense, not just for visual entertainment.
+
+- question: Which type of protagonist is most typical in action thrillers?
+  type: multiple-choice
+  options:
+  - Amateur civilians forced into dangerous situations
+  - Professional operatives (soldiers, spies, assassins) executing complex operations
+  - Ordinary people with supernatural powers
+  - Reluctant heroes who avoid confrontation
+  answer: 1
+  explanation: The core idea explicitly mentions that action thrillers 'often feature professional protagonists (soldiers, spies, assassins) executing complex operations,' which emphasizes competence and strategic thinking.
+
+- question: In action thrillers, the thrill comes primarily from the protagonist's physical strength rather than their strategic thinking and competence under pressure.
+  type: true-false
+  answer: false
+  explanation: The core idea states the thrill derives from 'physical danger, strategic thinking, and the protagonist's competence under pressure'—it's a combination of factors, not just physical strength alone.
+
+- question: Action thrillers prioritize physical movement and spectacular sequences as essential elements of the narrative experience.
+  type: true-false
+  answer: true
+  explanation: The core idea opens by stating that action thrillers 'emphasize physical movement, combat, and spectacle,' making these core features of the genre's appeal.
+
+- question: How does the role of action in an action thriller differ from gratuitous action sequences in other stories?
+  type: short-answer
+  explanation: A good answer should reference how action thrillers use physical sequences to serve plot development and tension-building, rather than as standalone spectacle. Students should demonstrate understanding that action is functional to narrative purpose and character competence demonstration.
 ```
 
 ## Explainer

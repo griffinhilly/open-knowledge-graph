@@ -27,36 +27,39 @@ Noir is simultaneously an aesthetic and a worldview. Noir emphasizes visual styl
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What makes noir distinctive as a form of expression?"
-    options:
-      - "It is purely aesthetic with no thematic depth"
-      - "It is simultaneously an aesthetic and a worldview"
-      - "It is only concerned with crime and detection"
-      - "It is primarily a philosophical theory"
-    correct_answer: 1
-    explanation: "The core idea explicitly states that 'noir is simultaneously an aesthetic and a worldview,' indicating it operates on multiple levels."
-  - type: multiple-choice
-    question: "What visual elements characterize noir aesthetic?"
-    options:
-      - "Bright colors and clear visibility"
-      - "Shadow, chiaroscuro, and urban decay"
-      - "Pastoral landscapes and natural settings"
-      - "Minimalist design without texture"
-    correct_answer: 1
-    explanation: "The core idea specifies that noir 'emphasizes visual style (shadow, chiaroscuro, urban decay),' identifying these as characteristic visual elements."
-  - type: true-false
-    question: "Noir's worldview suggests that the world is fundamentally corrupt and that survival requires moral flexibility."
-    correct_answer: true
-    explanation: "The core idea states that noir 'suggests that the world is fundamentally corrupt, that good intentions collide with systemic evil, and that survival requires moral flexibility,' confirming this pessimistic worldview."
-  - type: true-false
-    question: "Noir is limited to literature and does not influence other art forms."
-    correct_answer: false
-    explanation: "The core idea explicitly states that noir 'influences literature, film, visual arts, and contemporary genre conventions,' indicating its broad cultural impact."
-  - type: short-answer
-    question: "How do visual style (shadow, decay, darkness) and thematic content (corruption, moral compromise) work together in noir? Why is the aesthetic inseparable from the worldview?"
-    explanation: "A good answer should recognize that noir's visual style embodies its philosophical content—shadow and darkness represent moral ambiguity and hidden corruption; urban decay represents systemic failure; chiaroscuro represents moral complexity (neither purely light nor dark). The aesthetic doesn't merely decorate the themes; it expresses them. You cannot see noir's visual style without being in the worldview. Students should understand that in noir, form and content are unified—the way a world looks communicates what kind of world it is ethically and politically."
+- question: What makes noir distinctive as a form of expression?
+  type: multiple-choice
+  options:
+  - It is purely aesthetic with no thematic depth
+  - It is simultaneously an aesthetic and a worldview
+  - It is only concerned with crime and detection
+  - It is primarily a philosophical theory
+  answer: 1
+  explanation: The core idea explicitly states that 'noir is simultaneously an aesthetic and a worldview,' indicating it operates on multiple levels.
+
+- question: What visual elements characterize noir aesthetic?
+  type: multiple-choice
+  options:
+  - Bright colors and clear visibility
+  - Shadow, chiaroscuro, and urban decay
+  - Pastoral landscapes and natural settings
+  - Minimalist design without texture
+  answer: 1
+  explanation: The core idea specifies that noir 'emphasizes visual style (shadow, chiaroscuro, urban decay),' identifying these as characteristic visual elements.
+
+- question: Noir's worldview suggests that the world is fundamentally corrupt and that survival requires moral flexibility.
+  type: true-false
+  answer: true
+  explanation: The core idea states that noir 'suggests that the world is fundamentally corrupt, that good intentions collide with systemic evil, and that survival requires moral flexibility,' confirming this pessimistic worldview.
+
+- question: Noir is limited to literature and does not influence other art forms.
+  type: true-false
+  answer: false
+  explanation: The core idea explicitly states that noir 'influences literature, film, visual arts, and contemporary genre conventions,' indicating its broad cultural impact.
+
+- question: How do visual style (shadow, decay, darkness) and thematic content (corruption, moral compromise) work together in noir? Why is the aesthetic inseparable from the worldview?
+  type: short-answer
+  explanation: A good answer should recognize that noir's visual style embodies its philosophical content—shadow and darkness represent moral ambiguity and hidden corruption; urban decay represents systemic failure; chiaroscuro represents moral complexity (neither purely light nor dark). The aesthetic doesn't merely decorate the themes; it expresses them. You cannot see noir's visual style without being in the worldview. Students should understand that in noir, form and content are unified—the way a world looks communicates what kind of world it is ethically and politically.
 ```
 
 ## Explainer

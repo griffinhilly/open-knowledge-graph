@@ -25,39 +25,39 @@ Michel de Montaigne pioneered the personal essay in the 16th century, establishi
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What did Montaigne mean by 'essai' when he invented the essay form?"
+- question: What did Montaigne mean by 'essai' when he invented the essay form?
+  type: multiple-choice
   options:
-    - "A formal argument with thesis and defense."
-    - "A tentative attempt at exploring a subject—thinking aloud, trying out ideas."
-    - "A fixed literary form with strict rules."
-    - "Essays are just personal narratives."
+  - A formal argument with thesis and defense.
+  - A tentative attempt at exploring a subject—thinking aloud, trying out ideas.
+  - A fixed literary form with strict rules.
+  - Essays are just personal narratives.
   answer: 1
-  explanation: "Essai means 'attempt' or 'trial.' Montaigne's essays are tentative explorations, not dogmatic declarations. He thinks through ideas on the page, follows thoughts where they lead, admits uncertainty. This tentativeness is essential to the form."
+  explanation: Essai means 'attempt' or 'trial.' Montaigne's essays are tentative explorations, not dogmatic declarations. He thinks through ideas on the page, follows thoughts where they lead, admits uncertainty. This tentativeness is essential to the form.
 
-- type: multiple-choice
-  question: "How does Montaigne's 'conversational intimacy' affect how readers experience his essays?"
+- question: How does Montaigne's 'conversational intimacy' affect how readers experience his essays?
+  type: multiple-choice
   options:
-    - "Conversational intimacy is inappropriate for serious writing."
-    - "By addressing readers as peers and thinking aloud, Montaigne creates a sense of intimate conversation, inviting readers into his thinking process."
-    - "Formal language is required in philosophy."
-    - "Intimacy weakens argument."
+  - Conversational intimacy is inappropriate for serious writing.
+  - By addressing readers as peers and thinking aloud, Montaigne creates a sense of intimate conversation, inviting readers into his thinking process.
+  - Formal language is required in philosophy.
+  - Intimacy weakens argument.
   answer: 1
-  explanation: "Montaigne speaks to readers directly, in a conversational tone. He admits confusion, changes his mind, makes jokes. This creates an intimate relationship with readers—they're thinking alongside him, not receiving doctrine."
+  explanation: Montaigne speaks to readers directly, in a conversational tone. He admits confusion, changes his mind, makes jokes. This creates an intimate relationship with readers—they're thinking alongside him, not receiving doctrine.
 
-- type: true-false
-  statement: "True: Montaigne established that the essay's flexibility and informality are strengths, not failures of the form."
+- question: 'True: Montaigne established that the essay''s flexibility and informality are strengths, not failures of the form.'
+  type: true-false
   answer: true
-  explanation: "Before Montaigne, rigorous writing followed formal rules. Montaigne showed that flexibility, digression, and conversational tone could be vehicles for serious thought. He made informality itself a virtue."
+  explanation: Before Montaigne, rigorous writing followed formal rules. Montaigne showed that flexibility, digression, and conversational tone could be vehicles for serious thought. He made informality itself a virtue.
 
-- type: true-false
-  statement: "False: Montaigne's essays are disorganized and lack serious intellectual content."
+- question: 'False: Montaigne''s essays are disorganized and lack serious intellectual content.'
+  type: true-false
   answer: false
-  explanation: "This is false. Montaigne's essays grapple with serious philosophical questions—death, friendship, education, justice. The apparent looseness of organization masks careful thinking. The informality allows him to explore ideas in depth."
+  explanation: This is false. Montaigne's essays grapple with serious philosophical questions—death, friendship, education, justice. The apparent looseness of organization masks careful thinking. The informality allows him to explore ideas in depth.
 
-- type: short-answer
-  question: "How did Montaigne's model of 'thinking aloud' change what was possible in writing? What did he authorize?"
-  explanation: "Before Montaigne, formal prose had strict rules. It aimed for definitiveness and authority. Montaigne said: writing can be tentative. You can think aloud on the page. You can change your mind. You can digress. You can be uncertain. You can speak conversationally. This authorized a whole different relationship between writer and reader—not lecture but conversation, not certainty but exploration. He authorized the essay form as we know it—flexible, personal, digressive, intimate. Everything casual and personal about essay writing now traces back to Montaigne establishing that these qualities were valuable, not failures. He made it possible for writers to explore ideas through a personal, conversational lens rather than hiding behind formal authority."
+- question: How did Montaigne's model of 'thinking aloud' change what was possible in writing? What did he authorize?
+  type: short-answer
+  explanation: 'Before Montaigne, formal prose had strict rules. It aimed for definitiveness and authority. Montaigne said: writing can be tentative. You can think aloud on the page. You can change your mind. You can digress. You can be uncertain. You can speak conversationally. This authorized a whole different relationship between writer and reader—not lecture but conversation, not certainty but exploration. He authorized the essay form as we know it—flexible, personal, digressive, intimate. Everything casual and personal about essay writing now traces back to Montaigne establishing that these qualities were valuable, not failures. He made it possible for writers to explore ideas through a personal, conversational lens rather than hiding behind formal authority.'
 ```
 
 ## Explainer

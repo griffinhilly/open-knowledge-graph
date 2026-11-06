@@ -27,39 +27,39 @@ Oral history involves collecting, transcribing, editing, and presenting spoken n
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What is unique about oral history as a nonfiction form?"
+- question: What is unique about oral history as a nonfiction form?
+  type: multiple-choice
   options:
-    - "It invents stories from interviews."
-    - "It collects, transcribes, and presents spoken narratives as primary source material."
-    - "Oral history is not nonfiction."
-    - "All nonfiction is oral history."
+  - It invents stories from interviews.
+  - It collects, transcribes, and presents spoken narratives as primary source material.
+  - Oral history is not nonfiction.
+  - All nonfiction is oral history.
   answer: 1
-  explanation: "Oral history is a specific practice—recording and collecting people's spoken accounts of their lives or experiences, then making those narratives available to readers or listeners."
+  explanation: Oral history is a specific practice—recording and collecting people's spoken accounts of their lives or experiences, then making those narratives available to readers or listeners.
 
-- type: multiple-choice
-  question: "What ethical questions arise from editing oral history?"
+- question: What ethical questions arise from editing oral history?
+  type: multiple-choice
   options:
-    - "There are no ethical questions in oral history."
-    - "How much can you edit speakers' language while preserving their authentic voices and honoring their stories?"
-    - "Speakers have no rights in oral history."
-    - "Perfect transcription requires no editing."
+  - There are no ethical questions in oral history.
+  - How much can you edit speakers' language while preserving their authentic voices and honoring their stories?
+  - Speakers have no rights in oral history.
+  - Perfect transcription requires no editing.
   answer: 1
-  explanation: "Raw transcripts include filler words, false starts, repetition. Editing for readability is necessary. But how much editing can occur before the speaker's authentic voice is lost or distorted?"
+  explanation: Raw transcripts include filler words, false starts, repetition. Editing for readability is necessary. But how much editing can occur before the speaker's authentic voice is lost or distorted?
 
-- type: true-false
-  statement: "True: Oral historians are custodians of others' stories and bear responsibility for how those stories are preserved and presented."
+- question: 'True: Oral historians are custodians of others'' stories and bear responsibility for how those stories are preserved and presented.'
+  type: true-false
   answer: true
-  explanation: "This is central to oral history ethics. You're not just documenting; you're caring for stories that matter to speakers. That responsibility guides how you edit, present, and contextualize material."
+  explanation: This is central to oral history ethics. You're not just documenting; you're caring for stories that matter to speakers. That responsibility guides how you edit, present, and contextualize material.
 
-- type: true-false
-  statement: "False: Oral history requires presenting transcripts exactly as spoken, with all false starts and filler words preserved."
+- question: 'False: Oral history requires presenting transcripts exactly as spoken, with all false starts and filler words preserved.'
+  type: true-false
   answer: false
-  explanation: "This is false. Some editing for readability is standard. The challenge is editing for clarity while preserving authentic voice. How much editing crosses the line into distortion is the ethical question."
+  explanation: This is false. Some editing for readability is standard. The challenge is editing for clarity while preserving authentic voice. How much editing crosses the line into distortion is the ethical question.
 
-- type: short-answer
-  question: "How might an oral historian approach collecting and presenting stories responsibly?"
-  explanation: "The historian might: get explicit consent from speakers. Discuss how the material will be used. Transcribe carefully. Edit minimally while improving readability. Preserve distinctive voice and speech patterns. Provide context about the speaker and circumstances. Credit speakers appropriately. Be transparent about editing choices. Some historians share edited transcripts with speakers before publication, allowing speakers to review representation. This approach honors speakers' stories while making them available to larger audiences."
+- question: How might an oral historian approach collecting and presenting stories responsibly?
+  type: short-answer
+  explanation: 'The historian might: get explicit consent from speakers. Discuss how the material will be used. Transcribe carefully. Edit minimally while improving readability. Preserve distinctive voice and speech patterns. Provide context about the speaker and circumstances. Credit speakers appropriately. Be transparent about editing choices. Some historians share edited transcripts with speakers before publication, allowing speakers to review representation. This approach honors speakers'' stories while making them available to larger audiences.'
 ```
 
 ## Explainer

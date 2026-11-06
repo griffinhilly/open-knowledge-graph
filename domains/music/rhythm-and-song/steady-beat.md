@@ -36,40 +36,40 @@ Clap or tap along to familiar songs, focusing on keeping the beat perfectly even
 ## Questions
 
 ```yaml
-- question: "What is the steady beat in music?"
-  type: mc
+- question: What is the steady beat in music?
+  type: multiple-choice
   options:
-    - "The rhythm of the words"
-    - "The constant pulse that stays the same throughout a song"
-    - "The melody you sing"
-    - "The instruments that play loudly"
+  - The rhythm of the words
+  - The constant pulse that stays the same throughout a song
+  - The melody you sing
+  - The instruments that play loudly
   answer: 1
-  explanation: "The steady beat is the constant pulse underneath the music, like a heartbeat that doesn't change speed."
+  explanation: The steady beat is the constant pulse underneath the music, like a heartbeat that doesn't change speed.
 
-- question: "When you march or tap your foot to a song, you are usually following the steady beat."
-  type: tf
+- question: When you march or tap your foot to a song, you are usually following the steady beat.
+  type: true-false
   answer: true
-  explanation: "Yes! When you naturally move with music, you're often following the steady beat. It's the pulse that makes you want to move."
+  explanation: Yes! When you naturally move with music, you're often following the steady beat. It's the pulse that makes you want to move.
 
-- question: "What happens to the steady beat when there is a rest or silence in a song?"
-  type: mc
+- question: What happens to the steady beat when there is a rest or silence in a song?
+  type: multiple-choice
   options:
-    - "The beat stops completely"
-    - "The beat keeps going, even though you might not hear other sounds"
-    - "The beat gets faster"
-    - "The beat gets quieter"
+  - The beat stops completely
+  - The beat keeps going, even though you might not hear other sounds
+  - The beat gets faster
+  - The beat gets quieter
   answer: 1
-  explanation: "The beat continues underneath even when there are rests or quiet moments. The pulse doesn't stop—it just isn't being played at that moment."
+  explanation: The beat continues underneath even when there are rests or quiet moments. The pulse doesn't stop—it just isn't being played at that moment.
 
-- question: "Keeping a steady beat is easy if you just listen to the music."
-  type: tf
+- question: Keeping a steady beat is easy if you just listen to the music.
+  type: true-false
   answer: false
-  explanation: "It actually takes focus and practice! Even though it sounds simple, keeping a perfectly steady beat requires concentration and training."
+  explanation: It actually takes focus and practice! Even though it sounds simple, keeping a perfectly steady beat requires concentration and training.
 
-- question: "Describe three ways you can practice feeling and keeping a steady beat."
-  type: sa
-  answer: "Clap along to a song, tap your foot while listening, or march around the room stepping on each beat."
-  explanation: "A good answer includes physical activities that help you feel the pulse. Any three of these work: clapping, tapping, marching, singing while moving, or using a metronome."
+- question: Describe three ways you can practice feeling and keeping a steady beat.
+  type: short-answer
+  answer: Clap along to a song, tap your foot while listening, or march around the room stepping on each beat.
+  explanation: 'A good answer includes physical activities that help you feel the pulse. Any three of these work: clapping, tapping, marching, singing while moving, or using a metronome.'
 ```
 
 ## Explainer

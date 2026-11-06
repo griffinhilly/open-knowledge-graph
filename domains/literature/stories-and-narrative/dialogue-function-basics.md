@@ -35,23 +35,25 @@ Find a dialogue scene in a story and analyze it: What does each character reveal
 ## Questions
 
 ```yaml
-- question: "In a scene, two characters chat about the weather, their day at work, and weekend plans. None of this information is essential to the plot, but the conversation shows them relaxing together and laughing. What is the primary function of this dialogue?"
+- question: In a scene, two characters chat about the weather, their day at work, and weekend plans. None of this information is essential to the plot, but the conversation shows them relaxing together and laughing. What is the primary function of this dialogue?
+  type: multiple-choice
   options:
-    - "Advancing the plot by revealing important story information"
-    - "Characterizing the relationship between the two characters and showing they are comfortable together"
-    - "Creating conflict by revealing opposing viewpoints"
-    - "Explaining the setting and background information to readers"
+  - Advancing the plot by revealing important story information
+  - Characterizing the relationship between the two characters and showing they are comfortable together
+  - Creating conflict by revealing opposing viewpoints
+  - Explaining the setting and background information to readers
   answer: 1
-  explanation: "Dialogue can reveal character and relationships even when it is not advancing the main plot. This conversation shows ease, affection, and what the characters are like together, which characterizes them and develops the reader's sense of their bond."
+  explanation: Dialogue can reveal character and relationships even when it is not advancing the main plot. This conversation shows ease, affection, and what the characters are like together, which characterizes them and develops the reader's sense of their bond.
 
-- question: "A character is hiding a secret from their partner. During dinner, the partner asks several direct questions about the character's recent behavior, and the character deflects or gives vague answers. The partner notices the evasion. What is this dialogue demonstrating?"
+- question: A character is hiding a secret from their partner. During dinner, the partner asks several direct questions about the character's recent behavior, and the character deflects or gives vague answers. The partner notices the evasion. What is this dialogue demonstrating?
+  type: multiple-choice
   options:
-    - "That the characters have good communication skills"
-    - "That dialogue can reveal what a character is not saying as much as what they are saying"
-    - "That conflict must always be resolved through conversation"
-    - "That the secret is unimportant to the plot"
+  - That the characters have good communication skills
+  - That dialogue can reveal what a character is not saying as much as what they are saying
+  - That conflict must always be resolved through conversation
+  - That the secret is unimportant to the plot
   answer: 1
-  explanation: "Dialogue can reveal character truth through subtext—what is implied but not stated. The evasion reveals the secret, the character's guilt, and relationship tension without the character explicitly confessing. Silence and deflection can be as revealing as direct speech."
+  explanation: Dialogue can reveal character truth through subtext—what is implied but not stated. The evasion reveals the secret, the character's guilt, and relationship tension without the character explicitly confessing. Silence and deflection can be as revealing as direct speech.
 ```
 
 ## Explainer

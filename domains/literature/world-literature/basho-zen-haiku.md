@@ -37,39 +37,39 @@ Basho's haiku are not 'about nature' in a simple way—they enact a moment of co
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What does it mean that Basho used haiku to 'enact a moment of consciousness aligned with natural process' rather than to 'express ideas about nature'?"
+- question: What does it mean that Basho used haiku to 'enact a moment of consciousness aligned with natural process' rather than to 'express ideas about nature'?
+  type: multiple-choice
   options:
-    - "He wrote poems describing natural scenery in beautiful language"
-    - "He used the compressed haiku form to recreate the Zen experience of sudden enlightenment—where subject and object dissolve and consciousness perceives without mediation"
-    - "He borrowed ideas from philosophers and put them into poem form"
-    - "He wanted to make nature seem more important than human thought"
+  - He wrote poems describing natural scenery in beautiful language
+  - He used the compressed haiku form to recreate the Zen experience of sudden enlightenment—where subject and object dissolve and consciousness perceives without mediation
+  - He borrowed ideas from philosophers and put them into poem form
+  - He wanted to make nature seem more important than human thought
   answer: 1
-  explanation: "This distinction is crucial to understanding Basho's philosophical innovation. A poem that 'expresses an idea about nature' positions the poet as observer describing something external. But Basho's haiku aim for something different: they create a moment where the distinction between observer and observed collapses. The reader does not read about a moment of perception; the poem itself becomes that moment. The 'cutting word' (kireji) that interrupts the haiku's flow mirrors the sudden gap in Zen meditation where intellectual thought stops and direct perception begins. The poem does not mean something; it enacts something—a particular quality of consciousness aligned with natural process. This is why Basho's simplicity is philosophically sophisticated: every word choice, every gap, every seasonal reference works to produce this experiential effect."
+  explanation: 'This distinction is crucial to understanding Basho''s philosophical innovation. A poem that ''expresses an idea about nature'' positions the poet as observer describing something external. But Basho''s haiku aim for something different: they create a moment where the distinction between observer and observed collapses. The reader does not read about a moment of perception; the poem itself becomes that moment. The ''cutting word'' (kireji) that interrupts the haiku''s flow mirrors the sudden gap in Zen meditation where intellectual thought stops and direct perception begins. The poem does not mean something; it enacts something—a particular quality of consciousness aligned with natural process. This is why Basho''s simplicity is philosophically sophisticated: every word choice, every gap, every seasonal reference works to produce this experiential effect.'
 
-- type: multiple-choice
-  question: "How did Basho's concepts of *haikai no makoto* (truth of the everyday) and *karumi* (lightness) transform what haiku could do?"
+- question: How did Basho's concepts of *haikai no makoto* (truth of the everyday) and *karumi* (lightness) transform what haiku could do?
+  type: multiple-choice
   options:
-    - "They made haiku more entertaining and easier to understand"
-    - "They shifted haiku from a form for expressing grand emotions to a means of perceiving enlightenment in ordinary moments through lightness of touch and expression"
-    - "They argued that haiku should only describe famous people and events"
-    - "They reduced haiku to simple nature description"
+  - They made haiku more entertaining and easier to understand
+  - They shifted haiku from a form for expressing grand emotions to a means of perceiving enlightenment in ordinary moments through lightness of touch and expression
+  - They argued that haiku should only describe famous people and events
+  - They reduced haiku to simple nature description
   answer: 1
-  explanation: "Before Basho, haiku was popular entertainment—clever, witty, clever wordplay. Basho elevated it by establishing that profound truth could emerge from everyday perception. *Haikai no makoto* (truth of the everyday) means that enlightenment is not reserved for monastery practice or grand subjects but accessible through attention to ordinary things—a frog jumping, a crow on a branch, a temple bell. *Karumi* (lightness) means achieving this not through ornate language or emotional display but through minimalist precision. Remove everything unnecessary; let perception speak. This transformed haiku from entertainment to philosophical poetry, from clever technique to a technology of consciousness. The form's brevity and simplicity became virtues, not limitations: they demanded the kind of attention necessary for Zen insight."
+  explanation: 'Before Basho, haiku was popular entertainment—clever, witty, clever wordplay. Basho elevated it by establishing that profound truth could emerge from everyday perception. *Haikai no makoto* (truth of the everyday) means that enlightenment is not reserved for monastery practice or grand subjects but accessible through attention to ordinary things—a frog jumping, a crow on a branch, a temple bell. *Karumi* (lightness) means achieving this not through ornate language or emotional display but through minimalist precision. Remove everything unnecessary; let perception speak. This transformed haiku from entertainment to philosophical poetry, from clever technique to a technology of consciousness. The form''s brevity and simplicity became virtues, not limitations: they demanded the kind of attention necessary for Zen insight.'
 
-- type: true-false
-  statement: "In Basho's haiku, the 'cutting word' is a grammatical tool that separates two images or ideas and creates a moment of stillness analogous to the gaps in Zen meditation."
+- question: In Basho's haiku, the 'cutting word' is a grammatical tool that separates two images or ideas and creates a moment of stillness analogous to the gaps in Zen meditation.
+  type: true-false
   answer: true
-  explanation: "The cutting word is not merely technical—it is philosophically essential to how Basho's haiku function. The word creates a break in the poem's flow, a moment of silence, an opening where the reader's usual patterns of thought are interrupted. This disruption mirrors the Zen practice of stopping discursive mind. By cutting, the poem does not resolve into a neat conclusion or meaning; it leaves an opening where the reader must perceive directly rather than interpret. This is why Basho elevated the cutting word from a stylistic device to a carrier of philosophical meaning. The form enacts the philosophy."
+  explanation: The cutting word is not merely technical—it is philosophically essential to how Basho's haiku function. The word creates a break in the poem's flow, a moment of silence, an opening where the reader's usual patterns of thought are interrupted. This disruption mirrors the Zen practice of stopping discursive mind. By cutting, the poem does not resolve into a neat conclusion or meaning; it leaves an opening where the reader must perceive directly rather than interpret. This is why Basho elevated the cutting word from a stylistic device to a carrier of philosophical meaning. The form enacts the philosophy.
 
-- type: true-false
-  statement: "Basho's travel journals, which integrated haiku within prose narrative, represent his attempt to explain and theorize his poetic practice through the experience of traveling and perceiving."
+- question: Basho's travel journals, which integrated haiku within prose narrative, represent his attempt to explain and theorize his poetic practice through the experience of traveling and perceiving.
+  type: true-false
   answer: true
-  explanation: "Basho's hybrid form—integrating haiku, prose reflection, and travel narrative—enacts the philosophy he pursued. Rather than writing theoretical treatises about poetry, he demonstrated poetic practice through lived experience. The journals show haiku emerging from specific moments of perception during travel, and prose passages reflect on the conditions that made those moments possible. This form dissolves the boundary between theory and practice, between writing about poetry and enacting it. Readers learn not by reading explanations but by following Basho's path and witnessing how haiku emerges from attention to particular places and moments. The form itself teaches the philosophy."
+  explanation: Basho's hybrid form—integrating haiku, prose reflection, and travel narrative—enacts the philosophy he pursued. Rather than writing theoretical treatises about poetry, he demonstrated poetic practice through lived experience. The journals show haiku emerging from specific moments of perception during travel, and prose passages reflect on the conditions that made those moments possible. This form dissolves the boundary between theory and practice, between writing about poetry and enacting it. Readers learn not by reading explanations but by following Basho's path and witnessing how haiku emerges from attention to particular places and moments. The form itself teaches the philosophy.
 
-- type: short-answer
-  question: "Explain how Basho's elevation of haiku involved changing what the form was 'for'—what was its purpose before Basho and how did he transform it?"
-  explanation: "Before Basho, haiku (or linked-verse poetry) was primarily entertainment and intellectual play—a form for clever wordplay, witty observations, and social enjoyment. It was popular poetry, not philosophical poetry. Basho transformed its purpose by demonstrating that the haiku form's brevity and compression could enact Zen philosophical insights. Rather than being entertainment, haiku became a technology of consciousness—a means to perceive directly, without the mediation of concept or emotional display. He did this through formal innovation (the cutting word), through philosophical guidance (*haikai no makoto*, *karumi*), and through demonstrating the form in practice. The haiku remained short and simple, but its meaning entirely changed. From entertainment to enlightenment, from clever technique to philosophical practice. This transformation shows how form and purpose are inseparable—by changing what the form aims to do, Basho changed what it could accomplish."
+- question: Explain how Basho's elevation of haiku involved changing what the form was 'for'—what was its purpose before Basho and how did he transform it?
+  type: short-answer
+  explanation: Before Basho, haiku (or linked-verse poetry) was primarily entertainment and intellectual play—a form for clever wordplay, witty observations, and social enjoyment. It was popular poetry, not philosophical poetry. Basho transformed its purpose by demonstrating that the haiku form's brevity and compression could enact Zen philosophical insights. Rather than being entertainment, haiku became a technology of consciousness—a means to perceive directly, without the mediation of concept or emotional display. He did this through formal innovation (the cutting word), through philosophical guidance (*haikai no makoto*, *karumi*), and through demonstrating the form in practice. The haiku remained short and simple, but its meaning entirely changed. From entertainment to enlightenment, from clever technique to philosophical practice. This transformation shows how form and purpose are inseparable—by changing what the form aims to do, Basho changed what it could accomplish.
 ```
 
 ## Explainer

@@ -26,35 +26,39 @@ Early reader books (typically ages 5-8) employ specific linguistic and structura
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What is the primary purpose of phonetically decodable text in early reader books?"
-    options:
-      - "To make books less interesting to young readers"
-      - "To ensure that words use letter-sound patterns children have been explicitly taught, enabling them to decode words independently rather than rely on memorization or picture clues"
-      - "To prevent children from learning authentic English"
-      - "To make reading faster but not actually support learning"
-    answer: 1
-    explanation: "Decodable text uses words whose pronunciation follows phonetic rules children have learned, allowing them to apply decoding strategies and develop confident reading skills."
-  - question: "How do controlled vocabulary and repetition support reading development in early reader books?"
-    options:
-      - "They make books boring and unchallenging"
-      - "They reduce cognitive load by limiting how many new words children must learn while allowing repeated exposure to consolidate sight word recognition and increase fluency"
-      - "Repetition has no effect on learning"
-      - "Children learn best with completely new vocabulary on every page"
-    answer: 1
-    explanation: "Controlled vocabulary and repetition allow emerging readers to focus on decoding strategies while building recognition of frequently used words, creating conditions for success."
+- question: What is the primary purpose of phonetically decodable text in early reader books?
+  type: multiple-choice
+  options:
+  - To make books less interesting to young readers
+  - To ensure that words use letter-sound patterns children have been explicitly taught, enabling them to decode words independently rather than rely on memorization or picture clues
+  - To prevent children from learning authentic English
+  - To make reading faster but not actually support learning
+  answer: 1
+  explanation: Decodable text uses words whose pronunciation follows phonetic rules children have learned, allowing them to apply decoding strategies and develop confident reading skills.
 
-true-false:
-  - question: "True or False: Early reader conventions like simple syntax and repetition necessarily make stories less emotionally resonant or narratively engaging."
-    answer: false
-    explanation: "This is false. Well-written early readers maintain genuine emotional engagement and narrative satisfaction while meeting developmental reading support needs."
-  - question: "True or False: High-frequency words in early readers are chosen based on how often they appear in English, making them essential for reading most texts."
-    answer: true
-    explanation: "This is true. A small set of high-frequency words accounts for a large percentage of text; mastering these words significantly supports reading fluency."
+- question: How do controlled vocabulary and repetition support reading development in early reader books?
+  type: multiple-choice
+  options:
+  - They make books boring and unchallenging
+  - They reduce cognitive load by limiting how many new words children must learn while allowing repeated exposure to consolidate sight word recognition and increase fluency
+  - Repetition has no effect on learning
+  - Children learn best with completely new vocabulary on every page
+  answer: 1
+  explanation: Controlled vocabulary and repetition allow emerging readers to focus on decoding strategies while building recognition of frequently used words, creating conditions for success.
 
-short-answer:
-  - question: "Why is the balance between reading support structures (phonetic decodability, controlled vocabulary) and genuine narrative engagement important in early reader design?"
-    explanation: "Reading is not purely skill-building; it must also be emotionally rewarding and narratively satisfying or children won't develop enthusiasm for reading itself. An early reader book that perfectly scaffolds decoding but tells a boring or emotionally flat story may teach reading skills while discouraging reading engagement. Conversely, a narratively engaging book that ignores phonetic decoding principles may frustrate readers who cannot successfully decode words. Effective early readers satisfy both requirements simultaneously: they provide appropriate decoding scaffolding while telling stories children genuinely care about. Characters should be engaging, plots should have stakes and resolution, humor should be present, and emotional authenticity should matter—not as extras added to support structure but as integral to the story. This balance teaches children that reading leads to emotional reward and narrative engagement, not merely completing exercises, creating intrinsic motivation for continued reading."
+- question: 'True or False: Early reader conventions like simple syntax and repetition necessarily make stories less emotionally resonant or narratively engaging.'
+  type: true-false
+  answer: false
+  explanation: This is false. Well-written early readers maintain genuine emotional engagement and narrative satisfaction while meeting developmental reading support needs.
+
+- question: 'True or False: High-frequency words in early readers are chosen based on how often they appear in English, making them essential for reading most texts.'
+  type: true-false
+  answer: true
+  explanation: This is true. A small set of high-frequency words accounts for a large percentage of text; mastering these words significantly supports reading fluency.
+
+- question: Why is the balance between reading support structures (phonetic decodability, controlled vocabulary) and genuine narrative engagement important in early reader design?
+  type: short-answer
+  explanation: 'Reading is not purely skill-building; it must also be emotionally rewarding and narratively satisfying or children won''t develop enthusiasm for reading itself. An early reader book that perfectly scaffolds decoding but tells a boring or emotionally flat story may teach reading skills while discouraging reading engagement. Conversely, a narratively engaging book that ignores phonetic decoding principles may frustrate readers who cannot successfully decode words. Effective early readers satisfy both requirements simultaneously: they provide appropriate decoding scaffolding while telling stories children genuinely care about. Characters should be engaging, plots should have stakes and resolution, humor should be present, and emotional authenticity should matter—not as extras added to support structure but as integral to the story. This balance teaches children that reading leads to emotional reward and narrative engagement, not merely completing exercises, creating intrinsic motivation for continued reading.'
 ```
 
 ## Explainer

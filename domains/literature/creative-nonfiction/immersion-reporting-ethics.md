@@ -24,39 +24,39 @@ Immersion journalism raises significant ethical questions about representation, 
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What is the central ethical tension in immersion journalism?"
+- question: What is the central ethical tension in immersion journalism?
+  type: multiple-choice
   options:
-    - "There is no ethical tension in journalism."
-    - "Between narrative advantage (making a compelling story) and fair portrayal of the subjects being reported on."
-    - "Narrative is always more important than accuracy."
-    - "Subjects have no right to fair representation."
+  - There is no ethical tension in journalism.
+  - Between narrative advantage (making a compelling story) and fair portrayal of the subjects being reported on.
+  - Narrative is always more important than accuracy.
+  - Subjects have no right to fair representation.
   answer: 1
-  explanation: "Immersion journalists often develop great stories because they know their subjects well. But knowing them well also creates obligation to represent them fairly and respectfully. The tension is between using material for narrative effect and honoring the people who made the reporting possible."
+  explanation: Immersion journalists often develop great stories because they know their subjects well. But knowing them well also creates obligation to represent them fairly and respectfully. The tension is between using material for narrative effect and honoring the people who made the reporting possible.
 
-- type: multiple-choice
-  question: "How should immersion journalists navigate the difference between a subject's self-understanding and the writer's interpretation?"
+- question: How should immersion journalists navigate the difference between a subject's self-understanding and the writer's interpretation?
+  type: multiple-choice
   options:
-    - "The writer's interpretation always overrides the subject's understanding."
-    - "The subject's understanding is the only thing that matters."
-    - "Writers must acknowledge both perspectives and be transparent about their interpretation rather than claiming neutral observation."
-    - "There is no difference between how people understand themselves and how reporters see them."
+  - The writer's interpretation always overrides the subject's understanding.
+  - The subject's understanding is the only thing that matters.
+  - Writers must acknowledge both perspectives and be transparent about their interpretation rather than claiming neutral observation.
+  - There is no difference between how people understand themselves and how reporters see them.
   answer: 2
-  explanation: "Subjects often understand themselves and their situations in particular ways. The writer may see things differently or interpret behavior differently. Both understandings matter. Good immersion writing acknowledges this tension rather than pretending the reporter's interpretation is objective truth."
+  explanation: Subjects often understand themselves and their situations in particular ways. The writer may see things differently or interpret behavior differently. Both understandings matter. Good immersion writing acknowledges this tension rather than pretending the reporter's interpretation is objective truth.
 
-- type: true-false
-  statement: "True: An immersion journalist who develops close relationships with subjects faces ethical questions about how to represent those people fairly while also writing truthfully about what they observed."
+- question: 'True: An immersion journalist who develops close relationships with subjects faces ethical questions about how to represent those people fairly while also writing truthfully about what they observed.'
+  type: true-false
   answer: true
-  explanation: "This is the core ethical challenge. You care about the people you're reporting on. You want them to be fairly represented. But you also want to write honestly about what you observed, which might not be entirely flattering. Balancing loyalty and honesty is genuinely difficult."
+  explanation: This is the core ethical challenge. You care about the people you're reporting on. You want them to be fairly represented. But you also want to write honestly about what you observed, which might not be entirely flattering. Balancing loyalty and honesty is genuinely difficult.
 
-- type: true-false
-  statement: "False: Immersion journalists should disclose their role and intentions clearly to subjects, who should then consent to being reported on."
+- question: 'False: Immersion journalists should disclose their role and intentions clearly to subjects, who should then consent to being reported on.'
+  type: true-false
   answer: false
-  explanation: "This statement is actually true, not false. Subjects have the right to know they're being reported on and to understand how they'll be represented. Transparency about intentions and consent are ethical basics in immersion journalism. (Though in some journalism contexts, the reporter's role is understood; in others, more explicit permission is needed.)"
+  explanation: This statement is actually true, not false. Subjects have the right to know they're being reported on and to understand how they'll be represented. Transparency about intentions and consent are ethical basics in immersion journalism. (Though in some journalism contexts, the reporter's role is understood; in others, more explicit permission is needed.)
 
-- type: short-answer
-  question: "What additional ethical complications arise when immersion journalists report on vulnerable communities or people in difficult situations?"
-  explanation: "When you're embedded in a community facing hardship, injustice, or danger, the stakes are higher. How you represent that community affects them—politically, economically, socially. People might share stories of trauma or suffering expecting the reporting will help their cause; the writer must consider those expectations. There's also risk of exploitation—using people's suffering to create compelling narrative for the writer's benefit. Power imbalances matter: often the immersion journalist has more power and privilege than the subjects. Good immersion journalism in these contexts requires careful consideration of how representation affects vulnerable people, explicit discussion of intentions and representations with subjects, and willingness to let subjects' needs sometimes override narrative advantage."
+- question: What additional ethical complications arise when immersion journalists report on vulnerable communities or people in difficult situations?
+  type: short-answer
+  explanation: 'When you''re embedded in a community facing hardship, injustice, or danger, the stakes are higher. How you represent that community affects them—politically, economically, socially. People might share stories of trauma or suffering expecting the reporting will help their cause; the writer must consider those expectations. There''s also risk of exploitation—using people''s suffering to create compelling narrative for the writer''s benefit. Power imbalances matter: often the immersion journalist has more power and privilege than the subjects. Good immersion journalism in these contexts requires careful consideration of how representation affects vulnerable people, explicit discussion of intentions and representations with subjects, and willingness to let subjects'' needs sometimes override narrative advantage.'
 ```
 
 ## Explainer

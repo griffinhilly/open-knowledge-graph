@@ -26,36 +26,39 @@ Sword and sorcery features smaller-scale adventures and personal quests rather t
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What distinguishes sword and sorcery adventures from high-fantasy quests?"
-    options:
-      - "Sword and sorcery involves world-saving conflicts determined by destiny"
-      - "Sword and sorcery features smaller-scale adventures and personal quests rather than world-saving conflicts"
-      - "Sword and sorcery is less concerned with magical elements"
-      - "Sword and sorcery always ends in the protagonist's defeat"
-    correct_answer: 1
-    explanation: "The core idea explicitly states that sword and sorcery 'features smaller-scale adventures and personal quests rather than world-saving conflicts,' distinguishing it from epic fantasy."
-  - type: multiple-choice
-    question: "What kind of protagonists are typical in sword and sorcery narratives?"
-    options:
-      - "Purely virtuous heroes destined to save the world"
-      - "Morally ambiguous protagonists prioritizing concrete objectives over ideological triumph"
-      - "Scholarly mages devoted to pure magical knowledge"
-      - "Peasants who discover they are secretly chosen ones"
-    correct_answer: 1
-    explanation: "The core idea states that sword and sorcery 'often features morally ambiguous protagonists operating in dangerous worlds, prioritizing concrete objectives over ideological triumph.'"
-  - type: true-false
-    question: "Sword and sorcery protagonists are typically driven by grand destiny or prophetic significance."
-    correct_answer: false
-    explanation: "The core idea states that these narratives emphasize 'pragmatic heroism over grand destiny or prophetic significance,' indicating that immediate survival and practical goals matter more than cosmic destiny."
-  - type: true-false
-    question: "Action and immediate survival are emphasized in sword and sorcery narratives."
-    correct_answer: true
-    explanation: "The core idea explicitly lists action, immediate survival, and pragmatic heroism as the genre's priorities."
-  - type: short-answer
-    question: "Why do morally ambiguous protagonists work better in sword and sorcery than in high-fantasy epics?"
-    explanation: "A strong answer should explain that high-fantasy epics often require protagonists to represent ideological forces (good vs. evil) while sword and sorcery focuses on immediate pragmatic survival, which doesn't require moral purity. Students should demonstrate understanding that the scale and stakes of the narrative genre determines what character types work."
+- question: What distinguishes sword and sorcery adventures from high-fantasy quests?
+  type: multiple-choice
+  options:
+  - Sword and sorcery involves world-saving conflicts determined by destiny
+  - Sword and sorcery features smaller-scale adventures and personal quests rather than world-saving conflicts
+  - Sword and sorcery is less concerned with magical elements
+  - Sword and sorcery always ends in the protagonist's defeat
+  answer: 1
+  explanation: The core idea explicitly states that sword and sorcery 'features smaller-scale adventures and personal quests rather than world-saving conflicts,' distinguishing it from epic fantasy.
+
+- question: What kind of protagonists are typical in sword and sorcery narratives?
+  type: multiple-choice
+  options:
+  - Purely virtuous heroes destined to save the world
+  - Morally ambiguous protagonists prioritizing concrete objectives over ideological triumph
+  - Scholarly mages devoted to pure magical knowledge
+  - Peasants who discover they are secretly chosen ones
+  answer: 1
+  explanation: The core idea states that sword and sorcery 'often features morally ambiguous protagonists operating in dangerous worlds, prioritizing concrete objectives over ideological triumph.'
+
+- question: Sword and sorcery protagonists are typically driven by grand destiny or prophetic significance.
+  type: true-false
+  answer: false
+  explanation: The core idea states that these narratives emphasize 'pragmatic heroism over grand destiny or prophetic significance,' indicating that immediate survival and practical goals matter more than cosmic destiny.
+
+- question: Action and immediate survival are emphasized in sword and sorcery narratives.
+  type: true-false
+  answer: true
+  explanation: The core idea explicitly lists action, immediate survival, and pragmatic heroism as the genre's priorities.
+
+- question: Why do morally ambiguous protagonists work better in sword and sorcery than in high-fantasy epics?
+  type: short-answer
+  explanation: A strong answer should explain that high-fantasy epics often require protagonists to represent ideological forces (good vs. evil) while sword and sorcery focuses on immediate pragmatic survival, which doesn't require moral purity. Students should demonstrate understanding that the scale and stakes of the narrative genre determines what character types work.
 ```
 
 ## Explainer

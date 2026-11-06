@@ -23,36 +23,39 @@ Psychological horror generates fear through threats to mental stability and perc
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What distinguishes psychological horror from traditional monster-focused horror?"
-    options:
-      - "It uses more graphic violence and gore"
-      - "It generates fear through threats to mental stability rather than physical monsters"
-      - "It relies entirely on supernatural elements"
-      - "It focuses on action sequences rather than internal conflict"
-    correct_answer: 1
-    explanation: "The core idea explicitly contrasts psychological horror with traditional horror by stating it employs threats to mental stability 'rather than physical monsters.' The fear comes from internal psychological sources."
-  - type: multiple-choice
-    question: "Which of the following is NOT mentioned as a technique used in psychological horror?"
-    options:
-      - "Unreliable narration"
-      - "Paranoia and obsession"
-      - "Detailed descriptions of physical torture"
-      - "Dissolution of reality"
-    correct_answer: 2
-    explanation: "The core idea lists unreliable narration, paranoia, obsession, and dissolution of reality as key techniques. Physical torture and violence are not identified as central to psychological horror's approach."
-  - type: true-false
-    question: "In psychological horror, the protagonist's inability to trust their own mind is a source of horror."
-    correct_answer: true
-    explanation: "The core idea explicitly identifies 'inability to trust one's own mind' as one of the internal psychological threats that generates horror in this genre."
-  - type: true-false
-    question: "Psychological horror relies primarily on jump-scares and sudden violent confrontations."
-    correct_answer: false
-    explanation: "The core idea emphasizes internal psychological threats like paranoia, obsession, and dissolution of reality rather than external sudden shocks or violence."
-  - type: short-answer
-    question: "How does guilt and trauma function as a source of horror in psychological horror narratives?"
-    explanation: "A good answer should explain that guilt and trauma are internal states that undermine mental stability and create psychological torment. Students should demonstrate understanding that past psychological wounds can be as threatening as external monsters because they attack the protagonist's sense of self and reality."
+- question: What distinguishes psychological horror from traditional monster-focused horror?
+  type: multiple-choice
+  options:
+  - It uses more graphic violence and gore
+  - It generates fear through threats to mental stability rather than physical monsters
+  - It relies entirely on supernatural elements
+  - It focuses on action sequences rather than internal conflict
+  answer: 1
+  explanation: The core idea explicitly contrasts psychological horror with traditional horror by stating it employs threats to mental stability 'rather than physical monsters.' The fear comes from internal psychological sources.
+
+- question: Which of the following is NOT mentioned as a technique used in psychological horror?
+  type: multiple-choice
+  options:
+  - Unreliable narration
+  - Paranoia and obsession
+  - Detailed descriptions of physical torture
+  - Dissolution of reality
+  answer: 2
+  explanation: The core idea lists unreliable narration, paranoia, obsession, and dissolution of reality as key techniques. Physical torture and violence are not identified as central to psychological horror's approach.
+
+- question: In psychological horror, the protagonist's inability to trust their own mind is a source of horror.
+  type: true-false
+  answer: true
+  explanation: The core idea explicitly identifies 'inability to trust one's own mind' as one of the internal psychological threats that generates horror in this genre.
+
+- question: Psychological horror relies primarily on jump-scares and sudden violent confrontations.
+  type: true-false
+  answer: false
+  explanation: The core idea emphasizes internal psychological threats like paranoia, obsession, and dissolution of reality rather than external sudden shocks or violence.
+
+- question: How does guilt and trauma function as a source of horror in psychological horror narratives?
+  type: short-answer
+  explanation: A good answer should explain that guilt and trauma are internal states that undermine mental stability and create psychological torment. Students should demonstrate understanding that past psychological wounds can be as threatening as external monsters because they attack the protagonist's sense of self and reality.
 ```
 
 ## Explainer

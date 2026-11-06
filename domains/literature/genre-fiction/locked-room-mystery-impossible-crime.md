@@ -26,36 +26,39 @@ The locked-room mystery presents a crime (usually murder) that seems impossible:
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What makes a locked-room mystery 'impossible'?"
-    options:
-      - "The crime is fantastical and unrealistic"
-      - "A crime committed in a sealed space with no apparent means of entry, exit, or concealment"
-      - "The reader cannot understand the solution"
-      - "The detective cannot arrive at the scene"
-    correct_answer: 1
-    explanation: "The core idea defines the locked-room mystery as presenting 'a crime (usually murder) that seems impossible: committed in a sealed space with no apparent means of entry, exit, or concealment,' establishing this as the defining constraint."
-  - type: multiple-choice
-    question: "What types of explanations can solve a locked-room mystery?"
-    options:
-      - "Only supernatural explanations"
-      - "Secret passages, psychological manipulation, timing tricks, or outright fantastic elements"
-      - "Random chance and luck"
-      - "Changes to the crime after it occurred"
-    correct_answer: 1
-    explanation: "The core idea specifies solutions can include 'secret passages, psychological manipulation, timing tricks, or outright fantastic elements,' showing the range of logical possibilities."
-  - type: true-false
-    question: "In locked-room mysteries, the apparent impossibility is a key part of the puzzle that must be logically explained."
-    correct_answer: true
-    explanation: "The core idea states that the locked room 'transforms the mystery into a pure logic problem,' indicating the impossibility drives the logical challenge."
-  - type: true-false
-    question: "Locked-room mysteries necessarily require supernatural explanations."
-    correct_answer: false
-    explanation: "The core idea lists multiple explanation types including 'secret passages, psychological manipulation, timing tricks,' showing that logical and realistic explanations can solve the puzzle without requiring supernatural elements."
-  - type: short-answer
-    question: "How does the locked room as a 'constraint' transform the mystery genre? What does this add or change compared to mysteries without this constraint?"
-    explanation: "A good answer should recognize that the locked room eliminates many possible explanations (no one could have entered, so how was it done?) and forces the reader to think more creatively. The constraint makes the puzzle more intellectually demanding. It shifts focus from investigation in a large space to logical deduction within tight constraints. Students should understand that constraints actually enable more interesting problems rather than limiting them—the puzzle is more elegant and more intellectually challenging."
+- question: What makes a locked-room mystery 'impossible'?
+  type: multiple-choice
+  options:
+  - The crime is fantastical and unrealistic
+  - A crime committed in a sealed space with no apparent means of entry, exit, or concealment
+  - The reader cannot understand the solution
+  - The detective cannot arrive at the scene
+  answer: 1
+  explanation: 'The core idea defines the locked-room mystery as presenting ''a crime (usually murder) that seems impossible: committed in a sealed space with no apparent means of entry, exit, or concealment,'' establishing this as the defining constraint.'
+
+- question: What types of explanations can solve a locked-room mystery?
+  type: multiple-choice
+  options:
+  - Only supernatural explanations
+  - Secret passages, psychological manipulation, timing tricks, or outright fantastic elements
+  - Random chance and luck
+  - Changes to the crime after it occurred
+  answer: 1
+  explanation: The core idea specifies solutions can include 'secret passages, psychological manipulation, timing tricks, or outright fantastic elements,' showing the range of logical possibilities.
+
+- question: In locked-room mysteries, the apparent impossibility is a key part of the puzzle that must be logically explained.
+  type: true-false
+  answer: true
+  explanation: The core idea states that the locked room 'transforms the mystery into a pure logic problem,' indicating the impossibility drives the logical challenge.
+
+- question: Locked-room mysteries necessarily require supernatural explanations.
+  type: true-false
+  answer: false
+  explanation: The core idea lists multiple explanation types including 'secret passages, psychological manipulation, timing tricks,' showing that logical and realistic explanations can solve the puzzle without requiring supernatural elements.
+
+- question: How does the locked room as a 'constraint' transform the mystery genre? What does this add or change compared to mysteries without this constraint?
+  type: short-answer
+  explanation: A good answer should recognize that the locked room eliminates many possible explanations (no one could have entered, so how was it done?) and forces the reader to think more creatively. The constraint makes the puzzle more intellectually demanding. It shifts focus from investigation in a large space to logical deduction within tight constraints. Students should understand that constraints actually enable more interesting problems rather than limiting them—the puzzle is more elegant and more intellectually challenging.
 ```
 
 ## Explainer

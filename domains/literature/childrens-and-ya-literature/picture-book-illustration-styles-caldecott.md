@@ -26,35 +26,39 @@ Survey Caldecott-winning books across decades, noting changes in preferred illus
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What does the Caldecott Medal recognize?"
-    options:
-      - "Excellence in children's literature generally"
-      - "Distinguished illustration of children's picture books"
-      - "The best-selling children's books"
-      - "Only traditional illustration styles"
-    answer: 1
-    explanation: "The Caldecott Medal specifically honors excellence in illustration, recognizing that visual storytelling deserves dedicated critical evaluation and celebration."
-  - question: "How have Caldecott-winning illustration styles changed over decades?"
-    options:
-      - "Caldecott winners always use the same styles"
-      - "Styles have evolved significantly, reflecting changes in artistic media (from watercolor to collage to digital), cultural values about representation and aesthetics, and expanding definitions of what counts as serious illustration"
-      - "Illustration styles don't change"
-      - "The Caldecott only honors traditional styles"
-    answer: 1
-    explanation: "Historical survey of Caldecott winners shows dramatic stylistic diversity and evolution—from representational realism to abstract art to mixed media—reflecting changing cultural values and expanding aesthetic horizons."
+- question: What does the Caldecott Medal recognize?
+  type: multiple-choice
+  options:
+  - Excellence in children's literature generally
+  - Distinguished illustration of children's picture books
+  - The best-selling children's books
+  - Only traditional illustration styles
+  answer: 1
+  explanation: The Caldecott Medal specifically honors excellence in illustration, recognizing that visual storytelling deserves dedicated critical evaluation and celebration.
 
-true-false:
-  - question: "True or False: A beautiful illustration style that is technically accomplished but doesn't advance the narrative effectively should win the Caldecott."
-    answer: false
-    explanation: "False. Caldecott evaluation considers not just technical skill but how illustration serves narrative, integrates with text, and creates unified meaning."
-  - question: "True or False: Caldecott-winning books demonstrate that illustration deserves serious critical attention and artistic evaluation equivalent to text-based literature."
-    answer: true
-    explanation: "True. The Caldecott Medal establishes that visual storytelling in picture books is worthy of major recognition, artistic ambition, and rigorous evaluation."
+- question: How have Caldecott-winning illustration styles changed over decades?
+  type: multiple-choice
+  options:
+  - Caldecott winners always use the same styles
+  - Styles have evolved significantly, reflecting changes in artistic media (from watercolor to collage to digital), cultural values about representation and aesthetics, and expanding definitions of what counts as serious illustration
+  - Illustration styles don't change
+  - The Caldecott only honors traditional styles
+  answer: 1
+  explanation: Historical survey of Caldecott winners shows dramatic stylistic diversity and evolution—from representational realism to abstract art to mixed media—reflecting changing cultural values and expanding aesthetic horizons.
 
-short-answer:
-  - question: "Compare two Caldecott-winning books from different decades with different illustration styles. How does each style create particular meanings and effects? What does the preference for these different styles over time suggest about cultural values?"
-    explanation: "Your answer should demonstrate understanding that illustration styles are not neutral but carry different meanings and affordances. For example, compare a representational realistic watercolor style (common in earlier Caldecott winners) to abstract or experimental styles (more common in recent winners). Realistic illustration creates clarity and familiarity; abstract or experimental illustration might create emotional resonance or express contemporary aesthetics. Changes in award preferences suggest shifts in what the field values: perhaps earlier preferences for realistic clarity have given way to appreciation for emotional expressiveness, cultural diversity in artistic traditions, or innovative technical approaches. The point is recognizing that illustration style is a meaningful choice with consequences for how stories are experienced, and that changes in Caldecott preferences reflect broader cultural and artistic evolution."
+- question: 'True or False: A beautiful illustration style that is technically accomplished but doesn''t advance the narrative effectively should win the Caldecott.'
+  type: true-false
+  answer: false
+  explanation: False. Caldecott evaluation considers not just technical skill but how illustration serves narrative, integrates with text, and creates unified meaning.
+
+- question: 'True or False: Caldecott-winning books demonstrate that illustration deserves serious critical attention and artistic evaluation equivalent to text-based literature.'
+  type: true-false
+  answer: true
+  explanation: True. The Caldecott Medal establishes that visual storytelling in picture books is worthy of major recognition, artistic ambition, and rigorous evaluation.
+
+- question: Compare two Caldecott-winning books from different decades with different illustration styles. How does each style create particular meanings and effects? What does the preference for these different styles over time suggest about cultural values?
+  type: short-answer
+  explanation: 'Your answer should demonstrate understanding that illustration styles are not neutral but carry different meanings and affordances. For example, compare a representational realistic watercolor style (common in earlier Caldecott winners) to abstract or experimental styles (more common in recent winners). Realistic illustration creates clarity and familiarity; abstract or experimental illustration might create emotional resonance or express contemporary aesthetics. Changes in award preferences suggest shifts in what the field values: perhaps earlier preferences for realistic clarity have given way to appreciation for emotional expressiveness, cultural diversity in artistic traditions, or innovative technical approaches. The point is recognizing that illustration style is a meaningful choice with consequences for how stories are experienced, and that changes in Caldecott preferences reflect broader cultural and artistic evolution.'
 ```
 
 ## Explainer

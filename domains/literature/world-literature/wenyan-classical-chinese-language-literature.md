@@ -32,39 +32,39 @@ Wenyan is not merely an ancient or outdated language but a sophisticated literar
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What is the relationship between wenyan's compression and its cultural function as the language of the educated elite?"
+- question: What is the relationship between wenyan's compression and its cultural function as the language of the educated elite?
+  type: multiple-choice
   options:
-    - "Wenyan compression was merely stylistic with no social significance"
-    - "The economy of wenyan expression required extensive training to master, making fluency in wenyan a marker of elite education and status"
-    - "Wenyan is no different from spoken Chinese"
-    - "The compression made wenyan difficult but socially irrelevant"
+  - Wenyan compression was merely stylistic with no social significance
+  - The economy of wenyan expression required extensive training to master, making fluency in wenyan a marker of elite education and status
+  - Wenyan is no different from spoken Chinese
+  - The compression made wenyan difficult but socially irrelevant
   answer: 1
-  explanation: "Wenyan's extraordinary compression—achieved through elimination of grammatical particles, reliance on context, extensive allusion—required years of training to master. Students of wenyan memorized classical texts, learned the conventions, developed the sensitivity to recognize allusions and understand compressed syntax. Fluency in wenyan became a marker of elite education and cultural belonging. Someone who could read and write wenyan fluently demonstrated not just linguistic skill but cultural cultivation and access to extensive training. This made wenyan a gatekeeper of power: access to government, to official positions, to prestige depended on mastery of wenyan. The compression was not incidental to this function but central to it: the difficulty ensured that only the trained elite could participate in elite literary and political culture."
+  explanation: 'Wenyan''s extraordinary compression—achieved through elimination of grammatical particles, reliance on context, extensive allusion—required years of training to master. Students of wenyan memorized classical texts, learned the conventions, developed the sensitivity to recognize allusions and understand compressed syntax. Fluency in wenyan became a marker of elite education and cultural belonging. Someone who could read and write wenyan fluently demonstrated not just linguistic skill but cultural cultivation and access to extensive training. This made wenyan a gatekeeper of power: access to government, to official positions, to prestige depended on mastery of wenyan. The compression was not incidental to this function but central to it: the difficulty ensured that only the trained elite could participate in elite literary and political culture.'
 
-- type: multiple-choice
-  question: "How did wenyan's distinction from spoken Chinese affect its literary function?"
+- question: How did wenyan's distinction from spoken Chinese affect its literary function?
+  type: multiple-choice
   options:
-    - "The distinction had no significance; wenyan and spoken Chinese were essentially the same"
-    - "Wenyan's existence as a written language distinct from speech enabled extraordinary compression; writers did not need to represent speech patterns but could employ purely written conventions"
-    - "Wenyan was simply written speech without distinctive character"
-    - "The distinction prevented wenyan from developing sophisticated literature"
+  - The distinction had no significance; wenyan and spoken Chinese were essentially the same
+  - Wenyan's existence as a written language distinct from speech enabled extraordinary compression; writers did not need to represent speech patterns but could employ purely written conventions
+  - Wenyan was simply written speech without distinctive character
+  - The distinction prevented wenyan from developing sophisticated literature
   answer: 1
-  explanation: "Wenyan developed as a written language with its own properties and conventions, distinct from how Chinese was spoken. This separation enabled particular effects: writers could employ syntax optimized for visual reading rather than auditory comprehension; they could rely on visual patterns and calligraphic properties of characters; they could compress meaning through wordplay and visual puns that depend on written form. The independence from speech meant that wenyan could become increasingly dense, allusive, and compressed. A reader of wenyan literature would not need to be able to pronounce the text to understand it; the meaning was visual, textual, aesthetic in ways that speech-based literature could not achieve. This created a distinctive literary mode where form and meaning are particularly integrated."
+  explanation: 'Wenyan developed as a written language with its own properties and conventions, distinct from how Chinese was spoken. This separation enabled particular effects: writers could employ syntax optimized for visual reading rather than auditory comprehension; they could rely on visual patterns and calligraphic properties of characters; they could compress meaning through wordplay and visual puns that depend on written form. The independence from speech meant that wenyan could become increasingly dense, allusive, and compressed. A reader of wenyan literature would not need to be able to pronounce the text to understand it; the meaning was visual, textual, aesthetic in ways that speech-based literature could not achieve. This created a distinctive literary mode where form and meaning are particularly integrated.'
 
-- type: true-false
-  statement: "The use of wenyan for all educated writing in traditional China was necessary—there was no alternative."
+- question: The use of wenyan for all educated writing in traditional China was necessary—there was no alternative.
+  type: true-false
   answer: false
-  explanation: "The preservation of wenyan as the standard for educated writing reflected conscious choice by the educated elite to maintain cultural continuity and their own status through language mastery. Alternatives existed—vernacular Chinese could have been elevated to literary status—but the elite chose to maintain wenyan. This preserved the cultural divide between the literate elite and the masses. The choice reflects how language standards and cultural authority are connected: maintaining a difficult, elevated literary language preserves the power of those who have access to education in that language."
+  explanation: 'The preservation of wenyan as the standard for educated writing reflected conscious choice by the educated elite to maintain cultural continuity and their own status through language mastery. Alternatives existed—vernacular Chinese could have been elevated to literary status—but the elite chose to maintain wenyan. This preserved the cultural divide between the literate elite and the masses. The choice reflects how language standards and cultural authority are connected: maintaining a difficult, elevated literary language preserves the power of those who have access to education in that language.'
 
-- type: true-false
-  statement: "The shift to vernacular literature in modern China represented merely a stylistic change from classical to contemporary language."
+- question: The shift to vernacular literature in modern China represented merely a stylistic change from classical to contemporary language.
+  type: true-false
   answer: false
-  explanation: "The shift from wenyan to vernacular literature was not merely stylistic but a radical social and political transformation. Vernacular literature could be read by people without years of classical training; it was democratizing. Literature that had been available only to the educated elite could now be accessed by common people. This shift challenged the cultural authority of the traditional elite and opened literary participation to broader populations. The change was revolutionary not just linguistically but socially and politically."
+  explanation: The shift from wenyan to vernacular literature was not merely stylistic but a radical social and political transformation. Vernacular literature could be read by people without years of classical training; it was democratizing. Literature that had been available only to the educated elite could now be accessed by common people. This shift challenged the cultural authority of the traditional elite and opened literary participation to broader populations. The change was revolutionary not just linguistically but socially and politically.
 
-- type: short-answer
-  question: "How does wenyan's function as a condensed, allusive literary language that required extensive training reveal something about the relationship between language systems and social power?"
-  explanation: "Wenyan demonstrates that language standards are not merely technical but deeply social and political. The choice to maintain a difficult literary language preserves the power of those educated in that language. The compression and allusional density of wenyan, while enabling extraordinary aesthetic effects, also created barriers to participation. Mastery of wenyan required years of training and access to education available only to the elite. This made language proficiency a marker of status and a gatekeeper to power and prestige. When the shift to vernacular literature occurred in modern China, it was not just a stylistic change but a democratization—opening literary culture to people without elite training. This reveals that language systems encode social relationships: maintaining particular language standards preserves cultural hierarchies. Conversely, shifting language standards is a way of disrupting hierarchies and expanding access. Understanding wenyan's role in traditional Chinese culture shows how language itself is a technology of social organization and power."
+- question: How does wenyan's function as a condensed, allusive literary language that required extensive training reveal something about the relationship between language systems and social power?
+  type: short-answer
+  explanation: 'Wenyan demonstrates that language standards are not merely technical but deeply social and political. The choice to maintain a difficult literary language preserves the power of those educated in that language. The compression and allusional density of wenyan, while enabling extraordinary aesthetic effects, also created barriers to participation. Mastery of wenyan required years of training and access to education available only to the elite. This made language proficiency a marker of status and a gatekeeper to power and prestige. When the shift to vernacular literature occurred in modern China, it was not just a stylistic change but a democratization—opening literary culture to people without elite training. This reveals that language systems encode social relationships: maintaining particular language standards preserves cultural hierarchies. Conversely, shifting language standards is a way of disrupting hierarchies and expanding access. Understanding wenyan''s role in traditional Chinese culture shows how language itself is a technology of social organization and power.'
 ```
 
 ## Explainer

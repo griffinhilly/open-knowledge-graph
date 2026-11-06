@@ -25,39 +25,39 @@ Historical essays make personal connections with the past, often exploring how h
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What distinguishes a historical essay from pure historical scholarship?"
+- question: What distinguishes a historical essay from pure historical scholarship?
+  type: multiple-choice
   options:
-    - "Historical essays are less accurate than scholarship."
-    - "Historical essays combine research with personal reflection, showing how the writer engages with and interprets historical material."
-    - "Historical essays don't use research."
-    - "All history writing is the same."
+  - Historical essays are less accurate than scholarship.
+  - Historical essays combine research with personal reflection, showing how the writer engages with and interprets historical material.
+  - Historical essays don't use research.
+  - All history writing is the same.
   answer: 1
-  explanation: "A scholarly history book aims for comprehensive, systematic coverage. A historical essay weaves together research with personal reflection, often exploring why this particular history matters to the writer, how it connects to contemporary concerns or personal experience."
+  explanation: A scholarly history book aims for comprehensive, systematic coverage. A historical essay weaves together research with personal reflection, often exploring why this particular history matters to the writer, how it connects to contemporary concerns or personal experience.
 
-- type: multiple-choice
-  question: "How might personal reflection enhance a historical essay?"
+- question: How might personal reflection enhance a historical essay?
+  type: multiple-choice
   options:
-    - "Personal reflection compromises historical accuracy."
-    - "By explaining how the writer came to engage with history, why it matters to them, personal reflection makes the historical relevant and shows the process of understanding."
-    - "Personal reflection has no place in historical writing."
-    - "Historical material speaks for itself without needing personal interpretation."
+  - Personal reflection compromises historical accuracy.
+  - By explaining how the writer came to engage with history, why it matters to them, personal reflection makes the historical relevant and shows the process of understanding.
+  - Personal reflection has no place in historical writing.
+  - Historical material speaks for itself without needing personal interpretation.
   answer: 1
-  explanation: "The writer's personal stakes in history can make the essay compelling and relevant. Why are you drawn to this particular historical moment? How does it connect to your life or concerns? This personal dimension doesn't weaken the essay; it makes the history vivid and meaningful."
+  explanation: The writer's personal stakes in history can make the essay compelling and relevant. Why are you drawn to this particular historical moment? How does it connect to your life or concerns? This personal dimension doesn't weaken the essay; it makes the history vivid and meaningful.
 
-- type: true-false
-  statement: "True: A historical essay might show the writer discovering meaning in historical material rather than presenting meaning as already settled."
+- question: 'True: A historical essay might show the writer discovering meaning in historical material rather than presenting meaning as already settled.'
+  type: true-false
   answer: true
-  explanation: "This is what makes essays distinctive. You're witnessing the writer's engagement with history—their questions, their research, their interpretive journey. The essay enacts understanding forming, not just displaying completed understanding."
+  explanation: This is what makes essays distinctive. You're witnessing the writer's engagement with history—their questions, their research, their interpretive journey. The essay enacts understanding forming, not just displaying completed understanding.
 
-- type: true-false
-  statement: "False: In a historical essay, the writer's contemporary concerns or personal life are irrelevant to understanding the historical material."
+- question: 'False: In a historical essay, the writer''s contemporary concerns or personal life are irrelevant to understanding the historical material.'
+  type: true-false
   answer: false
-  explanation: "This is false. Often the contemporary concern is exactly why the writer is drawn to the history. Present-day events might illuminate or be illuminated by historical parallels. The writer's position helps explain why this history matters now. These are not distractions; they're the essay's stakes."
+  explanation: This is false. Often the contemporary concern is exactly why the writer is drawn to the history. Present-day events might illuminate or be illuminated by historical parallels. The writer's position helps explain why this history matters now. These are not distractions; they're the essay's stakes.
 
-- type: short-answer
-  question: "How might a historical essay use a personal connection to historical material to deepen both the personal and the historical understanding?"
-  explanation: "A writer researching a historical ancestor discovers parallels to their own life—similar choices, similar conflicts. Investigating the ancestor's story deepens understanding of their own patterns and choices. Conversely, understanding the historical ancestor's context—the constraints, the possibilities, the pressures—illuminates their own life differently. The personal and historical are mutually illuminating. Neither is primary; each enriches the other. This is what the historical essay can uniquely do—show how personal life and historical moment intersect, how past and present inform each other, how understanding history changes understanding of self."
+- question: How might a historical essay use a personal connection to historical material to deepen both the personal and the historical understanding?
+  type: short-answer
+  explanation: A writer researching a historical ancestor discovers parallels to their own life—similar choices, similar conflicts. Investigating the ancestor's story deepens understanding of their own patterns and choices. Conversely, understanding the historical ancestor's context—the constraints, the possibilities, the pressures—illuminates their own life differently. The personal and historical are mutually illuminating. Neither is primary; each enriches the other. This is what the historical essay can uniquely do—show how personal life and historical moment intersect, how past and present inform each other, how understanding history changes understanding of self.
 ```
 
 ## Explainer

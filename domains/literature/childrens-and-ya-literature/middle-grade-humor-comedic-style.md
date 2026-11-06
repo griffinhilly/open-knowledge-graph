@@ -26,35 +26,39 @@ Compare humorous middle-grade texts (Roald Dahl, Lemony Snicket, contemporary au
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What does humor accomplish in middle-grade fiction beyond entertainment?"
-    options:
-      - "Humor only entertains; it has no other functions"
-      - "Humor builds narrative voice, can make difficult topics accessible, engages reluctant readers, and creates emotional connection through laughter"
-      - "Humor is inappropriate in children's literature"
-      - "Humor prevents serious engagement with content"
-    answer: 1
-    explanation: "Humor in middle-grade fiction serves multiple functions: it creates distinctive voice, makes serious or difficult content more accessible, builds reader engagement and investment, and creates emotional connection through shared laughter."
-  - question: "How does humor in middle-grade literature differ from adult comedy?"
-    options:
-      - "There is no difference—middle-grade and adult humor are identical"
-      - "Middle-grade humor typically avoids sexual content, dark existential despair, and complex adult references, instead employing wordplay, situational comedy, bodily humor, and irreverent tone toward authority"
-      - "Middle-grade humor is never funny"
-      - "Adult comedy is essentially children's comedy"
-    answer: 1
-    explanation: "Middle-grade humor conventions employ different registers: physical comedy, puns, absurdity, and irreverence toward authority resonate with this age group, while adult humor often relies on sexual content or sophisticated cultural references inaccessible to children."
+- question: What does humor accomplish in middle-grade fiction beyond entertainment?
+  type: multiple-choice
+  options:
+  - Humor only entertains; it has no other functions
+  - Humor builds narrative voice, can make difficult topics accessible, engages reluctant readers, and creates emotional connection through laughter
+  - Humor is inappropriate in children's literature
+  - Humor prevents serious engagement with content
+  answer: 1
+  explanation: 'Humor in middle-grade fiction serves multiple functions: it creates distinctive voice, makes serious or difficult content more accessible, builds reader engagement and investment, and creates emotional connection through shared laughter.'
 
-true-false:
-  - question: "True or False: Authors like Roald Dahl who employ dark humor and mocking tone are unsuitable for middle-grade audiences."
-    answer: false
-    explanation: "False. Dahl's dark humor, irreverence, and willingness to mock authority figures make his work particularly appealing to middle-grade readers who appreciate being taken seriously through humor."
-  - question: "True or False: A humorous voice in middle-grade fiction can be an effective strategy for engaging reluctant readers."
-    answer: true
-    explanation: "True. Humor creates immediate engagement and makes reading feel fun rather than laborious, which is particularly effective for building reading habits in children who might otherwise avoid reading."
+- question: How does humor in middle-grade literature differ from adult comedy?
+  type: multiple-choice
+  options:
+  - There is no difference—middle-grade and adult humor are identical
+  - Middle-grade humor typically avoids sexual content, dark existential despair, and complex adult references, instead employing wordplay, situational comedy, bodily humor, and irreverent tone toward authority
+  - Middle-grade humor is never funny
+  - Adult comedy is essentially children's comedy
+  answer: 1
+  explanation: 'Middle-grade humor conventions employ different registers: physical comedy, puns, absurdity, and irreverence toward authority resonate with this age group, while adult humor often relies on sexual content or sophisticated cultural references inaccessible to children.'
 
-short-answer:
-  - question: "Analyze the humor in a middle-grade book you know. Identify specific comedic strategies (wordplay, situational comedy, irreverent tone, hyperbole, etc.) and explain how they function to create voice and engage readers."
-    explanation: "Your answer should show understanding of specific comedic techniques. For example, in Roald Dahl's work, dark humor about adult characters' failings creates voice and also gives permission for readers to question authority. Situational comedy where a character's literal-mindedness creates problems develops both humor and characterization. Wordplay (puns, invented words) demonstrates linguistic playfulness. Physical comedy (described bodily situations, slapstick) creates immediate humor. Hyperbole (exaggerating descriptions to absurdity) builds comedic tone. The point is recognizing that humor isn't merely decorative but functions to create narrative voice, develop character, engage readers, and make difficult content more accessible."
+- question: 'True or False: Authors like Roald Dahl who employ dark humor and mocking tone are unsuitable for middle-grade audiences.'
+  type: true-false
+  answer: false
+  explanation: False. Dahl's dark humor, irreverence, and willingness to mock authority figures make his work particularly appealing to middle-grade readers who appreciate being taken seriously through humor.
+
+- question: 'True or False: A humorous voice in middle-grade fiction can be an effective strategy for engaging reluctant readers.'
+  type: true-false
+  answer: true
+  explanation: True. Humor creates immediate engagement and makes reading feel fun rather than laborious, which is particularly effective for building reading habits in children who might otherwise avoid reading.
+
+- question: Analyze the humor in a middle-grade book you know. Identify specific comedic strategies (wordplay, situational comedy, irreverent tone, hyperbole, etc.) and explain how they function to create voice and engage readers.
+  type: short-answer
+  explanation: Your answer should show understanding of specific comedic techniques. For example, in Roald Dahl's work, dark humor about adult characters' failings creates voice and also gives permission for readers to question authority. Situational comedy where a character's literal-mindedness creates problems develops both humor and characterization. Wordplay (puns, invented words) demonstrates linguistic playfulness. Physical comedy (described bodily situations, slapstick) creates immediate humor. Hyperbole (exaggerating descriptions to absurdity) builds comedic tone. The point is recognizing that humor isn't merely decorative but functions to create narrative voice, develop character, engage readers, and make difficult content more accessible.
 ```
 
 ## Explainer

@@ -23,36 +23,39 @@ Western fiction features frontier settings with emphasis on individual morality,
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What are the primary thematic concerns of western fiction?"
-    options:
-      - "Corporate corruption and urban politics"
-      - "Justice, honor, freedom, and conflict between civilization and wilderness"
-      - "Romantic relationships and family drama"
-      - "Scientific discovery and technological advancement"
-    correct_answer: 1
-    explanation: "The core idea states that westerns 'explore themes of justice, honor, and freedom' and feature 'conflict between civilization and wilderness,' identifying these as primary concerns."
-  - type: multiple-choice
-    question: "How does western fiction approach the portrayal of frontier mythology?"
-    options:
-      - "All westerns celebrate frontier mythology exclusively"
-      - "Westerns either romanticize frontier mythology or offer revisionist critiques"
-      - "Westerns completely reject any mythological elements"
-      - "Westerns ignore the frontier entirely"
-    correct_answer: 1
-    explanation: "The core idea explicitly states that westerns approach myth by 'either romanticizing frontier mythology or offering revisionist critiques,' showing both approaches are valid within the genre."
-  - type: true-false
-    question: "Western fiction necessarily involves individual morality and personal choices as central elements."
-    correct_answer: true
-    explanation: "The core idea identifies 'emphasis on individual morality' as a defining feature of western fiction."
-  - type: true-false
-    question: "All western fiction must depict historically accurate frontier life."
-    correct_answer: false
-    explanation: "The core idea states the genre 'may depict realistic frontier life or mythologize the American West,' showing variation in approach from realism to mythology."
-  - type: short-answer
-    question: "How does the frontier landscape affect character morality and decision-making in western narratives?"
-    explanation: "A strong answer should explain that the frontier setting creates conditions where civilized moral frameworks may not apply, forcing characters to develop their own moral codes based on survival needs, community survival, or personal justice. The landscape's challenges and opportunities shape what kinds of moral choices become necessary. Students should demonstrate understanding that setting isn't merely backdrop but actively shapes the moral situations characters face."
+- question: What are the primary thematic concerns of western fiction?
+  type: multiple-choice
+  options:
+  - Corporate corruption and urban politics
+  - Justice, honor, freedom, and conflict between civilization and wilderness
+  - Romantic relationships and family drama
+  - Scientific discovery and technological advancement
+  answer: 1
+  explanation: The core idea states that westerns 'explore themes of justice, honor, and freedom' and feature 'conflict between civilization and wilderness,' identifying these as primary concerns.
+
+- question: How does western fiction approach the portrayal of frontier mythology?
+  type: multiple-choice
+  options:
+  - All westerns celebrate frontier mythology exclusively
+  - Westerns either romanticize frontier mythology or offer revisionist critiques
+  - Westerns completely reject any mythological elements
+  - Westerns ignore the frontier entirely
+  answer: 1
+  explanation: The core idea explicitly states that westerns approach myth by 'either romanticizing frontier mythology or offering revisionist critiques,' showing both approaches are valid within the genre.
+
+- question: Western fiction necessarily involves individual morality and personal choices as central elements.
+  type: true-false
+  answer: true
+  explanation: The core idea identifies 'emphasis on individual morality' as a defining feature of western fiction.
+
+- question: All western fiction must depict historically accurate frontier life.
+  type: true-false
+  answer: false
+  explanation: The core idea states the genre 'may depict realistic frontier life or mythologize the American West,' showing variation in approach from realism to mythology.
+
+- question: How does the frontier landscape affect character morality and decision-making in western narratives?
+  type: short-answer
+  explanation: A strong answer should explain that the frontier setting creates conditions where civilized moral frameworks may not apply, forcing characters to develop their own moral codes based on survival needs, community survival, or personal justice. The landscape's challenges and opportunities shape what kinds of moral choices become necessary. Students should demonstrate understanding that setting isn't merely backdrop but actively shapes the moral situations characters face.
 ```
 
 ## Explainer

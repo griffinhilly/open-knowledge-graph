@@ -27,35 +27,39 @@ Concrete poetry uses spatial arrangement, typography, and visual composition as 
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "In concrete poetry, how does the arrangement of words on the page contribute to meaning?"
-    options:
-      - "The arrangement has no relationship to the poem's meaning"
-      - "The visual form and spatial arrangement of text become essential meaning-making elements, not merely containers for words"
-      - "Only the words matter; their visual arrangement is decorative"
-      - "The arrangement follows strict traditional poetic meter rules"
-    answer: 1
-    explanation: "Concrete poetry's defining characteristic is that spatial arrangement, typography, and visual composition actively create and reinforce meaning—the form is inseparable from the content."
-  - question: "What is the pedagogical advantage of concrete poetry for young readers?"
-    options:
-      - "It eliminates the need to understand actual words"
-      - "It makes poetry's form visible and tangible, allowing children to see how form creates meaning while inviting playful visual interpretation"
-      - "It removes any musical or rhythmic elements from poetry"
-      - "It prevents children from developing traditional reading skills"
-    answer: 1
-    explanation: "Concrete poetry makes abstract concepts of poetic form concrete and visible for young readers, and its playful visual nature invites participation rather than passive reading."
+- question: In concrete poetry, how does the arrangement of words on the page contribute to meaning?
+  type: multiple-choice
+  options:
+  - The arrangement has no relationship to the poem's meaning
+  - The visual form and spatial arrangement of text become essential meaning-making elements, not merely containers for words
+  - Only the words matter; their visual arrangement is decorative
+  - The arrangement follows strict traditional poetic meter rules
+  answer: 1
+  explanation: Concrete poetry's defining characteristic is that spatial arrangement, typography, and visual composition actively create and reinforce meaning—the form is inseparable from the content.
 
-true-false:
-  - question: "True or False: Concrete poetry relies solely on the visual arrangement of words and ignores the semantic meanings of individual words."
-    answer: false
-    explanation: "This is false. While visual arrangement is crucial in concrete poetry, the meanings of individual words are still important—the poem works when visual form and word meaning reinforce or complicate each other."
-  - question: "True or False: Concrete poetry invites readers to interpret meaning through both visual and linguistic dimensions simultaneously."
-    answer: true
-    explanation: "This is true. Concrete poetry requires readers to engage with how words mean, how they look, and how their arrangement creates additional layers of significance."
+- question: What is the pedagogical advantage of concrete poetry for young readers?
+  type: multiple-choice
+  options:
+  - It eliminates the need to understand actual words
+  - It makes poetry's form visible and tangible, allowing children to see how form creates meaning while inviting playful visual interpretation
+  - It removes any musical or rhythmic elements from poetry
+  - It prevents children from developing traditional reading skills
+  answer: 1
+  explanation: Concrete poetry makes abstract concepts of poetic form concrete and visible for young readers, and its playful visual nature invites participation rather than passive reading.
 
-short-answer:
-  - question: "Why might an author choose to use concrete poetry for children rather than traditional linear verse arranged left-to-right?"
-    explanation: "Concrete poetry makes poetry's constructedness visible to young readers who may assume poems are simply 'words that rhyme' without understanding how form shapes meaning. By arranging words to create visual shapes, the poet demonstrates that how you arrange language matters as much as which words you choose. This invites children to see poetry not as mysterious or exclusively for adults but as something they can experiment with and create themselves. Additionally, concrete poetry's visual playfulness engages children who might be reluctant readers; the visual dimension makes the poem accessible and fun before requiring interpretation. Concretely arranged text also supports visual literacy development—the ability to read across multiple dimensions of communication (visual and verbal)—preparing children for interpreting increasingly complex texts and media."
+- question: 'True or False: Concrete poetry relies solely on the visual arrangement of words and ignores the semantic meanings of individual words.'
+  type: true-false
+  answer: false
+  explanation: This is false. While visual arrangement is crucial in concrete poetry, the meanings of individual words are still important—the poem works when visual form and word meaning reinforce or complicate each other.
+
+- question: 'True or False: Concrete poetry invites readers to interpret meaning through both visual and linguistic dimensions simultaneously.'
+  type: true-false
+  answer: true
+  explanation: This is true. Concrete poetry requires readers to engage with how words mean, how they look, and how their arrangement creates additional layers of significance.
+
+- question: Why might an author choose to use concrete poetry for children rather than traditional linear verse arranged left-to-right?
+  type: short-answer
+  explanation: Concrete poetry makes poetry's constructedness visible to young readers who may assume poems are simply 'words that rhyme' without understanding how form shapes meaning. By arranging words to create visual shapes, the poet demonstrates that how you arrange language matters as much as which words you choose. This invites children to see poetry not as mysterious or exclusively for adults but as something they can experiment with and create themselves. Additionally, concrete poetry's visual playfulness engages children who might be reluctant readers; the visual dimension makes the poem accessible and fun before requiring interpretation. Concretely arranged text also supports visual literacy development—the ability to read across multiple dimensions of communication (visual and verbal)—preparing children for interpreting increasingly complex texts and media.
 ```
 
 ## Explainer

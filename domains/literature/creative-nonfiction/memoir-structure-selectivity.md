@@ -27,39 +27,39 @@ Memoir structure operates through strategic selection and thematic organization 
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "Why don't memoirs follow strict chronological order from birth to present?"
+- question: Why don't memoirs follow strict chronological order from birth to present?
+  type: multiple-choice
   options:
-    - "Chronological would be more truthful."
-    - "Strategic selection and thematic organization allow writers to reveal significance and meaning that pure chronology might obscure."
-    - "Memoir requires random ordering."
-    - "Structure doesn't matter in memoir."
+  - Chronological would be more truthful.
+  - Strategic selection and thematic organization allow writers to reveal significance and meaning that pure chronology might obscure.
+  - Memoir requires random ordering.
+  - Structure doesn't matter in memoir.
   answer: 1
-  explanation: "A life lived chronologically is not the same as a life organized for meaning. A memoir that jumps between time periods to show recurring patterns, emotional arcs, or thematic development might reveal significance that chronological ordering wouldn't."
+  explanation: A life lived chronologically is not the same as a life organized for meaning. A memoir that jumps between time periods to show recurring patterns, emotional arcs, or thematic development might reveal significance that chronological ordering wouldn't.
 
-- type: multiple-choice
-  question: "What does 'the architecture of a memoir reveals the author's interpretation' mean?"
+- question: What does 'the architecture of a memoir reveals the author's interpretation' mean?
+  type: multiple-choice
   options:
-    - "Architecture is decorative, unrelated to meaning."
-    - "How a memoirist structures their life story—what they emphasize, how they organize material—shows what they believe is significant."
-    - "All memoirs have identical structure."
-    - "Structure hides true meaning."
+  - Architecture is decorative, unrelated to meaning.
+  - How a memoirist structures their life story—what they emphasize, how they organize material—shows what they believe is significant.
+  - All memoirs have identical structure.
+  - Structure hides true meaning.
   answer: 1
-  explanation: "The choices a memoirist makes about how to organize their material communicate interpretation. If you emphasize childhood and begin there, you're suggesting childhood shaped everything. If you organize thematically, you're suggesting patterns matter more than sequence. Structure is argument."
+  explanation: The choices a memoirist makes about how to organize their material communicate interpretation. If you emphasize childhood and begin there, you're suggesting childhood shaped everything. If you organize thematically, you're suggesting patterns matter more than sequence. Structure is argument.
 
-- type: true-false
-  statement: "True: A memoir organized thematically around recurring conflicts might be more revealing about the author's development than one that follows strict chronology."
+- question: 'True: A memoir organized thematically around recurring conflicts might be more revealing about the author''s development than one that follows strict chronology.'
+  type: true-false
   answer: true
-  explanation: "Thematic organization can show how patterns repeat, deepen, or evolve. You can group episodes from different years if they illuminate the same theme. This often reveals more about character development than chronology would."
+  explanation: Thematic organization can show how patterns repeat, deepen, or evolve. You can group episodes from different years if they illuminate the same theme. This often reveals more about character development than chronology would.
 
-- type: true-false
-  statement: "False: Using recurring motifs and emotional arcs in memoir structure means the writer is imposing false narrative on their actual life."
+- question: 'False: Using recurring motifs and emotional arcs in memoir structure means the writer is imposing false narrative on their actual life.'
+  type: true-false
   answer: false
-  explanation: "This is false. Structure that recognizes recurring motifs and emotional arcs is revealing patterns that actually exist. You're not inventing them; you're making them visible. This is interpretation, not fabrication."
+  explanation: This is false. Structure that recognizes recurring motifs and emotional arcs is revealing patterns that actually exist. You're not inventing them; you're making them visible. This is interpretation, not fabrication.
 
-- type: short-answer
-  question: "How might a memoirist use structural choices to convey meaning about their life without stating it directly?"
-  explanation: "A memoirist might organize around a recurring image or conflict that appears at different life stages. By placing these moments in sequence (even if not chronological), the reader sees the pattern and understands its significance without the writer explaining it. Or a memoirist might open with the most pivotal moment, then trace backward to show how that moment became inevitable. Or they might alternate between the past and present reflections, showing how understanding has changed. Or they might organize by emotional trajectory rather than chronology, moving from confusion to clarity. These structural choices communicate meaning—they show what the writer believes about their own life without requiring explicit statement."
+- question: How might a memoirist use structural choices to convey meaning about their life without stating it directly?
+  type: short-answer
+  explanation: A memoirist might organize around a recurring image or conflict that appears at different life stages. By placing these moments in sequence (even if not chronological), the reader sees the pattern and understands its significance without the writer explaining it. Or a memoirist might open with the most pivotal moment, then trace backward to show how that moment became inevitable. Or they might alternate between the past and present reflections, showing how understanding has changed. Or they might organize by emotional trajectory rather than chronology, moving from confusion to clarity. These structural choices communicate meaning—they show what the writer believes about their own life without requiring explicit statement.
 ```
 
 ## Explainer

@@ -34,40 +34,39 @@ Sacred time is simply 'ancient times.' (Sacred time transcends historical durati
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What does Mircea Eliade mean by 'sacred time' as distinct from profane or historical time?"
-    options:
-      - "Sacred time is just another name for 'the past'"
-      - "Sacred time is the eternal, non-sequential time of myths, often conceived as cyclical or eternally present, contrasting with profane historical time"
-      - "Sacred time is longer than profane time"
-      - "Sacred time is only used in religious rituals"
-    correct: "B"
-    explanation: "Sacred time transcends ordinary historical duration. Myths occur in 'illo tempore' ('in that time'), a mode of temporality that is not bound by sequential cause-and-effect or linear progression. Myths can be cyclical (eternally recurring), eternally present, or outside time entirely. This differs fundamentally from profane time, which is linear, progressive, and measured by duration."
+- question: What does Mircea Eliade mean by 'sacred time' as distinct from profane or historical time?
+  type: multiple-choice
+  options:
+  - Sacred time is just another name for 'the past'
+  - Sacred time is the eternal, non-sequential time of myths, often conceived as cyclical or eternally present, contrasting with profane historical time
+  - Sacred time is longer than profane time
+  - Sacred time is only used in religious rituals
+  answer: 1
+  explanation: Sacred time transcends ordinary historical duration. Myths occur in 'illo tempore' ('in that time'), a mode of temporality that is not bound by sequential cause-and-effect or linear progression. Myths can be cyclical (eternally recurring), eternally present, or outside time entirely. This differs fundamentally from profane time, which is linear, progressive, and measured by duration.
 
-  - type: multiple-choice
-    question: "How do rituals often relate to the distinction between sacred and profane time?"
-    options:
-      - "Rituals simply mark the passage of profane time"
-      - "Rituals aim to reconnect present profane time with sacred mythic time, temporarily suspending ordinary temporality"
-      - "Rituals have no relationship to time"
-      - "Rituals create a different kind of profane time"
-    correct: "B"
-    explanation: "Ritual functions to bridge sacred and profane time. When a culture performs a creation myth ritually, the performance temporarily brings sacred time into the present. The eternal mythic time overlaps with the present moment. Ritual thus allows communities to periodic ally reconnect with sacred time and reestablish cosmic order."
+- question: How do rituals often relate to the distinction between sacred and profane time?
+  type: multiple-choice
+  options:
+  - Rituals simply mark the passage of profane time
+  - Rituals aim to reconnect present profane time with sacred mythic time, temporarily suspending ordinary temporality
+  - Rituals have no relationship to time
+  - Rituals create a different kind of profane time
+  answer: 1
+  explanation: Ritual functions to bridge sacred and profane time. When a culture performs a creation myth ritually, the performance temporarily brings sacred time into the present. The eternal mythic time overlaps with the present moment. Ritual thus allows communities to periodic ally reconnect with sacred time and reestablish cosmic order.
 
-  - type: true-false
-    question: "All cultures conceive of time in the same way, with linear progression toward a defined future."
-    correct: false
-    explanation: "Cultures produce radically different temporal conceptions. Some emphasize cyclical return, others linear progress toward an apocalyptic end, still others eternal present or mythic time outside sequential duration. These differences reflect different cosmologies and worldviews."
+- question: All cultures conceive of time in the same way, with linear progression toward a defined future.
+  type: true-false
+  answer: false
+  explanation: Cultures produce radically different temporal conceptions. Some emphasize cyclical return, others linear progress toward an apocalyptic end, still others eternal present or mythic time outside sequential duration. These differences reflect different cosmologies and worldviews.
 
-  - type: true-false
-    question: "Sacred time is a psychological concept rather than something embedded in a culture's cosmology and ritual practice."
-    correct: false
-    explanation: "Sacred time is embedded in cosmology, ritual practice, and temple architecture. It shapes how cultures understand causation, history, and renewal. It is not merely psychological but structural to how communities organize meaning."
+- question: Sacred time is a psychological concept rather than something embedded in a culture's cosmology and ritual practice.
+  type: true-false
+  answer: false
+  explanation: Sacred time is embedded in cosmology, ritual practice, and temple architecture. It shapes how cultures understand causation, history, and renewal. It is not merely psychological but structural to how communities organize meaning.
 
-  - type: short-answer
-    question: "Explain how the distinction between cyclical and linear time relates to how different cultures understand history, progress, and renewal."
-    explanation: "Cultures emphasizing cyclical time (like many Hindu and Indigenous traditions) understand time as eternally recurring: creation and destruction cycle indefinitely; what has been will be again; history does not progress toward an end but repeats. This produces a different ethics: one prepares for recurrence, works within cycles, accepts both destruction and renewal as necessary. Cultures emphasizing linear time (like Abrahamic traditions) understand time as progression toward an endpoint: creation is singular, history moves toward final judgment, progress is possible. This produces different ethics: one works toward a final goal, views change as directional, understands the future as open. Neither is universal; each reflects different cosmological assumptions about the nature of reality and time's structure."
+- question: Explain how the distinction between cyclical and linear time relates to how different cultures understand history, progress, and renewal.
+  type: short-answer
+  explanation: 'Cultures emphasizing cyclical time (like many Hindu and Indigenous traditions) understand time as eternally recurring: creation and destruction cycle indefinitely; what has been will be again; history does not progress toward an end but repeats. This produces a different ethics: one prepares for recurrence, works within cycles, accepts both destruction and renewal as necessary. Cultures emphasizing linear time (like Abrahamic traditions) understand time as progression toward an endpoint: creation is singular, history moves toward final judgment, progress is possible. This produces different ethics: one works toward a final goal, views change as directional, understands the future as open. Neither is universal; each reflects different cosmological assumptions about the nature of reality and time''s structure.'
 ```
 
 ## Explainer

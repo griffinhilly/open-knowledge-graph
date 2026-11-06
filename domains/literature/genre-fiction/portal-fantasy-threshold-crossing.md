@@ -27,36 +27,39 @@ Portal fantasy features transition between our primary world and a fantasy realm
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What narrative function does the portal serve in portal fantasy?"
-    options:
-      - "It is a magical obstacle the protagonist must defeat"
-      - "It creates story structure through anticipation, disorientation, and gradual acculturation to new rules"
-      - "It allows characters to escape the consequences of their actions"
-      - "It represents the protagonist's internal emotional journey"
-    correct_answer: 1
-    explanation: "The core idea explicitly states that 'the portal creates narrative structure: anticipation before crossing, disorientation upon arrival, gradual acculturation to new rules and possibilities.' The portal is structural, not just a plot device."
-  - type: multiple-choice
-    question: "How does portal fantasy maintain reader engagement with the fantasy world?"
-    options:
-      - "By avoiding any reference to the primary world once the portal is crossed"
-      - "By allowing readers to discover the fantasy world alongside the protagonist while maintaining connection to the familiar"
-      - "By using extensive exposition explaining all the fantasy world's rules upfront"
-      - "By alternating between the primary world and fantasy realm every other chapter"
-    correct_answer: 1
-    explanation: "The core idea states that portal fantasy 'allows readers to discover fantasy alongside the protagonist while maintaining connection to the familiar.' This dual perspective is key to the genre's appeal—we learn as the protagonist learns."
-  - type: true-false
-    question: "In portal fantasy, the transition between worlds is typically instantaneous with no preparation or anticipation."
-    correct_answer: false
-    explanation: "The core idea identifies anticipation before crossing as a key structural element of portal fantasy narratives. The reader experiences the build-up and uncertainty of approaching the threshold."
-  - type: true-false
-    question: "The disorientation the protagonist feels upon crossing the portal is an important narrative element in portal fantasy."
-    correct_answer: true
-    explanation: "The core idea lists 'disorientation upon arrival' as one of the key narrative moments that the portal creates structure around, showing that confusion and adjustment are central to the genre experience."
-  - type: short-answer
-    question: "Why is maintaining connection to the familiar world important for portal fantasy readers even after the protagonist crosses the threshold?"
-    explanation: "A strong answer should explain that keeping the primary world as a reference point helps readers orient themselves in the fantasy realm. Students should demonstrate understanding that discovering fantasy 'alongside the protagonist' is more engaging than being dropped into a fully-formed secondary world with no familiar perspective."
+- question: What narrative function does the portal serve in portal fantasy?
+  type: multiple-choice
+  options:
+  - It is a magical obstacle the protagonist must defeat
+  - It creates story structure through anticipation, disorientation, and gradual acculturation to new rules
+  - It allows characters to escape the consequences of their actions
+  - It represents the protagonist's internal emotional journey
+  answer: 1
+  explanation: 'The core idea explicitly states that ''the portal creates narrative structure: anticipation before crossing, disorientation upon arrival, gradual acculturation to new rules and possibilities.'' The portal is structural, not just a plot device.'
+
+- question: How does portal fantasy maintain reader engagement with the fantasy world?
+  type: multiple-choice
+  options:
+  - By avoiding any reference to the primary world once the portal is crossed
+  - By allowing readers to discover the fantasy world alongside the protagonist while maintaining connection to the familiar
+  - By using extensive exposition explaining all the fantasy world's rules upfront
+  - By alternating between the primary world and fantasy realm every other chapter
+  answer: 1
+  explanation: The core idea states that portal fantasy 'allows readers to discover fantasy alongside the protagonist while maintaining connection to the familiar.' This dual perspective is key to the genre's appeal—we learn as the protagonist learns.
+
+- question: In portal fantasy, the transition between worlds is typically instantaneous with no preparation or anticipation.
+  type: true-false
+  answer: false
+  explanation: The core idea identifies anticipation before crossing as a key structural element of portal fantasy narratives. The reader experiences the build-up and uncertainty of approaching the threshold.
+
+- question: The disorientation the protagonist feels upon crossing the portal is an important narrative element in portal fantasy.
+  type: true-false
+  answer: true
+  explanation: The core idea lists 'disorientation upon arrival' as one of the key narrative moments that the portal creates structure around, showing that confusion and adjustment are central to the genre experience.
+
+- question: Why is maintaining connection to the familiar world important for portal fantasy readers even after the protagonist crosses the threshold?
+  type: short-answer
+  explanation: A strong answer should explain that keeping the primary world as a reference point helps readers orient themselves in the fantasy realm. Students should demonstrate understanding that discovering fantasy 'alongside the protagonist' is more engaging than being dropped into a fully-formed secondary world with no familiar perspective.
 ```
 
 ## Explainer

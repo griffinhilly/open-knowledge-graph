@@ -24,39 +24,39 @@ Food writing uses precise sensory language and culinary detail to explore cultur
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What makes food writing more than just describing what something tastes like?"
+- question: What makes food writing more than just describing what something tastes like?
+  type: multiple-choice
   options:
-    - "Food writing is only about describing flavors."
-    - "By using food as an entry point, food writers explore culture, identity, memory, economics, and labor."
-    - "Food writing cannot address serious themes."
-    - "Food and seriousness are incompatible."
+  - Food writing is only about describing flavors.
+  - By using food as an entry point, food writers explore culture, identity, memory, economics, and labor.
+  - Food writing cannot address serious themes.
+  - Food and seriousness are incompatible.
   answer: 1
-  explanation: "Food writing appears to be about taste and cooking, but a sophisticated food essay uses a particular dish or meal as a doorway into larger themes. A recipe might become a meditation on cultural tradition. A meal preparation might reveal family dynamics. Food connects to identity, economics, labor—all serious themes."
+  explanation: Food writing appears to be about taste and cooking, but a sophisticated food essay uses a particular dish or meal as a doorway into larger themes. A recipe might become a meditation on cultural tradition. A meal preparation might reveal family dynamics. Food connects to identity, economics, labor—all serious themes.
 
-- type: multiple-choice
-  question: "Why does food writing require 'sophisticated vocabulary for taste, texture, and aroma'?"
+- question: Why does food writing require 'sophisticated vocabulary for taste, texture, and aroma'?
+  type: multiple-choice
   options:
-    - "To seem pretentious or exclusive."
-    - "Because English has limited default vocabulary for sensory experience of food; writers must develop nuanced language to communicate precisely."
-    - "Food is simple and doesn't require sophisticated language."
-    - "Sophisticated vocabulary is unnecessary in nonfiction."
+  - To seem pretentious or exclusive.
+  - Because English has limited default vocabulary for sensory experience of food; writers must develop nuanced language to communicate precisely.
+  - Food is simple and doesn't require sophisticated language.
+  - Sophisticated vocabulary is unnecessary in nonfiction.
   answer: 1
-  explanation: "English has lots of words for taste (sweet, sour, bitter, umami) but they're limited. To write precisely about sensory experience, food writers develop vocabulary: 'mineral,' 'bright,' 'dense,' 'velvety,' 'sharp.' This allows precision and helps readers actually taste through language."
+  explanation: 'English has lots of words for taste (sweet, sour, bitter, umami) but they''re limited. To write precisely about sensory experience, food writers develop vocabulary: ''mineral,'' ''bright,'' ''dense,'' ''velvety,'' ''sharp.'' This allows precision and helps readers actually taste through language.'
 
-- type: true-false
-  statement: "True: Food writing about a particular dish can illuminate personal memory, family history, and cultural identity simultaneously."
+- question: 'True: Food writing about a particular dish can illuminate personal memory, family history, and cultural identity simultaneously.'
+  type: true-false
   answer: true
-  explanation: "This is food writing's power. A recipe learned from your grandmother isn't just food; it carries memory, cultural tradition, family relationships. Writing about it can explore all these dimensions. Food is a vehicle for accessing these deeper themes."
+  explanation: This is food writing's power. A recipe learned from your grandmother isn't just food; it carries memory, cultural tradition, family relationships. Writing about it can explore all these dimensions. Food is a vehicle for accessing these deeper themes.
 
-- type: true-false
-  statement: "False: Food writing that addresses economics and labor is mixing topics that don't belong together."
+- question: 'False: Food writing that addresses economics and labor is mixing topics that don''t belong together.'
+  type: true-false
   answer: false
-  explanation: "This is false. Food is fundamentally connected to economics and labor. Whose labor produces the food? What are the economics of food systems? These questions are not separate from food writing; they're essential to understanding what food means. Serious food writing addresses these."
+  explanation: This is false. Food is fundamentally connected to economics and labor. Whose labor produces the food? What are the economics of food systems? These questions are not separate from food writing; they're essential to understanding what food means. Serious food writing addresses these.
 
-- type: short-answer
-  question: "How might a food essay about a particular meal or dish work? What elements might it combine?"
-  explanation: "A food essay might begin with a personal memory of eating or preparing a meal. From there, it could explore the sensory experience—precise description of taste, texture, aroma. It might research the food's history or cultural significance. It might reflect on who taught the recipe, what that relationship meant. It might investigate the economics of the ingredients (where they come from, who grows them, what labor goes into production). It might connect the food to identity or tradition. A strong food essay weaves all these together—personal memory, sensory precision, cultural knowledge, and broader social or political insight. The food is the thread that connects these different dimensions."
+- question: How might a food essay about a particular meal or dish work? What elements might it combine?
+  type: short-answer
+  explanation: A food essay might begin with a personal memory of eating or preparing a meal. From there, it could explore the sensory experience—precise description of taste, texture, aroma. It might research the food's history or cultural significance. It might reflect on who taught the recipe, what that relationship meant. It might investigate the economics of the ingredients (where they come from, who grows them, what labor goes into production). It might connect the food to identity or tradition. A strong food essay weaves all these together—personal memory, sensory precision, cultural knowledge, and broader social or political insight. The food is the thread that connects these different dimensions.
 ```
 
 ## Explainer

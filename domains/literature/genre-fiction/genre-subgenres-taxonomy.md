@@ -32,36 +32,39 @@ Create a taxonomy chart categorizing 10-15 works across different genre classifi
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "How many taxonomy systems for categorizing genre fiction does the core idea identify?"
-    options:
-      - "Only one universal system recognized by all publishers"
-      - "Multiple overlapping taxonomy systems based on narrative type, setting, and atmosphere"
-      - "A strict hierarchy with primary and secondary genres"
-      - "No consistent systems—genres are entirely subjective"
-    correct_answer: 1
-    explanation: "The core idea states that genre includes 'multiple overlapping taxonomy systems—by narrative type (mystery, romance, SF), by setting (western, historical, contemporary), by atmosphere (horror, noir, satirical),' showing multiple simultaneous classification approaches."
-  - type: multiple-choice
-    question: "What is a subgenre according to the core idea?"
-    options:
-      - "A genre that has become less popular over time"
-      - "A combination of elements from multiple genre categories"
-      - "A genre that only serious readers enjoy"
-      - "A simplified version of a major genre"
-    correct_answer: 1
-    explanation: "The core idea states that 'subgenres combine elements from multiple categories,' with examples like 'paranormal romance blends fantasy and romance; hardboiled mystery blends mystery and noir,' showing subgenres as hybrid forms."
-  - type: true-false
-    question: "A single work can occupy only one genre category at a time."
-    correct_answer: false
-    explanation: "The core idea explicitly states that 'a single work may occupy multiple genre categories simultaneously,' giving paranormal romance and hardboiled mystery as examples."
-  - type: true-false
-    question: "Subgenres evolve as reader expectations shift and new combinations become popular."
-    correct_answer: true
-    explanation: "The core idea states that subgenres 'evolve as reader expectations shift,' indicating that genre classifications are dynamic and responsive to changing reader communities."
-  - type: short-answer
-    question: "Why might multiple overlapping taxonomy systems be necessary for genre fiction classification? What advantage do different classification systems provide?"
-    explanation: "A good answer should recognize that a work might be categorized by its narrative structure (mystery vs. romance), by its setting (historical vs. contemporary), or by its atmosphere (noir vs. comic), and that these different ways of organizing might serve different purposes. Students should understand that flexible taxonomy allows more nuanced description of complex works and accommodates hybrid forms that don't fit neatly into single categories."
+- question: How many taxonomy systems for categorizing genre fiction does the core idea identify?
+  type: multiple-choice
+  options:
+  - Only one universal system recognized by all publishers
+  - Multiple overlapping taxonomy systems based on narrative type, setting, and atmosphere
+  - A strict hierarchy with primary and secondary genres
+  - No consistent systems—genres are entirely subjective
+  answer: 1
+  explanation: The core idea states that genre includes 'multiple overlapping taxonomy systems—by narrative type (mystery, romance, SF), by setting (western, historical, contemporary), by atmosphere (horror, noir, satirical),' showing multiple simultaneous classification approaches.
+
+- question: What is a subgenre according to the core idea?
+  type: multiple-choice
+  options:
+  - A genre that has become less popular over time
+  - A combination of elements from multiple genre categories
+  - A genre that only serious readers enjoy
+  - A simplified version of a major genre
+  answer: 1
+  explanation: The core idea states that 'subgenres combine elements from multiple categories,' with examples like 'paranormal romance blends fantasy and romance; hardboiled mystery blends mystery and noir,' showing subgenres as hybrid forms.
+
+- question: A single work can occupy only one genre category at a time.
+  type: true-false
+  answer: false
+  explanation: The core idea explicitly states that 'a single work may occupy multiple genre categories simultaneously,' giving paranormal romance and hardboiled mystery as examples.
+
+- question: Subgenres evolve as reader expectations shift and new combinations become popular.
+  type: true-false
+  answer: true
+  explanation: The core idea states that subgenres 'evolve as reader expectations shift,' indicating that genre classifications are dynamic and responsive to changing reader communities.
+
+- question: Why might multiple overlapping taxonomy systems be necessary for genre fiction classification? What advantage do different classification systems provide?
+  type: short-answer
+  explanation: A good answer should recognize that a work might be categorized by its narrative structure (mystery vs. romance), by its setting (historical vs. contemporary), or by its atmosphere (noir vs. comic), and that these different ways of organizing might serve different purposes. Students should understand that flexible taxonomy allows more nuanced description of complex works and accommodates hybrid forms that don't fit neatly into single categories.
 ```
 
 ## Explainer

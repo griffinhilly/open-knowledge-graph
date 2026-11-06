@@ -37,35 +37,40 @@ Pick a story and list the major events of the middle section in order. For each 
 ## Questions
 
 ```yaml
-- question: "In a story about a student trying to raise their grades, the rising action includes: the student starts studying, a friend invites them to party, the student goes anyway and misses an exam, the teacher offers a makeup test, the student has a health crisis. Which events are most important to the rising action?"
+- question: 'In a story about a student trying to raise their grades, the rising action includes: the student starts studying, a friend invites them to party, the student goes anyway and misses an exam, the teacher offers a makeup test, the student has a health crisis. Which events are most important to the rising action?'
+  type: multiple-choice
   options:
-    - "All events are equally important"
-    - "Only the studying event matters because the goal is raising grades"
-    - "Events that complicate the student's goal and raise stakes: friend's invitation, missing the exam, health crisis. These escalate the difficulty"
-    - "Only events where the student studies"
+  - All events are equally important
+  - Only the studying event matters because the goal is raising grades
+  - 'Events that complicate the student''s goal and raise stakes: friend''s invitation, missing the exam, health crisis. These escalate the difficulty'
+  - Only events where the student studies
   answer: 2
-  explanation: "Rising action selects events strategically—those that complicate the situation and raise stakes. Studying alone doesn't build tension. Events that create obstacles (temptation, missed test, health problem) escalate the challenge and keep readers wondering if the student will succeed."
+  explanation: Rising action selects events strategically—those that complicate the situation and raise stakes. Studying alone doesn't build tension. Events that create obstacles (temptation, missed test, health problem) escalate the challenge and keep readers wondering if the student will succeed.
 
-- question: "A horror story has a slow, quiet first section where characters are introduced. Then the rising action accelerates: strange sounds at night, an intruder is glimpsed, the power goes out, one character is injured. Why might an author arrange events this way?"
+- question: 'A horror story has a slow, quiet first section where characters are introduced. Then the rising action accelerates: strange sounds at night, an intruder is glimpsed, the power goes out, one character is injured. Why might an author arrange events this way?'
+  type: multiple-choice
   options:
-    - "To bore readers in the beginning and excite them later"
-    - "To establish normalcy first, then escalate danger and tension, building suspense toward the climax"
-    - "Because events must happen in order of importance"
-    - "To confuse readers about what's happening"
+  - To bore readers in the beginning and excite them later
+  - To establish normalcy first, then escalate danger and tension, building suspense toward the climax
+  - Because events must happen in order of importance
+  - To confuse readers about what's happening
   answer: 1
-  explanation: "Rising action builds toward climax. Starting with relative calm and escalating danger creates contrast and increases tension. Each event raises stakes: sounds are creepy, intruders are threatening, power loss is isolating, injury is real harm. This escalation is what makes rising action work."
+  explanation: 'Rising action builds toward climax. Starting with relative calm and escalating danger creates contrast and increases tension. Each event raises stakes: sounds are creepy, intruders are threatening, power loss is isolating, injury is real harm. This escalation is what makes rising action work.'
 
-- question: "True or False: Rising action must be very fast-paced and action-packed to work well."
+- question: 'True or False: Rising action must be very fast-paced and action-packed to work well.'
+  type: true-false
   answer: false
-  explanation: "Rising action builds tension, but it doesn't require constant action. A slowly unfolding mystery builds tension through uncertainty. A relationship drama builds tension through emotional complications. Pacing varies, but overall arc moves toward climax by escalating stakes or deepening conflict."
+  explanation: Rising action builds tension, but it doesn't require constant action. A slowly unfolding mystery builds tension through uncertainty. A relationship drama builds tension through emotional complications. Pacing varies, but overall arc moves toward climax by escalating stakes or deepening conflict.
 
-- question: "True or False: Every event in rising action must move the plot closer to the climax."
+- question: 'True or False: Every event in rising action must move the plot closer to the climax.'
+  type: true-false
   answer: true
-  explanation: "Rising action consists of events that develop the central conflict and move toward the climax. Unrelated subplots or random events that don't contribute to rising tension are typically not part of true rising action—they're distractions from the main arc."
+  explanation: Rising action consists of events that develop the central conflict and move toward the climax. Unrelated subplots or random events that don't contribute to rising tension are typically not part of true rising action—they're distractions from the main arc.
 
-- question: "Analyze the rising action in a story you know: What are three major events, and how does each escalate tension or complicate the protagonist's situation? How do these events work together to build toward the climax?"
-  answer: "A strong answer identifies three events, shows how each raises stakes or deepens conflict, and explains how they work together. For example, in a heist story: Event 1 (team assembles, stakes are established), Event 2 (security is revealed to be more complex, obstacle increases), Event 3 (personal conflict among team members, internal complication). Together, they escalate from preparation to difficulty to near-failure, building toward the attempted heist."
-  explanation: "This tests whether students can identify rising action as a structural element—not just any events, but events that strategically escalate tension and deepen conflict toward the climax."
+- question: 'Analyze the rising action in a story you know: What are three major events, and how does each escalate tension or complicate the protagonist''s situation? How do these events work together to build toward the climax?'
+  type: short-answer
+  answer: 'A strong answer identifies three events, shows how each raises stakes or deepens conflict, and explains how they work together. For example, in a heist story: Event 1 (team assembles, stakes are established), Event 2 (security is revealed to be more complex, obstacle increases), Event 3 (personal conflict among team members, internal complication). Together, they escalate from preparation to difficulty to near-failure, building toward the attempted heist.'
+  explanation: This tests whether students can identify rising action as a structural element—not just any events, but events that strategically escalate tension and deepen conflict toward the climax.
 ```
 
 ## Explainer

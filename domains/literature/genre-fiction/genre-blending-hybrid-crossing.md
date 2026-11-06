@@ -22,36 +22,39 @@ Contemporary fiction frequently blends genres, combining conventions from multip
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What is the primary challenge of successful genre blending?"
-    options:
-      - "Combining genres is impossible"
-      - "Balancing expectations from each category while maintaining coherent narrative"
-      - "Using as many genres as possible"
-      - "Abandoning all genre conventions"
-    correct_answer: 1
-    explanation: "The core idea states successful blending 'balances expectations from each category while creating coherent narrative.'"
-  - type: multiple-choice
-    question: "Why has genre blending accelerated in contemporary fiction?"
-    options:
-      - "Readers became less sophisticated about genre"
-      - "Genre conventions disappeared"
-      - "Contemporary readers' sophisticated generic literacy enables expectation management"
-      - "Technology prevents hybrid narratives"
-    correct_answer: 2
-    explanation: "The core idea notes blending 'accelerates with contemporary readers' sophisticated generic literacy,' crediting reader understanding as enabling factor."
-  - type: true-false
-    question: "Genre blending is a new phenomenon without historical precedent."
-    correct_answer: false
-    explanation: "The core idea states genre hybridity 'has long history but accelerates' with contemporary readers, showing blending existed earlier but increases now."
-  - type: true-false
-    question: "Successful genre blending requires balancing the narrative conventions and reader expectations of each constituent genre."
-    correct_answer: true
-    explanation: "The core idea emphasizes successful blending 'balances expectations from each category while creating coherent narrative.'"
-  - type: short-answer
-    question: "How does genre blending depend on readers' generic literacy to succeed?"
-    explanation: "Readers must recognize conventions from each genre to appreciate how the narrative plays with and balances them. Without recognizing genre expectations, blending is invisible. Sophisticated readers recognize subversion, hybrid forms, and balanced expectations—making their literacy essential to genre blending's effect."
+- question: What is the primary challenge of successful genre blending?
+  type: multiple-choice
+  options:
+  - Combining genres is impossible
+  - Balancing expectations from each category while maintaining coherent narrative
+  - Using as many genres as possible
+  - Abandoning all genre conventions
+  answer: 1
+  explanation: The core idea states successful blending 'balances expectations from each category while creating coherent narrative.'
+
+- question: Why has genre blending accelerated in contemporary fiction?
+  type: multiple-choice
+  options:
+  - Readers became less sophisticated about genre
+  - Genre conventions disappeared
+  - Contemporary readers' sophisticated generic literacy enables expectation management
+  - Technology prevents hybrid narratives
+  answer: 2
+  explanation: The core idea notes blending 'accelerates with contemporary readers' sophisticated generic literacy,' crediting reader understanding as enabling factor.
+
+- question: Genre blending is a new phenomenon without historical precedent.
+  type: true-false
+  answer: false
+  explanation: The core idea states genre hybridity 'has long history but accelerates' with contemporary readers, showing blending existed earlier but increases now.
+
+- question: Successful genre blending requires balancing the narrative conventions and reader expectations of each constituent genre.
+  type: true-false
+  answer: true
+  explanation: The core idea emphasizes successful blending 'balances expectations from each category while creating coherent narrative.'
+
+- question: How does genre blending depend on readers' generic literacy to succeed?
+  type: short-answer
+  explanation: Readers must recognize conventions from each genre to appreciate how the narrative plays with and balances them. Without recognizing genre expectations, blending is invisible. Sophisticated readers recognize subversion, hybrid forms, and balanced expectations—making their literacy essential to genre blending's effect.
 ```
 
 ## Explainer

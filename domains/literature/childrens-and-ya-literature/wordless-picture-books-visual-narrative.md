@@ -30,35 +30,39 @@ Analyze wordless books like 'Journey' by Aaron Becker, studying visual compositi
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What narrative advantage does a wordless picture book offer that text-based narratives might not?"
-    options:
-      - "Wordless books are inherently inferior to text-based narratives"
-      - "Wordless books require active reader interpretation and meaning-making from visual information alone, creating a uniquely engaging reading experience where readers must 'read' composition, color, perspective, and sequencing"
-      - "There is no advantage to removing text"
-      - "Wordless books are only for babies"
-    answer: 1
-    explanation: "By removing text entirely, wordless books require readers to construct narrative from visual elements, engaging interpretive skills and creating active meaning-making that differs from text-guided interpretation."
-  - question: "How does composition and page design function as narrative language in wordless books?"
-    options:
-      - "Composition serves no narrative purpose"
-      - "Through panel size/placement, perspective shifts, color changes, and visual emphasis, wordless books guide attention, establish mood, convey emotion, and direct narrative interpretation just as textual cues would"
-      - "Visual elements are purely decorative"
-      - "Composition and design are unrelated to narrative"
-    answer: 1
-    explanation: "In wordless books, visual composition becomes the primary narrative language. A character's size or position, color saturation, perspective shifts, and page layout all function to convey narrative meaning and guide interpretation."
+- question: What narrative advantage does a wordless picture book offer that text-based narratives might not?
+  type: multiple-choice
+  options:
+  - Wordless books are inherently inferior to text-based narratives
+  - Wordless books require active reader interpretation and meaning-making from visual information alone, creating a uniquely engaging reading experience where readers must 'read' composition, color, perspective, and sequencing
+  - There is no advantage to removing text
+  - Wordless books are only for babies
+  answer: 1
+  explanation: By removing text entirely, wordless books require readers to construct narrative from visual elements, engaging interpretive skills and creating active meaning-making that differs from text-guided interpretation.
 
-true-false:
-  - question: "True or False: Wordless picture books are less complex or sophisticated than books with text."
-    answer: false
-    explanation: "False. Wordless books can achieve significant narrative complexity and emotional depth through purely visual means. The absence of text is not a limitation but a different approach to storytelling."
-  - question: "True or False: A reader of wordless books must actively interpret and construct meaning rather than passively receiving a narrator's guidance."
-    answer: true
-    explanation: "True. Without text to explain or describe, readers must actively 'read' visual elements and construct narrative meaning, creating a different engagement with the story."
+- question: How does composition and page design function as narrative language in wordless books?
+  type: multiple-choice
+  options:
+  - Composition serves no narrative purpose
+  - Through panel size/placement, perspective shifts, color changes, and visual emphasis, wordless books guide attention, establish mood, convey emotion, and direct narrative interpretation just as textual cues would
+  - Visual elements are purely decorative
+  - Composition and design are unrelated to narrative
+  answer: 1
+  explanation: In wordless books, visual composition becomes the primary narrative language. A character's size or position, color saturation, perspective shifts, and page layout all function to convey narrative meaning and guide interpretation.
 
-short-answer:
-  - question: "Analyze a wordless picture book you know well, identifying how visual composition, color, and sequencing create narrative meaning without words."
-    explanation: "Your answer should identify specific visual techniques that convey narrative. For example, in 'Journey,' Aaron Becker uses visual perspective, color saturation, and landscape composition to convey the protagonist's emotional journey—the initial gray and muted world gradually transforms into vibrant color and detail as the character progresses. Panel size and character positioning guide the reader's attention and convey importance. A character's size relative to the environment conveys psychological states—smallness against vast landscape conveys isolation or awe; growing larger relative to environment conveys increasing agency or confidence. Spatial arrangement across the page shows relationships and movement. The point is recognizing that visual elements carry full narrative weight—readers 'read' composition, color, perspective, and sequencing just as they would read words, but the interpretation is less guided and more collaborative between reader and visual text."
+- question: 'True or False: Wordless picture books are less complex or sophisticated than books with text.'
+  type: true-false
+  answer: false
+  explanation: False. Wordless books can achieve significant narrative complexity and emotional depth through purely visual means. The absence of text is not a limitation but a different approach to storytelling.
+
+- question: 'True or False: A reader of wordless books must actively interpret and construct meaning rather than passively receiving a narrator''s guidance.'
+  type: true-false
+  answer: true
+  explanation: True. Without text to explain or describe, readers must actively 'read' visual elements and construct narrative meaning, creating a different engagement with the story.
+
+- question: Analyze a wordless picture book you know well, identifying how visual composition, color, and sequencing create narrative meaning without words.
+  type: short-answer
+  explanation: Your answer should identify specific visual techniques that convey narrative. For example, in 'Journey,' Aaron Becker uses visual perspective, color saturation, and landscape composition to convey the protagonist's emotional journey—the initial gray and muted world gradually transforms into vibrant color and detail as the character progresses. Panel size and character positioning guide the reader's attention and convey importance. A character's size relative to the environment conveys psychological states—smallness against vast landscape conveys isolation or awe; growing larger relative to environment conveys increasing agency or confidence. Spatial arrangement across the page shows relationships and movement. The point is recognizing that visual elements carry full narrative weight—readers 'read' composition, color, perspective, and sequencing just as they would read words, but the interpretation is less guided and more collaborative between reader and visual text.
 ```
 
 ## Explainer

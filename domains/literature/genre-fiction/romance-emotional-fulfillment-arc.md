@@ -23,36 +23,39 @@ Romance fiction centers on developing romantic relationships, typically ending i
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What does romance fiction prioritize above other narrative elements?"
-    options:
-      - "Physical action and combat sequences"
-      - "Worldbuilding and setting description"
-      - "Emotional authenticity and intimate relationship complexity"
-      - "Plot twists and surprise endings"
-    correct_answer: 2
-    explanation: "The core idea explicitly states that 'romance prioritizes emotional authenticity and intimate relationship complexity,' making emotional depth the primary focus rather than external plot elements."
-  - type: multiple-choice
-    question: "What is the typical ending expectation for romance fiction?"
-    options:
-      - "The protagonist dies to save others"
-      - "The romantic relationship ends in commitment or emotional resolution"
-      - "The romantic partnership dissolves due to incompatibility"
-      - "The romantic elements are abandoned in favor of action"
-    correct_answer: 1
-    explanation: "The core idea states that romance fiction is 'typically ending in commitment or emotional resolution,' establishing a core expectation about how romantic arcs conclude."
-  - type: true-false
-    question: "Contemporary romance fiction still exclusively ends in marriage as the only acceptable resolution."
-    correct_answer: false
-    explanation: "The core idea notes that 'while romance traditionally ended in marriage, contemporary romance encompasses diverse relationship structures and orientations,' showing how the genre has evolved."
-  - type: true-false
-    question: "The emotional journey of the romantic relationship is more important in romance fiction than external plot complications."
-    correct_answer: true
-    explanation: "The core idea's emphasis on 'emotional authenticity and intimate relationship complexity' indicates that the internal emotional arc takes priority over external narrative complications."
-  - type: short-answer
-    question: "How does contemporary romance differ from traditional romance in terms of relationship outcomes?"
-    explanation: "A strong answer should explain that contemporary romance has expanded beyond marriage as the only acceptable ending to include various relationship structures and orientations. Students should demonstrate understanding that the evolution reflects changing social values and broadened definitions of commitment and fulfillment."
+- question: What does romance fiction prioritize above other narrative elements?
+  type: multiple-choice
+  options:
+  - Physical action and combat sequences
+  - Worldbuilding and setting description
+  - Emotional authenticity and intimate relationship complexity
+  - Plot twists and surprise endings
+  answer: 2
+  explanation: The core idea explicitly states that 'romance prioritizes emotional authenticity and intimate relationship complexity,' making emotional depth the primary focus rather than external plot elements.
+
+- question: What is the typical ending expectation for romance fiction?
+  type: multiple-choice
+  options:
+  - The protagonist dies to save others
+  - The romantic relationship ends in commitment or emotional resolution
+  - The romantic partnership dissolves due to incompatibility
+  - The romantic elements are abandoned in favor of action
+  answer: 1
+  explanation: The core idea states that romance fiction is 'typically ending in commitment or emotional resolution,' establishing a core expectation about how romantic arcs conclude.
+
+- question: Contemporary romance fiction still exclusively ends in marriage as the only acceptable resolution.
+  type: true-false
+  answer: false
+  explanation: The core idea notes that 'while romance traditionally ended in marriage, contemporary romance encompasses diverse relationship structures and orientations,' showing how the genre has evolved.
+
+- question: The emotional journey of the romantic relationship is more important in romance fiction than external plot complications.
+  type: true-false
+  answer: true
+  explanation: The core idea's emphasis on 'emotional authenticity and intimate relationship complexity' indicates that the internal emotional arc takes priority over external narrative complications.
+
+- question: How does contemporary romance differ from traditional romance in terms of relationship outcomes?
+  type: short-answer
+  explanation: A strong answer should explain that contemporary romance has expanded beyond marriage as the only acceptable ending to include various relationship structures and orientations. Students should demonstrate understanding that the evolution reflects changing social values and broadened definitions of commitment and fulfillment.
 ```
 
 ## Explainer

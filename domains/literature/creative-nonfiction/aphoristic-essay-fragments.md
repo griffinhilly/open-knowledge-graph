@@ -25,39 +25,39 @@ Aphoristic nonfiction uses short, pithy statements to convey ideas with economy 
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What is the primary advantage of using aphoristic form over continuous narrative in nonfiction?"
+- question: What is the primary advantage of using aphoristic form over continuous narrative in nonfiction?
+  type: multiple-choice
   options:
-    - "It allows readers to skip sections they find difficult."
-    - "It transfers the interpretive burden to readers, making them active participants in meaning-making."
-    - "It eliminates the need for the writer to develop coherent arguments."
-    - "It guarantees that readers will understand all intended meanings."
+  - It allows readers to skip sections they find difficult.
+  - It transfers the interpretive burden to readers, making them active participants in meaning-making.
+  - It eliminates the need for the writer to develop coherent arguments.
+  - It guarantees that readers will understand all intended meanings.
   answer: 1
-  explanation: "Aphoristic form creates gaps between statements, requiring readers to find connections and complete thoughts themselves. This makes reading an active process rather than passive reception. While it may be more economical, it doesn't skip over difficulty; it shifts responsibility for interpretation. And successful aphoristic writing still requires coherent underlying logic."
+  explanation: Aphoristic form creates gaps between statements, requiring readers to find connections and complete thoughts themselves. This makes reading an active process rather than passive reception. While it may be more economical, it doesn't skip over difficulty; it shifts responsibility for interpretation. And successful aphoristic writing still requires coherent underlying logic.
 
-- type: multiple-choice
-  question: "Which of these best describes why aphoristic writing 'forgo[es] narrative or extended argument'?"
+- question: Which of these best describes why aphoristic writing 'forgo[es] narrative or extended argument'?
+  type: multiple-choice
   options:
-    - "The writer lacks sufficient ideas to develop them fully."
-    - "It relies on the power of isolated observations to stand alone and provoke thought without connective tissue."
-    - "Narrative and argument are inherently less intellectually sophisticated than fragments."
-    - "Modern readers prefer short sentences and reject traditional forms."
+  - The writer lacks sufficient ideas to develop them fully.
+  - It relies on the power of isolated observations to stand alone and provoke thought without connective tissue.
+  - Narrative and argument are inherently less intellectually sophisticated than fragments.
+  - Modern readers prefer short sentences and reject traditional forms.
   answer: 1
-  explanation: "Aphoristic writing is a deliberate aesthetic choice to emphasize the force of individual observations. The gaps between aphorisms are not failures to connect ideas but intentional spaces where readers must think. Accomplished writers choose this form—it's not a limitation but a strategy. Contemporary preference for brevity is separate from the literary tradition of aphorisms."
+  explanation: Aphoristic writing is a deliberate aesthetic choice to emphasize the force of individual observations. The gaps between aphorisms are not failures to connect ideas but intentional spaces where readers must think. Accomplished writers choose this form—it's not a limitation but a strategy. Contemporary preference for brevity is separate from the literary tradition of aphorisms.
 
-- type: true-false
-  statement: "True: Aphoristic nonfiction requires that readers bring their own knowledge and experience to complete the meaning between fragments."
+- question: 'True: Aphoristic nonfiction requires that readers bring their own knowledge and experience to complete the meaning between fragments.'
+  type: true-false
   answer: true
-  explanation: "This is central to aphoristic form. By leaving gaps, aphorisms invite reader participation. Different readers will forge different connections based on their background, making interpretation active and personal. The writer provides the fragments; readers construct meaning."
+  explanation: This is central to aphoristic form. By leaving gaps, aphorisms invite reader participation. Different readers will forge different connections based on their background, making interpretation active and personal. The writer provides the fragments; readers construct meaning.
 
-- type: true-false
-  statement: "False: Aphoristic writing eliminates the need for any underlying logical structure, as individual aphorisms are completely independent of one another."
+- question: 'False: Aphoristic writing eliminates the need for any underlying logical structure, as individual aphorisms are completely independent of one another.'
+  type: true-false
   answer: false
-  explanation: "While aphorisms may appear standalone, effective aphoristic collections usually have thematic coherence and cumulative logic. The reader's task is to discover these connections rather than have them explained. The structure is implicit rather than explicit—still present, still purposeful."
+  explanation: While aphorisms may appear standalone, effective aphoristic collections usually have thematic coherence and cumulative logic. The reader's task is to discover these connections rather than have them explained. The structure is implicit rather than explicit—still present, still purposeful.
 
-- type: short-answer
-  question: "Give an example of how an aphoristic essay might explore a single concept (such as friendship or failure) differently than a traditional discursive essay would. What is gained and what is lost?"
-  explanation: "An aphoristic approach might offer multiple angles, contradictions, and observations about friendship without resolving them into a unified thesis. This gains freshness, provokes reflection, and mirrors the contradictory nature of actual experience. It loses clarity of argument and comprehensive coverage. For instance, an aphoristic piece might state 'Friendship requires difference, not similarity' followed by 'Friendship is easiest with those who share your fundamental values'—leaving the reader to think through the tension. A discursive essay would attempt to reconcile this contradiction. The aphoristic form trusts readers' sophistication."
+- question: Give an example of how an aphoristic essay might explore a single concept (such as friendship or failure) differently than a traditional discursive essay would. What is gained and what is lost?
+  type: short-answer
+  explanation: An aphoristic approach might offer multiple angles, contradictions, and observations about friendship without resolving them into a unified thesis. This gains freshness, provokes reflection, and mirrors the contradictory nature of actual experience. It loses clarity of argument and comprehensive coverage. For instance, an aphoristic piece might state 'Friendship requires difference, not similarity' followed by 'Friendship is easiest with those who share your fundamental values'—leaving the reader to think through the tension. A discursive essay would attempt to reconcile this contradiction. The aphoristic form trusts readers' sophistication.
 ```
 
 ## Explainer

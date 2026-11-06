@@ -32,39 +32,39 @@ Mo Yan's magical elements are not fantasy escape but formal strategies for repre
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "How do Mo Yan's 'grotesque sensuality' and 'magical elements' function as formal strategies rather than mere fantasy?"
+- question: How do Mo Yan's 'grotesque sensuality' and 'magical elements' function as formal strategies rather than mere fantasy?
+  type: multiple-choice
   options:
-    - "They provide entertainment without meaning"
-    - "They represent psychological states and historical trauma that linear realism cannot adequately convey"
-    - "Grotesque and magical are separate from serious meaning"
-    - "These elements indicate author's inexperience"
+  - They provide entertainment without meaning
+  - They represent psychological states and historical trauma that linear realism cannot adequately convey
+  - Grotesque and magical are separate from serious meaning
+  - These elements indicate author's inexperience
   answer: 1
-  explanation: "Mo Yan recognizes that Chinese history—particularly the Cultural Revolution and its aftermath—involves trauma so extreme that realistic narrative feels inadequate. Grotesqueness and magical elements permit representation of psychological extremity and historical violence. A grotesquely bodily description of violence conveys the assault on dignity and humanity more powerfully than realistic description could. A magical element allows representation of how history disrupts ordinary reality. By employing these formal strategies, Mo Yan represents the Real of history—what exceeds linguistic and representational capacity. The sensory richness draws readers into visceral experience of historical trauma. The magical realism allows simultaneous existence of rational and irrational elements, mirroring how individuals experience historical chaos."
+  explanation: Mo Yan recognizes that Chinese history—particularly the Cultural Revolution and its aftermath—involves trauma so extreme that realistic narrative feels inadequate. Grotesqueness and magical elements permit representation of psychological extremity and historical violence. A grotesquely bodily description of violence conveys the assault on dignity and humanity more powerfully than realistic description could. A magical element allows representation of how history disrupts ordinary reality. By employing these formal strategies, Mo Yan represents the Real of history—what exceeds linguistic and representational capacity. The sensory richness draws readers into visceral experience of historical trauma. The magical realism allows simultaneous existence of rational and irrational elements, mirroring how individuals experience historical chaos.
 
-- type: multiple-choice
-  question: "What does Mo Yan achieve through 'narrative fragmentation' and 'multiple narrative frames'?"
+- question: What does Mo Yan achieve through 'narrative fragmentation' and 'multiple narrative frames'?
+  type: multiple-choice
   options:
-    - "Fragmentation makes the novel harder to follow without adding meaning"
-    - "Multiple frames allow different perspectives on historical events and prevent unified interpretation, reflecting complexity of historical truth"
-    - "Only linear narrative can represent history accurately"
-    - "Narrative technique is unrelated to historical representation"
+  - Fragmentation makes the novel harder to follow without adding meaning
+  - Multiple frames allow different perspectives on historical events and prevent unified interpretation, reflecting complexity of historical truth
+  - Only linear narrative can represent history accurately
+  - Narrative technique is unrelated to historical representation
   answer: 1
-  explanation: "Linear narrative implies historical causality and coherence—events lead naturally to consequences, history progresses intelligibly. But complex historical trauma—political violence, cultural destruction, moral ambiguity—resists linear representation. Multiple narrative frames and fragmentation allow Mo Yan to present contradictory accounts, different perspectives, competing interpretations. No single frame contains truth; instead, truth emerges from tension between frames. This formal strategy represents historical reality more honestly than linear narrative could: history is confusing, interpretations compete, meaning is contested. By refusing narrative unity, Mo Yan insists on acknowledging the complexity and ambiguity that historical trauma involves."
+  explanation: 'Linear narrative implies historical causality and coherence—events lead naturally to consequences, history progresses intelligibly. But complex historical trauma—political violence, cultural destruction, moral ambiguity—resists linear representation. Multiple narrative frames and fragmentation allow Mo Yan to present contradictory accounts, different perspectives, competing interpretations. No single frame contains truth; instead, truth emerges from tension between frames. This formal strategy represents historical reality more honestly than linear narrative could: history is confusing, interpretations compete, meaning is contested. By refusing narrative unity, Mo Yan insists on acknowledging the complexity and ambiguity that historical trauma involves.'
 
-- type: true-false
-  statement: "In Mo Yan's novels, the magical and grotesque elements indicate escape into fantasy, avoiding serious engagement with historical and psychological reality."
+- question: In Mo Yan's novels, the magical and grotesque elements indicate escape into fantasy, avoiding serious engagement with historical and psychological reality.
+  type: true-false
   answer: false
-  explanation: "The opposite is true. Mo Yan employs magical and grotesque elements precisely to engage historical trauma that realism cannot adequately represent. The grotesqueness conveys the assault on human dignity; the magical elements represent the disruption of ordinary reality by historical violence. These formal strategies enable deeper engagement with history and psychology, not evasion of them."
+  explanation: The opposite is true. Mo Yan employs magical and grotesque elements precisely to engage historical trauma that realism cannot adequately represent. The grotesqueness conveys the assault on human dignity; the magical elements represent the disruption of ordinary reality by historical violence. These formal strategies enable deeper engagement with history and psychology, not evasion of them.
 
-- type: true-false
-  statement: "Mo Yan demonstrates that narrative fragmentation, magical realism, and sensory density are formal strategies for representing historical trauma and moral complexity beyond what linear realist narrative can convey."
+- question: Mo Yan demonstrates that narrative fragmentation, magical realism, and sensory density are formal strategies for representing historical trauma and moral complexity beyond what linear realist narrative can convey.
+  type: true-false
   answer: true
-  explanation: "This correctly identifies how Mo Yan's formal complexity serves philosophical and historical purposes. Rather than complicating meaning unnecessarily, his formal innovations allow representation of historical experience that realism cannot adequately express."
+  explanation: This correctly identifies how Mo Yan's formal complexity serves philosophical and historical purposes. Rather than complicating meaning unnecessarily, his formal innovations allow representation of historical experience that realism cannot adequately express.
 
-- type: short-answer
-  question: "Explain how Mo Yan's synthesis of 'magical realism, narrative fragmentation, and bodily excess' creates form capable of representing 'historical trauma and moral ambiguity' that linear realism cannot convey."
-  explanation: "Historical trauma—particularly political violence and cultural destruction—disrupts linear narrative. Causality breaks down, meaning becomes ambiguous, individuals are overwhelmed by forces exceeding comprehension. Magical realism permits simultaneous existence of rational and irrational elements, reflecting how consciousness experiences historical trauma. Narrative fragmentation prevents false unity: by presenting multiple frames and contradictory accounts, Mo Yan represents how historical truth is contested and complex. Bodily excess—grotesque descriptions of violence, sensory immersion—conveys the assault on human dignity and the violation of bodies that violence entails. These formal strategies work together: the magical elements prevent readers from retreating into rational distance, the fragmentation prevents false closure, the bodily excess forces visceral engagement. Together, they create form adequate to representing historical trauma in its actual complexity—not resolved, not explained, but enacted through the reader's experience of formal difficulty and sensory overwhelm. This demonstrates that complex historical truth requires complex formal response."
+- question: Explain how Mo Yan's synthesis of 'magical realism, narrative fragmentation, and bodily excess' creates form capable of representing 'historical trauma and moral ambiguity' that linear realism cannot convey.
+  type: short-answer
+  explanation: 'Historical trauma—particularly political violence and cultural destruction—disrupts linear narrative. Causality breaks down, meaning becomes ambiguous, individuals are overwhelmed by forces exceeding comprehension. Magical realism permits simultaneous existence of rational and irrational elements, reflecting how consciousness experiences historical trauma. Narrative fragmentation prevents false unity: by presenting multiple frames and contradictory accounts, Mo Yan represents how historical truth is contested and complex. Bodily excess—grotesque descriptions of violence, sensory immersion—conveys the assault on human dignity and the violation of bodies that violence entails. These formal strategies work together: the magical elements prevent readers from retreating into rational distance, the fragmentation prevents false closure, the bodily excess forces visceral engagement. Together, they create form adequate to representing historical trauma in its actual complexity—not resolved, not explained, but enacted through the reader''s experience of formal difficulty and sensory overwhelm. This demonstrates that complex historical truth requires complex formal response.'
 ```
 
 ## Explainer

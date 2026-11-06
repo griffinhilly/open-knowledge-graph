@@ -33,36 +33,39 @@ Compare a traditional urban fantasy like Jim Butcher's Dresden Files with a cont
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What distinguishes urban fantasy from high fantasy in terms of setting and stakes?"
-    options:
-      - "Urban fantasy features secondary worlds with world-changing conflicts"
-      - "Urban fantasy overlays magical systems onto contemporary cities with lower stakes but deeper engagement with modern institutions"
-      - "Urban fantasy avoids magic entirely in favor of technology"
-      - "Urban fantasy requires extensive worldbuilding of magical systems"
-    correct_answer: 1
-    explanation: "The core idea states that urban fantasy 'overlays magical systems onto contemporary cities' and 'often features lower stakes than high fantasy but deeper engagement with contemporary institutions.'"
-  - type: multiple-choice
-    question: "How does urban fantasy explore the interaction between magic and modern society?"
-    options:
-      - "By keeping magic and mundane society completely separate"
-      - "By ignoring contemporary institutions entirely"
-      - "By exploring how magic operates within modern bureaucracy, technology, and social structures"
-      - "By replacing technology with magical equivalents"
-    correct_answer: 2
-    explanation: "The core idea states that 'urban fantasy explores how magic operates within modern bureaucracy, technology, and social structures,' showing the integration of magical and contemporary systems."
-  - type: true-false
-    question: "Urban fantasy typically features higher stakes and more world-threatening conflicts than high fantasy."
-    correct_answer: false
-    explanation: "The core idea explicitly states that urban fantasy 'often features lower stakes than high fantasy but deeper engagement with contemporary institutions.'"
-  - type: true-false
-    question: "Urban fantasy engages deeply with contemporary institutions like corporations, law enforcement, and social media."
-    correct_answer: true
-    explanation: "The core idea states that urban fantasy features 'deeper engagement with contemporary institutions, from corporations to law enforcement to social media.'"
-  - type: short-answer
-    question: "How does the magical community's relationship to the mundane world change the stakes and themes in urban fantasy?"
-    explanation: "A strong answer should explain that if magic is secret and hidden from mundanes, themes involve maintaining secrecy and managing the friction between worlds. If magic is public and integrated, themes involve power dynamics and institutional corruption. Students should demonstrate understanding that the degree and nature of magical-mundane interaction fundamentally shapes what kinds of conflicts and themes become possible."
+- question: What distinguishes urban fantasy from high fantasy in terms of setting and stakes?
+  type: multiple-choice
+  options:
+  - Urban fantasy features secondary worlds with world-changing conflicts
+  - Urban fantasy overlays magical systems onto contemporary cities with lower stakes but deeper engagement with modern institutions
+  - Urban fantasy avoids magic entirely in favor of technology
+  - Urban fantasy requires extensive worldbuilding of magical systems
+  answer: 1
+  explanation: The core idea states that urban fantasy 'overlays magical systems onto contemporary cities' and 'often features lower stakes than high fantasy but deeper engagement with contemporary institutions.'
+
+- question: How does urban fantasy explore the interaction between magic and modern society?
+  type: multiple-choice
+  options:
+  - By keeping magic and mundane society completely separate
+  - By ignoring contemporary institutions entirely
+  - By exploring how magic operates within modern bureaucracy, technology, and social structures
+  - By replacing technology with magical equivalents
+  answer: 2
+  explanation: The core idea states that 'urban fantasy explores how magic operates within modern bureaucracy, technology, and social structures,' showing the integration of magical and contemporary systems.
+
+- question: Urban fantasy typically features higher stakes and more world-threatening conflicts than high fantasy.
+  type: true-false
+  answer: false
+  explanation: The core idea explicitly states that urban fantasy 'often features lower stakes than high fantasy but deeper engagement with contemporary institutions.'
+
+- question: Urban fantasy engages deeply with contemporary institutions like corporations, law enforcement, and social media.
+  type: true-false
+  answer: true
+  explanation: The core idea states that urban fantasy features 'deeper engagement with contemporary institutions, from corporations to law enforcement to social media.'
+
+- question: How does the magical community's relationship to the mundane world change the stakes and themes in urban fantasy?
+  type: short-answer
+  explanation: A strong answer should explain that if magic is secret and hidden from mundanes, themes involve maintaining secrecy and managing the friction between worlds. If magic is public and integrated, themes involve power dynamics and institutional corruption. Students should demonstrate understanding that the degree and nature of magical-mundane interaction fundamentally shapes what kinds of conflicts and themes become possible.
 ```
 
 ## Explainer

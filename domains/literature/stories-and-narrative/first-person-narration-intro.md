@@ -32,35 +32,40 @@ Read a first-person narrative and notice: What does this perspective reveal that
 ## Questions
 
 ```yaml
-- question: "A story opens with a first-person narrator: 'I've always been the smartest person in any room. I never make mistakes.' Throughout the novel, the narrator repeatedly fails to understand what's happening around them, makes poor choices, and misreads other characters. What is the author doing?"
+- question: 'A story opens with a first-person narrator: ''I''ve always been the smartest person in any room. I never make mistakes.'' Throughout the novel, the narrator repeatedly fails to understand what''s happening around them, makes poor choices, and misreads other characters. What is the author doing?'
+  type: multiple-choice
   options:
-    - "The author is bad at writing because the narrator contradicts themselves"
-    - "The author is deliberately revealing that the narrator is unreliable. The narrator believes they're intelligent and infallible, but their actions contradict this. Readers see the gap between the narrator's self-perception and reality"
-    - "The narrator is definitely intelligent"
-    - "First-person narration can't show unreliability"
+  - The author is bad at writing because the narrator contradicts themselves
+  - The author is deliberately revealing that the narrator is unreliable. The narrator believes they're intelligent and infallible, but their actions contradict this. Readers see the gap between the narrator's self-perception and reality
+  - The narrator is definitely intelligent
+  - First-person narration can't show unreliability
   answer: 1
-  explanation: "First-person narrators are characters with blind spots, biases, and limitations. A narrator who believes they're perfect but demonstrates otherwise is an unreliable narrator. First-person creates intimacy with the narrator's perspective, but that perspective can be distorted. Skilled authors exploit this to reveal character through the gap between the narrator's self-image and reality."
+  explanation: First-person narrators are characters with blind spots, biases, and limitations. A narrator who believes they're perfect but demonstrates otherwise is an unreliable narrator. First-person creates intimacy with the narrator's perspective, but that perspective can be distorted. Skilled authors exploit this to reveal character through the gap between the narrator's self-image and reality.
 
-- question: "A first-person narrator says: 'I never saw my father cry, so I concluded he had no emotions. Years later, I found his diary in which he wrote about his deep loneliness and pain.' What does this scene demonstrate about first-person narration?"
+- question: 'A first-person narrator says: ''I never saw my father cry, so I concluded he had no emotions. Years later, I found his diary in which he wrote about his deep loneliness and pain.'' What does this scene demonstrate about first-person narration?'
+  type: multiple-choice
   options:
-    - "First-person narration shows the truth of all situations"
-    - "First-person narration is limited to what the narrator has witnessed or knows. The narrator made an assumption based on incomplete information. The diary reveals what the narrator was missing. This illustrates that first-person creates powerful intimacy, but also significant limitations"
-    - "Diaries are unreliable"
-    - "The narrator's original conclusion was correct"
+  - First-person narration shows the truth of all situations
+  - First-person narration is limited to what the narrator has witnessed or knows. The narrator made an assumption based on incomplete information. The diary reveals what the narrator was missing. This illustrates that first-person creates powerful intimacy, but also significant limitations
+  - Diaries are unreliable
+  - The narrator's original conclusion was correct
   answer: 1
-  explanation: "First-person creates intimacy and psychological depth, but it also creates inevitable blindness. Narrators can't know what they haven't witnessed, and they interpret events through their own psychology. This limitation is a feature, not a flaw—it mirrors how humans actually experience life."
+  explanation: First-person creates intimacy and psychological depth, but it also creates inevitable blindness. Narrators can't know what they haven't witnessed, and they interpret events through their own psychology. This limitation is a feature, not a flaw—it mirrors how humans actually experience life.
 
-- question: "True or False: When reading a first-person novel, everything the narrator says is true by definition."
+- question: 'True or False: When reading a first-person novel, everything the narrator says is true by definition.'
+  type: true-false
   answer: false
-  explanation: "First-person narrators are unreliable narrators. They can misunderstand, lie, forget, rationalize, or interpret events through their bias. Readers must often read between the lines and question the narrator's account. This is a source of depth and complexity, not confusion."
+  explanation: First-person narrators are unreliable narrators. They can misunderstand, lie, forget, rationalize, or interpret events through their bias. Readers must often read between the lines and question the narrator's account. This is a source of depth and complexity, not confusion.
 
-- question: "True or False: A first-person narrator can tell the reader about events they did not witness but heard about from others."
+- question: 'True or False: A first-person narrator can tell the reader about events they did not witness but heard about from others.'
+  type: true-false
   answer: true
-  explanation: "First-person narrators can relay what others have told them, can report rumors, can speculate about events they didn't witness. However, readers should be aware that this is secondhand or speculative information, filtered through the narrator's understanding. The narrator can be mistaken about information they didn't directly experience."
+  explanation: First-person narrators can relay what others have told them, can report rumors, can speculate about events they didn't witness. However, readers should be aware that this is secondhand or speculative information, filtered through the narrator's understanding. The narrator can be mistaken about information they didn't directly experience.
 
-- question: "A first-person narrator is a child recounting events from childhood. They describe situations they didn't understand at the time—for example, they heard adults arguing but didn't grasp why, or they observed a character's sadness but misinterpreted the cause. What advantage does a child first-person narrator create for storytelling?"
-  answer: "A child narrator creates poignant gaps between innocent misunderstanding and adult knowledge. Readers see events as the child perceived them, then understand what actually happened. This gap creates emotional power—readers feel the child's confusion and innocence, then feel the loss of innocence when understanding comes. It also explores themes about how children's perspectives are limited and how they grow into understanding. The child's misinterpretations reveal what children notice and what they miss—their priorities and blind spots."
-  explanation: "This tests understanding that first-person limitations are a storytelling tool, not a weakness. By choosing a limited narrator (a child, an unreliable character, someone with incomplete information), authors create specific emotional and thematic effects. The limitation is intentional and meaningful."
+- question: A first-person narrator is a child recounting events from childhood. They describe situations they didn't understand at the time—for example, they heard adults arguing but didn't grasp why, or they observed a character's sadness but misinterpreted the cause. What advantage does a child first-person narrator create for storytelling?
+  type: short-answer
+  answer: A child narrator creates poignant gaps between innocent misunderstanding and adult knowledge. Readers see events as the child perceived them, then understand what actually happened. This gap creates emotional power—readers feel the child's confusion and innocence, then feel the loss of innocence when understanding comes. It also explores themes about how children's perspectives are limited and how they grow into understanding. The child's misinterpretations reveal what children notice and what they miss—their priorities and blind spots.
+  explanation: This tests understanding that first-person limitations are a storytelling tool, not a weakness. By choosing a limited narrator (a child, an unreliable character, someone with incomplete information), authors create specific emotional and thematic effects. The limitation is intentional and meaningful.
 ```
 
 ## Explainer

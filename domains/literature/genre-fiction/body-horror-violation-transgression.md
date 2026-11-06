@@ -25,36 +25,39 @@ Body horror depicts bodily violation, mutation, and dissolution as horrifying. T
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What is a primary anxiety that body horror narratives explore?"
-    options:
-      - "Anxiety about financial stability"
-      - "Anxiety about bodily autonomy and violation of physical boundaries"
-      - "Anxiety about social status and peer acceptance"
-      - "Anxiety about romantic rejection"
-    correct_answer: 1
-    explanation: "The core idea explicitly lists anxieties that body horror explores: 'anxieties about bodily autonomy, medical intrusion, parasitic infestation, and the boundaries between self and other.' These all center on violation of bodily autonomy and boundaries."
-  - type: multiple-choice
-    question: "What is the relationship between literal bodily violation and metaphorical meaning in body horror?"
-    options:
-      - "Metaphor and literal horror are always separate in body horror"
-      - "Body horror can function as social metaphor (infection as contagion of ideas) while also being experienced as literal horror"
-      - "Body horror must choose between literal and metaphorical meaning, not both"
-      - "Metaphorical significance always supersedes literal physical description in body horror"
-    correct_answer: 1
-    explanation: "The core idea states that body horror 'can function as social metaphor (infection as contagion of ideas, mutation as deviation from norms) or as literal nightmare,' indicating these can coexist within the same narrative."
-  - type: true-false
-    question: "Body horror typically emphasizes psychological complexity and internal character development over visceral physical description."
-    correct_answer: false
-    explanation: "The core idea explicitly states that body horror 'often foregrounds the visceral experience of horror rather than psychological complexity,' indicating that physical sensation takes priority."
-  - type: true-false
-    question: "The boundary between self and other is a key concern in body horror, particularly regarding how the body can be invaded, occupied, or transformed."
-    correct_answer: true
-    explanation: "The core idea lists 'boundaries between self and other' as an anxiety explored by body horror, and mentions parasitic infestation and medical intrusion—both ways the boundaries between self and other are violated."
-  - type: short-answer
-    question: "How does body horror's focus on visceral experience over psychological complexity serve its thematic purposes?"
-    explanation: "Good answers should explain that foregrounding physical sensation creates immediate, embodied understanding of violation and autonomy loss. By forcing readers to imaginatively experience bodily invasion and mutation, the visceral focus makes abstract anxieties about autonomy and boundaries concrete. This bypasses intellectual defenses and generates genuine discomfort, which is the point—the reader experiences something of what the character experiences."
+- question: What is a primary anxiety that body horror narratives explore?
+  type: multiple-choice
+  options:
+  - Anxiety about financial stability
+  - Anxiety about bodily autonomy and violation of physical boundaries
+  - Anxiety about social status and peer acceptance
+  - Anxiety about romantic rejection
+  answer: 1
+  explanation: 'The core idea explicitly lists anxieties that body horror explores: ''anxieties about bodily autonomy, medical intrusion, parasitic infestation, and the boundaries between self and other.'' These all center on violation of bodily autonomy and boundaries.'
+
+- question: What is the relationship between literal bodily violation and metaphorical meaning in body horror?
+  type: multiple-choice
+  options:
+  - Metaphor and literal horror are always separate in body horror
+  - Body horror can function as social metaphor (infection as contagion of ideas) while also being experienced as literal horror
+  - Body horror must choose between literal and metaphorical meaning, not both
+  - Metaphorical significance always supersedes literal physical description in body horror
+  answer: 1
+  explanation: The core idea states that body horror 'can function as social metaphor (infection as contagion of ideas, mutation as deviation from norms) or as literal nightmare,' indicating these can coexist within the same narrative.
+
+- question: Body horror typically emphasizes psychological complexity and internal character development over visceral physical description.
+  type: true-false
+  answer: false
+  explanation: The core idea explicitly states that body horror 'often foregrounds the visceral experience of horror rather than psychological complexity,' indicating that physical sensation takes priority.
+
+- question: The boundary between self and other is a key concern in body horror, particularly regarding how the body can be invaded, occupied, or transformed.
+  type: true-false
+  answer: true
+  explanation: The core idea lists 'boundaries between self and other' as an anxiety explored by body horror, and mentions parasitic infestation and medical intrusion—both ways the boundaries between self and other are violated.
+
+- question: How does body horror's focus on visceral experience over psychological complexity serve its thematic purposes?
+  type: short-answer
+  explanation: Good answers should explain that foregrounding physical sensation creates immediate, embodied understanding of violation and autonomy loss. By forcing readers to imaginatively experience bodily invasion and mutation, the visceral focus makes abstract anxieties about autonomy and boundaries concrete. This bypasses intellectual defenses and generates genuine discomfort, which is the point—the reader experiences something of what the character experiences.
 ```
 
 ## Explainer

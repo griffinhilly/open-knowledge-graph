@@ -32,35 +32,40 @@ Compare dialogue from different characters in the same story. How are their spee
 ## Questions
 
 ```yaml
-- question: "Character A says: 'Indeed, I have considered your proposal with the utmost gravity and found it lacking in logical merit.' Character B says: 'Nah, your idea doesn't make sense to me.' Both characters reject the proposal. What do their different speech patterns reveal?"
+- question: 'Character A says: ''Indeed, I have considered your proposal with the utmost gravity and found it lacking in logical merit.'' Character B says: ''Nah, your idea doesn''t make sense to me.'' Both characters reject the proposal. What do their different speech patterns reveal?'
+  type: multiple-choice
   options:
-    - "They both have the same personality, so the words don't matter"
-    - "Character A uses formal, elaborate language suggesting education, precision, and possibly emotional distance, while Character B uses casual language suggesting informality, directness, and possibly a more emotional or less formal background"
-    - "The dialogue doesn't reveal anything about character"
-    - "Character A is definitely smarter than Character B"
+  - They both have the same personality, so the words don't matter
+  - Character A uses formal, elaborate language suggesting education, precision, and possibly emotional distance, while Character B uses casual language suggesting informality, directness, and possibly a more emotional or less formal background
+  - The dialogue doesn't reveal anything about character
+  - Character A is definitely smarter than Character B
   answer: 1
-  explanation: "Dialogue characterizes through word choice and formality level. Character A's formal diction and complex sentence structure suggest education and careful deliberation. Character B's casual speech suggests directness and informality. Neither is better—they're different, and their speech patterns reveal background, personality, and social positioning."
+  explanation: Dialogue characterizes through word choice and formality level. Character A's formal diction and complex sentence structure suggest education and careful deliberation. Character B's casual speech suggests directness and informality. Neither is better—they're different, and their speech patterns reveal background, personality, and social positioning.
 
-- question: "During an important conversation, a character keeps changing the subject, answering questions with other questions, and avoiding direct statements about their feelings. What does this dialogue pattern reveal?"
+- question: During an important conversation, a character keeps changing the subject, answering questions with other questions, and avoiding direct statements about their feelings. What does this dialogue pattern reveal?
+  type: multiple-choice
   options:
-    - "The character is simply not paying attention"
-    - "The character's avoidance, deflection, and evasion reveal discomfort, fear, or unwillingness to be vulnerable. What they don't say is as revealing as what they do say"
-    - "Nothing—people always speak directly"
-    - "The character is lying about everything"
+  - The character is simply not paying attention
+  - The character's avoidance, deflection, and evasion reveal discomfort, fear, or unwillingness to be vulnerable. What they don't say is as revealing as what they do say
+  - Nothing—people always speak directly
+  - The character is lying about everything
   answer: 1
-  explanation: "Dialogue characterizes through what's absent as well as what's present. A character who deflects, avoids, or changes the subject is revealing emotional resistance or discomfort. This silent communication is as important as spoken words. Readers learn character through speech patterns and silences."
+  explanation: Dialogue characterizes through what's absent as well as what's present. A character who deflects, avoids, or changes the subject is revealing emotional resistance or discomfort. This silent communication is as important as spoken words. Readers learn character through speech patterns and silences.
 
-- question: "True or False: Dialogue characterization requires characters to speak in different accents or dialects to have distinct voices."
+- question: 'True or False: Dialogue characterization requires characters to speak in different accents or dialects to have distinct voices.'
+  type: true-false
   answer: false
-  explanation: "While accent and dialect can distinguish characters, so can vocabulary level, sentence structure, favorite expressions, emotional intensity, and pace. A character might use short, clipped sentences while another uses long, flowing ones. One character might reference books while another references sports. These subtle differences create distinct voices without requiring different accents."
+  explanation: While accent and dialect can distinguish characters, so can vocabulary level, sentence structure, favorite expressions, emotional intensity, and pace. A character might use short, clipped sentences while another uses long, flowing ones. One character might reference books while another references sports. These subtle differences create distinct voices without requiring different accents.
 
-- question: "True or False: If a character speaks formal language, they are intelligent, and if they speak casually, they are not intelligent."
+- question: 'True or False: If a character speaks formal language, they are intelligent, and if they speak casually, they are not intelligent.'
+  type: true-false
   answer: false
-  explanation: "Formality level reflects social context, education, background, and personality—not intelligence. A brilliant character might speak casually to be relatable; an educated character might speak formally to maintain authority. Casual speech can be sharp, witty, and intelligent. Formality is about style, not substance."
+  explanation: Formality level reflects social context, education, background, and personality—not intelligence. A brilliant character might speak casually to be relatable; an educated character might speak formally to maintain authority. Casual speech can be sharp, witty, and intelligent. Formality is about style, not substance.
 
-- question: "In a story, a character speaks openly and honestly about their feelings in every conversation. Then, in a crucial scene, they refuse to answer when asked a direct question and instead change the subject. The other character asks, 'Why won't you tell me?' What does this sudden silence and avoidance reveal, and why is this dialogue shift important for characterization?"
-  answer: "This dialogue shift reveals that something about this particular topic is threatening or unbearable to the character. The contrast between their usual openness and sudden avoidance signals that this is the one thing they cannot or will not face. The silence and deflection show internal struggle—the character wants to be honest but cannot overcome fear, shame, or pain to do so. This single moment of avoidance characterizes them as vulnerable and reveals what their deepest wound or fear is."
-  explanation: "This tests understanding that dialogue characterizes through both consistency and disruption. A character's typical speech patterns establish baseline expectations; changes in that pattern (becoming silent, evasive, or unusually emotional) reveal what matters most and what the character struggles with. The most revealing dialogue is often the words unspoken and the words that break a character's usual pattern."
+- question: In a story, a character speaks openly and honestly about their feelings in every conversation. Then, in a crucial scene, they refuse to answer when asked a direct question and instead change the subject. The other character asks, 'Why won't you tell me?' What does this sudden silence and avoidance reveal, and why is this dialogue shift important for characterization?
+  type: short-answer
+  answer: This dialogue shift reveals that something about this particular topic is threatening or unbearable to the character. The contrast between their usual openness and sudden avoidance signals that this is the one thing they cannot or will not face. The silence and deflection show internal struggle—the character wants to be honest but cannot overcome fear, shame, or pain to do so. This single moment of avoidance characterizes them as vulnerable and reveals what their deepest wound or fear is.
+  explanation: This tests understanding that dialogue characterizes through both consistency and disruption. A character's typical speech patterns establish baseline expectations; changes in that pattern (becoming silent, evasive, or unusually emotional) reveal what matters most and what the character struggles with. The most revealing dialogue is often the words unspoken and the words that break a character's usual pattern.
 ```
 
 ## Explainer

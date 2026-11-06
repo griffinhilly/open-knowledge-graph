@@ -38,40 +38,40 @@ Take a song the class already knows well and experiment with performing it diffe
 ## Questions
 
 ```yaml
-- question: "What does it mean to perform with expression?"
-  type: mc
+- question: What does it mean to perform with expression?
+  type: multiple-choice
   options:
-    - "To play very loudly"
-    - "To show feeling and emotion through your performance using your voice body and technique"
-    - "To play all notes exactly the same"
-    - "To perform without making mistakes"
+  - To play very loudly
+  - To show feeling and emotion through your performance using your voice body and technique
+  - To play all notes exactly the same
+  - To perform without making mistakes
   answer: 1
-  explanation: "Expression means bringing emotion to your performance."
+  explanation: Expression means bringing emotion to your performance.
 
-- question: "Expression can change the feeling of a song without changing the notes."
-  type: tf
+- question: Expression can change the feeling of a song without changing the notes.
+  type: true-false
   answer: true
-  explanation: "Absolutely!"
+  explanation: Absolutely!
 
-- question: "What are some ways you can add expression?"
-  type: mc
+- question: What are some ways you can add expression?
+  type: multiple-choice
   options:
-    - "Using different volumes loud and soft"
-    - "Changing tempo slightly"
-    - "Using your face and body"
-    - "All of the above"
+  - Using different volumes loud and soft
+  - Changing tempo slightly
+  - Using your face and body
+  - All of the above
   answer: 3
-  explanation: "Expression uses everything."
+  explanation: Expression uses everything.
 
-- question: "A performer can only add expression if they read musical expression marks."
-  type: tf
+- question: A performer can only add expression if they read musical expression marks.
+  type: true-false
   answer: false
-  explanation: "Great performers also add their own interpretation."
+  explanation: Great performers also add their own interpretation.
 
-- question: "Describe how you would perform a song about a rainy day differently than a sunny day song."
-  type: sa
-  answer: "The rainy day song would be slower and quieter; the sunny song would be faster and brighter."
-  explanation: "A good answer shows understanding that different emotions need different tempos."
+- question: Describe how you would perform a song about a rainy day differently than a sunny day song.
+  type: short-answer
+  answer: The rainy day song would be slower and quieter; the sunny song would be faster and brighter.
+  explanation: A good answer shows understanding that different emotions need different tempos.
 ```
 
 ## Explainer

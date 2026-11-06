@@ -31,39 +31,39 @@ Using English does not mean accepting colonial values or uncritically adopting E
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What is the fundamental paradox at the heart of postcolonial Indian anglophone literature?"
+- question: What is the fundamental paradox at the heart of postcolonial Indian anglophone literature?
+  type: multiple-choice
   options:
-    - "Indian writers use English because they lack their own literary traditions"
-    - "Indian writers use English—the colonial language—to interrogate colonialism and claim authority over representing Indian experience, transforming English itself in the process"
-    - "Indian writers write in English to abandon Indian identity and become European"
-    - "There is no paradox; English is simply the most neutral language for literary expression"
+  - Indian writers use English because they lack their own literary traditions
+  - Indian writers use English—the colonial language—to interrogate colonialism and claim authority over representing Indian experience, transforming English itself in the process
+  - Indian writers write in English to abandon Indian identity and become European
+  - There is no paradox; English is simply the most neutral language for literary expression
   answer: 1
-  explanation: "Indian writers confronted a unique problem: English was the language of colonial domination, yet it was also a language they had inherited and become fluent in, and it offered access to a global literary audience. Rather than viewing English as simply a colonial imposition, writers strategically appropriated it, using it to represent Indian perspectives, histories, and experiences that English was not originally designed to convey. This required transforming English—embedding vernacular speech patterns, Indian narrative structures, and ways of thinking that reshaped the language itself. The paradox is productive: by writing in English, they simultaneously claim decolonial agency (speaking in a language colonialism imposed) and transform that language to serve postcolonial purposes."
+  explanation: 'Indian writers confronted a unique problem: English was the language of colonial domination, yet it was also a language they had inherited and become fluent in, and it offered access to a global literary audience. Rather than viewing English as simply a colonial imposition, writers strategically appropriated it, using it to represent Indian perspectives, histories, and experiences that English was not originally designed to convey. This required transforming English—embedding vernacular speech patterns, Indian narrative structures, and ways of thinking that reshaped the language itself. The paradox is productive: by writing in English, they simultaneously claim decolonial agency (speaking in a language colonialism imposed) and transform that language to serve postcolonial purposes.'
 
-- type: multiple-choice
-  question: "How do Indian anglophone writers 'transform' English when writing postcolonial fiction?"
+- question: How do Indian anglophone writers 'transform' English when writing postcolonial fiction?
+  type: multiple-choice
   options:
-    - "They simply imitate British literary conventions without change"
-    - "They abandon English entirely for vernacular languages"
-    - "They embed vernacular speech patterns, Indian narrative structures, magical-realist modes, and ways of thinking into English, reshaping the language to express Indian epistemologies"
-    - "They translate from Indian languages without adaptation"
+  - They simply imitate British literary conventions without change
+  - They abandon English entirely for vernacular languages
+  - They embed vernacular speech patterns, Indian narrative structures, magical-realist modes, and ways of thinking into English, reshaping the language to express Indian epistemologies
+  - They translate from Indian languages without adaptation
   answer: 2
-  explanation: "Indian writers do not use English passively as colonizers used it. Instead, they actively transform the language. They incorporate Hindi, Tamil, Bengali, or Urdu speech patterns into English prose, creating hybrid forms where vernacular inflection disrupts standard English syntax. They adopt Indian narrative structures—episodic forms, the intrusion of myth and magic into realistic narrative, oral storytelling techniques—that reshape English fictional conventions. Some use magical-realist modes that allow them to express Indian philosophical and spiritual perspectives that realist conventions alone could not convey. These transformations mean that Indian anglophone literature is neither purely English nor purely Indian, but a hybrid form where English is appropriated and remade to serve postcolonial purposes."
+  explanation: Indian writers do not use English passively as colonizers used it. Instead, they actively transform the language. They incorporate Hindi, Tamil, Bengali, or Urdu speech patterns into English prose, creating hybrid forms where vernacular inflection disrupts standard English syntax. They adopt Indian narrative structures—episodic forms, the intrusion of myth and magic into realistic narrative, oral storytelling techniques—that reshape English fictional conventions. Some use magical-realist modes that allow them to express Indian philosophical and spiritual perspectives that realist conventions alone could not convey. These transformations mean that Indian anglophone literature is neither purely English nor purely Indian, but a hybrid form where English is appropriated and remade to serve postcolonial purposes.
 
-- type: true-false
-  statement: "Indian writers writing in English accept British literary authority and conventions uncritically, positioning their work as secondary to European literature."
+- question: Indian writers writing in English accept British literary authority and conventions uncritically, positioning their work as secondary to European literature.
+  type: true-false
   answer: false
-  explanation: "This common misconception reflects colonial assumptions about literary hierarchy. In fact, Indian anglophone writers claim literary authority equal to European writers. They do not position themselves as secondary or derivative but as authors with equal standing in global literary culture. The act of writing in English while transforming it—embedding Indian perspectives, forms, and epistemologies—is itself an assertion of authority. Writers like Rushdie or Roy are not asking for permission from European literary tradition to exist; they are declaring themselves equal participants in world literature while refusing to abandon Indian ways of thinking and representing the world."
+  explanation: This common misconception reflects colonial assumptions about literary hierarchy. In fact, Indian anglophone writers claim literary authority equal to European writers. They do not position themselves as secondary or derivative but as authors with equal standing in global literary culture. The act of writing in English while transforming it—embedding Indian perspectives, forms, and epistemologies—is itself an assertion of authority. Writers like Rushdie or Roy are not asking for permission from European literary tradition to exist; they are declaring themselves equal participants in world literature while refusing to abandon Indian ways of thinking and representing the world.
 
-- type: true-false
-  statement: "The use of magical-realist techniques by Indian anglophone writers reflects their desire to abandon realism in favor of pure fantasy."
+- question: The use of magical-realist techniques by Indian anglophone writers reflects their desire to abandon realism in favor of pure fantasy.
+  type: true-false
   answer: false
-  explanation: "Magical realism in Indian anglophone literature is not escapism but a deliberate formal strategy. It allows writers to express Indian epistemologies and spiritual understandings that realism alone cannot convey—the interpenetration of material and spiritual realms, the presence of myth and history simultaneously, the way memory operates across generations not as linear progression but as cyclical return. Magical realism is simultaneously politically sophisticated: it critiques realist conventions that claim objectivity and universality by showing that 'realistic' representation is itself conventional and culturally specific. By using magical-realist modes, Indian writers assert that Indian ways of understanding reality are as valid and meaningful as European realist conventions."
+  explanation: 'Magical realism in Indian anglophone literature is not escapism but a deliberate formal strategy. It allows writers to express Indian epistemologies and spiritual understandings that realism alone cannot convey—the interpenetration of material and spiritual realms, the presence of myth and history simultaneously, the way memory operates across generations not as linear progression but as cyclical return. Magical realism is simultaneously politically sophisticated: it critiques realist conventions that claim objectivity and universality by showing that ''realistic'' representation is itself conventional and culturally specific. By using magical-realist modes, Indian writers assert that Indian ways of understanding reality are as valid and meaningful as European realist conventions.'
 
-- type: short-answer
-  question: "How does the choice to write in English rather than vernacular Indian languages raise questions about literary authority and decolonization in Indian postcolonial literature?"
-  explanation: "This choice reveals the complex political terrain of postcolonial literary culture. Writing in English offers access to global audiences and participation in international literary markets, but it also means accepting that English will be the primary language of a writer's work. Some argue this perpetuates colonial linguistic hegemony; others argue that by writing in English while transforming it, writers assert decolonial agency—they take the colonizer's language and remake it. The question is not simply pragmatic but philosophical: what does it mean for postcolonial authority to be expressed through the colonizer's language? Writers navigate this by transforming English so radically (through vernacular inflection, Indian narrative structures, magical-realist modes) that it becomes a hybrid form no longer simply 'English' in the colonial sense. The literature thus enacts decolonization at the level of language itself—taking English and remaking it to express Indian epistemologies and perspectives, so that the language itself becomes post-colonial rather than colonial."
+- question: How does the choice to write in English rather than vernacular Indian languages raise questions about literary authority and decolonization in Indian postcolonial literature?
+  type: short-answer
+  explanation: 'This choice reveals the complex political terrain of postcolonial literary culture. Writing in English offers access to global audiences and participation in international literary markets, but it also means accepting that English will be the primary language of a writer''s work. Some argue this perpetuates colonial linguistic hegemony; others argue that by writing in English while transforming it, writers assert decolonial agency—they take the colonizer''s language and remake it. The question is not simply pragmatic but philosophical: what does it mean for postcolonial authority to be expressed through the colonizer''s language? Writers navigate this by transforming English so radically (through vernacular inflection, Indian narrative structures, magical-realist modes) that it becomes a hybrid form no longer simply ''English'' in the colonial sense. The literature thus enacts decolonization at the level of language itself—taking English and remaking it to express Indian epistemologies and perspectives, so that the language itself becomes post-colonial rather than colonial.'
 ```
 
 ## Explainer

@@ -36,35 +36,40 @@ Trace a character's beliefs and goals at the beginning, middle, and end of a sto
 ## Questions
 
 ```yaml
-- question: "A character begins a story as selfish and dismissive toward others. Through events, the character learns compassion and begins helping people in need. By the end, they have changed. Is this character development, and why?"
+- question: A character begins a story as selfish and dismissive toward others. Through events, the character learns compassion and begins helping people in need. By the end, they have changed. Is this character development, and why?
+  type: multiple-choice
   options:
-    - "No, character development only happens when a character becomes worse, not better"
-    - "Yes, character development is internal change resulting from experience. This character's beliefs and values have shifted from selfish to compassionate"
-    - "No, because the character didn't achieve any major goal in the plot"
-    - "Only if the character explicitly states they have changed"
+  - No, character development only happens when a character becomes worse, not better
+  - Yes, character development is internal change resulting from experience. This character's beliefs and values have shifted from selfish to compassionate
+  - No, because the character didn't achieve any major goal in the plot
+  - Only if the character explicitly states they have changed
   answer: 1
-  explanation: "Character development is measurable internal change—different beliefs, understanding, or values at the end than at the beginning. The direction of change (positive or negative) doesn't matter. What matters is that experience has transformed the character."
+  explanation: Character development is measurable internal change—different beliefs, understanding, or values at the end than at the beginning. The direction of change (positive or negative) doesn't matter. What matters is that experience has transformed the character.
 
-- question: "A character faces danger, betrayal, and loss throughout a story. Yet they refuse to change their core beliefs, refuse to adapt, and maintain the same outlook they had at the start. What does this choice demonstrate?"
+- question: A character faces danger, betrayal, and loss throughout a story. Yet they refuse to change their core beliefs, refuse to adapt, and maintain the same outlook they had at the start. What does this choice demonstrate?
+  type: multiple-choice
   options:
-    - "This shows excellent character development because the character stayed true to themselves"
-    - "This shows static characterization—the character experienced events but did not undergo internal transformation. This may be intentional (showing resilience or stubbornness) or unintentional"
-    - "Character development and static characters are the same thing"
-    - "Character development has nothing to do with what happens to a character"
+  - This shows excellent character development because the character stayed true to themselves
+  - This shows static characterization—the character experienced events but did not undergo internal transformation. This may be intentional (showing resilience or stubbornness) or unintentional
+  - Character development and static characters are the same thing
+  - Character development has nothing to do with what happens to a character
   answer: 1
-  explanation: "Static characters experience events but don't change internally. They maintain the same beliefs and goals. This is distinct from dynamic (developing) characters who are transformed by what happens to them. Static characters can be effective in stories—they can reveal change in others or embody stability."
+  explanation: Static characters experience events but don't change internally. They maintain the same beliefs and goals. This is distinct from dynamic (developing) characters who are transformed by what happens to them. Static characters can be effective in stories—they can reveal change in others or embody stability.
 
-- question: "True or False: Plot events automatically cause character development."
+- question: 'True or False: Plot events automatically cause character development.'
+  type: true-false
   answer: false
-  explanation: "Plot events are the catalyst or trigger, but development requires the character to respond, learn, and change internally. A character can experience plot events without developing. Development is what the character does with those experiences, not the events themselves."
+  explanation: Plot events are the catalyst or trigger, but development requires the character to respond, learn, and change internally. A character can experience plot events without developing. Development is what the character does with those experiences, not the events themselves.
 
-- question: "True or False: A character who becomes stronger, braver, or more skilled has necessarily developed."
+- question: 'True or False: A character who becomes stronger, braver, or more skilled has necessarily developed.'
+  type: true-false
   answer: false
-  explanation: "Skill growth or physical change is not the same as character development. A character might become a better fighter without developing—without changing their beliefs, values, or understanding. Development is internal psychological or emotional change, not just improvement in ability."
+  explanation: Skill growth or physical change is not the same as character development. A character might become a better fighter without developing—without changing their beliefs, values, or understanding. Development is internal psychological or emotional change, not just improvement in ability.
 
-- question: "At the start of a story, a character believes 'I can only trust myself.' By the middle, they're forced to work with others but are suspicious. By the end, after learning that some people are trustworthy, they form deep friendships and realize that isolation was protecting them from pain but also from connection. Explain how this is character development and what caused it."
-  answer: "This is character development because the character's core belief has transformed. They began believing only in self-reliance and ended believing in trust and connection. What caused this was not just the event of working with others, but the character's realization that this new perspective offers something valuable they were missing. The change came from experience plus understanding."
-  explanation: "This tests understanding that development requires both external events and internal realization. The character had to experience working with others AND understand the value of connection for true development. Development is the synthesis of experience and insight."
+- question: At the start of a story, a character believes 'I can only trust myself.' By the middle, they're forced to work with others but are suspicious. By the end, after learning that some people are trustworthy, they form deep friendships and realize that isolation was protecting them from pain but also from connection. Explain how this is character development and what caused it.
+  type: short-answer
+  answer: This is character development because the character's core belief has transformed. They began believing only in self-reliance and ended believing in trust and connection. What caused this was not just the event of working with others, but the character's realization that this new perspective offers something valuable they were missing. The change came from experience plus understanding.
+  explanation: This tests understanding that development requires both external events and internal realization. The character had to experience working with others AND understand the value of connection for true development. Development is the synthesis of experience and insight.
 ```
 
 ## Explainer

@@ -25,35 +25,39 @@ Many middle-grade narratives employ episodic structures where loosely connected 
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What does an episodic plot structure in middle-grade fiction accomplish that tightly integrated plots might not?"
-    options:
-      - "Episodic plots are always inferior to integrated plots"
-      - "Each chapter or episode can function somewhat independently while contributing to a through-line, allowing varied pacing, tonal shifts, and the inclusion of standalone 'adventure' chapters that still advance character development"
-      - "Episodic plots serve no narrative purpose"
-      - "Episodic and integrated plots are identical"
-    answer: 1
-    explanation: "Episodic structure allows individual chapters to have their own narrative arc while also contributing to overall story development. This flexibility permits varied pacing and allows chapters with different tones or types of conflict."
-  - question: "Why might episodic structure particularly suit middle-grade readers' developing reading stamina?"
-    options:
-      - "It doesn't—middle-grade readers need tightly integrated plots"
-      - "Episodic structure breaks narrative into manageable units where readers experience chapter-by-chapter accomplishment, and each episode can be consumed in a reading session, supporting developing reading stamina"
-      - "Middle-grade readers don't have developing stamina"
-      - "Plot structure doesn't affect reading experience"
-    answer: 1
-    explanation: "Middle-grade readers are still building sustained reading ability. Episodic structure provides natural stopping points and chapter-level closure, helping readers experience progress and maintain engagement."
+- question: What does an episodic plot structure in middle-grade fiction accomplish that tightly integrated plots might not?
+  type: multiple-choice
+  options:
+  - Episodic plots are always inferior to integrated plots
+  - Each chapter or episode can function somewhat independently while contributing to a through-line, allowing varied pacing, tonal shifts, and the inclusion of standalone 'adventure' chapters that still advance character development
+  - Episodic plots serve no narrative purpose
+  - Episodic and integrated plots are identical
+  answer: 1
+  explanation: Episodic structure allows individual chapters to have their own narrative arc while also contributing to overall story development. This flexibility permits varied pacing and allows chapters with different tones or types of conflict.
 
-true-false:
-  - question: "True or False: Episodic plot structure prevents development of an overall story arc or through-line."
-    answer: false
-    explanation: "False. Episodic structures can include both episode-level closure and overall series-level story development that unfolds across chapters and books."
-  - question: "True or False: Episodic narrative structures make series writing easier because each book can function somewhat independently while contributing to series development."
-    answer: true
-    explanation: "True. Episodic structure allows each book to have satisfying closure (so readers don't feel cheated if they don't read the next book) while maintaining ongoing character arcs and plot threads."
+- question: Why might episodic structure particularly suit middle-grade readers' developing reading stamina?
+  type: multiple-choice
+  options:
+  - It doesn't—middle-grade readers need tightly integrated plots
+  - Episodic structure breaks narrative into manageable units where readers experience chapter-by-chapter accomplishment, and each episode can be consumed in a reading session, supporting developing reading stamina
+  - Middle-grade readers don't have developing stamina
+  - Plot structure doesn't affect reading experience
+  answer: 1
+  explanation: Middle-grade readers are still building sustained reading ability. Episodic structure provides natural stopping points and chapter-level closure, helping readers experience progress and maintain engagement.
 
-short-answer:
-  - question: "Analyze a middle-grade episodic series you know (like 'The Wild Robot' or 'Pax'). How does each chapter or book provide closure while contributing to overall story development?"
-    explanation: "Your answer should demonstrate understanding that episodic works operate at multiple scales. For example, in a typical middle-grade series, Chapter 3 might involve a self-contained adventure or problem-solving situation that resolves by chapter's end (closure at the chapter level), while also revealing character aspects or advancing the larger plot that unfolds across the whole book. The book itself typically resolves its primary conflict (closure at the volume level) while leaving aspects of character relationship or the series' larger mystery unresolved, motivating reading the next book. This multi-level structure lets readers experience frequent 'wins' (chapter closure) while maintaining investment in returning to the story."
+- question: 'True or False: Episodic plot structure prevents development of an overall story arc or through-line.'
+  type: true-false
+  answer: false
+  explanation: False. Episodic structures can include both episode-level closure and overall series-level story development that unfolds across chapters and books.
+
+- question: 'True or False: Episodic narrative structures make series writing easier because each book can function somewhat independently while contributing to series development.'
+  type: true-false
+  answer: true
+  explanation: True. Episodic structure allows each book to have satisfying closure (so readers don't feel cheated if they don't read the next book) while maintaining ongoing character arcs and plot threads.
+
+- question: Analyze a middle-grade episodic series you know (like 'The Wild Robot' or 'Pax'). How does each chapter or book provide closure while contributing to overall story development?
+  type: short-answer
+  explanation: Your answer should demonstrate understanding that episodic works operate at multiple scales. For example, in a typical middle-grade series, Chapter 3 might involve a self-contained adventure or problem-solving situation that resolves by chapter's end (closure at the chapter level), while also revealing character aspects or advancing the larger plot that unfolds across the whole book. The book itself typically resolves its primary conflict (closure at the volume level) while leaving aspects of character relationship or the series' larger mystery unresolved, motivating reading the next book. This multi-level structure lets readers experience frequent 'wins' (chapter closure) while maintaining investment in returning to the story.
 ```
 
 ## Explainer

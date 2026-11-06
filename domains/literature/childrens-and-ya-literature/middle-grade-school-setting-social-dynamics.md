@@ -33,35 +33,39 @@ Compare middle-grade school stories across decades, analyzing how social dynamic
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "Why does the school setting dominate middle-grade literature?"
-    options:
-      - "Because middle-grade readers cannot appreciate any other settings"
-      - "Because school is where middle-grade readers spend significant time and where they navigate social relationships, belonging, and identity—making it narratively resonant and emotionally relevant"
-      - "School settings are overused and limiting"
-      - "There is no particular reason for the prevalence of school settings"
-    answer: 1
-    explanation: "School is the primary social context for middle-grade readers where they navigate peer relationships, social hierarchies, and questions of belonging. Stories set in this context feel immediately relevant and emotionally true."
-  - question: "What developmental needs do school-based middle-grade narratives address?"
-    options:
-      - "School narratives don't address any developmental needs"
-      - "They allow exploration of friendship formation, social belonging, navigating hierarchies, dealing with exclusion, finding one's place in a peer group—core middle-grade developmental concerns"
-      - "School narratives only address academic concerns"
-      - "Social concerns are not developmentally important"
-    answer: 1
-    explanation: "The transition to middle school/upper elementary represents a major shift toward peer-oriented social concern, and narratives set in school directly address the social anxieties and experiences of this developmental stage."
+- question: Why does the school setting dominate middle-grade literature?
+  type: multiple-choice
+  options:
+  - Because middle-grade readers cannot appreciate any other settings
+  - Because school is where middle-grade readers spend significant time and where they navigate social relationships, belonging, and identity—making it narratively resonant and emotionally relevant
+  - School settings are overused and limiting
+  - There is no particular reason for the prevalence of school settings
+  answer: 1
+  explanation: School is the primary social context for middle-grade readers where they navigate peer relationships, social hierarchies, and questions of belonging. Stories set in this context feel immediately relevant and emotionally true.
 
-true-false:
-  - question: "True or False: A friendship conflict in a middle-grade novel is less significant narratively than an external adventure or quest."
-    answer: false
-    explanation: "False. For middle-grade readers navigating peer relationships as a core developmental task, friendship and social belonging are as narratively substantial as external adventure. The stakes feel equally real."
-  - question: "True or False: Contemporary middle-grade school narratives increasingly address topics like bullying, inclusion, and diversity in ways that reflect changing social consciousness."
-    answer: true
-    explanation: "True. Contemporary school narratives more explicitly address social justice, inclusion, representation, and anti-bullying themes than earlier texts, reflecting evolving awareness of these issues."
+- question: What developmental needs do school-based middle-grade narratives address?
+  type: multiple-choice
+  options:
+  - School narratives don't address any developmental needs
+  - They allow exploration of friendship formation, social belonging, navigating hierarchies, dealing with exclusion, finding one's place in a peer group—core middle-grade developmental concerns
+  - School narratives only address academic concerns
+  - Social concerns are not developmentally important
+  answer: 1
+  explanation: The transition to middle school/upper elementary represents a major shift toward peer-oriented social concern, and narratives set in school directly address the social anxieties and experiences of this developmental stage.
 
-short-answer:
-  - question: "Explain why a seemingly 'trivial' social conflict in a middle-grade school setting (like being excluded from a friend group) can be narratively and emotionally significant for young readers."
-    explanation: "While adult readers might perceive friendship dynamics as less important than larger adventures, middle-grade readers experience peer relationships as fundamental to identity and belonging. Being excluded from a friend group threatens fundamental psychological needs: belonging, acceptance, social identity. A school narrative exploring this conflict addresses core developmental concerns and feels emotionally true to the reader's experience. The conflict isn't trivial but central to how the reader is learning to navigate the social world. Additionally, narratives about social concerns validate reader experience—they signal that these concerns matter, that navigating friendship and belonging is serious business, and that the character's (and reader's) social struggles are worth exploring. A well-written school narrative about friendship or belonging doesn't require external adventure; the social-emotional stakes feel sufficiently high."
+- question: 'True or False: A friendship conflict in a middle-grade novel is less significant narratively than an external adventure or quest.'
+  type: true-false
+  answer: false
+  explanation: False. For middle-grade readers navigating peer relationships as a core developmental task, friendship and social belonging are as narratively substantial as external adventure. The stakes feel equally real.
+
+- question: 'True or False: Contemporary middle-grade school narratives increasingly address topics like bullying, inclusion, and diversity in ways that reflect changing social consciousness.'
+  type: true-false
+  answer: true
+  explanation: True. Contemporary school narratives more explicitly address social justice, inclusion, representation, and anti-bullying themes than earlier texts, reflecting evolving awareness of these issues.
+
+- question: Explain why a seemingly 'trivial' social conflict in a middle-grade school setting (like being excluded from a friend group) can be narratively and emotionally significant for young readers.
+  type: short-answer
+  explanation: 'While adult readers might perceive friendship dynamics as less important than larger adventures, middle-grade readers experience peer relationships as fundamental to identity and belonging. Being excluded from a friend group threatens fundamental psychological needs: belonging, acceptance, social identity. A school narrative exploring this conflict addresses core developmental concerns and feels emotionally true to the reader''s experience. The conflict isn''t trivial but central to how the reader is learning to navigate the social world. Additionally, narratives about social concerns validate reader experience—they signal that these concerns matter, that navigating friendship and belonging is serious business, and that the character''s (and reader''s) social struggles are worth exploring. A well-written school narrative about friendship or belonging doesn''t require external adventure; the social-emotional stakes feel sufficiently high.'
 ```
 
 ## Explainer

@@ -24,39 +24,39 @@ Flash nonfiction compresses lived experience, observation, or reflection into ve
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "Why is 'economy of language' particularly essential in flash nonfiction compared to longer forms?"
+- question: Why is 'economy of language' particularly essential in flash nonfiction compared to longer forms?
+  type: multiple-choice
   options:
-    - "Longer forms allow writers to develop ideas gradually, while flash nonfiction must accomplish the same depth in far fewer words."
-    - "Flash nonfiction readers are less educated and require simpler vocabulary."
-    - "Longer forms don't require careful word choice at all."
-    - "Economy of language is equally important in all forms and has no special significance in flash."
+  - Longer forms allow writers to develop ideas gradually, while flash nonfiction must accomplish the same depth in far fewer words.
+  - Flash nonfiction readers are less educated and require simpler vocabulary.
+  - Longer forms don't require careful word choice at all.
+  - Economy of language is equally important in all forms and has no special significance in flash.
   answer: 0
-  explanation: "Flash nonfiction's extreme brevity means every word carries weight. Writers cannot afford redundancy, unnecessary exposition, or filler. A 5,000-word essay might develop a single observation across multiple paragraphs; flash nonfiction must achieve that same depth in 500 words. This constraint forces precision—each sentence must do multiple kinds of work simultaneously."
+  explanation: Flash nonfiction's extreme brevity means every word carries weight. Writers cannot afford redundancy, unnecessary exposition, or filler. A 5,000-word essay might develop a single observation across multiple paragraphs; flash nonfiction must achieve that same depth in 500 words. This constraint forces precision—each sentence must do multiple kinds of work simultaneously.
 
-- type: multiple-choice
-  question: "Flash nonfiction often achieves 'resonance and depth through what is implied or withheld.' What is the reader's role in this approach?"
+- question: Flash nonfiction often achieves 'resonance and depth through what is implied or withheld.' What is the reader's role in this approach?
+  type: multiple-choice
   options:
-    - "Readers passively receive complete information the author explicitly states."
-    - "Readers must actively participate by drawing inferences from what is left unsaid, completing meaning themselves."
-    - "Readers are confused because the author has failed to explain things properly."
-    - "Readers skip flash nonfiction because it always leaves them frustrated."
+  - Readers passively receive complete information the author explicitly states.
+  - Readers must actively participate by drawing inferences from what is left unsaid, completing meaning themselves.
+  - Readers are confused because the author has failed to explain things properly.
+  - Readers skip flash nonfiction because it always leaves them frustrated.
   answer: 1
-  explanation: "Flash nonfiction trusts readers to complete the picture. By withholding full explanation, it invites interpretation and makes reading an active process. A flash piece might describe a single moment—a child's question, a fleeting image—without explaining its significance. Readers infer meaning based on context, tone, and what they bring to the text. This engagement often creates more powerful impact than explicit explanation would."
+  explanation: Flash nonfiction trusts readers to complete the picture. By withholding full explanation, it invites interpretation and makes reading an active process. A flash piece might describe a single moment—a child's question, a fleeting image—without explaining its significance. Readers infer meaning based on context, tone, and what they bring to the text. This engagement often creates more powerful impact than explicit explanation would.
 
-- type: true-false
-  statement: "True: Flash nonfiction is simply a shorter version of traditional nonfiction, requiring the same techniques just applied to fewer words."
+- question: 'True: Flash nonfiction is simply a shorter version of traditional nonfiction, requiring the same techniques just applied to fewer words.'
+  type: true-false
   answer: false
-  explanation: "Flash nonfiction is fundamentally different, not just quantitatively shorter. It requires distinct techniques: precision of focus (often a single moment rather than a full narrative arc), reliance on implication rather than explanation, and heightened attention to language. A paragraph-length flash piece cannot be a condensed version of a 10-page essay; it demands its own approach."
+  explanation: 'Flash nonfiction is fundamentally different, not just quantitatively shorter. It requires distinct techniques: precision of focus (often a single moment rather than a full narrative arc), reliance on implication rather than explanation, and heightened attention to language. A paragraph-length flash piece cannot be a condensed version of a 10-page essay; it demands its own approach.'
 
-- type: true-false
-  statement: "True: The word limit in flash nonfiction (typically under 1,500 words) forces writers to make strategic choices about what to include and what to exclude."
+- question: 'True: The word limit in flash nonfiction (typically under 1,500 words) forces writers to make strategic choices about what to include and what to exclude.'
+  type: true-false
   answer: true
-  explanation: "Severe word limits demand ruthless editorial choices. Writers must identify the essential elements of their piece and cut everything that doesn't serve the core focus. This constraint is not a limitation but a creative force—it sharpens clarity and forces writers to discover what their piece is really about."
+  explanation: Severe word limits demand ruthless editorial choices. Writers must identify the essential elements of their piece and cut everything that doesn't serve the core focus. This constraint is not a limitation but a creative force—it sharpens clarity and forces writers to discover what their piece is really about.
 
-- type: short-answer
-  question: "Imagine you're writing a flash nonfiction piece about a significant moment in your life. How would your approach differ from writing a traditional personal essay about the same moment? What would you prioritize?"
-  explanation: "In flash nonfiction, you would prioritize a single, crystalline moment rather than a full narrative arc. You might capture the exact sensory detail (a smell, a visual image, a phrase overheard) rather than explaining the backstory. In a traditional essay, you'd develop context, reflect on causes, explore implications—showing how the moment fits into a larger life pattern. In flash nonfiction, you'd trust that a precise, evocative moment would communicate significance without explicit reflection. You'd prioritize imagery and precision over explanation and development."
+- question: Imagine you're writing a flash nonfiction piece about a significant moment in your life. How would your approach differ from writing a traditional personal essay about the same moment? What would you prioritize?
+  type: short-answer
+  explanation: In flash nonfiction, you would prioritize a single, crystalline moment rather than a full narrative arc. You might capture the exact sensory detail (a smell, a visual image, a phrase overheard) rather than explaining the backstory. In a traditional essay, you'd develop context, reflect on causes, explore implications—showing how the moment fits into a larger life pattern. In flash nonfiction, you'd trust that a precise, evocative moment would communicate significance without explicit reflection. You'd prioritize imagery and precision over explanation and development.
 ```
 
 ## Explainer

@@ -23,36 +23,39 @@ The distinction between literary and genre fiction involves questions of artisti
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What factors constitute the distinction between literary and genre fiction according to the core idea?"
-    options:
-      - "Only length and publication format"
-      - "Questions of artistic ambition, style, subject matter, and cultural prestige"
-      - "Genre determines the authors' skill level"
-      - "Publication date and copyright holder"
-    correct_answer: 1
-    explanation: "The core idea lists the factors creating the distinction as 'artistic ambition, style, subject matter, and cultural prestige,' identifying these as the dimensions along which literary and genre fiction are differentiated."
-  - type: multiple-choice
-    question: "How is the boundary between literary and genre fiction changing according to contemporary literature?"
-    options:
-      - "It is becoming more sharply defined"
-      - "It is increasingly eroded, with genre authors producing literary quality work and vice versa"
-      - "Genre fiction is disappearing entirely"
-      - "Literary fiction is losing all connection to genre"
-    correct_answer: 1
-    explanation: "The core idea states that 'contemporary literature increasingly erodes these boundaries, with genre authors producing literary quality work and literary authors employing genre conventions,' indicating the distinction is becoming less stable."
-  - type: true-false
-    question: "The debate between literary and genre fiction is primarily about objective measures of quality."
-    correct_answer: false
-    explanation: "The core idea indicates this 'reflects attitudes about readers, markets, and aesthetic value,' suggesting the debate involves subjective judgments and institutional power rather than objective quality measures."
-  - type: true-false
-    question: "Genre authors can now produce work of literary quality, and literary authors employ genre conventions."
-    correct_answer: true
-    explanation: "The core idea explicitly states that 'genre authors produce literary quality work and literary authors employ genre conventions,' confirming that both developments are occurring."
-  - type: short-answer
-    question: "What does it mean that the debate 'reflects attitudes about readers, markets, and aesthetic value'? How do attitudes toward readers relate to the literary/genre distinction?"
-    explanation: "A good answer should recognize that the distinction often reflects assumptions about audiences: literary fiction is assumed to be for serious, sophisticated readers; genre fiction for 'mass' readers seeking entertainment. But these distinctions reveal more about attitudes toward different reader communities than about actual quality or merit. Students should understand that the debate is sociological and political—about prestige and institutional power—rather than purely aesthetic."
+- question: What factors constitute the distinction between literary and genre fiction according to the core idea?
+  type: multiple-choice
+  options:
+  - Only length and publication format
+  - Questions of artistic ambition, style, subject matter, and cultural prestige
+  - Genre determines the authors' skill level
+  - Publication date and copyright holder
+  answer: 1
+  explanation: The core idea lists the factors creating the distinction as 'artistic ambition, style, subject matter, and cultural prestige,' identifying these as the dimensions along which literary and genre fiction are differentiated.
+
+- question: How is the boundary between literary and genre fiction changing according to contemporary literature?
+  type: multiple-choice
+  options:
+  - It is becoming more sharply defined
+  - It is increasingly eroded, with genre authors producing literary quality work and vice versa
+  - Genre fiction is disappearing entirely
+  - Literary fiction is losing all connection to genre
+  answer: 1
+  explanation: The core idea states that 'contemporary literature increasingly erodes these boundaries, with genre authors producing literary quality work and literary authors employing genre conventions,' indicating the distinction is becoming less stable.
+
+- question: The debate between literary and genre fiction is primarily about objective measures of quality.
+  type: true-false
+  answer: false
+  explanation: The core idea indicates this 'reflects attitudes about readers, markets, and aesthetic value,' suggesting the debate involves subjective judgments and institutional power rather than objective quality measures.
+
+- question: Genre authors can now produce work of literary quality, and literary authors employ genre conventions.
+  type: true-false
+  answer: true
+  explanation: The core idea explicitly states that 'genre authors produce literary quality work and literary authors employ genre conventions,' confirming that both developments are occurring.
+
+- question: What does it mean that the debate 'reflects attitudes about readers, markets, and aesthetic value'? How do attitudes toward readers relate to the literary/genre distinction?
+  type: short-answer
+  explanation: 'A good answer should recognize that the distinction often reflects assumptions about audiences: literary fiction is assumed to be for serious, sophisticated readers; genre fiction for ''mass'' readers seeking entertainment. But these distinctions reveal more about attitudes toward different reader communities than about actual quality or merit. Students should understand that the debate is sociological and political—about prestige and institutional power—rather than purely aesthetic.'
 ```
 
 ## Explainer

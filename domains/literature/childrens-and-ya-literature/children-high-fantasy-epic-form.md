@@ -27,35 +27,39 @@ High fantasy in children's literature employs epic form: vast scope, multi-book 
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What distinguishes high fantasy from other children's fantasy genres?"
-    options:
-      - "High fantasy has minimal plot or character development"
-      - "High fantasy employs epic form with vast scope, mythic stakes (often good versus evil), and quests or conflicts with world-changing consequences"
-      - "High fantasy occurs only in realistic settings"
-      - "High fantasy excludes any coming-of-age elements"
-    answer: 1
-    explanation: "High fantasy is characterized by epic scope and scale—multiple characters, races, and cultures; stakes involving entire worlds or universes; multi-book narratives exploring mythic themes."
-  - question: "How do contemporary high fantasy series like Harry Potter combine epic form with coming-of-age narrative?"
-    options:
-      - "They eliminate character development in favor of plot"
-      - "They locate the protagonist's personal growth and identity formation (coming-of-age) within an epic struggle with world-scale stakes"
-      - "They prevent the protagonist from participating in the larger conflict"
-      - "They separate personal and epic narratives into different storylines"
-    answer: 1
-    explanation: "Contemporary high fantasy weaves together the protagonist's personal developmental journey with larger narrative stakes—the character comes of age while the world itself is threatened or transformed."
+- question: What distinguishes high fantasy from other children's fantasy genres?
+  type: multiple-choice
+  options:
+  - High fantasy has minimal plot or character development
+  - High fantasy employs epic form with vast scope, mythic stakes (often good versus evil), and quests or conflicts with world-changing consequences
+  - High fantasy occurs only in realistic settings
+  - High fantasy excludes any coming-of-age elements
+  answer: 1
+  explanation: High fantasy is characterized by epic scope and scale—multiple characters, races, and cultures; stakes involving entire worlds or universes; multi-book narratives exploring mythic themes.
 
-true-false:
-  - question: "True or False: High fantasy typically spans multiple books and develops world-scale conflicts and mythic themes."
-    answer: true
-    explanation: "This is true. High fantasy series are designed to unfold over multiple volumes, allowing complex world-building and epic-scale conflicts to develop fully."
-  - question: "True or False: High fantasy requires that characters from different races or species play meaningful roles in the narrative."
-    answer: true
-    explanation: "This is true. High fantasy typically features diverse character types and species, allowing the narrative to explore themes of difference, cooperation, and unity across groups."
+- question: How do contemporary high fantasy series like Harry Potter combine epic form with coming-of-age narrative?
+  type: multiple-choice
+  options:
+  - They eliminate character development in favor of plot
+  - They locate the protagonist's personal growth and identity formation (coming-of-age) within an epic struggle with world-scale stakes
+  - They prevent the protagonist from participating in the larger conflict
+  - They separate personal and epic narratives into different storylines
+  answer: 1
+  explanation: Contemporary high fantasy weaves together the protagonist's personal developmental journey with larger narrative stakes—the character comes of age while the world itself is threatened or transformed.
 
-short-answer:
-  - question: "Why do high fantasy narratives often span multiple books rather than being contained in a single volume, and what narrative effects does this extended scope create?"
-    explanation: "Multiple-book structure allows high fantasy to develop both epic-scale conflicts and coming-of-age narratives that neither could fully accomplish alone. A single book cannot adequately develop complex secondary worlds, explore multiple character perspectives and relationships, escalate mythic conflicts toward climactic resolution, and show a protagonist's maturation across years. Extended scope allows readers to experience the passage of time alongside characters, developing deep investment in their growth and stakes. Multi-book narratives also enable authors to introduce complications, revelations, and reversals that single-book structures cannot accommodate, creating more complex storytelling. Additionally, the extended reading relationship developed through multi-book series creates stronger emotional engagement—readers spend years with characters, developing intimate knowledge and investment that differs from single-book experience."
+- question: 'True or False: High fantasy typically spans multiple books and develops world-scale conflicts and mythic themes.'
+  type: true-false
+  answer: true
+  explanation: This is true. High fantasy series are designed to unfold over multiple volumes, allowing complex world-building and epic-scale conflicts to develop fully.
+
+- question: 'True or False: High fantasy requires that characters from different races or species play meaningful roles in the narrative.'
+  type: true-false
+  answer: true
+  explanation: This is true. High fantasy typically features diverse character types and species, allowing the narrative to explore themes of difference, cooperation, and unity across groups.
+
+- question: Why do high fantasy narratives often span multiple books rather than being contained in a single volume, and what narrative effects does this extended scope create?
+  type: short-answer
+  explanation: Multiple-book structure allows high fantasy to develop both epic-scale conflicts and coming-of-age narratives that neither could fully accomplish alone. A single book cannot adequately develop complex secondary worlds, explore multiple character perspectives and relationships, escalate mythic conflicts toward climactic resolution, and show a protagonist's maturation across years. Extended scope allows readers to experience the passage of time alongside characters, developing deep investment in their growth and stakes. Multi-book narratives also enable authors to introduce complications, revelations, and reversals that single-book structures cannot accommodate, creating more complex storytelling. Additionally, the extended reading relationship developed through multi-book series creates stronger emotional engagement—readers spend years with characters, developing intimate knowledge and investment that differs from single-book experience.
 ```
 
 ## Explainer

@@ -30,35 +30,40 @@ Identify moments of high suspense in a story. What creates the uncertainty? What
 ## Questions
 
 ```yaml
-- question: "A character is waiting for test results that will determine their diagnosis. The story shows their anxiety, their attempts to distract themselves, and their inability to focus on anything else while waiting. No danger is present, no action occurs. Does this create genuine suspense?"
+- question: A character is waiting for test results that will determine their diagnosis. The story shows their anxiety, their attempts to distract themselves, and their inability to focus on anything else while waiting. No danger is present, no action occurs. Does this create genuine suspense?
+  type: multiple-choice
   options:
-    - "No, suspense requires danger or violence"
-    - "Yes, this creates genuine suspense. Suspense comes from uncertainty and emotional stakes. Not knowing whether the diagnosis is serious creates real tension. Readers feel the character's anxiety and anticipation. Suspense is created by what matters to the character, not by external danger"
-    - "Waiting isn't interesting"
-    - "Only action creates tension"
+  - No, suspense requires danger or violence
+  - Yes, this creates genuine suspense. Suspense comes from uncertainty and emotional stakes. Not knowing whether the diagnosis is serious creates real tension. Readers feel the character's anxiety and anticipation. Suspense is created by what matters to the character, not by external danger
+  - Waiting isn't interesting
+  - Only action creates tension
   answer: 1
-  explanation: "Suspense comes from uncertainty and stakes, whether physical, emotional, romantic, or existential. A character waiting for life-changing news creates suspense through emotional stakes alone. Understanding this shows that suspense is universal and not limited to action or danger."
+  explanation: Suspense comes from uncertainty and stakes, whether physical, emotional, romantic, or existential. A character waiting for life-changing news creates suspense through emotional stakes alone. Understanding this shows that suspense is universal and not limited to action or danger.
 
-- question: "A story reveals a secret on page 50 of a 300-page novel. The reader now knows what's coming, though the characters don't yet. What happens to suspense?"
+- question: A story reveals a secret on page 50 of a 300-page novel. The reader now knows what's coming, though the characters don't yet. What happens to suspense?
+  type: multiple-choice
   options:
-    - "Suspense increases"
-    - "Suspense shifts. Rather than 'what is the secret?' readers now wonder 'when will the characters find out?' and 'how will they react?' Information can be withheld from characters while readers know it, creating dramatic tension. This is different from the suspense of not knowing, but it's still tension-building"
-    - "The story is ruined"
-    - "Revealing information always kills suspense"
+  - Suspense increases
+  - Suspense shifts. Rather than 'what is the secret?' readers now wonder 'when will the characters find out?' and 'how will they react?' Information can be withheld from characters while readers know it, creating dramatic tension. This is different from the suspense of not knowing, but it's still tension-building
+  - The story is ruined
+  - Revealing information always kills suspense
   answer: 1
-  explanation: "Withholding information can create suspense, but so can revealing it early to readers while characters remain in the dark. This creates dramatic irony: readers see complications coming that characters don't see. This is sophisticated suspense-building."
+  explanation: 'Withholding information can create suspense, but so can revealing it early to readers while characters remain in the dark. This creates dramatic irony: readers see complications coming that characters don''t see. This is sophisticated suspense-building.'
 
-- question: "True or False: A story with constant fast-paced action maintains suspense most effectively."
+- question: 'True or False: A story with constant fast-paced action maintains suspense most effectively.'
+  type: true-false
   answer: false
-  explanation: "Constant action without variation can actually reduce suspense—readers become numbed. Pacing is crucial: varying fast and slow moments, action and reflection, creates better overall tension. A slow, tense scene can be more suspenseful than rapid action."
+  explanation: 'Constant action without variation can actually reduce suspense—readers become numbed. Pacing is crucial: varying fast and slow moments, action and reflection, creates better overall tension. A slow, tense scene can be more suspenseful than rapid action.'
 
-- question: "True or False: Surprise and suspense are the same thing."
+- question: 'True or False: Surprise and suspense are the same thing.'
+  type: true-false
   answer: false
-  explanation: "Suspense builds through anticipation—readers wonder what will happen. Surprise arrives when something unexpected occurs. They're related but distinct. A story can have suspense without surprise (readers predict correctly), or surprise without suspense (something unexpected happens without prior tension). The most engaging stories often have both."
+  explanation: Suspense builds through anticipation—readers wonder what will happen. Surprise arrives when something unexpected occurs. They're related but distinct. A story can have suspense without surprise (readers predict correctly), or surprise without suspense (something unexpected happens without prior tension). The most engaging stories often have both.
 
-- question: "A story establishes: a character has a deadline to make a crucial decision; the stakes are high (their future depends on the decision); multiple people are pressuring them in different directions; information they need to make the decision is unreliable or incomplete. How do all these elements work together to create suspense?"
-  answer: "Each element contributes to tension. The deadline creates time pressure. High stakes mean the decision truly matters. Multiple pressures create conflict within the character. Unreliable information means the character can't be confident about the right choice. Together, these elements stack uncertainty: the reader doesn't know what choice the character will make, whether the choice will be right, what the consequences will be. The character's anxiety becomes the reader's anxiety. The combination of time pressure + stakes + conflict + uncertainty creates strong suspense because multiple dimensions of tension reinforce each other."
-  explanation: "This tests understanding that suspense is built through multiple interlocking elements. Authors layer uncertainty, stakes, pressure, and time constraints to create accumulated tension that keeps readers engaged."
+- question: 'A story establishes: a character has a deadline to make a crucial decision; the stakes are high (their future depends on the decision); multiple people are pressuring them in different directions; information they need to make the decision is unreliable or incomplete. How do all these elements work together to create suspense?'
+  type: short-answer
+  answer: 'Each element contributes to tension. The deadline creates time pressure. High stakes mean the decision truly matters. Multiple pressures create conflict within the character. Unreliable information means the character can''t be confident about the right choice. Together, these elements stack uncertainty: the reader doesn''t know what choice the character will make, whether the choice will be right, what the consequences will be. The character''s anxiety becomes the reader''s anxiety. The combination of time pressure + stakes + conflict + uncertainty creates strong suspense because multiple dimensions of tension reinforce each other.'
+  explanation: This tests understanding that suspense is built through multiple interlocking elements. Authors layer uncertainty, stakes, pressure, and time constraints to create accumulated tension that keeps readers engaged.
 ```
 
 ## Explainer

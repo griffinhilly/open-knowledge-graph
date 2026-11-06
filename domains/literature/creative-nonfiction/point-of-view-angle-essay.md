@@ -27,39 +27,39 @@ Essays and memoirs are inherently perspectival, shaped by the writer's position,
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What does it mean to say essays are 'inherently perspectival'?"
+- question: What does it mean to say essays are 'inherently perspectival'?
+  type: multiple-choice
   options:
-    - "Essays must always be written in first person."
-    - "Essays can only describe what the writer directly observed."
-    - "No essay can be objective; all are shaped by the writer's position, experience, knowledge, and time."
-    - "Perspective is a problem that good writers eliminate."
+  - Essays must always be written in first person.
+  - Essays can only describe what the writer directly observed.
+  - No essay can be objective; all are shaped by the writer's position, experience, knowledge, and time.
+  - Perspective is a problem that good writers eliminate.
   answer: 2
-  explanation: "Perspectival means shaped by point of view. Even an essayist trying to be neutral cannot escape their own perspective—what they know, what they were taught, what they've experienced. A writer from a particular generation, culture, or social position will understand events differently than someone from a different position. Rather than viewing this as a flaw, contemporary nonfiction theory treats perspective as inevitable and meaningful. The writer's position is part of what's being conveyed."
+  explanation: Perspectival means shaped by point of view. Even an essayist trying to be neutral cannot escape their own perspective—what they know, what they were taught, what they've experienced. A writer from a particular generation, culture, or social position will understand events differently than someone from a different position. Rather than viewing this as a flaw, contemporary nonfiction theory treats perspective as inevitable and meaningful. The writer's position is part of what's being conveyed.
 
-- type: multiple-choice
-  question: "What is the advantage of 'explicitly playing with perspective' or 'acknowledging limits' in nonfiction?"
+- question: What is the advantage of 'explicitly playing with perspective' or 'acknowledging limits' in nonfiction?
+  type: multiple-choice
   options:
-    - "It makes the writing weaker and less credible."
-    - "It prevents readers from understanding the essay."
-    - "It creates honesty and complexity by showing the reader how the writer's position shapes understanding."
-    - "It is never appropriate in serious nonfiction."
+  - It makes the writing weaker and less credible.
+  - It prevents readers from understanding the essay.
+  - It creates honesty and complexity by showing the reader how the writer's position shapes understanding.
+  - It is never appropriate in serious nonfiction.
   answer: 2
-  explanation: "When a writer acknowledges 'I can only tell this story from my position as an outsider' or shifts between different witnesses' accounts of an event, it creates transparency about perspective. Rather than pretending to omniscience, this approach respects the reader's intelligence and creates more complex, believable accounts. It shows that the writer understands how perspective works. Examples include Roxane Gay's personal essays that explore multiple perspectives, or books that intentionally present conflicting accounts."
+  explanation: When a writer acknowledges 'I can only tell this story from my position as an outsider' or shifts between different witnesses' accounts of an event, it creates transparency about perspective. Rather than pretending to omniscience, this approach respects the reader's intelligence and creates more complex, believable accounts. It shows that the writer understands how perspective works. Examples include Roxane Gay's personal essays that explore multiple perspectives, or books that intentionally present conflicting accounts.
 
-- type: true-false
-  statement: "True: Understanding how perspective shapes nonfiction helps writers make deliberate choices about whose viewpoint to privilege and what stories to tell."
+- question: 'True: Understanding how perspective shapes nonfiction helps writers make deliberate choices about whose viewpoint to privilege and what stories to tell.'
+  type: true-false
   answer: true
-  explanation: "Once a writer recognizes that perspective is not invisible, they can make intentional choices. Should this essay be told from my viewpoint or someone else's? Should I acknowledge perspectives I cannot access? Should I present multiple viewpoints on the same event? These become craft decisions rather than unexamined defaults. A writer aware of perspective's power can use it deliberately."
+  explanation: Once a writer recognizes that perspective is not invisible, they can make intentional choices. Should this essay be told from my viewpoint or someone else's? Should I acknowledge perspectives I cannot access? Should I present multiple viewpoints on the same event? These become craft decisions rather than unexamined defaults. A writer aware of perspective's power can use it deliberately.
 
-- type: true-false
-  statement: "True: An essay can never contain multiple viewpoints or perspectives; it must come from a single coherent viewpoint throughout."
+- question: 'True: An essay can never contain multiple viewpoints or perspectives; it must come from a single coherent viewpoint throughout.'
+  type: true-false
   answer: false
-  explanation: "Many contemporary essays deliberately employ multiple perspectives. Some move between the writer's current understanding and past naiveté. Others juxtapose the writer's perspective with historical accounts, expert testimony, or other witnesses' accounts. This multiplicity of perspective creates richness and acknowledges that complex subjects cannot be captured from a single angle. The form is flexible enough to incorporate shifting or conflicting viewpoints."
+  explanation: Many contemporary essays deliberately employ multiple perspectives. Some move between the writer's current understanding and past naiveté. Others juxtapose the writer's perspective with historical accounts, expert testimony, or other witnesses' accounts. This multiplicity of perspective creates richness and acknowledges that complex subjects cannot be captured from a single angle. The form is flexible enough to incorporate shifting or conflicting viewpoints.
 
-- type: short-answer
-  question: "Consider an event you could write about from multiple perspectives (a family argument, a historical incident, a social conflict). How would the essay differ if told from each perspective? What does perspective shape—what facts are noticed, what interpretation is offered, what gets included or excluded?"
-  explanation: "A family conflict might be experienced as 'I was wrongly blamed for something' from one family member's perspective, 'I was defending my child' from another, and 'I felt unsafe and invisible' from a third. The same argument looks entirely different depending on whose perspective shapes the account. One perspective might focus on words said, another on tone and facial expressions, another on the historical pattern the conflict continued. What is 'true' becomes complicated when perspective enters. An essay aware of this multiplicity might present multiple accounts explicitly, or acknowledge which perspective is being privileged and why. The work reveals how perspective shapes truth itself."
+- question: Consider an event you could write about from multiple perspectives (a family argument, a historical incident, a social conflict). How would the essay differ if told from each perspective? What does perspective shape—what facts are noticed, what interpretation is offered, what gets included or excluded?
+  type: short-answer
+  explanation: A family conflict might be experienced as 'I was wrongly blamed for something' from one family member's perspective, 'I was defending my child' from another, and 'I felt unsafe and invisible' from a third. The same argument looks entirely different depending on whose perspective shapes the account. One perspective might focus on words said, another on tone and facial expressions, another on the historical pattern the conflict continued. What is 'true' becomes complicated when perspective enters. An essay aware of this multiplicity might present multiple accounts explicitly, or acknowledge which perspective is being privileged and why. The work reveals how perspective shapes truth itself.
 ```
 
 ## Explainer

@@ -29,36 +29,39 @@ Compare Stephenie Meyer's Twilight with paranormal romances that deconstruct the
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "In paranormal romance, what is the primary function of supernatural elements?"
-    options:
-      - "To replace the romantic relationship as the main focus of the story"
-      - "To create dramatic tension and obstacles that complicate intimacy and trust"
-      - "To provide action sequences unrelated to the emotional arc"
-      - "To appeal exclusively to fantasy readers rather than romance readers"
-    correct_answer: 1
-    explanation: "The core idea states that paranormal elements 'create dramatic tension through otherness-as-attraction and the obstacles that supernatural nature imposes,' meaning they fundamentally challenge the romantic relationship itself."
-  - type: multiple-choice
-    question: "Which of the following best describes 'otherness-as-attraction' in paranormal romance?"
-    options:
-      - "The protagonist is attracted to someone from a different culture"
-      - "The protagonist is drawn to someone precisely because their supernatural nature makes them different and dangerous"
-      - "The protagonist prefers fictional characters to real people"
-      - "The protagonist is afraid of the other character but pursues them anyway"
-    correct_answer: 1
-    explanation: "Otherness-as-attraction is when the supernatural difference itself becomes a source of romantic appeal—the vampire's immortality, the werewolf's primal nature, the god's power—these create fascination precisely because they are different and transgressive."
-  - type: true-false
-    question: "In paranormal romance, the supernatural element can completely replace the emotional core of the romantic relationship."
-    correct_answer: false
-    explanation: "The core idea emphasizes that 'the romance remains central; the paranormal element creates dramatic tension.' Romance genre conventions require the romantic relationship to stay at the heart of the narrative."
-  - type: true-false
-    question: "Paranormal romance often explores the complications that immortality or supernatural powers create for intimate relationships."
-    correct_answer: true
-    explanation: "The core idea specifically mentions that supernatural elements explore 'how the supernatural complicates intimacy, trust, and mortality,' showing how the paranormal nature of the partner creates unique relationship challenges."
-  - type: short-answer
-    question: "How does the balance between romance and paranormal elements differ between Twilight and more deconstructive paranormal romances like Anita Blake?"
-    explanation: "A strong answer should explain that Twilight prioritizes the romance with paranormal elements serving as backdrop, while deconstuctive versions like Anita Blake question whether the romance can sustain the paranormal power imbalances and danger. Students should demonstrate understanding of how different authors choose to weight romance versus paranormal elements."
+- question: In paranormal romance, what is the primary function of supernatural elements?
+  type: multiple-choice
+  options:
+  - To replace the romantic relationship as the main focus of the story
+  - To create dramatic tension and obstacles that complicate intimacy and trust
+  - To provide action sequences unrelated to the emotional arc
+  - To appeal exclusively to fantasy readers rather than romance readers
+  answer: 1
+  explanation: The core idea states that paranormal elements 'create dramatic tension through otherness-as-attraction and the obstacles that supernatural nature imposes,' meaning they fundamentally challenge the romantic relationship itself.
+
+- question: Which of the following best describes 'otherness-as-attraction' in paranormal romance?
+  type: multiple-choice
+  options:
+  - The protagonist is attracted to someone from a different culture
+  - The protagonist is drawn to someone precisely because their supernatural nature makes them different and dangerous
+  - The protagonist prefers fictional characters to real people
+  - The protagonist is afraid of the other character but pursues them anyway
+  answer: 1
+  explanation: Otherness-as-attraction is when the supernatural difference itself becomes a source of romantic appeal—the vampire's immortality, the werewolf's primal nature, the god's power—these create fascination precisely because they are different and transgressive.
+
+- question: In paranormal romance, the supernatural element can completely replace the emotional core of the romantic relationship.
+  type: true-false
+  answer: false
+  explanation: The core idea emphasizes that 'the romance remains central; the paranormal element creates dramatic tension.' Romance genre conventions require the romantic relationship to stay at the heart of the narrative.
+
+- question: Paranormal romance often explores the complications that immortality or supernatural powers create for intimate relationships.
+  type: true-false
+  answer: true
+  explanation: The core idea specifically mentions that supernatural elements explore 'how the supernatural complicates intimacy, trust, and mortality,' showing how the paranormal nature of the partner creates unique relationship challenges.
+
+- question: How does the balance between romance and paranormal elements differ between Twilight and more deconstructive paranormal romances like Anita Blake?
+  type: short-answer
+  explanation: A strong answer should explain that Twilight prioritizes the romance with paranormal elements serving as backdrop, while deconstuctive versions like Anita Blake question whether the romance can sustain the paranormal power imbalances and danger. Students should demonstrate understanding of how different authors choose to weight romance versus paranormal elements.
 ```
 
 ## Explainer

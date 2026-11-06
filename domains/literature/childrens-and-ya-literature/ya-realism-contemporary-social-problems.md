@@ -27,35 +27,39 @@ YA realism engages directly with contemporary social issues—racism, LGBTQ+ ide
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What is distinctive about how YA realism approaches social issues compared to literature that avoids them?"
-    options:
-      - "YA realism should simplify social issues into simple lessons"
-      - "YA realism treats social issues as genuinely central to adolescent experience, engaging with complexity and often offering no easy resolutions"
-      - "Realism means avoiding difficult topics"
-      - "Young readers cannot engage with complex social issues"
-    answer: 1
-    explanation: "YA realism directly addresses social issues as adolescents actually encounter them—complexly, without clear solutions, as integrated parts of life rather than external problems."
-  - question: "What does it mean that YA realism assumes young readers are capable of grappling with difficult social realities?"
-    options:
-      - "Young people are fragile and should be shielded from reality"
-      - "The assumption respects adolescents' intelligence, lived experience, and capacity to engage with serious issues while providing narrative support for processing"
-      - "Difficult topics should be completely avoided in YA literature"
-      - "All young people should experience the same level of difficulty"
-    answer: 1
-    explanation: "YA realism respects young readers' capacity to understand complexity while providing narrative frameworks for processing difficult material."
+- question: What is distinctive about how YA realism approaches social issues compared to literature that avoids them?
+  type: multiple-choice
+  options:
+  - YA realism should simplify social issues into simple lessons
+  - YA realism treats social issues as genuinely central to adolescent experience, engaging with complexity and often offering no easy resolutions
+  - Realism means avoiding difficult topics
+  - Young readers cannot engage with complex social issues
+  answer: 1
+  explanation: YA realism directly addresses social issues as adolescents actually encounter them—complexly, without clear solutions, as integrated parts of life rather than external problems.
 
-true-false:
-  - question: "True or False: YA realism depicting systemic racism or inequality is promoting activism or advocating specific political positions."
-    answer: false
-    explanation: "This is false. Depicting reality is not equivalent to advocating. Realism showing systemic issues accurately is different from literature promoting specific political solutions."
-  - question: "True or False: Adolescents actually encounter and are affected by contemporary social issues like racism, violence, and economic inequality."
-    answer: true
-    explanation: "This is true. Social issues are not abstract for most adolescents but lived realities affecting them, their families, and their communities."
+- question: What does it mean that YA realism assumes young readers are capable of grappling with difficult social realities?
+  type: multiple-choice
+  options:
+  - Young people are fragile and should be shielded from reality
+  - The assumption respects adolescents' intelligence, lived experience, and capacity to engage with serious issues while providing narrative support for processing
+  - Difficult topics should be completely avoided in YA literature
+  - All young people should experience the same level of difficulty
+  answer: 1
+  explanation: YA realism respects young readers' capacity to understand complexity while providing narrative frameworks for processing difficult material.
 
-short-answer:
-  - question: "Why do some people object to YA realism addressing difficult social issues, and what counterargument supports this approach?"
-    explanation: "Some object on the basis that young people should be protected from harsh realities—that literature should provide escape or comfort rather than confrontation with social problems. Others worry that depicting problems creates pessimism or despair. These concerns come from genuine care for young readers. The counterargument suggests that young people already live with these realities, either directly (if from affected communities) or as observers of others' experiences and as inhabitants of a world shaped by these issues. Denying difficult realities in literature doesn't protect young people—it isolates them, suggesting their actual experience is not narratively valid. Additionally, literature can provide more than escape: it can offer frameworks for understanding and processing difficulty, can show diverse responses and resistances, and can validate that grappling with serious issues is part of being human. YA realism assumes that engagement with difficult material, when handled thoughtfully, develops adolescents' capacity to understand and navigate the world they actually inhabit. Furthermore, telling stories of difficulty from diverse perspectives—particularly from perspectives of people in affected communities—offers representation and validation to readers whose lived experience these issues are."
+- question: 'True or False: YA realism depicting systemic racism or inequality is promoting activism or advocating specific political positions.'
+  type: true-false
+  answer: false
+  explanation: This is false. Depicting reality is not equivalent to advocating. Realism showing systemic issues accurately is different from literature promoting specific political solutions.
+
+- question: 'True or False: Adolescents actually encounter and are affected by contemporary social issues like racism, violence, and economic inequality.'
+  type: true-false
+  answer: true
+  explanation: This is true. Social issues are not abstract for most adolescents but lived realities affecting them, their families, and their communities.
+
+- question: Why do some people object to YA realism addressing difficult social issues, and what counterargument supports this approach?
+  type: short-answer
+  explanation: 'Some object on the basis that young people should be protected from harsh realities—that literature should provide escape or comfort rather than confrontation with social problems. Others worry that depicting problems creates pessimism or despair. These concerns come from genuine care for young readers. The counterargument suggests that young people already live with these realities, either directly (if from affected communities) or as observers of others'' experiences and as inhabitants of a world shaped by these issues. Denying difficult realities in literature doesn''t protect young people—it isolates them, suggesting their actual experience is not narratively valid. Additionally, literature can provide more than escape: it can offer frameworks for understanding and processing difficulty, can show diverse responses and resistances, and can validate that grappling with serious issues is part of being human. YA realism assumes that engagement with difficult material, when handled thoughtfully, develops adolescents'' capacity to understand and navigate the world they actually inhabit. Furthermore, telling stories of difficulty from diverse perspectives—particularly from perspectives of people in affected communities—offers representation and validation to readers whose lived experience these issues are.'
 ```
 
 ## Explainer

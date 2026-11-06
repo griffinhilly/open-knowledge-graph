@@ -22,39 +22,39 @@ Essay collections achieve unity through thematic resonance, recurring preoccupat
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "How do essay collections create unity without narrative continuity?"
+- question: How do essay collections create unity without narrative continuity?
+  type: multiple-choice
   options:
-    - "They cannot be unified without a continuous story."
-    - "Through thematic resonance, recurring preoccupations, consistent voice, or patterns that emerge across essays."
-    - "Essay collections are inherently fragmented and cannot achieve unity."
-    - "Each essay is completely independent with no relationship to others."
+  - They cannot be unified without a continuous story.
+  - Through thematic resonance, recurring preoccupations, consistent voice, or patterns that emerge across essays.
+  - Essay collections are inherently fragmented and cannot achieve unity.
+  - Each essay is completely independent with no relationship to others.
   answer: 1
-  explanation: "Essay collections work through connection that's not narrative. You might have essays on different subjects, but they circle around common questions or preoccupations. The writer's voice creates consistency. Patterns emerge when you read across essays. Themes resonate between pieces. This creates coherence without plot or continuous storyline."
+  explanation: Essay collections work through connection that's not narrative. You might have essays on different subjects, but they circle around common questions or preoccupations. The writer's voice creates consistency. Patterns emerge when you read across essays. Themes resonate between pieces. This creates coherence without plot or continuous storyline.
 
-- type: multiple-choice
-  question: "What does it mean that essays in a collection become 'in conversation with one another'?"
+- question: What does it mean that essays in a collection become 'in conversation with one another'?
+  type: multiple-choice
   options:
-    - "The essays reference each other explicitly in the text."
-    - "Reading essays together reveals relationships, echoes, and patterns that make individual essays richer through context."
-    - "Essays must be about the same topic."
-    - "Conversation makes essay collections less unified, not more."
+  - The essays reference each other explicitly in the text.
+  - Reading essays together reveals relationships, echoes, and patterns that make individual essays richer through context.
+  - Essays must be about the same topic.
+  - Conversation makes essay collections less unified, not more.
   answer: 1
-  explanation: "Individual essays might stand alone, but when read as a collection, they resonate with each other. An essay about grief might echo themes in an essay about loss or absence. An essay about a childhood place might connect to essays about identity. Readers perceive these connections, making the collection feel unified around preoccupations even if subjects differ."
+  explanation: Individual essays might stand alone, but when read as a collection, they resonate with each other. An essay about grief might echo themes in an essay about loss or absence. An essay about a childhood place might connect to essays about identity. Readers perceive these connections, making the collection feel unified around preoccupations even if subjects differ.
 
-- type: true-false
-  statement: "True: A unified essay collection reveals the writer's evolving thinking across different subjects and moments."
+- question: 'True: A unified essay collection reveals the writer''s evolving thinking across different subjects and moments.'
+  type: true-false
   answer: true
-  explanation: "This is one way collections achieve unity. If essays are written over time, you can see how the writer's preoccupations develop, change, deepen. Early essays might grapple with a question; later essays approach it differently. This evolution across the collection creates arc and coherence."
+  explanation: This is one way collections achieve unity. If essays are written over time, you can see how the writer's preoccupations develop, change, deepen. Early essays might grapple with a question; later essays approach it differently. This evolution across the collection creates arc and coherence.
 
-- type: true-false
-  statement: "False: Stylistic consistency throughout an essay collection is unnecessary; each essay can have a completely different voice and style."
+- question: 'False: Stylistic consistency throughout an essay collection is unnecessary; each essay can have a completely different voice and style.'
+  type: true-false
   answer: false
-  explanation: "While essays can vary, stylistic consistency helps create unity. Readers recognize a writer's voice across pieces, even on different subjects. A recognizable sensibility, tone, or approach to language creates coherence. This doesn't mean all essays must sound identical, but a recognizable authorial voice strengthens collection unity."
+  explanation: While essays can vary, stylistic consistency helps create unity. Readers recognize a writer's voice across pieces, even on different subjects. A recognizable sensibility, tone, or approach to language creates coherence. This doesn't mean all essays must sound identical, but a recognizable authorial voice strengthens collection unity.
 
-- type: short-answer
-  question: "How does the arrangement of essays in a collection affect how readers understand unity? Why does order matter?"
-  explanation: "Order shapes meaning. An essay collection arranged thematically might show clear patterns—all essays about body, then all about memory. A chronological arrangement might show evolution in the writer's thinking. An arrangement that alternates between, say, personal essay and cultural criticism creates a different rhythm and reveals different relationships. The reader who encounters an essay about grief followed by an essay about hope understands both essays differently than a reader who encounters them in reverse order. Careful arrangement can emphasize the thematic and stylistic resonance between essays, making collection unity more apparent. Poor arrangement can obscure connections. So while individual essays can stand alone, the choice of order, the sequencing, the juxtaposition—these shape how readers experience the collection as unified."
+- question: How does the arrangement of essays in a collection affect how readers understand unity? Why does order matter?
+  type: short-answer
+  explanation: Order shapes meaning. An essay collection arranged thematically might show clear patterns—all essays about body, then all about memory. A chronological arrangement might show evolution in the writer's thinking. An arrangement that alternates between, say, personal essay and cultural criticism creates a different rhythm and reveals different relationships. The reader who encounters an essay about grief followed by an essay about hope understands both essays differently than a reader who encounters them in reverse order. Careful arrangement can emphasize the thematic and stylistic resonance between essays, making collection unity more apparent. Poor arrangement can obscure connections. So while individual essays can stand alone, the choice of order, the sequencing, the juxtaposition—these shape how readers experience the collection as unified.
 ```
 
 ## Explainer

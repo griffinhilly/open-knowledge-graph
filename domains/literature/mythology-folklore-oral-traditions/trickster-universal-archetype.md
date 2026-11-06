@@ -34,40 +34,39 @@ Tricksters are amoral villains. (Tricksters operate within their own value syste
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What is the primary characteristic that defines a Trickster figure across cultures?"
-    options:
-      - "Tricksters are evil demons seeking to corrupt morality"
-      - "Tricksters use cunning and deception, violate taboos and social rules, and exist at boundaries between categories"
-      - "Tricksters are minor comic relief with no deeper significance"
-      - "Tricksters always help people and represent pure good"
-    correct: "B"
-    explanation: "The Trickster is defined not by moral alignment but by boundary-crossing and rule-violation. Tricksters use cunning and deception; they violate taboos, cross social boundaries, and challenge established order. This makes them ambiguous figures—not clearly good or evil but disruptive and creative."
+- question: What is the primary characteristic that defines a Trickster figure across cultures?
+  type: multiple-choice
+  options:
+  - Tricksters are evil demons seeking to corrupt morality
+  - Tricksters use cunning and deception, violate taboos and social rules, and exist at boundaries between categories
+  - Tricksters are minor comic relief with no deeper significance
+  - Tricksters always help people and represent pure good
+  answer: 1
+  explanation: The Trickster is defined not by moral alignment but by boundary-crossing and rule-violation. Tricksters use cunning and deception; they violate taboos, cross social boundaries, and challenge established order. This makes them ambiguous figures—not clearly good or evil but disruptive and creative.
 
-  - type: multiple-choice
-    question: "What does a Trickster's transgression and boundary-crossing accomplish in mythic narrative?"
-    options:
-      - "It simply causes chaos with no constructive outcome"
-      - "It disrupts established order while revealing the arbitrariness of rules and enabling cultural change"
-      - "It proves that all morality is false"
-      - "It has no effect on the culture or narrative"
-    correct: "B"
-    explanation: "Trickster transgression is not merely destructive. By breaching boundaries and violating rules, tricksters reveal that rules are human constructions, not natural or inevitable. This disruption can enable cultural transformation—new possibilities open when rules are broken. Tricksters are liminal figures who make change possible."
+- question: What does a Trickster's transgression and boundary-crossing accomplish in mythic narrative?
+  type: multiple-choice
+  options:
+  - It simply causes chaos with no constructive outcome
+  - It disrupts established order while revealing the arbitrariness of rules and enabling cultural change
+  - It proves that all morality is false
+  - It has no effect on the culture or narrative
+  answer: 1
+  explanation: Trickster transgression is not merely destructive. By breaching boundaries and violating rules, tricksters reveal that rules are human constructions, not natural or inevitable. This disruption can enable cultural transformation—new possibilities open when rules are broken. Tricksters are liminal figures who make change possible.
 
-  - type: true-false
-    question: "Tricksters are amoral figures with no internal logic or values of their own."
-    correct: false
-    explanation: "Tricksters operate within their own value system, which may differ from official morality. They are not random but follow a coherent logic—it's just a logic that society doesn't recognize or accept. Understanding a trickster requires understanding their perspective, not dismissing them as random or valueless."
+- question: Tricksters are amoral figures with no internal logic or values of their own.
+  type: true-false
+  answer: false
+  explanation: Tricksters operate within their own value system, which may differ from official morality. They are not random but follow a coherent logic—it's just a logic that society doesn't recognize or accept. Understanding a trickster requires understanding their perspective, not dismissing them as random or valueless.
 
-  - type: true-false
-    question: "The Trickster archetype functions identically whether it appears in oral tradition or in literary written works."
-    correct: false
-    explanation: "Oral tricksters (like Anansi, Coyote) and literary tricksters serve different narrative functions. Oral tricksters often work as culture heroes and enable transformation; literary tricksters often work as critique or commentary on society. The form shapes the function."
+- question: The Trickster archetype functions identically whether it appears in oral tradition or in literary written works.
+  type: true-false
+  answer: false
+  explanation: Oral tricksters (like Anansi, Coyote) and literary tricksters serve different narrative functions. Oral tricksters often work as culture heroes and enable transformation; literary tricksters often work as critique or commentary on society. The form shapes the function.
 
-  - type: short-answer
-    question: "Explain what cultural work Trickster narratives accomplish by depicting boundary-crossing and taboo violation."
-    explanation: "Trickster narratives allow cultures to explore questions about rules, boundaries, and the arbitrariness of social order. By depicting a figure who violates taboos and crosses boundaries, the narrative asks: Why do these rules exist? What happens when they're broken? Are they necessary or arbitrary? This intellectual and emotional work happens at a safe narrative distance. The culture can contemplate violation without actual transgression. Moreover, trickster narratives often show that taboo-breaking has consequences—the trickster may be punished, or the violation may backfire—which reinforces the rule's importance. Yet at the same time, trickster tales often show that rule-breaking reveals possibilities hidden by the rules themselves. A culture can thus hold both: rules are necessary, AND rule-breaking is potentially creative. This allows the culture to maintain order while acknowledging that order is human construction, not absolute necessity."
+- question: Explain what cultural work Trickster narratives accomplish by depicting boundary-crossing and taboo violation.
+  type: short-answer
+  explanation: 'Trickster narratives allow cultures to explore questions about rules, boundaries, and the arbitrariness of social order. By depicting a figure who violates taboos and crosses boundaries, the narrative asks: Why do these rules exist? What happens when they''re broken? Are they necessary or arbitrary? This intellectual and emotional work happens at a safe narrative distance. The culture can contemplate violation without actual transgression. Moreover, trickster narratives often show that taboo-breaking has consequences—the trickster may be punished, or the violation may backfire—which reinforces the rule''s importance. Yet at the same time, trickster tales often show that rule-breaking reveals possibilities hidden by the rules themselves. A culture can thus hold both: rules are necessary, AND rule-breaking is potentially creative. This allows the culture to maintain order while acknowledging that order is human construction, not absolute necessity.'
 ```
 
 ## Explainer

@@ -35,35 +35,40 @@ Read the opening paragraphs of several stories and identify what information is 
 ## Questions
 
 ```yaml
-- question: "A story opens: 'Maria had worked at the bakery for five years. Every morning at 4 AM, she arrived to start the ovens. Her boss, Tom, had taken a vacation for two weeks, leaving Maria in charge. Today, a food inspector was coming.' What is happening here?"
+- question: 'A story opens: ''Maria had worked at the bakery for five years. Every morning at 4 AM, she arrived to start the ovens. Her boss, Tom, had taken a vacation for two weeks, leaving Maria in charge. Today, a food inspector was coming.'' What is happening here?'
+  type: multiple-choice
   options:
-    - "This is exposition introducing background and establishing the current situation"
-    - "This is the climax where Maria faces her biggest test"
-    - "This is rising action moving the plot forward"
-    - "This is the resolution wrapping up the story"
+  - This is exposition introducing background and establishing the current situation
+  - This is the climax where Maria faces her biggest test
+  - This is rising action moving the plot forward
+  - This is the resolution wrapping up the story
   answer: 0
-  explanation: "Exposition provides essential background: who Maria is, what her job is, the current situation (Tom away, inspector coming), and why we should care. This sets up the story; the plot events will begin from here."
+  explanation: 'Exposition provides essential background: who Maria is, what her job is, the current situation (Tom away, inspector coming), and why we should care. This sets up the story; the plot events will begin from here.'
 
-- question: "An author writes exposition as dialogue: 'I've been in this town for years,' said Marcus to a stranger. 'Ever since I lost my job and couldn't afford to leave.' What is the author doing?"
+- question: 'An author writes exposition as dialogue: ''I''ve been in this town for years,'' said Marcus to a stranger. ''Ever since I lost my job and couldn''t afford to leave.'' What is the author doing?'
+  type: multiple-choice
   options:
-    - "Making the exposition feel awkward and unnatural"
-    - "Embedding exposition naturally in dialogue so it doesn't feel like information-dumping"
-    - "Proving that exposition cannot be handled well"
-    - "Telling the reader facts directly without showing anything"
+  - Making the exposition feel awkward and unnatural
+  - Embedding exposition naturally in dialogue so it doesn't feel like information-dumping
+  - Proving that exposition cannot be handled well
+  - Telling the reader facts directly without showing anything
   answer: 1
-  explanation: "Skilled writers embed exposition in dialogue, action, and narrative so it doesn't feel like an information dump. Marcus explaining his situation feels natural within conversation, making readers learn background without feeling lectured."
+  explanation: Skilled writers embed exposition in dialogue, action, and narrative so it doesn't feel like an information dump. Marcus explaining his situation feels natural within conversation, making readers learn background without feeling lectured.
 
-- question: "True or False: Exposition must all be presented in the first paragraph or two of a story."
+- question: 'True or False: Exposition must all be presented in the first paragraph or two of a story.'
+  type: true-false
   answer: false
-  explanation: "While important background often comes early, exposition can be distributed throughout a story. Readers don't need all information at once. Authors often reveal context gradually, keeping some background mysterious until later revelations make sense."
+  explanation: While important background often comes early, exposition can be distributed throughout a story. Readers don't need all information at once. Authors often reveal context gradually, keeping some background mysterious until later revelations make sense.
 
-- question: "True or False: Exposition is the plot of the story."
+- question: 'True or False: Exposition is the plot of the story.'
+  type: true-false
   answer: false
-  explanation: "Exposition is background information that sets up the story. The plot consists of events and conflicts that happen because of this background. Exposition is the scaffolding; the plot is what happens on the scaffolding."
+  explanation: Exposition is background information that sets up the story. The plot consists of events and conflicts that happen because of this background. Exposition is the scaffolding; the plot is what happens on the scaffolding.
 
-- question: "Two writers open their stories differently. Writer A: 'Sarah lived in a small town called Millbrook, population 3,000. The town had one main street, two churches, and a library. Millbrook was founded in 1847 as a mill town. Most families had lived there for generations.' Writer B: 'Sarah had never left Millbrook. Her family's name was on the library's founding plaque. Walking home, she passed the same three stores she'd passed every day of her life.' Which writer has handled exposition more effectively, and why?"
-  answer: "Writer B handles exposition more effectively. Both writers convey similar information: Millbrook is small, established, and Sarah's family has deep roots. But Writer A delivers this as a list of facts that feels like a description or Wikipedia entry. Writer B weaves the same information into Sarah's lived experience—what she sees on her walk, what's meaningful to her. Writer B shows us the world through the character's perspective, making the exposition feel like part of the story rather than background reading. Good exposition is often invisible because it's embedded naturally in narrative and character experience."
-  explanation: "This tests understanding that exposition works best when it's integrated with storytelling rather than delivered as information. Students should recognize that the same factual information can be presented smoothly (showing through experience) or awkwardly (listing facts)."
+- question: 'Two writers open their stories differently. Writer A: ''Sarah lived in a small town called Millbrook, population 3,000. The town had one main street, two churches, and a library. Millbrook was founded in 1847 as a mill town. Most families had lived there for generations.'' Writer B: ''Sarah had never left Millbrook. Her family''s name was on the library''s founding plaque. Walking home, she passed the same three stores she''d passed every day of her life.'' Which writer has handled exposition more effectively, and why?'
+  type: short-answer
+  answer: 'Writer B handles exposition more effectively. Both writers convey similar information: Millbrook is small, established, and Sarah''s family has deep roots. But Writer A delivers this as a list of facts that feels like a description or Wikipedia entry. Writer B weaves the same information into Sarah''s lived experience—what she sees on her walk, what''s meaningful to her. Writer B shows us the world through the character''s perspective, making the exposition feel like part of the story rather than background reading. Good exposition is often invisible because it''s embedded naturally in narrative and character experience.'
+  explanation: This tests understanding that exposition works best when it's integrated with storytelling rather than delivered as information. Students should recognize that the same factual information can be presented smoothly (showing through experience) or awkwardly (listing facts).
 ```
 
 ## Explainer

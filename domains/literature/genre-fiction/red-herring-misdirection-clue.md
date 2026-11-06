@@ -33,36 +33,39 @@ Read a mystery in real time, marking which clues seem significant. Compare your 
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What is the primary function of red herrings in mystery fiction?"
-    options:
-      - "To provide comic relief in otherwise serious narratives"
-      - "To misdirect readers toward incorrect conclusions and maintain surprise"
-      - "To prove the detective is incompetent and make mistakes"
-      - "To extend the story length without adding substantive plot"
-    correct_answer: 1
-    explanation: "The core idea states that red herrings 'lead readers (and sometimes the detective) toward incorrect conclusions' and 'maintain surprise.' They strategically control reader expectations."
-  - type: multiple-choice
-    question: "Why do effective red herrings feel like genuine leads?"
-    options:
-      - "They are always more obvious than actual clues"
-      - "They exploit reader assumptions and narrative conventions"
-      - "They are accompanied by emotional reactions from characters"
-      - "They are explicitly labeled as unimportant by the narrator"
-    correct_answer: 1
-    explanation: "The core idea explains that effective red herrings work by 'exploiting reader assumptions and narrative conventions,' making them seem credible within the story's logic."
-  - type: true-false
-    question: "Red herrings in mystery fiction should be impossible to distinguish from actual clues."
-    correct_answer: false
-    explanation: "While effective red herrings seem like genuine leads, mystery writers use them strategically to control pacing and surprise. Good red herrings should seem plausible when encountered but make sense in hindsight as misdirection."
-  - type: true-false
-    question: "Red herrings serve the functional purpose of maintaining pacing rhythm in mystery narratives."
-    correct_answer: true
-    explanation: "The core idea explicitly states that 'red herrings create pacing rhythm and maintain surprise' in mystery fiction."
-  - type: short-answer
-    question: "How does a reader's attention and logical thinking contribute to the effectiveness of a red herring?"
-    explanation: "A strong answer should explain that red herrings test whether readers are paying careful attention and following logical inference. They reward attentive reading that tracks all clues systematically, while punishing readers who jump to conclusions based on narrative conventions. Students should demonstrate understanding that red herrings function because readers make assumptions based on literary convention, not because clues themselves are illogical."
+- question: What is the primary function of red herrings in mystery fiction?
+  type: multiple-choice
+  options:
+  - To provide comic relief in otherwise serious narratives
+  - To misdirect readers toward incorrect conclusions and maintain surprise
+  - To prove the detective is incompetent and make mistakes
+  - To extend the story length without adding substantive plot
+  answer: 1
+  explanation: The core idea states that red herrings 'lead readers (and sometimes the detective) toward incorrect conclusions' and 'maintain surprise.' They strategically control reader expectations.
+
+- question: Why do effective red herrings feel like genuine leads?
+  type: multiple-choice
+  options:
+  - They are always more obvious than actual clues
+  - They exploit reader assumptions and narrative conventions
+  - They are accompanied by emotional reactions from characters
+  - They are explicitly labeled as unimportant by the narrator
+  answer: 1
+  explanation: The core idea explains that effective red herrings work by 'exploiting reader assumptions and narrative conventions,' making them seem credible within the story's logic.
+
+- question: Red herrings in mystery fiction should be impossible to distinguish from actual clues.
+  type: true-false
+  answer: false
+  explanation: While effective red herrings seem like genuine leads, mystery writers use them strategically to control pacing and surprise. Good red herrings should seem plausible when encountered but make sense in hindsight as misdirection.
+
+- question: Red herrings serve the functional purpose of maintaining pacing rhythm in mystery narratives.
+  type: true-false
+  answer: true
+  explanation: The core idea explicitly states that 'red herrings create pacing rhythm and maintain surprise' in mystery fiction.
+
+- question: How does a reader's attention and logical thinking contribute to the effectiveness of a red herring?
+  type: short-answer
+  explanation: A strong answer should explain that red herrings test whether readers are paying careful attention and following logical inference. They reward attentive reading that tracks all clues systematically, while punishing readers who jump to conclusions based on narrative conventions. Students should demonstrate understanding that red herrings function because readers make assumptions based on literary convention, not because clues themselves are illogical.
 ```
 
 ## Explainer

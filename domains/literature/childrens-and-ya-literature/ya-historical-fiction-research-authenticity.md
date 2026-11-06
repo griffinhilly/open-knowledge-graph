@@ -26,35 +26,39 @@ Analyze YA historical fiction texts, examining how they balance historical detai
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What challenge does YA historical fiction face in balancing historical accuracy with reader accessibility?"
-    options:
-      - "There is no tension between accuracy and accessibility"
-      - "Historical language, customs, and values may alienate contemporary teen readers, so authors often use modern language and sensibilities while maintaining historical detail—a compromise requiring careful negotiation"
-      - "Accuracy is more important than accessibility"
-      - "Accessibility is more important than accuracy"
-    answer: 1
-    explanation: "YA historical fiction typically uses contemporary-feeling language and modern sensibilities (like contemporary attitudes toward gender/sexuality) within historical settings to make the past accessible while maintaining historical specificity."
-  - question: "Why are questions of authenticity and representation particularly fraught in YA historical fiction addressing marginalized perspectives?"
-    options:
-      - "They aren't fraught at all"
-      - "When historical narratives have typically centered dominant perspectives, reclaiming marginalized historical voices requires research, imagination, and careful ethical negotiation about representing experiences that were often erased or silenced"
-      - "Marginalized perspectives shouldn't appear in historical fiction"
-      - "Historical accuracy isn't important for marginalized narratives"
-    answer: 1
-    explanation: "YA historical fiction centering slave experiences, women's perspectives, or other marginalized groups must grapple with gaps in historical record while avoiding appropriation or misrepresentation."
+- question: What challenge does YA historical fiction face in balancing historical accuracy with reader accessibility?
+  type: multiple-choice
+  options:
+  - There is no tension between accuracy and accessibility
+  - Historical language, customs, and values may alienate contemporary teen readers, so authors often use modern language and sensibilities while maintaining historical detail—a compromise requiring careful negotiation
+  - Accuracy is more important than accessibility
+  - Accessibility is more important than accuracy
+  answer: 1
+  explanation: YA historical fiction typically uses contemporary-feeling language and modern sensibilities (like contemporary attitudes toward gender/sexuality) within historical settings to make the past accessible while maintaining historical specificity.
 
-true-false:
-  - question: "True or False: YA historical fiction should use period-accurate language and avoid modern sensibilities to achieve authenticity."
-    answer: false
-    explanation: "False. Most successful YA historical fiction balances period detail with contemporary voice/sensibility to create accessibility for teen readers without sacrificing historical specificity."
-  - question: "True or False: YA historical fiction serves educational functions by introducing readers to historical periods they might not otherwise encounter."
-    answer: true
-    explanation: "True. Many young readers encounter historical periods, figures, and events first through YA historical fiction, making these books significant educational tools."
+- question: Why are questions of authenticity and representation particularly fraught in YA historical fiction addressing marginalized perspectives?
+  type: multiple-choice
+  options:
+  - They aren't fraught at all
+  - When historical narratives have typically centered dominant perspectives, reclaiming marginalized historical voices requires research, imagination, and careful ethical negotiation about representing experiences that were often erased or silenced
+  - Marginalized perspectives shouldn't appear in historical fiction
+  - Historical accuracy isn't important for marginalized narratives
+  answer: 1
+  explanation: YA historical fiction centering slave experiences, women's perspectives, or other marginalized groups must grapple with gaps in historical record while avoiding appropriation or misrepresentation.
 
-short-answer:
-  - question: "Consider a YA historical fiction novel set in a period with significant differences from contemporary values (slavery, restricted women's roles, etc.). How does the author balance historical realism with avoiding alienating readers? What are the ethical implications of these choices?"
-    explanation: "Your answer should recognize that depicting historical injustice (slavery, racism, sexism) authentically might involve depicting prejudice, oppression, or hateful language while simultaneously avoiding alienating contemporary readers. Authors navigate this through: using contemporary attitudes in internal monologue while showing external constraints of the period; depicting discrimination realistically while centering marginalized characters' perspectives and resistance; including historical context that makes injustice comprehensible. Ethical implications include: Does modernizing internal attitudes misrepresent the historical period? Does depicting period-accurate prejudice risk normalizing it? What happens when centering marginalized perspectives requires imagining internal lives for people whose voices were silenced? These tensions don't have simple answers but require thoughtful authorial choices and reader awareness that historical fiction makes deliberate choices about what to emphasize, what perspective to center, and how to balance accuracy with accessibility."
+- question: 'True or False: YA historical fiction should use period-accurate language and avoid modern sensibilities to achieve authenticity.'
+  type: true-false
+  answer: false
+  explanation: False. Most successful YA historical fiction balances period detail with contemporary voice/sensibility to create accessibility for teen readers without sacrificing historical specificity.
+
+- question: 'True or False: YA historical fiction serves educational functions by introducing readers to historical periods they might not otherwise encounter.'
+  type: true-false
+  answer: true
+  explanation: True. Many young readers encounter historical periods, figures, and events first through YA historical fiction, making these books significant educational tools.
+
+- question: Consider a YA historical fiction novel set in a period with significant differences from contemporary values (slavery, restricted women's roles, etc.). How does the author balance historical realism with avoiding alienating readers? What are the ethical implications of these choices?
+  type: short-answer
+  explanation: 'Your answer should recognize that depicting historical injustice (slavery, racism, sexism) authentically might involve depicting prejudice, oppression, or hateful language while simultaneously avoiding alienating contemporary readers. Authors navigate this through: using contemporary attitudes in internal monologue while showing external constraints of the period; depicting discrimination realistically while centering marginalized characters'' perspectives and resistance; including historical context that makes injustice comprehensible. Ethical implications include: Does modernizing internal attitudes misrepresent the historical period? Does depicting period-accurate prejudice risk normalizing it? What happens when centering marginalized perspectives requires imagining internal lives for people whose voices were silenced? These tensions don''t have simple answers but require thoughtful authorial choices and reader awareness that historical fiction makes deliberate choices about what to emphasize, what perspective to center, and how to balance accuracy with accessibility.'
 ```
 
 ## Explainer

@@ -30,36 +30,39 @@ Read romance from different eras and subgenres (Austen, contemporary romance, pa
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "How does romance fiction define itself as a genre?"
-    options:
-      - "By exciting action sequences and adventure plots"
-      - "By external plot events and dramatic reversals"
-      - "By emotional arc and romantic transformation rather than external plot"
-      - "By horror elements and existential threats"
-    correct_answer: 2
-    explanation: "The core idea states that 'the romance defines itself by emotional arc and transformation rather than by external plot.' This distinguishes romance from other genres organized around external action."
-  - type: multiple-choice
-    question: "What expectation does romance fiction establish regarding its ending?"
-    options:
-      - "The story must end tragically to be considered serious literature"
-      - "A satisfying romantic resolution (happy ending, though contemporary romance complicates this)"
-      - "The romantic relationship dissolves while other plots continue"
-      - "Romance always ends ambiguously without resolution"
-    correct_answer: 1
-    explanation: "The core idea states that 'romance fiction establishes the expectation of a satisfying romantic resolution (often a happy ending, though contemporary romance increasingly complicates this).'"
-  - type: true-false
-    question: "Romance fiction encompasses only heterosexual relationships and traditional marriage endings."
-    correct_answer: false
-    explanation: "The core idea emphasizes that 'romance encompasses diverse subgenres, perspectives, sexualities, and definitions of romantic satisfaction,' showing the genre's inclusivity."
-  - type: true-false
-    question: "The two protagonists' emotional development is central to romance fiction's narrative structure."
-    correct_answer: true
-    explanation: "The core idea explicitly states that 'two protagonists whose emotional and romantic development is central to the narrative' define romance fiction."
-  - type: short-answer
-    question: "How do different eras of romance fiction define 'romantic satisfaction' and 'happy ending' differently?"
-    explanation: "A strong answer should provide examples showing how romance's definition of success has evolved. Students might reference how Austen's marriage-based endings differ from contemporary romance's expanded possibilities. They should demonstrate understanding that 'happy ending' is not a fixed concept but changes with social values and literary innovation."
+- question: How does romance fiction define itself as a genre?
+  type: multiple-choice
+  options:
+  - By exciting action sequences and adventure plots
+  - By external plot events and dramatic reversals
+  - By emotional arc and romantic transformation rather than external plot
+  - By horror elements and existential threats
+  answer: 2
+  explanation: The core idea states that 'the romance defines itself by emotional arc and transformation rather than by external plot.' This distinguishes romance from other genres organized around external action.
+
+- question: What expectation does romance fiction establish regarding its ending?
+  type: multiple-choice
+  options:
+  - The story must end tragically to be considered serious literature
+  - A satisfying romantic resolution (happy ending, though contemporary romance complicates this)
+  - The romantic relationship dissolves while other plots continue
+  - Romance always ends ambiguously without resolution
+  answer: 1
+  explanation: The core idea states that 'romance fiction establishes the expectation of a satisfying romantic resolution (often a happy ending, though contemporary romance increasingly complicates this).'
+
+- question: Romance fiction encompasses only heterosexual relationships and traditional marriage endings.
+  type: true-false
+  answer: false
+  explanation: The core idea emphasizes that 'romance encompasses diverse subgenres, perspectives, sexualities, and definitions of romantic satisfaction,' showing the genre's inclusivity.
+
+- question: The two protagonists' emotional development is central to romance fiction's narrative structure.
+  type: true-false
+  answer: true
+  explanation: The core idea explicitly states that 'two protagonists whose emotional and romantic development is central to the narrative' define romance fiction.
+
+- question: How do different eras of romance fiction define 'romantic satisfaction' and 'happy ending' differently?
+  type: short-answer
+  explanation: A strong answer should provide examples showing how romance's definition of success has evolved. Students might reference how Austen's marriage-based endings differ from contemporary romance's expanded possibilities. They should demonstrate understanding that 'happy ending' is not a fixed concept but changes with social values and literary innovation.
 ```
 
 ## Explainer

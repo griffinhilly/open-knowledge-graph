@@ -34,36 +34,39 @@ Historical fiction is not history; it's creative interpretation of historical pe
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What is the primary boundary historical fiction authors must navigate?"
-    options:
-      - "Between being entertaining and being educational"
-      - "Between documented history and imaginative invention"
-      - "Between using professional historians and working alone"
-      - "Between published and unpublished sources"
-    correct_answer: 1
-    explanation: "The core idea states that historical fiction 'negotiates the boundary between documented history and imaginative invention,' establishing this as the genre's central tension."
-  - type: multiple-choice
-    question: "What do historical fiction authors creatively fill with invention?"
-    options:
-      - "Entire historical periods that never existed"
-      - "Gaps in the historical record—inventing conversations, internal thoughts, and motivations"
-      - "All factual claims without researching sources"
-      - "Modern events mislabeled as historical"
-    correct_answer: 1
-    explanation: "The core idea specifies that authors 'creatively fill gaps in the historical record—inventing conversations, internal thoughts, and motivations for historical figures,' describing the specific role of invention."
-  - type: true-false
-    question: "Different authors resolve the tension between research and freedom in identical ways."
-    correct_answer: false
-    explanation: "The core idea states that 'different authors resolve this tension differently, ranging from strict adherence to historical record to substantial reimagining,' indicating varying approaches exist."
-  - type: true-false
-    question: "Historical fiction serves emotional and thematic truth as much as factual truth."
-    correct_answer: true
-    explanation: "The Common Misconceptions section explicitly states this: 'Accuracy matters, but historical fiction serves emotional and thematic truth as much as factual truth,' affirming multiple forms of truth-telling."
-  - type: short-answer
-    question: "How does Hilary Mantel's Wolf Hall differ from more historically constrained historical fiction? What does each approach gain and lose?"
-    explanation: "A good answer should recognize that Wolf Hall heavily reimagines historical figures' inner lives, creating psychological depth and thematic coherence, but takes greater liberties with historical motivation. More constrained approaches maintain closer fidelity to documented events but may have less psychological richness. Students should understand this as a spectrum: strict fidelity vs. imaginative freedom, gains in one area creating losses in another. The 'best' approach depends on what the author prioritizes."
+- question: What is the primary boundary historical fiction authors must navigate?
+  type: multiple-choice
+  options:
+  - Between being entertaining and being educational
+  - Between documented history and imaginative invention
+  - Between using professional historians and working alone
+  - Between published and unpublished sources
+  answer: 1
+  explanation: The core idea states that historical fiction 'negotiates the boundary between documented history and imaginative invention,' establishing this as the genre's central tension.
+
+- question: What do historical fiction authors creatively fill with invention?
+  type: multiple-choice
+  options:
+  - Entire historical periods that never existed
+  - Gaps in the historical record—inventing conversations, internal thoughts, and motivations
+  - All factual claims without researching sources
+  - Modern events mislabeled as historical
+  answer: 1
+  explanation: The core idea specifies that authors 'creatively fill gaps in the historical record—inventing conversations, internal thoughts, and motivations for historical figures,' describing the specific role of invention.
+
+- question: Different authors resolve the tension between research and freedom in identical ways.
+  type: true-false
+  answer: false
+  explanation: The core idea states that 'different authors resolve this tension differently, ranging from strict adherence to historical record to substantial reimagining,' indicating varying approaches exist.
+
+- question: Historical fiction serves emotional and thematic truth as much as factual truth.
+  type: true-false
+  answer: true
+  explanation: 'The Common Misconceptions section explicitly states this: ''Accuracy matters, but historical fiction serves emotional and thematic truth as much as factual truth,'' affirming multiple forms of truth-telling.'
+
+- question: How does Hilary Mantel's Wolf Hall differ from more historically constrained historical fiction? What does each approach gain and lose?
+  type: short-answer
+  explanation: 'A good answer should recognize that Wolf Hall heavily reimagines historical figures'' inner lives, creating psychological depth and thematic coherence, but takes greater liberties with historical motivation. More constrained approaches maintain closer fidelity to documented events but may have less psychological richness. Students should understand this as a spectrum: strict fidelity vs. imaginative freedom, gains in one area creating losses in another. The ''best'' approach depends on what the author prioritizes.'
 ```
 
 ## Explainer

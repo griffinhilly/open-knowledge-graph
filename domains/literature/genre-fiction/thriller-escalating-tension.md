@@ -28,36 +28,39 @@ Thrillers emphasize accelerating pacing where stakes and action intensify relent
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What is the primary narrative mechanism that creates thriller structure?"
-    options:
-      - "Complex character relationships and emotional depth"
-      - "Accelerating pacing where stakes and action intensify relentlessly toward climax"
-      - "Detailed worldbuilding and setting description"
-      - "Philosophical exploration of moral ambiguity"
-    correct_answer: 1
-    explanation: "The core idea states that 'thrillers emphasize accelerating pacing where stakes and action intensify relentlessly toward climax,' identifying escalation as the structural foundation."
-  - type: multiple-choice
-    question: "How do ticking clocks function in thriller structure?"
-    options:
-      - "They provide convenient timekeeping for readers"
-      - "They create pressure by making clear that time is limited and consequences are imminent"
-      - "They symbolize the protagonist's mortality"
-      - "They replace the need for other plot developments"
-    correct_answer: 1
-    explanation: "Ticking clocks (literal or metaphorical) create mounting pressure because time-limitation forces escalation. As time runs out, stakes and action must intensify."
-  - type: true-false
-    question: "In thrillers, pacing itself is a structural tool that creates emotional effects."
-    correct_answer: true
-    explanation: "The core idea states that 'pacing itself functions as a structural tool that creates the sensation of being trapped and unable to escape,' showing pacing is not just incidental to the story."
-  - type: true-false
-    question: "Thriller protagonists typically have time to pause for character development and emotional reflection."
-    correct_answer: false
-    explanation: "The core idea emphasizes 'accelerating pacing' and 'escalating threats' that create 'the sensation of being trapped,' implying forward momentum doesn't allow pausing."
-  - type: short-answer
-    question: "How does the sensation of escalating threats differ from the sensation of escalating action?"
-    explanation: "A strong answer should explain that escalating threats increase danger and stakes (what's at risk gets worse) while escalating action increases momentum and frequency of events (things happen faster). Both may occur together in thrillers, but they function differently. Students should demonstrate understanding that threat escalation is about stakes while action escalation is about pacing."
+- question: What is the primary narrative mechanism that creates thriller structure?
+  type: multiple-choice
+  options:
+  - Complex character relationships and emotional depth
+  - Accelerating pacing where stakes and action intensify relentlessly toward climax
+  - Detailed worldbuilding and setting description
+  - Philosophical exploration of moral ambiguity
+  answer: 1
+  explanation: The core idea states that 'thrillers emphasize accelerating pacing where stakes and action intensify relentlessly toward climax,' identifying escalation as the structural foundation.
+
+- question: How do ticking clocks function in thriller structure?
+  type: multiple-choice
+  options:
+  - They provide convenient timekeeping for readers
+  - They create pressure by making clear that time is limited and consequences are imminent
+  - They symbolize the protagonist's mortality
+  - They replace the need for other plot developments
+  answer: 1
+  explanation: Ticking clocks (literal or metaphorical) create mounting pressure because time-limitation forces escalation. As time runs out, stakes and action must intensify.
+
+- question: In thrillers, pacing itself is a structural tool that creates emotional effects.
+  type: true-false
+  answer: true
+  explanation: The core idea states that 'pacing itself functions as a structural tool that creates the sensation of being trapped and unable to escape,' showing pacing is not just incidental to the story.
+
+- question: Thriller protagonists typically have time to pause for character development and emotional reflection.
+  type: true-false
+  answer: false
+  explanation: The core idea emphasizes 'accelerating pacing' and 'escalating threats' that create 'the sensation of being trapped,' implying forward momentum doesn't allow pausing.
+
+- question: How does the sensation of escalating threats differ from the sensation of escalating action?
+  type: short-answer
+  explanation: A strong answer should explain that escalating threats increase danger and stakes (what's at risk gets worse) while escalating action increases momentum and frequency of events (things happen faster). Both may occur together in thrillers, but they function differently. Students should demonstrate understanding that threat escalation is about stakes while action escalation is about pacing.
 ```
 
 ## Explainer

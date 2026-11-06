@@ -35,40 +35,40 @@ Listen to a familiar pop or folk song and identify when the verse happens and wh
 ## Questions
 
 ```yaml
-- question: "What is the verse of a song?"
-  type: mc
+- question: What is the verse of a song?
+  type: multiple-choice
   options:
-    - "The loud part"
-    - "The section where the melody and words usually stay the same"
-    - "The section where the melody and words change, usually telling a story"
-    - "The ending of the song"
+  - The loud part
+  - The section where the melody and words usually stay the same
+  - The section where the melody and words change, usually telling a story
+  - The ending of the song
   answer: 2
-  explanation: "Verses are sections that change."
+  explanation: Verses are sections that change.
 
-- question: "The chorus repeats with the same words and melody each time."
-  type: tf
+- question: The chorus repeats with the same words and melody each time.
+  type: true-false
   answer: true
-  explanation: "Yes!"
+  explanation: Yes!
 
-- question: "Why do songs use verses and choruses?"
-  type: mc
+- question: Why do songs use verses and choruses?
+  type: multiple-choice
   options:
-    - "To make songs longer"
-    - "To create variety and structure with verses telling a story and a chorus giving the main idea"
-    - "Because all songs are required to"
-    - "To confuse the listener"
+  - To make songs longer
+  - To create variety and structure with verses telling a story and a chorus giving the main idea
+  - Because all songs are required to
+  - To confuse the listener
   answer: 1
-  explanation: "Structure gives songs variety."
+  explanation: Structure gives songs variety.
 
-- question: "A song can have a chorus without verses."
-  type: tf
+- question: A song can have a chorus without verses.
+  type: true-false
   answer: true
-  explanation: "Some songs just repeat the chorus."
+  explanation: Some songs just repeat the chorus.
 
-- question: "Name a song and describe its verse-chorus structure."
-  type: sa
-  answer: "Verses tell a story and the chorus sums up the main emotion."
-  explanation: "A good answer shows understanding."
+- question: Name a song and describe its verse-chorus structure.
+  type: short-answer
+  answer: Verses tell a story and the chorus sums up the main emotion.
+  explanation: A good answer shows understanding.
 ```
 
 ## Explainer

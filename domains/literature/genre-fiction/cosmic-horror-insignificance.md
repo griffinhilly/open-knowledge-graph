@@ -33,36 +33,39 @@ Cosmic horror is not necessarily pessimistic; some versions find meaning in defi
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What is the fundamental difference between cosmic beings in Lovecraft's cosmic horror and evil antagonists in other genres?"
-    options:
-      - "Cosmic beings are more powerful but share human moral values"
-      - "Cosmic beings are evil but can be defeated by sufficiently brave heroes"
-      - "Cosmic beings are fundamentally alien and indifferent to humanity, not evil but utterly beyond human moral categories"
-      - "Cosmic beings are conscious of humanity and deliberately torment it"
-    correct_answer: 2
-    explanation: "The core idea explicitly states that Lovecraft treats cosmic beings as 'fundamentally alien and indifferent to humanity, not evil but utterly beyond human moral categories,' emphasizing that indifference, not malice, defines these entities."
-  - type: multiple-choice
-    question: "Why does knowledge cause sanity destruction in cosmic horror, according to the core idea?"
-    options:
-      - "Knowledge reveals evil governments that control humanity"
-      - "Reality is fundamentally hostile to human understanding and meaning-making"
-      - "Too much knowledge overloads the human brain like computer memory"
-      - "Knowledge of the future is literally painful to human consciousness"
-    correct_answer: 1
-    explanation: "The core idea states that 'certain knowledge destroys sanity because reality is fundamentally hostile to human understanding and meaning-making,' indicating the problem is reality's incomprehensibility to human minds."
-  - type: true-false
-    question: "Cosmic horror as a genre is necessarily pessimistic and denies all human meaning or value."
-    correct_answer: false
-    explanation: "The misconceptions section explicitly states that 'cosmic horror is not necessarily pessimistic; some versions find meaning in defiance or in accepting human limitation,' showing the genre permits varied philosophical responses."
-  - type: true-false
-    question: "Lovecraft's approach to cosmic horror—treating beings as indifferent rather than evil—was a defining innovation of the subgenre."
-    correct_answer: true
-    explanation: "The core idea credits Lovecraft with pioneering this approach by 'treating cosmic beings as fundamentally alien and indifferent to humanity,' making this indifference central to the tradition."
-  - type: short-answer
-    question: "How have contemporary cosmic horror authors transformed Lovecraft's tradition while maintaining its core philosophical insights?"
-    explanation: "Good answers should address how modern authors preserve the core themes—human insignificance, incomprehensible forces, limits to understanding—while rejecting Lovecraft's specific prejudices and exploring more inclusive visions. The transformation isn't abandoning cosmic horror's philosophy but expanding who gets to inhabit and respond to cosmic realities."
+- question: What is the fundamental difference between cosmic beings in Lovecraft's cosmic horror and evil antagonists in other genres?
+  type: multiple-choice
+  options:
+  - Cosmic beings are more powerful but share human moral values
+  - Cosmic beings are evil but can be defeated by sufficiently brave heroes
+  - Cosmic beings are fundamentally alien and indifferent to humanity, not evil but utterly beyond human moral categories
+  - Cosmic beings are conscious of humanity and deliberately torment it
+  answer: 2
+  explanation: The core idea explicitly states that Lovecraft treats cosmic beings as 'fundamentally alien and indifferent to humanity, not evil but utterly beyond human moral categories,' emphasizing that indifference, not malice, defines these entities.
+
+- question: Why does knowledge cause sanity destruction in cosmic horror, according to the core idea?
+  type: multiple-choice
+  options:
+  - Knowledge reveals evil governments that control humanity
+  - Reality is fundamentally hostile to human understanding and meaning-making
+  - Too much knowledge overloads the human brain like computer memory
+  - Knowledge of the future is literally painful to human consciousness
+  answer: 1
+  explanation: The core idea states that 'certain knowledge destroys sanity because reality is fundamentally hostile to human understanding and meaning-making,' indicating the problem is reality's incomprehensibility to human minds.
+
+- question: Cosmic horror as a genre is necessarily pessimistic and denies all human meaning or value.
+  type: true-false
+  answer: false
+  explanation: The misconceptions section explicitly states that 'cosmic horror is not necessarily pessimistic; some versions find meaning in defiance or in accepting human limitation,' showing the genre permits varied philosophical responses.
+
+- question: Lovecraft's approach to cosmic horror—treating beings as indifferent rather than evil—was a defining innovation of the subgenre.
+  type: true-false
+  answer: true
+  explanation: The core idea credits Lovecraft with pioneering this approach by 'treating cosmic beings as fundamentally alien and indifferent to humanity,' making this indifference central to the tradition.
+
+- question: How have contemporary cosmic horror authors transformed Lovecraft's tradition while maintaining its core philosophical insights?
+  type: short-answer
+  explanation: Good answers should address how modern authors preserve the core themes—human insignificance, incomprehensible forces, limits to understanding—while rejecting Lovecraft's specific prejudices and exploring more inclusive visions. The transformation isn't abandoning cosmic horror's philosophy but expanding who gets to inhabit and respond to cosmic realities.
 ```
 
 ## Explainer

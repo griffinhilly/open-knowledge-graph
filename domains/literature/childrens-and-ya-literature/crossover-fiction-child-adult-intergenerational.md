@@ -25,35 +25,39 @@ Crossover fiction appeals to both children and adult readers, offering different
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What is the primary narrative challenge in writing crossover fiction that successfully appeals to both children and adults?"
-    options:
-      - "Crossover fiction should sacrifice literary sophistication for accessibility"
-      - "Creating layered narratives where surface emotional engagement appeals to children while deeper complexity rewards adult readers"
-      - "Crossover fiction cannot succeed because audiences have irreconcilable different needs"
-      - "Adults should never read children's literature"
-    answer: 1
-    explanation: "Successful crossover fiction operates on multiple levels—children engage with exciting plots and emotional investment while adults appreciate complexity, intertextual references, and philosophical depth."
-  - question: "How do sophisticated plot structures and philosophical questions function differently for child and adult readers of crossover fiction?"
-    options:
-      - "They appeal only to adults; children cannot grasp complexity"
-      - "Children follow exciting surface narrative while adults track complex plot threads and thematic subtexts simultaneously"
-      - "Philosophical content prevents child engagement"
-      - "Adults should avoid complex ideas in children's literature"
-    answer: 1
-    explanation: "Layered narratives allow children to follow adventure while adults engage with underlying themes and complexity; both can enjoy the same story at their appropriate levels."
+- question: What is the primary narrative challenge in writing crossover fiction that successfully appeals to both children and adults?
+  type: multiple-choice
+  options:
+  - Crossover fiction should sacrifice literary sophistication for accessibility
+  - Creating layered narratives where surface emotional engagement appeals to children while deeper complexity rewards adult readers
+  - Crossover fiction cannot succeed because audiences have irreconcilable different needs
+  - Adults should never read children's literature
+  answer: 1
+  explanation: Successful crossover fiction operates on multiple levels—children engage with exciting plots and emotional investment while adults appreciate complexity, intertextual references, and philosophical depth.
 
-true-false:
-  - question: "True or False: Crossover fiction that appeals to adults must simplify emotional stakes to remain accessible to children."
-    answer: false
-    explanation: "This is false. Crossover fiction typically maintains genuine emotional stakes and complexity for all readers; accessibility doesn't require simplification."
-  - question: "True or False: Crossover fiction's appeal to adults contradicts or detracts from its appeal to children."
-    answer: false
-    explanation: "This is false. Well-crafted crossover fiction creates richer engagement for both audiences; the layers enhance rather than conflict with each other."
+- question: How do sophisticated plot structures and philosophical questions function differently for child and adult readers of crossover fiction?
+  type: multiple-choice
+  options:
+  - They appeal only to adults; children cannot grasp complexity
+  - Children follow exciting surface narrative while adults track complex plot threads and thematic subtexts simultaneously
+  - Philosophical content prevents child engagement
+  - Adults should avoid complex ideas in children's literature
+  answer: 1
+  explanation: Layered narratives allow children to follow adventure while adults engage with underlying themes and complexity; both can enjoy the same story at their appropriate levels.
 
-short-answer:
-  - question: "What specific narrative strategies allow works like Harry Potter to appeal simultaneously to readers aged eight and eighty?"
-    explanation: "Crossover fiction employs multiple layers of meaning and engagement: surface level is adventure and magic (engaging to children), character relationships create emotional investment across ages, humor operates at multiple sophistication levels (slapstick and wordplay for children, dark irony and social satire for adults), philosophical questions about power, identity, and good versus evil reward deeper thinking, literary references and complex plotting satisfy adults' desire for sophistication, and emotional authenticity in character development rings true at any age. Additionally, the best crossover fiction doesn't condescend to either audience—children respect genuine complexity and adults appreciate sincere emotional stakes. By respecting all readers' intelligence and offering genuine depth rather than false sophistication or simplification, crossover fiction creates genuine appeal. Furthermore, parental reading and family reading experiences create context where adults and children experience the same story together, finding different but complementary meaning in shared narratives."
+- question: 'True or False: Crossover fiction that appeals to adults must simplify emotional stakes to remain accessible to children.'
+  type: true-false
+  answer: false
+  explanation: This is false. Crossover fiction typically maintains genuine emotional stakes and complexity for all readers; accessibility doesn't require simplification.
+
+- question: 'True or False: Crossover fiction''s appeal to adults contradicts or detracts from its appeal to children.'
+  type: true-false
+  answer: false
+  explanation: This is false. Well-crafted crossover fiction creates richer engagement for both audiences; the layers enhance rather than conflict with each other.
+
+- question: What specific narrative strategies allow works like Harry Potter to appeal simultaneously to readers aged eight and eighty?
+  type: short-answer
+  explanation: 'Crossover fiction employs multiple layers of meaning and engagement: surface level is adventure and magic (engaging to children), character relationships create emotional investment across ages, humor operates at multiple sophistication levels (slapstick and wordplay for children, dark irony and social satire for adults), philosophical questions about power, identity, and good versus evil reward deeper thinking, literary references and complex plotting satisfy adults'' desire for sophistication, and emotional authenticity in character development rings true at any age. Additionally, the best crossover fiction doesn''t condescend to either audience—children respect genuine complexity and adults appreciate sincere emotional stakes. By respecting all readers'' intelligence and offering genuine depth rather than false sophistication or simplification, crossover fiction creates genuine appeal. Furthermore, parental reading and family reading experiences create context where adults and children experience the same story together, finding different but complementary meaning in shared narratives.'
 ```
 
 ## Explainer

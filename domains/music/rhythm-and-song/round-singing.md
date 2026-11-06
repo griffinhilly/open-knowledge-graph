@@ -37,40 +37,40 @@ Start by singing the song in unison until everyone knows it well. Split into two
 ## Questions
 
 ```yaml
-- question: "What is a round in music?"
-  type: mc
+- question: What is a round in music?
+  type: multiple-choice
   options:
-    - "A circular shape"
-    - "A song where the same melody starts at different times creating a blend"
-    - "A very loud song"
-    - "A type of rhythm pattern"
+  - A circular shape
+  - A song where the same melody starts at different times creating a blend
+  - A very loud song
+  - A type of rhythm pattern
   answer: 1
-  explanation: "A round is a song where groups start the same melody at different times."
+  explanation: A round is a song where groups start the same melody at different times.
 
-- question: "In a round all singers sing the exact same notes at the exact same time."
-  type: tf
+- question: In a round all singers sing the exact same notes at the exact same time.
+  type: true-false
   answer: false
-  explanation: "In a round different groups sing the same melody but at different times."
+  explanation: In a round different groups sing the same melody but at different times.
 
-- question: "What skill does singing a round help you develop?"
-  type: mc
+- question: What skill does singing a round help you develop?
+  type: multiple-choice
   options:
-    - "Listening to others while singing your own part"
-    - "Independence and focus"
-    - "Hearing multiple melodies at once"
-    - "All of the above"
+  - Listening to others while singing your own part
+  - Independence and focus
+  - Hearing multiple melodies at once
+  - All of the above
   answer: 3
-  explanation: "Rounds develop all these skills!"
+  explanation: Rounds develop all these skills!
 
-- question: "It is easy to sing a round on the first try without practice."
-  type: tf
+- question: It is easy to sing a round on the first try without practice.
+  type: true-false
   answer: false
-  explanation: "Rounds are tricky! They take practice."
+  explanation: Rounds are tricky! They take practice.
 
-- question: "Explain how Row Row Row Your Boat works as a round."
-  type: sa
-  answer: "One group sings the whole song and when they get to a certain point a second group starts from the beginning."
-  explanation: "A good answer shows that groups start at different times and the melody repeats and overlaps."
+- question: Explain how Row Row Row Your Boat works as a round.
+  type: short-answer
+  answer: One group sings the whole song and when they get to a certain point a second group starts from the beginning.
+  explanation: A good answer shows that groups start at different times and the melody repeats and overlaps.
 ```
 
 ## Explainer

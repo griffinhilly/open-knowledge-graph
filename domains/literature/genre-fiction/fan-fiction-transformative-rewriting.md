@@ -28,36 +28,39 @@ Explore fan fiction archives (Archive of Our Own) and read analyses of fan commu
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What distinguishes fan fiction as transformative creativity rather than mere reproduction?"
-    options:
-      - "Fan fiction copies source material without change"
-      - "Fan fiction rewrites existing narratives, extending stories and reimagining relationships and endings"
-      - "Fan fiction has no relationship to source material"
-      - "Fan fiction abandons all elements of source material"
-    correct_answer: 1
-    explanation: "The core idea defines fan fiction as 'rewrites existing narratives' that 'extend stories, exploring alternate relationships, or changing endings,' showing transformation as central."
-  - type: multiple-choice
-    question: "What does the sophisticated critical vocabulary developed in fan communities suggest about fan fiction's intellectual status?"
-    options:
-      - "Fan fiction lacks intellectual complexity"
-      - "Fan communities develop critical vocabularies and taxonomies that rival academic literary study"
-      - "Fan communities are anti-intellectual"
-      - "Fan critical thinking is less developed than academic criticism"
-    correct_answer: 1
-    explanation: "The core idea notes fan communities 'develop sophisticated critical vocabularies, detailed taxonomies...and creative practices that rival academic literary study,' crediting fan analysis with serious intellectual work."
-  - type: true-false
-    question: "Fan fiction represents engaged reading and collaborative worldbuilding within communities of creative practitioners."
-    correct_answer: true
-    explanation: "The core idea directly states 'fan fiction represents a form of engaged reading and collaborative worldbuilding,' defining it as both intellectual engagement and collective creative practice."
-  - type: true-false
-    question: "Fan fiction communities lack sophisticated understanding of narrative structure and literary technique."
-    correct_answer: false
-    explanation: "The core idea emphasizes that fan communities 'develop sophisticated critical vocabularies' and 'creative practices that rival academic literary study,' showing serious engagement with literary concepts."
-  - type: short-answer
-    question: "Why does fan fiction's development of specific taxonomies and critical vocabulary (slash fiction, gen fiction, AU) constitute a form of literary criticism?"
-    explanation: "Good answers should address how these categories enable precise discussion of narrative types, thematic choices, and creative interventions. Terminology allows fans to analyze what works transform from source material and how. This metalinguistic awareness—the ability to talk precisely about creative choices—is fundamental to literary criticism. Fans aren't just writing; they're analyzing and theorizing their own and others' creative work."
+- question: What distinguishes fan fiction as transformative creativity rather than mere reproduction?
+  type: multiple-choice
+  options:
+  - Fan fiction copies source material without change
+  - Fan fiction rewrites existing narratives, extending stories and reimagining relationships and endings
+  - Fan fiction has no relationship to source material
+  - Fan fiction abandons all elements of source material
+  answer: 1
+  explanation: The core idea defines fan fiction as 'rewrites existing narratives' that 'extend stories, exploring alternate relationships, or changing endings,' showing transformation as central.
+
+- question: What does the sophisticated critical vocabulary developed in fan communities suggest about fan fiction's intellectual status?
+  type: multiple-choice
+  options:
+  - Fan fiction lacks intellectual complexity
+  - Fan communities develop critical vocabularies and taxonomies that rival academic literary study
+  - Fan communities are anti-intellectual
+  - Fan critical thinking is less developed than academic criticism
+  answer: 1
+  explanation: The core idea notes fan communities 'develop sophisticated critical vocabularies, detailed taxonomies...and creative practices that rival academic literary study,' crediting fan analysis with serious intellectual work.
+
+- question: Fan fiction represents engaged reading and collaborative worldbuilding within communities of creative practitioners.
+  type: true-false
+  answer: true
+  explanation: The core idea directly states 'fan fiction represents a form of engaged reading and collaborative worldbuilding,' defining it as both intellectual engagement and collective creative practice.
+
+- question: Fan fiction communities lack sophisticated understanding of narrative structure and literary technique.
+  type: true-false
+  answer: false
+  explanation: The core idea emphasizes that fan communities 'develop sophisticated critical vocabularies' and 'creative practices that rival academic literary study,' showing serious engagement with literary concepts.
+
+- question: Why does fan fiction's development of specific taxonomies and critical vocabulary (slash fiction, gen fiction, AU) constitute a form of literary criticism?
+  type: short-answer
+  explanation: Good answers should address how these categories enable precise discussion of narrative types, thematic choices, and creative interventions. Terminology allows fans to analyze what works transform from source material and how. This metalinguistic awareness—the ability to talk precisely about creative choices—is fundamental to literary criticism. Fans aren't just writing; they're analyzing and theorizing their own and others' creative work.
 ```
 
 ## Explainer

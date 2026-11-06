@@ -35,36 +35,39 @@ Psychological horror is not 'just paranoia'; it explores how minds crack under r
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "Where does terror primarily originate in psychological horror?"
-    options:
-      - "From external monsters or supernatural threats"
-      - "From the protagonist's internal mental state and psychological dissolution"
-      - "From sudden jump-scares and violent action sequences"
-      - "From carefully constructed plot twists revealed at the end"
-    correct_answer: 1
-    explanation: "The core idea explicitly states that psychological horror 'locates terror in the mind—in madness, paranoia, trauma, and psychological dissolution.' The interior landscape, not external threats, is the primary source of horror."
-  - type: multiple-choice
-    question: "What effect does the blurring of reality and hallucination create for readers in psychological horror?"
-    options:
-      - "It makes the story easier to follow"
-      - "It creates uncertainty about what is genuine, making readers question the protagonist's reliability"
-      - "It removes all tension since readers can't determine what matters"
-      - "It serves purely as stylistic experimentation with no narrative purpose"
-    correct_answer: 1
-    explanation: "The core idea explains that these narratives 'blur the boundaries between reality and hallucination, making readers uncertain about what is genuine.' This uncertainty is the mechanism that creates horror and maintains psychological tension."
-  - type: true-false
-    question: "In psychological horror, the protagonist's own mind can become more dangerous and threatening than any external monster."
-    correct_answer: true
-    explanation: "The core idea states that 'the interior landscape becomes more threatening than any external monster; the self becomes unreliable.' This is the defining characteristic of the genre."
-  - type: true-false
-    question: "Psychological horror primarily relies on supernatural elements and otherworldly phenomena to create fear."
-    correct_answer: false
-    explanation: "The core idea focuses on madness, paranoia, trauma, and psychological dissolution—grounded psychological experiences rather than supernatural elements. The horror comes from internal breakdown, not external magic or monsters."
-  - type: short-answer
-    question: "How do isolation, confinement, or social pressure create psychological horror effects on the protagonist?"
-    explanation: "A strong answer should explain that these conditions destabilize mental state by removing normal coping mechanisms, support systems, or reality-checking relationships. Students should demonstrate understanding that psychological horror can result from realistic social/environmental factors rather than supernatural causes."
+- question: Where does terror primarily originate in psychological horror?
+  type: multiple-choice
+  options:
+  - From external monsters or supernatural threats
+  - From the protagonist's internal mental state and psychological dissolution
+  - From sudden jump-scares and violent action sequences
+  - From carefully constructed plot twists revealed at the end
+  answer: 1
+  explanation: The core idea explicitly states that psychological horror 'locates terror in the mind—in madness, paranoia, trauma, and psychological dissolution.' The interior landscape, not external threats, is the primary source of horror.
+
+- question: What effect does the blurring of reality and hallucination create for readers in psychological horror?
+  type: multiple-choice
+  options:
+  - It makes the story easier to follow
+  - It creates uncertainty about what is genuine, making readers question the protagonist's reliability
+  - It removes all tension since readers can't determine what matters
+  - It serves purely as stylistic experimentation with no narrative purpose
+  answer: 1
+  explanation: The core idea explains that these narratives 'blur the boundaries between reality and hallucination, making readers uncertain about what is genuine.' This uncertainty is the mechanism that creates horror and maintains psychological tension.
+
+- question: In psychological horror, the protagonist's own mind can become more dangerous and threatening than any external monster.
+  type: true-false
+  answer: true
+  explanation: The core idea states that 'the interior landscape becomes more threatening than any external monster; the self becomes unreliable.' This is the defining characteristic of the genre.
+
+- question: Psychological horror primarily relies on supernatural elements and otherworldly phenomena to create fear.
+  type: true-false
+  answer: false
+  explanation: The core idea focuses on madness, paranoia, trauma, and psychological dissolution—grounded psychological experiences rather than supernatural elements. The horror comes from internal breakdown, not external magic or monsters.
+
+- question: How do isolation, confinement, or social pressure create psychological horror effects on the protagonist?
+  type: short-answer
+  explanation: A strong answer should explain that these conditions destabilize mental state by removing normal coping mechanisms, support systems, or reality-checking relationships. Students should demonstrate understanding that psychological horror can result from realistic social/environmental factors rather than supernatural causes.
 ```
 
 ## Explainer

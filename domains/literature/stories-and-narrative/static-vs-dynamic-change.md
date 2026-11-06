@@ -33,35 +33,40 @@ Compare two characters from different stories: one who clearly changes and one w
 ## Questions
 
 ```yaml
-- question: "A character enters a story cynical and bitter about love, believing relationships always fail. Throughout the story, they meet someone, hesitate because of their cynicism, but gradually open up, experience genuine connection, and by the end believe love is possible. Is this a dynamic character, and what defines their change?"
+- question: A character enters a story cynical and bitter about love, believing relationships always fail. Throughout the story, they meet someone, hesitate because of their cynicism, but gradually open up, experience genuine connection, and by the end believe love is possible. Is this a dynamic character, and what defines their change?
+  type: multiple-choice
   options:
-    - "No, they didn't do anything special"
-    - "Yes, this is a dynamic character. They changed internally—their core belief transformed from 'love is impossible' to 'love is possible.' This internal change in worldview is what makes a character dynamic, not the external events. The relationship is the catalyst, but the character's internal transformation is the change"
-    - "Just meeting someone isn't change"
-    - "External events always create character change"
+  - No, they didn't do anything special
+  - Yes, this is a dynamic character. They changed internally—their core belief transformed from 'love is impossible' to 'love is possible.' This internal change in worldview is what makes a character dynamic, not the external events. The relationship is the catalyst, but the character's internal transformation is the change
+  - Just meeting someone isn't change
+  - External events always create character change
   answer: 1
-  explanation: "Dynamic characters show internal transformation. External events are catalysts, but what matters is whether the character's beliefs, understanding, or values genuinely shift. A character who experiences events but doesn't change internally is not dynamic, even if circumstances change."
+  explanation: Dynamic characters show internal transformation. External events are catalysts, but what matters is whether the character's beliefs, understanding, or values genuinely shift. A character who experiences events but doesn't change internally is not dynamic, even if circumstances change.
 
-- question: "A wise mentor character appears in a story. Throughout, they provide guidance and wisdom. They don't change—they maintain their values and perspective from beginning to end. Other characters change because of their influence, but the mentor remains consistent. Is this a failure of characterization?"
+- question: A wise mentor character appears in a story. Throughout, they provide guidance and wisdom. They don't change—they maintain their values and perspective from beginning to end. Other characters change because of their influence, but the mentor remains consistent. Is this a failure of characterization?
+  type: multiple-choice
   options:
-    - "Yes, all characters should change"
-    - "No, this is a purposeful use of a static character. The mentor's consistency is their value—their unwavering principles are what allow them to guide others. Making the mentor dynamic might undermine their role. Static characters serve important functions, especially as anchors or models"
-    - "Static characters are always boring"
-    - "Mentors must change to be interesting"
+  - Yes, all characters should change
+  - No, this is a purposeful use of a static character. The mentor's consistency is their value—their unwavering principles are what allow them to guide others. Making the mentor dynamic might undermine their role. Static characters serve important functions, especially as anchors or models
+  - Static characters are always boring
+  - Mentors must change to be interesting
   answer: 1
-  explanation: "Static characters are often purposefully designed. A character who remains true to their principles can be powerful precisely because they're consistent. Understanding why an author made a character static shows sophisticated character design."
+  explanation: Static characters are often purposefully designed. A character who remains true to their principles can be powerful precisely because they're consistent. Understanding why an author made a character static shows sophisticated character design.
 
-- question: "True or False: A character who experiences many traumatic events and shows emotional scars has necessarily experienced character development."
+- question: 'True or False: A character who experiences many traumatic events and shows emotional scars has necessarily experienced character development.'
+  type: true-false
   answer: false
-  explanation: "A character can be profoundly affected by events without changing fundamentally. They might be damaged or traumatized, but if their core beliefs and values remain the same, they're static, not dynamic. Dynamic change is internal transformation, not just emotional impact."
+  explanation: A character can be profoundly affected by events without changing fundamentally. They might be damaged or traumatized, but if their core beliefs and values remain the same, they're static, not dynamic. Dynamic change is internal transformation, not just emotional impact.
 
-- question: "True or False: The protagonist of a story is always dynamic."
+- question: 'True or False: The protagonist of a story is always dynamic.'
+  type: true-false
   answer: false
-  explanation: "Some protagonists remain static—they maintain their values and beliefs throughout. The story might focus on how their consistency affects others, or on how events reveal who they've always been. Dynamic is not required for protagonists."
+  explanation: Some protagonists remain static—they maintain their values and beliefs throughout. The story might focus on how their consistency affects others, or on how events reveal who they've always been. Dynamic is not required for protagonists.
 
-- question: "A story features a character who is kind and noble at the beginning. Throughout the story, they face pressures and temptations to become corrupt. However, they resist. They remain kind despite pressure, refusing to compromise their values. By the end, they are kind and noble, unchanged. Is this static characterization, or is something else happening?"
-  answer: "This is static characterization, but it's not empty. The character is dynamic in the sense that they're tested and they choose—repeatedly—to maintain their values. The story is showing their strength and conviction. There's dramatic tension in whether they'll change (and they don't). This can be powerful: readers watch a character resisting corruption and maintaining integrity under pressure. The internal work is not changing values but choosing to uphold them despite temptation. Some stories find power in characters who refuse to be corrupted, whose consistency is their heroism."
-  explanation: "This tests understanding that static characters can still have dramatic and emotional arcs. A character facing temptation but refusing to yield shows internal struggle and strength. Static doesn't mean simple or boring—it means the core character remains consistent, even as they're tested."
+- question: A story features a character who is kind and noble at the beginning. Throughout the story, they face pressures and temptations to become corrupt. However, they resist. They remain kind despite pressure, refusing to compromise their values. By the end, they are kind and noble, unchanged. Is this static characterization, or is something else happening?
+  type: short-answer
+  answer: 'This is static characterization, but it''s not empty. The character is dynamic in the sense that they''re tested and they choose—repeatedly—to maintain their values. The story is showing their strength and conviction. There''s dramatic tension in whether they''ll change (and they don''t). This can be powerful: readers watch a character resisting corruption and maintaining integrity under pressure. The internal work is not changing values but choosing to uphold them despite temptation. Some stories find power in characters who refuse to be corrupted, whose consistency is their heroism.'
+  explanation: This tests understanding that static characters can still have dramatic and emotional arcs. A character facing temptation but refusing to yield shows internal struggle and strength. Static doesn't mean simple or boring—it means the core character remains consistent, even as they're tested.
 ```
 
 ## Explainer

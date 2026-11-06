@@ -27,36 +27,39 @@ High fantasy creates entirely separate worlds with their own laws, histories, an
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What is the defining characteristic of high fantasy world-building?"
-    options:
-      - "Settings in recognizable Earth locations with minor magical additions"
-      - "Entirely separate worlds with their own laws, histories, and cosmologies"
-      - "Worlds that change rules frequently for plot convenience"
-      - "Settings identical to our world except for one magical element"
-    correct_answer: 1
-    explanation: "The core idea states that high fantasy 'creates entirely separate worlds with their own laws, histories, and cosmologies,' establishing the creation of complete secondary worlds as definitive."
-  - type: multiple-choice
-    question: "What does high fantasy require from its internal world-building?"
-    options:
-      - "Flexibility and willingness to break rules as needed"
-      - "Internal consistency: magic systems, politics, and geography function according to internally coherent rules"
-      - "Realism that matches our world"
-      - "Constant surprises that violate reader expectations"
-    correct_answer: 1
-    explanation: "The core idea specifies that the genre 'demands internal consistency: magic systems, politics, and geography function according to internally coherent rules,' establishing consistency as a requirement."
-  - type: true-false
-    question: "High fantasy worlds have their own histories and operate according to their own established laws."
-    correct_answer: true
-    explanation: "The core idea describes high fantasy worlds as having 'their own laws, histories, and cosmologies,' confirming that these are defining features of secondary worlds."
-  - type: true-false
-    question: "High fantasy typically features small-scale personal conflicts rather than epic quests."
-    correct_answer: false
-    explanation: "The core idea states that high fantasy 'often features epic quests and moral struggles across complete secondary worlds,' indicating the genre characteristically involves large-scale, world-spanning narratives."
-  - type: short-answer
-    question: "What is meant by a 'secondary world' in high fantasy, and how does this concept differ from other uses of fantasy setting?"
-    explanation: "A good answer should recognize that a secondary world is not an alternate version of Earth or a hidden location within our world, but an entirely separate cosmos with its own physical laws, history, and cosmology. This differs from urban fantasy (magic in our world), dark fantasy (morally dark but still Earth-like), or portal fantasy (where Earth characters enter another world). High fantasy commits fully to exploring complete alternative realities. Students should understand that this wholeness creates particular narrative possibilities and obligations."
+- question: What is the defining characteristic of high fantasy world-building?
+  type: multiple-choice
+  options:
+  - Settings in recognizable Earth locations with minor magical additions
+  - Entirely separate worlds with their own laws, histories, and cosmologies
+  - Worlds that change rules frequently for plot convenience
+  - Settings identical to our world except for one magical element
+  answer: 1
+  explanation: The core idea states that high fantasy 'creates entirely separate worlds with their own laws, histories, and cosmologies,' establishing the creation of complete secondary worlds as definitive.
+
+- question: What does high fantasy require from its internal world-building?
+  type: multiple-choice
+  options:
+  - Flexibility and willingness to break rules as needed
+  - 'Internal consistency: magic systems, politics, and geography function according to internally coherent rules'
+  - Realism that matches our world
+  - Constant surprises that violate reader expectations
+  answer: 1
+  explanation: 'The core idea specifies that the genre ''demands internal consistency: magic systems, politics, and geography function according to internally coherent rules,'' establishing consistency as a requirement.'
+
+- question: High fantasy worlds have their own histories and operate according to their own established laws.
+  type: true-false
+  answer: true
+  explanation: The core idea describes high fantasy worlds as having 'their own laws, histories, and cosmologies,' confirming that these are defining features of secondary worlds.
+
+- question: High fantasy typically features small-scale personal conflicts rather than epic quests.
+  type: true-false
+  answer: false
+  explanation: The core idea states that high fantasy 'often features epic quests and moral struggles across complete secondary worlds,' indicating the genre characteristically involves large-scale, world-spanning narratives.
+
+- question: What is meant by a 'secondary world' in high fantasy, and how does this concept differ from other uses of fantasy setting?
+  type: short-answer
+  explanation: A good answer should recognize that a secondary world is not an alternate version of Earth or a hidden location within our world, but an entirely separate cosmos with its own physical laws, history, and cosmology. This differs from urban fantasy (magic in our world), dark fantasy (morally dark but still Earth-like), or portal fantasy (where Earth characters enter another world). High fantasy commits fully to exploring complete alternative realities. Students should understand that this wholeness creates particular narrative possibilities and obligations.
 ```
 
 ## Explainer

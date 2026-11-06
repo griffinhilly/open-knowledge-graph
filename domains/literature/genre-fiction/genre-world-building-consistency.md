@@ -33,36 +33,39 @@ Create a world bible for a fictional setting (5-10 pages). Document the magic sy
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What is the primary reader expectation regarding world-building in genre fiction?"
-    options:
-      - "The author can change rules whenever the plot demands it"
-      - "The world must operate according to its own internal logic, not authorial convenience"
-      - "Readers don't care about consistency as long as action is exciting"
-      - "World-building is irrelevant to plot-driven genres"
-    correct_answer: 1
-    explanation: "The core idea explicitly states that 'the world must operate according to its own logic, not authorial convenience,' indicating that consistency and rule adherence are fundamental reader expectations."
-  - type: multiple-choice
-    question: "How do world-building demands differ between hard SF and cozy mystery according to the core idea?"
-    options:
-      - "Hard SF requires no special rigor while cozy mystery requires maximum rigor"
-      - "Hard SF requires scientific plausibility; cozy mystery requires social plausibility"
-      - "They are identical in their consistency requirements"
-      - "Cozy mystery is more scientifically rigorous than hard SF"
-    correct_answer: 1
-    explanation: "The core idea specifies different types of plausibility: 'hard SF requires scientific plausibility... cozy mystery requires social plausibility,' showing that different genres demand different kinds of internal consistency."
-  - type: true-false
-    question: "Readers notice and resent violations of established world-building rules."
-    correct_answer: true
-    explanation: "The core idea states that 'readers notice and resent violations of established rules,' indicating that consistency violations damage reader trust and engagement."
-  - type: true-false
-    question: "Different genres such as fantasy, historical fiction, and gothic horror all demand identical types of consistency."
-    correct_answer: false
-    explanation: "The core idea emphasizes that 'different genres demand different world-building rigor,' listing specific types: scientific plausibility for hard SF, historical plausibility for historical fiction, social plausibility for cozy mystery, and atmospheric consistency for gothic horror."
-  - type: short-answer
-    question: "How might established world-building rules create or limit plot possibilities? Give an example."
-    explanation: "A good answer should show understanding that world-building constraints are not purely restrictive—they also enable certain plot possibilities while preventing others. For example: a magic system that requires specific ritual components creates plot problems that enable dramatic tension (the magic user must acquire rare components); a historically accurate setting determines which technologies and social structures are available, which enables certain conflicts and prevents others. Students should recognize world-building as both constraining and enabling."
+- question: What is the primary reader expectation regarding world-building in genre fiction?
+  type: multiple-choice
+  options:
+  - The author can change rules whenever the plot demands it
+  - The world must operate according to its own internal logic, not authorial convenience
+  - Readers don't care about consistency as long as action is exciting
+  - World-building is irrelevant to plot-driven genres
+  answer: 1
+  explanation: The core idea explicitly states that 'the world must operate according to its own logic, not authorial convenience,' indicating that consistency and rule adherence are fundamental reader expectations.
+
+- question: How do world-building demands differ between hard SF and cozy mystery according to the core idea?
+  type: multiple-choice
+  options:
+  - Hard SF requires no special rigor while cozy mystery requires maximum rigor
+  - Hard SF requires scientific plausibility; cozy mystery requires social plausibility
+  - They are identical in their consistency requirements
+  - Cozy mystery is more scientifically rigorous than hard SF
+  answer: 1
+  explanation: 'The core idea specifies different types of plausibility: ''hard SF requires scientific plausibility... cozy mystery requires social plausibility,'' showing that different genres demand different kinds of internal consistency.'
+
+- question: Readers notice and resent violations of established world-building rules.
+  type: true-false
+  answer: true
+  explanation: The core idea states that 'readers notice and resent violations of established rules,' indicating that consistency violations damage reader trust and engagement.
+
+- question: Different genres such as fantasy, historical fiction, and gothic horror all demand identical types of consistency.
+  type: true-false
+  answer: false
+  explanation: 'The core idea emphasizes that ''different genres demand different world-building rigor,'' listing specific types: scientific plausibility for hard SF, historical plausibility for historical fiction, social plausibility for cozy mystery, and atmospheric consistency for gothic horror.'
+
+- question: How might established world-building rules create or limit plot possibilities? Give an example.
+  type: short-answer
+  explanation: 'A good answer should show understanding that world-building constraints are not purely restrictive—they also enable certain plot possibilities while preventing others. For example: a magic system that requires specific ritual components creates plot problems that enable dramatic tension (the magic user must acquire rare components); a historically accurate setting determines which technologies and social structures are available, which enables certain conflicts and prevents others. Students should recognize world-building as both constraining and enabling.'
 ```
 
 ## Explainer

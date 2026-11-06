@@ -22,39 +22,39 @@ Biographical narrative requires choosing thematic and chronological organization
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "How does the structure of a biography shape how readers interpret the subject's life?"
+- question: How does the structure of a biography shape how readers interpret the subject's life?
+  type: multiple-choice
   options:
-    - "Structure is neutral; it simply presents facts in order."
-    - "By choosing what to emphasize, where to begin and end, and how to organize material, structure actively creates interpretation."
-    - "Structure only matters in novels, not in biography."
-    - "All biographies should follow strict chronological order to be objective."
+  - Structure is neutral; it simply presents facts in order.
+  - By choosing what to emphasize, where to begin and end, and how to organize material, structure actively creates interpretation.
+  - Structure only matters in novels, not in biography.
+  - All biographies should follow strict chronological order to be objective.
   answer: 1
-  explanation: "The biographer who begins with the subject's childhood creates a developmental narrative; one who begins with a pivotal moment creates a different frame. Choosing whether to emphasize political achievements, personal relationships, or inner psychological life shapes how readers understand the person. Structure isn't neutral; it interprets."
+  explanation: The biographer who begins with the subject's childhood creates a developmental narrative; one who begins with a pivotal moment creates a different frame. Choosing whether to emphasize political achievements, personal relationships, or inner psychological life shapes how readers understand the person. Structure isn't neutral; it interprets.
 
-- type: multiple-choice
-  question: "What is the distinction between thematic and chronological organization in biography?"
+- question: What is the distinction between thematic and chronological organization in biography?
+  type: multiple-choice
   options:
-    - "Thematic organization is more accurate; chronological is less reliable."
-    - "Chronological order follows time; thematic order groups material by topic or pattern, potentially rearranging events to create meaning."
-    - "Thematic and chronological are the same thing."
-    - "Only academic biographies use chronological order; literary biographies use thematic."
+  - Thematic organization is more accurate; chronological is less reliable.
+  - Chronological order follows time; thematic order groups material by topic or pattern, potentially rearranging events to create meaning.
+  - Thematic and chronological are the same thing.
+  - Only academic biographies use chronological order; literary biographies use thematic.
   answer: 1
-  explanation: "Chronological biography tells the story of a life as it unfolded in time. Thematic biography organizes around recurring patterns, conflicts, or ideas—it might jump between time periods to show how a theme developed. Both are legitimate, but they create different narratives of the same life."
+  explanation: Chronological biography tells the story of a life as it unfolded in time. Thematic biography organizes around recurring patterns, conflicts, or ideas—it might jump between time periods to show how a theme developed. Both are legitimate, but they create different narratives of the same life.
 
-- type: true-false
-  statement: "True: A biographer who omits unflattering information about their subject is using narrative structure to hide truth rather than reveal it."
+- question: 'True: A biographer who omits unflattering information about their subject is using narrative structure to hide truth rather than reveal it.'
+  type: true-false
   answer: true
-  explanation: "Selection is always part of biography—no biography includes everything. But there's a difference between necessary selection and deliberate omission to manipulate how readers judge the subject. A biographer accountable to evidence should make strategic choices visible, not hide them. Using structure to shape interpretation is legitimate; using structure to conceal what undermines the narrative is a failure of biographical responsibility."
+  explanation: Selection is always part of biography—no biography includes everything. But there's a difference between necessary selection and deliberate omission to manipulate how readers judge the subject. A biographer accountable to evidence should make strategic choices visible, not hide them. Using structure to shape interpretation is legitimate; using structure to conceal what undermines the narrative is a failure of biographical responsibility.
 
-- type: true-false
-  statement: "False: Biographical interpretation and historical accuracy are incompatible; biography must choose one or the other."
+- question: 'False: Biographical interpretation and historical accuracy are incompatible; biography must choose one or the other.'
+  type: true-false
   answer: false
-  explanation: "This is false. The best biography achieves both. Biographers are accountable to historical evidence while also making interpretive choices about what that evidence means. You can be true to facts while arranging them in a structure that reveals significance. The challenge is being transparent about interpretive choices rather than pretending structure is neutral."
+  explanation: This is false. The best biography achieves both. Biographers are accountable to historical evidence while also making interpretive choices about what that evidence means. You can be true to facts while arranging them in a structure that reveals significance. The challenge is being transparent about interpretive choices rather than pretending structure is neutral.
 
-- type: short-answer
-  question: "A biographer might tell the same person's life story in two different ways: one organized chronologically from birth to death, another organized around the subject's major intellectual or creative periods. How would these structures create different interpretations? What responsibility does the biographer have in choosing between them?"
-  explanation: "The chronological structure emphasizes cause and effect—how experiences in one period led to development in the next. It might make clear how the subject's childhood shaped their adult choices. The thematic structure emphasizes patterns and ideas—it shows recurring themes across the person's life, possibly suggesting that who they were at age 20 wasn't fundamentally different from who they were at 60, just more developed. These create very different interpretations of the same person. The biographer's responsibility is to choose the structure that most honestly serves the subject's complexity while being transparent about why that structure reveals what the biographer believes is significant. Hidden choices pretend to objectivity; acknowledged choices invite readers into the interpretive act."
+- question: 'A biographer might tell the same person''s life story in two different ways: one organized chronologically from birth to death, another organized around the subject''s major intellectual or creative periods. How would these structures create different interpretations? What responsibility does the biographer have in choosing between them?'
+  type: short-answer
+  explanation: The chronological structure emphasizes cause and effect—how experiences in one period led to development in the next. It might make clear how the subject's childhood shaped their adult choices. The thematic structure emphasizes patterns and ideas—it shows recurring themes across the person's life, possibly suggesting that who they were at age 20 wasn't fundamentally different from who they were at 60, just more developed. These create very different interpretations of the same person. The biographer's responsibility is to choose the structure that most honestly serves the subject's complexity while being transparent about why that structure reveals what the biographer believes is significant. Hidden choices pretend to objectivity; acknowledged choices invite readers into the interpretive act.
 ```
 
 ## Explainer

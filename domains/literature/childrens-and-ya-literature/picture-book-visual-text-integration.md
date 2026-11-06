@@ -25,35 +25,39 @@ Picture books function as a synergistic blend of visual art and text, where mean
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "How do the most effective picture books use the relationship between text and image to create meaning?"
-    options:
-      - "Text and images should be identical, saying exactly the same thing"
-      - "Images are decorative and unrelated to narrative meaning"
-      - "Meaning emerges from the relationship between text and image—they can reinforce, expand, complicate, or contradict each other, creating layers of significance"
-      - "Picture books should contain only images without any text"
-    answer: 2
-    explanation: "Synergistic picture books use visual-text relationships to create meaning more sophisticated than either element alone could provide."
-  - question: "What narrative effect does created irony between text and image?  "
-    options:
-      - "It makes picture books confusing and inaccessible"
-      - "It allows illustration and text to create humor, tension, or emotional complexity by showing discrepancies between what is said and what is visually portrayed"
-      - "Irony prevents picture books from being effective"
-      - "Images and text should never create irony"
-    answer: 1
-    explanation: "When text and image create ironic tension—showing one thing while saying another—the result can be humor, emotional complexity, or sophisticated commentary."
+- question: How do the most effective picture books use the relationship between text and image to create meaning?
+  type: multiple-choice
+  options:
+  - Text and images should be identical, saying exactly the same thing
+  - Images are decorative and unrelated to narrative meaning
+  - Meaning emerges from the relationship between text and image—they can reinforce, expand, complicate, or contradict each other, creating layers of significance
+  - Picture books should contain only images without any text
+  answer: 2
+  explanation: Synergistic picture books use visual-text relationships to create meaning more sophisticated than either element alone could provide.
 
-true-false:
-  - question: "True or False: Removing either illustrations or text from a picture book would leave the same complete story intact."
-    answer: false
-    explanation: "This is false. Picture books are designed as integrated works where both text and image constitute the narrative; removing either loses essential meaning."
-  - question: "True or False: Visual-text relationships in picture books can be subtle and complex rather than simply literal or complementary."
-    answer: true
-    explanation: "This is true. Sophisticated picture books employ complex visual-text relationships including irony, symbolism, and layered meaning-making."
+- question: 'What narrative effect does created irony between text and image?  '
+  type: multiple-choice
+  options:
+  - It makes picture books confusing and inaccessible
+  - It allows illustration and text to create humor, tension, or emotional complexity by showing discrepancies between what is said and what is visually portrayed
+  - Irony prevents picture books from being effective
+  - Images and text should never create irony
+  answer: 1
+  explanation: When text and image create ironic tension—showing one thing while saying another—the result can be humor, emotional complexity, or sophisticated commentary.
 
-short-answer:
-  - question: "Why is understanding picture books as synergistic visual-textual works rather than 'text with illustrations' important for comprehending how they create meaning?"
-    explanation: "Calling illustrations merely decorative or secondary fundamentally misunderstands picture books' form. Picture books are neither novels illustrated nor illustrated text—they are hybrid works where narrative emerges from visual and textual integration. The distinction matters because it changes how we read and analyze picture books. If we treat images as secondary decoration, we miss half the narrative. A skilled illustrator can convey emotion, time passage, spatial relationships, character development—all without written explanation. Conversely, text does narrative work images cannot: internal monologue, dialogue, information not visually apparent. Effective picture books exploit both channels' distinctive powers. Furthermore, treating picture books as synergistic forms respects their sophistication and artistry. Visual-text integration isn't decorative but central meaning-making strategy. An illustration that contradicts text, creating irony, or that expands text with information the words omit, represents sophisticated authorial choice meriting literary analysis. This recognition helps us appreciate picture books as serious artistic works rather than simple entertainment for young children."
+- question: 'True or False: Removing either illustrations or text from a picture book would leave the same complete story intact.'
+  type: true-false
+  answer: false
+  explanation: This is false. Picture books are designed as integrated works where both text and image constitute the narrative; removing either loses essential meaning.
+
+- question: 'True or False: Visual-text relationships in picture books can be subtle and complex rather than simply literal or complementary.'
+  type: true-false
+  answer: true
+  explanation: This is true. Sophisticated picture books employ complex visual-text relationships including irony, symbolism, and layered meaning-making.
+
+- question: Why is understanding picture books as synergistic visual-textual works rather than 'text with illustrations' important for comprehending how they create meaning?
+  type: short-answer
+  explanation: 'Calling illustrations merely decorative or secondary fundamentally misunderstands picture books'' form. Picture books are neither novels illustrated nor illustrated text—they are hybrid works where narrative emerges from visual and textual integration. The distinction matters because it changes how we read and analyze picture books. If we treat images as secondary decoration, we miss half the narrative. A skilled illustrator can convey emotion, time passage, spatial relationships, character development—all without written explanation. Conversely, text does narrative work images cannot: internal monologue, dialogue, information not visually apparent. Effective picture books exploit both channels'' distinctive powers. Furthermore, treating picture books as synergistic forms respects their sophistication and artistry. Visual-text integration isn''t decorative but central meaning-making strategy. An illustration that contradicts text, creating irony, or that expands text with information the words omit, represents sophisticated authorial choice meriting literary analysis. This recognition helps us appreciate picture books as serious artistic works rather than simple entertainment for young children.'
 ```
 
 ## Explainer

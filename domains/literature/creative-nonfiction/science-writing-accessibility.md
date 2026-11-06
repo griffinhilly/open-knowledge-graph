@@ -22,39 +22,39 @@ Science writing makes complex research, ideas, and methodologies accessible to g
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What does science writing mean by 'without sacrificing accuracy or nuance'?"
+- question: What does science writing mean by 'without sacrificing accuracy or nuance'?
+  type: multiple-choice
   options:
-    - "Simplification inevitably loses accuracy, so science writing must choose readability over correctness."
-    - "Explaining complex science to non-specialists is impossible; only specialists can understand."
-    - "Science writing can make ideas comprehensible to general audiences while remaining accurate and conveying important complications."
-    - "Accuracy requires using jargon that only experts understand."
+  - Simplification inevitably loses accuracy, so science writing must choose readability over correctness.
+  - Explaining complex science to non-specialists is impossible; only specialists can understand.
+  - Science writing can make ideas comprehensible to general audiences while remaining accurate and conveying important complications.
+  - Accuracy requires using jargon that only experts understand.
   answer: 2
-  explanation: "Good science writing proves that accuracy and accessibility are compatible. A writer might explain quantum entanglement using an analogy, but acknowledge that the analogy has limits ('This is not perfectly accurate but captures the key idea'). Or explain how a drug works using concrete language and examples while avoiding oversimplification. The challenge is finding the right level of detail for the audience—enough to convey genuine understanding without requiring years of specialized training. Nuance means acknowledging uncertainties, limitations, competing theories, and real complications—not dumbing down but translating."
+  explanation: Good science writing proves that accuracy and accessibility are compatible. A writer might explain quantum entanglement using an analogy, but acknowledge that the analogy has limits ('This is not perfectly accurate but captures the key idea'). Or explain how a drug works using concrete language and examples while avoiding oversimplification. The challenge is finding the right level of detail for the audience—enough to convey genuine understanding without requiring years of specialized training. Nuance means acknowledging uncertainties, limitations, competing theories, and real complications—not dumbing down but translating.
 
-- type: multiple-choice
-  question: "Why does science writing use 'narrative structure, metaphor, concrete examples' rather than simply presenting facts and data?"
+- question: Why does science writing use 'narrative structure, metaphor, concrete examples' rather than simply presenting facts and data?
+  type: multiple-choice
   options:
-    - "Because fiction techniques are more important than accuracy in science writing."
-    - "Because these techniques make complex ideas comprehensible by connecting them to human experience and creating reader engagement."
-    - "Because scientists refuse to communicate clearly with general audiences."
-    - "Because data and facts are not important in science writing."
+  - Because fiction techniques are more important than accuracy in science writing.
+  - Because these techniques make complex ideas comprehensible by connecting them to human experience and creating reader engagement.
+  - Because scientists refuse to communicate clearly with general audiences.
+  - Because data and facts are not important in science writing.
   answer: 1
-  explanation: "Humans understand new ideas by connecting them to what we already know. A narrative shows scientific ideas unfolding over time in the way humans actually encounter them. Metaphor allows people to grasp abstract concepts through concrete comparison. Examples show how general principles work in specific cases. These are not decorative—they're cognitive tools that make genuine understanding possible. A page of raw data or equations excludes most readers; narrative and metaphor invite them into understanding."
+  explanation: Humans understand new ideas by connecting them to what we already know. A narrative shows scientific ideas unfolding over time in the way humans actually encounter them. Metaphor allows people to grasp abstract concepts through concrete comparison. Examples show how general principles work in specific cases. These are not decorative—they're cognitive tools that make genuine understanding possible. A page of raw data or equations excludes most readers; narrative and metaphor invite them into understanding.
 
-- type: true-false
-  statement: "True: Good science writing conveys both scientific findings and the human stakes—why this research matters for people's lives."
+- question: 'True: Good science writing conveys both scientific findings and the human stakes—why this research matters for people''s lives.'
+  type: true-false
   answer: true
-  explanation: "This distinguishes excellent science writing from mere technical explanation. Understanding why research matters—how it affects human health, addresses problems, changes how we see the world—makes readers engaged. A discovery about bacterial resistance matters because people die of infection. Climate science matters because it affects where people can live. Science writing that conveys human significance alongside findings creates understanding that resonates emotionally as well as intellectually."
+  explanation: This distinguishes excellent science writing from mere technical explanation. Understanding why research matters—how it affects human health, addresses problems, changes how we see the world—makes readers engaged. A discovery about bacterial resistance matters because people die of infection. Climate science matters because it affects where people can live. Science writing that conveys human significance alongside findings creates understanding that resonates emotionally as well as intellectually.
 
-- type: true-false
-  statement: "True: Using accessible language in science writing means avoiding all technical terms and explaining everything in simple words."
+- question: 'True: Using accessible language in science writing means avoiding all technical terms and explaining everything in simple words.'
+  type: true-false
   answer: false
-  explanation: "Accessibility doesn't mean dumbing down; it means using technical terms appropriately with explanation. A science writer might use 'mitochondria' without defining it for a general educated audience, but would explain 'CRISPR gene editing' since fewer people know that term. The skill is knowing which terms an audience understands and when to define or explain specialized vocabulary. Some jargon is useful shorthand; jargon for its own sake is barrier-building."
+  explanation: Accessibility doesn't mean dumbing down; it means using technical terms appropriately with explanation. A science writer might use 'mitochondria' without defining it for a general educated audience, but would explain 'CRISPR gene editing' since fewer people know that term. The skill is knowing which terms an audience understands and when to define or explain specialized vocabulary. Some jargon is useful shorthand; jargon for its own sake is barrier-building.
 
-- type: short-answer
-  question: "Choose a complex scientific or technical concept you find interesting. Explain it to a general audience (assume educated readers but no specialized knowledge) using narrative structure, a metaphor, and concrete examples. What makes your explanation clear without oversimplifying?"
-  explanation: "For example, explaining photosynthesis: You might start narratively with a plant facing a problem (needing energy but unable to eat like animals). Metaphorically: 'A plant is a solar panel that runs on light instead of electricity.' Concretely: 'Grass in your yard captures sunlight and converts it to sugar the plant uses to grow—the same way a solar panel captures light and converts it to electricity.' A fuller explanation would describe chlorophyll absorbing light wavelengths, the light and dark reactions, ATP production—but grounded in the concrete example. Nuance might acknowledge that this is simplified (the reality is more complex with multiple photosystems, photorespiration, etc.) but captures the core idea. Good science writing shows why the core idea matters (plants are the basis of food chains; understanding photosynthesis helps us address food security) and what the complications are."
+- question: Choose a complex scientific or technical concept you find interesting. Explain it to a general audience (assume educated readers but no specialized knowledge) using narrative structure, a metaphor, and concrete examples. What makes your explanation clear without oversimplifying?
+  type: short-answer
+  explanation: 'For example, explaining photosynthesis: You might start narratively with a plant facing a problem (needing energy but unable to eat like animals). Metaphorically: ''A plant is a solar panel that runs on light instead of electricity.'' Concretely: ''Grass in your yard captures sunlight and converts it to sugar the plant uses to grow—the same way a solar panel captures light and converts it to electricity.'' A fuller explanation would describe chlorophyll absorbing light wavelengths, the light and dark reactions, ATP production—but grounded in the concrete example. Nuance might acknowledge that this is simplified (the reality is more complex with multiple photosystems, photorespiration, etc.) but captures the core idea. Good science writing shows why the core idea matters (plants are the basis of food chains; understanding photosynthesis helps us address food security) and what the complications are.'
 ```
 
 ## Explainer

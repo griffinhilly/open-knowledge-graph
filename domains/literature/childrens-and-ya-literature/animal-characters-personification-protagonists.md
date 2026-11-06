@@ -27,35 +27,39 @@ Children's literature frequently features animal characters as protagonists, emp
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "In children's literature, what is the primary literary advantage of using an animal protagonist rather than a human child?"
-    options:
-      - "Animals are always less complex characters than human children"
-      - "The animal's nonhuman nature creates psychological and social distance that allows exploration of human issues through a safe metaphorical lens"
-      - "Animals require no character development or motivation"
-      - "It automatically makes the story more entertaining without requiring skillful writing"
-    answer: 1
-    explanation: "Animal protagonists provide metaphorical distance, allowing readers to explore themes like belonging, courage, or loss in a frame that feels less threatening because the character is not human. This enables children to process difficult feelings more safely."
-  - question: "What narrative technique does personification in children's stories rely on to make animal characters emotionally resonant?"
-    options:
-      - "Removing all animal characteristics so they are indistinguishable from humans"
-      - "Selecting human-like emotions, motivations, and conflicts while retaining sufficient animal traits to maintain imaginative coherence"
-      - "Making the animal serve purely as a vehicle for adult moral lessons"
-      - "Ensuring the animal never displays any behaviors recognizable from actual animals"
-    answer: 1
-    explanation: "Effective personification balances anthropomorphic qualities (human emotions and speech) with enough animal specificity to maintain believability. The best animal characters feel both relatable and authentically themselves."
+- question: In children's literature, what is the primary literary advantage of using an animal protagonist rather than a human child?
+  type: multiple-choice
+  options:
+  - Animals are always less complex characters than human children
+  - The animal's nonhuman nature creates psychological and social distance that allows exploration of human issues through a safe metaphorical lens
+  - Animals require no character development or motivation
+  - It automatically makes the story more entertaining without requiring skillful writing
+  answer: 1
+  explanation: Animal protagonists provide metaphorical distance, allowing readers to explore themes like belonging, courage, or loss in a frame that feels less threatening because the character is not human. This enables children to process difficult feelings more safely.
 
-true-false:
-  - question: "True or False: An animal protagonist can explore human emotional and social experiences while still maintaining its identity as a specific type of animal."
-    answer: true
-    explanation: "This is true. Characters like Charlotte in 'Charlotte's Web' or Watership Down's rabbits display distinctly human emotional insights and relationships while remaining true to their animal nature and behaviors."
-  - question: "True or False: Personification means giving an animal exactly the same capabilities and lifespan as a human."
-    answer: false
-    explanation: "This is false. Personification is selective—it grants emotional consciousness and language while often maintaining realistic constraints like lifespan or biological needs that differ from humans."
+- question: What narrative technique does personification in children's stories rely on to make animal characters emotionally resonant?
+  type: multiple-choice
+  options:
+  - Removing all animal characteristics so they are indistinguishable from humans
+  - Selecting human-like emotions, motivations, and conflicts while retaining sufficient animal traits to maintain imaginative coherence
+  - Making the animal serve purely as a vehicle for adult moral lessons
+  - Ensuring the animal never displays any behaviors recognizable from actual animals
+  answer: 1
+  explanation: Effective personification balances anthropomorphic qualities (human emotions and speech) with enough animal specificity to maintain believability. The best animal characters feel both relatable and authentically themselves.
 
-short-answer:
-  - question: "How does the choice to make a character an animal rather than human change what themes a children's story can explore, and why might an author make this choice?"
-    explanation: "Animal protagonists allow exploration of existential themes (mortality, belonging, survival) from a perspective that creates necessary psychological distance for young readers. A story about a pig facing the slaughter house (Charlotte's Web) or rabbits searching for home (Watership Down) lets children contemplate death, loss, and belonging without the immediate trauma of human tragedy. The animal frame functions as metaphor—allowing deep emotional and thematic engagement while maintaining enough imaginative safety for the reader."
+- question: 'True or False: An animal protagonist can explore human emotional and social experiences while still maintaining its identity as a specific type of animal.'
+  type: true-false
+  answer: true
+  explanation: This is true. Characters like Charlotte in 'Charlotte's Web' or Watership Down's rabbits display distinctly human emotional insights and relationships while remaining true to their animal nature and behaviors.
+
+- question: 'True or False: Personification means giving an animal exactly the same capabilities and lifespan as a human.'
+  type: true-false
+  answer: false
+  explanation: This is false. Personification is selective—it grants emotional consciousness and language while often maintaining realistic constraints like lifespan or biological needs that differ from humans.
+
+- question: How does the choice to make a character an animal rather than human change what themes a children's story can explore, and why might an author make this choice?
+  type: short-answer
+  explanation: Animal protagonists allow exploration of existential themes (mortality, belonging, survival) from a perspective that creates necessary psychological distance for young readers. A story about a pig facing the slaughter house (Charlotte's Web) or rabbits searching for home (Watership Down) lets children contemplate death, loss, and belonging without the immediate trauma of human tragedy. The animal frame functions as metaphor—allowing deep emotional and thematic engagement while maintaining enough imaginative safety for the reader.
 ```
 
 ## Explainer

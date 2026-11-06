@@ -37,42 +37,45 @@ A third position is that the dichotomy is false. Contemporary philosophy of scie
 
 ## Questions
 
-- id: history-science-debate-q1
-  type: mc
-  question: "What is the key distinction between idiographic and nomothetic disciplines in the context of this debate?"
+```yaml
+- question: What is the key distinction between idiographic and nomothetic disciplines in the context of this debate?
+  type: multiple-choice
   options:
-    - "Idiographic disciplines use primary sources while nomothetic ones use secondary sources"
-    - "Idiographic disciplines study particular, unique events while nomothetic disciplines seek universal laws"
-    - "Idiographic disciplines are qualitative while nomothetic disciplines are quantitative"
-    - "Idiographic disciplines emerged in the 20th century while nomothetic disciplines are older"
-  correct: 1
-  explanation: "The idiographic-nomothetic distinction is central to the debate: history is idiographic (studying particular, unrepeatable events) while sciences like physics are nomothetic (seeking universal laws confirmed by repeatable experiments)."
+  - Idiographic disciplines use primary sources while nomothetic ones use secondary sources
+  - Idiographic disciplines study particular, unique events while nomothetic disciplines seek universal laws
+  - Idiographic disciplines are qualitative while nomothetic disciplines are quantitative
+  - Idiographic disciplines emerged in the 20th century while nomothetic disciplines are older
+  answer: 1
+  explanation: 'The idiographic-nomothetic distinction is central to the debate: history is idiographic (studying particular, unrepeatable events) while sciences like physics are nomothetic (seeking universal laws confirmed by repeatable experiments).'
+  id: history-science-debate-q1
 
-- id: history-science-debate-q2
-  type: mc
-  question: "According to Wilhelm Dilthey, why do the human sciences (Geisteswissenschaften) require a different method than the natural sciences?"
+- question: According to Wilhelm Dilthey, why do the human sciences (Geisteswissenschaften) require a different method than the natural sciences?
+  type: multiple-choice
   options:
-    - "Because human sciences lack sufficient data for statistical analysis"
-    - "Because human action requires understanding of intentions and meanings, not just causal explanation"
-    - "Because human sciences are inherently less rigorous than natural sciences"
-    - "Because the human sciences were established later and have not yet developed proper methods"
-  correct: 1
-  explanation: "Dilthey argued that understanding human action requires grasping intentions, beliefs, and meanings (Verstehen), which is fundamentally different from the causal explanation used in natural science. History is not a failed science but a different enterprise."
+  - Because human sciences lack sufficient data for statistical analysis
+  - Because human action requires understanding of intentions and meanings, not just causal explanation
+  - Because human sciences are inherently less rigorous than natural sciences
+  - Because the human sciences were established later and have not yet developed proper methods
+  answer: 1
+  explanation: Dilthey argued that understanding human action requires grasping intentions, beliefs, and meanings (Verstehen), which is fundamentally different from the causal explanation used in natural science. History is not a failed science but a different enterprise.
+  id: history-science-debate-q2
 
-- id: history-science-debate-q3
-  type: tf
-  question: "The positivist model of science requires the production of covering laws — universal generalizations confirmed by repeatable experiments."
-  correct: true
-  explanation: "On the standard positivist model, science produces covering laws of the form 'whenever X conditions obtain, Y follows,' confirmed by repeatable experiments and used to make predictions. History's inability to produce such laws is the basis of the argument that it is not a science."
+- question: The positivist model of science requires the production of covering laws — universal generalizations confirmed by repeatable experiments.
+  type: true-false
+  answer: true
+  explanation: On the standard positivist model, science produces covering laws of the form 'whenever X conditions obtain, Y follows,' confirmed by repeatable experiments and used to make predictions. History's inability to produce such laws is the basis of the argument that it is not a science.
+  id: history-science-debate-q3
 
-- id: history-science-debate-q4
-  type: tf
-  question: "The third position in the debate holds that fields like geology and evolutionary biology prove that dealing with unique, unrepeatable events automatically disqualifies a discipline from being scientific."
-  correct: false
-  explanation: "The third position argues the opposite: geology, evolutionary biology, and cosmology also deal with unique, unrepeatable events and cannot run controlled experiments, yet they are considered scientific. This undermines the strict dichotomy between history and science."
+- question: The third position in the debate holds that fields like geology and evolutionary biology prove that dealing with unique, unrepeatable events automatically disqualifies a discipline from being scientific.
+  type: true-false
+  answer: false
+  explanation: 'The third position argues the opposite: geology, evolutionary biology, and cosmology also deal with unique, unrepeatable events and cannot run controlled experiments, yet they are considered scientific. This undermines the strict dichotomy between history and science.'
+  id: history-science-debate-q4
 
-- id: history-science-debate-q5
-  type: sa
-  question: "What German phrase did Leopold von Ranke use to express his aspiration for historical writing, and what does it mean?"
-  correct: "wie es eigentlich gewesen — as it actually was"
-  explanation: "Ranke's famous aspiration was to write history 'as it actually was' (wie es eigentlich gewesen), relying strictly on primary sources rather than speculation, which was itself a claim to scientific rigor."
+- question: What German phrase did Leopold von Ranke use to express his aspiration for historical writing, and what does it mean?
+  type: short-answer
+  answer: wie es eigentlich gewesen — as it actually was
+  explanation: Ranke's famous aspiration was to write history 'as it actually was' (wie es eigentlich gewesen), relying strictly on primary sources rather than speculation, which was itself a claim to scientific rigor.
+  id: history-science-debate-q5
+```
+

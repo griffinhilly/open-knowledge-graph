@@ -34,40 +34,40 @@ Show melody contour on a whiteboard as a line graph going up, down, or staying f
 ## Questions
 
 ```yaml
-- question: "When a melody moves from one note to the next pitch, what is that called?"
-  type: mc
+- question: When a melody moves from one note to the next pitch, what is that called?
+  type: multiple-choice
   options:
-    - "A melody line"
-    - "A step or a leap, depending on the distance"
-    - "A phrase"
-    - "A rhythm pattern"
+  - A melody line
+  - A step or a leap, depending on the distance
+  - A phrase
+  - A rhythm pattern
   answer: 1
-  explanation: "When notes move to nearby pitches, it's a step. When they jump over notes to a far pitch, it's a leap."
+  explanation: When notes move to nearby pitches, it's a step. When they jump over notes to a far pitch, it's a leap.
 
-- question: "A step in a melody is when you move to the very next note."
-  type: tf
+- question: A step in a melody is when you move to the very next note.
+  type: true-false
   answer: true
-  explanation: "Yes! A step means moving to an adjacent note. A leap skips over notes and covers more distance."
+  explanation: Yes! A step means moving to an adjacent note. A leap skips over notes and covers more distance.
 
-- question: "What kind of movement sounds smoother—steps or leaps?"
-  type: mc
+- question: What kind of movement sounds smoother—steps or leaps?
+  type: multiple-choice
   options:
-    - "Leaps are always smoother"
-    - "Steps are smoother because they're closer together"
-    - "Both sound exactly the same"
-    - "It depends on the song"
+  - Leaps are always smoother
+  - Steps are smoother because they're closer together
+  - Both sound exactly the same
+  - It depends on the song
   answer: 1
-  explanation: "Steps create a smooth, connected feeling because the notes are close together. Leaps sound more dramatic and are easier to remember."
+  explanation: Steps create a smooth, connected feeling because the notes are close together. Leaps sound more dramatic and are easier to remember.
 
-- question: "Leaps in a melody are never used in simple songs for children."
-  type: tf
+- question: Leaps in a melody are never used in simple songs for children.
+  type: true-false
   answer: false
-  explanation: "Children's songs often use leaps! Leaps make melodies interesting and memorable. Many simple songs have a mix of steps and leaps."
+  explanation: Children's songs often use leaps! Leaps make melodies interesting and memorable. Many simple songs have a mix of steps and leaps.
 
-- question: "Sing or describe a melody you know, using the words 'step' and 'leap' to show how it moves."
-  type: sa
-  answer: "The melody steps down on the first part, then leaps up high for the chorus, then steps down again."
-  explanation: "A good answer shows understanding of how melodies can change direction through steps and leaps, using these words accurately."
+- question: Sing or describe a melody you know, using the words 'step' and 'leap' to show how it moves.
+  type: short-answer
+  answer: The melody steps down on the first part, then leaps up high for the chorus, then steps down again.
+  explanation: A good answer shows understanding of how melodies can change direction through steps and leaps, using these words accurately.
 ```
 
 ## Explainer

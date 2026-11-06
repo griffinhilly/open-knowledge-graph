@@ -27,35 +27,39 @@ Graphic novels for children and young adults employ sequential art—panels, pag
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What is the primary narrative function of panel sequencing in children's graphic novels?"
-    options:
-      - "Panels are purely decorative visual elements unrelated to storytelling"
-      - "The sequence of panels guides readers through time and causality, allowing visual and textual information to work together to communicate narrative"
-      - "Panels eliminate the need for any written words or dialogue"
-      - "Sequential arrangement has no effect on how readers interpret meaning"
-    answer: 1
-    explanation: "Panel sequencing is the core narrative technology of graphic novels—the movement from panel to panel represents time progression and causal relationships, with readers inferring actions between panels."
-  - question: "How do graphic novels support literacy development for emerging readers differently from traditional chapter books?"
-    options:
-      - "Graphic novels eliminate all text to make reading unnecessary"
-      - "Graphic novels combine visual storytelling with shorter text units, providing visual context clues that support comprehension while maintaining reading engagement"
-      - "Graphic novels make reading more difficult than traditional books"
-      - "Visual support has no effect on reading development"
-    answer: 1
-    explanation: "Visual narratives provide context that helps emerging readers understand words in context, reducing comprehension difficulty while maintaining story complexity."
+- question: What is the primary narrative function of panel sequencing in children's graphic novels?
+  type: multiple-choice
+  options:
+  - Panels are purely decorative visual elements unrelated to storytelling
+  - The sequence of panels guides readers through time and causality, allowing visual and textual information to work together to communicate narrative
+  - Panels eliminate the need for any written words or dialogue
+  - Sequential arrangement has no effect on how readers interpret meaning
+  answer: 1
+  explanation: Panel sequencing is the core narrative technology of graphic novels—the movement from panel to panel represents time progression and causal relationships, with readers inferring actions between panels.
 
-true-false:
-  - question: "True or False: Visual literacy—understanding how images, panel layout, and visual metaphor communicate meaning—is as important to understanding graphic novels as traditional reading comprehension."
-    answer: true
-    explanation: "This is true. Graphic novels require simultaneous interpretation of text and image; understanding the visual language of comics is essential to fully comprehending the narrative."
-  - question: "True or False: Graphic novels are primarily for readers who struggle with traditional text and cannot develop into 'real' readers."
-    answer: false
-    explanation: "This is false. Graphic novels represent a distinct literacy form that many sophisticated readers enjoy, and they develop multilayered visual and textual comprehension skills."
+- question: How do graphic novels support literacy development for emerging readers differently from traditional chapter books?
+  type: multiple-choice
+  options:
+  - Graphic novels eliminate all text to make reading unnecessary
+  - Graphic novels combine visual storytelling with shorter text units, providing visual context clues that support comprehension while maintaining reading engagement
+  - Graphic novels make reading more difficult than traditional books
+  - Visual support has no effect on reading development
+  answer: 1
+  explanation: Visual narratives provide context that helps emerging readers understand words in context, reducing comprehension difficulty while maintaining story complexity.
 
-short-answer:
-  - question: "Why might an author choose to tell a story as a graphic novel rather than as a traditional chapter book, and what unique narrative possibilities does the graphic novel form enable?"
-    explanation: "Graphic novels enable simultaneous communication of information through visual and textual channels—an image can convey emotion, setting, or action while text provides dialogue or narration, creating narrative efficiency and allowing subtle nuance through visual metaphor and expression that would require pages of prose description. Additionally, the sequential panel structure makes time and causality visible; readers interpret actions between panels, creating active participation in meaning-making. For children, the visual dimension makes narrative more accessible while demanding sophisticated interpretation skills; a reader must track action across panels, interpret facial expressions and body language for emotion, understand page layout's effect on pacing, and integrate text with image. This multilayered comprehension develops visual literacy crucial for navigating increasingly multimodal communication environments."
+- question: 'True or False: Visual literacy—understanding how images, panel layout, and visual metaphor communicate meaning—is as important to understanding graphic novels as traditional reading comprehension.'
+  type: true-false
+  answer: true
+  explanation: This is true. Graphic novels require simultaneous interpretation of text and image; understanding the visual language of comics is essential to fully comprehending the narrative.
+
+- question: 'True or False: Graphic novels are primarily for readers who struggle with traditional text and cannot develop into ''real'' readers.'
+  type: true-false
+  answer: false
+  explanation: This is false. Graphic novels represent a distinct literacy form that many sophisticated readers enjoy, and they develop multilayered visual and textual comprehension skills.
+
+- question: Why might an author choose to tell a story as a graphic novel rather than as a traditional chapter book, and what unique narrative possibilities does the graphic novel form enable?
+  type: short-answer
+  explanation: Graphic novels enable simultaneous communication of information through visual and textual channels—an image can convey emotion, setting, or action while text provides dialogue or narration, creating narrative efficiency and allowing subtle nuance through visual metaphor and expression that would require pages of prose description. Additionally, the sequential panel structure makes time and causality visible; readers interpret actions between panels, creating active participation in meaning-making. For children, the visual dimension makes narrative more accessible while demanding sophisticated interpretation skills; a reader must track action across panels, interpret facial expressions and body language for emotion, understand page layout's effect on pacing, and integrate text with image. This multilayered comprehension develops visual literacy crucial for navigating increasingly multimodal communication environments.
 ```
 
 ## Explainer

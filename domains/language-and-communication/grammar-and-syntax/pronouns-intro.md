@@ -42,42 +42,45 @@ One pronoun deserves special attention: singular **they**. English has long lack
 
 ## Questions
 
-- id: pronouns-intro-q1
-  type: mc
-  question: "In the sentence 'Maria said she was tired,' what is the antecedent of the pronoun 'she'?"
+```yaml
+- question: In the sentence 'Maria said she was tired,' what is the antecedent of the pronoun 'she'?
+  type: multiple-choice
   options:
-    - "said"
-    - "tired"
-    - "Maria"
-    - "was"
-  correct: 2
-  explanation: "The antecedent is the noun that the pronoun replaces. 'She' refers back to 'Maria,' which is the noun introduced earlier in the sentence."
+  - said
+  - tired
+  - Maria
+  - was
+  answer: 2
+  explanation: The antecedent is the noun that the pronoun replaces. 'She' refers back to 'Maria,' which is the noun introduced earlier in the sentence.
+  id: pronouns-intro-q1
 
-- id: pronouns-intro-q2
-  type: mc
-  question: "Which type of pronoun is used in the sentence 'This is the book I wanted'?"
+- question: Which type of pronoun is used in the sentence 'This is the book I wanted'?
+  type: multiple-choice
   options:
-    - "Personal pronoun"
-    - "Possessive pronoun"
-    - "Demonstrative pronoun"
-    - "Reflexive pronoun"
-  correct: 2
-  explanation: "Demonstrative pronouns (this, that, these, those) point to specific things, indicating nearness or distance. In this sentence, 'this' is a demonstrative pronoun pointing to a particular book."
+  - Personal pronoun
+  - Possessive pronoun
+  - Demonstrative pronoun
+  - Reflexive pronoun
+  answer: 2
+  explanation: Demonstrative pronouns (this, that, these, those) point to specific things, indicating nearness or distance. In this sentence, 'this' is a demonstrative pronoun pointing to a particular book.
+  id: pronouns-intro-q2
 
-- id: pronouns-intro-q3
-  type: tf
-  question: "Singular 'they' can be used to refer to an indefinite person, such as in 'Someone left their umbrella.'"
-  correct: true
-  explanation: "Singular 'they' is grammatically accepted for indefinite referents like 'someone,' 'everyone,' or 'anyone.' It has been used this way in English for centuries and is now widely accepted in formal writing."
+- question: Singular 'they' can be used to refer to an indefinite person, such as in 'Someone left their umbrella.'
+  type: true-false
+  answer: true
+  explanation: Singular 'they' is grammatically accepted for indefinite referents like 'someone,' 'everyone,' or 'anyone.' It has been used this way in English for centuries and is now widely accepted in formal writing.
+  id: pronouns-intro-q3
 
-- id: pronouns-intro-q4
-  type: tf
-  question: "A pronoun should appear before its antecedent in a sentence."
-  correct: false
-  explanation: "The antecedent (from Latin for 'going before') must appear before the pronoun that refers to it. The pronoun points backward to the noun it replaces, not forward."
+- question: A pronoun should appear before its antecedent in a sentence.
+  type: true-false
+  answer: false
+  explanation: The antecedent (from Latin for 'going before') must appear before the pronoun that refers to it. The pronoun points backward to the noun it replaces, not forward.
+  id: pronouns-intro-q4
 
-- id: pronouns-intro-q5
-  type: sa
-  question: "What is the word for the noun or noun phrase that a pronoun replaces?"
-  correct: "antecedent"
-  explanation: "An antecedent is the noun or noun phrase that a pronoun substitutes for. The word comes from Latin meaning 'going before,' because it must appear before the pronoun that refers to it."
+- question: What is the word for the noun or noun phrase that a pronoun replaces?
+  type: short-answer
+  answer: antecedent
+  explanation: An antecedent is the noun or noun phrase that a pronoun substitutes for. The word comes from Latin meaning 'going before,' because it must appear before the pronoun that refers to it.
+  id: pronouns-intro-q5
+```
+

@@ -33,39 +33,39 @@ Allende's magical elements are not sentimentality—they represent a formal stra
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "Why does Allende use magical realism rather than conventional realism to tell family and political history?"
+- question: Why does Allende use magical realism rather than conventional realism to tell family and political history?
+  type: multiple-choice
   options:
-    - "Because magical realism is more entertaining and easier to read than realism"
-    - "Because magical elements allow her to represent women's subjective experience and indigenous knowledge systems that conventional historical narratives erase"
-    - "Because she lacks the technical skill to write realistic novels"
-    - "Because magical realism is the only form available to Latin American writers"
+  - Because magical realism is more entertaining and easier to read than realism
+  - Because magical elements allow her to represent women's subjective experience and indigenous knowledge systems that conventional historical narratives erase
+  - Because she lacks the technical skill to write realistic novels
+  - Because magical realism is the only form available to Latin American writers
   answer: 1
-  explanation: "Allende's choice of magical realism is strategic and political. Conventional historical narratives—based on documentary evidence, public events, masculine authority—typically erase women's experience, indigenous knowledge, and subjective interior life. By introducing magical elements (ghosts, premonitions, inherited powers), Allende represents forms of knowledge and presence that exist outside official history. A woman's intuitive knowledge of the future, a grandmother's spiritual influence across generations—these are not 'real' in the sense of documentary history, but they are psychologically and culturally real. Magical realism gives her permission to represent these realities as valid and significant. The form thus corrects historical erasure."
+  explanation: Allende's choice of magical realism is strategic and political. Conventional historical narratives—based on documentary evidence, public events, masculine authority—typically erase women's experience, indigenous knowledge, and subjective interior life. By introducing magical elements (ghosts, premonitions, inherited powers), Allende represents forms of knowledge and presence that exist outside official history. A woman's intuitive knowledge of the future, a grandmother's spiritual influence across generations—these are not 'real' in the sense of documentary history, but they are psychologically and culturally real. Magical realism gives her permission to represent these realities as valid and significant. The form thus corrects historical erasure.
 
-- type: multiple-choice
-  question: "What does it mean that Allende employs 'multigenerational scope' to represent Latin American history?"
+- question: What does it mean that Allende employs 'multigenerational scope' to represent Latin American history?
+  type: multiple-choice
   options:
-    - "She writes about families living at different time periods in different countries"
-    - "She shows how historical trauma, political decisions, and social change are transmitted through families across generations, affecting individual identity and relationships"
-    - "She tells separate stories about each family member's life"
-    - "She compares families from different Latin American countries"
+  - She writes about families living at different time periods in different countries
+  - She shows how historical trauma, political decisions, and social change are transmitted through families across generations, affecting individual identity and relationships
+  - She tells separate stories about each family member's life
+  - She compares families from different Latin American countries
   answer: 1
-  explanation: "By spanning multiple generations, Allende represents history not as abstract events or great men but as lived experience that echoes through families. Political upheaval—revolutions, dictatorships, violence—disrupts family relationships, transmits trauma, and shapes how individuals understand themselves. By following families across generations, Allende shows how the personal and political are inseparable. A character's neurosis may be traced to a parent's political persecution; a woman's power may derive from her grandmother's resistance. The family becomes a vessel for representing how history enters intimate life. This structure makes visible what conventional political history often obscures: the cost to ordinary people and the persistence of effects across time."
+  explanation: 'By spanning multiple generations, Allende represents history not as abstract events or great men but as lived experience that echoes through families. Political upheaval—revolutions, dictatorships, violence—disrupts family relationships, transmits trauma, and shapes how individuals understand themselves. By following families across generations, Allende shows how the personal and political are inseparable. A character''s neurosis may be traced to a parent''s political persecution; a woman''s power may derive from her grandmother''s resistance. The family becomes a vessel for representing how history enters intimate life. This structure makes visible what conventional political history often obscures: the cost to ordinary people and the persistence of effects across time.'
 
-- type: true-false
-  statement: "Allende's use of family saga as a narrative structure is a sentimental choice that limits the political reach of her novels."
+- question: Allende's use of family saga as a narrative structure is a sentimental choice that limits the political reach of her novels.
+  type: true-false
   answer: false
-  explanation: "This misconception treats 'family' and 'politics' as separate domains. Allende's insight is that they are inseparable. The family is where historical forces are experienced, where trauma is transmitted, where resistance is enacted, where power relations are rehearsed. By choosing family as her scope, Allende does not retreat from politics—she deepen it by showing how politics inhabits intimate life. The scope is not limitation but strategic focus that reveals what broader narratives might miss. Women's political agency, often invisible in conventional political history, becomes visible when examined through family relationships and succession."
+  explanation: This misconception treats 'family' and 'politics' as separate domains. Allende's insight is that they are inseparable. The family is where historical forces are experienced, where trauma is transmitted, where resistance is enacted, where power relations are rehearsed. By choosing family as her scope, Allende does not retreat from politics—she deepen it by showing how politics inhabits intimate life. The scope is not limitation but strategic focus that reveals what broader narratives might miss. Women's political agency, often invisible in conventional political history, becomes visible when examined through family relationships and succession.
 
-- type: true-false
-  statement: "In Allende's work, magical elements like ghosts and supernatural inheritance are used to represent forms of knowledge and presence—such as women's intuitive knowledge or indigenous spiritual understanding—that conventional historical narrative erases."
+- question: In Allende's work, magical elements like ghosts and supernatural inheritance are used to represent forms of knowledge and presence—such as women's intuitive knowledge or indigenous spiritual understanding—that conventional historical narrative erases.
+  type: true-false
   answer: true
-  explanation: "This is central to Allende's formal innovation. She uses magical realism not for whimsy but to expand what counts as 'real' and historically significant. A grandmother's presence in her granddaughter's consciousness, a woman's premonition of the future, ancestral influence on present action—these are psychological and cultural realities that shape behavior and identity. By representing them through magical elements, Allende claims they belong in historical narrative. The technique is decolonial and feminist: it resists the colonial/masculine insistence that only documented, publicly verifiable facts are 'real' or worthy of narration."
+  explanation: 'This is central to Allende''s formal innovation. She uses magical realism not for whimsy but to expand what counts as ''real'' and historically significant. A grandmother''s presence in her granddaughter''s consciousness, a woman''s premonition of the future, ancestral influence on present action—these are psychological and cultural realities that shape behavior and identity. By representing them through magical elements, Allende claims they belong in historical narrative. The technique is decolonial and feminist: it resists the colonial/masculine insistence that only documented, publicly verifiable facts are ''real'' or worthy of narration.'
 
-- type: short-answer
-  question: "How does Allende's use of family narrative serve to represent the experience of women and indigenous populations in Latin American history?"
-  explanation: "Conventional Latin American political history—focusing on wars, governments, economic policies—typically centers masculine public action and erases women and indigenous peoples. Allende's strategy is to make family the primary lens through which to view history. Within families, women exercise power, make decisions, and shape succession. Indigenous knowledge systems persist through family transmission. Political change is experienced first as disruption of family bonds, loss of family members, transformation of family power structures. By narrating history through family scope and magical realism, Allende brings these erasures into visibility. A woman's inheritance of mystical power, the way indigenous beliefs survive colonialism through family practice, how female sexuality and reproduction become sites of political struggle—all these become historically significant when viewed through the family lens. The formal choice thus corrects historical erasure."
+- question: How does Allende's use of family narrative serve to represent the experience of women and indigenous populations in Latin American history?
+  type: short-answer
+  explanation: Conventional Latin American political history—focusing on wars, governments, economic policies—typically centers masculine public action and erases women and indigenous peoples. Allende's strategy is to make family the primary lens through which to view history. Within families, women exercise power, make decisions, and shape succession. Indigenous knowledge systems persist through family transmission. Political change is experienced first as disruption of family bonds, loss of family members, transformation of family power structures. By narrating history through family scope and magical realism, Allende brings these erasures into visibility. A woman's inheritance of mystical power, the way indigenous beliefs survive colonialism through family practice, how female sexuality and reproduction become sites of political struggle—all these become historically significant when viewed through the family lens. The formal choice thus corrects historical erasure.
 ```
 
 ## Explainer

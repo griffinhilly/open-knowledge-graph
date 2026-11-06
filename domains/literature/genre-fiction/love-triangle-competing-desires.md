@@ -27,36 +27,39 @@ The love triangle presents a protagonist attracted to two competing love interes
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What is the primary source of dramatic tension in a love triangle?"
-    options:
-      - "A misunderstanding that will be quickly resolved"
-      - "Attraction to two competing love interests, creating choices about the future"
-      - "Supernatural interference in romantic relationships"
-      - "Economic competition between potential partners"
-    correct_answer: 1
-    explanation: "The core idea states the love triangle 'presents a protagonist attracted to two competing love interests, creating dramatic tension around the choice of heart and future,' establishing attraction as the core tension."
-  - type: multiple-choice
-    question: "What can love triangles explore beyond the simple question of 'which partner to choose'?"
-    options:
-      - "Only which person is physically more attractive"
-      - "Different kinds of desire (security versus passion) or competing identities and visions of the future"
-      - "Economic status of the three people involved"
-      - "The age differences between the partners"
-    correct_answer: 1
-    explanation: "The core idea specifies that triangles 'can explore different kinds of desire (security versus passion, stability versus excitement) or reflect competing identities and visions of the future,' indicating depth beyond simple choice."
-  - type: true-false
-    question: "The resolution of a love triangle can reveal what the protagonist truly values and who they authentically are."
-    correct_answer: true
-    explanation: "The core idea states that 'the resolution often reveals what the protagonist truly values and who the authentic self is,' indicating character revelation is part of the triangle's function."
-  - type: true-false
-    question: "Love triangles are primarily about external circumstances forcing an unlikely choice."
-    correct_answer: false
-    explanation: "The core idea emphasizes what the triangle reveals about 'the protagonist's true values' and 'authentic self,' indicating it's about internal character rather than external circumstance."
-  - type: short-answer
-    question: "How can a love triangle that explores 'competing identities' differ from one that simply presents two attractive options? Give an example of how choice reveals character."
-    explanation: "A good answer should recognize that a triangle exploring competing identities isn't just 'which person do I love more?' but rather 'which version of myself do I want to be?' Choosing one partner might mean remaining in a small town versus moving to a city; choosing adventure versus security; choosing conformity versus authenticity. The choice reveals what the protagonist values in themselves, not just what they desire in a partner. Students should understand that the most sophisticated love triangles use romance as a vehicle for exploring identity and selfhood."
+- question: What is the primary source of dramatic tension in a love triangle?
+  type: multiple-choice
+  options:
+  - A misunderstanding that will be quickly resolved
+  - Attraction to two competing love interests, creating choices about the future
+  - Supernatural interference in romantic relationships
+  - Economic competition between potential partners
+  answer: 1
+  explanation: The core idea states the love triangle 'presents a protagonist attracted to two competing love interests, creating dramatic tension around the choice of heart and future,' establishing attraction as the core tension.
+
+- question: What can love triangles explore beyond the simple question of 'which partner to choose'?
+  type: multiple-choice
+  options:
+  - Only which person is physically more attractive
+  - Different kinds of desire (security versus passion) or competing identities and visions of the future
+  - Economic status of the three people involved
+  - The age differences between the partners
+  answer: 1
+  explanation: The core idea specifies that triangles 'can explore different kinds of desire (security versus passion, stability versus excitement) or reflect competing identities and visions of the future,' indicating depth beyond simple choice.
+
+- question: The resolution of a love triangle can reveal what the protagonist truly values and who they authentically are.
+  type: true-false
+  answer: true
+  explanation: The core idea states that 'the resolution often reveals what the protagonist truly values and who the authentic self is,' indicating character revelation is part of the triangle's function.
+
+- question: Love triangles are primarily about external circumstances forcing an unlikely choice.
+  type: true-false
+  answer: false
+  explanation: The core idea emphasizes what the triangle reveals about 'the protagonist's true values' and 'authentic self,' indicating it's about internal character rather than external circumstance.
+
+- question: How can a love triangle that explores 'competing identities' differ from one that simply presents two attractive options? Give an example of how choice reveals character.
+  type: short-answer
+  explanation: A good answer should recognize that a triangle exploring competing identities isn't just 'which person do I love more?' but rather 'which version of myself do I want to be?' Choosing one partner might mean remaining in a small town versus moving to a city; choosing adventure versus security; choosing conformity versus authenticity. The choice reveals what the protagonist values in themselves, not just what they desire in a partner. Students should understand that the most sophisticated love triangles use romance as a vehicle for exploring identity and selfhood.
 ```
 
 ## Explainer

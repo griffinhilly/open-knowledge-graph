@@ -23,36 +23,39 @@ Pulp fiction refers to cheaply-printed magazines designed for mass entertainment
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What was the primary audience and purpose of pulp fiction magazines?"
-    options:
-      - "Elite literary audiences seeking experimental narrative techniques"
-      - "Mass entertainment for affordable, disposable reading material"
-      - "Academic journals documenting scientific discoveries"
-      - "Children's literature focusing on moral instruction"
-    correct_answer: 1
-    explanation: "The core idea identifies pulp fiction as 'cheaply-printed magazines designed for mass entertainment,' indicating their purpose was to provide affordable, accessible fiction for broad audiences."
-  - type: multiple-choice
-    question: "Which of the following narrative characteristics are emphasized in pulp fiction?"
-    options:
-      - "Ambiguous morality and philosophical complexity"
-      - "Psychological introspection and internal monologue"
-      - "Action, episodic adventure, and clear heroes and villains"
-      - "Experimental narrative structure and metafictional commentary"
-    correct_answer: 2
-    explanation: "The core idea explicitly states that 'Pulp emphasizes action, episodic adventure, and clear heroes and villains.' These elements made pulp accessible and entertaining to mass audiences."
-  - type: true-false
-    question: "Pulp fiction magazines featured only detective stories and action-adventure narratives."
-    correct_answer: false
-    explanation: "The core idea specifies that pulp magazines featured 'adventure, detective, and early science fiction stories,' showing variety in genres covered."
-  - type: true-false
-    question: "Modern genre literature was significantly influenced by conventions that originated in pulp fiction."
-    correct_answer: true
-    explanation: "The core idea explicitly states that 'many modern genre conventions originated in pulp fiction and continue to influence contemporary genre literature.'"
-  - type: short-answer
-    question: "Why did the episodic structure of pulp fiction stories make them particularly suited to serialization in magazines?"
-    explanation: "A strong answer should explain that episodic narratives with clear beginnings, middles, and endings in each installment kept readers returning to buy the next issue without requiring them to have read all previous issues. Students should demonstrate understanding that pulp's narrative structure was adapted to fit the economics of magazine publication."
+- question: What was the primary audience and purpose of pulp fiction magazines?
+  type: multiple-choice
+  options:
+  - Elite literary audiences seeking experimental narrative techniques
+  - Mass entertainment for affordable, disposable reading material
+  - Academic journals documenting scientific discoveries
+  - Children's literature focusing on moral instruction
+  answer: 1
+  explanation: The core idea identifies pulp fiction as 'cheaply-printed magazines designed for mass entertainment,' indicating their purpose was to provide affordable, accessible fiction for broad audiences.
+
+- question: Which of the following narrative characteristics are emphasized in pulp fiction?
+  type: multiple-choice
+  options:
+  - Ambiguous morality and philosophical complexity
+  - Psychological introspection and internal monologue
+  - Action, episodic adventure, and clear heroes and villains
+  - Experimental narrative structure and metafictional commentary
+  answer: 2
+  explanation: The core idea explicitly states that 'Pulp emphasizes action, episodic adventure, and clear heroes and villains.' These elements made pulp accessible and entertaining to mass audiences.
+
+- question: Pulp fiction magazines featured only detective stories and action-adventure narratives.
+  type: true-false
+  answer: false
+  explanation: The core idea specifies that pulp magazines featured 'adventure, detective, and early science fiction stories,' showing variety in genres covered.
+
+- question: Modern genre literature was significantly influenced by conventions that originated in pulp fiction.
+  type: true-false
+  answer: true
+  explanation: The core idea explicitly states that 'many modern genre conventions originated in pulp fiction and continue to influence contemporary genre literature.'
+
+- question: Why did the episodic structure of pulp fiction stories make them particularly suited to serialization in magazines?
+  type: short-answer
+  explanation: A strong answer should explain that episodic narratives with clear beginnings, middles, and endings in each installment kept readers returning to buy the next issue without requiring them to have read all previous issues. Students should demonstrate understanding that pulp's narrative structure was adapted to fit the economics of magazine publication.
 ```
 
 ## Explainer

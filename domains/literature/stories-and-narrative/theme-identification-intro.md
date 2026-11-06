@@ -34,35 +34,40 @@ Read a story and ask: What big idea is the author exploring? What does the prota
 ## Questions
 
 ```yaml
-- question: "A story follows a character who always helps friends in need, even when it costs him time and money. By the end, his friends have all betrayed him, yet he realizes he would make the same choices again. What theme is this story most likely exploring?"
+- question: A story follows a character who always helps friends in need, even when it costs him time and money. By the end, his friends have all betrayed him, yet he realizes he would make the same choices again. What theme is this story most likely exploring?
+  type: multiple-choice
   options:
-    - "Friendship is a waste of time"
-    - "The value of loyalty and kindness, even when unrewarded and painful"
-    - "Friends are not trustworthy"
-    - "Money is more important than people"
+  - Friendship is a waste of time
+  - The value of loyalty and kindness, even when unrewarded and painful
+  - Friends are not trustworthy
+  - Money is more important than people
   answer: 1
-  explanation: "A theme is an underlying message or truth about human nature. Even though the character is betrayed, the story suggests that his kindness and loyalty had value regardless of the outcome. The theme is not about whether friends will reciprocate, but about the value of the choice to be loyal itself."
+  explanation: A theme is an underlying message or truth about human nature. Even though the character is betrayed, the story suggests that his kindness and loyalty had value regardless of the outcome. The theme is not about whether friends will reciprocate, but about the value of the choice to be loyal itself.
 
-- question: "Two different stories both feature characters who lose their homes. In one story, the character finds strength and community by rebuilding with help from neighbors. In the other, the character gives up and spirals into despair. Which statement best explains the relationship between plot events and theme?"
+- question: Two different stories both feature characters who lose their homes. In one story, the character finds strength and community by rebuilding with help from neighbors. In the other, the character gives up and spirals into despair. Which statement best explains the relationship between plot events and theme?
+  type: multiple-choice
   options:
-    - "Both stories have the same theme because both feature homelessness"
-    - "The theme is the same across all stories with similar plots"
-    - "The theme depends not just on what happens, but on the story's central message about what the events mean"
-    - "Themes are always about sad events like losing a home"
+  - Both stories have the same theme because both feature homelessness
+  - The theme is the same across all stories with similar plots
+  - The theme depends not just on what happens, but on the story's central message about what the events mean
+  - Themes are always about sad events like losing a home
   answer: 2
-  explanation: "The same plot event can convey different themes depending on the story's central message. One story explores how loss can unite people; the other explores how despair can isolate. Theme is not just the plot—it is what the story reveals about meaning, human nature, or truth through the plot."
+  explanation: The same plot event can convey different themes depending on the story's central message. One story explores how loss can unite people; the other explores how despair can isolate. Theme is not just the plot—it is what the story reveals about meaning, human nature, or truth through the plot.
 
-- question: "True or False: Every story has exactly one main theme."
+- question: 'True or False: Every story has exactly one main theme.'
+  type: true-false
   answer: false
-  explanation: "Stories often explore multiple themes. A story might explore both the theme that 'love requires sacrifice' and the theme that 'honesty is important.' Complex stories can layer several ideas together without one being primary."
+  explanation: Stories often explore multiple themes. A story might explore both the theme that 'love requires sacrifice' and the theme that 'honesty is important.' Complex stories can layer several ideas together without one being primary.
 
-- question: "True or False: A theme is a lesson the author is trying to teach you about how to behave."
+- question: 'True or False: A theme is a lesson the author is trying to teach you about how to behave.'
+  type: true-false
   answer: false
-  explanation: "Themes are not the same as morals or lessons. A story can explore a theme without endorsing one answer. A story about ambition does not necessarily teach 'ambition is good' or 'ambition is destructive'—it can simply show ambition's complexities. Themes are ideas the story explores, not necessarily prescriptions for behavior."
+  explanation: Themes are not the same as morals or lessons. A story can explore a theme without endorsing one answer. A story about ambition does not necessarily teach 'ambition is good' or 'ambition is destructive'—it can simply show ambition's complexities. Themes are ideas the story explores, not necessarily prescriptions for behavior.
 
-- question: "A fairy tale repeatedly shows characters gaining what they want through deceit and manipulation, and by the end, these characters are living happily with wealth and power. Based on the story's events, what theme might it be exploring? Is this different from the theme of a fairy tale where deception leads to punishment?"
-  answer: "This story might be exploring a theme like 'cleverness and ambition can lead to success' or 'morality is less important than achieving your goals.' This is very different from the traditional fairy tale theme where 'dishonesty is punished and virtue rewarded.' The same plot device (deceit) creates different themes depending on the consequences and what the story emphasizes. The theme is about what the story reveals through how events unfold and resolve."
-  explanation: "This tests understanding that theme emerges from how events are framed and resolved, not just from what events occur. Students should recognize that identical plot elements can support opposite themes depending on context and consequences."
+- question: A fairy tale repeatedly shows characters gaining what they want through deceit and manipulation, and by the end, these characters are living happily with wealth and power. Based on the story's events, what theme might it be exploring? Is this different from the theme of a fairy tale where deception leads to punishment?
+  type: short-answer
+  answer: This story might be exploring a theme like 'cleverness and ambition can lead to success' or 'morality is less important than achieving your goals.' This is very different from the traditional fairy tale theme where 'dishonesty is punished and virtue rewarded.' The same plot device (deceit) creates different themes depending on the consequences and what the story emphasizes. The theme is about what the story reveals through how events unfold and resolve.
+  explanation: This tests understanding that theme emerges from how events are framed and resolved, not just from what events occur. Students should recognize that identical plot elements can support opposite themes depending on context and consequences.
 ```
 
 ## Explainer

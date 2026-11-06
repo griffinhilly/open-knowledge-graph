@@ -32,40 +32,39 @@ The Ramayana is a historical account. (While it may preserve historical kernels,
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What does the Ramayana reveal through Rama's choice to accept exile rather than claim his birthright to the throne?"
-    options:
-      - "Rama is weak and should have fought for the throne"
-      - "Rama embodies dharma—righteousness and duty—even when it requires personal sacrifice and renunciation of what is rightfully his"
-      - "The Ramayana is primarily concerned with military conquest"
-      - "Rama's choice demonstrates that following authority is more important than any other consideration"
-    correct: "B"
-    explanation: "Rama's acceptance of exile, despite his clear right to the throne, demonstrates his unwavering commitment to dharma. Even though this choice brings suffering to him and Sita, Rama honors his father's word and duty to the kingdom. This embodies the epic's central message: the ideal king and hero prioritizes righteous duty over personal desire."
+- question: What does the Ramayana reveal through Rama's choice to accept exile rather than claim his birthright to the throne?
+  type: multiple-choice
+  options:
+  - Rama is weak and should have fought for the throne
+  - Rama embodies dharma—righteousness and duty—even when it requires personal sacrifice and renunciation of what is rightfully his
+  - The Ramayana is primarily concerned with military conquest
+  - Rama's choice demonstrates that following authority is more important than any other consideration
+  answer: 1
+  explanation: 'Rama''s acceptance of exile, despite his clear right to the throne, demonstrates his unwavering commitment to dharma. Even though this choice brings suffering to him and Sita, Rama honors his father''s word and duty to the kingdom. This embodies the epic''s central message: the ideal king and hero prioritizes righteous duty over personal desire.'
 
-  - type: multiple-choice
-    question: "How does the Ramayana's treatment of dharma differ from the Mahabharata's treatment of it?"
-    options:
-      - "The Ramayana shows no interest in dharma"
-      - "The Ramayana presents dharma as clearer and more achievable than the Mahabharata, though still challenging; Rama can act righteously even when it costs him personally"
-      - "The Ramayana treats dharma as meaningless"
-      - "Both epics present identical and equally simple views of dharma"
-    correct: "B"
-    explanation: "The Ramayana is often read as presenting a clearer, more navigable path of dharma compared to the Mahabharata's moral ambiguity. Rama's choices, while costly, generally align with dharmic principles. He can be righteous without the irresolvable conflicts that paralyze Arjuna. This makes the Ramayana more accessible and its philosophy more direct."
+- question: How does the Ramayana's treatment of dharma differ from the Mahabharata's treatment of it?
+  type: multiple-choice
+  options:
+  - The Ramayana shows no interest in dharma
+  - The Ramayana presents dharma as clearer and more achievable than the Mahabharata, though still challenging; Rama can act righteously even when it costs him personally
+  - The Ramayana treats dharma as meaningless
+  - Both epics present identical and equally simple views of dharma
+  answer: 1
+  explanation: The Ramayana is often read as presenting a clearer, more navigable path of dharma compared to the Mahabharata's moral ambiguity. Rama's choices, while costly, generally align with dharmic principles. He can be righteous without the irresolvable conflicts that paralyze Arjuna. This makes the Ramayana more accessible and its philosophy more direct.
 
-  - type: true-false
-    question: "The Ramayana should be understood primarily as a historical chronicle of actual events in Indian history."
-    correct: false
-    explanation: "The Ramayana is mythic epic shaped by literary, philosophical, and religious purposes, not historical documentation. While it may have preserved kernels of historical tradition, the epic as we know it is a sophisticated philosophical and literary work."
+- question: The Ramayana should be understood primarily as a historical chronicle of actual events in Indian history.
+  type: true-false
+  answer: false
+  explanation: The Ramayana is mythic epic shaped by literary, philosophical, and religious purposes, not historical documentation. While it may have preserved kernels of historical tradition, the epic as we know it is a sophisticated philosophical and literary work.
 
-  - type: true-false
-    question: "Rama's actions in the Ramayana consistently achieve perfect justice and resolve all conflicts satisfactorily."
-    correct: false
-    explanation: "The epic presents ambiguities and costs. Rama's righteous actions sometimes require him to set aside personal happiness (exiling Sita) or face tragic consequences. Dharma, even when followed faithfully, does not guarantee a painless outcome."
+- question: Rama's actions in the Ramayana consistently achieve perfect justice and resolve all conflicts satisfactorily.
+  type: true-false
+  answer: false
+  explanation: The epic presents ambiguities and costs. Rama's righteous actions sometimes require him to set aside personal happiness (exiling Sita) or face tragic consequences. Dharma, even when followed faithfully, does not guarantee a painless outcome.
 
-  - type: short-answer
-    question: "Explain how the Ramayana uses Rama's character to define the ideal king and hero, and why this ideal differs from Western conceptions of heroism."
-    explanation: "Rama embodies the ideal Hindu king through dharmic devotion: unwavering commitment to duty, family loyalty, righteous judgment, and acceptance of sacrifice. He is not celebrated primarily for military conquest or personal glory (though he achieves both) but for moral constancy. When offered the throne, he refuses it to honor his father's word. When required to exile the loyal Sita to preserve his reputation, he does so despite personal anguish. Western heroism often emphasizes individual achievement, courage in battle, or the transcendence of ordinary rules through exceptional action. Rama's heroism emphasizes discipline, duty, and the subordination of personal desire to righteous obligation. His strength is not in breaking rules but in perfectly adhering to them, even at great cost. This reflects a fundamentally different ethical philosophy: rather than the hero as individual exception, the hero as exemplar of proper social order and dharmic adherence."
+- question: Explain how the Ramayana uses Rama's character to define the ideal king and hero, and why this ideal differs from Western conceptions of heroism.
+  type: short-answer
+  explanation: 'Rama embodies the ideal Hindu king through dharmic devotion: unwavering commitment to duty, family loyalty, righteous judgment, and acceptance of sacrifice. He is not celebrated primarily for military conquest or personal glory (though he achieves both) but for moral constancy. When offered the throne, he refuses it to honor his father''s word. When required to exile the loyal Sita to preserve his reputation, he does so despite personal anguish. Western heroism often emphasizes individual achievement, courage in battle, or the transcendence of ordinary rules through exceptional action. Rama''s heroism emphasizes discipline, duty, and the subordination of personal desire to righteous obligation. His strength is not in breaking rules but in perfectly adhering to them, even at great cost. This reflects a fundamentally different ethical philosophy: rather than the hero as individual exception, the hero as exemplar of proper social order and dharmic adherence.'
 ```
 
 ## Explainer

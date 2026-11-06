@@ -25,39 +25,39 @@ Essays develop arguments through exploration rather than predetermined thesis. E
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "How does essayistic argumentation differ from formal academic argumentation?"
+- question: How does essayistic argumentation differ from formal academic argumentation?
+  type: multiple-choice
   options:
-    - "Essays are less rigorous than academic argument."
-    - "Essays develop arguments through exploration and discovery, while academic arguments start with predetermined thesis and defend it."
-    - "Essays don't use arguments at all."
-    - "There's no difference between the two forms."
+  - Essays are less rigorous than academic argument.
+  - Essays develop arguments through exploration and discovery, while academic arguments start with predetermined thesis and defend it.
+  - Essays don't use arguments at all.
+  - There's no difference between the two forms.
   answer: 1
-  explanation: "Academic argument typically starts with a thesis statement and proceeds to support it with evidence. Essayistic argument starts with a question or problem and explores it, allowing understanding to evolve. The path is not predetermined. The writer might start believing one thing and end believing something different—or more complicated."
+  explanation: Academic argument typically starts with a thesis statement and proceeds to support it with evidence. Essayistic argument starts with a question or problem and explores it, allowing understanding to evolve. The path is not predetermined. The writer might start believing one thing and end believing something different—or more complicated.
 
-- type: multiple-choice
-  question: "What does it mean that essayistic argumentation 'values the thinking process as much as conclusions'?"
+- question: What does it mean that essayistic argumentation 'values the thinking process as much as conclusions'?
+  type: multiple-choice
   options:
-    - "Process is less important than reaching conclusions."
-    - "The journey of thinking is as valuable and interesting as where thinking ends up."
-    - "Conclusions don't matter in essays."
-    - "Essays should be vague and avoid conclusions."
+  - Process is less important than reaching conclusions.
+  - The journey of thinking is as valuable and interesting as where thinking ends up.
+  - Conclusions don't matter in essays.
+  - Essays should be vague and avoid conclusions.
   answer: 1
-  explanation: "In academic writing, the conclusion is the point—all that matters is where you end up. In essays, showing how you think, the steps you take, the uncertainties you encounter—these are as valuable as what you conclude. The reader is interested in witnessing the thinking itself."
+  explanation: In academic writing, the conclusion is the point—all that matters is where you end up. In essays, showing how you think, the steps you take, the uncertainties you encounter—these are as valuable as what you conclude. The reader is interested in witnessing the thinking itself.
 
-- type: true-false
-  statement: "True: An essayistic argument might change its position or complicate its initial stance as it develops, and this is a sign of good thinking, not inconsistency."
+- question: 'True: An essayistic argument might change its position or complicate its initial stance as it develops, and this is a sign of good thinking, not inconsistency.'
+  type: true-false
   answer: true
-  explanation: "In academic writing, changing your position looks like failure. In essays, it's often a sign that you're thinking carefully—encountering complexity, revising naive initial assumptions, allowing ideas to evolve. This kind of intellectual honesty strengthens rather than weakens the essay."
+  explanation: In academic writing, changing your position looks like failure. In essays, it's often a sign that you're thinking carefully—encountering complexity, revising naive initial assumptions, allowing ideas to evolve. This kind of intellectual honesty strengthens rather than weakens the essay.
 
-- type: true-false
-  statement: "True: A dialectical approach in essayistic argumentation means entertaining multiple perspectives simultaneously rather than dismissing opposing views."
+- question: 'True: A dialectical approach in essayistic argumentation means entertaining multiple perspectives simultaneously rather than dismissing opposing views.'
+  type: true-false
   answer: true
-  explanation: "Dialectics involves holding contradictory ideas in tension, exploring how they interact. An essayistic essay might present multiple perspectives on an issue without completely resolving them. This reflects real complexity better than arguments that oversimplify to reach conclusions."
+  explanation: Dialectics involves holding contradictory ideas in tension, exploring how they interact. An essayistic essay might present multiple perspectives on an issue without completely resolving them. This reflects real complexity better than arguments that oversimplify to reach conclusions.
 
-- type: short-answer
-  question: "How might an essayistic argument about a complex political or moral issue differ from a position paper arguing for a specific policy? What does each accomplish?"
-  explanation: "A position paper would argue for a particular stance: 'We should implement policy X because of reasons A, B, and C.' It would anticipate and refute objections. The form aims to convince. An essayistic argument might explore the same issue but ask: 'What values are in tension here? What does each side understand that the other misses? What are the costs of different positions?' Rather than trying to convince, it tries to complicate understanding. It might end without clear conclusion or with the writer having revised their thinking. Essayistic form doesn't aim to win an argument; it aims to explore an issue thoughtfully. A position paper is meant to persuade; an essay is meant to investigate. Both are valid. Essays allow for the kind of nuance and complexity that position papers sometimes simplify."
+- question: How might an essayistic argument about a complex political or moral issue differ from a position paper arguing for a specific policy? What does each accomplish?
+  type: short-answer
+  explanation: 'A position paper would argue for a particular stance: ''We should implement policy X because of reasons A, B, and C.'' It would anticipate and refute objections. The form aims to convince. An essayistic argument might explore the same issue but ask: ''What values are in tension here? What does each side understand that the other misses? What are the costs of different positions?'' Rather than trying to convince, it tries to complicate understanding. It might end without clear conclusion or with the writer having revised their thinking. Essayistic form doesn''t aim to win an argument; it aims to explore an issue thoughtfully. A position paper is meant to persuade; an essay is meant to investigate. Both are valid. Essays allow for the kind of nuance and complexity that position papers sometimes simplify.'
 ```
 
 ## Explainer

@@ -35,35 +35,40 @@ Compare a historical account with historical fiction about the same period. What
 ## Questions
 
 ```yaml
-- question: "A reader says: 'Harry Potter is fake, so there's nothing true about it. Reading fiction is a waste of time.' How would you respond to this claim?"
+- question: 'A reader says: ''Harry Potter is fake, so there''s nothing true about it. Reading fiction is a waste of time.'' How would you respond to this claim?'
+  type: multiple-choice
   options:
-    - "The reader is right—fiction has no value because it's invented"
-    - "Fiction invents scenarios, but explores real human truths: courage, friendship, moral choice, growth. Harry's journey is invented, but what he learns about loyalty and standing against evil is true to human experience. Fiction uses imagination to reveal truths that straight fact-telling might miss"
-    - "Fiction is only for entertainment and teaches nothing"
-    - "All stories are equally true whether they're fact or fiction"
+  - The reader is right—fiction has no value because it's invented
+  - 'Fiction invents scenarios, but explores real human truths: courage, friendship, moral choice, growth. Harry''s journey is invented, but what he learns about loyalty and standing against evil is true to human experience. Fiction uses imagination to reveal truths that straight fact-telling might miss'
+  - Fiction is only for entertainment and teaches nothing
+  - All stories are equally true whether they're fact or fiction
   answer: 1
-  explanation: "This distinction is crucial: fictional events are not true, but human truths explored through fiction are real. Fiction's freedom to imagine allows authors to explore scenarios that illuminate how humans actually work—our fears, hopes, moral dilemmas, growth. Fiction and fact serve different purposes."
+  explanation: 'This distinction is crucial: fictional events are not true, but human truths explored through fiction are real. Fiction''s freedom to imagine allows authors to explore scenarios that illuminate how humans actually work—our fears, hopes, moral dilemmas, growth. Fiction and fact serve different purposes.'
 
-- question: "A history textbook states that the American Civil War lasted from 1861 to 1865. A historical fiction novel is set during the Civil War but invents a fictional family's experiences, adding dialogue and private moments the author imagined. How should a reader approach each text differently?"
+- question: A history textbook states that the American Civil War lasted from 1861 to 1865. A historical fiction novel is set during the Civil War but invents a fictional family's experiences, adding dialogue and private moments the author imagined. How should a reader approach each text differently?
+  type: multiple-choice
   options:
-    - "Both should be read as equally factual"
-    - "The textbook documents what actually happened; the novel invents character experiences to explore what the war felt like to live through. The novel might be accurate about the war's timeframe and general events, but the specific characters and their dialogue are invented. A reader should use the novel to imagine experience and the textbook to verify historical fact"
-    - "Fiction about history is just as reliable as historical fact"
-    - "Both are equally invented"
+  - Both should be read as equally factual
+  - The textbook documents what actually happened; the novel invents character experiences to explore what the war felt like to live through. The novel might be accurate about the war's timeframe and general events, but the specific characters and their dialogue are invented. A reader should use the novel to imagine experience and the textbook to verify historical fact
+  - Fiction about history is just as reliable as historical fact
+  - Both are equally invented
   answer: 1
-  explanation: "Historical fiction blends fact and invention. Readers should distinguish between the historical framework (which the author researches) and the invented personal narratives (dialogue, emotions, family dynamics). Understanding the blend allows readers to appreciate fiction's value while not confusing it with verified history."
+  explanation: Historical fiction blends fact and invention. Readers should distinguish between the historical framework (which the author researches) and the invented personal narratives (dialogue, emotions, family dynamics). Understanding the blend allows readers to appreciate fiction's value while not confusing it with verified history.
 
-- question: "True or False: Fiction that explores imaginary scenarios, magic, or invented worlds can still express truths about real human behavior and emotion."
+- question: 'True or False: Fiction that explores imaginary scenarios, magic, or invented worlds can still express truths about real human behavior and emotion.'
+  type: true-false
   answer: true
-  explanation: "Fantasy and science fiction invent entire worlds, yet they're often profound explorations of real human truths. A fantasy novel about a character's struggle to find belonging, or a sci-fi story about moral dilemmas, uses invented scenarios to illuminate actual human experience. The setting is false; the truths about humans are real."
+  explanation: Fantasy and science fiction invent entire worlds, yet they're often profound explorations of real human truths. A fantasy novel about a character's struggle to find belonging, or a sci-fi story about moral dilemmas, uses invented scenarios to illuminate actual human experience. The setting is false; the truths about humans are real.
 
-- question: "True or False: If a story mixes real historical events with invented characters and dialogue, it is dishonest."
+- question: 'True or False: If a story mixes real historical events with invented characters and dialogue, it is dishonest.'
+  type: true-false
   answer: false
-  explanation: "Historical fiction intentionally blends fact (the historical setting and major events) with invention (specific characters and their experiences). This blending is honest if the author is transparent about the genre. Readers who pick up historical fiction understand they're getting imagined characters in real settings. This is different from a text claiming to be fact-based when it's fiction."
+  explanation: Historical fiction intentionally blends fact (the historical setting and major events) with invention (specific characters and their experiences). This blending is honest if the author is transparent about the genre. Readers who pick up historical fiction understand they're getting imagined characters in real settings. This is different from a text claiming to be fact-based when it's fiction.
 
-- question: "A memoir is a factual account of the author's own life. Yet the author has to recreate dialogue that happened years ago—they don't have a recording, so they write what they remember people said. Is the dialogue in a memoir fact or fiction, and why does this matter?"
-  answer: "The dialogue is the author's reconstruction—a best attempt at fact, but necessarily influenced by memory. This matters because memoirs are factual in intent but not perfectly factual in execution. The author is recounting real events but through the filter of memory. Readers should understand that memoir is more accurate than fiction but less complete than documentation with recordings. The author's honesty about this distinction is important."
-  explanation: "This tests understanding that the fact-fiction boundary isn't absolute. Memoirs intend to be factual but rely on human memory. Readers should appreciate what memoirs offer (authentic voice, personal truth) while recognizing their limitations (memory gaps, interpretation). This nuance helps readers evaluate different texts appropriately."
+- question: A memoir is a factual account of the author's own life. Yet the author has to recreate dialogue that happened years ago—they don't have a recording, so they write what they remember people said. Is the dialogue in a memoir fact or fiction, and why does this matter?
+  type: short-answer
+  answer: The dialogue is the author's reconstruction—a best attempt at fact, but necessarily influenced by memory. This matters because memoirs are factual in intent but not perfectly factual in execution. The author is recounting real events but through the filter of memory. Readers should understand that memoir is more accurate than fiction but less complete than documentation with recordings. The author's honesty about this distinction is important.
+  explanation: This tests understanding that the fact-fiction boundary isn't absolute. Memoirs intend to be factual but rely on human memory. Readers should appreciate what memoirs offer (authentic voice, personal truth) while recognizing their limitations (memory gaps, interpretation). This nuance helps readers evaluate different texts appropriately.
 ```
 
 ## Explainer

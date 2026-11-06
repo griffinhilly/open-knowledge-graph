@@ -30,36 +30,39 @@ Psychological thrillers locate threat in the mind—in unreliable narrators, gas
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What is the central source of suspense in psychological thrillers?"
-    options:
-      - "Physical danger and violent action sequences"
-      - "Trust itself—the uncertainty about what the narrator perceives accurately"
-      - "Supernatural forces threatening the protagonist"
-      - "Elaborate heist planning and execution"
-    correct_answer: 1
-    explanation: "The core idea states that 'trust becomes the central suspense' in psychological thrillers. The thriller works by manipulating reader trust in the narrator's reliability."
-  - type: multiple-choice
-    question: "How do psychological thrillers typically achieve their impact on readers?"
-    options:
-      - "Through explicit descriptions of violence and gore"
-      - "Through jump-scares and supernatural revelations"
-      - "By having readers discover they've been manipulated or misled alongside the protagonist"
-      - "By explaining everything clearly in the narrator's internal monologue"
-    correct_answer: 2
-    explanation: "The core idea explains that 'the thriller's impact often depends on readers discovering they've been manipulated or misled alongside the protagonist.' This moment of realization creates the narrative payoff."
-  - type: true-false
-    question: "In psychological thrillers, the narrator's perception is always completely reliable and truthful."
-    correct_answer: false
-    explanation: "The core idea explicitly states these narratives 'exploit reader identification with a narrator whose perception proves demonstrably false or incomplete.' Unreliability is essential to the genre."
-  - type: true-false
-    question: "Gaslighting and psychological warfare are techniques used to create threat in psychological thrillers."
-    correct_answer: true
-    explanation: "The core idea identifies gaslighting, hidden motivations, and psychological warfare as the mechanisms that create threat in this genre."
-  - type: short-answer
-    question: "Why is reader identification with the narrator particularly important for the success of a psychological thriller?"
-    explanation: "A strong answer should explain that readers must trust and identify with the narrator to experience the betrayal when that narrator proves unreliable. Without initial identification, the revelation of unreliability loses its impact. Students should demonstrate understanding that the emotional effectiveness of the twist depends on having been misled."
+- question: What is the central source of suspense in psychological thrillers?
+  type: multiple-choice
+  options:
+  - Physical danger and violent action sequences
+  - Trust itself—the uncertainty about what the narrator perceives accurately
+  - Supernatural forces threatening the protagonist
+  - Elaborate heist planning and execution
+  answer: 1
+  explanation: The core idea states that 'trust becomes the central suspense' in psychological thrillers. The thriller works by manipulating reader trust in the narrator's reliability.
+
+- question: How do psychological thrillers typically achieve their impact on readers?
+  type: multiple-choice
+  options:
+  - Through explicit descriptions of violence and gore
+  - Through jump-scares and supernatural revelations
+  - By having readers discover they've been manipulated or misled alongside the protagonist
+  - By explaining everything clearly in the narrator's internal monologue
+  answer: 2
+  explanation: The core idea explains that 'the thriller's impact often depends on readers discovering they've been manipulated or misled alongside the protagonist.' This moment of realization creates the narrative payoff.
+
+- question: In psychological thrillers, the narrator's perception is always completely reliable and truthful.
+  type: true-false
+  answer: false
+  explanation: The core idea explicitly states these narratives 'exploit reader identification with a narrator whose perception proves demonstrably false or incomplete.' Unreliability is essential to the genre.
+
+- question: Gaslighting and psychological warfare are techniques used to create threat in psychological thrillers.
+  type: true-false
+  answer: true
+  explanation: The core idea identifies gaslighting, hidden motivations, and psychological warfare as the mechanisms that create threat in this genre.
+
+- question: Why is reader identification with the narrator particularly important for the success of a psychological thriller?
+  type: short-answer
+  explanation: A strong answer should explain that readers must trust and identify with the narrator to experience the betrayal when that narrator proves unreliable. Without initial identification, the revelation of unreliability loses its impact. Students should demonstrate understanding that the emotional effectiveness of the twist depends on having been misled.
 ```
 
 ## Explainer

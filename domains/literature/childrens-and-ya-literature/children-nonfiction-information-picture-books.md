@@ -23,35 +23,39 @@ Children's nonfiction and informational picture books serve educational function
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What makes well-designed children's informational books different from textbook entries on the same topics?"
-    options:
-      - "They contain less accurate information"
-      - "They employ engaging voice, narrative structure, visual design, and selection choices that make information accessible and compelling while maintaining accuracy"
-      - "They are designed for entertainment rather than learning"
-      - "There is no real difference—they're essentially the same"
-    answer: 1
-    explanation: "Quality children's nonfiction uses literary techniques—engaging voice, narrative sequencing, visual hierarchy, selective focus—to make factual information both accessible to young learners and genuinely interesting, unlike textbooks that prioritize comprehensive coverage over engagement."
-  - question: "How might an informational picture book about metamorphosis use narrative techniques alongside factual accuracy?"
-    options:
-      - "By making up fictional details about butterflies"
-      - "By focusing exclusively on one butterfly species, following its specific journey, creating narrative engagement while maintaining scientific accuracy about the actual metamorphosis process"
-      - "By avoiding all narrative elements and presenting only facts"
-      - "By teaching only entertainment rather than biological concepts"
-    answer: 1
-    explanation: "Skilled children's nonfiction authors follow a specific organism or process chronologically, creating narrative momentum, while ensuring that the facts presented are scientifically accurate and educationally sound."
+- question: What makes well-designed children's informational books different from textbook entries on the same topics?
+  type: multiple-choice
+  options:
+  - They contain less accurate information
+  - They employ engaging voice, narrative structure, visual design, and selection choices that make information accessible and compelling while maintaining accuracy
+  - They are designed for entertainment rather than learning
+  - There is no real difference—they're essentially the same
+  answer: 1
+  explanation: Quality children's nonfiction uses literary techniques—engaging voice, narrative sequencing, visual hierarchy, selective focus—to make factual information both accessible to young learners and genuinely interesting, unlike textbooks that prioritize comprehensive coverage over engagement.
 
-true-false:
-  - question: "True or False: Children's nonfiction is less artistically sophisticated than children's fiction."
-    answer: false
-    explanation: "False. Contemporary children's nonfiction can demonstrate equal or greater artistic sophistication—consider the visual innovation in books about scientific concepts or the lyrical language used to convey natural world information."
-  - question: "True or False: Informational picture books have become increasingly valued in children's libraries and curriculum as educators recognize their educational effectiveness."
-    answer: true
-    explanation: "True. Contemporary education increasingly recognizes that well-designed informational books—combining accuracy, visual design, and engaging voice—are effective educational tools worthy of serious critical attention."
+- question: How might an informational picture book about metamorphosis use narrative techniques alongside factual accuracy?
+  type: multiple-choice
+  options:
+  - By making up fictional details about butterflies
+  - By focusing exclusively on one butterfly species, following its specific journey, creating narrative engagement while maintaining scientific accuracy about the actual metamorphosis process
+  - By avoiding all narrative elements and presenting only facts
+  - By teaching only entertainment rather than biological concepts
+  answer: 1
+  explanation: Skilled children's nonfiction authors follow a specific organism or process chronologically, creating narrative momentum, while ensuring that the facts presented are scientifically accurate and educationally sound.
 
-short-answer:
-  - question: "Select a topic you might teach to children (space, ecosystems, how something works). Describe how you would use narrative and visual design to make that information engaging while maintaining accuracy."
-    explanation: "Your answer should demonstrate understanding that engagement and accuracy complement rather than oppose each other. For example, teaching about ecosystems might involve following water through a specific ecosystem (narrative structure), using visual metaphors to show interconnection, featuring specific organisms that children can observe. Teaching about space might follow the perspective of an astronaut or follow light from a star. The point is recognizing that children need both accurate information and engaging presentation—and that skilled nonfiction writers can provide both simultaneously. These aren't separate goals but integrated elements of effective children's informational books."
+- question: 'True or False: Children''s nonfiction is less artistically sophisticated than children''s fiction.'
+  type: true-false
+  answer: false
+  explanation: False. Contemporary children's nonfiction can demonstrate equal or greater artistic sophistication—consider the visual innovation in books about scientific concepts or the lyrical language used to convey natural world information.
+
+- question: 'True or False: Informational picture books have become increasingly valued in children''s libraries and curriculum as educators recognize their educational effectiveness.'
+  type: true-false
+  answer: true
+  explanation: True. Contemporary education increasingly recognizes that well-designed informational books—combining accuracy, visual design, and engaging voice—are effective educational tools worthy of serious critical attention.
+
+- question: Select a topic you might teach to children (space, ecosystems, how something works). Describe how you would use narrative and visual design to make that information engaging while maintaining accuracy.
+  type: short-answer
+  explanation: Your answer should demonstrate understanding that engagement and accuracy complement rather than oppose each other. For example, teaching about ecosystems might involve following water through a specific ecosystem (narrative structure), using visual metaphors to show interconnection, featuring specific organisms that children can observe. Teaching about space might follow the perspective of an astronaut or follow light from a star. The point is recognizing that children need both accurate information and engaging presentation—and that skilled nonfiction writers can provide both simultaneously. These aren't separate goals but integrated elements of effective children's informational books.
 ```
 
 ## Explainer

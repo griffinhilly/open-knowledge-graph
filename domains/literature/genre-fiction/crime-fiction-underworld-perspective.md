@@ -26,36 +26,39 @@ Crime fiction presents the criminal underworld from inside, exploring criminal l
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What is the fundamental perspective difference between crime fiction and detective fiction?"
-    options:
-      - "Detective fiction is more violent than crime fiction"
-      - "Crime fiction presents the criminal world from inside, while detective fiction solves crimes from outside perspective"
-      - "Detective fiction focuses on criminals while crime fiction focuses on law enforcement"
-      - "Crime fiction is set in large cities while detective fiction is set in small towns"
-    correct_answer: 1
-    explanation: "The core idea explicitly contrasts them: 'Unlike detective fiction (which solves crimes from the outside), crime fiction may center criminals as protagonists' and 'presents the criminal underworld from inside.'"
-  - type: multiple-choice
-    question: "What aspect of criminal communities does crime fiction emphasize exploring?"
-    options:
-      - "How police catch criminals most efficiently"
-      - "How crime is organized, how criminals justify actions, and what codes structure criminal hierarchies"
-      - "Why crime is always morally wrong"
-      - "Statistical data about crime rates"
-    correct_answer: 1
-    explanation: "The core idea lists the exploration of 'how crime is organized, how criminals justify their actions, and what codes and hierarchies structure criminal communities' as central to the genre."
-  - type: true-false
-    question: "Crime fiction and detective fiction can both feature criminals as protagonists."
-    correct_answer: false
-    explanation: "The core idea distinguishes them by noting that crime fiction 'may center criminals as protagonists' (implying this is characteristic), while detective fiction typically does not, showing different conventional protagonist orientations."
-  - type: true-false
-    question: "Crime fiction requires readers to understand criminal logic and justifications for actions within the criminal worldview."
-    correct_answer: true
-    explanation: "The core idea includes 'exploring criminal logic' and 'how criminals justify their actions' as central, requiring readers to inhabit criminal perspective and understanding."
-  - type: short-answer
-    question: "How does centering criminal protagonists fundamentally change the narrative and moral dynamics compared to detective fiction?"
-    explanation: "Good answers should address how reader identification with criminal protagonists creates different moral engagement, how crime fiction explores motivation from inside rather than solving from outside, how criminal codes and hierarchies become meaningful rather than merely objects of investigation, and how the narrative cannot end in simple justice because readers have come to understand and care about the criminal perspective."
+- question: What is the fundamental perspective difference between crime fiction and detective fiction?
+  type: multiple-choice
+  options:
+  - Detective fiction is more violent than crime fiction
+  - Crime fiction presents the criminal world from inside, while detective fiction solves crimes from outside perspective
+  - Detective fiction focuses on criminals while crime fiction focuses on law enforcement
+  - Crime fiction is set in large cities while detective fiction is set in small towns
+  answer: 1
+  explanation: 'The core idea explicitly contrasts them: ''Unlike detective fiction (which solves crimes from the outside), crime fiction may center criminals as protagonists'' and ''presents the criminal underworld from inside.'''
+
+- question: What aspect of criminal communities does crime fiction emphasize exploring?
+  type: multiple-choice
+  options:
+  - How police catch criminals most efficiently
+  - How crime is organized, how criminals justify actions, and what codes structure criminal hierarchies
+  - Why crime is always morally wrong
+  - Statistical data about crime rates
+  answer: 1
+  explanation: The core idea lists the exploration of 'how crime is organized, how criminals justify their actions, and what codes and hierarchies structure criminal communities' as central to the genre.
+
+- question: Crime fiction and detective fiction can both feature criminals as protagonists.
+  type: true-false
+  answer: false
+  explanation: The core idea distinguishes them by noting that crime fiction 'may center criminals as protagonists' (implying this is characteristic), while detective fiction typically does not, showing different conventional protagonist orientations.
+
+- question: Crime fiction requires readers to understand criminal logic and justifications for actions within the criminal worldview.
+  type: true-false
+  answer: true
+  explanation: The core idea includes 'exploring criminal logic' and 'how criminals justify their actions' as central, requiring readers to inhabit criminal perspective and understanding.
+
+- question: How does centering criminal protagonists fundamentally change the narrative and moral dynamics compared to detective fiction?
+  type: short-answer
+  explanation: Good answers should address how reader identification with criminal protagonists creates different moral engagement, how crime fiction explores motivation from inside rather than solving from outside, how criminal codes and hierarchies become meaningful rather than merely objects of investigation, and how the narrative cannot end in simple justice because readers have come to understand and care about the criminal perspective.
 ```
 
 ## Explainer

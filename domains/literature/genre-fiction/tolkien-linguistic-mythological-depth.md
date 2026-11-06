@@ -23,36 +23,39 @@ J.R.R. Tolkien, a philologist, created fantasy worlds where language and mytholo
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "How does Tolkien's background as a philologist influence his approach to fantasy worldbuilding?"
-    options:
-      - "He focuses on historical accuracy and period realism"
-      - "Language and mythology are primary, with constructed languages functioning as linguistic systems"
-      - "He prioritizes plot and character development over worldbuilding"
-      - "He creates randomly generated nonsense languages with no internal logic"
-    correct_answer: 1
-    explanation: "The core idea states that Tolkien 'created fantasy worlds where language and mythology are primary' and that 'his constructed languages function as linguistic systems with internal consistency.'"
-  - type: multiple-choice
-    question: "What is the relationship between Tolkien's constructed languages and his fictional worlds?"
-    options:
-      - "Languages are merely decorative and serve no narrative function"
-      - "Languages function as linguistic systems with internal consistency that support the fictional world"
-      - "Languages change randomly throughout the stories"
-      - "Languages are borrowed directly from real-world sources without modification"
-    correct_answer: 1
-    explanation: "The core idea emphasizes that constructed languages 'function as linguistic systems with internal consistency,' showing they're foundational to the worldbuilding."
-  - type: true-false
-    question: "Tolkien's fictional mythology is entirely original with no connection to real-world mythological traditions."
-    correct_answer: false
-    explanation: "The core idea states that his mythology 'draws from Norse, Celtic, and Medieval sources,' showing influence from and connection to real-world traditions."
-  - type: true-false
-    question: "The depth of Tolkien's fictional worlds comes partly from their connection to invented history and linguistic structure."
-    correct_answer: true
-    explanation: "The core idea explicitly states he creates 'depth through connection to invented history and linguistic structure.'"
-  - type: short-answer
-    question: "How does constructing coherent languages contribute to the sense of depth and authenticity in Tolkien's worlds?"
-    explanation: "A strong answer should explain that internally consistent languages make the world feel real and historically deep because they demonstrate that the world has cultural and historical development. Languages don't appear suddenly; they evolve from proto-languages, borrow from each other, develop through time. Students should demonstrate understanding that the work Tolkien put into linguistic consistency creates the impression of a world that exists independent of the narrative and has greater depth than just the story events."
+- question: How does Tolkien's background as a philologist influence his approach to fantasy worldbuilding?
+  type: multiple-choice
+  options:
+  - He focuses on historical accuracy and period realism
+  - Language and mythology are primary, with constructed languages functioning as linguistic systems
+  - He prioritizes plot and character development over worldbuilding
+  - He creates randomly generated nonsense languages with no internal logic
+  answer: 1
+  explanation: The core idea states that Tolkien 'created fantasy worlds where language and mythology are primary' and that 'his constructed languages function as linguistic systems with internal consistency.'
+
+- question: What is the relationship between Tolkien's constructed languages and his fictional worlds?
+  type: multiple-choice
+  options:
+  - Languages are merely decorative and serve no narrative function
+  - Languages function as linguistic systems with internal consistency that support the fictional world
+  - Languages change randomly throughout the stories
+  - Languages are borrowed directly from real-world sources without modification
+  answer: 1
+  explanation: The core idea emphasizes that constructed languages 'function as linguistic systems with internal consistency,' showing they're foundational to the worldbuilding.
+
+- question: Tolkien's fictional mythology is entirely original with no connection to real-world mythological traditions.
+  type: true-false
+  answer: false
+  explanation: The core idea states that his mythology 'draws from Norse, Celtic, and Medieval sources,' showing influence from and connection to real-world traditions.
+
+- question: The depth of Tolkien's fictional worlds comes partly from their connection to invented history and linguistic structure.
+  type: true-false
+  answer: true
+  explanation: The core idea explicitly states he creates 'depth through connection to invented history and linguistic structure.'
+
+- question: How does constructing coherent languages contribute to the sense of depth and authenticity in Tolkien's worlds?
+  type: short-answer
+  explanation: A strong answer should explain that internally consistent languages make the world feel real and historically deep because they demonstrate that the world has cultural and historical development. Languages don't appear suddenly; they evolve from proto-languages, borrow from each other, develop through time. Students should demonstrate understanding that the work Tolkien put into linguistic consistency creates the impression of a world that exists independent of the narrative and has greater depth than just the story events.
 ```
 
 ## Explainer

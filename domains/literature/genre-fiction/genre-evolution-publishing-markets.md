@@ -23,36 +23,39 @@ Genres evolve through changes in publishing markets, reader communities, technol
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "Which of the following is identified as a driver of genre evolution?"
-    options:
-      - "Primarily the aesthetic preferences of literary critics"
-      - "Changes in publishing markets, reader communities, technology, and cultural contexts"
-      - "Only the personal tastes of individual authors"
-      - "Government regulations on what can be published"
-    correct_answer: 1
-    explanation: "The core idea explicitly lists the multiple factors driving genre evolution: 'publishing markets, reader communities, technology, and cultural contexts,' showing that genre development is shaped by many interconnected systems."
-  - type: multiple-choice
-    question: "What is the typical lifecycle pattern for genres according to the core idea?"
-    options:
-      - "Genres remain static once established"
-      - "They emerge, develop conventions, achieve canonicity, and sometimes decline"
-      - "All genres eventually become literary fiction"
-      - "Genres are created arbitrarily and have no predictable pattern"
-    correct_answer: 1
-    explanation: "The core idea provides a clear developmental sequence: 'Genres emerge, develop conventions, achieve canonicity, and sometimes decline,' describing the historical lifecycle of genre forms."
-  - type: true-false
-    question: "Understanding genre evolution requires paying attention to economic factors and how publishing markets operate."
-    correct_answer: true
-    explanation: "The core idea states that understanding genre evolution 'requires attention to economic factors, cultural shifts, and how reader communities shape development,' explicitly including economic and market considerations."
-  - type: true-false
-    question: "Genres evolve primarily through individual authors making artistic choices, independent of larger cultural or economic contexts."
-    correct_answer: false
-    explanation: "The core idea emphasizes that genres evolve through systemic factors including 'changes in publishing markets, reader communities, technology, and cultural contexts'—not simply individual authorial choices."
-  - type: short-answer
-    question: "How might a change in publishing technology affect genre evolution? Give a specific example."
-    explanation: "A good answer should show understanding that technology shapes what kinds of stories get published and read. Examples might include: how serialization in magazines created different narrative conventions than novels; how e-books and self-publishing changed what genres could develop; how digital platforms altered distribution and reader discovery. Students should connect technological change to concrete effects on genre conventions or reader communities."
+- question: Which of the following is identified as a driver of genre evolution?
+  type: multiple-choice
+  options:
+  - Primarily the aesthetic preferences of literary critics
+  - Changes in publishing markets, reader communities, technology, and cultural contexts
+  - Only the personal tastes of individual authors
+  - Government regulations on what can be published
+  answer: 1
+  explanation: 'The core idea explicitly lists the multiple factors driving genre evolution: ''publishing markets, reader communities, technology, and cultural contexts,'' showing that genre development is shaped by many interconnected systems.'
+
+- question: What is the typical lifecycle pattern for genres according to the core idea?
+  type: multiple-choice
+  options:
+  - Genres remain static once established
+  - They emerge, develop conventions, achieve canonicity, and sometimes decline
+  - All genres eventually become literary fiction
+  - Genres are created arbitrarily and have no predictable pattern
+  answer: 1
+  explanation: 'The core idea provides a clear developmental sequence: ''Genres emerge, develop conventions, achieve canonicity, and sometimes decline,'' describing the historical lifecycle of genre forms.'
+
+- question: Understanding genre evolution requires paying attention to economic factors and how publishing markets operate.
+  type: true-false
+  answer: true
+  explanation: The core idea states that understanding genre evolution 'requires attention to economic factors, cultural shifts, and how reader communities shape development,' explicitly including economic and market considerations.
+
+- question: Genres evolve primarily through individual authors making artistic choices, independent of larger cultural or economic contexts.
+  type: true-false
+  answer: false
+  explanation: The core idea emphasizes that genres evolve through systemic factors including 'changes in publishing markets, reader communities, technology, and cultural contexts'—not simply individual authorial choices.
+
+- question: How might a change in publishing technology affect genre evolution? Give a specific example.
+  type: short-answer
+  explanation: 'A good answer should show understanding that technology shapes what kinds of stories get published and read. Examples might include: how serialization in magazines created different narrative conventions than novels; how e-books and self-publishing changed what genres could develop; how digital platforms altered distribution and reader discovery. Students should connect technological change to concrete effects on genre conventions or reader communities.'
 ```
 
 ## Explainer

@@ -38,35 +38,40 @@ Read a detailed passage describing a story's setting. Identify: What is the phys
 ## Questions
 
 ```yaml
-- question: "A story describes its setting as 'a small town.' For a reader to understand the story fully, why might this be too vague? What additional details would make the setting more concrete?"
+- question: A story describes its setting as 'a small town.' For a reader to understand the story fully, why might this be too vague? What additional details would make the setting more concrete?
+  type: multiple-choice
   options:
-    - "'Small town' is specific enough"
-    - "'Small town' is vague. To ground readers in the setting, the author should specify: What region? What time period? What kind of economy (agricultural, industrial, mining, tourism)? What's the specific feel—isolating, tight-knit, developing? A setting described as 'a dying coal-mining town in West Virginia in 1982' is far more specific and enables readers to understand the social, economic, and historical pressures characters face"
-    - "All small towns are identical"
-    - "Setting details don't matter"
+  - '''Small town'' is specific enough'
+  - '''Small town'' is vague. To ground readers in the setting, the author should specify: What region? What time period? What kind of economy (agricultural, industrial, mining, tourism)? What''s the specific feel—isolating, tight-knit, developing? A setting described as ''a dying coal-mining town in West Virginia in 1982'' is far more specific and enables readers to understand the social, economic, and historical pressures characters face'
+  - All small towns are identical
+  - Setting details don't matter
   answer: 1
-  explanation: "Specific setting details create concrete understanding. Vague settings leave readers working to imagine what world characters inhabit. Concrete settings—with specific location, time period, and economic/social context—ground readers in a lived world."
+  explanation: Specific setting details create concrete understanding. Vague settings leave readers working to imagine what world characters inhabit. Concrete settings—with specific location, time period, and economic/social context—ground readers in a lived world.
 
-- question: "A story is set in the same city but moves between different seasons and times of day. In spring scenes, the descriptions are bright and warm; in winter scenes, they're cold and sparse. How does the shifting temporal setting affect the story's mood?"
+- question: A story is set in the same city but moves between different seasons and times of day. In spring scenes, the descriptions are bright and warm; in winter scenes, they're cold and sparse. How does the shifting temporal setting affect the story's mood?
+  type: multiple-choice
   options:
-    - "Season and time of day don't affect mood"
-    - "Temporal setting shapes atmosphere significantly. Spring light creates different psychological effects than winter darkness. Morning scenes feel different than night scenes. By shifting the temporal setting—the time of day and season—the author modulates the mood throughout the story, using the environment to reinforce emotional states or to contrast with character feelings"
-    - "All times are equivalent"
-    - "Time of day is irrelevant"
+  - Season and time of day don't affect mood
+  - Temporal setting shapes atmosphere significantly. Spring light creates different psychological effects than winter darkness. Morning scenes feel different than night scenes. By shifting the temporal setting—the time of day and season—the author modulates the mood throughout the story, using the environment to reinforce emotional states or to contrast with character feelings
+  - All times are equivalent
+  - Time of day is irrelevant
   answer: 1
-  explanation: "Temporal setting (time of day, season, time period) is as important as geographic setting for shaping atmosphere and mood. Strategic shifts in temporal setting throughout a story create rhythm and reinforce emotional arcs."
+  explanation: Temporal setting (time of day, season, time period) is as important as geographic setting for shaping atmosphere and mood. Strategic shifts in temporal setting throughout a story create rhythm and reinforce emotional arcs.
 
-- question: "True or False: Setting is separate from character development."
+- question: 'True or False: Setting is separate from character development.'
+  type: true-false
   answer: false
-  explanation: "Setting shapes character possibilities and challenges. A character in poverty experiences different constraints than a wealthy character. A character in an oppressive society faces different pressures than one in a free society. Characters are shaped by and interact with their settings. Setting and character are interconnected."
+  explanation: Setting shapes character possibilities and challenges. A character in poverty experiences different constraints than a wealthy character. A character in an oppressive society faces different pressures than one in a free society. Characters are shaped by and interact with their settings. Setting and character are interconnected.
 
-- question: "True or False: Every setting in a story must be described in rich detail."
+- question: 'True or False: Every setting in a story must be described in rich detail.'
+  type: true-false
   answer: false
-  explanation: "Some authors use sparse or minimal setting descriptions intentionally. A setting described vaguely can create a dreamlike quality or emphasize that the specific location doesn't matter. Authors make choices about how much or how little to detail about settings—not all choices require rich detail."
+  explanation: Some authors use sparse or minimal setting descriptions intentionally. A setting described vaguely can create a dreamlike quality or emphasize that the specific location doesn't matter. Authors make choices about how much or how little to detail about settings—not all choices require rich detail.
 
-- question: "A story set in 1920s New York City during Prohibition could explore very different themes than the same story set in 1920s rural Kansas. How does geographic and temporal setting shape what stories can be told?"
-  answer: "Geographic and temporal setting together create specific social, economic, cultural, and legal conditions that shape what characters experience. 1920s New York would have speakeasies, organized crime, urban sophistication, and Prohibition enforcement. 1920s rural Kansas would have agricultural life, isolation, different legal enforcement, and different social norms. The same story about breaking the law, making money, or pursuing dreams would play out completely differently in these two settings. Characters would have different access to resources, different social pressures, and different possibilities. The settings don't just provide backdrop—they fundamentally determine what the story can be about."
-  explanation: "This tests understanding that geographic and temporal setting are integral to storytelling. Authors choose specific combinations of place and time because those combinations create specific conditions and possibilities. No two settings are truly interchangeable."
+- question: A story set in 1920s New York City during Prohibition could explore very different themes than the same story set in 1920s rural Kansas. How does geographic and temporal setting shape what stories can be told?
+  type: short-answer
+  answer: Geographic and temporal setting together create specific social, economic, cultural, and legal conditions that shape what characters experience. 1920s New York would have speakeasies, organized crime, urban sophistication, and Prohibition enforcement. 1920s rural Kansas would have agricultural life, isolation, different legal enforcement, and different social norms. The same story about breaking the law, making money, or pursuing dreams would play out completely differently in these two settings. Characters would have different access to resources, different social pressures, and different possibilities. The settings don't just provide backdrop—they fundamentally determine what the story can be about.
+  explanation: This tests understanding that geographic and temporal setting are integral to storytelling. Authors choose specific combinations of place and time because those combinations create specific conditions and possibilities. No two settings are truly interchangeable.
 ```
 
 ## Explainer

@@ -31,39 +31,39 @@ Partition literature is not merely 'historical fiction' about events of 1947; it
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What historical event created partition literature as a distinct literary category?"
+- question: What historical event created partition literature as a distinct literary category?
+  type: multiple-choice
   options:
-    - "The British colonization of India in the 18th century"
-    - "The 1947 Partition of India and Pakistan, which created a new geopolitical border and displaced millions"
-    - "The independence movements of the 1920s-1930s"
-    - "The 1857 Indian Rebellion against British rule"
+  - The British colonization of India in the 18th century
+  - The 1947 Partition of India and Pakistan, which created a new geopolitical border and displaced millions
+  - The independence movements of the 1920s-1930s
+  - The 1857 Indian Rebellion against British rule
   answer: 1
-  explanation: "Partition literature emerged directly from the trauma and upheaval of 1947, when the subcontinent was divided along religious lines and approximately 15 million people were displaced. This specific historical rupture created a new literary problem: how to represent the violence, loss, family separation, and psychological disorientation caused by a border drawn through existing communities, religions, and kinship networks. Writers working in multiple languages—Hindi, Urdu, English, regional languages—developed narrative techniques to capture this unprecedented collective trauma."
+  explanation: 'Partition literature emerged directly from the trauma and upheaval of 1947, when the subcontinent was divided along religious lines and approximately 15 million people were displaced. This specific historical rupture created a new literary problem: how to represent the violence, loss, family separation, and psychological disorientation caused by a border drawn through existing communities, religions, and kinship networks. Writers working in multiple languages—Hindi, Urdu, English, regional languages—developed narrative techniques to capture this unprecedented collective trauma.'
 
-- type: multiple-choice
-  question: "Partition literature written in different languages (Hindi, Urdu, English, regional languages) shares common themes despite linguistic differences. What does this reveal about partition's impact?"
+- question: Partition literature written in different languages (Hindi, Urdu, English, regional languages) shares common themes despite linguistic differences. What does this reveal about partition's impact?
+  type: multiple-choice
   options:
-    - "Only English-language writers were capable of capturing partition's significance"
-    - "The trauma of displacement and violence transcended linguistic boundaries; it affected entire communities regardless of what language writers used"
-    - "Different language groups experienced completely different versions of partition with no shared experiences"
-    - "Partition affected only urban, educated, English-speaking populations"
+  - Only English-language writers were capable of capturing partition's significance
+  - The trauma of displacement and violence transcended linguistic boundaries; it affected entire communities regardless of what language writers used
+  - Different language groups experienced completely different versions of partition with no shared experiences
+  - Partition affected only urban, educated, English-speaking populations
   answer: 1
-  explanation: "The multilingual character of partition literature demonstrates that partition was a communal trauma that fragmented entire societies across linguistic and cultural lines. Hindi writers portrayed Hindu experiences, Urdu writers Urdu-speaking Muslim experiences, but the underlying themes—displacement, grief, fractured identity, violence, the loss of home—recur across languages because they reflect shared historical experiences. The fact that writers felt compelled to document partition in their own languages and traditions shows how profoundly the event disrupted entire cultural communities, not just individuals."
+  explanation: The multilingual character of partition literature demonstrates that partition was a communal trauma that fragmented entire societies across linguistic and cultural lines. Hindi writers portrayed Hindu experiences, Urdu writers Urdu-speaking Muslim experiences, but the underlying themes—displacement, grief, fractured identity, violence, the loss of home—recur across languages because they reflect shared historical experiences. The fact that writers felt compelled to document partition in their own languages and traditions shows how profoundly the event disrupted entire cultural communities, not just individuals.
 
-- type: true-false
-  statement: "Partition literature focuses exclusively on the immediate violence of 1947 and does not explore the ongoing psychological and social consequences of separation."
+- question: Partition literature focuses exclusively on the immediate violence of 1947 and does not explore the ongoing psychological and social consequences of separation.
+  type: true-false
   answer: false
-  explanation: "This is a significant misconception. While many partition narratives engage with the violence of 1947, the literature also explores longer-term consequences: the trauma of permanent separation from family members, the rupture of communities that had lived together for centuries, the psychological weight of living across a newly hardened border, and the question of how to build identity and community in the aftermath. Partition is not treated as a historical event that ended in 1947, but as an ongoing rupture with continuing psychological and social effects. Writers show how partition trauma manifests across generations and how individuals navigate living with permanent loss."
+  explanation: 'This is a significant misconception. While many partition narratives engage with the violence of 1947, the literature also explores longer-term consequences: the trauma of permanent separation from family members, the rupture of communities that had lived together for centuries, the psychological weight of living across a newly hardened border, and the question of how to build identity and community in the aftermath. Partition is not treated as a historical event that ended in 1947, but as an ongoing rupture with continuing psychological and social effects. Writers show how partition trauma manifests across generations and how individuals navigate living with permanent loss.'
 
-- type: true-false
-  statement: "Partition literature portrays border-crossing and displacement as purely individual or family-level experiences separate from larger communal and religious upheaval."
+- question: Partition literature portrays border-crossing and displacement as purely individual or family-level experiences separate from larger communal and religious upheaval.
+  type: true-false
   answer: false
-  explanation: "Partition literature connects personal and communal trauma. Individual stories of family separation, violence, or displacement are shown to be inseparable from communal ruptures—entire religious and linguistic communities were fractured by partition. A family's loss of home is simultaneously a community's loss of shared space and tradition. Writers depict how partition forced individuals to choose or were forced into new national and communal identities, and show that what appears as personal tragedy is also collective rupture. The literature refuses to separate the intimate from the historical."
+  explanation: Partition literature connects personal and communal trauma. Individual stories of family separation, violence, or displacement are shown to be inseparable from communal ruptures—entire religious and linguistic communities were fractured by partition. A family's loss of home is simultaneously a community's loss of shared space and tradition. Writers depict how partition forced individuals to choose or were forced into new national and communal identities, and show that what appears as personal tragedy is also collective rupture. The literature refuses to separate the intimate from the historical.
 
-- type: short-answer
-  question: "How does partition literature's multilingual character—with writers working in Hindi, Urdu, English, and regional languages—reflect something important about partition's impact on identity and culture?"
-  explanation: "The fact that partition generated literature in multiple languages reflects partition's disruption of linguistic and cultural communities. Urdu, historically shared across Hindu and Muslim communities, became associated with Pakistan; Hindi with India. Yet writers in each language felt the need to document partition from their specific linguistic and cultural perspective. This multilingual literary response shows that partition did not simply move political borders; it fractured shared cultural spaces and forced writers and readers to renegotiate their linguistic and communal identities. The proliferation of partition literature across languages demonstrates that partition was experienced as a rupture of the shared cultural world, and writers responded by articulating their experiences within and against that rupture."
+- question: How does partition literature's multilingual character—with writers working in Hindi, Urdu, English, and regional languages—reflect something important about partition's impact on identity and culture?
+  type: short-answer
+  explanation: The fact that partition generated literature in multiple languages reflects partition's disruption of linguistic and cultural communities. Urdu, historically shared across Hindu and Muslim communities, became associated with Pakistan; Hindi with India. Yet writers in each language felt the need to document partition from their specific linguistic and cultural perspective. This multilingual literary response shows that partition did not simply move political borders; it fractured shared cultural spaces and forced writers and readers to renegotiate their linguistic and communal identities. The proliferation of partition literature across languages demonstrates that partition was experienced as a rupture of the shared cultural world, and writers responded by articulating their experiences within and against that rupture.
 ```
 
 ## Explainer

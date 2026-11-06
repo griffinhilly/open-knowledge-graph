@@ -26,35 +26,39 @@ Adapting children's and YA literature to film and television requires navigating
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "Why do successful film and television adaptations of children's literature often make substantial changes to the original plot and characters?"
-    options:
-      - "Because filmmakers are careless and don't respect source material"
-      - "Because visual and narrative conventions of film/television require different pacing, structure, and compression than novels can achieve"
-      - "Because children prefer completely original stories to adaptations"
-      - "Because the goal is always to make the adaptation appeal only to adults"
-    answer: 1
-    explanation: "Film and television have different narrative structures than novels: visual storytelling allows for simultaneous information delivery, scripts require tighter pacing, and runtime constraints necessitate compression. Skilled adapters understand which elements are essential to preserve and which can be transformed for the new medium."
-  - question: "What makes an adaptation of children's literature successful when it diverges significantly from the source material?"
-    options:
-      - "The more it changes, the more successful it becomes"
-      - "It preserves the essential emotional truth, thematic core, and character essence while adapting plot and structure to film/television conventions"
-      - "Success requires perfect fidelity to every detail of the source material"
-      - "Adaptations of children's books are never truly successful"
-    answer: 1
-    explanation: "The most successful adaptations—like the Harry Potter films—identify what makes the story meaningful and preserve that emotional and thematic core while necessarily changing plot details, compression, and medium-specific elements."
+- question: Why do successful film and television adaptations of children's literature often make substantial changes to the original plot and characters?
+  type: multiple-choice
+  options:
+  - Because filmmakers are careless and don't respect source material
+  - Because visual and narrative conventions of film/television require different pacing, structure, and compression than novels can achieve
+  - Because children prefer completely original stories to adaptations
+  - Because the goal is always to make the adaptation appeal only to adults
+  answer: 1
+  explanation: 'Film and television have different narrative structures than novels: visual storytelling allows for simultaneous information delivery, scripts require tighter pacing, and runtime constraints necessitate compression. Skilled adapters understand which elements are essential to preserve and which can be transformed for the new medium.'
 
-true-false:
-  - question: "True or False: Adaptations that appeal to both child and adult audiences face different challenges than adaptations created for only one age group."
-    answer: true
-    explanation: "True. Works like 'The Princess Bride' that appeal to both audiences create complex layers of meaning and humor that must translate to film, requiring adapters to preserve elements satisfying to both children and adults simultaneously."
-  - question: "True or False: Television adaptations of children's literature typically face fewer time and budget constraints than film adaptations."
-    answer: false
-    explanation: "False. While television provides more total screen time than feature films, episodic storytelling creates different constraints: the need to maintain viewer engagement across multiple episodes, commercial breaks, and season structures that films don't face."
+- question: What makes an adaptation of children's literature successful when it diverges significantly from the source material?
+  type: multiple-choice
+  options:
+  - The more it changes, the more successful it becomes
+  - It preserves the essential emotional truth, thematic core, and character essence while adapting plot and structure to film/television conventions
+  - Success requires perfect fidelity to every detail of the source material
+  - Adaptations of children's books are never truly successful
+  answer: 1
+  explanation: The most successful adaptations—like the Harry Potter films—identify what makes the story meaningful and preserve that emotional and thematic core while necessarily changing plot details, compression, and medium-specific elements.
 
-short-answer:
-  - question: "Consider a children's novel with rich internal monologue and a protagonist's unspoken emotions as central to the reading experience. How might a screenwriter adapt these elements for film?"
-    explanation: "Since film cannot directly access a character's internal thoughts without resorting to voiceover narration (which can feel artificial), a screenwriter must translate internal emotional experience into external visual and behavioral cues. This might involve: using visual metaphors, showing emotions through facial expressions and body language, employing cinematic techniques like color grading or sound design to convey emotional states, or creating scenes that dramatize the character's inner conflict. The skilled adapter preserves the emotional truth—the protagonist's loneliness, fear, or joy—while expressing it through a medium that works primarily through image and dialogue rather than narrative introspection."
+- question: 'True or False: Adaptations that appeal to both child and adult audiences face different challenges than adaptations created for only one age group.'
+  type: true-false
+  answer: true
+  explanation: True. Works like 'The Princess Bride' that appeal to both audiences create complex layers of meaning and humor that must translate to film, requiring adapters to preserve elements satisfying to both children and adults simultaneously.
+
+- question: 'True or False: Television adaptations of children''s literature typically face fewer time and budget constraints than film adaptations.'
+  type: true-false
+  answer: false
+  explanation: 'False. While television provides more total screen time than feature films, episodic storytelling creates different constraints: the need to maintain viewer engagement across multiple episodes, commercial breaks, and season structures that films don''t face.'
+
+- question: Consider a children's novel with rich internal monologue and a protagonist's unspoken emotions as central to the reading experience. How might a screenwriter adapt these elements for film?
+  type: short-answer
+  explanation: 'Since film cannot directly access a character''s internal thoughts without resorting to voiceover narration (which can feel artificial), a screenwriter must translate internal emotional experience into external visual and behavioral cues. This might involve: using visual metaphors, showing emotions through facial expressions and body language, employing cinematic techniques like color grading or sound design to convey emotional states, or creating scenes that dramatize the character''s inner conflict. The skilled adapter preserves the emotional truth—the protagonist''s loneliness, fear, or joy—while expressing it through a medium that works primarily through image and dialogue rather than narrative introspection.'
 ```
 
 ## Explainer

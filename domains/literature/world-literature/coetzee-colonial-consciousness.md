@@ -33,39 +33,39 @@ Coetzee's formalism is not evasion of politics—it represents a philosophical p
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What does Coetzee achieve by employing 'austere narrative form' and 'narrative indirection' in representing colonial violence?"
+- question: What does Coetzee achieve by employing 'austere narrative form' and 'narrative indirection' in representing colonial violence?
+  type: multiple-choice
   options:
-    - "He avoids having to directly describe violence by using formal tricks"
-    - "He creates formal restraint that forces readers to confront their own interpretations rather than being told what to think about colonial trauma"
-    - "He makes his novels less powerful by obscuring their meaning"
-    - "He follows conventional literary style for representing historical events"
+  - He avoids having to directly describe violence by using formal tricks
+  - He creates formal restraint that forces readers to confront their own interpretations rather than being told what to think about colonial trauma
+  - He makes his novels less powerful by obscuring their meaning
+  - He follows conventional literary style for representing historical events
   answer: 1
-  explanation: "Coetzee recognized that direct representation of violence can paradoxically aestheticize or domesticate it—turning trauma into narrative comfort. By employing austere form and indirection, he refuses to make colonial violence consumable as narrative entertainment. The formal restraint forces readers to work harder, to fill gaps, to confront what is suggested but not explicitly stated. This creates a different kind of engagement: rather than experiencing violence through the vicarious pleasure of reading, readers must think about what violence means and how representation works. The form itself becomes political because it refuses the consolations conventional narrative offers. Indirection is not evasion but a more honest engagement with the impossibility of representing historical trauma adequately."
+  explanation: 'Coetzee recognized that direct representation of violence can paradoxically aestheticize or domesticate it—turning trauma into narrative comfort. By employing austere form and indirection, he refuses to make colonial violence consumable as narrative entertainment. The formal restraint forces readers to work harder, to fill gaps, to confront what is suggested but not explicitly stated. This creates a different kind of engagement: rather than experiencing violence through the vicarious pleasure of reading, readers must think about what violence means and how representation works. The form itself becomes political because it refuses the consolations conventional narrative offers. Indirection is not evasion but a more honest engagement with the impossibility of representing historical trauma adequately.'
 
-- type: multiple-choice
-  question: "How does Coetzee's use of 'philosophical ambiguity' and 'allegorical structure' enable engagement with postcolonial consciousness?"
+- question: How does Coetzee's use of 'philosophical ambiguity' and 'allegorical structure' enable engagement with postcolonial consciousness?
+  type: multiple-choice
   options:
-    - "Ambiguity means readers can interpret the novel however they want, regardless of its actual meaning"
-    - "Allegory allows representation of postcolonial consciousness without resolving complex historical questions into simplified messages"
-    - "Philosophical ambiguity is a weakness that prevents clear political statement"
-    - "Allegorical structures are decorative techniques unrelated to historical representation"
+  - Ambiguity means readers can interpret the novel however they want, regardless of its actual meaning
+  - Allegory allows representation of postcolonial consciousness without resolving complex historical questions into simplified messages
+  - Philosophical ambiguity is a weakness that prevents clear political statement
+  - Allegorical structures are decorative techniques unrelated to historical representation
   answer: 1
-  explanation: "Postcolonial consciousness is not a single unified perspective but a complex, often contradictory state. A colonized subject may internalize colonizer values while resisting them, may desire both assimilation and liberation, may inhabit irreconcilable psychological positions. Simple narrative cannot represent this complexity because narrative typically resolves contradictions. Coetzee's philosophical ambiguity and allegory permit representation of this contradictory consciousness. A character's motivations remain partially opaque; their actions can be read multiple ways; the narrative does not resolve into a message about what postcolonial consciousness 'is.' This formal strategy is more honest than ideological clarity because it resists simplification. It trusts readers to sit with ambiguity and to recognize postcolonial consciousness as something beyond conventional political categories."
+  explanation: Postcolonial consciousness is not a single unified perspective but a complex, often contradictory state. A colonized subject may internalize colonizer values while resisting them, may desire both assimilation and liberation, may inhabit irreconcilable psychological positions. Simple narrative cannot represent this complexity because narrative typically resolves contradictions. Coetzee's philosophical ambiguity and allegory permit representation of this contradictory consciousness. A character's motivations remain partially opaque; their actions can be read multiple ways; the narrative does not resolve into a message about what postcolonial consciousness 'is.' This formal strategy is more honest than ideological clarity because it resists simplification. It trusts readers to sit with ambiguity and to recognize postcolonial consciousness as something beyond conventional political categories.
 
-- type: true-false
-  statement: "In Coetzee's novels, the austere and formally restrained style is a way of avoiding political engagement with colonial violence and historical trauma."
+- question: In Coetzee's novels, the austere and formally restrained style is a way of avoiding political engagement with colonial violence and historical trauma.
+  type: true-false
   answer: false
-  explanation: "This misconception treats formalism as evasion. But Coetzee's formalism is strategically political. By refusing melodramatic representation, by maintaining narrative distance, by employing allegory and ambiguity, he refuses to turn historical trauma into entertainment or ideology. The form honors the irreducibility of violence and suffering. Rather than diminishing political engagement, the formal restraint intensifies it by forcing readers to think rather than passively consume. Coetzee demonstrates that intellectual rigor and philosophical complexity are forms of political engagement, not alternatives to it."
+  explanation: This misconception treats formalism as evasion. But Coetzee's formalism is strategically political. By refusing melodramatic representation, by maintaining narrative distance, by employing allegory and ambiguity, he refuses to turn historical trauma into entertainment or ideology. The form honors the irreducibility of violence and suffering. Rather than diminishing political engagement, the formal restraint intensifies it by forcing readers to think rather than passively consume. Coetzee demonstrates that intellectual rigor and philosophical complexity are forms of political engagement, not alternatives to it.
 
-- type: true-false
-  statement: "Coetzee uses formal allegory and philosophical ambiguity to represent postcolonial consciousness and historical violence in ways that resist didactic messaging and force readers to engage intellectually rather than passively."
+- question: Coetzee uses formal allegory and philosophical ambiguity to represent postcolonial consciousness and historical violence in ways that resist didactic messaging and force readers to engage intellectually rather than passively.
+  type: true-false
   answer: true
-  explanation: "This correctly identifies Coetzee's political strategy. By refusing to tell readers what to think, by maintaining formal complexity and ambiguity, he insists that readers do the work of interpretation. This is politically significant because it distributes interpretive authority: readers must decide what events mean, what characters' motivations are, how to understand historical situations. Rather than the author imposing meaning through didactic narrative, the form creates space for multiple readings. This respects reader intelligence and acknowledges that historical trauma and postcolonial experience are complex enough to resist simple resolution."
+  explanation: 'This correctly identifies Coetzee''s political strategy. By refusing to tell readers what to think, by maintaining formal complexity and ambiguity, he insists that readers do the work of interpretation. This is politically significant because it distributes interpretive authority: readers must decide what events mean, what characters'' motivations are, how to understand historical situations. Rather than the author imposing meaning through didactic narrative, the form creates space for multiple readings. This respects reader intelligence and acknowledges that historical trauma and postcolonial experience are complex enough to resist simple resolution.'
 
-- type: short-answer
-  question: "Explain how Coetzee's 'formal restraint' and 'narrative ambiguity' are political positions in their own right, not evasions of politics. How does complex literary form engage with historical violence differently than conventional representation?"
-  explanation: "Coetzee's insight is that how you represent history is as important as what history you represent. Conventional narrative about colonial violence typically adopts a position of authority—the narrator knows the meaning of events, can judge characters' motivations, offers resolution or message. This authority of narrative can paradoxically diminish historical complexity by providing false clarity. Coetzee refuses this authority. By employing austere form, ambiguity, and allegory, he admits that he cannot fully represent or understand colonial violence. The form enacts an intellectual humility: this is too complex for simple narrative. The reader must interpret; the text does not provide answers. This formal position has political implications. It refuses to resolve postcolonial complexity into ideology. It trusts readers rather than imposing meaning. It honors historical trauma by not aestheticizing it into narrative comfort. The restraint and ambiguity are forms of respect for what cannot be simply said. This demonstrates that formalism is not apolitical—formal choices are political choices about how to engage with history and represent human consciousness."
+- question: Explain how Coetzee's 'formal restraint' and 'narrative ambiguity' are political positions in their own right, not evasions of politics. How does complex literary form engage with historical violence differently than conventional representation?
+  type: short-answer
+  explanation: 'Coetzee''s insight is that how you represent history is as important as what history you represent. Conventional narrative about colonial violence typically adopts a position of authority—the narrator knows the meaning of events, can judge characters'' motivations, offers resolution or message. This authority of narrative can paradoxically diminish historical complexity by providing false clarity. Coetzee refuses this authority. By employing austere form, ambiguity, and allegory, he admits that he cannot fully represent or understand colonial violence. The form enacts an intellectual humility: this is too complex for simple narrative. The reader must interpret; the text does not provide answers. This formal position has political implications. It refuses to resolve postcolonial complexity into ideology. It trusts readers rather than imposing meaning. It honors historical trauma by not aestheticizing it into narrative comfort. The restraint and ambiguity are forms of respect for what cannot be simply said. This demonstrates that formalism is not apolitical—formal choices are political choices about how to engage with history and represent human consciousness.'
 ```
 
 ## Explainer

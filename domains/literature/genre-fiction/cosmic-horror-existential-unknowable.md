@@ -23,36 +23,39 @@ Cosmic horror emphasizes humanity's insignificance in an indifferent universe go
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What type of fear does cosmic horror primarily generate?"
-    options:
-      - "Physical fear of immediate danger or bodily harm"
-      - "Existential dread from realizing human insignificance and the universe's indifference"
-      - "Social anxiety about peer judgment"
-      - "Fear of supernatural punishments for moral transgression"
-    correct_answer: 1
-    explanation: "The core idea explicitly states cosmic horror 'generates existential dread rather than fear of immediate threats' and emphasizes 'the realization that complete understanding may be impossible.'"
-  - type: multiple-choice
-    question: "According to the core idea, what characterizes the forces governing the cosmic horror universe?"
-    options:
-      - "They are fully comprehensible to sufficiently educated humans"
-      - "They are incomprehensible and govern an indifferent universe"
-      - "They operate according to moral principles similar to human values"
-      - "They are controlled by malevolent human agents"
-    correct_answer: 1
-    explanation: "The core idea describes an 'indifferent universe governed by incomprehensible forces,' indicating both the universe's lack of concern for humanity and the impossibility of complete understanding."
-  - type: true-false
-    question: "Cosmic horror's central fear is of eldritch creatures attacking humans, similar to conventional monster horror."
-    correct_answer: false
-    explanation: "The core idea indicates the primary fear is existential dread and 'the realization that complete understanding may be impossible,' not threat of physical attack. Eldritch entities are vehicles for this existential realization, not the primary source of fear."
-  - type: true-false
-    question: "In cosmic horror, the universe is depicted as fundamentally indifferent to human existence and concerns."
-    correct_answer: true
-    explanation: "The core idea explicitly states the universe is 'indifferent to human concerns,' which is precisely what generates the existential dread central to the genre."
-  - type: short-answer
-    question: "How does the concept of 'forbidden knowledge' function in cosmic horror, and why does learning the truth cause dread rather than enlightenment?"
-    explanation: "Good answers should explain that forbidden knowledge in cosmic horror reveals that complete understanding is impossible or that reality is fundamentally incomprehensible to human minds. Knowledge doesn't illuminate; it reveals the limits of human understanding and our insignificance. Learning the truth about cosmic forces produces despair, not empowerment."
+- question: What type of fear does cosmic horror primarily generate?
+  type: multiple-choice
+  options:
+  - Physical fear of immediate danger or bodily harm
+  - Existential dread from realizing human insignificance and the universe's indifference
+  - Social anxiety about peer judgment
+  - Fear of supernatural punishments for moral transgression
+  answer: 1
+  explanation: The core idea explicitly states cosmic horror 'generates existential dread rather than fear of immediate threats' and emphasizes 'the realization that complete understanding may be impossible.'
+
+- question: According to the core idea, what characterizes the forces governing the cosmic horror universe?
+  type: multiple-choice
+  options:
+  - They are fully comprehensible to sufficiently educated humans
+  - They are incomprehensible and govern an indifferent universe
+  - They operate according to moral principles similar to human values
+  - They are controlled by malevolent human agents
+  answer: 1
+  explanation: The core idea describes an 'indifferent universe governed by incomprehensible forces,' indicating both the universe's lack of concern for humanity and the impossibility of complete understanding.
+
+- question: Cosmic horror's central fear is of eldritch creatures attacking humans, similar to conventional monster horror.
+  type: true-false
+  answer: false
+  explanation: The core idea indicates the primary fear is existential dread and 'the realization that complete understanding may be impossible,' not threat of physical attack. Eldritch entities are vehicles for this existential realization, not the primary source of fear.
+
+- question: In cosmic horror, the universe is depicted as fundamentally indifferent to human existence and concerns.
+  type: true-false
+  answer: true
+  explanation: The core idea explicitly states the universe is 'indifferent to human concerns,' which is precisely what generates the existential dread central to the genre.
+
+- question: How does the concept of 'forbidden knowledge' function in cosmic horror, and why does learning the truth cause dread rather than enlightenment?
+  type: short-answer
+  explanation: Good answers should explain that forbidden knowledge in cosmic horror reveals that complete understanding is impossible or that reality is fundamentally incomprehensible to human minds. Knowledge doesn't illuminate; it reveals the limits of human understanding and our insignificance. Learning the truth about cosmic forces produces despair, not empowerment.
 ```
 
 ## Explainer

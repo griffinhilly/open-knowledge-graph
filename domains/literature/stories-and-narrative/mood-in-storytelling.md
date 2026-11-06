@@ -32,35 +32,40 @@ Read passages with distinct moods and identify: What emotion does it evoke? What
 ## Questions
 
 ```yaml
-- question: "Two stories both depict a funeral. Story A describes: 'The room was hushed, the air heavy with grief, flowers wilting in the heat, silence broken only by quiet tears.' Story B describes: 'The room was full of laughter and stories as people shared memories, the sun streaming through windows, and someone cracked a joke that made everyone smile through their tears.' Both involve death, but what's different about the mood each creates?"
+- question: 'Two stories both depict a funeral. Story A describes: ''The room was hushed, the air heavy with grief, flowers wilting in the heat, silence broken only by quiet tears.'' Story B describes: ''The room was full of laughter and stories as people shared memories, the sun streaming through windows, and someone cracked a joke that made everyone smile through their tears.'' Both involve death, but what''s different about the mood each creates?'
+  type: multiple-choice
   options:
-    - "The events are identical so the mood must be identical"
-    - "The mood of Story A is somber and heavy; the mood of Story B is bittersweet or celebratory despite grief. The same event (a funeral) creates different moods depending on how the author frames it—word choices, imagery, and tone shape mood"
-    - "Mood and plot are the same thing"
-    - "Story A is sad because it mentions death"
+  - The events are identical so the mood must be identical
+  - The mood of Story A is somber and heavy; the mood of Story B is bittersweet or celebratory despite grief. The same event (a funeral) creates different moods depending on how the author frames it—word choices, imagery, and tone shape mood
+  - Mood and plot are the same thing
+  - Story A is sad because it mentions death
   answer: 1
-  explanation: "Mood is created through craft choices—word choice, imagery, events, and tone. The same plot event can create very different moods depending on how it's presented. A funeral can feel heavy and dark, or can feel warm and celebratory. Understanding this distinction shows readers that mood isn't inherent in events; it's created by authors through their choices."
+  explanation: Mood is created through craft choices—word choice, imagery, events, and tone. The same plot event can create very different moods depending on how it's presented. A funeral can feel heavy and dark, or can feel warm and celebratory. Understanding this distinction shows readers that mood isn't inherent in events; it's created by authors through their choices.
 
-- question: "An author writes about a character discovering they've lost their job. The passage emphasizes the terror: racing heartbeat, crushing anxiety, the character imagining worst-case scenarios. Later, another character loses their job and the passage emphasizes unexpected relief and freedom: the weight lifting, possibilities opening, excitement about what comes next. Both characters lost their jobs. How can the mood be so different?"
+- question: 'An author writes about a character discovering they''ve lost their job. The passage emphasizes the terror: racing heartbeat, crushing anxiety, the character imagining worst-case scenarios. Later, another character loses their job and the passage emphasizes unexpected relief and freedom: the weight lifting, possibilities opening, excitement about what comes next. Both characters lost their jobs. How can the mood be so different?'
+  type: multiple-choice
   options:
-    - "One event is bad and one is good"
-    - "Mood depends on interpretation and framing, not on events themselves. Loss of a job could mean disaster for one character (high anxiety, reliance on income) and liberation for another (escape from a terrible situation). The author creates mood through showing the character's perspective, physical reactions, and what the event means to them"
-    - "The characters must have different jobs"
-    - "Job loss always creates the same mood"
+  - One event is bad and one is good
+  - Mood depends on interpretation and framing, not on events themselves. Loss of a job could mean disaster for one character (high anxiety, reliance on income) and liberation for another (escape from a terrible situation). The author creates mood through showing the character's perspective, physical reactions, and what the event means to them
+  - The characters must have different jobs
+  - Job loss always creates the same mood
   answer: 1
-  explanation: "This demonstrates that mood is subjective and created through perspective. The same event has different emotional significance depending on context. Authors create mood by showing characters' reactions and what events mean to them, not just by depicting events themselves."
+  explanation: This demonstrates that mood is subjective and created through perspective. The same event has different emotional significance depending on context. Authors create mood by showing characters' reactions and what events mean to them, not just by depicting events themselves.
 
-- question: "True or False: An author can create a light, humorous mood while describing a tragic event."
+- question: 'True or False: An author can create a light, humorous mood while describing a tragic event.'
+  type: true-false
   answer: true
-  explanation: "Yes. An author could describe a disaster with dark humor, creating a gallows-humor mood. Or describe a tragedy through a character's protective joking, creating a bittersweet rather than purely sad mood. Mood depends on how the author frames events, not on the nature of the events themselves."
+  explanation: Yes. An author could describe a disaster with dark humor, creating a gallows-humor mood. Or describe a tragedy through a character's protective joking, creating a bittersweet rather than purely sad mood. Mood depends on how the author frames events, not on the nature of the events themselves.
 
-- question: "True or False: Mood is an objective feature that all readers perceive the same way."
+- question: 'True or False: Mood is an objective feature that all readers perceive the same way.'
+  type: true-false
   answer: false
-  explanation: "While authors deliberately create mood through textual choices, readers' perception of mood is influenced by their own experience and sensitivity. Readers might feel the intended somber mood, or might be less affected by it, or might interpret the mood differently. However, the author's craft choices create patterns that guide readers toward particular moods."
+  explanation: While authors deliberately create mood through textual choices, readers' perception of mood is influenced by their own experience and sensitivity. Readers might feel the intended somber mood, or might be less affected by it, or might interpret the mood differently. However, the author's craft choices create patterns that guide readers toward particular moods.
 
-- question: "Throughout a story, the author uses light, quick dialogue, bright imagery, and characters making jokes even during difficult moments. This creates an overall mood of playfulness and resilience. In the final chapters, the author shifts to longer sentences, darker imagery, and serious dialogue—the mood becomes heavy and ominous. What is the author doing?"
-  answer: "The author is using mood shift to signal a change in the story's emotional and thematic direction. The playful beginning mood showed characters' resilience and humor as coping mechanisms. The shift to a heavier mood signals that the story is moving into its darker, more serious final phase—threats are becoming real, consequences are mounting, playfulness can't protect anymore. The mood shift mirrors the characters' emotional journey from confidence to gravity. This is sophisticated storytelling using mood as a narrative tool."
-  explanation: "This tests understanding that mood is a tool authors use strategically. Mood isn't static; it can shift to reflect character development, plot escalation, or thematic movement. Readers who notice mood shifts understand how authors guide their emotional engagement with the story."
+- question: Throughout a story, the author uses light, quick dialogue, bright imagery, and characters making jokes even during difficult moments. This creates an overall mood of playfulness and resilience. In the final chapters, the author shifts to longer sentences, darker imagery, and serious dialogue—the mood becomes heavy and ominous. What is the author doing?
+  type: short-answer
+  answer: The author is using mood shift to signal a change in the story's emotional and thematic direction. The playful beginning mood showed characters' resilience and humor as coping mechanisms. The shift to a heavier mood signals that the story is moving into its darker, more serious final phase—threats are becoming real, consequences are mounting, playfulness can't protect anymore. The mood shift mirrors the characters' emotional journey from confidence to gravity. This is sophisticated storytelling using mood as a narrative tool.
+  explanation: This tests understanding that mood is a tool authors use strategically. Mood isn't static; it can shift to reflect character development, plot escalation, or thematic movement. Readers who notice mood shifts understand how authors guide their emotional engagement with the story.
 ```
 
 ## Explainer

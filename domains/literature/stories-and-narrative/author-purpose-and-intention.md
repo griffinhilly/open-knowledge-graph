@@ -30,35 +30,40 @@ Select a story and consider: What might the author be trying to accomplish? What
 ## Questions
 
 ```yaml
-- question: "An author writes a historical novel set during a war where the protagonist is a spy gathering intelligence. The story emphasizes the emotional toll of deception and the moral complexity of wartime choices. What purpose does this author most likely have?"
+- question: An author writes a historical novel set during a war where the protagonist is a spy gathering intelligence. The story emphasizes the emotional toll of deception and the moral complexity of wartime choices. What purpose does this author most likely have?
+  type: multiple-choice
   options:
-    - "To entertain readers with exciting spy action and plot twists"
-    - "To explore the psychological and moral dimensions of a character in conflict, not just to provide excitement"
-    - "To teach readers historical facts about the war"
-    - "To prove that wars are always unjustified"
+  - To entertain readers with exciting spy action and plot twists
+  - To explore the psychological and moral dimensions of a character in conflict, not just to provide excitement
+  - To teach readers historical facts about the war
+  - To prove that wars are always unjustified
   answer: 1
-  explanation: "The author's emphasis on emotional toll and moral complexity suggests the purpose is exploring character psychology and ethical questions, not just entertainment through action. Purpose can be inferred from what the author chooses to emphasize."
+  explanation: The author's emphasis on emotional toll and moral complexity suggests the purpose is exploring character psychology and ethical questions, not just entertainment through action. Purpose can be inferred from what the author chooses to emphasize.
 
-- question: "A children's author writes picture books where animals face challenges and learn lessons through experience. Each story shows a character making mistakes, feeling sad or frustrated, and eventually finding a solution. What purpose might this author have?"
+- question: A children's author writes picture books where animals face challenges and learn lessons through experience. Each story shows a character making mistakes, feeling sad or frustrated, and eventually finding a solution. What purpose might this author have?
+  type: multiple-choice
   options:
-    - "To entertain children with silly animal characters"
-    - "To help children understand that mistakes and difficult feelings are part of learning and growth"
-    - "To teach children facts about animal behavior"
-    - "To show that adults always know better than children"
+  - To entertain children with silly animal characters
+  - To help children understand that mistakes and difficult feelings are part of learning and growth
+  - To teach children facts about animal behavior
+  - To show that adults always know better than children
   answer: 1
-  explanation: "The pattern of mistakes leading to growth suggests the author's purpose includes helping children process emotions and understand resilience. This is a broader purpose than just entertainment, though entertainment is part of it."
+  explanation: The pattern of mistakes leading to growth suggests the author's purpose includes helping children process emotions and understand resilience. This is a broader purpose than just entertainment, though entertainment is part of it.
 
-- question: "True or False: An author's purpose can be inferred from the choices they make about what to include, emphasize, or omit in a story."
+- question: 'True or False: An author''s purpose can be inferred from the choices they make about what to include, emphasize, or omit in a story.'
+  type: true-false
   answer: true
-  explanation: "Authors' purposes are revealed through their narrative choices—what events matter, which characters' perspectives are shown, what themes repeat, what is treated seriously versus humorously. Readers must infer purpose from these choices."
+  explanation: Authors' purposes are revealed through their narrative choices—what events matter, which characters' perspectives are shown, what themes repeat, what is treated seriously versus humorously. Readers must infer purpose from these choices.
 
-- question: "True or False: The author's stated purpose is always the only valid interpretation of why they wrote a story."
+- question: 'True or False: The author''s stated purpose is always the only valid interpretation of why they wrote a story.'
+  type: true-false
   answer: false
-  explanation: "While authors have intentions, stories often contain meanings and purposes that go beyond what authors consciously intended or stated. Readers may discover purposes the author didn't explicitly claim. Both author intention and reader interpretation are valid."
+  explanation: While authors have intentions, stories often contain meanings and purposes that go beyond what authors consciously intended or stated. Readers may discover purposes the author didn't explicitly claim. Both author intention and reader interpretation are valid.
 
-- question: "Imagine an author writes a short story about a character who works hard their entire life but never achieves their biggest dream, and the story ends with them finding unexpected meaning in small, everyday moments. What might be this author's purpose? What evidence from the plot supports this inference?"
-  answer: "The author's purpose seems to be exploring ideas about success, ambition, and meaning in life. The author might be questioning whether our society's definition of success (achieving big dreams) is the only source of fulfillment, and suggesting that meaning can be found in smaller, overlooked moments. Evidence: the author chose to show a character who 'fails' at their obvious goal but finds value anyway, suggesting the author wants readers to reconsider what counts as a meaningful life."
-  explanation: "This tests whether students can infer purpose from narrative structure and emphasis. Students should recognize that purpose emerges from what events the author includes and what they seem to value (hard work, seeking meaning, finding peace without external achievement)."
+- question: Imagine an author writes a short story about a character who works hard their entire life but never achieves their biggest dream, and the story ends with them finding unexpected meaning in small, everyday moments. What might be this author's purpose? What evidence from the plot supports this inference?
+  type: short-answer
+  answer: 'The author''s purpose seems to be exploring ideas about success, ambition, and meaning in life. The author might be questioning whether our society''s definition of success (achieving big dreams) is the only source of fulfillment, and suggesting that meaning can be found in smaller, overlooked moments. Evidence: the author chose to show a character who ''fails'' at their obvious goal but finds value anyway, suggesting the author wants readers to reconsider what counts as a meaningful life.'
+  explanation: This tests whether students can infer purpose from narrative structure and emphasis. Students should recognize that purpose emerges from what events the author includes and what they seem to value (hard work, seeking meaning, finding peace without external achievement).
 ```
 
 ## Explainer

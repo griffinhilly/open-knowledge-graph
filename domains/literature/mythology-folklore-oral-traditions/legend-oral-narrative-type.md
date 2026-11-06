@@ -30,40 +30,39 @@ Legends are simply embellished history that can be stripped back to uncover fact
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What distinguishes a legend from pure myth in terms of its narrative foundation?"
-    options:
-      - "Legends are entirely fictional while myths contain verifiable historical events"
-      - "Legends claim to be anchored to a historical person or event, even if that event has been heavily transformed through storytelling"
-      - "Legends are longer and more complex than myths"
-      - "Legends never contain supernatural elements, whereas myths routinely do"
-    correct: "B"
-    explanation: "Legends maintain what scholars call a 'membrane of plausibility'—they claim historical grounding in real people or events, even as storytellers add magical feats, supernatural interventions, or amplify achievements far beyond evidence. This quasi-historical anchor distinguishes legends from myths, which may or may not claim historical referents."
+- question: What distinguishes a legend from pure myth in terms of its narrative foundation?
+  type: multiple-choice
+  options:
+  - Legends are entirely fictional while myths contain verifiable historical events
+  - Legends claim to be anchored to a historical person or event, even if that event has been heavily transformed through storytelling
+  - Legends are longer and more complex than myths
+  - Legends never contain supernatural elements, whereas myths routinely do
+  answer: 1
+  explanation: Legends maintain what scholars call a 'membrane of plausibility'—they claim historical grounding in real people or events, even as storytellers add magical feats, supernatural interventions, or amplify achievements far beyond evidence. This quasi-historical anchor distinguishes legends from myths, which may or may not claim historical referents.
 
-  - type: multiple-choice
-    question: "Why do different cultures often transmit divergent legendary accounts of the same historical event?"
-    options:
-      - "Some cultures are more historically accurate than others"
-      - "Legends serve cultural memory functions—each culture elaborates details to align with its own values, moral concerns, and narrative traditions"
-      - "Older cultures always tell more accurate legends"
-      - "Supernatural elements in legends indicate falsehood regardless of cultural context"
-    correct: "B"
-    explanation: "Legends are not merely corrupted history; they are cultural memory-work. When different societies tell different legends about the same event, each elaboration reveals what that culture valued, feared, or wished to emphasize. The variation is not noise—it's the signal of how legend functions as mnemonic and meaning-making."
+- question: Why do different cultures often transmit divergent legendary accounts of the same historical event?
+  type: multiple-choice
+  options:
+  - Some cultures are more historically accurate than others
+  - Legends serve cultural memory functions—each culture elaborates details to align with its own values, moral concerns, and narrative traditions
+  - Older cultures always tell more accurate legends
+  - Supernatural elements in legends indicate falsehood regardless of cultural context
+  answer: 1
+  explanation: Legends are not merely corrupted history; they are cultural memory-work. When different societies tell different legends about the same event, each elaboration reveals what that culture valued, feared, or wished to emphasize. The variation is not noise—it's the signal of how legend functions as mnemonic and meaning-making.
 
-  - type: true-false
-    question: "Stripping away a legend's supernatural elements and exaggerations will reliably reveal the historical core that inspired the legend."
-    correct: false
-    explanation: "While some legends have historical origins, the relationship is complex. Storytellers don't simply 'add' embellishment to a known historical fact—they actively interpret and transform it to serve cultural purposes. Moreover, multiple legends might cluster around a single historical person, making it impossible to recover a single 'original' fact."
+- question: Stripping away a legend's supernatural elements and exaggerations will reliably reveal the historical core that inspired the legend.
+  type: true-false
+  answer: false
+  explanation: While some legends have historical origins, the relationship is complex. Storytellers don't simply 'add' embellishment to a known historical fact—they actively interpret and transform it to serve cultural purposes. Moreover, multiple legends might cluster around a single historical person, making it impossible to recover a single 'original' fact.
 
-  - type: true-false
-    question: "Legends and myths are incompatible categories—if a narrative contains supernatural elements, it is myth, not legend."
-    correct: false
-    explanation: "Legends frequently incorporate supernatural elements: miraculous births, divine interventions, magical weapons. The distinction between legend and myth is not about the presence or absence of the supernatural, but about the type of narrative claim—legends claim quasi-historical grounding, myths often do not."
+- question: Legends and myths are incompatible categories—if a narrative contains supernatural elements, it is myth, not legend.
+  type: true-false
+  answer: false
+  explanation: 'Legends frequently incorporate supernatural elements: miraculous births, divine interventions, magical weapons. The distinction between legend and myth is not about the presence or absence of the supernatural, but about the type of narrative claim—legends claim quasi-historical grounding, myths often do not.'
 
-  - type: short-answer
-    question: "Explain what scholars mean when they say a legend maintains a 'membrane of plausibility' and why this matters for understanding legend as a cultural form."
-    explanation: "A 'membrane of plausibility' refers to the legend's strategy of remaining just barely credible—it stays within the realm of 'this could have happened' even as it amplifies, invents, and incorporates impossible elements. This matters because it reveals legend's social function: legends persuade audiences that extraordinary things happened to real people, anchoring collective memory to extraordinary figures. Unlike myths, which may not claim historical reference, legends ask audiences to believe 'yes, this person was real and this marvelous thing happened.' That membrane allows the legend to be simultaneously historical claim and marvelous tale, serving both mnemonic and narrative-entertainment functions for cultures that depend on oral transmission."
+- question: Explain what scholars mean when they say a legend maintains a 'membrane of plausibility' and why this matters for understanding legend as a cultural form.
+  type: short-answer
+  explanation: 'A ''membrane of plausibility'' refers to the legend''s strategy of remaining just barely credible—it stays within the realm of ''this could have happened'' even as it amplifies, invents, and incorporates impossible elements. This matters because it reveals legend''s social function: legends persuade audiences that extraordinary things happened to real people, anchoring collective memory to extraordinary figures. Unlike myths, which may not claim historical reference, legends ask audiences to believe ''yes, this person was real and this marvelous thing happened.'' That membrane allows the legend to be simultaneously historical claim and marvelous tale, serving both mnemonic and narrative-entertainment functions for cultures that depend on oral transmission.'
 ```
 
 ## Explainer

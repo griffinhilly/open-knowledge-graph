@@ -34,39 +34,39 @@ Shi poetry is not simply 'untranslatable emotion'—its formal constraints creat
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "How do tonal patterns (ping/ze) in shi poetry function in creating meaning?"
+- question: How do tonal patterns (ping/ze) in shi poetry function in creating meaning?
+  type: multiple-choice
   options:
-    - "Tonal patterns are unrelated to meaning and serve only acoustic purposes"
-    - "Tonal patterns create semantic effects; ping (level) and ze (oblique) tones carry meaning associations and create emotional and conceptual resonances"
-    - "Shi poetry abandons any attention to tonal regulation"
-    - "Only the semantic content of words matters; tones are irrelevant"
+  - Tonal patterns are unrelated to meaning and serve only acoustic purposes
+  - Tonal patterns create semantic effects; ping (level) and ze (oblique) tones carry meaning associations and create emotional and conceptual resonances
+  - Shi poetry abandons any attention to tonal regulation
+  - Only the semantic content of words matters; tones are irrelevant
   answer: 1
-  explanation: "In Chinese, words have inherent tones (level, rising, departing, entering), and these tones are fundamental to meaning—changing the tone changes the word. Shi poetry regulates which positions require ping (level) tones and which require ze (oblique) tones. This regulation is not merely decorative; it creates semantic and emotional effects. Different tones carry associations: level tones may evoke stability or monotony; oblique tones may create urgency or variation. The regulated alternation of tones creates a pattern that has emotional and conceptual significance. The poet must select words not only for their semantic meaning but for their tonal qualities, so that the tonal pattern reinforces or complicates semantic meaning. This makes tonal regulation a vehicle for precise semantic control, not merely decoration."
+  explanation: 'In Chinese, words have inherent tones (level, rising, departing, entering), and these tones are fundamental to meaning—changing the tone changes the word. Shi poetry regulates which positions require ping (level) tones and which require ze (oblique) tones. This regulation is not merely decorative; it creates semantic and emotional effects. Different tones carry associations: level tones may evoke stability or monotony; oblique tones may create urgency or variation. The regulated alternation of tones creates a pattern that has emotional and conceptual significance. The poet must select words not only for their semantic meaning but for their tonal qualities, so that the tonal pattern reinforces or complicates semantic meaning. This makes tonal regulation a vehicle for precise semantic control, not merely decoration.'
 
-- type: multiple-choice
-  question: "What is the relationship between shi poetry's regulated forms and meaning-making?"
+- question: What is the relationship between shi poetry's regulated forms and meaning-making?
+  type: multiple-choice
   options:
-    - "Regulated forms limit meaning to a single, rigid interpretation"
-    - "Regulated forms constrain the poet's choices, forcing precision and compression where every word must satisfy semantic, tonal, and formal demands simultaneously"
-    - "Regulated forms are irrelevant to meaning"
-    - "Forms and meaning are unrelated in shi poetry"
+  - Regulated forms limit meaning to a single, rigid interpretation
+  - Regulated forms constrain the poet's choices, forcing precision and compression where every word must satisfy semantic, tonal, and formal demands simultaneously
+  - Regulated forms are irrelevant to meaning
+  - Forms and meaning are unrelated in shi poetry
   answer: 1
-  explanation: "Shi poetry's regulated forms (rhyme scheme, line length, tonal pattern) function similarly to meter in other traditions: they constrain the poet's choices, forcing precision. The poet cannot use the first word that comes to mind but must find a word that fits the rhyme, maintains the correct tone pattern, and conveys the intended meaning. This constraint creates an intensive meaning-making process: every word must do multiple kinds of work simultaneously. The result is extraordinary precision and density—meaning is compressed into form rather than stated expansively. The regulated forms do not limit meaning but intensify it, creating effects that less constrained forms could not achieve. Understanding shi poetry requires recognizing that form and meaning are inseparable; the regulations are not obstacles to meaning but vehicles for it."
+  explanation: 'Shi poetry''s regulated forms (rhyme scheme, line length, tonal pattern) function similarly to meter in other traditions: they constrain the poet''s choices, forcing precision. The poet cannot use the first word that comes to mind but must find a word that fits the rhyme, maintains the correct tone pattern, and conveys the intended meaning. This constraint creates an intensive meaning-making process: every word must do multiple kinds of work simultaneously. The result is extraordinary precision and density—meaning is compressed into form rather than stated expansively. The regulated forms do not limit meaning but intensify it, creating effects that less constrained forms could not achieve. Understanding shi poetry requires recognizing that form and meaning are inseparable; the regulations are not obstacles to meaning but vehicles for it.'
 
-- type: true-false
-  statement: "Shi poetry's emotional power comes from expressing raw, unmediated emotion rather than from formal sophistication."
+- question: Shi poetry's emotional power comes from expressing raw, unmediated emotion rather than from formal sophistication.
+  type: true-false
   answer: false
-  explanation: "This misconception treats emotion and form as opposed. In fact, shi poetry achieves emotional power precisely through formal mastery. The precision of tonal control, the compression created by regulated forms, the density of imagery and allusion—these formal achievements create the conditions for emotional intensity. Emotional expression in shi is not raw or unmediated but refined through form. A single image, carefully selected to fit all formal requirements, carries emotional weight precisely because it has been so carefully chosen and placed. The emotional power emerges from the integration of form and content, not from bypassing form."
+  explanation: This misconception treats emotion and form as opposed. In fact, shi poetry achieves emotional power precisely through formal mastery. The precision of tonal control, the compression created by regulated forms, the density of imagery and allusion—these formal achievements create the conditions for emotional intensity. Emotional expression in shi is not raw or unmediated but refined through form. A single image, carefully selected to fit all formal requirements, carries emotional weight precisely because it has been so carefully chosen and placed. The emotional power emerges from the integration of form and content, not from bypassing form.
 
-- type: true-false
-  statement: "Shi poetry is untranslatable because its emotional content cannot be expressed in other languages."
+- question: Shi poetry is untranslatable because its emotional content cannot be expressed in other languages.
+  type: true-false
   answer: false
-  explanation: "While shi poetry does present real translation challenges (particularly the tonal dimensions specific to Chinese), the claim that it is wholly untranslatable reflects misconception. The emotional and semantic content can be translated, even if some formal properties cannot be replicated in languages lacking tonal systems. Translation requires acknowledging what cannot be directly transferred (tonal regulation, rhyme scheme specific to Chinese phonology) while finding equivalent formal strategies in the target language. The sophistication of shi poetry is not merely in untranslatable emotion but in how form creates meaning; translators can find formal strategies adequate to conveying much of the poem's significance even if they cannot perfectly replicate the original's tonal architecture."
+  explanation: While shi poetry does present real translation challenges (particularly the tonal dimensions specific to Chinese), the claim that it is wholly untranslatable reflects misconception. The emotional and semantic content can be translated, even if some formal properties cannot be replicated in languages lacking tonal systems. Translation requires acknowledging what cannot be directly transferred (tonal regulation, rhyme scheme specific to Chinese phonology) while finding equivalent formal strategies in the target language. The sophistication of shi poetry is not merely in untranslatable emotion but in how form creates meaning; translators can find formal strategies adequate to conveying much of the poem's significance even if they cannot perfectly replicate the original's tonal architecture.
 
-- type: short-answer
-  question: "How do shi poetry's regulated formal constraints create conditions for precise semantic and emotional expression?"
-  explanation: "Shi poetry's formal regulations—specified rhyme scheme, regulated line length, controlled tonal patterns—function as a technical system that forces the poet to achieve maximum precision. A poet working within these constraints must find words that simultaneously satisfy semantic intention, fit the tonal pattern, maintain the rhyme scheme, and contribute to the poem's emotional and imagistic effect. No word can be wasted or approximated; every word must do multiple kinds of work. This intensive constraint-working process creates extraordinary density of meaning. An image that has been selected to fit all these demands carries maximum resonance and emotional weight. The formal regulations do not prevent meaning but intensify it, creating effects that less constrained language might dilute. This reveals a general principle about form: constraint does not necessarily limit meaning but can intensify it by forcing precision and compression. The poet's skill lies not in overcoming formal constraints but in manipulating them to create maximal semantic and emotional effects."
+- question: How do shi poetry's regulated formal constraints create conditions for precise semantic and emotional expression?
+  type: short-answer
+  explanation: 'Shi poetry''s formal regulations—specified rhyme scheme, regulated line length, controlled tonal patterns—function as a technical system that forces the poet to achieve maximum precision. A poet working within these constraints must find words that simultaneously satisfy semantic intention, fit the tonal pattern, maintain the rhyme scheme, and contribute to the poem''s emotional and imagistic effect. No word can be wasted or approximated; every word must do multiple kinds of work. This intensive constraint-working process creates extraordinary density of meaning. An image that has been selected to fit all these demands carries maximum resonance and emotional weight. The formal regulations do not prevent meaning but intensify it, creating effects that less constrained language might dilute. This reveals a general principle about form: constraint does not necessarily limit meaning but can intensify it by forcing precision and compression. The poet''s skill lies not in overcoming formal constraints but in manipulating them to create maximal semantic and emotional effects.'
 ```
 
 ## Explainer

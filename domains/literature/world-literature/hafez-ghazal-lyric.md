@@ -35,39 +35,39 @@ Hafez's references to wine and beauty are not opposed to spiritual meaning—the
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What does it mean that Hafez 'achieved supreme mastery of the ghazal form,' and how does formal mastery serve his philosophical project?"
+- question: What does it mean that Hafez 'achieved supreme mastery of the ghazal form,' and how does formal mastery serve his philosophical project?
+  type: multiple-choice
   options:
-    - "Mastery means writing technically perfect but emotionally empty poems"
-    - "Mastery means perfect command of radif-qafia and couplet form that allows seamless expression of complex philosophical and emotional meaning"
-    - "Formal mastery is unrelated to philosophical content"
-    - "The ghazal form cannot be mastered, so claims of mastery are invalid"
+  - Mastery means writing technically perfect but emotionally empty poems
+  - Mastery means perfect command of radif-qafia and couplet form that allows seamless expression of complex philosophical and emotional meaning
+  - Formal mastery is unrelated to philosophical content
+  - The ghazal form cannot be mastered, so claims of mastery are invalid
   answer: 1
-  explanation: "Hafez's mastery does not manifest as technical display but as perfect integration of form and content. He commands the ghazal form so completely that the formal constraints become transparent—the reader experiences emotional and philosophical meaning without noticing how it is produced through formal skill. Each couplet maintains perfect autonomy while participating in emotional arc. The radif-qafia system is so masterfully deployed that repetition creates not monotony but deepening intensity. This mastery allows Hafez to express philosophical complexity and emotional subtlety that lesser formal skill would dissipate. The form becomes vehicle for meaning rather than obstacle to it."
+  explanation: Hafez's mastery does not manifest as technical display but as perfect integration of form and content. He commands the ghazal form so completely that the formal constraints become transparent—the reader experiences emotional and philosophical meaning without noticing how it is produced through formal skill. Each couplet maintains perfect autonomy while participating in emotional arc. The radif-qafia system is so masterfully deployed that repetition creates not monotony but deepening intensity. This mastery allows Hafez to express philosophical complexity and emotional subtlety that lesser formal skill would dissipate. The form becomes vehicle for meaning rather than obstacle to it.
 
-- type: multiple-choice
-  question: "How does Hafez's simultaneous expression of 'spiritual longing, divine love' and 'celebration of wine, beauty, and earthly joy' relate to Sufi philosophy?"
+- question: How does Hafez's simultaneous expression of 'spiritual longing, divine love' and 'celebration of wine, beauty, and earthly joy' relate to Sufi philosophy?
+  type: multiple-choice
   options:
-    - "They are contradictions that Hafez fails to resolve"
-    - "In Sufi understanding, divine manifestation is visible in earthly beauty and love; wine and earthly joy are not opposed to spiritual experience but expressions of it"
-    - "Hafez is confused about whether he is writing religious or secular poetry"
-    - "The two registers are completely separate in meaning"
+  - They are contradictions that Hafez fails to resolve
+  - In Sufi understanding, divine manifestation is visible in earthly beauty and love; wine and earthly joy are not opposed to spiritual experience but expressions of it
+  - Hafez is confused about whether he is writing religious or secular poetry
+  - The two registers are completely separate in meaning
   answer: 1
-  explanation: "In Sufi mysticism, the divine is not separate from creation but manifest within it. Beauty is not distraction from God but revelation of God. Wine (sometimes literal, sometimes metaphorical) represents intoxication with divine love. Earthly love can be vehicle for understanding divine love. Rather than hierarchy where spiritual truth opposes earthly experience, Sufi philosophy understands them as interpenetrating. Hafez's poetry embodies this philosophy: a couplet celebrating the beloved's beauty and a couplet expressing longing for God are not contradictory but two expressions of a single spiritual orientation. The ghazal form's capacity to maintain multiple meanings simultaneously—both literal (wine, beauty, earthly love) and spiritual (divine love, mystical union)—makes it perfect vehicle for this philosophy."
+  explanation: 'In Sufi mysticism, the divine is not separate from creation but manifest within it. Beauty is not distraction from God but revelation of God. Wine (sometimes literal, sometimes metaphorical) represents intoxication with divine love. Earthly love can be vehicle for understanding divine love. Rather than hierarchy where spiritual truth opposes earthly experience, Sufi philosophy understands them as interpenetrating. Hafez''s poetry embodies this philosophy: a couplet celebrating the beloved''s beauty and a couplet expressing longing for God are not contradictory but two expressions of a single spiritual orientation. The ghazal form''s capacity to maintain multiple meanings simultaneously—both literal (wine, beauty, earthly love) and spiritual (divine love, mystical union)—makes it perfect vehicle for this philosophy.'
 
-- type: true-false
-  statement: "In Hafez's poetry, references to wine, beauty, and sensual pleasure are primarily secular elements opposed to or competing with spiritual meaning."
+- question: In Hafez's poetry, references to wine, beauty, and sensual pleasure are primarily secular elements opposed to or competing with spiritual meaning.
+  type: true-false
   answer: false
-  explanation: "Hafez writes from Sufi tradition, which understands divine manifestation as present in creation and beauty. Wine intoxication is metaphor for mystical union with divine. The beloved's beauty is reflection of divine beauty. These are not opposed to spiritual meaning but expressions of it. The ghazal form's capacity to maintain multiple registers simultaneously—literal and metaphorical, sensual and spiritual—allows Hafez to express both without hierarchy. A reader can encounter the poem on multiple levels, experiencing both sensual pleasure and spiritual longing simultaneously, reflecting the Sufi vision that divides them."
+  explanation: Hafez writes from Sufi tradition, which understands divine manifestation as present in creation and beauty. Wine intoxication is metaphor for mystical union with divine. The beloved's beauty is reflection of divine beauty. These are not opposed to spiritual meaning but expressions of it. The ghazal form's capacity to maintain multiple registers simultaneously—literal and metaphorical, sensual and spiritual—allows Hafez to express both without hierarchy. A reader can encounter the poem on multiple levels, experiencing both sensual pleasure and spiritual longing simultaneously, reflecting the Sufi vision that divides them.
 
-- type: true-false
-  statement: "Hafez demonstrates that the ghazal form, with its formal perfection and capacity for multiple simultaneous meanings, can achieve both philosophical profundity and emotional and spiritual accessibility."
+- question: Hafez demonstrates that the ghazal form, with its formal perfection and capacity for multiple simultaneous meanings, can achieve both philosophical profundity and emotional and spiritual accessibility.
+  type: true-false
   answer: true
-  explanation: "This correctly identifies Hafez's achievement. Rather than treating formal mastery as obstacle to accessibility, Hafez proves that perfect command of form allows expression of philosophical and spiritual depth that lesser poetry cannot reach. His poems are accessible—they can be read simply as celebration of beauty or longing—while also containing philosophical and spiritual dimensions. The form enables this multiplicity."
+  explanation: This correctly identifies Hafez's achievement. Rather than treating formal mastery as obstacle to accessibility, Hafez proves that perfect command of form allows expression of philosophical and spiritual depth that lesser poetry cannot reach. His poems are accessible—they can be read simply as celebration of beauty or longing—while also containing philosophical and spiritual dimensions. The form enables this multiplicity.
 
-- type: short-answer
-  question: "Explain how the ghazal form's capacity for 'simultaneous expression of multiple meanings' allows Hafez to express Sufi philosophy where divine and earthly love, spiritual and sensual experience, are not opposed but interpenetrating. How does formal structure serve philosophical meaning?"
-  explanation: "The ghazal form's strength is precisely its capacity to maintain multiple registers of meaning simultaneously. Each couplet's autonomy allows it to function on different levels: the literal level (celebrating a beloved's beauty, describing wine's intoxicating effects) and the spiritual level (expressing divine love, mystical union with God). The radif-qafia system creates sonic continuity across these levels—the same formal frame contains both literal and metaphorical meanings, which gives them equal weight and validity. This formal structure enacts Sufi philosophy: that divine and earthly are not separated but interpenetrating. A reader does not have to choose between the sensual and spiritual readings; instead, both operate simultaneously, just as in Sufi experience, divine is manifest in creation and beauty. The ghazal form is not merely container for this philosophy but enactment of it. The formal structure—where multiple meanings coexist within the same couplet, where repetition of radif-qafia suggests that different registers of experience are fundamentally connected—IS the philosophy given artistic form. This is why Hafez's poetry achieves such power: the form and the philosophy are inseparable; meaning and structure reinforce each other."
+- question: Explain how the ghazal form's capacity for 'simultaneous expression of multiple meanings' allows Hafez to express Sufi philosophy where divine and earthly love, spiritual and sensual experience, are not opposed but interpenetrating. How does formal structure serve philosophical meaning?
+  type: short-answer
+  explanation: 'The ghazal form''s strength is precisely its capacity to maintain multiple registers of meaning simultaneously. Each couplet''s autonomy allows it to function on different levels: the literal level (celebrating a beloved''s beauty, describing wine''s intoxicating effects) and the spiritual level (expressing divine love, mystical union with God). The radif-qafia system creates sonic continuity across these levels—the same formal frame contains both literal and metaphorical meanings, which gives them equal weight and validity. This formal structure enacts Sufi philosophy: that divine and earthly are not separated but interpenetrating. A reader does not have to choose between the sensual and spiritual readings; instead, both operate simultaneously, just as in Sufi experience, divine is manifest in creation and beauty. The ghazal form is not merely container for this philosophy but enactment of it. The formal structure—where multiple meanings coexist within the same couplet, where repetition of radif-qafia suggests that different registers of experience are fundamentally connected—IS the philosophy given artistic form. This is why Hafez''s poetry achieves such power: the form and the philosophy are inseparable; meaning and structure reinforce each other.'
 ```
 
 ## Explainer

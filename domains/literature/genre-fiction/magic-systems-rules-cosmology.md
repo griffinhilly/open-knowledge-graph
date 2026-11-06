@@ -30,36 +30,39 @@ Explicit magic systems are not inherently superior to mysterious magic; differen
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What distinguishes hard magic systems from soft magic systems?"
-    options:
-      - "Hard magic is always stronger"
-      - "Hard magic systems operate like physics with consistent rules; soft magic remains mysterious"
-      - "Hard magic is used by villains; soft magic by heroes"
-      - "Hard and soft magic are identical categories"
-    correct_answer: 1
-    explanation: "The core idea states that 'hard magic systems operate like physics with consistent rules; soft magic systems remain mysterious and wonder-inducing,' establishing this as the primary distinction."
-  - type: multiple-choice
-    question: "What factors determine the logic of a magic system according to the core idea?"
-    options:
-      - "Only the author's arbitrary preferences"
-      - "Sources (innate ability, study, divine favor), costs (energy expenditure, sacrifice, limitation), and constraints"
-      - "The number of characters who can use magic"
-      - "The color of magical effects"
-    correct_answer: 1
-    explanation: "The core idea specifies that magic systems establish 'sources (innate ability, study, divine favor), costs (energy expenditure, sacrifice, permanent limitation), and constraints,' identifying these as the system's defining logic."
-  - type: true-false
-    question: "A magic system's logic fundamentally affects what characters can do and what plot possibilities are available."
-    correct_answer: true
-    explanation: "The core idea states 'the magic system's logic fundamentally affects character agency and plot believability,' indicating that the system's rules shape narrative possibilities."
-  - type: true-false
-    question: "Explicit magic systems are inherently superior to soft magic systems."
-    correct_answer: false
-    explanation: "The Common Misconceptions section directly refutes this: 'Explicit magic systems are not inherently superior to mysterious magic; different effects require different approaches,' indicating both have value."
-  - type: short-answer
-    question: "How do hard magic systems enable specific plot possibilities while soft magic systems maintain wonder? Give an example of how magic system choice affects what stories can be told."
-    explanation: "A good answer should recognize that hard magic systems with explicit rules let readers predict what magic can accomplish, enabling puzzles and clever uses of magic within established constraints. Soft magic maintains wonder by keeping magic's boundaries undefined, but this prevents readers from anticipating how magic might solve problems. In Sanderson's hard magic, a character planning how to use Allomancy creates suspense; in Hobb's soft magic, magic produces wonder because its capabilities remain mysterious. Students should understand this is not about quality but about different effects: hard magic enables intellectual puzzles, soft magic enables numinous wonder."
+- question: What distinguishes hard magic systems from soft magic systems?
+  type: multiple-choice
+  options:
+  - Hard magic is always stronger
+  - Hard magic systems operate like physics with consistent rules; soft magic remains mysterious
+  - Hard magic is used by villains; soft magic by heroes
+  - Hard and soft magic are identical categories
+  answer: 1
+  explanation: The core idea states that 'hard magic systems operate like physics with consistent rules; soft magic systems remain mysterious and wonder-inducing,' establishing this as the primary distinction.
+
+- question: What factors determine the logic of a magic system according to the core idea?
+  type: multiple-choice
+  options:
+  - Only the author's arbitrary preferences
+  - Sources (innate ability, study, divine favor), costs (energy expenditure, sacrifice, limitation), and constraints
+  - The number of characters who can use magic
+  - The color of magical effects
+  answer: 1
+  explanation: The core idea specifies that magic systems establish 'sources (innate ability, study, divine favor), costs (energy expenditure, sacrifice, permanent limitation), and constraints,' identifying these as the system's defining logic.
+
+- question: A magic system's logic fundamentally affects what characters can do and what plot possibilities are available.
+  type: true-false
+  answer: true
+  explanation: The core idea states 'the magic system's logic fundamentally affects character agency and plot believability,' indicating that the system's rules shape narrative possibilities.
+
+- question: Explicit magic systems are inherently superior to soft magic systems.
+  type: true-false
+  answer: false
+  explanation: 'The Common Misconceptions section directly refutes this: ''Explicit magic systems are not inherently superior to mysterious magic; different effects require different approaches,'' indicating both have value.'
+
+- question: How do hard magic systems enable specific plot possibilities while soft magic systems maintain wonder? Give an example of how magic system choice affects what stories can be told.
+  type: short-answer
+  explanation: 'A good answer should recognize that hard magic systems with explicit rules let readers predict what magic can accomplish, enabling puzzles and clever uses of magic within established constraints. Soft magic maintains wonder by keeping magic''s boundaries undefined, but this prevents readers from anticipating how magic might solve problems. In Sanderson''s hard magic, a character planning how to use Allomancy creates suspense; in Hobb''s soft magic, magic produces wonder because its capabilities remain mysterious. Students should understand this is not about quality but about different effects: hard magic enables intellectual puzzles, soft magic enables numinous wonder.'
 ```
 
 ## Explainer

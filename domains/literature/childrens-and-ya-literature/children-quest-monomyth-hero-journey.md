@@ -27,35 +27,39 @@ The quest narrative and Campbell's monomyth structure numerous children's and YA
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What is the primary psychological function of the monomyth or hero's journey structure in children's narratives?"
-    options:
-      - "It is a formula that guarantees successful stories without variation"
-      - "It mirrors the actual psychological and social transformations adolescents undergo, making the pattern feel universal and recognizable"
-      - "It eliminates the need for meaningful character development"
-      - "It prevents readers from experiencing surprise or innovation"
-    answer: 1
-    explanation: "The monomyth pattern resonates because it maps onto how people actually experience growth: departure, challenge, transformation, and return—a structure that matches psychological development."
-  - question: "Why does the monomyth pattern appear across diverse cultures and time periods in children's and YA literature?"
-    options:
-      - "It is the only correct narrative structure"
-      - "The pattern reflects archetypal human experiences of growth, challenge, and transformation that transcend cultural boundaries"
-      - "Cultures copy each other's stories without variation"
-      - "It is a recent invention that has suddenly become universal"
-    answer: 1
-    explanation: "The monomyth's persistence suggests it maps onto fundamental human experiences—growth, facing challenges, becoming stronger—that resonate across cultures."
+- question: What is the primary psychological function of the monomyth or hero's journey structure in children's narratives?
+  type: multiple-choice
+  options:
+  - It is a formula that guarantees successful stories without variation
+  - It mirrors the actual psychological and social transformations adolescents undergo, making the pattern feel universal and recognizable
+  - It eliminates the need for meaningful character development
+  - It prevents readers from experiencing surprise or innovation
+  answer: 1
+  explanation: 'The monomyth pattern resonates because it maps onto how people actually experience growth: departure, challenge, transformation, and return—a structure that matches psychological development.'
 
-true-false:
-  - question: "True or False: In the monomyth, the protagonist's return to the ordinary world is insignificant compared to the central challenge."
-    answer: false
-    explanation: "This is false. The return and integration of transformation into ordinary life is crucial—it demonstrates that the growth achieved through the quest has lasting significance."
-  - question: "True or False: All quest narratives follow the exact same structure with identical story beats."
-    answer: false
-    explanation: "This is false. While the monomyth provides a pattern, specific stories vary significantly in how they manifest that pattern and what details they emphasize."
+- question: Why does the monomyth pattern appear across diverse cultures and time periods in children's and YA literature?
+  type: multiple-choice
+  options:
+  - It is the only correct narrative structure
+  - The pattern reflects archetypal human experiences of growth, challenge, and transformation that transcend cultural boundaries
+  - Cultures copy each other's stories without variation
+  - It is a recent invention that has suddenly become universal
+  answer: 1
+  explanation: The monomyth's persistence suggests it maps onto fundamental human experiences—growth, facing challenges, becoming stronger—that resonate across cultures.
 
-short-answer:
-  - question: "How does the monomyth structure specifically serve the coming-of-age purposes central to children's and YA literature?"
-    explanation: "The monomyth maps perfectly onto adolescent development: departure from childhood (the call to adventure, leaving the ordinary world) mirrors leaving home; trials and encounters with powerful figures (mentors and obstacles) mirror navigating social relationships and authority; the central challenge represents confronting one's limitations and discovering capability; return and integration represent coming back to ordinary life transformed and capable. The pattern is psychologically powerful because it legitimizes and gives narrative form to the actual experiences adolescents undergo. By structuring YA narratives according to the monomyth, authors acknowledge that adolescence involves genuine transformation—not minor changes but fundamental reorganization of self. This validation helps young readers understand their own transitions as significant and meaningful. Additionally, the monomyth's emphasis on transformation—that facing challenges changes you fundamentally—teaches adolescents that their development isn't passive receiving of experience but active engagement that shapes who they become."
+- question: 'True or False: In the monomyth, the protagonist''s return to the ordinary world is insignificant compared to the central challenge.'
+  type: true-false
+  answer: false
+  explanation: This is false. The return and integration of transformation into ordinary life is crucial—it demonstrates that the growth achieved through the quest has lasting significance.
+
+- question: 'True or False: All quest narratives follow the exact same structure with identical story beats.'
+  type: true-false
+  answer: false
+  explanation: This is false. While the monomyth provides a pattern, specific stories vary significantly in how they manifest that pattern and what details they emphasize.
+
+- question: How does the monomyth structure specifically serve the coming-of-age purposes central to children's and YA literature?
+  type: short-answer
+  explanation: 'The monomyth maps perfectly onto adolescent development: departure from childhood (the call to adventure, leaving the ordinary world) mirrors leaving home; trials and encounters with powerful figures (mentors and obstacles) mirror navigating social relationships and authority; the central challenge represents confronting one''s limitations and discovering capability; return and integration represent coming back to ordinary life transformed and capable. The pattern is psychologically powerful because it legitimizes and gives narrative form to the actual experiences adolescents undergo. By structuring YA narratives according to the monomyth, authors acknowledge that adolescence involves genuine transformation—not minor changes but fundamental reorganization of self. This validation helps young readers understand their own transitions as significant and meaningful. Additionally, the monomyth''s emphasis on transformation—that facing challenges changes you fundamentally—teaches adolescents that their development isn''t passive receiving of experience but active engagement that shapes who they become.'
 ```
 
 ## Explainer

@@ -25,35 +25,39 @@ LGBTQ+ representation in YA has expanded dramatically in recent years, with majo
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What does LGBTQ+ representation in YA literature primarily accomplish for young readers?"
-    options:
-      - "LGBTQ+ YA serves no purpose"
-      - "It provides representation and validation for young readers exploring their own identity, models possible coming-of-age experiences, and affirms that LGBTQ+ identities are normal and worthy of narrative attention"
-      - "LGBTQ+ YA is controversial and inappropriate"
-      - "Representation doesn't matter in literature"
-    answer: 1
-    explanation: "LGBTQ+ YA serves crucial functions: providing mirrors for readers seeing themselves reflected, windows for readers encountering different identities, and validation that these identities deserve literary exploration."
-  - question: "How has LGBTQ+ representation in YA evolved beyond simple coming-out narratives?"
-    options:
-      - "All LGBTQ+ YA is still only coming-out stories"
-      - "Contemporary LGBTQ+ YA increasingly features complex narratives where sexuality/gender is one aspect of a character's identity among many, rather than the singular focus, and explores diverse identity experiences"
-      - "LGBTQ+ YA hasn't evolved"
-      - "Coming-out stories are the only valid LGBTQ+ narratives"
-    answer: 1
-    explanation: "While coming-out stories remain important, contemporary LGBTQ+ YA shows greater range: characters navigating multiple identities, existing in LGBTQ+ communities, facing complex relationship and social dynamics beyond disclosure narrative."
+- question: What does LGBTQ+ representation in YA literature primarily accomplish for young readers?
+  type: multiple-choice
+  options:
+  - LGBTQ+ YA serves no purpose
+  - It provides representation and validation for young readers exploring their own identity, models possible coming-of-age experiences, and affirms that LGBTQ+ identities are normal and worthy of narrative attention
+  - LGBTQ+ YA is controversial and inappropriate
+  - Representation doesn't matter in literature
+  answer: 1
+  explanation: 'LGBTQ+ YA serves crucial functions: providing mirrors for readers seeing themselves reflected, windows for readers encountering different identities, and validation that these identities deserve literary exploration.'
 
-true-false:
-  - question: "True or False: LGBTQ+ adolescents benefit from seeing LGBTQ+ characters in YA literature."
-    answer: true
-    explanation: "True. Research and reader testimony both confirm that representation in literature validates identity, provides models for navigating identity, and supports psychological wellbeing of LGBTQ+ young readers."
-  - question: "True or False: All LGBTQ+ YA should center coming-out as the primary narrative arc."
-    answer: false
-    explanation: "False. While coming-out stories serve important functions, diverse narrative approaches—characters already out, exploring identity aspects beyond disclosure, navigating LGBTQ+ community—are equally valuable."
+- question: How has LGBTQ+ representation in YA evolved beyond simple coming-out narratives?
+  type: multiple-choice
+  options:
+  - All LGBTQ+ YA is still only coming-out stories
+  - Contemporary LGBTQ+ YA increasingly features complex narratives where sexuality/gender is one aspect of a character's identity among many, rather than the singular focus, and explores diverse identity experiences
+  - LGBTQ+ YA hasn't evolved
+  - Coming-out stories are the only valid LGBTQ+ narratives
+  answer: 1
+  explanation: 'While coming-out stories remain important, contemporary LGBTQ+ YA shows greater range: characters navigating multiple identities, existing in LGBTQ+ communities, facing complex relationship and social dynamics beyond disclosure narrative.'
 
-short-answer:
-  - question: "What are the strengths and limitations of coming-out narratives in YA? What other narrative approaches to LGBTQ+ identity might serve different reader needs?"
-    explanation: "Coming-out narratives serve important functions: they model the process of recognizing and disclosing identity, they validate that disclosure is significant and understandable, they can help readers navigate their own coming-out. Yet coming-out narratives center disclosure as the primary life event, which can overemphasize internal struggle and minimize the reality that many LGBTQ+ people exist comfortably in their identity without trauma-focused narratives. Alternative approaches might include: characters already out navigating relationships and social dynamics; characters exploring identity aspects beyond binary coming-out; stories centered on LGBTQ+ community and belonging; narratives where LGBTQ+ identity is one aspect among many rather than singular focus. Different readers need different narratives: someone questioning their identity might benefit from coming-out narratives; someone already out might need narratives showing queer joy, community, belonging; someone navigating family response might need narratives depicting parental acceptance. The point is recognizing that diverse LGBTQ+ narratives serve diverse reader needs."
+- question: 'True or False: LGBTQ+ adolescents benefit from seeing LGBTQ+ characters in YA literature.'
+  type: true-false
+  answer: true
+  explanation: True. Research and reader testimony both confirm that representation in literature validates identity, provides models for navigating identity, and supports psychological wellbeing of LGBTQ+ young readers.
+
+- question: 'True or False: All LGBTQ+ YA should center coming-out as the primary narrative arc.'
+  type: true-false
+  answer: false
+  explanation: False. While coming-out stories serve important functions, diverse narrative approaches—characters already out, exploring identity aspects beyond disclosure, navigating LGBTQ+ community—are equally valuable.
+
+- question: What are the strengths and limitations of coming-out narratives in YA? What other narrative approaches to LGBTQ+ identity might serve different reader needs?
+  type: short-answer
+  explanation: 'Coming-out narratives serve important functions: they model the process of recognizing and disclosing identity, they validate that disclosure is significant and understandable, they can help readers navigate their own coming-out. Yet coming-out narratives center disclosure as the primary life event, which can overemphasize internal struggle and minimize the reality that many LGBTQ+ people exist comfortably in their identity without trauma-focused narratives. Alternative approaches might include: characters already out navigating relationships and social dynamics; characters exploring identity aspects beyond binary coming-out; stories centered on LGBTQ+ community and belonging; narratives where LGBTQ+ identity is one aspect among many rather than singular focus. Different readers need different narratives: someone questioning their identity might benefit from coming-out narratives; someone already out might need narratives showing queer joy, community, belonging; someone navigating family response might need narratives depicting parental acceptance. The point is recognizing that diverse LGBTQ+ narratives serve diverse reader needs.'
 ```
 
 ## Explainer

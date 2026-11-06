@@ -23,36 +23,39 @@ Arthur C. Clarke's fiction combines hard scientific extrapolation with themes of
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "How does Clarke combine scientific rigor with spiritual or transcendent themes?"
-    options:
-      - "He abandons scientific logic when exploring transcendent experiences"
-      - "He uses hard scientific extrapolation as the framework for exploring cosmic transcendence and wonder"
-      - "He treats science and spirituality as completely separate domains"
-      - "He rejects scientific inquiry in favor of mystical revelation"
-    correct_answer: 1
-    explanation: "The core idea states Clarke 'combines hard scientific extrapolation with themes of cosmic transcendence,' showing that rigor and wonder work together in his fiction rather than in opposition."
-  - type: multiple-choice
-    question: "What aspect of humanity's place in the universe is emphasized in Clarke's work?"
-    options:
-      - "Humans are destined to dominate all other species"
-      - "Humanity's insignificance and limited understanding in a vast universe"
-      - "Earth-based civilization is the peak of cosmic evolution"
-      - "Space exploration is merely a practical engineering problem"
-    correct_answer: 1
-    explanation: "The core idea mentions 'humanity's place in a vast universe' and 'the limits of human understanding,' emphasizing perspective and constraint rather than dominance or supremacy."
-  - type: true-false
-    question: "In Clarke's fiction, scientific understanding and a sense of wonder are opposing forces that readers must choose between."
-    correct_answer: false
-    explanation: "The core idea explicitly shows Clarke 'combines hard scientific extrapolation with themes of cosmic transcendence,' indicating these work together to create a unified vision rather than opposing alternatives."
-  - type: true-false
-    question: "Clarke's encounters with advanced alien intelligence are designed to show the limits of human understanding when facing vastly superior beings."
-    correct_answer: true
-    explanation: "The core idea identifies 'humanity's encounter with advanced alien intelligence' and 'the limits of human understanding' as central themes, suggesting these encounters function to reveal human limitations."
-  - type: short-answer
-    question: "Why does Clarke's emphasis on the 'spiritual dimensions of scientific discovery' avoid becoming anti-scientific or mystical?"
-    explanation: "Good answers should explain that Clarke's spirituality emerges from the rational contemplation of scientific discoveries—the wonder we feel when understanding the cosmos, not from rejecting understanding. Wonder at the vastness and complexity of the universe is a rational response to genuine knowledge, not an escape into mysticism."
+- question: How does Clarke combine scientific rigor with spiritual or transcendent themes?
+  type: multiple-choice
+  options:
+  - He abandons scientific logic when exploring transcendent experiences
+  - He uses hard scientific extrapolation as the framework for exploring cosmic transcendence and wonder
+  - He treats science and spirituality as completely separate domains
+  - He rejects scientific inquiry in favor of mystical revelation
+  answer: 1
+  explanation: The core idea states Clarke 'combines hard scientific extrapolation with themes of cosmic transcendence,' showing that rigor and wonder work together in his fiction rather than in opposition.
+
+- question: What aspect of humanity's place in the universe is emphasized in Clarke's work?
+  type: multiple-choice
+  options:
+  - Humans are destined to dominate all other species
+  - Humanity's insignificance and limited understanding in a vast universe
+  - Earth-based civilization is the peak of cosmic evolution
+  - Space exploration is merely a practical engineering problem
+  answer: 1
+  explanation: The core idea mentions 'humanity's place in a vast universe' and 'the limits of human understanding,' emphasizing perspective and constraint rather than dominance or supremacy.
+
+- question: In Clarke's fiction, scientific understanding and a sense of wonder are opposing forces that readers must choose between.
+  type: true-false
+  answer: false
+  explanation: The core idea explicitly shows Clarke 'combines hard scientific extrapolation with themes of cosmic transcendence,' indicating these work together to create a unified vision rather than opposing alternatives.
+
+- question: Clarke's encounters with advanced alien intelligence are designed to show the limits of human understanding when facing vastly superior beings.
+  type: true-false
+  answer: true
+  explanation: The core idea identifies 'humanity's encounter with advanced alien intelligence' and 'the limits of human understanding' as central themes, suggesting these encounters function to reveal human limitations.
+
+- question: Why does Clarke's emphasis on the 'spiritual dimensions of scientific discovery' avoid becoming anti-scientific or mystical?
+  type: short-answer
+  explanation: Good answers should explain that Clarke's spirituality emerges from the rational contemplation of scientific discoveries—the wonder we feel when understanding the cosmos, not from rejecting understanding. Wonder at the vastness and complexity of the universe is a rational response to genuine knowledge, not an escape into mysticism.
 ```
 
 ## Explainer

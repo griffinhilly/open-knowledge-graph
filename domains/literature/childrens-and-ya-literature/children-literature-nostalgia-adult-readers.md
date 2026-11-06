@@ -23,35 +23,39 @@ Children's and YA literature read in adulthood triggers powerful nostalgic and e
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What does nostalgia as a reading experience involve when adults encounter children's literature from their past?"
-    options:
-      - "A purely objective analysis of the book's literary qualities"
-      - "A blended emotional and interpretive experience combining memories of reading the book as a child with adult analytical perspective"
-      - "A rejection of the book as childish and immature"
-      - "No emotional response at all"
-    answer: 1
-    explanation: "Nostalgic reading involves simultaneous engagement: the reader accesses memories of childhood reading and emotional experiences while bringing adult analytical capacity to the text, creating layered interpretation."
-  - question: "How might an adult's reinterpretation of a childhood YA favorite reveal shifts in social consciousness or personal understanding?"
-    options:
-      - "It can't—books don't change meaning"
-      - "It might reveal that problematic elements the reader overlooked as a child (stereotypes, problematic relationships, missing representation) become visible through adult perspective, or conversely, that deeper thematic layers become comprehensible"
-      - "Adult readings are always worse than childhood readings"
-      - "Rereading doesn't affect interpretation"
-    answer: 1
-    explanation: "Adult readers bring changed frameworks (increased awareness of gender dynamics, racial representation, relationship patterns) that make previously invisible elements visible, or conversely, bring intellectual maturity to thematic complexity that remained opaque in childhood."
+- question: What does nostalgia as a reading experience involve when adults encounter children's literature from their past?
+  type: multiple-choice
+  options:
+  - A purely objective analysis of the book's literary qualities
+  - A blended emotional and interpretive experience combining memories of reading the book as a child with adult analytical perspective
+  - A rejection of the book as childish and immature
+  - No emotional response at all
+  answer: 1
+  explanation: 'Nostalgic reading involves simultaneous engagement: the reader accesses memories of childhood reading and emotional experiences while bringing adult analytical capacity to the text, creating layered interpretation.'
 
-true-false:
-  - question: "True or False: The contemporary adult readership for YA literature is primarily people who read the books as teenagers and are reading them again nostalgically."
-    answer: false
-    explanation: "False. While nostalgia drives some adult YA reading, substantial portions of the adult YA readership are adults discovering the genre for the first time, not rereading from childhood."
-  - question: "True or False: Nostalgic reading of beloved childhood books can involve both celebration of what made them meaningful and critical recognition of their limitations."
-    answer: true
-    explanation: "True. Readers often maintain affection for books that shaped them while developing critical distance that acknowledges problematic elements or changed perspectives on meaning."
+- question: How might an adult's reinterpretation of a childhood YA favorite reveal shifts in social consciousness or personal understanding?
+  type: multiple-choice
+  options:
+  - It can't—books don't change meaning
+  - It might reveal that problematic elements the reader overlooked as a child (stereotypes, problematic relationships, missing representation) become visible through adult perspective, or conversely, that deeper thematic layers become comprehensible
+  - Adult readings are always worse than childhood readings
+  - Rereading doesn't affect interpretation
+  answer: 1
+  explanation: Adult readers bring changed frameworks (increased awareness of gender dynamics, racial representation, relationship patterns) that make previously invisible elements visible, or conversely, bring intellectual maturity to thematic complexity that remained opaque in childhood.
 
-short-answer:
-  - question: "Describe an experience of rereading a childhood favorite as an adult. What elements seemed different than you remembered? Did you appreciate aspects you didn't notice as a child, or recognize limitations you overlooked?"
-    explanation: "Your answer should reflect the complexity of nostalgic rereading. You might notice that a book you loved for its protagonist's independence now reads as reinforcing certain gender stereotypes; or that a relationship dynamic that seemed romantic as a teenager now looks troubling from an adult perspective. Conversely, you might discover thematic depth about family relationships, or recognize in retrospect why the book mattered to your childhood self even as you now see its limitations. The point is that nostalgia doesn't require uncritical acceptance—it's possible to simultaneously appreciate what a book meant to you developmentally and recognize how your understanding has changed."
+- question: 'True or False: The contemporary adult readership for YA literature is primarily people who read the books as teenagers and are reading them again nostalgically.'
+  type: true-false
+  answer: false
+  explanation: False. While nostalgia drives some adult YA reading, substantial portions of the adult YA readership are adults discovering the genre for the first time, not rereading from childhood.
+
+- question: 'True or False: Nostalgic reading of beloved childhood books can involve both celebration of what made them meaningful and critical recognition of their limitations.'
+  type: true-false
+  answer: true
+  explanation: True. Readers often maintain affection for books that shaped them while developing critical distance that acknowledges problematic elements or changed perspectives on meaning.
+
+- question: Describe an experience of rereading a childhood favorite as an adult. What elements seemed different than you remembered? Did you appreciate aspects you didn't notice as a child, or recognize limitations you overlooked?
+  type: short-answer
+  explanation: Your answer should reflect the complexity of nostalgic rereading. You might notice that a book you loved for its protagonist's independence now reads as reinforcing certain gender stereotypes; or that a relationship dynamic that seemed romantic as a teenager now looks troubling from an adult perspective. Conversely, you might discover thematic depth about family relationships, or recognize in retrospect why the book mattered to your childhood self even as you now see its limitations. The point is that nostalgia doesn't require uncritical acceptance—it's possible to simultaneously appreciate what a book meant to you developmentally and recognize how your understanding has changed.
 ```
 
 ## Explainer

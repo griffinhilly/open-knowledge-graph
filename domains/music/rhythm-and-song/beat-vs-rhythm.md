@@ -33,40 +33,40 @@ Have half the class clap the steady beat while the other half claps the rhythm o
 ## Questions
 
 ```yaml
-- question: "What is the difference between the beat and the rhythm?"
-  type: mc
+- question: What is the difference between the beat and the rhythm?
+  type: multiple-choice
   options:
-    - "The beat is steady while rhythm is the pattern of sounds"
-    - "They are the same thing"
-    - "The rhythm is steady and the beat changes"
-    - "The beat only happens in fast songs"
+  - The beat is steady while rhythm is the pattern of sounds
+  - They are the same thing
+  - The rhythm is steady and the beat changes
+  - The beat only happens in fast songs
   answer: 0
-  explanation: "The beat is the steady, unchanging pulse like a heartbeat, while rhythm is the pattern of long and short sounds that sits on top of it."
+  explanation: The beat is the steady, unchanging pulse like a heartbeat, while rhythm is the pattern of long and short sounds that sits on top of it.
 
-- question: "In a song, can the rhythm and beat ever be different?"
-  type: tf
+- question: In a song, can the rhythm and beat ever be different?
+  type: true-false
   answer: true
-  explanation: "Yes! The beat stays steady, but the rhythm of the words or melody changes. They work together like a clock ticking and music dancing."
+  explanation: Yes! The beat stays steady, but the rhythm of the words or melody changes. They work together like a clock ticking and music dancing.
 
-- question: "If you clap the steady beat while a song plays, what are you clapping?"
-  type: mc
+- question: If you clap the steady beat while a song plays, what are you clapping?
+  type: multiple-choice
   options:
-    - "The melody"
-    - "The rhythm of the words"
-    - "The steady pulse underneath the music"
-    - "The notes in the song"
+  - The melody
+  - The rhythm of the words
+  - The steady pulse underneath the music
+  - The notes in the song
   answer: 2
-  explanation: "You're clapping the steady pulse that underlies everything in the song. It's like the heartbeat of the music."
+  explanation: You're clapping the steady pulse that underlies everything in the song. It's like the heartbeat of the music.
 
-- question: "The rhythm always lines up exactly with the beat."
-  type: tf
+- question: The rhythm always lines up exactly with the beat.
+  type: true-false
   answer: false
-  explanation: "Sometimes the rhythm falls between the beats on purpose, creating interesting patterns. The beat and rhythm are two different layers."
+  explanation: Sometimes the rhythm falls between the beats on purpose, creating interesting patterns. The beat and rhythm are two different layers.
 
-- question: "Describe how you could show the difference between beat and rhythm to a friend using clapping."
-  type: sa
-  answer: "You could clap the steady beat while your friend claps the rhythm of the song's words, then switch."
-  explanation: "A good answer shows understanding that beat and rhythm are separate layers that can be done at the same time, and that switching roles helps people feel the difference."
+- question: Describe how you could show the difference between beat and rhythm to a friend using clapping.
+  type: short-answer
+  answer: You could clap the steady beat while your friend claps the rhythm of the song's words, then switch.
+  explanation: A good answer shows understanding that beat and rhythm are separate layers that can be done at the same time, and that switching roles helps people feel the difference.
 ```
 
 ## Explainer

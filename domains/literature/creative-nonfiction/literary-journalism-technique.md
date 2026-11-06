@@ -30,39 +30,39 @@ Literary journalism applies narrative and stylistic techniques—scene construct
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What makes literary journalism 'literary' despite being journalism?"
+- question: What makes literary journalism 'literary' despite being journalism?
+  type: multiple-choice
   options:
-    - "It includes made-up fictional elements."
-    - "It applies narrative and stylistic techniques to factual reporting, prioritizing reader immersion and literary engagement over summary."
-    - "Literary journalism is not really journalism."
-    - "All journalism is literary."
+  - It includes made-up fictional elements.
+  - It applies narrative and stylistic techniques to factual reporting, prioritizing reader immersion and literary engagement over summary.
+  - Literary journalism is not really journalism.
+  - All journalism is literary.
   answer: 1
-  explanation: "Literary journalism is still grounded in facts and reporting. What's literary is how it's presented—using scene construction, dialogue, characterization, and other narrative techniques to make readers experience events rather than just learn about them."
+  explanation: Literary journalism is still grounded in facts and reporting. What's literary is how it's presented—using scene construction, dialogue, characterization, and other narrative techniques to make readers experience events rather than just learn about them.
 
-- type: multiple-choice
-  question: "How does literary journalism prioritize 'immersion' over 'summary exposition'?"
+- question: How does literary journalism prioritize 'immersion' over 'summary exposition'?
+  type: multiple-choice
   options:
-    - "Immersion is less important than exposition."
-    - "Rather than explaining what happened, literary journalism reconstructs scenes so readers experience the events directly and emotionally."
-    - "Exposition is the same as immersion."
-    - "Literary journalism doesn't use either technique."
+  - Immersion is less important than exposition.
+  - Rather than explaining what happened, literary journalism reconstructs scenes so readers experience the events directly and emotionally.
+  - Exposition is the same as immersion.
+  - Literary journalism doesn't use either technique.
   answer: 1
-  explanation: "Traditional journalism might summarize: 'The hearing was contentious, with both sides expressing strong views.' Literary journalism reconstructs: specific dialogue, physical details, tension in the room—so readers experience the scene directly."
+  explanation: 'Traditional journalism might summarize: ''The hearing was contentious, with both sides expressing strong views.'' Literary journalism reconstructs: specific dialogue, physical details, tension in the room—so readers experience the scene directly.'
 
-- type: true-false
-  statement: "True: In literary journalism, techniques like 'interior access' (showing what characters think) require factual justification—you can only show interior life if you know what someone actually thought."
+- question: 'True: In literary journalism, techniques like ''interior access'' (showing what characters think) require factual justification—you can only show interior life if you know what someone actually thought.'
+  type: true-false
   answer: true
-  explanation: "This is a crucial ethical distinction. Literary journalism can use literary techniques, but not to invent interiority. You need reporting basis for showing what someone thought—interviews, documents, testimony. You can't imagine internal life; you must know it."
+  explanation: This is a crucial ethical distinction. Literary journalism can use literary techniques, but not to invent interiority. You need reporting basis for showing what someone thought—interviews, documents, testimony. You can't imagine internal life; you must know it.
 
-- type: true-false
-  statement: "False: Literary journalism that reconstructs scenes from research should aim for complete accuracy of every detail, including exact dialogue."
+- question: 'False: Literary journalism that reconstructs scenes from research should aim for complete accuracy of every detail, including exact dialogue.'
+  type: true-false
   answer: false
-  explanation: "This is false. While literary journalism must be truthful about events and substance, reconstructing scenes requires some reasonable approximation. Dialogue from memory or notes might not be word-for-word exact but should reflect what was actually said. Writers should be transparent about what's reconstructed versus directly observed."
+  explanation: This is false. While literary journalism must be truthful about events and substance, reconstructing scenes requires some reasonable approximation. Dialogue from memory or notes might not be word-for-word exact but should reflect what was actually said. Writers should be transparent about what's reconstructed versus directly observed.
 
-- type: short-answer
-  question: "How might a literary journalist report on an event or investigation differently than a traditional journalist? What does literary technique add?"
-  explanation: "A traditional journalist might write: 'Investigators conducted interviews with twelve witnesses over three weeks. Their accounts differed on key details but confirmed the main sequence of events.' A literary journalist might reconstruct one or two pivotal interviews in scene—showing dialogue, setting, tension, the investigator's perception. This creates reader immersion. Traditional journalism reports about investigation; literary journalism lets readers experience it. Literary journalism doesn't just say something is important; through scene and detail, it makes readers feel its importance. This requires both solid reporting and literary skill—the writer must have done thorough investigation and then rendered it with narrative craft."
+- question: How might a literary journalist report on an event or investigation differently than a traditional journalist? What does literary technique add?
+  type: short-answer
+  explanation: 'A traditional journalist might write: ''Investigators conducted interviews with twelve witnesses over three weeks. Their accounts differed on key details but confirmed the main sequence of events.'' A literary journalist might reconstruct one or two pivotal interviews in scene—showing dialogue, setting, tension, the investigator''s perception. This creates reader immersion. Traditional journalism reports about investigation; literary journalism lets readers experience it. Literary journalism doesn''t just say something is important; through scene and detail, it makes readers feel its importance. This requires both solid reporting and literary skill—the writer must have done thorough investigation and then rendered it with narrative craft.'
 ```
 
 ## Explainer

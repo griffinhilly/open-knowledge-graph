@@ -37,39 +37,39 @@ Creative nonfiction applies narrative and rhetorical techniques traditionally as
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What is the defining characteristic that distinguishes creative nonfiction from fiction?"
+- question: What is the defining characteristic that distinguishes creative nonfiction from fiction?
+  type: multiple-choice
   options:
-    - "Creative nonfiction uses more literary techniques than fiction."
-    - "Creative nonfiction is grounded in factual, lived experience and observed reality while employing literary craft."
-    - "Fiction uses dialogue; creative nonfiction doesn't."
-    - "Creative nonfiction is less engaging than fiction."
+  - Creative nonfiction uses more literary techniques than fiction.
+  - Creative nonfiction is grounded in factual, lived experience and observed reality while employing literary craft.
+  - Fiction uses dialogue; creative nonfiction doesn't.
+  - Creative nonfiction is less engaging than fiction.
   answer: 1
-  explanation: "Creative nonfiction doesn't reject literary techniques; it uses them while remaining grounded in truth. Fiction can also be beautifully written. The distinction is in the fundamental commitment: creative nonfiction claims that the experiences it describes actually happened. Both forms use craft, but creative nonfiction uses craft in service of truthfulness."
+  explanation: 'Creative nonfiction doesn''t reject literary techniques; it uses them while remaining grounded in truth. Fiction can also be beautifully written. The distinction is in the fundamental commitment: creative nonfiction claims that the experiences it describes actually happened. Both forms use craft, but creative nonfiction uses craft in service of truthfulness.'
 
-- type: multiple-choice
-  question: "How does creative nonfiction handle the tension between 'commitment to truth' and 'employing techniques that shape how truth is perceived'?"
+- question: How does creative nonfiction handle the tension between 'commitment to truth' and 'employing techniques that shape how truth is perceived'?
+  type: multiple-choice
   options:
-    - "It ignores the tension and claims to be purely objective."
-    - "It acknowledges the tension: truth is factual, but how we present truth is necessarily shaped by perspective, voice, and craft choices."
-    - "It rejects literary technique in favor of pure documentation."
-    - "It prioritizes technique over truth, making it closer to fiction."
+  - It ignores the tension and claims to be purely objective.
+  - 'It acknowledges the tension: truth is factual, but how we present truth is necessarily shaped by perspective, voice, and craft choices.'
+  - It rejects literary technique in favor of pure documentation.
+  - It prioritizes technique over truth, making it closer to fiction.
   answer: 1
-  explanation: "This is the productive paradox of creative nonfiction. The writer must be truthful about what happened while also using voice, structure, detail selection, and language to create meaning and engagement. These aren't contradictory—they're both essential to the form. Transparency about this shaping is what maintains the truth-claim."
+  explanation: This is the productive paradox of creative nonfiction. The writer must be truthful about what happened while also using voice, structure, detail selection, and language to create meaning and engagement. These aren't contradictory—they're both essential to the form. Transparency about this shaping is what maintains the truth-claim.
 
-- type: true-false
-  statement: "True: Creative nonfiction uses sensory detail and emotional authenticity, which means these can be invented if they create a more engaging story."
+- question: 'True: Creative nonfiction uses sensory detail and emotional authenticity, which means these can be invented if they create a more engaging story.'
+  type: true-false
   answer: false
-  explanation: "Sensory detail and emotion must be based in actual experience and genuine feeling, not invention. A writer might select which details to emphasize and how to describe them for literary effect, but the foundation must be truthful. The commitment to truth means not inventing sensory experience or faking emotional responses."
+  explanation: Sensory detail and emotion must be based in actual experience and genuine feeling, not invention. A writer might select which details to emphasize and how to describe them for literary effect, but the foundation must be truthful. The commitment to truth means not inventing sensory experience or faking emotional responses.
 
-- type: true-false
-  statement: "True: The writer's distinctive voice in creative nonfiction shapes how readers perceive truth, which means the genre acknowledges that no telling of truth is objective or universal."
+- question: 'True: The writer''s distinctive voice in creative nonfiction shapes how readers perceive truth, which means the genre acknowledges that no telling of truth is objective or universal.'
+  type: true-false
   answer: true
-  explanation: "This is a key insight of creative nonfiction as a form. All writing is perspectival—shaped by the writer's position, experience, and voice. Creative nonfiction is distinctive partly because it's honest about this rather than pretending to objectivity. The writer's voice isn't a limitation on truth; it's the condition through which truth is known and communicated."
+  explanation: This is a key insight of creative nonfiction as a form. All writing is perspectival—shaped by the writer's position, experience, and voice. Creative nonfiction is distinctive partly because it's honest about this rather than pretending to objectivity. The writer's voice isn't a limitation on truth; it's the condition through which truth is known and communicated.
 
-- type: short-answer
-  question: "How might two different creative nonfiction writers tell truthfully about the same experience (say, attending a protest) in very different ways, and what would make both accounts valid creative nonfiction?"
-  explanation: "One writer might emphasize the sensory chaos of the moment—the noise, the crowd, the physical risk, their fear. Another might emphasize the political significance, the historical resonance, the community formed. One might use visceral prose; another might use spare, analytical language. Both could be describing the same protest, truthfully, but creating different meaning through voice and focus. Both are valid creative nonfiction because each writer truthfully represents their perspective and experience while using craft to create engagement and significance. Creative nonfiction doesn't require a single 'correct' telling; it requires truthfulness to perspective within imaginative presentation."
+- question: How might two different creative nonfiction writers tell truthfully about the same experience (say, attending a protest) in very different ways, and what would make both accounts valid creative nonfiction?
+  type: short-answer
+  explanation: One writer might emphasize the sensory chaos of the moment—the noise, the crowd, the physical risk, their fear. Another might emphasize the political significance, the historical resonance, the community formed. One might use visceral prose; another might use spare, analytical language. Both could be describing the same protest, truthfully, but creating different meaning through voice and focus. Both are valid creative nonfiction because each writer truthfully represents their perspective and experience while using craft to create engagement and significance. Creative nonfiction doesn't require a single 'correct' telling; it requires truthfulness to perspective within imaginative presentation.
 ```
 
 ## Explainer

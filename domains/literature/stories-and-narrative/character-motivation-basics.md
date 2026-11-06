@@ -36,35 +36,40 @@ For each main character in a story, identify: What do they want? What do they fe
 ## Questions
 
 ```yaml
-- question: "A character steals food from a market. A reader might assume the motivation is 'wanting to eat.' However, it's revealed the character has money to buy food but steals anyway. What deeper motivation might explain this choice?"
+- question: A character steals food from a market. A reader might assume the motivation is 'wanting to eat.' However, it's revealed the character has money to buy food but steals anyway. What deeper motivation might explain this choice?
+  type: multiple-choice
   options:
-    - "The character is just evil and enjoys stealing"
-    - "The character wants the thrill of getting away with something forbidden, or is driven by pride/desperation to prove they can survive without relying on others"
-    - "The character is confused and doesn't understand how stores work"
-    - "The surface motivation (wanting food) is the only real motivation"
+  - The character is just evil and enjoys stealing
+  - The character wants the thrill of getting away with something forbidden, or is driven by pride/desperation to prove they can survive without relying on others
+  - The character is confused and doesn't understand how stores work
+  - The surface motivation (wanting food) is the only real motivation
   answer: 1
-  explanation: "Surface wants (food) and deeper motivations (pride, rebellion, proving self-sufficiency) are different. Characters' true motivations often lie beneath obvious wants. Understanding these deeper drives makes character behavior meaningful rather than random."
+  explanation: Surface wants (food) and deeper motivations (pride, rebellion, proving self-sufficiency) are different. Characters' true motivations often lie beneath obvious wants. Understanding these deeper drives makes character behavior meaningful rather than random.
 
-- question: "A student character works extremely hard to earn perfect grades, sacrifices social time, and becomes anxious before tests. Which statement best explains the importance of understanding the motivation beneath the surface behavior?"
+- question: A student character works extremely hard to earn perfect grades, sacrifices social time, and becomes anxious before tests. Which statement best explains the importance of understanding the motivation beneath the surface behavior?
+  type: multiple-choice
   options:
-    - "Understanding motivation requires knowing that wanting good grades is obviously the motivation"
-    - "The real motivation might be fear of disappointing parents, need to prove self-worth, or desire to escape a difficult home situation—understanding this makes the character's anxiety and choices understandable rather than just seeing them as 'trying hard'"
-    - "Motivation doesn't matter; what matters is that the character gets good grades"
-    - "Understanding motivation only applies to bad characters, not to students studying hard"
+  - Understanding motivation requires knowing that wanting good grades is obviously the motivation
+  - The real motivation might be fear of disappointing parents, need to prove self-worth, or desire to escape a difficult home situation—understanding this makes the character's anxiety and choices understandable rather than just seeing them as 'trying hard'
+  - Motivation doesn't matter; what matters is that the character gets good grades
+  - Understanding motivation only applies to bad characters, not to students studying hard
   answer: 1
-  explanation: "Motivation explains not just WHAT a character does, but WHY and WHAT IT MEANS. A character who studies to prove worth behaves differently from one who studies because they enjoy learning. Same action, different motivation, different character meaning."
+  explanation: Motivation explains not just WHAT a character does, but WHY and WHAT IT MEANS. A character who studies to prove worth behaves differently from one who studies because they enjoy learning. Same action, different motivation, different character meaning.
 
-- question: "True or False: If a character's motivation is not directly stated, it must not be part of the story."
+- question: 'True or False: If a character''s motivation is not directly stated, it must not be part of the story.'
+  type: true-false
   answer: false
-  explanation: "Many of the most important motivations are inferred from actions, dialogue, and choices rather than stated directly. Readers discover and interpret character motivation by paying attention to patterns—what the character repeatedly chooses, what they protect, what makes them angry or afraid."
+  explanation: Many of the most important motivations are inferred from actions, dialogue, and choices rather than stated directly. Readers discover and interpret character motivation by paying attention to patterns—what the character repeatedly chooses, what they protect, what makes them angry or afraid.
 
-- question: "True or False: A well-written character can have multiple, even conflicting motivations at the same time."
+- question: 'True or False: A well-written character can have multiple, even conflicting motivations at the same time.'
+  type: true-false
   answer: true
-  explanation: "Real people have competing desires. A character might want to be brave (motivation 1) and also want to stay safe (motivation 2). A character might want revenge (motivation 1) and want to be good (motivation 2). Internal conflict from competing motivations makes characters feel human and complex."
+  explanation: Real people have competing desires. A character might want to be brave (motivation 1) and also want to stay safe (motivation 2). A character might want revenge (motivation 1) and want to be good (motivation 2). Internal conflict from competing motivations makes characters feel human and complex.
 
-- question: "A character in a story says 'I want to win the competition' and works hard toward that goal. However, when they have the opportunity to win, they help their rival instead, losing the competition. Is 'wanting to win' the character's real motivation? Explain what this action reveals about their deeper motivations."
-  answer: "No, 'wanting to win' is not the character's deepest motivation, or it is outweighed by a stronger motivation. The action of helping the rival—sacrificing the surface goal—reveals that the character's deeper motivations include caring about their rival's wellbeing, being a good person, or valuing friendship over winning. The action reveals what the character actually values. True motivation is revealed by what we choose when we have to sacrifice something, not just by what we say we want."
-  explanation: "This tests understanding that motivation is revealed through choices and actions, particularly when characters sacrifice surface goals for deeper values. Students should recognize that competing motivations create meaningful character conflict and that actions reveal what characters truly value."
+- question: A character in a story says 'I want to win the competition' and works hard toward that goal. However, when they have the opportunity to win, they help their rival instead, losing the competition. Is 'wanting to win' the character's real motivation? Explain what this action reveals about their deeper motivations.
+  type: short-answer
+  answer: No, 'wanting to win' is not the character's deepest motivation, or it is outweighed by a stronger motivation. The action of helping the rival—sacrificing the surface goal—reveals that the character's deeper motivations include caring about their rival's wellbeing, being a good person, or valuing friendship over winning. The action reveals what the character actually values. True motivation is revealed by what we choose when we have to sacrifice something, not just by what we say we want.
+  explanation: This tests understanding that motivation is revealed through choices and actions, particularly when characters sacrifice surface goals for deeper values. Students should recognize that competing motivations create meaningful character conflict and that actions reveal what characters truly value.
 ```
 
 ## Explainer

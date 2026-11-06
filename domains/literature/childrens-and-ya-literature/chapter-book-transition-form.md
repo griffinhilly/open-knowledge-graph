@@ -29,35 +29,39 @@ Examine series like 'Magic Tree House' and 'Junie B. Jones' that exemplify chapt
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What is the PRIMARY function of chapter divisions in transitional chapter books like 'Magic Tree House'?"
-    options:
-      - "To reduce the total number of words in the book"
-      - "To provide natural stopping points that build reader confidence and allow for reading in manageable segments"
-      - "To eliminate the need for illustrations entirely"
-      - "To signal that the book is intended for adults, not children"
-    answer: 1
-    explanation: "Chapter divisions in transitional chapter books create psychological milestones for emerging readers—each completed chapter feels like an accomplishment, encouraging sustained engagement and regular reading habits."
-  - question: "Why do chapter books maintain some illustrations despite being more text-heavy than picture books?"
-    options:
-      - "To reduce printing costs"
-      - "To support comprehension and provide visual breaks while helping readers transition from heavily illustrated to text-dominant formats"
-      - "Because all children's literature requires illustrations"
-      - "To indicate that the reader has not progressed to full novels yet"
-    answer: 1
-    explanation: "Strategic illustrations in chapter books scaffold the transition to sustained reading by offering visual supports that aid comprehension and reduce fatigue, while preparing readers for the text-only experience of full novels."
+- question: What is the PRIMARY function of chapter divisions in transitional chapter books like 'Magic Tree House'?
+  type: multiple-choice
+  options:
+  - To reduce the total number of words in the book
+  - To provide natural stopping points that build reader confidence and allow for reading in manageable segments
+  - To eliminate the need for illustrations entirely
+  - To signal that the book is intended for adults, not children
+  answer: 1
+  explanation: Chapter divisions in transitional chapter books create psychological milestones for emerging readers—each completed chapter feels like an accomplishment, encouraging sustained engagement and regular reading habits.
 
-true-false:
-  - question: "True or False: Chapter books and early novels are functionally identical forms, with the only difference being arbitrary chapter lengths."
-    answer: false
-    explanation: "False. Chapter books are a deliberately designed transitional form with specific characteristics—shorter chapters, controlled vocabulary, manageable plot complexity, and frequent illustrations—that differ fundamentally from full novels."
-  - question: "True or False: The gradual reduction of illustrations from picture books to chapter books to novels mirrors the cognitive shift from visual to text-based literacy."
-    answer: true
-    explanation: "True. This progression reflects developmental reading growth: children move from relying on images for meaning-making to using context, inference, and sustained attention to construct narrative understanding through text."
+- question: Why do chapter books maintain some illustrations despite being more text-heavy than picture books?
+  type: multiple-choice
+  options:
+  - To reduce printing costs
+  - To support comprehension and provide visual breaks while helping readers transition from heavily illustrated to text-dominant formats
+  - Because all children's literature requires illustrations
+  - To indicate that the reader has not progressed to full novels yet
+  answer: 1
+  explanation: Strategic illustrations in chapter books scaffold the transition to sustained reading by offering visual supports that aid comprehension and reduce fatigue, while preparing readers for the text-only experience of full novels.
 
-short-answer:
-  - question: "How might a chapter book author use chapter length strategically to support the reading development of transitional readers?"
-    explanation: "Chapter length directly affects reader stamina and success. Early chapters in a series might be quite short (3-5 pages) to build confidence and create frequent 'victory moments,' while later chapters gradually lengthen as the reader's attention span and decoding fluency develop. Shorter chapters also provide natural stopping points for read-aloud sessions, making the experience sustainable for busy families. An author writing for transitional readers understands that even small achievements—finishing a chapter—motivate continued reading and foster the habit formation crucial for becoming an independent reader."
+- question: 'True or False: Chapter books and early novels are functionally identical forms, with the only difference being arbitrary chapter lengths.'
+  type: true-false
+  answer: false
+  explanation: False. Chapter books are a deliberately designed transitional form with specific characteristics—shorter chapters, controlled vocabulary, manageable plot complexity, and frequent illustrations—that differ fundamentally from full novels.
+
+- question: 'True or False: The gradual reduction of illustrations from picture books to chapter books to novels mirrors the cognitive shift from visual to text-based literacy.'
+  type: true-false
+  answer: true
+  explanation: 'True. This progression reflects developmental reading growth: children move from relying on images for meaning-making to using context, inference, and sustained attention to construct narrative understanding through text.'
+
+- question: How might a chapter book author use chapter length strategically to support the reading development of transitional readers?
+  type: short-answer
+  explanation: Chapter length directly affects reader stamina and success. Early chapters in a series might be quite short (3-5 pages) to build confidence and create frequent 'victory moments,' while later chapters gradually lengthen as the reader's attention span and decoding fluency develop. Shorter chapters also provide natural stopping points for read-aloud sessions, making the experience sustainable for busy families. An author writing for transitional readers understands that even small achievements—finishing a chapter—motivate continued reading and foster the habit formation crucial for becoming an independent reader.
 ```
 
 ## Explainer

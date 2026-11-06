@@ -26,35 +26,39 @@ C.S. Lewis's Narnia series employs allegorical structures where fantasy adventur
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What does Aslan represent allegorically in the Narnia series?"
-    options:
-      - "A simple magical creature with no deeper meaning"
-      - "A Christ-figure embodying redemptive sacrifice, divine authority, and moral righteousness"
-      - "An evil force the heroes must defeat"
-      - "A morally ambiguous character with no clear meaning"
-    answer: 1
-    explanation: "Aslan functions allegorically as Christ—his voluntary sacrifice for Edmund, his resurrection, and his role as moral arbiter throughout the series establish the Christian theological framework underlying the fantasy narrative."
-  - question: "What is the critical debate about allegory in Lewis's Narnia?"
-    options:
-      - "There is no debate—Narnia is universally praised"
-      - "Whether the allegorical structure serves the fantasy adventure or constrains it by subordinating narrative logic to ideological instruction"
-      - "Allegory is never used in children's literature"
-      - "Lewis invented allegory"
-    answer: 1
-    explanation: "Critics disagree about whether Narnia's allegorical structure enhances the fantasy by adding philosophical depth or constrains it by prioritizing Christian messaging over narrative coherence. The question is whether the fantasy serves the allegory or the allegory serves the fantasy."
+- question: What does Aslan represent allegorically in the Narnia series?
+  type: multiple-choice
+  options:
+  - A simple magical creature with no deeper meaning
+  - A Christ-figure embodying redemptive sacrifice, divine authority, and moral righteousness
+  - An evil force the heroes must defeat
+  - A morally ambiguous character with no clear meaning
+  answer: 1
+  explanation: Aslan functions allegorically as Christ—his voluntary sacrifice for Edmund, his resurrection, and his role as moral arbiter throughout the series establish the Christian theological framework underlying the fantasy narrative.
 
-true-false:
-  - question: "True or False: The Narnia series was deliberately designed to convey Christian theological concepts to child readers."
-    answer: true
-    explanation: "True. Lewis was intentionally using fantasy narrative as a vehicle for theological instruction, introducing Christian concepts like redemption, sacrifice, and moral order through allegorical fantasy."
-  - question: "True or False: Lewis's Narnia books have had no significant influence on subsequent children's fantasy literature."
-    answer: false
-    explanation: "False. Narnia fundamentally shaped children's high fantasy—many contemporary fantasy authors cite Lewis as an influence and employ similar allegorical or mythological structures."
+- question: What is the critical debate about allegory in Lewis's Narnia?
+  type: multiple-choice
+  options:
+  - There is no debate—Narnia is universally praised
+  - Whether the allegorical structure serves the fantasy adventure or constrains it by subordinating narrative logic to ideological instruction
+  - Allegory is never used in children's literature
+  - Lewis invented allegory
+  answer: 1
+  explanation: Critics disagree about whether Narnia's allegorical structure enhances the fantasy by adding philosophical depth or constrains it by prioritizing Christian messaging over narrative coherence. The question is whether the fantasy serves the allegory or the allegory serves the fantasy.
 
-short-answer:
-  - question: "Explain how 'The Lion, the Witch and the Wardrobe' functions simultaneously as a fantasy adventure and as allegorical Christian narrative. What meanings does the allegory add, and what tensions might arise between the adventure narrative and the theological instruction?"
-    explanation: "The book works on two levels: As adventure, it's a compelling story of children entering a magical world, encountering danger, and saving the land through courage and loyalty. As allegory, Edmund's betrayal parallels human sin, the White Witch represents evil/Satan, and Aslan's voluntary death and resurrection enacts the Crucifixion and Resurrection. The allegory adds theological weight and moral instruction—children reading it encounter Christian concepts without explicit preaching. However, tensions can arise: the adventure narrative might be constrained by theological requirements (Aslan must die to save Edmund, whether or not this makes pure narrative sense); magical rules might feel arbitrary if they serve allegorical more than narrative purposes; characters' actions might reflect theological rather than psychological logic. The critical question is whether readers experience Narnia primarily as adventure enriched by allegory or as theological instruction delivered through fantasy."
+- question: 'True or False: The Narnia series was deliberately designed to convey Christian theological concepts to child readers.'
+  type: true-false
+  answer: true
+  explanation: True. Lewis was intentionally using fantasy narrative as a vehicle for theological instruction, introducing Christian concepts like redemption, sacrifice, and moral order through allegorical fantasy.
+
+- question: 'True or False: Lewis''s Narnia books have had no significant influence on subsequent children''s fantasy literature.'
+  type: true-false
+  answer: false
+  explanation: False. Narnia fundamentally shaped children's high fantasy—many contemporary fantasy authors cite Lewis as an influence and employ similar allegorical or mythological structures.
+
+- question: Explain how 'The Lion, the Witch and the Wardrobe' functions simultaneously as a fantasy adventure and as allegorical Christian narrative. What meanings does the allegory add, and what tensions might arise between the adventure narrative and the theological instruction?
+  type: short-answer
+  explanation: 'The book works on two levels: As adventure, it''s a compelling story of children entering a magical world, encountering danger, and saving the land through courage and loyalty. As allegory, Edmund''s betrayal parallels human sin, the White Witch represents evil/Satan, and Aslan''s voluntary death and resurrection enacts the Crucifixion and Resurrection. The allegory adds theological weight and moral instruction—children reading it encounter Christian concepts without explicit preaching. However, tensions can arise: the adventure narrative might be constrained by theological requirements (Aslan must die to save Edmund, whether or not this makes pure narrative sense); magical rules might feel arbitrary if they serve allegorical more than narrative purposes; characters'' actions might reflect theological rather than psychological logic. The critical question is whether readers experience Narnia primarily as adventure enriched by allegory or as theological instruction delivered through fantasy.'
 ```
 
 ## Explainer

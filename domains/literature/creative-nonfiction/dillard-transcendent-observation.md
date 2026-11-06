@@ -27,39 +27,39 @@ Dillard merges precise scientific observation with mystical or spiritual reflect
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "How does Dillard's approach combine 'precise scientific observation' with 'mystical or spiritual reflection'?"
+- question: How does Dillard's approach combine 'precise scientific observation' with 'mystical or spiritual reflection'?
+  type: multiple-choice
   options:
-    - "She separates observation from interpretation, keeping science and spirituality in different sections."
-    - "She begins with exact attention to detail (what is actually there) and allows that attention to spiral into philosophical and spiritual questioning about meaning."
-    - "She uses science to prove spirituality."
-    - "Her work is either scientific or spiritual, not both."
+  - She separates observation from interpretation, keeping science and spirituality in different sections.
+  - She begins with exact attention to detail (what is actually there) and allows that attention to spiral into philosophical and spiritual questioning about meaning.
+  - She uses science to prove spirituality.
+  - Her work is either scientific or spiritual, not both.
   answer: 1
-  explanation: "Dillard's method is distinctive because she doesn't choose between empiricism and transcendence. She starts with acute observation—exact detail about what she's actually seeing—and that attention itself becomes spiritual practice. The observation and the philosophy are not separate; the second flows from the first."
+  explanation: Dillard's method is distinctive because she doesn't choose between empiricism and transcendence. She starts with acute observation—exact detail about what she's actually seeing—and that attention itself becomes spiritual practice. The observation and the philosophy are not separate; the second flows from the first.
 
-- type: multiple-choice
-  question: "What does it mean that Dillard's nature writing 'can honor empirical detail while pursuing transcendent experience'?"
+- question: What does it mean that Dillard's nature writing 'can honor empirical detail while pursuing transcendent experience'?
+  type: multiple-choice
   options:
-    - "She makes up spiritual experiences and invents details to support them."
-    - "She finds that close attention to actual, empirical detail of nature can generate experiences and insights beyond the merely factual."
-    - "Empirical detail contradicts transcendence."
-    - "Transcendence requires ignoring scientific fact."
+  - She makes up spiritual experiences and invents details to support them.
+  - She finds that close attention to actual, empirical detail of nature can generate experiences and insights beyond the merely factual.
+  - Empirical detail contradicts transcendence.
+  - Transcendence requires ignoring scientific fact.
   answer: 1
-  explanation: "This is the paradox Dillard resolves. By paying close attention to actual nature (the real world), she finds that understanding opens into mystery and meaning. Empiricism and transcendence are not opposites; transcendence can come through deep empirical engagement."
+  explanation: This is the paradox Dillard resolves. By paying close attention to actual nature (the real world), she finds that understanding opens into mystery and meaning. Empiricism and transcendence are not opposites; transcendence can come through deep empirical engagement.
 
-- type: true-false
-  statement: "True: Dillard's practice of 'spiraling from detail to philosophical questioning' assumes that careful observation naturally leads to larger truths."
+- question: 'True: Dillard''s practice of ''spiraling from detail to philosophical questioning'' assumes that careful observation naturally leads to larger truths.'
+  type: true-false
   answer: true
-  explanation: "This is foundational to her approach. She assumes that if you pay sufficient attention to what's actually there, the particular detail will open into universal questions. A leaf, observed precisely, spirals into meditation on time and mortality. The specific is the doorway to the universal."
+  explanation: This is foundational to her approach. She assumes that if you pay sufficient attention to what's actually there, the particular detail will open into universal questions. A leaf, observed precisely, spirals into meditation on time and mortality. The specific is the doorway to the universal.
 
-- type: true-false
-  statement: "False: Dillard's interest in transcendence means she is writing theology or mysticism, not nature writing."
+- question: 'False: Dillard''s interest in transcendence means she is writing theology or mysticism, not nature writing.'
+  type: true-false
   answer: false
-  explanation: "This is false. Dillard writes nature writing—she's describing observed reality, landscape, creatures. The transcendence emerges from that observation; it's not imposed from outside. She's demonstrating that nature writing need not be merely descriptive or documentary. It can be spiritually significant while remaining grounded in what is actually there."
+  explanation: This is false. Dillard writes nature writing—she's describing observed reality, landscape, creatures. The transcendence emerges from that observation; it's not imposed from outside. She's demonstrating that nature writing need not be merely descriptive or documentary. It can be spiritually significant while remaining grounded in what is actually there.
 
-- type: short-answer
-  question: "How does Dillard's method challenge the assumption that scientific accuracy and spiritual meaning are incompatible in nature writing?"
-  explanation: "The assumption is that you must choose: either accurate scientific description (which is objective and mechanical) or spiritual interpretation (which is subjective and transcendent). Dillard shows that this is a false choice. By beginning with the most careful scientific observation possible—seeing exactly what is there—and allowing that attention to open into wonder, she demonstrates that transcendence doesn't require abandoning empiricism. Instead, sufficient empirical attention becomes transcendent. Her work suggests that the spiritual and the scientific are not enemies but partners. The closer you look at actual nature, the more mystery you find. Transcendence doesn't come despite the facts; it comes through them."
+- question: How does Dillard's method challenge the assumption that scientific accuracy and spiritual meaning are incompatible in nature writing?
+  type: short-answer
+  explanation: 'The assumption is that you must choose: either accurate scientific description (which is objective and mechanical) or spiritual interpretation (which is subjective and transcendent). Dillard shows that this is a false choice. By beginning with the most careful scientific observation possible—seeing exactly what is there—and allowing that attention to open into wonder, she demonstrates that transcendence doesn''t require abandoning empiricism. Instead, sufficient empirical attention becomes transcendent. Her work suggests that the spiritual and the scientific are not enemies but partners. The closer you look at actual nature, the more mystery you find. Transcendence doesn''t come despite the facts; it comes through them.'
 ```
 
 ## Explainer

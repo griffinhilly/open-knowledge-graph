@@ -31,36 +31,39 @@ Read Scott Westerfeld's Leviathan trilogy or Cherie Priest's Boneshaker. Notice 
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What technological divergence characterizes steampunk alternate histories?"
-    options:
-      - "Electricity developed earlier than steam technology"
-      - "Steam power rather than electricity dominates technology development"
-      - "Nuclear power becomes dominant in the 19th century"
-      - "Magic replaces all technological development"
-    correct_answer: 1
-    explanation: "The core idea states that steampunk 'imagines alternative histories where steam power rather than electricity dominates technology development.'"
-  - type: multiple-choice
-    question: "What aesthetic and temporal period does steampunk typically combine with advanced steam technology?"
-    options:
-      - "Modern contemporary aesthetics and current era"
-      - "Medieval fantasy setting with modern technology"
-      - "19th-century aesthetics (Victorian dress, mechanical clockwork, airships)"
-      - "Far-future space-age aesthetics"
-    correct_answer: 2
-    explanation: "The core idea states that steampunk features '19th-century aesthetics (Victorian dress, mechanical clockwork, airships) combined with advanced steam-powered technology.'"
-  - type: true-false
-    question: "Steampunk technology is consistent with historical steam-power limitations and capabilities."
-    correct_answer: false
-    explanation: "The core idea describes steampunk as 'creating anachronistic worlds' where steam power performs feats (like powering massive airships) beyond historical plausibility, indicating the technology is fantastical."
-  - type: true-false
-    question: "Steampunk allows exploration of industrial-era themes such as colonialism and class conflict."
-    correct_answer: true
-    explanation: "The core idea explicitly states that steampunk allows 'exploration of industrial-era themes, colonialism, and class conflict with fantastic, speculative machinery.'"
-  - type: short-answer
-    question: "How does steampunk's alternate technology create both narrative and aesthetic possibilities?"
-    explanation: "A strong answer should explain that technology choices affect plot (airships change military strategy and exploration possibilities) and visual design (Victorian dress with mechanical accessories, goggles, gears). Students should demonstrate understanding that in steampunk, form and function intertwine—the aesthetic isn't merely decorative but integral to how the world functions."
+- question: What technological divergence characterizes steampunk alternate histories?
+  type: multiple-choice
+  options:
+  - Electricity developed earlier than steam technology
+  - Steam power rather than electricity dominates technology development
+  - Nuclear power becomes dominant in the 19th century
+  - Magic replaces all technological development
+  answer: 1
+  explanation: The core idea states that steampunk 'imagines alternative histories where steam power rather than electricity dominates technology development.'
+
+- question: What aesthetic and temporal period does steampunk typically combine with advanced steam technology?
+  type: multiple-choice
+  options:
+  - Modern contemporary aesthetics and current era
+  - Medieval fantasy setting with modern technology
+  - 19th-century aesthetics (Victorian dress, mechanical clockwork, airships)
+  - Far-future space-age aesthetics
+  answer: 2
+  explanation: The core idea states that steampunk features '19th-century aesthetics (Victorian dress, mechanical clockwork, airships) combined with advanced steam-powered technology.'
+
+- question: Steampunk technology is consistent with historical steam-power limitations and capabilities.
+  type: true-false
+  answer: false
+  explanation: The core idea describes steampunk as 'creating anachronistic worlds' where steam power performs feats (like powering massive airships) beyond historical plausibility, indicating the technology is fantastical.
+
+- question: Steampunk allows exploration of industrial-era themes such as colonialism and class conflict.
+  type: true-false
+  answer: true
+  explanation: The core idea explicitly states that steampunk allows 'exploration of industrial-era themes, colonialism, and class conflict with fantastic, speculative machinery.'
+
+- question: How does steampunk's alternate technology create both narrative and aesthetic possibilities?
+  type: short-answer
+  explanation: A strong answer should explain that technology choices affect plot (airships change military strategy and exploration possibilities) and visual design (Victorian dress with mechanical accessories, goggles, gears). Students should demonstrate understanding that in steampunk, form and function intertwine—the aesthetic isn't merely decorative but integral to how the world functions.
 ```
 
 ## Explainer

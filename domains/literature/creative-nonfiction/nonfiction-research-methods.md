@@ -27,39 +27,39 @@ Research in creative nonfiction employs diverse methods—archival research, int
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What does 'research shapes narrative perspective and selection' mean?"
+- question: What does 'research shapes narrative perspective and selection' mean?
+  type: multiple-choice
   options:
-    - "Research is unrelated to how narratives are shaped."
-    - "The methods and sources a writer uses influence what story emerges and what perspective it has."
-    - "All research produces the same narrative."
-    - "Researchers should ignore their sources."
+  - Research is unrelated to how narratives are shaped.
+  - The methods and sources a writer uses influence what story emerges and what perspective it has.
+  - All research produces the same narrative.
+  - Researchers should ignore their sources.
   answer: 1
-  explanation: "Different research methods yield different material. Interviews reveal personal perspective. Archives provide historical documentation. Observation provides sensory detail. What sources a writer accesses and emphasizes shapes the resulting narrative."
+  explanation: Different research methods yield different material. Interviews reveal personal perspective. Archives provide historical documentation. Observation provides sensory detail. What sources a writer accesses and emphasizes shapes the resulting narrative.
 
-- type: multiple-choice
-  question: "Why is awareness of 'bias' and 'gaps in knowledge' important in nonfiction research?"
+- question: Why is awareness of 'bias' and 'gaps in knowledge' important in nonfiction research?
+  type: multiple-choice
   options:
-    - "Because research is objective and unbiased."
-    - "Because being alert to your own biases and what you don't know helps you interpret research more honestly."
-    - "Bias doesn't matter in nonfiction."
-    - "All gaps should be filled with invention."
+  - Because research is objective and unbiased.
+  - Because being alert to your own biases and what you don't know helps you interpret research more honestly.
+  - Bias doesn't matter in nonfiction.
+  - All gaps should be filled with invention.
   answer: 1
-  explanation: "Recognizing your biases—what questions you ask, which sources you trust—helps you work with them consciously. Recognizing gaps helps you know the limits of what you can claim. This honesty strengthens rather than weakens nonfiction."
+  explanation: Recognizing your biases—what questions you ask, which sources you trust—helps you work with them consciously. Recognizing gaps helps you know the limits of what you can claim. This honesty strengthens rather than weakens nonfiction.
 
-- type: true-false
-  statement: "True: A nonfiction writer using diverse research methods—interviews, archives, observation, library research—gathers richer material than relying on a single method."
+- question: 'True: A nonfiction writer using diverse research methods—interviews, archives, observation, library research—gathers richer material than relying on a single method.'
+  type: true-false
   answer: true
-  explanation: "Different methods reveal different things. Multiple methods create more complete understanding and allow you to corroborate information from different angles."
+  explanation: Different methods reveal different things. Multiple methods create more complete understanding and allow you to corroborate information from different angles.
 
-- type: true-false
-  statement: "False: A nonfiction writer should try to remain 'objective' and pretend that research methods don't shape narrative."
+- question: 'False: A nonfiction writer should try to remain ''objective'' and pretend that research methods don''t shape narrative.'
+  type: true-false
   answer: false
-  explanation: "This is false. The honest approach is acknowledging how methods shape what emerges. Being transparent about research approach and perspective actually increases credibility."
+  explanation: This is false. The honest approach is acknowledging how methods shape what emerges. Being transparent about research approach and perspective actually increases credibility.
 
-- type: short-answer
-  question: "How might a nonfiction writer approach gathering material for a project about a historical event or community?"
-  explanation: "They might: interview people with knowledge or experience. Research archival materials—letters, documents, photographs. Observe the physical location. Read secondary sources for context. Note how each method reveals different things—interviews reveal personal experience, archives reveal historical documentation, observation reveals current reality, reading reveals interpretations others have made. Recognize biases in each—which people are willing to be interviewed? What documents survived? What locations are accessible? What secondary sources exist? Recognize gaps—what can't you learn from available sources? This layered research builds comprehensive understanding while acknowledging what you don't and can't know."
+- question: How might a nonfiction writer approach gathering material for a project about a historical event or community?
+  type: short-answer
+  explanation: 'They might: interview people with knowledge or experience. Research archival materials—letters, documents, photographs. Observe the physical location. Read secondary sources for context. Note how each method reveals different things—interviews reveal personal experience, archives reveal historical documentation, observation reveals current reality, reading reveals interpretations others have made. Recognize biases in each—which people are willing to be interviewed? What documents survived? What locations are accessible? What secondary sources exist? Recognize gaps—what can''t you learn from available sources? This layered research builds comprehensive understanding while acknowledging what you don''t and can''t know.'
 ```
 
 ## Explainer

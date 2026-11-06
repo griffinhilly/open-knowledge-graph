@@ -26,39 +26,39 @@ Nature writing is a literary tradition combining natural observation with philos
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What defines nature writing as a tradition?"
+- question: What defines nature writing as a tradition?
+  type: multiple-choice
   options:
-    - "Simply describing natural objects and animals."
-    - "Combining observation with philosophical reflection and personal response, exploring what nature means and how humans relate to it."
-    - "Academic study of ecosystems."
-    - "Fiction about nature."
+  - Simply describing natural objects and animals.
+  - Combining observation with philosophical reflection and personal response, exploring what nature means and how humans relate to it.
+  - Academic study of ecosystems.
+  - Fiction about nature.
   answer: 1
-  explanation: "Nature writing is not just description of natural things. It's reflection on what nature means, how humans fit into nature, what we can learn from natural observation. It's the intersection of observation and interpretation."
+  explanation: Nature writing is not just description of natural things. It's reflection on what nature means, how humans fit into nature, what we can learn from natural observation. It's the intersection of observation and interpretation.
 
-- type: multiple-choice
-  question: "What does nature writing 'often question' about humanity's relationship to nature?"
+- question: What does nature writing 'often question' about humanity's relationship to nature?
+  type: multiple-choice
   options:
-    - "Nothing; nature writing just describes nature."
-    - "How humans understand themselves in relation to the natural world, what obligations we have, how we should live."
-    - "Nature has no relationship to humanity."
-    - "These are political questions, not literary ones."
+  - Nothing; nature writing just describes nature.
+  - How humans understand themselves in relation to the natural world, what obligations we have, how we should live.
+  - Nature has no relationship to humanity.
+  - These are political questions, not literary ones.
   answer: 1
-  explanation: "From Thoreau asking what civilized life should look like to Kimmerer exploring reciprocity with nature, nature writing engages with how we relate to the natural world. These are implicit or explicit in the tradition."
+  explanation: From Thoreau asking what civilized life should look like to Kimmerer exploring reciprocity with nature, nature writing engages with how we relate to the natural world. These are implicit or explicit in the tradition.
 
-- type: true-false
-  statement: "True: Nature writing is a tradition that extends from 19th-century writers like Thoreau and Muir to contemporary writers, showing how the genre has evolved."
+- question: 'True: Nature writing is a tradition that extends from 19th-century writers like Thoreau and Muir to contemporary writers, showing how the genre has evolved.'
+  type: true-false
   answer: true
-  explanation: "This is what makes it a tradition. The practices, concerns, and literary strategies developed by earlier nature writers continue to influence contemporary work, even as contemporary writers address contemporary concerns like climate change."
+  explanation: This is what makes it a tradition. The practices, concerns, and literary strategies developed by earlier nature writers continue to influence contemporary work, even as contemporary writers address contemporary concerns like climate change.
 
-- type: true-false
-  statement: "False: Nature writing requires rejecting human concerns and focusing exclusively on nature description."
+- question: 'False: Nature writing requires rejecting human concerns and focusing exclusively on nature description.'
+  type: true-false
   answer: false
-  explanation: "This is false. While nature observation is central, nature writing inherently explores the relationship between human consciousness and nature. It's about what nature means to us, how it shapes us, how we shape it. The human perspective is integral."
+  explanation: This is false. While nature observation is central, nature writing inherently explores the relationship between human consciousness and nature. It's about what nature means to us, how it shapes us, how we shape it. The human perspective is integral.
 
-- type: short-answer
-  question: "How has nature writing evolved as a tradition, from Thoreau through contemporary writers?"
-  explanation: "Thoreau established the form as philosophical inquiry through nature observation—asking what simple living in nature revealed about what humans needed. Muir brought passion and advocacy for preservation. Contemporary nature writers like Dillard bring scientific literacy. Kimmerer brings indigenous perspectives and ethics of reciprocity. Lopez brings narrative complexity and the question of how we tell nature's story. The tradition continues to ask: what do we learn from paying attention to nature? But contemporary writers increasingly address urgent questions: How do we live responsibly in relation to an ecosystem we're destroying? What can indigenous practices teach? How do we write about nature in crisis? The core practices—observation, reflection, personal engagement—remain, but the concerns evolve."
+- question: How has nature writing evolved as a tradition, from Thoreau through contemporary writers?
+  type: short-answer
+  explanation: 'Thoreau established the form as philosophical inquiry through nature observation—asking what simple living in nature revealed about what humans needed. Muir brought passion and advocacy for preservation. Contemporary nature writers like Dillard bring scientific literacy. Kimmerer brings indigenous perspectives and ethics of reciprocity. Lopez brings narrative complexity and the question of how we tell nature''s story. The tradition continues to ask: what do we learn from paying attention to nature? But contemporary writers increasingly address urgent questions: How do we live responsibly in relation to an ecosystem we''re destroying? What can indigenous practices teach? How do we write about nature in crisis? The core practices—observation, reflection, personal engagement—remain, but the concerns evolve.'
 ```
 
 ## Explainer

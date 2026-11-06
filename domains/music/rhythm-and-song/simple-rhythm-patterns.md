@@ -40,40 +40,40 @@ Read simple rhythm patterns from cards using icons or rhythm syllables and clap 
 ## Questions
 
 ```yaml
-- question: "What is a rhythm pattern?"
-  type: mc
+- question: What is a rhythm pattern?
+  type: multiple-choice
   options:
-    - "A way to decorate a song"
-    - "A repeating combination of long and short sounds"
-    - "The speed of the music"
-    - "A musical instrument"
+  - A way to decorate a song
+  - A repeating combination of long and short sounds
+  - The speed of the music
+  - A musical instrument
   answer: 1
-  explanation: "A rhythm pattern is a combination of long and short sounds that repeats and creates the structure of a song."
+  explanation: A rhythm pattern is a combination of long and short sounds that repeats and creates the structure of a song.
 
-- question: "All songs use the same rhythm pattern."
-  type: tf
+- question: All songs use the same rhythm pattern.
+  type: true-false
   answer: false
-  explanation: "Every song has its own unique rhythm patterns that make it sound the way it does. This is why different songs feel so different."
+  explanation: Every song has its own unique rhythm patterns that make it sound the way it does. This is why different songs feel so different.
 
-- question: "If you learn to clap one simple rhythm pattern, you could then play it on different instruments."
-  type: mc
+- question: If you learn to clap one simple rhythm pattern, you could then play it on different instruments.
+  type: multiple-choice
   options:
-    - "True, the pattern stays the same no matter what makes the sound"
-    - "False, each instrument needs a different pattern"
-    - "True, but only on drums"
-    - "False, you can only clap patterns"
+  - True, the pattern stays the same no matter what makes the sound
+  - False, each instrument needs a different pattern
+  - True, but only on drums
+  - False, you can only clap patterns
   answer: 0
-  explanation: "Absolutely! Once you understand a rhythm pattern, you can play it on any instrument. The pattern is about timing, not about what makes the sound."
+  explanation: Absolutely! Once you understand a rhythm pattern, you can play it on any instrument. The pattern is about timing, not about what makes the sound.
 
-- question: "Rhythm patterns in music are random and never repeat."
-  type: tf
+- question: Rhythm patterns in music are random and never repeat.
+  type: true-false
   answer: false
-  explanation: "Rhythm patterns repeat throughout a song. This repetition is what makes songs have structure and makes them easier to learn and remember."
+  explanation: Rhythm patterns repeat throughout a song. This repetition is what makes songs have structure and makes them easier to learn and remember.
 
-- question: "Give an example of a simple rhythm pattern you can clap, using short sounds and longer sounds."
-  type: sa
-  answer: "Quick-quick-slow or short-short-short-long, making sure the pattern repeats."
-  explanation: "A good answer shows a pattern with at least two different sound lengths that could repeat. Examples like clap-clap-rest, fast-fast-slow, or one-two-three-FOUR all work."
+- question: Give an example of a simple rhythm pattern you can clap, using short sounds and longer sounds.
+  type: short-answer
+  answer: Quick-quick-slow or short-short-short-long, making sure the pattern repeats.
+  explanation: A good answer shows a pattern with at least two different sound lengths that could repeat. Examples like clap-clap-rest, fast-fast-slow, or one-two-three-FOUR all work.
 ```
 
 ## Explainer

@@ -25,39 +25,39 @@ Even in nonfiction, the narrator is a constructed persona shaped for literary ef
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What is the relationship between the person who lived an experience and the 'I' who narrates it in a memoir?"
+- question: What is the relationship between the person who lived an experience and the 'I' who narrates it in a memoir?
+  type: multiple-choice
   options:
-    - "They are identical—the narrator is the unmediated person recounting facts."
-    - "They are separate entities—the narrating self is a constructed literary character based on the lived person."
-    - "The narrator is a fictional invention unrelated to the author's actual life."
-    - "The difference between them is irrelevant to understanding the text."
+  - They are identical—the narrator is the unmediated person recounting facts.
+  - They are separate entities—the narrating self is a constructed literary character based on the lived person.
+  - The narrator is a fictional invention unrelated to the author's actual life.
+  - The difference between them is irrelevant to understanding the text.
   answer: 1
-  explanation: "The narrating 'I' is shaped by choices about voice, tone, what to emphasize, how to describe experiences, and what perspective to take. The lived person and the persona are linked but not identical. The persona is still rooted in truth (unlike fiction), but it's a construction—a version of the self presented for literary effect. This doesn't make it dishonest; it makes it crafted."
+  explanation: The narrating 'I' is shaped by choices about voice, tone, what to emphasize, how to describe experiences, and what perspective to take. The lived person and the persona are linked but not identical. The persona is still rooted in truth (unlike fiction), but it's a construction—a version of the self presented for literary effect. This doesn't make it dishonest; it makes it crafted.
 
-- type: multiple-choice
-  question: "Why is recognizing the authorial persona important for readers of nonfiction?"
+- question: Why is recognizing the authorial persona important for readers of nonfiction?
+  type: multiple-choice
   options:
-    - "So they can dismiss memoir as untrustworthy fiction."
-    - "To understand that what's presented is one perspective, shaped by time and literary choices, not comprehensive truth."
-    - "To prove that all nonfiction is equally unreliable."
-    - "Because the persona and the real author are never the same person."
+  - So they can dismiss memoir as untrustworthy fiction.
+  - To understand that what's presented is one perspective, shaped by time and literary choices, not comprehensive truth.
+  - To prove that all nonfiction is equally unreliable.
+  - Because the persona and the real author are never the same person.
   answer: 1
-  explanation: "Recognizing the constructed nature of the narrator doesn't mean nonfiction is dishonest—it means acknowledging that all writing involves selection and framing. A trustworthy persona is one that acknowledges its limitations and makes its biases visible. Understanding this helps readers evaluate reliability without expecting false objectivity."
+  explanation: Recognizing the constructed nature of the narrator doesn't mean nonfiction is dishonest—it means acknowledging that all writing involves selection and framing. A trustworthy persona is one that acknowledges its limitations and makes its biases visible. Understanding this helps readers evaluate reliability without expecting false objectivity.
 
-- type: true-false
-  statement: "True: A nonfiction writer's authorial persona can be truthful while still being a deliberate construction shaped for literary effect."
+- question: 'True: A nonfiction writer''s authorial persona can be truthful while still being a deliberate construction shaped for literary effect.'
+  type: true-false
   answer: true
-  explanation: "This is the paradox of the nonfiction narrator. The experiences are real, the emotions are genuine, but the presentation is crafted. A writer might emphasize certain aspects of their younger self's naïveté for thematic resonance, might develop voice and tone for engagement, might restructure chronology for clarity—all while remaining truthful about what happened. Craft and truthfulness are not opposites in nonfiction."
+  explanation: This is the paradox of the nonfiction narrator. The experiences are real, the emotions are genuine, but the presentation is crafted. A writer might emphasize certain aspects of their younger self's naïveté for thematic resonance, might develop voice and tone for engagement, might restructure chronology for clarity—all while remaining truthful about what happened. Craft and truthfulness are not opposites in nonfiction.
 
-- type: true-false
-  statement: "False: Understanding the authorial persona as constructed means the reader should doubt everything the narrator says about events."
+- question: 'False: Understanding the authorial persona as constructed means the reader should doubt everything the narrator says about events.'
+  type: true-false
   answer: false
-  explanation: "Recognizing construction doesn't require wholesale skepticism. It means reading with awareness that you're encountering a specific perspective, shaped by time, memory, and literary choices. A constructed persona can still be deeply honest. The question is not 'Is this made up?' but 'What lens am I looking through, and what might I not be seeing?'"
+  explanation: Recognizing construction doesn't require wholesale skepticism. It means reading with awareness that you're encountering a specific perspective, shaped by time, memory, and literary choices. A constructed persona can still be deeply honest. The question is not 'Is this made up?' but 'What lens am I looking through, and what might I not be seeing?'
 
-- type: short-answer
-  question: "Describe how a memoirist might construct their persona differently if writing for different audiences—say, a confessional memoir for a literary journal versus a family memoir for relatives. How does awareness of this construction affect how we read each version?"
-  explanation: "A memoirist might adopt a more raw, introspective persona for a literary audience, emphasizing vulnerability and psychological insight. For family, they might construct a more protective persona, acknowledging complexity while respecting relationships. Neither is dishonest—both are truthful within different frameworks and purposes. This shows that the persona is not a fixed self but a variable constructed entity. Awareness of audience construction helps readers ask: 'What version of themselves did this writer choose to present here, and why?' This critical awareness doesn't undermine the memoir; it deepens our understanding of how nonfiction works."
+- question: Describe how a memoirist might construct their persona differently if writing for different audiences—say, a confessional memoir for a literary journal versus a family memoir for relatives. How does awareness of this construction affect how we read each version?
+  type: short-answer
+  explanation: 'A memoirist might adopt a more raw, introspective persona for a literary audience, emphasizing vulnerability and psychological insight. For family, they might construct a more protective persona, acknowledging complexity while respecting relationships. Neither is dishonest—both are truthful within different frameworks and purposes. This shows that the persona is not a fixed self but a variable constructed entity. Awareness of audience construction helps readers ask: ''What version of themselves did this writer choose to present here, and why?'' This critical awareness doesn''t undermine the memoir; it deepens our understanding of how nonfiction works.'
 ```
 
 ## Explainer

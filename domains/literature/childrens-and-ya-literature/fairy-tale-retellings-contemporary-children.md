@@ -28,35 +28,39 @@ Examine multiple retellings of the same fairy tale, comparing how different auth
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "Why might a contemporary author choose to retell a classic fairy tale rather than invent an entirely original story?"
-    options:
-      - "Because original storytelling is impossible"
-      - "Because the recognized story structure allows focus on updating themes, adding representation, and interrogating the original's assumptions while the familiar framework means readers immediately grasp the core narrative"
-      - "Retellings are always artistically inferior to original work"
-      - "There is no reason to retell existing stories"
-    answer: 1
-    explanation: "Retellings benefit from audience familiarity with the basic tale—readers know what will happen, so authors can focus on how to change it. This allows exploration of gender roles, representation, and updated sensibilities without needing to establish basic plot."
-  - question: "What do contemporary fairy tale retellings often interrogate that the original tales took for granted?"
-    options:
-      - "Contemporary retellings never interrogate anything"
-      - "Gender roles, romantic relationships, passive protagonists, limited representation, assumptions about beauty and desire, and questions about agency and choice"
-      - "Retellings don't address any social themes"
-      - "The plot is the only thing retellings care about"
-    answer: 1
-    explanation: "Contemporary retellings frequently examine how the original tale constructs gender (passive heroines), romance (marriage as ultimate goal), and power (beauty as female worth). They update these assumptions for contemporary sensibilities."
+- question: Why might a contemporary author choose to retell a classic fairy tale rather than invent an entirely original story?
+  type: multiple-choice
+  options:
+  - Because original storytelling is impossible
+  - Because the recognized story structure allows focus on updating themes, adding representation, and interrogating the original's assumptions while the familiar framework means readers immediately grasp the core narrative
+  - Retellings are always artistically inferior to original work
+  - There is no reason to retell existing stories
+  answer: 1
+  explanation: Retellings benefit from audience familiarity with the basic tale—readers know what will happen, so authors can focus on how to change it. This allows exploration of gender roles, representation, and updated sensibilities without needing to establish basic plot.
 
-true-false:
-  - question: "True or False: A contemporary retelling should maintain complete fidelity to the original tale's plot, setting, and characters."
-    answer: false
-    explanation: "False. Contemporary retellings often deliberately update settings, change character motivations, add representation, and revise plot points—these changes are not failures but the point of retelling."
-  - question: "True or False: Fairy tale retellings allow authors to explore themes of representation and gender in ways that original fairy tales (written in earlier eras with different values) may not address."
-    answer: true
-    explanation: "True. A retelling can maintain the recognizable story while interrogating gender roles, adding LGBTQ characters, centering diverse protagonists, or questioning the values the original tale assumed."
+- question: What do contemporary fairy tale retellings often interrogate that the original tales took for granted?
+  type: multiple-choice
+  options:
+  - Contemporary retellings never interrogate anything
+  - Gender roles, romantic relationships, passive protagonists, limited representation, assumptions about beauty and desire, and questions about agency and choice
+  - Retellings don't address any social themes
+  - The plot is the only thing retellings care about
+  answer: 1
+  explanation: Contemporary retellings frequently examine how the original tale constructs gender (passive heroines), romance (marriage as ultimate goal), and power (beauty as female worth). They update these assumptions for contemporary sensibilities.
 
-short-answer:
-  - question: "Take a fairy tale you know. Describe what a contemporary retelling might change about the original story to update it for modern sensibilities and what themes these changes would illuminate."
-    explanation: "Your answer should show understanding that contemporary retellings use changes deliberately. For example, 'Cinderella' might be retold with a protagonist who rejects marriage entirely and pursues meaningful work; this change interrogates the original tale's assumption that romantic marriage is the ultimate female goal. Or a retelling might center the evil stepmother's perspective, asking what desperation or injustice motivated her cruelty. A retelling might add queer romance to 'Sleeping Beauty,' challenging the original's heteronormative framework. These aren't random changes but deliberate interrogations of the original tale's ideology. The point is recognizing that contemporary retellings use the familiar structure strategically—because readers know the original, changes become visible and meaningful, allowing the retelling to comment on the original simultaneously with telling a new story."
+- question: 'True or False: A contemporary retelling should maintain complete fidelity to the original tale''s plot, setting, and characters.'
+  type: true-false
+  answer: false
+  explanation: False. Contemporary retellings often deliberately update settings, change character motivations, add representation, and revise plot points—these changes are not failures but the point of retelling.
+
+- question: 'True or False: Fairy tale retellings allow authors to explore themes of representation and gender in ways that original fairy tales (written in earlier eras with different values) may not address.'
+  type: true-false
+  answer: true
+  explanation: True. A retelling can maintain the recognizable story while interrogating gender roles, adding LGBTQ characters, centering diverse protagonists, or questioning the values the original tale assumed.
+
+- question: Take a fairy tale you know. Describe what a contemporary retelling might change about the original story to update it for modern sensibilities and what themes these changes would illuminate.
+  type: short-answer
+  explanation: Your answer should show understanding that contemporary retellings use changes deliberately. For example, 'Cinderella' might be retold with a protagonist who rejects marriage entirely and pursues meaningful work; this change interrogates the original tale's assumption that romantic marriage is the ultimate female goal. Or a retelling might center the evil stepmother's perspective, asking what desperation or injustice motivated her cruelty. A retelling might add queer romance to 'Sleeping Beauty,' challenging the original's heteronormative framework. These aren't random changes but deliberate interrogations of the original tale's ideology. The point is recognizing that contemporary retellings use the familiar structure strategically—because readers know the original, changes become visible and meaningful, allowing the retelling to comment on the original simultaneously with telling a new story.
 ```
 
 ## Explainer

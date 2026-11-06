@@ -27,35 +27,39 @@ Children's literature frequently centers on young protagonists who exercise agen
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What does it mean for a child protagonist to exercise agency in a story?"
-    options:
-      - "The child must be stronger or smarter than all adults in the story"
-      - "The child makes decisions and takes actions that meaningfully affect the plot, rather than having events happen to them while they remain passive"
-      - "The child automatically wins every conflict without effort or setbacks"
-      - "The child must operate entirely without adult guidance or supervision"
-    answer: 1
-    explanation: "Agency means the protagonist has genuine choices and their decisions matter narratively. An agent can receive help, guidance, and even experience failure—what matters is that the protagonist drives meaningful action rather than being merely acted upon."
-  - question: "How does emphasizing child protagonist agency reflect assumptions about child development and learning?"
-    options:
-      - "It suggests children should ignore all adult advice"
-      - "It assumes children are incapable of making meaningful decisions"
-      - "It reflects the belief that children develop autonomy and competence through taking on challenges and making meaningful choices"
-      - "It indicates that children do not need to learn from mistakes"
-    answer: 2
-    explanation: "Narratives emphasizing child agency reflect developmental theories that children learn self-efficacy and problem-solving through active engagement with challenges, not through passive observation of adults solving problems for them."
+- question: What does it mean for a child protagonist to exercise agency in a story?
+  type: multiple-choice
+  options:
+  - The child must be stronger or smarter than all adults in the story
+  - The child makes decisions and takes actions that meaningfully affect the plot, rather than having events happen to them while they remain passive
+  - The child automatically wins every conflict without effort or setbacks
+  - The child must operate entirely without adult guidance or supervision
+  answer: 1
+  explanation: Agency means the protagonist has genuine choices and their decisions matter narratively. An agent can receive help, guidance, and even experience failure—what matters is that the protagonist drives meaningful action rather than being merely acted upon.
 
-true-false:
-  - question: "True or False: A child protagonist with agency can still receive help, guidance, or rescue from adults."
-    answer: true
-    explanation: "This is true. Agency doesn't mean independence from all help—it means the child makes meaningful choices and takes important actions, even if those actions sometimes involve seeking assistance or accepting guidance."
-  - question: "True or False: If a child protagonist makes mistakes or fails, they no longer have agency in the story."
-    answer: false
-    explanation: "This is false. Agency includes the capacity to make poor choices and experience consequences; indeed, the most meaningful agency often involves learning from mistakes rather than succeeding effortlessly."
+- question: How does emphasizing child protagonist agency reflect assumptions about child development and learning?
+  type: multiple-choice
+  options:
+  - It suggests children should ignore all adult advice
+  - It assumes children are incapable of making meaningful decisions
+  - It reflects the belief that children develop autonomy and competence through taking on challenges and making meaningful choices
+  - It indicates that children do not need to learn from mistakes
+  answer: 2
+  explanation: Narratives emphasizing child agency reflect developmental theories that children learn self-efficacy and problem-solving through active engagement with challenges, not through passive observation of adults solving problems for them.
 
-short-answer:
-  - question: "Why might an author choose to show a child character solving a problem through their own actions rather than having an adult character solve it for them?"
-    explanation: "Showing a child character solve problems builds narrative belief in the child's competence and models for young readers that they, too, are capable of agency and problem-solving. This narrative choice psychologically empowers child readers by positioning children as capable agents rather than helpless dependents. It also creates more compelling narrative tension: a problem solved by an adult happens to the protagonist, but a problem solved by the protagonist drives the story forward and creates genuine stakes. Additionally, child-solved problems allow readers to participate imaginatively in the solution process, making the reading experience more engaging and providing models for how readers might approach their own challenges."
+- question: 'True or False: A child protagonist with agency can still receive help, guidance, or rescue from adults.'
+  type: true-false
+  answer: true
+  explanation: This is true. Agency doesn't mean independence from all help—it means the child makes meaningful choices and takes important actions, even if those actions sometimes involve seeking assistance or accepting guidance.
+
+- question: 'True or False: If a child protagonist makes mistakes or fails, they no longer have agency in the story.'
+  type: true-false
+  answer: false
+  explanation: This is false. Agency includes the capacity to make poor choices and experience consequences; indeed, the most meaningful agency often involves learning from mistakes rather than succeeding effortlessly.
+
+- question: Why might an author choose to show a child character solving a problem through their own actions rather than having an adult character solve it for them?
+  type: short-answer
+  explanation: 'Showing a child character solve problems builds narrative belief in the child''s competence and models for young readers that they, too, are capable of agency and problem-solving. This narrative choice psychologically empowers child readers by positioning children as capable agents rather than helpless dependents. It also creates more compelling narrative tension: a problem solved by an adult happens to the protagonist, but a problem solved by the protagonist drives the story forward and creates genuine stakes. Additionally, child-solved problems allow readers to participate imaginatively in the solution process, making the reading experience more engaging and providing models for how readers might approach their own challenges.'
 ```
 
 ## Explainer

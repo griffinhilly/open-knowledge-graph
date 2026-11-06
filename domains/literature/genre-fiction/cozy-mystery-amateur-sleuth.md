@@ -22,36 +22,39 @@ Cozy mysteries feature amateur sleuths—ordinary people like teachers, bakers, 
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What gives amateur sleuths an investigative advantage in cozy mysteries?"
-    options:
-      - "Amateur sleuths are more intelligent than professional investigators"
-      - "Their intimate knowledge of community relationships and local details provides access professional outsiders lack"
-      - "Professional investigators refuse to work in small communities"
-      - "Amateurs can use violence and illegal methods professionals cannot"
-    correct_answer: 1
-    explanation: "The core idea states that 'the amateur's intimate knowledge of their community provides investigative advantage over professional investigators,' indicating proximity and relationship knowledge are the crucial advantages."
-  - type: multiple-choice
-    question: "How do cozy mysteries balance the limitations of an amateur detective?"
-    options:
-      - "They ignore the limitations and treat amateurs as superhuman"
-      - "They emphasize puzzle-solving and community detail rather than action and danger"
-      - "They minimize the role of investigation entirely"
-      - "They require professional backup for all major investigation"
-    correct_answer: 1
-    explanation: "The core idea states that cozies emphasize 'puzzle-solving and community detail,' which compensates for an amateur's lack of professional training or access to forensic resources."
-  - type: true-false
-    question: "Cozy mysteries typically include graphic violence and explicit content to match the intensity of professional detective fiction."
-    correct_answer: false
-    explanation: "The core idea explicitly states that cozy mysteries 'avoid graphic violence and explicit content,' making restraint a defining feature of the genre."
-  - type: true-false
-    question: "Ordinary people (teachers, bakers, retirees) can solve crimes primarily because they are naturally more perceptive than professional investigators."
-    correct_answer: false
-    explanation: "The core idea attributes their advantage to 'intimate knowledge of their community,' not to greater natural ability. Ordinariness is the point—their everyday position grants them access."
-  - type: short-answer
-    question: "Why does the ordinariness of cozy mystery protagonists (teachers, bakers, etc.) enhance rather than diminish the investigative narrative?"
-    explanation: "Good answers should explain that ordinariness makes access believable (a teacher or baker can move through community freely), creates relatable protagonists, emphasizes the puzzle-solving intellectual element over physical action, and highlights how community knowledge matters more than professional training or special skills."
+- question: What gives amateur sleuths an investigative advantage in cozy mysteries?
+  type: multiple-choice
+  options:
+  - Amateur sleuths are more intelligent than professional investigators
+  - Their intimate knowledge of community relationships and local details provides access professional outsiders lack
+  - Professional investigators refuse to work in small communities
+  - Amateurs can use violence and illegal methods professionals cannot
+  answer: 1
+  explanation: The core idea states that 'the amateur's intimate knowledge of their community provides investigative advantage over professional investigators,' indicating proximity and relationship knowledge are the crucial advantages.
+
+- question: How do cozy mysteries balance the limitations of an amateur detective?
+  type: multiple-choice
+  options:
+  - They ignore the limitations and treat amateurs as superhuman
+  - They emphasize puzzle-solving and community detail rather than action and danger
+  - They minimize the role of investigation entirely
+  - They require professional backup for all major investigation
+  answer: 1
+  explanation: The core idea states that cozies emphasize 'puzzle-solving and community detail,' which compensates for an amateur's lack of professional training or access to forensic resources.
+
+- question: Cozy mysteries typically include graphic violence and explicit content to match the intensity of professional detective fiction.
+  type: true-false
+  answer: false
+  explanation: The core idea explicitly states that cozy mysteries 'avoid graphic violence and explicit content,' making restraint a defining feature of the genre.
+
+- question: Ordinary people (teachers, bakers, retirees) can solve crimes primarily because they are naturally more perceptive than professional investigators.
+  type: true-false
+  answer: false
+  explanation: The core idea attributes their advantage to 'intimate knowledge of their community,' not to greater natural ability. Ordinariness is the point—their everyday position grants them access.
+
+- question: Why does the ordinariness of cozy mystery protagonists (teachers, bakers, etc.) enhance rather than diminish the investigative narrative?
+  type: short-answer
+  explanation: Good answers should explain that ordinariness makes access believable (a teacher or baker can move through community freely), creates relatable protagonists, emphasizes the puzzle-solving intellectual element over physical action, and highlights how community knowledge matters more than professional training or special skills.
 ```
 
 ## Explainer

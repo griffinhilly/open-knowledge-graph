@@ -35,39 +35,39 @@ Chekhov's 'lack of action' is not dramatic failure but formal choice representin
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "How does Chekhov's elimination of 'melodramatic action' change what drama can represent?"
+- question: How does Chekhov's elimination of 'melodramatic action' change what drama can represent?
+  type: multiple-choice
   options:
-    - "It makes drama less exciting and therefore less valuable"
-    - "It allows drama to represent psychological states, failed communication, and the tragedy of everyday consciousness rather than external plot"
-    - "It means nothing important happens in Chekhov's plays"
-    - "It was a practical limitation he worked around"
+  - It makes drama less exciting and therefore less valuable
+  - It allows drama to represent psychological states, failed communication, and the tragedy of everyday consciousness rather than external plot
+  - It means nothing important happens in Chekhov's plays
+  - It was a practical limitation he worked around
   answer: 1
-  explanation: "Melodramatic action—the duel, the revelation, the rescue—provides external structure and generates excitement through plot. By removing this action, Chekhov forces drama to locate meaning elsewhere: in what characters want but cannot say, in the gaps between what is spoken and what is felt, in the failure of understanding between people. This shift makes internal consciousness and interpersonal failure the proper subject of drama. Characters do not achieve the clarity or resolution melodrama provides. Instead, they remain trapped in misunderstanding, desire, and the mundanity of ordinary life. This represents a fundamentally different understanding of what drama is for. Rather than staging external conflict, Chekhov stages the internal conflict of consciousness trapped within itself. The 'lack of action' is precisely what allows representation of psychological reality."
+  explanation: 'Melodramatic action—the duel, the revelation, the rescue—provides external structure and generates excitement through plot. By removing this action, Chekhov forces drama to locate meaning elsewhere: in what characters want but cannot say, in the gaps between what is spoken and what is felt, in the failure of understanding between people. This shift makes internal consciousness and interpersonal failure the proper subject of drama. Characters do not achieve the clarity or resolution melodrama provides. Instead, they remain trapped in misunderstanding, desire, and the mundanity of ordinary life. This represents a fundamentally different understanding of what drama is for. Rather than staging external conflict, Chekhov stages the internal conflict of consciousness trapped within itself. The ''lack of action'' is precisely what allows representation of psychological reality.'
 
-- type: multiple-choice
-  question: "What does Chekhov mean by using 'subtext and silence to carry psychological meaning'?"
+- question: What does Chekhov mean by using 'subtext and silence to carry psychological meaning'?
+  type: multiple-choice
   options:
-    - "The psychological meaning is hidden and readers must guess what it is"
-    - "What is unsaid—the desires, fears, and conflicts beneath explicit dialogue—carries more psychological significance than what is explicitly stated"
-    - "Silence is used when the playwright runs out of ideas"
-    - "Subtext is irrelevant to understanding modern drama"
+  - The psychological meaning is hidden and readers must guess what it is
+  - What is unsaid—the desires, fears, and conflicts beneath explicit dialogue—carries more psychological significance than what is explicitly stated
+  - Silence is used when the playwright runs out of ideas
+  - Subtext is irrelevant to understanding modern drama
   answer: 1
-  explanation: "In conventional drama, dialogue explicitly states character intention and emotion. A character announces what they want. But Chekhov recognized that in real life, people often cannot or will not state what they truly feel. They speak around their desire, they communicate through silences and pauses, they fail to understand each other despite proximity. By employing subtext—the gap between what is said and what is meant—and by making silence significant, Chekhov makes drama represent this reality. A character's crucial emotions are often invisible; they emerge in hesitations, in what is almost said but is not, in the weight of unspoken longing. The audience must listen beneath dialogue to hear what is psychologically significant. This technique is more realistic than explicit statement because it represents how consciousness actually operates."
+  explanation: In conventional drama, dialogue explicitly states character intention and emotion. A character announces what they want. But Chekhov recognized that in real life, people often cannot or will not state what they truly feel. They speak around their desire, they communicate through silences and pauses, they fail to understand each other despite proximity. By employing subtext—the gap between what is said and what is meant—and by making silence significant, Chekhov makes drama represent this reality. A character's crucial emotions are often invisible; they emerge in hesitations, in what is almost said but is not, in the weight of unspoken longing. The audience must listen beneath dialogue to hear what is psychologically significant. This technique is more realistic than explicit statement because it represents how consciousness actually operates.
 
-- type: true-false
-  statement: "In Chekhov's plays, the focus on ordinary characters and minimal action represents a failure to achieve dramatic significance, compared to traditional melodrama with heroes and exciting plots."
+- question: In Chekhov's plays, the focus on ordinary characters and minimal action represents a failure to achieve dramatic significance, compared to traditional melodrama with heroes and exciting plots.
+  type: true-false
   answer: false
-  explanation: "This misconception judges Chekhov by melodramatic standards and finds him lacking. But Chekhov deliberately rejected melodramatic form to achieve a different kind of dramatic significance. The tragedy of ordinary characters failing to communicate, trapped in their daily lives, unable to achieve their desires—this is not less significant but different. The point is precisely that everyday life contains tragedy and depth that melodrama misses. A man and woman unable to confess love before one dies is more psychologically real and tragic than a staged duel. Chekhov's choice represents a redefinition of what drama should represent, not a failure of drama."
+  explanation: This misconception judges Chekhov by melodramatic standards and finds him lacking. But Chekhov deliberately rejected melodramatic form to achieve a different kind of dramatic significance. The tragedy of ordinary characters failing to communicate, trapped in their daily lives, unable to achieve their desires—this is not less significant but different. The point is precisely that everyday life contains tragedy and depth that melodrama misses. A man and woman unable to confess love before one dies is more psychologically real and tragic than a staged duel. Chekhov's choice represents a redefinition of what drama should represent, not a failure of drama.
 
-- type: true-false
-  statement: "Chekhov revolutionized modern drama by establishing that psychological subtlety, silence, and subtext—what remains unsaid—can carry as much or more dramatic and emotional significance as external action and explicit dialogue."
+- question: Chekhov revolutionized modern drama by establishing that psychological subtlety, silence, and subtext—what remains unsaid—can carry as much or more dramatic and emotional significance as external action and explicit dialogue.
+  type: true-false
   answer: true
-  explanation: "This directly describes Chekhov's formal and philosophical achievement. By valuing what is unsaid and allowing silence to resonate with meaning, Chekhov transformed drama into a vehicle for representing consciousness. The most important moments in his plays are often non-events—the absence of understanding, the failure to speak, the persistence of unrequited feeling. This emphasis on interiority and the unspoken makes modern drama possible. Without Chekhov's revelation that psychological states and communication failures are dramatically significant, twentieth-century drama could not have developed as it did."
+  explanation: This directly describes Chekhov's formal and philosophical achievement. By valuing what is unsaid and allowing silence to resonate with meaning, Chekhov transformed drama into a vehicle for representing consciousness. The most important moments in his plays are often non-events—the absence of understanding, the failure to speak, the persistence of unrequited feeling. This emphasis on interiority and the unspoken makes modern drama possible. Without Chekhov's revelation that psychological states and communication failures are dramatically significant, twentieth-century drama could not have developed as it did.
 
-- type: short-answer
-  question: "Explain why Chekhov's use of silence and subtext represents not dramatic failure but a fundamental change in what drama can represent. Give an example of how what is unsaid matters more than what is said."
-  explanation: "Traditional melodrama locates dramatic significance in external events—the villain's plot exposed, the hero's triumph, the romance consummated through action. But Chekhov recognized that psychological drama operates differently. The most significant human experiences—love, failure, lost possibility, the tragedy of missed connection—are often internal and frequently unspoken. In The Cherry Orchard, the tragedy is not a single dramatic event but the quiet failure of a family to preserve their home, to communicate meaningfully, to act. Characters speak but often at cross-purposes; what matters is what they cannot or will not say. Ranevskaya's love for Paris that keeps her absent from saving her estate, Lopakhin's hope that she might marry him that he never voices, the elderly servants' devotion to a family that has forgotten them—these unspoken dimensions carry the play's emotional and philosophical weight. By making silence significant and allowing subtext to operate beneath dialogue, Chekhov creates a drama where internal consciousness becomes the true subject. This represents not failure but the discovery that drama can represent something more profound than external plot: it can represent the tragedy of how we fail to understand each other, how desires remain unspoken, how the most important human truths persist in silence."
+- question: Explain why Chekhov's use of silence and subtext represents not dramatic failure but a fundamental change in what drama can represent. Give an example of how what is unsaid matters more than what is said.
+  type: short-answer
+  explanation: 'Traditional melodrama locates dramatic significance in external events—the villain''s plot exposed, the hero''s triumph, the romance consummated through action. But Chekhov recognized that psychological drama operates differently. The most significant human experiences—love, failure, lost possibility, the tragedy of missed connection—are often internal and frequently unspoken. In The Cherry Orchard, the tragedy is not a single dramatic event but the quiet failure of a family to preserve their home, to communicate meaningfully, to act. Characters speak but often at cross-purposes; what matters is what they cannot or will not say. Ranevskaya''s love for Paris that keeps her absent from saving her estate, Lopakhin''s hope that she might marry him that he never voices, the elderly servants'' devotion to a family that has forgotten them—these unspoken dimensions carry the play''s emotional and philosophical weight. By making silence significant and allowing subtext to operate beneath dialogue, Chekhov creates a drama where internal consciousness becomes the true subject. This represents not failure but the discovery that drama can represent something more profound than external plot: it can represent the tragedy of how we fail to understand each other, how desires remain unspoken, how the most important human truths persist in silence.'
 ```
 
 ## Explainer

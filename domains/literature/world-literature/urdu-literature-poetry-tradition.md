@@ -32,39 +32,39 @@ Urdu poetry's emphasis on emotion and ambiguity is not lack of intellectual rigo
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "How does the ghazal form—sequence of independent couplets—create coherence while allowing each couplet to stand alone?"
+- question: How does the ghazal form—sequence of independent couplets—create coherence while allowing each couplet to stand alone?
+  type: multiple-choice
   options:
-    - "Independent couplets cannot create coherence; ghazals are merely collections of disconnected verses"
-    - "Coherence emerges through tonal unity, emotional resonance, and thematic continuity; each couplet is semantically complete but emotionally and aesthetically connected"
-    - "Ghazals focus only on narrative connection between couplets"
-    - "The form is outdated and irrelevant to modern poetry"
+  - Independent couplets cannot create coherence; ghazals are merely collections of disconnected verses
+  - Coherence emerges through tonal unity, emotional resonance, and thematic continuity; each couplet is semantically complete but emotionally and aesthetically connected
+  - Ghazals focus only on narrative connection between couplets
+  - The form is outdated and irrelevant to modern poetry
   answer: 1
-  explanation: "The ghazal form is paradoxically both autonomous and unified. Each couplet can be read in isolation—it has complete semantic meaning and emotional impact—yet the sequence of couplets also creates larger coherence. The unity is not narrative or logical but emotional and tonal. Each couplet explores similar emotional territory (longing, loss, love, spiritual yearning); together they create variations on themes that accumulate meaning. The poet's voice—recognizable through tone, emotional register, and concern—creates continuity. And specific repeated phrases (the radif and qafia) create sonic and semantic echoes that bind couplets together. The form thus achieves simultaneity: autonomy (each couplet is complete) and unity (the sequence creates coherent emotional and aesthetic experience)."
+  explanation: 'The ghazal form is paradoxically both autonomous and unified. Each couplet can be read in isolation—it has complete semantic meaning and emotional impact—yet the sequence of couplets also creates larger coherence. The unity is not narrative or logical but emotional and tonal. Each couplet explores similar emotional territory (longing, loss, love, spiritual yearning); together they create variations on themes that accumulate meaning. The poet''s voice—recognizable through tone, emotional register, and concern—creates continuity. And specific repeated phrases (the radif and qafia) create sonic and semantic echoes that bind couplets together. The form thus achieves simultaneity: autonomy (each couplet is complete) and unity (the sequence creates coherent emotional and aesthetic experience).'
 
-- type: multiple-choice
-  question: "What is the significance of allusional density in Urdu poetry?"
+- question: What is the significance of allusional density in Urdu poetry?
+  type: multiple-choice
   options:
-    - "Allusions are ornamental decoration without meaning"
-    - "Allusional density allows poets to compress multiple meanings into few words; references to classical texts, myths, and literary traditions create layers of resonance"
-    - "Urdu poetry avoids allusion in favor of direct statement"
-    - "Allusions make poetry inaccessible and elitist"
+  - Allusions are ornamental decoration without meaning
+  - Allusional density allows poets to compress multiple meanings into few words; references to classical texts, myths, and literary traditions create layers of resonance
+  - Urdu poetry avoids allusion in favor of direct statement
+  - Allusions make poetry inaccessible and elitist
   answer: 1
-  explanation: "Urdu poetry inherited from Persian traditions an aesthetic valuing allusional density. A single word or phrase might carry multiple references: to a classical poem, to a mythological narrative, to previous uses in the tradition. By drawing on these layers of meaning, a poet can achieve compression: a few words carry the weight of multiple traditions and contexts. This density requires literacy in the tradition—readers must recognize allusions to fully appreciate the poetry. But it also creates extraordinary richness: a couplet operates simultaneously on multiple registers of meaning. The allusional density is not decoration but semantic strategy: it allows maximum meaning in minimal space. Recognizing allusions becomes part of the poetic experience; the poem is not self-contained but dialogic—it speaks with and against the tradition it alludes to."
+  explanation: 'Urdu poetry inherited from Persian traditions an aesthetic valuing allusional density. A single word or phrase might carry multiple references: to a classical poem, to a mythological narrative, to previous uses in the tradition. By drawing on these layers of meaning, a poet can achieve compression: a few words carry the weight of multiple traditions and contexts. This density requires literacy in the tradition—readers must recognize allusions to fully appreciate the poetry. But it also creates extraordinary richness: a couplet operates simultaneously on multiple registers of meaning. The allusional density is not decoration but semantic strategy: it allows maximum meaning in minimal space. Recognizing allusions becomes part of the poetic experience; the poem is not self-contained but dialogic—it speaks with and against the tradition it alludes to.'
 
-- type: true-false
-  statement: "Urdu poetry's emphasis on feeling and ambiguity indicates lack of intellectual rigor and philosophical sophistication."
+- question: Urdu poetry's emphasis on feeling and ambiguity indicates lack of intellectual rigor and philosophical sophistication.
+  type: true-false
   answer: false
-  explanation: "This misconception treats emotion and ambiguity as opposed to intellectual rigor. In fact, Urdu poetry's compression and allusional density require extraordinary technical and philosophical sophistication. The ability to express complex emotional and philosophical ideas through highly compressed, ambiguous language demands both intellectual control and emotional intelligence. The ambiguity is not confusion but intentional: multiple meanings coexist, allowing the poetry to express the actual complexity of emotional and spiritual experience. The intellectual achievement lies in achieving this compression while maintaining poetic power."
+  explanation: 'This misconception treats emotion and ambiguity as opposed to intellectual rigor. In fact, Urdu poetry''s compression and allusional density require extraordinary technical and philosophical sophistication. The ability to express complex emotional and philosophical ideas through highly compressed, ambiguous language demands both intellectual control and emotional intelligence. The ambiguity is not confusion but intentional: multiple meanings coexist, allowing the poetry to express the actual complexity of emotional and spiritual experience. The intellectual achievement lies in achieving this compression while maintaining poetic power.'
 
-- type: true-false
-  statement: "The ghazal form's independence of couplets means that meaning is unstable and readers cannot understand the poet's intention."
+- question: The ghazal form's independence of couplets means that meaning is unstable and readers cannot understand the poet's intention.
+  type: true-false
   answer: false
-  explanation: "While the ghazal form allows independent reading of couplets, this does not mean meaning is unstable or that intention is inaccessible. Readers attentive to tone, emotional register, and thematic concerns can recognize the poet's unified vision expressed through the sequence. The poet's voice and concerns are recognizable; the emotional and aesthetic vision is coherent. The form's flexibility allows multiple readings—a reader might focus on individual couplets or experience the sequence as unified whole—but this is feature not bug. It allows both approaches to meaning-making."
+  explanation: While the ghazal form allows independent reading of couplets, this does not mean meaning is unstable or that intention is inaccessible. Readers attentive to tone, emotional register, and thematic concerns can recognize the poet's unified vision expressed through the sequence. The poet's voice and concerns are recognizable; the emotional and aesthetic vision is coherent. The form's flexibility allows multiple readings—a reader might focus on individual couplets or experience the sequence as unified whole—but this is feature not bug. It allows both approaches to meaning-making.
 
-- type: short-answer
-  question: "How does Urdu poetry's emphasis on compression, allusional density, and ambiguity represent a distinctive approach to expressing emotion and philosophical complexity?"
-  explanation: "Urdu poetry recognizes that authentic emotional and spiritual experience is complex, multivalent, resistant to simple statement. By using highly compressed language, the poet forces precision: every word must work hard, carrying multiple meanings and resonances. By employing allusions, the poet creates layers of meaning: the poem speaks with the entire tradition it references. By embracing ambiguity, the poet allows multiple interpretations and meanings to coexist, reflecting the actual complexity of experience. The result is poetry that operates simultaneously on multiple registers: emotional, philosophical, linguistic, traditional. Understanding such poetry requires reading on multiple levels, recognizing allusions, tolerating ambiguity. This is not obscurity but sophistication: the poet trusts readers' intelligence and literacy to engage fully with the work. The compression, allusions, and ambiguity are not bugs but features—they are what allow the poetry to express complex emotional and spiritual truth."
+- question: How does Urdu poetry's emphasis on compression, allusional density, and ambiguity represent a distinctive approach to expressing emotion and philosophical complexity?
+  type: short-answer
+  explanation: 'Urdu poetry recognizes that authentic emotional and spiritual experience is complex, multivalent, resistant to simple statement. By using highly compressed language, the poet forces precision: every word must work hard, carrying multiple meanings and resonances. By employing allusions, the poet creates layers of meaning: the poem speaks with the entire tradition it references. By embracing ambiguity, the poet allows multiple interpretations and meanings to coexist, reflecting the actual complexity of experience. The result is poetry that operates simultaneously on multiple registers: emotional, philosophical, linguistic, traditional. Understanding such poetry requires reading on multiple levels, recognizing allusions, tolerating ambiguity. This is not obscurity but sophistication: the poet trusts readers'' intelligence and literacy to engage fully with the work. The compression, allusions, and ambiguity are not bugs but features—they are what allow the poetry to express complex emotional and spiritual truth.'
 ```
 
 ## Explainer

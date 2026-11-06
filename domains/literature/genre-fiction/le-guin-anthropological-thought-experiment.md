@@ -23,36 +23,39 @@ Ursula K. Le Guin's fiction uses diverse human societies and alien worlds as tho
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What is the primary purpose of the fictional worlds in Le Guin's science fiction?"
-    options:
-      - "To provide entertaining escapism with no deeper purpose"
-      - "To serve as thought experiments in anthropology, gender, politics, and ethics"
-      - "To show how humanity could technologically dominate nature"
-      - "To depict inevitable human progress toward perfection"
-    correct_answer: 1
-    explanation: "The core idea states that Le Guin 'uses diverse human societies and alien worlds as thought experiments in anthropology, gender, politics, and ethics,' establishing this intellectual purpose as central to her work."
-  - type: multiple-choice
-    question: "What does Le Guin's work prioritize in its approach to world-building?"
-    options:
-      - "Creating technologically sophisticated but culturally simple worlds"
-      - "Portraying alien perspectives and cultural systems"
-      - "Avoiding any discussion of real social issues"
-      - "Demonstrating superiority of Western culture"
-    correct_answer: 1
-    explanation: "The core idea specifies that her work 'prioritizes exploring alien perspectives and cultural systems through speculative world-building,' indicating that cultural and anthropological exploration is central."
-  - type: true-false
-    question: "Le Guin uses fictional societies to examine questions about real social systems."
-    correct_answer: true
-    explanation: "The core idea states that her work uses 'fictional societies to examine real social questions,' confirming that her fiction addresses actual social and philosophical issues."
-  - type: true-false
-    question: "Le Guin's fiction is primarily interested in technological advancement and futuristic gadgetry."
-    correct_answer: false
-    explanation: "The core idea emphasizes 'anthropology, gender, politics, and ethics' and 'alien perspectives and cultural systems' rather than technology, indicating her focus is on society and thought rather than hardware."
-  - type: short-answer
-    question: "How does creating an alien culture as a 'thought experiment' allow Le Guin to examine real social questions more effectively than direct social commentary would?"
-    explanation: "A good answer should recognize that by creating genuinely alien perspectives and cultures, Le Guin can make the familiar strange—allowing readers to see their own assumptions as contingent rather than inevitable. A fictional alien culture with different gender relations, different political systems, or different ethical frameworks allows readers to ask 'why do we assume things must work this way?' Thought experiments provide distance that makes critique possible, making readers examine assumptions they'd take for granted in direct social commentary. Students should understand this as a sophisticated literary strategy for philosophical and political thought."
+- question: What is the primary purpose of the fictional worlds in Le Guin's science fiction?
+  type: multiple-choice
+  options:
+  - To provide entertaining escapism with no deeper purpose
+  - To serve as thought experiments in anthropology, gender, politics, and ethics
+  - To show how humanity could technologically dominate nature
+  - To depict inevitable human progress toward perfection
+  answer: 1
+  explanation: The core idea states that Le Guin 'uses diverse human societies and alien worlds as thought experiments in anthropology, gender, politics, and ethics,' establishing this intellectual purpose as central to her work.
+
+- question: What does Le Guin's work prioritize in its approach to world-building?
+  type: multiple-choice
+  options:
+  - Creating technologically sophisticated but culturally simple worlds
+  - Portraying alien perspectives and cultural systems
+  - Avoiding any discussion of real social issues
+  - Demonstrating superiority of Western culture
+  answer: 1
+  explanation: The core idea specifies that her work 'prioritizes exploring alien perspectives and cultural systems through speculative world-building,' indicating that cultural and anthropological exploration is central.
+
+- question: Le Guin uses fictional societies to examine questions about real social systems.
+  type: true-false
+  answer: true
+  explanation: The core idea states that her work uses 'fictional societies to examine real social questions,' confirming that her fiction addresses actual social and philosophical issues.
+
+- question: Le Guin's fiction is primarily interested in technological advancement and futuristic gadgetry.
+  type: true-false
+  answer: false
+  explanation: The core idea emphasizes 'anthropology, gender, politics, and ethics' and 'alien perspectives and cultural systems' rather than technology, indicating her focus is on society and thought rather than hardware.
+
+- question: How does creating an alien culture as a 'thought experiment' allow Le Guin to examine real social questions more effectively than direct social commentary would?
+  type: short-answer
+  explanation: A good answer should recognize that by creating genuinely alien perspectives and cultures, Le Guin can make the familiar strange—allowing readers to see their own assumptions as contingent rather than inevitable. A fictional alien culture with different gender relations, different political systems, or different ethical frameworks allows readers to ask 'why do we assume things must work this way?' Thought experiments provide distance that makes critique possible, making readers examine assumptions they'd take for granted in direct social commentary. Students should understand this as a sophisticated literary strategy for philosophical and political thought.
 ```
 
 ## Explainer

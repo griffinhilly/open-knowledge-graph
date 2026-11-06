@@ -38,40 +38,39 @@ All underworld descents follow the Orpheus pattern (seeking a beloved's return).
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What is the primary psychological or cultural work accomplished by underworld descent narratives?"
-    options:
-      - "They are simple entertainment with no deeper meaning"
-      - "They allow exploration of death, loss, forbidden knowledge, and transformation by depicting characters journeying to a normally inaccessible realm"
-      - "They prove that death can always be escaped"
-      - "They have no particular cultural function"
-    correct: "B"
-    explanation: "Underworld descents are profound narratives that allow cultures to contemplate death, encounter the dead, and explore what forbidden knowledge costs. They depict liminality—a character crossing from the living world into the world of the dead. This boundary-crossing often brings transformation or insight."
+- question: What is the primary psychological or cultural work accomplished by underworld descent narratives?
+  type: multiple-choice
+  options:
+  - They are simple entertainment with no deeper meaning
+  - They allow exploration of death, loss, forbidden knowledge, and transformation by depicting characters journeying to a normally inaccessible realm
+  - They prove that death can always be escaped
+  - They have no particular cultural function
+  answer: 1
+  explanation: Underworld descents are profound narratives that allow cultures to contemplate death, encounter the dead, and explore what forbidden knowledge costs. They depict liminality—a character crossing from the living world into the world of the dead. This boundary-crossing often brings transformation or insight.
 
-  - type: multiple-choice
-    question: "What typically determines whether an underworld descent is successful?"
-    options:
-      - "The hero's physical strength is always sufficient"
-      - "The specific condition for return—often a prohibition that the hero must observe, or a price that must be paid"
-      - "Success is random and unpredictable"
-      - "The hero's intentions are always honored regardless of circumstances"
-    correct: "B"
-    explanation: "Underworld descents typically involve specific rules or conditions. Orpheus loses Eurydice because he looks back (violating the prohibition). Persephone's return requires compromise. The conditions for return reveal what the underworld descent narrative values: obedience, sacrifice, or negotiation."
+- question: What typically determines whether an underworld descent is successful?
+  type: multiple-choice
+  options:
+  - The hero's physical strength is always sufficient
+  - The specific condition for return—often a prohibition that the hero must observe, or a price that must be paid
+  - Success is random and unpredictable
+  - The hero's intentions are always honored regardless of circumstances
+  answer: 1
+  explanation: 'Underworld descents typically involve specific rules or conditions. Orpheus loses Eurydice because he looks back (violating the prohibition). Persephone''s return requires compromise. The conditions for return reveal what the underworld descent narrative values: obedience, sacrifice, or negotiation.'
 
-  - type: true-false
-    question: "All underworld descents in mythology follow the pattern of seeking to rescue a beloved, as in the Orpheus myth."
-    correct: false
-    explanation: "While romantic rescue is one common form, underworld descents serve many purposes: seeking knowledge (Odysseus consulting the dead), performing a task (Aeneas seeking his father's guidance), initiatory experience, or exploration of the dead's world itself."
+- question: All underworld descents in mythology follow the pattern of seeking to rescue a beloved, as in the Orpheus myth.
+  type: true-false
+  answer: false
+  explanation: 'While romantic rescue is one common form, underworld descents serve many purposes: seeking knowledge (Odysseus consulting the dead), performing a task (Aeneas seeking his father''s guidance), initiatory experience, or exploration of the dead''s world itself.'
 
-  - type: true-false
-    question: "Underworld journeys in mythology always end with the hero successfully retrieving what they sought."
-    correct: false
-    explanation: "Many descents end in failure or partial success. Orpheus fails to bring back Eurydice. Other descents may retrieve knowledge or transformation but not the original goal. Failure or partial success is often meaningful."
+- question: Underworld journeys in mythology always end with the hero successfully retrieving what they sought.
+  type: true-false
+  answer: false
+  explanation: Many descents end in failure or partial success. Orpheus fails to bring back Eurydice. Other descents may retrieve knowledge or transformation but not the original goal. Failure or partial success is often meaningful.
 
-  - type: short-answer
-    question: "Explain what an underworld descent narrative reveals about a culture's understanding of death and what it means to cross the boundary between life and death."
-    explanation: "An underworld descent reveals that death is understood not simply as absence but as a realm with its own geography, governance, and inhabitants. The fact that a living person can descend, encounter the dead, and (sometimes) return suggests death is not an absolute, final boundary but a crossing into another place. The structure of the underworld—who governs it, what trials are present, what rules apply—reveals the culture's beliefs about death's nature and justice. The conditions for return reveal what the culture values: a prohibition teaches respect for limits; a price teaches that return has cost; success through cunning teaches that intelligence can overcome death's barriers. By depicting descent and return, cultures work through anxiety about death at a narrative distance, allowing the living to contemplate the underworld without dying."
+- question: Explain what an underworld descent narrative reveals about a culture's understanding of death and what it means to cross the boundary between life and death.
+  type: short-answer
+  explanation: 'An underworld descent reveals that death is understood not simply as absence but as a realm with its own geography, governance, and inhabitants. The fact that a living person can descend, encounter the dead, and (sometimes) return suggests death is not an absolute, final boundary but a crossing into another place. The structure of the underworld—who governs it, what trials are present, what rules apply—reveals the culture''s beliefs about death''s nature and justice. The conditions for return reveal what the culture values: a prohibition teaches respect for limits; a price teaches that return has cost; success through cunning teaches that intelligence can overcome death''s barriers. By depicting descent and return, cultures work through anxiety about death at a narrative distance, allowing the living to contemplate the underworld without dying.'
 ```
 
 ## Explainer

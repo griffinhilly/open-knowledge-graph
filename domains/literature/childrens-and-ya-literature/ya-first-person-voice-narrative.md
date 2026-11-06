@@ -28,35 +28,39 @@ Analyze voice in first-person YA novels, examining how contemporary language, in
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What does first-person narration accomplish specifically in YA literature?"
-    options:
-      - "First-person narration serves no special function"
-      - "It creates narrative immediacy and psychological intimacy—readers experience events directly through the protagonist's perspective, creating close identification and emotional investment"
-      - "All narrative perspectives are identical"
-      - "First-person narration is inappropriate for YA"
-    answer: 1
-    explanation: "First-person perspective places readers inside the protagonist's consciousness, creating direct access to internal experience and building psychological identification that supports emotional engagement."
-  - question: "How do YA authors balance teen authenticity with literary sophistication in first-person voice?"
-    options:
-      - "They don't—authenticity and sophistication are incompatible"
-      - "Using contemporary language and internal voice that feel authentically teenage while maintaining narrative complexity, literary structure, and thematic depth"
-      - "YA voice should be as simple as possible"
-      - "Literary sophistication must be sacrificed for authenticity"
-    answer: 1
-    explanation: "Effective YA first-person voices use accessible, contemporary language while employing sophisticated narrative techniques, demonstrating that authenticity and literary quality can coexist."
+- question: What does first-person narration accomplish specifically in YA literature?
+  type: multiple-choice
+  options:
+  - First-person narration serves no special function
+  - It creates narrative immediacy and psychological intimacy—readers experience events directly through the protagonist's perspective, creating close identification and emotional investment
+  - All narrative perspectives are identical
+  - First-person narration is inappropriate for YA
+  answer: 1
+  explanation: First-person perspective places readers inside the protagonist's consciousness, creating direct access to internal experience and building psychological identification that supports emotional engagement.
 
-true-false:
-  - question: "True or False: The dominance of first-person narration in contemporary YA is a recent development."
-    answer: false
-    explanation: "False. First-person narration has been dominant in YA for decades, though contemporary YA increasingly uses it almost exclusively."
-  - question: "True or False: A first-person narrator's unreliability or limited perspective can be thematically important in YA."
-    answer: true
-    explanation: "True. Some YA narratives deliberately use first-person perspective's limitations—unreliable narrators, limited knowledge—to create thematic meaning or surprise."
+- question: How do YA authors balance teen authenticity with literary sophistication in first-person voice?
+  type: multiple-choice
+  options:
+  - They don't—authenticity and sophistication are incompatible
+  - Using contemporary language and internal voice that feel authentically teenage while maintaining narrative complexity, literary structure, and thematic depth
+  - YA voice should be as simple as possible
+  - Literary sophistication must be sacrificed for authenticity
+  answer: 1
+  explanation: Effective YA first-person voices use accessible, contemporary language while employing sophisticated narrative techniques, demonstrating that authenticity and literary quality can coexist.
 
-short-answer:
-  - question: "Analyze the first-person voice in a YA novel you've read. How does the narrator's particular voice and tone affect your reading experience? What does this voice reveal about the character?"
-    explanation: "Your answer should identify specific features of the voice: word choice and vocabulary that feel contemporary or authentic; tone that conveys the character's attitude toward events; internal observations that reveal psychology or growth; limitations in what the narrator knows or understands. For example, a sarcastic first-person narrator invites readers into ironic distance from events; a confused or uncertain narrator creates reader engagement as readers work to understand along with the protagonist. The voice should reveal character through language: how the narrator speaks reveals their background, education, emotional state, values. Effective YA first-person voice creates readers feeling they know the character intimately while maintaining literary sophistication."
+- question: 'True or False: The dominance of first-person narration in contemporary YA is a recent development.'
+  type: true-false
+  answer: false
+  explanation: False. First-person narration has been dominant in YA for decades, though contemporary YA increasingly uses it almost exclusively.
+
+- question: 'True or False: A first-person narrator''s unreliability or limited perspective can be thematically important in YA.'
+  type: true-false
+  answer: true
+  explanation: True. Some YA narratives deliberately use first-person perspective's limitations—unreliable narrators, limited knowledge—to create thematic meaning or surprise.
+
+- question: Analyze the first-person voice in a YA novel you've read. How does the narrator's particular voice and tone affect your reading experience? What does this voice reveal about the character?
+  type: short-answer
+  explanation: 'Your answer should identify specific features of the voice: word choice and vocabulary that feel contemporary or authentic; tone that conveys the character''s attitude toward events; internal observations that reveal psychology or growth; limitations in what the narrator knows or understands. For example, a sarcastic first-person narrator invites readers into ironic distance from events; a confused or uncertain narrator creates reader engagement as readers work to understand along with the protagonist. The voice should reveal character through language: how the narrator speaks reveals their background, education, emotional state, values. Effective YA first-person voice creates readers feeling they know the character intimately while maintaining literary sophistication.'
 ```
 
 ## Explainer

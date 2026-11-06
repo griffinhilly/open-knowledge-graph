@@ -32,39 +32,39 @@ Qing novels are not simple entertainment without literary sophistication; they c
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What was the literary innovation of Qing Dynasty novelists in developing the vernacular novel form?"
+- question: What was the literary innovation of Qing Dynasty novelists in developing the vernacular novel form?
+  type: multiple-choice
   options:
-    - "They were the first to write novels in any language"
-    - "They elevated the vernacular novel from entertainment into a major literary form capable of psychological depth, social realism, and structural sophistication"
-    - "They rejected all forms of storytelling in favor of poetry"
-    - "They attempted to imitate European novels without success"
+  - They were the first to write novels in any language
+  - They elevated the vernacular novel from entertainment into a major literary form capable of psychological depth, social realism, and structural sophistication
+  - They rejected all forms of storytelling in favor of poetry
+  - They attempted to imitate European novels without success
   answer: 1
-  explanation: "Before the Qing, vernacular novels in China were often considered entertainment for popular audiences, less serious than classical literary forms written in wenyan (literary Chinese). Qing novelists transformed this perception by creating vernacular novels of unprecedented artistic ambition. The Dream of the Red Chamber, for example, combines episodic entertainment narrative with sustained psychological realism, social observation, and philosophical depth. The form allows for extensive development of character relationships, exploration of Confucian values and their contradictions, and critique of social institutions. By achieving such literary sophistication in the vernacular form, Qing novelists demonstrated that the vernacular novel could express ideas as complex as classical literature, making it a major literary form rather than mere entertainment."
+  explanation: Before the Qing, vernacular novels in China were often considered entertainment for popular audiences, less serious than classical literary forms written in wenyan (literary Chinese). Qing novelists transformed this perception by creating vernacular novels of unprecedented artistic ambition. The Dream of the Red Chamber, for example, combines episodic entertainment narrative with sustained psychological realism, social observation, and philosophical depth. The form allows for extensive development of character relationships, exploration of Confucian values and their contradictions, and critique of social institutions. By achieving such literary sophistication in the vernacular form, Qing novelists demonstrated that the vernacular novel could express ideas as complex as classical literature, making it a major literary form rather than mere entertainment.
 
-- type: multiple-choice
-  question: "How do Qing Dynasty novels use family narratives to achieve social critique?"
+- question: How do Qing Dynasty novels use family narratives to achieve social critique?
+  type: multiple-choice
   options:
-    - "Family narratives are purely personal stories without social significance"
-    - "Qing novels use expansive family narratives to represent larger social structures, exploring how Confucian values, gender relationships, and economic decline operate within family life"
-    - "Social critique requires rejecting family narratives entirely"
-    - "Family narratives in Chinese literature are always celebratory without critical dimension"
+  - Family narratives are purely personal stories without social significance
+  - Qing novels use expansive family narratives to represent larger social structures, exploring how Confucian values, gender relationships, and economic decline operate within family life
+  - Social critique requires rejecting family narratives entirely
+  - Family narratives in Chinese literature are always celebratory without critical dimension
   answer: 1
-  explanation: "The genius of Qing novels lies in recognizing that family dynamics are not private but social. The family is a microcosm of larger Confucian society—the relationships between parents and children, husbands and wives, older and younger family members reflect hierarchical principles that structure all social relations. By depicting family life in extensive detail, Qing novelists can explore both intimate relationships and broader social structures simultaneously. The Dream of the Red Chamber depicts the Jia family's gradual decline, showing how economic pressures, changing values, and individual passions disrupt traditional family order. This narrative simultaneously celebrates certain values (loyalty, duty) while critiquing others (rigid hierarchy, limited female agency). The family narrative thus becomes a vehicle for exploring contradictions within Confucian social order itself."
+  explanation: The genius of Qing novels lies in recognizing that family dynamics are not private but social. The family is a microcosm of larger Confucian society—the relationships between parents and children, husbands and wives, older and younger family members reflect hierarchical principles that structure all social relations. By depicting family life in extensive detail, Qing novelists can explore both intimate relationships and broader social structures simultaneously. The Dream of the Red Chamber depicts the Jia family's gradual decline, showing how economic pressures, changing values, and individual passions disrupt traditional family order. This narrative simultaneously celebrates certain values (loyalty, duty) while critiquing others (rigid hierarchy, limited female agency). The family narrative thus becomes a vehicle for exploring contradictions within Confucian social order itself.
 
-- type: true-false
-  statement: "Qing Dynasty novels achieve their psychological realism by focusing on individual interior consciousness in isolation from social context."
+- question: Qing Dynasty novels achieve their psychological realism by focusing on individual interior consciousness in isolation from social context.
+  type: true-false
   answer: false
-  explanation: "This misconception treats psychological realism as concerned with isolated subjectivity. In fact, Qing novels integrate psychological realism with social observation. Characters' inner thoughts and motivations are shown to be shaped by social position, family duty, and cultural expectations. A character's longing, fear, or ambition is depicted as emerging from and shaped by their specific social location within family and society. This integration of psychology and social context allows Qing novelists to show how social structures operate not merely as external constraints but as internalized frameworks shaping consciousness itself. The realism is both psychological and social simultaneously."
+  explanation: This misconception treats psychological realism as concerned with isolated subjectivity. In fact, Qing novels integrate psychological realism with social observation. Characters' inner thoughts and motivations are shown to be shaped by social position, family duty, and cultural expectations. A character's longing, fear, or ambition is depicted as emerging from and shaped by their specific social location within family and society. This integration of psychology and social context allows Qing novelists to show how social structures operate not merely as external constraints but as internalized frameworks shaping consciousness itself. The realism is both psychological and social simultaneously.
 
-- type: true-false
-  statement: "The use of vernacular language in Qing novels indicates that these works are less sophisticated than classical literature written in literary Chinese (wenyan)."
+- question: The use of vernacular language in Qing novels indicates that these works are less sophisticated than classical literature written in literary Chinese (wenyan).
+  type: true-false
   answer: false
-  explanation: "This is a common misconception reflecting classical elite biases. The choice of vernacular language was itself a sophisticated literary decision. By using vernacular, Qing novelists could create more natural dialogue, represent characters from diverse social positions and educational levels, and appeal to broader audiences while maintaining artistic ambition. The vernacular form did not limit sophistication but offered particular possibilities: it allowed for more direct representation of character voice and thought, for greater flexibility in narrative perspective, for more accessible exploration of complex ideas. Using vernacular does not mean less sophisticated; it means differently sophisticated—using the resources of spoken language to achieve effects that wenyan could not."
+  explanation: 'This is a common misconception reflecting classical elite biases. The choice of vernacular language was itself a sophisticated literary decision. By using vernacular, Qing novelists could create more natural dialogue, represent characters from diverse social positions and educational levels, and appeal to broader audiences while maintaining artistic ambition. The vernacular form did not limit sophistication but offered particular possibilities: it allowed for more direct representation of character voice and thought, for greater flexibility in narrative perspective, for more accessible exploration of complex ideas. Using vernacular does not mean less sophisticated; it means differently sophisticated—using the resources of spoken language to achieve effects that wenyan could not.'
 
-- type: short-answer
-  question: "How do Qing Dynasty novels combine episodic entertainment narrative with sustained social and philosophical critique, and what does this reveal about the relationship between form and meaning in the novel tradition?"
-  explanation: "Qing novels like The Dream of the Red Chamber are structured so that individual episodes can be read as entertaining stories while simultaneously contributing to larger narrative arcs and thematic development. Each episode depicts dramatic events, romantic entanglements, or family crises that are engaging in themselves, but these episodes accumulate to explore larger patterns: how family order erodes, how Confucian values create both meaning and suffering, how individual desires conflict with social duty. This structure allows the novel to reach audiences at multiple levels—those seeking entertainment can enjoy individual episodes, while those capable of following larger patterns can appreciate the sustained social and philosophical exploration. This reveals that form is not merely decorative but constitutive of meaning. The episodic form itself allows simultaneity: a work can be entertaining and philosophically sophisticated, popular and artistically ambitious. The form creates the conditions for the novel to function at multiple registers simultaneously, reaching broader audiences while achieving genuine complexity."
+- question: How do Qing Dynasty novels combine episodic entertainment narrative with sustained social and philosophical critique, and what does this reveal about the relationship between form and meaning in the novel tradition?
+  type: short-answer
+  explanation: 'Qing novels like The Dream of the Red Chamber are structured so that individual episodes can be read as entertaining stories while simultaneously contributing to larger narrative arcs and thematic development. Each episode depicts dramatic events, romantic entanglements, or family crises that are engaging in themselves, but these episodes accumulate to explore larger patterns: how family order erodes, how Confucian values create both meaning and suffering, how individual desires conflict with social duty. This structure allows the novel to reach audiences at multiple levels—those seeking entertainment can enjoy individual episodes, while those capable of following larger patterns can appreciate the sustained social and philosophical exploration. This reveals that form is not merely decorative but constitutive of meaning. The episodic form itself allows simultaneity: a work can be entertaining and philosophically sophisticated, popular and artistically ambitious. The form creates the conditions for the novel to function at multiple registers simultaneously, reaching broader audiences while achieving genuine complexity.'
 ```
 
 ## Explainer

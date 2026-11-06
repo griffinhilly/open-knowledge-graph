@@ -32,36 +32,39 @@ Read genre fiction acclaimed as literary (Atwood's Handmaid's Tale, McCarthy's B
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "According to the core idea, what is the nature of the boundary between genre and literary fiction?"
-    options:
-      - "It is a natural and inherent distinction based on artistic quality"
-      - "It is historically constructed and contested rather than inherent"
-      - "Genre fiction came before literary fiction chronologically"
-      - "It is primarily based on page length and publication format"
-    correct_answer: 1
-    explanation: "The core idea explicitly states that 'the boundary between genre and literary fiction is historically constructed and contested rather than inherent,' indicating this is a social construct not a natural category."
-  - type: multiple-choice
-    question: "Historically, how was genre fiction typically viewed relative to literary fiction?"
-    options:
-      - "As equally prestigious and respected"
-      - "As more innovative and experimental"
-      - "As inferior—formulaic, commercial, and unsophisticated"
-      - "As the primary focus of literary study"
-    correct_answer: 2
-    explanation: "The core idea notes that 'genre fiction was long dismissed as inferior—formulaic, commercial, unsophisticated,' describing a historical devaluation of the genre category."
-  - type: true-false
-    question: "Contemporary literature increasingly blurs the distinctions between genre and literary fiction."
-    correct_answer: true
-    explanation: "The core idea explicitly states that 'contemporary literature increasingly blurs these distinctions,' indicating that the boundary is becoming less clear in current practice."
-  - type: true-false
-    question: "Works like Margaret Atwood's The Handmaid's Tale are primarily examples of pure literary fiction with no genre elements."
-    correct_answer: false
-    explanation: "The core idea lists Atwood's Handmaid's Tale as an example of 'genre fiction acclaimed as literary,' indicating it uses speculative/dystopian genre conventions while achieving literary prestige."
-  - type: short-answer
-    question: "What assumptions about artistic merit, commercial appeal, or cultural value might support the traditional hierarchy placing literary fiction above genre fiction? Why might these assumptions be questionable?"
-    explanation: "A good answer should recognize that the traditional hierarchy assumes that literary innovation is inherently superior to genre conventions, that commercial popularity indicates lesser quality, or that formal experimentation equals greater artistic merit. The answer should question these assumptions by noting that skill exists across both categories and that different criteria and values shape each tradition. Students should recognize that the boundary reflects cultural assumptions rather than objective artistic truth."
+- question: According to the core idea, what is the nature of the boundary between genre and literary fiction?
+  type: multiple-choice
+  options:
+  - It is a natural and inherent distinction based on artistic quality
+  - It is historically constructed and contested rather than inherent
+  - Genre fiction came before literary fiction chronologically
+  - It is primarily based on page length and publication format
+  answer: 1
+  explanation: The core idea explicitly states that 'the boundary between genre and literary fiction is historically constructed and contested rather than inherent,' indicating this is a social construct not a natural category.
+
+- question: Historically, how was genre fiction typically viewed relative to literary fiction?
+  type: multiple-choice
+  options:
+  - As equally prestigious and respected
+  - As more innovative and experimental
+  - As inferior—formulaic, commercial, and unsophisticated
+  - As the primary focus of literary study
+  answer: 2
+  explanation: The core idea notes that 'genre fiction was long dismissed as inferior—formulaic, commercial, unsophisticated,' describing a historical devaluation of the genre category.
+
+- question: Contemporary literature increasingly blurs the distinctions between genre and literary fiction.
+  type: true-false
+  answer: true
+  explanation: The core idea explicitly states that 'contemporary literature increasingly blurs these distinctions,' indicating that the boundary is becoming less clear in current practice.
+
+- question: Works like Margaret Atwood's The Handmaid's Tale are primarily examples of pure literary fiction with no genre elements.
+  type: true-false
+  answer: false
+  explanation: The core idea lists Atwood's Handmaid's Tale as an example of 'genre fiction acclaimed as literary,' indicating it uses speculative/dystopian genre conventions while achieving literary prestige.
+
+- question: What assumptions about artistic merit, commercial appeal, or cultural value might support the traditional hierarchy placing literary fiction above genre fiction? Why might these assumptions be questionable?
+  type: short-answer
+  explanation: A good answer should recognize that the traditional hierarchy assumes that literary innovation is inherently superior to genre conventions, that commercial popularity indicates lesser quality, or that formal experimentation equals greater artistic merit. The answer should question these assumptions by noting that skill exists across both categories and that different criteria and values shape each tradition. Students should recognize that the boundary reflects cultural assumptions rather than objective artistic truth.
 ```
 
 ## Explainer

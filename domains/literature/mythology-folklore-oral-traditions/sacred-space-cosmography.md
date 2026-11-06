@@ -34,40 +34,39 @@ Sacred space is purely imaginary. (Sacred space often correlates with actual lan
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What is the 'axis mundi' and what function does it serve in sacred cosmography?"
-    options:
-      - "It is a decorative symbol with no structural meaning"
-      - "It is the central cosmic axis or point connecting different realms, establishing a hierarchy of worlds and enabling movement between them"
-      - "It refers to the boundary that separates the sacred from the profane"
-      - "It is purely a poetic metaphor with no cultural function"
-    correct: "B"
-    explanation: "The axis mundi (world axis) is a structural principle in many cosmographies: a vertical or central point that connects different realms—the heavens above, the earth, and the underworld. The axis enables cosmic coherence and movement between realms. It can be represented as a tree (Yggdrasil), a mountain (Mt. Meru), a rope or staff, or a pillar. Understanding the axis is key to understanding mythic space."
+- question: What is the 'axis mundi' and what function does it serve in sacred cosmography?
+  type: multiple-choice
+  options:
+  - It is a decorative symbol with no structural meaning
+  - It is the central cosmic axis or point connecting different realms, establishing a hierarchy of worlds and enabling movement between them
+  - It refers to the boundary that separates the sacred from the profane
+  - It is purely a poetic metaphor with no cultural function
+  answer: 1
+  explanation: 'The axis mundi (world axis) is a structural principle in many cosmographies: a vertical or central point that connects different realms—the heavens above, the earth, and the underworld. The axis enables cosmic coherence and movement between realms. It can be represented as a tree (Yggdrasil), a mountain (Mt. Meru), a rope or staff, or a pillar. Understanding the axis is key to understanding mythic space.'
 
-  - type: multiple-choice
-    question: "How do sacred cosmographies relate to actual physical geography?"
-    options:
-      - "They have no relationship; sacred space is purely imaginative"
-      - "Cultures often map their lived landscape and significant geographical features into mythic cosmography, so sacred space echoes and transforms physical reality"
-      - "Physical geography and mythic space are completely identical"
-      - "Sacred cosmography is merely a symbolic representation without any real-world reference"
-    correct: "B"
-    explanation: "Sacred space is not divorced from physical reality. Cultures map real landscapes—mountains, rivers, forests, temples—into cosmic structures. A sacred mountain becomes the axis mundi; a river becomes a boundary between realms. Real pilgrimage routes follow mythic geography. This transforms physical space into sacred geography."
+- question: How do sacred cosmographies relate to actual physical geography?
+  type: multiple-choice
+  options:
+  - They have no relationship; sacred space is purely imaginative
+  - Cultures often map their lived landscape and significant geographical features into mythic cosmography, so sacred space echoes and transforms physical reality
+  - Physical geography and mythic space are completely identical
+  - Sacred cosmography is merely a symbolic representation without any real-world reference
+  answer: 1
+  explanation: Sacred space is not divorced from physical reality. Cultures map real landscapes—mountains, rivers, forests, temples—into cosmic structures. A sacred mountain becomes the axis mundi; a river becomes a boundary between realms. Real pilgrimage routes follow mythic geography. This transforms physical space into sacred geography.
 
-  - type: true-false
-    question: "All cultures organize sacred cosmography identically, with the same hierarchy of realms and axis structure."
-    correct: false
-    explanation: "Cultures organize sacred space radically differently based on their geography, values, and philosophical systems. Some emphasize vertical hierarchies (heaven/earth/underworld); others emphasize horizontal division (cardinal directions, center/periphery). The cosmic structure is culturally variable."
+- question: All cultures organize sacred cosmography identically, with the same hierarchy of realms and axis structure.
+  type: true-false
+  answer: false
+  explanation: Cultures organize sacred space radically differently based on their geography, values, and philosophical systems. Some emphasize vertical hierarchies (heaven/earth/underworld); others emphasize horizontal division (cardinal directions, center/periphery). The cosmic structure is culturally variable.
 
-  - type: true-false
-    question: "Sacred space is purely psychological and metaphorical, with no connection to actual ritual practice or architectural design."
-    correct: false
-    explanation: "Sacred cosmography shapes ritual practice, temple architecture, and how people physically move through space. Temples are often built to embody cosmic structure. Ritual movement replicates mythic journeys. Sacred space is both imagined and lived."
+- question: Sacred space is purely psychological and metaphorical, with no connection to actual ritual practice or architectural design.
+  type: true-false
+  answer: false
+  explanation: Sacred cosmography shapes ritual practice, temple architecture, and how people physically move through space. Temples are often built to embody cosmic structure. Ritual movement replicates mythic journeys. Sacred space is both imagined and lived.
 
-  - type: short-answer
-    question: "Explain how a culture's sacred cosmography both reflects its physical geography and shapes how people interact with that geography through ritual and architecture."
-    explanation: "A culture's understanding of sacred space emerges from and shapes its environment. A mountainous culture might establish a high mountain as the axis mundi, a cosmic connection point between earth and heaven. A river-based culture might organize realms around a central river and its cardinal directions. Temple architecture then embodies this cosmography: a temple might be designed so that one approaches the center (axis point) from the cardinal directions, replicating cosmic structure in physical space. Pilgrimage routes follow mythic geography, turning actual journeys into cosmic voyages. An individual moving through this sacred space is simultaneously moving through actual landscape and through mythic cosmos. The two are superimposed. This means sacred cosmography is neither purely imaginary nor purely literal, but a way of investing physical reality with cosmic meaning. Understanding the cosmography helps people navigate both the physical world and the sacred realm."
+- question: Explain how a culture's sacred cosmography both reflects its physical geography and shapes how people interact with that geography through ritual and architecture.
+  type: short-answer
+  explanation: 'A culture''s understanding of sacred space emerges from and shapes its environment. A mountainous culture might establish a high mountain as the axis mundi, a cosmic connection point between earth and heaven. A river-based culture might organize realms around a central river and its cardinal directions. Temple architecture then embodies this cosmography: a temple might be designed so that one approaches the center (axis point) from the cardinal directions, replicating cosmic structure in physical space. Pilgrimage routes follow mythic geography, turning actual journeys into cosmic voyages. An individual moving through this sacred space is simultaneously moving through actual landscape and through mythic cosmos. The two are superimposed. This means sacred cosmography is neither purely imaginary nor purely literal, but a way of investing physical reality with cosmic meaning. Understanding the cosmography helps people navigate both the physical world and the sacred realm.'
 ```
 
 ## Explainer

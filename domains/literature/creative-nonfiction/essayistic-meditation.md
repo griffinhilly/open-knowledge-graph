@@ -25,39 +25,39 @@ Meditative essays privilege reflection over reportage, using personal experience
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "How does a meditative essay use personal experience?"
+- question: How does a meditative essay use personal experience?
+  type: multiple-choice
   options:
-    - "It reports personal experience as the main subject of the essay."
-    - "It uses personal experience as a springboard into philosophical or broader reflection."
-    - "Personal experience is irrelevant to meditative essays."
-    - "Meditative essays replace personal experience with abstract theory."
+  - It reports personal experience as the main subject of the essay.
+  - It uses personal experience as a springboard into philosophical or broader reflection.
+  - Personal experience is irrelevant to meditative essays.
+  - Meditative essays replace personal experience with abstract theory.
   answer: 1
-  explanation: "A meditative essay might start with a personal moment—a memory, an observation, an experience—and use that as entry point into broader philosophical inquiry. The personal detail isn't the endpoint; it's a doorway into deeper reflection."
+  explanation: A meditative essay might start with a personal moment—a memory, an observation, an experience—and use that as entry point into broader philosophical inquiry. The personal detail isn't the endpoint; it's a doorway into deeper reflection.
 
-- type: multiple-choice
-  question: "What does it mean that meditative essays 'circle around themes without reaching conclusions'?"
+- question: What does it mean that meditative essays 'circle around themes without reaching conclusions'?
+  type: multiple-choice
   options:
-    - "These essays are incomplete or poorly written."
-    - "The essay returns to recurring preoccupations from different angles, valuing the exploration itself rather than closure."
-    - "Meditative essays are pointless."
-    - "Conclusions are always required in essays."
+  - These essays are incomplete or poorly written.
+  - The essay returns to recurring preoccupations from different angles, valuing the exploration itself rather than closure.
+  - Meditative essays are pointless.
+  - Conclusions are always required in essays.
   answer: 1
-  explanation: "Rather than building toward a conclusion, meditative essays might return to a theme repeatedly, approaching it from different angles. Each approach reveals something new. The value is in the recursive exploration, not in final resolution. Some insights resist conclusions."
+  explanation: Rather than building toward a conclusion, meditative essays might return to a theme repeatedly, approaching it from different angles. Each approach reveals something new. The value is in the recursive exploration, not in final resolution. Some insights resist conclusions.
 
-- type: true-false
-  statement: "True: In meditative essays, the quality of attention and reflection matters more than advancing an argument or reaching a conclusion."
+- question: 'True: In meditative essays, the quality of attention and reflection matters more than advancing an argument or reaching a conclusion.'
+  type: true-false
   answer: true
-  explanation: "This is central to meditative form. These essays ask: what happens if I pay careful attention to this question or experience? What does reflection reveal? They're not trying to prove anything; they're trying to understand deeply. The meditation itself is the point."
+  explanation: 'This is central to meditative form. These essays ask: what happens if I pay careful attention to this question or experience? What does reflection reveal? They''re not trying to prove anything; they''re trying to understand deeply. The meditation itself is the point.'
 
-- type: true-false
-  statement: "False: A meditative essay that doesn't clearly advance toward a conclusion is failing to accomplish the essay's purpose."
+- question: 'False: A meditative essay that doesn''t clearly advance toward a conclusion is failing to accomplish the essay''s purpose.'
+  type: true-false
   answer: false
-  explanation: "This is false. Some forms of the essay do work toward conclusions, but meditative essays have different purposes. They aim for depth of reflection, beauty of attention, quality of thought. Not concluding can be exactly right for these goals. Different essay forms have different purposes."
+  explanation: This is false. Some forms of the essay do work toward conclusions, but meditative essays have different purposes. They aim for depth of reflection, beauty of attention, quality of thought. Not concluding can be exactly right for these goals. Different essay forms have different purposes.
 
-- type: short-answer
-  question: "How might a meditative essay approach a difficult concept (loss, mortality, beauty, justice) differently than an argumentative essay? What does meditation offer?"
-  explanation: "An argumentative essay would present a claim about the concept: 'X is fundamentally about Y' and support it with evidence. A meditative essay might circle around the concept, examining it from multiple angles, reflecting on different dimensions. It might present contradictions—loss is both terrible and transformative—without trying to resolve them. Where argument reaches clarity, meditation offers depth. Where argument convinces, meditation reveals. For some concepts, especially those touching human experience deeply, meditation is more honest than argument. You can't really argue about what mortality means; you can only think about it carefully, reflecting on different experiences and implications. Meditation privileges this kind of thoughtful attention."
+- question: How might a meditative essay approach a difficult concept (loss, mortality, beauty, justice) differently than an argumentative essay? What does meditation offer?
+  type: short-answer
+  explanation: 'An argumentative essay would present a claim about the concept: ''X is fundamentally about Y'' and support it with evidence. A meditative essay might circle around the concept, examining it from multiple angles, reflecting on different dimensions. It might present contradictions—loss is both terrible and transformative—without trying to resolve them. Where argument reaches clarity, meditation offers depth. Where argument convinces, meditation reveals. For some concepts, especially those touching human experience deeply, meditation is more honest than argument. You can''t really argue about what mortality means; you can only think about it carefully, reflecting on different experiences and implications. Meditation privileges this kind of thoughtful attention.'
 ```
 
 ## Explainer

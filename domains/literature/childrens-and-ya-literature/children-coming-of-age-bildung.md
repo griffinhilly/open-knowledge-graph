@@ -25,35 +25,39 @@ The bildungsroman or coming-of-age narrative in children's literature follows a 
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What is the central focus of a bildungsroman or coming-of-age narrative?"
-    options:
-      - "The protagonist's romantic relationship throughout adulthood"
-      - "A chronological record of historical events"
-      - "The protagonist's psychological and moral development from limitation or immaturity toward greater self-understanding and maturity"
-      - "A detailed description of the physical setting where the story takes place"
-    answer: 2
-    explanation: "The bildungsroman traces internal character transformation—how a protagonist grows, learns, and develops morally and psychologically through experience."
-  - question: "How is the scope of coming-of-age narratives in children's literature typically different from bildungsromans written for adult audiences?"
-    options:
-      - "Children's coming-of-age stories span entire lifetimes"
-      - "Children's coming-of-age narratives are typically bounded by a shorter timeframe (single incident or year) and focus on specific developmental moments rather than comprehensive life-spanning transformation"
-      - "Children's stories do not depict any character development"
-      - "The scope is essentially identical to adult bildungsromans"
-    answer: 1
-    explanation: "Children's coming-of-age stories typically focus on a transformative moment or bounded time period (a school year, a summer, a specific incident) rather than a character's entire journey to adulthood."
+- question: What is the central focus of a bildungsroman or coming-of-age narrative?
+  type: multiple-choice
+  options:
+  - The protagonist's romantic relationship throughout adulthood
+  - A chronological record of historical events
+  - The protagonist's psychological and moral development from limitation or immaturity toward greater self-understanding and maturity
+  - A detailed description of the physical setting where the story takes place
+  answer: 2
+  explanation: The bildungsroman traces internal character transformation—how a protagonist grows, learns, and develops morally and psychologically through experience.
 
-true-false:
-  - question: "True or False: In a coming-of-age narrative, the protagonist ends the story significantly more mature and self-aware than at the beginning."
-    answer: true
-    explanation: "This is true. The defining feature of bildungsroman is clear character transformation—the protagonist gains self-understanding and develops morally or psychologically through the events of the narrative."
-  - question: "True or False: Coming-of-age narratives focus primarily on external action and adventure rather than internal psychological development."
-    answer: false
-    explanation: "This is false. While coming-of-age stories may include action and adventure, their central focus is on the protagonist's internal transformation and developing self-awareness, not external challenges."
+- question: How is the scope of coming-of-age narratives in children's literature typically different from bildungsromans written for adult audiences?
+  type: multiple-choice
+  options:
+  - Children's coming-of-age stories span entire lifetimes
+  - Children's coming-of-age narratives are typically bounded by a shorter timeframe (single incident or year) and focus on specific developmental moments rather than comprehensive life-spanning transformation
+  - Children's stories do not depict any character development
+  - The scope is essentially identical to adult bildungsromans
+  answer: 1
+  explanation: Children's coming-of-age stories typically focus on a transformative moment or bounded time period (a school year, a summer, a specific incident) rather than a character's entire journey to adulthood.
 
-short-answer:
-  - question: "Why might an author frame a story as a coming-of-age narrative (showing psychological development and self-discovery) rather than simply an adventure or plot-driven story?"
-    explanation: "A coming-of-age frame invites readers to track the protagonist's internal journey alongside external events, focusing attention on how experiences change the protagonist's understanding of themselves and the world. This frame makes growth and self-discovery the primary narrative reward rather than external victory. For young readers, this emphasizes that personal development matters as much as external accomplishment, and that navigating challenges successfully contributes to who you become. The coming-of-age frame also creates empathetic identification: readers who are themselves navigating growth recognize the protagonist's journey as meaningful and relevant to their own lives. Additionally, this narrative approach suggests that life's significance often lies in what we learn about ourselves through challenges, not merely in whether we overcome those challenges."
+- question: 'True or False: In a coming-of-age narrative, the protagonist ends the story significantly more mature and self-aware than at the beginning.'
+  type: true-false
+  answer: true
+  explanation: This is true. The defining feature of bildungsroman is clear character transformation—the protagonist gains self-understanding and develops morally or psychologically through the events of the narrative.
+
+- question: 'True or False: Coming-of-age narratives focus primarily on external action and adventure rather than internal psychological development.'
+  type: true-false
+  answer: false
+  explanation: This is false. While coming-of-age stories may include action and adventure, their central focus is on the protagonist's internal transformation and developing self-awareness, not external challenges.
+
+- question: Why might an author frame a story as a coming-of-age narrative (showing psychological development and self-discovery) rather than simply an adventure or plot-driven story?
+  type: short-answer
+  explanation: 'A coming-of-age frame invites readers to track the protagonist''s internal journey alongside external events, focusing attention on how experiences change the protagonist''s understanding of themselves and the world. This frame makes growth and self-discovery the primary narrative reward rather than external victory. For young readers, this emphasizes that personal development matters as much as external accomplishment, and that navigating challenges successfully contributes to who you become. The coming-of-age frame also creates empathetic identification: readers who are themselves navigating growth recognize the protagonist''s journey as meaningful and relevant to their own lives. Additionally, this narrative approach suggests that life''s significance often lies in what we learn about ourselves through challenges, not merely in whether we overcome those challenges.'
 ```
 
 ## Explainer

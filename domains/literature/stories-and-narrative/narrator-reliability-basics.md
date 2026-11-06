@@ -34,35 +34,40 @@ Compare a story told by a character with known biases (a villain telling their o
 ## Questions
 
 ```yaml
-- question: "A narrator tells the story of her divorce, describing her ex-husband as cold, uncaring, and absent. She portrays herself as having done everything to save the marriage while he refused to engage. The narrator is reliable in her account of her own feelings and perspective. However, the ex-husband might describe the same marriage very differently. Does this make the narrator unreliable?"
+- question: A narrator tells the story of her divorce, describing her ex-husband as cold, uncaring, and absent. She portrays herself as having done everything to save the marriage while he refused to engage. The narrator is reliable in her account of her own feelings and perspective. However, the ex-husband might describe the same marriage very differently. Does this make the narrator unreliable?
+  type: multiple-choice
   options:
-    - "Yes, because the ex-husband would disagree"
-    - "No, she is reliable about her own perspective and experience. However, her account is subjective—it's her truth, not necessarily the objective truth of the marriage. Readers might recognize her perspective is limited or biased, but she's not lying about what she experienced"
-    - "All first-person narrators are unreliable"
-    - "Perspective doesn't matter to reliability"
+  - Yes, because the ex-husband would disagree
+  - No, she is reliable about her own perspective and experience. However, her account is subjective—it's her truth, not necessarily the objective truth of the marriage. Readers might recognize her perspective is limited or biased, but she's not lying about what she experienced
+  - All first-person narrators are unreliable
+  - Perspective doesn't matter to reliability
   answer: 1
-  explanation: "Reliability means telling the truth as the narrator understands it. A narrator can be reliable about their perspective while still having a limited or biased view. This is different from being unreliable, which means the narrator is lying, misremembering, or deliberately distorting. Understanding this distinction is important—reliable narrators have subjective perspectives; unreliable narrators don't tell the truth."
+  explanation: Reliability means telling the truth as the narrator understands it. A narrator can be reliable about their perspective while still having a limited or biased view. This is different from being unreliable, which means the narrator is lying, misremembering, or deliberately distorting. Understanding this distinction is important—reliable narrators have subjective perspectives; unreliable narrators don't tell the truth.
 
-- question: "A narrator describes a conversation with another character. The narrator says: 'He said I was lazy and didn't care about the relationship. I told him that was unfair.' Later, the other character describes the same conversation: 'I said I felt unsupported and was doing all the emotional work. She said I was being unfair.' The narrators' accounts conflict. Is one narrator unreliable?"
+- question: 'A narrator describes a conversation with another character. The narrator says: ''He said I was lazy and didn''t care about the relationship. I told him that was unfair.'' Later, the other character describes the same conversation: ''I said I felt unsupported and was doing all the emotional work. She said I was being unfair.'' The narrators'' accounts conflict. Is one narrator unreliable?'
+  type: multiple-choice
   options:
-    - "One must be lying"
-    - "Not necessarily. Both could be reliable but perceive events differently. The narrator emphasizes what was said (and reports it as heard), but people often hear accusations in words meant differently. Both might be accurately reporting what they heard and felt, but the objective truth of the conversation is more complex than either account captures"
-    - "The conversation never happened"
-    - "All reported conversations are false"
+  - One must be lying
+  - Not necessarily. Both could be reliable but perceive events differently. The narrator emphasizes what was said (and reports it as heard), but people often hear accusations in words meant differently. Both might be accurately reporting what they heard and felt, but the objective truth of the conversation is more complex than either account captures
+  - The conversation never happened
+  - All reported conversations are false
   answer: 1
-  explanation: "This demonstrates that conflicting reliable narrators show how subjective experience works. Two people in the same conversation can honestly remember it differently based on what they focused on, how they interpreted tone, and their own emotional state. Neither is lying; both are reliable within their perspective."
+  explanation: This demonstrates that conflicting reliable narrators show how subjective experience works. Two people in the same conversation can honestly remember it differently based on what they focused on, how they interpreted tone, and their own emotional state. Neither is lying; both are reliable within their perspective.
 
-- question: "True or False: An unreliable narrator is someone who doesn't understand something, even if they're telling what they genuinely believe to be true."
+- question: 'True or False: An unreliable narrator is someone who doesn''t understand something, even if they''re telling what they genuinely believe to be true.'
+  type: true-false
   answer: false
-  explanation: "If a narrator genuinely believes what they're saying, even if they're mistaken, they can still be considered reliable—they're reporting their true understanding. Unreliable narrators deliberately or unconsciously distort the truth they're aware of. Understanding without truth is limited perspective, not unreliability."
+  explanation: If a narrator genuinely believes what they're saying, even if they're mistaken, they can still be considered reliable—they're reporting their true understanding. Unreliable narrators deliberately or unconsciously distort the truth they're aware of. Understanding without truth is limited perspective, not unreliability.
 
-- question: "True or False: A third-person narrator who can only see one character's perspective can be unreliable."
+- question: 'True or False: A third-person narrator who can only see one character''s perspective can be unreliable.'
+  type: true-false
   answer: true
-  explanation: "Yes. Third-person limited narration is limited in scope but can be unreliable in credibility. A narrator who sees only one character's thoughts can still lie about what happens, can misinterpret events, or can hide information from readers. Limited perspective doesn't guarantee reliability."
+  explanation: Yes. Third-person limited narration is limited in scope but can be unreliable in credibility. A narrator who sees only one character's thoughts can still lie about what happens, can misinterpret events, or can hide information from readers. Limited perspective doesn't guarantee reliability.
 
-- question: "A narrator describes their own childhood as happy and warm, filled with loving parents and joyful memories. However, readers notice the narrator mentions getting hit 'as discipline' casually, shows fear of certain parent actions, and describes situations that suggest emotional manipulation. The narrator seems to genuinely believe their childhood was happy. Are they reliable or unreliable, and why?"
-  answer: "This is subtle unreliability. The narrator is not lying—they genuinely perceive their childhood as happy. However, readers see evidence that contradicts this perception (abuse, fear, manipulation). The narrator's account is unreliable not because they're deliberately deceitful, but because psychological factors (denial, normalization of abuse, trauma response) make their account inaccurate. This is insidious unreliability—more subtle and complex than an obvious liar. Readers must read between the lines to see what the narrator doesn't consciously acknowledge."
-  explanation: "This tests understanding that unreliability can be subtle and unconscious. The most interesting unreliable narrators aren't obviously lying—they're distorting truth through psychological mechanisms like denial or trauma response. Readers must assess reliability by comparing what narrators say to evidence in the text."
+- question: A narrator describes their own childhood as happy and warm, filled with loving parents and joyful memories. However, readers notice the narrator mentions getting hit 'as discipline' casually, shows fear of certain parent actions, and describes situations that suggest emotional manipulation. The narrator seems to genuinely believe their childhood was happy. Are they reliable or unreliable, and why?
+  type: short-answer
+  answer: This is subtle unreliability. The narrator is not lying—they genuinely perceive their childhood as happy. However, readers see evidence that contradicts this perception (abuse, fear, manipulation). The narrator's account is unreliable not because they're deliberately deceitful, but because psychological factors (denial, normalization of abuse, trauma response) make their account inaccurate. This is insidious unreliability—more subtle and complex than an obvious liar. Readers must read between the lines to see what the narrator doesn't consciously acknowledge.
+  explanation: This tests understanding that unreliability can be subtle and unconscious. The most interesting unreliable narrators aren't obviously lying—they're distorting truth through psychological mechanisms like denial or trauma response. Readers must assess reliability by comparing what narrators say to evidence in the text.
 ```
 
 ## Explainer

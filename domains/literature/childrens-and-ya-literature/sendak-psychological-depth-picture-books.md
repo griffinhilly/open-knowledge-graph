@@ -27,35 +27,39 @@ Examine Sendak's major picture books and his illustrations, studying how his wor
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What did Maurice Sendak's 'Where the Wild Things Are' establish as acceptable subject matter for picture books?"
-    options:
-      - "That picture books should only be cheerful and didactic"
-      - "That childhood fears, fantasies, and emotional complexity are serious subject matter worthy of literary exploration in picture books"
-      - "That picture books cannot address emotion"
-      - "That psychological depth is inappropriate for children"
-    answer: 1
-    explanation: "Sendak's work demonstrated that picture books could explore the genuine emotional and psychological lives of children—their anger, their fantasies, their desires—rather than reducing childhood to simple cheerfulness."
-  - question: "How does Sendak's illustration style support the psychological depth of his narratives?"
-    options:
-      - "His illustrations are merely decorative"
-      - "His expressive, sometimes dark illustrations show emotional states visually—the increasing size and wildness of the wild things, the crescendoing chaos, and Max's emotional journey are conveyed through visual power and composition"
-      - "Illustrations have nothing to do with emotion"
-      - "Sendak's illustrations are unrealistic"
-    answer: 1
-    explanation: "Sendak's illustrations don't simply show what text describes but convey emotional intensity, psychological states, and the reality of childhood imagination through expressive visual composition."
+- question: What did Maurice Sendak's 'Where the Wild Things Are' establish as acceptable subject matter for picture books?
+  type: multiple-choice
+  options:
+  - That picture books should only be cheerful and didactic
+  - That childhood fears, fantasies, and emotional complexity are serious subject matter worthy of literary exploration in picture books
+  - That picture books cannot address emotion
+  - That psychological depth is inappropriate for children
+  answer: 1
+  explanation: Sendak's work demonstrated that picture books could explore the genuine emotional and psychological lives of children—their anger, their fantasies, their desires—rather than reducing childhood to simple cheerfulness.
 
-true-false:
-  - question: "True or False: Sendak's willingness to depict disturbing or frightening imagery in picture books was unprecedented before his work."
-    answer: false
-    explanation: "False. Darker imagery existed in earlier picture books and fairytales, but Sendak's integration of psychological depth, disturbing imagery, and emotionally authentic exploration was innovative for the form."
-  - question: "True or False: Sendak's work reflects psychological and psychoanalytic concepts while remaining accessible to children."
-    answer: true
-    explanation: "True. Sendak's narratives engage with childhood psychological realities and fantasy in ways that reflect psychological thinking while remaining emotionally true to child experience."
+- question: How does Sendak's illustration style support the psychological depth of his narratives?
+  type: multiple-choice
+  options:
+  - His illustrations are merely decorative
+  - His expressive, sometimes dark illustrations show emotional states visually—the increasing size and wildness of the wild things, the crescendoing chaos, and Max's emotional journey are conveyed through visual power and composition
+  - Illustrations have nothing to do with emotion
+  - Sendak's illustrations are unrealistic
+  answer: 1
+  explanation: Sendak's illustrations don't simply show what text describes but convey emotional intensity, psychological states, and the reality of childhood imagination through expressive visual composition.
 
-short-answer:
-  - question: "Analyze how 'Where the Wild Things Are' functions as both an adventure narrative and a psychological exploration of anger, desire, and emotional regulation."
-    explanation: "The book works on multiple levels: As adventure, Max travels to a magical place and becomes king of wild creatures, experiencing power and freedom before returning home. As psychological narrative, Max's journey enacts emotional processing: his initial anger at his mother, his fantasy of escape and power, his eventual realization that he wants to be where someone loves him. The wild things represent Max's own wild impulses—his anger, his desires for freedom and power. The crescendoing wild rumpus shows Max's emotional intensity peaking, then subsiding. His return home represents integration and regulation—not suppression of wildness but acceptance and maturation. Sendak's illustrations convey this emotional journey visually: the increasing size and wildness of the wild things track Max's emotional intensity; the blank pages and visual space reflect his emotional journey. What makes this psychologically sophisticated while remaining accessible is that children experience it as a fun adventure (Max becomes king! There's a rumpus!) while also processing real emotional experience (anger, desire for power, love and belonging)."
+- question: 'True or False: Sendak''s willingness to depict disturbing or frightening imagery in picture books was unprecedented before his work.'
+  type: true-false
+  answer: false
+  explanation: False. Darker imagery existed in earlier picture books and fairytales, but Sendak's integration of psychological depth, disturbing imagery, and emotionally authentic exploration was innovative for the form.
+
+- question: 'True or False: Sendak''s work reflects psychological and psychoanalytic concepts while remaining accessible to children.'
+  type: true-false
+  answer: true
+  explanation: True. Sendak's narratives engage with childhood psychological realities and fantasy in ways that reflect psychological thinking while remaining emotionally true to child experience.
+
+- question: Analyze how 'Where the Wild Things Are' functions as both an adventure narrative and a psychological exploration of anger, desire, and emotional regulation.
+  type: short-answer
+  explanation: 'The book works on multiple levels: As adventure, Max travels to a magical place and becomes king of wild creatures, experiencing power and freedom before returning home. As psychological narrative, Max''s journey enacts emotional processing: his initial anger at his mother, his fantasy of escape and power, his eventual realization that he wants to be where someone loves him. The wild things represent Max''s own wild impulses—his anger, his desires for freedom and power. The crescendoing wild rumpus shows Max''s emotional intensity peaking, then subsiding. His return home represents integration and regulation—not suppression of wildness but acceptance and maturation. Sendak''s illustrations convey this emotional journey visually: the increasing size and wildness of the wild things track Max''s emotional intensity; the blank pages and visual space reflect his emotional journey. What makes this psychologically sophisticated while remaining accessible is that children experience it as a fun adventure (Max becomes king! There''s a rumpus!) while also processing real emotional experience (anger, desire for power, love and belonging).'
 ```
 
 ## Explainer

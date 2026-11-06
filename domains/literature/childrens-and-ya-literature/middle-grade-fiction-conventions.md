@@ -27,35 +27,39 @@ Middle-grade fiction (typically ages 8-12) employs distinct narrative convention
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What is the primary developmental rationale for having child protagonists aged 9-13 in middle-grade fiction?"
-    options:
-      - "The protagonist's age is irrelevant to the story"
-      - "Child protagonists allow readers to see characters similar to themselves facing age-appropriate challenges, creating identification and modeling how characters navigate similar situations"
-      - "Child protagonists make stories less complex"
-      - "The age of fictional characters has no effect on reader engagement"
-    answer: 1
-    explanation: "Child protagonists of similar age to middle-grade readers create identification—readers see characters like themselves navigating challenges, which aids both engagement and developmental learning."
-  - question: "Why does middle-grade fiction commonly employ episodic narrative structure rather than single linear plots?"
-    options:
-      - "Episodic structure is easier to write"
-      - "Episode structure mirrors how middle-grade readers experience time and allows multiple narrative satisfactions, building reading stamina while accommodating shorter attention spans"
-      - "Episodes prevent character development"
-      - "Linear plots are always superior to episodic ones"
-    answer: 1
-    explanation: "Episodic middle-grade narratives provide natural stopping points and repeated narrative closure, scaffolding sustained reading development while maintaining engagement."
+- question: What is the primary developmental rationale for having child protagonists aged 9-13 in middle-grade fiction?
+  type: multiple-choice
+  options:
+  - The protagonist's age is irrelevant to the story
+  - Child protagonists allow readers to see characters similar to themselves facing age-appropriate challenges, creating identification and modeling how characters navigate similar situations
+  - Child protagonists make stories less complex
+  - The age of fictional characters has no effect on reader engagement
+  answer: 1
+  explanation: Child protagonists of similar age to middle-grade readers create identification—readers see characters like themselves navigating challenges, which aids both engagement and developmental learning.
 
-true-false:
-  - question: "True or False: Middle-grade fiction commonly explores themes of friendship and family relationships because these are central concerns for readers in this age range."
-    answer: true
-    explanation: "This is true. Middle-grade fiction addresses the developmental concerns most relevant to its audience—peer relationships, social belonging, and family dynamics become increasingly important in late childhood."
-  - question: "True or False: Middle-grade fiction requires less narrative complexity than young adult literature."
-    answer: true
-    explanation: "This is true. While middle-grade fiction can contain sophistication, it typically uses simpler prose, shorter chapters, and more straightforward plot structures than YA literature."
+- question: Why does middle-grade fiction commonly employ episodic narrative structure rather than single linear plots?
+  type: multiple-choice
+  options:
+  - Episodic structure is easier to write
+  - Episode structure mirrors how middle-grade readers experience time and allows multiple narrative satisfactions, building reading stamina while accommodating shorter attention spans
+  - Episodes prevent character development
+  - Linear plots are always superior to episodic ones
+  answer: 1
+  explanation: Episodic middle-grade narratives provide natural stopping points and repeated narrative closure, scaffolding sustained reading development while maintaining engagement.
 
-short-answer:
-  - question: "How do the narrative conventions of middle-grade fiction (character age, episodic structure, protagonist-centered problem-solving) work together to support reading development and address developmental needs?"
-    explanation: "Middle-grade conventions create a cohesive system addressing specific developmental moments. Child protagonists aged 9-13 allow readers to find themselves represented in fiction and to observe age-similar characters navigating challenges, creating identification and modeling problem-solving approaches. Episodic structure breaks narratives into comprehensible units that build reading stamina—each episode has closure while contributing to larger arcs, providing multiple moments of narrative satisfaction. Protagonists solving their own problems (rather than having adults solve problems for them) models agency and demonstrates to readers that they, too, can affect their situations. Themes of friendship and family address the social concerns most pressing for middle-grade readers, validating these concerns as narratively important and helping readers understand their own social experiences. Together, these conventions create narratives that are simultaneously accessible (simpler than YA literature) and meaningful (addressing real developmental concerns), positioned perfectly for readers transitioning from picture books to longer narratives."
+- question: 'True or False: Middle-grade fiction commonly explores themes of friendship and family relationships because these are central concerns for readers in this age range.'
+  type: true-false
+  answer: true
+  explanation: This is true. Middle-grade fiction addresses the developmental concerns most relevant to its audience—peer relationships, social belonging, and family dynamics become increasingly important in late childhood.
+
+- question: 'True or False: Middle-grade fiction requires less narrative complexity than young adult literature.'
+  type: true-false
+  answer: true
+  explanation: This is true. While middle-grade fiction can contain sophistication, it typically uses simpler prose, shorter chapters, and more straightforward plot structures than YA literature.
+
+- question: How do the narrative conventions of middle-grade fiction (character age, episodic structure, protagonist-centered problem-solving) work together to support reading development and address developmental needs?
+  type: short-answer
+  explanation: Middle-grade conventions create a cohesive system addressing specific developmental moments. Child protagonists aged 9-13 allow readers to find themselves represented in fiction and to observe age-similar characters navigating challenges, creating identification and modeling problem-solving approaches. Episodic structure breaks narratives into comprehensible units that build reading stamina—each episode has closure while contributing to larger arcs, providing multiple moments of narrative satisfaction. Protagonists solving their own problems (rather than having adults solve problems for them) models agency and demonstrates to readers that they, too, can affect their situations. Themes of friendship and family address the social concerns most pressing for middle-grade readers, validating these concerns as narratively important and helping readers understand their own social experiences. Together, these conventions create narratives that are simultaneously accessible (simpler than YA literature) and meaningful (addressing real developmental concerns), positioned perfectly for readers transitioning from picture books to longer narratives.
 ```
 
 ## Explainer

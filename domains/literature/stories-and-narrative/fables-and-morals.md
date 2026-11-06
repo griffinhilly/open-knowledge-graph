@@ -30,35 +30,40 @@ Read several fables and identify: Who are the characters? What choice or conflic
 ## Questions
 
 ```yaml
-- question: "In Aesop's fable, a tortoise and a hare race. The hare, confident in speed, naps during the race. The tortoise wins by steady persistence. The stated moral is 'Slow and steady wins the race.' What is the deeper meaning of the fable, beyond the surface moral?"
+- question: In Aesop's fable, a tortoise and a hare race. The hare, confident in speed, naps during the race. The tortoise wins by steady persistence. The stated moral is 'Slow and steady wins the race.' What is the deeper meaning of the fable, beyond the surface moral?
+  type: multiple-choice
   options:
-    - "Only slow people succeed"
-    - "Going slowly is always better than going fast"
-    - "Overconfidence leads to failure; persistence and humility matter more than natural talent. The fable teaches that character—focus, determination, humility—can overcome raw ability"
-    - "Napping is bad"
+  - Only slow people succeed
+  - Going slowly is always better than going fast
+  - Overconfidence leads to failure; persistence and humility matter more than natural talent. The fable teaches that character—focus, determination, humility—can overcome raw ability
+  - Napping is bad
   answer: 2
-  explanation: "Fables teach through action and consequence, not just explicit morals. The tortoise's humility and focus, and the hare's arrogance, matter as much as their speed. The fable suggests that character traits like persistence and lack of arrogance are more valuable than talent alone. This is why the fable endures—it speaks to real human experience."
+  explanation: Fables teach through action and consequence, not just explicit morals. The tortoise's humility and focus, and the hare's arrogance, matter as much as their speed. The fable suggests that character traits like persistence and lack of arrogance are more valuable than talent alone. This is why the fable endures—it speaks to real human experience.
 
-- question: "A fable shows a fox convincing a crow to drop a piece of cheese by flattering him: 'Your voice is so beautiful; sing for me!' When the crow sings, the cheese falls and the fox takes it. The moral states: 'Beware of flatterers.' Why does the fable show this through the specific characters of a fox and a crow?"
+- question: 'A fable shows a fox convincing a crow to drop a piece of cheese by flattering him: ''Your voice is so beautiful; sing for me!'' When the crow sings, the cheese falls and the fox takes it. The moral states: ''Beware of flatterers.'' Why does the fable show this through the specific characters of a fox and a crow?'
+  type: multiple-choice
   options:
-    - "Foxes and crows are random choices"
-    - "Because these animals have traditional associations—the fox is known for cunning and trickery, the crow for vanity and a loud voice. These traits make the lesson vivid and believable. A fox manipulating through intelligence, and a crow being vulnerable to flattery, embodies the moral"
-    - "Because all fables use animals"
-    - "Because the animals have nothing to do with the moral"
+  - Foxes and crows are random choices
+  - Because these animals have traditional associations—the fox is known for cunning and trickery, the crow for vanity and a loud voice. These traits make the lesson vivid and believable. A fox manipulating through intelligence, and a crow being vulnerable to flattery, embodies the moral
+  - Because all fables use animals
+  - Because the animals have nothing to do with the moral
   answer: 1
-  explanation: "Fables aren't just simple stories—authors choose animals deliberately for their traditional traits. A fox represents cunning; a crow might represent gullibility or pride. This casting makes the moral memorable and illustrates it vividly. The animal characters are carefully selected to embody the lesson."
+  explanation: Fables aren't just simple stories—authors choose animals deliberately for their traditional traits. A fox represents cunning; a crow might represent gullibility or pride. This casting makes the moral memorable and illustrates it vividly. The animal characters are carefully selected to embody the lesson.
 
-- question: "True or False: The moral of a fable is always stated explicitly at the end."
+- question: 'True or False: The moral of a fable is always stated explicitly at the end.'
+  type: true-false
   answer: false
-  explanation: "While many fables state the moral explicitly (this is traditional), some leave the moral implicit, trusting readers to infer it from the action. Readers familiar with fable traditions still recognize the moral even if unstated. Modern retellings sometimes omit explicit morals, assuming readers understand what the story teaches."
+  explanation: While many fables state the moral explicitly (this is traditional), some leave the moral implicit, trusting readers to infer it from the action. Readers familiar with fable traditions still recognize the moral even if unstated. Modern retellings sometimes omit explicit morals, assuming readers understand what the story teaches.
 
-- question: "True or False: Fables are only for young children and have no value for older readers."
+- question: 'True or False: Fables are only for young children and have no value for older readers.'
+  type: true-false
   answer: false
-  explanation: "While fables are often taught to children, their brevity makes them effective for all ages. They address universal human dilemmas—greed, vanity, kindness, laziness—that remain relevant across lifespans. Many complex fables have layers of meaning that reveal themselves on repeated reading."
+  explanation: While fables are often taught to children, their brevity makes them effective for all ages. They address universal human dilemmas—greed, vanity, kindness, laziness—that remain relevant across lifespans. Many complex fables have layers of meaning that reveal themselves on repeated reading.
 
-- question: "A fable shows a ant working diligently to store food for winter while a grasshopper plays and enjoys summer. When winter arrives, the grasshopper is hungry and asks the ant for food, but the ant refuses. The moral: 'Prepare for the future, or face hardship.' What does this fable teach about consequences and human behavior?"
-  answer: "The fable teaches that our choices (to work or play, to prepare or neglect) have consequences (plenty or hunger). Unlike lectures about responsibility, the fable demonstrates this through action and consequence. The grasshopper's suffering is the natural result of their choice, not punishment. This shows readers that the world operates on cause and effect—our choices today determine our circumstances tomorrow. The ant's refusal to help suggests that others cannot save us from consequences of our own choices."
-  explanation: "This tests understanding that fables teach through showing consequences, not preaching. The story embodies the moral through a character's experience. Readers learn the lesson viscerally by seeing what happens, not by being told what to think."
+- question: 'A fable shows a ant working diligently to store food for winter while a grasshopper plays and enjoys summer. When winter arrives, the grasshopper is hungry and asks the ant for food, but the ant refuses. The moral: ''Prepare for the future, or face hardship.'' What does this fable teach about consequences and human behavior?'
+  type: short-answer
+  answer: The fable teaches that our choices (to work or play, to prepare or neglect) have consequences (plenty or hunger). Unlike lectures about responsibility, the fable demonstrates this through action and consequence. The grasshopper's suffering is the natural result of their choice, not punishment. This shows readers that the world operates on cause and effect—our choices today determine our circumstances tomorrow. The ant's refusal to help suggests that others cannot save us from consequences of our own choices.
+  explanation: This tests understanding that fables teach through showing consequences, not preaching. The story embodies the moral through a character's experience. Readers learn the lesson viscerally by seeing what happens, not by being told what to think.
 ```
 
 ## Explainer

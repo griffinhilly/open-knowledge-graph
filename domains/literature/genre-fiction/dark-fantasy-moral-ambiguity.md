@@ -32,36 +32,39 @@ Dark fantasy is not simply fantasy with more curse words and sex; it interrogate
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "How does dark fantasy differ from conventional high fantasy in its treatment of protagonists?"
-    options:
-      - "Dark fantasy protagonists are always purely evil"
-      - "High fantasy has heroes, dark fantasy features anti-heroes, morally compromised, or villainous protagonists"
-      - "Protagonists are identical across all fantasy subgenres"
-      - "Dark fantasy emphasizes heroic virtue more than high fantasy"
-    correct_answer: 1
-    explanation: "The core idea states dark fantasy 'strips away romantic heroism' and allows protagonists to be 'anti-heroes, morally compromised, or frankly villainous,' contrasting with high fantasy's heroic ideals."
-  - type: multiple-choice
-    question: "What is the primary focus of dark fantasy's exploration of moral compromise?"
-    options:
-      - "How to achieve perfect morality"
-      - "Why compromise happens and what costs accumulate as people prioritize power or survival"
-      - "That morality is irrelevant"
-      - "That heroes never face real choices"
-    correct_answer: 1
-    explanation: "The misconceptions section clarifies that dark fantasy 'interrogates why moral compromise happens and what costs accumulate,' focusing on understanding motivation and consequence."
-  - type: true-false
-    question: "Dark fantasy protagonists are designed to be sympathetic and morally upright, like traditional fantasy heroes."
-    correct_answer: false
-    explanation: "The core idea explicitly states that dark fantasy protagonists 'may be anti-heroes, morally compromised, or frankly villainous,' directly contradicting the idea of upright moral characters."
-  - type: true-false
-    question: "Dark fantasy explores themes of systematic cruelty, betrayal, and corruption and borrows aesthetic elements from noir and gothic traditions."
-    correct_answer: true
-    explanation: "The core idea directly states these narratives 'explore darker themes—power at any cost, betrayal, bodily violation, systematic cruelty—and often borrow aesthetic and tonal elements from noir, gothic, or grimdark traditions.'"
-  - type: short-answer
-    question: "Why does understanding the moral reasoning of characters who make compromising choices matter more in dark fantasy than depicting those choices as simply evil?"
-    explanation: "Good answers should explain that moral complexity requires understanding why someone commits a wrong action—what pressures they face, what values conflict with morality, what costs they're willing to pay. This shifts dark fantasy from simple moralism to inquiry into human motivation, making readers complicit in understanding (if not endorsing) difficult choices."
+- question: How does dark fantasy differ from conventional high fantasy in its treatment of protagonists?
+  type: multiple-choice
+  options:
+  - Dark fantasy protagonists are always purely evil
+  - High fantasy has heroes, dark fantasy features anti-heroes, morally compromised, or villainous protagonists
+  - Protagonists are identical across all fantasy subgenres
+  - Dark fantasy emphasizes heroic virtue more than high fantasy
+  answer: 1
+  explanation: The core idea states dark fantasy 'strips away romantic heroism' and allows protagonists to be 'anti-heroes, morally compromised, or frankly villainous,' contrasting with high fantasy's heroic ideals.
+
+- question: What is the primary focus of dark fantasy's exploration of moral compromise?
+  type: multiple-choice
+  options:
+  - How to achieve perfect morality
+  - Why compromise happens and what costs accumulate as people prioritize power or survival
+  - That morality is irrelevant
+  - That heroes never face real choices
+  answer: 1
+  explanation: The misconceptions section clarifies that dark fantasy 'interrogates why moral compromise happens and what costs accumulate,' focusing on understanding motivation and consequence.
+
+- question: Dark fantasy protagonists are designed to be sympathetic and morally upright, like traditional fantasy heroes.
+  type: true-false
+  answer: false
+  explanation: The core idea explicitly states that dark fantasy protagonists 'may be anti-heroes, morally compromised, or frankly villainous,' directly contradicting the idea of upright moral characters.
+
+- question: Dark fantasy explores themes of systematic cruelty, betrayal, and corruption and borrows aesthetic elements from noir and gothic traditions.
+  type: true-false
+  answer: true
+  explanation: The core idea directly states these narratives 'explore darker themes—power at any cost, betrayal, bodily violation, systematic cruelty—and often borrow aesthetic and tonal elements from noir, gothic, or grimdark traditions.'
+
+- question: Why does understanding the moral reasoning of characters who make compromising choices matter more in dark fantasy than depicting those choices as simply evil?
+  type: short-answer
+  explanation: Good answers should explain that moral complexity requires understanding why someone commits a wrong action—what pressures they face, what values conflict with morality, what costs they're willing to pay. This shifts dark fantasy from simple moralism to inquiry into human motivation, making readers complicit in understanding (if not endorsing) difficult choices.
 ```
 
 ## Explainer

@@ -24,36 +24,39 @@ Raymond Chandler and Dashiell Hammett revolutionized detective fiction by bringi
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "How did Chandler and Hammett transform detective fiction from its Victorian predecessors?"
-    options:
-      - "They eliminated mystery plots entirely in favor of character studies"
-      - "They introduced realism, corruption, and urban atmosphere, elevating the genre beyond puzzles to social commentary"
-      - "They invented the first police procedural"
-      - "They removed all detective characters from the genre"
-    correct_answer: 1
-    explanation: "The core idea states they 'revolutionized detective fiction by bringing realism, corruption, and urban atmosphere' and 'elevated detective fiction beyond puzzles to social commentary,' showing they fundamentally changed what detective fiction could do."
-  - type: multiple-choice
-    question: "What stylistic difference distinguished Hammett's approach from Chandler's?"
-    options:
-      - "Hammett was verbose while Chandler was minimal"
-      - "Hammett emphasized minimal description and sharp dialogue; Chandler developed complex psychology and memorable prose"
-      - "Hammett focused on puzzles while Chandler focused on action"
-      - "They used identical stylistic approaches"
-    correct_answer: 1
-    explanation: "The core idea explicitly contrasts their styles: 'Hammett emphasizes minimal description and sharp dialogue; Chandler develops complex psychology and memorable prose,' showing distinct but complementary approaches."
-  - type: true-false
-    question: "Chandler and Hammett's contributions to detective fiction were primarily stylistic rather than thematic."
-    correct_answer: false
-    explanation: "The core idea indicates they 'elevated detective fiction beyond puzzles to social commentary,' which is a thematic shift toward social critique, not merely stylistic innovation. They changed both how the fiction reads and what it means."
-  - type: true-false
-    question: "Hammett's approach to prose prioritized lean, efficient description and dialogue over psychological elaboration."
-    correct_answer: true
-    explanation: "The core idea explicitly notes that 'Hammett emphasizes minimal description and sharp dialogue,' contrasting with Chandler's psychological development, confirming Hammett's minimalist stylistic commitment."
-  - type: short-answer
-    question: "Why was the shift from puzzle-focused detective fiction to social commentary significant to the genre's development?"
-    explanation: "Good answers should address how elevating detective fiction to social commentary allowed it to explore themes beyond 'whodunit' mechanics—corruption, moral ambiguity, class conflict, and urban decay. This transformation made detective fiction capable of serious literary and social critique, expanding the genre's scope and intellectual engagement."
+- question: How did Chandler and Hammett transform detective fiction from its Victorian predecessors?
+  type: multiple-choice
+  options:
+  - They eliminated mystery plots entirely in favor of character studies
+  - They introduced realism, corruption, and urban atmosphere, elevating the genre beyond puzzles to social commentary
+  - They invented the first police procedural
+  - They removed all detective characters from the genre
+  answer: 1
+  explanation: The core idea states they 'revolutionized detective fiction by bringing realism, corruption, and urban atmosphere' and 'elevated detective fiction beyond puzzles to social commentary,' showing they fundamentally changed what detective fiction could do.
+
+- question: What stylistic difference distinguished Hammett's approach from Chandler's?
+  type: multiple-choice
+  options:
+  - Hammett was verbose while Chandler was minimal
+  - Hammett emphasized minimal description and sharp dialogue; Chandler developed complex psychology and memorable prose
+  - Hammett focused on puzzles while Chandler focused on action
+  - They used identical stylistic approaches
+  answer: 1
+  explanation: 'The core idea explicitly contrasts their styles: ''Hammett emphasizes minimal description and sharp dialogue; Chandler develops complex psychology and memorable prose,'' showing distinct but complementary approaches.'
+
+- question: Chandler and Hammett's contributions to detective fiction were primarily stylistic rather than thematic.
+  type: true-false
+  answer: false
+  explanation: The core idea indicates they 'elevated detective fiction beyond puzzles to social commentary,' which is a thematic shift toward social critique, not merely stylistic innovation. They changed both how the fiction reads and what it means.
+
+- question: Hammett's approach to prose prioritized lean, efficient description and dialogue over psychological elaboration.
+  type: true-false
+  answer: true
+  explanation: The core idea explicitly notes that 'Hammett emphasizes minimal description and sharp dialogue,' contrasting with Chandler's psychological development, confirming Hammett's minimalist stylistic commitment.
+
+- question: Why was the shift from puzzle-focused detective fiction to social commentary significant to the genre's development?
+  type: short-answer
+  explanation: Good answers should address how elevating detective fiction to social commentary allowed it to explore themes beyond 'whodunit' mechanics—corruption, moral ambiguity, class conflict, and urban decay. This transformation made detective fiction capable of serious literary and social critique, expanding the genre's scope and intellectual engagement.
 ```
 
 ## Explainer

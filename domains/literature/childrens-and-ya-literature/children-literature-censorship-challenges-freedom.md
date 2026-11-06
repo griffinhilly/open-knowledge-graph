@@ -23,35 +23,39 @@ Children's and YA literature remain frequent targets for censorship and removal 
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "Why are children's and YA books disproportionately targeted for censorship compared to adult literature?"
-    options:
-      - "Because children's literature is less sophisticated and therefore less worthy of protection"
-      - "Because adults believe they bear responsibility for controlling what children encounter, creating debates about childhood innocence and parental authority"
-      - "Because children's books are inherently more dangerous than adult books"
-      - "Because the First Amendment does not apply to children's literature"
-    answer: 1
-    explanation: "Children's books are frequently challenged because of assumptions about childhood innocence and parental responsibility. Adults disagree about what content is age-appropriate, creating tension between intellectual freedom and protective impulses."
-  - question: "What do recurring challenges to books like 'The Handmaid's Tale,' 'The Bluest Eye,' and 'Beloved' in school settings reveal about censorship patterns?"
-    options:
-      - "That books about serious topics should never be taught to young people"
-      - "That challenges often target books addressing racism, sexuality, and violence because these topics are considered controversial or inappropriate for youth"
-      - "That censorship has nothing to do with ideology"
-      - "That school libraries should not include literary classics"
-    answer: 1
-    explanation: "Books challenged in schools frequently address marginalized experiences, racism, LGBTQ identity, or sexual violence—revealing that censorship often reflects ideological discomfort with particular worldviews rather than solely concerns about age-appropriateness."
+- question: Why are children's and YA books disproportionately targeted for censorship compared to adult literature?
+  type: multiple-choice
+  options:
+  - Because children's literature is less sophisticated and therefore less worthy of protection
+  - Because adults believe they bear responsibility for controlling what children encounter, creating debates about childhood innocence and parental authority
+  - Because children's books are inherently more dangerous than adult books
+  - Because the First Amendment does not apply to children's literature
+  answer: 1
+  explanation: Children's books are frequently challenged because of assumptions about childhood innocence and parental responsibility. Adults disagree about what content is age-appropriate, creating tension between intellectual freedom and protective impulses.
 
-true-false:
-  - question: "True or False: Intellectual freedom advocates argue that librarians and educators should protect young people's right to access information even if some adults find particular books controversial."
-    answer: true
-    explanation: "True. Intellectual freedom positions center on protecting access to diverse information and trusting young readers to encounter complex ideas, rather than gatekeeping based on adult preferences."
-  - question: "True or False: Parental authority to restrict a child's reading is incompatible with intellectual freedom principles."
-    answer: false
-    explanation: "False. Intellectual freedom advocates typically distinguish between parents making choices for their own children versus institutional gatekeeping that removes books from all students' access. Individual parental choices differ from institutional censorship."
+- question: What do recurring challenges to books like 'The Handmaid's Tale,' 'The Bluest Eye,' and 'Beloved' in school settings reveal about censorship patterns?
+  type: multiple-choice
+  options:
+  - That books about serious topics should never be taught to young people
+  - That challenges often target books addressing racism, sexuality, and violence because these topics are considered controversial or inappropriate for youth
+  - That censorship has nothing to do with ideology
+  - That school libraries should not include literary classics
+  answer: 1
+  explanation: Books challenged in schools frequently address marginalized experiences, racism, LGBTQ identity, or sexual violence—revealing that censorship often reflects ideological discomfort with particular worldviews rather than solely concerns about age-appropriateness.
 
-short-answer:
-  - question: "Explain the tension between protecting children and promoting intellectual freedom in the context of book challenges in schools."
-    explanation: "This is a genuine tension without a simple resolution. Those concerned with child protection argue that schools have responsibility to ensure age-appropriate content and that young people are vulnerable to harm from certain material. Those advocating intellectual freedom argue that removing books denies young people access to important information and perspectives, that 'age-appropriateness' is subjective and contested, and that trusting young readers to encounter complexity fosters critical thinking rather than damage. The tension is real because both values—protection and freedom—matter. Possible compromises include: age-appropriate collection development (removing books from elementary but not high school libraries), challenge processes that take community input seriously, opt-in rather than removal-based systems, and materials that provide context for understanding difficult content. The point is that these are genuine, irresolvable value conflicts rather than obvious right-answer scenarios."
+- question: 'True or False: Intellectual freedom advocates argue that librarians and educators should protect young people''s right to access information even if some adults find particular books controversial.'
+  type: true-false
+  answer: true
+  explanation: True. Intellectual freedom positions center on protecting access to diverse information and trusting young readers to encounter complex ideas, rather than gatekeeping based on adult preferences.
+
+- question: 'True or False: Parental authority to restrict a child''s reading is incompatible with intellectual freedom principles.'
+  type: true-false
+  answer: false
+  explanation: False. Intellectual freedom advocates typically distinguish between parents making choices for their own children versus institutional gatekeeping that removes books from all students' access. Individual parental choices differ from institutional censorship.
+
+- question: Explain the tension between protecting children and promoting intellectual freedom in the context of book challenges in schools.
+  type: short-answer
+  explanation: 'This is a genuine tension without a simple resolution. Those concerned with child protection argue that schools have responsibility to ensure age-appropriate content and that young people are vulnerable to harm from certain material. Those advocating intellectual freedom argue that removing books denies young people access to important information and perspectives, that ''age-appropriateness'' is subjective and contested, and that trusting young readers to encounter complexity fosters critical thinking rather than damage. The tension is real because both values—protection and freedom—matter. Possible compromises include: age-appropriate collection development (removing books from elementary but not high school libraries), challenge processes that take community input seriously, opt-in rather than removal-based systems, and materials that provide context for understanding difficult content. The point is that these are genuine, irresolvable value conflicts rather than obvious right-answer scenarios.'
 ```
 
 ## Explainer

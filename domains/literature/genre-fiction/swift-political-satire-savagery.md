@@ -23,36 +23,39 @@ Jonathan Swift's satire uses irony, exaggeration, and grotesque invention to att
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What primary targets does Jonathan Swift's satire attack?"
-    options:
-      - "Literary style and prose conventions"
-      - "Individual moral failings of ordinary people"
-      - "Political hypocrisy and human cruelty"
-      - "Scientific discovery and technological progress"
-    correct_answer: 2
-    explanation: "The core idea states that Swift's satire 'uses irony, exaggeration, and grotesque invention to attack political hypocrisy and human cruelty,' identifying these as the primary targets."
-  - type: multiple-choice
-    question: "How does Swift's use of ironic narrators function in his satire?"
-    options:
-      - "They provide straightforward analysis of political problems"
-      - "Their positions dramatize absurdity and reveal the illogic of the systems they defend"
-      - "They represent the author's actual beliefs"
-      - "They describe historical events accurately"
-    correct_answer: 1
-    explanation: "The core idea states that 'Swift employs ironic narrators whose positions dramatize absurdity,' showing that the narrators themselves become tools for revealing foolishness."
-  - type: true-false
-    question: "Swift's satire addresses only universal human follies without reference to specific historical contexts."
-    correct_answer: false
-    explanation: "The core idea states that his satire 'addresses specific historical issues while exploring universal human folly,' showing that contemporary political context is important to his work."
-  - type: true-false
-    question: "Grotesque invention and exaggeration are characteristic techniques in Swift's satirical approach."
-    correct_answer: true
-    explanation: "The core idea explicitly mentions that Swift 'uses irony, exaggeration, and grotesque invention' as his primary satirical tools."
-  - type: short-answer
-    question: "How does Swift use grotesque exaggeration (like the cannibalistic 'solution' in 'A Modest Proposal') to critique political indifference?"
-    explanation: "A strong answer should explain that Swift proposes something morally horrifying to expose the actual indifference and cruelty that already exist in policy. By suggesting an explicit horror, he reveals the implicit horrors already accepted. Students should demonstrate understanding that grotesque satire works by making readers recoil, then recognizing they should recoil equally at the real policies being critiqued."
+- question: What primary targets does Jonathan Swift's satire attack?
+  type: multiple-choice
+  options:
+  - Literary style and prose conventions
+  - Individual moral failings of ordinary people
+  - Political hypocrisy and human cruelty
+  - Scientific discovery and technological progress
+  answer: 2
+  explanation: The core idea states that Swift's satire 'uses irony, exaggeration, and grotesque invention to attack political hypocrisy and human cruelty,' identifying these as the primary targets.
+
+- question: How does Swift's use of ironic narrators function in his satire?
+  type: multiple-choice
+  options:
+  - They provide straightforward analysis of political problems
+  - Their positions dramatize absurdity and reveal the illogic of the systems they defend
+  - They represent the author's actual beliefs
+  - They describe historical events accurately
+  answer: 1
+  explanation: The core idea states that 'Swift employs ironic narrators whose positions dramatize absurdity,' showing that the narrators themselves become tools for revealing foolishness.
+
+- question: Swift's satire addresses only universal human follies without reference to specific historical contexts.
+  type: true-false
+  answer: false
+  explanation: The core idea states that his satire 'addresses specific historical issues while exploring universal human folly,' showing that contemporary political context is important to his work.
+
+- question: Grotesque invention and exaggeration are characteristic techniques in Swift's satirical approach.
+  type: true-false
+  answer: true
+  explanation: The core idea explicitly mentions that Swift 'uses irony, exaggeration, and grotesque invention' as his primary satirical tools.
+
+- question: How does Swift use grotesque exaggeration (like the cannibalistic 'solution' in 'A Modest Proposal') to critique political indifference?
+  type: short-answer
+  explanation: A strong answer should explain that Swift proposes something morally horrifying to expose the actual indifference and cruelty that already exist in policy. By suggesting an explicit horror, he reveals the implicit horrors already accepted. Students should demonstrate understanding that grotesque satire works by making readers recoil, then recognizing they should recoil equally at the real policies being critiqued.
 ```
 
 ## Explainer

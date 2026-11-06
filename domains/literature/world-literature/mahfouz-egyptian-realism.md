@@ -35,39 +35,39 @@ Mahfouz's realism is not imitation of European forms—it adapts realist strateg
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "How does Mahfouz 'adapt realist form to represent Egyptian experience' rather than merely imitating European literary models?"
+- question: How does Mahfouz 'adapt realist form to represent Egyptian experience' rather than merely imitating European literary models?
+  type: multiple-choice
   options:
-    - "He copies European realism without modification"
-    - "He uses realist techniques of psychological depth and social observation to depict specifically Egyptian urban life, family structures, and historical experience"
-    - "Egyptian experience cannot be represented through realist form"
-    - "Adaptation means abandoning realism entirely"
+  - He copies European realism without modification
+  - He uses realist techniques of psychological depth and social observation to depict specifically Egyptian urban life, family structures, and historical experience
+  - Egyptian experience cannot be represented through realist form
+  - Adaptation means abandoning realism entirely
   answer: 1
-  explanation: "Mahfouz recognizes that realism—with its techniques of detailed observation, psychological depth, and social analysis—can represent Egyptian experience, but European realist form assumes European contexts. Mahfouz adapts these techniques to represent Egyptian society: the complex hierarchies of Cairo neighborhoods, the family structures shaped by Islamic tradition and modern pressures, the historical consciousness of colonized people encountering modernization. He does not simply transplant European form but transforms it to represent Egyptian specificity. The narrative voice incorporates Islamic narrative traditions alongside European psychological realism. The social observation focuses on Egyptian institutions and relationships. The characters navigate dilemmas specific to Egyptian modernization—how to balance tradition and modernity, how to understand themselves as colonized people encountering Western forms. This adaptation demonstrates that realist form is not culturally fixed but can be transformed to serve different contexts."
+  explanation: 'Mahfouz recognizes that realism—with its techniques of detailed observation, psychological depth, and social analysis—can represent Egyptian experience, but European realist form assumes European contexts. Mahfouz adapts these techniques to represent Egyptian society: the complex hierarchies of Cairo neighborhoods, the family structures shaped by Islamic tradition and modern pressures, the historical consciousness of colonized people encountering modernization. He does not simply transplant European form but transforms it to represent Egyptian specificity. The narrative voice incorporates Islamic narrative traditions alongside European psychological realism. The social observation focuses on Egyptian institutions and relationships. The characters navigate dilemmas specific to Egyptian modernization—how to balance tradition and modernity, how to understand themselves as colonized people encountering Western forms. This adaptation demonstrates that realist form is not culturally fixed but can be transformed to serve different contexts.'
 
-- type: multiple-choice
-  question: "What does Mahfouz achieve by depicting 'individual consciousness shaped by colonialism and modernization'?"
+- question: What does Mahfouz achieve by depicting 'individual consciousness shaped by colonialism and modernization'?
+  type: multiple-choice
   options:
-    - "He focuses only on individual psychology, separate from historical context"
-    - "He represents how larger historical forces—colonialism and rapid social change—shape consciousness and individual choices"
-    - "Colonialism and modernization are irrelevant to individual consciousness"
-    - "He avoids representing historical change"
+  - He focuses only on individual psychology, separate from historical context
+  - He represents how larger historical forces—colonialism and rapid social change—shape consciousness and individual choices
+  - Colonialism and modernization are irrelevant to individual consciousness
+  - He avoids representing historical change
   answer: 1
-  explanation: "Mahfouz's realism shows how history enters consciousness. Characters do not exist in abstract individual psychology but are shaped by colonial experience—how it affects social hierarchy, self-understanding, possibility. Modernization—industrialization, new education systems, contact with Western ideas—disrupts traditional ways and forces individuals to navigate contradictory demands. By depicting consciousness shaped by these historical forces, Mahfouz demonstrates that the deepest realism must integrate individual psychology with historical consciousness. A character's internal conflict reflects larger historical dilemmas. Personal relationships are shaped by social structures. The novel becomes vehicle for understanding how history is lived and experienced by individuals."
+  explanation: Mahfouz's realism shows how history enters consciousness. Characters do not exist in abstract individual psychology but are shaped by colonial experience—how it affects social hierarchy, self-understanding, possibility. Modernization—industrialization, new education systems, contact with Western ideas—disrupts traditional ways and forces individuals to navigate contradictory demands. By depicting consciousness shaped by these historical forces, Mahfouz demonstrates that the deepest realism must integrate individual psychology with historical consciousness. A character's internal conflict reflects larger historical dilemmas. Personal relationships are shaped by social structures. The novel becomes vehicle for understanding how history is lived and experienced by individuals.
 
-- type: true-false
-  statement: "Mahfouz's realism is primarily an imitation of European literary forms applied unchanged to Egyptian material."
+- question: Mahfouz's realism is primarily an imitation of European literary forms applied unchanged to Egyptian material.
+  type: true-false
   answer: false
-  explanation: "Mahfouz adapts realist form intelligently to represent Egyptian specificity. While he employs techniques developed in European realism (psychological depth, detailed social observation, complex moral situations), he transforms them to represent Egyptian experience. The form is not transparent container but actively shaped by Egyptian contexts and traditions. His narratives incorporate Arabic narrative practices and address Egyptian audiences with Egyptian historical consciousness."
+  explanation: Mahfouz adapts realist form intelligently to represent Egyptian specificity. While he employs techniques developed in European realism (psychological depth, detailed social observation, complex moral situations), he transforms them to represent Egyptian experience. The form is not transparent container but actively shaped by Egyptian contexts and traditions. His narratives incorporate Arabic narrative practices and address Egyptian audiences with Egyptian historical consciousness.
 
-- type: true-false
-  statement: "Mahfouz demonstrates that realist narrative form, adapted to represent specific historical and cultural contexts, can achieve psychological depth and social analysis appropriate to Egyptian experience and modernization."
+- question: Mahfouz demonstrates that realist narrative form, adapted to represent specific historical and cultural contexts, can achieve psychological depth and social analysis appropriate to Egyptian experience and modernization.
+  type: true-false
   answer: true
-  explanation: "This correctly identifies Mahfouz's literary achievement. Rather than treating realism as fixed form, he adapts its techniques to serve Egyptian literary tradition and contemporary experience. This adaptation produced modern Arabic literature and influenced Arab writers across the region."
+  explanation: This correctly identifies Mahfouz's literary achievement. Rather than treating realism as fixed form, he adapts its techniques to serve Egyptian literary tradition and contemporary experience. This adaptation produced modern Arabic literature and influenced Arab writers across the region.
 
-- type: short-answer
-  question: "Explain how Mahfouz's adaptation of realist form to represent Egyptian experience differs from simple imitation of European models. What does he transform, and why?"
-  explanation: "European realism developed specific form suited to European contexts: attention to individual psychology, realistic social observation, critique of social institutions. But this form was designed for European audience understanding European society. Mahfouz recognizes that Egyptian realism must represent Egyptian contexts: Islamic family structures, colonial experience, rapid modernization, Cairo neighborhoods where different classes and religions coexist. He adapts realist techniques to these contexts. The psychological depth remains but focuses on dilemmas specific to Egyptian modernization—how to maintain tradition while modernizing, how to understand colonized identity, how to navigate family obligations while pursuing individual desire. The social observation focuses on Egyptian society: how class, family, neighborhood shape consciousness. The narrative voice incorporates Islamic narrative traditions and addresses Arabic-speaking audience. By these transformations, Mahfouz creates realism appropriate to Egyptian experience. He demonstrates that literary forms are not fixed but can be adapted across cultures when adapted intelligently to serve specific historical and cultural contexts. This adaptation made it possible for modern Arabic literature to emerge using realist form while maintaining connection to Arabic tradition."
+- question: Explain how Mahfouz's adaptation of realist form to represent Egyptian experience differs from simple imitation of European models. What does he transform, and why?
+  type: short-answer
+  explanation: 'European realism developed specific form suited to European contexts: attention to individual psychology, realistic social observation, critique of social institutions. But this form was designed for European audience understanding European society. Mahfouz recognizes that Egyptian realism must represent Egyptian contexts: Islamic family structures, colonial experience, rapid modernization, Cairo neighborhoods where different classes and religions coexist. He adapts realist techniques to these contexts. The psychological depth remains but focuses on dilemmas specific to Egyptian modernization—how to maintain tradition while modernizing, how to understand colonized identity, how to navigate family obligations while pursuing individual desire. The social observation focuses on Egyptian society: how class, family, neighborhood shape consciousness. The narrative voice incorporates Islamic narrative traditions and addresses Arabic-speaking audience. By these transformations, Mahfouz creates realism appropriate to Egyptian experience. He demonstrates that literary forms are not fixed but can be adapted across cultures when adapted intelligently to serve specific historical and cultural contexts. This adaptation made it possible for modern Arabic literature to emerge using realist form while maintaining connection to Arabic tradition.'
 ```
 
 ## Explainer

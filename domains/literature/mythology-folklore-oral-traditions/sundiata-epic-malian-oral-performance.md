@@ -34,40 +34,39 @@ The Sundiata epic is a factually accurate history. (While grounded in historical
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What role do magical and supernatural elements play in the Sundiata epic's narrative?"
-    options:
-      - "They are errors in the text that should be removed"
-      - "They mythologize Sundiata's significance, establishing him as a figure of both human achievement and cosmic power"
-      - "They are purely decorative and have no meaning"
-      - "They contradict the historical Mali Empire and prove the epic is false"
-    correct: "B"
-    explanation: "The Sundiata epic blends historical events (Mali's founding) with mythic elements (Sundiata's parentage involving a jinn, magical powers of rival sorcerers). These mythological elements are not corruptions but intentional elevation of Sundiata's significance. They establish him as more than a political leader—as a figure of cosmic importance capable of founding an empire."
+- question: What role do magical and supernatural elements play in the Sundiata epic's narrative?
+  type: multiple-choice
+  options:
+  - They are errors in the text that should be removed
+  - They mythologize Sundiata's significance, establishing him as a figure of both human achievement and cosmic power
+  - They are purely decorative and have no meaning
+  - They contradict the historical Mali Empire and prove the epic is false
+  answer: 1
+  explanation: The Sundiata epic blends historical events (Mali's founding) with mythic elements (Sundiata's parentage involving a jinn, magical powers of rival sorcerers). These mythological elements are not corruptions but intentional elevation of Sundiata's significance. They establish him as more than a political leader—as a figure of cosmic importance capable of founding an empire.
 
-  - type: multiple-choice
-    question: "How do griot performances of the Sundiata epic differ from written literary texts in their relationship to variation and authenticity?"
-    options:
-      - "Griot performances must be identical each time to be authentic"
-      - "Each griot performance is unique, shaped by the performer, audience, and occasion; variation is essential to oral tradition, not a failure of fidelity"
-      - "Griot performances are less authentic than written versions"
-      - "There is no difference between griot performance and written text"
-    correct: "B"
-    explanation: "Griot performances are live, improvisational events. Each telling is shaped by the griot's interpretation, the audience's responses, the occasion's demands, and current events. Variation is not corruption but a feature of oral transmission. A griot adapts the epic to honor patrons, respond to political moments, or emphasize different elements."
+- question: How do griot performances of the Sundiata epic differ from written literary texts in their relationship to variation and authenticity?
+  type: multiple-choice
+  options:
+  - Griot performances must be identical each time to be authentic
+  - Each griot performance is unique, shaped by the performer, audience, and occasion; variation is essential to oral tradition, not a failure of fidelity
+  - Griot performances are less authentic than written versions
+  - There is no difference between griot performance and written text
+  answer: 1
+  explanation: Griot performances are live, improvisational events. Each telling is shaped by the griot's interpretation, the audience's responses, the occasion's demands, and current events. Variation is not corruption but a feature of oral transmission. A griot adapts the epic to honor patrons, respond to political moments, or emphasize different elements.
 
-  - type: true-false
-    question: "The Sundiata epic is primarily a factually accurate historical chronicle of the Mali Empire's founding."
-    correct: false
-    explanation: "While grounded in historical Mali and Sundiata's real military achievements, the epic mythologizes his origins and powers. It is a blend of history and myth, shaped by oral tradition and performed for cultural and political purposes, not historical documentation."
+- question: The Sundiata epic is primarily a factually accurate historical chronicle of the Mali Empire's founding.
+  type: true-false
+  answer: false
+  explanation: While grounded in historical Mali and Sundiata's real military achievements, the epic mythologizes his origins and powers. It is a blend of history and myth, shaped by oral tradition and performed for cultural and political purposes, not historical documentation.
 
-  - type: true-false
-    question: "All recorded versions of the Sundiata epic are essentially the same, differing only in minor details."
-    correct: false
-    explanation: "Griot performances vary significantly. Different griots emphasize different episodes, adapt the epic for different audiences and occasions, and shape the narrative according to their interpretation. The variation reflects how oral tradition works."
+- question: All recorded versions of the Sundiata epic are essentially the same, differing only in minor details.
+  type: true-false
+  answer: false
+  explanation: Griot performances vary significantly. Different griots emphasize different episodes, adapt the epic for different audiences and occasions, and shape the narrative according to their interpretation. The variation reflects how oral tradition works.
 
-  - type: short-answer
-    question: "Explain how the Sundiata epic functions simultaneously as historical narrative, mythic epic, and vehicle for griot artistry and audience interaction."
-    explanation: "The Sundiata epic claims grounding in historical Mali's founding—Sundiata was a real military leader who unified the region. Yet the epic mythologizes this history: his parentage is partly divine (jinn father), his powers are magical, and his opponents employ sorcery. This blend establishes Sundiata as both historical achiever and cosmic figure. The epic's performance by griots adds a third dimension: griots are not neutral narrators but artists whose performance is shaped by audience, occasion, and patronage. A griot might emphasize genealogical connections to please a patron, adjust political references to comment on current events, or extend certain episodes based on audience interest. The epic thus functions simultaneously as history (explaining Mali's founding), myth (establishing Sundiata's cosmic significance), and performance (showcasing griot skill and audience interaction). This triple function is central to how the epic operates in West African culture."
+- question: Explain how the Sundiata epic functions simultaneously as historical narrative, mythic epic, and vehicle for griot artistry and audience interaction.
+  type: short-answer
+  explanation: 'The Sundiata epic claims grounding in historical Mali''s founding—Sundiata was a real military leader who unified the region. Yet the epic mythologizes this history: his parentage is partly divine (jinn father), his powers are magical, and his opponents employ sorcery. This blend establishes Sundiata as both historical achiever and cosmic figure. The epic''s performance by griots adds a third dimension: griots are not neutral narrators but artists whose performance is shaped by audience, occasion, and patronage. A griot might emphasize genealogical connections to please a patron, adjust political references to comment on current events, or extend certain episodes based on audience interest. The epic thus functions simultaneously as history (explaining Mali''s founding), myth (establishing Sundiata''s cosmic significance), and performance (showcasing griot skill and audience interaction). This triple function is central to how the epic operates in West African culture.'
 ```
 
 ## Explainer

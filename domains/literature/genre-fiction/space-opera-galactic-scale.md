@@ -33,36 +33,39 @@ Compare Frank Herbert's Dune with E.E. 'Doc' Smith's Lensman series or contempor
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What primary narrative focus distinguishes space opera from other science fiction?"
-    options:
-      - "Intimate exploration of individual consciousness"
-      - "Sprawling narratives across multiple worlds with large-scale galactic conflicts"
-      - "Detailed technical specifications of futuristic technology"
-      - "Historical reenactments set in space"
-    correct_answer: 1
-    explanation: "The core idea states that 'space opera features sprawling narratives across multiple worlds, with large-scale conflicts between galactic powers,' making epic scope the defining characteristic."
-  - type: multiple-choice
-    question: "What does space opera use as a vehicle for exploring themes like governance, honor, and betrayal?"
-    options:
-      - "Small intimate family dramas"
-      - "Galactic civilizations with complex political structures on the largest possible scale"
-      - "Simple good-versus-evil conflicts without nuance"
-      - "Technical problem-solving narratives"
-    correct_answer: 1
-    explanation: "The core idea states that space opera depicts 'galactic civilizations with complex political structures, making space opera a vehicle for exploring governance, honor, betrayal, and destiny on the largest possible scale.'"
-  - type: true-false
-    question: "Space opera relies primarily on spectacle and emotional drama rather than intimate character study."
-    correct_answer: true
-    explanation: "The core idea states that 'space opera emphasizes spectacle, heroic action, and emotional drama,' with the How It's Best Learned section noting that political intrigue and personal relationships must 'ground' the vast scale, implying they are secondary to the scope."
-  - type: true-false
-    question: "Political intrigue is irrelevant to space opera narratives that focus only on military conflicts."
-    correct_answer: false
-    explanation: "The core idea identifies that space opera features 'grand politics' and the How It's Best Learned section explicitly tells readers to notice 'how political intrigue' grounds the vast scale, showing politics is essential."
-  - type: short-answer
-    question: "How do personal relationships and political intrigue 'ground' the vast galactic scale of space opera narratives?"
-    explanation: "A strong answer should explain that without personal stakes and political consequences for characters, galactic-scale conflicts would feel abstract and disconnected from reader emotions. Personal relationships make readers care about characters caught in galactic events. Political intrigue makes readers understand why individuals matter in massive power struggles. Students should demonstrate understanding that emotional grounding makes epic scale meaningful rather than merely spectacular."
+- question: What primary narrative focus distinguishes space opera from other science fiction?
+  type: multiple-choice
+  options:
+  - Intimate exploration of individual consciousness
+  - Sprawling narratives across multiple worlds with large-scale galactic conflicts
+  - Detailed technical specifications of futuristic technology
+  - Historical reenactments set in space
+  answer: 1
+  explanation: The core idea states that 'space opera features sprawling narratives across multiple worlds, with large-scale conflicts between galactic powers,' making epic scope the defining characteristic.
+
+- question: What does space opera use as a vehicle for exploring themes like governance, honor, and betrayal?
+  type: multiple-choice
+  options:
+  - Small intimate family dramas
+  - Galactic civilizations with complex political structures on the largest possible scale
+  - Simple good-versus-evil conflicts without nuance
+  - Technical problem-solving narratives
+  answer: 1
+  explanation: The core idea states that space opera depicts 'galactic civilizations with complex political structures, making space opera a vehicle for exploring governance, honor, betrayal, and destiny on the largest possible scale.'
+
+- question: Space opera relies primarily on spectacle and emotional drama rather than intimate character study.
+  type: true-false
+  answer: true
+  explanation: The core idea states that 'space opera emphasizes spectacle, heroic action, and emotional drama,' with the How It's Best Learned section noting that political intrigue and personal relationships must 'ground' the vast scale, implying they are secondary to the scope.
+
+- question: Political intrigue is irrelevant to space opera narratives that focus only on military conflicts.
+  type: true-false
+  answer: false
+  explanation: The core idea identifies that space opera features 'grand politics' and the How It's Best Learned section explicitly tells readers to notice 'how political intrigue' grounds the vast scale, showing politics is essential.
+
+- question: How do personal relationships and political intrigue 'ground' the vast galactic scale of space opera narratives?
+  type: short-answer
+  explanation: A strong answer should explain that without personal stakes and political consequences for characters, galactic-scale conflicts would feel abstract and disconnected from reader emotions. Personal relationships make readers care about characters caught in galactic events. Political intrigue makes readers understand why individuals matter in massive power struggles. Students should demonstrate understanding that emotional grounding makes epic scale meaningful rather than merely spectacular.
 ```
 
 ## Explainer

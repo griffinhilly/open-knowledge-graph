@@ -31,36 +31,39 @@ Historical fiction invents dialogue and internal monologue for historical figure
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What is the primary challenge of period voice in historical fiction?"
-    options:
-      - "Making language identical to how people actually spoke in that era"
-      - "Using modern language regardless of when the story is set"
-      - "Balancing historical authenticity with modern readability"
-      - "Avoiding dialogue entirely to prevent anachronism"
-    correct_answer: 2
-    explanation: "The core idea states that period voice 'must feel authentic without sacrificing modern comprehensibility, navigating the tension between historical accuracy and readability,' identifying this balance as the key challenge."
-  - type: multiple-choice
-    question: "Why does anachronistic diction matter in historical fiction?"
-    options:
-      - "It is actually beneficial for readability"
-      - "It breaks historical plausibility and immersion"
-      - "Readers don't notice temporal differences in language"
-      - "Modern words enhance the emotional impact"
-    correct_answer: 1
-    explanation: "The core idea states that 'anachronistic diction breaks historical plausibility,' indicating that using language from the wrong period damages the reader's immersion in the historical setting."
-  - type: true-false
-    question: "Historical fiction creates dialogue and internal thoughts that historically occurred, based on documentary evidence."
-    correct_answer: false
-    explanation: "The core idea explicitly states that historical fiction 'invents dialogue and internal monologue for historical figures, creating conversations and thoughts that never occurred,' indicating these are imaginative creations."
-  - type: true-false
-    question: "Period voice requires sacrificing readability for absolute historical accuracy."
-    correct_answer: false
-    explanation: "The core idea specifies that period voice must 'feel authentic without sacrificing modern comprehensibility,' indicating that readability is not sacrificed but balanced with accuracy."
-  - type: short-answer
-    question: "How can a historical fiction author use period voice to build credibility with readers while maintaining comprehensibility?"
-    explanation: "A good answer should recognize that period-appropriate vocabulary and syntax in key moments (dialogue, formal speech, period-specific terminology) establishes authenticity, while judicious use of modern idioms for internal monologue or narrative maintains accessibility. The author can use selective period speech rather than consistent archaic language. Students should understand that this is a calibration rather than an all-or-nothing choice, and that strategic authenticity builds reader trust."
+- question: What is the primary challenge of period voice in historical fiction?
+  type: multiple-choice
+  options:
+  - Making language identical to how people actually spoke in that era
+  - Using modern language regardless of when the story is set
+  - Balancing historical authenticity with modern readability
+  - Avoiding dialogue entirely to prevent anachronism
+  answer: 2
+  explanation: The core idea states that period voice 'must feel authentic without sacrificing modern comprehensibility, navigating the tension between historical accuracy and readability,' identifying this balance as the key challenge.
+
+- question: Why does anachronistic diction matter in historical fiction?
+  type: multiple-choice
+  options:
+  - It is actually beneficial for readability
+  - It breaks historical plausibility and immersion
+  - Readers don't notice temporal differences in language
+  - Modern words enhance the emotional impact
+  answer: 1
+  explanation: The core idea states that 'anachronistic diction breaks historical plausibility,' indicating that using language from the wrong period damages the reader's immersion in the historical setting.
+
+- question: Historical fiction creates dialogue and internal thoughts that historically occurred, based on documentary evidence.
+  type: true-false
+  answer: false
+  explanation: The core idea explicitly states that historical fiction 'invents dialogue and internal monologue for historical figures, creating conversations and thoughts that never occurred,' indicating these are imaginative creations.
+
+- question: Period voice requires sacrificing readability for absolute historical accuracy.
+  type: true-false
+  answer: false
+  explanation: The core idea specifies that period voice must 'feel authentic without sacrificing modern comprehensibility,' indicating that readability is not sacrificed but balanced with accuracy.
+
+- question: How can a historical fiction author use period voice to build credibility with readers while maintaining comprehensibility?
+  type: short-answer
+  explanation: A good answer should recognize that period-appropriate vocabulary and syntax in key moments (dialogue, formal speech, period-specific terminology) establishes authenticity, while judicious use of modern idioms for internal monologue or narrative maintains accessibility. The author can use selective period speech rather than consistent archaic language. Students should understand that this is a calibration rather than an all-or-nothing choice, and that strategic authenticity builds reader trust.
 ```
 
 ## Explainer

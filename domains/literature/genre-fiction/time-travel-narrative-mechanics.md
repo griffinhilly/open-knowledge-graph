@@ -33,36 +33,39 @@ Not all time-travel stories require paradoxes; some use consistent timelines whe
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What is the fundamental challenge that time-travel narratives must address?"
-    options:
-      - "Selecting the correct historical period to visit"
-      - "Building realistic time machines with period-accurate materials"
-      - "Grappling with causality, paradoxes, and timeline logic"
-      - "Avoiding anachronistic dialogue and cultural references"
-    correct_answer: 2
-    explanation: "The core idea states that 'time travel narratives grapple with causality, paradoxes, and multiple timeline theories,' identifying logical and philosophical consistency as the central challenge."
-  - type: multiple-choice
-    question: "In a fixed timeline theory, what is the consequence of attempting to change the past?"
-    options:
-      - "The timeline branches into multiple alternate realities"
-      - "Whatever happened, happened—the past cannot be changed"
-      - "The time traveler is erased from existence"
-      - "An ontological loop is created"
-    correct_answer: 1
-    explanation: "The core idea states that in fixed timeline theory, 'whatever happened, happened'—preventing any change to the past regardless of the traveler's actions."
-  - type: true-false
-    question: "All time-travel stories necessarily involve paradoxes that create logical inconsistencies."
-    correct_answer: false
-    explanation: "The Common Misconceptions section explicitly states: 'Not all time-travel stories require paradoxes; some use consistent timelines where the past cannot be changed.'"
-  - type: true-false
-    question: "The philosophical framework of time causality affects what plot developments are possible in time-travel stories."
-    correct_answer: true
-    explanation: "The core idea states that 'different time-travel frameworks enable different story structures and raise different philosophical questions,' and the How It's Best Learned section demonstrates how frameworks constrain plot possibilities."
-  - type: short-answer
-    question: "How do branching timeline theory and fixed timeline theory enable different kinds of narrative stakes?"
-    explanation: "A strong answer should explain that branching timelines allow for alternate history possibilities where the protagonist's actions create new timelines (raising questions about responsibility and consequence), while fixed timelines create deterministic narratives where the protagonist discovers they were always meant to act as history recorded. Students should demonstrate understanding that the philosophical framework shapes what kinds of dramatic tension become possible."
+- question: What is the fundamental challenge that time-travel narratives must address?
+  type: multiple-choice
+  options:
+  - Selecting the correct historical period to visit
+  - Building realistic time machines with period-accurate materials
+  - Grappling with causality, paradoxes, and timeline logic
+  - Avoiding anachronistic dialogue and cultural references
+  answer: 2
+  explanation: The core idea states that 'time travel narratives grapple with causality, paradoxes, and multiple timeline theories,' identifying logical and philosophical consistency as the central challenge.
+
+- question: In a fixed timeline theory, what is the consequence of attempting to change the past?
+  type: multiple-choice
+  options:
+  - The timeline branches into multiple alternate realities
+  - Whatever happened, happened—the past cannot be changed
+  - The time traveler is erased from existence
+  - An ontological loop is created
+  answer: 1
+  explanation: The core idea states that in fixed timeline theory, 'whatever happened, happened'—preventing any change to the past regardless of the traveler's actions.
+
+- question: All time-travel stories necessarily involve paradoxes that create logical inconsistencies.
+  type: true-false
+  answer: false
+  explanation: 'The Common Misconceptions section explicitly states: ''Not all time-travel stories require paradoxes; some use consistent timelines where the past cannot be changed.'''
+
+- question: The philosophical framework of time causality affects what plot developments are possible in time-travel stories.
+  type: true-false
+  answer: true
+  explanation: The core idea states that 'different time-travel frameworks enable different story structures and raise different philosophical questions,' and the How It's Best Learned section demonstrates how frameworks constrain plot possibilities.
+
+- question: How do branching timeline theory and fixed timeline theory enable different kinds of narrative stakes?
+  type: short-answer
+  explanation: A strong answer should explain that branching timelines allow for alternate history possibilities where the protagonist's actions create new timelines (raising questions about responsibility and consequence), while fixed timelines create deterministic narratives where the protagonist discovers they were always meant to act as history recorded. Students should demonstrate understanding that the philosophical framework shapes what kinds of dramatic tension become possible.
 ```
 
 ## Explainer

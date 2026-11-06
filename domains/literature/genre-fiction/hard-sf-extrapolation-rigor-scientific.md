@@ -26,36 +26,39 @@ Hard science fiction prioritizes scientific plausibility and rigorous extrapolat
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What is the primary focus of hard science fiction according to the core idea?"
-    options:
-      - "Entertaining action and spectacular visuals regardless of scientific accuracy"
-      - "Scientific plausibility and rigorous extrapolation from known physics and biology"
-      - "Purely imaginative worldbuilding without concern for scientific consistency"
-      - "Social commentary independent of technical details"
-    correct_answer: 1
-    explanation: "The core idea emphasizes that hard SF 'prioritizes scientific plausibility and rigorous extrapolation from known physics and biology,' establishing scientific accuracy as its defining characteristic."
-  - type: multiple-choice
-    question: "How do hard SF writers approach worldbuilding?"
-    options:
-      - "They invent rules without researching actual science"
-      - "They ignore established physics as constraints"
-      - "They research actual science and build worlds that extend logically from established principles"
-      - "They focus on emotional truth rather than technical accuracy"
-    correct_answer: 2
-    explanation: "The core idea states that 'writers research actual science and build worlds that extend logically from established principles,' showing the hard SF approach to research and logical consistency."
-  - type: true-false
-    question: "Hard science fiction explores 'what if?' questions grounded in real scientific understanding."
-    correct_answer: true
-    explanation: "The core idea explicitly states that hard SF 'explores 'what if?' questions grounded in real scientific understanding,' confirming this as a defining characteristic."
-  - type: true-false
-    question: "Hard science fiction allows significant violations of established physics if the story requires it."
-    correct_answer: false
-    explanation: "The core idea emphasizes 'technical precision and commitment to accuracy,' indicating that hard SF maintains consistency with established science rather than abandoning it for plot convenience."
-  - type: short-answer
-    question: "What makes hard science fiction 'hard,' and how does this commitment to rigor affect the kinds of stories that can be told?"
-    explanation: "A good answer should recognize that 'hard' means rigorous adherence to established science and logical extrapolation. This commitment creates constraints (you can't violate physics for plot convenience) but also creates opportunities (readers trust the logical consistency and can engage in sophisticated speculation about the implications of the scientific premises). Students should understand that constraints enable rather than merely limit storytelling, creating specific pleasures and challenges."
+- question: What is the primary focus of hard science fiction according to the core idea?
+  type: multiple-choice
+  options:
+  - Entertaining action and spectacular visuals regardless of scientific accuracy
+  - Scientific plausibility and rigorous extrapolation from known physics and biology
+  - Purely imaginative worldbuilding without concern for scientific consistency
+  - Social commentary independent of technical details
+  answer: 1
+  explanation: The core idea emphasizes that hard SF 'prioritizes scientific plausibility and rigorous extrapolation from known physics and biology,' establishing scientific accuracy as its defining characteristic.
+
+- question: How do hard SF writers approach worldbuilding?
+  type: multiple-choice
+  options:
+  - They invent rules without researching actual science
+  - They ignore established physics as constraints
+  - They research actual science and build worlds that extend logically from established principles
+  - They focus on emotional truth rather than technical accuracy
+  answer: 2
+  explanation: The core idea states that 'writers research actual science and build worlds that extend logically from established principles,' showing the hard SF approach to research and logical consistency.
+
+- question: Hard science fiction explores 'what if?' questions grounded in real scientific understanding.
+  type: true-false
+  answer: true
+  explanation: The core idea explicitly states that hard SF 'explores 'what if?' questions grounded in real scientific understanding,' confirming this as a defining characteristic.
+
+- question: Hard science fiction allows significant violations of established physics if the story requires it.
+  type: true-false
+  answer: false
+  explanation: The core idea emphasizes 'technical precision and commitment to accuracy,' indicating that hard SF maintains consistency with established science rather than abandoning it for plot convenience.
+
+- question: What makes hard science fiction 'hard,' and how does this commitment to rigor affect the kinds of stories that can be told?
+  type: short-answer
+  explanation: A good answer should recognize that 'hard' means rigorous adherence to established science and logical extrapolation. This commitment creates constraints (you can't violate physics for plot convenience) but also creates opportunities (readers trust the logical consistency and can engage in sophisticated speculation about the implications of the scientific premises). Students should understand that constraints enable rather than merely limit storytelling, creating specific pleasures and challenges.
 ```
 
 ## Explainer

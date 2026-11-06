@@ -25,35 +25,39 @@ Book banning and censorship of children's literature raise questions about who c
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What fundamental tension does book banning in children's literature reveal?"
-    options:
-      - "Books have no effect on children's thinking or development"
-      - "There is disagreement about who should control children's reading and what moral frameworks should determine which books are accessible"
-      - "Books are equally appropriate for all ages"
-      - "Banning books is universally accepted as harmful"
-    answer: 1
-    explanation: "Book banning exposes differing beliefs about parental authority, institutional responsibility, moral values, and children's capacity to encounter diverse perspectives."
-  - question: "What topics most frequently result in children's books being challenged or banned?"
-    options:
-      - "Mathematical concepts and science explanations"
-      - "LGBTQ+ identity, racial justice, sexuality, and non-traditional family structures"
-      - "Adventure and action sequences"
-      - "Descriptions of nature and animals"
-    answer: 1
-    explanation: "Most frequently challenged books address identity, social justice, and family diversity—topics some adults believe children should not encounter."
+- question: What fundamental tension does book banning in children's literature reveal?
+  type: multiple-choice
+  options:
+  - Books have no effect on children's thinking or development
+  - There is disagreement about who should control children's reading and what moral frameworks should determine which books are accessible
+  - Books are equally appropriate for all ages
+  - Banning books is universally accepted as harmful
+  answer: 1
+  explanation: Book banning exposes differing beliefs about parental authority, institutional responsibility, moral values, and children's capacity to encounter diverse perspectives.
 
-true-false:
-  - question: "True or False: Intellectual freedom advocates believe that censoring children's access to books because some adults find the content objectionable prevents the intellectual development children need."
-    answer: true
-    explanation: "This is true. Freedom of information advocates argue that young readers need access to diverse perspectives, including challenging or unconventional ones, to develop critical thinking."
-  - question: "True or False: Book banning affects only the children whose parents choose not to give them banned books."
-    answer: false
-    explanation: "This is false. Book banning removes books from school and library collections, affecting all students' access regardless of their parents' views."
+- question: What topics most frequently result in children's books being challenged or banned?
+  type: multiple-choice
+  options:
+  - Mathematical concepts and science explanations
+  - LGBTQ+ identity, racial justice, sexuality, and non-traditional family structures
+  - Adventure and action sequences
+  - Descriptions of nature and animals
+  answer: 1
+  explanation: Most frequently challenged books address identity, social justice, and family diversity—topics some adults believe children should not encounter.
 
-short-answer:
-  - question: "Why does the question of what books children should be allowed to read reveal disagreements about the purposes and authority structures of education?"
-    explanation: "Book access debates implicitly argue about whether education should transmit society's current values or equip young people to question and evaluate values; whether parents, institutions, or young people themselves should control intellectual development; and whether protecting children means shielding them from challenging perspectives or preparing them to encounter diverse views critically. These disagreements reflect fundamentally different philosophies of childhood, education's purpose, authority, and what children are capable of understanding. A parent who wants books addressing LGBTQ+ identity in schools believes children benefit from understanding human diversity; a parent who objects to the same books may believe children's values need shaping by agreed-upon moral frameworks. Both positions reflect genuine concern for children's wellbeing, but different assumptions about what wellbeing requires. These debates are not merely about individual books but about institutional power—who decides what children learn and on what basis."
+- question: 'True or False: Intellectual freedom advocates believe that censoring children''s access to books because some adults find the content objectionable prevents the intellectual development children need.'
+  type: true-false
+  answer: true
+  explanation: This is true. Freedom of information advocates argue that young readers need access to diverse perspectives, including challenging or unconventional ones, to develop critical thinking.
+
+- question: 'True or False: Book banning affects only the children whose parents choose not to give them banned books.'
+  type: true-false
+  answer: false
+  explanation: This is false. Book banning removes books from school and library collections, affecting all students' access regardless of their parents' views.
+
+- question: Why does the question of what books children should be allowed to read reveal disagreements about the purposes and authority structures of education?
+  type: short-answer
+  explanation: Book access debates implicitly argue about whether education should transmit society's current values or equip young people to question and evaluate values; whether parents, institutions, or young people themselves should control intellectual development; and whether protecting children means shielding them from challenging perspectives or preparing them to encounter diverse views critically. These disagreements reflect fundamentally different philosophies of childhood, education's purpose, authority, and what children are capable of understanding. A parent who wants books addressing LGBTQ+ identity in schools believes children benefit from understanding human diversity; a parent who objects to the same books may believe children's values need shaping by agreed-upon moral frameworks. Both positions reflect genuine concern for children's wellbeing, but different assumptions about what wellbeing requires. These debates are not merely about individual books but about institutional power—who decides what children learn and on what basis.
 ```
 
 ## Explainer

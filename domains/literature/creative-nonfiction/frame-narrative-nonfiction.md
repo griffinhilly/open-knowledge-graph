@@ -26,39 +26,39 @@ Frame narratives use an outer narrative to introduce and comment on an inner sto
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What is the structural function of a frame in frame narrative?"
+- question: What is the structural function of a frame in frame narrative?
+  type: multiple-choice
   options:
-    - "The frame decorates the inner story without adding meaning."
-    - "The frame provides context, perspective, and commentary on an inner narrative, creating distance and complexity."
-    - "Frame narratives are the same as linear narratives."
-    - "The frame hides the real story."
+  - The frame decorates the inner story without adding meaning.
+  - The frame provides context, perspective, and commentary on an inner narrative, creating distance and complexity.
+  - Frame narratives are the same as linear narratives.
+  - The frame hides the real story.
   answer: 1
-  explanation: "The frame is not decoration; it's structural. The outer narrative—the essayist's investigation, the journalist's research process—provides context for and interpretation of the inner story. The relationship between frame and inner narrative creates meaning."
+  explanation: The frame is not decoration; it's structural. The outer narrative—the essayist's investigation, the journalist's research process—provides context for and interpretation of the inner story. The relationship between frame and inner narrative creates meaning.
 
-- type: multiple-choice
-  question: "How might a frame narrative about a historical event work?"
+- question: How might a frame narrative about a historical event work?
+  type: multiple-choice
   options:
-    - "It simply narrates the historical event chronologically."
-    - "It uses the historian's or essayist's present-day investigation as a frame around historical documents or accounts, showing how we understand history now."
-    - "Historical events cannot be narrated in frame structure."
-    - "The frame and history are unrelated."
+  - It simply narrates the historical event chronologically.
+  - It uses the historian's or essayist's present-day investigation as a frame around historical documents or accounts, showing how we understand history now.
+  - Historical events cannot be narrated in frame structure.
+  - The frame and history are unrelated.
   answer: 1
-  explanation: "An effective frame narrative might begin with the writer's present-day research or curiosity, then move into historical accounts or documents (the inner narrative), then return to the frame—how this history matters now, what it reveals, how understanding has changed. The structure shows history as something we actively interpret, not as fixed fact."
+  explanation: An effective frame narrative might begin with the writer's present-day research or curiosity, then move into historical accounts or documents (the inner narrative), then return to the frame—how this history matters now, what it reveals, how understanding has changed. The structure shows history as something we actively interpret, not as fixed fact.
 
-- type: true-false
-  statement: "True: In frame narrative, the outer frame and inner story are equally important—both contribute essential meaning."
+- question: 'True: In frame narrative, the outer frame and inner story are equally important—both contribute essential meaning.'
+  type: true-false
   answer: true
-  explanation: "Yes. Neither element is subordinate. The frame provides perspective and context that shapes how you understand the inner narrative. The inner narrative provides the substance that the frame interprets. Together, they create meaning neither alone could."
+  explanation: Yes. Neither element is subordinate. The frame provides perspective and context that shapes how you understand the inner narrative. The inner narrative provides the substance that the frame interprets. Together, they create meaning neither alone could.
 
-- type: true-false
-  statement: "False: A frame narrative in nonfiction must use a simple frame with minimal commentary, letting the inner story dominate."
+- question: 'False: A frame narrative in nonfiction must use a simple frame with minimal commentary, letting the inner story dominate.'
+  type: true-false
   answer: false
-  explanation: "This is false. The frame can be complex and substantial. It might be the bulk of the piece. What matters is the relationship between frame and inner narrative, not which is larger. Sometimes the frame's investigation is as interesting as the story being investigated."
+  explanation: This is false. The frame can be complex and substantial. It might be the bulk of the piece. What matters is the relationship between frame and inner narrative, not which is larger. Sometimes the frame's investigation is as interesting as the story being investigated.
 
-- type: short-answer
-  question: "How might a frame narrative differ from a simple historical account? What does the frame add?"
-  explanation: "A straightforward historical account would present the past: here's what happened, when, why. A frame narrative would show someone in the present investigating, questioning, encountering the past. The frame lets readers see the process of historical understanding. 'I read these documents and found gaps. I traveled to the location and interviewed descendants. Here's what I learned, and here's how understanding deepens.' The frame transforms history from settled fact into active interpretation. It also creates emotional connection—readers follow the investigator's journey of discovery, not just the historical events. The frame might reveal why this history matters now, what it teaches, how understanding the past changes the present. This adds complexity and relevance."
+- question: How might a frame narrative differ from a simple historical account? What does the frame add?
+  type: short-answer
+  explanation: 'A straightforward historical account would present the past: here''s what happened, when, why. A frame narrative would show someone in the present investigating, questioning, encountering the past. The frame lets readers see the process of historical understanding. ''I read these documents and found gaps. I traveled to the location and interviewed descendants. Here''s what I learned, and here''s how understanding deepens.'' The frame transforms history from settled fact into active interpretation. It also creates emotional connection—readers follow the investigator''s journey of discovery, not just the historical events. The frame might reveal why this history matters now, what it teaches, how understanding the past changes the present. This adds complexity and relevance.'
 ```
 
 ## Explainer

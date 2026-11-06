@@ -31,35 +31,40 @@ Read a mystery and track: What is unknown? What clues are revealed? When do you 
 ## Questions
 
 ```yaml
-- question: "A mystery novel involves: a protagonist trying to solve a crime, clues planted throughout the narrative, a climax where the culprit is revealed, and a final confirmation that this answer was correct. A different mystery involves: a protagonist trying to understand why a friend's personality changed dramatically, clues that the friend is hiding something, a climax where the friend reveals they're transitioning and feared rejection, and a resolution showing the friendship transforms. Which is a 'real' mystery?"
+- question: 'A mystery novel involves: a protagonist trying to solve a crime, clues planted throughout the narrative, a climax where the culprit is revealed, and a final confirmation that this answer was correct. A different mystery involves: a protagonist trying to understand why a friend''s personality changed dramatically, clues that the friend is hiding something, a climax where the friend reveals they''re transitioning and feared rejection, and a resolution showing the friendship transforms. Which is a ''real'' mystery?'
+  type: multiple-choice
   options:
-    - "Only the first one is a mystery because it involves a crime"
-    - "Both are mysteries because both involve discovering something hidden or unknown. Mysteries don't require crime—they require a central plot element that is unknown and must be revealed or solved"
-    - "Neither is a mystery"
-    - "Only crime-focused stories can be mysteries"
+  - Only the first one is a mystery because it involves a crime
+  - Both are mysteries because both involve discovering something hidden or unknown. Mysteries don't require crime—they require a central plot element that is unknown and must be revealed or solved
+  - Neither is a mystery
+  - Only crime-focused stories can be mysteries
   answer: 1
-  explanation: "Mystery as a narrative structure means a central unknown that the plot revolves around solving or revealing. Crimes are common mystery subjects, but not the only ones. A mystery about identity, relationships, secrets, or hidden circumstances works the same way: information is strategically revealed, readers piece together understanding, a revelation occurs."
+  explanation: 'Mystery as a narrative structure means a central unknown that the plot revolves around solving or revealing. Crimes are common mystery subjects, but not the only ones. A mystery about identity, relationships, secrets, or hidden circumstances works the same way: information is strategically revealed, readers piece together understanding, a revelation occurs.'
 
-- question: "In a well-designed mystery, the author gives readers all the clues needed to solve the puzzle before the final reveal. However, readers don't notice the clues or misinterpret them. When the solution is revealed, readers think 'Oh, I didn't see that coming!' Is this good mystery design?"
+- question: In a well-designed mystery, the author gives readers all the clues needed to solve the puzzle before the final reveal. However, readers don't notice the clues or misinterpret them. When the solution is revealed, readers think 'Oh, I didn't see that coming!' Is this good mystery design?
+  type: multiple-choice
   options:
-    - "No, because readers should immediately see the answer"
-    - "Yes, if executed fairly. The author planted the clues; the reader missed them or misread them. On rereading, the clues are there, and readers appreciate the author's fairness and craft. This is different from the author withholding clues or introducing new information at the last minute, which would be unfair"
-    - "The author must make the answer obvious"
-    - "Mystery readers should always solve the puzzle before the reveal"
+  - No, because readers should immediately see the answer
+  - Yes, if executed fairly. The author planted the clues; the reader missed them or misread them. On rereading, the clues are there, and readers appreciate the author's fairness and craft. This is different from the author withholding clues or introducing new information at the last minute, which would be unfair
+  - The author must make the answer obvious
+  - Mystery readers should always solve the puzzle before the reveal
   answer: 1
-  explanation: "Fair play is central to good mystery design. The author should provide readers with all necessary information to potentially solve the puzzle, but the solution can still be surprising through misdirection, subtle placement, or readers' own blind spots. This respects readers' intelligence while preserving surprise."
+  explanation: Fair play is central to good mystery design. The author should provide readers with all necessary information to potentially solve the puzzle, but the solution can still be surprising through misdirection, subtle placement, or readers' own blind spots. This respects readers' intelligence while preserving surprise.
 
-- question: "True or False: Mystery and suspense are the same thing."
+- question: 'True or False: Mystery and suspense are the same thing.'
+  type: true-false
   answer: false
-  explanation: "Mystery asks 'What happened? Who did it?' Suspense asks 'What will happen next? Will they survive?' Both can appear in the same story, but they create different effects. Mystery focuses on solving puzzles about the past; suspense focuses on anticipating future danger."
+  explanation: Mystery asks 'What happened? Who did it?' Suspense asks 'What will happen next? Will they survive?' Both can appear in the same story, but they create different effects. Mystery focuses on solving puzzles about the past; suspense focuses on anticipating future danger.
 
-- question: "True or False: A detective or police officer must be the protagonist of a mystery story."
+- question: 'True or False: A detective or police officer must be the protagonist of a mystery story.'
+  type: true-false
   answer: false
-  explanation: "Anyone can solve a mystery. An amateur sleuth, a journalist, a curious child, an ordinary person stumbling into a secret—all can drive a mystery plot. Professional detectives are common, but not required. What matters is that someone is driven to uncover what's hidden."
+  explanation: Anyone can solve a mystery. An amateur sleuth, a journalist, a curious child, an ordinary person stumbling into a secret—all can drive a mystery plot. Professional detectives are common, but not required. What matters is that someone is driven to uncover what's hidden.
 
-- question: "A mystery novel reveals the culprit's identity on page 200 of a 400-page book. The remaining 200 pages show the detective gathering evidence to prove the culprit's guilt, with obstacles and complications. Some readers feel disappointed that the mystery is 'solved' halfway through. Is this fair criticism?"
-  answer: "This is a matter of what readers expect from mystery structure. Traditional mysteries keep the culprit's identity secret until the final reveal. However, some mysteries (psychological thrillers, for example) reveal identity early and focus on other questions: Can they prove it? How will the culprit respond? What are the consequences? This is still mystery, but it reframes the unknown from 'who did it?' to 'what happens now?' Readers disappointed in this structure expected traditional mystery conventions. The book isn't necessarily poorly designed—it's a different mystery structure that asks different questions."
-  explanation: "This tests understanding that mystery conventions can be played with intentionally. While traditional mysteries keep identity secret, other mystery structures work differently. Understanding these variations helps readers appreciate what an author is doing, rather than judging against a single expected structure."
+- question: A mystery novel reveals the culprit's identity on page 200 of a 400-page book. The remaining 200 pages show the detective gathering evidence to prove the culprit's guilt, with obstacles and complications. Some readers feel disappointed that the mystery is 'solved' halfway through. Is this fair criticism?
+  type: short-answer
+  answer: 'This is a matter of what readers expect from mystery structure. Traditional mysteries keep the culprit''s identity secret until the final reveal. However, some mysteries (psychological thrillers, for example) reveal identity early and focus on other questions: Can they prove it? How will the culprit respond? What are the consequences? This is still mystery, but it reframes the unknown from ''who did it?'' to ''what happens now?'' Readers disappointed in this structure expected traditional mystery conventions. The book isn''t necessarily poorly designed—it''s a different mystery structure that asks different questions.'
+  explanation: This tests understanding that mystery conventions can be played with intentionally. While traditional mysteries keep identity secret, other mystery structures work differently. Understanding these variations helps readers appreciate what an author is doing, rather than judging against a single expected structure.
 ```
 
 ## Explainer

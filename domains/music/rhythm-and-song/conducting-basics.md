@@ -35,40 +35,40 @@ Practice a simple two-beat conducting pattern (down-up) while the class plays or
 ## Questions
 
 ```yaml
-- question: "What is the main job of a conductor?"
-  type: mc
+- question: What is the main job of a conductor?
+  type: multiple-choice
   options:
-    - "To play the loudest instrument"
-    - "To keep the musicians together and show the beat and tempo"
-    - "To choose what songs to play"
-    - "To count the money from tickets"
+  - To play the loudest instrument
+  - To keep the musicians together and show the beat and tempo
+  - To choose what songs to play
+  - To count the money from tickets
   answer: 1
-  explanation: "A conductor uses hand movements and a baton to show the beat, keep everyone together, and help the musicians understand the conductor's interpretation of the music."
+  explanation: A conductor uses hand movements and a baton to show the beat, keep everyone together, and help the musicians understand the conductor's interpretation of the music.
 
-- question: "All conductors use a baton (a stick) to conduct."
-  type: tf
+- question: All conductors use a baton (a stick) to conduct.
+  type: true-false
   answer: false
-  explanation: "Some conductors use a baton, but some conduct with just their hands. Both ways let musicians see and follow the beat."
+  explanation: Some conductors use a baton, but some conduct with just their hands. Both ways let musicians see and follow the beat.
 
-- question: "What does a conductor's hand motion usually show?"
-  type: mc
+- question: What does a conductor's hand motion usually show?
+  type: multiple-choice
   options:
-    - "The pitch of the notes"
-    - "The volume of the music"
-    - "The beat and tempo of the song"
-    - "The instruments that should play"
+  - The pitch of the notes
+  - The volume of the music
+  - The beat and tempo of the song
+  - The instruments that should play
   answer: 2
-  explanation: "The conductor's hands show the beat and tempo, helping all the musicians stay together and in time."
+  explanation: The conductor's hands show the beat and tempo, helping all the musicians stay together and in time.
 
-- question: "In an orchestra, the musicians have to watch the conductor and not listen to each other."
-  type: tf
+- question: In an orchestra, the musicians have to watch the conductor and not listen to each other.
+  type: true-false
   answer: false
-  explanation: "Musicians watch the conductor for timing and interpretation, but they also listen to each other to balance and blend their sounds together."
+  explanation: Musicians watch the conductor for timing and interpretation, but they also listen to each other to balance and blend their sounds together.
 
-- question: "Practice conducting the beat of a song you know. What does your hand motion help do?"
-  type: sa
-  answer: "It shows the beat pattern so that everyone knows when to start, play together, and stay in time."
-  explanation: "A good answer shows that conducting helps keep a group together and shows them the beat and tempo they should follow."
+- question: Practice conducting the beat of a song you know. What does your hand motion help do?
+  type: short-answer
+  answer: It shows the beat pattern so that everyone knows when to start, play together, and stay in time.
+  explanation: A good answer shows that conducting helps keep a group together and shows them the beat and tempo they should follow.
 ```
 
 ## Explainer

@@ -35,39 +35,39 @@ Walcott's use of English and classical forms is not internalization of coloniali
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "How does Walcott's use of formal virtuosity in English assert postcolonial authority?"
+- question: How does Walcott's use of formal virtuosity in English assert postcolonial authority?
+  type: multiple-choice
   options:
-    - "Using the colonizer's language means accepting colonial inferiority"
-    - "By achieving extraordinary formal mastery in English—demonstrating technical excellence equal or superior to metropolitan poets—Walcott asserts Caribbean intellectual and aesthetic capacity"
-    - "Formal excellence is incompatible with postcolonial resistance"
-    - "Walcott abandoned English in favor of African languages"
+  - Using the colonizer's language means accepting colonial inferiority
+  - By achieving extraordinary formal mastery in English—demonstrating technical excellence equal or superior to metropolitan poets—Walcott asserts Caribbean intellectual and aesthetic capacity
+  - Formal excellence is incompatible with postcolonial resistance
+  - Walcott abandoned English in favor of African languages
   answer: 1
-  explanation: "Walcott recognizes that the colonizer's language is also the inherited language of Caribbean culture; rejecting English entirely is not liberation but amputation. Instead, he demonstrates through formal virtuosity that Caribbean writers can command English with excellence equal to metropolitan poets. His technical mastery—complex verse forms, sophisticated imagery, intellectual depth—proves that postcolonial writers are not inferior but equal or superior. The formal excellence becomes itself a postcolonial assertion: if a Caribbean poet can achieve such mastery, then the claim of European cultural superiority is false. The formal virtuosity is not acceptance of colonial values but appropriation of the colonizer's language for postcolonial purposes."
+  explanation: 'Walcott recognizes that the colonizer''s language is also the inherited language of Caribbean culture; rejecting English entirely is not liberation but amputation. Instead, he demonstrates through formal virtuosity that Caribbean writers can command English with excellence equal to metropolitan poets. His technical mastery—complex verse forms, sophisticated imagery, intellectual depth—proves that postcolonial writers are not inferior but equal or superior. The formal excellence becomes itself a postcolonial assertion: if a Caribbean poet can achieve such mastery, then the claim of European cultural superiority is false. The formal virtuosity is not acceptance of colonial values but appropriation of the colonizer''s language for postcolonial purposes.'
 
-- type: multiple-choice
-  question: "How does Omeros synthesize Homeric epic, Caribbean oral tradition, and modernist form?"
+- question: How does Omeros synthesize Homeric epic, Caribbean oral tradition, and modernist form?
+  type: multiple-choice
   options:
-    - "Omeros is primarily a translation of Homer with no Caribbean content"
-    - "Omeros adapts the structure and themes of Homeric epic to Caribbean context, integrating African oral narrative traditions and modernist formal complexity to claim Caribbean experience as equal to classical epic"
-    - "Caribbean and classical traditions cannot be integrated"
-    - "Walcott abandoned classical references in favor of purely Caribbean forms"
+  - Omeros is primarily a translation of Homer with no Caribbean content
+  - Omeros adapts the structure and themes of Homeric epic to Caribbean context, integrating African oral narrative traditions and modernist formal complexity to claim Caribbean experience as equal to classical epic
+  - Caribbean and classical traditions cannot be integrated
+  - Walcott abandoned classical references in favor of purely Caribbean forms
   answer: 1
-  explanation: "Omeros is Walcott's epic poem that transforms the epic form to represent Caribbean experience. Rather than narrating Greek myths, it tells stories of Caribbean people—fishermen, slaves, historical figures—with the seriousness and scope that epic traditionally reserves for European civilization. The poem adapts Homeric structure and references but infuses them with Caribbean content and Caribbean oral narrative traditions. Modernist formal complexity allows Walcott to address multiple registers simultaneously: the epic scope of Caribbean history, the oral storytelling traditions of the Caribbean, the intellectual sophistication of modernism. The synthesis is not compromise but assertion: Caribbean experience warrants epic treatment; Caribbean traditions are equally worthy of sophisticated artistic expression as European classical traditions."
+  explanation: 'Omeros is Walcott''s epic poem that transforms the epic form to represent Caribbean experience. Rather than narrating Greek myths, it tells stories of Caribbean people—fishermen, slaves, historical figures—with the seriousness and scope that epic traditionally reserves for European civilization. The poem adapts Homeric structure and references but infuses them with Caribbean content and Caribbean oral narrative traditions. Modernist formal complexity allows Walcott to address multiple registers simultaneously: the epic scope of Caribbean history, the oral storytelling traditions of the Caribbean, the intellectual sophistication of modernism. The synthesis is not compromise but assertion: Caribbean experience warrants epic treatment; Caribbean traditions are equally worthy of sophisticated artistic expression as European classical traditions.'
 
-- type: true-false
-  statement: "Walcott's integration of African diasporic traditions and classical European references indicates confusion about his cultural identity."
+- question: Walcott's integration of African diasporic traditions and classical European references indicates confusion about his cultural identity.
+  type: true-false
   answer: false
-  explanation: "The integration reflects not confusion but clarity about postcolonial Caribbean identity as genuinely hybrid. Caribbean culture is both African (through the diaspora) and European (through colonialism) and distinctively Caribbean. Rather than choosing one tradition and rejecting others, Walcott synthesizes them. This is not identity confusion but sophisticated acknowledgment of actual Caribbean history and culture. The hybridity is not damage or loss but the source of Caribbean creative possibility. Walcott claims the right to draw on all available traditions and create something genuinely new."
+  explanation: The integration reflects not confusion but clarity about postcolonial Caribbean identity as genuinely hybrid. Caribbean culture is both African (through the diaspora) and European (through colonialism) and distinctively Caribbean. Rather than choosing one tradition and rejecting others, Walcott synthesizes them. This is not identity confusion but sophisticated acknowledgment of actual Caribbean history and culture. The hybridity is not damage or loss but the source of Caribbean creative possibility. Walcott claims the right to draw on all available traditions and create something genuinely new.
 
-- type: true-false
-  statement: "Walcott's postcolonial assertion would be stronger if he rejected English and classical forms entirely."
+- question: Walcott's postcolonial assertion would be stronger if he rejected English and classical forms entirely.
+  type: true-false
   answer: false
-  explanation: "This assumes that postcolonial resistance requires rejection of colonial culture. Walcott's actual practice suggests otherwise: by mastering the colonizer's language and forms, by achieving excellence that claims equality with metropolitan culture, he demonstrates that postcolonial writers are not inferior or culturally damaged but intellectually and artistically equal or superior. Rejection might be liberating but it is also limiting—it means not having access to certain cultural resources. Walcott's approach is more ambitious: claiming the colonizer's language as his own, mastering its forms, and using them for postcolonial purposes. This is appropriation, not internalization."
+  explanation: 'This assumes that postcolonial resistance requires rejection of colonial culture. Walcott''s actual practice suggests otherwise: by mastering the colonizer''s language and forms, by achieving excellence that claims equality with metropolitan culture, he demonstrates that postcolonial writers are not inferior or culturally damaged but intellectually and artistically equal or superior. Rejection might be liberating but it is also limiting—it means not having access to certain cultural resources. Walcott''s approach is more ambitious: claiming the colonizer''s language as his own, mastering its forms, and using them for postcolonial purposes. This is appropriation, not internalization.'
 
-- type: short-answer
-  question: "How does Walcott's representation of Caribbean hybridity as creative synthesis rather than cultural damage represent a distinctive postcolonial position?"
-  explanation: "Rather than treating hybridity as damage caused by colonialism—as loss of pure African culture or imposition of European culture—Walcott treats it as the actual condition of Caribbean existence and as a source of creative possibility. Caribbean people are both African and European, both colonized and free, both traditional and modern. This multiplicity is not damage but reality. By celebrating and synthesizing these multiple inheritances, Walcott asserts that Caribbean culture is not inferior or incomplete but genuinely creative. This position is distinctive because it refuses victimhood while acknowledging history. It asserts that postcolonial peoples are not damaged by their hybridity but liberated by it—they have access to multiple traditions and can create new forms that no single tradition alone could generate. This philosophical position shapes Walcott's artistic practice: his formal virtuosity, his integration of multiple traditions, his assertion of Caribbean equality. The position argues that postcolonial liberation is achieved not through rejection but through creative synthesis—taking what colonialism and history have given, and transforming it into something genuinely new and beautiful."
+- question: How does Walcott's representation of Caribbean hybridity as creative synthesis rather than cultural damage represent a distinctive postcolonial position?
+  type: short-answer
+  explanation: 'Rather than treating hybridity as damage caused by colonialism—as loss of pure African culture or imposition of European culture—Walcott treats it as the actual condition of Caribbean existence and as a source of creative possibility. Caribbean people are both African and European, both colonized and free, both traditional and modern. This multiplicity is not damage but reality. By celebrating and synthesizing these multiple inheritances, Walcott asserts that Caribbean culture is not inferior or incomplete but genuinely creative. This position is distinctive because it refuses victimhood while acknowledging history. It asserts that postcolonial peoples are not damaged by their hybridity but liberated by it—they have access to multiple traditions and can create new forms that no single tradition alone could generate. This philosophical position shapes Walcott''s artistic practice: his formal virtuosity, his integration of multiple traditions, his assertion of Caribbean equality. The position argues that postcolonial liberation is achieved not through rejection but through creative synthesis—taking what colonialism and history have given, and transforming it into something genuinely new and beautiful.'
 ```
 
 ## Explainer

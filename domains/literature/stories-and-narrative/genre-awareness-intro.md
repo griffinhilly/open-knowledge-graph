@@ -37,35 +37,40 @@ Identify a story's genre and list its characteristics. What elements make it a m
 ## Questions
 
 ```yaml
-- question: "A reader begins a mystery novel expecting: a clear crime, clues planted throughout, a detective following leads, and a climactic reveal where the culprit is identified. Instead, the novel focuses on a character's emotional grief after their spouse dies, explores their memories, and ends without ever identifying who might have been responsible. What is happening?"
+- question: 'A reader begins a mystery novel expecting: a clear crime, clues planted throughout, a detective following leads, and a climactic reveal where the culprit is identified. Instead, the novel focuses on a character''s emotional grief after their spouse dies, explores their memories, and ends without ever identifying who might have been responsible. What is happening?'
+  type: multiple-choice
   options:
-    - "This is a bad mystery"
-    - "The author is subverting mystery genre conventions. The novel uses a mystery-like setup (an unresolved death) but prioritizes emotional and psychological exploration over solving the puzzle. This challenges readers' genre expectations, forcing them to adjust what they think the story is about"
-    - "All stories must follow genre rules"
-    - "This isn't a real genre"
+  - This is a bad mystery
+  - The author is subverting mystery genre conventions. The novel uses a mystery-like setup (an unresolved death) but prioritizes emotional and psychological exploration over solving the puzzle. This challenges readers' genre expectations, forcing them to adjust what they think the story is about
+  - All stories must follow genre rules
+  - This isn't a real genre
   answer: 1
-  explanation: "Genres have conventions that set reader expectations, but authors often play with or subvert them intentionally. Understanding genre conventions means understanding not just what stories traditionally do, but how authors can creatively challenge or reimagine those conventions. This makes reading more sophisticated—readers recognize when authors are working within, bending, or breaking genre expectations."
+  explanation: Genres have conventions that set reader expectations, but authors often play with or subvert them intentionally. Understanding genre conventions means understanding not just what stories traditionally do, but how authors can creatively challenge or reimagine those conventions. This makes reading more sophisticated—readers recognize when authors are working within, bending, or breaking genre expectations.
 
-- question: "Compare two stories: Story A is a lighthearted fantasy adventure with humor and a guaranteed happy ending. Story B is a dark fantasy with moral complexity, no guaranteed safety, and an ambiguous ending. Both are fantasy. What does this demonstrate about genre?"
+- question: 'Compare two stories: Story A is a lighthearted fantasy adventure with humor and a guaranteed happy ending. Story B is a dark fantasy with moral complexity, no guaranteed safety, and an ambiguous ending. Both are fantasy. What does this demonstrate about genre?'
+  type: multiple-choice
   options:
-    - "Story A is better because it follows genre conventions"
-    - "Genre is a category that can contain vastly different approaches. Fantasy is defined by magic and imaginary worlds, not by tone or ending. Excellent stories exist within the same genre that work very differently. Genre conventions exist, but they're not rigid rules"
-    - "These can't both be fantasy"
-    - "Genre determines quality"
+  - Story A is better because it follows genre conventions
+  - Genre is a category that can contain vastly different approaches. Fantasy is defined by magic and imaginary worlds, not by tone or ending. Excellent stories exist within the same genre that work very differently. Genre conventions exist, but they're not rigid rules
+  - These can't both be fantasy
+  - Genre determines quality
   answer: 1
-  explanation: "Genre is broader than most people assume. Knowing a story is fantasy tells you some things (expect magic, imaginary worlds) but not everything (tone, complexity, age-appropriateness). Readers who understand genre understand both its conventions AND its flexibility."
+  explanation: Genre is broader than most people assume. Knowing a story is fantasy tells you some things (expect magic, imaginary worlds) but not everything (tone, complexity, age-appropriateness). Readers who understand genre understand both its conventions AND its flexibility.
 
-- question: "True or False: If a story doesn't follow its genre's conventions, it's badly written."
+- question: 'True or False: If a story doesn''t follow its genre''s conventions, it''s badly written.'
+  type: true-false
   answer: false
-  explanation: "Not at all. Some of the most brilliant stories play with, subvert, or challenge genre conventions. A romance that doesn't end in the lovers being together, or a mystery where the identity doesn't matter, can be brilliant if the author has intentional purposes. Breaking conventions isn't bad unless the break feels arbitrary or mistakes the audience."
+  explanation: Not at all. Some of the most brilliant stories play with, subvert, or challenge genre conventions. A romance that doesn't end in the lovers being together, or a mystery where the identity doesn't matter, can be brilliant if the author has intentional purposes. Breaking conventions isn't bad unless the break feels arbitrary or mistakes the audience.
 
-- question: "True or False: Genres exist to limit what stories can do and are therefore restrictions on creativity."
+- question: 'True or False: Genres exist to limit what stories can do and are therefore restrictions on creativity.'
+  type: true-false
   answer: false
-  explanation: "Constraints often inspire creativity. Genre conventions give authors a framework to work within, and working within frameworks often produces innovation. A poet writing sonnets has strict constraints, yet great poetry emerges. Similarly, genre conventions give structure that authors can use, subvert, or play with to create meaning."
+  explanation: Constraints often inspire creativity. Genre conventions give authors a framework to work within, and working within frameworks often produces innovation. A poet writing sonnets has strict constraints, yet great poetry emerges. Similarly, genre conventions give structure that authors can use, subvert, or play with to create meaning.
 
-- question: "A reader who loves romance novels decides to read a literary fiction novel. The novel includes a love story but is primarily focused on a character's internal struggle with identity and belonging. The reader is disappointed because it's 'not a real romance.' Explain what's happening and how genre awareness might help."
-  answer: "The reader brought romance genre expectations to a literary fiction novel. Romance as a genre typically prioritizes the love relationship as the central plot and ends with the lovers' commitment/happiness. Literary fiction often prioritizes character development and psychological depth, with romance as one element among many. The reader's disappointment comes from genre mismatch, not the book's quality. Genre awareness would help the reader understand that different genres have different priorities, and approaching a literary fiction novel expecting a romance structure will lead to disappointment. Understanding what a text promises by its genre helps readers engage with it appropriately."
-  explanation: "This tests understanding that genre is a contract between author and reader about what the story prioritizes and promises. Readers who understand genre can appreciate stories more fully because they engage with what the author is actually doing rather than what they expected. This deepens rather than limits reading."
+- question: A reader who loves romance novels decides to read a literary fiction novel. The novel includes a love story but is primarily focused on a character's internal struggle with identity and belonging. The reader is disappointed because it's 'not a real romance.' Explain what's happening and how genre awareness might help.
+  type: short-answer
+  answer: The reader brought romance genre expectations to a literary fiction novel. Romance as a genre typically prioritizes the love relationship as the central plot and ends with the lovers' commitment/happiness. Literary fiction often prioritizes character development and psychological depth, with romance as one element among many. The reader's disappointment comes from genre mismatch, not the book's quality. Genre awareness would help the reader understand that different genres have different priorities, and approaching a literary fiction novel expecting a romance structure will lead to disappointment. Understanding what a text promises by its genre helps readers engage with it appropriately.
+  explanation: This tests understanding that genre is a contract between author and reader about what the story prioritizes and promises. Readers who understand genre can appreciate stories more fully because they engage with what the author is actually doing rather than what they expected. This deepens rather than limits reading.
 ```
 
 ## Explainer

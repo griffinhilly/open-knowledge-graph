@@ -32,40 +32,39 @@ Transformation is simply a plot device. (Transformations address deep questions 
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What does a transformation narrative reveal about the relationship between form and identity?"
-    options:
-      - "Form is irrelevant; identity remains unchanged regardless of physical shape"
-      - "A change in form entails a change in consciousness, capabilities, and social position; embodiment is essential to identity"
-      - "Transformation is purely magical and has no consequences for the character's experience"
-      - "Form determines everything; identity is meaningless compared to physical shape"
-    correct: "B"
-    explanation: "Transformation narratives reveal that form and identity are intertwined. When someone is transformed into an animal, they don't maintain human consciousness and perspective—they develop animal perception and capabilities. The transformation is not merely physical but existential. This reveals that identity is embodied; consciousness is tied to body."
+- question: What does a transformation narrative reveal about the relationship between form and identity?
+  type: multiple-choice
+  options:
+  - Form is irrelevant; identity remains unchanged regardless of physical shape
+  - A change in form entails a change in consciousness, capabilities, and social position; embodiment is essential to identity
+  - Transformation is purely magical and has no consequences for the character's experience
+  - Form determines everything; identity is meaningless compared to physical shape
+  answer: 1
+  explanation: Transformation narratives reveal that form and identity are intertwined. When someone is transformed into an animal, they don't maintain human consciousness and perspective—they develop animal perception and capabilities. The transformation is not merely physical but existential. This reveals that identity is embodied; consciousness is tied to body.
 
-  - type: multiple-choice
-    question: "What does it suggest when transformations are triggered by boundary moments or liminal spaces in myths?"
-    options:
-      - "Boundaries have no significance in mythology"
-      - "Boundaries are places of instability where normal rules don't apply; transformation often occurs at threshold moments when change is possible"
-      - "Transformations are random and unpredictable"
-      - "Only evil characters are transformed at boundaries"
-    correct: "B"
-    explanation: "Boundaries—twilight, forest edges, water crossings, threshold places—are liminal spaces where normal rules are suspended. Transformations often occur at these moments. This suggests transformation narratives address changes in identity and social position. Boundaries are where one state might give way to another; transformation is the narrative expression of threshold crossing."
+- question: What does it suggest when transformations are triggered by boundary moments or liminal spaces in myths?
+  type: multiple-choice
+  options:
+  - Boundaries have no significance in mythology
+  - Boundaries are places of instability where normal rules don't apply; transformation often occurs at threshold moments when change is possible
+  - Transformations are random and unpredictable
+  - Only evil characters are transformed at boundaries
+  answer: 1
+  explanation: Boundaries—twilight, forest edges, water crossings, threshold places—are liminal spaces where normal rules are suspended. Transformations often occur at these moments. This suggests transformation narratives address changes in identity and social position. Boundaries are where one state might give way to another; transformation is the narrative expression of threshold crossing.
 
-  - type: true-false
-    question: "All transformed characters in mythology suffer and experience transformation as punishment."
-    correct: false
-    explanation: "While some transformations are punishments (Medusa, Arachne in Greek mythology), others are gifts (gaining animal form and power), solutions (escaping danger through transformation), or ambiguous (beneficial yet strange). Transformation's valence varies."
+- question: All transformed characters in mythology suffer and experience transformation as punishment.
+  type: true-false
+  answer: false
+  explanation: While some transformations are punishments (Medusa, Arachne in Greek mythology), others are gifts (gaining animal form and power), solutions (escaping danger through transformation), or ambiguous (beneficial yet strange). Transformation's valence varies.
 
-  - type: true-false
-    question: "Transformation is merely a plot device with no deeper significance to the story's meaning."
-    correct: false
-    explanation: "Transformations address fundamental questions about identity, embodiment, and the boundaries of the human. They are conceptually meaningful, not incidental to narrative."
+- question: Transformation is merely a plot device with no deeper significance to the story's meaning.
+  type: true-false
+  answer: false
+  explanation: Transformations address fundamental questions about identity, embodiment, and the boundaries of the human. They are conceptually meaningful, not incidental to narrative.
 
-  - type: short-answer
-    question: "Explain what social anxieties or concerns a culture might be addressing when it tells transformation narratives."
-    explanation: "Transformation narratives often embody anxieties about the stability of identity and the boundaries of the human. A culture that tells stories about people being transformed into animals may be exploring boundaries between human and animal—what separates us? What happens if those boundaries collapse? Similarly, transformations of gender reflect anxieties about gender stability. A culture might use transformation to explore: What happens if a man becomes a woman? What would be lost or gained? Transformations can also address social punishment and constraint: a woman transformed into a plant might reflect anxieties about female agency and constraint. Transformation narratives allow cultures to explore identity's instability at a safe narrative distance—the character experiences what we fear, and the narrative works through the anxiety. The transformation also can represent initiation: you go into the woods as human, come out as changed being—transformation marks passage between states or degrees of knowledge and power."
+- question: Explain what social anxieties or concerns a culture might be addressing when it tells transformation narratives.
+  type: short-answer
+  explanation: 'Transformation narratives often embody anxieties about the stability of identity and the boundaries of the human. A culture that tells stories about people being transformed into animals may be exploring boundaries between human and animal—what separates us? What happens if those boundaries collapse? Similarly, transformations of gender reflect anxieties about gender stability. A culture might use transformation to explore: What happens if a man becomes a woman? What would be lost or gained? Transformations can also address social punishment and constraint: a woman transformed into a plant might reflect anxieties about female agency and constraint. Transformation narratives allow cultures to explore identity''s instability at a safe narrative distance—the character experiences what we fear, and the narrative works through the anxiety. The transformation also can represent initiation: you go into the woods as human, come out as changed being—transformation marks passage between states or degrees of knowledge and power.'
 ```
 
 ## Explainer

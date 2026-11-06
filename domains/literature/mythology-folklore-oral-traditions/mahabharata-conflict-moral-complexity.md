@@ -32,40 +32,39 @@ The Mahabharata is a straightforward war narrative. (The war is the frame; the e
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What makes the Mahabharata's moral dilemma fundamentally different from typical heroic narratives?"
-    options:
-      - "The hero must fight evil enemies with clear moral justification"
-      - "All available choices involve violation of dharma—the protagonist cannot act righteously without harming dharma in some dimension"
-      - "Victory is guaranteed regardless of moral choice"
-      - "The narrative explicitly labels which side is good and which is evil"
-    correct: "B"
-    explanation: "The Mahabharata's core innovation is that it presents a situation where righteous action is impossible—every choice violates some aspect of dharma. Arjuna must fight his cousins and elders (violating familial duty), or refuse and abandon his warrior duty (violating varna dharma). This insoluble moral tension is what distinguishes the epic from straightforward hero-tales."
+- question: What makes the Mahabharata's moral dilemma fundamentally different from typical heroic narratives?
+  type: multiple-choice
+  options:
+  - The hero must fight evil enemies with clear moral justification
+  - All available choices involve violation of dharma—the protagonist cannot act righteously without harming dharma in some dimension
+  - Victory is guaranteed regardless of moral choice
+  - The narrative explicitly labels which side is good and which is evil
+  answer: 1
+  explanation: The Mahabharata's core innovation is that it presents a situation where righteous action is impossible—every choice violates some aspect of dharma. Arjuna must fight his cousins and elders (violating familial duty), or refuse and abandon his warrior duty (violating varna dharma). This insoluble moral tension is what distinguishes the epic from straightforward hero-tales.
 
-  - type: multiple-choice
-    question: "In the Bhagavad Gita, what is Krishna's primary teaching about how Arjuna should resolve his moral paralysis?"
-    options:
-      - "Abandon duty and become an ascetic to escape conflict"
-      - "Perform your dharmic duty (as a warrior) but without attachment to outcomes—focus on right action, not consequences"
-      - "Follow whichever choice will make you happiest"
-      - "Consult oracles to determine which side the gods favor"
-    correct: "B"
-    explanation: "Krishna teaches yoga of action (karma yoga): the way out of Arjuna's dilemma is not to choose a better option but to reframe action itself. One must perform one's dharmic duty (Arjuna's duty as a warrior) while releasing attachment to outcomes. This separates moral action from consequentialist thinking."
+- question: In the Bhagavad Gita, what is Krishna's primary teaching about how Arjuna should resolve his moral paralysis?
+  type: multiple-choice
+  options:
+  - Abandon duty and become an ascetic to escape conflict
+  - Perform your dharmic duty (as a warrior) but without attachment to outcomes—focus on right action, not consequences
+  - Follow whichever choice will make you happiest
+  - Consult oracles to determine which side the gods favor
+  answer: 1
+  explanation: 'Krishna teaches yoga of action (karma yoga): the way out of Arjuna''s dilemma is not to choose a better option but to reframe action itself. One must perform one''s dharmic duty (Arjuna''s duty as a warrior) while releasing attachment to outcomes. This separates moral action from consequentialist thinking.'
 
-  - type: true-false
-    question: "The Mahabharata presents a unified moral resolution to the conflict between the Pandavas and Kauravas, making it clear that one side was justified and the other was not."
-    correct: false
-    explanation: "The epic deliberately resists this resolution. Both sides have legitimate claims and both sides commit wrongs. The war itself, though seemingly necessary, produces only destruction. The epic's genius is that it does not allow readers to rest in simple moral judgment—complexity persists."
+- question: The Mahabharata presents a unified moral resolution to the conflict between the Pandavas and Kauravas, making it clear that one side was justified and the other was not.
+  type: true-false
+  answer: false
+  explanation: The epic deliberately resists this resolution. Both sides have legitimate claims and both sides commit wrongs. The war itself, though seemingly necessary, produces only destruction. The epic's genius is that it does not allow readers to rest in simple moral judgment—complexity persists.
 
-  - type: true-false
-    question: "The Bhagavad Gita completely resolves the ethical problems posed by the Mahabharata's narrative."
-    correct: false
-    explanation: "Krishna's teaching offers a philosophical perspective and a way to act amid irresolvable conflict, but it does not erase the epic's fundamental ambiguity. The Gita is one voice in an epic that continues to interrogate duty, dharma, and consequences long after Krishna speaks."
+- question: The Bhagavad Gita completely resolves the ethical problems posed by the Mahabharata's narrative.
+  type: true-false
+  answer: false
+  explanation: Krishna's teaching offers a philosophical perspective and a way to act amid irresolvable conflict, but it does not erase the epic's fundamental ambiguity. The Gita is one voice in an epic that continues to interrogate duty, dharma, and consequences long after Krishna speaks.
 
-  - type: short-answer
-    question: "Explain the concept of dharma in the Mahabharata and why the epic's central situation makes dharmic action impossible."
-    explanation: "Dharma is duty or righteous order—it is specific to one's station (varna), age, and circumstances. Different dharmas sometimes align, but in the Mahabharata's core situation they collide. Arjuna's dharma as a warrior (kshatriya) calls him to fight; his dharma as a relative calls him to protect family; his dharma as a subject calls him to support legitimate claims to the throne. Because all sides have legitimate dharmic claims and the conflict pits these claims against each other, Arjuna cannot satisfy all of them. He must choose which dharma to prioritize, and that choice means violating other dharmic duties. The epic's insight is that complex social realities can make simultaneous adherence to all dharmic duties structurally impossible."
+- question: Explain the concept of dharma in the Mahabharata and why the epic's central situation makes dharmic action impossible.
+  type: short-answer
+  explanation: Dharma is duty or righteous order—it is specific to one's station (varna), age, and circumstances. Different dharmas sometimes align, but in the Mahabharata's core situation they collide. Arjuna's dharma as a warrior (kshatriya) calls him to fight; his dharma as a relative calls him to protect family; his dharma as a subject calls him to support legitimate claims to the throne. Because all sides have legitimate dharmic claims and the conflict pits these claims against each other, Arjuna cannot satisfy all of them. He must choose which dharma to prioritize, and that choice means violating other dharmic duties. The epic's insight is that complex social realities can make simultaneous adherence to all dharmic duties structurally impossible.
 ```
 
 ## Explainer

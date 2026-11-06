@@ -23,36 +23,39 @@ Satire uses irony, exaggeration, and humor to criticize social institutions and 
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What techniques does satire employ to criticize social institutions?"
-    options:
-      - "Direct statements explaining what is wrong"
-      - "Irony, exaggeration, and humor"
-      - "Fantasy sequences unrelated to the real world"
-      - "Lengthy philosophical treatises"
-    correct_answer: 1
-    explanation: "The core idea explicitly states that 'satire uses irony, exaggeration, and humor to criticize social institutions and human folly.'"
-  - type: multiple-choice
-    question: "What is the relationship between a satirical narrator's perspective and the author's actual position?"
-    options:
-      - "They are identical—the narrator always represents the author"
-      - "They differ; the narrator's perspective diverges from the author's actual position"
-      - "The narrator's position is always more conservative than the author's"
-      - "There is no intentional connection between narrator and author"
-    correct_answer: 1
-    explanation: "The core idea states that 'satirical fiction often employs ironic narrators whose perspective differs from the author's actual position,' indicating deliberate ironic distance."
-  - type: true-false
-    question: "Readers must recognize the gap between the satirical narrator and the author for satire to be effective."
-    correct_answer: true
-    explanation: "The core idea states that 'effectiveness depends on readers recognizing the gap between narrator and author.' Without this recognition, satire's critique becomes invisible."
-  - type: true-false
-    question: "All satire operates at the same level of intensity and tone."
-    correct_answer: false
-    explanation: "The core idea notes that 'satire can be gentle or savage,' indicating variation in tone and intensity within the genre."
-  - type: short-answer
-    question: "How does an ironic narrator create satirical critique without explicit author commentary?"
-    explanation: "A strong answer should explain that an ironic narrator presents a perspective that, through exaggeration or contradiction with events/outcomes, reveals the absurdity of the narrator's position. Students should demonstrate understanding that satire's power comes from readers inferring the author's actual position from the gap between narrator and reality."
+- question: What techniques does satire employ to criticize social institutions?
+  type: multiple-choice
+  options:
+  - Direct statements explaining what is wrong
+  - Irony, exaggeration, and humor
+  - Fantasy sequences unrelated to the real world
+  - Lengthy philosophical treatises
+  answer: 1
+  explanation: The core idea explicitly states that 'satire uses irony, exaggeration, and humor to criticize social institutions and human folly.'
+
+- question: What is the relationship between a satirical narrator's perspective and the author's actual position?
+  type: multiple-choice
+  options:
+  - They are identical—the narrator always represents the author
+  - They differ; the narrator's perspective diverges from the author's actual position
+  - The narrator's position is always more conservative than the author's
+  - There is no intentional connection between narrator and author
+  answer: 1
+  explanation: The core idea states that 'satirical fiction often employs ironic narrators whose perspective differs from the author's actual position,' indicating deliberate ironic distance.
+
+- question: Readers must recognize the gap between the satirical narrator and the author for satire to be effective.
+  type: true-false
+  answer: true
+  explanation: The core idea states that 'effectiveness depends on readers recognizing the gap between narrator and author.' Without this recognition, satire's critique becomes invisible.
+
+- question: All satire operates at the same level of intensity and tone.
+  type: true-false
+  answer: false
+  explanation: The core idea notes that 'satire can be gentle or savage,' indicating variation in tone and intensity within the genre.
+
+- question: How does an ironic narrator create satirical critique without explicit author commentary?
+  type: short-answer
+  explanation: A strong answer should explain that an ironic narrator presents a perspective that, through exaggeration or contradiction with events/outcomes, reveals the absurdity of the narrator's position. Students should demonstrate understanding that satire's power comes from readers inferring the author's actual position from the gap between narrator and reality.
 ```
 
 ## Explainer

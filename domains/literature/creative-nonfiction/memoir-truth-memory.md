@@ -27,39 +27,39 @@ Memoir grapples with the fallibility and reconstructive nature of memory as its 
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What does 'felt truth' mean in contrast to 'factual accuracy' in memoir?"
+- question: What does 'felt truth' mean in contrast to 'factual accuracy' in memoir?
+  type: multiple-choice
   options:
-    - "Felt truth means the story is made up."
-    - "Felt truth is the emotional authenticity of how events are remembered, which may differ from documentary facts."
-    - "Felt truth and facts are always identical."
-    - "Feelings have no place in memoir."
+  - Felt truth means the story is made up.
+  - Felt truth is the emotional authenticity of how events are remembered, which may differ from documentary facts.
+  - Felt truth and facts are always identical.
+  - Feelings have no place in memoir.
   answer: 1
-  explanation: "A memory might be emotionally accurate ('I felt abandoned') without being factually precise about details. The emotional truth of the experience matters in memoir, even when facts are fuzzy. Good memoirs often prioritize emotional truth while being transparent about memory's limitations."
+  explanation: A memory might be emotionally accurate ('I felt abandoned') without being factually precise about details. The emotional truth of the experience matters in memoir, even when facts are fuzzy. Good memoirs often prioritize emotional truth while being transparent about memory's limitations.
 
-- type: multiple-choice
-  question: "What does it mean that 'memory is fundamentally shaped by interpretation, emotion, and meaning-making'?"
+- question: What does it mean that 'memory is fundamentally shaped by interpretation, emotion, and meaning-making'?
+  type: multiple-choice
   options:
-    - "Memory is simply a recording device."
-    - "We don't remember events neutrally; we remember them shaped by emotion, through interpretive frames, as they meant something."
-    - "Interpretation is dishonest in memoir."
-    - "Memory is irrelevant to truth."
+  - Memory is simply a recording device.
+  - We don't remember events neutrally; we remember them shaped by emotion, through interpretive frames, as they meant something.
+  - Interpretation is dishonest in memoir.
+  - Memory is irrelevant to truth.
   answer: 1
-  explanation: "Memory isn't documentary. We remember through emotion and interpretation. A happy childhood memory looks different when you later learn your parent was unhappy. Memory evolves as you understand more. Memoir acknowledges this—it's not claiming to present unmediated facts but remembered and interpreted experience."
+  explanation: Memory isn't documentary. We remember through emotion and interpretation. A happy childhood memory looks different when you later learn your parent was unhappy. Memory evolves as you understand more. Memoir acknowledges this—it's not claiming to present unmediated facts but remembered and interpreted experience.
 
-- type: true-false
-  statement: "True: A memoirist can be truthful about emotional experience even when specific facts or dialogue details are uncertain or have shifted over time."
+- question: 'True: A memoirist can be truthful about emotional experience even when specific facts or dialogue details are uncertain or have shifted over time.'
+  type: true-false
   answer: true
-  explanation: "This is essential to memoir. You can be truthful about what an experience felt like, what it meant, how it shaped you—while acknowledging uncertainty about details. Transparency about memory's limitations strengthens rather than weakens credibility."
+  explanation: This is essential to memoir. You can be truthful about what an experience felt like, what it meant, how it shaped you—while acknowledging uncertainty about details. Transparency about memory's limitations strengthens rather than weakens credibility.
 
-- type: true-false
-  statement: "False: If a memoir's details don't match how events 'factually occurred,' the memoir is dishonest and should not claim to be nonfiction."
+- question: 'False: If a memoir''s details don''t match how events ''factually occurred,'' the memoir is dishonest and should not claim to be nonfiction.'
+  type: true-false
   answer: false
-  explanation: "This is too strict. Memory shapes all accounts. Memoir is grounded in lived experience, not in pretending perfect accuracy. The question is whether the writer is honest about memory's nature and transparent about uncertainty. Good memoir navigates memory's fallibility thoughtfully."
+  explanation: This is too strict. Memory shapes all accounts. Memoir is grounded in lived experience, not in pretending perfect accuracy. The question is whether the writer is honest about memory's nature and transparent about uncertainty. Good memoir navigates memory's fallibility thoughtfully.
 
-- type: short-answer
-  question: "How might a memoirist approach a situation where their memory of an event differs from another person's account? What does honesty require?"
-  explanation: "The writer might: acknowledge that memory differs ('My mother remembers this differently than I do'). Represent their own memory and understanding ('This is how I remember experiencing it'). Possibly include the other person's version ('She says...'). Explain what shaped the difference ('Perhaps her perspective was different because...'). Be transparent about what they actually remember versus what they're reconstructing ('I don't remember her exact words, but...'). This approach is more honest than claiming single truth or inventing details to fill memory gaps. It shows the complexity of memory while remaining truthful to what the writer actually remembers and experienced."
+- question: How might a memoirist approach a situation where their memory of an event differs from another person's account? What does honesty require?
+  type: short-answer
+  explanation: 'The writer might: acknowledge that memory differs (''My mother remembers this differently than I do''). Represent their own memory and understanding (''This is how I remember experiencing it''). Possibly include the other person''s version (''She says...''). Explain what shaped the difference (''Perhaps her perspective was different because...''). Be transparent about what they actually remember versus what they''re reconstructing (''I don''t remember her exact words, but...''). This approach is more honest than claiming single truth or inventing details to fill memory gaps. It shows the complexity of memory while remaining truthful to what the writer actually remembers and experienced.'
 ```
 
 ## Explainer

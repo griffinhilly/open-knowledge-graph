@@ -28,35 +28,39 @@ A central theme in YA literature is identity exploration: Who am I? Where do I b
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What psychological developmental process does identity exploration in YA literature address?"
-    options:
-      - "Adolescents should not question their parents' values or explore different identities"
-      - "YA literature addresses the authentic adolescent developmental task of constructing identity: understanding one's values, social position, and sense of self distinct from family"
-      - "Identity exploration is irrelevant to adolescent development"
-      - "All teenagers have already determined their identities completely"
-    answer: 1
-    explanation: "Identity exploration in YA literature reflects genuine adolescent developmental process of constructing selfhood, which includes questioning family values and exploring possibilities."
-  - question: "How do relationships and social categories function in YA identity exploration narratives?"
-    options:
-      - "Relationships prevent identity development"
-      - "Relationships and peer groups provide mirrors and environments where adolescents test identities, encounter different values, and gradually claim authentic selves"
-      - "Social categories have no effect on identity"
-      - "Identity is developed entirely in isolation"
-    answer: 1
-    explanation: "Peer relationships and social positioning are crucial to YA identity narratives—characters develop identity partly through social interaction and trying on different social roles."
+- question: What psychological developmental process does identity exploration in YA literature address?
+  type: multiple-choice
+  options:
+  - Adolescents should not question their parents' values or explore different identities
+  - 'YA literature addresses the authentic adolescent developmental task of constructing identity: understanding one''s values, social position, and sense of self distinct from family'
+  - Identity exploration is irrelevant to adolescent development
+  - All teenagers have already determined their identities completely
+  answer: 1
+  explanation: Identity exploration in YA literature reflects genuine adolescent developmental process of constructing selfhood, which includes questioning family values and exploring possibilities.
 
-true-false:
-  - question: "True or False: YA identity exploration narratives that show characters changing beliefs or distancing from family values are promoting disrespect for parents."
-    answer: false
-    explanation: "This is false. Adolescents developing distinct identities is normal and necessary development; showing this in YA literature reflects realistic development, not disrespect."
-  - question: "True or False: Identity exploration in YA narratives addresses existential and philosophical questions worthy of serious literary attention."
-    answer: true
-    explanation: "This is true. Questions of identity, belonging, values, and self-definition are genuine existential concerns, not merely teenage angst."
+- question: How do relationships and social categories function in YA identity exploration narratives?
+  type: multiple-choice
+  options:
+  - Relationships prevent identity development
+  - Relationships and peer groups provide mirrors and environments where adolescents test identities, encounter different values, and gradually claim authentic selves
+  - Social categories have no effect on identity
+  - Identity is developed entirely in isolation
+  answer: 1
+  explanation: Peer relationships and social positioning are crucial to YA identity narratives—characters develop identity partly through social interaction and trying on different social roles.
 
-short-answer:
-  - question: "Why is identity exploration such a central theme in YA literature, and what developmental purposes does narratively exploring identity serve for adolescent readers?"
-    explanation: "Identity exploration is central to YA literature because it is central to adolescent development. Adolescence is the period when humans begin consciously constructing identities distinct from their families—asking fundamental questions about who they are, what they believe, where they belong. YA literature addressing these questions validates them as important and meaningful. When adolescent readers encounter characters grappling with identity, they recognize their own experience reflected. This recognition accomplishes several things: it normalizes the identity exploration process itself (suggesting that confusion and questioning are part of normal development rather than individual pathology), it models possibilities and approaches (showing how characters navigate identity conflicts), and it provides space for imaginative exploration of different identities and values. Additionally, literature allows readers to vicariously experience identity exploration—to imagine themselves in characters' situations, to consider how they might respond, to try on different perspectives without real-world consequences. This safe imaginative exploration supports actual identity development. Furthermore, narratively exploring identity at different levels—racial identity, sexual identity, gender identity, values-based identity—allows readers to understand that identity is multifaceted and that people navigate multiple overlapping identities simultaneously."
+- question: 'True or False: YA identity exploration narratives that show characters changing beliefs or distancing from family values are promoting disrespect for parents.'
+  type: true-false
+  answer: false
+  explanation: This is false. Adolescents developing distinct identities is normal and necessary development; showing this in YA literature reflects realistic development, not disrespect.
+
+- question: 'True or False: Identity exploration in YA narratives addresses existential and philosophical questions worthy of serious literary attention.'
+  type: true-false
+  answer: true
+  explanation: This is true. Questions of identity, belonging, values, and self-definition are genuine existential concerns, not merely teenage angst.
+
+- question: Why is identity exploration such a central theme in YA literature, and what developmental purposes does narratively exploring identity serve for adolescent readers?
+  type: short-answer
+  explanation: 'Identity exploration is central to YA literature because it is central to adolescent development. Adolescence is the period when humans begin consciously constructing identities distinct from their families—asking fundamental questions about who they are, what they believe, where they belong. YA literature addressing these questions validates them as important and meaningful. When adolescent readers encounter characters grappling with identity, they recognize their own experience reflected. This recognition accomplishes several things: it normalizes the identity exploration process itself (suggesting that confusion and questioning are part of normal development rather than individual pathology), it models possibilities and approaches (showing how characters navigate identity conflicts), and it provides space for imaginative exploration of different identities and values. Additionally, literature allows readers to vicariously experience identity exploration—to imagine themselves in characters'' situations, to consider how they might respond, to try on different perspectives without real-world consequences. This safe imaginative exploration supports actual identity development. Furthermore, narratively exploring identity at different levels—racial identity, sexual identity, gender identity, values-based identity—allows readers to understand that identity is multifaceted and that people navigate multiple overlapping identities simultaneously.'
 ```
 
 ## Explainer

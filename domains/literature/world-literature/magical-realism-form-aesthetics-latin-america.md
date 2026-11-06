@@ -22,29 +22,29 @@ status: draft
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "How does magical realism function as a literary form addressing Latin American reality?"
+- question: How does magical realism function as a literary form addressing Latin American reality?
+  type: multiple-choice
   options:
-    - "It treats magical elements as supernatural escape from reality"
-    - "It integrates magical and real as equal aspects of Latin American experience, reflecting how colonial violence and indigenous traditions create layered reality"
-    - "It has no relationship to political or social concerns"
-    - "It rejects all realism in favor of pure fantasy"
+  - It treats magical elements as supernatural escape from reality
+  - It integrates magical and real as equal aspects of Latin American experience, reflecting how colonial violence and indigenous traditions create layered reality
+  - It has no relationship to political or social concerns
+  - It rejects all realism in favor of pure fantasy
   answer: 1
-  explanation: "Magical realism naturalizes the extraordinary within realistic narrative. This formal choice reflects Latin American history where colonialism, indigenous traditions, violence, and modernity coexist. The magical elements represent what realism alone cannot capture: the surreal dimensions of colonial experience, indigenous worldviews, the disruptions of modernity. Magical realism is sophisticated realism adapted to Latin American contexts."
+  explanation: 'Magical realism naturalizes the extraordinary within realistic narrative. This formal choice reflects Latin American history where colonialism, indigenous traditions, violence, and modernity coexist. The magical elements represent what realism alone cannot capture: the surreal dimensions of colonial experience, indigenous worldviews, the disruptions of modernity. Magical realism is sophisticated realism adapted to Latin American contexts.'
 
-- type: true-false
-  statement: "Magical realism is a Latin American form that represents how multiple realities—indigenous, colonial, modern—coexist in Latin American experience."
+- question: Magical realism is a Latin American form that represents how multiple realities—indigenous, colonial, modern—coexist in Latin American experience.
+  type: true-false
   answer: true
-  explanation: "Magical realism reflects specific historical and cultural conditions. It is not arbitrary fantasy but form adapted to represent Latin American complexity."
+  explanation: Magical realism reflects specific historical and cultural conditions. It is not arbitrary fantasy but form adapted to represent Latin American complexity.
 
-- type: true-false
-  statement: "Magical realism treats magical and realistic elements as equivalent, requiring readers to accept both without seeking rational explanation."
+- question: Magical realism treats magical and realistic elements as equivalent, requiring readers to accept both without seeking rational explanation.
+  type: true-false
   answer: true
-  explanation: "This is central to magical realism's technique. By treating magical elements as normal parts of reality, the form challenges realist assumptions about what is 'real' and represents alternative worldviews."
+  explanation: This is central to magical realism's technique. By treating magical elements as normal parts of reality, the form challenges realist assumptions about what is 'real' and represents alternative worldviews.
 
-- type: short-answer
-  question: "How does magical realism function politically and aesthetically? What does the form reveal about Latin American experience?"
-  explanation: "Politically, magical realism challenges colonial realism that claims objective representation of reality. Aesthetically, it integrates magical/indigenous worldviews with modern narrative form. The form reveals that Latin American reality includes elements that colonial realism cannot represent: indigenous knowledge, the surreal violence of colonialism, spiritual dimensions. By naturalizing the magical, magical realism asserts that multiple realities coexist and that indigenous and colonial worldviews have equal validity."
+- question: How does magical realism function politically and aesthetically? What does the form reveal about Latin American experience?
+  type: short-answer
+  explanation: 'Politically, magical realism challenges colonial realism that claims objective representation of reality. Aesthetically, it integrates magical/indigenous worldviews with modern narrative form. The form reveals that Latin American reality includes elements that colonial realism cannot represent: indigenous knowledge, the surreal violence of colonialism, spiritual dimensions. By naturalizing the magical, magical realism asserts that multiple realities coexist and that indigenous and colonial worldviews have equal validity.'
 ```
 
 ## Explainer

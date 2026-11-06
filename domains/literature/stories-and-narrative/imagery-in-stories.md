@@ -32,35 +32,40 @@ Read a passage rich in imagery and visualize it. What images stand out? Which se
 ## Questions
 
 ```yaml
-- question: "Compare these two passages about the same scene: (A) 'The room was old and dirty. There was a smell.' (B) 'The room reeked of mold and decay, dust particles drifting through shafts of gray light, everything layered in the smell of something that had died.' Which passage uses imagery, and why?"
+- question: 'Compare these two passages about the same scene: (A) ''The room was old and dirty. There was a smell.'' (B) ''The room reeked of mold and decay, dust particles drifting through shafts of gray light, everything layered in the smell of something that had died.'' Which passage uses imagery, and why?'
+  type: multiple-choice
   options:
-    - "Both use imagery equally"
-    - "Passage A uses more imagery because it's shorter"
-    - "Passage B uses imagery because it creates vivid sensory experience—readers can almost smell the mold and see the dust. It appeals to multiple senses and creates emotional response. Passage A simply lists the presence of oldness and smell without vivid detail"
-    - "Imagery is about being long and flowery"
+  - Both use imagery equally
+  - Passage A uses more imagery because it's shorter
+  - Passage B uses imagery because it creates vivid sensory experience—readers can almost smell the mold and see the dust. It appeals to multiple senses and creates emotional response. Passage A simply lists the presence of oldness and smell without vivid detail
+  - Imagery is about being long and flowery
   answer: 2
-  explanation: "Imagery isn't about length or decoration. It's about creating vivid sensory experience. Passage B puts readers in the room sensorily—they experience the smell, see the dust, feel the decay. Passage A tells them the room is old and bad. Imagery shows."
+  explanation: Imagery isn't about length or decoration. It's about creating vivid sensory experience. Passage B puts readers in the room sensorily—they experience the smell, see the dust, feel the decay. Passage A tells them the room is old and bad. Imagery shows.
 
-- question: "An author writes: 'The door closed behind her with a soft click.' Later, a character hears: 'The door slammed shut.' Both passages convey that a door closed. What does the difference in imagery choice reveal?"
+- question: 'An author writes: ''The door closed behind her with a soft click.'' Later, a character hears: ''The door slammed shut.'' Both passages convey that a door closed. What does the difference in imagery choice reveal?'
+  type: multiple-choice
   options:
-    - "The two passages are identical"
-    - "The two passages create different emotional effects. The 'soft click' suggests something quiet, perhaps secretive or gentle. The 'slam' suggests violence, anger, or finality. The imagery choice communicates emotion and meaning beyond just the fact of the door closing"
-    - "The door's material changed"
-    - "One passage is better than the other"
+  - The two passages are identical
+  - The two passages create different emotional effects. The 'soft click' suggests something quiet, perhaps secretive or gentle. The 'slam' suggests violence, anger, or finality. The imagery choice communicates emotion and meaning beyond just the fact of the door closing
+  - The door's material changed
+  - One passage is better than the other
   answer: 1
-  explanation: "Imagery choice is meaningful. The specific sounds chosen ('click' vs. 'slam') create different atmospheres and suggest different emotional contexts. Authors don't choose imagery randomly—every sensory choice carries meaning. Good readers notice these choices and understand what they communicate."
+  explanation: Imagery choice is meaningful. The specific sounds chosen ('click' vs. 'slam') create different atmospheres and suggest different emotional contexts. Authors don't choose imagery randomly—every sensory choice carries meaning. Good readers notice these choices and understand what they communicate.
 
-- question: "True or False: Imagery must appeal to all five senses equally."
+- question: 'True or False: Imagery must appeal to all five senses equally.'
+  type: true-false
   answer: false
-  explanation: "A passage can be powerful while appealing primarily to one sense. Some powerful imagery focuses on visual detail alone, while other imagery emphasizes sound or smell. What matters is that the imagery chosen serves the story's purposes, not that all senses are equally represented."
+  explanation: A passage can be powerful while appealing primarily to one sense. Some powerful imagery focuses on visual detail alone, while other imagery emphasizes sound or smell. What matters is that the imagery chosen serves the story's purposes, not that all senses are equally represented.
 
-- question: "True or False: A passage filled with lots of sensory details is automatically more effective than a passage with sparse imagery."
+- question: 'True or False: A passage filled with lots of sensory details is automatically more effective than a passage with sparse imagery.'
+  type: true-false
   answer: false
-  explanation: "Abundance of imagery isn't what matters—appropriateness and power do. Sometimes a single, starkly chosen image has more impact than pages of description. A stark, stripped-down passage can create powerful imagery through contrast. Effectiveness depends on how the imagery serves the story and creates emotional response, not how much there is."
+  explanation: Abundance of imagery isn't what matters—appropriateness and power do. Sometimes a single, starkly chosen image has more impact than pages of description. A stark, stripped-down passage can create powerful imagery through contrast. Effectiveness depends on how the imagery serves the story and creates emotional response, not how much there is.
 
-- question: "An author describes a character's home as warm and golden in early chapters. After a tragedy, the author describes the same home as gray, cold, and sterile—the light no longer warm, the spaces somehow smaller and hostile. The actual home hasn't changed. What is the author doing with imagery?"
-  answer: "The author is using imagery to reflect the character's emotional state. The imagery of the home changes not because the home changed, but because the character's perception of it has changed due to trauma. Early imagery conveyed comfort and safety; later imagery conveys alienation and loss. By changing the imagery while keeping the physical space the same, the author shows how grief and trauma change how we experience the world. The imagery reveals internal change through external description."
-  explanation: "This tests understanding that imagery isn't just decoration or description—it's a tool for conveying character psychology and emotional reality. By selecting different imagery for the same place, authors show how emotional states transform experience. Imagery is meaning-making."
+- question: An author describes a character's home as warm and golden in early chapters. After a tragedy, the author describes the same home as gray, cold, and sterile—the light no longer warm, the spaces somehow smaller and hostile. The actual home hasn't changed. What is the author doing with imagery?
+  type: short-answer
+  answer: The author is using imagery to reflect the character's emotional state. The imagery of the home changes not because the home changed, but because the character's perception of it has changed due to trauma. Early imagery conveyed comfort and safety; later imagery conveys alienation and loss. By changing the imagery while keeping the physical space the same, the author shows how grief and trauma change how we experience the world. The imagery reveals internal change through external description.
+  explanation: This tests understanding that imagery isn't just decoration or description—it's a tool for conveying character psychology and emotional reality. By selecting different imagery for the same place, authors show how emotional states transform experience. Imagery is meaning-making.
 ```
 
 ## Explainer

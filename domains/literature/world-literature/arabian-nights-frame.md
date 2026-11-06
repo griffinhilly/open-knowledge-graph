@@ -32,39 +32,39 @@ The Arabian Nights is not a 'collection of tales'—the frame narrative and stor
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What is the relationship between Scheherazade's act of storytelling and her survival in the Arabian Nights?"
+- question: What is the relationship between Scheherazade's act of storytelling and her survival in the Arabian Nights?
+  type: multiple-choice
   options:
-    - "Storytelling is entertainment that distracts the king while he plans her escape"
-    - "Storytelling is literally the condition of survival—she must keep the king engaged and alive through narrative suspense, or face execution"
-    - "Storytelling proves her intelligence so the king respects her"
-    - "Storytelling is a metaphorical way to describe her emotional journey"
+  - Storytelling is entertainment that distracts the king while he plans her escape
+  - Storytelling is literally the condition of survival—she must keep the king engaged and alive through narrative suspense, or face execution
+  - Storytelling proves her intelligence so the king respects her
+  - Storytelling is a metaphorical way to describe her emotional journey
   answer: 1
-  explanation: "The frame narrative establishes storytelling as literally life-or-death. The king has been executing wives until Scheherazade volunteers, planning to keep him awake through 1001 nights of interrupted tales. By ending each story at a crucial moment and resuming the next night, she maintains the king's desire to hear more. Narrative itself becomes the mechanism of survival. This makes the frame more than structural device—it establishes that storytelling has real power over life, death, and desire. The stories within exist not as separate entertainment but as extensions of this fundamental dynamic. This is why meaning emerges from the frame structure itself, not from individual tales alone."
+  explanation: The frame narrative establishes storytelling as literally life-or-death. The king has been executing wives until Scheherazade volunteers, planning to keep him awake through 1001 nights of interrupted tales. By ending each story at a crucial moment and resuming the next night, she maintains the king's desire to hear more. Narrative itself becomes the mechanism of survival. This makes the frame more than structural device—it establishes that storytelling has real power over life, death, and desire. The stories within exist not as separate entertainment but as extensions of this fundamental dynamic. This is why meaning emerges from the frame structure itself, not from individual tales alone.
 
-- type: multiple-choice
-  question: "How does the Arabian Nights synthesize different narrative traditions (Arabic, Persian, Indian), and what does this synthesis represent?"
+- question: How does the Arabian Nights synthesize different narrative traditions (Arabic, Persian, Indian), and what does this synthesis represent?
+  type: multiple-choice
   options:
-    - "It shows that Middle Eastern literature is superior to all other traditions"
-    - "It creates a cosmopolitan narrative space where multiple cultures and storytelling traditions are presented as equal and interpenetrating, reflecting historical trade and cultural exchange"
-    - "It demonstrates that one culture invented all the stories and the others copied them"
-    - "It is accidental—the book simply compiled whatever stories were available"
+  - It shows that Middle Eastern literature is superior to all other traditions
+  - It creates a cosmopolitan narrative space where multiple cultures and storytelling traditions are presented as equal and interpenetrating, reflecting historical trade and cultural exchange
+  - It demonstrates that one culture invented all the stories and the others copied them
+  - It is accidental—the book simply compiled whatever stories were available
   answer: 1
-  explanation: "The Arabian Nights is a deliberately syncretistic collection. By including Persian frame structures, Indian fables, Arabic folk tales, and Islamic theological stories in a single work, the text models a cosmopolitan medieval world connected by trade, translation, and cultural conversation. This is not accidental but reflects the historical reality of medieval Islamic civilization, where knowledge, stories, and people moved across vast distances. The synthesis itself makes an argument: that great literature emerges from cultural encounter and that narrative traditions enrich each other through contact. The Nights demonstrates how stories can be retold, adapted, and integrated across cultures without losing their power."
+  explanation: 'The Arabian Nights is a deliberately syncretistic collection. By including Persian frame structures, Indian fables, Arabic folk tales, and Islamic theological stories in a single work, the text models a cosmopolitan medieval world connected by trade, translation, and cultural conversation. This is not accidental but reflects the historical reality of medieval Islamic civilization, where knowledge, stories, and people moved across vast distances. The synthesis itself makes an argument: that great literature emerges from cultural encounter and that narrative traditions enrich each other through contact. The Nights demonstrates how stories can be retold, adapted, and integrated across cultures without losing their power.'
 
-- type: true-false
-  statement: "The Arabian Nights is primarily a collection of entertaining tales loosely connected by a frame story, and understanding the frame narrative is optional for appreciating individual stories."
+- question: The Arabian Nights is primarily a collection of entertaining tales loosely connected by a frame story, and understanding the frame narrative is optional for appreciating individual stories.
+  type: true-false
   answer: false
-  explanation: "This fundamentally misunderstands the work's structure. The frame narrative is not incidental—it is the organizing principle. Every story exists within Scheherazade's situation, shaped by the dynamic of survival-through-narrative. The frame determines what kinds of stories can be told (those that compel continued listening), how long stories can be, and what narrative properties matter (suspense, emotional engagement, the promise of continuation). To understand individual stories without reference to their frame is to miss their function entirely. The work is unified by structure and situation, not merely by thematic collection."
+  explanation: This fundamentally misunderstands the work's structure. The frame narrative is not incidental—it is the organizing principle. Every story exists within Scheherazade's situation, shaped by the dynamic of survival-through-narrative. The frame determines what kinds of stories can be told (those that compel continued listening), how long stories can be, and what narrative properties matter (suspense, emotional engagement, the promise of continuation). To understand individual stories without reference to their frame is to miss their function entirely. The work is unified by structure and situation, not merely by thematic collection.
 
-- type: true-false
-  statement: "In the Arabian Nights, the frame narrative—Scheherazade's need to keep the king engaged through storytelling to preserve her life—is the structural principle that determines how stories function and what meaning can emerge from them."
+- question: In the Arabian Nights, the frame narrative—Scheherazade's need to keep the king engaged through storytelling to preserve her life—is the structural principle that determines how stories function and what meaning can emerge from them.
+  type: true-false
   answer: true
-  explanation: "This correctly identifies the Nights' fundamental innovation. The frame is not a container for random stories but a generating structure. It explains why stories must compel listening, why cliffhangers matter, why variation and repetition are narrative tools. It demonstrates that storytelling itself is a form of power—the power to control desire, delay execution, and reshape the future through narrative. By making survival depend on narrative engagement, the Nights makes philosophy and technique inseparable. Stories are not entertainment; they are weapons, survival tools, and means of transforming reality."
+  explanation: This correctly identifies the Nights' fundamental innovation. The frame is not a container for random stories but a generating structure. It explains why stories must compel listening, why cliffhangers matter, why variation and repetition are narrative tools. It demonstrates that storytelling itself is a form of power—the power to control desire, delay execution, and reshape the future through narrative. By making survival depend on narrative engagement, the Nights makes philosophy and technique inseparable. Stories are not entertainment; they are weapons, survival tools, and means of transforming reality.
 
-- type: short-answer
-  question: "Explain how the Arabian Nights demonstrates that 'narrative has power' by examining the relationship between the frame structure and the stories within it."
-  explanation: "The frame narrative makes narrative power literal and visceral. Scheherazade's survival depends on her ability to tell stories so compelling that the king defers her execution. But the stories themselves often dramatize forms of narrative power: characters who trick others through tales, merchants who survive through storytelling, women who outwit men through clever narratives. The frame story and the embedded stories thus illustrate the same principle: narrative can reshape reality, control desire, preserve life, and overturn power relationships. By nesting stories within a frame where survival depends on storytelling, the text argues that narrative is not mere entertainment but a form of human power. The frame structure makes this argument not theoretically but experientially—readers participate in the dynamic that keeps Scheherazade alive, becoming invested in her continued storytelling. The work demonstrates that stories matter because they affect real consequences: what happens next, who lives or dies, how power flows. Narrative is a technology of survival."
+- question: Explain how the Arabian Nights demonstrates that 'narrative has power' by examining the relationship between the frame structure and the stories within it.
+  type: short-answer
+  explanation: 'The frame narrative makes narrative power literal and visceral. Scheherazade''s survival depends on her ability to tell stories so compelling that the king defers her execution. But the stories themselves often dramatize forms of narrative power: characters who trick others through tales, merchants who survive through storytelling, women who outwit men through clever narratives. The frame story and the embedded stories thus illustrate the same principle: narrative can reshape reality, control desire, preserve life, and overturn power relationships. By nesting stories within a frame where survival depends on storytelling, the text argues that narrative is not mere entertainment but a form of human power. The frame structure makes this argument not theoretically but experientially—readers participate in the dynamic that keeps Scheherazade alive, becoming invested in her continued storytelling. The work demonstrates that stories matter because they affect real consequences: what happens next, who lives or dies, how power flows. Narrative is a technology of survival.'
 ```
 
 ## Explainer

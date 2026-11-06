@@ -25,35 +25,39 @@ Contemporary YA increasingly employs dual or multiple first-person perspectives,
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What narrative advantage does dual or multiple first-person perspective provide?"
-    options:
-      - "There is no advantage to multiple perspectives"
-      - "Multiple first-person perspectives allow readers to experience the same events from different viewpoints, creating dramatic irony, highlighting how perception is subjective, and showing how misunderstandings arise from different perspectives"
-      - "Single perspective is always superior"
-      - "Multiple perspectives confuse readers"
-    answer: 1
-    explanation: "Multiple first-person narration allows the same event to appear different depending on who is narrating, revealing how much depends on subjective perspective and revealing misunderstandings or dramatic irony unavailable from single perspective."
-  - question: "How does distributing narrative authority across multiple characters affect YA storytelling?"
-    options:
-      - "It doesn't affect storytelling"
-      - "It suggests that no single character's perspective is complete or authoritative, complicating simple good-versus-bad frameworks and implying that relationships and conflicts involve multiple valid interpretations"
-      - "Only one character's perspective should matter"
-      - "Multiple perspectives reduce characterization"
-    answer: 1
-    explanation: "When multiple characters narrate, the structure itself suggests complexity: each perspective is valid but limited, conflicts have multiple explanations, and resolution requires understanding multiple viewpoints."
+- question: What narrative advantage does dual or multiple first-person perspective provide?
+  type: multiple-choice
+  options:
+  - There is no advantage to multiple perspectives
+  - Multiple first-person perspectives allow readers to experience the same events from different viewpoints, creating dramatic irony, highlighting how perception is subjective, and showing how misunderstandings arise from different perspectives
+  - Single perspective is always superior
+  - Multiple perspectives confuse readers
+  answer: 1
+  explanation: Multiple first-person narration allows the same event to appear different depending on who is narrating, revealing how much depends on subjective perspective and revealing misunderstandings or dramatic irony unavailable from single perspective.
 
-true-false:
-  - question: "True or False: Dual or multiple perspective narration is common in contemporary YA but was uncommon in earlier YA."
-    answer: true
-    explanation: "True. Multiple first-person perspectives have become increasingly common in contemporary YA, though this structure was less frequently employed in earlier YA focused primarily on single protagonists."
-  - question: "True or False: Multiple perspective narration necessarily makes stories more complex and difficult for teen readers."
-    answer: false
-    explanation: "False. While multiple perspectives add narrative complexity, contemporary YA demonstrates that teen readers can engage successfully with multiple viewpoints, especially when the structure serves thematic purposes."
+- question: How does distributing narrative authority across multiple characters affect YA storytelling?
+  type: multiple-choice
+  options:
+  - It doesn't affect storytelling
+  - It suggests that no single character's perspective is complete or authoritative, complicating simple good-versus-bad frameworks and implying that relationships and conflicts involve multiple valid interpretations
+  - Only one character's perspective should matter
+  - Multiple perspectives reduce characterization
+  answer: 1
+  explanation: 'When multiple characters narrate, the structure itself suggests complexity: each perspective is valid but limited, conflicts have multiple explanations, and resolution requires understanding multiple viewpoints.'
 
-short-answer:
-  - question: "Analyze a YA novel with dual or multiple perspectives. How does alternating between different characters' viewpoints create dramatic irony or reveal complexity unavailable from single perspective? What does the structure suggest about the conflict or relationships in the novel?"
-    explanation: "Your answer should identify moments where dramatic irony emerges—where readers know something one character doesn't, where the same event appears different from different perspectives. For example, in 'It Ends with Us' or similar dual-perspective narratives, readers understand both characters' experiences and perspectives, potentially building empathy for both while seeing where misunderstandings occur. The structure itself suggests that the conflict isn't simple hero-versus-villain but involves multiple valid viewpoints. Multiple perspective narration allows exploration of relationality: characters don't exist in isolation but in relationship to others, and their experiences fundamentally depend on perspective. This structure can be particularly effective for relationships involving misunderstanding, conflict, or complexity—showing why people with different experiences interpret the same event completely differently."
+- question: 'True or False: Dual or multiple perspective narration is common in contemporary YA but was uncommon in earlier YA.'
+  type: true-false
+  answer: true
+  explanation: True. Multiple first-person perspectives have become increasingly common in contemporary YA, though this structure was less frequently employed in earlier YA focused primarily on single protagonists.
+
+- question: 'True or False: Multiple perspective narration necessarily makes stories more complex and difficult for teen readers.'
+  type: true-false
+  answer: false
+  explanation: False. While multiple perspectives add narrative complexity, contemporary YA demonstrates that teen readers can engage successfully with multiple viewpoints, especially when the structure serves thematic purposes.
+
+- question: Analyze a YA novel with dual or multiple perspectives. How does alternating between different characters' viewpoints create dramatic irony or reveal complexity unavailable from single perspective? What does the structure suggest about the conflict or relationships in the novel?
+  type: short-answer
+  explanation: 'Your answer should identify moments where dramatic irony emerges—where readers know something one character doesn''t, where the same event appears different from different perspectives. For example, in ''It Ends with Us'' or similar dual-perspective narratives, readers understand both characters'' experiences and perspectives, potentially building empathy for both while seeing where misunderstandings occur. The structure itself suggests that the conflict isn''t simple hero-versus-villain but involves multiple valid viewpoints. Multiple perspective narration allows exploration of relationality: characters don''t exist in isolation but in relationship to others, and their experiences fundamentally depend on perspective. This structure can be particularly effective for relationships involving misunderstanding, conflict, or complexity—showing why people with different experiences interpret the same event completely differently.'
 ```
 
 ## Explainer

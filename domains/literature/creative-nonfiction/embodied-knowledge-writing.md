@@ -25,39 +25,39 @@ Embodied nonfiction argues that knowledge comes through the body—through physi
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What does 'embodied knowledge' mean in nonfiction?"
+- question: What does 'embodied knowledge' mean in nonfiction?
+  type: multiple-choice
   options:
-    - "Knowledge written using physical metaphors."
-    - "Knowledge that comes through direct bodily experience—sensation, physical limitation, embodied perception—not just intellectual understanding."
-    - "Knowledge written about bodies."
-    - "An alternative name for autobiographical writing."
+  - Knowledge written using physical metaphors.
+  - Knowledge that comes through direct bodily experience—sensation, physical limitation, embodied perception—not just intellectual understanding.
+  - Knowledge written about bodies.
+  - An alternative name for autobiographical writing.
   answer: 1
-  explanation: "Embodied knowledge is expertise gained through the body. Someone living with chronic pain knows pain differently than someone who has only read about it. An athlete knows movement and exertion in their body. These are forms of knowledge as legitimate as intellectual knowledge, though often not recognized as such."
+  explanation: Embodied knowledge is expertise gained through the body. Someone living with chronic pain knows pain differently than someone who has only read about it. An athlete knows movement and exertion in their body. These are forms of knowledge as legitimate as intellectual knowledge, though often not recognized as such.
 
-- type: multiple-choice
-  question: "How does embodied nonfiction challenge traditional views of knowledge?"
+- question: How does embodied nonfiction challenge traditional views of knowledge?
+  type: multiple-choice
   options:
-    - "It argues that all knowledge should be physical."
-    - "It claims bodily experience is not knowledge."
-    - "It insists that knowledge comes through the body—sensation, embodiment, lived physicality—and deserves recognition alongside intellectual knowledge."
-    - "It rejects the idea that writing can convey knowledge."
+  - It argues that all knowledge should be physical.
+  - It claims bodily experience is not knowledge.
+  - It insists that knowledge comes through the body—sensation, embodiment, lived physicality—and deserves recognition alongside intellectual knowledge.
+  - It rejects the idea that writing can convey knowledge.
   answer: 2
-  explanation: "Western thought often privileges intellectual knowledge while dismissing bodily experience. Embodied nonfiction says: your knowledge of illness from living with it, your knowledge of movement from your athletic practice, your knowledge of space from your embodied position in the world—these are real expertise. They should count."
+  explanation: 'Western thought often privileges intellectual knowledge while dismissing bodily experience. Embodied nonfiction says: your knowledge of illness from living with it, your knowledge of movement from your athletic practice, your knowledge of space from your embodied position in the world—these are real expertise. They should count.'
 
-- type: true-false
-  statement: "True: An essay about living with chronic illness can be a form of knowledge-making, not just personal narrative."
+- question: 'True: An essay about living with chronic illness can be a form of knowledge-making, not just personal narrative.'
+  type: true-false
   answer: true
-  explanation: "Yes. Someone living with chronic illness accumulates knowledge about their body, about pain, about adaptation, about the social meanings of disability, about how healthcare functions or doesn't. This is expertise. When they write about it, they're sharing knowledge, not just telling a story about themselves."
+  explanation: Yes. Someone living with chronic illness accumulates knowledge about their body, about pain, about adaptation, about the social meanings of disability, about how healthcare functions or doesn't. This is expertise. When they write about it, they're sharing knowledge, not just telling a story about themselves.
 
-- type: true-false
-  statement: "False: Embodied knowledge comes only from physical disabilities or conditions; athletes and dancers do not produce embodied knowledge."
+- question: 'False: Embodied knowledge comes only from physical disabilities or conditions; athletes and dancers do not produce embodied knowledge.'
+  type: true-false
   answer: false
-  explanation: "This is false. Embodied knowledge comes from any lived experience of the body—training, movement, sensation, physicality. An athlete writing about training develops embodied knowledge. A dancer writing about movement develops embodied knowledge. Any writing that draws on direct physical experience produces embodied knowledge."
+  explanation: This is false. Embodied knowledge comes from any lived experience of the body—training, movement, sensation, physicality. An athlete writing about training develops embodied knowledge. A dancer writing about movement develops embodied knowledge. Any writing that draws on direct physical experience produces embodied knowledge.
 
-- type: short-answer
-  question: "How might an essay about living with a specific physical condition produce knowledge differently than a medical textbook about the same condition? What kind of knowledge does each provide?"
-  explanation: "A medical textbook provides clinical knowledge—diagnosis, treatment, prognosis. It aims for universalizable information about the condition. An embodied nonfiction essay provides knowledge of what it's like to live with the condition—what pain actually feels like, how it changes daily experience, how others react, how identity shifts, how you adapt and cope. These are not less valuable than clinical knowledge; they're different. The embodied knowledge account is more particular and felt; the clinical account is more general and abstract. But both are knowledge. In fact, medicine is beginning to recognize that patients' embodied knowledge—what they report about their experience—is crucial information. Embodied nonfiction makes this knowledge visible and valuable. It says: your lived experience is not anecdotal; it's a form of understanding."
+- question: How might an essay about living with a specific physical condition produce knowledge differently than a medical textbook about the same condition? What kind of knowledge does each provide?
+  type: short-answer
+  explanation: 'A medical textbook provides clinical knowledge—diagnosis, treatment, prognosis. It aims for universalizable information about the condition. An embodied nonfiction essay provides knowledge of what it''s like to live with the condition—what pain actually feels like, how it changes daily experience, how others react, how identity shifts, how you adapt and cope. These are not less valuable than clinical knowledge; they''re different. The embodied knowledge account is more particular and felt; the clinical account is more general and abstract. But both are knowledge. In fact, medicine is beginning to recognize that patients'' embodied knowledge—what they report about their experience—is crucial information. Embodied nonfiction makes this knowledge visible and valuable. It says: your lived experience is not anecdotal; it''s a form of understanding.'
 ```
 
 ## Explainer

@@ -25,29 +25,29 @@ Latin American poetry of the twentieth century often explicitly engaged politica
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What is the central claim of politically committed Latin American poetry?"
+- question: What is the central claim of politically committed Latin American poetry?
+  type: multiple-choice
   options:
-    - "Poetry should avoid all political engagement and serve no social purpose"
-    - "Poetry is a tool for social transformation; emotional and political truth are inseparable"
-    - "Only propaganda counts as political poetry"
-    - "Poetry was irrelevant to Latin American struggles"
+  - Poetry should avoid all political engagement and serve no social purpose
+  - Poetry is a tool for social transformation; emotional and political truth are inseparable
+  - Only propaganda counts as political poetry
+  - Poetry was irrelevant to Latin American struggles
   answer: 1
-  explanation: "Politically engaged Latin American poets claimed that poetry had social responsibility and power to address political struggle. They rejected the idea that poetry should be separated from politics or that political poetry was automatically propaganda. Instead, they argued that poetry's emotional power and aesthetic sophistication could serve political consciousness without becoming didactic."
+  explanation: Politically engaged Latin American poets claimed that poetry had social responsibility and power to address political struggle. They rejected the idea that poetry should be separated from politics or that political poetry was automatically propaganda. Instead, they argued that poetry's emotional power and aesthetic sophistication could serve political consciousness without becoming didactic.
 
-- type: true-false
-  statement: "Latin American poetry demonstrates that avant-garde formal innovation and political commitment are compatible, with formal experimentation serving political purposes."
+- question: Latin American poetry demonstrates that avant-garde formal innovation and political commitment are compatible, with formal experimentation serving political purposes.
+  type: true-false
   answer: true
-  explanation: "This is a defining characteristic of the tradition. Poets used innovative formal techniques to address political concerns, showing that aesthetic sophistication and political engagement reinforce rather than contradict each other."
+  explanation: This is a defining characteristic of the tradition. Poets used innovative formal techniques to address political concerns, showing that aesthetic sophistication and political engagement reinforce rather than contradict each other.
 
-- type: true-false
-  statement: "Politically committed Latin American poets advocated for poetry to abandon aesthetic concerns entirely in favor of pure propaganda."
+- question: Politically committed Latin American poets advocated for poetry to abandon aesthetic concerns entirely in favor of pure propaganda.
+  type: true-false
   answer: false
-  explanation: "While committed to political engagement, these poets maintained artistic and aesthetic seriousness. The commitment was to make poetry politically significant while maintaining artistic integrity, not to reduce poetry to propaganda."
+  explanation: While committed to political engagement, these poets maintained artistic and aesthetic seriousness. The commitment was to make poetry politically significant while maintaining artistic integrity, not to reduce poetry to propaganda.
 
-- type: short-answer
-  question: "How does politically committed Latin American poetry challenge the distinction between aesthetic and political poetry? What does this reveal about poetry's social functions?"
-  explanation: "Politically committed poets rejected the premise that aesthetics and politics are separate concerns. They demonstrated that aesthetically sophisticated poetry could simultaneously be politically engaged and that political commitment could enhance rather than diminish aesthetic achievement. This challenges the assumption that art should be autonomous from politics. It reveals that poetry has always been social and political, even when claiming to be apolitical, and that explicit engagement with politics need not reduce artistic quality. The tradition shows that poetry can serve human liberation while remaining artistically sophisticated."
+- question: How does politically committed Latin American poetry challenge the distinction between aesthetic and political poetry? What does this reveal about poetry's social functions?
+  type: short-answer
+  explanation: Politically committed poets rejected the premise that aesthetics and politics are separate concerns. They demonstrated that aesthetically sophisticated poetry could simultaneously be politically engaged and that political commitment could enhance rather than diminish aesthetic achievement. This challenges the assumption that art should be autonomous from politics. It reveals that poetry has always been social and political, even when claiming to be apolitical, and that explicit engagement with politics need not reduce artistic quality. The tradition shows that poetry can serve human liberation while remaining artistically sophisticated.
 ```
 
 ## Explainer

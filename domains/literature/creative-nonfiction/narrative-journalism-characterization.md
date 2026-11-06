@@ -28,39 +28,39 @@ Characterization in literary journalism builds from reported observation, interv
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "How does characterization in nonfiction differ from characterization in fiction?"
+- question: How does characterization in nonfiction differ from characterization in fiction?
+  type: multiple-choice
   options:
-    - "Nonfiction can invent character details freely."
-    - "Nonfiction characters must be built from reported observation, interviews, and research—not invention."
-    - "Characterization is identical in both forms."
-    - "Real people don't need characterization."
+  - Nonfiction can invent character details freely.
+  - Nonfiction characters must be built from reported observation, interviews, and research—not invention.
+  - Characterization is identical in both forms.
+  - Real people don't need characterization.
   answer: 1
-  explanation: "In fiction, you create characters from imagination. In nonfiction journalism, you're portraying real people. Your portrait must be grounded in what you've learned through reporting, not imagination."
+  explanation: In fiction, you create characters from imagination. In nonfiction journalism, you're portraying real people. Your portrait must be grounded in what you've learned through reporting, not imagination.
 
-- type: multiple-choice
-  question: "How can 'interior access' be justified in journalism without inventing what someone thought?"
+- question: How can 'interior access' be justified in journalism without inventing what someone thought?
+  type: multiple-choice
   options:
-    - "You cannot show interior life in journalism."
-    - "Through interviews, documents, observation—you learn how someone understood their own thoughts and feelings."
-    - "Journalists should never describe internal experience."
-    - "Interior thoughts cannot be verified."
+  - You cannot show interior life in journalism.
+  - Through interviews, documents, observation—you learn how someone understood their own thoughts and feelings.
+  - Journalists should never describe internal experience.
+  - Interior thoughts cannot be verified.
   answer: 1
-  explanation: "You can show interior life by reporting it. If someone tells you in an interview what they thought or felt, that's verifiable information. If you observe behavior and can reasonably infer emotion, that's reporting. You're not imagining interiority; you're reporting it."
+  explanation: You can show interior life by reporting it. If someone tells you in an interview what they thought or felt, that's verifiable information. If you observe behavior and can reasonably infer emotion, that's reporting. You're not imagining interiority; you're reporting it.
 
-- type: true-false
-  statement: "True: Detailed characterization in journalism requires careful reporting to avoid creating false impressions or stereotypes."
+- question: 'True: Detailed characterization in journalism requires careful reporting to avoid creating false impressions or stereotypes.'
+  type: true-false
   answer: true
-  explanation: "Yes. If you show a character's details—how they speak, dress, behave—readers form impressions. You're responsible for ensuring these details fairly represent the person, not creating unintended stereotypes or false characterizations."
+  explanation: Yes. If you show a character's details—how they speak, dress, behave—readers form impressions. You're responsible for ensuring these details fairly represent the person, not creating unintended stereotypes or false characterizations.
 
-- type: true-false
-  statement: "False: A complex character portrait in journalism requires inventing internal thoughts or feelings to create psychological depth."
+- question: 'False: A complex character portrait in journalism requires inventing internal thoughts or feelings to create psychological depth.'
+  type: true-false
   answer: false
-  explanation: "This is false. Depth comes from careful reporting—learning how the person understands themselves, showing contradiction and complexity in what they actually say and do. You don't need invention to create dimension; you need thorough reporting."
+  explanation: This is false. Depth comes from careful reporting—learning how the person understands themselves, showing contradiction and complexity in what they actually say and do. You don't need invention to create dimension; you need thorough reporting.
 
-- type: short-answer
-  question: "How might a narrative journalist develop a complex, nuanced character portrait without fabricating details?"
-  explanation: "Through: extensive interviews that reveal how the person understands themselves, their contradictions, their evolution. Observation of behavior in different contexts showing how the person acts with different people or in different situations. Details from appearance, speech patterns, choices that reveal character. Documentation like diaries, emails, letters showing the person's own voice. Dialogue that demonstrates intelligence, humor, contradiction. Historical context about the person's life and experiences. The journalist shows rather than tells—letting readers understand the person through accumulated detail and dialogue rather than authorial summary. This builds complex characterization without invention."
+- question: How might a narrative journalist develop a complex, nuanced character portrait without fabricating details?
+  type: short-answer
+  explanation: 'Through: extensive interviews that reveal how the person understands themselves, their contradictions, their evolution. Observation of behavior in different contexts showing how the person acts with different people or in different situations. Details from appearance, speech patterns, choices that reveal character. Documentation like diaries, emails, letters showing the person''s own voice. Dialogue that demonstrates intelligence, humor, contradiction. Historical context about the person''s life and experiences. The journalist shows rather than tells—letting readers understand the person through accumulated detail and dialogue rather than authorial summary. This builds complex characterization without invention.'
 ```
 
 ## Explainer

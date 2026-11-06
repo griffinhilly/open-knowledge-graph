@@ -33,39 +33,39 @@ Bolaño's complexity is not obscurity but formal necessity for representing cont
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "Why does Bolaño employ 'fragmented narrative, intertextual density, and archival impulse' rather than conventional linear narrative?"
+- question: Why does Bolaño employ 'fragmented narrative, intertextual density, and archival impulse' rather than conventional linear narrative?
+  type: multiple-choice
   options:
-    - "Because he lacks the skill to write clear, unified narratives"
-    - "Because the fragmentation enacts the actual conditions of postmodern literary culture—where meaning emerges from accumulated references, connections, and encounters rather than from narrative progress"
-    - "Because fragmentation makes novels more difficult and therefore more impressive"
-    - "Because he wants to imitate earlier modernist writers"
+  - Because he lacks the skill to write clear, unified narratives
+  - Because the fragmentation enacts the actual conditions of postmodern literary culture—where meaning emerges from accumulated references, connections, and encounters rather than from narrative progress
+  - Because fragmentation makes novels more difficult and therefore more impressive
+  - Because he wants to imitate earlier modernist writers
   answer: 1
-  explanation: "Bolaño's formal choices are strategic responses to contemporary conditions. In a globalized, interconnected literary world with abundant texts, archives, and voices, the pretense of unified narrative becomes inadequate. Literary meaning does not emerge from following a single character through time but from recognizing patterns, connections, and echoes across an overwhelming archive of texts. By employing fragmentation, intertextual density, and archival structure, Bolaño makes his novels enact this reality. The reader experiences the vertigo of too much information, too many voices, too many connections. This is not obscurity but representational honesty. The form matches the conditions it represents."
+  explanation: Bolaño's formal choices are strategic responses to contemporary conditions. In a globalized, interconnected literary world with abundant texts, archives, and voices, the pretense of unified narrative becomes inadequate. Literary meaning does not emerge from following a single character through time but from recognizing patterns, connections, and echoes across an overwhelming archive of texts. By employing fragmentation, intertextual density, and archival structure, Bolaño makes his novels enact this reality. The reader experiences the vertigo of too much information, too many voices, too many connections. This is not obscurity but representational honesty. The form matches the conditions it represents.
 
-- type: multiple-choice
-  question: "What does Bolaño mean by his novels enacting 'both totality and failure of totality'?"
+- question: What does Bolaño mean by his novels enacting 'both totality and failure of totality'?
+  type: multiple-choice
   options:
-    - "The novels are simultaneously great masterpieces and worthless failures"
-    - "The novels attempt encyclopedic comprehensiveness but acknowledge the impossibility of containing all meaning—they strive for totality while dramatizing its impossibility"
-    - "The novels contain complete narratives that are also fragmentary"
-    - "The novels are either totally successful or total failures with no middle ground"
+  - The novels are simultaneously great masterpieces and worthless failures
+  - The novels attempt encyclopedic comprehensiveness but acknowledge the impossibility of containing all meaning—they strive for totality while dramatizing its impossibility
+  - The novels contain complete narratives that are also fragmentary
+  - The novels are either totally successful or total failures with no middle ground
   answer: 1
-  explanation: "This paradox is central to Bolaño's postmodern position. His sprawling, dense novels attempt something encyclopedic—to contain literary history, cultural reference, interconnected narratives. Yet they simultaneously acknowledge that totality is impossible; gaps remain, connections are incomplete, meaning spills beyond any containing structure. Rather than seeing this as failure, Bolaño treats it as appropriate to contemporary reality. We live in a world of overwhelming information and interconnected texts where no single perspective or unified narrative can contain meaning. His novels enact both the impulse toward totality and the recognition of its impossibility. This is the appropriate form for representing globalized, fragmented reality."
+  explanation: This paradox is central to Bolaño's postmodern position. His sprawling, dense novels attempt something encyclopedic—to contain literary history, cultural reference, interconnected narratives. Yet they simultaneously acknowledge that totality is impossible; gaps remain, connections are incomplete, meaning spills beyond any containing structure. Rather than seeing this as failure, Bolaño treats it as appropriate to contemporary reality. We live in a world of overwhelming information and interconnected texts where no single perspective or unified narrative can contain meaning. His novels enact both the impulse toward totality and the recognition of its impossibility. This is the appropriate form for representing globalized, fragmented reality.
 
-- type: true-false
-  statement: "Bolaño's use of intertextual density—integrating multiple literary references and voices—creates a unified, harmonious literary whole where all references cohere into a single meaning."
+- question: Bolaño's use of intertextual density—integrating multiple literary references and voices—creates a unified, harmonious literary whole where all references cohere into a single meaning.
+  type: true-false
   answer: false
-  explanation: "The opposite is closer to true. Intertextual density creates both connection and disconnection. References point outward, multiply meaning, suggest parallels that also diverge. Rather than creating harmony, this density generates productive confusion and multiple interpretations. The reader cannot resolve all references into a unified meaning; instead, the text remains open, suggestive, internally contradictory. This openness is not a flaw but intentional—a refusal of false closure. The form demonstrates that meaning in postmodern conditions is not unified but distributed, contested, and excessive. No single reading exhausts the text."
+  explanation: The opposite is closer to true. Intertextual density creates both connection and disconnection. References point outward, multiply meaning, suggest parallels that also diverge. Rather than creating harmony, this density generates productive confusion and multiple interpretations. The reader cannot resolve all references into a unified meaning; instead, the text remains open, suggestive, internally contradictory. This openness is not a flaw but intentional—a refusal of false closure. The form demonstrates that meaning in postmodern conditions is not unified but distributed, contested, and excessive. No single reading exhausts the text.
 
-- type: true-false
-  statement: "In Bolaño's novels, fragmentation and sprawling structure are formally necessary for representing the conditions of contemporary global literary culture, where meaning emerges from accumulated references and connections rather than linear narrative progression."
+- question: In Bolaño's novels, fragmentation and sprawling structure are formally necessary for representing the conditions of contemporary global literary culture, where meaning emerges from accumulated references and connections rather than linear narrative progression.
+  type: true-false
   answer: true
-  explanation: "This correctly identifies the philosophical necessity underlying Bolaño's formal choices. Contemporary literary culture is characterized by abundance, interconnection, and the erosion of clear sequential logic. Readers navigate multiple genres, languages, and references simultaneously. Traditional narrative—which unfolds progressively through time toward resolution—cannot adequately represent this condition. Fragmented, archival, intertextually dense structure is not stylistic choice but formal necessity. It allows novels to enact the overwhelming interconnectedness they represent. The reader's experience of disorientation and difficulty is not a bug but the point: it reflects actual conditions of reading in postmodern culture."
+  explanation: 'This correctly identifies the philosophical necessity underlying Bolaño''s formal choices. Contemporary literary culture is characterized by abundance, interconnection, and the erosion of clear sequential logic. Readers navigate multiple genres, languages, and references simultaneously. Traditional narrative—which unfolds progressively through time toward resolution—cannot adequately represent this condition. Fragmented, archival, intertextually dense structure is not stylistic choice but formal necessity. It allows novels to enact the overwhelming interconnectedness they represent. The reader''s experience of disorientation and difficulty is not a bug but the point: it reflects actual conditions of reading in postmodern culture.'
 
-- type: short-answer
-  question: "Explain how Bolaño's novels demonstrate that 'postmodern fragmentation is the appropriate form for representing globalized, interconnected literary and social worlds.' What does fragmentation allow him to represent that unified narrative would not?"
-  explanation: "Unified linear narrative assumes a single perspective with privileged access to meaning, a clear causal sequence, and narrative closure. But globalized literary and social worlds are characterized by multiplicity—multiple languages, cultures, perspectives, references operating simultaneously and often incoherently. Bolaño's fragmented structure allows him to represent this multiplicity without falsely resolving it. Characters and voices do not form a coherent whole but remain dispersed, sometimes connected by thin threads, sometimes isolated. Intertextual references do not cohere into unified meaning but create a palimpsest where texts overlap without resolving. Archival density represents the overwhelming abundance of texts and information in contemporary culture—where no individual can master or contain all knowledge. The sprawling structure enacts vertigo, overload, and the failure of any single perspective to comprehend the whole. This is precisely what postmodern globalized reality feels like for those navigating it. Rather than pretending to achieve unified narrative mastery, Bolaño's form admits this impossibility while maintaining intellectual engagement. He demonstrates that the most honest and powerful fiction acknowledges what it cannot contain."
+- question: Explain how Bolaño's novels demonstrate that 'postmodern fragmentation is the appropriate form for representing globalized, interconnected literary and social worlds.' What does fragmentation allow him to represent that unified narrative would not?
+  type: short-answer
+  explanation: Unified linear narrative assumes a single perspective with privileged access to meaning, a clear causal sequence, and narrative closure. But globalized literary and social worlds are characterized by multiplicity—multiple languages, cultures, perspectives, references operating simultaneously and often incoherently. Bolaño's fragmented structure allows him to represent this multiplicity without falsely resolving it. Characters and voices do not form a coherent whole but remain dispersed, sometimes connected by thin threads, sometimes isolated. Intertextual references do not cohere into unified meaning but create a palimpsest where texts overlap without resolving. Archival density represents the overwhelming abundance of texts and information in contemporary culture—where no individual can master or contain all knowledge. The sprawling structure enacts vertigo, overload, and the failure of any single perspective to comprehend the whole. This is precisely what postmodern globalized reality feels like for those navigating it. Rather than pretending to achieve unified narrative mastery, Bolaño's form admits this impossibility while maintaining intellectual engagement. He demonstrates that the most honest and powerful fiction acknowledges what it cannot contain.
 ```
 
 ## Explainer

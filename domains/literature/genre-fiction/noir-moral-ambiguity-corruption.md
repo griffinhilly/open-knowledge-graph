@@ -23,36 +23,39 @@ Noir emphasizes moral ambiguity, institutional corruption, and fatalistic conseq
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What characterizes the typical noir protagonist?"
-    options:
-      - "Morally pure heroes fighting for justice"
-      - "Morally compromised individuals navigating corrupt institutions"
-      - "Innocent victims of random violence"
-      - "Professional law enforcement officers"
-    correct_answer: 1
-    explanation: "The core idea describes noir's 'morally compromised protagonists,' indicating that the typical noir character operates within moral ambiguity."
-  - type: multiple-choice
-    question: "What do noir settings typically emphasize?"
-    options:
-      - "Peaceful rural landscapes"
-      - "Well-functioning institutional systems"
-      - "Urban and nocturnal environments"
-      - "Brightly-lit, safe public spaces"
-    correct_answer: 2
-    explanation: "The core idea specifies that 'noir settings are typically urban and nocturnal,' establishing these environmental characteristics as defining."
-  - type: true-false
-    question: "Noir explores how human weakness has fatalistic consequences within corrupt systems."
-    correct_answer: true
-    explanation: "The core idea identifies 'fatalistic consequences of human weakness' as part of noir's emphasis, indicating inescapable consequences of character flaws."
-  - type: true-false
-    question: "Noir's aesthetic emphasizes the possibility of institutional justice and redemption."
-    correct_answer: false
-    explanation: "The core idea states noir's aesthetic 'emphasizes shadow, danger, and the failure of institutions to provide justice or redemption,' explicitly indicating the impossibility of institutional redemption."
-  - type: short-answer
-    question: "What is the significance of noir's 'nocturnal' settings? How does nighttime serve noir's thematic and aesthetic purposes?"
-    explanation: "A good answer should recognize that night enables shadow and obscurity—you cannot see clearly, cannot know completely, cannot trust what you see. Night is traditionally associated with danger, hiding, and moral transgression. Nighttime suggests vulnerability; institutions and authority are less visible; individuals operate in darkness. The nocturnal setting embodies noir's worldview: the world is obscured, truth is hidden, and darkness is the natural state. Students should understand that nighttime is not merely atmospheric but thematic—it represents the opacity and danger that characterize noir's world."
+- question: What characterizes the typical noir protagonist?
+  type: multiple-choice
+  options:
+  - Morally pure heroes fighting for justice
+  - Morally compromised individuals navigating corrupt institutions
+  - Innocent victims of random violence
+  - Professional law enforcement officers
+  answer: 1
+  explanation: The core idea describes noir's 'morally compromised protagonists,' indicating that the typical noir character operates within moral ambiguity.
+
+- question: What do noir settings typically emphasize?
+  type: multiple-choice
+  options:
+  - Peaceful rural landscapes
+  - Well-functioning institutional systems
+  - Urban and nocturnal environments
+  - Brightly-lit, safe public spaces
+  answer: 2
+  explanation: The core idea specifies that 'noir settings are typically urban and nocturnal,' establishing these environmental characteristics as defining.
+
+- question: Noir explores how human weakness has fatalistic consequences within corrupt systems.
+  type: true-false
+  answer: true
+  explanation: The core idea identifies 'fatalistic consequences of human weakness' as part of noir's emphasis, indicating inescapable consequences of character flaws.
+
+- question: Noir's aesthetic emphasizes the possibility of institutional justice and redemption.
+  type: true-false
+  answer: false
+  explanation: The core idea states noir's aesthetic 'emphasizes shadow, danger, and the failure of institutions to provide justice or redemption,' explicitly indicating the impossibility of institutional redemption.
+
+- question: What is the significance of noir's 'nocturnal' settings? How does nighttime serve noir's thematic and aesthetic purposes?
+  type: short-answer
+  explanation: 'A good answer should recognize that night enables shadow and obscurity—you cannot see clearly, cannot know completely, cannot trust what you see. Night is traditionally associated with danger, hiding, and moral transgression. Nighttime suggests vulnerability; institutions and authority are less visible; individuals operate in darkness. The nocturnal setting embodies noir''s worldview: the world is obscured, truth is hidden, and darkness is the natural state. Students should understand that nighttime is not merely atmospheric but thematic—it represents the opacity and danger that characterize noir''s world.'
 ```
 
 ## Explainer

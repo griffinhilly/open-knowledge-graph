@@ -23,36 +23,39 @@ Arthur Conan Doyle's Sherlock Holmes stories established the detective fiction t
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What innovation did Holmes's deductive method introduce to detective fiction?"
-    options:
-      - "Making detectives more physically powerful than criminals"
-      - "Showing that observation combined with logic could solve crimes conventional police couldn't"
-      - "Eliminating the need for any investigation"
-      - "Making detective work purely intuitive without logical reasoning"
-    correct_answer: 1
-    explanation: "The core idea states Holmes's method is 'observation + logic = solution,' emphasizing how systematic reasoning applied to careful observation produces solutions unavailable to conventional approaches."
-  - type: multiple-choice
-    question: "How does Holmes's deductive method function as narrative driver in the stories?"
-    options:
-      - "It creates a setting but doesn't affect plot"
-      - "It establishes both the narrative structure and Holmes's character identity"
-      - "It is merely decoration with no narrative function"
-      - "It replaces character development entirely"
-    correct_answer: 1
-    explanation: "The core idea states the method 'creates narrative structure and character identity,' showing it's fundamental to how stories are built and who Holmes is."
-  - type: true-false
-    question: "Sherlock Holmes stories established conventions that detective fiction continues to follow today."
-    correct_answer: true
-    explanation: "The core idea explicitly states these stories 'established conventions detective fiction still follows,' confirming Holmes's fundamental influence on the genre."
-  - type: true-false
-    question: "Holmes's unusual methods were accepted by conventional police and viewed as legitimate from the start."
-    correct_answer: false
-    explanation: "The core idea notes Holmes 'solves crimes baffling conventional police,' indicating his methods were unconventional and initially unproven, not immediately accepted as legitimate."
-  - type: short-answer
-    question: "Why did making the detective's method explicit and teachable—observation plus logic—make detective fiction a new kind of narrative?"
-    explanation: "Good answers should address how explicit methodology invites readers to follow along and test their own observation and logic. If the method were magical or inexplicable, readers couldn't participate. By making deduction a learnable process of observation and reasoning, Holmes stories made readers active participants in the investigation, invited to deduce alongside the detective."
+- question: What innovation did Holmes's deductive method introduce to detective fiction?
+  type: multiple-choice
+  options:
+  - Making detectives more physically powerful than criminals
+  - Showing that observation combined with logic could solve crimes conventional police couldn't
+  - Eliminating the need for any investigation
+  - Making detective work purely intuitive without logical reasoning
+  answer: 1
+  explanation: The core idea states Holmes's method is 'observation + logic = solution,' emphasizing how systematic reasoning applied to careful observation produces solutions unavailable to conventional approaches.
+
+- question: How does Holmes's deductive method function as narrative driver in the stories?
+  type: multiple-choice
+  options:
+  - It creates a setting but doesn't affect plot
+  - It establishes both the narrative structure and Holmes's character identity
+  - It is merely decoration with no narrative function
+  - It replaces character development entirely
+  answer: 1
+  explanation: The core idea states the method 'creates narrative structure and character identity,' showing it's fundamental to how stories are built and who Holmes is.
+
+- question: Sherlock Holmes stories established conventions that detective fiction continues to follow today.
+  type: true-false
+  answer: true
+  explanation: The core idea explicitly states these stories 'established conventions detective fiction still follows,' confirming Holmes's fundamental influence on the genre.
+
+- question: Holmes's unusual methods were accepted by conventional police and viewed as legitimate from the start.
+  type: true-false
+  answer: false
+  explanation: The core idea notes Holmes 'solves crimes baffling conventional police,' indicating his methods were unconventional and initially unproven, not immediately accepted as legitimate.
+
+- question: Why did making the detective's method explicit and teachable—observation plus logic—make detective fiction a new kind of narrative?
+  type: short-answer
+  explanation: Good answers should address how explicit methodology invites readers to follow along and test their own observation and logic. If the method were magical or inexplicable, readers couldn't participate. By making deduction a learnable process of observation and reasoning, Holmes stories made readers active participants in the investigation, invited to deduce alongside the detective.
 ```
 
 ## Explainer

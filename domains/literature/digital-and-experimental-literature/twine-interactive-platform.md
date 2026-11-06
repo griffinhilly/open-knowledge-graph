@@ -27,42 +27,39 @@ Twine bridges hypertext fiction and game design using linked passages with varia
 ## Questions
 
 ```yaml
-- correct_answer: 0
-  explanation: 'Twine takes hypertext''s connected passages and links, but adds game design elements: variables track player choices and affect subsequent narrative, conditional logic determines what content
-    displays based on state. This creates branching narratives where choices matter—game-like consequences affect storytelling.'
+- question: How does Twine bridge hypertext fiction and game design?
+  type: multiple-choice
   options:
   - Twine combines hypertext's link-based navigation with game design's variables and conditional logic, enabling branching narratives where player choices affect game state and outcomes
   - Twine only makes hypertext; it has nothing to do with games
   - Twine only makes games; it has nothing to do with narrative
   - Twine uses only predefined story paths
-  question: How does Twine bridge hypertext fiction and game design?
+  answer: 0
+  explanation: 'Twine takes hypertext''s connected passages and links, but adds game design elements: variables track player choices and affect subsequent narrative, conditional logic determines what content displays based on state. This creates branching narratives where choices matter—game-like consequences affect storytelling.'
+
+- question: Why is Twine's 'visual node-based interface' significant for interactive storytelling development?
   type: multiple-choice
-- correct_answer: 0
-  explanation: 'Programming-based IF tools require code literacy. Twine visualizes narrative as a node-graph: each passage is a node, links connect them. Creators can see the entire story structure, understand
-    branching visually, and modify it intuitively. This visual representation makes the form accessible to writers without coding background.'
   options:
-  - The visual interface allows creators to see the narrative structure (passages as nodes, links as connections) and design branching narratives without code, making interactive storytelling accessible
-    to non-programmers
+  - The visual interface allows creators to see the narrative structure (passages as nodes, links as connections) and design branching narratives without code, making interactive storytelling accessible to non-programmers
   - Visual interfaces have no effect on creativity
   - Twine requires extensive programming knowledge
   - Node-based interfaces prevent creative narrative design
-  question: Why is Twine's 'visual node-based interface' significant for interactive storytelling development?
-  type: multiple-choice
-- correct_answer: true
+  answer: 0
+  explanation: 'Programming-based IF tools require code literacy. Twine visualizes narrative as a node-graph: each passage is a node, links connect them. Creators can see the entire story structure, understand branching visually, and modify it intuitively. This visual representation makes the form accessible to writers without coding background.'
+
+- question: Twine's accessibility has made it the primary platform for contemporary interactive fiction and experimental digital storytelling
+  type: true-false
+  answer: true
   explanation: Correct. Twine's ease of use has democratized IF creation and made it the go-to platform for many creators.
-  statement: Twine's accessibility has made it the primary platform for contemporary interactive fiction and experimental digital storytelling
+
+- question: Twine strictly separates narrative (hypertext-like) from game mechanics (variables and logic); the two elements never interact
   type: true-false
-- correct_answer: false
+  answer: false
   explanation: 'False. Variables and logic directly affect narrative: player choices modify variables, which determine what narrative content displays. Narrative and mechanics are integrated.'
-  statement: Twine strictly separates narrative (hypertext-like) from game mechanics (variables and logic); the two elements never interact
-  type: true-false
-- explanation: 'Before Twine, IF required either programming (Inform, TADS) or unfamiliar hypertext tools. This limited creators to programmers or experienced developers. Twine democratized by making IF
-    creation accessible to narrative-focused creators. The visual interface eliminates code literacy requirements. Variables and logic are implemented visually, not through typed code. This removed the
-    programming barrier, allowing writers, artists, and experimental creators to build IF without technical expertise. This democratization had significant impact: IF creation expanded dramatically. More
-    diverse creators entered the form. More experimental and artistic IF emerged, not just technical puzzle-games. IF became associated with experimental narrative, art games, and personal storytelling,
-    not just programming challenges. Twine''s accessibility transformed IF from niche form to vibrant creative platform, enabling widespread experimental digital narrative.'
-  question: Explain how Twine 'democratized' interactive fiction creation. What barriers did Twine remove, and what impact did this have on the form?
+
+- question: Explain how Twine 'democratized' interactive fiction creation. What barriers did Twine remove, and what impact did this have on the form?
   type: short-answer
+  explanation: 'Before Twine, IF required either programming (Inform, TADS) or unfamiliar hypertext tools. This limited creators to programmers or experienced developers. Twine democratized by making IF creation accessible to narrative-focused creators. The visual interface eliminates code literacy requirements. Variables and logic are implemented visually, not through typed code. This removed the programming barrier, allowing writers, artists, and experimental creators to build IF without technical expertise. This democratization had significant impact: IF creation expanded dramatically. More diverse creators entered the form. More experimental and artistic IF emerged, not just technical puzzle-games. IF became associated with experimental narrative, art games, and personal storytelling, not just programming challenges. Twine''s accessibility transformed IF from niche form to vibrant creative platform, enabling widespread experimental digital narrative.'
 ```
 
 ## Explainer

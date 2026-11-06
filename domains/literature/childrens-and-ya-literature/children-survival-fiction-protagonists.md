@@ -25,35 +25,39 @@ Survival fiction depicts protagonists confronting wilderness, isolation, or envi
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What is the primary narrative function of survival challenges in children's survival fiction?"
-    options:
-      - "To provide action sequences without deeper meaning"
-      - "To test protagonists' resourcefulness and adaptation while revealing character and exploring themes about resilience, self-discovery, and human relationship to nature"
-      - "To demonstrate that survival is impossible"
-      - "To avoid engaging readers emotionally"
-    answer: 1
-    explanation: "Survival challenges function as crucibles where protagonists must draw on inner resources, creating opportunities for character development and thematic depth."
-  - question: "How does isolation in survival fiction serve narrative purposes beyond creating physical challenge?"
-    options:
-      - "Isolation prevents any character development from occurring"
-      - "Isolation strips away social structures and distractions, forcing protagonists to confront themselves and develop self-reliance while exploring fundamental human needs"
-      - "Isolation has no psychological effects"
-      - "Isolation prevents readers from engaging with the story"
-    answer: 1
-    explanation: "Isolation creates psychological intensity where survival becomes inseparable from self-discovery and where protagonists must rely on internal resources."
+- question: What is the primary narrative function of survival challenges in children's survival fiction?
+  type: multiple-choice
+  options:
+  - To provide action sequences without deeper meaning
+  - To test protagonists' resourcefulness and adaptation while revealing character and exploring themes about resilience, self-discovery, and human relationship to nature
+  - To demonstrate that survival is impossible
+  - To avoid engaging readers emotionally
+  answer: 1
+  explanation: Survival challenges function as crucibles where protagonists must draw on inner resources, creating opportunities for character development and thematic depth.
 
-true-false:
-  - question: "True or False: In children's survival fiction, the protagonist's relationship with nature typically evolves from seeing it as enemy to recognizing complexity and even interconnection."
-    answer: true
-    explanation: "This is true. Characters often begin viewing nature as threatening and gradually develop respect, understanding, or even appreciation for natural systems."
-  - question: "True or False: Survival fiction is primarily about whether protagonists physically survive or die."
-    answer: false
-    explanation: "This is false. While survival is literal plot element, the deeper concern is usually psychological and existential—how the experience changes the protagonist's self-understanding."
+- question: How does isolation in survival fiction serve narrative purposes beyond creating physical challenge?
+  type: multiple-choice
+  options:
+  - Isolation prevents any character development from occurring
+  - Isolation strips away social structures and distractions, forcing protagonists to confront themselves and develop self-reliance while exploring fundamental human needs
+  - Isolation has no psychological effects
+  - Isolation prevents readers from engaging with the story
+  answer: 1
+  explanation: Isolation creates psychological intensity where survival becomes inseparable from self-discovery and where protagonists must rely on internal resources.
 
-short-answer:
-  - question: "Why does survival fiction have particular power as a vehicle for exploring adolescent development and identity formation?"
-    explanation: "Survival scenarios isolate protagonists from usual social structures and identity markers, forcing them to discover capabilities and limitations on their own. In ordinary life, adolescents develop with parental guidance, peer relationships, and institutional structures that mediate experience. Survival fiction strips these away, requiring protagonists to test themselves directly. Additionally, survival challenges embody metaphorically the adolescent experience: confronting obstacles, discovering capabilities, adapting to changed circumstances, and gradually developing confidence. A character who begins survival isolated and terrified and ends capable and resourceful enacts the psychological journey of adolescence—from dependence toward autonomy, from self-doubt toward competence. Furthermore, survival fiction explores fundamental questions adolescents grapple with: Who am I without my usual social role? What am I capable of? What do I actually need to be human? What is my relationship to the wider world? The concrete scenario makes these abstract questions urgent and tangible."
+- question: 'True or False: In children''s survival fiction, the protagonist''s relationship with nature typically evolves from seeing it as enemy to recognizing complexity and even interconnection.'
+  type: true-false
+  answer: true
+  explanation: This is true. Characters often begin viewing nature as threatening and gradually develop respect, understanding, or even appreciation for natural systems.
+
+- question: 'True or False: Survival fiction is primarily about whether protagonists physically survive or die.'
+  type: true-false
+  answer: false
+  explanation: This is false. While survival is literal plot element, the deeper concern is usually psychological and existential—how the experience changes the protagonist's self-understanding.
+
+- question: Why does survival fiction have particular power as a vehicle for exploring adolescent development and identity formation?
+  type: short-answer
+  explanation: 'Survival scenarios isolate protagonists from usual social structures and identity markers, forcing them to discover capabilities and limitations on their own. In ordinary life, adolescents develop with parental guidance, peer relationships, and institutional structures that mediate experience. Survival fiction strips these away, requiring protagonists to test themselves directly. Additionally, survival challenges embody metaphorically the adolescent experience: confronting obstacles, discovering capabilities, adapting to changed circumstances, and gradually developing confidence. A character who begins survival isolated and terrified and ends capable and resourceful enacts the psychological journey of adolescence—from dependence toward autonomy, from self-doubt toward competence. Furthermore, survival fiction explores fundamental questions adolescents grapple with: Who am I without my usual social role? What am I capable of? What do I actually need to be human? What is my relationship to the wider world? The concrete scenario makes these abstract questions urgent and tangible.'
 ```
 
 ## Explainer

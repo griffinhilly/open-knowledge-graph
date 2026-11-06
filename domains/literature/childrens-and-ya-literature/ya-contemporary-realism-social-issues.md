@@ -26,35 +26,39 @@ Examine contemporary issue-driven YA texts, analyzing how they balance entertain
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What distinguishes issue-driven contemporary YA realistic fiction?"
-    options:
-      - "It avoids serious topics to maintain entertainment value"
-      - "It addresses urgent social and personal issues—mental health, substance abuse, racism, assault—as central narrative concerns rather than background elements"
-      - "YA fiction never addresses serious issues"
-      - "All YA literature is issue-driven"
-    answer: 1
-    explanation: "Issue-driven YA places serious social problems at the narrative center, treating them as worthy of the same attention and development as plot and character."
-  - question: "What does the prevalence of issue-driven YA suggest about assumptions regarding adolescent readers?"
-    options:
-      - "Adolescents cannot understand serious topics"
-      - "Adolescents benefit from encountering serious issues in narrative form, that literature serves important functions in processing difficult realities, and that young readers deserve honest engagement with the world they inhabit"
-      - "Adolescents have no interest in serious topics"
-      - "Only adults can address serious issues in literature"
-    answer: 1
-    explanation: "Issue-driven YA reflects belief that adolescents are developing understanding of serious problems they will face, and that literature can support that development by providing narrative exploration."
+- question: What distinguishes issue-driven contemporary YA realistic fiction?
+  type: multiple-choice
+  options:
+  - It avoids serious topics to maintain entertainment value
+  - It addresses urgent social and personal issues—mental health, substance abuse, racism, assault—as central narrative concerns rather than background elements
+  - YA fiction never addresses serious issues
+  - All YA literature is issue-driven
+  answer: 1
+  explanation: Issue-driven YA places serious social problems at the narrative center, treating them as worthy of the same attention and development as plot and character.
 
-true-false:
-  - question: "True or False: YA issue novels that center topics like mental health or sexual assault necessarily exploit tragedy for entertainment."
-    answer: false
-    explanation: "False. While some issue-driven YA may be criticized for sensationalism, many works treat serious issues with genuine emotional and social authenticity, aiming to validate reader experience and model response."
-  - question: "True or False: Contemporary YA has increasingly incorporated serious social issues compared to earlier YA literature."
-    answer: true
-    explanation: "True. Contemporary YA increasingly centers serious social problems, reflecting both changing content acceptance and changing author/publisher understanding of what adolescent readers need."
+- question: What does the prevalence of issue-driven YA suggest about assumptions regarding adolescent readers?
+  type: multiple-choice
+  options:
+  - Adolescents cannot understand serious topics
+  - Adolescents benefit from encountering serious issues in narrative form, that literature serves important functions in processing difficult realities, and that young readers deserve honest engagement with the world they inhabit
+  - Adolescents have no interest in serious topics
+  - Only adults can address serious issues in literature
+  answer: 1
+  explanation: Issue-driven YA reflects belief that adolescents are developing understanding of serious problems they will face, and that literature can support that development by providing narrative exploration.
 
-short-answer:
-  - question: "Analyze an issue-driven YA novel you know. How does the author treat the central issue? Does the narrative center adolescent agency, response, or growth in relation to the issue? What might readers encounter through engaging with this narrative?"
-    explanation: "Your answer should identify a specific issue (mental health, racism, sexual assault, eating disorders, etc.) and analyze how the book treats it. For example, a novel about depression might center the protagonist's experience of symptoms, their struggle to get help, and their learning to manage mental health over time. A novel about racism might depict a character encountering racism directly and learning to recognize and resist it. The point is analyzing whether the issue is central (driving plot and character development) or peripheral, whether adolescent protagonists have agency in responding to issues or are passive victims, and what understanding or perspective the narrative might cultivate in readers. Issue-driven YA serves multiple functions: it validates young reader experience (I'm not alone in struggling with this), it models possible responses (here's how this character addresses the issue), it invites reflection on social problems, and it legitimizes serious discussion of topics that might be taboo in other contexts."
+- question: 'True or False: YA issue novels that center topics like mental health or sexual assault necessarily exploit tragedy for entertainment.'
+  type: true-false
+  answer: false
+  explanation: False. While some issue-driven YA may be criticized for sensationalism, many works treat serious issues with genuine emotional and social authenticity, aiming to validate reader experience and model response.
+
+- question: 'True or False: Contemporary YA has increasingly incorporated serious social issues compared to earlier YA literature.'
+  type: true-false
+  answer: true
+  explanation: True. Contemporary YA increasingly centers serious social problems, reflecting both changing content acceptance and changing author/publisher understanding of what adolescent readers need.
+
+- question: Analyze an issue-driven YA novel you know. How does the author treat the central issue? Does the narrative center adolescent agency, response, or growth in relation to the issue? What might readers encounter through engaging with this narrative?
+  type: short-answer
+  explanation: 'Your answer should identify a specific issue (mental health, racism, sexual assault, eating disorders, etc.) and analyze how the book treats it. For example, a novel about depression might center the protagonist''s experience of symptoms, their struggle to get help, and their learning to manage mental health over time. A novel about racism might depict a character encountering racism directly and learning to recognize and resist it. The point is analyzing whether the issue is central (driving plot and character development) or peripheral, whether adolescent protagonists have agency in responding to issues or are passive victims, and what understanding or perspective the narrative might cultivate in readers. Issue-driven YA serves multiple functions: it validates young reader experience (I''m not alone in struggling with this), it models possible responses (here''s how this character addresses the issue), it invites reflection on social problems, and it legitimizes serious discussion of topics that might be taboo in other contexts.'
 ```
 
 ## Explainer

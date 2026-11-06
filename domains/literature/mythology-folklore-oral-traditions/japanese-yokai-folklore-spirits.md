@@ -32,40 +32,39 @@ Yokai are demons or evil spirits. (While some yokai are dangerous, others are be
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "In Japanese folklore, what characteristic most fundamentally defines a yokai?"
-    options:
-      - "Any supernatural being that is inherently evil and seeks to harm humans"
-      - "A being or object that exists at boundaries—physically, temporally, or ontologically—between human and supernatural, animate and inanimate"
-      - "A spirit exclusively bound to temples and shrines that requires regular worship"
-      - "A demon that can only be defeated through religious exorcism"
-    correct: "B"
-    explanation: "Yokai are defined not by moral alignment but by their liminal nature—they inhabit boundaries (twilight, forest edges, abandoned places) and embody the permeability between seemingly distinct categories. This boundary-crossing quality makes them unpredictable and often morally neutral."
+- question: In Japanese folklore, what characteristic most fundamentally defines a yokai?
+  type: multiple-choice
+  options:
+  - Any supernatural being that is inherently evil and seeks to harm humans
+  - A being or object that exists at boundaries—physically, temporally, or ontologically—between human and supernatural, animate and inanimate
+  - A spirit exclusively bound to temples and shrines that requires regular worship
+  - A demon that can only be defeated through religious exorcism
+  answer: 1
+  explanation: Yokai are defined not by moral alignment but by their liminal nature—they inhabit boundaries (twilight, forest edges, abandoned places) and embody the permeability between seemingly distinct categories. This boundary-crossing quality makes them unpredictable and often morally neutral.
 
-  - type: multiple-choice
-    question: "Which of the following best explains why many yokai are depicted as shapeshifters or transforming beings?"
-    options:
-      - "They are evil spirits trying to deceive humans into betrayal"
-      - "Transformation embodies the yokai's fundamental nature as beings that blur categorical distinctions and exist outside normal ontological order"
-      - "Japanese folklore required that all supernatural beings have multiple forms"
-      - "Shapeshifting is a punishment imposed by Shinto priests on misbehaving spirits"
-    correct: "B"
-    explanation: "Shapeshifting is not incidental to yokai—it's central to their conceptual meaning. By existing in multiple forms, yokai dramatize the instability of categories (fox-human, object-spirit) that humans normally take as fixed. This embodies a worldview where boundaries are permeable."
+- question: Which of the following best explains why many yokai are depicted as shapeshifters or transforming beings?
+  type: multiple-choice
+  options:
+  - They are evil spirits trying to deceive humans into betrayal
+  - Transformation embodies the yokai's fundamental nature as beings that blur categorical distinctions and exist outside normal ontological order
+  - Japanese folklore required that all supernatural beings have multiple forms
+  - Shapeshifting is a punishment imposed by Shinto priests on misbehaving spirits
+  answer: 1
+  explanation: Shapeshifting is not incidental to yokai—it's central to their conceptual meaning. By existing in multiple forms, yokai dramatize the instability of categories (fox-human, object-spirit) that humans normally take as fixed. This embodies a worldview where boundaries are permeable.
 
-  - type: true-false
-    question: "Toriyama Sekien's artistic collections of yokai depictions are historically accurate records of yokai appearances as witnessed by real people."
-    correct: false
-    explanation: "Sekien's works are imaginative artistic interpretations and compilations, not ethnographic documentation. He drew on folklore, existing illustrations, and creative invention. His art shaped how people visualize yokai, but it should be understood as artistic synthesis rather than historical witness."
+- question: Toriyama Sekien's artistic collections of yokai depictions are historically accurate records of yokai appearances as witnessed by real people.
+  type: true-false
+  answer: false
+  explanation: Sekien's works are imaginative artistic interpretations and compilations, not ethnographic documentation. He drew on folklore, existing illustrations, and creative invention. His art shaped how people visualize yokai, but it should be understood as artistic synthesis rather than historical witness.
 
-  - type: true-false
-    question: "All yokai in traditional Japanese folklore are presented as dangers that humans should avoid or fears to be overcome."
-    correct: false
-    explanation: "Many yokai are benevolent, helpful, or morally neutral. Some protect communities, grant wishes, or become household companions. Yokai stories often explore ambiguous relationships between humans and spirits, not just conflict or danger."
+- question: All yokai in traditional Japanese folklore are presented as dangers that humans should avoid or fears to be overcome.
+  type: true-false
+  answer: false
+  explanation: Many yokai are benevolent, helpful, or morally neutral. Some protect communities, grant wishes, or become household companions. Yokai stories often explore ambiguous relationships between humans and spirits, not just conflict or danger.
 
-  - type: short-answer
-    question: "Explain why stories about humans accidentally entering yokai domains serve as a narrative exploration of boundary crossing in Japanese folklore."
-    explanation: "These stories dramatize what yokai fundamentally embody: the porousness of boundaries that humans assume are fixed. When a human unknowingly enters a yokai space (a forest that exists in two places, a shop that vanishes, a meeting that lasts centuries in one night), the narrative makes visible the yokai principle that the supernatural coexists with the human world, separated only by perception or circumstance. The transgression—the unintended crossing—shows boundaries as accident-prone rather than absolute, raising questions about what separates the safe human world from the unpredictable yokai realm."
+- question: Explain why stories about humans accidentally entering yokai domains serve as a narrative exploration of boundary crossing in Japanese folklore.
+  type: short-answer
+  explanation: 'These stories dramatize what yokai fundamentally embody: the porousness of boundaries that humans assume are fixed. When a human unknowingly enters a yokai space (a forest that exists in two places, a shop that vanishes, a meeting that lasts centuries in one night), the narrative makes visible the yokai principle that the supernatural coexists with the human world, separated only by perception or circumstance. The transgression—the unintended crossing—shows boundaries as accident-prone rather than absolute, raising questions about what separates the safe human world from the unpredictable yokai realm.'
 ```
 
 ## Explainer

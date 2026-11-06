@@ -33,40 +33,39 @@ Norse gods are creators and maintain stable order. (The Aesir are themselves cre
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "In Norse cosmology, what role do the gods (Aesir) play in relation to cosmic order and destruction?"
-    options:
-      - "The gods created the cosmos and maintain perfect, eternal order"
-      - "The gods are themselves created beings who actively maintain order against forces of chaos and entropy, but ultimately cannot prevent cosmic destruction"
-      - "The gods are indifferent to cosmic order and do not intervene in worldly affairs"
-      - "The gods represent chaos and disorder rather than order"
-    correct: "B"
-    explanation: "Norse cosmology presents a cosmos in tension. The Aesir themselves emerge from primordial forces and must actively work to maintain order. They fight giants, manage cosmic forces, and struggle against entropy. Yet their efforts are not permanent—Ragnarok will come, the cosmos will end, and they know it. This is fundamentally different from a cosmology where gods maintain eternal, stable order."
+- question: In Norse cosmology, what role do the gods (Aesir) play in relation to cosmic order and destruction?
+  type: multiple-choice
+  options:
+  - The gods created the cosmos and maintain perfect, eternal order
+  - The gods are themselves created beings who actively maintain order against forces of chaos and entropy, but ultimately cannot prevent cosmic destruction
+  - The gods are indifferent to cosmic order and do not intervene in worldly affairs
+  - The gods represent chaos and disorder rather than order
+  answer: 1
+  explanation: Norse cosmology presents a cosmos in tension. The Aesir themselves emerge from primordial forces and must actively work to maintain order. They fight giants, manage cosmic forces, and struggle against entropy. Yet their efforts are not permanent—Ragnarok will come, the cosmos will end, and they know it. This is fundamentally different from a cosmology where gods maintain eternal, stable order.
 
-  - type: multiple-choice
-    question: "What is the primary function of Yggdrasil (the World Tree) in Norse cosmology?"
-    options:
-      - "It is a decoration with no cosmological significance"
-      - "It serves as the central structure connecting and supporting the nine realms, embodying the interconnection of cosmic domains and the continuity of existence"
-      - "It is a symbol of the gods' power over nature"
-      - "It represents the boundary between the gods and humans"
-    correct: "B"
-    explanation: "Yggdrasil is not merely a symbol but a structural principle. The World Tree connects the nine realms—from the underworld (Niflheim) to the realm of humans (Midgard) to the realm of gods (Asgard). Creatures traverse its branches and roots; it shakes as cosmic forces move. It embodies the Norse understanding of reality as interconnected, unstable, and held together by a dynamic structure rather than static order."
+- question: What is the primary function of Yggdrasil (the World Tree) in Norse cosmology?
+  type: multiple-choice
+  options:
+  - It is a decoration with no cosmological significance
+  - It serves as the central structure connecting and supporting the nine realms, embodying the interconnection of cosmic domains and the continuity of existence
+  - It is a symbol of the gods' power over nature
+  - It represents the boundary between the gods and humans
+  answer: 1
+  explanation: Yggdrasil is not merely a symbol but a structural principle. The World Tree connects the nine realms—from the underworld (Niflheim) to the realm of humans (Midgard) to the realm of gods (Asgard). Creatures traverse its branches and roots; it shakes as cosmic forces move. It embodies the Norse understanding of reality as interconnected, unstable, and held together by a dynamic structure rather than static order.
 
-  - type: true-false
-    question: "Norse mythology presents a vision of the cosmos as eternally stable, where the gods' power ensures permanent order and harmony."
-    correct: false
-    explanation: "Norse cosmology is fundamentally cyclical and pessimistic by comparison to some other mythologies. The cosmos will end in Ragnarok; order is always threatened; stability is temporary. The gods maintain order through constant struggle, not through inherent authority."
+- question: Norse mythology presents a vision of the cosmos as eternally stable, where the gods' power ensures permanent order and harmony.
+  type: true-false
+  answer: false
+  explanation: Norse cosmology is fundamentally cyclical and pessimistic by comparison to some other mythologies. The cosmos will end in Ragnarok; order is always threatened; stability is temporary. The gods maintain order through constant struggle, not through inherent authority.
 
-  - type: true-false
-    question: "The Poetic Edda and Prose Edda are believed to represent unchanged recordings of ancient pre-Christian Norse oral traditions."
-    correct: false
-    explanation: "The Eddas were compiled in medieval Iceland (13th century) by Christian scribes preserving what remained of older oral traditions. The texts we have may have been altered, interpreted, or influenced by Christian worldviews. They represent a mediated rather than direct transmission of ancient tradition."
+- question: The Poetic Edda and Prose Edda are believed to represent unchanged recordings of ancient pre-Christian Norse oral traditions.
+  type: true-false
+  answer: false
+  explanation: The Eddas were compiled in medieval Iceland (13th century) by Christian scribes preserving what remained of older oral traditions. The texts we have may have been altered, interpreted, or influenced by Christian worldviews. They represent a mediated rather than direct transmission of ancient tradition.
 
-  - type: short-answer
-    question: "Explain how Norse cosmology differs fundamentally from cosmologies that present the gods as eternal maintainers of cosmic order."
-    explanation: "Norse cosmology presents cosmic order as inherently unstable and destined to fail. The Aesir are not divine architects maintaining a perfect cosmos but struggling warriors holding back entropy. They know, from prophecy, that Ragnarok will come—the cosmos will burn, the stars will vanish, the earth will sink into the sea, and the gods themselves will be destroyed. This creates a fundamentally different tone and philosophy. Rather than asking 'how does the divine maintain eternal order?' Norse mythology asks 'how do we struggle and find meaning knowing destruction is inevitable?' This reflects a cultural worldview shaped by harsh climates, unpredictable natural forces, and the precariousness of settlement in Scandinavia—a view where survival requires constant struggle against forces that ultimately cannot be defeated."
+- question: Explain how Norse cosmology differs fundamentally from cosmologies that present the gods as eternal maintainers of cosmic order.
+  type: short-answer
+  explanation: Norse cosmology presents cosmic order as inherently unstable and destined to fail. The Aesir are not divine architects maintaining a perfect cosmos but struggling warriors holding back entropy. They know, from prophecy, that Ragnarok will come—the cosmos will burn, the stars will vanish, the earth will sink into the sea, and the gods themselves will be destroyed. This creates a fundamentally different tone and philosophy. Rather than asking 'how does the divine maintain eternal order?' Norse mythology asks 'how do we struggle and find meaning knowing destruction is inevitable?' This reflects a cultural worldview shaped by harsh climates, unpredictable natural forces, and the precariousness of settlement in Scandinavia—a view where survival requires constant struggle against forces that ultimately cannot be defeated.
 ```
 
 ## Explainer

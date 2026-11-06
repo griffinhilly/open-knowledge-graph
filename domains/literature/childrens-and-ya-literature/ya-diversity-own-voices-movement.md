@@ -29,35 +29,39 @@ Research the #OwnVoices movement and debates around authenticity in representati
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What does the #OwnVoices movement prioritize in YA publishing?"
-    options:
-      - "All authors have equal capability to represent any identity"
-      - "Prioritizing representation of marginalized identities by authors with lived experience in those communities"
-      - "Representation doesn't matter in publishing"
-      - "Only certain identities deserve representation"
-    answer: 1
-    explanation: "The #OwnVoices movement advocates for marginalized authors telling stories centered on their own communities and experiences, arguing that lived experience brings authenticity and perspective outsiders may lack."
-  - question: "What questions does the #OwnVoices movement raise about authenticity and authorial authority?"
-    options:
-      - "It raises no questions"
-      - "Whether identity authenticity requires lived experience, what constitutes adequate insider knowledge, how to balance representation with artistic freedom, and what happens when authors have complex or contested identities"
-      - "Authenticity isn't relevant to publishing"
-      - "Only one identity is authentic"
-    answer: 1
-    explanation: "The movement has sparked productive debates about whether authentic representation requires lived experience, how to evaluate claims of insider knowledge, and how to account for intersectionality and complexity of identity."
+- question: 'What does the #OwnVoices movement prioritize in YA publishing?'
+  type: multiple-choice
+  options:
+  - All authors have equal capability to represent any identity
+  - Prioritizing representation of marginalized identities by authors with lived experience in those communities
+  - Representation doesn't matter in publishing
+  - Only certain identities deserve representation
+  answer: 1
+  explanation: 'The #OwnVoices movement advocates for marginalized authors telling stories centered on their own communities and experiences, arguing that lived experience brings authenticity and perspective outsiders may lack.'
 
-true-false:
-  - question: "True or False: The #OwnVoices movement argues that authors outside marginalized communities should never write about those communities."
-    answer: false
-    explanation: "False. The movement primarily advocates prioritizing and celebrating diverse authors, not necessarily excluding outside authors, though it raises questions about representation and authenticity."
-  - question: "True or False: Increased focus on diverse representation in YA publishing has affected which books get published, marketed, and celebrated."
-    answer: true
-    explanation: "True. Publishing industry shifts toward diversity have concretely affected acquisition decisions, marketing focus, and award consideration."
+- question: 'What questions does the #OwnVoices movement raise about authenticity and authorial authority?'
+  type: multiple-choice
+  options:
+  - It raises no questions
+  - Whether identity authenticity requires lived experience, what constitutes adequate insider knowledge, how to balance representation with artistic freedom, and what happens when authors have complex or contested identities
+  - Authenticity isn't relevant to publishing
+  - Only one identity is authentic
+  answer: 1
+  explanation: The movement has sparked productive debates about whether authentic representation requires lived experience, how to evaluate claims of insider knowledge, and how to account for intersectionality and complexity of identity.
 
-short-answer:
-  - question: "Consider the concept of 'authenticity' in representing a marginalized identity in YA literature. What might authentic representation require? What are complications or limitations of using 'authenticity' as an evaluation standard?"
-    explanation: "Your answer should grapple with the complexity of authenticity claims. Authentic representation might seem to require lived experience—a queer author writing about queer experience, a Black author writing about racism. Yet complications arise: identities are complex and intersecting; not all members of a community have identical experience; authors have artistic freedom to imagine beyond their experience; some people have multiple or contested identities. Additionally, evaluating 'authenticity' requires trust in claims of identity, can become gatekeeping, and raises questions about who gets to judge. Rather than authenticity as a simple requirement, a more useful framework might emphasize: diverse authors getting published and celebrated; sensitivity readers from communities represented; acknowledgment that no single work represents an entire community; recognition that different authors bring different perspectives. The point is understanding that #OwnVoices serves important advocacy functions while grappling with complexities in how we evaluate representation."
+- question: 'True or False: The #OwnVoices movement argues that authors outside marginalized communities should never write about those communities.'
+  type: true-false
+  answer: false
+  explanation: False. The movement primarily advocates prioritizing and celebrating diverse authors, not necessarily excluding outside authors, though it raises questions about representation and authenticity.
+
+- question: 'True or False: Increased focus on diverse representation in YA publishing has affected which books get published, marketed, and celebrated.'
+  type: true-false
+  answer: true
+  explanation: True. Publishing industry shifts toward diversity have concretely affected acquisition decisions, marketing focus, and award consideration.
+
+- question: Consider the concept of 'authenticity' in representing a marginalized identity in YA literature. What might authentic representation require? What are complications or limitations of using 'authenticity' as an evaluation standard?
+  type: short-answer
+  explanation: 'Your answer should grapple with the complexity of authenticity claims. Authentic representation might seem to require lived experience—a queer author writing about queer experience, a Black author writing about racism. Yet complications arise: identities are complex and intersecting; not all members of a community have identical experience; authors have artistic freedom to imagine beyond their experience; some people have multiple or contested identities. Additionally, evaluating ''authenticity'' requires trust in claims of identity, can become gatekeeping, and raises questions about who gets to judge. Rather than authenticity as a simple requirement, a more useful framework might emphasize: diverse authors getting published and celebrated; sensitivity readers from communities represented; acknowledgment that no single work represents an entire community; recognition that different authors bring different perspectives. The point is understanding that #OwnVoices serves important advocacy functions while grappling with complexities in how we evaluate representation.'
 ```
 
 ## Explainer

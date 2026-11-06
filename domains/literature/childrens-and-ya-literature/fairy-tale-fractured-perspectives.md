@@ -25,35 +25,39 @@ Fractured fairy tales deliberately destabilize traditional narratives by telling
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What is the primary purpose of retelling a fairy tale from a villain's perspective?"
-    options:
-      - "To create an inferior version of the original tale"
-      - "To reveal hidden assumptions in the original narrative and complicate reader sympathy by showing circumstances that motivated the villain's actions"
-      - "Villain retellings don't have any literary purpose"
-      - "To make the original story worse"
-    answer: 1
-    explanation: "Alternative perspective retellings, particularly from villain viewpoints, expose the original tale's ideology. The 'evil queen' in the original tale appears monstrous; retold from her perspective, her actions might seem motivated by self-preservation, political resistance, or circumstances the original narrative obscured."
-  - question: "What does it mean when a fractured fairy tale is 'metafictionally aware'?"
-    options:
-      - "It simply retells the original story word-for-word"
-      - "It acknowledges the existence of the original tale and deliberately diverges from it, using that awareness to interrogate the original's assumptions"
-      - "Metafiction has nothing to do with fractured tales"
-      - "It is not aware of anything"
-    answer: 1
-    explanation: "Metafictional awareness means the retelling acknowledges that it's a retelling—that another version exists—and uses that awareness to comment on the original. It's not simply a different version but a deliberately antagonistic one, in conversation with the original."
+- question: What is the primary purpose of retelling a fairy tale from a villain's perspective?
+  type: multiple-choice
+  options:
+  - To create an inferior version of the original tale
+  - To reveal hidden assumptions in the original narrative and complicate reader sympathy by showing circumstances that motivated the villain's actions
+  - Villain retellings don't have any literary purpose
+  - To make the original story worse
+  answer: 1
+  explanation: Alternative perspective retellings, particularly from villain viewpoints, expose the original tale's ideology. The 'evil queen' in the original tale appears monstrous; retold from her perspective, her actions might seem motivated by self-preservation, political resistance, or circumstances the original narrative obscured.
 
-true-false:
-  - question: "True or False: Fractured fairy tale retellings are a recent invention, with no precedent in literary tradition."
-    answer: false
-    explanation: "False. Alternative perspective retellings have long literary history. James Thurber's parodies, Roald Dahl's 'Revolting Rhymes,' and literary retellings like 'Grendel' demonstrate substantial precedent."
-  - question: "True or False: A fractured fairy tale that makes readers sympathize with the villain can be more effective at revealing the original tale's ideology than straightforward criticism."
-    answer: true
-    explanation: "True. By making the villain's perspective emotionally compelling and morally understandable, retellings make ideological critique unavoidable—readers cannot dismiss the villain's point of view as simply evil."
+- question: What does it mean when a fractured fairy tale is 'metafictionally aware'?
+  type: multiple-choice
+  options:
+  - It simply retells the original story word-for-word
+  - It acknowledges the existence of the original tale and deliberately diverges from it, using that awareness to interrogate the original's assumptions
+  - Metafiction has nothing to do with fractured tales
+  - It is not aware of anything
+  answer: 1
+  explanation: Metafictional awareness means the retelling acknowledges that it's a retelling—that another version exists—and uses that awareness to comment on the original. It's not simply a different version but a deliberately antagonistic one, in conversation with the original.
 
-short-answer:
-  - question: "Choose a fairy tale you know. Describe how retelling a significant event from a marginal character's perspective would reveal different interpretations of events and motivations."
-    explanation: "Your answer should show how shifting perspective destabilizes the original narrative. For example, 'Cinderella' told from the stepsisters' perspective might reveal their genuine economic desperation (their social status depends on advantageous marriages), their realistic assessment that Cinderella's beauty threatens their prospects, and their surprise at her magical transformation and marriage. This doesn't justify cruelty, but it complicates the original tale's moral simplicity. Or consider 'Sleeping Beauty' from the Evil Fairy's perspective: what wrong did the royal family commit that motivated her curse? What does this reveal about the original tale's assumptions about power and entitlement? The point is that alternative perspectives don't erase the original but add dimensions that complicate reader understanding."
+- question: 'True or False: Fractured fairy tale retellings are a recent invention, with no precedent in literary tradition.'
+  type: true-false
+  answer: false
+  explanation: False. Alternative perspective retellings have long literary history. James Thurber's parodies, Roald Dahl's 'Revolting Rhymes,' and literary retellings like 'Grendel' demonstrate substantial precedent.
+
+- question: 'True or False: A fractured fairy tale that makes readers sympathize with the villain can be more effective at revealing the original tale''s ideology than straightforward criticism.'
+  type: true-false
+  answer: true
+  explanation: True. By making the villain's perspective emotionally compelling and morally understandable, retellings make ideological critique unavoidable—readers cannot dismiss the villain's point of view as simply evil.
+
+- question: Choose a fairy tale you know. Describe how retelling a significant event from a marginal character's perspective would reveal different interpretations of events and motivations.
+  type: short-answer
+  explanation: 'Your answer should show how shifting perspective destabilizes the original narrative. For example, ''Cinderella'' told from the stepsisters'' perspective might reveal their genuine economic desperation (their social status depends on advantageous marriages), their realistic assessment that Cinderella''s beauty threatens their prospects, and their surprise at her magical transformation and marriage. This doesn''t justify cruelty, but it complicates the original tale''s moral simplicity. Or consider ''Sleeping Beauty'' from the Evil Fairy''s perspective: what wrong did the royal family commit that motivated her curse? What does this reveal about the original tale''s assumptions about power and entitlement? The point is that alternative perspectives don''t erase the original but add dimensions that complicate reader understanding.'
 ```
 
 ## Explainer

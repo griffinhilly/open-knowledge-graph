@@ -24,36 +24,39 @@ Philip K. Dick's fiction explores questions of identity and reality in worlds wh
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What is the central epistemological problem in Dick's fiction?"
-    options:
-      - "Characters lack sufficient scientific knowledge"
-      - "Perception cannot be trusted, and characters discover false memories or simulated realities"
-      - "Characters are too intelligent for their own good"
-      - "There is no problem; characters easily understand reality"
-    correct_answer: 1
-    explanation: "The core idea states Dick 'explores questions of identity and reality in worlds where perception cannot be trusted,' making the unreliability of perception the fundamental problem."
-  - type: multiple-choice
-    question: "What discoveries typically destabilize Dick protagonists' sense of identity and reality?"
-    options:
-      - "Learning historical facts"
-      - "False memories, artificial identities, or simulated realities"
-      - "Reading books"
-      - "Making new friends"
-    correct_answer: 1
-    explanation: "The core idea specifically mentions protagonists 'discover false memories, artificial identities, or simulated realities,' identifying these revelations as destabilizing."
-  - type: true-false
-    question: "In Dick's fiction, technology is used to create false realities that characters must learn to distinguish from genuine experience."
-    correct_answer: true
-    explanation: "The core idea mentions 'technologically deceptive worlds,' indicating technology is the mechanism creating false perceptions and simulated realities."
-  - type: true-false
-    question: "Dick's exploration of identity assumes there is a stable, unchanging core self underneath false memories or artificial identities."
-    correct_answer: false
-    explanation: "Dick's fiction destabilizes identity by showing that memories and identity can be implanted or false, suggesting there may be no stable core self independent of what we remember or are told about ourselves."
-  - type: short-answer
-    question: "Why does the possibility that one's memories might be false or one's identity might be artificially constructed create existential crisis in Dick's fiction?"
-    explanation: "Good answers should explain that identity is typically constructed from memory and continuous selfhood. If memories can be implanted, you cannot trust your past. If identity is artificial, your sense of self is unstable. Without reliable memory and identity, the question 'what am I?' becomes genuinely unanswerable. This extends to reality itself—if identity can be false, what else about your perceived reality might be false?"
+- question: What is the central epistemological problem in Dick's fiction?
+  type: multiple-choice
+  options:
+  - Characters lack sufficient scientific knowledge
+  - Perception cannot be trusted, and characters discover false memories or simulated realities
+  - Characters are too intelligent for their own good
+  - There is no problem; characters easily understand reality
+  answer: 1
+  explanation: The core idea states Dick 'explores questions of identity and reality in worlds where perception cannot be trusted,' making the unreliability of perception the fundamental problem.
+
+- question: What discoveries typically destabilize Dick protagonists' sense of identity and reality?
+  type: multiple-choice
+  options:
+  - Learning historical facts
+  - False memories, artificial identities, or simulated realities
+  - Reading books
+  - Making new friends
+  answer: 1
+  explanation: The core idea specifically mentions protagonists 'discover false memories, artificial identities, or simulated realities,' identifying these revelations as destabilizing.
+
+- question: In Dick's fiction, technology is used to create false realities that characters must learn to distinguish from genuine experience.
+  type: true-false
+  answer: true
+  explanation: The core idea mentions 'technologically deceptive worlds,' indicating technology is the mechanism creating false perceptions and simulated realities.
+
+- question: Dick's exploration of identity assumes there is a stable, unchanging core self underneath false memories or artificial identities.
+  type: true-false
+  answer: false
+  explanation: Dick's fiction destabilizes identity by showing that memories and identity can be implanted or false, suggesting there may be no stable core self independent of what we remember or are told about ourselves.
+
+- question: Why does the possibility that one's memories might be false or one's identity might be artificially constructed create existential crisis in Dick's fiction?
+  type: short-answer
+  explanation: Good answers should explain that identity is typically constructed from memory and continuous selfhood. If memories can be implanted, you cannot trust your past. If identity is artificial, your sense of self is unstable. Without reliable memory and identity, the question 'what am I?' becomes genuinely unanswerable. This extends to reality itself—if identity can be false, what else about your perceived reality might be false?
 ```
 
 ## Explainer

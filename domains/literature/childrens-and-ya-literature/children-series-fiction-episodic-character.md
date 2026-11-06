@@ -27,35 +27,39 @@ Series fiction features recurring protagonists in episodic narratives, allowing 
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What structural advantage does series fiction provide that standalone novels cannot?"
-    options:
-      - "Series fiction is inherently better written than standalone novels"
-      - "It enables readers to build long-term relationships with characters, watching them develop across multiple books while each book remains relatively self-contained"
-      - "Series fiction eliminates character development"
-      - "Readers cannot develop loyalty to characters in standalone novels"
-    answer: 1
-    explanation: "Series structure allows readers to deepen relationships with characters over extended time, creating investment and loyalty that single books cannot achieve."
-  - question: "Why is the device of protagonists aging gradually alongside readers particularly significant in long-running series?"
-    options:
-      - "It prevents reader interest from flagging"
-      - "It creates a psychological alignment where readers and characters grow simultaneously, allowing readers to see themselves in characters at different life stages"
-      - "Characters should remain permanently static"
-      - "Reader age is irrelevant to series development"
-    answer: 1
-    explanation: "When protagonists age with readers—starting school, facing new challenges, maturing—readers see their own development reflected and validated in characters."
+- question: What structural advantage does series fiction provide that standalone novels cannot?
+  type: multiple-choice
+  options:
+  - Series fiction is inherently better written than standalone novels
+  - It enables readers to build long-term relationships with characters, watching them develop across multiple books while each book remains relatively self-contained
+  - Series fiction eliminates character development
+  - Readers cannot develop loyalty to characters in standalone novels
+  answer: 1
+  explanation: Series structure allows readers to deepen relationships with characters over extended time, creating investment and loyalty that single books cannot achieve.
 
-true-false:
-  - question: "True or False: In successful series fiction, each individual book is self-contained and can be read independently while still contributing to larger character arcs."
-    answer: true
-    explanation: "This is true. Series books balance episodic completeness with cumulative character development, allowing readers to pick up any book while understanding that characters are growing across the series."
-  - question: "True or False: Series fiction is designed primarily to increase author profits with no consideration for reader experience."
-    answer: false
-    explanation: "This is false. While publishing economics matter, well-crafted series fiction serves reader interests by enabling the long-term character relationships that make the format appealing."
+- question: Why is the device of protagonists aging gradually alongside readers particularly significant in long-running series?
+  type: multiple-choice
+  options:
+  - It prevents reader interest from flagging
+  - It creates a psychological alignment where readers and characters grow simultaneously, allowing readers to see themselves in characters at different life stages
+  - Characters should remain permanently static
+  - Reader age is irrelevant to series development
+  answer: 1
+  explanation: When protagonists age with readers—starting school, facing new challenges, maturing—readers see their own development reflected and validated in characters.
 
-short-answer:
-  - question: "How does the series format allow for a unique kind of reader-character relationship that cannot be achieved in standalone novels?"
-    explanation: "In a standalone novel, readers spend days or weeks with a character and then the relationship ends permanently. In a series, readers return to characters repeatedly across months or years, building deeper familiarity and investment. Readers develop genuine interest in how characters' lives unfold—they want to know what happens next not because of plot suspense but because they care about characters as ongoing presences. Additionally, series allow readers at different ages to find their entry point. A reader who discovers the series at age eight can continue reading as they age, watching the protagonist mature through the same series. This simultaneous aging creates powerful psychological identification—readers see their own development reflected in the protagonist's journey. Furthermore, series build reading practices: young readers who are loyal to a series develop reading habits and continue seeking new books. The emotional investment in returning to favorite characters motivates sustained engagement with reading itself."
+- question: 'True or False: In successful series fiction, each individual book is self-contained and can be read independently while still contributing to larger character arcs.'
+  type: true-false
+  answer: true
+  explanation: This is true. Series books balance episodic completeness with cumulative character development, allowing readers to pick up any book while understanding that characters are growing across the series.
+
+- question: 'True or False: Series fiction is designed primarily to increase author profits with no consideration for reader experience.'
+  type: true-false
+  answer: false
+  explanation: This is false. While publishing economics matter, well-crafted series fiction serves reader interests by enabling the long-term character relationships that make the format appealing.
+
+- question: How does the series format allow for a unique kind of reader-character relationship that cannot be achieved in standalone novels?
+  type: short-answer
+  explanation: 'In a standalone novel, readers spend days or weeks with a character and then the relationship ends permanently. In a series, readers return to characters repeatedly across months or years, building deeper familiarity and investment. Readers develop genuine interest in how characters'' lives unfold—they want to know what happens next not because of plot suspense but because they care about characters as ongoing presences. Additionally, series allow readers at different ages to find their entry point. A reader who discovers the series at age eight can continue reading as they age, watching the protagonist mature through the same series. This simultaneous aging creates powerful psychological identification—readers see their own development reflected in the protagonist''s journey. Furthermore, series build reading practices: young readers who are loyal to a series develop reading habits and continue seeking new books. The emotional investment in returning to favorite characters motivates sustained engagement with reading itself.'
 ```
 
 ## Explainer

@@ -27,39 +27,39 @@ Mailer's essays and reported pieces position the nonfiction writer as a public i
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What does it mean for a nonfiction writer to position themselves as 'public intellectual'?"
+- question: What does it mean for a nonfiction writer to position themselves as 'public intellectual'?
+  type: multiple-choice
   options:
-    - "Staying invisible and objective."
-    - "Willing to stake claims, provoke debate, and engage seriously with ideas in public view."
-    - "Only experts can be public intellectuals."
-    - "Public intellectuals don't write nonfiction."
+  - Staying invisible and objective.
+  - Willing to stake claims, provoke debate, and engage seriously with ideas in public view.
+  - Only experts can be public intellectuals.
+  - Public intellectuals don't write nonfiction.
   answer: 1
-  explanation: "A public intellectual isn't neutral. They make claims, argue positions, provoke people to think differently. Mailer's essays don't just report; they argue. They stake positions and invite readers into debate. The writer's intelligence and voice are front and center."
+  explanation: A public intellectual isn't neutral. They make claims, argue positions, provoke people to think differently. Mailer's essays don't just report; they argue. They stake positions and invite readers into debate. The writer's intelligence and voice are front and center.
 
-- type: multiple-choice
-  question: "How does Mailer's 'digressive, ego-driven style' work in his nonfiction?"
+- question: How does Mailer's 'digressive, ego-driven style' work in his nonfiction?
+  type: multiple-choice
   options:
-    - "It's a failure of discipline."
-    - "His personality, his tangents, his passionate engagement become part of the work's authority and appeal."
-    - "Egotism has no place in serious journalism."
-    - "Digression weakens argument."
+  - It's a failure of discipline.
+  - His personality, his tangents, his passionate engagement become part of the work's authority and appeal.
+  - Egotism has no place in serious journalism.
+  - Digression weakens argument.
   answer: 1
-  explanation: "Mailer doesn't hide behind false objectivity. His personality, his digressions, his ego are integral to his writing. When he reports on an event, he doesn't pretend to be invisible. He's present, thinking, arguing. This makes the work more human and often more compelling."
+  explanation: Mailer doesn't hide behind false objectivity. His personality, his digressions, his ego are integral to his writing. When he reports on an event, he doesn't pretend to be invisible. He's present, thinking, arguing. This makes the work more human and often more compelling.
 
-- type: true-false
-  statement: "True: Mailer demonstrates that in serious journalism, the writer's personality and argumentative force can strengthen rather than weaken credibility."
+- question: 'True: Mailer demonstrates that in serious journalism, the writer''s personality and argumentative force can strengthen rather than weaken credibility.'
+  type: true-false
   answer: true
-  explanation: "Traditional journalism tries to hide personality to seem objective. Mailer shows that transparency about perspective and personality can actually create more credible and compelling work. You're not being told to trust neutrality; you're asked to engage with a thinking mind."
+  explanation: Traditional journalism tries to hide personality to seem objective. Mailer shows that transparency about perspective and personality can actually create more credible and compelling work. You're not being told to trust neutrality; you're asked to engage with a thinking mind.
 
-- type: true-false
-  statement: "False: When the essayist is 'both witness and protagonist,' this means the essay is about the writer, not about the subject being reported on."
+- question: 'False: When the essayist is ''both witness and protagonist,'' this means the essay is about the writer, not about the subject being reported on.'
+  type: true-false
   answer: false
-  explanation: "This is false. Being both witness and protagonist doesn't mean the essay is purely self-centered. It means the writer's presence, reactions, and thinking are part of how the subject is understood. The subject remains important; the writer's engagement with it is also visible."
+  explanation: This is false. Being both witness and protagonist doesn't mean the essay is purely self-centered. It means the writer's presence, reactions, and thinking are part of how the subject is understood. The subject remains important; the writer's engagement with it is also visible.
 
-- type: short-answer
-  question: "How does Mailer's approach to the essay differ from traditional objective journalism? What does his approach offer?"
-  explanation: "Traditional objective journalism tries to disappear—the reporter is invisible, facts speak for themselves, the piece seems to be about the subject only. Mailer's journalism makes the reporter visible. His personality, his thinking, his reactions are part of the piece. He reports on an event but also reflects on it, argues about it, engages with it. This can seem less objective but is arguably more honest—it acknowledges that all reporting is perspectival. Readers aren't getting supposedly neutral facts; they're getting a thinking mind grappling with material. This can be more compelling and credible because it's transparent about perspective. It also makes the journalism more lively—Mailer's engaged passion makes the work vivid."
+- question: How does Mailer's approach to the essay differ from traditional objective journalism? What does his approach offer?
+  type: short-answer
+  explanation: Traditional objective journalism tries to disappear—the reporter is invisible, facts speak for themselves, the piece seems to be about the subject only. Mailer's journalism makes the reporter visible. His personality, his thinking, his reactions are part of the piece. He reports on an event but also reflects on it, argues about it, engages with it. This can seem less objective but is arguably more honest—it acknowledges that all reporting is perspectival. Readers aren't getting supposedly neutral facts; they're getting a thinking mind grappling with material. This can be more compelling and credible because it's transparent about perspective. It also makes the journalism more lively—Mailer's engaged passion makes the work vivid.
 ```
 
 ## Explainer

@@ -23,35 +23,39 @@ Successful fantasy establishes consistent rules governing magic: What are magic'
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "Why do well-constructed magic systems with clear rules create stronger fantasy narratives than systems where magic works arbitrarily?"
-    options:
-      - "Rules limit what magic can do and make the story less imaginative"
-      - "Arbitrary magic allows for more exciting plot twists without reader complaint"
-      - "Clear rules establish boundaries readers can understand, enabling them to anticipate consequences and appreciate protagonists' clever use of magic within constraints"
-      - "Rules make magic boring and predictable"
-    answer: 2
-    explanation: "When magic operates according to consistent rules, readers can track how characters might solve problems within those constraints, creating satisfying plot development where solutions feel earned rather than arbitrary."
-  - question: "What aspect of a magic system is most important for maintaining narrative credibility in children's fantasy?"
-    options:
-      - "Magic should be as powerful as possible with no limitations"
-      - "Consistent application of established rules regardless of narrative convenience"
-      - "Magic rules can change whenever the plot requires"
-      - "The more powerful and unrestricted the magic, the better"
-    answer: 1
-    explanation: "Credibility depends on consistency—if magic works one way in one chapter and differently in another for plot convenience, readers lose trust in the story world."
+- question: Why do well-constructed magic systems with clear rules create stronger fantasy narratives than systems where magic works arbitrarily?
+  type: multiple-choice
+  options:
+  - Rules limit what magic can do and make the story less imaginative
+  - Arbitrary magic allows for more exciting plot twists without reader complaint
+  - Clear rules establish boundaries readers can understand, enabling them to anticipate consequences and appreciate protagonists' clever use of magic within constraints
+  - Rules make magic boring and predictable
+  answer: 2
+  explanation: When magic operates according to consistent rules, readers can track how characters might solve problems within those constraints, creating satisfying plot development where solutions feel earned rather than arbitrary.
 
-true-false:
-  - question: "True or False: A well-developed magic system includes not just what magic can do but also its costs, limits, and how characters acquire magical ability."
-    answer: true
-    explanation: "This is true. Complete magic systems define not only magical capabilities but also limitations, prices, and the mechanisms for learning or wielding magic."
-  - question: "True or False: Rules for magic are more important to adult fantasy than children's fantasy."
-    answer: false
-    explanation: "This is false. Clear magic system rules are equally important to children's fantasy—arguably more so, since children's brains are still developing systematic thinking and benefit from clear logic."
+- question: What aspect of a magic system is most important for maintaining narrative credibility in children's fantasy?
+  type: multiple-choice
+  options:
+  - Magic should be as powerful as possible with no limitations
+  - Consistent application of established rules regardless of narrative convenience
+  - Magic rules can change whenever the plot requires
+  - The more powerful and unrestricted the magic, the better
+  answer: 1
+  explanation: Credibility depends on consistency—if magic works one way in one chapter and differently in another for plot convenience, readers lose trust in the story world.
 
-short-answer:
-  - question: "How does establishing clear rules for a magic system actually enable more creative plot development rather than limiting it?"
-    explanation: "Clear magic system rules create a bounded design space where authors and readers can anticipate how magical tools might be used in novel combinations. If magic works arbitrarily, an author can solve any problem by inventing new magical powers, making plot development feel arbitrary. But if magic operates according to established rules with known limits and costs, authors must find creative solutions that work within constraints—which creates more satisfying narratives because solutions feel earned. Additionally, readers who understand the magic system's rules can actively imagine solutions alongside protagonists, creating engagement and anticipation. When a protagonist uses magic in a clever way that honors system rules but the reader hadn't anticipated, the solution feels creative rather than cheating. Constraints actually enable creativity by requiring inventiveness within boundaries."
+- question: 'True or False: A well-developed magic system includes not just what magic can do but also its costs, limits, and how characters acquire magical ability.'
+  type: true-false
+  answer: true
+  explanation: This is true. Complete magic systems define not only magical capabilities but also limitations, prices, and the mechanisms for learning or wielding magic.
+
+- question: 'True or False: Rules for magic are more important to adult fantasy than children''s fantasy.'
+  type: true-false
+  answer: false
+  explanation: This is false. Clear magic system rules are equally important to children's fantasy—arguably more so, since children's brains are still developing systematic thinking and benefit from clear logic.
+
+- question: How does establishing clear rules for a magic system actually enable more creative plot development rather than limiting it?
+  type: short-answer
+  explanation: Clear magic system rules create a bounded design space where authors and readers can anticipate how magical tools might be used in novel combinations. If magic works arbitrarily, an author can solve any problem by inventing new magical powers, making plot development feel arbitrary. But if magic operates according to established rules with known limits and costs, authors must find creative solutions that work within constraints—which creates more satisfying narratives because solutions feel earned. Additionally, readers who understand the magic system's rules can actively imagine solutions alongside protagonists, creating engagement and anticipation. When a protagonist uses magic in a clever way that honors system rules but the reader hadn't anticipated, the solution feels creative rather than cheating. Constraints actually enable creativity by requiring inventiveness within boundaries.
 ```
 
 ## Explainer

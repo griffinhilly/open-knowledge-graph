@@ -32,35 +32,40 @@ Identify objects or images that repeat in a story and ask: Why does the author k
 ## Questions
 
 ```yaml
-- question: "In a story, a character inherits a tarnished old mirror from their grandmother. Throughout the story, the character slowly polishes and restores the mirror. By the end, the mirror is gleaming and reflects light brightly. What is this mirror most likely symbolizing?"
+- question: In a story, a character inherits a tarnished old mirror from their grandmother. Throughout the story, the character slowly polishes and restores the mirror. By the end, the mirror is gleaming and reflects light brightly. What is this mirror most likely symbolizing?
+  type: multiple-choice
   options:
-    - "The importance of cleaning and maintaining objects"
-    - "The character's internal journey of healing and self-discovery through caring for their heritage"
-    - "That mirrors are valuable antiques"
-    - "The passage of time"
+  - The importance of cleaning and maintaining objects
+  - The character's internal journey of healing and self-discovery through caring for their heritage
+  - That mirrors are valuable antiques
+  - The passage of time
   answer: 1
-  explanation: "A symbol is something physical that represents something deeper. The mirror's transformation from tarnished to gleaming parallels the character's internal transformation. The character's effort to restore the mirror mirrors (pun intended) their effort to heal themselves. This is symbolic—the physical object represents emotional growth."
+  explanation: A symbol is something physical that represents something deeper. The mirror's transformation from tarnished to gleaming parallels the character's internal transformation. The character's effort to restore the mirror mirrors (pun intended) their effort to heal themselves. This is symbolic—the physical object represents emotional growth.
 
-- question: "A highway appears repeatedly in a story: at the beginning, a character must cross it to start their journey; in the middle, they nearly get hit by a car on it; at the end, they stand confidently in the middle of the highway before safely crossing. What does the highway symbolize in this story?"
+- question: 'A highway appears repeatedly in a story: at the beginning, a character must cross it to start their journey; in the middle, they nearly get hit by a car on it; at the end, they stand confidently in the middle of the highway before safely crossing. What does the highway symbolize in this story?'
+  type: multiple-choice
   options:
-    - "The danger of driving"
-    - "The journey itself and the character's changing relationship to taking risks and moving forward"
-    - "That highways are important"
-    - "The setting where dangerous events happen"
+  - The danger of driving
+  - The journey itself and the character's changing relationship to taking risks and moving forward
+  - That highways are important
+  - The setting where dangerous events happen
   answer: 1
-  explanation: "The highway's repeated appearance and the character's changing relationship to it suggests it symbolizes the character's journey and their growth in confidence. At first, crossing is daunting; later, the character risks danger; finally, they move across confidently. The highway represents the character's path and growth."
+  explanation: The highway's repeated appearance and the character's changing relationship to it suggests it symbolizes the character's journey and their growth in confidence. At first, crossing is daunting; later, the character risks danger; finally, they move across confidently. The highway represents the character's path and growth.
 
-- question: "True or False: Every object in a story is a symbol of something deeper."
+- question: 'True or False: Every object in a story is a symbol of something deeper.'
+  type: true-false
   answer: false
-  explanation: "Sometimes a lamp is just a lamp. Not every detail is symbolic. Symbols are objects or elements that the story emphasizes, repeats, or deliberately connects to deeper meaning. Random details are not necessarily symbols."
+  explanation: Sometimes a lamp is just a lamp. Not every detail is symbolic. Symbols are objects or elements that the story emphasizes, repeats, or deliberately connects to deeper meaning. Random details are not necessarily symbols.
 
-- question: "True or False: A symbol has only one correct meaning that the author intends."
+- question: 'True or False: A symbol has only one correct meaning that the author intends.'
+  type: true-false
   answer: false
-  explanation: "Symbols can have multiple layers of meaning. A storm might symbolize both chaos and cleansing. A bird might represent freedom, transcendence, fragility, or hope depending on context. Readers can interpret symbols differently while all being valid interpretations."
+  explanation: Symbols can have multiple layers of meaning. A storm might symbolize both chaos and cleansing. A bird might represent freedom, transcendence, fragility, or hope depending on context. Readers can interpret symbols differently while all being valid interpretations.
 
-- question: "A character finds a beautiful blue bird trapped in a cage. They release the bird, which flies away. Later, the character makes a risky choice to leave their oppressive job. What is the blue bird symbolizing? Could it mean something else depending on the story's context?"
-  answer: "The blue bird most likely symbolizes freedom and liberation. The character's choice to release the bird parallels their choice to free themselves from an oppressive situation. However, depending on the story's deeper themes, the bird could symbolize other concepts: lost innocence (if the bird was harmed), hope and possibility, or the bittersweet cost of freedom (if the bird's fate is uncertain). The core meaning relates to freedom, but the full significance depends on how the story treats the bird and how the character's liberation unfolds."
-  explanation: "This tests understanding that symbols carry meaning through context and can layer multiple meanings. Students should recognize that the same symbol can suggest different ideas depending on what happens around it and what the larger story emphasizes."
+- question: A character finds a beautiful blue bird trapped in a cage. They release the bird, which flies away. Later, the character makes a risky choice to leave their oppressive job. What is the blue bird symbolizing? Could it mean something else depending on the story's context?
+  type: short-answer
+  answer: 'The blue bird most likely symbolizes freedom and liberation. The character''s choice to release the bird parallels their choice to free themselves from an oppressive situation. However, depending on the story''s deeper themes, the bird could symbolize other concepts: lost innocence (if the bird was harmed), hope and possibility, or the bittersweet cost of freedom (if the bird''s fate is uncertain). The core meaning relates to freedom, but the full significance depends on how the story treats the bird and how the character''s liberation unfolds.'
+  explanation: This tests understanding that symbols carry meaning through context and can layer multiple meanings. Students should recognize that the same symbol can suggest different ideas depending on what happens around it and what the larger story emphasizes.
 ```
 
 ## Explainer

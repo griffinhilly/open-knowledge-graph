@@ -33,40 +33,40 @@ Make flashcards with tempo words and their meanings. Listen to pieces labeled al
 ## Questions
 
 ```yaml
-- question: "What does 'allegro' mean in music?"
-  type: mc
+- question: What does 'allegro' mean in music?
+  type: multiple-choice
   options:
-    - "Slowly"
-    - "Fast and lively"
-    - "Medium speed"
-    - "Getting faster"
+  - Slowly
+  - Fast and lively
+  - Medium speed
+  - Getting faster
   answer: 1
-  explanation: "Allegro is an Italian word meaning fast and lively. It tells musicians to play at an energetic, brisk speed."
+  explanation: Allegro is an Italian word meaning fast and lively. It tells musicians to play at an energetic, brisk speed.
 
-- question: "Adagio is a faster tempo than allegro."
-  type: tf
+- question: Adagio is a faster tempo than allegro.
+  type: true-false
   answer: false
-  explanation: "No, adagio is much slower. Adagio means slowly and calmly. Allegro is fast and lively by comparison."
+  explanation: No, adagio is much slower. Adagio means slowly and calmly. Allegro is fast and lively by comparison.
 
-- question: "When a musician sees 'allegro' written in their music, what should they do?"
-  type: mc
+- question: When a musician sees 'allegro' written in their music, what should they do?
+  type: multiple-choice
   options:
-    - "Play softly"
-    - "Play with expression"
-    - "Play at a fast, lively tempo"
-    - "Play one note at a time"
+  - Play softly
+  - Play with expression
+  - Play at a fast, lively tempo
+  - Play one note at a time
   answer: 2
-  explanation: "Allegro tells the musician to play fast and lively, with energy and forward motion."
+  explanation: Allegro tells the musician to play fast and lively, with energy and forward motion.
 
-- question: "The words allegro and adagio are English words that musicians use everywhere."
-  type: tf
+- question: The words allegro and adagio are English words that musicians use everywhere.
+  type: true-false
   answer: false
-  explanation: "They're actually Italian words, but musicians all over the world use them because of music's international history."
+  explanation: They're actually Italian words, but musicians all over the world use them because of music's international history.
 
-- question: "Give an example of when you might use allegro tempo and when you might use adagio tempo."
-  type: sa
-  answer: "Allegro for a fast, happy dance; adagio for a slow, peaceful lullaby or sad song."
-  explanation: "A good answer shows understanding that allegro is for lively, energetic music and adagio is for slow, calm music."
+- question: Give an example of when you might use allegro tempo and when you might use adagio tempo.
+  type: short-answer
+  answer: Allegro for a fast, happy dance; adagio for a slow, peaceful lullaby or sad song.
+  explanation: A good answer shows understanding that allegro is for lively, energetic music and adagio is for slow, calm music.
 ```
 
 ## Explainer

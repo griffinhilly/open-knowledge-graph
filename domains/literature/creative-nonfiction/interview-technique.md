@@ -24,39 +24,39 @@ Interviewing for nonfiction requires preparation, active listening, follow-up qu
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What is the purpose of 'asking questions that deepen rather than direct answers'?"
+- question: What is the purpose of 'asking questions that deepen rather than direct answers'?
+  type: multiple-choice
   options:
-    - "To confuse the subject."
-    - "To allow the subject to develop their own thinking and reveal authentic perspectives rather than simply answering what the interviewer expects."
-    - "To make interviews shorter."
-    - "To hide the interviewer's intentions."
+  - To confuse the subject.
+  - To allow the subject to develop their own thinking and reveal authentic perspectives rather than simply answering what the interviewer expects.
+  - To make interviews shorter.
+  - To hide the interviewer's intentions.
   answer: 1
-  explanation: "Open-ended questions that invite exploration elicit more authentic and thoughtful responses than leading questions that suggest answers. 'Tell me about that experience' gets different material than 'Was that experience difficult?' The first allows the subject's own framing; the second directs toward a predetermined answer."
+  explanation: Open-ended questions that invite exploration elicit more authentic and thoughtful responses than leading questions that suggest answers. 'Tell me about that experience' gets different material than 'Was that experience difficult?' The first allows the subject's own framing; the second directs toward a predetermined answer.
 
-- type: multiple-choice
-  question: "What does 'active listening' mean in the context of interviewing?"
+- question: What does 'active listening' mean in the context of interviewing?
+  type: multiple-choice
   options:
-    - "Passively recording whatever the subject says."
-    - "Listening not just to answer prepared questions but to follow the subject's thinking, noticing what matters to them, asking follow-up questions based on what emerges."
-    - "Planning the next question while the subject is speaking."
-    - "Listening doesn't matter in interviews."
+  - Passively recording whatever the subject says.
+  - Listening not just to answer prepared questions but to follow the subject's thinking, noticing what matters to them, asking follow-up questions based on what emerges.
+  - Planning the next question while the subject is speaking.
+  - Listening doesn't matter in interviews.
   answer: 1
-  explanation: "Active listening means you're genuinely engaged in the conversation. You hear what the subject says and respond to it. You notice which topics matter to them, which ideas energize them. You follow threads rather than rigidly sticking to prepared questions. This often yields the most meaningful material."
+  explanation: Active listening means you're genuinely engaged in the conversation. You hear what the subject says and respond to it. You notice which topics matter to them, which ideas energize them. You follow threads rather than rigidly sticking to prepared questions. This often yields the most meaningful material.
 
-- type: true-false
-  statement: "True: Preparation for interviews should include research on the subject and thought about what you want to learn, but should remain flexible enough to follow where the conversation leads."
+- question: 'True: Preparation for interviews should include research on the subject and thought about what you want to learn, but should remain flexible enough to follow where the conversation leads.'
+  type: true-false
   answer: true
-  explanation: "Good preparation means you know enough to ask informed questions. But the best interviews are conversations, not interrogations. You need to be ready to abandon your prepared questions if something more interesting emerges. Flexibility serves the interview better than rigid adherence to a script."
+  explanation: Good preparation means you know enough to ask informed questions. But the best interviews are conversations, not interrogations. You need to be ready to abandon your prepared questions if something more interesting emerges. Flexibility serves the interview better than rigid adherence to a script.
 
-- type: true-false
-  statement: "False: When reconstructing dialogue from memory or notes, writers can invent details or words to make the quote more engaging as long as the general meaning is preserved."
+- question: 'False: When reconstructing dialogue from memory or notes, writers can invent details or words to make the quote more engaging as long as the general meaning is preserved.'
+  type: true-false
   answer: false
-  explanation: "This is false. Writers must be scrupulous about distinguishing between quoted material (which should be as accurate as possible) and paraphrased material (which allows more flexibility). Inventing details or words violates the ethical responsibility to truthfulness. Good writers are transparent about what's quoted versus paraphrased."
+  explanation: This is false. Writers must be scrupulous about distinguishing between quoted material (which should be as accurate as possible) and paraphrased material (which allows more flexibility). Inventing details or words violates the ethical responsibility to truthfulness. Good writers are transparent about what's quoted versus paraphrased.
 
-- type: short-answer
-  question: "What techniques might help an interviewer draw out authentic voice and significant detail rather than surface-level responses?"
-  explanation: "Preparation: research the subject so you can ask informed, specific questions. Open-ended questions: avoid yes-no questions that kill conversation. Follow-up: when something interesting emerges, pursue it rather than moving to the next prepared question. Silence: sometimes the most powerful interviewing technique is staying quiet. After the subject answers, silence often prompts them to elaborate. Specificity: ask about concrete moments and details, not abstractions. 'Tell me about a time you...' works better than 'How do you generally...' Active listening: genuinely engage with what's being said. Let your natural curiosity guide follow-up questions. Building trust: explain who you are, why you're interested, how the material will be used. Subjects reveal more to people they trust. Vulnerability: sometimes asking how something affected you, not just what happened, opens doors to deeper response."
+- question: What techniques might help an interviewer draw out authentic voice and significant detail rather than surface-level responses?
+  type: short-answer
+  explanation: 'Preparation: research the subject so you can ask informed, specific questions. Open-ended questions: avoid yes-no questions that kill conversation. Follow-up: when something interesting emerges, pursue it rather than moving to the next prepared question. Silence: sometimes the most powerful interviewing technique is staying quiet. After the subject answers, silence often prompts them to elaborate. Specificity: ask about concrete moments and details, not abstractions. ''Tell me about a time you...'' works better than ''How do you generally...'' Active listening: genuinely engage with what''s being said. Let your natural curiosity guide follow-up questions. Building trust: explain who you are, why you''re interested, how the material will be used. Subjects reveal more to people they trust. Vulnerability: sometimes asking how something affected you, not just what happened, opens doors to deeper response.'
 ```
 
 ## Explainer

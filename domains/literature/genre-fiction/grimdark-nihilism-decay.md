@@ -27,36 +27,39 @@ Grimdark fantasy presents worlds where morality is irrelevant or inverted, where
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What is the fundamental worldview of grimdark fantasy?"
-    options:
-      - "Good ultimately triumphs over evil through heroic effort"
-      - "Morality is irrelevant or inverted; all actors pursue power, survival, or advantage"
-      - "Society gradually improves through enlightenment and reason"
-      - "Individual virtue is the most important force in the world"
-    correct_answer: 1
-    explanation: "The core idea explicitly states that grimdark 'rejects the concept of meaningful good and evil; all actors pursue power, survival, or advantage,' defining the genre's fundamental moral stance."
-  - type: multiple-choice
-    question: "What does grimdark fiction emphasize about the consequences of power and violence?"
-    options:
-      - "They are necessary evils that lead to eventual good outcomes"
-      - "The visceral consequences of violence, power's corrupting nature, and the futility of idealism in a rotting system"
-      - "Violence is glorious and power ennobles those who wield it"
-      - "These consequences are unimportant to the narrative"
-    correct_answer: 1
-    explanation: "The core idea lists three key emphases: 'the visceral consequences of violence, power's corrupting nature, and the futility of idealism in a rotting system,' showing grimdark's serious engagement with violence and degradation."
-  - type: true-false
-    question: "In grimdark fiction, characters can maintain meaningful moral principles that guide their actions throughout the narrative."
-    correct_answer: false
-    explanation: "The core idea states that grimdark 'rejects the concept of meaningful good and evil' and emphasizes 'the futility of idealism in a rotting system,' indicating that meaningful morality is undermined in grimdark worlds."
-  - type: true-false
-    question: "Grimdark fantasy emphasizes decay and corruption as central features of its worlds."
-    correct_answer: true
-    explanation: "The core idea describes grimdark worlds as spaces 'amid decay and corruption' where systems are 'rotting,' making decay a defining feature of grimdark settings."
-  - type: short-answer
-    question: "How does grimdark's rejection of meaningful morality differ from simply telling a story with morally compromised characters?"
-    explanation: "A good answer should recognize that grimdark rejects the framework of morality itself—not just portraying flawed characters trying to do right, but questioning whether 'right' is even a meaningful concept. In grimdark, the system itself is corrupt and corrupting, and attempting to maintain idealistic principles is presented as futile. This is darker than moral compromise—it's moral nihilism embedded in the worldview. Students should show understanding that grimdark's pessimism is structural, not incidental."
+- question: What is the fundamental worldview of grimdark fantasy?
+  type: multiple-choice
+  options:
+  - Good ultimately triumphs over evil through heroic effort
+  - Morality is irrelevant or inverted; all actors pursue power, survival, or advantage
+  - Society gradually improves through enlightenment and reason
+  - Individual virtue is the most important force in the world
+  answer: 1
+  explanation: The core idea explicitly states that grimdark 'rejects the concept of meaningful good and evil; all actors pursue power, survival, or advantage,' defining the genre's fundamental moral stance.
+
+- question: What does grimdark fiction emphasize about the consequences of power and violence?
+  type: multiple-choice
+  options:
+  - They are necessary evils that lead to eventual good outcomes
+  - The visceral consequences of violence, power's corrupting nature, and the futility of idealism in a rotting system
+  - Violence is glorious and power ennobles those who wield it
+  - These consequences are unimportant to the narrative
+  answer: 1
+  explanation: 'The core idea lists three key emphases: ''the visceral consequences of violence, power''s corrupting nature, and the futility of idealism in a rotting system,'' showing grimdark''s serious engagement with violence and degradation.'
+
+- question: In grimdark fiction, characters can maintain meaningful moral principles that guide their actions throughout the narrative.
+  type: true-false
+  answer: false
+  explanation: The core idea states that grimdark 'rejects the concept of meaningful good and evil' and emphasizes 'the futility of idealism in a rotting system,' indicating that meaningful morality is undermined in grimdark worlds.
+
+- question: Grimdark fantasy emphasizes decay and corruption as central features of its worlds.
+  type: true-false
+  answer: true
+  explanation: The core idea describes grimdark worlds as spaces 'amid decay and corruption' where systems are 'rotting,' making decay a defining feature of grimdark settings.
+
+- question: How does grimdark's rejection of meaningful morality differ from simply telling a story with morally compromised characters?
+  type: short-answer
+  explanation: A good answer should recognize that grimdark rejects the framework of morality itself—not just portraying flawed characters trying to do right, but questioning whether 'right' is even a meaningful concept. In grimdark, the system itself is corrupt and corrupting, and attempting to maintain idealistic principles is presented as futile. This is darker than moral compromise—it's moral nihilism embedded in the worldview. Students should show understanding that grimdark's pessimism is structural, not incidental.
 ```
 
 ## Explainer

@@ -33,39 +33,39 @@ Formal constraint in lüshi does not limit meaning but intensifies it. The stric
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What is the distinctive feature of lüshi (regulated verse) that sets it apart from other Chinese poetic forms?"
+- question: What is the distinctive feature of lüshi (regulated verse) that sets it apart from other Chinese poetic forms?
+  type: multiple-choice
   options:
-    - "It abandons all formal rules in favor of free expression"
-    - "It imposes strict requirements on line length, tonal patterns, rhyme scheme, and parallelism, particularly demanding that middle couplets mirror each other in syntax and antithetical meaning"
-    - "It allows poets to write on any topic without constraint"
-    - "It was invented in the modern era as a rebellion against traditional poetry"
+  - It abandons all formal rules in favor of free expression
+  - It imposes strict requirements on line length, tonal patterns, rhyme scheme, and parallelism, particularly demanding that middle couplets mirror each other in syntax and antithetical meaning
+  - It allows poets to write on any topic without constraint
+  - It was invented in the modern era as a rebellion against traditional poetry
   answer: 1
-  explanation: "Lüshi is defined by its formal rigor. An eight-line lüshi poem follows strict rules: each line has a specific number of characters (typically five or seven); the tonal pattern must follow specific rules where certain positions require level tones and others require oblique tones; rhyme is required at specific positions; and the middle couplets (lines 3-4 and 5-6) must display parallelism—their syntax mirrors each other, and their meanings are typically antithetical or complementary. These rules are not flexible; violating them means the poem is not lüshi. The form's rigor is not a limitation but its defining feature. These constraints force the poet to achieve meaning through precision, compression, and careful word selection, where every word must satisfy multiple formal and semantic demands."
+  explanation: 'Lüshi is defined by its formal rigor. An eight-line lüshi poem follows strict rules: each line has a specific number of characters (typically five or seven); the tonal pattern must follow specific rules where certain positions require level tones and others require oblique tones; rhyme is required at specific positions; and the middle couplets (lines 3-4 and 5-6) must display parallelism—their syntax mirrors each other, and their meanings are typically antithetical or complementary. These rules are not flexible; violating them means the poem is not lüshi. The form''s rigor is not a limitation but its defining feature. These constraints force the poet to achieve meaning through precision, compression, and careful word selection, where every word must satisfy multiple formal and semantic demands.'
 
-- type: multiple-choice
-  question: "How does the requirement for parallelism in lüshi couplets function in the poem's meaning-making?"
+- question: How does the requirement for parallelism in lüshi couplets function in the poem's meaning-making?
+  type: multiple-choice
   options:
-    - "Parallelism is merely decorative and has no significance for meaning"
-    - "Parallelism creates antithetical or complementary meanings where two lines mirror each other syntactically while expressing related or contrasting ideas, allowing simultaneous exploration of multiple perspectives"
-    - "Parallelism makes the poem less coherent and harder to understand"
-    - "Only one couplet can have parallel structure; the other must have no relationship"
+  - Parallelism is merely decorative and has no significance for meaning
+  - Parallelism creates antithetical or complementary meanings where two lines mirror each other syntactically while expressing related or contrasting ideas, allowing simultaneous exploration of multiple perspectives
+  - Parallelism makes the poem less coherent and harder to understand
+  - Only one couplet can have parallel structure; the other must have no relationship
   answer: 1
-  explanation: "The parallelism requirement in lüshi is fundamental to how the form generates meaning. When two lines mirror each other syntactically while expressing antithetical or complementary ideas, the poem can hold multiple perspectives or ideas in tension. For example, a couplet might depict two opposite emotional states expressed through parallel syntax, or show two versions of a situation through mirrored structure. The parallelism forces the poet to think about relationships between ideas—how can two different ideas be held in the same structural form? This constraint creates intellectual and emotional depth. The reader recognizes that the parallelism is intentional and creates meaning by juxtaposition: the relationship between the two lines becomes part of the poem's significance."
+  explanation: 'The parallelism requirement in lüshi is fundamental to how the form generates meaning. When two lines mirror each other syntactically while expressing antithetical or complementary ideas, the poem can hold multiple perspectives or ideas in tension. For example, a couplet might depict two opposite emotional states expressed through parallel syntax, or show two versions of a situation through mirrored structure. The parallelism forces the poet to think about relationships between ideas—how can two different ideas be held in the same structural form? This constraint creates intellectual and emotional depth. The reader recognizes that the parallelism is intentional and creates meaning by juxtaposition: the relationship between the two lines becomes part of the poem''s significance.'
 
-- type: true-false
-  statement: "The strict formal requirements of lüshi limit the poet's ability to express complex ideas; therefore, lüshi poems tend to be simpler in meaning than poems in less constrained forms."
+- question: The strict formal requirements of lüshi limit the poet's ability to express complex ideas; therefore, lüshi poems tend to be simpler in meaning than poems in less constrained forms.
+  type: true-false
   answer: false
-  explanation: "This reverses the actual relationship between constraint and meaning. Strict formal requirements in lüshi force extreme compression and precision—every word must do multiple kinds of work simultaneously. The poet cannot waste words on clarification or explanation; every word must carry semantic weight, fit the tonal pattern, and contribute to imagery or formal structure. This compression intensifies rather than simplifies meaning. A lüshi poem, though brief, can express ideas as complex as longer poems in less constrained forms because the formal demands force the poet to achieve maximum density of meaning. The form does not limit meaning; it intensifies meaning through constraint."
+  explanation: This reverses the actual relationship between constraint and meaning. Strict formal requirements in lüshi force extreme compression and precision—every word must do multiple kinds of work simultaneously. The poet cannot waste words on clarification or explanation; every word must carry semantic weight, fit the tonal pattern, and contribute to imagery or formal structure. This compression intensifies rather than simplifies meaning. A lüshi poem, though brief, can express ideas as complex as longer poems in less constrained forms because the formal demands force the poet to achieve maximum density of meaning. The form does not limit meaning; it intensifies meaning through constraint.
 
-- type: true-false
-  statement: "In lüshi, the tonal pattern requirements are arbitrary rules with no relationship to the poem's meanings."
+- question: In lüshi, the tonal pattern requirements are arbitrary rules with no relationship to the poem's meanings.
+  type: true-false
   answer: false
-  explanation: "The tonal patterns in lüshi are not arbitrary but connected to how Chinese language works. In Chinese, words have inherent tones (level, rising, departing, entering), and these tones have phonetic and aesthetic properties. The regulated patterns create a musical structure—certain sequences of tones sound harmonious; others create discord. By requiring specific tonal patterns, lüshi regulations force the poet to select words not only for meaning and parallelism requirements, but also for how they sound in relation to surrounding words. This means tonal patterns contribute to the poem's aesthetic impact and formal sophistication. The regulation is not arbitrary constraint but engagement with fundamental properties of the Chinese language itself."
+  explanation: The tonal patterns in lüshi are not arbitrary but connected to how Chinese language works. In Chinese, words have inherent tones (level, rising, departing, entering), and these tones have phonetic and aesthetic properties. The regulated patterns create a musical structure—certain sequences of tones sound harmonious; others create discord. By requiring specific tonal patterns, lüshi regulations force the poet to select words not only for meaning and parallelism requirements, but also for how they sound in relation to surrounding words. This means tonal patterns contribute to the poem's aesthetic impact and formal sophistication. The regulation is not arbitrary constraint but engagement with fundamental properties of the Chinese language itself.
 
-- type: short-answer
-  question: "How does the formal density of lüshi—where every word must satisfy semantic, tonal, and formal demands simultaneously—affect what kinds of meanings lüshi poetry can express?"
-  explanation: "Because every word in lüshi must work on multiple levels, the form is particularly suited to expressing meanings that benefit from compression, suggestion, and juxtaposition rather than explicit statement. A single image in a lüshi poem, carefully selected to fit tonal requirements and parallelism structures, can carry profound meaning precisely because it must be so carefully chosen. The form excels at moments of perception, emotional intensity, and philosophical reflection that can be captured through precise imagery and juxtaposition rather than explanation. The formal density also creates a particular reading experience: the reader recognizes that each word is carefully placed, that nothing is wasted, that form and meaning are inseparable. This creates intellectual engagement—the reader must work to understand how the formal constraints have shaped meaning, and in that process of recognition, the poem's sophistication becomes apparent. The form thus shapes not only what can be expressed but how it is experienced."
+- question: How does the formal density of lüshi—where every word must satisfy semantic, tonal, and formal demands simultaneously—affect what kinds of meanings lüshi poetry can express?
+  type: short-answer
+  explanation: 'Because every word in lüshi must work on multiple levels, the form is particularly suited to expressing meanings that benefit from compression, suggestion, and juxtaposition rather than explicit statement. A single image in a lüshi poem, carefully selected to fit tonal requirements and parallelism structures, can carry profound meaning precisely because it must be so carefully chosen. The form excels at moments of perception, emotional intensity, and philosophical reflection that can be captured through precise imagery and juxtaposition rather than explanation. The formal density also creates a particular reading experience: the reader recognizes that each word is carefully placed, that nothing is wasted, that form and meaning are inseparable. This creates intellectual engagement—the reader must work to understand how the formal constraints have shaped meaning, and in that process of recognition, the poem''s sophistication becomes apparent. The form thus shapes not only what can be expressed but how it is experienced.'
 ```
 
 ## Explainer

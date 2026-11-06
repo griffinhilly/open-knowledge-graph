@@ -32,35 +32,40 @@ Map out what happens in a story after its climax. What problems still need solvi
 ## Questions
 
 ```yaml
-- question: "In a story, the climax is a climactic battle where the hero defeats the villain. What is the falling action's role, and why is it necessary even though the main conflict is resolved?"
+- question: In a story, the climax is a climactic battle where the hero defeats the villain. What is the falling action's role, and why is it necessary even though the main conflict is resolved?
+  type: multiple-choice
   options:
-    - "Falling action is unnecessary; the story should end after the climax"
-    - "Falling action shows the aftermath and consequences of the climax. It reveals: How do survivors cope? What are the costs of victory? What changes result from the hero's actions? This closure gives meaning to the climax and shows how the world is different now"
-    - "Falling action just repeats the climax with less intensity"
-    - "Falling action introduces new conflicts"
+  - Falling action is unnecessary; the story should end after the climax
+  - 'Falling action shows the aftermath and consequences of the climax. It reveals: How do survivors cope? What are the costs of victory? What changes result from the hero''s actions? This closure gives meaning to the climax and shows how the world is different now'
+  - Falling action just repeats the climax with less intensity
+  - Falling action introduces new conflicts
   answer: 1
-  explanation: "Falling action is essential for closure. It shows not just that the hero won, but what winning costs, what it changes, and how characters must rebuild. Without falling action, the climax feels anticlimactic. The falling action gives the climax its full meaning."
+  explanation: Falling action is essential for closure. It shows not just that the hero won, but what winning costs, what it changes, and how characters must rebuild. Without falling action, the climax feels anticlimactic. The falling action gives the climax its full meaning.
 
-- question: "A character's climactic action is to confess a long-held secret to someone they love. The secret is revealed, and the moment is intense and emotional. After this climax, what might falling action show?"
+- question: A character's climactic action is to confess a long-held secret to someone they love. The secret is revealed, and the moment is intense and emotional. After this climax, what might falling action show?
+  type: multiple-choice
   options:
-    - "Nothing—the story should end"
-    - "How the other person responds and processes the confession, how the relationship changes, what new understanding or distance emerges, and how both characters adjust to this truth. These consequences matter as much as the confession itself"
-    - "Another secret being revealed"
-    - "The character regretting the confession"
+  - Nothing—the story should end
+  - How the other person responds and processes the confession, how the relationship changes, what new understanding or distance emerges, and how both characters adjust to this truth. These consequences matter as much as the confession itself
+  - Another secret being revealed
+  - The character regretting the confession
   answer: 1
-  explanation: "Falling action shows consequences unfolding. A confession changes a relationship; the falling action lets readers see how. Without it, the emotional impact is incomplete. Readers need to see what happens when secrets are revealed, how trust rebuilds or breaks."
+  explanation: Falling action shows consequences unfolding. A confession changes a relationship; the falling action lets readers see how. Without it, the emotional impact is incomplete. Readers need to see what happens when secrets are revealed, how trust rebuilds or breaks.
 
-- question: "True or False: In falling action, all conflict must be completely resolved before the resolution begins."
+- question: 'True or False: In falling action, all conflict must be completely resolved before the resolution begins.'
+  type: true-false
   answer: false
-  explanation: "Falling action often resolves the main conflict but may leave minor threads unresolved or open new insights. Perfect resolution isn't required; what matters is that the climactic action's major consequences are shown. Minor questions might remain deliberately open."
+  explanation: Falling action often resolves the main conflict but may leave minor threads unresolved or open new insights. Perfect resolution isn't required; what matters is that the climactic action's major consequences are shown. Minor questions might remain deliberately open.
 
-- question: "True or False: Falling action always has less emotional intensity than the climax."
+- question: 'True or False: Falling action always has less emotional intensity than the climax.'
+  type: true-false
   answer: false
-  explanation: "While tension generally decreases, falling action can be emotionally powerful. A character grieving loss after victory, or processing betrayal, can be as intense as the climax itself. Emotional intensity and plot tension are different things."
+  explanation: While tension generally decreases, falling action can be emotionally powerful. A character grieving loss after victory, or processing betrayal, can be as intense as the climax itself. Emotional intensity and plot tension are different things.
 
-- question: "A story climaxes with a character choosing to sacrifice their own dreams to save their family. In the falling action, they must rebuild their life around this choice. What does falling action accomplish here that the climactic moment alone cannot?"
-  answer: "The climactic moment shows the character's choice. Falling action shows what living with that choice means. Readers see whether the sacrifice brings peace, regret, resentment, or unexpected fulfillment. Falling action reveals what the climactic choice costs and what it enables. It shows whether the character can accept the consequences of their decision, or whether they struggle with it. This is where readers understand the real weight of the climactic choice."
-  explanation: "This tests understanding that falling action reveals the consequences and meaning of climactic action. A moment of choice is dramatic, but the falling action shows what that choice truly means by showing how the character lives with it. This transforms the climax from a momentary decision into a lived reality."
+- question: A story climaxes with a character choosing to sacrifice their own dreams to save their family. In the falling action, they must rebuild their life around this choice. What does falling action accomplish here that the climactic moment alone cannot?
+  type: short-answer
+  answer: The climactic moment shows the character's choice. Falling action shows what living with that choice means. Readers see whether the sacrifice brings peace, regret, resentment, or unexpected fulfillment. Falling action reveals what the climactic choice costs and what it enables. It shows whether the character can accept the consequences of their decision, or whether they struggle with it. This is where readers understand the real weight of the climactic choice.
+  explanation: This tests understanding that falling action reveals the consequences and meaning of climactic action. A moment of choice is dramatic, but the falling action shows what that choice truly means by showing how the character lives with it. This transforms the climax from a momentary decision into a lived reality.
 ```
 
 ## Explainer

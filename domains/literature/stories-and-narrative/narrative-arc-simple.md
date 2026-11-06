@@ -38,35 +38,40 @@ Map out a familiar story on a simple line graph with beginning, middle, and end 
 ## Questions
 
 ```yaml
-- question: "A mystery novel presents clues throughout the middle sections, slowly building tension, then reveals the killer's identity near the end. Which part of the narrative arc does the clue-gathering represent?"
+- question: A mystery novel presents clues throughout the middle sections, slowly building tension, then reveals the killer's identity near the end. Which part of the narrative arc does the clue-gathering represent?
+  type: multiple-choice
   options:
-    - "Exposition, because we are learning new information"
-    - "Rising action, because tension is building toward the climax"
-    - "Falling action, because events are coming after the main conflict"
-    - "Resolution, because mysteries must be solved by the end"
+  - Exposition, because we are learning new information
+  - Rising action, because tension is building toward the climax
+  - Falling action, because events are coming after the main conflict
+  - Resolution, because mysteries must be solved by the end
   answer: 1
-  explanation: "The middle of the narrative arc is called rising action because it develops conflict and builds tension toward the climax. The mystery clues are building toward the climax (when the killer is revealed), so they are part of the rising action, not other parts of the arc."
+  explanation: The middle of the narrative arc is called rising action because it develops conflict and builds tension toward the climax. The mystery clues are building toward the climax (when the killer is revealed), so they are part of the rising action, not other parts of the arc.
 
-- question: "A story begins with a character setting out on a quest. A friend warns that the quest is too dangerous. What would the narrative arc suggest happens next?"
+- question: A story begins with a character setting out on a quest. A friend warns that the quest is too dangerous. What would the narrative arc suggest happens next?
+  type: multiple-choice
   options:
-    - "The quest ends immediately since there is already conflict"
-    - "Events unfold that develop the danger and stakes, building toward a moment where the danger becomes most urgent"
-    - "The ending must happen right away to resolve the conflict quickly"
-    - "The character abandons the quest and returns home"
+  - The quest ends immediately since there is already conflict
+  - Events unfold that develop the danger and stakes, building toward a moment where the danger becomes most urgent
+  - The ending must happen right away to resolve the conflict quickly
+  - The character abandons the quest and returns home
   answer: 1
-  explanation: "A narrative arc suggests that after introducing the premise (beginning), the middle develops and complicates it, building tension. The middle would show how the quest becomes harder, more dangerous, or more emotionally complicated, leading to a climax where the danger peaks before resolution."
+  explanation: A narrative arc suggests that after introducing the premise (beginning), the middle develops and complicates it, building tension. The middle would show how the quest becomes harder, more dangerous, or more emotionally complicated, leading to a climax where the danger peaks before resolution.
 
-- question: "True or False: The ending of every story must be happy and uplifting to satisfy the three-part narrative arc."
+- question: 'True or False: The ending of every story must be happy and uplifting to satisfy the three-part narrative arc.'
+  type: true-false
   answer: false
-  explanation: "Narrative arc describes structure (beginning, middle, end) but not the tone or outcome of the ending. Stories can end tragically, ambiguously, or sadly while still following a three-part arc. What matters is that the arc gives shape to the conflict, not that it mandates a happy resolution."
+  explanation: Narrative arc describes structure (beginning, middle, end) but not the tone or outcome of the ending. Stories can end tragically, ambiguously, or sadly while still following a three-part arc. What matters is that the arc gives shape to the conflict, not that it mandates a happy resolution.
 
-- question: "True or False: The beginning of a narrative must be slow and boring to set up the world properly."
+- question: 'True or False: The beginning of a narrative must be slow and boring to set up the world properly.'
+  type: true-false
   answer: false
-  explanation: "Beginnings establish the world and introduce stakes, but they can be fast-paced, exciting, or intense. A story can start with action and still effectively introduce characters and situation. The beginning's purpose is to set up the conflict, not to be slow."
+  explanation: Beginnings establish the world and introduce stakes, but they can be fast-paced, exciting, or intense. A story can start with action and still effectively introduce characters and situation. The beginning's purpose is to set up the conflict, not to be slow.
 
-- question: "Describe how a story about a student preparing for an important exam could follow the three-part narrative arc. What would happen in the beginning, middle, and end?"
-  answer: "Beginning: The student learns about the exam and feels the pressure; we meet the student and understand what the exam means to them. Middle: The student struggles with material, faces distractions or self-doubt, maybe encounters obstacles (illness, family crisis, conflicts with friends); tension builds about whether they will be ready. End: The exam happens; we see the result and how the student has changed through the preparation and test experience."
-  explanation: "This tests whether students can apply the abstract concept of narrative arc to a simple, realistic scenario. Students should recognize that even mundane events can follow narrative structure, and that the arc is about how conflict develops and resolves, not about fantasy or grand events."
+- question: Describe how a story about a student preparing for an important exam could follow the three-part narrative arc. What would happen in the beginning, middle, and end?
+  type: short-answer
+  answer: 'Beginning: The student learns about the exam and feels the pressure; we meet the student and understand what the exam means to them. Middle: The student struggles with material, faces distractions or self-doubt, maybe encounters obstacles (illness, family crisis, conflicts with friends); tension builds about whether they will be ready. End: The exam happens; we see the result and how the student has changed through the preparation and test experience.'
+  explanation: This tests whether students can apply the abstract concept of narrative arc to a simple, realistic scenario. Students should recognize that even mundane events can follow narrative structure, and that the arc is about how conflict develops and resolves, not about fantasy or grand events.
 ```
 
 ## Explainer

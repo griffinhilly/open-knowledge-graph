@@ -25,39 +25,39 @@ Digression—following a thought tangentially rather than pursuing direct argume
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What is the difference between digression as a flaw in formal argument and digression as an essayistic form?"
+- question: What is the difference between digression as a flaw in formal argument and digression as an essayistic form?
+  type: multiple-choice
   options:
-    - "There is no difference; digression is always a failure of focus."
-    - "In argument, digression is accidental and weakens the thesis. In essays, digression is intentional and a path to understanding."
-    - "Essays never use digression; only academic writing does."
-    - "Digression is only appropriate in creative writing, not nonfiction."
+  - There is no difference; digression is always a failure of focus.
+  - In argument, digression is accidental and weakens the thesis. In essays, digression is intentional and a path to understanding.
+  - Essays never use digression; only academic writing does.
+  - Digression is only appropriate in creative writing, not nonfiction.
   answer: 1
-  explanation: "A formal argument should advance toward a thesis; digression weakens it. But an essayistic piece assumes the argument isn't straightforward. Following tangents, making unexpected connections, pursuing a thought where it leads—these are legitimate routes to understanding. The digression is not a detour; it's the path itself."
+  explanation: A formal argument should advance toward a thesis; digression weakens it. But an essayistic piece assumes the argument isn't straightforward. Following tangents, making unexpected connections, pursuing a thought where it leads—these are legitimate routes to understanding. The digression is not a detour; it's the path itself.
 
-- type: multiple-choice
-  question: "What does 'the form assumes readers will follow the associative logic' mean?"
+- question: What does 'the form assumes readers will follow the associative logic' mean?
+  type: multiple-choice
   options:
-    - "The reader must guess what the writer is thinking."
-    - "The connections are random and meaningless."
-    - "The reader trusts that the writer's unexpected turns and connections will eventually reveal insight—there is logic, even if it's not immediately obvious."
-    - "Associative logic is irrational and unfollowable."
+  - The reader must guess what the writer is thinking.
+  - The connections are random and meaningless.
+  - The reader trusts that the writer's unexpected turns and connections will eventually reveal insight—there is logic, even if it's not immediately obvious.
+  - Associative logic is irrational and unfollowable.
   answer: 2
-  explanation: "Essayistic digression isn't random. There's a logic to it—an associative chain of thinking. A meditation on grief might suddenly turn to a memory of rain, which leads to thoughts on impermanence, which circles back to the original question about loss. The connections are there; the reader must trust them and find them."
+  explanation: Essayistic digression isn't random. There's a logic to it—an associative chain of thinking. A meditation on grief might suddenly turn to a memory of rain, which leads to thoughts on impermanence, which circles back to the original question about loss. The connections are there; the reader must trust them and find them.
 
-- type: true-false
-  statement: "True: Essayistic digression models how thinking actually works—through association, connection, and unexpected leaps."
+- question: 'True: Essayistic digression models how thinking actually works—through association, connection, and unexpected leaps.'
+  type: true-false
   answer: true
-  explanation: "This is central to the form. We don't actually think in straight lines. One idea triggers another; a memory surfaces; a connection illuminates. Essayistic digression mirrors this actual process of thinking rather than the polished, linear argument that hides the work of thought."
+  explanation: This is central to the form. We don't actually think in straight lines. One idea triggers another; a memory surfaces; a connection illuminates. Essayistic digression mirrors this actual process of thinking rather than the polished, linear argument that hides the work of thought.
 
-- type: true-false
-  statement: "False: A reader who gets lost in an essayist's digressions has failed to understand the piece."
+- question: 'False: A reader who gets lost in an essayist''s digressions has failed to understand the piece.'
+  type: true-false
   answer: false
-  explanation: "Getting lost might be part of the experience. Essayistic writing sometimes intentionally disorients before clarifying. The reader is meant to follow the writer through associative turns and emerge with a different understanding. Confusion can be a stage in the process, not a failure."
+  explanation: Getting lost might be part of the experience. Essayistic writing sometimes intentionally disorients before clarifying. The reader is meant to follow the writer through associative turns and emerge with a different understanding. Confusion can be a stage in the process, not a failure.
 
-- type: short-answer
-  question: "How might an essay structured around digression make its argument differently than a linear argumentative essay? What does the digressive structure reveal?"
-  explanation: "A linear essay would state a thesis and support it with evidence in logical sequence. A digressive essay might start with one question, follow associated thoughts and memories, move through unexpected territory, and arrive somewhere unexpected—having explored the question from multiple angles. The digression reveals that the answer isn't simple, that understanding requires following multiple threads. It also enacts the actual process of thinking, making the reader complicit in discovery. What's revealed isn't just the conclusion but the path of thinking that leads there. A digressive structure says: this understanding was not obvious; it required following this particular associative chain. Linear structure says: here's the truth, here's the evidence. Digression says: here's how I came to understand this."
+- question: How might an essay structured around digression make its argument differently than a linear argumentative essay? What does the digressive structure reveal?
+  type: short-answer
+  explanation: 'A linear essay would state a thesis and support it with evidence in logical sequence. A digressive essay might start with one question, follow associated thoughts and memories, move through unexpected territory, and arrive somewhere unexpected—having explored the question from multiple angles. The digression reveals that the answer isn''t simple, that understanding requires following multiple threads. It also enacts the actual process of thinking, making the reader complicit in discovery. What''s revealed isn''t just the conclusion but the path of thinking that leads there. A digressive structure says: this understanding was not obvious; it required following this particular associative chain. Linear structure says: here''s the truth, here''s the evidence. Digression says: here''s how I came to understand this.'
 ```
 
 ## Explainer

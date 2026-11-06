@@ -25,35 +25,39 @@ Children's literature historically served didactic purposes—teaching morals, v
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What is the primary tension in children's literature between didacticism and literary quality?"
-    options:
-      - "There is no relationship between didacticism and literary quality"
-      - "Literature that explicitly teaches morals often sacrifices character development, nuance, and complex storytelling for the sake of moral instruction"
-      - "All literature is purely didactic with no artistic merit"
-      - "Literary quality automatically ensures moral instruction"
-    answer: 1
-    explanation: "Didactic literature prioritizes explicit moral lessons over narrative complexity, which can result in flat characters, predictable plots, and reduced artistic sophistication."
-  - question: "How do contemporary children's authors generally approach moral and ethical content differently from historical children's literature?"
-    options:
-      - "They completely ignore moral dimensions of stories"
-      - "They embed ethical concerns within complex narratives rather than explicitly stating moral lessons through didactic instruction"
-      - "They make moral lessons more explicit than historical children's literature"
-      - "They believe children should not encounter ethical questions"
-    answer: 1
-    explanation: "Contemporary children's literature typically resists explicit moral instruction, instead allowing ethical questions to emerge from complex character choices and dilemmas."
+- question: What is the primary tension in children's literature between didacticism and literary quality?
+  type: multiple-choice
+  options:
+  - There is no relationship between didacticism and literary quality
+  - Literature that explicitly teaches morals often sacrifices character development, nuance, and complex storytelling for the sake of moral instruction
+  - All literature is purely didactic with no artistic merit
+  - Literary quality automatically ensures moral instruction
+  answer: 1
+  explanation: Didactic literature prioritizes explicit moral lessons over narrative complexity, which can result in flat characters, predictable plots, and reduced artistic sophistication.
 
-true-false:
-  - question: "True or False: A story can encode values and address moral questions without being didactic or reducing complex situations to simple lessons."
-    answer: true
-    explanation: "This is true. Sophisticated children's literature addresses ethical concerns through nuanced character development and complex situations that resist simplification, allowing readers to grapple with values without being told what to think."
-  - question: "True or False: All children's literature is purely didactic and teaches explicit moral lessons."
-    answer: false
-    explanation: "This is false. While children's literature historically emphasized morality, contemporary literature varies widely in approach—some overtly didactic, some subtle in their moral dimensions, some resisting moral instruction entirely."
+- question: How do contemporary children's authors generally approach moral and ethical content differently from historical children's literature?
+  type: multiple-choice
+  options:
+  - They completely ignore moral dimensions of stories
+  - They embed ethical concerns within complex narratives rather than explicitly stating moral lessons through didactic instruction
+  - They make moral lessons more explicit than historical children's literature
+  - They believe children should not encounter ethical questions
+  answer: 1
+  explanation: Contemporary children's literature typically resists explicit moral instruction, instead allowing ethical questions to emerge from complex character choices and dilemmas.
 
-short-answer:
-  - question: "Why do literary critics sometimes argue that overly didactic children's literature is ultimately less effective at moral education than literature that trusts readers to grapple with ethical complexity?"
-    explanation: "When literature reduces complex moral situations to explicit lessons ('sharing is good,' 'honesty is always right'), readers may internalize the lesson as intellectual information without genuinely internalizing values or developing ethical thinking. Additionally, oversimplified morality doesn't match readers' actual experience—real ethical situations are complex, ambiguous, and context-dependent. Literature that trusts readers to encounter complex character dilemmas, conflicting values, and morally ambiguous situations invites readers to think through ethics themselves rather than accept lessons passively. Furthermore, readers recognize and resent obvious didacticism; a book that feels like it's teaching them rather than telling them a story often triggers resistance. Conversely, literature that embeds ethical concerns within compelling narratives allows readers to care about characters' choices and to feel the weight of moral decisions, creating internalized learning that surface-level lessons cannot achieve."
+- question: 'True or False: A story can encode values and address moral questions without being didactic or reducing complex situations to simple lessons.'
+  type: true-false
+  answer: true
+  explanation: This is true. Sophisticated children's literature addresses ethical concerns through nuanced character development and complex situations that resist simplification, allowing readers to grapple with values without being told what to think.
+
+- question: 'True or False: All children''s literature is purely didactic and teaches explicit moral lessons.'
+  type: true-false
+  answer: false
+  explanation: This is false. While children's literature historically emphasized morality, contemporary literature varies widely in approach—some overtly didactic, some subtle in their moral dimensions, some resisting moral instruction entirely.
+
+- question: Why do literary critics sometimes argue that overly didactic children's literature is ultimately less effective at moral education than literature that trusts readers to grapple with ethical complexity?
+  type: short-answer
+  explanation: When literature reduces complex moral situations to explicit lessons ('sharing is good,' 'honesty is always right'), readers may internalize the lesson as intellectual information without genuinely internalizing values or developing ethical thinking. Additionally, oversimplified morality doesn't match readers' actual experience—real ethical situations are complex, ambiguous, and context-dependent. Literature that trusts readers to encounter complex character dilemmas, conflicting values, and morally ambiguous situations invites readers to think through ethics themselves rather than accept lessons passively. Furthermore, readers recognize and resent obvious didacticism; a book that feels like it's teaching them rather than telling them a story often triggers resistance. Conversely, literature that embeds ethical concerns within compelling narratives allows readers to care about characters' choices and to feel the weight of moral decisions, creating internalized learning that surface-level lessons cannot achieve.
 ```
 
 ## Explainer

@@ -29,36 +29,39 @@ The haunted house functions simultaneously as setting and character—a space th
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What are the multiple roles the haunted house plays in these narratives?"
-    options:
-      - "Only a backdrop for supernatural action"
-      - "Simultaneously setting and character—a space that traps and constrains"
-      - "A symbol of wealth and status"
-      - "A neutral location where any story could occur"
-    correct_answer: 1
-    explanation: "The core idea states the haunted house 'functions simultaneously as setting and character—a space that traps inhabitants physically and constrains them psychologically,' establishing these dual roles."
-  - type: multiple-choice
-    question: "What does the haunted house often embody according to the core idea?"
-    options:
-      - "Purely fictional supernatural forces with no psychological basis"
-      - "Collective trauma or concentrated guilt, becoming sentient in effect if not literally animated"
-      - "Only the economic status of its owners"
-      - "Random supernatural events unrelated to history or psychology"
-    correct_answer: 1
-    explanation: "The core idea states the house 'often embodies collective trauma or concentrated guilt, becoming sentient in effect if not literally animated,' connecting the supernatural to psychological and historical forces."
-  - type: true-false
-    question: "In haunted house narratives, spaces carry history and architecture shapes consciousness and possibility."
-    correct_answer: true
-    explanation: "The core idea explicitly states that these narratives 'explore how spaces carry history and how architecture shapes consciousness and possibility,' affirming this as a defining theme."
-  - type: true-false
-    question: "The haunted house is typically animated by independent supernatural forces completely separate from the inhabitants' psychology."
-    correct_answer: false
-    explanation: "The core idea suggests the house embodies 'collective trauma or concentrated guilt,' indicating that the haunting is connected to the inhabitants' psychological states rather than independent of them."
-  - type: short-answer
-    question: "How does the haunted house function as a character? What makes a house more than just a setting?"
-    explanation: "A good answer should recognize that a haunted house has agency, history, personality, and effects on the characters who inhabit it. Unlike a neutral setting, the house actively constrains behavior, shapes psychological states, and responds to (or embodies) trauma. The house has memory and intention (whether supernatural or psychological). Students should show understanding that the house is not passive but actively shapes the narrative."
+- question: What are the multiple roles the haunted house plays in these narratives?
+  type: multiple-choice
+  options:
+  - Only a backdrop for supernatural action
+  - Simultaneously setting and character—a space that traps and constrains
+  - A symbol of wealth and status
+  - A neutral location where any story could occur
+  answer: 1
+  explanation: The core idea states the haunted house 'functions simultaneously as setting and character—a space that traps inhabitants physically and constrains them psychologically,' establishing these dual roles.
+
+- question: What does the haunted house often embody according to the core idea?
+  type: multiple-choice
+  options:
+  - Purely fictional supernatural forces with no psychological basis
+  - Collective trauma or concentrated guilt, becoming sentient in effect if not literally animated
+  - Only the economic status of its owners
+  - Random supernatural events unrelated to history or psychology
+  answer: 1
+  explanation: The core idea states the house 'often embodies collective trauma or concentrated guilt, becoming sentient in effect if not literally animated,' connecting the supernatural to psychological and historical forces.
+
+- question: In haunted house narratives, spaces carry history and architecture shapes consciousness and possibility.
+  type: true-false
+  answer: true
+  explanation: The core idea explicitly states that these narratives 'explore how spaces carry history and how architecture shapes consciousness and possibility,' affirming this as a defining theme.
+
+- question: The haunted house is typically animated by independent supernatural forces completely separate from the inhabitants' psychology.
+  type: true-false
+  answer: false
+  explanation: The core idea suggests the house embodies 'collective trauma or concentrated guilt,' indicating that the haunting is connected to the inhabitants' psychological states rather than independent of them.
+
+- question: How does the haunted house function as a character? What makes a house more than just a setting?
+  type: short-answer
+  explanation: A good answer should recognize that a haunted house has agency, history, personality, and effects on the characters who inhabit it. Unlike a neutral setting, the house actively constrains behavior, shapes psychological states, and responds to (or embodies) trauma. The house has memory and intention (whether supernatural or psychological). Students should show understanding that the house is not passive but actively shapes the narrative.
 ```
 
 ## Explainer

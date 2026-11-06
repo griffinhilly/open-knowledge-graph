@@ -22,39 +22,39 @@ Ecocriticism reads landscape and nature as cultural texts shaped by ideology, po
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What does ecocriticism mean by reading landscape 'as cultural text'?"
+- question: What does ecocriticism mean by reading landscape 'as cultural text'?
+  type: multiple-choice
   options:
-    - "Landscapes are books written in words."
-    - "The landscape itself embodies and communicates cultural values, histories, and ideologies."
-    - "Culture and nature are completely separate."
-    - "Landscapes have no meaning beyond their physical features."
+  - Landscapes are books written in words.
+  - The landscape itself embodies and communicates cultural values, histories, and ideologies.
+  - Culture and nature are completely separate.
+  - Landscapes have no meaning beyond their physical features.
   answer: 1
-  explanation: "A cultural text is something that can be read for meaning. Ecocriticism argues that landscape can be read this way—that what we see when we look at land reflects how culture has shaped it and what cultures value. A forest that appears 'wild' may actually be shaped by centuries of human management. A city park seems natural but embodies particular ideological choices."
+  explanation: A cultural text is something that can be read for meaning. Ecocriticism argues that landscape can be read this way—that what we see when we look at land reflects how culture has shaped it and what cultures value. A forest that appears 'wild' may actually be shaped by centuries of human management. A city park seems natural but embodies particular ideological choices.
 
-- type: multiple-choice
-  question: "How does ecocriticism challenge nature writing?"
+- question: How does ecocriticism challenge nature writing?
+  type: multiple-choice
   options:
-    - "It argues that nature writing should be more poetic."
-    - "It shows that nature writing isn't neutral observation but is always culturally shaped by the writer's assumptions and values."
-    - "It claims nature writing is always dishonest."
-    - "It argues against close observation of nature."
+  - It argues that nature writing should be more poetic.
+  - It shows that nature writing isn't neutral observation but is always culturally shaped by the writer's assumptions and values.
+  - It claims nature writing is always dishonest.
+  - It argues against close observation of nature.
   answer: 1
-  explanation: "Ecocriticism doesn't argue against nature writing; it asks writers to be conscious of how their perspective on nature is culturally shaped. What counts as 'wilderness'? What does 'natural' mean? These aren't natural categories; they're culturally determined. Good nature writing acknowledges this rather than pretending to pristine observation."
+  explanation: Ecocriticism doesn't argue against nature writing; it asks writers to be conscious of how their perspective on nature is culturally shaped. What counts as 'wilderness'? What does 'natural' mean? These aren't natural categories; they're culturally determined. Good nature writing acknowledges this rather than pretending to pristine observation.
 
-- type: true-false
-  statement: "True: Ecocriticism assumes that all observation of landscape is influenced by the observer's cultural position and assumptions about nature."
+- question: 'True: Ecocriticism assumes that all observation of landscape is influenced by the observer''s cultural position and assumptions about nature.'
+  type: true-false
   answer: true
-  explanation: "This is central to ecocriticism. We don't observe nature from some position outside culture. We come to nature with ideas about what's beautiful, what's valuable, what's 'natural,' what humans' relationship to land should be. These ideas come from our culture. Good ecocritical writing acknowledges this rather than pretending to objectivity."
+  explanation: This is central to ecocriticism. We don't observe nature from some position outside culture. We come to nature with ideas about what's beautiful, what's valuable, what's 'natural,' what humans' relationship to land should be. These ideas come from our culture. Good ecocritical writing acknowledges this rather than pretending to objectivity.
 
-- type: true-false
-  statement: "False: Ecocriticism is primarily about celebrating nature and environmental protection."
+- question: 'False: Ecocriticism is primarily about celebrating nature and environmental protection.'
+  type: true-false
   answer: false
-  explanation: "While ecocriticism is interested in environmental questions, its approach is analytical, not celebratory. It analyzes how culture shapes our understanding of nature and landscape. This might support environmental protection, but that's not ecocriticism's primary aim. Its primary aim is to denaturalize nature—to show that what seems natural is actually culturally constructed."
+  explanation: While ecocriticism is interested in environmental questions, its approach is analytical, not celebratory. It analyzes how culture shapes our understanding of nature and landscape. This might support environmental protection, but that's not ecocriticism's primary aim. Its primary aim is to denaturalize nature—to show that what seems natural is actually culturally constructed.
 
-- type: short-answer
-  question: "How might an ecocritical reading of a particular landscape or nature writing piece reveal cultural assumptions? Give an example."
-  explanation: "An ecocritical reading of American nature writing about 'wilderness' reveals that 'wilderness' is a cultural construct. What early American nature writers valued as untouched wild nature was actually shaped by Native American land management. The 'pristine wilderness' was pristine partly because of European diseases that decimated indigenous populations. The writers' celebration of wilderness as valuable precisely for being uninhabited reflected particular cultural values (about progress, development, nature's 'proper' role) while ignoring others' relationships to the same land. An ecocritical nonfiction piece might examine these assumptions—showing how a particular landscape is actually a cultural palimpsest, shaped by history and ideology. Or it might analyze a contemporary nature writer's assumptions: what do they value in nature? What counts as 'natural'? Whose relationship to land are they centering? Ecocriticism doesn't claim there's a 'true' nature beyond culture; instead, it reveals that all our understandings of nature are culturally mediated."
+- question: How might an ecocritical reading of a particular landscape or nature writing piece reveal cultural assumptions? Give an example.
+  type: short-answer
+  explanation: 'An ecocritical reading of American nature writing about ''wilderness'' reveals that ''wilderness'' is a cultural construct. What early American nature writers valued as untouched wild nature was actually shaped by Native American land management. The ''pristine wilderness'' was pristine partly because of European diseases that decimated indigenous populations. The writers'' celebration of wilderness as valuable precisely for being uninhabited reflected particular cultural values (about progress, development, nature''s ''proper'' role) while ignoring others'' relationships to the same land. An ecocritical nonfiction piece might examine these assumptions—showing how a particular landscape is actually a cultural palimpsest, shaped by history and ideology. Or it might analyze a contemporary nature writer''s assumptions: what do they value in nature? What counts as ''natural''? Whose relationship to land are they centering? Ecocriticism doesn''t claim there''s a ''true'' nature beyond culture; instead, it reveals that all our understandings of nature are culturally mediated.'
 ```
 
 ## Explainer

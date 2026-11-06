@@ -36,36 +36,39 @@ Cyberpunk is not anti-technology; it's skeptical about who controls technology a
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What is the relationship between advanced technology and social decay in cyberpunk?"
-    options:
-      - "Technology automatically creates utopian societies"
-      - "Social decay is unrelated to technology"
-      - "Advanced technology merges with social decay, creating futures where corporations dominate and inequality persists"
-      - "Technology is only used for entertainment in cyberpunk worlds"
-    correct_answer: 2
-    explanation: "The core idea explicitly states cyberpunk 'merges advanced technology with social decay, portraying futures where megacorporations dominate governments,' showing technology and decay coexist."
-  - type: multiple-choice
-    question: "How does cyberpunk treat technology as both liberatory and oppressive?"
-    options:
-      - "Technology is purely oppressive with no positive uses"
-      - "Technology is purely liberatory with no dangers"
-      - "Technology is powerful but whose hands control it determine whether it liberates or oppresses"
-      - "Technology has no moral significance in cyberpunk"
-    correct_answer: 2
-    explanation: "The core idea states cyberpunk 'treats technology ambivalently—powerful tools for liberation in marginal hands, but also instruments of surveillance and control,' showing the ambivalence depends on control."
-  - type: true-false
-    question: "In cyberpunk, visual style—neon, digital imagery, worn surfaces—is as important to the genre as narrative themes."
-    correct_answer: true
-    explanation: "The core idea explicitly states that 'visual style (neon, digital, worn surfaces) is as important as narrative themes; cyberpunk is as much an aesthetic movement as a literary genre.'"
-  - type: true-false
-    question: "Cyberpunk is fundamentally anti-technology and argues that all technology should be abandoned."
-    correct_answer: false
-    explanation: "The misconceptions section clarifies that 'cyberpunk is not anti-technology; it's skeptical about who controls technology and who benefits,' showing critique is directed at power structures, not technology itself."
-  - type: short-answer
-    question: "Why is cyberpunk equally invested in visual and aesthetic style as in narrative plot?"
-    explanation: "Good answers should address how cyberpunk's specific aesthetic (neon, decay, digital imagery, worn technology) communicates themes about technological surfaces and underlying rot, creates immersion in a particular cultural moment, and functions as commentary on commodification and style. The look of cyberpunk expresses its philosophical concerns as much as plot does."
+- question: What is the relationship between advanced technology and social decay in cyberpunk?
+  type: multiple-choice
+  options:
+  - Technology automatically creates utopian societies
+  - Social decay is unrelated to technology
+  - Advanced technology merges with social decay, creating futures where corporations dominate and inequality persists
+  - Technology is only used for entertainment in cyberpunk worlds
+  answer: 2
+  explanation: The core idea explicitly states cyberpunk 'merges advanced technology with social decay, portraying futures where megacorporations dominate governments,' showing technology and decay coexist.
+
+- question: How does cyberpunk treat technology as both liberatory and oppressive?
+  type: multiple-choice
+  options:
+  - Technology is purely oppressive with no positive uses
+  - Technology is purely liberatory with no dangers
+  - Technology is powerful but whose hands control it determine whether it liberates or oppresses
+  - Technology has no moral significance in cyberpunk
+  answer: 2
+  explanation: The core idea states cyberpunk 'treats technology ambivalently—powerful tools for liberation in marginal hands, but also instruments of surveillance and control,' showing the ambivalence depends on control.
+
+- question: In cyberpunk, visual style—neon, digital imagery, worn surfaces—is as important to the genre as narrative themes.
+  type: true-false
+  answer: true
+  explanation: The core idea explicitly states that 'visual style (neon, digital, worn surfaces) is as important as narrative themes; cyberpunk is as much an aesthetic movement as a literary genre.'
+
+- question: Cyberpunk is fundamentally anti-technology and argues that all technology should be abandoned.
+  type: true-false
+  answer: false
+  explanation: The misconceptions section clarifies that 'cyberpunk is not anti-technology; it's skeptical about who controls technology and who benefits,' showing critique is directed at power structures, not technology itself.
+
+- question: Why is cyberpunk equally invested in visual and aesthetic style as in narrative plot?
+  type: short-answer
+  explanation: Good answers should address how cyberpunk's specific aesthetic (neon, decay, digital imagery, worn technology) communicates themes about technological surfaces and underlying rot, creates immersion in a particular cultural moment, and functions as commentary on commodification and style. The look of cyberpunk expresses its philosophical concerns as much as plot does.
 ```
 
 ## Explainer

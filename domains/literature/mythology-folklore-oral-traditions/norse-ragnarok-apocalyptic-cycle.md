@@ -32,40 +32,39 @@ Ragnarok is a purely destructive myth expressing nihilism. (Ragnarok emphasizes 
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What happens immediately after the cosmic destruction described in Ragnarok?"
-    options:
-      - "The cosmos ends permanently; all existence ceases"
-      - "The earth and cosmos are reborn renewed; a new sun rises, new life emerges, and some gods and humans survive"
-      - "The same gods and humans reappear unchanged in the same cosmos"
-      - "Only the giants and monsters survive; gods and humans are eternally destroyed"
-    correct: "B"
-    explanation: "Ragnarok is not eternal annihilation but cyclical destruction and renewal. After the earth sinks into the sea and the sun is consumed, the earth rises again, green and fertile. A new sun is born. Some gods (Modi, Magni, Vidar, Vali) survive and continue. Some humans survive. The cycle renews. This is crucial: destruction enables rebirth."
+- question: What happens immediately after the cosmic destruction described in Ragnarok?
+  type: multiple-choice
+  options:
+  - The cosmos ends permanently; all existence ceases
+  - The earth and cosmos are reborn renewed; a new sun rises, new life emerges, and some gods and humans survive
+  - The same gods and humans reappear unchanged in the same cosmos
+  - Only the giants and monsters survive; gods and humans are eternally destroyed
+  answer: 1
+  explanation: 'Ragnarok is not eternal annihilation but cyclical destruction and renewal. After the earth sinks into the sea and the sun is consumed, the earth rises again, green and fertile. A new sun is born. Some gods (Modi, Magni, Vidar, Vali) survive and continue. Some humans survive. The cycle renews. This is crucial: destruction enables rebirth.'
 
-  - type: multiple-choice
-    question: "In the context of Ragnarok, what does the sequence of cosmic destruction, divine death, and renewal reveal about Norse cultural values?"
-    options:
-      - "Norse culture valued permanent peace and believed in the triumph of order over all chaos"
-      - "Norse culture was nihilistic and believed existence was meaningless"
-      - "Norse culture valued struggle, courage in the face of inevitable defeat, and accepted that destruction and renewal were natural cycles"
-      - "Norse culture believed gods were omnipotent and could prevent any destruction"
-    correct: "C"
-    explanation: "Ragnarok reveals a cultural philosophy about struggle, courage, and acceptance of natural cycles. The fact that the Aesir know destruction will come, yet continue to fight, defend the cosmos, and maintain order—this expresses a heroic ethic: do what is right and necessary even knowing you will lose. The renewal cycle shows acceptance that destruction and rebirth are natural, not apocalyptic anomalies."
+- question: In the context of Ragnarok, what does the sequence of cosmic destruction, divine death, and renewal reveal about Norse cultural values?
+  type: multiple-choice
+  options:
+  - Norse culture valued permanent peace and believed in the triumph of order over all chaos
+  - Norse culture was nihilistic and believed existence was meaningless
+  - Norse culture valued struggle, courage in the face of inevitable defeat, and accepted that destruction and renewal were natural cycles
+  - Norse culture believed gods were omnipotent and could prevent any destruction
+  answer: 2
+  explanation: 'Ragnarok reveals a cultural philosophy about struggle, courage, and acceptance of natural cycles. The fact that the Aesir know destruction will come, yet continue to fight, defend the cosmos, and maintain order—this expresses a heroic ethic: do what is right and necessary even knowing you will lose. The renewal cycle shows acceptance that destruction and rebirth are natural, not apocalyptic anomalies.'
 
-  - type: true-false
-    question: "Ragnarok represents a Norse worldview that is fundamentally nihilistic and expresses despair about the meaning of existence."
-    correct: false
-    explanation: "While Ragnarok includes destruction and divine death, the emphasis on renewal, the survival of gods and humans, and the continued cycle suggest not nihilism but acceptance of natural cycles and emphasis on struggle and courage despite inevitable challenges."
+- question: Ragnarok represents a Norse worldview that is fundamentally nihilistic and expresses despair about the meaning of existence.
+  type: true-false
+  answer: false
+  explanation: While Ragnarok includes destruction and divine death, the emphasis on renewal, the survival of gods and humans, and the continued cycle suggest not nihilism but acceptance of natural cycles and emphasis on struggle and courage despite inevitable challenges.
 
-  - type: true-false
-    question: "Only Norse mythology includes a vision of apocalyptic cyclical renewal where destruction enables rebirth."
-    correct: false
-    explanation: "Many mythological traditions include cyclical cosmologies and apocalyptic renewal. Hindu cosmology includes yugas and cycles of creation and destruction. Mesoamerican mythology includes destruction of previous world-ages and creation of new ones. The Norse version is distinctive in its emphasis on struggle and the dignity of facing inevitable destruction."
+- question: Only Norse mythology includes a vision of apocalyptic cyclical renewal where destruction enables rebirth.
+  type: true-false
+  answer: false
+  explanation: Many mythological traditions include cyclical cosmologies and apocalyptic renewal. Hindu cosmology includes yugas and cycles of creation and destruction. Mesoamerican mythology includes destruction of previous world-ages and creation of new ones. The Norse version is distinctive in its emphasis on struggle and the dignity of facing inevitable destruction.
 
-  - type: short-answer
-    question: "Analyze the cultural significance of the fact that the Norse gods know Ragnarok is coming and that they cannot prevent it, yet continue their struggle anyway."
-    explanation: "This creates a distinctive ethical vision. Unlike cosmologies where divine action ensures permanence or where moral struggle leads to final triumph, Ragnarok presents a scenario where effort is ultimately futile yet morally necessary. The gods must maintain order, defend against chaos, and fight in the final battle knowing they will lose. This valorizes struggle itself rather than victory. It expresses a philosophy of courage and honor in the face of inevitable defeat. The meaning of action comes not from success or permanent preservation but from the act itself—from fighting bravely even when victory is impossible. For a culture struggling in a harsh climate where survival was never guaranteed and disasters were frequent and overwhelming, this worldview was philosophically and psychologically mature: it allowed people to find meaning in struggle itself rather than in the fantasy of permanent victory."
+- question: Analyze the cultural significance of the fact that the Norse gods know Ragnarok is coming and that they cannot prevent it, yet continue their struggle anyway.
+  type: short-answer
+  explanation: 'This creates a distinctive ethical vision. Unlike cosmologies where divine action ensures permanence or where moral struggle leads to final triumph, Ragnarok presents a scenario where effort is ultimately futile yet morally necessary. The gods must maintain order, defend against chaos, and fight in the final battle knowing they will lose. This valorizes struggle itself rather than victory. It expresses a philosophy of courage and honor in the face of inevitable defeat. The meaning of action comes not from success or permanent preservation but from the act itself—from fighting bravely even when victory is impossible. For a culture struggling in a harsh climate where survival was never guaranteed and disasters were frequent and overwhelming, this worldview was philosophically and psychologically mature: it allowed people to find meaning in struggle itself rather than in the fantasy of permanent victory.'
 ```
 
 ## Explainer

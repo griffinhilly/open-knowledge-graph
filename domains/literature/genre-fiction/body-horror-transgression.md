@@ -23,36 +23,39 @@ Body horror emphasizes violation, mutation, or grotesque transformation of the h
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What is the primary mechanism by which body horror generates fear?"
-    options:
-      - "Sudden loud noises and jump scares"
-      - "Visceral physicality: violation, mutation, and transformation of bodily integrity"
-      - "Complex philosophical arguments about mortality"
-      - "Threats to the protagonist's romantic relationships"
-    correct_answer: 1
-    explanation: "The core idea states that body horror 'generates fear through visceral physicality: mutation, disease, parasitism, or forced transformation that violates bodily integrity.' The fear comes from direct physical violation, not abstract concepts or sound design."
-  - type: multiple-choice
-    question: "How does body horror typically function symbolically?"
-    options:
-      - "It never carries meaning beyond literal descriptions of grotesque transformations"
-      - "Physical transgression represents deeper social and psychological anxieties"
-      - "It exclusively represents anxieties about aging and mortality"
-      - "It symbolizes only religious punishment and divine judgment"
-    correct_answer: 1
-    explanation: "The core idea notes that 'body horror often carries metaphorical significance, with physical transgression representing deeper anxieties,' indicating that the physical horror functions as metaphor for broader psychological fears."
-  - type: true-false
-    question: "Body horror works primarily through psychological suspense rather than visceral, physical descriptions of bodily violation."
-    correct_answer: false
-    explanation: "The core idea emphasizes that body horror 'generates fear through visceral physicality,' making the detailed physical descriptions central to the effect, not secondary to psychological tension."
-  - type: true-false
-    question: "Body horror can function both as literal depiction of bodily violation and as metaphor for social anxieties like contamination, disease, or deviation from norms."
-    correct_answer: true
-    explanation: "The core idea explicitly notes that body horror 'often carries metaphorical significance, with physical transgression representing deeper anxieties,' confirming that it operates on both literal and symbolic levels."
-  - type: short-answer
-    question: "Why would an author choose body horror as the vehicle for exploring abstract anxieties rather than addressing those anxieties directly?"
-    explanation: "Good answers should explain that metaphor through bodily violation creates visceral, emotional understanding that abstract discussion cannot achieve. Readers experience the anxiety physically through their imagination of the body's violation. This also allows authors to explore taboo subjects and uncomfortable truths more powerfully because readers must confront them in concrete form rather than abstract form."
+- question: What is the primary mechanism by which body horror generates fear?
+  type: multiple-choice
+  options:
+  - Sudden loud noises and jump scares
+  - 'Visceral physicality: violation, mutation, and transformation of bodily integrity'
+  - Complex philosophical arguments about mortality
+  - Threats to the protagonist's romantic relationships
+  answer: 1
+  explanation: 'The core idea states that body horror ''generates fear through visceral physicality: mutation, disease, parasitism, or forced transformation that violates bodily integrity.'' The fear comes from direct physical violation, not abstract concepts or sound design.'
+
+- question: How does body horror typically function symbolically?
+  type: multiple-choice
+  options:
+  - It never carries meaning beyond literal descriptions of grotesque transformations
+  - Physical transgression represents deeper social and psychological anxieties
+  - It exclusively represents anxieties about aging and mortality
+  - It symbolizes only religious punishment and divine judgment
+  answer: 1
+  explanation: The core idea notes that 'body horror often carries metaphorical significance, with physical transgression representing deeper anxieties,' indicating that the physical horror functions as metaphor for broader psychological fears.
+
+- question: Body horror works primarily through psychological suspense rather than visceral, physical descriptions of bodily violation.
+  type: true-false
+  answer: false
+  explanation: The core idea emphasizes that body horror 'generates fear through visceral physicality,' making the detailed physical descriptions central to the effect, not secondary to psychological tension.
+
+- question: Body horror can function both as literal depiction of bodily violation and as metaphor for social anxieties like contamination, disease, or deviation from norms.
+  type: true-false
+  answer: true
+  explanation: The core idea explicitly notes that body horror 'often carries metaphorical significance, with physical transgression representing deeper anxieties,' confirming that it operates on both literal and symbolic levels.
+
+- question: Why would an author choose body horror as the vehicle for exploring abstract anxieties rather than addressing those anxieties directly?
+  type: short-answer
+  explanation: Good answers should explain that metaphor through bodily violation creates visceral, emotional understanding that abstract discussion cannot achieve. Readers experience the anxiety physically through their imagination of the body's violation. This also allows authors to explore taboo subjects and uncomfortable truths more powerfully because readers must confront them in concrete form rather than abstract form.
 ```
 
 ## Explainer

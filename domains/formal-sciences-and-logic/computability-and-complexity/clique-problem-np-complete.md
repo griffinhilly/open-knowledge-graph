@@ -37,42 +37,45 @@ The pattern generalizes: many natural graph optimization problems — maximum cl
 
 ## Questions
 
-- id: clique-problem-np-complete-q1
-  type: mc
-  question: "In the reduction from 3-SAT to CLIQUE, how is the graph constructed from a 3-CNF formula with m clauses?"
+```yaml
+- question: In the reduction from 3-SAT to CLIQUE, how is the graph constructed from a 3-CNF formula with m clauses?
+  type: multiple-choice
   options:
-    - "One vertex per variable, edges between variables in the same clause"
-    - "One vertex per literal occurrence in each clause, edges between non-contradictory literals from different clauses"
-    - "One vertex per clause, edges between clauses that share a variable"
-    - "One vertex per literal occurrence in each clause, edges between all literals in the same clause"
-  correct: 1
-  explanation: "The reduction creates one vertex per literal in each clause and connects two vertices with an edge if and only if they come from different clauses and are not contradictory (not a literal and its negation)."
+  - One vertex per variable, edges between variables in the same clause
+  - One vertex per literal occurrence in each clause, edges between non-contradictory literals from different clauses
+  - One vertex per clause, edges between clauses that share a variable
+  - One vertex per literal occurrence in each clause, edges between all literals in the same clause
+  answer: 1
+  explanation: The reduction creates one vertex per literal in each clause and connects two vertices with an edge if and only if they come from different clauses and are not contradictory (not a literal and its negation).
+  id: clique-problem-np-complete-q1
 
-- id: clique-problem-np-complete-q2
-  type: mc
-  question: "What is the relationship between the clique problem and the independent set problem?"
+- question: What is the relationship between the clique problem and the independent set problem?
+  type: multiple-choice
   options:
-    - "They are the same problem with different names"
-    - "A set S is a clique in G if and only if S is an independent set in the complement graph of G"
-    - "Independent set is solvable in polynomial time while clique is not"
-    - "A clique in G corresponds to a vertex cover in the complement graph of G"
-  correct: 1
-  explanation: "A set S is a clique in G if and only if S is an independent set in the complement graph (the graph with edges exactly where G has none). This makes the two problems polynomial-time equivalent."
+  - They are the same problem with different names
+  - A set S is a clique in G if and only if S is an independent set in the complement graph of G
+  - Independent set is solvable in polynomial time while clique is not
+  - A clique in G corresponds to a vertex cover in the complement graph of G
+  answer: 1
+  explanation: A set S is a clique in G if and only if S is an independent set in the complement graph (the graph with edges exactly where G has none). This makes the two problems polynomial-time equivalent.
+  id: clique-problem-np-complete-q2
 
-- id: clique-problem-np-complete-q3
-  type: tf
-  question: "Verifying that a given set of k vertices forms a clique can be done in polynomial time."
-  correct: true
-  explanation: "Verification requires checking all k(k-1)/2 pairs of vertices for edges, which is polynomial in k and thus polynomial in the size of the input. This is why CLIQUE is in NP."
+- question: Verifying that a given set of k vertices forms a clique can be done in polynomial time.
+  type: true-false
+  answer: true
+  explanation: Verification requires checking all k(k-1)/2 pairs of vertices for edges, which is polynomial in k and thus polynomial in the size of the input. This is why CLIQUE is in NP.
+  id: clique-problem-np-complete-q3
 
-- id: clique-problem-np-complete-q4
-  type: tf
-  question: "In the 3-SAT to CLIQUE reduction, a clique of size m in the constructed graph may include two vertices from the same clause."
-  correct: false
-  explanation: "Edges only connect vertices from different clauses, so no two vertices from the same clause are adjacent. A clique of size m must therefore pick exactly one vertex per clause."
+- question: In the 3-SAT to CLIQUE reduction, a clique of size m in the constructed graph may include two vertices from the same clause.
+  type: true-false
+  answer: false
+  explanation: Edges only connect vertices from different clauses, so no two vertices from the same clause are adjacent. A clique of size m must therefore pick exactly one vertex per clause.
+  id: clique-problem-np-complete-q4
 
-- id: clique-problem-np-complete-q5
-  type: sa
-  question: "What is the name of the property relating a vertex cover to an independent set in the same graph?"
-  correct: "S is an independent set if and only if V \\ S is a vertex cover"
-  explanation: "The complement relationship means that removing an independent set from the vertex set yields a vertex cover, and vice versa. This links the two NP-complete problems directly."
+- question: What is the name of the property relating a vertex cover to an independent set in the same graph?
+  type: short-answer
+  answer: S is an independent set if and only if V \ S is a vertex cover
+  explanation: The complement relationship means that removing an independent set from the vertex set yields a vertex cover, and vice versa. This links the two NP-complete problems directly.
+  id: clique-problem-np-complete-q5
+```
+

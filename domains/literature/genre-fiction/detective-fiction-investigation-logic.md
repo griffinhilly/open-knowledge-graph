@@ -23,36 +23,39 @@ Detective fiction centers on investigating a crime, typically murder, where read
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What role do readers play in detective fiction's narrative structure?"
-    options:
-      - "Readers are passive observers of the detective's investigation"
-      - "Readers and detective work together to solve the mystery, with fair access to clues"
-      - "Readers are expected to know the solution before the detective discovers it"
-      - "Readers provide no role in solving the mystery"
-    correct_answer: 1
-    explanation: "The core idea states that in detective fiction 'readers and detective work together to solve the mystery' and 'clues available to the reader enable solving the case,' making readers active participants."
-  - type: multiple-choice
-    question: "What is 'fair play' in detective fiction?"
-    options:
-      - "The detective always wins"
-      - "Clues available to readers enable them to solve the case alongside or before the detective"
-      - "Crime always goes unsolved"
-      - "Violence must be minimized"
-    correct_answer: 1
-    explanation: "The core idea defines fair play as depending on 'clues available to the reader enable solving the case,' meaning equitable information distribution between reader and detective."
-  - type: true-false
-    question: "Detective fiction prioritizes logic, observation, and deductive reasoning as the primary drivers of narrative structure."
-    correct_answer: true
-    explanation: "The core idea explicitly states 'detective fiction emphasizes logic, observation, and deductive reasoning as narrative drivers,' making intellectual processes central to the genre."
-  - type: true-false
-    question: "Fair play in detective fiction means readers should be unable to solve the case independently of the detective."
-    correct_answer: false
-    explanation: "The core idea indicates fair play means 'clues available to the reader enable solving the case,' implying readers theoretically could solve it, not that they should be unable to."
-  - type: short-answer
-    question: "Why is fair play essential to detective fiction's appeal and structure, rather than an optional feature?"
-    explanation: "Good answers should explain that fair play transforms detective fiction from entertainment where the author tricks readers into an intellectual competition where readers can test their reasoning. Fair play makes the puzzle the point—readers should feel satisfied if they solve it themselves, challenged if they can't. Without fair play, it's just a story where someone commits a crime."
+- question: What role do readers play in detective fiction's narrative structure?
+  type: multiple-choice
+  options:
+  - Readers are passive observers of the detective's investigation
+  - Readers and detective work together to solve the mystery, with fair access to clues
+  - Readers are expected to know the solution before the detective discovers it
+  - Readers provide no role in solving the mystery
+  answer: 1
+  explanation: The core idea states that in detective fiction 'readers and detective work together to solve the mystery' and 'clues available to the reader enable solving the case,' making readers active participants.
+
+- question: What is 'fair play' in detective fiction?
+  type: multiple-choice
+  options:
+  - The detective always wins
+  - Clues available to readers enable them to solve the case alongside or before the detective
+  - Crime always goes unsolved
+  - Violence must be minimized
+  answer: 1
+  explanation: The core idea defines fair play as depending on 'clues available to the reader enable solving the case,' meaning equitable information distribution between reader and detective.
+
+- question: Detective fiction prioritizes logic, observation, and deductive reasoning as the primary drivers of narrative structure.
+  type: true-false
+  answer: true
+  explanation: The core idea explicitly states 'detective fiction emphasizes logic, observation, and deductive reasoning as narrative drivers,' making intellectual processes central to the genre.
+
+- question: Fair play in detective fiction means readers should be unable to solve the case independently of the detective.
+  type: true-false
+  answer: false
+  explanation: The core idea indicates fair play means 'clues available to the reader enable solving the case,' implying readers theoretically could solve it, not that they should be unable to.
+
+- question: Why is fair play essential to detective fiction's appeal and structure, rather than an optional feature?
+  type: short-answer
+  explanation: Good answers should explain that fair play transforms detective fiction from entertainment where the author tricks readers into an intellectual competition where readers can test their reasoning. Fair play makes the puzzle the point—readers should feel satisfied if they solve it themselves, challenged if they can't. Without fair play, it's just a story where someone commits a crime.
 ```
 
 ## Explainer

@@ -35,39 +35,39 @@ Russian 19th-century realism is not mere documentation of social conditions; it 
 ## Questions
 
 ```yaml
-- type: multiple-choice
-  question: "What is distinctive about how Russian 19th-century novelists approach the relationship between psychological realism and philosophical inquiry?"
+- question: What is distinctive about how Russian 19th-century novelists approach the relationship between psychological realism and philosophical inquiry?
+  type: multiple-choice
   options:
-    - "They treat psychology and philosophy as entirely separate concerns"
-    - "They use psychological realism to explore metaphysical questions; characters' inner struggles become vehicles for addressing fundamental philosophical problems"
-    - "They abandoned philosophy in favor of pure psychological observation"
-    - "Russian novelists avoided serious engagement with either psychology or philosophy"
+  - They treat psychology and philosophy as entirely separate concerns
+  - They use psychological realism to explore metaphysical questions; characters' inner struggles become vehicles for addressing fundamental philosophical problems
+  - They abandoned philosophy in favor of pure psychological observation
+  - Russian novelists avoided serious engagement with either psychology or philosophy
   answer: 1
-  explanation: "Russian 19th-century novelists recognized that profound philosophical questions are not abstract; they are lived through in consciousness and emotional struggle. When Dostoevsky's characters grapple with the meaning of suffering, the problem is not merely intellectual but existential—lived through their actual psychology. When Tolstoy depicts the transformation of consciousness, the narrative explores not only a character's psychological development but fundamental questions about freedom, meaning, and human purpose. By treating characters' inner struggles as vehicles for philosophical inquiry, Russian novelists show that the novel form can do philosophical work. The novel can explore questions about faith, freedom, meaning, and suffering more adequately than formal philosophy because it can show how these abstract problems are actually lived through in consciousness."
+  explanation: Russian 19th-century novelists recognized that profound philosophical questions are not abstract; they are lived through in consciousness and emotional struggle. When Dostoevsky's characters grapple with the meaning of suffering, the problem is not merely intellectual but existential—lived through their actual psychology. When Tolstoy depicts the transformation of consciousness, the narrative explores not only a character's psychological development but fundamental questions about freedom, meaning, and human purpose. By treating characters' inner struggles as vehicles for philosophical inquiry, Russian novelists show that the novel form can do philosophical work. The novel can explore questions about faith, freedom, meaning, and suffering more adequately than formal philosophy because it can show how these abstract problems are actually lived through in consciousness.
 
-- type: multiple-choice
-  question: "How do Russian novelists like Dostoevsky and Tolstoy use the expansive novel form to address questions of freedom, suffering, meaning, and faith?"
+- question: How do Russian novelists like Dostoevsky and Tolstoy use the expansive novel form to address questions of freedom, suffering, meaning, and faith?
+  type: multiple-choice
   options:
-    - "They use brevity to quickly answer philosophical questions"
-    - "The expansive form allows sustained psychological exploration over hundreds of pages, showing how consciousness grapples with existential questions through narrative rather than abstract argument"
-    - "They avoid engaging with serious philosophical questions"
-    - "The form is unrelated to the philosophical content"
+  - They use brevity to quickly answer philosophical questions
+  - The expansive form allows sustained psychological exploration over hundreds of pages, showing how consciousness grapples with existential questions through narrative rather than abstract argument
+  - They avoid engaging with serious philosophical questions
+  - The form is unrelated to the philosophical content
   answer: 1
-  explanation: "The Russian 19th-century novel's expansive length is not excessive but philosophically necessary. Questions about freedom, suffering, and meaning cannot be resolved quickly or abstractly; they must be lived through narrative, shown in psychological complexity. By devoting hundreds of pages to a character's inner struggle—to Raskolnikov's anguish over whether his crime was justified, to Pierre's search for life's meaning in War and Peace—novelists create space for philosophical work that discursive argument alone cannot achieve. The form itself becomes the vehicle for philosophical discovery. The reader experiences the temporal duration of struggle, the complexity of consciousness, the way philosophical problems embed themselves in ordinary life. The novel's expansiveness allows philosophical depth that brevity would eliminate."
+  explanation: The Russian 19th-century novel's expansive length is not excessive but philosophically necessary. Questions about freedom, suffering, and meaning cannot be resolved quickly or abstractly; they must be lived through narrative, shown in psychological complexity. By devoting hundreds of pages to a character's inner struggle—to Raskolnikov's anguish over whether his crime was justified, to Pierre's search for life's meaning in War and Peace—novelists create space for philosophical work that discursive argument alone cannot achieve. The form itself becomes the vehicle for philosophical discovery. The reader experiences the temporal duration of struggle, the complexity of consciousness, the way philosophical problems embed themselves in ordinary life. The novel's expansiveness allows philosophical depth that brevity would eliminate.
 
-- type: true-false
-  statement: "Russian 19th-century realism is primarily concerned with social documentation and has little philosophical or metaphysical dimension."
+- question: Russian 19th-century realism is primarily concerned with social documentation and has little philosophical or metaphysical dimension.
+  type: true-false
   answer: false
-  explanation: "This misconception treats realism as merely concerned with documenting external social conditions. Russian novelists use realism differently: they employ realistic detail to create psychological and philosophical depth. The social world is depicted realistically, but the emphasis falls on how characters experience and interpret that world—how social conditions shape consciousness, how individuals grapple with metaphysical questions, how freedom and necessity operate in lived experience. Realism becomes a vehicle for philosophical exploration rather than mere documentation. The novel is realistic in its attention to social detail and psychological truth, but deeply philosophical in its ambitions."
+  explanation: 'This misconception treats realism as merely concerned with documenting external social conditions. Russian novelists use realism differently: they employ realistic detail to create psychological and philosophical depth. The social world is depicted realistically, but the emphasis falls on how characters experience and interpret that world—how social conditions shape consciousness, how individuals grapple with metaphysical questions, how freedom and necessity operate in lived experience. Realism becomes a vehicle for philosophical exploration rather than mere documentation. The novel is realistic in its attention to social detail and psychological truth, but deeply philosophical in its ambitions.'
 
-- type: true-false
-  statement: "Russian novelists established that the novel form can achieve philosophical work equivalent to formal philosophical treatises."
+- question: Russian novelists established that the novel form can achieve philosophical work equivalent to formal philosophical treatises.
+  type: true-false
   answer: true
-  explanation: "This is a crucial recognition that Russian 19th-century literature achieved. Formal philosophy addresses questions through argument and logical demonstration. The novel addresses questions through narrative, characterization, and the exploration of consciousness. Russian novelists showed that these are not competing approaches but complementary ways of engaging philosophical problems. The novel can explore the lived experience of existential struggle in ways that treatises cannot; formal philosophy can articulate general principles that novels only imply. By creating novels of unprecedented psychological and philosophical depth, Russian writers demonstrated that the novel is a legitimate vehicle for serious philosophical work, not merely entertainment or social commentary."
+  explanation: This is a crucial recognition that Russian 19th-century literature achieved. Formal philosophy addresses questions through argument and logical demonstration. The novel addresses questions through narrative, characterization, and the exploration of consciousness. Russian novelists showed that these are not competing approaches but complementary ways of engaging philosophical problems. The novel can explore the lived experience of existential struggle in ways that treatises cannot; formal philosophy can articulate general principles that novels only imply. By creating novels of unprecedented psychological and philosophical depth, Russian writers demonstrated that the novel is a legitimate vehicle for serious philosophical work, not merely entertainment or social commentary.
 
-- type: short-answer
-  question: "How do Russian novelists use character consciousness as a site for philosophical struggle, and what does this reveal about the relationship between psychology and philosophy?"
-  explanation: "Russian novelists recognize that philosophical questions are not abstract or external to consciousness but are lived through in the actual texture of individual consciousness. A character's psychological crisis (doubt, anguish, spiritual searching) is simultaneously a philosophical crisis (questions about meaning, faith, freedom). By depicting consciousness in its full complexity and contradiction, novelists explore philosophical problems more adequately than abstract argument could. The reader experiences the psychological reality of existential struggle—the way doubt operates through emotion, the way faith is challenged through lived experience, the way freedom is constrained by circumstance yet remains real. This reveals that psychology and philosophy are inseparable: philosophical questions are always already psychological, lived through consciousness and emotion. The novel form, by attending to psychological realism, becomes a vehicle for philosophical work precisely because consciousness is the site where philosophical problems become real and urgent."
+- question: How do Russian novelists use character consciousness as a site for philosophical struggle, and what does this reveal about the relationship between psychology and philosophy?
+  type: short-answer
+  explanation: 'Russian novelists recognize that philosophical questions are not abstract or external to consciousness but are lived through in the actual texture of individual consciousness. A character''s psychological crisis (doubt, anguish, spiritual searching) is simultaneously a philosophical crisis (questions about meaning, faith, freedom). By depicting consciousness in its full complexity and contradiction, novelists explore philosophical problems more adequately than abstract argument could. The reader experiences the psychological reality of existential struggle—the way doubt operates through emotion, the way faith is challenged through lived experience, the way freedom is constrained by circumstance yet remains real. This reveals that psychology and philosophy are inseparable: philosophical questions are always already psychological, lived through consciousness and emotion. The novel form, by attending to psychological realism, becomes a vehicle for philosophical work precisely because consciousness is the site where philosophical problems become real and urgent.'
 ```
 
 ## Explainer

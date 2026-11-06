@@ -25,36 +25,39 @@ Cyberpunk explores near-future worlds dominated by artificial intelligence, virt
 ## Questions
 
 ```yaml
-questions:
-  - type: multiple-choice
-    question: "What is the primary setting and social structure in cyberpunk narratives?"
-    options:
-      - "Rural pastoral communities with limited technology"
-      - "Government-controlled utopian states"
-      - "Near-future worlds dominated by mega-corporations controlling AI, virtual reality, and digital networks"
-      - "Historical settings with anachronistic technology"
-    correct_answer: 2
-    explanation: "The core idea states that cyberpunk explores 'near-future worlds dominated by artificial intelligence, virtual reality, and digital networks, typically controlled by mega-corporations,' establishing the corporate-controlled techno-future as foundational."
-  - type: multiple-choice
-    question: "What makes identity particularly complex in cyberpunk, according to the core idea?"
-    options:
-      - "Characters typically age and grow like in all fiction"
-      - "Consciousness itself may be digital or distributed, complicating the concept of a unified self"
-      - "Identity is unambiguous and stable in cyberpunk worlds"
-      - "Cyberpunk only explores political identity, not personal identity"
-    correct_answer: 1
-    explanation: "The core idea notes that in cyberpunk systems 'consciousness itself may be digital or distributed,' which fundamentally challenges traditional concepts of unified, embodied identity."
-  - type: true-false
-    question: "In cyberpunk, mega-corporations are typically portrayed as benevolent forces protecting human freedom."
-    correct_answer: false
-    explanation: "The core idea lists investigating 'corporate power' alongside 'human agency,' implying tension between corporate control and human agency—not corporate beneficence. Cyberpunk is inherently critical of corporate power."
-  - type: true-false
-    question: "Cyberpunk explores questions about what it means to be human when consciousness can be uploaded, copied, or distributed across networks."
-    correct_answer: true
-    explanation: "The core idea explicitly mentions investigating 'identity' in systems 'where consciousness itself may be digital or distributed,' directly raising these questions about the nature of selfhood."
-  - type: short-answer
-    question: "How does the possibility of digital or distributed consciousness fundamentally reshape questions about personal identity and human agency in cyberpunk?"
-    explanation: "Good answers should address how uploading consciousness raises questions about continuity of self, how distributed consciousness challenges unified identity, how consciousness as software rather than biology complicates ownership (corporate control of consciousness), and how agency becomes ambiguous when humans may be running code created by others."
+- question: What is the primary setting and social structure in cyberpunk narratives?
+  type: multiple-choice
+  options:
+  - Rural pastoral communities with limited technology
+  - Government-controlled utopian states
+  - Near-future worlds dominated by mega-corporations controlling AI, virtual reality, and digital networks
+  - Historical settings with anachronistic technology
+  answer: 2
+  explanation: The core idea states that cyberpunk explores 'near-future worlds dominated by artificial intelligence, virtual reality, and digital networks, typically controlled by mega-corporations,' establishing the corporate-controlled techno-future as foundational.
+
+- question: What makes identity particularly complex in cyberpunk, according to the core idea?
+  type: multiple-choice
+  options:
+  - Characters typically age and grow like in all fiction
+  - Consciousness itself may be digital or distributed, complicating the concept of a unified self
+  - Identity is unambiguous and stable in cyberpunk worlds
+  - Cyberpunk only explores political identity, not personal identity
+  answer: 1
+  explanation: The core idea notes that in cyberpunk systems 'consciousness itself may be digital or distributed,' which fundamentally challenges traditional concepts of unified, embodied identity.
+
+- question: In cyberpunk, mega-corporations are typically portrayed as benevolent forces protecting human freedom.
+  type: true-false
+  answer: false
+  explanation: The core idea lists investigating 'corporate power' alongside 'human agency,' implying tension between corporate control and human agency—not corporate beneficence. Cyberpunk is inherently critical of corporate power.
+
+- question: Cyberpunk explores questions about what it means to be human when consciousness can be uploaded, copied, or distributed across networks.
+  type: true-false
+  answer: true
+  explanation: The core idea explicitly mentions investigating 'identity' in systems 'where consciousness itself may be digital or distributed,' directly raising these questions about the nature of selfhood.
+
+- question: How does the possibility of digital or distributed consciousness fundamentally reshape questions about personal identity and human agency in cyberpunk?
+  type: short-answer
+  explanation: Good answers should address how uploading consciousness raises questions about continuity of self, how distributed consciousness challenges unified identity, how consciousness as software rather than biology complicates ownership (corporate control of consciousness), and how agency becomes ambiguous when humans may be running code created by others.
 ```
 
 ## Explainer

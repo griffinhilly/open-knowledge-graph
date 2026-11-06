@@ -28,35 +28,39 @@ Adventure narratives in children's literature center on protagonists navigating 
 ## Questions
 
 ```yaml
-multiple-choice:
-  - question: "What is the primary narrative focus of adventure stories in children's literature?"
-    options:
-      - "Detailed exploration of the protagonist's internal emotional states and psychological conflicts"
-      - "Action, discovery, and the protagonist's resourcefulness in facing external physical or environmental challenges"
-      - "Romantic relationships and social dynamics between characters"
-      - "Educational content about specific historical periods"
-    answer: 1
-    explanation: "Adventure narratives prioritize external action and discovery—protagonists overcoming physical obstacles, navigating environments, and demonstrating practical problem-solving—rather than psychological introspection."
-  - question: "How does escalating obstacle structure function in children's adventure narratives?"
-    options:
-      - "It makes the story easier as the protagonist gains experience"
-      - "It increases narrative tension and stakes as the protagonist faces progressively more difficult challenges, maintaining reader engagement"
-      - "It eliminates the need for any climactic resolution"
-      - "It ensures the protagonist always succeeds without effort"
-    answer: 1
-    explanation: "Escalating obstacles build tension progressively, ensuring the story maintains intensity as the protagonist faces increasingly difficult challenges that require greater resourcefulness and determination."
+- question: What is the primary narrative focus of adventure stories in children's literature?
+  type: multiple-choice
+  options:
+  - Detailed exploration of the protagonist's internal emotional states and psychological conflicts
+  - Action, discovery, and the protagonist's resourcefulness in facing external physical or environmental challenges
+  - Romantic relationships and social dynamics between characters
+  - Educational content about specific historical periods
+  answer: 1
+  explanation: Adventure narratives prioritize external action and discovery—protagonists overcoming physical obstacles, navigating environments, and demonstrating practical problem-solving—rather than psychological introspection.
 
-true-false:
-  - question: "True or False: Adventure stories emphasize what a character does and can discover, rather than primarily exploring internal psychological development."
-    answer: true
-    explanation: "This is true. Adventure narratives center on external action, discovery, and challenge-solving rather than deep psychological introspection, though character development may occur through these external experiences."
-  - question: "True or False: Adventure narratives typically follow a single continuous linear sequence without repeated pattern."
-    answer: false
-    explanation: "This is false. Adventure fiction often employs episodic structure where the protagonist faces a series of distinct obstacles or challenges, each with its own resolution, building cumulatively toward the climax."
+- question: How does escalating obstacle structure function in children's adventure narratives?
+  type: multiple-choice
+  options:
+  - It makes the story easier as the protagonist gains experience
+  - It increases narrative tension and stakes as the protagonist faces progressively more difficult challenges, maintaining reader engagement
+  - It eliminates the need for any climactic resolution
+  - It ensures the protagonist always succeeds without effort
+  answer: 1
+  explanation: Escalating obstacles build tension progressively, ensuring the story maintains intensity as the protagonist faces increasingly difficult challenges that require greater resourcefulness and determination.
 
-short-answer:
-  - question: "Why are adventure narratives structured with escalating obstacles rather than obstacles of consistent difficulty throughout the story?"
-    explanation: "Escalating obstacle structure maintains narrative momentum and reader engagement by continuously raising stakes and intensity. If obstacles remained equal in difficulty, reader attention would flag as the protagonist becomes more experienced and capable. Escalating obstacles ensure that the protagonist's growing skills are constantly challenged by proportionally greater difficulties, creating ongoing tension. Additionally, escalating structure creates a sense of earned victory: the final triumph feels meaningful because it required overcoming progressively more formidable challenges. This structure also mirrors realistic learning and development—as we grow more capable, we naturally seek greater challenges—making the narrative arc psychologically satisfying."
+- question: 'True or False: Adventure stories emphasize what a character does and can discover, rather than primarily exploring internal psychological development.'
+  type: true-false
+  answer: true
+  explanation: This is true. Adventure narratives center on external action, discovery, and challenge-solving rather than deep psychological introspection, though character development may occur through these external experiences.
+
+- question: 'True or False: Adventure narratives typically follow a single continuous linear sequence without repeated pattern.'
+  type: true-false
+  answer: false
+  explanation: This is false. Adventure fiction often employs episodic structure where the protagonist faces a series of distinct obstacles or challenges, each with its own resolution, building cumulatively toward the climax.
+
+- question: Why are adventure narratives structured with escalating obstacles rather than obstacles of consistent difficulty throughout the story?
+  type: short-answer
+  explanation: 'Escalating obstacle structure maintains narrative momentum and reader engagement by continuously raising stakes and intensity. If obstacles remained equal in difficulty, reader attention would flag as the protagonist becomes more experienced and capable. Escalating obstacles ensure that the protagonist''s growing skills are constantly challenged by proportionally greater difficulties, creating ongoing tension. Additionally, escalating structure creates a sense of earned victory: the final triumph feels meaningful because it required overcoming progressively more formidable challenges. This structure also mirrors realistic learning and development—as we grow more capable, we naturally seek greater challenges—making the narrative arc psychologically satisfying.'
 ```
 
 ## Explainer
