@@ -6,8 +6,6 @@ course: artificial-intelligence
 prerequisites:
 - id: eigenvalues-and-eigenvectors
   type: hard
-- id: eigenvalues-and-eigenvectors
-  type: soft
 - id: diagonalization
   type: hard
 - id: covariance-correlation-theory

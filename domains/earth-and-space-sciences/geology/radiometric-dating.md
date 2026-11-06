@@ -14,8 +14,6 @@ prerequisites:
   type: hard
 - id: exponential-growth-and-decay
   type: hard
-- id: exponential-growth-and-decay
-  type: soft
 - id: alpha-decay-emission
   type: hard
 builds-toward:

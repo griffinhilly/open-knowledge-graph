@@ -6,8 +6,6 @@ course: numerical-analysis
 prerequisites:
 - id: stiff-differential-equations
   type: hard
-- id: stiff-differential-equations
-  type: soft
 tags:
 - stability
 - a-stability

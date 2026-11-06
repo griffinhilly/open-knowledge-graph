@@ -12,8 +12,6 @@ prerequisites:
   type: soft
 - id: vectors-in-two-dimensions
   type: soft
-- id: cross-product
-  type: soft
 builds-toward:
 - rotational-dynamics
 - angular-momentum

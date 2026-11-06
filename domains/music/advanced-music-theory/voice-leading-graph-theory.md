@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: graph-theory-intro
   type: soft
-- id: graph-theory-intro
-  type: soft
 - id: graph-connectivity
   type: soft
 - id: tonnetz-navigation-voice-leading

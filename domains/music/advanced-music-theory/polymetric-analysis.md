@@ -12,8 +12,6 @@ prerequisites:
   type: soft
 - id: divisibility-and-gcd
   type: soft
-- id: divisibility-and-gcd
-  type: soft
 tags:
 - polymetric
 - polyrhythmic

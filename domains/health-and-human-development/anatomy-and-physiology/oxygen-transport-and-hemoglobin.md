@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: blood-composition-and-function
   type: hard
-- id: hemoglobin-cooperativity-oxygen-binding
-  type: hard
 - id: protein-quaternary-structure
   type: soft
 - id: oxygen-delivery-hemoglobin-tissue-extraction

@@ -6,8 +6,6 @@ course: labor-economics
 prerequisites:
 - id: consumer-theory-utility
   type: hard
-- id: consumer-theory-utility
-  type: soft
 tags:
 - labor-supply
 - income-effect

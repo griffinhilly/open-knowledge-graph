@@ -22,8 +22,6 @@ prerequisites:
   type: hard
 - id: functions-domain-codomain-range
   type: soft
-- id: distance-and-distance-formula-3d
-  type: soft
 - id: optimization-multivariable-basics
   type: soft
 builds-toward:

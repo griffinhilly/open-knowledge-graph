@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: generalized-coordinates
   type: hard
-- id: virtual-work-method
-  type: soft
 - id: constraint-forces-and-reactions
   type: soft
 - id: d-alembert-principle

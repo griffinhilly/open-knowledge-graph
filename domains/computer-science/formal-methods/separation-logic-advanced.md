@@ -6,8 +6,6 @@ course: formal-methods
 prerequisites:
 - id: separation-logic
   type: hard
-- id: separation-logic
-  type: hard
 - id: weakest-precondition
   type: soft
 builds-toward: []

@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: dot-product
   type: hard
-- id: directional-derivatives
-  type: soft
 - id: chain-rule-multivariable
   type: soft
 - id: rates-of-change-partial-derivatives

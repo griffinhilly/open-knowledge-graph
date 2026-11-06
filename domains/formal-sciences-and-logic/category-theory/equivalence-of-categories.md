@@ -20,8 +20,6 @@ prerequisites:
   type: soft
 - id: function-composition-and-inverses
   type: soft
-- id: function-composition-and-inverses
-  type: soft
 - id: injections-surjections-bijections-classification
   type: soft
 tags:

@@ -14,8 +14,6 @@ prerequisites:
   type: soft
 - id: divisibility-and-gcd
   type: soft
-- id: divisibility-and-gcd
-  type: soft
 builds-toward:
 - isorhythmic-structures-modern
 tags:

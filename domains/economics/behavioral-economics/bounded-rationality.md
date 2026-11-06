@@ -6,8 +6,6 @@ course: behavioral-economics
 prerequisites:
 - id: consumer-theory-utility
   type: soft
-- id: consumer-theory-utility
-  type: soft
 tags:
 - Simon
 - satisficing

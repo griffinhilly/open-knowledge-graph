@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: major-depressive-disorder
   type: soft
-- id: major-depressive-disorder
-  type: soft
 - id: behavioral-activation-depression
   type: soft
 builds-toward:

@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: electronic-transitions-excited-states
   type: soft
-- id: fluorescence-spectroscopy
-  type: soft
 - id: atomic-emission-spectroscopy-icp-oes
   type: soft
 - id: ultraviolet-visible-spectroscopy-quantitative

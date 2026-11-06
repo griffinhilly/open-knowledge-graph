@@ -12,8 +12,6 @@ prerequisites:
   type: soft
 - id: linear-transformations
   type: soft
-- id: linear-transformations
-  type: soft
 - id: matrix-operations
   type: soft
 builds-toward:

@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: cross-product
   type: soft
-- id: cross-product
-  type: soft
 builds-toward:
 - conservation-of-angular-momentum
 tags:

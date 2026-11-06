@@ -7,10 +7,8 @@ prerequisites:
 - id: autonomic-nervous-system-organization-and-control
   type: hard
 - id: hypothalamus-pituitary-axis
-  type: soft
-- id: hormone-signaling-mechanisms
   type: hard
-- id: hypothalamus-pituitary-axis
+- id: hormone-signaling-mechanisms
   type: hard
 - id: endocrine-system-overview
   type: soft

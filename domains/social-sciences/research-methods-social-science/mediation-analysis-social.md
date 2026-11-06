@@ -14,8 +14,6 @@ prerequisites:
   type: soft
 - id: partial-derivatives
   type: soft
-- id: partial-derivatives
-  type: soft
 tags:
 - mechanisms
 - indirect-effects

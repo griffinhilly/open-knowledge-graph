@@ -9,8 +9,6 @@ prerequisites:
 - id: suprachiasmatic-nucleus-circadian
   type: soft
 - id: memory-consolidation-systems
-  type: soft
-- id: memory-consolidation-systems
   type: hard
 - id: brainstem-reticular-consciousness
   type: soft

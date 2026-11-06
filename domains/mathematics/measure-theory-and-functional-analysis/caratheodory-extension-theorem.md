@@ -6,8 +6,6 @@ course: measure-theory-and-functional-analysis
 prerequisites:
 - id: outer-measure
   type: hard
-- id: outer-measure
-  type: soft
 builds-toward:
 - lebesgue-outer-measure
 tags:

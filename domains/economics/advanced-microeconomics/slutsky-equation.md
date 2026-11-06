@@ -12,8 +12,6 @@ prerequisites:
   type: hard
 - id: linear-transformations
   type: soft
-- id: partial-derivatives
-  type: hard
 - id: implicit-differentiation-multivariable
   type: soft
 - id: hicksian-demand

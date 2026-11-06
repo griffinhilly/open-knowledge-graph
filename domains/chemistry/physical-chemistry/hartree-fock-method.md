@@ -14,8 +14,6 @@ prerequisites:
   type: hard
 - id: schrodinger-equation-intro
   type: hard
-- id: linear-transformations
-  type: soft
 - id: variational-method-ground-state
   type: hard
 builds-toward:

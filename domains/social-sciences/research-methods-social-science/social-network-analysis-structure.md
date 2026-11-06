@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: degree-sequences
   type: soft
-- id: graph-theory-intro
-  type: soft
 - id: connected-components
   type: soft
 - id: network-analysis-structural-positions

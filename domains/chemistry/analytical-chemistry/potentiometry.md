@@ -14,8 +14,6 @@ prerequisites:
   type: soft
 - id: electric-current-and-resistance
   type: soft
-- id: electric-potential
-  type: soft
 - id: electroanalytical-overview
   type: soft
 builds-toward:

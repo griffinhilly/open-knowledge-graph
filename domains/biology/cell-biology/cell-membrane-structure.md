@@ -12,8 +12,6 @@ prerequisites:
   type: soft
 - id: functional-groups-overview
   type: soft
-- id: intermolecular-forces
-  type: soft
 builds-toward:
 - passive-transport
 - active-transport

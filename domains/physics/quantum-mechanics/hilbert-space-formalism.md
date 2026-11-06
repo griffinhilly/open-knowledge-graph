@@ -12,8 +12,6 @@ prerequisites:
   type: hard
 - id: inner-product-spaces
   type: hard
-- id: vector-spaces
-  type: hard
 builds-toward:
 - dirac-notation
 - quantum-postulates

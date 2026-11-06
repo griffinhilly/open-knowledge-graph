@@ -9,8 +9,6 @@ prerequisites:
 - id: linear-transformations
   type: hard
 - id: eigenvalues-and-eigenvectors
-  type: soft
-- id: eigenvalues-and-eigenvectors
   type: hard
 - id: matrix-operations
   type: hard

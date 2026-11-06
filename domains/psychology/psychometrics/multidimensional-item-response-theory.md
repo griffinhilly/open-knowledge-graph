@@ -9,14 +9,12 @@ prerequisites:
 - id: confirmatory-factor-analysis
   type: hard
 - id: eigenvalues-and-eigenvectors
-  type: soft
+  type: hard
 - id: linear-transformations
   type: hard
 - id: multivariable-functions-intro
   type: soft
 - id: matrix-operations
-  type: hard
-- id: eigenvalues-and-eigenvectors
   type: hard
 - id: dimensionality-assessment-and-bifactor-models
   type: soft

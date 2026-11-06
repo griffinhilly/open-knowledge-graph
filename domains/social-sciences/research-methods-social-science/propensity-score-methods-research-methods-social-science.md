@@ -18,8 +18,6 @@ prerequisites:
   type: soft
 - id: probability-axioms
   type: soft
-- id: probability-density-functions
-  type: hard
 tags:
 - propensity-score
 - matching

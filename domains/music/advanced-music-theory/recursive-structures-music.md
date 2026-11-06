@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: recurrence-relations
   type: soft
-- id: recurrence-relations
-  type: soft
 - id: recursion-on-finite-structures
   type: soft
 - id: sequences-convergence

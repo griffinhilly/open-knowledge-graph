@@ -12,8 +12,6 @@ prerequisites:
   type: hard
 - id: probability-density-functions
   type: hard
-- id: conditional-probability
-  type: soft
 - id: covariance-between-random-variables
   type: soft
 builds-toward:

@@ -11,10 +11,8 @@ prerequisites:
 - id: differential-equations-intro-separable
   type: hard
 - id: eigenvalues-and-eigenvectors
-  type: soft
-- id: linear-transformations
   type: hard
-- id: eigenvalues-and-eigenvectors
+- id: linear-transformations
   type: hard
 - id: applications-linear-algebra-modeling
   type: hard

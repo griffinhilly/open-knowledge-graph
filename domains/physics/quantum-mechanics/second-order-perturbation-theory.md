@@ -6,8 +6,6 @@ course: quantum-mechanics
 prerequisites:
 - id: first-order-perturbation-theory
   type: hard
-- id: first-order-perturbation-theory
-  type: soft
 - id: degenerate-perturbation-theory
   type: soft
 tags:

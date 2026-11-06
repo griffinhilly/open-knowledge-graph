@@ -12,8 +12,6 @@ prerequisites:
   type: hard
 - id: probability-axioms
   type: hard
-- id: conditional-probability
-  type: soft
 - id: grounded-theory-methods
   type: soft
 - id: phenomenological-research-methods

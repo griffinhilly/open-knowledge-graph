@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: fracture-mechanics
   type: soft
-- id: fracture-mechanics
-  type: soft
 builds-toward:
 - fracture-mechanics
 - fatigue-crack-propagation-and-growth

@@ -18,8 +18,6 @@ prerequisites:
   type: soft
 - id: set-operations
   type: soft
-- id: function-composition-and-inverses
-  type: soft
 - id: adjunction-as-hom-bijection
   type: soft
 - id: left-right-adjoints

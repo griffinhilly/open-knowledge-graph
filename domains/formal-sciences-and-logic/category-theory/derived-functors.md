@@ -16,8 +16,6 @@ prerequisites:
   type: soft
 - id: linear-transformations
   type: soft
-- id: linear-transformations
-  type: soft
 - id: ext-derived-hom
   type: soft
 - id: tor-derived-tensor

@@ -14,8 +14,6 @@ prerequisites:
   type: hard
 - id: systems-of-first-order-linear-odes
   type: soft
-- id: eigenvalues-and-eigenvectors
-  type: soft
 - id: panel-data-fixed-effects
   type: soft
 - id: count-data-regression-models

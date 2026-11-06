@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: polynomial-hierarchy-computability-and-complexity
   type: soft
-- id: nondeterministic-polynomial-time-computability-and-complexity
-  type: soft
 - id: polynomial-time-computation-fundamentals
   type: soft
 builds-toward:

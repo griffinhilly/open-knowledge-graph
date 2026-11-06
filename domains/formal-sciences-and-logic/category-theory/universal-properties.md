@@ -14,8 +14,6 @@ prerequisites:
   type: soft
 - id: set-fundamentals
   type: hard
-- id: functions-and-function-properties
-  type: soft
 - id: inverse-functions
   type: soft
 builds-toward:

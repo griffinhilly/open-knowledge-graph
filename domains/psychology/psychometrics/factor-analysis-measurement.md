@@ -8,10 +8,6 @@ prerequisites:
   type: hard
 - id: eigenvalues-and-eigenvectors
   type: soft
-- id: eigenvalues-and-eigenvectors
-  type: soft
-- id: linear-transformations
-  type: soft
 - id: linear-transformations
   type: hard
 - id: basis-and-dimension

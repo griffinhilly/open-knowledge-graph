@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: secant-method
   type: soft
-- id: secant-method
-  type: soft
 builds-toward:
 - order-of-convergence
 tags:

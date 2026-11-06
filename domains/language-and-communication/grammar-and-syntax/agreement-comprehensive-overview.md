@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: pronoun-agreement
   type: hard
-- id: subject-verb-agreement
-  type: soft
 - id: parts-of-speech-overview
   type: soft
 - id: subject-agreement-and-or-connectors

@@ -9,8 +9,6 @@ prerequisites:
 - id: tissue-types-and-histology
   type: hard
 - id: hemostasis-coagulation-cascade
-  type: soft
-- id: hemostasis-coagulation-cascade
   type: hard
 builds-toward:
 - hemostasis-pathophysiology

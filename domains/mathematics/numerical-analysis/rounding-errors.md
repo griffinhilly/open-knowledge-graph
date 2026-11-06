@@ -6,8 +6,6 @@ course: numerical-analysis
 prerequisites:
 - id: machine-epsilon
   type: hard
-- id: machine-epsilon
-  type: soft
 - id: floating-point-representation-numerical-analysis
   type: hard
 builds-toward:

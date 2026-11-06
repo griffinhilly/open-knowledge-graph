@@ -8,8 +8,6 @@ prerequisites:
   type: soft
 - id: medieval-trade-revival
   type: hard
-- id: medieval-trade-revival
-  type: hard
 
 builds-toward:
 - early-modern-global-trade-networks

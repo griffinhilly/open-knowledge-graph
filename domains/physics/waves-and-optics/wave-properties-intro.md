@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: graphing-sine-and-cosine
   type: soft
-- id: graphing-sine-and-cosine
-  type: soft
 - id: transverse-wave-characteristics
   type: soft
 - id: wave-properties-conceptual

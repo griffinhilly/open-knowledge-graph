@@ -16,8 +16,6 @@ prerequisites:
   type: soft
 - id: algorithm-complexity
   type: soft
-- id: eigenvalues-and-eigenvectors
-  type: soft
 - id: big-data-social-science
   type: soft
 - id: text-analysis-social-science

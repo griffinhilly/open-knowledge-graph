@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: integrating-elements-principles-visual-design
   type: soft
-- id: integrating-elements-principles-visual-design
-  type: soft
 - id: harmony-unity-and-visual-cohesion
   type: soft
 - id: creating-emphasis-through-visual-weight

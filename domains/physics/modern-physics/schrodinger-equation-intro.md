@@ -16,8 +16,6 @@ prerequisites:
   type: hard
 - id: eigenvalues-and-eigenvectors
   type: hard
-- id: eigenvalues-and-eigenvectors
-  type: hard
 - id: matrix-operations
   type: hard
 - id: separation-variables-pde

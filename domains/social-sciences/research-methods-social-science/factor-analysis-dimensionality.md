@@ -12,8 +12,6 @@ prerequisites:
   type: hard
 - id: basis-and-dimension
   type: hard
-- id: eigenvalues-and-eigenvectors
-  type: soft
 - id: matrices-intro
   type: soft
 builds-toward:

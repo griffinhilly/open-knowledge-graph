@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: color-accessibility-wcag
   type: soft
-- id: accessibility-in-design
-  type: soft
 builds-toward:
 - responsive-design-principles
 - user-experience-fundamentals

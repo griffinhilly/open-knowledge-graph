@@ -12,8 +12,6 @@ prerequisites:
   type: soft
 - id: graph-theory-intro
   type: soft
-- id: graph-theory-intro
-  type: soft
 - id: coordinate-geometry-proofs
   type: soft
 - id: cartesian-product

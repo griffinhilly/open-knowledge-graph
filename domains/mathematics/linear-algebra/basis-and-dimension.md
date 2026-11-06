@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: span-and-basis
   type: hard
-- id: span-and-basis
-  type: soft
 builds-toward:
 - rank-nullity-theorem
 - change-of-basis

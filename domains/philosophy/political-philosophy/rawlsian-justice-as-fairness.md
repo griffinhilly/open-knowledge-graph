@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: rawlsian-justice
   type: hard
-- id: rawlsian-justice
-  type: soft
 builds-toward:
 - difference-principle
 tags:

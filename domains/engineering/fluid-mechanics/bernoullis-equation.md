@@ -13,8 +13,6 @@ prerequisites:
 - id: work-and-energy
   type: soft
 - id: conservation-of-energy-mechanical-systems
-  type: soft
-- id: conservation-of-energy-mechanical-systems
   type: hard
 - id: energy-conservation-applications
   type: hard

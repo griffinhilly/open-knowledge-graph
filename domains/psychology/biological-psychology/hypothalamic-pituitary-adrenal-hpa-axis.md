@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: anterior-pituitary-hormone-axes
   type: hard
-- id: hypothalamus-pituitary-axis
-  type: soft
 tags:
 - stress
 - hormones

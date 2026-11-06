@@ -13,15 +13,13 @@ prerequisites:
 - id: partial-derivatives
   type: soft
 - id: probability-axioms
-  type: soft
+  type: hard
 - id: optimization-problems
   type: soft
 - id: natural-logarithm-and-e
   type: soft
 - id: constrained-optimization
   type: soft
-- id: probability-axioms
-  type: hard
 - id: optimization-multivariable-basics
   type: soft
 - id: fundamental-theorem-of-calculus-part-1

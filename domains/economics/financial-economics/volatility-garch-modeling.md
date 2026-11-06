@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: autoregressive-ar-models
   type: soft
-- id: expected-return-and-variance-of-assets
-  type: soft
 builds-toward: []
 tags:
 - volatility

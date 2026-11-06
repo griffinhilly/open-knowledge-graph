@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: language-acquisition
   type: hard
-- id: language-acquisition
-  type: hard
 tags:
 - acquisition
 - parameters

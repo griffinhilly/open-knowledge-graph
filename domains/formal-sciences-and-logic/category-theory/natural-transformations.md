@@ -14,8 +14,6 @@ prerequisites:
   type: hard
 - id: function-composition-and-inverses
   type: soft
-- id: function-composition-and-inverses
-  type: soft
 - id: commutative-diagrams-and-composition
   type: hard
 - id: commutative-diagrams-in-categories
