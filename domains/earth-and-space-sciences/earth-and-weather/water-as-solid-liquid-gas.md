@@ -4,15 +4,13 @@ title: Water as Solid, Liquid, and Gas
 domain: earth-and-space-sciences
 course: earth-and-weather
 prerequisites:
-- id: classification-sorting
-  type: hard
-- id: core-objects
-  type: soft
-- id: discernment-same-different
-  type: soft
 - id: snowy-days
   type: soft
 - id: rainy-days
+  type: soft
+- id: classification-sorting
+  type: hard
+- id: discernment-same-different
   type: soft
 builds-toward:
 - water-cycle-basics

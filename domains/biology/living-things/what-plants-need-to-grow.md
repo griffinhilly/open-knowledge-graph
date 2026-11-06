@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: parts-of-a-plant
   type: hard
-- id: core-agents
-  type: hard
 - id: discernment-same-different
   type: soft
 builds-toward:

@@ -4,12 +4,14 @@ title: Characters We Love
 domain: literature
 course: first-stories-and-read-alouds
 prerequisites:
-- id: symbolic-function
-  type: hard
-- id: discernment-same-different
-  type: soft
 - id: being-read-to
   type: hard
+- id: symbolic-function
+  type: hard
+- id: core-agents
+  type: soft
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - animal-characters
 - feelings-in-stories

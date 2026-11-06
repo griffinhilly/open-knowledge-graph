@@ -4,11 +4,9 @@ title: Sleep and Rest
 domain: health-and-human-development
 course: my-body
 prerequisites:
-- id: core-agents
-  type: hard
-- id: discernment-same-different
-  type: soft
 - id: my-body-parts
+  type: soft
+- id: discernment-same-different
   type: soft
 builds-toward: []
 tags:

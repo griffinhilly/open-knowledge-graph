@@ -4,16 +4,18 @@ title: Counting a Set of Objects Up to 20
 domain: mathematics
 course: kindergarten
 prerequisites:
-- id: core-number
-  type: hard
-- id: discernment-same-different
-  type: soft
 - id: one-to-one-correspondence
   type: hard
 - id: counting-to-20
   type: hard
 - id: one-to-one-counting-correspondence
   type: hard
+- id: core-number
+  type: hard
+- id: core-objects
+  type: soft
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - matching-numerals-to-quantities
 - comparing-quantities

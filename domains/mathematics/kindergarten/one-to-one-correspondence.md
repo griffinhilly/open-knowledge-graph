@@ -4,14 +4,16 @@ title: One-to-One Correspondence
 domain: mathematics
 course: kindergarten
 prerequisites:
-- id: core-number
-  type: hard
-- id: discernment-same-different
-  type: soft
 - id: counting-to-five
   type: hard
 - id: counting-to-10
   type: hard
+- id: core-number
+  type: hard
+- id: core-objects
+  type: soft
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - comparing-quantities-more-less
 tags:

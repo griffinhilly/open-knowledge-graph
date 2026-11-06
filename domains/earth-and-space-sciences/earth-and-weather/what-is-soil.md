@@ -6,8 +6,6 @@ course: earth-and-weather
 prerequisites:
 - id: types-of-rocks
   type: soft
-- id: core-agents
-  type: hard
 - id: discernment-same-different
   type: soft
 builds-toward:

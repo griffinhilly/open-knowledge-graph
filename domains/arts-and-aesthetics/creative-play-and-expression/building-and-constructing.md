@@ -4,12 +4,14 @@ title: Building and Constructing
 domain: arts-and-aesthetics
 course: creative-play-and-expression
 prerequisites:
+- id: shapes-in-art
+  type: hard
+- id: core-objects
+  type: hard
 - id: core-space
   type: hard
 - id: discernment-same-different
   type: soft
-- id: shapes-in-art
-  type: hard
 builds-toward: []
 tags:
 - building

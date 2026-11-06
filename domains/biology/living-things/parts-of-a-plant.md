@@ -6,8 +6,6 @@ course: living-things
 prerequisites:
 - id: plants-are-alive-too
   type: hard
-- id: core-agents
-  type: hard
 - id: discernment-same-different
   type: soft
 builds-toward:

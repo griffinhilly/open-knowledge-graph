@@ -112,6 +112,53 @@ COURSE_DEFAULTS = {
 }
 
 
+# Curated per-topic corrections, applied AFTER the rules. Each was decided by reading the topic's
+# Core Idea, not by widening a regex (Griffin approved 2026-11-06; reasons quoted in
+# review/2026-11-06-verification-checks.html, Check 2). Format: id -> {"add": {cap: type}, "remove": [cap]}.
+TOPIC_OVERRIDES = {
+    # core-objects: counting/handling physical things draws on object individuation and solidity
+    "counting-objects-to-20":              {"add": {"core-objects": "soft"}},
+    "one-to-one-correspondence":           {"add": {"core-objects": "soft"}},
+    "one-to-one-counting-correspondence":  {"add": {"core-objects": "soft"}},
+    "combining-sets-pre-addition":         {"add": {"core-objects": "soft"}},
+    "separating-sets-pre-subtraction":     {"add": {"core-objects": "soft"}},
+    "building-and-constructing":           {"add": {"core-objects": "hard"}},
+    "identifying-three-dimensional-shapes": {"add": {"core-objects": "soft"}},
+    # core-objects: "materials"/"solid" matched substances or drawing tools, not bounded objects
+    "art-cleanup-and-care-of-materials":   {"remove": ["core-objects"]},
+    "art-materials-exploration":           {"remove": ["core-objects"]},
+    "art-from-nature":                     {"remove": ["core-objects"]},
+    "water-as-solid-liquid-gas":           {"remove": ["core-objects"]},
+    # core-agents: no self-moving, goal-directed actor (plants, soil, body growth, sleep)
+    "what-is-soil":                        {"remove": ["core-agents"]},
+    "parts-of-a-plant":                    {"remove": ["core-agents"]},
+    "seeds-and-germination":               {"remove": ["core-agents"]},
+    "what-plants-need-to-grow":            {"remove": ["core-agents"]},
+    "sleep-and-rest":                      {"remove": ["core-agents"]},
+    "how-i-have-grown":                    {"remove": ["core-agents"]},
+    "stories-about-nature":                {"remove": ["core-agents"]},
+    # core-agents: story characters and puppets are agents with wants and intentions
+    "characters-we-love":                  {"add": {"core-agents": "soft"}},
+    "asking-questions-about-stories":      {"add": {"core-agents": "soft"}},
+    "puppets-and-storytelling-through-art": {"add": {"core-agents": "soft"}},
+}
+
+
+def apply_overrides(topic_id, caps):
+    ov = TOPIC_OVERRIDES.get(topic_id)
+    if not ov:
+        return caps
+    caps = dict(caps)
+    for cid in ov.get("remove", []):
+        caps.pop(cid, None)
+    for cid, ctype in ov.get("add", {}).items():
+        if caps.get(cid) != "hard":
+            caps[cid] = ctype
+    if caps:
+        caps.setdefault(DISCERNMENT, "soft")
+    return caps
+
+
 def capacities_for(course, title, tags):
     # Haystack is TITLE + TAGS only — NOT course. Matching on the course name blanket-stamped every
     # topic in a course (e.g. "living-things" -> core-agents on "Major Body Parts"). Homogeneous-course
@@ -207,6 +254,7 @@ def collect_all_preformal():
         if data.get("stage") != "pre-formal":
             continue
         caps = capacities_for(data.get("course"), data.get("title"), data.get("tags"))
+        caps = apply_overrides(data.get("id"), caps)
         rows.append((fp, data, caps))
     return rows
 
@@ -218,7 +266,11 @@ def main():
     args = ap.parse_args()
 
     all_rows = collect_all_preformal()
-    targets = [(fp, data, caps) for fp, data, caps in all_rows if caps]  # matched (>=1 capacity)
+    stale = set(TOPIC_OVERRIDES) - {data.get("id") for _, data, _ in all_rows}
+    if stale:  # a typo'd or renamed id would otherwise be a silent no-op
+        print(f"TOPIC_OVERRIDES names ids that are not pre-formal topics: {sorted(stale)}")
+        return 1
+    targets =[(fp, data, caps) for fp, data, caps in all_rows if caps]  # matched (>=1 capacity)
     unmatched = [(fp, data) for fp, data, caps in all_rows if not caps]
     signatures = Counter()
     for fp, data, caps in targets:

@@ -4,12 +4,14 @@ title: Asking Questions About Stories
 domain: literature
 course: first-stories-and-read-alouds
 prerequisites:
-- id: symbolic-function
-  type: hard
-- id: discernment-same-different
-  type: soft
 - id: being-read-to
   type: hard
+- id: symbolic-function
+  type: hard
+- id: core-agents
+  type: soft
+- id: discernment-same-different
+  type: soft
 builds-toward:
 - making-predictions
 - asking-questions-while-reading

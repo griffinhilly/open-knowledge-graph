@@ -4,13 +4,15 @@ title: Puppets and Storytelling Through Art
 domain: arts-and-aesthetics
 course: creative-play-and-expression
 prerequisites:
-- id: symbolic-function
-  type: hard
-- id: discernment-same-different
-  type: soft
 - id: pretend-play-and-imagination
   type: hard
 - id: making-faces-and-expressions-in-art
+  type: soft
+- id: symbolic-function
+  type: hard
+- id: core-agents
+  type: soft
+- id: discernment-same-different
   type: soft
 builds-toward: []
 tags:

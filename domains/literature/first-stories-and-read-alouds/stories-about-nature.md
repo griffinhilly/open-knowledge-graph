@@ -4,14 +4,12 @@ title: Stories About Nature
 domain: literature
 course: first-stories-and-read-alouds
 prerequisites:
-- id: symbolic-function
+- id: picture-books
   type: hard
-- id: core-agents
+- id: symbolic-function
   type: hard
 - id: discernment-same-different
   type: soft
-- id: picture-books
-  type: hard
 builds-toward: []
 tags:
 - nature

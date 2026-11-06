@@ -6,8 +6,6 @@ course: creative-play-and-expression
 prerequisites:
 - id: core-space
   type: hard
-- id: core-objects
-  type: soft
 - id: discernment-same-different
   type: soft
 builds-toward:
