@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: phytoplankton-productivity-limiting-factors
   type: soft
+- id: diel-vertical-migration-plankton
+  type: soft
 builds-toward:
 - anthropogenic-carbon-cycle
 - paleoclimate-proxies

@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - ocean-heat-transport-mechanism
-- feedback-mechanisms-in-climate
 tags:
 - boundary-currents
 - Gulf-Stream

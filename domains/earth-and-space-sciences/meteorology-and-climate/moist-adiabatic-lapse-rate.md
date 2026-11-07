@@ -11,7 +11,6 @@ prerequisites:
 - id: latent-heat-and-phase-transitions
   type: hard
 builds-toward:
-- atmospheric-inversion-temperature
 - cape-convective-available-potential
 tags:
 - thermodynamics

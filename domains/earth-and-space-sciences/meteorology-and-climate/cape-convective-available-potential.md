@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: convective-instability-indices
   type: hard
+- id: moist-adiabatic-lapse-rate
+  type: soft
 tags:
 - instability
 - convection

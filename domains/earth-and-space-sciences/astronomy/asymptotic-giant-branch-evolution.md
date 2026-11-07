@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: stellar-mass-loss-and-wind
   type: soft
+- id: red-giant-branch-evolution
+  type: soft
 builds-toward:
 - white-dwarf-cooling-and-crystallization
 tags:

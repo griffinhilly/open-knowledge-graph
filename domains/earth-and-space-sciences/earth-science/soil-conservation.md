@@ -10,9 +10,7 @@ prerequisites:
   type: hard
 - id: renewable-vs-nonrenewable-resources
   type: soft
-builds-toward:
-- soil-formation
-- pedogenesis-soil-horizons-classification
+builds-toward: []
 tags:
 - soil
 - conservation

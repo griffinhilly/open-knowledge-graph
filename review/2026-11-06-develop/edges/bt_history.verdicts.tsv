@@ -1,0 +1,10 @@
+ADD	dark-ages-greece-transition	ancient-greece-polis	soft	high	B's explainer says the polis filled the post-collapse vacuum, which is exactly the Dark Age transition.
+ADD	mesopotamian-religion-polytheism	ancient-polytheism-religious-systems	soft	medium	B generalizes across ancient polytheisms and uses Mesopotamian kingship-religion fusion as a worked case.
+ADD	ancient-sources-interpretation-methods	egyptian-cosmology-afterlife	soft	medium	B reconstructs beliefs from texts like the Book of the Dead and tomb art; source-interpretation skill helps but is not required.
+DROP	egyptian-pyramids-burial-monuments	egyptian-priesthood-institutions	-	medium	B is about priestly economic and institutional power, not monumental architecture.
+DROP	ancient-world-chronology-methods	indus-city-planning-standards	-	medium	B is about grid planning and standardization; dating methods are not drawn on.
+ADD	ancient-sources-interpretation-methods	mesopotamia-cradle-of-civilization	soft	medium	B's survey rests on tablets and archaeological evidence; interpretive method helps but is not required.
+DROP	shang-bronze-vessels-ritual-objects	oracle-bones-divination-writing	-	medium	Sibling Shang topic; B draws on Shang divination and writing, not bronze casting.
+DROP	egyptian-pharaonic-divinity	origins-of-world-religions	-	medium	B is about Axial Age traditions; pharaonic kingship ideology is not drawn on.
+ADD	punic-wars-roman-expansion	roman-empire-rise	soft	medium	Overseas expansion after the Punic Wars set up the strains that collapsed the Republic, which B starts from.
+JUDGE	hammurabi-code-law-society	roman-legal-code-justice-system	-	medium	B already lists hammurabi-code-justice-system (soft), a near-duplicate of A; a human should decide whether to dedupe or add.

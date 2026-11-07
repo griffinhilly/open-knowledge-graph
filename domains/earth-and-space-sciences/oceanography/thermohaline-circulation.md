@@ -20,6 +20,8 @@ prerequisites:
   type: hard
 - id: water-mass-formation-types
   type: soft
+- id: salinity-composition-seawater
+  type: soft
 builds-toward:
 - polar-oceanography
 - sea-level-change

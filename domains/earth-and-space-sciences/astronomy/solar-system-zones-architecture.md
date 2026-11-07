@@ -6,6 +6,8 @@ course: astronomy
 prerequisites:
 - id: kepler-laws-planetary-orbits
   type: soft
+- id: orbital-resonances-dynamics
+  type: soft
 builds-toward:
 - terrestrial-planets-formation
 - gas-giants-formation-migration

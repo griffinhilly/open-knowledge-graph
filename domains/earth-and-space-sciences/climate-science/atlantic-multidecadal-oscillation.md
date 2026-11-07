@@ -11,7 +11,6 @@ prerequisites:
 - id: atlantic-meridional-overturning-circulation
   type: soft
 builds-toward:
-- enso-mechanisms-teleconnections
 - climate-models-and-projections
 tags:
 - ocean-oscillation

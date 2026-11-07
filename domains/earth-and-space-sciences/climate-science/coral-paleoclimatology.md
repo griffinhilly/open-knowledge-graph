@@ -9,7 +9,6 @@ prerequisites:
 - id: coral-reef-ecosystems
   type: soft
 builds-toward:
-- enso-mechanisms-teleconnections
 - holocene-climate-variability
 tags:
 - coral

@@ -15,7 +15,6 @@ prerequisites:
 - id: wind-buoyancy-driven-circulation
   type: soft
 builds-toward:
-- feedback-mechanisms-in-climate
 - climate-sensitivity-radiative-feedbacks
 tags:
 - heat-transport

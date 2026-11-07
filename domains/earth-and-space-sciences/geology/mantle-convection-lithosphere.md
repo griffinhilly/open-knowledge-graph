@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: heat-transfer-conduction-fourier
   type: soft
+- id: lithosphere-asthenosphere-layers
+  type: soft
 builds-toward:
 - plate-boundary-forces
 tags:

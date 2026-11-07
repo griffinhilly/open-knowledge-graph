@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: ocean-circulation-paleoclimate
   type: soft
+- id: dansgaard-oeschger-oscillations
+  type: soft
+- id: younger-dryas-event
+  type: soft
 builds-toward:
 - paleoclimate-tipping-points
 - paleoclimate-data-model-comparison

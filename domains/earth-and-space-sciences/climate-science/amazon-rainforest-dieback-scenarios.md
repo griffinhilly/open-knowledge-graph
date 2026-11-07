@@ -10,9 +10,7 @@ prerequisites:
   type: hard
 - id: climate-tipping-points
   type: hard
-builds-toward:
-- regional-climate-downscaling
-- climate-extremes-and-attribution
+builds-toward: []
 tags:
 - amazon
 - dieback

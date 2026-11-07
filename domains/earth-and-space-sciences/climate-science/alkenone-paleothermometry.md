@@ -9,7 +9,6 @@ prerequisites:
 - id: ocean-sediment-proxies
   type: soft
 builds-toward:
-- marine-isotope-stages
 - multi-proxy-climate-reconstruction
 tags:
 - biomarker-paleothermometry

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: albedo-feedback-paleoclimate
   type: soft
+- id: dansgaard-oeschger-oscillations
+  type: soft
 tags:
 - tipping-points
 - bifurcation

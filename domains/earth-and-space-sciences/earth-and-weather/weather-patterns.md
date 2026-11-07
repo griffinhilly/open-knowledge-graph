@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: temperature-and-weather
   type: soft
+- id: snowy-days
+  type: soft
 builds-toward:
 - weather-forecasting-basics
 - four-seasons

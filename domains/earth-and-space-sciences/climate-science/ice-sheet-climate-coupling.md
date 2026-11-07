@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: glaciers-and-glaciation
   type: soft
+- id: heinrich-events
+  type: soft
 builds-toward:
 - paleoclimate-data-model-comparison
 tags:

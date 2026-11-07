@@ -78,3 +78,220 @@ ADD	ocean-circulation-paleoclimate	paleoclimate-data-model-comparison	soft	mediu
 ADD	polar-amplification-paleoclimate	paleoclimate-data-model-comparison	soft	high	B's key mismatch is models underestimating polar amplification at the LGM.
 DROP	spectral-analysis-paleoclimate	paleoclimate-data-model-comparison	-	medium	B never uses spectral or periodicity analysis.
 DROP	water-vapor-feedback-paleoclimate	paleoclimate-data-model-comparison	-	medium	B names ice-albedo and cloud feedbacks but not water vapor feedback.
+DROP	marine-biological-pump	paleoclimate-proxies	-	medium	B is a general survey of proxy archives; the biological pump is not drawn on.
+DROP	abrupt-climate-change-dynamics-tipping	paleoclimate-proxies	-	medium	Abrupt change is an application of proxies, not something B draws on.
+ADD	marine-sediment-paleoclimate	paleoclimate-proxy-interpretation	soft	medium	B's dating-uncertainty discussion uses ocean sediment cores alongside ice cores.
+DROP	peat-paleoclimate-records	paleoclimate-reconstruction-methods	-	medium	B's examples are foraminiferal transfer functions and tree rings; peat is not used.
+ADD	paleoceanography-proxy-reconstruction	paleoclimate-reconstruction-methods	soft	medium	B's worked example is a foraminiferal transfer function for SST, a paleoceanographic proxy.
+DROP	carbon-cycle-paleoclimate	paleoclimate-tipping-points	-	medium	B centers on D-O events, ice sheets and AMOC; carbon cycle dynamics appear only as permafrost in passing.
+ADD	dansgaard-oeschger-oscillations	paleoclimate-tipping-points	soft	high	B uses D-O events as the main evidence that abrupt tipping transitions have occurred.
+DROP	methane-paleoclimate-feedback	paleoclimate-tipping-points	-	medium	B never discusses methane sources or feedbacks.
+DROP	amazon-rainforest-dieback-scenarios	regional-climate-downscaling	-	high	Downscaling is a modeling method; Amazon dieback is unrelated content.
+DROP	climate-extremes-and-attribution	regional-climate-downscaling	-	medium	B draws on GCMs and projections, not attribution.
+DROP	monsoon-systems-and-climate	regional-climate-downscaling	-	medium	B is method-focused and does not draw on monsoon dynamics.
+DROP	hadley-cell-dynamics	rossby-waves-barotropic	-	medium	B rests on Coriolis and potential vorticity; Hadley cells are not drawn on.
+DROP	loess-paleosol-sequences	stadials-interstadials-glacial	-	medium	B's evidence is ice-core d18O, dust and methane; loess sequences are not used.
+DROP	atmospheric-waves-and-instability	storm-track-dynamics-climate	-	medium	B draws on baroclinic instability and eddy-mean flow interaction, not barotropic wave theory.
+ADD	snowy-days	weather-patterns	soft	high	B already lists sibling day-type topics (sunny, rainy) and generalizes winter patterns from them.
+ADD	the-sun	what-causes-seasons	soft	high	Seasons are explained by how directly the Sun's light strikes each hemisphere.
+ADD	hydrogen-nitrogen-isotopes	biogeochemistry	soft	medium	B uses distinct isotopic fractionation so that delta-15N traces nitrogen cycling.
+DROP	mantle-geochemistry	cosmochemistry	-	medium	B is about meteorites as solar system reference; mantle geochemistry draws on cosmochemistry, not the reverse.
+DROP	ar-ar-dating	crustal-evolution-geochemistry	-	medium	B relies on Nd model ages and zircon U-Pb; Ar-Ar is not used.
+DROP	mineral-stability-phase-diagrams	crustal-evolution-geochemistry	-	medium	B is isotope- and composition-based; phase diagrams are not drawn on.
+ADD	rb-sr-system	crustal-evolution-geochemistry	soft	medium	B cites Sr isotope evolution among lines of evidence for crustal growth.
+ADD	stable-isotope-fractionation	isotope-hydrology	soft	high	B's meteoric water line, altitude effect and evaporation lines are fractionation phenomena.
+ADD	carbon-isotopes-geochemistry	sedimentary-geochemistry	soft	medium	B names delta-13C chemostratigraphy as a core tool.
+ADD	oxygen-isotopes-geochemistry	sedimentary-geochemistry	soft	medium	B names delta-18O chemostratigraphy as a core tool.
+DROP	cosmogenic-nuclides	weathering-soil-chemistry	-	medium	B mentions erosion rates only in passing; cosmogenic dating is not drawn on.
+ADD	igneous-rock-magma-differentiation	bowen-fractional-crystallization	soft	high	B explains why one magma yields rocks of different compositions, the differentiation idea A introduces.
+ADD	earthquakes-and-seismology	earth-interior-structure	soft	medium	B infers interior layers from earthquake seismic waves and shadow zones; seismic-waves is already listed.
+DROP	plate-tectonics	earth-interior-structure	-	medium	B presents the lithosphere-asthenosphere boundary as the basis for plate tectonics, so the dominant direction is the reverse.
+ADD	stress-strain-rock-deformation	fault-mechanics-rupture	hard	medium	B's core rule (slip when shear stress exceeds friction times normal stress) needs stress decomposition.
+DROP	metamorphic-mineral-assemblages-conditions	fold-fault-formation-stress-analysis	-	high	B is about deformation geometry and paleostress; metamorphic assemblages are not used.
+DROP	metamorphic-textures-microstructures	fold-fault-formation-stress-analysis	-	medium	B does not draw on metamorphic microstructures.
+ADD	sedimentary-rocks-formation	fossils-and-paleontology	soft	medium	B's preservation story rests on burial in sedimentary environments; overlaps sedimentary-rocks already listed.
+DROP	igneous-rock-texture-classification	fractional-crystallization-magmatic-differentiation	-	medium	B does not use texture; it reaches texture only transitively through magma composition.
+DROP	fold-fault-formation-stress-analysis	geologic-structures-folds-faults	-	medium	A is the advanced treatment of the same content; dominant direction is B toward A.
+ADD	igneous-rocks-formation	igneous-rocks	soft	medium	Near-duplicate topics across courses; the earth-science intro helps the geology treatment.
+DROP	bowen-fractional-crystallization	magma-composition-viscosity-rheology	-	medium	B explains viscosity from silica, temperature and volatiles; Bowen's series is downstream.
+ADD	lithosphere-asthenosphere-layers	mantle-convection-lithosphere	soft	high	B's key claim is that the lithosphere is the cold boundary layer of mantle convection.
+DROP	diagenesis-burial-lithification	metamorphic-grade-pressure-temperature-paths	-	medium	B tracks burial P-T paths of metamorphic rocks; diagenesis is not drawn on.
+ADD	metamorphic-rocks-formation	metamorphic-rocks	soft	medium	Near-duplicate topics across courses; the earth-science intro helps the geology treatment.
+ADD	rock-forming-minerals	metamorphic-rocks	soft	medium	B's index minerals and foliation of platy micas assume familiarity with rock-forming minerals.
+ADD	mineral-identification-diagnostic-properties	mineral-crystal-systems-classification	soft	medium	B links crystal structure to cleavage and hardness and practices identification by form.
+DROP	rock-identification-skills	mineral-identification-diagnostic-properties	-	high	Rock identification depends on mineral identification, not the reverse.
+ADD	mineral-properties-and-testing	minerals-and-crystal-structure	soft	high	B grounds lattice theory in hardness-kit work on hardness, cleavage and luster.
+DROP	soil-conservation	pedogenesis-soil-horizons-classification	-	high	Soil conservation applies soil formation knowledge; the direction is reversed.
+ADD	plate-tectonics-driving-forces	plate-boundary-forces	soft	medium	B discusses slab pull in the boundary stress field.
+ADD	geologic-time-intro	radiometric-dating	soft	medium	B frames radiometric dating as calibrating the geologic time scale.
+DROP	stratigraphy	radiometric-dating	-	medium	B is built on decay physics; relative dating principles are not drawn on.
+ADD	mineral-properties-and-testing	rock-forming-minerals	soft	high	B identifies rock-forming minerals by cleavage and hardness, the tests A teaches.
+ADD	deposition-and-landforms	sediment-transport-and-deposition	soft	medium	B names deltas, beaches and river channels as depositional settings.
+ADD	erosion-by-water	sediment-transport-and-deposition	soft	medium	B's Hjulstrom discussion is about rivers eroding and carrying grains.
+ADD	erosion-agents-fluvial-glacial-coastal	sediment-transport-and-deposition	soft	high	B contrasts transport by rivers, glaciers, wind and beaches, the agents A covers.
+DROP	sedimentary-depositional-environments	sediment-transport-and-deposition	-	medium	Facies interpretation draws on transport physics; dominant direction is the reverse.
+DROP	mineral-crystal-systems-classification	sedimentary-rock-detrital-chemical	-	medium	B uses mineral durability and composition, not crystal systems.
+ADD	sedimentary-rocks-formation	sedimentary-rocks	soft	medium	Near-duplicate topics across courses; the earth-science intro helps the geology treatment.
+DROP	soil-conservation	soil-formation	-	high	Soil conservation applies soil formation knowledge; the direction is reversed.
+ADD	geologic-time-intro	stratigraphy	soft	medium	B's unconformities as missing time rely on a sense of deep time.
+ADD	sedimentary-rocks-formation	stratigraphy	soft	medium	B reads layered sandstone and shale deposition; sedimentary-rocks is already listed.
+DROP	sedimentary-rock-detrital-chemical	stratigraphy	-	medium	B's principles do not need the detrital vs chemical distinction.
+ADD	metamorphic-grade-pressure-temperature-paths	subduction-zone-structure-metamorphism	soft	medium	B interprets blueschist and eclogite as diagnostic subduction P-T conditions.
+DROP	subduction-magmatism-arc-volcanism	volcanic-hazards-assessment	-	medium	B builds hazards on magma composition and eruptive style; arc settings appear only in one question.
+ADD	chemical-weathering	weathering-and-erosion	soft	high	Chemical weathering (hydrolysis, oxidation, dissolution) is a core component of B.
+ADD	mechanical-weathering	weathering-and-erosion	soft	high	Mechanical weathering (frost wedging, thermal expansion) is a core component of B.
+ADD	minerals-and-crystal-structure	weathering-and-erosion	soft	medium	B ties weathering rates to mineral composition; rock-forming-minerals is already a hard prerequisite.
+DROP	thermobarometry-cooling-history	lithospheric-thermal-evolution	-	high	B is plate cooling and flexure; thermobarometry is not drawn on.
+ADD	electromagnetic-induction-methods	magnetotelluric-methods-em-induction	soft	medium	B's skin-depth reasoning is shared EM induction physics.
+DROP	critical-refraction-and-head-waves	reflection-seismic-survey-design	-	medium	B is about offsets, NMO and CMP design; refraction is not drawn on.
+ADD	seismic-data-processing-and-filtering	seismic-interpretation-structural-mapping	soft	medium	B interprets processed and migrated sections and discusses processing artifacts.
+DROP	reflection-seismic-survey-design	seismic-migration-techniques	-	medium	B draws on processing and velocity models; acquisition design appears only in a distractor.
+ADD	seismic-reflection-surveys	seismic-migration-techniques	soft	medium	B starts from a stacked reflection section, the CMP product A teaches.
+DROP	seismic-network-design-and-station-deployment	seismic-moment-and-magnitude	-	medium	B mentions global networks only as a data source; magnitude physics does not draw on deployment.
+DROP	seismic-refraction-surveys	seismic-reflection-surveys	-	medium	B is NMO, velocity picking and stacking; refraction is not drawn on.
+DROP	vp-vs-ratio-interpretation	seismic-velocity-depth-models	-	medium	Vp/Vs interpretation builds on velocity-depth models; the direction is reversed.
+ADD	mantle-rheology-flow	subduction-zone-thermal-structure	soft	medium	B says modeling realistic rheologies is central to mantle-wedge thermal structure.
+ADD	seismic-reflection-surveys	synthetic-seismogram-modeling	soft	medium	B convolves wavelets with reflection coefficient series, drawing on reflection seismology.
+ADD	geothermal-gradient-crustal-heat-flow	thermochronology-and-cooling-ages	soft	high	B converts cooling rates to exhumation rates by dividing by the geothermal gradient.
+ADD	hydrostatic-balance-pressure-profile	adiabatic-lapse-rates	soft	medium	B's parcel cools because pressure decreases with altitude, which hydrostatic balance explains.
+ADD	pressure-systems-and-winds	air-masses-and-fronts	soft	medium	B says semi-permanent high-pressure systems create the stagnant conditions for air-mass formation.
+DROP	climate-classification-systems-koppen	anthropogenic-climate-forcing	-	high	Forcing physics does not draw on climate classification schemes.
+DROP	measuring-weather	atmosphere-composition-and-structure	-	medium	B is gas composition and layering; weather instruments are not drawn on.
+DROP	what-is-wind	atmosphere-composition-and-structure	-	medium	B is gas composition and layering; the pre-formal wind topic is not drawn on.
+DROP	moist-adiabatic-lapse-rate	atmospheric-inversion-temperature	-	high	B explains inversions via environmental and dry lapse rates, radiation and subsidence; moist adiabats are not used.
+ADD	jet-stream-subtropical-polar	atmospheric-waves-and-instability	soft	high	B's barotropic instability extracts energy from the horizontally sheared jet stream.
+DROP	tropopause-boundary-stratosphere	atmospheric-waves-and-instability	-	medium	B never draws on the tropopause.
+ADD	environmental-lapse-rate	cape-convective-available-potential	soft	medium	CAPE is the area between the environmental temperature profile and the parcel curve.
+DROP	lifted-condensation-level-lcl	cape-convective-available-potential	-	medium	B works from the LFC and moist ascent curve; the LCL is not discussed.
+DROP	mixing-ratio-saturation-mixing-ratio	cape-convective-available-potential	-	medium	B does not use mixing ratio; moisture appears only as a qualitative inhibitor.
+ADD	moist-adiabatic-lapse-rate	cape-convective-available-potential	soft	high	B defines CAPE using the parcel's moist adiabatic ascent curve.
+DROP	relative-humidity-saturation-indices	cape-convective-available-potential	-	medium	B does not draw on humidity indices.
+DROP	saturation-vapor-pressure-clausius	cape-convective-available-potential	-	medium	B does not use Clausius-Clapeyron; it reaches moisture physics via equivalent potential temperature.
+ADD	anthropogenic-carbon-cycle	climate-change-science	soft	medium	B attributes recent warming to anthropogenic greenhouse emissions, which A explains as a carbon cycle perturbation.
+DROP	climate-oscillations-modes-enso	climate-feedback-ice-albedo-water-vapor	-	high	Feedback physics does not draw on climate oscillation modes.
+DROP	anthropogenic-aerosol-forcing-effects	climate-models-and-projections	-	medium	Aerosols appear only in a list of forcings; anthropogenic-climate-forcing already covers it.
+DROP	atlantic-meridional-overturning-stability	climate-models-and-projections	-	high	B is about model structure, parameterization and scenarios; AMOC stability is an application.
+DROP	atlantic-multidecadal-oscillation	climate-models-and-projections	-	medium	B mentions internal variability generically, not the AMO.
+ADD	climate-model-parameterization	climate-models-and-projections	soft	high	B calls parameterization the core challenge and the main source of inter-model spread.
+DROP	climate-tipping-points	climate-models-and-projections	-	high	B does not discuss tipping points; they are a downstream application of models.
+ADD	equilibrium-climate-sensitivity	climate-models-and-projections	soft	medium	B explains model spread as differing climate sensitivity estimates.
+DROP	monsoon-systems-and-climate	climate-models-and-projections	-	high	B does not draw on monsoon dynamics.
+DROP	polar-amplification-ice-feedback	climate-models-and-projections	-	medium	B does not discuss polar amplification.
+DROP	solar-variability-climate	climate-models-and-projections	-	medium	B does not discuss solar variability.
+DROP	transient-climate-response	climate-models-and-projections	-	medium	B does not use TCR; it frames uncertainty via parameterization and scenarios.
+DROP	two-layer-energy-balance	climate-models-and-projections	-	medium	B is about comprehensive models; simple two-layer models are not drawn on.
+DROP	volcanic-aerosol-forcing	climate-models-and-projections	-	medium	B does not discuss volcanic forcing.
+ADD	climate-change-science	climate-models-and-projections	soft	medium	B projects the warming whose evidence and causes A establishes.
+ADD	orographic-effects-on-weather	climate-zones-and-biomes	soft	medium	B uses the Andes rain shadow to explain the Atacama Desert.
+ADD	subtropical-anticyclone-formation	climate-zones-and-biomes	soft	medium	B places subtropical deserts under descending air near 30 degrees, the subtropical highs A covers.
+DROP	lifted-condensation-level-lcl	cloud-formation-and-types	-	medium	B teaches estimating cloud base itself; the expert LCL topic builds on B.
+DROP	orographic-effects-on-weather	convective-organization-and-structure	-	medium	Terrain appears only in a distractor; B draws on instability and shear.
+DROP	dry-conveyor-belt-structure-cloud	explosive-cyclogenesis-bombogenesis	-	medium	B draws on baroclinic growth and diabatic heating; the dry conveyor belt is not used.
+DROP	ocean-heat-transport-mechanism	feedback-mechanisms-in-climate	-	high	B is about radiative feedbacks; ocean heat transport is not drawn on.
+DROP	western-boundary-current-intensification	feedback-mechanisms-in-climate	-	high	B is about radiative feedbacks; boundary currents are unrelated.
+DROP	subtropical-anticyclone-formation	global-atmospheric-circulation	-	medium	Subtropical highs result from Hadley descent; dominant direction is B toward A.
+ADD	atmosphere-composition-and-structure	greenhouse-effect	soft	medium	B defines forcing as a change in atmospheric composition and uses a layered atmosphere.
+DROP	adiabatic-lapse-rates	latent-heating-in-weather-systems	-	medium	B draws on latent heat, convection and vertical motion; lapse rates are not used.
+DROP	convective-instability-indices	latent-heating-in-weather-systems	-	medium	B reaches convection via convective-organization; stability indices are not drawn on.
+DROP	thermodynamic-diagram-analysis	latent-heating-in-weather-systems	-	medium	B does not use soundings or thermodynamic diagrams.
+ADD	coastal-upwelling-ekman-dynamics	ocean-atmosphere-interactions	soft	medium	B's El Nino discussion turns on suppressed upwelling under weakened trade winds.
+DROP	carbon-cycle-long-term	paleoclimatology	-	medium	B uses CO2 as a glacial feedback; the long-term weathering cycle is not drawn on.
+ADD	orbital-forcing-variations	paleoclimatology	soft	high	B explains glacial cycles as Milankovitch orbital forcing amplified by feedbacks.
+DROP	bergeron-process-ice-precipitation	precipitation-types-and-processes	-	medium	B teaches the Bergeron process itself; the expert topic elaborates on B.
+DROP	moisture-transport-and-advection	precipitation-types-and-processes	-	medium	B is about droplet and ice growth processes; moisture transport is not used.
+ADD	water-cycle-and-atmospheric-moisture	precipitation-types-and-processes	soft	medium	Precipitation is the condensation-to-fallout stage of the water cycle that A introduces.
+DROP	weather-forecasting-basics	pressure-systems-and-winds	-	high	Forecasting draws on pressure systems; the direction is reversed.
+ADD	baroclinic-instability	severe-weather-systems	soft	medium	B says mid-latitude systems are driven by baroclinic instability, contrasting them with tropical cyclones.
+DROP	jet-stream-variability-climate	severe-weather-systems	-	medium	B does not draw on climate-scale jet variability.
+DROP	storm-track-dynamics-climate	severe-weather-systems	-	medium	B does not draw on climate-scale storm tracks.
+ADD	atmospheric-boundary-layer-dynamics	severe-weather-systems	soft	medium	B explains hurricane landfall decay via surface friction and a cooler, drier boundary layer.
+ADD	cold-front-structure-dynamics	severe-weather-systems	soft	medium	B says frontal boundaries trigger thunderstorms along air-mass contrasts.
+DROP	explosive-cyclogenesis-bombogenesis	severe-weather-systems	-	medium	B does not discuss bombogenesis.
+DROP	pressure-tendency-and-vertical-motion	severe-weather-systems	-	medium	B does not draw on pressure tendency analysis.
+DROP	thermodynamic-diagram-analysis	severe-weather-systems	-	medium	B uses instability indices already listed; soundings are not drawn on directly.
+DROP	atmospheric-boundary-layer-dynamics	surface-energy-budget-fluxes	-	medium	B partitions radiative, sensible and latent fluxes; roughness appears only in a distractor.
+DROP	atmospheric-inversion-temperature	urban-heat-island-effect	-	medium	B explains the night-time urban excess by heat storage and sky view factor, not inversions.
+ADD	weather-forecasting-basics	weather-map-analysis	soft	medium	B frames map analysis as the forecaster's tool for predicting 24-72 hour evolution.
+DROP	continental-shelf-circulation	coastal-eutrophication-blooms	-	medium	B draws on nutrients and productivity; shelf circulation is not used.
+DROP	estuarine-mixing-salt-wedge	coastal-processes-and-waves	-	medium	Estuaries appear only in a list of coastal landforms; B is about waves and sediment.
+ADD	marine-food-web-energy-transfer	coral-reef-ecosystems	soft	medium	B starts from how energy flows through ocean food webs; marine-food-webs is already listed.
+ADD	ocean-carbonate-equilibrium-acidification	coral-reef-ecosystems	soft	medium	B explains reef threat via reduced carbonate ion availability for calcification.
+ADD	chemosynthesis-hydrothermal-vents	deep-sea-ecosystems	soft	high	B's vent communities are founded on chemosynthesis, its central contrast with surface food webs.
+ADD	marine-food-web-energy-transfer	deep-sea-ecosystems	soft	medium	B contrasts vent food webs with sunlight-based webs; marine-food-webs is already listed.
+ADD	marine-primary-productivity	deep-sea-ecosystems	soft	medium	B says surface-derived deep food webs trace back to photosynthetic production.
+DROP	ocean-carbonate-system-buffering	dissolved-oxygen-biogeochemical-cycles	-	medium	B is about oxygen, respiration and redox cycling; carbonate buffering is not used.
+DROP	potential-vorticity-conservation	ekman-boundary-layer-transport	-	high	B is wind stress balanced by Coriolis; potential vorticity is not drawn on.
+DROP	geostrophic-balance-ocean	ekman-boundary-layer-transport	-	medium	B never invokes geostrophy; Ekman transport stands on wind stress and Coriolis.
+ADD	coastal-upwelling-ekman-dynamics	el-nino-southern-oscillation	soft	medium	B's mechanism turns on suppressed eastern Pacific upwelling; ocean-upwelling is already listed.
+DROP	moisture-transport-and-advection	el-nino-southern-oscillation	-	medium	B does not draw on moisture advection.
+DROP	coastal-sediment-transport-dynamics	estuarine-mixing-salt-wedge	-	medium	B's sediment retention follows from estuarine circulation, not coastal transport.
+ADD	marine-nutrient-cycling-limitation	marine-food-web-energy-transfer	soft	medium	B links upwelled nutrients to productivity at the base of the food chain.
+JUDGE	zooplankton-food-web-structure	marine-food-webs	-	medium	Same-stage overlapping topics; B uses zooplankton as a link but A may be the specialization of B.
+ADD	carbon-dioxide-ocean-circulation	ocean-acidification	soft	medium	Acidification starts with CO2 dissolving into seawater, which A covers.
+ADD	ocean-carbonate-equilibrium-acidification	ocean-acidification	soft	high	B traces rising H+ shifting the carbonate equilibrium, the core of A.
+DROP	abyssal-plains-and-ocean-trenches	ocean-basin-structure	-	medium	B already covers abyssal plains and trenches; A is the specialization.
+DROP	mid-ocean-ridge-seafloor-spreading-rates	ocean-basin-structure	-	medium	B names ridges as features; spreading rates are not drawn on.
+DROP	coastal-sediment-transport-dynamics	ocean-sediments-and-stratigraphy	-	medium	B is about deep-sea sediments and the CCD; coastal transport is not used.
+ADD	ocean-basin-structure	ocean-sediments-and-stratigraphy	soft	medium	B explains sediment distribution by water depth across a basin, including abyssal plains.
+DROP	ocean-temperature-structure-thermocline	photic-zone-light-ocean-penetration	-	medium	B is about light attenuation; temperature structure is not drawn on.
+DROP	transient-climate-response	sea-level-change	-	medium	B uses thermal expansion and ice melt; TCR is not drawn on.
+ADD	tidal-equilibrium-mechanics	shallow-water-wave-theory	soft	medium	B treats tides as shallow-water waves with half-Earth wavelength, which equilibrium theory sets up.
+ADD	salinity-composition-seawater	thermohaline-circulation	soft	high	B's density-driven overturning depends on salinity differences.
+ADD	oceanography-fundamentals	water-mass-formation-types	soft	medium	Course entry topic that frames ocean properties used in water mass classification.
+ADD	oceanography-fundamentals	wind-driven-ocean-circulation	soft	medium	Course entry topic that frames ocean basics used in wind-driven circulation.
+ADD	stratospheric-thermal-structure	atmospheric-chemistry-planets	soft	medium	B explains Earth's ozone layer formation by UV photolysis of O2.
+ADD	planetary-atmospheres-composition-structure	atmospheric-chemistry-planets	soft	high	B compares Earth, Titan, Mars and Venus atmospheres whose compositions A describes.
+ADD	habitable-zone-boundaries-constraints	biosignatures-exoplanet-atmospheres	soft	medium	B targets Earth-sized planets in the habitable zone of M dwarfs.
+DROP	habitable-zone-boundaries-constraints	exoplanet-atmospheric-composition-spectroscopy	-	medium	B is transmission spectroscopy method; habitable zone limits are not used.
+DROP	planetary-thermal-inversion	exoplanet-atmospheric-composition-spectroscopy	-	medium	B is transmission spectroscopy; thermal inversions matter for emission spectra, not B.
+ADD	atmospheric-escape-mechanisms	exoplanet-characterization-spectroscopy	soft	medium	B explains the radius valley by photoevaporation or core-powered mass loss.
+DROP	planetary-habitability-and-biosignatures	exoplanet-characterization-spectroscopy	-	medium	Habitability is B's end goal mentioned in closing; dominant direction is B toward A.
+DROP	eruptive-styles-and-lava-rheology	habitable-zone-boundaries-constraints	-	high	B is stellar flux, greenhouse and runaway limits; lava rheology is unrelated.
+DROP	impact-induced-outgassing	habitable-zone-boundaries-constraints	-	high	B does not draw on impacts.
+DROP	multi-planet-system-architecture	habitable-zone-boundaries-constraints	-	high	B does not draw on multi-planet dynamics.
+DROP	planetary-thermal-inversion	habitable-zone-boundaries-constraints	-	medium	B does not discuss thermal inversions.
+DROP	planetary-water-inventory	habitable-zone-boundaries-constraints	-	medium	B assumes surface water; water delivery is not drawn on.
+DROP	resonance-heating-icy-bodies	habitable-zone-boundaries-constraints	-	high	B is defined by stellar flux; tidal heating is not used.
+ADD	surface-weathering-planetary-comparison	habitable-zone-boundaries-constraints	soft	medium	B's outer edge depends on the silicate weathering cycle slowing in the cold.
+ADD	volatile-inventory-and-escape-evolution	habitable-zone-boundaries-constraints	soft	medium	B's inner edge is set by water photodissociation and hydrogen escape.
+ADD	impact-basin-mechanics	impact-induced-outgassing	soft	medium	B's giant-impact case has shock waves restructuring the planet, which basin mechanics covers.
+DROP	grand-tack-hypothesis	late-heavy-bombardment	-	medium	B explains the LHB with the Nice model; the Grand Tack is not used.
+DROP	regolith-and-surface-weathering	meteorites-and-planetary-samples	-	medium	B is about meteorite classes and ages; regolith is not drawn on.
+DROP	disk-instability-giant-planet-formation	multi-planet-system-architecture	-	medium	B draws on migration and resonances; disk instability is not used.
+ADD	planetary-migration-mechanisms	multi-planet-system-architecture	soft	high	B reads resonant chains as the signature of disk-driven inward migration.
+DROP	transit-timing-variations-exoplanets	multi-planet-system-architecture	-	medium	B does not use TTVs; it draws on detection methods generally.
+DROP	disk-instability-giant-planet-formation	n-body-planetary-dynamics	-	high	B is orbital integration methods; disk instability is unrelated.
+DROP	transit-timing-variations-exoplanets	n-body-planetary-dynamics	-	medium	TTV analysis uses n-body integration; the direction is reversed.
+DROP	pebble-accretion-planet-formation	planetary-accretion-chronology	-	medium	B is radiometric age constraints; pebble accretion is not drawn on.
+ADD	atmospheric-escape-mechanisms	planetary-habitability-and-biosignatures	soft	medium	B names escape processes among the foundations for assessing habitability.
+ADD	planetary-water-inventory	planetary-habitability-and-biosignatures	soft	medium	B ties habitability to preserving the planet's volatile inventory.
+DROP	mineral-physics-high-pressure	planetary-interior-dynamics	-	medium	B draws on formation, interior structure and heat conduction; phase transitions are not used.
+DROP	grand-tack-hypothesis	planetary-system-stability	-	medium	B is chaos and instability timescales; the Grand Tack is not used.
+DROP	late-heavy-bombardment	planetary-system-stability	-	medium	B is general stability theory; the LHB is an application.
+ADD	volcanic-processes-and-landforms	planetary-tectonics-comparative	soft	medium	B says stagnant-lid planets lose heat through volcanism, citing Tharsis.
+ADD	aeolian-processes-planetary-atmospheres	surface-weathering-planetary-comparison	soft	high	B names aeolian abrasion as a primary weathering agent on Mars.
+DROP	crater-scaling-laws-and-morphology	surface-weathering-planetary-comparison	-	medium	B uses crater degradation as an erosion gauge; scaling laws are not needed.
+DROP	core-crystallization-and-reversals	thermal-evolution-terrestrial-planets	-	medium	B treats dynamo loss as an outcome of core cooling; core crystallization builds on B.
+DROP	giant-impact-hypothesis	thermal-evolution-terrestrial-planets	-	medium	B mentions accretional impact heating generically; the giant impact is not used.
+DROP	impact-basin-mechanics	thermal-evolution-terrestrial-planets	-	medium	B does not draw on basin formation.
+DROP	impact-induced-outgassing	thermal-evolution-terrestrial-planets	-	medium	B does not draw on impact outgassing.
+DROP	resonance-heating-icy-bodies	thermal-evolution-terrestrial-planets	-	high	B is about rocky planets cooling by size; icy-moon tidal heating is unrelated.
+DROP	tidal-orbital-evolution-long-term	thermal-evolution-terrestrial-planets	-	high	B does not draw on orbital evolution.
+DROP	volatile-inventory-and-escape-evolution	thermal-evolution-terrestrial-planets	-	medium	Outgassing appears only as a consequence of B; the dominant direction is B toward A.
+DROP	giant-impact-hypothesis	tidal-orbital-evolution-long-term	-	medium	B is tidal torque and recession; the Moon's origin is not drawn on.
+DROP	eruptive-styles-and-lava-rheology	volatile-inventory-and-escape-evolution	-	medium	B uses volcanic outgassing as a source; lava rheology is not drawn on.
+ADD	surface-weathering-planetary-comparison	volatile-inventory-and-escape-evolution	soft	medium	B's Venus case turns on losing the silicate weathering cycle that removes CO2.
+DROP	radar-remote-sensing-sar	change-detection-remote-sensing	-	medium	B works with optical NDVI differencing and classification; SAR is not used.
+DROP	thermal-remote-sensing	change-detection-remote-sensing	-	medium	B does not use thermal data.
+ADD	vegetation-indices-ndvi	change-detection-remote-sensing	soft	high	B's worked method is differencing two NDVI images.
+DROP	land-use-land-cover-mapping	disaster-monitoring-remote-sensing	-	medium	B draws on SAR, thermal and change detection; LULC mapping is not used.
+DROP	remote-sensing-atmosphere	disaster-monitoring-remote-sensing	-	medium	Atmospheric correction appears only in a distractor.
+ADD	optical-remote-sensing	hyperspectral-imaging	soft	medium	B extends optical reflectance spectra to hundreds of narrow bands; multispectral is already listed.
+DROP	hyperspectral-imaging	image-classification-remote-sensing	-	medium	B classifies multispectral imagery; hyperspectral data is not used.
+ADD	optical-remote-sensing	image-classification-remote-sensing	soft	medium	B classifies pixels by spectral signatures from optical reflectance imagery.
+DROP	photogrammetry	land-use-land-cover-mapping	-	high	B builds on classification, change detection and NDVI; photogrammetry is not used.
+DROP	thermal-remote-sensing	land-use-land-cover-mapping	-	medium	Thermal data appears only as a distractor.
+ADD	lidar-principles	photogrammetry	soft	medium	B repeatedly contrasts SfM surfaces with LiDAR bare-earth returns.
+DROP	coordinate-systems-projections	spatial-analysis-gis	-	medium	B's overlay and suitability examples never draw on projections.
+ADD	digital-elevation-models	spatial-analysis-gis	soft	medium	B's suitability overlay uses slope, a DEM-derived layer.
+DROP	network-analysis-gis	web-gis	-	medium	Routing appears only as an example web service; B is about web architecture.

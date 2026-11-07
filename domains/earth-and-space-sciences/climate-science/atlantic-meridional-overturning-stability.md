@@ -12,9 +12,7 @@ prerequisites:
   type: soft
 - id: wind-buoyancy-driven-circulation
   type: soft
-builds-toward:
-- climate-models-and-projections
-- climate-sensitivity-radiative-feedbacks
+builds-toward: []
 tags:
 - ocean-circulation
 - stability

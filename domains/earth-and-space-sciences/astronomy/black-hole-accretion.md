@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: angular-momentum
   type: soft
-builds-toward:
-- gravitational-waves-binary-mergers
+builds-toward: []
 tags:
 - black-holes
 - accretion

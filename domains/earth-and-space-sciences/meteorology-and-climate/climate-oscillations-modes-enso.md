@@ -10,8 +10,7 @@ prerequisites:
   type: soft
 - id: climate-classification-systems-koppen
   type: soft
-builds-toward:
-- climate-feedback-ice-albedo-water-vapor
+builds-toward: []
 tags:
 - oscillation
 - enso

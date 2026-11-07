@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - metamorphic-textures-microstructures
-- fold-fault-formation-stress-analysis
 tags:
 - metamorphic
 - petrology

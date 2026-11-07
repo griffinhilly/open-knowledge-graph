@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: lifted-index-stability
   type: soft
+- id: jet-stream-subtropical-polar
+  type: soft
 builds-toward:
 - jet-stream-variability-climate
 - baroclinic-instability

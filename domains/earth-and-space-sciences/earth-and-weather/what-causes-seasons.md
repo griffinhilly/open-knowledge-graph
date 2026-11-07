@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: earths-rotation
   type: soft
+- id: the-sun
+  type: soft
 builds-toward:
 - seasons-around-the-world
 - solar-radiation-and-earth-energy-balance

@@ -12,8 +12,9 @@ prerequisites:
   type: soft
 - id: paleoclimate-tipping-points
   type: soft
+- id: atlantic-meridional-overturning-circulation
+  type: soft
 builds-toward:
-- climate-models-and-projections
 - atlantic-meridional-overturning-stability
 tags:
 - tipping-points

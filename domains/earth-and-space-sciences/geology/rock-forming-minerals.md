@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: minerals-basics
   type: soft
+- id: mineral-properties-and-testing
+  type: soft
 builds-toward:
 - igneous-rocks
 - sedimentary-rocks

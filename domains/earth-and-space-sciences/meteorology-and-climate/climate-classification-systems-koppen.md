@@ -16,7 +16,6 @@ prerequisites:
   type: soft
 builds-toward:
 - climate-oscillations-modes-enso
-- anthropogenic-climate-forcing
 tags:
 - classification
 - koppen

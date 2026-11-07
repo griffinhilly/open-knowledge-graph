@@ -11,7 +11,6 @@ prerequisites:
 builds-toward:
 - rossby-waves-barotropic
 - baroclinic-instability
-- ekman-boundary-layer-transport
 tags:
 - vorticity
 - conservation

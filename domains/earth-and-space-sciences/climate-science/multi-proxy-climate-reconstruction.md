@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: paleoclimate-proxies
   type: hard
+- id: alkenone-paleothermometry
+  type: soft
 tags:
 - multi-proxy
 - ensemble-reconstruction

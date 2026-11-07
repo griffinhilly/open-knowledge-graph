@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - stadials-interstadials-glacial
-- glacial-interglacial-cycles
 tags:
 - aeolian-deposits
 - loess

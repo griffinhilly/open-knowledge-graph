@@ -11,7 +11,6 @@ prerequisites:
 - id: metamorphic-rocks-formation
   type: hard
 builds-toward:
-- mineral-identification-diagnostic-properties
 - igneous-rock-texture-classification
 tags:
 - rock-identification

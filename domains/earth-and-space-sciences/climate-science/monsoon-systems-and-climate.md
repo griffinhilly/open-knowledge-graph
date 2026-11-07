@@ -18,7 +18,6 @@ prerequisites:
   type: soft
 builds-toward:
 - regional-climate-downscaling
-- climate-models-and-projections
 tags:
 - monsoon
 - precipitation

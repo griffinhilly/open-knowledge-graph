@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: paleoclimate-reconstruction-methods
   type: hard
+- id: last-glacial-maximum
+  type: soft
+- id: polar-amplification-paleoclimate
+  type: soft
 tags:
 - model-validation
 - paleoclimate-constraints

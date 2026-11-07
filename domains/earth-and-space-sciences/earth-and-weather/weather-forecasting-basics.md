@@ -11,7 +11,6 @@ prerequisites:
 - id: severe-weather-storms-and-tornadoes
   type: soft
 builds-toward:
-- pressure-systems-and-winds
 - weather-map-analysis
 tags:
 - weather
