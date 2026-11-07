@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Collaborative fiction distributes authorship across multiple writers through digital platforms, challenging romantic conceptions of individual authorship. Fan fiction communities and collaborative wikis demonstrate how contemporary literature increasingly emerges through networked and collective creation, with authorship negotiated rather than singular.
 
+## How It's Best Learned
+Open the revision history of one page on a collaborative fiction wiki and trace a single passage through its edits. Note who added, cut, or reversed what, and whether discussion between contributors drove the changes. Then try to write a fair credit line for the passage. The trouble you have writing that line is the topic's central problem.
+
+## Common Misconceptions
+- Collaborative fiction means many people writing the same text at the same moment. (It takes many forms, such as round-robin chapters, shared worlds, comment-driven revision, and wiki edits. Much of it is asynchronous.)
+- Distributed authorship means no one gets credit. (Communities develop norms for crediting contributors, and version histories can record who wrote what.)
+- Collaborative writing is a digital invention. (Co-authored novels and literary salons came long before the internet. Digital platforms changed the scale and made the layering visible.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Collaborative fiction distributes authorship across multiple writers through dig
 
 - question: Explain how collaborative fiction in digital communities differs from earlier forms of literary collaboration (such as co-authored novels or literary salons) and what this difference reveals about contemporary authorship.
   type: short-answer
+  answer: Digital collaboration differs in its scale, its asynchronous work, its visible version histories, and its contributors who come and go. It reveals authorship as a process negotiated within a community, with a porous line between readers and writers.
   explanation: 'Key differences: (1) Scale—digital platforms enable collaboration across thousands of contributors, not just small groups; (2) Asynchronicity—contributors need not work simultaneously; (3) Transparency—digital version histories make the layering of authorship visible; (4) Participant fluidity—contributors can enter and exit, versus committed partnerships. What this reveals: (1) Authorship is increasingly understood as a process rather than an author-property; (2) Contemporary writing emerges through platforms and infrastructure, not just individual creativity; (3) Community negotiation shapes literary meaning alongside authorial intention; (4) The boundary between readers and writers becomes porous—readers contribute. Earlier collaboration was typically singular (two named co-authors). Contemporary collaboration is distributed (many anonymous contributors). This shift reflects deeper changes in how meaning is made in networked digital culture.'
 ```
 

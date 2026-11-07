@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Environmental storytelling conveys narrative through world design—architecture, object placement, visual and audio detail—rather than exposition. Players reconstruct story through observation: destroyed cities imply apocalypse; diary entries reveal inhabitants' lives. This form distributes narrative across space, requiring active interpretive engagement.
 
+## How It's Best Learned
+Pick one room from a game you know and sketch it from above, marking each object. Beside each mark, write what event it implies and how sure you are. Then design a small room of your own that tells a three-step story with no text at all. Give it to someone else to read, and compare their account with what you intended.
+
+## Common Misconceptions
+- Environmental storytelling means leaving notes and audio logs around. (Documents are one tool. Object placement, damage, lighting, and layout can tell a story with no words.)
+- Any richly detailed level is environmental storytelling. (Detail alone is set dressing. The term fits when an arrangement implies events, such as a barricaded door with scratches on the inside.)
+- Players will read the story the designer intended. (Different players can draw different conclusions from the same clues. Designers guide inference through placement and framing but cannot fix it.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Environmental storytelling conveys narrative through world design—architecture
 
 - question: Explain how environmental storytelling transforms the player's role from consumer of narrative to interpreter and detective. Why is this shift significant for game narrative?
   type: short-answer
+  answer: Because story elements are placed in the world instead of told, players must observe clues and infer what happened, acting as interpreters. This matters because it builds immersion, trusts the player's intelligence, and makes moving through space itself meaningful.
   explanation: 'In conventional narrative, the audience is a consumer: the author/narrator tells the story and the audience receives it. In environmental storytelling, the player becomes an interpreter and detective. Story elements are not given; they must be discovered and pieced together. A destroyed city doesn''t explicitly say ''apocalypse''—the player infers it from environmental clues. A diary entry is found, not heard. This shift is significant because it activates the player''s interpretive agency. Players feel like they are discovering truth, not receiving exposition. This creates immersion: the player is present in the world, learning its history through observation. It also respects player intelligence: rather than telling the player what happened, it allows them to figure it out. Additionally, environmental storytelling integrates narrative with world design—the story and the setting are not separate; narrative emerges from the world itself. This creates meaningful spatial exploration: moving through space is meaningful because space tells story.'
 ```
 

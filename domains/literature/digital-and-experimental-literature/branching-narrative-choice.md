@@ -22,6 +22,15 @@ status: draft
 ## Core Idea
 Branching narratives provide player choices that diverge the story into multiple paths with different consequences. Modern branching design carefully tracks choice consequences using variables to customize narrative. The form questions narrative determinism and authorial control by distributing narrative authority between author and player.
 
+## How It's Best Learned
+Draw a short branching story on paper as a pure tree and count how the scenes multiply with each two-way choice. Then redraw the same story with shared scenes and two variables that later scenes check. Comparing the diagrams shows why designers fold branches back together, and how one remembered choice can echo through the story.
+
+## Common Misconceptions
+- Every choice splits off a wholly separate storyline. (A pure tree multiplies scenes too fast to write. Many designs merge branches into shared scenes and use variables to vary what happens there.)
+- More choices means more player agency. (A choice that changes nothing later feels hollow. Agency depends on whether consequences are visible and meaningful.)
+- The player becomes the author. (The player selects among possibilities the author wrote. The author still controls what can happen.)
+- Branching stories began with video games. (Printed gamebooks branched by sending readers to numbered sections, and text adventures branched before modern games.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +66,7 @@ Branching narratives provide player choices that diverge the story into multiple
 
 - question: Explain how a variable-based branching system both 'authorializes' and 'deauthorializes' narrative simultaneously. What does this reveal about the relationship between author and player?
   type: short-answer
+  answer: The author designs every branch, variable, and consequence, so authorial control over what can happen grows. The player decides which branch actually happens, so control over the experienced story is shared. Authorship splits into designing possibilities and selecting among them.
   explanation: 'This captures a paradox in branching narrative design. On one hand, the author authorializes extensively: they must design every possible branch, every consequence, every variable. The branching structure is entirely author-determined; the player can only choose among author-provided options. On the other hand, the player''s choices deauthorialize the narrative: they determine which branch actualizes, which consequences manifest, which story the player experiences. The player becomes co-author in the sense that they determine narrative actualization, even though all narrative possibilities are author-created. This reveals that authorship has multiple dimensions: the author controls narrative possibility-space, but the player controls narrative actualization. Neither is wholly in control; both are necessary. This challenges traditional author-centric models where the author alone determines what the reader encounters. Instead, branching narrative shows that narrative meaning emerges from the interplay between author (who designs possibilities) and player (who selects actualization).'
 ```
 

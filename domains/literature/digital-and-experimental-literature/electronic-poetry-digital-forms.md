@@ -25,6 +25,14 @@ status: draft
 ## Core Idea
 Electronic poetry exploits digital media affordances—interactivity, animation, code, sound, network distribution—that cannot exist in print. Works range from kinetic poems with animated text to algorithmic generation to interactive installations. Electronic poetry reconceptualizes poetry as multimodal and dynamic rather than static verbal arrangement on a page.
 
+## How It's Best Learned
+Browse the Electronic Literature Collection, a free online anthology of digital works, and pick one kinetic poem and one interactive poem. For each, list the affordances it uses: motion, timing, reader input, sound, or generation. Then imagine printing a single screenshot and list what disappears. That list of losses names what the work needs the digital medium for.
+
+## Common Misconceptions
+- A print poem posted on a website is electronic poetry. (Moving a poem to a screen changes delivery, not form. Electronic poetry makes capacities such as motion, interaction, or generation part of the work.)
+- Electronic poetry replaces words with visuals. (Language stays central. Sound, motion, and interaction work with the words, and meaning comes from how they combine.)
+- An interactive poem lets the reader write the poem. (In many interactive poems, reader input changes the order, timing, or look of text the author made.)
+
 ## Questions
 
 ```yaml
@@ -60,6 +68,7 @@ Electronic poetry exploits digital media affordances—interactivity, animation,
 
 - question: Explain what it means for electronic poetry to exploit 'affordances' of digital media. What does affordance mean in this context, and why is the concept significant?
   type: short-answer
+  answer: An affordance is a capacity a medium makes possible, such as animation, interactivity, computation, sound, or network distribution in digital media. The concept matters because it shows that medium shapes form, so electronic poetry uses what digital media enable instead of imitating print.
   explanation: 'An affordance is a possibility or capacity that a medium enables. Print affords certain things: spatial arrangement, visual form, textual permanence. Digital media affords different things: animation (text that moves over time), interactivity (reader input that shapes the work), computational logic (algorithms generating variation), sound integration, networked distribution. Electronic poetry exploits these affordances—not treating them as accidental features, but as essential artistic dimensions. This is conceptually significant because it recognizes that different media enable different artistic possibilities. Print poetry cannot animate text or integrate sound; electronic poetry can. Recognizing affordances means understanding that form and medium are not separate—that the medium shapes what kinds of art are possible. Electronic poetry doesn''t try to make digital media behave like print; it discovers what digital media uniquely enables and exploits that.'
 ```
 

@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Finlay transformed concrete poetry from the page into three-dimensional garden installations, notably at Little Sparta in Scotland, embedding poetic and textual meaning directly into physical landscape. His work demonstrates how literary form can extend into spatial and environmental dimensions, merging experimental poetry, visual art, and landscape design into integrated practice.
 
+## How It's Best Learned
+Work from a plan of Little Sparta and photographs of a few inscriptions in place. For each one, write what the words mean on their own, then what they mean beside the water, trees, or view where they stand. Then pick a spot you know, write a short phrase for it, and say what moving the phrase elsewhere would lose.
+
+## Common Misconceptions
+- Little Sparta is a garden with poems set into it. (The garden is composed as one work. Inscriptions take meaning from the plants, views, and paths around them.)
+- Finlay left the page behind for the garden. (He kept producing printed poems, cards, and prints through his small press alongside the garden work.)
+- A book of photographs shows the work as well as a visit does. (Photographs lose scale, weather, and the walk between pieces. Site-specific meaning depends on meeting the text in its place.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Finlay transformed concrete poetry from the page into three-dimensional garden i
 
 - question: Explain how Little Sparta functions as a poetic work rather than merely a garden decorated with poems. What does this reveal about the definition of poetry?
   type: short-answer
+  answer: Little Sparta is composed as a whole, so each inscription takes meaning from the plants, views, and paths around it and from the visitor's walk to reach it. This shows that poetry can include spatial and environmental composition, not only words on a page.
   explanation: 'Little Sparta is not a garden that contains poems; it is a unified poetic work where garden design, landscape features, textual inscriptions, and visitor navigation all contribute to meaning-making. A poem inscribed on a stone means something different because of the surrounding plants, the view it frames, the visitor''s journey to reach it. The entire landscape is composed poetically—relationships between elements create resonance and meaning. This reveals: (1) Poetry is not limited to verbal language but extends to spatial arrangement, visual form, and environmental composition; (2) Poetic meaning emerges through reader/visitor engagement and movement, not just interpretation of static text; (3) Literature can merge with visual art, landscape design, and environmental practice. Traditional definitions of poetry (verbal expression, written texts) become too narrow. Finlay''s work expands poetry to mean any carefully composed and meaningful arrangement of elements—textual, visual, spatial, environmental—that creates aesthetic and conceptual effects.'
 ```
 

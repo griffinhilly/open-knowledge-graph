@@ -25,6 +25,14 @@ status: draft
 ## Core Idea
 Hypertext fiction structures narrative as interconnected nodes linked by hyperlinks, allowing readers to navigate multiple paths through the story. Unlike print fiction with fixed linear sequence, hypertext fiction privileges reader agency in constructing meaning through link traversal. The form emerged in the 1980s-90s, fundamentally challenging traditional narrative structure by making navigational choice constitutive of the reading act.
 
+## How It's Best Learned
+Build a ten-node story in Twine, a free tool for linked passages, or on index cards joined with string. Give at least one node two incoming links from different contexts. Have two people read it, record their paths, and ask each to retell the story. Comparing the retellings shows the link structure producing different narratives from the same nodes.
+
+## Common Misconceptions
+- Hypertext fiction is a choose-your-path game. (Literary hypertext often uses links for association and juxtaposition, not only for plot decisions, and it may have no endings to reach.)
+- Hypertext fiction began with the World Wide Web. (Key early works were built in standalone tools such as Storyspace and sold on disk, before the Web was widely used.)
+- If I follow links until nothing new appears, I have read the whole work. (A reader cannot easily confirm that, and the uncertainty is part of how many hypertexts work.)
+
 ## Questions
 
 ```yaml
@@ -60,6 +68,7 @@ Hypertext fiction structures narrative as interconnected nodes linked by hyperli
 
 - question: Explain why hypertext fiction 'challenges traditional narrative structure.' What aspect of traditional narrative is fundamentally altered by the hypertext form?
   type: short-answer
+  answer: It alters the fixed, author-determined sequence of events. In hypertext the reader's link choices determine the sequence, so a narrative becomes a set of possible paths actualized jointly by author and reader.
   explanation: 'Traditional narrative structure assumes linear sequence determined by the author. The narrative unfolds in a fixed order; the reader''s role is passive discovery. Hypertext challenges this by making the sequence determined by reader choice. The reader is not passive; their navigation determines what narrative they experience. This challenges several assumptions: (1) that narrative is a fixed sequence (hypertext presents multiple possible sequences), (2) that the author determines meaning (hypertext distributes determination to reader choice), (3) that reading is passive reception (hypertext reading is active navigation). By making choice constitutive, hypertext reconceptualizes narrative from fixed authorial creation to collaborative actualization between author and reader.'
 ```
 

@@ -23,6 +23,14 @@ status: draft
 ## Core Idea
 Audio drama serializes narrative through podcasting, emphasizing voice performance, sound design, and sonic narrative. This form demonstrates how narrative meaning is created through voice, sound, and temporal unfolding rather than visual text, creating narrative possibilities distinct from written literature while enabling new forms of serialized storytelling.
 
+## How It's Best Learned
+Listen to one scene from a serialized audio drama twice. The second time, log every sound cue, voice shift, and silence with a timestamp. Then rewrite the scene as prose and mark each sentence you had to add to replace something the audio did. That list of additions shows what voice and sound were carrying.
+
+## Common Misconceptions
+- Audio drama is a script read aloud. (Performance, sound design, and silence carry meaning the script alone does not. The same lines performed differently can change a scene.)
+- Sound effects decorate a story that the dialogue tells. (Ambience and effects establish setting and can move the plot directly, with no line of dialogue needed.)
+- Serialized storytelling began with podcasting. (Radio drama and serialized print fiction used episodic release long before. Podcasting changed distribution and community, not the basic idea of the installment.)
+
 ## Questions
 
 ```yaml
@@ -58,6 +66,7 @@ Audio drama serializes narrative through podcasting, emphasizing voice performan
 
 - question: Describe the specific advantages and constraints that audio drama's sonic and temporal form imposes compared to written narrative.
   type: short-answer
+  answer: Audio drama gains instant characterization through voice, immersive setting through sound, and anticipation built by episodic release. It is constrained because dialogue is harder to revisit, all visual information must be carried by sound, and a single linear timeline makes branching hard.
   explanation: 'Advantages: (1) Voice conveys character instantly through acoustic qualities—accent, inflection, emotional timbre—that would require prose description; (2) sound design creates immersive atmosphere without visual imagery; (3) temporal linearity matches human listening time, creating natural pacing; (4) serialization builds community and anticipation. Constraints: (1) listeners cannot re-access dialogue as easily as readers can re-read passages; (2) all narrative information must be conveyed through sound, not visual description or typography; (3) narrative must be experienced linearly in real-time, unlike novels where readers control pace; (4) complex branching narratives are difficult to achieve because listeners must follow a single timeline. These differences mean audio drama storytelling develops different narrative techniques—more reliance on dialogue, careful use of silence, distinct sonic signatures for characters.'
 ```
 

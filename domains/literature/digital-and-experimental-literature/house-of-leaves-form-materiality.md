@@ -21,6 +21,14 @@ status: draft
 ## Core Idea
 Danielewski's 'House of Leaves' exploits print materiality radically through nested narratives, footnote labyrinths, and spatial disorientation on the page. Typographic choices, page layout, and margin space become integral to narrative meaning, demonstrating how print experimentalism achieves effects comparable to digital interactivity through material form rather than computation.
 
+## How It's Best Learned
+Before reading far, sketch a diagram of the frames: the film The Navidson Record, Zampanò's study of it, Johnny Truant's footnotes on that study, and the editors' notes. Mark which layer is speaking on a few sample pages. Then follow one footnote chain across several pages, noting each time you flip or rotate the book. Compare that effort with the characters' movement through the house.
+
+## Common Misconceptions
+- The footnotes are background notes you can skip. (They carry a second narrative, Johnny Truant's, and much of the book's story happens there.)
+- The Navidson Record is presented as a real, verifiable film. (Within the novel, Truant reports that he can find no evidence the film exists. That doubt is part of the book's layered unreliability.)
+- The strange page layouts are visual decoration. (Many layouts track what happens in the house, so the physical difficulty of reading parallels the characters' difficulty moving through it.)
+
 ## Questions
 
 ```yaml
@@ -56,6 +64,7 @@ Danielewski's 'House of Leaves' exploits print materiality radically through nes
 
 - question: Explain how 'House of Leaves' uses footnotes as more than supplementary documentation and discuss what this reveals about print experimentalism.
   type: short-answer
+  answer: The footnotes become a main narrative space, nesting into chains that force readers back and forth through the book much as hypertext links do. This shows that print can achieve non-linear, navigationally complex form through its own material resources, without computation.
   explanation: 'In conventional academic writing, footnotes are supplementary—they provide citations and clarifications without disrupting the main text. In ''House of Leaves,'' footnotes become a primary narrative space. Readers must navigate back and forth between margins and body text, sometimes following footnote chains deeper into marginalia. This creates a reading experience that is non-linear and navigationally complex. Footnotes become a structural principle comparable to hypertext links in digital literature. What this reveals: (1) Print materiality offers possibilities for non-linearity through typographic and spatial strategies; (2) The physical act of reading—page-turning, navigating margins, following footnotes—can enact thematic concerns; (3) Experimentalism is not exclusive to digital media; form-based innovation works through print''s material affordances. This challenges the assumption that experimental narrative requires computation. ''House of Leaves'' proves that print can achieve formal sophistication and navigational complexity through intelligent use of typography and space rather than algorithms.'
 ```
 

@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Conceptual poetry prioritizes the governing concept over verbal result, reframing found text, applying algorithms, or exploiting language systems. Flarf mines search-engine results and internet vernacular to generate poetry from digital detritus. Both challenge assumptions about taste, authorship, and literary value through sophisticated critique.
 
+## How It's Best Learned
+Try both practices on a small scale. For a conceptual piece, pick a found text such as a weather report and present it unchanged under a title, as a poem. For Flarf, run an odd search phrase, collect fragments from the results, and arrange them into a poem. Then compare what each frame did to language you did not write.
+
+## Common Misconceptions
+- Flarf is search results pasted at random. (Flarf poets choose, cut, and arrange what they find. The selection and reframing are where the work happens.)
+- If the concept is what matters, execution does not. (The text still has to embody the concept. A concept carried out weakly makes a weak work.)
+- Found text has no author. (The choices of source, rule, and frame are the authorship. These practices move authorship to those choices; they do not remove it.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Conceptual poetry prioritizes the governing concept over verbal result, reframin
 
 - question: Explain how conceptual poetry and Flarf constitute 'sophisticated critique' of assumptions about 'taste, authorship, and literary value.' What assumptions are they critiquing?
   type: short-answer
+  answer: They critique the assumptions that literary value lies in beautiful, emotionally true language, that authorship requires individually crafted expression, and that some language is inherently literary while internet vernacular is trash. By working through concept and reframing, they show that literary value depends on context and frame.
   explanation: 'They critique several linked assumptions: (1) Literary value resides in linguistic beauty and emotional authenticity—that poems are good because they''re well-written and emotionally true. Conceptual poetry shows value can reside in ideas and formal constraints. (2) Authorship requires individual talent and crafted expression—that a poet''s skill creates the work. Conceptual poetry and Flarf show value can reside in constraints, algorithms, or reframing found material. (3) Certain discourse is inherently literary and other discourse is trash—that ''proper'' language belongs in literature, but internet vernacular does not. Flarf shows that any material can be poetic if reframed appropriately. These are critiques of taste—the assumption that literary judgments reflect objective quality rather than constructed conventions. By operating at the level of concept and reframing rather than linguistic craft, these movements expose how literary value is socially constructed: dependent on context, intention, and frame, not inherent in the text.'
 ```
 

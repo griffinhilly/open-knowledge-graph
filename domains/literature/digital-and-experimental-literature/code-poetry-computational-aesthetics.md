@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Code poetry treats computer code as literary material, finding meaning in its visual form, execution, or linguistic properties. By reading code aesthetically rather than purely instrumentally, code poetry collapses boundaries between technical and literary language, demonstrating how programming syntax can carry poetic resonance independent of (or alongside) computational function.
 
+## How It's Best Learned
+Take a working ten-line program and make two copies. In one, use neutral names like `x` and `temp`; in the other, evocative names like `ghost` and `echo`. Run both to confirm they behave the same, then read both aloud and note what changed. Finally, introduce a deliberate error and read the error message as part of the poem.
+
+## Common Misconceptions
+- Renaming a variable changes nothing because the program still does the same thing. (The computation is unchanged, but the human reading changes. Code poetry works in that gap.)
+- Code that will not run is failed code poetry. (Some poets use non-running code or error messages as material. Such pieces are judged by different criteria than functional ones.)
+- A code poem's meaning comes only from its output. (Names, comments, indentation, and loop structure can carry meaning on the page, whether or not the code is run.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Code poetry treats computer code as literary material, finding meaning in its vi
 
 - question: Explain why code poetry is particularly effective as a form of experimental literature in the digital age, and identify specific technical properties of code that can carry poetic meaning.
   type: short-answer
+  answer: People meet code constantly but rarely read it as art, so code poetry exposes the expressive side of everyday technical systems. Properties that carry poetic meaning include variable names, comments, loops and recursion, indentation and whitespace, error messages and output, and the gap between what code should do and what it does.
   explanation: 'Code poetry is effective because: (1) it operates in a medium most people encounter but rarely read aesthetically; (2) it reveals hidden dimensions of everyday technical systems; (3) it makes visible the conceptual labor that programming requires. Specific poetic elements: (1) Variable naming—names can be evocative, metaphorical, or absurdist (''ghost'', ''shadow'', ''void''); (2) Comment syntax—comments can be lyrical, confessional, or contradictory; (3) Loop and recursion structures—repetition, nesting, and recursion create rhythmic patterns; (4) Visual indentation and whitespace—spacing can be compositionally arranged; (5) Error messages and output—failures or unexpected outputs become poetic events; (6) The relationship between intention (what the code is ''supposed'' to do) and execution (what it actually does). Code poetry suggests that computation itself is not purely mathematical but conceptual and expressive.'
 ```
 

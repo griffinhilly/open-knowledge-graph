@@ -20,6 +20,15 @@ status: draft
 ## Core Idea
 Michael Joyce's 'afternoon, a story' (1990) is the canonical work of hypertext fiction, created in Storyspace. The work uses link structure to generate narrative ambiguity—readers never know if they've encountered all fragments, and different reading paths yield different interpretations. Its metafictional reflection on hypertext reading established formal conventions for the medium.
 
+## How It's Best Learned
+Read the work at least twice, making different link choices each time, and keep a log of the fragment titles you reach on each pass. Then set the two logs side by side. Mark one fragment that appeared in both readings and write down how its meaning changed with what came before it.
+
+## Common Misconceptions
+- If I keep clicking long enough, I will reach the real ending. (The work offers no single ending that closes every thread. Readers cannot be sure they have seen every fragment, and that uncertainty is part of the design.)
+- The reader is making up the story. (Joyce wrote every fragment and built every link. The reader chooses an order through paths the author made.)
+- Hypertext fiction started on the World Wide Web. (This work was written in Storyspace, a standalone authoring program, and published on disk in 1990. It was not written in HTML for the Web.)
+- The links are a menu wrapped around the story. (The link structure produces the work's ambiguity and its reflection on reading, so it is part of what the story means.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +64,7 @@ Michael Joyce's 'afternoon, a story' (1990) is the canonical work of hypertext f
 
 - question: Explain why 'afternoon, a story' is described as establishing 'formal conventions' for hypertext fiction despite being created in 1990. What specific techniques did it establish that later works built upon?
   type: short-answer
+  answer: It made multiple link paths a source of interpretive ambiguity, broke narrative into fragments that gain meaning through juxtaposition, reflected on hypertext reading inside the fiction, and treated navigation as an act of interpretation. Later works adopted these techniques.
   explanation: 'Joyce''s work established several formal conventions: (1) using link ambiguity and multiple paths to generate interpretive variation, (2) employing narrative fragmentation where isolated passages gain meaning through juxtaposition, (3) using metafictional reflection on the hypertext medium itself, and (4) treating navigation as a meaning-making act rather than mere traversal. Later hypertext fiction and digital narrative works adopted these techniques because they best exploited hypertext''s affordances—its capacity for non-linearity, reader agency, and the foregrounding of navigation.'
 ```
 

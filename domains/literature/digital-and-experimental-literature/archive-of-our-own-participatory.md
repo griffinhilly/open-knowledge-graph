@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Archive of Our Own (AO3), a non-profit fan-created archive founded in 2008, preserves fan works while prioritizing creator rights and accessibility through sophisticated metadata systems. AO3 legitimizes fan production and demonstrates collective governance of digital literary commons, modeling alternative institutional structures for literary preservation.
 
+## How It's Best Learned
+Pick one fandom on AO3 and search it twice: once with free text, once with the filter sidebar set to specific character, relationship, and warning tags. Compare which works surface each time. Then open one canonical tag and look at the fan-written tags linked under it. This shows how volunteers map community vocabulary into a shared, searchable system.
+
+## Common Misconceptions
+- Posting a story on AO3 makes it legal. (Hosting a work does not change its copyright status. AO3 preserves and provides access; arguments that transformative works are fair use are a separate matter.)
+- AO3 is a social platform like any other, just for fiction. (It has no engagement-driven recommendation feed. Readers find works through tags and filters they control.)
+- Collective governance means no one is in charge. (The archive is run by a non-profit, the Organization for Transformative Works, with defined volunteer roles such as tag wranglers.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Archive of Our Own (AO3), a non-profit fan-created archive founded in 2008, pres
 
 - question: Explain what it means to say that AO3 'models alternative institutional structures for literary preservation.' What alternative does AO3 represent compared to traditional literary institutions?
   type: short-answer
+  answer: Traditional institutions rely on professionals who decide what is worth publishing and preserving. AO3 offers a community-governed alternative in which creators choose what to archive, fans build the metadata, and works are openly accessible.
   explanation: 'Traditional literary institutions (publishers, academic universities, national libraries) are hierarchical and gatekeeping: professionals decide what is worthy of preservation; publication requires institutional vetting; access is controlled through legal/financial mechanisms. AO3 represents an alternative: a platform governed collectively by creators and communities, preserving works chosen by participants as culturally significant, and providing open access. Rather than professionals deciding what matters, communities do. Rather than publication as the standard of legitimacy, AO3 legitimizes fan production through accessibility and preservation. Rather than institutional gatekeeping, collective participation determines value. This model challenges the assumption that literary preservation requires professional gatekeeping institutions. AO3 demonstrates that communities can collectively organize preservation of their own cultural production—and can do it well. This has implications beyond fan fiction: it suggests that literary commons could be governed collectively, that preservation can be participatory, and that institutional legitimacy can come from community significance rather than professional vetting.'
 ```
 

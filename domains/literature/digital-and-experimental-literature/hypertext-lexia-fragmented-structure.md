@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 The lexia—a discrete, self-contained textual unit in hypertext—differs fundamentally from the page or chapter as a narrative unit. Hypertext theory developed the lexia concept to describe how hypertextual literature atomizes narrative into smaller, potentially independent units that nonetheless contribute to larger narrative wholes, enabling non-sequential reading that decenters authorial progression.
 
+## How It's Best Learned
+Take a short story you know and cut it into eight to twelve passages. Rewrite each one so it makes sense with no fixed neighbor, then shuffle and read three random orders. Mark where a passage needed a phrase of added context, and where a new order changed what it meant. Those marks show the balance a lexia has to strike.
+
+## Common Misconceptions
+- A lexia is a page on a screen. (A page is defined by its fixed place in a sequence. A lexia is written to work in several positions.)
+- A good lexia stands entirely alone. (It has to make sense when met, but it also gains depth from its neighbors. Total isolation would stop the narrative from building.)
+- Readers of the same hypertext differ only in how they interpret it. (They also meet different sequences of lexias, so the variation is in the structure of what they read, not only in interpretation.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ The lexia—a discrete, self-contained textual unit in hypertext—differs funda
 
 - question: Explain how the hypertext lexia structure affects the relationship between narrative meaning and reader agency. How does this differ from conventional narrative?
   type: short-answer
+  answer: Because lexias can be met in different orders, the reader's link choices decide which fragments sit next to each other, and meaning shifts with that path. In conventional narrative the author fixes the sequence and readers interpret it; in hypertext readers help build the sequence itself.
   explanation: 'In conventional narrative, the author controls meaning by ordering events in a fixed sequence. Readers interpret this sequence but cannot alter it. In hypertext lexia structure: (1) Meaning becomes variable—different reading orders generate different interpretations; (2) Reader agency becomes structural—by choosing which links to follow, readers determine which lexias encounter each other; (3) Narrative accumulation becomes path-dependent—a lexia''s meaning evolves from the context created by the reader''s specific path. Example: In ''Afternoon, a Story,'' a lexia about the protagonist''s childhood becomes more psychologically significant if it follows a lexia about family conflict. The same lexia read after a different lexia gains different weight. This means: Conventional narrative: Author constructs meaning through sequence; readers interpret a fixed order. Hypertext: Author constructs lexias and possibilities; readers construct narrative meaning through their path-selection. The lexia concept theorizes how this reader agency works structurally—it is not mere interpretation but a different relationship between authorial intention and reader determination.'
 ```
 

@@ -25,6 +25,14 @@ status: draft
 ## Core Idea
 Espen Aarseth defines ergodic literature as texts requiring nontrivial effort to traverse—where physical manipulation (link-following, command entry) is integral to reading. This framework encompasses hypertext, video games, kinetic poetry, and constrained texts, repositioning digital forms as fundamentally different from print rather than mere digitization.
 
+## How It's Best Learned
+Learn the term from its Greek parts, ergon (work) and hodos (path). Then sort a set of examples (a novel, a gamebook with numbered sections, a text adventure, a dense modernist poem) by asking one question of each: does the reader's action change which text appears? Argue the borderline cases aloud.
+
+## Common Misconceptions
+- Ergodic means digital. (Aarseth's examples include pre-digital texts such as the I Ching. The category depends on the reader's work, not the medium.)
+- Ergodic means hard to read. (A difficult novel demands hard interpretation, but its sequence is fixed. Ergodic effort is the work of choosing or building the sequence itself.)
+- Turning pages counts as ergodic effort. (Aarseth calls that effort trivial because it does not change which text you get.)
+
 ## Questions
 
 ```yaml
@@ -60,6 +68,7 @@ Espen Aarseth defines ergodic literature as texts requiring nontrivial effort to
 
 - question: Explain what Aarseth means by saying that physical manipulation is 'integral' to reading in ergodic literature. What would be lost if the physical work were removed?
   type: short-answer
+  answer: Integral means the reader's action produces the sequence of text encountered, instead of only giving access to a sequence that already exists. Remove that work and what remains is disconnected fragments or an unused database, with no story actualized.
   explanation: 'In conventional literature, the physical work of reading (eye movement, page-turning) is incidental to meaning. The text''s meaning exists independent of how you physically access it. You could read a novel on paper or on screen, aloud or silently; the text remains the same. In ergodic literature, removing the physical work would remove the text itself. A hypertext exists only through link navigation; without that navigation, there is no unified text, only disconnected fragments. An interactive fiction game exists only through player command-entry; remove that and there is no story, only database. Kinetic poetry exists only through temporal unfolding animated over time; a static image of the code could not convey the poem. The physical work—link-clicking, command-typing, waiting for animation—is not merely how you access pre-existing meaning. It is the mechanism through which meaning is actualized. This is why Aarseth calls it ''nontrivial'': the effort is not incidental but essential. This reveals that ergodic literature is fundamentally different from print literature. It is not just text moved to a screen; it is a new form requiring new reading practices.'
 ```
 

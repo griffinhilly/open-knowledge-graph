@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Code poetry treats programming code as literary and aesthetic text, foregrounding syntax and form. Code poetry ranges from executable poems (code that runs and produces output) to textual code displayed without execution. This form questions boundaries between literature and computation, exploring how meaning emerges from code's dual nature as instruction and language.
 
+## How It's Best Learned
+Read one short code poem in two passes. First read it aloud as text, attending to variable names, line breaks, and indentation. Then run it, or trace by hand what it would do. Note where the two readings agree and where they pull apart. Finally, write a five-line poem in a language you know that still parses without errors.
+
+## Common Misconceptions
+- Code poetry means poems about programming. (The medium is code itself. Syntax, names, and structure carry the meaning, whatever the poem's subject.)
+- A code poem has to run. (Some are written to execute and some only to be read. Both count as code poetry.)
+- The poetry lives in the comments. (Many code poems put their poetic weight in the working lines, such as keywords, variable names, and structure, which the machine reads too.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Code poetry treats programming code as literary and aesthetic text, foregroundin
 
 - question: Explain what it means to treat code as 'literary text' rather than purely as 'instruction.' What aesthetic dimensions does code poetry highlight that ordinary programming subordinates?
   type: short-answer
+  answer: It means reading code for its form and language, not only for what it makes a machine do. Code poetry highlights the visual layout of code, the rhythm of its syntax and identifiers, and the way its structure creates meaning.
   explanation: 'In ordinary programming, code is a means to an end: it is written to accomplish computational tasks. The programmer optimizes for clarity, efficiency, and functionality. Aesthetic properties—how the code looks, its linguistic beauty, the artistry of its form—are secondary or irrelevant. Code poetry inverts this priority. It treats code as a text worthy of aesthetic attention. This highlights dimensions ordinarily ignored: the visual appearance of code (indentation, symmetry, layout), the sound of code (the rhythm of identifiers and operators), the linguistic character of code (how syntax creates meaning through form). A code poem might use variable names poetically; it might arrange loops in visually striking patterns; it might make the execution itself produce aesthetic output. By treating code as literary text, code poetry reveals that programming is not purely functional—it is also a linguistic and aesthetic medium.'
 ```
 

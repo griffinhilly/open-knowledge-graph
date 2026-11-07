@@ -25,6 +25,15 @@ status: draft
 ## Core Idea
 Large language models raise fundamental questions about authorship, originality, and literary value when they generate human-readable text without human authorial intention. These questions challenge romantic conceptions of authorship while suggesting how future human-AI collaboration might evolve, requiring new frameworks for understanding literary creation.
 
+## How It's Best Learned
+Work through one concrete case: a short text a writer made by prompting a model, choosing among outputs, and editing the result. Assign positions that credit the programmer, the prompt-writer, the model, or no one, and argue each. Then compare the case with a text typed on a typewriter to locate where intention enters and where it drops out.
+
+## Common Misconceptions
+- Writing with AI is like writing with a typewriter or word processor. (Earlier tools transcribed or distributed a person's words. A language model produces text no person composed line by line, which raises a different authorship question.)
+- AI output is either pure copying or pure invention. (The model generates new combinations of learned patterns. Whether that statistical novelty counts as originality is the open question.)
+- The Romantic author, a lone original genius, is a timeless definition of authorship. (It is one historical model. Critics questioned it well before AI, and machine text puts new pressure on it.)
+- If no human intended the text, no one is responsible for it. (The debate asks how responsibility falls among the programmer, the trainer, and the prompt-writer. The machine's lack of intention does not remove that question.)
+
 ## Questions
 
 ```yaml
@@ -60,6 +69,7 @@ Large language models raise fundamental questions about authorship, originality,
 
 - question: Describe how the challenge posed by AI-generated literature differs from previous technological disruptions to authorship (such as the printing press or typewriter).
   type: short-answer
+  answer: Earlier technologies changed how writers produced and distributed text, but a human still composed it. AI can generate coherent text itself, so the question shifts from how authors write to who, if anyone, is the author.
   explanation: 'Previous technologies changed HOW writers write and HOW literature is distributed, but they did not generate text independently. A typewriter still required a human author''s ideas and intentions; it merely transcribed them. AI-generated text, by contrast, can produce coherent, publishable prose without human intentional input. This raises fundamentally different questions: if the machine generates without direction, who is the author? If human-AI collaboration occurs, how do we apportion authorial responsibility? This is qualitatively different from tools that augment but do not originate. The earlier technologies extended human agency; AI-generation seems to distribute or diffuse it in new ways.'
 ```
 

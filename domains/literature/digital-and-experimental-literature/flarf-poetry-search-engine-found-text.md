@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Flarf poetry uses internet search results as raw material for poetic composition, treating the internet as a vast accessible text. This practice demonstrates how contemporary poetry emerges from digital information saturation while emphasizing procedure and conceptual framing over conventional poetic sensibility or craft.
 
+## How It's Best Learned
+Run two search queries, one earnest and one absurd, and copy twenty result snippets from each. Build a poem from each set, keeping a record of every cut, merge, and reordering. Then set each final poem beside its raw snippets. The edit record shows where your authorship sits in the finished piece.
+
+## Common Misconceptions
+- A flarf poem is search output presented as is. (Flarf poets cut, recombine, and edit what they find, often heavily. Selection and arrangement are the poetic act.)
+- Search results are a neutral sample of online language. (A search engine ranks and filters results, so it shapes what material the poet ever sees.)
+- Flarf aims to find hidden beauty in internet text. (Many flarf poems lean into the banal, awkward, or tasteless. Their charge often comes from that clash with poetic expectation.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Flarf poetry uses internet search results as raw material for poetic composition
 
 - question: Explain how flarf poetry represents a fundamentally different understanding of poetic authorship compared to Romantic conceptions of original authorship.
   type: short-answer
+  answer: Romantic authorship locates the poem in the poet's original language and inner imagination. Flarf treats the poet as a curator who searches for, selects, and arranges existing language, so creativity lies in procedure and framing instead of new phrasing.
   explanation: 'Romantic authorship: The poet draws from internal imagination and sensibility, generating original language that expresses individual consciousness. Originality is paramount. Flarf authorship: The poet curates existing language from the internet, selecting and arranging found material. Originality of language is irrelevant; originality consists of the conceptual procedure and curation. The poet is not a generator but an editor, selector, curator. This matters because: (1) It acknowledges that contemporary writers work within information saturation, not romantic isolation; (2) It treats language as already available material to be reorganized rather than generated ex nihilo; (3) It emphasizes procedure (how to search, what to search for) as the creative act rather than linguistic originality; (4) It challenges the assumption that poetry requires original language—instead, arrangement and framing become primary. This shift reflects broader changes in how contemporary culture makes meaning: through remix, curation, and procedural method rather than original creation.'
 ```
 

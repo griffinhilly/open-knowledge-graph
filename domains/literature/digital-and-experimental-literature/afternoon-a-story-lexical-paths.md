@@ -68,6 +68,7 @@ Read afternoon through multiple different pathways to experience how narrative b
 
 - question: Explain how documenting multiple lexical paths through 'Afternoon, a Story' helps readers understand the relationship between hypertext structure and meaning-making.
   type: short-answer
+  answer: Comparing documented paths shows the same fragments producing different meanings in different orders. This makes visible that the link architecture itself generates interpretation, and that each path is a legitimate but partial reading.
   explanation: By tracing different lexical paths (sequences of linked fragments), readers see concretely how link architecture generates interpretive variation. Comparing paths reveals how the placement and naming of links shape narrative understanding, demonstrating that hypertext structure is not merely formal but constitutive of meaning. This practice shows readers that each path they take is a legitimate but partial reading, reinforcing the work's critique of linear narrative hierarchy.
 ```
 

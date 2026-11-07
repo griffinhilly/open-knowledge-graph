@@ -25,6 +25,14 @@ status: draft
 ## Core Idea
 Constrained writing deliberately imposes formal restrictions on composition—forbidden letters, mathematical rules, structural limitations. Paradoxically, constraint enables creativity by channeling linguistic choices through artificial rules. This practice questions relationships between freedom and form, authorial intention and systematic generation.
 
+## How It's Best Learned
+Write one short paragraph three ways: freely, as a lipogram without the letter "e," and in exactly fifty words. Compare the drafts and mark each spot where a rule pushed you off your first word choice. Then read a passage from Georges Perec's La Disparition, a novel written without "e," and look for ways the missing letter becomes part of what the book is about.
+
+## Common Misconceptions
+- Constraints are word puzzles with no bearing on meaning. (A constraint can become a theme. In La Disparition, the vanished letter echoes the disappearances in the story.)
+- Constrained writing is a modern novelty. (Meter, rhyme, and the sonnet are constraints with long histories. Twentieth-century experimenters made new constraints and treated them systematically.)
+- Fewer options make writing easier. (A constraint blocks a writer's easy defaults, so finding each word takes more searching.)
+
 ## Questions
 
 ```yaml
@@ -60,6 +68,7 @@ Constrained writing deliberately imposes formal restrictions on composition—fo
 
 - question: Explain the 'paradox of constraint' in constrained writing. How can artificial limitations generate creativity rather than suppress it?
   type: short-answer
+  answer: The paradox is that restriction generates possibilities instead of removing them. A constraint blocks a writer's habitual words and phrasing, forcing a search for unusual solutions, and the patterns it creates can carry meaning of their own.
   explanation: 'The paradox is that restriction generates possibility rather than eliminating it. This seems counterintuitive: shouldn''t more constraints mean fewer options and less creativity? But the paradox works because constraint forces lateral thinking. Without constraints, a writer might rely on conventional phrases and predictable syntax. A constraint—''no repeated words,'' ''only monosyllabic words,'' ''forbidden letters''—blocks these conventional options and forces the writer to discover unusual, unexpected linguistic solutions. The writer becomes creative *because* of the boundary, not despite it. The constraint redirects creative effort toward exploration of the possibility-space within the boundary. Additionally, constraints can be aesthetically productive: they often generate unexpected semantic resonances. A text without the letter ''e'' develops certain recurring syntactic patterns that shape meaning. The constraint itself becomes a source of artistic significance. This paradox reveals something important: creativity is not the absence of structure, but the meaningful engagement with structure. A blank page offers infinite possibilities but no direction; a formal constraint offers direction and generates unexpected creativity.'
 ```
 

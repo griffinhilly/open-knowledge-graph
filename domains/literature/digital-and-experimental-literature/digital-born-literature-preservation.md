@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Digital literature faces unique preservation challenges as platforms and formats become obsolete. Questions arise about what constitutes the 'text'—source code, executed output, interactive experience, or all three. Preservation requires technological intervention and curatorial decision-making that shapes how future readers encounter digital works, making preservation itself an interpretive practice.
 
+## How It's Best Learned
+Pick one Flash-era electronic poem and compare three forms of access: screenshots with a description, a video of someone reading it, and a run in an emulator. For each, list what survives (text, timing, interaction, sound) and what is lost. Then choose which one you would fund as an archivist and say what that choice implies the work is.
+
+## Common Misconceptions
+- Saving the files preserves the work. (Files need software and hardware that can run them. Without that environment, the files may be unreadable and the work's behavior is gone.)
+- Digital texts last forever because copies are perfect. (The bits can be copied exactly, but formats, software, and hardware go obsolete. Readable access needs ongoing maintenance.)
+- A video of someone playing through the work is a good enough record. (A recording captures one reader's path, and a viewer cannot make choices of their own. For a work whose meaning depends on choice, that changes what the work is.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Digital literature faces unique preservation challenges as platforms and formats
 
 - question: Explain how preservation decisions for digital literature are interpretive acts that shape what future readers encounter. Provide a concrete example.
   type: short-answer
+  answer: Each preservation choice decides which parts of a work survive. For example, migrating a Storyspace hypertext to static HTML keeps the text readable but can remove the link ambiguity that gives a work like 'afternoon, a story' its meaning.
   explanation: 'Example: A hypertext fiction work created in Storyspace exists as source code. To preserve it: (1) Archive the code and original software—requires maintaining obsolete technology; (2) Migrate to modern hypertext format—changes link appearance and navigation feel; (3) Create a static HTML version—loses interactivity; (4) Emulate the original environment—preserves experience but is brittle. Each choice is curatorial: it determines whether future readers experience the original navigational difficulty, or whether the work becomes easier/harder to read. If the work''s meaning depends on link ambiguity (as in ''Afternoon''), migration to a clearer format changes meaning. Preservation is thus not neutral documentation but interpretation. The curator''s decisions about which aspects to preserve shape the work future readers encounter.'
 ```
 

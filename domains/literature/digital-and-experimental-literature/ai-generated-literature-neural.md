@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Neural language models trained on text corpora generate novel literary output—poetry, prose, narrative—by predicting probable next tokens. This forces reconsideration of authorship, originality, and linguistic creativity itself. AI-generated text challenges assumptions about what constitutes literature and meaningful expression.
 
+## How It's Best Learned
+Generate several outputs from one short prompt and set them beside a human poem on the same subject, with sources hidden. For each text, list the formal features you can point to on the page. Then list what you would need to know about its origin before calling it meaningful. The second list exposes the authorship assumptions you bring to reading.
+
+## Common Misconceptions
+- The model stores passages and stitches them together on request. (Generation builds a sequence token by token from learned probabilities, with no lookup in a stored library. Models can still reproduce some memorized training text word for word, but most output is newly assembled.)
+- Fluent output proves the model understands and intends what it says. (Coherence in a text does not settle whether intent lies behind it. That gap is the question this topic raises.)
+- The debate is about whether AI text is good enough to count as literature. (The deeper question is whether literature requires a conscious author at all, or can be defined by properties of the text itself.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Neural language models trained on text corpora generate novel literary output—
 
 - question: Explain what it means to say that AI-generated literature 'challenges assumptions about what constitutes literature.' What specific assumption is being challenged, and what alternative becomes visible?
   type: short-answer
+  answer: It challenges the assumption that literature must express a human author's conscious intention. The alternative that becomes visible is that literature might be defined by properties of the text itself, such as novelty, coherence, and aesthetic resonance.
   explanation: 'The challenge targets the assumption that literature is fundamentally an expression of human consciousness and intentionality. Traditionally, literature is understood as one person (or group) deliberately arranging language to communicate meaning, emotion, or perspective. This assumption binds literature to human agency and consciousness. When AI systems generate novel, coherent, aesthetically resonant text without consciousness or intent, an alternative becomes visible: literature might be definable by formal properties (novelty, coherence, aesthetic or thematic resonance) independent of authorial consciousness. This doesn''t necessarily mean AI-generated text is literature (some would argue form alone is insufficient), but it does force the question: if consciousness is not strictly necessary, what is? The challenge is clarifying what literature fundamentally is.'
 ```
 

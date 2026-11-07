@@ -24,6 +24,14 @@ status: draft
 ## Core Idea
 Fan fiction constitutes significant literary practice through participatory digital spaces where communities engage in interpretation, rewriting, and canonicity contestation. Contemporary fan studies recognize fan fiction as legitimate textual analysis and creative production that challenges authorial authority and copyright, proposing alternative literary ownership models.
 
+## How It's Best Learned
+Choose one scene from a widely read source and find three fan works that rework it: a missing scene, an alternate universe, and a story that changes the ending. For each, write the reading of the source it implies, phrased as the thesis of a critical essay. Comparing the three theses shows fan fiction doing interpretation.
+
+## Common Misconceptions
+- Fan fiction is an internet phenomenon. (Fans circulated stories in printed fanzines, for example in Star Trek fandom, long before the web. Digital platforms enlarged and connected these communities.)
+- Fan writers reject the original work. (Many know the source intimately and write out of attachment to it. One story can honor canon and contest it at once.)
+- Calling fan fiction "transformative" settles its legal status. (In US law, whether a use is transformative is weighed within one of the four fair-use factors, but the label alone does not decide whether a given work is lawful.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +67,7 @@ Fan fiction constitutes significant literary practice through participatory digi
 
 - question: Explain how fan communities through fan fiction propose 'alternative literary ownership models.' What is the conventional model, and how does fan practice challenge it?
   type: short-answer
+  answer: The conventional model gives the original author exclusive control over meaning, continuation, and profit. Fan practice treats stories as a shared commons that communities interpret and extend without payment, with value measured in community reputation instead of sales.
   explanation: 'The conventional model is: original author owns the work absolutely. They determine meaning, control continuation, profit from adaptation. Derivatives (fan fiction) are legally prohibited or cease-and-desisted. Fan communities propose an alternative: literature exists in a commons. Original authors create foundational works; communities extend, interpret, and remix those works. Ownership is not absolute but shared. Profit models change: fan fiction is non-commercial; value is community reputation, not commercial gain. This alternative acknowledges that culture is fundamentally participatory—that interpretation and extension are how communities engage with stories. By practicing fan fiction, communities assert that literature should be open to participatory creativity, that authorial authority should not be exclusive, and that cultural ownership should be communal. This directly challenges copyright law and traditional publishing models.'
 ```
 

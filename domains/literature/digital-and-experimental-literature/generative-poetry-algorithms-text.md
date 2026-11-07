@@ -24,6 +24,14 @@ status: draft
 ## Core Idea
 Generative poetry uses algorithms to produce poetic text, either through human-designed systems or human-machine co-authorship. Different generation methods (grammar-based, Markov chains, neural networks) produce distinct aesthetic effects and raise questions about authorship and the nature of the literary work when algorithmic variation is fundamental to its identity.
 
+## How It's Best Learned
+Start with a small grammar-based generator such as Nick Montfort's "Taroko Gorge," a short program that writes an endless nature poem. Run it several times, then open its source and change one word list. Next, build a tiny Markov chain from a single poem and compare its output with the grammar's. For each, decide what you would point to as "the poem."
+
+## Common Misconceptions
+- Generative poetry needs computers. (Combinatorial and chance procedures were carried out by hand and on paper before computers. Computers made them fast and endlessly repeatable.)
+- The algorithm writes the poem, so the human did nothing. (The poet chooses the method, rules, word lists, or source text, and often selects which outputs to show.)
+- Generative poetry means neural networks. (Grammar-based systems and Markov chains are older methods still in use. Each produces its own kind of effect.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +67,7 @@ Generative poetry uses algorithms to produce poetic text, either through human-d
 
 - question: Explain how the concept of 'the work' changes in generative poetry when variation and multiplicity are fundamental to the poem's identity, and discuss what this reveals about authorship.
   type: short-answer
+  answer: The work may be the algorithm, a single output, or the space of all possible outputs, so there is no single fixed text. This shows authorship shifting toward system design, with responsibility shared between the designer's intentions and outputs no one wrote word by word.
   explanation: 'In conventional poetry, the work is a fixed text: a specific arrangement of words. In generative poetry, the work might be: (1) The algorithm itself (the code); (2) A single output from one run; (3) The space of all possible outputs. This ambiguity is not a problem but a feature—it reflects the work''s generative nature. Consider an example: A grammar-based poetry generator with rules about syntax and vocabulary produces different poems each run. Is the ''poem'' the generator code? One specific output? The concept that the generator embodies? This matters for authorship because it shifts responsibility: Does the human who wrote the algorithm hold more authorial responsibility than a human who wrote one specific poem? Is the algorithm itself authored? What about outputs the human creator never explicitly designed? This reveals that authorship is increasingly a question of design and system-building rather than word-choice. It also suggests that contemporary authorship is distributed across human intention, algorithmic processing, and the specific outputs that emerge unpredictably from the system. Generative poetry makes this distributed authorship explicit.'
 ```
 

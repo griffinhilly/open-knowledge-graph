@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Guillaume Apollinaire's calligrammes arrange text into visual shapes—words form pictures of rain or tears. These early modernist works pioneered concrete poetry, treating physical text shape as essential to meaning. The calligram remains both readable as poetry and viewable as visual art, collapsing boundaries between literature and visual form.
 
+## How It's Best Learned
+Start with the rain calligram, "Il pleut." Read the words down each slanting line, then step back and see the whole page as falling rain. Next, retype the same words as ordinary lines of verse and note what is lost. Finally, make a small calligram of your own whose shape adds a meaning the words do not state.
+
+## Common Misconceptions
+- The shape is an illustration laid over a poem that could stand without it. (In a calligram the shape carries meaning. Reset the words as plain lines and part of the poem is gone.)
+- You either read the words or look at the picture. (A calligram asks for both at once. The words help you see what the shape is, and the shape changes how the words read.)
+- Apollinaire invented shaped poetry. (Shaped poems are much older. George Herbert's "Easter Wings" is a 17th-century English example. Apollinaire made the visual shape central to a modernist practice.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Guillaume Apollinaire's calligrammes arrange text into visual shapes—words for
 
 - question: Explain how calligrammes represent a transition from treating text as purely linguistic to treating it as a visual medium. Why is this transition conceptually significant for literature?
   type: short-answer
+  answer: Calligrammes treat the shape of text on the page as part of the poem, where traditional poetry treated layout as neutral. This matters because it shows that written literature is also a visual medium, which opened the way to concrete poetry and later digital literature.
   explanation: 'Calligrammes treat the written text not as a transparent vehicle for language, but as a visual object whose appearance matters. In traditional poetry, a poem''s meaning resides in its words, meter, and figurative language; the physical appearance of those words on the page is assumed to be neutral—it could be printed in different typefaces, different sizes, different arrangements without affecting the poem itself. Apollinaire rejected this assumption. The calligram insists: the shape of text on the page is part of the poem. This is conceptually significant because it acknowledges that literature, when written, is also a visual medium. It destabilizes the distinction between literature and visual art by showing that text itself can be artistic material. This recognition opened new possibilities: if typography and arrangement matter, then poetry need not be alphabetically linear. It could unfold spatially in multiple directions, or exploit the visual properties of individual letters. This transition enabled concrete poetry and digital literature that exploit computational and multimedia affordances.'
 ```
 

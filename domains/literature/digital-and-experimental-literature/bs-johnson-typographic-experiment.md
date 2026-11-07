@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Johnson's experimental novels employ typography, page breaks, and loose arrangements to resist sequential linearity. His insistence that 'form must be an extension of content' justified radical formal experimentation that demanded active, sometimes frustrated reader engagement. Johnson's work demonstrates how print literature could push formal boundaries before digital media emerged.
 
+## How It's Best Learned
+Work with the physical books. Shuffle the middle sections of The Unfortunates, the novel issued as loose sections in a box, and read them in your order. Then look through the hole cut in the pages of Albert Angelo. For each device, write one sentence linking the form to what that book is about.
+
+## Common Misconceptions
+- Johnson's devices are gimmicks meant to look avant-garde. (He argued each device had to come from the book's content. The test is whether the form enacts what the book is about.)
+- Nonlinear reading needed computers. (The Unfortunates let readers choose the order of its sections in print, two decades before hypertext fiction.)
+- If a book is hard to read, the author has failed. (For Johnson, the reader's effort could be part of the meaning, enacting the difficulty the book is about.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Johnson's experimental novels employ typography, page breaks, and loose arrangem
 
 - question: Describe how Johnson's typographic experimentation differs from mere formal innovation for its own sake, and explain why this distinction is important for understanding his work's significance.
   type: short-answer
+  answer: Johnson tied each typographic device to the book's themes, so the form enacts the content instead of decorating it. The distinction matters because it gives a test for experimental form, whether it serves the content, and lets readers treat his difficulty as meaningful.
   explanation: 'Johnson''s work is not formalism for decoration. His typography, unusual pagination, and page arrangements serve thematic purposes. A novel about confusion or non-linearity enacts that confusion typographically. A work resisting sequential reading uses page breaks and typography to prevent easy lineation. This distinguishes Johnson from formalism that pursues complexity for its own sake. Importance: (1) It shows that radical form can be justified and not arbitrary; (2) It establishes a principle for evaluating experimental form—does the form serve the conceptual content?; (3) It demonstrates that form and content are not separable but reciprocal; (4) It provides a theoretical foundation for later digital and experimental poets who argue for formal innovation grounded in conceptual necessity. Understanding this distinction allows readers to engage with Johnson''s difficulty productively rather than dismissing it as mere difficulty-for-difficulty.'
 ```
 

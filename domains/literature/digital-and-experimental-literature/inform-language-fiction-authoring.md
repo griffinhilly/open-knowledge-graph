@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Inform is a specialized language for interactive fiction that abstracts computational complexity into syntax closer to narrative logic. Its design embodies specific assumptions about how stories work (objects, properties, states, actions), shaping what kinds of narratives can be created. Understanding Inform reveals how technical implementation directly constrains literary possibility.
 
+## How It's Best Learned
+Write a two-room game in Inform 7, whose source reads like English sentences such as "The Kitchen is a room." Add an object the player can take and a door that the object opens. Then add a scene where the only change is a character's mood, and note how much more work it takes. That gap shows the model's assumptions in practice.
+
+## Common Misconceptions
+- Inform's English-like source means you can write any English sentence. (Inform 7 accepts a limited, strictly defined subset of English. A sentence that reads naturally can still fail to compile.)
+- Inform cannot handle conversation or inner life. (Conversation-centered works have been written in it, such as Emily Short's "Galatea." The model makes such stories harder to build, not impossible.)
+- The authoring tool is neutral and only the author's choices matter. (What a language makes easy or awkward steers which stories authors attempt and how those stories feel to play.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Inform is a specialized language for interactive fiction that abstracts computat
 
 - question: Explain how Inform's object-property-action model of narrative embodies particular assumptions about how stories work, and discuss what narrative possibilities this enables or constrains.
   type: short-answer
+  answer: Inform assumes a story world made of objects with properties that player actions change. This makes exploration, puzzles, and movement through space natural, while internal monologue, dialogue-centered, or non-spatial stories take more work to build.
   explanation: 'Inform''s model assumes: (1) Narrative world consists of objects (items, locations, characters); (2) Objects have properties (descriptions, states, relationships); (3) Narrative progresses through player actions affecting object states. This model enables: Exploration-based narratives (discovering objects and properties), puzzle-based narratives (actions to change states), spatial narratives (moving through locations). This model constrains: Internal monologue/consciousness narratives (difficult to represent objects/states), purely dialogic narratives (dialogue is secondary to object interaction), non-spatial narratives (everything relates to location/object model), narratives about abstract concepts or emotions (Inform naturalizes physical/spatial thinking). Other languages might enable different possibilities. Example: A language modeling narrative as dialogue rather than object-interaction might create different possibilities for conversation-based or non-spatial stories. This reveals: (1) Technical choices are aesthetic choices—they shape what''s easy and natural to create; (2) Form emerges from technical affordances as much as from authorial intention; (3) Understanding interactive fiction requires understanding the technical substrate—what tools make possible and constrain.'
 ```
 

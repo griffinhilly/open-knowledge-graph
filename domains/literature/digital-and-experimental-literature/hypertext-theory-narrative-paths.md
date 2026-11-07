@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Hypertext theory developed by Bolter and Joyce addresses how hypertext structures narrative through links and navigation rather than linear progression. Key concepts like lexia, multilinearity, and reader-created paths provide vocabulary for analyzing how digital literature works structurally. Theoretical frameworks both illuminate and constrain understanding of hypertext practice.
 
+## How It's Best Learned
+Read a short passage of early hypertext theory that claims links free the reader. Then read a hypertext for twenty minutes and log your path: links followed, links skipped, and returns to earlier passages. Test each claim in the theory against your log. Mark where it describes what happened and where it overstates it.
+
+## Common Misconceptions
+- The theorists stood outside the works they described. (Some were practitioners too. Michael Joyce wrote "afternoon, a story" as well as theory, and Bolter and Joyce developed Storyspace with John B. Smith.)
+- Multilinear means the passages can come in any order. (The author's links limit which paths exist. Multilinearity means many structured paths, not every possible ordering.)
+- More link choices mean more reader freedom. (Readers often follow predictable routes, skip most branches, or find the choices disorienting. Choice on paper is not the same as experienced freedom.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Hypertext theory developed by Bolter and Joyce addresses how hypertext structure
 
 - question: Discuss how hypertext theory concepts can both illuminate and potentially constrain our understanding of digital narrative. Use a specific example from hypertext criticism.
   type: short-answer
+  answer: Concepts such as lexia and multilinearity explain how hypertext builds meaning through reader-chosen paths. Applied rigidly, they can overstate reader freedom, since observed readers often follow predictable routes or feel disoriented, and they can hide differences between tangled works like 'afternoon, a story' and simpler branching ones.
   explanation: 'Illumination: Hypertext theory concepts like ''ergodic reading'' and ''nontrivial traversal'' help explain why clicking links in interactive fiction is not metaphorical but constitutive of meaning-making. These concepts reveal something true about digital literature. Constraint: However, rigid application might suggest that all hypertext shares identical properties when in fact hypertext works vary tremendously. Some hypertext is highly navigational (like ''Afternoon, a Story''); some is more linear with occasional branches. Applying lexia-and-multilinearity frameworks uniformly might obscure these differences. Example: Early hypertext theory emphasized the freedom and agency of readers navigating multilinear texts. But observing actual reader behavior sometimes reveals that readers follow predictable paths, don''t explore all branches, or find navigation choices disorienting rather than liberating. This suggests that the theory''s emphasis on reader agency, while partially correct, might overstate the actual experience. The point: Theory provides essential vocabulary and reveals structural principles. But best practice is to use theory as an analytical lens while remaining alert to how specific works diverge from theoretical predictions.'
 ```
 

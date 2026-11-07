@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Aarseth's 'ergodic literature' requires nontrivial material effort to traverse the text—not metaphorical active reading but literal navigational or operational actions. This effort is neither ornamental nor equivalent across all texts; different ergodic forms demand different kinds of labor. Understanding ergodic structure reframes reading as material practice and interpretation as active traversal.
 
+## How It's Best Learned
+Play the opening of a parser game such as Zork for fifteen minutes and log every command, including the ones that fail. Then click through a short hypertext for the same time. Compare the two logs. Name the kind of effort each form asked for, composing language or choosing links, and note how your failures shaped your picture of the world.
+
+## Common Misconceptions
+- Ergodic effort is another name for active reading. (Active reading is interpretation. Ergodic effort is an operation, such as typing a command, that changes which text appears.)
+- Failed commands are wasted time outside the work. (In parser fiction, the responses to failed attempts are part of the text. Learning what the game understands is part of reading it.)
+- Stressing effort means interpretation matters less. (The effort feeds interpretation. What you come to understand depends on the path your actions produce.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Aarseth's 'ergodic literature' requires nontrivial material effort to traverse t
 
 - question: Explain why the 'nontrivial material effort' of ergodic literature is not merely ornamental but essential to interpretation. Use a specific example.
   type: short-answer
+  answer: In Zork, the player's typed commands decide which locations and text appear, and solving problems such as needing light in dark rooms is how the world becomes understandable. Rewritten as a fixed narrative, the work would mean something different, so the effort is part of interpretation.
   explanation: 'Example: In Zork (interactive fiction), the player types commands like ''go north'' or ''take lamp''. These actions are not ornamental additions to a predetermined narrative; they are constitutive of interpretation. The player''s choice to go west instead of north changes which text fragments they encounter. The effort to figure out that the ''lamp'' is necessary for exploring dark rooms is problem-solving that generates interpretation. If Zork were presented as a conventional narrative describing all locations and actions sequentially, the meaning would fundamentally change. The player''s effort—operational actions, problem-solving, trial-and-error navigation—is not separate from interpretation but essential to it. You understand the work by navigating it, not by reading a fixed sequence. This means that different players'' paths through the work generate different interpretations. The nontrivial material effort is thus not ornamental flourish but the constitutive foundation of how the work generates meaning.'
 ```
 
