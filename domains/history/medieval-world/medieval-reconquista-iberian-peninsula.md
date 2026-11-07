@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 The Reconquista was the centuries-long process of Christian kingdoms gradually reconquering the Iberian Peninsula from Islamic rule, beginning in the 8th century and concluding with Granada's fall in 1492. This conflict was simultaneously a religious crusade, political territorial struggle, and cultural encounter. The Reconquista shaped Spanish identity and institutions, influenced crusading ideology throughout Europe, and established patterns of religious conflict and coexistence.
 
+## How It's Best Learned
+Compare four maps of Iberia, from around 750, 1000, 1150 and 1260. On each, name the Christian kingdoms and the Muslim power of the time, such as the caliphate, the taifas, the Almohads or Granada. Ask what moved the frontier between maps and what held it still. Then follow El Cid's career as a case study and list whom he served and why.
+
+## Common Misconceptions
+- Medieval people called this process the Reconquista. (The single label and the idea of one continuous project became common in modern times. Some medieval writers did describe their wars as recovering lost Christian land.)
+- Christians and Muslims were at war for the whole 781 years. (There were long stretches of truce, tribute and trade, and alliances often crossed religious lines.)
+- Al-Andalus was one unified Muslim state throughout. (It went from emirate to caliphate, broke into taifa kingdoms, came under North African dynasties such as the Almohads, and ended as the Nasrid kingdom of Granada.)
+- Muslims were driven out as soon as Christians conquered their towns. (Many Muslims, called Mudéjars, lived under Christian rule for centuries, often under negotiated terms, before the forced conversions that began around 1500.)
+
 ## Questions
 
 ```yaml

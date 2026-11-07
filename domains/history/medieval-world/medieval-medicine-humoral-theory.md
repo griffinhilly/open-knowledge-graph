@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Medieval medicine was grounded in humoral theory inherited from antiquity through Islamic scholarship: health resulted from balance of four bodily humors (blood, phlegm, yellow bile, black bile). Treatment involved bloodletting, purgatives, and dietary adjustments. Despite being incorrect, humoral theory represented systematic medical understanding sophisticated for its time.
 
+## How It's Best Learned
+Build the four-humor table from the Explainer: humor, qualities, season, organ and temperament. Then reason through a case as a physician would. A patient in winter has a cold, wet cough, so the theory points to excess phlegm. The remedy is to expel it or to counter it with hot, dry foods. Finally, ask what evidence would have shown the treatment did not work.
+
+## Common Misconceptions
+- Medieval medicine was mostly prayer and superstition. (University-trained physicians reasoned from a written theory and studied set texts. Prayer and healing at saints' shrines existed alongside this learned medicine.)
+- Bloodletting was the treatment for everything. (Physicians also relied heavily on diet, sleep, exercise, baths and herbal remedies to restore balance.)
+- Most sick people saw a trained physician. (University-trained physicians were few and costly. Most people turned to barber-surgeons, apothecaries, midwives, local healers or their own families.)
+- Islamic scholars only passed Greek medicine along unchanged. (They added to it. Ibn Sina's Canon of Medicine organized and extended the tradition, and it served as a textbook in European universities.)
+
 ## Questions
 
 ```yaml
@@ -52,7 +61,7 @@ Medieval medicine was grounded in humoral theory inherited from antiquity throug
 - question: "A theoretical framework can persist in a scholarly tradition for centuries even if it is incorrect, provided it is internally consistent, institutionally supported, and difficult to falsify with available evidence."
   type: true-false
   answer: true
-  explanation: "Humoral theory is the canonical example of this historical pattern. It survived from Hippocrates (~400 BCE) through Galen (~200 CE) and dominated European medicine until the Scientific Revolution — roughly 1,500 years. The internal coherence made it teachable and persuasive; institutional entrenchment in university medical curricula and Galenic texts made it authoritative; and the difficulty of falsification (self-limiting diseases, absence of controlled trials, no microscopy to see what was actually happening) prevented empirical refutation. This pattern recurs across the history of science: successful theories must be not just coherent but empirically distinguishable from alternatives given the available investigative tools."
+  explanation: "Humoral theory is the canonical example of this historical pattern. It survived from Hippocrates (~400 BCE) through Galen (~200 CE) and dominated European medicine until the Scientific Revolution — roughly 1,500 years from Galen onward. The internal coherence made it teachable and persuasive; institutional entrenchment in university medical curricula and Galenic texts made it authoritative; and the difficulty of falsification (self-limiting diseases, absence of controlled trials, no microscopy to see what was actually happening) prevented empirical refutation. This pattern recurs across the history of science: successful theories must be not just coherent but empirically distinguishable from alternatives given the available investigative tools."
 
 - question: "Explain how humoral theory constituted a coherent deductive system rather than mere superstition. How did its internal logic allow incorrect treatments to appear validated over time?"
   type: short-answer

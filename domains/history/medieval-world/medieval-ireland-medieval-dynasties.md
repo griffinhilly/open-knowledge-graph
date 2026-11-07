@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Medieval Ireland remained fragmented among competing Irish dynasties even after Anglo-Norman invasion in 1170, as native Irish lords resisted Norman feudalism and maintained clan-based systems. The Norman conquest created a hybrid Anglo-Irish nobility in coastal areas while native Irish clans retained interior power. This division created persistent tensions throughout the medieval period.
 
+## How It's Best Learned
+Compare two maps: Ireland around 1300, when Anglo-Norman lordships reached well inland, and around 1500, when English rule had shrunk to the Pale near Dublin. Ask what happened in between. Then draw one Irish royal family tree and mark who could succeed under tanistry and who could under primogeniture. Seeing the larger pool of claimants explains both the infighting and the resilience.
+
+## Common Misconceptions
+- The Normans conquered Ireland in 1169–1170 and ruled it from then on. (The conquest was partial. Anglo-Norman control grew for about a century, then shrank as Irish lords recovered ground in the 14th and 15th centuries.)
+- The Pale was the English zone in Ireland from the start. (The term came into use in the late 15th century to describe a much smaller area. Earlier, English lordship had covered far more of the island.)
+- Tanistry was an election in which the people chose their king. (The successor came from a set of eligible male relatives within the ruling kin-group, and leading members of the dynasty decided among them.)
+- Anglo-Normans and Gaelic Irish lived in separate worlds. (They intermarried, raised each other's children in fosterage and made alliances. The Statutes of Kilkenny of 1366 tried to forbid such mixing, which shows how common it was.)
+
 ## Questions
 
 ```yaml

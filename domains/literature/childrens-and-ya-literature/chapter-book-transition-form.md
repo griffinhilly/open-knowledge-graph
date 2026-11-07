@@ -26,6 +26,11 @@ Chapter books bridge picture books and full novels, using chapter divisions, few
 ## How It's Best Learned
 Examine series like 'Magic Tree House' and 'Junie B. Jones' that exemplify chapter book structures and pacing designed for intermediate readers, analyzing chapter length and frequency of illustrations.
 
+## Common Misconceptions
+- A chapter book is a shortened, simpler novel. (It is a form designed for a stage of reading, with its own choices about chapter length, vocabulary, illustration, and plot.)
+- A book with more pictures is easier to read. (Difficulty also depends on vocabulary, sentence length, and plot complexity, and some heavily illustrated books carry demanding text.)
+- Once a child reads chapter books, picture books are behind them. (Picture books remain valuable for read-aloud and for visual storytelling, and some are written for older readers.)
+
 ## Questions
 
 ```yaml
@@ -61,6 +66,7 @@ Examine series like 'Magic Tree House' and 'Junie B. Jones' that exemplify chapt
 
 - question: How might a chapter book author use chapter length strategically to support the reading development of transitional readers?
   type: short-answer
+  answer: An author can keep early chapters short so a new reader finishes each one quickly and feels successful, then lengthen chapters gradually as stamina and fluency grow. Short chapters also give natural stopping points for read-aloud sessions.
   explanation: Chapter length directly affects reader stamina and success. Early chapters in a series might be quite short (3-5 pages) to build confidence and create frequent 'victory moments,' while later chapters gradually lengthen as the reader's attention span and decoding fluency develop. Shorter chapters also provide natural stopping points for read-aloud sessions, making the experience sustainable for busy families. An author writing for transitional readers understands that even small achievements—finishing a chapter—motivate continued reading and foster the habit formation crucial for becoming an independent reader.
 ```
 

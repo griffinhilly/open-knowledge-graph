@@ -20,6 +20,15 @@ status: draft
 ## Core Idea
 Children's nonfiction and informational picture books serve educational functions while employing narrative techniques, visual design, and engaging voice to make factual content accessible and interesting. These works demonstrate that factual accuracy and literary quality need not be opposed, and that children's nonfiction deserves serious critical attention. Informational picture books have become increasingly sophisticated and valued in contemporary children's literature.
 
+## How It's Best Learned
+Put a textbook page and an informational picture book on the same topic side by side, such as how a caterpillar becomes a butterfly. For each, list what it includes and leaves out, what voice it uses, and what the diagrams do that the words do not. Then check the picture book's back matter, such as sources, an author's note, or a glossary, as evidence of how it handles accuracy.
+
+## Common Misconceptions
+- Narrative nonfiction can invent details to make the story livelier. (Nonfiction may not invent facts; when a book mixes in fiction, such as the talking bus in *The Magic School Bus*, good practice is to say which parts are made up, as those books do in their closing notes.)
+- More facts make a better informational book. (Selection and order matter more than quantity; a book that follows one idea clearly can teach more than one crammed with facts.)
+- Pictures in nonfiction are decoration. (Diagrams, scale comparisons, and cutaways often carry the main information.)
+- A children's book labeled nonfiction is accurate. (Errors and outdated facts do appear, and sources, back matter, and expert review help readers judge a book's reliability.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +64,7 @@ Children's nonfiction and informational picture books serve educational function
 
 - question: Select a topic you might teach to children (space, ecosystems, how something works). Describe how you would use narrative and visual design to make that information engaging while maintaining accuracy.
   type: short-answer
+  answer: To teach how a seed becomes a plant, I would follow one bean seed through each stage in order, with a cutaway diagram at every step and a scale bar showing real size. A note at the back would list sources and say which details were simplified.
   explanation: Your answer should demonstrate understanding that engagement and accuracy complement rather than oppose each other. For example, teaching about ecosystems might involve following water through a specific ecosystem (narrative structure), using visual metaphors to show interconnection, featuring specific organisms that children can observe. Teaching about space might follow the perspective of an astronaut or follow light from a star. The point is recognizing that children need both accurate information and engaging presentation—and that skilled nonfiction writers can provide both simultaneously. These aren't separate goals but integrated elements of effective children's informational books.
 ```
 

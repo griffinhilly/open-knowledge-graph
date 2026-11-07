@@ -20,6 +20,15 @@ status: draft
 ## Core Idea
 The 'Disney effect' describes how major studio adaptations of children's literature often subordinate literary complexity to commercial appeal, typically softening darkness, simplifying moral ambiguity, and privileging sentimentality. These adaptations reshape cultural understanding of literary works and often become the primary reference point for audiences who never read the original. Debates about the Disney effect reflect broader tensions between literary art and commercial culture.
 
+## How It's Best Learned
+Read Hans Christian Andersen's "The Little Mermaid" and watch Disney's 1989 film. Make a table comparing the heroine's name, what she gives up, the villain's role, and the ending. Mark each change as softening, simplifying, adding romance or spectacle, or none of these. Then test the pattern on a second pair, such as Collodi's *Pinocchio* and the 1940 film.
+
+## Common Misconceptions
+- The Disney film is the original story. (Many Disney films adapt older sources; Andersen's mermaid has no name, loses the prince, and dissolves into sea foam before becoming a spirit of the air.)
+- Softening fairy tales for children began with Disney. (Earlier editors also reshaped tales; the Brothers Grimm revised their collection across editions, removing some sexual hints while keeping much of the violence.)
+- Every change a studio makes is a loss. (Adaptations can also gain, for example by giving a passive heroine more agency or adding humor, even when they cut darker material.)
+- The term applies only to Disney. (Critics use it for a pattern that can appear in any large commercial adaptation.)
+
 ## Questions
 
 ```yaml
@@ -55,7 +64,8 @@ The 'Disney effect' describes how major studio adaptations of children's literat
 
 - question: Compare a fairy tale's literary original with a Disney animated adaptation. What specific elements illustrate the 'Disney effect,' and what is lost or gained in the adaptation?
   type: short-answer
-  explanation: 'Your answer should identify concrete examples: ''The Little Mermaid'' original depicts Ariel making a genuinely tragic choice (losing her voice and risking bodily transformation with no guarantee of happiness), while Disney emphasizes her agency and desire, ending happily. Hans Christian Andersen''s tale involves genuine bodily horror and tragic sacrifice; Disney''s removes darkness and emphasizes romantic triumph. What''s lost: moral complexity, the weight of difficult choices, the sense that growing up involves genuine loss. What''s gained: character agency, emotional satisfaction, visual spectacle. The point is recognizing that adaptation choices are not neutral—they reshape moral and emotional meaning. The Disney effect is visible whenever these shifts systematically simplify toward maximum emotional comfort and commercial appeal.'
+  answer: In Andersen's tale the mermaid feels pain with every step, loses the prince to another bride, and dissolves into sea foam before becoming a spirit of the air, while Disney's Ariel wins the prince in a happy ending. The film gains agency, romance, and spectacle but loses the story's weight of sacrifice and loss.
+  explanation: 'Your answer should identify concrete examples: Andersen''s original ''The Little Mermaid'' depicts the unnamed mermaid making a genuinely tragic choice (losing her voice and risking bodily transformation with no guarantee of happiness), while Disney emphasizes her agency and desire, ending happily. Hans Christian Andersen''s tale involves genuine bodily horror and tragic sacrifice; Disney''s removes darkness and emphasizes romantic triumph. What''s lost: moral complexity, the weight of difficult choices, the sense that growing up involves genuine loss. What''s gained: character agency, emotional satisfaction, visual spectacle. The point is recognizing that adaptation choices are not neutral—they reshape moral and emotional meaning. The Disney effect is visible whenever these shifts systematically simplify toward maximum emotional comfort and commercial appeal.'
 ```
 
 ## Explainer

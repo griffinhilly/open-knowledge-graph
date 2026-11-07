@@ -62,6 +62,7 @@ Analyze wordless books like 'Journey' by Aaron Becker, studying visual compositi
 
 - question: Analyze a wordless picture book you know well, identifying how visual composition, color, and sequencing create narrative meaning without words.
   type: short-answer
+  answer: A strong answer names one wordless book and specific pages, such as the red door the girl draws in "Journey," which stands out against her muted home world. It then explains how color, the character's scale and the order of images tell the reader what is happening and how she feels.
   explanation: Your answer should identify specific visual techniques that convey narrative. For example, in 'Journey,' Aaron Becker uses visual perspective, color saturation, and landscape composition to convey the protagonist's emotional journey—the initial gray and muted world gradually transforms into vibrant color and detail as the character progresses. Panel size and character positioning guide the reader's attention and convey importance. A character's size relative to the environment conveys psychological states—smallness against vast landscape conveys isolation or awe; growing larger relative to environment conveys increasing agency or confidence. Spatial arrangement across the page shows relationships and movement. The point is recognizing that visual elements carry full narrative weight—readers 'read' composition, color, perspective, and sequencing just as they would read words, but the interpretation is less guided and more collaborative between reader and visual text.
 ```
 

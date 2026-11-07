@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Fractured fairy tales deliberately destabilize traditional narratives by telling stories from alternative perspectives—villainess viewpoints, marginalized characters, literal retellings of events—revealing hidden aspects and contested meanings. This form of retelling uses metafictional awareness to interrogate the original tale's ideology and authorial perspective. Fractured retellings have become increasingly popular in both children's and YA literature.
 
+## How It's Best Learned
+Read a traditional "Three Little Pigs," then Jon Scieszka's *The True Story of the 3 Little Pigs!*, narrated by the wolf. List each event the wolf retells and the excuse he gives for it, such as a sneeze while borrowing sugar. Then ask which of his claims the reader is meant to doubt, and what the joke reveals about who usually gets to tell the story.
+
+## Common Misconceptions
+- A fractured fairy tale is any modern version of an old tale. (A fractured tale deliberately breaks with the original, often by switching viewpoint or by parody, and depends on the reader knowing the original; a faithful modern retelling does not.)
+- A retelling from the villain's side asks us to believe the villain. (Some give an unreliable narrator whose excuses the reader is meant to doubt, and the comedy or critique comes from that gap.)
+- Fractured tales are just jokes with nothing serious to say. (Even comic versions question the original's assumptions about who is good, who is bad and whose side gets heard.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Fractured fairy tales deliberately destabilize traditional narratives by telling
 
 - question: Choose a fairy tale you know. Describe how retelling a significant event from a marginal character's perspective would reveal different interpretations of events and motivations.
   type: short-answer
+  answer: A strong answer picks one event, such as the night of the ball in "Cinderella," and retells it through a minor character such as a stepsister. It shows which motives or pressures the original hides and how the shift complicates the tale's clear moral.
   explanation: 'Your answer should show how shifting perspective destabilizes the original narrative. For example, ''Cinderella'' told from the stepsisters'' perspective might reveal their genuine economic desperation (their social status depends on advantageous marriages), their realistic assessment that Cinderella''s beauty threatens their prospects, and their surprise at her magical transformation and marriage. This doesn''t justify cruelty, but it complicates the original tale''s moral simplicity. Or consider ''Sleeping Beauty'' from the Evil Fairy''s perspective: what wrong did the royal family commit that motivated her curse? What does this reveal about the original tale''s assumptions about power and entitlement? The point is that alternative perspectives don''t erase the original but add dimensions that complicate reader understanding.'
 ```
 
@@ -64,7 +73,7 @@ Fractured fairy tales deliberately destabilize traditional narratives by telling
 
 Fractured fairy tales represent a significant and increasingly popular form of literary engagement with classical narrative. Rather than accepting traditional tales as fixed, authoritative texts, fractured retellings deliberately destabilize them by telling stories from alternative perspectives, foregrounding marginalized characters, and questioning the original narrative's assumptions. This form of retelling is not simply a different version; it is actively antagonistic to the original, using the existence of the original tale to interrogate its ideology and reveal hidden meanings.
 
-The most powerful fractured retellings adopt the villain's perspective, a choice rich with literary and ideological implications. In the original "Sleeping Beauty," Maleficent is a flat villain—evil, motivated by vague resentment, ultimately defeated. A retelling from her perspective might ask: What wrongs did the royal family commit that motivated her curse? What was her life before this conflict? What does the original tale assume about power, entitlement, and divine right that Maleficent's perspective reveals? By making the villain's viewpoint emotionally compelling and morally understandable, the fractured retelling doesn't erase the original but complicates it—readers cannot maintain the original's comfortable moral clarity after understanding the villain's perspective.
+The most powerful fractured retellings adopt the villain's perspective, a choice rich with literary and ideological implications. In the traditional "Sleeping Beauty," the wicked fairy (named Maleficent only in Disney's 1959 film) is a flat villain—evil, motivated by a slight at the christening, ultimately defeated. A retelling from her perspective might ask: What wrongs did the royal family commit that motivated her curse? What was her life before this conflict? What does the original tale assume about power, entitlement, and divine right that the fairy's perspective reveals? By making the villain's viewpoint emotionally compelling and morally understandable, the fractured retelling doesn't erase the original but complicates it—readers cannot maintain the original's comfortable moral clarity after understanding the villain's perspective.
 
 Metafictional awareness distinguishes the most sophisticated fractured retellings. The text knows it's a retelling and uses that knowledge deliberately. It's not simply offering a different version of events; it's in explicit conversation with the original, pointing out what the original omitted, misrepresented, or obscured. Retellings like Gregory Maguire's "Wicked" function partly as creative works but equally as literary criticism—they analyze the original "Wizard of Oz" and its ideology through the act of retelling. This self-aware quality makes fractured retellings particularly effective in examining how narratives construct meaning and whose perspectives they privilege or exclude.
 

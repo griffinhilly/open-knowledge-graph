@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Survival fiction depicts protagonists confronting wilderness, isolation, or environmental hazard and drawing on resourcefulness, courage, and adaptation to endure. Works like *Hatchet* and *My Side of the Mountain* use survival challenges as vehicles for character development and thematic exploration of human resilience and connection to nature.
 
+## How It's Best Learned
+Make a two-column log for *Hatchet*: each practical problem Brian faces (fire, food, shelter) in one column, and what that problem changes in how he thinks in the other. Then contrast it with *My Side of the Mountain*, where Sam chooses to live in the wild instead of being stranded. Ask how a chosen ordeal and a forced one shape the meaning of survival differently.
+
+## Common Misconceptions
+- Survival fiction is mainly about outdoor skills, so the plot is a list of techniques. (Skills drive the events, but each practical problem usually marks a change in the protagonist's self-understanding or attitude toward nature.)
+- Every survival story begins with an accident that strands the hero. (Some protagonists choose isolation, as Sam does in *My Side of the Mountain*, and that choice changes what the ordeal means.)
+- Nature is the villain of survival fiction. (Nature in these books has no intent; many protagonists move from seeing it as an enemy to learning to live within its limits.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Survival fiction depicts protagonists confronting wilderness, isolation, or envi
 
 - question: Why does survival fiction have particular power as a vehicle for exploring adolescent development and identity formation?
   type: short-answer
+  answer: Survival scenarios remove the family, peers and institutions that normally shape an adolescent's identity, so the protagonist must find out alone what they can do. The arc from fear and dependence to competence mirrors the adolescent move toward autonomy.
   explanation: 'Survival scenarios isolate protagonists from usual social structures and identity markers, forcing them to discover capabilities and limitations on their own. In ordinary life, adolescents develop with parental guidance, peer relationships, and institutional structures that mediate experience. Survival fiction strips these away, requiring protagonists to test themselves directly. Additionally, survival challenges embody metaphorically the adolescent experience: confronting obstacles, discovering capabilities, adapting to changed circumstances, and gradually developing confidence. A character who begins survival isolated and terrified and ends capable and resourceful enacts the psychological journey of adolescence—from dependence toward autonomy, from self-doubt toward competence. Furthermore, survival fiction explores fundamental questions adolescents grapple with: Who am I without my usual social role? What am I capable of? What do I actually need to be human? What is my relationship to the wider world? The concrete scenario makes these abstract questions urgent and tangible.'
 ```
 

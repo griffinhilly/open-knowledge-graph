@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Children's and YA literature read in adulthood triggers powerful nostalgic and emotional responses that reshape how readers interpret texts they encountered in childhood. This phenomenon has created a substantial adult readership for YA literature and revisited classics. Nostalgia in adult reading of children's literature can simultaneously celebrate and critique the works, reinterpreting them through contemporary consciousness.
 
+## How It's Best Learned
+Before rereading a childhood favorite, write down what you remember: the plot, a favorite scene, and how the book made you feel. Then reread it and mark each place where memory and text differ. Sort the differences into three groups: things you misremembered, things you notice only now, and things that now trouble you. The sorted list shows how memory and present judgment each shape the reading.
+
+## Common Misconceptions
+- My memory of a childhood book is an accurate record of it. (Memories of books often merge, shorten, or invent scenes, which is why comparing memory with the text is revealing.)
+- If a book troubles me now, my childhood love for it was a mistake. (A book can have met real needs then and still show limits now; both readings are part of its history with you.)
+- Adults who read children's books are reading below their level. (Many children's books reward adult attention, and some are written to work on two levels at once.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Children's and YA literature read in adulthood triggers powerful nostalgic and e
 
 - question: Describe an experience of rereading a childhood favorite as an adult. What elements seemed different than you remembered? Did you appreciate aspects you didn't notice as a child, or recognize limitations you overlooked?
   type: short-answer
+  answer: Rereading Charlotte's Web as an adult, a reader might find that the barnyard comedy matters less than remembered and that Charlotte's death and the closing passage about the turning seasons now carry the book. The reader may see how much the story is about accepting death, something a child may feel without naming.
   explanation: Your answer should reflect the complexity of nostalgic rereading. You might notice that a book you loved for its protagonist's independence now reads as reinforcing certain gender stereotypes; or that a relationship dynamic that seemed romantic as a teenager now looks troubling from an adult perspective. Conversely, you might discover thematic depth about family relationships, or recognize in retrospect why the book mattered to your childhood self even as you now see its limitations. The point is that nostalgia doesn't require uncritical acceptance—it's possible to simultaneously appreciate what a book meant to you developmentally and recognize how your understanding has changed.
 ```
 

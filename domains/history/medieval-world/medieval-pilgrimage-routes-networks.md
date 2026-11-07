@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Major pilgrimage routes—especially to Santiago de Compostela, Rome, and Jerusalem—created networks connecting medieval Europe. Pilgrimage infrastructure included hospices, guide maps, and travel narratives. Pilgrimage routes facilitated cultural exchange, trade, and the spread of ideas across vast distances. The pilgrimage network represented both religious devotion and early medieval globalization.
 
+## How It's Best Learned
+On a blank map, draw the four French roads to Santiago, which start from Tours, Vézelay, Le Puy and Arles. Follow them over the Pyrenees onto the single road across northern Spain. Mark the monasteries, hospices and towns along the way, then compare a town on the route with one off it. Finally, list the reasons a pilgrim might set out: a vow, a penance, a hoped-for cure or an indulgence.
+
+## Common Misconceptions
+- Every pilgrim went out of personal piety. (Some went to fulfill vows or seek cures, and some were ordered to go as a penance by a church or secular court. Trade and curiosity also played a part.)
+- Medieval pilgrimage mostly meant going to Jerusalem, Rome or Santiago. (Most pilgrims visited local and regional shrines, such as Canterbury in England, often a few days' walk from home.)
+- Pilgrims traveled alone and unsupported. (Many traveled in groups for safety, stayed in hospices along the road, and wore badges such as the scallop shell that marked them as pilgrims.)
+- Today's Camino is an unbroken medieval tradition. (Pilgrimage to Santiago declined sharply after the Middle Ages and revived strongly in the late 20th century.)
+
 ## Questions
 
 ```yaml

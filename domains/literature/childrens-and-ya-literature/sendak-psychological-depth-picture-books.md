@@ -24,6 +24,11 @@ Maurice Sendak's works, especially 'Where the Wild Things Are,' introduced psych
 ## How It's Best Learned
 Examine Sendak's major picture books and his illustrations, studying how his work reflects psychological concepts and childhood emotional reality.
 
+## Common Misconceptions
+- *Where the Wild Things Are* is a story about a naughty boy who gets punished. (Max is sent to bed without supper, but the story lets him act out his anger in fantasy and come home by choice, where his supper is waiting, still hot.)
+- The wild things are monsters meant to frighten the reader. (They roar and gnash, but Max tames them with a stare, and the book invites readers to see them as an image of Max's own wildness.)
+- Psychological depth in a picture book means the text spells out the character's feelings. (Sendak's text names few of Max's emotions; the growing pictures and the wordless rumpus carry much of the feeling.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +64,7 @@ Examine Sendak's major picture books and his illustrations, studying how his wor
 
 - question: Analyze how 'Where the Wild Things Are' functions as both an adventure narrative and a psychological exploration of anger, desire, and emotional regulation.
   type: short-answer
+  answer: As adventure, Max sails to an island, tames the wild things, becomes their king and returns home. As psychology, the trip lets him live out his anger at his mother in fantasy, peak in the wild rumpus, and then choose to return to where someone loves him, with his supper waiting.
   explanation: 'The book works on multiple levels: As adventure, Max travels to a magical place and becomes king of wild creatures, experiencing power and freedom before returning home. As psychological narrative, Max''s journey enacts emotional processing: his initial anger at his mother, his fantasy of escape and power, his eventual realization that he wants to be where someone loves him. The wild things represent Max''s own wild impulses—his anger, his desires for freedom and power. The crescendoing wild rumpus shows Max''s emotional intensity peaking, then subsiding. His return home represents integration and regulation—not suppression of wildness but acceptance and maturation. Sendak''s illustrations convey this emotional journey visually: the increasing size and wildness of the wild things track Max''s emotional intensity; the blank pages and visual space reflect his emotional journey. What makes this psychologically sophisticated while remaining accessible is that children experience it as a fun adventure (Max becomes king! There''s a rumpus!) while also processing real emotional experience (anger, desire for power, love and belonging).'
 ```
 

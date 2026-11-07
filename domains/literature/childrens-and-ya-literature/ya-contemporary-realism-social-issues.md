@@ -23,6 +23,11 @@ Contemporary YA realistic fiction addresses urgent social and personal issues—
 ## How It's Best Learned
 Examine contemporary issue-driven YA texts, analyzing how they balance entertainment with serious content and how they treat adolescent agency in facing social problems.
 
+## Common Misconceptions
+- An issue novel is a lesson with a plot wrapped around it. (The strongest ones give the issue a specific character, setting and arc, and critics fault books where the problem flattens the people.)
+- Issue-driven YA is a recent invention. (Books such as S. E. Hinton's *The Outsiders*, published in 1967 and about class and gang violence, helped set the pattern, and the "problem novel" was a familiar label by the 1970s; what has grown is the range of issues and voices.)
+- A responsible issue novel must end with the problem solved. (Many end with the protagonist finding support or a way forward while the issue itself, such as racism or mental illness, remains.)
+
 ## Questions
 
 ```yaml
@@ -58,6 +63,7 @@ Examine contemporary issue-driven YA texts, analyzing how they balance entertain
 
 - question: Analyze an issue-driven YA novel you know. How does the author treat the central issue? Does the narrative center adolescent agency, response, or growth in relation to the issue? What might readers encounter through engaging with this narrative?
   type: short-answer
+  answer: A strong answer names one novel and its central issue, shows whether the issue drives plot and character or stays in the background, and judges whether the teen protagonist acts or is only acted upon. It ends by naming what a reader might take away, such as feeling less alone or seeing a social problem more clearly.
   explanation: 'Your answer should identify a specific issue (mental health, racism, sexual assault, eating disorders, etc.) and analyze how the book treats it. For example, a novel about depression might center the protagonist''s experience of symptoms, their struggle to get help, and their learning to manage mental health over time. A novel about racism might depict a character encountering racism directly and learning to recognize and resist it. The point is analyzing whether the issue is central (driving plot and character development) or peripheral, whether adolescent protagonists have agency in responding to issues or are passive victims, and what understanding or perspective the narrative might cultivate in readers. Issue-driven YA serves multiple functions: it validates young reader experience (I''m not alone in struggling with this), it models possible responses (here''s how this character addresses the issue), it invites reflection on social problems, and it legitimizes serious discussion of topics that might be taboo in other contexts.'
 ```
 

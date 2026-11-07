@@ -21,6 +21,14 @@ status: draft
 ## Core Idea
 Disney adaptations of literary works (fairy tales, Grimm stories, contemporary novels) transform source material through cinema, music, and visual spectacle. These adaptations often become more culturally prominent than original texts, shaping public understanding and memory of stories. Adaptation involves significant narrative and thematic changes meriting critical analysis.
 
+## How It's Best Learned
+Set Hans Christian Andersen's "The Little Mermaid" beside Disney's 1989 film. Build a table of key plot points (the bargain with the sea witch, the price of legs, the ending) and mark each one kept, changed, added or cut. For every change, name a likely reason: the film medium, the audience, the running time, or the values of the studio's era.
+
+## Common Misconceptions
+- The Disney film is the real version of the story and the older texts are variations on it. (Most Disney fairy-tale films adapt much older sources, such as Perrault, the Grimms or Andersen, and those sources often differ in plot, tone and ending.)
+- A good adaptation is one that stays faithful to the book. (Fidelity is one standard among several; analysis asks what each change does and why, since film, music and running time make different demands than print.)
+- Disney adaptations just make dark stories happy, so there is little else to analyze. (Softer endings are common, but adaptations also add characters, songs and motives, and each change carries values worth examining.)
+
 ## Questions
 
 ```yaml
@@ -56,6 +64,7 @@ Disney adaptations of literary works (fairy tales, Grimm stories, contemporary n
 
 - question: Why is it important to analyze and discuss the differences between literary source material and Disney film adaptations, rather than treating adaptations as simply faithful visualizations?
   type: short-answer
+  answer: Adaptations often replace their sources in public memory, so the changes they make shape what most people think the story means. Comparing versions shows what was cut, softened or added, and teaches that every telling makes choices.
   explanation: When adaptations become more culturally prominent than originals—when most people's understanding of Cinderella comes from Disney rather than fairy tale sources—the differences between versions significantly shape cultural narratives and values. Disney's Cinderella emphasizes romantic love and kindness as paths to happiness; many original versions emphasize cunning, family connection, or darker elements about justice. Disney's The Little Mermaid shifts the Little Mermaid's agency and motivation significantly from Hans Christian Andersen's version. These aren't minor variations; they're fundamental changes in narrative meaning and thematic emphasis. When adaptations become cultural canon, what's changed matters enormously because the adaptation's version becomes what billions of people believe the story 'actually' is. Additionally, analyzing adaptations teaches critical media literacy—understanding that all texts, even beloved ones, make choices about what to include and emphasize, and recognizing how medium shapes narrative. Finally, comparative analysis allows us to ask what work adaptation does, what audiences it serves, and what gets valued in the transformation.
 ```
 

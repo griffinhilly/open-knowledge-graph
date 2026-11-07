@@ -23,6 +23,14 @@ status: draft
 ## Core Idea
 Early reader books (typically ages 5-8) employ specific linguistic and structural conventions to support reading development: phonetically decodable text, controlled vocabulary, high-frequency words, repetition, and simple syntax. These features scaffold decoding while maintaining narrative engagement and emotional resonance.
 
+## How It's Best Learned
+Take two facing pages from an early reader and sort every word into three lists: words that follow simple letter-sound patterns (cat, hop, sit), common irregular words (said, was, the), and the rest. Then count how often each word repeats across the whole book. Compare the result with *Green Eggs and Ham*, written with only 50 different words, and ask how the author still builds a story with a turn.
+
+## Common Misconceptions
+- Decodable text and controlled vocabulary are the same thing. (Decodable text limits words to letter-sound patterns the child has been taught; controlled vocabulary limits how many different words appear, which can include irregular words like "said.")
+- An early reader is just a picture book with fewer words. (Picture books are usually written to be read aloud by an adult, while early readers are built for a child reading alone, with the text shaped around decoding.)
+- Repetition in early readers makes them dull for children. (Children often enjoy recognizing words they have met before, and skilled authors use repetition for rhythm, suspense and jokes.)
+
 ## Questions
 
 ```yaml
@@ -58,6 +66,7 @@ Early reader books (typically ages 5-8) employ specific linguistic and structura
 
 - question: Why is the balance between reading support structures (phonetic decodability, controlled vocabulary) and genuine narrative engagement important in early reader design?
   type: short-answer
+  answer: Decoding support without a story worth reading can build skills while killing interest, and a good story full of words the child cannot decode leads to frustration. Effective early readers do both, so children link reading success with real enjoyment.
   explanation: 'Reading is not purely skill-building; it must also be emotionally rewarding and narratively satisfying or children won''t develop enthusiasm for reading itself. An early reader book that perfectly scaffolds decoding but tells a boring or emotionally flat story may teach reading skills while discouraging reading engagement. Conversely, a narratively engaging book that ignores phonetic decoding principles may frustrate readers who cannot successfully decode words. Effective early readers satisfy both requirements simultaneously: they provide appropriate decoding scaffolding while telling stories children genuinely care about. Characters should be engaging, plots should have stakes and resolution, humor should be present, and emotional authenticity should matter—not as extras added to support structure but as integral to the story. This balance teaches children that reading leads to emotional reward and narrative engagement, not merely completing exercises, creating intrinsic motivation for continued reading.'
 ```
 

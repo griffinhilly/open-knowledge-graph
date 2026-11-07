@@ -25,6 +25,11 @@ Contemporary fairy tale retellings update classic stories for modern contexts, o
 ## How It's Best Learned
 Examine multiple retellings of the same fairy tale, comparing how different authors update the story and what themes they emphasize or challenge.
 
+## Common Misconceptions
+- Each fairy tale has one original version that retellings depart from. (Most tales exist in many older variants, such as Perrault's and the Grimms' quite different Cinderellas, so "the original" usually means whichever version a retelling responds to.)
+- A retelling that changes the plot has lost what made the tale worth telling. (Changes carry meaning because readers know the familiar structure, and that contrast is how a retelling comments on its source.)
+- A retelling is good only if it makes the tale more modern or more progressive. (Retellings are judged by what their changes reveal and how well the story works; some keep the old setting and change only the viewpoint or a motive.)
+
 ## Questions
 
 ```yaml
@@ -60,6 +65,7 @@ Examine multiple retellings of the same fairy tale, comparing how different auth
 
 - question: Take a fairy tale you know. Describe what a contemporary retelling might change about the original story to update it for modern sensibilities and what themes these changes would illuminate.
   type: short-answer
+  answer: A strong answer names one change, such as a Cinderella who wants meaningful work more than marriage, and states what it reveals about the source. In this case it exposes the tale's assumption that marriage is the heroine's goal.
   explanation: Your answer should show understanding that contemporary retellings use changes deliberately. For example, 'Cinderella' might be retold with a protagonist who rejects marriage entirely and pursues meaningful work; this change interrogates the original tale's assumption that romantic marriage is the ultimate female goal. Or a retelling might center the evil stepmother's perspective, asking what desperation or injustice motivated her cruelty. A retelling might add queer romance to 'Sleeping Beauty,' challenging the original's heteronormative framework. These aren't random changes but deliberate interrogations of the original tale's ideology. The point is recognizing that contemporary retellings use the familiar structure strategically—because readers know the original, changes become visible and meaningful, allowing the retelling to comment on the original simultaneously with telling a new story.
 ```
 

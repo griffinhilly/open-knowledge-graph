@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Medieval peasants periodically rebelled against serfdom, taxation, and oppressive labor requirements. Major uprisings like the Peasants' Revolt in England (1381) and various continental rebellions revealed tensions within feudal society. Though usually defeated, peasant rebellions demonstrated agency and dissatisfaction, challenged assumptions about social order, and occasionally produced lasting changes in peasant rights.
 
+## How It's Best Learned
+Build a table of three revolts: the Jacquerie of 1358, the English rising of 1381, and the German Peasants' War of 1524–25. Use rows for trigger, who took part, demands, and outcome. Then take the 1381 demands, such as the end of serfdom and a fixed rent for land. Sort them into claims to restore an older order and claims for something new.
+
+## Common Misconceptions
+- The rebels of 1381 were all poor serfs. (Many were free peasants, craftsmen and townspeople, and some were clergy, such as the preacher John Ball. Better-off villagers often took the lead.)
+- The rebels rose against the king himself. (Many in 1381 declared loyalty to Richard II and aimed their anger at his councillors, tax officials and local lords.)
+- Revolts broke out when peasants were at their most miserable. (Historians often note that the 1381 rising came as wages and expectations were rising after the Black Death, and laws blocked those gains.)
+- The 1381 revolt ended serfdom in England. (Serfdom faded over the following century, and historians debate how much the revolt mattered compared with the long labor shortage after the plague.)
+
 ## Questions
 
 ```yaml

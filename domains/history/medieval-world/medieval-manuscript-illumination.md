@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Illuminated manuscripts—handwritten texts decorated with gold leaf, pigments, and elaborate illustrations—were masterpieces of medieval art and required years of labor by multiple specialists (scribes, artists, binders). Illuminations served devotional, didactic, and decorative purposes; marginalia often included fantastic creatures and commentary. The production and display of illuminated manuscripts demonstrated wealth, piety, and learning, making them status symbols for monasteries, churches, and nobility.
 
+## How It's Best Learned
+Pick one illuminated page and rebuild its making in order: the scribe's text with gaps left open, red rubrics added, gold leaf laid and burnished, pigments painted, gatherings bound. Name the material and the worker at each step. Then compare an early monastic Gospel book, such as the Book of Kells, with a late Book of Hours for a lay patron, such as the Très Riches Heures. Ask who made each, who used it and why.
+
+## Common Misconceptions
+- Only monks made illuminated manuscripts. (Monasteries led early production, but by the later Middle Ages many books were made in town workshops by lay professionals, some of them women.)
+- Medieval manuscripts were written on paper. (Most were written on parchment, prepared animal skin. Paper spread in Europe only in the later Middle Ages.)
+- Every medieval manuscript was richly illuminated. (Many books were plain working copies with little decoration. Lavish illumination was reserved for a smaller set of costly commissions.)
+- Marginal images have nothing to do with the text beside them. (Some marginal images play on a word or theme in the nearby text. Others have no clear link, and scholars still debate their purpose.)
+
 ## Questions
 
 ```yaml

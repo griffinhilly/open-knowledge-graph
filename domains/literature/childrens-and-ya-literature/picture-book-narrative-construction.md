@@ -23,6 +23,14 @@ status: draft
 ## Core Idea
 Picture books tell stories through carefully integrated sequences of images and minimal text, typically designed for children ages 3-8. The narrative arc, emotional beats, and character development must unfold through visual composition as much as written language. Picture book narratives emphasize emotional truth and visual clarity over plot complexity, with each page turn carrying narrative weight.
 
+## How It's Best Learned
+Sketch a picture book you know as a row of thumbnail spreads, one box per page turn, and note what each turn holds back and then reveals. *The Monster at the End of This Book*, where Grover begs the reader to stop turning pages, makes the device obvious. Then plan a simple story, such as a lost toy found again, in twelve spreads, choosing which moment each turn will reveal.
+
+## Common Misconceptions
+- The page turn is just a physical break between pictures. (Picture book makers plan each turn to hold something back and then reveal it, so the turn sets suspense and pacing.)
+- A simple plot means a simple story. (One small event, such as losing a toy, can carry real fear, grief or joy when text and pictures explore it closely.)
+- The text tells the story and the pictures show it a second time. (The two usually split the work: text gives dialogue and information, while pictures carry feeling, setting and sometimes facts the words leave out.)
+
 ## Questions
 
 ```yaml
@@ -58,6 +66,7 @@ Picture books tell stories through carefully integrated sequences of images and 
 
 - question: How do picture book authors and illustrators coordinate text and image to create narrative meaning, and why is this coordination essential?
   type: short-answer
+  answer: Author and illustrator split the work, with text giving dialogue, thought and information while images carry emotion, setting and action, and page turns pace the reveals. This matters because each channel can do what the other cannot, and pre-reading children follow the story largely through the pictures.
   explanation: 'Picture books function as collaborative works between author (text) and illustrator (image), where narrative meaning emerges from coordination between these channels. Text might describe what a character says while images reveal the character''s emotional state through facial expression or body language—both saying something true but different. Images might show time passing while text remains brief, allowing visual narrative to carry temporal development. The illustrations'' pacing and composition guide readers'' emotional responses—a close-up suggests intimacy, a wide view suggests freedom or isolation, color shifts can mark emotional change. This coordination is essential because each medium has distinctive powers: text can convey internal thought and dialogue, images can convey emotion and action through visual language. Effective picture books leverage both simultaneously. Furthermore, young children reading pictures before they decode text fluently depend on visual narrative to understand stories—the images must be clear, emotionally expressive, and narratively coherent so that preliterate or beginning readers can comprehend stories through visual literacy before verbal literacy is fully developed. The coordination of text and image makes picture books accessible across literacy stages while creating sophisticated narratives.'
 ```
 

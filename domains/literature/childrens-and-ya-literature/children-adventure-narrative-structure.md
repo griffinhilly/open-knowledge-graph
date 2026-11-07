@@ -25,6 +25,15 @@ status: draft
 ## Core Idea
 Adventure narratives in children's literature center on protagonists navigating physical or environmental challenges, solving mysteries, or undertaking journeys. These plots emphasize action, discovery, and resourcefulness over psychological introspection. Adventure fiction like *Treasure Island* and *Hatchet* often employs episodic structure with escalating obstacles.
 
+## How It's Best Learned
+List the obstacles in Gary Paulsen's *Hatchet* in order, from the plane crash through hunger, fire-making, and the moose and tornado. Beside each, note what Brian learns or gains that he needs later. Then mark where the stakes rise and where a setback undoes earlier gains. The chart shows escalation as a chain of skills tested by harder problems.
+
+## Common Misconceptions
+- Adventure stories have no inner life. (Many weave inner growth through the action; in *Hatchet*, Brian's survival is interleaved with his memories of his parents' divorce.)
+- Escalation means each danger is physically bigger than the last. (Stakes can also rise when a setback wipes out earlier progress or when more is at risk.)
+- An adventure should move fast from start to finish. (Quiet stretches of preparation or recovery vary the pace and make the next danger hit harder.)
+- Every adventure is a quest. (A quest is organized around a goal the hero sets out to reach; many adventures, such as survival stories, begin with an accident and center on getting through.)
+
 ## Questions
 
 ```yaml
@@ -60,6 +69,7 @@ Adventure narratives in children's literature center on protagonists navigating 
 
 - question: Why are adventure narratives structured with escalating obstacles rather than obstacles of consistent difficulty throughout the story?
   type: short-answer
+  answer: Rising difficulty keeps raising the stakes as the protagonist gains skill, so tension does not fade. It also makes the final success feel earned, because it demanded more than the earlier challenges did.
   explanation: 'Escalating obstacle structure maintains narrative momentum and reader engagement by continuously raising stakes and intensity. If obstacles remained equal in difficulty, reader attention would flag as the protagonist becomes more experienced and capable. Escalating obstacles ensure that the protagonist''s growing skills are constantly challenged by proportionally greater difficulties, creating ongoing tension. Additionally, escalating structure creates a sense of earned victory: the final triumph feels meaningful because it required overcoming progressively more formidable challenges. This structure also mirrors realistic learning and development—as we grow more capable, we naturally seek greater challenges—making the narrative arc psychologically satisfying.'
 ```
 

@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 The Holy Roman Empire claimed continuity with Charlemagne's empire and Roman imperial authority, though in practice it was a confederation of German-speaking territories and Italian city-states. The Holy Roman Emperor needed papal coronation to legitimize his rule, creating ongoing tensions with the Church over the source of authority. This unique political structure profoundly shaped German and Central European history.
 
+## How It's Best Learned
+Lay out a short timeline: Charlemagne's coronation in 800, Otto I's in 962, the Investiture Controversy, the Golden Bull of 1356, and dissolution in 1806. At each point, ask who held real power: the emperor, the pope or the princes. Then compare a map of the empire's claimed borders with a map of its many princely and church territories. The contrast shows the gap between title and control.
+
+## Common Misconceptions
+- The empire was called the "Holy Roman Empire" from 962. (The name grew over time. "Holy" entered imperial usage in the 12th century, and the full phrase appeared in the 13th.)
+- The Holy Roman Empire was the same thing as medieval Germany. (It also included the kingdom of Italy in the north of the peninsula, the kingdom of Burgundy and Bohemia. Its German lands were themselves split among many princes.)
+- The emperor inherited his throne like the kings of France or England. (German kings were elected by the leading princes. One family often held the throne for generations, but each succession still required election.)
+
 ## Questions
 
 ```yaml

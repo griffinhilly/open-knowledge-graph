@@ -21,7 +21,15 @@ status: draft
 # The Newbery Medal, Caldecott Medal, and Canon Formation
 
 ## Core Idea
-The Newbery Medal (American fiction, 1921-present) and Caldecott Medal (American illustration, 1938-present) are the highest honors in American children's literature. These awards shape the canon: winning and honored books gain visibility, cultural prestige, and sales. Award-winning lists reflect (and influence) evolving values regarding literary merit, representation, and childhood.
+The Newbery Medal (distinguished American writing for children, first awarded 1922) and Caldecott Medal (American picture-book illustration, first awarded 1938) are the highest honors in American children's literature. These awards shape the canon: winning and honored books gain visibility, cultural prestige, and sales. Award-winning lists reflect (and influence) evolving values regarding literary merit, representation, and childhood.
+
+## How It's Best Learned
+Pull the Newbery winners from one decade in the 1950s and one in the 2010s; the American Library Association posts the full lists. For each book, note its genre, its protagonist and its author. Compare the two sets, then pick a well-loved book from one of those years that did not win and ask how its reputation has fared without the medal.
+
+## Common Misconceptions
+- The Caldecott Medal honors the best story in a picture book. (It goes to the illustrator of the most distinguished American picture book, so it judges the art and how it works with the text.)
+- The winner is objectively the best children's book of its year. (A committee chooses by its own criteria and the values of its time, and other strong books, including some later seen as classics, go unrecognized.)
+- Only the medal itself matters. (Each year the committee can also name Honor books, and those titles also gain lasting visibility in schools and libraries.)
 
 ## Questions
 
@@ -58,12 +66,13 @@ The Newbery Medal (American fiction, 1921-present) and Caldecott Medal (American
 
 - question: How do major children's literature awards both reflect and shape what becomes considered 'canonical' children's literature, and why does this matter?
   type: short-answer
+  answer: Awards reflect the values of the judges and their era, and they shape the canon by giving winners visibility, sales and a place in schools and libraries, which keeps them in print and remembered. This matters because it shows that classics are made by choices about whose stories to preserve.
   explanation: 'Awards reflect judges'' perspectives on literary merit and value at specific historical moments—these perspectives both embody and shape broader cultural views. When judges select certain books as worthy of highest honor, those books gain visibility, prestige, and commercial success. Schools and libraries prioritize award-winners for purchasing and teaching, making them accessible to more readers. Books remain in print longer and are remembered longer if they''ve won major awards. Conversely, excellent books that don''t win awards risk falling out of print and being forgotten. This creates a self-reinforcing cycle: award-winners become canonical, canonical books are taught and remembered, forgotten books are harder to discover. This matters because canon formation determines what counts as part of our cultural conversation about childhood, what stories are considered worth preserving and teaching, and whose stories (authors, characters, perspectives) get to be seen as representative or important. Analysis of award-winners across history reveals shifts in values—increased representation of diverse authors and characters, growing recognition of social realism, expansion of what counts as literary merit. By making this connection between awards and canon visible, we recognize that ''classics'' are not natural or inevitable but constructed through choices about what to honor and preserve.'
 ```
 
 ## Explainer
 
-The Newbery Medal and Caldecott Medal represent the most prestigious honors in American children's literature, with influence extending into schools, libraries, publishing, and cultural memory. The Newbery Medal, established in 1921, honors outstanding fiction; the Caldecott Medal, established in 1938, honors exceptional illustration. These awards wield significant power in shaping what becomes considered canonical children's literature. A book winning or being honored by these awards gains visibility, prestige, commercial success, and institutional support—schools purchase award-winning books, librarians recommend them, and they remain in print longer than non-winning titles.
+The Newbery Medal and Caldecott Medal represent the most prestigious honors in American children's literature, with influence extending into schools, libraries, publishing, and cultural memory. The Newbery Medal, established in 1921 and first awarded in 1922, honors the most distinguished contribution to American literature for children, which can be nonfiction or poetry as well as fiction; the Caldecott Medal, first awarded in 1938, honors the illustrator of the most distinguished American picture book. These awards wield significant power in shaping what becomes considered canonical children's literature. A book winning or being honored by these awards gains visibility, prestige, commercial success, and institutional support—schools purchase award-winning books, librarians recommend them, and they remain in print longer than non-winning titles.
 
 The power of awards in canon formation reveals something important about how literary tradition is constructed: canons are not natural or inevitable. They are created through choices about what to recognize and honor. When judges select certain books as worthy of the highest recognition, those books become more visible and more likely to be taught, discussed, and remembered. They become part of cultural conversation about literature. Books that never win awards risk being forgotten, regardless of their actual literary quality. This means the award-winning list essentially functions as a curated selection of what counts as important children's literature at any given historical moment.
 

@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Serfdom bound peasants to land they worked for manorial lords, obligating them to labor, pay rents, and accept restrictions on movement. Though technically unfree, serfs possessed some customary rights and protections through manorial law. The manorial system organized rural production, taxation, and justice, creating the material base for feudal hierarchy. Serfdom persisted in varying forms across medieval Europe.
 
+## How It's Best Learned
+Sketch a model manor: the lord's demesne, peasant strips in the open fields, common pasture, woodland, the mill, the church and the manor house. Then list one unfree tenant's dues across a year. Include weekly labor, extra harvest work, a fee to marry, a payment at death and charges at the lord's mill. Mark each as labor, money or goods, and compare with a free tenant on the same manor.
+
+## Common Misconceptions
+- All medieval peasants were serfs. (Many peasants were legally free and owed rent rather than servile labor. Free and unfree tenants often lived in the same village, and the mix varied by region.)
+- Once a serf, always a serf. (Serfs could gain freedom by buying it, by a lord's grant, or in some places by living in a chartered town for a year and a day.)
+- The lord ran the manor's daily work himself. (Stewards, bailiffs and reeves managed it. In England the reeve was often a peasant chosen from the village.)
+
 ## Questions
 
 ```yaml

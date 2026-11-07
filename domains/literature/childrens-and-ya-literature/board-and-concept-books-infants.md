@@ -20,6 +20,15 @@ status: draft
 ## Core Idea
 Board books and concept books for very young children prioritize sensory experience, physical interaction, and conceptual naming over narrative. They often feature high contrast, durable materials, and tactile elements that engage preliterate children. Though sometimes dismissed as merely functional, these books represent an important subgenre where physical book design is integral to the literary experience.
 
+## How It's Best Learned
+Handle one board book the way a toddler would: grab it, open it from the middle, turn pages with a fist. List each design choice you notice, such as page thickness, rounded corners, one object per spread, or a touch patch, and link each to a toddler's abilities. Then compare a concept book's page order to see how it is arranged without a plot.
+
+## Common Misconceptions
+- A board book is a picture book printed on cardboard. (Some are, but board editions of longer picture books are sometimes shortened or cropped; books made for the format are designed around small hands and short attention from the start.)
+- Concept books have no structure because they have no story. (They are often ordered by a pattern, such as counting up, moving from familiar to less familiar objects, or pairing opposites.)
+- When a baby chews or bends a book, the baby is misusing it. (Mouthing and handling are how infants explore objects, and the format is built to survive that.)
+- Babies are too young to get anything from books. (Infants respond to faces, strong contrast, and an adult's voice, and naming pictures together is an early form of language exchange.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +64,7 @@ Board books and concept books for very young children prioritize sensory experie
 
 - question: How do physical book properties (durability, size, tactile elements) constitute part of the literary experience of board and concept books?
   type: short-answer
+  answer: For preliterate children the book's physical properties are part of the content. Durability lets them handle and mouth it, the size and thick pages suit small hands, and tactile elements carry meaning directly through touch.
   explanation: In board and concept books, the physical properties of the book itself are integral to the experience in ways different from chapter books or even narrative picture books. The book's durability allows babies to hold, manipulate, and even mouth it safely—the book is both reading object and toy, and its ability to withstand physical interaction is essential. Size and weight are calibrated for small hands. Thick pages are easier for tiny fingers to manipulate than thin paper. Textured elements—rough fabrics, smooth plastics, bumpy beads—engage sensory development. Tactile features aren't decorative supplements to text; they ARE the primary content for preliterate children. High-contrast colors support developing visual discrimination. Simple, bold images allow young children to recognize and name concepts. The physical design communicates concepts and supports learning as effectively as narrative does in other books. Understanding board and concept books as literary works thus requires recognizing that their 'content' includes physical properties and sensory experience, not just visual and textual information.
 ```
 

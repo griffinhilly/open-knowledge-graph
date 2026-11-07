@@ -23,6 +23,11 @@ Children's horror literature deliberately calibrates fear and danger to developm
 ## How It's Best Learned
 Compare children's horror across developmental stages (picture book scares, middle-grade mysteries with creepy elements, YA horror), analyzing how fear intensity increases with age.
 
+## Common Misconceptions
+- Children's horror is adult horror with the gore taken out. (It is built differently, with protective structures such as resolution, protagonist agency, and a return to safety, and with fears matched to children's own concerns.)
+- All children of the same age can handle the same level of fear. (Tolerance varies widely among children of one age, so age bands are rough guides and an adult reading along can watch for when to pause.)
+- A scary story for children has to tie up every loose end. (Many do resolve the threat, but some short campfire-style tales end on a shock or lingering unease, and the safety comes from the telling itself, a familiar voice in a safe room.)
+
 ## Questions
 
 ```yaml
@@ -58,6 +63,7 @@ Compare children's horror across developmental stages (picture book scares, midd
 
 - question: Explain how a children's horror author might use narrative closure and protagonist agency to keep a genuinely frightening story emotionally safe for young readers.
   type: short-answer
+  answer: The author lets the protagonist act against the threat instead of remaining a passive victim, and brings the story to a resolution in which the danger is defeated, explained, or understood. A return to safety or normal life at the end signals that the fear was contained.
   explanation: 'A skilled children''s horror author creates genuine fear through suspense, disturbing imagery, or supernatural threat—but crucially, the protagonist actively confronts the threat and the story reaches resolution. Rather than uncontrollable doom, the child protagonist finds courage, ingenuity, or support to face danger. The story ends with the threat neutralized or understood, providing psychological closure. Additionally, the author might frame the story with safety markers: a trusted narrator, a warm setting before/after the scary section, or a return to normal life. For example, a middle-grade ghost story might feature vivid, frightening encounters but end with the ghost being helped or explained, the protagonist understanding what happened and finding peace. This approach honors the reader''s interest in experiencing fear while protecting them from the psychological damage of unresolved threat—they get the thrilling experience of being scared while maintaining the underlying sense that they are safe and in control.'
 ```
 

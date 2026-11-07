@@ -18,6 +18,14 @@ status: draft
 ## Core Idea
 Children's literature traditions vary significantly across cultures, reflecting different values, pedagogical goals, narrative conventions, and aesthetic priorities. Global children's literature encompasses oral storytelling traditions, regional literary classics, and contemporary publishing practices that may look nothing like Western children's books. Studying global traditions reveals the contingency of what English-language readers perceive as 'children's literature norms'.
 
+## How It's Best Learned
+Read three Cinderella-type tales side by side: the Chinese tale of Ye Xian, Perrault's "Cendrillon," and the Grimms' "Aschenputtel." Chart the magical helper, the test that proves the heroine's identity, and what happens to the stepsisters, who are forgiven in Perrault and blinded by birds in the Grimms. Then ask what each version values and how a teller's culture might explain the differences.
+
+## Common Misconceptions
+- Each country's children's books share one national style. (Traditions vary inside a country; Sweden produced both Astrid Lindgren's rule-breaking *Pippi Longstocking* and Elsa Beskow's gentle forest fantasies.)
+- A translated book shows readers another culture as it is. (Publishers choose which titles get translated, and translators sometimes change names, food, or jokes for new readers.)
+- Folk tales from oral traditions were made for children. (Many were told to mixed audiences of adults and children, and collecting them for children often involved editing them.)
+
 ## Questions
 
 ```yaml
@@ -53,6 +61,7 @@ Children's literature traditions vary significantly across cultures, reflecting 
 
 - question: Identify one non-English children's literature tradition or work. What different values, narrative conventions, or pedagogical goals does it reflect compared to typical Western children's literature?
   type: short-answer
+  answer: The Panchatantra, an ancient Indian collection of animal fables, frames its stories as lessons in practical wisdom and statecraft for young princes. Its values center on prudence and shrewd judgment more than on the individual self-discovery common in many modern Western children's novels.
   explanation: 'Your answer might reference: Japanese children''s literature emphasizing character development and quiet emotional depth; African oral storytelling traditions prioritizing collective wisdom and cultural memory; Scandinavian children''s literature emphasizing nature connection and environmental values; Indian children''s literature drawing on mythological and Sanskrit traditions. The point is to recognize that different traditions have different aesthetic priorities and values. Where Western children''s literature might emphasize individual agency and external adventure, another tradition might emphasize emotional interiority or collective responsibility. Neither is better—they reflect different cultural values about what children should learn and what stories matter.'
 ```
 

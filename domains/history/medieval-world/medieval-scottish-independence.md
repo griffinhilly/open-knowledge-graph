@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Scotland gradually developed as a distinct medieval kingdom, incorporating Picts, Scots, Anglo-Saxons, and Norse elements into a unified realm. Scottish kings maintained independence despite English claims, particularly after victories like Bannockburn in 1314. The Scottish monarchy, Church, and feudal nobility created distinct institutions that differentiated Scotland from England while remaining culturally and politically connected.
 
+## How It's Best Learned
+Start with a map of northern Britain around 900: the Gaelic kingdom of Alba, the Britons of Strathclyde, Norse settlements and Anglo-Saxon Lothian. Then mark later additions: the Western Isles from Norway in 1266, and Orkney and Shetland in 1468–69. Next, build a tight timeline of the succession crisis and wars: 1286, 1290, 1292, 1296, 1297, 1306, 1314, 1320, 1328. Beside each date, note who claimed authority over Scotland and on what grounds.
+
+## Common Misconceptions
+- Wallace and Bruce fought side by side. (Wallace's main role came in 1297–98, and he was executed in 1305, a year before Bruce took the crown. Bruce had at times sided with Edward I.)
+- Bannockburn ended the wars. (Fighting went on after 1314. England recognized Scottish independence only in 1328, and war resumed in the 1330s.)
+- The Declaration of Arbroath was a proclamation to the Scottish people. (It was a letter from Scottish barons to Pope John XXII, seeking papal support for Robert Bruce against English claims.)
+- Medieval Scotland was a Gaelic Highland culture throughout. (Lowland Scotland spoke an English-derived tongue, towns drew English and Flemish settlers, and leading families such as the Bruces and Balliols were of Anglo-Norman descent.)
+
 ## Questions
 
 ```yaml

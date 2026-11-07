@@ -24,6 +24,15 @@ status: draft
 ## Core Idea
 Children's literature frequently centers on young protagonists who exercise agency—making decisions, solving problems, and effecting change within their world—rather than being passive or subordinate to adult authority. This narrative choice reflects developmental beliefs about child autonomy and portrays children as capable agents in their own stories.
 
+## How It's Best Learned
+List the major plot turns in one novel, such as Roald Dahl's *Matilda*. Beside each turn, mark what caused it: the child's choice, an adult's action, or chance. Then retell the climax with an adult solving the problem and note what the story loses. The tally shows how much of the plot the protagonist drives.
+
+## Common Misconceptions
+- Agency means the child does everything alone. (Asking for help or accepting guidance can itself be a choice that moves the plot; agency is about whose decisions change events.)
+- A busy, active protagonist has agency. (A character can rush from scene to scene while others make the decisions; what counts is whether the protagonist's choices change what happens.)
+- A child with special powers has more agency than an ordinary child. (Power and agency differ; a gifted character can be carried along by prophecy or adult plans, while an ordinary child can drive a story through small decisions.)
+- A protagonist who fails has lost agency. (A bad choice with real consequences is still a choice, and repairing a mistake is often where agency shows most clearly.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +68,7 @@ Children's literature frequently centers on young protagonists who exercise agen
 
 - question: Why might an author choose to show a child character solving a problem through their own actions rather than having an adult character solve it for them?
   type: short-answer
+  answer: When the child solves the problem, the stakes rest on the protagonist's own choices, which creates tension and lets readers imagine taking part in the solution. It also presents children as capable, which can encourage readers' sense of their own competence.
   explanation: 'Showing a child character solve problems builds narrative belief in the child''s competence and models for young readers that they, too, are capable of agency and problem-solving. This narrative choice psychologically empowers child readers by positioning children as capable agents rather than helpless dependents. It also creates more compelling narrative tension: a problem solved by an adult happens to the protagonist, but a problem solved by the protagonist drives the story forward and creates genuine stakes. Additionally, child-solved problems allow readers to participate imaginatively in the solution process, making the reading experience more engaging and providing models for how readers might approach their own challenges.'
 ```
 

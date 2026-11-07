@@ -25,6 +25,11 @@ First-person narration dominates contemporary YA literature, creating narrative 
 ## How It's Best Learned
 Analyze voice in first-person YA novels, examining how contemporary language, internal monologue, and tone create authenticity while maintaining literary quality.
 
+## Common Misconceptions
+- A first-person narrator tells the reader the whole truth. (The narrator reports only what they know, notice or are willing to say, so readers often grasp more than the narrator does.)
+- First person means present tense. (Person and tense are separate choices; Katniss narrates *The Hunger Games* in the present tense, while many first-person YA novels use the past tense.)
+- A YA voice sounds authentic when it is packed with current slang. (Voice comes mostly from what the narrator notices, how they judge it and the rhythm of their thoughts; heavy slang can date a book quickly.)
+
 ## Questions
 
 ```yaml
@@ -60,6 +65,7 @@ Analyze voice in first-person YA novels, examining how contemporary language, in
 
 - question: Analyze the first-person voice in a YA novel you've read. How does the narrator's particular voice and tone affect your reading experience? What does this voice reveal about the character?
   type: short-answer
+  answer: A strong answer points to specific features of the voice, such as word choice, tone toward other characters, and what the narrator notices or misses. It then links them to character and effect, for example a sarcastic narrator whose humor works as a defense and keeps readers at an ironic distance.
   explanation: 'Your answer should identify specific features of the voice: word choice and vocabulary that feel contemporary or authentic; tone that conveys the character''s attitude toward events; internal observations that reveal psychology or growth; limitations in what the narrator knows or understands. For example, a sarcastic first-person narrator invites readers into ironic distance from events; a confused or uncertain narrator creates reader engagement as readers work to understand along with the protagonist. The voice should reveal character through language: how the narrator speaks reveals their background, education, emotional state, values. Effective YA first-person voice creates readers feeling they know the character intimately while maintaining literary sophistication.'
 ```
 

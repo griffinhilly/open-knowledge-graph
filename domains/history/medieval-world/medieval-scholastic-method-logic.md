@@ -23,7 +23,15 @@ status: validated
 # Scholastic Method and Medieval Logic
 
 ## Core Idea
-Scholastic method systematized logical argumentation through the dialectical approach of thesis, antithesis, and synthesis. Using Aristotelian logic and careful textual analysis, scholastics attempted to harmonize reason and faith, scripture and philosophy. This rigorous method established foundations for later scientific methodology and formal logic.
+Scholastic method systematized logical argumentation through the disputed question: objections, a counter-authority, a reasoned answer, and replies to each objection. Using Aristotelian logic and careful textual analysis, scholastics attempted to harmonize reason and faith, scripture and philosophy. This rigorous method established foundations for later scientific methodology and formal logic.
+
+## How It's Best Learned
+Read one short article of Aquinas's Summa Theologiae, such as Part I, Question 2, Article 3, "Whether God exists." Label its parts: the objections that open with "It seems that," the "on the contrary" (sed contra), the main answer, and the replies to each objection. Then write a one-page article in the same form on a simple question, answering every objection you raise.
+
+## Common Misconceptions
+- Scholastics treated Aristotle as infallible. (They called him "the Philosopher" and gave him great weight, but they rejected his views where they clashed with faith, such as his claim that the world is eternal.)
+- Scholastics debated how many angels could dance on the head of a pin. (That jibe is a later caricature. Scholastics did discuss how angels relate to place, but the pinhead question does not appear in that form in their texts.)
+- Medieval logic only repeated Aristotle. (Medieval logicians built new theories of their own, such as accounts of how terms refer within sentences and of when one statement follows from another.)
 
 ## Questions
 
@@ -68,7 +76,7 @@ Scholastic method systematized logical argumentation through the dialectical app
 
 Scholasticism, which you studied in its broader form, generated a specific intellectual tool: the **scholastic method**, or *disputatio*. Understanding this method requires seeing it against its context. Medieval universities inherited a problem that had no obvious solution — they possessed two sources of authority that sometimes contradicted each other. On one side stood Scripture and the Church Fathers; on the other stood Aristotle, whose logical works and natural philosophy had just been re-imported from Arabic translation. When Aristotle's physics seemed to contradict Genesis, or when his ethics seemed to imply virtuous pagans could be saved, what should a university teacher do?
 
-The scholastic method was a procedure for working through exactly these conflicts. Its canonical form appears in Thomas Aquinas's *Summa Theologiae*: state a **question** (*quaestio*), present objections to the answer you will defend (*sed contra* arguments), state your own position, then methodically answer each objection. This was not just rhetorical decoration — it was an epistemological commitment. You had to steelman the opposing view before refuting it. A scholastic argument that ignored the strongest objections was considered a failure, not a success.
+The scholastic method was a procedure for working through exactly these conflicts. Its canonical form appears in Thomas Aquinas's *Summa Theologiae*: state a **question** (*quaestio*), present objections to the answer you will defend, cite an authority on the other side (*sed contra*), state your own position, then methodically answer each objection. This was not just rhetorical decoration — it was an epistemological commitment. You had to steelman the opposing view before refuting it. A scholastic argument that ignored the strongest objections was considered a failure, not a success.
 
 The raw material of the method was **Aristotelian logic**, particularly the syllogism: if all A are B, and all B are C, then all A are C. Applied to theological and philosophical questions, this meant that if you accepted premises from Scripture and premises from Aristotle, you could deduce conclusions neither source had stated explicitly. Anselm used it to construct his ontological argument for God's existence. Abelard used it to expose contradictions in patristic texts in his *Sic et Non* ("Yes and No"). Both moves — the constructive argument and the exposé of contradiction — required the same logical training.
 

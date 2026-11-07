@@ -1,0 +1,35 @@
+domains/computer-science/computer-architecture/number-base-conversion-operations.md	how	4	0	ok	worked 0x2F -> 0010 1111 -> 47 -> 101111; all routes agree
+domains/computer-science/computer-architecture/number-base-conversion-operations.md	mis	8	0	ok
+domains/computer-science/computer-architecture/number-base-conversion-operations.md	old:questions	1	1	fixed	q2 stem garbled "you is expected to" -> "you must"
+domains/computer-science/computer-architecture/ones-complement-representation.md	how	4	0	ok	worked 0010+1010=1100 (-3) and 0101+1100=10001 -> 0010; both right
+domains/computer-science/computer-architecture/ones-complement-representation.md	mis	8	0	ok
+domains/computer-science/computer-architecture/ones-complement-representation.md	old:questions	1	1	fixed	q2 stem "mainly needed" made the false key arguable (two negatives always carry out); restored "only needed" to match explanation
+domains/computer-science/computer-architecture/out-of-order-execution-design.md	how	3	0	ok	traced rename P10-P13; I3/I4 independent of load after renaming; retire in order
+domains/computer-science/computer-architecture/out-of-order-execution-design.md	mis	8	1	fixed	bullet 1 belief "writes results to the registers out of order" is literally true for the physical register file; narrowed to programmer-visible registers
+domains/computer-science/computer-architecture/out-of-order-execution-design.md	old:questions	1	1	fixed	q2 stem "eliminates most data dependencies" made the false key arguable; restored "all" to match explanation
+domains/computer-science/computer-architecture/overflow-underflow-arithmetic.md	how	4	0	ok	worked 100+50 (carry in 1, out 0, 10010110) and 5+(-3) (both carries 1); right
+domains/computer-science/computer-architecture/overflow-underflow-arithmetic.md	mis	8	1	fixed	bullet 3 absolute "a trap happens only with instructions that request one" (some machines trap by mode, e.g. VAX enable bit) and "a flag is set" (MIPS/RISC-V set none); softened
+domains/computer-science/computer-architecture/processor-control-unit-design.md	how	3	0	ok
+domains/computer-science/computer-architecture/processor-control-unit-design.md	mis	8	0	ok
+domains/computer-science/computer-architecture/processor-status-flags-and-conditions.md	how	3	0	ok	worked 0x7F+1, 0xFF+1, CMP -128,1 (0x7F, N=0 V=1); all flags right
+domains/computer-science/computer-architecture/processor-status-flags-and-conditions.md	mis	8	1	fixed	bullet 3 "ARM updates them only for instructions with the S suffix" is false: CMP/CMN/TST/TEQ set flags with no S; added the exception
+domains/computer-science/computer-architecture/processor-status-flags-and-conditions.md	old:questions	1	1	fixed	q3 stem garbled "updates most four status flags" -> "all four"
+domains/computer-science/computer-architecture/ripple-carry-adder-design.md	how	3	1	fixed	exercise failed when worked: for 0111+0001 bit 3 has A=B=0, so c4=0 does not wait for the ripple ("c4 at 4d" wrong); changed operands to 1111+0001 where c1..c4 settle at 1d..4d
+domains/computer-science/computer-architecture/ripple-carry-adder-design.md	mis	8	0	ok
+domains/computer-science/computer-architecture/ripple-carry-adder-design.md	old:questions	1	1	fixed	q3 stem garbled "most full adders ... to most stages" -> "all ... all"; note (not fixed): q0 calls 0111+0001 the 4-bit worst case and says delay = 4d, but c4 does not ripple there
+domains/computer-science/computer-architecture/shift-register-design.md	how	2	0	ok	clocked 1,0,1,1 into Q0: Q0..Q3 = 1101; right
+domains/computer-science/computer-architecture/shift-register-design.md	mis	8	0	ok
+domains/computer-science/computer-architecture/sign-magnitude-encoding.md	how	3	0	ok	0011+1010=1101 (-5); rule gives 0001; -3+-2 = 1101; right
+domains/computer-science/computer-architecture/sign-magnitude-encoding.md	mis	8	0	ok
+domains/computer-science/computer-architecture/single-cycle-processor-design.md	how	3	0	ok	sums 600/500/700/800 ps check out
+domains/computer-science/computer-architecture/single-cycle-processor-design.md	mis	6	0	ok
+domains/computer-science/computer-architecture/static-ram-sram-design.md	how	3	0	ok
+domains/computer-science/computer-architecture/static-ram-sram-design.md	mis	6	0	ok
+domains/computer-science/computer-architecture/static-ram-sram-design.md	old:core	1	1	fixed	Core Idea called the cell "a cross-coupled NOR or NAND latch"; the 6T cell (per Explainer and new How) is two cross-coupled inverters
+domains/computer-science/computer-architecture/synchronous-logic-and-clocks.md	how	3	0	ok	0.3+3+0.2=3.5 ns, 285.7 MHz; skew/hold reasoning right
+domains/computer-science/computer-architecture/synchronous-logic-and-clocks.md	mis	6	0	ok	note (not fixed): old q2 explanation says skew "is a problem, not a feature", which the new How (skew helps the slow path) partly contradicts; deliberate useful skew exists
+domains/computer-science/computer-architecture/translation-lookaside-buffer-tlb.md	how	3	0	ok	0x00403A7C -> VPN 0x00403, offset 0xA7C, PA 0x1F2A7C; right
+domains/computer-science/computer-architecture/translation-lookaside-buffer-tlb.md	mis	8	0	ok
+domains/computer-science/computer-architecture/xor-equivalence-gates.md	how	3	0	ok	1011 0010 xor 0110 1100 = 1101 1110; xor again recovers original
+domains/computer-science/computer-architecture/xor-equivalence-gates.md	mis	8	0	ok
+domains/computer-science/computer-architecture/xor-equivalence-gates.md	old:questions	1	1	fixed	q2 stem "nearly every combination" made the statement true (they agree on 3 of 4) while key says false; restored "every"

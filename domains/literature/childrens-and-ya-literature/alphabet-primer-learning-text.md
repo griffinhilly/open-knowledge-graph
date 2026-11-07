@@ -22,6 +22,15 @@ status: draft
 ## Core Idea
 Alphabet books and primers teach letters, sounds, and foundational literacy concepts through illustrated alphabetic sequences and rhyming or rhythmic text. These instructional texts have a long history and vary from purely pedagogical letter recognition to narratively sophisticated picture books organized alphabetically, demonstrating that instruction and artistry can coexist.
 
+## How It's Best Learned
+Lay three alphabet books side by side: a plain letter-and-object book, a rhyming one, and one that follows a character or theme from A to Z. For each, note what the page asks a child to do: name a letter, hear its sound, or follow a story. Then scan the pairings for words that start with the letter but not its usual sound, such as "K is for knight."
+
+## Common Misconceptions
+- Any word that starts with the right letter makes a good example. (Words like "knight" or "phone" begin with the letter but not its common sound, which can confuse a child who is matching letters to sounds.)
+- A child who can sing the alphabet knows the letters. (Reciting the sequence is a separate skill from recognizing letters out of order or knowing the sounds they stand for.)
+- Alphabet books are only for the youngest readers. (Some use the A-to-Z frame for wordplay, art, or dark humor aimed at older children and adults, such as Edward Gorey's *The Gashlycrumb Tinies*.)
+- A primer and an alphabet book are the same thing. (A primer is a first reading book that may include syllables, words, short texts, and moral or religious lessons; an alphabet book is organized around the letter sequence.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +66,7 @@ Alphabet books and primers teach letters, sounds, and foundational literacy conc
 
 - question: Why might an alphabet book that tells a coherent story about a character from A to Z be more effective at teaching young readers than one that simply lists words for each letter?
   type: short-answer
+  answer: A story gives each letter a place in a meaningful sequence and a reason to keep reading, so children meet letters in context and can recall them through the narrative instead of as isolated items.
   explanation: Story-driven alphabet books engage children emotionally and create memorable connections between letters and meanings, improving retention. The narrative arc gives children reasons to continue through the sequence and provides context for understanding how letters function in language, whereas isolated word lists may not create lasting connections or demonstrate letter use in meaningful communication.
 ```
 

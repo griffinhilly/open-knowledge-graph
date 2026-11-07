@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 The Albigensian (Cathar) heresy and Waldensian movements challenged Church authority and Catholic orthodoxy in the 12th–13th centuries. The Cathars' dualism and rejection of Church hierarchy, and the Waldensians' insistence on apostolic poverty, represented significant challenges to ecclesiastical authority. The Church's violent response, including crusade and inquisition, revealed both the threat these movements posed and the Church's enforcement methods.
 
+## How It's Best Learned
+Make a two-column table, Cathars against Waldensians. Use rows for the material world, the sacraments, the clergy, scripture, and what the Church objected to. The table shows that one movement differed on doctrine and the other mostly on authority. Then trace the Church's response in order: condemnation, preaching campaigns, the Albigensian Crusade, and inquisitorial courts.
+
+## Common Misconceptions
+- Cathars and Waldensians were two names for the same movement. (They differed sharply. Cathars were dualists who rejected the sacraments, while the early Waldensians mostly kept Catholic doctrine and clashed with the Church over who could preach.)
+- A heretic was anyone who held a wrong belief. (In Church law, heresy meant holding an error obstinately after correction. A person who submitted could be reconciled.)
+- The Albigensian Crusade was a purely religious war. (Northern French lords won lands from southern nobles such as the counts of Toulouse, and the war helped extend French royal power into Languedoc.)
+- The Cathars called themselves Cathars. (The name came mostly from their opponents. Believers called their leaders "good men" or "good Christians.")
+
 ## Questions
 
 ```yaml

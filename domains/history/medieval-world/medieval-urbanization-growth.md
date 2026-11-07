@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 After the fall of Rome, cities contracted dramatically; medieval urbanization began around the 10th century as trade revived and population grew. New towns emerged at crossroads, river fords, and around monasteries; older Roman cities were rebuilt. Towns attracted merchants, craftsmen, and refugees from manorial labor; many gained charters granting self-governance. Urbanization accelerated social change, class formation, and intellectual activity, eventually challenging feudal structures.
 
+## How It's Best Learned
+Take three site descriptions: a harbor where cargo moves from ships to river boats, a settlement under a castle wall, and a cathedral city. Classify each as a portus, burg or episcopal town, and say what traffic kept it alive. Then list the clauses of a typical charter, such as a weekly market, tolls, elected officers and a town court. For each clause, ask who gained and what the lord got back.
+
+## Common Misconceptions
+- Medieval towns were large cities in the modern sense. (Most towns held a few thousand people or fewer. Only a handful, such as Paris, Venice and Florence, reached 100,000 or more by around 1300.)
+- Towns stood entirely outside feudal society. (Towns sat within lordships and paid dues to lords, and many townspeople held land in the countryside.)
+- Everyone in a chartered town was free and equal. (Merchant elites often dominated town councils, and many servants and laborers had little or no political voice.)
+
 ## Questions
 
 ```yaml

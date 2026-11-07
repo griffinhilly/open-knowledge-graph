@@ -65,6 +65,7 @@ Compare middle-grade school stories across decades, analyzing how social dynamic
 
 - question: Explain why a seemingly 'trivial' social conflict in a middle-grade school setting (like being excluded from a friend group) can be narratively and emotionally significant for young readers.
   type: short-answer
+  answer: For readers this age, peer acceptance is central to identity and belonging, so exclusion from a friend group carries real emotional stakes. A story that treats this conflict seriously matches the reader's experience and signals that their social struggles matter.
   explanation: 'While adult readers might perceive friendship dynamics as less important than larger adventures, middle-grade readers experience peer relationships as fundamental to identity and belonging. Being excluded from a friend group threatens fundamental psychological needs: belonging, acceptance, social identity. A school narrative exploring this conflict addresses core developmental concerns and feels emotionally true to the reader''s experience. The conflict isn''t trivial but central to how the reader is learning to navigate the social world. Additionally, narratives about social concerns validate reader experience—they signal that these concerns matter, that navigating friendship and belonging is serious business, and that the character''s (and reader''s) social struggles are worth exploring. A well-written school narrative about friendship or belonging doesn''t require external adventure; the social-emotional stakes feel sufficiently high.'
 ```
 

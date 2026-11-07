@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Medieval devotion centered on saints' relics—bones, clothing, and objects associated with saints—housed in elaborate reliquaries and displayed in churches and shrines. Relics were believed to possess healing and protective powers and to provide access to saintly intercession. The relic trade created economic incentives for monasteries and churches, sometimes leading to fraudulent relics, yet relic devotion remained central to medieval piety.
 
+## How It's Best Learned
+Sort a list of objects into bodily relics and contact relics: a finger bone, a strip of a saint's tunic, oil from a lamp at a tomb, a lock of hair. Then follow one relic's life in order: its translation to a church, its enshrinement in a reliquary, its placement under an altar or on display, and pilgrims' visits and gifts. Compare an arm-shaped reliquary with a church-shaped shrine, and ask what each let a viewer see or do.
+
+## Common Misconceptions
+- Only bones counted as relics. (Contact relics, such as cloth, dust or oil that had touched a saint's body or tomb, were also venerated.)
+- The Church approved of buying and selling relics. (Church law forbade selling relics. The Fourth Lateran Council of 1215 also barred the veneration of newly found relics without papal approval.)
+- A body-part reliquary held only that body part. (Some arm and head reliquaries held other relics or several relics, so the shape did not always match the contents.)
+
 ## Questions
 
 ```yaml

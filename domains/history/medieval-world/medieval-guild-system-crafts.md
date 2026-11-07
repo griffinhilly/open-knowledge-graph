@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Guilds were associations of craftsmen (masons, weavers, metalworkers) that controlled production, training, quality, and prices for specific trades in medieval towns. Masters, journeymen, and apprentices formed a hierarchy within each guild; membership was restricted and hereditary, creating monopolies that protected established craftsmen. Guilds regulated not just work but also behavior and social standing, making them powerful political and economic institutions in urban medieval society.
 
+## How It's Best Learned
+Follow one imagined weaver from apprentice to journeyman to masterwork to master. At each stage, note what the guild controlled: entry, training, wages, inspection or prices. Then take a single guild rule, such as a cap on how many apprentices a master may keep, and ask two questions about it. Does it protect quality, protect incumbent masters, or both?
+
+## Common Misconceptions
+- Craft guilds were early trade unions for workers. (Craft guilds were run by masters who owned workshops and employed journeymen. Journeymen in some towns formed their own associations, at times in conflict with the masters.)
+- Every medieval town worker belonged to a guild. (Many day laborers, servants and rural producers worked outside the guilds, and guild strength varied a great deal from town to town.)
+- All guilds were craft guilds. (Merchant guilds organized traders and in many towns controlled local commerce. Craft guilds for a single trade were a separate type.)
+- Historians agree that guilds existed mainly to guarantee quality. (Scholars disagree. Some stress quality control and training, while others stress monopoly rents and the exclusion of outsiders, and the balance likely varied by trade and town.)
+
 ## Questions
 
 ```yaml

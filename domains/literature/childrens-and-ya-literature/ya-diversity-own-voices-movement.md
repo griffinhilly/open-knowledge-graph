@@ -26,6 +26,11 @@ The #OwnVoices movement and increased attention to diversity in YA publishing re
 ## How It's Best Learned
 Research the #OwnVoices movement and debates around authenticity in representation. Compare how marginalized identities are portrayed in YA by authors from and outside those communities.
 
+## Common Misconceptions
+- #OwnVoices is another name for any diverse book. (A book can center a marginalized protagonist without the author sharing that identity; #OwnVoices marks only books where the author does.)
+- An #OwnVoices book speaks for its whole community. (Each author brings one perspective, and people within a community differ widely in experience.)
+- Using the label carries no downside for authors. (Critics noted that tying a book's marketing to the author's identity can pressure writers to disclose private facts, such as their sexuality or a disability.)
+
 ## Questions
 
 ```yaml
@@ -61,6 +66,7 @@ Research the #OwnVoices movement and debates around authenticity in representati
 
 - question: Consider the concept of 'authenticity' in representing a marginalized identity in YA literature. What might authentic representation require? What are complications or limitations of using 'authenticity' as an evaluation standard?
   type: short-answer
+  answer: Authentic representation might require specific, non-stereotyped detail grounded in lived experience or deep research, ideally checked by members of the community. As a standard it has limits, because experiences within a community differ, identity can be private or contested, and someone must decide whose claim counts.
   explanation: 'Your answer should grapple with the complexity of authenticity claims. Authentic representation might seem to require lived experience—a queer author writing about queer experience, a Black author writing about racism. Yet complications arise: identities are complex and intersecting; not all members of a community have identical experience; authors have artistic freedom to imagine beyond their experience; some people have multiple or contested identities. Additionally, evaluating ''authenticity'' requires trust in claims of identity, can become gatekeeping, and raises questions about who gets to judge. Rather than authenticity as a simple requirement, a more useful framework might emphasize: diverse authors getting published and celebrated; sensitivity readers from communities represented; acknowledgment that no single work represents an entire community; recognition that different authors bring different perspectives. The point is understanding that #OwnVoices serves important advocacy functions while grappling with complexities in how we evaluate representation.'
 ```
 

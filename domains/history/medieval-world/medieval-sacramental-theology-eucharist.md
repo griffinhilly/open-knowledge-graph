@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Medieval theologians developed sophisticated doctrines about the sacraments, especially the Eucharist, as channels of divine grace. The doctrine of transubstantiation—that bread and wine literally become the body and blood of Christ—became central to Catholic theology. These theological debates reflected broader questions about divine presence, priestly authority, and material objects' role in spirituality, ultimately becoming flashpoints for reformation disputes.
 
+## How It's Best Learned
+Make a two-column table for a host before and after consecration. In one column list the accidents (color, taste, shape, weight) and in the other the substance. Only the substance entry changes, which is the whole doctrine in one picture. Then trace doctrine into practice: the priest raising the host at Mass, the yearly communion rule of 1215, and the feast of Corpus Christi.
+
+## Common Misconceptions
+- Transubstantiation means the bread turns into flesh you could see or taste. (The doctrine held that the sensory properties stay the same and only the substance changes. Stories of bleeding hosts were treated as special miracles, not as the normal working of the sacrament.)
+- The term "transubstantiation" goes back to the early Church. (Belief in Christ's real presence is old, but the term arose in the 12th century, after 11th-century disputes such as the one over Berengar of Tours.)
+- There were always seven sacraments. (Earlier writers counted the sacraments in different ways. The list of seven became standard in the 12th century, notably through Peter Lombard's Sentences.)
+- Medieval lay people took communion at every Mass. (Most received it rarely. The Fourth Lateran Council required communion at least once a year, and seeing the raised host became the main act of lay devotion.)
+
 ## Questions
 
 ```yaml

@@ -22,6 +22,13 @@ status: draft
 ## Core Idea
 Picture books function as a synergistic blend of visual art and text, where meaning emerges from the relationship between image and word rather than from either alone. Illustrations may expand the text, complicate it, contradict it, or provide essential information the text omits. This integration is a primary meaning-making strategy fundamental to the form.
 
+## How It's Best Learned
+Read the words of Pat Hutchins's *Rosie's Walk* aloud with the pictures covered, then read it again with them showing. The text only follows a hen on her walk around the farmyard; the fox stalking her appears only in the pictures, so the suspense and the jokes live in the gap. Then label each spread of another picture book as repeating, expanding, complicating or contradicting its text.
+
+## Common Misconceptions
+- Illustrations are decorative additions to the text. (They carry part of the narrative itself, so removing either text or images changes the work.)
+- Text and image in a picture book always say the same thing. (Their relationship can be complex and subtle, not merely literal or complementary.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +64,7 @@ Picture books function as a synergistic blend of visual art and text, where mean
 
 - question: Why is understanding picture books as synergistic visual-textual works rather than 'text with illustrations' important for comprehending how they create meaning?
   type: short-answer
+  answer: If illustrations are treated as decoration, readers miss the part of the narrative that images carry, such as emotion, irony and details the words leave out. Seeing picture books as integrated works makes the relationship between text and image the thing to analyze.
   explanation: 'Calling illustrations merely decorative or secondary fundamentally misunderstands picture books'' form. Picture books are neither novels illustrated nor illustrated text—they are hybrid works where narrative emerges from visual and textual integration. The distinction matters because it changes how we read and analyze picture books. If we treat images as secondary decoration, we miss half the narrative. A skilled illustrator can convey emotion, time passage, spatial relationships, character development—all without written explanation. Conversely, text does narrative work images cannot: internal monologue, dialogue, information not visually apparent. Effective picture books exploit both channels'' distinctive powers. Furthermore, treating picture books as synergistic forms respects their sophistication and artistry. Visual-text integration isn''t decorative but central meaning-making strategy. An illustration that contradicts text, creating irony, or that expands text with information the words omit, represents sophisticated authorial choice meriting literary analysis. This recognition helps us appreciate picture books as serious artistic works rather than simple entertainment for young children.'
 ```
 
@@ -69,7 +77,3 @@ This synergistic relationship requires sophisticated visual literacy alongside t
 The phenomenon of visual-text irony in picture books demonstrates sophisticated meaning-making possibilities. A text might describe one scenario while images show something different or contradictory, creating humor or emotional complexity. Jon Scieszka and Lane Smith's *The Stinky Cheese Man* exemplifies this: text and images frequently contradict each other, create visual jokes, and break picture book conventions. The ironic relationship between what's written and what's visually portrayed creates sophisticated humor inaccessible without both channels—children and adults find different meaning at different levels of engagement.
 
 Understanding picture books as synergistic visual-textual works rather than novels with illustrations changes how we read, analyze, and value them. It respects picture books' artistic sophistication and recognizes that creating effective visual-text integration requires as much skill as writing or visual art separately. It acknowledges that picture books are not simplified stories for developing readers but narratively and artistically complex works that might reward audiences of any age. Furthermore, it recognizes that picture books teach visual literacy alongside traditional literacy—essential skill in an increasingly multimodal communication landscape. Children who learn to interpret meaning from integrated text and image develop sophisticated comprehension strategies applicable to contemporary media where visual and textual elements constantly interact.
-Compare picture books where illustration and text reinforce each other versus those creating irony or tension, such as Jon Scieszka and Lane Smith's *The Stinky Cheese Man*. Analyze how color, composition, and visual metaphor add narrative layers absent from text alone.
-
-## Common Misconceptions
-Illustrations are not decorative additions; they constitute the narrative itself. Removing either text or images fundamentally changes the work. Visual-text relationships can be complex and subtle, not merely literal or complementary.

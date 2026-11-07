@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 The Medieval Inquisition, established in the 12th century to combat heresy, represented an institutional mechanism for investigating, trying, and punishing those deemed heretical. Operating through courts, confession, and sometimes torture, the Inquisition enforced theological and moral orthodoxy. The Inquisition revealed medieval concerns about religious unity and the coercive means deployed to maintain order.
 
+## How It's Best Learned
+Walk one imagined suspect through the procedure in the Explainer: the inquisitor's arrival, the period of grace, the summons, interrogation, and sentence. At each step, write what choice the suspect had and what outcome followed from it. Then build a short comparison with the later Spanish Inquisition: who controlled each, whom each targeted, and when each operated.
+
+## Common Misconceptions
+- The medieval Inquisition was one central organization with a headquarters. (Medieval inquisitors were individual judges commissioned by popes or bishops for particular regions. A central papal body came later, with the Roman Inquisition of 1542.)
+- The medieval Inquisition and the Spanish Inquisition were the same thing. (The Spanish Inquisition was founded in 1478 under the Spanish crown and focused heavily on converts from Judaism and Islam.)
+- Most people brought before inquisitors were burned. (Surviving records show that most received penances such as pilgrimages, fasting, wearing crosses or imprisonment. Execution was a small share of outcomes.)
+
 ## Questions
 
 ```yaml
@@ -32,11 +40,11 @@ The Medieval Inquisition, established in the 12th century to combat heresy, repr
   type: multiple-choice
   options:
     - "It is accurate — inquisitors were trained to maximize executions as a deterrent to potential heretics"
-    - "It is inaccurate — the Inquisition's primary procedural goal was to obtain confession and recantation, thereby saving the heretic's soul; execution was reserved for the relapsed who returned to heresy after absolution"
+    - "It is inaccurate — the Inquisition's primary procedural goal was to obtain confession and recantation, thereby saving the heretic's soul; execution was reserved for the relapsed and for those who refused to recant"
     - "It is partially accurate — execution was the goal, but only for those who refused to confess under torture"
     - "It is inaccurate — the Inquisition was purely an academic institution and made no use of physical coercion of any kind"
   answer: 1
-  explanation: "The Inquisition's stated goal was soteriological — saving souls — not punitive. The period of grace at the beginning of proceedings, the preference for voluntary confession, the graduated penance system, and the theoretical distinction between those who confessed (reconciled) and those who were relapsed all reflect an institutional logic focused on recantation. Execution required being 'relaxed to the secular arm,' which only happened to those who had already been absolved and then returned to heresy. Medieval execution figures, while significant, were far lower than popular imagination suggests, and the documentary record shows extensive effort invested in obtaining confessions rather than securing death sentences."
+  explanation: "The Inquisition's stated goal was soteriological — saving souls — not punitive. The period of grace at the beginning of proceedings, the preference for voluntary confession, the graduated penance system, and the theoretical distinction between those who confessed (reconciled) and those who were relapsed all reflect an institutional logic focused on recantation. Execution required being 'relaxed to the secular arm,' which happened to those who refused to recant or who had been absolved and then returned to heresy. Medieval execution figures, while significant, were far lower than popular imagination suggests, and the documentary record shows extensive effort invested in obtaining confessions rather than securing death sentences."
 
 - question: "The medieval Church formally declared it could not shed blood, yet heretics were burned. How was this reconciled institutionally?"
   type: multiple-choice
@@ -70,6 +78,6 @@ From your study of medieval heresy, you know that movements like the Cathars and
 
 The Inquisition operated through procedure. An **inquisitor** — typically a trained Dominican or Franciscan friar — would arrive in a region, announce a "period of grace" during which voluntary confessors received mild penances, and then open formal proceedings against those who did not come forward. Witnesses were summoned, testimony taken in secret, and the accused confronted with charges. **Confession** was the evidentiary gold standard: a voluntary admission of heresy, followed by recantation, produced the desired outcome (saving a soul) without requiring execution. The problem was extracting confession from the unwilling. By the 13th century, papal authorization allowed the use of **torture** — framed not as punishment but as a tool for eliciting truth from obstinate suspects, a disturbing logic rooted in medieval juridical theory about the body as a site of evidence.
 
-Penalties followed a graduated logic of mercy, in theory. Those who confessed and recanted received penances: pilgrimages, fasting, the wearing of distinctive crosses. Repeat offenders or the obstinate faced imprisonment. Only the **relapsed** — those who confessed, were absolved, then returned to heresy — were "relaxed to the secular arm," the euphemism for being handed to civil authorities for execution by burning. The Church formally could not shed blood; civil governments did the killing. This formal separation obscured but did not eliminate ecclesiastical responsibility for the deaths.
+Penalties followed a graduated logic of mercy, in theory. Those who confessed and recanted received penances: pilgrimages, fasting, the wearing of distinctive crosses. Many who confessed only after arrest faced imprisonment. Only the **relapsed** — those who confessed, were absolved, then returned to heresy — and those who refused to recant were "relaxed to the secular arm," the euphemism for being handed to civil authorities for execution by burning. The Church formally could not shed blood; civil governments did the killing. This formal separation obscured but did not eliminate ecclesiastical responsibility for the deaths.
 
 The Inquisition's lasting significance lies less in its scale (medieval executions numbered in the thousands, not millions) than in what it reveals about how institutions manage ideological dissent. It created records, procedures, and precedents. It reflected a medieval conviction that religious error was not a private matter but a public infection — that a heretic endangered not just their own soul but the community's. This logic — that coercive conformity protects social order — reappears in very different historical contexts, making the Inquisition a foundational case study in the institutional mechanisms of religious and ideological control.

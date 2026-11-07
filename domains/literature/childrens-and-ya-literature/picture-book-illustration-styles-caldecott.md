@@ -23,6 +23,11 @@ The Caldecott Medal, awarded annually for excellence in illustration of children
 ## How It's Best Learned
 Survey Caldecott-winning books across decades, noting changes in preferred illustration styles and media. Compare award-winners with honorees and non-winners to identify what distinguishes celebrated visual narratives.
 
+## Common Misconceptions
+- The Caldecott goes to the most realistic or detailed art. (The committee weighs how well the art suits and carries the story, and winners range from detailed realism to simple cut-paper shapes, as in Ezra Jack Keats's *The Snowy Day*.)
+- The Caldecott honors the whole book, writing included. (It goes to the illustrator; the text counts only as part of how the book works as a whole.)
+- The medium decides the effect, so watercolor is always soft and digital art is always cold. (A medium has tendencies, but the illustrator's handling shapes the result, so watercolor can be stark and digital work can look hand-made.)
+
 ## Questions
 
 ```yaml
@@ -58,6 +63,7 @@ Survey Caldecott-winning books across decades, noting changes in preferred illus
 
 - question: Compare two Caldecott-winning books from different decades with different illustration styles. How does each style create particular meanings and effects? What does the preference for these different styles over time suggest about cultural values?
   type: short-answer
+  answer: A strong answer pairs two winners from different decades, such as "The Snowy Day" (1963 Medal) with its cut-paper collage and a recent winner in another medium, and explains the effect each style creates. It then links the change to shifts in what the field values, such as wider recognition of varied artistic traditions.
   explanation: 'Your answer should demonstrate understanding that illustration styles are not neutral but carry different meanings and affordances. For example, compare a representational realistic watercolor style (common in earlier Caldecott winners) to abstract or experimental styles (more common in recent winners). Realistic illustration creates clarity and familiarity; abstract or experimental illustration might create emotional resonance or express contemporary aesthetics. Changes in award preferences suggest shifts in what the field values: perhaps earlier preferences for realistic clarity have given way to appreciation for emotional expressiveness, cultural diversity in artistic traditions, or innovative technical approaches. The point is recognizing that illustration style is a meaningful choice with consequences for how stories are experienced, and that changes in Caldecott preferences reflect broader cultural and artistic evolution.'
 ```
 

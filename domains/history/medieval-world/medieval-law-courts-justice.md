@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Medieval justice systems combined personal law (based on ethnic/religious identity), feudal law (based on land tenure and vassal relations), and emerging royal law. Courts operated at multiple levels—manorial, baronial, royal—with overlapping jurisdictions. Justice emphasized restitution and honor more than modern crime punishment.
 
+## How It's Best Learned
+Work through a set of short cases and assign each to a court: an unpaid rent, a disputed will, a homicide, a quarrel between two vassals over land, and an assault by a priest. For each, say why that court had a claim and where another court could also claim it. Then follow one homicide from a compensation settlement in the early Middle Ages to a royal jury trial in the 13th century.
+
+## Common Misconceptions
+- Medieval courts only imposed fines and compensation. (Restitution was central, especially early on, but later medieval courts also hanged and mutilated people convicted of serious crimes.)
+- Trial by ordeal was the normal way to decide a case. (Ordeals were used mainly when other proof such as witnesses, oaths or documents was lacking.)
+- Justice in a lord's court was whatever the lord wanted. (Courts applied custom, and in many manorial courts the tenants themselves declared the custom and found the facts. Lords had great power, but custom limited it.)
+
 ## Questions
 
 ```yaml

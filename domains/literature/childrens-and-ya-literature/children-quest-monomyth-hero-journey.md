@@ -24,6 +24,14 @@ status: draft
 ## Core Idea
 The quest narrative and Campbell's monomyth structure numerous children's and YA narratives: a protagonist receives a call to adventure, departs the ordinary world, encounters trials and allies, confronts a central challenge, and returns transformed. This archetypal pattern resonates across cultures and genres because it maps onto psychological and social transformation.
 
+## How It's Best Learned
+Map *The Hobbit* onto Campbell's stages: the call when Gandalf and the dwarves arrive, Bilbo's reluctance, the crossing into the Wild, trials and allies, the ordeal at the Lonely Mountain, and the return to Bag End. Then map a children's book that fits the pattern poorly. Note what the stages explain in each book and what they leave out.
+
+## Common Misconceptions
+- The hero's journey is a recipe every good story follows. (Campbell described a pattern he found across myths; many strong stories depart from it, and scholars dispute how universal it is.)
+- The return is the part after the story ends. (Coming home with what was gained, and finding home changed, carries much of the meaning; Bilbo returns to find his belongings being auctioned off.)
+- A quest hero has to be a chosen one. (Many quest heroes are ordinary and reluctant; Bilbo is a comfortable hobbit hired as a burglar.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +67,7 @@ The quest narrative and Campbell's monomyth structure numerous children's and YA
 
 - question: How does the monomyth structure specifically serve the coming-of-age purposes central to children's and YA literature?
   type: short-answer
+  answer: Leaving the ordinary world parallels leaving childhood, the trials parallel dealing with new relationships and authority, and the return shows the young person coming back changed. The structure gives narrative shape to growing up and treats that change as significant.
   explanation: 'The monomyth maps perfectly onto adolescent development: departure from childhood (the call to adventure, leaving the ordinary world) mirrors leaving home; trials and encounters with powerful figures (mentors and obstacles) mirror navigating social relationships and authority; the central challenge represents confronting one''s limitations and discovering capability; return and integration represent coming back to ordinary life transformed and capable. The pattern is psychologically powerful because it legitimizes and gives narrative form to the actual experiences adolescents undergo. By structuring YA narratives according to the monomyth, authors acknowledge that adolescence involves genuine transformation—not minor changes but fundamental reorganization of self. This validation helps young readers understand their own transitions as significant and meaningful. Additionally, the monomyth''s emphasis on transformation—that facing challenges changes you fundamentally—teaches adolescents that their development isn''t passive receiving of experience but active engagement that shapes who they become.'
 ```
 

@@ -26,6 +26,15 @@ status: draft
 ## Core Idea
 Boarding school narratives place protagonists in closed communities away from family, creating intensive coming-of-age narratives where the school functions as microcosm and crucible. Protagonists form intimate friendships, navigate hierarchies, confront authority, and develop identity through social immersion. *Harry Potter* revitalized this tradition for contemporary readers.
 
+## How It's Best Learned
+Chart the first school year in two books from different eras, such as *Tom Brown's School Days* and the first *Harry Potter* novel. Mark the shared beats: arrival as an outsider, placement in a house or form, a rival, a broken rule, and an end-of-year reckoning. Then note what each school rewards, since that shows what each era thought growing up should mean.
+
+## Common Misconceptions
+- Boarding school stories started with *Harry Potter*. (The form goes back at least to Victorian school stories such as Thomas Hughes's *Tom Brown's School Days*, and *Harry Potter* draws on that tradition.)
+- Boarding school fiction is a boys' genre. (Girls' school stories form a large branch of the tradition, including Enid Blyton's *Malory Towers* and *St Clare's* series.)
+- With parents gone, the characters are free of adult authority. (Authority shifts to teachers, houses, prefects, and older students, and much of the drama comes from testing those rules.)
+- The school is presented as a safe, happy place. (Many school stories show bullying and cruelty as part of the world the hero must survive, as with the bully Flashman in *Tom Brown's School Days*.)
+
 ## Questions
 
 ```yaml
@@ -61,6 +70,7 @@ Boarding school narratives place protagonists in closed communities away from fa
 
 - question: Why might an author choose a boarding school setting rather than a day school to tell a story about an adolescent character's journey toward self-discovery and belonging?
   type: short-answer
+  answer: A boarding school places the protagonist's whole life inside one community, away from parents. That intensifies peer relationships and hierarchies, and the separation from home stands for the move toward independence.
   explanation: The boarding school creates a complete, enclosed social world where the protagonist's entire life occurs within the school community, intensifying peer relationships and social hierarchies while removing the parental buffer that would exist in a day school or home setting. This allows the narrative to focus entirely on the adolescent's peer relationships, social positioning, and internal development without interruption from family dynamics. The separation from home also symbolically represents the adolescent's move toward independence, making the boarding school not just a setting but a physical manifestation of the coming-of-age process itself.
 ```
 

@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Medieval kingship derived legitimacy from divine sanction, Church approval, hereditary right, and noble consent. Kings claimed to rule by God's will but were bound by feudal contracts and customary law. This created tension between absolute authority claims and practical limits on royal power enforced by feudal relationships.
 
+## How It's Best Learned
+Take a coronation rite apart step by step and label each part by its source of legitimacy. Anointing draws on divine sanction, the coronation oath on custom and obligation, and the acclamation on consent. Then compare two crises, Henry IV in 1076 and John in 1215. For each, ask which source was turned against the king, and by whom.
+
+## Common Misconceptions
+- Medieval kings ruled by the "divine right of kings" as absolute monarchs. (The theory of divine right as absolute rule was worked out mainly in the 16th and 17th centuries. Medieval kings claimed God's favor but were also bound by oaths, custom and the expectation of counsel.)
+- Royal succession was strictly father to eldest son. (Hereditary right mattered, but so did election, designation and noble acceptance. German kings were elected, and early Capetian kings had their sons crowned during their own lifetimes to secure succession.)
+- Magna Carta gave rights to all English people. (Most clauses dealt with baronial grievances and feudal dues, and the pope annulled it within months. Its later reissues gave it lasting weight.)
+- Because the Church crowned kings, the pope could make or unmake any king. (Popes claimed such powers and kings disputed them. Most kings were crowned by their own bishops, and papal influence varied with circumstances.)
+
 ## Questions
 
 ```yaml

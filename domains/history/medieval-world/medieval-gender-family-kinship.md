@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Medieval gender roles were defined by estates: noble women managed households and lands, peasant women performed field labor, and religious women pursued spiritual authority. Family structures centered on inheritance and alliances; kinship networks distributed power and obligation. Gender shaped legal status, economic opportunity, and social mobility.
 
+## How It's Best Learned
+Build a grid with three columns: a noble wife or widow, a peasant wife, and an abbess. Use rows for legal status, daily work, control of property, and how marriage was arranged. Fill each cell from the Explainer and then compare down the rows. Then put a legal rule, such as coverture, beside an account of a noblewoman running an estate, and name the gap between them.
+
+## Common Misconceptions
+- Medieval women had no real power. (Noble widows and regents governed lands, abbesses ran large institutions, and peasant women's labor was central to the household economy.)
+- The law tells us how medieval women lived. (Legal doctrine set formal status, but practice often went beyond it, so historians read legal texts alongside estate records, letters and chronicles.)
+- Brides had no say at all in medieval marriage. (From the 12th century, Church law held that the consent of both parties made a marriage valid. Family and lordly pressure could still be heavy, especially among the nobility.)
+- A widow had the same legal position as a wife. (In many regions a widow could hold her dower lands and act in her own name, which is one reason her independence mattered to kin.)
+
 ## Questions
 
 ```yaml

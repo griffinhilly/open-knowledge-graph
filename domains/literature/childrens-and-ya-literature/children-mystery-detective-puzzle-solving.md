@@ -23,6 +23,15 @@ status: draft
 ## Core Idea
 Mystery narratives for children present puzzles (who committed a crime, what secret is hidden) that protagonists and readers solve through clues, deduction, and investigation. Children's mystery ranges from puzzle-focused (Encyclopedia Brown, Nancy Drew) to psychologically complex contemporary narratives. Successful mysteries plant clues fairly and allow readers to participate in solving.
 
+## How It's Best Learned
+Read one Encyclopedia Brown case and stop before turning to the solution at the back of the book. Write your answer and the clue that supports it, then check. Reread the case and mark where the deciding clue appeared and how it was disguised. Then try the same method across a longer mystery, such as Ellen Raskin's *The Westing Game*, keeping a running list of clues and suspects.
+
+## Common Misconceptions
+- A fair mystery is an easy mystery. (Fair play means the clues are on the page; good mysteries still hide them in plain sight among other details.)
+- Red herrings are unfair to the reader. (Misleading clues are part of fair play as long as the true clues are also given and the false leads have honest explanations.)
+- Solving a mystery means guessing who did it. (A solution has to account for all the clues; a lucky guess that cannot explain the evidence is not a deduction.)
+- A children's mystery has to involve a crime. (Many center on a lost object, a hidden secret, or an unexplained event.)
+
 ## Questions
 
 ```yaml
@@ -58,6 +67,7 @@ Mystery narratives for children present puzzles (who committed a crime, what sec
 
 - question: Why do mystery writers typically plant clues fairly rather than hiding information from readers, and what does this choice reveal about the purpose of the mystery genre?
   type: short-answer
+  answer: Fair clues let readers take part in solving instead of waiting for the reveal, and readers who solve it feel rewarded. The choice shows that the genre aims to engage readers in noticing details and reasoning from evidence, not only to surprise them.
   explanation: Fair clue-planting invites readers to participate in solving rather than passively waiting for revelation, creating engagement and intellectual challenge. Mystery fiction's purpose is not merely to surprise readers with a revelation but to invite them to think logically, notice details, and test hypotheses—activities that develop analytical skills. Additionally, when readers have all information detectives have, readers feel validated if they solve the mystery, creating satisfaction and sense of achievement. Hiding information creates cheap surprise but denies readers the intellectual engagement that makes mystery fiction distinctive. From a developmental perspective, fair mysteries teach readers that careful attention and logical reasoning can lead to understanding—a valuable lesson about how thinking works.
 ```
 

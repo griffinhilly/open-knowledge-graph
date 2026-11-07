@@ -23,6 +23,11 @@ The implied reader in children's literature carries assumptions about developmen
 ## How It's Best Learned
 Analyze children's texts designed for different developmental stages, examining narrative complexity, vocabulary level, and emotional themes in relation to assumed reader capacity.
 
+## Common Misconceptions
+- The implied reader is the age range printed on the cover. (Age bands are marketing labels; the implied reader is inferred from the text's own choices, such as what it explains and what it leaves the reader to work out.)
+- A children's book addresses only a child. (Many children's books also speak to the adult reading aloud, through jokes or references aimed over the child's head; critics call this dual address.)
+- Lots of explanation means the book is for younger readers. (It can signal a younger implied reader, but it can also come from a teaching aim or from an author underestimating the audience.)
+
 ## Questions
 
 ```yaml
@@ -58,6 +63,7 @@ Analyze children's texts designed for different developmental stages, examining 
 
 - question: Choose a children's book you know well. Describe the implied reader the author seems to assume, citing specific textual evidence (vocabulary, explanations provided, emotional themes).
   type: short-answer
+  answer: In Where the Wild Things Are, the short text and the wordless spreads of the wild rumpus imply a young reader who can follow a story carried largely by pictures. The supper waiting for Max at the end, still hot, implies a reader who needs reassurance that home is still there after the adventure.
   explanation: Your answer should identify specific markers that reveal authorial assumptions. For example, if a picture book explains what 'divorce' means in simple terms, the author implies a reader who hasn't encountered the concept; if a YA novel references complex social media dynamics without explanation, it implies a digitally native reader. If a middle-grade book's protagonist solves problems primarily through friendship and kindness, it might imply an author who assumes readers are developing moral reasoning around prosocial behavior. The point is to recognize that authors encode assumptions about their readers' cognitive, emotional, and social development through their narrative choices—and these assumptions are visible through careful textual analysis.
 ```
 

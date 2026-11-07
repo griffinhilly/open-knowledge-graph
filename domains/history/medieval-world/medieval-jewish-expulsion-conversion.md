@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Medieval European Jews faced periodic persecution, mass violence, and expulsion driven by religious antagonism, economic competition, and scapegoating during crises like famines and plagues. Jewish communities were forced to wear distinctive badges, confined to segregated quarters (ghettos), and subjected to forced conversion campaigns. The pattern of persecution culminated in major expulsions from Spain (1492) and other territories, creating diaspora and suffering.
 
+## How It's Best Learned
+Build a timeline of events: the Rhineland massacres of 1096, the Fourth Lateran Council of 1215, England's expulsion in 1290, the Black Death pogroms of 1348–49, and Spain's expulsion in 1492. Tag each event with its religious, economic and political motives. Then trace the Spanish case in order: forced baptisms created conversos, the Inquisition policed them, and expulsion targeted those who stayed Jewish.
+
+## Common Misconceptions
+- Medieval Jews lived behind ghetto walls across Europe. (Many lived in Jewish streets or quarters, sometimes by custom and sometimes by law. The enclosed, compulsory ghetto spread mainly after Venice created one in 1516.)
+- The Church officially taught that Jews should be baptized by force. (Church teaching held that baptism must be voluntary, and popes condemned forced baptism. Even so, people baptized under pressure were treated as Christians bound to the faith.)
+- Persecution was constant and the same everywhere. (It came in waves and varied by region and ruler. Rulers who profited from Jewish communities sometimes protected them, and some lands, such as Poland, admitted refugees.)
+
 ## Questions
 
 ```yaml
@@ -71,5 +79,5 @@ The mechanisms of persecution were layered. **Legal disabilities** came first: t
 
 **Forced conversion** presented an additional dimension. Rulers and church authorities periodically ran campaigns offering Jews the choice between baptism and expulsion or death. Those who converted — called *conversos* in Spain — faced a new problem: the **Inquisition** scrutinized whether their conversion was genuine, and accusations of crypto-Judaism (secretly practicing Judaism while outwardly Christian) brought investigation, torture, and burning. This created an impossible trap: unconverted Jews were persecuted for rejecting Christianity; converted Jews were persecuted for suspicion of insincerity.
 
-The culminating event was the **Spanish Expulsion of 1492**, when Ferdinand and Isabella, having just completed the Reconquista by taking Granada, expelled all Jews who refused baptism from their territories. Approximately 100,000–200,000 people left, many settling in the Ottoman Empire (where Suleiman reportedly welcomed them, noting that Ferdinand had impoverished Spain to enrich him). The expulsion from Spain — the largest and most culturally rich Jewish community in Europe — permanently reshaped the Sephardic diaspora. The broader pattern across medieval Europe reveals how religious minorities can be tolerated, exploited, scapegoated, and expelled in sequence, with each phase creating the conditions for the next.
+The culminating event was the **Spanish Expulsion of 1492**, when Ferdinand and Isabella, having just completed the Reconquista by taking Granada, expelled all Jews who refused baptism from their territories. Approximately 100,000–200,000 people left, many settling in the Ottoman Empire (where Sultan Bayezid II reportedly welcomed them, noting that Ferdinand had impoverished Spain to enrich him). The expulsion from Spain — the largest and most culturally rich Jewish community in Europe — permanently reshaped the Sephardic diaspora. The broader pattern across medieval Europe reveals how religious minorities can be tolerated, exploited, scapegoated, and expelled in sequence, with each phase creating the conditions for the next.
 

@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Medieval monasteries served as repositories of learning, preserving ancient texts, producing manuscripts, and creating centers of intellectual work. Monasteries maintained libraries, schools, and scriptoria where monks copied texts and engaged in theological and philosophical study. Without monastic preservation efforts, much of ancient and early medieval learning would have been lost.
 
+## How It's Best Learned
+Draw the chain from the Rule of Benedict's daily reading to books, scriptoria, Latin teaching, grammar texts and classical authors. Then use the chain to predict survival. Which ancient works would monks have had reason to copy, and which would they have let fall away? Test the prediction against the Explainer's point that copying was filtered by theological and teaching needs.
+
+## Common Misconceptions
+- Without Western monks, no ancient learning would have survived. (Byzantine and Islamic scholars also preserved, and in the Islamic case translated, many Greek works. Western monasteries mattered most for the survival of Latin texts.)
+- Monks preserved every old text they found. (Copying was selective. Some parchment was scraped and reused, and a few older texts survive only as faint layers under later writing.)
+- Every monk was a scholar. (Many monks had modest learning, and serious study clustered in certain houses and certain individuals.)
+- Monasteries were isolated from the wider world. (They were linked by letters, book loans and traveling scholars, and many schooled the sons of outside families.)
+
 ## Questions
 
 ```yaml
@@ -70,6 +79,6 @@ You already know that monastic communities organized life around the Rule of Ben
 
 The **monastic school** (*schola monasterii*) emerged from this logic. It originally trained oblates and novices in Latin literacy, computus (the calculation of liturgical dates), music, and basic theology. Over time, many monasteries opened their schools to external students — the sons of nobles and eventually clergy who needed Latin education for administrative and ecclesiastical careers. Figures like **Alcuin of York** (d. 804) ran schools of remarkable intellectual vitality: Alcuin directed Charlemagne's Palace School and corresponded across Europe, demonstrating how a single learned monk could anchor an intellectual network spanning the continent.
 
-The **library** was the material basis for all of this. Great monastic libraries at Monte Cassino, St. Gall, and Canterbury held hundreds of manuscripts — each volume representing months of labor and enormous material expense (a single Bible required the skins of around 200 sheep for the parchment). Monks did not merely copy passively: they wrote commentaries, florilegia (anthologies of selected passages), and original theological and historical works. **Bede** (d. 735) at Jarrow in Northumbria wrote the *Ecclesiastical History of the English People* entirely from sources he assembled in his monastery's library — a work of genuine historical scholarship that survived because monks continued to copy it.
+The **library** was the material basis for all of this. Great monastic libraries at Monte Cassino, St. Gall, and Canterbury held hundreds of manuscripts — each volume representing months of labor and enormous material expense (a single Bible required the skins of around 200 sheep for the parchment). Monks did not merely copy passively: they wrote commentaries, florilegia (anthologies of selected passages), and original theological and historical works. **Bede** (d. 735) at Jarrow in Northumbria wrote the *Ecclesiastical History of the English People* from sources in his monastery's library together with documents and reports sent by correspondents — a work of genuine historical scholarship that survived because monks continued to copy it.
 
 What made monasteries irreplaceable in the early medieval West was the collapse of other educational institutions. Roman civic schools, urban libraries, and lay intellectual life contracted sharply after the 5th century. The monastery was left as the primary site where Latin literacy, book production, and systematic study survived. This concentration of learning in religious houses explains both the enormous cultural authority of monasteries in medieval society and the limits of that learning — it was filtered through theological priorities, which shaped what was copied, what was glossed, and what was silently set aside. When secular universities appeared in the 12th century, they drew on monastically preserved knowledge but also escaped the constraints of monastic intellectual culture, enabling the very different scholarly style of scholasticism.

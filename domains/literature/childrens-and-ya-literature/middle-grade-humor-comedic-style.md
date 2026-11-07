@@ -23,6 +23,11 @@ Middle-grade fiction often centers humor as a primary narrative and stylistic st
 ## How It's Best Learned
 Compare humorous middle-grade texts (Roald Dahl, Lemony Snicket, contemporary authors) to analyze different comedic strategies and how humor functions to engage reluctant readers and create voice.
 
+## Common Misconceptions
+- Funny middle-grade books are light reading with little to analyze. (Comic strategies build narrative voice and can carry hard subjects such as loss or exclusion, so they reward close reading.)
+- Middle-grade humor is mostly gross-out jokes. (Bodily humor is one register among several, alongside wordplay, hyperbole, situational comedy and an irreverent narrator.)
+- Mocking adults in a children's book is a cheap trick with no purpose. (Comic portraits of foolish or cruel adults let young readers see that adults can be wrong, and they place the reader on the narrator's side against unfairness.)
+
 ## Questions
 
 ```yaml
@@ -58,6 +63,7 @@ Compare humorous middle-grade texts (Roald Dahl, Lemony Snicket, contemporary au
 
 - question: Analyze the humor in a middle-grade book you know. Identify specific comedic strategies (wordplay, situational comedy, irreverent tone, hyperbole, etc.) and explain how they function to create voice and engage readers.
   type: short-answer
+  answer: A strong answer names specific techniques in one book, such as the narrator of A Series of Unfortunate Events stopping to define words in mock-serious asides, and explains what each does, such as creating a distinct voice, making the reader a co-conspirator, or easing dark content.
   explanation: Your answer should show understanding of specific comedic techniques. For example, in Roald Dahl's work, dark humor about adult characters' failings creates voice and also gives permission for readers to question authority. Situational comedy where a character's literal-mindedness creates problems develops both humor and characterization. Wordplay (puns, invented words) demonstrates linguistic playfulness. Physical comedy (described bodily situations, slapstick) creates immediate humor. Hyperbole (exaggerating descriptions to absurdity) builds comedic tone. The point is recognizing that humor isn't merely decorative but functions to create narrative voice, develop character, engage readers, and make difficult content more accessible.
 ```
 

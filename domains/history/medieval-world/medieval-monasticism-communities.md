@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Monasteries were self-sustaining communities of monks and nuns organized around prayer, labor, and study according to monastic rules (chiefly the Rule of St. Benedict). They became centers of agricultural innovation, intellectual preservation, and spiritual authority, often rivaling secular lords in wealth and influence. Monasteries educated clergy, preserved texts, and provided asylum and healthcare, making them indispensable to medieval society.
 
+## How It's Best Learned
+Start by sketching one Benedictine day: the eight services of the Divine Office from the night office to Compline, with blocks of work and reading fitted between them. Then compare three kinds of house on wealth, labor and liturgy: an early Benedictine abbey, Cluny with its network of dependent priories, and a Cistercian house. The Cistercians began in 1098 as a reaction against Cluniac wealth and elaborate worship.
+
+## Common Misconceptions
+- Monks spent most of their day copying manuscripts. (Communal prayer in the Divine Office structured the day. Manual labor and reading filled much of the rest, and only some monks worked as scribes.)
+- Monks and friars were the same thing. (Friars, such as Franciscans and Dominicans from the 13th century, preached in towns and lived on alms. Monks lived enclosed lives in a fixed community.)
+- Monasticism was a male institution. (Communities of nuns existed from early on, and some abbesses governed large houses. Hild of Whitby ruled a double monastery of men and women in 7th-century England.)
+- Every Benedictine house belonged to one centrally run order. (For centuries most houses following the Rule were independent. Networks such as Cluny and orders such as the Cistercians introduced wider structures later.)
+
 ## Questions
 
 ```yaml

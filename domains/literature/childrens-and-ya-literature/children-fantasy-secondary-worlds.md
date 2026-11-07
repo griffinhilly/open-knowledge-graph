@@ -25,6 +25,14 @@ status: draft
 ## Core Idea
 Children's fantasy literature creates secondary worlds—fully imagined alternative universes with their own geography, history, and rules—that operate as settings for adventure and self-discovery. Canonical children's fantasy (Narnia, Earthsea, Prydain) establishes worldbuilding conventions: accessible entry points for protagonists, internal logical consistency, and the secondary world as both literal and symbolic space.
 
+## How It's Best Learned
+Compare the opening chapters of *The Lion, the Witch and the Wardrobe* and *A Wizard of Earthsea*. In the first, a child from our world steps through a wardrobe; in the second, there is no portal and the reader starts inside the invented world. For each, list what the reader learns about the world's rules by the end of chapter two, and who or what supplies that knowledge.
+
+## Common Misconceptions
+- Every fantasy setting is a secondary world. (A story where magic breaks into our ordinary world differs from a fully separate world like Earthsea, which has its own geography and history apart from ours.)
+- A secondary world needs a doorway from our world. (Earthsea and Prydain have no link to our world; readers enter through a native character who is still learning about it.)
+- The more detail an author supplies, the more convincing the world. (Belief comes mostly from consistent rules and well-chosen details; long stretches of history and geography can slow a children's story.)
+
 ## Questions
 
 ```yaml
@@ -60,6 +68,7 @@ Children's fantasy literature creates secondary worlds—fully imagined alternat
 
 - question: How does the internal consistency of a secondary world's rules contribute to a reader's belief in and engagement with a fantasy story?
   type: short-answer
+  answer: Consistent rules let readers trust the world and stay immersed instead of questioning each event. They also let readers predict consequences, so a protagonist's clever use of the rules feels earned.
   explanation: 'When a secondary world maintains consistent rules—magic works according to specific principles, geography follows its own logic, cause and effect operate predictably—readers trust the world''s reality and can follow story events without constantly questioning feasibility. This consistency creates immersion: readers accept the fantasy world''s premises and concentrate on the narrative rather than suspecting the author of arbitrary invention. Additionally, consistent rules allow readers to anticipate consequences and participate imaginatively in problem-solving; if magic worked randomly with no rules, readers could never predict outcomes or feel the protagonist''s resourcefulness. When a world has coherent rules that we come to understand, the protagonist''s clever use of those rules within limitations feels earned and satisfying, whereas rule-breaking feels like cheating.'
 ```
 

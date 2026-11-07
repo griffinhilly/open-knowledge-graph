@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 William the Conqueror's 1066 invasion of England introduced Norman feudalism, French cultural influence, and a new royal dynasty that fundamentally transformed English society, law, and administration. The conquest created a Norman–Anglo-Saxon synthesis with new castle-building techniques, feudal reorganization of land ownership, and eventual development of English common law.
 
+## How It's Best Learned
+Use the Domesday Book's own structure. For many manors it records who held the land in King Edward's time and who held it in 1086. Pick a few entries from one county and compare the two names, which shows elite replacement directly. Then sort a list of English word pairs, such as cow and beef or ask and inquire, by origin and by who used them.
+
+## Common Misconceptions
+- The conquest was settled in a single day at Hastings. (Harold had just fought a Norwegian invasion at Stamford Bridge. After Hastings, William needed years of campaigns, including the Harrying of the North in 1069–70, to secure England.)
+- Before 1066 England had no organized government. (Late Anglo-Saxon England already had shires, sheriffs, written royal orders and a national land tax. The Normans took over this machinery and built on it.)
+- After the conquest most people in England spoke French. (French was the language of a small ruling elite. Most of the population kept speaking English, which later returned to use in law and government.)
+
 ## Questions
 
 ```yaml

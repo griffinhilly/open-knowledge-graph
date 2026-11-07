@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The Frankish kingdoms, particularly under the Merovingian dynasty, became the dominant power in post-Roman Western Europe. Despite their reputation for instability, the Merovingians maintained Roman administrative traditions and used the Church as a stabilizing force. Their territories eventually encompassed much of present-day France, Germany, and northern Italy.
 
+## How It's Best Learned
+Start with a map of Clovis's realm at his death in 511, then draw how it was split among his four sons. Follow later divisions into Austrasia, Neustria and Burgundy. Next to the map, keep a timeline that runs from Clovis's baptism through the growth of the mayors of the palace to Pepin's coronation in 751. The pairing shows how partible inheritance turned into Carolingian rule.
+
+## Common Misconceptions
+- The Merovingians were barbarians who swept away Roman civilization in Gaul. (They kept Roman civitates as administrative units, used Latin for Church and law, and relied on Gallo-Roman aristocrats as bishops and counts.)
+- The "do-nothing kings" were weak because they were personally lazy. (The weakness was structural: repeated partition, child kings and the rise of the mayors of the palace. The label also comes largely from Carolingian-era writers who had reason to belittle the dynasty they replaced.)
+- The Merovingian kingdom was one stable state, an early France. (It was divided and reunited many times, and sub-kingdoms such as Austrasia and Neustria had their own courts and mayors.)
+
 ## Questions
 
 ```yaml

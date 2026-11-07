@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Medieval mysticism emphasized direct personal experience of the divine through contemplation, prayer, and sometimes ecstatic states. Mystics like Hildegard of Bingen and Julian of Norwich documented their spiritual experiences and influenced popular devotion. Medieval mysticism coexisted with institutional Church authority, sometimes creating tension between personal spiritual experience and institutional mediation of grace.
 
+## How It's Best Learned
+Read a short passage from Hildegard of Bingen and one from Julian of Norwich side by side. Mark each place where the writer credits God as the source, uses Church teaching, or mentions a confessor or superior. Then contrast them with Marguerite Porete, a Beguine whose book was condemned and who was burned in Paris in 1310. Ask what separated the approved mystics from the condemned one.
+
+## Common Misconceptions
+- Mysticism meant having visions. (Many mystical writers taught a path of contemplative prayer and self-emptying without visions, and some warned readers not to seek them.)
+- Mystics were lonely hermits cut off from others. (Most lived in monasteries, convents or lay communities. Even an enclosed anchoress like Julian of Norwich gave counsel to visitors.)
+- Medieval mysticism was a purely Christian phenomenon. (Jewish Kabbalah and Islamic Sufism developed rich mystical traditions in the same centuries.)
+
 ## Questions
 
 ```yaml

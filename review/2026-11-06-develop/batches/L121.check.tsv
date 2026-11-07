@@ -1,0 +1,73 @@
+domains/literature/genre-fiction/psychological-horror-mind-threat.md	how	3	0	ok
+domains/literature/genre-fiction/psychological-horror-mind-threat.md	mis	6	0	ok
+domains/literature/genre-fiction/psychological-horror-mind-threat.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/psychological-thriller-unreliable-mind.md	how	3	0	ok
+domains/literature/genre-fiction/psychological-thriller-unreliable-mind.md	mis	6	0	ok
+domains/literature/genre-fiction/psychological-thriller-unreliable-mind.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/pulp-adventure-serialization.md	how	3	0	ok
+domains/literature/genre-fiction/pulp-adventure-serialization.md	mis	6	0	ok
+domains/literature/genre-fiction/pulp-adventure-serialization.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/pulp-fiction-serialization-popular.md	how	3	0	ok
+domains/literature/genre-fiction/pulp-fiction-serialization-popular.md	mis	6	0	ok
+domains/literature/genre-fiction/pulp-fiction-serialization-popular.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/pulp-fiction-serialization-popular.md	old:ex	1	1	fixed	Explainer listed "the early Spider-Man" among pulp heroes; Spider-Man is a 1962 Marvel comics character. Changed to "the Spider" (the 1930s pulp hero).
+domains/literature/genre-fiction/red-herring-misdirection-clue.md	mis	6	0	ok
+domains/literature/genre-fiction/red-herring-misdirection-clue.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/romance-emotional-fulfillment-arc.md	how	3	0	ok
+domains/literature/genre-fiction/romance-emotional-fulfillment-arc.md	mis	6	0	ok
+domains/literature/genre-fiction/romance-emotional-fulfillment-arc.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/romance-genre-emotional-centrality.md	mis	6	0	ok
+domains/literature/genre-fiction/romance-genre-emotional-centrality.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/satire-genre-mockery-critique.md	how	4	0	ok
+domains/literature/genre-fiction/satire-genre-mockery-critique.md	mis	6	0	ok
+domains/literature/genre-fiction/satire-genre-mockery-critique.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/satire-irony-social-critique.md	how	3	0	ok
+domains/literature/genre-fiction/satire-irony-social-critique.md	mis	6	0	ok
+domains/literature/genre-fiction/satire-irony-social-critique.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/science-fiction-hard-soft.md	q:4:answer	1	0	ok	Not fixed (old text): Common Misconceptions is a prose paragraph, not bullets.
+domains/literature/genre-fiction/soft-sf-social-extrapolation-experimentation.md	how	4	0	ok
+domains/literature/genre-fiction/soft-sf-social-extrapolation-experimentation.md	mis	6	0	ok
+domains/literature/genre-fiction/soft-sf-social-extrapolation-experimentation.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/space-opera-galactic-scale.md	mis	6	0	ok
+domains/literature/genre-fiction/space-opera-galactic-scale.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/steampunk-industrial-fantasy.md	mis	6	0	ok
+domains/literature/genre-fiction/steampunk-industrial-fantasy.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/swift-political-satire-savagery.md	how	4	0	ok
+domains/literature/genre-fiction/swift-political-satire-savagery.md	mis	6	0	ok
+domains/literature/genre-fiction/swift-political-satire-savagery.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/sword-sorcery-adventure-fantasy.md	how	3	0	ok
+domains/literature/genre-fiction/sword-sorcery-adventure-fantasy.md	mis	6	0	ok
+domains/literature/genre-fiction/sword-sorcery-adventure-fantasy.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/sword-sorcery-heroic-action.md	how	3	0	ok
+domains/literature/genre-fiction/sword-sorcery-heroic-action.md	mis	6	0	ok
+domains/literature/genre-fiction/sword-sorcery-heroic-action.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/thriller-escalating-tension.md	how	4	0	ok
+domains/literature/genre-fiction/thriller-escalating-tension.md	mis	6	0	ok
+domains/literature/genre-fiction/thriller-escalating-tension.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/thriller-suspense-action-pacing.md	how	3	0	ok
+domains/literature/genre-fiction/thriller-suspense-action-pacing.md	mis	6	0	ok
+domains/literature/genre-fiction/thriller-suspense-action-pacing.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/time-travel-narrative-mechanics.md	q:4:answer	1	0	ok	Not fixed (old text): Common Misconceptions is a prose paragraph, not bullets.
+domains/literature/genre-fiction/time-travel-narrative-mechanics.md	old:how	3	2	fixed	Old How section labeled Primer as fixed-timeline (its characters repeatedly change events) and All You Need Is Kill as ontological paradox (it is a reset loop). Replaced with Twelve Monkeys [fixed] and Heinlein's "—All You Zombies—" [ontological]; Back to the Future kept.
+domains/literature/genre-fiction/tolkien-linguistic-mythological-depth.md	how	5	0	ok	Checked Sindarin glosses: Mordor "Black Land", Gondor "Stone-land", Moria "Black Chasm", dor "land", mor "black".
+domains/literature/genre-fiction/tolkien-linguistic-mythological-depth.md	mis	6	0	ok
+domains/literature/genre-fiction/tolkien-linguistic-mythological-depth.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/urban-fantasy-magic-city.md	mis	6	0	ok
+domains/literature/genre-fiction/urban-fantasy-magic-city.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/urban-fantasy-magic-city.md	old:how	2	2	fixed	Old How section cited Jemisin's Inheritance Trilogy (secondary-world fantasy) and Novik's Scholomance (set in a magic school, not a city) as urban fantasy. Replaced with Jemisin's The City We Became. Explainer still cites Scholomance; left as note.
+domains/literature/genre-fiction/urban-fantasy-magic-contemporary.md	how	3	0	ok
+domains/literature/genre-fiction/urban-fantasy-magic-contemporary.md	mis	6	0	ok
+domains/literature/genre-fiction/urban-fantasy-magic-contemporary.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/vonnegut-anti-war-satire-absurdism.md	how	3	0	ok
+domains/literature/genre-fiction/vonnegut-anti-war-satire-absurdism.md	mis	6	0	ok
+domains/literature/genre-fiction/vonnegut-anti-war-satire-absurdism.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/weird-fiction-cosmic-strange.md	how	3	0	ok
+domains/literature/genre-fiction/weird-fiction-cosmic-strange.md	mis	6	0	ok
+domains/literature/genre-fiction/weird-fiction-cosmic-strange.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/western-frontier-lawlessness.md	mis	6	0	ok
+domains/literature/genre-fiction/western-frontier-lawlessness.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/western-frontier-lawlessness.md	old:how	4	3	fixed	Old How section called Blood Meridian a canonical western (it is the standard revisionist/anti-western) and called Butler's Parable series and Jemisin's Broken Earth revisionist westerns (they are SF and fantasy). Now: canonical = L'Amour, Wister's The Virginian; revisionist = Blood Meridian, Berger's Little Big Man. Sentence quoted by q:2 explanation kept.
+domains/literature/genre-fiction/western-frontier-morality-mythology.md	how	4	0	ok
+domains/literature/genre-fiction/western-frontier-morality-mythology.md	mis	6	0	ok
+domains/literature/genre-fiction/western-frontier-morality-mythology.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/western-frontier-morality-mythology.md	old:ex	1	1	fixed	Typo "themaic" corrected to "thematic" in Explainer.

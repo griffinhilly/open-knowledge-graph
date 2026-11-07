@@ -24,6 +24,14 @@ status: draft
 ## Core Idea
 Concrete poetry uses spatial arrangement, typography, and visual composition as meaning-making strategies. Words and letters are arranged to create visual shapes that reinforce or complicate semantic meaning. For children, concrete poetry makes poetry's form visible and playful, inviting visual literacy alongside linguistic interpretation.
 
+## How It's Best Learned
+Start with "The Mouse's Tale" from *Alice's Adventures in Wonderland*, which is printed in the shape of a tail. Type it out as ordinary lines and compare the two versions, noting the tale/tail pun the shape carries. Then have learners write a short poem about one object twice, once in lines and once in a shape, and say what the shape adds.
+
+## Common Misconceptions
+- Any shape will do as long as the words form a picture. (A strong concrete poem uses its shape to add, sharpen, or twist meaning; a shape that only outlines the topic adds little.)
+- Concrete poetry is a modern invention. (Shaped poems are old; George Herbert's "Easter Wings," from the 1600s, is laid out as a pair of wings.)
+- A concrete poem works as well read aloud as on the page. (Much of its meaning lives in the layout, so reading it aloud loses part of the poem; that loss is a good test of what the shape contributes.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +67,7 @@ Concrete poetry uses spatial arrangement, typography, and visual composition as 
 
 - question: Why might an author choose to use concrete poetry for children rather than traditional linear verse arranged left-to-right?
   type: short-answer
+  answer: Concrete poetry makes a poem's construction visible, showing children that arrangement shapes meaning as much as word choice does. Its visual play draws readers in before interpretation is required and invites children to make poems themselves.
   explanation: Concrete poetry makes poetry's constructedness visible to young readers who may assume poems are simply 'words that rhyme' without understanding how form shapes meaning. By arranging words to create visual shapes, the poet demonstrates that how you arrange language matters as much as which words you choose. This invites children to see poetry not as mysterious or exclusively for adults but as something they can experiment with and create themselves. Additionally, concrete poetry's visual playfulness engages children who might be reluctant readers; the visual dimension makes the poem accessible and fun before requiring interpretation. Concretely arranged text also supports visual literacy development—the ability to read across multiple dimensions of communication (visual and verbal)—preparing children for interpreting increasingly complex texts and media.
 ```
 

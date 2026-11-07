@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The medieval period (roughly 500–1500 CE) spans from the fall of the Western Roman Empire to the early modern era, characterized by feudal political structures, religious authority, and regional fragmentation. The term itself is a historiographical construct debated by scholars; it was coined by Renaissance thinkers to denote a gap between classical and modern eras. Understanding periodization requires recognizing that 'medieval' applies unevenly across regions—the Islamic world experienced a golden age, Byzantium preserved Roman learning, and African and Asian civilizations developed independently.
 
+## How It's Best Learned
+Draw parallel timeline strips from 400 to 1600 for western Europe, Byzantium, the Islamic world and China. Draw vertical lines at 500 and 1500 and describe what each strip shows at those points. Then try other candidate boundaries, such as 476, 800, 1453, 1492 and 1517. Argue which ones fit which strip, and note that no single pair fits them all.
+
+## Common Misconceptions
+- Medieval people knew they were living in the Middle Ages. (The label came later. Many medieval writers saw themselves as living in a continuing Christian and Roman history, or in the last age of the world.)
+- The Middle Ages began on a single day in 476. (The year 476 is a convenient marker. Contemporaries saw little sudden change, and many historians stress a gradual transformation they call late antiquity.)
+- The Middle Ages were a time of stagnation, the "Dark Ages." (Western Europe saw farming expansion, town growth, universities, Gothic architecture and new devices such as eyeglasses and mechanical clocks.)
+- Medieval Europeans believed the earth was flat. (Educated medieval Europeans generally knew the earth was a sphere. The flat-earth story was spread mainly in the 19th century.)
+
 ## Questions
 
 ```yaml
