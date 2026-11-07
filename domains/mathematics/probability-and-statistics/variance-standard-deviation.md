@@ -6,6 +6,8 @@ course: probability-and-statistics
 prerequisites:
 - id: expected-value-theory
   type: hard
+- id: mean-absolute-deviation
+  type: soft
 builds-toward:
 - covariance-between-random-variables
 tags:

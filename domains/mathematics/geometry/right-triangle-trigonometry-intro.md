@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: proportions-in-similar-triangles
   type: soft
+- id: similar-right-triangles-geometric-mean
+  type: soft
 builds-toward:
 - sine-cosine-tangent-ratios
 tags:

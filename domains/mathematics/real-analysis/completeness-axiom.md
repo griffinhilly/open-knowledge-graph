@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: supremum-infimum
   type: hard
+- id: rational-and-irrational-numbers
+  type: soft
 builds-toward:
 - monotone-convergence-theorem
 - bolzano-weierstrass-theorem

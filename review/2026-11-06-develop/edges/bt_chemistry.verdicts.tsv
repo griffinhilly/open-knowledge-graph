@@ -1,0 +1,59 @@
+ADD	recording-observations-in-science	accuracy-precision-error	soft	medium	Error analysis builds on the habit of recording repeated measurements with units; helpful background, not required.
+ADD	acid-base-neutralization-reactions	acid-base-titration	hard	high	B's core idea is that titrations exploit neutralization reactions.
+DROP	percent-yield-and-limiting-reagent-analysis	analytical-chemistry-intro	-	medium	Intro to analytical chemistry is about sampling and measurement, not reaction yield.
+DROP	precipitation-equilibrium-and-common-ion	analytical-chemistry-intro	-	medium	The overview of analytical chemistry does not draw on precipitation equilibria.
+DROP	acid-base-titration-quantitative-analysis	analytical-method-validation-core-parameters	-	high	Validation parameters are method-agnostic; no specific titration knowledge is needed.
+DROP	conductometric-titration-and-analysis	analytical-method-validation-core-parameters	-	high	Validation parameters are method-agnostic; conductometry is not needed.
+DROP	precipitation-titration-argentometry	analytical-method-validation-core-parameters	-	high	Validation parameters are method-agnostic; argentometry is not needed.
+DROP	redox-titration-quantitative-analysis	analytical-method-validation-core-parameters	-	high	Validation parameters are method-agnostic; redox titration is not needed.
+DROP	analytical-method-development-workflow	analytical-selectivity-and-specificity	-	medium	Selectivity is a concept that method development uses, so the dominant direction runs the other way.
+DROP	analytical-method-validation-core-parameters	analytical-selectivity-and-specificity	-	medium	Specificity is one input to validation; validation draws on it, not the reverse.
+ADD	method-robustness-stability-assessment	analytical-standard-operating-procedures	soft	medium	SOP tolerances and parameter limits are informed by robustness studies.
+DROP	high-throughput-analytical-screening	automated-and-high-throughput-analysis	-	medium	B is the general automated-systems topic; screening is an application of it (near-duplicate pair).
+ADD	sample-preparation-automation-systems	automated-and-high-throughput-analysis	soft	medium	B integrates automated sample preparation as one of its components.
+ADD	carryover-contamination-prevention	batch-and-sequence-optimization	soft	medium	Batch design places blanks to monitor carryover, so carryover knowledge helps.
+DROP	solubility-product-constant-ksp	complexometric-titration	-	medium	EDTA titrations rest on formation constants and pH, not on Ksp.
+ADD	analytical-standard-operating-procedures	data-integrity-regulatory-compliance	soft	medium	Data integrity relies on documented procedures; SOP knowledge helps.
+DROP	forensic-evidence-analytical-methods	data-integrity-regulatory-compliance	-	medium	Data integrity rules (21 CFR Part 11, audit trails) do not draw on forensic methods.
+DROP	outlier-detection-statistical-methods	data-integrity-regulatory-compliance	-	medium	B is about record completeness and audit trails, not statistical outlier tests.
+ADD	trace-metals-ultra-low-concentration	environmental-sample-analysis-methods	soft	medium	Trace metals are a named target of environmental analysis.
+ADD	beers-law	fluorescence-spectroscopy	soft	high	Fluorescence intensity depends on absorbed light; Beer-Lambert underlies linearity and inner-filter effects.
+ADD	field-portable-analytical-instruments	green-and-sustainable-analytical-chemistry	soft	medium	B names on-site analysis as a green approach.
+DROP	food-safety-pesticide-allergen-analysis	green-and-sustainable-analytical-chemistry	-	high	Green analytical chemistry does not draw on food-safety analysis.
+ADD	batch-and-sequence-optimization	high-throughput-analytical-screening	soft	medium	HTS run design benefits from batch and sequence planning.
+ADD	multianalyte-panel-determination	high-throughput-analytical-screening	soft	medium	Multiplex panels are one route to the throughput HTS needs.
+DROP	analytical-method-equivalence-transfer	iso-iec-17025-laboratory-accreditation	-	medium	ISO 17025 covers validation and QA broadly; method transfer is not a needed base.
+ADD	analytical-standard-operating-procedures	iso-iec-17025-laboratory-accreditation	soft	medium	Accreditation requires documented procedures, so SOP knowledge helps.
+ADD	data-integrity-regulatory-compliance	iso-iec-17025-laboratory-accreditation	soft	medium	ISO 17025 includes control of data and records.
+ADD	measurement-uncertainty-budgeting	iso-iec-17025-laboratory-accreditation	soft	high	ISO 17025 requires labs to evaluate measurement uncertainty.
+DROP	method-robustness-stability-assessment	iso-iec-17025-laboratory-accreditation	-	medium	Robustness is covered by the validation prerequisite B already has.
+ADD	reference-material-traceability	iso-iec-17025-laboratory-accreditation	soft	high	Metrological traceability is a core ISO 17025 requirement.
+DROP	trace-metals-ultra-low-concentration	limit-of-detection-loq	-	high	LOD/LOQ is a general concept; trace-metal analysis applies it, not the reverse.
+DROP	detector-ionization-suppression-effects	matrix-effects	-	medium	Ion suppression is a specific case of matrix effects; A should draw on B, not the reverse.
+DROP	high-throughput-analytical-screening	method-development-lifecycle	-	high	The method lifecycle does not draw on HTS.
+DROP	pharmaceutical-impurity-related-substances	method-development-lifecycle	-	medium	Impurity analysis is an application area, not a base for the lifecycle concept.
+DROP	process-analytical-technology-real-time	method-development-lifecycle	-	medium	The lifecycle concept does not draw on PAT.
+DROP	bioanalytical-pharmacokinetic-studies	method-validation	-	high	Method validation is foundational; bioanalytical PK work applies it.
+ADD	detector-ionization-suppression-effects	multianalyte-panel-determination	soft	medium	MS-based multiplex panels must handle ion suppression between co-eluting analytes.
+DROP	multivariate-calibration-pls-pcr	multianalyte-panel-determination	-	medium	B's panels use MS/MS, immunoassay or chromatography, not PLS/PCR models.
+DROP	chemometrics-multivariate-calibration	nuclear-magnetic-resonance-quantitative	-	high	qNMR quantifies from integrals against a standard; chemometrics is not needed.
+DROP	response-surface-methodology-method-optimization	optimization-of-analytical-method-parameters	-	high	A already lists B as a prerequisite; adding the reverse would create a cycle.
+ADD	confirmatory-testing-identification-methods	pharmaceutical-impurity-related-substances	soft	medium	Impurity work includes identifying unknowns, which confirmatory methods support.
+DROP	bioanalytical-pharmacokinetic-studies	pharmaceutical-quality-analysis	-	high	Drug-product quality testing does not draw on PK bioanalysis.
+DROP	clinical-diagnostic-analytical-chemistry	pharmaceutical-quality-analysis	-	high	Pharmaceutical QC does not draw on clinical diagnostics.
+DROP	multianalyte-panel-determination	pharmaceutical-quality-analysis	-	high	Pharmaceutical quality analysis does not need multiplex panels.
+DROP	pharmaceutical-impurity-related-substances	pharmaceutical-quality-analysis	-	medium	B is the broad overview; the specialised impurity topic should draw on it, not the reverse.
+ADD	field-portable-analytical-instruments	process-analytical-technology-real-time	soft	medium	PAT uses in-situ instruments that share design ideas with field-portable ones.
+DROP	iso-iec-17025-laboratory-accreditation	quality-assurance-analytical	-	high	QA is foundational; ISO 17025 draws on it, not the reverse.
+DROP	measurement-uncertainty-budgeting	quality-assurance-analytical	-	medium	QA control charts do not require uncertainty budgets.
+DROP	analytical-method-equivalence-transfer	quality-control-and-quality-assurance	-	medium	Basic QC/QA does not draw on method transfer.
+DROP	batch-and-sequence-optimization	quality-control-and-quality-assurance	-	medium	Batch design applies QC principles; the dominant direction is QC/QA to batch design.
+DROP	carryover-contamination-prevention	quality-control-and-quality-assurance	-	medium	QC/QA is the broader base; carryover control applies it.
+DROP	clinical-diagnostic-analytical-chemistry	quality-control-and-quality-assurance	-	high	General lab QC/QA does not draw on clinical diagnostics.
+ADD	outlier-detection-statistical-methods	quality-control-and-quality-assurance	soft	medium	Statistical monitoring in QC includes judging outlying results.
+DROP	process-analytical-technology-real-time	quality-control-and-quality-assurance	-	high	General lab QC/QA does not draw on PAT.
+ADD	reference-material-traceability	quality-control-and-quality-assurance	soft	medium	QC checks use certified reference materials, whose traceability helps.
+DROP	chemometrics-multivariate-calibration	raman-spectroscopy-analytical-methods	-	medium	Raman fundamentals do not need chemometrics, though applications use it.
+DROP	selectivity-vs-sensitivity-analytical-tradeoffs	response-surface-methodology-method-optimization	-	medium	RSM is an experimental-design technique; the trade-off topic is not needed for it.
+DROP	food-safety-pesticide-allergen-analysis	trace-metals-ultra-low-concentration	-	high	Trace metal analysis does not draw on food-safety analysis.
+DROP	liquid-chromatography-mass-spectrometry-lc-ms	two-dimensional-chromatography-comprehensive	-	medium	2D chromatography rests on orthogonal separation, not on MS detection.

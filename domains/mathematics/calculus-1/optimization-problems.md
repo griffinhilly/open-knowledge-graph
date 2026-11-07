@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: related-rates
   type: soft
+- id: absolute-extrema-closed-interval
+  type: hard
 builds-toward:
 - work-as-integral
 tags:

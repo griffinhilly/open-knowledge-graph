@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: rational-expressions-intro
   type: soft
+- id: rational-and-irrational-numbers
+  type: soft
 builds-toward:
 - operations-with-radicals
 - quadratic-formula

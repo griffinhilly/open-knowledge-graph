@@ -8,3 +8,4 @@ bt_physics.agreed.tsv
 newtopic_biology.verdicts.tsv
 newtopic_physics.verdicts.tsv
 newtopic_chemistry.verdicts.tsv
+newtopic_mathematics.verdicts.tsv

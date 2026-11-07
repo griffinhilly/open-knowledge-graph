@@ -6,6 +6,8 @@ course: complex-analysis
 prerequisites:
 - id: complex-exponential-function
   type: hard
+- id: hyperbolic-functions
+  type: soft
 builds-toward:
 - evaluating-integrals-residues
 tags:

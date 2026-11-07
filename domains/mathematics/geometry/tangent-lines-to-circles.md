@@ -4,12 +4,14 @@ title: Tangent Lines to Circles
 domain: mathematics
 course: geometry
 prerequisites:
-  - id: circle-basics
-    type: hard
-  - id: pythagorean-theorem
-    type: hard
+- id: circle-basics
+  type: hard
+- id: pythagorean-theorem
+  type: hard
+- id: triangle-congruence-hl
+  type: soft
 builds-toward:
-  - coordinate-geometry-proofs
+- coordinate-geometry-proofs
 tags: [circles, tangent-lines, perpendicularity, theorems]
 stage: abstract-reasoning
 status: validated

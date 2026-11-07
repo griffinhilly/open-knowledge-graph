@@ -16,6 +16,8 @@ prerequisites:
   type: hard
 - id: sequential-characterization-continuity
   type: soft
+- id: absolute-extrema-closed-interval
+  type: soft
 builds-toward:
 - uniform-continuity-compact-sets
 tags:

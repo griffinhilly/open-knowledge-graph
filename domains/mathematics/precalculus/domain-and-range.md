@@ -4,11 +4,13 @@ title: Domain and Range
 domain: mathematics
 course: precalculus
 prerequisites:
-  - id: function-notation-review
-    type: hard
+- id: function-notation-review
+  type: hard
+- id: functions-and-relations
+  type: soft
 builds-toward:
-  - inverse-functions-review
-  - rational-functions-asymptotes-review
+- inverse-functions-review
+- rational-functions-asymptotes-review
 tags: [functions, domain, range]
 stage: formal-systems
 status: validated

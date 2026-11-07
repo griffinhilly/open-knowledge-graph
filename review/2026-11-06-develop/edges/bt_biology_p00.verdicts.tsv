@@ -1,0 +1,50 @@
+DROP	irreversible-enzyme-inhibition	allosteric-enzyme-regulation	-	high	Allosteric regulation is reversible conformational control; it contrasts with competitive, not irreversible, inhibition.
+ADD	noncompetitive-enzyme-inhibition	allosteric-enzyme-regulation	soft	medium	Binding at a site other than the active site is the idea allosteric regulation generalizes.
+DROP	lactate-metabolism	carbohydrate-homeostasis	-	medium	Glucose homeostasis is built on hormones, glycogen and gluconeogenesis; the Cori cycle is an elaboration, not a basis.
+ADD	enzyme-cofactors-and-coenzymes	citric-acid-cycle-mechanism	soft	high	The cycle's mechanism runs on NAD+, FAD, CoA, TPP and lipoate.
+ADD	carbohydrate-structure-and-classification	disaccharides-and-polysaccharides	soft	medium	Classifying sugars helps; monosaccharide isomers is already the hard prerequisite.
+DROP	amino-acid-classification-and-properties	enzyme-cofactors-and-coenzymes	-	medium	Cofactor chemistry (vitamins, metal ions) does not depend on amino acid classification.
+ADD	fatty-acid-structure-and-classification	fatty-acid-synthesis	soft	high	Synthesis builds chains of defined length and saturation, which presumes fatty acid structure.
+ADD	pyruvate-metabolic-hub	fatty-acid-synthesis	soft	medium	Acetyl-CoA for lipogenesis comes from pyruvate via citrate export.
+DROP	aminoacyl-trna-synthetase-specificity	genetic-code-wobble-pairing	-	high	Wobble is codon-anticodon pairing; it does not draw on how synthetases charge tRNAs.
+ADD	monosaccharides-isomers	glycolysis-mechanism-and-regulation	soft	high	Glycolysis includes aldose-ketose isomerizations (phosphoglucose and triose phosphate isomerase).
+ADD	lipolysis-and-fatty-acid-mobilization	ketone-body-metabolism	soft	high	Ketogenesis is fed by fatty acids mobilized from adipose during fasting.
+DROP	cholesterol-synthesis	metabolic-integration-hormonal-regulation	-	medium	The integration topic covers glucose and fatty acid pathways; cholesterol synthesis is not part of it.
+DROP	enzyme-cooperativity	metabolic-integration-hormonal-regulation	-	medium	Integration draws on allosteric control (already soft), not on Hill-coefficient analysis.
+ADD	fatty-acid-oxidation-beta-oxidation	metabolic-integration-hormonal-regulation	soft	high	Fatty acid oxidation is one of the pathways the topic explicitly integrates.
+ADD	fatty-acid-synthesis	metabolic-integration-hormonal-regulation	soft	high	Lipogenesis is one of the pathways the topic explicitly integrates.
+ADD	gluconeogenesis	metabolic-integration-hormonal-regulation	soft	high	Gluconeogenesis is central to the fasted-state response the topic integrates.
+ADD	glycogen-metabolism	metabolic-integration-hormonal-regulation	soft	high	Glycogenesis and glycogenolysis are part of the fed/fasted integration.
+DROP	enzyme-classification-nomenclature	michaelis-menten-enzyme-kinetics	-	high	Kinetic analysis does not use EC classification or naming.
+ADD	amino-acid-degradation-overview	oxidative-deamination	soft	medium	The overview frames where amino-group removal sits in catabolism; the reaction itself stands alone.
+ADD	protein-folding-and-chaperones	post-translational-modifications	soft	medium	Some PTMs (glycosylation, disulfides) act on folding, so folding context helps.
+DROP	protein-translocation-and-signal-sequences	post-translational-modifications	-	medium	PTMs are covalent changes that do not require translocation machinery; signal-peptide cleavage is a minor case.
+DROP	translation-elongation-and-termination	post-translational-modifications	-	medium	PTMs already draw on translation via translation-initiation-and-elongation (hard); this duplicate adds nothing.
+DROP	translation-termination-stop-codons-release-factors	post-translational-modifications	-	medium	Release-factor detail is not needed to understand covalent protein modification.
+ADD	protein-tertiary-structure	protein-folding-and-chaperones	hard	medium	Folding pathways describe how a chain reaches its native tertiary structure.
+ADD	amino-acid-structure-and-properties	protein-primary-structure	soft	high	Primary structure is a sequence of amino acids; peptide bonds is already the hard prerequisite.
+DROP	membrane-lipids-and-lipoproteins	protein-targeting-and-subcellular-localization	-	medium	Targeting depends on signal sequences and transport machinery, not lipid or lipoprotein chemistry.
+ADD	protein-folding-and-chaperones	protein-targeting-and-subcellular-localization	soft	medium	Post-translational mitochondrial import needs chaperone-held unfolded chains.
+DROP	trans-golgi-network-protein-sorting	protein-targeting-and-subcellular-localization	-	medium	TGN sorting is a specialization of targeting; the general topic does not draw on it.
+ADD	amino-acid-degradation-overview	transamination-reactions	soft	medium	The overview frames transamination as the first step of amino acid catabolism.
+DROP	rna-splicing-mechanisms	translation-initiation-and-elongation	-	high	Translation reads mature mRNA; it does not draw on splicing mechanism.
+ADD	oxidative-deamination	urea-cycle	soft	high	Glutamate dehydrogenase releases the ammonia the urea cycle disposes of.
+ADD	cell-membrane-structure	active-transport	soft	high	Pumps are membrane proteins moving solutes across the bilayer.
+ADD	kinetochore-structure-and-function	anaphase-promoting-complex-cell-cycle-control	soft	medium	The spindle checkpoint at unattached kinetochores restrains APC/C-Cdc20.
+DROP	lysosomal-degradation-autophagy	apoptosis-cell-death	-	medium	Apoptosis is caspase-driven; it does not draw on lysosomal or autophagy machinery.
+DROP	substrate-level-phosphorylation	atp-synthesis	-	medium	Chemiosmotic ATP synthesis does not depend on substrate-level phosphorylation beyond a contrast.
+ADD	mitochondria-structure-and-function	atp-synthesis	soft	high	Chemiosmosis needs the inner membrane and intermembrane space layout.
+ADD	photosynthesis-overview	calvin-cycle	soft	high	The overview places the Calvin cycle in photosynthesis; light reactions is already hard.
+ADD	plasma-membrane-organization-dynamics	cell-adhesion-tissue	soft	medium	Cadherins and integrins are transmembrane proteins linked to the cytoskeleton.
+ADD	cells-to-tissues-and-organs	cell-adhesion-tissue	soft	medium	The tissue concept motivates why cells adhere.
+DROP	growth-and-change	cell-biology-intro	-	medium	An early-grade growth topic is not drawn on by a cell-level unifying-principles topic.
+DROP	needs-of-living-things	cell-biology-intro	-	medium	Cell biology intro draws on cell theory, not on the early-grade needs topic.
+DROP	responding-to-surroundings	cell-biology-intro	-	medium	Cell signaling at this level does not draw on the early-grade responding topic.
+ADD	apoptosis-cell-death	cell-cycle-checkpoints-cancer	soft	high	p53 triggers apoptosis when damage is irreparable, a core outcome of checkpoints.
+DROP	secondary-oocyte-meiosis-ii-arrest	cell-cycle-checkpoints-cancer	-	high	Oocyte meiotic arrest is not used to explain somatic checkpoints or cancer.
+DROP	what-is-a-life-cycle	cell-cycle-overview	-	high	An organism's life cycle is a different concept from the cell cycle; only the word is shared.
+DROP	centrosomes-and-spindle-pole-bodies	cell-cycle-phases-transitions	-	medium	Phase transitions are explained by cyclin-CDK control, not centrosome structure.
+DROP	egg-to-adult	cell-differentiation-development	-	medium	Differentiation draws on gene expression and signaling, not the early-grade egg-to-adult topic.
+DROP	human-growth-stages	cell-differentiation-development	-	medium	Human growth stages are not used in explaining cell fate specification.
+DROP	metamorphosis	cell-differentiation-development	-	medium	Metamorphosis is not drawn on in explaining transcriptional cell fate programs.
+DROP	prokaryotic-cells	cell-membrane-structure	-	medium	Membrane structure draws on eukaryotic cells and chemistry, not on prokaryotes.

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: arithmetic-sequences
   type: soft
+- id: functions-and-relations
+  type: hard
 builds-toward: []
 tags:
 - functions

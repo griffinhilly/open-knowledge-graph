@@ -1,0 +1,29 @@
+ADD	gcf-and-lcm	factoring-gcf	soft	high	Factoring out a GCF assumes students can find the GCF of the numerical coefficients.
+ADD	gcf-and-lcm	adding-fractions-unlike-denominators	soft	high	The least common denominator is the LCM of the denominators.
+ADD	rational-and-irrational-numbers	radical-expressions-simplifying	soft	high	Simplifying radicals presumes knowing which roots are rational and which are irrational.
+ADD	rational-and-irrational-numbers	completeness-axiom	soft	high	The completeness axiom distinguishes ℝ from ℚ; the informal rational/irrational picture motivates it.
+ADD	mean-absolute-deviation	variance-standard-deviation	soft	high	MAD is the first measure of spread around the mean; standard deviation refines it with squared deviations.
+ADD	functions-and-relations	linear-functions	hard	high	A linear function is a special case of the function concept defined here.
+ADD	functions-and-relations	function-notation-review	hard	high	f(x) notation presupposes that each input has exactly one output.
+ADD	functions-and-relations	domain-and-range	soft	high	Domain and range are introduced informally in the relations topic.
+ADD	triangle-congruence-hl	tangent-lines-to-circles	soft	high	The two-tangent theorem in that topic is proved with HL (its own text says "hypotenuse-leg").
+ADD	similar-right-triangles-geometric-mean	right-triangle-trigonometry-intro	soft	high	Similar right triangles explain why trigonometric ratios do not depend on triangle size.
+ADD	absolute-extrema-closed-interval	optimization-problems	hard	high	Optimization on a closed interval uses the closed interval method.
+ADD	absolute-extrema-closed-interval	extreme-value-theorem-rigorous	soft	high	The rigorous proof formalizes the Extreme Value Theorem first met here.
+ADD	hyperbolic-functions	complex-trigonometric-functions	soft	high	cos(iz) = cosh z and sin(iz) = i sinh z link the two families.
+ADD	hyperbolic-functions	trigonometric-substitution	soft	high	Hyperbolic substitutions are an alternative for integrals with √(x² + a²).
+ADD	quadric-surfaces	functions-of-several-variables	soft	high	Graphs of functions of two variables are often quadric surfaces (paraboloids, saddles).
+ADD	cauchy-euler-equations	frobenius-method	soft	high	The Frobenius indicial equation generalizes the Cauchy-Euler indicial equation at a regular singular point.
+ADD	arzela-ascoli-theorem	compact-operators	soft	high	Compactness of integral operators is usually proved with Arzelà-Ascoli.
+ADD	arzela-ascoli-theorem	existence-uniqueness-ode	soft	high	The Peano existence theorem (continuous f only) is proved with Arzelà-Ascoli.
+ADD	inverse-function-theorem	implicit-function-theorem-on-manifolds	hard	high	The implicit function theorem is derived from the inverse function theorem.
+ADD	inverse-function-theorem	exponential-map	soft	high	That topic invokes the inverse function theorem to show exp_p is a local diffeomorphism.
+ADD	semidirect-products	applications-of-sylow-theorems	soft	high	Classifying groups of order pq and similar uses semidirect products.
+ADD	first-fundamental-form	riemannian-metrics	soft	high	A Riemannian metric generalizes the first fundamental form from surfaces to manifolds.
+ADD	first-fundamental-form	gauss-bonnet-theorem	soft	high	The classical Gauss-Bonnet theorem is stated for surfaces with metric E, F, G.
+ADD	gaussian-and-mean-curvature	gauss-bonnet-theorem	soft	high	Gauss-Bonnet integrates the Gaussian curvature.
+ADD	gaussian-and-mean-curvature	minimal-surfaces	soft	high	Minimal surfaces are defined by mean curvature H = 0.
+ADD	gaussian-and-mean-curvature	sectional-curvature	soft	high	Sectional curvature generalizes the Gaussian curvature of a surface.
+ADD	ca-hilbert-nullstellensatz	ca-spec-and-zariski-topology	soft	high	The Nullstellensatz motivates the ideal/variety correspondence behind Spec and the Zariski topology.
+ADD	ca-hilbert-nullstellensatz	ca-krull-dimension	soft	high	It links Krull dimension of affine algebras to geometric dimension.
+ADD	queueing-theory-mm1	reflected-brownian-motion	soft	high	Reflected Brownian motion arises as the heavy-traffic limit of queue lengths.

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: compact-sets-heine-borel
   type: soft
+- id: arzela-ascoli-theorem
+  type: soft
 builds-toward:
 - spectral-theorem-compact-self-adjoint
 tags:

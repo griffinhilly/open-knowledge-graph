@@ -4,11 +4,13 @@ title: Function Notation Review
 domain: mathematics
 course: precalculus
 prerequisites:
-  - id: variable-expressions
-    type: hard
+- id: variable-expressions
+  type: hard
+- id: functions-and-relations
+  type: hard
 builds-toward:
-  - domain-and-range
-  - function-transformations
+- domain-and-range
+- function-transformations
 tags: [functions, notation, algebra-review]
 stage: formal-systems
 status: validated

@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: adding-fractions-like-denominators
   type: hard
+- id: gcf-and-lcm
+  type: soft
 builds-toward:
 - subtracting-fractions-unlike-denominators
 - mixed-number-arithmetic

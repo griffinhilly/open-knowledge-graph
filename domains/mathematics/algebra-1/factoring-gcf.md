@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: distributive-property-multiplication-3rd
   type: hard
+- id: gcf-and-lcm
+  type: soft
 builds-toward:
 - factoring-trinomials
 - factoring-completely

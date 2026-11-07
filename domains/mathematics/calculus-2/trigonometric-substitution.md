@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: graphing-tangent-and-reciprocal-trig
   type: soft
+- id: hyperbolic-functions
+  type: soft
 builds-toward:
 - arc-length
 tags:
