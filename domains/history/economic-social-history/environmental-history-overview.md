@@ -19,6 +19,15 @@ status: validated
 ## Core Idea
 Environmental history studies human interaction with natural systems. For most of human history, humans adapted to their environments; in the last few centuries, humans have dramatically reshaped their environments. Agriculture required clearing forests; cities required concentration of people and resources; industry required extracting and processing minerals and fossil fuels. These activities had local consequences: deforestation, soil depletion, water pollution, species extinction. They also had global consequences: fossil fuel burning increases CO2, changing climate; CFCs deplete ozone; plastic accumulates in oceans. Environmental degradation reflects choices and power: wealthy nations consume far more resources per capita than poor nations; corporations pollute without paying costs; future generations pay costs of current consumption (depleted resources, climate change). Yet environmental change is not simply degradation: humans have also created some environments (managed forests, agricultural landscapes); conservation efforts have protected some species. Understanding environmental history requires attending to both human impacts and natural systems' resilience and limits. It also requires recognizing that environmental issues are political: who decides how land is used? Who benefits from resource extraction? Who bears costs of pollution? Environmental justice movements argue that poor and minority communities bear disproportionate environmental burdens while wealthy communities enjoy clean environments.
 
+## How It's Best Learned
+Work through three paired cases across time: salinized irrigation in ancient Mesopotamia, the Columbian Exchange after 1492, and Amazon deforestation driven by global beef and soy demand. For each, ask who gained, who paid, and how far apart they lived. Then trace one everyday product, such as a supermarket chicken, back to the land and pollution behind it to see an externality.
+
+## Common Misconceptions
+- Environmental damage began with factories and fossil fuels. (Early farming societies also degraded their land, as irrigation did when it salted Mesopotamian soils over centuries.)
+- Environmental history is only a story of humans destroying nature. (It also studies how environments shaped societies, environments people built and managed, and conservation that protected some species.)
+- Pollution continues mainly because individual business owners are greedy. (When pollution costs fall on outsiders and are left out of prices, markets produce more of it than is socially optimal, whatever the owners' motives.)
+- Environmental harms fall evenly on everyone. (US studies find that hazards often cluster in low-income and minority communities, and poor nations bear climate impacts from emissions they contributed little to.)
+
 ## Questions
 
 ```yaml

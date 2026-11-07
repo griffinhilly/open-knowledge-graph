@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 The Hanseatic League was a confederation of German and Baltic merchant guilds and market towns (13th-17th centuries) that dominated Northern European trade. Hanseatic merchants traded fish, grain, timber, and furs across the Baltic and North Seas, exchanging them for wine, cloth, and manufactured goods. The League established trading posts in distant cities, creating a network that enabled commerce across dangerous waters and between regions with little direct contact. The League's power was economic: it controlled trade routes, negotiated with rulers, and sometimes went to war to protect its interests. Hanseatic merchants were organized in guilds, which restricted membership and protected against competition. The League exemplified medieval commerce at a sophisticated level: specialized intermediaries (merchants), organized trading networks, standardized business practices, and use of written contracts. Yet the League was not a unified state — it was a loose confederation, and member cities competed with each other. The League's decline, beginning in the 16th century, resulted from changing trade patterns (Atlantic routes became more important as European powers colonized the Americas), stronger national states that regulated trade differently, and new merchant groups competing with Hanseatic traders. Understanding the Hanseatic League reveals how pre-modern commerce could be sophisticated and large-scale without being capitalist in the modern sense.
 
+## How It's Best Learned
+Map the network: Lübeck and Hamburg at the center, the four great Kontore at London, Bruges, Bergen, and Novgorod, and the goods moving along each route, such as cod from Bergen and furs from Novgorod. Then study one crisis, the war with Denmark ending at Stralsund in 1370, to see how a league with no army or treasury still made rulers back down. Contrast that with Dutch competition after 1500.
+
+## Common Misconceptions
+- The Hanseatic League was a state with its own government and army. (It was a loose confederation with no standing army, no permanent executive, and no shared treasury, and it acted through embargoes and temporary coalitions.)
+- Its member cities acted as one bloc. (Cities competed with each other, attendance at the diets was voluntary, and decisions had to be ratified by each city council.)
+- Medieval long-distance trade was mostly in luxury goods. (Much of the Hansa's trade was in bulk goods such as fish, grain, timber, and iron, alongside cloth, furs, and wax.)
+- The League collapsed suddenly after a single defeat. (It faded gradually from the 16th century as trade shifted to the Atlantic and national states favored their own merchants, with its last diet in 1669.)
+
 ## Questions
 
 ```yaml

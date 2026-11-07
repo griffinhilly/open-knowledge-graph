@@ -19,6 +19,15 @@ status: validated
 ## Core Idea
 Famine — widespread food scarcity leading to mass starvation — has been common throughout human history. Famines result from multiple causes: crop failure (drought, disease, frost); disrupted food systems (war, trade disruption); unequal distribution (those with money buy available food, starving the poor); population exceeding food supply. Major famines: Bengal famine (1770s), Irish potato famine (1845-1852), Bengal famines (1873-1945), Soviet famine (1932-1933), Chinese famine (1959-1961), Ethiopian famine (1983-1985), Bangladeshi famine (1974). Most famines are not purely natural disasters but result from human choices: policies that deprioritize food security, trade systems that move food away from hungry regions, wars that disrupt production and distribution, inequalities that concentrate food with elites. Famines are now preventable: modern agriculture produces enough food globally; transportation enables redistribution; early warning systems can trigger aid before crisis. Yet famines still occur because of political decisions: governments sometimes permit or cause famines; international aid is inadequate; conflicts disrupt food systems. Understanding famine history reveals that widespread starvation is not inevitable but results from failures of distribution and policy. It also shows that preventing famine requires not just agricultural productivity but political commitment to food security.
 
+## How It's Best Learned
+For each famine studied, fill in two boxes: the trigger (blight, drought, collectivization, war) and the conditions that turned it into mass death (exports, relief policy, falling wages, suppressed reporting). Ireland in the 1840s and Bengal in 1943 make a strong pair. Then test Sen's entitlement idea on each case by asking whether food existed nearby and why the hungry could not get it.
+
+## Common Misconceptions
+- Famine happens when a region simply runs out of food. (Sen argued that many famines occur when food exists but poor people lose the income or rights needed to obtain it, as he found in Bengal in 1943, though the size of that year's shortfall is still debated.)
+- Famines are natural disasters. (A blight or drought may trigger one, but policy largely shapes whether it becomes mass starvation, as continued food exports and limited relief in Ireland showed.)
+- Growing more food is the main way to prevent famine. (Accountable government, a free press, relief systems, and people's ability to buy food matter at least as much as total supply.)
+- Famine ended with modern agriculture. (Famines still occur, mainly in conflict zones where war disrupts food systems.)
+
 ## Questions
 
 ```yaml

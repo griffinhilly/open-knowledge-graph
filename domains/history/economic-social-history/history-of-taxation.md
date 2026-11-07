@@ -19,6 +19,15 @@ status: validated
 ## Core Idea
 Taxation — government collection of revenue from individuals and businesses — is fundamental to modern states. Early taxation was often arbitrary and unpopular; the American Revolution was partly triggered by British taxation; the French Revolution partly by financial crisis linked to unequal taxation. Modern tax systems include: income tax (taxation of wages and profit); sales tax (taxation of consumption); property tax (taxation of wealth); corporate tax (taxation of business profit). Tax incidence — who actually bears the tax burden — varies: progressive taxes (higher rates for higher income) shift burden to wealthy; regressive taxes (same rate for all) place heavier burden on poor. Tax systems also serve redistributive purposes: governments use taxes to fund public goods (roads, education, defense) and transfer payments (welfare, healthcare, pensions). Progressive taxation increased during the 20th century: top tax rates reached 90% in the US during WWII. Yet since the 1980s, taxation has become less progressive: top tax rates have fallen; corporate taxes have fallen; wealth taxation has been reduced. Outcomes of tax policy vary: countries with progressive taxation and strong public spending have lower inequality and poverty; countries with regressive taxation have higher inequality. Understanding taxation history reveals that tax systems are choices, not natural features. They reflect political power: wealthy groups lobby for low taxes; workers lobby for public spending and progressive taxation. Tax policy is thus a key site of political contestation about distribution of resources.
 
+## How It's Best Learned
+Calculate taxes for three imaginary households, low, middle, and very high income, under a 1950s-style bracket system with a 91% top rate and under a flat sales tax. Comparing the share of income each pays makes marginal rates and regressivity concrete. Then trace how income tax arrived: Pitt's 1799 war tax, its repeal in 1816, Peel's return in 1842, and the US 16th Amendment in 1913.
+
+## Common Misconceptions
+- A 91% top rate meant the richest people handed over 91% of everything they earned. (It was a marginal rate that applied only to income above a very high threshold, and deductions lowered what the wealthy actually paid.)
+- A sales tax is fair to everyone because all buyers pay the same rate. (Poorer households spend a larger share of their income, so the tax takes a larger share of what they earn.)
+- Income tax has existed for as long as states have. (Older states taxed land, harvests, and trade, and modern income tax began as a temporary war measure in Britain in 1799.)
+- Cutting tax rates produces enough growth to pay for itself. (That can happen only if rates start very high, and after the 1981 US cuts, deficits grew sharply.)
+
 ## Questions
 
 ```yaml

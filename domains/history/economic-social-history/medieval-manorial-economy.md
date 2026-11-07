@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 The medieval European economy was organized around the manor — a landed estate controlled by a lord, worked by peasants who owed obligations (labor, rent, fees) to the lord in exchange for protection and use of land. Peasants were not slaves but were largely bound to the land, unable to leave without permission. The manorial system was locally self-sufficient: each manor produced most of what it consumed. Trade existed but was limited — long-distance trade was restricted to luxury goods. The manor was the economic unit and the social unit; the lord's authority was both economic (controlling resources) and political. Medieval peasants worked hard but had some customary rights: lords could not arbitrarily increase obligations; peasants had some use rights to commons (forests, grazing lands). The manorial economy was inefficient by modern standards — it lacked incentive for innovation — but it was stable and provided subsistence security. The manorial economy began fragmenting in the 12th century as trade revived and towns grew. Understanding manorialism requires recognizing both its stability and its constraints: it provided security but little opportunity for improvement; it was hierarchical and coercive yet not as absolutistic as slavery. It reveals how medieval European economy differed from both ancient slavery-based economies and modern market economies.
 
+## How It's Best Learned
+Draw a model manor: the lord's demesne, three great fields cut into strips, the meadow, woods, mill, and village. Then give one villein household its strips in each field and list its week, including days owed on the demesne, fees, and what came from the commons. Finally, rerun that household's position after the Black Death to see why labor services gave way to money rents.
+
+## Common Misconceptions
+- Medieval peasants were basically slaves. (Villeins were bound to the manor and owed labor, but they could hold property, buy and sell goods, and claim customary limits on what the lord demanded.)
+- Every manor was sealed off from trade. (Manors relied on outside trade for necessities like salt and iron, and local markets and fairs were common.)
+- Scattered strips show that medieval farming was irrational. (Economic historians have argued that spreading each household's land across fields of different quality reduced the risk that one storm or flood would ruin a single family.)
+- The Black Death only brought ruin to peasants. (For survivors, labor scarcity raised wages and bargaining power and sped the end of labor services in England.)
+
 ## Questions
 
 ```yaml

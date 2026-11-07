@@ -19,6 +19,15 @@ status: validated
 ## Core Idea
 The informal economy comprises unregistered work and trade: street vending, domestic service, casual labor, small shops, family businesses. Informal workers are not registered, do not pay taxes, have no official employment protections or benefits. The informal economy is large: globally, roughly half of non-agricultural employment is informal; in poor countries, it is much larger. Informal work is often low-wage, insecure, and exploitative, yet it provides income for billions. The informality reflects both choices and constraints: some people prefer informal work's flexibility; most are in informal work because formal jobs are unavailable. Informal workers are vulnerable: they can be fired without recourse; they have no access to unemployment, healthcare, or pension; they are subject to arbitrary taxation and harassment from authorities. Yet informal economies are also dynamic: informal workers are entrepreneurs who create jobs and generate income; informal trade networks can be efficient. Understanding informal economy history requires recognizing that it is not simply a transitional phase that disappears with development — rather, it is a persistent feature of modern economies, particularly in poor countries. It also shows that development requires not just GDP growth but formalization: bringing informal workers into registered employment with protections and benefits.
 
+## How It's Best Learned
+Begin with Keith Hart's puzzle in Accra: official statistics called migrants unemployed, yet they were busy selling, hauling, and making things all day. Then sort a list of jobs, such as a street vendor, a delivery rider, a nanny, and a factory worker, by which protections each has and why. Comparing Mayhew's 1851 London street sellers with today's gig workers shows the pattern repeating.
+
+## Common Misconceptions
+- People in the informal economy are unemployed or idle. (Most are working hard and earning income, just in activities that official statistics and labor law do not register.)
+- Informal work is a small fringe found only in poor countries. (The ILO estimates that over 60% of the world's workers are informally employed, and wealthy countries have cash-in-hand work, unregistered domestic work, and gig work.)
+- The informal economy shrinks away on its own as a country grows. (It has persisted for centuries, and some middle-income countries such as Brazil and Mexico still have large informal sectors.)
+- Giving informal owners legal property titles will unlock credit and growth. (Titling in Peru improved security but did not bring the expected credit boom, because lenders and incomes were also lacking.)
+
 ## Questions
 
 ```yaml

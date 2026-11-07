@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Consumer society — organized around mass production and consumption of goods — emerged in the 20th century, particularly in the US. Mass production (assembly line manufacturing) created abundance of cheap goods; rising wages enabled workers to consume beyond subsistence; advertising created demand for goods. Shopping became a leisure activity; consumption became central to identity and aspiration. Advertising shifted from informing about products to creating desire and associating products with status and happiness. Consumption became increasingly central to how people defined themselves and found meaning — 'I shop, therefore I am.' Yet consumer society rests on contradiction: it requires continuous consumption growth, yet resources are finite. It also creates inequality: access to consumer goods depends on income; advertisements promote consumption as the path to happiness, yet consumption purchased with debt and low wages does not deliver happiness. Consumer society also generates waste: planned obsolescence ensures goods break or become unfashionable, requiring replacement. Understanding consumer society's history reveals it was actively created through advertising, credit systems, and corporate strategy — it was not inevitable that consumption would become central to social life and meaning-making. It also shows how consumption can be a form of social control: if people seek meaning and identity through consumption, they are vulnerable to advertising and spending, and less likely to seek meaning through political participation or community.
 
+## How It's Best Learned
+Treat the 1920s car market as a case study: Ford's falling Model T price and five-dollar day on the supply side, then installment credit, advertising, and GM's annual model change on the demand side. Put a 19th-century text-heavy newspaper ad next to a 1920s image ad and name what each one is selling. Then ask which pieces spread to Europe and Japan after 1945.
+
+## Common Misconceptions
+- Once goods became cheap, people naturally started buying more of them. (Demand was also built deliberately through installment credit and advertising that created desire, while rising wages gave workers more to spend.)
+- Planned obsolescence just means products are made to fall apart. (It also includes style-driven obsolescence: GM's annual model change made last year's car look outdated while it still ran.)
+- Advertising has always worked by playing on emotions and status. (Much 19th-century advertising announced products and prices, and the shift toward selling feelings took hold in the early 20th century.)
+- Consumer society was pure manipulation with no real benefits. (It raised material living standards for many people while also creating debt, waste, and environmental costs.)
+
 ## Questions
 
 ```yaml

@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 The Great Depression (1929-1939) was the most severe economic contraction in modern history. It began with the stock market crash of October 1929 but reflected deeper instabilities: overproduction in agriculture and industry; excessive debt and speculation; maldistribution of income. As demand fell, firms reduced production and laid off workers; as unemployment rose, demand fell further, creating a vicious cycle. Without government intervention, the Depression would have been even worse. The initial response — austerity — made things worse: reducing government spending during recession reduces demand further. President Franklin D. Roosevelt's New Deal implemented counter-cyclical policies: government spending to employ workers (WPA, CCC), support for agriculture and industry, social insurance (Social Security), and banking regulation. These policies were controversial — orthodox economists opposed government spending during deficits — but worked: unemployment fell from 25% (1933) to 10% (1940). The Depression's recovery was slow partly because of continued caution, and partly because WWII military spending provided massive stimulus. The Depression revealed both the market's fragility — capitalism could collapse without intervention — and the power of policy to mitigate collapse. It also challenged classical economics' assumption that markets self-correct; Keynes argued that government intervention was necessary. Understanding the Great Depression requires recognizing both its causes (overproduction, excessive speculation, maldistribution) and its policy implications — there are lessons about how not to manage recession (austerity), and about what works (stimulus).
 
+## How It's Best Learned
+Draw the downward spiral as a loop: falling demand, layoffs, lower income, bank runs, less credit, and back to falling demand. Then mark where each policy choice entered the loop, from Smoot-Hawley, the Fed's 1931 rate rise, and the 1932 tax increase to leaving gold, the bank holiday, and the WPA. Plotting the unemployment rate from 1929 to 1944, with the 1937 relapse, shows which choices helped.
+
+## Common Misconceptions
+- The 1929 stock market crash caused the Depression by itself. (The crash was the trigger, but debt, bank failures, the gold standard, and policy mistakes turned a downturn into a decade-long collapse.)
+- Cutting government spending in a slump helps by putting public finances in order. (In a deep slump, spending cuts and tax rises reduce demand further, as the 1932 US tax increase and the 1937 relapse suggest.)
+- The New Deal fully ended the Depression before the war. (Unemployment fell a lot after 1933 but stayed high, and full employment came with World War II spending.)
+- The Depression was mainly an American crisis. (It spread across the world economy, and parts of Europe were hit as hard or harder.)
+
 ## Questions
 
 ```yaml

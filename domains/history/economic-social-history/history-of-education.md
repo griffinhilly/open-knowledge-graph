@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 For most of human history, formal education was restricted to elites — priests, nobles, wealthy merchants. Mass education emerged with industrialization: industrial economies needed literate, numerate workers; democratic ideology held that all citizens should be educated. European nations developed public school systems in the 19th century, gradually expanding from primary to secondary to tertiary education. Education became seen as essential to individual opportunity and national development. Yet education also reproduced inequality: wealthy families could afford better schools; schools reflected dominant culture, often excluding minorities; girls were excluded from many schools. Education expanded dramatically in the 20th century: literacy spread globally; college attendance increased; women gained access to education. Yet inequalities persist: wealthy countries have more and better-funded schools; within countries, poor communities have worse-funded schools. Education correlates strongly with earnings and social mobility, yet intergenerational mobility is limited — children's education and future earnings depend heavily on parents' education and income. Understanding education's history reveals its dual character: it genuinely provides opportunity for advancement, yet it also legitimates inequality by framing success as merit-based (those who succeed 'deserved' it through hard work in school) rather than acknowledging that education access depends on family wealth.
 
+## How It's Best Learned
+Follow the Prussian model as it spread: Prussia after Jena in 1806, Horace Mann's Massachusetts in the 1840s, and Meiji Japan in the 1870s, asking what each state wanted schools to produce. Pair that with the global literacy figures, about 20% in 1870 and over 85% today. Then compare two school districts' funding today to see how access can expand while inequality persists.
+
+## Common Misconceptions
+- Mass schooling spread only because factories needed literate workers. (States also built schools for nation-building, military strength, and democratic citizenship, as Prussia did after its defeat in 1806.)
+- Most adults could read by the industrial era. (Around 1870 only about one in five adults worldwide was literate, and mass literacy in much of the world came in the 20th century.)
+- Giving everyone access to school equalizes opportunity. (School quality, funding, and family resources still differ widely, so outcomes track family background.)
+- Grades and test results measure pure natural ability. (Bourdieu argued that schools reward cultural habits learned at home, which favors children from educated families.)
+
 ## Questions
 
 ```yaml

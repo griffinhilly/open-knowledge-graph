@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 The Industrial Revolution (roughly 1760-1840) in Britain and then Europe and North America transformed production from craft-based to machine-based manufacturing. Textile manufacturing mechanized first: the spinning jenny, water frame, and power loom automated labor-intensive steps. Steam power enabled factories to operate anywhere, not just near water sources, and powered transportation (steam ships, locomotives). Factories concentrated production, enabling economies of scale and division of labor. Factory production was more efficient — it produced more goods per worker per unit of time — than craft production. Yet it also generated enormous social disruption: craftspeople whose skills were devalued by machines faced unemployment; rural workers migrated to cities for factory work; factory work was dangerous, monotonous, and poorly paid. The Industrial Revolution created enormous wealth — GDP per capita in industrializing nations increased dramatically — yet this wealth accrued primarily to factory owners and merchants, not to workers. The revolution also enabled new forms of social organization: large corporations, professional management, complex supply chains. Understanding the industrial revolution requires both appreciation for its productive power and recognition of its costs: it raised living standards eventually, but initially impoverished many; it centralized economic power; it created new forms of inequality. It also reveals how technological change drives social change — machines did not merely improve production, they reorganized how production was organized and how people lived.
 
+## How It's Best Learned
+Follow cotton cloth through its production steps and mark which machine took over each one: the spinning jenny, water frame, mule, and power loom. Then add the steam engine and railway and draw the coal-iron-steam-rail loop that fed itself. Set a graph of British GDP per capita beside one of real wages for 1780-1840 to see the Engels Pause, and read a passage of Engels alongside it.
+
+## Common Misconceptions
+- Steam power started the Industrial Revolution. (Mechanization began in cotton textiles, with early mills like Arkwright's running on water power, and steam spread more gradually after Watt's improvements.)
+- Industrialization quickly made workers better off. (Real wages for many workers were roughly flat from about 1780 to 1840 while output per person rose, a gap called the Engels Pause.)
+- Britain industrialized first for one reason, such as coal or colonies. (Historians point to a combination, including coal, high wages, institutions, a large home market, and colonial trade, and they still debate the weight of each.)
+- Once the new machines existed, the rest of the world soon industrialized too. (Most of the world did not industrialize in the 19th century, and British competition helped devastate India's hand spinning and textile export trade.)
+
 ## Questions
 
 ```yaml

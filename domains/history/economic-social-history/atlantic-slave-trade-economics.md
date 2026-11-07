@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 The Atlantic slave trade (roughly 1500-1800) forcibly transported over 12 million Africans to the Americas, primarily to work on sugar, tobacco, and later cotton plantations. The trade was enormously profitable: traders purchased enslaved people in Africa (often from slave-trading merchants), transported them across the Atlantic (with horrific mortality), and sold them in the Americas. The profit came from selling enslaved people at much higher prices in the Americas than they cost in Africa. Slavery became profitable only because plantation agriculture was labor-intensive and death rates in the tropics were high — replacing workers through continuous imports was cheaper than maintaining a stable enslaved population (a grim calculation but one made by plantation owners). The slave trade enriched merchants, ship builders, port cities, and investors — it was central to the rise of capitalist merchants in ports like Liverpool and Bristol. Enslaved people's forced labor produced wealth for the Americas and Europe; this wealth partly funded the Industrial Revolution. Yet the slave trade was unstable: it depended on warfare and slave-raiding in Africa; it caused demographic collapse in some regions; it was profitable only as long as alternatives (free wage labor) were unavailable. Understanding the economics of slavery requires recognizing its profitability and its central role in early modern capitalism, while also recognizing that it was an aberration — that free labor is more productive and more compatible with development. The legacy of slavery-derived wealth persists in wealth inequality today.
 
+## How It's Best Learned
+Follow the money around one triangular voyage: what goods left a port like Liverpool, what they bought on the African coast, what enslaved people sold for in the Caribbean, and what sugar returned. At each leg, name who profited, including insurers, refiners, and lenders far from any plantation. Then compare the planters' "work to death and replace" calculation with later American slavery, which grew through births.
+
+## Common Misconceptions
+- Only slave ship captains and Southern planters made money from slavery. (Profits ran through ports, shipbuilders, insurers, refiners, textile mills, and banks, including in Northern and European cities.)
+- The slave trade ended because it stopped being profitable. (The British trade was still commercially viable in 1807, and abolition came from a sustained political and moral campaign.)
+- Africans were only passive victims, with Europeans doing all the capturing. (African states and merchants raided and sold captives, while Europeans created the demand and supplied ships and capital. This does not reduce European responsibility.)
+- Economic historians agree that slave-trade profits directly paid for the Industrial Revolution. (Eric Williams made this argument in 1944, and the direct causal link remains debated.)
+
 ## Questions
 
 ```yaml

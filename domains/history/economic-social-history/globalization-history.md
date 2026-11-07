@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Globalization — the increasing integration of economies, communications, and cultures across borders — accelerated dramatically in the late 20th century. Trade as a share of world GDP grew; foreign direct investment increased; multinational corporations became dominant; supply chains spanned continents. Reduced transportation costs, telecommunications, and trade liberalization (GATT, WTO) enabled this integration. Globalization offered benefits: consumers access cheaper goods; developing countries gain export markets and investment; global problems (climate change, pandemics) require global solutions. Yet it also created costs and anxieties: manufacturing jobs shifted from wealthy countries to lower-wage countries; local industries could not compete with imports; corporate power increased relative to national governments; profits flowed to investors while workers' wages stagnated; environmental costs (pollution, resource depletion) were often externalized to poor countries. Globalization is not inevitable or neutral — it reflects decisions by governments, corporations, and international institutions. Different forms of globalization are possible. Understanding globalization's history requires recognizing both its efficiency benefits (trade does reduce prices and increase choice) and its distributional consequences (winners and losers). It also requires attention to how globalization's architecture — trade agreements, investment rules, IP protection, labor mobility restrictions — shapes outcomes. The current backlash against globalization reflects legitimate grievances about its unequal distribution of benefits, even if the proposed solutions are often problematic.
 
+## How It's Best Learned
+Compare the two waves directly: for 1870-1914 and for 1980-2008, list the transport technology, the communication technology, the monetary or trade rules, and what moved most (goods, capital, people). Then study why the first wave collapsed after 1914. Finally, take one product, such as a smartphone, map where each part is made, and ask who in each place gains or loses.
+
+## Common Misconceptions
+- Globalization started in the 1980s and 1990s. (A first wave from about 1870 to 1914 reached very high levels of trade, investment, and migration before the late 20th century surge.)
+- Once economies integrate, globalization keeps moving forward. (The first wave collapsed with World War I and the Depression, and trade as a share of world GDP was far below its 1913 peak by 1945.)
+- Free trade makes everyone better off. (Trade can raise total income while concentrating job losses in particular places, as the China shock research showed.)
+- Technology alone drives globalization. (Rules and institutions such as GATT, the WTO, and financial deregulation shaped how far and in what form integration went.)
+
 ## Questions
 
 ```yaml

@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 The demographic transition model describes how populations change as societies develop: high birth and death rates (pre-modern) → falling death rates with stable birth rates (early development) → falling birth rates (modern). As public health improves and infant mortality falls, death rates drop; people have fewer children as children become more expensive to raise and education becomes more valuable. This transition reshaped human populations: Europe transitioned in the 19th century; much of the world transitioned in the 20th. The transition explains why populations in wealthy countries are aging (low birth rates) while populations in poor countries are younger (higher birth rates). It also explains global population growth: during the transition, populations surge (falling death rates before birth rates fall); after transition, growth slows. Understanding the demographic transition is crucial for understanding modern inequality: wealthy countries achieved lower birth rates partly through female education and economic opportunity; poor countries have higher birth rates partly because education is less available. This creates a feedback loop: high birth rates make development harder; lack of development maintains high birth rates.
 
+## How It's Best Learned
+Draw the model as two lines over time, birth rate and death rate, and shade the gap between them as population growth. Mark where each stage begins. Then place real cases on the same chart: 19th-century Europe, a 20th-century developing country with a compressed transition, and present-day Japan or South Korea below replacement. Seeing the gap open and close explains the surge.
+
+## Common Misconceptions
+- Populations boom because people start having more children. (The surge comes mainly from falling death rates, especially among infants and children, while birth rates stay high for a time.)
+- Contraception is the main reason birth rates fall. (Family planning helps couples reach the family size they want, but desired family size falls as children become costly to raise and women gain education and work.)
+- Every country moves through the stages at the same pace and at the same income level. (Much of the developing world went through the transition faster than Europe did, and fertility has fallen at different income levels in different places.)
+- Once a country reaches low birth and death rates, its population stays stable. (Many wealthy countries now have fertility below replacement, which leads to aging and, without immigration, decline.)
+
 ## Questions
 
 ```yaml

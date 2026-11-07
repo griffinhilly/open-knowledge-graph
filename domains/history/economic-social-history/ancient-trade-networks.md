@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Long-distance trade networks existed from antiquity, connecting the Mediterranean, Indian Ocean, and Silk Road routes. Trade moved luxury goods (silk, spices, gems), bulk goods (grain, timber), and people (merchants, slaves, refugees). Trade was motivated by profit — silk from China commanded enormous prices in Rome because it was rare and difficult to produce. Yet trade also carried cultural exchange: religions, ideas, technologies, and artistic styles spread along trade routes. The Silk Road connected China, Central Asia, the Middle East, and Rome through multiple intermediaries. The Indian Ocean trade connected Africa, India, the Arabian Peninsula, and Southeast Asia. These networks were not uniform — they fluctuated with political stability, warfare, and climate — but created interdependencies: price changes in one region affected others. Ancient trade networks reveal that globalization is not new; exchange networks have existed for millennia. Yet the scale has grown: modern globalization connects far more regions, moves far more goods, and moves them faster. Understanding ancient trade networks also reveals how economic connections could be as powerful as political ones — empires rose and fell partly on control of trade routes.
 
+## How It's Best Learned
+Trace one good, such as a bolt of Chinese silk, on a map from producer to Roman buyer, marking each intermediary who handled it and took a cut. Then trace one idea, such as Buddhism, and one disease along the same routes. Comparing the Silk Road, Indian Ocean, and Mediterranean side by side, by goods, transport, and who controlled them, shows how each network worked differently.
+
+## Common Misconceptions
+- The Silk Road was a single road that merchants traveled from end to end. (It was a web of overland and sea routes, and most goods passed through many intermediaries, such as Sogdian merchants, rather than one trader making the whole trip.)
+- Ancient trade only moved luxuries for the rich. (Bulk goods like grain, timber, olive oil, and garum moved long distances and fed and supplied ordinary people.)
+- Globalization began with European voyages after 1492. (Large exchange networks linked Africa, Asia, and the Mediterranean for many centuries before that, though at a smaller scale and slower pace than today.)
+- Trade moved goods, and that was its main effect. (Religions, technologies, crops, and diseases traveled the same routes, sometimes with larger long-term effects than the goods.)
+
 ## Questions
 
 ```yaml

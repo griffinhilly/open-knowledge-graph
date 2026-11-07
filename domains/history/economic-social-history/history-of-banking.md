@@ -19,6 +19,15 @@ status: validated
 ## Core Idea
 Banking — the practice of accepting deposits and making loans — emerged in medieval Europe from money-changing and merchant operations. Early banks (like the Medici bank in Florence) financed trade and government; bankers became wealthy and influential. Banking depends on trust: depositors must believe their money is safe; borrowers must be able to repay. This introduces risk: banks do not actually hold all deposits as cash (fractional reserve banking); if many depositors withdraw simultaneously, banks fail. Bank crises have occurred repeatedly: panics when confidence collapses; runs as depositors rush to withdraw; failures as banks cannot pay. Modern central banks evolved partly to manage these risks: they act as lenders of last resort, providing liquidity during crises; they regulate banks to ensure safety. Yet banking also creates opportunities for speculation and excessive risk-taking: if profits are private but losses are socialized (governments bail out failing banks), banks have incentive to take excessive risks. The 2008 financial crisis resulted from excessive risk-taking in mortgage lending and derivatives; governments bailouts saved banks while homeowners and workers suffered. Understanding banking's history reveals both its necessity (credit is essential for economic activity) and its dangers (fractional reserve banking and profit incentives create instability). It also shows how government regulation and central banking evolved to manage instability, yet remain imperfect. The political economy of banking — how financial interests shape regulation — is crucial to understanding modern economies.
 
+## How It's Best Learned
+Simulate a small bank's balance sheet: 100 in deposits, 10 kept as cash, 90 lent out, then have depositors ask for 30 at once. Seeing a sound bank fail for lack of cash makes runs, lenders of last resort, and deposit insurance easy to place. Then build a timeline of crisis and response: 1866 and Bagehot, 1907 and the Fed, 1930-33 and the FDIC, 1999 and 2008.
+
+## Common Misconceptions
+- A bank keeps my deposit in its vault until I ask for it. (Banks keep only a fraction of deposits as cash and lend out the rest, which is why a sudden rush of withdrawals can break them.)
+- Only banks with bad loans fail in a run. (A solvent bank with good loans can still fail if too many depositors withdraw at once, because loans cannot be turned into cash quickly.)
+- Central banks were created to manage the economy. (The Bank of England was founded in 1694 to lend money to the government for war, and its lender-of-last-resort and monetary roles developed later.)
+- Once a crisis produces good regulation, the problem is solved. (Rules like Glass-Steagall were weakened over time and partly repealed in 1999, and new crises followed.)
+
 ## Questions
 
 ```yaml

@@ -19,6 +19,15 @@ status: validated
 ## Core Idea
 Insurance — pooling risk among many individuals — emerged from maritime trade: merchants agreed that if one ship sank, the loss would be shared among all participants. This principle — spreading risk so no one bore catastrophic loss alone — enabled risky ventures. Insurance evolved into a formal industry in 17th-century England; insurance companies assessed risk and charged premiums reflecting expected losses. Insurance requires accurate risk assessment: actuaries developed statistical methods to estimate probability of losses. Insurance enables both individual protection (health insurance, car insurance) and social insurance (unemployment, old-age pensions funded by contributions). Insurance has moral hazard problem: if insured, people might take more risks (knowing losses are covered); insurance companies address this through deductibles and exclusions. Successful insurance requires many participants (to pool risk effectively) and accurate risk assessment. Insurance markets can fail: some risks (catastrophic losses, rare events) may not be insurable; adverse selection (high-risk individuals buy more insurance) can make insurance unprofitable; information asymmetry (companies know risks poorly) can lead to excessive premiums or unfair exclusions. Understanding insurance history reveals that modern insurance is based on statistical understanding of risk and is dependent on institutions (companies, regulators) that verify risk and enforce contracts. It also shows that insurance can protect individuals but insurance-based systems leave uninsured populations vulnerable.
 
+## How It's Best Learned
+Price a policy yourself: take a group of 1,000 forty-year-olds, use a death rate from a life table like Halley's, and work out the premium each must pay to cover expected deaths. Then break the pool on purpose, first by letting only the sickest join (adverse selection), then by hitting everyone at once (a correlated risk like a pandemic). Those two failures show the economic case for compulsory, state-backed social insurance of the kind Bismarck introduced.
+
+## Common Misconceptions
+- Insurance began with Lloyd's coffee house in the 1680s. (Written marine insurance contracts existed in Genoa by the 1340s, and Lloyd's grew out of that older practice.)
+- Insurance makes a loss go away. (It spreads the cost of losses across everyone paying premiums, so the loss is still paid, just shared.)
+- Any risk can be insured if the premium is high enough. (When a disaster hits all policyholders at once, pooling stops working, so private insurers often cannot cover such risks at an affordable price.)
+- Social insurance is just private insurance run by the government. (It is compulsory for the groups it covers, which blocks adverse selection, and its premiums and benefits are set by law rather than by the market.)
+
 ## Questions
 
 ```yaml

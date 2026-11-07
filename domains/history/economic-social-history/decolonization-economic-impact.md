@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Decolonization (roughly 1945-1970) saw colonial territories in Asia and Africa gain independence from European and other imperial powers. Newly independent nations faced profound economic challenges: colonial economies had been organized to extract resources for the metropole, not to develop local industry or capacity. Infrastructure (railroads, ports) was oriented toward extraction; education and technical expertise were limited; colonial currencies became foreign currencies. Many newly independent countries attempted import-substitution industrialization — developing local industry to replace imports — with mixed results. Some (South Korea, Taiwan) developed successful indigenous industry; others struggled with capital scarcity, technical expertise gaps, and dependence on commodity exports. The newly independent countries also faced international economic constraints: they owed debts to former colonizers; international trade was structured around existing power relationships; they competed with each other as commodity exporters, driving prices down. Many remained economically dependent on former colonizers. Understanding decolonization's economic dimensions reveals that independence was not simply a political transformation but an economic challenge: extractive colonial economies did not automatically transform into developed economies. It also shows how colonialism's legacy persisted: even after political independence, economic dependence continued through debt, trade relationships, and structural disadvantage. The relationship between colonialism and modern inequality — wealthy formerly-colonizing nations, poorer formerly-colonized nations — is not accidental but result of the colonial extraction system.
 
+## How It's Best Learned
+Start with a map of a colonial railway network, such as one in West Africa, and notice that the lines run from mines and plantations to ports rather than between cities. Then take one commodity exporter, such as Ghana with cocoa or Zambia with copper, and trace what happens to government revenue when the export price falls. That case makes ISI, debt, and structural adjustment easier to follow as responses.
+
+## Common Misconceptions
+- Political independence quickly gave former colonies control of their own economies. (Foreign firms, export patterns, and debts often carried over, and change came much more slowly than independence leaders hoped.)
+- New nations inherited useful infrastructure they could build on directly. (Railways and ports were mostly built to move raw materials to the coast, not to link domestic markets.)
+- A country that exports more of its main commodity will steadily grow richer. (Commodity prices swing widely, and the Prebisch-Singer hypothesis argued they tend to fall relative to manufactured goods over time.)
+- Import substitution failed everywhere it was tried. (It built real industry in places like Brazil and India, though it also produced protected firms that stayed inefficient.)
+
 ## Questions
 
 ```yaml

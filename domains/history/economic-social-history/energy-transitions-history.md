@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Energy transitions — shifts from one primary energy source to another — have shaped human history. Humans burned wood for heat; coal enabled the steam engine and industry; oil powered cars and global commerce; electricity enabled modern civilization. Each transition took decades: coal became dominant in the 19th century but did not eliminate wood use; oil became dominant in the 20th century but coal and other sources persisted. Energy transitions are driven by economics (new energy sources are cheaper or more convenient) but also shaped by vested interests (coal companies resisted oil; oil companies resist renewables). Transitions also involve infrastructure: switching to oil required oil refineries, gas stations, engines optimized for oil; switching to electricity requires power plants, transmission lines, electric motors. Current transitions to renewable energy face similar challenges: existing fossil fuel infrastructure is valuable; vested interests resist change; renewable infrastructure is expensive. Yet energy transitions also create opportunities: new industries, new jobs, technological innovation. Understanding energy history reveals that our current energy system is not inevitable but is contingent on historical choices. It also shows that transitions are difficult because they disrupt existing infrastructure and interests, yet transitions are necessary because all energy sources have limits (wood supplies depleted, coal is polluting, fossil fuels cause climate change).
 
+## How It's Best Learned
+Look at a stacked chart of world energy use by source over two centuries and notice that new sources pile on top of old ones rather than replacing them. Then, for each transition, list the infrastructure it required: mines and railways for coal, refineries and gas stations for oil, grids and storage for renewables. That list explains why each shift took decades.
+
+## Common Misconceptions
+- A new energy source quickly replaces the old one. (Each transition took decades, and older sources kept being used, as coal and wood still are today.)
+- Oil took over soon after the first commercial wells in 1859. (Oil grew slowly and surpassed coal worldwide only around 1965, driven mainly by the automobile.)
+- Societies switched from coal to oil because oil was cleaner. (The shift was driven by oil's advantages for transportation, and environmental concerns played little part.)
+- Once renewables are cheaper, the switch will happen fast by itself. (Existing fossil fuel infrastructure still has economic life left, and industries built around it resist change, which slows the transition.)
+
 ## Questions
 
 ```yaml

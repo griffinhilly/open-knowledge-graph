@@ -19,6 +19,15 @@ status: validated
 ## Core Idea
 Inequality — unequal distribution of wealth, power, and opportunity — varies across societies and time. Ancient and medieval societies had extreme inequality: elites controlled most wealth; commoners had few political rights; mobility between classes was limited. Industrial societies developed different forms of inequality: class (ownership of capital versus sale of labor) rather than status (legal ranks). Wealth inequality decreased in wealthy democracies during the mid-20th century (rising wages, progressive taxation, welfare states) but has increased since the 1980s (deindustrialization, declining unions, tax cuts for wealthy, globalization). Global inequality has not clearly trended: some countries developed rapidly (reducing inequality with wealthy countries) while most poor countries remained poor (increasing global inequality). Inequality within countries correlates with various harms: higher inequality societies have higher crime, worse health, lower social trust, lower social mobility. Yet inequality also varies as a choice: countries with similar levels of development have very different inequality depending on policies (taxes, spending, labor regulation, education). Understanding inequality history requires recognizing that inequality is neither natural nor inevitable, but results from institutions and policies. It also shows that some inequality reduction happened not automatically but through political struggle (progressive taxation, labor rights, welfare states). This suggests that reducing inequality requires political will and collective action.
 
+## How It's Best Learned
+Plot the US top 1% income share across the 20th century, about 18% in 1910, 8% in 1970, and 20% by 2015, and label each turn with its causes: wars, taxes, unions, then their reversal. Then compare the US curve with France or Germany after 1980. Learning what a Gini coefficient measures first makes the Rome-to-today comparisons in the Explainer easier to read.
+
+## Common Misconceptions
+- Inequality has risen steadily throughout history. (In many wealthy countries it fell sharply from about 1914 to 1950, stayed low until about 1980, and then rose again.)
+- Legal equality brings economic equality. (Industrial Britain gave citizens broad equality before the law, yet in 1910 the top 1% held about 70% of the country's wealth.)
+- The mid-20th century drop in inequality came from economic growth alone. (Wars and inflation destroyed fortunes, and progressive taxes, unions, and welfare states kept wealth from concentrating again.)
+- A country's level of development fixes how unequal it will be. (Countries at similar income levels differ widely, and since 1980 inequality rose much less in France and Germany than in the US.)
+
 ## Questions
 
 ```yaml

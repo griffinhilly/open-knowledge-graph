@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 The gold standard was a monetary system in which currency was directly convertible to gold at a fixed price. Adopted by Britain in 1816 and spread to much of the world in the late 19th century, the gold standard provided monetary stability: inflation could not exceed the rate at which new gold was discovered. Yet it also constrained monetary policy: governments could not increase money supply during recessions without abandoning the standard. The gold standard linked national currencies, creating fixed exchange rates and enabling international trade without currency risk. Yet it also spread economic crises across countries — if one country faced recession, the gold standard forced deflationary policies (reducing money supply) that worsened the recession rather than relieving it. During the Great Depression, countries on the gold standard faced the choice between deflation or abandoning the standard. Most eventually abandoned it; this allowed them to implement expansionary monetary policy that helped recovery. The Great Depression revealed the gold standard's fatal flaw: it prioritized monetary stability over full employment and growth. After WWII, the Bretton Woods system tried to preserve gold standard's benefits while allowing more monetary flexibility. Yet the system eventually collapsed (1971) when the US could no longer maintain the gold-dollar peg. Today, fiat currency (money not backed by commodities) is standard, and central banks manage money supply and inflation. Understanding the gold standard reveals how monetary systems embody choices: the gold standard chose stability over flexibility; modern fiat systems choose flexibility over stability. No system is neutral; each creates different incentives and outcomes.
 
+## How It's Best Learned
+Run Hume's price-specie-flow mechanism by hand with two imaginary countries: one runs a trade deficit, gold flows out, and you track money supply, prices, wages, and jobs step by step. Then replay the same shock in 1930 and ask what a country could do on gold and off it. Comparing recovery dates for Britain (left 1931) and France (stayed longer) makes the trade-off concrete.
+
+## Common Misconceptions
+- Under the gold standard, every unit of money was matched by gold in a vault. (Governments promised to convert currency at a fixed price, but much of the money in use, including bank deposits, was not matched one-for-one by gold reserves.)
+- The gold standard was the normal system for centuries. (Many economies used silver or both metals, and the international gold standard took hold mainly from the 1870s to 1914.)
+- Trade imbalances under gold corrected themselves smoothly. (Adjustment often came through falling prices, falling wages, and unemployment, which fell hardest on workers and debtors.)
+- A gold-backed currency guarantees a stable economy. (The gold standard era had financial panics in 1873, 1893, and 1907, and gold constraints deepened the Great Depression.)
+
 ## Questions
 
 ```yaml

@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 The Bretton Woods Conference (1944) established a new international monetary system designed to preserve the stability of the gold standard while allowing government flexibility. The system pegged national currencies to the dollar at fixed rates; the dollar was pegged to gold ($35/oz). This created a hierarchy: the dollar was central (all other currencies were defined relative to it), and the US backed the system by committing to convert dollars to gold. The system created stable exchange rates, enabling international trade and capital flows without currency risk. The International Monetary Fund (IMF) and World Bank were established to manage the system and provide loans to countries facing imbalances. Yet the system was inherently unstable: it depended on the US dollar being 'as good as gold,' but the US could not indefinitely maintain dollar-gold parity as other countries accumulated dollars. By the late 1960s, the US had to restrict gold conversions (Triffin dilemma). In 1971, President Nixon ended dollar-gold convertibility, collapsing the system. Bretton Woods revealed a fundamental problem: you cannot have a gold standard, fixed exchange rates, and independent monetary policy simultaneously — you can have at most two of the three (the impossible trinity). Today's system has floating exchange rates and central bank independence, sacrificing fixed rates for policy flexibility. Understanding Bretton Woods reveals how international monetary systems are artificial constructs that can be stable only if participants accept them — when the system became unsustainable, it collapsed, and a new system emerged.
 
+## How It's Best Learned
+Draw the system as a hub: gold at the center, the dollar fixed to it at $35 an ounce, and other currencies fixed to the dollar. Then run the Triffin dilemma as a simple ledger across the 1950s and 1960s, with foreign dollar claims rising while US gold stays limited. Watching the claims pass the gold makes the 1971 break feel inevitable rather than sudden.
+
+## Common Misconceptions
+- Bretton Woods was the old gold standard brought back. (Only the dollar was convertible into gold, and only for foreign governments and central banks; other currencies were pegged to the dollar.)
+- Exchange rates under the system were fixed forever. (Countries could adjust their pegs, with IMF approval for larger changes, in cases of "fundamental disequilibrium.")
+- Nixon's 1971 decision switched the world straight to floating rates. (The Smithsonian Agreement tried to keep fixed rates at new levels, and floating took hold when that failed in 1973.)
+- The IMF and World Bank were set up to do the same job. (The IMF gave short-term loans for balance of payments problems, while the World Bank gave long-term finance for reconstruction and development.)
+
 ## Questions
 
 ```yaml

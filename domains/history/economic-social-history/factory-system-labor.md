@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Factories concentrated production and workers in ways that were qualitatively different from craft production. Factory workers faced long hours (often 12-16 hours per day), dangerous conditions (machinery without guards), and low wages. They worked for factory owners, not on their own schedule, and faced harsh discipline for mistakes or insubordination. Factories employed women and children, who could be paid less than men, creating a gender-segmented labor force. Factory conditions were horrific by modern standards: injuries were common; diseases spread easily in crowded housing; few protections existed. Yet factories also concentrated workers, enabling collective organization: labor unions emerged to bargain for better conditions. The factory system created a clear class division between capital (owners) and labor (workers), and between management and workers. This clarity enabled political organization around class interests in ways that were less possible in craft or agricultural economies. The history of factory labor reveals both the costs of industrialization and how those costs generated resistance and eventually reform. Over the 19th and 20th centuries, labor movements succeeded in reducing hours, increasing wages, improving safety, and restricting child labor. Yet the tension between capital's interest in profit (achieved through low wages and minimal safety investment) and labor's interest in good conditions and decent pay remains fundamental. It also shows how globalization of production has shifted manufacturing to regions with weaker labor regulations.
 
+## How It's Best Learned
+Compare one day in the life of a handloom weaver working at home with one day for a child in an 1830s Lancashire mill: who sets the hours, the pace, the rules, and the penalties. Then line up the British Factory Acts from 1833 to 1867 and note who each one covered and who it left out. Ending with the Triangle fire and Rana Plaza shows the pattern continuing.
+
+## Common Misconceptions
+- The 1833 Factory Act ended child labor in Britain. (It banned children under 9 from textile factories and limited older children's hours, but it covered only textiles and set no limit for adults.)
+- Factory conditions improved because owners came to see that better treatment paid off. (Improvements came mainly through laws won by reform campaigns and organized workers, often after public scandals or disasters.)
+- The Luddites smashed machines because they feared all new technology. (They were textile workers protesting machinery that was being used to cut their wages and undermine their trade.)
+- Dangerous factory conditions belong to the past. (Global supply chains moved much manufacturing to places with weaker regulation, where disasters like the 2013 Rana Plaza collapse still occur.)
+
 ## Questions
 
 ```yaml

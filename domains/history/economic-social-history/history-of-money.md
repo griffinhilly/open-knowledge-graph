@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Money is a social technology: it emerges when communities need a medium of exchange beyond barter. Early money was commodity money — gold, silver, shells — valuable in itself. Commodity money enabled trade but was limited by the supply of the commodity. Governments began minting coins, certifying their weight and purity — a standardization that facilitated trade. As trade expanded, carrying metal became burdensome; paper money emerged — initially a receipt for stored metal, eventually fiat currency (money decreed to have value by government). Paper money enabled flexible money supply but required trust: if governments debase currency (reduce metal content while maintaining face value), inflation follows. Modern money is mostly electronic — digital accounts tracked by computers — rather than physical cash. Digital money is efficient but requires trust in institutions. Cryptocurrencies attempt to create money without central authority, using cryptographic verification; yet they lack the regulatory backing of state money and have been subject to volatility and fraud. Understanding money's history reveals that it is not a natural thing (gold does not inherently have value) but a social convention, dependent on collective belief. Different monetary systems embody different assumptions: commodity money assumes value is intrinsic; fiat currency assumes government authority confers value; cryptocurrencies assume decentralized verification enables trust. The choice of monetary system has profound economic consequences.
 
+## How It's Best Learned
+Line up five forms of money in order and ask one question of each: what makes people trust it? Use a Sumerian debt tablet, a Lydian coin, a Song jiaozi note, a Bank of England note, and a bank balance on a phone. Then follow one cycle of over-issuance, such as Yuan or Ming paper money, from easy printing to lost confidence to worthless notes.
+
+## Common Misconceptions
+- Paper money was a European invention. (In China, merchants in Sichuan issued paper notes by the late 10th century, and the Song state took over issuance in the 1020s, centuries before European banknotes.)
+- Today's money is valuable because gold stands behind it. (The US ended gold convertibility at home in 1933 and abroad in 1971, and modern money rests on state authority, taxes payable in it, and enforceable contracts.)
+- Most money is physical cash. (Most money today exists as electronic entries in bank accounts, and cash is a small share of the money supply.)
+- A government can make its people richer by printing more money. (Printing beyond what the economy produces leads to inflation, as Yuan and Ming paper money and later hyperinflations showed.)
+
 ## Questions
 
 ```yaml

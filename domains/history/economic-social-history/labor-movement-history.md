@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The labor movement emerged as workers organized collectively to improve conditions: form unions, bargain with employers, demand rights. Early labor movements faced fierce opposition from employers and governments; strikes could be violently suppressed. Yet labor organizing succeeded in reducing hours, increasing wages, improving safety, and establishing rights like freedom of association and collective bargaining. The labor movement also fought for political rights — democratic participation — recognizing that workers needed political power to protect economic interests. Labor movements varied across countries: in Scandinavia and much of Europe, labor unions became institutionalized partners in economic governance; in the US, labor unions exist but were weaker and less integrated; in authoritarian states, independent labor unions were repressed. Labor movements have declined in recent decades in wealthy countries: union membership has fallen; corporate power has increased relative to labor; globalization has allowed firms to shift production to regions with weaker labor regulation; labor's political influence has diminished. Yet labor remains important: workers depend on wages; unemployment and wage suppression are sources of insecurity. Understanding labor movement history reveals both the achievements (real improvements in conditions) and the ongoing tension: capitalism generates inequality between capital and labor; labor has had to fight repeatedly to protect its interests, and these gains can be reversed.
 
+## How It's Best Learned
+Build a timeline with two rows: what workers did (combinations, strikes, sit-downs) and how the law responded, from the Combination Acts of 1799 to their repeal in 1824, the Wagner Act of 1935, Taft-Hartley in 1947, and the PATCO firings of 1981. Then plot US union density, 11% in 1935, 35% in 1954, 10% by 2024, against those events. Comparing Sweden's 1938 Saltsjöbaden Agreement with the US path shows how institutions diverged.
+
+## Common Misconceptions
+- Shorter hours and labor rights were handed down by governments or generous employers. (Workers won them mainly through organizing and strikes, often against violent repression.)
+- Joining a union has always been legal. (Britain banned combinations from 1799 to 1824, and US employers could fire union organizers freely until the 1935 Wagner Act.)
+- Labor movements looked the same everywhere. (Unions in Scandinavia became partners in national wage-setting, US unions stayed weaker and less tied to a labor or socialist party, and authoritarian states repressed independent unions.)
+- Once labor wins a right, it stays won. (US union density fell from 35% in 1954 to 10% by 2024 as laws, enforcement, and the economy changed.)
+
 ## Questions
 
 ```yaml

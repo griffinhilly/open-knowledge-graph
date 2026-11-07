@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Mercantilism was an early modern economic doctrine: states should maximize precious metal reserves and trade surpluses, pursue colonies for raw materials and captive markets, and regulate trade to benefit the state. Under mercantilism, trade was understood as zero-sum competition — one nation's gain was another's loss. European states competed to establish colonies in the Americas, Africa, and Asia, viewing them as sources of wealth. Spain extracted precious metals from the Americas; Britain, France, and the Netherlands competed for trading posts and territorial control. Colonial economic systems were designed to extract value for the metropole (the colonizing power): colonies provided raw materials and markets for manufactured goods, enriching merchants and manufacturers at home. Mercantilist logic justified colonialism: colonies were investments; the metropole had a right to profit from them. Yet mercantilism rested on a misunderstanding — modern economics recognizes that free trade is mutually beneficial; zero-sum competition is not economically productive. Britain, under Adam Smith's influence, began moving away from mercantilism toward free trade in the late 18th century. Yet mercantilism's legacy persisted: colonial economies remained extractive; colonial elites remained subordinate to metropolitan interests. Understanding mercantilism reveals how economic theory shapes policy; it also shows that state-directed economic policy, once challenged, gave way to ideological free-market arguments that also served powerful interests.
 
+## How It's Best Learned
+Follow Potosí silver around the world: from the mine, to Seville, out again to pay for Dutch and English goods, and across the Pacific on the Manila Galleons. Ask at each stop who ended up richer and why Spain did not. Then read a short passage of Thomas Mun beside Adam Smith's reply in Book IV of the Wealth of Nations and list each tool of policy they argue about.
+
+## Common Misconceptions
+- Piling up gold and silver makes a country rich. (Spain's flood of American silver helped raise prices across Europe and flowed out to pay for imports, while its rivals built productive industry.)
+- Mercantilism was a single doctrine that its followers called by that name. (The label was applied later, and contemporaries spoke of trade policy or political economy.)
+- Mercantilist policies made no sense for anyone. (Monopolies, tariffs, and Navigation Acts served merchants, manufacturers, and state naval power, even though they reduced overall efficiency.)
+- Britain adopted free trade only because economists proved it was best for everyone. (Britain was already the most competitive industrial economy, and later industrializers such as Germany used tariffs to build their own industries.)
+
 ## Questions
 
 ```yaml
