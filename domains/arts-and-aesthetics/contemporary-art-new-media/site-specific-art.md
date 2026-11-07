@@ -3,7 +3,9 @@ id: site-specific-art
 title: Site-Specific Art Practice
 domain: arts-and-aesthetics
 course: contemporary-art-new-media
-prerequisites: []
+prerequisites:
+- id: installation-art
+  type: soft
 builds-toward: []
 tags:
 - contemporary-art-new-media

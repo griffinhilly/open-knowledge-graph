@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: cayley-theorem
   type: soft
+- id: basic-group-properties
+  type: hard
 builds-toward:
 - normal-subgroups
 - class-equation

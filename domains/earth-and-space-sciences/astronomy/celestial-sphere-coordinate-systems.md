@@ -3,7 +3,9 @@ id: celestial-sphere-coordinate-systems
 title: Celestial Sphere and Equatorial Coordinates
 domain: earth-and-space-sciences
 course: astronomy
-prerequisites: []
+prerequisites:
+- id: earths-rotation
+  type: soft
 builds-toward:
 - apparent-magnitude-brightness-measurement
 - stellar-parallax-and-distance

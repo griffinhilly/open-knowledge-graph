@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: bezout-identity
   type: soft
+- id: modular-arithmetic-congruences
+  type: hard
+- id: modular-arithmetic
+  type: hard
 tags:
 - number-theory
 - crt

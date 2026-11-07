@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: singular-homology-groups
   type: hard
+- id: homology-of-spheres
+  type: hard
 builds-toward:
 - lefschetz-fixed-point-theorem
 tags: [algebraic-topology, brouwer-fixed-point, applications, degree-theory]

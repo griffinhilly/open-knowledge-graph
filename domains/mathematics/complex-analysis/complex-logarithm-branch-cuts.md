@@ -6,6 +6,8 @@ course: complex-analysis
 prerequisites:
 - id: complex-exponential-function
   type: hard
+- id: complex-exponential-form
+  type: hard
 tags:
 - logarithm
 - branch-cut

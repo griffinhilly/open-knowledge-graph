@@ -3,7 +3,9 @@ id: interactive-art-installations
 title: Interactive Art Installations
 domain: arts-and-aesthetics
 course: contemporary-art-new-media
-prerequisites: []
+prerequisites:
+- id: installation-art
+  type: soft
 builds-toward: []
 tags:
 - contemporary-art-new-media

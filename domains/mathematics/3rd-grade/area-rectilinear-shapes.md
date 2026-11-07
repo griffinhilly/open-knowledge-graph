@@ -11,7 +11,6 @@ prerequisites:
 builds-toward:
 - area-of-parallelograms
 - area-of-triangles
-- decomposing-shapes
 tags:
 - area
 - rectilinear

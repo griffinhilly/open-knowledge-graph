@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: counting-money-simple
   type: hard
+- id: money-coins-paper-bills-2nd
+  type: hard
 builds-toward:
 - money-word-problems
 tags:

@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: rational-numbers-operations
   type: soft
+- id: one-step-equations
+  type: hard
 builds-toward:
 - equations-variables-both-sides
 - literal-equations

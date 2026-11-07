@@ -6,6 +6,8 @@ course: abstract-algebra
 prerequisites:
 - id: ring-homomorphisms
   type: hard
+- id: ring-definition-examples
+  type: hard
 builds-toward:
 - quotient-rings
 - maximal-prime-ideals

@@ -6,6 +6,8 @@ course: 2nd-grade
 prerequisites:
 - id: number-recognition-1-100
   type: soft
+- id: skip-counting-by-5s
+  type: soft
 builds-toward:
 - counting-money-simple
 - making-change-2nd

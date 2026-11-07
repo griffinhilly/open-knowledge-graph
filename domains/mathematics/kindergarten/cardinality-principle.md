@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: counting-objects-to-20
   type: soft
+- id: counting-sequence-to-five
+  type: hard
 builds-toward:
 - comparing-quantities-more-less
 tags:

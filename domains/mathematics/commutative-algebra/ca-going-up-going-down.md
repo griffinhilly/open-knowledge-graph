@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: ca-krull-dimension
   type: soft
+- id: ca-flatness
+  type: soft
 builds-toward:
 - ca-valuation-rings
 tags:

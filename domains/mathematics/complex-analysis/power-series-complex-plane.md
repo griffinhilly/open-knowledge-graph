@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: uniform-convergence
   type: soft
+- id: convergence-complex-sequences
+  type: hard
 builds-toward:
 - laurent-series
 tags:

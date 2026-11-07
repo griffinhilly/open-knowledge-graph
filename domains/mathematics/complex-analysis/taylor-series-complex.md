@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: complex-trigonometric-functions
   type: soft
+- id: holomorphic-functions
+  type: hard
 builds-toward:
 - power-series-complex-plane
 - laurent-series

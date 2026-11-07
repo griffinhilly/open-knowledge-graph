@@ -3,7 +3,9 @@ id: particle-filter-localization
 title: Particle Filter Localization (Monte Carlo Localization)
 domain: engineering
 course: robotics-and-autonomous-systems
-prerequisites: []
+prerequisites:
+- id: bayes-theorem
+  type: soft
 builds-toward:
 - motion-planning-algorithms
 - simultaneous-localization-and-mapping

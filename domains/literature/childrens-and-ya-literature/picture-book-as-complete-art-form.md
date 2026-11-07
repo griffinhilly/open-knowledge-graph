@@ -3,7 +3,9 @@ id: picture-book-as-complete-art-form
 title: Picture Book as Complete Art Form
 domain: literature
 course: childrens-and-ya-literature
-prerequisites: []
+prerequisites:
+- id: author-and-illustrator-roles
+  type: soft
 builds-toward:
 - wordless-picture-books-visual-narrative
 - picture-book-illustration-styles-caldecott

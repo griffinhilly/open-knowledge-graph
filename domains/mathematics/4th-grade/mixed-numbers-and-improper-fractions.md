@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: whole-number-fractions
   type: soft
+- id: intro-to-fractions-4th-grade
+  type: hard
 builds-toward:
 - adding-fractions-like-denominators
 - multiplying-mixed-numbers

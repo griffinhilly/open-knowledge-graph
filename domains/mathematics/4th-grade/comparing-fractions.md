@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: comparing-unit-fractions-3rd
   type: soft
+- id: intro-to-fractions-4th-grade
+  type: hard
 builds-toward:
 - adding-fractions-unlike-denominators
 - comparing-decimals

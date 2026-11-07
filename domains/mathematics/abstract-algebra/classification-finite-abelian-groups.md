@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: order-group-element
   type: soft
+- id: cyclic-groups
+  type: hard
 tags:
 - abelian
 - classification

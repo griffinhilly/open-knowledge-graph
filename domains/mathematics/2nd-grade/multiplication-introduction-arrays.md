@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: multiplication-equal-groups-2nd
   type: hard
+- id: skip-counting-multiplication-readiness
+  type: soft
 builds-toward:
 - multiplication-facts-basic-2nd
 tags:

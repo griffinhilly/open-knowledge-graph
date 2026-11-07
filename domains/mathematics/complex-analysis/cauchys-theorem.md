@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: connected-simply-connected-plane
   type: hard
+- id: complex-line-integrals
+  type: hard
+- id: topological-spaces-complex-plane
+  type: soft
 builds-toward:
 - cauchys-integral-formula
 - fundamental-theorem-algebra-complex

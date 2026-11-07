@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: second-derivative-test
   type: soft
+- id: derivative-as-slope-of-tangent
+  type: hard
 builds-toward:
 - optimization-problems
 tags:

@@ -3,7 +3,9 @@ id: art-history-periodization
 title: Periodization and Chronological Frameworks in Art History
 domain: arts-and-aesthetics
 course: art-history
-prerequisites: []
+prerequisites:
+- id: periodization
+  type: soft
 builds-toward:
 - artist-biography-and-influence
 - religious-iconography-in-art-history

@@ -3,7 +3,11 @@ id: orthogonal-signal-decomposition-basis
 title: Orthogonal Signal Decomposition and Basis Functions
 domain: engineering
 course: signals-and-systems
-prerequisites: []
+prerequisites:
+- id: inner-product-spaces
+  type: soft
+- id: orthogonal-vectors-orthonormal-bases
+  type: soft
 builds-toward:
 - fourier-series-representation
 - fourier-transform-definition-properties

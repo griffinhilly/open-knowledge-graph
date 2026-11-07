@@ -6,6 +6,8 @@ course: abstract-algebra
 prerequisites:
 - id: normal-subgroups
   type: hard
+- id: cosets-lagrange-theorem
+  type: hard
 builds-toward:
 - first-isomorphism-theorem-groups
 - second-isomorphism-theorem-groups

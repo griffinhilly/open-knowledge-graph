@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: binomial-theorem-discrete
   type: soft
+- id: combinations-and-selections
+  type: hard
 builds-toward:
 - inclusion-exclusion-principle
 tags:

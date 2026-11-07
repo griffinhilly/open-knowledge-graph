@@ -3,7 +3,9 @@ id: critical-theory-introduction
 title: Introduction to Critical Theory
 domain: literature
 course: critical-theory
-prerequisites: []
+prerequisites:
+- id: literary-analysis-overview
+  type: soft
 builds-toward:
 - ideology-hegemony-power
 - desire-lack-unconscious

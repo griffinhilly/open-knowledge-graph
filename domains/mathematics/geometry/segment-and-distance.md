@@ -4,13 +4,15 @@ title: Segments and Distance
 domain: mathematics
 course: geometry
 prerequisites:
-  - id: points-lines-planes
-    type: hard
-  - id: absolute-value
-    type: soft
+- id: points-lines-planes
+  type: hard
+- id: absolute-value
+  type: soft
+- id: radical-expressions-simplifying
+  type: soft
 builds-toward:
-  - midpoint-formula
-  - triangle-inequality
+- midpoint-formula
+- triangle-inequality
 tags: [measurement, segments, distance-formula]
 stage: abstract-reasoning
 status: validated

@@ -3,7 +3,9 @@ id: formal-languages-and-strings
 title: Formal Languages and Strings
 domain: computer-science
 course: theory-of-computation
-prerequisites: []
+prerequisites:
+- id: set-theory-basics
+  type: soft
 builds-toward:
 - alphabets-and-language-definition
 - regular-languages-fundamentals

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: fundamental-theorem-of-galois-theory
   type: soft
+- id: quotient-groups
+  type: hard
 builds-toward:
 - direct-products-groups
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: field-definition-and-examples
   type: hard
+- id: field-definition-examples
+  type: hard
 builds-toward:
 - galois-groups
 tags:

@@ -3,7 +3,9 @@ id: solids-liquids-gases
 title: Solids, Liquids, and Gases
 domain: chemistry
 course: properties-of-matter
-prerequisites: []
+prerequisites:
+- id: observing-and-describing-matter
+  type: soft
 builds-toward:
 - states-of-matter-phase-changes
 - kinetic-molecular-theory

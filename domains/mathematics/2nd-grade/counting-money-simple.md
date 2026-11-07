@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: counting-to-100-2nd-grade
   type: soft
+- id: coins-and-their-values
+  type: hard
 builds-toward:
 - making-change-simple
 tags:

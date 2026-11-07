@@ -6,6 +6,8 @@ course: abstract-algebra
 prerequisites:
 - id: cycle-notation-decomposition
   type: hard
+- id: permutation-groups
+  type: hard
 builds-toward:
 - dihedral-groups
 tags:

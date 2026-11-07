@@ -220,3 +220,290 @@ SUSPECT	reduced-mass-two-body	kinematics-2d	-	medium	existing prereq looks mispl
 SUSPECT	transient-response-rc-circuits	magnetic-force-moving-charges	-	medium	only prereq, looks misplaced (e-bt-physics)
 SUSPECT	energy-density-electric-field	electric-current-definition	-	medium	existing prereq looks misplaced (e-bt-physics)
 SUSPECT	capacitor-networks	dc-circuits-series-parallel	-	medium	existing prereq looks misplaced (e-bt-physics)
+JUDGE	addition-subtraction-word-problems-1st	addition-subtraction-word-problems	-	medium	Near-duplicate 1st-grade topics on the same skill; a human should merge or pick direction.
+ADD	fact-families	addition-subtraction-word-problems	soft	medium	Knowing add/subtract relations helps pick and check the operation in word problems.
+ADD	finding-missing-addends	addition-subtraction-word-problems	soft	medium	Unknown-addend situations are one word-problem type; helpful, not required.
+ADD	subtraction-fact-families-1st	addition-subtraction-word-problems	soft	medium	Fact-family relations support choosing the operation.
+ADD	two-digit-addition-no-regrouping	addition-subtraction-word-problems	soft	medium	Larger-number word problems use it, but core word problems are within 20.
+DROP	addition-word-problems-2nd	addition-subtraction-word-problems	-	medium	2nd-grade word problems build on the 1st-grade topic, not the reverse.
+ADD	doubles-facts-within-10	addition-within-20	soft	high	Doubles are a key strategy for sums within 20.	[would create cycle]
+ADD	tens-and-ones-place-value	addition-within-20	soft	medium	Teen-number structure (10 + ones) supports make-ten addition.
+ADD	equal-groups-concept-1st	arrays	hard	medium	An array is equal groups arranged in rows.
+ADD	comparing-and-ordering-numbers-to-20	comparing-two-digit-numbers	soft	high	Comparing to 20 is the smaller-range precursor.	[would create cycle]
+ADD	number-recognition-1-100	comparing-two-digit-numbers	hard	medium	Must read two-digit numerals to compare them.
+ADD	identifying-three-dimensional-shapes	composing-shapes	soft	medium	Composing includes 3D solids in 1st grade, but 2D is the main path.
+ADD	identifying-two-dimensional-shapes	composing-shapes	hard	high	Composing shapes requires naming the component shapes.	[would create cycle]
+ADD	skip-counting-by-10s-fluency	counting-to-100	soft	high	Counting by tens is part of counting to 100.	[would create cycle]
+ADD	identifying-two-dimensional-shapes	decomposing-shapes	hard	medium	Decomposing requires recognizing the resulting shapes.
+ADD	time-to-half-hour-practice	elapsed-time	hard	medium	Elapsed time requires reading clock times.
+DROP	skip-counting-by-5s	even-and-odd-numbers	-	medium	Even/odd relies on pairing or counting by 2s, not 5s.
+JUDGE	fractions-halves-and-fourths-1st	intro-to-fractions	-	medium	Near-duplicate of B's content (B already has halves-and-quarters hard); merge question.
+DROP	fractions-halves-thirds-fourths	intro-to-fractions	-	medium	2nd-grade fractions build on 1st-grade intro, not the reverse.
+ADD	measuring-with-standard-units-length	measuring-length-with-ruler	soft	medium	Knowing inch/cm units helps read a ruler.
+ADD	ordering-numbers-1-to-20	ordering-two-digit-numbers	soft	high	Ordering to 20 is the smaller-range precursor.	[would create cycle]
+ADD	tally-chart-data-collection-1st	picture-graphs	soft	medium	Collected tallies feed picture graphs.
+ADD	making-ten-strategy-1st	place-value-tens-and-ones	soft	medium	Making ten foreshadows grouping into tens.
+ADD	number-bonds-to-20	place-value-tens-and-ones	soft	medium	Decomposing teens as 10 + n supports place value.
+ADD	finding-missing-addends	subtraction-within-20	soft	high	Think-addition is a core subtraction strategy.	[would create cycle]
+ADD	tens-and-ones-place-value	subtraction-within-20	soft	medium	Teen structure supports subtracting through ten.
+ADD	time-to-hour-practice	telling-time-to-half-hour	hard	high	Half-hour reading extends hour reading.	[would create cycle]
+DROP	addition-subtraction-word-problems-1st	addition-within-100	-	medium	Addition within 100 is a computation skill that does not require word problems.
+ADD	fact-family-relationships	addition-within-100	soft	medium	Add/subtract relationship is a listed strategy, not required.
+ADD	understanding-money-value	counting-coins-and-bills	hard	high	Must know coin values to count collections.	[would create cycle]
+ADD	division-introduction-grouping	division-facts-2nd-grade	soft	medium	One meaning of division; either model suffices for facts.
+ADD	division-introduction-sharing	division-facts-2nd-grade	soft	medium	One meaning of division; either model suffices for facts.
+ADD	introduction-fractions-equal-parts	fractions-halves-thirds-fourths	hard	high	Naming halves/thirds/fourths requires equal parts.	[would create cycle]
+ADD	associative-property-addition-1st	mental-math-add-subtract-tens	soft	medium	Regrouping addends supports mental strategies.
+DROP	doubles-and-near-doubles	mental-math-add-subtract-tens	-	medium	Adding tens relies on place value, not doubles facts.
+ADD	subtraction-strategies-counting-back	mental-math-add-subtract-tens	soft	medium	Counting back by tens extends counting back.
+ADD	three-digit-number-forms	number-line-to-1000	hard	medium	Placing numbers to 1000 requires reading three-digit numbers.
+ADD	equal-groups-concept-1st	repeated-addition-to-multiplication	hard	high	Repeated addition is adding equal groups.	[would create cycle]
+JUDGE	bar-graphs-3rd	scaled-bar-graphs	-	high	Duplicate topics with the same title in 2nd and 3rd grade; merge question.
+ADD	category-data-collection	scaled-bar-graphs	soft	medium	B draws collected data into graphs; staged in a later course but same stage.
+ADD	collecting-and-organizing-data-3rd	scaled-bar-graphs	soft	medium	B has students graph collected data.
+ADD	category-data-collection	scaled-picture-graphs	soft	medium	Categorical data is what picture graphs display.
+ADD	collecting-and-organizing-data-3rd	scaled-picture-graphs	soft	medium	Organized data feeds picture graphs.
+JUDGE	picture-graphs-3rd	scaled-picture-graphs	-	high	Duplicate scaled-picture-graph topics in 2nd and 3rd grade; merge question.
+ADD	time-to-half-hour-practice	telling-time-to-5-minutes	soft	medium	Half-hour reading helps but hour reading is the core need.
+ADD	time-to-hour-practice	telling-time-to-5-minutes	hard	high	Reading the hour hand is required for any clock time.	[would create cycle]
+ADD	partition-shapes-equal-parts	area-by-counting-squares	soft	medium	Partitioning into equal squares supports unit-square counting.
+ADD	division-as-equal-sharing	division-facts-within-100	soft	medium	One meaning of division; helpful for facts.
+ADD	division-as-grouping	division-facts-within-100	soft	medium	One meaning of division; helpful for facts.
+ADD	division-as-inverse-multiplication-3rd	division-facts-within-100	hard	high	Division facts within 100 are learned via related multiplication facts.	[would create cycle]
+ADD	division-as-equal-sharing	division-word-problems	soft	medium	Sharing is one situation type in division problems.
+ADD	partition-shapes-equal-parts	fractions-sixths-eighths	hard	medium	Sixths and eighths are named equal partitions.
+ADD	division-word-problems	multi-step-word-problems-3rd	soft	medium	Multi-step problems combine one-step problem types.
+ADD	multiplication-word-problems	multi-step-word-problems-3rd	soft	medium	Multi-step problems combine one-step problem types.
+ADD	remainders-and-quotients-3rd	multi-step-word-problems-3rd	soft	medium	Some multi-step problems involve remainders.
+ADD	division-facts-2nd-grade	multiplication-division-relationship	soft	medium	Knowing some division facts helps relate the operations.
+ADD	division-as-equal-sharing	multiplication-division-relationship	soft	medium	A meaning of division helps link it to multiplication.
+ADD	picture-graph-simple	picture-graphs-3rd	hard	medium	Scaled pictographs extend basic picture graphs.
+ADD	associative-property-multiplication	two-digit-by-one-digit-multiplication	soft	medium	B uses the distributive property mainly; associativity helps with tens.
+JUDGE	two-digit-multiplication-one-digit-3rd	two-digit-by-one-digit-multiplication	-	high	Duplicate 3rd-grade topics on the same skill; merge question.
+ADD	multiplication-division-fact-families	unknown-factor-problems	soft	high	Fact families help find unknown factors.	[would create cycle]
+ADD	multiplication-division-relationship	unknown-factor-problems	hard	high	Unknown-factor problems rest on the multiplication-division relationship.	[would create cycle]
+ADD	equivalent-fractions-intro-3rd	adding-fractions-like-denominators	soft	medium	Useful for simplifying sums, not needed to add.
+ADD	fractions-of-a-set-comparison-3rd	adding-fractions-like-denominators	soft	medium	Non-unit fraction sense helps; not required.
+ADD	area-of-irregular-shapes-3rd	area-of-rectangles	soft	medium	Unit-square area understanding supports the formula.
+ADD	multiplication-arrays-3rd	area-of-rectangles	hard	medium	Area = length x width is the array model of multiplication.
+ADD	multiplication-strategies-arrays-3rd	area-of-rectangles	soft	medium	Array strategies support area, overlaps the arrays topic.
+ADD	multi-digit-multiplication	area-of-rectangles	soft	high	Needed only for larger side lengths.	[would create cycle]
+DROP	estimating-length-2nd	estimation-strategies	-	medium	B is numerical estimation (rounding), with no measurement content.
+ADD	fractions-sixths-eighths	fractions-on-number-line	soft	medium	More denominators help, but halves/fourths suffice.
+ADD	picture-graph-creation-interpretation	interpreting-data-bar-graphs	soft	medium	Earlier graph reading helps.
+ADD	bar-graphs-read-create-2nd	interpreting-data-bar-graphs	hard	medium	Interpreting bar graphs requires reading them.
+JUDGE	line-symmetry-3rd	line-symmetry	-	high	Duplicate line-symmetry topics in 3rd and 4th grade; merge question.
+DROP	measuring-length-nonstandard-units-1st	measurement-conversions-customary	-	medium	Conversions rely on standard units and multiplication, not nonstandard units.
+DROP	weight-or-mass-comparison-1st	measurement-conversions-metric	-	medium	Metric conversion relies on units and place value, not direct weight comparison.
+ADD	equal-groups-2nd-grade	multi-digit-multiplication	soft	medium	Distant conceptual root; helps but not direct.
+ADD	associative-property-multiplication-3rd	multi-digit-multiplication	soft	medium	Used in multiplying by multiples of ten.
+ADD	patterns-in-addition-and-multiplication-3rd	patterns-and-sequences	soft	high	Earlier arithmetic patterns support sequence rules.	[would create cycle]
+ADD	perimeter-finding-regular-shapes-3rd	perimeter	soft	medium	Heavy overlap; 3rd-grade rectangle perimeter precedes the 4th-grade formula topic.
+DROP	positional-words	coordinate-plane-intro	-	medium	Coordinate plane relies on number lines and ordered pairs, not K positional language.
+ADD	fractions-as-division	dividing-decimals	soft	medium	Helps interpret quotients; not required for decimal division.
+ADD	division-facts-within-100	fractions-as-division	hard	medium	Interpreting a/b as a divided by b requires division.
+ADD	distributive-property-intro	writing-numerical-expressions	soft	medium	Expressions like 2 x (8 + 7) use it but do not require it.
+ADD	order-of-operations	writing-numerical-expressions	hard	medium	Interpreting expressions requires parentheses and operation order.
+ADD	cosets-and-lagrange-theorem	class-equation	hard	high	Class sizes are indices of centralizers.	[would create cycle]
+DROP	group-homomorphisms	cosets-lagrange-theorem	-	medium	Lagrange's theorem does not use homomorphisms.
+ADD	cycle-notation-decomposition	dihedral-groups	soft	medium	Useful for writing dihedral elements as permutations.
+ADD	permutation-groups	dihedral-groups	soft	medium	Dihedral groups embed in S_n but can be taught as symmetries.
+ADD	irreducibility-criteria	field-extensions	soft	medium	F[x]/(p) needs irreducible p; criteria help but are not required.
+ADD	dihedral-groups	group-actions	soft	medium	A standard example of an action.
+ADD	quotient-rings	integral-domains	soft	medium	R/P is a domain iff P prime; definition does not need it.
+ADD	cosets-and-lagrange-theorem	normal-subgroups	hard	high	Normality is defined via left and right cosets.	[would create cycle]
+ADD	dihedral-groups	normal-subgroups	soft	medium	Source of examples and non-examples.
+ADD	subgroups-and-subgroup-test	normal-subgroups	hard	high	Normal subgroups are subgroups.	[would create cycle]
+ADD	orbit-stabilizer-theorem	sylow-theorems	hard	medium	Standard Sylow proofs use orbit counting of group actions.
+ADD	order-group-element	sylow-theorems	soft	medium	Element orders are used but subgroup orders are central.
+ADD	order-of-group-element	sylow-theorems	soft	medium	Same as order-group-element (A is a duplicate topic).
+ADD	proportions	direct-and-inverse-variation	hard	medium	Direct variation is a proportional relationship.
+ADD	multiplying-polynomials	factoring-difference-of-squares	hard	medium	Factoring reverses the (a+b)(a-b) product.
+ADD	multiplying-polynomials	factoring-trinomials	hard	medium	Factoring reverses binomial multiplication.
+ADD	point-slope-form	parallel-and-perpendicular-slopes	soft	medium	Used to write the parallel/perpendicular line.
+ADD	slope-intercept-form	parallel-and-perpendicular-slopes	soft	medium	Reading slope from y = mx + b helps; slope itself is the core need.
+ADD	factoring-gcf	solving-quadratics-by-factoring	soft	medium	Needed for some quadratics such as x^2 + 3x = 0.
+ADD	multiplying-binomials-foil	solving-quadratics-by-factoring	soft	medium	Used to check factorizations.
+ADD	equations-variables-both-sides	systems-substitution	hard	medium	Substitution often yields variables on both sides.
+DROP	multi-step-word-problems-3rd	systems-word-problems	-	medium	Too distant; algebra systems problems do not draw on 3rd-grade multi-step problems.
+ADD	systems-graphing	systems-word-problems	soft	medium	One solution method; substitution or elimination also work.
+ADD	factorial	binomial-theorem	soft	medium	nCr formula uses factorials; Pascal's triangle avoids them.
+DROP	geometric-sequences-and-series	binomial-theorem	-	medium	The binomial theorem does not use geometric series.
+ADD	binomial-coefficients	binomial-theorem	hard	high	The theorem's coefficients are binomial coefficients.	[would create cycle]
+DROP	systems-of-three-variables	matrix-operations	-	medium	Matrix operations do not draw on three-variable systems.
+DROP	distribution-shape-skewness-kurtosis	normal-distribution-intro	-	medium	Intro normal distribution does not need skewness or kurtosis.
+DROP	chain-homotopy-equivalence	five-lemma	-	medium	The five lemma is a diagram chase on exact sequences, not chain homotopy.
+ADD	relative-homology-long-exact-sequence	homology-of-spheres	soft	medium	One computation route; Mayer-Vietoris is an alternative.
+ADD	cellular-homology	homology-with-coefficients	soft	medium	Cellular chains make coefficient computations easy.
+ADD	poincare-duality	lefschetz-fixed-point-theorem	soft	medium	Used in some proofs, not in the standard trace proof.
+ADD	constant-multiple-and-sum-rules	antiderivatives	soft	medium	Antiderivative linearity mirrors these rules.
+ADD	improper-integrals-convergence	comparison-test	soft	medium	Parallel comparison for integrals; helpful, not needed for series.
+ADD	derivatives-of-trigonometric-functions	trigonometric-integrals	soft	medium	Trig antiderivatives come from trig derivatives.
+ADD	u-substitution	trigonometric-substitution	hard	medium	Trig substitution is a substitution technique.
+ADD	dot-product-precalculus	work-as-integral	soft	medium	W = F . d motivates work; 1D integrals do not need it.
+ADD	ca-flatness	ca-completion	soft	medium	Flatness of completions is a key property.
+ADD	ca-local-rings	ca-going-up-going-down	soft	medium	Proofs localize at primes.
+ADD	ca-ideal-operations	ca-krull-dimension	soft	medium	Dimension uses prime chains; ideal operations help.
+ADD	ca-flatness	ca-regular-sequences	soft	medium	Regular sequences behave well under flat base change.
+ADD	ca-going-up-going-down	ca-valuation-rings	soft	medium	Valuation rings dominate local rings; links to lying over.
+ADD	residues-definition-computation	argument-principle	hard	medium	The argument principle is the residue theorem applied to f'/f.
+ADD	singularities-classification	argument-principle	soft	medium	Zeros and poles are the singularities of f'/f.
+ADD	complex-trigonometric-functions	evaluating-integrals-residues	soft	medium	Trig integrals convert via complex exponentials.
+ADD	cauchys-integral-formula	taylor-series-complex	hard	medium	Analyticity of holomorphic functions is proved via the integral formula.
+ADD	existence-uniqueness-ode	autonomous-equations	soft	medium	Uniqueness explains why solutions do not cross equilibria.
+DROP	unit-step-function	convolution-theorem	-	medium	The convolution theorem does not use step functions.
+ADD	differential-equations-intro	first-order-linear-odes	hard	high	Intro ODE vocabulary is required.	[would create cycle]
+ADD	first-order-linear-odes	higher-order-linear-odes	soft	medium	Linearity carries over; first-order methods not required.
+DROP	rlc-circuits	laplace-transform-of-derivatives	-	medium	RLC is an application, not a foundation, of Laplace of derivatives.
+ADD	wave-equation-pde	laplaces-equation	soft	medium	Shared separation-of-variables method; either can come first.
+ADD	differential-equations-intro	separable-differential-equations	hard	high	Intro ODE vocabulary is required.	[would create cycle]
+ADD	second-order-linear-homogeneous-odes	wronskian-linear-independence	soft	medium	Wronskian is applied to solution sets; definable without it.
+DROP	hamiltonian-cycles-discrete	algorithm-complexity-discrete	-	medium	Complexity basics do not need Hamiltonian cycles; reverse is likelier.
+ADD	permutations-arrangements-discrete	binomial-theorem-discrete	soft	medium	Counting arrangements helps derive coefficients.
+ADD	euclidean-algorithm	chinese-remainder-theorem	hard	medium	Constructing CRT solutions needs modular inverses via Euclid.
+ADD	graph-matrices-representations	connectivity-components-discrete	soft	medium	Matrix methods can detect connectivity; not required.
+ADD	discrete-math-overview	counting-fundamentals-discrete	soft	medium	Orientation only.
+ADD	mathematical-proof-strategies	counting-fundamentals-discrete	soft	medium	Counting arguments use proof techniques; not required.
+ADD	counting-principles	derangements	soft	medium	Derangements use inclusion-exclusion; basic counting helps.
+ADD	graph-connectivity-components	euler-paths-circuits	hard	medium	The Euler characterization assumes a connected graph.
+ADD	discrete-math-overview	formal-logic-propositions	soft	medium	Orientation only.
+DROP	inclusion-exclusion-principle	generating-functions-discrete	-	medium	Generating functions do not draw on inclusion-exclusion.
+DROP	inclusion-exclusion-advanced	generating-functions-intro	-	medium	Generating functions do not draw on inclusion-exclusion.
+DROP	graph-traversal-algorithms	graph-coloring-discrete	-	medium	Coloring concepts do not need DFS/BFS.
+ADD	trees-and-tree-properties	graph-traversal-algorithms	soft	medium	DFS/BFS produce trees; helps but the reverse is equally common.
+DROP	bipartite-graphs-matching	hamiltonian-cycles-discrete	-	medium	Hamiltonian cycles do not draw on matchings.
+ADD	binomial-theorem-discrete	inclusion-exclusion-advanced	soft	medium	The binomial identity is used in the counting proof.
+DROP	multinomial-theorem	inclusion-exclusion-principle	-	medium	Inclusion-exclusion does not use multinomials.
+ADD	linear-congruences-discrete	multiplicative-inverse-modular	soft	medium	Inverse is ax = 1 mod n; the dominant direction may be reversed.
+ADD	discrete-math-overview	set-relations-functions-discrete	soft	medium	Orientation only.
+ADD	cycle-detection-directed-graphs	strongly-connected-components	soft	medium	SCCs relate to directed cycles.
+ADD	strongly-connected-components	topological-sorting	soft	medium	The condensation DAG links them.
+DROP	area-of-trapezoids	area-of-regular-polygons	-	medium	Regular polygon area uses triangles and apothem, not trapezoids.
+DROP	corresponding-angles	coordinate-geometry-proofs	-	medium	Coordinate proofs use slope and distance, not angle theorems.
+ADD	triangle-congruence-asa-aas	isosceles-triangle-theorem	soft	medium	One proof route; SAS or SSS also work.
+ADD	angle-pairs	triangle-angle-sum	soft	medium	The proof uses supplementary angles on a line.
+ADD	corresponding-angles	triangle-angle-sum	soft	medium	The proof uses parallel-line angle relations (usually alternate interior).
+ADD	volume-of-prisms-and-cylinders	volume-of-spheres	soft	medium	Cavalieri cylinder comparison helps.
+ADD	degree-sequences-erdos-gallai	extremal-graph-theory	soft	medium	Degree counting is a common extremal tool.
+ADD	kuratowskis-theorem	graph-minors	soft	high	The classic forbidden-structure example.	[would create cycle]
+ADD	wagners-theorem	graph-minors	soft	high	Planarity by forbidden minors motivates the theory.	[would create cycle]
+DROP	degree-sequences-erdos-gallai	graph-operations-and-products	-	medium	Graph operations do not need Erdős–Gallai.
+ADD	edge-coloring-vizings-theorem	list-coloring	soft	medium	List edge coloring generalizes edge coloring.
+ADD	adjacency-matrix-graphs	matrix-tree-theorem	soft	medium	The Laplacian is built from the adjacency matrix.
+ADD	adjacency-matrix	matrix-tree-theorem	soft	medium	The Laplacian is built from the adjacency matrix.
+DROP	konig-theorem	network-flows-max-flow-min-cut	-	medium	Max-flow min-cut implies König, not the reverse.
+DROP	integer-partitions	polya-enumeration-theorem	-	medium	Pólya counts orbits under group actions, not partitions.
+ADD	turan-theorem	probabilistic-method-graphs	soft	medium	Caro–Wei / Turán bounds are a classic probabilistic example.
+DROP	number-zero-concept	cardinality-principle	-	medium	Cardinality does not need zero.
+ADD	numeral-recognition-and-matching-0-10	cardinality-principle	soft	medium	Matching numerals to counts helps.
+ADD	comparing-quantities	combining-small-groups	soft	medium	Quantity sense helps.
+ADD	understanding-zero	comparing-quantities-more-less	soft	medium	Zero as a quantity enters comparisons.
+DROP	number-zero-concept	counting-to-10	-	medium	Counting to 10 starts at one.
+JUDGE	comparing-lengths-longer-shorter	measurement-comparison-length	-	high	Duplicate K topics on the same skill; merge question.
+JUDGE	comparing-weights-heavier-lighter	measurement-comparison-weight	-	high	Duplicate K topics on the same skill; merge question.
+ADD	understanding-zero	numeral-recognition-0-10	soft	medium	The numeral 0 needs the zero concept.
+JUDGE	ordinal-position-language	ordinal-numbers-first-through-tenth	-	high	Duplicate K topics on the same skill; merge question.
+ADD	classifying-and-sorting-shapes	sorting-by-attributes	soft	medium	Heavy overlap; shape sorting is one case of sorting by attributes.
+DROP	counting-to-five	subitizing-to-five	-	medium	Subitizing is perceptual and usually precedes counting.
+ADD	iterative-methods-linear-systems	applications-linear-algebra-modeling	soft	medium	One tool used in modeling.
+ADD	matrix-exponential	applications-linear-algebra-modeling	soft	medium	One tool used in modeling.
+ADD	subspaces	basis-and-dimension	hard	medium	Dimension of subspaces is a core use.
+ADD	what-makes-something-beautiful	aesthetic-experience-and-beauty	soft	medium	The child-level inquiry into what makes things beautiful is the informal ground for the formal theory of beauty.
+ADD	timelines-and-sequencing	art-history-periodization	soft	medium	Periodization assumes comfort with ordering events on a timeline.
+ADD	non-western-art-traditions	cultural-exchange-art-trade-routes	soft	medium	Exchange between Chinese, Islamic and European traditions is easier to follow once those traditions are known.
+ADD	silk-road-trade-network	cultural-exchange-art-trade-routes	soft	medium	The Silk Road is the central example of a trade route carrying artistic techniques.
+ADD	byzantine-and-medieval-art	northern-renaissance-flemish-and-german-traditions	soft	medium	Northern painters grew out of late Gothic and medieval traditions.
+ADD	renaissance-humanism-and-art	patronage-systems-and-artistic-production	soft	medium	Church, noble and merchant patronage is usually taught through Renaissance cases like the Medici; note near-duplicate of art-history-patronage.
+ADD	neoclassicism-and-romanticism	realist-painting-and-modern-social-observation	soft	medium	Realism reacted against the Neoclassical and Romantic styles that preceded it.
+ADD	neural-networks-intro	ai-art-machine-creativity	soft	medium	Knowing what a neural network does grounds discussion of machine creativity.
+ADD	digital-art-foundations	ai-art-machine-creativity	soft	medium	Digital art foundations already introduces algorithmic authorship.
+ADD	surrealism-and-dada	appropriation-art	soft	medium	Duchamp's readymades in Dada are the origin of appropriation.
+ADD	authenticity-originality-and-artistic-value	appropriation-art	soft	medium	Appropriation art is a direct challenge to originality and authenticity.
+ADD	walter-benjamin-mechanical-reproduction	art-and-technology-convergence	soft	medium	Benjamin's reproduction thesis is the classic theory of technology changing art.
+ADD	photography-and-modernism	art-and-technology-convergence	soft	medium	Photography is the historic precedent for a technology reshaping art.
+ADD	supply-and-demand-basics	art-market-economics	soft	medium	Pricing and circulation in the art market draw on basic supply and demand; file body is a stub.
+ADD	art-collecting-museums-institutions	art-market-economics	soft	medium	Collectors and institutions are core actors in art circulation.
+ADD	interactive-art-installations	augmented-reality-art	soft	medium	AR art is typically interactive and responsive to the viewer.
+ADD	recombinant-dna-technology	bioart-living-systems	soft	medium	Much bioart (e.g., transgenic works) uses genetic engineering techniques; file body is a stub.
+ADD	genetic-engineering-ethics	bioart-living-systems	soft	medium	Bioart is largely about the ethics of manipulating life.
+ADD	conceptual-art-foundations	bioart-living-systems	soft	medium	Bioart relies on the conceptual turn that lets any material or process be art.
+ADD	modern-art-movements	conceptual-art-foundations	soft	medium	Conceptual art is understood as a reaction to modernist object-making.
+ADD	installation-art	curatorial-practice	soft	medium	Contemporary exhibition design often deals with installation and spatial works.
+ADD	identity-politics-art	disability-art-crip-aesthetics	soft	medium	Disability art is one strand of identity-based contemporary practice; file body is a stub.
+ADD	feminist-aesthetics-and-the-female-gaze	feminist-art-contemporary	soft	medium	Gaze theory is a central lens for feminist art.
+ADD	women-artists-in-art-history	feminist-art-contemporary	soft	medium	Recovery of women artists is the historical backdrop of feminist art.
+ADD	algorithm-design-basics	generative-art-code	soft	medium	Code-based art requires a basic grasp of algorithms.
+ADD	postmodern-art-and-contemporary-plurality	identity-politics-art	soft	medium	Identity politics art emerges from postmodern plurality; file body is a stub.
+ADD	gender-and-artistic-representation	identity-politics-art	soft	medium	Gender representation is a core identity axis in this practice.
+ADD	institutional-theory-of-art	institutional-critique	soft	medium	The institutional theory of art defines the artworld that the practice critiques.
+ADD	digital-art-foundations	interactive-art-installations	soft	medium	Most interactive installations use digital sensing and human-computer interaction.
+ADD	conceptual-art-foundations	land-art-environmental	soft	medium	Land art emerged with 1960s conceptual art and its rejection of the gallery object.
+ADD	environmental-aesthetics	land-art-environmental	soft	medium	Environmental aesthetics theorizes appreciation of nature that land art engages.
+ADD	art-market-economics	nft-digital-ownership-art	soft	medium	NFTs are mainly a market and ownership mechanism.
+ADD	walter-benjamin-aura-authenticity	nft-digital-ownership-art	soft	medium	NFT debates revive questions of aura and authenticity of copies.
+ADD	walter-benjamin-mechanical-reproduction	photography-as-fine-art	soft	medium	Benjamin's analysis of reproducible media frames photography's art status.
+ADD	postcolonial-aesthetics	postcolonial-art-contemporary	soft	medium	Postcolonial aesthetics supplies the theory used to read this practice.
+ADD	identity-politics-art	queer-art-activism	soft	medium	Queer art activism is a strand of identity-based practice.
+ADD	art-political-intervention	queer-art-activism	soft	medium	Activist art draws on the theory of art as political intervention.
+ADD	conceptual-art-foundations	site-specific-art	soft	medium	Site-specific art grew from the conceptual rejection of the portable art object.
+ADD	art-political-intervention	socially-engaged-art	soft	medium	Socially engaged art is a form of art as social and political intervention; file body is a stub.
+ADD	performance-art	socially-engaged-art	soft	medium	Socially engaged practice grew from participatory performance.
+ADD	conceptual-art-foundations	socially-engaged-art	soft	medium	It relies on the conceptual turn that makes a social process the artwork.
+ADD	conceptual-art-foundations	sound-art	soft	medium	Sound art depends on the expanded, non-object definition of art; file body is a stub.
+ADD	installation-art	sound-art	soft	medium	Much sound art is presented as spatial installation.
+ADD	sound-waves-intro	sound-art	soft	medium	Basic acoustics helps in understanding how sound artists shape space.
+ADD	site-specific-art	street-art-graffiti-culture	soft	medium	Street art is defined by its relation to public urban sites; file body is a stub.
+ADD	art-political-intervention	street-art-graffiti-culture	soft	medium	Much street art is political intervention in public space.
+ADD	performance-art	video-art-history	soft	medium	Early video art largely recorded and extended performance; file body is a stub.
+ADD	conceptual-art-foundations	video-art-history	soft	medium	Video art grew alongside 1960s conceptual art.
+ADD	installation-art	virtual-reality-art	soft	medium	Immersive VR extends installation art's immersive environment.
+ADD	interactive-art-installations	virtual-reality-art	soft	medium	VR works are interactive and respond to viewer movement.
+ADD	visual-fundamentals-elements-and-principles	design-principles-course-overview	soft	medium	The seven design principles organize visual elements that the fundamentals topic introduces.
+ADD	visual-perception-and-communication	design-principles-foundations	soft	medium	The topic says design principles emerge from human perception.
+ADD	visual-fundamentals-elements-and-principles	design-principles-foundations	soft	medium	Design principles act on the visual elements introduced in the fundamentals topic.
+ADD	engineering-design-process	design-process-and-iteration	soft	medium	The basic define-build-test-improve cycle is the simpler form of the design iteration loop.
+ADD	five-senses	visual-perception-and-communication	soft	medium	Visual perception builds on the basic idea of sight as a sense.
+ADD	five-senses	observing-and-describing-matter	soft	medium	Describing matter uses the senses to observe properties.
+ADD	binary-number-system	hexadecimal-number-system	hard	medium	Hex is defined as a shorthand for 4-bit binary groups; caution: creates cycle via binary-number-system -> number-base-conversion-operations -> hex, and that binary prereq looks backwards.
+ADD	network-fundamentals	osi-model-layers	hard	medium	The OSI model formalizes the layered protocol stack that network fundamentals introduces.
+ADD	file-io-basics	database-systems-introduction	soft	medium	Why databases exist is clearer after seeing the limits of plain file storage.
+ADD	operating-systems-introduction	distributed-systems-introduction	soft	medium	Processes, concurrency and resource sharing on one machine precede reasoning across machines.
+ADD	hello-world	operating-systems-introduction	soft	medium	The OS is explained as managing the programs a learner has already written and run.
+ADD	hello-world	memory-and-data-storage	soft	medium	A memory model of variables follows having run a first program.
+ADD	binary-number-system	memory-and-data-storage	soft	medium	Data in memory is stored as bits.
+ADD	string-basics	formal-languages-and-strings	soft	medium	Familiarity with strings as symbol sequences helps; formal strings abstract them.
+ADD	melting-and-freezing	types-of-rocks	soft	medium	Igneous rock formation is explained as melted rock cooling and hardening.
+ADD	minerals-basics	types-of-rocks	soft	medium	Rocks are made of minerals; knowing minerals helps but is not needed for the three formation groups.
+ADD	what-is-gravity	gravity-waves-wind-ocean-surface	soft	medium	Gravity is the restoring force that defines these waves.
+ADD	electromagnetic-spectrum-intro	photic-zone-light-ocean-penetration	soft	medium	Depth-dependent loss of red versus blue light relies on knowing light wavelengths.
+ADD	gravity-and-orbits-intro	tidal-equilibrium-mechanics	hard	medium	Tides are explained as the gravitational pull of Moon and Sun; the theory cannot be followed without gravity.
+ADD	moon-and-its-phases	tidal-equilibrium-mechanics	soft	medium	Spring and neap tides depend on Sun-Moon alignment, seen in lunar phases.
+ADD	standard-form-linear-equations	budget-constraint-affordability	soft	medium	The budget line I = P1Q1 + P2Q2 is a linear equation in standard form.
+ADD	scarcity-and-opportunity-cost	production-function-technology	soft	medium	Production with limited inputs rests on scarcity; note near-duplicate of production-function-microeconomics.
+ADD	function-notation-review	production-function-technology	soft	medium	Q = f(K, L) requires reading function notation.
+ADD	scarcity-and-opportunity-cost	utility-consumer-preferences	soft	medium	Utility maximization models choice under scarcity.
+ADD	function-notation-review	utility-consumer-preferences	soft	medium	Utility functions assume basic function notation.
+ADD	electric-current-definition	circuit-element-types-and-definitions	soft	medium	Elements are characterized by voltage-current relations, so current must be defined.
+ADD	newtons-second-law-conceptual	introduction-to-fluid-mechanics	soft	medium	Fluid mechanics applies conservation and force principles from mechanics.
+ADD	density-intro	introduction-to-fluid-mechanics	soft	medium	Density is a basic fluid property used throughout.
+ADD	bayes-theorem	kalman-filter-state-estimation	soft	medium	Kalman updates are Bayesian prediction-correction steps.
+ADD	dijkstras-algorithm	motion-planning-algorithms	soft	medium	Shortest-path search underlies discrete motion planners.
+ADD	oral-tradition-transmission-variation	homer-epics-literature-culture	soft	medium	The epics were oral compositions before being written down.
+ADD	shang-dynasty-oracle-bones	shang-bronze-vessels-ritual-objects	soft	medium	Oracle-bone divination and ancestor veneration frame the bronzes' ritual use.
+ADD	paleoanthropology-human-origins-evolution	agricultural-revolution-neolithic	soft	medium	The shift to farming is read against earlier hunter-gatherer human prehistory.
+ADD	timelines-and-sequencing	chronometric-dating-methods	soft	medium	Relative dating is about establishing sequence, built on basic timeline ordering.
+ADD	radioactive-decay	chronometric-dating-methods	soft	medium	Radiocarbon, a core absolute method, rests on radioactive decay.
+ADD	fall-of-western-rome	medieval-world-definition-periodization	soft	medium	The conventional start of the medieval period is the fall of the Western Roman Empire.
+ADD	family-history-and-stories	holidays-and-traditions	soft	medium	Family traditions passed down are the nearest base for community holidays and traditions.
+ADD	morphological-structure	sign-language-linguistics	soft	medium	Simultaneous morphology and classifiers assume basic morphology.
+ADD	phonemic-awareness	articulatory-phonetics	soft	medium	Hearing individual speech sounds precedes classifying how they are produced.
+ADD	set-notation-basics	formal-linguistics-overview	soft	medium	Formal linguistics uses mathematical and logical tools such as sets.
+ADD	parts-of-speech-overview	formal-linguistics-overview	soft	medium	Formal models of grammar assume basic grammatical categories.
+ADD	phonemic-awareness	phoneme-inventory-analysis	soft	medium	Minimal-pair testing builds on hearing sound contrasts.
+ADD	managing-anxiety-and-stress	speech-anxiety-management	soft	medium	General anxiety-coping strategies like reframing and breathing are applied to speaking.
+ADD	folklore-definition-traditions	children-literature-global-traditions-cultural	soft	medium	Global children's literature includes oral storytelling traditions covered in folklore.
+ADD	visual-fundamentals-elements-and-principles	picture-book-as-complete-art-form	soft	medium	Visual composition and page design draw on basic visual elements.
+ADD	plot-structure	creative-nonfiction-definition	soft	medium	Narrative techniques borrowed from fiction include plot structure.
+ADD	folklore-definition-traditions	fable-moral-instruction	soft	medium	Fables are a traditional folk narrative form.
+ADD	myth-definition-cultural-narrative	fable-moral-instruction	soft	medium	Fables are defined in contrast to myths.
+ADD	holidays-and-traditions	folklore-definition-traditions	soft	medium	Seasonal customs and handed-down traditions are the everyday base of folklore.

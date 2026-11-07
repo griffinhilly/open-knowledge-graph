@@ -16,6 +16,8 @@ prerequisites:
   type: hard
 - id: subtraction-two-digit-regrouping-2nd
   type: hard
+- id: two-digit-subtraction-with-regrouping
+  type: hard
 builds-toward:
 - multi-digit-subtraction
 - two-step-word-problems

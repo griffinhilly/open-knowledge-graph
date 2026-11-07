@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: solving-proportions
   type: soft
+- id: scale-drawings-and-maps
+  type: soft
 builds-toward:
 - similar-triangles-sss-sas
 - proportions-in-similar-triangles

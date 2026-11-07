@@ -6,6 +6,8 @@ course: complex-analysis
 prerequisites:
 - id: limits-continuity-complex-functions
   type: hard
+- id: complex-functions-mappings
+  type: hard
 builds-toward:
 - holomorphic-functions
 - cauchy-riemann-equations

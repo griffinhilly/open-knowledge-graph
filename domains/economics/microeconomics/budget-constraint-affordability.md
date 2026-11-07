@@ -3,7 +3,9 @@ id: budget-constraint-affordability
 title: Budget Constraint and Purchasing Power
 domain: economics
 course: microeconomics
-prerequisites: []
+prerequisites:
+- id: scarcity-and-opportunity-cost
+  type: soft
 builds-toward:
 - consumer-equilibrium-optimality
 - effects-income-substitution-price-change

@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: area-and-perimeter-relationship-3rd
   type: soft
+- id: perimeter-understanding-2nd
+  type: hard
 builds-toward:
 - area-of-parallelograms
 - area-of-triangles

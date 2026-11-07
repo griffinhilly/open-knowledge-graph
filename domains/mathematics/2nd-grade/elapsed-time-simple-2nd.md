@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: telling-time-5-minute-intervals-2nd
   type: hard
+- id: telling-time-to-hour-half-hour-2nd
+  type: hard
 tags:
 - time
 - elapsed-time

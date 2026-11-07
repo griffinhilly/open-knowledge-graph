@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: subrings-and-ideals
   type: hard
+- id: ring-homomorphisms
+  type: soft
 builds-toward:
 - first-isomorphism-theorem-rings
 - integral-domains

@@ -4,12 +4,14 @@ title: Arc Length in Polar Coordinates
 domain: mathematics
 course: calculus-2
 prerequisites:
-  - id: polar-area
-    type: soft
-  - id: arc-length-parametric
-    type: hard
-  - id: polar-coordinates
-    type: hard
+- id: polar-area
+  type: soft
+- id: arc-length-parametric
+  type: hard
+- id: polar-coordinates
+  type: hard
+- id: polar-graphs
+  type: hard
 builds-toward: []
 tags: [polar, arc-length, integration]
 stage: formal-systems

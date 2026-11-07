@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: reading-writing-decimals
   type: soft
+- id: intro-to-decimals
+  type: hard
 builds-toward:
 - rounding-decimals
 - adding-subtracting-decimals

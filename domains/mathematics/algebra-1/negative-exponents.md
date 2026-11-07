@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: scientific-notation-intro
   type: soft
+- id: exponents-intro
+  type: hard
 builds-toward:
 - scientific-notation-operations
 - rational-expressions-intro

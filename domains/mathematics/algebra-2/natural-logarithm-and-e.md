@@ -12,9 +12,9 @@ prerequisites:
   type: soft
 - id: solving-logarithmic-equations
   type: soft
-builds-toward:
-- limit-definition-intuitive
-- derivative-as-slope-of-tangent
+- id: exponential-functions-and-graphs
+  type: hard
+builds-toward: []
 tags:
 - natural-logarithm
 - e

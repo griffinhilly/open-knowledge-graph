@@ -4,11 +4,13 @@ title: Zero Exponent
 domain: mathematics
 course: algebra-1
 prerequisites:
-  - id: exponent-rules-product-power-quotient
-    type: hard
+- id: exponent-rules-product-power-quotient
+  type: hard
+- id: exponents-intro
+  type: hard
 builds-toward:
-  - polynomials-intro
-  - negative-exponents
+- polynomials-intro
+- negative-exponents
 tags: [exponents, zero-exponent, rules]
 stage: abstract-reasoning
 status: validated

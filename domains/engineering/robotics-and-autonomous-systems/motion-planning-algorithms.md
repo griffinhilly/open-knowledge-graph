@@ -3,7 +3,9 @@ id: motion-planning-algorithms
 title: Motion Planning Algorithms and Path Finding
 domain: engineering
 course: robotics-and-autonomous-systems
-prerequisites: []
+prerequisites:
+- id: astar-search-algorithm
+  type: soft
 builds-toward:
 - rrt-prm-sampling-planners
 - potential-field-methods

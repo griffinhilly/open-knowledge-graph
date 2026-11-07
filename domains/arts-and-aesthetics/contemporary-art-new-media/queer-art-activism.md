@@ -3,7 +3,9 @@ id: queer-art-activism
 title: Queer Art and Activism
 domain: arts-and-aesthetics
 course: contemporary-art-new-media
-prerequisites: []
+prerequisites:
+- id: queer-aesthetics-theory
+  type: soft
 builds-toward: []
 tags:
 - contemporary-art-new-media

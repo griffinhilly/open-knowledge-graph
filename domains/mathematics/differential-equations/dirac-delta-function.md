@@ -6,8 +6,7 @@ course: differential-equations
 prerequisites:
 - id: convolution-theorem
   type: hard
-builds-toward:
-- systems-of-first-order-linear-odes
+builds-toward: []
 tags:
 - delta-function
 - impulse

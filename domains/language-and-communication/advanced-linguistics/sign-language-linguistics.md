@@ -3,7 +3,9 @@ id: sign-language-linguistics
 title: Sign Language Linguistics
 domain: language-and-communication
 course: advanced-linguistics
-prerequisites: []
+prerequisites:
+- id: phonological-systems
+  type: soft
 builds-toward:
 - language-and-cognition-interfaces
 tags:

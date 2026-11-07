@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: piecewise-functions-graphing
   type: soft
+- id: piecewise-functions
+  type: soft
 builds-toward:
 - intermediate-value-theorem
 - limit-definition-of-derivative

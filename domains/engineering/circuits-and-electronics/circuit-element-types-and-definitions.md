@@ -3,7 +3,9 @@ id: circuit-element-types-and-definitions
 title: Circuit Element Types and Definitions
 domain: engineering
 course: circuits-and-electronics
-prerequisites: []
+prerequisites:
+- id: ohms-law
+  type: soft
 builds-toward:
 - voltage-and-current-source-characteristics
 - capacitive-elements-behavior-properties

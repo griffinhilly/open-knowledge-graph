@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: partition-shapes-equal-parts
   type: soft
+- id: equal-parts-and-whole-shapes
+  type: hard
 builds-toward:
 - fractions-sixths-eighths
 - comparing-unit-fractions

@@ -6,6 +6,8 @@ course: complex-analysis
 prerequisites:
 - id: harmonic-functions-complex-analysis
   type: hard
+- id: cauchy-riemann-equations
+  type: hard
 tags:
 - harmonic
 - conjugate-pairs

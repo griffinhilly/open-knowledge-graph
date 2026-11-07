@@ -8,8 +8,7 @@ prerequisites:
   type: soft
 - id: pigeonhole-principle-introduction
   type: hard
-builds-toward:
-- graph-connectivity-components
+builds-toward: []
 tags:
 - pigeonhole
 - discrete-proofs

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: span-and-basis
   type: hard
+- id: vector-spaces
+  type: hard
 builds-toward:
 - rank-nullity-theorem
 - change-of-basis

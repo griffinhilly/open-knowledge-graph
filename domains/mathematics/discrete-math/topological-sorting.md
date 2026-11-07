@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: depth-first-search-graphs
   type: soft
+- id: directed-acyclic-graphs-discrete-math
+  type: hard
 builds-toward: []
 tags:
 - directed-graphs

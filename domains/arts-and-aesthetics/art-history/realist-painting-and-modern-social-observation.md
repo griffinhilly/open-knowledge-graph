@@ -3,7 +3,9 @@ id: realist-painting-and-modern-social-observation
 title: Realist Painting and Modern Social Observation
 domain: arts-and-aesthetics
 course: art-history
-prerequisites: []
+prerequisites:
+- id: academic-art-tradition
+  type: soft
 builds-toward:
 - impressionism-color-light-and-optical-perception
 tags:

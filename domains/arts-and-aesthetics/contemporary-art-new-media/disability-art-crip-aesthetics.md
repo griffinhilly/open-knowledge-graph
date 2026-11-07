@@ -3,7 +3,9 @@ id: disability-art-crip-aesthetics
 title: Disability Art and Crip Aesthetics
 domain: arts-and-aesthetics
 course: contemporary-art-new-media
-prerequisites: []
+prerequisites:
+- id: disability-epistemology-crip
+  type: soft
 builds-toward: []
 tags:
 - contemporary-art-new-media

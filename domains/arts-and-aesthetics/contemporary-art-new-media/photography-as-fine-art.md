@@ -3,7 +3,9 @@ id: photography-as-fine-art
 title: Photography as Fine Art
 domain: arts-and-aesthetics
 course: contemporary-art-new-media
-prerequisites: []
+prerequisites:
+- id: photography-and-modernism
+  type: soft
 builds-toward: []
 tags:
 - contemporary-art-new-media

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: unknown-factor-problems
   type: soft
+- id: multiplication-facts-within-100
+  type: hard
 builds-toward:
 - two-digit-by-one-digit-division
 - fractions-as-division

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: algebraic-and-transcendental-elements
   type: soft
+- id: splitting-fields
+  type: hard
 builds-toward:
 - fundamental-theorem-galois-theory
 tags:

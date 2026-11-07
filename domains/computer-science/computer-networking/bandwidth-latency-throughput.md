@@ -3,7 +3,9 @@ id: bandwidth-latency-throughput
 title: Bandwidth, Latency, and Throughput
 domain: computer-science
 course: computer-networking
-prerequisites: []
+prerequisites:
+- id: network-fundamentals
+  type: soft
 builds-toward:
 - ethernet-protocol
 - tcp-flow-control-and-congestion-control

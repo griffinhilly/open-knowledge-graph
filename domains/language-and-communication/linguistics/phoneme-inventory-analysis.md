@@ -3,7 +3,9 @@ id: phoneme-inventory-analysis
 title: Phoneme Inventory Analysis
 domain: language-and-communication
 course: linguistics
-prerequisites: []
+prerequisites:
+- id: articulatory-phonetics
+  type: soft
 builds-toward:
 - phonological-rules-derivation
 - stress-assignment-rules

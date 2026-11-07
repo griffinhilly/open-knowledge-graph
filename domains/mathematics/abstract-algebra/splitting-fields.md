@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: irreducibility-criteria
   type: soft
+- id: field-extensions
+  type: hard
 builds-toward:
 - galois-groups
 - finite-fields

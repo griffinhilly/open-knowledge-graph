@@ -3,7 +3,9 @@ id: ai-art-machine-creativity
 title: AI Art and Machine Creativity
 domain: arts-and-aesthetics
 course: contemporary-art-new-media
-prerequisites: []
+prerequisites:
+- id: generative-art-code
+  type: soft
 builds-toward: []
 tags:
 - contemporary-art-new-media

@@ -3,7 +3,9 @@ id: fable-moral-instruction
 title: 'Fable: Moral Instruction Through Animal Characters'
 domain: literature
 course: mythology-folklore-oral-traditions
-prerequisites: []
+prerequisites:
+- id: moral-and-lesson
+  type: soft
 builds-toward:
 - myth-function-cosmological
 tags:

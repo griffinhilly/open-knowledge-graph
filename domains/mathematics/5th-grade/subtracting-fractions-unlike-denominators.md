@@ -4,12 +4,16 @@ title: Subtracting Fractions with Unlike Denominators
 domain: mathematics
 course: 5th-grade
 prerequisites:
-  - id: adding-fractions-unlike-denominators
-    type: hard
-  - id: equivalent-fractions
-    type: hard
+- id: adding-fractions-unlike-denominators
+  type: hard
+- id: equivalent-fractions
+  type: hard
+- id: subtracting-fractions-like-denominators
+  type: hard
+- id: adding-fractions-like-denominators-5th
+  type: hard
 builds-toward:
-  - mixed-number-arithmetic
+- mixed-number-arithmetic
 tags: [fractions, subtraction, common-denominators]
 stage: concrete-operations
 status: validated

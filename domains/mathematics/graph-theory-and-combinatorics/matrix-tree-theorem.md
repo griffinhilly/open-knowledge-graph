@@ -6,6 +6,8 @@ course: graph-theory-and-combinatorics
 prerequisites:
 - id: graph-laplacian
   type: hard
+- id: graph-laplacian-spectrum
+  type: hard
 tags:
 - algebraic-graph-theory
 - counting

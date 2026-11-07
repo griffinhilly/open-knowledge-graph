@@ -3,7 +3,9 @@ id: speech-anxiety-management
 title: Managing Speech Anxiety
 domain: language-and-communication
 course: public-speaking
-prerequisites: []
+prerequisites:
+- id: oral-presentation-basics
+  type: soft
 builds-toward:
 - vocal-delivery-techniques
 - extemporaneous-speaking

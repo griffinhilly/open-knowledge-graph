@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: extending-patterns
   type: soft
+- id: abc-repeating-patterns
+  type: soft
 tags:
 - patterns
 - pattern extension

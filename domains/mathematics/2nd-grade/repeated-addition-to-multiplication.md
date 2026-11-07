@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: number-patterns-skip-counting-1st
   type: soft
+- id: arrays-2nd-grade
+  type: soft
 builds-toward:
 - multi-digit-multiplication
 - factors-and-multiples

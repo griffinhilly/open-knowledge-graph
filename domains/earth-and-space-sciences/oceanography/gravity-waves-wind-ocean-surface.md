@@ -3,7 +3,9 @@ id: gravity-waves-wind-ocean-surface
 title: Gravity Waves and Wind-Driven Ocean Surface Waves
 domain: earth-and-space-sciences
 course: oceanography
-prerequisites: []
+prerequisites:
+- id: wave-properties-conceptual
+  type: soft
 builds-toward:
 - internal-waves-density-stratification
 - shallow-water-wave-theory

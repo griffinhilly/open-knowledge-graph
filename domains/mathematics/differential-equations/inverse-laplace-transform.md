@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: partial-fractions
   type: hard
+- id: laplace-transform-definition
+  type: hard
 tags:
 - inverse-transform
 - partial-fractions

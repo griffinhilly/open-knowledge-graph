@@ -4,10 +4,12 @@ title: Inscribed Angles
 domain: mathematics
 course: geometry
 prerequisites:
-  - id: central-angles-and-arcs
-    type: hard
+- id: central-angles-and-arcs
+  type: hard
+- id: circle-basics
+  type: hard
 builds-toward:
-  - coordinate-geometry-proofs
+- coordinate-geometry-proofs
 tags: [circles, inscribed-angles, arcs, half-the-arc]
 stage: abstract-reasoning
 status: validated

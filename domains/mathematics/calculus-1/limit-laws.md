@@ -4,12 +4,14 @@ title: Limit Laws
 domain: mathematics
 course: calculus-1
 prerequisites:
-  - id: limit-definition-intuitive
-    type: hard
+- id: limit-definition-intuitive
+  type: hard
+- id: limits-intuitive-introduction
+  type: hard
 builds-toward:
-  - continuity-definition
-  - squeeze-theorem
-  - limits-at-infinity
+- continuity-definition
+- squeeze-theorem
+- limits-at-infinity
 tags: [limits, laws, computation]
 stage: formal-systems
 status: validated

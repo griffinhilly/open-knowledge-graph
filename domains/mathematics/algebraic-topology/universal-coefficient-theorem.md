@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: exact-sequences-homological-algebra
   type: hard
+- id: cochain-complexes-cohomology
+  type: hard
 builds-toward:
 - poincare-duality
 - kunneth-formula

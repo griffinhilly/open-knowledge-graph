@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: first-isomorphism-theorem-for-rings
   type: soft
+- id: group-isomorphisms
+  type: hard
+- id: normal-subgroups
+  type: hard
 builds-toward:
 - second-isomorphism-theorem-groups
 - third-isomorphism-theorem-groups

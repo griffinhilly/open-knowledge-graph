@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: power-series
   type: soft
+- id: modulus-and-argument
+  type: hard
 builds-toward:
 - complex-exponential-function
 - complex-logarithm-branch-cuts

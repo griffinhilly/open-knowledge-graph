@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: partial-derivatives
   type: hard
+- id: complex-differentiability
+  type: hard
 builds-toward:
 - harmonic-functions-complex-analysis
 - harmonic-conjugates

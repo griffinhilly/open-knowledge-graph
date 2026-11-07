@@ -4,14 +4,16 @@ title: Derivatives of Logarithmic Functions
 domain: mathematics
 course: calculus-1
 prerequisites:
-  - id: derivatives-of-exponential-functions
-    type: hard
-  - id: logarithmic-functions-review
-    type: hard
-  - id: chain-rule
-    type: hard
+- id: derivatives-of-exponential-functions
+  type: hard
+- id: logarithmic-functions-review
+  type: hard
+- id: chain-rule
+  type: hard
+- id: inverse-functions-review
+  type: soft
 builds-toward:
-  - implicit-differentiation
+- implicit-differentiation
 tags: [derivatives, logarithmic]
 stage: formal-systems
 status: validated

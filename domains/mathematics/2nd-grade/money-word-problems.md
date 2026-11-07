@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: making-change-and-money-word-problems
   type: soft
+- id: counting-coins-and-bills
+  type: hard
+- id: dollars-and-cents-notation
+  type: soft
 builds-toward: []
 tags:
 - money

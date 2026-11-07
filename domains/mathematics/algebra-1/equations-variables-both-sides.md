@@ -4,11 +4,13 @@ title: Equations with Variables on Both Sides
 domain: mathematics
 course: algebra-1
 prerequisites:
-  - id: solving-multi-step-equations
-    type: hard
+- id: solving-multi-step-equations
+  type: hard
+- id: two-step-equations
+  type: hard
 builds-toward:
-  - literal-equations
-  - systems-substitution
+- literal-equations
+- systems-substitution
 tags: [equations, variables-both-sides, solving, algebra]
 stage: abstract-reasoning
 status: validated

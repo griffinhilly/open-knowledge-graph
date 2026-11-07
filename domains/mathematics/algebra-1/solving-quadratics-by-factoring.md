@@ -4,13 +4,17 @@ title: Solving Quadratics by Factoring
 domain: mathematics
 course: algebra-1
 prerequisites:
-  - id: factoring-completely
-    type: hard
-  - id: solving-multi-step-equations
-    type: hard
+- id: factoring-completely
+  type: hard
+- id: solving-multi-step-equations
+  type: hard
+- id: factoring-difference-of-squares
+  type: soft
+- id: factoring-trinomials
+  type: hard
 builds-toward:
-  - quadratic-formula
-  - graphing-quadratics
+- quadratic-formula
+- graphing-quadratics
 tags: [quadratics, factoring, zero-product-property, solving]
 stage: abstract-reasoning
 status: validated

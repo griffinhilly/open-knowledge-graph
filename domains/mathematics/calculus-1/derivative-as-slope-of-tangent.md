@@ -4,11 +4,13 @@ title: Derivative as Slope of Tangent Line
 domain: mathematics
 course: calculus-1
 prerequisites:
-  - id: limit-definition-of-derivative
-    type: hard
+- id: limit-definition-of-derivative
+  type: hard
+- id: rates-of-change-preview
+  type: hard
 builds-toward:
-  - linear-approximation
-  - curve-sketching
+- linear-approximation
+- curve-sketching
 tags: [derivatives, tangent-line, geometric-interpretation]
 stage: formal-systems
 status: validated

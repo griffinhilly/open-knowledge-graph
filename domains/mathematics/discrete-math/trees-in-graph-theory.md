@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mathematical-induction
   type: hard
+- id: graph-theory-intro
+  type: hard
 builds-toward:
 - minimum-spanning-trees
 tags:

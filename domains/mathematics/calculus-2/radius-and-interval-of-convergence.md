@@ -4,14 +4,16 @@ title: Radius and Interval of Convergence
 domain: mathematics
 course: calculus-2
 prerequisites:
-  - id: power-series
-    type: hard
-  - id: ratio-test
-    type: hard
-  - id: root-test
-    type: soft
+- id: power-series
+  type: hard
+- id: ratio-test
+  type: hard
+- id: root-test
+  type: soft
+- id: geometric-series
+  type: soft
 builds-toward:
-  - taylor-series
+- taylor-series
 tags: [series, power-series, convergence, radius]
 stage: formal-systems
 status: validated

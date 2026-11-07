@@ -6,6 +6,8 @@ course: abstract-algebra
 prerequisites:
 - id: orbit-stabilizer-theorem
   type: hard
+- id: group-actions
+  type: hard
 builds-toward:
 - sylow-theorems
 tags:

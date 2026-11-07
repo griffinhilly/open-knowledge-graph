@@ -6,6 +6,8 @@ course: algebra-2
 prerequisites:
 - id: systems-of-inequalities
   type: soft
+- id: systems-word-problems
+  type: soft
 builds-toward: []
 tags:
 - optimization

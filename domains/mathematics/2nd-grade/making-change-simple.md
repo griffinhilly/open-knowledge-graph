@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: understanding-money-value
   type: hard
+- id: counting-coins-and-bills
+  type: hard
 builds-toward:
 - money-word-problems
 tags:

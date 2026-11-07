@@ -20,6 +20,8 @@ prerequisites:
   type: hard
 - id: place-value-hundreds-2nd
   type: hard
+- id: two-digit-addition-with-regrouping
+  type: hard
 builds-toward:
 - three-digit-subtraction
 - multi-digit-addition

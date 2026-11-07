@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: discernment-same-different
   type: soft
+- id: ordering-numbers-to-20
+  type: soft
 builds-toward:
 - addition-within-20
 - subtraction-within-20

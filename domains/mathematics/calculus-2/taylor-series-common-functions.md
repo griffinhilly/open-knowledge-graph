@@ -4,8 +4,10 @@ title: Taylor Series for Common Functions
 domain: mathematics
 course: calculus-2
 prerequisites:
-  - id: maclaurin-series
-    type: hard
+- id: maclaurin-series
+  type: hard
+- id: taylor-series
+  type: hard
 builds-toward: []
 tags: [series, Taylor, reference, common-functions]
 stage: formal-systems

@@ -3,7 +3,9 @@ id: curatorial-practice
 title: Curatorial Practice and Exhibition Design
 domain: arts-and-aesthetics
 course: contemporary-art-new-media
-prerequisites: []
+prerequisites:
+- id: art-collecting-museums-institutions
+  type: soft
 builds-toward: []
 tags:
 - contemporary-art-new-media

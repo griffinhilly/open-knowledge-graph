@@ -3,7 +3,9 @@ id: photic-zone-light-ocean-penetration
 title: Photic Zone and Light Penetration in the Ocean
 domain: earth-and-space-sciences
 course: oceanography
-prerequisites: []
+prerequisites:
+- id: photosynthesis-intro
+  type: soft
 builds-toward:
 - marine-phytoplankton-primary-production
 tags:

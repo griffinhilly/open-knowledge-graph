@@ -3,7 +3,9 @@ id: ocean-temperature-structure-thermocline
 title: Ocean Temperature Structure and the Thermocline
 domain: earth-and-space-sciences
 course: oceanography
-prerequisites: []
+prerequisites:
+- id: density-intro
+  type: soft
 builds-toward:
 - ocean-density-thermal-stratification
 - photic-zone-light-ocean-penetration

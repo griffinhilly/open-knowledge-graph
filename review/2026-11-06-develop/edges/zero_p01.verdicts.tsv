@@ -81,3 +81,32 @@ ADD	fairness-and-rules	rule-of-law-concept	soft	medium	Equal, consistent applica
 NONE	-	asking-why	-	medium	Root of the kids' philosophy course; draws on native child curiosity.
 ADD	asking-questions-about-stories	curiosity-and-questions	soft	medium	Pre-formal question-asking during read-alouds precedes it.
 ADD	real-vs-make-believe	imagination-vs-reality	soft	high	Pre-formal real vs make-believe distinction is the same skill one stage earlier.
+ADD	center-of-mass	center-of-mass-motion	hard	high	Motion of the CM requires knowing what the CM is and how to locate it.
+ADD	newtons-second-law	center-of-mass-motion	hard	high	The theorem is M a_CM = F_external, Newton's second law for a system.
+ADD	newtons-third-law	center-of-mass-motion	soft	high	Internal forces cancel because they come in third-law pairs.
+ADD	electric-charge-conceptual	conservation-of-electric-charge	soft	high	Conceptual charge (two signs, transfer) precedes the formal conservation law.
+ADD	static-electricity-and-charge-transfer	conservation-of-electric-charge	soft	medium	Charge is transferred or separated, not created; static charging is the standard example.
+ADD	curl-and-divergence	conservation-of-electric-charge	soft	medium	Core idea encodes conservation in the continuity equation with a divergence.
+ADD	electric-charge-conceptual	elementary-charge-conservation	soft	high	Conceptual charge precedes quantization and conservation (note: near-duplicate of conservation-of-electric-charge).
+ADD	protons-neutrons-electrons	elementary-charge-conservation	soft	medium	Elementary charge is the charge of the electron and proton.
+NONE	-	pushes-and-pulls	-	high	Entry point of physics; no pre-formal physics topics exist and force-as-push is everyday experience.
+ADD	wave-properties-conceptual	wave-properties-and-classification	soft	high	Conceptual wavelength, frequency, amplitude precede the formal treatment.
+ADD	simple-harmonic-motion	wave-properties-and-classification	soft	medium	Period and amplitude of the oscillating medium come from SHM.
+ADD	kitchen-awareness-safety-fundamentals	burner-heat-level-control	soft	high	Hot-stove hazard awareness precedes operating burners.
+NONE	-	kitchen-awareness-safety-fundamentals	-	high	Entry point of the cooking course for children (overlaps kitchen-safety-and-hygiene).
+ADD	washing-hands-and-hygiene	kitchen-safety-and-hygiene	soft	high	Pre-formal handwashing is the base of kitchen hygiene.
+ADD	germs-bacteria-and-viruses	kitchen-safety-and-hygiene	soft	medium	Cross-contamination rules rest on knowing germs spread.
+ADD	temperature-and-thermometers-3rd	oven-temperature-and-preheating	soft	medium	Recipes give temperatures in F or C; reading a temperature scale helps.
+ADD	kitchen-awareness-safety-fundamentals	oven-temperature-and-preheating	soft	medium	Oven use presumes hot-surface safety (oven mitts).
+ADD	food-groups-and-balanced-diet	vegetables-fruits-freshness-and-selection	soft	medium	Topic frames produce as a nutrition source; food groups give that context.
+ADD	computer-parts-identification	computer-hardware-basics	soft	high	Naming monitor, keyboard, mouse precedes CPU/RAM/storage and peripherals.
+NONE	-	computer-parts-identification	-	high	Entry point of the digital-literacy course.
+NONE	-	digital-literacy-fundamentals	-	medium	Course overview defining the field; no prior topic needed.
+ADD	basic-web-searching	effective-web-searching	soft	high	Query operators and critical ranking build on basic searching (using-google-search would create a cycle via advanced-search-operators).
+ADD	computer-hardware-basics	file-system-basics	soft	medium	Storage holding files permanently is the hardware base of the file system.
+ADD	what-is-a-file	file-types-and-extensions	soft	high	Extensions label files; the concept of a file comes first.
+ADD	saving-and-opening-files	file-types-and-extensions	soft	medium	Topic is about saving correctly and choosing the opening program.
+ADD	connecting-to-the-internet	internet-connectivity-basics	soft	medium	Hands-on connecting precedes understanding connection types and ISPs.
+ADD	web-browser-basics	internet-safety-basics	soft	medium	Safe-browsing rules (HTTPS, downloads) presume basic browser use.
+ADD	clicking-links-and-buttons	internet-safety-basics	soft	medium	Risk centres on clicking without thinking; clicking links comes first.
+ADD	computer-parts-identification	mouse-and-trackpad-control	soft	medium	Knowing the mouse as a computer part precedes technique (note: overlaps using-a-mouse).

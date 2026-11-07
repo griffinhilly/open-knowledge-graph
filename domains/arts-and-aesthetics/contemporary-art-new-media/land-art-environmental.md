@@ -3,7 +3,9 @@ id: land-art-environmental
 title: Land Art and Environmental Art
 domain: arts-and-aesthetics
 course: contemporary-art-new-media
-prerequisites: []
+prerequisites:
+- id: site-specific-art
+  type: soft
 builds-toward: []
 tags:
 - contemporary-art-new-media

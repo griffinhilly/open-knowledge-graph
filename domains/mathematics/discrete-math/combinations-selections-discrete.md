@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: combinations
   type: hard
+- id: counting-fundamentals-discrete
+  type: hard
 builds-toward:
 - binomial-theorem-discrete
 - inclusion-exclusion-advanced

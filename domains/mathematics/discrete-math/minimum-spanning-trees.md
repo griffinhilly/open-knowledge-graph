@@ -6,6 +6,8 @@ course: discrete-math
 prerequisites:
 - id: trees-and-forests
   type: hard
+- id: trees-in-graph-theory
+  type: hard
 tags:
 - graph-theory
 - spanning-trees

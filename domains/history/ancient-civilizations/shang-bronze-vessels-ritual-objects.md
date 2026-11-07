@@ -3,7 +3,9 @@ id: shang-bronze-vessels-ritual-objects
 title: Shang Dynasty Bronze Vessels and Ritual Culture
 domain: history
 course: ancient-civilizations
-prerequisites: []
+prerequisites:
+- id: ancient-china-origins
+  type: soft
 builds-toward:
 - oracle-bones-divination-writing
 tags:

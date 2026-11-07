@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: konig-theorem
   type: soft
+- id: bipartite-matching
+  type: hard
 tags:
 - graph-theory
 - matching

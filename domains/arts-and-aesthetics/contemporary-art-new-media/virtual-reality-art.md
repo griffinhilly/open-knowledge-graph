@@ -3,7 +3,9 @@ id: virtual-reality-art
 title: Virtual Reality and Immersive Art
 domain: arts-and-aesthetics
 course: contemporary-art-new-media
-prerequisites: []
+prerequisites:
+- id: digital-art-foundations
+  type: soft
 builds-toward: []
 tags:
 - contemporary-art-new-media

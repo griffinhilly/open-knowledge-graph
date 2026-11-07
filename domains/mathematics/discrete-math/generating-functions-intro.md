@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: recurrence-relations-discrete
   type: soft
+- id: linear-recurrences-homogeneous
+  type: soft
 tags:
 - generating-functions
 - power-series

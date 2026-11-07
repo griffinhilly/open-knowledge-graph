@@ -3,7 +3,9 @@ id: generative-art-code
 title: Generative Art and Code-Based Practice
 domain: arts-and-aesthetics
 course: contemporary-art-new-media
-prerequisites: []
+prerequisites:
+- id: digital-art-foundations
+  type: soft
 builds-toward: []
 tags:
 - contemporary-art-new-media

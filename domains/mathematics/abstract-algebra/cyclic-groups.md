@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: subgroups-and-subgroup-test
   type: soft
+- id: group-basic-properties
+  type: hard
 builds-toward:
 - order-group-element
 - classification-finite-abelian-groups

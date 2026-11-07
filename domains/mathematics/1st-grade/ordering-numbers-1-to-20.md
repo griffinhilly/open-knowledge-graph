@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - ordering-two-digit-numbers
-- number-patterns-and-relationships
 tags:
 - ordering
 - sequence

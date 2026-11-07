@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: slope-intercept-form
   type: hard
+- id: arithmetic-sequences
+  type: soft
 builds-toward: []
 tags:
 - functions

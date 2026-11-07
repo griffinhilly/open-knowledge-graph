@@ -6,6 +6,8 @@ course: discrete-math
 prerequisites:
 - id: permutations-and-arrangements
   type: hard
+- id: counting-principles-fundamentals
+  type: hard
 builds-toward:
 - binomial-coefficients
 - multinomial-theorem

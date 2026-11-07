@@ -6,6 +6,10 @@ course: abstract-algebra
 prerequisites:
 - id: cosets-lagrange-theorem
   type: hard
+- id: group-homomorphisms
+  type: soft
+- id: subgroups-subgroup-test
+  type: hard
 builds-toward:
 - quotient-groups
 - first-isomorphism-theorem-groups

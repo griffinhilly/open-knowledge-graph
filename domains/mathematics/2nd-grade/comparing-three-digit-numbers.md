@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: comparing-two-digit-numbers
   type: hard
+- id: place-value-hundreds
+  type: hard
 builds-toward:
 - number-line-to-1000
 - rounding-whole-numbers

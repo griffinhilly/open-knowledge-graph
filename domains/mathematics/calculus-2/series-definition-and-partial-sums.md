@@ -4,11 +4,15 @@ title: Series Definition and Partial Sums
 domain: mathematics
 course: calculus-2
 prerequisites:
-  - id: sequences-convergence
-    type: hard
+- id: sequences-convergence
+  type: hard
+- id: geometric-sequences-and-series
+  type: soft
+- id: sequences-and-series-review
+  type: soft
 builds-toward:
-  - geometric-series
-  - divergence-test
+- geometric-series
+- divergence-test
 tags: [series, partial-sums, definition]
 stage: formal-systems
 status: validated

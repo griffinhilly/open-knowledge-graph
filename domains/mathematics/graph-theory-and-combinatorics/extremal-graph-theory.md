@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: graph-operations-and-products
   type: soft
+- id: turan-theorem
+  type: soft
 tags:
 - graph-theory
 - extremal

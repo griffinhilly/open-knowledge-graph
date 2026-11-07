@@ -14,8 +14,6 @@ prerequisites:
   type: soft
 builds-toward:
 - uniform-convergence
-- root-test
-- ratio-test
 tags:
 - limsup
 - liminf

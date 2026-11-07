@@ -3,7 +3,11 @@ id: institutional-critique
 title: Institutional Critique
 domain: arts-and-aesthetics
 course: contemporary-art-new-media
-prerequisites: []
+prerequisites:
+- id: artistic-transgression-institutional-critique
+  type: soft
+- id: art-collecting-museums-institutions
+  type: soft
 builds-toward: []
 tags:
 - contemporary-art-new-media

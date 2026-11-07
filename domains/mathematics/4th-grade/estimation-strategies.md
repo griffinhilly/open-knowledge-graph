@@ -20,6 +20,8 @@ prerequisites:
   type: soft
 - id: multiples-of-ten
   type: soft
+- id: estimation-products-3rd
+  type: soft
 builds-toward:
 - rounding-decimals
 tags:

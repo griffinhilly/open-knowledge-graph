@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: one-to-one-correspondence
   type: hard
+- id: subitizing
+  type: soft
 tags:
 - addition
 - combining

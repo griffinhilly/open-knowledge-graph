@@ -6,6 +6,8 @@ course: complex-analysis
 prerequisites:
 - id: complex-differentiability
   type: hard
+- id: limits-continuity-complex-functions
+  type: hard
 builds-toward:
 - cauchy-riemann-equations
 - complex-line-integrals

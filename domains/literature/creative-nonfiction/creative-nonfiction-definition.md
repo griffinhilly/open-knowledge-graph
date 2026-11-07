@@ -3,7 +3,9 @@ id: creative-nonfiction-definition
 title: 'Creative Nonfiction: Definition and Scope'
 domain: literature
 course: creative-nonfiction
-prerequisites: []
+prerequisites:
+- id: fiction-vs-nonfiction
+  type: soft
 builds-toward:
 - truth-and-fabrication-nonfiction
 - autobiographical-authority

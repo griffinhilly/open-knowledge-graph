@@ -3,7 +3,9 @@ id: homer-epics-literature-culture
 title: Homer, Epic Poetry, and Greek Cultural Identity
 domain: history
 course: ancient-civilizations
-prerequisites: []
+prerequisites:
+- id: dark-ages-greece-transition
+  type: soft
 builds-toward:
 - greek-tragedy-dramatic-arts
 tags:

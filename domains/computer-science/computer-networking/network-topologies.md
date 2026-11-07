@@ -3,7 +3,9 @@ id: network-topologies
 title: Network Topologies and Architectures
 domain: computer-science
 course: computer-networking
-prerequisites: []
+prerequisites:
+- id: network-fundamentals
+  type: soft
 builds-toward:
 - switching-basics
 - routing-algorithms-overview

@@ -6,6 +6,8 @@ course: complex-analysis
 prerequisites:
 - id: power-series-complex-plane
   type: hard
+- id: taylor-series-complex
+  type: soft
 builds-toward:
 - singularities-classification
 - residues-definition-computation

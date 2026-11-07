@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: compound-inequalities
   type: hard
+- id: solving-inequalities
+  type: hard
+- id: absolute-value
+  type: hard
 builds-toward:
 - piecewise-functions
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: graph-connectivity
   type: soft
+- id: network-flows
+  type: soft
 tags:
 - graph-theory
 - connectivity

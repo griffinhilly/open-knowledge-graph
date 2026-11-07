@@ -6,8 +6,7 @@ course: discrete-math
 prerequisites:
 - id: pigeonhole-principle
   type: hard
-builds-toward:
-- graph-fundamentals-discrete
+builds-toward: []
 tags:
 - pigeonhole
 - existence-proofs

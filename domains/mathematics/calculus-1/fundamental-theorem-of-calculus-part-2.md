@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: indefinite-integrals
   type: soft
+- id: definite-integral-definition
+  type: hard
 builds-toward:
 - u-substitution
 - area-between-curves

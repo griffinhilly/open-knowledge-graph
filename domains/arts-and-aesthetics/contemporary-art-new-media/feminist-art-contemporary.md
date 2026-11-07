@@ -3,7 +3,9 @@ id: feminist-art-contemporary
 title: Feminist Art and Contemporary Practice
 domain: arts-and-aesthetics
 course: contemporary-art-new-media
-prerequisites: []
+prerequisites:
+- id: gender-and-artistic-representation
+  type: soft
 builds-toward: []
 tags:
 - contemporary-art-new-media

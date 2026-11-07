@@ -6,6 +6,8 @@ course: discrete-math
 prerequisites:
 - id: walks-paths-cycles
   type: hard
+- id: euler-paths-circuits
+  type: soft
 tags:
 - graph-theory
 - hamiltonian

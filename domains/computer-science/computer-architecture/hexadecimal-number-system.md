@@ -3,7 +3,9 @@ id: hexadecimal-number-system
 title: Hexadecimal Number System
 domain: computer-science
 course: computer-architecture
-prerequisites: []
+prerequisites:
+- id: place-value-whole-numbers
+  type: soft
 builds-toward:
 - memory-organization
 - assembly-language-basics

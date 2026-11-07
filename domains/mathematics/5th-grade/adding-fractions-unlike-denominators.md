@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: comparing-fractions
   type: soft
+- id: adding-fractions-like-denominators
+  type: hard
 builds-toward:
 - subtracting-fractions-unlike-denominators
 - mixed-number-arithmetic

@@ -3,7 +3,11 @@ id: kalman-filter-state-estimation
 title: Kalman Filter and State Estimation
 domain: engineering
 course: robotics-and-autonomous-systems
-prerequisites: []
+prerequisites:
+- id: multivariate-normal-distribution
+  type: soft
+- id: state-space-representation-control
+  type: soft
 builds-toward:
 - simultaneous-localization-and-mapping
 tags:

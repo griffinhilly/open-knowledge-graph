@@ -3,7 +3,9 @@ id: scarcity-choice-production-tradeoff
 title: Scarcity, Choice, and Production Tradeoffs
 domain: economics
 course: microeconomics
-prerequisites: []
+prerequisites:
+- id: scarcity-and-opportunity-cost
+  type: soft
 builds-toward:
 - opportunity-cost-concept
 - comparative-advantage-and-trade

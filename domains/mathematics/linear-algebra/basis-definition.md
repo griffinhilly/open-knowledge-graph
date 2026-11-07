@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: linear-independence
   type: hard
+- id: scalar-multiplication
+  type: hard
 builds-toward:
 - dimension-vector-space
 - rank-nullity-theorem

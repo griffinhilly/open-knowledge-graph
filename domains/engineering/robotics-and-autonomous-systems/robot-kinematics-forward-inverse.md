@@ -3,7 +3,11 @@ id: robot-kinematics-forward-inverse
 title: Forward and Inverse Kinematics
 domain: engineering
 course: robotics-and-autonomous-systems
-prerequisites: []
+prerequisites:
+- id: transformation-matrices
+  type: soft
+- id: right-triangle-trigonometry-intro
+  type: soft
 builds-toward:
 - denavit-hartenberg-convention
 - jacobian-robot-control

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: classifying-quadrilaterals
   type: soft
+- id: classifying-angles
+  type: hard
 builds-toward: []
 tags:
 - geometry

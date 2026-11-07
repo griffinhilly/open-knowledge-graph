@@ -3,7 +3,9 @@ id: medieval-world-definition-periodization
 title: 'Medieval World: Definition and Periodization'
 domain: history
 course: medieval-world
-prerequisites: []
+prerequisites:
+- id: periodization
+  type: soft
 builds-toward:
 - feudalism
 - byzantine-empire

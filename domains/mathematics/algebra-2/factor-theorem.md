@@ -4,11 +4,13 @@ title: Factor Theorem
 domain: mathematics
 course: algebra-2
 prerequisites:
-  - id: remainder-theorem
-    type: hard
+- id: remainder-theorem
+  type: hard
+- id: synthetic-division
+  type: soft
 builds-toward:
-  - rational-root-theorem
-  - fundamental-theorem-of-algebra
+- rational-root-theorem
+- fundamental-theorem-of-algebra
 tags: [polynomials, factor-theorem, zeros, roots]
 stage: abstract-reasoning
 status: validated

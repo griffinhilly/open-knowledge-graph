@@ -3,7 +3,9 @@ id: postcolonial-art-contemporary
 title: Postcolonial Art and Contemporary Practice
 domain: arts-and-aesthetics
 course: contemporary-art-new-media
-prerequisites: []
+prerequisites:
+- id: art-and-colonialism
+  type: soft
 builds-toward: []
 tags:
 - contemporary-art-new-media

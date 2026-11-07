@@ -1,2 +1,4 @@
 inv_core.verdicts.tsv
 bt_physics.verdicts.tsv
+bt_mathematics_p00.verdicts.tsv
+zero_p00.verdicts.tsv

@@ -3,7 +3,9 @@ id: conceptual-art-foundations
 title: Conceptual Art Foundations
 domain: arts-and-aesthetics
 course: contemporary-art-new-media
-prerequisites: []
+prerequisites:
+- id: surrealism-and-dada
+  type: soft
 builds-toward: []
 tags:
 - contemporary-art-new-media

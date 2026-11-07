@@ -3,7 +3,11 @@ id: historical-cartography-and-map-analysis
 title: Historical Cartography and Map Analysis
 domain: history
 course: historical-methods
-prerequisites: []
+prerequisites:
+- id: spatial-representation-maps
+  type: soft
+- id: primary-sources
+  type: soft
 builds-toward:
 - historical-geography-and-spatial-analysis
 tags:

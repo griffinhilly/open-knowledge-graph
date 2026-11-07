@@ -6,6 +6,8 @@ course: abstract-algebra
 prerequisites:
 - id: principal-ideal-domains
   type: hard
+- id: integral-domains
+  type: hard
 builds-toward:
 - polynomial-rings
 tags:

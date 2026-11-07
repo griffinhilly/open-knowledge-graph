@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: 2d-shape-properties-1st
   type: hard
+- id: shape-attributes-2d
+  type: hard
 builds-toward:
 - classifying-triangles
 - classifying-quadrilaterals

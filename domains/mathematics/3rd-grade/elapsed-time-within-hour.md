@@ -12,8 +12,7 @@ prerequisites:
   type: soft
 - id: elapsed-time-calculation-3rd
   type: soft
-builds-toward:
-- elapsed-time
+builds-toward: []
 tags:
 - time
 - measurement

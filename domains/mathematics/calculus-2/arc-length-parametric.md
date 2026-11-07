@@ -4,14 +4,16 @@ title: Arc Length of Parametric Curves
 domain: mathematics
 course: calculus-2
 prerequisites:
-  - id: parametric-curves-calculus
-    type: hard
-  - id: arc-length
-    type: hard
-  - id: vector-valued-functions-curves
-    type: soft
+- id: parametric-curves-calculus
+  type: hard
+- id: arc-length
+  type: hard
+- id: vector-valued-functions-curves
+  type: soft
+- id: parametric-equations-intro
+  type: hard
 builds-toward:
-  - polar-arc-length
+- polar-arc-length
 tags: [parametric, arc-length, integration]
 stage: formal-systems
 status: validated

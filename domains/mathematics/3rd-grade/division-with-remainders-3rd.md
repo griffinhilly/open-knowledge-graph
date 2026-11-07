@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: two-digit-by-one-digit-division
   type: soft
-builds-toward:
-- division-facts-within-100-3rd
+builds-toward: []
 tags:
 - division
 - remainders

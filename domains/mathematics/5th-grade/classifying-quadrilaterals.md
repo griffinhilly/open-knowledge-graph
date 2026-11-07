@@ -4,14 +4,16 @@ title: Classifying Quadrilaterals
 domain: mathematics
 course: 5th-grade
 prerequisites:
-  - id: classifying-2d-shapes
-    type: hard
-  - id: parallel-and-perpendicular-lines
-    type: hard
-  - id: measuring-angles
-    type: soft
-  - id: right-angles-in-shapes-3rd
-    type: hard
+- id: classifying-2d-shapes
+  type: hard
+- id: parallel-and-perpendicular-lines
+  type: hard
+- id: measuring-angles
+  type: soft
+- id: right-angles-in-shapes-3rd
+  type: hard
+- id: shapes-2d-attributes-3rd
+  type: hard
 builds-toward: []
 tags: [geometry, quadrilaterals, classification, properties]
 stage: concrete-operations

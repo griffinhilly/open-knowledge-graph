@@ -10,8 +10,7 @@ prerequisites:
   type: hard
 - id: estimation-multiplication-division
   type: soft
-builds-toward:
-- fact-families
+builds-toward: []
 tags:
 - fact-families
 - multiplication

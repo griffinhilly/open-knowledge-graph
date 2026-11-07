@@ -4,16 +4,18 @@ title: Parallel Lines and Transversals
 domain: mathematics
 course: geometry
 prerequisites:
-  - id: angle-pairs
-    type: hard
-  - id: points-lines-planes
-    type: hard
-  - id: angle-relationships
-    type: hard
+- id: angle-pairs
+  type: hard
+- id: points-lines-planes
+  type: hard
+- id: angle-relationships
+  type: hard
+- id: angle-basics-and-classification
+  type: hard
 builds-toward:
-  - corresponding-angles
-  - alternate-interior-angles
-  - triangle-angle-sum
+- corresponding-angles
+- alternate-interior-angles
+- triangle-angle-sum
 tags: [parallel-lines, transversals, angle-relationships]
 stage: abstract-reasoning
 status: validated

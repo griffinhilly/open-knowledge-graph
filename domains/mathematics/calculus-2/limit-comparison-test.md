@@ -4,10 +4,12 @@ title: Limit Comparison Test
 domain: mathematics
 course: calculus-2
 prerequisites:
-  - id: comparison-test
-    type: hard
+- id: comparison-test
+  type: hard
+- id: p-series
+  type: soft
 builds-toward:
-  - absolute-vs-conditional-convergence
+- absolute-vs-conditional-convergence
 tags: [series, convergence-tests, limit-comparison]
 stage: formal-systems
 status: validated

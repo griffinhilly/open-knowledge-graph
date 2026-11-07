@@ -14,6 +14,10 @@ prerequisites:
   type: hard
 - id: discernment-same-different
   type: soft
+- id: addition-within-10
+  type: hard
+- id: subtraction-within-10
+  type: hard
 builds-toward:
 - addition-subtraction-word-problems
 tags:

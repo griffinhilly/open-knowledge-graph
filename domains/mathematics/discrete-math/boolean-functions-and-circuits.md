@@ -6,8 +6,7 @@ course: discrete-math
 prerequisites:
 - id: boolean-algebra
   type: hard
-builds-toward:
-- algorithm-complexity-discrete
+builds-toward: []
 tags:
 - Boolean-functions
 - logic-gates

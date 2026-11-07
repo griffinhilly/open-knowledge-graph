@@ -3,7 +3,9 @@ id: northern-renaissance-flemish-and-german-traditions
 title: 'Northern Renaissance: Flemish and German Traditions'
 domain: arts-and-aesthetics
 course: art-history
-prerequisites: []
+prerequisites:
+- id: renaissance-humanism-and-art
+  type: soft
 builds-toward:
 - mannerism-artifice-and-stylization
 - dutch-golden-age-painting
