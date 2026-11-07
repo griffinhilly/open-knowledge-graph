@@ -18,6 +18,15 @@ status: validated
 ## Core Idea
 Creation operators â† add a quantum of excitation; annihilation operators â remove one. These generalize from the harmonic oscillator to many-body systems and quantum fields.
 
+## How It's Best Learned
+Write â and â† as 5×5 matrices in the basis |0⟩ to |4⟩, with √1, √2, √3, √4 on the off-diagonals. Multiply to get N̂ = â†â as diag(0, 1, 2, 3, 4), and compute [â, â†] to see it equals 1 except in the last entry, where the cutoff spoils it. Then do the same for one fermion mode with 2×2 matrices and check that (ĉ†)² = 0.
+
+## Common Misconceptions
+- â† takes |n⟩ to |n+1⟩ with no extra factor. (â†|n⟩ = √(n+1)|n+1⟩ and â|n⟩ = √n|n−1⟩; dropping the square roots gives wrong matrix elements and wrong normalizations.)
+- â acting on the vacuum gives back the vacuum, or a state with −1 quanta. (â|0⟩ = 0 is the zero vector, which is not a physical state.)
+- â and â† are observables because they come from x̂ and p̂. (Neither is Hermitian, since each is the adjoint of the other; Hermitian combinations such as â†â or â + â† are the observables.)
+- Fermion operators for different modes commute, like boson operators. (They anticommute, so ĉ₁†ĉ₂† = −ĉ₂†ĉ₁†, and the order in which you create fermions sets the sign of the state.)
+
 ## Questions
 
 ```yaml

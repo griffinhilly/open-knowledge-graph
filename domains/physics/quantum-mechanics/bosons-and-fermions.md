@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Particles with integer spin (0, 1, 2, ...) are bosons with symmetric wavefunctions; particles with half-integer spin (1/2, 3/2, ...) are fermions with antisymmetric wavefunctions. This spin-statistics connection is a fundamental theorem of relativistic quantum field theory. Bosons can occupy the same state; fermions cannot. This difference gives rise to dramatically different macroscopic behavior.
 
+## How It's Best Learned
+Take two particles in a 1D box, one in state ψ₁ and one in ψ₂. Write the symmetric and antisymmetric combinations and plot |Ψ(x₁, x₂)|² as a 2D density map. The antisymmetric map is zero along the line x₁ = x₂, and the symmetric one is enhanced there. Then put both particles in ψ₁ and watch the antisymmetric combination vanish.
+
+## Common Misconceptions
+- The Pauli exclusion principle says two electrons cannot be at the same place. (It forbids two identical fermions in the same quantum state; electrons with opposite spins can share the same spatial orbital.)
+- An atom built from fermions must be a fermion. (A composite with an even number of fermions has integer total spin and acts as a boson, which is why helium-4 atoms are bosons.)
+- The exclusion principle is a separate rule added to explain the periodic table. (It follows from the antisymmetry of the many-fermion wavefunction, which the spin-statistics theorem ties to half-integer spin.)
+- Bosons crowd into the same state because some force pulls them together. (The tendency comes from exchange symmetry and holds even for non-interacting bosons.)
+
 ## Questions
 
 ```yaml

@@ -19,6 +19,15 @@ status: validated
 ## Core Idea
 Bose-Einstein statistics govern systems of indistinguishable bosons with no restriction on state occupancy. The Bose-Einstein distribution g(E) = 1/(e^{(E-μ)/k_BT} - 1) shows a singularity below the condensation temperature T_c, below which macroscopic numbers of particles occupy the ground state. This behavior explains Bose-Einstein condensation, superfluidity, and laser operation.
 
+## How It's Best Learned
+First plot the Bose-Einstein, Fermi-Dirac and Maxwell-Boltzmann occupancies on one graph against x = (E − μ)/k_BT and note where they agree. Then, for an ideal gas in a 3D box, set μ = 0 and integrate n(E) times the density of states ∝ √E. The excited states can hold only a limited number of particles at a given T, and the remainder must sit in the ground state.
+
+## Common Misconceptions
+- Bose-Einstein condensation happens because the bosons attract each other. (Condensation appears in the ideal, non-interacting gas; it comes from the counting of indistinguishable bosons, and interactions only modify the condensate.)
+- The chemical potential of a Bose gas can take any value. (μ must stay at or below the lowest single-particle energy, or that state's occupancy would come out negative.)
+- Bose-Einstein statistics differ from classical statistics at every temperature and density. (When e^{(E−μ)/k_BT} ≫ 1, the −1 hardly matters and the distribution reduces to the Maxwell-Boltzmann form.)
+- Photons in a blackbody cavity form a condensate because they are bosons. (Photon number is not conserved, so μ = 0 and the photons follow the Planck distribution without condensing.)
+
 ## Questions
 
 ```yaml

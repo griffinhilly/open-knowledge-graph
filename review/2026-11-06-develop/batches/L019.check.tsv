@@ -1,0 +1,52 @@
+domains/biology/structural-biology/alphafold-and-ml-prediction.md	how	3	0	ok
+domains/biology/structural-biology/alphafold-and-ml-prediction.md	mis	6	0	ok	old text: Explainer and Q2 say AF2 accuracy degrades for de novo designed proteins; AF2 predicts most designed proteins well. Core Idea dates AlphaFold to 2020 (AlphaFold2; AlphaFold1 was 2018).
+domains/biology/structural-biology/atomic-model-refinement.md	how	3	0	ok
+domains/biology/structural-biology/atomic-model-refinement.md	mis	6	0	ok	old text: Explainer says R-free should decrease monotonically; overstated.
+domains/biology/structural-biology/cryo-em.md	how	3	0	ok
+domains/biology/structural-biology/cryo-em.md	mis	6	0	ok
+domains/biology/structural-biology/cryo-et.md	how	3	0	ok
+domains/biology/structural-biology/cryo-et.md	mis	6	0	ok
+domains/biology/structural-biology/crystallographic-symmetry-space-groups.md	how	3	0	ok
+domains/biology/structural-biology/crystallographic-symmetry-space-groups.md	mis	8	1	fixed	230-space-group bullet listed only mirrors, glides and inversion centers as excluded; groups with only a rotoinversion (e.g. P-4, I-4) are also excluded, so that list does not leave 65. Added rotoinversion and phrased as any handedness-inverting operation.
+domains/biology/structural-biology/diffraction-and-fourier-transforms.md	how	2	0	ok
+domains/biology/structural-biology/diffraction-and-fourier-transforms.md	mis	8	0	ok
+domains/biology/structural-biology/homology-modeling.md	how	3	0	ok
+domains/biology/structural-biology/homology-modeling.md	mis	6	0	ok
+domains/biology/structural-biology/hydrogen-deuterium-exchange.md	how	3	0	ok
+domains/biology/structural-biology/hydrogen-deuterium-exchange.md	mis	8	0	ok
+domains/biology/structural-biology/intrinsically-disordered-proteins.md	how	2	0	ok
+domains/biology/structural-biology/intrinsically-disordered-proteins.md	mis	6	0	ok
+domains/biology/structural-biology/ligand-binding-and-docking.md	how	3	0	ok
+domains/biology/structural-biology/ligand-binding-and-docking.md	mis	6	0	ok
+domains/biology/structural-biology/macromolecular-assemblies.md	how	3	0	ok
+domains/biology/structural-biology/macromolecular-assemblies.md	mis	6	0	ok	old text: Explainer describes the proteasome as two stacked rings of 7; the 20S core is four stacked heptameric rings (a7b7b7a7, D7 symmetry).
+domains/biology/structural-biology/mass-spectrometry-structural.md	how	3	0	ok
+domains/biology/structural-biology/mass-spectrometry-structural.md	mis	6	0	ok
+domains/biology/structural-biology/membrane-protein-structures.md	how	2	0	ok
+domains/biology/structural-biology/membrane-protein-structures.md	mis	6	0	ok
+domains/biology/structural-biology/molecular-dynamics-simulations.md	how	3	0	ok
+domains/biology/structural-biology/molecular-dynamics-simulations.md	mis	6	0	ok	old text: Core Idea says simulations routinely reach milliseconds; ms is reached only on special hardware (Anton), not routinely.
+domains/biology/structural-biology/nmr-for-proteins.md	how	3	0	ok
+domains/biology/structural-biology/nmr-for-proteins.md	mis	6	0	ok	New ensemble-spread bullet is correct but old Q2 explanation and Explainer say high-RMSD regions are genuinely flexible / ensemble spread is a direct readout of flexibility; old text overstates and now contradicts the new bullet. Not edited (out of scope).
+domains/biology/structural-biology/noesy-and-distance-constraints.md	how	3	0	ok
+domains/biology/structural-biology/noesy-and-distance-constraints.md	mis	6	0	ok
+domains/biology/structural-biology/nucleic-acid-structures.md	how	2	0	ok
+domains/biology/structural-biology/nucleic-acid-structures.md	mis	6	1	fixed	RNA-diagram bullet said the diagram lists base pairs only and listed pseudoknots as a non-base-pair tertiary contact, while the new How section has learners find pseudoknots on that diagram. Swapped pseudoknots for tetraloop-receptor docking. old text: Q1 explanation says A-form RNA has a wider major groove; it is narrow and deep.
+domains/biology/structural-biology/protein-crystallization.md	how	3	0	ok
+domains/biology/structural-biology/protein-crystallization.md	mis	6	0	ok
+domains/biology/structural-biology/protein-protein-interactions-structural.md	how	3	0	ok
+domains/biology/structural-biology/protein-protein-interactions-structural.md	mis	6	0	ok
+domains/biology/structural-biology/saxs.md	how	3	0	ok
+domains/biology/structural-biology/saxs.md	mis	6	0	ok
+domains/biology/structural-biology/single-particle-analysis.md	how	3	0	ok
+domains/biology/structural-biology/single-particle-analysis.md	mis	6	0	ok
+domains/biology/structural-biology/structure-based-drug-design.md	how	3	0	ok
+domains/biology/structural-biology/structure-based-drug-design.md	mis	6	0	ok
+domains/biology/structural-biology/structure-solution-methods.md	how	2	0	ok
+domains/biology/structural-biology/structure-solution-methods.md	mis	6	0	ok
+domains/biology/structural-biology/structure-validation-model-quality.md	how	2	0	ok
+domains/biology/structural-biology/structure-validation-model-quality.md	mis	6	0	ok
+domains/biology/structural-biology/time-resolved-structural-methods.md	how	2	0	ok
+domains/biology/structural-biology/time-resolved-structural-methods.md	mis	6	0	ok
+domains/biology/structural-biology/x-ray-crystallography.md	how	2	0	ok
+domains/biology/structural-biology/x-ray-crystallography.md	mis	6	0	ok

@@ -18,6 +18,14 @@ status: validated
 ## Core Idea
 For degenerate unperturbed levels, solve the matrix eigenvalue problem of H' restricted to the degenerate subspace to find correct zeroth-order states.
 
+## How It's Best Learned
+Start with a two-state case where W = [[0, w], [w, 0]]. The diagonal entries predict no shift, yet the eigenvalues are ±w with good states (|1⟩ ± |2⟩)/√2. Then do the n = 2 Stark effect. Use parity and [Lz, z] = 0 to show that only ⟨2s|z|2p, m=0⟩ survives, so the 4×4 matrix shrinks to 2×2.
+
+## Common Misconceptions
+- The first-order shifts are the diagonal elements ⟨ψᵢ|H'|ψᵢ⟩ in whatever basis you started with. (They are the eigenvalues of W; diagonal elements give the shifts only in the basis that diagonalizes W.)
+- You must diagonalize H' over the whole Hilbert space. (At first order you diagonalize only the block within the degenerate subspace; states outside it are handled with the ordinary formulas.)
+- Finding the good states always takes a full matrix calculation. (If an operator commutes with both H⁰ and H' and has distinct eigenvalues within the subspace, its eigenstates are the good states; in the n = 2 Stark effect, Lz does part of this job and leaves only a 2×2 block.)
+
 ## Questions
 
 ```yaml

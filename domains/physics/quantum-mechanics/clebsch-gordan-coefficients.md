@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Clebsch-Gordan coefficients ⟨j₁, m₁; j₂, m₂ | j, m_j⟩ expand coupled angular momentum states as linear combinations of uncoupled states and encode all angular momentum composition algebra.
 
+## How It's Best Learned
+Generate one small table yourself before using printed ones. For j₁ = 1 and j₂ = 1/2, start from |3/2, 3/2⟩ = |1, 1⟩|↑⟩ and apply J₋ = J₁₋ + J₂₋ to get |3/2, 1/2⟩ = √(2/3)|1, 0⟩|↑⟩ + √(1/3)|1, 1⟩|↓⟩. Then find |1/2, 1/2⟩ by orthogonality. Check your numbers against a standard table, including its sign convention.
+
+## Common Misconceptions
+- Printed tables list the coefficients themselves. (Many tables print the squared value under a square root with the sign placed outside, so √(2/3) may appear as 2/3.)
+- The signs of the coefficients are fixed by physics alone. (The relative signs within a multiplet are fixed, but the overall sign of each multiplet is a convention, usually the Condon-Shortley choice.)
+- Any uncoupled state can contribute to any coupled state. (The coefficient vanishes unless M = m₁ + m₂ and J lies between |j₁ − j₂| and j₁ + j₂.)
+- The coefficients are probabilities. (They are real amplitudes that can be negative; their squares give probabilities, and those squares sum to 1 along each row and each column of the table.)
+
 ## Questions
 
 ```yaml

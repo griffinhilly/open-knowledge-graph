@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 When two angular momenta J̄₁ and J̄₂ couple, the total angular momentum J̄ = J̄₁ + J̄₂ can take values where |j₁ - j₂| ≤ j ≤ j₁ + j₂. States |j₁m₁⟩|j₂m₂⟩ in the uncoupled basis can be rewritten as superpositions of coupled states |jm⟩. The transformation coefficients are Clebsch-Gordan coefficients governing atomic and nuclear spectra.
 
+## How It's Best Learned
+Work the two spin-1/2 case by hand first. Write the four uncoupled states, apply the lowering operator J₋ = J₁₋ + J₂₋ to |↑↑⟩ to build the triplet, then find the singlet as the m = 0 state orthogonal to the triplet's m = 0 state. Then repeat with l = 1 and s = 1/2, checking that the state count stays at six.
+
+## Common Misconceptions
+- Two angular momenta just add like numbers, so j₁ = 1 and j₂ = 1/2 give j = 3/2. (The total j can take every value from |j₁ − j₂| to j₁ + j₂ in integer steps, so here j = 1/2 or 3/2.)
+- The state |↑↓⟩ has a definite total spin because the spins point opposite ways. (|↑↓⟩ is an equal superposition of the triplet m = 0 state and the singlet, so J² is not definite in it.)
+- Coupling creates new states, so the coupled basis has more states than the uncoupled one. (Both are bases of the same space and have the same dimension, (2j₁+1)(2j₂+1).)
+- Every m = 0 state of two spins belongs to the singlet. (The triplet also has an m = 0 member, (|↑↓⟩ + |↓↑⟩)/√2, which has j = 1.)
+
 ## Questions
 
 ```yaml

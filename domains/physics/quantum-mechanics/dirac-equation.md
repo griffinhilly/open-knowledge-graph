@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 The Dirac equation (iγᵘ∂ᵤψ − mψ = 0) is the relativistic wave equation for spin-½ fermions. It predicts the electron's g-factor and positrons. Solutions are 4-component spinors; spin emerges as a relativistic effect.
 
+## How It's Best Learned
+Build the Dirac-representation gamma matrices from Pauli matrices in 2×2 blocks and check {γᵘ, γᵛ} = 2ηᵘᵛ by direct multiplication. Next, apply (iγᵘ∂ᵤ + m) to the equation and show that every component obeys the Klein-Gordon equation. Then solve for a particle at rest, where the four solutions separate cleanly into two positive-energy and two negative-energy spinors.
+
+## Common Misconceptions
+- The four components stand for four spin directions. (They hold two spin states each for the positive-energy and negative-energy solutions; spin-½ still has only two projections along any axis.)
+- Because ψ has four components, it transforms like a spacetime four-vector. (ψ is a spinor and transforms under the spinor representation of the Lorentz group, which differs from the four-vector rule.)
+- There is one correct set of gamma matrices. (Any set satisfying the anticommutation relations works; the Dirac and Weyl representations are related by a change of basis and give the same physics.)
+- The negative-energy solutions can be thrown away as unphysical. (They are needed for a complete set of solutions and were reinterpreted as antiparticle states.)
+
 ## Questions
 
 ```yaml

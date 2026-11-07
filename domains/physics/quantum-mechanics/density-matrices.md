@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Density matrix ρ = |ψ⟩⟨ψ| (pure) or ρ = Σᵢ pᵢ|ψᵢ⟩⟨ψᵢ| (mixed) encodes complete state information. Expectation values: ⟨Â⟩ = Tr(ρÂ).
 
+## How It's Best Learned
+Use a single spin-1/2 and write ρ = (I + r·σ)/2 with Bloch vector r. Pure states sit on the unit sphere, mixed states inside, and Tr(ρ²) = (1 + |r|²)/2. Build ρ for a 50/50 mix of |↑⟩ and |↓⟩, then for a 50/50 mix of |+x⟩ and |−x⟩. Both give I/2, which shows that ρ carries all the measurable information.
+
+## Common Misconceptions
+- A density matrix with off-diagonal entries is a superposition, and one without them is a mixture. (Off-diagonal entries depend on the basis; the pure state |↑⟩ has none in the z-basis, so use Tr(ρ²) to judge purity.)
+- Each density matrix comes from one specific ensemble of states. (Different ensembles can give the same ρ, and no measurement can tell them apart.)
+- A 50/50 superposition and a 50/50 mixture behave the same because their z-measurement statistics match. (Their density matrices differ, and measurements along other axes, such as x, separate them.)
+- A mixed state always means we are ignorant of which pure state the system is in. (A subsystem of an entangled pure state is also described by a mixed ρ, with no hidden pure state behind it.)
+
 ## Questions
 
 ```yaml

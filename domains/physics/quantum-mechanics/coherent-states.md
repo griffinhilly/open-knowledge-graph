@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Coherent states |α⟩ are eigenstates of the lowering operator. They saturate the uncertainty principle (minimum-uncertainty states), exhibit classical-like behavior with oscillating expectation values, and naturally appear in quantum optics.
 
+## How It's Best Learned
+Compute everything from â|α⟩ = α|α⟩ and x̂ = √(ℏ/2mω)(â + â†), never touching a wavefunction. Get ⟨x̂⟩, ⟨x̂²⟩ and Δx in a few lines, then use |α(t)⟩ = |αe^{−iωt}⟩ to get the motion. Finally plot P(n) for |α|² = 1, 5 and 25 and watch the relative spread shrink as the amplitude grows.
+
+## Common Misconceptions
+- Energy eigenstates are the most classical oscillator states because they have definite energy. (Every |n⟩ has ⟨x̂⟩ = 0 at all times; coherent states are the ones whose expectation values follow the classical orbit.)
+- A coherent state has a definite number of quanta, |α|². (It is a superposition of all |n⟩ with Poisson weights, so |α|² is only the mean.)
+- Different coherent states are orthogonal, like energy eigenstates. (Two coherent states overlap, with |⟨α|β⟩|² = e^{−|α−β|²}, so they are close to orthogonal only when α and β are far apart.)
+- Every minimum-uncertainty state is a coherent state. (Squeezed states also reach ΔxΔp = ℏ/2 but have unequal spreads in x and p compared with the ground state.)
+
 ## Questions
 
 ```yaml

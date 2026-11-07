@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Entangled states cannot be written as products of individual particle states. A classic example is the Bell state |ψ⟩ = 1/√2(|↑↓⟩ + |↓↑⟩), where measuring one particle's spin instantly determines the other's regardless of separation. Entanglement reveals non-local correlations without faster-than-light communication. It cannot be created by local operations alone and is a resource for quantum computing.
 
+## How It's Best Learned
+Use the two-qubit test. Write a state as a|↑↑⟩ + b|↑↓⟩ + c|↓↑⟩ + d|↓↓⟩; it factors into a product exactly when ad − bc = 0. Try it on (|↑↑⟩ + |↑↓⟩)/√2, which factors, and on the Bell state, which does not. Then compare the Bell state with a 50/50 classical mix of |↑↓⟩ and |↓↑⟩ by measuring both spins along x.
+
+## Common Misconceptions
+- Any two-particle superposition is entangled. (A superposition can still factor, as (|↑↑⟩ + |↑↓⟩)/√2 = |↑⟩(|↑⟩ + |↓⟩)/√2 does.)
+- Perfect anticorrelation along z proves the pair is entangled. (A classical 50/50 mix of |↑↓⟩ and |↓↑⟩ gives the same z results; entanglement shows up in correlations along other axes.)
+- When Alice measures, the statistics of Bob's own results change. (Bob's local outcomes stay 50/50 whatever Alice does; only the joint records show the correlation.)
+
 ## Questions
 
 ```yaml

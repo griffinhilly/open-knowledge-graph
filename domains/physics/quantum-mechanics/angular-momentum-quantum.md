@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 Quantum angular momentum operators L̂ₓ, L̂ᵧ, L̂ᵧ satisfy canonical commutation relations [L̂ᵢ, L̂ⱼ] = iℏεᵢⱼₖL̂ₖ. The total angular momentum squared L̂² commutes with each component, so L̂² and one component (typically L̂ᵧ) can be simultaneously diagonalized. Eigenvalues of L̂ᵧ are mℏ where m = -l, -l+1, …, l-1, l and l is the angular momentum quantum number.
 
+## How It's Best Learned
+Build the 3×3 matrices for L̂ₓ, L̂ᵧ and L̂_z in the l = 1 basis |1,1⟩, |1,0⟩, |1,−1⟩ using the ladder operators. Check [L̂ₓ, L̂ᵧ] = iℏL̂_z by multiplying them out, and check that L̂² comes out as 2ℏ² times the identity. Seeing the algebra hold in concrete matrices makes the abstract derivation easier to trust.
+
+## Common Misconceptions
+- The magnitude of angular momentum in state |l, m⟩ is mℏ, or lℏ at most. (The magnitude is ℏ√(l(l+1)), which is larger than the largest projection lℏ for any l > 0.)
+- L̂² and L̂_z share eigenstates because L̂_z is special. (L̂² commutes with every component; choosing z is a convention, and L̂² equally shares eigenstates with L̂ₓ.)
+- A state with definite m also has definite values of L̂ₓ and L̂ᵧ, which we just don't know. (For l > 0, no state is an eigenstate of two different components at once; the spread in L̂ₓ and L̂ᵧ is a property of the state.)
+
 ## Questions
 
 ```yaml

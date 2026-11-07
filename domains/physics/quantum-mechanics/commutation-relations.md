@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 The commutator [Â, B̂] = ÂB̂ − B̂Â measures how operators fail to commute. Nonzero commutators signal that observables cannot be simultaneously measured with arbitrary precision.
 
+## How It's Best Learned
+Always act on a test function. Apply x̂p̂ − p̂x̂ to f(x) with p̂ = −iℏ d/dx and watch the product rule leave iℏf behind. Then use the identity [Â, B̂Ĉ] = [Â, B̂]Ĉ + B̂[Â, Ĉ] to get [x̂², p̂] = 2iℏx̂ without derivatives. Finish with the 2×2 Pauli matrices, where you can multiply out every commutator by hand.
+
+## Common Misconceptions
+- If two operators do not commute, they cannot share any eigenstate. (They lack a complete common eigenbasis, but they can share some states; L̂x and L̂y both give zero on the l = 0 state.)
+- If [Â, B̂] = 0, every eigenstate of Â is also an eigenstate of B̂. (That holds when Â's eigenvalues are nondegenerate; with degeneracy you may need to choose suitable combinations within each eigenspace.)
+- A commutator is a number, like iℏ. (In general it is an operator, such as iℏL̂z for [L̂x, L̂y]; the canonical pair just happens to give a constant times the identity.)
+- Writing p̂x̂ instead of x̂p̂ only changes notation. (The two products differ by iℏ, so operator order changes results, as in expanding (x̂ + p̂)².)
+
 ## Questions
 
 ```yaml

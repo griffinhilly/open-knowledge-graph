@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 The expectation value ⟨A⟩ = ⟨ψ|A|ψ⟩ gives the average result of measuring observable A. Higher moments characterize the full probability distribution. Expectation values connect quantum mechanics to classical observables.
 
+## How It's Best Learned
+Do the full set of integrals for the ground state of an infinite square well of width L. Compute ⟨x⟩ = L/2, ⟨x²⟩, ⟨p⟩ = 0 and ⟨p²⟩ = (πℏ/L)², then form Δx and Δp and check that their product, about 0.57ℏ, exceeds ℏ/2. Then compare ⟨H⟩ for a two-level superposition with a histogram of simulated single measurements.
+
+## Common Misconceptions
+- The expectation value is the most likely result of a measurement. (It is the mean; it can fall between eigenvalues and never occur, as 2 eV does for an equal mix of 1 eV and 3 eV states.)
+- ⟨A²⟩ is the same as ⟨A⟩². (They differ by the variance, which is zero only when the state is an eigenstate of A.)
+- A particle with nonzero kinetic energy must have nonzero ⟨p⟩. (A real, normalizable wavefunction gives ⟨p⟩ = 0 even though ⟨p²⟩ > 0, as in any bound energy eigenstate in one dimension.)
+- Ehrenfest's theorem means ⟨x⟩ follows the classical path in every potential. (It gives d⟨p⟩/dt = −⟨∂V/∂x⟩, which equals the classical force at ⟨x⟩ exactly for potentials at most quadratic and approximately for narrow wavepackets.)
+
 ## Questions
 
 ```yaml

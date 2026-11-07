@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Angular momentum operators satisfy [Lᵢ, Lⱼ] = iℏεᵢⱼₖLₖ, implying L² and Lz have eigenvalues ℏ²ℓ(ℓ+1) and mℏ respectively, where ℓ = 0,½,1,... and m = -ℓ,...,ℓ. This quantization emerges from commutation relations, not boundary conditions.
 
+## How It's Best Learned
+Do the ladder-operator derivation yourself in four steps: show [Lz, L±] = ±ℏL±, show L± shifts m by one, require the ladder to stop at a top state, then use L₋L₊ = L² − Lz² − ℏLz on that top state to get ℓ(ℓ+1). Afterward, draw the vector model for ℓ = 1 as cones of length √2 ℏ around the z-axis.
+
+## Common Misconceptions
+- An ℓ = 2 state has angular momentum of magnitude 2ℏ. (The magnitude is ℏ√(ℓ(ℓ+1)), which is √6 ℏ for ℓ = 2; 2ℏ is the largest z-projection.)
+- In the state with m = ℓ, the angular momentum points exactly along z. (The magnitude still exceeds ℓℏ, and Lx and Ly have nonzero spread, so the vector cannot lie on the axis.)
+- Half-integer values come from the same single-valued wavefunction argument as integer values. (Single-valuedness of spatial wavefunctions allows integer ℓ only; half-integer values come from the commutation algebra and describe spin.)
+- Since [Lx, Ly] ≠ 0, L² cannot share eigenstates with any component. (L² commutes with each component, so it has simultaneous eigenstates with one chosen component such as Lz.)
+
 ## Questions
 
 ```yaml

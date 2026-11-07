@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 Born approximation: f(θ) ≈ −(m/2πℏ²) ∫ e^{iq·r'} V(r') d³r' with momentum transfer q. Valid for weak scattering or high energy. Predicts Rutherford scattering.
 
+## How It's Best Learned
+Work two Fourier transforms in full. First do the Yukawa potential V₀e^{−μr}/r, which gives f ∝ 1/(q² + μ²), and let μ → 0 to recover the Rutherford 1/sin⁴(θ/2) law. Then do a finite square well of radius a and plot |f|² against q to see the large-q fall-off. Comparing the two curves links potential range to angular spread.
+
+## Common Misconceptions
+- The Born approximation works best for strong potentials and slow particles, where scattering is largest. (It is first order in V, so it needs a weak potential or high energy; strong potentials and low energies bring in the multiple-scattering terms it drops.)
+- A tiny, sharply localized potential scatters mostly forward. (A sharply localized potential has a broad Fourier transform reaching large q, so it scatters out to wide angles; long-range potentials favor small angles.)
+- The momentum transfer q is the incident momentum. (q = k_f − k_i depends on angle, with magnitude 2k sin(θ/2) for elastic scattering, so it is zero in the forward direction.)
+
 ## Questions
 
 ```yaml
@@ -56,6 +64,7 @@ Born approximation: f(θ) ≈ −(m/2πℏ²) ∫ e^{iq·r'} V(r') d³r' with mo
 - question: "Why does the Born approximation have the mathematical form of a Fourier transform, and what physical insight does this provide about the relationship between a potential's spatial structure and its scattering pattern?"
   type: short-answer
   answer: "In the Born approximation, the incoming particle travels as a plane wave e^{ik_i·r} and barely deviates. At each point r' in the potential, the interaction re-radiates a small spherical wave weighted by V(r'). Each re-radiated contribution carries a phase factor e^{iq·r'} recording the path-length difference between the incoming wave and the outgoing wave in direction k_f, where q = k_f − k_i is the momentum transfer. The total scattered amplitude is the coherent sum of all these contributions — an integral of the form ∫ e^{iq·r'} V(r') d³r', which is exactly the Fourier transform of V evaluated at q. The physical insight: the scattering pattern is a 'Fourier portrait' of the potential. Long-range potentials have Fourier transforms concentrated at small q (scatter mainly forward); sharply localized potentials have flat Fourier transforms (scatter isotropically). This is the quantum analog of optical Fraunhofer diffraction."
+  explanation: "The key step is replacing the exact wavefunction inside the scattering integral with the incident plane wave. After that, the only position dependence besides V(r') is the phase difference between incoming and outgoing waves, and that phase depends on r' only through the momentum transfer q. An integral of V weighted by a plane-wave phase in q is by definition a Fourier transform. A practical consequence follows. For a smooth potential of range a, the transform falls off once q is much larger than 1/a, so the angular spread of the scattering gives a rough measure of the scatterer's size."
 ```
 
 ## Explainer

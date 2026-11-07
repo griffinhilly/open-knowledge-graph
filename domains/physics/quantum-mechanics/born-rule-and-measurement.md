@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The Born rule states that the probability of measuring eigenvalue aₙ of observable A in state |ψ⟩ is |⟨aₙ|ψ⟩|². Upon measurement, the state collapses to the corresponding eigenstate. This rule connects the wavefunction to experimental predictions.
 
+## How It's Best Learned
+Use a spin-1/2 sequence. Prepare (|↑⟩ + |↓⟩)/√2 and (|↑⟩ − |↓⟩)/√2, and compute z-measurement probabilities for both: they match. Then compute x-measurement probabilities: they differ completely. Finally measure z, take the collapsed state, and measure x. Working these by hand shows what amplitudes, phases and collapse each contribute.
+
+## Common Misconceptions
+- The coefficient in front of an eigenstate is the probability of that outcome. (The coefficient is an amplitude; the probability is its modulus squared, so an amplitude of 3/5 gives 9/25.)
+- Two states with the same outcome probabilities in one basis are the same state. (Relative phases leave those probabilities unchanged but change the probabilities for measurements in other bases.)
+- A state can be plugged into the Born rule as written, whatever its length. (The rule assumes ⟨ψ|ψ⟩ = 1; an unnormalized state must be normalized first or the probabilities will not sum to 1.)
+- After collapse the system stays in the measured eigenstate forever. (Collapse sets the state at the moment of measurement; afterward it evolves under the Hamiltonian, which can move it away from that eigenstate.)
+
 ## Questions
 
 ```yaml

@@ -18,6 +18,15 @@ status: validated
 ## Core Idea
 Transition rate to continuum: Γ_{i→f} = (2π/ℏ) |⟨f|H'|i⟩|² ρ(E_f), where ρ(E_f) is the density of final states. Predicts absorption, emission, decay, and scattering rates.
 
+## How It's Best Learned
+Plot [sin(Δωt/2)/(Δω/2)]² against Δω for three growing times. The peak height grows as t² while the width shrinks as 1/t, so the area grows as t, and that area is what turns into a constant rate. Then count states for a particle in a large box to get ρ(E) explicitly before plugging it into a decay or scattering problem.
+
+## Common Misconceptions
+- A large matrix element guarantees a fast transition. (The rate is the product of |⟨f|H'|i⟩|² and ρ(E_f); with few final states at the right energy, the rate stays small.)
+- ρ(E_f) is the total number of final states. (It is the number of final states per unit energy at the energy that conservation selects.)
+- The Golden Rule rate holds at every time after the perturbation starts. (It needs times long enough for the sinc² peak to be narrow compared with the spread of the continuum, yet short enough that first-order theory still holds.)
+- If the matrix element is zero, the transition cannot happen at all. (The first-order rate vanishes, but higher-order processes or other terms in the interaction can still drive it more slowly.)
+
 ## Questions
 
 ```yaml

@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 When two angular momenta couple, J⃗ = J⃗₁ + J⃗₂ has quantum number j ranging from |j₁ − j₂| to j₁ + j₂. The basis transformation uses Clebsch-Gordan coefficients.
 
+## How It's Best Learned
+Take a p electron (l = 1, s = 1/2) and write L·S as (J² − L² − S²)/2. Evaluate it on the j = 3/2 and j = 1/2 states to get two numbers, then compare with acting L·S on an uncoupled state like |m_l = 0, m_s = +1/2⟩, which returns a different state, |m_l = 1, m_s = −1/2⟩, so it is not an eigenstate. That contrast shows why the interaction decides which basis is convenient.
+
+## Common Misconceptions
+- Coupling two angular momenta gives one total, j = j₁ + j₂. (That is the largest value; j runs down to |j₁ − j₂| in integer steps, so l = 2 and s = 1/2 give j = 3/2 and 5/2.)
+- The coupled basis is the more correct description, so the uncoupled basis is wrong. (Both are complete bases for the same space; the better one is the basis whose labels commute with the Hamiltonian.)
+- Under spin-orbit coupling, m_l and m_s stay definite because m_j = m_l + m_s stays definite. (L·S commutes with J_z but not with L_z or S_z, so only the sum m_j remains a good quantum number.)
+
 ## Questions
 
 ```yaml

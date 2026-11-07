@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 When combining two angular momenta J₁ and J₂, the total J = J₁ + J₂ has quantum numbers ranging from |ℓ₁ - ℓ₂| to ℓ₁ + ℓ₂. Reexpressing uncoupled eigenstates in the coupled basis requires Clebsch-Gordan coefficients, essential for understanding atomic fine structure.
 
+## How It's Best Learned
+Make an M-counting table. For j₁ = 1 and j₂ = 1/2, list every pair (m₁, m₂) and group the pairs by M = m₁ + m₂. One state has the top M, so it starts the highest j multiplet. Remove that multiplet and the next top M starts the next one. This shows where the triangular rule comes from before any Clebsch-Gordan coefficients appear.
+
+## Common Misconceptions
+- The total j can be any value from 0 up to j₁ + j₂. (The lowest value is |j₁ − j₂|, and j moves in integer steps, so j₁ = 3/2 and j₂ = 1 give j = 1/2, 3/2, 5/2.)
+- Because M = m₁ + m₂ is fixed, a state with definite m₁ and m₂ also has a definite total j. (A product state with one M value is in general a superposition of several j values that share that M.)
+- With spin-orbit coupling, mₗ and mₛ are still good labels for the energy levels. (L·S does not commute with Lz or Sz, so the energy eigenstates are labeled by j and M instead.)
+
 ## Questions
 
 ```yaml

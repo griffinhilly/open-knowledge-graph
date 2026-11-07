@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 For an operator Â, an eigenstate |φₙ⟩ satisfies Â|φₙ⟩ = λₙ|φₙ⟩ where λₙ is the eigenvalue. In quantum mechanics, eigenvalues of an observable operator are the only possible measurement outcomes, and eigenstates are states in which the observable has a definite value. The completeness of eigenstates ensures any quantum state can be expanded in eigenbasis.
 
+## How It's Best Learned
+Work one 2×2 case end to end. Take σₓ = [[0, 1], [1, 0]], find its eigenvalues ±1 and eigenvectors (1, ±1)/√2, then expand |↑⟩ = (1, 0) in that basis to get probabilities 1/2 and 1/2. Also compute σₓ|↑⟩ = |↓⟩ and note that this is not the state after measurement. That one calculation separates outcomes, probabilities and operator action.
+
+## Common Misconceptions
+- Applying Â to |ψ⟩ gives the state after measuring A. (Â|ψ⟩ is a new vector, usually not normalized; after measurement the state is the eigenstate for the outcome obtained.)
+- The single-shot result of a measurement can be the expectation value. (Each result is an eigenvalue; the expectation value is the average over many runs and need not be an eigenvalue.)
+- 2|φ⟩ and |φ⟩ are different eigenstates because they are different vectors. (They differ only by a constant factor and describe the same physical state, with the same eigenvalue.)
+- For a degenerate eigenvalue there is one correct eigenstate. (Any combination of eigenstates sharing that eigenvalue is also an eigenstate, so the basis within the subspace is a choice.)
+
 ## Questions
 
 ```yaml

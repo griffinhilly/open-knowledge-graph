@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Dirac notation compactly represents quantum states and operations using kets |ψ⟩ (column vectors) and bras ⟨ψ| (row vectors). The notation separates abstract state space from coordinate representation and elegantly expresses inner products, operators, and expectation values. It is the standard language of quantum mechanics.
 
+## How It's Best Learned
+Translate every expression into matrices for a two-state system. Write |ψ⟩ as a column (a, b), its bra as the row (a*, b*), and compute ⟨φ|ψ⟩, |ψ⟩⟨ψ| and ⟨φ|Â|ψ⟩ explicitly. Then insert the identity Σₙ|n⟩⟨n| = 1 into ⟨φ|ψ⟩ and, for the position basis, recover ∫φ*(x)ψ(x) dx. Moving between the two forms builds fluency quickly.
+
+## Common Misconceptions
+- The ket |ψ⟩ and the wavefunction ψ(x) are the same thing. (ψ(x) = ⟨x|ψ⟩ is the set of components of |ψ⟩ in the position basis; the ket itself is basis-free.)
+- The bra of c|ψ⟩ is c⟨ψ|. (Taking the bra conjugates the coefficient, so the bra is c*⟨ψ|.)
+- |φ⟩⟨ψ| is a number, like ⟨ψ|φ⟩. (A ket followed by a bra is an outer product, which is an operator; a bra followed by a ket is a number.)
+- In ⟨φ|Â|ψ⟩ the operator can be moved freely from one side to the other. (Â acts on |ψ⟩ as written; to act on the bra side you need the adjoint, since ⟨φ|Â is the bra of Â†|φ⟩.)
+
 ## Questions
 
 ```yaml

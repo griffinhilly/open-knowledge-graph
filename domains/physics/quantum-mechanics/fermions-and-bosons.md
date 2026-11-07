@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Half-integer spin particles (electrons, quarks) are fermions with antisymmetric wavefunctions; integer spin particles (photons, pions) are bosons with symmetric ones. Fermions obey Pauli exclusion; bosons allow multiple particles in one state.
 
+## How It's Best Learned
+Put two particles in different states ψ_a and ψ_b of a 1D well and compute ⟨(x₁ − x₂)²⟩ three ways: distinguishable, symmetric and antisymmetric. The symmetric case comes out smaller and the antisymmetric case larger, by the same exchange term. This shows the effect of exchange symmetry as a number before you meet its large-scale consequences.
+
+## Common Misconceptions
+- Bosons attract and fermions repel through a special force. (The change in separation comes from exchange symmetry alone and appears even when the particles do not interact.)
+- A nucleus or atom made of fermions must itself be a fermion. (An even number of fermions gives integer total spin, so the deuteron, one proton plus one neutron, is a boson.)
+- Every electron must be antisymmetrized with every other electron in the universe before any prediction is valid. (When the single-particle wavefunctions do not overlap, the exchange terms are negligible, so distant electrons can be treated as distinguishable.)
+
 ## Questions
 
 ```yaml

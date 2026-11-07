@@ -18,6 +18,15 @@ status: validated
 ## Core Idea
 For identical fermions, the antisymmetrized product (Slater determinant) ensures no two fermions share identical quantum numbers. For bosons, symmetric superpositions allow multiple particles in the same state.
 
+## How It's Best Learned
+Expand a 3×3 Slater determinant by hand into its six terms with the 1/√3! prefactor. Swap particles 1 and 2 and check that the whole expression flips sign, since each term turns into another term of opposite sign, then set two orbitals equal and watch the terms cancel. Next, take two electrons in 1s and 2s orbitals and pair the symmetric and antisymmetric spatial parts with the spin singlet and triplet.
+
+## Common Misconceptions
+- For two electrons, the spatial wavefunction must be antisymmetric. (The total wavefunction, space times spin, must be antisymmetric; a symmetric spatial part with the antisymmetric spin singlet is allowed.)
+- A Slater determinant is normalized as written. (For orthonormal orbitals it needs a factor of 1/√N! to be normalized.)
+- The exchange energy comes from a new force between identical particles. (It comes from the ordinary interaction, such as Coulomb repulsion, evaluated in a symmetrized or antisymmetrized state.)
+- Every pair of fermions in a system must be antisymmetrized, such as the electron and positron in positronium. (The requirement applies to identical particles; an electron and a positron are distinguishable and need no antisymmetrization with each other.)
+
 ## Questions
 
 ```yaml

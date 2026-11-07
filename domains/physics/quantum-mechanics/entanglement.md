@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 A two-particle state is entangled if it cannot be written as |ψ⟩₁ ⊗ |φ⟩₂. Entangled states exhibit correlations stronger than any classical correlation. Bell states (maximally entangled pairs) are fundamental resources for quantum communication and computation.
 
+## How It's Best Learned
+Compute the reduced density matrix. Write |Φ⁺⟩⟨Φ⁺| as a 4×4 matrix, trace out particle 2, and get ρ₁ = I/2; do the same for a product state and get a pure ρ₁. Then rewrite |Φ⁺⟩ in the x basis as (|+⟩|+⟩ + |−⟩|−⟩)/√2. The perfect correlation survives the change of basis, which no single classical mixture of product states copies.
+
+## Common Misconceptions
+- Each particle of a Bell pair is secretly in some pure state that we do not know. (The reduced state of either particle is the maximally mixed state I/2, and no pure state of one particle reproduces the joint correlations.)
+- Whether a state is entangled depends on the basis you write it in. (Local basis changes cannot turn an entangled state into a product state; the entanglement entropy is unchanged by them.)
+- A pair stays entangled after one particle is measured. (Measuring particle 1 along z projects |Φ⁺⟩ onto |↑↑⟩ or |↓↓⟩, which are product states.)
+- All Bell states have opposite spins along z. (|Φ⁺⟩ and |Φ⁻⟩ have equal z-spins; only |Ψ⁺⟩ and |Ψ⁻⟩ are anticorrelated along z.)
+
 ## Questions
 
 ```yaml

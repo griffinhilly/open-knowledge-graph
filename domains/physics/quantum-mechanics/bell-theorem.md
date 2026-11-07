@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Bell's theorem proves no local hidden-variable theory reproduces all quantum predictions. Bell inequalities bound classical correlations; entangled states violate these bounds.
 
+## How It's Best Learned
+Write out a table of imagined runs in which each pair carries preset ±1 answers for all four settings A, A′, B, B′. Compute S row by row and confirm each row gives ±2, so the average cannot pass 2. Then mark which assumption each step used: realism fills every cell, and locality lets the same A value serve in both AB and AB′. Compare with Bohmian mechanics, which keeps hidden variables by giving up locality.
+
+## Common Misconceptions
+- Bell's theorem rules out every hidden-variable theory. (It rules out local ones; nonlocal hidden-variable theories such as Bohmian mechanics reproduce the quantum predictions.)
+- Because the correlations are nonlocal, Alice can send Bob a message by choosing her measurement. (Bob's outcomes look random whatever Alice does, and the correlation only shows up when the two records are compared.)
+- Bell's inequality is a result of quantum mechanics. (It is a bound derived from classical assumptions about local, preset outcomes; quantum mechanics is what violates it.)
+
 ## Questions
 
 ```yaml

@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 Bell's theorem proves that no local hidden variable theory can reproduce quantum mechanical predictions for entangled states. Bell inequalities give bounds on correlations in any local realistic theory; quantum mechanics violates these bounds. Experiments have confirmed quantum predictions, ruling out local hidden variables. This settles the foundational debate about completeness of quantum mechanics.
 
+## How It's Best Learned
+Start with a three-setting toy model. Give each particle a card of preset answers, such as (+, −, +), for three detector settings, with the pair always agreeing when the settings match. Enumerate every card and count how often the two detectors agree when settings are chosen at random. Then compare that floor of 5/9 with the quantum agreement rate of 1/2 when the three settings are 120° apart.
+
+## Common Misconceptions
+- Entanglement is like a pair of gloves split into two boxes, with the answers fixed from the start. (Preset answers of that kind are local hidden variables, and Bell inequalities show they cannot reproduce the quantum correlations at all angles.)
+- Bell's theorem proves that entangled particles influence each other faster than light. (It shows that locality and realism cannot both hold; it does not say which fails, and no signal can be sent with the correlations.)
+- The violation shows up when both detectors are aligned. (Aligned detectors give perfect correlation, which preset answers can copy; the conflict appears at intermediate angles.)
+
 ## Questions
 
 ```yaml

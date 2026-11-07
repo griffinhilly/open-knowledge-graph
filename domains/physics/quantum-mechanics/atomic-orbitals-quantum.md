@@ -19,6 +19,15 @@ status: validated
 ## Core Idea
 Atomic orbitals ψ_{nlm}(r,θ,φ) = R_{nl}(r)Y_l^m(θ,φ) are labeled by quantum numbers n (energy), ℓ (angular momentum), and m (z-component). The probability density |ψ|² gives the charge cloud picture; orbitals represent probability distributions, not electron trajectories.
 
+## How It's Best Learned
+For the 1s, 2s and 2p states, plot two curves side by side: the density |ψ|² along a line from the nucleus, and the radial probability r²|R_{nl}|². Mark the nodes on each. The pair shows why 1s density is largest at the nucleus while the most likely radius is a₀. Then look at the angular parts Y_l^m separately to see the shapes.
+
+## Common Misconceptions
+- An orbital is the path the electron travels, and the dense regions are where it moves slowly. (An orbital is a stationary state; |ψ|² gives the probability per unit volume of finding the electron there on measurement, with no trajectory.)
+- In the 1s state the electron density is highest at the Bohr radius. (The density |ψ|² is largest at the nucleus; the radial probability r²|R|², which counts the volume of each shell, peaks at a₀.)
+- The magnetic quantum number m gives the electron's spin direction. (m is the z-component of orbital angular momentum in units of ℏ; spin needs a separate quantum number m_s.)
+- In hydrogen, a 2p state has higher energy than a 2s state because ℓ is larger. (In the basic hydrogen solution the energy depends on n alone, so 2s and 2p are degenerate.)
+
 ## Questions
 
 ```yaml
@@ -30,7 +39,7 @@ Atomic orbitals ψ_{nlm}(r,θ,φ) = R_{nl}(r)Y_l^m(θ,φ) are labeled by quantum
     - "There is no electron trajectory at all — |ψ|² is a probability density, and between measurements the electron has no defined position or path"
     - "The picture is approximately correct for 1s but fails for higher orbitals"
   answer: 2
-  explanation: "The orbital picture is a probability distribution, not a trajectory. The 1s wavefunction gives |ψ₁s|² peaked near a₀, meaning the electron is most likely to be *found* near a₀ when measured. Between measurements, there is no classical path — no orbit, no oscillation, no trajectory. The Bohr model assumed circular orbits, which quantum mechanics replaces with probability clouds. Options A and B retain the classical-trajectory picture and are therefore wrong at the level of foundations."
+  explanation: "The orbital picture is a probability distribution, not a trajectory. The 1s radial probability r²|R₁₀|² peaks at a₀, meaning the electron is most likely to be *found* near a₀ when measured. Between measurements, there is no classical path — no orbit, no oscillation, no trajectory. The Bohr model assumed circular orbits, which quantum mechanics replaces with probability clouds. Options A and B retain the classical-trajectory picture and are therefore wrong at the level of foundations."
 
 - question: "An electron has quantum numbers n=3, ℓ=2, m=−1. What do these quantum numbers tell you?"
   type: multiple-choice

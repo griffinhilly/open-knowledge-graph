@@ -19,6 +19,15 @@ status: validated
 ## Core Idea
 Fermi-Dirac statistics describe systems of indistinguishable fermions with no two particles in the same single-particle state. The Fermi-Dirac distribution f(E) = 1/(e^{(E-μ)/k_BT} + 1) gives the probability that energy level E is occupied. At T=0, all levels up to the Fermi energy E_F are filled. Electrons cannot be compressed into lower energy states, explaining conductivity and stability of matter.
 
+## How It's Best Learned
+Derive f(E) for one state first. With occupation 0 or 1 and weight e^{−n(E−μ)/k_BT}, the mean occupation comes out as 1/(e^{(E−μ)/k_BT} + 1) in two lines. Then plot f(E) for k_BT/E_F = 0.01, 0.1 and 1, and multiply by a 3D density of states ∝ √E. The thin smeared band around E_F shows which electrons can respond to heat.
+
+## Common Misconceptions
+- f(E) is the number of electrons with energy E. (It is the mean occupation of one state at energy E; the number per energy interval also needs the density of states.)
+- At T = 0 most fermions sit in the lowest state, like cooled classical particles. (Each state holds at most one fermion, so the ground state fills every level up to E_F.)
+- The chemical potential equals the Fermi energy at every temperature. (μ = E_F at T = 0; at finite temperature μ moves away from E_F, though only slightly when k_BT ≪ E_F.)
+- Fermi-Dirac statistics differ from classical statistics in every regime. (When E − μ ≫ k_BT, the +1 is negligible and f(E) reduces to the Maxwell-Boltzmann form.)
+
 ## Questions
 
 ```yaml

@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 Differential cross section dσ/dΩ = |f(θ,φ)|² gives scattering rate into solid angle. Total σ_tot = ∫ dσ/dΩ dΩ measures overall probability.
 
+## How It's Best Learned
+Start with a counting picture. A beam of flux J hits N targets, and the count rate into a detector of solid angle ΔΩ is J·N·(dσ/dΩ)·ΔΩ, which fixes what the units mean. Then compute low-energy scattering from a hard sphere of radius a: f → −a, so σ_tot = 4πa², four times the classical πa². That one gap shows the area is effective rather than geometric.
+
+## Common Misconceptions
+- The cross section is the target's physical size seen by the beam. (It is an effective area set by the interaction; a quantum hard sphere at low energy gives 4πa², and resonances can make σ far exceed the geometric area.)
+- The cross section is a probability, so it should be a number between 0 and 1. (It has units of area; a probability comes out only after multiplying by the number of targets per unit area in the beam's path.)
+- The optical theorem is just the definition σ_tot = ∫ |f|² dΩ written another way. (It relates the total cross section to Im f at θ = 0 alone and follows from probability conservation, so it is an independent constraint.)
+
 ## Questions
 
 ```yaml

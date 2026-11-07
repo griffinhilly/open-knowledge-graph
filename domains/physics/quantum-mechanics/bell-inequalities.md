@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 CHSH inequality: |⟨AB⟩ + ⟨AB'⟩ + ⟨A'B⟩ − ⟨A'B'⟩| ≤ 2 in local hidden-variable theories. Quantum mechanics allows ≤ 2√2 for entangled states.
 
+## How It's Best Learned
+Prove the bound of 2 first by factoring AB + AB′ + A′B − A′B′ as A(B + B′) + A′(B − B′) for ±1 values. Then compute the quantum value for the spin singlet, where the correlation is −cos θ for analyzers at relative angle θ. With A = 0°, A′ = 90°, B = 45° and B′ = −45°, the four terms give |S| = 2√2.
+
+## Common Misconceptions
+- A CHSH value above 2 shows that one particle sends a signal to the other. (The violation rules out local hidden variables, but each side's outcomes stay random, so no message can be sent this way.)
+- Any entangled state at any measurement angles will violate the inequality. (The value depends on the state and the settings; poorly chosen angles can give |S| ≤ 2 even for a maximally entangled state.)
+- Quantum mechanics can push the CHSH value up to 4, the largest value the expression can take. (Quantum correlations stop at the Tsirelson bound 2√2; values above that would need correlations stronger than any quantum state gives.)
+- A Bell violation picks out one interpretation of quantum mechanics as correct. (It rules out local hidden-variable theories; the main interpretations all predict the same violation.)
+
 ## Questions
 
 ```yaml
