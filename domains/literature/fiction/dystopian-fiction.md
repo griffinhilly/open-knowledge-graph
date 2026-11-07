@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: science-fiction-speculation-extrapolation
   type: soft
+- id: utopian-fiction
+  type: soft
 tags:
 - dystopia
 - utopia

@@ -1163,3 +1163,9 @@ DROP	ssh-secure-shell	vpn-virtual-private-networks	-
 DROP	queue-applications-level-order-traversal	breadth-first-search	-
 DROP	backtracking-constraint-satisfaction-problems	greedy-algorithms	-
 ADD	recursion-basics	recursion-tail-recursion-optimization	hard
+ADD	utopian-fiction	dystopian-fiction	soft
+ADD	noh-theatre	kabuki-theatre-conventions	soft
+ADD	tall-tales	legend-oral-narrative-type	soft
+ADD	pourquoi-tales	creation-myth-cosmogony	soft
+ADD	poems-plays-and-prose	stage-directions-and-performance-text	soft
+ADD	poems-plays-and-prose	poetic-form-overview	soft

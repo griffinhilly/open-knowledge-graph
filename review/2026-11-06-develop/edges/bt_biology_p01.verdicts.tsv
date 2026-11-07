@@ -1,0 +1,47 @@
+ADD	maternal-inheritance-and-extranuclear-genes	genomic-imprinting-and-parent-of-origin-effects	soft	medium	Imprinting is taught by contrast with other parent-of-origin patterns such as maternal cytoplasmic inheritance.
+DROP	sex-linked-inheritance-and-x-linked-genes	genomic-imprinting-and-parent-of-origin-effects	-	medium	Imprinting is autosomal epigenetic silencing and does not draw on X-linkage.
+DROP	regulatory-mutations-cis-elements	haploinsufficiency-dosage	-	medium	Dosage sensitivity rests on dominance and aneuploidy, not on cis-regulatory mutation.
+DROP	mismatch-repair-mlh-msh	homologous-recombination-rad51-complex	-	high	RAD51 strand invasion and Holliday junction resolution do not draw on mismatch repair.
+ADD	rna-structure-and-base-pairing	intron-removal-and-splicing	soft	medium	Splice-site recognition and spliceosome catalysis depend on snRNA-pre-mRNA base pairing.
+DROP	silencer-elements-and-repression	locus-control-regions-lcr	-	medium	LCRs are built from enhancers and open chromatin, not silencers.
+DROP	position-effect-variegation-pev	long-noncoding-rna-mechanisms	-	medium	lncRNA mechanisms (scaffolds, guides, ceRNA) do not draw on heterochromatin spreading.
+DROP	animal-babies-and-parents	mendelian-genetics	-	medium	Mendelian genetics already has inherited-traits and what-is-heredity for the intuitive offspring-resemble-parents base.
+DROP	alternative-splicing-mechanisms	microrna-biogenesis-and-function	-	high	miRNA biogenesis and targeting do not draw on alternative splicing.
+DROP	long-noncoding-rna-mechanisms	microrna-biogenesis-and-function	-	high	The dependency runs the other way: the ceRNA model of lncRNAs presumes miRNAs.
+DROP	base-excision-repair-ber	mismatch-repair-mlh-msh	-	medium	MMR rests on replication errors and general DNA repair, not on BER glycosylases.
+DROP	frameshift-mutations-indels	missense-nonsense-silent-mutation-effects	-	medium	These are sibling point-mutation classes; missense/nonsense needs only the genetic code.
+DROP	dna-barcoding-markers	next-generation-sequencing-ngs	-	high	Barcoding is an application of sequencing; NGS platforms do not draw on it.
+ADD	homologous-recombination-rad51-complex	non-homologous-end-joining-nhej	soft	medium	NHEJ is defined by contrast with homology-directed repair of double-strand breaks.
+DROP	nucleotide-excision-repair-ner	non-homologous-end-joining-nhej	-	high	NHEJ ligates double-strand break ends; NER of UV lesions is unrelated.
+DROP	heterozygote-advantage	population-genetics-intro	-	high	Reverse dependency: overdominance is a population-genetics application of Hardy-Weinberg and selection.
+DROP	silencer-elements-and-repression	position-effect-variegation-pev	-	medium	PEV is heterochromatin spreading; it does not draw on silencer elements.
+ADD	transcription-initiation-prokaryotes	promoters-enhancers-and-regulatory-regions	soft	medium	The topic covers Pribnow box and -35 promoter elements recognized by sigma factors.
+DROP	histone-post-translational-modifications-acetylation	rna-processing	-	high	Capping, polyadenylation and splicing do not draw on histone acetylation.
+DROP	rna-polymerase-ii-and-ctd-regulation	rna-processing	-	medium	CTD coupling elaborates RNA processing; the intro topic does not need it.
+DROP	rna-splicing-introns-exons-spliceosome	rna-processing	-	medium	RNA processing is the overview; the detailed spliceosome topic builds on it, not the reverse.
+DROP	transcription-elongation-and-termination	rna-processing	-	medium	RNA processing already rests on transcription; termination detail is not needed.
+DROP	intron-removal-and-splicing	small-rnas-mirna-and-rnai	-	high	miRNA biogenesis and RISC targeting do not draw on intron splicing.
+DROP	rna-polymerase-ii-and-ctd-regulation	small-rnas-mirna-and-rnai	-	high	Small RNA pathways do not draw on CTD phosphorylation.
+DROP	frameshift-insertions-deletions	spontaneous-mutation-rates-causes	-	medium	Mutation rates and sources rest on dna-mutations; frameshift classification is not needed.
+ADD	dna-replication-leading-lagging-strands	telomere-replication-end-problem	hard	high	The end-replication problem is the lagging-strand primer that cannot be replaced at the chromosome end.
+DROP	enhancer-elements-and-interaction	transcription-factor-binding-specificity	-	medium	DNA recognition by binding domains does not draw on long-range enhancer looping.
+DROP	small-rnas-mirna-and-rnai	transcription-factors-and-gene-regulation	-	high	Transcription factor DNA binding and activation do not draw on small RNAs.
+ADD	transcription-initiation-eukaryotes	transcription-factors-and-gene-regulation	soft	medium	Activation domains recruit Mediator and the initiation machinery covered there.
+DROP	prokaryotic-promoters-sigma-factors	transcription-factors-binding-domains	-	medium	The topic is eukaryotic TF domains built on TFIID; sigma factors are not drawn upon.
+DROP	transcription-elongation-and-termination	transcription-initiation-eukaryotes	-	high	Initiation precedes and does not draw on elongation and termination.
+ADD	gene-expression-overview	translation	soft	high	Translation is the RNA-to-protein step of the central dogma framed in the overview.
+DROP	mrna-translation-start-sites	translation-elongation-elongation-factors	-	medium	Elongation already has ribosomal-initiation-factors-tRNA as hard prerequisite; a second initiation link is redundant.
+DROP	intron-removal-and-splicing	translation-initiation-start-codon	-	medium	Cap-dependent scanning and Kozak recognition do not draw on splicing.
+DROP	gene-conversion-meiotic	unequal-crossing-over-duplication	-	medium	Unequal crossing over rests on misaligned crossing over, not nonreciprocal gene conversion.
+DROP	copy-number-variation-cnv	variant-annotation-interpretation	-	medium	Annotation as taught covers coding and regulatory consequences of small variants, not CNVs.
+ADD	genome-structure-and-organization	epigenomics-chip-seq-atac-seq	soft	medium	Genome-wide maps of promoters, enhancers and open chromatin presume genome organization.
+DROP	multiple-sequence-alignment	gene-regulatory-networks	-	medium	GRN inference uses expression and ChIP data, not multiple sequence alignment.
+DROP	comparative-genomics	multi-omics-integration	-	medium	Integration of molecular layers within samples does not draw on cross-species comparison.
+ADD	gene-regulatory-networks	multi-omics-integration	soft	medium	Network-based integration methods extend regulatory network inference.
+DROP	long-read-sequencing	multi-omics-integration	-	high	Integration methods do not depend on read-length technology.
+DROP	metagenomics	multi-omics-integration	-	medium	Multi-omics integration as described does not draw on community sequencing.
+ADD	single-cell-rna-sequencing	multi-omics-integration	soft	medium	Single-cell multiome integration (RNA + ATAC) builds on scRNA-seq.
+DROP	spatial-transcriptomics	multi-omics-integration	-	medium	Integration rests on the omics layers listed; spatial methods are not drawn upon.
+DROP	constraint-based-modeling-fba	multi-omics-integration	-	medium	Statistical integration frameworks (MOFA, DIABLO) do not draw on flux balance analysis.
+DROP	phylogenetic-tree-construction	population-genomics	-	medium	Population structure and selection scans rest on population genetics, not tree building.
+DROP	long-read-sequencing	spatial-transcriptomics	-	high	Spatial methods use barcoded arrays or FISH, not long-read sequencing.

@@ -19,3 +19,4 @@ bt_biology_p00.verdicts.tsv
 bt_chemistry.agreed.tsv
 bt_biology_p00.agreed.tsv
 bt_computer-science_p00.verdicts.tsv
+newtopic_literature.verdicts.tsv

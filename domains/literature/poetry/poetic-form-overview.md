@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: scansion
   type: soft
+- id: poems-plays-and-prose
+  type: soft
 builds-toward:
 - sonnet-form
 - haiku-form

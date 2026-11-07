@@ -6,6 +6,8 @@ course: mythology-folklore-oral-traditions
 prerequisites:
 - id: myth-definition-cultural-narrative
   type: soft
+- id: tall-tales
+  type: soft
 builds-toward:
 - oral-tradition-transmission-variation
 - comparative-mythology-patterns

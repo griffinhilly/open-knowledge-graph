@@ -6,6 +6,8 @@ course: drama
 prerequisites:
 - id: theatrical-conventions
   type: soft
+- id: noh-theatre
+  type: soft
 builds-toward:
 - theatrical-conventions
 tags:

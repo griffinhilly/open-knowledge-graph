@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: myth-function-cosmological
   type: soft
+- id: pourquoi-tales
+  type: soft
 builds-toward:
 - flood-narrative-universal-pattern
 - sacred-space-cosmography

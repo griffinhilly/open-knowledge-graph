@@ -6,6 +6,8 @@ course: drama
 prerequisites:
 - id: theatrical-conventions
   type: hard
+- id: poems-plays-and-prose
+  type: soft
 builds-toward:
 - stagecraft-and-mise-en-scene
 tags:
