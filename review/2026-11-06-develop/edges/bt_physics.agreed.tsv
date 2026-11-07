@@ -1,0 +1,161 @@
+ADD	center-of-mass-motion	angular-momentum-of-rigid-body	soft	high	two reviewers agree: Rigid-body L splits into orbital (CM) and spin parts.
+ADD	reduced-mass-two-body	central-force-motion-analysis	soft	high	two reviewers agree: Central-force analysis reduces the two-body problem to one body with reduced mass.
+ADD	inelastic-collisions	collision-analysis-applications	soft	high	two reviewers agree: Real-world collision analysis covers inelastic cases.
+ADD	rotational-dynamics	conservation-of-angular-momentum	soft	high	two reviewers agree: Conservation follows from τ = dL/dt with zero torque; already transitive via angular-momentum.
+ADD	energy-transfer	conservation-of-energy	soft	high	two reviewers agree: Concrete energy-transfer intuition supports the conservation principle.
+ADD	conservative-vector-fields-mechanics	effective-potential-central-forces	soft	high	two reviewers agree: Effective potential builds on potential energy of a conservative central force.
+ADD	inelastic-collisions	energy-dissipation-and-irreversibility	soft	high	two reviewers agree: Inelastic collisions are a standard example of mechanical energy dissipation.
+ADD	newtons-first-law	free-body-diagrams	soft	high	two reviewers agree: Equilibrium FBDs apply the first law; second law is already the hard prereq.
+ADD	inclined-planes-and-wedges	friction-forces	soft	high	two reviewers agree: Friction problems are classically posed on inclines; concrete precursor.
+DROP	rolling-motion-equations	gyroscopic-motion-precession	-	high	two reviewers agree: Precession rests on angular momentum and torque, not rolling without slipping.
+ADD	newtons-law-of-gravitation	keplers-laws	soft	high	two reviewers agree (strength differed; soft)
+ADD	projectile-motion-conceptual	kinematics-2d	soft	high	two reviewers agree: Conceptual projectile motion is the motivating 2D-motion example.
+DROP	phase-space-trajectories	lagrangian-mechanics-intro	-	high	two reviewers agree: Intro Lagrangian mechanics uses configuration space; phase space belongs to Hamiltonian mechanics.
+ADD	mass-vs-weight	newtons-law-of-gravitation	soft	high	two reviewers agree: Weight as gravitational force on a mass is the everyday face of the gravitation law.
+ADD	effective-potential-central-forces	orbital-mechanics	soft	high	two reviewers agree: Effective potential helps classify bound/unbound orbits but circular/elliptic orbits can be taught without it.
+ADD	reduced-mass-two-body	orbital-mechanics	soft	high	two reviewers agree: Real two-body orbits use reduced mass; basic orbits assume a fixed central mass.
+DROP	mechanical-advantage-intro	power-and-work-rate	-	high	two reviewers agree: Power as rate of work does not draw on force-ratio ideas of mechanical advantage.
+ADD	relative-motion-and-reference-frames	reduced-mass-problem	soft	high	two reviewers agree: Reduced mass works in relative coordinates and the CM frame.
+ADD	rotational-motion-fixed-axis	rolling-motion-equations	soft	high	two reviewers agree: Rolling combines translation with fixed-axis rotation about the CM.
+ADD	parallel-axis-theorem	rotational-dynamics	soft	high	two reviewers agree: Many τ = Iα problems need I about a non-CM axis.
+DROP	perpendicular-axis-theorem	rotational-kinetic-energy	-	high	two reviewers agree: Rotational KE needs I, not this specialised theorem for planar laminae.
+ADD	newtons-first-law-conceptual	static-equilibrium	soft	high	two reviewers agree: Equilibrium as zero net force is the first-law idea; formal first law already a prereq.
+ADD	levers	static-equilibrium	soft	high	two reviewers agree: Balanced levers are the concrete precursor to torque balance.
+ADD	stability-and-balance	static-equilibrium	soft	high	two reviewers agree: Concrete balance experience supports formal equilibrium conditions.
+ADD	elastic-collisions-mechanics	two-body-collision-center-of-mass	soft	high	two reviewers agree: CM-frame collision analysis typically starts with elastic collisions; already transitive.
+ADD	mechanical-advantage-intro	work-and-energy	soft	high	two reviewers agree: Force-distance trade-off in machines previews work = force times distance.
+DROP	screws	work-and-energy	-	high	two reviewers agree: Work done by a force does not draw on screws as a simple machine.
+ADD	energy-transfer	work-energy-theorem	soft	high	two reviewers agree: Work is energy transfer; concrete precursor to the theorem.
+ADD	electromagnetic-induction-applications	ac-circuits-fundamentals	soft	high	two reviewers agree: Generators producing AC motivate AC circuits.
+ADD	rc-circuits	ac-circuits-fundamentals	soft	high	two reviewers agree: Capacitor behaviour in circuits supports AC reactance; already via lc-and-rlc-circuits.
+ADD	rl-circuits	ac-circuits-fundamentals	soft	high	two reviewers agree: Inductor behaviour in circuits supports AC reactance; already via lc-and-rlc-circuits.
+ADD	lc-and-rlc-circuits	ac-power-and-resonance	soft	high	two reviewers agree (strength differed; soft)
+ADD	equipotential-surfaces	capacitance	soft	high	two reviewers agree: Capacitor plates are equipotentials; already transitive via conductors-electrostatic-behavior.
+ADD	potential-energy-systems	capacitance	soft	high	two reviewers agree: Energy stored in a capacitor draws on electric potential energy of charge systems.
+ADD	gauss-law-integral-form	conductors-electrostatic-behavior	soft	high	two reviewers agree: E = 0 inside implies surface charge via Gauss's law; gauss-law-problem-solving already a prereq.
+ADD	relationship-e-field-potential	conductors-electrostatic-behavior	soft	high	two reviewers agree: Conductor surfaces are equipotential because E = -∇V vanishes inside.
+ADD	gauge-transformations	covariant-em	soft	high	two reviewers agree: Covariant 4-potential treatment uses gauge freedom; lorentz-gauge already a prereq.
+DROP	capacitor-networks	dc-circuit-analysis	-	high	two reviewers agree: Kirchhoff analysis of resistive DC circuits does not need capacitor networks.
+ADD	parallel-plate-capacitor	dielectric-constant-relative-permittivity	soft	high	two reviewers agree: Dielectric constant is usually introduced as C/C0 for a parallel-plate capacitor.
+ADD	relationship-e-field-potential	electric-dipole-moment	soft	high	two reviewers agree: Dipole field is often derived as the gradient of the dipole potential.
+ADD	electric-field-point-charges	electric-flux-and-divergence	soft	high	two reviewers agree: Flux of a point-charge field is the standard first example; already transitive.
+DROP	gauss-law-problem-solving	electric-potential	-	high	two reviewers agree: Electric potential is defined from field and work, not from Gauss's-law techniques.
+ADD	electric-current-and-resistance	electric-power	soft	high	two reviewers agree (strength differed; soft)
+ADD	resistance-resistivity-temperature	electromotive-force-batteries	soft	high	two reviewers agree: Internal resistance of a battery draws on resistance; already transitive via ohms-law-circuits.
+DROP	capacitor-circuits-series-parallel	energy-density-electric-field	-	high	two reviewers agree: Energy density u = ½ε0E² is derived from a single capacitor, not networks.
+ADD	dielectric-materials-polarization	energy-density-electric-field	soft	high	two reviewers agree: Energy density in a dielectric uses permittivity; related susceptibility topic already a prereq.
+ADD	electric-field-lines	equipotential-surfaces	soft	high	two reviewers agree: Equipotentials are drawn perpendicular to field lines.
+DROP	electromagnets-intro	faradays-law	-	high	two reviewers agree: Electromagnets show currents make fields (Oersted); Faraday's law is induction by changing flux.
+ADD	electric-field-lines	gauss-law	soft	high	two reviewers agree: Flux as counting field lines is the usual intuition for Gauss's law.
+ADD	superposition-principle-electrostatics	gauss-law	soft	high	two reviewers agree: Gauss's law for multiple charges relies on superposition of fields.
+ADD	electric-field-continuous-distributions	gauss-law-integral-form	soft	high	two reviewers agree: Gauss's law is applied to continuous charge distributions; already transitive.
+ADD	toroid-magnetic-field-calculation	inductance-and-inductors	soft	high	two reviewers agree: Toroid inductance is a standard worked example; solenoid field already a prereq.
+ADD	ohms-law-circuits	kirchhoff-circuit-laws-rules	soft	high	two reviewers agree (strength differed; soft)
+ADD	inductance-and-inductors	lc-and-rlc-circuits	hard	high	two reviewers agree: LC/RLC circuits cannot be analysed without inductors; partly covered by rl-circuits.
+ADD	faraday-induced-emf	lenzs-law	soft	high	two reviewers agree: Lenz's law gives the sign in Faraday's law; near-duplicate faradays-law already a prereq.
+DROP	magnetic-force-moving-charges	magnetic-field-intro	-	high	two reviewers agree: Field concept comes first; reverse edge (row 81) is the dominant direction.
+ADD	magnetic-force-conductors	magnetic-torque-dipole	soft	high	two reviewers agree: Torque on a loop sums forces on its sides; near-duplicate magnetic-force-current-wires already a prereq.
+ADD	dc-circuits-series-parallel	rc-circuits	soft	high	two reviewers agree: RC circuits combine resistors and capacitors in series/parallel; kirchhoffs-rules already a prereq.
+ADD	ohms-law-microscopic	resistor-combinations	hard	high	two reviewers agree: Equivalent resistance requires V = IR; B currently lists only joule-heating.
+ADD	maxwell-equations-differential-form	boundary-value-problems-electrostatics	soft	high	two reviewers agree: Poisson/Laplace equations come from the differential Gauss law and curl-free E.
+ADD	electric-potential-and-potential-energy	boundary-value-problems-em	soft	high	two reviewers agree: BVPs solve for the potential; already transitive via method-of-images.
+DROP	polarization-of-waves	cavity-resonators	-	high	two reviewers agree: Cavity modes rest on boundary conditions and waveguides, not wave polarization.
+DROP	lorenz-gauge	electromagnetic-field-tensor	-	high	two reviewers agree: F = ∂A - ∂A is gauge-invariant; the tensor does not need a gauge choice.
+ADD	displacement-current-and-maxwell	electromagnetic-wave-equation	soft	high	two reviewers agree (strength differed; soft)
+ADD	faraday-law-of-induction	electromagnetic-wave-equation	soft	high	two reviewers agree: Curl E = -∂B/∂t is half of the wave derivation; covered by Maxwell differential form.
+ADD	maxwells-equations-integral-form	electromagnetic-waves-in-media	soft	high	two reviewers agree: Interface boundary conditions are derived from the integral forms.
+ADD	conductivity-complex-dielectric	em-waves-anisotropic-media	soft	high	two reviewers agree: Anisotropic media generalise the (complex) permittivity to a tensor.
+DROP	magnetic-susceptibility-and-permeability	em-waves-anisotropic-media	-	high	two reviewers agree: Anisotropic optics treats tensor permittivity with μ ≈ μ0.
+ADD	electromagnetic-field-tensor	lorentz-transformations-em-fields	soft	high	two reviewers agree: Field transformations follow from F' = ΛFΛᵀ, though derivable without tensors.
+ADD	poynting-theorem-conservation-law	maxwell-stress-tensor-forces	soft	high	two reviewers agree: Momentum conservation via the stress tensor parallels Poynting's energy theorem.
+ADD	boundary-value-problems-electrostatics	method-of-images	soft	high	two reviewers agree: Images rely on the uniqueness theorem for Laplace boundary-value problems.
+ADD	electromagnetic-wave-equation	poynting-vector-and-energy-flux	soft	high	two reviewers agree: Energy flux examples use wave solutions; the theorem itself comes from Maxwell.
+DROP	multipole-expansion-fields	radiation-accelerating-charges	-	high	two reviewers agree: Point-charge radiation follows from Liénard-Wiechert potentials, not multipole expansion.
+DROP	electric-dipole-radiation	radiation-reaction-force	-	high	two reviewers agree: Abraham-Lorentz force rests on the Larmor formula, not dipole radiation patterns.
+ADD	lienard-wiechert-potentials	synchrotron-radiation	soft	high	two reviewers agree: Relativistic radiation formulas derive from Liénard-Wiechert potentials.
+ADD	schrodinger-equation-time-dependent	classical-limit-correspondence	soft	high	two reviewers agree: Ehrenfest's theorem uses time evolution under the TDSE.
+ADD	beta-emission-weak-force	gamma-emission-nuclear-transitions	soft	high	two reviewers agree: Gamma emission often follows beta decay leaving an excited daughter.
+DROP	nuclear-magnetic-moments	gamma-emission-nuclear-transitions	-	high	two reviewers agree: Gamma transitions draw on nuclear energy levels, not magnetic moments/hyperfine structure.
+DROP	uncertainty-relation-measurements	hydrogen-quantum-energy-levels	-	high	two reviewers agree: Hydrogen energy levels come from solving the Schrödinger equation, not uncertainty relations.
+DROP	length-contraction-measurement	mass-energy-equivalence-relativity	-	high	two reviewers agree: E = mc² rests on relativistic momentum/energy, not length contraction.
+ADD	compton-wavelength-shift	matter-wave-de-broglie-momentum	soft	high	two reviewers agree: Photon momentum p = h/λ from Compton motivates de Broglie's matter-wave relation.
+DROP	periodic-table-filling-orbitals	photon-absorption-emission	-	high	two reviewers agree: Atomic absorption/emission draws on energy levels, not multi-electron filling rules.
+ADD	time-dilation	relativistic-momentum-energy	soft	high	two reviewers agree: γ factor from time dilation appears in p = γmv; already via lorentz-transformation.
+ADD	simultaneity-different-reference-frames	time-dilation-clock-rates	soft	high	two reviewers agree: Relativity of simultaneity underlies clock-comparison arguments.
+ADD	spacetime-diagrams	time-dilation-clock-rates	soft	high	two reviewers agree: Time dilation is often shown geometrically on spacetime diagrams.
+DROP	classical-limit-correspondence	uncertainty-relation-measurements	-	high	two reviewers agree: Uncertainty relations rest on commutators, not the classical limit.
+ADD	wave-particle-duality	wavefunction-and-probability	soft	high	two reviewers agree: Born rule reconciles wave and particle pictures.
+ADD	lorenz-system	strange-attractors	soft	high	two reviewers agree: The Lorenz attractor is the canonical strange attractor example.
+ADD	scattering-theory-quantum	born-approximation	soft	high	two reviewers agree: Born approximation applies scattering theory; near-duplicate scattering-theory-intro already a prereq.
+ADD	hydrogen-atom-quantum	fine-structure-splitting	hard	high	two reviewers agree: Fine structure corrects the quantum hydrogen spectrum; hydrogen-atom-spectrum already a prereq.
+DROP	addition-of-angular-momenta	hydrogen-atom-quantum	-	high	two reviewers agree: Basic quantum hydrogen needs orbital angular momentum, not angular-momentum addition.
+DROP	clebsch-gordan-coefficients	hydrogen-energy-levels	-	high	two reviewers agree: Hydrogen energy levels (Bohr formula) do not need CG coefficients.
+ADD	scattering-theory-quantum	partial-wave-analysis	soft	high	two reviewers agree: Partial waves are a scattering-theory method; already transitive via scattering-theory-intro.
+DROP	coherent-states	path-integral-formulation	-	high	two reviewers agree: Path integrals rest on propagators and action, not coherent states.
+ADD	state-vectors-and-wavefunctions	quantum-postulates	hard	high	two reviewers agree: Postulates are stated in terms of state vectors.
+ADD	angular-momentum-quantum	spin-angular-momentum	soft	high	two reviewers agree (strength differed; soft)
+DROP	uncertainty-principle-formal	wkb-approximation	-	high	two reviewers agree: WKB is a semiclassical expansion; it does not draw on the formal uncertainty principle.
+ADD	grand-partition-function	bose-einstein-condensation-statmech	soft	high	two reviewers agree: Particle-number constraint is handled in the grand canonical formalism.
+ADD	grand-partition-function	bose-gas-ideal-quantum	soft	high	two reviewers agree: Ideal Bose gas is computed from the grand partition function; grand-canonical-ensemble already a prereq.
+ADD	van-der-waals-derivation	critical-phenomena-statmech	soft	high	two reviewers agree: vdW critical point is the classic mean-field critical example.
+DROP	fermi-gas-ideal-quantum	debye-model-lattice-dynamics	-	high	two reviewers agree: Phonons are bosons; the Debye model does not draw on the Fermi gas.
+ADD	density-of-states-fermi-gas	fermi-gas-finite-temperature	soft	high	two reviewers agree (strength differed; soft)
+ADD	grand-partition-function	fermi-gas-ideal-quantum	soft	high	two reviewers agree: Ideal Fermi gas is computed from the grand partition function; grand-canonical-ensemble already a prereq.
+DROP	h-theorem-irreversibility	fluctuation-dissipation-theorem	-	high	two reviewers agree: FDT rests on linear response and correlation functions, not the H-theorem.
+ADD	phase-space-density-evolution	fokker-planck-equation	soft	high	two reviewers agree: Fokker-Planck adds drift/diffusion to Liouville-type density evolution.
+ADD	partition-function-definition	gibbs-free-energy	soft	high	two reviewers agree: Statistical G connects to Z; already via helmholtz-free-energy.
+ADD	long-range-order	goldstone-theorem	soft	high	two reviewers agree: Goldstone modes arise from broken continuous symmetry with long-range order.
+ADD	ensemble-theory-fundamentals	grand-canonical-ensemble	soft	high	two reviewers agree: Grand canonical ensemble is one case of general ensemble theory.
+ADD	statistical-ensembles-intro	grand-canonical-ensemble	soft	high	two reviewers agree: Grand canonical ensemble is one case of statistical ensembles; already transitive.
+ADD	canonical-ensemble	helmholtz-free-energy	soft	high	two reviewers agree (strength differed; soft)
+ADD	phase-transitions-first-and-second-order	landau-theory	soft	high	two reviewers agree (strength differed; soft)
+ADD	rms-speed-and-kinetic-energy	maxwell-boltzmann-distribution	soft	high	two reviewers agree: RMS speed is a moment computed from the MB distribution.
+ADD	ising-model-fundamentals	monte-carlo-methods-stat-mech	soft	high	two reviewers agree: Ising model is the standard Monte Carlo test case.
+ADD	ising-model-statmech	monte-carlo-statistical-mechanics	soft	high	two reviewers agree: Ising model is the standard Monte Carlo test case.
+ADD	statistical-ensembles-intro	partition-function-definition	soft	high	two reviewers agree: Partition function normalises an ensemble; already via microcanonical-ensemble.
+ADD	canonical-partition-function	phase-transition-equilibrium	soft	high	two reviewers agree: Statistical treatment of phase equilibria uses free energies from Z.
+ADD	landau-theory-phase-transitions	renormalization-group-scaling	soft	high	two reviewers agree: RG is motivated by the failure of Landau mean-field exponents.
+DROP	spontaneous-symmetry-breaking	renormalization-group-scaling	-	high	two reviewers agree: RG scaling at critical points does not draw on SSB.
+ADD	two-point-correlation-functions	response-functions-definition	soft	high	two reviewers agree: Static response relates to correlation functions via fluctuation-response relations.
+ADD	landau-theory-phase-transitions	scaling-invariance-universality	soft	high	two reviewers agree: Mean-field exponents from Landau are the baseline universality class.
+DROP	green-kubo-formula	thermal-conductivity-kinetic	-	high	two reviewers agree: Kinetic-theory thermal conductivity uses Chapman-Enskog, not Green-Kubo.
+ADD	virial-coefficients-interaction	van-der-waals-derivation	soft	high	two reviewers agree: vdW parameters relate to the second virial coefficient; second-virial-coefficient already a prereq.
+ADD	virial-expansion-gases	van-der-waals-derivation	soft	high	two reviewers agree: vdW is often compared to the virial expansion.
+ADD	van-der-waals-equation-of-state	compressibility-factor-z	soft	high	two reviewers agree: Z deviations are often modeled with the vdW equation.
+DROP	compressibility-factor-z	critical-point-phenomena	-	high	two reviewers agree: Critical point phenomena rest on vdW and phase transitions, not Z.
+ADD	state-variables-and-functions	exact-and-inexact-differentials	soft	high	two reviewers agree: Exact differentials formalise state functions; path-vs-state topic already a prereq.
+ADD	degrees-of-freedom-and-heat-capacity	heat-capacity-of-gases	soft	high	two reviewers agree (strength differed; soft)
+ADD	first-law-of-thermodynamics	heat-capacity-of-gases	soft	high	two reviewers agree (strength differed; soft)
+ADD	conduction-convection-radiation-quantitative	heat-transfer-conduction	soft	high	two reviewers agree: Conceptual comparison precedes formal conduction.
+ADD	thermal-insulators	heat-transfer-conduction	soft	high	two reviewers agree: Insulators give concrete intuition for low thermal conductivity.
+ADD	conduction-convection-radiation-quantitative	heat-transfer-convection	soft	high	two reviewers agree: Conceptual comparison precedes formal convection.
+ADD	conduction-convection-radiation-quantitative	heat-transfer-radiation	soft	high	two reviewers agree: Conceptual comparison precedes formal radiation.
+DROP	density-intro	ideal-gas-law	-	high	two reviewers agree: PV = nRT does not draw on concrete density concepts.
+ADD	calorimetry	latent-heat	soft	high	two reviewers agree: Latent heat is measured and applied via calorimetry.
+DROP	surface-tension-and-capillarity	phase-equilibrium-coexistence	-	high	two reviewers agree: Bulk phase coexistence does not draw on surface tension.
+DROP	joule-thomson-expansion-effect	rankine-cycle-steam-power	-	high	two reviewers agree: Rankine cycle (pump, boiler, turbine, condenser) has no throttling step.
+DROP	throttling-process-analysis	rankine-cycle-steam-power	-	high	two reviewers agree: Rankine cycle (pump, boiler, turbine, condenser) has no throttling step.
+ADD	heat-transfer-calculations	specific-heat-capacity	soft	high	two reviewers agree: Conceptual Q = mcΔT practice precedes the formal specific-heat topic.
+ADD	thermodynamic-equilibrium-mechanical-chemical	state-variables-and-functions	soft	high	two reviewers agree: State variables are defined for equilibrium states.
+ADD	zeroth-law-of-thermodynamics	state-variables-and-functions	soft	high	two reviewers agree: Zeroth law defines temperature as a state variable.
+DROP	maxwell-relations-thermodynamics-thermodynamics	thermodynamic-availability-exergy	-	high	two reviewers agree: Exergy rests on second law and free energies, not Maxwell relations.
+ADD	work-in-thermodynamic-processes	thermodynamic-processes	soft	high	two reviewers agree: Work as area under the PV curve is central to process analysis; already via first-law.
+DROP	clausius-inequality	third-law-absolute-entropy	-	high	two reviewers agree: Third law rests on statistical entropy and heat capacities, not the Clausius inequality.
+ADD	wave-superposition	beats-and-beat-frequency	soft	high	two reviewers agree (strength differed; soft)
+ADD	diffraction-and-huygen-principle	diffraction-gratings	soft	high	two reviewers agree: Grating diffraction is explained by Huygens wavelets.
+ADD	fraunhofer-diffraction-patterns	diffraction-gratings	soft	high	two reviewers agree: Grating patterns are far-field (Fraunhofer) patterns.
+DROP	multiple-slit-grating-equation	diffraction-resolution-angular-separation	-	high	two reviewers agree: Aperture diffraction limit uses single-aperture minima, not the grating equation.
+ADD	doppler-effect-comprehensive	doppler-applications-astronomy	soft	high	two reviewers agree: Astronomical Doppler builds on general Doppler analysis, though light needs the relativistic form.
+ADD	sound-speed-temperature-and-media	doppler-shift-observer-motion	soft	high	two reviewers agree: Doppler formulas use sound speed in the medium; near-duplicate acoustic-wave-speed-properties exists.
+ADD	sound-waves-longitudinal	doppler-shift-observer-motion	soft	high	two reviewers agree: Acoustic Doppler concerns sound waves.
+ADD	lens-image-formation-ray-diagrams	optical-instruments	soft	high	two reviewers agree: Instrument imaging is explained with ray diagrams.
+ADD	rayleigh-criterion-resolution	optical-instruments	soft	high	two reviewers agree: Telescope/microscope resolution uses the Rayleigh criterion.
+ADD	thin-lenses	optical-instruments	soft	high	two reviewers agree (strength differed; soft)
+DROP	fresnel-diffraction-near-field	rayleigh-criterion-resolution	-	high	two reviewers agree: Rayleigh criterion is a far-field (Fraunhofer) result.
+DROP	mirror-image-formation-ray-diagrams	spherical-mirrors	-	high	two reviewers agree: Mirror ray diagrams draw on spherical mirrors (it lists spherical-mirror-formula), not the reverse.
+ADD	wave-superposition	standing-waves	soft	high	two reviewers agree (strength differed; soft)
+ADD	fresnel-reflection-transmission	thin-film-interference	soft	high	two reviewers agree: Phase change on reflection follows from the Fresnel equations.
+DROP	impedance-matching-and-reflection	total-internal-reflection	-	high	two reviewers agree: TIR does not draw on impedance matching.
+DROP	acoustic-wave-speed-properties	vibrating-string-normal-modes	-	high	two reviewers agree: String wave speed is √(T/μ), not sound speed in air.
+ADD	sound-and-vibrations	wave-motion-definition	soft	high	two reviewers agree: Concrete sound/vibration experience precedes the formal wave definition.
+DROP	energy-forms-heat-light-sound	wave-properties-intro	-	high	two reviewers agree: Wavelength/frequency/amplitude do not draw on generic forms of energy.

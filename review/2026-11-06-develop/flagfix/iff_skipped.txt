@@ -1,0 +1,6 @@
+domains/mathematics/measure-theory-and-functional-analysis/orthonormal-bases-in-hilbert.md
+domains/mathematics/topology/closure-interior-boundary.md
+domains/mathematics/topology/compact-sets-definition.md
+domains/mathematics/topology/connected-spaces.md
+domains/mathematics/topology/neighborhood-basis-topology.md
+domains/mathematics/topology/second-countable-spaces.md

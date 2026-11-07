@@ -1,0 +1,15 @@
+ADD	stable-isotope-fractionation	isotope-hydrology	soft	high	B's meteoric water line, altitude effect and evaporation lines are fractionation phenomena.
+DROP	thermobarometry-cooling-history	lithospheric-thermal-evolution	-	high	B is plate cooling and flexure; thermobarometry is not drawn on.
+ADD	geothermal-gradient-crustal-heat-flow	thermochronology-and-cooling-ages	soft	high	B converts cooling rates to exhumation rates by dividing by the geothermal gradient.
+ADD	planetary-atmospheres-composition-structure	atmospheric-chemistry-planets	soft	high	B compares Earth, Titan, Mars and Venus atmospheres whose compositions A describes.
+DROP	eruptive-styles-and-lava-rheology	habitable-zone-boundaries-constraints	-	high	B is stellar flux, greenhouse and runaway limits; lava rheology is unrelated.
+DROP	impact-induced-outgassing	habitable-zone-boundaries-constraints	-	high	B does not draw on impacts.
+DROP	multi-planet-system-architecture	habitable-zone-boundaries-constraints	-	high	B does not draw on multi-planet dynamics.
+DROP	resonance-heating-icy-bodies	habitable-zone-boundaries-constraints	-	high	B is defined by stellar flux; tidal heating is not used.
+ADD	planetary-migration-mechanisms	multi-planet-system-architecture	soft	high	B reads resonant chains as the signature of disk-driven inward migration.
+DROP	disk-instability-giant-planet-formation	n-body-planetary-dynamics	-	high	B is orbital integration methods; disk instability is unrelated.
+ADD	aeolian-processes-planetary-atmospheres	surface-weathering-planetary-comparison	soft	high	B names aeolian abrasion as a primary weathering agent on Mars.
+DROP	resonance-heating-icy-bodies	thermal-evolution-terrestrial-planets	-	high	B is about rocky planets cooling by size; icy-moon tidal heating is unrelated.
+DROP	tidal-orbital-evolution-long-term	thermal-evolution-terrestrial-planets	-	high	B does not draw on orbital evolution.
+ADD	vegetation-indices-ndvi	change-detection-remote-sensing	soft	high	B's worked method is differencing two NDVI images.
+DROP	photogrammetry	land-use-land-cover-mapping	-	high	B builds on classification, change detection and NDVI; photogrammetry is not used.

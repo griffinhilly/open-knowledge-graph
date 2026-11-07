@@ -1,0 +1,132 @@
+# tracker (event log)
+18:04	launched writers L001-L013 (L006 done), nt math/phys/chem/bio, edges zero0/zero1/inv/bt_physics
+18:04	L006 writer done
+18:04	L004 writer done; launched c-L004-L006, w-L014. RUNNING=21 (12w,4nt,4e,1c) — over cap by 1, launch only 1 per 2 finishes until <=20
+18:04	L010 writer done (17 existing-text flags). RUNNING=20
+18:05	L010,L012 writers done; launched c-L010-L012. RUNNING=20. Pipeline per batch: writer -> checker -> commit -> flagfix -> commit
+18:07	e-inv done; applied 11 REMOVE (commit). RUNNING=19
+18:09	committed L004+L006 (a84fa1716; 76 claims/1 wrong). launched f-L004-L006. RUNNING=20
+18:10	committed L010+L012 (bec7b7637; 113 claims/4 wrong). launched c-L008, f-L010-L012. RUNNING=20. Draft err so far 5/189=2.6%
+18:13	e-bt-physics applied 73 (e58d2a714). NOTE: edge commits via commit_edges.sh only (one bad commit undone with soft reset). RUNNING=19
+18:16	flagfix L004-6 committed b7e551c14; edges math0+zero0 241c0c082 (178 applied; accidentally included partial flagfix of public-health-history.md). helper fixed to use touched.txt
+18:17	launched c-L003 c-L005 c-L007 so-physics w-L015 w-L016. RUNNING=20
+18:18	writers done L001 L002 L009 L011 L014; c-L008 done (304/7) committed 20f789279. launched c-L001 c-L002 c-L009 c-L011 c-L014 f-L008. RUNNING=20. Draft err cum 12/493=2.4%
+18:21	e-zero1 applied 38 (7e43e43cd). launched w-L017. RUNNING=20
+18:21	w-L013 done; f-L010-L012 38 fixed committed 994ed90ee. launched c-L013 w-L018. RUNNING=20
+18:22	c-L003 (267/1) committed a691ee380. launched f-L003. RUNNING=20. cum 13/760
+18:25	committed L007(268/9) L014(218/3) flagfix L008(13). launched f-L007 f-L014 w-L019. RUNNING=20. cum 25/1246=2.0%
+18:28	committed L005(285/10) L001(306/2) L002(302/8); nt-biology 21 new; e-bt-math1 applying (bg). launched nc-biology f-L001-L002 f-L005 w-L020 w-L021. RUNNING=20. cum 45/2139=2.1%
+18:29	done: c-L011(336/13) nt-chem(19) c-L013(323/5) c-L009(330/25) nt-phys(19) so-physics f-L003(11) w-L018. launched nc-chem nc-phys c-L018 w-L022 w-L023. RUNNING=17. TODO commit L009 L011 L013 + flagfix L003, merge so-physics, then launch f-L009/L011/L013
+18:30	math p01 edges dee215fd8 (144 files). bg: commit L009 L011 L013 + f-L003 + so-physics merge. launched w-L024..26. RUNNING=20
+18:33	done w-L015 w-L016 w-L017 f-L014(11) f-L007(16). launched c-L015 c-L016 c-L017 f-L009 w-L027. PENDING commits: f-L014 f-L007 (after bg b205z77sc). RUNNING=20
+18:34	done w-L023 w-L025 c-L018(290/9). launched c-L023 c-L025 w-L028. PENDING commits: f-L014 f-L007 L018. RUNNING=20
+18:35	bg chain done: L009 L011 L013 f-L003 + agreed physics edges 62bcb6b3c (123 files; agree 161/181). nt-math 26 new -> nc-mathematics launched. w-L019 done -> c-L019. bg2: f-L014 f-L007 L018 commits
+18:44	done c-L015(317/7) c-L017(214/2) c-L023(112/3) c-L025(77/4) c-L016(325/10) w-L027. launched nt-cs nt-earth nt-history nt-literature c-L027 w-L029. PENDING commits L015 L016 L017 L023 L025 (after bg2)
+18:46	done w-L020 w-L021 w-L024 c-L019(232/2) f-L001-L002(28). launched c-L020 c-L021 c-L024 w-L030 w-L031. PENDING commits: L019, f-L001-L002
+18:47	done f-L005(31) w-L026 c-L027(103/5). launched f-L011-L013 c-L026 w-L032. PENDING commits: L019 L027, f-L001-L002 f-L005
+18:52	done w-L029 c-L020(264/11) w-L022 c-L021(312/8) nc-physics(483/4) c-L024(352/9). launched c-L022 c-L029 f-L015-L017(hold L017) w-L033 w-L035 (w-L034 lock-fail, retry). L017 scope fail -> accept lines fixed
+19:00	L017 committed e487dce56; 'L017 go' sent. bg bv5es7ezy: L019 L020 L021 L024 L026 L027 L029 + ff L001-2 L005 L009 + newtopics bio/phys/chem. done: nc-chem(419/4) w-L028 w-L031 f-L009(55) c-L026(345/14) c-L029(109/3). launched c-L028 w-L036 c-L031 nt-language w-L037 w-L038. validate now scoped (validate_scoped.sh)
+19:01	done nc-math(649/6) w-L036 w-L033 w-L030 c-L031(142/5) c-L022(337/17) c-L028(345/8). launched f-chatter(18 files, busy_extra) c-L030 c-L033-L036 w-L039..42. PENDING commit: L022 L028 L031 + nt-math; then f-L022 f-L026-27 f-L028-29(+broadcast chatter) f-L031
+19:03	done w-L034 w-L032 w-L039 w-L041 nt-earth(15) w-L035. launched c-L034 c-L032 c-L039 nc-earth c-L041 c-L035 w-L043. bg chain slow (~5min/commit)
+19:03	done w-L037 c-L039(22/1). launched c-L037 w-L044
+19:04	f-chatter done (12 fixed, 11 files; commit after chain, files in busy_extra). launched f-chatter2 w-L045
+19:04	done c-L033-L036(82/2) c-L041(23/5) w-L038. launched c-L038 w-L046 w-L047
+19:04	c-L034(312/9) done. launched w-L048
+19:05	f-chatter2 done (3). launched w-L049
+19:05	c-L032(348/1) done. launched w-L050
+19:06	w-L045 -> c-L045; c-L030(296/10) done. launched w-L051
+19:07	nt-history(23) -> nc-history; w-L050 -> c-L050; c-L045(35/3). launched w-L052
+19:09	nt-literature(21) -> nc-literature. f-L015-L017 subagents: L015 50 fixed, L016 51 fixed
+19:10	c-L050(36/2) c-L038(258/5) done; nt-economics(17) -> nc-economics. launched w-L054 w-L055
+19:11	done w-L042 w-L040 w-L043 f-L011-L013(81, 50 files incl. some outside batches). launched c-L042 c-L040 c-L043 w-L056
+19:11	f-L015-L017 waiting on its subagent reports. brownian-motion not dangling -> judgment
+19:12	c-L035(288/3 + old-text fixes; oldtext_ok_batches) done. launched w-L058
+19:12	nc-earth(397/3) done -> commit earth newtopics in next chain. launched w-L059
+19:13	w-L054 -> c-L054; nt-cs(25) -> nc-cs; w-L048 -> c-L048
+19:14	done f-L015-L017(124 fixes, 60 files) nt-language(19) w-L044 c-L043(238/5) w-L046. launched nc-language c-L044 c-L046 w-L060 w-L061. PENDING commits: L022 L028 L030 L031 L032 L033 L034 L035 L036 L037 L038 L039 L041 L043 L045 L050 + ff L011-L013 L015-L017 chatter chatter2 + nt earth math (after chain)
+19:15	w-L049 -> c-L049; c-L042(362/7). launched w-L062
+19:15	c-L040(312/10). launched w-L063
+19:15	c-L054(82/4 + old fixes). launched w-L064
+19:17	done w-L051 w-L059 w-L063 w-L055 -> checkers. launched w-L065
+19:18	c-L063(46/0) c-L044(351/4). launched e-bt-chemistry e-bt-bio0
+19:18	c-L059(121/0). launched w-L066
+19:19	c-L046(319/1) w-L056 -> c-L056. launched w-L067
+19:19	c-L047(274/4 + 15 old fixes) w-L052 -> c-L052. launched w-L068
+19:20	c-L049(331/2) w-L058 -> c-L058. launched w-L069
+19:20	c-L048(282/3 + 13 old). launched w-L070
+19:20	nc-economics(448/3) done. launched w-L071. grouped commit failed scope (L037/L038 old-text) -> added to oldtext_ok, rerun after bg
+19:20	c-L057(247/1 + 7 old). launched w-L072
+19:21	c-L055(304/2 + 5 old). launched w-L073
+19:22	c-L056(266/0 + 5 old). launched w-L074
+19:23	nc-cs(649/5) c-L051(303/3 + ~25 old). launched w-L076 w-L077
+19:24	c-L058(287/2 + 10 old) w-L060 -> c-L060. launched w-L078
+19:24	chain b8j6 done (earth newtopics 8da3d84eb, math 781de3be4). launched grouped commit 32 batches (651 files) + newtopics econ cs -> bg beg65s0wq
+19:24	w-L062 -> c-L062; c-L052(325/5 + 4 old). launched w-L079
+19:25	nc-language(361/8) done. launched e-bt-cs0
+19:25	c-L064(230/7 + 3 old). launched w-L080
+19:27	c-L065(330/18) -> added contested-findings rule. launched w-L081
+19:27	c-L061(444/4 + 4 old). launched w-L082
+19:28	nc-history(646/8) e-bt-chemistry(233; 67 high). launched w-L083 so-chemistry. QUEUE after bg: commit_edges bt_chemistry; newtopics history literature? language
+19:28	c-L060(309/2 + 3 old) w-L068 -> c-L068. launched w-L084
+19:29	beg65 chain: econ+cs newtopics committed; 32-batch commit SILENTLY FAILED (set -e on grep loop) -> fixed; rerun as 37 batches + chem edges + history/language newtopics -> bg b9z859tuw
+19:31	iff script fixed 18 files (4 in launched batches -> their batches added to oldtext_ok). commit remaining 14 after bg
+19:31	done c-L062(304/4) w-L080 w-L072 w-L071 c-L066(334/3) w-L078. launched c-L071 c-L072 c-L078 c-L080 w-L088 w-L089
+19:32	w-L073 w-L074 w-L077 w-L076 -> checkers
+19:34	done w-L075 w-L076 c-L080(118/4) e-bt-cs0(167). launched c-L075 e-bt-cs1 w-L090. FOUND: 32/37-batch commits failed: Windows argv limit -> commit_batches via file list. TODO: reverse-edge review agent; garble-stem cleanup agent
+19:38	c-L068(328/4 + 33 old). launched w-L091. garble candidates built
+19:39	launched g-part00 g-part01 (garble, 115 files outside all batches; in busy_extra)
+19:39	big drain: done c-L067(303/3) so-chem(163) c-L078(359/2) c-L073(302/4) c-L077(260/5) c-L076(305/3) so-bio0(176) c-L074(287/2) c-L070(330/3 +60 old) c-L072(269/1 +26 old); writers L081 L082 L083 L085 L086 L087 L090 done. launched c-L081 c-L082 c-L083 c-L085 c-L086 c-L087-L090 w-L092..95
+19:40	big commit 5ada7bf0c (922 topics) + iff da1cdeb56. c-L071(316/6 +42 old). launched w-L096
+19:40	c-L079(331/5 +9 old) w-L084 -> c-L084. launched w-L097
+19:42	language newtopics 30e0fa02a. c-L075(307/5 +~15 old). launched w-L099. bg bbcwxyjsr: 11 batches + bio/chem/cs edges + literature newtopics
+19:42	w-L097 w-L088 -> checkers
+19:43	g-part01 done (20 fixes, 19 files) -> commit after bg. launched w-L100
+19:43	g-part00 done (33 fixes, 33 files). launched w-L101
+19:44	w-L091 -> c-L091; c-L097(29/2). launched w-L102
+19:44	c-L082(249/1 +16 old) e-bt-cs1(167) c-L087-L090(346/5). 11-batch commit FAILED scope (old section order, 2 merges) -> reordered 10 topology files + accepted; rerun after bg. launched w-L103 w-L104 e-bt-bio1
+19:45	c-L086(330/1 +30 old). launched w-L105
+19:45	c-L085(288/4 +19 old) c-L081(297/2 +31 old). launched w-L106 w-L107
+19:45	c-L089(412/3 +15 old). launched w-L108
+19:47	w-L099 -> c-L099; w-L095 -> c-L095; c-L083(331/9 +26 old). launched w-L109
+19:47	w-L106 -> c-L106; c-L088(312/3 +8 old). launched w-L110
+19:48	literature newtopics 4a8c4a544. bg bx8r9rcz3: 22 batches + garble + cs edges p01. launched w-L111 w-L112 w-L113. PLAN: keep writing to ~23:30, then final web re-check sample + review page + PLAN + archive brief
+19:48	c-L091(317/3 +7 old) c-L084(321/4 +30 old) w-L092 w-L093 -> checkers. launched w-L114
+19:49	w-L104 w-L103 w-L096 -> checkers. launched w-L115
+19:50	w-L109 -> c-L109; c-L106(87/3). launched w-L116
+19:51	w-L105 -> c-L105; c-L099(140/2 + derivative-exchange fix in 4 files). launched w-L117
+19:55	big drain #2: checkers L092 L093 L095 L099 L103 L104 L109 done; writers L094 L098 L100 L101 L102 L107 L108 -> checkers launched; w-L118 L119. committing 9 batches (180 files, 1818/30) in bg -> .last_commit.log
+19:55	w-L113 w-L115 -> checkers; c-L105(294/6 +13 old). launched w-L120
+19:56	w-L110 -> c-L110; e-bt-bio1(235) done -> apply next chain. launched e-bt-earth
+19:57	w-L111 -> c-L111. launched w-L121
+19:57	w-L112 -> c-L112; c-L096(347/3 +19 old). launched w-L122
+19:58	9-batch commit 20f8b32b7. bg b1y9o6ljx: L096 L105 + bio p01 edges
+19:58	w-L114 -> c-L114. launched w-L123
+19:59	w-L118 -> c-L118; c-L115(169/3 +6 old). launched w-L124
+19:59	c-L101(278/5 +5 old). launched w-L125
+19:59	c-L098(318/4). launched w-L126. NOTE pointwise-convergence-function-sequences has 2 Questions blocks (pre-existing) -> accept at commit
+20:00	c-L102(301/4) c-L094(281/5) c-L110(290/4) done; w-L117 -> c-L117. launched w-L127..129
+20:00	c-L118(101/0 +3 old). launched w-L130
+20:00	c-L108(333/3 +17 old; 10/30 biochem Core Ideas contradicted Explainers -> REVIEW FINDING). launched w-L131
+20:01	w-L116 -> c-L116; c-L107(343/4 +22 old). launched w-L132
+20:01	c-L113(263/1 +8 old). launched w-L133
+20:01	c-L111(594/5). launched w-L134
+20:02	c-L100(310/8 +7 old). TODO revise late-heavy-bombardment (LHB as settled) after L100 commit. launched w-L135
+20:02	c-L112(289/7 +13 old). launched w-L136
+20:04	bio p01 edges committed. bg brfk06lor: 13 batches (L094 L098 L100 L101 L102 L107 L108 L110 L111 L112 L113 L115 L118); merged dup Questions in pointwise-convergence-function-sequences (kept 5)
+20:04	done w-L130 w-L120 w-L119 w-L125 w-L133 w-L136 c-L114(319/2 +9 old). launched c-L119 c-L120 c-L125-L136 c-L130-L133 w-L137..139. TODO: extra code fence after Explainer (28 files, L119 course)
+20:05	c-L116(397/2) c-L117(216/0 +25 old) w-L127 -> c-L127. launched w-L140
+20:05	w-L121 -> c-L121. launched w-L141
+20:06	w-L124 -> c-L124. launched w-L142
+20:07	13-batch commit c9b2a0193 (354). bg bi1fmy53b: L114 L116 L117. launched f-lhb (in busy_extra)
+20:07	w-L131 -> c-L131. launched w-L143
+20:07	w-L122 w-L132 -> checkers
+20:07	w-L123 w-L126 -> checkers
+20:08	c-L127(151/4 +7 old) c-L119(302/1 +3 old). stray trailing fence: 86 genre-fiction files -> fix after L119-L121 commit. launched w-L144
+20:09	L114 L116 L117 committed. c-L121(231/0 +5 old) c-L130-L133(182/3) w-L142 -> c-L142. launched w-L145..148. bg bvvobsx0q: L119 L121 L127 L130 L133 + fence fix
+20:09	c-L120(324/1) c-L125-L136(168/7 +14 old) w-L128 w-L129 -> checkers. launched w-L149 w-L150
+20:10	f-lhb done (commit after bg). launched w-L151
+20:10	c-L131(337/1 +2 old). launched w-L152
+20:10	c-L132(339/2 +3 old). launched w-L153
+20:11	e-bt-earth(297) done -> apply. launched e-bt-history
+20:11	c-L142(53/2 +7 old) w-L135 -> c-L135. launched w-L154
+20:12	5 batches cf271b3f9 + fence 8a1a6170b (56). chain (.chain.log): L120 L131 L132 L142 + fence L120 + LHB + earth edges

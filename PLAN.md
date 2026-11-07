@@ -1,10 +1,16 @@
 # Open Knowledge Graph Plan
 
 ## Bottlenecks
-- [you] Assign an owner for the ~12,122 validator warnings (includes the 160 non-pre-formal topics with zero prerequisites).
+- [you] Run the residual-error re-check before trusting the Nov 6 develop push fully: random ~200 new sections, fresh web-checking agents (`review/2026-11-06-develop/RECHECK-INSTRUCTIONS.md`). It was deployed without it (usage limit).
+- [claude] Resume the develop push: core lesson batches L134-L239 (and partial L122-L154 work, uncommitted in the working tree, unchecked), edge reviews for history/literature/language/economics, second opinions for math/zero/CS/earth.
+- [you] Decide on two corpus-level findings: (a) older Core Ideas often contradict their own Explainers (10 of 30 in one biochemistry batch); (b) an old absolute-softening rewrite garbled many true/false stems corpus-wide. Both need a dedicated audit pass.
+- [you] Assign an owner for the ~12,122 validator warnings (the 187 zero-prerequisite topics were reviewed Nov 6; see below).
 - [you] Choose for Practical Life Skills topic pages: hide "See this on the map" or put the domain on the radial.
 
 ## Current State
+
+**Nov 6 evening develop push (deployed; review `review/2026-11-06-develop/review.html`, state + scripts in that folder, event log `tracker.log`):** 2,861 topics gained How It's Best Learned and 2,927 gained Common Misconceptions (core subjects, thinnest courses first; 129 committed batches of ~30). Every new section independently fact-checked: 30,914 claims, 536 wrong in drafts (1.7%), all fixed before commit; ~870 clearly wrong older lines fixed by checkers on the way (wrong answer keys, formulas, dates, garbled stems). 205 new topics filling standard-syllabus gaps in all 10 core domains (each web-checked). Older-text flags: 435 confirmed and fixed, 16 rejected, 11 unclear. Quiz repair: 483 malformed question blocks normalized (`tools/normalize_questions.py`; quizzable questions 54,825 -> 56,043). Graph: 845 prerequisite edges added, 491 wrong builds-toward links dropped, 11 wrong edges removed, 89 duplicate prereq ids merged (`tools/dedupe_prereqs.py`); all cycle-checked; medium-confidence edges applied only when a second independent reviewer agreed. Also: 66 garbled-rewrite repairs, 14 "if and only if" restorations, drafting chatter removed from 11 topics, stray code fences removed from 86 genre-fiction topics, late-heavy-bombardment rewritten as contested. validate.py: 0 errors. NOT done: the residual re-check sample; ~105 core batches unwritten.
+
 
 **15,285 topics** across 19 domains, **261 courses**. Radial graph shows 18 domains (practical-life-skills excluded). *(15,290 → 15,285 after the Jun-12 keystone edge-audit merged 5 grade-suffix duplicate topics.)* **+ 10 origin-layer `kind:capacity` nodes** (a private substrate, excluded from headline counts).
 

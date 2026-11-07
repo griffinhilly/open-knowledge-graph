@@ -105,6 +105,7 @@ if apply:
                 t = t[:end + 1] + new + t[end + 1:]
             end = t.find('\n---', 4)
         f.write_text(t, encoding='utf-8')
+    (E / 'touched.txt').write_text(''.join(P[t].as_posix() + chr(10) for t in touched), encoding='utf-8')
     with open(ledger_path, 'a', encoding='utf-8') as fh:
         fh.write(''.join(k + '\n' for k in applied))
     with open(E / 'judgment.tsv', 'a', encoding='utf-8') as fh:

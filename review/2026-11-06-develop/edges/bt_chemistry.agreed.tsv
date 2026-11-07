@@ -1,0 +1,104 @@
+DROP	percent-yield-and-limiting-reagent-analysis	analytical-chemistry-intro	-	high	two reviewers agree: Intro to analytical chemistry is about sampling and measurement, not reaction yield.
+DROP	precipitation-equilibrium-and-common-ion	analytical-chemistry-intro	-	high	two reviewers agree: The overview of analytical chemistry does not draw on precipitation equilibria.
+DROP	analytical-method-development-workflow	analytical-selectivity-and-specificity	-	high	two reviewers agree: Selectivity is a concept that method development uses, so the dominant direction runs the other way.
+DROP	analytical-method-validation-core-parameters	analytical-selectivity-and-specificity	-	high	two reviewers agree: Specificity is one input to validation; validation draws on it, not the reverse.
+DROP	high-throughput-analytical-screening	automated-and-high-throughput-analysis	-	high	two reviewers agree: B is the general automated-systems topic; screening is an application of it (near-duplicate pair).
+ADD	carryover-contamination-prevention	batch-and-sequence-optimization	soft	high	two reviewers agree: Batch design places blanks to monitor carryover, so carryover knowledge helps.
+DROP	solubility-product-constant-ksp	complexometric-titration	-	high	two reviewers agree: EDTA titrations rest on formation constants and pH, not on Ksp.
+ADD	analytical-standard-operating-procedures	data-integrity-regulatory-compliance	soft	high	two reviewers agree: Data integrity relies on documented procedures; SOP knowledge helps.
+DROP	forensic-evidence-analytical-methods	data-integrity-regulatory-compliance	-	high	two reviewers agree: Data integrity rules (21 CFR Part 11, audit trails) do not draw on forensic methods.
+DROP	outlier-detection-statistical-methods	data-integrity-regulatory-compliance	-	high	two reviewers agree: B is about record completeness and audit trails, not statistical outlier tests.
+ADD	field-portable-analytical-instruments	green-and-sustainable-analytical-chemistry	soft	high	two reviewers agree: B names on-site analysis as a green approach.
+ADD	batch-and-sequence-optimization	high-throughput-analytical-screening	soft	high	two reviewers agree: HTS run design benefits from batch and sequence planning.
+DROP	analytical-method-equivalence-transfer	iso-iec-17025-laboratory-accreditation	-	high	two reviewers agree: ISO 17025 covers validation and QA broadly; method transfer is not a needed base.
+ADD	analytical-standard-operating-procedures	iso-iec-17025-laboratory-accreditation	soft	high	two reviewers agree: Accreditation requires documented procedures, so SOP knowledge helps.
+ADD	data-integrity-regulatory-compliance	iso-iec-17025-laboratory-accreditation	soft	high	two reviewers agree: ISO 17025 includes control of data and records.
+DROP	method-robustness-stability-assessment	iso-iec-17025-laboratory-accreditation	-	high	two reviewers agree: Robustness is covered by the validation prerequisite B already has.
+DROP	detector-ionization-suppression-effects	matrix-effects	-	high	two reviewers agree: Ion suppression is a specific case of matrix effects; A should draw on B, not the reverse.
+DROP	pharmaceutical-impurity-related-substances	method-development-lifecycle	-	high	two reviewers agree: Impurity analysis is an application area, not a base for the lifecycle concept.
+DROP	process-analytical-technology-real-time	method-development-lifecycle	-	high	two reviewers agree: The lifecycle concept does not draw on PAT.
+ADD	detector-ionization-suppression-effects	multianalyte-panel-determination	soft	high	two reviewers agree: MS-based multiplex panels must handle ion suppression between co-eluting analytes.
+DROP	multivariate-calibration-pls-pcr	multianalyte-panel-determination	-	high	two reviewers agree: B's panels use MS/MS, immunoassay or chromatography, not PLS/PCR models.
+DROP	analytical-method-equivalence-transfer	quality-control-and-quality-assurance	-	high	two reviewers agree: Basic QC/QA does not draw on method transfer.
+DROP	batch-and-sequence-optimization	quality-control-and-quality-assurance	-	high	two reviewers agree: Batch design applies QC principles; the dominant direction is QC/QA to batch design.
+DROP	carryover-contamination-prevention	quality-control-and-quality-assurance	-	high	two reviewers agree: QC/QA is the broader base; carryover control applies it.
+ADD	outlier-detection-statistical-methods	quality-control-and-quality-assurance	soft	high	two reviewers agree: Statistical monitoring in QC includes judging outlying results.
+ADD	reference-material-traceability	quality-control-and-quality-assurance	soft	high	two reviewers agree: QC checks use certified reference materials, whose traceability helps.
+DROP	chemometrics-multivariate-calibration	raman-spectroscopy-analytical-methods	-	high	two reviewers agree: Raman fundamentals do not need chemometrics, though applications use it.
+DROP	selectivity-vs-sensitivity-analytical-tradeoffs	response-surface-methodology-method-optimization	-	high	two reviewers agree: RSM is an experimental-design technique; the trade-off topic is not needed for it.
+DROP	liquid-chromatography-mass-spectrometry-lc-ms	two-dimensional-chromatography-comprehensive	-	high	two reviewers agree: 2D chromatography rests on orthogonal separation, not on MS detection.
+ADD	acid-base-definitions	acid-base-chemistry	soft	high	two reviewers agree: B builds on the Arrhenius and Bronsted-Lowry definitions that A lays out, though B restates them.
+ADD	acids-properties-and-examples	acid-base-chemistry	soft	high	two reviewers agree: Intro-level acid properties give concrete grounding for B's formal treatment.
+ADD	bases-properties-and-examples	acid-base-chemistry	soft	high	two reviewers agree: Intro-level base properties give concrete grounding for B's formal treatment.
+DROP	integrated-rate-laws	arrhenius-equation	-	high	two reviewers agree: Arrhenius needs a rate constant (from chemical-kinetics), not integrated rate laws.
+DROP	mole-concept	chemical-equations-and-balancing	-	high	two reviewers agree: Balancing works by counting atoms; moles enter later in stoichiometry.
+DROP	the-mole-concept-and-avogadro	chemical-equations-and-balancing	-	high	two reviewers agree: Balancing works by counting atoms; Avogadro's number is not needed.
+ADD	combustion-reactions	chemical-equations-and-balancing	soft	high	two reviewers agree: B classifies equation types; combustion is one of the familiar types.
+ADD	synthesis-and-decomposition	chemical-equations-and-balancing	soft	high	two reviewers agree: B classifies equation types; synthesis and decomposition are familiar types.
+DROP	signs-of-chemical-change	chemical-equations-and-balancing	-	high	two reviewers agree: Writing and balancing equations is symbolic and does not draw on observing signs of change.
+ADD	concentration-and-molarity	colligative-properties-solutions	soft	high	two reviewers agree (strength differed; soft)
+ADD	solution-properties	colligative-properties-solutions	soft	high	two reviewers agree: Knowing what a solution is and how solutes dissolve helps B.
+ADD	flexibility-and-brittleness	crystal-structures-and-properties	soft	high	two reviewers agree: B explains properties like brittleness from structure; the concrete property helps.
+ADD	hardness-and-strength	crystal-structures-and-properties	soft	high	two reviewers agree: B explains hardness from lattice structure; the concrete property helps.
+DROP	cooking-as-chemical-change	endothermic-and-exothermic-reactions	-	high	two reviewers agree: B is about the sign of dH; cooking as chemical change is not needed.
+DROP	heat-capacity-calorimetry	entropy-and-gibbs-free-energy	-	high	two reviewers agree: Gibbs free energy does not rest on calorimetry.
+ADD	half-reactions-and-balancing	galvanic-electrochemical-cells	soft	high	two reviewers agree (strength differed; soft)
+DROP	percent-yield-and-limiting-reagent-analysis	gas-stoichiometry	-	high	two reviewers agree: Volume-volume conversions do not need percent yield.
+DROP	bond-energy-and-enthaly	hess-law-of-enthalpy	-	high	two reviewers agree: Hess's law combines reaction enthalpies; bond energies are a parallel method, not a base.
+ADD	physical-vs-chemical-change-summary	matter-classification-and-properties	soft	high	two reviewers agree: Classifying properties as physical or chemical draws on this distinction.
+DROP	reversible-and-irreversible-changes	matter-classification-and-properties	-	high	two reviewers agree: Classifying elements, compounds and mixtures does not need reversibility.
+DROP	alloys-intro	metallic-bonding	-	high	two reviewers agree: Metallic bonding explains alloys; the dominant direction is B to A.
+ADD	thermal-and-electrical-conductivity	metallic-bonding	soft	high	two reviewers agree: B's electron-sea model explains conductivity, the phenomenon A introduces.
+DROP	resonance-structures	molecular-geometry-prediction	-	high	two reviewers agree: VSEPR prediction works from Lewis structures; resonance is not needed.
+ADD	single-replacement-reactions	oxidation-reduction-basics	soft	high	two reviewers agree: Single replacement reactions are familiar redox examples.
+ADD	rusting-and-tarnishing	oxidation-reduction-basics	soft	high	two reviewers agree: Rusting is a familiar redox example.
+ADD	metals-nonmetals-metalloids	periodic-table-overview	soft	high	two reviewers agree: The metal/nonmetal regions are part of reading the periodic table.
+DROP	real-gases-van-der-waals	phase-changes-and-diagrams	-	high	two reviewers agree: Phase changes and diagrams do not need the van der Waals equation.
+DROP	bond-energy-and-enthaly	reaction-coordinate-diagrams	-	high	two reviewers agree: B is about activation energy and transition states, not bond-energy sums.
+DROP	hess-law-of-enthalpy	reaction-coordinate-diagrams	-	high	two reviewers agree: Energy profiles do not draw on Hess's law.
+DROP	henrys-law-gas-solubility	solute-solvent-interactions-solvation	-	high	two reviewers agree: Solvation is about intermolecular interactions, not gas solubility versus pressure.
+DROP	properties-of-liquids	solution-properties	-	high	two reviewers agree: B draws on dissolving and intermolecular forces, not general liquid properties.
+DROP	crystal-structures-and-properties	states-of-matter-phase-changes	-	high	two reviewers agree: B's basic phase-change treatment does not need crystal lattice types.
+ADD	density-how-packed-together	states-of-matter-properties-and-transitions	soft	high	two reviewers agree: B distinguishes states by how closely particles are packed.
+ADD	noble-gases-and-stability	valence-electrons-and-reactivity	soft	high	two reviewers agree: Unreactive noble gases illustrate how valence electrons govern reactivity.
+DROP	composition-of-compounds	writing-ionic-formulas	-	high	two reviewers agree: Ionic formulas come from balancing charges, not percent composition.
+DROP	sandwich-compounds-metallocenes	catalytic-cycles-wilkinson-grubbs	-	high	two reviewers agree: Wilkinson and Grubbs cycles rest on organometallic elementary steps, not metallocene structure.
+DROP	bioinorganic-chemistry-metalloenzymes	inorganic-photochemistry	-	high	two reviewers agree: Excited-state coordination chemistry does not draw on metalloenzymes.
+DROP	hsab-theory	reaction-mechanisms-coordination-compounds	-	high	two reviewers agree: D/A/I substitution mechanisms do not rest on HSAB.
+DROP	glass-and-amorphous-materials	thin-film-deposition-cvd-pvd	-	high	two reviewers agree: CVD/PVD rests on gas-phase chemistry and surfaces, not glass science.
+DROP	nanomaterials-synthesis	thin-film-deposition-cvd-pvd	-	high	two reviewers agree: Thin-film deposition does not draw on nanomaterial synthesis; they are parallel topics.
+DROP	allylic-oxidation-selectivity	alcohol-oxidation-to-carbonyls	-	high	two reviewers agree: Alcohol oxidation does not draw on allylic oxidation.
+DROP	hydroboration-oxidation-alkenes	alcohol-oxidation-to-carbonyls	-	high	two reviewers agree: Making alcohols by hydroboration is a synthetic sequence, not a concept B needs.
+DROP	oxymercuration-mechanism	alcohol-oxidation-to-carbonyls	-	high	two reviewers agree: Making alcohols by oxymercuration is a synthetic sequence, not a concept B needs.
+DROP	alcohol-oxidation-to-carbonyls	carbonyl-reduction-to-alcohols	-	high	two reviewers agree: These are reverse transformations; neither is needed to learn the other.
+DROP	hydroboration-oxidation-anti-markovnikov	catalytic-hydrogenation-lindlar-catalyst	-	high	two reviewers agree: Hydrogenation does not draw on hydroboration.
+DROP	friedel-crafts-acylation-mechanism	directed-electrophilic-aromatic-substitution	-	high	two reviewers agree: Directing effects do not need the acylation mechanism; B already has an EAS base.
+DROP	friedel-crafts-alkylation-acylation	electrophilic-aromatic-substitution-directors	-	high	two reviewers agree: Directing effects do not need Friedel-Crafts specifics (B duplicates directed-electrophilic-aromatic-substitution).
+DROP	williamson-ether-synthesis-sn2	ether-cleavage-and-fragmentation	-	high	two reviewers agree: Ether cleavage rests on SN1/SN2 of protonated ethers, not on Williamson synthesis.
+DROP	directed-ortho-para-effects	nucleophilic-aromatic-substitution	-	high	two reviewers agree: SNAr activation comes from Meisenheimer stabilisation, not EAS directing; the sibling directors topic lists SNAr as its prerequisite.
+DROP	amine-alkylation-quaternary-ammonium	retrosynthetic-analysis	-	high	two reviewers agree: A narrow reaction; retrosynthesis does not depend on it.
+ADD	diels-alder-reaction	retrosynthetic-analysis	soft	high	two reviewers agree: Diels-Alder is a classic ring-forming disconnection.
+DROP	enamine-chemistry-mechanism-and-reactions	retrosynthetic-analysis	-	high	two reviewers agree: A specialised reaction; retrosynthesis does not depend on it.
+DROP	chair-cyclohexane-conformations	stereochemistry-intro	-	high	two reviewers agree: The stereochemistry intro does not need chair conformations; B already has cycloalkanes.
+DROP	ether-cleavage-and-fragmentation	structure-elucidation-using-ir-nmr-and-ms	-	high	two reviewers agree: Ether MS fragmentation is a minor detail; B rests on its spectroscopy prerequisites.
+DROP	conformational-isomerism-newman-projections	walden-inversion-stereochemistry	-	high	two reviewers agree: Walden inversion concerns configuration at a stereocenter, not conformations.
+DROP	sn1-sn2-reaction-selectivity-factors	zaitsevs-rule-hofmann-elimination	-	high	two reviewers agree: Elimination regioselectivity does not draw on SN1/SN2 selectivity.
+DROP	walsh-diagrams-structure-bonding-correlation	aromaticity-huckel-rule-pi-system	-	high	two reviewers agree: Aromaticity rests on Huckel pi-MO energies, not Walsh diagrams.
+DROP	michaelis-menten-enzyme-kinetics-physical-chemistry	autocatalytic-reactions-mechanisms	-	high	two reviewers agree: Autocatalysis does not need Michaelis-Menten; B already lists the sibling michaelis-menten-enzyme-kinetics.
+DROP	diffusion-controlled-reaction-kinetics	bimolecular-collision-dynamics-trajectory	-	high	two reviewers agree: Gas-phase trajectory analysis does not draw on solution diffusion limits.
+DROP	two-dimensional-nmr-spectroscopy	chemical-exchange-kinetics-nmr	-	high	two reviewers agree: B analyses 1D line shapes, not 2D NMR.
+DROP	molecular-orbital-diagrams-polyatomic	electron-correlation-approximations	-	high	two reviewers agree: Electron correlation rests on HF/DFT, not polyatomic MO diagrams.
+DROP	wave-function-normalization-orthogonality	electron-correlation-multi-electron-atoms	-	high	two reviewers agree: Too basic to list directly; B gets it via its Hartree-Fock prerequisite.
+DROP	hydrogen-atom-wavefunctions	electronic-spectroscopy-theory	-	high	two reviewers agree: Molecular electronic spectroscopy rests on MO theory, not hydrogen wavefunctions.
+DROP	molecular-orbital-diagrams-polyatomic	group-theory-molecular-symmetry	-	high	two reviewers agree: Group theory is foundational and does not need MO diagrams; the direction runs the other way.
+DROP	aromaticity-huckel-rule-pi-system	molecular-orbital-symmetry-classification	-	high	two reviewers agree: MO symmetry labelling does not need aromaticity.
+DROP	exchange-integral-chemical-bonding	molecular-orbital-symmetry-classification	-	high	two reviewers agree: Symmetry classification does not need exchange integrals.
+DROP	molecular-spectroscopy-selection-rules	nmr-spectroscopy-spin-coupling	-	high	two reviewers agree: Chemical shifts and J-coupling do not draw on general spectroscopic selection rules.
+DROP	molecular-orbital-diagrams-and-bonding	perturbation-theory-quantum-chemistry	-	high	two reviewers agree: Perturbation theory rests on QM foundations, not MO diagrams.
+DROP	molecular-orbital-symmetry-classification	selection-rules-spectroscopy	-	high	two reviewers agree: General selection rules rest on the transition dipole and simple models, not MO symmetry labels.
+ADD	solute-solvent-interactions-solvation	solution-thermodynamics	soft	high	two reviewers agree: Non-ideal activity reflects solute-solvent interactions.
+DROP	post-hartree-fock-methods	time-dependent-dft-excited-states	-	high	two reviewers agree: TDDFT rests on DFT and linear response, not MP/CC theory.
+DROP	gibbs-energy-molecular-basis	transition-state-geometry-activated-complex	-	high	two reviewers agree: B is about saddle-point geometry on the PES; B already has transition-state-theory.
+DROP	quantum-tunneling-barrier-penetration	transition-state-geometry-activated-complex	-	high	two reviewers agree: Transition-state geometry does not draw on tunneling.
+DROP	rotational-quantum-numbers-energy	vibrational-energy-levels-selection-rules	-	high	two reviewers agree: B covers pure vibrational levels and rules, not rovibrational structure.
+DROP	rotational-spectroscopy-quantum-theory	vibrational-overtones-and-transitions	-	high	two reviewers agree: Overtones and hot bands come from anharmonicity, not rotational theory.
