@@ -53,7 +53,7 @@ Implement classic recursive algorithms: factorial, fibonacci, tree traversal. Tr
   answer: 1
   explanation: "When the recursive call is the last operation, the current frame is no longer needed — there is nothing to return to. TCO exploits this by replacing ('overwriting') the current frame with the new call rather than pushing a new one. This means the recursion depth has no effect on stack space: a tail-recursive function counting to a million uses the same stack space as counting to 10. Option C is wrong because TCO only applies to tail-recursive calls — arbitrary recursive functions still require growing stacks."
 
-- question: "A function is tail-recursive if and mainly if the recursive call is the last syntactic line in the function body."
+- question: "A function is tail-recursive if and only if the recursive call is the last syntactic line in the function body."
   type: true-false
   answer: false
   explanation: "Being the last line is not the same as being the last operation. Consider `return n * factorial(n-1)` — the recursive call is on the last line, but the multiplication by n happens after it returns. The correct criterion is that no computation uses the return value of the recursive call — i.e., the function simply returns whatever the recursive call returns, with no pending work. Tail recursion is about the call being in tail position, not its syntactic location."
