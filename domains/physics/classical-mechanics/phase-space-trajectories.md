@@ -6,8 +6,7 @@ course: classical-mechanics
 prerequisites:
 - id: simple-harmonic-motion
   type: hard
-builds-toward:
-- lagrangian-mechanics-intro
+builds-toward: []
 tags:
 - phase-space
 - dynamics

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: probability-axioms
   type: hard
+- id: ising-model-fundamentals
+  type: soft
 tags:
 - simulation
 - numerical-methods

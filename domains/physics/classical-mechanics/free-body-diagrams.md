@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: free-body-diagrams-intro
   type: soft
+- id: newtons-first-law
+  type: soft
 builds-toward:
 - friction-forces
 - circular-motion-dynamics

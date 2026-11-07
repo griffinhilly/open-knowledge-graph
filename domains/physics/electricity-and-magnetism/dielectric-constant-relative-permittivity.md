@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: capacitance
   type: hard
+- id: parallel-plate-capacitor
+  type: soft
 builds-toward:
 - electric-field-in-dielectrics
 - boundary-conditions-em-fields

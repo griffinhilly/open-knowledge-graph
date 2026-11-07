@@ -6,8 +6,7 @@ course: electricity-and-magnetism
 prerequisites:
 - id: energy-stored-capacitors
   type: hard
-builds-toward:
-- dc-circuit-analysis
+builds-toward: []
 tags:
 - series
 - parallel

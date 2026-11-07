@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: specific-heat-capacity-conceptual
   type: soft
+- id: heat-transfer-calculations
+  type: soft
 builds-toward:
 - calorimetry
 - heat-capacity-of-gases

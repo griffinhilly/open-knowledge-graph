@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: lorentz-gauge
   type: soft
+- id: gauge-transformations
+  type: soft
 tags:
 - relativity
 - four-vectors

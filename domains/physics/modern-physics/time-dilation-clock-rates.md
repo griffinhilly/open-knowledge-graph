@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: length-contraction-measurement
   type: soft
+- id: simultaneity-different-reference-frames
+  type: soft
+- id: spacetime-diagrams
+  type: soft
 builds-toward:
 - mass-energy-equivalence-relativity
 tags:

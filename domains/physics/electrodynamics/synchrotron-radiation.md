@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: cyclotron-motion-and-frequency
   type: soft
+- id: lienard-wiechert-potentials
+  type: soft
 tags:
 - synchrotron
 - relativistic

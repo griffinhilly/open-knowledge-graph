@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: virial-equation-and-intermolecular-forces
   type: soft
-builds-toward:
-- phase-equilibrium-coexistence
+builds-toward: []
 tags:
 - interfaces
 - surface-effects

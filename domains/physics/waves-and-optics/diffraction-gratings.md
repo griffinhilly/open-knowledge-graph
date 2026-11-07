@@ -14,6 +14,10 @@ prerequisites:
   type: soft
 - id: two-source-interference-patterns
   type: soft
+- id: diffraction-and-huygen-principle
+  type: soft
+- id: fraunhofer-diffraction-patterns
+  type: soft
 tags:
 - diffraction grating
 - spectroscopy

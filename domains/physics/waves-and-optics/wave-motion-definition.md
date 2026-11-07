@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: amplitude-period-phase-shift
   type: soft
+- id: sound-and-vibrations
+  type: soft
 builds-toward:
 - transverse-wave-characteristics
 - longitudinal-wave-characteristics

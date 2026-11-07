@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - electromagnetic-waves-in-media
-- cavity-resonators
 tags:
 - polarization
 - wave-properties

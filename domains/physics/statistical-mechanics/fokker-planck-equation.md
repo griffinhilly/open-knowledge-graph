@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: brownian-motion
   type: soft
+- id: phase-space-density-evolution
+  type: soft
 builds-toward:
 - master-equation
 tags:

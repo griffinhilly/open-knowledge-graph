@@ -20,6 +20,8 @@ prerequisites:
   type: hard
 - id: converting-degrees-and-radians
   type: soft
+- id: parallel-axis-theorem
+  type: soft
 builds-toward:
 - angular-momentum
 - conservation-of-angular-momentum

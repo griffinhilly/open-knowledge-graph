@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: orbital-stability-mechanics
   type: soft
+- id: reduced-mass-two-body
+  type: soft
 tags:
 - central-forces
 - orbits

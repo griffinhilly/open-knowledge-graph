@@ -12,6 +12,10 @@ prerequisites:
   type: hard
 - id: mayer-relation-cp-cv-difference
   type: soft
+- id: degrees-of-freedom-and-heat-capacity
+  type: soft
+- id: first-law-of-thermodynamics
+  type: soft
 builds-toward:
 - adiabatic-processes
 tags:

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: thermodynamic-limit-statmech
   type: soft
+- id: canonical-partition-function
+  type: soft
 builds-toward:
 - critical-phenomena-statmech
 - ising-model-statmech

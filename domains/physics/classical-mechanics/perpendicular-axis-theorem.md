@@ -6,8 +6,7 @@ course: classical-mechanics
 prerequisites:
 - id: moment-of-inertia
   type: hard
-builds-toward:
-- rotational-kinetic-energy
+builds-toward: []
 tags:
 - moment-of-inertia
 - rotation

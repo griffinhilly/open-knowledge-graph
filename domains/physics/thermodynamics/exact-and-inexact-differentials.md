@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: partial-derivatives
   type: soft
+- id: state-variables-and-functions
+  type: soft
 builds-toward:
 - maxwell-relations-thermodynamics
 - legendre-transformations-potentials

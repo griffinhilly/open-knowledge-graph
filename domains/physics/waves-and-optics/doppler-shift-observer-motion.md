@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: doppler-shift-source-motion
   type: soft
+- id: sound-speed-temperature-and-media
+  type: soft
+- id: sound-waves-longitudinal
+  type: soft
 tags:
 - doppler
 - sound

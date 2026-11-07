@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: what-is-friction
   type: soft
+- id: inclined-planes-and-wedges
+  type: soft
 builds-toward:
 - work-and-energy
 - conservation-of-energy

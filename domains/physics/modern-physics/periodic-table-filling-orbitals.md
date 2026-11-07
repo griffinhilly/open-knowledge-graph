@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: pauli-exclusion-principle
   type: hard
-builds-toward:
-- photon-absorption-emission
+builds-toward: []
 tags:
 - atomic-physics
 - chemistry

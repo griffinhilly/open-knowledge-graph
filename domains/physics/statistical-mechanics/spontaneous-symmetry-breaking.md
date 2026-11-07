@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: landau-theory-phase-transitions
   type: soft
-builds-toward:
-- renormalization-group-scaling
+builds-toward: []
 tags:
 - symmetry-breaking
 - ground-state

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: angular-momentum-of-rigid-body
   type: hard
+- id: rotational-dynamics
+  type: soft
 builds-toward:
 - keplers-laws
 tags:

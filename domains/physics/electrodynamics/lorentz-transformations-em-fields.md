@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: lorentz-transformation
   type: hard
+- id: electromagnetic-field-tensor
+  type: soft
 tags:
 - field-transformation
 - relativity

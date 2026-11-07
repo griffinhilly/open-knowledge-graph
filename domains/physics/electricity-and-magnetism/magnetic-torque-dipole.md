@@ -6,6 +6,8 @@ course: electricity-and-magnetism
 prerequisites:
 - id: magnetic-force-current-wires
   type: hard
+- id: magnetic-force-conductors
+  type: soft
 builds-toward:
 - inductance-circuits-rl-transients
 tags:

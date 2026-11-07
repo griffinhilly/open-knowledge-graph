@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: lyapunov-exponents
   type: hard
+- id: lorenz-system
+  type: soft
 builds-toward:
 - fractal-dimension-nonlinear
 tags:

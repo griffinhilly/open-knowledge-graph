@@ -6,6 +6,8 @@ course: statistical-mechanics
 prerequisites:
 - id: symmetry-breaking-phase-transitions
   type: hard
+- id: long-range-order
+  type: soft
 builds-toward:
 - collective-excitations-phonons
 tags:

@@ -6,6 +6,8 @@ course: electricity-and-magnetism
 prerequisites:
 - id: joule-heating
   type: hard
+- id: ohms-law-microscopic
+  type: hard
 builds-toward:
 - dc-circuit-analysis
 tags:

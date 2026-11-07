@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: microcanonical-ensemble
   type: soft
+- id: statistical-ensembles-intro
+  type: soft
 builds-toward:
 - helmholtz-free-energy
 - gibbs-free-energy

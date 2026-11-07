@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: far-field-diffraction-approximation
   type: soft
-builds-toward:
-- diffraction-resolution-angular-separation
+builds-toward: []
 tags:
 - diffraction
 - gratings

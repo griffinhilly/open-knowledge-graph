@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ideal-gas-law
   type: hard
+- id: work-in-thermodynamic-processes
+  type: soft
 builds-toward:
 - isothermal-processes
 - adiabatic-processes

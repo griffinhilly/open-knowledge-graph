@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: differential-equations-intro
   type: hard
+- id: effective-potential-central-forces
+  type: soft
+- id: reduced-mass-two-body
+  type: soft
 builds-toward:
 - keplers-laws
 tags:

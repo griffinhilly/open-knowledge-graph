@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: energy-conservation-applications
   type: soft
+- id: conservative-vector-fields-mechanics
+  type: soft
 builds-toward:
 - orbital-stability-mechanics
 - orbital-mechanics

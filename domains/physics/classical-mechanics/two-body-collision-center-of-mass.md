@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: collision-analysis-applications
   type: soft
+- id: elastic-collisions-mechanics
+  type: soft
 builds-toward:
 - reduced-mass-two-body
 tags:

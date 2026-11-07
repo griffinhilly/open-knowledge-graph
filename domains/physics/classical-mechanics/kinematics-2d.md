@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: reduced-mass-two-body
   type: soft
+- id: projectile-motion-conceptual
+  type: soft
 builds-toward:
 - projectile-motion
 - circular-motion-kinematics

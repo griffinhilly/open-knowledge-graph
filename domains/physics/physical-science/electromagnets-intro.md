@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - magnetic-field-solenoid
-- faradays-law
 tags:
 - electromagnet
 - coil

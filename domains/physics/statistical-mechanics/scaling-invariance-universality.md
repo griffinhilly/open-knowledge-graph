@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: critical-phenomena-statmech
   type: soft
+- id: landau-theory-phase-transitions
+  type: soft
 builds-toward:
 - renormalization-group-scaling
 tags:

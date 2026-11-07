@@ -20,6 +20,12 @@ prerequisites:
   type: soft
 - id: normal-force-contact-forces
   type: soft
+- id: newtons-first-law-conceptual
+  type: soft
+- id: levers
+  type: soft
+- id: stability-and-balance
+  type: soft
 builds-toward:
 - rotational-dynamics
 tags:

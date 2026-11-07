@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: green-function-method-electrostatics
   type: soft
+- id: boundary-value-problems-electrostatics
+  type: soft
 builds-toward:
 - boundary-value-problems-em
 tags:

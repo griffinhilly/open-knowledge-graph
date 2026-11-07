@@ -17,7 +17,6 @@ prerequisites:
 - id: acoustic-pressure-and-amplitude
   type: soft
 builds-toward:
-- vibrating-string-normal-modes
 - vibrating-air-column-modes
 tags:
 - sound

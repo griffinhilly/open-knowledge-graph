@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: mean-field-theory-statmech
   type: soft
+- id: virial-coefficients-interaction
+  type: soft
+- id: virial-expansion-gases
+  type: soft
 builds-toward:
 - critical-phenomena-statmech
 tags:

@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - ferromagnetism-microscopic-view
-- em-waves-anisotropic-media
 tags:
 - magnetization
 - permeability

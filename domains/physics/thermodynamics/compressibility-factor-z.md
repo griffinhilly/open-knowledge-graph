@@ -6,8 +6,7 @@ course: thermodynamics
 prerequisites:
 - id: real-gas-deviations
   type: hard
-builds-toward:
-- critical-point-phenomena
+builds-toward: []
 tags:
 - equations-of-state
 - reduced-properties

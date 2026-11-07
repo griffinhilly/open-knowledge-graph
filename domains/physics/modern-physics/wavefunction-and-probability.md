@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: schrodinger-equation-intro
   type: soft
+- id: wave-particle-duality
+  type: soft
 builds-toward:
 - particle-in-a-box
 tags:

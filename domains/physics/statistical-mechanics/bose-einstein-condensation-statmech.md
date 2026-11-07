@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: bose-einstein-distribution-statistics
   type: soft
+- id: grand-partition-function
+  type: soft
 builds-toward: []
 tags:
 - condensation

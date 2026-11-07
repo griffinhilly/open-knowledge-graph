@@ -10,8 +10,7 @@ prerequisites:
   type: soft
 - id: radiation-accelerating-charges
   type: hard
-builds-toward:
-- radiation-reaction-force
+builds-toward: []
 tags:
 - dipole-radiation
 - antenna

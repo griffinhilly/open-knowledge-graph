@@ -12,8 +12,9 @@ prerequisites:
   type: soft
 - id: quantum-statistics-intro
   type: soft
-builds-toward:
-- debye-model-lattice-dynamics
+- id: grand-partition-function
+  type: soft
+builds-toward: []
 tags:
 - fermi-gas
 - degenerate-fermions

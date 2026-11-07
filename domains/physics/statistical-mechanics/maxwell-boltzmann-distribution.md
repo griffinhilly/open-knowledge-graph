@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: statistical-mechanics-foundations
   type: soft
+- id: rms-speed-and-kinetic-energy
+  type: soft
 builds-toward:
 - quantum-statistics-intro
 tags:

@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: energy-conversion
   type: soft
+- id: energy-transfer
+  type: soft
 builds-toward:
 - collisions-elastic-inelastic
 - spring-mass-system

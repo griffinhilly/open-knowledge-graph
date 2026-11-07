@@ -16,6 +16,10 @@ prerequisites:
   type: hard
 - id: maxwell-equations-differential-form
   type: hard
+- id: displacement-current-and-maxwell
+  type: soft
+- id: faraday-law-of-induction
+  type: soft
 builds-toward:
 - plane-waves-in-vacuum
 - poynting-vector-and-energy-flux

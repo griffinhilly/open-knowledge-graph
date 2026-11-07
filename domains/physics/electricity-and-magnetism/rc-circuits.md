@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: transient-response-rc-circuits-electricity-and-magnetism
   type: soft
+- id: dc-circuits-series-parallel
+  type: soft
 builds-toward:
 - ac-circuits-fundamentals
 - lc-and-rlc-circuits

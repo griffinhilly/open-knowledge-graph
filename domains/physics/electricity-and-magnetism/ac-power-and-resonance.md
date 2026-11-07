@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: ac-circuits-fundamentals
   type: hard
+- id: lc-and-rlc-circuits
+  type: soft
 builds-toward:
 - electromagnetic-waves
 tags:

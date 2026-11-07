@@ -10,8 +10,10 @@ prerequisites:
   type: hard
 - id: phase-changes-and-energy
   type: soft
+- id: calorimetry
+  type: soft
 builds-toward:
-  - phase-diagrams
+- phase-diagrams
 tags:
 - latent-heat
 - heat-of-fusion

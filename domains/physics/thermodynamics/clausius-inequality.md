@@ -9,7 +9,6 @@ prerequisites:
 - id: entropy-intro
   type: hard
 builds-toward:
-- third-law-absolute-entropy
 - thermodynamic-availability-exergy
 tags:
 - second-law

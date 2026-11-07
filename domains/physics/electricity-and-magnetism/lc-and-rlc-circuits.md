@@ -16,6 +16,8 @@ prerequisites:
   type: hard
 - id: self-inductance-of-circuits
   type: hard
+- id: inductance-and-inductors
+  type: hard
 builds-toward:
 - ac-circuits-fundamentals
 - ac-power-and-resonance

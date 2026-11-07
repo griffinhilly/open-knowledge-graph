@@ -736,3 +736,11 @@ ADD	product-topology	topological-manifolds-introduction	soft	medium	Products of 
 DROP	tychonoff-theorem	topological-manifolds-introduction	-	medium	Introductory manifolds do not need Tychonoff.
 DROP	compactness-hausdorff-spaces	tychonoff-theorem	-	medium	Tychonoff holds for arbitrary compact spaces; Hausdorff is not needed.
 ADD	quotient-maps-and-identification	van-kampen-theorem	soft	medium	Van Kampen is applied to spaces built by identification.
+ADD	relative-motion-and-reference-frames	reduced-mass-problem	soft	high	two reviewers agree: Reduced mass works in relative coordinates and the CM frame.	[would create cycle]
+ADD	electric-field-lines	equipotential-surfaces	soft	high	two reviewers agree: Equipotentials are drawn perpendicular to field lines.	[would create cycle]
+ADD	electric-field-lines	gauss-law	soft	high	two reviewers agree: Flux as counting field lines is the usual intuition for Gauss's law.	[would create cycle]
+ADD	superposition-principle-electrostatics	gauss-law	soft	high	two reviewers agree: Gauss's law for multiple charges relies on superposition of fields.	[would create cycle]
+ADD	faraday-induced-emf	lenzs-law	soft	high	two reviewers agree: Lenz's law gives the sign in Faraday's law; near-duplicate faradays-law already a prereq.	[would create cycle]
+ADD	beta-emission-weak-force	gamma-emission-nuclear-transitions	soft	high	two reviewers agree: Gamma emission often follows beta decay leaving an excited daughter.	[would create cycle]
+ADD	van-der-waals-equation-of-state	compressibility-factor-z	soft	high	two reviewers agree: Z deviations are often modeled with the vdW equation.	[would create cycle]
+ADD	doppler-effect-comprehensive	doppler-applications-astronomy	soft	high	two reviewers agree: Astronomical Doppler builds on general Doppler analysis, though light needs the relativistic form.	[would create cycle]

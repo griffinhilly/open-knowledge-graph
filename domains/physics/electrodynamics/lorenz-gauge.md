@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - retarded-potentials
-- electromagnetic-field-tensor
 tags:
 - lorenz-gauge
 - covariant

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: chemical-potential
   type: soft
+- id: ensemble-theory-fundamentals
+  type: soft
+- id: statistical-ensembles-intro
+  type: soft
 builds-toward:
 - bose-einstein-condensation
 tags:

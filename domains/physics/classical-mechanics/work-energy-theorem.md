@@ -18,6 +18,8 @@ prerequisites:
   type: hard
 - id: work-as-force-times-distance
   type: hard
+- id: energy-transfer
+  type: soft
 builds-toward:
 - conservation-of-energy
 tags:

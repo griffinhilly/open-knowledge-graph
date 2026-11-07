@@ -20,6 +20,8 @@ prerequisites:
   type: hard
 - id: standing-waves-formation-mechanism
   type: soft
+- id: wave-superposition
+  type: soft
 builds-toward:
 - resonance-strings-and-pipes
 tags:

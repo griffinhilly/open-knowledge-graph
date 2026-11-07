@@ -14,8 +14,7 @@ prerequisites:
   type: soft
 - id: multipole-static-fields
   type: soft
-builds-toward:
-- radiation-accelerating-charges
+builds-toward: []
 tags:
 - multipole-expansion
 - systematic-expansion

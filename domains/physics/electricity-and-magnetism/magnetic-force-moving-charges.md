@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - magnetic-force-current-wires
-- magnetic-field-intro
 tags:
 - lorentz-force
 - moving-charge

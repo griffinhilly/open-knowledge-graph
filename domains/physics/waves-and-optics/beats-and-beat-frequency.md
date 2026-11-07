@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: superposition-principle-waves
   type: hard
+- id: wave-superposition
+  type: soft
 tags:
 - beats
 - beat frequency

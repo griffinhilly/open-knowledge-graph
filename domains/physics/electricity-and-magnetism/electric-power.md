@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: electrical-power-conceptual
   type: soft
+- id: electric-current-and-resistance
+  type: soft
 builds-toward:
 - dc-circuits-series-parallel
 - ac-power-and-resonance

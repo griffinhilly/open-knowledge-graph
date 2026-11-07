@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: relativistic-velocity-addition
   type: soft
+- id: time-dilation
+  type: soft
 builds-toward:
 - mass-energy-equivalence
 - pair-production-annihilation

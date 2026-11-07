@@ -14,8 +14,7 @@ prerequisites:
   type: soft
 - id: periodic-table-filling-orbitals
   type: soft
-builds-toward:
-- gamma-emission-nuclear-transitions
+builds-toward: []
 tags:
 - nuclear-physics
 - atomic-physics

@@ -6,8 +6,7 @@ course: waves-and-optics
 prerequisites:
 - id: acoustic-impedance-mechanical
   type: hard
-builds-toward:
-- total-internal-reflection
+builds-toward: []
 tags:
 - reflection
 - impedance-mismatch

@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: static-electricity-and-charge-transfer
   type: soft
+- id: gauss-law-integral-form
+  type: soft
+- id: relationship-e-field-potential
+  type: soft
 builds-toward:
 - capacitance
 - parallel-plate-capacitor-formula

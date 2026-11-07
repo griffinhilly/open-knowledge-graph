@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: intensive-and-extensive-properties
   type: soft
+- id: thermodynamic-equilibrium-mechanical-chemical
+  type: soft
+- id: zeroth-law-of-thermodynamics
+  type: soft
 builds-toward:
 - path-functions-vs-state-functions
 - exact-and-inexact-differentials

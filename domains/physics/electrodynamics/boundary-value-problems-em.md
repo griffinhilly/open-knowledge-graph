@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: boundary-conditions-em-fields
   type: hard
+- id: electric-potential-and-potential-energy
+  type: soft
 builds-toward:
 - cavity-resonators
 tags:

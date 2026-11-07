@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: divergence-theorem
   type: hard
+- id: electric-field-point-charges
+  type: soft
 builds-toward:
 - gauss-law-integral-form
 tags:

@@ -12,8 +12,7 @@ prerequisites:
   type: soft
 - id: spherical-mirror-formula
   type: hard
-builds-toward:
-- spherical-mirrors
+builds-toward: []
 tags:
 - mirror
 - image-formation

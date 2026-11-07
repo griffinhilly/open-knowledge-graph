@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: what-is-gravity
   type: soft
+- id: mass-vs-weight
+  type: soft
 builds-toward:
 - orbital-mechanics
 - keplers-laws

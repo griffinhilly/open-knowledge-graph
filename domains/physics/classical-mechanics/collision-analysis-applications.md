@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: coefficient-of-restitution
   type: soft
+- id: inelastic-collisions
+  type: soft
 builds-toward:
 - two-body-collision-center-of-mass
 tags:

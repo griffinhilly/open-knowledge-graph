@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: work-as-force-times-distance
   type: soft
+- id: mechanical-advantage-intro
+  type: soft
 builds-toward:
 - kinetic-energy
 - potential-energy

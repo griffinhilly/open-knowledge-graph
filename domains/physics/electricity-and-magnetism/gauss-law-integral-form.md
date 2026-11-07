@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: divergence-theorem
   type: hard
+- id: electric-field-continuous-distributions
+  type: soft
 builds-toward:
 - gauss-law-problem-solving
 - conductors-electrostatic-behavior

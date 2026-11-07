@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: solenoid-magnetic-field-properties
   type: soft
+- id: toroid-magnetic-field-calculation
+  type: soft
 builds-toward:
 - rl-circuits
 - lc-and-rlc-circuits

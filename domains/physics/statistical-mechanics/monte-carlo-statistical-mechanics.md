@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: monte-carlo-methods-stat-mech
   type: soft
+- id: ising-model-statmech
+  type: soft
 builds-toward:
 - metropolis-algorithm
 tags:

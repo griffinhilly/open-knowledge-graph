@@ -6,8 +6,7 @@ course: physical-science
 prerequisites:
 - id: inclined-planes-and-wedges
   type: hard
-builds-toward:
-- work-and-energy
+builds-toward: []
 tags:
 - screw
 - simple-machine

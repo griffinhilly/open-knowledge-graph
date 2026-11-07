@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: optical-path-length-definition
   type: soft
+- id: fresnel-reflection-transmission
+  type: soft
 tags:
 - thin film
 - optical path length

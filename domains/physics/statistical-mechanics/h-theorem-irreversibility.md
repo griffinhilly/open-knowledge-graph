@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: entropy-intro
   type: hard
-builds-toward:
-- fluctuation-dissipation-theorem
+builds-toward: []
 tags:
 - irreversibility
 - entropy

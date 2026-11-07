@@ -16,6 +16,12 @@ prerequisites:
   type: soft
 - id: magnification-linear-angular
   type: hard
+- id: lens-image-formation-ray-diagrams
+  type: soft
+- id: rayleigh-criterion-resolution
+  type: soft
+- id: thin-lenses
+  type: soft
 tags:
 - camera
 - microscope

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: thermodynamic-limit-statmech
   type: soft
+- id: van-der-waals-derivation
+  type: soft
 builds-toward:
 - critical-exponents
 - renormalization-group-scaling

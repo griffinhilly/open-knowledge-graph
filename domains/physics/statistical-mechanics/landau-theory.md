@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: helmholtz-free-energy
   type: hard
+- id: phase-transitions-first-and-second-order
+  type: soft
 builds-toward:
 - mean-field-theory
 tags:

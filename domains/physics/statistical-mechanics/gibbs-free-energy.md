@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: thermodynamic-processes
   type: soft
+- id: partition-function-definition
+  type: soft
 builds-toward:
 - phase-transitions-first-and-second-order
 tags:

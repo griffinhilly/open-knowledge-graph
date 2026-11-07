@@ -7,7 +7,6 @@ prerequisites:
 - id: parallel-plate-capacitor-formula
   type: hard
 builds-toward:
-- energy-density-electric-field
 - dielectric-materials-polarization
 tags:
 - circuit

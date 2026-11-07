@@ -10,8 +10,7 @@ prerequisites:
   type: soft
 - id: maxwell-boltzmann-distribution-thermodynamics
   type: soft
-builds-toward:
-- thermodynamic-availability-exergy
+builds-toward: []
 tags:
 - potentials
 - relations

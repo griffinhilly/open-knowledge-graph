@@ -12,7 +12,6 @@ prerequisites:
   type: hard
 builds-toward:
 - transport-coefficients-viscosity
-- thermal-conductivity-kinetic
 tags:
 - response
 - transport

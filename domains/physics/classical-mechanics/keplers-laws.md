@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: polar-coordinates
   type: soft
+- id: newtons-law-of-gravitation
+  type: soft
 tags:
 - Kepler
 - planetary-motion

@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: first-law-of-thermodynamics
   type: hard
-builds-toward:
-- rankine-cycle-steam-power
+builds-toward: []
 tags:
 - irreversible-processes
 - enthalpy

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: frequency-dependent-permittivity
   type: hard
+- id: conductivity-complex-dielectric
+  type: soft
 builds-toward:
 - birefringence-and-dichroism
 tags:

@@ -6,6 +6,8 @@ course: electricity-and-magnetism
 prerequisites:
 - id: electromotive-force-batteries
   type: hard
+- id: ohms-law-circuits
+  type: soft
 builds-toward:
 - network-circuit-analysis-methods
 tags:

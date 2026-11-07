@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ohms-law-circuits
   type: hard
+- id: resistance-resistivity-temperature
+  type: soft
 builds-toward:
 - kirchhoff-circuit-laws-rules
 tags:

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: gauss-law-applications
   type: soft
+- id: maxwell-equations-differential-form
+  type: soft
 builds-toward:
 - method-of-images
 - separation-variables-elliptic-equations

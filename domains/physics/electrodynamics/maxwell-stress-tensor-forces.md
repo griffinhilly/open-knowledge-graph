@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: em-field-momentum-density
   type: hard
+- id: poynting-theorem-conservation-law
+  type: soft
 tags:
 - stress-tensor
 - field-forces

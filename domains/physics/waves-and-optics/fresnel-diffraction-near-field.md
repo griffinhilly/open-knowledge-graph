@@ -6,8 +6,7 @@ course: waves-and-optics
 prerequisites:
 - id: diffraction-and-huygen-principle
   type: hard
-builds-toward:
-- rayleigh-criterion-resolution
+builds-toward: []
 tags:
 - fresnel-diffraction
 - near-field

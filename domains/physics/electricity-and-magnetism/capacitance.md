@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: potential-difference-voltage
   type: hard
+- id: equipotential-surfaces
+  type: soft
+- id: potential-energy-systems
+  type: soft
 builds-toward:
 - dielectrics
 - rc-circuits

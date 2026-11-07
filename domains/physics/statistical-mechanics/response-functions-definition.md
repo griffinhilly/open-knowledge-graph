@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: response-functions-susceptibilities
   type: soft
+- id: two-point-correlation-functions
+  type: soft
 builds-toward:
 - green-kubo-formula
 tags:

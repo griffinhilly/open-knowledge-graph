@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - heat-and-internal-energy
-- wave-properties-intro
 tags:
 - energy-forms
 - heat

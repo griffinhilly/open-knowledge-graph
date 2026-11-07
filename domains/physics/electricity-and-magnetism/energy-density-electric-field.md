@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: parallel-plate-capacitor-formula
   type: soft
+- id: dielectric-materials-polarization
+  type: soft
 builds-toward:
 - electric-current-definition
 tags:

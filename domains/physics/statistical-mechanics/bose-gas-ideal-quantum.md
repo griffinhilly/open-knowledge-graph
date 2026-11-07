@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: quantum-statistics-intro
   type: soft
+- id: grand-partition-function
+  type: soft
 builds-toward:
 - bose-einstein-condensation-statmech
 - planck-distribution-blackbody

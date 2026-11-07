@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - throttling-process-analysis
-- rankine-cycle-steam-power
 tags:
 - real-gases
 - refrigeration

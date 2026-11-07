@@ -4,3 +4,4 @@ bt_mathematics_p00.verdicts.tsv
 zero_p00.verdicts.tsv
 zero_p01.verdicts.tsv
 bt_mathematics_p01.verdicts.tsv
+bt_physics.agreed.tsv

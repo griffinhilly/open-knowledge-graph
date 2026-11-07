@@ -6,8 +6,7 @@ course: modern-physics
 prerequisites:
 - id: length-contraction
   type: hard
-builds-toward:
-- mass-energy-equivalence-relativity
+builds-toward: []
 tags:
 - special-relativity
 - length

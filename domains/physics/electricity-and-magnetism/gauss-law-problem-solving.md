@@ -9,7 +9,6 @@ prerequisites:
 - id: divergence-theorem
   type: hard
 builds-toward:
-- electric-potential
 - conductors-electrostatic-behavior
 tags:
 - problem-solving

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: cross-product
   type: hard
+- id: center-of-mass-motion
+  type: soft
 builds-toward:
 - conservation-of-angular-momentum
 tags:

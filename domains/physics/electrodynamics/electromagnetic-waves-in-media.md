@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: boundary-conditions-em-fields
   type: soft
+- id: maxwells-equations-integral-form
+  type: soft
 builds-toward:
 - dispersion-relations
 tags:

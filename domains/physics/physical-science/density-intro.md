@@ -10,8 +10,7 @@ prerequisites:
   type: soft
 - id: multi-digit-multiplication
   type: soft
-builds-toward:
-- ideal-gas-law
+builds-toward: []
 tags:
 - density
 - mass

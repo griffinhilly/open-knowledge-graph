@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: electric-potential-field
   type: hard
+- id: relationship-e-field-potential
+  type: soft
 builds-toward:
 - dielectric-polarization
 tags:

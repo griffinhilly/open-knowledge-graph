@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: momentum-and-impulse
   type: hard
+- id: compton-wavelength-shift
+  type: soft
 builds-toward:
 - electron-diffraction-matter
 tags:

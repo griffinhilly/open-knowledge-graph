@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: ideal-fermi-gas-t-equals-zero
   type: hard
+- id: density-of-states-fermi-gas
+  type: soft
 tags:
 - fermi-gas
 - thermal-effects

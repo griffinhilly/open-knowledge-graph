@@ -6,8 +6,7 @@ course: modern-physics
 prerequisites:
 - id: heisenberg-uncertainty-principle
   type: hard
-builds-toward:
-- hydrogen-quantum-energy-levels
+builds-toward: []
 tags:
 - quantum-mechanics
 - uncertainty

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: divergence-theorem
   type: soft
+- id: electromagnetic-wave-equation
+  type: soft
 builds-toward:
 - maxwell-stress-tensor
 - electromagnetic-waves-in-media

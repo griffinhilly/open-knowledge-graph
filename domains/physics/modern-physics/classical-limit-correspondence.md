@@ -8,8 +8,9 @@ prerequisites:
   type: soft
 - id: quantum-operators-eigenvalues
   type: soft
-builds-toward:
-- uncertainty-relation-measurements
+- id: schrodinger-equation-time-dependent
+  type: soft
+builds-toward: []
 tags:
 - quantum-foundations
 stage: advanced

@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: thermal-energy-transfer-mechanisms
   type: soft
+- id: conduction-convection-radiation-quantitative
+  type: soft
+- id: thermal-insulators
+  type: soft
 builds-toward:
 - heat-transfer-convection
 - heat-transfer-radiation

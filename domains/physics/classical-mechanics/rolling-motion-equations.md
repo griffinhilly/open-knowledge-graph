@@ -8,8 +8,9 @@ prerequisites:
   type: hard
 - id: rigid-body-planar-motion
   type: hard
-builds-toward:
-- gyroscopic-motion-precession
+- id: rotational-motion-fixed-axis
+  type: soft
+builds-toward: []
 tags:
 - rolling
 - constraints

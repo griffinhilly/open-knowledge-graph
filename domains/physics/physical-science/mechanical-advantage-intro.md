@@ -14,7 +14,6 @@ prerequisites:
   type: soft
 builds-toward:
 - work-and-energy
-- power-and-work-rate
 tags:
 - mechanical-advantage
 - simple-machines

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: first-law-of-thermodynamics
   type: soft
+- id: canonical-ensemble
+  type: soft
 builds-toward:
 - phase-transitions-first-and-second-order
 - clausius-clapeyron-equation

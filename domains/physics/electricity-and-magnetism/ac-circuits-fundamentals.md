@@ -12,6 +12,12 @@ prerequisites:
   type: soft
 - id: complex-numbers-intro
   type: soft
+- id: electromagnetic-induction-applications
+  type: soft
+- id: rc-circuits
+  type: soft
+- id: rl-circuits
+  type: soft
 builds-toward:
 - impedance-and-reactance
 - ac-power-and-resonance

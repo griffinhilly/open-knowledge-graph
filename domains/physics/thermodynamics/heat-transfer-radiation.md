@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: thermal-energy-transfer-mechanisms
   type: soft
+- id: conduction-convection-radiation-quantitative
+  type: soft
 builds-toward:
 - carnot-efficiency
 tags:

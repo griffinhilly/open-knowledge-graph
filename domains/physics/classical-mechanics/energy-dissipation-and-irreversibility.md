@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: damped-harmonic-oscillator
   type: soft
+- id: inelastic-collisions
+  type: soft
 builds-toward:
 - driven-harmonic-oscillator
 tags:
