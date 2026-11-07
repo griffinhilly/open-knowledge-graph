@@ -18,6 +18,14 @@ status: validated
 ## Core Idea
 A pure state |ψ⟩ has ρ = |ψ⟩⟨ψ| with Tr(ρ²) = 1. A mixed state has Tr(ρ²) < 1, representing loss of information due to decoherence or measurement.
 
+## How It's Best Learned
+Write four spin-½ density matrices side by side: |↑⟩, |+x⟩, the 50/50 mixture of up and down, and the 50/50 mixture of +x and −x. Compute Tr(ρ²) for each, and the probabilities for z and x measurements. Then write each ρ as ½(I + r·σ) and plot r. Pure states sit on the surface of the Bloch sphere, and mixed states sit inside.
+
+## Common Misconceptions
+- A density matrix with no off-diagonal entries describes a mixed state. (Off-diagonal entries depend on the basis. |↑⟩⟨↑| is diagonal in the z-basis and still pure, so Tr(ρ²), which does not depend on the basis, is the test.)
+- A mixed state comes from one definite list of pure states with probabilities. (Different ensembles can give the same ρ. A 50/50 mix of up and down and a 50/50 mix of +x and −x have the same density matrix and cannot be told apart by any measurement.)
+- When two particles are entangled, each one still has its own pure state. (For an entangled pure state of the pair, each particle's reduced density matrix is mixed. Only the pair as a whole is in a pure state.)
+
 ## Questions
 
 ```yaml

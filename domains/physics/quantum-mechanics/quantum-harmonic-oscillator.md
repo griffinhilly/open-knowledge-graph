@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 The quantum harmonic oscillator has discrete energy levels E_n = (n + ½)ℏω. Unlike classically, the ground state has nonzero zero-point energy ½ℏω due to uncertainty.
 
+## How It's Best Learned
+Start from the Gaussian trial function ψ(x) = e^{−αx²}. Substitute it into the Schrödinger equation and find the one value of α that makes it an eigenfunction, which gives E₀ = ½ℏω. Then check ψ₁ ∝ x e^{−αx²} the same way. Plot both inside the parabola V(x) = ½mω²x², and compare their node counts with n.
+
+## Common Misconceptions
+- The levels are discrete because the particle hits walls, as in a box. (The potential has no walls. Discreteness comes from requiring the wavefunction to stay normalizable as x grows without limit.)
+- The ground state wavefunction has a node at the center. (The ground state is a Gaussian with no nodes. The state with quantum number n has n nodes.)
+- Using a heavier mass on the same spring leaves the energy levels unchanged. (ω = √(k/m), so a heavier mass lowers ω and shrinks both the spacing ℏω and the zero-point energy.)
+
 ## Questions
 
 ```yaml

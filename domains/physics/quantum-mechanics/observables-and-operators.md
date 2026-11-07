@@ -29,6 +29,15 @@ status: validated
 ## Core Idea
 Each physical observable is represented by a Hermitian operator; eigenvalues are possible measurement outcomes, eigenstates have definite values. The expectation value ⟨ψ|Ô|ψ⟩ predicts the average of repeated measurements.
 
+## How It's Best Learned
+Work with the 2×2 matrices for spin components first. Find the eigenvalues and eigenvectors of S_z and S_x, check that each set is orthonormal, and expand a given state in both bases. Compute the outcome probabilities and ⟨S_x⟩ from the expansion, then again from ⟨ψ|Ŝ_x|ψ⟩, and confirm they agree. Then compute [S_x, S_z] to see why the two cannot both be definite.
+
+## Common Misconceptions
+- Applying Â to |ψ⟩ gives the state after measuring A. (Â|ψ⟩ is generally not normalized and is not an eigenstate. The post-measurement state is the eigenstate |aₙ⟩ that matches the result.)
+- The product of two Hermitian operators is Hermitian. ((ÂB̂)† = B̂Â, so the product is Hermitian only when Â and B̂ commute.)
+- Eigenstates of the same observable with different eigenvalues can partly overlap. (For a Hermitian operator, eigenstates with different eigenvalues are orthogonal. Together with completeness, this is why the outcome probabilities add to one.)
+- The expectation value is the most likely result of a single measurement. (It is the average over many runs. It need not be an eigenvalue, so a single measurement may never give it.)
+
 ## Questions
 
 ```yaml

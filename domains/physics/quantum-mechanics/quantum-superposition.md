@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 A quantum system can exist in a superposition of multiple states simultaneously, written as |ψ⟩ = Σ cₙ|φₙ⟩ where |cₙ|² are probabilities. Unlike classical systems where the system definitely is in one state, a superposed quantum state genuinely exhibits properties of all constituent states until measured. Superposition is fundamental to quantum mechanics and has no classical analogue.
 
+## How It's Best Learned
+Compute the two-path pattern both ways. Take two waves ψ₁ and ψ₂ arriving at a screen point with a path difference, add the amplitudes and square, then square each one and add. Plot both results across the screen; the gap between the curves is the interference term. Then rewrite |↑⟩ in the x-basis to see that being a superposition depends on the basis chosen.
+
+## Common Misconceptions
+- Some states are superpositions and others are not. (Being a superposition depends on the basis. |↑⟩ is a basis state for S_z and an equal superposition of the two S_x eigenstates.)
+- (|↑⟩ + |↓⟩)/√2 and (|↑⟩ − |↓⟩)/√2 are the same state, because both give 50/50 results for S_z. (They are orthogonal states pointing along +x and −x. An S_x measurement tells them apart with certainty.)
+- A quantum computer in superposition tries every answer in parallel and reads them all out. (A measurement returns one outcome. Quantum algorithms work by arranging interference so that the wanted outcome becomes likely.)
+- |φ⟩ + |φ⟩ is a new superposition. (It equals 2|φ⟩, which after normalization is the same physical state as |φ⟩.)
+
 ## Questions
 
 ```yaml

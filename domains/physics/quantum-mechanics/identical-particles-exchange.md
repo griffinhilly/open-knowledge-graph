@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Identical particles are truly indistinguishable in quantum mechanics; swapping two electrons must leave physics unchanged. Wavefunctions must be symmetric (bosons) or antisymmetric (fermions) under particle exchange, a fundamental symmetry principle combined with relativity via the spin-statistics theorem.
 
+## How It's Best Learned
+Take two one-particle states ψ_a and ψ_b of opposite parity in an infinite square well, such as the ground and first excited states. Build the product state, the symmetric combination and the antisymmetric combination. Compute ⟨(x₁ − x₂)²⟩ for each and compare. Bosons come out closer together and fermions farther apart than distinguishable particles. Then set a = b and watch the antisymmetric combination vanish.
+
+## Common Misconceptions
+- A two-electron state can be written as "electron 1 in ψ_a, electron 2 in ψ_b." (That product labels the particles. An allowed state is the antisymmetric combination [ψ_a(1)ψ_b(2) − ψ_b(1)ψ_a(2)]/√2, in which neither electron has its own orbital.)
+- For electrons the spatial wavefunction must be antisymmetric. (The total wavefunction, space times spin, must be antisymmetric. A spin singlet is antisymmetric, so it pairs with a symmetric spatial part.)
+- Exchange effects come from a new force between identical particles. (No extra term is added to the Hamiltonian. The effects come from the symmetry constraint on the allowed states.)
+- Symmetrization only applies when the particles are close together. (The requirement holds for any pair of identical particles. When their wavefunctions do not overlap, the exchange effects become negligible, so ignoring it then gives correct answers.)
+
 ## Questions
 
 ```yaml

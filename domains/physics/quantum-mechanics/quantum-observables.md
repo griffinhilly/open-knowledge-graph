@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Observables in quantum mechanics are represented by Hermitian (self-adjoint) operators Â = Â†. Hermitian operators guarantee real eigenvalues consistent with measurement outcomes and orthogonal eigenstates enabling complete descriptions. Examples include the Hamiltonian (energy), momentum, and angular momentum operators.
 
+## How It's Best Learned
+Prove that p̂ = −iℏ d/dx is Hermitian by integrating ⟨φ|p̂ψ⟩ by parts and showing the boundary terms vanish for normalizable functions. Then check that d/dx alone fails the same test. Next, take a 3×3 Hermitian example with a repeated eigenvalue, find two eigenvectors that are not orthogonal, and use Gram-Schmidt to make them orthogonal.
+
+## Common Misconceptions
+- Any operator with real eigenvalues is Hermitian. (The matrix [[1, 1], [0, 2]] has real eigenvalues 1 and 2 but is not Hermitian, and its eigenvectors are not orthogonal.)
+- p̂ = −iℏ d/dx contains i, so it cannot be Hermitian. (The derivative alone is anti-Hermitian. Multiplying it by −iℏ makes the product Hermitian.)
+- Eigenstates of a Hermitian operator are orthogonal even when they share an eigenvalue. (Orthogonality is guaranteed only for different eigenvalues. Within a degenerate eigenspace you can choose an orthogonal set, but not every choice is orthogonal.)
+- Every Hermitian operator has normalizable eigenstates. (x̂ and p̂ have none. Their eigenfunctions, delta functions and plane waves, are not square-integrable and are handled with delta-function normalization.)
+
 ## Questions
 
 ```yaml

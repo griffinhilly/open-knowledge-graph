@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Fine structure arises from relativistic corrections to kinetic energy and spin-orbit coupling, splitting degenerate levels into states labeled by total angular momentum j. Hyperfine structure results from interaction between electron and nuclear spins. Both effects are small corrections crucial for precision spectroscopy and atomic clocks.
 
+## How It's Best Learned
+Build one level diagram for n = 2 and add each effect as its own column: Bohr level, kinetic correction, spin-orbit shift, Darwin term (s states only), combined fine structure, then Lamb shift and hyperfine splitting. Compute the first-order shift for 2s₁/₂, 2p₁/₂ and 2p₃/₂ from the standard formulas. Checking that 2s₁/₂ and 2p₁/₂ land at the same energy shows the j-degeneracy directly.
+
+## Common Misconceptions
+- Each fine-structure correction depends on n and j alone. (The kinetic and spin-orbit terms each depend on ℓ. The ℓ-dependence cancels only in their sum, together with the Darwin term for s states.)
+- Spin-orbit coupling makes ℓ a bad quantum number. (L² still commutes with the Hamiltonian, so ℓ remains good. What spin-orbit coupling removes is the conservation of L_z and S_z, so m_ℓ and m_s stop labeling the states.)
+- Hyperfine structure is just a smaller version of fine structure from the same cause. (Hyperfine structure comes from the nuclear magnetic moment interacting with the electron. Fine structure does not involve the nuclear spin at all.)
+- Fine structure explains every splitting seen within an n level. (Fine structure leaves 2s₁/₂ and 2p₁/₂ degenerate. The Lamb shift, a QED effect, separates them.)
+
 ## Questions
 
 ```yaml

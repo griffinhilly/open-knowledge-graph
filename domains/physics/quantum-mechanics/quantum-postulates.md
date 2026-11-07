@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 The postulates specify that states live in Hilbert space, observables are Hermitian operators, measurement outcomes are eigenvalues, and time evolution follows the Schrödinger equation. Together these form the axiomatic foundation distinguishing quantum from classical mechanics.
 
+## How It's Best Learned
+Take one small system, a spin-½ particle in a magnetic field along z, and use all four postulates on it in order. Write the state as a vector, write S_x and Ĥ as matrices, evolve the state with the Schrödinger equation, and compute the probability of measuring S_x = +ℏ/2 as a function of time. Label each step with the postulate it uses.
+
+## Common Misconceptions
+- Only the relative size of the coefficients matters, so the phases in a superposition carry no physics. (A global phase has no physical effect. A relative phase between components changes the outcome probabilities for other observables, so it is physical.)
+- Unitary Schrödinger evolution applies to any system, including one that interacts with its surroundings. (Postulate 4 applies to closed systems. A subsystem that exchanges energy or information with an environment does not, in general, evolve unitarily by itself.)
+- Every real measurement is a projection onto eigenstates of an observable. (The projective postulate is the textbook idealization. Many real measurements, such as photon detection that absorbs the photon, are described by more general measurement rules.)
+
 ## Questions
 
 ```yaml

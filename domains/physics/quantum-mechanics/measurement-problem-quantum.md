@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Why does |ψ⟩ collapse to an eigenstate upon measurement? This discontinuity is not from Schrödinger's equation. Different interpretations propose different resolutions.
 
+## How It's Best Learned
+Write out a measurement as a short calculation. Start with a spin in (|↑⟩ + |↓⟩)/√2 and a pointer in a "ready" state. Apply the linear interaction that sends |↑⟩|ready⟩ to |↑⟩|reads up⟩ and |↓⟩|ready⟩ to |↓⟩|reads down⟩. Linearity forces an entangled superposition of both readings. Then ask what extra rule or extra ingredient would turn that sum into one reading.
+
+## Common Misconceptions
+- A system in superposition is secretly in one state, and we just don't know which. (That describes a mixture. A superposition produces interference effects that a mixture cannot, so the two are physically different.)
+- The problem goes away for large objects, because only small things obey quantum mechanics. (Linear evolution carries the superposition from the particle into the pointer. Size alone does not stop it, which is what makes the problem hard.)
+- Decoherence makes the wavefunction collapse. (Decoherence spreads the superposition into the environment and suppresses interference. The joint state of system, device and environment is still a superposition.)
+- The measurement problem is about how measuring a system disturbs it. (Disturbance is a separate issue. The problem is that unitary evolution turns a superposition into an entangled superposition of outcomes, never a single definite one.)
+
 ## Questions
 
 ```yaml

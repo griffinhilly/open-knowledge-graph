@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Identical particles are truly indistinguishable in quantum mechanics. Wavefunctions must be symmetric ψ = +ψ or antisymmetric ψ = −ψ under exchange, a constraint emerging from spin-statistics theorem.
 
+## How It's Best Learned
+Work in ket notation first. Define P̂₁₂|a⟩|b⟩ = |b⟩|a⟩, show P̂₁₂² = 1, and find the eigenvalues. Build the symmetric and antisymmetric kets for two particles and check that each is an eigenvector of P̂₁₂. Then project onto ⟨r₁|⟨r₂| to recover the wavefunctions ψ_B and ψ_F, and evaluate ψ_F at r₁ = r₂.
+
+## Common Misconceptions
+- A ⁴He atom is made of fermions, so it must be a fermion. (A composite of an even number of fermions behaves as a boson when its internal structure is not probed. A ⁴He atom has six: two protons, two neutrons and two electrons.)
+- A system can start symmetric and later become antisymmetric. (The Hamiltonian of identical particles commutes with P̂₁₂, so the exchange symmetry of a state is conserved in time.)
+- Antisymmetry only matters when two fermions are put in the same state. (Even with a ≠ b, ψ_F vanishes at r₁ = r₂, so two same-spin fermions are unlikely to be found close together.)
+- Nonrelativistic quantum mechanics proves that spin-½ particles must be fermions. (In nonrelativistic theory the link between spin and symmetry is an input. The proof comes from relativistic quantum field theory.)
+
 ## Questions
 
 ```yaml

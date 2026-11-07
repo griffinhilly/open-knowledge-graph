@@ -18,6 +18,14 @@ status: validated
 ## Core Idea
 Major interpretations address the measurement problem differently: Copenhagen (subjective ψ), many-worlds (all branches), objective collapse (physical collapse), Bohmian (deterministic trajectories), relational (relative properties). All reproduce empirical predictions.
 
+## How It's Best Learned
+Pick one experiment, such as a spin-½ particle passing through a Stern-Gerlach magnet, and tell its story once in each interpretation. Fill in a table with one row per interpretation and four columns: is ψ physically real, does collapse happen, is the dynamics deterministic, and what is added to the Schrödinger equation. Compare the rows to see exactly where each view parts ways with the others.
+
+## Common Misconceptions
+- Decoherence solves the measurement problem, so interpretations no longer matter. (Decoherence explains why interference between outcomes becomes unobservable in practice. The total state is still a superposition, so decoherence alone does not pick out one result.)
+- The Copenhagen interpretation says an observer's consciousness causes collapse. (Standard Copenhagen accounts treat the measuring apparatus classically and assign no role to consciousness. Consciousness-based collapse is a separate proposal.)
+- Bohmian mechanics is nonlocal, so it allows faster-than-light signaling. (The guidance is nonlocal, but when particle positions follow the Born distribution its predictions match standard quantum mechanics. No usable signal can be sent.)
+
 ## Questions
 
 ```yaml

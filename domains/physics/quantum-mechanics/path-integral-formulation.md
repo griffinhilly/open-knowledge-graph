@@ -18,6 +18,15 @@ status: validated
 ## Core Idea
 The amplitude for propagation from (x₀,t₀) to (xf,tf) sums over all paths: K = ∫ D[x(t)] e^{iS[x]/ℏ}, where S[x] = ∫ L dt is the action. Classical paths dominate (stationary phase); quantum fluctuations come from all paths. Equivalent to Schrödinger equation and elegant for transitions and semiclassics.
 
+## How It's Best Learned
+Build the integral by time slicing. Split the interval into N steps, write the short-time amplitude for each step, and integrate over every intermediate position. Do this for a free particle with N = 2 and N = 3 using Gaussian integrals, and check that the result keeps the same form as N grows. Then compare the exact free propagator with e^{iS_cl/ℏ} for the classical straight-line path.
+
+## Common Misconceptions
+- Only smooth paths that obey the laws of motion enter the sum. (Every continuous path between the endpoints is included. The paths that carry most of the weight are jagged and nowhere differentiable.)
+- ∫ D[x(t)] is an ordinary integral over a single variable. (It is defined as the limit of N-fold integrals over the intermediate positions, with a normalization factor for each slice, as N goes to infinity.)
+- In quantum problems only paths near the classical one matter. (That holds when the action is large compared with ℏ. When the two are comparable, as in a double-slit setup, paths far from the classical one contribute.)
+- The path integral shows the particle physically travels along every path at once. (The paths are terms in a sum that gives an amplitude. The formalism gives the same predictions as the Schrödinger equation and does not by itself settle what the particle does.)
+
 ## Questions
 
 ```yaml

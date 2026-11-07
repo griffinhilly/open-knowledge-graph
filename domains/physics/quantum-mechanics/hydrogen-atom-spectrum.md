@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Transitions between hydrogen energy levels En and E_m emit or absorb photons with frequency ω = |E_n - E_m|/ℏ. Different series correspond to transitions ending at different n: Lyman (n=1), Balmer (n=2), Paschen (n=3). Selection rules Δl = ±1 and Δm_l = 0, ±1 govern allowed transitions. Quantum mechanics explains spectral line positions perfectly, validating the theory.
 
+## How It's Best Learned
+Draw an energy-level ladder for n = 1 to 6 to scale, using E_n = −13.6 eV / n². Add downward arrows for each series in a different color. Compute the wavelengths for H-α and H-β from the level differences and check them against 656 nm and 486 nm. Then cross out the arrows that break Δl = ±1 on a second diagram that splits each level by l.
+
+## Common Misconceptions
+- Every Balmer line is in the visible range. (The lines crowd toward the series limit near 365 nm, which lies in the near ultraviolet. The first few lines, starting with H-α, are the visible ones.)
+- The 2s state cannot decay, because the dipole transition to 1s is forbidden. (The 2s state is metastable. It still decays by slower processes, mainly by emitting two photons.)
+- Any hydrogen gas absorbs light at the Balmer wavelengths. (Balmer absorption starts from n = 2. In cool gas almost all atoms are in n = 1, so Balmer absorption needs enough heat to populate n = 2.)
+- A line's wavelength depends on the l values of the two states. (In the Coulomb model the photon energy depends only on the two n values. The selection rules decide which transitions occur, not where the line falls.)
+
 ## Questions
 
 ```yaml

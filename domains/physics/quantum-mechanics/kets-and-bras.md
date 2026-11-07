@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 A ket |ψ⟩ represents a quantum state as a vector in Hilbert space; its dual bra ⟨ψ| is the linear functional computing inner products. The bra-ket ⟨ψ|φ⟩ encodes probabilities and expectation values.
 
+## How It's Best Learned
+Work in ℂ² before anything infinite-dimensional. Write kets as column vectors and bras as their conjugate-transpose rows. Then compute ⟨φ|ψ⟩, ⟨ψ|φ⟩ and the outer product |φ⟩⟨ψ| for two specific spin states. After that, insert Σ_n |n⟩⟨n| = 1 to change basis in ℂ², and finally repeat the same step with ∫ dx |x⟩⟨x| to get ψ(x).
+
+## Common Misconceptions
+- The bra that goes with c|ψ⟩ is c⟨ψ|. (The correspondence is antilinear, so the bra is c*⟨ψ|.)
+- ⟨φ|ψ⟩ and ⟨ψ|φ⟩ are the same number. (They are complex conjugates: ⟨ψ|φ⟩ = ⟨φ|ψ⟩*. They share the same magnitude, so the probability |⟨φ|ψ⟩|² is unaffected.)
+- |φ⟩⟨ψ| is a number, just written in a different order. (It is an operator. Acting on |χ⟩ it gives ⟨ψ|χ⟩|φ⟩, a ket.)
+- |ψ⟩ and −|ψ⟩ are different physical states. (Kets that differ by an overall phase factor give the same probabilities for every measurement, so they describe the same state.)
+
 ## Questions
 
 ```yaml

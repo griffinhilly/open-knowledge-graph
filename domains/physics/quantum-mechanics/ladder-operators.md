@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Raising â† and lowering â operators change quantum number n by one: â†|n⟩ = √(n+1)|n+1⟩ and â|n⟩ = √n|n−1⟩. Their commutation [â, â†] = 1 encodes the entire spectrum algebraically.
 
+## How It's Best Learned
+Write the matrices for â, â† and N̂ in the basis |0⟩ to |4⟩, with √1, √2, √3 and √4 placed just off the diagonal. Multiply them out to check ââ† − â†â on that block. Every diagonal entry comes out 1 except the last, which is an artifact of cutting the infinite matrices off at |4⟩. Then form x̂ = √(ℏ/2mω)(â + â†) and compute ⟨x̂⟩ and ⟨x̂²⟩ for |0⟩ and |1⟩. The answers match the integrals over the Hermite-function wavefunctions, with much less work.
+
+## Common Misconceptions
+- â† is the inverse of â, so â†â = 1. (â†â is the number operator N̂, with eigenvalue n on |n⟩. It equals 1 only on |1⟩.)
+- N̂ and H/ℏω are the same operator. (H/ℏω = N̂ + ½. The extra ½ is the zero-point energy in units of ℏω.)
+- In state |n⟩ the particle has a nonzero average position. (⟨n|x̂|n⟩ = 0 because x̂ only connects states with |m − n| = 1. ⟨x̂²⟩ is nonzero, so the particle is spread out about the center.)
+- The ladder argument assumes from the start that n is a whole number. (Whole numbers come out of the argument. A non-integer eigenvalue would let repeated lowering go below zero, which N̂ forbids.)
+
 ## Questions
 
 ```yaml

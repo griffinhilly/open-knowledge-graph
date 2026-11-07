@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 The Pauli matrices σₓ, σᵧ, σz are 2×2 matrices representing spin-½ operators via Ŝᵢ = (ℏ/2)σᵢ. They satisfy σᵢσⱼ = δᵢⱼ + iεᵢⱼₖσₖ and form a basis for all 2×2 matrices, encoding the complete structure of spin-½.
 
+## How It's Best Learned
+Multiply the matrices out by hand: all nine products σᵢσⱼ, arranged in a 3×3 table. Read the identity σᵢσⱼ = δᵢⱼI + iεᵢⱼₖσₖ off the table rather than memorizing it. Then compute n̂·σ for a unit vector n̂ at angles (θ, φ), find its eigenvectors, and check that they match the Bloch-sphere point for that direction.
+
+## Common Misconceptions
+- The eigenvalues of σz are ±ℏ/2. (The Pauli matrices have eigenvalues ±1. The spin operators Ŝᵢ = (ℏ/2)σᵢ carry the ±ℏ/2.)
+- Since σₓ|↑⟩ = |↓⟩, measuring S_x on |↑⟩ gives spin down. (Acting with σₓ flips the state, which is a different operation from measuring. Measuring S_x on |↑⟩ gives +ℏ/2 or −ℏ/2, each with probability ½.)
+- Each σᵢ² = I, so the total spin squared Ŝ² is ℏ²/4. (Ŝ² = (ℏ²/4)(σₓ² + σᵧ² + σz²) = (3ℏ²/4)I, which matches s(s+1)ℏ² with s = ½.)
+
 ## Questions
 
 ```yaml

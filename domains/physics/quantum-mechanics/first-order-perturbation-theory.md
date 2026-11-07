@@ -19,6 +19,15 @@ status: validated
 ## Core Idea
 First-order energy correction: E⁽¹⟩ = ⟨ψ⁽⁰⟩|H'|ψ⁽⁰⟩⟩; wavefunction correction mixes states via ⟨k|H'|n⟩/(E_n⁽⁰⁾ - E_k⁽⁰⁾).
 
+## How It's Best Learned
+Start with a problem you can also solve exactly, such as the harmonic oscillator with an added linear term or a two-level system with a small off-diagonal coupling. Compute the first-order result, then expand the exact answer in powers of the coupling and compare term by term. After that, try the infinite square well with a small step in the floor, where no exact answer is handy.
+
+## Common Misconceptions
+- The approximation works whenever E⁽¹⁾ₙ is small compared with Eₙ⁽⁰⁾. (The real condition is that each off-diagonal matrix element |⟨k|H'|n⟩| is small compared with the level spacing |Eₙ⁽⁰⁾ − Eₖ⁽⁰⁾|. A shift can be small relative to Eₙ⁽⁰⁾ and still be large relative to a nearby level.)
+- A nonzero perturbation gives a nonzero first-order energy shift. (The diagonal matrix element can vanish by symmetry. A uniform electric field gives zero first-order shift for a nondegenerate state of definite parity, so the leading shift appears at second order.)
+- The nondegenerate formulas can be used for degenerate levels if you pick any basis. (With degeneracy the denominator vanishes. You first diagonalize H' inside the degenerate subspace and then use those combinations as the zeroth-order states.)
+- The wavefunction correction sum includes the term k = n. (The k = n term is left out. The usual normalization choice makes the correction orthogonal to ψₙ⁽⁰⁾.)
+
 ## Questions
 
 ```yaml

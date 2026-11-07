@@ -18,6 +18,15 @@ status: validated
 ## Core Idea
 Path integrals expand perturbatively as Feynman diagrams in quantum field theory. Each diagram represents a contribution to the amplitude (virtual particles, interactions, loops). Feynman rules translate diagrams into cross sections and decay rates.
 
+## How It's Best Learned
+Start with a toy theory that has one scalar field and a single cubic or quartic vertex. Expand exp(iS_int/ħ) to second order by hand, then draw the diagram that matches each term. Count the powers of the coupling constant in each diagram. Only after that, apply the Feynman rules to a tree-level QED process such as electron-electron scattering.
+
+## Common Misconceptions
+- The lines in a Feynman diagram show the paths the particles actually travel through spacetime. (A diagram stands for one term in the perturbative expansion of the amplitude. It is a bookkeeping device, not a trajectory.)
+- A virtual particle is a real particle that exists for a short time. (Internal lines are off-shell field excitations that are never detected. Their four-momentum need not satisfy E² = p²c² + m²c⁴.)
+- One Feynman diagram gives the answer for a process. (The amplitude is the sum of all topologically distinct diagrams allowed at the chosen order. Several diagrams can contribute at the same order and interfere.)
+- Loop divergences show that the theory is broken and its predictions are meaningless. (In a renormalizable theory such as QED, renormalization absorbs the ultraviolet divergences into the measured values of mass and charge. Predictions for observables then come out finite.)
+
 ## Questions
 
 ```yaml

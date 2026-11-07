@@ -18,6 +18,14 @@ status: validated
 ## Core Idea
 Multiple interpretations agree on quantum predictions but differ philosophically: Copenhagen (wavefunction is knowledge, collapse is real), Many-Worlds (all outcomes occur in different branches), Bohmian mechanics (particles guided by pilot wave), Objective Collapse (collapse is physical). None is empirically proven; all remain viable.
 
+## How It's Best Learned
+List the bare formalism as three parts: unitary evolution, the Born rule, and the collapse postulate. For each interpretation, mark which parts it keeps, which it drops, and what it adds, such as particle positions or a collapse term. Then run one entangled spin pair through each view and note where it places the nonlocality and when a definite outcome appears.
+
+## Common Misconceptions
+- Bell's theorem proved that hidden variables are impossible. (It rules out local hidden variables. Bohmian mechanics is a nonlocal hidden-variable theory and is not excluded.)
+- In Many-Worlds the universe splits into separate copies at the instant of measurement. (No new universes are created. One universal wavefunction evolves smoothly, and its branches become effectively independent as decoherence proceeds.)
+- Physicists who hold different interpretations calculate different predictions for everyday experiments. (In ordinary practice they use the same formalism and the same Born rule. The disagreement is about what the formalism describes.)
+
 ## Questions
 
 ```yaml

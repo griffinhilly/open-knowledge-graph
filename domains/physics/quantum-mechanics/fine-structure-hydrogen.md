@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Fine structure arises from relativistic corrections and spin-orbit coupling. Total J⃗ = L⃗ + S⃗ becomes the good quantum number, splitting levels with same n, l but different j.
 
+## How It's Best Learned
+Work the n = 2 level by hand. List the eight states in the uncoupled basis (m_l, m_s), then regroup them into j = 3/2 and j = 1/2 multiplets. Use L⃗·S⃗ = ½(J² − L² − S²) to get the spin-orbit eigenvalue for each multiplet. Draw an energy-level diagram that shows the Bohr level, then the fine-structure levels, then the Lamb shift as a separate, smaller step.
+
+## Common Misconceptions
+- Fine structure gives each (n, l) pair its own energy, so 2S and 2P end up at different energies. (In hydrogen the combined correction depends on n and j only. 2S₁/₂ and 2P₁/₂ stay degenerate at this level, and the Lamb shift separates them.)
+- Spin-orbit coupling is the whole of fine structure. (The relativistic kinetic-energy correction is of the same order, and s states also get the Darwin term. Only the sum gives the n- and j-dependent result.)
+- m_l and m_s still label the energy eigenstates once spin-orbit coupling is included. (L⃗·S⃗ does not commute with L_z or S_z, so the eigenstates are labeled by l, j and m_j instead.)
+- The spin-orbit magnetic field comes from the electron moving around the proton in the lab frame. (The field arises in the electron's rest frame, where the proton appears to move. A naive rest-frame calculation gives twice the correct value; Thomas precession supplies the factor of ½.)
+
 ## Questions
 
 ```yaml

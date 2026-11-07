@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Ladder operators â = √(mω/2ℏ)(x̂ + ip̂/mω) and â† lower and raise the quantum state |n⟩ to |n-1⟩ and |n+1⟩ respectively. The Hamiltonian becomes H = ℏω(â†â + 1/2), and the number operator n̂ = â†â has eigenvalues n. This algebraic approach provides an elegant alternative to solving differential equations.
 
+## How It's Best Learned
+Derive [â, â†] = 1 from [x̂, p̂] = iℏ by hand, then expand â†â and compare it with H to see where the ½ comes from. Next, use the commutator to compute â†â† and ââ† acting on |0⟩ and |1⟩. Finally, write â|0⟩ = 0 as a first-order differential equation in x and solve it. The Gaussian ground state comes out directly.
+
+## Common Misconceptions
+- â† simply turns |n⟩ into |n+1⟩. (It also brings a factor: â†|n⟩ = √(n+1)|n+1⟩ and â|n⟩ = √n|n−1⟩. Dropping the factors gives wrong matrix elements and wrong normalization.)
+- â|0⟩ = 0 means the lowering operator returns the ground state. (The 0 on the right is the zero vector, which is no state at all. The ground state |0⟩ is a normalized ket.)
+- â and â† are observables, like x̂ and p̂. (Neither is Hermitian, since each is the adjoint of the other. Their eigenvalues need not be real, and their products and combinations give the observables.)
+- The order of â and â† does not matter. (ââ† = â†â + 1. Swapping the order changes the energy by ℏω.)
+
 ## Questions
 
 ```yaml

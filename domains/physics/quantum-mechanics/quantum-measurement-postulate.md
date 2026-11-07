@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Measurement of an observable forces the quantum state to collapse into an eigenstate of the measurement operator, with outcome equal to the corresponding eigenvalue. The probability of measuring eigenvalue λₙ equals |⟨φₙ|ψ⟩|², where |φₙ⟩ is the corresponding eigenstate. After measurement, the system remains in the collapsed state until further interaction.
 
+## How It's Best Learned
+Run a three-step sequence on a spin-½ state with the matrices in hand. Measure S_z, then S_x, then S_z again, writing the state and the outcome probabilities after each step. The final S_z result is random again, even though the first one was definite. Then repeat with a second S_z measurement in place of S_x and compare the two runs.
+
+## Common Misconceptions
+- Once A has been measured, any later measurement of A gives the same value, whatever happens in between. (A measurement of an observable that does not commute with A puts the system in a superposition of A-eigenstates again. A later measurement of A can then give a different value.)
+- When an eigenvalue is degenerate, the state collapses onto one particular eigenvector. (The state is projected onto the whole eigenspace for that eigenvalue. The probability is the sum of |⟨φ|ψ⟩|² over an orthonormal basis of that eigenspace.)
+- The phases of the coefficients cₙ change the probabilities of measuring A. (Those probabilities depend only on |cₙ|². The relative phases do change the probabilities for other observables that do not commute with A.)
+
 ## Questions
 
 ```yaml

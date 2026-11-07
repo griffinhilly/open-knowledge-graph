@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Orbital angular momentum L⃗ = r⃗ × p⃗ is quantized with [L̂_i, L̂_j] = iℏ ε_{ijk} L̂_k. Only one component and magnitude are simultaneously measurable with eigenvalues ℏm_l and ℏ²l(l+1).
 
+## How It's Best Learned
+Write L̂_z = −iℏ ∂/∂φ and apply it to e^{imφ} to get the eigenvalue and the single-valuedness condition in one step. Then derive [L̂_x, L̂_y] = iℏL̂_z from the position-space forms of the operators. For l = 1, draw the cone of length ℏ√2 around the z-axis at each of m = −1, 0 and +1, and compare each height with the length.
+
+## Common Misconceptions
+- The z-axis is physically special for angular momentum. (Any axis can play that role. The z-axis is a labeling convention, and the physics picks an axis only when something such as an applied field sets one.)
+- The magnitude of L⃗ is lℏ. (The eigenvalue of L̂² is ℏ²l(l+1), so the magnitude is ℏ√(l(l+1)), which is larger than the largest L_z.)
+- Orbital l can be a half-integer, as spin can. (The commutation relations alone allow half-integers. Single-valued wavefunctions in space rule them out, so orbital l is a whole number.)
+- In an L_z eigenstate the angular momentum vector really sweeps around the cone. (In an eigenstate of L̂² and L̂_z, ⟨L_x⟩ = ⟨L_y⟩ = 0, and if the state is also an energy eigenstate nothing about it changes in time. The cone pictures the spread in L_x and L_y, not a motion.)
+
 ## Questions
 
 ```yaml

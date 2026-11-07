@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 The Coulomb potential V(r) = −e²/4πε₀r yields exact solutions via separation of variables: angular parts are spherical harmonics; radial equations give R_{nl}(r) depending on n (principal) and l (orbital).
 
+## How It's Best Learned
+Do the radial problem in three steps. First substitute u(r) = rR(r) to get a one-dimensional equation with the centrifugal term l(l+1)ħ²/2mr². Next, find how u behaves near r = 0 and as r → ∞ and factor those limits out. Finally, show that the remaining power series must stop after a finite number of terms, and read the energy formula off the stopping condition.
+
+## Common Misconceptions
+- The factorization ψ = R(r)Y_l^m works because the potential is Coulomb. (Any central potential V(r) separates this way. What is special to 1/r is that the energy ends up depending on n alone.)
+- The radial equation is the same for every l, so R depends only on n. (The centrifugal term l(l+1)ħ²/2mr² enters the radial equation. That is why the radial functions are labeled R_{nl}.)
+- |R(r)|² is the probability of finding the electron at distance r. (The probability of finding it in a thin shell is r²|R(r)|² dr. The r² factor counts the shell's volume.)
+- Every state has some radial nodes. (R_{nl} has n − l − 1 radial nodes, so states with l = n − 1, such as 1s, 2p and 3d, have none.)
+
 ## Questions
 
 ```yaml

@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Energy depends only on principal quantum number: E_n = −13.6 eV / n². Each level has degeneracy (2n)² from varying l and m_l. This formula predicts spectral lines.
 
+## How It's Best Learned
+Put the hydrogen levels and the one-dimensional oscillator levels side by side on the same kind of energy axis. The oscillator rungs are evenly spaced, while the hydrogen rungs crowd together below E = 0. Then compute a few level gaps and ionization energies from E_n = −13.6 eV / n² by hand, for example the energy needed to ionize an atom that starts in n = 2.
+
+## Common Misconceptions
+- Hydrogen levels are evenly spaced, like the oscillator's. (The gap between neighboring levels shrinks as n grows. The levels pile up just below E = 0.)
+- Ionizing hydrogen takes 13.6 eV no matter which level the electron is in. (13.6 eV is the cost from n = 1. From level n the cost is 13.6 eV / n², so from n = 2 it is 3.4 eV.)
+- No states exist above E = 0. (Above zero the electron is unbound. Those states form a continuum, so any positive energy is allowed.)
+- The formula −13.6 eV / n² works for any atom. (It applies to hydrogen. A one-electron ion with nuclear charge Z has levels Z² times deeper, and atoms with several electrons need a different treatment.)
+
 ## Questions
 
 ```yaml

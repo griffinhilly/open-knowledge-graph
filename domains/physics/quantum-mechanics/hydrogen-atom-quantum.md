@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 The hydrogen atom with Coulomb potential V(r) = -ke²/r is solved in spherical coordinates. Energy levels depend only on principal quantum number n: En = -13.6 eV / n². Wavefunctions ψ_{nlm}(r,θ,φ) are products of radial functions R_{nl}(r) and spherical harmonics Y_l^m(θ,φ). This exactly solvable system marks the triumph of quantum mechanics over classical theory.
 
+## How It's Best Learned
+Follow the separation of variables once in full: write Ĥ in spherical coordinates, replace the angular part with L²/2mr², and reduce the problem to a one-dimensional radial equation with an effective potential. Sketch that effective potential for l = 0, 1 and 2. Then plot r²|R_{nl}|² for the n = 1, 2 and 3 states, count the radial nodes, and check each count against n − l − 1.
+
+## Common Misconceptions
+- The ground state electron has angular momentum ħ, as in the Bohr model. (The quantum ground state has l = 0, so its orbital angular momentum is zero.)
+- The electron is most likely found at the nucleus because |ψ₁₀₀|² is largest at r = 0. (|ψ|² is a density per unit volume. The radial probability r²|R|² counts the volume of each shell, and it peaks at a₀.)
+- The p orbitals with lobes along x, y and z are the m = −1, 0, +1 eigenstates. (Only p_z matches m = 0. The p_x and p_y orbitals are real combinations of the m = +1 and m = −1 states, which are complex.)
+- Each energy level holds exactly n² states, spin included. (The count n² comes from l and m alone. Electron spin doubles it to 2n².)
+
 ## Questions
 
 ```yaml

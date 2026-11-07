@@ -19,6 +19,15 @@ status: validated
 ## Core Idea
 Eigenstates |n⟩ with energies E_n = (n + ½)ℏω form an orthonormal basis. The spectrum is equally spaced—unique to quadratic potentials.
 
+## How It's Best Learned
+Generate |1⟩, |2⟩ and |3⟩ by applying â† to |0⟩, then write out their position-space wavefunctions. Plot each one inside the parabola V(x), drawn at its own energy, and mark the classical turning points. Then plot |ψ₁₀(x)|² next to the classical probability density for the same energy. The two shapes nearly match, apart from the quantum wiggles.
+
+## Common Misconceptions
+- Cooling an oscillator far enough removes the zero-point energy. (½ℏω is the energy of the lowest state. No state lies below it, so cooling can only bring the system down to |0⟩.)
+- An energy eigenstate |n⟩ describes the particle swinging back and forth. (Each |n⟩ is a stationary state, so its probability density does not change in time. A superposition of different n, such as a coherent state, is needed for an oscillating expectation value of x.)
+- The particle stays between the classical turning points. (The wavefunction extends past the turning points into the classically forbidden region, where it decays but stays nonzero.)
+- In every state the particle is most likely found near x = 0. (That holds for |0⟩. For large n the probability density peaks near the turning points, as the classical density does.)
+
 ## Questions
 
 ```yaml

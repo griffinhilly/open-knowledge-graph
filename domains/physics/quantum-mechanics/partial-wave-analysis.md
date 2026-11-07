@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Scattering amplitude expands in angular momentum: f(θ) = Σ_l (2l+1) f_l P_l(cos θ) / 2ik. Low energies dominated by s-wave (l=0). Phase shift δ_l encodes each partial wave's phase change.
 
+## How It's Best Learned
+Do the hard-sphere problem of radius R from start to finish. Match the outside radial solution to zero at r = R to get tan δ_l, then take kR ≪ 1 to find δ₀ ≈ −kR and σ ≈ 4πR². Next, repeat for an attractive square well and plot δ₀ against k. Watching δ₀ change as the well deepens toward a bound state shows how the scattering length behaves near a resonance.
+
+## Common Misconceptions
+- At low energy a hard sphere scatters with its geometric cross section πR². (The s-wave result is σ = 4πR², four times the geometric area. The wave nature of the particle matters when kR ≪ 1.)
+- The scattering length is the size of the target. (For a hard sphere a = R, but for a well near a bound state a can be much larger than R or negative.)
+- A larger phase shift always means more scattering. (Each partial wave scatters in proportion to sin²δ_l. A shift of π gives no scattering in that channel.)
+- A positive phase shift means a repulsive potential. (For a weak potential the sign is the reverse. Attraction pulls the wave in and gives positive δ_l, while repulsion gives negative δ_l.)
+
 ## Questions
 
 ```yaml

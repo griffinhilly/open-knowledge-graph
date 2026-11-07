@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Quantum operators are linear transformations acting on state vectors in Hilbert space. Common operators include position x̂, momentum p̂ = -iℏ(d/dx), and angular momentum L̂. Operators encode dynamical information: applying an operator to a state yields another state, or an eigenstate yields the eigenvalue representing an observable quantity.
 
+## How It's Best Learned
+Apply x̂, p̂ and p̂² to three test functions by hand: a plane wave e^{ikx}, a Gaussian, and x e^{−x²}. Note which results are a number times the original function and which are new functions. Then compute (x̂p̂ − p̂x̂)f(x) for an arbitrary f and see the iℏ appear. Finally, write spin operators such as S_z and S_x as 2×2 matrices to connect operators to linear algebra. (x̂ and p̂ themselves have no finite matrix form, because the trace of x̂p̂ − p̂x̂ would be zero, not iℏ times the dimension.)
+
+## Common Misconceptions
+- Every operator in quantum mechanics represents something you can measure. (Many operators are not observables. The time-evolution operator, translation operators and the ladder operators â and â† are not Hermitian.)
+- x̂p̂ and p̂x̂ are the same operator. (They differ by iℏ: x̂p̂ − p̂x̂ = iℏ. The order of operators matters.)
+- p̂²ψ means squaring the function p̂ψ. (p̂² means applying p̂ twice, so p̂²ψ = −ℏ² d²ψ/dx².)
+- x̂ always acts by multiplying by x. (That is its form in the position representation. In the momentum representation x̂ acts as iℏ d/dp.)
+
 ## Questions
 
 ```yaml

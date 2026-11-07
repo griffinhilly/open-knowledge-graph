@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 The measurement problem is the tension between unitary evolution and probabilistic collapse. If apparatus and system are both quantum, the combined state remains pure and superposed. Why do we observe definite outcomes? Various interpretations (Copenhagen, Many-Worlds, Bohmian, Objective Collapse) offer different resolutions.
 
+## How It's Best Learned
+Take the pure state α|reads-0⟩|0⟩ + β|reads-1⟩|1⟩ and write its density matrix. Then add one environment qubit that copies the pointer reading, and trace it out. The reduced density matrix loses its off-diagonal terms, but the full three-part state is still pure. Comparing the two matrices shows what decoherence explains and what it leaves open.
+
+## Common Misconceptions
+- Once the reduced density matrix is diagonal, the system is really in one definite state that we just don't know. (A diagonal reduced matrix obtained by tracing out the environment is an improper mixture. The global state is still a pure superposition, so the ignorance reading does not follow.)
+- The apparatus is classical, so it settles the outcome and no problem arises. (The apparatus is made of atoms and obeys the same equations. Calling it classical draws a boundary by hand without saying where it lies.)
+- The Born rule follows from unitary evolution of system and apparatus. (In the standard formulation the Born rule is a separate postulate. Unitary evolution alone yields the entangled superposition, not probabilities for single outcomes.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ The measurement problem is the tension between unitary evolution and probabilist
 - question: "State the measurement problem precisely and explain why decoherence only partially addresses it."
   type: short-answer
   answer: "The measurement problem is the tension between two features of quantum mechanics: (1) the Schrödinger equation governs the evolution of all quantum systems, including measuring apparatuses, and it evolves states unitarily — never producing a definite outcome from a superposition; (2) measurements always yield single, definite outcomes with probabilities given by the Born rule. If the apparatus is itself a quantum system, the Schrödinger equation predicts that after a measurement the system+apparatus enters a superposition of all possible outcomes, not a single definite one. The gap between this mathematical prediction (persistent superposition) and experimental observation (definite outcomes) is the measurement problem. Decoherence addresses it partially by showing that environmental entanglement makes the interference terms between branches negligibly small — in practice, you cannot detect the superposition. But the superposition still exists in principle. Decoherence explains why we don't see cats that are both dead and alive; it does not explain why any one outcome occurs rather than all of them. The four interpretations (Copenhagen, Many-Worlds, Bohmian, GRW) each offer a different answer to this remaining question, and since they are empirically equivalent, the problem remains genuinely unresolved."
+  explanation: "A full answer separates two questions. Decoherence answers the first, why interference between branches cannot be observed, because the off-diagonal terms of the reduced density matrix become negligible. It leaves the second open. The total state of system, apparatus and environment still evolves unitarily and still contains every outcome, so something more is needed to explain why one outcome is seen, with Born-rule probabilities. That remaining question is the one the interpretations answer in different ways."
 ```
 
 ## Explainer
