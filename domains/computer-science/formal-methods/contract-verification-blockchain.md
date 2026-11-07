@@ -28,6 +28,15 @@ status: validated
 
 Smart contracts (self-executing code on blockchains like Ethereum) manage billions of dollars in cryptocurrency and other assets. A single bug — an arithmetic error, reentrancy vulnerability, or logic flaw — can result in permanent loss of funds. **Contract verification** applies formal methods to guarantee smart contracts are correct. Verification approaches include: **static analysis** (pattern matching and abstract interpretation to find common vulnerabilities like reentrancy), **runtime verification** (monitoring contracts during execution), **symbolic execution** (generating concrete exploits), and **deductive verification** (proving contracts satisfy formal specifications using theorem provers or SMT solvers). The unique challenge is blockchain semantics: global state shared across contracts, external calls that may invoke arbitrary code, and economic incentives for exploitation. Formal verification of contracts provides high confidence in correctness, and several projects (Certora, Formal Verification, Runtime Verification) now offer industrial contract verification services.
 
+## How It's Best Learned
+Begin with the vulnerable `withdraw` function from the DAO example. Trace by hand how an attacker's fallback function reenters it, then move the balance update before the external call and trace again. Next, state the token invariant "sum of balances equals total supply" and check that each of transfer, mint and burn preserves it. Slither can then flag the reentrancy pattern, and a prover such as the Certora Prover can check the invariant.
+
+## Common Misconceptions
+- A formally verified contract cannot be exploited. (The proof covers only the stated specification. Missing properties, wrong specifications and economic attacks such as front-running lie outside it.)
+- Reentrancy only happens when an attacker calls the same function again. (An external call can reenter through a different function that reads the same not-yet-updated state.)
+- Verifying the Solidity source settles what the deployed code does. (The compiler sits between source and bytecode, which is why some tools verify the compiled bytecode directly.)
+- A reentrancy lock replaces careful ordering of state updates. (A lock blocks reentry into guarded functions, but unguarded functions and other contracts can still observe inconsistent state during the external call.)
+
 ## Questions
 
 ```yaml

@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 BDD-based verification uses Binary Decision Diagrams — compact canonical representations of Boolean functions — to perform symbolic model checking. Instead of enumerating individual states, the model checker represents entire sets of states as BDDs and computes transitions, reachability, and fixed points using BDD operations. This enables verification of systems with billions of reachable states, far beyond what explicit-state enumeration can handle. BDD-based symbolic model checking, pioneered by McMillan, Burch, and Clarke in the early 1990s, was the breakthrough that made model checking practical for hardware verification.
 
+## How It's Best Learned
+Build the BDD for a four-variable function such as (x1 AND y1) OR (x2 AND y2) by hand from its decision tree. Merge identical subgraphs and drop redundant tests until it is reduced. Then rebuild it under a separated ordering and compare node counts. After that, trace one image computation on a two-bit counter to see a whole state set move in one step.
+
+## Common Misconceptions
+- A BDD stores the list of states, only in compressed form. (A BDD represents the characteristic function of a set. Operations act on the graph, and individual states are not enumerated.)
+- BDDs are small for every Boolean function. (Some functions, such as the middle bits of integer multiplication, have exponential-size BDDs under every variable ordering.)
+- Variable ordering is a minor tuning detail. (The same function can need linear or exponential size depending on the ordering, so ordering can decide whether a check finishes at all.)
+- Canonicity means a function has one BDD whatever the variable ordering. (Canonicity holds only for a fixed ordering. Under that ordering, equivalent functions get identical BDDs, so in a package that shares nodes, equality checking is a pointer comparison.)
+
 ## Questions
 
 ```yaml

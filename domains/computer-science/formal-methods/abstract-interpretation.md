@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Abstract interpretation, developed by Patrick and Radhia Cousot in 1977, is a mathematical framework for sound static analysis of programs. It replaces the concrete (exact) semantics of a program with an abstract semantics that computes over simplified abstract values — such as replacing integers with their signs (+, -, 0) or with numeric intervals [lo, hi]. The abstraction is connected to the concrete semantics by a Galois connection ensuring soundness: every property proved in the abstract domain genuinely holds in the concrete program. The tradeoff is precision — the analysis may report false alarms (properties it cannot confirm) but never misses real violations.
 
+## How It's Best Learned
+Run the sign domain and then the interval domain by hand on a short loop such as `x = 0; while (x < 10) x = x + 1`. Write the abstract state at each program point after every iteration, watch the intervals grow, and then apply widening to see the jump to [0, +infinity]. Finally, check each abstract result against the values x actually takes in the program's one concrete run to see soundness in action.
+
+## Common Misconceptions
+- A warning from a sound analyzer means the program has a bug. (A warning means the analysis could not prove the property. It may be a false alarm caused by lost precision.)
+- Abstract interpretation runs the program on sample inputs. (It computes over abstract values that each stand for many concrete values, so one analysis covers every possible execution.)
+- Widening makes the analysis unsound. (Widening only enlarges abstract values, so the result still contains every concrete possibility. It costs precision, not soundness.)
+- A more precise abstract domain is better in every case. (Richer domains such as polyhedra cost much more to compute, and a simpler domain may be enough to prove the target property.)
+
 ## Questions
 
 ```yaml

@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 A Kripke structure is the standard semantic model for temporal and modal logics, providing the mathematical framework that model checkers operate over. It consists of a set of states S, a transition relation R (which states can follow which), an initial state set I, and a labeling function L that assigns to each state the set of atomic propositions true there. Temporal logic formulas are evaluated against Kripke structures: the structure defines all possible behaviors of the system, and the model checker determines whether every behavior (or some behavior) satisfies the specification.
 
+## How It's Best Learned
+Draw the Kripke structure for a traffic light with three states, labeled red, green and yellow, as circles and arrows. Then draw a naive two-process mutual exclusion protocol and label each state with cs1 and cs2. Find by eye a path that reaches a state labeled with both, and then label states bottom-up for EF (cs1 and cs2) to see the model checking algorithm do the same thing.
+
+## Common Misconceptions
+- A state in a Kripke structure is a single line of code. (A state is a full system configuration, such as every variable's value and each process's location.)
+- The labeling function tells you which transitions are allowed. (Transitions come from the relation R. The labeling only says which atomic propositions are true in each state.)
+- A system that can halt cannot be modeled as a Kripke structure. (A halting state is given a self-loop, so every path stays infinite and the transition relation stays total.)
+- Two processes with n states each give a composite of 2n states. (Interleaving composition takes the product of the state sets, so the composite can have up to n squared states.)
+
 ## Questions
 
 ```yaml

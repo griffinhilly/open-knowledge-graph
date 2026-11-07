@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Refinement types augment base types with logical predicates that constrain the set of values. Instead of just Int, you write {v : Int | v > 0} — the type of positive integers. A function div : Int -> {v : Int | v != 0} -> Int statically guarantees the divisor is nonzero. Unlike full dependent types, refinement predicates are restricted to decidable logics (typically quantifier-free theories handled by SMT solvers), enabling fully automatic type checking without manual proofs. Liquid types, the most successful refinement type system, infer refinement predicates automatically using abstract interpretation over types, combining the expressiveness of dependent-types-lite with the automation of type inference.
 
+## How It's Best Learned
+Take one subtyping check, such as passing {v : Int | v > 5} where {v : Int | v > 0} is expected, and write out the implication the SMT solver must prove. Then reverse the direction and find the counterexample. Next, type-check an array access inside `if 0 <= i && i < len(a)` and list the facts the branch adds to the context. Repeating this with a few small functions shows how every check becomes one implication.
+
+## Common Misconceptions
+- {v : Int | v > 0} is a new type unrelated to Int. (It is a subtype of Int, so a positive integer can be used anywhere an Int is expected without conversion.)
+- Subtyping between refinements runs in the opposite direction, so a weaker predicate is the subtype. (The stronger predicate is the subtype. {v | v > 5} is a subtype of {v | v > 0} because v > 5 implies v > 0.)
+- Refinement types check their predicates at run time. (The checks are discharged at compile time by the SMT solver, so they add no run-time cost.)
+- A refinement type error always means the program can fail. (The solver may lack facts it needs, such as a refinement on a helper function, so the error can come from a missing annotation.)
+
 ## Questions
 
 ```yaml

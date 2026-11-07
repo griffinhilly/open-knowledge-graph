@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Modern SAT solvers determine whether a propositional formula in conjunctive normal form (CNF) has a satisfying assignment. The DPLL algorithm (Davis-Putnam-Logemann-Loveland) searches by choosing variable assignments, propagating forced implications (unit propagation), and backtracking on contradictions. Conflict-Driven Clause Learning (CDCL) dramatically improves on DPLL by analyzing each conflict to learn a new clause that prevents the same mistake, then backjumping non-chronologically past irrelevant decisions. With additional techniques like watched literals for efficient propagation, restart strategies, and variable-state-independent decaying sum (VSIDS) heuristics, CDCL solvers routinely handle industrial instances with millions of variables -- despite SAT being NP-complete.
 
+## How It's Best Learned
+Take a CNF formula of about six variables and eight clauses that forces a conflict after two decisions. Run CDCL on paper: record each decision and propagation with its decision level, draw the implication graph at the conflict, and derive the learned clause by resolution back to the first unique implication point. Then compute the backjump level and compare the remaining search with plain DPLL on the same formula.
+
+## Common Misconceptions
+- A learned clause adds a new constraint that changes which assignments satisfy the formula. (Each learned clause is implied by the original formula, so the set of satisfying assignments stays the same.)
+- Backjumping and backtracking are the same move. (Backtracking undoes only the latest decision. Backjumping can undo several levels at once, to the level the conflict analysis picks.)
+- Restarts throw away the work done so far. (Learned clauses, variable activity scores and saved phases persist across restarts, so the solver resumes with more information.)
+- Because SAT is NP-complete, large instances are always out of reach. (NP-completeness concerns the worst case. Industrial instances often have structure that CDCL exploits, so many with millions of variables are solved.)
+
 ## Questions
 
 ```yaml

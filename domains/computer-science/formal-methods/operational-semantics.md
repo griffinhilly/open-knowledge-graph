@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Operational semantics defines the meaning of programs by specifying how they execute, step by step. **Small-step** (structural) operational semantics defines a transition relation that reduces a program configuration by one computational step at a time, making evaluation order and intermediate states explicit. **Big-step** (natural) operational semantics defines a relation that maps a program directly to its final result, abstracting away intermediate steps. Both are formalized as inference rules that inductively define the evaluation relation. Operational semantics provides the rigorous mathematical foundation upon which Hoare logic, type soundness proofs, and abstract interpretation are built -- without a formal definition of what programs mean, reasoning about program correctness is informal at best.
 
+## How It's Best Learned
+Write both semantics for a tiny language of integers, addition and if-then-else. Evaluate `(1 + 2) + (if true then 3 else 4)` twice, once as a chain of small steps and once as a big-step derivation tree, and set the two side by side. Then add `while` and try to give a big-step derivation for `while true do skip`. Finding that none exists shows why small-step handles divergence more directly.
+
+## Common Misconceptions
+- Small-step and big-step semantics describe different languages. (For deterministic, terminating programs they give the same final results. They differ in what they make visible along the way.)
+- A program with no big-step derivation must have crashed. (No derivation can mean the program is stuck or that it runs forever. Big-step semantics alone does not tell these apart.)
+- The rules of an operational semantics are an interpreter's source code. (They are inference rules that define a mathematical relation. An interpreter can be built from them, but the rules themselves are the definition.)
+- Evaluation order is a detail that a small-step semantics does not have to state. (Its congruence rules state it explicitly. They can fix an order, such as stepping the left operand before the right, or allow either operand to step on purpose.)
+
 ## Questions
 
 ```yaml

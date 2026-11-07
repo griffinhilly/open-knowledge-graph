@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 CEGAR is a verification technique that iteratively builds just enough abstraction to prove a property or find a real bug. It starts with a coarse abstract model of the system, model-checks the property, and if a counterexample is found, checks whether it corresponds to a real execution in the concrete system. If it does, a real bug has been found. If the counterexample is spurious (an artifact of abstraction), the abstraction is refined to eliminate it, and the process repeats. CEGAR automates the construction of abstractions, solving the key problem of how abstract to make a model — let the counterexamples guide you.
 
+## How It's Best Learned
+Work one full CEGAR loop by hand on a small program such as `x = 0; y = 0; while (*) { x++; y++; } assert(x == y)`. Start with no predicates, find the abstract counterexample, and replay it on the concrete program to see where it fails. Then add the predicate x == y and abstract the loop body as one step: the abstract model now proves the assertion. If you abstract statement by statement instead, x == y is false between `x++` and `y++`, and refinement must also add a predicate such as x == y + 1.
+
+## Common Misconceptions
+- Any counterexample from the abstract model is a real bug. (The abstraction over-approximates, so a counterexample can be spurious. It must be checked against the concrete system first.)
+- Refinement makes the abstract model exact. (Refinement adds only the distinctions needed to rule out the spurious trace. The model stays coarse elsewhere.)
+- If the abstract model satisfies the property, the result might still be wrong for the concrete system. (For safety properties over a sound over-approximation, a proof on the abstract model carries over to the concrete system.)
+- CEGAR is guaranteed to finish for any program. (For infinite-state systems the loop may keep finding new spurious counterexamples and never converge.)
+
 ## Questions
 
 ```yaml

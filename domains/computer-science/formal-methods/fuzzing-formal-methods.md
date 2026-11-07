@@ -28,6 +28,15 @@ status: validated
 
 Fuzzing is automated software testing: generate vast numbers of inputs, feed them to the target program, and monitor for crashes or assertion violations. Modern fuzzing combines randomness with feedback: **coverage-guided fuzzing** tracks which code paths have been explored and generates new inputs to discover uncovered paths, systematically exploring the program's behavior space. **Grammar-based fuzzing** uses formal specifications of input syntax (context-free grammars, protocol specifications) to generate syntactically valid inputs. **Spec-based fuzzing** (metamorphic testing) generates inputs according to logical specifications and checks outputs against formal properties. **Hybrid fuzzing** combines fuzzing's practical effectiveness with formal methods' assurance: fuzzing rapidly explores the space and symbolic execution verifies promising paths. Fuzzing has found thousands of security vulnerabilities in real-world software, often surpassing manual testing and static analysis.
 
+## How It's Best Learned
+Write a small C function that crashes only when its input starts with the four bytes "FUZZ", checked one byte at a time. Fuzz it first with purely random inputs and then with AFL++ or libFuzzer, and compare how long each takes. Then replace the byte checks with one 32-bit comparison and run AFL++ without CmpLog or a dictionary. The fuzzer stalls, because coverage no longer rewards a partial match. Comparison feedback (CmpLog in AFL++, comparison tracing in libFuzzer) and hybrid fuzzing with symbolic execution are both built to solve that case.
+
+## Common Misconceptions
+- If a long fuzzing run finds no crashes, the program is correct. (Fuzzing samples inputs, so it can show bugs but cannot prove their absence. Bugs that do not crash also go unseen unless sanitizers or assertions catch them.)
+- Coverage-guided fuzzers generate each input from scratch at random. (They keep a corpus of inputs that reached new coverage and mutate those, so progress builds on earlier finds.)
+- Reaching every branch means every reachable bug was found. (Many bugs need specific values or a specific order of branches, so code can be covered and still hide bugs.)
+- Grammar-based fuzzing finds more bugs in every case. (Inputs that always parse may skip bugs in the parser's error handling, which malformed inputs exercise.)
+
 ## Questions
 
 ```yaml

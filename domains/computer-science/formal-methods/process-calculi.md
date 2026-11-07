@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Process calculi are algebraic frameworks for modeling and reasoning about concurrent and communicating systems. CCS (Calculus of Communicating Systems), created by Robin Milner, models processes that synchronize via named channels, with an algebraic syntax for parallel composition, choice, restriction, and recursion. The pi-calculus extends CCS with name passing — channels can transmit channel names, enabling dynamic reconfiguration of communication topology. Process equivalences, particularly bisimulation, provide rigorous criteria for when two processes exhibit the same observable behavior. Process calculi serve as the theoretical foundation for session types, concurrent programming models, and formal analysis of communication protocols.
 
+## How It's Best Learned
+Draw the labeled transition systems for a.b + a.c and a.(b + c) side by side. List their traces, then try to build a bisimulation between them and find the step where matching fails. Next, model a vending machine in CCS that takes a coin and offers tea or coffee, and compose it with a user process. Finish with one pi-calculus example in which a fresh channel is sent and then used.
+
+## Common Misconceptions
+- Two processes with the same traces are equivalent. (Trace equivalence ignores when choices are made. a.b + a.c and a.(b + c) share traces but are not bisimilar.)
+- In a.P | a-bar.Q, the two actions must synchronize with each other. (Without restriction on a, each side can also act alone with some outside partner. Restricting a forces the internal handshake.)
+- The choice operator P + Q runs both branches. (Choice picks one branch and discards the other. Parallel composition P | Q is the operator that runs both.)
+- The pure pi-calculus sends data values such as integers directly. (It sends only names. Data values and functions are encoded in terms of names and processes.)
+
 ## Questions
 
 ```yaml

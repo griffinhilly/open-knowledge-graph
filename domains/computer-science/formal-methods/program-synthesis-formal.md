@@ -28,6 +28,15 @@ status: validated
 
 Formal program synthesis uses logical specifications and automated reasoning to generate programs that provably satisfy those specifications. Unlike heuristic-based synthesis, formal synthesis couples logical specifications (expressed in first-order logic, temporal logic, or specialized languages) with solvers that search the program space. The dominant approach is **syntax-guided synthesis (SyGuS)**: the user provides a grammar constraining the program shape (e.g., "linear arithmetic expressions," "recursive functions with two cases"), and an automated synthesizer finds a program matching that grammar and satisfying the logical specification. **Counterexample-guided inductive synthesis (CEGIS)** iteratively refines candidate programs by checking them against test cases, discarding programs that fail, and using failed tests to guide the search. This approach has produced real implementations of algorithms, data structure manipulation, and network packet filters.
 
+## How It's Best Learned
+Run CEGIS by hand on a tiny SyGuS problem: find max(x, y) using the grammar E ::= x | y | ite(B, E, E), with B ::= E <= E. Start with one example, propose the smallest consistent candidate, and act as the verifier to find an input where it fails. Add that input and repeat until the candidate is correct. Then give the same problem to a SyGuS solver such as cvc5 and compare its answer with yours.
+
+## Common Misconceptions
+- CEGIS accepts a candidate once it passes the collected examples. (Examples only steer the search. The loop ends when the verifier checks the candidate against the full specification.)
+- Each counterexample rules out only the candidate that failed. (It rules out every program in the grammar that gives a wrong output on that input.)
+- The grammar only affects speed, not whether a solution exists. (If no program in the grammar meets the specification, the problem is unrealizable and the synthesizer cannot succeed.)
+- A synthesized program does what the user intended. (It satisfies the formal specification. An incomplete specification can yield a program that meets its letter but not its intent.)
+
 ## Questions
 
 ```yaml

@@ -1,0 +1,50 @@
+domains/earth-and-space-sciences/geochemistry/aqueous-geochemistry.md	how	4	1	fixed	"Repeat with seawater" read as a hand Debye-Hückel calculation, which fails at seawater ionic strength (~0.7); now says repeat the code run and notes simple D-H no longer holds
+domains/earth-and-space-sciences/geochemistry/aqueous-geochemistry.md	mis	8	0	ok
+domains/earth-and-space-sciences/geochemistry/ar-ar-dating.md	how	5	0	ok	worked: (500-300)/(95-90) = 40 C/Myr
+domains/earth-and-space-sciences/geochemistry/ar-ar-dating.md	mis	8	0	ok
+domains/earth-and-space-sciences/geochemistry/biogeochemistry.md	how	4	0	ok	worked: 32:1 vs 16:1 means P limits; redox ladder order correct
+domains/earth-and-space-sciences/geochemistry/biogeochemistry.md	mis	8	1	fixed	bullet 1 said microbes only speed up favorable reactions; photosynthetic CO2 fixation is unfavorable and driven by coupling to light; correction now limited to energy-yielding reactions and names coupling
+domains/earth-and-space-sciences/geochemistry/carbon-isotopes-geochemistry.md	how	4	0	ok	worked: -5 = -25f gives 0.2; -5 = 2 - 25f gives 0.28
+domains/earth-and-space-sciences/geochemistry/carbon-isotopes-geochemistry.md	mis	8	1	fixed	bullet 2 said respired production "does not shift DIC", which contradicts bullet 4 (surface DIC is shifted by photosynthesis); qualified to whole-ocean DIC
+domains/earth-and-space-sciences/geochemistry/cosmochemistry.md	how	5	0	ok
+domains/earth-and-space-sciences/geochemistry/cosmochemistry.md	mis	8	1	fixed	bullet 3 absolute: some Pb-Pb chondrule ages overlap CAIs; now "most dated chondrules"
+domains/earth-and-space-sciences/geochemistry/cosmogenic-nuclides.md	how	4	0	ok	worked: 72,000/4 = 18,000 yr
+domains/earth-and-space-sciences/geochemistry/cosmogenic-nuclides.md	mis	8	0	ok
+domains/earth-and-space-sciences/geochemistry/crustal-evolution-geochemistry.md	how	5	0	ok
+domains/earth-and-space-sciences/geochemistry/crustal-evolution-geochemistry.md	mis	8	1	fixed	bullet 3 absolute "mantle melting gives basalt"; hydrous mantle melting can give high-Mg andesite/boninite; now "mostly"
+domains/earth-and-space-sciences/geochemistry/environmental-geochemistry.md	how	4	0	ok
+domains/earth-and-space-sciences/geochemistry/environmental-geochemistry.md	mis	8	1	fixed	bullet 3 absolute "sorption is reversible"; sorption can be partly irreversible (aging, incorporation); now "often"
+domains/earth-and-space-sciences/geochemistry/geochemical-thermodynamics.md	how	4	0	ok	worked: 48/5.708 = 8.41, log K -8.4 vs calcite -8.48
+domains/earth-and-space-sciences/geochemistry/geochemical-thermodynamics.md	mis	8	0	ok
+domains/earth-and-space-sciences/geochemistry/hydrogen-nitrogen-isotopes.md	how	4	1	fixed	value pairs "-10 and -70" given without labels right after a formula listing delta-D first; read in that order d = 550, not 10; labeled delta-18O and delta-D explicitly (numbers check: -70+80 = 10, -30+16 = -14)
+domains/earth-and-space-sciences/geochemistry/hydrogen-nitrogen-isotopes.md	mis	8	0	ok
+domains/earth-and-space-sciences/geochemistry/isotope-hydrology.md	how	3	0	ok	worked: (-1)/(-4) = 0.25; check 0.25(-12)+0.75(-8) = -9
+domains/earth-and-space-sciences/geochemistry/isotope-hydrology.md	mis	8	1	fixed	bullet 3 dated the cutoff as "before the 1950s bomb peak"; the bomb peak was 1963, the cutoff is the start of testing (~1953, matching the file's Q2); reworded
+domains/earth-and-space-sciences/geochemistry/mantle-geochemistry.md	how	4	0	ok
+domains/earth-and-space-sciences/geochemistry/mantle-geochemistry.md	mis	8	0	ok	older text: Q2 true-false "depleted mantle and crust are mirror images" marked true is overstated (complementary, not mirror images); not edited
+domains/earth-and-space-sciences/geochemistry/mineral-stability-phase-diagrams.md	how	4	0	ok	worked: F = 1-3+2 = 0; lever 40/60 = 2/3 liquid
+domains/earth-and-space-sciences/geochemistry/mineral-stability-phase-diagrams.md	mis	8	0	ok
+domains/earth-and-space-sciences/geochemistry/organic-geochemistry.md	how	4	0	ok	worked: (60-10)/30 = 1.67 km; (160-10)/30 = 5 km
+domains/earth-and-space-sciences/geochemistry/organic-geochemistry.md	mis	8	0	ok
+domains/earth-and-space-sciences/geochemistry/oxygen-isotopes-geochemistry.md	how	4	0	ok	worked: 0.8/0.25 = 3.2 C
+domains/earth-and-space-sciences/geochemistry/oxygen-isotopes-geochemistry.md	mis	8	0	ok
+domains/earth-and-space-sciences/geochemistry/partition-coefficients.md	how	4	0	ok	worked: D = 0.028; 1/(0.028+0.0972) = 7.99; 1/(5-0.4) = 0.217
+domains/earth-and-space-sciences/geochemistry/partition-coefficients.md	mis	8	0	ok
+domains/earth-and-space-sciences/geochemistry/rb-sr-system.md	how	4	0	ok	worked: 0.712/0.7618/1.210; ln(1.00498)/1.42e-11 = 350 Ma
+domains/earth-and-space-sciences/geochemistry/rb-sr-system.md	mis	8	0	ok	older text: Q2 explanation says unhomogenized mixed magmas "will scatter rather than define a line", which conflicts with new bullet 2 (binary mixing gives a straight line); old text not edited
+domains/earth-and-space-sciences/geochemistry/redox-geochemistry.md	how	5	0	ok	worked: 0.59/0.0592 = 9.97
+domains/earth-and-space-sciences/geochemistry/redox-geochemistry.md	mis	8	0	ok
+domains/earth-and-space-sciences/geochemistry/ree-patterns-geochemistry.md	how	3	0	ok	worked: 9.5/sqrt(1000) = 0.300
+domains/earth-and-space-sciences/geochemistry/ree-patterns-geochemistry.md	mis	6	0	ok
+domains/earth-and-space-sciences/geochemistry/sedimentary-geochemistry.md	how	4	0	ok	worked: 0.15/0.30 = 50; 0.15/0.20 = 75
+domains/earth-and-space-sciences/geochemistry/sedimentary-geochemistry.md	mis	8	0	ok
+domains/earth-and-space-sciences/geochemistry/sm-nd-system.md	how	3	0	ok	worked: (0.512126/0.512638 - 1) x 10^4 = -9.99
+domains/earth-and-space-sciences/geochemistry/sm-nd-system.md	mis	6	0	ok
+domains/earth-and-space-sciences/geochemistry/stable-isotope-fractionation.md	how	4	0	ok	worked: 1000 ln 1.03 = 29.56
+domains/earth-and-space-sciences/geochemistry/stable-isotope-fractionation.md	mis	8	1	fixed	bullet 4 absolute: retrograde exchange usually but not always gives too-low temperatures; now "often"
+domains/earth-and-space-sciences/geochemistry/trace-element-geochemistry.md	how	4	0	ok	worked: 0.8^9 = 0.134; 0.8^-1 = 1.25
+domains/earth-and-space-sciences/geochemistry/trace-element-geochemistry.md	mis	6	0	ok	older text: Q2 true-false (D 0.01, F 0.01, 100x enrichment) is marked true but its own explanation computes ~50x; answer should be false; not edited
+domains/earth-and-space-sciences/geochemistry/u-pb-geochronology.md	how	4	0	ok	worked: e^0.15513-1 = 0.168; e^0.98485-1 = 1.677
+domains/earth-and-space-sciences/geochemistry/u-pb-geochronology.md	mis	8	0	ok
+domains/earth-and-space-sciences/geochemistry/weathering-soil-chemistry.md	how	5	0	ok	worked: all three equations balance; net CO2 removed 1 vs 0
+domains/earth-and-space-sciences/geochemistry/weathering-soil-chemistry.md	mis	8	0	ok

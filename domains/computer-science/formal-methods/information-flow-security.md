@@ -28,6 +28,15 @@ status: validated
 
 Information flow security analyzes how data flows through a program to prevent unauthorized information leakage. The central property is **noninterference**: if two executions differ only in a secret input, their observable outputs should be identical (secrets don't interfere with public behavior). Approaches include: **static analysis** (tracking data dependencies to detect where secrets flow), **type-based enforcement** (assigning security labels to data, with type rules preventing secret data from leaking to public channels), and **dynamic monitoring** (tainting data as it flows and preventing tainted data from reaching public outputs). Information flow analysis detects subtle security vulnerabilities like timing attacks (program execution time depends on secrets) and side-channel attacks (memory access patterns leak information). The framework is foundational to computer security, applying to both software security (protecting passwords, encryption keys) and privacy (preventing unauthorized access to personal data).
 
+## How It's Best Learned
+Label each variable in a ten-line program as High (secret) or Low (public) and check every assignment by hand against the rule that no High value may flow into a Low variable. Include the line `if (h) l = 1; else l = 0;` and see that it leaks h with no direct assignment from h. Then state noninterference as a two-run experiment: run the program twice with different secrets and compare the Low outputs.
+
+## Common Misconceptions
+- A program that never assigns a secret to a public variable cannot leak it. (A branch on a secret can set a public variable differently in each branch. This implicit flow leaks the secret with no direct assignment.)
+- Noninterference forbids a program from using secrets at all. (Secrets may affect secret outputs freely. Only what a public observer can see must not depend on them.)
+- Hashing or encrypting a secret makes the result safe to publish under noninterference. (The result still depends on the secret, so strict noninterference rejects it. Releasing it needs an explicit declassification policy.)
+- Proving noninterference covers timing leaks automatically. (The guarantee covers only what the model counts as observable. If running time is not modeled, a timing channel can remain.)
+
 ## Questions
 
 ```yaml

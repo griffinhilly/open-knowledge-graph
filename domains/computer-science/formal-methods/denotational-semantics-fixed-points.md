@@ -31,6 +31,15 @@ status: validated
 ## Core Idea
 Denotational semantics assigns mathematical objects (denotations) to programs: a program denotes a function from inputs to outputs, and this function IS the program's meaning, independent of how it executes. The central challenge is giving meaning to recursion and loops, which are self-referential. Dana Scott's framework resolves this using **complete partial orders** (CPOs), **continuous functions**, and **least fixed points**. A recursive definition `f = F(f)` denotes the least fixed point of the functional F, computed as the limit of the ascending chain bottom, F(bottom), F(F(bottom)), ... (Kleene's fixed-point theorem). This mathematical framework provides the theoretical foundation for abstract interpretation -- Galois connections relate concrete denotational semantics to abstract domains -- and explains why widening is needed when abstract domains lack finite ascending chains.
 
+## How It's Best Learned
+Compute the Kleene chain for factorial by hand. Write F^0(bottom), F^1(bottom), F^2(bottom) and F^3(bottom) as finite tables of input-output pairs, and check that each extends the one before. Then do the same for `while x > 0 do x := x - 1` on small integer states. Last, compare the result with the operational semantics of the same loop to see both descriptions agree.
+
+## Common Misconceptions
+- Bottom is a value such as 0 or null. (Bottom stands for "no information", such as a computation that does not terminate. It is the least element of the definedness ordering.)
+- Any fixed point of the functional is the meaning of the recursive definition. (A functional can have many fixed points. The least one is chosen because it is defined exactly where the computation terminates.)
+- The ordering on functions compares output sizes. (It compares definedness: f is below g when g is defined wherever f is and agrees with f there.)
+- Denotational semantics says how a program runs step by step. (It assigns each program a mathematical meaning, such as a function on states, and leaves execution steps to operational semantics.)
+
 ## Questions
 
 ```yaml

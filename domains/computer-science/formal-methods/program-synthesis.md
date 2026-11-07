@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Program synthesis automatically generates a program that meets a given specification. The specification can take many forms: logical formulas, input-output examples, natural language, or a reference implementation. The synthesis engine searches the space of possible programs for one that satisfies all constraints. Key approaches include enumerative search (try programs in order of size), constraint-based synthesis (encode the problem as a SAT/SMT query), and counterexample-guided inductive synthesis (CEGIS), which iterates between proposing candidate programs and checking them against the specification. Program synthesis inverts the verification problem: instead of checking whether a given program meets a spec, it finds a program that does.
 
+## How It's Best Learned
+Write a small enumerative synthesizer for arithmetic expressions over x with the operators + and *, and give it the examples (1, 1), (2, 4) and (3, 9). List candidates in order of size and stop at the first one consistent with all examples. Then keep only the example (1, 1) and see that the smaller program x now wins, though it is wrong. That shows overfitting and why CEGIS adds a verifier.
+
+## Common Misconceptions
+- A program that matches all the given examples is the program the user wanted. (Finitely many examples fit infinitely many programs, so a synthesizer can return one that fails on new inputs.)
+- Synthesis searches over every possible program. (Practical tools restrict the space with a grammar, types or templates, and order the search, often by program size.)
+- Synthesis and verification are unrelated problems. (Synthesis treats the program as the unknown, and many synthesizers call a verifier inside their search loop.)
+- If the synthesizer returns no program, no program meets the specification. (A search bounded by size or time can stop before it reaches a solution that lies beyond the bound.)
+
 ## Questions
 
 ```yaml

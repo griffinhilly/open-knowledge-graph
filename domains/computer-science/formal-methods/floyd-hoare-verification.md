@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Floyd-Hoare verification is the practical methodology of proving program correctness by annotating code with logical assertions at every control point — preconditions, postconditions, and loop invariants — then generating and discharging verification conditions (VCs) that confirm each annotation is consistent with its neighbors. Robert Floyd's original method attached assertions to flowchart edges; Hoare formalized it for structured programs. Modern tools automate VC generation via weakest precondition computation and offload proof obligations to SMT solvers, making the approach scalable to real software.
 
+## How It's Best Learned
+Take a short loop such as summing an array, annotate it with a precondition, a postcondition and a loop invariant, and write out its three verification conditions by hand: entry, preservation and exit. Then enter the same program in Dafny. Weaken the invariant on purpose and read which VC fails and what counterexample the tool reports.
+
+## Common Misconceptions
+- Once every VC is discharged, the program does what its author wanted. (The proof shows the code meets its written specification. A wrong or incomplete specification still lets unwanted behavior through.)
+- Any true statement about the loop works as its invariant. (The invariant must hold on entry, survive every iteration and, together with the exit condition, imply the postcondition. Many true statements are too weak for that.)
+- A failed VC means the code has a bug. (It can also mean an annotation is too weak or wrong, or the solver could not decide the formula. The counterexample helps tell these apart.)
+- Proving partial correctness also proves the program terminates. (Termination needs a separate argument, such as a ranking function that decreases on every iteration.)
+
 ## Questions
 
 ```yaml

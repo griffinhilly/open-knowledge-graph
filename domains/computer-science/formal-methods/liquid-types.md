@@ -28,6 +28,15 @@ status: validated
 
 Liquid types refine dependent types with **liquid type checking** — a technique that restricts refinements to a decidable subset of predicates (typically quantifier-free linear arithmetic), enabling fully automatic type checking via SMT solving. Rather than requiring users to manually prove type constraints (as in full dependent type theory), a liquid type checker automatically discharges proof obligations using an SMT solver. A liquid type for a list might be `[Int]<{v:Int | v > 0}>` (a list of positive integers). The type checker enforces this by verifying that all list-construction operations produce values satisfying the refinement, using SMT calls internally. **Liquid Haskell** is the most mature implementation, embedding liquid types into Haskell for practical verification without sacrificing automation or ease of use.
 
+## How It's Best Learned
+Install Liquid Haskell and start with one function, such as a safe `div` that requires a nonzero divisor. Call it with a literal, then with a value from user input, and read the error for the second call. Add a guard `if y /= 0` before the call and see the error disappear. Next, refine `length` to return a nonnegative Int. That shows how facts from guards and earlier types reach each SMT query.
+
+## Common Misconceptions
+- The SMT solver checks whether the refinement can be satisfied. (It checks validity: whether the facts in context imply the required refinement. The checker asks whether the negation of that implication is unsatisfiable.)
+- Every intermediate expression needs a hand-written refinement. (Liquid type inference fills in refinements for intermediate terms, so the programmer annotates mainly function signatures.)
+- Liquid types are full dependent types with an automatic prover. (Refinements are limited to a decidable logic, which buys automation at the cost of expressiveness.)
+- A refinement can call any Haskell function. (Refinements use the solver's logic plus specially declared functions, such as measures. Arbitrary Haskell code is not allowed inside them.)
+
 ## Questions
 
 ```yaml

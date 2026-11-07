@@ -28,6 +28,15 @@ status: validated
 
 Probabilistic model checking verifies systems with **stochastic behavior** — nondeterministic choices and probabilistic events. Rather than asking "does this system have a property," it asks "what is the probability that this system has a property?" For example: "what is the probability the system reaches a goal state?" or "what is the expected time to recover from a failure?" Models include **Markov chains** (fully probabilistic: all transitions have fixed probabilities), **Markov decision processes** (MDP: mix of nondeterminism and probability, capturing systems controlled by both a scheduler and random events), and **Markov automata** (continuous-time systems with probabilistic and nondeterministic transitions). Properties are expressed in **probabilistic temporal logic** (PCTL, CSL) that quantifies probabilities: P(φ ≥ 0.95) means "the probability of φ is at least 95%." Probabilistic model checking computes the probability of properties or the expected values of reward measures, enabling quantitative verification of safety and liveness in systems with randomness.
 
+## How It's Best Learned
+Draw a four-state Markov chain for a message sent over a lossy link: send, delivered, lost and retry. Give the loss edge a probability of 0.1, write one reachability equation per state, and solve by hand for the probability of eventual delivery. Then add a choice between "retry" and "give up" to make it an MDP, and compute the best and worst delivery probabilities. Checking both answers in PRISM or Storm confirms the hand work.
+
+## Common Misconceptions
+- Probability 1 of reaching the goal means every path reaches it. (Some paths may never reach it, as long as their total probability is zero, such as a coin that lands tails forever.)
+- The checker finds the probability by listing paths one by one. (There can be infinitely many paths. Tools instead solve one equation per state, by linear algebra or iteration.)
+- Probabilistic model checking is the same as running many random simulations. (Simulation estimates the probability with statistical error. Numerical model checking computes it from the model, up to numerical precision.)
+- A verified probability holds for the real system whatever numbers went into the model. (The result is only as accurate as the transition probabilities in the model.)
+
 ## Questions
 
 ```yaml

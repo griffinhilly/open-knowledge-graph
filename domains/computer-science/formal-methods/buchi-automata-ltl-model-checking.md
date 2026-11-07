@@ -30,6 +30,15 @@ status: validated
 ## Core Idea
 The automata-theoretic approach to LTL model checking, pioneered by Vardi and Wolper, reduces temporal property verification to a language-theoretic emptiness problem. The system is modeled as a Büchi automaton that accepts its infinite execution traces, and the negation of the LTL property is translated into another Büchi automaton that accepts exactly the violating traces. Their synchronous product accepts traces that are both system executions and property violations. If the product automaton's language is empty (no accepting run exists), the property holds; if non-empty, a counterexample is extracted. This approach is the theoretical foundation of the SPIN model checker and provides clean compositional reasoning about infinite behaviors.
 
+## How It's Best Learned
+Start with a two-state Büchi automaton for GF p and run it on a few infinite words written as lassos, such as (p ¬p)^ω and p (¬p)^ω. Next, build by hand the product of a three-state system with the automaton for ¬(G F p), and find the accepting cycle with a nested DFS on paper. A tool like Spot can then show the automata for slightly larger formulas.
+
+## Common Misconceptions
+- A Büchi automaton accepts a word when the run ends in an accepting state. (Infinite runs do not end. A run is accepting when some accepting state appears infinitely often.)
+- The property phi itself is turned into the automaton that meets the system. (The checker translates NOT phi, so that the product accepts exactly the violating traces.)
+- Finding a reachable accepting state is enough to show a violation. (The accepting state must also lie on a cycle, so that a lasso-shaped run can visit it forever.)
+- Deterministic Büchi automata can express every LTL property. (Some properties, such as F G p, need nondeterminism. Deterministic Büchi automata are strictly weaker than nondeterministic ones.)
+
 ## Questions
 
 ```yaml

@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Concurrency verification proves correctness properties of multi-threaded and distributed programs — systems where multiple threads of execution interact through shared state or message passing. The core difficulty is that concurrent programs have exponentially many possible interleavings of thread actions, and bugs may manifest only under specific rare schedules. Key approaches include concurrent separation logic (each thread owns a portion of the heap, with explicit transfer of ownership), rely-guarantee reasoning (each thread specifies what it assumes about other threads and guarantees about itself), and model checking with partial-order reduction (exploring representative interleavings rather than all of them).
 
+## How It's Best Learned
+Start with two threads that each run `x = x + 1` as a separate load, add and store on shared x. List every interleaving by hand and find the ones that end with x = 1. Then prove that the lock-protected version ends with x = 2, once in concurrent separation logic with a lock invariant that owns x, and once with rely and guarantee conditions. Both proofs need auxiliary (ghost) variables that record each thread's contribution. Comparing the two proofs shows what each method decomposes.
+
+## Common Misconceptions
+- If many test runs pass, the concurrent code is correct. (A bug can depend on one rare interleaving that tests almost never hit. Verification has to cover every schedule.)
+- A statement like `x++` runs as one atomic step. (It usually compiles to a separate load, add and store, and another thread can act between them.)
+- Freedom from data races means the program is correct. (A race-free program can still deadlock, violate an invariant across lock regions, or produce a wrong result from a bad ordering of atomic steps.)
+- Partial-order reduction skips behaviors, so it can miss bugs. (It skips only orderings of independent actions that lead to equivalent results, so the checked properties are preserved when it is applied correctly.)
+
 ## Questions
 
 ```yaml

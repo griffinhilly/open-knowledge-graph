@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 Bounded model checking (BMC) verifies temporal properties by unrolling the transition relation of a system up to a fixed depth k and encoding the resulting verification problem as a Boolean satisfiability (SAT) or satisfiability modulo theories (SMT) formula. If the formula is satisfiable, a counterexample of length at most k exists; if unsatisfiable, the property holds for all executions of that length. BMC leverages the extraordinary power of modern SAT/SMT solvers, which can handle formulas with millions of variables, to find deep bugs that BDD-based symbolic model checking cannot reach due to state space explosion. While BMC is inherently incomplete (bounded depth), techniques like k-induction and interpolation-based abstraction extend it toward completeness.
 
+## How It's Best Learned
+Take a small counter with a bug that appears only after five steps, and write its BMC formula by hand for k = 1, 2 and 5. Note which unrollings are UNSAT and which one first becomes SAT, then read the satisfying assignment as a trace. Running CBMC on a short C loop with a planted assertion failure makes the same point on real code.
+
+## Common Misconceptions
+- An UNSAT result means the system is safe. (UNSAT at depth k only rules out violations within k steps. A bug at step k + 1 can still exist.)
+- BMC builds the set of reachable states like BDD-based checking. (BMC never builds that set. It asks the solver whether one bounded path to a bad state exists.)
+- Unrolling deeper makes the formula grow exponentially. (The formula grows linearly in k, though solving it can still get harder as k grows.)
+- A counterexample from BMC may be spurious. (For a precise model, a satisfying assignment is a real execution trace of the model. Spurious traces come from abstractions, which plain BMC does not add.)
+
 ## Questions
 
 ```yaml

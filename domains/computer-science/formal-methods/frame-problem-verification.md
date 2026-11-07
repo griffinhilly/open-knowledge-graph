@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The frame problem in program verification asks: how do you specify what a piece of code does NOT change? A function that increments a counter should leave all other variables and heap cells unchanged, but writing explicit "unchanged" clauses for everything the function does not touch is impractical and fragile. The frame problem forces verification frameworks to adopt conventions — modifies clauses, frame rules, or default-unchanged semantics — that let specifications focus on what changes while implicitly preserving everything else. Separation logic's frame rule is the most influential solution.
 
+## How It's Best Learned
+Write a contract for `swap(p, q)` that exchanges two heap cells, first with only a postcondition. Then ask what a caller can conclude about a third cell r, and see that nothing follows. Add a modifies clause and check what the caller gains. Finally, restate the same function in separation logic and use the frame rule to carry r through the call unchanged.
+
+## Common Misconceptions
+- A postcondition that says what changed also tells you that nothing else changed. (A postcondition alone constrains only what it mentions. Everything else may change unless a modifies clause or footprint rules it out.)
+- A modifies clause protects every cell it does not name. (It protects locations, not names. If r aliases p, a function that may modify p may also change r, so the caller must still know that r is distinct from p and q.)
+- The frame rule in separation logic needs no side condition. (The command must not modify variables that appear free in the framed assertion R. The separating conjunction handles the heap part.)
+- A modifies clause is an optional comment for readers. (In tools like Dafny, Frama-C and SPARK, the verifier checks the code against it and generates frame conditions from it.)
+
 ## Questions
 
 ```yaml

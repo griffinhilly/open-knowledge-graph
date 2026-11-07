@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Interactive theorem proving uses software tools (proof assistants) in which humans construct formal proofs with machine verification of every step. The user states a theorem in a formal logic, then builds the proof interactively — applying tactics, introducing lemmas, and guiding the proof search — while the proof assistant checks that each step is logically valid. The result is a machine-checked proof: a certificate that the theorem follows from the axioms with absolute certainty. Major proof assistants include Coq (based on the Calculus of Inductive Constructions), Isabelle/HOL (based on higher-order logic), Lean (dependent type theory with strong automation), and Agda (dependently-typed programming language doubling as a proof assistant).
 
+## How It's Best Learned
+Install Lean or Coq and prove that addition on natural numbers is commutative, starting from the definitions. Step through the proof one tactic at a time and read the goal panel after each step. The panel shows how induction splits the goal and what each rewrite changes. Then print the final proof term to see what the kernel actually checks.
+
+## Common Misconceptions
+- The proof assistant finds the proof once the theorem is stated. (For nontrivial theorems, the human chooses the strategy, the induction and the key lemmas. Automation fills in routine steps.)
+- A machine-checked proof shows the theorem says what the author meant. (The kernel checks the proof against the formal statement. If the statement is mistranslated, the proof proves the wrong thing.)
+- Tactics must be trusted for the proof to be sound. (In Coq and Lean, tactics build proof terms that a small kernel re-checks. In LCF-style systems such as Isabelle and HOL4, only kernel functions can create theorems. Either way, a faulty tactic fails to produce a proof rather than producing a false theorem.)
+- All proof assistants rest on the same logic. (Coq and Lean use dependent type theories, while Isabelle/HOL uses classical higher-order logic, and these differ in how proofs and propositions are represented.)
+
 ## Questions
 
 ```yaml

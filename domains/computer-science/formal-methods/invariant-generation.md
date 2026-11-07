@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Invariant generation is the automatic discovery of loop invariants — logical assertions that hold at the beginning of every loop iteration and are strong enough to prove a desired postcondition. Since loop invariants are the key human-supplied ingredient in deductive verification (Hoare logic, weakest precondition), automating their discovery is one of the central challenges in formal methods. Techniques include abstract interpretation (computing fixed points in abstract domains), template-based inference (positing invariant shapes and solving for coefficients), predicate abstraction (searching over Boolean combinations of candidate predicates), and machine learning approaches that learn invariant patterns from data.
 
+## How It's Best Learned
+Pick one loop, such as `i = 0; s = 0; while (i < n) { s = s + i; i = i + 1; }`, and attack it with each technique in turn. Run interval analysis by hand, then try a linear template such as a*i + b*s + c <= 0, then guess predicates and test them for inductiveness. Seeing which method finds which invariant, and which misses the nonlinear fact about s, shows what each approach can express.
+
+## Common Misconceptions
+- Any assertion that holds on every iteration is a usable loop invariant. (A useful invariant must also be inductive, so the body preserves it, and strong enough to imply the postcondition at exit.)
+- An automatically generated invariant proves the postcondition. (Tools often find true, inductive invariants that are still too weak for the property you need.)
+- If the invariant holds in every test run, it is inductive. (Inductiveness must hold for every state satisfying the invariant and the guard, including states that tests never reach.)
+- Invariants from machine learning come with soundness guarantees. (Learned candidates must be checked by a solver or prover before they count as invariants.)
+
 ## Questions
 
 ```yaml

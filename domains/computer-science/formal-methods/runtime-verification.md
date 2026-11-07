@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 Runtime verification bridges testing and formal verification by checking whether a single execution trace of a system satisfies a formal specification. Instead of exhaustively exploring all possible executions (model checking) or reasoning deductively about all inputs (theorem proving), runtime verification instruments the running system and monitors its behavior against temporal properties expressed in LTL, regular expressions, or other formalisms. This makes it applicable to systems too large or complex for static verification, including those with third-party components, nondeterministic environments, or incomplete models. The central challenge is that a finite trace may neither satisfy nor violate an LTL property (whose semantics are defined over infinite traces), requiring three-valued or predictive monitoring semantics.
 
+## How It's Best Learned
+Build a monitor by hand for the safety property "no read after close" as a three-state automaton, and run it on a few short event traces written on paper. Then build a monitor for G(request -> F grant), run it on a few short traces of request and grant events, and record where it can only say "inconclusive". Writing the same monitor as a small event handler in a real program shows how instrumentation feeds it events.
+
+## Common Misconceptions
+- If the monitor reports no violation, the system satisfies the property. (The monitor checks only the observed execution. Other inputs or schedules can still violate the property.)
+- Any LTL property can be decided on a long enough finite trace. (Some properties, such as G F p, are never settled by a finite prefix, so a three-valued monitor stays inconclusive forever.)
+- Runtime verification is the same as scattering assertions through the code. (A monitor is built from a temporal formula and keeps state across events, so it can check relations between events far apart in time.)
+- Adding monitors does not change the system's behavior. (Instrumentation adds overhead that can shift timing, and in concurrent code this can hide or expose bugs.)
+
 ## Questions
 
 ```yaml

@@ -28,6 +28,15 @@ status: validated
 
 Certified compilation produces a compiler whose behavior is proven correct by a machine-checked formal proof. A certified compiler guarantees that the compiled code behaves identically to the source program — miscompilation bugs are impossible by mathematical proof, not by testing. **CompCert** (the foundational example) is a certified C compiler where every optimization pass is formally verified in Coq to preserve program semantics. The proof demonstrates a **simulation** or **bisimulation** between source and compiled code: any observable behavior (input/output, termination, failure) of the source is faithfully reproduced by the compiled code. This provides absolute assurance that the compiler will not introduce subtle bugs that testing might miss.
 
+## How It's Best Learned
+Start with a toy compiler from arithmetic expressions to a stack machine. Write both semantics, then prove in Coq or Lean that running the compiled code leaves the source expression's value on the stack. Add one optimization, such as constant folding, and extend the proof. After that, reading the statement of CompCert's main theorem shows the same shape at full scale.
+
+## Common Misconceptions
+- A certified compiler makes the compiled program correct. (The proof only says the compiled code behaves as the source does. A buggy source program compiles to equally buggy machine code.)
+- The proof covers everything in the toolchain. (It covers the verified passes relative to the formal semantics. Unverified parts, such as preprocessing or linking, and errors in the semantics themselves are outside it.)
+- Semantic preservation means the compiled code matches the source step by step. (A simulation relates states up to irrelevant differences, such as register choices and intermediate machine states. Only observable behavior must match.)
+- Verified compilers cannot optimize. (CompCert includes passes such as constant propagation and common subexpression elimination, each proven to preserve semantics.)
+
 ## Questions
 
 ```yaml

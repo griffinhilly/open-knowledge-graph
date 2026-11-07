@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 The Curry-Howard correspondence is a deep isomorphism between logic and computation: propositions correspond to types, proofs correspond to programs, and proof normalization corresponds to program evaluation. An implication A -> B is a function type; a proof of A -> B is a function that takes a proof of A and produces a proof of B. A conjunction A AND B is a product type (pair); a disjunction A OR B is a sum type (tagged union). Under this correspondence, type-checking IS proof-checking — a well-typed program is simultaneously a valid proof. This insight unifies logic, type theory, and programming language theory into a single framework.
 
+## How It's Best Learned
+Keep a two-column table of logic on one side and types on the other, and fill it as you go. Then prove small tautologies by writing programs: (A and B) -> (B and A) is the function that swaps a pair, and A -> (B -> A) is the function that ignores its second argument. Typing these into Lean, Agda or Haskell and watching the type checker accept them makes the correspondence concrete.
+
+## Common Misconceptions
+- Curry-Howard is a loose analogy between logic and programming. (It is a precise correspondence between proof rules and typing rules, and between proof simplification and evaluation.)
+- Any program in any typed language counts as a proof. (A language with general recursion or exceptions can inhabit every type, including the empty one, so its programs do not form a consistent logic.)
+- The correspondence works the same way for classical logic. (It aligns directly with constructive logic. Classical principles such as excluded middle need extra features, such as control operators like call/cc.)
+- Running the program is what proves the theorem. (Type-checking the program is the proof check. Evaluation corresponds to simplifying the proof, not to establishing it.)
+
 ## Questions
 
 ```yaml

@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 Model checking is an automated verification technique that exhaustively explores every reachable state of a finite-state system to determine whether a given specification holds. The system is modeled as a state-transition graph, the specification is expressed in temporal logic, and the model checker systematically visits all reachable states. If a violation is found, the tool produces a counterexample — a concrete execution trace demonstrating the failure. Model checking is fully automatic (no invariants or proofs required) but faces the state explosion problem: the number of states grows exponentially with the number of system components.
 
+## How It's Best Learned
+Model a broken two-process lock in SPIN's Promela, where each process checks a flag and then sets it, and ask SPIN to check that both are never in the critical section together. Read the counterexample trace step by step. Then fix the protocol, rerun the check, and watch the state count. Adding a third process shows state explosion as a number you can see.
+
+## Common Misconceptions
+- If the model checker says the property holds, the real program is correct. (The result is about the model. If the model leaves out behavior the real system has, bugs can remain.)
+- Model checking works directly on any program, however large. (It needs a finite model small enough to explore, so real software usually needs abstraction or bounding first.)
+- A counterexample from a model checker is a test case that might not reproduce. (For the model, it is an exact trace from an initial state to the violation and can be replayed step by step.)
+- Writing the temporal-logic specification is the easy part. (A wrong or vacuous specification can pass trivially, so getting the property right takes real care.)
+
 ## Questions
 
 ```yaml

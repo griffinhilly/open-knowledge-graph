@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Linear types enforce that values are used exactly once: they cannot be duplicated (used twice) or discarded (unused). This discipline, rooted in Girard's linear logic, treats values as consumable resources rather than freely copyable data. Linear types statically guarantee resource management properties — file handles are closed exactly once, memory is freed exactly once, protocol steps are followed in order. Rust's ownership and borrow-checking system is the most commercially successful application of linear (specifically, affine) type discipline, preventing use-after-free, double-free, and data races at compile time.
 
+## How It's Best Learned
+Write a tiny file API with `open`, `read` and `close`, and type-check client programs by hand under the rule that the handle is used exactly once per path. Include one client that forgets to close on an error branch. Then write the same clients in Rust, move a `String` into a function, try to use it afterward, and read the compiler's "use of moved value" error. Compare which faults each discipline catches.
+
+## Common Misconceptions
+- A linear variable may appear only once in the source text. (Linearity counts uses along each execution path. A variable can appear in both branches of an if, since only one branch runs.)
+- Rust's types are strictly linear. (Rust is affine: an owned value may be dropped without an explicit consuming call, and its destructor then runs.)
+- Linear types forbid reading a value without destroying it. (Many systems let a function take a linear value and return it, or allow temporary borrows, so it can be inspected and still used later.)
+- Every type in a linear system must be linear. (Systems mix linear and unrestricted types, so plain data such as integers can be copied freely.)
+
 ## Questions
 
 ```yaml

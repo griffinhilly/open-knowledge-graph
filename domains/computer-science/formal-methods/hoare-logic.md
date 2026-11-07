@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Hoare logic is a formal system for reasoning about the correctness of imperative programs using triples of the form {P} C {Q}, where P is a precondition, C is a command, and Q is a postcondition. The triple asserts that if P holds before executing C, and C terminates, then Q holds afterward (partial correctness). Hoare logic provides axioms and inference rules for each language construct (assignment, sequencing, conditionals, loops), enabling compositional proofs that a program meets its specification.
 
+## How It's Best Learned
+Prove a three-line swap using a temporary variable, working the assignment axiom backward from the postcondition one line at a time. Then prove a small loop such as summing 1 to n. Write candidate invariants on paper and test each against the three checks: true on entry, preserved by the body, and strong enough with the negated guard to give the postcondition.
+
+## Common Misconceptions
+- The assignment axiom works forward: from P, x := E gives P with x replaced by E. (The sound rule runs backward. The precondition is the postcondition Q with E substituted for x.)
+- A valid triple {P} C {Q} guarantees that C finishes. (Standard Hoare triples state partial correctness. If C loops forever, the triple holds for any Q.)
+- The loop invariant must stay true at every point inside the loop body. (It must hold before each iteration and after the body finishes. It may be broken temporarily in the middle of the body.)
+- The rule of consequence lets you weaken the precondition. (It lets you strengthen the precondition and weaken the postcondition. The reverse would be unsound.)
+
 ## Questions
 
 ```yaml

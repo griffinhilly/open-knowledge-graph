@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 Dependent type theory extends simple type systems by allowing types to depend on values. A dependent function type (Pi type) (x : A) -> B(x) represents functions whose return type varies with their input — enabling types like "a vector of exactly n elements" or "a proof that n is prime." A dependent pair type (Sigma type) (x : A, B(x)) pairs a value with a proof about that value. Through the Curry-Howard correspondence, dependent types unify programming and theorem proving: types express arbitrarily precise specifications, and well-typed programs are proofs of those specifications. Martin-Lof type theory is the foundational framework; Coq, Lean, and Agda implement variants of it.
 
+## How It's Best Learned
+Define length-indexed vectors in Lean or Agda, then write `append`, `head` and `zip` with their dependent types. Try to call `head` on an empty vector and read the type error. Next, write a Sigma value such as a number paired with a proof that it is even. Moving from one indexed type to one proof-carrying pair shows both type formers in use.
+
+## Common Misconceptions
+- Dependent types are generics or templates with extra syntax. (Generics let types depend on types, and C++ templates also on compile-time constants. Dependent types let types depend on ordinary values, including ones known only at run time, such as the argument n of a function that returns Vec(A, n).)
+- The length in Vec(A, n) is checked at run time. (The type checker checks it when the program is compiled, so a length mismatch is a type error.)
+- A Sigma type is a plain tuple. (In a Sigma type, the type of the second part depends on the value of the first, as in a number paired with a proof about that number.)
+- Type-checking dependent types needs no evaluation. (Types can contain terms, so the checker must reduce those terms to decide whether two types are equal.)
+
 ## Questions
 
 ```yaml
