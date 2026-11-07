@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - ecosystem-stability-resilience-and-tipping-points
-- community-assembly-rules-and-coexistence
 tags:
 - trophic-cascade
 - food-web

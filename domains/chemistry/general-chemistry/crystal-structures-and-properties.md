@@ -14,8 +14,11 @@ prerequisites:
   type: soft
 - id: bond-classification
   type: soft
-builds-toward:
-- states-of-matter-phase-changes
+- id: flexibility-and-brittleness
+  type: soft
+- id: hardness-and-strength
+  type: soft
+builds-toward: []
 tags:
 - crystal structure
 - solid state

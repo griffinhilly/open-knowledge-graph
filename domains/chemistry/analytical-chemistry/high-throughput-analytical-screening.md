@@ -8,8 +8,9 @@ prerequisites:
   type: hard
 - id: sample-preparation-automation-systems
   type: hard
-builds-toward:
-- automated-and-high-throughput-analysis
+- id: batch-and-sequence-optimization
+  type: soft
+builds-toward: []
 tags:
 - high-throughput
 - screening

@@ -10,8 +10,7 @@ prerequisites:
   type: hard
 - id: carbonyl-chemistry-intro
   type: hard
-builds-toward:
-- directed-electrophilic-aromatic-substitution
+builds-toward: []
 tags:
 - friedel-crafts-acylation
 - fc-acylation

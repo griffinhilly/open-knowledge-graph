@@ -12,8 +12,7 @@ prerequisites:
   type: hard
 - id: discernment-same-different
   type: soft
-builds-toward:
-- ecosystem-structure-and-function
+builds-toward: []
 tags:
 - habitats
 - homes

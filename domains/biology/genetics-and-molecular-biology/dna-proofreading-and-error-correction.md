@@ -10,8 +10,7 @@ prerequisites:
   type: hard
 - id: dna-replication-mechanics-leading-lagging
   type: hard
-builds-toward:
-- genetic-recombination-and-linkage-mapping
+builds-toward: []
 tags:
 - proofreading
 - exonuclease-activity

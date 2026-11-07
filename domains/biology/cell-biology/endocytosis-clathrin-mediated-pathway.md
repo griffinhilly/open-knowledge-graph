@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: cell-membrane-structure
   type: soft
-builds-toward:
-- exocytosis-snare-proteins-membrane-fusion
+builds-toward: []
 tags:
 - endocytosis
 - vesicular-transport

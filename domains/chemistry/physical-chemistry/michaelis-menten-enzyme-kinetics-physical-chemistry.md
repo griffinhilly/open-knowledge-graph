@@ -12,8 +12,7 @@ prerequisites:
   type: soft
 - id: adsorption-isotherms-kinetics
   type: soft
-builds-toward:
-- autocatalytic-reactions-mechanisms
+builds-toward: []
 tags:
 - enzyme
 - michaelis-menten

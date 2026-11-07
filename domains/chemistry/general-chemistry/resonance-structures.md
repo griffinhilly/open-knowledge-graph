@@ -6,8 +6,7 @@ course: general-chemistry
 prerequisites:
 - id: lewis-structures
   type: hard
-builds-toward:
-- molecular-geometry-prediction
+builds-toward: []
 tags:
 - resonance
 - delocalization

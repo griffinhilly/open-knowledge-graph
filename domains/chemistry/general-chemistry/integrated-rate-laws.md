@@ -14,8 +14,7 @@ prerequisites:
   type: soft
 - id: rate-law-determination
   type: hard
-builds-toward:
-- arrhenius-equation
+builds-toward: []
 tags:
 - zero-order
 - first-order

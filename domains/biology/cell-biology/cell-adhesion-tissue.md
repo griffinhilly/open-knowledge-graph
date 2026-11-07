@@ -6,6 +6,10 @@ course: cell-biology
 prerequisites:
 - id: cell-migration-motility
   type: soft
+- id: plasma-membrane-organization-dynamics
+  type: soft
+- id: cells-to-tissues-and-organs
+  type: soft
 builds-toward:
 - gap-junctions-communication
 tags:

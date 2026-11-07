@@ -12,8 +12,7 @@ prerequisites:
   type: soft
 - id: exchange-integral-chemical-bonding
   type: hard
-builds-toward:
-- molecular-orbital-symmetry-classification
+builds-toward: []
 tags:
 - aromaticity
 - huckel-rule

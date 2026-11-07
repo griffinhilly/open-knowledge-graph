@@ -6,8 +6,7 @@ course: cell-biology
 prerequisites:
 - id: organelles-overview
   type: soft
-builds-toward:
-- apoptosis-cell-death
+builds-toward: []
 tags:
 - lysosomes
 - autophagy

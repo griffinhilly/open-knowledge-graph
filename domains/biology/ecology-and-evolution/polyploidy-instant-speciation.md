@@ -10,8 +10,7 @@ prerequisites:
   type: hard
 - id: polyploidy-autopolyploidy-mechanisms
   type: soft
-builds-toward:
-- adaptive-radiation
+builds-toward: []
 tags:
 - polyploidy
 - speciation

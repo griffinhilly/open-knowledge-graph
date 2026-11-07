@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: translation-elongation-and-termination
   type: soft
-builds-toward:
-- post-translational-modifications
+builds-toward: []
 tags:
 - translation
 - termination

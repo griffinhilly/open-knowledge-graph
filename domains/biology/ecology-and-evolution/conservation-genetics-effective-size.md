@@ -20,7 +20,6 @@ prerequisites:
   type: soft
 builds-toward:
 - extinction-vortex-populations
-- invasive-species-ecological-impacts
 tags:
 - conservation-genetics
 - effective-size

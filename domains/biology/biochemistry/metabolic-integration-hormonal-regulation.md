@@ -14,6 +14,14 @@ prerequisites:
   type: soft
 - id: allosteric-enzyme-regulation
   type: soft
+- id: fatty-acid-oxidation-beta-oxidation
+  type: soft
+- id: fatty-acid-synthesis
+  type: soft
+- id: gluconeogenesis
+  type: soft
+- id: glycogen-metabolism
+  type: soft
 tags:
 - metabolic integration
 - fed state

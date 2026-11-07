@@ -14,8 +14,7 @@ prerequisites:
   type: hard
 - id: growth-and-change
   type: soft
-builds-toward:
-- cell-biology-intro
+builds-toward: []
 tags:
 - stimulus
 - response

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: energy-flow-in-ecosystems-ls
   type: hard
+- id: ecosystem-structure-and-function
+  type: soft
 builds-toward:
 - biogeochemical-cycles
 - nutrient-cycling

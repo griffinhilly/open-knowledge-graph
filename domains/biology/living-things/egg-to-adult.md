@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: metamorphosis
   type: hard
-builds-toward:
-- cell-differentiation-development
+builds-toward: []
 tags:
 - eggs
 - hatching

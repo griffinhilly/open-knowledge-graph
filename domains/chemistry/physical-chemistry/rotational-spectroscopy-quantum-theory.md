@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: rotational-spectroscopy
   type: soft
-builds-toward:
-- vibrational-overtones-and-transitions
+builds-toward: []
 tags:
 - spectroscopy
 - rotation

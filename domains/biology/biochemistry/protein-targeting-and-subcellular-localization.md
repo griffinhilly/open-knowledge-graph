@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: ribosome-protein-synthesis-factory
   type: soft
+- id: protein-folding-and-chaperones
+  type: soft
 tags:
 - protein targeting
 - signal peptide

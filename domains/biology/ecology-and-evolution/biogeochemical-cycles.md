@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: chemical-equations-and-balancing
   type: soft
+- id: net-primary-productivity-allocation
+  type: soft
 builds-toward:
 - nutrient-cycling
 - climate-change-ecology

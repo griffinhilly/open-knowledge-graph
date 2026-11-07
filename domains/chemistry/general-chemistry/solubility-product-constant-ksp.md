@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - common-ion-effect
-- complexometric-titration
 tags:
 - solubility product
 - Ksp

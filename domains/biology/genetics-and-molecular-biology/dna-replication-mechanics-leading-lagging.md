@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - dna-proofreading-and-error-correction
-- genetic-recombination-and-linkage-mapping
 tags:
 - dna-replication
 - semi-conservative-replication

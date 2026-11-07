@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: fasted-state-metabolism
   type: soft
+- id: lipolysis-and-fatty-acid-mobilization
+  type: soft
 tags:
 - ketones
 - acetyl-CoA

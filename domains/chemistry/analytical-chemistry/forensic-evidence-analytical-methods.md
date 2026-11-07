@@ -14,8 +14,7 @@ prerequisites:
   type: soft
 - id: hyphenated-analytical-techniques
   type: soft
-builds-toward:
-- data-integrity-regulatory-compliance
+builds-toward: []
 tags:
 - forensic
 - identification

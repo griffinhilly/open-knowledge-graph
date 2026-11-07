@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: periodic-table-overview
   type: hard
+- id: noble-gases-and-stability
+  type: soft
 builds-toward:
 - ionic-bonding
 - covalent-bonding

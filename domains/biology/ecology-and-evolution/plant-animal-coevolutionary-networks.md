@@ -10,8 +10,7 @@ prerequisites:
   type: soft
 - id: predator-prey-coevolution-mechanisms
   type: soft
-builds-toward:
-- trophic-cascades-in-food-webs
+builds-toward: []
 tags:
 - coevolution
 - plant-animal

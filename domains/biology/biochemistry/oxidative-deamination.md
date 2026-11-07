@@ -12,9 +12,11 @@ prerequisites:
   type: soft
 - id: transamination-reactions
   type: soft
+- id: amino-acid-degradation-overview
+  type: soft
 builds-toward:
-  - urea-cycle
-  - ammonia-metabolism
+- urea-cycle
+- ammonia-metabolism
 tags:
 - amino-acids
 - redox-chemistry

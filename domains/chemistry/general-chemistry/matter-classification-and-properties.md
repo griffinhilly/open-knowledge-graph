@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: pure-substances-and-mixtures
   type: soft
+- id: physical-vs-chemical-change-summary
+  type: soft
 builds-toward:
 - atomic-structure-and-atoms
 - chemical-equations-and-balancing

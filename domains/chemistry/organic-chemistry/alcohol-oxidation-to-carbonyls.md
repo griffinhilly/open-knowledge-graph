@@ -8,8 +8,7 @@ prerequisites:
   type: soft
 - id: nomenclature-oxygenated-compounds
   type: soft
-builds-toward:
-- carbonyl-reduction-to-alcohols
+builds-toward: []
 tags:
 - oxidation
 - alcohol

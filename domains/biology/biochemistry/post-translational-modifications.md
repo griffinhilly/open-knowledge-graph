@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: protein-primary-structure
   type: soft
+- id: protein-folding-and-chaperones
+  type: soft
 builds-toward:
 - protein-targeting-and-subcellular-localization
 tags:

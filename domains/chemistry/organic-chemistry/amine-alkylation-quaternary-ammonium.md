@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: sn2-mechanism-kinetics-and-factors
   type: soft
-builds-toward:
-- retrosynthetic-analysis
+builds-toward: []
 tags:
 - amine-alkylation
 - quaternary-ammonium

@@ -9,7 +9,6 @@ prerequisites:
 - id: liquid-chromatography-mass-spectrometry-lc-ms
   type: hard
 builds-toward:
-- matrix-effects
 - multianalyte-panel-determination
 tags:
 - mass-spectrometry

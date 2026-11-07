@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: evidence-for-evolution
   type: soft
-builds-toward:
-- ecosystem-stability-resilience-and-tipping-points
+builds-toward: []
 tags:
 - paleoecology
 - fossils

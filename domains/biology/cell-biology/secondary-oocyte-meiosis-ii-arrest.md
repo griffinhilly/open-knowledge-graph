@@ -6,8 +6,7 @@ course: cell-biology
 prerequisites:
 - id: meiosis
   type: hard
-builds-toward:
-- cell-cycle-checkpoints-cancer
+builds-toward: []
 tags:
 - meiosis
 - oocyte-arrest

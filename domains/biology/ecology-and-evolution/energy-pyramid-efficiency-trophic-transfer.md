@@ -8,9 +8,7 @@ prerequisites:
   type: hard
 - id: ecosystem-productivity-gpp-npp
   type: hard
-builds-toward:
-- population-growth-models
-- predator-prey-dynamics
+builds-toward: []
 tags:
 - energy
 - pyramids

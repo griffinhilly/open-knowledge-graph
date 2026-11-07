@@ -97,3 +97,71 @@ DROP	thread-model-user-vs-kernel	synchronization-problem	-	medium	Race condition
 ADD	critical-section-problem-formalization	test-and-set-primitive	soft	high	Test-and-set is a hardware solution to the critical-section problem.
 ADD	virtual-memory-management	thrashing-and-working-set	soft	high	Thrashing is a demand-paged virtual memory phenomenon.
 ADD	virtual-address-translation-scheme	working-set-model	soft	medium	Working set reasons about page references, which presume paging.
+ADD	primitive-data-types	arithmetic-operators	soft	medium	Operand types (int vs float) determine arithmetic results such as division.
+DROP	variables-and-assignment	arithmetic-operators	-	medium	Arithmetic content does not use variables or compound assignment.
+DROP	nested-loops	arrays-and-lists	-	high	Basic arrays/lists do not draw on nested iteration; nested loops builds on arrays.
+ADD	type-conversion	comparison-operators	soft	medium	Comparison content warns that 5 == '5' is false across types.
+ADD	conditional-statements	error-handling-exceptions	soft	high	Exception handling is alternative control flow to if-checks (also reached via debugging-basics).
+ADD	code-comments-and-style	function-design-and-contracts	soft	medium	Contracts are written down as function documentation.
+DROP	parameter-passing-value-vs-reference	function-design-and-contracts	-	medium	Contract content (pre/postconditions) does not use pass-by-value/reference.
+DROP	variables-and-assignment	function-design-and-contracts	-	medium	Only a distant foundation, already reached transitively; not specifically drawn upon.
+DROP	iterating-over-collections	immutability-and-mutation	-	medium	Immutability content draws on indexing, barely on iteration.
+DROP	string-operations	input-output	-	high	string-operations already lists input-output as a prerequisite; would make a cycle.
+DROP	immutability-and-mutation	intro-to-classes	-	medium	Intro-to-classes content never discusses mutability.
+ADD	arrays-and-lists	iterating-over-collections	hard	high	Iterating over collections requires knowing what lists/arrays are.
+DROP	loop-design-and-invariants	iterating-over-collections	-	medium	Basic collection iteration does not need loop invariants.
+ADD	arrays-and-lists	list-comprehensions	hard	high	Comprehensions build and transform lists.
+ADD	boolean-logic	loop-control-statements	soft	medium	break/continue are triggered by boolean conditions.
+DROP	do-while-loops	loop-control-statements	-	medium	Loop-control content never uses do-while loops.
+ADD	invariants-and-monovariants-intro	loop-design-and-invariants	soft	high	Loop invariants apply the general invariant/monovariant idea.
+DROP	else-if-chains	loop-design-and-invariants	-	high	Loop invariants do not draw on else-if chains.
+ADD	loop-control-statements	loop-design-and-invariants	soft	medium	Loop design content discusses how break affects loop exit reasoning.
+ADD	arrays-and-lists	nested-loops	soft	medium	Nested loops are commonly applied to lists and grids.
+ADD	loop-control-statements	nested-loops	soft	high	Nested-loop content stresses that break exits only the inner loop.
+ADD	memory-and-data-storage	primitive-data-types	soft	medium	Primitive types are characterized by their storage size in memory.
+ADD	arrays-and-lists	string-basics	soft	medium	String basics compares strings to lists as indexed sequences.
+ADD	debugging-basics	testing-and-validation-basics	soft	medium	Testing content relates tests to finding and debugging errors.
+ADD	error-handling-exceptions	testing-and-validation-basics	soft	medium	Testing content checks that functions raise errors on invalid input.
+ADD	program-structure	variables-and-assignment	soft	medium	Reassignment semantics rely on sequential statement execution.
+ADD	hamiltonian-path-cycle	approximation-algorithms-design	soft	medium	Approximation content uses TSP, whose hardness rests on Hamiltonian cycle.
+ADD	partition-subset-sum-problems	approximation-algorithms-design	soft	medium	Approximation content uses knapsack, a subset-sum-type problem.
+DROP	rp-corp-classes	bpp-complexity-class	-	high	rp-corp already lists bpp as a prerequisite; would make a cycle.
+DROP	chomsky-normal-form	cfg-pda-equivalence	-	medium	CFG-PDA equivalence content never uses CNF.
+DROP	cfg-pda-equivalence	chomsky-normal-form	-	medium	CNF is a grammar transformation; it mentions PDAs only once in passing.
+ADD	context-free-grammar-properties-and-ambiguity	chomsky-normal-form	soft	medium	CNF conversion uses grammar properties (epsilon/unit productions); already reached via parse-trees.
+ADD	turing-machines	church-turing-thesis	hard	high	The Church-Turing thesis is a claim about Turing machines.
+ADD	context-free-grammars	closure-properties-cfl	hard	high	CFL closure proofs build new grammars from given ones.
+ADD	deterministic-finite-automata	closure-properties-regular-languages	hard	high	Complement and product constructions operate on DFAs.
+ADD	kleene-theorem	closure-properties-regular-languages	soft	high	Closure content proves union/concat/star via regex-automata equivalence.
+DROP	limitations-of-finite-automata	context-free-grammars	-	high	limitations-of-finite-automata already reaches CFGs via limitations-of-context-free; would make a cycle.
+ADD	p-vs-np-problem	cook-levin-theorem	soft	medium	Cook-Levin's significance is framed by the P vs NP question.
+ADD	parse-trees-ambiguity-and-derivation	cyk-algorithm-membership-testing	soft	high	CYK fills a table of sub-derivations; already reached via CNF.
+ADD	universal-turing-machine	decidability	soft	high	Decidability uses the UTM to show A_TM is recognizable; already reached via Church-Turing.
+DROP	theory-of-computation-overview	formal-languages-and-strings	-	high	Overview already lists formal-languages-and-strings as a prerequisite; would make a cycle.
+ADD	nondeterministic-finite-automata	kleene-theorem	hard	high	Kleene's theorem converts regular expressions to and from NFAs.
+DROP	context-free-grammars-formal	linear-bounded-automata	-	medium	LBAs recognize context-sensitive languages; CFGs are not drawn upon.
+DROP	pushdown-automata-formal	linear-bounded-automata	-	medium	LBAs are restricted TMs; PDAs are not drawn upon.
+ADD	nondeterministic-complexity	np-completeness	soft	medium	NP-completeness rests on NP defined via nondeterministic machines.
+ADD	p-vs-np-problem	np-completeness	soft	high	NP-completeness matters because one NPC problem in P gives P = NP.
+DROP	turing-machine-completeness	oracle-turing-machines	-	medium	Oracle TMs extend TMs; Turing completeness is not drawn upon.
+ADD	alternating-turing-machines	polynomial-hierarchy	soft	high	PH content characterizes levels by alternating quantifiers.
+ADD	oracle-turing-machines	polynomial-hierarchy	soft	high	PH content defines levels with oracles (NP^NP etc.).
+DROP	linear-bounded-automata	pspace-complexity-class	-	medium	PSPACE content does not use LBAs.
+DROP	oracle-turing-machines	pspace-complexity-class	-	medium	PSPACE content never uses oracles.
+JUDGE	space-hierarchy-theorem	pspace-complexity-class	soft	medium	PSPACE content cites hierarchy theorems, but adding would make an advanced topic draw on an expert one.
+ADD	regular-languages-fundamentals	pumping-lemma-for-regular-languages	hard	high	The pumping lemma is a property of regular languages.
+DROP	chomsky-hierarchy	recognizability-vs-decidability	-	medium	Recognizability content never uses the Chomsky hierarchy.
+ADD	decidability	recognizability-vs-decidability	hard	high	The topic contrasts recognizability with decidability.
+ADD	deterministic-finite-automata	regular-languages-fundamentals	hard	high	Regular languages are defined as those a DFA recognizes.
+ADD	formal-languages-and-strings	regular-languages-fundamentals	soft	high	Regular languages are a class of formal languages; already reached via alphabets.
+ADD	kleene-theorem	regular-languages-fundamentals	soft	high	The characterization part cites Kleene's regex-automata equivalence.
+ADD	nfa-to-dfa-conversion	regular-languages-fundamentals	soft	high	Characterization uses NFA-DFA equivalence; already reached via dfa-properties.
+ADD	halting-problem	rice-theorem	hard	high	Rice's theorem is proved by reduction from the halting problem.
+ADD	undecidable-problems	rice-theorem	soft	high	Rice generalizes specific undecidability results; already reached via reductions.
+ADD	boolean-satisfiability-and-reductions	space-complexity-classes	soft	medium	TQBF-completeness generalizes SAT and uses reductions.
+ADD	time-hierarchy-theorem-computability-and-complexity	space-hierarchy-theorem	soft	high	Space hierarchy content draws repeated analogies to the time hierarchy.
+ADD	limitations-of-context-free	turing-machines	soft	medium	Non-context-free languages motivate the more powerful TM model.
+ADD	church-turing-thesis	undecidable-problems	soft	high	Undecidability claims about all algorithms rest on Church-Turing.
+ADD	decidability	undecidable-problems	hard	high	Undecidability is the negation of decidability.
+ADD	halting-problem	undecidable-problems	hard	high	The halting problem is the base undecidable problem the topic builds on.
+ADD	multi-tape-turing-machines	universal-turing-machine	soft	medium	UTM simulation is commonly described with multiple tapes.

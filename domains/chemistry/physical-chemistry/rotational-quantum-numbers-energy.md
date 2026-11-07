@@ -10,8 +10,7 @@ prerequisites:
   type: hard
 - id: rotational-spectroscopy-quantum-theory
   type: soft
-builds-toward:
-- vibrational-energy-levels-selection-rules
+builds-toward: []
 tags:
 - rotational-spectroscopy
 - quantum-numbers

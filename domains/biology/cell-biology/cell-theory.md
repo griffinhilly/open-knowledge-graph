@@ -6,6 +6,8 @@ course: cell-biology
 prerequisites:
 - id: what-is-a-cell
   type: hard
+- id: living-vs-nonliving
+  type: soft
 builds-toward:
 - prokaryotic-cells
 - eukaryotic-cells

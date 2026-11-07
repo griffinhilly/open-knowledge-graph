@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - protein-primary-structure
-- enzyme-cofactors-and-coenzymes
 tags:
 - amino acids
 - hydrophobicity

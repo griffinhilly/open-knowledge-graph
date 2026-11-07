@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: properties-of-solids
   type: soft
-builds-toward:
-- metallic-bonding
+builds-toward: []
 tags:
 - alloys
 - metals

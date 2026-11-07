@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - molar-mass-and-conversions
-- chemical-equations-and-balancing
 tags:
 - mole
 - Avogadro's number

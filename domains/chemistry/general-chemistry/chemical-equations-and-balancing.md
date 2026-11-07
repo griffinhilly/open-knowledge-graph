@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: reactants-and-products
   type: soft
+- id: combustion-reactions
+  type: soft
+- id: synthesis-and-decomposition
+  type: soft
 builds-toward:
 - stoichiometry-calculations
 - oxidation-reduction-reactions

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: evaporation-in-everyday-life
   type: soft
+- id: density-how-packed-together
+  type: soft
 builds-toward:
 - phase-changes-and-diagrams
 tags:

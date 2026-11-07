@@ -8,9 +8,7 @@ prerequisites:
   type: hard
 - id: conservation-genetics-effective-size
   type: hard
-builds-toward:
-- invasive-species-ecological-impacts
-- restoration-ecology-principles
+builds-toward: []
 tags:
 - extinction-vortex
 - allee-effect

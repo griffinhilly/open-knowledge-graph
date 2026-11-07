@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: trophic-cascade-top-down-control
   type: soft
+- id: trophic-levels-and-food-webs
+  type: soft
 builds-toward:
 - biodiversity-and-conservation
 tags:

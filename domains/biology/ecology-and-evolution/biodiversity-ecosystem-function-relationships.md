@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ecosystem-structure-and-function
   type: soft
+- id: ecosystem-stability-resilience-and-tipping-points
+  type: soft
 builds-toward:
 - ecosystem-services
 tags:

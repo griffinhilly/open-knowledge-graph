@@ -10,9 +10,7 @@ prerequisites:
   type: hard
 - id: endothermic-and-exothermic-reactions
   type: soft
-builds-toward:
-- hess-law-of-enthalpy
-- reaction-coordinate-diagrams
+builds-toward: []
 tags:
 - bond energy
 - bond breaking

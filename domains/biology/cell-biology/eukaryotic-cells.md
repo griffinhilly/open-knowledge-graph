@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: prokaryotic-cells
   type: soft
+- id: plant-vs-animal-cells
+  type: soft
 builds-toward:
 - organelles-overview
 - cell-membrane-structure

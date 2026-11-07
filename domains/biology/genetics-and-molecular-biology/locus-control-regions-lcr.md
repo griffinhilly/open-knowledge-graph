@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: chromatin-remodeling-accessibility
   type: hard
-builds-toward:
-- gene-regulation-eukaryotes
+builds-toward: []
 tags:
 - master-regulation
 - chromatin-domains

@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: ecological-succession
   type: soft
+- id: community-stability-resistance-resilience
+  type: soft
+- id: ecological-niche-modeling-and-species-distribution
+  type: soft
 tags:
 - climate-change
 - range-shifts

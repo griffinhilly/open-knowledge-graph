@@ -12,8 +12,7 @@ prerequisites:
   type: soft
 - id: chemometrics-multivariate-calibration
   type: soft
-builds-toward:
-- multianalyte-panel-determination
+builds-toward: []
 tags:
 - calibration
 - chemometrics

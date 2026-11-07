@@ -10,8 +10,7 @@ prerequisites:
   type: hard
 - id: discernment-same-different
   type: soft
-builds-toward:
-- adaptation-and-fitness
+builds-toward: []
 tags:
 - fur
 - feathers

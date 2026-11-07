@@ -6,9 +6,10 @@ course: cell-biology
 prerequisites:
 - id: cell-theory
   type: hard
+- id: single-celled-organisms
+  type: soft
 builds-toward:
 - eukaryotic-cells
-- cell-membrane-structure
 tags:
 - prokaryotes
 - bacteria

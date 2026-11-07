@@ -6,8 +6,7 @@ course: cell-biology
 prerequisites:
 - id: organelles-overview
   type: hard
-builds-toward:
-- lysosomes-cellular-digestion
+builds-toward: []
 tags:
 - peroxisome
 - oxidation

@@ -14,7 +14,6 @@ prerequisites:
   type: soft
 builds-toward:
 - adaptive-radiation-patterns
-- molecular-evolution-phylogenetics
 tags:
 - speciation
 - allopatric

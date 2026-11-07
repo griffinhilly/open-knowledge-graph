@@ -22,6 +22,8 @@ prerequisites:
   type: soft
 - id: reduction-reactions-organic
   type: soft
+- id: diels-alder-reaction
+  type: soft
 builds-toward: []
 tags:
 - retrosynthesis

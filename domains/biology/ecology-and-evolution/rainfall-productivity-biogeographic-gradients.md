@@ -10,8 +10,7 @@ prerequisites:
   type: soft
 - id: biogeochemical-cycles
   type: soft
-builds-toward:
-- climate-change-ecology
+builds-toward: []
 tags:
 - precipitation
 - productivity

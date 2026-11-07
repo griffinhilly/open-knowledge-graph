@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: what-plants-need-to-grow
   type: soft
+- id: parts-of-a-plant
+  type: soft
 builds-toward:
 - light-reactions
 - calvin-cycle

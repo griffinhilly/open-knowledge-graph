@@ -9,7 +9,6 @@ prerequisites:
 - id: structure-elucidation-using-ir-nmr-and-ms
   type: hard
 builds-toward:
-- method-development-lifecycle
 - pharmaceutical-quality-analysis
 tags:
 - pharmaceuticals

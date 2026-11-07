@@ -10,8 +10,7 @@ prerequisites:
   type: soft
 - id: egg-to-adult
   type: soft
-builds-toward:
-- cell-differentiation-development
+builds-toward: []
 tags:
 - human body
 - growth

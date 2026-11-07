@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: statistical-methods-analytical
   type: hard
-builds-toward:
-- raman-spectroscopy-analytical-methods
+builds-toward: []
 tags:
 - chemometrics
 - calibration

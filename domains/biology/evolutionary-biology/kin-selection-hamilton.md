@@ -6,8 +6,7 @@ course: evolutionary-biology
 prerequisites:
 - id: natural-selection
   type: hard
-builds-toward:
-- evolutionary-game-theory
+builds-toward: []
 tags:
 - kin-selection
 - altruism

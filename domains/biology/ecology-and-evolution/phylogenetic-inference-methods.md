@@ -18,7 +18,6 @@ prerequisites:
   type: soft
 builds-toward:
 - molecular-dating-phylogenetic-clocks
-- molecular-evolution-phylogenetics
 tags:
 - phylogenetics
 - methods

@@ -6,8 +6,7 @@ course: biochemistry
 prerequisites:
 - id: translation
   type: hard
-builds-toward:
-- genetic-code-wobble-pairing
+builds-toward: []
 tags:
 - tRNA
 - aminoacylation

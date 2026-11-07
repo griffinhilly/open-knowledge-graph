@@ -8,9 +8,7 @@ prerequisites:
   type: hard
 - id: method-validation
   type: hard
-builds-toward:
-- iso-iec-17025-laboratory-accreditation
-- quality-control-and-quality-assurance
+builds-toward: []
 tags:
 - method-transfer
 - equivalence

@@ -12,8 +12,7 @@ prerequisites:
   type: soft
 - id: needs-of-living-things
   type: hard
-builds-toward:
-- cell-biology-intro
+builds-toward: []
 tags:
 - growth
 - change

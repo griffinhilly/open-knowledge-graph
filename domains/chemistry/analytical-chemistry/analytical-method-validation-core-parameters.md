@@ -12,8 +12,7 @@ prerequisites:
   type: soft
 - id: optimization-of-analytical-method-parameters
   type: soft
-builds-toward:
-- analytical-selectivity-and-specificity
+builds-toward: []
 tags:
 - validation
 - parameters

@@ -10,8 +10,7 @@ prerequisites:
   type: hard
 - id: nmr-spectroscopy-spin-coupling
   type: soft
-builds-toward:
-- chemical-exchange-kinetics-nmr
+builds-toward: []
 tags:
 - nmr
 - spectroscopy

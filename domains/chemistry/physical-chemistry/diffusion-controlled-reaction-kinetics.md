@@ -14,8 +14,7 @@ prerequisites:
   type: soft
 - id: arrhenius-equation-temperature-dependence
   type: soft
-builds-toward:
-- bimolecular-collision-dynamics-trajectory
+builds-toward: []
 tags:
 - kinetics
 - diffusion

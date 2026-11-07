@@ -10,9 +10,7 @@ prerequisites:
   type: hard
 - id: species-interactions
   type: hard
-builds-toward:
-- community-assembly-rules
-- trophic-cascade-top-down-control
+builds-toward: []
 tags:
 - apparent-competition
 - indirect-effects

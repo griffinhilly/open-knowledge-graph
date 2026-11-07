@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: nutrient-cycling
   type: soft
-builds-toward:
-- ecosystem-productivity-gpp-npp
+builds-toward: []
 tags:
 - stoichiometry
 - element-ratios

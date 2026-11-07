@@ -14,8 +14,7 @@ prerequisites:
   type: soft
 - id: molecular-dating-fossil-calibration
   type: soft
-builds-toward:
-- molecular-evolution-rates
+builds-toward: []
 tags:
 - molecular-clock
 - dating

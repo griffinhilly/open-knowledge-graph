@@ -10,8 +10,7 @@ prerequisites:
   type: soft
 - id: resource-competition-and-partitioning
   type: soft
-builds-toward:
-- ecosystem-stability-resilience-and-tipping-points
+builds-toward: []
 tags:
 - community-assembly
 - coexistence

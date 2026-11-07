@@ -12,8 +12,7 @@ prerequisites:
   type: hard
 - id: osmosis-and-water-movement
   type: soft
-builds-toward:
-- cell-signaling-receptor-pathways
+builds-toward: []
 tags:
 - transport
 - mechanisms

@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: sn1-mechanism-kinetics-and-factors
   type: soft
-builds-toward:
-- structure-elucidation-using-ir-nmr-and-ms
+builds-toward: []
 tags:
 - ether-cleavage
 - hx-cleavage

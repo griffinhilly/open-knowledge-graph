@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - walsh-diagrams-structure-bonding-correlation
-- selection-rules-spectroscopy
 tags:
 - symmetry
 - molecular-orbitals

@@ -20,8 +20,7 @@ prerequisites:
   type: soft
 - id: population-stochasticity-and-extinction
   type: soft
-builds-toward:
-- extinction-vortex-populations
+builds-toward: []
 tags:
 - pva
 - viability

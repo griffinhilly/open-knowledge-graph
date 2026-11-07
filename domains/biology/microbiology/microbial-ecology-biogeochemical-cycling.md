@@ -8,9 +8,7 @@ prerequisites:
   type: hard
 - id: biogeochemical-cycles
   type: hard
-builds-toward:
-- ecosystem-services
-- community-ecology-intro
+builds-toward: []
 tags:
 - microbial-ecology
 - biogeochemical-cycling

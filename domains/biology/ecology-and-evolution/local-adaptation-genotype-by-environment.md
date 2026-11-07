@@ -14,7 +14,6 @@ prerequisites:
   type: soft
 builds-toward:
 - speciation
-- evolutionary-constraints
 tags:
 - local-adaptation
 - genotype-environment-interaction

@@ -10,8 +10,7 @@ prerequisites:
   type: hard
 - id: configuration-interaction-methods
   type: soft
-builds-toward:
-- time-dependent-dft-excited-states
+builds-toward: []
 tags:
 - quantum
 - electron-correlation

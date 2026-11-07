@@ -10,8 +10,7 @@ prerequisites:
   type: soft
 - id: symbiosis-ls
   type: hard
-builds-toward:
-- adaptive-radiation-patterns
+builds-toward: []
 tags:
 - mutualism
 - symbiosis

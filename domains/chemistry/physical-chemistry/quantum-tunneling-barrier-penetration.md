@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: quantum-chemistry-foundations
   type: hard
-builds-toward:
-- transition-state-geometry-activated-complex
+builds-toward: []
 tags:
 - tunneling
 - quantum-mechanics

@@ -12,8 +12,7 @@ prerequisites:
   type: soft
 - id: polyploidy-instant-speciation
   type: soft
-builds-toward:
-- modes-of-speciation-allopatric-peripatric-parapatric-sympatric
+builds-toward: []
 tags:
 - reproductive-isolation
 - barrier-evolution

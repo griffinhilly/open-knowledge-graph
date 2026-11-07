@@ -6,6 +6,8 @@ course: cell-biology
 prerequisites:
 - id: cell-signaling-intro
   type: hard
+- id: cell-adhesion-tissue
+  type: soft
 tags:
 - gap-junctions
 - connexins

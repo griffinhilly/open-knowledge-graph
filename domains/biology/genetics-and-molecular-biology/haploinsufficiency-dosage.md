@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: aneuploidy-imbalance
   type: hard
-builds-toward:
-- genetic-heterogeneity-locus
+builds-toward: []
 tags:
 - haploinsufficiency
 - dosage-sensitivity

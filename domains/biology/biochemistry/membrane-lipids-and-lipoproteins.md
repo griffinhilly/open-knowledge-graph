@@ -8,8 +8,7 @@ prerequisites:
   type: soft
 - id: fatty-acid-structure-and-classification
   type: hard
-builds-toward:
-- protein-targeting-and-subcellular-localization
+builds-toward: []
 tags:
 - phospholipids
 - lipoproteins

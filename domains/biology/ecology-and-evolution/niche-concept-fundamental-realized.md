@@ -13,7 +13,6 @@ prerequisites:
 builds-toward:
 - competition-types-outcomes
 - community-assembly-rules
-- speciation
 tags:
 - niche
 - ecological-role

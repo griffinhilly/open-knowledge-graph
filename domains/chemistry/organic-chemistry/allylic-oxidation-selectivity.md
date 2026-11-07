@@ -8,8 +8,7 @@ prerequisites:
   type: soft
 - id: free-radical-chain-halogenation
   type: soft
-builds-toward:
-- alcohol-oxidation-to-carbonyls
+builds-toward: []
 tags:
 - oxidation
 - allylic

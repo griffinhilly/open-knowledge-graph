@@ -18,7 +18,6 @@ prerequisites:
   type: soft
 builds-toward:
 - conservation-genetics-effective-size
-- extinction-vortex-populations
 tags:
 - metapopulation
 - habitat-patches

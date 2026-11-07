@@ -6,8 +6,7 @@ course: biochemistry
 prerequisites:
 - id: protein-targeting-and-subcellular-localization
   type: hard
-builds-toward:
-- post-translational-modifications
+builds-toward: []
 tags:
 - signal-sequence
 - translocation

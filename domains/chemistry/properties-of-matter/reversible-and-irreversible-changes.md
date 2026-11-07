@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: pure-substances-and-mixtures
   type: soft
-builds-toward:
-- matter-classification-and-properties
+builds-toward: []
 tags:
 - change
 - reversible

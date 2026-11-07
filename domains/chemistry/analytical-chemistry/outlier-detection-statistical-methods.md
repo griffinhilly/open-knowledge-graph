@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - quality-control-and-quality-assurance
-- data-integrity-regulatory-compliance
 tags:
 - statistics
 - outliers

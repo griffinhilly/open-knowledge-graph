@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: hardy-weinberg-equilibrium
   type: hard
+- id: evolutionary-genetics-foundations
+  type: soft
 builds-toward:
 - effective-population-size
 tags:

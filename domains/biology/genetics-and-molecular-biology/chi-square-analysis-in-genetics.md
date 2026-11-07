@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: statistical-methods-analytical
   type: soft
+- id: test-cross-analysis-determining-genotypes
+  type: soft
 builds-toward:
 - quantitative-genetics-and-polygenic-traits
 tags:

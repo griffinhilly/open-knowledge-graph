@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: thermochemistry-enthalpy
   type: soft
+- id: cellular-respiration-overview
+  type: soft
 builds-toward:
 - krebs-cycle
 tags:

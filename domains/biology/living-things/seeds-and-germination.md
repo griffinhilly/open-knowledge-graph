@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: discernment-same-different
   type: soft
-builds-toward:
-- photosynthesis-overview
+builds-toward: []
 tags:
 - seeds
 - germination

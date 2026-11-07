@@ -8,9 +8,7 @@ prerequisites:
   type: hard
 - id: community-ecology-intro
   type: soft
-builds-toward:
-- community-assembly-rules
-- mutualism-and-symbiosis
+builds-toward: []
 tags:
 - facilitation
 - positive-interactions

@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - enhancers-silencers-eukaryotic
-- gene-regulation-eukaryotes
 tags:
 - transcription-factors
 - protein-structure

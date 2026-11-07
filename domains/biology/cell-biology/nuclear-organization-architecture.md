@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - chromatin-remodeling-accessibility
-- histone-modifications-epigenetic
 tags:
 - nucleus
 - chromatin

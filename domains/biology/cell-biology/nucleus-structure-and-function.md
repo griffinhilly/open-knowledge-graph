@@ -10,9 +10,10 @@ prerequisites:
   type: hard
 - id: compartmentalization-cellular-organization
   type: soft
+- id: prokaryotic-eukaryotic-cells-comparison
+  type: soft
 builds-toward:
 - transcription
-- gene-expression-overview
 tags:
 - nucleus
 - chromatin

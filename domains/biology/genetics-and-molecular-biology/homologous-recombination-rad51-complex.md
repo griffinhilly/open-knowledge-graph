@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - non-homologous-end-joining-nhej
-- genetic-mapping-recombination-frequency
 tags:
 - homologous-recombination
 - rad51

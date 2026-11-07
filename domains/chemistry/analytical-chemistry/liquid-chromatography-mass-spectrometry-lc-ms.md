@@ -12,8 +12,7 @@ prerequisites:
   type: soft
 - id: gas-chromatography-mass-spectrometry-gc-ms
   type: soft
-builds-toward:
-- two-dimensional-chromatography-comprehensive
+builds-toward: []
 tags:
 - LC-MS
 - hyphenated-technique

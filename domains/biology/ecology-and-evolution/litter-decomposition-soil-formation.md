@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: biogeochemical-cycles
   type: soft
-builds-toward:
-- ecosystem-structure-and-function
+builds-toward: []
 tags:
 - litter
 - decomposition

@@ -11,7 +11,6 @@ prerequisites:
 - id: community-assembly-rules
   type: soft
 builds-toward:
-- conservation-genetics-effective-size
 - biodiversity-and-conservation
 tags:
 - invasive-species

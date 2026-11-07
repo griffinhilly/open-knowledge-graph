@@ -14,8 +14,9 @@ prerequisites:
   type: soft
 - id: origin-of-life
   type: soft
-builds-toward:
-- adaptive-radiation-molecular-basis
+- id: exaptation
+  type: soft
+builds-toward: []
 tags:
 - macroevolution
 - transition

@@ -12,8 +12,7 @@ prerequisites:
   type: soft
 - id: yeast-fermentation-and-metabolic-pathways
   type: soft
-builds-toward:
-- crispr-gene-editing
+builds-toward: []
 tags:
 - biotechnology
 - industrial

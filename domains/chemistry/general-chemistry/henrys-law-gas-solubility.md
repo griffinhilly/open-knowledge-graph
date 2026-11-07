@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: solution-concentration
   type: hard
-builds-toward:
-- solute-solvent-interactions-solvation
+builds-toward: []
 tags:
 - henrys-law
 - solubility

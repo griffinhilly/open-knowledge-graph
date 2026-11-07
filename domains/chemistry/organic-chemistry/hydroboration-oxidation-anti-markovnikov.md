@@ -12,8 +12,7 @@ prerequisites:
   type: soft
 - id: markovnikov-rule-in-addition-reactions
   type: hard
-builds-toward:
-- catalytic-hydrogenation-lindlar-catalyst
+builds-toward: []
 tags:
 - hydroboration
 - oxidation

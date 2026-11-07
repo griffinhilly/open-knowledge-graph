@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: statistical-methods-analytical
   type: hard
+- id: outlier-detection-statistical-methods
+  type: soft
+- id: reference-material-traceability
+  type: soft
 tags:
 - QA
 - QC

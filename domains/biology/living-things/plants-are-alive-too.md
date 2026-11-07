@@ -12,8 +12,7 @@ prerequisites:
   type: soft
 - id: living-vs-nonliving
   type: hard
-builds-toward:
-- cell-theory
+builds-toward: []
 tags:
 - plants
 - living things

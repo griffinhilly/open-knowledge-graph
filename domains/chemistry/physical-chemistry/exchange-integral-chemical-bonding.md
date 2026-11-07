@@ -9,7 +9,6 @@ prerequisites:
 - id: huckel-molecular-orbital-theory
   type: soft
 builds-toward:
-- molecular-orbital-symmetry-classification
 - aromaticity-huckel-rule-pi-system
 tags:
 - molecular-orbital-theory

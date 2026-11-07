@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: protein-trafficking-secretion
   type: hard
-builds-toward:
-- protein-targeting-and-subcellular-localization
+builds-toward: []
 tags:
 - Golgi
 - protein-sorting

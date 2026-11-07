@@ -6,8 +6,7 @@ course: properties-of-matter
 prerequisites:
 - id: reversible-and-irreversible-changes
   type: hard
-builds-toward:
-- chemical-equations-and-balancing
+builds-toward: []
 tags:
 - chemical-change
 - observation

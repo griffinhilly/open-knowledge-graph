@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: community-assembly-rules-and-coexistence
   type: soft
+- id: niche-concept-fundamental-realized
+  type: soft
 builds-toward:
 - biodiversity-patterns-richness-evenness
 tags:

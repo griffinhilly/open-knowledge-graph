@@ -15,3 +15,6 @@ newtopic_computer-science.verdicts.tsv
 bt_chemistry.verdicts.tsv
 newtopic_history.verdicts.tsv
 newtopic_language-and-communication.verdicts.tsv
+bt_biology_p00.verdicts.tsv
+bt_chemistry.agreed.tsv
+bt_biology_p00.agreed.tsv

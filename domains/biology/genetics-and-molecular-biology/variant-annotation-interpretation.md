@@ -10,8 +10,7 @@ prerequisites:
   type: hard
 - id: single-nucleotide-polymorphisms-snps
   type: soft
-builds-toward:
-- genetic-heterogeneity-locus
+builds-toward: []
 tags:
 - variant-annotation
 - variant-interpretation

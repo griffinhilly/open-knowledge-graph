@@ -7,7 +7,6 @@ prerequisites:
 - id: atomic-structure-basics
   type: hard
 builds-toward:
-- chemical-equations-and-balancing
 - stoichiometry-calculations
 - solution-concentration
 tags:

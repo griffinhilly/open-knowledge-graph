@@ -12,8 +12,7 @@ prerequisites:
   type: soft
 - id: nutrient-cycling-phosphorus-sulfur
   type: soft
-builds-toward:
-- ecosystem-services
+builds-toward: []
 tags:
 - phosphorus
 - cycling

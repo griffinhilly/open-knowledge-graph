@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: friedel-crafts-acylation
   type: soft
-builds-toward:
-- nucleophilic-aromatic-substitution
+builds-toward: []
 tags:
 - directing-effects
 - ortho-para

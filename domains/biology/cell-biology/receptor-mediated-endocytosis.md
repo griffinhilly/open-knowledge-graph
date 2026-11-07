@@ -8,8 +8,7 @@ prerequisites:
   type: soft
 - id: cell-signaling-intro
   type: soft
-builds-toward:
-- protein-trafficking-secretion
+builds-toward: []
 tags:
 - endocytosis
 - clathrin

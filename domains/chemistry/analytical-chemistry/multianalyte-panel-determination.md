@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mass-spectrometry-analytical
   type: hard
+- id: detector-ionization-suppression-effects
+  type: soft
 builds-toward:
 - high-throughput-analytical-screening
 tags:

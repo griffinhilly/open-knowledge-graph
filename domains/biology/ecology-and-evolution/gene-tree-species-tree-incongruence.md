@@ -10,8 +10,7 @@ prerequisites:
   type: hard
 - id: phylogenetics-intro
   type: soft
-builds-toward:
-- speciation
+builds-toward: []
 tags:
 - gene-tree
 - species-tree

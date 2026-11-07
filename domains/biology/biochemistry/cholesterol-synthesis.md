@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - membrane-lipids-and-lipoproteins
-- metabolic-integration-hormonal-regulation
 tags:
 - cholesterol
 - steroid synthesis

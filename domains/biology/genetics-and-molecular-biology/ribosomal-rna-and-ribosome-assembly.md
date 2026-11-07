@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - translation-elongation-and-termination
-- gene-regulation-eukaryotes
 tags:
 - ribozyme
 - peptidyl-transferase

@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: gel-electrophoresis
   type: hard
-builds-toward:
-- dna-barcoding-markers
+builds-toward: []
 tags:
 - dna-fingerprinting
 - rflp

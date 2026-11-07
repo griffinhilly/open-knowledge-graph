@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: selective-permeability-and-membrane-channels
   type: soft
+- id: cell-membrane-structure
+  type: soft
 builds-toward:
 - cell-signaling-intro
 tags:

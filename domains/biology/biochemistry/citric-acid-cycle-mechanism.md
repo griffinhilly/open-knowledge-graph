@@ -24,6 +24,8 @@ prerequisites:
   type: soft
 - id: nad-nadh-structure-and-function
   type: soft
+- id: enzyme-cofactors-and-coenzymes
+  type: soft
 builds-toward:
 - citric-acid-cycle-regulation
 - oxidative-phosphorylation-and-chemiosmosis

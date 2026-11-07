@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: centrosome-microtubule-organization
   type: soft
-builds-toward:
-- centrosomes-and-spindle-pole-bodies
+builds-toward: []
 tags:
 - cilia
 - flagella

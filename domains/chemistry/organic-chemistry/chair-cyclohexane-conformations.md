@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: conformational-analysis-alkanes
   type: hard
-builds-toward:
-- stereochemistry-intro
+builds-toward: []
 tags:
 - cyclohexane
 - axial

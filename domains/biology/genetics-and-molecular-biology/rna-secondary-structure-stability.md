@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: amino-acid-structure-and-properties
   type: soft
-builds-toward:
-- alternative-splicing-mechanisms
+builds-toward: []
 tags:
 - rna-folding
 - secondary-structure

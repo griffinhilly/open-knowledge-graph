@@ -12,8 +12,7 @@ prerequisites:
   type: soft
 - id: living-vs-nonliving
   type: hard
-builds-toward:
-- cell-biology-intro
+builds-toward: []
 tags:
 - needs
 - survival

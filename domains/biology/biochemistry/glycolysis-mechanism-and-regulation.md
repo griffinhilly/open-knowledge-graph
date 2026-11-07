@@ -20,6 +20,8 @@ prerequisites:
   type: soft
 - id: rate-laws-experimental-determination-orders
   type: soft
+- id: monosaccharides-isomers
+  type: soft
 builds-toward:
 - citric-acid-cycle-mechanism
 - pyruvate-dehydrogenase-complex

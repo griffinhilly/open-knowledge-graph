@@ -10,8 +10,7 @@ prerequisites:
   type: hard
 - id: binomial-distribution
   type: soft
-builds-toward:
-- metabolic-integration-hormonal-regulation
+builds-toward: []
 tags:
 - cooperativity
 - Hill coefficient

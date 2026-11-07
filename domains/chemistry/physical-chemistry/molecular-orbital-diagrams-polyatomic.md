@@ -8,9 +8,7 @@ prerequisites:
   type: hard
 - id: molecular-geometry-basics
   type: hard
-builds-toward:
-- electron-correlation-approximations
-- group-theory-molecular-symmetry
+builds-toward: []
 tags:
 - orbital
 - bonding

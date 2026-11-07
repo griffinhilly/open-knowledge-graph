@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: pentose-phosphate-pathway
   type: soft
+- id: fatty-acid-structure-and-classification
+  type: soft
+- id: pyruvate-metabolic-hub
+  type: soft
 builds-toward:
 - cholesterol-synthesis
 - metabolic-integration-hormonal-regulation

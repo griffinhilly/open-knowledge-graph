@@ -6,8 +6,7 @@ course: general-chemistry
 prerequisites:
 - id: thermochemistry-enthalpy
   type: hard
-builds-toward:
-- entropy-and-gibbs-free-energy
+builds-toward: []
 tags:
 - specific-heat
 - heat-capacity

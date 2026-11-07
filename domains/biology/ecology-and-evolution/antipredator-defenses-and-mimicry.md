@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: natural-selection
   type: soft
-builds-toward:
-- trophic-cascades-in-food-webs
+builds-toward: []
 tags:
 - defense
 - mimicry

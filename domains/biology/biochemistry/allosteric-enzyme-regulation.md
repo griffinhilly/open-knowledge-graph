@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: le-chatelier-principle
   type: soft
+- id: noncompetitive-enzyme-inhibition
+  type: soft
 builds-toward:
 - enzyme-cooperativity
 - metabolic-integration-hormonal-regulation

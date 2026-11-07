@@ -8,9 +8,7 @@ prerequisites:
   type: hard
 - id: population-growth-models
   type: soft
-builds-toward:
-- age-structured-demographics-and-fecundity
-- population-regulation
+builds-toward: []
 tags:
 - life-history
 - r-k-selection

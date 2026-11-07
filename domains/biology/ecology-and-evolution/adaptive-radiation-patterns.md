@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - biodiversity-patterns-richness-evenness
-- island-biogeography
 tags:
 - adaptive-radiation
 - divergence

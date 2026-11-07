@@ -8,9 +8,9 @@ prerequisites:
   type: hard
 - id: nutrient-absorption-and-transport
   type: soft
-builds-toward:
-- ecosystem-services
-- climate-change-ecology
+- id: ecosystem-structure-and-function
+  type: soft
+builds-toward: []
 tags:
 - cycles
 - phosphorus

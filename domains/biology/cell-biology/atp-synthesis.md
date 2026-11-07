@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: electrochemical-cells
   type: soft
+- id: mitochondria-structure-and-function
+  type: soft
 builds-toward:
 - photosynthesis-overview
 tags:

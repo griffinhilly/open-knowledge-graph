@@ -10,8 +10,9 @@ prerequisites:
   type: hard
 - id: sister-chromatid-cohesion-cohesin-proteins
   type: soft
-builds-toward:
-- mitosis
+- id: kinetochore-structure-and-function
+  type: soft
+builds-toward: []
 tags:
 - APC
 - ubiquitin-ligase

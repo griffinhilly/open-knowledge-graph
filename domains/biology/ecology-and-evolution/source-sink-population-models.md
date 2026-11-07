@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - metapopulation-dynamics-connectivity
-- conservation-genetics-and-population-recovery
 tags:
 - source-sink
 - population

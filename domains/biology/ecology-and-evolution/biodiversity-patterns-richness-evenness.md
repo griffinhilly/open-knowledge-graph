@@ -8,9 +8,11 @@ prerequisites:
   type: soft
 - id: biodiversity-metrics
   type: soft
-builds-toward:
-- conservation-genetics-effective-size
-- island-biogeography
+- id: community-assembly-rules
+  type: soft
+- id: adaptive-radiation-patterns
+  type: soft
+builds-toward: []
 tags:
 - biodiversity
 - richness

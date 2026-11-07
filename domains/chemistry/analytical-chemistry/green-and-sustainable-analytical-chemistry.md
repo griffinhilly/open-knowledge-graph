@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: derivatization-in-analytical-chemistry
   type: soft
+- id: field-portable-analytical-instruments
+  type: soft
 tags:
 - green chemistry
 - sustainability

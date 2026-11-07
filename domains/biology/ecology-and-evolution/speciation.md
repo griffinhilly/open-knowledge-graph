@@ -20,9 +20,14 @@ prerequisites:
   type: soft
 - id: natural-selection-types-and-examples
   type: soft
+- id: gene-flow-selection-balance
+  type: soft
+- id: local-adaptation-genotype-by-environment
+  type: soft
+- id: mating-patterns-inbreeding-assortative
+  type: soft
 builds-toward:
 - phylogenetics-intro
-- biodiversity-metrics
 tags:
 - speciation
 - reproductive-isolation

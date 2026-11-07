@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: chloroplast-photosynthesis-organelle
   type: hard
+- id: photosynthesis-overview
+  type: soft
 tags:
 - Calvin-cycle
 - carbon-fixation

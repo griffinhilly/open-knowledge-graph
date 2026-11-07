@@ -8,9 +8,7 @@ prerequisites:
   type: hard
 - id: biogeographic-patterns-and-realms
   type: soft
-builds-toward:
-- conservation-genetics-and-population-recovery
-- restoration-ecology-principles
+builds-toward: []
 tags:
 - endemism
 - distribution

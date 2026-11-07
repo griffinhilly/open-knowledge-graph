@@ -10,8 +10,7 @@ prerequisites:
   type: soft
 - id: reaction-mechanisms-overview
   type: soft
-builds-toward:
-- allosteric-enzyme-regulation
+builds-toward: []
 tags:
 - irreversible inhibition
 - covalent modification

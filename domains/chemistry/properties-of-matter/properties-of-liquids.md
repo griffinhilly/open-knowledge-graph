@@ -6,8 +6,7 @@ course: properties-of-matter
 prerequisites:
 - id: solids-liquids-gases
   type: hard
-builds-toward:
-- solution-properties
+builds-toward: []
 tags:
 - liquids
 - flow

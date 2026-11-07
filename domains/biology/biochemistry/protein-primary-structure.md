@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: covalent-bonding
   type: soft
+- id: amino-acid-structure-and-properties
+  type: soft
 builds-toward:
 - protein-secondary-structure
 - enzyme-structure-and-function

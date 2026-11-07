@@ -6,8 +6,7 @@ course: living-things
 prerequisites:
 - id: animal-life-cycles
   type: hard
-builds-toward:
-- cell-differentiation-development
+builds-toward: []
 tags:
 - metamorphosis
 - butterfly

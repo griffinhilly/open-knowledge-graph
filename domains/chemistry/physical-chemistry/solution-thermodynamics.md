@@ -6,6 +6,8 @@ course: physical-chemistry
 prerequisites:
 - id: statistical-thermodynamics-applications
   type: hard
+- id: solute-solvent-interactions-solvation
+  type: soft
 builds-toward: []
 tags:
 - partial-molar-quantities

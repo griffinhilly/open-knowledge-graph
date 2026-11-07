@@ -8,9 +8,7 @@ prerequisites:
   type: hard
 - id: ecosystem-structure-and-function
   type: soft
-builds-toward:
-- ecosystem-productivity-gpp-npp
-- nutrient-cycling
+builds-toward: []
 tags:
 - nitrogen
 - fixation

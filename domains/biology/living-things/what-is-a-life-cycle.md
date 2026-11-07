@@ -14,8 +14,7 @@ prerequisites:
   type: soft
 - id: egg-to-adult
   type: soft
-builds-toward:
-- cell-cycle-overview
+builds-toward: []
 tags:
 - life cycle
 - growth

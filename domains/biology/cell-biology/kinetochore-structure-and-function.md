@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mitotic-spindle-checkpoint
   type: hard
+- id: centrosomes-and-spindle-pole-bodies
+  type: soft
 builds-toward:
 - sister-chromatid-cohesion-cohesin-proteins
 - anaphase-promoting-complex-cell-cycle-control

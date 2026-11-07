@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - enzyme-cofactors-and-coenzymes
-- michaelis-menten-enzyme-kinetics
 tags:
 - enzyme classification
 - EC number

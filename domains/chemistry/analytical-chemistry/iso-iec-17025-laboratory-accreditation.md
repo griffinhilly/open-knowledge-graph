@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: reference-material-traceability
   type: soft
+- id: analytical-standard-operating-procedures
+  type: soft
+- id: data-integrity-regulatory-compliance
+  type: soft
 builds-toward: []
 tags:
 - accreditation

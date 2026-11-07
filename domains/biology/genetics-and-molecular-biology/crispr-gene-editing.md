@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: non-homologous-end-joining-nhej
   type: soft
+- id: recombinant-dna-technology
+  type: soft
 tags:
 - CRISPR
 - Cas9

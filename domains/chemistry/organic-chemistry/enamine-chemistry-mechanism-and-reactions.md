@@ -10,8 +10,7 @@ prerequisites:
   type: hard
 - id: keto-enol-tautomerism-mechanism
   type: soft
-builds-toward:
-- retrosynthetic-analysis
+builds-toward: []
 tags:
 - enamine
 - secondary-amine

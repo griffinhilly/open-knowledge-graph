@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: gene-regulation-eukaryotes
   type: soft
+- id: eukaryotic-promoters-tfiid-complex
+  type: soft
 tags:
 - enhancers
 - silencers

@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: periodic-trends
   type: soft
+- id: single-replacement-reactions
+  type: soft
+- id: rusting-and-tarnishing
+  type: soft
 builds-toward:
 - oxidation-numbers
 - electrochemistry-basics

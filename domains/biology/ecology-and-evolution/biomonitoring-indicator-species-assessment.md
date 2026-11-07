@@ -8,8 +8,7 @@ prerequisites:
   type: soft
 - id: ecosystem-structure-and-function
   type: soft
-builds-toward:
-- conservation-genetics-and-population-recovery
+builds-toward: []
 tags:
 - biomonitoring
 - indicator-species

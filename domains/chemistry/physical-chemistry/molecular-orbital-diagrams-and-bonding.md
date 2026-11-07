@@ -13,7 +13,6 @@ prerequisites:
 - id: molecular-orbital-diagrams-polyatomic
   type: soft
 builds-toward:
-- perturbation-theory-quantum-chemistry
 - selection-rules-electronic-spectroscopy
 tags:
 - quantum

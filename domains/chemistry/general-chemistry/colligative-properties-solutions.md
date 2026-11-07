@@ -6,6 +6,10 @@ course: general-chemistry
 prerequisites:
 - id: dilution-and-solution-preparation
   type: hard
+- id: concentration-and-molarity
+  type: soft
+- id: solution-properties
+  type: soft
 tags:
 - colligative properties
 - boiling point elevation

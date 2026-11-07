@@ -12,8 +12,7 @@ prerequisites:
   type: soft
 - id: oxymercuration-mechanism
   type: soft
-builds-toward:
-- alcohol-oxidation-to-carbonyls
+builds-toward: []
 tags:
 - addition
 - hydroboration

@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: molecular-geometry-basics
   type: hard
-builds-toward:
-- aromaticity-huckel-rule-pi-system
+builds-toward: []
 tags:
 - orbital-correlation
 - molecular-geometry

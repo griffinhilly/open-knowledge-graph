@@ -6,8 +6,7 @@ course: properties-of-matter
 prerequisites:
 - id: signs-of-chemical-change
   type: hard
-builds-toward:
-- endothermic-and-exothermic-reactions
+builds-toward: []
 tags:
 - cooking
 - chemical-change

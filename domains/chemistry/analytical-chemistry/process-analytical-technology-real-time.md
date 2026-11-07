@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: spectroscopic-instrumentation
   type: soft
-builds-toward:
-- method-development-lifecycle
+builds-toward: []
 tags:
 - pat
 - real-time

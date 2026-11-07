@@ -22,6 +22,8 @@ prerequisites:
   type: soft
 - id: secondary-succession-post-disturbance
   type: soft
+- id: trophic-cascade-top-down-control
+  type: soft
 tags:
 - restoration
 - native-species

@@ -913,3 +913,184 @@ DROP	quantum-tunneling-barrier-penetration	transition-state-geometry-activated-c
 DROP	rotational-quantum-numbers-energy	vibrational-energy-levels-selection-rules	-	medium	B covers pure vibrational levels and rules, not rovibrational structure.
 DROP	rotational-spectroscopy-quantum-theory	vibrational-overtones-and-transitions	-	medium	Overtones and hot bands come from anharmonicity, not rotational theory.
 ADD	informative-writing-early	paragraph-writing-intro	soft	high	early informative pieces group related facts, the precursor of paragraphing	[would create cycle]
+ADD	noncompetitive-enzyme-inhibition	allosteric-enzyme-regulation	soft	medium	Binding at a site other than the active site is the idea allosteric regulation generalizes.
+DROP	lactate-metabolism	carbohydrate-homeostasis	-	medium	Glucose homeostasis is built on hormones, glycogen and gluconeogenesis; the Cori cycle is an elaboration, not a basis.
+ADD	carbohydrate-structure-and-classification	disaccharides-and-polysaccharides	soft	medium	Classifying sugars helps; monosaccharide isomers is already the hard prerequisite.
+DROP	amino-acid-classification-and-properties	enzyme-cofactors-and-coenzymes	-	medium	Cofactor chemistry (vitamins, metal ions) does not depend on amino acid classification.
+ADD	pyruvate-metabolic-hub	fatty-acid-synthesis	soft	medium	Acetyl-CoA for lipogenesis comes from pyruvate via citrate export.
+DROP	cholesterol-synthesis	metabolic-integration-hormonal-regulation	-	medium	The integration topic covers glucose and fatty acid pathways; cholesterol synthesis is not part of it.
+DROP	enzyme-cooperativity	metabolic-integration-hormonal-regulation	-	medium	Integration draws on allosteric control (already soft), not on Hill-coefficient analysis.
+ADD	amino-acid-degradation-overview	oxidative-deamination	soft	medium	The overview frames where amino-group removal sits in catabolism; the reaction itself stands alone.
+ADD	protein-folding-and-chaperones	post-translational-modifications	soft	medium	Some PTMs (glycosylation, disulfides) act on folding, so folding context helps.
+DROP	protein-translocation-and-signal-sequences	post-translational-modifications	-	medium	PTMs are covalent changes that do not require translocation machinery; signal-peptide cleavage is a minor case.
+DROP	translation-elongation-and-termination	post-translational-modifications	-	medium	PTMs already draw on translation via translation-initiation-and-elongation (hard); this duplicate adds nothing.
+DROP	translation-termination-stop-codons-release-factors	post-translational-modifications	-	medium	Release-factor detail is not needed to understand covalent protein modification.
+ADD	protein-tertiary-structure	protein-folding-and-chaperones	hard	medium	Folding pathways describe how a chain reaches its native tertiary structure.
+DROP	membrane-lipids-and-lipoproteins	protein-targeting-and-subcellular-localization	-	medium	Targeting depends on signal sequences and transport machinery, not lipid or lipoprotein chemistry.
+ADD	protein-folding-and-chaperones	protein-targeting-and-subcellular-localization	soft	medium	Post-translational mitochondrial import needs chaperone-held unfolded chains.
+DROP	trans-golgi-network-protein-sorting	protein-targeting-and-subcellular-localization	-	medium	TGN sorting is a specialization of targeting; the general topic does not draw on it.
+ADD	amino-acid-degradation-overview	transamination-reactions	soft	medium	The overview frames transamination as the first step of amino acid catabolism.
+ADD	kinetochore-structure-and-function	anaphase-promoting-complex-cell-cycle-control	soft	medium	The spindle checkpoint at unattached kinetochores restrains APC/C-Cdc20.
+DROP	lysosomal-degradation-autophagy	apoptosis-cell-death	-	medium	Apoptosis is caspase-driven; it does not draw on lysosomal or autophagy machinery.
+DROP	substrate-level-phosphorylation	atp-synthesis	-	medium	Chemiosmotic ATP synthesis does not depend on substrate-level phosphorylation beyond a contrast.
+ADD	plasma-membrane-organization-dynamics	cell-adhesion-tissue	soft	medium	Cadherins and integrins are transmembrane proteins linked to the cytoskeleton.
+ADD	cells-to-tissues-and-organs	cell-adhesion-tissue	soft	medium	The tissue concept motivates why cells adhere.
+DROP	growth-and-change	cell-biology-intro	-	medium	An early-grade growth topic is not drawn on by a cell-level unifying-principles topic.
+DROP	needs-of-living-things	cell-biology-intro	-	medium	Cell biology intro draws on cell theory, not on the early-grade needs topic.
+DROP	responding-to-surroundings	cell-biology-intro	-	medium	Cell signaling at this level does not draw on the early-grade responding topic.
+DROP	centrosomes-and-spindle-pole-bodies	cell-cycle-phases-transitions	-	medium	Phase transitions are explained by cyclin-CDK control, not centrosome structure.
+DROP	egg-to-adult	cell-differentiation-development	-	medium	Differentiation draws on gene expression and signaling, not the early-grade egg-to-adult topic.
+DROP	human-growth-stages	cell-differentiation-development	-	medium	Human growth stages are not used in explaining cell fate specification.
+DROP	metamorphosis	cell-differentiation-development	-	medium	Metamorphosis is not drawn on in explaining transcriptional cell fate programs.
+DROP	prokaryotic-cells	cell-membrane-structure	-	medium	Membrane structure draws on eukaryotic cells and chemistry, not on prokaryotes.
+DROP	passive-transport	cell-signaling-intro	-	medium	Signal transduction draws on membrane structure and enzymes, not on diffusion mechanics.
+DROP	membrane-transport-mechanisms	cell-signaling-receptor-pathways	-	medium	Receptor-to-second-messenger pathways do not depend on an integrated transport survey.
+ADD	living-vs-nonliving	cell-theory	soft	medium	Cell theory's claim that all living things are cells uses the living/nonliving distinction.
+DROP	plants-are-alive-too	cell-theory	-	medium	Cell theory does not specifically draw on the early-grade plants-are-alive topic.
+DROP	cell-biology-intro	cellular-respiration-overview	-	medium	Respiration draws on mitochondria, enzymes and redox, not on a general unifying-principles survey.
+DROP	cilia-flagella-axonemal-structure	centrosomes-and-spindle-pole-bodies	-	medium	Basal bodies derive from centrioles, so cilia draw on centrosomes, not the reverse.
+ADD	mitochondrion-energy-production	electron-transport-chain	soft	medium	Overlaps the existing hard mitochondria prerequisite; useful context only.
+ADD	plant-vs-animal-cells	eukaryotic-cells	soft	medium	Plant and animal cells are the familiar eukaryotic examples the topic generalizes.
+DROP	endocytosis-clathrin-mediated-pathway	exocytosis-snare-proteins-membrane-fusion	-	medium	SNARE-mediated fusion does not draw on clathrin coat assembly.
+ADD	cell-adhesion-tissue	gap-junctions-communication	soft	medium	Gap junctions are one class of cell-cell junction alongside adhesion junctions.
+DROP	nuclear-organization-architecture	histone-modifications-epigenetic	-	medium	Histone marks are explained at the nucleosome level, not through 3D genome architecture.
+ADD	centrosomes-and-spindle-pole-bodies	kinetochore-structure-and-function	soft	medium	Kinetochores capture microtubules nucleated from the spindle poles.
+DROP	peroxisome-oxidative-metabolism	lysosomes-cellular-digestion	-	medium	Lysosome function does not draw on peroxisomal oxidation; they are parallel organelles.
+ADD	cell-cycle-checkpoints-regulation	mitosis-stages-regulation	soft	medium	The regulation of mitosis includes the spindle assembly checkpoint.
+ADD	prokaryotic-eukaryotic-cells-comparison	nucleus-structure-and-function	soft	medium	The nucleus topic frames its regulatory role as a layer prokaryotes lack.
+ADD	parts-of-a-plant	photosynthesis-overview	soft	medium	Knowing leaves, roots and stems helps place where photosynthesis happens.
+DROP	seeds-and-germination	photosynthesis-overview	-	medium	Germination is not drawn on in explaining the photosynthetic process.
+DROP	seeds-to-plants-to-seeds	photosynthesis-overview	-	medium	The plant life cycle is not drawn on in explaining photosynthesis.
+DROP	plant-vs-animal-cells	prokaryotic-cells	-	medium	Comparing two eukaryotic cell types does not inform prokaryotic structure.
+ADD	single-celled-organisms	prokaryotic-cells	soft	medium	Bacteria are the canonical single-celled organisms.
+DROP	receptor-mediated-endocytosis	protein-trafficking-secretion	-	medium	The secretory pathway does not draw on endocytosis; a near-duplicate is already listed soft.
+DROP	spliceosome-and-splicing-regulation	rna-editing-post-transcriptional-modification	-	medium	Editing is mentioned as distinct from splicing; it does not draw on spliceosome mechanics.
+ADD	lipid-bilayer-and-amphipathic-molecules	selective-permeability-and-membrane-channels	soft	high	Selectivity is explained by the hydrophobic core of the bilayer.	[would create cycle]
+ADD	kinetochore-structure-and-function	sister-chromatid-cohesion-cohesin-proteins	soft	medium	Cohesion resists kinetochore pulling and creates the tension that signals biorientation.
+DROP	animal-coverings	adaptation-and-fitness	-	medium	Adaptation examples are already supplied by adaptation-basics and adaptations-for-survival (hard).
+DROP	how-animals-move	adaptation-and-fitness	-	medium	Fitness and adaptation theory does not draw on locomotion basics.
+DROP	mutualism-and-symbiosis	adaptive-radiation-patterns	-	medium	Adaptive radiation is driven by ecological opportunity and speciation, not mutualism.
+DROP	life-history-evolution-r-and-k-selection	age-structured-demographics-and-fecundity	-	medium	Life tables and Leslie matrices are the basis for life-history theory, not the reverse.
+ADD	invasive-species-establishment-mechanisms	biodiversity-and-conservation	soft	medium	Invasive species are one of the extinction threats the topic covers.
+ADD	ecosystem-stability-resilience-and-tipping-points	biodiversity-ecosystem-function-relationships	soft	medium	Stability is one of the ecosystem functions diversity is related to.
+ADD	adaptive-radiation-patterns	biodiversity-patterns-richness-evenness	soft	medium	The topic explains gradients via speciation; radiation is a key speciation pattern.
+ADD	net-primary-productivity-allocation	biogeochemical-cycles	soft	medium	Carbon fixation by primary producers is the entry flux of the carbon cycle.
+ADD	community-stability-resistance-resilience	climate-change-ecology	soft	medium	Resistance and resilience frame how communities respond to climate stress.
+ADD	ecological-niche-modeling-and-species-distribution	climate-change-ecology	soft	medium	Range-shift projections rely on species distribution models.
+ADD	invasive-species-ecological-impacts	climate-change-ecology	soft	medium	The topic treats invasive species as a stressor that interacts with climate change.
+DROP	nutrient-cycling-phosphorus-sulfur	climate-change-ecology	-	medium	Climate-change responses do not draw on P and S cycle detail; biogeochemical-cycles is already hard.
+DROP	nutrient-cycling	climate-change-ecology	-	medium	Biogeochemical-cycles (hard) already supplies the carbon-cycle basis; decomposition detail is not needed.
+DROP	rainfall-productivity-biogeographic-gradients	climate-change-ecology	-	medium	The topic covers precipitation shifts but does not draw on productivity-gradient theory.
+DROP	apparent-competition-indirect-effects	community-assembly-rules	-	medium	Assembly rules rest on competition, niches and dispersal, not indirect apparent competition.
+DROP	facilitation-mechanisms-ecology	community-assembly-rules	-	medium	The topic's assembly mechanisms are filtering, competition and dispersal; facilitation is not used.
+DROP	trophic-cascades-in-food-webs	community-assembly-rules-and-coexistence	-	medium	Coexistence via filtering and limiting similarity does not draw on trophic cascades.
+ADD	community-succession-primary-secondary	community-stability-resistance-resilience	soft	medium	Resilience is recovery after disturbance, which proceeds by succession.
+DROP	biomonitoring-indicator-species-assessment	conservation-genetics-and-population-recovery	-	medium	Genetic monitoring of recovery is unrelated to indicator-species biomonitoring.
+DROP	endemism-and-range-restriction	conservation-genetics-and-population-recovery	-	medium	Recovery genetics (Ne, inbreeding, translocation) does not depend on endemism concepts.
+ADD	habitat-fragmentation-connectivity-corridors	conservation-genetics-and-population-recovery	soft	medium	Maintaining migration between fragments is one of the topic's recovery strategies.
+DROP	source-sink-population-models	conservation-genetics-and-population-recovery	-	medium	Recovery genetics does not draw on source-sink demographic models.
+ADD	metapopulation-connectivity-patches	conservation-genetics-effective-size	soft	medium	Restoring Ne in fragmented populations relies on patch connectivity.
+ADD	metapopulation-dynamics-connectivity	conservation-genetics-effective-size	soft	medium	Gene flow among habitat patches is how Ne is restored in fragmented populations.
+ADD	population-age-structure-life-history	conservation-genetics-effective-size	soft	medium	Ne depends on reproductive variance and generation structure.
+DROP	ecological-stoichiometry-element-ratios	ecosystem-productivity-gpp-npp	-	medium	GPP and NPP are defined from photosynthesis and respiration, not element ratios.
+DROP	nitrogen-fixation-limitation-cycling	ecosystem-productivity-gpp-npp	-	medium	The topic defines GPP and NPP; nutrient limitation of productivity is not drawn on.
+JUDGE	biodiversity-ecosystem-function-relationships	ecosystem-services	-	medium	Services do draw on BEF, but adding closes a cycle (services -> biodiversity-and-conservation -> BEF); a human must cut one edge.
+DROP	nutrient-cycling-phosphorus-sulfur	ecosystem-services	-	medium	Nutrient cycling (soft) already covers the supporting service; P/S detail is not needed.
+DROP	phosphorus-cycling-freshwater-marine	ecosystem-services	-	medium	Service classification does not draw on P cycling differences between water bodies.
+DROP	microbial-ecology-biogeochemical-cycling	ecosystem-services	-	medium	An advanced microbial topic is not needed to understand service categories.
+DROP	community-assembly-rules-and-coexistence	ecosystem-stability-resilience-and-tipping-points	-	medium	Stability draws on resistance/resilience and diversity, not on assembly rules.
+ADD	disturbance-ecology-and-succession-dynamics	ecosystem-stability-resilience-and-tipping-points	soft	medium	Resistance and resilience are defined as responses to disturbance.
+DROP	paleoecology-and-fossil-records	ecosystem-stability-resilience-and-tipping-points	-	medium	Fossil-record inference is not drawn on to explain stability or tipping points.
+ADD	trophic-cascades-in-food-webs	ecosystem-stability-resilience-and-tipping-points	soft	medium	Classic regime shifts (kelp forests, lakes) are driven by trophic cascades.
+DROP	litter-decomposition-soil-formation	ecosystem-structure-and-function	-	medium	This is an introductory ecosystem topic; decomposition detail builds on it, not the reverse.
+DROP	trophic-cascade-top-down-control	ecosystem-structure-and-function	-	medium	Trophic cascades build on ecosystem structure, not the reverse.
+DROP	trophic-efficiency-energy-loss	ecosystem-structure-and-function	-	medium	Trophic efficiency is a refinement of energy flow, which the intro topic already gets from its hard prerequisite.
+DROP	animal-homes-and-habitats	ecosystem-structure-and-function	-	medium	Animal homes is too elementary to be drawn on by ecosystem structure and function.
+DROP	trees-vs-herbs	ecosystem-structure-and-function	-	medium	Plant growth forms are not drawn on in explaining ecosystem energy and nutrient flow.
+ADD	what-is-a-habitat	ecosystem-structure-and-function	soft	medium	Habitat is the familiar idea behind the abiotic component of ecosystems.
+DROP	metapopulation-dynamics-connectivity	extinction-vortex-populations	-	medium	The vortex is a small-population feedback of drift, inbreeding and Allee effects, not patch dynamics.
+DROP	population-viability-analysis	extinction-vortex-populations	-	medium	PVA quantifies extinction risk and draws on the vortex, not the reverse.
+ADD	natural-selection-types-and-examples	genetic-drift-in-small-populations	soft	medium	The topic contrasts drift with weak selection, so knowing selection helps.
+DROP	conservation-genetics-effective-size	invasive-species-ecological-impacts	-	medium	Invasion establishment and impacts do not draw on Ne and inbreeding.
+DROP	adaptive-radiation-patterns	island-biogeography	-	medium	MacArthur-Wilson theory is an immigration-extinction balance and does not draw on radiation.
+DROP	biodiversity-patterns-richness-evenness	island-biogeography	-	medium	Adding would close a cycle (island-biogeography -> biodiversity-and-conservation -> biodiversity-patterns); metrics is already soft.
+DROP	reproductive-isolation-accumulation	modes-of-speciation-allopatric-peripatric-parapatric-sympatric	-	medium	Modes of speciation draw on reproductive isolation (hard); how isolation accumulates is a later refinement.
+DROP	comparative-phylogenetic-methods	molecular-dating-fossil-calibration	-	medium	Clock calibration draws on clocks and trees, not on comparative trait methods.
+DROP	evidence-for-evolution	molecular-evolution-phylogenetics	-	medium	Molecular evolution draws on mutation and sequence divergence, not on the evidence survey.
+DROP	modes-of-speciation-allopatric-peripatric-parapatric-sympatric	molecular-evolution-phylogenetics	-	medium	Sequence evolution and tree inference do not draw on modes of speciation.
+DROP	phylogenetic-inference-methods	molecular-evolution-phylogenetics	-	medium	The advanced methods topic should build on this survey, not the reverse.
+DROP	facilitation-mechanisms-ecology	mutualism-and-symbiosis	-	medium	Mutualism draws on species interactions and symbiosis; facilitation is a parallel community-level idea.
+ADD	energy-flow-in-ecosystems	nutrient-cycling	soft	medium	Nutrient cycling is taught in contrast to one-way energy flow.
+DROP	nitrogen-fixation-limitation-cycling	nutrient-cycling	-	medium	The general decomposition topic does not draw on N-fixation detail.
+ADD	ecosystem-structure-and-function	nutrient-cycling-phosphorus-sulfur	soft	medium	Nutrient cycling between biotic and abiotic parts is defined in the ecosystem topic.
+DROP	comparing-life-cycles	population-ecology-intro	-	medium	Population demography does not draw on comparing organism life cycles.
+DROP	natural-selection-types-and-examples	population-genetic-structure-metapopulations	-	medium	FST and subdivision are explained by drift and gene flow; selection types are not needed.
+DROP	life-history-evolution-r-and-k-selection	population-regulation	-	medium	r/K theory builds on density-dependent regulation, not the reverse.
+DROP	carrying-capacity	predator-prey-dynamics	-	medium	Classic Lotka-Volterra has no carrying capacity; population-regulation (soft) already covers it.
+ADD	density-dependence-mechanisms	predator-prey-dynamics	soft	medium	Predation acting as a density-dependent regulator is part of the topic.
+DROP	endemism-and-range-restriction	restoration-ecology-principles	-	medium	Restoration draws on succession, disturbance and assembly, not endemism.
+DROP	extinction-vortex-populations	restoration-ecology-principles	-	medium	Ecosystem restoration does not draw on small-population genetic feedbacks.
+ADD	trophic-cascade-top-down-control	restoration-ecology-principles	soft	medium	Reintroducing native predators (e.g., Yellowstone wolves) is a restoration strategy based on cascades.
+ADD	gene-flow-selection-balance	speciation	soft	medium	Divergence requires selection to overcome homogenizing gene flow.
+ADD	local-adaptation-genotype-by-environment	speciation	soft	medium	Local adaptation underlies ecological differentiation, one route to speciation.
+ADD	mating-patterns-inbreeding-assortative	speciation	soft	medium	Assortative mating is a mechanism of prezygotic isolation and sympatric divergence.
+DROP	niche-concept-fundamental-realized	speciation	-	medium	Speciation draws on selection, gene flow and isolation; niche theory is not needed.
+ADD	population-genetic-structure-metapopulations	speciation	soft	medium	Differentiation among subpopulations is the starting point of divergence.
+DROP	chromosomal-evolution	speciation	-	medium	The advanced karyotype topic should build on speciation, not the reverse.
+DROP	apparent-competition-indirect-effects	trophic-cascade-top-down-control	-	medium	Cascades are predator-herbivore-producer chains; apparent competition is a separate indirect effect.
+DROP	antipredator-defenses-and-mimicry	trophic-cascades-in-food-webs	-	medium	Cascade dynamics do not draw on defense and mimicry mechanisms.
+DROP	plant-animal-coevolutionary-networks	trophic-cascades-in-food-webs	-	medium	Cascades rest on food web structure, not on coevolutionary mutualist networks.
+DROP	polyploidy-instant-speciation	adaptive-radiation	-	medium	Radiation draws on ecological speciation and opportunity, not polyploid isolation.
+DROP	directional-selection	adaptive-radiation	-	medium	Radiation already draws on natural selection (soft); the advanced directional-selection topic adds nothing needed.
+DROP	positive-selection	adaptive-radiation	-	medium	Radiation is an ecological-diversification pattern; molecular positive selection is not drawn on.
+DROP	punctuated-equilibrium	adaptive-radiation	-	medium	Radiation does not depend on the punctuated-equilibrium tempo debate.
+DROP	evolutionary-trade-offs	adaptive-radiation-molecular-basis	-	medium	The molecular basis (duplication, regulatory divergence) does not draw on life-history trade-offs.
+DROP	evolutionary-transitions	adaptive-radiation-molecular-basis	-	medium	Fossil-record transitions between major groups are not drawn on by radiation genetics.
+DROP	evolvability	adaptive-radiation-molecular-basis	-	medium	The topic's mechanisms are duplication and regulatory change; evolvability is not invoked.
+ADD	major-evolutionary-innovations	adaptive-radiation-molecular-basis	soft	medium	Innovations via duplication and regulatory change are what open niches for radiation.
+DROP	fitness-landscape	balancing-selection	-	medium	Overdominance and frequency dependence are explained without fitness-landscape theory.
+DROP	heterozygote-advantage	balancing-selection	-	medium	The reverse edge already exists (balancing-selection is a soft prereq of heterozygote-advantage); adding would create a 2-cycle.
+DROP	genealogical-methods-phylogenetics	bayesian-phylogenetics	-	medium	Bayesian tree inference draws on likelihood and Bayes, not coalescent genealogy.
+ADD	mutation-selection-balance	efficacy-selection-finite-populations	soft	medium	Whether drift fixes deleterious alleles builds on the balance between mutation and selection.
+DROP	recombination-evolution	efficacy-selection-finite-populations	-	medium	The s versus 1/(2Ne) threshold does not draw on recombination-rate evolution.
+DROP	slightly-deleterious-mutations	efficacy-selection-finite-populations	-	medium	Slightly deleterious mutations applies the efficacy idea; adding would also cycle through nearly-neutral-evolution.
+DROP	heterochrony-development-evolution	evo-developmental-modules	-	medium	Modularity does not draw on changes in developmental timing.
+ADD	regulatory-evolution	evo-developmental-modules	soft	medium	Modular cis-regulatory elements are how modules evolve independently.
+DROP	local-adaptation-genotype-by-environment	evolutionary-constraints	-	medium	Developmental, genetic and historical constraints do not draw on GxE.
+DROP	kin-selection-hamilton	evolutionary-game-theory	-	medium	Game theory rests on frequency-dependent payoffs, not on kin selection.
+ADD	frequency-dependent-selection-polymorphism	evolutionary-stable-strategy	soft	medium	ESS payoffs depend on strategy frequencies, as in frequency-dependent selection.
+ADD	hawk-dove-game	evolutionary-stable-strategy	soft	medium	The topic uses hawk-dove as its worked example of a mixed ESS.
+ADD	exaptation	evolutionary-transitions	soft	medium	Intermediate stages adaptive in their own context often involve co-opted traits.
+DROP	punctuated-equilibrium	evolutionary-transitions	-	medium	Transitions are documented through intermediate fossils, not through tempo theory.
+DROP	adaptive-landscape-crossing	evolvability	-	medium	Evolvability rests on architecture, mutation and Ne, not on landscape crossing.
+ADD	efficacy-selection-finite-populations	evolvability	soft	medium	The topic lists effective population size as a determinant of evolvability.
+ADD	kin-selection-theory	hamilton-rule	soft	medium	Hamilton's rule is the quantitative form of kin selection.
+ADD	evolutionary-genetics-foundations	hardy-weinberg-advanced	soft	medium	The foundations of allele and genotype frequencies support the advanced HW applications.
+DROP	adaptive-landscape-crossing	major-evolutionary-innovations	-	medium	Novelties arise by co-option and regulatory change, not by landscape crossing.
+DROP	chromosomal-evolution	major-evolutionary-innovations	-	medium	The topic draws on gene duplication and regulatory change, not karyotype rearrangement.
+ADD	substitution-rates	molecular-clock	soft	medium	The clock is a constant substitution rate, so the rate concept helps.
+DROP	molecular-dating-phylogenetic-clocks	molecular-evolution-rates	-	medium	Dating draws on rate variation, not the reverse.
+DROP	effective-recombination-rate	molecular-evolution-rates	-	medium	Rate variation across sites, genes and lineages does not draw on linked selection.
+DROP	genealogical-methods-phylogenetics	molecular-evolution-rates	-	medium	Rate variation is explained by constraint and lineage traits, not coalescent methods.
+ADD	efficacy-selection-finite-populations	nearly-neutral-evolution	soft	medium	Nearly neutral theory is built on the s versus 1/(2Ne) threshold.
+DROP	mutation-rate-evolution	nearly-neutral-evolution	-	medium	The drift-barrier idea applies nearly neutral theory to mutation rates, not the reverse.
+DROP	mutation-selection-balance	nearly-neutral-evolution	-	medium	Nearly neutral theory rests on drift, Ne and fixation probability, not mutation-selection balance.
+ADD	protein-evolution	positive-selection	soft	medium	Detecting positive selection (dN/dS > 1) is read against functional constraint.
+DROP	frequency-dependent-selection-polymorphism	sexual-selection	-	medium	Mate competition and choice are explained without frequency-dependent selection.
+DROP	rna-secondary-structure-stability	alternative-splicing-mechanisms	-	medium	Alternative splicing draws on splicing machinery, not RNA folding thermodynamics.
+ADD	test-cross-analysis-determining-genotypes	chi-square-analysis-in-genetics	soft	medium	Chi-square tests are often applied to observed test-cross ratios.
+ADD	transcription-factors-and-gene-regulation	chromatin-remodeling-and-histone-acetylation	soft	medium	HATs and remodelers are recruited by transcription factors.
+DROP	transcription-factor-binding-specificity	chromatin-remodeling-swi-snf	-	medium	SWI/SNF is recruited by TFs, but the topic does not draw on DNA-recognition specificity.
+ADD	recombinant-dna-technology	crispr-gene-editing	soft	medium	Delivering Cas9 and guide RNAs uses recombinant DNA tools; molecular cloning is already hard.
+DROP	microbial-biotechnology-industrial-applications	crispr-gene-editing	-	medium	CRISPR editing does not draw on industrial microbial applications.
+DROP	dna-fingerprinting-rflp	dna-barcoding-markers	-	medium	Barcoding uses sequence divergence of marker genes, not restriction fragment patterns.
+ADD	dna-replication-accuracy-proofreading	dna-repair-mechanisms	soft	medium	Repair handles errors that escape polymerase proofreading.
+DROP	nucleus-structure-and-function	gene-expression-overview	-	medium	The central dogma does not draw on nuclear envelope or nucleolus detail.
+DROP	locus-control-regions-lcr	gene-regulation-eukaryotes	-	medium	LCRs are a specialized case that builds on general eukaryotic regulation.
+DROP	transcription-factors-binding-domains	gene-regulation-eukaryotes	-	medium	Adding would close a cycle (gene-regulation-eukaryotes -> TF-and-gene-regulation -> TF-binding-specificity -> TF-binding-domains).
+DROP	haploinsufficiency-dosage	genetic-heterogeneity-locus	-	medium	Locus and allelic heterogeneity do not draw on dosage sensitivity.
+DROP	variant-annotation-interpretation	genetic-heterogeneity-locus	-	medium	Heterogeneity is a Mendelian concept that does not need variant-annotation pipelines.
+DROP	homologous-recombination-rad51-complex	genetic-mapping-recombination-frequency	-	medium	Mapping uses crossover frequencies, not the molecular mechanism of strand exchange.
+ADD	half-reactions-and-balancing	galvanic-electrochemical-cells	soft	high	two reviewers agree (strength differed; soft)	[would create cycle]
+ADD	population-genetic-structure-metapopulations	speciation	soft	high	two reviewers agree: Differentiation among subpopulations is the starting point of divergence.	[would create cycle]
+ADD	dna-replication-accuracy-proofreading	dna-repair-mechanisms	soft	high	two reviewers agree: Repair handles errors that escape polymerase proofreading.	[would create cycle]

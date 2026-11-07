@@ -15,7 +15,6 @@ prerequisites:
 - id: response-surface-methodology-method-optimization
   type: soft
 builds-toward:
-- iso-iec-17025-laboratory-accreditation
 - analytical-standard-operating-procedures
 tags:
 - validation

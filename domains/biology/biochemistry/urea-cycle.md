@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: transamination-reactions
   type: soft
+- id: oxidative-deamination
+  type: soft
 tags:
 - urea
 - nitrogen-disposal

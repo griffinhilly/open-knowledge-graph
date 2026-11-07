@@ -10,8 +10,7 @@ prerequisites:
   type: hard
 - id: friedel-crafts-acylation-mechanism
   type: soft
-builds-toward:
-- electrophilic-aromatic-substitution-directors
+builds-toward: []
 tags:
 - friedel-crafts
 - alkylation

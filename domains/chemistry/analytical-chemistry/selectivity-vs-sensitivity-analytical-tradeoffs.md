@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - optimization-of-analytical-method-parameters
-- response-surface-methodology-method-optimization
 tags:
 - method-development
 - optimization

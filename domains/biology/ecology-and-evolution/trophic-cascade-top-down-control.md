@@ -11,7 +11,6 @@ prerequisites:
 - id: predator-prey-dynamics
   type: soft
 builds-toward:
-- ecosystem-structure-and-function
 - restoration-ecology-principles
 tags:
 - trophic-cascade

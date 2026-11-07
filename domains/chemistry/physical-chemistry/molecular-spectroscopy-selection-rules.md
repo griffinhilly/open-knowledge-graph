@@ -14,7 +14,6 @@ prerequisites:
   type: soft
 builds-toward:
 - electronic-transitions-excited-states
-- nmr-spectroscopy-spin-coupling
 tags:
 - spectroscopy
 - selection-rules

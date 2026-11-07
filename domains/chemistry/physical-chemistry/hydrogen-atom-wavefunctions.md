@@ -17,7 +17,6 @@ prerequisites:
 builds-toward:
 - molecular-orbital-theory-advanced
 - variational-principle-chemistry
-- electronic-spectroscopy-theory
 tags:
 - hydrogen
 - orbitals

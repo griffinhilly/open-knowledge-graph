@@ -8,9 +8,7 @@ prerequisites:
   type: hard
 - id: limiting-reagent-calculations
   type: hard
-builds-toward:
-- gas-stoichiometry
-- analytical-chemistry-intro
+builds-toward: []
 tags:
 - percent yield
 - theoretical yield

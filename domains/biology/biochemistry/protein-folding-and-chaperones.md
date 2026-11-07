@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: entropy-and-gibbs-free-energy
   type: soft
+- id: protein-tertiary-structure
+  type: hard
 builds-toward:
 - post-translational-modifications
 - protein-targeting-and-subcellular-localization

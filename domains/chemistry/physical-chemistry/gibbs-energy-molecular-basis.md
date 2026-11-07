@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: entropy-and-gibbs-free-energy
   type: hard
-builds-toward:
-- transition-state-geometry-activated-complex
+builds-toward: []
 tags:
 - gibbs-free-energy
 - thermodynamics

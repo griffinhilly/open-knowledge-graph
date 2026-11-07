@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: dna-damage-checkpoint-responses
   type: soft
+- id: apoptosis-cell-death
+  type: soft
 tags:
 - cell-cycle-checkpoints
 - p53

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ionic-bonding
   type: soft
+- id: thermal-and-electrical-conductivity
+  type: soft
 builds-toward:
 - electrochemistry-basics
 tags:

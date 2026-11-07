@@ -14,6 +14,12 @@ prerequisites:
   type: soft
 - id: ph-scale
   type: soft
+- id: acid-base-definitions
+  type: soft
+- id: acids-properties-and-examples
+  type: soft
+- id: bases-properties-and-examples
+  type: soft
 builds-toward:
 - ph-and-acid-base-calculations
 tags:

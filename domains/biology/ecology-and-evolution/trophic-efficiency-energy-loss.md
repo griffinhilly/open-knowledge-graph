@@ -10,8 +10,7 @@ prerequisites:
   type: hard
 - id: ecosystem-productivity-gpp-npp
   type: soft
-builds-toward:
-- ecosystem-structure-and-function
+builds-toward: []
 tags:
 - trophic-efficiency
 - energy-loss

@@ -8,8 +8,10 @@ prerequisites:
   type: hard
 - id: quality-control-and-quality-assurance
   type: hard
+- id: analytical-standard-operating-procedures
+  type: soft
 builds-toward:
-  - iso-iec-17025-laboratory-accreditation
+- iso-iec-17025-laboratory-accreditation
 tags:
 - data-integrity
 - compliance

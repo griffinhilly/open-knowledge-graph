@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: chemical-equations-and-balancing
   type: hard
-builds-toward:
-  - reaction-coordinate-diagrams
+builds-toward: []
 tags:
 - Hess's Law
 - enthalpy

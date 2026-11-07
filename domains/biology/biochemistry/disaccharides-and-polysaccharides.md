@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: aldehyde-and-ketone-structure-and-nomenclature
   type: soft
+- id: carbohydrate-structure-and-classification
+  type: soft
 builds-toward:
 - glycolysis-mechanism-and-regulation
 - glycogen-metabolism

@@ -9,7 +9,6 @@ prerequisites:
 - id: sample-preparation
   type: soft
 builds-toward:
-- quality-control-and-quality-assurance
 - batch-and-sequence-optimization
 tags:
 - contamination

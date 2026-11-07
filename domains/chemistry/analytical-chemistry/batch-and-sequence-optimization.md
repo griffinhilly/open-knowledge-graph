@@ -8,8 +8,9 @@ prerequisites:
   type: hard
 - id: statistical-methods-analytical
   type: soft
+- id: carryover-contamination-prevention
+  type: soft
 builds-toward:
-- quality-control-and-quality-assurance
 - high-throughput-analytical-screening
 tags:
 - batch-design

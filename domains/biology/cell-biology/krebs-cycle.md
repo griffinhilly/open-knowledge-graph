@@ -12,6 +12,12 @@ prerequisites:
   type: soft
 - id: thermochemistry-enthalpy
   type: soft
+- id: cellular-respiration-overview
+  type: soft
+- id: enzyme-structure-and-function
+  type: soft
+- id: glycolysis
+  type: soft
 builds-toward:
 - electron-transport-chain
 tags:

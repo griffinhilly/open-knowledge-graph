@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - kinetochore-structure-and-function
-- cell-cycle-phases-transitions
 tags:
 - centrosomes
 - MTOC

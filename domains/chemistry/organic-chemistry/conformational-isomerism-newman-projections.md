@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: alkane-structure-and-properties
   type: soft
-builds-toward:
-- walden-inversion-stereochemistry
+builds-toward: []
 tags:
 - conformational-isomerism
 - newman-projection

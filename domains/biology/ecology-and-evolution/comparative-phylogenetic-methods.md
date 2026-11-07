@@ -10,8 +10,7 @@ prerequisites:
   type: hard
 - id: adaptation-and-fitness
   type: soft
-builds-toward:
-- molecular-dating-fossil-calibration
+builds-toward: []
 tags:
 - comparative-methods
 - phylogenetic

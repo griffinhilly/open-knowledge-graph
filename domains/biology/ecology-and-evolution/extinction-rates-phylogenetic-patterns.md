@@ -8,9 +8,7 @@ prerequisites:
   type: soft
 - id: molecular-evolution-phylogenetics
   type: soft
-builds-toward:
-- conservation-genetics-effective-size
-- invasive-species-ecological-impacts
+builds-toward: []
 tags:
 - extinction
 - rates

@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - hydrogen-atom-solution-radial-wavefunction
-- electron-correlation-multi-electron-atoms
 tags:
 - quantum-mechanics
 - wave-functions

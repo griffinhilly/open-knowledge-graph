@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: intermolecular-forces
   type: hard
-builds-toward:
-- phase-changes-and-diagrams
+builds-toward: []
 tags:
 - van-der-Waals
 - real-gas

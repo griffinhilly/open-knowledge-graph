@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: ecosystem-structure-and-function
   type: soft
+- id: disturbance-ecology-and-succession-dynamics
+  type: soft
 builds-toward:
 - biodiversity-ecosystem-function-relationships
 tags:

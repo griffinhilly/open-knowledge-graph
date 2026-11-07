@@ -12,8 +12,7 @@ prerequisites:
   type: hard
 - id: polar-protic-aprotic-solvents
   type: hard
-builds-toward:
-- zaitsevs-rule-hofmann-elimination
+builds-toward: []
 tags:
 - mechanism
 - selectivity

@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: periods-and-groups
   type: soft
+- id: metals-nonmetals-metalloids
+  type: soft
 builds-toward:
 - electron-configuration
 - periodic-trends

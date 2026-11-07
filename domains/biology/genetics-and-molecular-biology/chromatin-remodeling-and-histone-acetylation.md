@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: promoters-enhancers-and-regulatory-regions
   type: soft
+- id: transcription-factors-and-gene-regulation
+  type: soft
 builds-toward:
 - transcription-initiation-eukaryotes
 - dna-methylation-and-epigenetic-silencing

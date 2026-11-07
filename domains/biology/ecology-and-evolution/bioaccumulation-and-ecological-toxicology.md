@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: trophic-levels-and-food-webs
   type: soft
-builds-toward:
-- ecosystem-stability-resilience-and-tipping-points
+builds-toward: []
 tags:
 - toxicology
 - bioaccumulation

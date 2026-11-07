@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: cytoskeleton-cellular-framework
   type: hard
+- id: cell-cycle-checkpoints-regulation
+  type: soft
 tags:
 - mitosis
 - division

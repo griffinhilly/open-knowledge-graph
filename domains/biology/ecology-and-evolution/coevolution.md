@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - species-interactions
-- ecological-succession
 tags:
 - coevolution
 - arms-race

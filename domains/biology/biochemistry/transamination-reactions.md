@@ -12,9 +12,11 @@ prerequisites:
   type: soft
 - id: nucleophile-electrophile-definitions
   type: soft
+- id: amino-acid-degradation-overview
+  type: soft
 builds-toward:
-  - oxidative-deamination
-  - urea-cycle
+- oxidative-deamination
+- urea-cycle
 tags:
 - amino-acids
 - enzymes

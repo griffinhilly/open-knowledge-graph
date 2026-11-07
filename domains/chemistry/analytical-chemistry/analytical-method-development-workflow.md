@@ -14,7 +14,6 @@ prerequisites:
   type: soft
 builds-toward:
 - analytical-method-validation-core-parameters
-- analytical-selectivity-and-specificity
 tags:
 - method-development
 - workflow

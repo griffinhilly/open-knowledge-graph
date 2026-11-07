@@ -10,9 +10,10 @@ prerequisites:
   type: soft
 - id: decomposition-microbial-mineralization
   type: hard
+- id: energy-flow-in-ecosystems
+  type: soft
 builds-toward:
 - ecosystem-services
-- climate-change-ecology
 tags:
 - decomposition
 - detritivores

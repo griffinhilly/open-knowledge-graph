@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - evolutionary-stable-strategy
-- sexual-selection
 tags:
 - selection
 - polymorphism

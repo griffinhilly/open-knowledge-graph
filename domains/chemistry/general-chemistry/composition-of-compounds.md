@@ -12,8 +12,7 @@ prerequisites:
   type: soft
 - id: molecules-and-chemical-formulas
   type: soft
-builds-toward:
-- writing-ionic-formulas
+builds-toward: []
 tags:
 - percent composition
 - empirical formula

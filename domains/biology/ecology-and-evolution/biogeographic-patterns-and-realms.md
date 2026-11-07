@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - endemism-and-range-restriction
-- conservation-genetics-and-population-recovery
 tags:
 - biogeography
 - distribution

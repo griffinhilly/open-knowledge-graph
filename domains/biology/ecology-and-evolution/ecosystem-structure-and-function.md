@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: ocean-and-pond-habitats
   type: soft
+- id: what-is-an-ecosystem
+  type: soft
+- id: what-is-a-habitat
+  type: soft
 builds-toward:
 - energy-flow-in-ecosystems
 - nutrient-cycling-phosphorus-sulfur

@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: fruits-and-seed-dispersal
   type: hard
-builds-toward:
-- photosynthesis-overview
+builds-toward: []
 tags:
 - plant reproduction
 - seeds

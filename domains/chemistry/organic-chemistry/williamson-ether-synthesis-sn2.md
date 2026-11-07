@@ -10,8 +10,7 @@ prerequisites:
   type: hard
 - id: sn2-mechanism-kinetics-and-factors
   type: hard
-builds-toward:
-- ether-cleavage-and-fragmentation
+builds-toward: []
 tags:
 - williamson-ether-synthesis
 - sn2

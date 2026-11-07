@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: lotka-volterra-predation-cycles
   type: soft
+- id: community-succession-primary-secondary
+  type: soft
 builds-toward:
 - restoration-ecology-principles
 - climate-change-ecology

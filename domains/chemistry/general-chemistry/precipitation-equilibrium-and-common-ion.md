@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: common-ion-effect
   type: soft
-builds-toward:
-- analytical-chemistry-intro
+builds-toward: []
 tags:
 - precipitation
 - ksp

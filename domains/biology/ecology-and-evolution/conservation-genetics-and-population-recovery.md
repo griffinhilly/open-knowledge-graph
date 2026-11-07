@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: population-stochasticity-and-extinction
   type: soft
+- id: habitat-fragmentation-connectivity-corridors
+  type: soft
 tags:
 - conservation-genetics
 - recovery

@@ -6,8 +6,7 @@ course: living-things
 prerequisites:
 - id: parts-of-a-plant
   type: hard
-builds-toward:
-- photosynthesis-overview
+builds-toward: []
 tags:
 - flowers
 - pollination
