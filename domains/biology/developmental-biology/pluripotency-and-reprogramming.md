@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Pluripotency — the ability to differentiate into any cell type of the body — is maintained by a core transcription factor network centered on Oct4, Sox2, and Nanog, which activate each other and pluripotency-associated genes while repressing lineage-specific genes. Shinya Yamanaka's discovery (2006) that forced expression of just four transcription factors (Oct4, Sox2, Klf4, c-Myc) can reprogram differentiated adult cells into induced pluripotent stem cells (iPSCs) demonstrated that cell fate is reversible and maintained by ongoing transcription factor activity rather than permanent genomic changes. iPSC technology enables patient-specific disease modeling, drug screening, and potentially autologous cell replacement therapy.
 
+## How It's Best Learned
+Draw the Oct4-Sox2-Nanog circuit as three nodes with arrows activating each other and blunt arrows repressing lineage genes. Then trace a fibroblast through reprogramming in stages: added factors open chromatin, the cell's own Oct4, Sox2 and Nanog switch back on, and the added transgenes become unnecessary. Ending with a comparison of iPSCs and embryonic stem cells shows what reprogramming does and does not reset.
+
+## Common Misconceptions
+- Differentiated cells have lost the genes needed for pluripotency. (Reprogramming shows that these genes are still present but silenced, so restoring the right transcription factors can turn them back on.)
+- The four Yamanaka factors must stay on for an iPSC to remain pluripotent. (Once the cell's own pluripotency network is self-sustaining, the added transgenes can be silenced.)
+- iPSCs are exact copies of embryonic stem cells. (iPSCs can keep some epigenetic memory of their cell of origin and can carry changes acquired during reprogramming.)
+- Pluripotent cells can form a whole organism on their own, including the placenta. (Pluripotent cells form the cell types of the body; a totipotent cell, such as the zygote, can also form extraembryonic tissues.)
+
 ## Questions
 
 ```yaml

@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Asymmetric cell division produces two daughter cells with different fates by unequally distributing fate determinants (proteins or mRNAs) to one side of the dividing cell and then placing the cleavage plane such that each daughter inherits a different set of determinants. The mechanism requires cell polarity (establishing molecular asymmetry within the cell, typically via Par protein complexes), asymmetric localization of fate determinants (like Numb, Prospero, Miranda), and mitotic spindle orientation aligned with the polarity axis. Asymmetric division is fundamental to stem cell self-renewal (one daughter remains a stem cell, the other differentiates) and to the generation of cell-type diversity during development.
 
+## How It's Best Learned
+Draw a Drosophila neuroblast at metaphase with the Par complex as an apical crescent and Numb and Miranda as a basal crescent. Then draw the spindle and the cleavage plane, and ask what each daughter inherits. Repeat the drawing three times, removing polarity, determinant localization, or spindle orientation in turn, and predict the outcome of each defect.
+
+## Common Misconceptions
+- A fate determinant works by being present in the cell, wherever it sits. (Determinants act on fate because they are concentrated on one side and then segregated into one daughter; spread evenly, they reach both daughters and the asymmetry is lost.)
+- Localizing determinants is enough, and the spindle can point anywhere. (If the spindle is not aligned with the polarity axis, the cleavage plane can split each crescent between both daughters.)
+- Every stem cell keeps its identity through asymmetric division. (Some stem cells divide symmetrically and rely on the niche: the daughter that stays in the niche remains a stem cell and the displaced one differentiates.)
+- Losing asymmetry makes both daughters differentiate. (The outcome depends on what fails; in Drosophila neuroblasts, losing basal determinants such as Numb, Brat or Prospero, or spreading aPKC around the whole cortex, can make both daughters self-renew and cause tumor-like overgrowth.)
+
 ## Questions
 
 ```yaml

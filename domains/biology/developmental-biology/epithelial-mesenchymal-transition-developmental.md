@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Epithelial-mesenchymal transition (EMT) is a cellular program in which polarized epithelial cells lose their cell-cell adhesions, apical-basal polarity, and epithelial gene expression, and gain migratory, invasive, mesenchymal properties. EMT is driven by transcription factors (Snail, Slug, Twist, ZEB1/2) that repress E-cadherin and activate mesenchymal genes like vimentin and N-cadherin. EMT occurs during normal development (gastrulation, neural crest delamination, heart valve formation) and is pathologically reactivated during cancer metastasis, where it enables tumor cells to invade surrounding tissues and enter the bloodstream. The reverse process (MET, mesenchymal-epithelial transition) is equally important in development and in metastatic colonization.
 
+## How It's Best Learned
+Draw an epithelial sheet and a mesenchymal cell side by side, and list what changes between them: junctions, polarity, adhesion molecules and motility. Then attach each change to the transcription factors that drive it, such as Snail repressing E-cadherin. Finally, walk through one developmental case, such as neural crest delamination, and one metastasis case, noting where MET follows.
+
+## Common Misconceptions
+- EMT is an abnormal process that happens only in cancer. (EMT is a normal part of gastrulation, neural crest delamination and heart valve formation; cancer reactivates it.)
+- EMT is an all-or-nothing switch. (Cells often stop in partial or hybrid states that keep some epithelial adhesion while gaining mesenchymal traits.)
+- Once a cell becomes mesenchymal, it stays that way. (The reverse process, MET, rebuilds epithelial structures, as when kidney mesenchyme forms nephron tubules.)
+- Blocking EMT everywhere would stop metastasis with no downside. (Metastatic colonization at a distant site can depend on MET, so forcing cells into one state can work against the goal.)
+
 ## Questions
 
 ```yaml

@@ -1,0 +1,52 @@
+domains/biology/developmental-biology/aging-as-development.md	how	3	0	ok
+domains/biology/developmental-biology/aging-as-development.md	mis	8	0	ok	Older text: Q1 explanation states the clock reflects developmental machinery as near-fact ("recent evidence suggests ... not random noise"); new bullet correctly hedges it as one proposal.
+domains/biology/developmental-biology/asymmetric-cell-division.md	how	3	0	ok
+domains/biology/developmental-biology/asymmetric-cell-division.md	mis	8	1	fixed	Bullet 4 correction overstated: "loss of polarity often makes both daughters self-renew". Loss of aPKC reduces neuroblast self-renewal; overgrowth comes from losing basal determinants (Numb/Brat/Prospero) or spreading aPKC (e.g. lgl). Qualified.
+domains/biology/developmental-biology/axis-formation.md	how	3	0	ok
+domains/biology/developmental-biology/axis-formation.md	mis	8	1	fixed	Bullet 3 overstated "in vertebrates the known trigger is cilia-driven flow at the node"; chick and pig break L-R symmetry without nodal flow, and the correction ignored that cilia rotation itself derives from molecular chirality. Restricted to mouse/zebrafish/frog and added both qualifiers.
+domains/biology/developmental-biology/cell-fate-determination.md	how	3	0	ok
+domains/biology/developmental-biology/cell-fate-determination.md	mis	8	0	ok
+domains/biology/developmental-biology/cell-migration-in-development.md	how	3	0	ok
+domains/biology/developmental-biology/cell-migration-in-development.md	mis	8	1	fixed	Bullet 1 correction stated all migrating cells use actin-driven protrusions; some embryonic cells (e.g. zebrafish germ cells) migrate by pressure-driven blebs. Changed to "Most migrating embryonic cells ... protrusions".
+domains/biology/developmental-biology/chromatin-in-development.md	how	3	0	ok
+domains/biology/developmental-biology/chromatin-in-development.md	mis	8	0	ok
+domains/biology/developmental-biology/developmental-signaling-pathways.md	how	3	0	ok
+domains/biology/developmental-biology/developmental-signaling-pathways.md	mis	8	0	ok
+domains/biology/developmental-biology/developmental-timing.md	how	2	0	ok
+domains/biology/developmental-biology/developmental-timing.md	mis	8	0	ok
+domains/biology/developmental-biology/epithelial-mesenchymal-transition-developmental.md	how	3	0	ok
+domains/biology/developmental-biology/epithelial-mesenchymal-transition-developmental.md	mis	8	0	ok
+domains/biology/developmental-biology/evo-devo.md	how	2	0	ok
+domains/biology/developmental-biology/evo-devo.md	mis	8	0	ok
+domains/biology/developmental-biology/fertilization-and-early-cleavage.md	how	2	0	ok
+domains/biology/developmental-biology/fertilization-and-early-cleavage.md	mis	8	0	ok
+domains/biology/developmental-biology/gastrulation.md	how	3	0	ok
+domains/biology/developmental-biology/gastrulation.md	mis	8	1	fixed	Bullet 1 correction said the blastula is "a single layer or disc of cells"; the Xenopus blastula is several cells thick and the chick blastoderm has epiblast plus hypoblast, and presumptive germ-layer regions are already mapped. Rewrote to say the fated regions exist but are not yet stacked into layers.
+domains/biology/developmental-biology/genomic-imprinting.md	how	3	0	ok
+domains/biology/developmental-biology/genomic-imprinting.md	mis	8	0	ok
+domains/biology/developmental-biology/germ-layer-formation.md	how	3	0	ok
+domains/biology/developmental-biology/germ-layer-formation.md	mis	8	0	ok
+domains/biology/developmental-biology/hox-genes-and-body-plan.md	how	3	0	ok
+domains/biology/developmental-biology/hox-genes-and-body-plan.md	mis	8	0	ok
+domains/biology/developmental-biology/induction-and-competence.md	how	3	0	ok
+domains/biology/developmental-biology/induction-and-competence.md	mis	8	0	ok
+domains/biology/developmental-biology/limb-development.md	how	2	0	ok
+domains/biology/developmental-biology/limb-development.md	mis	8	1	fixed	Bullet 3 copied Core Idea overstatement "loss of one center causes the others to fail"; the AER-ZPA loop is mutual, but loss of dorsal Wnt7a reduces Shh without collapsing the AER. Rewrote around the AER-ZPA feedback. Older text: Core Idea has the same overstatement.
+domains/biology/developmental-biology/model-organisms-development.md	how	3	0	ok
+domains/biology/developmental-biology/model-organisms-development.md	mis	8	0	ok
+domains/biology/developmental-biology/morphogen-gradients.md	how	3	0	ok
+domains/biology/developmental-biology/morphogen-gradients.md	mis	8	0	ok
+domains/biology/developmental-biology/neurulation.md	how	3	0	ok
+domains/biology/developmental-biology/neurulation.md	mis	8	0	ok
+domains/biology/developmental-biology/organogenesis-basics.md	how	3	0	ok
+domains/biology/developmental-biology/organogenesis-basics.md	mis	8	1	fixed	Bullet 3 attributed lateral growth limitation to BMP "along the sides"; BMP's role in branching is uncertain and context-dependent (lung BMP4 is at the tips), and "stereotyped trees" was unqualified. Replaced with FGF10 at tips plus inhibitory signals, stereotypy limited to mouse lung.
+domains/biology/developmental-biology/pattern-formation.md	how	3	0	ok
+domains/biology/developmental-biology/pattern-formation.md	mis	8	1	fixed	Bullet 2 stated differential diffusion as an absolute requirement; it holds for the classic two-component model, but networks with immobile components can form Turing patterns with equal diffusivities. Added the qualifier.
+domains/biology/developmental-biology/plant-development.md	how	2	0	ok
+domains/biology/developmental-biology/plant-development.md	mis	8	0	ok
+domains/biology/developmental-biology/pluripotency-and-reprogramming.md	how	3	0	ok
+domains/biology/developmental-biology/pluripotency-and-reprogramming.md	mis	8	0	ok
+domains/biology/developmental-biology/regeneration-biology.md	how	3	0	ok
+domains/biology/developmental-biology/regeneration-biology.md	mis	8	0	ok
+domains/biology/developmental-biology/sex-determination.md	how	2	1	fixed	Drew Foxl2 as downstream of beta-catenin ("Wnt4/RSPO1 to beta-catenin to Foxl2"); Foxl2 acts in parallel with the Wnt4/RSPO1/beta-catenin pathway. Fixed the diagram description.
+domains/biology/developmental-biology/sex-determination.md	mis	8	1	fixed	Bullet 2 copied the older "X:autosome ratio" for Drosophila; the signal is X chromosome dose (Erickson and Quintero 2007). Reworded, keeping the classic term in parentheses. Older text: Core Idea repeats the X:A ratio and calls the ovary a "default" pathway, an outdated framing since the ovarian program is actively specified.

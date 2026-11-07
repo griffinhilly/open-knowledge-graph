@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Plant development differs fundamentally from animal development: plant cells cannot migrate (they are enclosed in rigid cell walls), growth is continuous and indeterminate (driven by persistent stem cell populations called meristems), and body plan is largely shaped by the direction and rate of cell division and expansion rather than cell movement. The phytohormone auxin acts as a morphogen, forming concentration gradients through polar transport that pattern organs, establish the root-shoot axis, and direct growth responses. Plant cells are remarkably totipotent — a single differentiated cell can regenerate an entire plant under the right conditions. Key developmental processes include embryogenesis, meristem maintenance, phyllotaxis (leaf arrangement), floral organ identity (the ABC model), and environmental responses that modify body plan.
 
+## How It's Best Learned
+Compare one plant problem directly with its animal counterpart: the shoot meristem's WUS-CLV3 loop beside an animal stem cell niche, and auxin moved by PIN carriers beside a diffusing morphogen. For the ABC model, draw four concentric whorls, write which gene classes act in each, and predict the flower when A, B or C is lost before checking.
+
+## Common Misconceptions
+- Plant tissues are shaped the way animal tissues are, with cells moving into place. (Plant cells are held by rigid walls and do not migrate; form comes from the planes of cell division and the rate and direction of cell expansion.)
+- Auxin forms gradients by spreading freely, like an animal morphogen. (Auxin gradients are shaped mainly by directional transport through PIN efflux carriers placed on particular sides of each cell.)
+- A plant's organs are all laid down in the embryo and then simply enlarge. (Meristems keep making new organs throughout life, so plant growth is continuous and indeterminate.)
+- In the ABC model, each gene class builds one organ type by itself. (Organ identity comes from combinations: A alone gives sepals, A plus B gives petals, B plus C gives stamens and C alone gives carpels.)
+
 ## Questions
 
 ```yaml

@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Axis formation establishes the major body axes — anterior-posterior (head-tail), dorsal-ventral (back-belly), and left-right — transforming a radially symmetric egg into a bilaterally symmetric embryo with defined orientation. The initial symmetry-breaking event varies by species: in Drosophila, maternal mRNAs (bicoid, nanos) deposited asymmetrically in the egg define the AP axis; in amphibians, sperm entry triggers cortical rotation that specifies the dorsal side; in mammals, the axis emerges later through cell interactions. Each axis is subsequently refined by morphogen gradients and reciprocal signaling between organizer regions and surrounding tissue, establishing positional information that instructs cells about their location and appropriate fate.
 
+## How It's Best Learned
+Make a three-row grid, one row per axis, with columns for fly, frog and mouse. In each cell, write the first symmetry-breaking event and the signal that refines it. Then work through perturbation experiments, such as moving bicoid mRNA to the posterior or blocking ciliary flow at the node, and predict the embryo that results before checking.
+
+## Common Misconceptions
+- Every animal breaks symmetry the same way, using maternal mRNAs placed in the egg. (Flies use localized maternal mRNAs, frogs use sperm entry and cortical rotation, and mammals set up their axes later through cell interactions.)
+- Once the first cue is laid down, the axis is fully specified. (The initial cue is refined by morphogen gradients and signaling between organizer regions and nearby tissue.)
+- Left-right asymmetry comes directly from the chirality of molecules such as amino acids. (In mice, zebrafish and frogs, cilia at the node or an equivalent structure drive a leftward fluid flow that biases Nodal signaling to the left side; molecular chirality matters only indirectly, by setting which way the cilia rotate, and chicks and pigs break symmetry without this flow.)
+- Dorsal means the same body side in insects and vertebrates. (The BMP-based dorsal-ventral system is conserved but inverted, so the vertebrate dorsal side corresponds to the insect ventral side.)
+
 ## Questions
 
 ```yaml

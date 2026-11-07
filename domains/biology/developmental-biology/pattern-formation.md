@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Pattern formation is the process by which spatial order emerges in developing tissues — creating repeating structures (somites, feathers, digits), precise boundaries between cell types, and complex organ architectures from initially homogeneous cell populations. Two major mechanisms explain pattern formation: **positional information** (cells read morphogen gradients to determine their fate based on location) and **self-organization** (local interactions between cells spontaneously generate periodic patterns through reaction-diffusion or lateral inhibition mechanisms). Most real developmental patterns involve both: morphogen gradients set up the coarse pattern, and self-organizing mechanisms refine it into precise, repeating structures.
 
+## How It's Best Learned
+Run a simple reaction-diffusion simulation in a browser, and change the ratio of inhibitor to activator diffusion to watch spots and stripes appear or disappear. Then set it beside a French flag diagram and sort real examples, such as neural tube domains, digit spacing and bristle spacing, by which mechanism dominates. Finish with the limb, where both mechanisms act together.
+
+## Common Misconceptions
+- Every pattern in the embryo is laid out in advance by a gradient. (Some patterns emerge from local interactions, such as Turing mechanisms and Notch-Delta lateral inhibition, without a pre-existing template.)
+- A Turing pattern forms with any activator and inhibitor. (In the classic two-component model, the inhibitor needs to spread faster than the activator; with equal diffusion, small differences are not amplified and the tissue stays uniform.)
+- Positional information and self-organization are rival explanations, and only one can be right. (Many real patterns use both, with gradients setting broad domains and self-organizing processes producing regular spacing within them.)
+- Lateral inhibition needs a long-range signal. (Notch-Delta signaling works between neighboring cells in contact, which gives a fine salt-and-pepper pattern.)
+
 ## Questions
 
 ```yaml

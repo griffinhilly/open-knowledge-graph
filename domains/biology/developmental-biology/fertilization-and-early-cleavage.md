@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Fertilization is the union of sperm and egg that restores the diploid chromosome number and activates the developmental program. Species-specific surface molecules ensure recognition, and fast (membrane depolarization) and slow (cortical reaction) blocks to polyspermy prevent multiple sperm from fertilizing the same egg. Following fertilization, the zygote undergoes cleavage — rapid mitotic divisions that partition the large egg cell into progressively smaller blastomeres without increasing total embryo volume. Cleavage patterns (radial, spiral, bilateral) are species-specific and determined by the amount and distribution of yolk. Early cleavage establishes the basic cell number and spatial relationships that set the stage for gastrulation.
 
+## How It's Best Learned
+Draw a timeline of the first minutes after sperm contact in a sea urchin egg: depolarization, the calcium wave, cortical granule release and the raised fertilization envelope. Then compare cleavage in three eggs side by side, such as sea urchin, frog and chick, and link each pattern to how much yolk the egg holds and where it sits.
+
+## Common Misconceptions
+- The embryo grows during cleavage. (Cleavage divides the egg's existing cytoplasm into smaller blastomeres, so cell number rises while total volume stays about the same.)
+- The fast block and the slow block do the same job, so one is a backup. (The electrical fast block acts within seconds but is temporary, while the cortical reaction takes longer and forms a lasting barrier.)
+- Cleavage cells are just like ordinary dividing cells. (Many early cleavage cycles skip the gap phases and run on maternal mRNAs and proteins stored in the egg.)
+- All blastomeres are identical copies at this stage. (Cleavage can partition maternal determinants unequally, so blastomeres may already differ in what they inherit.)
+
 ## Questions
 
 ```yaml

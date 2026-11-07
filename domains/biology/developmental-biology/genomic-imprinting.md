@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Genomic imprinting is an epigenetic phenomenon in which certain genes are expressed from only one parental allele — either the maternal or paternal copy — while the other is silenced through DNA methylation established in the parental germline. Approximately 100-200 imprinted genes have been identified in mammals, many clustered in imprinting control regions. Imprinting is established during gametogenesis (differently in sperm versus eggs), maintained through development, and erased and re-established each generation in the germline. Many imprinted genes regulate growth: paternally expressed genes (like Igf2) tend to promote growth, while maternally expressed genes (like H19, Igf2r) tend to restrict it — consistent with the parental conflict hypothesis. Imprinting disorders (Prader-Willi, Angelman, Beckwith-Wiedemann syndromes) demonstrate the clinical consequences of disrupted mono-allelic expression.
 
+## How It's Best Learned
+Draw a two-generation pedigree for a paternally expressed gene such as Igf2, marking each allele as active or silent. Pass a deletion first through a father and then through a mother, and predict the child's phenotype each time. Then trace the marks through one life cycle: set in the gametes, kept through development, erased in primordial germ cells, and reset by sex.
+
+## Common Misconceptions
+- Imprinting means the maternal and paternal copies have different DNA sequences. (The two alleles can be identical in sequence; they differ in DNA methylation laid down in the parental germline.)
+- A person's imprints stay fixed through all generations. (Imprints are erased in primordial germ cells and re-established according to the sex of the individual, so a man's maternal imprints become paternal ones in his sperm.)
+- Inheriting a deletion of an imprinted gene affects the child no matter which parent passes it on. (The effect depends on whether the deleted copy was the active one, which is why the same 15q11-q13 deletion causes Prader-Willi from the father and Angelman from the mother.)
+- Most genes in the genome are imprinted. (Only a small set, on the order of a hundred or two in mammals, show parent-of-origin expression.)
+
 ## Questions
 
 ```yaml

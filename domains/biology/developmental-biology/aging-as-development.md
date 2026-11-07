@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Aging can be understood as a continuation of developmental processes beyond their adaptive window — developmental programs that are beneficial early in life become detrimental later (antagonistic pleiotropy). Key connections include: developmental signaling pathways (mTOR, insulin/IGF-1, Wnt) that drive growth during development but promote cellular senescence and cancer in adulthood; progressive loss of stem cell function through epigenetic drift, niche deterioration, and accumulated DNA damage; epigenetic clocks (DNA methylation patterns that correlate with chronological age) reflecting continued, unregulated activity of developmental methylation programs; and cellular senescence as a developmental mechanism (eliminating unwanted cells during embryogenesis) that accumulates pathologically with age.
 
+## How It's Best Learned
+Build a two-column table for one pathway at a time, such as mTOR or insulin/IGF-1: what it does during growth, and what the same activity does in an older adult. Then trace why selection kept it, using the idea that selection is weak on traits expressed late in life. Finish by contrasting this view with a pure wear-and-tear account of the same symptom.
+
+## Common Misconceptions
+- Aging is a program that evolution selected to remove old individuals. (The antagonistic pleiotropy view says late-life harm is a side effect of genes kept for their early-life benefits, because selection acts weakly after reproduction.)
+- If a pathway drives aging, the best fix is to switch it off completely. (These pathways are still needed in adults for growth, repair and metabolism, so interventions such as rapamycin dampen them rather than abolish them.)
+- An epigenetic clock measures accumulated random damage. (Clock sites change in a predictable way across individuals, and one proposal is that they reflect methylation machinery still running after development has ended.)
+- Cellular senescence is purely a disease of old age. (Senescence also occurs during normal embryonic development, where it helps remove or reshape tissues; the harm comes from senescent cells accumulating later in life.)
+
 ## Questions
 
 ```yaml

@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Limb development is one of the most thoroughly studied models of organogenesis, illustrating how three signaling centers coordinate patterning along three axes simultaneously. The **apical ectodermal ridge** (AER) drives proximal-distal outgrowth through FGF signaling. The **zone of polarizing activity** (ZPA) patterns the anterior-posterior axis (thumb to pinky) through Sonic Hedgehog (Shh) secretion. And the dorsal ectoderm patterns the dorsal-ventral axis through Wnt7a signaling. These three signaling centers maintain each other through reciprocal interactions, creating a self-sustaining feedback loop that coordinates limb growth and patterning until all structures are specified.
 
+## How It's Best Learned
+Draw a limb bud in three dimensions and mark each signaling center with its axis and signal: AER and FGF for proximal-distal, ZPA and Shh for anterior-posterior, dorsal ectoderm and Wnt7a for dorsal-ventral. Then predict the results of the classic experiments, AER removal at early and late stages and an anterior ZPA graft, before looking at the actual skeletons.
+
+## Common Misconceptions
+- The AER is needed only to start the limb bud. (FGF from the AER is needed throughout outgrowth; removing it later still truncates whatever distal structures have not yet formed.)
+- Each digit is made by its own dedicated signal. (A posterior-to-anterior Shh gradient from the ZPA specifies digit identity, and a second ZPA on the anterior side gives mirror-image digits.)
+- The three signaling centers work independently. (The centers are linked by feedback; for example, AER FGFs and ZPA Shh maintain each other, so removing one weakens the other, and dorsal Wnt7a also helps keep Shh expressed.)
+- Digits form first and the upper limb grows from them. (Structures form in proximal-to-distal order, with the upper limb bones first and the digits last.)
+
 ## Questions
 
 ```yaml

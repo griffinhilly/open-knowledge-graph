@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Organogenesis is the process by which the three germ layers, positioned during gastrulation, interact to form the organs of the body. It proceeds through iterative rounds of induction, morphogenesis, and differentiation: epithelial-mesenchymal interactions drive branching structures (lungs, kidneys, salivary glands), tube formation underlies the gut, blood vessels, and neural tube, and condensation of mesenchyme generates skeletal elements. Each organ forms through a unique combination of conserved morphogenetic mechanisms — folding, budding, branching, fusion, cavitation — orchestrated by the same signaling pathways (FGF, BMP, Wnt, Hedgehog, Notch) used repeatedly in different contexts. The specificity of each organ arises from the particular combination, timing, and spatial context of these signals.
 
+## How It's Best Learned
+Use the kidney as the worked example. Draw the ureteric bud and metanephric mesenchyme, and add arrows for GDNF going to the bud and Wnt9b going to the mesenchyme. Then compare the lung, salivary gland and kidney in a table of shared mechanisms (budding, branching, tip-driven growth) and organ-specific outcomes, to see the same toolkit used in different contexts.
+
+## Common Misconceptions
+- Each organ is built from one germ layer. (Most organs combine an epithelium and a mesenchyme, often from different germ layers, and these tissues signal to each other.)
+- Each organ has its own special set of signaling pathways. (Organs reuse FGF, BMP, Wnt, Hedgehog and Notch, and the response differs because the receiving cells differ in transcription factors and chromatin.)
+- Branching is random growth that happens to fill space. (Branching is guided by signals, such as mesenchymal FGF10 driving bud outgrowth at the tips, together with inhibitory signals between branches; in the mouse lung the branching pattern is largely stereotyped.)
+- Induction happens once, at the start of an organ, and then the organ grows by itself. (Epithelial-mesenchymal signaling continues throughout organ formation; in the kidney, neither tissue develops normally without the other.)
+
 ## Questions
 
 ```yaml

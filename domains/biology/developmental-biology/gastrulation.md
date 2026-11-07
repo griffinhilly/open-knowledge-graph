@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Gastrulation is the dramatic morphogenetic process that transforms the relatively simple blastula (a hollow ball or disc of cells) into a multi-layered embryo with three germ layers — ectoderm (outer), mesoderm (middle), and endoderm (inner) — and establishes the basic body plan. Through coordinated cell movements including invagination, involution, ingression, epiboly, and convergent extension, cells that were on the surface move to the interior, creating the gut tube (archenteron) and positioning the three tissue layers that will give rise to all adult organs. Gastrulation is often called the most important event in development because it establishes the spatial relationships between tissues that will persist and elaborate throughout the organism's life.
 
+## How It's Best Learned
+Learn the five movements with physical models first: push a finger into a balloon for invagination, roll a sheet of paper over a table edge for involution, and slide interlocking fingers together for convergent extension. Then match each movement to the embryo where it is most visible, comparing sea urchin, frog and chick. Finish by labeling a late gastrula cross-section with its three layers.
+
+## Common Misconceptions
+- The three germ layers are already present in the blastula and gastrulation just separates them. (The blastula has regions fated to form each layer, but they are not yet stacked into layers; gastrulation moves cells inside to build that arrangement.)
+- Gastrulation looks the same in every animal. (Sea urchins rely heavily on invagination, amphibians on involution and epiboly, and birds and mammals on ingression through the primitive streak.)
+- Gastrulation is only about where cells end up. (Placing layers next to each other enables the inductive signals that drive later organ formation, such as the notochord signaling to the overlying ectoderm.)
+- Convergent extension moves cells from the surface to the inside. (Convergent extension rearranges cells within a tissue so it narrows in one direction and lengthens in the other.)
+
 ## Questions
 
 ```yaml

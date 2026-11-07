@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Cell migration is essential throughout development: gastrulation requires massive cell rearrangements, neural crest cells migrate from the dorsal neural tube to distant sites throughout the body, and primordial germ cells navigate from their origin to the gonads. Migrating cells extend protrusions (lamellipodia, filopodia) at their leading edge, driven by actin polymerization, form adhesions with the substrate (extracellular matrix or other cells), generate contractile force through actomyosin, and release adhesions at the trailing edge. Migration is guided by chemotaxis (following soluble gradients), haptotaxis (following substrate-bound cues), and contact guidance. Cells can migrate individually or collectively (as sheets, streams, or clusters), and collective migration involves additional coordination through cell-cell junctions and supracellular organization of the cytoskeleton.
 
+## How It's Best Learned
+Start with a time-lapse movie of a single migrating cell and label the four steps of the cycle: protrusion, adhesion, contraction and rear release. Then map one real route, such as a neural crest stream, marking attractive cues, repulsive zones and permissive matrix along the path. Last, compare a lone cell with a stream and list what cell-cell contact adds.
+
+## Common Misconceptions
+- Cells move by swimming or by being carried along with the tissue. (Most migrating embryonic cells crawl actively, pushing out protrusions, gripping the substrate through adhesions, and pulling the cell body forward with actomyosin.)
+- One attractant gradient is enough to bring a cell to its target. (In embryos, attractive cues act together with repulsive cues, permissive matrix tracks and contact guidance, which confine cells to defined routes.)
+- In a migrating group, only the leader cells steer and the rest are dragged. (Follower cells are mechanically coupled, take part in force transmission, and can sense cues and replace leaders that are removed.)
+- Contact inhibition of locomotion stops cells from moving. (Contact makes cells repolarize and move away from each other, which helps keep a stream spreading in one direction.)
+
 ## Questions
 
 ```yaml

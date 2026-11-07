@@ -1,0 +1,61 @@
+domains/physics/quantum-mechanics/addition-of-angular-momenta.md	how	4	0	ok
+domains/physics/quantum-mechanics/addition-of-angular-momenta.md	mis	8	0	ok
+domains/physics/quantum-mechanics/angular-momentum-addition.md	how	4	0	ok
+domains/physics/quantum-mechanics/angular-momentum-addition.md	mis	6	0	ok
+domains/physics/quantum-mechanics/angular-momentum-coupling.md	how	3	1	fixed	L·S on |m_l=0, m_s=+1/2⟩ was said to "produce a mixture"; it gives a single different state (ℏ²/√2)|m_l=1, m_s=−1/2⟩. Reworded to "returns a different state ... not an eigenstate".
+domains/physics/quantum-mechanics/angular-momentum-coupling.md	mis	6	0	ok
+domains/physics/quantum-mechanics/angular-momentum-quantization.md	how	3	0	ok
+domains/physics/quantum-mechanics/angular-momentum-quantization.md	mis	8	0	ok
+domains/physics/quantum-mechanics/angular-momentum-quantum.md	how	3	0	ok	Old text (not fixed): Core Idea writes L̂ᵧ where L̂_z is meant ("L̂ₓ, L̂ᵧ, L̂ᵧ", "typically L̂ᵧ", "Eigenvalues of L̂ᵧ are mℏ").
+domains/physics/quantum-mechanics/angular-momentum-quantum.md	mis	6	0	ok
+domains/physics/quantum-mechanics/atomic-orbitals-quantum.md	how	3	0	ok
+domains/physics/quantum-mechanics/atomic-orbitals-quantum.md	mis	8	0	ok	Old text fixed: q0 explanation said |ψ₁s|² peaks near a₀, contradicting the new bullet; changed to radial probability r²|R₁₀|² peaks at a₀.
+domains/physics/quantum-mechanics/bell-inequalities.md	how	3	0	ok
+domains/physics/quantum-mechanics/bell-inequalities.md	mis	8	0	ok
+domains/physics/quantum-mechanics/bell-theorem-inequalities.md	how	3	1	fixed	Compared the local floor (computed over all random settings, 5/9) with the quantum rate "for settings 120° apart" (1/4 for unequal settings), a mismatched comparison. Now states 5/9 vs quantum 1/2 for three settings 120° apart (Mermin). Old Core Idea overstates: "settles the foundational debate about completeness".
+domains/physics/quantum-mechanics/bell-theorem-inequalities.md	mis	6	0	ok
+domains/physics/quantum-mechanics/bell-theorem.md	how	4	1	fixed	Misassigned roles: "locality lets each row exist". Realism (preset values) makes the row exist; locality lets one A value serve in both AB and AB′. Reworded.
+domains/physics/quantum-mechanics/bell-theorem.md	mis	6	0	ok
+domains/physics/quantum-mechanics/born-approximation.md	how	4	0	ok
+domains/physics/quantum-mechanics/born-approximation.md	mis	6	0	ok
+domains/physics/quantum-mechanics/born-approximation.md	q:4:explanation	1	0	ok	Old text (not fixed): q3 explanation claims all higher-order Born terms vanish for Coulomb (they diverge; exact result matches Rutherford only up to a phase) and calls Rutherford's 1911 result a triumph of quantum scattering theory.
+domains/physics/quantum-mechanics/born-rule-and-measurement.md	how	4	0	ok
+domains/physics/quantum-mechanics/born-rule-and-measurement.md	mis	8	0	ok
+domains/physics/quantum-mechanics/bose-einstein-statistics.md	how	3	0	ok
+domains/physics/quantum-mechanics/bose-einstein-statistics.md	mis	8	0	ok
+domains/physics/quantum-mechanics/bosons-and-fermions.md	how	3	0	ok
+domains/physics/quantum-mechanics/bosons-and-fermions.md	mis	8	0	ok
+domains/physics/quantum-mechanics/clebsch-gordan-coefficients.md	how	3	0	ok
+domains/physics/quantum-mechanics/clebsch-gordan-coefficients.md	mis	8	0	ok
+domains/physics/quantum-mechanics/coherent-states.md	how	3	0	ok
+domains/physics/quantum-mechanics/coherent-states.md	mis	8	0	ok
+domains/physics/quantum-mechanics/commutation-relations.md	how	3	0	ok
+domains/physics/quantum-mechanics/commutation-relations.md	mis	8	0	ok
+domains/physics/quantum-mechanics/creation-annihilation-operators.md	how	3	0	ok
+domains/physics/quantum-mechanics/creation-annihilation-operators.md	mis	8	0	ok
+domains/physics/quantum-mechanics/cross-sections-scattering.md	how	3	0	ok
+domains/physics/quantum-mechanics/cross-sections-scattering.md	mis	6	0	ok
+domains/physics/quantum-mechanics/degenerate-perturbation-theory.md	how	3	0	ok
+domains/physics/quantum-mechanics/degenerate-perturbation-theory.md	mis	6	1	fixed	Bullet 3 cited Lz in the Stark effect as an operator with distinct eigenvalues that fixes the good states; in n = 2, 2s and 2p(m=0) share m = 0, so Lz only reduces to a 2×2 block (as the How section itself says). Reworded.
+domains/physics/quantum-mechanics/density-matrices.md	how	4	0	ok
+domains/physics/quantum-mechanics/density-matrices.md	mis	8	0	ok
+domains/physics/quantum-mechanics/dirac-equation.md	how	3	0	ok
+domains/physics/quantum-mechanics/dirac-equation.md	mis	8	0	ok
+domains/physics/quantum-mechanics/dirac-notation.md	how	3	0	ok
+domains/physics/quantum-mechanics/dirac-notation.md	mis	8	0	ok
+domains/physics/quantum-mechanics/eigenvalues-eigenstates-quantum.md	how	3	0	ok
+domains/physics/quantum-mechanics/eigenvalues-eigenstates-quantum.md	mis	8	0	ok
+domains/physics/quantum-mechanics/entanglement-quantum.md	how	3	0	ok
+domains/physics/quantum-mechanics/entanglement-quantum.md	mis	6	0	ok
+domains/physics/quantum-mechanics/entanglement.md	how	3	0	ok
+domains/physics/quantum-mechanics/entanglement.md	mis	8	0	ok
+domains/physics/quantum-mechanics/exchange-symmetry.md	how	3	1	fixed	"Swap particles 1 and 2 and check that every term flips sign": individual terms do not flip; each maps to another term of opposite sign, so the whole determinant flips. Reworded.
+domains/physics/quantum-mechanics/exchange-symmetry.md	mis	8	0	ok
+domains/physics/quantum-mechanics/expectation-values.md	how	3	0	ok
+domains/physics/quantum-mechanics/expectation-values.md	mis	8	1	fixed	Ehrenfest bullet dropped a qualifier: equality with the classical force is exact for at-most-quadratic potentials but only approximate for narrow wavepackets. Added "exactly"/"approximately".
+domains/physics/quantum-mechanics/fermi-dirac-statistics.md	how	3	0	ok
+domains/physics/quantum-mechanics/fermi-dirac-statistics.md	mis	8	1	fixed	"At finite temperature μ shifts slightly" is unconditional; the shift is large when k_BT ~ E_F (a case the How section plots). Now "moves away from E_F, though only slightly when k_BT ≪ E_F".
+domains/physics/quantum-mechanics/fermi-golden-rule.md	how	3	0	ok
+domains/physics/quantum-mechanics/fermi-golden-rule.md	mis	8	0	ok
+domains/physics/quantum-mechanics/fermions-and-bosons.md	how	3	0	ok
+domains/physics/quantum-mechanics/fermions-and-bosons.md	mis	6	0	ok

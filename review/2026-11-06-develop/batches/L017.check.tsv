@@ -1,0 +1,44 @@
+domains/physics/quantum-mechanics/relativistic-quantum-mechanics.md	how	4	0	ok
+domains/physics/quantum-mechanics/relativistic-quantum-mechanics.md	mis	6	1	fixed	Bullet 2 framed "four components because of 4D spacetime" as false, but the spinor dimension does follow from the Clifford algebra in 4D (2 components in 2+1D). Reframed as "components are one per spacetime direction"; correction now says spinors transform unlike four-vectors. Old text, not fixed: Q2 explanation and Explainer say positive-energy modes are particle creation operators and negative-energy modes antiparticle annihilation operators; in the standard psi field it is the reverse (particle annihilation, antiparticle creation). Q2 also says every particle has an oppositely charged antiparticle (neutral particles can be their own).
+domains/physics/quantum-mechanics/scattering-theory-intro.md	how	3	0	ok
+domains/physics/quantum-mechanics/scattering-theory-intro.md	mis	6	0	ok
+domains/physics/quantum-mechanics/scattering-theory-quantum.md	how	3	0	ok
+domains/physics/quantum-mechanics/scattering-theory-quantum.md	mis	6	0	ok
+domains/physics/quantum-mechanics/second-order-perturbation-theory.md	how	4	0	ok	Checked: oscillator in field, 2nd order gives exact -q^2E^2/(2m w^2); excited-state n-1 and n+1 terms have opposite signs. New text was correct but contradicted the old Core Idea, so old text fixed: Core Idea said E2 is "always negative" (true only for the ground state) -> "never positive for the ground state"; Explainer said distant states "contribute negligibly", contradicting new bullet 1 -> softened.
+domains/physics/quantum-mechanics/second-order-perturbation-theory.md	mis	6	0	ok
+domains/physics/quantum-mechanics/slater-determinant.md	how	4	0	ok
+domains/physics/quantum-mechanics/slater-determinant.md	mis	8	0	ok
+domains/physics/quantum-mechanics/spin-angular-momentum.md	how	3	0	ok
+domains/physics/quantum-mechanics/spin-angular-momentum.md	mis	6	0	ok
+domains/physics/quantum-mechanics/spin-half-systems.md	how	3	0	ok
+domains/physics/quantum-mechanics/spin-half-systems.md	mis	6	0	ok
+domains/physics/quantum-mechanics/spin-orbit-coupling.md	how	4	0	ok	Checked L.S eigenvalues hbar^2/2 and -hbar^2 for l=1 and weighted sum 4(1/2)+2(-1)=0.
+domains/physics/quantum-mechanics/spin-orbit-coupling.md	mis	6	0	ok
+domains/physics/quantum-mechanics/state-vectors-and-wavefunctions.md	how	4	0	ok
+domains/physics/quantum-mechanics/state-vectors-and-wavefunctions.md	mis	6	1	fixed	Bullet 2 said psi1+psi2 and psi1-psi2 differ "wherever" they overlap; the cross term 4Re(psi1* psi2) can vanish at overlap points. Changed to "generally ... where".
+domains/physics/quantum-mechanics/time-dependent-perturbation-theory.md	how	4	0	ok
+domains/physics/quantum-mechanics/time-dependent-perturbation-theory.md	mis	6	0	ok
+domains/physics/quantum-mechanics/time-independent-perturbation-theory.md	how	3	0	ok
+domains/physics/quantum-mechanics/time-independent-perturbation-theory.md	mis	6	0	ok
+domains/physics/quantum-mechanics/total-angular-momentum.md	how	4	0	ok
+domains/physics/quantum-mechanics/total-angular-momentum.md	mis	6	0	ok	Checked |J|=1.936, |L|+|S|=1.414+0.866=2.280.
+domains/physics/quantum-mechanics/transition-probabilities-quantum.md	how	4	0	ok
+domains/physics/quantum-mechanics/transition-probabilities-quantum.md	mis	6	0	ok
+domains/physics/quantum-mechanics/uncertainty-principle-canonical.md	how	3	0	ok	Checked |1,1>: Delta Lx Delta Ly = hbar^2/2 = (1/2)hbar<Lz>, equality.
+domains/physics/quantum-mechanics/uncertainty-principle-canonical.md	mis	6	0	ok
+domains/physics/quantum-mechanics/uncertainty-principle-formal.md	how	4	0	ok
+domains/physics/quantum-mechanics/uncertainty-principle-formal.md	mis	6	0	ok
+domains/physics/quantum-mechanics/variational-method-quantum.md	how	3	0	fixed	Style only: "(8/3π)" was ambiguous, written as 8/(3π). Value -11.5 eV checked.
+domains/physics/quantum-mechanics/variational-method-quantum.md	mis	6	0	ok
+domains/physics/quantum-mechanics/variational-method.md	how	4	0	ok	Checked helium Z=27/16, E=-77.5 eV vs -79.0 eV.
+domains/physics/quantum-mechanics/variational-method.md	mis	6	0	ok
+domains/physics/quantum-mechanics/variational-principle-quantum.md	how	4	0	ok	Checked Eckart bound 1-|c0|^2 <= (<H>-E0)/(E1-E0).
+domains/physics/quantum-mechanics/variational-principle-quantum.md	mis	6	0	ok
+domains/physics/quantum-mechanics/wkb-approximation.md	how	4	0	ok
+domains/physics/quantum-mechanics/wkb-approximation.md	mis	6	0	ok
+domains/physics/quantum-mechanics/wkb-quantization-rule.md	how	4	0	ok	New one-way form (n+1/2)πħ is correct. Old text NOT fixed (multi-field): Core Idea, Q0, Q1, Q2 explanation and Explainer write the closed-loop rule as ∮p dx=(n+1/2)πħ; correct is 2πħ(n+1/2)=(n+1/2)h. Q0 explanation also has "1/2 πħ = 1/2 h" (should be πħ = h/2). Needs a lead-level fix.
+domains/physics/quantum-mechanics/wkb-quantization-rule.md	mis	6	0	ok
+domains/physics/quantum-mechanics/zero-point-energy-quantum.md	how	3	0	ok
+domains/physics/quantum-mechanics/zero-point-energy-quantum.md	mis	6	0	ok
+domains/physics/quantum-mechanics/zero-point-energy.md	how	4	0	ok
+domains/physics/quantum-mechanics/zero-point-energy.md	mis	6	0	ok

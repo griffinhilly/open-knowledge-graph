@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Germ layer formation establishes the three fundamental tissue layers — ectoderm, mesoderm, and endoderm — from which all adult organs derive. Ectoderm gives rise to the nervous system and skin; mesoderm to muscle, bone, blood, and connective tissue; endoderm to the gut lining, liver, lungs, and pancreas. Germ layer specification is driven by signaling gradients, particularly Nodal/Activin (inducing mesoderm and endoderm), BMP (ventralizing ectoderm and mesoderm), and Wnt signaling (posterior patterning). The concentration and duration of Nodal signaling determines whether cells become mesoderm (lower levels, shorter exposure) or endoderm (higher levels, longer exposure), establishing germ layers as a graded response to morphogen signals.
 
+## How It's Best Learned
+Start from an animal cap experiment: an isolated piece of frog ectoderm, treated with no Activin, a low dose, or a high dose, and the tissue each one forms. Plot those outcomes along a Nodal/Activin dose axis with mesoderm and endoderm thresholds marked. Then build a three-column table of organs by germ layer, and add composite organs such as the gut that draw on more than one layer.
+
+## Common Misconceptions
+- Each organ comes from a single germ layer. (Many organs combine layers; the gut has an endodermal lining with mesodermal muscle and connective tissue.)
+- Skin and nerves come from different layers because they are so different. (Both epidermis and the nervous system come from ectoderm; BMP levels decide which one a region of ectoderm becomes.)
+- Mesoderm and endoderm need two separate inducing signals. (Both are induced by Nodal/Activin signaling, with lower or shorter signaling giving mesoderm and higher or longer signaling giving endoderm.)
+- A fate map shows what cells are committed to become. (A fate map shows what cells normally become; transplantation can reveal that they are still able to take other fates.)
+
 ## Questions
 
 ```yaml

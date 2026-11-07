@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 Regeneration is the ability to regrow lost or damaged body parts, varying enormously across species: planarians can regenerate an entire body from a small fragment, salamanders regenerate complete limbs, and mammals are largely limited to liver regeneration and wound healing. Regeneration typically involves wound healing, formation of a blastema (a mass of proliferating progenitor cells at the wound site), and recapitulation of developmental patterning to restore the missing structures. The cellular source of the blastema varies — dedifferentiation of mature cells (salamander limb), activation of resident stem cells (planarian neoblasts), or compensatory proliferation of remaining cells (mammalian liver). Understanding why regenerative capacity varies so dramatically across species is one of the grand challenges of developmental biology.
 
+## How It's Best Learned
+Compare three systems in one table: salamander limb, planarian, and mammalian liver. Give each a row and fill in columns for the source of new cells, whether a blastema forms, and how position is restored. Then predict the classic tests, such as a wrist-level versus shoulder-level amputation, or a forelimb blastema grafted onto a hindlimb stump, before reading the results.
+
+## Common Misconceptions
+- Regeneration means a stump simply grows more of whatever tissue is at the cut. (A regenerating limb rebuilds the specific missing structures in order, using positional memory and developmental patterning signals such as Shh and FGF.)
+- Dedifferentiated salamander cells become pluripotent and can make any tissue. (Lineage tracing shows that blastema cells mostly keep their tissue of origin, so muscle-derived cells make muscle and cartilage-derived cells make cartilage.)
+- Every regenerating animal uses the same cellular strategy. (Salamander limbs rely mainly on cells from the stump tissues, planarians use pluripotent neoblasts, and the mammalian liver regrows by proliferation of remaining cells.)
+- Mammals lack regenerative capacity entirely. (Mammals regenerate the liver robustly and can regrow digit tips in some cases, though most injuries heal by scarring.)
+
 ## Questions
 
 ```yaml

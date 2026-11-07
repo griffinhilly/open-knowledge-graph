@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 A morphogen is a signaling molecule that forms a concentration gradient across a field of cells, with different concentrations activating different target genes and specifying different cell fates. Lewis Wolpert's "French flag model" formalized this: cells read the local morphogen concentration and adopt one of several discrete fates based on concentration thresholds, much as regions of a flag adopt different colors. Real morphogens (BMP, Sonic Hedgehog, Wnt, Nodal, FGF, retinoic acid) pattern the body axes and organs by providing positional information — telling each cell where it is relative to the morphogen source. Gradient formation, interpretation, and robustness are central problems in developmental biology.
 
+## How It's Best Learned
+Plot concentration against distance from the source, draw two horizontal threshold lines, and shade the three fate zones of the French flag. Then change one thing at a time: double production at the source, add a second opposing source, or lengthen exposure time, and redraw where the boundaries fall. The Shh gradient in the ventral neural tube makes a good real case to map onto the plot.
+
+## Common Misconceptions
+- Any secreted signal that affects nearby cells counts as a morphogen. (A morphogen specifies different fates at different concentrations across a field; a signal that only switches cells on or off is not acting as a morphogen.)
+- Cells read only the concentration at one instant. (Cells can integrate signaling over time, so the duration of exposure can change the fate they adopt.)
+- A smooth gradient gives fuzzy boundaries between cell types. (Downstream transcription factors that repress each other sharpen the response into crisp boundaries.)
+- Morphogens spread only by free diffusion. (Gradient shape also depends on receptor binding, uptake by cells, matrix binding and active transport, and how some morphogens move is still debated.)
+
 ## Questions
 
 ```yaml

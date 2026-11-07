@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Stem cells are undifferentiated cells capable of both self-renewal (producing more stem cells) and differentiation (producing specialized cell types). They exist in a hierarchy of potency: totipotent (zygote — can form entire organism), pluripotent (embryonic stem cells — can form all cell types of the body), multipotent (adult tissue stem cells — restricted to cell types within their lineage), and unipotent (producing only one cell type). Adult stem cells reside in specialized microenvironments called niches that balance self-renewal and differentiation signals. Stem cell biology bridges developmental biology, regenerative medicine, and cancer research — cancer stem cells may hijack normal stem cell self-renewal mechanisms.
 
+## How It's Best Learned
+Draw the potency hierarchy as a branching tree from the zygote down to a unipotent cell, and place real examples on it, such as embryonic stem cells, hematopoietic stem cells and muscle satellite cells. Then use the intestinal crypt as a worked niche example: mark the Paneth cells, the Wnt and BMP-antagonist signals, and follow two daughters, one staying in the niche and one leaving.
+
+## Common Misconceptions
+- A stem cell is any undifferentiated cell. (A stem cell must both self-renew and produce differentiated cell types; many undifferentiated progenitors divide only a limited number of times.)
+- Adult stem cells can make any cell type, like embryonic stem cells. (Most adult tissue stem cells are multipotent or unipotent, limited to the cell types of their own tissue.)
+- Stem cells stay stem cells by themselves, wherever they are. (Their identity depends on niche signals; a daughter that leaves the niche loses those signals and begins to differentiate.)
+- Each stem cell division gives exactly one stem cell and one differentiated cell. (Some divisions give two stem cells or two differentiating cells, and tissues balance these outcomes across the whole population.)
+
 ## Questions
 
 ```yaml

@@ -1,0 +1,61 @@
+domains/physics/quantum-mechanics/feynman-path-integral.md	how	4	0	ok
+domains/physics/quantum-mechanics/feynman-path-integral.md	mis	8	1	fixed	Renormalization bullet dropped the qualifier: only renormalizable theories (e.g. QED) absorb UV divergences into mass and charge; added "In a renormalizable theory such as QED".
+domains/physics/quantum-mechanics/fine-structure-hydrogen.md	how	4	0	ok
+domains/physics/quantum-mechanics/fine-structure-hydrogen.md	mis	8	0	ok
+domains/physics/quantum-mechanics/fine-structure-splitting.md	how	3	1	fixed	The column list left out the Darwin term, so the 2s1/2 shift computed from kinetic + spin-orbit alone will not match 2p1/2; added a Darwin column. OLD TEXT: Q2 option/explanation says l is not conserved (contradicts new bullet 2; l stays good); explainer says the proton moment is 1/1836 of the electron's (actually about 1/658).
+domains/physics/quantum-mechanics/fine-structure-splitting.md	mis	8	1	fixed	"Fine structure involves the electron alone" was false (spin-orbit field comes from the nucleus's Coulomb field); changed to "does not involve the nuclear spin at all".
+domains/physics/quantum-mechanics/first-order-perturbation-theory.md	how	3	0	ok
+domains/physics/quantum-mechanics/first-order-perturbation-theory.md	mis	8	1	fixed	Stark bullet dropped "nondegenerate": hydrogen n=2 states have definite parity but show a linear Stark effect through degeneracy. OLD TEXT (not edited): explainer last paragraph and Q4 explanation give E1 << E0 as the validity test, which the new bullet 1 correctly calls a misconception; the page now contradicts itself.
+domains/physics/quantum-mechanics/harmonic-oscillator-energy-levels.md	how	4	0	ok	OLD TEXT: Core Idea says equal spacing is "unique to quadratic potentials" (overstated; e.g. isospectral SUSY partners).
+domains/physics/quantum-mechanics/harmonic-oscillator-energy-levels.md	mis	8	0	ok
+domains/physics/quantum-mechanics/hydrogen-atom-quantum.md	how	3	0	ok
+domains/physics/quantum-mechanics/hydrogen-atom-quantum.md	mis	8	0	ok	OLD TEXT: Q5 explanation says the n^2 degeneracy "produces the structure of the periodic table through Aufbau filling" (it doesn't; multi-electron atoms break it).
+domains/physics/quantum-mechanics/hydrogen-atom-solution.md	how	3	0	ok
+domains/physics/quantum-mechanics/hydrogen-atom-solution.md	mis	8	0	ok
+domains/physics/quantum-mechanics/hydrogen-atom-spectrum.md	how	4	0	ok
+domains/physics/quantum-mechanics/hydrogen-atom-spectrum.md	mis	8	0	ok	OLD TEXT: Q1/Q3 and explainer attribute Delta l = 0 being forbidden to angular momentum alone; parity is what rules it out (l=1 to l=1 is allowed by angular momentum coupling).
+domains/physics/quantum-mechanics/hydrogen-energy-levels.md	how	3	0	ok	OLD TEXT: Core Idea says degeneracy is (2n)^2; it is n^2 (2n^2 with spin), as the file's own explainer says.
+domains/physics/quantum-mechanics/hydrogen-energy-levels.md	mis	8	0	ok
+domains/physics/quantum-mechanics/identical-particles-exchange.md	how	4	1	fixed	Boson-closer / fermion-farther result needs <x>_ab nonzero; for two same-parity well states (e.g. n=1,3) all three answers are equal. Specified opposite-parity states (ground and first excited).
+domains/physics/quantum-mechanics/identical-particles-exchange.md	mis	8	0	ok	OLD TEXT: Q2 explanation's "enhanced by a factor of sqrt2" for two bosons in the same state is muddled.
+domains/physics/quantum-mechanics/identical-particles-quantum.md	how	3	0	ok
+domains/physics/quantum-mechanics/identical-particles-quantum.md	mis	8	0	ok	OLD TEXT: explainer says psi_B cannot be factorized; for a = b it is a product state.
+domains/physics/quantum-mechanics/interpretations-quantum-mechanics.md	how	3	0	ok
+domains/physics/quantum-mechanics/interpretations-quantum-mechanics.md	mis	6	0	ok	OLD TEXT: Q3 answer "true" (all interpretations give identical predictions for every possible experiment) contradicts its own explanation that objective collapse is distinguishable in principle.
+domains/physics/quantum-mechanics/kets-and-bras.md	how	3	0	ok
+domains/physics/quantum-mechanics/kets-and-bras.md	mis	8	0	ok
+domains/physics/quantum-mechanics/ladder-operators-oscillator.md	how	4	0	ok
+domains/physics/quantum-mechanics/ladder-operators-oscillator.md	mis	8	0	ok
+domains/physics/quantum-mechanics/ladder-operators.md	how	4	1	fixed	On the truncated 5x5 block, aa+ - a+a = diag(1,1,1,1,-4), not the identity; the exercise as written would mislead. Added a sentence naming the truncation artifact.
+domains/physics/quantum-mechanics/ladder-operators.md	mis	8	0	ok
+domains/physics/quantum-mechanics/measurement-problem-quantum.md	how	3	0	ok
+domains/physics/quantum-mechanics/measurement-problem-quantum.md	mis	8	1	fixed	"Unitary evolution never yields a single definite outcome" dropped the qualifier (an eigenstate input gives a definite outcome); now says unitary evolution turns a superposition into an entangled superposition of outcomes. OLD TEXT: Q5 answer/explainer claim the interpretations differ in physical predictions (only collapse models do).
+domains/physics/quantum-mechanics/measurement-problem.md	how	3	0	ok
+domains/physics/quantum-mechanics/measurement-problem.md	mis	6	0	ok	OLD TEXT: Q2 answer and explainer say all four interpretations (incl. GRW) agree on every prediction; GRW differs in principle, as Q2's own explanation admits.
+domains/physics/quantum-mechanics/measurement-problem.md	q:4:explanation	1	0	ok
+domains/physics/quantum-mechanics/observables-and-operators.md	how	4	0	ok	OLD TEXT: Q2 explanation says "Option 0 is wrong" (label glitch).
+domains/physics/quantum-mechanics/observables-and-operators.md	mis	8	1	fixed	Orthogonality alone does not make probabilities sum to one; completeness is also needed. Added "Together with completeness".
+domains/physics/quantum-mechanics/orbital-angular-momentum-quantum.md	how	3	0	ok
+domains/physics/quantum-mechanics/orbital-angular-momentum-quantum.md	mis	8	1	fixed	Correction said an L_z eigenstate "is stationary"; that needs it to be an energy eigenstate too. Rewrote to <Lx>=<Ly>=0 plus the energy-eigenstate qualifier. OLD TEXT: Q5 explanation says the vector model shows L precessing, which this bullet now contradicts.
+domains/physics/quantum-mechanics/partial-wave-analysis.md	how	4	0	ok
+domains/physics/quantum-mechanics/partial-wave-analysis.md	mis	8	0	ok
+domains/physics/quantum-mechanics/path-integral-formulation.md	how	3	0	ok
+domains/physics/quantum-mechanics/path-integral-formulation.md	mis	8	0	ok
+domains/physics/quantum-mechanics/pauli-matrices.md	how	3	0	ok
+domains/physics/quantum-mechanics/pauli-matrices.md	mis	6	0	ok
+domains/physics/quantum-mechanics/pure-and-mixed-states.md	how	3	0	ok
+domains/physics/quantum-mechanics/pure-and-mixed-states.md	mis	6	0	ok
+domains/physics/quantum-mechanics/quantum-harmonic-oscillator.md	how	3	0	ok	OLD TEXT: explainer says an emitting atom's field mode drops from n=1 to n=0; emission raises the field mode from 0 to 1.
+domains/physics/quantum-mechanics/quantum-harmonic-oscillator.md	mis	6	0	ok
+domains/physics/quantum-mechanics/quantum-interpretations.md	how	3	0	ok	OLD TEXT: Q5 answer says "Copenhagen: no collapse is real", contradicting Core Idea ("collapse is real").
+domains/physics/quantum-mechanics/quantum-interpretations.md	mis	6	0	ok
+domains/physics/quantum-mechanics/quantum-measurement-postulate.md	how	3	0	ok	OLD TEXT: Q1 answer option reads "not unknown but pre-existing" (self-contradictory); Q1/Q4/explainer present ontic indeterminacy as experimental fact, and Q4 contradicts Q5's account of Copenhagen.
+domains/physics/quantum-mechanics/quantum-measurement-postulate.md	mis	6	0	ok
+domains/physics/quantum-mechanics/quantum-observables.md	how	3	0	fixed	Clarity only (not counted wrong): "a 2x2 example with a repeated eigenvalue" did not say Hermitian, and a non-Hermitian one can be defective; changed to "a 3x3 Hermitian example". OLD TEXT: Q4 says the eigenvalues of a+ are complex with coherent-state eigenstates; coherent states are eigenstates of a, and a+ has no normalizable eigenstates.
+domains/physics/quantum-mechanics/quantum-observables.md	mis	8	0	ok
+domains/physics/quantum-mechanics/quantum-operators.md	how	4	1	fixed	"Write the same operators [x, p] as matrices on a two-state system" is impossible: no finite matrices satisfy [x,p]=i hbar (trace argument). Replaced with spin operators as 2x2 matrices plus a one-line reason.
+domains/physics/quantum-mechanics/quantum-operators.md	mis	8	0	ok
+domains/physics/quantum-mechanics/quantum-postulates.md	how	3	0	ok
+domains/physics/quantum-mechanics/quantum-postulates.md	mis	6	0	ok
+domains/physics/quantum-mechanics/quantum-superposition.md	how	3	0	ok	OLD TEXT: Q3 explanation writes the cross term as |c1|^2|c2|^2 cos(phase); it is 2|c1||c2|cos(phase) (times the path amplitudes).
+domains/physics/quantum-mechanics/quantum-superposition.md	mis	8	0	ok

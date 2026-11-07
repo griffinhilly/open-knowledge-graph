@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Developmental timing mechanisms ensure that cellular events — differentiation, morphogenesis, signal responses — occur in the correct temporal sequence and at the right pace. Timing is controlled by molecular clocks (the segmentation clock driving somitogenesis uses Notch/Wnt oscillations with ~2-hour period in mice), sequential transcription factor cascades (temporal identity in Drosophila neuroblasts), and cell-intrinsic timers (oligodendrocyte precursors count divisions before differentiating). Heterochrony — evolutionary changes in developmental timing — is a major source of morphological diversity, exemplified by neoteny (retention of juvenile features in adults, as in the axolotl) and the changes in relative growth timing that distinguish human and chimpanzee brain development.
 
+## How It's Best Learned
+Sort examples into three timer types: oscillators (the segmentation clock), sequential cascades (Drosophila neuroblast temporal factors), and division-counting timers (oligodendrocyte precursors). For the segmentation clock, use a space-time diagram of the presomitic mesoderm, with position on one axis and time on the other, to see how each clock cycle and the receding wavefront set one somite.
+
+## Common Misconceptions
+- Embryos keep time with one master clock. (Different processes use different mechanisms, including oscillating gene expression, sequential transcription factor cascades and cell-intrinsic counters.)
+- The segmentation clock alone sets where each somite boundary forms. (The clock sets when a somite forms; the receding FGF/Wnt wavefront sets where, so somite size depends on how far the wavefront moves in one period.)
+- Bigger brains come from faster-dividing or faster-developing cells. (Human neural progenitors develop more slowly and stay proliferative longer, which allows more rounds of division and more neurons.)
+- Heterochrony needs new genes or new developmental events. (It changes the timing or rate of existing events, such as delaying metamorphosis or extending a growth phase.)
+
 ## Questions
 
 ```yaml

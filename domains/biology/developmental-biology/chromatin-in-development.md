@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Chromatin structure is a critical layer of developmental gene regulation that determines which genes are accessible for transcription in each cell type. Polycomb group (PcG) proteins silence developmental genes by depositing repressive histone marks (H3K27me3), while Trithorax group (TrxG) proteins activate genes through activating marks (H3K4me3). In embryonic stem cells, key developmental genes carry both marks simultaneously ("bivalent domains"), maintaining genes in a poised state — silent but ready for rapid activation upon differentiation signals. Progressive chromatin remodeling during development restricts gene accessibility, converting reversible specification into irreversible determination and explaining why differentiated cells cannot easily reactivate genes from other lineages.
 
+## How It's Best Learned
+Follow one gene through three cell states on a single diagram: an embryonic stem cell, a cell that chose that gene's lineage, and a cell that chose a different lineage. Label the marks at the promoter in each state (H3K4me3, H3K27me3, both, or added layers such as DNA methylation). Then read real ChIP-seq tracks for a developmental gene to see the same pattern in data.
+
+## Common Misconceptions
+- A gene carrying an activating mark is being transcribed. (Bivalent promoters carry H3K4me3 together with H3K27me3 and stay largely silent until the domain resolves.)
+- Polycomb silencing changes or removes the DNA, so silenced genes are lost. (H3K27me3 is a histone modification; demethylases and reprogramming can remove it, although in normal development it is stably inherited through cell division.)
+- Chromatin marks are set once in the egg and stay fixed. (Marks are added and removed at each differentiation step, progressively narrowing which genes can be turned on.)
+- Different cell types express different genes because they carry different genomes. (Nearly all cells share the same genome; what differs is which regions are open and accessible to transcription.)
+
 ## Questions
 
 ```yaml

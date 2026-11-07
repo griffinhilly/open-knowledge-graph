@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Sex determination is the developmental process that directs an initially bipotential gonad to develop as either a testis or an ovary, which then drives secondary sexual differentiation of the entire body. In mammals, the SRY gene on the Y chromosome activates Sox9 in the bipotential gonad, initiating a testis-determining cascade (Sertoli cell differentiation, testosterone production, Mullerian duct regression). In the absence of SRY, the default pathway (Wnt4/RSPO1/beta-catenin) drives ovarian development. Other animals use different mechanisms: ZW chromosomal system in birds, X:autosome ratio in Drosophila, temperature-dependent determination in many reptiles. Sex determination reveals how a single genetic or environmental signal can redirect an entire developmental trajectory.
 
+## How It's Best Learned
+Draw the bipotential gonad as a fork with two branches: SRY to Sox9 to Sertoli cells on one side, and Wnt4/RSPO1 to beta-catenin, with Foxl2 acting alongside, on the other, with repression arrows between them. Then lay out a cross-species table (mouse, chicken, fruit fly, a temperature-dependent reptile) that separates the upstream trigger from the conserved downstream genes.
+
+## Common Misconceptions
+- The Y chromosome makes the whole body male directly. (In mammals, SRY acts in the gonad to make a testis, and testis hormones then drive most male development in the rest of the body.)
+- Every animal uses an XY system like ours. (Birds use ZW chromosomes with ZZ males, fruit flies count X chromosome dose (long described as an X-to-autosome ratio), and many reptiles use incubation temperature.)
+- Once the gonad has chosen its sex, the decision is permanent. (In adult mice, deleting DMRT1 in testes or Foxl2 in ovaries causes supporting cells to switch toward the other sex's cell type.)
+- Temperature-dependent sex determination uses its own special genes. (Temperature acts on the same conserved gonad genes, such as aromatase, Sox9 and Foxl2, that genetic systems use.)
+
 ## Questions
 
 ```yaml

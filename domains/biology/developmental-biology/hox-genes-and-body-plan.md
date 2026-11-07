@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Hox genes are a family of transcription factors containing a conserved homeodomain DNA-binding region that specify segment identity along the anterior-posterior body axis. They are arranged in clusters on the chromosome, and their order on the chromosome matches their order of expression along the body axis (spatial collinearity) and often their timing of activation (temporal collinearity). Mutations in Hox genes produce homeotic transformations — one body segment adopts the identity of another (e.g., legs growing where antennae should be in Drosophila). Hox genes are extraordinarily conserved across the animal kingdom, revealing a deep homology in body plan patterning that predates the divergence of arthropods and vertebrates over 500 million years ago.
 
+## How It's Best Learned
+Draw a Hox cluster from 3' to 5' directly above a cartoon fly or mouse embryo, and connect each gene to the region where it is expressed. Then work through the Ubx loss-of-function example: predict what T3 becomes, then compare with the four-winged fly. A parallel vertebrate case, where a lumbar vertebra takes on thoracic identity and grows ribs, shows the same selector logic.
+
+## Common Misconceptions
+- Hox genes build structures such as legs or wings. (Hox genes are selector genes that set segment identity; they modify which developmental program a segment runs, as when Ubx turns a wing program into a haltere.)
+- A homeotic mutation creates a new, never-seen structure. (It replaces one segment's identity with another's, so a normal structure appears in the wrong place.)
+- Hox genes matter only in visibly segmented animals such as insects. (Hox genes pattern the anterior-posterior axis across bilaterians, and in vertebrates they also set the identity of vertebrae.)
+- Vertebrates have a single set of Hox genes, as flies do. (Vertebrates such as mice have four paralogous clusters, A to D, which share the same collinear pattern.)
+
 ## Questions
 
 ```yaml

@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Evolutionary developmental biology (evo-devo) studies how changes in developmental processes produce morphological diversity across species. Its central insight is that animal body plan diversity arises primarily from changes in the regulation of a conserved genetic toolkit — the same signaling pathways (Wnt, Hedgehog, BMP, Notch) and transcription factors (Hox genes, Pax, Dlx) are used across all animal phyla, and morphological evolution occurs mainly through changes in when, where, and how much these genes are expressed (cis-regulatory mutations) rather than through changes in protein-coding sequences. This explains both the deep homology (conserved toolkit genes) and the enormous diversity (different regulatory deployment) of animal forms.
 
+## How It's Best Learned
+Work one case study end to end, such as pelvic reduction in sticklebacks: the trait, the gene (Pitx1), the enhancer that was lost, and why the protein still works elsewhere in the body. Then draw a gene with several modular enhancers, each driving expression in one tissue, and compare what a coding mutation and a single-enhancer mutation would each break.
+
+## Common Misconceptions
+- Very different animals must be built by very different genes. (Flies, fish and mammals share much of the same developmental toolkit, including Hox genes and the major signaling pathways.)
+- Shared toolkit genes mean the structures they build are homologous. (Pax6 acts in both fly compound eyes and vertebrate camera eyes, but the eyes themselves are built very differently; deep homology refers to the shared genetic control, not to the finished structures.)
+- New body forms need newly invented genes. (Many morphological changes come from changing when, where or how much existing genes are expressed.)
+- Changes in protein-coding sequence are the main route to new anatomy. (Coding changes in toolkit genes tend to affect many tissues at once, while enhancer changes can alter one tissue and leave other functions intact.)
+
 ## Questions
 
 ```yaml

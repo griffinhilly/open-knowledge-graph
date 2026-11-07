@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Neurulation is the process by which the neural plate (a region of ectoderm induced by signals from the underlying notochord) folds into the neural tube, the precursor of the brain and spinal cord. The neural plate borders elevate to form neural folds, which converge at the midline and fuse, creating a hollow tube that detaches from the overlying ectoderm. At the junction where neural and non-neural ectoderm meet, the neural crest cells delaminate and migrate throughout the embryo, contributing to a remarkable diversity of cell types including peripheral neurons, melanocytes, and craniofacial cartilage. Failure of neural tube closure produces severe birth defects: anencephaly (failure to close at the head) and spina bifida (failure to close at the tail).
 
+## How It's Best Learned
+Draw a series of four cross-sections through the dorsal embryo: flat neural plate, bending plate with a midline hinge, elevated folds, and closed tube under the epidermis. Mark the notochord below and the neural crest at the fold edges in each one. A sheet of paper folded lengthwise and pinched at the center helps show how closure can proceed from the middle toward both ends.
+
+## Common Misconceptions
+- The notochord sends a direct "become neural" signal. (The organizer and notochord secrete BMP antagonists, and ectoderm with low BMP signaling takes its default neural fate.)
+- The neural tube becomes only the spinal cord. (The anterior tube forms the brain, the posterior tube forms the spinal cord, and its hollow interior becomes the ventricles and central canal.)
+- Neural crest cells stay in the nervous system. (Neural crest cells migrate widely and form melanocytes, craniofacial bone and cartilage and adrenal medulla cells, besides peripheral neurons and glia.)
+- Folic acid prevents all neural tube defects. (Folic acid lowers the risk but does not remove it, because genetic and other environmental factors also contribute.)
+
 ## Questions
 
 ```yaml

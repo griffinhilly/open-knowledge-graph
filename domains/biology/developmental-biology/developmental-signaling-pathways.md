@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Four signaling pathways — Wnt, Hedgehog (Hh), Notch, and BMP/TGF-beta — are the core communication toolkit of animal development, used iteratively from gastrulation through organogenesis. Each operates through a distinct mechanism: Wnt stabilizes beta-catenin to activate TCF/LEF transcription factors; Hedgehog relieves Patched-mediated repression of Smoothened to activate Gli transcription factors; Notch uses direct cell-cell contact and receptor cleavage to release the Notch intracellular domain (NICD) as a transcription factor; BMP/TGF-beta signals through receptor serine/threonine kinases that phosphorylate Smad transcription factors. These pathways are reused in different tissues and at different times, with the cellular response determined by context — which other transcription factors are present and which chromatin regions are accessible.
 
+## How It's Best Learned
+Draw the four pathways side by side as "off" and "on" cartoons, with the same columns for each: ligand, receptor, the step the signal relieves or triggers, and the nuclear effector. The comparison shows the shared double-negative logic of Wnt and Hedgehog and the contact requirement of Notch. Then take one ligand, such as Shh, and list two tissues that read it differently.
+
+## Common Misconceptions
+- Each pathway has one fixed job, such as Wnt for growth or BMP for bone. (Each pathway is reused in many tissues and stages, and the response depends on which transcription factors and open chromatin regions the receiving cell already has.)
+- With no Wnt signal, beta-catenin simply is not made. (Beta-catenin is made continuously but is phosphorylated by the destruction complex and degraded; Wnt blocks that destruction.)
+- Hedgehog activates its receptor the way most ligands do. (Patched represses Smoothened, and Hedgehog binding to Patched lifts that repression.)
+- Notch acts over a distance like the other three. (Notch ligands and receptors are both on cell surfaces, so signaling needs direct contact between neighboring cells.)
+
 ## Questions
 
 ```yaml

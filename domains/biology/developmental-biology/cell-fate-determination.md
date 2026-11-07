@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Cell fate determination is the progressive restriction of a cell's developmental potential from pluripotent (capable of forming any cell type) to fully committed (producing only one cell type). The process occurs in stages: specification (a cell is biased toward a fate but can still be redirected by new signals), followed by determination (commitment is irreversible — the cell will adopt its fate even if transplanted to a different environment). Waddington's epigenetic landscape metaphor visualizes this as a ball rolling downhill through branching valleys, each valley representing a developmental path. The molecular basis involves transcription factor networks with cross-repressive interactions that create bistable switches, locking cells into discrete fates through self-reinforcing gene expression programs.
 
+## How It's Best Learned
+Learn the stages through the transplantation tests that define them. For each stage, ask what a cell does when isolated in neutral conditions and what it does when moved to a new region. Then sketch a two-factor circuit in which A and B repress each other, and trace how a small push toward A ends in a stable high-A state.
+
+## Common Misconceptions
+- A specified cell is already committed to its fate. (A specified cell takes its fate in neutral conditions but can still be redirected by new signals; only a determined cell keeps its fate after transplantation.)
+- Determination means the cell has lost the genes for other fates. (Most differentiated cells keep the full genome; commitment comes from self-reinforcing transcription factor circuits and chromatin states that keep other genes off.)
+- Graded signals produce graded, intermediate cell types. (Cross-repressive circuits convert a graded input into one of two stable states, so cells end up in discrete fates.)
+- In Waddington's landscape, cells slide smoothly from one fate into the next. (The valleys stand for stable states, and moving between them usually involves a switch-like transition past a branch point.)
+
 ## Questions
 
 ```yaml

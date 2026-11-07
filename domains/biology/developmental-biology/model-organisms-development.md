@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Developmental biology relies on a small set of model organisms, each chosen for specific experimental advantages: Drosophila melanogaster (rapid genetics, powerful mutant screens, accessible embryo), C. elegans (invariant cell lineage, transparency, RNAi tractability), Xenopus laevis (large accessible embryos ideal for microsurgery and biochemistry), zebrafish (optical transparency, genetic screens, vertebrate with rapid external development), and mouse (mammalian physiology, gene targeting, relevance to human disease). Each model organism has revealed different aspects of developmental biology — the logic of genetic screens (Drosophila), the deterministic cell lineage (C. elegans), embryonic induction (Xenopus), live imaging of development (zebrafish), and mammalian-specific mechanisms (mouse). Comparing developmental mechanisms across models reveals conserved principles and lineage-specific innovations.
 
+## How It's Best Learned
+Build a table with one row per organism and columns for its main advantages, its main limits, and one landmark finding. Then practice matching questions to models: for example, which organism you would choose to watch neural crest cells migrate live, to graft tissue between embryos, or to study placentation. Justify each choice with the organism's specific strengths.
+
+## Common Misconceptions
+- One model organism is the best for every question. (Each model trades off strengths, such as fly genetics, frog microsurgery, zebrafish imaging and mouse mammalian biology, so the right choice depends on the question.)
+- Findings in flies or worms tell us nothing about humans. (Many toolkit genes and pathways found in these models, such as Hox genes and Notch, are conserved in mammals.)
+- An invariant cell lineage means C. elegans cells never signal to each other. (Cell-cell signaling still matters, as in EGF-driven vulval induction from the anchor cell.)
+- Mice can answer any mammal-specific question about human development. (Mice share core mammalian features such as placentation and imprinting, but mouse and human embryos differ in timing and in some tissues, so results need checking in human systems.)
+
 ## Questions
 
 ```yaml

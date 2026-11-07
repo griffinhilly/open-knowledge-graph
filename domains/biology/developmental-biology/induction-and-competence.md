@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Embryonic induction is the process by which one group of cells (the inducer) signals to an adjacent group (the responder), changing the responder's developmental fate. Induction requires that the responding tissue be competent — expressing the appropriate receptors and intracellular signal transduction machinery to respond to the inductive signal. Competence is temporally restricted: tissues can respond to inductive signals only during specific developmental windows, after which they lose responsiveness regardless of signal strength. Virtually every organ in the body is formed through a cascade of sequential inductive interactions, where the product of one induction becomes the inducer for the next.
 
+## How It's Best Learned
+Work through the organizer graft as a puzzle. First ask whether the second axis is made of donor or host cells, and what that answer implies about signaling. Then repeat the graft at a later stage and explain why it fails. A flow chart of the eye cascade, organizer to neural tissue to lens to cornea, shows how each induced tissue becomes the next inducer.
+
+## Common Misconceptions
+- If a signal reaches a tissue, the tissue will respond. (A tissue responds only if it is competent, meaning it has the receptors, signal transduction machinery and accessible target genes during the right time window.)
+- In an organizer graft, the extra axis is built mainly by the grafted cells. (Most of the induced structures come from host cells whose fate the organizer changed through signaling.)
+- Induction runs in one direction, from inducer to responder. (Many inductions are reciprocal; in the kidney, the ureteric bud and metanephric mesenchyme each need signals from the other.)
+- The organizer makes neural tissue by sending a "become neural" signal. (The organizer secretes BMP antagonists such as Chordin and Noggin, and ectoderm with low BMP signaling takes a neural fate.)
+
 ## Questions
 
 ```yaml
