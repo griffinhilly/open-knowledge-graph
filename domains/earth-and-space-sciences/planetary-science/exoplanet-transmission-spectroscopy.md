@@ -31,6 +31,14 @@ status: validated
 ## Core Idea
 Transmission spectroscopy measures wavelength-dependent absorption of starlight by exoplanet atmospheres during transit; opacity variations reveal atmospheric composition (H₂O, CO₂, CH₄, molecular features), cloud altitude, and aerosol properties. The technique is sensitive to biosignatures and constraints habitability indicators.
 
+## How It's Best Learned
+Draw the planet as an opaque disk with a thin ring of atmosphere and compute both areas against the star. For a Jupiter-sized planet (radius 70,000 km) and a Sun-sized star (radius 700,000 km), the disk blocks about 1%. A ring 1,000 km thick adds about 2 × R_p × ΔR / R_s², or roughly 290 parts per million. Then repeat for an Earth-sized planet.
+
+## Common Misconceptions
+- Atmospheric features change the transit depth about as much as the planet itself does. (A Jupiter-sized planet blocks about 1% of a Sun-like star's light. Atmospheric features typically add only tens to hundreds of parts per million on top of that.)
+- A transmission spectrum shows the planet's dayside atmosphere. (Starlight passes through the ring of atmosphere at the planet's edge, along the boundary between day and night. Dayside light is studied with emission spectroscopy at secondary eclipse.)
+- Every feature in a transmission spectrum comes from the planet. (Starspots and bright regions on the star can change the starlight behind the planet and imprint false features. This is a particular problem for active M-dwarf hosts.)
+
 ## Questions
 
 ```yaml

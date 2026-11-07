@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Atmospheric escape occurs through multiple mechanisms: thermal (Jeans) escape when molecular velocities exceed planetary escape velocity; ion escape when solar wind strips ions from unmagnetized atmospheres; photochemical dissociation releasing H atoms. Escape rates depend critically on stellar X-ray flux, planetary mass, temperature, and magnetosphere strength.
 
+## How It's Best Learned
+Compute v_rms = √(3kT/m) at 1,000 K for H₂ and N₂. You get about 3.5 km/s and 0.9 km/s, against Earth's 11.2 km/s escape velocity. Then sketch both Maxwell-Boltzmann curves and shade the tail above escape velocity. Finish with a table for Venus, Earth, and Mars: escape velocity, magnetic field, and main loss channels.
+
+## Common Misconceptions
+- Jeans escape happens only when the average molecule moves faster than escape velocity. (Only molecules in the high-speed tail need to exceed it. Hydrogen's average speed at Earth's exobase is well below escape velocity, yet hydrogen still leaks away.)
+- A planet without a global magnetic field will lose its whole atmosphere. (Venus has no global field yet keeps a very thick atmosphere. Gravity, stellar flux, and atmospheric mass also control loss, and magnetized planets still lose gas through the polar wind.)
+- Heavy gases like CO₂ and O₂ escape from Mars mainly by thermal escape. (Heavy species are too slow for much Jeans escape even on Mars. They leave mostly through non-thermal routes such as ion pickup, sputtering, and photochemical escape.)
+- Today's escape rates show how fast a planet has always lost gas. (Young stars emit far more EUV and X-rays, so loss rates early in a planet's history could be much higher than now.)
+
 ## Questions
 
 ```yaml
@@ -62,6 +71,7 @@ Atmospheric escape occurs through multiple mechanisms: thermal (Jeans) escape wh
 - question: "Explain why Jeans escape is far more effective at removing hydrogen from a planetary atmosphere than removing nitrogen or oxygen, using the physics of the Maxwell-Boltzmann distribution."
   type: short-answer
   answer: "Jeans escape occurs when molecules at the exobase (the level where the atmosphere becomes collisionless) happen to have velocities exceeding the planetary escape velocity. The Maxwell-Boltzmann distribution gives the probability that a molecule has a given speed; the fraction exceeding escape velocity depends critically on molecular mass. At a given temperature, the root-mean-square speed is v_rms = √(3kT/m), so lighter molecules move faster. Hydrogen (m ≈ 2 amu) has an rms speed roughly 3.7 times higher than nitrogen (m ≈ 28 amu) at the same temperature. This means a far larger fraction of hydrogen molecules populate the high-velocity tail of the distribution and exceed escape velocity. For nitrogen and oxygen, whose masses are 14–16 times larger than hydrogen, escape velocity is so far into the tail of the distribution that thermal loss is negligible over planetary timescales. This mass dependence explains why planets systematically lose light gases (H, He) while retaining heavier species."
+  explanation: "The escaping fraction is set by how far escape velocity lies in the tail of the speed distribution. The Jeans parameter, the ratio of a molecule's gravitational binding energy to its thermal energy at the exobase, grows in proportion to molecular mass. The escaping fraction falls off roughly exponentially with that parameter. A fourteen-fold increase in mass from H₂ to N₂ therefore cuts thermal loss by many orders of magnitude, not by a factor of fourteen."
 ```
 
 ## Explainer

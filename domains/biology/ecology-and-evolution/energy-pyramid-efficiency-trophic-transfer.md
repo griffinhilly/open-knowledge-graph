@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Energy decreases at each trophic level due to metabolic costs, growth, and movement. Approximately 10% of energy transfers from one trophic level to the next (ranging from 5-20% depending on ecosystem). This creates pyramids of energy and biomass, with progressively fewer organisms at higher trophic levels.
 
+## How It's Best Learned
+Draw an energy budget for one consumer before scaling up to a pyramid. Take a caterpillar that eats 200 J of leaf. It egests 100 J as feces, uses 67 J in respiration and stores 33 J as new tissue. Only that 33 J, about 16.5%, is available to a bird that eats it. Then chain three such steps from 10,000 kcal of plant production and see how little reaches the top.
+
+## Common Misconceptions
+- The 90% of energy that does not pass up a level is destroyed. (Energy is not destroyed. Most leaves as heat from respiration, and the rest goes to decomposers as feces and uneaten remains.)
+- The 10% rule is an exact law. (It is a rough average. Real transfer efficiencies vary widely with the ecosystem and the kinds of organisms involved.)
+- Every ecological pyramid must be widest at the bottom. (Energy pyramids are, but biomass pyramids can be inverted. In open oceans, fast-growing phytoplankton can support a larger standing biomass of zooplankton.)
+
 ## Questions
 
 ```yaml

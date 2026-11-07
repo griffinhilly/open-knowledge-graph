@@ -24,7 +24,16 @@ status: validated
 # FAD, FADH₂, and Other Redox Carriers
 
 ## Core Idea
-FAD is a redox cofactor that accepts two electrons and one proton, forming FADH₂, and is tightly bound to its apoenzyme as a prosthetic group. Unlike NAD+, FADH₂ participates in the electron transport chain at Complex II and is critical for fatty acid oxidation and the citric acid cycle. Other carriers include FMN (flavin mononucleotide) in Complex I.
+FAD is a redox cofactor that accepts two electrons and two protons, forming FADH₂, and is tightly bound to its apoenzyme as a prosthetic group. Unlike NADH, FADH₂ does not leave its enzyme: in succinate dehydrogenase (Complex II) and in fatty acid oxidation (via electron-transferring flavoprotein), its electrons pass to ubiquinone, bypassing Complex I. Other carriers include FMN (flavin mononucleotide) in Complex I.
+
+## How It's Best Learned
+Build a three-row table for NAD⁺, FAD and FMN with columns for how tightly it binds, what it carries, and where it hands electrons on. Then trace two electron pairs to oxygen. Start one at malate (via NADH and Complex I) and one at succinate (via FAD in Complex II). Count the proton-pumping complexes each pair passes through.
+
+## Common Misconceptions
+- FAD works like NAD⁺, leaving its enzyme to carry electrons elsewhere. (FAD stays bound as a prosthetic group, so the enzyme hands its electrons directly to the next acceptor.)
+- Complex II pumps protons like Complex I. (Complex II pumps no protons, which is why electrons entering there yield less ATP.)
+- All FADH₂ in the cell is in Complex II. (Many enzymes carry FAD; in fatty acid oxidation, acyl-CoA dehydrogenase passes electrons through electron-transferring flavoprotein to ubiquinone, also bypassing Complex I.)
+- Flavins can only move electrons two at a time. (Flavins can accept one electron at a time through a semiquinone form, which lets them connect two-electron donors to one-electron carriers such as iron-sulfur clusters.)
 
 ## Questions
 
@@ -71,6 +80,6 @@ You already know from your study of cofactors and coenzymes that enzymes often n
 
 The critical distinction between FAD and NAD⁺ is how they associate with their enzymes. NAD⁺ is a **cosubstrate** — it binds, picks up electrons, and then diffuses away as NADH to deliver those electrons elsewhere. FAD, by contrast, is a **prosthetic group**: it stays permanently attached to its enzyme. When FAD accepts two electrons and two protons, it becomes **FADH₂**, but FADH₂ never floats free in the cytoplasm. Instead, the enzyme carrying FADH₂ donates its electrons directly to the next component in the chain. This is why succinate dehydrogenase (Complex II of the electron transport chain) is both a citric acid cycle enzyme and a respiratory chain component — its bound FADH₂ hands electrons straight to ubiquinone without an intermediary.
 
-This tightly-bound nature has an energetic consequence. FADH₂ enters the electron transport chain at Complex II rather than Complex I, bypassing one proton-pumping step. As a result, each FADH₂ generates roughly 1.5 ATP compared to NADH's 2.5 ATP. Think of it as two on-ramps to the same highway: NADH enters at the first exit and passes three toll booths (proton pumps), while FADH₂ enters at the second exit and passes only two. The electrons end up at the same destination — molecular oxygen — but FADH₂ contributes less to the proton gradient because it skips one pump.
+This tightly-bound nature has an energetic consequence. FADH₂ electrons enter the electron transport chain at ubiquinone (through Complex II or, in fatty acid oxidation, through electron-transferring flavoprotein) rather than at Complex I, bypassing one proton-pumping step. As a result, each FADH₂ generates roughly 1.5 ATP compared to NADH's 2.5 ATP. Think of it as two on-ramps to the same highway: NADH enters at the first exit and passes three toll booths (proton pumps), while FADH₂ enters at the second exit and passes only two. The electrons end up at the same destination — molecular oxygen — but FADH₂ contributes less to the proton gradient because it skips one pump.
 
 Beyond FAD, another flavin cofactor plays a key role: **FMN (flavin mononucleotide)**, which serves as the initial electron acceptor in Complex I of the electron transport chain. FMN is structurally simpler than FAD — it lacks the adenine nucleotide portion — but it performs the same flavin-based redox chemistry. Together, FAD and FMN illustrate a broader principle: cells use a family of specialized redox carriers, each tuned to a specific reduction potential and cellular location, to channel electrons efficiently from fuel molecules to oxygen.

@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Despite their reputation for conquest, the Mongols under Genghis Khan and successors created sophisticated administrative systems to govern diverse populations and territories. They established relay stations (yams), a postal system, standardized weights and measures, and meritocratic civil service recruiting talent regardless of ethnicity. Mongol rule, though brutal, enabled long-distance trade, information flow, and cultural exchange across Eurasia in ways feudal Europe could not achieve.
 
+## How It's Best Learned
+Pick one region the Mongols ruled, such as Persia or northern China, and make two lists: what the Mongols kept from the old regime and what they added on top. Local scribes, tax registers and officials usually go in the first list. Mongol overseers, the census and the yam go in the second. Then follow one imperial order from the khan's court to a provincial town and name each person and station that handles it.
+
+## Common Misconceptions
+- The Mongol Empire stayed one unified state under a single khan. (After Möngke's death in 1259, succession wars split it into four khanates, including the Yuan in China and the Ilkhanate in Persia. These states at times fought each other.)
+- The Mongols forced their own religion on the people they conquered. (Mongol rulers mostly tolerated many faiths and often exempted religious leaders from taxes. Later, several khanates adopted Islam or patronized Buddhism.)
+- The Pax Mongolica meant peace everywhere. (It meant relative security on routes inside Mongol lands. Wars between khanates and violent campaigns at the frontiers continued.)
+
 ## Questions
 
 ```yaml

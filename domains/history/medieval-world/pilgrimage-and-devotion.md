@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Pilgrimage to holy sites (Jerusalem, Rome, Santiago de Compostela) was a central form of medieval devotion, undertaken for salvation, healing, or penance. Pilgrims traveled routes that became fixed, creating networks of hostels and shrines. Pilgrimages blended spiritual aspiration with practical trade and cultural exchange; Chaucer's Canterbury Tales famously captured the social diversity of pilgrims. The pilgrimage tradition eventually evolved into the Crusades.
 
+## How It's Best Learned
+Plan a pilgrimage on a map. Pick a starting town, choose Rome, Santiago or a nearby saint's shrine, and list what the pilgrim needs: a reason, a route, places to sleep, protection, a badge to bring home. Then write three short profiles of pilgrims with different motives, such as a sick weaver, a penitent knight and a widow keeping a vow. Compare what each expects to receive at the shrine.
+
+## Common Misconceptions
+- A medieval pilgrimage meant a long trip to a distant land. (Most pilgrims visited local or regional shrines, such as a saint's tomb in a nearby town. Jerusalem, Rome and Santiago drew a smaller number of long-distance travelers.)
+- Every pilgrim went out of personal piety. (Some were ordered to go as a penance or a court punishment, and others traveled on someone else's behalf to fulfill a vow or a will.)
+- Relics were valued only as reminders of the saints. (Medieval Christians believed a saint's power was present at the relics, so being near them could bring healing or help from the saint.)
+
 ## Questions
 
 ```yaml

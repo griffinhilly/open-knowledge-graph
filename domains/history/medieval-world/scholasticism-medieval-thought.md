@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Scholasticism was a method of theological and philosophical inquiry that dominated medieval universities, combining Aristotelian logic with Christian doctrine. Scholars like Thomas Aquinas attempted to reconcile reason and faith through rigorous debate and textual analysis. Scholasticism represented a revolution in how knowledge was organized and transmitted, though it was later critiqued by Renaissance humanists as pedantic.
 
+## How It's Best Learned
+Work through one real collision between Aristotle and Christian doctrine: Aristotle taught that the world is eternal, while Genesis says it was created. Write out each side's claim, then Aquinas's answer. He held that reason alone cannot prove whether the world had a beginning, so the question is settled by faith. Seeing one conflict resolved this way makes the faith-and-reason project concrete.
+
+## Common Misconceptions
+- Scholasticism began with the universities. (Its methods took shape earlier in cathedral and monastic schools. Anselm and Abelard worked before the universities were formally organized.)
+- Scholastic thinkers all agreed with Aquinas. (Scholastics disagreed sharply. Franciscan thinkers such as Duns Scotus and William of Ockham rejected key positions of Aquinas.)
+- Scholasticism was used only in theology. (The same method of gathering conflicting authorities and resolving them shaped canon law, as in Gratian's *Decretum*, as well as medicine and natural philosophy.)
+
 ## Questions
 
 ```yaml

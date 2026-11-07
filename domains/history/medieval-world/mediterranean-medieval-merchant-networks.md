@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Medieval Mediterranean trade revived through Italian merchant cities (Venice, Genoa) and Islamic ports, exchanging goods between Europe, the Islamic world, and Asia. Merchant networks developed credit systems, insurance, and long-distance partnerships. This commerce created an urban merchant class and linked medieval Europe to broader Afro-Eurasian trade systems.
 
+## How It's Best Learned
+Trace one cargo of pepper on a map from an Indian Ocean port to Alexandria, then by Venetian ship to Venice and north over the Alps. Mark each hand it passes through. Then take one commenda: an investor puts up 100 ducats, the traveling partner sails, and the profit is split. Ask who carries the risk of loss at each stage and which instrument (contract, credit letter, insurance) reduces it.
+
+## Common Misconceptions
+- Italian merchants traded across the Mediterranean on their own, with Muslim lands as closed enemy territory. (Italian merchants traded regularly in Islamic ports such as Alexandria, and Muslim and Jewish merchants ran their own large networks. Commerce often continued alongside religious war.)
+- Venice and Genoa worked together as allies of a common Christian trade. (They were fierce rivals and fought several wars over trading posts and routes in the eastern Mediterranean and Black Sea.)
+- The commenda was a loan with interest. (It was a partnership. The investor shared in the profit or loss of the voyage instead of receiving a fixed return, which also helped it avoid the Church's ban on usury.)
+- Medieval merchants carried chests of coin for every deal. (Letters of credit and bills of exchange let merchants move value on paper, reducing how much coin had to travel by sea.)
+
 ## Questions
 
 ```yaml

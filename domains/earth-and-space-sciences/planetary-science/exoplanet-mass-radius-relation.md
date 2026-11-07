@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 The mass-radius relation of exoplanets constrains internal composition, mantle mineralogy, and the presence of volatile-rich envelopes. Terrestrial exoplanets follow a tight sequence; super-Earths and mini-Neptunes show diversity indicating varied compositions (rocky, water-rich, or gas-dominated). Combined with atmospheric characterization, mass-radius measurements infer whether planets are terrestrial, ocean worlds, or mini-Neptunes.
 
+## How It's Best Learned
+On a log-log mass-radius diagram, draw curves for pure iron, Earth-like rock, water-rich, and hydrogen-enveloped planets. Start from the uncompressed case: at constant density, R ∝ M^(1/3), so doubling mass gives 1.26 times the radius. Compression makes real rocky planets slightly smaller. Then place three 5 M⊕ planets at 1.5, 2.0, and 2.5 R⊕ and name each one's likely makeup.
+
+## Common Misconceptions
+- A planet with a larger radius must also be more massive. (At a fixed mass, radius changes a lot with composition. Gas giants near Jupiter's mass stay roughly the same size over a wide range of masses.)
+- "Super-Earth" means a larger, Earth-like world that could be habitable. (The label describes size only. Many super-Earths orbit very close to their stars and are far too hot for liquid water.)
+- No planets exist between 1.5 and 2.0 Earth radii. (The radius gap is a deficit, not an empty zone. Planets are found in it, only fewer than on either side.)
+
 ## Questions
 
 ```yaml

@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Metapopulations are networks of semi-isolated populations connected by dispersal. Connectivity determines colonization rates (rescue effects) and genetic flow between patches. Fragmented habitats reduce connectivity, increasing local extinction risk and decreasing overall metapopulation persistence. Corridor and stepping-stone landscapes enhance connectivity and population persistence.
 
+## How It's Best Learned
+Use the Levins model, where the fraction of occupied patches settles at p* = 1 − e/c (e is local extinction rate, c is colonization rate). With e = 0.1, set c = 0.5, then 0.2, then 0.1, and get p* = 0.8, 0.5, and 0. Then draw two patches the same distance from a source, one across fields and one across a highway, and say which value of c each should get.
+
+## Common Misconceptions
+- Distance between patches is all that sets connectivity. (What lies between them matters too. A highway can block dispersal across a gap that fields would let animals cross.)
+- Losing each patch adds a small, steady amount of risk. (Persistence can drop sharply once colonization can no longer keep up with local extinction, because each lost population is also a lost source of colonists.)
+- A corridor is useless unless it is good enough to live in. (A corridor can help by letting individuals move between patches, even if no population could live in it.)
+- Local extinction of a patch population means the metapopulation is failing. (Local extinctions are normal in a metapopulation. It persists as long as empty patches are recolonized often enough.)
+
 ## Questions
 
 ```yaml

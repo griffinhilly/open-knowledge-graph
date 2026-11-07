@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Chivalry was an idealized code of conduct prescribing that knights be brave, loyal, courteous, and virtuous—especially toward women and the Church. By the 12th century, chivalry became a literary and cultural ideal romanticized in epics like the Song of Roland, often bearing little resemblance to actual knight behavior. The gap between the courtly ideal and brutal reality reflects medieval tensions between military function and moral aspiration.
 
+## How It's Best Learned
+Put two short passages next to each other: a scene of loyal, pious heroism from the *Song of Roland* or an Arthurian romance, and a chronicle account of knights raiding villages. List the virtues the first passage praises, then check which ones the knights in the second break. Finish by asking who gained from the ideal: the Church, lords, or knights themselves.
+
+## Common Misconceptions
+- Chivalry was mainly about romance and treating all women gently. (Courtesy toward noblewomen was one strand. Much of the code concerned bravery, loyalty to a lord, and service to the Church, and its protections rarely extended to peasants.)
+- Medieval knights generally lived by the chivalric code. (Chronicles and legal records show knights often plundering, breaking oaths, and ignoring Church limits on violence. The code set a standard for judging conduct more than it described it.)
+- Chivalry applied to everyone equally. (The code was a mark of aristocratic status. It governed how nobles treated each other and set them apart from commoners.)
+
 ## Questions
 
 ```yaml

@@ -22,10 +22,16 @@ status: validated
 # Protein Quaternary Structure
 
 ## Core Idea
-Quaternary structure is the arrangement of multiple polypeptide subunits (chains) in a multi-subunit protein complex. Subunits are held together by the same non-covalent interactions that stabilize tertiary structure (hydrophobic effects, hydrogen bonds, ionic interactions). Quaternary structure enables cooperative binding, allosteric regulation, and complex enzymatic functions that single-subunit proteins cannot achieve.
+Quaternary structure is the arrangement of multiple polypeptide subunits (chains) in a multi-subunit protein complex. Subunits are held together by the same non-covalent interactions that stabilize tertiary structure (hydrophobic effects, hydrogen bonds, ionic interactions). Quaternary structure enables cooperative binding between subunits, allosteric regulation, and complex enzymatic functions.
 
 ## How It's Best Learned
 Study hemoglobin as a classic example of quaternary structure and cooperativity: visualize the T (tense, deoxyhemoglobin) and R (relaxed, oxyhemoglobin) states and see how oxygen binding to one subunit facilitates binding to others.
+
+## Common Misconceptions
+- A large protein with several domains has quaternary structure. (Domains within one polypeptide chain are part of its tertiary structure; quaternary structure requires two or more separate chains.)
+- Every protein has quaternary structure. (Many proteins, such as myoglobin, function as a single polypeptide chain and have no quaternary level.)
+- Hemoglobin binds oxygen cooperatively just because it has four hemes. (Four independent hemes would give a hyperbolic curve; cooperativity comes from conformational changes passed between subunits.)
+- The subunits of a multi-subunit protein are always identical copies. (Hetero-oligomers such as hemoglobin, α₂β₂, combine different chains.)
 
 ## Questions
 
@@ -55,10 +61,10 @@ Study hemoglobin as a classic example of quaternary structure and cooperativity:
   answer: false
   explanation: "False. Most multi-subunit proteins are stabilized by non-covalent interactions at the subunit interface: hydrophobic contacts (hydrophobic patches on one subunit pack against complementary patches on another), hydrogen bonds, and ionic interactions (salt bridges). Disulfide bonds between chains do occur in some proteins (notably antibodies), but they are the exception rather than the rule. The non-covalent nature of quaternary interactions is actually important — it allows the conformational changes that transmit cooperative signals between subunits."
 
-- question: "A protein with quaternary structure can achieve cooperative binding and allosteric regulation — properties that are impossible for a single-subunit protein of the same overall size."
+- question: "In hemoglobin, cooperative O₂ binding depends on conformational changes passed between subunits, a mechanism that requires quaternary structure."
   type: true-false
   answer: true
-  explanation: "True. Cooperativity and allosteric regulation through quaternary structure require the transmission of conformational signals across subunit interfaces. A single polypeptide chain, regardless of its size, has no such interfaces — it can have allosteric sites, but cannot exhibit the same kind of inter-subunit communication that gives rise to sigmoidal binding curves and the physiological benefits of cooperative O₂ transport. Hemoglobin's functional properties (steep sigmoidal curve, 2,3-BPG sensitivity, Bohr effect) all emerge from its tetrameric organization."
+  explanation: "True. Cooperativity and allosteric regulation through quaternary structure require the transmission of conformational signals across subunit interfaces. A single polypeptide chain, regardless of its size, has no such interfaces — it can have allosteric sites, but cannot exhibit the same kind of inter-subunit communication that gives hemoglobin its sigmoidal binding curve and the physiological benefits of cooperative O₂ transport. Hemoglobin's functional properties (steep sigmoidal curve, 2,3-BPG sensitivity, Bohr effect) all emerge from its tetrameric organization."
 
 - question: "Explain why hemoglobin's sigmoidal oxygen-binding curve is physiologically advantageous compared to the hyperbolic curve of myoglobin, and what structural feature of hemoglobin produces this shape."
   type: short-answer
@@ -72,4 +78,4 @@ You already understand how a single polypeptide chain folds into its tertiary st
 
 Proteins with identical subunits are called **homo-oligomers** (a homodimer has two identical subunits, a homotetramer has four), while those with different subunits are **hetero-oligomers**. Hemoglobin is a classic hetero-oligomer: an α₂β₂ tetramer consisting of two α-globin and two β-globin subunits, each carrying its own heme group. The reason hemoglobin is a tetramer rather than a monomer like myoglobin reveals why quaternary structure matters: it enables **cooperativity**. When the first oxygen molecule binds to one hemoglobin subunit, it triggers a conformational change that is transmitted across the subunit interfaces, shifting the entire tetramer from the **T (tense) state** to the **R (relaxed) state**. This makes the remaining subunits bind oxygen more readily. The result is a sigmoidal oxygen-binding curve — steep in the middle, flat at the extremes — instead of the hyperbolic curve of myoglobin. This sigmoidal behavior allows hemoglobin to load oxygen efficiently in the lungs (where O₂ is abundant) and release it efficiently in the tissues (where O₂ is scarce).
 
-Beyond cooperativity, quaternary structure enables **allosteric regulation** — the binding of regulatory molecules at sites distant from the active site that modulate the protein's activity. In hemoglobin, 2,3-bisphosphoglycerate (2,3-BPG) binds in the central cavity between the β subunits, stabilizing the T state and reducing oxygen affinity — an adaptation that fine-tunes oxygen delivery to tissues. Enzymes like aspartate transcarbamoylase (ATCase) use quaternary structure to separate catalytic and regulatory subunits entirely, allowing feedback inhibitors to control activity without competing at the active site. These behaviors are impossible in a single-chain protein because they require the transmission of conformational signals across subunit interfaces — a property that emerges only at the quaternary level.
+Beyond cooperativity, quaternary structure enables **allosteric regulation** — the binding of regulatory molecules at sites distant from the active site that modulate the protein's activity. In hemoglobin, 2,3-bisphosphoglycerate (2,3-BPG) binds in the central cavity between the β subunits, stabilizing the T state and reducing oxygen affinity — an adaptation that fine-tunes oxygen delivery to tissues. Enzymes like aspartate transcarbamoylase (ATCase) use quaternary structure to separate catalytic and regulatory subunits entirely, allowing feedback inhibitors to control activity without competing at the active site. In these proteins, the behaviors depend on the transmission of conformational signals across subunit interfaces, which exist only at the quaternary level.

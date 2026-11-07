@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Romanesque architecture (11th–12th centuries) emphasized rounded arches, thick walls, and small windows suited to fortress churches. Gothic architecture (12th–16th centuries) introduced pointed arches, ribbed vaults, flying buttresses, and soaring heights, enabling magnificent cathedrals like Chartres and Notre-Dame. These building styles reflected technological innovation, theological aspirations (the vertical reach toward heaven), and the wealth and power of urban centers and the Church.
 
+## How It's Best Learned
+Put a cross-section of a Romanesque nave next to a Gothic one and draw arrows for where the vault pushes. In the Romanesque section the arrows go into thick walls; in the Gothic one they run along ribs to piers and out through flying buttresses. Then compare interior photos of a Romanesque church and a Gothic cathedral such as Chartres, and match each visible feature to the arrows.
+
+## Common Misconceptions
+- Flying buttresses were mainly decoration. (They carry the outward push of the vault to outside piers, which lets the walls be thinner and hold large windows.)
+- Gothic replaced Romanesque at the same moment everywhere. (Gothic began in 12th-century France and spread unevenly. Some regions kept building Romanesque churches for decades after.)
+- Romanesque churches were primitive or poorly built. (They were skilled solutions to vaulting in stone. Some, like Durham Cathedral, already used ribbed vaults that Gothic builders later developed further.)
+
 ## Questions
 
 ```yaml

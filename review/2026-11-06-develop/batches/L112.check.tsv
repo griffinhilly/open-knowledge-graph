@@ -1,0 +1,75 @@
+domains/biology/ecology-and-evolution/mutation-as-evolutionary-force.md	how	4	0	ok
+domains/biology/ecology-and-evolution/mutation-as-evolutionary-force.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/mutualism-and-symbiosis.md	how	3	0	ok
+domains/biology/ecology-and-evolution/mutualism-and-symbiosis.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/natural-selection-types-and-examples.md	how	4	0	ok
+domains/biology/ecology-and-evolution/natural-selection-types-and-examples.md	mis	6	1	fixed	Bullet 3 absolute "individual cells do not adapt on demand" is false (inducible resistance such as AmpC or vanA induction exists); reworded so heritable resistance spreads by selection
+domains/biology/ecology-and-evolution/net-primary-productivity-allocation.md	how	4	0	ok	Arithmetic checked: 560x50=28,000; 240x1=240
+domains/biology/ecology-and-evolution/net-primary-productivity-allocation.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/niche-concept-fundamental-realized.md	how	3	0	ok
+domains/biology/ecology-and-evolution/niche-concept-fundamental-realized.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/niche-concept-fundamental-realized.md	old:q:2:answer	1	1	fixed	"Realized niche is generally smaller than fundamental" was keyed false while its own explanation says true in most cases; key set to true, explanation prefixed
+domains/biology/ecology-and-evolution/nitrogen-fixation-limitation-cycling.md	how	3	0	ok
+domains/biology/ecology-and-evolution/nitrogen-fixation-limitation-cycling.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/nitrogen-fixation-limitation-cycling.md	old:q:3:explanation	1	1	fixed	"Industrial fixation exceeds all natural fixation" is false (Haber-Bosch ~120 Tg N/yr vs ~200 natural incl. marine); changed to human fixation exceeds natural fixation on land
+domains/biology/ecology-and-evolution/nitrogen-fixation-limitation-cycling.md	old:explainer	1	1	fixed	Same industrial-vs-all-natural overstatement; same fix
+domains/biology/ecology-and-evolution/nitrogen-fixation-limitation-cycling.md	old:q:4:answer	1	1	fixed	"Only natural pathway" ignored lightning; changed to "main natural pathway (lightning adds a small amount)"
+domains/biology/ecology-and-evolution/nutrient-cycling-phosphorus-sulfur.md	how	3	0	ok
+domains/biology/ecology-and-evolution/nutrient-cycling-phosphorus-sulfur.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/paleoecology-and-fossil-records.md	how	4	0	ok
+domains/biology/ecology-and-evolution/paleoecology-and-fossil-records.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/phenotypic-variation-populations.md	how	4	0	ok
+domains/biology/ecology-and-evolution/phenotypic-variation-populations.md	mis	6	1	fixed	Bullet 1 "Only common-garden, breeding, or parent-offspring studies can separate" is a false absolute and contradicts Explainer (twin studies); reworded as examples
+domains/biology/ecology-and-evolution/phosphorus-cycling-freshwater-marine.md	how	3	0	ok
+domains/biology/ecology-and-evolution/phosphorus-cycling-freshwater-marine.md	mis	6	0	ok	Note: "In most lakes P is limiting" matches the file but N+P co-limitation is common (Elser et al. 2007); left as is
+domains/biology/ecology-and-evolution/phylogenetic-inference-methods.md	how	3	0	ok
+domains/biology/ecology-and-evolution/phylogenetic-inference-methods.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/plant-animal-coevolutionary-networks.md	how	4	0	ok	Worked a nested matrix: removing the top generalist orphans specialist plants, removing the specialist orphans none
+domains/biology/ecology-and-evolution/plant-animal-coevolutionary-networks.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/polyploidy-instant-speciation.md	how	4	0	ok
+domains/biology/ecology-and-evolution/polyploidy-instant-speciation.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/polyploidy-instant-speciation.md	old:core	1	1	fixed	"Triploid cannot produce viable gametes" is false (triploid bridge) and contradicts new bullet 3; changed to "produces few viable gametes"; also fixed typo Autopolyplody
+domains/biology/ecology-and-evolution/population-age-structure-life-history.md	how	3	0	ok	Arithmetic checked: totals 70 and 130
+domains/biology/ecology-and-evolution/population-age-structure-life-history.md	mis	6	1	fixed	Bullet 1 dropped qualifier: momentum growth holds only for young age structures; added it
+domains/biology/ecology-and-evolution/population-age-structure-life-history.md	old:q:1:explanation	1	1	fixed	Said protecting nesting beaches (adult females) beats hatcheries; Crouse et al. 1987 found the opposite, raising large-juvenile/adult survival at sea (TEDs) beats protecting eggs on beaches. Not changed: answer key (adults) is debatable for loggerheads, where large juveniles had the highest elasticity
+domains/biology/ecology-and-evolution/population-bottleneck-drift-inbreeding.md	how	4	1	fixed	Formula example used N=50 while the bead draw is 10 gene copies (N=5); changed to N=5, about 90% kept
+domains/biology/ecology-and-evolution/population-bottleneck-drift-inbreeding.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/population-bottleneck-drift-inbreeding.md	old:q:3:explanation	1	1	fixed	Defined heterozygosity as "the frequency of the most common alleles"; changed to "which depends mostly on the common alleles". Not changed: q:0 keys "substantial" loss for one generation at Ne=50, which loses only ~1% heterozygosity and conflicts with new bullet 2; flag for review
+domains/biology/ecology-and-evolution/population-genetic-structure-metapopulations.md	how	5	0	ok	Arithmetic checked: FST=0.64; Nm=1 gives 0.2
+domains/biology/ecology-and-evolution/population-genetic-structure-metapopulations.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/population-stochasticity-and-extinction.md	how	4	0	ok
+domains/biology/ecology-and-evolution/population-stochasticity-and-extinction.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/population-viability-analysis.md	how	3	0	ok
+domains/biology/ecology-and-evolution/population-viability-analysis.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/predator-prey-coevolution-mechanisms.md	how	4	0	ok
+domains/biology/ecology-and-evolution/predator-prey-coevolution-mechanisms.md	mis	6	1	fixed	Bullet 2 absolute "Neither side gains a permanent victory"; some snake populations have outpaced newts (escape from the arms race); softened to "often ... rather than producing a clear winner"
+domains/biology/ecology-and-evolution/predator-prey-coevolution-mechanisms.md	q:4:explanation	1	0	ok
+domains/biology/ecology-and-evolution/primary-succession-bare-colonization.md	how	3	0	ok
+domains/biology/ecology-and-evolution/primary-succession-bare-colonization.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/rainfall-productivity-biogeographic-gradients.md	how	3	0	ok
+domains/biology/ecology-and-evolution/rainfall-productivity-biogeographic-gradients.md	mis	6	0	ok	Note: old q:2 (species-energy/solar energy, keyed false) has an explanation that does not show the statement false; flag for review
+domains/biology/ecology-and-evolution/reproductive-isolation-accumulation.md	how	4	1	fixed	Step "check that each pair has existed before" fails when worked (A-b is new at lineage 1's first step); reworded to "each pair sits in a living genome, so selection tested it"; made third-locus step concrete (four untested pairs)
+domains/biology/ecology-and-evolution/reproductive-isolation-accumulation.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/resource-competition-and-partitioning.md	how	3	0	ok
+domains/biology/ecology-and-evolution/resource-competition-and-partitioning.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/restoration-ecology-principles.md	how	3	0	ok
+domains/biology/ecology-and-evolution/restoration-ecology-principles.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/secondary-succession-post-disturbance.md	how	3	0	ok
+domains/biology/ecology-and-evolution/secondary-succession-post-disturbance.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/sexual-selection-speciation-driver.md	how	4	0	ok
+domains/biology/ecology-and-evolution/sexual-selection-speciation-driver.md	mis	6	0	ok	Note: old Core Idea/Explainer call sexual selection "a major mechanism for sympatric speciation" and the cichlid barrier "entirely" visual; both contested; left as is
+domains/biology/ecology-and-evolution/source-sink-population-models.md	how	4	1	fixed	"Settles at 100, as dense as the source" assumes equal patch areas; changed to "as many animals as the source holds". Arithmetic checked: 100, 80, 64, 51
+domains/biology/ecology-and-evolution/source-sink-population-models.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/trophic-cascade-top-down-control.md	how	5	0	ok
+domains/biology/ecology-and-evolution/trophic-cascade-top-down-control.md	mis	6	0	ok	Bullet 2 correctly hedges Yellowstone
+domains/biology/ecology-and-evolution/trophic-cascade-top-down-control.md	old:q:3:explanation	1	1	fixed	Yellowstone riparian recovery stated as settled; added that its size and the role of wolves are debated
+domains/biology/ecology-and-evolution/trophic-cascade-top-down-control.md	old:explainer	1	1	fixed	Yellowstone recovery stated as settled; hedged to "in some areas ... remain debated"
+domains/biology/ecology-and-evolution/trophic-cascades-in-food-webs.md	how	4	0	ok	Worked tanks: green, clear, green, clear is right
+domains/biology/ecology-and-evolution/trophic-cascades-in-food-webs.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/trophic-cascades-in-food-webs.md	old:q:0:explanation	1	1	fixed	"Vegetation rebounded before elk numbers dropped" via landscape of fear stated as settled; contested (e.g. Kauffman et al. 2010); hedged
+domains/biology/ecology-and-evolution/trophic-cascades-in-food-webs.md	old:q:1:explanation	1	1	fixed	Behavioral shift "responsible for much of the recovery" stated as settled; hedged. Question premise itself leans on the contested claim
+domains/biology/ecology-and-evolution/trophic-cascades-in-food-webs.md	old:q:2:explanation	1	1	fixed	"Wolf restoration changed river channel morphology" stated as settled; disputed; hedged and cut the "understatement" sentence
+domains/biology/ecology-and-evolution/trophic-cascades-in-food-webs.md	old:q:4:explanation	1	1	fixed	Broad Yellowstone effects stated as settled; changed to "reported effects ... several are debated"
+domains/biology/ecology-and-evolution/trophic-cascades-in-food-webs.md	old:explainer	1	1	fixed	"Recovered dramatically ... altered the physical course of streams" stated as settled; hedged
+domains/biology/ecology-and-evolution/trophic-efficiency-energy-loss.md	how	3	0	ok	Arithmetic checked: 3% and 0.3%
+domains/biology/ecology-and-evolution/trophic-efficiency-energy-loss.md	mis	6	0	ok

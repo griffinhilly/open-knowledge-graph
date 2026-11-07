@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Medieval cosmology conceived the universe as geocentric spheres surrounding stationary Earth, with the heavens perfect and unchanging, the sublunary world imperfect and mutable. This Aristotelian cosmos was hierarchical and harmonious, with each element seeking its natural place. Astronomy and cosmology integrated with theology as manifestations of divine order.
 
+## How It's Best Learned
+Draw the cosmos as nested circles: Earth at the center, then the spheres of the Moon, Mercury, Venus, Sun, Mars, Jupiter, Saturn, the fixed stars, the Primum Mobile, and the Empyrean. Shade the sublunary region below the Moon and label its four elements. Then trace a dropped stone and a rising flame, and explain each motion as an element seeking its natural place.
+
+## Common Misconceptions
+- Medieval people believed the Earth was flat. (Educated medieval Europeans held that the Earth was a sphere. Standard textbooks of the period, such as Sacrobosco's *On the Sphere*, taught this.)
+- Being at the center made Earth the most honored place. (In this model the center was the lowest and least perfect region. Perfection increased moving outward toward the Empyrean.)
+- In this model a stone falls because something pulls it down. (Aristotelian physics had no attracting force. Heavy elements moved on their own toward their natural place at the center of the cosmos.)
+
 ## Questions
 
 ```yaml

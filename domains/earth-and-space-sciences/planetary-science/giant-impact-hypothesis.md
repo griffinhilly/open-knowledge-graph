@@ -29,6 +29,15 @@ status: validated
 ## Core Idea
 The Moon likely formed from a giant collision between the proto-Earth and a Mars-sized body around 4.5 Ga. This impact explains the Moon's mass, orbital parameters, and the Earth-Moon system's high angular momentum. Isotopic similarities between the Moon and Earth support this origin rather than Earth capture or co-accretion.
 
+## How It's Best Learned
+Build an evidence grid with four origin models as rows: capture, co-accretion, fission, and giant impact. Use three observations as columns: the Moon's small iron core, its Earth-like oxygen isotopes, and the system's high angular momentum. Mark which observations each model explains. Then note that early simulations put mostly impactor material into the disk, and ask why that made the isotope match a puzzle.
+
+## Common Misconceptions
+- The Moon is a solid chunk of Earth's crust knocked loose by the impact. (The collision melted and partly vaporized material into an orbiting debris disk. The Moon accreted from that disk.)
+- The Moon has almost no iron at all. (The Moon has a small iron core and iron-bearing minerals in its rocks. It is depleted in metallic iron compared with Earth, not free of it.)
+- The match between Earth and Moon isotopes was simply a confirmation of the giant impact. (Early models built the Moon mostly from impactor material, which predicted isotopic differences. The close match pushed researchers toward models with more mixing.)
+- The details of the giant impact are settled. (It is the leading model, but the impactor's size, speed, and angle, and how the disk formed the Moon, are still debated.)
+
 ## Questions
 
 ```yaml

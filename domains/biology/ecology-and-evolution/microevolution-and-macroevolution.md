@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Microevolution describes changes in allele frequencies within populations over short timescales, driven by selection, drift, mutation, and gene flow. Macroevolution refers to large-scale patterns over millions of years: origin of higher taxa, major morphological innovations, and radiations. The same mechanisms operating in microevolution also drive macroevolution; the difference is timescale and the patterns observed when summing many small changes.
 
+## How It's Best Learned
+Run a scale calculation: if a trait grows by 0.1% per generation in a steady direction, how many generations until it doubles? Solve 1.001^n = 2 to get about 693. Compare that with millions of generations in the fossil record. Then sort examples (finch beaks in a drought, the Cambrian explosion, the end-Cretaceous extinction) into micro or macro and name the level each acts on: population, species, or clade.
+
+## Common Misconceptions
+- Macroevolution needs a special force that microevolution lacks. (The mainstream view is that selection, drift, mutation, and gene flow, acting over long times and many speciation events, can produce macroevolutionary patterns.)
+- Small changes within a species can never add up to large differences. (Rates of change measured in living populations are often fast enough to produce large differences over geological time. Their direction usually fluctuates, so long-term rates are slower.)
+- Punctuated equilibrium rejects natural selection. (It is a claim about the tempo of change, with stasis broken by change around speciation. Selection and drift still cause the change.)
+- Macroevolution is just a longer list of microevolutionary events. (Some patterns, such as which lineages survive a mass extinction, act on species and clades and need tools beyond population genetics.)
+
 ## Questions
 
 ```yaml

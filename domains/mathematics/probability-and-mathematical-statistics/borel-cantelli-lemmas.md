@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 If {Aₙ} are events with Σ P(Aₙ) < ∞, then P(lim sup Aₙ) = 0 (first Borel-Cantelli lemma). Conversely, if {Aₙ} are independent with Σ P(Aₙ) = ∞, then P(lim sup Aₙ) = 1 (second Borel-Cantelli lemma). These lemmas control the tail behavior of event sequences and are crucial for proving almost sure convergence.
 
+## How It's Best Learned
+Compute lim sup Aₙ = ∩_N ∪_{n≥N} Aₙ by hand for events on [0, 1]. With Aₙ = [0, 1/n], the sum Σ 1/n diverges, yet lim sup Aₙ = {0} has probability 0, which shows why the second lemma needs independence. Then check the second lemma's key step for independent events with P(Aₙ) = 1/n: the product ∏_{k=n}^{m} (1 − 1/k) telescopes to (n−1)/m, which goes to 0.
+
+## Common Misconceptions
+- If P(Aₙ) → 0, the events eventually stop happening. (Independent events with P(Aₙ) = 1/n occur infinitely often with probability 1, because Σ 1/n diverges.)
+- A divergent sum Σ P(Aₙ) by itself forces P(lim sup Aₙ) = 1. (The second lemma needs independence. Aₙ = [0, 1/n] on [0, 1] has a divergent sum and P(lim sup Aₙ) = 0.)
+- lim sup Aₙ is the event that Aₙ happens for every large n. (That is lim inf Aₙ. The lim sup is the event that Aₙ happens for infinitely many n, with gaps allowed.)
+- P(lim sup Aₙ) is always 0 or 1. (The 0–1 conclusion holds for independent events. If every Aₙ equals one event A, then P(lim sup Aₙ) = P(A), which can be any value.)
+
 ## Questions
 
 ```yaml

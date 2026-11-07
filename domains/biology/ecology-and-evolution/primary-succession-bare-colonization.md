@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Primary succession occurs on newly exposed substrates (bare rock, lava, glacial moraines) where soil and organic matter are absent. Pioneer species (lichens, mosses, early plants) colonize first and facilitate soil formation and nutrient accumulation through weathering and organic matter addition. Later species replace pioneers as conditions change—a directional replacement sequence driven largely by environmental modification.
 
+## How It's Best Learned
+Read a retreating glacier as a timeline: sites farther from the ice have been exposed longer. Build a table with one row per site and columns for years exposed, soil depth, soil nitrogen, and dominant plants, then look for the trend. Finally, ask what this space-for-time method assumes, namely that every site followed the same path, and how that could fail.
+
+## Common Misconceptions
+- Succession is species arriving one after another and piling up. (Pioneers change the habitat by building soil, adding nitrogen, and casting shade. Those changes drive which species replace them.)
+- Primary succession everywhere runs lichens, then mosses, then grasses, shrubs, and trees. (The sequence depends on location. Ferns may pioneer tropical lava, and nitrogen-fixing alder plays a large role on Alaskan moraines.)
+- Every later species arrives because pioneers made the site ready for it. (Facilitation is common in primary succession, but some later species can tolerate early conditions on their own, and some early species slow the arrival of others.)
+
 ## Questions
 
 ```yaml

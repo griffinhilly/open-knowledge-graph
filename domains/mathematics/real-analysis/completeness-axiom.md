@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 The Completeness Axiom states that every non-empty set of real numbers that is bounded above has a least upper bound (supremum). This single axiom distinguishes the reals from the rationals and is the key to proving that many important limits and extrema exist.
 
+## How It's Best Learned
+Work through S = {x ∈ ℚ : x² < 2} by hand. If s is a rational upper bound with s² > 2, show that s − (s² − 2)/(2s) is a smaller rational upper bound, so no rational upper bound is least. Then, in ℝ, let s = sup S and rule out s² < 2 and s² > 2. That second step is the pattern for using the axiom.
+
+## Common Misconceptions
+- The supremum of a set is its largest element. (The supremum need not belong to the set; sup (0, 1) = 1, and (0, 1) has no largest element.)
+- Completeness says every set of reals has a supremum. (It requires the set to be non-empty and bounded above; ℕ and ∅ have no real supremum.)
+- ℚ fails completeness because rationals are spread too thinly. (ℚ is dense in ℝ; the failure is that some bounded sets of rationals have no least upper bound in ℚ.)
+- A second axiom is needed to guarantee infima. (It follows from the first: if S is non-empty and bounded below, then inf S = −sup(−S).)
+
 ## Questions
 
 ```yaml

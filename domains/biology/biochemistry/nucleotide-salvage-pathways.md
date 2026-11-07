@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Nucleotide salvage pathways recycle nucleotide bases and nucleosides, regenerating nucleotides at lower energetic cost than de novo synthesis. Adenine phosphoribosyltransferase (APRT) and hypoxanthine-guanine phosphoribosyltransferase (HGPRT) salvage purines; pyrimidine kinases salvage pyrimidines. Salvage is quantitatively more important than degradation in most tissues.
 
+## How It's Best Learned
+Write two salvage reactions side by side: hypoxanthine + PRPP → IMP + PPi, and thymidine + ATP → TMP + ADP. Mark what each starting molecule already has (a base alone, or base plus sugar) and what the enzyme adds. Then remove HGPRT from the first reaction and trace where hypoxanthine and unused PRPP go, ending at uric acid.
+
+## Common Misconceptions
+- Salvage is a minor backup that matters only when de novo synthesis fails. (Some tissues, such as certain brain cells, rely heavily on salvage, which is the leading explanation for why HGPRT loss causes severe neurological disease.)
+- Purine and pyrimidine salvage use the same reaction. (Purine salvage attaches a free base to PRPP with a phosphoribosyltransferase; pyrimidine salvage mainly uses kinases that phosphorylate a nucleoside that already has its sugar.)
+- In Lesch-Nyhan syndrome, the extra uric acid comes only from bases that could not be salvaged. (PRPP that HGPRT would have used builds up and stimulates de novo purine synthesis, which adds still more purines to the degradation path.)
+
 ## Questions
 
 ```yaml

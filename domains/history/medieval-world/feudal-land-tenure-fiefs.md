@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 A fief (or feud) was land granted by a lord to a vassal in exchange for military service and loyalty, creating the material foundation of feudal relations. The fief was not absolute property but a conditional grant that reverted to the lord if the vassal died or broke his oath. This system gradually transformed land from a commodity to be bought and sold into a hereditary holding, laying groundwork for medieval land law and later aristocratic privilege.
 
+## How It's Best Learned
+Follow one imaginary fief across three generations. In the first, the lord grants it for service. In the second, the son pays a relief and does homage to keep it. In the third, the grandson expects it as his right and sub-grants part to his own vassal. At each step, write down who holds the land, who has the superior claim, and what each party owes.
+
+## Common Misconceptions
+- A vassal owned his fief the way a person owns a house today. (He held it on conditions. The lord kept a superior claim, and the fief could be lost for failing to serve or breaking the oath.)
+- Fiefs were hereditary from the start. (Early fiefs were personal grants that had to be renewed with each heir. Heredity became the custom gradually, and only later a legal right in many regions.)
+- A fief was always a piece of land. (Most were land, but a fief could also be an office, a right to collect tolls, or another source of income granted for service.)
+
 ## Questions
 
 ```yaml
@@ -34,7 +42,7 @@ A fief (or feud) was land granted by a lord to a vassal in exchange for military
     - "The fief reverts to the lord, who may choose to re-grant it to the son upon receiving homage and possibly a relief payment"
     - "The fief is absorbed by the Church until a new vassal is designated by the bishop"
   answer: 2
-  explanation: "A fief was a conditional tenure, not inheritable property. Upon the vassal's death, the fief reverted to the lord — this was called an 'escheat.' The lord was not obligated to grant it to the son; he could reclaim it entirely. If he did re-grant it, the heir was required to perform homage (the oath-swearing ritual) and often pay a 'relief' — an inheritance fee — to receive his father's land. Option A describes what fiefs eventually became in practice (de facto hereditary) after centuries of repeated re-granting, but it was not the original legal structure."
+  explanation: "A fief was a conditional tenure, not inheritable property. Upon the vassal's death, the fief reverted to the lord. The lord was not obligated to grant it to the son; he could reclaim it entirely. If he did re-grant it, the heir was required to perform homage (the oath-swearing ritual) and often pay a 'relief' — an inheritance fee — to receive his father's land. Option A describes what fiefs eventually became in practice (de facto hereditary) after centuries of repeated re-granting, but it was not the original legal structure."
 
 - question: "Why did medieval lords pay their vassals in grants of land (fiefs) rather than in cash wages?"
   type: multiple-choice

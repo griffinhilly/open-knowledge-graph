@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 If f is continuous on [a,b] and differentiable on (a,b), then there exists c ∈ (a,b) such that f'(c) = [f(b) - f(a)]/(b - a). This theorem links the derivative at a point to the average rate of change and is fundamental to bounding derivatives, proving monotonicity, and analyzing function behavior. Rolle's Theorem (f(a) = f(b) ⟹ f'(c) = 0) is a special case.
 
+## How It's Best Learned
+Find c by hand once: for f(x) = x³ on [0, 2], the secant slope is 4, so 3c² = 4 and c = 2/√3 ≈ 1.15. Then break a hypothesis: |x| on [−1, 1] has secant slope 0 but no point with derivative 0. Finally, use the theorem as a tool. Prove |sin x − sin y| ≤ |x − y|, and prove √(1 + x) < 1 + x/2 for x > 0.
+
+## Common Misconceptions
+- The point c is the midpoint of [a, b]. (For x³ on [0, 2], c = 2/√3, not 1; the theorem only says some c exists.)
+- Continuity on [a, b] is enough for the conclusion. (Differentiability on (a, b) is needed; |x| on [−1, 1] is continuous, but its derivative is never 0, the secant slope.)
+- If f is strictly increasing, then f′(x) > 0 everywhere. (The theorem gives the other direction only; x³ is strictly increasing with f′(0) = 0.)
+
 ## Questions
 
 ```yaml

@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Population growth depends on age-specific survival and fecundity rates, not just total reproduction. Life tables encode these vital rates; Leslie matrix models show how populations change when different age classes have different survival and reproduction. Population growth rate (lambda) emerges from vital rates; small changes in reproductive-age survival often have larger effects than changes to pre-reproductive individuals.
 
+## How It's Best Learned
+Project a two-class Leslie matrix by hand. Use fecundities of 1 (juveniles) and 2 (adults) in the top row and juvenile survival of 0.5 below it, starting from 10 juveniles and 10 adults. The vector goes to (30, 5), then (40, 15), then (70, 20). The total grows by a ratio that settles near 1.6, which is λ. Then change one vital rate and rerun to feel sensitivity.
+
+## Common Misconceptions
+- Two populations of the same size will grow at the same rate. (Growth depends on how individuals are spread across age classes, because only some classes reproduce and survive at high rates.)
+- Raising fecundity is the best way to rescue any declining population. (In long-lived species, adult survival usually has the highest sensitivity, so small gains there raise λ more than added births.)
+- The l_x column of a life table is the chance of surviving from one age to the next. (l_x is the chance of surviving from birth to age x. The step-to-step survival is the ratio of successive l_x values.)
+- A λ above 1 for one year means the population is safe. (λ from a Leslie matrix describes long-run growth at the stable age distribution, and real vital rates vary from year to year.)
+
 ## Questions
 
 ```yaml

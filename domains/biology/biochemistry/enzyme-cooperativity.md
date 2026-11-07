@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Cooperativity is the phenomenon where substrate binding to one active site influences substrate affinity at neighboring sites in a multi-subunit enzyme. Positive cooperativity (n > 1 in the Hill equation) shows that binding of one substrate molecule facilitates binding of additional substrate molecules. The Hill coefficient (n) quantifies the degree of cooperativity; n = 1 indicates no cooperativity (simple Michaelis-Menten kinetics), while n > 2 indicates strong positive cooperativity.
 
+## How It's Best Learned
+Use the Hill equation to find how much [S] must rise to take an enzyme from 10% to 90% of Vmax. Setting v/Vmax to 0.1 and 0.9 gives a ratio of 81^(1/n). That is an 81-fold rise for n = 1, about 4.8-fold for n = 2.8, and 3-fold for n = 4. Then sketch the three curves on one axis.
+
+## Common Misconceptions
+- The Hill coefficient equals the number of binding sites. (It measures apparent cooperativity; hemoglobin has four sites and n of about 2.8, and n can only reach the site number in the limit of perfect cooperativity.)
+- Any protein with several subunits shows cooperativity. (Independent subunits give a hyperbolic curve with n = 1; cooperativity requires that binding at one site changes affinity at others.)
+- A cooperative enzyme reaches a higher Vmax than a noncooperative one. (Cooperativity changes the shape of the curve, making it steeper near K₀.₅, without raising the ceiling.)
+- A Hill coefficient below 1 means the measurement went wrong. (Values below 1 can reflect negative cooperativity or a mix of sites with different affinities.)
+
 ## Questions
 
 ```yaml

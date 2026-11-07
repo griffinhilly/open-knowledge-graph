@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Extinction rates vary over geological time and across lineages. Mass extinctions alter ecosystem composition and create radiative opportunities. Modern extinction rates exceed background rates by orders of magnitude, driven by habitat loss, climate change, and invasive species.
 
+## How It's Best Learned
+Draw a small tree: species A alone on a 300-million-year branch, and species B1, B2, B3 sharing a 290-million-year stem that splits into three 10-million-year tips. Remove B1 and add up the branch length lost (10), then remove A instead (300). Then mark a shared risk trait, such as large body size, on one clade and see how losses cluster.
+
+## Common Misconceptions
+- Every extinction costs the same amount of biodiversity. (Losing the last member of an old, species-poor lineage removes far more evolutionary history than losing one species from a large, young clade.)
+- Extinction strikes species at random across the tree of life. (Risk traits such as large body size and slow reproduction are often shared by relatives, so losses tend to cluster in certain branches.)
+- Life bounces back from a mass extinction within a few thousand years. (Recovery of diversity after past mass extinctions took millions of years.)
+- Outside of mass extinctions, species rarely went extinct before humans. (Species have gone extinct throughout Earth's history at a low baseline rate, and most past extinctions happened outside mass extinction events. The concern is that the modern rate is estimated to be far above that baseline.)
+
 ## Questions
 
 ```yaml

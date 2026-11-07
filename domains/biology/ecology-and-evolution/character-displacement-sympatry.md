@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Character displacement is evolutionary divergence of sympatric populations due to reinforcement (selection against hybridization) or resource competition. Reproductive character displacement involves differentiation of mating signals to reduce costly hybridization. This process accelerates reproductive isolation even when secondary contact occurs.
 
+## How It's Best Learned
+Plot beak-depth histograms for two species in three settings: species A alone, species B alone, and both together. Character displacement shows as wider separation in the shared setting than in the solo ones. Then ask what else could produce the same picture. One answer: only species that already differed could coexist. Listing the evidence that rules this out teaches how the pattern is tested.
+
+## Common Misconceptions
+- Any trait difference between species that live together proves character displacement. (The difference may predate contact, or only already-different species may have managed to coexist. The case is stronger when divergence is shown to evolve after contact.)
+- Ecological and reproductive character displacement are the same process acting on different traits. (They respond to different costs: lost resources in one case and wasted matings with less fit hybrids in the other.)
+- Character displacement creates new species from a single population. (It acts on two populations or species that are already partly distinct and have come into contact, and it sharpens the differences between them.)
+
 ## Questions
 
 ```yaml

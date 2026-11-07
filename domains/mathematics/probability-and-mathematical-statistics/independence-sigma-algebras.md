@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 Sigma-algebras G₁, G₂, ... are independent if P(A₁ ∩ A₂ ∩ ...) = P(A₁)P(A₂)... for all Aᵢ ∈ Gᵢ. Random variables are independent if the sigma-algebras they generate are independent. This definition extends to countably many sigma-algebras, unifying discrete and continuous independence.
 
+## How It's Best Learned
+Build independent coin flips inside one space: take ω uniform on [0, 1) and let dₙ(ω) be its n-th binary digit. Check P(d₁ = 1, d₂ = 1) = P([3/4, 1)) = 1/4 = (1/2)(1/2), and repeat for other digit patterns. Then argue that σ(d₁, d₂) and σ(d₃, d₄) are independent, so d₁ + d₂ and d₃d₄ are independent too.
+
+## Common Misconceptions
+- Disjoint events are independent because they have nothing to do with each other. (If A and B are disjoint with positive probabilities, P(A ∩ B) = 0 while P(A)P(B) > 0, so they are dependent. Learning that A happened rules out B.)
+- A σ-algebra can never be independent of itself. (It is independent of itself exactly when every event in it has probability 0 or 1. Kolmogorov's 0–1 law for tail events is proved this way.)
+- Independence of X₁, …, X₄ says nothing about functions that combine several of them. (By the grouping lemma, σ(X₁, X₂) and σ(X₃, X₄) are independent. So any function of X₁, X₂ is independent of any function of X₃, X₄.)
+
 ## Questions
 
 ```yaml

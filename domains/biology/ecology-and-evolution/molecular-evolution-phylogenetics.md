@@ -29,6 +29,15 @@ status: validated
 ## Core Idea
 DNA and protein sequences accumulate mutations over time, allowing inference of evolutionary relationships and divergence times. The molecular clock hypothesis proposes mutations accumulate at relatively constant rates, enabling dating. Phylogenetic methods (parsimony, likelihood, Bayesian) reconstruct evolutionary trees. Most nucleotide evolution is neutral.
 
+## How It's Best Learned
+Score the three unrooted trees for four species by parsimony by hand. Use three sites for species W, X, Y, Z: site 1 reads A, A, G, G; site 2 reads C, C, T, T; site 3 reads T, C, T, C. The tree pairing W with X needs 4 changes, W with Y needs 5, and W with Z needs 6. Then ask what an explicit substitution model would add.
+
+## Common Misconceptions
+- Neutral theory says natural selection does not matter for genomes. (Purifying selection removes most harmful mutations. The theory says most of the differences that do become fixed between species are neutral.)
+- The molecular clock ticks at the same rate in every gene. (Constrained genes change slowly and less constrained or rapidly adapting genes change faster. Different genes suit different time depths.)
+- The tree with the fewest changes is always the true tree. (Parsimony can mislead when rates differ a lot among branches. Likelihood and Bayesian methods use explicit models of change to reduce this problem.)
+- More sequence differences always mean an older split. (That holds only if rates are similar. A fast-evolving lineage can show many differences after a recent split.)
+
 ## Questions
 
 ```yaml

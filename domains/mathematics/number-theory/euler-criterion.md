@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Euler's criterion states that a^((p−1)/2) ≡ (a/p) (mod p) for odd prime p and integer a. This provides an efficient computational method to evaluate the Legendre symbol and connects Fermat's Little Theorem to quadratic character theory.
 
+## How It's Best Learned
+For p = 13, list the squares mod 13: {1, 3, 4, 9, 10, 12}. Then compute a⁶ mod 13 for a = 1 to 12 by repeated squaring and check that the +1 values fall exactly on that list. For example, 2⁶ = 64 ≡ −1. Finish with a = −1: the criterion gives (−1)^((p−1)/2), so −1 is a residue exactly when p ≡ 1 (mod 4).
+
+## Common Misconceptions
+- The criterion works for any odd modulus n, using a^((n−1)/2). (It needs n prime. Mod 15, the square 4 = 2² gives 4⁷ ≡ 4, which is neither 1 nor −1.)
+- Raising a to the power p − 1 tells you whether a is a residue. (By Fermat's Little Theorem a^(p−1) ≡ 1 for every a coprime to p. Only the half exponent (p − 1)/2 separates residues from non-residues.)
+- The product of two non-residues is a non-residue. (The criterion makes the symbol multiplicative, (ab/p) = (a/p)(b/p), so two non-residues multiply to a residue. Mod 7, the non-residues 3 and 5 give 15 ≡ 1.)
+
 ## Questions
 
 ```yaml

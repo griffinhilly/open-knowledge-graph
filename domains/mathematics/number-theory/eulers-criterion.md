@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 (a/p) ≡ a^((p-1)/2) (mod p). This criterion computes the Legendre symbol via modular exponentiation and reveals that quadratic residuosity is determined by the group structure of (Z/pZ)*.
 
+## How It's Best Learned
+Use the primitive root 2 mod 11 and write each nonzero residue as 2ᵏ. The even powers 2⁰, 2², 2⁴, 2⁶, 2⁸ give {1, 4, 5, 9, 3}, the same set as the squares 1², ..., 5² mod 11. Then confirm the odd-k case with the criterion: 2⁵ = 32 ≡ −1 (mod 11), so 2 is a non-residue.
+
+## Common Misconceptions
+- Euler's Criterion finds the square root of a. (It only decides whether a root exists. Finding one takes more work, though for p ≡ 3 (mod 4) and a a residue, the power a^((p+1)/4) is a root. For a = 5 and p = 11, 5³ ≡ 4 and 4² ≡ 5.)
+- The residues and non-residues mod p come in unequal numbers. (Exactly (p − 1)/2 nonzero residues are squares, because x and −x have the same square and no other pairs collide.)
+- The answer depends on which primitive root you use. (The test a^((p−1)/2) uses only a and p. The generator appears only in the proof, and every generator gives the same set of squares.)
+
 ## Questions
 
 ```yaml

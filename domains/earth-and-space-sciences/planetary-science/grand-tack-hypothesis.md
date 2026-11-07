@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 The Grand Tack hypothesis proposes that Jupiter migrated inward toward the Sun (the inbound tack) and then outward again (the outbound tack) early in solar system history. This inward-outward migration would explain the solar system's unusual architecture—the scarcity of terrestrial planets in the inner system and the asymmetric asteroid belt. The hypothesis elegantly reconciles observed planetary spacing with formation models.
 
+## How It's Best Learned
+Plot distance from the Sun against time and draw Jupiter's track in to about 1.5 AU and back out to 5.2 AU, with Saturn following. Shade the terrestrial zone and the asteroid belt. Then check the resonance with Kepler's third law: a 3:2 period ratio gives a distance ratio of 1.5^(2/3) ≈ 1.31. That puts Saturn near 7 AU when Jupiter is at 5.2 AU.
+
+## Common Misconceptions
+- In a 2:3 resonance, Saturn orbits three times for every two Jupiter orbits. (Saturn is farther out and slower. It completes two orbits while Jupiter completes three.)
+- Jupiter wandered through the inner solar system after Earth and Mars had formed. (In the model, the migration happens early, while the gas disk is still present and the terrestrial planets are still being built from planetesimals.)
+- The Grand Tack is the established history of the solar system. (It is an influential model but remains debated. Alternatives, such as an asteroid belt that started out nearly empty, compete to explain the same features.)
+
 ## Questions
 
 ```yaml

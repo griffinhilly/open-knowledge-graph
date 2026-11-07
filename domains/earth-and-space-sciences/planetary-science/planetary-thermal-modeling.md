@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 One-dimensional parameterized models of planetary thermal structure balance heat diffusion in the crust and mantle against radiogenic heating and surface cooling. These models predict planetary thermal evolution over billions of years, constraining crustal thickness, mantle temperature, core cooling rates, and the potential for volcanism and tectonics.
 
+## How It's Best Learned
+Build a spreadsheet model with one row per 50 million years. In each step, the change in mantle temperature is radiogenic heating minus surface heat loss, and heat loss grows as a power of the Rayleigh number, with viscosity falling steeply as temperature rises. Run it from two very different starting temperatures and watch the two cooling curves converge.
+
+## Common Misconceptions
+- A planet's surface heat flow equals the heat its radioactive elements produce today. (Part of the heat flow comes from the interior cooling down and releasing heat stored earlier. The ratio of radiogenic heat production to total surface heat flow is called the Urey ratio.)
+- A planet's starting temperature largely sets its present thermal state. (Hot mantles convect faster and cool faster, so models started at very different temperatures tend to converge. Viscosity behavior and heat sources matter more for the present state.)
+- A one-dimensional model cannot say anything useful about three-dimensional convection. (Scaling laws drawn from experiments and 3D simulations capture the average heat flow, which is what the 1D model needs. They miss lateral structure such as plumes.)
+
 ## Questions
 
 ```yaml

@@ -32,6 +32,15 @@ status: validated
 ## Core Idea
 Genetic drift is random change in allele frequencies due to sampling error in small populations. In small Ne (effective population size), drift overwhelms weak selection and can fix neutral mutations. Bottlenecks and founder effects cause rapid drift and loss of genetic diversity. Drift is inversely proportional to population size.
 
+## How It's Best Learned
+Put 5 red and 5 blue beads in a cup to stand for 10 gene copies. Draw one, record its color, return it, and repeat 10 times to build the next generation's cup. Continue until one color is fixed, and count the generations. Repeat with 50 copies (25 and 25) and compare how far the frequencies wander in the first five generations.
+
+## Common Misconceptions
+- Drift only matters for neutral alleles. (In small populations drift can also eliminate beneficial alleles and fix harmful ones, because chance outweighs weak selection.)
+- When a population recovers its numbers after a bottleneck, its genetic diversity comes back too. (Alleles lost during the bottleneck stay lost unless new mutation or immigration brings them back.)
+- Drift pushes allele frequencies in a consistent direction. (Each generation's change is random in direction. Without new mutation or migration an allele eventually reaches loss or fixation, but which one happens is a matter of chance.)
+- Population size means the number of individuals you can count. (Drift depends on effective population size, which is often much smaller than the census count.)
+
 ## Questions
 
 ```yaml

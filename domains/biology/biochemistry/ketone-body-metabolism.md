@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Ketone bodies (acetoacetate, β-hydroxybutyrate) are synthesized from acetyl-CoA in liver mitochondria during fasting or carbohydrate restriction. They are water-soluble energy carriers that efficiently fuel the brain and heart. The ketone body synthesis enzyme HMG-CoA synthase-2 and ketone body utilization (thiophorase pathway) represent an alternative energy metabolism during energy deficit.
 
+## How It's Best Learned
+Draw two mitochondria, one in a liver cell and one in a brain or heart cell, joined by the blood. In the liver, write the steps from acetyl-CoA through HMG-CoA to acetoacetate and β-hydroxybutyrate. In the brain or heart, write the reverse route through thiophorase back to acetyl-CoA. Then cross out thiophorase in the liver and HMG-CoA synthase-2 in the brain to see why the flow runs one way.
+
+## Common Misconceptions
+- Ketone bodies are a toxic waste product of burning fat. (They are a regulated fuel the liver exports during fasting; harm comes from very high levels, as in diabetic ketoacidosis.)
+- β-Hydroxybutyrate is a ketone. (It is a hydroxy acid; it is grouped with the ketone bodies because it interconverts with acetoacetate.)
+- The liver burns the ketone bodies it makes. (The liver lacks thiophorase, so it cannot reactivate acetoacetate and exports it instead.)
+
 ## Questions
 
 ```yaml

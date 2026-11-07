@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Fatty acids are long-chain carboxylic acids typically 12-20 carbons long, consisting of a hydrophobic hydrocarbon tail and a hydrophilic carboxyl head group. Saturated fatty acids (no C=C bonds) are linear and pack densely; unsaturated fatty acids contain one or more C=C double bonds (cis or trans), introducing kinks that affect packing and fluidity. The positions and stereochemistry of double bonds are critical: cis double bonds are found in biological fatty acids, while trans fatty acids (from industrial processes or ruminant metabolism) are associated with adverse health effects.
 
+## How It's Best Learned
+Practice converting between the two numbering systems with chain length minus the last Δ position. Linoleic acid, 18:2 Δ9,12, gives 18 − 12 = 6, so it is omega-6. α-Linolenic acid, 18:3 Δ9,12,15, gives 18 − 15 = 3, so it is omega-3. Oleic acid, 18:1 Δ9, is omega-9. Then draw stearic, oleic and elaidic (trans) acids side by side and rank their packing.
+
+## Common Misconceptions
+- Δ numbers and omega numbers count from the same end of the chain. (Δ counts from the carboxyl carbon; omega counts from the methyl end.)
+- "Omega-3" means the fatty acid has three double bonds. (It gives the position of the double bond nearest the methyl end; EPA has five double bonds and DHA has six, yet both are omega-3.)
+- Any unsaturated fat behaves like a cis oil. (Trans double bonds keep the chain nearly straight, so trans fats pack more like saturated fats.)
+- A saturated chain is rigid because it has no double bonds. (Its single bonds rotate freely; it packs tightly because it can extend fully without kinks.)
+
 ## Questions
 
 ```yaml
@@ -49,10 +58,10 @@ Fatty acids are long-chain carboxylic acids typically 12-20 carbons long, consis
   answer: 2
   explanation: "Human desaturase enzymes can only introduce double bonds between carbons 1–9 counting from the carboxyl (COOH) end. Omega-3 fatty acids have their first double bond at carbon 3 from the methyl (omega) end — which is carbon 15 or 16 from the carboxyl end of an 18-carbon chain, beyond the human enzymatic limit. Omega-6 fatty acids have their first double bond at carbon 6 from the methyl end, similarly beyond synthesis capacity. Without dietary sources, cells cannot make the precursors for prostaglandins, leukotrienes, and membrane components that depend on these fatty acids."
 
-- question: "Most unsaturated fatty acids have lower melting points than saturated fatty acids of similar chain length, because any C=C double bond disrupts chain packing."
+- question: "All unsaturated fatty acids pack as loosely as cis-unsaturated ones, because any C=C double bond puts a kink in the chain."
   type: true-false
   answer: false
-  explanation: "This is only true for cis-unsaturated fatty acids. Trans double bonds produce a nearly straight chain geometry — the two hydrogens on the double-bond carbons sit on opposite sides, preserving a linear conformation similar to a saturated chain. Trans fatty acids therefore pack almost as densely as saturated fats and have melting points much closer to — and in some cases similar to — their saturated equivalents. The statement conflates two fundamentally different types of unsaturation: cis (which creates kinks and lowers melting point) and trans (which does not)."
+  explanation: "This is only true for cis-unsaturated fatty acids. Trans double bonds produce a nearly straight chain geometry — the two hydrogens on the double-bond carbons sit on opposite sides, preserving a linear conformation similar to a saturated chain. Trans fatty acids therefore pack almost as densely as saturated fats and have melting points well above those of their cis isomers. The statement conflates two fundamentally different types of unsaturation: cis (which creates kinks and lowers melting point) and trans (which does not)."
 
 - question: "A fatty acid with three cis double bonds will be liquid at room temperature because the multiple kinks in the chain severely disrupt molecular packing."
   type: true-false

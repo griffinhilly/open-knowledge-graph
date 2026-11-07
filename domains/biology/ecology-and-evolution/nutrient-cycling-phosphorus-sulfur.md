@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 The phosphorus cycle moves phosphorus from rock and sediment through organisms and back; it has no atmospheric phase and is primarily sedimentary. The sulfur cycle involves atmospheric SO₂ and H₂S moving between atmosphere, organisms, and geosphere. Both cycles limit productivity in certain ecosystems—phosphorus in freshwater lakes, sulfur in certain soil types.
 
+## How It's Best Learned
+Draw the two cycles side by side with the same four rows: atmosphere, organisms, soil and water, rock and sediment. The phosphorus diagram has almost nothing in the atmosphere row, while the sulfur diagram has busy arrows there. Then write a rough timescale on each arrow. The phosphorus path from ocean sediment back to land takes millions of years, which explains its chronic scarcity.
+
+## Common Misconceptions
+- Phosphorus released by decomposers is all available to plants again. (Much of it binds tightly to soil particles or precipitates with calcium and iron, which removes it from the pool roots can absorb.)
+- Phosphorus cannot travel through the air at all. (It has no significant gas form, but wind-blown dust carries small amounts of phosphorus between regions.)
+- Plants get their sulfur mainly from SO₂ in the air. (Plants take up sulfur mostly as dissolved sulfate from the soil. Atmospheric SO₂ matters more for acid rain and aerosols than for plant nutrition.)
+
 ## Questions
 
 ```yaml

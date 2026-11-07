@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 Blood glucose is maintained within a narrow range (80–100 mg/dL fasting) through the coordinated actions of insulin, glucagon, epinephrine, and cortisol. During fed state, insulin promotes glucose uptake and storage as glycogen; during fasted state, glucagon and epinephrine promote glycogenolysis and gluconeogenesis. The liver and muscle are the primary glucose buffer tissues.
 
+## How It's Best Learned
+Sketch a timeline from a meal through an overnight fast. Draw lines for blood insulin and glucagon. Under the timeline, shade which source supplies blood glucose at each stage: the gut, then liver glycogen, then a growing share from gluconeogenesis. Then add a burst of exercise and a period of stress, and mark where epinephrine and cortisol act.
+
+## Common Misconceptions
+- Muscle glycogen can be released to raise blood glucose. (Muscle lacks glucose-6-phosphatase, so its glycogen fuels the muscle itself.)
+- Gluconeogenesis starts only after liver glycogen is used up. (It runs alongside glycogenolysis during an overnight fast, and its share grows as glycogen falls.)
+- Every tissue needs insulin to take up glucose. (Brain and liver take up glucose largely through insulin-independent transporters; insulin mainly increases uptake into muscle and fat.)
+- Insulin and glucagon rise and fall together. (Rising glucose raises insulin and suppresses glucagon, and falling glucose does the reverse.)
+
 ## Questions
 
 ```yaml

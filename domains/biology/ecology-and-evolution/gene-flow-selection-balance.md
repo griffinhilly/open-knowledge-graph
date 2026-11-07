@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Gene flow homogenizes allele frequencies across populations, counteracting local adaptation driven by selection. The balance between these forces determines whether populations maintain distinct allele frequencies or merge into a single population. Strong selection can overcome gene flow; weak selection cannot maintain local differentiation if migration rates are high.
 
+## How It's Best Learned
+Build a spreadsheet for a haploid island model. Each generation, a fraction m of genes arrives from immigrants who all carry allele a, then selection lowers a's fitness by s. With s = 0.2 and m = 0.01, a levels off at about 4 to 5%. Raise m to 0.3 and the local allele disappears. Then find where the outcome flips (m = s in this model).
+
+## Common Misconceptions
+- Strong selection always produces local adaptation, given enough time. (The equilibrium is set by the balance of migration and selection. If migration is high relative to selection, waiting longer does not move it.)
+- Similar allele frequencies in different environments mean selection is not acting. (High gene flow can mask selection that is real but weaker than migration.)
+- Any gene flow at all prevents populations from diverging. (When selection is much stronger than migration, local adaptation can persist despite ongoing gene flow.)
+- Only the absolute strength of selection matters. (The outcome depends on selection relative to migration, so the same s can give local adaptation in one setting and none in another.)
+
 ## Questions
 
 ```yaml

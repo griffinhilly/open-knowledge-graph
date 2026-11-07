@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 In ℝ, a set is compact if and only if it is closed and bounded. This theorem ties the abstract definition of compactness (open cover property) to the concrete notion of being contained in some bounded interval. It is specific to Euclidean space and does not hold in all metric spaces.
 
+## How It's Best Learned
+Prove the four pieces separately. Compact implies bounded: use the cover (−n, n). Compact implies closed: if p is a limit point outside K, use the sets {x : |x − p| > 1/n}. For [a, b] compact, use bisection or a supremum argument. Last, a closed subset F of [a, b] is compact: add the open set ℝ ∖ F to any cover of F.
+
+## Common Misconceptions
+- Heine-Borel is the definition of compactness. (The definition is the open-cover property; Heine-Borel is a theorem saying that in ℝⁿ it matches closed and bounded.)
+- Compact subsets of ℝ are closed intervals. (Finite sets and {0} ∪ {1/n : n ∈ ℕ} are compact and are not intervals.)
+- Closed and bounded implies compact in any metric space. (In the space ℚ, the set of rationals in [0, 1] is closed and bounded but not compact, because a rational sequence can approach √2/2.)
+- The theorem only gives one direction, from closed and bounded to compact. (It is an equivalence; the direction from compact to closed and bounded is how one shows (0, 1) and ℤ are not compact.)
+
 ## Questions
 
 ```yaml

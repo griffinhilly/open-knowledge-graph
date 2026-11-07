@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Xₙ converges to X in distribution if lim_{n→∞} Fₙ(x) = F(x) at continuity points of F, or equivalently lim_{n→∞} φₙ(t) = φ(t) for all t. This is the weakest form of convergence—Xₙ and X need not be defined on the same probability space. Characteristic function convergence provides the most convenient criterion.
 
+## How It's Best Learned
+Draw CDFs for two small cases. Let Xₙ equal the constant 1/n. Then Fₙ(0) = 0 for every n while the limit point mass at 0 has F(0) = 1, so convergence fails at the jump but holds at every other x. Next let Z ~ N(0, 1) and Xₙ = (−1)ⁿZ. Every Xₙ has the same N(0, 1) distribution, yet the values flip sign forever and do not converge in probability.
+
+## Common Misconceptions
+- If Xₙ → X in distribution, then E[Xₙ] → E[X]. (Means need not converge. Xₙ = n with probability 1/n and 0 otherwise converges in distribution to 0, but E[Xₙ] = 1 for every n.)
+- If Xₙ → X and Yₙ → Y in distribution, then Xₙ + Yₙ → X + Y. (The joint behavior matters. With Yₙ = −Xₙ the sum is 0. The rule does hold when Y is a constant, by Slutsky's theorem.)
+- Convergence in distribution never gives convergence in probability. (When the limit is a constant c, the two modes are equivalent.)
+- Convergence of CDFs means the densities converge too. (Discrete variables, which have no densities, can converge in distribution to a normal, as in the CLT for binomial counts.)
+
 ## Questions
 
 ```yaml

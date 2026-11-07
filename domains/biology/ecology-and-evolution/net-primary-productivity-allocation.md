@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Net primary productivity (NPP) is the energy fixed by photosynthesis minus respiration—the amount available for growth and storage. Plants allocate NPP to leaves, roots, stems, and reproduction; allocation patterns vary with resource availability. Tropical rainforests have high NPP; deserts and tundra have low NPP. Understanding allocation is critical for predicting ecosystem carbon storage and food availability.
 
+## How It's Best Learned
+Do the carbon bookkeeping by hand. Take an NPP of 800 g C/m²/yr and split it 70% to wood and 30% to leaves. At steady state, each pool holds its yearly input times its residence time. Wood kept 50 years holds 560 × 50 = 28,000 g C/m², while leaves kept 1 year hold 240. Then swap the split and compare the totals.
+
+## Common Misconceptions
+- NPP is the total amount of photosynthesis plants do. (That total is gross primary productivity. NPP is what remains after the plants' own respiration is subtracted.)
+- The ecosystem with the highest NPP stores the most carbon. (Storage also depends on how long fixed carbon stays before it decomposes. A cold forest with modest NPP and slow decay can hold a large carbon stock.)
+- A plant species has a fixed ratio of roots to shoots. (Many plants shift allocation toward the organ that captures the scarcest resource, for example growing more roots in nutrient-poor soil.)
+
 ## Questions
 
 ```yaml

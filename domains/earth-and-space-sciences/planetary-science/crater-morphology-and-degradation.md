@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Crater morphology transitions from simple (raised rim, bowl-shaped) to complex (central peak, terraced walls) above a size threshold that depends on surface gravity. Craters degrade through slumping, isostatic adjustment, erosion, and volcanic infilling, with degradation rates varying by planetary environment.
 
+## How It's Best Learned
+Put two orbital images of lunar craters side by side: a bowl a few kilometers across and a complex crater such as Tycho. Label rim, walls, floor, and central peak on each. Then sort four similar-sized craters from freshest to most degraded using rim sharpness, ejecta rays, and the number of small craters on top.
+
+## Common Misconceptions
+- A central peak is a pile of leftover impactor material. (The impactor is mostly melted or vaporized. The central peak is target rock from below that rebounded upward after the impact.)
+- Earth has few craters because few impactors have hit it. (Earth has been struck at least as often as the Moon. Erosion, sedimentation, and plate tectonics have erased most of its craters, and the atmosphere stops many small impactors.)
+- A crater that looks equally worn on two planets is about equally old on both. (Degradation rates depend on the environment. A crater that erodes in millions of years on Earth could stay fresh for hundreds of millions of years on the Moon.)
+
 ## Questions
 
 ```yaml

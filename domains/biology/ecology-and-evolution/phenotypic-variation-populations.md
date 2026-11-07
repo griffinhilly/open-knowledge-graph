@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Phenotypic variation in populations arises from both genetic differences and environmental variation. For selection to act, variation must be heritable—passed from parents to offspring. Not all variation is genetic; much may be environmental, making it invisible to natural selection. Understanding the genetic basis of variation is essential for predicting evolutionary responses.
 
+## How It's Best Learned
+Plot reaction norms: put soil quality on the x-axis and plant height on the y-axis, and draw one line per genotype. Parallel lines that sit apart show genetic differences. Sloped lines show environmental effects, and crossing lines show genotype-by-environment interaction. Then plan a common garden in which seeds from tall and short parents grow in one uniform plot, and predict what each result would mean.
+
+## Common Misconceptions
+- A trait that varies a lot in a population must have a lot of genetic variation behind it. (Much of that variation can come from differences in environment. Separating the two sources takes designs such as common-garden studies, breeding experiments, twin studies, or parent-offspring comparisons.)
+- If a trait is highly heritable, changing the environment cannot change it. (Heritability describes variation within one population under its current conditions. Average human height rose with better nutrition even though height is highly heritable.)
+- Each trait is either genetic or environmental. (Most traits vary for both reasons at once. With genotype-by-environment interaction, the effect of a genotype depends on the environment it grows in.)
+
 ## Questions
 
 ```yaml

@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 A function f is continuous at a point c if for every ε > 0, there exists δ > 0 such that |x - c| < δ implies |f(x) - f(c)| < ε. This formalizes 'small changes in input give small changes in output.' Continuity on a set means continuity at every point. It is the foundational definition for rigorous calculus.
 
+## How It's Best Learned
+After the linear case, prove f(x) = x² is continuous at c = 3. Factor |x² − 9| = |x − 3||x + 3|, first require δ ≤ 1 so that |x + 3| < 7, then take δ = min(1, ε/7). Next, write the negation of the definition in symbols and use it to show the step function fails at 0 with ε = 1/2.
+
+## Common Misconceptions
+- You need to find the largest δ that works. (Any δ that works is enough, and any smaller positive δ then works too.)
+- δ has to be a single formula in ε alone. (δ may depend on both ε and the point c, and devices like min(1, ε/7) are standard.)
+- The scratch work that solves |f(x) − f(c)| < ε for x is the proof. (The proof runs forward: given ε, state δ, then show |x − c| < δ forces |f(x) − f(c)| < ε.)
+- A function whose graph oscillates infinitely often near c cannot be continuous at c. (f(x) = x sin(1/x) with f(0) = 0 is continuous at 0, since |f(x)| ≤ |x| and δ = ε works.)
+
 ## Questions
 
 ```yaml

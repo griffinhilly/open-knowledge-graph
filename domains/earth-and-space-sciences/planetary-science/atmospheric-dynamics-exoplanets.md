@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Exoplanet atmospheres exhibit distinct circulation patterns driven by stellar heating, Coriolis forces, and rotation rates. Tidally locked planets show extreme day-night temperature contrasts driving supersonic winds from dayside to nightside. Super-Earths and mini-Neptunes may host high-altitude winds and thick cloud decks. Atmospheric dynamics are inferred from spectroscopy and validated by climate models.
 
+## How It's Best Learned
+Sketch two phase curves for a tidally locked hot Jupiter: brightness against orbital phase, with transit and secondary eclipse marked. In the first, the hot spot sits at the substellar point. In the second, a jet shifts it east, so the brightness peak arrives before secondary eclipse. Then flatten the curve to show what stronger day-to-night heat transport would look like.
+
+## Common Misconceptions
+- A tidally locked planet does not rotate, so the Coriolis effect plays no role. (A tidally locked planet rotates once per orbit. For a close-in planet with a period of a few days, that rotation is enough to deflect winds and shape a jet.)
+- A phase curve is a picture of the planet's surface temperature map. (A phase curve records the total light from the visible hemisphere at each phase. Longitude structure is inferred by fitting models, and different maps can fit the same curve.)
+- Winds of kilometers per second must even out the day-night temperature difference. (On very hot planets, gas can radiate its heat away faster than winds carry it to the nightside. Large contrasts can persist despite fast winds.)
+
 ## Questions
 
 ```yaml

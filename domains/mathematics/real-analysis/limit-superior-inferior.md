@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 For a bounded sequence (aₙ), the limit superior (limsup aₙ) is the limit of the decreasing sequence of suprema {sup{aₖ : k ≥ n}}, and the limit inferior (liminf aₙ) is the limit of the increasing sequence of infima {inf{aₖ : k ≥ n}}. A sequence converges if and only if limsup aₙ = liminf aₙ.
 
+## How It's Best Learned
+Use the root test on a series whose ratios misbehave. Let aₙ = 2⁻ⁿ for even n and 3⁻ⁿ for odd n. Then |aₙ|^(1/n) alternates between 1/2 and 1/3, so the limit does not exist, but limsup = 1/2 < 1 and the series converges. The ratios aₙ₊₁/aₙ tend to 0 along even n and to ∞ along odd n, so the ratio test says nothing.
+
+## Common Misconceptions
+- If lim sup aₙ = L, then every term satisfies aₙ < L + ε. (This holds only for all large n; for 1/n the lim sup is 0, yet a₁ = 1.)
+- A bounded sequence that does not converge has no lim sup or lim inf. (Both always exist for bounded sequences, since the tail suprema and infima are monotone and bounded.)
+- In the root test, lim sup |aₙ|^(1/n) = 1 means the series diverges. (The test is inconclusive at 1; Σ1/n diverges and Σ1/n² converges, and both give 1.)
+
 ## Questions
 
 ```yaml

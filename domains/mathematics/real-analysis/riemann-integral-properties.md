@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The Riemann integral satisfies linearity (∫(af + bg) = a∫f + b∫g), monotonicity (f ≤ g ⟹ ∫f ≤ ∫g), and additivity over intervals. These properties follow from the definition and form the computational toolkit of integration. They extend to the Lebesgue integral.
 
+## How It's Best Learned
+Combine additivity and monotonicity to estimate ∫₀² e^(−x²) dx. Split at 1. Since the integrand decreases, it lies between e⁻¹ and 1 on [0, 1] and between e⁻⁴ and e⁻¹ on [1, 2]. The integral is therefore between about 0.39 and 1.37. Splitting into four pieces narrows the range, which shows how the two properties work together.
+
+## Common Misconceptions
+- If ∫ₐᵇ f ≥ 0, then f ≥ 0 on [a, b]. (∫₀^(3π/2) sin x dx = 1, yet sin x < 0 on (π, 3π/2); positive and negative parts can cancel.)
+- Changing f at a few points can change its integral or destroy integrability. (Altering a Riemann integrable function at finitely many points leaves it integrable with the same integral.)
+- Linearity lets you split ∫(f + g) whenever f + g is integrable. (The parts must be integrable too; the Dirichlet function D and 1 − D are not integrable, though their sum 1 is.)
+
 ## Questions
 
 ```yaml

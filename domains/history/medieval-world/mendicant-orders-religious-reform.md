@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Franciscan and Dominican mendicant orders (13th-14th centuries) represented a reform movement emphasizing poverty, preaching, and spiritual renewal. Unlike monks who withdrew to monasteries, mendicants lived in cities serving the urban poor and challenged Church hierarchy's worldliness. They exemplified how reform could come from within while critiquing established institutions.
 
+## How It's Best Learned
+Build a three-column table: Benedictine monks, Franciscan friars, Dominican friars. Fill rows for where they live, how they get food, who they serve, what they own, and why they were founded. Then place a monastery and a friary on a sketch of a growing town. The location difference makes the urban argument visible. End by tracing how the Franciscan poverty rule changed within a few decades of Francis's death.
+
+## Common Misconceptions
+- Friars were just monks under another name. (Benedictine monks vowed stability in one community, while friars moved through towns to preach and beg. Their vows and daily work differed.)
+- The mendicants were rebels working against the papacy. (Both orders sought and received papal approval, and popes used friars as preachers, scholars and inquisitors. Their critique of clerical wealth worked inside the Church.)
+- Franciscans and Dominicans had the same purpose. (Both embraced poverty, but the Franciscans centered on living Christ's poverty, while the Dominicans were founded to preach against heresy and stressed theological training.)
+- Everyone in the Church welcomed the friars. (Many townspeople valued them as preachers and confessors, but some parish clergy and university masters resented their privileges and attacked them in writing.)
+
 ## Questions
 
 ```yaml

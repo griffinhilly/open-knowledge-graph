@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 RNA polymerase catalyzes the formation of a phosphodiester bond between the 3'-OH of the growing RNA chain and the α-phosphate of incoming NTP. In prokaryotes, a single RNAP synthesizes all RNA; in eukaryotes, three RNA polymerases (I, II, III) have distinct roles. Sigma factors in prokaryotes confer promoter specificity; in eukaryotes, transcription factors direct RNAP II to promoters.
 
+## How It's Best Learned
+Take the template strand 3′-TACGGA-5′ and build its RNA one nucleotide at a time: 5′-AUGCCU-3′. For each step, draw the 3′-OH of the chain attacking the α-phosphate of the incoming NTP and label the pyrophosphate that leaves. Then compare the RNA with the coding strand, 5′-ATGCCT-3′, to see that they match except for U in place of T.
+
+## Common Misconceptions
+- RNA polymerase reads the coding strand. (It reads the template strand from 3′ to 5′; the RNA it makes has the same sequence as the coding strand, with U in place of T.)
+- New nucleotides are added to the 5′ end of the RNA. (The chain grows 5′ to 3′, so each nucleotide is joined to the free 3′-OH at the growing end.)
+- RNA polymerase cannot correct any of its mistakes. (It can back up and cut out a misincorporated nucleotide, with help from factors such as TFIIS in eukaryotes, although its error rate is still higher than that of DNA replication.)
+- Eukaryotic RNA polymerase II finds promoters on its own once it binds DNA. (Pol II depends on general transcription factors, starting with TFIID binding the promoter, to assemble at the start site.)
+
 ## Questions
 
 ```yaml

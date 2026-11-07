@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Seismic waves from quakes and impacts propagate through planetary interiors, reflecting and refracting at boundaries with different acoustic properties. Analysis of waveforms (P-waves, S-waves, surface waves) reveals interior velocity structure and compositional boundaries without requiring direct sampling. Seismology has revolutionized understanding of lunar and Martian interiors.
 
+## How It's Best Learned
+Work a single-station location. With P at 6 km/s and S at 3.5 km/s, the S-minus-P delay is d(1/3.5 − 1/6) ≈ 0.119 s per km. A 60-second delay puts the quake about 500 km away. The P-wave's ground motion gives the direction. Then draw curved ray paths through a layered planet and mark where a liquid core casts an S-wave shadow.
+
+## Common Misconceptions
+- One seismometer cannot locate a quake. (A single station can estimate distance from the S-minus-P time and direction from the P-wave's ground motion, which is how InSight located many marsquakes.)
+- If S-waves are missing, the waves must have crossed a liquid. (Strong attenuation or scattering can also hide S-waves, so seismologists look for a consistent shadow zone and other phases before inferring a liquid layer.)
+- Seismic waves travel through a planet in straight lines. (Wave speed usually rises with depth, so rays curve back toward the surface, and they bend or reflect sharply at boundaries.)
+
 ## Questions
 
 ```yaml

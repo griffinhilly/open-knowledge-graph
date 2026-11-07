@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 Some planetary atmospheres exhibit temperature inversions where upper layers are hotter than lower layers, typically caused by absorbing species (e.g., ozone, aerosols, or alkali metals) that absorb stellar or thermal radiation. Inversions profoundly affect atmospheric structure, spectral features, and habitability constraints.
 
+## How It's Best Learned
+Draw two temperature-pressure profiles, one falling steadily with height and one with a warm upper layer. For a water band, find the height where the atmosphere becomes opaque at that wavelength and read off the temperature there, which sets the band's brightness. Then test the idea on Earth's infrared spectrum, where the center of the 15 μm CO₂ band shows a small spike from the warm stratosphere.
+
+## Common Misconceptions
+- A thermal inversion is caused by greenhouse gases trapping outgoing heat. (An inversion high in an atmosphere needs an absorber of incoming stellar radiation at altitude, such as ozone absorbing ultraviolet.)
+- A warm layer sitting above cooler air is unstable and will soon overturn. (Warmer air above cooler air is the stable arrangement. A parcel pushed up into the warm layer is denser than its surroundings and sinks back.)
+- Inversions happen only in the stratosphere. (They also form near the ground on clear nights as the surface cools, and in thermospheres heated by extreme ultraviolet light.)
+
 ## Questions
 
 ```yaml

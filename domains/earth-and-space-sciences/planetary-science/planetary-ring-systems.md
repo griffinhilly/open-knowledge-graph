@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 Planetary rings consist of orbiting particles (mm to km in size) held by gravity and dynamical resonances against tidal disruption. Ring structure (gaps, spokes, spiral density waves, shepherd moons) reflects orbital resonances with satellites and collisional processes; rings are transient features on billion-year timescales.
 
+## How It's Best Learned
+Compute the fluid Roche limit, d ≈ 2.44 R_p (ρ_planet/ρ_particle)^(1/3), for Saturn (mean density 687 kg/m³) and water ice (about 900 kg/m³). The result is about 2.2 Saturn radii, close to the outer edge of the main rings. Then mark the main rings, Mimas and Titan on a radial line against that limit.
+
+## Common Misconceptions
+- A ring is a solid sheet that rotates as one piece. (A ring is made of countless separate particles, each on its own orbit, and inner particles move faster than outer ones.)
+- Saturn is the only planet with rings. (Jupiter, Uranus and Neptune also have ring systems, though they are much fainter.)
+- Ring particles are fine dust. (Most of the mass in Saturn's main rings is in icy particles from about a centimeter to several meters across. Fine dust dominates only some faint rings.)
+
 ## Questions
 
 ```yaml

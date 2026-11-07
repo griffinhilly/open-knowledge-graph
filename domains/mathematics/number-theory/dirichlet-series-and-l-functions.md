@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Dirichlet L-functions L(s, χ) = Σ χ(n)/n^s generalize the Riemann zeta function for Dirichlet characters χ. They satisfy functional equations and have Euler products, enabling study of primes in arithmetic progressions and other structured subsets of integers.
 
+## How It's Best Learned
+Start with the non-principal character mod 4: χ(n) is 0 for even n, 1 for n ≡ 1 and −1 for n ≡ 3. Its L-function at s = 1 is the Leibniz series 1 − 1/3 + 1/5 − ... = π/4, visibly nonzero. Then check that (χ₀(n) + χ(n))/2 is 1 on n ≡ 1 (mod 4) and 0 elsewhere. This is orthogonality isolating one residue class.
+
+## Common Misconceptions
+- Every Dirichlet series has an Euler product. (A factorization over primes needs multiplicative coefficients. The one-term-per-prime form Π(1 − a(p)p^−s)^−1 needs complete multiplicativity, which characters have.)
+- Like ζ(s), every L(s, χ) blows up at s = 1. (Only the principal character gives a pole there. For non-principal χ the series converges at s = 1, as the Leibniz series does for the character mod 4.)
+- Any assignment of roots of unity to the residues mod q defines a character. (The values must be multiplicative. Mod 5, the residue 2 generates the units, so a character is fixed by χ(2) ∈ {1, i, −1, −i}, giving exactly four characters.)
+
 ## Questions
 
 ```yaml

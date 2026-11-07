@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Invasive species succeed through release from natural enemies, superior competitive ability, or rapid evolution. Mechanisms of impact include competition with natives, predation on endemic species, habitat alteration, disease transmission, and hybridization. Invasiveness depends on both invader traits (generalism, rapid growth) and recipient community susceptibility (low diversity, high disturbance).
 
+## How It's Best Learned
+Design a test of enemy release for one invasive plant. Compare leaf damage and parasite counts on the plant in its native range and in its new range, then compare it with a related native plant growing beside it in the new range. Say which result would support the hypothesis and which would not. Then sort the Explainer's examples by mechanism of impact.
+
+## Common Misconceptions
+- An invader must have been a dominant species back home. (Many invaders are ordinary in their native range. They spread in the new range because the enemies or conditions that limited them are absent.)
+- Invasiveness is a fixed property of a species. (It depends on the match between the species and the receiving community. The same species can fail in one community and spread in another.)
+- Invaders harm natives mainly by eating them or competing with them. (Habitat alteration, disease transmission, and hybridization with natives are also major routes of harm.)
+- Bringing in a natural enemy from the home range is a safe fix. (Biological control has worked against some invaders, but a new enemy can also attack native species, so candidates need careful testing first.)
+
 ## Questions
 
 ```yaml

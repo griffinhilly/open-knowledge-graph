@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 In heterogeneous environments, source patches have positive growth with excess dispersers; sink patches have negative growth and persist only through immigration. Understanding source-sink dynamics is critical for conservation: protecting sources and maintaining connectivity to sinks is necessary for persistence. Disrupting connectivity can tip sink populations toward extinction.
 
+## How It's Best Learned
+Do two-patch bookkeeping by hand. The source grows by 20% a year, holds at most 100, and sends its 20 surplus to the sink. The sink shrinks by 20% a year on its own, so next year it holds 0.8 × N + 20. It settles at 100, as many animals as the source holds. Then cut the link: 100, 80, 64, 51.
+
+## Common Misconceptions
+- A patch with many animals in it must be good habitat. (A sink can stay dense because immigrants keep arriving. Only birth and death rates show whether a patch sustains itself.)
+- Sink patches are worthless and can be given up. (Sinks can hold many individuals and add to total numbers. They may also become sources if conditions improve.)
+- A patch is permanently a source or a sink. (A patch's status can change from year to year with weather, predators, or habitat change.)
+
 ## Questions
 
 ```yaml

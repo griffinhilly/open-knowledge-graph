@@ -21,7 +21,16 @@ status: validated
 # Proton Gradient and Chemiosmotic Coupling
 
 ## Core Idea
-The proton motive force (Δμ_H+) consists of the electric potential (membrane potential) and the chemical gradient (ΔpH). Electron transport creates a ~4-unit pH gradient across the inner mitochondrial membrane and a ~140 mV potential, driving ATP synthesis. The coupling efficiency is ~40%, with the remaining energy released as heat.
+The proton motive force (Δμ_H+) consists of the electric potential (membrane potential) and the chemical gradient (ΔpH). Electron transport creates a ~0.5–1-unit pH gradient across the inner mitochondrial membrane and a ~140–180 mV potential, driving ATP synthesis. The coupling efficiency is ~40%, with the remaining energy released as heat.
+
+## How It's Best Learned
+Compute the proton motive force with sample values: ΔΨ = 150 mV and ΔpH = 0.75. At 37 °C, 2.3RT/F is about 61.5 mV, so the chemical part is about 46 mV and the total is about 196 mV in size, roughly three-quarters electrical. Multiply by the Faraday constant (96.5 kJ per mole per volt) to get about 19 kJ per mole of protons.
+
+## Common Misconceptions
+- Proton pumping makes the matrix acidic. (Protons are pumped out of the matrix, so the matrix becomes more alkaline and the intermembrane space more acidic.)
+- Uncouplers stop the electron transport chain. (Uncouplers let protons leak back without passing through ATP synthase; electron transport and oxygen use continue, often faster, while ATP synthesis falls.)
+- ATP synthase can only make ATP. (The enzyme is reversible; if the proton motive force collapses, it can hydrolyze ATP and pump protons out of the matrix.)
+- The energy from electron transport goes straight into ATP. (The energy is first stored in the proton motive force, and ATP synthase draws on that store; this is why the two processes can be separated by uncouplers.)
 
 ## Questions
 

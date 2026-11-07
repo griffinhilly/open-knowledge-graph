@@ -20,7 +20,16 @@ status: validated
 # Citric Acid Cycle Regulation
 
 ## Core Idea
-The citric acid cycle is primarily regulated at three irreversible steps (citrate synthase, isocitrate dehydrogenase, α-ketoglutarate dehydrogenase) through allosteric feedback inhibition by products (NADH, ATP, succinyl-CoA, GTP) and activation by substrates and AMP. Citrate synthase, the entry point, is inhibited by NADH, ATP, GTP, succinyl-CoA, and acetyl-CoA. The cycle's flux is coupled to the ATP/ADP ratio and the NADH/NAD⁺ ratio; a high ATP/ADP ratio suppresses the cycle while high NADH/NAD⁺ ratio slows dehydrogenase reactions.
+The citric acid cycle is primarily regulated at three irreversible steps (citrate synthase, isocitrate dehydrogenase, α-ketoglutarate dehydrogenase) through allosteric feedback inhibition by products (NADH, ATP, succinyl-CoA, GTP) and activation by substrates and AMP. Citrate synthase, the entry point, is inhibited by NADH, ATP, GTP, succinyl-CoA, and its product citrate. The cycle's flux is coupled to the ATP/ADP ratio and the NADH/NAD⁺ ratio; a high ATP/ADP ratio suppresses the cycle while high NADH/NAD⁺ ratio slows dehydrogenase reactions.
+
+## How It's Best Learned
+Draw the cycle and box its three regulated enzymes. For each box, write activators in one color and inhibitors in another. Then run two scenarios on the drawing: a muscle cell at rest with high ATP and NADH, and the same cell starting to sprint with rising ADP, NAD⁺ and Ca²⁺. For each box, decide whether it speeds up or slows down.
+
+## Common Misconceptions
+- Low ATP slows the cycle because the cell lacks the energy to run it. (Low ATP and high ADP speed the cycle up; ADP activates isocitrate dehydrogenase.)
+- Every step of the cycle is a control point. (Control centers on three irreversible steps; the other steps run near equilibrium and follow substrate levels.)
+- The supply of acetyl-CoA alone sets how fast the cycle runs. (Oxaloacetate and NAD⁺ availability, and product inhibition, also limit flux.)
+- Only energy-status molecules such as ATP and NADH regulate the cycle. (Ca²⁺ activates α-ketoglutarate dehydrogenase, which links the cycle to muscle contraction.)
 
 ## Questions
 

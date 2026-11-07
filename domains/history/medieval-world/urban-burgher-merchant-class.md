@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Medieval urban growth created a new social class—burghers and merchants—who lived by commerce rather than feudal tenure. Towns gained autonomy through charters and developed governing institutions independent of feudal hierarchy. This urban class accumulated wealth outside traditional feudal relations, eventually transforming political structures.
 
+## How It's Best Learned
+Compare two people side by side around 1250: a knight holding a fief and a cloth merchant in a chartered town. For each, list where income comes from, what they owe and to whom, which court judges them, and how their wealth is stored. Then read a translated town charter clause by clause. For each right granted, ask what the lord gave up and what he expected in return.
+
+## Common Misconceptions
+- Everyone who lived in a medieval town was a burgher. (Burgher or citizen status was a legal rank, often gained by birth, property or a fee. Servants, laborers and many poor residents did not hold it.)
+- Chartered towns were fully independent of lords and kings. (Most still owed taxes or dues and could lose their privileges. Near-independence, as in some Italian cities, was the exception.)
+- Medieval towns were democracies run by all their citizens. (Councils were usually dominated by a few wealthy families, and craft guilds and poorer townspeople often struggled for a share of power.)
+- Rich merchants set out to replace the nobility. (Many wealthy merchants bought land, married into noble families and sought titles, aiming to join the aristocracy.)
+
 ## Questions
 
 ```yaml
@@ -68,7 +77,7 @@ Medieval urban growth created a new social class—burghers and merchants—who 
 
 The feudal hierarchy you already know was built on land: you held land, you owed military service and dues, you derived your social position from your place in a chain of tenure running up to the king. This system had a clean internal logic — but it had no slot for someone who owned no land, owed no feudal service, and yet accumulated substantial wealth through trade. The medieval merchant was a sociological anomaly, and the towns that merchants inhabited became laboratories for new forms of social organization precisely because feudalism could not absorb them.
 
-**Burghers** (from *burg*, meaning fortified town) were the inhabitants of chartered towns. A **charter** was a legal document granted by a lord or king that defined the town's rights: freedom from arbitrary tolls, the right to hold markets, the right to self-governance through elected councils, sometimes the right of serfs who fled to the town to gain freedom after a year and a day. ("Town air makes you free" was a contemporary saying.) Lords granted charters partly for ideological reasons but mostly because taxing a prosperous trading town generated more revenue than squeezing peasants — a fiscal calculation that inadvertently created spaces outside feudal control.
+**Burghers** (from *burg*, meaning fortified town) were the inhabitants of chartered towns. A **charter** was a legal document granted by a lord or king that defined the town's rights: freedom from arbitrary tolls, the right to hold markets, the right to self-governance through elected councils, sometimes the right of serfs who fled to the town to gain freedom after a year and a day. (Later historians summed up the principle as "town air makes you free.") Lords granted charters partly for ideological reasons but mostly because taxing a prosperous trading town generated more revenue than squeezing peasants — a fiscal calculation that inadvertently created spaces outside feudal control.
 
 The wealth these merchants accumulated was qualitatively different from feudal wealth. A lord's income was largely in kind — grain rents, labor services, rights over mills — and was tied to specific land. Merchant wealth was liquid: money, credit instruments, shares in trading ventures. This liquidity enabled new political behaviors. Merchants could loan money to kings, funding wars in exchange for trading privileges. They could buy land and noble titles. They could endow universities, build cathedrals, and patron artists — exercising cultural power previously monopolized by the Church and aristocracy.
 

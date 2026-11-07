@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Under regularity conditions, √n(θ̂_n - θ) converges in distribution to N(0, I(θ)^{-1}), so θ̂_n ≈ N(θ, I(θ)^{-1}/n) for large n. The convergence rate is √n and the asymptotic variance achieves the Cramér-Rao lower bound (asymptotic efficiency). This enables construction of confidence intervals and hypothesis tests.
 
+## How It's Best Learned
+Start with Poisson(λ), where the MLE is X̄ and I(λ) = 1/λ. The theorem predicts Var(λ̂) ≈ λ/n, which matches the exact variance of X̄. Then write the Taylor-expansion proof one line at a time, labeling which line uses the CLT, which uses the law of large numbers, and which uses Slutsky's theorem.
+
+## Common Misconceptions
+- The I(θ) in N(0, I(θ)⁻¹) is the information in the whole sample. (It is the information in one observation. The sample carries nI(θ), which is why the variance of θ̂ₙ is about I(θ)⁻¹/n.)
+- Replacing I(θ) by I(θ̂ₙ) in a confidence interval changes the limiting distribution. (If I is continuous and θ̂ₙ is consistent, Slutsky's theorem shows the standardized statistic still converges to N(0, 1).)
+- Asymptotic efficiency means no estimator beats the MLE at any sample size. (It is a large-sample statement. At a fixed n, a biased or shrinkage estimator can have smaller mean squared error.)
+
 ## Questions
 
 ```yaml

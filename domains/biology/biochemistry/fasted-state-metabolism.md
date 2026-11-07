@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 In the fasted state (low insulin, high glucagon), glycogen stores are mobilized and gluconeogenesis maintains blood glucose. Fatty acids are oxidized to acetyl-CoA, generating ketone bodies that fuel the brain. Muscle proteins are degraded to supply amino acids for hepatic gluconeogenesis. The metabolic shift is coordinated by hormonal signals and AMP-dependent kinase (AMPK) activation.
 
+## How It's Best Learned
+Build a table with four columns: after an overnight fast, at about 24 hours, and after several days. Use rows for the liver's glucose source, the main muscle fuel, the brain's fuel, and the rate of muscle protein breakdown. Fill each cell, then explain each change from one column to the next in terms of glucagon, insulin and the brain's fuel needs.
+
+## Common Misconceptions
+- Fat can be turned into glucose during a fast. (Even-chain fatty acids are broken down to acetyl-CoA, which gives no net glucose; the glycerol backbone is the main part of fat that can become glucose.)
+- Muscle protein is broken down at a steady high rate for as long as the fast lasts. (Breakdown slows after several days, once the brain gets much of its energy from ketone bodies.)
+- The brain can use only glucose. (After several days of fasting, ketone bodies supply a large share of brain energy, though some glucose is still required.)
+- Ketone bodies during fasting are the same as diabetic ketoacidosis. (Fasting ketosis is controlled by low but present insulin, and ketone levels usually stay far below those of ketoacidosis.)
+
 ## Questions
 
 ```yaml

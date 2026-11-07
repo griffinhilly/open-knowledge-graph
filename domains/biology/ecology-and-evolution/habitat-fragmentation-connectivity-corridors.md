@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Habitat fragmentation divides continuous habitats into isolated patches, reducing size, increasing edges, and limiting dispersal. Fragmented populations experience higher extinction from small size and genetic drift. Connectivity is essential for persistence; conservation corridors reconnect fragmented habitats, allowing gene flow and recolonization. Corridor effectiveness depends on permeability to target species and source habitat quality.
 
+## How It's Best Learned
+On graph paper, compare one square 1,000-hectare forest with ten square 100-hectare patches, and treat the outer 100 meters of each as edge. The large square keeps about 877 hectares of interior; the ten small ones keep 640 hectares in total. Then add one corridor to the map and ask which species in a list (canopy primate, turtle, bat) could use it.
+
+## Common Misconceptions
+- If total habitat area stays the same, splitting it into patches does no harm. (Fragmentation adds edge, isolates populations, and can leave patches too small for wide-ranging species.)
+- Any strip of habitat between two patches works as a corridor. (A corridor works only if the target species will move through it. A canopy bridge helps tree-dwelling primates but not turtles.)
+- Corridors restore the original continuous habitat. (They restore movement between patches, which allows gene flow and recolonization, but each patch keeps its own size and edge effects.)
+- The land between patches does not matter once a corridor exists. (A less hostile matrix lets more animals cross, and patches of poor habitat can still act as stepping stones.)
+
 ## Questions
 
 ```yaml

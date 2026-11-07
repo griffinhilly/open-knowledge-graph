@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 Mutation provides the raw material for evolution by introducing new alleles. Mutation rates vary by organism and genome region but are typically low (10⁻⁸ to 10⁻⁹ per base pair per generation). Over long timescales, mutation replenishes genetic variation lost to drift and selection, enabling adaptation.
 
+## How It's Best Learned
+Start with one multiplication: a per-base rate of 10⁻⁸ times about 3 billion base pairs gives about 30 new mutations per human genome per generation. Then follow a single resistance mutation in a bacterial culture. Mutation produces it once, and selection carries it from one cell to most of the population. Keeping "where a variant comes from" separate from "what makes it common" is the main skill here.
+
+## Common Misconceptions
+- Mutations appear because an organism needs them to survive. (Mutations arise at random with respect to their usefulness. A new environment can change which mutations are favored, but it does not aim mutations at helpful changes.)
+- Most mutations are harmful. (Many mutations fall in DNA where they have little or no effect on fitness. Among mutations that do affect fitness, harmful ones outnumber beneficial ones.)
+- Because mutation is a weak force, it can be ignored over short timescales. (Its direct push on allele frequencies is slow, but it supplies the new variants that selection and drift act on in every generation.)
+
 ## Questions
 
 ```yaml

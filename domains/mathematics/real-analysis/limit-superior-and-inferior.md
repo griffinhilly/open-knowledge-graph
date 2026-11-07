@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 The limit superior (limsup) and limit inferior (liminf) of a sequence are the largest and smallest limit points of its subsequences, respectively. For any bounded sequence, liminf ≤ limsup, and equality holds if and only if the sequence converges. These tools allow precise analysis of oscillating sequences without traditional limits.
 
+## How It's Best Learned
+Make a table for aₙ = (−1)ⁿ(1 + 1/n) with columns n, aₙ, Mₙ = sup of the tail from n, and mₙ = inf of that tail. The first rows give M = 3/2, 3/2, 5/4, 5/4 and m = −2, −4/3, −4/3, −6/5. Watch Mₙ fall toward 1 and mₙ rise toward −1. Then compare with aₙ = 1/n, where sup = 1 but lim sup = 0.
+
+## Common Misconceptions
+- The lim sup is the supremum of the sequence. (For 1/n the supremum is 1, but the tail suprema 1/n tend to 0, so lim sup = 0.)
+- The lim sup has to be a value the sequence actually takes. ((−1)ⁿ(1 + 1/n) never equals 1, yet its lim sup is 1.)
+- lim sup (aₙ + bₙ) = lim sup aₙ + lim sup bₙ. (Only ≤ holds in general; for aₙ = (−1)ⁿ and bₙ = −(−1)ⁿ, the left side is 0 and the right side is 2.)
+- An unbounded sequence has no lim sup. (In the extended reals, lim sup n = +∞; the tail suprema are all +∞.)
+
 ## Questions
 
 ```yaml

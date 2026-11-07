@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 The method of moments equates sample moments with population moments: set m̂ₖ = μₖ(θ) where m̂ₖ = (1/n)Σ Xᵢᵏ. Solve for θ. This approach is simple but less efficient than MLE. Method of moments estimators are consistent by the WLLN and asymptotically normal under suitable conditions.
 
+## How It's Best Learned
+Solve two cases by hand. For Gamma with shape α and scale β, the mean is αβ and the variance is αβ², so β̂ = σ̂²/X̄ and α̂ = X̄²/σ̂², where σ̂² is the divisor-n sample variance. With X̄ = 6 and σ̂² = 12, this gives β̂ = 2 and α̂ = 3. Then try Uniform(0, θ) on the data 1, 2, 9. Here θ̂ = 2X̄ = 8, smaller than the observed 9, an impossible value.
+
+## Common Misconceptions
+- A method of moments estimate always fits the data. (It can fall outside what the data allow. For Uniform(0, θ) with data 1, 2, 9, the estimate 2X̄ = 8 is below the sample maximum.)
+- The method of moments variance estimate is the unbiased sample variance. (Matching the first two moments gives the divisor n, which is biased downward. The n − 1 version is a separate bias correction.)
+- You must match the first p raw moments E[X], …, E[Xᵖ]. (Any p moment conditions that determine θ will work, such as central moments or E[g(X)] for a chosen g. The choice affects efficiency.)
+
 ## Questions
 
 ```yaml

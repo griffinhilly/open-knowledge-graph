@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 Mantle convection drives planetary outgassing, magmatism, and tectonic activity; convection vigor scales with interior temperature contrast, viscosity, and planetary size. Planets cool and transition from vigorous to stagnant-lid convection, explaining the correlation between planet size, volcanism age, and surface tectonics.
 
+## How It's Best Learned
+Start with surface-to-volume ratio, 3/R for a sphere. Mars (R ≈ 3,390 km) has about 1.9 times Earth's ratio, so it loses heat through its surface faster relative to the heat it stores. Then write Ra = ρgαΔTd³/(κη) and change one term at a time. Doubling mantle depth d multiplies Ra by 8, and a tenfold drop in viscosity η multiplies it by 10.
+
+## Common Misconceptions
+- Mantle convection means the mantle is liquid and flows like water. (The mantle is solid rock that creeps very slowly over millions of years. Its viscosity is enormous, yet it still convects on geological timescales.)
+- In a stagnant-lid planet, the mantle has stopped moving. (The interior can keep convecting beneath the lid. What stops is the breaking and recycling of the rigid outer shell.)
+- Plate tectonics is the only way a rocky planet can move heat out. (Heat can also escape by conduction through a stagnant lid, by volcanism, or by episodic overturns of the lid, as proposed for Venus.)
+
 ## Questions
 
 ```yaml
@@ -52,8 +60,8 @@ Mantle convection drives planetary outgassing, magmatism, and tectonic activity;
 
 - question: "When a planet transitions from mobile-lid to stagnant-lid convection, volcanic outgassing ceases because the lithosphere can no longer be broken and recycled, preventing volatiles from escaping the interior."
   type: true-false
-  answer: true
-  explanation: "Active mantle convection drives volcanic outgassing — volatiles like CO₂ and H₂O are released as magma reaches the surface through volcanically active zones. When the planet transitions to stagnant-lid convection, the rigid cap prevents this cycling. Without ongoing outgassing, atmospheric replenishment stops and the surface becomes geologically frozen. The Moon and Mercury are examples: they reached stagnant-lid states early and have essentially no geologically recent volcanism."
+  answer: false
+  explanation: "Magma can still rise through a single rigid lid, so stagnant-lid planets can keep erupting and outgassing. Mars is thought to have had a stagnant lid for most of its history, yet its large volcanoes erupted long after the lid formed. What the transition ends is the recycling of the lithosphere. Outgassing then tends to weaken as the interior cools, rather than stopping at once. The Moon and Mercury show the end state: they cooled early and have little or no geologically recent volcanism."
 
 - question: "The Moon and Mars are in stagnant-lid convective regimes today because they seldom had sufficient internal heat to drive mantle convection early in their histories."
   type: true-false
@@ -62,13 +70,13 @@ Mantle convection drives planetary outgassing, magmatism, and tectonic activity;
 
 - question: "Why does planet size predict tectonic longevity? Explain the physical mechanism connecting planetary size to convection vigor over geological time."
   type: short-answer
-  answer: "Larger planets store more primordial heat and produce more radiogenic heating per unit volume, maintaining a large temperature contrast between core and surface. This temperature contrast drives buoyancy in the mantle. Additionally, mantle viscosity is strongly temperature-dependent — hotter mantles are less viscous, which further promotes vigorous convection (high Rayleigh number). As a planet cools over billions of years, the temperature contrast decreases and viscosity rises, reducing the Rayleigh number. When it drops below a critical threshold, convection can no longer break and recycle the surface lithosphere, and the planet enters stagnant-lid convection. A larger planet takes far longer to cool through this threshold, so it sustains mobile-lid tectonics longer."
+  answer: "Larger planets store more primordial heat and produce more radiogenic heat relative to their surface area, maintaining a large temperature contrast between core and surface. This temperature contrast drives buoyancy in the mantle. Additionally, mantle viscosity is strongly temperature-dependent — hotter mantles are less viscous, which further promotes vigorous convection (high Rayleigh number). As a planet cools over billions of years, the temperature contrast decreases and viscosity rises, reducing the Rayleigh number. When it drops below a critical threshold, convection can no longer break and recycle the surface lithosphere, and the planet enters stagnant-lid convection. A larger planet takes far longer to cool through this threshold, so it sustains mobile-lid tectonics longer."
   explanation: "The key is the Rayleigh number, which captures the ratio of buoyancy forces to viscous resistance. Planet size enters on both sides: larger planets have deeper mantles (greater buoyancy path) and cool more slowly (maintaining high temperature contrast and low viscosity). Small bodies like the Moon and Mercury cooled rapidly, dropping their Rayleigh numbers well below the mobile-lid threshold early in solar system history. Earth's large mantle volume has sustained vigorous convection for over 4 billion years."
 ```
 
 ## Explainer
 
-From your study of mantle convection and dynamics, you know that hot, buoyant material rises while cooler, denser material sinks, creating circulation cells that transport heat from a planet's interior to its surface. Planetary-scale convection operates on the same physical principles, but the specific behavior depends critically on the planet's size, composition, and thermal history. A larger planet retains more primordial heat and generates more radiogenic heating per unit volume, sustaining vigorous convection far longer than a small body. This is why Earth still has active plate tectonics while Mars—roughly half Earth's diameter—lost most of its volcanic and tectonic activity billions of years ago.
+From your study of mantle convection and dynamics, you know that hot, buoyant material rises while cooler, denser material sinks, creating circulation cells that transport heat from a planet's interior to its surface. Planetary-scale convection operates on the same physical principles, but the specific behavior depends critically on the planet's size, composition, and thermal history. A larger planet retains more primordial heat and generates more radiogenic heat relative to its surface area, sustaining vigorous convection far longer than a small body. This is why Earth still has active plate tectonics while Mars—roughly half Earth's diameter—lost most of its volcanic and tectonic activity billions of years ago.
 
 The key parameter governing convection vigor is the **Rayleigh number**, which captures the ratio of buoyancy-driven forces to viscous resistance. A planet with a large temperature contrast between its core and surface, low mantle viscosity, and large mantle thickness will have a high Rayleigh number and correspondingly vigorous convection. As a planet cools over geological time, its interior temperature contrast decreases and its mantle viscosity increases (since silicate viscosity is strongly temperature-dependent), causing the Rayleigh number to drop. Eventually, convection weakens to the point where the lithosphere can no longer be broken and recycled—the planet transitions to a **stagnant-lid regime**, where a single rigid shell caps the entire surface.
 

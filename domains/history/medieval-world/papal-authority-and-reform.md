@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 The medieval Church sought reform to combat clerical corruption, enforce celibacy, and strengthen papal authority over bishops. Reform movements in the 11th–12th centuries led to the Gregorian Reform and the Cluniac movement, asserting that the Pope was supreme over secular rulers. Reforming popes claimed the right to excommunicate kings and release subjects from their oaths, escalating the Church–state conflict.
 
+## How It's Best Learned
+Start with one bishop in the Empire around 1070 and list everything he holds: a diocese, cathedral, lands, knights owed to the king. Then ask who should choose him and why each side cares. With that picture in mind, walk through the sequence from Gregory VII's election to Canossa to the Concordat of Worms. At each step, note which side gained and which side got part of what it wanted.
+
+## Common Misconceptions
+- Gregory VII invented the rule that priests must not marry. (Church councils had required clerical celibacy long before. The reformers tried to enforce rules that were widely ignored.)
+- The reform movement was anti-imperial from the start. (Emperor Henry III, Henry IV's father, backed reforming popes in the 1040s. Conflict with the empire came later, when reformers challenged lay investiture.)
+- The pope had always been chosen by the Church alone, free of outside control. (Before the reform, Roman noble families or German emperors often controlled papal elections. A decree of 1059 gave the cardinals the leading role in choosing the pope.)
+
 ## Questions
 
 ```yaml

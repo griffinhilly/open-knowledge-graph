@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 The likelihood ratio test rejects H₀ when Λ = L(θ̂₀|X)/L(θ̂|X) < c, where θ̂₀ is the MLE under H₀ and θ̂ is the unrestricted MLE. Under H₀, -2log(Λ) converges in distribution to χ²_r where r is the dimension reduction. LR tests are general and achieve optimal Type II error (power) asymptotically.
 
+## How It's Best Learned
+Carry one test through by hand. For Poisson data with H₀: λ = λ₀, the statistic is −2 log Λ = 2[nX̄ log(X̄/λ₀) − n(X̄ − λ₀)]. With n = 20, X̄ = 3 and λ₀ = 2, this is 2[60 log 1.5 − 20] ≈ 8.66. That exceeds 3.84, the 0.95 quantile of χ²₁, so the test rejects at the 5% level. Then count r as the number of constraints H₀ imposes.
+
+## Common Misconceptions
+- The degrees of freedom equal the number of parameters in the full model. (They equal the difference in free parameters between the full and null models. Testing μ = 0 in a normal model with unknown σ² gives r = 1, not 2.)
+- Wilks' theorem works for comparing any two models. (It needs the null model nested inside the full model. Comparing non-nested models requires other tools.)
+- The χ²_r limit still holds when the null value sits on the edge of the parameter space, such as testing a variance equal to 0. (Boundary nulls break a regularity condition. In simple cases the limit becomes an equal mixture of a point mass at 0 and χ²₁.)
+
 ## Questions
 
 ```yaml

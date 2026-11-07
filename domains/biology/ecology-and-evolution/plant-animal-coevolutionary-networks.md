@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Plants and animals coevolve through multiple ecological interactions: plants produce rewards (nectar, pollen) attracting pollinators that evolved compatible morphologies; plants and seed dispersers coevolve to promote transport; herbivores and plants engage in chemical arms races. These interactions form coevolutionary networks where reciprocal evolution shapes plant and animal diversity and community structure.
 
+## How It's Best Learned
+Build a small interaction matrix with plants as rows and pollinators as columns, marking 1 for each observed visit. Sort both by number of partners: a nested network packs its 1s into a triangle in one corner. Then delete the column with the fewest links and count plants left with no pollinator. Repeat with the most-linked column and compare the counts.
+
+## Common Misconceptions
+- Each flower species has its own single pollinator. (Most plants are visited by several animal species. Strict one-to-one pairs, such as yucca and yucca moth, are rare.)
+- A flower's syndrome tells you exactly which animal will pollinate it. (Syndromes are tendencies tied to pollinator groups. Many flowers also receive visits from animals outside their syndrome.)
+- Plants make fruit to feed animals. (Fleshy fruit is favored because it gets seeds carried away, which raises the plant's fitness. The animal's meal is the payment, not the purpose.)
+
 ## Questions
 
 ```yaml

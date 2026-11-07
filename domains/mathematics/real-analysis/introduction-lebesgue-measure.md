@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Lebesgue measure extends the notion of length to more general sets than intervals. It assigns a non-negative measure to sets in σ-algebra on ℝ, generalizing length of intervals. Lebesgue measure has better properties than Riemann integrability: it handles arbitrary unions of open sets, and a set has measure zero if it can be covered by countably many intervals of arbitrarily small total length. This foundation enables the Lebesgue integral to integrate a much wider class of functions.
 
+## How It's Best Learned
+Do two covering computations. First, list the rationals in [0, 1] as q₁, q₂, … and cover qₙ by an interval of length ε/2ⁿ, for total length ε. Second, build the Cantor set and add the removed lengths: 1/3 + 2/9 + 4/27 + … = 1, so what remains has measure zero yet is uncountable. Then ask why finitely many intervals covering ℚ ∩ [0, 1] must have total length at least 1.
+
+## Common Misconceptions
+- A set of measure zero must be countable. (The Cantor set is uncountable and has Lebesgue measure zero.)
+- A dense set must take up positive length. (ℚ is dense in ℝ and has measure zero, because it is countable.)
+- Every subset of ℝ has a Lebesgue measure. (Assuming the axiom of choice, non-measurable sets exist, such as the Vitali set.)
+- Whether the cover uses finitely or countably many intervals makes no difference. (It matters: any finite cover of ℚ ∩ [0, 1] by intervals has total length at least 1, while countable covers can have total length as small as you like.)
+
 ## Questions
 
 ```yaml

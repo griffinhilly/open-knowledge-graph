@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Invasive species are non-native organisms establishing self-sustaining populations and negatively impacting native biodiversity or ecosystem function. Establishment depends on propagule pressure, species' invasiveness traits, and recipient community resistance. Invasive species outcompete natives, alter disturbance regimes, or disrupt trophic networks.
 
+## How It's Best Learned
+Draw the invasion as a row of filters: arrival, establishment, spread, and impact. For each filter, write which factor matters most (propagule pressure, invasiveness traits, community resistance). Then sort three cases from the Explainer by mechanism of harm: zebra mussels (competition), the brown tree snake on Guam (new predator), and Hawaiian invasive grasses (changed fire regime). Mark where prevention would have been cheapest.
+
+## Common Misconceptions
+- Every non-native species is invasive. (Many introduced species never establish, and some that do cause no measurable harm. "Invasive" refers to species that spread and cause damage.)
+- Invaders win because they are better competitors everywhere. (Success also depends on how many individuals arrive and on how resistant the receiving community is. The same species may fail in an intact forest and spread in a disturbed grassland.)
+- A species with the right traits will invade after a single introduction. (Propagule pressure matters a great deal. Large and repeated introductions make establishment far more likely.)
+- The harm from an invader is limited to the species it eats or competes with. (Some invaders change fire, soil, or water conditions, which affects the whole community and can favor further invasion.)
+
 ## Questions
 
 ```yaml

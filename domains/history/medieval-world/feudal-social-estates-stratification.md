@@ -18,7 +18,15 @@ status: validated
 # Feudal Social Hierarchy: The Three Estates
 
 ## Core Idea
-Medieval thinkers conceptualized society as three functional estates: those who pray (clergy), those who fight (nobility), and those who work (peasants). This model, expressed in texts like Aelred of Rievaulx's writings, reflected feudal reality but obscured the growing merchant and artisan classes. The three-estates model persisted into the early modern period, despite being increasingly descriptive rather than prescriptive.
+Medieval thinkers conceptualized society as three functional estates: those who pray (clergy), those who fight (nobility), and those who work (peasants). This model, expressed in texts like Bishop Adalbero of Laon's poem to King Robert II, reflected feudal reality but obscured the growing merchant and artisan classes. The three-estates model persisted into the early modern period, despite being increasingly prescriptive rather than descriptive.
+
+## How It's Best Learned
+Draw the three estates as three boxes, then try to place real people in them: a parish priest, a bishop who is also a feudal lord, a serf, a Bruges cloth merchant, a guild master, a university scholar. Mark each person who fits badly or fits two boxes. Then ask who wrote the model and what it told each group about its place.
+
+## Common Misconceptions
+- The three estates were a census of how medieval people actually lived. (The scheme said how society ought to be ordered. Many people, such as merchants and town artisans, fit it poorly.)
+- Being in the same estate meant being social equals. (Each estate held huge internal differences. A great bishop and a village priest were both clergy, and a rich townsman and a serf could both be counted in the Third Estate.)
+- The model was a dead idea by the end of the Middle Ages. (It shaped political bodies for centuries afterward. France's Estates-General was still organized by the three estates when it met in 1789.)
 
 ## Questions
 

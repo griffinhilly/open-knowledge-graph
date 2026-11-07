@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Impact cratering occurs when meteorites strike planetary surfaces at hypervelocity (km/s), converting kinetic energy into shock waves, melting, and vaporization. Crater size, depth, and morphology depend on impactor size, velocity, impact angle, and target material properties and gravity.
 
+## How It's Best Learned
+Compute the kinetic energy per kilogram of an impactor at 20 km/s: ½v² = 2 × 10⁸ J/kg. TNT releases about 4.2 × 10⁶ J/kg, so each kilogram of impactor carries about 50 times the energy of the same mass of TNT. Then draw the three stages (contact and compression, excavation, modification) as cross-sections with the shock front marked.
+
+## Common Misconceptions
+- The meteorite lies buried at the bottom of its crater. (In large impacts, the impactor is mostly melted or vaporized. Little of it survives as solid pieces.)
+- Most craters should be elongated, because most impactors arrive at an angle. (The most likely impact angle is 45°. Only impacts shallower than about 10–15° from the surface make clearly elliptical craters.)
+- The impactor digs the crater by pushing rock aside, like a shovel. (The shock wave and the release wave behind it throw out the rock. That is why the crater is far wider than the impactor.)
+- Excavating a large crater takes hours or days. (Excavation is over within seconds to minutes, even for large craters. Slow changes such as erosion and relaxation come later.)
+
 ## Questions
 
 ```yaml
@@ -56,7 +65,7 @@ Impact cratering occurs when meteorites strike planetary surfaces at hyperveloci
 - question: "The central peaks seen in large complex craters form by the same basic mechanism as the splash-back column when a stone is dropped in water — the crater floor rebounds upward after the shock wave passes."
   type: true-false
   answer: true
-  explanation: "After excavation, the transient crater is gravitationally unstable, especially for large craters. The floor rebounds upward as the rock (which behaved plastically under extreme shock pressure) partly recovers. This rebound forms a central peak in complex craters, just as water surface tension and pressure cause the central splash column in high-speed droplet photography. For very large impacts, the rebound overshoots and collapses outward, producing multiple concentric rings (multi-ring basins). The analogy to water is physically apt — rock under megapascals of shock pressure flows like a viscous fluid."
+  explanation: "After excavation, the transient crater is gravitationally unstable, especially for large craters. The floor rebounds upward as the rock (which behaved plastically under extreme shock pressure) partly recovers. This rebound forms a central peak in complex craters, just as water surface tension and pressure cause the central splash column in high-speed droplet photography. For very large impacts, the rebound overshoots and collapses outward, producing multiple concentric rings (multi-ring basins). The analogy to water is physically apt — rock under gigapascals of shock pressure flows like a viscous fluid."
 
 - question: "Explain why impact craters are almost always circular regardless of the angle at which the meteorite hits, and what this tells us about the physical mechanism of crater formation."
   type: short-answer

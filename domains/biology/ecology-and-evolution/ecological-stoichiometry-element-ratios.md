@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Ecological stoichiometry examines how elemental ratios (C:N:P) in organisms and environments constrain ecosystem functioning. Organism growth is limited by the scarcest element relative to organismal needs. Mismatches between organism and resource stoichiometry determine which nutrient limits growth. This framework explains nutrient limitation patterns and ecosystem responses to fertilization.
 
+## How It's Best Learned
+Treat phytoplankton growth as a recipe that uses N and P at 16:1. Water with 32 µM nitrogen and 1 µM phosphorus can use only 16 µM of the nitrogen before phosphorus runs out. Adding 10 µM more nitrogen changes nothing. Adding 1 µM phosphorus doubles the possible biomass and uses all 32 µM of nitrogen. Then apply the same logic to a herbivore eating leaves with far more carbon per nitrogen than its body.
+
+## Common Misconceptions
+- Adding any nutrient will boost growth. (Adding an element that is already in relative excess leaves growth capped by the scarce one. Growth rises when the limiting element is supplied.)
+- Once you know the ratio, the amount of nutrient does not matter. (The ratio shows which element limits growth. The supply of that limiting element then sets how much growth is possible.)
+- If a consumer has plenty of food, it cannot be nutrient-limited. (Food can be abundant but poor in an element the consumer needs, as when Daphnia eat phosphorus-poor algae.)
+
 ## Questions
 
 ```yaml

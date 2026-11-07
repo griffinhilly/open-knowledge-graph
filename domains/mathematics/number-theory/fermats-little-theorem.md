@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 If p is prime and gcd(a,p) = 1, then a^(p-1) ≡ 1 (mod p). This cornerstone result characterizes the exponent structure of multiplicative groups mod p and enables fast modular exponentiation in cryptography.
 
+## How It's Best Learned
+Fill in a table of aᵏ mod 7 for a = 1 to 6 and k = 1 to 6. The k = 6 column is all 1s. Some rows return to 1 earlier: 2 cycles 2, 4, 1 and 6 cycles 6, 1. This shows that p − 1 is a common multiple of every order. Then repeat the table mod 9 to see the pattern break when the modulus is not prime.
+
+## Common Misconceptions
+- If aⁿ⁻¹ ≡ 1 (mod n), then n is prime. (The converse fails. 341 = 11 · 31 satisfies 2³⁴⁰ ≡ 1 (mod 341), and Carmichael numbers such as 561 pass for every base coprime to them.)
+- p − 1 is the first exponent at which aᵏ returns to 1. (The order of a divides p − 1 and can be smaller: 2³ ≡ 1 (mod 7).)
+- The same statement works for prime powers, with exponent n − 1. (Mod 9, 2⁸ ≡ 4. The right exponent is φ(9) = 6, which is Euler's theorem.)
+
 ## Questions
 
 ```yaml

@@ -23,6 +23,12 @@ Paranormal romance emerged as a major YA subgenre combining romantic love plots 
 ## How It's Best Learned
 Read key paranormal romance titles ('Twilight' series, 'Beautiful Creatures') and analyze how supernatural elements amplify romantic tension and complicate relationship dynamics.
 
+## Common Misconceptions
+- The supernatural creature is decoration on an ordinary love story. (The paranormal element builds the obstacles, such as danger, secrecy, mortality and power imbalance, that drive the romance plot.)
+- Because it is fantasy, paranormal romance says nothing about real relationships. (The supernatural turns real concerns like control, risk and consent into literal plot facts, which is why critics read these books for the relationships they model.)
+- Every paranormal romance presents the dangerous, protective love interest with approval. (Critics have challenged the romanticized controlling partner, and books in the subgenre differ in whether they endorse, question or reverse that pattern.)
+- YA paranormal romance began with Twilight. (Supernatural love stories run back through gothic fiction, and YA vampire romance was in print before Twilight; that series' success expanded the subgenre commercially.)
+
 ## Questions
 
 ```yaml
@@ -58,6 +64,7 @@ Read key paranormal romance titles ('Twilight' series, 'Beautiful Creatures') an
 
 - question: Analyze how paranormal elements in a specific paranormal romance complicate or amplify the romantic relationship. What narrative tensions does the supernatural create that realistic romance wouldn't necessarily involve?
   type: short-answer
+  answer: In a vampire romance, for example, the partner's nature makes intimacy physically dangerous, immortality makes a shared future uncertain, and the need to hide that nature forces secrecy. These create obstacles of danger, incompatibility and power imbalance that a realistic romance would have to invent by other means.
   explanation: 'Your answer should identify specific supernatural elements and how they affect the romance. For example, if one partner is a vampire, literal danger becomes central: being with this person threatens the human partner''s mortality and safety. If they''re from different species/worlds, their futures are literally incompatible. If there''s power imbalance (predator/prey, immortal/mortal), relationship dynamics involve literal inequality. If one partner is bound by paranormal rules (can''t turn human, must hide identity), the relationship involves secrecy and incompleteness. These supernatural complications create narrative tensions: Can the romance work? What must the human partner sacrifice to be with the nonhuman partner? Can they build a future together when they have fundamentally different natures? Paranormal romance uses supernatural elements strategically to create romantic obstacles and complications that propel narrative.'
 ```
 

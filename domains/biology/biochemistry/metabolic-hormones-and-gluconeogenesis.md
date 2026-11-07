@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Insulin (fed state) promotes glucose uptake, glycolysis, fatty acid synthesis, and protein synthesis while inhibiting gluconeogenesis and lipolysis. Glucagon and epinephrine (fasted state) promote glycogenolysis and gluconeogenesis. Cortisol (stress) promotes proteolysis and gluconeogenesis. Each hormone acts on specific tissues via kinase cascades to alter enzyme phosphorylation state and gene expression.
 
+## How It's Best Learned
+Build a four-row table with one row per hormone and columns for receptor type, second messenger, main target tissues, and speed of action. Then trace one scenario hour by hour: a meal, an overnight fast, and a sudden fright. For each moment, name which hormone dominates and which enzymes in liver, muscle, and fat change state.
+
+## Common Misconceptions
+- Glucagon and epinephrine do the same job, so they act on the same tissues. (They share the cAMP-PKA pathway, but glucagon acts mainly on the liver, while epinephrine also acts on muscle and adipose tissue.)
+- Muscle glycogen breakdown during exercise raises blood glucose. (Muscle lacks glucose-6-phosphatase, so it keeps the glucose-6-phosphate from glycogen for its own use and cannot export it as free glucose; muscle adds to blood glucose only indirectly, when the liver turns released lactate into glucose.)
+- Cortisol raises blood sugar as fast as epinephrine. (Cortisol works through nuclear receptors that change gene expression, so its effects build over hours rather than minutes.)
+- Insulin's only job is to move glucose into cells. (Insulin also drives glycogen, fat, and protein synthesis and suppresses gluconeogenesis and lipolysis.)
+
 ## Questions
 
 ```yaml

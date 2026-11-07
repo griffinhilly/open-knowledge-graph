@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Ultraviolet photons from the host star drive chemical reactions in planetary atmospheres, creating complex reaction networks of radicals and secondary species. These photochemical products determine atmospheric opacity, spectroscopic features, and the stability of potential biosignature molecules like O₂ and CH₄.
 
+## How It's Best Learned
+Start with photon energy. Using E = hc/λ, a 240 nm photon carries about 5.2 eV, close to the O₂ bond energy of about 5.1 eV. Then write the four Chapman reactions and draw them as a loop of arrows between O₂, O, and O₃. Ask what happens to the loop if the star emits less near-UV or more far-UV.
+
+## Common Misconceptions
+- Photochemistry only breaks molecules apart. (The fragments react again and build new molecules. Ozone on Earth and complex hydrocarbons on Titan both form this way.)
+- Any UV photon can split any molecule it hits. (Each bond needs a minimum photon energy, so a molecule can be split only by wavelengths short enough to break it. O₂ needs light below about 240 nm.)
+- Ozone peaks at the top of the atmosphere because that is where UV is strongest. (High up, O₂ is too sparse and the three-body reaction that forms O₃ is slow. Lower down, the needed UV has already been absorbed, so ozone peaks in between.)
+- Radicals are present only in traces, so they barely affect the atmosphere. (Trace radicals such as OH set the lifetimes of many gases, including methane.)
+
 ## Questions
 
 ```yaml

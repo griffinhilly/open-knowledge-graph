@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Communities assemble through deterministic (environmental filtering, limiting similarity) and stochastic (dispersal, drift) processes. Environmental filtering removes species unable to tolerate local conditions; limiting similarity prevents too-similar niches from coexisting; stochastic dynamics maintain diversity despite deterministic forces. Assembly rules identify predictable principles, but communities often appear idiosyncratic due to historical contingency. Current composition results from local and regional biogeographic processes.
 
+## How It's Best Learned
+Build a null model by hand. Write a trait value for each of 20 regional species on cards, then draw 5 at random twenty times and record the trait range of each draw. Compare the observed local community's range with that spread of random ranges. A much narrower range suggests filtering, and a wider, evenly spaced set suggests limiting similarity. Then discuss how priority effects could change the result.
+
+## Common Misconceptions
+- Trait clustering proves environmental filtering. (Filtering produces clustering, but competition that removes weaker competitors sharing certain traits can also produce it. Ecologists use null models and other evidence to tell them apart.)
+- If two sites have the same environment, they should end up with the same species. (Dispersal limitation, arrival order and drift can lead identical environments to different communities.)
+- Neutral theory claims species have no real differences. (It asks how many community patterns can be reproduced if species are treated as equivalent, and it serves as a baseline for testing niche effects.)
+
 ## Questions
 
 ```yaml

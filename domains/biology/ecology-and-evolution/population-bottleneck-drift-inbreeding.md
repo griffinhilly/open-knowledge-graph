@@ -29,6 +29,14 @@ status: validated
 ## Core Idea
 Population bottlenecks (sudden reductions in size) accelerate genetic drift, causing random loss of alleles and inbreeding. After a bottleneck, heterozygosity decreases and deleterious mutations may drift to fixation. Recovery depends on mutation rate and selection strength; some lineages never fully regain lost variation. This is critical for conservation of endangered species.
 
+## How It's Best Learned
+Fill a jar with 100 beads in several colors, two of them rare, and draw 10 as the survivors. Count how many colors remain, then repeat the draw many times. Then compare with the formula for expected heterozygosity, which falls by a factor of (1 − 1/2N) each generation. Your 10 beads are 10 gene copies, so N = 5, and one generation keeps about 90% of it. Rare colors, by contrast, vanish from many draws.
+
+## Common Misconceptions
+- When a population's numbers recover, its genetic diversity comes back with them. (Lost alleles return only through new mutations or immigrants from other populations. Census size can rebound within decades while diversity stays low.)
+- A bottleneck removes allele numbers and heterozygosity at the same pace. (Rare alleles are lost first, so the count of alleles drops sharply. Heterozygosity depends mostly on common alleles and falls more slowly unless the bottleneck is very small or lasts many generations.)
+- Inbreeding only happens when relatives seek each other out as mates. (In a small population, nearly everyone shares recent ancestors, so even random mating raises homozygosity.)
+
 ## Questions
 
 ```yaml
@@ -60,7 +68,7 @@ Population bottlenecks (sudden reductions in size) accelerate genetic drift, cau
 - question: "During a population bottleneck, rare alleles are disproportionately likely to be lost compared to common alleles."
   type: true-false
   answer: true
-  explanation: "A bottleneck samples a small number of individuals from the larger population. Rare alleles — those present in only a handful of individuals — are statistically unlikely to be represented in that small sample. Common alleles, by contrast, are present in many individuals and are much more likely to appear in any random subset. This is why bottlenecks consistently erode allelic diversity (the number of alleles) more severely than heterozygosity (the frequency of the most common alleles), and why rare-allele loss is one of the first genetic signatures of a past bottleneck."
+  explanation: "A bottleneck samples a small number of individuals from the larger population. Rare alleles — those present in only a handful of individuals — are statistically unlikely to be represented in that small sample. Common alleles, by contrast, are present in many individuals and are much more likely to appear in any random subset. This is why bottlenecks consistently erode allelic diversity (the number of alleles) more severely than heterozygosity (which depends mostly on the common alleles), and why rare-allele loss is one of the first genetic signatures of a past bottleneck."
 
 - question: "Why do biologists argue that preventing population bottlenecks is far more effective for conservation than trying to restore genetic diversity after one has occurred?"
   type: short-answer

@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Feudalism was built on explicit mutual obligations: the lord promised protection and land; the vassal promised loyalty, military service, and counsel. Unlike modern contracts, these bonds were personal and sacred, sealed by ritual homage. When either party violated their obligations, conflict erupted—a principle that eventually produced charters like Magna Carta, which attempted to codify and limit feudal rights.
 
+## How It's Best Learned
+Make a two-column ledger headed "lord owes" and "vassal owes," and fill it with protection, justice, and maintenance on one side and service, counsel, and aids on the other. Then read a few clauses of Magna Carta, such as those on aids and fair judgment, and match each clause to the ledger line the barons said King John had broken.
+
+## Common Misconceptions
+- The vassal owed everything and the lord owed nothing. (The lord owed protection, justice, and land or income. A lord who failed in these could be formally defied by his vassal.)
+- Feudal agreements were written contracts like modern ones. (Most were created by a spoken oath and the ritual of homage before witnesses. Writing became more common later, as with Magna Carta.)
+- The terms were the same everywhere in medieval Europe. (Service, aids, and inheritance rules varied by region and changed over time. The ledger above is a general pattern, not a single code.)
+
 ## Questions
 
 ```yaml

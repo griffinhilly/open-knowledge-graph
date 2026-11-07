@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Giant impacts deposit enormous energy into planetary surfaces and atmospheres, causing rapid vaporization of volatiles and atmospheric erosion. The cumulative effect of early bombardment can strip primordial atmospheres (especially from small bodies), deliver volatiles from planetesimals, and fundamentally alter atmospheric composition and planetary habitability.
 
+## How It's Best Learned
+Use the tangent-plane picture. A mid-sized impact can blow off the air above a plane touching the surface at the impact point, a fraction of about H/(2R) of the atmosphere. For Earth (H ≈ 8 km, R ≈ 6,371 km) that is about 0.06%. For Mars (H ≈ 11 km, R ≈ 3,390 km) it is about 0.16%. Then sort impactors by size into net adders and net removers.
+
+## Common Misconceptions
+- Impacts only remove atmosphere. (Many small impacts release more gas from the impactor and target than they blow away. Whether an impact adds or removes gas depends on its size, speed, and the planet.)
+- Mars lost more atmosphere to impacts only because it was hit more often. (Mars's lower escape velocity and its smaller radius mean each impact can remove a larger fraction of its atmosphere.)
+- An impact can only remove the air directly above the crater. (In a giant impact, shock waves pass through the whole planet and can launch gas far from the impact site.)
+
 ## Questions
 
 ```yaml

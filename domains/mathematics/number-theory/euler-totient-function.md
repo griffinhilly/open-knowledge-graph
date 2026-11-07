@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Euler's totient function φ(n) counts the positive integers up to n that are coprime to n. This function is multiplicative with a closed form φ(n) = n∏_{p|n}(1−1/p), making it central to many number-theoretic algorithms, cryptographic systems, and applications of Fermat's Little Theorem.
 
+## How It's Best Learned
+Derive the product formula from inclusion-exclusion on n = 60 = 2² · 3 · 5. Remove the multiples of 2, 3 and 5 (30, 20, 12), add back the multiples of 6, 10 and 15 (10, 6, 4), and remove the multiples of 30 (2). The count is 16, matching 60 · (1/2) · (2/3) · (4/5) = 16.
+
+## Common Misconceptions
+- φ(n) counts the primes below n. (It counts integers from 1 to n that share no factor with n. For n = 10 these are 1, 3, 7 and 9, so 1 and the composite 9 are included.)
+- For a prime power, φ(p^k) = p^k − 1. (Only the multiples of p are excluded, and there are p^(k−1) of them, so φ(p^k) = p^k − p^(k−1). For example, φ(8) = 4.)
+- Different numbers have different totients, so φ(n) pins down n. (Many inputs share a value: φ(3) = φ(4) = φ(6) = 2.)
+
 ## Questions
 
 ```yaml

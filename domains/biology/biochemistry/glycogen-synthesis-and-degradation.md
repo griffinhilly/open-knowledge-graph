@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Glycogen synthase and phosphorylase are reciprocally regulated by phosphorylation: glycogen synthase is inactivated by PKA-mediated phosphorylation during fasted state, while phosphorylase kinase phosphorylates phosphorylase to activate glycogenolysis. Both enzymes respond to allosteric signals (glucose-6-P for synthase, AMP for phosphorylase) reflecting energy status.
 
+## How It's Best Learned
+Make a 2×2 grid with glycogen synthase and phosphorylase as rows and phosphorylated and dephosphorylated as columns. Mark each cell active or inactive. Then run three cases through the grid: a fasting liver cell with glucagon, a sprinting muscle cell with high AMP and Ca²⁺, and a liver cell after a meal with insulin. For each, name the kinase or phosphatase that moved the enzymes between columns.
+
+## Common Misconceptions
+- Phosphorylation switches enzymes on. (The same modification inactivates glycogen synthase and activates glycogen phosphorylase.)
+- Muscle glycogen breakdown needs a hormone signal to start. (AMP activates phosphorylase directly, and Ca²⁺ released during contraction activates phosphorylase kinase.)
+- Insulin promotes glycogen synthesis by adding phosphates to glycogen synthase. (Insulin acts largely through protein phosphatase 1, which removes phosphates, activating synthase and inactivating phosphorylase.)
+- Liver and muscle phosphorylase respond to the same signals. (Muscle phosphorylase responds strongly to AMP, while liver phosphorylase is inhibited by glucose and responds mainly to glucagon.)
+
 ## Questions
 
 ```yaml

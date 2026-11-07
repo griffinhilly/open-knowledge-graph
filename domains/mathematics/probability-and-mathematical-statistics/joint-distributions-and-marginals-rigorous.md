@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The joint distribution of (X, Y) is a probability measure on ℝ² induced by the random vector. Marginal distributions are obtained by integrating over the other variable. Dependence structure is encoded in the joint distribution; independence means the joint factors as a product of marginals.
 
+## How It's Best Learned
+Draw the support before integrating. For f(x, y) = 2 on the triangle 0 < x < y < 1, shade the triangle and read off the y-limits for each fixed x. That gives f_X(x) = 2(1 − x) and f_Y(y) = 2y. Multiply them to get 4(1 − x)y, which is not 2, so X and Y are dependent. Then write two different 2×2 tables with the same row and column totals.
+
+## Common Misconceptions
+- If the formula for f(x, y) splits as g(x)h(y), then X and Y are independent. (The support must also be a product set. The density 2 on 0 < x < y < 1 is constant on its support, yet X and Y are dependent because the triangle is not a rectangle.)
+- To marginalize, integrate the other variable over the same fixed range for every x. (When the support is not a rectangle, the limits depend on x. In the triangle example, y runs from x to 1.)
+- If X and Y each have a normal marginal, then (X, Y) is bivariate normal. (Let Y = SX with S = ±1 by a fair coin flip, independent of X ~ N(0, 1). Then Y is N(0, 1), but X + Y = 0 with probability 1/2, so the pair is not bivariate normal.)
+
 ## Questions
 
 ```yaml

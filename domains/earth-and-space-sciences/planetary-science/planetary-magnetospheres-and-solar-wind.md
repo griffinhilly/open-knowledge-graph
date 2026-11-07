@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Magnetospheres are magnetic field envelopes around planets that deflect charged particles from stellar wind. The magnetosphere-solar wind boundary (magnetopause) location is set by pressure balance, and its orientation and structure depend on planetary rotation, field strength, and solar wind intensity.
 
+## How It's Best Learned
+Sketch Earth's magnetosphere in side view, labeling the bow shock, magnetopause, tail lobes and plasma sheet. Then work the pressure balance: a dipole field falls off as 1/r³, so magnetic pressure falls as 1/r⁶ and the standoff distance scales as P^(−1/6). Doubling solar wind pressure moves the magnetopause from about 10 to about 8.9 Earth radii.
+
+## Common Misconceptions
+- A magnetosphere is a sealed wall that keeps all solar wind particles out. (Magnetic reconnection lets solar wind plasma and energy in, most strongly when the interplanetary field points opposite to the planet's field at the dayside boundary.)
+- Doubling the solar wind pressure would halve the size of the magnetosphere. (The standoff distance scales with pressure to the −1/6 power, so doubling the pressure moves the boundary in by only about 11 percent.)
+- A magnetosphere is a sphere of field centered on the planet. (The solar wind compresses it on the dayside and stretches it into a long tail on the nightside.)
+
 ## Questions
 
 ```yaml

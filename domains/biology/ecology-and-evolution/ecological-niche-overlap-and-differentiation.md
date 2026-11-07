@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Species with overlapping niches compete for shared resources; overlap degree determines competition intensity. Species coexist when niches differentiate sufficiently, allowing each to use resources the competitor uses less efficiently. Niche overlap spans multiple dimensions (food, space, time, microhabitat), and coexisting species typically show niche partitioning. Understanding niche dynamics explains community assembly and predicts competitive outcomes.
 
+## How It's Best Learned
+Compute a simple overlap index: add up the smaller of the two species' proportions in each resource class. If species A takes 0.6 small, 0.3 medium and 0.1 large prey, and species B takes 0.1, 0.4 and 0.5, overlap is 0.1 + 0.3 + 0.1 = 0.5. Then add a second axis, such as time of day, and discuss how low overlap there can offset high overlap in diet.
+
+## Common Misconceptions
+- Any niche overlap leads to competitive exclusion. (Species can coexist with partial overlap when each limits its own growth more than it limits the other's.)
+- High measured overlap proves the species are competing hard. (Overlap raises competition when the shared resource is in short supply. When food is plentiful, species can share it with little effect on each other.)
+- Niche differentiation happens along a single resource axis. (Species often differ on several axes at once, such as food size, microhabitat and activity time.)
+
 ## Questions
 
 ```yaml

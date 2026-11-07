@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Ecosystem stability includes resistance (maintaining function despite perturbation) and resilience (returning to original state). High-diversity ecosystems often show higher stability through functional redundancy and complementarity. Stability can collapse discontinuously at tipping points—thresholds where alternative states become favored. These transitions are often difficult to reverse (hysteresis). Understanding tipping points is crucial for predicting ecosystem responses to climate change.
 
+## How It's Best Learned
+Trace a hysteresis loop with a pencil on a graph of lake state against nutrient loading, using made-up units. Raise loading from 0 and stay on the clear branch until it ends at 6, then drop to the turbid branch. Now lower loading. The lake stays turbid until loading falls to 3, where the turbid branch ends. The gap between 6 and 3 is the hysteresis, and naming the feedbacks that hold each state explains it.
+
+## Common Misconceptions
+- Removing the stressor will return the ecosystem to its old state. (Once a self-reinforcing alternative state forms, the stressor may need to fall well below the original threshold, or the feedbacks must be broken directly.)
+- An ecosystem that has shown little change under rising stress is far from a tipping point. (A system can look steady while its resilience shrinks, and then shift abruptly when the threshold is crossed.)
+- Every sudden ecosystem change is a tipping point. (A large one-time disturbance can also cause abrupt change. A tipping point implies feedbacks that hold the system in a new state.)
+
 ## Questions
 
 ```yaml
@@ -62,6 +70,7 @@ Ecosystem stability includes resistance (maintaining function despite perturbati
 - question: "Explain why two ecosystems with identical species richness might differ substantially in their stability, and what this reveals about the limits of using species count alone as a stability predictor."
   type: short-answer
   answer: "Stability depends on functional composition, not just species number. Two ecosystems with equal richness can differ in functional redundancy (how many species perform each ecological role) and functional complementarity (how completely species partition the available niche space). If one high-richness ecosystem has many species performing the same function, it has high redundancy and will resist losing that function to perturbation. If another has equal richness but each species performs a unique function, losing any species eliminates that function despite high richness. Additionally, resistance and resilience are distinct and independently influenced by community composition — the same species may enhance resistance but contribute little to resilience or vice versa. Species count is a rough proxy; what matters is which species are present and what functional roles they fill."
+  explanation: "Richness counts species but says nothing about the traits they carry. Stability under stress depends on whether each ecological function is backed by several species, and on whether those species respond differently to the same stress, so that some persist when others decline. Two communities with the same count can differ sharply on both points. That is why ecologists measure functional traits and roles in addition to counting species when they predict how an ecosystem will hold up."
 ```
 
 ## Explainer

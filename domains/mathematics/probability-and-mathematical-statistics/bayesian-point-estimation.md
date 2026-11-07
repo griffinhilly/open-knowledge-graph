@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Common Bayesian point estimators are the posterior mean (minimizes squared error loss), posterior median (minimizes absolute error loss), and posterior mode (maximizes posterior). The choice depends on the loss function. Bayesian estimators naturally incorporate prior information and adapt to the posterior distribution.
 
+## How It's Best Learned
+Take one skewed posterior and compute all three estimates from it. With a Beta(2, 2) prior and 3 successes in 10 trials, the posterior is Beta(5, 9): mode 4/12 ≈ 0.333, mean 5/14 ≈ 0.357, median between them. Then, on a grid of candidate values, compute the expected squared, absolute and 0-1 losses and find which candidate wins each one.
+
+## Common Misconceptions
+- The MAP is the true Bayesian answer, and the mean and median are approximations to it. (Each is the exact minimizer of expected loss for its own loss function. None is more correct without a loss.)
+- Like the MLE, the posterior mode carries over under a change of parameter. (A nonlinear reparametrization multiplies the density by a Jacobian, which can move the mode. The posterior median does carry over under increasing transformations.)
+- With a flat prior, every Bayesian point estimate equals the MLE. (A flat prior makes the MAP equal the MLE. The posterior mean and median generally differ; with 7 heads in 10 flips the mean is 8/12, not 7/10.)
+
 ## Questions
 
 ```yaml

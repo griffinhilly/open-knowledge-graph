@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 An organism's fundamental niche is the range of conditions and resources it could theoretically use without competition. Its realized niche is what it actually occupies given biotic interactions. Niche differentiation allows multiple species to coexist by using different resources or microhabitats.
 
+## How It's Best Learned
+Draw two axes, such as temperature and prey size, and outline the region where a species can persist alone: that is its fundamental niche. Overlay a stronger competitor's region and shade away the overlap it wins. What is left is the realized niche. Then read the barnacle removal experiment the same way: the zone a species fills once its competitor is gone shows part of its fundamental niche.
+
+## Common Misconceptions
+- A niche is the place where a species lives. (That place is its habitat. The niche is the set of conditions it tolerates and the resources it uses, which together describe how it makes its living.)
+- Where a species is found in nature shows its fundamental niche. (Field distributions show the realized niche. Revealing the fundamental niche takes removal experiments, transplants, or tolerance tests.)
+- Two species that share any resource will drive one another out. (Competitive exclusion applies to species with identical niches. Species that overlap partly can coexist if they differ enough, for example in foraging height or prey size.)
+
 ## Questions
 
 ```yaml
@@ -53,8 +61,8 @@ An organism's fundamental niche is the range of conditions and resources it coul
 
 - question: "A species' realized niche is generally smaller than its fundamental niche."
   type: true-false
-  answer: false
-  explanation: "In most cases the realized niche is a subset of the fundamental niche, because biotic interactions (competition, predation) exclude the species from parts of its tolerable range. However, mutualistic interactions can expand a species' realized niche *beyond* its fundamental niche — enabling it to persist in conditions it could not survive alone. For example, a plant that depends on a mycorrhizal fungus for nutrient uptake may colonize nutrient-poor soils it could not otherwise inhabit. The general rule is that competition contracts the realized niche; mutualism can expand it."
+  answer: true
+  explanation: "True as a general rule. In most cases the realized niche is a subset of the fundamental niche, because biotic interactions (competition, predation) exclude the species from parts of its tolerable range. However, mutualistic interactions can expand a species' realized niche *beyond* its fundamental niche — enabling it to persist in conditions it could not survive alone. For example, a plant that depends on a mycorrhizal fungus for nutrient uptake may colonize nutrient-poor soils it could not otherwise inhabit. The general rule is that competition contracts the realized niche; mutualism can expand it."
 
 - question: "Invasive species typically occupy a narrower ecological niche in their introduced range than in their native range, because they lack the co-evolutionary history to exploit new resources effectively."
   type: true-false

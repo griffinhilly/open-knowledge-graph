@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Secondary succession follows disturbance (fire, logging, abandonment) when soil and propagules remain. Recovery is faster than primary succession because soil structure and nutrients are intact. Early successional species are fast-growing, dispersing, and competitively weak; late-successional species are slow-growing and shade-tolerant. The sequence is less deterministic than primary succession and is influenced by disturbance intensity and landscape context.
 
+## How It's Best Learned
+Draw a timeline for an abandoned farm field: annual weeds, then perennials and shrubs, then pines, then hardwoods. Under each stage, note seed size, dispersal method, and shade tolerance. Then redraw the timeline for three variants: a light surface fire, a severe fire that kills the seed bank, and an isolated clearing far from any forest. Mark which stages speed up, stall, or start over.
+
+## Common Misconceptions
+- After a disturbance, the same community that was there before will return. (The outcome depends on disturbance severity, nearby seed sources, and which species arrive first. Invasive species can divert recovery toward a different community.)
+- Early-successional species are weaker species that lose out in the end. (They trade competitive ability for fast growth and wide dispersal. They persist across a region by colonizing each new disturbed patch.)
+- Disturbance only damages ecosystems. (Many communities depend on periodic disturbance such as fire. It opens space for species that need light and keeps a mix of successional stages across a region.)
+
 ## Questions
 
 ```yaml

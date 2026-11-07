@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 The Investiture Controversy (1076–1122) was a conflict between the Holy Roman Emperor and the Pope over the right to appoint and invest bishops, reflecting deeper tensions over Church independence and secular authority. Pope Gregory VII excommunicated Emperor Henry IV, producing the famous scene at Canossa where the emperor sought papal forgiveness. The eventual compromise (Concordat of Worms, 1122) acknowledged papal spiritual authority while allowing secular rulers significant say in episcopal elections.
 
+## How It's Best Learned
+Build a timeline from 1076 to 1122 with four marks: the excommunication of Henry IV, Canossa in 1077, Henry's later march on Rome, and the Concordat of Worms. At each mark, note who held the advantage and why. Then draw the Concordat as two ceremonies for one bishop: ring and staff for the spiritual office, scepter for the lands. Ask what each side kept.
+
+## Common Misconceptions
+- Canossa was the pope's final victory. (Henry IV recovered, marched on Rome, set up an antipope, and drove Gregory VII into exile. The dispute ran on until 1122.)
+- The dispute was only about ceremony. (Bishops controlled large estates and served as royal administrators. Whoever chose them gained real political and military resources.)
+- The Concordat of Worms gave the pope complete control over bishops. (It split the ceremony in two. The emperor kept investiture with the lands and kept influence over elections in Germany.)
+
 ## Questions
 
 ```yaml

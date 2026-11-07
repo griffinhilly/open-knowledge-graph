@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Density-dependent factors act more strongly as population size increases, creating negative feedback that stabilizes populations near carrying capacity. Examples include resource depletion, disease spread, waste accumulation, and increased competition. In contrast, density-independent factors (weather, disasters) affect populations regardless of density and do not regulate to equilibrium.
 
+## How It's Best Learned
+Plot per-capita growth rate against population size. With the logistic rule r(1 − N/K), r = 0.5 and K = 1,000, the rate is 0.45 at N = 100, 0.25 at 500, 0.05 at 900 and −0.05 at 1,100. The downward slope is density dependence. Then add a frost that kills 30% at every size. It lowers the whole line by the same amount and does not change its slope.
+
+## Common Misconceptions
+- A factor that kills many individuals must be density-dependent. (What matters is whether the proportion killed changes with density. A blizzard that kills 30% at any herd size is density-independent, however large the toll.)
+- Weather effects are always density-independent. (Weather can act in a density-dependent way when shelter or food reserves are limited, so a larger share of a crowded population is exposed.)
+- Smaller populations always grow faster per individual. (At very low density, some species suffer Allee effects, such as trouble finding mates, so per-capita growth falls instead of rising.)
+
 ## Questions
 
 ```yaml

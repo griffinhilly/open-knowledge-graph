@@ -21,7 +21,16 @@ status: validated
 # Pyruvate: The Metabolic Crossroads
 
 ## Core Idea
-Pyruvate stands at the intersection of carbohydrate, lipid, and amino acid metabolism. It can be oxidized to acetyl-CoA (citric acid cycle), converted to oxaloacetate (gluconeogenesis), carboxylated to form fatty acids and amino acids, or transaminated to alanine. Its fate depends on energy status and hormonal signals.
+Pyruvate stands at the intersection of carbohydrate, lipid, and amino acid metabolism. It can be oxidized to acetyl-CoA (citric acid cycle or fatty acid synthesis), carboxylated to oxaloacetate (gluconeogenesis and refilling the citric acid cycle), reduced to lactate, or transaminated to alanine. Its fate depends on energy status and hormonal signals.
+
+## How It's Best Learned
+Draw pyruvate in a circle with four exits: acetyl-CoA, oxaloacetate, lactate, and alanine. Next to each exit, write its enzyme and the signal that opens it. Then work three scenarios: liver after a meal, liver during a fast, and muscle during a sprint. For each, mark which exits are open and explain why using acetyl-CoA, NADH, and hormone levels.
+
+## Common Misconceptions
+- Pyruvate comes only from glucose. (Lactate, alanine, and several other amino acids can also be converted to pyruvate.)
+- Cells make lactate only when oxygen runs out. (Red blood cells, which lack mitochondria, make lactate all the time, and other cells make some whenever glycolysis outpaces NADH reoxidation.)
+- Lactate is a waste product that stays in muscle and causes next-day soreness. (Lactate leaves the muscle and is reused, for example by the liver to make glucose in the Cori cycle; it is cleared well before delayed soreness appears.)
+- Pyruvate dehydrogenase and pyruvate carboxylase are controlled separately. (Acetyl-CoA links them: it inhibits pyruvate dehydrogenase and activates pyruvate carboxylase, so a rise in acetyl-CoA shifts pyruvate toward oxaloacetate.)
 
 ## Questions
 

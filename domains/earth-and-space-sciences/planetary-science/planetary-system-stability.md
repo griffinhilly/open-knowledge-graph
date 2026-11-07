@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Planetary systems are fundamentally chaotic—minute perturbations can lead to radically different outcomes over billion-year timescales. Stability depends on orbital spacing, mass ratios, and proximity to resonances. Some systems remain stable indefinitely; others destabilize on Gyr timescales, triggering planet ejections or collisions. Numerical simulations and analytical stability criteria predict long-term evolution.
 
+## How It's Best Learned
+Compute adjacent spacings in mutual Hill radii for two solar system pairs, taking a as the mean of the two semi-major axes. Venus and Earth come out near 26, and Jupiter and Saturn near 8. Then plot one planet's eccentricity against time in a run of a tightly packed system. It drifts slowly for a long time, then jumps once orbits start to cross.
+
+## Common Misconceptions
+- If one simulation shows a system surviving 5 billion years, the system will survive that long. (A single run is one sample of a chaotic system. Stability is reported as the fraction of an ensemble of runs that survives.)
+- When a system goes unstable, it falls apart gradually over the whole instability timescale. (Eccentricities can grow slowly for a long time, but once orbits cross, close encounters, ejections or collisions follow quickly.)
+- Resonances destabilize planets because they make gravitational kicks add up. (Some resonances protect planets by keeping them from ever meeting at close range. Neptune and Pluto in their 3:2 resonance are an example.)
+
 ## Questions
 
 ```yaml

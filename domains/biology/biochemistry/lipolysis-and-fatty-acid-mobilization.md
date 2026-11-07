@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Lipolysis is the breakdown of triglycerides into glycerol and free fatty acids, catalyzed by hormone-sensitive lipase (HSL) in adipose tissue. Epinephrine and glucagon activate HSL via PKA-mediated phosphorylation; insulin inhibits it. Released fatty acids bind albumin and are transported to liver and muscle for oxidation.
 
+## How It's Best Learned
+Draw an adipocyte with a receptor at the membrane and a lipid droplet coated in perilipin. Trace the signal from receptor to cAMP to PKA, and mark where insulin's PDE3B cuts it off. On the droplet, break one triglyceride step by step with ATGL, HSL and MGL. Then follow the four products out of the cell: three fatty acids on albumin and one glycerol to the liver.
+
+## Common Misconceptions
+- Hormone-sensitive lipase removes all three fatty acids. (ATGL removes the first, HSL mainly the second, and monoacylglycerol lipase the third.)
+- Activating HSL is enough to start lipolysis. (For full hormone-stimulated lipolysis, perilipin on the droplet surface must also be phosphorylated, which gives the lipases access to the triglyceride.)
+- Lipolysis starts only when a stimulating hormone rises. (A fall in insulin removes the brake on its own, and stimulating hormones then raise the rate further.)
+- Adipocytes reuse the glycerol they release. (Adipocytes have little glycerol kinase, so most glycerol travels to the liver.)
+
 ## Questions
 
 ```yaml
@@ -35,7 +44,7 @@ Lipolysis is the breakdown of triglycerides into glycerol and free fatty acids, 
     - "Glucagon → direct binding to HSL → conformational change → fatty acid release"
     - "Glucagon → phosphodiesterase activation → cAMP rise → PKA → fatty acid release"
   answer: 1
-  explanation: "Glucagon binds a G-protein-coupled receptor on adipocytes, activating adenylyl cyclase, which raises cAMP. Elevated cAMP activates protein kinase A (PKA), which phosphorylates both HSL (activating it) and perilipin (exposing the lipid droplet surface). Together these allow HSL to access and hydrolyze triglycerides. Option D is wrong because glucagon activates phosphodiesterase would degrade cAMP — the opposite of what happens. Option C is wrong because glucagon never binds HSL directly."
+  explanation: "Glucagon binds a G-protein-coupled receptor on adipocytes, activating adenylyl cyclase, which raises cAMP. Elevated cAMP activates protein kinase A (PKA), which phosphorylates both HSL (activating it) and perilipin (exposing the lipid droplet surface). Together these allow HSL to access and hydrolyze triglycerides. Option D is wrong because activating phosphodiesterase would degrade cAMP — the opposite of what happens. Option C is wrong because glucagon never binds HSL directly."
 
 - question: "Why must free fatty acids travel through the bloodstream bound to albumin rather than freely dissolved?"
   type: multiple-choice

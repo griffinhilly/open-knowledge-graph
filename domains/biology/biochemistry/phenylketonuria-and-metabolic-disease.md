@@ -17,7 +17,16 @@ status: validated
 # Phenylketonuria and Metabolic Disease
 
 ## Core Idea
-Phenylketonuria (PKU) results from deficiency in phenylalanine hydroxylase, causing accumulation of phenylalanine and phenylpyruvate. High blood phenylalanine competitively inhibits tryptophan uptake, reducing serotonin synthesis and causing intellectual disability, light skin, and a musty odor. Early detection and dietary phenylalanine restriction prevent symptoms.
+Phenylketonuria (PKU) results from deficiency in phenylalanine hydroxylase, causing accumulation of phenylalanine and phenylpyruvate. High blood phenylalanine competitively inhibits tryptophan and tyrosine uptake into the brain, reducing serotonin and dopamine synthesis. Untreated PKU causes intellectual disability, light skin, and a musty odor. Early detection and dietary phenylalanine restriction prevent symptoms.
+
+## How It's Best Learned
+Draw the normal route, phenylalanine → tyrosine → dopamine and melanin, then block the hydroxylase step. Put an up arrow on everything that builds up (phenylalanine, phenylpyruvate, phenylacetate) and a down arrow on everything that falls. Add a blood-brain barrier transporter shared by phenylalanine, tyrosine, and tryptophan. Then predict what each treatment changes: low-phenylalanine diet, tryptophan supplements, or BH₄.
+
+## Common Misconceptions
+- People with PKU must remove all phenylalanine from their diet. (The body cannot make phenylalanine and needs some for growth, so the diet limits it to a measured amount rather than eliminating it.)
+- Tyrosine never needs to come from food because the body makes it from phenylalanine. (In PKU that conversion is blocked, so tyrosine becomes a dietary requirement and medical formulas supply it.)
+- Once a child's brain has developed, a person with PKU can safely stop the diet. (High phenylalanine still affects brain function in adults, and current practice is lifelong management.)
+- A baby can only be harmed by PKU if the baby has the disorder. (High phenylalanine in a pregnant woman with poorly controlled PKU can damage a fetus that does not itself have PKU.)
 
 ## Questions
 

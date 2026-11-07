@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Exoplanet characterization combines transit photometry (radius), radial-velocity (mass), direct imaging (young massive planets), and spectroscopy to determine atmospheric composition, cloud properties, temperature, and surface gravity. Mass and radius determine planet type (terrestrial, super-Earth, sub-Neptune, gas giant) and infer internal structure.
 
+## How It's Best Learned
+Compute bulk densities in Earth units with ρ = 5.5 g/cm³ × (M/M⊕) / (R/R⊕)³. A planet of 4 M⊕ and 1.5 R⊕ comes out near 6.5 g/cm³, which fits rock. A planet of 16 M⊕ and 4 R⊕ comes out near 1.4 g/cm³, which needs a thick envelope. Then show that a 10% radius error becomes about a 30% density error.
+
+## Common Misconceptions
+- Radial velocity measurements give a planet's true mass. (Radial velocity alone gives a minimum mass, M sin i. The transit supplies the orbital inclination needed for the true mass.)
+- A transit measures the planet's radius directly. (The transit depth gives the ratio of planet radius to star radius. Any error in the star's radius carries straight into the planet's radius.)
+- Two planets with the same mass and radius must have the same composition. (Different interiors can match the same mass and radius. A water-rich world and a rocky core with a thin hydrogen envelope can look alike in bulk density.)
+
 ## Questions
 
 ```yaml
@@ -51,7 +59,7 @@ Exoplanet characterization combines transit photometry (radius), radial-velocity
 - question: "Combining transit photometry (radius) with radial-velocity measurements (mass) for the same planet allows astronomers to calculate bulk density, which can distinguish rocky planets from gas-dominated ones."
   type: true-false
   answer: true
-  explanation: "True — this is the foundational characterization technique. Transit depth gives the planet-to-star radius ratio; knowing the star's radius yields the planet's radius. Radial velocity gives the planet's minimum mass (and true mass when the orbital inclination is known from the transit). Dividing mass by volume gives bulk density. A density near 5.5 g/cm³ implies a rocky, Earth-like composition; below 2 g/cm³ implies substantial gas or ice. This is how the exoplanet 'radius valley' was established: planets near 1.5–2 R⊕ show a bimodal density distribution."
+  explanation: "True — this is the foundational characterization technique. Transit depth gives the planet-to-star radius ratio; knowing the star's radius yields the planet's radius. Radial velocity gives the planet's minimum mass (and true mass when the orbital inclination is known from the transit). Dividing mass by volume gives bulk density. A density near 5.5 g/cm³ implies a rocky, Earth-like composition; below 2 g/cm³ implies substantial gas or ice. The exoplanet 'radius valley' itself was found from planet sizes alone: planets near 1.5–2 R⊕ are relatively rare."
 
 - question: "Transmission spectroscopy detects atmospheric molecules by measuring light emitted directly by the planet's atmosphere during transit."
   type: true-false

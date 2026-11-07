@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 Troubadours were poet-musicians (12th–13th centuries) from southern France who composed songs and poetry celebrating courtly love—a refined, often unrequited devotion to a lady of higher rank. Courtly love literature idealized women while maintaining feudal hierarchy and married fidelity, creating complex emotional territories. Troubadour traditions influenced European literature profoundly and represented a cultural flowering in a feudal warrior society.
 
+## How It's Best Learned
+Read one canso in a facing-page translation, such as Bernart de Ventadorn's "Can vei la lauzeta mover." Underline every word borrowed from feudal life: service, homage, reward, mercy, and *midons*, the masculine "my lord" used for the lady. Then read one alba next to it. Compare how each song handles desire and how it treats the lady's husband or the watchman.
+
+## Common Misconceptions
+- Troubadours were wandering minstrels who sang for coins. (Troubadours were composers, and many were nobles, including William IX, Duke of Aquitaine. Hired performers called jongleurs often sang their songs.)
+- All troubadours were men. (Women troubadours, the trobairitz, such as the Comtessa de Dia, also composed songs.)
+- The troubadours called their ideal "courtly love." (They usually spoke of *fin'amor*. The term "courtly love" was popularized by the French scholar Gaston Paris in 1883.)
+- Troubadours wrote in French. (They wrote in Occitan, the Romance language of southern France. Northern trouvères wrote in Old French.)
+
 ## Questions
 
 ```yaml
@@ -46,7 +55,7 @@ Troubadours were poet-musicians (12th–13th centuries) from southern France who
 - question: "Troubadour courtly love literature represented a simple celebration of romantic love and had little connection to the social and political structures of medieval courts."
   type: true-false
   answer: false
-  explanation: "Troubadour literature was deeply embedded in medieval court culture and feudal social structures. The genre's entire emotional vocabulary — service, vassalage, submission, hierarchy — was drawn from feudal relations. The choice of a married noblewoman as beloved was not incidental but structurally tied to aristocratic marriage (which was political, not romantic). The courts where troubadours performed were political and cultural institutions. The Albigensian Crusade's destruction of the southern French nobility ended troubadour culture, demonstrating how thoroughly it was tied to specific social conditions."
+  explanation: "Troubadour literature was deeply embedded in medieval court culture and feudal social structures. The genre's entire emotional vocabulary — service, vassalage, submission, hierarchy — was drawn from feudal relations. The choice of a married noblewoman as beloved was not incidental but structurally tied to aristocratic marriage (which was political, not romantic). The courts where troubadours performed were political and cultural institutions. The Albigensian Crusade's destruction of the southern French nobility hastened the decline of troubadour culture, demonstrating how thoroughly it was tied to specific social conditions."
 
 - question: "The poetic conventions invented by troubadours had no lasting influence on European literary tradition after the 13th century."
   type: true-false

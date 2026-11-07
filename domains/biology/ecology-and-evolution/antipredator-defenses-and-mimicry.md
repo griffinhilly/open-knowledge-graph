@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Prey evolve defenses including physical structures (armor, spines), behavior (fleeing, hiding), and chemical toxins. Aposematism—warning coloration signaling toxicity—evolves when predators learn to avoid defended prey. Batesian mimicry occurs when palatable species mimic unpalatable species for protection; Müllerian mimicry occurs when multiple toxic species converge on similar warning signals. These strategies reflect strong predation selection.
 
+## How It's Best Learned
+Run a predator-learning simulation with colored cards: some marked "toxic" (bad taste) and some "palatable," all sharing one pattern. A learner playing the predator picks cards and stops picking the pattern after a set number of bad tastes. Repeat as the ratio of mimics to models rises, and as a second toxic species joins. The results show why Batesian protection fades with mimic frequency while Müllerian protection grows.
+
+## Common Misconceptions
+- Bright warning colors make prey easier to eat because predators can see them. (Conspicuous prey are found more easily, but predators that have learned the signal avoid attacking them, so the net effect can favor bright coloration.)
+- In a mimicry pair, the species that looks like the other is always harmless. (That describes Batesian mimicry. In Müllerian mimicry both species are defended, and each gains from the shared signal.)
+- A Batesian mimic is protected no matter how common it becomes. (Its protection depends on predators often meeting the toxic model. When mimics become common, predators learn the pattern is often safe to eat.)
+
 ## Questions
 
 ```yaml

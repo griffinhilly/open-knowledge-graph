@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Broad-sense heritability (H²) is the proportion of phenotypic variance due to all genetic effects. Narrow-sense heritability (h²) includes only additive genetic variance and determines the evolutionary response to selection: R = h²S. High heritability does not mean a trait is unmodifiable; context and environment determine whether traits can be changed.
 
+## How It's Best Learned
+Work one variance table by hand: V_A = 40, V_D = 20, V_E = 40, so V_P = 100, h² = 0.4, and H² = 0.6. Then apply the breeder's equation: if the population mean is 100 and selected parents average 110, offspring are predicted to average 104. Change only V_E to 10 and recompute both heritabilities to see that the same genes give a different answer in a new environment.
+
+## Common Misconceptions
+- A highly heritable trait cannot be changed by the environment. (Heritability describes sources of variation within one population. Human height is highly heritable, yet average height rose with better nutrition.)
+- Heritability tells you how much of one person's trait comes from their genes. (It is a ratio of variances in a population and says nothing about a single individual.)
+- Zero heritability means genes have nothing to do with the trait. (It means genetic differences do not explain the differences seen in that population, perhaps because everyone shares the relevant genotype.)
+- High broad-sense heritability guarantees a fast response to selection. (Response depends on narrow-sense heritability. If most genetic variance comes from dominance or epistasis, selected parents pass on little of their advantage.)
+
 ## Questions
 
 ```yaml

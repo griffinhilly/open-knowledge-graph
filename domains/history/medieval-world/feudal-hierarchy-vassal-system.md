@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Feudalism organized medieval society as a pyramid of reciprocal personal relationships between lords and vassals, where a vassal swore allegiance to a lord in exchange for protection and land grants. This system replaced the impersonal bureaucracy of Rome with personal bonds and mutual obligation. Hierarchy was not rigidly fixed; some lords were simultaneously vassals to more powerful lords, creating complex webs of overlapping authority.
 
+## How It's Best Learned
+Draw the textbook pyramid first: king, dukes, counts, knights. Then redraw it for one real case, such as an English king who held Normandy as vassal of the French king, and add the extra arrows. Ask what that ruler should do when his two roles pull in opposite directions. The gap between the neat pyramid and the tangled diagram is the point of the topic.
+
+## Common Misconceptions
+- Feudal society was a neat pyramid where each person had one lord. (Many lords held land from more than one superior, so loyalties overlapped and sometimes conflicted.)
+- Vassals were peasants or serfs. (Vassals were mostly free men of the warrior and noble class who swore homage for a fief. Peasants worked the land under a separate set of manorial obligations.)
+- The king controlled everyone below him in the pyramid. (A king's direct authority often reached only his own vassals. Their vassals owed loyalty to them, which limited royal reach.)
+
 ## Questions
 
 ```yaml

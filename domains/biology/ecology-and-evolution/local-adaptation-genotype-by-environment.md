@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Local adaptation occurs when populations evolve different alleles in response to local environmental conditions, creating a mismatch between genotypes and foreign environments. Genotype-by-environment (G×E) interactions mean the same allele has different effects in different environments. Gene flow opposes local adaptation by homogenizing populations, while selection maintains divergence.
 
+## How It's Best Learned
+Plot reciprocal transplant results as reaction norms: site on the x-axis, fitness on the y-axis, one line per population. Use dry population 10 (dry site) and 4 (wet site), wet population 5 (dry) and 8 (wet). The lines cross, and the local population wins at each site. Then redraw with the wet site better for both populations and check which comparisons still show local adaptation.
+
+## Common Misconceptions
+- Any difference between populations in different places shows local adaptation. (Differences can come from plasticity, drift, or founder effects. A reciprocal transplant tests whether natives outperform foreigners at each site.)
+- G×E means the environment changes an organism's genes. (It means genotypes respond differently to the same environmental change, so their fitness ranking can change across environments. The genes stay the same.)
+- Adding individuals from any other population will help a declining, locally adapted population. (Alleles adapted to a different environment can lower fitness locally, which is outbreeding depression.)
+- A single common garden experiment can show local adaptation. (Growing all populations in one site shows which does best there, but it cannot test how each performs in its own home environment.)
+
 ## Questions
 
 ```yaml

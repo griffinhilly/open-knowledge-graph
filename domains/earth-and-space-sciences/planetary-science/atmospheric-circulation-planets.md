@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Planetary atmospheric circulation patterns (Hadley cells, Rossby waves, jet streams, polar vortices) emerge from differential solar heating and planetary rotation. Circulation intensity and cell structure vary with rotation rate and equator-to-pole temperature gradient, ranging from slow superrotation (Venus) to rapid zonal jets (Jupiter).
 
+## How It's Best Learned
+Start with a rotating-tank demonstration or video: a pan of water heated at the rim and cooled at the center. Slow rotation gives one smooth overturning cell, and faster rotation breaks it into meandering waves. Then compute the Coriolis parameter f = 2Ω sin(latitude) for Venus and Jupiter to see that rotation alone shifts the Rossby number by orders of magnitude.
+
+## Common Misconceptions
+- On Earth, warm air rises at the equator and sinks at the poles in one big loop. (Earth's Hadley cell descends near 30° latitude, and Ferrel and polar cells lie poleward of it. A single equator-to-pole cell fits a slow rotator like Venus better.)
+- An atmosphere's winds cannot move faster than the planet's surface rotates. (Venus's cloud tops circle the planet in about four days while the surface takes 243 days. Waves carry angular momentum that drives this superrotation.)
+- On a fast rotator, the jets trap heat so it cannot reach the poles. (Rotation changes how heat moves poleward, through jets and eddies instead of broad cells. Heat transport still happens.)
+
 ## Questions
 
 ```yaml

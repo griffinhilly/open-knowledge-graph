@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 The moment generating function (MGF) is M(t) = E[e^{tX}], defined for t in some neighborhood of 0. If M(t) exists, all moments can be recovered: E[Xᵏ] = M^{(k)}(0). The MGF uniquely determines the distribution, and convergence of MGFs implies convergence of distributions.
 
+## How It's Best Learned
+Use the MGF to identify a sum. For X ~ Poisson(λ), M(t) = exp(λ(e^t − 1)). For independent Poisson(λ₁) and Poisson(λ₂), the product of MGFs is exp((λ₁ + λ₂)(e^t − 1)), so uniqueness says the sum is Poisson(λ₁ + λ₂). Then take K(t) = log M(t) = λ(e^t − 1) and read off K′(0) = λ as the mean and K″(0) = λ as the variance.
+
+## Common Misconceptions
+- If every moment E[Xᵏ] is finite, the MGF exists. (The lognormal distribution has all moments finite, but E[e^{tX}] = ∞ for every t > 0.)
+- Knowing all the moments always pins down the distribution. (A sufficient condition is that the MGF be finite on an open interval around 0. There are distinct distributions that share all the lognormal's moments.)
+- M_{X+Y}(t) = M_X(t)·M_Y(t) for any X and Y. (The product rule needs independence. If Y = X, then M_{X+Y}(t) = M_X(2t), which is generally not M_X(t)².)
+
 ## Questions
 
 ```yaml

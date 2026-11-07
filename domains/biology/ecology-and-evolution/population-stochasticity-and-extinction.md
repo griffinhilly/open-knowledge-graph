@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Small populations are vulnerable to extinction from demographic stochasticity (random birth/death variation), environmental stochasticity, and genetic stochasticity (drift and inbreeding). The extinction vortex describes how small size leads to inbreeding depression and fitness loss, further reducing size. Extinction risk increases nonlinearly as population size decreases. Management must maintain populations above minimum viable sizes to buffer against stochastic events.
 
+## How It's Best Learned
+Run a coin-flip population. Each year, flip once per individual: heads means it survives and adds one offspring, tails means it dies. The expected size stays constant. Run several 20-year trials starting with 5 individuals and several starting with 50, and record how many hit zero. Then add a "bad year" card that kills half of everyone, to see environmental stochasticity act on both sizes.
+
+## Common Misconceptions
+- A population whose births equal its deaths on average will persist. (In a small population, chance runs of extra deaths can reach zero. Once a population hits zero, it cannot recover on its own.)
+- Large populations are safe from random bad years. (Demographic chance averages out as size grows. Environmental swings hit every individual at once, so they still threaten large populations.)
+- Inbreeding is the cause of extinction in small populations. (Demographic and environmental chance can finish a small population before genetic problems build up. The threats often act together and reinforce each other.)
+
 ## Questions
 
 ```yaml

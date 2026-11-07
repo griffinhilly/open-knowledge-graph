@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 Gross Primary Productivity (GPP) is the total solar energy fixed by producers through photosynthesis. Net Primary Productivity (NPP) is GPP minus energy lost to respiration by producers themselves. NPP represents the energy available to consumers and is the true measure of organic matter accumulation in an ecosystem.
 
+## How It's Best Learned
+Work through a light-and-dark bottle experiment with pond water. Over 6 hours, oxygen in the clear bottle rises from 8.0 to 9.2 mg/L, so net production is 1.2. In the dark bottle it falls from 8.0 to 7.4, so respiration is 0.6. Gross production is 1.2 + 0.6 = 1.8. Then redo the logic in carbon units for a forest, where NPP = GPP − autotrophic respiration.
+
+## Common Misconceptions
+- Plants respire only at night, when they cannot photosynthesize. (Plant cells respire around the clock. In daylight, photosynthesis usually outpaces respiration, which hides it.)
+- An ecosystem with high GPP must have high NPP. (NPP depends on how much of GPP the producers spend on their own respiration, and that share varies between ecosystems.)
+- Herbivores eat most of the NPP. (In many ecosystems, much of the NPP is never eaten while alive and passes to decomposers as dead leaves, wood and roots.)
+
 ## Questions
 
 ```yaml

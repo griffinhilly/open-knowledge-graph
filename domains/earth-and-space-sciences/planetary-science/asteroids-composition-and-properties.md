@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Asteroids range from C-type (carbonaceous, volatile-rich) to M-type (metallic, iron-nickel-rich) to S-type (silicate-dominated); composition reflects formation location in the protoplanetary disk. Spectral reflectance, thermal infrared, and meteorite data reveal aqueous alteration, thermal metamorphism, and collisional history.
 
+## How It's Best Learned
+Plot reflectance spectra of a C-type, an S-type, and an M-type asteroid on one set of axes from about 0.4 to 2.5 micrometers. Mark the 1- and 2-micrometer bands and note each object's albedo. Then classify a few unlabeled spectra and say where in the belt each body most likely formed.
+
+## Common Misconceptions
+- A spectral type is a direct readout of what the asteroid is made of. (Spectral types sort surfaces by how they reflect light. Space weathering, grain size, and surface coatings change spectra, so linking a type to a composition depends on meteorite matches and returned samples.)
+- Dark asteroids are dark because they are made of metal. (C-type surfaces are dark because of carbon compounds and other opaque materials. M-types are generally brighter than C-types.)
+- The spectrum of an asteroid tells us about its whole interior. (Reflectance spectroscopy samples only the top surface layer. A differentiated body or a rubble pile can be very different underneath.)
+- Every inner-belt asteroid is S-type and every outer-belt asteroid is C-type. (The radial pattern is a trend with overlap. Orbital processes, including the migration of the giant planets, are thought to have mixed types across the belt.)
+
 ## Questions
 
 ```yaml

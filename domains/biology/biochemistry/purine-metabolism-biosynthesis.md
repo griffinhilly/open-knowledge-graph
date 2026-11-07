@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Purine synthesis occurs via a 10-step pathway starting from phosphoribosyl pyrophosphate (PRPP) and building the purine ring atom-by-atom. The pathway requires aspartate, glycine, formyl-tetrahydrofolate, and glutamine. IMP (inosine monophosphate) is the first purine nucleotide formed and is converted to AMP and GMP. Feedback inhibition by adenine and guanine nucleotides regulates flux.
 
+## How It's Best Learned
+Draw the purine ring with atoms numbered 1 to 9 and color each atom by its donor: glycine (C4, C5, N7), glutamine (N3, N9), aspartate (N1), CO₂ (C6), and formyl-THF (C2, C8). Then cross out the folate colors to see what methotrexate removes. Finish by drawing the IMP branch point with GTP feeding the AMP arm and ATP feeding the GMP arm.
+
+## Common Misconceptions
+- Each amino acid donor gives its whole carbon skeleton to the ring. (Glycine is built in whole, as C4, C5, and N7, while glutamine and aspartate donate only nitrogen atoms.)
+- IMP is one of the standard building blocks of DNA and RNA. (IMP carries hypoxanthine, which is not one of the standard bases; it serves as the branch point that is converted to AMP and GMP.)
+- The pathway produces ATP and GTP directly. (It produces the monophosphates AMP and GMP, which kinases then phosphorylate to the diphosphate and triphosphate forms.)
+- Feedback inhibition acts only at the end of the pathway. (The main control point is the committed step, glutamine-PRPP amidotransferase, near the start, with further control at PRPP synthetase and at the IMP branch point.)
+
 ## Questions
 
 ```yaml

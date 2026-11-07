@@ -29,6 +29,15 @@ status: validated
 ## Core Idea
 Oxidative deamination removes the amino group from glutamate (or other amino acids) while oxidizing the carbon skeleton, producing the corresponding α-keto acid and ammonia. The reaction is catalyzed by glutamate dehydrogenase in mitochondria and is reversible, linking amino acid catabolism to ammonia metabolism.
 
+## How It's Best Learned
+Write the alanine aminotransferase reaction above the glutamate dehydrogenase reaction: alanine + α-ketoglutarate → pyruvate + glutamate, then glutamate + NAD⁺ + H₂O → α-ketoglutarate + NH₄⁺ + NADH + H⁺. Add them and cancel glutamate and α-ketoglutarate. The net result, alanine + NAD⁺ + H₂O → pyruvate + NH₄⁺ + NADH + H⁺, shows α-ketoglutarate acting as a reusable nitrogen shuttle.
+
+## Common Misconceptions
+- Oxidative deamination is the same as transamination. (Transamination moves an amino group to a keto acid without releasing ammonia; glutamate dehydrogenase releases free NH₄⁺ and reduces NAD⁺ or NADP⁺.)
+- The reaction is called oxidative because it uses oxygen. (Glutamate dehydrogenase uses NAD⁺ or NADP⁺ as the oxidizing agent; no O₂ is consumed in this reaction.)
+- Glutamate dehydrogenase works on every amino acid. (Its substrate is glutamate; other amino acids reach it by first passing their amino groups to α-ketoglutarate.)
+- Once ammonia is released, it is sent straight to the kidneys. (In the liver, ammonia from this reaction enters the urea cycle and is converted to urea, which the kidneys then excrete.)
+
 ## Questions
 
 ```yaml

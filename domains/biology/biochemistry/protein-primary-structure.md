@@ -35,6 +35,12 @@ Primary structure is the linear sequence of amino acids in a polypeptide chain, 
 ## How It's Best Learned
 Study the genetic code and practice translating mRNA sequences into amino acid sequences. Compare wild-type and mutant proteins (e.g., hemoglobin vs sickle-cell hemoglobin) to see how single amino acid changes propagate through higher structures.
 
+## Common Misconceptions
+- A peptide reads the same in either direction, so Ala-Gly and Gly-Ala are the same molecule. (Sequences are written from the N-terminus to the C-terminus, and reversing the order gives a different peptide with its free amino and carboxyl groups on different residues.)
+- Every change in a gene's DNA changes the protein's primary structure. (Because the genetic code is degenerate, many single-base changes swap one codon for another that codes for the same amino acid.)
+- Only residues in the active site matter for function. (The sickle-cell change at β-globin position 6 is on the protein surface, yet it causes hemoglobin to polymerize.)
+- Proteins with very different sequences must have different shapes. (Unrelated or distantly related sequences can fold into similar three-dimensional structures.)
+
 ## Questions
 
 ```yaml

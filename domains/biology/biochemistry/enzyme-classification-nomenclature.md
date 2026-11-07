@@ -22,7 +22,16 @@ status: validated
 # Enzyme Classification and Nomenclature
 
 ## Core Idea
-Enzymes are classified into six major categories (oxidoreductases, transferases, hydrolases, lyases, ligases, isomerases) based on the type of reaction they catalyze. The Enzyme Commission (EC) numbering system assigns each enzyme a four-number code reflecting its substrate specificity and reaction type. Enzyme names typically describe the reaction (e.g., alcohol dehydrogenase catalyzes alcohol oxidation) and are assigned systematically once the mechanism is characterized.
+Enzymes are classified into six classic categories (oxidoreductases, transferases, hydrolases, lyases, ligases, isomerases) based on the type of reaction they catalyze; a seventh class, translocases (EC 7), was added in 2018. The Enzyme Commission (EC) numbering system assigns each enzyme a four-number code reflecting its substrate specificity and reaction type. Enzyme names typically describe the reaction (e.g., alcohol dehydrogenase catalyzes alcohol oxidation) and are assigned systematically once the mechanism is characterized.
+
+## How It's Best Learned
+Take six glycolysis-area enzymes and sort them by the reaction each one catalyzes: lactate dehydrogenase (EC 1), hexokinase (EC 2), glucose-6-phosphatase (EC 3), aldolase (EC 4), triose phosphate isomerase (EC 5), and pyruvate carboxylase (EC 6). For each, write the reaction and point to the feature that decides the class. Examples are electrons moving, a group moving, water entering, or ATP being spent to join two molecules.
+
+## Common Misconceptions
+- A kinase and a phosphatase are in the same class because both handle phosphate. (A kinase moves a phosphate from ATP to an acceptor and is a transferase; a phosphatase removes one with water and is a hydrolase.)
+- Any enzyme called a "synthase" is a ligase. (Ligases spend ATP or a similar donor to join molecules; citrate synthase uses no ATP and is not a ligase.)
+- An EC number identifies one particular protein. (The number names a reaction, so different proteins that catalyze that reaction, including those from different species, share it.)
+- Lyases split molecules with water. (Splitting a bond with water defines hydrolases; lyases break bonds by other routes, often leaving a double bond.)
 
 ## Questions
 
@@ -65,9 +74,9 @@ Enzymes are classified into six major categories (oxidoreductases, transferases,
 
 ## Explainer
 
-You already know that enzymes are biological catalysts with specific three-dimensional structures that bind substrates and lower activation energy. But with thousands of known enzymes, biochemists needed a systematic way to organize them — not by where they are found or what organism makes them, but by what chemical transformation they perform. The result is the **Enzyme Commission (EC) classification system**, which groups every enzyme into one of six major classes based on its reaction type.
+You already know that enzymes are biological catalysts with specific three-dimensional structures that bind substrates and lower activation energy. But with thousands of known enzymes, biochemists needed a systematic way to organize them — not by where they are found or what organism makes them, but by what chemical transformation they perform. The result is the **Enzyme Commission (EC) classification system**, which groups every enzyme into one of seven major classes based on its reaction type.
 
-The six classes follow a logical pattern tied to the functional group chemistry you have encountered. **Oxidoreductases** (EC 1) catalyze electron transfer reactions — oxidations and reductions. **Transferases** (EC 2) move a functional group from one molecule to another, such as a phosphate or methyl group. **Hydrolases** (EC 3) break bonds using water, splitting esters, peptide bonds, or glycosidic linkages. **Lyases** (EC 4) cleave bonds without water or oxidation, often creating double bonds or ring structures. **Isomerases** (EC 5) rearrange atoms within a single molecule, converting one isomer to another. **Ligases** (EC 6) join two molecules together, typically at the expense of ATP hydrolysis. A useful mnemonic: "Over The Hill Lies Ice Lakes" gives the first letters in order.
+The six classic classes follow a logical pattern tied to the functional group chemistry you have encountered. **Oxidoreductases** (EC 1) catalyze electron transfer reactions — oxidations and reductions. **Transferases** (EC 2) move a functional group from one molecule to another, such as a phosphate or methyl group. **Hydrolases** (EC 3) break bonds using water, splitting esters, peptide bonds, or glycosidic linkages. **Lyases** (EC 4) cleave bonds without water or oxidation, often creating double bonds or ring structures. **Isomerases** (EC 5) rearrange atoms within a single molecule, converting one isomer to another. **Ligases** (EC 6) join two molecules together, typically at the expense of ATP hydrolysis. A useful mnemonic: "Over The Hill Lies Ice Lakes" gives the first letters in order. In 2018 a seventh class, **translocases** (EC 7), was added for enzymes that move ions or molecules across membranes.
 
 Each enzyme receives a four-part **EC number** that progressively narrows the classification. Take EC 2.7.1.1, which is hexokinase. The first number (2) tells you it is a transferase. The second (7) specifies that it transfers phosphorus-containing groups. The third (1) narrows to phosphotransferases with an alcohol group as acceptor. The fourth (1) is the specific enzyme — hexokinase, which phosphorylates glucose. This hierarchy means you can read an EC number like an address: class, subclass, sub-subclass, and individual enzyme.
 

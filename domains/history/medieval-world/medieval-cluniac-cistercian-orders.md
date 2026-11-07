@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 The Cluniac order (founded 910) and later Cistercian order (founded 1098) represented different monastic reform philosophies. Cluny emphasized elaborate liturgy and political influence, becoming wealthy and powerful. The Cistercians reacted against Cluniac worldliness with strict austerity, simple architecture, and agricultural innovation. Both orders influenced medieval spirituality, economy, and institutional development differently.
 
+## How It's Best Learned
+Compare the two orders point by point in a table: founding date, how the monks spent the day, church decoration, main source of income, and relation to lay society. Then look at photos of a carved Romanesque Cluniac capital and a bare Cistercian nave, and read a short passage of Bernard of Clairvaux's attack on monastic decoration alongside them.
+
+## Common Misconceptions
+- The Cistercians rejected work and wealth in favor of pure prayer. (They stressed manual labor. Their granges and lay brothers made many houses highly productive, which brought wealth of its own.)
+- Cluny was corrupt from the start. (Cluny began as a reform house. Its free abbatial election and papal protection were meant to keep it independent of lay lords.)
+- Plain Cistercian churches were cheaper because the order was poor. (The plainness was a theological choice about distraction in prayer. Many Cistercian churches were large, carefully built stone buildings.)
+
 ## Questions
 
 ```yaml

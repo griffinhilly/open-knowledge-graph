@@ -35,6 +35,15 @@ status: validated
 ## Core Idea
 NAD+ is the major electron carrier in catabolic pathways, accepting hydride ions (H⁻) from substrates and being reduced to NADH. The NAD+/NADH ratio determines the direction of equilibrium in NAD+-dependent reactions and reflects cellular energy status. High NADH/NAD+ indicates a reduced state and metabolic energy; low NADH/NAD+ indicates oxidative stress.
 
+## How It's Best Learned
+Draw only the nicotinamide ring and show the hydride arriving at the carbon opposite the ring nitrogen, so the positive charge disappears. Then write one reaction in both directions, pyruvate + NADH + H⁺ ⇌ lactate + NAD⁺, and label which molecule is oxidized and which is reduced. Finally, follow one NAD⁺ through glycolysis and back to show it is recycled, not consumed.
+
+## Common Misconceptions
+- NADH carries two hydrogen atoms from the substrate. (NAD⁺ accepts one hydride ion, a proton with two electrons; the substrate's second hydrogen leaves as H⁺ in solution.)
+- The "+" in NAD⁺ means the whole molecule is a cation. (The "+" marks the positive nitrogen in the nicotinamide ring; the two phosphates carry negative charges, so the molecule's net charge is negative at cellular pH.)
+- NAD⁺ is used up when it accepts electrons, so cells must keep making new NAD⁺ to run glycolysis. (NAD⁺ and NADH cycle back and forth; reoxidizing NADH, by the electron transport chain or by lactate formation, restores the NAD⁺ pool.)
+- NADH and NADPH are interchangeable carriers. (NADPH has an extra phosphate on the adenine ribose, which lets enzymes tell them apart; NADPH serves mostly in biosynthesis and NADH mostly in catabolism.)
+
 ## Questions
 
 ```yaml

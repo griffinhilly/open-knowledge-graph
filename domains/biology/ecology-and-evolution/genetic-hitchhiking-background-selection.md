@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Genetic hitchhiking occurs when neutral alleles increase in frequency because they are physically linked to alleles under positive selection. Conversely, background selection reduces neutral variation when deleterious alleles are removed along with linked variation. Both processes mean that neutral evolution is not independent of linked selection.
 
+## How It's Best Learned
+Write out eight chromosome copies as strings of neutral markers, each a different pattern. Give one copy a beneficial mutation in the middle and let its descendants replace the others, allowing a few recombination events near the ends. Count how many marker variants survive at each position. The count is lowest at the selected site and recovers with distance, which is the sweep valley.
+
+## Common Misconceptions
+- A neutral allele's frequency changes only by drift. (When it is linked to a selected site, selection on that site changes the neutral allele's frequency too.)
+- Hitchhiking and background selection are the same process. (Hitchhiking follows a beneficial allele sweeping up in frequency. Background selection comes from steady removal of harmful mutations and causes a broader, gentler loss of diversity.)
+- A region with low diversity must contain an allele that was recently favored. (Background selection, especially where recombination is low, or a low local mutation rate can also lower diversity, so a valley alone does not identify a sweep.)
+- Linked selection matters only right next to the selected site. (Where recombination is rare, its effects can extend over long stretches of chromosome.)
+
 ## Questions
 
 ```yaml

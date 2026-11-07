@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The Late Heavy Bombardment (LHB) was an intense period of asteroid and comet impacts ~3.8–4.1 billion years ago that dramatically reshaped the inner solar system. The Nice model explains this event as a consequence of dynamical instability in the giant planet configuration, driving rapid migration and scattering of the primordial planetesimal disk. The LHB had profound effects on planetary surfaces, delivering water and organic compounds to terrestrial worlds.
 
+## How It's Best Learned
+Sketch impact rate against time in two versions: a smooth decline from 4.5 billion years ago, and a decline with a spike near 3.9 billion years ago. Ask which features of the lunar sample ages would favor each curve. Then check the resonance with Kepler's third law. Today Saturn's period is about 29.5 years and Jupiter's is about 11.9, a ratio near 2.5, so the pair now sits beyond the 2:1 ratio the model says they crossed.
+
+## Common Misconceptions
+- In the 2:1 resonance, Jupiter's orbital period was twice Saturn's. (Saturn is farther out and slower. Its period was twice Jupiter's.)
+- Earth escaped the bombardment, since it shows few craters from that time. (Earth's larger gravitational cross-section means it was hit even harder than the Moon. Plate tectonics and erosion have erased most of the evidence.)
+- The Nice model's account of the bombardment is confirmed. (It remains a model. Both the timing of the giant-planet instability and whether a sharp spike in impacts happened at all are still debated.)
+
 ## Questions
 
 ```yaml

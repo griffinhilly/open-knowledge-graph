@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Planetary atmospheric chemistry includes photodissociation driven by stellar UV radiation, chemical equilibrium reactions, and disequilibrium processes maintained by biogenic or geological sources. Reducing atmospheres (early Earth, Titan) support different chemistry than oxidizing atmospheres (modern Earth, Venus).
 
+## How It's Best Learned
+Build a table for Earth, Mars, and Titan with columns for the main gases, the molecule UV splits, and the products that result. Then write the balanced reaction CH₄ + 2O₂ → CO₂ + 2H₂O and ask what it implies when both gases persist. Finish by listing abiotic ways a planet could still build up O₂.
+
+## Common Misconceptions
+- Detecting O₂ or ozone on a planet proves life is present. (Abiotic processes such as CO₂ or water photolysis, with hydrogen escaping to space, can build up O₂. Abiotic sources must be ruled out first.)
+- The products of photodissociation depend mainly on how strong the star's UV is. (UV intensity sets the rates, but the products depend mostly on which molecules are present to absorb UV and react. Sunlight gives ozone on Earth and organic haze on Titan.)
+- A planet's atmosphere sits at chemical equilibrium unless life disturbs it. (Photochemistry, volcanic outgassing, and escape keep many lifeless atmospheres out of equilibrium. The question for biosignatures is whether a known abiotic process can explain the imbalance.)
+- Because early Earth had no free O₂, its atmosphere was strongly reducing like Titan's. (Many models describe early Earth's atmosphere as mildly reducing, dominated by N₂ and CO₂ with only traces of CH₄.)
+
 ## Questions
 
 ```yaml

@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Planetary surface and atmospheric albedo control the fraction of solar energy absorbed versus reflected. Feedback loops—ice-albedo feedback, cloud feedback, water-vapor feedback—amplify or dampen temperature perturbations and determine climate sensitivity. Albedo differences explain the wide range of surface temperatures observed across solar system planets and exoplanet populations.
 
+## How It's Best Learned
+Compute Earth's equilibrium temperature, T = [S(1 − A)/(4σ)]^(1/4), with S = 1361 W/m². With A = 0.30 you get about 255 K, and with A = 0.35 about 250 K. Then draw each feedback as a loop of arrows marked + or −. If the product of the signs around the loop is positive, the feedback amplifies the starting change.
+
+## Common Misconceptions
+- A positive feedback is one that warms the planet or is good for the climate. (Positive means the feedback amplifies the initial change, whether that change is warming or cooling. A negative feedback damps it.)
+- Any positive feedback leads to runaway change. (A weak positive feedback amplifies a perturbation to a larger but finite new equilibrium. Runaway happens only when the feedback outpaces the extra infrared a warmer planet emits.)
+- Clouds cool a planet because they are bright. (Clouds also absorb and re-emit infrared. Low, thick clouds tend to cool, while high, thin clouds tend to warm.)
+
 ## Questions
 
 ```yaml

@@ -25,7 +25,15 @@ status: validated
 # Impact Crater Scaling Laws and Morphological Transitions
 
 ## Core Idea
-Impact craters exhibit predictable morphological transitions with size: simple craters (dome-shaped, depth-width ratio ~1:5) give way to complex craters (with central peaks) above a size threshold. This transition threshold depends on planetary gravity and near-surface material strength, enabling estimation of planetary g and regolith properties from crater populations.
+Impact craters exhibit predictable morphological transitions with size: simple craters (bowl-shaped, depth-width ratio ~1:5) give way to complex craters (with central peaks) above a size threshold. This transition threshold depends on planetary gravity and near-surface material strength, enabling estimation of planetary g and regolith properties from crater populations.
+
+## How It's Best Learned
+Test the gravity scaling with numbers. Lunar gravity is 1.62 m/s² and Earth's is 9.81 m/s², a ratio of about 6. If the transition diameter scales as 1/g, the Moon's 15–20 km becomes about 2.5–3.3 km on Earth, which matches the observed 2–4 km. Then use cube-root energy scaling to show that 1,000 times the energy gives a crater about 10 times wider.
+
+## Common Misconceptions
+- A crater is about the same size as the object that made it. (The shock wave excavates a cavity many times wider than the impactor.)
+- Doubling the impact energy doubles the crater's diameter. (Diameter grows much more slowly than energy, roughly as its cube root in simple scaling. Doubling the energy widens the crater by only about 26%.)
+- Gravity alone sets the simple-to-complex transition. (Target strength also matters. Weaker, layered rock can collapse into complex forms at smaller diameters than strong crystalline rock on the same planet.)
 
 ## Questions
 
@@ -48,7 +56,7 @@ Impact craters exhibit predictable morphological transitions with size: simple c
     - "Ejecta falling back into the crater piles up in the center, mimicking a peak"
     - "Central peaks form only in craters with unusually high impactor velocities that inject energy deep into the crust"
   answer: 1
-  explanation: "Central peaks form from dynamic rebound of the crater floor — not from the impactor, ejecta fallback, or unusually energetic impacts per se. When a large crater is excavated, the rock beneath is left under enormous pressure from the surrounding material, and the cavity is too deep to be gravitationally stable. The floor surges upward in a process analogous to a trampoline bouncing back after being pushed down (or the crown splash in a liquid drop impact). This rebound is fast — it occurs in seconds to minutes for large craters. The same process produces the terraced walls from inward slumping and reduces the depth-to-diameter ratio compared to simple craters."
+  explanation: "Central peaks form from dynamic rebound of the crater floor — not from the impactor, ejecta fallback, or unusually energetic impacts per se. When a large crater is excavated, the rock beneath is left under enormous pressure from the surrounding material, and the cavity is too deep to be gravitationally stable. The floor surges upward in a process analogous to a trampoline bouncing back after being pushed down (or the central jet that rises after a drop hits a liquid). This rebound is fast — it occurs in seconds to minutes for large craters. The same process produces the terraced walls from inward slumping and reduces the depth-to-diameter ratio compared to simple craters."
 
 - question: "Complex craters have a greater depth-to-diameter ratio than simple craters because central peaks indicate deeper excavation."
   type: true-false

@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Ecological niche models predict species distributions by identifying suitable environmental conditions. These correlative models use occurrence data and environmental variables (temperature, precipitation, elevation, vegetation) to build potential habitat maps. Niche models enable prediction of suitable areas in unsampled regions and range shifts under climate change. However, models assume current niches are stable, ignore biotic interactions, and vary in accuracy depending on data quality.
 
+## How It's Best Learned
+Build a climate envelope by hand. Plot a dozen occurrence points on a temperature-by-precipitation graph and draw the smallest box around them. Then shade every cell on a simple gridded map whose climate falls inside the box. Add 3°C to every cell and shade again to see the projected shift. Finally, mark a mountain range on the map and ask which newly suitable cells the species could reach.
+
+## Common Misconceptions
+- A suitability map shows where the species lives. (It shows where conditions resemble those at known occurrences. Barriers, competitors or survey gaps can keep the species out of suitable areas.)
+- A MaxEnt score of 0.8 means an 80% chance the species is present. (Presence-only outputs are relative suitability indices. Turning them into true probabilities requires extra assumptions, such as how common the species is overall.)
+- A model built on the native range will map an invader's new range accurately. (Native records show the realized niche under native competitors and barriers. Invaders can occupy conditions outside it, so such models can underpredict spread.)
+
 ## Questions
 
 ```yaml

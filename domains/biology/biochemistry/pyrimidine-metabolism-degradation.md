@@ -17,7 +17,16 @@ status: validated
 # Pyrimidine Degradation
 
 ## Core Idea
-Pyrimidine nucleotides are degraded by dephosphorylation to nucleosides, then deamination and ring opening to β-alanine (cytosine and uracil) or β-ureidopropionate. These are further degraded to CO₂, ammonia, and either alanine (from cytosine) or methylalanine (from thymine).
+Pyrimidine nucleotides are degraded by dephosphorylation to nucleosides and release of the free bases; cytosine is deaminated to uracil. The rings of uracil and thymine are then reduced and opened, giving CO₂, ammonia, and either β-alanine (from cytosine and uracil) or β-aminoisobutyrate (from thymine).
+
+## How It's Best Learned
+Put uracil and thymine side by side and run both through the same three enzymes: DPD, dihydropyrimidinase, and β-ureidopropionase. Track the C5 methyl group of thymine; it ends up in β-aminoisobutyrate, while uracil gives β-alanine. Then draw 5-fluorouracil as uracil with fluorine at C5, run it through DPD, and ask what happens when DPD is missing.
+
+## Common Misconceptions
+- β-alanine is the same as the alanine in proteins. (β-alanine carries its amino group on the β carbon rather than the α carbon and is not one of the amino acids used to build proteins.)
+- The pyrimidine ring is kept intact and excreted, like the purine ring in uric acid. (Human enzymes open the pyrimidine ring and break it down to small soluble products, CO₂, NH₃, and β-amino acids.)
+- DPD deficiency makes 5-FU less effective because DPD is needed to activate the drug. (DPD inactivates 5-FU, so low DPD activity lets the drug build up to toxic levels.)
+- Because its products are harmless, pyrimidine breakdown has little clinical importance. (Variation in DPD activity strongly affects how patients tolerate 5-FU, which is why testing before treatment is used.)
 
 ## Questions
 

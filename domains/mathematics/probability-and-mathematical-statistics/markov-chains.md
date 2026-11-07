@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 A Markov chain {Xₙ} satisfies the Markov property: P(Xₙ₊₁ ∈ A | Xₙ = x, Xₙ₋₁, ..., X₀) = P(Xₙ₊₁ ∈ A | Xₙ = x). The transition kernel P(x, A) = P(Xₙ₊₁ ∈ A | Xₙ = x) fully specifies the chain. Markov chains are widely used to model random processes with limited dependence on history.
 
+## How It's Best Learned
+Compute with a small matrix, then test a process that fails. Take P = [[0.9, 0.1], [0.5, 0.5]] for sunny and rainy days. The two paths from sunny to rainy in two steps give 0.9·0.1 + 0.1·0.5 = 0.14, matching the (sunny, rainy) entry of P². Then let Yₙ = Zₙ + Zₙ₋₁ for fair bits Zₙ. Given Yₙ = 1, the chance that Yₙ₊₁ = 2 is 0 if Yₙ₋₁ = 2 and 1/2 if Yₙ₋₁ = 0, so Y is not Markov.
+
+## Common Misconceptions
+- The Markov property says Xₙ₊₁ is independent of the past. (It says the future is conditionally independent of the past given Xₙ. Without conditioning, X₀ and X₂ are usually dependent through X₁.)
+- A function of a Markov chain is again a Markov chain. (Merging states can destroy the property. The sum Yₙ = Zₙ + Zₙ₋₁ above is a function of the Markov pair (Zₙ, Zₙ₋₁), yet Y is not Markov.)
+- The Markov property only controls the next step, so two-step predictions might still need the history. (Given Xₙ, the whole future Xₙ₊₁, Xₙ₊₂, … is conditionally independent of X₀, …, Xₙ₋₁.)
+
 ## Questions
 
 ```yaml

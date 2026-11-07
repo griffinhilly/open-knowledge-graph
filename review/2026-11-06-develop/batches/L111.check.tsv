@@ -1,0 +1,63 @@
+domains/biology/ecology-and-evolution/evidence-for-evolution.md	how	3	1	fixed	Tree "drawn from forelimb anatomy" fails when worked: all the animals share the same forelimb bone plan, so it cannot resolve a tree. Changed to "several anatomical traits".
+domains/biology/ecology-and-evolution/evidence-for-evolution.md	mis	8	0	ok
+domains/biology/ecology-and-evolution/evolution-through-natural-selection.md	how	3	0	ok	Bead simulation checked; works as described.
+domains/biology/ecology-and-evolution/evolution-through-natural-selection.md	mis	8	1	fixed	"An individual's genes stay the same" is an absolute (somatic mutation); softened to "inherited genes stay essentially the same, apart from rare somatic mutations", matching the file's own Q5 answer.
+domains/biology/ecology-and-evolution/evolutionary-comparative-anatomy.md	how	3	0	ok
+domains/biology/ecology-and-evolution/evolutionary-comparative-anatomy.md	mis	8	0	ok	Bullet 4 (analogy "tells us nothing useful") is close to a strawman but kept.
+domains/biology/ecology-and-evolution/evolutionary-developmental-biology.md	how	3	0	ok
+domains/biology/ecology-and-evolution/evolutionary-developmental-biology.md	mis	8	0	ok
+domains/biology/ecology-and-evolution/extinction-rates-phylogenetic-patterns.md	how	4	0	ok	Branch-length arithmetic (10 vs 300) checked.
+domains/biology/ecology-and-evolution/extinction-rates-phylogenetic-patterns.md	mis	8	0	ok
+domains/biology/ecology-and-evolution/extinction-vortex-populations.md	how	5	0	ok
+domains/biology/ecology-and-evolution/extinction-vortex-populations.md	mis	8	0	ok
+domains/biology/ecology-and-evolution/facilitation-mechanisms-ecology.md	how	3	0	ok
+domains/biology/ecology-and-evolution/facilitation-mechanisms-ecology.md	mis	8	0	ok
+domains/biology/ecology-and-evolution/functional-response-predation-types.md	how	4	0	ok	Disc equation values 0.91, 5, 9.1, ceiling 10, fractions 0.91/0.5/0.09 checked.
+domains/biology/ecology-and-evolution/functional-response-predation-types.md	mis	8	0	ok
+domains/biology/ecology-and-evolution/functional-response-predation-types.md	old:q:0:explanation	1	1	fixed	Said search time "shrinks" as prey become scarce; it grows. Rewrote that sentence to agree with the new text.
+domains/biology/ecology-and-evolution/functional-response-predation-types.md	old:q:2:explanation	1	1	fixed	Said handling time dominates at low prey density with short search time; reversed. Now says search time dominates and handling does not yet limit kill rate.
+domains/biology/ecology-and-evolution/gene-flow-selection-balance.md	how	4	0	ok	Haploid island model checked: s=0.2, m=0.01 gives about 4.0% after selection, 5.0% after migration; local allele lost iff m > s.
+domains/biology/ecology-and-evolution/gene-flow-selection-balance.md	mis	8	0	ok
+domains/biology/ecology-and-evolution/gene-tree-species-tree-incongruence.md	how	4	0	ok	(1/3)e^(-T): 0.202 at T=0.5, 0.045 at T=2 checked.
+domains/biology/ecology-and-evolution/gene-tree-species-tree-incongruence.md	mis	8	0	ok	Anomaly zone claim (4+ taxa) correct.
+domains/biology/ecology-and-evolution/genetic-drift-in-small-populations.md	how	3	0	ok
+domains/biology/ecology-and-evolution/genetic-drift-in-small-populations.md	mis	8	0	ok
+domains/biology/ecology-and-evolution/genetic-hitchhiking-background-selection.md	how	4	0	ok
+domains/biology/ecology-and-evolution/genetic-hitchhiking-background-selection.md	mis	8	1	fixed	Bullet 3 listed "low recombination" and "drift" as causes of a regional diversity valley; low recombination alone does not lower neutral diversity, and the file's Q1 says drift acts genome-wide. Now: background selection (esp. where recombination is low) or low local mutation rate.
+domains/biology/ecology-and-evolution/habitat-fragmentation-connectivity-corridors.md	how	4	0	ok	Interior areas 877 ha and 640 ha checked.
+domains/biology/ecology-and-evolution/habitat-fragmentation-connectivity-corridors.md	mis	8	0	ok
+domains/biology/ecology-and-evolution/heritability-broad-sense-narrow-sense.md	how	4	0	ok	h2=0.4, H2=0.6, R=4 checked.
+domains/biology/ecology-and-evolution/heritability-broad-sense-narrow-sense.md	mis	8	0	ok
+domains/biology/ecology-and-evolution/inbreeding-depression-genetic-rescue.md	how	4	0	ok	q2+Fpq = 0.0325 checked.
+domains/biology/ecology-and-evolution/inbreeding-depression-genetic-rescue.md	mis	8	0	ok
+domains/biology/ecology-and-evolution/invasive-species-ecological-impacts.md	how	4	0	ok
+domains/biology/ecology-and-evolution/invasive-species-ecological-impacts.md	mis	8	0	ok
+domains/biology/ecology-and-evolution/invasive-species-establishment-mechanisms.md	how	4	0	ok
+domains/biology/ecology-and-evolution/invasive-species-establishment-mechanisms.md	mis	8	0	ok
+domains/biology/ecology-and-evolution/landscape-ecology-and-spatial-heterogeneity.md	how	4	0	ok	5x5 block = 20 edge sides checked.
+domains/biology/ecology-and-evolution/landscape-ecology-and-spatial-heterogeneity.md	mis	8	0	ok	"landscapes" in bullet 1 is the topic's technical term, left as is.
+domains/biology/ecology-and-evolution/life-history-evolution-r-and-k-selection.md	how	3	0	ok
+domains/biology/ecology-and-evolution/life-history-evolution-r-and-k-selection.md	mis	8	0	ok
+domains/biology/ecology-and-evolution/litter-decomposition-soil-formation.md	how	4	0	ok	Steady state I/k: 5 and 15 checked.
+domains/biology/ecology-and-evolution/litter-decomposition-soil-formation.md	mis	8	0	ok
+domains/biology/ecology-and-evolution/local-adaptation-genotype-by-environment.md	how	4	0	ok	Reaction-norm numbers cross and local wins at both sites; checked.
+domains/biology/ecology-and-evolution/local-adaptation-genotype-by-environment.md	mis	8	1	fixed	Bullet 2 defined GxE as the ranking changing; that is only crossover GxE and conflicts with the Core Idea. Now: genotypes respond differently, so ranking can change.
+domains/biology/ecology-and-evolution/lotka-volterra-predation-cycles.md	how	5	0	ok	Nullclines P=10, N=10 and counterclockwise flow checked.
+domains/biology/ecology-and-evolution/lotka-volterra-predation-cycles.md	mis	8	0	ok
+domains/biology/ecology-and-evolution/mating-patterns-inbreeding-assortative.md	how	4	0	ok	Selfing 0.375/0.25/0.375 and p=0.5 checked.
+domains/biology/ecology-and-evolution/mating-patterns-inbreeding-assortative.md	mis	8	0	ok
+domains/biology/ecology-and-evolution/metapopulation-connectivity-patches.md	how	3	0	ok	Levins p* 0.8, 0.5, 0 checked.
+domains/biology/ecology-and-evolution/metapopulation-connectivity-patches.md	mis	8	0	ok
+domains/biology/ecology-and-evolution/metapopulation-dynamics-connectivity.md	how	4	0	ok	Dice game rates (e=1/6, c=1/3 adjacent) give a persisting mean-field occupancy near 0.6; plausible as described.
+domains/biology/ecology-and-evolution/metapopulation-dynamics-connectivity.md	mis	8	0	ok
+domains/biology/ecology-and-evolution/microevolution-and-macroevolution.md	how	4	0	ok	ln2/ln1.001 = 693 checked.
+domains/biology/ecology-and-evolution/microevolution-and-macroevolution.md	mis	8	0	ok
+domains/biology/ecology-and-evolution/modes-of-speciation-allopatric-peripatric-parapatric-sympatric.md	how	3	0	ok
+domains/biology/ecology-and-evolution/modes-of-speciation-allopatric-peripatric-parapatric-sympatric.md	mis	8	0	ok
+domains/biology/ecology-and-evolution/molecular-dating-fossil-calibration.md	how	4	0	ok	Rate <= 0.001, C-D >= 20 My checked.
+domains/biology/ecology-and-evolution/molecular-dating-fossil-calibration.md	mis	8	0	ok
+domains/biology/ecology-and-evolution/molecular-dating-phylogenetic-clocks.md	how	4	0	ok	0.16/0.005 = 32 My and 0.04/0.005 = 8 My checked.
+domains/biology/ecology-and-evolution/molecular-dating-phylogenetic-clocks.md	mis	8	0	ok
+domains/biology/ecology-and-evolution/molecular-dating-phylogenetic-clocks.md	old:q:1:question+explanation	2	2	fixed	Bias direction reversed: a shared rate is too slow for fast rodents (dates too old) and too fast for slow whales (dates too young). Stem and explanation swapped to match; answer key unchanged.
+domains/biology/ecology-and-evolution/molecular-evolution-phylogenetics.md	how	4	0	ok	Parsimony scores 4/5/6 checked site by site.
+domains/biology/ecology-and-evolution/molecular-evolution-phylogenetics.md	mis	8	0	ok	Old Q1 calls the metabolic gene a "neutral benchmark" though it is under purifying selection; noted, not edited.

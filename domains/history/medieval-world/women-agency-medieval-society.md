@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Medieval women exercised power through multiple channels: as landholding widows, abbesses controlling monastic lands, queens advising kings, and merchants managing trade. While legal systems often limited women's formal authority, women found ways to influence politics, economics, and culture within and around those constraints.
 
+## How It's Best Learned
+Work from three short cases: an aristocratic widow running her estates, an abbess managing monastic lands, and a town woman brewing and selling ale. For each, name the channel that gave her power and the rule that limited it. Then take one routine record, such as a manor court entry fining a woman for selling ale. List everything it reveals about her that the clerk never meant to record.
+
+## Common Misconceptions
+- Medieval women did not work outside the home. (Peasant women worked in the fields, spun and brewed ale for sale. In towns, women worked in crafts and trade, and some English towns let married women trade on their own account.)
+- Women's legal rights were the same across medieval Europe. (Inheritance customs, widows' dower rights and married women's property rights differed by region and legal tradition.)
+- Women had no access to learning. (Many nuns and some laywomen read and wrote. Christine de Pizan supported her family as a professional writer around 1400.)
+- Queens were figureheads with no real power. (Queens could act as regents, as Blanche of Castile did for her son Louis IX, and many managed lands and patronage networks.)
+
 ## Questions
 
 ```yaml
@@ -62,7 +71,7 @@ Medieval women exercised power through multiple channels: as landholding widows,
 
 ## Explainer
 
-From your study of medieval gender and family structures, you know that medieval society organized itself around patrilineal kinship and male legal authority. Women's formal legal capacity was typically subordinated to fathers before marriage and husbands after — a condition canon lawyers called **coverture**, the idea that a wife's legal identity was "covered" by her husband's. This was the default. But defaults create niches, and medieval women found and exploited those niches with striking frequency. The history of women's agency in this period is not a story of equality or its absence; it is a story of how people navigate systems designed to limit them.
+From your study of medieval gender and family structures, you know that medieval society organized itself around patrilineal kinship and male legal authority. Women's formal legal capacity was typically subordinated to fathers before marriage and husbands after — a condition English common lawyers called **coverture**, the idea that a wife's legal identity was "covered" by her husband's. This was the default. But defaults create niches, and medieval women found and exploited those niches with striking frequency. The history of women's agency in this period is not a story of equality or its absence; it is a story of how people navigate systems designed to limit them.
 
 **Widowhood** was the most straightforward path to formal authority. A widow who inherited her husband's lands became, for the duration of her widowhood, a legal person in her own right — she could sue and be sued, manage estates, sign contracts, and arrange her children's marriages. This is why medieval aristocratic widows were so valuable and why kings often tried to control their remarriage: a widow with large landholdings was a political actor with real resources. Eleanor of Aquitaine is the most dramatic example — twice a queen, she outlived two husbands and ended her life managing a massive territorial inheritance with complete legal autonomy. But ordinary gentry widows exercised the same structural position on a smaller scale.
 

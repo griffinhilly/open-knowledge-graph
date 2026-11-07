@@ -26,6 +26,12 @@ Denaturation is the disruption of tertiary (and sometimes secondary) structure b
 ## How It's Best Learned
 Perform a simple protein denaturation experiment: boil an egg and observe thermal denaturation of albumin. Discuss why it does not spontaneously refold (kinetic trapping, aggregation) versus why purified, dilute proteins often renature readily.
 
+## Common Misconceptions
+- Denaturation is always permanent. (Many purified proteins refold when the denaturant is removed; permanent loss usually comes from aggregation or chemical damage, not from unfolding itself.)
+- Urea breaks the disulfide bonds in a protein. (Urea disrupts non-covalent interactions; Anfinsen also needed a reducing agent, β-mercaptoethanol, to break the disulfides in ribonuclease A.)
+- A protein needs cellular machinery to tell it which shape to fold into. (Anfinsen's experiment showed the sequence specifies the native fold; chaperones help mainly by preventing aggregation and misfolding.)
+- Cooked protein has lost its nutritional value because it is denatured. (Denaturation leaves the amino acid sequence intact, and unfolded proteins are often easier for digestive enzymes to break down.)
+
 ## Questions
 
 ```yaml

@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Decomposition is the breakdown of dead organic matter by bacteria, fungi, and detritivores, releasing nutrients back into bioavailable forms. Microbial respiration is the primary mechanism; decomposition rate depends on temperature, moisture, litter quality, and microbial community composition. Slower decomposition in cold, wet environments leads to peat accumulation and carbon storage.
 
+## How It's Best Learned
+Analyze litterbag data with a simple decay model, mass remaining = initial mass × e^(−kt). A bag of broadleaf litter that falls from 10 g to 5 g in a year has k = ln 2 ≈ 0.69 per year. A bag of conifer needles that falls from 10 g to 8 g has k = ln(1.25) ≈ 0.22. Then explain the gap using C:N ratio, lignin and the site's temperature and moisture.
+
+## Common Misconceptions
+- Earthworms and other detritivores do most of the work of decomposition. (They fragment litter and raise its surface area. Bacteria and fungi carry out most of the chemical breakdown and mineralization.)
+- Decomposition always releases nitrogen into the soil. (Microbes breaking down high C:N litter may take up soil nitrogen for their own growth, which lowers the nitrogen available to plants for a time.)
+- The wetter the soil, the faster decomposition goes. (Moisture helps up to a point, but waterlogged soils lose oxygen, and decomposition slows sharply.)
+
 ## Questions
 
 ```yaml

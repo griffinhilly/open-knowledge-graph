@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 The Prime Number Theorem states: π(x) ~ x / ln(x) as x → ∞, where π(x) counts primes ≤ x. This central analytic result uses the Riemann zeta function and shows primes thin at a well-defined logarithmic rate.
 
+## How It's Best Learned
+Treat 1/ln t as a density and integrate it, so π(x) ≈ li(x). Integration by parts gives li(x) ≈ x/ln x + x/ln²x + 2x/ln³x. At x = 10⁶ these terms are about 72,382, 5,239 and 758, summing to about 78,379. Compare that with π(10⁶) = 78,498 to see why x/ln x alone runs low.
+
+## Common Misconceptions
+- π(x) ~ x/ln x means π(x) and x/ln x are close in absolute terms. (Only the ratio tends to 1. At x = 10⁶ the two differ by more than 6,000.)
+- Since li(x) exceeds π(x) in every table, it is always an overestimate. (Littlewood proved that π(x) − li(x) changes sign infinitely often. The first crossing lies far beyond any range that has been computed.)
+- The theorem tells you roughly where the next prime after x is. (It describes average density. Individual gaps near x vary widely around the average ln x.)
+
 ## Questions
 
 ```yaml

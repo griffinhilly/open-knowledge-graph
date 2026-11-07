@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Scriptoria were workshops in monasteries where monks painstakingly copied manuscripts by hand, preserving classical, Christian, and practical texts before the printing press. Monastic scribes were responsible for transmitting nearly all surviving Greek and Latin literature, as well as creating new theological and liturgical works. Their work was labor-intensive and required years of training, making manuscript production a precious and closely guarded skill.
 
+## How It's Best Learned
+Copy one paragraph by hand with a dip pen, timing yourself and counting your errors. Scale that up to a full Bible to feel the cost of each book. Then draw a simple family tree of copies: one original, two copies, four copies of those. Introduce one error early and follow where it spreads. This shows why surviving texts depend on which copies were made, and from what.
+
+## Common Misconceptions
+- Scribes copied texts perfectly. (Hand copying introduced slips, skipped lines and well-meant "corrections," so surviving copies of the same work often differ. Editors compare manuscripts to reconstruct the earlier text.)
+- Only monks copied books throughout the Middle Ages. (Nuns also ran scriptoria. From about the 12th century, professional lay scribes in towns and universities produced a growing share of books.)
+- If a classical text is lost, the monks must have destroyed it. (Most lost works seem to have vanished because no one recopied them before the old copies decayed. Some parchment was scraped and reused, but neglect was the larger cause.)
+
 ## Questions
 
 ```yaml

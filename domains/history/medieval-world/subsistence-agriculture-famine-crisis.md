@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Medieval agriculture remained largely subsistence-based, producing just enough to feed populations with little surplus. Poor harvests caused immediate famine and malnutrition. This vulnerability to agricultural failure shaped medieval social structures, religious responses to suffering, and made demographic crises like plague catastrophic.
 
+## How It's Best Learned
+Run the arithmetic for one imagined household. It sows 10 bushels and in a normal year harvests 40 (a 4:1 ratio). After 10 bushels of seed and 10 in dues, 20 remain for food. In a bad year the ratio falls to 2.5:1, so 25 are harvested and the same deductions leave 5. The harvest fell by 37.5 percent, but the food left to eat fell by 75 percent.
+
+## Common Misconceptions
+- Famine meant there was no food anywhere. (In most famines some grain was still for sale, but prices soared. Wage laborers and the landless, who had to buy food, often suffered first.)
+- Most famine victims died of starvation itself. (Much of the death toll came from diseases that spread among weakened people and from eating spoiled or unfit food.)
+- Subsistence farmers never sold anything. (Most peasant households produced mainly for their own needs but still sold some produce or labor to pay rents and buy salt, tools and cloth.)
+
 ## Questions
 
 ```yaml
@@ -47,7 +55,7 @@ Medieval agriculture remained largely subsistence-based, producing just enough t
     - "Medieval peasants had no knowledge of crop rotation and could not adapt to changed conditions"
     - "The Black Death arrived simultaneously, compounding the mortality from the start"
   answer: 1
-  explanation: "When a harvest fails and people are starving, seed grain — normally set aside as sacrosanct — gets eaten for survival. But seed grain is the input for next year's crop. Eating it guarantees the following harvest will also be smaller (less was planted), perpetuating and deepening the famine. This trap was understood at the time, yet starvation leaves no choice. Three-field rotation (option C) was widely practiced; the Black Death (option D) arrived 25 years after the famine began, not simultaneously."
+  explanation: "When a harvest fails and people are starving, seed grain — normally set aside as sacrosanct — gets eaten for survival. But seed grain is the input for next year's crop. Eating it guarantees the following harvest will also be smaller (less was planted), perpetuating and deepening the famine. This trap was understood at the time, yet starvation leaves no choice. Three-field rotation (option C) was widely practiced; the Black Death (option D) arrived about 25 years after the famine ended, not simultaneously."
 
 - question: "Medieval subsistence agriculture was primarily limited by ignorance of farming techniques; better knowledge would have solved the famine problem."
   type: true-false

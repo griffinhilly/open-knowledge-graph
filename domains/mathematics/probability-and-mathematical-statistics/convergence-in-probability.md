@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 A sequence {Xₙ} converges to X in probability if for all ε > 0, lim_{n→∞} P(|Xₙ - X| > ε) = 0. Intuitively, Xₙ is close to X with high probability for large n. Convergence in probability is weaker than almost sure convergence but stronger than convergence in distribution.
 
+## How It's Best Learned
+Prove a case with Chebyshev's inequality and put numbers in it. For a sample mean with variance 1/n, P(|X̄ₙ − μ| > ε) ≤ 1/(nε²). With ε = 0.1, the bound is 100/n, so n = 10,000 makes it at most 0.01. Then simulate the typewriter sequence on [0, 1] and track one ω. Its path keeps returning to 1, though P(Xₙ = 1) keeps shrinking.
+
+## Common Misconceptions
+- Convergence in probability means P(Xₙ = X) → 1. (Only closeness within ε is required. If Xₙ ~ N(0, 1/n), then Xₙ never equals 0 exactly, yet Xₙ → 0 in probability.)
+- Checking one small tolerance such as ε = 0.01 is enough. (The condition must hold for every ε > 0. The constant sequence Xₙ = 0.005 passes the test at ε = 0.01 but does not converge to 0.)
+- If Xₙ → 0 in probability, then E[Xₙ] and Var(Xₙ) go to 0. (Xₙ = n with probability 1/n and 0 otherwise converges to 0 in probability, but E[Xₙ] = 1 and Var(Xₙ) = n − 1.)
+
 ## Questions
 
 ```yaml

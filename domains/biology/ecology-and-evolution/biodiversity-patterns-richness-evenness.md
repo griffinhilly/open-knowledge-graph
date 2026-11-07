@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 Biodiversity includes species richness (number of species), evenness (distribution of abundances), and functional diversity. Diversity varies predictably across the planet—increasing toward the tropics and at intermediate disturbance levels. Understanding these patterns requires considering speciation, extinction, and ecological assembly.
 
+## How It's Best Learned
+Compute Simpson's diversity (1 − Σp²) for two four-species communities. With every species at 25%, Σp² = 0.25, so diversity is 0.75. With proportions of 70%, 10%, 10% and 10%, Σp² = 0.52, so diversity is 0.48. Richness is the same in both, so the difference comes from evenness alone. Then place a few real sites on a latitude map and list the competing explanations for the gradient.
+
+## Common Misconceptions
+- Species richness and biodiversity mean the same thing. (Richness counts species. Biodiversity also includes evenness, functional diversity and genetic diversity, so two communities with equal richness can differ a lot.)
+- The latitudinal gradient has one accepted cause. (Several hypotheses, including energy, climatic stability and area, have support, and their relative importance is still debated.)
+- More disturbance always means fewer species. (Very frequent disturbance can lower richness, but so can a long absence of disturbance, when competitive dominants can exclude other species.)
+
 ## Questions
 
 ```yaml

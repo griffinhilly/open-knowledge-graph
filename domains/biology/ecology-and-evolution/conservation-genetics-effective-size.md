@@ -34,6 +34,14 @@ status: validated
 ## Core Idea
 Effective population size (Ne) is smaller than census size and depends on sex ratio, reproductive variance, and fluctuations. Small Ne causes rapid drift and inbreeding depression. Conservation typically targets Ne > 500 to maintain genetic diversity and evolutionary potential. Managing gene flow and reintroduction restores Ne in fragmented populations.
 
+## How It's Best Learned
+Work two short calculations, then compare each result with the census count. For sex ratio, 20 breeding males and 80 females give Ne = 4 × 20 × 80 / 100 = 64, though 100 adults breed. For fluctuation, sizes of 100, 10 and 100 over three generations give a harmonic mean of 3 / (0.01 + 0.1 + 0.01) = 25, while the arithmetic mean is 70. Then set both against the 50/500 guideline.
+
+## Common Misconceptions
+- Effective population size is the number of adults you can count. (Ne is the size of an idealized population that would lose diversity at the same rate. Skewed sex ratios, unequal breeding success and past crashes make it smaller than the count.)
+- Long-term Ne is the average of population sizes over time. (It is close to the harmonic mean, which is pulled strongly toward the smallest sizes, so one crash can dominate it.)
+- Reaching Ne of 500 guarantees a population is genetically safe. (The 50/500 values are rough guidelines, and species differ in how they respond to small size.)
+
 ## Questions
 
 ```yaml

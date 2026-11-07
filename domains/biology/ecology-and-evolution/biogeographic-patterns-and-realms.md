@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The Earth's biota is organized into biogeographic realms with distinct communities, separated by barriers to dispersal. These realms reflect historical processes: continental drift, climate change, and lineage origins and extinctions. Species richness varies predictably with latitude, elevation, and connectivity. Understanding these patterns explains current distributions and predicts responses to future environmental change.
 
+## How It's Best Learned
+Color a world map by realm, then mark the barriers at each boundary: oceans, deserts, mountain ranges and the deep-water strait between Bali and Lombok. Next, list the large grazer, predator and burrower in each realm. In isolated realms such as Australia, these roles are often filled by lineages unrelated to those elsewhere. Ask for each realm which lineage was present when isolation began, and how that history explains who fills each role today.
+
+## Common Misconceptions
+- Each species lives where the climate suits it best. (Many species could thrive elsewhere but never reached those places. Introduced species often spread fast in realms they could not reach on their own.)
+- Similar-looking communities on different continents must contain related species. (Mediterranean-climate shrublands look alike across continents, but their plants come largely from different lineages that converged in form.)
+- Realm boundaries are fixed lines. (They mark zones of rapid change in the biota, and they shift over geological time as barriers form or disappear, as when the Isthmus of Panama joined the Americas.)
+
 ## Questions
 
 ```yaml

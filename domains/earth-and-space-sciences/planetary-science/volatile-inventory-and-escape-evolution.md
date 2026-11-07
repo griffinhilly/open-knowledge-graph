@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 A planet's volatile inventory (water, CO₂, N₂, etc.) is set by its initial composition and modified by outgassing and escape over time. The interplay between volcanic outgassing, photochemical loss, thermal escape, and ion pickup loss determines whether a planet retains or loses its atmosphere, fundamentally controlling habitability and long-term climate evolution.
 
+## How It's Best Learned
+Compute the Jeans parameter, λ = (v_esc/v_th)² with v_th = √(2kT/m), for Mars (v_esc = 5.0 km/s) at an upper-atmosphere temperature of 300 K. Atomic hydrogen gives λ ≈ 5 and CO₂ gives λ ≈ 220, and the escape rate falls roughly as e^(−λ). Then sketch a sources-minus-sinks budget over time for Earth, Venus and Mars.
+
+## Common Misconceptions
+- Light gases escape because they float to the top and drift away. (Escape is set by speed. At the same temperature lighter molecules move faster, so more of them exceed escape speed in the upper atmosphere.)
+- A planet that can hold CO₂ against thermal escape keeps its atmosphere safe. (Non-thermal processes such as sputtering, ion pickup and photochemical escape can remove heavier species. Losing hydrogen from split water molecules also removes water, even if the oxygen stays.)
+- A planet's atmosphere today shows how much volatile material it has ever had. (Much of the inventory may be stored in rocks, ice or the interior, or already lost to space. Earth holds far more CO₂ in carbonate rocks than in its air.)
+
 ## Questions
 
 ```yaml

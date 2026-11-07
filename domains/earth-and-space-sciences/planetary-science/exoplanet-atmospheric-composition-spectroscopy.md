@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 Transmission and emission spectra reveal exoplanet atmospheric composition by measuring wavelength-dependent absorption from molecular features. Hydrogen-dominated atmospheres show Rayleigh scattering; secondary atmospheres show molecular bands (H₂O, CO₂, CH₄). Combined with photochemistry models and general circulation models, spectra constrain composition, temperature structure, habitability, and potential biosignatures.
 
+## How It's Best Learned
+Compute the scale height H = kT/(μ m_u g) for two cases. A hot Jupiter with T = 1,500 K, g = 25 m/s², and μ = 2.3 gives about 220 km. Earth with T = 288 K, g = 9.8 m/s², and μ = 29 gives about 8 km. Then label a sample spectrum with the H₂O, CH₄, and CO₂ bands and a Rayleigh slope.
+
+## Common Misconceptions
+- The depth of an absorption feature tells you the gas's abundance directly. (Feature depth also depends on scale height, temperature, and clouds. A cloud deck and a low abundance can produce similar muted features.)
+- Transmission spectra sample the whole atmosphere down to the surface. (Starlight crosses the atmosphere along a long slanted path at the planet's edge. Deep layers are opaque along that path, so the spectrum mostly probes the upper atmosphere.)
+- A larger planet always gives stronger atmospheric signals. (Signal size depends on scale height as well as radius. A low-gravity, hydrogen-rich planet can show deeper features than a larger, denser one.)
+
 ## Questions
 
 ```yaml

@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 The extinction vortex is a positive feedback cycle where small populations experience reduced fitness from inbreeding and genetic drift, further reducing population size. Allee effects occur when individual fitness decreases at low densities due to reduced mate-finding or cooperative benefits. Together, these mechanisms accelerate extinction and make recovery difficult without intervention.
 
+## How It's Best Learned
+Sketch per-capita growth rate against population size twice. In the logistic case the line falls steadily from left to right. In a strong Allee case it starts below zero, crosses zero at a threshold, rises, then falls toward carrying capacity. Mark where a population just below the threshold heads. Then draw the vortex as a loop diagram: smaller size, more drift and inbreeding, lower fitness, fewer births.
+
+## Common Misconceptions
+- A small population with plenty of food and space will grow back on its own. (Below an Allee threshold, per-capita growth can be negative even in good habitat because mates or group partners are too scarce.)
+- Allee effects come from competition at low density. (They come from the loss of benefits that depend on having enough conspecifics, such as mate-finding, group hunting, or pollination.)
+- Once the original threat is removed, a small population is safe. (Drift, inbreeding, and chance variation in births and deaths keep acting on a small population and can drive further decline.)
+- Lost genetic diversity will soon return through new mutations. (Mutation adds variation far too slowly to replace what drift removes. Bringing in unrelated individuals is the faster route.)
+
 ## Questions
 
 ```yaml

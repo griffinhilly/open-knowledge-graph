@@ -22,7 +22,15 @@ status: validated
 # Cramer-Rao Lower Bound
 
 ## Core Idea
-For any unbiased estimator T of θ, Var(T) ≥ 1/I(θ). The bound is tight: equality holds iff T is the uniformly minimum variance unbiased estimator (UMVUE). The CRLB shows that Fisher information lower-bounds estimator precision. MLEs are asymptotically efficient, achieving the CRLB in the limit.
+For any unbiased estimator T of θ, Var(T) ≥ 1/I(θ). An unbiased estimator that attains the bound is the uniformly minimum variance unbiased estimator (UMVUE), but a UMVUE need not attain it. The CRLB shows that Fisher information lower-bounds estimator precision. MLEs are asymptotically efficient, achieving the CRLB in the limit.
+
+## How It's Best Learned
+Compute the bound and an estimator's variance side by side. For n Poisson(λ) observations, the per-observation information is 1/λ, so the bound is λ/n, and Var(X̄) = λ/n meets it exactly. Then redo the proof in three lines: differentiate E[T] = θ to get Cov(T, S) = 1, apply Cauchy–Schwarz, and divide by I(θ).
+
+## Common Misconceptions
+- The bound 1/I(θ) limits every estimator, biased or not. (It covers unbiased estimators. An estimator with bias b(θ) obeys Var(T) ≥ (1 + b′(θ))²/I(θ), which can be smaller.)
+- For n observations the bound is 1/I(θ), with I(θ) taken from a single observation. (For n i.i.d. observations the information adds to nI₁(θ), so the bound is 1/(nI₁(θ)).)
+- The bound holds for any model. (It needs regularity conditions. For Uniform(0, θ), whose support depends on θ, the unbiased estimator (n+1)X₍ₙ₎/n has variance θ²/(n(n+2)), which shrinks like 1/n² instead of 1/n.)
 
 ## Questions
 

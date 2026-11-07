@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Facilitation occurs when one species improves conditions for another, increasing its fitness or survival. Examples include foundation species (mangrove trees creating habitat), nurse plants sheltering seedlings, and biofilm formation enabling colonization. Positive interactions are as fundamental as competition and predation in structuring communities.
 
+## How It's Best Learned
+Work through the nurse-plant removal experiment as a two-by-two table: seedlings under shrubs versus in open ground, with shrubs present versus removed. Predict the survival pattern for facilitation and for competition before reading results. Then place deserts, alpine slopes, salt marshes, and a fertile meadow along a stress axis and predict where facilitation should matter most.
+
+## Common Misconceptions
+- Facilitation is the same thing as mutualism. (Facilitation requires that at least one species benefits. The facilitator may gain nothing, as with many nurse plants, which makes the interaction a commensalism.)
+- An interaction between two species has one fixed sign. (A nurse shrub can help a seedling establish and later compete with the same plant once it is grown.)
+- Positive interactions are rare curiosities next to competition and predation. (Foundation species such as mangroves, corals, and kelp create habitat that many other species depend on.)
+- Facilitation should matter most where conditions are mild. (The stress gradient hypothesis predicts the reverse: facilitation becomes more important relative to competition as physical stress rises.)
+
 ## Questions
 
 ```yaml

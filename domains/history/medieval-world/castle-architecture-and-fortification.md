@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Medieval castles evolved from simple wooden stockades to elaborate stone fortifications designed to withstand siege and control territory. Early motte-and-bailey designs (earthen mound with wooden fort) gave way to stone keeps and eventually to concentric walls with towers optimized for defensive crossfire. Castles served as administrative centers, symbols of authority, and refuges during conflict, embodying the militarized feudal landscape.
 
+## How It's Best Learned
+Sketch three plans side by side: a motte-and-bailey, a stone keep, and a concentric castle. For each, mark where an attacker would try to get in and where defenders could shoot from. Then pair each design change with the threat it answers, such as round towers against corner mining. Ask why a lord would build one design rather than another.
+
+## Common Misconceptions
+- Castles were purely military buildings. (A castle was a fortified home as well. It housed a lord's household and served as an administrative center and a symbol of his authority, as well as a place of defense.)
+- A strong castle was taken by storming the walls. (Most sieges were decided by blockade and starvation, by negotiation, or by treachery. Direct assault was costly and often failed.)
+- Stone castles replaced wooden ones everywhere at once. (Change was gradual and uneven. Many earth-and-timber castles stayed in use long after the first stone keeps were built, because stone cost far more money and time.)
+
 ## Questions
 
 ```yaml

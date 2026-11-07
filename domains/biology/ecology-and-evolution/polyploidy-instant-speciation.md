@@ -23,7 +23,15 @@ status: validated
 # Polyploidy and Instant Reproductive Isolation
 
 ## Core Idea
-Polyploidy (whole-genome duplication) creates instant reproductive isolation through chromosome number incompatibility. A triploid hybrid between diploid and tetraploid parents cannot produce viable gametes. Polyploidy is common in plants and has driven major radiations (wheat, cotton). Autopolyplody and allopolyploidy differ in their genetic diversity and evolutionary consequences.
+Polyploidy (whole-genome duplication) creates instant reproductive isolation through chromosome number incompatibility. A triploid hybrid between diploid and tetraploid parents produces few viable gametes. Polyploidy is common in plants and has driven major radiations (wheat, cotton). Autopolyploidy and allopolyploidy differ in their genetic diversity and evolutionary consequences.
+
+## How It's Best Learned
+Draw chromosome sets as colored bars and try to pair them at meiosis I. A hybrid of species AA and BB is AB: no chromosome has a partner, so it is sterile. Double it to AABB and every chromosome has a match. Then cross a tetraploid with its diploid parent to get a triploid, and try to split three copies evenly between two cells.
+
+## Common Misconceptions
+- A new polyploid only counts as a new species once it looks different from its parents. (The barrier comes from chromosome number. A new polyploid can look much like its parents and still be isolated from them.)
+- Allopolyploids are sterile hybrids, like mules. (The first hybrid between two species is often sterile because its chromosomes lack partners. Doubling the genome gives each chromosome a partner, so the allopolyploid can be fertile.)
+- Triploid plants cannot reproduce at all. (Most of their gametes are unbalanced, but a few can be viable. Some triploid plants also reproduce asexually, without meiosis.)
 
 ## Questions
 

@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 A population's age structure—the proportion of individuals in each age class—determines its growth rate and future trajectory. Populations with more reproductive-age individuals grow faster than those dominated by post-reproductive individuals. Life history traits (age at reproduction, clutch size, lifespan) evolve under selection and vary widely across species, creating a spectrum from r-selected to K-selected strategies.
 
+## How It's Best Learned
+Project two populations of 100 by hand with the same two-class rules: each adult makes one juvenile a year, and juveniles and adults each survive at 0.5. Start one at 80 juveniles and 20 adults, the other at 20 and 80. After one year they total 70 and 130, though every rate is identical. Then sketch the age pyramid each start would give.
+
+## Common Misconceptions
+- Once births fall to replacement level, a population stops growing right away. (In a population with a young age structure, large young cohorts still have to pass through their reproductive years. Such a population keeps growing for decades before it levels off.)
+- Protecting the most numerous age class, such as eggs or hatchlings, does the most for population growth. (In many long-lived species, growth rate responds more to survival of older stages. Which class matters most depends on the life history.)
+- K-selected species are more advanced or better adapted than r-selected species. (Each strategy suits a different pattern of mortality and environmental predictability. Neither ranks above the other.)
+
 ## Questions
 
 ```yaml
@@ -48,7 +56,7 @@ A population's age structure—the proportion of individuals in each age class�
     - "Sub-adults — because they have the longest reproductive lifespan ahead of them"
     - "Post-reproductive individuals — because they provide social learning and alloparental care"
   answer: 1
-  explanation: "For long-lived, K-selected species like sea turtles, Leslie matrix analyses consistently show that adult survival (not juvenile survival or fecundity) most strongly influences the population growth rate λ. Sea turtles produce many eggs but have extremely low hatchling survival — juvenile mortality is already 'baked in' to the life history strategy. Adding a few more surviving hatchlings barely moves the needle. But each additional year of adult survival adds another reproductive season to an animal that breeds for decades. This counterintuitive result has major policy implications: protecting nesting beaches (adult females) yields far more demographic return than protecting hatcheries."
+  explanation: "For long-lived, K-selected species like sea turtles, Leslie matrix analyses consistently show that adult survival (not juvenile survival or fecundity) most strongly influences the population growth rate λ. Sea turtles produce many eggs but have extremely low hatchling survival — juvenile mortality is already 'baked in' to the life history strategy. Adding a few more surviving hatchlings barely moves the needle. But each additional year of adult survival adds another reproductive season to an animal that breeds for decades. This counterintuitive result has major policy implications: for loggerhead turtles, raising the survival of large juveniles and adults at sea, for example with turtle excluder devices on shrimp trawls, yields far more demographic return than protecting eggs on nesting beaches."
 
 - question: "A population with a broad-based age pyramid (many juveniles, few older individuals) will continue to grow even if its birth rate immediately drops to replacement level."
   type: true-false

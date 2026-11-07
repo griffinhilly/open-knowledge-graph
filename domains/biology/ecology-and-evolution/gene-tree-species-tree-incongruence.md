@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Gene trees can differ from species trees because genes take time to coalesce after speciation events. Incomplete lineage sorting (ILS) occurs when ancestral polymorphism persists through speciation; different genes retain different lineages. Rapid speciation exacerbates ILS. The coalescent theory explains the probability of gene-tree incongruence given speciation times and effective population size.
 
+## How It's Best Learned
+Draw the species tree ((A,B),C) as wide tubes and trace gene lineages inside them, showing one case where A and B's copies coalesce in the short internal branch and one where they do not. Then use the three-species result: with internal branch length T in coalescent units, each discordant tree has probability (1/3)e^(-T). At T = 0.5 that is about 0.20 each; at T = 2 it is about 0.045.
+
+## Common Misconceptions
+- A gene tree that disagrees with the species tree must be an error. (Under incomplete lineage sorting the gene tree can correctly record the history of those gene copies, which differs from the order of species splits.)
+- The species tree is whichever topology the most genes support. (For three species the most common gene tree matches the species tree, but with four or more species and very short internal branches, the most common gene tree can differ from the species tree.)
+- Any discordance between gene trees is evidence of hybridization. (Incomplete lineage sorting alone produces discordance, and it gives the two alternative topologies at about equal frequencies.)
+- Sequencing one gene more carefully will reveal the species tree. (A single gene can follow a different history no matter how accurately it is sequenced. Many genes are needed to estimate the species tree.)
+
 ## Questions
 
 ```yaml

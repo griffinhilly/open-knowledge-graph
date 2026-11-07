@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Mutualism is a symbiotic relationship benefiting both partners; it can be obligate (partners cannot survive independently) or facultative (partners survive alone but benefit together). Examples include mycorrhizal fungi with plants, pollinators with flowers, and cleaner fish with larger fish. Mutualisms are maintained by reciprocal selection and can drive coevolutionary dynamics.
 
+## How It's Best Learned
+For each example pair, fill in a trade table with four cells: what each partner gives and what it gets, and which is cheap or costly for that partner to make. Then ask of each partner, "Could it survive alone?" to sort the pair as obligate or facultative. Finally, add a cheater to the table, such as a fungus that sends less phosphorus, and ask how the other partner could respond.
+
+## Common Misconceptions
+- Mutualistic partners cooperate out of something like goodwill toward each other. (Each partner's traits are favored because they raise that partner's own fitness. The exchange is stable partly because partners can cut off or punish cheaters.)
+- Symbiosis and mutualism mean the same thing. (Symbiosis is a close, long-term association between species. It can be mutualistic, commensal, or parasitic.)
+- A mutualism stays beneficial to both partners under every condition. (The net benefit can change with conditions. For example, a mycorrhizal fungus can cost a plant more than it returns in soil that is already rich in nutrients.)
+
 ## Questions
 
 ```yaml

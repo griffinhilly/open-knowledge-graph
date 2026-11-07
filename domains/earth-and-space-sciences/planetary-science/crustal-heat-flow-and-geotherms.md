@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 The surface heat flow combined with rock thermal conductivity defines the geothermal gradient—how temperature increases with depth. Planetary geotherms constrain crustal composition, mantle temperature, and convection rates; steeper gradients on young or tectonically active planets reflect higher internal temperatures and vigor of mantle convection.
 
+## How It's Best Learned
+Work Fourier's law q = k × dT/dz by hand. Granite with k = 2.5 W/m·K and a gradient of 25 K/km carries 62.5 mW/m². The same heat flow through shale with k = 1.5 W/m·K needs a gradient of about 42 K/km. Then plot a geotherm and a solidus on one temperature-depth graph and mark where melting would begin.
+
+## Common Misconceptions
+- Below the crust, the mantle is a layer of liquid magma. (The mantle is almost entirely solid rock that flows slowly over geological time. Melting happens only where the geotherm crosses the solidus, as at ridges and hotspots.)
+- A geotherm is a straight line, so the surface gradient can be extended to any depth. (Heat-producing elements are concentrated in the upper crust, and conductivity changes with depth. The gradient usually decreases downward, so straight-line extrapolation overestimates deep temperatures.)
+- Mid-ocean ridges have high heat flow because their rocks hold more uranium and thorium. (Ridge heat flow is high because hot mantle wells up beneath thin, young lithosphere. Oceanic crust is actually poor in heat-producing elements compared with continental crust.)
+
 ## Questions
 
 ```yaml

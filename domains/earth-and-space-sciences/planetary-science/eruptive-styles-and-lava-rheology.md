@@ -26,7 +26,15 @@ status: validated
 # Lava Rheology and Planetary Eruptive Styles
 
 ## Core Idea
-Magma viscosity is determined by composition (basaltic to silicic), temperature, and crystal content; this viscosity controls eruption style. Low-viscosity basalts produce effusive flood eruptions; high-viscosity silicic magmas generate explosive eruptions. Planetary gravity and atmospheric pressure also modify eruptive behavior, explaining why flood volcanism dominates large planets while explosive eruptions dominate small bodies.
+Magma viscosity is determined by composition (basaltic to silicic), temperature, and crystal content; this viscosity controls eruption style. Low-viscosity basalts produce effusive flood eruptions; high-viscosity silicic magmas generate explosive eruptions. Planetary gravity and atmospheric pressure also modify eruptive behavior, explaining why flood volcanism dominates large planets while small airless bodies can also erupt explosively.
+
+## How It's Best Learned
+Blow through a straw into a glass of water and then into a jar of honey, and watch how bubbles escape from each. Then rank three magmas by viscosity: 1,200°C basalt, andesite, and 800°C rhyolite. Add a basalt carrying 45% crystals and explain why it is far stiffer than the crystal-free basalt. Predict each one's eruption style on Earth, then move the basalt to the airless Moon and to 90-bar Venus.
+
+## Common Misconceptions
+- How much water a magma holds is all that decides how explosive its eruption will be. (Dissolved gas sets how much gas is available. Viscosity and surface pressure also help decide whether it escapes gently or fragments the magma.)
+- Basalt erupts gently wherever it reaches the surface. (Where there is no atmosphere, as on the Moon, dissolved gas in basalt can expand violently and spray fire fountains of glass beads. On Earth, basalt meeting water can also explode.)
+- Magma viscosity depends only on its silica content. (Temperature and crystal content also matter. A basalt with 40–50% crystals behaves almost like a solid.)
 
 ## Questions
 

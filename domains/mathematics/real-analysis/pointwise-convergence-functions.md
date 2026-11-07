@@ -24,15 +24,13 @@ status: validated
 ## Core Idea
 A sequence of functions (fₙ) converges pointwise to f if for every x and every ε > 0, there exists N (depending on both x and ε) such that n > N implies |fₙ(x) - f(x)| < ε. This is the weakest notion of convergence for functions. Pointwise limits can have surprising properties: a sequence of continuous functions can converge pointwise to a discontinuous function.
 
-## Explainer
+## How It's Best Learned
+Separate two steps on fₙ(x) = nx/(1 + n²x²) on [0, 1]. First fix x and take the ordinary limit. At x = 0 every term is 0, and for x > 0 the terms behave like 1/(nx), so the limit is 0 everywhere. Then evaluate along the moving point x = 1/n, where fₙ(1/n) = 1/2 for every n. That second step shows convergence is not uniform, even though the limit is continuous.
 
-From your study of ε-N convergence for sequences of real numbers, you know how to formalize "aₙ approaches L." Pointwise convergence of function sequences extends this idea to functions: instead of a single sequence of numbers, you have a sequence of functions f₁, f₂, f₃, ..., each mapping a set S into ℝ, and you ask whether these functions approach a limit function f. The word "pointwise" means you check convergence one point at a time: for each fixed x ∈ S, does the numerical sequence f₁(x), f₂(x), f₃(x), ... converge to f(x)?
-
-Formally, fₙ → f pointwise on S if: for every x ∈ S and every ε > 0, there exists N (which may depend on both x and ε) such that n > N implies |fₙ(x) − f(x)| < ε. The crucial feature is that N is chosen **after** x is fixed — different points in S may converge at wildly different speeds. This is the weakest natural notion of convergence for functions, and it gives the analyst very little control over the behavior of the limit function.
-
-The standard example that reveals the limitations is fₙ(x) = xⁿ on [0, 1]. Every fₙ is a smooth, continuous function. At any fixed x ∈ [0, 1), since |x| < 1, the powers xⁿ decay to 0. At x = 1, every power is 1. So the pointwise limit is f(x) = 0 for x < 1 and f(1) = 1 — a function with a jump discontinuity at x = 1. The limit of continuous functions has failed to be continuous. The reason is that near x = 1, the convergence is extremely slow: for x = 1 − 1/n, we have fₙ(x) = (1 − 1/n)ⁿ ≈ 1/e, still far from 0. No single N can make fₙ uniformly close to f across all of [0, 1].
-
-This failure motivates the stronger notion of **uniform convergence**, where N must work for all x simultaneously. Uniform convergence preserves continuity: if each fₙ is continuous and fₙ → f uniformly, then f is continuous. It also preserves integrability and, under additional hypotheses, differentiability. Pointwise convergence guarantees none of these. The conceptual lesson is that convergence of functions is a fundamentally richer subject than convergence of numbers — the spatial variation of convergence speed creates phenomena that have no analogue in the theory of numerical sequences, and distinguishing pointwise from uniform convergence is one of the central achievements of nineteenth-century analysis.
+## Common Misconceptions
+- If the pointwise limit is continuous, the convergence must be uniform. (nx/(1 + n²x²) converges to the continuous function 0, but its value at x = 1/n stays 1/2.)
+- You can find the pointwise limit by letting x move with n. (The definition fixes x first; plugging in x = 1/n gives 1/2, which is not the limit at any fixed point.)
+- A pointwise limit of differentiable functions is differentiable. (Each xⁿ is differentiable, but the limit on [0, 1] is not even continuous at 1.)
 
 ## Questions
 
@@ -72,3 +70,13 @@ This failure motivates the stronger notion of **uniform convergence**, where N m
   answer: "Pointwise convergence asks, for each fixed x, whether fₙ(x) → f(x) as a sequence of real numbers. Since each x is treated independently, the rate of convergence can vary across x, so we need an N that is large enough for that particular x. Requiring N to be independent of x — to work simultaneously for all x — is exactly the definition of uniform convergence, a strictly stronger condition. In the xⁿ example, near x = 1 the sequence converges very slowly (you need a huge N to get xⁿ below any fixed ε), while near x = 0 it converges immediately. No single N can handle all x values at once, so the convergence is pointwise but not uniform."
   explanation: "The philosophical point: pointwise convergence is a statement about infinitely many sequences of numbers (one sequence per x), each converging in its own time. Uniform convergence is a statement about a single sequence of functions converging as a whole object. The gap between them is where continuity, integrability, and differentiability can break: operations that commute with limits for sequences of numbers may fail when functions converge only pointwise."
 ```
+
+## Explainer
+
+From your study of ε-N convergence for sequences of real numbers, you know how to formalize "aₙ approaches L." Pointwise convergence of function sequences extends this idea to functions: instead of a single sequence of numbers, you have a sequence of functions f₁, f₂, f₃, ..., each mapping a set S into ℝ, and you ask whether these functions approach a limit function f. The word "pointwise" means you check convergence one point at a time: for each fixed x ∈ S, does the numerical sequence f₁(x), f₂(x), f₃(x), ... converge to f(x)?
+
+Formally, fₙ → f pointwise on S if: for every x ∈ S and every ε > 0, there exists N (which may depend on both x and ε) such that n > N implies |fₙ(x) − f(x)| < ε. The crucial feature is that N is chosen **after** x is fixed — different points in S may converge at wildly different speeds. This is the weakest natural notion of convergence for functions, and it gives the analyst very little control over the behavior of the limit function.
+
+The standard example that reveals the limitations is fₙ(x) = xⁿ on [0, 1]. Every fₙ is a smooth, continuous function. At any fixed x ∈ [0, 1), since |x| < 1, the powers xⁿ decay to 0. At x = 1, every power is 1. So the pointwise limit is f(x) = 0 for x < 1 and f(1) = 1 — a function with a jump discontinuity at x = 1. The limit of continuous functions has failed to be continuous. The reason is that near x = 1, the convergence is extremely slow: for x = 1 − 1/n, we have fₙ(x) = (1 − 1/n)ⁿ ≈ 1/e, still far from 0. No single N can make fₙ uniformly close to f across all of [0, 1].
+
+This failure motivates the stronger notion of **uniform convergence**, where N must work for all x simultaneously. Uniform convergence preserves continuity: if each fₙ is continuous and fₙ → f uniformly, then f is continuous. It also preserves integrability and, under additional hypotheses, differentiability. Pointwise convergence guarantees none of these. The conceptual lesson is that convergence of functions is a fundamentally richer subject than convergence of numbers — the spatial variation of convergence speed creates phenomena that have no analogue in the theory of numerical sequences, and distinguishing pointwise from uniform convergence is one of the central achievements of nineteenth-century analysis.

@@ -32,6 +32,14 @@ status: validated
 ## Core Idea
 Atmospheric stability (determined by the vertical temperature gradient) determines whether convection occurs. When the environmental lapse rate exceeds the adiabatic lapse rate, the atmosphere becomes unstable. Moist convection on water-rich planets differs fundamentally from dry convection, affecting energy transport and cloud structure.
 
+## How It's Best Learned
+Trace parcels on a temperature-altitude plot. Take an environment at 20°C that cools at 7°C/km. Lift a dry parcel 1 km: it reaches 10.2°C against 13°C outside, so it sinks back. Lift a saturated parcel 1 km at 5°C/km: it reaches 15°C, warmer than 13°C, so it keeps rising.
+
+## Common Misconceptions
+- The dry adiabatic lapse rate is 9.8°C/km on every planet. (The dry rate equals gravity divided by the gas's specific heat capacity, g/c_p. It differs from planet to planet.)
+- The moist adiabatic lapse rate is a fixed number, about 5°C/km. (It depends on temperature and pressure. It is smallest in warm, humid air and approaches the dry rate in cold air that holds little vapor.)
+- A stable atmosphere has no vertical air motion. (Air can still be forced upward by mountains, fronts, or waves. Stability means a displaced parcel is pushed back toward its starting level.)
+
 ## Questions
 
 ```yaml

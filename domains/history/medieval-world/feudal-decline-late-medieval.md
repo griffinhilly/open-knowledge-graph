@@ -34,6 +34,14 @@ status: validated
 ## Core Idea
 By the 14th–15th centuries, feudalism declined as centralized nation-states emerged, professional armies replaced feudal levies, commerce displaced land-based wealth, and peasants gained leverage due to labor scarcity (especially after the Black Death). Wars of the Roses and the Hundred Years' War demonstrated that feudal cavalry could not compete with massed infantry and early firearms. The rise of the merchant class and banking eroded the feudal assumption that land was the primary source of power.
 
+## How It's Best Learned
+List the three premises feudalism rested on: land as the main source of wealth, cavalry as the decisive force, and plentiful peasant labor. Under each, write the late medieval change that weakened it: merchant and banking wealth, infantry and paid armies, and the labor shortage after the Black Death. Then date each change to see that they overlapped rather than came in sequence.
+
+## Common Misconceptions
+- A law or event abolished feudalism. (No single act ended it. Its functions were slowly taken over by paid armies, taxation, and royal courts, and some feudal forms lasted for centuries.)
+- After the Black Death, peasants were set free at once. (Many lords and governments tried to hold down wages and restrict movement, as with England's labor laws after the plague. Peasants gained bargaining power, but struggle over terms went on for generations, as the Peasants' Revolt of 1381 shows.)
+- Knights vanished once infantry could defeat them. (Armored cavalry stayed in use through the 15th century. Its role changed, and nobles increasingly served as paid commanders rather than as vassals owing service.)
+
 ## Questions
 
 ```yaml
@@ -55,7 +63,7 @@ By the 14th–15th centuries, feudalism declined as centralized nation-states em
     - "The Church banned feudal land tenure as inconsistent with canon law, forcing rulers to find alternative ways to compensate soldiers"
     - "Trade guilds successfully lobbied for the abolition of feudal obligations in exchange for tax revenues"
   answer: 1
-  explanation: "The military transformation is the direct mechanism: at Crécy (1346) and throughout the Hundred Years' War, disciplined infantry and early firearms demonstrated that feudal cavalry — the physical embodiment of the vassal's obligation — could be defeated cheaply by massed footsoldiers. Kings discovered they needed cash to hire professional mercenaries, not more land to grant. This required taxation, which required administrative infrastructure. The apparatus of the modern state grew from this fiscal imperative. Option B is incorrect: the Church's position on feudal tenure was not the operative factor."
+  explanation: "The military transformation is the direct mechanism: at Crécy (1346) and throughout the Hundred Years' War, disciplined infantry and early firearms demonstrated that feudal cavalry — the physical embodiment of the vassal's obligation — could be defeated cheaply by massed footsoldiers. Kings discovered they needed cash to hire professional mercenaries, not more land to grant. This required taxation, which required administrative infrastructure. The apparatus of the modern state grew from this fiscal imperative. Option C is incorrect: the Church's position on feudal tenure was not the operative factor."
 
 - question: "Feudalism declined primarily because of the Black Death, which fatally disrupted the system by killing too many peasants for manors to remain economically viable."
   type: true-false

@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 If gcd(a, n) = 1, then a^φ(n) ≡ 1 (mod n), where φ is Euler's totient function. This generalizes Fermat's Little Theorem (where n = p gives φ(p) = p−1) and is essential for understanding RSA cryptography and computing modular exponentiation.
 
+## How It's Best Learned
+Run the rearrangement proof on n = 15, where φ(15) = 8 and the units are 1, 2, 4, 7, 8, 11, 13, 14. Multiply each by 2 and reduce to get 2, 4, 8, 1, 7, 11, 13, 14 in some order. Then compute 7²²² mod 15: since 222 ≡ 6 (mod 8), the answer is 7⁶ = 7⁴ · 7² ≡ 1 · 4 = 4.
+
+## Common Misconceptions
+- φ(n) is the smallest exponent that sends every unit to 1. (It is a guaranteed exponent, and the order of a unit divides it. Mod 15, every unit satisfies a⁴ ≡ 1, though φ(15) = 8.)
+- For any modulus n, a^(n−1) ≡ 1 (mod n) when gcd(a, n) = 1. (That is Fermat's form and holds for primes. For composite n it usually fails: 2¹⁴ ≡ 4 (mod 15).)
+- You can reduce exponents mod φ(n) whatever the base. (The rule needs gcd(a, n) = 1. Mod 12, 2⁵ = 32 ≡ 8, but 2^(5 mod 4) = 2.)
+
 ## Questions
 
 ```yaml

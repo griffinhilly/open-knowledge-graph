@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Branched-chain amino acids (leucine, isoleucine, valine) are catabolized primarily in muscle, not liver, via transamination and oxidative decarboxylation by the branched-chain α-keto acid dehydrogenase complex. Leucine is purely ketogenic and a powerful activator of mTOR signaling; isoleucine and valine are glucogenic.
 
+## How It's Best Learned
+Draw leucine, isoleucine and valine in three columns that share two rows: BCAT transamination, then BCKDH oxidative decarboxylation. Below that, let the columns split to their end products: acetoacetate and acetyl-CoA, succinyl-CoA plus acetyl-CoA, and succinyl-CoA. Then line up BCKDH beside pyruvate dehydrogenase and match the five cofactors one by one. Finally, mark the MSUD block and list what accumulates.
+
+## Common Misconceptions
+- BCAAs are broken down mainly in the liver, like most amino acids. (The first step happens largely in skeletal muscle, because the liver has low BCAT activity.)
+- In maple syrup urine disease the BCAAs cannot be transaminated. (Transamination still works; the block is at BCKDH, so the branched-chain α-keto acids build up.)
+- Leucine's acetyl-CoA can become glucose by passing through the citric acid cycle. (Each turn of the cycle loses two carbons as CO₂, so acetyl-CoA gives no net oxaloacetate in mammals.)
+- Isoleucine is purely glucogenic, like valine. (Isoleucine yields both succinyl-CoA and acetyl-CoA, so it is both glucogenic and ketogenic.)
+
 ## Questions
 
 ```yaml
@@ -47,7 +56,7 @@ Branched-chain amino acids (leucine, isoleucine, valine) are catabolized primari
   answer: 1
   explanation: "Valine is purely glucogenic — its carbon skeleton yields succinyl-CoA, a citric acid cycle intermediate that can feed gluconeogenesis. Leucine is purely ketogenic: its products (acetoacetate and acetyl-CoA) cannot contribute to net glucose synthesis in mammals. Isoleucine is both — it yields succinyl-CoA (glucogenic) and acetyl-CoA (ketogenic). Options C and D describe reactions that do not occur in mammalian metabolism."
 
-- question: "Leucine is the only purely ketogenic common amino acid, meaning its carbon skeleton cannot be used for net glucose synthesis."
+- question: "Leucine is a purely ketogenic amino acid, meaning its carbon skeleton cannot be used for net glucose synthesis."
   type: true-false
   answer: true
   explanation: "Leucine's catabolism ultimately yields acetoacetate and acetyl-CoA — both ketogenic products. Because mammalian metabolism cannot achieve net conversion of acetyl-CoA to oxaloacetate (the glyoxylate cycle is absent), these products cannot contribute to gluconeogenesis. This distinguishes leucine from valine (purely glucogenic, yields succinyl-CoA) and isoleucine (both, yields succinyl-CoA and acetyl-CoA). During fasting, leucine carbons go to ketone body production, not glucose."
@@ -69,6 +78,6 @@ From your study of amino acid degradation, you know that each amino acid's carbo
 
 The first step in BCAA catabolism is **transamination** by branched-chain aminotransferase (BCAT), which transfers the amino group to α-ketoglutarate, producing glutamate and the corresponding **branched-chain α-keto acid**. This step is reversible and occurs in muscle and other peripheral tissues. The second step is the committed, irreversible reaction: **oxidative decarboxylation** by the **branched-chain α-keto acid dehydrogenase complex (BCKDH)**. If this enzyme complex sounds familiar from your cofactor studies, it should — BCKDH is structurally and mechanistically analogous to the pyruvate dehydrogenase complex and the α-ketoglutarate dehydrogenase complex. Like those enzymes, it requires five cofactors: thiamine pyrophosphate (TPP), lipoic acid, CoA, FAD, and NAD⁺. It removes CO₂ and generates an acyl-CoA product. BCKDH is regulated by phosphorylation (inactivation) and dephosphorylation (activation), providing fine control over the rate of BCAA breakdown.
 
-After the BCKDH reaction, the three pathways diverge. **Leucine** is purely ketogenic: its carbon skeleton is ultimately converted to acetoacetate and acetyl-CoA, which can enter the citric acid cycle for energy but cannot be used for net glucose synthesis. This makes leucine unique among the common amino acids and particularly important during fasting, when its carbons contribute to ketone body production. **Valine** is purely glucogenic, yielding succinyl-CoA — a citric acid cycle intermediate that can feed into gluconeogenesis. **Isoleucine** is both glucogenic and ketogenic, producing both succinyl-CoA and acetyl-CoA.
+After the BCKDH reaction, the three pathways diverge. **Leucine** is purely ketogenic: its carbon skeleton is ultimately converted to acetoacetate and acetyl-CoA, which can enter the citric acid cycle for energy but cannot be used for net glucose synthesis. Leucine and lysine are the only purely ketogenic common amino acids, which makes leucine particularly important during fasting, when its carbons contribute to ketone body production. **Valine** is purely glucogenic, yielding succinyl-CoA — a citric acid cycle intermediate that can feed into gluconeogenesis. **Isoleucine** is both glucogenic and ketogenic, producing both succinyl-CoA and acetyl-CoA.
 
 The clinical significance of this pathway is dramatic. A deficiency in the BCKDH complex causes **maple syrup urine disease** (MSUD), named for the characteristic sweet odor of the accumulated branched-chain α-keto acids in urine. Without functional BCKDH, these keto acids accumulate to toxic levels, causing severe neurological damage if untreated. Beyond pathology, BCAAs — especially leucine — play a signaling role that extends beyond their caloric value. Leucine is a potent activator of the **mTOR pathway**, which stimulates muscle protein synthesis. This is why BCAAs are heavily marketed as exercise supplements: leucine directly signals muscle cells to build protein, independent of its role as a metabolic fuel. Understanding the BCAA pathway thus connects enzymology, metabolic logic, clinical medicine, and the molecular basis of muscle growth.

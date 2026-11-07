@@ -22,7 +22,16 @@ status: validated
 # Pentose Phosphate Pathway
 
 ## Core Idea
-The pentose phosphate pathway (hexose monophosphate shunt) is an alternative route for glucose metabolism that generates NADPH (for biosynthesis and antioxidant defense) and ribose-5-phosphate (for nucleotide synthesis). The pathway has an oxidative phase producing NADPH and a reductive phase (non-oxidative) that reversibly converts glucose-6-phosphate into three-, four-, five-, six-, and seven-carbon sugars. The pathway is regulated by NADPH availability and the cell's biosynthetic needs rather than by energy status.
+The pentose phosphate pathway (hexose monophosphate shunt) is an alternative route for glucose metabolism that generates NADPH (for biosynthesis and antioxidant defense) and ribose-5-phosphate (for nucleotide synthesis). The pathway has an oxidative phase producing NADPH and a non-oxidative phase that reversibly interconverts three-, four-, five-, six-, and seven-carbon sugar phosphates. The pathway is regulated by NADPH availability and the cell's biosynthetic needs rather than by energy status.
+
+## How It's Best Learned
+Do the carbon bookkeeping for three glucose-6-phosphate molecules (18 carbons). The oxidative phase gives 3 ribulose-5-phosphate (15 carbons), 3 CO₂, and 6 NADPH. The non-oxidative phase then turns the 3 pentoses into 2 fructose-6-phosphate and 1 glyceraldehyde-3-phosphate (12 + 3 = 15 carbons). Next, sketch how the cell runs the phases differently when it needs mainly NADPH, mainly ribose, or both.
+
+## Common Misconceptions
+- The pentose phosphate pathway is a backup way to make ATP from glucose. (Its products are NADPH and ribose-5-phosphate; it makes no ATP directly.)
+- NADPH from this pathway can be used in the electron transport chain like NADH. (NADPH serves as the reductant for biosynthesis and glutathione regeneration; cells keep the NADPH and NADH pools largely separate.)
+- The two phases always run together in a fixed ratio. (The non-oxidative phase is reversible and can make ribose-5-phosphate from glycolytic intermediates with no oxidative step, or recycle pentoses when only NADPH is needed.)
+- G6PD deficiency harms every cell type equally. (Red blood cells are hit hardest because they lack mitochondria and depend on this pathway for the NADPH that keeps glutathione reduced.)
 
 ## Questions
 
@@ -60,6 +69,7 @@ The pentose phosphate pathway (hexose monophosphate shunt) is an alternative rou
 - question: "Why does the pentose phosphate pathway branch off at glucose-6-phosphate rather than at a later glycolytic intermediate? Name the two principal products the PPP provides that glycolysis cannot."
   type: short-answer
   answer: "Glucose-6-phosphate is the first committed metabolite after glucose enters the cell — a metabolic branch point before any ATP-generating steps have occurred. Branching here allows the cell to divert glucose toward biosynthetic support before committing it to energy production. If the branch point were later (e.g., at pyruvate), the cell would have already spent glucose's biosynthetic potential on ATP generation. The two principal products glycolysis cannot supply: (1) NADPH — the cytoplasmic reducing coenzyme required for fatty acid synthesis, cholesterol synthesis, steroid hormone synthesis, and glutathione regeneration for antioxidant defense; (2) ribose-5-phosphate — the five-carbon sugar backbone of all nucleotides (ATP, GTP, NAD, FAD, and the building blocks of DNA and RNA). Together, these two products support the biosynthetic and protective functions that are essential for cell growth and survival under oxidative stress."
+  explanation: "Glucose-6-phosphate sits before phosphofructokinase-1, the committed step of glycolysis, so carbon taken here has not yet been sent toward pyruvate. Glycolysis cannot supply either product: its one oxidation step reduces NAD⁺ to NADH, not NADP⁺ to NADPH, and every glycolytic intermediate has either three or six carbons, so it never forms a pentose. The pentose phosphate pathway fills both gaps from the same starting molecule."
 ```
 
 ## Explainer

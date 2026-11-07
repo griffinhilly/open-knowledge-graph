@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Litter decomposition creates soil organic matter and develops soil structure, fertility, and water-holding capacity. Decomposition rate differs among litter types (fast for legume leaves, slow for wood); tropical forests have rapid turnover while boreal forests accumulate organic matter. Soil formation is a long-term process—it takes centuries to form meaningful soil depth.
 
+## How It's Best Learned
+Use the steady-state rule: litter on the ground equals yearly input divided by the decay rate k. Suppose a tropical forest drops 10 units per year with k = 2, and a boreal forest drops 3 units with k = 0.2. The tropical floor holds 5 units and the boreal floor 15. Then compare litterbags of legume leaves, pine needles, and wood to see litter quality at work.
+
+## Common Misconceptions
+- Lush tropical forests must grow on rich soil. (Much of the nutrient stock is held in living plants. Fast decomposition returns nutrients to roots quickly, so the soil itself is often poor once the forest is cleared.)
+- More litterfall always means a thicker litter layer. (Layer thickness depends on input and decay rate together. Cold boreal forests build thick layers from modest inputs because decay is slow.)
+- All dead leaves break down at about the same speed. (Litter rich in nitrogen and low in lignin decomposes much faster than waxy needles or wood.)
+- Soil lost to erosion is quickly replaced. (Topsoil forms over hundreds of years, so losses on human timescales are effectively permanent.)
+
 ## Questions
 
 ```yaml

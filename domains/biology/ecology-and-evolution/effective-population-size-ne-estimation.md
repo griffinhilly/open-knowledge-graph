@@ -33,6 +33,14 @@ status: validated
 ## Core Idea
 Effective population size (Ne) is the number of individuals in an idealized population with the same genetic drift rate as the actual population. Ne is typically much smaller than census size (N) due to unequal sex ratios, variation in reproductive success, and fluctuating population size. Ne can be estimated from heterozygosity change, linkage disequilibrium, or molecular data. Ne < 50 risks inbreeding depression; Ne > 500 maintains evolutionary potential.
 
+## How It's Best Learned
+Run a toy version of the temporal method. Drift makes allele frequencies wander with variance of about p(1 − p) / (2Ne) per generation. If loci start near p = 0.5 and their one-generation changes have a variance of 0.0025, then Ne ≈ 0.25 / (2 × 0.0025) = 50, ignoring sampling noise. Then rework the sex-ratio formula with your own numbers to see which factor drives Ne down most.
+
+## Common Misconceptions
+- Ne equals the number of adults that breed. (Even when every adult breeds, unequal numbers of offspring per parent make drift stronger and push Ne lower.)
+- Ne is the census size times a fixed correction factor. (The Ne/N ratio differs among populations and depends on sex ratio, breeding variance and the history of size changes.)
+- Different estimation methods should give the same Ne. (Temporal and linkage disequilibrium methods mostly reflect recent generations, while coalescent methods reflect long-term history, so their estimates can differ.)
+
 ## Questions
 
 ```yaml

@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 An algebraic integer is a complex root of a monic integer polynomial. Algebraic integers in a number field K form a ring, generalizing ℤ. Gaussian integers ℤ[i] and Eisenstein integers ℤ[ω] exemplify this structure.
 
+## How It's Best Learned
+Sort a list of candidates by finding each one's minimal polynomial: √2 (x² − 2), (1 + √5)/2 (x² − x − 1) and ω (x² + x + 1) pass, while 1/2 and (1 + √3)/2 (x² − x − 1/2) fail. Then work out exactly when (a + b√d)/2 with odd a and b is integral. Requiring its trace a and norm (a² − db²)/4 to be integers forces d ≡ 1 (mod 4).
+
+## Common Misconceptions
+- Any root of a polynomial with integer coefficients is an algebraic integer. (The polynomial must be monic. The number 1/2 is a root of 2x − 1 but of no monic integer polynomial.)
+- A number written with a denominator, like (1 + √5)/2, cannot be an algebraic integer. (The golden ratio (1 + √5)/2 satisfies x² − x − 1 = 0, so it is an algebraic integer.)
+- The ring of integers of ℚ(√d) is ℤ[√d] for every squarefree d. (When d ≡ 1 (mod 4) it is the larger ring ℤ[(1 + √d)/2], as with ℤ[ω] in ℚ(√−3).)
+- If a number satisfies some non-monic integer polynomial, that shows it is not an algebraic integer. (√2 satisfies 2x² − 4 = 0 and is still an algebraic integer. The right test is whether its monic minimal polynomial over ℚ has integer coefficients.)
+
 ## Questions
 
 ```yaml

@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 The Fundamental Theorem has two parts: (1) if f is continuous on [a,b] and F(x) = ∫ₐˣ f, then F'(x) = f(x); (2) if F is continuous on [a,b], differentiable on (a,b), and F' is integrable, then ∫ₐᵇ F'(x) dx = F(b) - F(a). Together, they formalize that differentiation and integration are inverse operations. The rigorous proof requires uniform continuity and Darboux integrability.
 
+## How It's Best Learned
+Compute F(x) = ∫₀ˣ f for the step function with jump at 1/2: F is 0 up to 1/2 and x − 1/2 after, so F has a corner there. Then prove Part 2 with partitions. Write F(b) − F(a) as a telescoping sum over subintervals and apply the Mean Value Theorem on each piece. This turns it into a Riemann sum of F′, trapped between every lower and upper Darboux sum.
+
+## Common Misconceptions
+- If f is integrable, F(x) = ∫ₐˣ f is differentiable with F′ = f everywhere. (F is continuous, but F′(x) = f(x) is guaranteed only at points where f is continuous; the step function gives a corner.)
+- Part 2 has to be proved from Part 1. (That route needs f continuous; the partition argument with the Mean Value Theorem on each subinterval needs only that F′ is integrable.)
+- If F is differentiable on [a, b], then F′ is automatically integrable, so Part 2 always applies. (F(x) = x² sin(1/x²) with F(0) = 0 is differentiable on [−1, 1], but F′ is unbounded near 0 and so is not Riemann integrable.)
+
 ## Questions
 
 ```yaml

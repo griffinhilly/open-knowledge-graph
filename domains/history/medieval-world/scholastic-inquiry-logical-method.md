@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Scholastic method systematically applied Aristotelian logic to theological and philosophical questions, seeking to reconcile faith and reason. Scholars posed questions, gathered authorities, then resolved through logical argumentation. This rigorous method structured medieval intellectual inquiry and profoundly influenced university education.
 
+## How It's Best Learned
+Read one short article of the *Summa Theologiae*, such as Part I, Question 2, Article 3 ("Whether God exists"), and label each part: objections, sed contra, responsio, replies. Then write your own article in the same five-part form on an everyday question, such as whether a promise binds if keeping it causes harm. The hardest step is the replies, where you must say exactly what each objection gets wrong.
+
+## Common Misconceptions
+- Scholastics spent their time debating how many angels can dance on the head of a pin. (No medieval text is known to pose the question in that form. It appears to be a later jibe at scholastic subtlety.)
+- The sed contra states the author's own answer. (It is usually a short appeal to authority that signals the direction of the answer. The author's argued position comes in the responsio.)
+- Scholastic reasoning aimed to prove every article of faith by logic. (Aquinas, for example, held that some doctrines, such as the Trinity, cannot be proved by natural reason. Reason could defend and clarify them, but they rested on revelation.)
+
 ## Questions
 
 ```yaml
@@ -35,7 +43,7 @@ Scholastic method systematically applied Aristotelian logic to theological and p
     - "The scholastic method was designed for popular sermons, not rigorous academic dispute"
     - "Scholastics only used ancient Greek philosophical texts, excluding Christian scripture"
   answer: 1
-  explanation: "The scholastic method was procedurally disciplined in ways that mere citation is not. Citing an authority was necessary but not sufficient — you had to construct a syllogistic argument showing how the authority's claim, as a premise, led to your conclusion. Crucially, the method required generating and then answering every serious objection individually in the responsio, showing exactly where each objection went wrong. This made evasion or selective citation visible: an unanswered objection was a gap in the argument. The structure made intellectual accountability public and formal."
+  explanation: "The scholastic method was procedurally disciplined in ways that mere citation is not. Citing an authority was necessary but not sufficient — you had to construct a syllogistic argument showing how the authority's claim, as a premise, led to your conclusion. Crucially, the method required generating and then answering every serious objection individually in the replies after the responsio, showing exactly where each objection went wrong. This made evasion or selective citation visible: an unanswered objection was a gap in the argument. The structure made intellectual accountability public and formal."
 
 - question: "In Aquinas's Summa Theologiae, the 'responsio' to a quaestio often works by introducing distinctions rather than simply asserting a position. What function do these distinctions serve?"
   type: multiple-choice

@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Life history traits evolve under selection and vary with environmental conditions. In unstable or resource-rich environments, r-selected species maximize growth rate through early maturation, high fecundity, and short lifespans. In stable or resource-limited environments, K-selected species maximize competitive ability through late maturation, low fecundity, and long lifespans. Most species lie on a continuum between these extremes.
 
+## How It's Best Learned
+Draw a logistic growth curve and mark two points: one far below K and one near K. At each point, ask which trait wins, more offspring sooner or fewer offspring that compete better. Then place a mosquito, a dandelion, an oak, and an elephant along an r-to-K line, and give each placement a reason based on maturation age, offspring number, and parental care.
+
+## Common Misconceptions
+- r-selected species are less evolved or less successful than K-selected species. (Each strategy fits a different environment. Fast reproduction suits habitats where populations are often knocked below carrying capacity.)
+- Every species is either r-selected or K-selected. (Species fall along a continuum, and placement is relative to the organisms being compared.)
+- Large body size alone makes a species K-selected. (The framework is about how reproductive effort is allocated: timing of maturity, number of offspring, and investment per offspring.)
+- r/K selection is the complete modern theory of life histories. (Current life history theory works from age-specific mortality and reproduction schedules. The r/K framework is kept as an intuitive starting point.)
+
 ## Questions
 
 ```yaml

@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Charlemagne (768–814) expanded Frankish territory through conquest and reorganized it as a Christian empire, crowned emperor by the Pope in 800. His reign represented an attempt to recreate Roman imperial authority and revive learning through the Carolingian Renaissance. Though his empire fragmented quickly after his death, it established lasting models for medieval kingship and church–state relations.
 
+## How It's Best Learned
+Use a map of Frankish lands in 768 and in 814, and shade each conquest: Lombard Italy, Saxony, the Avar lands, the Spanish March. Then sort Charlemagne's work into three columns: conquest, government (counts, missi dominici), and learning (schools, script, copied texts). Mark which column survived the split at Verdun in 843. The cultural column lasts longest.
+
+## Common Misconceptions
+- Charlemagne rebuilt the Roman Empire as it had been. (His empire was Frankish and Christian, and it ran on personal loyalty and local counts rather than Rome's salaried bureaucracy and regular taxation.)
+- Charlemagne himself was a great scholar. (He sponsored scholars such as Alcuin of York. His biographer Einhard says he tried to learn to write late in life with little success.)
+- Everyone in Christendom accepted the coronation of 800. (The court in Constantinople saw itself as the only Roman empire and was slow to accept a Western emperor.)
+
 ## Questions
 
 ```yaml

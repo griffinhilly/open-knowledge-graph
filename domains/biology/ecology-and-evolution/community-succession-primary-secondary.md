@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Primary succession begins on bare rock or newly formed substrate where no soil exists (volcanic islands, glacial retreats). Secondary succession follows disturbance in established communities with intact soil (fire, logging). Early successional stages are dominated by pioneer species with high dispersal; later stages have higher diversity and longer-lived species.
 
+## How It's Best Learned
+Sort a set of disturbance cards by one question: is soil left behind? Use a new lava flow, a burned forest, an abandoned cornfield, rock exposed by a retreating glacier, a clearcut and a landslide that strips the ground to bedrock. Then put each on a rough timeline to forest. The sorting rule (soil or no soil) also predicts which sites recover in decades and which take centuries.
+
+## Common Misconceptions
+- A very severe disturbance causes primary succession. (The type depends on whether soil remains. Even an intense forest fire usually leaves mineral soil, so the recovery that follows is secondary succession.)
+- Succession runs through the same fixed sequence of stages every time. (Arrival order, inhibition and tolerance can send sites with similar starting conditions along different paths.)
+- The climax community is a permanent endpoint. (It is better seen as a dynamic state that persists until the next disturbance, which can occur at many scales.)
+
 ## Questions
 
 ```yaml

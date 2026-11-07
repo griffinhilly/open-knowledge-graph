@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 If f(x) ≡ 0 (mod p) has a solution a with f'(a) ≢ 0 (mod p), then a lifts uniquely to a solution in ℤ_p. This enables solving congruences modulo p^k iteratively and extends to polynomial equations over p-adic numbers.
 
+## How It's Best Learned
+Lift a root of f(x) = x² + 1 modulo powers of 5, using the new root a + tp^k with t ≡ −(f(a)/p^k) · f′(a)⁻¹ (mod p). Start from 2² ≡ −1 (mod 5). Then f(2)/5 = 1 gives t = 1 and the lift 7, with 7² + 1 = 50. Next f(7)/25 = 2 gives t = 2 and the lift 57, with 57² + 1 = 3250 = 26 · 125.
+
+## Common Misconceptions
+- If f′(a) ≡ 0 (mod p), then there is no p-adic root near a. (The lemma just stops guaranteeing anything. For x² − 9 and p = 3, the root 0 mod 3 has f′(0) = 0, yet x = 3 is an exact root.)
+- Hensel lifting finds rational or integer roots. (It produces p-adic roots. The lifts 2, 7, 57, ... converge to a root of x² + 1 in ℤ₅, though x² + 1 has no rational root.)
+- Lifting to higher powers of p creates more and more solutions. (Each simple root mod p has exactly one lift at each level. The congruence x² ≡ −1 has exactly two solutions mod 5ᵏ for every k ≥ 1.)
+
 ## Questions
 
 ```yaml

@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Icy moons like Europa, Enceladus, and Titan harbor subsurface oceans maintained by tidal heating and interior radioactivity. These oceans potentially provide suitable environments for life—liquid water, chemical energy from hydrothermal vents at the ocean-rock boundary, and chemical diversity. Interior ocean worlds expand the concept of habitable zones beyond stellar habitable zones.
 
+## How It's Best Learned
+Make a table for Europa, Enceladus, Titan, and Ganymede with three columns: the evidence for an ocean, the main heat source, and whether the ocean likely touches rock. Ganymede's ocean is thought to sit between ice layers, so it makes a useful contrast. Then work out the sunlight at Jupiter's 5.2 AU, about 1/27 of Earth's, to see why sunlight cannot be the heat source.
+
+## Common Misconceptions
+- Finding organic molecules in Enceladus's plumes means life has been found there. (Organic molecules can form without life. They show that ingredients are present, not that organisms are.)
+- Every icy moon has a subsurface ocean. (An ocean needs enough heat to stay liquid, from tides, radioactivity, or both. Many small icy moons show no evidence of one.)
+- Liquid water is all an ocean needs to be habitable. (Life also needs an energy source and chemical ingredients. Water-rock reactions at the seafloor are one way an ocean could get both.)
+
 ## Questions
 
 ```yaml

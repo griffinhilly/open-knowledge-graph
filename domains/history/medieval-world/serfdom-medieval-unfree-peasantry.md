@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Serfdom was a legal status binding peasants to specific lands and lords, distinguishing them from both slaves and free persons. Serfs owed labor services, rents, and obligations to lords, but held use rights to land and some legal protections. This status created the labor foundation of feudalism and manorial agriculture.
 
+## How It's Best Learned
+Make a three-column table for a slave, a serf and a free tenant. Fill rows for: can be sold, can leave, can marry freely, holds land, which court hears them, and what they owe. Then follow one serf family through a year on the manor. Note each payment as it comes due: weekly labor days, rent, a marriage fee (merchet), a death payment (heriot). The pattern of obligations becomes concrete.
+
+## Common Misconceptions
+- Nearly every medieval peasant was a serf. (The share of unfree peasants varied widely by region and period. Many peasants were legally free tenants who owed rent but not servile dues.)
+- Serfs were the poorest people in the village. (Legal status and wealth did not line up neatly. Some serfs held large plots and were better off than free cottagers or landless laborers.)
+- Serfdom and feudalism mean the same thing. (In the narrow sense, feudalism describes bonds between lords and their vassals. Serfdom describes the dependent status of peasants under a lord.)
+- Once a serf, a family stayed serfs forever. (Serfs could be freed by their lords, buy their freedom, or escape. Some towns granted freedom to a serf who lived there for a year and a day.)
+
 ## Questions
 
 ```yaml

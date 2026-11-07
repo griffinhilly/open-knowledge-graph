@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Contemporary YA increasingly employs dual or multiple first-person perspectives, allowing readers to experience events from different characters' viewpoints and ideologies. This structure creates dramatic irony, highlights the subjectivity of perception, and distributes narrative authority. Multi-perspective narration has become a formal strategy for representing complexity and relationality in YA narratives.
 
+## How It's Best Learned
+Choose one event that two narrators of the same novel both describe, and set the two accounts side by side. Mark what each narrator knows, leaves out, and misreads, and note what the reader knows that neither character does. Then rewrite a short paragraph of one account in the other narrator's voice and see what has to change.
+
+## Common Misconceptions
+- Using several narrators makes a novel objective. (Each narrator is still partial; the structure sets limited views against each other and may leave gaps that none of them fills.)
+- Alternating narrators is mainly a way to cover more plot. (The alternation creates dramatic irony and lets readers compare how characters interpret the same events, which shapes the book's themes.)
+- Every narrator in a multi-perspective novel carries equal weight. (Authors often give one narrator more chapters or the final word, and a narrator can withhold or misreport events, so readers should ask whose version the book favors.)
+
 ## Questions
 
 ```yaml
@@ -57,7 +65,8 @@ Contemporary YA increasingly employs dual or multiple first-person perspectives,
 
 - question: Analyze a YA novel with dual or multiple perspectives. How does alternating between different characters' viewpoints create dramatic irony or reveal complexity unavailable from single perspective? What does the structure suggest about the conflict or relationships in the novel?
   type: short-answer
-  explanation: 'Your answer should identify moments where dramatic irony emerges—where readers know something one character doesn''t, where the same event appears different from different perspectives. For example, in ''It Ends with Us'' or similar dual-perspective narratives, readers understand both characters'' experiences and perspectives, potentially building empathy for both while seeing where misunderstandings occur. The structure itself suggests that the conflict isn''t simple hero-versus-villain but involves multiple valid viewpoints. Multiple perspective narration allows exploration of relationality: characters don''t exist in isolation but in relationship to others, and their experiences fundamentally depend on perspective. This structure can be particularly effective for relationships involving misunderstanding, conflict, or complexity—showing why people with different experiences interpret the same event completely differently.'
+  answer: A strong answer names specific scenes where alternating narrators let the reader know what one character does not, or show one event interpreted in two ways. It then argues that the structure presents the conflict as a clash of partial, understandable viewpoints rather than a simple hero-versus-villain story.
+  explanation: 'Your answer should identify moments where dramatic irony emerges—where readers know something one character doesn''t, where the same event appears different from different perspectives. For example, in ''Eleanor & Park'' or similar dual-perspective narratives, readers understand both characters'' experiences and perspectives, potentially building empathy for both while seeing where misunderstandings occur. The structure itself suggests that the conflict isn''t simple hero-versus-villain but involves multiple valid viewpoints. Multiple perspective narration allows exploration of relationality: characters don''t exist in isolation but in relationship to others, and their experiences fundamentally depend on perspective. This structure can be particularly effective for relationships involving misunderstanding, conflict, or complexity—showing why people with different experiences interpret the same event completely differently.'
 ```
 
 ## Explainer

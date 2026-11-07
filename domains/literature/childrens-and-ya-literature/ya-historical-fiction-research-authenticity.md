@@ -23,6 +23,12 @@ Historical YA fiction navigates tension between historical accuracy and contempo
 ## How It's Best Learned
 Analyze YA historical fiction texts, examining how they balance historical detail with contemporary voice and identifying how they address underrepresented historical perspectives.
 
+## Common Misconceptions
+- A historical novel with modern-sounding dialogue shows the author did not do the research. (A contemporary register is often a deliberate choice for teen readers; research shows up in setting, customs, events and the constraints characters face.)
+- If every date and object in the book is correct, the novel is authentic. (Authenticity also depends on whether characters' attitudes, options and constraints fit the period; a book can get the facts right and still give a character freedoms the era would not have allowed.)
+- Historical fiction can stand in for a history lesson. (Novels invent characters, dialogue and inner lives, so readers should treat them as interpretations and check an author's note or other sources for what is documented.)
+- Writing a marginalized historical perspective is a matter of finding the right archive. (Records of such groups are often sparse or written by outsiders, so authors must imagine what the sources leave out and decide how to signal what is invented.)
+
 ## Questions
 
 ```yaml
@@ -58,6 +64,7 @@ Analyze YA historical fiction texts, examining how they balance historical detai
 
 - question: Consider a YA historical fiction novel set in a period with significant differences from contemporary values (slavery, restricted women's roles, etc.). How does the author balance historical realism with avoiding alienating readers? What are the ethical implications of these choices?
   type: short-answer
+  answer: Authors often give characters an accessible, partly modern inner voice while showing the real constraints and prejudices of the period, and they center marginalized characters' perspectives and resistance. The ethical stakes are whether modernized attitudes misrepresent the past, whether depicting prejudice risks normalizing it, and how to invent inner lives for people whose voices went unrecorded.
   explanation: 'Your answer should recognize that depicting historical injustice (slavery, racism, sexism) authentically might involve depicting prejudice, oppression, or hateful language while simultaneously avoiding alienating contemporary readers. Authors navigate this through: using contemporary attitudes in internal monologue while showing external constraints of the period; depicting discrimination realistically while centering marginalized characters'' perspectives and resistance; including historical context that makes injustice comprehensible. Ethical implications include: Does modernizing internal attitudes misrepresent the historical period? Does depicting period-accurate prejudice risk normalizing it? What happens when centering marginalized perspectives requires imagining internal lives for people whose voices were silenced? These tensions don''t have simple answers but require thoughtful authorial choices and reader awareness that historical fiction makes deliberate choices about what to emphasize, what perspective to center, and how to balance accuracy with accessibility.'
 ```
 

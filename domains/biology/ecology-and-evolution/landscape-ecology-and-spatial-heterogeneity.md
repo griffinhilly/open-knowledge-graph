@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Landscapes comprise habitat patches embedded in a matrix. Species respond to landscape structure—patch size, shape, connectivity, and matrix composition influence dispersal, persistence, and assembly. Landscape metrics quantify configuration; these patterns shape ecological and evolutionary processes. Understanding landscapes as spatially heterogeneous systems explains why local habitat quality alone cannot predict population dynamics or diversity.
 
+## How It's Best Learned
+Shade 25 forest cells on two 10-by-10 grids: one as a single 5-by-5 block away from the border, one as scattered small clusters. For each grid, count patches, largest patch size, and cell sides where forest touches non-forest. The block has one patch and 20 edge sides. Then label the unshaded cells as grassland or highway and trace which patches a forest bird could reach.
+
+## Common Misconceptions
+- Two landscapes with the same habitat area are ecologically the same. (Patch size, shape, and arrangement change population sizes, edge effects, and how easily organisms move.)
+- The matrix is empty space that does not affect the species living in patches. (How easily organisms cross the matrix sets how connected the patches really are.)
+- Connectivity is a fixed feature of the map. (It depends on the organism. A gap a bird crosses easily can stop a salamander.)
+- More edge habitat means more biodiversity, so it is good for every species. (Edges favor edge-adapted species but reduce habitat for interior specialists.)
+
 ## Questions
 
 ```yaml

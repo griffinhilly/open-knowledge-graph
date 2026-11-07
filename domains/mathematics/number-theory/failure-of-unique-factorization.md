@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Unlike ℤ and Gaussian integers, many algebraic number rings fail unique factorization: in ℤ[√−5], we have 6 = 2·3 = (1+√−5)(1−√−5) with non-associate factors. Ideal theory was developed to restore unique factorization by factoring into ideals instead of elements.
 
+## How It's Best Learned
+List the small values of the norm a² + 5b²: 1, 4, 5, 6, 9, 14, ... Neither 2 nor 3 appears, so elements of norm 4, 6 or 9 cannot split into non-units. This shows 2, 3 and 1 ± √−5 are irreducible. Then compute 𝔭² for 𝔭 = (2, 1 + √−5). Its generators 4, 2 + 2√−5 and −4 + 2√−5 are all multiples of 2. The difference of the last two is 6, so 6 − 4 = 2 lies in it, so 𝔭² = (2).
+
+## Common Misconceptions
+- Unique factorization fails because some elements of ℤ[√−5] cannot be factored into irreducibles at all. (Every nonzero non-unit does factor into irreducibles. What fails is the uniqueness of that factorization.)
+- The problem would go away if we used the full ring of algebraic integers of ℚ(√−5) instead of ℤ[√−5]. (Since −5 ≡ 3 (mod 4), ℤ[√−5] already is that full ring.)
+- Because 2 is irreducible, the ideal (2) is a prime ideal. (The ideal (2) equals 𝔭² for 𝔭 = (2, 1 + √−5), so it is not prime. Irreducible elements can generate non-prime ideals.)
+
 ## Questions
 
 ```yaml

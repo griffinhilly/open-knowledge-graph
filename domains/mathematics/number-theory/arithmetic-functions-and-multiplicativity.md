@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Arithmetic functions map positive integers to complex numbers; examples include the divisor function d(n) and Euler's totient function φ(n). Multiplicative functions satisfy f(mn) = f(m)f(n) for coprime m, n, and their properties are completely determined by their values on prime powers. This structure enables efficient computation.
 
+## How It's Best Learned
+Tabulate d(n) and σ(n) for n = 1 to 12 by listing divisors. Check that d(6) = d(2)d(3) = 4, then notice d(4) = 3 while d(2)² = 4, which shows why coprimality is required. Finish with a larger case by factoring: σ(72) = σ(8)σ(9) = 15 × 13 = 195.
+
+## Common Misconceptions
+- A multiplicative function satisfies f(mn) = f(m)f(n) for every pair m, n. (The rule is required only when gcd(m, n) = 1. The divisor function has d(4) = 3, but d(2)·d(2) = 4.)
+- Knowing a multiplicative function on the primes tells you its value everywhere. (You need its value on every prime power p^k, because f(p²) is not determined by f(p) unless f is completely multiplicative.)
+- The sum of two multiplicative functions is multiplicative. (Products and Dirichlet convolutions of multiplicative functions are multiplicative, but sums usually are not. The constant 1 plus itself gives the constant 2, which fails f(1) = 1.)
+
 ## Questions
 
 ```yaml

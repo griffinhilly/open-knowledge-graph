@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Throughout the medieval period, secular rulers and the Church competed for authority, resources, and loyalty. Bishops and abbots held vast lands and military power, making them feudal lords as well as clergy. Disputes over lay investiture (the right to appoint clergy), tithes, sanctuary rights, and papal versus royal authority generated conflicts including the Investiture Controversy and later the Avignon Papacy, shaping medieval governance.
 
+## How It's Best Learned
+Draw a single bishop at the center of a diagram, with one arrow up to the pope (consecration, spiritual office) and one up to the king (land, oath, military service). Then walk through the Investiture Controversy and the Concordat of Worms on that diagram, marking which arrow each side tried to control. Repeat with one other front, such as church courts versus royal courts.
+
+## Common Misconceptions
+- Church and state were separate spheres in the Middle Ages that sometimes clashed. (The two were tangled together. Bishops held land as vassals, and kings claimed sacred standing through anointing, so most disputes were about overlapping authority.)
+- The papacy steadily won the contest with kings after Canossa. (The balance shifted back and forth. Henry IV later drove Gregory VII from Rome, and in the Avignon period the papacy came under strong French royal influence.)
+- The kings in these disputes were opposed to religion. (Most rulers were devout and wanted loyal bishops for practical government. The argument was over who controlled Church offices, not over the faith.)
+
 ## Questions
 
 ```yaml

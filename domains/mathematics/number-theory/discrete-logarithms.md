@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Given a primitive root g mod p and nonzero residue a, the discrete logarithm is the unique k (mod p-1) such that g^k ≡ a (mod p). Computing discrete logs is believed hard; this one-way function underpins Diffie-Hellman and elliptic-curve cryptography.
 
+## How It's Best Learned
+Build the full log table for p = 11 and g = 2 from the powers 1, 2, 4, 8, 5, 10, 9, 7, 3, 6. Check one law: log 3 + log 4 = 8 + 2 ≡ 0 (mod 10), and 3 · 4 ≡ 1. Then solve 2ᵏ ≡ 7 by baby-step giant-step with m = 4. Here 7 · 2⁻⁴ ≡ 7 · 9 ≡ 8 = 2³, so k = 4 + 3 = 7.
+
+## Common Misconceptions
+- Discrete logs add modulo p, because the residues live mod p. (The exponents live mod p − 1, since g^(p−1) ≡ 1. With p = 11 and g = 2, log 3 + log 4 = 10, which reduces to 0 mod 10.)
+- Any nonzero residue can serve as the base. (A base that is not a primitive root misses some residues. Mod 11, the powers of 3 are only 3, 9, 5, 4, 1, so 2 has no logarithm base 3.)
+- Since the problem is hard, checking every power of g is the best known method. (Baby-step giant-step needs about √p steps, and index calculus is subexponential in (ℤ/pℤ)*. Security depends on p being large enough to defeat these.)
+
 ## Questions
 
 ```yaml

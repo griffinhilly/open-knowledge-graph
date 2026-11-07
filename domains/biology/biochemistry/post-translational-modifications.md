@@ -29,6 +29,15 @@ status: validated
 ## Core Idea
 Post-translational modifications (PTMs) are covalent modifications of proteins after synthesis, altering protein properties, localization, activity, and lifespan. Common PTMs include phosphorylation (on Ser, Thr, Tyr, adding negative charge and enabling signal transduction), acetylation (on Lys, neutralizing charge, affecting DNA binding), ubiquitination (marking proteins for degradation or signaling), glycosylation (addition of sugars, modifying protein folding and recognition), and proteolytic cleavage (removing signal peptides, pro-domain removal). PTMs are reversible or irreversible and tightly regulated.
 
+## How It's Best Learned
+Build a table with one row per modification and columns for target residue, what is added or removed, charge change, enzyme that adds it, enzyme that removes it, and typical effect. Then draw a single short protein with one serine, one lysine, and one asparagine. Predict how each modification would change it, and mark which changes the cell can undo.
+
+## Common Misconceptions
+- Phosphorylation always turns a protein on. (Depending on the protein, phosphorylation can activate it or inhibit it; glycogen synthase, for example, is inhibited when phosphorylated.)
+- A kinase will phosphorylate any serine, threonine, or tyrosine it meets. (Kinases recognize particular sequence motifs around the target residue, and the residue must be accessible on the folded protein.)
+- Every modification waits until the whole chain has left the ribosome. (Some, such as signal peptide removal and the start of N-linked glycosylation in the ER, happen while the chain is still being made.)
+- A ubiquitin tag means the protein will be destroyed. (K48-linked chains target proteins to the proteasome, but monoubiquitination and K63-linked chains carry other signals, such as in endocytosis and DNA repair.)
+
 ## Questions
 
 ```yaml
@@ -57,7 +66,7 @@ Post-translational modifications (PTMs) are covalent modifications of proteins a
   answer: false
   explanation: "This is the central misconception the topic addresses. PTMs profoundly and dynamically alter protein function beyond what the sequence alone encodes. The same protein can be active or inactive (phosphorylation), nuclear or cytoplasmic (phosphorylation, acetylation), stable or targeted for rapid degradation (ubiquitination), properly folded or misrouted (glycosylation) — all depending on its current modification state. PTMs are the cell's language for controlling when, where, and how proteins act, and that language is written after translation is complete."
 
-- question: "Ubiquitination typically marks a protein for destruction by the proteasome."
+- question: "Ubiquitination always marks a protein for destruction by the proteasome."
   type: true-false
   answer: false
   explanation: "Ubiquitin is far more versatile than a simple death tag. While K48-linked polyubiquitin chains (four or more) target proteins to the 26S proteasome, other ubiquitin modifications serve entirely different functions: monoubiquitination regulates endocytosis and histone function; K63-linked chains coordinate DNA damage repair and NF-κB signaling without triggering degradation. The meaning of ubiquitin depends on whether it is mono or poly, and which lysine links the chain. This combinatorial versatility is part of why ubiquitination is one of the most widespread and functionally diverse PTMs in eukaryotic cells."

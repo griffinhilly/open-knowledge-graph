@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 The derivative f'(c) is defined rigorously as lim_{h→0} [f(c+h) - f(c)]/h, where the limit is in the ε-δ sense: for every ε > 0, there exists δ > 0 such that |h| < δ (h ≠ 0) implies |[f(c+h) - f(c)]/h - f'(c)| < ε. This definition generalizes to higher dimensions and abstract spaces, making it the standard in modern analysis.
 
+## How It's Best Learned
+Start with f(x) = x² at c. For h ≠ 0 the difference quotient simplifies to 2c + h, so δ = ε proves f′(c) = 2c. Then do f(x) = x² sin(1/x) with f(0) = 0. At 0 the quotient is h sin(1/h), bounded by |h|, so f′(0) = 0. Yet f′(x) = 2x sin(1/x) − cos(1/x) for x ≠ 0 has no limit as x → 0.
+
+## Common Misconceptions
+- Cancelling h in the difference quotient is illegal because h could be 0. (The limit only looks at 0 < |h| < δ, where cancelling is valid.)
+- To find f′(c), you can take the limit of the formula for f′(x) as x → c. (That limit can fail to exist while f′(c) exists; for x² sin(1/x), f′(0) = 0 but f′(x) has no limit at 0.)
+- If the difference quotient converges as h → 0 from the right, f is differentiable. (Both sides must agree; for |x| at 0 the right limit is 1 and the left limit is −1.)
+
 ## Questions
 
 ```yaml

@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Late antiquity (roughly 300–600 CE) was not a sudden collapse but a gradual transformation during which Roman institutions decayed while Christianity spread and Germanic kingdoms emerged. Cities contracted, long-distance trade declined, and literacy became concentrated in the clergy. This period saw the Christianization of the Mediterranean world and the fragmenting of centralized imperial authority into regional kingdoms that laid the groundwork for feudalism.
 
+## How It's Best Learned
+Pick one Roman city, such as a town in Gaul, and describe it at three dates: 350, 476, and 600 CE. For each date, note who governed it, who fed the poor, what language was used in records, and how far its trade reached. Then sort each Roman feature on the list into "still working," "survived only in form," or "gone." This gradual picture shows why 476 is a weak single dividing line.
+
+## Common Misconceptions
+- Rome fell in a single year, 476 CE. (The deposition of the last Western emperor marked one political step in a change that took centuries. Many people at the time saw little immediate difference.)
+- The Germanic peoples destroyed Roman civilization. (Most successor kingdoms kept Roman law, Latin documents, and Roman officials in some form, and their kings became Christian.)
+- The change looked the same across the whole Roman world. (The pace varied by region. The eastern empire kept its cities and imperial government while the West fragmented.)
+
 ## Questions
 
 ```yaml
@@ -44,7 +52,7 @@ Late antiquity (roughly 300–600 CE) was not a sudden collapse but a gradual tr
     - "Christianity spread rapidly after 476 CE as people sought spiritual comfort during the crisis"
     - "The Church owned most of the agricultural land in the Western Empire and could fund its own survival"
   answer: 1
-  explanation: "The Church's institutional durability came from filling concrete functional gaps. As imperial courts collapsed, bishops became judges; as secular grain distribution failed, churches fed populations; as secular schools closed, monasteries and cathedrals preserved Latin literacy. The Church survived because it became practically indispensable, not merely spiritually appealing. Option B reverses the chronology — Christianity had been spreading since the 1st century and was already dominant before 476 CE."
+  explanation: "The Church's institutional durability came from filling concrete functional gaps. As imperial courts collapsed, bishops became judges; as secular grain distribution failed, churches fed populations; as secular schools closed, monasteries and cathedrals preserved Latin literacy. The Church survived because it became practically indispensable, not merely spiritually appealing. Option C reverses the chronology — Christianity had been spreading since the 1st century and was already dominant before 476 CE."
 
 - question: "Germanic successor kingdoms in the post-Roman West often retained Roman administrative forms — using Latin in official documents and adopting Roman law — even as they replaced Roman political authority."
   type: true-false

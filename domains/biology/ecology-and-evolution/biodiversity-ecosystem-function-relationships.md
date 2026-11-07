@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Biodiversity affects ecosystem functions including productivity, nutrient cycling, stability, and disturbance resistance. Mechanisms include complementarity (different species use resources differently) and selection effects (communities differ in species composition). Relationships between diversity and function are often nonlinear: adding species increases function until redundancy appears. Whether biodiversity-function relationships represent strong ecosystem services depends on environmental context and mechanisms operating.
 
+## How It's Best Learned
+Work from a small yield table. Species A yields 400 g/m² alone and species B yields 300 g/m² alone. A 50:50 mix sown at the same density would be expected to yield 350 g/m². If the mix yields 450, it beats even the best monoculture, which points to complementarity. If it yields 390, with nearly all biomass from A, the gain looks more like a selection effect. Then sketch the saturating richness curve.
+
+## Common Misconceptions
+- Each added species raises ecosystem function by the same amount. (The curve usually saturates, because new species increasingly overlap in role with those already present.)
+- If a diverse plot outproduces the average monoculture, the species must be using different resources. (A selection effect can produce the same result when the mix happens to contain one highly productive species.)
+- Redundant species add nothing to an ecosystem. (Species that look redundant under current conditions can maintain function when conditions change and other species decline.)
+
 ## Questions
 
 ```yaml

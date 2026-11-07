@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Congruences mod n form an equivalence relation: a ≡ b (mod n) iff n|(a-b). They respect addition, subtraction, and multiplication. If gcd(a,n) = 1, division is possible. These properties make congruences a powerful algebraic tool for number theory.
 
+## How It's Best Learned
+Write the multiplication tables of ℤ/6ℤ and ℤ/7ℤ side by side. In ℤ/6ℤ the rows for 2, 3 and 4 hit 0 in a nonzero column and never reach 1, so you cannot divide by those elements. In ℤ/7ℤ each nonzero row, read across the nonzero columns, is a rearrangement of 1 to 6. Then compute 7¹⁰⁰ mod 4 by reducing first: 7 ≡ −1, so the answer is 1.
+
+## Common Misconceptions
+- If ab ≡ 0 (mod n), then a ≡ 0 or b ≡ 0 (mod n). (This holds when n is prime but fails in general: 2 · 3 ≡ 0 (mod 6) with neither factor ≡ 0.)
+- If a ≡ b (mod n), then cᵃ ≡ cᵇ (mod n). (Exponents do not reduce mod n. Here 1 ≡ 4 (mod 3), but 2¹ = 2 and 2⁴ = 16 ≡ 1 (mod 3). When gcd(c, n) = 1, Euler's theorem lets exponents reduce mod φ(n).)
+- A negative number cannot be congruent to a positive one. (Congruence only asks whether n divides the difference. For example, −3 ≡ 4 (mod 7) because 7 divides 4 − (−3).)
+
 ## Questions
 
 ```yaml

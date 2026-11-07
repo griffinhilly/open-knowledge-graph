@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Planetary volcanism produces distinctive landforms (shield volcanoes, cinder cones, calderas, flood lavas) whose morphology reflects lava viscosity, eruption rate, and magma composition. Volcanism signatures indicate interior thermal activity and outgassing; variations across planets reflect different interior temperatures and compositions.
 
+## How It's Best Learned
+Draw Olympus Mons to true scale. A height of 22 km over a 300 km radius gives an average slope of only about 4 degrees. Put a steep stratovolcano profile beside it at the same scale. Then match images of a shield, a stratovolcano, a cinder cone, a caldera and a flood basalt plain to the lava viscosity and eruption style that built each one.
+
+## Common Misconceptions
+- Olympus Mons is a steep, towering peak. (Its flanks average only about 4 degrees, so a person standing on them would barely notice the slope.)
+- A caldera is a crater blasted out by an explosion. (A caldera forms when the ground collapses into a magma chamber that has emptied during an eruption.)
+- Volcanism always means molten rock. (On some icy moons, cryovolcanism erupts water and other volatiles instead, as in the plumes of Enceladus.)
+
 ## Questions
 
 ```yaml

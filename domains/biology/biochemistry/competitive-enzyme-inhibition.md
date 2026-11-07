@@ -24,10 +24,16 @@ status: validated
 # Competitive Enzyme Inhibition
 
 ## Core Idea
-Competitive inhibition occurs when an inhibitor molecule competes with substrate for the enzyme's active site, increasing the apparent Km while leaving Vmax unchanged. The inhibitor and substrate are mutually exclusive—raising substrate concentration can overcome inhibition. Competitive inhibitors are often structural analogs of the substrate and can be reversible (weak binding) or irreversible (covalent modification).
+Competitive inhibition occurs when an inhibitor molecule competes with substrate for the enzyme's active site, increasing the apparent Km while leaving Vmax unchanged. The inhibitor and substrate are mutually exclusive—raising substrate concentration can overcome inhibition. Competitive inhibitors are often structural analogs of the substrate and bind reversibly; an active-site inhibitor that binds covalently acts as an irreversible inhibitor instead.
 
 ## How It's Best Learned
-Use Lineweaver-Burk plots to distinguish competitive from other inhibition types: competitive inhibition shows parallel lines with the same y-intercept (1/Vmax) but different x-intercepts. Study classic examples like statins inhibiting HMG-CoA reductase or ACE inhibitors blocking the angiotensin-converting enzyme.
+Use Lineweaver-Burk plots to distinguish competitive from other inhibition types: competitive inhibition shows lines that meet at the same y-intercept (1/Vmax) but have different x-intercepts. Study classic examples like statins inhibiting HMG-CoA reductase or ACE inhibitors blocking the angiotensin-converting enzyme.
+
+## Common Misconceptions
+- A competitive inhibitor lowers Vmax. (Vmax is unchanged; with enough substrate, the enzyme reaches its full rate again.)
+- On a Lineweaver-Burk plot, competitive inhibition gives parallel lines. (The lines meet on the y-axis at 1/Vmax; parallel lines are the pattern for uncompetitive inhibition.)
+- A competitive inhibitor has to look like the substrate. (Many are substrate analogs, but any inhibitor whose binding excludes substrate binding gives the same kinetics.)
+- How much an inhibitor slows the enzyme depends only on how much inhibitor is present. (The effect depends on [I] relative to Ki and on [S] relative to Km; the apparent Km equals Km(1 + [I]/Ki).)
 
 ## Questions
 

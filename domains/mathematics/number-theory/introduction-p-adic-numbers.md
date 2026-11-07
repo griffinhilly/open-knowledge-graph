@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The p-adic numbers ℚ_p are the completion of ℚ under the p-adic metric d_p(x, y) = p^(-v_p(x-y)). They provide a 'p-adic topology' where convergence is based on divisibility by powers of p, enabling tools like Hensel lifting.
 
+## How It's Best Learned
+Expand 1/3 in ℚ₅ digit by digit by solving 3x ≡ 1 modulo 5, 25, 125, ... The digits come out 2, 3, 1, 3, 1, ..., and a check confirms the start: 3 · (2 + 3·5 + 1·25) = 3 · 42 = 126 ≡ 1 (mod 125). Then test the ultrametric inequality on 0, 1 and 4 in ℚ₃. The distances are 1, 1/3 and 1, so the two longest sides are equal.
+
+## Common Misconceptions
+- The p-adic integers ℤ_p are just the ordinary integers. (ℤ_p also contains many fractions. Since 3 is not divisible by 5, the fraction 1/3 has 5-adic absolute value 1 and lies in ℤ₅.)
+- As in ℝ, a series whose terms shrink to 0 might still diverge. (In ℚ_p a series converges exactly when its terms tend to 0. For example, 1 + p + p² + ... converges to 1/(1 − p).)
+- ℚ_p can be ordered like ℝ, with positive and negative elements. (No ordering is compatible with its arithmetic, since some negative integers are squares in ℚ_p: 1 − p for odd p, and −7 in ℚ₂.)
+
 ## Questions
 
 ```yaml

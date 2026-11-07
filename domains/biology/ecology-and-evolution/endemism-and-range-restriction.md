@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Endemic species have restricted geographic ranges, often on islands, mountaintops, or isolated habitats. Range restriction arises from limited dispersal, speciation in isolated areas, or ecological specialization. Endemic species are vulnerable to extinction because small populations cannot recolonize if extirpated. Biodiversity hotspots have high endemism and face severe conservation pressures.
 
+## How It's Best Learned
+Rank sites two ways from a small presence table. Site A has 10 species, and 1 occurs nowhere else. Site B has 6 species, and 4 occur nowhere else. Richness ranks A first, while irreplaceability ranks B first. Then sort a few restricted species, such as the tuatara and a young island species, into neoendemic or paleoendemic, and say what evidence of age or past range each label needs.
+
+## Common Misconceptions
+- Endemic means a species has a tiny range. (Endemic means found only in a stated area, and that area can be an island, a mountain or a whole continent. How restricted the range is depends on the scale.)
+- Endemic species are always rare in number. (Some endemics are abundant within their small range. Their risk comes from having all their populations in one place.)
+- All restricted-range species are young species that have not spread yet. (That fits neoendemics. Paleoendemics are old lineages whose once-wider ranges have contracted.)
+
 ## Questions
 
 ```yaml

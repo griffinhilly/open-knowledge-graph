@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Ring particles undergo inelastic collisions that dissipate orbital energy, causing the system to settle into increasingly thin, flat configurations. Collective particle behavior—wake structures, density waves, and wake torques—drives dynamical evolution. The balance between collisional damping and shear heating maintains ring geometry and explains observed ring morphologies.
 
+## How It's Best Learned
+Compute the shear speed between two particles 10 m apart at 100,000 km from Saturn. With GM = 3.79 × 10⁷ km³/s², the orbital rate is Ω ≈ 1.95 × 10⁻⁴ s⁻¹. The speed difference is (3/2)ΩΔr, about 3 mm/s. Then run a toy shearing-box simulation with a set coefficient of restitution and watch the velocity dispersion settle to a steady value.
+
+## Common Misconceptions
+- Ring collisions are violent, high-speed smashes. (Neighboring particles move past each other at millimeters per second, so most collisions are gentle bumps.)
+- Inelastic collisions will keep flattening a ring until it is one particle thick. (Shear keeps feeding energy into random motions, so the ring settles at an equilibrium thickness. In dense rings, particle size and self-gravity also set a floor.)
+- Self-gravity wakes are clumps that will grow into moons. (Inside the Roche zone, tides and shear pull the clumps apart about as fast as they form.)
+
 ## Questions
 
 ```yaml

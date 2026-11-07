@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 The convergents p_n/q_n of a continued fraction are the best rational approximations to a real number α: no fraction with smaller denominator approximates α as well. This optimality underpins Diophantine approximation and factorization algorithms.
 
+## How It's Best Learned
+Do a brute-force check for π. For each q from 1 to 7, take the nearest p and record |π − p/q|; 22/7 wins easily. The table also shows 13/4, 16/5 and 19/6 beating every smaller denominator, though they are not convergents. Then compare |qπ − p|: 13/4 gives about 0.434, worse than 3/1's 0.142, so only convergents win on that measure.
+
+## Common Misconceptions
+- Any fraction that beats every fraction with a smaller denominator is a convergent. (Intermediate fractions can do this too, such as 13/4, 16/5 and 19/6 for π. Convergents are exactly the record-setters when error is measured as |qα − p|.)
+- The convergents creep up on α from one side, like a sequence of underestimates. (Consecutive convergents lie on opposite sides of α. For π, 3 is below, 22/7 is above, 333/106 is below and 355/113 is above.)
+- The best fraction with a small denominator comes from rounding the decimal expansion. (Decimal fractions are rarely optimal. The fraction 22/7 is closer to π than 314/100 is, with a far smaller denominator.)
+
 ## Questions
 
 ```yaml

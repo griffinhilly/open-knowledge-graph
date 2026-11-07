@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 Competition occurs when two organisms use the same limited resource. Interspecific competition occurs between species; intraspecific competition occurs within species. Outcomes range from competitive exclusion (one species eliminates another) to coexistence through niche differentiation. The competitive exclusion principle states that two species cannot indefinitely occupy identical niches.
 
+## How It's Best Learned
+Draw two bell-shaped resource-use curves along one axis, such as prey size, and shade the area where they overlap. Slide the curves apart or narrow them and watch the shaded overlap shrink. Then link the picture to cases: Gause's *Paramecium* flasks for full overlap, and MacArthur's warblers for overlap reduced by foraging zone. Finally, label each case as exploitation or interference.
+
+## Common Misconceptions
+- Competition means animals fighting over food. (Much competition is exploitation, where organisms never meet but each depletes a resource the other needs. Plants compete this way for light and nutrients.)
+- Members of the same species compete less than different species do. (Conspecifics have nearly identical needs, so intraspecific competition is often the stronger form.)
+- The competitive exclusion principle says similar species cannot live together. (It applies to identical niches. Species that differ enough in resource use, place or timing can coexist.)
+
 ## Questions
 
 ```yaml

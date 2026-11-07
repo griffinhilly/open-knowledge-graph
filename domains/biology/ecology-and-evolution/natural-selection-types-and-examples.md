@@ -32,6 +32,14 @@ status: validated
 ## Core Idea
 Natural selection acts on heritable variation through differential survival and reproduction. Directional selection favors one extreme (larger body size), stabilizing selection removes extremes (maintaining intermediates), and disruptive selection favors extremes (polymorphism). Examples include industrial melanism, antibiotic resistance, and artificial selection in breeding.
 
+## How It's Best Learned
+Draw a histogram of a trait, then sketch a fitness curve over it in three shapes: a rising line, a hump, and a U. For each shape, scale every bar by the fitness above it and sketch the next generation's histogram. The rising line moves the peak, the hump narrows it, and the U hollows out the middle. Then match each example (birth weight, seedcracker beaks, resistant bacteria) to a curve.
+
+## Common Misconceptions
+- Selection works by changing the average value of a trait. (Stabilizing selection can leave the mean in place while it narrows the spread. Disruptive selection mainly widens the spread and can split the distribution into two peaks.)
+- Disruptive selection by itself splits a population into two species. (It can keep two forms in one interbreeding population. Speciation also needs some reproductive isolation, such as assortative mating.)
+- Bacteria become resistant because each cell adjusts to the antibiotic. (Some cells can switch on defense genes they already carry, but heritable resistance spreads because resistant variants, already present or arising by mutation, survive and leave more descendants. The population changes through selection.)
+
 ## Questions
 
 ```yaml

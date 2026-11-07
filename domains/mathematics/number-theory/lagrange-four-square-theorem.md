@@ -17,7 +17,15 @@ status: validated
 # Lagrange's Four-Square Theorem
 
 ## Core Idea
-Every non-negative integer can be expressed as a sum of four squares. While the sum-of-two-squares theorem characterizes which numbers require four squares, Lagrange's result guarantees that four always suffice, contrasting sharply with two-square representations.
+Every non-negative integer can be expressed as a sum of four squares. While Legendre's three-square theorem characterizes which numbers require four squares, Lagrange's result guarantees that four always suffice, contrasting sharply with two-square representations.
+
+## How It's Best Learned
+Run both proof ingredients on small cases. For the pigeonhole step at p = 7, the squares mod 7 are {0, 1, 2, 4} and the values −1 − b² are {6, 5, 2, 4}. The shared value 2 gives 3² + 2² + 1 = 14 = 2 · 7. For the product step, Euler's identity turns 3 = 1² + 1² + 1² + 0² and 7 = 2² + 1² + 1² + 1² into 21 = 0² + 4² + 2² + 1².
+
+## Common Misconceptions
+- The four squares must all be positive. (Zeros are allowed. With positive squares only, numbers such as 1, 2, 3, 5 and 6 cannot be written as four squares.)
+- Each integer has essentially one four-square representation. (Most have several. For example, 21 = 4² + 2² + 1² + 0² = 3² + 2² + 2² + 2².)
+- Since four squares always suffice, four cubes or four fourth powers should suffice too. (Higher powers need more terms. The number 23 needs nine positive cubes.)
 
 ## Questions
 

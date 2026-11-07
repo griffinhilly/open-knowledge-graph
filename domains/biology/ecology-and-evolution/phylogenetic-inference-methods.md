@@ -32,6 +32,14 @@ status: validated
 ## Core Idea
 Phylogenetic trees are reconstructed using methods that make different assumptions: maximum parsimony finds trees requiring fewest changes; distance methods cluster species by overall similarity; maximum likelihood finds the tree most probable under a specified evolutionary model. Each method has strengths and limitations, and disagreement between methods can highlight data limitations. Modern phylogenetics integrates multiple methods and data types for robust inference.
 
+## How It's Best Learned
+Take a short DNA alignment for four taxa and score it by hand on each of the three possible unrooted trees, counting the fewest changes each site needs. Notice that constant sites, and sites where only one taxon differs, cost the same on every tree. Then turn the same alignment into a table of pairwise distances and ask what site-by-site detail the table has lost.
+
+## Common Misconceptions
+- The most parsimonious tree is the true tree because it assumes the least. (When rates differ among lineages, the tree with fewest changes can be wrong. Long-branch attraction is the standard case.)
+- A bootstrap value of 95% means a 95% chance the clade is real. (Bootstrap support shows how consistently resampled data recover the clade. It is not the probability that the clade is correct.)
+- If several methods give the same tree, that tree must be right. (Agreement raises confidence, but methods can share a bias. Parsimony and distance methods can both be misled by unequal rates.)
+
 ## Questions
 
 ```yaml

@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The Fisher information is I(θ) = E[(∂log f(X|θ)/∂θ)²] = -E[∂²log f(X|θ)/∂θ²]. It quantifies how much information the data carries about θ: larger I means θ is more precisely estimable. For n i.i.d. observations, Iₙ(θ) = nI(θ). Fisher information appears in the Cramer-Rao bound and characterizes the asymptotic variance of MLEs.
 
+## How It's Best Learned
+Compute I(p) for one Bernoulli trial both ways. The score is x/p − (1−x)/(1−p). Its expected square and the negative expected second derivative both come out to 1/p + 1/(1−p) = 1/(p(1−p)). Then plot I(p) on (0, 1). It is smallest at p = 1/2, where it equals 4, and grows without bound near 0 and 1.
+
+## Common Misconceptions
+- A coin with p near 1/2 is the easiest to learn about because outcomes are most varied. (For a Bernoulli trial, I(p) = 1/(p(1−p)) is smallest at p = 1/2. Each flip carries the least information about p there.)
+- Fisher information depends on the particular data you observed. (Expected information I(θ) is a function of θ alone. The data-dependent quantity, −ℓ″(θ̂), is called the observed information.)
+- Fisher information is the same whatever parameter you use. (It changes under reparametrization. If θ = g(ψ), then the information about ψ is I(θ)·g′(ψ)².)
+
 ## Questions
 
 ```yaml

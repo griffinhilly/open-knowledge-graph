@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Multiple independent lines of evidence support evolution: the fossil record shows intermediate forms and gradual change over geological time; comparative anatomy reveals homologous structures across species suggesting common ancestry; molecular sequences show similarity proportional to evolutionary relationships; and rapid adaptation is directly observed in bacteria, insects, and finches. The convergence of evidence from diverse fields provides overwhelming support for evolution.
 
+## How It's Best Learned
+Build a four-column table (fossils, anatomy, molecules, direct observation) and place one example in each, such as Tiktaalik, the vertebrate forelimb, shared pseudogenes, and antibiotic resistance. For each entry, write what result would have counted against common descent. Then compare a tree drawn from several anatomical traits with one from DNA similarity for the same few animals and check whether they agree.
+
+## Common Misconceptions
+- Evolution is only a theory, so it is just a guess. (In science a theory is a well-tested explanation supported by many lines of evidence. Evolution makes predictions that have been checked, such as where transitional fossils should be found.)
+- Gaps in the fossil record mean the evidence for evolution is weak. (Fossilization is rare, so gaps are expected. The case rests on several independent lines of evidence, and molecular and anatomical data support the same relationships without fossils.)
+- Any two structures that do the same job show that the species are closely related. (Shared function can come from convergent evolution. Homology is judged by shared underlying structure and developmental origin, not by shared use.)
+- Evolution happens too slowly for anyone to observe it. (Change in populations has been measured directly, for example antibiotic resistance in bacteria and beak size shifts in Galápagos finches within a few generations.)
+
 ## Questions
 
 ```yaml

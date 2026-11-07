@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Sufficiently massive and cool protoplanetary disks become gravitationally unstable, leading to rapid fragmentation and direct collapse into planetary-mass objects. This disk instability mechanism forms giant planets on timescales of ~1000 years, much faster than core accretion, and may explain some ultra-massive exoplanets and wide-separation companions.
 
+## How It's Best Learned
+Write Toomre's Q = c_s κ / (π G Σ) and change one term at a time. Doubling the surface density Σ halves Q, while halving the temperature lowers Q by a factor of √2, since c_s ∝ √T. Then compare orbital periods around a Sun-like star: about 11 years at 5 AU and about 350 years at 50 AU. Ask where cooling within a few orbits is easier.
+
+## Common Misconceptions
+- Once Q falls below 1, the disk will break into planets. (Without fast cooling, the disk heats itself back toward Q ≈ 1 and forms spiral arms that never fragment.)
+- Disk instability works anywhere in a massive disk, including close to the star. (Near the star, the gas is too hot and cools too slowly to fragment. The mechanism is thought to work mainly at tens of AU or more.)
+- Every clump formed by disk instability becomes a giant planet. (Clumps can keep accreting and grow to brown-dwarf mass, or migrate inward and be torn apart by tides.)
+- A system must form all of its giant planets by either core accretion or disk instability. (The two mechanisms can both operate in one system, with close-in giants from core accretion and distant companions from disk instability.)
+
 ## Questions
 
 ```yaml

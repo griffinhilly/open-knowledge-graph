@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Planetary regoliths form through impact fragmentation and micrometeorite bombardment, creating soil-like layers of broken rock. Weathering processes (thermal cycling, chemical alteration, ice sublimation) depend on atmosphere, surface temperature, and water availability; rates and styles differ dramatically between planets.
 
+## How It's Best Learned
+Plot reflectance spectra of a fresh and a mature lunar soil on one chart. The mature soil is darker, has a redder slope, and shows a weaker absorption band near 1 μm. Then build a grid of bodies (Moon, Mercury, Mars, Venus, Titan) against agents (impacts, solar wind, thermal cycling, liquid water, acid gases) and mark which agents act on which body.
+
+## Common Misconceptions
+- Lunar regolith is soil like the soil in a garden. (It contains no organic matter and formed by impacts, not by water or life. Its grains stay sharp and angular because no wind or water rounds them.)
+- Space weathering bleaches a surface and makes it brighter over time. (It darkens and reddens the surface, so bright rays and young crater walls stand out against older soil of the same rock type.)
+- Regolith has the same thickness everywhere on a body. (Older surfaces have taken more impacts and carry thicker regolith, so the lunar highlands have deeper regolith than the younger maria.)
+
 ## Questions
 
 ```yaml

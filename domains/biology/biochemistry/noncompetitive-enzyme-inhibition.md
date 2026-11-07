@@ -24,7 +24,16 @@ status: validated
 # Noncompetitive Enzyme Inhibition
 
 ## Core Idea
-Noncompetitive inhibition occurs when an inhibitor binds to the enzyme at a site distinct from the active site, reducing the enzyme's catalytic efficiency without preventing substrate binding. Both Km and Vmax are reduced by equal fractional amounts. The inhibitor binds to both free enzyme and the enzyme-substrate complex with equal affinity; raising substrate concentration does not overcome the inhibition.
+Noncompetitive inhibition occurs when an inhibitor binds to the enzyme at a site distinct from the active site, reducing the enzyme's catalytic efficiency without preventing substrate binding. Vmax is reduced while Km is unchanged. The inhibitor binds to both free enzyme and the enzyme-substrate complex with equal affinity; raising substrate concentration does not overcome the inhibition.
+
+## How It's Best Learned
+Compute velocities with and without inhibitor using Vmax = 100 μM/s, Km = 2 mM, and an inhibitor that halves Vmax. At 2 mM substrate, v falls from 50 to 25 μM/s; at 20 mM, from about 90.9 to 45.5 μM/s. The inhibited rate stays half the original at every substrate level. Then plot both sets on a Lineweaver-Burk graph and compare with a competitive inhibitor.
+
+## Common Misconceptions
+- Any inhibitor can be outcompeted if you add enough substrate. (That is true for competitive inhibitors; a noncompetitive inhibitor binds a separate site, so extra substrate does not displace it.)
+- A noncompetitive inhibitor stops substrate from binding. (In pure noncompetitive inhibition substrate still binds with normal affinity; the enzyme with inhibitor bound cannot convert it efficiently.)
+- Noncompetitive and uncompetitive inhibition are the same thing. (An uncompetitive inhibitor binds only the enzyme-substrate complex and lowers both apparent Km and Vmax; a pure noncompetitive inhibitor binds E and ES equally and leaves Km unchanged.)
+- A noncompetitive inhibitor is bound permanently. (Most noncompetitive inhibitors bind reversibly; they lower Vmax because, at a given inhibitor concentration, a steady fraction of enzyme is inhibitor-bound.)
 
 ## Questions
 
@@ -52,12 +61,12 @@ Noncompetitive inhibition occurs when an inhibitor binds to the enzyme at a site
 - question: "In noncompetitive inhibition, adding excess substrate can partially restore enzyme velocity because the inhibitor is expected to eventually be displaced from its binding site."
   type: true-false
   answer: false
-  explanation: "This misconception imports competitive inhibition logic into a different mechanism. Noncompetitive inhibitors bind at an allosteric site entirely separate from the active site, so there is no competition between substrate and inhibitor — they bind different pockets and can occupy the enzyme simultaneously. Adding substrate increases occupancy of the active site but has no effect on the inhibitor's binding site. The fraction of inhibitor-bound enzyme (EI + ESI) remains constant regardless of substrate concentration, and that fraction is permanently catalytically inactive."
+  explanation: "This misconception imports competitive inhibition logic into a different mechanism. Noncompetitive inhibitors bind at an allosteric site entirely separate from the active site, so there is no competition between substrate and inhibitor — they bind different pockets and can occupy the enzyme simultaneously. Adding substrate increases occupancy of the active site but has no effect on the inhibitor's binding site. The fraction of inhibitor-bound enzyme (EI + ESI) remains constant regardless of substrate concentration, and that fraction is catalytically inactive."
 
 - question: "Noncompetitive inhibitors bind equally well to the free enzyme (E) and the enzyme-substrate complex (ES), which is why Km remains unchanged in pure noncompetitive inhibition."
   type: true-false
   answer: true
-  explanation: "This equal-affinity binding is the defining feature of pure noncompetitive inhibition. If the inhibitor bound only free enzyme and not ES, it would reduce the effective enzyme pool in a substrate-dependent way, altering the apparent Km (this is mixed inhibition). Because the inhibitor binds E and ES with the same dissociation constant, substrate binding is completely unaffected — the active site geometry and substrate affinity are unchanged. The inhibitor simply renders a fixed fraction of all enzyme forms (both E and ES) catalytically incompetent, reducing Vmax without touching Km."
+  explanation: "This equal-affinity binding is the defining feature of pure noncompetitive inhibition. If the inhibitor bound E and ES with different affinities, substrate binding would change how well the inhibitor binds, and the apparent Km would change (this is mixed inhibition). Because the inhibitor binds E and ES with the same dissociation constant, substrate binding is completely unaffected — the active site geometry and substrate affinity are unchanged. The inhibitor simply renders a fixed fraction of all enzyme forms (both E and ES) catalytically incompetent, reducing Vmax without touching Km."
 
 - question: "Why can noncompetitive inhibition not be overcome by adding more substrate, and how does this mechanistically differ from competitive inhibition?"
   type: short-answer

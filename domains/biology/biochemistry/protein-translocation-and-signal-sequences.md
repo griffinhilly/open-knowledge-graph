@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Signal sequences direct nascent polypeptides to their destination during translation. N-terminal signal sequences are recognized by Signal Recognition Particle (SRP), halting translation and directing the ribosome to the ER for co-translational translocation. Mitochondrial targeting sequences and other organellar signals direct post-translational import via translocase complexes.
 
+## How It's Best Learned
+Draw an ER membrane with a Sec61 channel and thread a protein through it step by step. Give the protein a cleavable N-terminal signal sequence and one internal stop-transfer sequence. Predict the final orientation: the N-terminus ends up in the lumen, the stop-transfer segment sits in the membrane, and the C-terminus stays in the cytosol. Then draw a mitochondrial precursor passing through TOM and TIM for contrast.
+
+## Common Misconceptions
+- SRP travels into the ER with the protein. (SRP hands the ribosome to the SRP receptor and then releases, after GTP hydrolysis, to return to the cytosol for another round.)
+- Every protein that enters the Sec61 channel ends up free in the ER lumen. (Hydrophobic stop-transfer segments leave the channel sideways into the membrane, producing transmembrane proteins.)
+- Mitochondrial import is powered by ATP alone. (Matrix Hsp70 uses ATP, but the voltage across the inner membrane also pulls the positively charged targeting sequence through the inner-membrane channel.)
+- A protein can cross a membrane on its own if its signal sequence is hydrophobic enough. (The signal sequence only gets the protein to a channel; the polypeptide passes through a protein-conducting pore, not through the lipid bilayer itself.)
+
 ## Questions
 
 ```yaml

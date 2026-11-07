@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Sexual selection—competition for mates and mate choice—can drive reproductive isolation between populations when mating preferences diverge. Rapid evolution of courtship traits, ornaments, or mating signals can create reproductive barriers without geographic isolation. This is a major mechanism for sympatric speciation, especially in groups like birds and insects.
 
+## How It's Best Learned
+Start from the cichlid lighting experiment. Predict how females choose mates under normal light, then under light that hides color, and say what the change reveals about the barrier. Then draw the feedback loop between a male trait and a female preference, with an arrow for the genetic correlation. Run the loop forward from two slightly different starting preferences and watch the gap widen.
+
+## Common Misconceptions
+- Sexual selection makes traits showier but has nothing to do with forming species. (When mate preferences diverge between groups, individuals stop mating across groups. That reduction in gene flow is a prezygotic barrier.)
+- A barrier built on mate choice is as permanent as hybrid sterility. (Signal-based barriers depend on the signal being perceived. If conditions hide the signal, as in the cichlid lighting experiment, cross-group mating can resume.)
+- Only females choose and only males are chosen. (The choosier sex is often female, but in some species males are choosy too. Divergence in either sex's preferences can isolate populations.)
+
 ## Questions
 
 ```yaml

@@ -21,7 +21,16 @@ status: validated
 # Protein Kinase Signaling Cascades and Phosphatases
 
 ## Core Idea
-Signal transduction often involves kinase cascades: a receptor kinase phosphorylates substrate kinases, which phosphorylate downstream effectors. Protein phosphatases reverse phosphorylation, allowing signal termination. Kinase cascades amplify signals and integrate multiple inputs to produce a switch-like response.
+Signal transduction often involves kinase cascades: an activated receptor switches on a first kinase, directly or through an intermediate such as the GTPase Ras, and each kinase then phosphorylates and activates the next, ending at downstream effectors. Protein phosphatases reverse phosphorylation, allowing signal termination. Kinase cascades amplify signals and integrate multiple inputs to produce a switch-like response.
+
+## How It's Best Learned
+Draw the MAPK cascade as a tree and use a toy number: each active kinase activates 10 molecules at the next tier. One Raf gives 10 active MEK and 100 active ERK. Then add a phosphatase that inactivates half the active MEK and recount: 5 MEK and 50 ERK. This shows how a phosphatase at one tier halves everything downstream.
+
+## Common Misconceptions
+- Ras is a kinase in the MAPK cascade. (Ras is a small GTPase; it is on when bound to GTP and off after it hydrolyzes GTP to GDP, and it activates Raf, the first kinase of the three-kinase core.)
+- Adding a phosphate to a kinase always activates it. (Many kinases also carry inhibitory phosphorylation sites, so the effect depends on which residue is modified.)
+- Phosphatases are unregulated cleanup enzymes. (Phosphatase activity is controlled by phosphorylation, second messengers, and binding partners, and it helps set the strength and duration of a signal.)
+- A cascade has several tiers only to make the signal bigger. (Extra tiers also create places for other inputs, scaffolds, and feedback loops to act, which can make the response switch-like.)
 
 ## Questions
 

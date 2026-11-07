@@ -32,6 +32,14 @@ status: validated
 ## Core Idea
 Resistance is a community's ability to withstand disturbance without changing composition. Resilience is its ability to recover after disturbance. Diversity often increases both properties, though the relationship is complex. Stability trades off with productivity—highly productive systems are often less resistant to disturbance.
 
+## How It's Best Learned
+Plot community biomass against time through one disturbance for two made-up systems. System A drops from 100 to 90 units and takes 20 years to return. System B drops from 100 to 40 and returns in 3 years. Read resistance from the depth of each drop and resilience from the speed of each return. A has high resistance and low resilience, and B shows the reverse.
+
+## Common Misconceptions
+- Resistance and resilience are two words for stability. (Resistance is how little a community changes during a disturbance. Resilience is how fast it returns afterward. One can be high while the other is low.)
+- Highly productive systems are the most stable because they have more biomass to spare. (Productivity does not guarantee stability. A monoculture crop can be very productive and still collapse from one pest or weather event.)
+- A community that resists one kind of disturbance will resist any disturbance. (Resistance is specific to the stress. A community adapted to fire may respond badly to flooding or grazing.)
+
 ## Questions
 
 ```yaml

@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 Allopatric speciation occurs when geographic isolation prevents gene flow, allowing populations to diverge via drift and local selection. Peripatric speciation is founder-effect-driven rapid divergence. Parapatric speciation occurs with ongoing gene flow. Sympatric speciation occurs without geographic isolation, often via polyploidy (plants) or disruptive selection.
 
+## How It's Best Learned
+Draw the four modes as maps on one line ordered by gene flow during divergence: two separated ranges (allopatric), a small island off a large range (peripatric), two touching ranges across a gradient (parapatric), and one shared range (sympatric). Under each map, list the main driver and one example from the Explainer. Then classify new cases, such as storm-blown birds on an island or grass on mine-contaminated soil.
+
+## Common Misconceptions
+- Each speciation event fits cleanly into one of the four modes. (The modes are points along a continuum of gene flow, and gene flow can change during divergence.)
+- Two species living in the same place must have formed sympatrically. (They may have diverged apart and later spread into the same area. Ruling out past isolation is the hard part of showing sympatric speciation.)
+- Peripatric speciation is just allopatric speciation by another name. (It is a form of allopatry, but the small founder population makes drift and founder effects much more important.)
+- Speciation cannot happen while populations still exchange genes. (Parapatric and sympatric speciation can proceed if selection, often with assortative mating, is strong enough to outweigh gene flow.)
+
 ## Questions
 
 ```yaml

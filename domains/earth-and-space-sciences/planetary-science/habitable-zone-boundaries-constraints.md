@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 The habitable zone is defined by stellar luminosity and planet properties that allow liquid water to persist on the surface via feedback mechanisms: the inner boundary is limited by runaway greenhouse; the outer boundary by maximum greenhouse effect. Zone boundaries shift with atmospheric composition, surface albedo, and planetary mass, expanding or contracting the region where planets can support life.
 
+## How It's Best Learned
+Scale the Sun's habitable zone to another star with d ∝ √L. For a star with 0.04 times the Sun's luminosity, the factor is 0.2, so the zone runs from about 0.19 AU to 0.33 AU. Then compare Earth's equilibrium temperature with albedo 0.3, about 255 K, against its actual mean of about 288 K. The gap shows why atmosphere sets the boundaries as much as distance does.
+
+## Common Misconceptions
+- A planet inside the habitable zone has liquid water and probably life. (The zone marks where surface water could be stable if the planet has a suitable atmosphere. Mars lies near the outer part of the Sun's zone yet has no stable surface liquid water.)
+- A star's habitable zone stays in the same place for its whole life. (Stars brighten as they age, so the zone moves outward. The young Sun was about 30% fainter than it is today.)
+- Adding more CO₂ always makes a planet warmer. (At high CO₂ pressures, extra Rayleigh scattering reflects more starlight than the extra greenhouse effect traps. This is what sets the maximum greenhouse limit.)
+
 ## Questions
 
 ```yaml

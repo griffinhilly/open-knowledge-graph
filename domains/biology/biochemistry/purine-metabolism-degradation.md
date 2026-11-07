@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Purine nucleotides are degraded via deamination and oxidation to uric acid, which is excreted in urine. AMP → IMP → inosine → hypoxanthine → xanthine → uric acid. Xanthine oxidase catalyzes the final two steps. Uric acid solubility limits determine serum levels; supersaturation leads to crystal formation and gout.
 
+## How It's Best Learned
+Draw the pathway as two lines that meet at xanthine: AMP → IMP → inosine → hypoxanthine on one side, and GMP → guanosine → guanine on the other. Label each arrow with what is removed (amino group, phosphate, ribose) or added (oxygen). Then mark where HGPRT can pull hypoxanthine and guanine back into nucleotides, and where allopurinol blocks the final steps.
+
+## Common Misconceptions
+- AMP is broken down by first freeing adenine from its sugar. (In humans the amino group is removed while the base is still attached to ribose, AMP to IMP or adenosine to inosine, and the free base released is hypoxanthine.)
+- Free purine bases have only one fate, conversion to uric acid. (Hypoxanthine and guanine can also be salvaged by HGPRT back into IMP and GMP.)
+- Allopurinol works by dissolving the urate crystals already in a joint. (It lowers the production of new uric acid; existing crystals dissolve slowly only when serum urate stays below saturation.)
+- Humans make uric acid because our purine breakdown is unusual. (The pathway up to uric acid is shared with other mammals; humans differ because they lack the uricase step that converts uric acid to allantoin.)
+
 ## Questions
 
 ```yaml

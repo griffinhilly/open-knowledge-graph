@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 If a sequence is monotone increasing and bounded above, it converges to its supremum; if monotone decreasing and bounded below, it converges to its infimum. This theorem directly applies completeness to guarantee convergence without computing limits explicitly. It is one of the most practical convergence tools.
 
+## How It's Best Learned
+Work a₁ = 2, aₙ₊₁ = √(aₙ + 6) in full. Show by induction that aₙ < 3, since aₙ < 3 gives aₙ₊₁ < √9 = 3. Show it increases, since aₙ + 6 > aₙ² exactly when −2 < aₙ < 3. Only then solve L = √(L + 6) to get L = 3. Contrast with a₁ = 1, aₙ₊₁ = 1 − aₙ: solving L = 1 − L gives 1/2, but the sequence alternates 1, 0, 1, 0.
+
+## Common Misconceptions
+- The upper bound you found is the limit. (aₙ = 1 − 1/n is bounded above by 5 and converges to 1; the limit is the least upper bound, not any bound.)
+- You can find the limit by solving L = f(L) and skip proving convergence. (For aₙ₊₁ = 1 − aₙ the equation gives 1/2, but the sequence does not converge.)
+- The sequence must be monotone from the first term. (Being monotone from some index on is enough, since dropping finitely many terms does not affect convergence.)
+- A bounded sequence must converge, even if it is not monotone. (aₙ = (−1)ⁿ is bounded and diverges.)
+
 ## Questions
 
 ```yaml
@@ -59,11 +68,12 @@ If a sequence is monotone increasing and bounded above, it converges to its supr
 - question: "The Monotone Convergence Theorem and the Least Upper Bound property (completeness of ℝ) are logically equivalent: each can be proved from the other."
   type: true-false
   answer: true
-  explanation: "MCT is essentially the completeness axiom applied to sequences. The proof of MCT uses LUB directly: the range of a bounded increasing sequence is non-empty and bounded above, so by LUB it has a supremum, which the sequence converges to. Conversely, given MCT, you can recover LUB: for any non-empty set S bounded above, pick an increasing sequence of elements approaching sup S (possible by definition of supremum), apply MCT to get convergence, and the limit is sup S. The two are equivalent characterizations of ℝ's completeness. Neither holds in ℚ, where both break down."
+  explanation: "MCT is essentially the completeness axiom applied to sequences. The proof of MCT uses LUB directly: the range of a bounded increasing sequence is non-empty and bounded above, so by LUB it has a supremum, which the sequence converges to. Conversely, given MCT, you can recover LUB: for any non-empty set S bounded above, bisect between a point of S and an upper bound, always keeping the right endpoint an upper bound and the left endpoint at or below some point of S. The left endpoints increase and the right endpoints decrease, MCT makes both converge to a common limit, and that limit is the least upper bound of S. The two are equivalent characterizations of ℝ's completeness. Neither holds in ℚ, where both break down."
 
 - question: "Explain why the Monotone Convergence Theorem allows you to prove a sequence converges without first knowing what the limit is, and why this argument would fail if you were working in ℚ instead of ℝ."
   type: short-answer
   answer: "MCT guarantees convergence using only two properties — monotonicity and boundedness — that can be verified without knowing the limit. The argument: the range of a bounded increasing sequence is a non-empty set bounded above, so by the Least Upper Bound property of ℝ it has a supremum L in ℝ. An epsilon argument then shows the sequence converges to L. The limit is not assumed; it is produced by completeness. In ℚ, the LUB property fails: bounded sets can have no rational supremum. For example, the sequence of rational approximations to √2 (1, 1.4, 1.41, 1.414, ...) is increasing and bounded above by 2 in ℚ, but its supremum √2 is irrational — not in ℚ. So the sequence has no limit in ℚ, and MCT fails to apply there."
+  explanation: "The answer separates existence from identification. Completeness supplies the candidate L as a supremum, and the ε-argument uses three facts: L is an upper bound, L − ε is not, and the sequence is increasing. The ℚ example isolates the role of completeness. The decimal approximations of √2 are increasing and bounded in ℚ, so both hypotheses about the sequence hold, yet no rational limit exists. The failure therefore comes from the missing supremum."
 ```
 
 ## Explainer

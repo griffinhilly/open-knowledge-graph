@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Every real number has a unique continued fraction expansion [a_0; a_1, a_2, ...]. Rational expansions terminate; quadratic irrationals become periodic. The convergents give best rational approximations in a precise sense.
 
+## How It's Best Learned
+Run the Euclidean algorithm on 43 and 30 in one column and build the continued fraction in the next. The quotients 1, 2, 3, 4 give 43/30 = [1; 2, 3, 4]. Then expand √3 by hand, rationalizing each reciprocal, until the remainder √3 − 1 repeats and gives [1; 1, 2, 1, 2, ...]. Generate its convergents 1, 2, 5/3, 7/4, 19/11 with pₙ = aₙpₙ₋₁ + pₙ₋₂.
+
+## Common Misconceptions
+- Every irrational number has a repeating continued fraction, as √2 does. (Eventually periodic expansions belong exactly to the quadratic irrationals. The expansion of π does not repeat.)
+- To get the next convergent you must re-evaluate the whole nested fraction. (The recurrences pₙ = aₙpₙ₋₁ + pₙ₋₂ and qₙ = aₙqₙ₋₁ + qₙ₋₂ build each convergent from the two before it.)
+- A convergent is a good approximation only because its denominator is large. (Its quality also depends on the next partial quotient, since |x − pₙ/qₙ| < 1/(aₙ₊₁qₙ²). The fraction 355/113 is unusually good because the next partial quotient of π is 292.)
+
 ## Questions
 
 ```yaml

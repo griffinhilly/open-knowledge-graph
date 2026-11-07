@@ -24,7 +24,16 @@ status: validated
 # Receptor Signaling Pathways (RTKs, GPCRs, and Second Messengers)
 
 ## Core Idea
-Extracellular signaling molecules (growth factors, hormones, neurotransmitters) bind to cell surface receptors, initiating intracellular signaling cascades. Receptor tyrosine kinases (RTKs) dimerize upon ligand binding, autophosphorylate their cytoplasmic tails, and recruit adapter proteins (Grb2) to activate downstream kinases (Ras, MAPK/ERK cascade). GPCRs activate heterotrimeric G proteins (Gs, Gi/o, Gq/11, G12/13), which modulate second messengers (cAMP, IP3, DAG, Ca²⁺). These pathways regulate gene expression, enzyme activity, and cell behavior (proliferation, differentiation, apoptosis).
+Extracellular signaling molecules (growth factors, hormones, neurotransmitters) bind to cell surface receptors, initiating intracellular signaling cascades. Receptor tyrosine kinases (RTKs) dimerize upon ligand binding, autophosphorylate their cytoplasmic tails, and recruit adapter proteins (Grb2) that activate the small GTPase Ras, which starts the MAPK/ERK kinase cascade. GPCRs activate heterotrimeric G proteins (Gs, Gi/o, Gq/11, G12/13), which modulate second messengers (cAMP, IP3, DAG, Ca²⁺). These pathways regulate gene expression, enzyme activity, and cell behavior (proliferation, differentiation, apoptosis).
+
+## How It's Best Learned
+Draw two flowcharts side by side: a growth factor acting through an RTK, and a hormone acting through a Gs-coupled GPCR. At each step, write what switches it on and what switches it off (GTP hydrolysis, phosphodiesterase, phosphatase). Then test the drawing by predicting the effect of a toxin that blocks GTP hydrolysis by Gαs, which is how cholera toxin acts.
+
+## Common Misconceptions
+- The hormone has to enter the cell to deliver its message. (Ligands for RTKs and GPCRs bind outside the cell; the receptor changes shape and relays the signal across the membrane.)
+- Every GPCR raises cAMP. (Gs-coupled receptors raise cAMP, Gi-coupled receptors lower it, and Gq-coupled receptors act through phospholipase C, IP₃, DAG, and Ca²⁺.)
+- After activation only Gα carries the signal, and Gβγ is inactive. (The freed Gβγ dimer can also regulate effectors such as certain ion channels.)
+- In autophosphorylation, each RTK adds phosphate to its own tail. (In a ligand-bound dimer, each kinase domain phosphorylates its partner's tyrosines.)
 
 ## Questions
 
@@ -54,4 +63,4 @@ Receptor tyrosine kinases (RTKs) are one major class of receptor. They span the 
 
 GPCRs operate differently. They are seven-transmembrane proteins coupled to a heterotrimeric G protein (α, β, γ subunits) on the cytoplasmic face. When a ligand binds, the receptor changes shape and catalyzes exchange of GDP for GTP on the Gα subunit, causing Gα to dissociate and diffuse to its effector. Gαs activates adenylyl cyclase, which produces cAMP; Gαi inhibits it; Gαq activates phospholipase C, which generates IP3 and DAG. IP3 releases Ca²⁺ from the endoplasmic reticulum; DAG activates protein kinase C. Each of these second messengers is rapidly degraded (cAMP by phosphodiesterases; Gα self-inactivates by hydrolyzing GTP to GDP), so the signal is transient.
 
-The key concept unifying both pathways is amplification. A single receptor-ligand binding event does not directly cause the cellular response — it sets off a chain reaction where each step generates more activated molecules than the last. One RTK phosphorylates many Ras; one active Ras activates many Raf; each Raf phosphorylates many MEK; each MEK phosphorylates many ERK. This enzymatic cascade means that picomolar concentrations of a hormone can produce a robust cellular response. The tradeoff is complexity: each step is a potential point of failure (cancer mutations often hit Ras or B-Raf) and requires tight regulation.
+The key concept unifying both pathways is amplification. A single receptor-ligand binding event does not directly cause the cellular response — it sets off a chain reaction where each step generates more activated molecules than the last. One RTK, through Grb2 and its exchange factor, can activate many Ras; one active Ras activates many Raf; each Raf phosphorylates many MEK; each MEK phosphorylates many ERK. This enzymatic cascade means that picomolar concentrations of a hormone can produce a robust cellular response. The tradeoff is complexity: each step is a potential point of failure (cancer mutations often hit Ras or B-Raf) and requires tight regulation.

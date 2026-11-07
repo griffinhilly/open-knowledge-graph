@@ -1,0 +1,68 @@
+domains/history/medieval-world/byzantine-preservation-classical-texts.md	how	3	0	ok
+domains/history/medieval-world/byzantine-preservation-classical-texts.md	mis	6	0	ok
+domains/history/medieval-world/byzantine-preservation-classical-texts.md	old:questions+explainer	2	2	fixed	Old text named Gemistus Plethon as an emigre who settled in Italy; he visited for the Council of Florence (1438-39) and returned to Mistra. Q3 explanation now cites Bessarion and John Argyropoulos; Explainer clarifies Plethon's visit.
+domains/history/medieval-world/castle-architecture-and-fortification.md	how	3	0	ok
+domains/history/medieval-world/castle-architecture-and-fortification.md	mis	6	1	fixed	Bullet 1 said castle placement and layout were "driven by defense", denying the residential role; that is a contested traditional view stated as settled and it conflicts with the Core Idea (administrative centers, symbols of authority). Rewrote as "purely military buildings" misconception with a multi-function correction.
+domains/history/medieval-world/chivalry-code-and-practice.md	how	3	0	ok
+domains/history/medieval-world/chivalry-code-and-practice.md	mis	6	0	ok	Bullet 3 ("applied to everyone equally") is weak and overlaps bullet 1, but it is plausible given the modern sense of "chivalrous"; kept.
+domains/history/medieval-world/church-secular-power-tensions.md	how	3	0	ok
+domains/history/medieval-world/church-secular-power-tensions.md	mis	6	0	ok
+domains/history/medieval-world/classical-knowledge-preservation-transmission.md	how	3	0	ok
+domains/history/medieval-world/classical-knowledge-preservation-transmission.md	mis	6	0	ok	Not fixed: older Explainer says Cassiodorus translated Aristotle's logic (it was Boethius).
+domains/history/medieval-world/crusade-movement-motivations.md	how	2	0	ok
+domains/history/medieval-world/crusade-movement-motivations.md	mis	6	0	ok	Not fixed: older Q3 explanation calls the First Crusade the "ONLY" success and leaves out Frederick II's 1229 treaty recovery of Jerusalem. The older younger-sons/primogeniture motive is contested (Riley-Smith).
+domains/history/medieval-world/crusade-theology-holy-war-justification.md	how	3	0	ok
+domains/history/medieval-world/crusade-theology-holy-war-justification.md	mis	6	0	ok
+domains/history/medieval-world/feudal-contract-reciprocal-obligation.md	how	3	0	ok
+domains/history/medieval-world/feudal-contract-reciprocal-obligation.md	mis	6	0	ok
+domains/history/medieval-world/feudal-decline-late-medieval-centralization.md	how	3	0	ok
+domains/history/medieval-world/feudal-decline-late-medieval-centralization.md	mis	6	0	ok
+domains/history/medieval-world/feudal-decline-late-medieval-centralization.md	old:format	1	1	fixed	Explainer came before Questions. Moved the Questions block (content unchanged) so the order is Core Idea, How, Misconceptions, Questions, Explainer.
+domains/history/medieval-world/feudal-decline-late-medieval.md	how	3	0	ok
+domains/history/medieval-world/feudal-decline-late-medieval.md	mis	6	0	ok
+domains/history/medieval-world/feudal-decline-late-medieval.md	old:q:1:explanation	1	1	fixed	Explanation said "Option B is incorrect" about the Church option, but B is the keyed answer; the Church option is C.
+domains/history/medieval-world/feudal-hierarchy-vassal-system.md	how	3	0	ok
+domains/history/medieval-world/feudal-hierarchy-vassal-system.md	mis	6	0	ok
+domains/history/medieval-world/feudal-land-tenure-fiefs.md	how	3	0	ok
+domains/history/medieval-world/feudal-land-tenure-fiefs.md	mis	6	0	ok
+domains/history/medieval-world/feudal-land-tenure-fiefs.md	old:q:0:explanation	1	1	fixed	Called the fief's reversion at the vassal's death (with an heir) an "escheat". Escheat means reversion for lack of an heir or for felony. Removed the term.
+domains/history/medieval-world/feudal-military-obligation-knighthood.md	how	3	0	ok
+domains/history/medieval-world/feudal-military-obligation-knighthood.md	mis	6	0	ok
+domains/history/medieval-world/feudal-social-estates-stratification.md	how	3	0	ok
+domains/history/medieval-world/feudal-social-estates-stratification.md	mis	6	0	ok
+domains/history/medieval-world/feudal-social-estates-stratification.md	old:core	2	2	fixed	Core Idea credited the three-estates model to Aelred of Rievaulx; the classic text is Adalbero of Laon's poem to Robert II. It also said the model became "increasingly descriptive rather than prescriptive", which is the wrong way round and contradicts the Explainer; swapped.
+domains/history/medieval-world/gothic-romanesque-architecture.md	how	3	0	ok
+domains/history/medieval-world/gothic-romanesque-architecture.md	mis	6	0	ok
+domains/history/medieval-world/heresy-medieval-religious-dissent.md	how	3	0	ok
+domains/history/medieval-world/heresy-medieval-religious-dissent.md	mis	6	0	ok
+domains/history/medieval-world/heretical-movements-cathars-waldensians.md	how	3	0	ok
+domains/history/medieval-world/heretical-movements-cathars-waldensians.md	mis	6	0	ok
+domains/history/medieval-world/heretical-movements-cathars-waldensians.md	old:format	1	1	fixed	Explainer came before Questions. Moved the Questions block (content unchanged) into the standard order.
+domains/history/medieval-world/hunting-forest-management-medieval.md	how	3	0	ok
+domains/history/medieval-world/hunting-forest-management-medieval.md	mis	6	0	ok
+domains/history/medieval-world/investiture-controversy.md	how	3	0	ok
+domains/history/medieval-world/investiture-controversy.md	mis	6	0	ok
+domains/history/medieval-world/islamic-medieval-science-and-medicine.md	how	3	0	ok
+domains/history/medieval-world/islamic-medieval-science-and-medicine.md	mis	6	0	ok	Not fixed: older Core Idea lists al-Ghazali among the authors of medical and optical works; optics belongs to Ibn al-Haytham.
+domains/history/medieval-world/late-antiquity-medieval-transition.md	how	3	0	ok
+domains/history/medieval-world/late-antiquity-medieval-transition.md	mis	6	0	ok
+domains/history/medieval-world/late-antiquity-medieval-transition.md	old:q:1:explanation	1	1	fixed	Explanation said "Option B reverses the chronology" about the Christianity option, but B is the keyed answer; the Christianity option is C.
+domains/history/medieval-world/manorial-system-village-agriculture.md	how	3	0	ok
+domains/history/medieval-world/manorial-system-village-agriculture.md	mis	6	0	ok
+domains/history/medieval-world/medieval-charlemagne-empire-expansion.md	how	3	0	ok
+domains/history/medieval-world/medieval-charlemagne-empire-expansion.md	mis	6	0	ok
+domains/history/medieval-world/medieval-church-monastic-reform.md	how	3	0	ok
+domains/history/medieval-world/medieval-church-monastic-reform.md	mis	6	0	ok	Not fixed: older Q1 option and Explainer define simony as lay appointment for political reasons. Its core meaning is buying and selling Church offices, though Gregorian reformers stretched the term, so left alone.
+domains/history/medieval-world/medieval-cluniac-cistercian-orders.md	how	2	0	ok
+domains/history/medieval-world/medieval-cluniac-cistercian-orders.md	mis	6	0	ok
+domains/history/medieval-world/medieval-cosmology-aristotelian-universe.md	how	3	0	ok
+domains/history/medieval-world/medieval-cosmology-aristotelian-universe.md	mis	6	0	ok
+domains/history/medieval-world/medieval-diplomacy-statecraft.md	how	2	0	ok
+domains/history/medieval-world/medieval-diplomacy-statecraft.md	mis	6	0	ok	Not fixed: older Q2 explanation and Explainer put Italian resident ambassadors in the 13th-14th century; the standard account dates them to the 15th century (the Venetian bailo is an earlier special case).
+domains/history/medieval-world/medieval-early-middle-ages-periodization.md	how	3	0	ok
+domains/history/medieval-world/medieval-early-middle-ages-periodization.md	mis	6	0	ok
+domains/history/medieval-world/medieval-early-middle-ages-periodization.md	old:q:2:explanation+explainer	2	2	fixed	Called the "Dark Ages" label a "19th-century bias" while naming Renaissance and Enlightenment writers as its source (Petrarch, 14th century). Removed "19th-century" in both places.
+domains/history/medieval-world/medieval-english-monarchy-development.md	how	3	0	ok
+domains/history/medieval-world/medieval-english-monarchy-development.md	mis	6	0	ok
+domains/history/medieval-world/medieval-feudal-fragmentation-power.md	how	3	0	ok
+domains/history/medieval-world/medieval-feudal-fragmentation-power.md	mis	6	0	ok

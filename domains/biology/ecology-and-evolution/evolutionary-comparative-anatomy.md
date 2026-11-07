@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Homologous structures share a common evolutionary origin despite different functions—like the human arm, bat wing, and whale flipper, which all have similar bone arrangements. Analogous structures serve similar functions but arose independently, like insect and bird wings. Homology reveals evolutionary relationships and common ancestry; analogy demonstrates convergent evolution. Identifying homologies requires comparing development, anatomy, and genetics across species.
 
+## How It's Best Learned
+Color-code the bones in diagrams of a human arm, bat wing, whale flipper, and horse leg: one color for the humerus, one for the radius and ulna, one for carpals, one for digits. Then place a bird wing and an insect wing side by side and try the same coloring. The insect wing has no bones to color, which shows the difference between shared structure and shared function.
+
+## Common Misconceptions
+- Structures that look alike and do the same job must be homologous. (Similar form and function often come from convergent evolution, as in dolphin and shark fins. Homology is judged by internal structure, development, and phylogenetic distribution.)
+- Homologous structures must look similar. (A human arm and a whale flipper look very different but share the same bone plan inherited from a common ancestor.)
+- A structure is either homologous or analogous as a whole. (The question has to be asked at a stated level. Bat and bird wings share homologous forelimb bones, but flight evolved separately in each lineage.)
+- Analogous structures tell us nothing useful. (They show how selection produces similar solutions to similar problems, even though they do not show close relationship.)
+
 ## Questions
 
 ```yaml

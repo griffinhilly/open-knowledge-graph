@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 After Charlemagne's empire collapsed, power became increasingly fragmented among regional lords, creating a patchwork of semi-autonomous feudal territories. No single ruler could command distant vassals; instead, chains of vassals owed allegiance through local lords. This decentralization profoundly affected military organization, law, and cultural development across medieval Europe.
 
+## How It's Best Learned
+Draw two maps of the same region of France in about 1050. The first shows the kingdom as one block with clear borders. The second marks every castle and the area each castellan could reach in a day's ride. Then pick one village and list who collected its dues, judged its disputes, and called up its men. Compare that list with the name on the first map.
+
+## Common Misconceptions
+- Fragmentation meant there was no government at all. (Government moved to the local level. Lords and castellans held courts, collected dues, and organized defense.)
+- A medieval king controlled everything inside his kingdom's borders. (His formal claim covered the whole kingdom, but in many regions local lords held the real power to tax, judge, and fight.)
+- Every part of Europe fragmented to the same degree. (The pattern varied. Parts of France fragmented sharply in the 10th and 11th centuries, while kings in England after 1066 kept stronger central control.)
+
 ## Questions
 
 ```yaml

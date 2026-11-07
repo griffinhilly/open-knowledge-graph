@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 A Dirichlet series is Σ a_n / n^s. Dirichlet L-functions L(s, χ) = Σ χ(n) / n^s for Dirichlet characters χ factor over primes and have analytic properties tied to prime distribution in arithmetic progressions.
 
+## How It's Best Learned
+Multiply out (1 + 2^−s + 4^−s + ...)(1 + 3^−s + 9^−s + ...) by hand and check that each n = 2ᵃ3ᵇ appears exactly once. This is unique factorization turned into an Euler product. Then square ζ(s) and collect terms: the coefficient of n^−s counts pairs with de = n, so ζ(s)² = Σ d(n)/n^s.
+
+## Common Misconceptions
+- Multiplying two Dirichlet series multiplies their coefficients term by term. (Coefficients combine by Dirichlet convolution, (a * b)(n) = Σ over de = n of a(d)b(e). That is why ζ(s)² has coefficients d(n).)
+- A Dirichlet series converges on a disc, like a power series. (Its regions of convergence are right half-planes Re(s) > σ. For a non-principal character, L(s, χ) converges absolutely for Re(s) > 1 and conditionally for Re(s) > 0.)
+- Since the Euler product has no zero factors, L(s, χ) has no zeros. (The product converges absolutely only for Re(s) > 1, where there are indeed no zeros. The analytic continuation does have zeros in the strip 0 < Re(s) < 1.)
+
 ## Questions
 
 ```yaml

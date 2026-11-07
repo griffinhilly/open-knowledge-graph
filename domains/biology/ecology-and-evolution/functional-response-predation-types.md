@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Functional response describes how predation rate changes with prey density. Type I response (linear) reflects unlimited feeding; Type II response (saturating curve) shows prey handling time limits consumption; Type III response (sigmoidal) reflects predator learning or preference. Different functional responses produce different population dynamics and stability.
 
+## How It's Best Learned
+Compute the disc equation, kills = aN/(1 + ahN), with a = 1 and h = 0.1 at N = 1, 10, and 100. You get about 0.91, 5, and 9.1 kills, approaching the ceiling of 1/h = 10. Then divide each by N to get the fraction of prey eaten (0.91, 0.5, 0.09). Plot both the kills curve and the fraction curve, and sketch a Type III curve next to them for comparison.
+
+## Common Misconceptions
+- A Type II predator is most dangerous to prey when prey are abundant. (Its kill rate saturates at high density, so the fraction of prey eaten falls. The fraction eaten is highest when prey are scarce.)
+- At low prey density a Type II predator is limited by handling time. (At low density most of its time goes to searching. Handling time sets the ceiling only at high density.)
+- Type III responses arise because prey hide better at low density. (Refuges can contribute, but the standard mechanisms are prey switching and search-image learning by the predator.)
+- Type I describes most real predators. (Most predators need time to handle prey, so their kill rate levels off. Type I is mainly a baseline, approached by some filter feeders.)
+
 ## Questions
 
 ```yaml
@@ -35,7 +44,7 @@ Functional response describes how predation rate changes with prey density. Type
     - "Type III, because the sigmoidal curve accelerates rapidly through its inflection point at low densities"
     - "All types are equally threatening at low prey density since predation rate only reflects absolute numbers"
   answer: 1
-  explanation: "Type II is the most destabilizing at low prey density. As prey become scarce, the time predators spend searching shrinks, but handling time per prey item remains constant — so each encountered prey is still worth pursuing. This means predators consume a *higher proportion* of a low-density prey population than of a high-density one, creating a positive feedback loop that can drive prey to extinction. Type III is actually *stabilizing* at low density: predators switch to other prey when the focal prey is rare, creating a low-density refuge."
+  explanation: "Type II is the most destabilizing at low prey density. As prey become scarce, predators spend more of their time searching and little of it handling, so the kill rate is far from its ceiling and each encountered prey is still taken. This means predators consume a *higher proportion* of a low-density prey population than of a high-density one, creating a positive feedback loop that can drive prey to extinction. Type III is actually *stabilizing* at low density: predators switch to other prey when the focal prey is rare, creating a low-density refuge."
 
 - question: "A generalist predator that hunts rabbits and voles shifts almost entirely to voles when rabbit numbers drop sharply one winter. This behavior is the mechanism that produces which functional response type?"
   type: multiple-choice
@@ -50,7 +59,7 @@ Functional response describes how predation rate changes with prey density. Type
 - question: "A Type II functional response is destabilizing primarily because predators eat more prey per individual as prey become more abundant, overwhelming prey reproductive capacity."
   type: true-false
   answer: false
-  explanation: "This statement inverts the key dynamic. Type II is destabilizing at *low* prey density, not high density. The destabilizing feature is that at low prey density, predators consume a *higher proportion* of the prey population because handling time dominates total time (search time is already short). At high density, the Type II response saturates — predators are handling-time limited, so the proportion consumed actually drops. The danger for prey populations is not predator saturation at high density but disproportionate predation when prey are already struggling."
+  explanation: "This statement inverts the key dynamic. Type II is destabilizing at *low* prey density, not high density. The destabilizing feature is that at low prey density, predators consume a *higher proportion* of the prey population because search time dominates total time and handling time does not yet limit the kill rate. At high density, the Type II response saturates — predators are handling-time limited, so the proportion consumed actually drops. The danger for prey populations is not predator saturation at high density but disproportionate predation when prey are already struggling."
 
 - question: "The difference between Type II and Type III functional responses has real consequences for whether prey populations can recover from low numbers — Type III provides a stability mechanism that Type II does not."
   type: true-false

@@ -19,6 +19,15 @@ status: validated
 ## Core Idea
 One-carbon metabolism transfers one-carbon units at the formyl, hydroxymethyl, and methyl oxidation levels, using folate as the carrier. These units are essential for nucleotide synthesis (purines and pyrimidines) and methylation reactions via S-adenosylmethionine. The pathway integrates amino acid degradation, nucleotide biosynthesis, and gene regulation.
 
+## How It's Best Learned
+Draw a vertical ladder of THF forms by oxidation state: formyl-THF at the top, methylene-THF in the middle, methyl-THF at the bottom. Follow one carbon from serine onto the ladder, then send it out three ways: into a purine ring, onto dUMP to make dTMP, or down to methionine and SAM. Then delete B₁₂ and watch the carbon pile up at the bottom.
+
+## Common Misconceptions
+- Folate donates the methyl groups for DNA methylation directly. (SAM is the direct methyl donor; methyl-THF supplies the methyl that turns homocysteine back into methionine, which is then made into SAM.)
+- The carbon on THF can move freely up and down between oxidation states. (Reduction of methylene-THF to methyl-THF is effectively irreversible in cells, which is why B₁₂ deficiency traps folate as methyl-THF.)
+- Thymidylate synthase leaves THF unchanged, like a simple methyl transfer. (The enzyme transfers a methylene group and reduces it using electrons from THF, leaving dihydrofolate that DHFR must reduce again.)
+- Giving folic acid fixes a B₁₂ deficiency. (Folic acid can correct the anemia, but the neurological damage of B₁₂ deficiency continues without B₁₂.)
+
 ## Questions
 
 ```yaml

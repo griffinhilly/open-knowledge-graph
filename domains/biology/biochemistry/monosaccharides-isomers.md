@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Monosaccharides with the same molecular formula but different structures or stereochemistry are isomers. Constitutional isomers (glucose vs. fructose, both C₆H₁₂O₆) differ in functional group type. Stereoisomers include enantiomers (D and L forms, mirror images) and diastereoisomers (epimers, differing at one stereocenter). The D/L nomenclature refers to the stereochemistry at the stereocenter farthest from the aldehyde or ketone, while α and β refer to anomeric stereochemistry at the anomeric carbon (C1).
 
+## How It's Best Learned
+Draw D-glucose as a Fischer projection, with the C2 to C5 hydroxyls on the right, left, right, right. Flip only C4 to get D-galactose, flip only C2 to get D-mannose, and flip all four to get L-glucose. Naming each new structure's relationship to glucose (epimer or enantiomer) makes the categories concrete. Then close the ring and compare α and β.
+
+## Common Misconceptions
+- D and L tell you which way the sugar rotates polarized light. (D and L describe the configuration at the highest-numbered chiral carbon; the direction of optical rotation must be measured and does not follow from the label.)
+- L-glucose is made by flipping only the C5 hydroxyl of D-glucose. (Flipping only C5 gives a diastereomer, L-idose; the enantiomer L-glucose has every chiral center inverted.)
+- α-glucose and β-glucose are two different sugars that cannot turn into each other. (In water the ring opens and recloses, so the two anomers interconvert by mutarotation until they reach equilibrium.)
+- Glucose and fructose are stereoisomers because they share the formula C₆H₁₂O₆. (They have different connectivity, an aldehyde at C1 versus a ketone at C2, so they are constitutional isomers.)
+
 ## Questions
 
 ```yaml

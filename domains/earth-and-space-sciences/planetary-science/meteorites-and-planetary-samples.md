@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Meteorites are solid fragments from planets, asteroids, moons, and comets that reach planetary surfaces; their mineralogy, isotope ratios (U-Pb, Ar-Ar), and noble-gas contents reveal accretion ages, parent-body thermal histories, and impact events. Meteorite groups (chondrites, achondrites, irons) sample distinct solar system bodies and processes.
 
+## How It's Best Learned
+Sort photos of cut meteorite faces into chondrites, achondrites, and irons using three questions: are there chondrules, was it melted, and is it mostly metal? Then work a U-Pb check. With a ²³⁸U half-life of about 4.47 billion years, a 4.567-billion-year-old CAI keeps about 49% of its ²³⁸U. Its radiogenic ²⁰⁶Pb is therefore roughly equal to the remaining ²³⁸U.
+
+## Common Misconceptions
+- Every meteorite is a piece of an asteroid. (Most are, but some achondrites were blasted off the Moon and Mars by impacts.)
+- Every radiometric age from a meteorite tells when it formed. (Different clocks record different events. An argon-argon age often marks the last time the rock was heated, for example by an impact.)
+- The meteorites in collections are a fair sample of what falls. (Fragile, volatile-rich stones break up in the atmosphere and weather quickly on the ground. Iron meteorites survive well and are easy to spot, so they are overrepresented among finds.)
+
 ## Questions
 
 ```yaml

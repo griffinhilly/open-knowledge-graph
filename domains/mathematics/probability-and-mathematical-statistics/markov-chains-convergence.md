@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 An irreducible, aperiodic Markov chain converges in distribution to its stationary distribution π: P(X_n = j) → π(j). The convergence rate depends on the spectral gap (largest minus second-largest eigenvalue of P); larger gaps mean faster mixing. Convergence ensures MCMC samples approach the target distribution.
 
+## How It's Best Learned
+Solve the two-state chain exactly. With P(1→2) = a and P(2→1) = b, the eigenvalues are 1 and 1 − a − b, and π = (b/(a+b), a/(a+b)). The gap between P(Xₙ = 1) and π(1) shrinks by a factor of 1 − a − b each step. With a = 0.1 and b = 0.2, that factor is 0.7, and after 10 steps the gap is about 3% of where it began. Then set a = b = 1 and watch it oscillate forever.
+
+## Common Misconceptions
+- Convergence means the chain eventually settles into one state. (The chain keeps moving. What converges is the distribution of Xₙ, which approaches π.)
+- After burn-in, MCMC samples are independent draws from π. (They are approximately distributed as π but remain correlated from step to step. This is why the effective sample size is usually smaller than the number of draws.)
+- A trace plot that looks stable proves the chain has converged. (A chain can sit stably in one mode of a multimodal target for a long time. Diagnostics can reveal some failures but cannot prove convergence.)
+
 ## Questions
 
 ```yaml

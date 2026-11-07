@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 Community assembly rules describe which species combinations can coexist based on competition, niche requirements, and dispersal. Assembly can be deterministic (species composition determined by environmental filtering and competition) or stochastic (random dispersal events). Metacommunity frameworks integrate local and regional processes to explain spatial patterns of diversity.
 
+## How It's Best Learned
+Sketch four ponds that differ in pH and in distance from each other, and list five species with a pH tolerance and a dispersal range for each. For every pond, predict which species pass the dispersal, environmental and biotic filters. Then raise dispersal rates for all species and predict again. The shift from tidy sorting by pH to species appearing in unsuitable ponds shows the difference between species sorting and mass effects.
+
+## Common Misconceptions
+- If a species is missing from a site, the site must be unsuitable for it. (The species may never have arrived. Dispersal limitation can keep a species out of habitat where it would thrive.)
+- A species-rich site must have especially favorable local conditions. (High connectivity can sustain species through steady immigration, even where local conditions alone would not support them.)
+- One of the four metacommunity frameworks is correct and the others are wrong. (They describe different balances of dispersal and local conditions, and many real regions show elements of several at once.)
+
 ## Questions
 
 ```yaml

@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 Ammonia, produced in tissues by amino acid degradation and oxidative deamination, is toxic and must be rapidly removed or detoxified. Muscle transfers ammonia to glutamine; the liver receives glutamine and recycles ammonia into the urea cycle. The glucose-alanine cycle and alanine aminotransferase couple amino acid catabolism with gluconeogenesis.
 
+## How It's Best Learned
+Draw two tissues, muscle and liver, joined by a blood vessel. Follow one nitrogen atom along each route: as glutamine (glutamine synthetase out, glutaminase in) and as alanine (aminotransferase in muscle, ALT in liver, then glutamate dehydrogenase). Label where free NH₄⁺ appears. Then repeat the drawing with a failing liver and mark where ammonia backs up.
+
+## Common Misconceptions
+- Tissues release free ammonia into the blood for the liver to collect. (Most nitrogen travels in nontoxic carriers such as glutamine and alanine, and these carriers give up their NH₄⁺ mainly inside liver or kidney cells.)
+- In the liver, ALT removes ammonia straight from alanine. (ALT moves the amino group from alanine to α-ketoglutarate, making glutamate; glutamate dehydrogenase then releases NH₄⁺.)
+- Converting ammonia to glutamine is a one-way disposal step. (Glutaminase in the liver and kidney splits glutamine back into glutamate and ammonia, so the carrier gives up its nitrogen at the right site.)
+- Hyperammonemia harms the brain mainly by changing blood pH. (A main mechanism is excess glutamine made in astrocytes, which causes swelling and disrupts glutamate recycling.)
+
 ## Questions
 
 ```yaml
@@ -65,6 +74,6 @@ From your study of oxidative deamination, you know that amino acids lose their a
 
 The primary transport mechanism in most tissues is the **glutamine shuttle**. The enzyme **glutamine synthetase** combines ammonia with glutamate to form glutamine — a non-toxic, neutral amino acid that travels safely through the bloodstream. When glutamine reaches the liver (or kidneys), the enzyme **glutaminase** cleaves it back into glutamate and ammonia, releasing the ammonia directly into the hepatocyte where it can enter the urea cycle. This is an elegant solution: glutamine acts as a safe "envelope" for a toxic molecule, carrying it through the blood without causing harm.
 
-Muscle tissue uses an additional pathway: the **glucose-alanine cycle**. During intense exercise or fasting, muscle breaks down amino acids for energy. Rather than releasing free ammonia, muscle aminotransferases transfer the amino group to pyruvate, forming **alanine**. Alanine travels via the blood to the liver, where **alanine aminotransferase** (ALT) reverses the reaction — transferring the amino group back off alanine to produce pyruvate and ammonia. The ammonia enters the urea cycle, and the pyruvate is used for **gluconeogenesis**, producing glucose that is shipped back to muscle for fuel. This cycle accomplishes two goals simultaneously: safe nitrogen transport and carbon recycling between muscle and liver.
+Muscle tissue uses an additional pathway: the **glucose-alanine cycle**. During intense exercise or fasting, muscle breaks down amino acids for energy. Rather than releasing free ammonia, muscle aminotransferases transfer the amino group to pyruvate, forming **alanine**. Alanine travels via the blood to the liver, where **alanine aminotransferase** (ALT) reverses the reaction — transferring the amino group from alanine to α-ketoglutarate to produce pyruvate and glutamate. Glutamate dehydrogenase then releases the nitrogen as ammonia, which enters the urea cycle, and the pyruvate is used for **gluconeogenesis**, producing glucose that is shipped back to muscle for fuel. This cycle accomplishes two goals simultaneously: safe nitrogen transport and carbon recycling between muscle and liver.
 
 The clinical significance of ammonia metabolism becomes vivid in liver failure. When the liver cannot process ammonia efficiently, blood ammonia levels rise — a condition called **hyperammonemia**. The brain, which relies on glutamate as its primary excitatory neurotransmitter, is especially vulnerable: excess ammonia drives glutamine synthetase to over-produce glutamine in astrocytes, causing osmotic swelling and disrupting neurotransmission. The result is confusion, altered consciousness, and in severe cases, coma. This is why clinicians monitor blood ammonia levels in patients with liver disease and why understanding these transport pathways is essential to clinical biochemistry.

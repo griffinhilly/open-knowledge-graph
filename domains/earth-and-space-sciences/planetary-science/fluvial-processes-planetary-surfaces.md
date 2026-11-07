@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Flowing water sculpts planetary surfaces through channel incision, valley formation, delta deposition, and sediment transport. Ancient fluvial evidence on Mars—deltas, alluvial fans, valley networks—indicates sustained liquid water in the past. Comparing fluvial systems across planets reveals how climate, gravity, atmospheric pressure, and substrate properties control erosion rates and landform morphology.
 
+## How It's Best Learned
+Compute bed shear stress τ = ρ g h S for water 1 m deep on a slope of 0.001. On Earth (g = 9.81 m/s²) this gives about 9.8 Pa. On Mars (g = 3.71 m/s²) it gives about 3.7 Pa. Then compare an orbital image of the Jezero fan delta with an Earth delta at a similar scale and label the inlet channel, lobes, and layered front.
+
+## Common Misconceptions
+- Any winding channel seen from orbit was cut by a river. (Lava can also carve sinuous channels, as on the Moon. Sedimentary layers, deltas, or fans are needed to make a strong case for water.)
+- Mars's river features formed steadily across most of its history. (Most valley networks lie on ancient terrain and date to Mars's early history. Present-day Mars cannot keep liquid water stable on its surface for long.)
+- Titan's channels are cut into rock the same way Earth's are. (Titan's bedrock is thought to be water ice, which is as hard as rock at about −179°C. Liquid methane and ethane erode that ice instead of silicate rock.)
+
 ## Questions
 
 ```yaml

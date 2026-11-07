@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Reproductive isolation accumulates gradually during allopatric divergence through drift and selection on different traits. Prezygotic barriers (mate choice, courtship incompatibility) often evolve first; postzygotic barriers (hybrid inviability, sterility) follow. The Dobzhansky-Muller model explains how independent mutations in different populations create reproductive incompatibilities.
 
+## How It's Best Learned
+Draw the Dobzhansky-Muller tree: AABB at the root, branching to AAbb and aaBB. At each step, write which allele pairs now exist together and note that each pair sits in a living, working genome, so selection has tested it. Then form the hybrid and find the one pair, a with b, that has never been tested. Add one more substitution on each branch, at new loci C and D, and count the untested pairs the hybrid now carries: four instead of one.
+
+## Common Misconceptions
+- Hybrids fail because one of the parent populations carries a harmful mutation. (In the Dobzhansky-Muller model each allele works in its home background. The failure comes from a new combination of alleles that never met before.)
+- Two populations become separate species as soon as one barrier appears. (Barriers build up over time. Early in divergence, populations that come back into contact can still exchange genes.)
+- While apart, each population is selected to avoid mating with the other. (Populations in allopatry never meet, so barriers arise as side effects of drift and selection on other traits. Direct selection against hybridizing, called reinforcement, needs contact.)
+
 ## Questions
 
 ```yaml

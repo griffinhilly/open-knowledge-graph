@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 The real numbers form an ordered field, satisfying both algebraic axioms (closure, commutativity, associativity, distributivity, identity and inverse elements) and order axioms (total order ≤ compatible with addition and multiplication). These axioms provide the foundational rules for all manipulations in real analysis.
 
+## How It's Best Learned
+Prove familiar facts from the axioms, citing one axiom per line. Start with a·0 = 0: expand a·0 = a(0 + 0) = a·0 + a·0 and add −(a·0) to both sides. Then show every square is ≥ 0, and deduce 0 < 1, since 1 = 1·1. Finally, explain why ℂ cannot be ordered, given that i² = −1 would have to be ≥ 0.
+
+## Common Misconceptions
+- Facts like a·0 = 0 and 0 < 1 are axioms. (They are theorems; the axioms are a short list, and these follow from them in a few lines.)
+- Every field can be made into an ordered field. (ℂ cannot, since i² = −1 would be a negative square; the two-element field cannot either, since 1 + 1 = 0.)
+- The ordered field axioms describe ℝ completely. (ℚ satisfies them too; completeness is the extra axiom that singles out ℝ.)
+
 ## Questions
 
 ```yaml

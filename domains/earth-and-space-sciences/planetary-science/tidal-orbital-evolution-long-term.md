@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 Tidal dissipation causes orbits to decay over gigayear timescales through frictional heating in planetary/lunar interiors. Orbits circularize and migrate (typically inward) at rates determined by the tidal quality factor Q, internal structure, and orbital parameters. This can trigger habitability loss (Venus hot runaway) or maintain subsurface oceans (Europa, Enceladus).
 
+## How It's Best Learned
+Make a table of moons with each moon's orbital period beside its planet's rotation period, and predict the direction of migration. The Moon (27.3 days) orbits slower than Earth spins (1 day), so it recedes. Phobos (7.65 hours) orbits faster than Mars spins (24.6 hours), so it spirals inward. Then note that at today's 3.8 cm per year, the Moon would recede about 38,000 km per billion years.
+
+## Common Misconceptions
+- Tides make every moon spiral inward. (The direction depends on whether the planet spins faster than the moon orbits. The Moon recedes from Earth, while Phobos spirals in toward Mars.)
+- The Moon has receded at today's rate throughout its history. (The rate depends on how Earth's oceans respond to the tide, which changes as continents move. Today's rate is thought to be higher than the long-term average.)
+- Because gravity is conservative, tidal evolution conserves the system's mechanical energy. (Friction turns some of that energy into heat. The total angular momentum of the system is what stays conserved.)
+
 ## Questions
 
 ```yaml

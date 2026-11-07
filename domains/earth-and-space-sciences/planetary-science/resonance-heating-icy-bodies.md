@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Orbital resonances can amplify tidal heating in moons and distant planets by maintaining elevated orbital eccentricity or oscillatory orbital motion. This sustained heating can maintain subsurface oceans for billions of years even at large orbital distances, making resonance-heated bodies potential habitats independent of the traditional habitable zone.
 
+## How It's Best Learned
+Use the scaling for a moon in synchronous rotation, heating ∝ (k₂/Q) M_p² R⁵ n e² / a⁶, with n ∝ a^(−3/2). Doubling eccentricity raises heating fourfold. Doubling orbital distance cuts it by 2^7.5, about 180 times. Then compare Io, Europa and Enceladus in a table of orbital distance, resonance partner, and observed activity.
+
+## Common Misconceptions
+- The resonance itself generates the heat. (The heat comes from tidal flexing inside the moon. The resonance keeps the eccentricity from decaying, so the flexing continues.)
+- A moon close to its planet is strongly heated even on a circular orbit. (A synchronously rotating moon on a circular orbit sees a tidal bulge that does not change, so it flexes very little. A varying tide, mainly from eccentricity, is what produces heat.)
+- Tidal heat is produced at the moon's surface. (Heat is dissipated in the interior, wherever material both flexes and is dissipative, such as warm ice or partly molten rock.)
+
 ## Questions
 
 ```yaml

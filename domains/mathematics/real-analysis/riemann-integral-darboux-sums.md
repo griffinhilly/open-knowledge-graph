@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The Riemann integral is defined via Darboux sums: partition [a,b] into subintervals, compute upper (U) and lower (L) sums using suprema and infima of f on each subinterval. The integral exists if inf U = sup L. This definition is equivalent to Riemann sums and clarifies when functions are integrable: discontinuities on a set of measure zero are allowed.
 
+## How It's Best Learned
+Compute both sums for f(x) = x² on [0, 1] with n equal pieces. Since f is increasing, U uses right endpoints and L uses left endpoints. That gives U = (n + 1)(2n + 1)/(6n²) and L = (n − 1)(2n − 1)/(6n²), so U − L = 1/n and both tend to 1/3. Then restate integrability as: for every ε > 0, some partition has U − L < ε.
+
+## Common Misconceptions
+- A lower sum for one partition can exceed an upper sum for a different partition. (It cannot: for partitions P and Q, L(f, P) ≤ L(f, P ∪ Q) ≤ U(f, P ∪ Q) ≤ U(f, Q).)
+- Mᵢ is the largest value f takes on the subinterval. (It is the supremum, which need not be attained; f(x) = x on [0, 1) with f(1) = 0 has supremum 1 on [1/2, 1] but never equals 1 there.)
+- Darboux sums and Riemann sums with sample points can give different integrals. (For bounded functions on [a, b] the two definitions are equivalent; a key step is that every Riemann sum lies between L and U for the same partition.)
+
 ## Questions
 
 ```yaml

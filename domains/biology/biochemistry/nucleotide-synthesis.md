@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Nucleotides are synthesized through two pathways: de novo synthesis (building the base and ribose ring from simpler precursors) and salvage pathways (recycling bases and nucleosides from degraded nucleic acids). De novo purine synthesis begins with PRPP and constructs the purine ring while attached to ribose, producing IMP, then AMP and GMP. De novo pyrimidine synthesis first completes the pyrimidine ring as orotate, then attaches to PRPP, producing UMP, then CTP and dTTP. Both pathways are tightly regulated by feedback inhibition and require multiple vitamin cofactors (folate, B12).
 
+## How It's Best Learned
+Make a two-column table for de novo purine and pyrimidine synthesis. Rows: starting molecule, when ribose-phosphate is attached, first complete nucleotide, atom donors, steps that need folate, and end-product inhibitors. Then mark where 5-fluorouracil and methotrexate act, and add a third column for salvage to contrast building with recycling.
+
+## Common Misconceptions
+- Purines and pyrimidines both get their sugar attached at the same stage. (Purine rings are built directly on PRPP, while the pyrimidine ring is finished as orotate before PRPP is added.)
+- Deoxyribonucleotides are built de novo with deoxyribose from the start. (Cells make ribonucleotides first; ribonucleotide reductase then removes the 2′-OH at the diphosphate level.)
+- Thymine nucleotides come from adding a methyl group to uracil in RNA. (Thymidylate synthase methylates the free nucleotide dUMP to make dTMP; RNA is not involved.)
+- Salvage makes bases from amino acids and CO₂, just more cheaply. (Salvage reuses bases and nucleosides that already exist; building rings from small precursors is de novo synthesis.)
+
 ## Questions
 
 ```yaml

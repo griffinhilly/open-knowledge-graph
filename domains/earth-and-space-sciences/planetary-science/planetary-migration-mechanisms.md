@@ -29,7 +29,15 @@ status: validated
 # Planetary Migration in Protoplanetary Disks
 
 ## Core Idea
-Planets embedded in protoplanetary disks experience asymmetric gravitational torques from the disk that cause orbital decay (inward migration) or outward migration depending on disk properties and planet mass. Type I migration (low-mass planets), Type II migration (gap-opening planets), and Type III migration (high-mass planets) each operate in distinct regimes and occur on timescales of 10⁴–10⁶ years.
+Planets embedded in protoplanetary disks experience asymmetric gravitational torques from the disk that cause orbital decay (inward migration) or outward migration depending on disk properties and planet mass. Type I migration (low-mass planets), Type II migration (gap-opening planets), and Type III migration (runaway migration of intermediate-mass planets in massive disks) each operate in distinct regimes and occur on timescales of 10⁴–10⁶ years.
+
+## How It's Best Learned
+Start from a planet's orbital angular momentum, L = m√(GMa). Losing 10 percent of L shrinks the orbit to 0.9² = 0.81 of its starting radius, so a planet at 1 AU moves to 0.81 AU. Then draw the inner and outer spiral waves with the torque each exerts. Finish by placing Type I, III and II on one planet-mass axis, marking the gap-opening mass.
+
+## Common Misconceptions
+- Planets migrate because gas drag slows them down. (Migration is driven by gravitational torques from the spiral waves and gas the planet disturbs. Friction with the gas does not cause it.)
+- Migration in a disk is always inward. (Depending on the disk's temperature and density gradients, some torques can push a planet outward, and migration can stall at so-called traps.)
+- Disk-driven migration continues after the gas is gone. (It stops once the gas disperses. Later orbital changes come from scattering by other planets or planetesimals, or from tides.)
 
 ## Questions
 

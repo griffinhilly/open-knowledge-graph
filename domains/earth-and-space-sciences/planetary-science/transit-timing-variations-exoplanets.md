@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Gravitational interactions between planets cause transit times to deviate from constant period. These transit timing variations (TTVs) sensitively reveal non-transiting planets, constrain masses without radial velocities, and probe orbital dynamics—making TTVs a powerful tool for characterizing multi-planet systems discovered by transit missions.
 
+## How It's Best Learned
+Plot observed-minus-calculated (O − C) transit times against transit number for a simulated pair of planets near 2:1. First predict the cycle length with the super-period, 1/|2/P_out − 1/P_in|. For P_in = 10.0 days and P_out = 20.4 days, that gives 510 days. Then check that the two planets' O − C curves swing in opposite directions.
+
+## Common Misconceptions
+- A TTV means the planet's orbital period is steadily changing. (Most TTVs are oscillations around a fixed mean period. The transits swing early and then late over a super-period.)
+- A larger TTV means a more massive perturbing planet. (The amplitude also depends strongly on how close the pair is to resonance and on their eccentricities. A small planet near resonance can cause larger TTVs than a massive one far from it.)
+- Any scatter in measured transit times is a TTV signal. (Photometric noise, starspots and sparse sampling can shift measured times, so a TTV claim needs a coherent pattern well above the timing errors.)
+
 ## Questions
 
 ```yaml

@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 Planetary systems exhibit characteristic architectures (compact, widely-spaced, resonant, or scattered) reflecting their formation and dynamical history. Orbital spacing, eccentricity distributions, mass ratios, and inclinations determine stability lifetime and habitability in multi-planet systems. Dynamical instabilities can trigger scattering and planet ejection, reshaping system architecture over gigayears.
 
+## How It's Best Learned
+Compute the spacing of two neighboring planets in mutual Hill radii, R_H = [(m1 + m2)/(3M*)]^(1/3) × (a1 + a2)/2. For two Earth-mass planets at 1.0 and 1.1 AU around a Sun-like star, the 0.1 AU gap is about 7.6 R_H. For two Jupiter-mass planets it is about 1.1 R_H. Then tabulate adjacent period ratios and Hill spacings for real systems to sort them into architecture classes.
+
+## Common Misconceptions
+- A system that has stayed stable for a billion years will stay stable indefinitely. (Chaotic perturbations can build up slowly, so a system can run for a long time and then become unstable. Stability analyses give lifetimes, not guarantees.)
+- The gap between two orbits in AU tells you how close the planets are dynamically. (The same gap is wide for small planets and narrow for giant planets, which is why separations are compared in mutual Hill radii.)
+- If every neighboring pair of planets is stable on its own, the whole system is stable. (In systems of three or more planets, the combined perturbations can destabilize orbits at spacings where an isolated pair would be stable.)
+
 ## Questions
 
 ```yaml

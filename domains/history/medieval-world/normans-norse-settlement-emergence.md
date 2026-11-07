@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Norse (Viking) raiders settled in northern France during the 9th-10th centuries, establishing what became Normandy. They gradually integrated into Frankish feudalism, converting to Christianity and adopting French language. This transformation from pagan raiders to Christian Norman nobles illustrates how migratory populations were absorbed into medieval European feudal structures.
 
+## How It's Best Learned
+Lay out a timeline from the first Seine raids to 1066 and mark three changes in separate colors: religion, language and political ties to the Frankish crown. Pair it with a map showing the 911 grant around Rouen and the later westward additions. Then read the 911 deal from both sides. What did Charles gain, and what did Rollo gain?
+
+## Common Misconceptions
+- The Norse settlers replaced the local Frankish population. (The settlers were a minority who mixed and intermarried with a largely Frankish population. Their language faded, though Norse traces survive in some place names.)
+- Rollo received all of Normandy in 911. (The first grant covered lands around the lower Seine and Rouen. Further grants and conquests in the following decades pushed the territory west.)
+- The Norman conquests in southern Italy were campaigns of the dukes of Normandy. (They were the work of Norman adventurers and mercenaries, such as the Hauteville family, acting on their own and not on the duchy's behalf.)
+
 ## Questions
 
 ```yaml

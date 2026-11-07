@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Indicator species reflect environmental conditions or ecosystem health without expensive instrumentation. Biomonitoring uses these organisms to assess quality: aquatic macroinvertebrates indicate water quality; lichen diversity indicates air quality; bird communities indicate habitat quality. Effective indicators respond predictably to stressors, are easily sampled, and integrate effects over time. Indices combining multiple indicators provide more robust assessments than single species.
 
+## How It's Best Learned
+Score two stream samples by hand with illustrative tolerance values (0 = very sensitive, 10 = very tolerant). Sample 1 has 10 stoneflies (1), 20 mayflies (4) and 10 midges (8): (10 + 80 + 80) / 40 = 4.25. Sample 2 has 2 mayflies (4) and 38 tubificid worms (10): (8 + 380) / 40 = 9.7. Then count EPT taxa in each. Seeing the two indices point the same way builds trust in the method.
+
+## Common Misconceptions
+- A clean water-chemistry test proves a stream is healthy. (A single test shows conditions at one moment. The organisms present reflect conditions over weeks to years, including pollution pulses the test missed.)
+- A high score always means good conditions. (It depends on the index. A high EPT score signals clean water, but a high Hilsenhoff score signals degraded water.)
+- The rarest, most sensitive species make the best indicators. (A useful indicator must also be common enough to sample reliably and easy to identify, or its absence may only mean it was missed.)
+
 ## Questions
 
 ```yaml

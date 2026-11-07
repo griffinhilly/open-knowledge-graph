@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 A (1-α) confidence interval [L(X), U(X)] for θ satisfies P(L(X) ≤ θ ≤ U(X)) = 1 - α. Confidence intervals can be inverted from hypothesis tests: the (1-α) CI is {θ: θ is not rejected at level α}. Shortest confidence intervals use the critical region from the UMP test. Asymptotic CIs rely on asymptotic normality of estimators.
 
+## How It's Best Learned
+Invert one test by hand. For a normal mean with known σ, the level-0.05 test of H₀: μ = μ₀ accepts when |X̄ − μ₀| ≤ 1.96σ/√n. Solve that inequality for μ₀ instead of X̄ and you get X̄ ± 1.96σ/√n. Then fix a true μ, simulate 100 samples, draw the 100 intervals as horizontal bars, and count how many cross the line at μ.
+
+## Common Misconceptions
+- A 95% confidence interval contains about 95% of the data or of future observations. (It targets the parameter θ. An interval meant to hold a future observation is a prediction interval, and it is wider.)
+- Asymptotic intervals such as θ̂ ± 1.96/√(n·I(θ̂)) have 95% coverage at ordinary sample sizes. (Coverage is guaranteed only as n → ∞. The Wald interval for a binomial proportion near 0 or 1 can cover well below 95% at moderate n.)
+- Inverting a test always produces an interval. (It produces a set of non-rejected values. That set can be a union of intervals or unbounded, which is why the general object is called a confidence set.)
+
 ## Questions
 
 ```yaml

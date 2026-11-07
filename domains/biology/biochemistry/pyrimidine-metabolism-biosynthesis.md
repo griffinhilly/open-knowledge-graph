@@ -18,7 +18,16 @@ status: validated
 # Pyrimidine Biosynthesis
 
 ## Core Idea
-Pyrimidine synthesis begins with the formation of orotic acid from carbamoyl phosphate and aspartate, then conversion to orotidylate, and finally decarboxylation to UMP. Unlike purine synthesis (which is de novo), pyrimidine synthesis produces the intact ring first, then attaches the sugar. Conversion to CTP and dTMP completes the pathway. UMPS (uridine 5'-monophosphate synthase) catalyzes the final steps.
+Pyrimidine synthesis begins with the formation of orotic acid from carbamoyl phosphate and aspartate, then conversion to orotidylate, and finally decarboxylation to UMP. Unlike purine synthesis (which builds the ring on the sugar), pyrimidine synthesis produces the intact ring first, then attaches the sugar. Conversion to CTP and dTMP completes the pathway. UMPS (uridine 5'-monophosphate synthase) catalyzes the final steps.
+
+## How It's Best Learned
+Draw the pyrimidine ring with atoms numbered 1 to 6 and color them by source: carbamoyl phosphate gives C2 and N3, aspartate gives N1, C4, C5, and C6. Then attach ribose-5-phosphate from PRPP at N1 and remove the carboxyl group at C6 to reach UMP. Finish with two branches: UTP to CTP, and dUMP to dTMP.
+
+## Common Misconceptions
+- The carbamoyl phosphate for pyrimidines comes from the urea cycle enzyme. (Pyrimidine synthesis uses cytosolic carbamoyl phosphate synthetase II with glutamine as the nitrogen source; the urea cycle uses mitochondrial CPS I with free ammonia.)
+- Because the ring is built first, pyrimidine synthesis does not need PRPP. (PRPP is still required; it attaches ribose-5-phosphate to orotate after the ring is complete.)
+- CTP is made by adding an amino group to UMP. (The amination happens at the triphosphate level: CTP synthetase converts UTP to CTP.)
+- dTMP is made by methylating UMP. (Thymidylate synthase methylates dUMP, a deoxyribonucleotide, so the sugar has already been reduced before the methyl group is added.)
 
 ## Questions
 
@@ -55,7 +64,7 @@ Pyrimidine synthesis begins with the formation of orotic acid from carbamoyl pho
 
 - question: "What is the fundamental structural difference between how pyrimidine and purine rings are synthesized, and why does this matter for understanding the pathway?"
   type: short-answer
-  answer: "Purine rings are built incrementally on a ribose scaffold (sugar-first): PRPP is the starting material and the ring is assembled atom-by-atom on top of it. Pyrimidine rings are assembled as free molecules first (ring-first): the complete six-membered pyrimidine ring (orotate) is synthesized from carbamoyl phosphate and aspartate without any sugar, and ribose is attached only afterward when orotate reacts with PRPP. This means blocking early steps in pyrimidine synthesis prevents ring formation entirely, while blocking early purine steps prevents sugar attachment."
+  answer: "Purine rings are built incrementally on a ribose scaffold (sugar-first): PRPP is the starting material and the ring is assembled atom-by-atom on top of it. Pyrimidine rings are assembled as free molecules first (ring-first): the complete six-membered pyrimidine ring (orotate) is synthesized from carbamoyl phosphate and aspartate without any sugar, and ribose is attached only afterward when orotate reacts with PRPP. This means blocking early steps in pyrimidine synthesis prevents ring formation before any sugar is involved, while in purine synthesis the sugar is present from the first step, so every purine intermediate already carries it."
   explanation: "Knowing which comes first — ring or sugar — helps predict where specific inhibitors act, how the pathways share or diverge at PRPP, and why the regulatory points differ. The ring-first strategy of pyrimidines means that the pathway can be blocked completely before any PRPP is consumed, whereas purine synthesis immediately commits PRPP at the first step."
 ```
 

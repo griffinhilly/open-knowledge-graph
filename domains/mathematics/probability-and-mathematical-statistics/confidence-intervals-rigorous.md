@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 A confidence interval [L(X), U(X)] has level 1-α if P(θ ∈ [L,U]) = 1-α for all θ (exact) or approximately (asymptotic). Intervals are constructed by inverting hypothesis tests or using pivotal quantities. Asymptotic CIs rely on the CLT and estimator asymptotics. Confidence is frequentist; different from Bayesian credible intervals.
 
+## How It's Best Learned
+Build intervals from two pivots. First the t pivot: with n = 16, X̄ = 10 and s = 4, the standard error is 1 and t₁₅ at 0.975 is 2.131, giving [7.869, 12.131]. Then derive an interval for an exponential rate λ from the pivot 2λΣXᵢ ~ χ²₂ₙ, solving the probability statement for λ yourself.
+
+## Common Misconceptions
+- A pivot is a statistic. (A pivot Q(X, θ) involves the unknown θ, so it is not a statistic. What makes it a pivot is that its distribution does not depend on θ.)
+- Two methods with the same 95% coverage are equally good. (Coverage is only the first requirement. Among valid procedures, one can give much shorter intervals on average than another.)
+- An asymptotic 95% interval covers close to 95% for every θ once n is moderately large. (Asymptotic coverage can hold pointwise without holding uniformly. At any fixed n, the Wald interval for a binomial p covers far below 95% when p is close enough to 0.)
+
 ## Questions
 
 ```yaml

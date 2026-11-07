@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Glycogen is a branched homopolymer of glucose (α-1,4 and α-1,6 linkages) that serves as a mobile carbohydrate reserve in muscle and liver. Glycogenesis (synthesis) is catalyzed by glycogen synthase and occurs when glucose and energy are abundant. Glycogenolysis (breakdown) is catalyzed by phosphorylase and releases glucose-1-phosphate for glycolysis in muscle or glucose from glucose-6-phosphatase in liver. The branched structure of glycogen (with branches every 8-12 residues) enables rapid glucose mobilization from thousands of outer chains.
 
+## How It's Best Learned
+Draw a small glycogen tree with one branch point and mark its non-reducing ends. Act out breakdown on paper: phosphorylase removes residues until four remain before the branch. Debranching enzyme moves three of them and frees the last as glucose. Then compare ATP yield to lactate. A residue released as glucose-1-phosphate nets 3 ATP, and free glucose nets 2.
+
+## Common Misconceptions
+- Glycogen breakdown releases mostly free glucose. (Phosphorylase releases glucose-1-phosphate; in the cytoplasm, free glucose comes from the α-1,6 residue at each branch point.)
+- Phosphorylase can clear a chain all the way through a branch point. (It stops four residues from a branch, and debranching enzyme must act before breakdown can continue.)
+- Glycogen synthase can start a new glycogen molecule from scratch. (It needs an existing chain; glycogenin builds the starting primer on itself.)
+- The liver holds most of the body's glycogen. (Liver glycogen is more concentrated, but muscle's much larger total mass holds more glycogen overall.)
+
 ## Questions
 
 ```yaml
@@ -52,7 +61,7 @@ Glycogen is a branched homopolymer of glucose (α-1,4 and α-1,6 linkages) that 
 - question: "The branched structure of glycogen — with α-1,6 branch points every 8–12 residues — enables faster glucose mobilization than a linear polymer of the same molecular weight would provide."
   type: true-false
   answer: true
-  explanation: "Each branch tip is a potential simultaneous site for glycogen phosphorylase to attack. A highly branched glycogen molecule exposes many outer chain ends at once, allowing many phosphorylase enzymes to work in parallel. A linear polymer of the same mass would present only two ends. The trade-off is storage density — branching creates a less compact structure — but for animals that need rapid energy mobilization (unlike plants, which tolerate slower starch degradation), this trade-off is entirely worth it."
+  explanation: "Each branch tip is a potential simultaneous site for glycogen phosphorylase to attack. A highly branched glycogen molecule exposes many outer chain ends at once, allowing many phosphorylase enzymes to work in parallel. A linear polymer of the same mass would present only one non-reducing end for phosphorylase. The trade-off is storage density — branching creates a less compact structure — but for animals that need rapid energy mobilization (unlike plants, which tolerate slower starch degradation), this trade-off is entirely worth it."
 
 - question: "Glycogenolysis is simply the reverse of glycogenesis, using the same enzymes and releasing the same intermediates in the opposite direction."
   type: true-false

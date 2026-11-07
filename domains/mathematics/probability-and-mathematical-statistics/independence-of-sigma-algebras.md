@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Sigma-algebras ℊ and ℋ are independent if P(A ∩ B) = P(A)P(B) for all A ∈ ℊ, B ∈ ℋ. Random variables X and Y are independent if their generated sigma-algebras are independent. This definition applies equally to discrete, continuous, and singular distributions.
 
+## How It's Best Learned
+Work on two fair coin flips, where each σ-algebra has only four events. Let A = {first is heads}, B = {second is heads}, C = {the flips agree}. Check that σ(A), σ(B) and σ(C) are independent in pairs. Then compute P(A ∩ B ∩ C) = 1/4, which is not 1/8. The three are pairwise independent but not mutually independent.
+
+## Common Misconceptions
+- If σ-algebras are independent in pairs, the whole collection is independent. (Mutual independence needs the product rule for every finite subcollection. The coin example above is pairwise independent but fails for all three together.)
+- To prove σ(X) and σ(Y) independent you must check every pair of Borel events. (It suffices to check generating π-systems. The events {X ≤ x} and {Y ≤ y} are enough, so a factored joint CDF proves independence.)
+- Applying functions can create dependence between independent variables. (For measurable f and g, σ(f(X)) ⊆ σ(X) and σ(g(Y)) ⊆ σ(Y), so f(X) and g(Y) stay independent.)
+
 ## Questions
 
 ```yaml

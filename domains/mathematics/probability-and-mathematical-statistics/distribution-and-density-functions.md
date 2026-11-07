@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The cumulative distribution function F(x) = P(X ≤ x) uniquely determines the distribution of X. A probability density function f is the Radon-Nikodym derivative when the distribution is absolutely continuous with respect to Lebesgue measure. Distributions may also be purely singular or have atoms.
 
+## How It's Best Learned
+Sketch the CDF of a mixed variable: X = 0 with probability 0.3, otherwise drawn from Exponential(1). The CDF jumps by 0.3 at 0 and then follows 0.3 + 0.7(1 − e^{−x}), so P(X ≤ 1) ≈ 0.742. Split it into its atom and its density part. Then draw the first three stages of the Cantor function to see a continuous CDF with no density.
+
+## Common Misconceptions
+- The density value f(x) is the probability that X = x. (For an absolutely continuous X, P(X = x) = 0 for every x. A density can exceed 1; Uniform(0, 1/2) has density 2.)
+- Every distribution is either discrete or has a density. (Mixtures have both an atom and a density part. Singular continuous distributions such as the Cantor distribution have neither.)
+- If F is differentiable almost everywhere, then F′ is a density for X. (The Cantor function has F′ = 0 almost everywhere, so ∫F′ = 0, not 1. F′ works as a density only when the distribution is absolutely continuous.)
+
 ## Questions
 
 ```yaml

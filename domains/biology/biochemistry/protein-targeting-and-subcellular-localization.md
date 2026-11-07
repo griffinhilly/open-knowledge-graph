@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Proteins are targeted to their correct intracellular destinations (nucleus, mitochondria, peroxisomes, endoplasmic reticulum, extracellular space) through specific targeting sequences (signal peptides, nuclear localization signals, mitochondrial targeting sequences) recognized by transport machinery. The ER signal recognition particle (SRP) recognizes the N-terminal signal peptide and directs ribosome-nascent chain-mRNA to the translocon for co-translational translocation. Nuclear import requires nuclear pore complexes and the ran-GTP gradient. Mitochondrial proteins are typically synthesized in the cytosol and post-translationally imported via TOM and TIM complexes.
 
+## How It's Best Learned
+Make a sorting table for four made-up proteins: one with an N-terminal hydrophobic stretch, one with an N-terminal amphipathic helix rich in arginine and lysine, one with an internal basic stretch like PKKKRKV, and one with no signal. For each, fill in the destination, the receptor that reads the signal, whether import happens during or after translation, and whether the signal is cut off.
+
+## Common Misconceptions
+- Ribosomes that make secreted proteins are a special type built into the ER. (They are ordinary cytosolic ribosomes; the signal peptide on the growing chain brings them to the ER membrane through SRP.)
+- Proteins must unfold to enter the nucleus, as they do for mitochondria. (Nuclear pores can import fully folded proteins and even assembled complexes.)
+- A nuclear localization signal is cut off after import, like an ER signal peptide. (The NLS usually stays in the protein, which lets it be imported again after the nuclear envelope reforms following cell division.)
+- Every mitochondrial protein is made in the cytosol and imported. (Most are, but mitochondria keep their own DNA and ribosomes and make a small number of proteins inside the organelle.)
+
 ## Questions
 
 ```yaml

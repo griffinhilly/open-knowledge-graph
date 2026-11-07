@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Military service was the core obligation of feudalism; a vassal owed his lord a fixed number of knights or days of armed service per year. Knighthood evolved from a military obligation into a formal social rank, initially for warriors on horseback with expensive armor and horses. Knights formed the backbone of medieval armies and eventually developed elaborate codes of conduct (chivalry) that transformed military function into aristocratic identity.
 
+## How It's Best Learned
+Work through one lord's quota. Suppose he owes the king ten knights. Have him sub-grant land to under-vassals who each owe him one knight, and track who pays for each knight's horse and armor. Then add a campaign that lasts longer than the forty days owed, and ask how the lord fills the gap. The answer, paid soldiers and scutage, leads into later feudal decline.
+
+## Common Misconceptions
+- Every knight was a wealthy noble. (Many early knights were modest landholders or household warriors serving a greater lord. The link between knighthood and noble rank grew tighter over time.)
+- Feudal armies could fight for as long as a war lasted. (Service was often limited, commonly to forty days a year in England. Longer campaigns needed paid troops or new bargains.)
+- Medieval armies were made up mostly of knights. (Knights were the most expensive and prestigious troops, but foot soldiers, archers, and servants usually outnumbered them.)
+
 ## Questions
 
 ```yaml

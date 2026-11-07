@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 A set K in ℝ is compact if every open cover has a finite sub-cover. The Heine-Borel Theorem states that a set is compact if and only if it is closed and bounded. Compact sets have many excellent properties: continuous images are compact, and continuous functions attain extrema on compact sets.
 
+## How It's Best Learned
+Build failing covers first. For (0, 1), use the sets (1/n, 1); for [0, ∞), use (−1, n). Check in each case that no finite subfamily covers. Then prove [0, 1] is compact with the "creeping" argument: let s be the supremum of the points x for which [0, x] is covered by finitely many sets of the cover. Show s = 1 and that [0, 1] itself is finitely covered.
+
+## Common Misconceptions
+- Compact means "has finitely many points" or "is small." (The interval [0, 1] has uncountably many points and is compact; compactness is about covers, not size.)
+- To show a set is compact, it is enough to find one open cover with a finite subcover. (Every open cover must have a finite subcover; any set has some finite cover, such as ℝ covering it.)
+- Bounded sets in ℝ are compact. (The interval (0, 1) is bounded, but the cover (1/n, 1) has no finite subcover; the set must also be closed.)
+- Closed and bounded is the definition of compact in every space. (Heine-Borel is a theorem about ℝⁿ; in other metric spaces, closed and bounded sets can fail to be compact.)
+
 ## Questions
 
 ```yaml

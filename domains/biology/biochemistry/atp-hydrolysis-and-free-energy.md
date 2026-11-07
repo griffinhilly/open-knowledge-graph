@@ -31,6 +31,14 @@ status: validated
 ## Core Idea
 ATP hydrolysis releases ~30.5 kJ/mol under standard conditions, and ~50 kJ/mol in cells due to the high ATP/ADP ratio (~100:1). The adenylate charge (ATP + 0.5 ADP / ATP + ADP + AMP) serves as a sensor of energy status and regulates key metabolic enzymes. The phosphoryl transfer potential of ATP powers biosynthesis, transport, and mechanical work.
 
+## How It's Best Learned
+Compute ΔG = ΔG°′ + RT ln([ADP][Pi]/[ATP]) for a sample cell. With [ATP] = 10 mM, [ADP] = 0.1 mM, [Pi] = 10 mM and RT = 2.58 kJ/mol at 37 °C, Q = 10⁻⁴. That gives ΔG ≈ −30.5 − 23.7 ≈ −54 kJ/mol. Then change the ratio to see how strongly ΔG depends on it.
+
+## Common Misconceptions
+- The energy of ATP is stored in its phosphoanhydride bond and released when the bond breaks. (Breaking any bond costs energy; the large ΔG comes from the stability of ADP and Pi relative to ATP and from cellular concentrations.)
+- ATP releases about 30.5 kJ/mol inside cells. (That is the standard value; at cellular concentrations, far from equilibrium, the release is closer to 50 kJ/mol.)
+- ATP drives uphill reactions by releasing heat that those reactions absorb. (Coupling works through shared steps, often transfer of a phosphoryl group to the substrate, so that the combined reaction has a negative ΔG.)
+
 ## Questions
 
 ```yaml

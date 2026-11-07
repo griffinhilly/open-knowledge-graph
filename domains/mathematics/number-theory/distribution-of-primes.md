@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 The distribution of primes among integers is irregular locally yet systematic globally. Prime gaps grow, primes become sparser as numbers increase, yet never entirely disappear. Understanding this distribution is central to analytic number theory and has applications to cryptography and computational mathematics.
 
+## How It's Best Learned
+Sieve the numbers up to 100 by hand and list the gaps between consecutive primes. This shows the local irregularity directly. Then make a table of π(N) against N/ln N for N = 100, 1000, 10000: 25 vs 21.7, 168 vs 144.8, 1229 vs 1085.7. The ratio stays near 1.1 to 1.2 and drifts toward 1 very slowly.
+
+## Common Misconceptions
+- Primes get so rare that eventually they run out. (Euclid's argument shows there are infinitely many. The density 1/ln N shrinks but never reaches zero.)
+- Because gaps grow on average, eventually every gap between consecutive primes is large. (Large average gaps leave room for small ones. It is proved that infinitely many pairs of primes differ by at most 246, though gap 2 is still open.)
+- If π(N)/(N/ln N) tends to 1, then π(N) − N/ln N tends to 0. (The ratio tends to 1 while the difference grows. It is about 3 at N = 100 and about 143 at N = 10000.)
+
 ## Questions
 
 ```yaml

@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 A set K is compact if every open cover has a finite subcover: if K ⊆ ∪ᵢUᵢ with each Uᵢ open, then K ⊆ Uᵢ₁ ∪ ... ∪ Uᵢₙ for some finite selection. Intuitively, compact sets are 'closed and bounded' in ℝ and generalize finite sets to infinite settings. They are the workhorse of real analysis.
 
+## How It's Best Learned
+Prove from the definition that K = {0} ∪ {1/n : n ∈ ℕ} is compact. Given any open cover, one set U contains 0 and so contains an interval (−r, r). That interval holds every 1/n with n > 1/r, which leaves finitely many points, each needing one more set. Then remove 0 and exhibit a cover of {1/n} with no finite subcover.
+
+## Common Misconceptions
+- A set is compact if it can be covered by finitely many open sets. (Every set has such a cover, for example {ℝ}; compactness requires that every open cover can be reduced to a finite subcover.)
+- Compact sets are finite or "small." (The interval [0, 1] is uncountable and compact, while the set ℕ is countable and not compact.)
+- Removing one point from a compact set leaves it compact. (Removing a limit point breaks compactness: [0, 1] minus 0 is (0, 1], which is not closed. Removing an isolated point, such as 1 from {0} ∪ {1/n}, keeps the set compact.)
+- Closed and bounded is the definition of compactness. (That is the Heine-Borel theorem for ℝⁿ; the definition is the open-cover property, which still makes sense where "bounded" does not.)
+
 ## Questions
 
 ```yaml

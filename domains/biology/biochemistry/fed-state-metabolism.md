@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 In the fed state (high insulin), glucose is oxidized for energy and used for glycogen and fatty acid synthesis. Dietary amino acids are incorporated into proteins or degraded. Lipids are esterified and stored as triglycerides. The liver synthesizes VLDLs to export fatty acids. Blood glucose is tightly controlled by insulin-stimulated glucose uptake and suppression of gluconeogenesis.
 
+## How It's Best Learned
+Draw the gut, liver, muscle and adipose tissue on one page. Trace a mixed meal through them: glucose through the portal vein, amino acids the same way, and fat as chylomicrons through the lymph. At each arrow, write the enzyme or transporter insulin acts on, such as GLUT4, glycogen synthase or lipoprotein lipase. Then redraw the page for the fasted state and compare.
+
+## Common Misconceptions
+- The liver needs insulin to let glucose in. (Liver takes up glucose through GLUT2 without insulin; insulin raises glucokinase and glycogen synthesis so more glucose is trapped and stored.)
+- Dietary fat reaches the liver first, like dietary glucose. (Chylomicrons enter the lymph and reach muscle and adipose capillaries before their remnants reach the liver.)
+- Most extra carbohydrate in a meal is turned straight into fat. (In humans, evidence suggests most is oxidized or stored as glycogen, with lipogenesis rising mainly under large, sustained carbohydrate excess.)
+- In the fed state, amino acids mainly feed gluconeogenesis. (Insulin directs them mainly to protein synthesis; gluconeogenesis from amino acids is a fasted-state response.)
+
 ## Questions
 
 ```yaml

@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 Planetary habitability requires a liquid-water habitable zone (appropriate distance from host star), protective magnetic field against stellar wind, a stable atmosphere retaining water and greenhouse gases, and sufficient internal or external energy for prebiotic chemistry. Biosignatures (O₂, CH₄, N₂O) in atmospheres indicate biological activity.
 
+## How It's Best Learned
+Treat Earth as an exoplanet. List the gases a distant telescope would see in its spectrum. Then build a table for O₂ and CH₄ with three columns: biological sources, abiotic sources such as water photolysis and serpentinization, and the context clues that would rule each abiotic source out. Finally, apply the table to an O₂-rich planet orbiting a UV-bright star.
+
+## Common Misconceptions
+- Detecting a single gas such as O₂ proves that life is present. (Abiotic processes such as water photolysis can build up O₂. A claim needs the planet's context and, ideally, a pair of gases held out of equilibrium.)
+- The habitable zone marks where life exists. (It marks where surface liquid water is possible for a planet with a suitable atmosphere. It says nothing about whether life is present, and tidally heated subsurface oceans can exist far outside it.)
+- A planet without atmospheric oxygen has no life. (Earth had life for a long time before oxygen built up in its atmosphere, so an oxygen-poor world can still host a biosphere.)
+
 ## Questions
 
 ```yaml

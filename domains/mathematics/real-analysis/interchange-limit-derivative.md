@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 If (fₙ) is a sequence of differentiable functions such that (fₙ') converges uniformly and (fₙ) converges pointwise, then (fₙ) converges uniformly to f, and lim fₙ' = f'. This is a deep result: passing limits through derivatives requires uniform convergence of derivatives, not just the original functions. It enables term-by-term differentiation of power series.
 
+## How It's Best Learned
+Study fₙ(x) = √(x² + 1/n) on [−1, 1]. It converges uniformly to |x|, since the gap is at most 1/√n. The derivatives x/√(x² + 1/n) converge only pointwise, and the limit |x| has no derivative at 0. Then prove the theorem's key step on [a, b]: apply the Mean Value Theorem to fₙ − fₘ to bound it by |x − x₀| · sup |fₙ′ − fₘ′|.
+
+## Common Misconceptions
+- If fₙ → f uniformly, then fₙ′ → f′. (fₙ(x) = sin(nx)/√n converges uniformly to 0, yet fₙ′(x) = √n cos(nx) does not converge.)
+- A uniform limit of differentiable functions is differentiable. (√(x² + 1/n) converges uniformly to |x|, which is not differentiable at 0.)
+- Pointwise convergence of the derivatives is enough. (In the |x| example the derivatives converge pointwise, but the limit is not differentiable at 0; the theorem needs uniform convergence of fₙ′.)
+- The conclusion that fₙ converges uniformly holds on any domain. (The standard theorem is on a bounded interval; on ℝ, fₙ(x) = x/n has fₙ′ = 1/n → 0 uniformly, but fₙ does not converge uniformly.)
+
 ## Questions
 
 ```yaml

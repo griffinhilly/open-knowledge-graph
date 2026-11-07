@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 The Archimedean Property states that for any positive real numbers a and b, there exists a natural number n such that na > b. This means no element is infinitely large relative to another, and it implies that the natural numbers are unbounded above in ℝ. It is a consequence of the completeness axiom.
 
+## How It's Best Learned
+Start from the proof by contradiction: assume ℕ has a supremum M, then find a natural number above M − 1 and add 1. Next, apply the property in a live case: given ε = 0.003, find N with 1/N < ε (any N > 333.3, so N = 334). Finally, look at an ordered field without the property, such as rational functions ordered by their behavior at infinity, where x exceeds every n.
+
+## Common Misconceptions
+- The Archimedean Property is an extra axiom of ℝ. (In the usual axiomatic treatment it is a theorem, proved from the completeness axiom by contradiction.)
+- Every ordered field is Archimedean, because you can always add 1 enough times. (Non-Archimedean ordered fields exist; in them some element is larger than every n·1.)
+- The property only says ℕ is unbounded, which is too weak to be useful. (Taking reciprocals gives 1/n < ε for any ε > 0, the fact behind nearly every choice of N in a convergence proof.)
+- Since ℚ is incomplete, ℚ must fail the Archimedean Property. (ℚ is Archimedean; completeness is sufficient for the property but not necessary.)
+
 ## Questions
 
 ```yaml
@@ -66,7 +75,7 @@ The Archimedean Property states that for any positive real numbers a and b, ther
 
 ## Explainer
 
-From your study of ordered field axioms, you know that ℝ is an ordered field — addition and multiplication interact with the ordering in the standard ways. But the ordered field axioms alone do not rule out exotic behavior. There exist ordered fields containing elements larger than every natural number — so-called **infinitely large** elements — and elements positive yet smaller than 1/n for every natural number n — **infinitesimal** elements. The rational numbers ℝ and ℚ do not contain such elements, but other ordered fields do. The Archimedean Property is precisely the statement that rules them out.
+From your study of ordered field axioms, you know that ℝ is an ordered field — addition and multiplication interact with the ordering in the standard ways. But the ordered field axioms alone do not rule out exotic behavior. There exist ordered fields containing elements larger than every natural number — so-called **infinitely large** elements — and elements positive yet smaller than 1/n for every natural number n — **infinitesimal** elements. The real numbers ℝ and the rational numbers ℚ do not contain such elements, but other ordered fields do. The Archimedean Property is precisely the statement that rules them out.
 
 The property says: given any two positive reals a and b, you can always "reach" b by taking enough copies of a. Formally, there exists n ∈ ℕ with na > b. Think of a as a unit of measurement and b as a distance to cover. No matter how tiny your unit, repeated application eventually surpasses any fixed distance. This is the intuition behind the statement "you can measure any length with a ruler, given enough patience." An ordered field lacking this property would have an element b so large that no multiple of 1 ever exceeds it — b would be genuinely infinite.
 

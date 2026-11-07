@@ -31,6 +31,14 @@ status: validated
 ## Core Idea
 When populations are subdivided, genetic variation partitions between and within subpopulations. FST measures genetic differentiation; high FST indicates strong structure and restricted gene flow. Local adaptation can drive differentiation despite gene flow when selection is strong.
 
+## How It's Best Learned
+Compute FST by hand for two subpopulations with allele frequencies 0.9 and 0.1. Each has heterozygosity 2pq = 0.18, so H_S = 0.18. The pooled frequency is 0.5, so H_T = 0.5 and FST = (0.5 − 0.18)/0.5 = 0.64. The pooled sample shows 0.18 heterozygotes where 0.5 is expected, which is the Wahlund effect. Then plug Nm = 1 and Nm = 10 into FST ≈ 1/(1 + 4Nm).
+
+## Common Misconceptions
+- A high FST shows the populations have adapted to different environments. (Drift alone can produce high FST at neutral loci in small, isolated populations. Evidence for adaptation needs loci that stand out from the neutral background.)
+- An FST of 0.15 means two populations are 85% genetically identical. (It means 15% of the total genetic variation lies between populations. It is a share of variation, not a percent of shared sequence.)
+- Gene flow has to be heavy to keep subpopulations from drifting apart. (In Wright's island model, about one migrant per generation is enough to keep neutral loci from fixing for different alleles.)
+
 ## Questions
 
 ```yaml

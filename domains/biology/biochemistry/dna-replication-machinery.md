@@ -25,7 +25,16 @@ status: validated
 # DNA Replication Machinery and Proteins
 
 ## Core Idea
-DNA replication requires a coordinated ensemble of proteins: helicases unwind double-stranded DNA; primase synthesizes RNA primers; DNA polymerases extend chains (Pol III processive, Pol I and Pol III removing primers, Pol I filling gaps); ligase seals nicks between Okazaki fragments on the lagging strand. The replication fork moves bidirectionally from origins of replication at 1000 nt/sec in bacteria and 50 nt/sec in eukaryotes. The asymmetry of DNA (antiparallel strands, 5'→3' synthesis direction) necessitates the leading and lagging strand mechanisms.
+DNA replication requires a coordinated ensemble of proteins: helicases unwind double-stranded DNA; primase synthesizes RNA primers; DNA polymerases extend chains (Pol III processive, Pol I removing primers and filling gaps); ligase seals nicks between Okazaki fragments on the lagging strand. The replication fork moves bidirectionally from origins of replication at 1000 nt/sec in bacteria and 50 nt/sec in eukaryotes. The asymmetry of DNA (antiparallel strands, 5'→3' synthesis direction) necessitates the leading and lagging strand mechanisms.
+
+## How It's Best Learned
+Draw one replication fork with every strand end labeled 5' or 3'. Place each protein where it works: helicase, SSBs, topoisomerase ahead of the fork, primase, Pol III, Pol I and ligase. Draw two Okazaki fragments with their primers. Then remove one protein at a time from the drawing and predict what product the cell is left with.
+
+## Common Misconceptions
+- Only the lagging strand needs a primer. (The leading strand also needs a primer to start, because DNA polymerase can only extend an existing 3'-OH.)
+- On the lagging strand, polymerase builds DNA in the 3'→5' direction. (Each Okazaki fragment is made 5'→3', running away from the fork.)
+- Topoisomerase is the enzyme that separates the two strands. (Helicase separates the strands; topoisomerase relieves the twisting strain that builds up ahead of the fork.)
+- DNA ligase fills the gaps left when primers are removed. (In bacteria, Pol I removes the primer and fills the gap; ligase seals the one remaining nick in the backbone.)
 
 ## Questions
 

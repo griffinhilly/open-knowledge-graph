@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Unlike ℤ and Gaussian integers, most rings of algebraic integers lack unique factorization. In ℤ[√(-5)], we have 6 = 2·3 = (1+√(-5))(1-√(-5)), two distinct factorizations. This motivates ideals, where factorization recovers uniqueness.
 
+## How It's Best Learned
+Start with an analogy in ℤ: 36 = 4 · 9 = 6 · 6 regroups the same atoms 2, 2, 3, 3. In ℤ[√−5] the atoms are ideals: 𝔭 = (2, 1 + √−5), 𝔮 = (3, 1 + √−5) and 𝔮′ = (3, 1 − √−5). Fill in a grid with (2) = 𝔭², (3) = 𝔮𝔮′, (1 + √−5) = 𝔭𝔮 and (1 − √−5) = 𝔭𝔮′. Both factorizations of 6 regroup 𝔭²𝔮𝔮′.
+
+## Common Misconceptions
+- Since 2 divides 6 = (1 + √−5)(1 − √−5), it must divide one of the two factors. (That rule defines a prime element, and 2 is not prime here. The quotient (1 + √−5)/2 has coefficients 1/2, so it is not in the ring.)
+- Since unique factorization fails in ℤ[√−5], an element there can factor into different numbers of irreducibles. (In ℤ[√−5] every factorization of a given element has the same number of irreducible factors. A theorem of Carlitz says a ring of integers has this property exactly when its class number is at most 2.)
+- Ideals restore uniqueness because every ideal turns out to be principal. (The atoms 𝔭, 𝔮 and 𝔮′ are not principal. That is why the element factorizations look different.)
+
 ## Questions
 
 ```yaml

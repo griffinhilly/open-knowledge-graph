@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 A set F ⊆ ℝ is closed if its complement ℝ ∖ F is open, equivalently, if it contains all its limit points (a ∈ F whenever some sequence from F converges to a). Closed sets are dual to open sets: finite unions of closed sets are closed, and arbitrary intersections of closed sets are closed.
 
+## How It's Best Learned
+Sort a list of sets into four boxes: open only, closed only, both, neither. Use (0, 1), [0, 1], [0, 1), ℝ, ∅, ℤ, {1/n : n ∈ ℕ}, and [0, ∞). For each "closed" verdict, check it two ways: show the complement is open, and show every convergent sequence from the set has its limit inside. Then build the union of the closed sets [1/n, 1] and find that it equals (0, 1].
+
+## Common Misconceptions
+- A set that is not open must be closed. (Open and closed are independent; [0, 1) is neither, and ℝ and ∅ are both.)
+- Closed sets have to be bounded, like [a, b]. (The set [0, ∞) and ℤ are closed and unbounded; closed and bounded together is what gives compactness in ℝ.)
+- Any union of closed sets is closed, the same way any union of open sets is open. (Only finite unions are guaranteed; the union of [1/n, 1] over all n is (0, 1], which is not closed.)
+- A closed set has to contain an interval. (Finite sets such as {0, 5} are closed, and so is ℤ.)
+
 ## Questions
 
 ```yaml

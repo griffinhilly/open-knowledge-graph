@@ -26,7 +26,15 @@ status: validated
 # Orbital Resonance Capture and Locked Migration
 
 ## Core Idea
-Migrating planets can become trapped in orbital resonances (e.g., 2:1, 3:2, 5:2) when their orbital periods lock into simple integer ratios due to gravitational coupling through the disk. Once captured, planets migrate together as a locked pair, dramatically affecting system architecture and long-term stability.
+Migrating planets can become trapped in orbital resonances (e.g., 2:1, 3:2, 5:2) when their orbital periods lock into simple integer ratios due to their mutual gravitational coupling. Once captured, planets migrate together as a locked pair, dramatically affecting system architecture and long-term stability.
+
+## How It's Best Learned
+Use Kepler's third law to place the resonances first: an outer planet in 2:1 resonance with a planet at 1 AU sits at 2^(2/3) ≈ 1.59 AU, and the 3:2 location is 1.5^(2/3) ≈ 1.31 AU. Then plot period ratio against time for two migrating planets. The ratio falls steadily, then flattens near 2.0 once capture occurs.
+
+## Common Misconceptions
+- Any two migrating planets that reach a resonance location will be captured. (Capture needs the orbits to be converging and the drift to be slow enough. Planets moving apart, or drifting through quickly, pass the resonance without locking.)
+- The gas disk is what holds the planets in resonance. (The planets' mutual gravity locks the period ratio. The disk drives the migration and damps eccentricities.)
+- Planets in resonance have a period ratio of exactly 2.000 or 1.500. (Resonant pairs often sit slightly off the exact ratio. Resonance is defined by a resonant angle, built from the planets' positions and orbit orientations, that oscillates around a fixed value.)
 
 ## Questions
 

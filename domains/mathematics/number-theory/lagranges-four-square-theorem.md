@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Every non-negative integer is the sum of four perfect squares. Unlike the two-square case, this holds universally with a clean statement, proven via quaternion algebras or generating functions.
 
+## How It's Best Learned
+Multiply quaternions of norm 3 and 7 by hand: (1 + i + j)(2 + i + j + k) = 4i + 2j + k, whose norm 16 + 4 + 1 = 21 shows the product rule at work. Then count all representations of n = 1 to 4 as ordered sums of four squares, with signs. The counts 8, 24, 32 and 24 match Jacobi's formula, 8 times the sum of the divisors of n not divisible by 4.
+
+## Common Misconceptions
+- Every prime ≡ 3 (mod 4) needs all four squares, as 7 does. (Only numbers of the form 4ᵃ(8b + 7) need four. Primes ≡ 3 (mod 8) use three: 11 = 3² + 1² + 1² and 19 = 3² + 3² + 1².)
+- If 7 needs four squares, so does every multiple of 7. (14 = 3² + 2² + 1² and 21 = 4² + 2² + 1² each use three.)
+- There is no formula for how many ways n is a sum of four squares. (Counting order and signs, Jacobi's formula gives 8 times the sum of the divisors of n not divisible by 4. For n = 3 that is 8 · (1 + 3) = 32.)
+
 ## Questions
 
 ```yaml

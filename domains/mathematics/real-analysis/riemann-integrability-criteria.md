@@ -22,7 +22,15 @@ status: validated
 # Criteria for Riemann Integrability
 
 ## Core Idea
-A function f on [a,b] is Riemann integrable if and only if its set of discontinuities has measure zero. This criterion clarifies which functions are integrable: all continuous functions, all monotone functions, and many others. Functions discontinuous on a dense set (like Dirichlet's function) are not Riemann integrable, motivating the Lebesgue integral.
+A bounded function f on [a,b] is Riemann integrable if and only if its set of discontinuities has measure zero. This criterion clarifies which functions are integrable: all continuous functions, all monotone functions, and many others. Functions discontinuous on a set of positive measure (like Dirichlet's function, discontinuous everywhere) are not Riemann integrable, motivating the Lebesgue integral.
+
+## How It's Best Learned
+Prove integrability by hand for f = 1 at the points 1/n and f = 0 elsewhere on [0, 1]. Every lower sum is 0. For the upper sum, the interval [0, ε] holds all but finitely many of the points 1/n. Cover the rest by tiny intervals, so some partition has upper sum below 2ε. This is the covering argument behind Lebesgue's criterion, done on one example.
+
+## Common Misconceptions
+- A measure-zero set of discontinuities is enough on its own. (The function must also be bounded; f(x) = 1/x for x > 0 with f(0) = 0 has one discontinuity but is unbounded, so it is not Riemann integrable.)
+- Infinitely many discontinuities rule out integrability. (The function equal to 1 at each 1/n and 0 elsewhere has infinitely many discontinuities and integral 0.)
+- The discontinuity set must at least be countable. (The indicator of the Cantor set is discontinuous exactly on the Cantor set, which is uncountable but has measure zero, so the function is integrable.)
 
 ## Questions
 

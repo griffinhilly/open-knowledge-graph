@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Adaptive radiation is rapid speciation into diverse ecological niches, occurring when a lineage encounters ecological opportunity (new habitat, new resource, extinct competitors). Examples are Darwin's finches and cichlid fish in isolated lakes. Radiations require both speciation and rapid morphological evolution driven by divergent selection.
 
+## How It's Best Learned
+Start with a simple phylogeny of Darwin's finches with beak shape and diet mapped onto the tips, and ask which branches split fast and which traits diverged. Then compare it with a clade that speciated quickly but stayed ecologically uniform. Sorting the two cases forces you to apply both parts of the definition: rapid speciation and ecological disparity.
+
+## Common Misconceptions
+- Any group that produced many species quickly is an adaptive radiation. (The descendants must also differ in ecology and form. Many genetically distinct but ecologically similar species do not meet the definition.)
+- Adaptive radiation needs islands or other physical barriers. (Isolation often speeds it up, but ecological divergence within one lake or habitat can also reduce gene flow and drive radiation.)
+- A high mutation rate is what triggers a radiation. (The usual trigger is ecological opportunity, such as empty niches or removed competitors. Genetic variation is the raw material that selection acts on.)
+
 ## Questions
 
 ```yaml

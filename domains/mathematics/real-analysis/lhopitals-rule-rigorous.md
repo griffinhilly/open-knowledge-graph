@@ -19,6 +19,15 @@ status: validated
 ## Core Idea
 L'Hôpital's Rule provides a rigorous method for evaluating limits of the form 0/0 or ∞/∞: if lim f(x)/g(x) is indeterminate and lim f'(x)/g'(x) exists, then they are equal (with care about the domain). The proof uses the Cauchy Mean Value Theorem and careful limit analysis. The rule extends to one-sided and infinite limits.
 
+## How It's Best Learned
+Trace the proof on a concrete limit. For lim_{x→0} (1 − cos x)/x², the Cauchy Mean Value Theorem gives a c between 0 and x with ratio sin c/(2c), and as x → 0 this tends to 1/2. Then test the hypotheses one at a time. Try (x + 1)/(x + 2) at 0, which is not indeterminate. Then try x² sin(1/x) over x, where the limit exists but f′/g′ oscillates.
+
+## Common Misconceptions
+- L'Hôpital's Rule means taking the derivative of the quotient f/g. (You differentiate the numerator and denominator separately and take the limit of f′/g′.)
+- If lim f′/g′ does not exist, then lim f/g does not exist. (For x² sin(1/x) over x at 0, f/g → 0 while f′/g′ oscillates; the rule just gives no conclusion.)
+- The rule can be applied to any limit that is hard to compute. (The original limit must be 0/0 or ∞/∞; at x = 0, (x + 1)/(x + 2) equals 1/2, but the rule would give 1.)
+- In the ∞/∞ case, both f and g must tend to infinity. (The standard proof needs only |g(x)| → ∞; it places no growth condition on f beyond differentiability and the existence of lim f′/g′.)
+
 ## Questions
 
 ```yaml

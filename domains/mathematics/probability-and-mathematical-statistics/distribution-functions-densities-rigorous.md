@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 The cumulative distribution function (CDF) F(x) = P(X ≤ x) is right-continuous, non-decreasing, and uniquely determines the distribution of a random variable. A probability density function (pdf) is a measurable function f ≥ 0 where P(X ∈ A) = ∫ₐ f(x) dx with respect to Lebesgue measure. The Radon-Nikodym theorem guarantees densities exist when distributions are absolutely continuous with respect to Lebesgue measure.
 
+## How It's Best Learned
+Read probabilities off a CDF with a jump. Take F(x) = 0 for x < 0, x/2 for 0 ≤ x < 1, and 1 for x ≥ 1. Then P(X = 1) = F(1) − F(1⁻) = 1/2, P(0.5 < X ≤ 1) = 0.75, and P(0.5 < X < 1) = 0.25. Then prove right-continuity yourself: the events {X ≤ x + 1/n} decrease to {X ≤ x}, so continuity of P from above finishes it.
+
+## Common Misconceptions
+- P(a < X ≤ b) and P(a ≤ X ≤ b) are the same number. (They differ by P(X = a), the jump of F at a. They agree only when F is continuous at a.)
+- A density must be continuous, and F′(x) = f(x) at every x. (A density only needs to be non-negative and measurable. F′ = f holds almost everywhere; the Uniform(0, 1) CDF has no derivative at 0 or 1.)
+- Two different density functions describe two different distributions. (Densities that agree except on a set of Lebesgue measure zero give the same probabilities, so a density is unique only up to such sets.)
+
 ## Questions
 
 ```yaml

@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Bayesian inference treats θ as a random variable with prior distribution π(θ). Given data X, the posterior is π(θ|X) ∝ L(θ|X)π(θ) by Bayes' theorem. The posterior combines prior beliefs with data. Inference is based on the posterior: point estimates, credible intervals, and predictions all follow from the posterior distribution.
 
+## How It's Best Learned
+Plot prior, likelihood and posterior for one coin on the same axis over [0, 1]. With a Beta(1, 1) prior and 7 heads in 10 flips, the posterior is Beta(8, 4). Redo the update one flip at a time and confirm you reach the same Beta(8, 4). Then swap in a Beta(10, 10) prior, get Beta(17, 13) with mean 17/30 ≈ 0.567, and watch the prior pull harder.
+
+## Common Misconceptions
+- The likelihood L(θ|X) is a probability distribution over θ. (As a function of θ it need not integrate to 1. A distribution over θ appears only after multiplying by a prior and normalizing.)
+- A uniform prior carries no information, so it reproduces the frequentist answer. (With a Beta(1, 1) prior and 7 heads in 10 flips, the posterior mean 8/12 still differs from the MLE 7/10. A prior uniform in θ is also not uniform in a transformed parameter such as the log-odds.)
+- A 95% credible interval means the same thing as a 95% confidence interval. (A credible interval has posterior probability 0.95 given the observed data. A confidence interval comes from a procedure that covers the fixed θ in 95% of repeated samples.)
+- Treating θ as random means the parameter itself changes from sample to sample. (In the usual reading, θ has one unknown value, and its distribution expresses uncertainty about that value.)
+
 ## Questions
 
 ```yaml

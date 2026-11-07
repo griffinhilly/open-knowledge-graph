@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Comparative phylogenetic methods use evolutionary trees to test hypotheses about trait evolution, adaptation, and diversification. Phylogenetically independent contrasts (PIC) correct for non-independence of species due to common ancestry. These methods reveal correlated evolution of traits and identify drivers of speciation and ecological divergence.
 
+## How It's Best Learned
+Compute raw contrasts on a four-species tree, ((A,B),(C,D)), with equal branch lengths, and leave the branch-length standardization step for later. Trait values are A = 2, B = 4, C = 10, D = 12. The within-pair contrasts are A − B = −2 and C − D = −2. The ancestral averages are 3 and 11, giving a deep contrast of −8. Four species yield three independent contrasts, which shows where the lost degrees of freedom go.
+
+## Common Misconceptions
+- Adding more species from the same clade adds just as much evidence as adding distant species. (Close relatives share much of their history, so they add less independent information about how traits evolved.)
+- Correcting for phylogeny always weakens a correlation. (It can weaken, strengthen or leave a correlation unchanged, depending on how the trait changes are spread across the tree.)
+- Ancestral state reconstruction tells us exactly what an ancestor was like. (It gives an estimate under a model of trait evolution, and the uncertainty is often large for deep nodes.)
+
 ## Questions
 
 ```yaml

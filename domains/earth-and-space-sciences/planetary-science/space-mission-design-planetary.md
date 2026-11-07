@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Planetary science missions require optimized trajectory design to reach target planets efficiently (Hohmann transfers, gravity assists) and cost-effectively. Entry, descent, and landing (EDL) systems must be tailored to planetary atmospheres and surface properties. Orbital insertion, surface operations, and return trajectories demand solving multi-body problems and managing limited fuel reserves.
 
+## How It's Best Learned
+Work an Earth-to-Mars Hohmann transfer (1.00 AU to 1.52 AU) with vis-viva, v² = μ(2/r − 1/a). The transfer orbit's perihelion speed is about 32.7 km/s against Earth's 29.8 km/s, so the spacecraft must leave Earth's vicinity about 2.9 km/s faster than Earth. Half the transfer period gives about 259 days. Then find the same trajectory on a porkchop plot.
+
+## Common Misconceptions
+- To reach Mars, you aim at where Mars is at launch. (You aim at where Mars will be on arrival. Mars moves about 136 degrees along its orbit during a 259-day transfer.)
+- A gravity assist adds speed relative to the planet being flown past. (Relative to that planet, the spacecraft leaves with the same speed it arrived with. The gain shows up only in the Sun's frame, borrowed from the planet's orbital motion.)
+- Reaching the inner planets is easy because the spacecraft just falls toward the Sun. (A spacecraft must shed much of Earth's orbital speed to fall inward, which costs large delta-v. Missions to Mercury have used several flybys to do this.)
+
 ## Questions
 
 ```yaml

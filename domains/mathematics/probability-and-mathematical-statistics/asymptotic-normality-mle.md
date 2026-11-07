@@ -29,6 +29,14 @@ status: validated
 ## Core Idea
 Under regularity conditions, √n(θ̂ₙ - θ) converges in distribution to N(0, 1/I(θ)), where I(θ) is Fisher information. This shows MLEs are asymptotically normal and efficient (achieving the Cramer-Rao bound asymptotically). Asymptotic normality enables hypothesis tests and confidence intervals for MLEs.
 
+## How It's Best Learned
+Check the theorem on a case where you know the answer. For Bernoulli(p), the MLE is X̄ and I(p) = 1/(p(1−p)), so the theorem predicts variance p(1−p)/n, the same as the ordinary CLT. Then redo it for Exponential(λ), where λ̂ = 1/X̄ and 1/I(λ) = λ², and confirm the delta method gives the same λ². Finish with Uniform(0, θ) to see the theorem fail.
+
+## Common Misconceptions
+- The MLE is approximately normal at any sample size. (The result is a limit. In small samples the MLE can be skewed and biased; for Exponential(λ), E[1/X̄] = nλ/(n−1), above λ.)
+- The variance of θ̂ₙ is 1/I(θ). (With I(θ) the information in one observation, Var(θ̂ₙ) is approximately 1/(nI(θ)). The quantity 1/I(θ) is the limiting variance of √n(θ̂ₙ − θ).)
+- Every MLE is asymptotically normal. (The theorem needs regularity conditions. When the support depends on θ, as in Uniform(0, θ), the rate and the limit law both change.)
+
 ## Questions
 
 ```yaml

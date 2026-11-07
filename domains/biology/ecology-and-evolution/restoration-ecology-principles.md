@@ -37,6 +37,14 @@ status: validated
 ## Core Idea
 Restoration ecology applies ecological theory to actively restore degraded ecosystems toward historic conditions. Successful restoration requires understanding disturbance history, limiting factors, and community assembly rules. Strategies include reintroducing native species, removing invasives, modifying disturbance regimes, and enhancing habitat connectivity.
 
+## How It's Best Learned
+Work through one failed project as a diagnosis, such as the prairie planting that died on old farmland. List possible barriers: seed supply, soil chemistry, missing mycorrhizae, disturbance regime, water, invasives, and isolation. For each one, write the evidence that would confirm it. Then choose the first fix and design a paired-plot trial, planting with and without it, to test the diagnosis.
+
+## Common Misconceptions
+- Restoration means rebuilding the exact ecosystem that stood at some past date. (Climate and species pools have changed, so many projects now aim for a self-sustaining system with working functions instead of an exact historical species list.)
+- Planting the right native species is enough to restore a site. (Plantings fail when soil, mutualists, water, or disturbance regimes still block establishment. The limiting factor has to be addressed first.)
+- Once planted, a restored site can be left alone. (Many restored systems need continued management, such as controlled burns, grazing, or invasive control, plus monitoring to see whether they are on track.)
+
 ## Questions
 
 ```yaml

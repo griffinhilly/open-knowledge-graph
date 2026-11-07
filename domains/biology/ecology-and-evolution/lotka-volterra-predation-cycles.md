@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 The Lotka-Volterra model describes predator-prey population oscillations through coupled differential equations. Prey population growth is limited by predation; predator growth is limited by prey availability. The model predicts out-of-phase cycles: prey increase, predators lag behind and increase, prey crash, predators decline. Real systems show damped or chaotic cycles due to additional factors like carrying capacity and time lags.
 
+## How It's Best Learned
+Take dN/dt = rN − aNP and dP/dt = baNP − mP with r = 1, a = 0.1, b = 0.5, m = 0.5. Set each to zero to get the nullclines P = 10 and N = 10, and draw them on axes with prey N across and predators P up. In each of the four regions, draw arrows for whether N and P rise or fall. The arrows circle counterclockwise around (10, 10), and the time plot shows predator peaks after prey peaks.
+
+## Common Misconceptions
+- Predators and prey peak at the same time. (Predator numbers rise only after prey are plentiful, so predator peaks come after prey peaks.)
+- The basic model's cycles return to their old size after a disturbance. (Its equilibrium is neutrally stable. A disturbance moves the system onto a different closed loop with a different amplitude.)
+- Real predator-prey systems should cycle just as the basic model says. (Adding realism such as prey carrying capacity or saturating predation changes the behavior to damped oscillations, limit cycles, or other patterns.)
+- The predator crash happens because predators eat every last prey. (In the model prey never reach zero. Predators decline once prey are too scarce to support their numbers.)
+
 ## Questions
 
 ```yaml

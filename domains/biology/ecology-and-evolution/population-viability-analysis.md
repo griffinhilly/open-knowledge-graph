@@ -35,6 +35,14 @@ status: validated
 ## Core Idea
 Population Viability Analysis (PVA) uses demographic and genetic data to predict extinction risk and evaluate conservation strategies. Models incorporate stochastic environmental variation, demographic stochasticity, and genetic effects. PVA identifies minimum viable population sizes and critical management interventions needed to ensure long-term species persistence.
 
+## How It's Best Learned
+Build a small PVA in a spreadsheet. Each row is a year, and next year's size is this year's size times a growth rate drawn at random around a mean slightly above 1. Copy the column 100 times and count the runs that fall below a set threshold within 50 years. Then change one input, such as adding 5 individuals every tenth year, and compare the two counts.
+
+## Common Misconceptions
+- A PVA predicts the year a population will go extinct. (It estimates a probability of extinction over a time horizon. Its results are most reliable when used to compare management options.)
+- A species has one minimum viable population size. (MVP estimates change with the life history, the amount of environmental variation, whether genetics are modeled, and the persistence target chosen.)
+- Adding more detail to a PVA always makes it more accurate. (Each added parameter needs data to estimate it. Poorly estimated parameters can widen the uncertainty or bias the results.)
+
 ## Questions
 
 ```yaml

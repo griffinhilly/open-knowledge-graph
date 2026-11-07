@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Every bounded sequence in ℝ has a convergent subsequence. This theorem bridges sequential behavior and compactness: a bounded sequence must 'accumulate' somewhere due to completeness. It is equivalent to the Heine-Borel Theorem in ℝ and is the gateway to compact sets.
 
+## How It's Best Learned
+Run the bisection proof by hand on a_n = (−1)ⁿ(1 + 1/n), which lies in [−2, 2]. The right half [0, 2] holds every even-indexed term, then [0, 1] has finitely many terms and [1, 2] holds infinitely many, and so on, closing in on 1. Then contrast with a_n = n, which has no convergent subsequence, to see why boundedness is required.
+
+## Common Misconceptions
+- Bolzano-Weierstrass says a bounded sequence converges. (It guarantees a convergent subsequence; (−1)ⁿ is bounded and diverges, while its even terms converge to 1.)
+- The theorem picks out one specific limit for the sequence. (A bounded sequence can have many subsequential limits; the theorem guarantees at least one exists.)
+- The theorem works in any number system with an order, including ℚ. (It needs completeness; a rational sequence approaching √2 has no subsequence converging to a rational number.)
+- The proof chooses the half of the interval that contains more terms. (Both halves can hold infinitely many terms; the proof picks any half with infinitely many and keeps the indices increasing.)
+
 ## Questions
 
 ```yaml

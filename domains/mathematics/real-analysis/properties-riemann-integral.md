@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 The Riemann integral satisfies linearity (∫(af+bg) = a∫f + b∫g), order properties (if f ≤ g then ∫f ≤ ∫g), additivity over intervals (∫[a,c] = ∫[a,b] + ∫[b,c]), and bounds (|∫f| ≤ ∫|f|). These properties make the integral a powerful tool for analysis and follow naturally from the definition via Darboux sums.
 
+## How It's Best Learned
+Before using |∫f| ≤ ∫|f|, prove that |f| is integrable. The inequality ||f(x)| − |f(y)|| ≤ |f(x) − f(y)| makes the Darboux gap for |f| no larger than the gap for f. Then apply monotonicity to −|f| ≤ f ≤ |f|. For practice with bounds, use x² ≤ x on [0, 1] to show ∫₀¹ e^(x²) dx ≤ ∫₀¹ eˣ dx = e − 1.
+
+## Common Misconceptions
+- The integral of a product is the product of the integrals. (For f = g = x on [0, 1], ∫fg = 1/3 while (∫f)(∫g) = 1/4.)
+- If f ≥ 0 and ∫f = 0, then f is zero everywhere. (A function equal to 1 at a single point and 0 elsewhere has integral 0; the conclusion holds when f is also continuous.)
+- If |f| is integrable, then f is integrable. (f = 1 on rationals and −1 on irrationals has |f| = 1, but f is not Riemann integrable.)
+
 ## Questions
 
 ```yaml

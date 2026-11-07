@@ -30,6 +30,14 @@ status: validated
 ## Core Idea
 Planetary atmospheres vary widely in composition (Venus: CO₂-dominated, Earth: N₂-O₂, Jupiter: H₂-He) and vertical structure (troposphere, stratosphere, thermosphere). Composition reflects primary outgassing during formation, secondary outgassing from volcanism, and long-term atmospheric escape and chemical processes.
 
+## How It's Best Learned
+Plot temperature against log pressure for Venus, Earth, Mars and Jupiter on one chart. Label each layer by whether temperature rises or falls with height, and name the absorber behind each warm layer. Then compute scale heights with H = kT/(mg): about 8.4 km for Earth (288 K, N₂-O₂ air) and about 11 km for Mars (210 K, CO₂, weaker gravity).
+
+## Common Misconceptions
+- Temperature drops steadily with altitude all the way to space. (It falls through the troposphere, but layers that absorb sunlight make it rise again, as in Earth's stratosphere and thermosphere.)
+- A thermosphere at over 1,000 K would feel scorching. (The gas there is so thin that it carries very little heat. Temperature measures how fast the molecules move, not how much energy a volume of gas can deliver.)
+- Earth's air is basically the gas the planet formed with. (Today's atmosphere is secondary, built by outgassing, and its oxygen came from photosynthesis.)
+
 ## Questions
 
 ```yaml

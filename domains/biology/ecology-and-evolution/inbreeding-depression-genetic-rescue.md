@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 Inbreeding depression is reduced fitness in inbred individuals due to increased homozygosity of deleterious recessive alleles. Purging—selection against deleterious recessive mutations—can reduce inbreeding depression over time. Genetic rescue through immigration introduces new alleles and restores heterozygosity. Conservation programs must balance genetic rescue against swamping of local adaptations.
 
+## How It's Best Learned
+Compute the frequency of homozygotes for a harmful recessive with frequency q = 0.1, using q² + Fpq. Under random mating (F = 0) it is 0.01; for offspring of full siblings (F = 0.25) it is 0.0325, more than three times higher. Then cross a local individual with an unrelated immigrant who lacks the allele and note that their offspring cannot be homozygous for it.
+
+## Common Misconceptions
+- Inbreeding creates new harmful mutations. (It exposes recessive alleles that were already present by making more individuals homozygous.)
+- Genetic rescue removes the harmful alleles from the population. (It hides them again in heterozygotes. If the population becomes isolated and inbred again, the alleles can be exposed again.)
+- Purging will fix inbreeding depression if the population is left alone. (Purging works mainly against strongly harmful alleles and often fails against many mildly harmful ones, especially in very small populations where drift is strong.)
+- Any outside individuals make good donors for rescue. (Donors adapted to very different conditions can cause outbreeding depression by breaking up locally adapted gene combinations.)
+
 ## Questions
 
 ```yaml

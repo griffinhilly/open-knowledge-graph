@@ -33,6 +33,14 @@ status: validated
 ## Core Idea
 Tidal heating dissipates orbital energy within moon interiors through friction, generating internal heat that sustains volcanism and melts subsurface oceans. Heating intensity depends on orbital eccentricity, satellite mass, and orbital period; moons like Io, Europa, and Enceladus demonstrate extreme tidal activity.
 
+## How It's Best Learned
+Take Io's eccentricity, e ≈ 0.0041, and compute how the tidal force, which scales as 1/r³, changes from periapse to apoapse: (1.0041/0.9959)³ ≈ 1.025, a 2.5 percent swing. Because Jupiter's tide on Io is so large, even that small swing flexes Io a great deal. Then compare Io, Europa and Enceladus using the scaling M_p² e²R⁵/(P a⁶), where M_p is the host planet's mass, assuming equal k₂/Q.
+
+## Common Misconceptions
+- A more rigid interior produces more tidal heat because hard rock grinds harder. (A rigid interior barely deforms, and a fully fluid one deforms with little friction. Dissipation is largest in material in between, such as partly molten rock or ice near its melting point.)
+- A moon with a subsurface ocean must be heated as strongly as Io. (Ice shells insulate well, so modest tidal heating, together with radiogenic heat, can keep an ocean liquid without any surface volcanism.)
+- A moon's tidal heating rate stays fixed as long as its orbit does not change. (Heating warms and softens the interior, which changes how much energy it dissipates, so heating and interior structure evolve together.)
+
 ## Questions
 
 ```yaml

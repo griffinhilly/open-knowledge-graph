@@ -1,0 +1,69 @@
+domains/history/medieval-world/medieval-frankish-kingdoms-merovingian.md	how	4	0	ok
+domains/history/medieval-world/medieval-frankish-kingdoms-merovingian.md	mis	6	0	ok	Not edited: Core Idea's "eventually encompassed ... northern Italy" overstates Merovingian reach (northern Italy was Lombard until 774; Frankish hold there was brief, under Theudebert I).
+domains/history/medieval-world/medieval-gender-family-kinship.md	how	3	0	ok
+domains/history/medieval-world/medieval-gender-family-kinship.md	mis	8	0	ok	Not edited: the older text treats coverture (an English common-law doctrine) as Europe-wide.
+domains/history/medieval-world/medieval-guild-system-crafts.md	how	3	0	ok
+domains/history/medieval-world/medieval-guild-system-crafts.md	mis	8	0	ok	Not edited: Core Idea says membership was "restricted and hereditary" as a blanket rule.
+domains/history/medieval-world/medieval-heresy-albigensian-waldensian.md	how	3	0	ok
+domains/history/medieval-world/medieval-heresy-albigensian-waldensian.md	mis	8	0	ok	Not edited: Q2 (true-false) and the Explainer call the Albigensian Crusade "the first crusade" against Christians in Europe. That is contested (Innocent III's crusade against Markward of Anweiler, 1199).
+domains/history/medieval-world/medieval-holy-roman-empire-formation.md	how	3	0	ok
+domains/history/medieval-world/medieval-holy-roman-empire-formation.md	mis	6	0	ok
+domains/history/medieval-world/medieval-inquisition-religious-enforcement.md	how	3	0	ok
+domains/history/medieval-world/medieval-inquisition-religious-enforcement.md	mis	6	0	ok
+domains/history/medieval-world/medieval-inquisition-religious-enforcement.md	old:q:0+ex	3	1	fixed	The Q0 correct option, the Q0 explanation and the Explainer said only the relapsed were relaxed to the secular arm. Heretics who refused to recant were handed over too. The Explainer also said repeat offenders were only imprisoned. All three now include unrepentant heretics.
+domains/history/medieval-world/medieval-ireland-medieval-dynasties.md	how	4	0	ok
+domains/history/medieval-world/medieval-ireland-medieval-dynasties.md	mis	8	0	fixed	Style only: "fostered" changed to "raised each other's children in fosterage". Not edited: the Q1 and Q3 explanations say Norman control was "always" confined to the Pale and coastal towns, which sits uneasily with the new how and mis text on c.1300 expansion inland.
+domains/history/medieval-world/medieval-jewish-diaspora.md	how	3	0	ok
+domains/history/medieval-world/medieval-jewish-diaspora.md	mis	8	0	ok
+domains/history/medieval-world/medieval-jewish-diaspora.md	old:core	1	1	fixed	Core Idea called crafts and trade "occupations forbidden to Christians". Only lending at interest was forbidden. The parenthesis now says canon law forbade Christians to lend at interest.
+domains/history/medieval-world/medieval-jewish-expulsion-conversion.md	how	4	0	ok
+domains/history/medieval-world/medieval-jewish-expulsion-conversion.md	mis	6	0	ok
+domains/history/medieval-world/medieval-jewish-expulsion-conversion.md	old:ex	1	1	fixed	The Explainer named Suleiman as the sultan who welcomed the 1492 exiles. It was Bayezid II (Suleiman was born in 1494).
+domains/history/medieval-world/medieval-kingship-divine-authority.md	how	3	0	ok
+domains/history/medieval-world/medieval-kingship-divine-authority.md	mis	8	0	fixed	Style only: banned word "leverage" changed to "influence".
+domains/history/medieval-world/medieval-law-courts-justice.md	how	3	0	ok
+domains/history/medieval-world/medieval-law-courts-justice.md	mis	6	0	ok	Not edited: the Q3 explanation calls ordeal "entirely legitimate", but some contemporaries criticized it (e.g. Peter the Chanter). Its false-statement wording also sits awkwardly beside the new, correct bullet that ordeals were used mainly when other proof was lacking.
+domains/history/medieval-world/medieval-manuscript-illumination.md	how	4	1	fixed	The production sequence put rubrics after gilding and painting. Rubrication normally followed the copying of the text and came before illumination, so the order was swapped.
+domains/history/medieval-world/medieval-manuscript-illumination.md	mis	8	0	ok
+domains/history/medieval-world/medieval-medicine-humoral-theory.md	how	4	0	ok
+domains/history/medieval-world/medieval-medicine-humoral-theory.md	mis	8	0	ok
+domains/history/medieval-world/medieval-medicine-humoral-theory.md	old:q:3:explanation	1	1	fixed	The explanation said Hippocrates (~400 BCE) to the Scientific Revolution was "roughly 1,500 years". That span is about 2,000 years. It now reads "1,500 years from Galen onward", which matches Q1.
+domains/history/medieval-world/medieval-monastic-intellectual-centers.md	how	3	0	ok
+domains/history/medieval-world/medieval-monastic-intellectual-centers.md	mis	8	0	ok
+domains/history/medieval-world/medieval-monastic-intellectual-centers.md	old:ex	1	1	fixed	The Explainer said Bede wrote "entirely from sources he assembled in his monastery's library". His own preface credits correspondents (Albinus, Nothhelm and others) who sent documents and reports, and the sentence now says so.
+domains/history/medieval-world/medieval-monasticism-communities.md	how	4	0	ok
+domains/history/medieval-world/medieval-monasticism-communities.md	mis	8	0	ok
+domains/history/medieval-world/medieval-mysticism-spiritual-experience.md	how	3	0	ok
+domains/history/medieval-world/medieval-mysticism-spiritual-experience.md	mis	6	0	ok
+domains/history/medieval-world/medieval-normans-conquest-1066.md	how	3	0	ok
+domains/history/medieval-world/medieval-normans-conquest-1066.md	mis	6	0	ok	Not edited: the older Q1/Q4 text says the Normans "introduced" administrative sophistication, while the new, correct mis bullet says Anglo-Saxon government was already advanced. The Explainer's "Harold Godwinson seized the throne" adopts the Norman framing.
+domains/history/medieval-world/medieval-peasant-rebellions-uprisings.md	how	3	0	ok
+domains/history/medieval-world/medieval-peasant-rebellions-uprisings.md	mis	8	0	ok
+domains/history/medieval-world/medieval-pilgrimage-routes-networks.md	how	4	0	ok
+domains/history/medieval-world/medieval-pilgrimage-routes-networks.md	mis	8	0	ok	Not edited: Q2 (true-false) and the Explainer present the "pilgrimage-road Romanesque" thesis as settled, but art historians contest it.
+domains/history/medieval-world/medieval-portuguese-kingdom-formation.md	how	5	0	ok
+domains/history/medieval-world/medieval-portuguese-kingdom-formation.md	mis	8	0	ok
+domains/history/medieval-world/medieval-portuguese-kingdom-formation.md	old:ex	1	1	fixed	The Explainer said Henry founded "a school of navigation at Sagres". Modern historians treat this as a later legend, so it now says he based himself near Sagres.
+domains/history/medieval-world/medieval-reconquista-iberian-peninsula.md	how	3	0	ok
+domains/history/medieval-world/medieval-reconquista-iberian-peninsula.md	mis	8	0	ok
+domains/history/medieval-world/medieval-reliquaries-relic-cults.md	how	3	0	ok
+domains/history/medieval-world/medieval-reliquaries-relic-cults.md	mis	6	0	ok
+domains/history/medieval-world/medieval-sacramental-theology-eucharist.md	how	4	0	ok
+domains/history/medieval-world/medieval-sacramental-theology-eucharist.md	mis	8	0	ok
+domains/history/medieval-world/medieval-scholastic-method-logic.md	how	3	0	ok
+domains/history/medieval-world/medieval-scholastic-method-logic.md	mis	6	0	ok
+domains/history/medieval-world/medieval-scholastic-method-logic.md	old:core+ex	2	2	fixed	Core Idea described scholastic method as "thesis, antithesis, and synthesis", a Hegelian/Fichtean triad, and now names the quaestio parts. The Explainer called the objections "sed contra arguments", but the sed contra is the counter-authority. Both contradicted the new how section.
+domains/history/medieval-world/medieval-scottish-independence.md	how	4	1	fixed	"Map of the four peoples around 900" left out the Britons of Strathclyde, and by 900 Picts and Scots had merged into Alba. It now lists Alba, Strathclyde, the Norse and Anglo-Saxon Lothian. Not edited: the Explainer's "four distinct ethnic foundations" has the same omission.
+domains/history/medieval-world/medieval-scottish-independence.md	mis	8	0	ok	Not edited: older Q1 treats "Pope should recognize Bruce" as a wrong option, but the new, correct bullet says that was the letter's purpose. Q1 asks about significance, so it still stands. The popular-sovereignty reading of Arbroath is contested and stated as settled.
+domains/history/medieval-world/medieval-serfdom-manorial-lords.md	how	3	0	ok
+domains/history/medieval-world/medieval-serfdom-manorial-lords.md	mis	6	0	ok	Not edited: the Explainer says the serf/slave distinction was "meaningful only at the margins", which contradicts Q2's "real and significant".
+domains/history/medieval-world/medieval-urbanization-growth.md	how	3	0	ok
+domains/history/medieval-world/medieval-urbanization-growth.md	mis	6	0	ok
+domains/history/medieval-world/medieval-viking-raids-settlement.md	how	5	0	ok
+domains/history/medieval-world/medieval-viking-raids-settlement.md	mis	6	0	ok
+domains/history/medieval-world/medieval-viking-raids-settlement.md	old:ex	1	1	fixed	The Explainer said the Danelaw was "formalized 878 under the Treaty of Wedmore". Wedmore (878) was Guthrum's baptism and peace; the boundary was set in the treaty between Alfred and Guthrum, c.886.
+domains/history/medieval-world/medieval-wales-medieval-kingdoms.md	how	4	0	fixed	Wording: "three treaty moments" changed to "three settlements", because the Statute of Rhuddlan was not a treaty.
+domains/history/medieval-world/medieval-wales-medieval-kingdoms.md	mis	8	0	ok
+domains/history/medieval-world/medieval-wales-medieval-kingdoms.md	old:ex	1	1	fixed	The Explainer called Caernarfon, Conwy and Harlech "concentric castles". Caernarfon and Conwy are not concentric, so the word was dropped.
+domains/history/medieval-world/medieval-world-definition-periodization.md	how	2	0	ok
+domains/history/medieval-world/medieval-world-definition-periodization.md	mis	8	0	ok

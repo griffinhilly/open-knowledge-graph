@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Giant impacts (>100 km impactors) create massive basins with distinctive rings, terraced walls, and central uplifts extending to mantle depths. Basin formation is dominated by shock compression and isostatic rebound rather than simple excavation, generating peak rings and breccia deposits that preserve evidence of mantle material and shock metamorphism.
 
+## How It's Best Learned
+Draw a four-frame storyboard: shock compression at contact, the deep transient cavity, the floor rebounding and overshooting, and the final basin with its peak ring. Then line up lunar examples by size: a complex crater with a central peak, the peak-ring basin Schrödinger, and the multi-ring Orientale basin. Note what new feature appears at each step up in size.
+
+## Common Misconceptions
+- Each ring of a multi-ring basin was made by a separate impact. (One impact makes all the rings. They are thought to form as the target collapses and faults in concentric zones.)
+- The dark lava in lunar basins is melt from the impact itself. (Mare basalts rose from the mantle and erupted later, filling the basins. Impact melt is a separate, earlier deposit.)
+- Mantle rock found in a basin's center was delivered by the impactor. (Most of the impactor is vaporized or melted. Exposed mantle rock was lifted from the target's own interior during floor rebound.)
+
 ## Questions
 
 ```yaml

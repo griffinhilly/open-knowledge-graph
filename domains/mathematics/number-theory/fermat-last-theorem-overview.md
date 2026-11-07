@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 Fermat's Last Theorem states that x^n + y^n = z^n has no positive integer solutions for integer n > 2, while Pythagorean triples show solutions exist for n = 2. Fermat's 350-year conjecture was proved by Andrew Wiles in 1995 using deep tools from algebraic geometry and number theory.
 
+## How It's Best Learned
+First see why only n = 4 and odd prime exponents matter. A solution for n = 6 gives one for n = 3, since x⁶ + y⁶ = z⁶ is (x²)³ + (y²)³ = (z²)³. Then follow the n = 4 descent, which uses the Pythagorean parametrization on x⁴ + y⁴ = z² to produce a smaller solution. After that, read the Frey–Ribet–Wiles chain as a short sequence of implications.
+
+## Common Misconceptions
+- Every exponent needs its own separate proof. (A solution with exponent km gives one with exponent m, so it is enough to rule out n = 4 and each odd prime n.)
+- The theorem only rules out whole-number solutions, so fractional solutions might exist. (Clearing denominators turns a solution in positive rationals into one in positive integers, so none exist.)
+- Wiles proved the full Taniyama–Shimura conjecture. (He proved the case of semistable elliptic curves, which is enough for Fermat. The full modularity theorem was completed later by Breuil, Conrad, Diamond and Taylor.)
+
 ## Questions
 
 ```yaml

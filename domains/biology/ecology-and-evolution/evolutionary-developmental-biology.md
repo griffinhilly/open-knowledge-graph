@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Evolutionary developmental biology studies how developmental processes evolve, revealing that major innovations often arise through changes in gene regulation rather than entirely new genes. Hox genes and regulatory elements are conserved across phyla; variation in expression timing, location, and strength produces the diversity of body plans. Changes in developmental timing (heterochrony) and shifts in regulatory networks drive macroevolutionary change.
 
+## How It's Best Learned
+Start from the stickleback Pitx1 case and draw the gene as one coding block with several enhancer switches, each labeled with a tissue (pelvis, jaw, pituitary). Cross out the pelvic switch and list what still develops; then cross out the coding block instead and compare. After that, sort examples (pelvic reduction, human skull proportions, Irish elk antlers) into enhancer change or timing change.
+
+## Common Misconceptions
+- New body forms need new genes. (Much morphological change comes from altering when, where, and how much existing genes are expressed.)
+- Animals that share Pax6 must have inherited the same eye from a common ancestor. (Many eyes evolved separately in structure. What is shared is an old regulatory gene that each lineage put to use in eye development.)
+- A mutation in a developmental gene breaks the gene everywhere it acts. (A mutation in one enhancer can change expression in a single tissue and leave the gene's other roles intact.)
+- Heterochrony means adding new structures. (It changes the timing or rate of development, so existing features end up larger, smaller, or more juvenile in the adult.)
+
 ## Questions
 
 ```yaml

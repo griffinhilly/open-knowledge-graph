@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 A sequence (aₙ) is Cauchy if for every ε > 0, there exists N such that n, m > N implies |aₙ - aₘ| < ε. In ℝ, a sequence converges if and only if it is Cauchy. This characterization requires no knowledge of the limit beforehand, making it powerful for existence proofs. ℝ is 'complete' because Cauchy sequences always converge.
 
+## How It's Best Learned
+Prove a sequence is Cauchy without naming its limit. For aₙ = 1 + 1/2² + … + 1/n² and m > n, bound aₘ − aₙ by the sum of 1/(k(k−1)) for k from n+1 to m, which telescopes to 1/n − 1/m < 1/n. Then contrast the harmonic partial sums, where a₂ₙ − aₙ ≥ 1/2 for every n, so they are not Cauchy.
+
+## Common Misconceptions
+- If consecutive terms get closer together, the sequence is Cauchy. (The harmonic partial sums have aₙ₊₁ − aₙ = 1/(n+1) → 0 but diverge; the Cauchy condition controls every pair n, m > N, not only neighbors.)
+- Every Cauchy sequence converges, wherever it lives. (That holds in complete spaces such as ℝ; in ℚ, decimal approximations of √2 are Cauchy with no rational limit.)
+- A Cauchy sequence must be monotone. (The sequence (−1)ⁿ/n alternates in sign and is still Cauchy, since all its terms beyond N lie within 1/N of 0.)
+
 ## Questions
 
 ```yaml

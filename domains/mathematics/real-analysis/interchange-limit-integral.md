@@ -28,10 +28,18 @@ status: validated
 ## Core Idea
 If (fₙ) converges uniformly to f on [a,b] and each fₙ is integrable, then lim ∫fₙ = ∫ lim fₙ. This allows passing limits through integral signs, essential for analyzing series of integrals and probability distributions. The result follows from uniform convergence preserving continuity and properties of the integral.
 
+## How It's Best Learned
+Compute both sides of the interchange for three sequences on [0, 1]. For the spike fₙ = n on (0, 1/n] and 0 elsewhere, each integral is 1 but the limit integrates to 0. For xⁿ, the convergence is not uniform, yet 1/(n+1) → 0 matches the limit's integral. For x/n, the convergence is uniform and both sides are 0. The table shows uniform convergence is sufficient but not necessary.
+
+## Common Misconceptions
+- If the limit function is integrable, pointwise convergence is enough. (The spike sequence converges pointwise to 0, which is integrable, yet every ∫fₙ equals 1.)
+- Uniform convergence is required for the interchange to hold. (It is a sufficient condition; xⁿ on [0, 1] converges non-uniformly and the interchange still holds.)
+- The theorem also holds on unbounded intervals. (On [0, ∞), fₙ = 1/n on [0, n] and 0 elsewhere converges uniformly to 0, but each integral is 1; the bound ε·(b − a) needs finite length.)
+
 ## Questions
 
 ```yaml
-- question: "Consider a sequence of functions fₙ on [0,1] where fₙ = n on [0, 1/n] and fₙ = 0 elsewhere. Each fₙ converges pointwise to f = 0. What is lim(n→∞) ∫₀¹ fₙ dx?"
+- question: "Consider a sequence of functions fₙ on [0,1] where fₙ = n on (0, 1/n] and fₙ = 0 elsewhere. Each fₙ converges pointwise to f = 0. What is lim(n→∞) ∫₀¹ fₙ dx?"
   type: multiple-choice
   options:
     - "0, because fₙ → 0 pointwise and the limit of a continuous function is integrable"
@@ -59,7 +67,7 @@ If (fₙ) converges uniformly to f on [a,b] and each fₙ is integrable, then li
 - question: "Pointwise convergence of (fₙ) to f on [a,b] is sufficient to conclude that lim ∫ₐᵇ fₙ dx = ∫ₐᵇ f dx."
   type: true-false
   answer: false
-  explanation: "False. The 'spike' counterexample (fₙ = n on [0,1/n], 0 elsewhere) shows pointwise convergence is not enough: fₙ → 0 pointwise everywhere, yet each integral equals 1. With pointwise convergence, the error |fₙ(x) − f(x)| need not shrink simultaneously across all x — it can concentrate in ever-smaller sets that still contribute finite area. Uniform convergence prevents this by requiring the error to be controlled everywhere at once."
+  explanation: "False. The 'spike' counterexample (fₙ = n on (0,1/n], 0 elsewhere) shows pointwise convergence is not enough: fₙ → 0 pointwise everywhere, yet each integral equals 1. With pointwise convergence, the error |fₙ(x) − f(x)| need not shrink simultaneously across all x — it can concentrate in ever-smaller sets that still contribute finite area. Uniform convergence prevents this by requiring the error to be controlled everywhere at once."
 
 - question: "Explain in your own words why uniform convergence is the 'right' condition for interchanging limit and integral, when pointwise convergence is not."
   type: short-answer

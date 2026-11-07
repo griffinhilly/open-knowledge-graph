@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Peasant revolts—most famously the English Peasants' Revolt of 1381—challenged feudal hierarchy and demanded better conditions, freedom, or land. Often sparked by plague labor shortages or increased taxation, these uprisings revealed deep social tensions and demonstrated that feudal order depended partly on peasant acceptance rather than pure coercion.
 
+## How It's Best Learned
+Build a cause chain for 1381 on one page: plague deaths, then labor shortage, then rising wages, then the Statute of Laborers, then the poll taxes, then the march on London. Mark which links are economic, legal and political. Then compare the rebels' demands with what they got. Sort each demand into won, lost, or won later through slow economic change.
+
+## Common Misconceptions
+- The rebels of 1381 were the poorest and most desperate peasants. (Many were relatively well-off villagers, craftsmen and local officeholders, joined by some lower clergy. People with something to defend led much of the rising.)
+- The rebels wanted to overthrow the king. (They declared loyalty to Richard II and blamed his ministers and great lords. They hoped the king would side with them.)
+- The 1381 revolt ended serfdom in England. (The charters of freedom the king granted were revoked within weeks. Serfdom faded over the following century, mainly through labor shortage and bargaining.)
+
 ## Questions
 
 ```yaml

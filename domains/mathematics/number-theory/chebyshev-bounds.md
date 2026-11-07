@@ -18,7 +18,15 @@ status: validated
 # Chebyshev's Bounds on π(x)
 
 ## Core Idea
-Chebyshev's bounds show π(x) is of order x/ln(x), proving primes have asymptotic density 1/ln(x). These classical bounds can be proved using elementary methods (Bertrand's postulate) without complex analysis, providing quantitative control on prime distribution.
+Chebyshev's bounds show π(x) is of order x/ln(x), proving primes have density of order 1/ln(x). These classical bounds can be proved using elementary methods (Bertrand's postulate) without complex analysis, providing quantitative control on prime distribution.
+
+## How It's Best Learned
+Check the upper-bound argument at n = 10 before reading the general proof. The primes in (10, 20] multiply to 11 · 13 · 17 · 19 = 46189, which divides C(20, 10) = 184756 = 4 · 46189, and both are below 4¹⁰. Then sum the bound θ(2m) − θ(m) < m ln 4 over doubling intervals to get θ(2ᵏ) < 2ᵏ ln 4.
+
+## Common Misconceptions
+- Chebyshev's bounds show that π(x)/(x/ln x) settles down to a limit. (They show the ratio stays between two positive constants for large x. The existence of the limit is the Prime Number Theorem.)
+- Only the primes between n and 2n divide C(2n, n). (Smaller primes can divide it too: C(10, 5) = 252 = 2² · 3² · 7. The lower bound uses the fact that each prime power exactly dividing C(2n, n) is at most 2n.)
+- Complex analysis is the only route to the Prime Number Theorem. (Selberg and Erdős gave elementary proofs in 1949. They are harder than Chebyshev's argument but use no complex analysis.)
 
 ## Questions
 

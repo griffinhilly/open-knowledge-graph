@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 DNA polymerases achieve extraordinary accuracy (~1 error per 10¹⁰ nucleotides) through two mechanisms: nucleotide selection (discrimination at insertion) and 3'→5' exonuclease activity (proofreading, removing mismatched bases). Polymerase selectivity for correct base pairs relies on geometry: correct Watson-Crick pairs fit optimally in the polymerase active site, while mismatches are poorly accommodated. Mismatch repair proteins (MutS, MutL, MutH in bacteria; MSH, MLH in eukaryotes) provide a third level of accuracy by detecting and removing errors on the newly synthesized strand.
 
+## How It's Best Learned
+Make a three-row error budget for copying the 6.4 billion base pairs of a human genome. After selection alone (10⁻⁵), expect about 64,000 errors. After proofreading (10⁻⁷), about 640 remain. After mismatch repair (10⁻¹⁰), fewer than one remains. Then delete one row at a time and recompute to see what each layer contributes.
+
+## Common Misconceptions
+- Proofreading and mismatch repair are the same process. (Proofreading happens during synthesis inside the polymerase; mismatch repair acts after replication and uses separate proteins.)
+- Mismatch repair fixes whichever base of the pair it finds first. (It targets the new strand, identified in E. coli by its missing methylation and in eukaryotes by nicks.)
+- With all three layers working, replication leaves no errors. (At about one error per 10⁹–10¹⁰ bases, a 6.4-billion-base-pair genome still gains roughly one to a few errors per division.)
+- Correct base pairs are chosen because they form more hydrogen bonds than mismatches. (The polymerase mainly checks the overall shape of the pair in its active site.)
+
 ## Questions
 
 ```yaml

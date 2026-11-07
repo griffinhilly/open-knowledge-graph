@@ -37,6 +37,14 @@ status: validated
 ## Core Idea
 The long-term evolution of multi-planet systems requires numerical integration of gravitational interactions among all bodies. Orbital stability, chaotic diffusion, and resonance crossing depend sensitively on initial conditions, mass ratios, and orbital parameters, necessitating ensemble simulations to predict system evolution over gigayear timescales.
 
+## How It's Best Learned
+Code a star and one planet twice, once with forward Euler and once with a leapfrog integrator, and plot total energy over many orbits. Euler's orbit spirals outward while leapfrog's energy error stays bounded. Then add a second planet, run two copies that differ by a tiny offset in one position, and plot how their separation grows over time.
+
+## Common Misconceptions
+- With a small enough time step and a good enough integrator, we could predict exact planet positions billions of years ahead. (Chaos amplifies any uncertainty in the starting conditions, including measurement error, so individual trajectories lose meaning after many Lyapunov times.)
+- A chaotic orbit is one that quickly becomes wild and irregular. (Chaos means nearby trajectories diverge. A chaotic system can keep orbits that look regular for very long times, as the planets of the solar system do in most simulations.)
+- A symplectic integrator conserves energy exactly. (Its energy error oscillates within a bounded range instead of drifting steadily, which is why it suits long integrations.)
+
 ## Questions
 
 ```yaml

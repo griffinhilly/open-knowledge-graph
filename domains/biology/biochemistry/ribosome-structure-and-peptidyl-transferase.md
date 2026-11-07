@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 The ribosome is a ribozyme: the 28S rRNA (in eukaryotes) catalyzes peptide bond formation between the aminoacyl-tRNA (A site) and the peptidyl-tRNA (P site). rRNA is the catalytic center, not protein. The peptidyl transferase mechanism involves deprotonation of the aminoacyl group, nucleophilic attack on the carbonyl carbon, and tetrahedral intermediate formation.
 
+## How It's Best Learned
+Draw two tRNAs side by side: a peptidyl-tRNA in the P site, with the chain held by an ester bond at its 3′ end, and an aminoacyl-tRNA in the A site. Draw an arrow from the A-site α-amino group to the P-site ester carbonyl. Then redraw the result and translocate one step. Repeating this for two cycles shows which tRNA holds the chain at each moment and which end of the chain grows.
+
+## Common Misconceptions
+- Each new amino acid is added to the front (N-terminus) of the chain. (The whole growing chain is transferred onto the incoming amino acid, so the chain grows at its C-terminus.)
+- GTP hydrolysis supplies the energy for the peptide bond itself. (The bond is driven by the high-energy ester linking the peptide to the P-site tRNA; GTP hydrolysis by elongation factors powers tRNA delivery and translocation.)
+- The ribosome's proteins do the chemistry and the rRNA is only a scaffold. (Structures show rRNA lining the peptidyl transferase center, and the proteins mainly stabilize the rRNA and help factors bind.)
+- Peptide bonds form in the small subunit, where the mRNA is read. (The small subunit decodes the mRNA; peptide bonds form in the large subunit's peptidyl transferase center.)
+
 ## Questions
 
 ```yaml

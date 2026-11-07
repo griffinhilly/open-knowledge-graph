@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 As planets cool, the iron core crystallizes from liquid outer core, releasing latent heat and light elements that drive compositional convection in the outer core dynamo. Changes in core crystallization rates and composition can trigger or suppress magnetic reversals by destabilizing the dynamo, leaving paleomagnetic records in cooled rocks.
 
+## How It's Best Learned
+Draw a cross-section of the core and label what happens at the inner core boundary: iron freezes, latent heat is released, and light elements rise as buoyant fluid. Then read a map of seafloor magnetic stripes. A stripe 50 km wide, on a plate moving away from the ridge at 5 cm/yr, records about one million years of a single polarity.
+
+## Common Misconceptions
+- The solid inner core is a giant permanent magnet that makes Earth's field. (The core is far above iron's Curie temperature, so it cannot hold permanent magnetism. The field comes from moving liquid iron in the outer core.)
+- Reversals come on a regular schedule, so one is overdue. (The record shows irregular intervals, from tens of thousands to tens of millions of years. There is no fixed period to be overdue against.)
+- During a reversal the poles flip in an instant. (The field weakens and grows more complex during a transition that takes many centuries or longer before the new polarity settles.)
+- As the inner core grows, it uses up the dynamo's energy. (Freezing releases latent heat and light elements, and both drive convection. Inner core growth is an energy source for the dynamo.)
+
 ## Questions
 
 ```yaml

@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Apparent competition occurs when two prey species are harmed by a shared predator, even though they do not directly compete. Increasing one prey population can increase predator abundance, reducing the other prey species. This indirect effect can exclude species or maintain coexistence patterns not predicted by direct competition alone.
 
+## How It's Best Learned
+Draw two interaction webs side by side: two prey sharing a food resource, and two prey sharing a predator. Mark each arrow with + or − and trace the path from "prey A increases" to "prey B declines" in each web. Both paths end with the same net negative effect on B, but the links differ: A lowers the shared food in the first web and raises the shared predator in the second. Then add an invasive prey to the second web and predict which native species suffers.
+
+## Common Misconceptions
+- Two species that never meet and share no food cannot affect each other's numbers. (A shared natural enemy can link them, so an increase in one can raise enemy numbers and lower the other.)
+- Apparent competition requires a predator. (Any shared natural enemy can produce it, including parasites, pathogens and herbivores feeding on two plant species.)
+- The two prey always harm each other equally. (The effects are often lopsided. The prey that better supports the shared enemy tends to cause the larger decline in the other.)
+
 ## Questions
 
 ```yaml

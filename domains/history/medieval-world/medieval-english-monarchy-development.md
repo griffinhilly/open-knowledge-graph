@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Following the Norman Conquest, English kings gradually expanded their power and territories, particularly Henry II, who through marriage and inheritance created the Angevin Empire controlling vast lands in France and England. This territorial power fueled conflicts with the French monarchy and created friction between the king and barons who resented military demands and financial exactions, eventually producing the Magna Carta.
 
+## How It's Best Learned
+Use a map of the Angevin lands in about 1180 and label each by the title Henry II held it under: king of England, duke of Normandy, count of Anjou, duke of Aquitaine. Then shade what John had lost by 1205. Link that loss to a short list of Magna Carta grievances, such as heavy scutage and reliefs, to see how a military defeat turned into a political crisis at home.
+
+## Common Misconceptions
+- The Angevin Empire was one country ruled from England. (It was a set of separate lands, each held under its own title and customs. In France, Henry II held his lands as a vassal of the French king.)
+- Magna Carta gave rights to all English people. (Most clauses dealt with the grievances of barons and the Church. Unfree peasants, a large share of the population, gained little from it directly.)
+- Magna Carta settled the matter as soon as it was sealed in 1215. (The pope annulled it within months and civil war followed. It mattered later because it was reissued in revised forms after John's death.)
+
 ## Questions
 
 ```yaml

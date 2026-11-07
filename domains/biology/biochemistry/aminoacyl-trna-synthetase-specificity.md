@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 Aminoacyl-tRNA synthetases catalyze the formation of an aminoacyl-adenylate intermediate, then transfer the aminoacyl group to the 3'-terminal adenosine of tRNA in a two-step reaction. Synthetases recognize identity elements scattered throughout tRNA structure, not just the anticodon. Many synthetases have editing sites to hydrolyze mischarged aminoacyl-tRNAs.
 
+## How It's Best Learned
+Sketch an L-shaped tRNA and mark where identity elements can sit: the acceptor stem, discriminator base 73, the anticodon, and the variable loop. Then write the two reactions in order, amino acid + ATP → aminoacyl-AMP + PPi, then aminoacyl-AMP + tRNA → aminoacyl-tRNA + AMP. Finish by tracing an isoleucine/valine mix-up through the synthetic site and the editing site.
+
+## Common Misconceptions
+- A synthetase identifies its tRNA by reading the anticodon. (Identity elements are spread across the tRNA, and some synthetases read the anticodon very little.)
+- The ribosome checks that the right amino acid is on each tRNA. (The ribosome checks codon-anticodon pairing; amino acid accuracy depends mostly on the synthetases.)
+- Aminoacylation is a single step that attaches the amino acid directly to tRNA. (The amino acid is first activated with ATP as an aminoacyl-adenylate, then transferred to the 3'-terminal adenosine.)
+- Editing happens in the same pocket that activates the amino acid. (In double-sieve editing, the misactivated product moves to a separate editing site for hydrolysis.)
+
 ## Questions
 
 ```yaml

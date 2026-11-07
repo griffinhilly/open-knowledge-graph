@@ -23,10 +23,15 @@ status: validated
 # Irreversible Enzyme Inhibition
 
 ## Core Idea
-Irreversible (mechanism-based) inhibitors covalently modify active-site amino acids, permanently inactivating the enzyme. Many are suicide inhibitors, which are substrate analogs activated by the enzyme's own catalytic machinery to reactive intermediates that then covalently modify the enzyme. Irreversible inhibition cannot be overcome by increasing substrate concentration and requires enzyme resynthesis for activity recovery.
+Irreversible inhibitors covalently modify active-site amino acids, permanently inactivating the enzyme. Many are suicide inhibitors, which are substrate analogs activated by the enzyme's own catalytic machinery to reactive intermediates that then covalently modify the enzyme. Irreversible inhibition cannot be overcome by increasing substrate concentration and requires enzyme resynthesis for activity recovery.
 
 ## How It's Best Learned
 Study examples like aspirin (irreversibly acetylates cyclooxygenase) and penicillin (covalently modifies bacterial transpeptidase). Understand the kinetics of time-dependent, mechanism-based inhibition versus simple irreversible inhibition.
+
+## Common Misconceptions
+- Every irreversible inhibitor is a suicide inhibitor. (Suicide inhibitors are a subset that the enzyme's own catalysis must activate; agents like aspirin react with the enzyme directly.)
+- Lower Vmax with unchanged Km means the inhibition is noncompetitive. (Irreversible inhibition can give the same plot, but its effect grows with preincubation time and is not removed by dialysis.)
+- An irreversible drug stops working once it is cleared from the blood. (The effect lasts until the cell makes new enzyme, which is why aspirin's effect on platelets outlasts the drug.)
 
 ## Questions
 
@@ -64,6 +69,7 @@ Study examples like aspirin (irreversibly acetylates cyclooxygenase) and penicil
 - question: "Explain why a suicide inhibitor selectively inactivates its target enzyme without affecting other enzymes in the cell."
   type: short-answer
   answer: "A suicide inhibitor is designed to resemble the target enzyme's natural substrate. Specificity is achieved in two layers. First, the inhibitor is only recognized and bound by the specific enzyme that processes that substrate — other enzymes ignore it, just as they ignore other enzymes' substrates. Second, once the inhibitor is bound, the enzyme's own catalytic mechanism converts it into a highly reactive intermediate. This reactive species immediately attacks a nearby amino acid residue in the active site before it can diffuse away and react non-specifically with other proteins. The enzyme that created the reactive species is in exactly the right position to be destroyed by it; no other enzyme is. The combination of binding specificity and proximity-based covalent modification makes suicide inhibitors among the most target-specific drugs in pharmacology."
+  explanation: "Selectivity needs two steps to succeed in the same place. An enzyme that does not bind the inhibitor never activates it, and an enzyme that binds it but cannot run the catalytic step leaves it unreactive. The reactive species is formed inside the target's active site, so it usually reacts there before it can diffuse away. A reactive compound that needs no activation could instead attack exposed residues on many proteins."
 ```
 
 ## Explainer

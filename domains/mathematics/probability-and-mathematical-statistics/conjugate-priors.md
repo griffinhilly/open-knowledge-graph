@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 A prior π is conjugate for a likelihood if the posterior π(θ|X) is in the same family as the prior. For exponential family likelihoods, conjugate priors exist and have closed-form posteriors. Examples: Beta prior for Binomial likelihood, Normal prior for Normal likelihood with known variance. Conjugate priors simplify Bayesian computation.
 
+## How It's Best Learned
+Derive one new pair yourself by multiplying kernels and dropping constants. For Poisson counts with a Gamma(shape a, rate b) prior, the product is λ^{a+Σx−1} e^{−(b+n)λ}, so the posterior is Gamma(a + Σx, b + n). With a Gamma(2, 1) prior and counts 3, 5, 4, you get Gamma(14, 4) with mean 3.5, between the prior mean 2 and the MLE 4.
+
+## Common Misconceptions
+- A conjugate prior is a neutral or uninformative prior. (Conjugacy is about algebraic form only. A Beta(50, 2) prior is conjugate for the binomial and very informative.)
+- Conjugacy is a property of the prior distribution by itself. (It is a relation between a family of priors and a likelihood. The Beta family is conjugate for the binomial but not for a normal mean.)
+- A normal prior on μ stays conjugate when the normal variance is also unknown. (With both parameters unknown, the conjugate family is a joint normal–inverse-gamma prior on (μ, σ²). A normal prior on μ alone does not give a closed-form joint posterior in the same family.)
+
 ## Questions
 
 ```yaml

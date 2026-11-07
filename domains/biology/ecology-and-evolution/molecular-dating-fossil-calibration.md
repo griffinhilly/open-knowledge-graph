@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Molecular clocks estimate divergence times by assuming constant substitution rates. Fossil evidence provides calibration points; a fossil constrains the minimum age of a node. Relaxed clock models account for rate variation among lineages. Uncertainty in fossils and rate variation limits dating precision, especially for older divergences.
 
+## How It's Best Learned
+Work a strict-clock example. Species A and B differ by 0.10 substitutions per site, and a fossil shows they split at least 50 million years ago. The rate per lineage is then at most 0.10 / (2 × 50) = 0.001 per site per million years. Species C and D differ by 0.04, so they split at least 20 million years ago. Note how the minimum carries through to the second date.
+
+## Common Misconceptions
+- The oldest fossil of a group shows when the group split from its relatives. (The fossil shows the lineage already existed then. The split happened at or before that time, often well before.)
+- Enough sequence data can give absolute dates without fossils. (Sequences give relative amounts of change. Converting them to years needs a calibration of known age, such as a fossil or a dated geological event.)
+- Each calibration affects only the node it is placed on. (Calibrations set the rate scale, so one wrong calibration can shift dates across the whole tree.)
+- Relaxed clock models remove the need for good fossils. (They allow rates to vary across branches, but the time scale still depends on the calibrations, and results come as ranges.)
+
 ## Questions
 
 ```yaml

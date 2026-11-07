@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 Weathering rates vary dramatically among planets based on atmospheric composition, temperature, humidity, and surface gravity. Earth's rapid chemical weathering contrasts with Mars's dominance of physical weathering and Venus's extremely limited surface processes, illustrating how planetary conditions control landscape evolution and geochemical cycling.
 
+## How It's Best Learned
+Build a table for Earth, Mars, Venus and the Moon with columns for surface temperature, pressure, available liquid, dominant weathering agent, and surface evidence. Then compare images of similar-sized impact craters on each body and rank how degraded they look. Explain each ranking from the table, and say which differences could come from surface age instead of weathering rate.
+
+## Common Misconceptions
+- Physical weathering needs water, as in freeze-thaw cracking. (Daily thermal cycling and wind abrasion break rock with no liquid water, which is how much of Mars's surface weathers today.)
+- Fresh-looking craters prove a surface is young. (Crater preservation reflects both age and erosion rate. Venus's craters look pristine partly because its surface erodes so slowly.)
+- Weathering shapes surfaces but has no effect on climate. (On Earth, silicate weathering removes CO₂ from the atmosphere over long timescales as part of the carbonate-silicate cycle.)
+
 ## Questions
 
 ```yaml

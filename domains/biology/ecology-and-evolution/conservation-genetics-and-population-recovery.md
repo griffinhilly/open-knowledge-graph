@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Recovery of endangered populations requires managing genetic diversity to minimize inbreeding depression while maintaining local adaptation. Strategies include maximizing effective population size, minimizing drift through managed breeding, and maintaining migration to introduce new alleles. Translocations and reintroductions require genetic assessment and careful source selection to avoid outbreeding depression. Genetic monitoring tracks whether recovery efforts restore genetic variation.
 
+## How It's Best Learned
+First compute what isolation costs. With an effective size of 25, heterozygosity falls by 1/(2 × 25) = 2% per generation, so after 10 generations about 0.98^10 ≈ 0.82 of it remains. Then rank three candidate source populations for a translocation by genetic distance and by how similar their habitats are to the recipient's. Use the Florida panther rescue as the reference case.
+
+## Common Misconceptions
+- Once a population's numbers recover, its genetic problems are solved. (Diversity lost in a bottleneck does not return with numbers. New variation must come from mutation, which is slow, or from gene flow.)
+- The more genetically different the source population, the better the rescue. (Highly divergent sources raise the risk of outbreeding depression. Managers look for sources that add variation without disrupting local adaptation.)
+- Any mixing of separate populations is likely to cause outbreeding depression. (Many rescues between closely related populations from similar habitats have improved fitness. The risk rises mainly with long separation or very different environments.)
+
 ## Questions
 
 ```yaml

@@ -34,6 +34,15 @@ status: validated
 ## Core Idea
 Nucleotides consist of a nitrogenous base, a five-carbon sugar (ribose or deoxyribose), and a phosphate group. Purines (adenine, guanine) have a fused bicyclic ring; pyrimidines (cytosine, thymine, uracil) have a single ring. Nucleotides differ in the number and position of phosphate groups: monophosphates, diphosphates, and triphosphates.
 
+## How It's Best Learned
+Draw a ribose ring and number its carbons 1′ to 5′. Attach adenine at 1′ and name it (adenosine), add one phosphate at 5′ (AMP), then add two more (ATP). Now erase the 2′-OH and rename it (dATP). Repeating this build with one pyrimidine, such as cytosine, fixes the base, nucleoside, and nucleotide names together.
+
+## Common Misconceptions
+- Pyrimidines are the bigger bases because their name is longer. (Purines have two fused rings and are larger; pyrimidines have one ring.)
+- "Deoxyribose" means the sugar has no oxygen in its hydroxyl groups. (Deoxyribose lacks only the 2′-OH; its 3′ and 5′ hydroxyls remain.)
+- The primed numbers (1′, 5′) label atoms in the base. (Primes number the sugar carbons; unprimed numbers label the atoms of the base ring.)
+- DNA and RNA use the same four bases. (Both use A, G, and C, but DNA uses thymine where RNA uses uracil.)
+
 ## Questions
 
 ```yaml

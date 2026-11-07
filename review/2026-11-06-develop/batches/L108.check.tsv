@@ -1,0 +1,76 @@
+domains/biology/biochemistry/metabolic-hormones-and-gluconeogenesis.md	how	3	0	ok
+domains/biology/biochemistry/metabolic-hormones-and-gluconeogenesis.md	mis	8	1	fixed	muscle-glycogen bullet said muscle "does not release free glucose" with no qualifier; muscle glycogen still reaches blood glucose indirectly via lactate and the Cori cycle; qualified
+domains/biology/biochemistry/metabolic-integration-hormonal-regulation.md	how	3	0	ok
+domains/biology/biochemistry/metabolic-integration-hormonal-regulation.md	mis	8	0	ok
+domains/biology/biochemistry/monosaccharides-isomers.md	how	5	0	ok	Fischer flips checked: C4 gives galactose, C2 gives mannose, all four gives L-glucose
+domains/biology/biochemistry/monosaccharides-isomers.md	mis	8	0	ok	C5-only flip = L-idose verified
+domains/biology/biochemistry/nad-nadh-structure-and-function.md	how	3	0	ok
+domains/biology/biochemistry/nad-nadh-structure-and-function.md	mis	8	0	ok
+domains/biology/biochemistry/noncompetitive-enzyme-inhibition.md	how	4	0	ok	velocities recomputed: 50->25 at 2 mM, 90.9->45.5 at 20 mM
+domains/biology/biochemistry/noncompetitive-enzyme-inhibition.md	mis	8	0	ok
+domains/biology/biochemistry/noncompetitive-enzyme-inhibition.md	old:core	1	1	fixed	Core Idea said Km and Vmax both fall by equal fractions (that is uncompetitive); contradicts Explainer; now Vmax down, Km unchanged
+domains/biology/biochemistry/noncompetitive-enzyme-inhibition.md	old:q:3:explanation	1	1	fixed	said inhibitor binding only free E gives mixed inhibition (binding only E gives competitive kinetics); now unequal E/ES affinity = mixed
+domains/biology/biochemistry/noncompetitive-enzyme-inhibition.md	old:q:2:explanation	1	1	fixed	"permanently catalytically inactive" contradicted reversible binding; dropped "permanently"
+domains/biology/biochemistry/nucleotide-salvage-pathways.md	how	3	0	ok
+domains/biology/biochemistry/nucleotide-salvage-pathways.md	mis	8	2	fixed	bullet 4 cut: "nucleic acids are first broken down to nucleosides and free bases" overgeneralizes; RNA turnover gives NMPs that are reused directly. Bullet 1 "which is why" stated a debated Lesch-Nyhan mechanism as settled; hedged
+domains/biology/biochemistry/nucleotide-structure-and-nomenclature.md	how	4	0	ok
+domains/biology/biochemistry/nucleotide-structure-and-nomenclature.md	mis	8	0	ok
+domains/biology/biochemistry/nucleotide-synthesis.md	how	3	0	ok
+domains/biology/biochemistry/nucleotide-synthesis.md	mis	8	0	ok	note (old): Explainer says methotrexate blocks the thymidylate synthase step; it blocks DHFR; left
+domains/biology/biochemistry/one-carbon-metabolism.md	how	4	0	ok
+domains/biology/biochemistry/one-carbon-metabolism.md	mis	8	0	ok	note (old): Explainer says THF forms "can interconvert"; MTHFR step is effectively one-way; left
+domains/biology/biochemistry/oxidative-deamination.md	how	3	0	ok	summed equations balance
+domains/biology/biochemistry/oxidative-deamination.md	mis	8	0	ok
+domains/biology/biochemistry/pentose-phosphate-pathway.md	how	4	0	ok	carbon bookkeeping 18 = 15 + 3 CO2; 15 = 12 + 3 verified
+domains/biology/biochemistry/pentose-phosphate-pathway.md	mis	8	0	ok
+domains/biology/biochemistry/pentose-phosphate-pathway.md	q:4:explanation	1	0	ok
+domains/biology/biochemistry/pentose-phosphate-pathway.md	old:core	1	1	fixed	Core Idea called the non-oxidative phase "reductive" and said it converts glucose-6-phosphate; now non-oxidative interconversion of sugar phosphates (frontmatter tag "reductive phase" left untouched per rules)
+domains/biology/biochemistry/phenylketonuria-and-metabolic-disease.md	how	4	0	ok
+domains/biology/biochemistry/phenylketonuria-and-metabolic-disease.md	mis	8	0	ok	note (old): q:0 marks tyrosinase inhibition by Phe as wrong; many sources list it as a contributor to hypopigmentation; left
+domains/biology/biochemistry/phenylketonuria-and-metabolic-disease.md	old:core	1	1	fixed	Core Idea chained light skin and musty odor to low serotonin; Explainer gives tyrosine/melanin and phenylacetate; split the claim
+domains/biology/biochemistry/phospholipid-biosynthesis.md	how	3	0	ok
+domains/biology/biochemistry/phospholipid-biosynthesis.md	mis	8	0	ok	note (old): q:0 and Explainer put PS on the CDP-DAG branch; in mammals PS comes by head-group exchange; left
+domains/biology/biochemistry/post-translational-modifications.md	how	3	0	ok
+domains/biology/biochemistry/post-translational-modifications.md	mis	8	0	ok
+domains/biology/biochemistry/post-translational-modifications.md	old:q:3:question	1	1	fixed	"Ubiquitination typically marks a protein for destruction" keyed false; degradation is the most common outcome; changed "typically" to "always" so the false key holds
+domains/biology/biochemistry/protein-denaturation-and-renaturation.md	mis	8	0	ok
+domains/biology/biochemistry/protein-kinase-signaling-cascades.md	how	4	0	ok	toy numbers check (1 -> 10 -> 100; half MEK -> 5 -> 50)
+domains/biology/biochemistry/protein-kinase-signaling-cascades.md	mis	8	0	ok
+domains/biology/biochemistry/protein-kinase-signaling-cascades.md	old:core	1	1	fixed	Core Idea had the receptor kinase phosphorylating the substrate kinases directly; Explainer runs RTK -> Ras (GTPase) -> Raf; now names the Ras step
+domains/biology/biochemistry/protein-primary-structure.md	mis	8	0	ok	note (old): q:2 (same gene -> same fold, keyed true) and Explainer ("every copy... identical primary structure") ignore alternative splicing and prions; left
+domains/biology/biochemistry/protein-quaternary-structure.md	mis	8	0	ok
+domains/biology/biochemistry/protein-quaternary-structure.md	old:q:3:question	1	1	fixed	keyed true that cooperativity and allostery are impossible for single-subunit proteins; false (monomeric glucokinase is cooperative; many monomers are allosteric); reworded to hemoglobin's inter-subunit mechanism; explanation narrowed to match
+domains/biology/biochemistry/protein-quaternary-structure.md	old:core	1	1	fixed	same overclaim ("single-subunit proteins cannot achieve"); removed
+domains/biology/biochemistry/protein-quaternary-structure.md	old:ex	1	1	fixed	same overclaim in last paragraph ("impossible in a single-chain protein"); scoped to these proteins
+domains/biology/biochemistry/protein-targeting-and-subcellular-localization.md	how	4	0	ok	all four sorting cases work out (ER/SRP, mito/TOM, nucleus/importin, cytosol)
+domains/biology/biochemistry/protein-targeting-and-subcellular-localization.md	mis	8	0	ok	note (old): q:0 cites I-cell disease as an example of the cytosol default, but I-cell enzymes are secreted; left
+domains/biology/biochemistry/protein-translocation-and-signal-sequences.md	how	4	0	ok	type I orientation correct
+domains/biology/biochemistry/protein-translocation-and-signal-sequences.md	mis	8	0	ok	note (old): Explainer credits import energy to mtHsp70 ATP only and leaves out the membrane potential the new bullet adds; incomplete, not contradictory; left
+domains/biology/biochemistry/proton-gradient-and-chemiosmotic-coupling.md	how	5	0	ok	recomputed: 2.3RT/F = 61.5 mV; 0.75 x 61.5 = 46 mV; total 196 mV; 77% electrical; x 96.5 = 18.9 kJ/mol
+domains/biology/biochemistry/proton-gradient-and-chemiosmotic-coupling.md	mis	8	0	ok
+domains/biology/biochemistry/proton-gradient-and-chemiosmotic-coupling.md	old:core	1	1	fixed	Core Idea gave a ~4-unit pH gradient; Explainer and questions say 0.5-1 unit; also widened ~140 mV to 140-180 mV to match Explainer
+domains/biology/biochemistry/purine-metabolism-biosynthesis.md	how	4	0	ok	ring-atom donors verified
+domains/biology/biochemistry/purine-metabolism-biosynthesis.md	mis	8	0	ok
+domains/biology/biochemistry/purine-metabolism-degradation.md	how	4	0	ok
+domains/biology/biochemistry/purine-metabolism-degradation.md	mis	8	0	ok
+domains/biology/biochemistry/pyrimidine-metabolism-biosynthesis.md	how	4	0	ok	ring-atom sources verified
+domains/biology/biochemistry/pyrimidine-metabolism-biosynthesis.md	mis	8	0	ok
+domains/biology/biochemistry/pyrimidine-metabolism-biosynthesis.md	old:core	1	1	fixed	"Unlike purine synthesis (which is de novo)" implied pyrimidine synthesis is not de novo; now contrasts ring-on-sugar
+domains/biology/biochemistry/pyrimidine-metabolism-biosynthesis.md	old:q:4:answer	1	1	fixed	said blocking early purine steps "prevents sugar attachment"; the sugar is present from the start in purine synthesis
+domains/biology/biochemistry/pyrimidine-metabolism-degradation.md	how	4	0	ok
+domains/biology/biochemistry/pyrimidine-metabolism-degradation.md	mis	8	0	ok
+domains/biology/biochemistry/pyrimidine-metabolism-degradation.md	old:core	1	1	fixed	Core Idea gave "alanine (from cytosine)", "methylalanine (from thymine)", and β-ureidopropionate as an end route; contradicts Explainer; now β-alanine / β-aminoisobutyrate
+domains/biology/biochemistry/pyruvate-dehydrogenase-complex.md	how	4	0	ok
+domains/biology/biochemistry/pyruvate-dehydrogenase-complex.md	mis	8	0	ok
+domains/biology/biochemistry/pyruvate-dehydrogenase-complex.md	old:q:1:explanation	1	1	fixed	cut the closing claim that athletes can't do high-intensity work on fat because fat can't become glycogen (the limit is the rate of fat oxidation)
+domains/biology/biochemistry/pyruvate-metabolic-hub.md	how	3	0	ok
+domains/biology/biochemistry/pyruvate-metabolic-hub.md	mis	8	0	ok
+domains/biology/biochemistry/pyruvate-metabolic-hub.md	old:core	1	1	fixed	Core Idea said pyruvate is "carboxylated to form fatty acids and amino acids" and left out lactate; Explainer lists the four real exits; corrected
+domains/biology/biochemistry/receptor-signaling-pathways.md	how	3	0	ok	cholera toxin mechanism correct
+domains/biology/biochemistry/receptor-signaling-pathways.md	mis	8	0	ok
+domains/biology/biochemistry/receptor-signaling-pathways.md	old:core	1	1	fixed	Core Idea listed Ras among "downstream kinases"; Ras is a GTPase (new bullet in protein-kinase-signaling-cascades says so)
+domains/biology/biochemistry/receptor-signaling-pathways.md	old:ex	1	1	fixed	Explainer said "One RTK phosphorylates many Ras"; Ras is activated by GDP/GTP exchange, not phosphorylation
+domains/biology/biochemistry/ribosome-structure-and-peptidyl-transferase.md	how	4	0	ok
+domains/biology/biochemistry/ribosome-structure-and-peptidyl-transferase.md	mis	8	0	ok	note (old): "no protein within 18 Å" comes from the 2000 archaeal structure; bacterial L27 reaches nearer; left
+domains/biology/biochemistry/rna-polymerase-mechanisms.md	how	3	0	ok	template/RNA/coding strands verified
+domains/biology/biochemistry/rna-polymerase-mechanisms.md	mis	8	0	ok

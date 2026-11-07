@@ -33,6 +33,15 @@ status: validated
 ## Core Idea
 The pyruvate dehydrogenase complex (PDC) is a massive (>1 MDa) multi-enzyme assembly catalyzing the irreversible oxidative decarboxylation of pyruvate to acetyl-CoA, linking glycolysis to the citric acid cycle. The complex contains three catalytic subunits (E1, pyruvate dehydrogenase; E2, dihydrolipoyl transacetylase; E3, dihydrolipoyl dehydrogenase) and five cofactors (TPP, lipoic acid, CoA, NAD⁺, FAD). PDC activity is tightly regulated by phosphorylation/dephosphorylation (PDC kinase inhibits, PDC phosphatase activates) in response to cellular energy status and substrate availability.
 
+## How It's Best Learned
+Make a five-row relay table, one row per cofactor in order: TPP, lipoic acid, CoA, FAD, NAD⁺. For each row, write the enzyme (E1, E2, or E3), what the cofactor receives, and what it hands on. Then delete one cofactor at a time and predict what builds up; removing thiamine, for example, stops E1, so pyruvate and lactate accumulate.
+
+## Common Misconceptions
+- PDC works in the cytosol next to glycolysis. (In eukaryotes PDC sits in the mitochondrial matrix, so pyruvate must first be carried into mitochondria.)
+- Phosphorylation switches PDC on, as it does for some other enzymes. (PDC kinase phosphorylates E1 and inactivates it; PDC phosphatase removes the phosphate to restore activity.)
+- The FADH₂ formed in E3 goes straight to the electron transport chain. (The FAD stays bound to E3 and passes its electrons to NAD⁺, so the complex releases NADH, not FADH₂.)
+- Lipoic acid floats freely between the three enzymes. (Lipoic acid is covalently attached to a lysine side chain on E2, which forms its long swinging arm.)
+
 ## Questions
 
 ```yaml
@@ -54,7 +63,7 @@ The pyruvate dehydrogenase complex (PDC) is a massive (>1 MDa) multi-enzyme asse
     - "Fatty acid beta-oxidation produces acetyl-CoA, and the PDC reaction is irreversible — acetyl-CoA cannot be converted back to pyruvate, so those carbons cannot enter gluconeogenesis"
     - "The liver lacks the necessary enzymes to extract carbon from acetyl-CoA for glucose synthesis"
   answer: 2
-  explanation: "The irreversibility of the PDC reaction is the metabolic barrier. Fatty acids are degraded to acetyl-CoA via beta-oxidation, and acetyl-CoA enters the citric acid cycle. But to make glucose, cells need a 3-carbon precursor like pyruvate or oxaloacetate. Since PDC only runs in the direction pyruvate → acetyl-CoA (never backward), and the citric acid cycle releases the acetyl carbons as CO₂, those carbons are permanently lost for gluconeogenesis. This is why athletes can't run on fat alone for high-intensity exercise — fat can't be converted back to glycogen."
+  explanation: "The irreversibility of the PDC reaction is the metabolic barrier. Fatty acids are degraded to acetyl-CoA via beta-oxidation, and acetyl-CoA enters the citric acid cycle. But to make glucose, cells need a 3-carbon precursor like pyruvate or oxaloacetate. Since PDC only runs in the direction pyruvate → acetyl-CoA (never backward), and the citric acid cycle releases the acetyl carbons as CO₂, those carbons are permanently lost for gluconeogenesis."
 
 - question: "When cellular ATP/ADP, NADH/NAD⁺, and acetyl-CoA/CoA ratios are all high, PDC kinase phosphorylates E1 and shuts down the complex."
   type: true-false

@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 The Riemann zeta function ζ(s) = Σ 1/n^s has an Euler product: ζ(s) = ∏ 1/(1 - p^(-s)) over primes p. Analytic continuation extends ζ to ℂ (except s=1), and the Riemann Hypothesis—all nontrivial zeros have Re(s) = 1/2—profoundly shapes prime distribution.
 
+## How It's Best Learned
+Compute a truncated Euler product at s = 2 using only the primes 2, 3 and 5. The product (4/3)(9/8)(25/24) = 1.5625 sums 1/n² over the n built from those primes, and it creeps toward ζ(2) = π²/6 ≈ 1.645 as primes are added. Then run Euler's argument at s = 1: finitely many primes would make the product finite, but the harmonic series diverges.
+
+## Common Misconceptions
+- Since ζ(−1) = −1/12, the sum 1 + 2 + 3 + ... equals −1/12. (That series diverges. The value −1/12 belongs to the analytically continued function, which the series does not define at s = −1.)
+- The Euler product formula holds wherever ζ(s) is defined. (The product converges absolutely only for Re(s) > 1, and there it has no zeros. That says nothing about the continued function in the critical strip, where the zeros lie.)
+- Computers have checked so many zeros on the critical line that the Riemann Hypothesis is effectively proved. (A very large number of zeros have been verified on the line, but no finite check covers all of them, and the hypothesis remains open.)
+
 ## Questions
 
 ```yaml

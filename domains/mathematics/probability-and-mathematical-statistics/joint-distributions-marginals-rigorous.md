@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 For random vector X = (X₁, ..., Xₙ), the joint CDF is F(x₁,...,xₙ) = P(X₁ ≤ x₁,...,Xₙ ≤ xₙ). Marginal distributions describe individual Xᵢ. A joint pdf f satisfies P((X₁,...,Xₙ) ∈ A) = ∫ₐ f(x₁,...,xₙ) dx₁...dxₙ. The Radon-Nikodym theorem guarantees densities when distributions are absolutely continuous.
 
+## How It's Best Learned
+Compute rectangle probabilities from the joint CDF with inclusion–exclusion: P(a < X ≤ b, c < Y ≤ d) = F(b,d) − F(a,d) − F(b,c) + F(a,c). For independent Uniform(0, 1) variables, F(x, y) = xy, and the rectangle (0.2, 0.5] × (0.1, 0.4] gives 0.20 − 0.08 − 0.05 + 0.02 = 0.09. Then recover F_X(x) as the limit of F(x, y) as y → ∞.
+
+## Common Misconceptions
+- If X and Y each have a density, the pair (X, Y) has a joint density. (Take Y = X with X uniform. All the mass sits on the diagonal, a set of zero area, so no joint density exists.)
+- P(X > a, Y > b) = 1 − F(a, b). (That is the probability that X > a or Y > b. The correct formula is 1 − F_X(a) − F_Y(b) + F(a, b).)
+- Any F(x, y) that rises in each argument, is right-continuous and has the right limits is a joint CDF. (It must also give every rectangle a non-negative probability. F(x, y) = 1 when x + y ≥ 0 and 0 otherwise passes the other tests but gives the rectangle (−1, 1] × (−1, 1] a value of −1.)
+
 ## Questions
 
 ```yaml

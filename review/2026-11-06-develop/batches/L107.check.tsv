@@ -1,0 +1,80 @@
+domains/biology/biochemistry/aminoacyl-trna-synthetase-specificity.md	how	4	0	ok
+domains/biology/biochemistry/aminoacyl-trna-synthetase-specificity.md	mis	8	0	ok
+domains/biology/biochemistry/ammonia-metabolism.md	how	4	0	ok
+domains/biology/biochemistry/ammonia-metabolism.md	mis	8	1	fixed	Bullet 1 correction said free NH4+ is released mainly inside liver/kidney cells; overstated (gut releases free ammonia into portal blood). Narrowed to: the carriers give up their NH4+ mainly in liver/kidney.
+domains/biology/biochemistry/ammonia-metabolism.md	old:ex	1	1	fixed	Explainer said ALT turns alanine into pyruvate and ammonia; ALT makes pyruvate + glutamate, and glutamate dehydrogenase releases NH3 (new mis bullet 2 was right).
+domains/biology/biochemistry/aromatic-amino-acid-catabolism.md	how	5	0	ok
+domains/biology/biochemistry/aromatic-amino-acid-catabolism.md	mis	8	0	ok
+domains/biology/biochemistry/aromatic-amino-acid-catabolism.md	old:core	1	1	fixed	Core Idea said all three aromatic amino acids are exclusively glucogenic; Phe, Tyr and Trp are all both glucogenic and ketogenic (Explainer already said so for Tyr).
+domains/biology/biochemistry/aromatic-amino-acid-catabolism.md	old:ex	1	1	fixed	Enzyme name "dihydrobiopterin reductase" corrected to dihydropteridine reductase.
+domains/biology/biochemistry/atp-hydrolysis-and-free-energy.md	how	4	0	ok	Worked numbers check: Q = 1e-4, RT ln Q = -23.8, total about -54 kJ/mol.
+domains/biology/biochemistry/atp-hydrolysis-and-free-energy.md	mis	6	0	ok
+domains/biology/biochemistry/branched-chain-amino-acid-catabolism.md	how	5	0	ok
+domains/biology/biochemistry/branched-chain-amino-acid-catabolism.md	mis	8	0	ok
+domains/biology/biochemistry/branched-chain-amino-acid-catabolism.md	old:q:2	1	1	fixed	T/F keyed true said leucine is the ONLY purely ketogenic common amino acid; lysine is too. Reworded to "Leucine is a purely ketogenic amino acid".
+domains/biology/biochemistry/branched-chain-amino-acid-catabolism.md	old:ex	1	1	fixed	Explainer said leucine is unique among common amino acids as purely ketogenic; now names leucine and lysine.
+domains/biology/biochemistry/carbohydrate-homeostasis.md	how	4	0	ok
+domains/biology/biochemistry/carbohydrate-homeostasis.md	mis	8	0	ok	Noted, not fixed: Core Idea fasting range 80-100 mg/dL (70-100 is the usual reference).
+domains/biology/biochemistry/cholesterol-metabolism-and-regulation.md	how	4	0	ok
+domains/biology/biochemistry/cholesterol-metabolism-and-regulation.md	mis	8	0	ok
+domains/biology/biochemistry/cholesterol-metabolism-and-regulation.md	old:ex	1	1	fixed	Explainer said SREBP directly senses cholesterol; SCAP is the sensor (new mis bullet 2 was right). Reworded.
+domains/biology/biochemistry/cholesterol-synthesis.md	mis	8	0	ok	Noted, not fixed: Core Idea/Explainer call cholesterol a direct allosteric inhibitor of HMG-CoA reductase; sterol-accelerated degradation of the enzyme is the better-supported mechanism.
+domains/biology/biochemistry/cholesterol-synthesis.md	old:q:3	1	1	fixed	T/F keyed true claimed cells CANNOT synthesize cholesterol in a low-energy state because NADPH is consumed; absolute and conflates NADPH with energy charge. Restated as AMPK inactivating HMG-CoA reductase so synthesis slows (matches the explanation).
+domains/biology/biochemistry/citric-acid-cycle-regulation.md	how	4	0	ok
+domains/biology/biochemistry/citric-acid-cycle-regulation.md	mis	8	0	ok
+domains/biology/biochemistry/citric-acid-cycle-regulation.md	old:core	1	1	fixed	Core Idea listed acetyl-CoA (a substrate) as a citrate synthase inhibitor; replaced with citrate, matching the Explainer.
+domains/biology/biochemistry/competitive-enzyme-inhibition.md	mis	8	0	ok
+domains/biology/biochemistry/competitive-enzyme-inhibition.md	old:how	1	1	fixed	Writer-flagged: old How said competitive inhibition gives "parallel lines"; lines meet on the y-axis (parallel = uncompetitive).
+domains/biology/biochemistry/competitive-enzyme-inhibition.md	old:core	1	1	fixed	Core Idea said competitive inhibitors can be irreversible (covalent); contradicts Explainer and kinetics (covalent inactivation lowers Vmax). Reworded.
+domains/biology/biochemistry/dna-polymerase-structure-and-fidelity.md	how	5	0	ok	Error budget 1e-5 x 1e-2 = 1e-7, x 1e-3 near 1e-10 checks.
+domains/biology/biochemistry/dna-polymerase-structure-and-fidelity.md	mis	8	0	ok
+domains/biology/biochemistry/dna-replication-accuracy-proofreading.md	how	5	0	ok	6.4e9 x 1e-5 = 64,000; x 1e-7 = 640; x 1e-10 = 0.64 check.
+domains/biology/biochemistry/dna-replication-accuracy-proofreading.md	mis	8	0	ok
+domains/biology/biochemistry/dna-replication-machinery.md	how	4	0	ok
+domains/biology/biochemistry/dna-replication-machinery.md	mis	8	1	fixed	Bullet 4 correction (Pol I removes primer and fills gap) is bacteria-specific; eukaryotes use RNase H/FEN1 and Pol delta. Added "In bacteria".
+domains/biology/biochemistry/dna-replication-machinery.md	old:core	1	1	fixed	Core Idea said Pol III removes primers; only Pol I does (5'->3' exonuclease).
+domains/biology/biochemistry/enzyme-classification-nomenclature.md	how	3	0	ok	All six EC assignments (LDH 1, hexokinase 2, G6Pase 3, aldolase 4, TPI 5, pyruvate carboxylase 6) verified.
+domains/biology/biochemistry/enzyme-classification-nomenclature.md	mis	8	0	ok
+domains/biology/biochemistry/enzyme-classification-nomenclature.md	old:core	1	1	fixed	Core Idea and Explainer said six EC classes; EC 7 translocases added in 2018. Added a clause/sentence; kept the six-class mnemonic as "classic" classes.
+domains/biology/biochemistry/enzyme-cooperativity.md	how	4	0	ok	81^(1/n): 81, 4.8 (n=2.8), 3 (n=4) verified.
+domains/biology/biochemistry/enzyme-cooperativity.md	mis	8	0	ok
+domains/biology/biochemistry/fad-fadh2-and-other-redox-carriers.md	how	4	0	ok
+domains/biology/biochemistry/fad-fadh2-and-other-redox-carriers.md	mis	8	0	ok
+domains/biology/biochemistry/fad-fadh2-and-other-redox-carriers.md	old:core	2	2	fixed	Writer-flagged: Core Idea said FAD takes two electrons and ONE proton (FADH2 = 2e- + 2H+, as Explainer says) and that FADH2 enters the ETC at Complex II in general (beta-oxidation FADH2 goes via ETF to ubiquinone). Both corrected.
+domains/biology/biochemistry/fad-fadh2-and-other-redox-carriers.md	old:ex	1	1	fixed	Explainer said FADH2 enters at Complex II in general; now says at ubiquinone via Complex II or ETF. Noted, not fixed: Q3 explanation still frames all FADH2 as Complex II.
+domains/biology/biochemistry/fasted-state-metabolism.md	how	3	0	ok
+domains/biology/biochemistry/fasted-state-metabolism.md	mis	8	0	ok	Noted, not fixed: Q0/Explainer say liver glycogen is exhausted by 12-18 h; depletion is usually closer to ~24 h.
+domains/biology/biochemistry/fatty-acid-structure-and-classification.md	how	5	0	ok	18-12=6, 18-15=3, 18-9=9 verified.
+domains/biology/biochemistry/fatty-acid-structure-and-classification.md	mis	8	0	ok
+domains/biology/biochemistry/fatty-acid-structure-and-classification.md	old:q:2	1	1	fixed	T/F keyed false read "Most unsaturated fatty acids have lower melting points than saturated..." which is true (even trans elaidic 45 C < stearic 69 C). Restated so false is unambiguous; explanation clause "melting points similar to saturated" changed to "well above their cis isomers".
+domains/biology/biochemistry/fatty-acid-synthesis.md	how	4	0	ok	8 acetyl-CoA, 7 ATP, 14 NADPH verified.
+domains/biology/biochemistry/fatty-acid-synthesis.md	mis	8	0	ok
+domains/biology/biochemistry/fatty-acid-synthesis.md	old:ex	1	1	fixed	Writer-flagged: Explainer said all four reactions per cycle consume NADPH; only the two reductions do (14 NADPH per palmitate).
+domains/biology/biochemistry/fatty-acid-synthesis.md	old:core	1	1	fixed	Core Idea said synthesis is "allosterically ... inhibited by AMP, palmitoyl-CoA, and glucagon"; glucagon and AMP act via phosphorylation (PKA/AMPK), not allosterically. Reworded.
+domains/biology/biochemistry/fed-state-metabolism.md	how	4	0	ok
+domains/biology/biochemistry/fed-state-metabolism.md	mis	8	0	ok
+domains/biology/biochemistry/genetic-code-wobble-pairing.md	how	4	0	ok	Anticodon pairings IGC->GCU/GCC/GCA and GAA->UUU/UUC verified antiparallel.
+domains/biology/biochemistry/genetic-code-wobble-pairing.md	mis	8	0	ok
+domains/biology/biochemistry/genetic-code-wobble-pairing.md	old:q:4:explanation	1	1	fixed	Glycine example claimed an inosine tRNA reads GGU/GGC/GGA; tRNA-Gly is not inosine-modified. Swapped to the alanine box (IGC), matching the Explainer.
+domains/biology/biochemistry/gluconeogenesis.md	mis	8	0	ok	4 ATP + 2 GTP + 2 NADH per glucose verified.
+domains/biology/biochemistry/gluconeogenesis.md	old:ex	1	1	fixed	"glucose-6-phosphatase, found only in liver and kidney" -> "mainly" (small intestine also expresses it).
+domains/biology/biochemistry/glycogen-metabolism.md	how	5	0	ok	3 ATP vs 2 ATP to lactate verified.
+domains/biology/biochemistry/glycogen-metabolism.md	mis	8	0	ok
+domains/biology/biochemistry/glycogen-metabolism.md	old:q:2:explanation	1	1	fixed	Said a linear polymer presents "two ends" to phosphorylase; it has one non-reducing end (contradicted Q4 answer).
+domains/biology/biochemistry/glycogen-synthesis-and-degradation.md	how	3	0	ok
+domains/biology/biochemistry/glycogen-synthesis-and-degradation.md	mis	8	0	ok
+domains/biology/biochemistry/irreversible-enzyme-inhibition.md	mis	6	0	ok
+domains/biology/biochemistry/irreversible-enzyme-inhibition.md	q:4:explanation	1	1	fixed	Absolute: said the activated species always reacts in the active site before diffusing; many mechanism-based inhibitors have partition ratios > 0 and release some reactive species. Added "usually". Old answer field has the same absolute ("immediately"); left.
+domains/biology/biochemistry/irreversible-enzyme-inhibition.md	old:core	1	1	fixed	Core Idea equated irreversible with "mechanism-based"; contradicts new mis bullet 1 (suicide inhibitors are a subset). Removed the parenthetical.
+domains/biology/biochemistry/ketone-body-metabolism.md	how	4	0	ok
+domains/biology/biochemistry/ketone-body-metabolism.md	mis	6	0	ok
+domains/biology/biochemistry/lactate-metabolism.md	how	5	0	ok	+2 -6 = -4 ATP verified.
+domains/biology/biochemistry/lactate-metabolism.md	mis	8	0	ok	Noted, not fixed: Q4 explanation says L/P ratio distinguishes Type A from Type B lactic acidosis but then says it is elevated in both.
+domains/biology/biochemistry/lipolysis-and-fatty-acid-mobilization.md	how	4	0	ok
+domains/biology/biochemistry/lipolysis-and-fatty-acid-mobilization.md	mis	8	1	fixed	Bullet 2 correction said perilipin must be phosphorylated before lipases can reach triglyceride at all; basal ATGL lipolysis runs without it. Qualified to full hormone-stimulated lipolysis.
+domains/biology/biochemistry/lipolysis-and-fatty-acid-mobilization.md	old:q:0:explanation	1	1	fixed	Garbled sentence ("because glucagon activates phosphodiesterase would degrade cAMP") repaired.
+domains/biology/biochemistry/lipoproteins-structure-and-transport.md	how	4	0	ok
+domains/biology/biochemistry/lipoproteins-structure-and-transport.md	mis	8	0	ok
+domains/biology/biochemistry/membrane-lipids-and-lipoproteins.md	how	4	0	ok
+domains/biology/biochemistry/membrane-lipids-and-lipoproteins.md	mis	8	0	ok
+domains/biology/biochemistry/membrane-lipids-and-lipoproteins.md	old:q:3	1	0	fixed	Style only: typo "its primarily role" -> "its primary role".

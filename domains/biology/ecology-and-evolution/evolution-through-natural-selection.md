@@ -31,6 +31,15 @@ status: validated
 ## Core Idea
 Natural selection acts on heritable variation within populations: individuals with traits better suited to their environment tend to survive and reproduce more successfully, passing advantageous traits to offspring. Over generations, this differential reproductive success leads to changes in allele frequencies and adaptation. Natural selection is the primary mechanism driving evolution and the diversity of life.
 
+## How It's Best Learned
+Run a hand simulation of the beetle example: start with 10 green and 10 brown beads on a brown cloth, let a partner pick off the most visible beads each round, and have each survivor add one bead of its own color. Record the color counts per round. Then rewrite the result as the three conditions (variation, heritability, differential reproduction) and say what happens if you drop heritability.
+
+## Common Misconceptions
+- Organisms develop new traits because they need them. (Selection acts on variation that is already present. The antibiotic does not create resistance; it removes the bacteria that lack it.)
+- Individual organisms evolve during their lives. (An individual's inherited genes stay essentially the same, apart from rare somatic mutations. Evolution is a change in allele frequencies in a population across generations.)
+- Natural selection produces perfect organisms. (Selection can only work with available variation and current conditions, and it often involves trade-offs. A trait favored in one environment can be harmful in another.)
+- Survival of the fittest means the strongest win. (Fitness means reproductive success. A weak animal that leaves many offspring has higher fitness than a strong one that leaves few.)
+
 ## Questions
 
 ```yaml

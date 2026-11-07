@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Phospholipids are synthesized via the Kennedy pathway: glycerol-3-phosphate is acylated to form phosphatidic acid, then dephosphorylated to diacylglycerol (DAG). DAG is used to synthesize phosphatidylcholine and phosphatidylethanolamine. Remodeling enzymes alter fatty acid composition post-synthesis, generating diverse molecular species.
 
+## How It's Best Learned
+Put phosphatidic acid in the center of a page and draw its two exits: to DAG and to CDP-diacylglycerol. For each product at the end of a branch, circle the piece that carries the CDP before the final joining step: the head group (CDP-choline, CDP-ethanolamine) or the lipid (CDP-diacylglycerol). Then add the Lands cycle as a loop that swaps the sn-2 chain on a finished lipid.
+
+## Common Misconceptions
+- CTP always activates the head group. (In the DAG branch the head group is activated as CDP-choline or CDP-ethanolamine; in the other branch the lipid itself is activated as CDP-diacylglycerol.)
+- Both fatty acid chains in a phospholipid are usually the same. (The sn-1 position usually carries a saturated chain and sn-2 often an unsaturated one, and remodeling can change sn-2 further.)
+- Each membrane makes its own phospholipids where they will be used. (Most phospholipid synthesis happens on the cytosolic face of the endoplasmic reticulum, and lipids are then moved to other membranes.)
+- Phosphatidic acid is a minor side product. (It is the shared precursor from which both main branches of phospholipid synthesis start.)
+
 ## Questions
 
 ```yaml

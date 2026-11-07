@@ -29,6 +29,12 @@ Cholesterol is synthesized primarily in the liver from acetyl-CoA through a 30+ 
 ## How It's Best Learned
 Outline the cholesterol synthesis pathway from acetyl-CoA to mevalonate to cholesterol, highlighting the major branches (squalene synthesis, steroid nucleus formation). Understand why statins are so effective at lowering cholesterol and cardiovascular disease risk.
 
+## Common Misconceptions
+- HMG-CoA reductase catalyzes the first step of cholesterol synthesis. (Two condensations come first: acetyl-CoA to acetoacetyl-CoA, then to HMG-CoA.)
+- Statins lower cholesterol by blocking its absorption from food. (Statins inhibit HMG-CoA reductase, a synthesis step; absorption blockers such as ezetimibe are a different drug class.)
+- Any HMG-CoA in the liver is headed for cholesterol. (Cytosolic HMG-CoA enters the mevalonate pathway, while mitochondrial HMG-CoA in the liver is split to acetoacetate during ketone body synthesis.)
+- The four rings of cholesterol are aromatic, like benzene. (The steroid rings are almost fully saturated, with one carbon-carbon double bond and no aromatic ring.)
+
 ## Questions
 
 ```yaml
@@ -57,7 +63,7 @@ Outline the cholesterol synthesis pathway from acetyl-CoA to mevalonate to chole
   answer: false
   explanation: "Cholesterol inhibits HMG-CoA reductase activity through allosteric feedback inhibition (direct product inhibition) and by trapping SREBP in the ER membrane (preventing transcription upregulation). Phosphorylation of HMG-CoA reductase does inactivate it, but this is part of the energy-sensing (AMPK-mediated) regulation, not the cholesterol-feedback mechanism. The multi-level regulation includes allosteric, transcriptional (SREBP), and covalent (phosphorylation) mechanisms acting together."
 
-- question: "Because NADPH is consumed in cholesterol synthesis, cells cannot synthesize cholesterol when they are in a low-energy state."
+- question: "In a low-energy state, AMPK phosphorylates and inactivates HMG-CoA reductase, so cholesterol synthesis slows."
   type: true-false
   answer: true
   explanation: "NADPH is required as a reducing agent (two molecules per mevalonate formed at the HMG-CoA reductase step). When the cell is in a low-energy state, AMPK becomes active and phosphorylates HMG-CoA reductase, inactivating it. This links cholesterol synthesis to the cell's energy status — when energy is scarce, the energetically costly cholesterol synthesis pathway is switched off. Both NADPH availability and the covalent regulation by AMPK contribute to this energy-dependent control."

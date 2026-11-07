@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 A sequence {Mₙ} is a martingale if E[Mₙ₊₁ | ℱₙ] = Mₙ almost surely, where ℱₙ is the sigma-algebra of information up to time n. Martingales have zero expected change given current information—they are 'fair games.' The optional stopping theorem, martingale convergence theorem, and inequalities (Doob, Markov) are powerful tools for analyzing random processes.
 
+## How It's Best Learned
+Solve gambler's ruin with optional stopping. A symmetric walk starts at k and stops at T, the first time it hits 0 or N. From E[M_T] = k you get P(hit N) = k/N. Then apply the same theorem to the martingale Mₙ² − n to get E[T] = k(N − k). Finally, stop the walk from 0 the first time it hits +1. Then M_T = 1 but M₀ = 0, which shows why the theorem needs its conditions.
+
+## Common Misconceptions
+- A martingale must have independent increments. (The increments need only have conditional mean zero. Their size can depend on the past, as when a gambler chooses each stake from the history.)
+- Optional stopping gives E[M_T] = E[M₀] for any stopping time that is finite with probability 1. (The walk stopped at its first visit to +1 has finite T almost surely, yet E[M_T] = 1. The theorem needs a condition such as a bounded T or bounded increments with E[T] < ∞.)
+- Martingales and Markov chains are the same idea. (A Markov chain with drift is not a martingale. A fair game whose stakes depend on the full history is a martingale but not, in general, a Markov chain in Mₙ alone.)
+
 ## Questions
 
 ```yaml

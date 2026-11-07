@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 A family of distributions {f(x|θ)} belongs to the exponential family if it has the form f(x|θ) = h(x) exp{Σⱼ ηⱼ(θ)Tⱼ(x) - A(θ)}, where A(θ) is the log-partition function. Examples include normal, binomial, Poisson, and exponential. The exponential family is mathematically convenient: sufficient statistics are easy to identify, conjugate priors exist, and maximum likelihood estimators often have closed forms.
 
+## How It's Best Learned
+Rewrite one familiar distribution into canonical form by taking logs. For Bernoulli(p), p^x(1−p)^{1−x} = exp{x·log(p/(1−p)) + log(1−p)}, so η = log(p/(1−p)) and A(η) = log(1 + e^η). Differentiate: A′(η) = e^η/(1 + e^η) = p and A″(η) = p(1 − p), the familiar mean and variance. Then try Uniform(0, θ) and see why it cannot fit the form.
+
+## Common Misconceptions
+- The exponential family means the exponential distribution. (The exponential distribution is one member. The family also includes the normal, Poisson, binomial with fixed n, and gamma.)
+- Any density containing an exponential belongs to the family. (The parameter and data must interact through a sum ηⱼ(θ)Tⱼ(x), and the support cannot depend on θ. The Laplace density with unknown location, e^{−|x−μ|}/2, does not fit.)
+- E[T(X)] = A′ holds for the derivative in any parameter. (The identity uses the natural parameter η. In another parameter θ, the chain rule brings in a factor η′(θ).)
+
 ## Questions
 
 ```yaml

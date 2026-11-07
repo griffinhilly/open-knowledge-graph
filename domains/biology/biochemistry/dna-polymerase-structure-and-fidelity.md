@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 DNA polymerases catalyze the nucleophilic attack of the 3'-OH on the α-phosphate of incoming dNTPs, releasing pyrophosphate and forming a phosphodiester bond. Fidelity is achieved through base-pair geometry constraints and 3'→5' exonuclease proofreading, reducing error rates to ~10⁻10 per base. Pol III synthesizes the leading strand continuously and lagging strand via Okazaki fragments.
 
+## How It's Best Learned
+Draw the primer end and an incoming dNTP, with an arrow from the 3'-OH to the α-phosphate and PPi leaving. Then build an error budget from the rates in this topic: geometric selection at about 10⁻⁵, times about 10⁻² for proofreading, gives about 10⁻⁷. Multiplying by mismatch repair brings the total near 10⁻¹⁰. Ask which factor rises if the exonuclease domain is broken.
+
+## Common Misconceptions
+- DNA polymerase can start a new strand on a bare template. (Replicative polymerases need a primer with a free 3'-OH; primase supplies a short RNA primer.)
+- The 3'→5' exonuclease means the polymerase can also build DNA in the 3'→5' direction. (Synthesis runs 5'→3' only; the exonuclease removes nucleotides from the 3' end during proofreading.)
+- Each nucleotide addition is powered by ATP hydrolysis. (The energy comes from the incoming dNTP itself, through release and hydrolysis of its pyrophosphate.)
+- Correct pairing is chosen mainly by the extra hydrogen bonds of a correct pair. (A large part of selection comes from the active site closing only around a pair with correct Watson-Crick shape.)
+
 ## Questions
 
 ```yaml

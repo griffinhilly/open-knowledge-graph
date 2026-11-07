@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 The p-adic numbers ℚ_p are the completion of ℚ with respect to the p-adic metric. They provide an alternative geometric intuition where 'closeness' is measured by divisibility: two numbers are close if their difference is highly divisible by p. This enables new perspectives on solving Diophantine equations.
 
+## How It's Best Learned
+Draw the 3-adic tree for the integers 0 to 26. Branch first by residue mod 3, then mod 9, then mod 27. Two integers are within 3⁻ᵏ of each other exactly when they share the first k branches, so each node is a ball. Then compute absolute values of fractions, such as |50/27|₃ = 27, to see that powers of p in the denominator make numbers large.
+
+## Common Misconceptions
+- Every rational number has p-adic absolute value at most 1. (Only those whose reduced denominator is not divisible by p. For example, |1/9|₃ = 9.)
+- p-adic balls overlap the way intervals on the real line do. (In an ultrametric space two balls are either disjoint or one contains the other, and every point of a ball is a center of it.)
+- A rational number's p-adic sizes have nothing to do with its ordinary size. (For nonzero rational x, the ordinary absolute value times all the |x|_p equals 1. For x = 12: 12 · (1/4) · (1/3) = 1.)
+
 ## Questions
 
 ```yaml

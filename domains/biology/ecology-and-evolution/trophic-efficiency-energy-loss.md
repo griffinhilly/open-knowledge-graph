@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Energy transfer between trophic levels is inefficient; typically only 5-20% of energy is retained at each step, with the remainder lost as heat and metabolic respiration. This limits food chain length and explains why ecosystems support more herbivores than carnivores by biomass. Efficiency varies with organism metabolism, activity level, and diet digestibility.
 
+## How It's Best Learned
+Split one transfer into three steps and multiply them, using example values. Suppose herbivores eat 30% of plant production, assimilate 50% of what they eat, and turn 20% of that into new tissue: 0.3 × 0.5 × 0.2 = 3%. Then drop the last step to 2%, closer to a mammal that spends energy on body heat, and the transfer falls to 0.3%.
+
+## Common Misconceptions
+- The energy lost between levels is destroyed. (It leaves the food chain mostly as heat from respiration. The energy still exists, but organisms can no longer use it.)
+- The 10% rule is a fixed law of nature. (It is a rough average. Real transfer efficiencies range from about 5% to 20% and are often higher for ectotherms than for endotherms.)
+- A biomass pyramid is wider at the bottom in every ecosystem. (In some aquatic systems, phytoplankton turn over so fast that their standing biomass is smaller than that of the zooplankton eating them. The energy pyramid still narrows upward.)
+
 ## Questions
 
 ```yaml

@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Cloud formation across planets depends on atmospheric composition, available condensation nuclei, and thermodynamic conditions. Different worlds host fundamentally different cloud compositions: water ice on Earth, dry ice on Mars, sulfuric acid on Venus, methane on Titan. Cloud properties directly control planetary albedo and radiative balance, making them critical for climate and habitability.
 
+## How It's Best Learned
+Draw Jupiter's temperature-pressure profile and overlay the condensation curves for ammonia, ammonium hydrosulfide and water. Mark each crossing as a cloud base. Then shift the whole profile warmer and see each cloud base move up to lower pressure. Repeat the exercise with Venus and sulfuric acid, and with Titan and methane.
+
+## Common Misconceptions
+- Clouds on other planets are made of water, like Earth's. (Cloud composition depends on which volatiles are present and the local temperature: sulfuric acid on Venus, CO₂ and water ice on Mars, methane on Titan, ammonia at Jupiter's top deck.)
+- Clouds appear the moment the gas reaches saturation. (Condensation usually needs nuclei to start on. Without them, the vapor can become supersaturated before droplets or crystals form.)
+- Jupiter's deeper cloud layers are made of denser material that sank. (Each layer sits where the temperature crosses that substance's condensation curve. Water condenses deepest because it condenses at the highest temperature.)
+
 ## Questions
 
 ```yaml

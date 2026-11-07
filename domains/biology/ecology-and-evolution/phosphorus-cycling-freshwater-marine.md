@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 Phosphorus cycles between organisms and minerals; unlike nitrogen, no atmospheric reservoir exists. In freshwater, phosphorus is typically limiting and can trigger eutrophication from fertilizer runoff. In marine systems, phosphorus is sequestered in sediments but released through upwelling. The phosphorus cycle is slower than nitrogen cycling.
 
+## How It's Best Learned
+Set up a bottle bioassay on paper or in a lab: four jars of lake water get nothing, added nitrogen, added phosphorus, or both. Predict which jars turn green, then repeat the prediction for coastal seawater. Then draw a lake and an ocean side by side and mark where phosphorus enters, where it settles, and what brings it back to sunlit water.
+
+## Common Misconceptions
+- Lake algal blooms are mainly caused by nitrogen, since fertilizer is rich in nitrogen. (In most lakes phosphorus is the limiting nutrient. Some cyanobacteria can fix their own nitrogen, so cutting nitrogen alone often fails to stop blooms.)
+- Once phosphorus runoff stops, a eutrophic lake recovers quickly. (Phosphorus stored in lake sediments can return to the water, especially when bottom water loses oxygen. Recovery can take years or longer.)
+- Every part of the ocean is limited by nitrogen. (Nitrogen limits many surface waters, but some regions, such as parts of the Mediterranean, are limited by phosphorus.)
+
 ## Questions
 
 ```yaml

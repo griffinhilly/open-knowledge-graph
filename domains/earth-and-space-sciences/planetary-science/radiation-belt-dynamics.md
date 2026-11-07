@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 Charged particles trapped in planetary magnetic fields form radiation belts. Particles spiral along field lines and undergo azimuthal drift around the planet, creating long-lived, quasi-stable populations. Radiation belt intensity varies with solar wind conditions and is driven by both internal acceleration mechanisms and external solar forcing. Jupiter's intense belts dwarf Earth's Van Allen belts.
 
+## How It's Best Learned
+Work the mirror condition: a particle with equatorial pitch angle α mirrors where B = B_eq / sin²α. At α = 30°, it turns back where the field is four times its equatorial value. If the field at the top of the atmosphere is 50 times B_eq, the loss cone is sin⁻¹(1/√50) ≈ 8°. Then rank gyration, bounce and drift from fastest to slowest.
+
+## Common Misconceptions
+- Once a particle is trapped in a radiation belt, it stays there for good. (Waves and collisions scatter some particles into the loss cone, where they mirror below the top of the atmosphere and are lost. Storms can empty parts of the outer belt within hours.)
+- Radiation belts are filled by solar wind particles pouring straight in. (Inner belt protons come mainly from cosmic ray albedo neutron decay. Outer belt electrons are largely accelerated inside the magnetosphere by waves and inward transport.)
+- The magnetic mirror speeds a particle up as it reverses. (A static magnetic field does no work, so the particle's speed stays the same. The mirror only shifts energy from motion along the field to motion around it.)
+
 ## Questions
 
 ```yaml

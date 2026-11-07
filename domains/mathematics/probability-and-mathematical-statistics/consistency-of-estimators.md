@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 An estimator θ̂ₙ is consistent if θ̂ₙ converges in probability to θ as n → ∞. Consistency is a minimum requirement for reasonable estimators—as sample size grows, the estimator should approach the truth. Under regularity conditions, MLEs and method of moments estimators are consistent.
 
+## How It's Best Learned
+Prove consistency straight from the definition for Uniform(0, θ) and its maximum X₍ₙ₎. Since P(X₍ₙ₎ < θ − ε) = ((θ − ε)/θ)ⁿ → 0, the estimator is consistent even though E[X₍ₙ₎] = nθ/(n+1) is biased. Then contrast the estimator X₁ for a population mean, which is unbiased at every n but never concentrates, so it fails to be consistent.
+
+## Common Misconceptions
+- An unbiased estimator is consistent. (Using only the first observation X₁ to estimate μ is unbiased, but its spread does not shrink with n, so it is not consistent.)
+- If θ̂ₙ is consistent, its bias and mean squared error must go to zero. (Convergence in probability does not control expectations. An estimator equal to θ with probability 1 − 1/n and to n² with probability 1/n is consistent, but its mean diverges.)
+- Consistency means each extra observation moves the estimate closer to θ. (The error need not shrink monotonically. A particular sample of 101 can give a worse estimate than the first 100 did.)
+
 ## Questions
 
 ```yaml

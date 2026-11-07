@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The manor was the basic economic and social unit of medieval Europe, consisting of a lord's demesne (land farmed for his profit) and peasant holdings. Peasants owed labor services (corvée) and rents in produce to their lord in exchange for protection and the right to farm their plot. The manorial system bound peasants to the land (serfdom) and created stable, if oppressive, rural communities organized around agricultural cycles and seasonal labor.
 
+## How It's Best Learned
+Draw a plan of one manor: the lord's demesne, three open fields cut into strips, the commons, the mill, the church, and the village. Give one villein household strips in each field and follow it through a year, marking when it works the demesne, pays dues, uses the mill, and grazes animals on the commons. Then rotate the three fields to the next year and see what changes.
+
+## Common Misconceptions
+- Every peasant on a manor was a serf. (Manors usually held both unfree villeins and free tenants. Free tenants paid rent but owed fewer labor services and could use the royal courts in England.)
+- Lords could demand whatever they wanted from their peasants. (Obligations were set by custom and recorded in the manor court. Peasants could and did appeal to custom when lords tried to raise them.)
+- Every village followed the same three-field pattern. (Field systems varied with soil, climate, and region. Some areas used two fields, and others had few open fields at all.)
+
 ## Questions
 
 ```yaml

@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Radiometric dating of meteorites and lunar samples constrains planetary accretion timescales to typically 1–10 million years. Isotopic anomalies reveal the sequence and timing of accretion events, fractionation between inner and outer solar system material, and the presence of short-lived radioactive isotopes that influenced early planetary heating.
 
+## How It's Best Learned
+Build an internal isochron by plotting ²⁶Mg/²⁴Mg against ²⁷Al/²⁴Mg for several minerals in one sample. The slope gives that sample's initial ²⁶Al/²⁷Al. If it is one quarter of the CAI value, two half-lives have passed, about 1.4 million years. Then place CAIs, chondrules, iron meteorite parent bodies and Earth on one timeline.
+
+## Common Misconceptions
+- Short-lived chronometers like Al-Mg give absolute ages directly. (They give ages relative to an anchor such as CAIs. Converting to an absolute age requires dating the anchor with a long-lived system such as U-Pb.)
+- Undifferentiated chondrites look primitive, so their parent bodies must be the oldest. (Chondrite parent bodies accreted later than iron meteorite parent bodies, which is why too little Al-26 remained to melt them. Their primitive texture reflects little heating, not greater age.)
+- The planets all finished forming at about the same time. (Small differentiated planetesimals formed within a few million years of CAIs, while Earth's final assembly took tens of millions of years.)
+
 ## Questions
 
 ```yaml

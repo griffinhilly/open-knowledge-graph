@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Toxic substances (metals, persistent organic pollutants, radionuclides) accumulate in food webs; bioaccumulation is uptake and retention from the environment, while biomagnification is the increase in toxin concentration at higher trophic levels. Because energy decreases up food chains but toxins do not proportionally decrease, top predators accumulate extremely high concentrations. This disproportionate toxin load can cause population declines even at low environmental levels.
 
+## How It's Best Learned
+Draw an energy pyramid and a toxin pyramid for the same food chain side by side. Give energy 10,000, 1,000, 100 and 10 units, and give the toxin a factor of 10 increase per step: 0.04 ppm in zooplankton, 0.4 in small fish, 4 in large fish, 40 in ospreys. One pyramid narrows upward and the other widens. Then explain the difference using persistence and the amount of prey eaten.
+
+## Common Misconceptions
+- Bioaccumulation and biomagnification are the same thing. (Bioaccumulation is buildup within one organism over its life. Biomagnification is the rise in concentration from one trophic level to the next.)
+- A pollutant at a concentration harmless to algae is harmless to the ecosystem. (Persistent pollutants can reach much higher concentrations in top predators, where the effects appear.)
+- Any toxic chemical will biomagnify. (Biomagnification needs a substance that resists breakdown and excretion. Many water-soluble or easily metabolized chemicals do not build up through food chains.)
+- Predators carry more toxin only because they are bigger. (The main causes are high trophic position, long lifespan and retention in tissues such as fat. Body size alone does not explain it.)
+
 ## Questions
 
 ```yaml

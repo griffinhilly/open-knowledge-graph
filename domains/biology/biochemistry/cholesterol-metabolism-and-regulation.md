@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Cholesterol synthesis is tightly regulated by SREBP (sterol regulatory element binding protein) signaling: high cholesterol represses HMG-CoA reductase expression, lowering synthesis. LDL-mediated uptake and esterification by ACAT also suppress synthesis. Cholesterol balance is maintained by controlling synthesis, absorption, and excretion via bile acids.
 
+## How It's Best Learned
+Draw a cell with an ER, a Golgi and a nucleus, and place SCAP-SREBP and Insig in the ER membrane. Run two scenarios on the drawing: high ER cholesterol, where the complex stays put, and low ER cholesterol, where it moves, is cut, and turns on genes. Then add a statin to the low-cholesterol scenario and follow the chain to LDL receptors on the cell surface.
+
+## Common Misconceptions
+- Statins lower blood LDL mainly because the liver makes less cholesterol. (The larger effect on blood LDL comes from SREBP activation, which adds LDL receptors that pull LDL out of the blood.)
+- SREBP itself senses cholesterol. (The sterol-sensing domain is on SCAP, the escort protein; SREBP is the transcription factor that SCAP carries.)
+- High cholesterol switches SREBP on to deal with the excess. (High cholesterol keeps SCAP-SREBP held in the ER by Insig; SREBP is activated when cholesterol is low.)
+- Converting cholesterol to cholesteryl esters with ACAT removes it from the body. (Esters are stored in lipid droplets inside cells; the main exit route is through bile into the feces.)
+
 ## Questions
 
 ```yaml
@@ -64,7 +73,7 @@ Cholesterol synthesis is tightly regulated by SREBP (sterol regulatory element b
 
 ## Explainer
 
-From your study of cholesterol synthesis, you know that the mevalonate pathway builds cholesterol from acetyl-CoA through a long series of reactions, with **HMG-CoA reductase** catalyzing the committed, rate-limiting step. The question this topic answers is: how does the cell know when it has enough cholesterol and needs to stop making more? The answer is an elegant feedback system centered on a transcription factor called **SREBP** (sterol regulatory element binding protein) that directly senses cholesterol levels in the endoplasmic reticulum membrane.
+From your study of cholesterol synthesis, you know that the mevalonate pathway builds cholesterol from acetyl-CoA through a long series of reactions, with **HMG-CoA reductase** catalyzing the committed, rate-limiting step. The question this topic answers is: how does the cell know when it has enough cholesterol and needs to stop making more? The answer is an elegant feedback system centered on a transcription factor called **SREBP** (sterol regulatory element binding protein), whose activation is controlled by cholesterol levels in the endoplasmic reticulum membrane.
 
 Here is the mechanism in simplified form. SREBP is synthesized as an inactive precursor embedded in the ER membrane, where it is held in place by an escort protein called **SCAP** (SREBP cleavage-activating protein). SCAP has a sterol-sensing domain — a region that physically binds cholesterol. When cholesterol levels in the ER membrane are high, cholesterol binds to SCAP and locks the SCAP-SREBP complex in the ER by promoting its interaction with an anchor protein called **Insig**. When cholesterol levels drop, SCAP's conformation changes, releasing it from Insig, and the SCAP-SREBP complex travels to the Golgi apparatus. There, two proteases (Site-1 and Site-2 proteases) cleave SREBP, releasing its active fragment, which enters the nucleus and turns on genes for cholesterol synthesis — including HMG-CoA reductase — and for LDL receptor expression. The result is a clean negative feedback loop: low cholesterol activates synthesis, and high cholesterol shuts it down.
 

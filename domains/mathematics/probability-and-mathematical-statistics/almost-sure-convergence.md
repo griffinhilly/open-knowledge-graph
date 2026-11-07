@@ -22,7 +22,15 @@ status: validated
 # Almost Sure Convergence
 
 ## Core Idea
-A sequence {Xₙ} converges almost surely to X if P(lim_{n→∞} Xₙ = X) = 1, equivalently P({ω: lim_{n→∞} Xₙ(ω) = X(ω)}) = 1. This is the strongest form of convergence, meaning the pointwise limit exists for all ω except on a set of probability zero.
+A sequence {Xₙ} converges almost surely to X if P(lim_{n→∞} Xₙ = X) = 1, equivalently P({ω: lim_{n→∞} Xₙ(ω) = X(ω)}) = 1. This is a strong form of convergence (it implies convergence in probability), meaning the pointwise limit exists for all ω except on a set of probability zero.
+
+## How It's Best Learned
+Work on Ω = [0,1] with uniform probability so every random variable is a function you can sketch. Draw Xₙ = 1 on [0,1/n] and 0 elsewhere: each path is eventually 0 except at ω = 0, a null set. Then draw the "typewriter" sequence of indicator blocks of width 1/k sweeping across [0,1]. Its probabilities of being nonzero shrink, yet every path hits 1 infinitely often.
+
+## Common Misconceptions
+- Almost sure convergence means Xₙ(ω) → X(ω) for every single ω. (A set of exceptional outcomes is allowed as long as it has probability zero, and such a set can even be uncountable.)
+- If P(|Xₙ − X| > ε) → 0 for every ε, each sample path must eventually settle down. (That is convergence in probability. The typewriter sequence satisfies it while no path converges.)
+- If Σₙ P(|Xₙ − X| > ε) diverges, then Xₙ cannot converge almost surely. (The converse direction of Borel–Cantelli needs independence. Xₙ = 1 on [0,1/n] has divergent sum Σ 1/n but still converges to 0 almost surely.)
 
 ## Questions
 

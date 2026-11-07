@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The Crusades (1096–1291) were military expeditions launched by Popes and European rulers to recover the Holy Land from Islamic control, framed as sacred wars that promised spiritual salvation. Motivations mixed piety, economic opportunity, and geopolitical ambition; consequences included massive loss of life, profound cultural contact, trade expansion, and intensified Christian–Muslim antagonism. The Crusades fundamentally reshaped Mediterranean politics and left psychological scars lasting centuries.
 
+## How It's Best Learned
+Build a table with one row per kind of participant (a great lord, a poor knight, a Venetian merchant, a peasant, the pope) and columns for religious, economic, and political motives. Fill each cell from what that person stood to gain or lose. Then make a second table of consequences, split into short-term military results and long-term effects in Europe and the Middle East.
+
+## Common Misconceptions
+- Crusaders were mostly greedy adventurers using religion as an excuse. (Piety was a real motive for many. Crusading was costly and dangerous, and many participants sold or mortgaged land to go.)
+- The Crusades were a long string of Christian victories. (After the First Crusade took Jerusalem in 1099, most later expeditions failed to win or hold their main goals, and Jerusalem fell to Saladin in 1187.)
+- The Crusades were fought only between Christians and Muslims. (Crusading mobs killed Jewish communities in the Rhineland in 1096, and the Fourth Crusade attacked Christian Constantinople in 1204.)
+
 ## Questions
 
 ```yaml

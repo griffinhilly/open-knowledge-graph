@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Disturbances (fire, floods, storms, logging) reset community composition and initiate succession. The intermediate disturbance hypothesis suggests maximum diversity at intermediate frequencies—too little and competitors exclude others; too much and only colonizers persist. Succession patterns depend on disturbance intensity, frequency, and extent, and on environment and species traits. Understanding disturbance is critical for predicting responses to human activities and climate change.
 
+## How It's Best Learned
+Simulate a patch mosaic on a 5 × 5 grid. Each cell gains one year of age per round, and a die roll resets chosen cells to age 0 at a set rate. Run one high, one intermediate and one low rate for 20 rounds and tally the cells in young, middle and old age classes. The intermediate rate leaves the widest mix of ages, which is one proposed habitat basis for the intermediate disturbance hypothesis.
+
+## Common Misconceptions
+- Disturbance always damages an ecosystem. (Many communities depend on a recurring disturbance regime. Fire-adapted forests and prairies lose characteristic species when fire is removed.)
+- Suppressing fire protects a fire-adapted forest. (Suppression lets fuel and shade-tolerant species build up, which can make later fires more severe.)
+- A disturbance regime is described by how often disturbances happen. (Frequency is one part. Intensity, spatial extent and season also shape which species persist.)
+- Diversity peaks at intermediate disturbance in every ecosystem. (The hump-shaped curve is an idealization. Many systems show other patterns, so the hypothesis has to be tested case by case.)
+
 ## Questions
 
 ```yaml

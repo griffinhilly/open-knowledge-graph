@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Mineral compositions and crystal structures transform dramatically under the extreme pressures and temperatures of planetary interiors. These phase transitions alter density, elastic properties, and seismic velocities, allowing inference of interior composition and structure from geophysical data. Laboratory high-pressure experiments on candidate mantle materials constrain planetary interiors.
 
+## How It's Best Learned
+Draw a plot of pressure against depth for Earth's mantle and mark the olivine, wadsleyite, ringwoodite and bridgmanite-plus-ferropericlase fields on it. Then lay a seismic velocity profile beside it and match each velocity jump to a transition. Finally, redraw the pressure curve for a more massive planet and watch the same transitions move to shallower depths.
+
+## Common Misconceptions
+- A sharp seismic discontinuity means the mantle changes to a different material there. (The major discontinuities near 410 and 660 km depth are explained by phase transitions in rock of the same overall chemistry.)
+- A high-pressure phase has a different chemical formula from the mineral it came from. (Wadsleyite and ringwoodite have the same formula as olivine. At 660 km, ringwoodite splits into bridgmanite and ferropericlase, but the bulk chemistry of the rock does not change.)
+- Each phase transition happens at a fixed depth. (A transition happens at a particular pressure and temperature, so its depth moves up or down where the mantle is hotter or colder, and it differs between planets with different pressure gradients.)
+
 ## Questions
 
 ```yaml
@@ -34,7 +42,7 @@ Mineral compositions and crystal structures transform dramatically under the ext
     - "The boundary between the crust and the mantle (the Mohorovičić discontinuity)"
     - "A thermal boundary layer where temperature increases rapidly over a short depth interval"
   answer: 1
-  explanation: "The 410 km discontinuity corresponds precisely to the olivine-to-wadsleyite phase transition observed in laboratory experiments at ~13 GPa. The chemical composition does not change — only the crystal structure reorganizes into a denser packing. This is the core inferential tool of mineral physics: matching lab-measured phase transitions to seismic observations to infer interior composition. Option A is the common misconception — a compositional boundary would produce a gradual velocity change, not the sharp discontinuity associated with a phase transition."
+  explanation: "The 410 km discontinuity corresponds precisely to the olivine-to-wadsleyite phase transition observed in laboratory experiments at ~13 GPa. The chemical composition does not change — only the crystal structure reorganizes into a denser packing. This is the core inferential tool of mineral physics: matching lab-measured phase transitions to seismic observations to infer interior composition. Option A is the common misconception — the mantle's bulk chemistry does not change at 410 km, and the jump matches the pressure of the lab-measured olivine-to-wadsleyite transition."
 
 - question: "Scientists compare two rocky exoplanets with identical bulk compositions — one is Earth-sized, one is twice Earth's mass. What does mineral physics predict about their interiors?"
   type: multiple-choice

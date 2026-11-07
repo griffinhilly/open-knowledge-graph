@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Medieval religious art was theologically intentional, with images conveying doctrine, saints' lives, and spiritual truths to largely illiterate populations. Icons, manuscripts, churches, and sculptures were visual theology. Color, composition, and symbolism carried meaning; understanding these visual languages was essential to medieval religious experience.
 
+## How It's Best Learned
+Take one image, such as a Byzantine icon of Christ or a single stained-glass panel, and label every element you can find: halo, gold ground, figure size, color, gesture, objects held. Next to each label, write the claim it makes. Then set the image beside a Renaissance painting of the same subject. List what changed and what each artist wanted the viewer to see.
+
+## Common Misconceptions
+- Medieval religious images were made only to teach people who could not read. (Many works, such as illuminated manuscripts and complex typological windows, were made for learned clergy and wealthy patrons who could read the texts behind them.)
+- The Iconoclast Controversy was a dispute about artistic style. (It was about whether images of Christ and the saints could be venerated at all. Defenders distinguished honor shown to an image from the worship owed to God alone.)
+- Each color had one fixed meaning everywhere in medieval art. (Color conventions varied by region and period, and the same color could carry different meanings in different settings.)
+- Medieval artists were anonymous monks. (Many were lay professionals working in towns, and some signed their work.)
+
 ## Questions
 
 ```yaml
@@ -66,7 +75,7 @@ Medieval religious art was theologically intentional, with images conveying doct
 
 Medieval sacred art looks strange to modern eyes — flat figures, gold backgrounds, stylized faces — and that strangeness is the point. These images weren't failed attempts at realism; they were a **visual theological language** with precise conventions that a medieval viewer would have read as naturally as text. Understanding this language requires treating medieval images the way you'd treat a diagram: every element has a function, and the goal is communication, not decoration.
 
-From your knowledge of medieval manuscript illumination, you know that images were carefully constructed and expensive. That context helps explain why every choice was intentional. **Gold backgrounds** in icons and altarpieces don't represent sky or space — they represent the divine realm, timeless and without shadow. **Hierarchical scale** — Christ larger than apostles larger than ordinary people — communicates spiritual importance, not spatial distance. **Halos** identify holy figures; specific colors (Mary's blue, Christ's red and blue combination) were so standardized that viewers identified figures by color before face. The composition as a whole was often **typological**: Old Testament scenes placed beside New Testament counterparts to show that one prefigured the other, teaching the doctrine of Scripture's unified meaning.
+From your knowledge of medieval manuscript illumination, you know that images were carefully constructed and expensive. That context helps explain why every choice was intentional. **Gold backgrounds** in icons and altarpieces don't represent sky or space — they represent the divine realm, timeless and without shadow. **Hierarchical scale** — Christ larger than apostles larger than ordinary people — communicates spiritual importance, not spatial distance. **Halos** identify holy figures; specific colors (Mary's blue, Christ's red and blue combination) became conventions that helped viewers identify figures. The composition as a whole was often **typological**: Old Testament scenes placed beside New Testament counterparts to show that one prefigured the other, teaching the doctrine of Scripture's unified meaning.
 
 The **Iconoclast Controversy** of the 8th–9th centuries in Byzantium crystallized the theological stakes of this art. Iconoclasts argued that representing Christ in images was heresy — you couldn't depict the divine. Iconophiles responded with a crucial theological argument: because Christ was *fully human*, his human face could be depicted; to deny this was to deny the Incarnation. The image became a **theological statement about embodiment** — icons don't show an abstract divine being but the God who took on flesh. This debate explains why Byzantine icons follow such strict conventions: they aren't naturalistic portraits but carefully prescribed representations, each authorized by theological tradition.
 

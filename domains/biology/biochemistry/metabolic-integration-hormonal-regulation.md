@@ -38,6 +38,15 @@ status: validated
 ## Core Idea
 Metabolic homeostasis integrates glycolysis, gluconeogenesis, lipogenesis, fatty acid oxidation, and the citric acid cycle in response to hormonal signals and energy status. In the fed state (high glucose), insulin activates glycolysis, lipogenesis, and glycogenesis while suppressing gluconeogenesis and lipolysis. In the fasted state (low glucose), glucagon activates gluconeogenesis, lipolysis, and fatty acid oxidation while suppressing glycolysis and lipogenesis. Epinephrine and cortisol further mobilize glucose and fatty acids during stress. These coordinated responses are achieved through allosteric regulation, covalent modification of key enzymes, and transcriptional control of enzyme expression.
 
+## How It's Best Learned
+Draw three organs (liver, muscle, adipose tissue) side by side with blood between them. Fill in one copy for the fed state and one for the fasted state, marking each pathway as on or off and drawing arrows for glucose, fatty acids, and ketone bodies moving between organs. Then label each switch as allosteric, covalent, or transcriptional to see the three timescales.
+
+## Common Misconceptions
+- Each pathway is regulated on its own, so insulin just turns glycolysis up. (Insulin acts on many pathways at once, turning storage pathways on and the opposing breakdown pathways off to prevent futile cycles.)
+- Every tissue does the same thing in a given state. (In the fasted state the liver makes and exports glucose and ketone bodies, while muscle burns fatty acids and adipose tissue releases them.)
+- Ketone bodies are a sign of disease. (Ketone production is a normal response to prolonged fasting and gives the brain an alternative fuel; only very high, uncontrolled levels, as in diabetic ketoacidosis, are harmful.)
+- Epinephrine is a fasted-state hormone that works only when glucose is low. (Epinephrine responds to acute stress and mobilizes glucose and fatty acids whether a person is fed or fasted.)
+
 ## Questions
 
 ```yaml

@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Species diversity correlates strongly with annual rainfall and primary productivity across biogeographic regions. Tropical rainforests support high diversity; deserts and temperate grasslands support low diversity. This pattern reflects both energy availability and habitat heterogeneity. Climate change is altering these productivity-diversity relationships globally.
 
+## How It's Best Learned
+Chain two graphs: rainfall against productivity, then productivity against species richness. Sketch the second graph twice, once for regions across a continent and once for plots in a single fertilized prairie, and note where the two shapes differ. Then list the vertical layers of a rainforest and a grassland side by side to see the habitat-heterogeneity pathway apart from the energy pathway.
+
+## Common Misconceptions
+- Adding productivity to an ecosystem adds species. (Within a local community, extra nutrients often let a few fast-growing species take over. Fertilized grasslands can lose species as productivity rises.)
+- A pattern seen across continents will hold inside a single community. (Richness can rise with productivity across large regions and still peak or fall within one site. The relationship depends on scale.)
+- Rainfall raises diversity by itself. (Rainfall acts through productivity and habitat structure, and temperature, regional history, and area also shape diversity.)
+
 ## Questions
 
 ```yaml

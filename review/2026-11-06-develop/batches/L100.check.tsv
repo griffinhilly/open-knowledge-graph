@@ -1,0 +1,69 @@
+domains/earth-and-space-sciences/planetary-science/asteroids-composition-and-properties.md	how	3	0	ok
+domains/earth-and-space-sciences/planetary-science/asteroids-composition-and-properties.md	mis	8	1	fixed	Bullet 4 credited collisions with mixing types across the belt; belt-wide mixing is attributed to orbital/migration processes. Reworded and hedged.
+domains/earth-and-space-sciences/planetary-science/atmospheric-chemistry-planets.md	how	3	0	ok	Checked CH4 + 2O2 -> CO2 + 2H2O balances.
+domains/earth-and-space-sciences/planetary-science/atmospheric-chemistry-planets.md	mis	8	1	fixed	Bullet 2 said "the same UV" reaches Earth and Titan (Titan gets ~1% of Earth's flux) and implied UV strength is irrelevant. Now: UV sets rates, molecules set products; "sunlight".
+domains/earth-and-space-sciences/planetary-science/atmospheric-chemistry-planets.md	old:questions	0	0	ok	Note only: Q0 option/explanation say CH4 and O2 are mutually destroyed in "thousands of years"; CH4 lifetime in Earth's air is ~10 yr and O2 is not depleted. Not edited.
+domains/earth-and-space-sciences/planetary-science/atmospheric-circulation-planets.md	how	4	0	ok	Worked f = 2Omega sin(lat): Jupiter/Venus Omega ratio ~590, so ~2.8 orders of magnitude. Dishpan regimes correct.
+domains/earth-and-space-sciences/planetary-science/atmospheric-circulation-planets.md	mis	6	0	ok	Superrotation-by-waves stated firmly, but matches Explainer and consensus that eddies/waves drive it.
+domains/earth-and-space-sciences/planetary-science/atmospheric-dynamics-exoplanets.md	how	4	0	ok	Eastward offset -> peak before secondary eclipse: correct.
+domains/earth-and-space-sciences/planetary-science/atmospheric-dynamics-exoplanets.md	mis	6	0	ok
+domains/earth-and-space-sciences/planetary-science/atmospheric-escape-mechanisms.md	how	4	0	ok	Worked v_rms at 1000 K: H2 3.53 km/s, N2 0.94 km/s.
+domains/earth-and-space-sciences/planetary-science/atmospheric-escape-mechanisms.md	mis	8	0	ok
+domains/earth-and-space-sciences/planetary-science/atmospheric-escape-mechanisms.md	q:4:explanation	1	0	ok	Jeans parameter proportional to m; Earth lambda ~14 (H2) vs ~196 (N2), so tens of orders of magnitude. Correct.
+domains/earth-and-space-sciences/planetary-science/atmospheric-photochemistry.md	how	4	0	ok	Worked hc/240 nm = 5.17 eV vs O2 D0 ~5.1 eV; four Chapman reactions correct.
+domains/earth-and-space-sciences/planetary-science/atmospheric-photochemistry.md	mis	8	1	fixed	Bullet 2 said a molecule "responds only" to wavelengths able to break it; molecules absorb longer wavelengths without dissociating. Now "can be split only by".
+domains/earth-and-space-sciences/planetary-science/atmospheric-stability-convection.md	how	3	0	ok	Worked: dry parcel 10.2 C vs 13 C env (sinks); saturated 15 C vs 13 C (rises).
+domains/earth-and-space-sciences/planetary-science/atmospheric-stability-convection.md	mis	6	0	ok
+domains/earth-and-space-sciences/planetary-science/biosignatures-exoplanet-atmospheres.md	how	3	0	ok	O2 + CO without CH4 is the standard abiotic-O2 discriminant.
+domains/earth-and-space-sciences/planetary-science/biosignatures-exoplanet-atmospheres.md	mis	6	0	fixed	Precision only: ozone "tracks" O2 implied proportionality (O3 is nonlinear in O2); now "depends on".
+domains/earth-and-space-sciences/planetary-science/comets-structure-and-composition.md	how	4	0	ok
+domains/earth-and-space-sciences/planetary-science/comets-structure-and-composition.md	mis	6	0	ok
+domains/earth-and-space-sciences/planetary-science/core-crystallization-and-reversals.md	how	3	1	fixed	Stripe exercise said "spreading rate of 5 cm/yr"; spreading rate usually means full rate, which gives 2 Myr, not 1 Myr. Now specifies the plate moves away from the ridge at 5 cm/yr.
+domains/earth-and-space-sciences/planetary-science/core-crystallization-and-reversals.md	mis	8	0	ok
+domains/earth-and-space-sciences/planetary-science/crater-morphology-and-degradation.md	how	3	0	ok
+domains/earth-and-space-sciences/planetary-science/crater-morphology-and-degradation.md	mis	6	0	ok
+domains/earth-and-space-sciences/planetary-science/crater-scaling-laws-and-morphology.md	how	4	0	ok	Worked g ratio 6.06; 15-20 km -> 2.5-3.3 km; 1000^(1/3) = 10.
+domains/earth-and-space-sciences/planetary-science/crater-scaling-laws-and-morphology.md	mis	6	0	ok	Worked 2^(1/3) = 1.26.
+domains/earth-and-space-sciences/planetary-science/crater-scaling-laws-and-morphology.md	old:core	1	1	fixed	Core Idea called simple craters "dome-shaped"; they are bowl-shaped (as the Explainer says).
+domains/earth-and-space-sciences/planetary-science/crater-scaling-laws-and-morphology.md	old:q:1:explanation	1	1	fixed	Central-peak analogy named the "crown splash"; the rebound analog is the central jet.
+domains/earth-and-space-sciences/planetary-science/crustal-heat-flow-and-geotherms.md	how	4	0	ok	Worked 2.5 x 25 = 62.5 mW/m2; 62.5/1.5 = 41.7 K/km.
+domains/earth-and-space-sciences/planetary-science/crustal-heat-flow-and-geotherms.md	mis	6	0	ok
+domains/earth-and-space-sciences/planetary-science/disk-instability-giant-planet-formation.md	how	5	0	ok	Worked Q scalings; P = a^1.5: 11.2 yr at 5 AU, 354 yr at 50 AU.
+domains/earth-and-space-sciences/planetary-science/disk-instability-giant-planet-formation.md	mis	8	0	ok
+domains/earth-and-space-sciences/planetary-science/eruptive-styles-and-lava-rheology.md	how	3	1	fixed	Ranking four magmas was not determinable: the 45%-crystal basalt vs andesite/rhyolite order is ambiguous. Now ranks three melts and explains separately why the crystal-rich basalt is far stiffer than crystal-free basalt.
+domains/earth-and-space-sciences/planetary-science/eruptive-styles-and-lava-rheology.md	mis	6	1	fixed	Bullet 1 correction overcorrected: said viscosity and pressure "decide" explosivity, dismissing water content, which also matters. Belief now "is all that decides"; correction "also help decide".
+domains/earth-and-space-sciences/planetary-science/eruptive-styles-and-lava-rheology.md	old:core	1	1	fixed	Core Idea said explosive eruptions "dominate small bodies"; contradicts Explainer (lunar maria are effusive flood basalts). Now "small airless bodies can also erupt explosively". Note: Q1 explanation ("composition barely matters") is also overstated; not edited.
+domains/earth-and-space-sciences/planetary-science/exoplanet-atmospheric-composition-spectroscopy.md	how	4	0	ok	Worked H: 217 km (hot Jupiter), 8.4 km (Earth).
+domains/earth-and-space-sciences/planetary-science/exoplanet-atmospheric-composition-spectroscopy.md	mis	6	0	ok
+domains/earth-and-space-sciences/planetary-science/exoplanet-characterization-spectroscopy.md	how	4	0	ok	Worked 5.5 x 4/3.375 = 6.5; 5.5 x 16/64 = 1.4; 3 x 10% radius error = ~30%.
+domains/earth-and-space-sciences/planetary-science/exoplanet-characterization-spectroscopy.md	mis	6	0	ok
+domains/earth-and-space-sciences/planetary-science/exoplanet-characterization-spectroscopy.md	old:q:2:explanation	1	1	fixed	Said the radius valley was established from a bimodal density distribution; it was found from the radius distribution (Fulton et al. 2017).
+domains/earth-and-space-sciences/planetary-science/exoplanet-mass-radius-relation.md	how	4	0	ok	2^(1/3) = 1.26; 5 M_E rocky ~1.5 R_E consistent with Explainer.
+domains/earth-and-space-sciences/planetary-science/exoplanet-mass-radius-relation.md	mis	6	0	ok
+domains/earth-and-space-sciences/planetary-science/exoplanet-transmission-spectroscopy.md	how	4	0	fixed	Math correct (1%; 2x70000x1000/7e5^2 = 286 ppm). Clarity: labeled 70,000 and 700,000 km as radii so the step is not read as diameters.
+domains/earth-and-space-sciences/planetary-science/exoplanet-transmission-spectroscopy.md	mis	6	0	fixed	Hedge only: added "typically" to the ppm range (puffy planets can exceed it).
+domains/earth-and-space-sciences/planetary-science/fluvial-processes-planetary-surfaces.md	how	4	0	ok	Worked tau = 9.81 Pa (Earth), 3.71 Pa (Mars).
+domains/earth-and-space-sciences/planetary-science/fluvial-processes-planetary-surfaces.md	mis	6	0	fixed	Hedge only: Titan bedrock "is thought to be" water ice.
+domains/earth-and-space-sciences/planetary-science/giant-impact-hypothesis.md	how	4	0	ok	Grid works when filled (fission matches iron and isotopes but not angular momentum).
+domains/earth-and-space-sciences/planetary-science/giant-impact-hypothesis.md	mis	8	0	ok
+domains/earth-and-space-sciences/planetary-science/grand-tack-hypothesis.md	how	4	0	ok	Worked 1.5^(2/3) = 1.31; 5.2 x 1.31 = 6.8 AU.
+domains/earth-and-space-sciences/planetary-science/grand-tack-hypothesis.md	mis	6	0	ok
+domains/earth-and-space-sciences/planetary-science/habitable-zone-boundaries-constraints.md	how	4	0	ok	Worked sqrt(0.04) = 0.2; 0.95-1.67 AU -> 0.19-0.33 AU; T_eq 255 K.
+domains/earth-and-space-sciences/planetary-science/habitable-zone-boundaries-constraints.md	mis	6	1	fixed	Bullet 2 said the Sun is "30% brighter now than when it formed"; the young Sun was ~30% fainter (~70% of today), i.e. today is ~40% brighter. Fixed.
+domains/earth-and-space-sciences/planetary-science/impact-basin-mechanics.md	how	3	0	ok
+domains/earth-and-space-sciences/planetary-science/impact-basin-mechanics.md	mis	6	0	fixed	Hedge only: ring-forming mechanism "is thought to" be concentric faulting. Note: Explainer's claim that the impact thermal pulse explains later mare filling is doubtful; not edited.
+domains/earth-and-space-sciences/planetary-science/impact-cratering-mechanics.md	how	4	0	ok	Worked 0.5 x (2e4)^2 = 2e8 J/kg; /4.2e6 = 48.
+domains/earth-and-space-sciences/planetary-science/impact-cratering-mechanics.md	mis	8	0	ok
+domains/earth-and-space-sciences/planetary-science/impact-cratering-mechanics.md	old:q:3:explanation	1	1	fixed	Said rock flows "under megapascals" of shock pressure; fluid-like behavior needs gigapascals (Explainer: hundreds of GPa).
+domains/earth-and-space-sciences/planetary-science/impact-induced-outgassing.md	how	4	0	ok	Worked H/2R: Earth 0.063%, Mars 0.16% (Vickery-Melosh tangent-plane mass).
+domains/earth-and-space-sciences/planetary-science/impact-induced-outgassing.md	mis	6	0	ok	Note: older Q1/Q4 state the Moon-forming impact stripped the primordial atmosphere as settled; contested, not edited.
+domains/earth-and-space-sciences/planetary-science/interior-ocean-worlds.md	how	4	0	ok	1/5.2^2 = 1/27.
+domains/earth-and-space-sciences/planetary-science/interior-ocean-worlds.md	mis	6	0	ok
+domains/earth-and-space-sciences/planetary-science/late-heavy-bombardment.md	how	4	0	ok	29.46/11.86 = 2.48. Two-curve framing is good.
+domains/earth-and-space-sciences/planetary-science/late-heavy-bombardment.md	mis	6	1	fixed	Bullet 3 called the Nice-model LHB "the leading explanation" and limited the debate to timing; whether a spike happened at all is now widely disputed. Fixed. Note: Core Idea, Explainer, and Q2/Q3 still present the LHB spike as established fact (Q3 answer key depends on it); needs a separate revision.
+domains/earth-and-space-sciences/planetary-science/mantle-convection-planets.md	how	4	0	ok	Worked 6371/3390 = 1.88; d^3 -> x8; eta -> x10.
+domains/earth-and-space-sciences/planetary-science/mantle-convection-planets.md	mis	6	0	ok	Bullets are right; older Q1 option and Explainer conflate stagnant lid with convection stopping (note only).
+domains/earth-and-space-sciences/planetary-science/mantle-convection-planets.md	old:q:2:answer	1	1	fixed	Answer key said stagnant-lid transition makes outgassing cease (true); wrong (Mars is stagnant-lid yet volcanically active long after) and contradicted the new mis bullet 3. Answer set to false and explanation rewritten.
+domains/earth-and-space-sciences/planetary-science/mantle-convection-planets.md	old:q:4:answer	1	1	fixed	"More radiogenic heating per unit volume" for larger planets is wrong (per-volume heat depends on composition); now "relative to surface area". Same fix in Explainer paragraph 1.
+domains/earth-and-space-sciences/planetary-science/meteorites-and-planetary-samples.md	how	4	0	ok	Worked 4.567/4.468 = 1.022 half-lives -> 49.2% U left; Pb206*/U238 = 1.03.
+domains/earth-and-space-sciences/planetary-science/meteorites-and-planetary-samples.md	mis	6	0	ok

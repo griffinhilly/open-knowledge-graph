@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Mating patterns deviate from random when individuals preferentially mate with relatives (inbreeding) or with similar phenotypes (assortative mating). Inbreeding increases homozygosity and exposes deleterious recessive alleles. Assortative mating increases linkage disequilibrium and can drive sympatric divergence.
 
+## How It's Best Learned
+Start from Hardy-Weinberg with p = q = 0.5 (AA 0.25, Aa 0.50, aa 0.25) and apply one generation of selfing. Each heterozygote yields one quarter AA, one half Aa, one quarter aa, giving AA 0.375, Aa 0.25, aa 0.375. Recount the A allele: still 0.5. Then contrast with size-based mate choice, where only size loci gain homozygosity.
+
+## Common Misconceptions
+- Inbreeding changes allele frequencies. (By itself it only regroups existing alleles into more homozygotes. Allele frequencies change only if selection or drift then acts on those genotypes.)
+- Assortative mating is just another word for inbreeding. (Inbreeding is mating by relatedness and affects the whole genome. Assortative mating is mating by phenotype and mainly affects loci behind the chosen trait.)
+- Inbreeding creates harmful mutations. (It exposes recessive alleles that were already present in heterozygous carriers.)
+- Any non-random mating makes a population less variable. (Negative assortative mating, where unlike individuals pair, keeps heterozygosity higher and can maintain polymorphisms.)
+
 ## Questions
 
 ```yaml

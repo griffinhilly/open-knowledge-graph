@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 The molecular clock hypothesis assumes substitutions accumulate at relatively constant rates in DNA or proteins, allowing divergence time estimation. Rates vary among genes, lineages, and sites; relaxed clock models accommodate this variation. By calibrating molecular clocks with fossil dates, we estimate divergence times for groups lacking good fossils and test whether molecular predictions match paleontological dates.
 
+## How It's Best Learned
+Test a strict clock on made-up data. A fast lineage pair (rate 0.004 per site per million years per lineage) and a slow pair (rate 0.001) both split 20 million years ago, so they differ by 0.16 and 0.04. Date both with one shared rate of 0.0025: the fast pair comes out at 32 million years and the slow pair at 8. Then explain how a relaxed clock avoids this.
+
+## Common Misconceptions
+- One substitution rate works for all organisms. (Rates differ among genes, lineages, and sites, so a rate borrowed from one group can give wrong dates for another.)
+- Molecular dates are more trustworthy than fossil dates, or the reverse. (Each can be wrong for its own reasons. A disagreement is a reason to check rates, calibrations, and fossil gaps.)
+- Groups with no fossils cannot be dated. (They can be dated by placing them on a tree with calibrated nodes elsewhere and using a model that lets rates vary.)
+- A dating analysis gives a single exact age for each split. (Modern methods give a range of plausible ages that reflects uncertainty in rates and calibrations.)
+
 ## Questions
 
 ```yaml
@@ -41,7 +50,7 @@ The molecular clock hypothesis assumes substitutions accumulate at relatively co
   answer: 2
   explanation: "Sequence differences alone provide relative divergence — you can say lineage A and B are more or less divergent than lineage C and D, but not how many million years have passed. Converting sequence differences into absolute time requires knowing the substitution rate, and calibrating that rate requires an independent time anchor (typically a fossil). Without calibration, you have a relative timeline with no scale bar. Applying substitution rates from unrelated groups (e.g., vertebrates applied to insects) is unreliable because rates vary substantially across lineages."
 
-- question: "A phylogenetic study uses a strict molecular clock and finds that its divergence date estimates for rodents are systematically younger than paleontological evidence suggests, while whale estimates are too old. The most likely explanation is:"
+- question: "A phylogenetic study uses a strict molecular clock and finds that its divergence date estimates for rodents are systematically older than paleontological evidence suggests, while whale estimates are too young. The most likely explanation is:"
   type: multiple-choice
   options:
     - "The fossil calibrations were mistakenly set as maximum ages rather than minimum age constraints"
@@ -49,7 +58,7 @@ The molecular clock hypothesis assumes substitutions accumulate at relatively co
     - "Rodent genomes have fewer neutral sites available for substitution, reducing their apparent evolutionary rate"
     - "The strict clock model applies only to mitochondrial DNA; nuclear genes require a relaxed clock"
   answer: 1
-  explanation: "A strict clock assumes a single substitution rate across all lineages. Rodents are known to have faster molecular evolution than whales (shorter generation time, higher metabolic rate). If a single rate is forced onto the data, it will be a compromise — overestimating the time needed for slowly-evolving lineages (making whale dates too old) and underestimating the time for fast-evolving lineages (making rodent dates too young). Relaxed clock models solve this by allowing rates to vary across branches, producing more accurate estimates when rate heterogeneity is present."
+  explanation: "A strict clock assumes a single substitution rate across all lineages. Rodents are known to have faster molecular evolution than whales (shorter generation time, higher metabolic rate). If a single rate is forced onto the data, it will be a compromise — too slow for fast-evolving rodents, so their many substitutions are read as extra time (rodent dates too old), and too fast for slowly-evolving whales, so their few substitutions are read as less time (whale dates too young). Relaxed clock models solve this by allowing rates to vary across branches, producing more accurate estimates when rate heterogeneity is present."
 
 - question: "Fossil calibration points used in molecular dating are typically treated as minimum age constraints for the node they calibrate, because the true divergence event must have predated the first appearance of fossils from that lineage."
   type: true-false

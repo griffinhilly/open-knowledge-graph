@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Medieval heresy represented deviation from orthodox Christian doctrine and challenged ecclesiastical authority. Heretical movements—from Cathars to Waldensians—questioned Church hierarchy, material accumulation, and doctrinal claims. Their violent suppression through Inquisition and crusades reveals how medieval authorities conflated religious heterodoxy with political threat to social order.
 
+## How It's Best Learned
+Compare the Waldensians and the Cathars in a two-column chart: what each rejected, what each offered followers, and how the Church responded. Then ask of each claim, "Which Church power does this undercut?" For example, lay preaching undercuts the clergy's control of teaching, and rejecting sacraments undercuts the Church's role in salvation.
+
+## Common Misconceptions
+- Heretics were people who rejected Christianity. (Most saw themselves as true Christians. They were called heretics because they held views the Church had defined as wrong.)
+- The Inquisition was one central office that ran across Europe from the start. (Medieval inquisitions were commissions given to individual judges, often friars, working in particular regions. Their reach and methods varied by place and decade.)
+- Heresy was mostly a matter for learned theologians. (The movements that worried the Church most, such as the Waldensians and Cathars, drew ordinary lay men and women.)
+
 ## Questions
 
 ```yaml

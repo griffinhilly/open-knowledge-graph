@@ -31,6 +31,15 @@ status: validated
 ## Core Idea
 A metapopulation is a population of populations connected by dispersal across fragmented habitat patches. Local extinctions and recolonization drive metapopulation dynamics. Connectivity determines whether patches function as a connected network or as isolated islands; high connectivity promotes persistence, while fragmentation increases extinction risk.
 
+## How It's Best Learned
+Play a dice game on a row of ten patches, starting with five occupied. Each round, an occupied patch goes extinct on a roll of 1, and an empty patch next to an occupied one is colonized on a 5 or 6. Track occupancy for 15 rounds: single patches blink on and off while the total hovers. Then allow colonization only on a 6 and compare.
+
+## Common Misconceptions
+- A metapopulation is safe only if each local population is safe. (Local populations can all be doomed to eventual extinction while the network persists, because empty patches keep being recolonized.)
+- If most patches are still occupied, the metapopulation is healthy. (After connectivity drops, occupied patches may hold populations that have not yet crashed. This lag is called extinction debt.)
+- Every patch contributes equally to persistence. (Source patches produce surplus dispersers, while sink patches depend on immigration. Losing a source can matter more than losing several sinks.)
+- Metapopulations are only about numbers of individuals. (Dispersal between patches also carries alleles, which counters drift and inbreeding in small local populations.)
+
 ## Questions
 
 ```yaml

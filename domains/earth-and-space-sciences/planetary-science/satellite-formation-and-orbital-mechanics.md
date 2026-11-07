@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Planetary moons form through giant-impact accretion (Moon-forming impact), in situ formation in circumplanetary disks (Galilean moons), or capture of small bodies (outer moons). Orbital mechanics (Kepler's laws, orbital resonances, tidal evolution) determines satellite stability, migration, and long-term dynamical evolution.
 
+## How It's Best Learned
+Weigh Jupiter with Io. Use M = 4π²a³/(GP²) with a = 421,700 km and P = 1.769 days (152,842 s). The result is about 1.9 × 10²⁷ kg, which matches Jupiter's mass. Then sort a list of moons by distance, eccentricity, inclination and direction of orbit into the three formation routes, and explain each choice.
+
+## Common Misconceptions
+- A small body passing close to a planet can simply fall into orbit around it. (Under two-body gravity alone, an object arriving on an unbound path leaves again. Capture needs energy to be removed, by gas drag, a collision, or a third body.)
+- The Moon is drifting away because Earth's gravity is weakening. (Tides raised on Earth transfer angular momentum from Earth's spin to the Moon's orbit. The Moon recedes as Earth's day slowly lengthens.)
+- Moons split off from a fast-spinning planet. (This fission idea was once proposed for Earth's Moon, but the Earth-Moon system lacks the angular momentum it needs. Moons form from impact debris, in circumplanetary disks, or by capture.)
+
 ## Questions
 
 ```yaml

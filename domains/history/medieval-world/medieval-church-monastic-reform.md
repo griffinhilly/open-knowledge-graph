@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Throughout the medieval period, reformers sought to restore monastic discipline and purity, creating new religious orders with stricter rules. Reform movements like Cluny and later Cistercian communities challenged wealth accumulation and worldliness in the Church. These movements represented ongoing tension between ideals of spiritual purity and practical realities of powerful institutions, influencing broader ecclesiastical reform.
 
+## How It's Best Learned
+Draw the reform cycle as a loop: austere founding, reputation for holiness, gifts of land, wealth and comfort, criticism, a new stricter foundation. Then run Cluny (founded 910) and Cîteaux (founded 1098) through the loop, writing what each did at each stage. Asking where on the loop the friars fit is a good test of the model.
+
+## Common Misconceptions
+- Monastic reformers wanted to reform the whole Church and society. (Many began by trying to restore discipline within their own houses. Their influence on wider Church reform grew from that example, as with Cluny's links to the papal reform movement.)
+- Cluny and the Cistercians followed different rules. (Both followed the Rule of Saint Benedict. They differed in how they read it, especially on liturgy, labor, and decoration.)
+- Wealthy monasteries got rich through corruption. (Wealth came largely from donors who wanted monks' prayers. Holiness attracted gifts, so success itself brought the comfort critics attacked.)
+
 ## Questions
 
 ```yaml

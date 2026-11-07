@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Predators and prey coevolve in ongoing cycles: prey evolve defenses (toxins, spines, speed), selecting for predators with better foraging ability; predators then evolve better attack strategies. This reciprocal evolution can escalate into 'arms races' with increasingly elaborate defenses and counter-adaptations. Classic examples include tetrodotoxin resistance in pufferfish and snake predators, insect resistance to plant defenses, and prey escape strategies.
 
+## How It's Best Learned
+Make a table of sites where garter snakes and rough-skinned newts live together, with newt toxicity in one column and snake resistance in the other. Sketch the scatter plot and ask what pattern drift alone would give instead. Then, for each side, write what one failed encounter costs: a missed meal for the snake, death for the newt. That contrast is the life-dinner principle.
+
+## Common Misconceptions
+- Predators develop counter-adaptations because they need them to keep eating. (A counter-adaptation spreads only if heritable variation for it exists and its carriers leave more offspring. That takes many generations.)
+- An arms race ends when one side wins. (Costs of defense and resistance, plus shifting ecology, often keep both sides changing or hold them at a local balance rather than producing a clear winner.)
+- Wherever the two species meet, the arms race runs at the same intensity. (Intensity varies from place to place. Some sites have highly toxic newts and highly resistant snakes, while others have low levels of both.)
+
 ## Questions
 
 ```yaml
@@ -62,6 +70,7 @@ Predators and prey coevolve in ongoing cycles: prey evolve defenses (toxins, spi
 - question: "Explain the Red Queen hypothesis and what it predicts about the evolutionary trajectories of both predator and prey over time."
   type: short-answer
   answer: "The Red Queen hypothesis (named from *Through the Looking-Glass*: 'it takes all the running you can do, to keep in the same place') holds that coevolving species must continuously evolve just to maintain their current relative fitness. In a predator-prey arms race, when prey improve their defenses, poorly-adapted predators are eliminated and better-adapted predators increase in frequency — now placing stronger selection on prey to improve further. Neither species can 'win' permanently: any adaptation is eventually countered, requiring further adaptation. The predicted trajectory is continuous escalation of both defense and counter-offense, with neither lineage achieving a stable optimum. The practical result is the extraordinary diversity of antipredator defenses and predator attack strategies in nature — both are products of this reciprocal evolutionary ratchet."
+  explanation: "The answer is right because fitness in a coevolving pair is relative: each species' success depends on its traits compared with its partner's. An improvement on one side changes selection on the other, so standing still means falling behind. The newt and garter snake mosaic shows this locally, where toxicity and resistance rise together. Costs of defense and resistance limit how far any single trait escalates."
 ```
 
 ## Explainer

@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Every integer greater than 1 either is prime or factors uniquely into primes (up to order). The rigorous proof establishes existence via strong induction and uniqueness via Euclid's lemma: if p is prime and p|ab, then p|a or p|b.
 
+## How It's Best Learned
+Before the proof, look at the numbers 1, 5, 9, 13, ... (those ≡ 1 mod 4), which are closed under multiplication. There 9, 21 and 49 cannot be split further, yet 441 = 9 · 49 = 21 · 21. Then prove Euclid's lemma from Bézout: if p ∤ a, write px + ay = 1, multiply by b, and see that p divides both terms of pbx + aby = b.
+
+## Common Misconceptions
+- Unique factorization is obvious, because every factor tree of a number ends in the same primes. (It is a theorem about ℤ. In the system 1, 5, 9, 13, ..., the number 441 has two different factorizations into unsplittable pieces.)
+- Euclid's lemma works for any divisor, prime or not. (6 divides 4 · 9 = 36 but divides neither 4 nor 9.)
+- Leaving 1 out of the primes is an arbitrary convention. (If 1 counted as prime, 6 = 2 · 3 = 1 · 2 · 3 would be two different factorizations, and uniqueness would fail.)
+
 ## Questions
 
 ```yaml

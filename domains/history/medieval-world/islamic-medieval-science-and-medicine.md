@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 The Islamic world during the medieval period (9th–13th centuries) made revolutionary advances in mathematics (algebra, algorithm), astronomy, medicine, and philosophy, far exceeding contemporary European achievement. Scholars like al-Razi, al-Ghazali, and ibn Sina created systematic medical texts, optical theories, and logical frameworks. Islamic scientific achievements were gradually transmitted to Europe through translation movements and crusader contact, contributing essential knowledge to the later Scientific Revolution.
 
+## How It's Best Learned
+For each of three scholars, al-Khwarizmi, Ibn Sina, and Ibn al-Haytham, fill in a three-part card: what they inherited from Greek or Indian sources, what they changed or added, and how the work reached Latin Europe. Solving one simple equation, such as x² + 10x = 39, by al-Khwarizmi's method of completing the square shows how rule-based algebra differs from Greek geometry.
+
+## Common Misconceptions
+- Islamic scholars mainly stored Greek books for Europe to recover later. (They criticized and extended Greek work, adding new results in algebra, optics, and clinical medicine.)
+- The scholars of this period were all Arabs. (Many wrote in Arabic but came from Persian and Central Asian backgrounds, including Ibn Sina and al-Razi. Christian and Jewish scholars also took part, especially in translation.)
+- Science in the Islamic world ended after the 13th century. (Work continued after the Mongol conquests. Observatories at Maragha in the 13th century and Samarkand in the 15th produced important astronomy.)
+
 ## Questions
 
 ```yaml

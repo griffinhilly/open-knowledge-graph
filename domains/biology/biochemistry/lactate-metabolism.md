@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Lactate is produced from pyruvate during anaerobic glycolysis in muscle and RBCs, and is recycled to glucose in liver via gluconeogenesis (the Cori cycle). The lactate-to-pyruvate ratio reflects the NAD+/NADH ratio, coupling lactate metabolism to the energy state of the cell.
 
+## How It's Best Learned
+Keep an ATP ledger for one turn of the Cori cycle. Muscle turns one glucose into two lactate and gains 2 ATP. The liver turns two lactate back into one glucose and spends 6 ATP equivalents. The whole body is down 4 ATP for each turn. Then write the LDH reaction, pyruvate + NADH ⇌ lactate + NAD⁺, and predict how the lactate/pyruvate ratio moves when NADH builds up.
+
+## Common Misconceptions
+- Lactate is made only when muscle runs out of oxygen. (Red blood cells make it all the time, and muscle makes it whenever glycolysis outpaces pyruvate entry into mitochondria.)
+- Converting pyruvate to lactate produces ATP. (The LDH step makes no ATP; it regenerates NAD⁺ so that glycolysis can keep making ATP.)
+- Only the liver uses lactate. (Heart and oxidative muscle fibers also take up lactate, convert it to pyruvate, and oxidize it as fuel.)
+- Lactate left in the muscles causes soreness the next day. (Blood lactate falls back toward normal soon after exercise; evidence links delayed soreness mainly to muscle damage and inflammation.)
+
 ## Questions
 
 ```yaml

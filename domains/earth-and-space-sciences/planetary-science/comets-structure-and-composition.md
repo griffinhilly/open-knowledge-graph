@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Comets are icy bodies with volatile-rich nuclei (H₂O, CO₂, CH₄, NH₃ ices) embedded in rocky dust; they originate in cold outer regions of the protoplanetary disk and preserved pristine solar system material. Outgassing when approaching the Sun creates comas and tails, providing direct samples of early solar system composition.
 
+## How It's Best Learned
+Draw a comet's elliptical orbit with the comet at four points, two inbound and two outbound. At each point, sketch the straight ion tail pointing away from the Sun and the curved dust tail lagging along the orbit. Add a circle at about 3 AU where water ice starts to sublimate strongly. Note where the coma and tails should appear and fade.
+
+## Common Misconceptions
+- A comet's tail streams out behind it along its path, like smoke from a moving train. (The ion tail points away from the Sun. On the way out from the Sun, it points ahead of the comet.)
+- The nucleus is bright because it is made of shiny ice. (The nucleus is one of the darkest surfaces known, with an albedo near 4%. A comet looks bright because its coma and tails are huge and scatter sunlight.)
+- Comets are mostly ice with a little dust mixed in. (Dust-to-ice ratios are often near 1:1 or dust-dominated, which is why "icy dirtball" is as apt as "dirty snowball.")
+
 ## Questions
 
 ```yaml

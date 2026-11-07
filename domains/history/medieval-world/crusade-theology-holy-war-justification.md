@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Crusade theology portrayed warfare against Muslims as sanctified holy war, with papal blessing granting indulgences to participants. This framing combined religious ideology with practical warfare, legitimizing violence against external enemies and internal heretics. Crusade theology illustrated how religious authority could mobilize military force for geopolitical ends.
 
+## How It's Best Learned
+Write the three just war tests (legitimate authority, just cause, right intention) as column headings. Apply them first to the First Crusade, then to the Albigensian Crusade against Cathars in southern France, and note where the second case strains the tests. Then compare how a knight's penance worked before and after the crusade indulgence.
+
+## Common Misconceptions
+- Crusade theology was invented from nothing in 1095. (It built on Augustine's just war ideas and on older practices of penance and pilgrimage. The full crusade indulgence was the new element.)
+- An indulgence was permission to commit sins. (In medieval theology an indulgence reduced the temporal punishment owed for sins already committed. It did not license future sin, and confession was still expected.)
+- Crusades were aimed only at Muslims in the Holy Land. (The same framework was later applied to Baltic pagans, to heretics in southern France, and to political enemies of the papacy.)
+
 ## Questions
 
 ```yaml

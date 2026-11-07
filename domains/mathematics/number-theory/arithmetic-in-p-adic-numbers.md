@@ -19,6 +19,15 @@ status: validated
 ## Core Idea
 The p-adic numbers form a field with a metric structure that preserves arithmetic operations. Algebraic equations over ℚ_p can be analyzed using Hensel's lemma, which 'lifts' solutions from modular arithmetic to p-adic convergent sequences, enabling powerful solution techniques.
 
+## How It's Best Learned
+Lift a square root of 2 in ℚ_7 by hand, one digit at a time. Start from 3² ≡ 2 (mod 7), solve (3 + 7t)² ≡ 2 (mod 49) to get t = 1, so x = 10. Then solve (10 + 49s)² ≡ 2 (mod 343) to get s = 2. Check that 108² = 11664 = 34 · 343 + 2, and read off the digits 3, 1, 2.
+
+## Common Misconceptions
+- Any root modulo p lifts to a root in ℚ_p. (Hensel's lemma needs f'(r₀) ≢ 0 (mod p). The polynomial x² − p has the root 0 mod p but no root in ℚ_p, since v_p(x²) is even and v_p(p) = 1.)
+- A p-adic number with infinitely many digits, like ...6666 in ℚ_7, must be infinitely large. (Higher powers of p have smaller p-adic size, so the series converges. In ℚ_7 the expansion ...6666 equals −1.)
+- Square roots lift at p = 2 the same way as at odd primes. (The derivative 2x is always divisible by 2, so the basic lemma does not apply. A 2-adic unit is a square in ℚ_2 exactly when it is ≡ 1 (mod 8).)
+- If a polynomial has a root in every ℚ_p and in ℝ, it has a rational root. (This local-global step can fail outside quadratic forms. The polynomial (x² − 2)(x² − 17)(x² − 34) has roots in every ℚ_p and in ℝ but none in ℚ.)
+
 ## Questions
 
 ```yaml

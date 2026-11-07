@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Ecological speciation occurs when divergent selection on ecological traits (diet, habitat, body size) creates reproductive isolation without geographic separation. Competition drives populations toward different niches, divergent selection strengthens isolation, and assortative mating reinforces barriers. Classic examples include cichlid fish in lakes and host-race formation in insects.
 
+## How It's Best Learned
+Sketch a fitness curve against jaw shape with two peaks (benthic and planktonic feeders) and a valley between them. Then pair parents two ways: at random, and only with a similar jaw shape. Place the expected offspring of each pairing on the curve. Random mating keeps filling the valley with less fit intermediates, while assortative mating keeps most offspring on the peaks. The contrast shows why ecology and mate choice must work together.
+
+## Common Misconceptions
+- Disruptive selection alone will split a population into two species. (Unless mating becomes non-random, gene flow keeps producing intermediates and the two forms stay one species.)
+- Reinforcement is the name for hybrids being less fit. (Low hybrid fitness is the cost. Reinforcement is the evolution of stronger mating barriers that selection favors because of that cost.)
+- The apple and hawthorn races of *Rhagoletis* are already fully separate species. (They are host races with reduced interbreeding, and gene flow between them still occurs.)
+
 ## Questions
 
 ```yaml

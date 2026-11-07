@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 The Lebesgue integral extends integration to a larger class of functions using measure theory. For a non-negative measurable function f, ∫ f dμ is defined by partitioning the range (not the domain) and summing contributions weighted by measure. The Lebesgue integral has superior convergence theorems (Dominated Convergence, Monotone Convergence) compared to the Riemann integral.
 
+## How It's Best Learned
+Compute one integral by slicing the range. For f(x) = x on [0, 1], let φₙ take the value k/2ⁿ on [k/2ⁿ, (k+1)/2ⁿ). Each φₙ is a simple function below f, and ∫φₙ = (2ⁿ − 1)/2ⁿ⁺¹, which increases to 1/2. Then repeat the slicing for the Dirichlet function, where the set where f = 1 has measure zero.
+
+## Common Misconceptions
+- The Lebesgue integral gives different answers from the Riemann integral for ordinary functions. (For a Riemann integrable function on [a, b], the two integrals agree; Lebesgue extends the class of functions without changing old values.)
+- Every convergent improper Riemann integral is a Lebesgue integral. (∫₀^∞ sin(x)/x dx converges as an improper Riemann integral, but ∫₀^∞ |sin(x)/x| dx is infinite, so the function is not Lebesgue integrable.)
+- Partitioning the range means you never use the domain. (Each range slice is turned back into a preimage set in the domain, and the measure of that set does the work interval length did.)
+- Under the Monotone Convergence Theorem, the limit integral is finite. (The theorem allows ∫f dμ = ∞; it says ∫fₙ dμ increases to ∫f dμ, whatever that value is.)
+
 ## Questions
 
 ```yaml

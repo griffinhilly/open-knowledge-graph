@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Competition for limited resources (food, water, light, space, mates) shapes community structure. Species coexist through resource partitioning—using resources differently in space, time, or quality. Competitive exclusion occurs when one species outcompetes another for all shared resources. Competition intensity depends on resource scarcity, overlap in resource use, and competitor abilities.
 
+## How It's Best Learned
+Plot each species' use of one resource axis, such as seed size, as a bell curve and shade where the curves overlap. Slide the curves apart and ask when each species competes more with its own kind than with the other. Then compare beak-size histograms for finch populations living alone with those sharing an island, to see character displacement as two curves pushed apart.
+
+## Common Misconceptions
+- If two species use different resources, they must be competing strongly right now. (Partitioning can reflect competition in the past or causes unrelated to competition. Testing for current competition takes experiments, such as removing one species.)
+- Coexisting species must use completely separate resources. (Partial overlap is compatible with coexistence. What matters is that each species limits itself more than it limits the other.)
+- The stronger competitor wins in every habitat. (Competitive ability often depends on conditions. A species that dominates in one habitat can lose in another.)
+
 ## Questions
 
 ```yaml

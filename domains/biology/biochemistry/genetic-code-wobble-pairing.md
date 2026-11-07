@@ -19,6 +19,15 @@ status: validated
 ## Core Idea
 The genetic code is degenerate: 61 codons specify 20 amino acids, with most amino acids encoded by multiple codons (synonymous codons). Wobble pairing occurs at the third codon position: non-Watson-Crick base pairs are tolerated, allowing a single tRNA to recognize multiple codons. This explains why cells require only ~45 different tRNAs rather than 61.
 
+## How It's Best Learned
+Write each anticodon 5'→3' and line it up antiparallel under its codons. Then apply the wobble rules to the anticodon's 5' base. For example, 5'-IGC-3' reads the alanine codons GCU, GCC and GCA. 5'-GAA-3' reads the phenylalanine codons UUU and UUC. Then take the codon table and work out the fewest tRNAs that could read one four-codon box and one two-codon box.
+
+## Common Misconceptions
+- The wobble base is at the 3' end of the anticodon. (It is the anticodon's 5' base, which pairs with the codon's 3' base.)
+- At the wobble position any base can pair with any other. (Pairing follows rules: G pairs with C or U, U with A or G, and I with U, C or A.)
+- A change at the third codon position is always silent. (In two-codon boxes, switching between a pyrimidine and a purine can change the amino acid, as GAU for Asp versus GAA for Glu shows.)
+- A degenerate code is ambiguous. (Each sense codon specifies one amino acid; degeneracy means several codons can share an amino acid.)
+
 ## Questions
 
 ```yaml
@@ -55,7 +64,7 @@ The genetic code is degenerate: 61 codons specify 20 amino acids, with most amin
 - question: "Explain why the degeneracy of the genetic code is concentrated at the third codon position and how this relates to the number of tRNA species a cell needs."
   type: short-answer
   answer: "The third position of the codon (the wobble position) is geometrically more flexible than the first two — it tolerates non-Watson-Crick base pairs, especially when the tRNA anticodon has modified bases like inosine. This means a single tRNA can recognize multiple codons that differ only at their third base. Because most amino acids that are encoded by multiple codons differ only at position three, the wobble mechanism allows one tRNA to cover all or most of those synonymous codons. The result is that cells need only about 45 tRNA species rather than 61 — one for each sense codon."
-  explanation: "Looking at the codon table makes this vivid: glycine is encoded by GGU, GGC, GGA, and GGG — four codons that differ only at position three. A tRNA with inosine at its wobble position handles three of them (GGU, GGC, GGA), and a second tRNA handles GGG. Without wobble pairing, all four would require dedicated tRNAs. This efficiency multiplied across all amino acids explains why biological systems can manage translation with a much smaller set of tRNAs than the codon count would suggest."
+  explanation: "Looking at the codon table makes this vivid: alanine is encoded by GCU, GCC, GCA, and GCG — four codons that differ only at position three. A tRNA with inosine at its wobble position handles three of them (GCU, GCC, GCA), and a second tRNA handles GCG. Without wobble pairing, all four would require dedicated tRNAs. This efficiency multiplied across all amino acids explains why biological systems can manage translation with a much smaller set of tRNAs than the codon count would suggest."
 ```
 
 ## Explainer

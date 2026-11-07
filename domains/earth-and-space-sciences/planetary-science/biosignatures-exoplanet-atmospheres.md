@@ -29,6 +29,14 @@ status: validated
 ## Core Idea
 Biosignatures are atmospheric gases produced by biological processes (O₂, CH₄, N₂O, dimethyl sulfide); detectability depends on abundance, stellar spectral type affecting UV photochemistry, and transmission spectroscopy sensitivity. Context and atmospheric disequilibrium are critical to avoid false positives from abiotic sources.
 
+## How It's Best Learned
+Make a table with one row per candidate gas (O₂, O₃, CH₄, N₂O, dimethyl sulfide). Give columns for its biological source, its known abiotic sources, and what other gas or context would tell them apart. Then judge two made-up spectra: one showing O₂ with CH₄, and one showing O₂ with abundant CO and no CH₄.
+
+## Common Misconceptions
+- If no biosignature gas shows up, the planet has no life. (Life can exist without producing detectable gases. Earth hosted life for a long time before O₂ built up to high levels.)
+- Detecting ozone adds independent evidence on top of detecting O₂. (Ozone forms photochemically from O₂, so it depends on the O₂ abundance. It is easier to detect, but it is the same line of evidence.)
+- Any gas that life produces on Earth counts as a biosignature anywhere. (A gas becomes a useful biosignature only if it is abundant enough to detect and known abiotic routes can be ruled out for that star and planet.)
+
 ## Questions
 
 ```yaml

@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 If f is continuous on an interval [a,b] and f(a) ≠ f(b), then for every value w between f(a) and f(b), there exists c ∈ (a,b) with f(c) = w. The rigorous proof uses connectedness: the continuous image of a connected set is connected, and connected subsets of ℝ are intervals.
 
+## How It's Best Learned
+Prove the theorem a second way and compare it with the connectedness proof. With f(a) < w < f(b), let c = sup{x ∈ [a, b] : f(x) < w}. Use continuity to rule out f(c) < w, then f(c) > w. Then check where completeness enters each proof. Finally, apply the theorem to f(x) = x⁵ − 3x + 1 on [0, 1], where f(0) = 1 and f(1) = −1.
+
+## Common Misconceptions
+- Any function with f(a) < 0 < f(b) has a zero in between. (Continuity is required; a step function from −1 to 1 has no zero.)
+- A function that takes every intermediate value must be continuous. (f(x) = sin(1/x) with f(0) = 0 has the intermediate value property on [−1, 1] but is discontinuous at 0.)
+- The theorem gives a unique point c. (It gives existence only; cos x on [0, 3π] goes from 1 to −1 and crosses 0 three times.)
+- The theorem would hold for continuous functions on the rationals too. (On ℚ ∩ [1, 2], x² − 2 changes sign but has no rational zero; the proof uses completeness or connectedness of ℝ.)
+
 ## Questions
 
 ```yaml

@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Lipoproteins are spherical particles with a hydrophobic lipid core and hydrophilic apolipoprotein shell, enabling lipid transport in blood. VLDL and chylomicrons deliver triglycerides; LDL delivers cholesterol. HDL removes excess cholesterol via reverse cholesterol transport. Apolipoprotein composition determines lipoprotein class and metabolic fate.
 
+## How It's Best Learned
+Build a table with one row each for chylomicron, VLDL, IDL, LDL and HDL. Use columns for where it is made, its main core lipid, its key apolipoproteins, and what removes it from blood. Then follow one VLDL particle as lipoprotein lipase strips its triglyceride. Note at each stage how its core and density change until it becomes LDL.
+
+## Common Misconceptions
+- Chylomicrons carry dietary fat to the liver first. (They enter the lymph and unload triglyceride at muscle and adipose capillaries; only their remnants go to the liver.)
+- The liver secretes LDL directly. (LDL forms mainly in the blood as VLDL loses triglyceride and passes through IDL.)
+- Most LDL ends up in artery walls and other peripheral tissues. (Most LDL is cleared by LDL receptors in the liver; artery-wall buildup is a small fraction that matters over years.)
+- Any treatment that raises HDL cholesterol lowers heart disease risk. (In several large trials, drugs that raised HDL cholesterol did not reduce cardiovascular events, so the HDL number is better treated as a marker than a target.)
+
 ## Questions
 
 ```yaml

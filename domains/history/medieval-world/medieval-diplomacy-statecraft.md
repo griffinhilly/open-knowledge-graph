@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Medieval diplomacy combined feudal hierarchy with practical negotiation over land, marriage alliances, and trade rights. Diplomatic practices included embassies, treaties, marriage alliances, and hostage-taking. Diplomacy reflected both feudalism's fragmented political reality and emerging concepts of inter-kingdom relations.
 
+## How It's Best Learned
+Treat each diplomatic tool as an answer to one problem: how do you make a rival keep a promise when no court can enforce it? For oaths on relics, marriage alliances, and hostage exchange, write down what the other side loses if the promise is broken. Then compare these with a modern treaty and ask what institutions now do the job.
+
+## Common Misconceptions
+- Medieval rulers kept embassies abroad like modern states. (Most missions were sent for one negotiation and then came home. Resident ambassadors developed later, first among the Italian states.)
+- A written treaty was what bound rulers to an agreement. (Documents mattered, but much of the binding force came from sworn oaths, kinship through marriage, and hostages held by the other side.)
+- Medieval diplomacy was crude compared with modern statecraft. (Its tools were careful answers to the lack of any enforcing authority. Envoys were chosen with care, and the rank of an envoy sent a message in itself.)
+
 ## Questions
 
 ```yaml

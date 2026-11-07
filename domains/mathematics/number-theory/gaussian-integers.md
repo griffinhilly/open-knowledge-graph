@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 The Gaussian integers ℤ[i] = {a + bi : a,b ∈ ℤ} form a unique factorization domain with norm N(a+bi) = a^2 + b^2. Gaussian primes include rational primes p ≡ 3 (mod 4) and factors a±bi of primes p ≡ 1 (mod 4), elegantly explaining two-square representations.
 
+## How It's Best Learned
+Factor 65 = 5 · 13 completely in ℤ[i] as (2 + i)(2 − i)(3 + 2i)(3 − 2i). Then pair the factors two ways. (2 + i)(3 + 2i) = 4 + 7i and (2 + i)(3 − 2i) = 8 − i, so taking norms gives 65 = 4² + 7² = 8² + 1². This shows directly how factorizations in ℤ[i] produce sums of two squares.
+
+## Common Misconceptions
+- 5 = (2 + i)(2 − i) = (1 + 2i)(1 − 2i) shows that factorization in ℤ[i] is not unique. (The factors are associates: 1 + 2i = i(2 − i) and 1 − 2i = −i(2 + i). Uniqueness is only up to the units ±1, ±i.)
+- A Gaussian integer whose norm is not prime must factor. (The prime 3 has norm 9 but stays prime in ℤ[i], because no Gaussian integer has norm 3.)
+- If a and b share no common factor, then a + bi is a Gaussian prime. (Here 3 + i has coprime parts, but 3 + i = (1 + i)(2 − i), with norm 10 = 2 · 5.)
+
 ## Questions
 
 ```yaml

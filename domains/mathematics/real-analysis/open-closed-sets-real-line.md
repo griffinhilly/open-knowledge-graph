@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 A set U is open if for every point x in U, there exists an open interval (a, b) containing x that lies entirely in U. A set F is closed if its complement is open, equivalently if it contains all its limit points. Open and closed sets form the foundation of topology on ℝ.
 
+## How It's Best Learned
+Write explicit radii. For x in (0, 1), the radius δ = min(x, 1 − x) works, and checking it makes the definition concrete. Then test the set rules on examples. A union of open sets is open, because each point keeps its own interval. The intersection of (−1/n, 1/n) over all n is {0}, which is not open. Finally, show [0, 1] is closed by using that limits preserve 0 ≤ xₙ ≤ 1.
+
+## Common Misconceptions
+- An open set is the same thing as an open interval. (Any union of open intervals is open, such as (0, 1) ∪ (2, 3) or ℝ ∖ ℤ.)
+- An intersection of open sets is open, however many there are. (Only finite intersections are guaranteed; the intersection of (−1/n, 1/n) over all n is {0}.)
+- A single point is open because there is nothing to stick out of. ({0} contains no interval around 0, so it is not open; it is closed, since its complement is open.)
+
 ## Questions
 
 ```yaml
