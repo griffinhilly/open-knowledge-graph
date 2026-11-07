@@ -79,6 +79,3 @@ Both authors transformed the content of detective fiction as much as its form. E
 The realism that Hammett and Chandler brought was also crucial. Earlier detective fiction was often exotic, set in English country houses or locked studies far removed from ordinary life. Hammett and Chandler brought detective fiction into American cities: San Francisco, Los Angeles, the streets where ordinary people worked and lived. The urban atmosphere became a character itself, creating noir—a particular visual and moral aesthetic that merged with detective fiction. Corruption wasn't incidental; it was structural. The detective wasn't a gentleman amateur but a working professional, often morally ambiguous themselves.
 
 Understanding the contribution of Hammett and Chandler requires recognizing that genre innovation often works through style as much as content. By changing how prose sounded, how dialogue functioned, how psychology could be explored, and where stories were set, they created space for detective fiction to become literature rather than mere entertainment. Their influence reverberates through crime fiction today: the terse dialogue, the morally compromised protagonist, the exploration of corruption, the literary language. They showed that genre fiction could be serious, intelligent, and socially engaged without ceasing to be compelling narrative.
-```
-
-

@@ -80,6 +80,3 @@ Corporate power in cyberpunk is not the power of coercion alone but the deeper p
 The ambiguity of human agency in these technological systems is central to cyberpunk's ethical questions. Are humans still agents if they're running code created by others? Is freedom possible in a world where all action passes through systems controlled by corporations? Are humans essentially different from artificial intelligences, or are they both forms of consciousness that might be subject to the same controls and contingencies? Cyberpunk doesn't answer these questions; it forces readers to inhabit worlds where the answers are genuinely uncertain.
 
 Understanding cyberpunk requires recognizing that it's not primarily dystopian in the sense of being horrifying or unlivable. Cyberpunk worlds can be vivid, exciting, even attractive. The neon lights, the constant action, the possibility of virtual worlds—these have real appeal. But underneath the appeal is the recognition that total technological integration serves corporate interests, that human agency is constrained by systems ostensibly designed to free you, and that resistance remains possible but precarious. Cyberpunk's particular genius lies in showing that the most total forms of control are the ones that feel like freedom because you've never experienced anything different.
-```
-
-

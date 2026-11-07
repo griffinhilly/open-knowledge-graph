@@ -80,4 +80,3 @@ Genre blending can serve many purposes. Sometimes writers blend genres to expand
 
 The reader's role in hybrid genres is active and sophisticated. You cannot passively apply the rules of a single genre and expect them to hold throughout. Instead, you must develop flexibility—recognizing when the text is drawing on mystery conventions, when it's drawing on fantasy conventions, and how those two streams interact. This flexibility is also a skill that applies beyond reading: understanding how to navigate competing frameworks and expectations is valuable in any complex interpretive task. Hybrid genres train readers to be more sophisticated interpreters of literary form.
 
-```

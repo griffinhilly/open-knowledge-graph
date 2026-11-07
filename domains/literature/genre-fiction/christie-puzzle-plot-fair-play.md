@@ -78,6 +78,3 @@ Misdirection—the technique of guiding readers toward wrong conclusions—works
 Christie's structural innovations enabled this misdirection. She developed techniques like having the detective summarize facts in ways that seem innocent but hide significance, organizing chapters so that important information appears in contexts where readers don't expect to find clues, and building plots where the solution seems increasingly unlikely as the investigation proceeds (making readers confident they're wrong when they're actually right). These structural choices don't violate fair play; they exploit the gap between having information and recognizing its significance.
 
 Understanding Christie's puzzle-plots reveals that mystery writing is as much about psychology and structure as about plot. The mystery isn't just "whodunit"; it's a test of reader perception, assumption, and logical reasoning. By committing to fair play—giving readers all necessary clues—Christie elevated mystery writing from mere puzzle-solving to a form that explores how easily human perception can be manipulated, how psychology shapes our interpretation of evidence, and how rational deduction can be both powerful and misleading. Her influence reshaped detective fiction to prioritize intellectual engagement and the pleasure of being fairly outwitted.
-```
-
-

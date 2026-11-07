@@ -79,4 +79,3 @@ Breaking the contract is possible but carries significant risk. An author can ki
 
 Understanding the reader contract transforms how you approach genre fiction both as a reader and writer. As a reader, you develop awareness of what you're actually consenting to when you choose a genre. As a writer, you gain clarity about which conventions to honor and which to challenge, and you understand why some innovations succeed while others feel like failures.
 
-```

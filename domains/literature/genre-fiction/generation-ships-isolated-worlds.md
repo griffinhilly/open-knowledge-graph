@@ -80,6 +80,3 @@ Social structures in generation ships evolve under unique pressures. In normal s
 Psychology changes under isolation. Fear of space outside the ship, acceptance of confinement, belief structures that make the ship seem normal rather than cage-like—these develop naturally. Later generations born aboard don't know any other existence; the ship is simply reality. This allows narrative exploration of what happens when people internalize constraint as normalcy, when institutional structures become invisible, when survival requires believing you're living normally. The ship creates a bounded psychology where internal reality diverges from external facts.
 
 Understanding generation ships reveals their power as metaphor and microcosm. They explore human society in conditions where external variables are controlled: no immigration, no escape, no outside help, limited resources, time pressure toward a destination (or the forgetting of such pressure). These constraints create pure narratives about how humans organize, pass knowledge, maintain systems, and evolve beliefs. Generation ships are laboratories for sociology, psychology, and philosophy expressed through narrative.
-```
-
-

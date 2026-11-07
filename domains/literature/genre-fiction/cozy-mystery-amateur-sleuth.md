@@ -77,6 +77,3 @@ The restraint in cozy mysteries—the avoidance of graphic violence and explicit
 The genre also offers a particular comfort to readers: the promise that knowledge and attention are enough, that careful thinking matters, that understanding people is the path to truth. In a world often characterized by professional expertise, institutional authority, and specialized knowledge, cozy mysteries suggest that ordinary people with genuine community knowledge can uncover truth. This isn't escapism; it's a different vision of epistemology—knowledge built from proximity, observation, relationship, and thinking carefully about what you've witnessed.
 
 Understanding cozy mysteries reveals that detective fiction doesn't require violence, danger, or professional expertise to generate compelling narrative. The puzzle remains engaging; the solution remains satisfying. But the context shifts from the detective against a criminal to the detective against their own community's secrets, from professional investigation to intimate understanding, from specialized expertise to the knowledge that comes from living somewhere and caring about the people there. This smaller scale is the source of the genre's particular pleasures and its distinct vision of how truth emerges.
-```
-
-

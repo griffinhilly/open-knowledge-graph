@@ -77,6 +77,3 @@ The history of genre blending is long—gothic romance blended gothic horror wit
 Coherence in blended narratives comes from making the blend thematic rather than merely additive. A paranormal romance where the supernatural element complicates the relationship (partner is a vampire, creating lifespan and feeding conflicts) blends more effectively than supernatural romance where the paranormal element is decorative. The blend should create narrative tension specifically from the genre combination, not just stack conventions. Successful blending treats the combination as a single unified form with its own logic.
 
 Understanding genre blending reveals how genre literacy functions. Genres are not fixed categories but evolving frameworks readers recognize and authors manipulate. As readers become more sophisticated about genre conventions, authors gain freedom to blend, subvert, and experiment. This dynamic creates an arms race of increasing complexity: more sophisticated readers enable more complex blending, which develops more sophisticated readers. Contemporary fiction's formal complexity partly results from this iterative cycle of reader expectation and authorial innovation.
-```
-
-

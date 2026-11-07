@@ -83,6 +83,3 @@ What makes alternate history intellectually engaging is the necessity to follow 
 The genre also requires a special kind of historical knowledge: understanding both what actually happened and grappling with counterfactual possibilities. This is why rigorous research is essential. An author writing alternate history must know the real timeline so thoroughly that they can credibly imagine departures from it. They must understand what was contingent (could have gone another way) versus what was driven by deeper forces (almost certain to happen). Without this knowledge, the speculative timeline becomes a fantasy world that merely wears historical clothing.
 
 Ultimately, alternate history represents a form of thought experiment through narrative. By asking "what if?" and following the logical implications, these stories explore how history could have been different and, by implication, why it turned out as it did. The genre simultaneously entertains and educates, rewarding readers who understand history by revealing how close we often came to radically different timelines.
-```
-
-

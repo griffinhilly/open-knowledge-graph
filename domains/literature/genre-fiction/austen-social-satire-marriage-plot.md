@@ -79,6 +79,3 @@ The genius of Austen's approach is that her heroines refuse to accept the terms 
 The emotional authenticity that Austen's heroines seek isn't naive romanticism. It's grounded in the recognition that they're making binding choices within severe constraints. Their pursuit of genuine connection isn't opposed to their awareness of economic reality; it emerges from that awareness. They want love and respect *because* they understand what it means to marry without them. The social satire that surrounds their love stories—the ridiculous mothers, the mercenary matches, the social climbing—makes the heroines' own moral seriousness stand out more sharply.
 
 Understanding Austen's innovation reveals something important about narrative structure: constraint doesn't eliminate meaning; it concentrates it. Because marriage is so economically crucial and socially binding, the choice of a marriage partner becomes freighted with significance. The wit and social observation that Austen brings to depicting marriage negotiations doesn't trivialize the emotional stakes; it demonstrates how much is actually at stake, both materially and emotionally. The romance works because readers understand its context, and the satire works because we care about the characters' romantic fates.
-```
-
-

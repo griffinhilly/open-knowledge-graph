@@ -84,6 +84,3 @@ Physical danger provides the surface-level excitement, but strategic thinking pr
 What separates action thrillers from action-adventure or action-fantasy is the insistence on grounding thrills in plausible human agency. These protagonists succeed through training, preparation, strategy, and nerve—not through magical powers or impossible luck. This realism is what makes the genre so viscerally engaging. We can imagine ourselves preparing like the protagonist, thinking like them, pushing our limits as they push theirs. The pacing and tension escalation keep readers in a state of sustained engagement, where each sequence builds on previous stakes and capabilities.
 
 Understanding action thrillers requires recognizing that the action isn't separate from character development—it *is* character development. How a protagonist moves through danger, what choices they make under pressure, what risks they're willing to take: all of this reveals character more effectively than dialogue or introspection. The genre trusts readers to understand character through action, which is why competence and strategic thinking feel so satisfying to witness.
-```
-
-

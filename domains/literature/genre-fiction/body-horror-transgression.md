@@ -78,6 +78,3 @@ What distinguishes body horror from simple gore or violence is that it often car
 The genre also reveals something uncomfortable about human existence: we are not purely rational minds inhabiting bodies. We are bodies; consciousness is embedded in physicality. When body horror shows us bodies transformed, violated, or grotesque, it strips away the cultural pretense that we are transcendent minds and shows us as embodied beings subject to physical processes we don't control. This can be profound and even liberating—acknowledging our embodiment—but it's also terrifying because it reveals our vulnerability.
 
 Effective body horror requires specificity and detail. Vague references to "something was wrong with his body" generate less effect than detailed description of exactly how the transformation or violation manifests. This is counterintuitive to some readers' expectations: shouldn't understated horror be more effective? But body horror proves that concrete, specific descriptions of bodily violation create more powerful imaginative experiences because readers can vividly picture what's happening to the body. The visceral specificity is what generates the unsettling physical response that characterizes the genre's effectiveness.
-```
-
-

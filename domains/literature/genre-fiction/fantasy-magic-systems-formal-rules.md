@@ -77,6 +77,3 @@ The question "who can use magic?" is particularly important because it determine
 Costs make magic meaningful by making it a genuine choice. If magic has no cost, users deploy it constantly without thought. But if magic carries costs—physical exhaustion, magical backlash, moral compromise, payment to supernatural forces—users must decide when magic is worth its cost. These decisions create character and moral complexity. A mage who uses magic despite knowing the cost reveals character through their choice. Readers understand characters through what costs they're willing to pay and for what purposes.
 
 Understanding fantasy magic systems requires recognizing that constraint enables storytelling rather than limiting it. The best magic systems are the most limited, most rule-bound, most costly—because those constraints force narrative and character development. A magic system with no rules is no system at all; it's just authorial convenience. A magic system with clear rules, costs, and limitations creates the conditions where magic matters, where choices have consequences, and where stories can unfold in meaningful ways.
-```
-
-
