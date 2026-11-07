@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 A (t, n) secret sharing scheme distributes a secret s among n parties such that any t parties can reconstruct s, but any t-1 parties learn absolutely nothing about s. Shamir's scheme (1979) uses polynomial interpolation: encode s as the constant term of a random degree-(t-1) polynomial over a finite field, and give each party a point on the polynomial. Any t points determine the polynomial (Lagrange interpolation); fewer than t points leave s information-theoretically hidden. Secret sharing is foundational for threshold cryptography, secure MPC (BGW protocol), key management, and distributed systems requiring fault-tolerant access to secrets.
 
+## How It's Best Learned
+Work a (2, 3) example by hand over a small prime field such as integers mod 11: pick s, pick a random slope, hand out p(1), p(2), p(3), then rebuild s from any two points. Next, take a single share and show that every value of s fits some line through it. Graphing those lines makes the "one share reveals nothing" claim visible before the general Lagrange formula.
+
+## Common Misconceptions
+- Each share holds a piece of the secret, so t-1 shares reveal part of it. (A share is a point on a random polynomial. With fewer than t shares, every possible secret is equally consistent, so they reveal nothing about s.)
+- Splitting a key into chunks and handing out the chunks is the same as secret sharing. (Chunking leaks part of the key with each piece and needs every piece to rebuild the key. Shamir shares are each as large as the secret and hide it completely below the threshold.)
+- Shamir's scheme works over the ordinary real numbers. (It is defined over a finite field. Over the reals, shares leak information about s, and the uniform random choice of coefficients is not possible.)
+- Secret sharing protects against a dealer who cheats. (Basic Shamir sharing trusts the dealer. Verifiable secret sharing adds commitments so parties can check their shares are consistent.)
+
 ## Questions
 
 ```yaml

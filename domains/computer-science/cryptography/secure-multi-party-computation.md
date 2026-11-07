@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Secure multi-party computation (MPC) allows n parties, each holding private input x_i, to jointly compute a function f(x_1,...,x_n) such that each party learns only the output and nothing about others' inputs beyond what the output implies. Security is defined by the ideal/real paradigm: the real protocol must be indistinguishable from an ideal world where a trusted third party collects inputs and distributes outputs. MPC is feasible for any function: with honest majority, information-theoretic security is achievable (BGW protocol); without honest majority, computational security is achievable using oblivious transfer. Applications include private auctions, joint statistical analysis, and threshold key management.
 
+## How It's Best Learned
+Start with a toy protocol you can run on paper: three people compute their total salary by each splitting their number into three random additive shares mod a large number, swapping shares, and summing. Then write out everything one party sees and argue that it could be generated from that party's own salary and the total alone. After that, compare the real protocol with the ideal trusted-party picture side by side, and only then move to garbled circuits for general functions.
+
+## Common Misconceptions
+- MPC keeps every input fully secret, whatever the function. (MPC hides what the output does not reveal. If the output plus your own input pins down another party's input, MPC cannot hide it.)
+- MPC means encrypting the data and sending it to one server that computes on it. (MPC spreads the computation across the parties so no single party holds the data. Computing on encrypted data at one server is homomorphic encryption, a different tool.)
+- A protocol secure against honest-but-curious parties is also secure against cheaters. (Semi-honest security assumes parties follow the protocol. Malicious security needs extra machinery, such as commitments and zero-knowledge proofs, to force correct behavior.)
+- Information-theoretic MPC is possible with any number of corrupted parties. (Without a trusted setup, unconditional security for general functions needs an honest majority. With a dishonest majority, as in the two-party case, protocols rely on computational assumptions, typically to build oblivious transfer.)
+
 ## Questions
 
 ```yaml

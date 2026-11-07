@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Advanced zero-knowledge proof (ZKP) topics extend beyond basic interactive proofs to include non-interactive ZKPs (NIZKs, using random oracles or structured reference strings), zero-knowledge arguments (weaker soundness, allowing polynomial-time provers to cheat), zk-SNARKs/zk-STARKs (succinct, non-interactive, zero-knowledge arguments), and privacy-preserving protocols. ZKPs are foundational to privacy-preserving applications (anonymous credentials, confidential transactions, privacy-preserving machine learning). Recent advances enable efficient ZKPs for NP-complete problems via polynomial commitment schemes, enabling scalable proof systems suitable for blockchain and confidential computation.
 
+## How It's Best Learned
+Take the three-message Schnorr protocol for knowledge of a discrete logarithm and apply Fiat-Shamir by hand: replace the verifier's random challenge with a hash of the statement and the prover's commitment. Then build a table that places each system studied (Schnorr with Fiat-Shamir, Groth16, a STARK) by setup type, proof size, soundness type, and assumptions. The table makes the tradeoffs between schemes easy to compare.
+
+## Common Misconceptions
+- Non-interactive means no setup or assumptions are needed. (A NIZK relies on either a common reference string or a random oracle model. Practical transparent schemes avoid a trusted ceremony but usually still rest on idealized hash functions.)
+- Fiat-Shamir is a free conversion with no way to get it wrong. (The hash has to cover the statement and every prior prover message. Hashing too little of the transcript can let a prover forge proofs.)
+- Every succinct proof hides the witness. (Succinctness concerns proof size and verification time, and zero-knowledge concerns what the proof reveals. A succinct argument need not be zero-knowledge, and some rollups use succinct proofs mainly for their small size.)
+- A compromised trusted setup only matters for privacy. (The main danger of a leaked setup secret is soundness: whoever holds it can make proofs of false statements that verify.)
+
 ## Questions
 
 ```yaml

@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Block ciphers are deterministic algorithms that encrypt fixed-size blocks of plaintext under a secret key, forming the workhorse of symmetric cryptography. AES (the current standard) processes 128-bit blocks using substitution-permutation networks that achieve Shannon's confusion (complex key-ciphertext relationship) and diffusion (spreading plaintext influence across the ciphertext). A block cipher is a keyed pseudorandom permutation: with a random key, it should be indistinguishable from a truly random permutation of the block space. Security relies on computational hardness, not information-theoretic impossibility.
 
+## How It's Best Learned
+Build a toy 16-bit cipher on paper: a 4-bit S-box applied to four nibbles, a bit permutation, and a key XOR, repeated for a few rounds. Flip one plaintext bit and track how many output bits change after each round to see diffusion grow. Then build a two-round Feistel cipher with a non-invertible round function and decrypt it, to see why Feistel designs do not need invertible rounds.
+
+## Common Misconceptions
+- A block cipher is a full encryption scheme, so encrypting each block with AES on its own is secure. (Encrypting blocks independently, ECB mode, maps equal plaintext blocks to equal ciphertext blocks and leaks patterns. A mode such as CTR or GCM is needed.)
+- A longer key makes a cipher secure. (Key length only sets the cost of brute force. A cipher with a weak structure can be broken faster than brute force whatever its key length.)
+- Diffusion and confusion are the same idea under two names. (Confusion hides how the key relates to the ciphertext, mainly through nonlinear S-boxes. Diffusion spreads each plaintext bit across many ciphertext bits, through mixing and permutation layers.)
+- A 128-bit key and a 128-bit block give perfect secrecy, as with the one-time pad. (AES is not built so that every ciphertext is equally likely for every plaintext under a random key, and its key is reused across many blocks. Its security is computational: it rests on no efficient attack being known.)
+
 ## Questions
 
 ```yaml

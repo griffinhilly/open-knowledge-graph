@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 A zero-knowledge proof lets a prover convince a verifier that a statement is true without revealing any information beyond the truth of the statement. It satisfies three properties: completeness (honest prover convinces honest verifier), soundness (no cheating prover convinces the verifier of a false statement), and zero-knowledge (the verifier learns nothing beyond the statement's validity, formalized via simulation — a simulator can produce transcripts indistinguishable from real interactions without knowing the witness). Every NP language has a zero-knowledge proof (assuming OWFs). ZK proofs are foundational for privacy-preserving authentication, blockchain privacy (Zcash), and verifiable computation.
 
+## How It's Best Learned
+Run the graph 3-coloring protocol physically: color a small graph, permute the colors, cover each vertex with a cup, and let a partner lift the two cups on one edge per round. Next, play the simulator yourself: without a valid coloring, guess the edge in advance, give only its two ends different colors, and restart when your partner picks another edge. Seeing that the kept transcripts look like real ones is the clearest way into the simulation definition.
+
+## Common Misconceptions
+- A zero-knowledge proof proves the statement with certainty. (Soundness is usually probabilistic. A cheating prover can pass with a small probability, which repetition drives down but does not remove.)
+- Zero-knowledge means the verifier learns nothing at all. (The verifier learns that the statement is true. Zero-knowledge means it learns nothing more than that.)
+- If the verifier records the transcript, it can convince a third party the statement is true. (In an interactive ZK proof, a simulator can produce identical-looking transcripts without the witness, so a recorded transcript proves nothing to an outsider.)
+- Proving that a statement is true and proving that you know a witness are the same thing. (A proof of membership shows a witness exists. A proof of knowledge also shows the prover has one, formalized by an extractor.)
+
 ## Questions
 
 ```yaml

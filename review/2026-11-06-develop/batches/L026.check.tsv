@@ -1,0 +1,60 @@
+domains/computer-science/formal-methods/abstract-interpretation.md	how	4	1	fixed	"check against a few concrete runs": the example loop has no input, so it has exactly one concrete run; reworded
+domains/computer-science/formal-methods/abstract-interpretation.md	mis	8	0	ok
+domains/computer-science/formal-methods/bdd-based-verification.md	how	4	1	fixed	(x1 AND y1) OR (x2 AND y2) was called a three-variable function; it has four variables
+domains/computer-science/formal-methods/bdd-based-verification.md	mis	8	1	fixed	bullet 4 was a strawman ("canonicity means different functions share a BDD"); replaced with the real confusion that canonicity holds regardless of ordering, and qualified pointer-equality to node-sharing packages
+domains/computer-science/formal-methods/bounded-model-checking.md	how	3	0	ok
+domains/computer-science/formal-methods/bounded-model-checking.md	mis	8	0	ok
+domains/computer-science/formal-methods/buchi-automata-ltl-model-checking.md	how	3	0	ok	style/clarity: "p ¬p^ω" made unambiguous as "p (¬p)^ω". Old text: Explainer says NBA complementation is doubly exponential; it is singly exponential, 2^O(n log n)
+domains/computer-science/formal-methods/buchi-automata-ltl-model-checking.md	mis	8	0	ok
+domains/computer-science/formal-methods/cegar.md	how	4	1	fixed	adding only x == y does not prove the assertion under statement-by-statement abstraction (x == y is false between x++ and y++); fixed to say it works with the loop body as one step and otherwise needs x == y + 1
+domains/computer-science/formal-methods/cegar.md	mis	8	0	ok
+domains/computer-science/formal-methods/certified-compilation.md	how	4	0	ok	Old text: Explainer says Cryptol has a certified compiler to C (it does not); Core Idea/Explainer overstate "absolute" guarantees
+domains/computer-science/formal-methods/certified-compilation.md	mis	8	0	ok
+domains/computer-science/formal-methods/concurrency-verification.md	how	4	1	fixed	proving the locked increment yields x = 2 needs ghost/auxiliary variables in both CSL and rely-guarantee; the step as written (invariant "x is owned") gives only race freedom, so the exercise stalls. Stated the goal and the ghost-variable need
+domains/computer-science/formal-methods/concurrency-verification.md	mis	8	0	ok
+domains/computer-science/formal-methods/contract-verification-blockchain.md	how	4	1	fixed	"Slither or Certora can confirm both results": Slither is a static pattern detector and cannot confirm the supply invariant; split the tools by task
+domains/computer-science/formal-methods/contract-verification-blockchain.md	mis	8	0	ok	Old text: Q2/explainer call the per-operation invariant a "loop invariant"; Explainer lists "Runtime Verification" (a company) as a monitoring framework
+domains/computer-science/formal-methods/curry-howard-correspondence.md	how	3	0	ok
+domains/computer-science/formal-methods/curry-howard-correspondence.md	mis	8	0	ok
+domains/computer-science/formal-methods/denotational-semantics-fixed-points.md	how	3	0	ok
+domains/computer-science/formal-methods/denotational-semantics-fixed-points.md	mis	8	0	ok
+domains/computer-science/formal-methods/dependent-type-theory.md	how	3	0	ok
+domains/computer-science/formal-methods/dependent-type-theory.md	mis	8	1	fixed	bullet 1 correction said templates let types depend only on types; C++ templates take compile-time value parameters (std::array<T, N>). Added the run-time-value distinction. Old text: Explainer says dependent type theory requires all functions to be total (Idris, Agda allow marked partiality)
+domains/computer-science/formal-methods/floyd-hoare-verification.md	how	3	0	ok
+domains/computer-science/formal-methods/floyd-hoare-verification.md	mis	8	0	ok
+domains/computer-science/formal-methods/frame-problem-verification.md	how	4	0	ok
+domains/computer-science/formal-methods/frame-problem-verification.md	mis	8	1	fixed	bullet 2 ("aliasing only matters for local variables") was a strawman; replaced with the real modifies-clause/aliasing confusion that the How exercise sets up
+domains/computer-science/formal-methods/fuzzing-formal-methods.md	how	4	1	fixed	"watch the coverage-guided fuzzer stall" fails with libFuzzer (trace-cmp on by default) and AFL++ CmpLog, which solve 32-bit magic compares; specified AFL++ without CmpLog/dictionary. Old text: Q3 answer writes sqrt(4*x^2) = 2*sqrt(x) (should be 2*sqrt(x^2) or 2|x|)
+domains/computer-science/formal-methods/fuzzing-formal-methods.md	mis	8	0	ok
+domains/computer-science/formal-methods/hoare-logic.md	how	3	0	ok
+domains/computer-science/formal-methods/hoare-logic.md	mis	8	0	ok
+domains/computer-science/formal-methods/information-flow-security.md	how	3	0	ok	Old text: Explainer expands LIO as "Liquid Information Flow" (it is Labeled IO); claims noninterference is transitive/composable as stated
+domains/computer-science/formal-methods/information-flow-security.md	mis	8	0	ok
+domains/computer-science/formal-methods/interactive-theorem-proving.md	how	4	0	ok
+domains/computer-science/formal-methods/interactive-theorem-proving.md	mis	8	1	fixed	bullet 3 "tactics only build proof terms" is false for LCF-style systems (Isabelle, HOL4), where soundness comes from the abstract theorem type; qualified by system
+domains/computer-science/formal-methods/invariant-generation.md	how	3	0	ok	worked the loop: linear template finds s >= 0, s >= i - 1; nonlinear s = i(i-1)/2 missed, as claimed
+domains/computer-science/formal-methods/invariant-generation.md	mis	8	0	ok
+domains/computer-science/formal-methods/kripke-structures.md	how	3	0	ok
+domains/computer-science/formal-methods/kripke-structures.md	mis	8	0	ok
+domains/computer-science/formal-methods/linear-types.md	how	4	0	ok
+domains/computer-science/formal-methods/linear-types.md	mis	8	0	ok
+domains/computer-science/formal-methods/liquid-types.md	how	4	0	ok	Old text: Q3 explanation says the solver reports UNSAT on the bad call and Q4 says obligations succeed when "the solver returns SAT"; both invert the validity check. NASA/JPL and Google adoption claims unsourced
+domains/computer-science/formal-methods/liquid-types.md	mis	8	0	ok
+domains/computer-science/formal-methods/model-checking-intro.md	how	4	0	ok
+domains/computer-science/formal-methods/model-checking-intro.md	mis	8	0	ok
+domains/computer-science/formal-methods/operational-semantics.md	how	4	0	ok
+domains/computer-science/formal-methods/operational-semantics.md	mis	8	1	fixed	bullet 4 correction "congruence rules fix it" is an absolute; a semantics can deliberately leave order nondeterministic (the Explainer itself cites C's x++ + x++). Reworded
+domains/computer-science/formal-methods/probabilistic-model-checking.md	how	4	0	ok	worked: retry-always gives delivery probability 1; give-up needs a failed state the learner must add (minor). Old text: claims MDP checking is NP-hard (it is polynomial via LP), that PCTL on MDPs means "there exists a scheduler" (standard semantics quantifies over all), that non-probabilistic model checking is NP-hard, and that PRISM supports Markov automata
+domains/computer-science/formal-methods/probabilistic-model-checking.md	mis	8	0	ok
+domains/computer-science/formal-methods/process-calculi.md	how	4	0	ok
+domains/computer-science/formal-methods/process-calculi.md	mis	8	0	ok
+domains/computer-science/formal-methods/program-synthesis-formal.md	how	4	0	ok	worked max(x, y): x, then ite(x <= y, y, x) after one counterexample. Old text: Explainer example "bitwise AND using only shifts and XOR" is unrealizable (XOR and shifts are linear over GF(2)); Myth is from UPenn, not UC Berkeley
+domains/computer-science/formal-methods/program-synthesis-formal.md	mis	8	0	ok
+domains/computer-science/formal-methods/program-synthesis.md	how	4	1	fixed	removing (3, 9) leaves (1, 1), (2, 4), and no program smaller than x*x fits both (x fails at 2, x+x fails at 1), so the step fails when worked; changed to keep only (1, 1), where x wins
+domains/computer-science/formal-methods/program-synthesis.md	mis	8	0	ok
+domains/computer-science/formal-methods/refinement-types.md	how	3	0	ok
+domains/computer-science/formal-methods/refinement-types.md	mis	8	0	ok
+domains/computer-science/formal-methods/runtime-verification.md	how	3	1	fixed	"try G(request -> F grant) on the same traces": the same traces contain read/close events only, so there is nothing to check; gave it its own request/grant traces
+domains/computer-science/formal-methods/runtime-verification.md	mis	8	0	ok
+domains/computer-science/formal-methods/sat-solving-cdcl.md	how	3	0	ok
+domains/computer-science/formal-methods/sat-solving-cdcl.md	mis	8	0	ok

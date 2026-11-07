@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Verifiable computation allows a weak client to delegate computation to a powerful (but untrusted) server and efficiently verify that the result is correct, with verification cost much less than performing the computation. This requires succinct proofs of correctness — proofs whose size and verification time are sublinear (ideally polylogarithmic or constant) in the computation size. Key constructions include interactive proofs (GKR protocol), probabilistically checkable proofs (PCPs), and succinct non-interactive arguments (SNARGs/SNARKs). Applications span cloud computing, blockchain scalability (rollups), and certified AI inference.
 
+## How It's Best Learned
+Begin with Freivalds' check for matrix multiplication: verify a claimed product C = AB by testing ABr = Cr for a random vector r, which costs far less than recomputing AB. Then arithmetize a tiny circuit, such as x^3 + x + 5, into polynomial constraints and see how one random evaluation point catches a wrong claim with high probability. With that picture, compare the SNARK and STARK tradeoffs on proof size, setup, and prover cost.
+
+## Common Misconceptions
+- Verifiable computation keeps the client's input secret from the server. (Correctness and privacy are separate goals. A succinct proof shows the result is right; hiding the input needs zero-knowledge or encryption on top.)
+- If verification is fast, proving must be fast too. (Verification is cheap, but generating the proof usually costs much more than running the computation itself. Prover cost is often the main practical bottleneck.)
+- A SNARK proof is a mathematical proof that no prover can fake. (SNARKs are arguments: soundness holds against computationally bounded provers and rests on assumptions, and for many schemes on an honest trusted setup.)
+- The verifier checks every step of the computation, only faster. (The verifier checks a few random points or equations. Soundness comes from the fact that a wrong computation makes those checks fail with high probability.)
+
 ## Questions
 
 ```yaml

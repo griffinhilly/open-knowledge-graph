@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Threshold cryptography distributes a cryptographic key among n parties so that t must cooperate to perform operations (signing, decryption) but no t-1 colluding parties learn anything about the key. Unlike basic secret sharing (which reconstructs the key before use), threshold schemes compute directly on shares — the full key is never assembled in any single location. Distributed Key Generation (DKG) eliminates even the trusted dealer. Applications include cryptocurrency custody (multi-sig wallets), CA key protection, and organizational policy enforcement. Threshold ECDSA and threshold Schnorr are deployed in production systems.
 
+## How It's Best Learned
+Start from a (2, 3) Shamir sharing of a toy Schnorr key over small numbers. Have two parties each compute a partial signature, scale by their Lagrange coefficients, and add, then check the result against the public key. Then try the same steps with the ECDSA equation and see where the inverse of the nonce blocks the shortcut. Finish by tracing a DKG run and a proactive refresh on the same toy key.
+
+## Common Misconceptions
+- A threshold scheme gathers t shares at one machine, rebuilds the key, and signs. (That is plain secret sharing used for storage. In a threshold scheme the parties compute on their shares, so the full key is not assembled anywhere.)
+- A threshold signature is the same as an on-chain multisignature. (A threshold signature looks like one ordinary signature under one public key. A multisignature setup uses several separate keys, and the verifier checks several signatures or a policy over them.)
+- Refreshing shares changes the key. (Proactive refresh adds shares of zero, so the secret and public key stay the same. Only the shares change, which makes old and new shares useless together.)
+- With DKG, every party knows the final key because every party helped make it. (Each party knows only its own random contribution and the shares it received. The key is the sum of all contributions, which no coalition below the threshold can compute.)
+
 ## Questions
 
 ```yaml
