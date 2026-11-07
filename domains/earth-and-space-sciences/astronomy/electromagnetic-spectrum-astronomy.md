@@ -47,7 +47,7 @@ Compare images of the same object (e.g., the Milky Way center, Crab Nebula) take
   answer: 1
   explanation: "Infrared radiation has longer wavelengths than visible light and is far less scattered by interstellar dust grains. It can penetrate dense dust clouds and reveal the young stars forming within. UV and X-rays have shorter wavelengths than visible light and are absorbed even more strongly by dust. Gamma rays are produced by the most extreme high-energy events, not by nascent star formation."
 
-- question: "Earth-based optical telescopes can observe most of the electromagnetic spectrum that reaches Earth's surface, including X-rays and gamma rays."
+- question: "Earth-based optical telescopes can observe all of the electromagnetic spectrum that reaches Earth's surface, including X-rays and gamma rays."
   type: true-false
   answer: false
   explanation: "Earth's atmosphere is opaque to most non-visible wavelengths. X-rays and gamma rays are absorbed by the upper atmosphere (fortunately for life on Earth), and most ultraviolet is blocked by the ozone layer. Radio waves and some infrared do reach the ground, but most infrared is absorbed by water vapor. X-ray and gamma-ray observatories (like Chandra and Fermi) must be placed in orbit above the atmosphere."

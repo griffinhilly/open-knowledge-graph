@@ -30,7 +30,7 @@ Compose and send a test email to yourself or a friend. Note the address bar, sub
 
 ## Common Misconceptions
 - Email is instantaneous across the world. (Email usually arrives within seconds but can occasionally be delayed.)
-- Deleting an email makes it gone forever. (Most email has a Trash folder where deleted items stay temporarily.)
+- Deleting an email makes it gone forever. (Most email services have a Trash folder where deleted items stay temporarily.)
 - You can edit an email after sending it. (Once sent, emails cannot be edited; you must send a new message.)
 
 ## Questions

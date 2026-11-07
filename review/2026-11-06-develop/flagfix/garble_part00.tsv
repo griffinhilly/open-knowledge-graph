@@ -1,0 +1,78 @@
+domains/arts-and-aesthetics/design-principles/inclusive-design-for-diversity.md	82	fine	expect that most technology was not built	(unchanged)
+domains/arts-and-aesthetics/drawing-and-painting/hard-edges-soft-edges-control.md	57	garbled	in which most edge is soft	in which every edge is soft
+domains/arts-and-aesthetics/visual-elements-and-principles/unity-and-variety.md	82	fine	keeping most tones in the same range	(unchanged)
+domains/biology/biochemistry/enzyme-cofactors-and-coenzymes.md	52	fine	The mobility of most coenzymes	(unchanged)
+domains/biology/biochemistry/protein-tertiary-structure.md	56	fine	The cytoplasm of most cells	(unchanged)
+domains/biology/genetics-and-molecular-biology/gel-electrophoresis.md	84	fine	The most common is staining	(unchanged)
+domains/biology/genetics-and-molecular-biology/genetic-mapping.md	59	garbled	they is expected to be located on different chromosomes	they must be located on different chromosomes
+domains/biology/genomics-and-bioinformatics/multiple-sequence-alignment.md	60	fine	The most common is progressive alignment	(unchanged)
+domains/biology/life-science/extinction-ls.md	28	fine	The most famous was the asteroid impact	(unchanged)
+domains/biology/living-things/animal-groups.md	68	fine	Most birds can fly, but not all	(unchanged)
+domains/biology/microbiology/bacterial-cell-structure.md	66	fine	The outermost layer in most bacteria	(unchanged)
+domains/biology/physiology/coronary-circulation-myocardial-oxygen.md	31	fine	most flow does occur in diastole	(unchanged)
+domains/chemistry/general-chemistry/vsepr-theory.md	62	garbled	so they is expected to have the same molecular geometry	so they must have the same molecular geometry
+domains/chemistry/organic-chemistry/electrophilic-aromatic-substitution-directors.md	67	fine	whichever intermediate is most stable	(unchanged)
+domains/chemistry/physical-chemistry/bimolecular-reaction-dynamics.md	56	fine	Most energy is released as the new F-D bond forms	(unchanged)
+domains/computer-science/artificial-intelligence/heuristic-search-functions.md	64	garbled	h(n) = 0 for most states ... seldom provides	h(n) = 0 for all states ... never provides
+domains/computer-science/data-structures-and-algorithms/articulation-points-cut-vertices.md	73	fine	Most intersections can be closed	(unchanged)
+domains/computer-science/data-structures-and-algorithms/binary-trees.md	69	garbled	(most node has 0 or 2 children) is typically also complete (most levels filled)	(every node has 0 or 2 children) is always also complete (all levels filled)
+domains/computer-science/data-structures-and-algorithms/tries.md	62	garbled	most node reachable from the root represents a complete stored word	every node reachable from the root represents a complete stored word
+domains/computer-science/operating-systems/scheduling-algorithms.md	62	garbled	very small quantum typically improves responsiveness	very small quantum always improves responsiveness
+domains/computer-science/theory-of-computation/nondeterministic-finite-automata.md	64	garbled	accepts a string primarily if MOST possible computation paths	accepts a string only if ALL possible computation paths
+domains/earth-and-space-sciences/astronomy/big-bang-cosmology.md	86	fine	Third and most dramatic is the CMB	(unchanged)
+domains/earth-and-space-sciences/astronomy/electromagnetic-spectrum-astronomy.md	53	fine	opaque to most non-visible wavelengths	(unchanged)
+domains/earth-and-space-sciences/astronomy/electromagnetic-spectrum-astronomy.md	69	fine	Only visible light and most radio waves pass through	(unchanged)
+domains/earth-and-space-sciences/astronomy/stellar-properties-luminosity-temperature.md	72	fine	wavelength at which a star emits most strongly	(unchanged)
+domains/earth-and-space-sciences/earth-and-weather/severe-weather-storms-and-tornadoes.md	65	fine	Most weather is pleasant	(unchanged)
+domains/earth-and-space-sciences/earth-science/layers-of-the-atmosphere.md	53	fine	the upper stratosphere absorbs the most	(unchanged)
+domains/earth-and-space-sciences/earth-science/recycling-and-sustainability.md	35	fine	Most plastics can only be recycled once or twice	(unchanged)
+domains/earth-and-space-sciences/earth-science/recycling-and-sustainability.md	56	garbled	Most materials can be recycled an unlimited number of times (T/F false)	All materials can be recycled an unlimited number of times
+domains/earth-and-space-sciences/earth-science/recycling-and-sustainability.md	73	fine	Most plastics can only be recycled once or twice	(unchanged)
+domains/earth-and-space-sciences/oceanography/ocean-sediments-and-stratigraphy.md	82	fine	The most important is the CCD	(unchanged)
+domains/earth-and-space-sciences/oceanography/sea-level-change.md	79	fine	one of the most direct physical consequences	(unchanged)
+domains/economics/microeconomics/utility-function-representation.md	62	garbled	they is expected to have different underlying preferences	they must have different underlying preferences
+domains/engineering/circuits-and-electronics/node-voltage-method.md	63	fine	the node with the most connections	(unchanged)
+domains/engineering/design-and-build/brainstorming-solutions.md	44	fine	which brainstormed idea is most practical	(unchanged)
+domains/engineering/design-and-build/what-is-engineering.md	28	fine	Most engineering is done in teams	(unchanged)
+domains/engineering/fluid-mechanics/drag-coefficient-bluff-bodies.md	57	fine	most drag is pressure drag	(unchanged)
+domains/engineering/materials-science/high-entropy-alloys.md	67	fine	if most data is from equiatomic HEAs	(unchanged)
+domains/engineering/robotics-and-autonomous-systems/lidar-and-point-clouds.md	60	fine	The plane with the most inliers	(unchanged)
+domains/engineering/statics-and-dynamics/rigid-body-kinematics-rotation.md	61	garbled	has zero acceleration at most point	has zero acceleration at every point
+domains/engineering/thermodynamics-engineering/second-law-thermodynamics-entropy.md	57	fine	the component generating the most entropy	(unchanged)
+domains/formal-sciences-and-logic/category-theory/concrete-categories.md	49	fine	most set functions between groups fail to preserve	(unchanged)
+domains/formal-sciences-and-logic/category-theory/equivalence-of-categories.md	55	garbled	they is expected to also be isomorphic	they must also be isomorphic
+domains/formal-sciences-and-logic/set-theory/constructible-universe.md	67	garbled	the standard axioms that most set is constructible	the standard axioms that every set is constructible
+domains/formal-sciences-and-logic/set-theory/finite-sets-and-natural-numbers.md	59	garbled	well-defined primarily if someone has explicitly constructed	well-defined only if someone has explicitly constructed
+domains/health-and-human-development/epidemiology/propensity-score-analysis.md	64	garbled	near-zero SMDs for most covariates is evidence that the PS model was correctly specified	near-zero SMDs for all covariates proves that the PS model was correctly specified (matches explanation: balance is not proof)
+domains/health-and-human-development/nutrition-science/water-soluble-vitamins.md	71	fine	most water-soluble vitamins are indeed excreted	(unchanged)
+domains/health-and-human-development/pathophysiology/dysplasia-and-progression-to-malignancy.md	57	garbled	Most dysplasia is irreversible: progression is inevitable (T/F false)	All dysplasia is irreversible: progression is inevitable
+domains/health-and-human-development/pathophysiology/vasculitis-types-and-pathological-mechanisms.md	56	garbled	Most vasculitis is autoimmune in origin; infections do not directly cause (T/F false)	All vasculitis is autoimmune in origin (matches misconception "Not all vasculitis is autoimmune")
+domains/history/ancient-civilizations/greek-rational-philosophy-inquiry.md	67	fine	what is most real is what reason can best grasp	(unchanged)
+domains/history/medieval-world/indian-ocean-trade-network.md	41	fine	most trade was not backed by navies	(unchanged)
+domains/history/then-and-now/clothing-then-and-now.md	25	fine	Long ago, most clothing was made by hand	(unchanged)
+domains/history/then-and-now/clothing-then-and-now.md	42	fine	Long ago, most clothing was made by hand	(unchanged)
+domains/history/then-and-now/jobs-long-ago-vs-today.md	70	fine	Long ago, most work was done by hand	(unchanged)
+domains/language-and-communication/early-language-foundations/collaborative-discussion-skills.md	73	fine	Most children can talk. Fewer can discuss.	(unchanged)
+domains/language-and-communication/early-language-foundations/spelling-patterns.md	57	garbled	most words is expected to be memorized individually	most words must be memorized individually
+domains/language-and-communication/linguistics/multilingualism-and-code-switching.md	56	garbled	because they is expected to learn two systems	because they must learn two systems
+domains/language-and-communication/public-speaking/humor-in-public-speaking.md	24	fine	The safest and most effective humor for most speakers	(unchanged)
+domains/language-and-communication/public-speaking/impromptu-speaking.md	79	fine	The most common is PREP	(unchanged)
+domains/language-and-communication/public-speaking/speaker-credibility-building.md	58	fine	most research is contested, most evidence is partial	(unchanged)
+domains/language-and-communication/rhetoric-and-composition/essay-organization.md	67	fine	where the most damage is done	(unchanged)
+domains/language-and-communication/rhetoric-and-composition/synthesizing-multiple-sources.md	86	fine	The hardest part of synthesis for most writers	(unchanged)
+domains/literature/fiction/multi-protagonist-ensemble-narrative.md	58	garbled	most protagonists is expected to receive roughly equal page-time	all protagonists must receive roughly equal page-time
+domains/literature/reading-and-understanding-stories/series-books-and-recurring-characters.md	45	fine	False. Most series can be read in any order.	(unchanged)
+domains/mathematics/1st-grade/subtraction-within-10.md	88	fine	The most important thing ... The most familiar is take-away	(unchanged)
+domains/biology/biochemistry/enzyme-cofactors-and-coenzymes.md	49	garbled	[same-file] Most coenzymes are permanently bound ... can seldom transfer	All coenzymes are permanently bound ... can never transfer
+domains/language-and-communication/public-speaking/humor-in-public-speaking.md	62	garbled	[same-file] universally safe because it primarily targets the speaker and seldom risks offending	universally safe because it only targets the speaker and never risks offending
+domains/arts-and-aesthetics/visual-elements-and-principles/unity-and-variety.md	62	garbled	[same-file] A unified composition means most elements look the same	A unified composition means all elements look the same
+domains/chemistry/physical-chemistry/bimolecular-reaction-dynamics.md	58	garbled	[same-file] fully accounts for most of the reasons	fully accounts for all of the reasons
+domains/biology/microbiology/bacterial-cell-structure.md	51	garbled	[same-file] Most bacteria have flagella (T/F false)	All bacteria have flagella (matches misconception "all bacteria have flagella")
+domains/earth-and-space-sciences/oceanography/sea-level-change.md	66	garbled	[same-file] most coastal locations will experience roughly the same rise	all coastal locations will experience roughly the same rise
+domains/engineering/thermodynamics-engineering/second-law-thermodynamics-entropy.md	59	garbled	[same-file] Entropy typically increases in nearly every thermodynamic process	Entropy always increases in every thermodynamic process
+domains/computer-science/data-structures-and-algorithms/articulation-points-cut-vertices.md	53	garbled	[same-file] A leaf vertex is typically an articulation point	A leaf vertex is always an articulation point
+domains/engineering/fluid-mechanics/drag-coefficient-bluff-bodies.md	64	garbled	[same-file] fixed constant that depends mainly on geometry	fixed constant that depends only on geometry
+domains/engineering/design-and-build/what-is-engineering.md	40	garbled	[same-file] Engineers primarily build machines and computers	Engineers only build machines and computers
+domains/earth-and-space-sciences/astronomy/electromagnetic-spectrum-astronomy.md	50	garbled	[same-file] can observe most of the EM spectrum ... including X-rays	can observe all of the EM spectrum ... including X-rays
+domains/earth-and-space-sciences/astronomy/big-bang-cosmology.md	69	garbled	[same-file] rather than from most directions equally	rather than from all directions equally
+domains/mathematics/1st-grade/subtraction-within-10.md	73	garbled	[same-file] Subtraction can mainly be used when something is taken away	Subtraction can only be used when something is taken away

@@ -1,0 +1,59 @@
+domains/mathematics/3rd-grade/area-and-perimeter-problems.md	63	garbled	they is expected to also have the same perimeter	they must also have the same perimeter
+domains/mathematics/4th-grade/place-value-whole-numbers.md	62	fine	trickiest part for most students
+domains/mathematics/5th-grade/mean-median-mode.md	34	fine	most frequently occurring / most appropriate
+domains/mathematics/algebra-1/graphing-linear-equations.md	69	fine	most efficient method for most equations
+domains/mathematics/algebra-1/solving-multi-step-equations.md	78	fine	eliminates most of these errors
+domains/mathematics/calculus-1/area-between-curves.md	75	fine	hardest part of most problems
+domains/mathematics/calculus-1/optimization-problems.md	68	fine	where most effort is required
+domains/mathematics/complex-analysis/conformal-mappings.md	75	fine	builds the most intuition
+domains/mathematics/discrete-math/hamiltonian-circuits.md	57	garbled	if and only if most vertex has even degree	if and only if every vertex has even degree
+domains/mathematics/discrete-math/hamiltonian-cycles-discrete.md	56	garbled	(most vertex has degree >= n/2)	(every vertex has degree >= n/2)
+domains/mathematics/geometry/central-angles-and-arcs.md	61	garbled	they is expected to have the same arc length	they must have the same arc length
+domains/mathematics/graph-theory-and-combinatorics/halls-marriage-theorem.md	55	garbled	holds for most subset yet	holds for every subset yet
+domains/mathematics/linear-algebra/transformation-matrices.md	65	garbled	you should evaluate T on most vector	you must evaluate T on every vector
+domains/mathematics/methods-of-proof/function-types-and-bijections.md	59	garbled	most element of B should be the output	every element of B must be the output
+domains/mathematics/number-theory/introduction-ideal-class-group.md	62	garbled	most element fails to factor uniquely	every element fails to factor uniquely
+domains/mathematics/precalculus/vectors-in-two-dimensions.md	60	fine	turns most vector problems into arithmetic
+domains/music/advanced-music-theory/z-related-pitch-class-sets.md	82	fine	For most set sizes and cardinalities
+domains/music/composition/transition-and-bridge-writing.md	74	fine	Most important is dominant preparation
+domains/music/listening-and-musical-elements/ostinato-introduction.md	23	fine	Most music is built on repetition
+domains/music/music-history/historiography-and-canon-formation.md	58	garbled	implies most music is equally artistically valuable	implies all music is equally artistically valuable
+domains/music/music-theory-fundamentals/chord-inversions.md	63	fine	the most important is the cadential 6/4
+domains/music/music-theory-fundamentals/song-form.md	82	fine	the most important is verse-chorus form
+domains/music/musical-play-and-listening/long-and-short-sounds.md	57	fine	Most music has both long and short sounds
+domains/philosophy/applied-rationality/calibration-training.md	44	fine	most people's curves reveal overconfidence
+domains/philosophy/ethics/consequences-in-moral-evaluation.md	61	fine	Most other ethical frameworks / most people's moral intuitions
+domains/philosophy/metaphysics/personal-identity.md	65	fine	most people's intuition
+domains/philosophy/metaphysics/personal-identity.md	82	fine	most people's intuition
+domains/philosophy/metaphysics/properties-intrinsic-extrinsic.md	56	garbled	they is expected to share most their properties	they must share all their properties
+domains/philosophy/philosophy-of-mind/functionalism-philosophy-of-mind.md	60	garbled	to most inputs is expected to be conscious	to all inputs must be conscious
+domains/philosophy/philosophy-of-mind/mental-property-supervenience.md	80	fine	the most important is strong supervenience
+domains/philosophy/political-philosophy/libertarianism-political.md	66	garbled	rejects most state authority as illegitimate	rejects all state authority as illegitimate
+domains/philosophy/wondering-and-thinking/what-does-it-mean-to-be-brave.md	74	fine	most bravery does not look like that
+domains/physics/conceptual-physics/gravitational-potential-energy.md	62	fine	What matters in most problems
+domains/physics/electricity-and-magnetism/current-density-current-distribution.md	55	garbled	J is expected to also be the same at nearly every cross-section	J must also be the same at every cross-section
+domains/physics/thermodynamics/carnot-cycle.md	81	fine	most efficient possible heat engine
+domains/practical-life-skills/digital-literacy/email-composition-and-sending.md	33	garbled	Most email has a Trash folder	Most email services have a Trash folder
+domains/practical-life-skills/financial-literacy/disability-insurance-overview.md	81	fine	as most group plans work
+domains/practical-life-skills/financial-literacy/financial-independence-and-passive-income.md	85	fine	practical path to FI for most people
+domains/practical-life-skills/financial-literacy/financial-literacy-overview.md	76	fine	where most people's financial lives go wrong
+domains/practical-life-skills/financial-literacy/insurance-principles.md	65	fine	most working-age people / matters primarily if
+domains/practical-life-skills/financial-literacy/life-insurance-types.md	84	fine	right framework for most people
+domains/practical-life-skills/financial-literacy/risk-tolerance-personal-assessment.md	46	fine	This investor most likely has
+domains/practical-life-skills/financial-literacy/tax-planning-and-liability-management.md	79	fine	most accessible planning tool for most people
+domains/practical-life-skills/home-maintenance/basement-moisture-management.md	68	fine	most likely has a problem
+domains/practical-life-skills/home-maintenance/hardwood-floor-care-and-refinishing.md	79	fine	Most floors can be refinished 3-5 times
+domains/practical-life-skills/home-maintenance/home-maintenance-planning-budgeting-and-scheduling.md	57	fine	required by most homeowner's insurance policies (distractor)
+domains/practical-life-skills/home-maintenance/hvac-system-overview.md	80	fine	Heating in most homes
+domains/practical-life-skills/home-maintenance/plumbing-basics.md	78	fine	Most traps can be removed by hand
+domains/psychology/growing-up-and-getting-along/identity-and-self-concept.md	33	fine	most people's identities are complex
+domains/psychology/research-methods-psychology/validity-in-measurement.md	73	fine	surprises most students
+domains/social-sciences/anthropology/cross-cultural-comparison.md	93	garbled	or did most borrow it from one original?	or did they all borrow it from one original source?
+domains/social-sciences/international-relations-theory/relative-versus-absolute-gains.md	62	garbled	join an agreement primarily if it gains	join an agreement only if it gains
+domains/social-sciences/my-community-and-world/laws-and-government-basics.md	79	fine	goal of most laws / not mainly there to give tickets
+domains/social-sciences/research-methods-social-science/causal-inference-observational-data.md	70	fine	Most data is observational
+domains/social-sciences/sociology/education-as-institution.md	82	fine	advantage of the most educated
+domains/social-sciences/international-relations-theory/relative-versus-absolute-gains.md	57	garbled	(extra, same file) oppose most cooperation because states typically prioritize	oppose all cooperation because states always prioritize
+domains/practical-life-skills/home-maintenance/home-maintenance-planning-budgeting-and-scheduling.md	66	garbled	(extra, same file) will seldom need a reserve ... prevents most failures	will never need a reserve ... prevents all failures
+domains/social-sciences/research-methods-social-science/causal-inference-observational-data.md	53	garbled	(extra, same file) controlling for most available observed confounders	controlling for all available observed confounders
+domains/practical-life-skills/financial-literacy/insurance-principles.md	46	garbled	(extra, same file) buy insurance for most possible risk	buy insurance for every possible risk
