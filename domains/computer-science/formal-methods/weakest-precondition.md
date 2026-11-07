@@ -24,6 +24,17 @@ status: validated
 ## Core Idea
 The weakest precondition calculus, developed by Edsger Dijkstra, mechanizes backward reasoning about program correctness. For a command C and postcondition Q, the weakest precondition wp(C, Q) is the least restrictive condition on the initial state that guarantees Q after C executes. Any valid precondition P for the triple {P} C {Q} must imply wp(C, Q). The calculus provides recursive rules for computing wp through each language construct, turning correctness proofs into systematic predicate transformations rather than creative search for invariants.
 
+## How It's Best Learned
+
+Compute wp backward, one line at a time, through the swap `t := x; x := y; y := t` with postcondition x = b ∧ y = a, writing the intermediate assertion under each line. Then do a conditional, such as `if x < 0 then y := -x else y := x` with postcondition y ≥ 0, and see it reduce to true. Only then add a loop and a proposed invariant to check.
+
+## Common Misconceptions
+
+- For x := x + 3 and postcondition x > 10, you add 3 to the postcondition and get x > 13. (Substitution replaces x in Q by x + 3, giving x + 3 > 10, which simplifies to x > 7.)
+- Any precondition that makes the triple valid is the weakest precondition. (A valid precondition only has to imply wp(C, Q). For the example above, x > 100 works but is stronger than x > 7.)
+- wp(C, Q) promises Q only in the case where C happens to terminate. (In Dijkstra's definition wp also requires that C terminates. The version that ignores termination is the weakest liberal precondition, wlp. For example, wp(while true do skip, true) is false, while wlp of the same pair is true.)
+- The wp of a conditional is wp(C1, Q) ∨ wp(C2, Q). (A plain disjunction accepts states where B is true but only C2's precondition holds. The rule pairs each branch with its guard: (B ⇒ wp(C1, Q)) ∧ (¬B ⇒ wp(C2, Q)).)
+
 ## Questions
 
 ```yaml

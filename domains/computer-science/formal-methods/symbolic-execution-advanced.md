@@ -28,6 +28,17 @@ status: validated
 
 Advanced symbolic execution addresses scalability challenges through sophisticated path management, state abstraction, and hybrid techniques. **State merging** combines symbolic states that have converged to the same program point, replacing multiple path constraints with a single disjunctive constraint. **Directed symbolic execution** uses heuristics (distance to target, coverage guidance, anomaly detection) to prioritize paths toward interesting program regions, focusing computational effort on bug-finding. **Interprocedural symbolic execution** reasons across function boundaries without inlining, using function summaries to avoid re-exploring called functions. **Whole-system symbolic execution** (S2E, TriforceAFL) combines OS-level and program-level analysis, enabling symbolic reasoning about entire software stacks including kernel interactions. These techniques reduce path explosion from exponential blowup to manageable scale, enabling symbolic execution to scale to real-world code.
 
+## How It's Best Learned
+
+Take a function with k independent if statements in a row, such as `if (a[i] > 0) count++` for i from 0 to k-1, and count its 2^k paths. Then merge states at each join, writing count as an if-then-else term, and compare the number of states with the size of the final formula. Next, compute a summary for a small helper and reuse it at two call sites.
+
+## Common Misconceptions
+
+- Merging two states only requires joining their path constraints with OR. (Variables whose values differ on the two paths must also be merged, usually as if-then-else terms guarded by the branch condition, such as x = ite(c, 1, 2).)
+- State merging is always a win because it reduces the number of states. (Merged states produce larger formulas with disjunctions and if-then-else terms, which can make solver queries slower than exploring the paths separately. Tools use heuristics to decide when to merge.)
+- Directed symbolic execution is guaranteed to reach its target if the target is reachable. (The heuristics only change the order of exploration. A directed search can still run out of time or memory before it reaches a reachable target.)
+- If a symbolic execution run finds no bugs, the program has been proven correct. (Bounded loops, timeouts, concretized values and environment models leave paths unchecked. A clean run says nothing about the paths it did not explore.)
+
 ## Questions
 
 ```yaml

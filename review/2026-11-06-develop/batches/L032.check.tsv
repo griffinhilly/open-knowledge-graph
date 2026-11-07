@@ -1,0 +1,60 @@
+domains/computer-science/quantum-computing/bernstein-vazirani-algorithm.md	how	4	0	ok	worked s=10: |->|+> then |10> checks out
+domains/computer-science/quantum-computing/bernstein-vazirani-algorithm.md	mis	6	0	ok
+domains/computer-science/quantum-computing/bqp-and-quantum-complexity.md	how	3	0	ok
+domains/computer-science/quantum-computing/bqp-and-quantum-complexity.md	mis	8	0	ok	old text: Q0 explanation says factoring is not known to be in NP (it is in NP); Explainer says NP in PSPACE is "believed" (it is proven)
+domains/computer-science/quantum-computing/deutsch-jozsa-algorithm.md	how	4	0	ok	worked n=2: amplitude of |00> is 1 vs 0
+domains/computer-science/quantum-computing/deutsch-jozsa-algorithm.md	mis	6	0	ok
+domains/computer-science/quantum-computing/fault-tolerant-quantum-computation.md	how	5	0	ok	worked p_next=100p^2: 1e-4, 1e-6, 1e-10; 2e-2 -> 4e-2
+domains/computer-science/quantum-computing/fault-tolerant-quantum-computation.md	mis	8	0	ok	old text: threshold theorem credited only to Aharonov-Ben-Or (also Knill-Laflamme-Zurek, Kitaev)
+domains/computer-science/quantum-computing/grovers-search-algorithm.md	how	5	0	ok	worked N=4: mean 1/4, target -> 1, others -> 0, 2*theta = 60 deg
+domains/computer-science/quantum-computing/grovers-search-algorithm.md	mis	8	0	ok
+domains/computer-science/quantum-computing/no-cloning-theorem.md	how	4	0	ok
+domains/computer-science/quantum-computing/no-cloning-theorem.md	mis	8	0	ok
+domains/computer-science/quantum-computing/quantum-annealing.md	how	5	0	ok	worked: gap 2*sqrt((1-s)^2+s^2) = 2 at s=0, 1.414 at s=1/2
+domains/computer-science/quantum-computing/quantum-annealing.md	mis	8	0	ok	old text: Explainer says adiabatic QC "can solve any NP-complete problem (universal)"; D-Wave product names "5000, 5000Q+" look wrong
+domains/computer-science/quantum-computing/quantum-approximate-optimization.md	how	5	0	ok	worked single edge, gamma=pi/2, beta=pi/8: <C> = 1 exactly
+domains/computer-science/quantum-computing/quantum-approximate-optimization.md	mis	6	0	ok
+domains/computer-science/quantum-computing/quantum-chemistry-simulation.md	how	5	0	ok
+domains/computer-science/quantum-computing/quantum-chemistry-simulation.md	mis	8	0	ok	old text: Q1 explanation "2N electrons in N spin-orbitals" is garbled; BeH2 VQE demo used 6 qubits, not 2-4
+domains/computer-science/quantum-computing/quantum-circuits.md	how	4	0	ok
+domains/computer-science/quantum-computing/quantum-circuits.md	mis	8	0	ok	old text: Explainer "many gates but low depth ... than a shallow circuit with fewer gates" contradicts itself
+domains/computer-science/quantum-computing/quantum-communication-networks.md	how	4	0	ok	swapping identity checks: four matching Bell outcomes, 1/4 each
+domains/computer-science/quantum-computing/quantum-communication-networks.md	mis	8	1	fixed	repeater bullet said all repeaters work by swapping; third-generation repeaters use error-correction encoding instead -> "Most repeater designs". old text: Q2 is a true-false item with a "why" stem; "Insbruck" typo
+domains/computer-science/quantum-computing/quantum-entanglement-as-resource.md	how	4	0	ok
+domains/computer-science/quantum-computing/quantum-entanglement-as-resource.md	mis	8	0	ok
+domains/computer-science/quantum-computing/quantum-error-correction-basics.md	how	4	0	ok
+domains/computer-science/quantum-computing/quantum-error-correction-basics.md	mis	8	0	ok
+domains/computer-science/quantum-computing/quantum-error-correction-surface-codes.md	how	5	0	ok
+domains/computer-science/quantum-computing/quantum-error-correction-surface-codes.md	mis	8	0	ok	old text: Variants says 3D surface codes have a higher threshold (generally lower)
+domains/computer-science/quantum-computing/quantum-fourier-transform.md	how	4	0	ok	worked 4x4 QFT on both period-2 states
+domains/computer-science/quantum-computing/quantum-fourier-transform.md	mis	8	0	ok
+domains/computer-science/quantum-computing/quantum-gates.md	how	4	0	ok
+domains/computer-science/quantum-computing/quantum-gates.md	mis	8	0	ok	old text: Explainer says {H,T,CNOT} decomposes any unitary into a finite sequence, then says universality needs approximation
+domains/computer-science/quantum-computing/quantum-key-distribution.md	how	4	0	ok
+domains/computer-science/quantum-computing/quantum-key-distribution.md	mis	8	0	ok
+domains/computer-science/quantum-computing/quantum-machine-learning.md	how	3	0	ok
+domains/computer-science/quantum-computing/quantum-machine-learning.md	mis	8	0	ok
+domains/computer-science/quantum-computing/quantum-measurement-and-born-rule.md	how	4	0	ok
+domains/computer-science/quantum-computing/quantum-measurement-and-born-rule.md	mis	6	0	ok
+domains/computer-science/quantum-computing/quantum-phase-estimation.md	how	5	0	ok	worked S/|1>: QFT of |01>; phi=1/3 nearest outcome prob 0.700
+domains/computer-science/quantum-computing/quantum-phase-estimation.md	mis	6	0	ok	old text: Core Idea "O(n) controlled applications of U" sits uneasily with new bullet 3 (means controlled powers)
+domains/computer-science/quantum-computing/quantum-random-walks.md	how	4	0	ok	worked 3 Hadamard steps: 1/8, 5/8, 1/8, 1/8
+domains/computer-science/quantum-computing/quantum-random-walks.md	mis	6	0	ok	old text: element distinctness listed as N^(3/4); Ambainis walk gives O(N^(2/3)) (quantum-walks.md has it right)
+domains/computer-science/quantum-computing/quantum-shannon-theory.md	how	4	0	ok	worked rho, eigenvalues, S = 0.601
+domains/computer-science/quantum-computing/quantum-shannon-theory.md	mis	6	0	ok	old text: Q1 explanation claims computing quantum capacity is undecidable in general (not established)
+domains/computer-science/quantum-computing/quantum-simulation.md	how	4	0	ok	H^2 = 2I so closed form checks
+domains/computer-science/quantum-computing/quantum-simulation.md	mis	8	0	ok	old text: Q1 answer O(t^3/k^2) is the second-order error; first-order Trotter is O(t^2/k) (option 0); Explainer repeats it; Q2 true-false has a "what" stem
+domains/computer-science/quantum-computing/quantum-supremacy-and-advantage.md	how	4	0	ok	8.6 GB and 72 PB check
+domains/computer-science/quantum-computing/quantum-supremacy-and-advantage.md	mis	8	0	ok
+domains/computer-science/quantum-computing/quantum-supremacy-complexity.md	how	3	0	ok
+domains/computer-science/quantum-computing/quantum-supremacy-complexity.md	mis	6	0	ok	old text: Grover listed as evidence for BQP > P (a quadratic speedup separates nothing)
+domains/computer-science/quantum-computing/quantum-teleportation.md	how	4	0	ok	regrouping gives psi, Z psi, X psi, XZ psi with coefficient 1/2
+domains/computer-science/quantum-computing/quantum-teleportation.md	mis	8	0	ok
+domains/computer-science/quantum-computing/quantum-walks.md	how	4	0	ok	sin^2(gamma t) and (1-e^(-2 gamma t))/2 check; peaks t/sqrt(2) = 71
+domains/computer-science/quantum-computing/quantum-walks.md	mis	6	0	ok
+domains/computer-science/quantum-computing/qubits-and-quantum-states.md	how	4	0	ok
+domains/computer-science/quantum-computing/qubits-and-quantum-states.md	mis	8	0	ok	old text: Explainer Bloch form ends in "sin(theta/2)|0>"; should be |1>
+domains/computer-science/quantum-computing/shors-algorithm.md	how	6	0	ok	worked N=15, a=7: r=4, gcds 3 and 5, peaks 0/4/8/12
+domains/computer-science/quantum-computing/shors-algorithm.md	mis	8	0	ok
+domains/computer-science/quantum-computing/simons-algorithm.md	how	4	0	ok	worked s=110: table, orthogonal set, solve from 001 and 111
+domains/computer-science/quantum-computing/simons-algorithm.md	mis	8	0	ok	old text: Explainer gives O(n^2) total time, then O(n^3) for Gaussian elimination

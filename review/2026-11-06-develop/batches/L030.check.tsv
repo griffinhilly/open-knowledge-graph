@@ -1,0 +1,60 @@
+domains/computer-science/machine-learning-theory/agnostic-pac-learning.md	how	4	0	ok
+domains/computer-science/machine-learning-theory/agnostic-pac-learning.md	mis	6	0	ok
+domains/computer-science/machine-learning-theory/bandit-problems.md	how	4	0	ok
+domains/computer-science/machine-learning-theory/bandit-problems.md	mis	6	1	fixed	Bullet 2 said Thompson sampling is "the method" that explores through randomness; epsilon-greedy and EXP3 also randomize. Softened to "methods such as".
+domains/computer-science/machine-learning-theory/bias-complexity-tradeoff-formal.md	how	3	0	ok
+domains/computer-science/machine-learning-theory/bias-complexity-tradeoff-formal.md	mis	6	1	fixed	Bullet 1 defined approximation error as the raw best-in-class risk; the Explainer defines it as excess over the Bayes risk (and bullet 3 relies on that). Aligned to the Explainer's definition.
+domains/computer-science/machine-learning-theory/boosting-theory.md	how	4	0	ok	Worked the ++--++ three-round AdaBoost by hand: errors 1/3, 1/4, 1/6; zero training error after round 3 (needs a constant stump allowed in round 3). Works.
+domains/computer-science/machine-learning-theory/boosting-theory.md	mis	6	0	ok
+domains/computer-science/machine-learning-theory/causal-inference-ml.md	how	3	0	ok
+domains/computer-science/machine-learning-theory/causal-inference-ml.md	mis	6	1	fixed	Bullet 2 said that with unmeasured confounding the effect "is not identified at any sample size"; front-door or instrument designs can identify it. Added "often". Old Explainer has the same overstatement, and its do-calculus rule conditions are wrong.
+domains/computer-science/machine-learning-theory/computational-statistical-tradeoffs.md	how	4	1	fixed	Exercise asked to code the degree detector right after setting n = 10^6; a G(10^6, 1/2) graph has ~2.5e11 edges and cannot be stored. Added a small n (2,000) for the coding step. Thresholds 40 and 1000 check out.
+domains/computer-science/machine-learning-theory/computational-statistical-tradeoffs.md	mis	6	1	fixed	Bullet 3 said efficient algorithms "still succeed once they get more data"; for some problems (e.g. noisy parity) no efficient algorithm is known at any polynomial sample size, and the file's own short answer says so. Softened to "in many such problems".
+domains/computer-science/machine-learning-theory/concentration-inequalities.md	how	4	0	ok	Checked n = ln(40)/0.005 = 737.8 and Chebyshev 1/(4nt^2). Old Q1 option 0 is a garbled distractor ("About 200 samples ... = 738").
+domains/computer-science/machine-learning-theory/concentration-inequalities.md	mis	6	0	ok
+domains/computer-science/machine-learning-theory/contrastive-learning-theory.md	how	4	0	ok	Equal similarities with 4 candidates give loss log 4 and bound log N - loss = 0. Checks out.
+domains/computer-science/machine-learning-theory/contrastive-learning-theory.md	mis	6	0	ok	New bullet 1 is right; old Q2 answer and Explainer wrongly say minimizing the loss is "equivalent" to maximizing MI. Old Explainer also misattributes redundancy reduction to SimSiam (that is Barlow Twins).
+domains/computer-science/machine-learning-theory/convex-optimization-fundamentals.md	how	4	0	ok
+domains/computer-science/machine-learning-theory/convex-optimization-fundamentals.md	mis	6	1	fixed	Bullet 2 said strong duality "needs" a constraint qualification; CQs are sufficient, not necessary. Rewrote: it can fail; Slater guarantees it.
+domains/computer-science/machine-learning-theory/deep-learning-theory.md	how	5	1	fixed	Promised "the three questions ... each with a small experiment" but gave only two (depth, generalization). Reworded the opener. Tent-map facts (2 units/layer, 2^k pieces, >= 2^k - 1 shallow units) check out.
+domains/computer-science/machine-learning-theory/deep-learning-theory.md	mis	6	0	ok
+domains/computer-science/machine-learning-theory/diffusion-models-theory.md	how	4	0	ok	Uses alpha-bar notation while Explainer uses alpha_t for the cumulative product; notation mismatch only. Old Q4 is a "What advantage" question typed true-false.
+domains/computer-science/machine-learning-theory/diffusion-models-theory.md	mis	6	0	ok
+domains/computer-science/machine-learning-theory/double-descent-phenomenon.md	how	4	0	ok
+domains/computer-science/machine-learning-theory/double-descent-phenomenon.md	mis	6	0	ok
+domains/computer-science/machine-learning-theory/expert-problem-and-hedge-algorithm.md	how	4	0	ok	Worked the leader-loses sequence: FTL loses every round, best expert ~T/2.
+domains/computer-science/machine-learning-theory/expert-problem-and-hedge-algorithm.md	mis	6	0	ok	sqrt(ln 1e6 / ln 10) = sqrt(6) = 2.45 checks out.
+domains/computer-science/machine-learning-theory/fairness-ml-theory.md	how	5	1	fixed	"50 true positives" misused the confusion-matrix term (the true positives are 40); changed to "50 are actually positive". Arithmetic 45/24 selected, precision 40/45 vs 16/24 checks out.
+domains/computer-science/machine-learning-theory/fairness-ml-theory.md	mis	6	0	ok	Old Explainer conflates equalized odds with equal opportunity.
+domains/computer-science/machine-learning-theory/fundamental-theorem-statistical-learning.md	how	4	0	ok	Interval growth function m(m+1)/2 + 1 equals the Sauer sum for d = 2. Checks out.
+domains/computer-science/machine-learning-theory/fundamental-theorem-statistical-learning.md	mis	6	0	ok
+domains/computer-science/machine-learning-theory/generalization-bounds-deep-networks.md	how	3	0	ok
+domains/computer-science/machine-learning-theory/generalization-bounds-deep-networks.md	mis	6	0	ok
+domains/computer-science/machine-learning-theory/graph-neural-network-theory.md	how	3	0	ok
+domains/computer-science/machine-learning-theory/graph-neural-network-theory.md	mis	6	0	ok
+domains/computer-science/machine-learning-theory/growth-function-and-shattering.md	how	4	0	ok
+domains/computer-science/machine-learning-theory/growth-function-and-shattering.md	mis	6	0	ok
+domains/computer-science/machine-learning-theory/implicit-regularization.md	how	4	0	ok	Worked: from (3,0) GD converges to (2.5,-0.5). Old Explainer says smaller learning rate gives stronger implicit regularization, which reverses the usual finding.
+domains/computer-science/machine-learning-theory/implicit-regularization.md	mis	6	0	ok
+domains/computer-science/machine-learning-theory/information-bottleneck-theory.md	how	4	0	ok	Worked the 4-point example: objectives 1-2b, 1-b, 0; claims hold. Old Q4 calls VIB's bound on I(T;X) a lower bound (it is an upper bound); old Explainer states the disputed compression phase as fact.
+domains/computer-science/machine-learning-theory/information-bottleneck-theory.md	mis	6	0	ok
+domains/computer-science/machine-learning-theory/information-theoretic-lower-bounds.md	how	4	0	ok	KL ~ 2n eps^2, Pinsker TV <= eps sqrt(n), n < 1/(4 eps^2) gives average test error > 1/4. Checks out. Old Q1 keys answer 0, but its own explanation supports option 1.
+domains/computer-science/machine-learning-theory/information-theoretic-lower-bounds.md	mis	6	0	ok
+domains/computer-science/machine-learning-theory/kernel-theory-and-rkhs.md	how	4	0	ok	Old Q3 explanation writes |f(x)| <= K||f||; should be sqrt(K)||f||.
+domains/computer-science/machine-learning-theory/kernel-theory-and-rkhs.md	mis	6	0	ok
+domains/computer-science/machine-learning-theory/lottery-ticket-hypothesis.md	how	3	0	ok
+domains/computer-science/machine-learning-theory/lottery-ticket-hypothesis.md	mis	6	0	ok
+domains/computer-science/machine-learning-theory/minimax-rates-and-optimal-estimation.md	how	4	0	ok	Checked 100^(3/2) = 1,000 and 100^6 = 10^12.
+domains/computer-science/machine-learning-theory/minimax-rates-and-optimal-estimation.md	mis	6	0	ok
+domains/computer-science/machine-learning-theory/multiplicative-weights-method.md	how	4	0	ok	Old Explainer: 1e6 vs 2 experts ratio is sqrt(ln 1e6 / ln 2) ~ 4.5, not 3.7.
+domains/computer-science/machine-learning-theory/multiplicative-weights-method.md	mis	6	0	ok
+domains/computer-science/machine-learning-theory/neural-network-approximation-theory.md	how	4	0	ok	Max interpolation error for x^2 with N pieces is h^2/4 = 1/(4N^2). Checks out.
+domains/computer-science/machine-learning-theory/neural-network-approximation-theory.md	mis	6	0	ok
+domains/computer-science/machine-learning-theory/neural-scaling-laws.md	how	3	0	ok	Old short answer says doubling compute means doubling both N and D (that is 4x compute) and contradicts the new How; old Explainer credits Hoffmann et al. to OpenAI (DeepMind).
+domains/computer-science/machine-learning-theory/neural-scaling-laws.md	mis	6	0	ok
+domains/computer-science/machine-learning-theory/neural-tangent-kernel.md	how	4	1	fixed	Width sweep with no parameterization stated: under standard parameterization at a fixed step size, wide nets do not show the claimed lazy behavior (and may diverge); under mean-field they do not. Specified NTK parameterization.
+domains/computer-science/machine-learning-theory/neural-tangent-kernel.md	mis	6	0	ok	New bullet 1 is right; old Q1 explanation wrongly says learning happens only in the final layer.
+domains/computer-science/machine-learning-theory/no-free-lunch-theorems.md	how	4	0	ok	256 functions, 8 completions, average accuracy 1/2. Checks out. Old Core Idea cites Wolpert and Macready 1997 (optimization NFL) for the learning NFL (Wolpert 1996).
+domains/computer-science/machine-learning-theory/no-free-lunch-theorems.md	mis	6	0	ok
+domains/computer-science/machine-learning-theory/online-learning-and-regret-bounds.md	how	4	1	fixed	"Let randomized Hedge play the same game": if the adversary still flips Hedge's sampled prediction, Hedge also loses every round. Specified that the adversary fixes each bit before Hedge's draw.
+domains/computer-science/machine-learning-theory/online-learning-and-regret-bounds.md	mis	6	0	ok

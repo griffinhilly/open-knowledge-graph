@@ -25,6 +25,17 @@ status: validated
 ## Core Idea
 Session types are a type discipline for communication-centric programs that assigns types to communication channels, specifying the sequence, direction, and payload types of messages exchanged between processes. A session type like !Int.?Bool.end describes a channel that first sends an integer, then receives a Boolean, then closes. The type system statically guarantees that communicating processes follow their protocols: messages are sent and received in the correct order with the correct types, and every session is properly completed. Violations — sending when the protocol expects receiving, sending the wrong type, or abandoning a session — are caught at compile time.
 
+## How It's Best Learned
+
+Write a small server protocol as a session type with one branching point, for example a server that offers "add" (receive two Ints, send an Int) or "quit". Derive the client's dual type by hand. Then type-check both processes line by line, writing the endpoint's remaining type after each action. Finally, swap one send for a receive and find the step where typing fails.
+
+## Common Misconceptions
+
+- Both endpoints of a channel have the same session type. (They have dual types. Each send on one side matches a receive on the other, and each offered branch matches a selection.)
+- Linearity means a channel can carry only one message. (Linearity means one process owns the endpoint at a time and each stage of its type is used once. An endpoint of type !Int.!Int.end performs two sends in sequence.)
+- Any session type system rules out deadlock. (Basic binary session types guarantee that each session follows its protocol. Processes that interleave several sessions can still deadlock unless the system adds extra structure, such as an ordering on channel use.)
+- The process holding a branching type &{...} chooses which branch runs. (The & side offers the branches. The process holding the dual selection type picks the label.)
+
 ## Questions
 
 ```yaml

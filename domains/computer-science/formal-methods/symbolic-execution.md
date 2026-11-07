@@ -26,6 +26,17 @@ status: validated
 ## Core Idea
 Symbolic execution runs a program with symbolic values (placeholders like alpha, beta) instead of concrete inputs, tracking how these symbols propagate through computations and accumulating path constraints at each branch. When the program branches on a condition involving symbolic values, execution forks: one path adds the condition as a constraint, the other adds its negation. Each path's constraint set characterizes exactly which concrete inputs would follow that path. Feeding path constraints to an SMT solver generates concrete test inputs or proves path infeasibility. Symbolic execution systematically explores all program paths, enabling high-coverage test generation, bug finding, and bounded verification.
 
+## How It's Best Learned
+
+Trace a short function by hand: `z = 2*y; if (z == x) { if (x > y + 10) error(); }`. Keep a table with one row per path, listing the symbolic store and the path constraint. Then solve the error path's constraint, 2β = α ∧ α > β + 10, to get a concrete test such as y = 11, x = 22. Running the same function through a tool afterward confirms the table.
+
+## Common Misconceptions
+
+- A symbolic executor tries every possible input value. (It reasons about sets of inputs through constraints on symbols. One path stands for every input that satisfies its path constraint.)
+- When execution forks at a branch, both sides are reachable. (One side may be infeasible under the current path constraint. The executor asks the solver and drops any side whose constraint is unsatisfiable.)
+- The path constraint records every assignment the program makes. (The path constraint is the conjunction of branch conditions on the path. Assignments go into a separate symbolic store that maps each variable to an expression over the input symbols.)
+- Concolic execution explores every path that pure symbolic execution would. (Concrete values let it get past operations it cannot model, but it can miss paths that depend on those concretized values.)
+
 ## Questions
 
 ```yaml

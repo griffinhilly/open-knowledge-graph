@@ -26,6 +26,17 @@ status: validated
 
 Advanced separation logic extends the foundational framework with higher-order predicates, quantitative reasoning about resource ownership, and sophisticated concurrent reasoning principles. Beyond basic spatial reasoning with the separating conjunction, advanced techniques include: concurrent separation logic with rely-guarantee reasoning for thread-local invariants; deny-guarantee specifications that restrict when threads can interfere; abstract predicates (higher-order functions) for modular specification of recursive data structures; and quantitative separation logic tracking resource consumption (time, memory, bandwidth). These extensions make separation logic applicable to complex concurrent systems, device drivers, and operating system kernels where precise ownership and resource accounting are critical.
 
+## How It's Best Learned
+
+Start with two threads that increment a shared counter under a lock. First prove it with a lock resource invariant, where each thread owns the counter only inside its critical section. Then redo the same proof with explicit rely and guarantee relations and check that each thread's guarantee implies the other's rely. To prove that the final value is 2, both styles need auxiliary variables that record each thread's contribution. Comparing the two proofs shows what each style buys.
+
+## Common Misconceptions
+
+- Concurrent separation logic forbids threads from sharing any memory. (Threads can share state through locks or other resources with an invariant. Ownership of the shared cells moves to a thread while it holds the lock and moves back on release.)
+- The rely condition is something a thread proves about the other threads. (The rely is an assumption used while verifying one thread. It is discharged separately by checking that every other thread's guarantee implies it.)
+- Verifying each thread on its own ignores interleavings, so the result cannot hold for the whole program. (Interference is accounted for by the rely conditions or resource invariants. Each thread's proof holds under any interleaving whose steps respect them.)
+- Resource credits behave like ordinary logical facts that can be reused. (Credits are combined with the separating conjunction, so credits(m + n) splits into credits(m) * credits(n) and cannot be duplicated. This is what lets them bound cost.)
+
 ## Questions
 
 ```yaml

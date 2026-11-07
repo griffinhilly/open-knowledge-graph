@@ -28,6 +28,17 @@ status: validated
 ## Core Idea
 Satisfiability Modulo Theories (SMT) extends SAT solving to formulas involving richer logical structures: integer and real arithmetic, arrays, bitvectors, strings, and uninterpreted functions. An SMT solver combines a CDCL-based SAT engine with specialized **theory solvers** (decision procedures) for each supported theory. The dominant architecture, DPLL(T), uses the SAT engine to handle the Boolean structure of the formula while delegating theory-specific reasoning to the appropriate solvers. When multiple theories appear in the same formula, the **Nelson-Oppen combination** method ensures that theory solvers cooperate correctly by exchanging equalities over shared variables. SMT solvers like Z3, CVC5, and MathSAT are the primary back-end engines for program verification, symbolic execution, and constraint solving.
 
+## How It's Best Learned
+
+Run DPLL(T) by hand on (x > 2 ∨ b) ∧ (x < 1) ∧ ¬b. Replace each theory atom with a Boolean variable, let the SAT engine assign them, and pass the true atoms to an arithmetic solver to get a conflict clause. Then try Nelson-Oppen on x ≤ y ∧ y ≤ x ∧ f(x) ≠ f(y), where arithmetic derives x = y and hands it to the function solver.
+
+## Common Misconceptions
+
+- The SAT engine understands the arithmetic in the formula. (In DPLL(T) the SAT engine treats each theory atom as an opaque Boolean variable. Only the theory solver interprets an atom such as x > 2.)
+- In Nelson-Oppen combination, the theory solvers share every fact they derive. (They exchange only equalities between shared variables, plus case splits on such equalities when a theory is non-convex.)
+- If the solver returns "unknown", the formula is probably satisfiable. (Unknown means the solver gave up, which often happens with quantifiers or nonlinear arithmetic. It does not settle the question either way.)
+- Integer arithmetic is easier than real arithmetic because integers are discrete. (Conjunctions of linear real constraints can be decided in polynomial time. Linear integer arithmetic is NP-complete, so the integrality requirement makes it harder.)
+
 ## Questions
 
 ```yaml

@@ -27,6 +27,17 @@ status: validated
 ## Core Idea
 Temporal logics extend propositional logic with operators that express properties over time, enabling specification of system behaviors like "every request is eventually granted" (liveness) or "the system never enters an error state" (safety). Linear Temporal Logic (LTL) reasons about individual execution paths using operators like G (globally/always), F (finally/eventually), X (next), and U (until). Computation Tree Logic (CTL) reasons about the branching tree of all possible futures, combining path quantifiers (A = all paths, E = some path) with temporal operators. LTL and CTL have incomparable expressive power: each can express properties the other cannot.
 
+## How It's Best Learned
+
+Draw a three-state structure: s0 (p) loops to itself or moves to s1 (not p), and s1 moves to s2 (p), which loops forever. Unroll it into a computation tree a few levels deep. Check that every path satisfies F G p, then check that the CTL formula AF AG p fails on the path that stays in s0. This one example shows why the two logics differ.
+
+## Common Misconceptions
+
+- F G p and AF AG p say the same thing. (In the three-state example above, every path eventually stays in p-states, so F G p holds. AF AG p fails because the path that stays in s0 never reaches a state from which all futures keep p.)
+- The CTL formula EF p can be written in LTL as F p. (F p over all paths demands that every path reach p. EF p asks for one such path, and no LTL formula expresses it.)
+- An LTL property is checked against a single run of the system. (A system satisfies an LTL formula when every path from its initial states satisfies it. A single run can show a violation, but it cannot show that the property holds.)
+- F p requires p to hold strictly after the current state. (In the usual semantics F p is satisfied if p holds now. The next-state operator X is the one that skips the current position.)
+
 ## Questions
 
 ```yaml

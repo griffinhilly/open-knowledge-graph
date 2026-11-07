@@ -26,6 +26,17 @@ status: validated
 ## Core Idea
 Separation logic extends Hoare logic with spatial connectives for reasoning about programs that manipulate heap memory. Its central operator, the separating conjunction P * Q, asserts that the heap can be split into two disjoint parts, one satisfying P and the other satisfying Q. This enables local reasoning: a specification for a function describes only the heap fragment the function touches, and the frame rule automatically extends this to any larger heap. Separation logic makes it practical to verify pointer-manipulating programs — linked lists, trees, graphs — that are intractable in standard Hoare logic.
 
+## How It's Best Learned
+
+Prove a swap procedure by hand: {x -> a * y -> b} swap(x, y) {x -> b * y -> a}. Then try the same proof in plain Hoare logic and notice the extra case for x = y. Next, apply the frame rule to add an untouched cell z -> c. Finally, define a list-segment predicate and use it to specify list traversal.
+
+## Common Misconceptions
+
+- P * Q means the same as P ∧ Q. (P ∧ Q says both hold of the same heap. P * Q needs the heap to split into disjoint parts, so x -> 1 ∧ x -> 1 can hold while x -> 1 * x -> 1 cannot.)
+- The assertion x -> v allows other cells to be in the heap. (In the reading used here, x -> v describes a heap with exactly one cell. Other cells must be added with the separating conjunction.)
+- The frame rule lets you carry any assertion across any command. (The frame must be joined with * to the command's footprint, and the command must not modify the frame's free variables. An assertion about cells the command touches cannot be framed.)
+- Separation logic cannot describe aliasing. (Disjointness is the default only between parts joined by *. Aliasing is stated with ordinary equality, for example x -> v ∧ y = x.)
+
 ## Questions
 
 ```yaml

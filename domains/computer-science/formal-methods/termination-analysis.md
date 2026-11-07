@@ -25,6 +25,17 @@ status: validated
 ## Core Idea
 Termination analysis determines whether a program's loops and recursion always finish, rather than running forever. While the halting problem is undecidable in general, practical termination provers succeed on a wide class of real programs by finding ranking functions — expressions that decrease with each loop iteration or recursive call, bounded below by some well-founded ordering. If such a function exists, the loop must terminate. Modern tools like T2, AProVE, and the termination checkers in Coq and Agda use techniques ranging from linear ranking functions to lexicographic orderings to transition invariants, automatically proving termination for the vast majority of practical loops.
 
+## How It's Best Learned
+
+Work through three loops in order, checking two conditions each time: the measure is bounded below while the guard holds, and it strictly decreases on every iteration. Start with `while (i > 0) i--`. Then try `while (i > 0) { if (j > 0) j--; else { i--; j = n; } }`, where n is a fresh non-negative input on each reset and j starts non-negative; it needs the lexicographic pair (i, j). End with the Collatz loop, for which no termination proof is known.
+
+## Common Misconceptions
+
+- The halting problem means termination can never be proven automatically. (Undecidability rules out one algorithm that works for every program. Tools still prove termination for many specific programs and answer "unknown" on the rest.)
+- A ranking function only needs to decrease on each iteration. (It must also be bounded below, or map into a well-founded set. Over the integers, x decreases in `while (true) x--`, but the loop runs forever because x has no lower bound.)
+- If no linear ranking function exists, the loop does not terminate. (Some terminating loops need lexicographic or other richer arguments. The loop above that resets j to an arbitrary value terminates but has no linear ranking function.)
+- If Coq rejects a recursive function, the function does not terminate. (Coq's checker accepts recursion it can see is structural. A terminating function may be rejected until it is rewritten or given an explicit well-founded measure.)
+
 ## Questions
 
 ```yaml
