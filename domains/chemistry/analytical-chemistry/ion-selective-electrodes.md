@@ -6,6 +6,8 @@ course: analytical-chemistry
 prerequisites:
 - id: potentiometry
   type: hard
+- id: activity-coefficients-ionic-strength
+  type: soft
 tags:
 - ISE
 - glass electrode

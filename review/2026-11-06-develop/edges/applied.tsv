@@ -631,3 +631,8 @@ ADD	air-resistance-and-drag	drag-coefficient-bluff-bodies	soft
 ADD	rutherford-scattering	nuclear-structure	soft
 ADD	michelson-interferometer	special-relativity-postulates	soft
 ADD	finite-square-well	nuclear-shell-model-magic-numbers	soft
+ADD	acid-strength-and-molecular-structure	acidity-organic-compounds-pka	soft
+ADD	significant-figures-in-measurement	uncertainty-propagation	soft
+ADD	alkene-epoxidation-peroxy-acids	epoxide-ring-opening	soft
+ADD	activity-coefficients-ionic-strength	ion-selective-electrodes	soft
+ADD	activity-coefficients-ionic-strength	solution-thermodynamics-activity-models	soft

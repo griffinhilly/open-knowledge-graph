@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: hydrogen-bonding-energetics
   type: soft
+- id: activity-coefficients-ionic-strength
+  type: soft
 builds-toward:
 - phase-diagrams-binary-mixtures
 tags:

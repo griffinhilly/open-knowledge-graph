@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: resonance-in-organic-intermediates
   type: hard
+- id: acid-strength-and-molecular-structure
+  type: soft
 builds-toward:
 - enolate-alkylation-malonic-ester
 tags:

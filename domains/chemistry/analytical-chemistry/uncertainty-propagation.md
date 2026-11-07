@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: partial-derivatives
   type: soft
+- id: significant-figures-in-measurement
+  type: soft
 tags:
 - error propagation
 - uncertainty

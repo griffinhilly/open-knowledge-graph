@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: nucleophilic-addition-to-carbonyls
   type: soft
+- id: alkene-epoxidation-peroxy-acids
+  type: soft
 tags:
 - epoxide
 - ring-opening

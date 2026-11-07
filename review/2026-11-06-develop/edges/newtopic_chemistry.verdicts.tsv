@@ -1,0 +1,7 @@
+ADD	latimer-and-frost-diagrams	corrosion-chemistry-and-protection	soft	high	Pourbaix-diagram reasoning in corrosion extends Latimer/Frost stability analysis to pH.
+ADD	acid-strength-and-molecular-structure	acidity-organic-compounds-pka	soft	high	Organic pKa trends reuse the bond-strength and conjugate-base-stability arguments.
+ADD	photoelectron-spectroscopy-pes	characterization-methods-tem-sem-xps	soft	high	XPS is the surface application of the PES binding-energy principle.
+ADD	significant-figures-in-measurement	uncertainty-propagation	soft	high	Formal uncertainty propagation generalizes significant-figure rules.
+ADD	alkene-epoxidation-peroxy-acids	epoxide-ring-opening	soft	high	Ring opening acts on epoxides that are usually made by peroxy-acid epoxidation.
+ADD	activity-coefficients-ionic-strength	ion-selective-electrodes	soft	high	ISE readings depend on activity coefficients; the topic's TISAB rationale assumes this concept.
+ADD	activity-coefficients-ionic-strength	solution-thermodynamics-activity-models	soft	high	Activity-coefficient models generalize the Debye–Hückel treatment of ionic activity.

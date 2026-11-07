@@ -7,3 +7,4 @@ bt_mathematics_p01.verdicts.tsv
 bt_physics.agreed.tsv
 newtopic_biology.verdicts.tsv
 newtopic_physics.verdicts.tsv
+newtopic_chemistry.verdicts.tsv
