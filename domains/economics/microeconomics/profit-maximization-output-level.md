@@ -6,6 +6,8 @@ course: microeconomics
 prerequisites:
 - id: long-run-average-cost
   type: hard
+- id: marginal-analysis-cost-benefit
+  type: soft
 builds-toward:
 - shutdown-condition-firm-loss
 - supply-competitive-firm

@@ -667,3 +667,16 @@ ADD	glaciers-and-glaciation	ice-core-paleoclimate-analysis	soft
 ADD	earths-spheres-and-system-interactions	feedback-mechanisms-in-climate	soft
 ADD	topographic-maps	geomorphology	soft
 ADD	borehole-geophysics-well-logging	synthetic-seismogram-modeling	soft
+ADD	economic-systems-resource-allocation	supply-and-demand-basics	soft
+ADD	marginal-analysis-cost-benefit	profit-maximization-output-level	soft
+ADD	marginal-analysis-cost-benefit	marginal-utility-and-consumer-choice	soft
+ADD	marginal-analysis-cost-benefit	externalities-and-market-failure	soft
+ADD	tax-system-design-efficiency-equity	social-welfare-optimization	soft
+ADD	tax-system-design-efficiency-equity	automatic-stabilizers-fiscal-tools	soft
+ADD	expected-utility-and-risk-aversion	risk-and-return-tradeoff	soft
+ADD	expected-utility-and-risk-aversion	moral-hazard-insurance	soft
+ADD	bank-runs-and-deposit-insurance	financial-system-interconnectedness	soft
+ADD	finite-distributed-lag-models	lagged-dependent-variable-regression	soft
+ADD	capital-structure-modigliani-miller	dividend-policy-and-valuation	soft
+ADD	samuelson-condition-public-goods	vcg-auction-mechanism	soft
+ADD	harrod-domar-growth-model	foreign-aid-effectiveness	soft

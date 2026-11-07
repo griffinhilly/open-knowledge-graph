@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mechanism-design-basics
   type: hard
+- id: samuelson-condition-public-goods
+  type: soft
 tags:
 - mechanism-design
 - auctions

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: natural-monopoly
   type: soft
+- id: marginal-analysis-cost-benefit
+  type: soft
 builds-toward:
 - public-goods-and-common-resources
 tags:

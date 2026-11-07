@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: information-asymmetry-and-selection
   type: soft
+- id: expected-utility-and-risk-aversion
+  type: soft
 tags:
 - moral-hazard
 - incentives

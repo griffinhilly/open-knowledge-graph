@@ -1,0 +1,21 @@
+ADD	economic-systems-resource-allocation	supply-and-demand-basics	soft	high	Price-guided allocation is the setting supply and demand formalizes
+ADD	marginal-analysis-cost-benefit	profit-maximization-output-level	soft	high	MR = MC is the firm's case of the general MB = MC rule
+ADD	marginal-analysis-cost-benefit	marginal-utility-and-consumer-choice	soft	high	Consumer choice applies the marginal rule per dollar spent
+ADD	marginal-analysis-cost-benefit	externalities-and-market-failure	soft	high	Social optimum is defined by marginal social benefit = marginal social cost
+ADD	marginal-analysis-cost-benefit	sunk-cost-fallacy	soft	high	The fallacy is defined against the rule that sunk costs drop out of marginal comparisons
+ADD	tariffs-and-import-quotas	trade-and-development	soft	high	Protection and infant-industry debates use the tariff welfare analysis
+ADD	tax-system-design-efficiency-equity	social-welfare-optimization	soft	high	Optimal taxation formalizes the efficiency-equity tradeoff
+ADD	tax-system-design-efficiency-equity	automatic-stabilizers-fiscal-tools	soft	high	Stabilizer effect of progressive taxes relies on average vs marginal rates
+ADD	expected-utility-and-risk-aversion	risk-and-return-tradeoff	soft	high	Risk premia rest on investor risk aversion
+ADD	expected-utility-and-risk-aversion	insurance-markets-and-selection	hard	high	Insurance demand and screening models assume expected-utility, risk-averse buyers
+ADD	expected-utility-and-risk-aversion	moral-hazard-insurance	soft	high	Insurance contracting assumes risk-averse insured parties
+ADD	expected-utility-and-risk-aversion	prospect-theory-behavioral	hard	high	Prospect theory is defined by its departures from expected utility
+ADD	bank-runs-and-deposit-insurance	financial-frictions-amplification	soft	high	Runs and fire sales are a core amplification channel
+ADD	bank-runs-and-deposit-insurance	financial-system-interconnectedness	soft	high	Contagion between banks extends the single-bank run
+ADD	heckman-sample-selection-correction	lifecycle-labor-supply	soft	high	Topic invokes Heckman's correction for women's wage selection
+ADD	heckman-sample-selection-correction	occupational-choice	soft	high	Topic motivates Heckman-style corrections for self-selection
+ADD	finite-distributed-lag-models	lagged-dependent-variable-regression	soft	high	Models with lagged y extend distributed lag models
+ADD	capital-structure-modigliani-miller	dividend-policy-and-valuation	soft	high	Dividend irrelevance is the payout-policy version of the MM argument
+ADD	samuelson-condition-public-goods	vcg-auction-mechanism	soft	high	Clarke-Groves mechanisms address the preference-revelation problem in public-good provision
+ADD	harrod-domar-growth-model	savings-constraints-development	soft	high	Saving-led capital accumulation argument originates in Harrod-Domar
+ADD	harrod-domar-growth-model	foreign-aid-effectiveness	soft	high	The financing-gap model behind aid targets is Harrod-Domar

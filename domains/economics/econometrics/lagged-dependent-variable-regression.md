@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: sequences-and-series-review
   type: soft
+- id: finite-distributed-lag-models
+  type: soft
 builds-toward:
 - dynamic-panel-arellano-bond-estimator
 tags:

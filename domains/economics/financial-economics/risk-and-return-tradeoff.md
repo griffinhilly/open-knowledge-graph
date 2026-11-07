@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: yield-to-maturity
   type: soft
+- id: expected-utility-and-risk-aversion
+  type: soft
 builds-toward:
 - expected-return-and-variance-of-assets
 - portfolio-diversification

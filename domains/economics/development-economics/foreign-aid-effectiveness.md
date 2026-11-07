@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: institutions-economic-development
   type: soft
+- id: harrod-domar-growth-model
+  type: soft
 builds-toward:
 - cash-transfers-and-incentives
 tags:

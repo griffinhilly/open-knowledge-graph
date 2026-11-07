@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: production-possibilities-frontier
   type: soft
+- id: economic-systems-resource-allocation
+  type: soft
 builds-toward:
 - market-equilibrium
 - price-elasticity-of-demand

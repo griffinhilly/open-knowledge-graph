@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: government-spending-multiplier
   type: soft
+- id: tax-system-design-efficiency-equity
+  type: soft
 builds-toward:
 - discretionary-fiscal-policy-decisions
 tags:

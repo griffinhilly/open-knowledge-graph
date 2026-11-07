@@ -80,3 +80,95 @@ ADD	cellular-respiration-overview	pyruvate-oxidation	soft	high	The overview plac
 DROP	spliceosome-and-splicing-regulation	rna-editing-post-transcriptional-modification	-	medium	Editing is mentioned as distinct from splicing; it does not draw on spliceosome mechanics.
 ADD	lipid-bilayer-and-amphipathic-molecules	selective-permeability-and-membrane-channels	soft	high	Selectivity is explained by the hydrophobic core of the bilayer.
 ADD	kinetochore-structure-and-function	sister-chromatid-cohesion-cohesin-proteins	soft	medium	Cohesion resists kinetochore pulling and creates the tension that signals biorientation.
+DROP	animal-coverings	adaptation-and-fitness	-	medium	Adaptation examples are already supplied by adaptation-basics and adaptations-for-survival (hard).
+DROP	how-animals-move	adaptation-and-fitness	-	medium	Fitness and adaptation theory does not draw on locomotion basics.
+DROP	mutualism-and-symbiosis	adaptive-radiation-patterns	-	medium	Adaptive radiation is driven by ecological opportunity and speciation, not mutualism.
+DROP	life-history-evolution-r-and-k-selection	age-structured-demographics-and-fecundity	-	medium	Life tables and Leslie matrices are the basis for life-history theory, not the reverse.
+ADD	invasive-species-establishment-mechanisms	biodiversity-and-conservation	soft	medium	Invasive species are one of the extinction threats the topic covers.
+ADD	ecosystem-stability-resilience-and-tipping-points	biodiversity-ecosystem-function-relationships	soft	medium	Stability is one of the ecosystem functions diversity is related to.
+DROP	speciation	biodiversity-metrics	-	high	Diversity indices are measurement tools that do not draw on how species form.
+ADD	adaptive-radiation-patterns	biodiversity-patterns-richness-evenness	soft	medium	The topic explains gradients via speciation; radiation is a key speciation pattern.
+ADD	community-assembly-rules	biodiversity-patterns-richness-evenness	soft	high	The core idea says diversity patterns require considering ecological assembly.
+ADD	net-primary-productivity-allocation	biogeochemical-cycles	soft	medium	Carbon fixation by primary producers is the entry flux of the carbon cycle.
+ADD	community-stability-resistance-resilience	climate-change-ecology	soft	medium	Resistance and resilience frame how communities respond to climate stress.
+ADD	ecological-niche-modeling-and-species-distribution	climate-change-ecology	soft	medium	Range-shift projections rely on species distribution models.
+ADD	invasive-species-ecological-impacts	climate-change-ecology	soft	medium	The topic treats invasive species as a stressor that interacts with climate change.
+DROP	nutrient-cycling-phosphorus-sulfur	climate-change-ecology	-	medium	Climate-change responses do not draw on P and S cycle detail; biogeochemical-cycles is already hard.
+DROP	nutrient-cycling	climate-change-ecology	-	medium	Biogeochemical-cycles (hard) already supplies the carbon-cycle basis; decomposition detail is not needed.
+DROP	rainfall-productivity-biogeographic-gradients	climate-change-ecology	-	medium	The topic covers precipitation shifts but does not draw on productivity-gradient theory.
+DROP	apparent-competition-indirect-effects	community-assembly-rules	-	medium	Assembly rules rest on competition, niches and dispersal, not indirect apparent competition.
+DROP	facilitation-mechanisms-ecology	community-assembly-rules	-	medium	The topic's assembly mechanisms are filtering, competition and dispersal; facilitation is not used.
+ADD	niche-concept-fundamental-realized	community-assembly-rules	soft	high	Assembly rules are stated in terms of species' niche requirements.
+DROP	trophic-cascades-in-food-webs	community-assembly-rules-and-coexistence	-	medium	Coexistence via filtering and limiting similarity does not draw on trophic cascades.
+DROP	microbial-ecology-biogeochemical-cycling	community-ecology-intro	-	high	An advanced microbial topic is not a basis for introductory community ecology.
+ADD	community-succession-primary-secondary	community-stability-resistance-resilience	soft	medium	Resilience is recovery after disturbance, which proceeds by succession.
+DROP	biogeographic-patterns-and-realms	conservation-genetics-and-population-recovery	-	high	Genetic management of recovery does not draw on biogeographic realms.
+DROP	biomonitoring-indicator-species-assessment	conservation-genetics-and-population-recovery	-	medium	Genetic monitoring of recovery is unrelated to indicator-species biomonitoring.
+DROP	endemism-and-range-restriction	conservation-genetics-and-population-recovery	-	medium	Recovery genetics (Ne, inbreeding, translocation) does not depend on endemism concepts.
+ADD	habitat-fragmentation-connectivity-corridors	conservation-genetics-and-population-recovery	soft	medium	Maintaining migration between fragments is one of the topic's recovery strategies.
+DROP	source-sink-population-models	conservation-genetics-and-population-recovery	-	medium	Recovery genetics does not draw on source-sink demographic models.
+DROP	biodiversity-patterns-richness-evenness	conservation-genetics-effective-size	-	high	Effective population size is a within-species genetic concept unrelated to richness or evenness.
+DROP	extinction-rates-phylogenetic-patterns	conservation-genetics-effective-size	-	high	Ne and inbreeding do not draw on macro-scale extinction rates.
+DROP	invasive-species-establishment-mechanisms	conservation-genetics-effective-size	-	high	Ne theory does not draw on invasion mechanisms; if anything the reverse.
+ADD	metapopulation-connectivity-patches	conservation-genetics-effective-size	soft	medium	Restoring Ne in fragmented populations relies on patch connectivity.
+ADD	metapopulation-dynamics-connectivity	conservation-genetics-effective-size	soft	medium	Gene flow among habitat patches is how Ne is restored in fragmented populations.
+ADD	population-age-structure-life-history	conservation-genetics-effective-size	soft	medium	Ne depends on reproductive variance and generation structure.
+DROP	coevolution	ecological-succession	-	high	Succession is community change after disturbance and does not draw on coevolution.
+DROP	ecological-stoichiometry-element-ratios	ecosystem-productivity-gpp-npp	-	medium	GPP and NPP are defined from photosynthesis and respiration, not element ratios.
+DROP	nitrogen-fixation-limitation-cycling	ecosystem-productivity-gpp-npp	-	medium	The topic defines GPP and NPP; nutrient limitation of productivity is not drawn on.
+JUDGE	biodiversity-ecosystem-function-relationships	ecosystem-services	-	medium	Services do draw on BEF, but adding closes a cycle (services -> biodiversity-and-conservation -> BEF); a human must cut one edge.
+DROP	nutrient-cycling-phosphorus-sulfur	ecosystem-services	-	medium	Nutrient cycling (soft) already covers the supporting service; P/S detail is not needed.
+DROP	phosphorus-cycling-freshwater-marine	ecosystem-services	-	medium	Service classification does not draw on P cycling differences between water bodies.
+DROP	microbial-ecology-biogeochemical-cycling	ecosystem-services	-	medium	An advanced microbial topic is not needed to understand service categories.
+DROP	bioaccumulation-and-ecological-toxicology	ecosystem-stability-resilience-and-tipping-points	-	high	Stability and tipping points do not draw on toxicant bioaccumulation.
+DROP	community-assembly-rules-and-coexistence	ecosystem-stability-resilience-and-tipping-points	-	medium	Stability draws on resistance/resilience and diversity, not on assembly rules.
+ADD	disturbance-ecology-and-succession-dynamics	ecosystem-stability-resilience-and-tipping-points	soft	medium	Resistance and resilience are defined as responses to disturbance.
+DROP	paleoecology-and-fossil-records	ecosystem-stability-resilience-and-tipping-points	-	medium	Fossil-record inference is not drawn on to explain stability or tipping points.
+ADD	trophic-cascades-in-food-webs	ecosystem-stability-resilience-and-tipping-points	soft	medium	Classic regime shifts (kelp forests, lakes) are driven by trophic cascades.
+DROP	litter-decomposition-soil-formation	ecosystem-structure-and-function	-	medium	This is an introductory ecosystem topic; decomposition detail builds on it, not the reverse.
+DROP	trophic-cascade-top-down-control	ecosystem-structure-and-function	-	medium	Trophic cascades build on ecosystem structure, not the reverse.
+DROP	trophic-efficiency-energy-loss	ecosystem-structure-and-function	-	medium	Trophic efficiency is a refinement of energy flow, which the intro topic already gets from its hard prerequisite.
+ADD	what-is-an-ecosystem	ecosystem-structure-and-function	soft	high	The early ecosystem concept (biotic plus abiotic) is what this topic formalizes.
+DROP	animal-homes-and-habitats	ecosystem-structure-and-function	-	medium	Animal homes is too elementary to be drawn on by ecosystem structure and function.
+DROP	trees-vs-herbs	ecosystem-structure-and-function	-	medium	Plant growth forms are not drawn on in explaining ecosystem energy and nutrient flow.
+ADD	what-is-a-habitat	ecosystem-structure-and-function	soft	medium	Habitat is the familiar idea behind the abiotic component of ecosystems.
+ADD	ecosystem-structure-and-function	energy-flow-in-ecosystems	soft	high	Energy flow through trophic levels is one of the two ecosystem functions the parent topic defines.
+DROP	metapopulation-dynamics-connectivity	extinction-vortex-populations	-	medium	The vortex is a small-population feedback of drift, inbreeding and Allee effects, not patch dynamics.
+DROP	population-viability-analysis	extinction-vortex-populations	-	medium	PVA quantifies extinction risk and draws on the vortex, not the reverse.
+ADD	natural-selection-types-and-examples	genetic-drift-in-small-populations	soft	medium	The topic contrasts drift with weak selection, so knowing selection helps.
+DROP	conservation-genetics-effective-size	invasive-species-ecological-impacts	-	medium	Invasion establishment and impacts do not draw on Ne and inbreeding.
+DROP	extinction-rates-phylogenetic-patterns	invasive-species-ecological-impacts	-	high	Invasion ecology does not draw on phylogenetic extinction patterns.
+DROP	extinction-vortex-populations	invasive-species-ecological-impacts	-	high	Invasion ecology does not draw on small-population extinction dynamics.
+DROP	adaptive-radiation-patterns	island-biogeography	-	medium	MacArthur-Wilson theory is an immigration-extinction balance and does not draw on radiation.
+DROP	biodiversity-patterns-richness-evenness	island-biogeography	-	medium	Adding would close a cycle (island-biogeography -> biodiversity-and-conservation -> biodiversity-patterns); metrics is already soft.
+ADD	trophic-levels-and-food-webs	keystone-species	soft	high	Keystone effects and cascades are described through food web structure.
+DROP	reproductive-isolation-accumulation	modes-of-speciation-allopatric-peripatric-parapatric-sympatric	-	medium	Modes of speciation draw on reproductive isolation (hard); how isolation accumulates is a later refinement.
+DROP	comparative-phylogenetic-methods	molecular-dating-fossil-calibration	-	medium	Clock calibration draws on clocks and trees, not on comparative trait methods.
+DROP	evidence-for-evolution	molecular-evolution-phylogenetics	-	medium	Molecular evolution draws on mutation and sequence divergence, not on the evidence survey.
+DROP	modes-of-speciation-allopatric-peripatric-parapatric-sympatric	molecular-evolution-phylogenetics	-	medium	Sequence evolution and tree inference do not draw on modes of speciation.
+DROP	phylogenetic-inference-methods	molecular-evolution-phylogenetics	-	medium	The advanced methods topic should build on this survey, not the reverse.
+DROP	facilitation-mechanisms-ecology	mutualism-and-symbiosis	-	medium	Mutualism draws on species interactions and symbiosis; facilitation is a parallel community-level idea.
+ADD	phenotypic-variation-populations	natural-selection-types-and-examples	soft	high	Selection is defined as acting on heritable phenotypic variation.
+ADD	energy-flow-in-ecosystems	nutrient-cycling	soft	medium	Nutrient cycling is taught in contrast to one-way energy flow.
+DROP	nitrogen-fixation-limitation-cycling	nutrient-cycling	-	medium	The general decomposition topic does not draw on N-fixation detail.
+ADD	ecosystem-structure-and-function	nutrient-cycling-phosphorus-sulfur	soft	medium	Nutrient cycling between biotic and abiotic parts is defined in the ecosystem topic.
+DROP	comparing-life-cycles	population-ecology-intro	-	medium	Population demography does not draw on comparing organism life cycles.
+DROP	natural-selection-types-and-examples	population-genetic-structure-metapopulations	-	medium	FST and subdivision are explained by drift and gene flow; selection types are not needed.
+DROP	energy-pyramid-efficiency-trophic-transfer	population-growth-models	-	high	Exponential and logistic models do not draw on trophic transfer efficiency.
+DROP	life-history-evolution-r-and-k-selection	population-regulation	-	medium	r/K theory builds on density-dependent regulation, not the reverse.
+DROP	carrying-capacity	predator-prey-dynamics	-	medium	Classic Lotka-Volterra has no carrying capacity; population-regulation (soft) already covers it.
+ADD	density-dependence-mechanisms	predator-prey-dynamics	soft	medium	Predation acting as a density-dependent regulator is part of the topic.
+DROP	energy-pyramid-efficiency-trophic-transfer	predator-prey-dynamics	-	high	Lotka-Volterra dynamics do not draw on trophic energy efficiency.
+DROP	endemism-and-range-restriction	restoration-ecology-principles	-	medium	Restoration draws on succession, disturbance and assembly, not endemism.
+DROP	extinction-vortex-populations	restoration-ecology-principles	-	medium	Ecosystem restoration does not draw on small-population genetic feedbacks.
+ADD	trophic-cascade-top-down-control	restoration-ecology-principles	soft	medium	Reintroducing native predators (e.g., Yellowstone wolves) is a restoration strategy based on cascades.
+ADD	gene-flow-selection-balance	speciation	soft	medium	Divergence requires selection to overcome homogenizing gene flow.
+DROP	gene-tree-species-tree-incongruence	speciation	-	high	Lineage-sorting incongruence draws on speciation, not the reverse.
+ADD	local-adaptation-genotype-by-environment	speciation	soft	medium	Local adaptation underlies ecological differentiation, one route to speciation.
+ADD	mating-patterns-inbreeding-assortative	speciation	soft	medium	Assortative mating is a mechanism of prezygotic isolation and sympatric divergence.
+DROP	niche-concept-fundamental-realized	speciation	-	medium	Speciation draws on selection, gene flow and isolation; niche theory is not needed.
+ADD	population-genetic-structure-metapopulations	speciation	soft	medium	Differentiation among subpopulations is the starting point of divergence.
+DROP	chromosomal-evolution	speciation	-	medium	The advanced karyotype topic should build on speciation, not the reverse.
+DROP	apparent-competition-indirect-effects	trophic-cascade-top-down-control	-	medium	Cascades are predator-herbivore-producer chains; apparent competition is a separate indirect effect.
+DROP	antipredator-defenses-and-mimicry	trophic-cascades-in-food-webs	-	medium	Cascade dynamics do not draw on defense and mimicry mechanisms.
+DROP	plant-animal-coevolutionary-networks	trophic-cascades-in-food-webs	-	medium	Cascades rest on food web structure, not on coevolutionary mutualist networks.

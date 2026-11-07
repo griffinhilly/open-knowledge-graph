@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: credit-risk-and-default
   type: soft
+- id: bank-runs-and-deposit-insurance
+  type: soft
 tags:
 - systemic-risk
 - interconnectedness

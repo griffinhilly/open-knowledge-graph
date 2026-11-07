@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: utility-consumer-preferences
   type: hard
+- id: marginal-analysis-cost-benefit
+  type: soft
 builds-toward:
 - indifference-curves
 - budget-constraint

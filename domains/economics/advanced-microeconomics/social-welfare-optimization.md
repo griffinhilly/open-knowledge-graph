@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: arrow-impossibility-theorem
   type: soft
+- id: tax-system-design-efficiency-equity
+  type: soft
 tags:
 - welfare-economics
 - social-choice

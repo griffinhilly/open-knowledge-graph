@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: merger-arbitrage-valuation
   type: soft
+- id: capital-structure-modigliani-miller
+  type: soft
 builds-toward:
 - growth-vs-value-investing
 tags:
