@@ -27,6 +27,14 @@ status: draft
 ## Core Idea
 Stream of consciousness was a modernist technique representing the continuous flow of a character's thoughts, sensations, and associations without grammatical organization or logical ordering. This technique challenged conventional narrative form to represent the actual texture of consciousness.
 
+## How It's Best Learned
+Write down your own thoughts for two minutes without editing, then mark each jump and what triggered it: a sound, a memory, a word. Next, take a short passage from Woolf's Mrs Dalloway or the final episode of Joyce's Ulysses and mark its jumps the same way. Finally, rewrite a few lines as a conventional narrator's summary to see what order the technique removes.
+
+## Common Misconceptions
+- Stream of consciousness writing is random and unplanned. (Writers arrange the associations, images and repetitions carefully, so the apparent disorder carries patterns and meaning.)
+- The phrase "stream of consciousness" began as a literary term. (It came from psychology, from William James's description of thought as a continuous flow, and critics later applied it to fiction.)
+- Stream of consciousness novels have no plot or outer world. (Events, places and other people are still present, but readers meet them through a character's perceptions and memories.)
+
 ## Questions
 
 ```yaml
@@ -62,6 +70,7 @@ Stream of consciousness was a modernist technique representing the continuous fl
 
 - type: short-answer
   question: "Why did modernist writers develop stream of consciousness as a response to earlier novelistic techniques?"
+  answer: "Earlier novels presented thought through summary, reported speech or orderly monologue, which imposed logic on the mind. Modernists saw that real thinking is associative and fragmentary, and they developed stream of consciousness to capture that texture more faithfully."
   explanation: "Earlier novels represented character thought through summarized reflection, reported speech, or organized interior monologue. These techniques imposed rational order and narrative coherence onto consciousness. Modernist writers recognized that actual consciousness is more fragmentary, associative, and irrational than these techniques suggested. They developed stream of consciousness to represent the actual texture of mind—how thoughts interrupt each other, how sensations and memories surface unexpectedly, how the mind moves associatively rather than logically. This allowed more accurate representation of consciousness while also highlighting the gap between how consciousness actually operates and how conventional narrative had represented it."
 ```
 

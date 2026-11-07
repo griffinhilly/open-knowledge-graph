@@ -20,6 +20,15 @@ status: draft
 ## Core Idea
 Occitan-language troubadours (12th-13th centuries) invented the conventions of courtly love (fin'amor) poetry, establishing a vocabulary of unrequited, ennobling desire that elevated spiritual longing and aesthetic refinement above carnal satisfaction. Their lyrics featured intricate rhyme schemes and feudal hierarchy metaphors (the lady as lord, the poet as vassal). This tradition profoundly shaped all subsequent European lyric poetry.
 
+## How It's Best Learned
+Read a troubadour song in a facing-page translation and underline every word borrowed from feudal life: service, lord, vassal, reward, homage. Mapping these terms onto the lover and the lady makes the core metaphor visible. Then listen to a recording of a surviving troubadour melody, since these were songs, and compare the lover's stance with that of a later Petrarchan sonnet.
+
+## Common Misconceptions
+- "Courtly love" is the troubadours' own name for their ideal. (They spoke of fin'amor, "refined love"; the term "courtly love" was coined by a 19th-century scholar.)
+- Troubadour poems were written to be read silently on the page. (They were songs composed with melodies and performed aloud, often at court.)
+- All troubadours were men. (Women poets called trobairitz also composed in the tradition, sometimes speaking as the desiring lover themselves.)
+- Courtly love poetry records how medieval nobles actually courted and married. (It was a literary convention; noble marriages were usually arranged for family and political reasons.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +64,7 @@ Occitan-language troubadours (12th-13th centuries) invented the conventions of c
 
 - type: short-answer
   question: "How does the concept of fin'amor transform the meaning of unrequited love?"
+  answer: "Fin'amor turns unrequited love from a failure into an ideal condition. The lover's longing and service to an unattainable lady become the source of moral and spiritual refinement, so distance gives the love its value."
   explanation: "In ordinary understanding, unrequited love is failure and disappointment—the lover fails to achieve their desire. In fin'amor, by contrast, unrequited love becomes the ideal condition. Requital would actually diminish the love, because what ennobles the lover is the spiritual and moral development achieved through noble suffering and endless longing. The inability to possess the beloved becomes a virtue, not a failure. This paradoxical reversal allows troubadour poets to celebrate emotional suffering as spiritually and aesthetically valuable. The unattainability of the beloved becomes the source of the love's greatest value."
 ```
 

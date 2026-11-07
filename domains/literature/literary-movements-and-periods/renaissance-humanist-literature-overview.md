@@ -24,6 +24,14 @@ status: draft
 ## Core Idea
 Renaissance literature (14th-17th centuries) was animated by humanism—recovery and emulation of classical texts combined with emphasis on human potential and individual achievement. Writers engaged with classical forms while expanding scope to new subjects and psychological subtlety. The period saw prose emerge as a major literary medium and the establishment of national literary traditions.
 
+## How It's Best Learned
+Place a classical model beside a Renaissance work that imitates it, for example an ancient epic opening beside a Renaissance epic opening, and list what was kept and what was changed. Track language, subject and how much inner life the characters show. Then put the period on a timeline country by country, since the Renaissance reached different regions at different times.
+
+## Common Misconceptions
+- Renaissance humanism was anti-religious, like modern secular humanism. (Most Renaissance humanists were Christians who sought to join classical learning with faith; the name comes from the studia humanitatis, the study of classical "humane letters.")
+- The Middle Ages had lost classical learning until the Renaissance rediscovered it. (Medieval scholars preserved and studied many classical texts; humanists recovered more of them, studied them in new ways and made them central.)
+- The Renaissance happened at the same time across Europe. (It began in Italy and spread unevenly, which is why the period stretches from the 14th to the 17th century.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +67,7 @@ Renaissance literature (14th-17th centuries) was animated by humanism—recovery
 
 - type: short-answer
   question: "Explain how humanist emphasis on human potential shaped literary content and form in Renaissance."
+  answer: "Belief in human potential made individual psychology, motivation and secular achievement worthy literary subjects. Writers adapted classical forms and developed flexible prose to explore these subjects with more psychological depth."
   explanation: "If humans are capable of excellence and achievement, literature should explore human psychology, motivation, and possibility. This justified new subjects (individual psychology, secular achievement) and new forms (prose allowing psychological complexity). Classical texts provided models for excellence; Renaissance writers applied those models to contemporary human experience."
 ```
 

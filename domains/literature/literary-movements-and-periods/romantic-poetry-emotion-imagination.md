@@ -25,6 +25,14 @@ status: draft
 ## Core Idea
 Romantic poets elevated imagination as the highest human faculty, capable of transcending sense perception to glimpse ultimate truth and spiritual reality. Romantic poetry emphasized subjective experience, spontaneity of feeling, and the transformation of personal emotion into universal meaning.
 
+## How It's Best Learned
+Take a Romantic poem that starts from something ordinary, such as a flower, a bird or a view, and split a page into two columns. On the left, list what the senses report; on the right, list what the imagination makes of it. The gap between the columns shows what "transcending sense perception" means. Then compare Coleridge's distinction between imagination and fancy to see why Romantics ranked imagination so high.
+
+## Common Misconceptions
+- Romantic imagination means daydreaming or inventing fantasy worlds. (Romantics saw imagination as a power to perceive deeper meaning in real experience, and Coleridge separated it from mere "fancy," which only rearranges images.)
+- Romantics rejected reason altogether. (They ranked imagination above reason as a path to truth, but many were serious thinkers who argued their views carefully.)
+- Valuing spontaneity meant Romantic poets did not work at their poems. (They aimed for the effect of spontaneous feeling, and they often achieved it through careful drafting and revision.)
+
 ## Questions
 
 ```yaml
@@ -60,6 +68,7 @@ Romantic poets elevated imagination as the highest human faculty, capable of tra
 
 - type: short-answer
   question: "What does it mean to say that Romantic imagination could 'transcend sense perception'?"
+  answer: "It means the imagination starts from what the senses show but reaches beyond it to spiritual or universal meaning. A flower or a view becomes a way to perceive deeper truths that observation alone cannot reach."
   explanation: "Transcending sense perception means going beyond what the five senses directly perceive. The Romantic imagination could use sensory experiences as a starting point but then leap beyond them—to see spiritual significance in a flower, to perceive connections between personal memory and eternal truths, to access visionary states beyond ordinary consciousness. The imagination could transform simple observations into profound insights, connect the individual to the universal, and reveal dimensions of reality that existed beneath or beyond material surface."
 ```
 

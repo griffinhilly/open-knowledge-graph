@@ -19,6 +19,14 @@ status: draft
 ## Core Idea
 The Romantic sublime describes the overwhelming emotional and intellectual response to vast, powerful natural phenomena—mountains, storms, oceans. Unlike the beautiful, the sublime combines terror and pleasure, producing a sense of individual insignificance that paradoxically affirms human consciousness. Writers used the sublime encounter to explore transcendence, language's limits, and the mind's capacity to create meaning from overwhelming nature.
 
+## How It's Best Learned
+Sort a set of nature images or poem excerpts into two piles, beautiful and sublime, and write the reason for each choice. A meadow and a stormy alpine pass make a clear first pair. Then read a sublime passage closely and mark three moments: the shock of vastness, the speaker's sense of smallness, and the mind recovering to find meaning. Look for places where the speaker says words fail.
+
+## Common Misconceptions
+- "Sublime" means extremely beautiful or delicious, as in everyday speech. (In aesthetics it names an experience of awe mixed with fear before something vast or powerful, set against the calmer pleasure of beauty.)
+- The Romantics invented the idea of the sublime. (The concept goes back to the ancient treatise "On the Sublime" and was theorized in the 18th century; Romantic writers took it up and made it central.)
+- To feel the sublime, a person has to be in real danger. (Theorists stressed that the terror becomes pleasurable from a position of relative safety; actual danger produces plain fear.)
+
 ## Questions
 
 ```yaml
@@ -54,6 +62,7 @@ The Romantic sublime describes the overwhelming emotional and intellectual respo
 
 - type: short-answer
   question: "How do Romantic writers use the sublime experience to explore the limits of language?"
+  answer: "Faced with something too vast to describe, the writer confronts the failure of ordinary words. Romantic writers make that failure part of the poem, so the breakdown of language signals contact with something beyond human categories."
   explanation: "When confronted with the sublime—vast, overwhelming, beyond rational comprehension—the Romantic writer faces the inadequacy of language. How can words capture the infinitude of the ocean or the terror and wonder of a storm? This struggle became itself a Romantic theme: the moment when language breaks down, where conventional expression fails, becomes a sign of the encounter with something that transcends human categories and articulation. Paradoxically, writers use this failure as a powerful literary effect."
 ```
 

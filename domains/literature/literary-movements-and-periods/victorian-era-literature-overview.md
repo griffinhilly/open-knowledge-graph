@@ -24,6 +24,14 @@ status: draft
 ## Core Idea
 Victorian literature (1837-1901) confronted the era's contradictions: industrial progress alongside urban poverty, faith coexisting with scientific doubt, strict social conventions alongside emerging challenges to hierarchies. The novel reached its zenith as the primary literary form, with lengthy narratives exploring social issues and individual psychology. Writers addressed readers' anxieties about modernity and traditional values.
 
+## How It's Best Learned
+Build a timeline of 1837 to 1901 with three rows: industry and cities, science and faith, and social reform. Place a few major novels and poems on it, including the 1859 publication of Darwin's Origin of Species. Then read one chapter of a Dickens novel as its first readers did, as a single serial installment, and note how it ends to make readers buy the next part.
+
+## Common Misconceptions
+- "Victorian" means the literature was prim and avoided hard subjects. (Victorian writers took on poverty, crime, child labor, religious doubt and unhappy marriage, though often by implication rather than explicit description.)
+- Victorian novelists wrote long books because they were paid by the word. (Length came mainly from publishing formats such as monthly serial parts and three-volume editions for lending libraries.)
+- The novel so dominated the period that Victorian poetry hardly mattered. (Poets such as Tennyson and Robert Browning were widely read and central to the era's debates about faith and doubt.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +67,7 @@ Victorian literature (1837-1901) confronted the era's contradictions: industrial
 
 - type: short-answer
   question: "Why was the Victorian novel particularly suited to exploring both social issues and individual psychology?"
+  answer: "Its great length and serial publication gave room to depict social conditions in detail while following characters' inner lives. The narrative could move between the individual and society, showing how circumstances shape personal destinies."
   explanation: "The Victorian novel's length and serialized publication allowed sustained, detailed exploration of both social structures and individual characters' inner lives. A novel could devote space to depicting the conditions of urban poverty or the workings of social institutions while also exploring a character's consciousness, desires, and moral struggles. The narrative could move between the individual and the social, showing how personal destinies are shaped by social circumstances and how individual characters experience and respond to their historical moment. This capacity to integrate social analysis with psychological depth made the novel the ideal form for Victorian concerns."
 ```
 

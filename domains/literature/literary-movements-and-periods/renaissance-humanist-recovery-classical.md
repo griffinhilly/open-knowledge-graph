@@ -27,6 +27,14 @@ status: draft
 ## Core Idea
 Renaissance humanism revived intense study of classical Greek and Latin texts, treating them as models for linguistic elegance, philosophical wisdom, and human achievement. This movement created a cultural shift that valorized individual human potential, secular learning, and imitation of classical forms while adapting them to contemporary vernacular expression.
 
+## How It's Best Learned
+Follow one classical text through its Renaissance life: a manuscript is found, scholars compare copies and correct errors, the text is printed or translated, and writers imitate it in new works. Each step shows a different meaning of "recovery." Then read a short Renaissance imitation beside its classical source and mark what the later writer changed to fit their own language and time.
+
+## Common Misconceptions
+- "Humanist" here means someone devoted to humanitarian causes. (Renaissance humanists were scholars of the studia humanitatis, the study of grammar, rhetoric, poetry, history and moral philosophy based on classical texts.)
+- Recovering the classics meant finding lost books and nothing more. (It also meant correcting corrupted copies, learning Greek, and teaching people to read the texts closely in their historical context.)
+- Imitating classical authors meant copying them word for word. (Renaissance imitation meant absorbing a model's style and methods, then using them to make something new.)
+
 ## Questions
 
 ```yaml
@@ -62,6 +70,7 @@ Renaissance humanism revived intense study of classical Greek and Latin texts, t
 
 - type: short-answer
   question: "Explain how treating classical texts as models rather than sacred authorities allowed cultural innovation."
+  answer: "Treating classical texts as models let writers learn their principles and techniques without having to reproduce them exactly. Writers could then adapt classical methods to new subjects and vernacular languages, which made innovation possible."
   explanation: "If classical texts are perfect authorities to imitate exactly, innovation is impossible. But if they are models showing human excellence, contemporary writers can learn principles and apply them creatively. This freed writers to adapt rather than merely copy, to learn classical technique and use it for contemporary subjects."
 ```
 

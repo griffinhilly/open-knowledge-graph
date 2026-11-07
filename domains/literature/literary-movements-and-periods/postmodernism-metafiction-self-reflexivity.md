@@ -27,6 +27,14 @@ status: draft
 ## Core Idea
 Postmodern literature exposed narrative conventions as arbitrary and artificial, using metafiction, unreliable narrators, and pastiche to foreground the constructed nature of all representation. The movement treated literature as a self-conscious game with form and meaning.
 
+## How It's Best Learned
+Take a short realist passage and rewrite it three ways: once with a narrator who admits to inventing details, once with a narrator whose claims contradict each other, and once as a pastiche of two clashing styles. Each rewrite isolates one device. Then read a metafictional excerpt and name which devices it uses and what convention each one exposes.
+
+## Common Misconceptions
+- Pastiche is the same as parody. (Parody imitates a style in order to mock or criticize it; pastiche borrows and combines styles, often without a clear target or judgment.)
+- An unreliable narrator is a narrator who lies on purpose. (Narrators can be unreliable through bias, limited knowledge, self-deception or confusion as well as deliberate deceit.)
+- If literature admits it is artificial, readers have nothing left to care about. (Readers can stay engaged with characters and ideas while seeing how the story is built, and that double awareness is part of the effect.)
+
 ## Questions
 
 ```yaml
@@ -62,6 +70,7 @@ Postmodern literature exposed narrative conventions as arbitrary and artificial,
 
 - type: short-answer
   question: "Explain how treating literature as 'game' with form and meaning allows serious exploration."
+  answer: "Treating literature as a game makes its formal rules visible instead of pretending the text is a transparent window. Once the rules are open, writers and readers can test how meaning is made, so the seriousness moves into the play with form."
   explanation: "Games have rules, strategies, outcomes—formal systems. Treating literature as game means acknowledging its formal systems explicitly. This freedom from pretending transparency allows exploration of how meaning actually works. The game metaphor doesn't eliminate seriousness; it redirects it: seriousness becomes formal play rather than false authority."
 ```
 

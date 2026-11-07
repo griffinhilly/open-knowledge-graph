@@ -1,0 +1,54 @@
+domains/economics/behavioral-economics/behavioral-finance.md	how	2	0	ok
+domains/economics/behavioral-economics/behavioral-finance.md	mis	8	0	ok
+domains/economics/behavioral-economics/behavioral-game-theory.md	how	2	0	ok
+domains/economics/behavioral-economics/behavioral-game-theory.md	mis	8	0	ok
+domains/economics/behavioral-economics/behavioral-public-policy.md	how	2	0	ok
+domains/economics/behavioral-economics/behavioral-public-policy.md	mis	6	0	ok
+domains/economics/behavioral-economics/bounded-rationality.md	how	2	0	ok
+domains/economics/behavioral-economics/bounded-rationality.md	mis	6	0	ok
+domains/economics/behavioral-economics/choice-architecture.md	how	2	0	ok
+domains/economics/behavioral-economics/choice-architecture.md	mis	8	1	fixed	Bullet 1 said every layout has a default; a forced active choice has none. Dropped "default", kept order and emphasis.
+domains/economics/behavioral-economics/default-effects.md	how	2	0	ok
+domains/economics/behavioral-economics/default-effects.md	mis	8	2	fixed	Bullet 3: opt-out consent is not "registration status"; now "counts everyone who has not opted out". Bullet 4: "most employees long after enrollment" overstated (copied from Explainer; persistence decays over years); now "many employees after enrollment". Older Explainer line 62 has the same "most" overstatement.
+domains/economics/behavioral-economics/dual-process-theory-economics.md	how	2	0	ok
+domains/economics/behavioral-economics/dual-process-theory-economics.md	mis	8	1	fixed	Bullet 4 "engages deliberation only when" is an absolute copied from Explainer; changed to "mainly when".
+domains/economics/behavioral-economics/endowment-effect.md	how	2	0	ok
+domains/economics/behavioral-economics/endowment-effect.md	mis	8	0	ok
+domains/economics/behavioral-economics/experimental-economics-methods.md	how	1	0	ok
+domains/economics/behavioral-economics/experimental-economics-methods.md	mis	8	1	fixed	Bullet 2 defined saliency as "payoffs large enough to matter"; in Smith's precepts saliency means payoffs depend on decisions (size/override is dominance). Copied from the older Core Idea, which carries the same misdefinition.
+domains/economics/behavioral-economics/field-experiments.md	how	2	0	ok
+domains/economics/behavioral-economics/field-experiments.md	mis	8	0	ok
+domains/economics/behavioral-economics/framing-effects.md	how	2	0	ok
+domains/economics/behavioral-economics/framing-effects.md	mis	8	1	fixed	Bullet 2 named "statisticians" as a group shown to persist in framing; not a citable finding (copied from older Q1 explanation). Now "physicians and other experts"; "both frames are shown" made precise as "same people answer both frames".
+domains/economics/behavioral-economics/heuristics-and-biases.md	how	2	0	ok
+domains/economics/behavioral-economics/heuristics-and-biases.md	mis	8	0	ok
+domains/economics/behavioral-economics/hyperbolic-discounting.md	how	2	0	ok
+domains/economics/behavioral-economics/hyperbolic-discounting.md	mis	8	0	ok
+domains/economics/behavioral-economics/identity-economics.md	how	2	0	ok
+domains/economics/behavioral-economics/identity-economics.md	mis	8	0	ok	Bullet 3 second clause (payment can make the violation salient) is a hedged theoretical possibility, kept.
+domains/economics/behavioral-economics/intertemporal-choice-behavioral.md	how	2	0	ok
+domains/economics/behavioral-economics/intertemporal-choice-behavioral.md	mis	8	0	ok
+domains/economics/behavioral-economics/loss-aversion.md	how	3	0	ok
+domains/economics/behavioral-economics/loss-aversion.md	mis	8	0	ok
+domains/economics/behavioral-economics/mental-accounting.md	how	2	0	ok
+domains/economics/behavioral-economics/mental-accounting.md	mis	8	0	ok
+domains/economics/behavioral-economics/neuroeconomics.md	how	2	0	ok
+domains/economics/behavioral-economics/neuroeconomics.md	mis	8	0	ok
+domains/economics/behavioral-economics/nudge-theory.md	how	2	0	ok
+domains/economics/behavioral-economics/nudge-theory.md	mis	8	0	ok
+domains/economics/behavioral-economics/overconfidence.md	how	2	0	ok
+domains/economics/behavioral-economics/overconfidence.md	mis	8	0	ok
+domains/economics/behavioral-economics/present-bias.md	how	3	0	ok	Checked arithmetic: today -6+0.7*8=-0.4; yesterday 0.7*(8-6)=1.4.
+domains/economics/behavioral-economics/present-bias.md	mis	8	0	ok
+domains/economics/behavioral-economics/prospect-theory-behavioral.md	how	2	0	ok
+domains/economics/behavioral-economics/prospect-theory-behavioral.md	mis	8	0	ok
+domains/economics/behavioral-economics/reference-dependent-preferences.md	how	2	0	ok
+domains/economics/behavioral-economics/reference-dependent-preferences.md	mis	8	1	fixed	Bullet 3 attributed the expected-vs-unexpected price prediction to all reference-dependent models; status-quo-referenced models do not make it. Now "Expectations-based models such as Koszegi-Rabin".
+domains/economics/behavioral-economics/social-preferences.md	how	3	0	ok	Checked Fehr-Schmidt arithmetic: accept 2-1*(8-2)=-4 < reject 0.
+domains/economics/behavioral-economics/social-preferences.md	mis	8	0	ok
+domains/economics/behavioral-economics/status-quo-bias.md	how	2	0	ok
+domains/economics/behavioral-economics/status-quo-bias.md	mis	8	1	fixed	Bullet 4 "people feel less regret for [inaction]" is too absolute (long-run regrets often concern inactions, Gilovich-Medvec); now "tend to expect less regret". Older Q0 explanation overstates Madrian-Shea ("years after", "no switching cost").
+domains/economics/behavioral-economics/sunk-cost-fallacy.md	how	2	0	ok
+domains/economics/behavioral-economics/sunk-cost-fallacy.md	mis	8	0	ok
+domains/economics/behavioral-economics/ultimatum-dictator-games.md	how	2	0	ok
+domains/economics/behavioral-economics/ultimatum-dictator-games.md	mis	8	1	fixed	Bullet 3 "the patterns hold" at months-of-wages stakes is overstated (copied from Explainer): offers stay above minimum but rejection of a given low share falls as stakes rise (Slonim-Roth, Cameron, Andersen et al.). Older Explainer line 61 has the same overstatement.

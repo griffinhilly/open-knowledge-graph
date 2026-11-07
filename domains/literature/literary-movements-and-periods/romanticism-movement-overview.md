@@ -27,6 +27,14 @@ status: draft
 ## Core Idea
 Romanticism (roughly 1770-1850) emerged as a reaction against Enlightenment rationalism, celebrating emotion, imagination, and nature as sources of truth. Romantic writers elevated poetry and subjectivity, explored transcendent power of nature and intensity of human passion, and employed new forms. The movement fundamentally transformed the relationship between writer and reader, establishing the author's individual vision as a primary literary virtue.
 
+## How It's Best Learned
+Make a contrast chart with Enlightenment values in one column and Romantic values in the other: reason and feeling, the general and the particular, order and wildness, rules and originality. Fill each row with a short quoted line from a poem or essay of each period. Then read one Romantic poem and tick off which rows it shows, noting any places where it still leans on Enlightenment ideas.
+
+## Common Misconceptions
+- Romanticism is about romantic love. (The movement takes its name from "romance" in the older sense of imaginative, non-classical storytelling; love is one theme among many.)
+- Romantics threw out everything the Enlightenment stood for. (They reacted against its rationalism, but many shared Enlightenment hopes for liberty and reform, and some early Romantics welcomed the French Revolution.)
+- Romanticism was one uniform movement with a single set of beliefs. (It took different forms in Germany, Britain, France and elsewhere, and its writers often disagreed with each other.)
+
 ## Questions
 
 ```yaml
@@ -62,6 +70,7 @@ Romanticism (roughly 1770-1850) emerged as a reaction against Enlightenment rati
 
 - type: short-answer
   question: "How did Romanticism's elevation of imagination change what literature could explore?"
+  answer: "Treating imagination as a source of truth freed writers to explore inner states, visionary and supernatural experience, intense emotion and the power of nature. They no longer had to justify these subjects through rational argument or moral instruction."
   explanation: "By prioritizing imagination as a source of truth alongside or above reason, Romanticism freed writers to explore subjective inner states, visionary experiences, intense emotions, supernatural themes, and the transcendent power of nature without needing to justify these explorations through rational argument or moral instruction. Writers could now delve into the depths of individual consciousness and celebrate the mind's creative power to transform and interpret experience."
 ```
 

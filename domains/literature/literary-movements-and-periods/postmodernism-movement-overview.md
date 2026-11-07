@@ -24,6 +24,15 @@ status: draft
 ## Core Idea
 Postmodernism (roughly 1960s-1990s) questioned modernism's seriousness and authorial authority, embracing pastiche, irony, and playfulness about literature's constructed nature. Postmodern writers combined high and low culture, interrupted narrative with metafictional commentary, and used unreliable narration. The movement reflected philosophical skepticism toward truth while maintaining formal innovation.
 
+## How It's Best Learned
+Build a two-column table comparing modernism and postmodernism on the same features: attitude to truth, tone, use of popular culture, and the narrator's authority. Fill it by reading a short modernist passage beside a short postmodern one. Then list the "grand narratives" a postmodern text doubts, such as steady progress or one true history, and find where the text shows that doubt.
+
+## Common Misconceptions
+- Postmodernism is any literature written after modernism. (The term names a set of attitudes and techniques, and many later writers work in realist or other modes.)
+- Postmodernism rejected modernism completely. (It reacted against modernism's seriousness but also extended its formal experiments, so it is both a break and a continuation.)
+- Postmodernism invented unreliable narrators and stories that comment on themselves. (Both devices appear in much earlier fiction; postmodern writers made them central and tied them to doubt about truth.)
+- Postmodern irony means the writers believed nothing mattered. (Irony let these writers question claims to authority while still producing work with real emotional and intellectual force.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +68,7 @@ Postmodernism (roughly 1960s-1990s) questioned modernism's seriousness and autho
 
 - type: short-answer
   question: "Explain how postmodern skepticism toward truth led to specific formal innovations."
+  answer: "If truth is uncertain, a text that claims to show reality with full authority looks dishonest. Postmodern writers answered with metafiction, unreliable narrators, pastiche and irony, devices that act out that doubt in the form of the work."
   explanation: "If truth is uncertain or constructed, then claiming to represent reality authoritatively is false. Metafiction acknowledging artificiality seems more honest than pretending transparency. Unreliable narrators embody skepticism: we cannot trust the narrator's version of truth. Pastiche (mixing styles and forms) suggests all meaning is constructed. Irony distances from claims of seriousness. These formal choices don't represent skepticism; they enact it."
 ```
 

@@ -21,6 +21,14 @@ status: draft
 ## Core Idea
 Romantic poetry made the lyric expression of intense personal emotion and visionary perception its primary mode, often grounded in encounters with nature, memory, or imagination. Wordsworth, Coleridge, Keats, and Shelley developed the long Romantic lyric while reviving and transforming ballad and sonnet traditions. They established poetry as a vehicle for philosophical exploration and personal authenticity.
 
+## How It's Best Learned
+Pick one Romantic nature lyric and chart its movement stanza by stanza: the outward scene, the turn inward to feeling or memory, and the return to the scene seen in a new way. Mark the exact lines where each shift happens. Then compare it with an earlier descriptive nature poem to see how the Romantic poem uses scenery to think rather than only to describe.
+
+## Common Misconceptions
+- Romantic poems were dashed off in a burst of feeling with no craft or revision. (Wordsworth described poetry as "emotion recollected in tranquillity," and Romantic poets often revised heavily and worked within demanding forms.)
+- Romantic nature poetry is mainly scenery description. (The scene usually serves as a trigger for memory, emotion and reflection on the mind's relation to the world.)
+- A "Romantic lyric" is a love poem. (The term refers to the Romantic movement; these lyrics cover nature, memory, imagination and loss far more than romantic love.)
+
 ## Questions
 
 ```yaml
@@ -56,6 +64,7 @@ Romantic poetry made the lyric expression of intense personal emotion and vision
 
 - type: short-answer
   question: "How did Romantic poetry establish a new relationship between the poet and the reader?"
+  answer: "Romantic poets presented themselves as individuals sharing personal vision and feeling rather than as craftspeople following inherited rules. Readers were invited to enter the poet's consciousness and emotional experience instead of extracting a moral lesson."
   explanation: "Romantic poetry established the poet's personal authenticity, individual vision, and emotional depth as primary literary values. Rather than presenting themselves as classical craftspeople following inherited conventions, Romantic poets positioned themselves as expressive individuals sharing their unique perceptions and passionate responses. The reader was invited not to extract a moral lesson but to participate in the poet's subjective consciousness, imagination, and emotional truth. This made the poet's individual personality and perspective central to the literary experience."
 ```
 

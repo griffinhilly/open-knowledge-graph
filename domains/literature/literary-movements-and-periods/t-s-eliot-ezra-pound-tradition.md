@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 T.S. Eliot and Ezra Pound created demanding modernist poetry establishing literary tradition, allusion, and formal difficulty as central to modern verse. Eliot's The Waste Land employed fragmentation and mythological parallels to represent post-WWI despair. Pound's Cantos attempted epic synthesis through collage and juxtaposition. Both theorized literature as dialogic with tradition, requiring readers' active reconstruction of meaning.
 
+## How It's Best Learned
+Read the first section of The Waste Land aloud once without notes, and write down the voices, places and moods you notice. Then pick three allusions, look up their sources, and reread to see how each one changes the passage. Reading Eliot's essay "Tradition and the Individual Talent" alongside the poem shows the theory behind the method.
+
+## Common Misconceptions
+- For Eliot, respecting tradition meant copying the past and resisting change. (Eliot argued that tradition is gained through effort and that each new work alters how the whole past is read.)
+- You must catch every allusion before the poem means anything. (Sound, imagery and shifts of voice produce meaning on a first reading; allusions add layers to it.)
+- Eliot and Pound worked separately on unrelated projects. (Pound edited the drafts of The Waste Land heavily, and the two shaped each other's ideas about modern poetry.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ T.S. Eliot and Ezra Pound created demanding modernist poetry establishing litera
 
 - type: short-answer
   question: "How does the demand that readers recognize allusions change the relationship between poem and reader?"
+  answer: "It turns the reader from a passive recipient into an active interpreter who must know or look up literary tradition. The poem becomes a conversation with an informed reader, and its meaning keeps growing as the reader finds more connections."
   explanation: "By making allusions central to meaning, Eliot and Pound transform the reader from passive recipient to active interpreter. The reader must possess or acquire knowledge of literary tradition to fully comprehend the poem. The poem becomes a conversation between the poet and an educated reader who shares knowledge of literary history. This creates an elite relationship between poem and reader and asserts that serious literature requires serious, informed engagement. It also means that full comprehension is potentially endless—as readers discover new allusions and understand more deeply how the poem dialogues with tradition, the poem's richness increases."
 ```
 

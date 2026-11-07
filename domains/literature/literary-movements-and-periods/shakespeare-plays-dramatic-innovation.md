@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Shakespeare's plays synthesized medieval and classical dramatic traditions while adding unprecedented psychological complexity to character motivation. His mastery of dramatic structure, language, and the theatrical medium allowed exploration of fundamental human conflicts while maintaining engaging plots. Shakespeare established conventions of dramatic soliloquy as introspection and the integration of comic and tragic modes.
 
+## How It's Best Learned
+Take one Hamlet soliloquy and mark each turn of thought: where he asks a question, changes his mind, accuses himself or reaches a decision. Then read it aloud or watch two filmed versions to hear how actors shape those turns. Next, reread the porter scene in Macbeth right after the murder, and note what the comedy does to your sense of the horror around it.
+
+## Common Misconceptions
+- Shakespeare wrote in Old English. (He wrote in Early Modern English; Old English is the much earlier language of works like Beowulf and is unreadable to most modern English speakers without study.)
+- Shakespeare made up the stories of his plays. (He took most of his plots from histories, older plays and prose tales, and his originality lies in how he reshaped them.)
+- A soliloquy is the same as an aside. (An aside is a brief remark to the audience or oneself while other characters are on stage; a soliloquy is a longer speech in which a character thinks aloud, usually alone.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Shakespeare's plays synthesized medieval and classical dramatic traditions while
 
 - type: short-answer
   question: "How does the integration of comic and tragic elements in a Shakespearean play create a more complex audience response?"
+  answer: "Mixing comedy and tragedy keeps the audience from settling into one emotion. Humor can sharpen a tragic loss by recalling ordinary life, or create unease when we laugh at a villain, so the response feels mixed the way real experience does."
   explanation: "By mixing comic and tragic elements, Shakespeare prevents the audience from settling into a single emotional response. A scene of genuine humor in the midst of tragic action can intensify the tragedy by reminding us of normal human life and happiness, making losses more poignant. Alternatively, humor can complicate our response to evil or suffering—we might laugh at a villain's witty words even as we recognize their wickedness, creating uncomfortable ambivalence. This refusal to let the audience retreat into pure emotion creates a more human, more complex response that mirrors actual life, where comedy and tragedy intermingle and pure emotions are rare."
 ```
 

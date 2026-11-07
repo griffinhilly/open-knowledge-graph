@@ -21,6 +21,14 @@ status: draft
 ## Core Idea
 The Victorian social problem novel used narrative to investigate and critique social ills as a form of moral argument and reform advocacy. Writers combined romantic plot elements with sociological observation, documenting conditions of working and middle classes while positioning literature as a force for social conscience. These novels established literature's role in public debate.
 
+## How It's Best Learned
+Read the opening chapters of Gaskell's North and South or Mary Barton, or Dickens's Hard Times, and list each social problem the narrator raises and the evidence given for it. Then read the ending and ask how the plot resolves those problems: through law, through protest, or through private acts such as marriage, kindness or reconciliation. The gap between the diagnosis and the cure is where much of the genre's argument lies.
+
+## Common Misconceptions
+- The romance plots in these novels distract from the social argument. (The love stories often carry the argument, for example by bringing together characters from opposing classes and staging their reconciliation.)
+- Social problem novels gave neutral, documentary accounts of working-class life. (They were usually written from a middle-class viewpoint, and some portray strikes or trade unions with suspicion.)
+- These novels proposed large structural solutions to the problems they described. (Many end by resolving conflict through individual change of heart, which critics have read as a limit of the genre.)
+
 ## Questions
 
 ```yaml
@@ -56,6 +64,7 @@ The Victorian social problem novel used narrative to investigate and critique so
 
 - type: short-answer
   question: "Why was the combination of romantic plot with sociological observation particularly effective for advocating social reform?"
+  answer: "The romantic plot made readers care about characters from different classes, and the social observation showed the conditions shaping their lives. Injustice then felt concrete and urgent instead of abstract, which made the case for reform more persuasive."
   explanation: "By embedding sociological investigation within engaging narrative and romantic plot, novelists made readers emotionally invested in characters from different social classes. A reader might follow a heroine's romance while becoming aware of industrial conditions, class structures, or the exploitation of workers. The emotional engagement with characters' personal fates made abstract social problems concrete and urgent. Readers experienced social injustice not as statistical fact but through its impact on people they had come to care about. This emotional involvement made the moral argument for reform far more persuasive than abstract discussion could be."
 ```
 

@@ -26,6 +26,14 @@ status: draft
 ## Core Idea
 Troubadour poetry, composed in Occitan across southern France and surrounding regions (12th-14th centuries), created a sophisticated lyric tradition emphasizing wit, musical sophistication, and emotional complexity. Troubadours invented formal structures like the canso (love song) and sirventes (satire) that established new possibilities for vernacular verse.
 
+## How It's Best Learned
+Read one canso, one sirventes and one tenso in translation, and fill a small table for each: speaker, audience, subject and tone. The genres become distinct quickly. Then chart a single canso stanza's rhyme scheme from the original Occitan, even without knowing the language, to see how tightly the sounds are patterned. Listening to a sung performance completes the picture.
+
+## Common Misconceptions
+- Occitan is a dialect of French. (Occitan is a separate Romance language of southern France and nearby regions, distinct from the French that grew from the northern dialects.)
+- Troubadours were wandering minstrels who sang other people's songs. (Troubadours were composers, and some were nobles; professional performers called joglars often carried the songs from court to court.)
+- Troubadour poetry was a local tradition that stayed in southern France. (Northern French trouvères, German Minnesänger and Italian poets adapted its forms and themes.)
+
 ## Questions
 
 ```yaml
@@ -61,6 +69,7 @@ Troubadour poetry, composed in Occitan across southern France and surrounding re
 
 - type: short-answer
   question: "How did the troubadour use of vernacular language (Occitan) rather than Latin affect the development of European literature?"
+  answer: "Writing sophisticated poetry in Occitan showed that a spoken vernacular could carry serious literary art. This encouraged poets in other vernaculars, such as French, Italian and German, to build their own literary traditions outside Latin."
   explanation: "By composing in Occitan—a vernacular language spoken by ordinary people, not the Latin of scholars and clergy—troubadours demonstrated that literary sophistication, beauty, and artistic value could exist in the languages people actually spoke. This legitimated vernacular languages as vehicles for serious literature and encouraged the development of sophisticated literary traditions in other vernacular languages (French, Italian, German, Spanish, English). The troubadours' success in Occitan helped make possible the later flourishing of vernacular literatures throughout Europe. They proved that literary civilization did not require Latin; it could happen in the people's own languages."
 ```
 

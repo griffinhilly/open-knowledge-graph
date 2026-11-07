@@ -25,6 +25,14 @@ status: draft
 ## Core Idea
 Russian realism, particularly in Dostoevsky and Tolstoy, emphasized philosophical depth and psychological investigation of consciousness, guilt, and moral responsibility. These authors used extensive interior monologue and philosophical digression to explore existential questions within realistic social settings.
 
+## How It's Best Learned
+Read a short passage of Raskolnikov's agitated thinking in Crime and Punishment beside a passage of Tolstoy's narrator moving through a character's thoughts in Anna Karenina. For each, note who frames the thought, how calm or feverish it is, and what social detail surrounds it. The comparison shows the shared method and the two authors' different styles before you start either long novel.
+
+## Common Misconceptions
+- Dostoevsky and Tolstoy write in basically the same way. (Dostoevsky favors feverish scenes and clashing voices, while Tolstoy's calmer narrator surveys many lives across a broad social canvas.)
+- The philosophical speeches in these novels state the author's own opinions. (Especially in Dostoevsky, characters argue for positions the author opposed, and the novel tests ideas against each other.)
+- Interior monologue in these novels is the same as modernist stream of consciousness. (The Russian realists mostly render thought through an orderly narrator and coherent speech, while stream of consciousness imitates the mind's unedited flow more directly.)
+
 ## Questions
 
 ```yaml
@@ -60,6 +68,7 @@ Russian realism, particularly in Dostoevsky and Tolstoy, emphasized philosophica
 
 - type: short-answer
   question: "How does the combination of realistic social setting with philosophical exploration change what the novel can investigate?"
+  answer: "It lets the novel study both how social conditions shape a person and how that person faces questions of guilt, faith and meaning. The realistic setting grounds the philosophy in particular lives, while the philosophy shows what is at stake in ordinary social existence."
   explanation: "By maintaining realistic social contexts while developing extensive interior monologue and philosophical investigation, Russian realists created novels that could explore both how social conditions affect individuals and how individuals struggle with ultimate existential questions. A character exists in a realistic Russian society with its class hierarchies, social conventions, and historical circumstances. But that same character also struggles with questions of guilt, faith, responsibility, and the meaning of existence. The realistic setting grounds these philosophical struggles in particular human lives rather than abstract argument, while the philosophical depth reveals what is at stake in ordinary social existence. This integration allows exploration of how individual consciousness, morality, and existential awareness are shaped by social conditions while also transcending them."
 ```
 

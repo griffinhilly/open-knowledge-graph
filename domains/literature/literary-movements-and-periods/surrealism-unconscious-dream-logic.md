@@ -25,6 +25,14 @@ status: draft
 ## Core Idea
 Surrealism attempted to access the unconscious mind through automatism, dream imagery, and the juxtaposition of incongruous elements, treating irrationality and desire as paths to deeper truth. Surrealist literature sought to liberate language from rational control and access pre-logical reality.
 
+## How It's Best Learned
+Try the methods before reading the theory. Write for ten minutes without stopping or rereading, then play "exquisite corpse," where each person adds a phrase without seeing the others. Circle the strangest image that results and ask what it suggests. Then read a Surrealist poem and look for the same moves: sudden leaps, impossible pairings, and images that feel like dream rather than description.
+
+## Common Misconceptions
+- Surrealism was mainly a painting style. (It began as a literary movement led by poets, and painters joined it; the founding manifesto was written by the poet André Breton.)
+- "Surreal" just means weird or random. (Surrealists aimed their strangeness at a purpose: revealing desire and the unconscious through images that follow dream logic.)
+- Surrealism was an escape from politics into private dreams. (Many Surrealists saw freeing the mind as part of social revolution and tied the movement to radical politics.)
+
 ## Questions
 
 ```yaml
@@ -60,6 +68,7 @@ Surrealism attempted to access the unconscious mind through automatism, dream im
 
 - type: short-answer
   question: "How does the Surrealist valuation of dream logic challenge conventional assumptions about consciousness and truth?"
+  answer: "Conventional thought treats reason as the best guide to truth and dreams as meaningless noise. Surrealism reverses that ranking, treating dream logic and desire as possibly more authentic expressions of the self than reason, which it saw as shaped by convention and repression."
   explanation: "Conventional Western thought treats rational consciousness as the most reliable guide to truth. Dreams and unconscious impulses are often seen as misleading noise—irrational, incoherent, products of physiology rather than meaningful thought. Surrealism inverts this hierarchy: dream logic is not inferior to rational logic but potentially more authentic, more connected to genuine desire and unconscious truth. By valorizing dream, desire, and the irrational, Surrealism suggests that we have been excluding crucial dimensions of human experience and understanding by privileging reason. The dream is not noise but a voice of authentic selfhood that rationality has suppressed."
 ```
 

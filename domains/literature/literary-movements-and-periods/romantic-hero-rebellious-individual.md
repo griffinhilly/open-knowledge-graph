@@ -24,6 +24,14 @@ status: draft
 ## Core Idea
 Romantic literature created the figure of the rebellious hero—passionate, emotionally intense, and often at odds with social convention. This archetype privileged individual authenticity and emotional intensity over social obligation, establishing templates for outsider protagonists that influenced literature for two centuries.
 
+## How It's Best Learned
+Compare a classical or Renaissance tragic hero with a Romantic one using the same three questions: what the hero wants, what society expects, and whom the text blames for the conflict. Then read a passage featuring a brooding, defiant figure such as the Byronic hero and list the traits that mark him as an outsider. Finally, trace one of those traits into a modern rebel character.
+
+## Common Misconceptions
+- A Romantic hero is a hero of romance, someone defined by love affairs. (Here "Romantic" refers to the Romantic movement; the hero is defined by passion, defiance and inner intensity, which may or may not involve love.)
+- Romantic texts present the rebellious hero as a pure role model. (Many Romantic works show the hero's isolation and destructiveness, so sympathy and criticism often exist side by side.)
+- The Romantic hero rebels against society for no reason beyond temperament. (The rebellion usually rests on a claim that social convention suppresses authentic feeling, imagination or freedom.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +67,7 @@ Romantic literature created the figure of the rebellious hero—passionate, emot
 
 - type: short-answer
   question: "How does the Romantic privileging of individual authenticity change the relationship between hero and society?"
+  answer: "It turns the hero's conflict with society from a sign of failure into a possible sign of integrity. Society can now appear as a force that corrupts authenticity, and the hero may be destroyed by refusing to betray their true nature."
   explanation: "By making individual authenticity a paramount value, Romantic literature reframes the hero's conflict with society as potentially noble rather than shameful. Where earlier traditions might have presented social transgression as failure, Romantic literature can present a hero's refusal to suppress their true nature as admirable and authentic, even when socially disastrous. This inverts the moral framework: society becomes something that potentially corrupts authenticity, while the individual's passionate inner truth becomes the locus of moral value. This creates the possibility of tragic heroes who are destroyed by their own integrity rather than by their moral failings."
 ```
 

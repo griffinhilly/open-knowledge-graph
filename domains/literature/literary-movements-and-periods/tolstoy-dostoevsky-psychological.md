@@ -24,6 +24,14 @@ status: draft
 ## Core Idea
 Tolstoy and Dostoevsky created vast realist novels combining panoramic historical scope with intense psychological and philosophical exploration. War and Peace investigates how individual action relates to historical forces; Crime and Punishment uses psychological realism to explore moral consciousness and redemption. Both writers treated the novel as a vehicle for profound philosophical inquiry while maintaining vivid realist representation.
 
+## How It's Best Learned
+Pair one battle chapter from War and Peace with one of Tolstoy's essay chapters on history, and ask how the story and the argument support each other. Then read the early chapters of Crime and Punishment and track Raskolnikov's theory that an extraordinary person may break moral law. Note each moment where his body, dreams or feelings contradict the theory. Keep a character list for War and Peace, since it follows many families.
+
+## Common Misconceptions
+- War and Peace is a work of history. (It is a novel that mixes invented families with real figures such as Napoleon, though Tolstoy adds essay chapters arguing his own view of history.)
+- Crime and Punishment is a detective story about finding the killer. (Readers watch Raskolnikov commit the murder early on; the suspense lies in his conscience and in whether he will confess.)
+- Tolstoy portrays great leaders as the movers of history. (He argues the reverse: leaders like Napoleon control events far less than they believe, and history arises from countless individual actions.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +67,7 @@ Tolstoy and Dostoevsky created vast realist novels combining panoramic historica
 
 - type: short-answer
   question: "How does the combination of epic scope with psychological depth change what the novel can explore?"
+  answer: "It lets the novel show how historical forces shape a person while still treating that person's inner life as real and important. This raises questions about agency, history and moral responsibility that neither breadth nor depth could address alone."
   explanation: "By combining historical breadth with psychological depth, these novels can investigate how personal consciousness is shaped by historical forces while also asserting the reality and significance of individual inner life. Tolstoy can show how a character is caught up in historical events beyond individual control while also exploring that character's unique psychological response and moral struggles. This integration allows the novel to address ultimate questions: What is the relationship between individual agency and historical necessity? How do we create meaning and moral responsibility when caught in historical forces? Does individual consciousness matter, or are we merely products of history? The psychological depth prevents history from becoming abstract or deterministic, while the historical scope prevents psychology from becoming merely private or individual."
 ```
 

@@ -27,6 +27,14 @@ status: draft
 ## Core Idea
 Shakespearean drama synthesized classical dramatic structure with medieval romance's flexibility, creating complex tragedies and comedies featuring psychological depth, linguistic innovation, and metatheatrical awareness. Shakespeare's works established new possibilities for dramatic form, character development, and poetic language within commercial theatre.
 
+## How It's Best Learned
+Start with a picture or model of an open-air playhouse: a thrust stage, little scenery, daylight performance, and a crowd standing close to the actors. Then read an opening scene and list every line that tells the audience the time, place or weather, since the words had to do the work of sets. Finally, study the play within the play in Hamlet and ask what it says about acting and watching.
+
+## Common Misconceptions
+- Shakespeare's audiences were mostly educated elites. (Public playhouses drew a mixed crowd, from wealthy patrons in the galleries to ordinary Londoners in cheap standing room around the stage.)
+- Women played the female roles on Shakespeare's stage. (On the public stage of his time, boy actors played the women's parts.)
+- Metatheatre just means a character talking to the audience. (It also covers plays within plays, characters who stage scenes for each other, and speeches that compare life to acting.)
+
 ## Questions
 
 ```yaml
@@ -62,6 +70,7 @@ Shakespearean drama synthesized classical dramatic structure with medieval roman
 
 - type: short-answer
   question: "How did Shakespeare's creation of psychologically complex characters change dramatic possibilities?"
+  answer: "Characters with inner contradictions, such as Hamlet's desire to act and his hesitation, moved drama beyond moral types and simple lessons. Tragedy could then grow from inner conflict as well as outside fate."
   explanation: "Before Shakespeare, dramatic characters often embodied clear types or moral lessons—the hero, the villain, the wise elder. Shakespeare created characters with internal contradictions, complex motivations, and psychological depth that mirrored actual human complexity. Hamlet's simultaneous desire and hesitation, Macbeth's ambition and guilt, Cleopatra's passionate sensuality and political intelligence—these characters are not types but individuals whose contradictions make them compelling. This psychological complexity freed drama from simple moral instruction and allowed it to explore the actual workings of human consciousness, desire, and moral conflict. It also created new possibilities for tragedy—not tragedy of external fate but tragedy of inner conflict and moral complexity."
 ```
 

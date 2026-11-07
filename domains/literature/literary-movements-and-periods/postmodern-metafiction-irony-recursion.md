@@ -21,6 +21,14 @@ status: draft
 ## Core Idea
 Postmodern metafiction foregrounded narrative's constructed nature, using self-reference and recursion to call attention to artificiality while engaging readers in meaning-creation. These novels combined maximalist scope with formal self-consciousness, mixing genres and registers. The technique challenged readers' passivity while questioning whether meaning-making was possible.
 
+## How It's Best Learned
+Draw a nested-box diagram of a frame story, labeling each narrative level and who narrates it. Then mark every moment where the text points at its own construction, such as a narrator addressing the reader or a character noticing they are in a book. Comparing a traditional frame tale with a metafictional one shows how the same nesting can hide or expose artifice.
+
+## Common Misconceptions
+- Metafiction is just a writer showing off cleverness, with no real point. (Self-reference makes readers examine how stories produce meaning and authority, which is the subject of these works.)
+- Any story within a story is postmodern metafiction. (Frame narratives are very old; metafiction uses nesting to expose the fiction as a construction, not only to deliver another tale.)
+- Because these novels are playful, they cannot be serious. (Parody and irony in these works often carry serious questions about knowledge, history and whether narrative can grasp reality.)
+
 ## Questions
 
 ```yaml
@@ -56,6 +64,7 @@ Postmodern metafiction foregrounded narrative's constructed nature, using self-r
 
 - type: short-answer
   question: "Explain how maximalist scope and self-conscious form work together in postmodern metafiction."
+  answer: "Maximalist scope piles up material that seems to promise a complete picture of reality, while self-conscious form reminds readers that this abundance is constructed. Together they raise the question of whether narrative can ever capture reality or complete meaning."
   explanation: "Maximalism—encyclopedic detail, multiple narratives, abundant material—seems to claim comprehensive representation. But self-consciousness undermines this: we recognize abundance is constructed. Together they question: can narrative comprehend reality? Can meaning be complete? Abundance suggests possibility; self-consciousness questions it."
 ```
 

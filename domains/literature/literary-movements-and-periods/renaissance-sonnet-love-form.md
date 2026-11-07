@@ -28,6 +28,14 @@ status: draft
 ## Core Idea
 The Renaissance sonnet tradition, descending from Petrarch, created a 14-line form capable of expressing complex emotional and intellectual states within tight formal constraints. The sonnet became the dominant form for love poetry and philosophical meditation, establishing conventions of volta and resolution that unified formal beauty with conceptual argument.
 
+## How It's Best Learned
+Annotate one Italian (Petrarchan) sonnet and one English sonnet side by side: mark the rhyme scheme with letters, box the volta, and summarize the octave and sestet, or the quatrains and couplet, in one line each. Then list the Petrarchan conventions you find, such as the distant beloved and paradoxes like freezing fire. Read Shakespeare's Sonnet 130 afterward to see those conventions turned upside down.
+
+## Common Misconceptions
+- Shakespeare invented the sonnet. (The form came to England from Italy; English poets adapted it, and the English rhyme pattern later became known as the Shakespearean sonnet.)
+- The volta always comes at line 9. (Line 9 is the usual turn in the Italian sonnet, but English sonnets often turn at the final couplet, and poets shift the turn for effect.)
+- A Renaissance love sonnet is a direct confession of the poet's real feelings. (Sonnets worked within shared conventions of praise, longing and complaint, so the speaker is a crafted persona as much as a diary voice.)
+
 ## Questions
 
 ```yaml
@@ -63,6 +71,7 @@ The Renaissance sonnet tradition, descending from Petrarch, created a 14-line fo
 
 - type: short-answer
   question: "How do the formal constraints of the sonnet (14 lines, specific rhyme scheme) contribute to its power as an expressive form?"
+  answer: "The short length and fixed rhyme scheme force compression, so each word carries weight. The closed shape and the volta let complex feeling develop and reach a sense of completion within a small space."
   explanation: "The severe constraints—only 14 lines and a predetermined rhyme scheme—force the poet to achieve maximum precision and compression. Every word carries weight because there is no room for excess. The poet cannot simply express emotions directly but must compress complex feelings into this tight form, which creates remarkable depth and intensity. Additionally, the constraints create a sense of inevitability and wholeness—the poem is complete and closed, which mirrors the emotional and intellectual unity the volta creates. The reader experiences the poem as a perfectly shaped object that contains real human complexity, which is part of its power."
 ```
 

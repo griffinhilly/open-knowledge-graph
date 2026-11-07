@@ -26,6 +26,14 @@ status: draft
 ## Core Idea
 Realism (mid-19th century) rejected Romanticism's subjectivity in favor of objective representation of contemporary life in mundane particularity. Realist writers claimed fidelity to observed reality, selecting ordinary subjects while employing controlled narrative perspective and precise descriptive detail. The movement shaped prose style and narrative technique, establishing the novel as an instrument for understanding society.
 
+## How It's Best Learned
+Set a Romantic description of wild nature or a hero beside a realist description of a kitchen, a shop, or a working day. Underline the concrete details in each and note whose feelings color the scene. Then ask what the realist writer chose to leave out. This shows that realism selects and arranges, even while it aims for faithful observation.
+
+## Common Misconceptions
+- Realist writers copied life exactly, like a camera, with no choices involved. (Realists selected subjects, details and viewpoint carefully; the effect of reality is produced by technique.)
+- Realism is the same as naturalism. (Naturalism grew out of realism but stressed heredity and environment as forces that determine characters' lives, a more deterministic view than realism generally takes.)
+- Realist novels avoid plot and drama because they deal with ordinary life. (Realist novels often have strong plots built from ordinary conflicts such as money, marriage, class and work.)
+
 ## Questions
 
 ```yaml
@@ -61,6 +69,7 @@ Realism (mid-19th century) rejected Romanticism's subjectivity in favor of objec
 
 - type: short-answer
   question: "Explain how realism's claim to 'fidelity to observed reality' justified its aesthetic and social purposes."
+  answer: "If the goal is to show reality faithfully, then precise observation, concrete detail and controlled perspective become necessary methods. That same accuracy made the novel credible as a way to investigate and comment on society."
   explanation: "If fidelity to reality is the goal, then precise observation, careful detail, and controlled representation are necessary techniques. This justified innovations in prose style and narrative technique: they served truth-telling. The novel became legitimate vehicle for social investigation because it could represent reality accurately. This made literature credible as social commentary."
 ```
 

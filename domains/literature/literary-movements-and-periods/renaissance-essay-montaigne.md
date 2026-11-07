@@ -19,6 +19,14 @@ status: draft
 ## Core Idea
 Michel de Montaigne's Essays invented the modern essay as personal intellectual exploration and self-scrutiny, rejecting formal structure in favor of digressive, conversational investigation. Montaigne's method of following curiosity wherever classical quotations lead modeled a new relationship between writer and reader based on honesty and skepticism. This form became the dominant vehicle for Enlightenment intellectual expression.
 
+## How It's Best Learned
+Read one short Montaigne essay and map its path: write down each topic shift and what triggered it, whether a quotation, a memory or an anecdote. The map shows the associative structure directly. Then compare it with a school-style thesis essay on the same subject, and try writing a page of your own that follows a question without settling it.
+
+## Common Misconceptions
+- Montaigne's essays are like the thesis-and-evidence essays taught in school. (His essays test and wander through a question; the word "essai" means an attempt, not a proof.)
+- Because Montaigne writes about himself, the essays are private memoir with little to say about anyone else. (He studies himself as a sample of human nature, so his self-examination opens onto general questions.)
+- Montaigne quotes classical authors to settle arguments by authority. (He uses quotations as starting points for reflection and often questions or turns away from them.)
+
 ## Questions
 
 ```yaml
@@ -54,6 +62,7 @@ Michel de Montaigne's Essays invented the modern essay as personal intellectual 
 
 - type: short-answer
   question: "How does Montaigne's method of 'following classical quotations wherever they lead' function as a literary technique?"
+  answer: "Montaigne uses a classical quotation as an entry point rather than as proof. The quotation sparks a thought, a memory or an observation, so the essay moves by association and reads like a mind thinking aloud."
   explanation: "Rather than beginning with a thesis to be defended through logical argument, Montaigne uses classical quotations as entry points for digression and meditation. A quotation triggers an idea, which branches into another thought, which connects to a personal memory or observation. This creates a natural, associative structure that mirrors how a thinking mind actually works—jumping, connecting, questioning, doubting. The classical quotations provide intellectual anchors, but the movement between them is organic and personal. This technique makes the essay feel like an intimate conversation with the reader, sharing the writer's actual thinking process rather than a polished argument."
 ```
 

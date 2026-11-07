@@ -25,6 +25,14 @@ status: draft
 ## Core Idea
 Victorian poets struggled with the loss of religious certainty and the promises of scientific progress, using poetry to explore doubt, uncertainty, and existential anxiety. Victorian poetry maintained romantic emotional intensity while confronting modern skepticism and the limits of human knowledge.
 
+## How It's Best Learned
+Read Matthew Arnold's "Dover Beach" and trace its central image, the "Sea of Faith" withdrawing like a tide, line by line. Then read a few sections of Tennyson's In Memoriam and mark where the speaker swings between doubt and hope. Comparing the two shows the range of Victorian responses, from grief at lost faith to a hard-won, uncertain trust.
+
+## Common Misconceptions
+- Victorian religious doubt began with Darwin's Origin of Species. (Geology and biblical scholarship had already unsettled belief; Tennyson's In Memoriam, with its image of nature "red in tooth and claw," appeared in 1850, nine years before Darwin's book.)
+- All major Victorian poets lost their faith. (Some, such as Gerard Manley Hopkins and Christina Rossetti, wrote intensely devout poetry, and many poets moved back and forth between belief and doubt.)
+- Poems of doubt reject religion outright. (Many end in uncertain hope or a changed faith, so doubt and longing for belief often appear together.)
+
 ## Questions
 
 ```yaml
@@ -60,6 +68,7 @@ Victorian poets struggled with the loss of religious certainty and the promises 
 
 - type: short-answer
   question: "How does the confrontation with doubt and uncertainty change the function of poetry in Victorian literature?"
+  answer: "Poetry could no longer confidently claim to reveal spiritual truth as Romantic poetry had. It became a space for honestly voicing doubt and the gap between what one wants to believe and what one can believe."
   explanation: "If Romantic poetry had positioned the poet's consciousness and imagination as a source of transcendent truth, Victorian poetry had to reckon with the possibility that no such transcendence was available. Poetry could no longer confidently assert spiritual knowledge or religious truth. Instead, poetry became a space for articulating doubt itself—for exploring what it means to have lost faith, for struggling with the gap between what we want to believe and what we can honestly believe, for finding meaning in the exploration of uncertainty itself. Poetry thus becomes not a vehicle for revelation but for honest confrontation with the limits of human knowledge and the anxiety of modern existence."
 ```
 

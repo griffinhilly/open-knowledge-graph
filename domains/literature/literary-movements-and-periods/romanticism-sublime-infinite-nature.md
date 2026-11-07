@@ -27,6 +27,14 @@ status: draft
 ## Core Idea
 Romanticism valorized the sublime—the overwhelming power of nature to inspire both terror and transcendence—as a primary aesthetic category and path to truth. This movement prioritized emotion, imagination, and individual experience over neoclassical reason and restraint, treating nature as a source of spiritual knowledge.
 
+## How It's Best Learned
+Read a neoclassical description of nature beside a Romantic one and list the adjectives in each. Words of order and proportion tend to cluster in the first, and words of vastness, darkness and power in the second. Then rewrite a few lines of the neoclassical passage in a sublime register. The exercise makes the shift in values concrete before tackling longer Romantic texts.
+
+## Common Misconceptions
+- Neoclassical writers ignored nature, and the Romantics discovered it. (Neoclassical writers prized nature too, but as a model of order and general truth; Romantics valued its wildness, power and spiritual meaning.)
+- The sublime is a quality that belongs to mountains and storms themselves. (Many theorists placed the sublime in the mind's response, so the same scene can feel sublime to one viewer and not to another.)
+- Only nature can be sublime. (Nature was the favorite Romantic example, but writers also found the sublime in God, ideas, ruins, art and human passion.)
+
 ## Questions
 
 ```yaml
@@ -62,6 +70,7 @@ Romanticism valorized the sublime—the overwhelming power of nature to inspire 
 
 - type: short-answer
   question: "Why did Romantic writers valorize the sublime as a primary aesthetic category?"
+  answer: "The sublime overwhelmed ordinary rational understanding and seemed to open a deeper level of truth that reason could not reach. It showed that emotion and the encounter with vast nature could be real sources of spiritual knowledge."
   explanation: "The sublime was valued because it represented an aesthetic experience that transcended reason and formal categories. In the sublime encounter with nature, ordinary rational consciousness was overwhelmed and exceeded, opening access to a deeper realm of truth and meaning that reason alone could not reach. The sublime was a path to transcendence and spiritual knowledge through the body's terror and the mind's awe. It validated emotion and subjective response as profound sources of truth, and it demonstrated that nature itself could be a teacher and revealer of ultimate realities."
 ```
 

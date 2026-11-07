@@ -27,6 +27,14 @@ status: draft
 ## Core Idea
 Victorian novelists expanded the novel's scope to accommodate extensive social commentary, multiple plot lines, and characters across class boundaries, making the novel a vehicle for investigating industrial society's impact on human life. The Victorian novel engaged directly with contemporary social problems through narrative realism.
 
+## How It's Best Learned
+Draw a network diagram of a multiplot Victorian novel such as Dickens's Bleak House, placing characters by class and linking those whose plots meet. The diagram shows how the structure ties distant social worlds together. Then compare a passage set in a wealthy household with one set among the poor, and note how the narrator's descriptions, sympathies and tone shift between them.
+
+## Common Misconceptions
+- Multiple plot lines in Victorian novels are loose digressions. (The plots are often designed to reveal hidden links between classes, so the structure itself makes a social argument.)
+- Victorian novels about the poor were written by working-class authors for working-class readers. (Most were written by middle-class authors for middle-class readers, which shaped how poverty was framed.)
+- Victorian social novelists all called for sweeping political change. (Many stressed personal moral reform, such as kindness and duty across class lines, more than changes to the system.)
+
 ## Questions
 
 ```yaml
@@ -62,6 +70,7 @@ Victorian novelists expanded the novel's scope to accommodate extensive social c
 
 - type: short-answer
   question: "How does the expansion of the novel's scope to include characters from different classes change what the form could accomplish?"
+  answer: "Including characters from several classes lets the novel show the same industrial system from different positions, such as owner and worker. Readers then see society as a network of unequal relations instead of a single stable world, which makes the novel a tool for social critique."
   explanation: "By including characters across class boundaries, the novel could no longer present a single perspective or world. Instead, the reader encounters multiple social realities and different ways of experiencing industrial society. A wealthy factory owner and a working-class employee have different stakes, different consciousness, different experiences of the same industrial system. The novel's capacity to present these multiple perspectives simultaneously allows the reader to understand society as a complex network of relations and contradictions rather than as a unified, stable world. This multiplicity of perspective became a tool for social investigation and critique—showing readers the actual conditions of industrial life that they might otherwise never encounter."
 ```
 

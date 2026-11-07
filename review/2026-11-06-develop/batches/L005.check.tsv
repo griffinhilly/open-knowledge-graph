@@ -1,0 +1,60 @@
+domains/chemistry/inorganic-chemistry/bioinorganic-chemistry-metalloenzymes.md	how	2	0	ok
+domains/chemistry/inorganic-chemistry/bioinorganic-chemistry-metalloenzymes.md	mis	6	0	fixed	format only: added missing blank line before ## Questions (renders either way; not counted)
+domains/chemistry/inorganic-chemistry/catalytic-cycles-wilkinson-grubbs.md	how	2	0	ok
+domains/chemistry/inorganic-chemistry/catalytic-cycles-wilkinson-grubbs.md	mis	8	0	ok
+domains/chemistry/inorganic-chemistry/chelate-effect-stability-constants.md	how	2	1	fixed	"ΔH is similar" overstated for Ni2+ (about -100 vs -117 kJ/mol; entropy is the larger part, not the only one); copied from file's Explainer. Now "TΔS differs more than ΔH does"
+domains/chemistry/inorganic-chemistry/chelate-effect-stability-constants.md	mis	8	1	fixed	bullet 1: "Ni-N bonds are similar in strength" overstated (en has a more negative ΔH); softened to "enthalpy changes differ only modestly; most of the gain". Older Explainer error not in scope: says acetylacetonate forms five-membered rings (it forms six-membered)
+domains/chemistry/inorganic-chemistry/cluster-compounds.md	how	1	0	ok
+domains/chemistry/inorganic-chemistry/cluster-compounds.md	mis	8	0	ok
+domains/chemistry/inorganic-chemistry/color-spectroscopy-coordination-compounds.md	how	2	0	ok
+domains/chemistry/inorganic-chemistry/color-spectroscopy-coordination-compounds.md	mis	8	0	ok
+domains/chemistry/inorganic-chemistry/coordination-compounds-nomenclature.md	how	1	0	ok
+domains/chemistry/inorganic-chemistry/coordination-compounds-nomenclature.md	mis	8	0	ok
+domains/chemistry/inorganic-chemistry/crystal-field-theory.md	how	1	0	ok
+domains/chemistry/inorganic-chemistry/crystal-field-theory.md	mis	8	1	fixed	bullet 2: "only when Δ > P" false for d1-d3 and d8-d10, where the lower set fills first regardless; limited to d4-d7
+domains/chemistry/inorganic-chemistry/electron-transfer-reactions.md	how	2	0	ok
+domains/chemistry/inorganic-chemistry/electron-transfer-reactions.md	mis	8	0	ok
+domains/chemistry/inorganic-chemistry/electronic-spectra-tanabe-sugano.md	how	2	0	ok
+domains/chemistry/inorganic-chemistry/electronic-spectra-tanabe-sugano.md	mis	8	0	ok
+domains/chemistry/inorganic-chemistry/f-element-chemistry.md	how	1	0	ok
+domains/chemistry/inorganic-chemistry/f-element-chemistry.md	mis	8	1	fixed	bullet 3: "oxidation states up to +6" for U, Np, Pu; Np and Pu reach +7 (copied from file's "+3 to +6" question). Older Explainer overstates: lanthanide contraction "exactly cancels" the 5d size increase
+domains/chemistry/inorganic-chemistry/group-theory-applications-inorganic.md	how	2	0	ok
+domains/chemistry/inorganic-chemistry/group-theory-applications-inorganic.md	mis	8	1	fixed	bullet 2: listed +1/-1/0 as the only character values; unshifted pi (vector) orbitals give fractional values (e.g. 0 under C4, -1/2 under C3), and the How sends readers to the pi case. Recast +1/-1 as sigma examples
+domains/chemistry/inorganic-chemistry/heterogeneous-catalysis-metal-surfaces.md	how	2	0	ok
+domains/chemistry/inorganic-chemistry/heterogeneous-catalysis-metal-surfaces.md	mis	8	0	ok
+domains/chemistry/inorganic-chemistry/homogeneous-catalysis-mechanisms.md	how	2	0	ok
+domains/chemistry/inorganic-chemistry/homogeneous-catalysis-mechanisms.md	mis	8	0	ok
+domains/chemistry/inorganic-chemistry/hsab-theory.md	how	1	0	ok
+domains/chemistry/inorganic-chemistry/hsab-theory.md	mis	8	0	ok
+domains/chemistry/inorganic-chemistry/inorganic-photochemistry.md	how	2	0	ok
+domains/chemistry/inorganic-chemistry/inorganic-photochemistry.md	mis	8	1	fixed	bullet 4 deleted: "longer-lived emission comes from slower absorption" is a strawman; 3 bullets remain. Also added missing blank line before ## Questions
+domains/chemistry/inorganic-chemistry/isomerism-coordination-compounds.md	how	1	0	ok
+domains/chemistry/inorganic-chemistry/isomerism-coordination-compounds.md	mis	8	0	ok
+domains/chemistry/inorganic-chemistry/jahn-teller-effect.md	how	2	0	ok
+domains/chemistry/inorganic-chemistry/jahn-teller-effect.md	mis	8	0	ok
+domains/chemistry/inorganic-chemistry/ligand-field-theory.md	how	1	0	ok
+domains/chemistry/inorganic-chemistry/ligand-field-theory.md	mis	8	0	ok
+domains/chemistry/inorganic-chemistry/magnetism-coordination-compounds.md	how	1	0	ok
+domains/chemistry/inorganic-chemistry/magnetism-coordination-compounds.md	mis	8	0	ok
+domains/chemistry/inorganic-chemistry/main-group-chemistry-overview.md	how	2	0	ok
+domains/chemistry/inorganic-chemistry/main-group-chemistry-overview.md	mis	8	0	ok
+domains/chemistry/inorganic-chemistry/materials-chemistry-zeolites-mofs.md	how	2	0	ok
+domains/chemistry/inorganic-chemistry/materials-chemistry-zeolites-mofs.md	mis	8	0	ok
+domains/chemistry/inorganic-chemistry/metal-carbonyls.md	how	1	0	ok
+domains/chemistry/inorganic-chemistry/metal-carbonyls.md	mis	8	0	ok
+domains/chemistry/inorganic-chemistry/metal-metal-bonding.md	how	2	0	ok
+domains/chemistry/inorganic-chemistry/metal-metal-bonding.md	mis	8	1	fixed	bullet 1: "each added component contributes less than the one before" false for the two equal pi components; restated as pi and delta weaker than sigma, delta weakest
+domains/chemistry/inorganic-chemistry/mo-theory-transition-metal-complexes.md	how	1	0	ok
+domains/chemistry/inorganic-chemistry/mo-theory-transition-metal-complexes.md	mis	8	0	ok
+domains/chemistry/inorganic-chemistry/nephelauxetic-effect-covalency.md	how	2	0	ok
+domains/chemistry/inorganic-chemistry/nephelauxetic-effect-covalency.md	mis	8	1	fixed	bullet 2: called F- a "moderate Δ" ligand; F- is weak-field. Replaced with the Cl- vs F- order reversal between the two series
+domains/chemistry/inorganic-chemistry/organometallic-chemistry-fundamentals.md	how	1	0	ok
+domains/chemistry/inorganic-chemistry/organometallic-chemistry-fundamentals.md	mis	8	0	ok
+domains/chemistry/inorganic-chemistry/reaction-mechanisms-coordination-compounds.md	how	3	1	fixed	"five-coordinate and seven-coordinate structures each mechanism implies" mismatched the octahedral-D vs square-planar-A comparison (both give five-coordinate intermediates); now names square pyramid and trigonal bipyramid
+domains/chemistry/inorganic-chemistry/reaction-mechanisms-coordination-compounds.md	mis	8	0	ok
+domains/chemistry/inorganic-chemistry/sandwich-compounds-metallocenes.md	how	1	0	ok
+domains/chemistry/inorganic-chemistry/sandwich-compounds-metallocenes.md	mis	8	1	fixed	bullet 4 belief "Cobaltocene is stable" is not clearly false (it is isolable); belief now "as air-stable as ferrocene"
+domains/chemistry/inorganic-chemistry/solid-state-chemistry-fundamentals.md	how	1	0	ok
+domains/chemistry/inorganic-chemistry/solid-state-chemistry-fundamentals.md	mis	8	0	ok
+domains/chemistry/inorganic-chemistry/spectrochemical-series.md	how	1	0	ok
+domains/chemistry/inorganic-chemistry/spectrochemical-series.md	mis	8	0	ok

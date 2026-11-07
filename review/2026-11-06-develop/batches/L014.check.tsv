@@ -1,0 +1,72 @@
+domains/literature/digital-and-experimental-literature/interactive-fiction-text-adventures.md	how	2	0	ok
+domains/literature/digital-and-experimental-literature/interactive-fiction-text-adventures.md	mis	6	0	ok
+domains/literature/digital-and-experimental-literature/interactive-fiction-text-adventures.md	q:4:answer	1	0	ok
+domains/literature/digital-and-experimental-literature/kinetic-poetry-animation.md	how	2	0	ok
+domains/literature/digital-and-experimental-literature/kinetic-poetry-animation.md	mis	6	0	ok
+domains/literature/digital-and-experimental-literature/kinetic-poetry-animation.md	q:4:answer	1	0	ok
+domains/literature/digital-and-experimental-literature/lipogram-deletion-constraint.md	how	2	0	ok
+domains/literature/digital-and-experimental-literature/lipogram-deletion-constraint.md	mis	6	1	fixed	Bullet 1 stated Perec's motive as 'because' e is most common and called the constraint 'as hard as it can be'; motive was also thematic/autobiographical. Reworded to a plain fact: e is the hardest single letter to omit in French.
+domains/literature/digital-and-experimental-literature/lipogram-deletion-constraint.md	q:4:answer	1	0	ok
+domains/literature/digital-and-experimental-literature/lipogram-lexical-constraint-writing.md	how	2	0	ok
+domains/literature/digital-and-experimental-literature/lipogram-lexical-constraint-writing.md	mis	6	0	ok
+domains/literature/digital-and-experimental-literature/lipogram-lexical-constraint-writing.md	q:4:answer	1	0	ok	Older text (not fixed): q0 and q1 question strings end with a stray double quote; Explainer cites English words 'there'/'three' as examples for a French novel.
+domains/literature/digital-and-experimental-literature/locative-literature-gps-place-specific.md	how	2	0	ok
+domains/literature/digital-and-experimental-literature/locative-literature-gps-place-specific.md	mis	6	0	ok
+domains/literature/digital-and-experimental-literature/locative-literature-gps-place-specific.md	q:4:answer	1	0	ok
+domains/literature/digital-and-experimental-literature/n-plus-seven-substitution-method.md	how	2	0	ok
+domains/literature/digital-and-experimental-literature/n-plus-seven-substitution-method.md	mis	6	0	ok
+domains/literature/digital-and-experimental-literature/n-plus-seven-substitution-method.md	q:4:answer	1	0	ok
+domains/literature/digital-and-experimental-literature/net-art-digital-installation.md	how	2	0	ok
+domains/literature/digital-and-experimental-literature/net-art-digital-installation.md	mis	6	0	ok
+domains/literature/digital-and-experimental-literature/net-art-digital-installation.md	q:4:answer	1	0	ok
+domains/literature/digital-and-experimental-literature/net-art-interactive-digital-form.md	how	2	0	ok
+domains/literature/digital-and-experimental-literature/net-art-interactive-digital-form.md	mis	6	0	ok
+domains/literature/digital-and-experimental-literature/net-art-interactive-digital-form.md	q:4:answer	1	0	ok
+domains/literature/digital-and-experimental-literature/oulipo-mathematical-constraint.md	how	3	0	ok	Checked 3x3x3x3 = 81 for three swappable four-line stanzas.
+domains/literature/digital-and-experimental-literature/oulipo-mathematical-constraint.md	mis	6	0	ok
+domains/literature/digital-and-experimental-literature/oulipo-mathematical-constraint.md	q:4:answer	1	0	ok
+domains/literature/digital-and-experimental-literature/participatory-narrative-audience-creation.md	how	2	0	ok
+domains/literature/digital-and-experimental-literature/participatory-narrative-audience-creation.md	mis	6	0	ok	Exquisite corpse is a Surrealist game derived from the parlor game 'consequences'; 'parlor games such as' left as acceptable.
+domains/literature/digital-and-experimental-literature/participatory-narrative-audience-creation.md	q:4:answer	1	0	ok
+domains/literature/digital-and-experimental-literature/patchwork-girl-materiality-gender.md	how	2	0	ok
+domains/literature/digital-and-experimental-literature/patchwork-girl-materiality-gender.md	mis	6	0	ok	Bullet 1 is correct (Jackson's creature is the unfinished female companion). Older text (not fixed) contradicts it: Explainer para 1 and q1 explanation say Jackson 'recasts the creature as female'; q1 option 0 calls the original monster 'female-coded'.
+domains/literature/digital-and-experimental-literature/patchwork-girl-materiality-gender.md	q:4:answer	1	0	fixed	Style only: banned word 'essential' replaced with 'fixed in an essence'.
+domains/literature/digital-and-experimental-literature/podcast-literature-serialized.md	how	2	0	ok
+domains/literature/digital-and-experimental-literature/podcast-literature-serialized.md	mis	6	1	fixed	Bullet 1 correction was absolute (audiobooks always perform page texts; podcasts always written for audio); audio-original audiobooks and adapted podcasts exist. Added 'usually'/'Most'.
+domains/literature/digital-and-experimental-literature/podcast-literature-serialized.md	q:4:answer	1	0	ok
+domains/literature/digital-and-experimental-literature/procedural-narrative-system-generation.md	how	3	0	ok
+domains/literature/digital-and-experimental-literature/procedural-narrative-system-generation.md	mis	6	0	ok
+domains/literature/digital-and-experimental-literature/procedural-narrative-system-generation.md	q:4:answer	1	0	ok
+domains/literature/digital-and-experimental-literature/reader-agency-interactive-constraint.md	how	2	0	ok
+domains/literature/digital-and-experimental-literature/reader-agency-interactive-constraint.md	mis	6	0	ok
+domains/literature/digital-and-experimental-literature/reader-agency-interactive-constraint.md	q:4:answer	1	0	ok
+domains/literature/digital-and-experimental-literature/transmedia-narrative-story-world.md	how	2	0	ok
+domains/literature/digital-and-experimental-literature/transmedia-narrative-story-world.md	mis	6	0	ok
+domains/literature/digital-and-experimental-literature/transmedia-narrative-story-world.md	q:4:answer	1	0	ok
+domains/literature/digital-and-experimental-literature/transmedia-storytelling-multiplatform.md	how	2	0	ok
+domains/literature/digital-and-experimental-literature/transmedia-storytelling-multiplatform.md	mis	6	0	ok
+domains/literature/digital-and-experimental-literature/transmedia-storytelling-multiplatform.md	q:4:answer	1	0	ok	Older text: Core Idea uses banned word 'fosters' (not in scope, not fixed).
+domains/literature/digital-and-experimental-literature/twine-interactive-platform.md	how	2	0	ok
+domains/literature/digital-and-experimental-literature/twine-interactive-platform.md	mis	6	0	ok
+domains/literature/digital-and-experimental-literature/twine-interactive-platform.md	q:4:answer	1	0	ok	Older text (not fixed): q4 explanation and Explainer say Twine variables are 'implemented visually, not through typed code' (they are typed macros/markup); Explainer dates Twine to 'early 2010s' (released 2009, popularized c. 2012-14).
+domains/literature/digital-and-experimental-literature/twitter-fiction-microfiction.md	how	2	0	ok
+domains/literature/digital-and-experimental-literature/twitter-fiction-microfiction.md	mis	6	0	ok	Checked 140-to-280 change (Nov 2017).
+domains/literature/digital-and-experimental-literature/twitter-fiction-microfiction.md	q:4:answer	1	0	ok
+domains/literature/digital-and-experimental-literature/twitter-fiction-platform-constraint-form.md	how	2	0	ok
+domains/literature/digital-and-experimental-literature/twitter-fiction-platform-constraint-form.md	mis	6	1	fixed	Bullet 1 copied the Explainer's overstatement 'flash fiction works at longer lengths'; micro forms of flash fiction can be tweet-length. Added 'usually runs to hundreds of words'.
+domains/literature/digital-and-experimental-literature/twitter-fiction-platform-constraint-form.md	q:4:answer	1	0	ok
+domains/literature/digital-and-experimental-literature/video-game-narrative-design.md	how	2	0	ok
+domains/literature/digital-and-experimental-literature/video-game-narrative-design.md	mis	6	0	ok
+domains/literature/digital-and-experimental-literature/video-game-narrative-design.md	q:4:answer	1	0	ok
+domains/literature/digital-and-experimental-literature/visual-poetry-spatial-arrangement.md	how	2	0	ok
+domains/literature/digital-and-experimental-literature/visual-poetry-spatial-arrangement.md	mis	6	0	ok	Checked Herbert 'Easter Wings' as a shaped poem (1633).
+domains/literature/digital-and-experimental-literature/visual-poetry-spatial-arrangement.md	q:4:answer	1	0	ok
+domains/literature/digital-and-experimental-literature/vr-narrative-embodied-immersion-space.md	how	2	0	ok
+domains/literature/digital-and-experimental-literature/vr-narrative-embodied-immersion-space.md	mis	6	0	ok
+domains/literature/digital-and-experimental-literature/vr-narrative-embodied-immersion-space.md	q:4:answer	1	0	ok
+domains/literature/digital-and-experimental-literature/walking-simulator-form.md	how	2	0	ok
+domains/literature/digital-and-experimental-literature/walking-simulator-form.md	mis	6	0	ok
+domains/literature/digital-and-experimental-literature/walking-simulator-form.md	q:4:answer	1	0	ok
+domains/literature/digital-and-experimental-literature/zork-parser-interaction-simulation.md	how	2	0	ok
+domains/literature/digital-and-experimental-literature/zork-parser-interaction-simulation.md	mis	6	0	ok	Checked Colossal Cave Adventure predates and inspired Zork.
+domains/literature/digital-and-experimental-literature/zork-parser-interaction-simulation.md	q:4:answer	1	0	ok
