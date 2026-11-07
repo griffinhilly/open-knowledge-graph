@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Euler's method y_{n+1} = y_n + h*f(x_n, y_n) has local truncation error O(h²) and global error O(h) by Taylor expansion analysis. The local error at each step accumulates over the integration interval, and the total accumulated error grows linearly with integration length. Understanding this trade-off guides appropriate step size selection.
 
+## How It's Best Learned
+Run Euler on y′ = y, y(0) = 1 and record the error at x = 1, where the exact value is e ≈ 2.71828. With h = 0.5, 0.25 and 0.125 the results are 2.25, 2.4414 and 2.5658, so the errors are about 0.468, 0.277 and 0.152. Their ratios approach 2. Then compare the one-step error at h = 0.5 (about 0.149) and h = 0.25 (about 0.034), a ratio near 4.
+
+## Common Misconceptions
+- The global error is the sum of the local errors. (Each local error is also carried forward by the ODE. Depending on the equation, later steps can amplify or damp it.)
+- A first-order method is called that because its local error is O(h). (Euler's local truncation error is O(h²). "First order" refers to the O(h) global error.)
+- Shrinking h far enough makes the error as small as you want. (In floating-point arithmetic, rounding error grows with the number of steps, so below some step size the total error stops falling and starts to rise.)
+
 ## Questions
 
 ```yaml
@@ -34,7 +42,7 @@ Euler's method y_{n+1} = y_n + h*f(x_n, y_n) has local truncation error O(h²) a
     - "Approximately 0.08 — the global error is determined by the ODE, not the step size"
     - "Approximately 0.016 — halving h reduces global error by a factor of 5 due to error cancellation"
   answer: 0
-  explanation: "Euler's method is first-order globally: global error = O(h). Halving h halves the global error. Option B describes a second-order method (like classical Runge-Kutta), where halving h reduces error by a factor of 4. The first-order relationship O(h) is what defines Euler's method as first-order — it's the practical consequence of having O(h²) local error accumulated over O(1/h) steps."
+  explanation: "Euler's method is first-order globally: global error = O(h). Halving h halves the global error. Option B describes a second-order method (like the midpoint or Heun method), where halving h reduces error by a factor of 4. The first-order relationship O(h) is what defines Euler's method as first-order — it's the practical consequence of having O(h²) local error accumulated over O(1/h) steps."
 
 - question: "Why is Euler's method called 'first-order' when its local truncation error at each step is O(h²)?"
   type: multiple-choice

@@ -1,0 +1,65 @@
+domains/mathematics/probability-and-mathematical-statistics/almost-sure-convergence.md	how	4	0	ok
+domains/mathematics/probability-and-mathematical-statistics/almost-sure-convergence.md	mis	6	0	ok
+domains/mathematics/probability-and-mathematical-statistics/almost-sure-convergence.md	old:core	1	1	fixed	Core Idea called a.s. "the strongest form of convergence"; it does not imply L^p convergence. Reworded to "a strong form (it implies convergence in probability)".
+domains/mathematics/probability-and-mathematical-statistics/asymptotic-normality-mle.md	how	5	0	ok
+domains/mathematics/probability-and-mathematical-statistics/asymptotic-normality-mle.md	mis	6	0	ok
+domains/mathematics/probability-and-mathematical-statistics/asymptotic-normality-of-mle.md	how	3	0	ok
+domains/mathematics/probability-and-mathematical-statistics/asymptotic-normality-of-mle.md	mis	6	0	ok
+domains/mathematics/probability-and-mathematical-statistics/bayesian-inference-foundations.md	how	4	0	ok
+domains/mathematics/probability-and-mathematical-statistics/bayesian-inference-foundations.md	mis	8	0	fixed	Clarity only: bullet 2 cited "posterior mean 8/12" with no prior or data; added "With a Beta(1, 1) prior and 7 heads in 10 flips".
+domains/mathematics/probability-and-mathematical-statistics/bayesian-point-estimation.md	how	4	0	ok
+domains/mathematics/probability-and-mathematical-statistics/bayesian-point-estimation.md	mis	6	0	ok
+domains/mathematics/probability-and-mathematical-statistics/borel-cantelli-lemmas.md	how	3	0	ok
+domains/mathematics/probability-and-mathematical-statistics/borel-cantelli-lemmas.md	mis	8	0	ok	Old Core Idea uses banned word "crucial"; left (out of scope).
+domains/mathematics/probability-and-mathematical-statistics/borel-sigma-algebra.md	how	5	0	ok
+domains/mathematics/probability-and-mathematical-statistics/borel-sigma-algebra.md	mis	6	0	ok
+domains/mathematics/probability-and-mathematical-statistics/conditional-expectation.md	how	5	0	ok
+domains/mathematics/probability-and-mathematical-statistics/conditional-expectation.md	mis	8	1	fixed	Tower bullet said "It needs one inside the other"; overstated (identity can hold for non-nested sigma-algebras, e.g. X G1-measurable and G1, G2 independent). Now "The general identity needs one inside the other."
+domains/mathematics/probability-and-mathematical-statistics/confidence-intervals-rigorous-theory.md	how	3	0	ok	Old Core Idea "Shortest confidence intervals use the critical region from the UMP test" is loose (UMP inversion gives UMA sets); not changed.
+domains/mathematics/probability-and-mathematical-statistics/confidence-intervals-rigorous-theory.md	mis	6	0	ok
+domains/mathematics/probability-and-mathematical-statistics/confidence-intervals-rigorous.md	how	3	0	ok
+domains/mathematics/probability-and-mathematical-statistics/confidence-intervals-rigorous.md	mis	6	0	ok
+domains/mathematics/probability-and-mathematical-statistics/conjugate-priors.md	how	4	0	ok
+domains/mathematics/probability-and-mathematical-statistics/conjugate-priors.md	mis	6	0	ok
+domains/mathematics/probability-and-mathematical-statistics/consistency-of-estimators.md	how	4	0	ok
+domains/mathematics/probability-and-mathematical-statistics/consistency-of-estimators.md	mis	6	0	ok
+domains/mathematics/probability-and-mathematical-statistics/convergence-in-distribution.md	how	4	0	ok
+domains/mathematics/probability-and-mathematical-statistics/convergence-in-distribution.md	mis	8	0	ok
+domains/mathematics/probability-and-mathematical-statistics/convergence-in-lp.md	how	3	0	ok
+domains/mathematics/probability-and-mathematical-statistics/convergence-in-lp.md	mis	6	0	ok
+domains/mathematics/probability-and-mathematical-statistics/convergence-in-lp.md	old:explainer	1	1	fixed	Explainer said L^p convergence is "weaker than almost sure convergence", contradicted by its own typewriter example; now "neither implies the other".
+domains/mathematics/probability-and-mathematical-statistics/convergence-in-lp.md	old:format	1	1	fixed	Explainer sat before Questions; moved after Questions (text otherwise unchanged).
+domains/mathematics/probability-and-mathematical-statistics/convergence-in-lp.md	old:q:3:question	1	1	fixed	Typo "almost most ω" -> "almost every ω".
+domains/mathematics/probability-and-mathematical-statistics/convergence-in-probability.md	how	4	0	ok
+domains/mathematics/probability-and-mathematical-statistics/convergence-in-probability.md	mis	6	0	ok
+domains/mathematics/probability-and-mathematical-statistics/cramer-rao-lower-bound.md	how	3	0	ok
+domains/mathematics/probability-and-mathematical-statistics/cramer-rao-lower-bound.md	mis	6	0	ok
+domains/mathematics/probability-and-mathematical-statistics/cramer-rao-lower-bound.md	old:core	1	1	fixed	Core Idea said equality holds iff T is the UMVUE; false (a UMVUE need not attain the bound) and contradicted the Explainer (equality iff T is linear in the score). Reworded.
+domains/mathematics/probability-and-mathematical-statistics/distribution-and-density-functions.md	how	4	1	fixed	P(X ≤ 1) = 0.3 + 0.7(1 − e^{−1}) = 0.74248, so ≈ 0.742, not 0.743.
+domains/mathematics/probability-and-mathematical-statistics/distribution-and-density-functions.md	mis	6	0	ok
+domains/mathematics/probability-and-mathematical-statistics/distribution-functions-densities-rigorous.md	how	5	0	ok
+domains/mathematics/probability-and-mathematical-statistics/distribution-functions-densities-rigorous.md	mis	6	0	ok
+domains/mathematics/probability-and-mathematical-statistics/exponential-family.md	how	4	0	ok
+domains/mathematics/probability-and-mathematical-statistics/exponential-family.md	mis	6	0	ok
+domains/mathematics/probability-and-mathematical-statistics/fisher-information.md	how	4	0	ok
+domains/mathematics/probability-and-mathematical-statistics/fisher-information.md	mis	6	0	ok
+domains/mathematics/probability-and-mathematical-statistics/independence-of-sigma-algebras.md	how	3	0	ok
+domains/mathematics/probability-and-mathematical-statistics/independence-of-sigma-algebras.md	mis	6	0	ok
+domains/mathematics/probability-and-mathematical-statistics/independence-sigma-algebras.md	how	3	0	ok
+domains/mathematics/probability-and-mathematical-statistics/independence-sigma-algebras.md	mis	6	0	ok
+domains/mathematics/probability-and-mathematical-statistics/joint-distributions-and-marginals-rigorous.md	how	4	0	ok
+domains/mathematics/probability-and-mathematical-statistics/joint-distributions-and-marginals-rigorous.md	mis	6	0	ok
+domains/mathematics/probability-and-mathematical-statistics/joint-distributions-marginals-rigorous.md	how	3	0	ok
+domains/mathematics/probability-and-mathematical-statistics/joint-distributions-marginals-rigorous.md	mis	6	0	ok
+domains/mathematics/probability-and-mathematical-statistics/likelihood-ratio-tests.md	how	4	0	ok
+domains/mathematics/probability-and-mathematical-statistics/likelihood-ratio-tests.md	mis	6	0	ok
+domains/mathematics/probability-and-mathematical-statistics/markov-chains-convergence.md	how	4	0	ok	Old Core Idea defines spectral gap as "largest minus second-largest eigenvalue"; loose (usually 1 − second-largest modulus); not changed.
+domains/mathematics/probability-and-mathematical-statistics/markov-chains-convergence.md	mis	6	0	ok
+domains/mathematics/probability-and-mathematical-statistics/markov-chains.md	how	3	0	ok
+domains/mathematics/probability-and-mathematical-statistics/markov-chains.md	mis	6	0	ok
+domains/mathematics/probability-and-mathematical-statistics/martingales-introduction.md	how	4	0	ok
+domains/mathematics/probability-and-mathematical-statistics/martingales-introduction.md	mis	6	0	ok
+domains/mathematics/probability-and-mathematical-statistics/method-of-moments.md	how	4	1	fixed	Used s² in the Gamma estimates while the Misconceptions say MoM uses the divisor-n variance; replaced with σ̂² defined as the divisor-n sample variance (numbers unchanged).
+domains/mathematics/probability-and-mathematical-statistics/method-of-moments.md	mis	6	0	fixed	Clarity only: "The n − 1 version is a later correction" could read as history (Bessel's correction predates Pearson's method); now "a separate bias correction".
+domains/mathematics/probability-and-mathematical-statistics/moment-generating-functions.md	how	3	0	ok
+domains/mathematics/probability-and-mathematical-statistics/moment-generating-functions.md	mis	6	1	fixed	"Uniqueness needs the MGF to be finite near 0" states a sufficient condition as necessary (e.g. Carleman's condition is weaker); now "A sufficient condition is...".

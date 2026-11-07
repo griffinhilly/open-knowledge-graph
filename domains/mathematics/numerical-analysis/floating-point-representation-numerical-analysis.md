@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Floating point numbers are represented in computers using a fixed number of bits: a sign bit, an exponent, and a mantissa (fractional part). The IEEE 754 standard defines how these are encoded and how arithmetic operations are performed. This limited precision representation allows computers to store a wide range of values but introduces systematic errors in computation.
 
+## How It's Best Learned
+Encode one number by hand. Write −6.5 as −110.1 in binary, normalize it to −1.101 × 2², and read off sign bit 1, stored exponent 2 + 1023 = 1025 and fraction bits 101 followed by zeros. Then mark the representable numbers on a number line between 1 and 8 for a toy format with 2 fraction bits. The gap doubles at each power of two.
+
+## Common Misconceptions
+- Floating-point numbers are evenly spaced along the number line. (The gap between neighbors doubles at each power of two. Relative spacing stays roughly constant while absolute spacing grows with magnitude.)
+- Machine epsilon is the smallest positive number a double can store. (Machine epsilon, about 2.2 × 10⁻¹⁶, is the gap just above 1. The smallest positive normalized double is about 2.2 × 10⁻³⁰⁸, and subnormals go smaller still.)
+- Every integer stored in a double is exact. (Integers are exact up to 2⁵³. Above that the gap exceeds 1, so 2⁵³ + 1 rounds to a neighbor.)
+- Rounding errors are random noise. (Each basic IEEE 754 operation, such as +, −, × and ÷, is correctly rounded by a fixed rule, so the same inputs produce the same result and the error has a known bound.)
+
 ## Questions
 
 ```yaml

@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 LU decomposition factors a matrix as A = LU where L is lower triangular and U is upper triangular. This factorization is obtained via Gaussian elimination and allows efficient solution of multiple systems with the same coefficient matrix A. With partial pivoting, the factorization A = PLU provides numerical stability and is the basis for efficient linear system solvers.
 
+## How It's Best Learned
+Factor A = [[2, 1], [6, 4]] by one elimination step. The multiplier 3 goes into L = [[1, 0], [3, 1]], and U = [[2, 1], [0, 1]]. Multiply LU to check it returns A. Then reuse the factors for two right-hand sides: b = (3, 10) gives y = (3, 1) and x = (1, 1), and b = (1, 2) gives y = (1, −1) and x = (1, −1).
+
+## Common Misconceptions
+- Every invertible matrix has an LU factorization. (Without row swaps it may not. The matrix [[0, 1], [1, 0]] is invertible, but its first pivot is zero, so it needs a permutation, PA = LU.)
+- L stores the negatives of the elimination multipliers. (If each step subtracts m times the pivot row, L holds m itself below the diagonal. L is the inverse of the product of the elimination matrices.)
+- After factoring, computing A⁻¹ is the best way to handle many right-hand sides. (Two triangular solves cost about the same per right-hand side as multiplying by A⁻¹. Forming A⁻¹ adds work and usually adds rounding error.)
+
 ## Questions
 
 ```yaml

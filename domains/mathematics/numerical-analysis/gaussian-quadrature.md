@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Gaussian quadrature optimally chooses both sample points x_i and weights w_i to integrate polynomials of degree up to 2n-1 exactly using only n function evaluations. The sample points are roots of orthogonal polynomials (Legendre, Hermite, Laguerre, Chebyshev) with respect to a weight function. Gaussian quadrature achieves exponential convergence for smooth integrands and is the most efficient for general-purpose integration.
 
+## How It's Best Learned
+Derive the 2-point Gauss-Legendre rule yourself. Require exactness on [−1, 1] for 1, x, x² and x³, and solve to get nodes ±1/√3 with weights 1. Test it: for x³ + x² the rule gives 2/3, matching the exact integral. For x⁴ it gives 2/9 against the exact 2/5, showing where exactness stops at degree 2n = 4.
+
+## Common Misconceptions
+- Exactness to degree 2n − 1 makes Gaussian quadrature accurate for any integrand. (The payoff depends on f being well approximated by polynomials. For integrands with a kink or an endpoint singularity, convergence is much slower.)
+- Gauss-Legendre nodes include the endpoints −1 and 1. (The nodes are the roots of P_n, which all lie strictly inside the interval. Gauss-Lobatto rules are the variant that includes the endpoints.)
+- High-order Gaussian rules suffer from negative weights the way high-order Newton-Cotes rules do. (With a positive weight function, every Gaussian weight is positive, which keeps the rule stable as n grows.)
+
 ## Questions
 
 ```yaml

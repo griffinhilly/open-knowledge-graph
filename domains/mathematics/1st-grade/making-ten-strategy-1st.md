@@ -29,6 +29,14 @@ status: validated
 ## Core Idea
 To solve 8 + 5, break 5 into 2 + 3. Then 8 + 2 = 10, and 10 + 3 = 13. Using 10 as a benchmark makes the problem simpler. This strategy relies on knowing number bonds to 10 and is a bridge to place-value understanding.
 
+## How It's Best Learned
+Use two ten-frames and two colors of counters. For 8 + 5, put 8 red counters in the first frame, then place 5 yellow ones: 2 fill the frame and 3 spill into the second frame, so the learner sees 10 + 3 = 13. After several of these, have them record the split in writing (5 = 2 + 3) before solving without counters.
+
+## Common Misconceptions
+- Making ten means you change the problem, so the answer changes too. (You only regroup the same counters. 8 + 5 and 10 + 3 hold the same total, 13.)
+- You can split the second number any way you like. (The split must give the first number exactly what it needs to reach 10. For 8 + 5, that piece is 2, so 5 splits into 2 + 3.)
+- After reaching 10, you add the whole second number again. (Only the leftover part gets added to 10. In 8 + 5, the 2 is already used up, so you add just the 3.)
+
 ## Questions
 
 ```yaml

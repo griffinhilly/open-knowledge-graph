@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Romberg integration systematically applies composite trapezoidal rules with successive halvings of step size, then uses Richardson extrapolation to accelerate convergence. The method builds a triangular array where each new entry combines results from halved step size with previous entries to cancel error terms. Romberg achieves high accuracy efficiently and provides adaptive error estimation.
 
+## How It's Best Learned
+Build a three-row table for ∫₀¹ eˣ dx = e − 1 ≈ 1.718282. The trapezoidal column is 1.859141, 1.753931, 1.727222 for h = 1, 1/2, 1/4. Column 1 gives 1.718861 and 1.718319. Check that the first equals Simpson's rule with h = 1/2. Column 2 gives 1.718283, within about 10⁻⁶ of the exact value, from only five function evaluations.
+
+## Common Misconceptions
+- Romberg works equally well on any integrand. (The gains depend on the even-power error expansion, which needs a smooth integrand. For √x on [0, 1], the trapezoidal error is not a series in h², and extrapolation gains little.)
+- Romberg puts extra points where the integrand is hard. (Each new row halves the step across the whole interval. Methods that refine locally are adaptive quadrature schemes.)
+- Each extrapolated column needs new function evaluations. (Only column 0 evaluates f. Every later entry is a weighted combination of entries already in the table.)
+
 ## Questions
 
 ```yaml

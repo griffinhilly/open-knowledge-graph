@@ -30,6 +30,14 @@ status: validated
 ## Core Idea
 Telling time to the half-hour involves reading a clock when the minute hand points to 6 and the hour hand is halfway between two numbers. Times are expressed as '_____ thirty' or 'half past _____'.
 
+## How It's Best Learned
+On a paper clock face, the learner shades the half that runs clockwise from the 12 down to the 6. That shaded half is the 30 minutes the minute hand travels by half past. Then play a matching game with three cards per time: an analog clock, a digital time such as 7:30, and the words "half past seven." Include 12:30 in the set.
+
+## Common Misconceptions
+- When the minute hand points to the 6, the hour is 6. (The minute hand shows minutes only. On the 6 it means 30 minutes past whatever hour the short hand shows.)
+- At 12:30 the time is 1:30, because the hour hand is near the 1. (The hour hand has passed the 12 and not reached the 1, so it is still the 12 o'clock hour.)
+- "Half past seven" and "seven thirty" are different times. (They name the same time, written 7:30.)
+
 ## Questions
 
 ```yaml

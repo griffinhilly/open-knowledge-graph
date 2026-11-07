@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 A picture graph uses pictures or symbols to show data. Each symbol stands for one object (or sometimes more). Picture graphs are concrete and visual, making them ideal for first graders to read and create.
 
+## How It's Best Learned
+Start from a finished tally chart, such as pets in the class. The learner draws one picture per tally mark in labeled rows, adds a title and a key that says each picture is 1 pet, and answers "how many more" questions. Then show a graph whose key says each picture is 2. The learner skip counts by 2s along a row of 4 pictures: 2, 4, 6, 8.
+
+## Common Misconceptions
+- You can read a picture graph without looking at the key. (The key says what each picture is worth. If each picture stands for 2, four pictures mean 8, not 4.)
+- The longest row wins, so you do not need to count. (The longest row shows the most, but "how many" and "how many more" questions need counts that use the key.)
+- A title is just decoration. (The title tells the reader what was counted. Without it, rows of pictures do not say what question the data answers.)
+
 ## Questions
 
 ```yaml
@@ -55,7 +63,7 @@ A picture graph uses pictures or symbols to show data. Each symbol stands for on
   answer: true
   explanation: "The key is essential — it's the definition of the graph's language. Without it, you don't know if each picture stands for 1 item, 2 items, 5 items, or 10 items. A graph with a key of 'each symbol = 5' looks identical to one with 'each symbol = 1' but produces completely different data. Reading the key is always the first step."
 
-- question: "To read a picture graph, you simply count most of the pictures in each row to find the totals."
+- question: "To read a picture graph, you simply count the pictures in each row to find the totals."
   type: true-false
   answer: false
   explanation: "Counting pictures only gives the right answer when the key says each picture = 1. If the key says each picture = 2, 5, or 10, you must multiply the count by the key value. Simply counting pictures ignores the key and produces a smaller, incorrect number. The correct process is: check key → count pictures → multiply by key value."

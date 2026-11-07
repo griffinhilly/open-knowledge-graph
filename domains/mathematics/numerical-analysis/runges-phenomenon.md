@@ -20,7 +20,15 @@ status: validated
 # Runge's Phenomenon
 
 ## Core Idea
-For certain smooth functions like f(x) = 1/(1+x²), polynomial interpolation on equally-spaced nodes exhibits wild oscillations that grow unboundedly as the number of nodes increases. This Runge phenomenon demonstrates that increasing polynomial degree with equally-spaced nodes is not a reliable path to better approximation. The root cause is the large node product |∏(x - x_i)| near the interval endpoints.
+For certain smooth functions like f(x) = 1/(1+x²) on [-5, 5], polynomial interpolation on equally-spaced nodes exhibits wild oscillations that grow unboundedly as the number of nodes increases. This Runge phenomenon demonstrates that increasing polynomial degree with equally-spaced nodes is not a reliable path to better approximation. The root cause is the large node product |∏(x - x_i)| near the interval endpoints.
+
+## How It's Best Learned
+Interpolate 1/(1 + 25x²) on [−1, 1] in software with 5, 9, 13 and 17 equally spaced nodes. Plot each interpolant on a fine grid with the function, and record the maximum error. The center improves while the endpoint error grows. Repeat with the same numbers of Chebyshev nodes and watch the maximum error fall instead.
+
+## Common Misconceptions
+- Runge's phenomenon is caused by floating-point rounding. (The oscillations appear in exact arithmetic. They belong to the interpolating polynomial itself.)
+- Interpolation at equally spaced nodes diverges for every function as n grows. (For functions such as eˣ or sin x, which have no singularities anywhere in the complex plane, equally spaced interpolation converges on [−1, 1].)
+- A function has to be rough or discontinuous to cause the problem. (Runge's function is infinitely differentiable on the real line. Its poles at ±i/5 in the complex plane drive the divergence.)
 
 ## Questions
 

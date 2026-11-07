@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Skip counting by 2s (2, 4, 6, 8...) reveals a repeating pattern where each number is 2 more than the previous. This pattern identifies even numbers and prepares students for multiplication.
 
+## How It's Best Learned
+Start with a whisper count: the learner whispers 1, says 2 out loud, whispers 3, says 4 out loud, up to 20. The loud numbers are the count by 2s. Then move to objects. Put socks in matched pairs and touch one pair per number while saying 2, 4, 6. Count the socks one by one afterward to check the total.
+
+## Common Misconceptions
+- You say "2, 4, 6" while touching each single object. (Each number in the count stands for one more pair. Touching single socks while counting by 2s gives a total twice too big.)
+- Counting by 2s means counting by ones but leaving some numbers out at random. (You skip exactly one number each time, so every number you say is 2 more than the last.)
+- The count by 2s stops at 20. (The pattern keeps going: 22, 24, 26 and on, adding 2 each time.)
+
 ## Questions
 
 ```yaml

@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The condition number κ(A) = ||A|| ||A⁻¹|| measures sensitivity of the linear system Ax = b to perturbations in A and b. Relative error in x is bounded by approximately κ(A) times relative error in data. Large condition numbers indicate ill-conditioned problems; small perturbations cause large solution changes regardless of algorithm choice.
 
+## How It's Best Learned
+Solve x + y = 2, x + 1.0001y = 2.0001 by hand to get x = y = 1. Then change the last right-hand entry to 2.0002 and solve again: now x = 0, y = 2. A change of 0.0001 in one entry of b moved the solution completely. Compare that with κ₂ ≈ 4 × 10⁴ for this matrix, and sketch the two nearly parallel lines.
+
+## Common Misconceptions
+- A matrix with a tiny determinant is ill-conditioned. (Scaling changes the determinant without changing κ. The matrix 0.1·I of size 10 has determinant 10⁻¹⁰ and condition number 1.)
+- A large condition number means the solver made an error. (κ(A) belongs to the problem. A backward-stable solver can still return a solution with large forward error when κ(A) is large.)
+- A small residual ||b − Ax̂|| means the computed solution x̂ is accurate. (For an ill-conditioned matrix the relative error in x̂ can be up to κ(A) times the relative residual, so a small residual can hide a large error.)
+- The condition number has one fixed value. (Its value depends on the norm used. For an n × n matrix, the 1-norm and ∞-norm values each lie within a factor of n of the 2-norm value.)
+
 ## Questions
 
 ```yaml

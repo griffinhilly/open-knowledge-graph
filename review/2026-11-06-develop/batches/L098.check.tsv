@@ -1,0 +1,66 @@
+domains/mathematics/real-analysis/archimedean-property.md	how	3	0	ok
+domains/mathematics/real-analysis/archimedean-property.md	mis	8	0	ok
+domains/mathematics/real-analysis/archimedean-property.md	old:ex	1	1	fixed	Explainer said "The rational numbers ℝ and ℚ"; changed to "The real numbers ℝ and the rational numbers ℚ"
+domains/mathematics/real-analysis/bolzano-weierstrass-theorem.md	how	4	0	ok
+domains/mathematics/real-analysis/bolzano-weierstrass-theorem.md	mis	8	0	ok
+domains/mathematics/real-analysis/cauchy-sequences-completeness.md	how	3	0	ok
+domains/mathematics/real-analysis/cauchy-sequences-completeness.md	mis	6	0	ok
+domains/mathematics/real-analysis/closed-sets-real-line.md	how	2	0	ok
+domains/mathematics/real-analysis/closed-sets-real-line.md	mis	8	0	ok
+domains/mathematics/real-analysis/compact-sets-heine-borel.md	how	3	0	ok
+domains/mathematics/real-analysis/compact-sets-heine-borel.md	mis	8	0	ok
+domains/mathematics/real-analysis/compact-sets.md	how	4	0	ok
+domains/mathematics/real-analysis/compact-sets.md	mis	8	0	ok
+domains/mathematics/real-analysis/completeness-axiom.md	how	3	0	ok
+domains/mathematics/real-analysis/completeness-axiom.md	mis	8	0	ok
+domains/mathematics/real-analysis/connected-sets.md	how	3	0	ok
+domains/mathematics/real-analysis/connected-sets.md	mis	8	1	fixed	Union-of-intervals correction said connectedness "depends on whether they meet or touch"; (0,1) and (1,2) touch at 1 but their union is disconnected. Now: connected exactly when the union is an interval, with (0,1) ∪ (1,2) as the counterexample. Pre-existing (not fixed): Explainer comes before Questions.
+domains/mathematics/real-analysis/epsilon-delta-continuity.md	how	3	0	ok
+domains/mathematics/real-analysis/epsilon-delta-continuity.md	mis	8	0	ok
+domains/mathematics/real-analysis/fundamental-theorem-calculus-rigorous.md	how	4	0	ok
+domains/mathematics/real-analysis/fundamental-theorem-calculus-rigorous.md	mis	6	0	ok
+domains/mathematics/real-analysis/heine-borel-theorem.md	how	5	0	ok
+domains/mathematics/real-analysis/heine-borel-theorem.md	mis	8	0	ok
+domains/mathematics/real-analysis/interchange-limit-derivative.md	how	4	0	ok
+domains/mathematics/real-analysis/interchange-limit-derivative.md	mis	8	0	ok
+domains/mathematics/real-analysis/interchange-limit-integral.md	how	4	1	fixed	Spike defined as n on [0, 1/n], so fₙ(0) = n diverges and there is no pointwise limit 0 at x = 0; changed to (0, 1/n].
+domains/mathematics/real-analysis/interchange-limit-integral.md	mis	6	1	fixed	Bullet 1 says "the spike sequence converges pointwise to 0", false at x = 0 with the drafted [0, 1/n] spike; fixed through the How definition (now (0, 1/n]).
+domains/mathematics/real-analysis/interchange-limit-integral.md	old:q:0:question	1	1	fixed	Same [0, 1/n] spike claimed to converge pointwise to 0; changed to (0, 1/n].
+domains/mathematics/real-analysis/interchange-limit-integral.md	old:q:3:explanation	1	1	fixed	Same spike claimed to tend to 0 "pointwise everywhere"; changed to (0,1/n].
+domains/mathematics/real-analysis/intermediate-value-theorem-rigorous.md	how	3	0	ok
+domains/mathematics/real-analysis/intermediate-value-theorem-rigorous.md	mis	8	0	ok
+domains/mathematics/real-analysis/introduction-lebesgue-integral.md	how	3	0	ok
+domains/mathematics/real-analysis/introduction-lebesgue-integral.md	mis	8	0	ok
+domains/mathematics/real-analysis/introduction-lebesgue-measure.md	how	3	0	ok
+domains/mathematics/real-analysis/introduction-lebesgue-measure.md	mis	8	0	ok
+domains/mathematics/real-analysis/lhopitals-rule-rigorous.md	how	4	0	ok
+domains/mathematics/real-analysis/lhopitals-rule-rigorous.md	mis	8	0	ok
+domains/mathematics/real-analysis/limit-superior-and-inferior.md	how	4	0	ok
+domains/mathematics/real-analysis/limit-superior-and-inferior.md	mis	8	0	ok
+domains/mathematics/real-analysis/limit-superior-inferior.md	how	4	0	ok
+domains/mathematics/real-analysis/limit-superior-inferior.md	mis	6	0	fixed	Style/format only: added the missing blank line between the last bullet and ## Questions.
+domains/mathematics/real-analysis/mean-value-theorem-rigorous.md	how	4	0	ok
+domains/mathematics/real-analysis/mean-value-theorem-rigorous.md	mis	6	0	ok
+domains/mathematics/real-analysis/monotone-convergence-theorem.md	how	4	0	ok
+domains/mathematics/real-analysis/monotone-convergence-theorem.md	mis	8	0	ok
+domains/mathematics/real-analysis/monotone-convergence-theorem.md	q:4:explanation	1	1	fixed	Said the ε-argument "uses only two facts" (L − ε not an upper bound; increasing) and dropped that L is an upper bound, which gives aₙ ≤ L; now lists three facts.
+domains/mathematics/real-analysis/monotone-convergence-theorem.md	old:q:3:explanation	1	1	fixed	MCT ⇒ LUB sketch was circular (picked a sequence approaching sup S, which assumes sup S exists); replaced with a bisection sketch.
+domains/mathematics/real-analysis/open-closed-sets-real-line.md	how	4	0	ok
+domains/mathematics/real-analysis/open-closed-sets-real-line.md	mis	6	0	ok
+domains/mathematics/real-analysis/ordered-field-axioms.md	how	4	0	ok
+domains/mathematics/real-analysis/ordered-field-axioms.md	mis	6	0	ok
+domains/mathematics/real-analysis/pointwise-convergence-function-sequences.md	how	4	0	ok
+domains/mathematics/real-analysis/pointwise-convergence-function-sequences.md	mis	6	0	ok	Pre-existing (not fixed): file has two ## Questions blocks (near-duplicates) and Explainer comes before Questions.
+domains/mathematics/real-analysis/pointwise-convergence-functions.md	how	3	0	ok
+domains/mathematics/real-analysis/pointwise-convergence-functions.md	mis	6	0	ok	Pre-existing (not fixed): Explainer comes before Questions.
+domains/mathematics/real-analysis/properties-riemann-integral.md	how	3	0	ok
+domains/mathematics/real-analysis/properties-riemann-integral.md	mis	6	0	ok
+domains/mathematics/real-analysis/riemann-integrability-criteria.md	how	3	0	ok
+domains/mathematics/real-analysis/riemann-integrability-criteria.md	mis	6	0	ok
+domains/mathematics/real-analysis/riemann-integrability-criteria.md	old:core	2	2	fixed	Core Idea omitted "bounded" from Lebesgue's criterion (new bullet 1 correctly requires it), and claimed functions discontinuous on a dense set are not integrable (Thomae's function in the file's own Q0 is a counterexample); now "bounded" and "discontinuous on a set of positive measure (like Dirichlet's function, discontinuous everywhere)".
+domains/mathematics/real-analysis/riemann-integral-darboux-sums.md	how	4	0	ok
+domains/mathematics/real-analysis/riemann-integral-darboux-sums.md	mis	6	0	ok
+domains/mathematics/real-analysis/riemann-integral-properties.md	how	3	0	ok
+domains/mathematics/real-analysis/riemann-integral-properties.md	mis	6	0	ok
+domains/mathematics/real-analysis/rigorous-derivative-definition.md	how	3	0	ok
+domains/mathematics/real-analysis/rigorous-derivative-definition.md	mis	6	0	ok

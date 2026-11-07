@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 From the fact family 3 + 5 = 8, we also know 5 + 3 = 8, 8 – 3 = 5, and 8 – 5 = 3. Recognizing that subtraction 'undoes' addition helps students see that learning one addition fact gives them three other facts for free.
 
+## How It's Best Learned
+Use triangle cards with the whole at the top corner and the two parts at the bottom, such as 8 over 3 and 5. Cover one corner with a thumb and have the learner say the fact that finds it. Covering the 3 gives 8 − 5 = 3, and covering the 8 gives 3 + 5 = 8. Then the learner writes all four facts for the card.
+
+## Common Misconceptions
+- In a fact family, you can write 3 − 8 = 5. (Within these families, the subtraction starts with the whole, the largest number. The correct facts are 8 − 3 = 5 and 8 − 5 = 3.)
+- Every fact family has four facts. (A doubles family has two. For 4, 4 and 8, the facts are 4 + 4 = 8 and 8 − 4 = 4.)
+- Subtraction facts have to be learned separately from addition facts. (Each subtraction fact comes from an addition fact you know. If 7 + 6 = 13, then 13 − 7 = 6.)
+
 ## Questions
 
 ```yaml

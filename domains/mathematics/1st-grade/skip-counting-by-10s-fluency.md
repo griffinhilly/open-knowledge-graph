@@ -33,6 +33,11 @@ Skip counting by 10s (10, 20, 30, 40, ...) is fundamental to understanding place
 ## How It's Best Learned
 Use tens bundles, ten-frames in rows, and number charts that show the tens. Emphasize that only the tens digit changes in a predictable way.
 
+## Common Misconceptions
+- After 90 comes 200, or a made-up word like "tenty." (Ten tens make 100, so after 90 comes 100, and after 100 comes 110.)
+- Counting by 10s only works when you start at 10. (You can start anywhere. From 7, the count goes 7, 17, 27, 37. The ones digit stays 7 and the tens digit goes up by one.)
+- Saying the numbers fast means you understand them. (Speed alone does not show understanding. A learner should also know that 60 is 6 tens and be able to say how many tens are in any number they reach.)
+
 ## Questions
 
 ```yaml

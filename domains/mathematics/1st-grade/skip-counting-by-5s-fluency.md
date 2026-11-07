@@ -29,6 +29,14 @@ status: validated
 ## Core Idea
 Skip counting by 5s (5, 10, 15, 20, ...) is practical for telling time and counting money. The pattern of skip counting by 5s is visually apparent (ending in 5 or 0), making it easier to recognize and remember.
 
+## How It's Best Learned
+On an analog clock face, put a small note under each number: 5 under the 1, 10 under the 2, up to 60 under the 12. The learner counts around the clock by 5s while touching each number. Then remove the notes and point to a number, such as the 7, and ask for the minutes. Mix in backward counts and fill-in-the-blank runs like 25, __, 35.
+
+## Common Misconceptions
+- The minute hand on the 4 means 4 minutes. (Each clock number marks 5 more minutes, so the 4 means 20 minutes past the hour.)
+- After 95 comes 110 or 200. (Adding 5 to 95 gives 100. The next numbers are 105, 110, 115.)
+- To find a count partway through, you start again from 5. (A fluent counter can start at any number in the pattern, such as 35, and keep adding or taking away 5.)
+
 ## Questions
 
 ```yaml
@@ -51,7 +59,7 @@ Skip counting by 5s (5, 10, 15, 20, ...) is practical for telling time and count
 - question: "Every number in the skip-counting-by-5s sequence ends in either a 5 or a 0."
   type: true-false
   answer: true
-  explanation: "Because we add 5 repeatedly starting from 5, the ones digit alternates: 5, 0, 5, 0... (5, 10, 15, 20, 25, 30...). This predictable pattern makes it easy to check whether a number belongs in the sequence — just look at the last digit. No other common skip-counting sequence has this simple a visual pattern."
+  explanation: "Because we add 5 repeatedly starting from 5, the ones digit alternates: 5, 0, 5, 0... (5, 10, 15, 20, 25, 30...). This predictable pattern makes it easy to check whether a number belongs in the sequence — just look at the last digit."
 
 - question: "A student who can correctly recite 5, 10, 15, 20, 25, 30 when asked to skip count by 5s has demonstrated full fluency."
   type: true-false

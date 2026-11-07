@@ -1,0 +1,65 @@
+domains/earth-and-space-sciences/planetary-science/mineral-physics-high-pressure.md	how	3	0	ok
+domains/earth-and-space-sciences/planetary-science/mineral-physics-high-pressure.md	mis	6	0	ok
+domains/earth-and-space-sciences/planetary-science/mineral-physics-high-pressure.md	old:q:0:explanation	1	1	fixed	Old explanation claimed a compositional boundary gives a gradual velocity change; false (Moho is compositional and sharp). Replaced with bulk-chemistry plus lab-pressure match.
+domains/earth-and-space-sciences/planetary-science/multi-planet-system-architecture.md	how	4	0	ok	Hill-spacing numbers worked: 7.56 and 1.11 R_H.
+domains/earth-and-space-sciences/planetary-science/multi-planet-system-architecture.md	mis	6	0	ok
+domains/earth-and-space-sciences/planetary-science/n-body-planetary-dynamics.md	how	3	0	ok
+domains/earth-and-space-sciences/planetary-science/n-body-planetary-dynamics.md	mis	6	0	ok
+domains/earth-and-space-sciences/planetary-science/orbital-resonance-capture.md	how	4	1	fixed	"flattens at 2.0" contradicted its own misconception 3 (resonant pairs sit slightly off exact ratio); now "near 2.0". 2^(2/3)=1.59 and 1.5^(2/3)=1.31 check out.
+domains/earth-and-space-sciences/planetary-science/orbital-resonance-capture.md	mis	6	0	ok	Misconception 2 correct but conflicted with old Core Idea; see old:core.
+domains/earth-and-space-sciences/planetary-science/orbital-resonance-capture.md	old:core	1	1	fixed	Core Idea said period lock is "due to gravitational coupling through the disk"; the lock is the planets' mutual gravity. Edited.
+domains/earth-and-space-sciences/planetary-science/planetary-accretion-chronology.md	how	4	0	ok	26Al half-life 0.72 Myr; two half-lives about 1.4 Myr.
+domains/earth-and-space-sciences/planetary-science/planetary-accretion-chronology.md	mis	6	0	ok
+domains/earth-and-space-sciences/planetary-science/planetary-albedo-temperature-feedback.md	how	4	0	ok	Worked: 254.6 K and 249.9 K.
+domains/earth-and-space-sciences/planetary-science/planetary-albedo-temperature-feedback.md	mis	6	0	ok
+domains/earth-and-space-sciences/planetary-science/planetary-atmospheres-composition-structure.md	how	3	0	ok	Worked: H = 8.4 km Earth, 10.7 km Mars.
+domains/earth-and-space-sciences/planetary-science/planetary-atmospheres-composition-structure.md	mis	6	0	ok
+domains/earth-and-space-sciences/planetary-science/planetary-cloud-physics.md	how	3	0	ok
+domains/earth-and-space-sciences/planetary-science/planetary-cloud-physics.md	mis	6	0	ok
+domains/earth-and-space-sciences/planetary-science/planetary-habitability-and-biosignatures.md	how	3	0	ok
+domains/earth-and-space-sciences/planetary-science/planetary-habitability-and-biosignatures.md	mis	6	0	ok
+domains/earth-and-space-sciences/planetary-science/planetary-magnetic-field-evolution.md	how	3	0	ok	6371/3390 = 1.88.
+domains/earth-and-space-sciences/planetary-science/planetary-magnetic-field-evolution.md	mis	6	0	ok
+domains/earth-and-space-sciences/planetary-science/planetary-magnetic-field-evolution.md	old:core	1	1	fixed	Core Idea listed Mercury among bodies that lost their fields; Mercury has an active global field. Edited.
+domains/earth-and-space-sciences/planetary-science/planetary-magnetospheres-and-solar-wind.md	how	3	0	ok	2^(-1/6) = 0.891.
+domains/earth-and-space-sciences/planetary-science/planetary-magnetospheres-and-solar-wind.md	mis	6	0	ok
+domains/earth-and-space-sciences/planetary-science/planetary-migration-mechanisms.md	how	3	0	ok	a scales as L^2: 0.81 AU.
+domains/earth-and-space-sciences/planetary-science/planetary-migration-mechanisms.md	mis	6	0	ok
+domains/earth-and-space-sciences/planetary-science/planetary-migration-mechanisms.md	old:core	1	1	fixed	Core Idea called Type III "high-mass planets"; it is runaway migration of intermediate (partial-gap) masses, as the new How section orders it. Edited.
+domains/earth-and-space-sciences/planetary-science/planetary-ring-systems.md	how	3	0	ok	Worked: 2.23 R_S; A ring edge at 2.27 R_S.
+domains/earth-and-space-sciences/planetary-science/planetary-ring-systems.md	mis	6	0	ok
+domains/earth-and-space-sciences/planetary-science/planetary-seismology.md	how	4	0	ok	0.119 s/km; 60 s gives 504 km.
+domains/earth-and-space-sciences/planetary-science/planetary-seismology.md	mis	6	0	ok
+domains/earth-and-space-sciences/planetary-science/planetary-system-stability.md	how	3	0	ok	Worked: Venus-Earth 26.3, Jupiter-Saturn 7.9 R_H.
+domains/earth-and-space-sciences/planetary-science/planetary-system-stability.md	mis	6	0	ok
+domains/earth-and-space-sciences/planetary-science/planetary-tectonics-comparative.md	how	2	0	ok
+domains/earth-and-space-sciences/planetary-science/planetary-tectonics-comparative.md	mis	6	0	ok	Misconception 1 (Mercury lobate scarps) conflicted with old Core Idea; see old:core.
+domains/earth-and-space-sciences/planetary-science/planetary-tectonics-comparative.md	old:core	1	1	fixed	Core Idea called Moon and Mercury "no-tectonics systems"; both have contraction faults. Edited.
+domains/earth-and-space-sciences/planetary-science/planetary-thermal-inversion.md	how	3	0	ok
+domains/earth-and-space-sciences/planetary-science/planetary-thermal-inversion.md	mis	6	1	fixed	Correction 1 said every inversion needs an absorber of stellar light aloft, contradicting bullet 3 (nighttime surface inversions). Scoped to upper-atmosphere inversions.
+domains/earth-and-space-sciences/planetary-science/planetary-thermal-modeling.md	how	3	0	ok
+domains/earth-and-space-sciences/planetary-science/planetary-thermal-modeling.md	mis	6	1	fixed	Urey ratio misdefined as ratio of radiogenic to secular-cooling parts; it is radiogenic production over total surface heat flow.
+domains/earth-and-space-sciences/planetary-science/radiation-belt-dynamics.md	how	3	0	ok	Worked: 4x at 30 deg; loss cone 8.1 deg.
+domains/earth-and-space-sciences/planetary-science/radiation-belt-dynamics.md	mis	6	0	ok
+domains/earth-and-space-sciences/planetary-science/regolith-and-surface-weathering.md	how	3	0	ok
+domains/earth-and-space-sciences/planetary-science/regolith-and-surface-weathering.md	mis	6	1	fixed	"bright lunar terrain is usually fresh" overstated: the highlands are bright from plagioclase composition yet old. Restricted to rays and crater walls against same rock type.
+domains/earth-and-space-sciences/planetary-science/resonance-heating-icy-bodies.md	how	4	0	ok	2^7.5 = 181.
+domains/earth-and-space-sciences/planetary-science/resonance-heating-icy-bodies.md	mis	6	0	ok
+domains/earth-and-space-sciences/planetary-science/ring-particle-dynamics.md	how	4	0	ok	Omega 1.95e-4 s^-1; shear 2.9 mm/s.
+domains/earth-and-space-sciences/planetary-science/ring-particle-dynamics.md	mis	6	0	ok
+domains/earth-and-space-sciences/planetary-science/satellite-formation-and-orbital-mechanics.md	how	3	0	ok	Worked: 1.90e27 kg.
+domains/earth-and-space-sciences/planetary-science/satellite-formation-and-orbital-mechanics.md	mis	6	0	ok
+domains/earth-and-space-sciences/planetary-science/space-mission-design-planetary.md	how	4	0	ok	Worked: 32.71 vs 29.78 km/s; 258 days.
+domains/earth-and-space-sciences/planetary-science/space-mission-design-planetary.md	mis	6	0	ok	Mars moves 136 deg in 259 d checks.
+domains/earth-and-space-sciences/planetary-science/surface-weathering-planetary-comparison.md	how	2	0	ok
+domains/earth-and-space-sciences/planetary-science/surface-weathering-planetary-comparison.md	mis	6	0	fixed	Style only: banned word "landscapes" in bullet 3 changed to "surfaces".
+domains/earth-and-space-sciences/planetary-science/tidal-heating-moon-interiors.md	how	3	1	fixed	Comparison scaling e^2R^5/(P a^6) omitted host mass, so Enceladus (Saturn) vs Io/Europa (Jupiter) is off by about 11x when worked. Added M_p^2 and equal k2/Q. Io swing 1.025 checks.
+domains/earth-and-space-sciences/planetary-science/tidal-heating-moon-interiors.md	mis	6	0	ok
+domains/earth-and-space-sciences/planetary-science/tidal-orbital-evolution-long-term.md	how	4	0	ok	3.8 cm/yr gives 38,000 km/Gyr.
+domains/earth-and-space-sciences/planetary-science/tidal-orbital-evolution-long-term.md	mis	6	0	ok	Old Core Idea "migrate (typically inward)" sits awkwardly beside bullet 1; left, not clearly false.
+domains/earth-and-space-sciences/planetary-science/transit-timing-variations-exoplanets.md	how	3	0	ok	Super-period 510.0 d checks.
+domains/earth-and-space-sciences/planetary-science/transit-timing-variations-exoplanets.md	mis	6	0	ok
+domains/earth-and-space-sciences/planetary-science/volatile-inventory-and-escape-evolution.md	how	4	0	ok	Worked: lambda(H) 5.05, lambda(CO2) 222.
+domains/earth-and-space-sciences/planetary-science/volatile-inventory-and-escape-evolution.md	mis	6	0	ok
+domains/earth-and-space-sciences/planetary-science/volcanic-processes-and-landforms.md	how	3	0	ok	atan(22/300) = 4.2 deg.
+domains/earth-and-space-sciences/planetary-science/volcanic-processes-and-landforms.md	mis	6	0	ok

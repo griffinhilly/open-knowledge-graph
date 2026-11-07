@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Picture graphs use pictures or symbols to represent data, where each symbol represents one (or more) object. Reading and creating picture graphs develops data interpretation and visualization skills.
 
+## How It's Best Learned
+Begin with real objects. The learner sorts a handful of toy animals into rows on a grid mat, one animal per square, with a label at the start of each row. Then they swap each toy for a drawn picture in the same square. With the picture graph done, ask which row has most, which has fewest, how many more, and how many altogether.
+
+## Common Misconceptions
+- A row with larger pictures has more items. (The count of pictures matters, not how much room they fill. Same-size pictures in equal squares keep the rows fair to compare.)
+- To find "how many more," you add the two rows. ("How many more" asks for the difference, so you subtract. Five apples and 3 bananas means 2 more apples.)
+- Every picture graph uses one picture per item. (Some graphs have a key saying each picture stands for 2 or more. Check the key before you count.)
+
 ## Questions
 
 ```yaml
@@ -51,7 +59,7 @@ Picture graphs use pictures or symbols to represent data, where each symbol repr
   answer: true
   explanation: "4 symbols × 2 items per symbol = 8 items. This is the core calculation skill in picture graphs: multiply the symbol count by the key value to get the actual quantity represented."
 
-- question: "A picture graph usually uses exactly one symbol per item counted."
+- question: "A picture graph always uses exactly one symbol per item counted."
   type: true-false
   answer: false
   explanation: "The key can assign any value to each symbol — commonly 2, 5, or 10 items per symbol. Always check the key before counting. This is why reading the key is the essential first step: it tells you the scale the graph is using."

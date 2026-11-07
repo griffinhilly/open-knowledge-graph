@@ -31,6 +31,11 @@ The part-part-whole model shows how numbers can be composed of smaller parts and
 ## How It's Best Learned
 Use visual diagrams showing circles or boxes divided to show parts and the whole. Use objects that can be physically separated and combined. Label parts clearly as 'part' and 'whole.'
 
+## Common Misconceptions
+- The whole is the first number in the story. (The whole is the total of both parts, wherever it appears. In "Ben has 5 red blocks and 11 blocks in all," 11 is the whole.)
+- The two parts have to be the same size. (Parts can be any sizes that add to the whole. Seven can be 3 and 4, 6 and 1, or 7 and 0.)
+- A missing part means you add the two numbers you see. (If you know the whole and one part, you subtract. Whole 11 and part 5 leave a missing part of 6.)
+
 ## Questions
 
 ```yaml

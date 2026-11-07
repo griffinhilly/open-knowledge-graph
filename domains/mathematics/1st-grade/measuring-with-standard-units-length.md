@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Introduction to inches and centimeters as standard units. A ruler is a tool that shows these units marked in a line. Measuring with a ruler requires lining it up correctly and reading where an object ends, skills that develop with practice.
 
+## How It's Best Learned
+Put a 1-inch tile and a 1-centimeter cube side by side so the learner sees the two unit sizes. Pick three classroom objects. For each, the learner guesses the length in inches, measures it, then measures it again in centimeters and records both. Seeing the centimeter count come out larger every time ties the number to the unit size.
+
+## Common Misconceptions
+- An inch and a centimeter are the same, just with different names. (An inch is longer, about two and a half centimeters, so one object gets a bigger number in centimeters.)
+- Standard units change from ruler to ruler. (Every inch is the same length, so two correct rulers give the same reading for one object.)
+- The answer is just a number, like "6." (A measurement needs its unit. "6 inches" and "6 centimeters" are very different lengths.)
+
 ## Questions
 
 ```yaml

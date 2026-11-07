@@ -34,6 +34,14 @@ status: validated
 ## Core Idea
 Students learn to recognize written numerals from 1 to 100 and associate them with their spoken names. Understanding how to read numbers up to 100 is essential for working with larger quantities and beginning to understand place value.
 
+## How It's Best Learned
+Work on a hundred chart. Have the learner read down one column, such as 4, 14, 24, 34, and say what stays the same and what changes. Then use two digit cards: make 41, read it, swap the cards to make 14, and read again. Building each number with ten-rods and single cubes ties the two names to two different amounts.
+
+## Common Misconceptions
+- 14 and 41 are the same number because they use the same digits. (The order of the digits matters. 14 is one ten and four ones, and 41 is four tens and one one.)
+- "Forty-seven" is written 407, because you write forty and then seven. (The 4 in the tens place already means forty, so forty-seven is written 47.)
+- Teen numbers are read the same way as 21 to 99. (In "fourteen," you say the ones part first. In "forty-one," you say the tens part first. This mismatch is why teens get reversed.)
+
 ## Questions
 
 ```yaml
@@ -69,7 +77,7 @@ Students learn to recognize written numerals from 1 to 100 and associate them wi
 
 - question: "Why do numbers from 21 to 99 follow a predictable pattern that makes them easier to read than memorizing each name separately?"
   type: short-answer
-  answer: "Because each two-digit number is built from two parts: a tens part (which decade it belongs to) and a ones part (how many extra ones). Once you know the names of the ten decade numbers (twenty, thirty, forty...) and the names of the single digits (one through nine), you can combine them to read any two-digit number."
+  answer: "Because each two-digit number is built from two parts: a tens part (which decade it belongs to) and a ones part (how many extra ones). Once you know the names of the eight decade numbers (twenty, thirty, forty... ninety) and the names of the single digits (one through nine), you can combine them to read any two-digit number."
   explanation: "The pattern reflects how our base-ten number system works. Every number has a tens place and a ones place. Reading a two-digit number is just a two-step process: name the tens, then name the ones. This is why the pattern exists — it mirrors the structure of the numbers themselves, not an arbitrary naming convention."
 ```
 

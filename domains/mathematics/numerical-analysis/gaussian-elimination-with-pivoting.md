@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Gaussian elimination with partial (row) or complete (row and column) pivoting reorders equations to avoid dividing by small numbers, which amplifies rounding errors. Pivoting maintains multipliers |m_ij| ≤ 1, keeping roundoff errors bounded. While Gaussian elimination without pivoting can fail catastrophically on well-conditioned systems, pivoting recovers numerical stability without significantly increasing computation.
 
+## How It's Best Learned
+Solve 0.0001x + y = 1, x + y = 2 in 3-significant-digit arithmetic. Without pivoting the multiplier is 10,000, both −9999 and −9998 round to −10,000, so y = 1 and back-substitution gives x = 0. Swap the rows first, and the same arithmetic gives x = 1, y = 1, close to the true x ≈ 1.0001, y ≈ 0.9999.
+
+## Common Misconceptions
+- Pivoting is only needed when a pivot is exactly zero. (A pivot that is small relative to the entries below it already produces large multipliers and can destroy the answer, as the 0.0001 example shows.)
+- With all multipliers at most 1, entries cannot grow during elimination. (Entries can still grow. The worst case for partial pivoting is a factor of 2ⁿ⁻¹, although such growth is rare in practice.)
+- Pivoting makes an ill-conditioned system safe to solve. (Pivoting controls error added by the algorithm. The sensitivity measured by κ(A) belongs to the matrix and is unchanged by row swaps.)
+- Choosing the largest entry in the column picks the best pivot no matter how the rows are scaled. (Multiplying an equation by 10⁶ changes which entry looks largest without changing the system. Scaled partial pivoting compares entries relative to the size of their rows.)
+
 ## Questions
 
 ```yaml
@@ -40,12 +49,12 @@ Gaussian elimination with partial (row) or complete (row and column) pivoting re
 - question: "Partial pivoting guarantees that all multipliers |mᵢₖ| satisfy what condition, and why does this matter?"
   type: multiple-choice
   options:
-    - "|mᵢₖ| ≤ 1, which ensures rounding errors are not amplified as they propagate through subsequent row operations"
+    - "|mᵢₖ| ≤ 1, which limits how much rounding errors can be amplified as they propagate through subsequent row operations"
     - "|mᵢₖ| ≥ 1, which ensures the pivot rows dominate and the algorithm converges"
     - "|mᵢₖ| = 1 exactly, which balances all rows and eliminates rounding error"
     - "|mᵢₖ| < n, where n is the matrix size — keeping multipliers below the matrix dimension"
   answer: 0
-  explanation: "Partial pivoting selects the row with the largest absolute value in the current column as the pivot. By placing the maximum value in the denominator of each multiplier mᵢₖ = aᵢₖ / aₖₖ, it guarantees |mᵢₖ| ≤ 1 for all entries below the pivot. When multipliers are at most 1, rounding errors are not amplified — they can only stay the same or shrink as they propagate. This is the mechanism by which partial pivoting achieves numerical stability."
+  explanation: "Partial pivoting selects the row with the largest absolute value in the current column as the pivot. By placing the maximum value in the denominator of each multiplier mᵢₖ = aᵢₖ / aₖₖ, it guarantees |mᵢₖ| ≤ 1 for all entries below the pivot. When multipliers are at most 1, each elimination step can at most double the size of an entry, so error growth is limited and in practice stays small. This is the mechanism by which partial pivoting achieves numerical stability."
 
 - question: "A system of linear equations is well-conditioned (small condition number), but Gaussian elimination without pivoting produces a wildly inaccurate answer. This can happen."
   type: true-false
@@ -69,6 +78,6 @@ From basic Gaussian elimination, you know the algorithm: eliminate variables one
 
 Here's the disaster scenario. Suppose your pivot is 0.0001 and the entry below it is 1. The multiplier is 1/0.0001 = 10,000. Now every rounding error in that row gets amplified by 10,000 before being subtracted. Even a tiny floating-point imprecision in the original data becomes a massive error in the result. The system might be perfectly well-conditioned (have a unique, stable solution) and still produce a garbage numerical answer — purely because of the order in which you encountered a small number.
 
-**Partial pivoting** fixes this by a simple rule: before eliminating column k, scan down column k from row k to n, find the entry with the largest absolute value, and swap that row up to become the pivot row. This guarantees the pivot is at least as large as all entries below it in that column, so all multipliers satisfy |mᵢₖ| ≤ 1. Small multipliers mean errors don't get amplified — they stay bounded. In practice, partial pivoting makes Gaussian elimination reliable for virtually all problems that arise in scientific computing. You're not changing the mathematical problem; you're just reordering the equations, which doesn't change the solution.
+**Partial pivoting** fixes this by a simple rule: before eliminating column k, scan down column k from row k to n, find the entry with the largest absolute value, and swap that row up to become the pivot row. This guarantees the pivot is at least as large as all entries below it in that column, so all multipliers satisfy |mᵢₖ| ≤ 1. Small multipliers keep error growth limited. In practice, partial pivoting makes Gaussian elimination reliable for virtually all problems that arise in scientific computing. You're not changing the mathematical problem; you're just reordering the equations, which doesn't change the solution.
 
 **Complete pivoting** additionally searches for the largest entry in the entire remaining submatrix, swapping both rows and columns. This provides the strongest stability guarantee, but requires more searching and also permutes the variable order, complicating bookkeeping. For most applications, partial pivoting is sufficient. The computational overhead of either strategy is small relative to the O(n³) cost of elimination itself — just O(n²) comparisons for partial pivoting. Pivoting is why Gaussian elimination is a practical algorithm, not just a theoretical one: it's the difference between a method that works on paper and one that you can trust on a computer.

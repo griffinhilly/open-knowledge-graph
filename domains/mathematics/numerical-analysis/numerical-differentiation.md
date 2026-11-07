@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Numerical differentiation approximates f'(x) using finite differences: forward (f(x+h)-f(x))/h, backward (f(x)-f(x-h))/h, or centered (f(x+h)-f(x-h))/(2h). Taylor analysis shows centered differences have O(h²) truncation error but are sensitive to rounding errors for very small h. Choosing h requires balancing truncation and rounding error—typically h ≈ √(machine epsilon).
 
+## How It's Best Learned
+Estimate the derivative of eˣ at x = 0, where the exact answer is 1, using h = 10⁻¹, 10⁻², …, 10⁻¹⁴. Plot error against h on log-log axes for the forward and centered formulas. At h = 0.1 the forward error is about 0.052, close to h/2. Each curve falls in a straight line, bottoms out, then rises jaggedly as rounding takes over.
+
+## Common Misconceptions
+- A smaller h always gives a better derivative. (Below the optimal h, rounding error of size about ε_mach/h grows faster than truncation error shrinks.)
+- The same h works for every formula. (The best h depends on the formula's order. It is near √ε_mach for forward differences and near ε_mach^(1/3) for centered differences.)
+- Finite differences work just as well on measured data. (Noise of size δ in the data becomes error of size about δ/h in the derivative. Noisy data is usually smoothed or fitted before differentiating.)
+
 ## Questions
 
 ```yaml

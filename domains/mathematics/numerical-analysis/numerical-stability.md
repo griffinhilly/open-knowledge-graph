@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 A numerical algorithm is stable if small perturbations in inputs produce only small changes in outputs. Stability depends on both the problem (conditioning) and the algorithm (implementation). A well-conditioned problem solved with a stable algorithm yields accurate results; poor conditioning or instability can make even theoretically simple problems numerically unreliable.
 
+## How It's Best Learned
+Compute e⁻²⁰ two ways in double precision. Summing the Taylor series 1 − 20 + 20²/2! − … directly gives garbage, because terms reach about 4 × 10⁷ while the answer is about 2.06 × 10⁻⁹. Computing 1/e²⁰ with the same series gives nearly full accuracy. The problem is well conditioned (κ = |x| = 20), so the failure belongs to the first algorithm.
+
+## Common Misconceptions
+- Mathematically equivalent formulas give the same floating-point result. (Rounding happens at each operation, so the order and form of the operations change the result, sometimes drastically.)
+- A backward-stable algorithm always returns an accurate answer. (It returns the exact answer to a nearby problem. If the problem is ill-conditioned, that nearby answer can still be far from the true one.)
+- Instability only appears after millions of operations. (A single subtraction of nearly equal numbers can destroy most significant digits in one step.)
+
 ## Questions
 
 ```yaml

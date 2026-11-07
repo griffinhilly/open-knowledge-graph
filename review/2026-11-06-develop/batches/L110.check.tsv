@@ -1,0 +1,61 @@
+domains/biology/ecology-and-evolution/adaptive-radiation-patterns.md	how	3	0	ok
+domains/biology/ecology-and-evolution/adaptive-radiation-patterns.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/age-structured-demographics-and-fecundity.md	how	5	0	ok	Leslie projection (30,5),(40,15),(70,20) and lambda=(1+sqrt5)/2~1.62 verified
+domains/biology/ecology-and-evolution/age-structured-demographics-and-fecundity.md	mis	8	0	ok
+domains/biology/ecology-and-evolution/antipredator-defenses-and-mimicry.md	how	3	0	ok
+domains/biology/ecology-and-evolution/antipredator-defenses-and-mimicry.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/apparent-competition-indirect-effects.md	how	3	1	fixed	"signs along the two paths match" is false: resource path is (-,+), predator path is (+,-); only the net sign matches. Rewrote that sentence
+domains/biology/ecology-and-evolution/apparent-competition-indirect-effects.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/bioaccumulation-and-ecological-toxicology.md	how	3	0	ok
+domains/biology/ecology-and-evolution/bioaccumulation-and-ecological-toxicology.md	mis	8	0	ok
+domains/biology/ecology-and-evolution/biodiversity-ecosystem-function-relationships.md	how	5	0	ok	expected 350 and Loreau-Hector split for the 390 case (selection 48.75, complementarity -8.75) verified
+domains/biology/ecology-and-evolution/biodiversity-ecosystem-function-relationships.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/biodiversity-patterns-richness-evenness.md	how	4	0	ok	Simpson 0.75 and 0.48 verified
+domains/biology/ecology-and-evolution/biodiversity-patterns-richness-evenness.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/biogeographic-patterns-and-realms.md	how	4	1	fixed	absolute "The same roles are filled by unrelated lineages" is false for e.g. Nearctic/Palearctic (shared deer, wolves); limited to isolated realms such as Australia
+domains/biology/ecology-and-evolution/biogeographic-patterns-and-realms.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/biomonitoring-indicator-species-assessment.md	how	4	0	ok	Hilsenhoff 4.25 and 9.7 verified
+domains/biology/ecology-and-evolution/biomonitoring-indicator-species-assessment.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/character-displacement-sympatry.md	how	3	0	ok
+domains/biology/ecology-and-evolution/character-displacement-sympatry.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/community-assembly-rules-and-coexistence.md	how	3	0	ok
+domains/biology/ecology-and-evolution/community-assembly-rules-and-coexistence.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/community-assembly-rules.md	how	3	0	ok
+domains/biology/ecology-and-evolution/community-assembly-rules.md	mis	6	0	fixed	style only: banned word "landscapes" -> "regions"
+domains/biology/ecology-and-evolution/community-stability-resistance-resilience.md	how	4	0	ok
+domains/biology/ecology-and-evolution/community-stability-resistance-resilience.md	mis	6	0	fixed	style only: belief read "more biomass to lose" (incoherent as a reason for stability) -> "to spare"
+domains/biology/ecology-and-evolution/community-succession-primary-secondary.md	how	3	0	ok
+domains/biology/ecology-and-evolution/community-succession-primary-secondary.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/comparative-phylogenetic-methods.md	how	5	1	fixed	"equal branch lengths so you can skip standardization" is false: deep contrast variance (3v) differs from tip contrasts (2v) even with equal branches; reworded to raw contrasts with standardization left for later. Contrast arithmetic (-2,-2,-8; n-1=3) correct
+domains/biology/ecology-and-evolution/comparative-phylogenetic-methods.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/competition-types-outcomes.md	how	3	0	ok
+domains/biology/ecology-and-evolution/competition-types-outcomes.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/conservation-genetics-and-population-recovery.md	how	3	0	ok	0.98^10~0.82 verified
+domains/biology/ecology-and-evolution/conservation-genetics-and-population-recovery.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/conservation-genetics-effective-size.md	how	4	0	ok	Ne=64, harmonic mean 25, arithmetic 70 verified
+domains/biology/ecology-and-evolution/conservation-genetics-effective-size.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/decomposition-microbial-mineralization.md	how	3	0	ok	k=0.69 and 0.22 verified
+domains/biology/ecology-and-evolution/decomposition-microbial-mineralization.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/density-dependence-mechanisms.md	how	4	0	ok	logistic per-capita values verified
+domains/biology/ecology-and-evolution/density-dependence-mechanisms.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/disturbance-ecology-and-succession-dynamics.md	how	3	1	fixed	contested IDH mechanism stated as settled ("the habitat basis"); softened to "one proposed habitat basis"
+domains/biology/ecology-and-evolution/disturbance-ecology-and-succession-dynamics.md	mis	8	0	ok
+domains/biology/ecology-and-evolution/ecological-niche-modeling-and-species-distribution.md	how	3	0	ok
+domains/biology/ecology-and-evolution/ecological-niche-modeling-and-species-distribution.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/ecological-niche-overlap-and-differentiation.md	how	2	0	ok	overlap 0.5 verified
+domains/biology/ecology-and-evolution/ecological-niche-overlap-and-differentiation.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/ecological-speciation-sympatric-divergence.md	how	3	0	ok
+domains/biology/ecology-and-evolution/ecological-speciation-sympatric-divergence.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/ecological-stoichiometry-element-ratios.md	how	4	0	ok	16:1 arithmetic verified
+domains/biology/ecology-and-evolution/ecological-stoichiometry-element-ratios.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/ecosystem-productivity-gpp-npp.md	how	4	0	ok	light/dark bottle 1.2+0.6=1.8 verified
+domains/biology/ecology-and-evolution/ecosystem-productivity-gpp-npp.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/ecosystem-stability-resilience-and-tipping-points.md	how	3	0	ok
+domains/biology/ecology-and-evolution/ecosystem-stability-resilience-and-tipping-points.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/ecosystem-stability-resilience-and-tipping-points.md	q:4:explanation	1	0	ok	old Core Idea uses banned "crucial" (not in scope, left)
+domains/biology/ecology-and-evolution/effective-population-size-ne-estimation.md	how	3	0	ok	temporal-method Ne=50 verified
+domains/biology/ecology-and-evolution/effective-population-size-ne-estimation.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/endemism-and-range-restriction.md	how	3	0	ok
+domains/biology/ecology-and-evolution/endemism-and-range-restriction.md	mis	6	0	ok
+domains/biology/ecology-and-evolution/energy-pyramid-efficiency-trophic-transfer.md	how	3	0	fixed	minor rounding: 33/200 = 16.5%, text said "about 16%"; set to 16.5%
+domains/biology/ecology-and-evolution/energy-pyramid-efficiency-trophic-transfer.md	mis	6	0	ok

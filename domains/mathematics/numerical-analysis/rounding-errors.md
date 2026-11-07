@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Every floating point operation introduces rounding error bounded by machine epsilon times the result's magnitude. As operations are chained, these errors accumulate unpredictably. Understanding error propagation through algorithms is essential for predicting and controlling overall numerical accuracy.
 
+## How It's Best Learned
+Simulate a 4-significant-digit machine by hand. Add 1000 + 0.4 + 0.4 + 0.4 + 0.4 + 0.4 from left to right: each 1000.4 rounds back to 1000, so the result is 1000. Add the same numbers smallest first: the 0.4s reach 2.0, and 2.0 + 1000 gives 1002, the true sum. Then trace each rounding step and compare with the per-operation bound.
+
+## Common Misconceptions
+- The order of addition does not change a floating-point sum. (Each partial sum is rounded, so small terms added to a large running total can vanish. Adding small terms first, or using compensated summation, keeps them.)
+- When nearly equal numbers are subtracted, the subtraction itself creates a large rounding error. (If x and y are within a factor of 2 of each other, x − y is computed exactly. The damage comes from errors already in x and y, which become large relative to the small difference.)
+- A bound of ε_mach per operation means n operations give at most n·ε_mach relative error in the result. (That bound covers simple chains like a sum of positive terms. A cancellation step can turn small absolute errors into a large relative error in one step.)
+
 ## Questions
 
 ```yaml

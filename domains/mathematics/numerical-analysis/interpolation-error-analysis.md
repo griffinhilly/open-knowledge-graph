@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 If P(x) interpolates f at n+1 points, the error E(x) = f(x) - P(x) satisfies |E(x)| ≤ (max |f^{(n+1)}|)/(n+1)! |∏(x - x_i)|. This bound reveals that error depends on the (n+1)-th derivative of f and the magnitude of the node product. For smooth functions with well-chosen nodes, interpolation error can be very small; poor node placement causes large errors.
 
+## How It's Best Learned
+Apply the bound to one case you can check. Interpolate sin x at 0, π/2 and π, which gives P(x) = (4/π²)x(π − x). With M = 1 and max|ω| ≈ 1.49 on [0, π], the bound is about 0.25. At x = π/4 the true error is |0.7071 − 0.75| ≈ 0.043. Then plot |ω(x)| to see where the bound is tight and where it is loose.
+
+## Common Misconceptions
+- The (n+1)! in the denominator guarantees that the error shrinks as n grows. (The derivative bound M can grow faster than (n+1)!. For Runge's function, |f^(n)(0)| = n!·5ⁿ for even n.)
+- The point ξ is something you can compute and plug in. (ξ depends on x and is not known. In practice you bound f^(n+1) over the whole interval, so the result is a worst-case bound that can be loose.)
+- The bound shows interpolation stays accurate just outside the nodes. (Outside the span of the nodes every factor of ω(x) grows, so |ω| rises quickly and extrapolation error can become large.)
+
 ## Questions
 
 ```yaml

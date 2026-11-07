@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Skip counting by 5s (5, 10, 15, 20...) establishes a pattern useful for telling time, counting money (nickels, dimes), and multiplication. The pattern ends in 5 or 0.
 
+## How It's Best Learned
+Use hands. Have several people hold up one open hand each, and count the fingers by 5s while touching each hand: 5, 10, 15, 20. Then count one hand finger by finger to check it holds 5. Next, write the count on a hundred chart and circle each number. The circled numbers form two columns, one ending in 5 and one ending in 0.
+
+## Common Misconceptions
+- The count by 5s goes 5, 10, 15, 20, 30. (Each step adds 5, so 25 comes between 20 and 30.)
+- Each hand counts as 1 when counting by 5s. (Each hand stands for 5 fingers. The number you say is the total fingers so far, not the number of hands.)
+- You can count any pile by 5s by pointing at objects one at a time. (Counting by 5s gives the right total when the objects sit in groups of 5. Put loose objects into fives first.)
+
 ## Questions
 
 ```yaml
@@ -32,7 +40,7 @@ Skip counting by 5s (5, 10, 15, 20...) establishes a pattern useful for telling 
   answer: 2
   explanation: "Each number in the sequence is 5 more than the one before it. 25 + 5 = 30. The pattern of skip counting by 5s always adds 5 each time."
 
-- question: "When skip counting by 5s, most number in the sequence ends in 5."
+- question: "When skip counting by 5s, every number in the sequence ends in 5."
   type: true-false
   answer: false
   explanation: "Numbers in the skip-count-by-5s sequence alternate between ending in 5 and ending in 0: 5, 10, 15, 20, 25, 30... Half end in 5 and half end in 0. The rule is that they always end in either 5 or 0."

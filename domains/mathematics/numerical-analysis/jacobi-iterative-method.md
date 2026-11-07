@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The Jacobi method solves Ax = b by iterating x^{(k+1)} = D⁻¹(b - (L+U)x^{(k)}), where D is A's diagonal and L, U are its lower and upper parts. Each component is updated simultaneously using values from the previous iteration. Jacobi is simple to implement and parallelize but converges slowly unless A is diagonally dominant or well-conditioned.
 
+## How It's Best Learned
+Iterate 3x + y = 5, x + 2y = 5 (solution x = 1, y = 2) from (0, 0). You get (1.667, 2.5), (0.833, 1.667), (1.111, 2.083), closing in while overshooting. Then write the same equations in the other order, solving the first for x and the second for y. The iterates (5, 5), (−5, −10), (25, 20) run away, because the iteration matrix now has spectral radius √6 > 1.
+
+## Common Misconceptions
+- The order of the equations does not affect Jacobi. (Reordering changes which entries sit on the diagonal, so it changes D and the iteration matrix. One order can converge while another diverges.)
+- Jacobi needs a diagonally dominant matrix to converge. (Diagonal dominance is sufficient. The exact condition is that the spectral radius of D⁻¹(L + U) is below 1, which some non-dominant matrices satisfy.)
+- Jacobi converges for every symmetric positive definite matrix. (That guarantee holds for Gauss-Seidel. For an SPD matrix, Jacobi converges exactly when 2D − A is also positive definite.)
+
 ## Questions
 
 ```yaml

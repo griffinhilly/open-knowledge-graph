@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 Numbers 0–20 can be broken into two parts that sum to 20. Just as bonds to 10 are foundational, bonds to 20 support fluency with larger sums and prepare students for multi-digit addition. Recognizing that 12 + 8 = 20 mirrors 2 + 8 = 10.
 
+## How It's Best Learned
+Use a double ten-frame with 20 boxes. Fill the whole first frame and 2 boxes of the second frame. The learner counts the empty boxes, which is 8, and writes 12 + 8 = 20. Then put a single ten-frame with 2 counters beside it. The same 8 empty boxes appear, which shows the bond to 10 hiding inside the bond to 20.
+
+## Common Misconceptions
+- The partner of 13 is 3, because 13 has a 3 in it. (The partner of 13 is 7. Thirteen is 10 and 3, and 3 needs 7 to make the next 10.)
+- Bonds to 20 are a whole new list to memorize. (Each one comes from a bond to 10 with 10 added to one partner, so 4 + 6 = 10 gives 14 + 6 = 20.)
+- If you add 10 to both partners, you still get 20. (Adding 10 to both partners adds 20 in all. 14 + 16 is 30, not 20.)
+
 ## Questions
 
 ```yaml

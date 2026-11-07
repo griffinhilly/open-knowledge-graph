@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Before using rulers, students measure with blocks, paper clips, hand spans, or footsteps: 'My desk is 8 blocks long.' This develops an understanding of measurement as repeated units and comparisons, and makes the shift to standard units meaningful.
 
+## How It's Best Learned
+Have the learner measure one desk twice, first with paper clips and then with linking cubes, and record both counts with their units ("14 paper clips," "24 cubes"). Ask why the numbers differ when the desk did not change. Then hand them a mix of long and short clips and let them discover that the count stops making sense.
+
+## Common Misconceptions
+- A bigger number always means a longer object. (That holds only when both objects were measured with the same unit. A desk can be 14 paper clips and also 24 cubes.)
+- Leaving small gaps between units does not matter. (Each gap is length you did not count, so the total comes out too small.)
+- A longer unit gives a bigger number. (A longer unit gives a smaller number, because fewer of them fit along the same length.)
+- It is fine to mix units of different sizes in one measurement. (If the units are not the same size, the count does not describe a length. Use one kind of unit, end to end.)
+
 ## Questions
 
 ```yaml

@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 Picture graphs use pictures or symbols to represent data, with each picture representing one item. Students arrange pictures in rows or columns to compare quantities and answer questions about the data.
 
+## How It's Best Learned
+Ask a question with three answers, such as "Which fruit do you like best?" Each learner places one same-size sticky note in a labeled column on a grid, starting from the bottom line. Then ask which column is tallest, which is shortest, and how many more one has than another. Finally, compare it with a version where the notes are spread unevenly.
+
+## Common Misconceptions
+- A row with bigger pictures has more items. (Count the pictures, not the space they take up. Use the same-size picture in every row so the row length matches the count.)
+- The rows do not need to start at the same line. (If one row starts farther over, it can look longer than it is. Line up the first picture of every row.)
+- The labels are optional if the pictures show what they are. (Without labels, a reader may not know what each row counts. Each row or column needs a name.)
+
 ## Questions
 
 ```yaml

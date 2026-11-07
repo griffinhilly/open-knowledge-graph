@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Arranging numbers in increasing or decreasing order (e.g., 3, 7, 12, 19 or 20, 15, 8, 1) develops understanding of number magnitude and sequence. Using a number line as a reference makes this concrete.
 
+## How It's Best Learned
+Hang a string marked 0 to 20 and give the learner four number cards, such as 3, 17, 9 and 5. They clip each card at its spot, then read the cards left to right for ascending order and right to left for descending order. Afterward they write both lists and check that each step moves the same way.
+
+## Common Misconceptions
+- 12 comes before 5 because 1 is smaller than 5. (Twelve has a ten in it, so it is greater than any one-digit number. 5 comes before 12 in ascending order.)
+- Ascending and descending mean the same thing. (Ascending goes from smallest to largest. Descending goes from largest to smallest.)
+- A list is in order if the smallest number is first and the largest is last. (Every neighbor pair must step the same way. In 4, 12, 7, 19, the ends are right but 12 and 7 are swapped.)
+
 ## Questions
 
 ```yaml

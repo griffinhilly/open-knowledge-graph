@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 Comparing lengths (shorter, longer, same length) develops foundational understanding of how objects relate spatially. This concept bridges to later numerical comparisons.
 
+## How It's Best Learned
+Give the learner pairs of real objects, such as pencils, ribbons and blocks, and have them stand both against a wall or table edge before saying "longer" or "shorter." Then stagger the starting points on purpose and ask which is longer, so they see why alignment matters. Finish with a string that matches a desk, carried over to a bookshelf.
+
+## Common Misconceptions
+- The object whose end sticks out farthest is the longest. (That is true only when both objects start at the same point. Line up one end of each first, then compare the other ends.)
+- A thick or wide object is longer than a thin one. (Length is the distance from one end to the other. A fat short crayon can be shorter than a thin long one.)
+- A bent or curled object is shorter than it was when straight. (Bending a string or ribbon changes its shape, not its length. Straighten both objects before comparing.)
+
 ## Questions
 
 ```yaml

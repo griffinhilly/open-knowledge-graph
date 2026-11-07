@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 The Gauss-Seidel method improves Jacobi by using updated values immediately: x_i^{(k+1)} = (b_i - Σ_{j<i} A_{ij}x_j^{(k+1)} - Σ_{j>i} A_{ij}x_j^{(k)})/A_{ii}. By exploiting the latest available values, Gauss-Seidel typically converges roughly twice as fast as Jacobi. The trade-off is that updates must be sequential, making parallelization difficult.
 
+## How It's Best Learned
+Run Jacobi and Gauss-Seidel side by side on 4x − y = 3, −x + 4y = 3 (solution x = y = 1) from (0, 0). Gauss-Seidel gives (0.75, 0.9375), then (0.984375, 0.99609375). Jacobi gives (0.75, 0.75), then (0.9375, 0.9375). Then write Gauss-Seidel as overwriting one array in place, and notice why the loop cannot be split across processors.
+
+## Common Misconceptions
+- Gauss-Seidel converges whenever Jacobi does. (Neither method's convergence implies the other's for general matrices. There are systems where one converges and the other diverges.)
+- The order of the equations does not matter for Gauss-Seidel. (Reordering changes which values are fresh at each step and changes the iteration matrix. Swapping rows can also destroy diagonal dominance and stop convergence.)
+- Gauss-Seidel needs separate arrays for the old and new iterates, like Jacobi. (Because each new value replaces the old one as soon as it is computed, a single array updated in place is enough.)
+
 ## Questions
 
 ```yaml
@@ -53,7 +61,7 @@ The Gauss-Seidel method improves Jacobi by using updated values immediately: x_i
 - question: "For Gauss-Seidel to converge, the matrix A should be symmetric positive definite."
   type: true-false
   answer: false
-  explanation: "Diagonal dominance is the more general condition that guarantees Gauss-Seidel convergence. Symmetric positive definite (SPD) matrices are a special case where convergence is guaranteed, but SPD is not necessary. Many diagonally dominant systems that are not SPD also converge under Gauss-Seidel. Knowing the sufficient conditions matters: diagonal dominance and SPD are both sufficient; neither is strictly necessary in practice, but they are the standard convergence guarantees to cite."
+  explanation: "Strict diagonal dominance is a separate condition that also guarantees Gauss-Seidel convergence. Symmetric positive definite (SPD) matrices are another case where convergence is guaranteed, but SPD is not necessary. Many strictly diagonally dominant systems that are not SPD also converge under Gauss-Seidel. Knowing the sufficient conditions matters: diagonal dominance and SPD are both sufficient; neither is strictly necessary in practice, but they are the standard convergence guarantees to cite."
 
 - question: "Explain in your own words why Gauss-Seidel typically converges faster than Jacobi, and what you give up in exchange."
   type: short-answer

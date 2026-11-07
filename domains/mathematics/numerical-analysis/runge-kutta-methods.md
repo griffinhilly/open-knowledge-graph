@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Runge-Kutta methods use intermediate (stage) evaluations of f to improve accuracy. The classical 4th-order RK4 achieves error O(h⁵) with four function evaluations per step. RK methods are explicit (computing stages sequentially) or implicit (solving systems), with explicit methods simpler but sensitive to stiffness. RK methods are the workhorse of ODE solving due to their simplicity and effectiveness.
 
+## How It's Best Learned
+Take one RK4 step by hand on y′ = y, y(0) = 1, h = 0.1. The stages are k₁ = 1, k₂ = 1.05, k₃ = 1.0525 and k₄ = 1.10525, giving y₁ ≈ 1.10517083. Compare with e^0.1 ≈ 1.10517092 and with Euler's 1.1. Then expand e^0.1 to see that RK4 matched the Taylor series through the h⁴ term.
+
+## Common Misconceptions
+- k₂ and k₃ are the true solution's slopes at the midpoint. (They are slopes of f at trial points built from earlier stages. Those points generally lie off the true solution curve.)
+- An explicit Runge-Kutta method of order p needs only p stages. (That holds up to order 4. An explicit method of order 5 needs at least 6 stages, which is one reason RK4 is so popular.)
+- A higher-order method is better for every problem. (High order pays off when the solution is smooth. For stiff equations or solutions with kinks, a lower-order or implicit method can be cheaper for the same accuracy.)
+
 ## Questions
 
 ```yaml

@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 Tally marks (|) and groups of five (||||/) record and count data efficiently. Tally charts organize data collected from surveys and observations in a clear, systematic way.
 
+## How It's Best Learned
+Give the learner a bag of buttons in three colors and a chart with one row per color. They pull out one button at a time, make one mark in its row, and set the button on that color's pile. Each fifth mark crosses the four before it. When the bag is empty, they read each row by counting fives and then the leftover marks, and count each pile to check.
+
+## Common Misconceptions
+- A row needs just one mark if anyone picked that choice. (Each mark stands for one item or one answer. Seven red buttons need seven marks.)
+- The crossing mark alone stands for 5. (The crossing mark is one mark, the fifth. Together with the four marks under it, the bundle shows 5.)
+- To read a row, you count every line one at a time. (You can count each bundle as 5, then add the single marks. Two bundles and 3 marks make 13.)
+
 ## Questions
 
 ```yaml

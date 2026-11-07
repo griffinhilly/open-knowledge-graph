@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Multistep methods use information from several previous steps to compute y_{n+1}. Adams-Bashforth (explicit) uses past y and f values; Adams-Moulton (implicit) includes f(t_{n+1}, y_{n+1}). Multistep methods are efficient when solution history is available but require startup (using a single-step method for the first few steps) and careful error monitoring.
 
+## How It's Best Learned
+Take one predictor-corrector step by hand on y′ = y, y(0) = 1, h = 0.1, with startup value y₁ = e^0.1 ≈ 1.105171. The Adams-Bashforth 2-step predictor gives y₂ ≈ 1.220947. Feed that into the Adams-Moulton formula to get y₂ ≈ 1.221389. Against the exact e^0.2 ≈ 1.221403, the error drops from about 4.6 × 10⁻⁴ to about 1.4 × 10⁻⁵.
+
+## Common Misconceptions
+- A predictor-corrector pair behaves like the implicit Adams-Moulton method. (With a fixed number of corrections the scheme is explicit. Its accuracy is close to Adams-Moulton, but its stability region is much smaller.)
+- Being implicit makes Adams-Moulton methods good for stiff problems. (Beyond the trapezoidal rule, Adams-Moulton methods have bounded stability regions. Stiff problems usually call for methods such as BDF.)
+- Any quick method, such as Euler, is fine for the startup values. (Errors in the starting values carry through the whole run. They need to be as accurate as the multistep method's order, which is why RK4 is a common choice.)
+
 ## Questions
 
 ```yaml

@@ -1,0 +1,62 @@
+domains/mathematics/number-theory/algebraic-integers.md	how	4	0	ok
+domains/mathematics/number-theory/algebraic-integers.md	mis	8	0	ok
+domains/mathematics/number-theory/arithmetic-functions-and-multiplicativity.md	how	3	0	ok
+domains/mathematics/number-theory/arithmetic-functions-and-multiplicativity.md	mis	6	0	ok
+domains/mathematics/number-theory/arithmetic-in-p-adic-numbers.md	how	4	0	ok
+domains/mathematics/number-theory/arithmetic-in-p-adic-numbers.md	mis	8	0	ok
+domains/mathematics/number-theory/best-rational-approximations.md	how	4	0	ok
+domains/mathematics/number-theory/best-rational-approximations.md	mis	6	0	ok
+domains/mathematics/number-theory/chebyshev-bounds.md	how	3	0	ok
+domains/mathematics/number-theory/chebyshev-bounds.md	mis	6	0	ok
+domains/mathematics/number-theory/chebyshev-bounds.md	old:core	1	1	fixed	Core Idea said the bounds prove "asymptotic density 1/ln(x)", which is the PNT and contradicts the new misconception bullet; changed to "density of order 1/ln(x)". Also noted, not changed: "(Bertrand's postulate)" is presented as the proof method, but Bertrand is a consequence/companion, not the route to the bounds.
+domains/mathematics/number-theory/congruence-properties.md	how	3	0	ok
+domains/mathematics/number-theory/congruence-properties.md	mis	6	0	ok
+domains/mathematics/number-theory/continued-fractions.md	how	4	0	ok
+domains/mathematics/number-theory/continued-fractions.md	mis	6	0	ok
+domains/mathematics/number-theory/dirichlet-series-and-l-functions.md	how	3	0	ok
+domains/mathematics/number-theory/dirichlet-series-and-l-functions.md	mis	6	0	ok
+domains/mathematics/number-theory/dirichlet-series-l-functions.md	how	3	0	ok
+domains/mathematics/number-theory/dirichlet-series-l-functions.md	mis	6	1	fixed	"The product converges only for Re(s) > 1" overstated; Euler products also converge (conditionally) on Re(s) = 1. Changed to "converges absolutely only for Re(s) > 1".
+domains/mathematics/number-theory/discrete-logarithms.md	how	3	0	ok
+domains/mathematics/number-theory/discrete-logarithms.md	mis	6	0	ok
+domains/mathematics/number-theory/distribution-of-primes.md	how	3	0	ok
+domains/mathematics/number-theory/distribution-of-primes.md	mis	6	0	ok
+domains/mathematics/number-theory/distribution-primes-prime-number-theorem.md	how	4	0	ok
+domains/mathematics/number-theory/distribution-primes-prime-number-theorem.md	mis	6	0	ok
+domains/mathematics/number-theory/euler-criterion.md	how	3	0	ok
+domains/mathematics/number-theory/euler-criterion.md	mis	6	0	ok
+domains/mathematics/number-theory/euler-theorem.md	how	3	0	ok
+domains/mathematics/number-theory/euler-theorem.md	mis	6	0	ok
+domains/mathematics/number-theory/euler-totient-function.md	how	2	0	ok
+domains/mathematics/number-theory/euler-totient-function.md	mis	6	0	ok
+domains/mathematics/number-theory/eulers-criterion.md	how	2	0	ok
+domains/mathematics/number-theory/eulers-criterion.md	mis	6	1	fixed	Dropped qualifier: a^((p+1)/4) is a square root only when a is a residue (for a non-residue its square is −a). Added "and a a residue".
+domains/mathematics/number-theory/failure-of-unique-factorization.md	how	4	0	fixed	Clarity only: the step "6 − 4 = 2 lies in it" did not show why 6 is in p²; added that 6 is the difference of the last two generators.
+domains/mathematics/number-theory/failure-of-unique-factorization.md	mis	6	0	ok
+domains/mathematics/number-theory/failure-unique-factorization.md	how	4	0	ok
+domains/mathematics/number-theory/failure-unique-factorization.md	mis	6	1	fixed	Belief stated generally ("without unique factorization an element can factor into different numbers of irreducibles") is true in rings with class number >= 3, so the correction only refuted it for Z[sqrt(-5)]. Narrowed the belief to Z[sqrt(-5)] and made the Carlitz sentence say "a ring of integers ... its class number".
+domains/mathematics/number-theory/fermat-last-theorem-overview.md	how	3	0	ok
+domains/mathematics/number-theory/fermat-last-theorem-overview.md	mis	6	0	ok
+domains/mathematics/number-theory/fermats-little-theorem.md	how	4	0	ok
+domains/mathematics/number-theory/fermats-little-theorem.md	mis	6	0	ok
+domains/mathematics/number-theory/fundamental-theorem-arithmetic-rigorous.md	how	3	0	ok
+domains/mathematics/number-theory/fundamental-theorem-arithmetic-rigorous.md	mis	6	0	ok
+domains/mathematics/number-theory/gaussian-integers.md	how	3	0	ok
+domains/mathematics/number-theory/gaussian-integers.md	mis	6	0	ok
+domains/mathematics/number-theory/hensels-lemma.md	how	3	0	ok
+domains/mathematics/number-theory/hensels-lemma.md	mis	6	0	ok
+domains/mathematics/number-theory/introduction-p-adic-numbers.md	how	3	0	ok
+domains/mathematics/number-theory/introduction-p-adic-numbers.md	mis	6	0	ok
+domains/mathematics/number-theory/introduction-riemann-zeta-function.md	how	3	0	ok
+domains/mathematics/number-theory/introduction-riemann-zeta-function.md	mis	6	1	fixed	"The product converges only for Re(s) > 1" overstated (the zeta Euler product also converges on Re(s) = 1, s != 1), and "the product formula does not apply there" is not a safe claim about the strip. Rewrote the correction: converges absolutely only for Re(s) > 1 with no zeros there; that says nothing about the continued function in the strip.
+domains/mathematics/number-theory/introduction-to-ideal-class-group.md	how	4	0	ok
+domains/mathematics/number-theory/introduction-to-ideal-class-group.md	mis	6	1	fixed	Correction (nine imaginary quadratic fields with h = 1) only refutes the belief for imaginary quadratic fields; for real quadratic fields h = 1 is conjectured common. Narrowed the belief to imaginary quadratic fields.
+domains/mathematics/number-theory/introduction-to-p-adic-numbers.md	how	3	0	ok
+domains/mathematics/number-theory/introduction-to-p-adic-numbers.md	mis	6	0	ok
+domains/mathematics/number-theory/jacobi-symbol.md	how	3	0	ok
+domains/mathematics/number-theory/jacobi-symbol.md	mis	6	0	ok
+domains/mathematics/number-theory/lagrange-four-square-theorem.md	how	3	0	ok
+domains/mathematics/number-theory/lagrange-four-square-theorem.md	mis	6	0	ok
+domains/mathematics/number-theory/lagrange-four-square-theorem.md	old:core	1	1	fixed	Core Idea credited the sum-of-two-squares theorem with characterizing which numbers need four squares; that is Legendre's three-square theorem. Fixed the name.
+domains/mathematics/number-theory/lagranges-four-square-theorem.md	how	3	0	ok
+domains/mathematics/number-theory/lagranges-four-square-theorem.md	mis	6	0	ok

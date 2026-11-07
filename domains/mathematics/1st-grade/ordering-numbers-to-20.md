@@ -31,6 +31,14 @@ status: validated
 ## Core Idea
 Ordering a set of numbers from least to greatest (or vice versa) requires comparing and understanding relative magnitude. This reinforces place value and builds number sense.
 
+## How It's Best Learned
+Spread out cards for 17, 3, 11 and 8, and build each number as a cube tower beside its card. The learner finds the shortest tower, moves that card to the start of a row, and repeats with the cards that are left. The towers make size visible. Once the learner can explain each choice, drop the towers and order new sets from the cards alone.
+
+## Common Misconceptions
+- A two-digit number like 11 is smaller than 8 because 1 is smaller than 8. (Eleven is one ten and one more, so it is greater than any one-digit number.)
+- You can order a list by comparing only the first two numbers. (Every number has to find its place. Keep picking the smallest one left until none remain.)
+- Greatest to least has to be worked out from scratch after you order least to greatest. (It uses the same numbers in reverse order. 3, 8, 11, 17 read backward is 17, 11, 8, 3.)
+
 ## Questions
 
 ```yaml

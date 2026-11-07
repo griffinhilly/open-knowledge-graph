@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Orthogonal polynomials (Legendre, Hermite, Laguerre, Chebyshev) form orthogonal bases with respect to weighted inner products. Each family corresponds to a domain and weight function: Legendre for [-1,1] with uniform weight, Hermite for ℝ with Gaussian weight, Laguerre for [0,∞) with exponential weight. Orthogonal polynomials are fundamental to Gaussian quadrature and spectral methods for PDEs.
 
+## How It's Best Learned
+Run Gram-Schmidt by hand on 1, x, x² over [−1, 1] with w(x) = 1. You get 1, x and x² − 1/3, a multiple of the Legendre P₂ = (3x² − 1)/2. Its roots ±1/√3 are the 2-point Gauss nodes. Repeat with the Chebyshev weight 1/√(1 − x²), where the integrals of 1 and x² are π and π/2, to get x² − 1/2. The new weight gives new polynomials and new nodes.
+
+## Common Misconceptions
+- Legendre polynomials are orthogonal on any interval. (Orthogonality depends on both the interval and the weight. On [0, 1] you need the shifted Legendre polynomials P_n(2x − 1).)
+- Each weight function has exactly one family of orthogonal polynomials. (The family is unique only up to scaling each P_n. Monic, orthonormal and standard Legendre normalizations differ by constant factors.)
+- Like any polynomial, P_n can have complex or repeated roots. (For a positive weight on an interval, the roots of P_n are real, distinct, and lie strictly inside the interval.)
+
 ## Questions
 
 ```yaml

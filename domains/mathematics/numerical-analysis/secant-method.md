@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 The secant method approximates Newton's method by replacing f'(x_n) with a finite difference: x_{n+1} = x_n - f(x_n)[x_n - x_{n-1}]/[f(x_n) - f(x_{n-1})]. It avoids computing derivatives, requiring only function values at two initial points. The secant method converges superlinearly (faster than linear, slower than quadratic) with order ≈ 1.618.
 
+## How It's Best Learned
+Run the secant method on f(x) = x² − 2 from x₀ = 1, x₁ = 2. The iterates are 4/3, 1.4, 1.414634 and 1.4142114, with errors of about 0.081, 0.014, 4.2 × 10⁻⁴ and 2.1 × 10⁻⁶. Check that each new error is close to 0.354 times the product of the previous two. That constant is f″/(2f′) at √2.
+
+## Common Misconceptions
+- The two starting points must bracket the root. (The secant method only needs two points to draw a line. They need not straddle the root, and later iterates do not keep a bracket.)
+- The secant method is the same as the method of false position. (False position keeps a bracketing pair and can slow to linear convergence. The secant method always uses the two most recent points.)
+- The formula is safe to run until the iterates agree. (Near convergence, f(xₙ) − f(xₙ₋₁) is a difference of tiny, nearly equal numbers. If the two values become equal, the formula divides by zero, so a stopping test is needed.)
+
 ## Questions
 
 ```yaml
@@ -34,7 +42,7 @@ The secant method approximates Newton's method by replacing f'(x_n) with a finit
   answer: 1
   explanation: "Newton's method uses the tangent line at xₙ, requiring only f(xₙ) and f'(xₙ). The secant method replaces f'(xₙ) with the finite difference [f(xₙ) − f(xₙ₋₁)] / [xₙ − xₙ₋₁]. This approximation of the slope requires two points on the curve. At startup, there is no previous iterate, so you must supply two starting points x₀ and x₁. Option D is wrong: unlike bisection, the secant method does not maintain a bracket and does not guarantee convergence."
 
-- question: "A function f(x) has an expensive-to-compute but analytically available derivative. Which root-finding method is most appropriate, and why?"
+- question: "A function f(x) has an analytically available derivative that costs much less to evaluate than f itself. Which root-finding method is most appropriate, and why?"
   type: multiple-choice
   options:
     - "Secant method — because it always uses fewer function evaluations regardless of derivative cost"
@@ -42,7 +50,7 @@ The secant method approximates Newton's method by replacing f'(x_n) with a finit
     - "Newton's method — the cheap derivative makes quadratic convergence dominant, minimizing total steps to full precision"
     - "Secant method — because avoiding the derivative is always safer than using it"
   answer: 2
-  explanation: "The secant method's advantage is specifically when computing f' is expensive relative to f. If the derivative is cheap, Newton's method is superior: its quadratic convergence (order 2) doubles the digits of accuracy per step, reaching 16-digit precision in roughly 5 iterations from a good start. The secant method would need 7–8 iterations for the same accuracy. When f and f' cost equally, Newton's wins on total computational work. Only when f' significantly exceeds f in cost does the secant method's per-step saving compensate for its lower convergence order."
+  explanation: "The secant method's advantage is specifically when computing f' is expensive relative to f. If the derivative is cheap, Newton's method is superior: its quadratic convergence (order 2) doubles the digits of accuracy per step, reaching 16-digit precision in roughly 5 iterations from a good start. The secant method would need 7–8 iterations for the same accuracy. The balance shifts as f' gets more expensive. When f and f' cost the same, two secant steps cost as much as one Newton step and multiply the correct digits by about 1.618² ≈ 2.6 instead of 2, so the secant method is then usually cheaper overall."
 
 - question: "The secant method converges faster than the bisection method, though it does not guarantee convergence from arbitrary starting points."
   type: true-false
@@ -57,7 +65,7 @@ The secant method approximates Newton's method by replacing f'(x_n) with a finit
 - question: "Explain why the secant method's convergence order is the golden ratio φ ≈ 1.618 rather than a simpler value like 1.5 or 2.0."
   type: short-answer
   answer: "The golden ratio emerges from the error recurrence. Near the root, |eₙ₊₁| ≈ C|eₙ||eₙ₋₁| for some constant C. To find the order α such that |eₙ| ~ |eₙ₋₁|^α, substitute |eₙ| ≈ |eₙ₋₁|^α into the recurrence: |eₙ₋₁|^α ≈ C|eₙ₋₁|^α · |eₙ₋₁|, which gives α = 1 + 1/α, or equivalently α² − α − 1 = 0. The positive solution is (1+√5)/2 = φ. The golden ratio is not arbitrary — it is the fixed point of this two-step recurrence."
-  explanation: "The golden ratio appears because the secant method couples two consecutive errors (it uses the two most recent iterates), while Newton's method couples only one. The recurrence α = 1 + 1/α defines the golden ratio uniquely among positive reals, making φ the natural and exact convergence order for this two-point structure. Any method using only one previous iterate in its error recurrence will generically have order 2 (Newton's) or order 1 (simple iterations)."
+  explanation: "The golden ratio appears because the secant method couples two consecutive errors (it uses the two most recent iterates), while Newton's method couples only one. The recurrence α = 1 + 1/α defines the golden ratio uniquely among positive reals, making φ the natural and exact convergence order for this two-point structure. Newton's method, by contrast, uses one previous iterate plus the exact derivative, which gives order 2."
 ```
 
 ## Explainer
@@ -68,4 +76,4 @@ A key structural difference from Newton's method is that the secant method requi
 
 The **convergence order** of the secant method is approximately φ = (1 + √5)/2 ≈ 1.618, the golden ratio. This sits between linear convergence (order 1, like bisection) and Newton's quadratic convergence (order 2). The golden ratio emerges from the error recurrence: letting eₙ = xₙ − r be the error at step n, the secant method satisfies |e_{n+1}| ≈ C|eₙ||eₙ₋₁| for some constant C near the root. To find the order α such that |eₙ| ~ C'|eₙ₋₁|^α, substitute |eₙ| ~ |eₙ₋₁|^α into the recurrence: |eₙ₋₁|^α ≈ C|eₙ₋₁|^α · |eₙ₋₁| requires α = 1 + 1/α, giving α² = α + 1 — the defining equation of the golden ratio.
 
-When should you choose the secant method over Newton's? Use the secant method when (1) computing f'(x) is significantly more expensive than computing f(x), (2) a closed-form derivative is unavailable, or (3) f is given only numerically. The trade-off is clear in terms of work per accuracy: Newton reaches 16-digit precision in roughly 5 iterations from a good start (quadratic convergence doubles the digits each step), while the secant method may need 7–8 iterations for the same accuracy. But if each derivative evaluation costs more than one function evaluation, the secant method's total computational cost can be lower. For functions where f and f' cost equally, Newton's is usually faster in practice.
+When should you choose the secant method over Newton's? Use the secant method when (1) computing f'(x) is significantly more expensive than computing f(x), (2) a closed-form derivative is unavailable, or (3) f is given only numerically. The trade-off is clear in terms of work per accuracy: Newton reaches 16-digit precision in roughly 5 iterations from a good start (quadratic convergence doubles the digits each step), while the secant method may need 7–8 iterations for the same accuracy. Iteration counts hide the cost per step, though. When f and f' cost the same, two secant steps cost as much as one Newton step and multiply the correct digits by about 1.618² ≈ 2.6 instead of 2, so the secant method usually does less total work. Newton's method wins when f' is much cheaper than f.

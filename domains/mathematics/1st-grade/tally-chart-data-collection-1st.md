@@ -25,6 +25,13 @@ status: validated
 ## Core Idea
 Tally marks (||||) record data quickly. Groups of 5 (||||/) make counting and reading easier. A tally chart organizes categories with their tallies (e.g., favorite color: red, blue, green) and helps answer 'how many?' questions.
 
+## How It's Best Learned
+Have the learner run a small survey. They write a question with three answer choices, ask about ten people, and make one mark in the right row as each person answers. When they reach the fifth mark in a row, it crosses the four before it. At the end they total each row and check that all the totals add up to the number of people asked.
+
+## Common Misconceptions
+- The crossing line is extra and does not count. (The crossing line is the fifth mark. Four marks with a line across them stand for 5.)
+- You draw five straight marks and then cross them. (Draw four straight marks, and make the fifth mark the crossing line. Crossing five marks would show 6.)
+
 ## Questions
 
 ```yaml

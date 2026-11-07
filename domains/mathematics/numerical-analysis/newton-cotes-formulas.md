@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Newton-Cotes formulas approximate ∫f(x)dx using weighted sums of f evaluated at equally-spaced points. Examples include the trapezoidal rule (2-point, O(h³) error) and Simpson's rule (3-point, O(h⁵) error), derived by integrating the Lagrange polynomial through sample points. Open formulas omit endpoints and are useful when f is singular or undefined at boundaries.
 
+## How It's Best Learned
+Derive Simpson's weights on [0, 1] by integrating the three Lagrange basis polynomials for nodes 0, 1/2, 1. You should get 1/6, 4/6, 1/6. Then test exactness: for x³ the rule gives (0 + 4·(1/8) + 1)/6 = 0.25, the exact value. For x⁴ it gives 0.2083 against the exact 0.2, so exactness stops at degree 3.
+
+## Common Misconceptions
+- The trapezoidal rule's error is O(h³), so halving h in the composite rule cuts the error by 8. (O(h³) is the error of one panel. Summing about 1/h panels gives a composite error of O(h²), so halving h cuts it by about 4.)
+- Composite Simpson's rule works with any number of subintervals. (Each Simpson panel covers two subintervals, so the composite rule needs an even number of them.)
+- Newton-Cotes weights are positive, like the trapezoidal and Simpson weights. (For larger numbers of points some weights turn negative, and the weighted sum then becomes sensitive to rounding and data errors.)
+
 ## Questions
 
 ```yaml
@@ -36,7 +44,7 @@ Newton-Cotes formulas approximate ∫f(x)dx using weighted sums of f evaluated a
     - "Simpson's rule uses adaptive step sizing that automatically improves for polynomial integrands"
     - "This is a coincidence specific to the interval [−1, 1] and does not hold for general intervals"
   answer: 1
-  explanation: "This 'superconvergence' of Simpson's rule is the key insight of this topic. The error term for Simpson's rule (derived via Taylor series analysis of the residual) involves the fourth derivative f⁽⁴⁾(ξ) for some ξ in the interval. For any cubic polynomial, the fourth derivative is identically zero—so the error term vanishes exactly, even though the interpolating polynomial is only quadratic. This symmetry-driven cancellation means Simpson's rule integrates one degree higher than expected. Option A is the most tempting misconception: there is no adaptive mechanism; it is purely a consequence of the error term structure."
+  explanation: "This 'superconvergence' of Simpson's rule is the key insight of this topic. The error term for Simpson's rule (derived via Taylor series analysis of the residual) involves the fourth derivative f⁽⁴⁾(ξ) for some ξ in the interval. For any cubic polynomial, the fourth derivative is identically zero—so the error term vanishes exactly, even though the interpolating polynomial is only quadratic. This symmetry-driven cancellation means Simpson's rule integrates one degree higher than expected. There is no doubling of effective degree (option A) and no adaptive mechanism (option C); it is purely a consequence of the error term structure."
 
 - question: "A student wants very high accuracy for a smooth integrand over [0, 1] and decides to use a single 10-point Newton-Cotes formula instead of applying Simpson's rule repeatedly over many small subintervals. What problem are they likely to encounter?"
   type: multiple-choice
@@ -56,7 +64,7 @@ Newton-Cotes formulas approximate ∫f(x)dx using weighted sums of f evaluated a
 - question: "Higher-order Newton-Cotes formulas—those using more equally-spaced evaluation points—typically produce more accurate results than lower-order formulas like Simpson's rule for the same interval."
   type: true-false
   answer: false
-  explanation: "False. This is the misconception that Runge's phenomenon refutes. For high-degree Newton-Cotes formulas, the Lagrange interpolating polynomial oscillates wildly near the endpoints of equally-spaced nodes, causing the quadrature weights to become large and alternating in sign. The resulting formula can produce wildly inaccurate results even for smooth functions. In practice, Newton-Cotes formulas beyond degree 4 (Simpson's 3/8 rule) are rarely used directly. The preferred approach is composite quadrature: applying low-degree formulas over many small subintervals."
+  explanation: "False. This is the misconception that Runge's phenomenon refutes. For high-degree Newton-Cotes formulas, the Lagrange interpolating polynomial oscillates wildly near the endpoints of equally-spaced nodes, causing the quadrature weights to become large and alternating in sign. The resulting formula can produce wildly inaccurate results even for smooth functions. In practice, Newton-Cotes formulas beyond degree 4 (Boole's rule) are rarely used directly. The preferred approach is composite quadrature: applying low-degree formulas over many small subintervals."
 
 - question: "Why are composite quadrature methods preferred over single high-order Newton-Cotes formulas in practice, even when high accuracy is required?"
   type: short-answer

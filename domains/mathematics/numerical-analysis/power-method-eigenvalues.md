@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 The power method finds the largest (in absolute value) eigenvalue and its eigenvector by repeatedly multiplying a random vector by the matrix: v^{(k+1)} = Av^{(k)} / ‖Av^{(k)}‖. Convergence is geometric with rate determined by the ratio of the two largest eigenvalues. Simple to implement, the power method is practical for large sparse matrices but slow when eigenvalues are close.
 
+## How It's Best Learned
+Iterate by hand on A = [[2, 1], [1, 2]], with eigenvalues 3 and 1, from v = (1, 0). Without normalizing you get (2, 1), (5, 4), (14, 13), (41, 40), turning toward (1, 1). The Rayleigh quotients 2.8, 2.976, 2.997 have errors that shrink by about 9 each step. The eigenvector error shrinks by about 3, so for a symmetric matrix the eigenvalue estimate settles faster than the vector.
+
+## Common Misconceptions
+- The power method finds the largest eigenvalue. (It finds the eigenvalue of largest absolute value. For eigenvalues −10 and 5 it finds −10.)
+- The power method converges for any matrix. (If two different eigenvalues tie for largest magnitude, such as 2 and −2 or a complex conjugate pair, the iterates keep oscillating and settle on no single direction.)
+- When the normalized iterates flip sign every step, the method has failed. (A negative dominant eigenvalue flips the sign each step. The direction still converges, and the Rayleigh quotient converges to the negative eigenvalue.)
+
 ## Questions
 
 ```yaml
@@ -66,6 +74,6 @@ You already know that eigenvalues and eigenvectors satisfy Av = λv: multiplying
 
 The reason this works becomes clear when you decompose the starting vector in the eigenvector basis. Write v⁰ = c₁v₁ + c₂v₂ + ... + cₙvₙ. After k applications of A: Aᵏv⁰ = c₁λ₁ᵏv₁ + c₂λ₂ᵏv₂ + ... = λ₁ᵏ(c₁v₁ + c₂(λ₂/λ₁)ᵏv₂ + ...). Since |λ₂/λ₁| < 1 (λ₁ is strictly dominant), every term except the first shrinks to zero. The iteration is dominated by the v₁ component, which is exactly the eigenvector you want. The normalization at each step prevents the vector from growing to infinity or shrinking to zero — it keeps the direction visible.
 
-The **convergence rate** is |λ₂/λ₁|: the ratio of the second-largest to the largest eigenvalue. If this ratio is small (eigenvalues well-separated), convergence is fast. If it is close to 1 (eigenvalues nearly equal), convergence is very slow — the second component decays slowly and the iteration must work longer to wash it out. The **Rayleigh quotient** μ = (v^(k))ᵀ A v^(k) / (v^(k))ᵀ v^(k) gives an estimate of λ₁ at each step and converges quadratically once the eigenvector direction is approximately right.
+The **convergence rate** is |λ₂/λ₁|: the ratio of the second-largest to the largest eigenvalue. If this ratio is small (eigenvalues well-separated), convergence is fast. If it is close to 1 (eigenvalues nearly equal), convergence is very slow — the second component decays slowly and the iteration must work longer to wash it out. The **Rayleigh quotient** μ = (v^(k))ᵀ A v^(k) / (v^(k))ᵀ v^(k) gives an estimate of λ₁ at each step. For a symmetric matrix its error shrinks like |λ₂/λ₁|²ᵏ, the square of the eigenvector error, so it settles about twice as fast in digits.
 
 For large sparse matrices from real applications — finite element models, network graphs, Google's PageRank — A might be millions by millions, but applying A to a vector is cheap (only the nonzero entries matter). This is where the power method shines: each iteration requires only a single matrix-vector multiply. The method can be extended via **deflation**: once λ₁ and v₁ are found, project out v₁ from the matrix and apply the method again to find the next eigenvalue. The QR algorithm — a much more sophisticated technique — can be understood in part as a way of applying power-method logic to all eigenvalues simultaneously and efficiently.

@@ -17,7 +17,15 @@ status: validated
 # QR Algorithm
 
 ## Core Idea
-The QR algorithm iteratively computes QR decomposition A_k = Q_k R_k and sets A_{k+1} = R_k Q_k, creating a sequence similar to A_k. This sequence converges to a Schur form (upper triangular for real matrices), revealing all eigenvalues on the diagonal. The QR algorithm is highly efficient, stable, and the foundation of modern eigenvalue solvers.
+The QR algorithm iteratively computes QR decomposition A_k = Q_k R_k and sets A_{k+1} = R_k Q_k, creating a sequence similar to A_k. This sequence converges to a Schur form (upper triangular, or block upper triangular for real matrices with complex eigenvalues), revealing all eigenvalues on the diagonal. The QR algorithm is highly efficient, stable, and the foundation of modern eigenvalue solvers.
+
+## How It's Best Learned
+Do two unshifted steps on A = [[2, 1], [1, 2]], whose eigenvalues are 3 and 1. The first QR step gives A₁ = [[2.8, 0.6], [0.6, 1.2]], and the second gives about [[2.976, 0.220], [0.220, 1.024]]. Check that each iterate keeps trace 4 and determinant 3. The top diagonal entries match the power method's Rayleigh quotients on this matrix, and the off-diagonal entry shrinks by about 1/3 per step.
+
+## Common Misconceptions
+- The QR algorithm is the same thing as a QR decomposition. (The decomposition is one factorization. The algorithm repeats factor-and-swap many times and uses the decomposition as its inner step.)
+- Unshifted QR converges for every matrix. (It stalls when eigenvalues share a magnitude. For [[0, 1], [1, 0]], with eigenvalues 1 and −1, Q = A and R = I, so every iterate equals A.)
+- The accumulated Q always holds the eigenvectors. (Its columns are Schur vectors. They are eigenvectors when A is symmetric, but for a general matrix they span invariant subspaces instead.)
 
 ## Questions
 

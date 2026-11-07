@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Using a ruler with standard units (inches or centimeters) introduces precise, conventional measurement. Students learn to align the zero mark and read the correct ending point accurately.
 
+## How It's Best Learned
+Have the learner build a paper ruler first: lay 1-inch tiles along a strip, trace each one, and write 1, 2, 3 at the end of each tile. This shows that each number counts the spaces before it. Then measure a crayon with the paper ruler and a real ruler side by side, with the crayon's end at 0 on both.
+
+## Common Misconceptions
+- You line up the end of the ruler with the object. (Many rulers have extra plastic or wood before the 0 mark. Line up the 0 mark, not the edge.)
+- The length is the number where the object ends, wherever it starts. (That is true only when the object starts at 0. If it starts at 2 and ends at 6, it is 4 units long.)
+- The numbers count the tick marks. (Each number tells how many whole units lie between 0 and that mark, so the length is in the spaces.)
+- Inches and centimeters give the same number for one object. (A centimeter is shorter than an inch, so the centimeter number is larger.)
+
 ## Questions
 
 ```yaml

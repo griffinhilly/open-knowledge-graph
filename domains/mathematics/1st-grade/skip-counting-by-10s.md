@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Skip counting by 10s (10, 20, 30...) reveals the base-ten structure of our number system. Each number is 10 more than the previous, connecting directly to place value.
 
+## How It's Best Learned
+Bundle drinking straws in groups of ten with rubber bands. The learner slides one bundle across the table at a time and says the new total: 10, 20, 30. Then they unbundle one group and count it by ones to confirm it holds 10. Finish on a hundred chart by tracing the right-hand column from 10 down to 100.
+
+## Common Misconceptions
+- When counting by 10s, you say every number in between, only faster. (You jump straight from one decade number to the next. From 10 you land on 20, skipping the nine numbers from 11 to 19.)
+- "Twenty" means two of something small, like two blocks. (Twenty is two groups of ten, which is 20 single blocks.)
+- Counting by 10s and counting by ones give different totals for the same pile. (Both methods count the same objects, so they reach the same total. Counting by 10s is faster.)
+
 ## Questions
 
 ```yaml

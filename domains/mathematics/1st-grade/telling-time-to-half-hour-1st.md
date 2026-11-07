@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Students extend their time-reading skills to include half-hours, when the minute hand points to 6. They learn that a half-hour is 30 minutes and comes between two whole hours.
 
+## How It's Best Learned
+Use a geared practice clock, where turning the minute hand also moves the hour hand. Set it to 4:00. The learner slowly turns the minute hand from the 12 to the 6 and watches the hour hand creep halfway from 4 toward 5. Ask which number the hour hand has passed and which it has not reached. Then read the time as 4:30, "half past four."
+
+## Common Misconceptions
+- The minute hand on the 6 means 6 minutes, so the time is 4:06. (When the minute hand points to the 6, 30 minutes have passed, so the time is 4:30.)
+- At a half-hour, you read the number the hour hand is heading toward. (Read the hour the hand has already passed. Between 4 and 5 it is 4:30, not 5:30.)
+- The hour hand stays on the hour number until the minute hand gets back to 12. (The hour hand moves the whole time. At half past, it sits about halfway to the next number.)
+
 ## Questions
 
 ```yaml
@@ -36,7 +44,7 @@ Students extend their time-reading skills to include half-hours, when the minute
     - "4:06"
     - "5:06"
   answer: 0
-  explanation: "When the minute hand points to 6, the time is a half-hour (:30). To find the hour, look at the hour hand — at a half-hour it is between two numbers. The smaller (earlier) of those two numbers is the current hour. Here the hour hand is between 4 and 5, so the hour is 4. The time is 4:30. Option B is the most common mistake: reading the larger number (5) instead of the smaller (4)."
+  explanation: "When the minute hand points to 6, the time is a half-hour (:30). To find the hour, look at the hour hand — at a half-hour it is between two numbers. The number the hour hand has already passed is the current hour. Here the hour hand is between 4 and 5, so the hour is 4. The time is 4:30. Option B is the most common mistake: reading the larger number (5) instead of the smaller (4)."
 
 - question: "At a half-hour, the hour hand is between 7 and 8. A student writes the time as 8:30. What mistake did they make?"
   type: multiple-choice
@@ -46,7 +54,7 @@ Students extend their time-reading skills to include half-hours, when the minute
     - "They added the hour numbers together incorrectly"
     - "They confused the hour hand and minute hand"
   answer: 0
-  explanation: "At a half-hour, the hour hand has passed the earlier hour but not yet reached the next one. The current hour is always the smaller of the two numbers the hour hand sits between — in this case, 7. The hour hand hasn't reached 8 yet, so the time is 7:30, not 8:30. This is the defining challenge of reading half-hour times."
+  explanation: "At a half-hour, the hour hand has passed the earlier hour but not yet reached the next one. The current hour is the number the hour hand has already passed — in this case, 7. The hour hand hasn't reached 8 yet, so the time is 7:30, not 8:30. This is the defining challenge of reading half-hour times."
 
 - question: "At 9:30, the minute hand points to the 3."
   type: true-false
@@ -61,15 +69,15 @@ Students extend their time-reading skills to include half-hours, when the minute
 - question: "Why does the hour hand sit between two numbers at a half-hour, instead of pointing directly at a number like it does at the top of the hour?"
   type: short-answer
   answer: "The hour hand moves continuously, not in jumps. At the top of the hour it points at a number, but then it keeps moving toward the next number over the next 60 minutes. At a half-hour, exactly 30 minutes have passed — the hour hand has traveled halfway to the next number, so it sits in between."
-  explanation: "Understanding that the hour hand moves gradually (not by jumping from number to number) is the key to reading half-hour times. At :30 the hour hand is always roughly halfway between two numbers, which is why the rule 'read the smaller of the two numbers' works reliably."
+  explanation: "Understanding that the hour hand moves gradually (not by jumping from number to number) is the key to reading half-hour times. At :30 the hour hand is always roughly halfway between two numbers, which is why the rule 'read the number the hour hand has passed' works."
 ```
 
 ## Explainer
 
 You already know how to read a clock when the minute hand points straight up to the 12 — that means it is exactly on the hour, like 3:00 or 7:00. Now the minute hand has a new important stopping place: the 6 at the bottom of the clock. When the minute hand points to the 6, exactly **30 minutes** have passed since the last hour. We call this the **half-hour**, because 30 minutes is half of 60 minutes (one full hour).
 
-Think of a clock face like a circle divided in two halves. The top half — from 12 around to 6 — takes 30 minutes for the minute hand to travel. When the minute hand completes that top journey and arrives at the 6, we say it is "half past" the hour. So if the hour hand is pointing near the 3 and the minute hand points to the 6, the time is **3:30** — half past three, or "thirty minutes after three."
+Think of a clock face like a circle divided in two halves. The right half — from 12 around to 6 — takes 30 minutes for the minute hand to travel. When the minute hand completes that trip and arrives at the 6, we say it is "half past" the hour. So if the hour hand is pointing near the 3 and the minute hand points to the 6, the time is **3:30** — half past three, or "thirty minutes after three."
 
-Here is an easy way to read a half-hour time: look at the hour hand first. At a half-hour, the hour hand will be between two numbers — it has started moving toward the next hour but has not reached it yet. The smaller of the two numbers the hour hand is between is the current hour. Then, because the minute hand is on the 6, you write :30. So if the hour hand is between 7 and 8, the time is 7:30.
+Here is an easy way to read a half-hour time: look at the hour hand first. At a half-hour, the hour hand will be between two numbers — it has started moving toward the next hour but has not reached it yet. The number the hour hand has already passed is the current hour. Then, because the minute hand is on the 6, you write :30. So if the hour hand is between 7 and 8, the time is 7:30.
 
 Practice by thinking about your own day. If breakfast is at 7:00 and you finish eating 30 minutes later, breakfast ends at 7:30. If your favorite show starts at 4:00 and runs for 30 minutes, it ends at 4:30. Connecting these half-hour times to real events helps the idea stick — the clock is just a way to describe where you are in your day.

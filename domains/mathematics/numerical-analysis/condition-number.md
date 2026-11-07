@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The condition number measures how much the solution changes relative to changes in input data. A large condition number indicates an ill-conditioned problem where small input perturbations cause large output changes. The relative condition number κ(x) = |x f'(x) / f(x)| quantifies this sensitivity for a general function f.
 
+## How It's Best Learned
+Pick f(x) = x − 1 at x = 1.001, where κ = 1.001/0.001 ≈ 1000. Then check it numerically: raise x by a relative 10⁻⁶ to 1.001001001, and f moves from 0.001 to 0.001001001, a relative change of about 10⁻³. Repeat at x = 5, where κ = 1.25, and compare the two ratios.
+
+## Common Misconceptions
+- A function has one condition number. (κ(x) depends on the input point. Subtracting 1 is well conditioned at x = 5 and badly conditioned at x = 1.001.)
+- A large derivative means the problem is ill-conditioned. (The relative condition number rescales by x/f(x). For f(x) = eˣ, f′(10) is about 22,000, but κ(10) = 10.)
+- A small derivative means the problem is well conditioned. (For f(x) = x − 1, f′ = 1 everywhere, yet κ grows without bound as x approaches 1 because f(x) approaches 0.)
+- An ill-conditioned problem is a sign of a bad algorithm. (Conditioning is measured on the exact mathematical map before any algorithm is chosen.)
+
 ## Questions
 
 ```yaml

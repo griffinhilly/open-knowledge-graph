@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 Mental math strategies for subtraction include counting back (for small amounts), using related addition facts, and decomposing numbers. Students learn that subtraction can be thought of and solved in multiple ways, promoting flexibility and fluency.
 
+## How It's Best Learned
+Draw 13 − 9 on an empty number line two ways. First, jump back nine single steps from 13. Then start at 9, jump 1 to reach 10, and jump 3 more to reach 13. Both ways give 4, but the second way takes two jumps instead of nine. Repeat with 12 − 3, where counting back is the quicker path.
+
+## Common Misconceptions
+- When counting back, you say the starting number as the first count. (For 12 − 3, the counts are 11, 10, 9. Saying "12, 11, 10" lands one too high.)
+- When you count up, the answer is the number you land on. (The answer is how many steps you took. For 12 − 9, you land on 12 after 3 steps, so the answer is 3.)
+- You can swap the numbers in subtraction like in addition. (13 − 9 and 9 − 13 are different problems. Addition lets you swap the order without changing the answer, but subtraction does not.)
+
 ## Questions
 
 ```yaml

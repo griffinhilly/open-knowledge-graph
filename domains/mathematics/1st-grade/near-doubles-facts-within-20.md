@@ -31,6 +31,11 @@ Near doubles are facts where one addend is one more than the other, like 5 + 6, 
 ## How It's Best Learned
 Start with known doubles, then show how near-doubles are 'just one more.' Use visual models like ten-frames or number lines to demonstrate this relationship.
 
+## Common Misconceptions
+- The near-double of 7 + 8 is 7 + 7, so the answer is 14. (The double is only the starting point. Add one more to get 15.)
+- You must double the larger number and add one. (Doubling the larger number gives one too many. For 7 + 8, either do 7 + 7 + 1 or 8 + 8 − 1. Both give 15.)
+- Near doubles work for any two numbers that are close, like 6 + 8. (Six and eight are two apart, so 6 + 6 needs two more, not one. The one-more rule fits only addends that are one apart.)
+
 ## Questions
 
 ```yaml

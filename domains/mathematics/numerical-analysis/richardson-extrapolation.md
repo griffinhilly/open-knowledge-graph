@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 Richardson extrapolation combines numerical estimates at different step sizes to cancel leading-order error terms. If an estimate has error c₁h + c₂h² + ..., combining results at h and h/2 eliminates the O(h) term. This acceleration technique generalizes to any problem with known asymptotic error expansions and is the foundation for Romberg integration.
 
+## How It's Best Learned
+Apply one step to the centered difference of eˣ at 0, where D(h) = sinh(h)/h and the exact derivative is 1. D(0.2) ≈ 1.006680 and D(0.1) ≈ 1.001668. Because the error has only even powers, combine them as (4D(0.1) − D(0.2))/3 ≈ 0.9999967. The error drops from about 1.7 × 10⁻³ to about 3 × 10⁻⁶, matching the predicted −h⁴/480 with h = 0.2.
+
+## Common Misconceptions
+- The weights 2 and −1 work for every method. (They cancel an O(h) term. For a leading error of order hᵖ with a halved step, the combination is (2ᵖA(h/2) − A(h))/(2ᵖ − 1).)
+- Extrapolation helps at any step size. (The cancellation assumes h is small enough that the leading error term dominates. If h is too large, the combined estimate can be worse.)
+- Richardson extrapolation gives a better answer but no information about the error. (The gap between A(h/2) and the extrapolated value is a practical estimate of the error in A(h/2).)
+
 ## Questions
 
 ```yaml
@@ -46,7 +54,7 @@ Richardson extrapolation combines numerical estimates at different step sizes to
 - question: "Richardson extrapolation improves accuracy by using results already computed at two step sizes, requiring no additional function evaluations beyond those two estimates."
   type: true-false
   answer: true
-  explanation: "This is the key practical advantage: Richardson extrapolation is 'free' in the sense that once you have A(h) and A(h/2), the improved estimate 2A(h/2) − A(h) requires only arithmetic, no new function evaluations. Compare this to the naive approach of simply using a smaller step size h/2 — that achieves the same O(h²) error but at the cost of recomputing the estimate from scratch. Richardson extrapolation recycles existing work and extracts higher accuracy from it."
+  explanation: "This is the key practical advantage: Richardson extrapolation is 'free' in the sense that once you have A(h) and A(h/2), the improved estimate 2A(h/2) − A(h) requires only arithmetic, no new function evaluations. Compare this to the naive approach of simply shrinking the step size: A(h/2) alone still has O(h) error, and matching the extrapolated accuracy that way would need a much smaller step and many more evaluations. Richardson extrapolation recycles existing work and extracts higher accuracy from it."
 
 - question: "Richardson extrapolation works by averaging two numerical estimates, giving each estimate equal weight of 1/2."
   type: true-false

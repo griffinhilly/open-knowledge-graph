@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 A number line represents numbers in order on a line, showing their sequence and spacing. Number lines help visualize addition and subtraction as movements and support skip-counting.
 
+## How It's Best Learned
+Tape a 0–20 number line on the floor with evenly spaced marks. The learner stands on 7 and takes 4 steps to the right, saying "one, two, three, four" with each step, and lands on 11. Then they walk 12 − 4 to the left. Once walking feels easy, move to a paper number line and draw the hops as arcs.
+
+## Common Misconceptions
+- When you hop, you count the number you start on as "one." (The first hop lands on the next number. Starting at 7 and counting 7 as "one" lands you on 10 for 7 + 4, which is one short.)
+- The marks can be spaced any way you like. (The marks must be evenly spaced, so each hop of one is the same length everywhere on the line.)
+- A number line starts at 1. (This number line starts at 0. The distance from 0 to 1 is one hop, just like every other hop.)
+
 ## Questions
 
 ```yaml

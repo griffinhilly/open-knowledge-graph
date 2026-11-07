@@ -32,6 +32,14 @@ status: validated
 ## Core Idea
 Skip counting by 2s (2, 4, 6, 8, 10...), 5s (5, 10, 15, 20...), and 10s (10, 20, 30...) reveals patterns and makes counting faster. These patterns are stepping stones to understanding multiplication and help with grouping and arrays.
 
+## How It's Best Learned
+On a hundred chart, the learner shades the 2s count in one color, circles the 5s count, and marks the 10s count with an X. Then ask what they notice. The 2s make stripes, the 5s end in 5 or 0, and every X is also shaded and circled. Pair this with real groups, such as counting pairs of shoes by 2s.
+
+## Common Misconceptions
+- Skip counting is a chant to memorize, with no rule behind it. (Each number is the one before plus the same amount. If you forget the next number in the 5s count, add 5 to the last one.)
+- Skip counting by 5s only works if you start at 5. (You can count by 5s from any number. Starting at 3 gives 3, 8, 13, 18, and each step still adds 5.)
+- The last number you say is how many groups you counted. (The last number is the total. Counting 5, 10, 15, 20 means 20 things in 4 groups of 5.)
+
 ## Questions
 
 ```yaml

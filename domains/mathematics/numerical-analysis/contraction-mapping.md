@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 The contraction mapping theorem (Banach fixed-point theorem) guarantees that if g is a contraction with Lipschitz constant L < 1 on a complete metric space, then g has a unique fixed point and iteration x_{n+1} = g(x_n) converges to it with exponential rate. This theorem justifies fixed-point and iterative methods throughout numerical analysis.
 
+## How It's Best Learned
+Check both hypotheses on one concrete map. For g(x) = cos x on [0, 1], show that g maps [0, 1] into [0.540, 1] and that |g′(x)| ≤ sin 1 ≈ 0.841. Then iterate from 0: 1, 0.540, 0.858, 0.654, 0.794, and so on toward 0.739. Compare the observed errors with the a priori bound Lⁿ/(1 − L) · |x₁ − x₀|.
+
+## Common Misconceptions
+- If |g′(x)| < 1 at every point, g is a contraction. (The bound must be a single L < 1. On [1, ∞), g(x) = x + 1/x has g′(x) = 1 − 1/x² < 1 everywhere, yet g has no fixed point.)
+- A contraction on a set automatically has its fixed point in that set. (g must also map the set into itself. g(x) = x/2 + 1 is a contraction, but on [0, 1] it sends 1 to 1.5, and its fixed point 2 lies outside.)
+- The theorem only promises convergence from starting points near the fixed point. (On the whole complete space where g is a contraction, iteration converges from every starting point.)
+
 ## Questions
 
 ```yaml

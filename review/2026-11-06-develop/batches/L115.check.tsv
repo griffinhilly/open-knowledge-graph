@@ -1,0 +1,38 @@
+domains/history/medieval-world/mediterranean-medieval-merchant-networks.md	how	4	0	ok
+domains/history/medieval-world/mediterranean-medieval-merchant-networks.md	mis	8	0	ok
+domains/history/medieval-world/mendicant-orders-religious-reform.md	how	4	0	ok
+domains/history/medieval-world/mendicant-orders-religious-reform.md	mis	8	0	ok
+domains/history/medieval-world/monastic-scriptoria-knowledge-preservation.md	how	4	0	ok
+domains/history/medieval-world/monastic-scriptoria-knowledge-preservation.md	mis	6	0	ok	Not fixed: Core Idea credits Western monastic scribes with "nearly all surviving Greek" literature, but Greek texts came mainly through Byzantine copyists.
+domains/history/medieval-world/mongol-administration-governance.md	how	4	0	ok
+domains/history/medieval-world/mongol-administration-governance.md	mis	6	0	ok
+domains/history/medieval-world/normans-norse-settlement-emergence.md	how	3	0	ok
+domains/history/medieval-world/normans-norse-settlement-emergence.md	mis	6	1	fixed	Bullet 1 called the settlers a "ruling minority". Historians debate denser peasant settlement in the Pays de Caux and Cotentin, so it now says "a minority who mixed and intermarried". Not fixed: old Q2 says Normans "sponsored" the First Crusade; they took part in it.
+domains/history/medieval-world/papal-authority-and-reform.md	how	3	0	ok
+domains/history/medieval-world/papal-authority-and-reform.md	mis	6	1	fixed	Bullet 3's belief ("popes had always run the Church from Rome") did not match its correction, which is about who chose the pope. Belief reworded to "always chosen by the Church alone, free of outside control". The correction was accurate (1059 decree).
+domains/history/medieval-world/peasant-revolt-social-resistance.md	how	3	0	ok
+domains/history/medieval-world/peasant-revolt-social-resistance.md	mis	6	0	ok
+domains/history/medieval-world/pilgrimage-and-devotion.md	how	3	0	ok
+domains/history/medieval-world/pilgrimage-and-devotion.md	mis	6	0	ok
+domains/history/medieval-world/sacred-art-iconography-theology.md	how	3	0	ok
+domains/history/medieval-world/sacred-art-iconography-theology.md	mis	8	0	ok	Bullet 3 (color meanings varied) is correct but clashed with an old Explainer overclaim; the Explainer was fixed instead (see old:ex).
+domains/history/medieval-world/sacred-art-iconography-theology.md	old:ex	1	1	fixed	The Explainer said colors were "so standardized that viewers identified figures by color before face". Changed to "became conventions that helped viewers identify figures". Mary's blue became standard only from about the 12th century.
+domains/history/medieval-world/scholastic-inquiry-logical-method.md	how	3	0	ok
+domains/history/medieval-world/scholastic-inquiry-logical-method.md	mis	6	0	ok
+domains/history/medieval-world/scholastic-inquiry-logical-method.md	old:q:0:explanation	1	1	fixed	Said objections were answered "in the responsio". The replies come after the responsio (the file's own Explainer says so). Not fixed: the Explainer says Aristotle's logical works came "through Arabic intermediaries", but the logic came mostly from Greek via Boethius and James of Venice.
+domains/history/medieval-world/scholasticism-medieval-thought.md	how	4	0	ok
+domains/history/medieval-world/scholasticism-medieval-thought.md	mis	6	0	ok
+domains/history/medieval-world/serfdom-medieval-unfree-peasantry.md	how	4	0	ok
+domains/history/medieval-world/serfdom-medieval-unfree-peasantry.md	mis	8	0	ok	Not fixed: old Q0, Q1, Q2 and Q4 claim as an absolute that serfs could never be sold apart from the land. English villeins were sometimes sold personally, and later Russian serfs commonly were. Fixing this needs a rewrite across several questions.
+domains/history/medieval-world/subsistence-agriculture-famine-crisis.md	how	4	0	ok	Arithmetic checked: 40 to 25 is -37.5%; food 20 to 5 is -75%.
+domains/history/medieval-world/subsistence-agriculture-famine-crisis.md	mis	6	0	ok
+domains/history/medieval-world/subsistence-agriculture-famine-crisis.md	old:q:1:explanation	1	1	fixed	Said the Black Death "arrived 25 years after the famine began". 1315 to 1347 is 32 years. Changed to "about 25 years after the famine ended" (1322 to 1347). Not fixed: the claim that famine weakened immunity and raised plague mortality is contested but is stated as settled in Q3 and the Explainer.
+domains/history/medieval-world/troubadour-courtly-love-literature.md	how	3	0	ok
+domains/history/medieval-world/troubadour-courtly-love-literature.md	mis	8	1	fixed	Bullet 3 implied the troubadours never used the term. Occitan "cortez'amors" is attested, if rarely. Now reads "usually spoke of fin'amor" and credits Gaston Paris (1883) with popularizing "courtly love".
+domains/history/medieval-world/troubadour-courtly-love-literature.md	old:q:2:explanation	1	1	fixed	Said the Albigensian Crusade "ended troubadour culture". Troubadours were active until the late 13th century (e.g. Guiraut Riquier). Now reads "hastened the decline of".
+domains/history/medieval-world/urban-burgher-merchant-class.md	how	3	0	ok
+domains/history/medieval-world/urban-burgher-merchant-class.md	mis	8	0	ok	Not fixed: old Q2's explanation cites "The Explainer explicitly states", which refers to the page itself.
+domains/history/medieval-world/urban-burgher-merchant-class.md	old:ex	1	1	fixed	Called "Town air makes you free" a "contemporary saying". The phrase (Stadtluft macht frei) is a 19th-century summary of the medieval year-and-a-day principle. Reworded.
+domains/history/medieval-world/women-agency-medieval-society.md	how	3	0	ok
+domains/history/medieval-world/women-agency-medieval-society.md	mis	8	0	ok
+domains/history/medieval-world/women-agency-medieval-society.md	old:ex	1	1	fixed	Said "canon lawyers" called it coverture. Coverture is an English common-law doctrine; changed to "English common lawyers".

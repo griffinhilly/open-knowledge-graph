@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Machine epsilon is the smallest positive number such that 1 + ε ≠ 1 in floating point arithmetic, quantifying the relative precision of a computer's number system. It determines the accuracy threshold for all numerical computations. For double-precision arithmetic, machine epsilon is approximately 2.22 × 10⁻¹⁶.
 
+## How It's Best Learned
+Find ε by experiment. Start with e = 1 and halve it while 1 + e/2 > 1. In double precision the loop stops at e = 2⁻⁵² ≈ 2.22 × 10⁻¹⁶. Then compare (1 + 2⁻⁵³) + 2⁻⁵³, which returns 1, with 1 + (2⁻⁵³ + 2⁻⁵³), which returns 1 + 2⁻⁵². The same two additions in a different order give different answers.
+
+## Common Misconceptions
+- Machine epsilon is the largest absolute error a stored number can have. (It is a relative measure. Near 10¹² the gap between doubles is about 10⁻⁴, far larger than 2.22 × 10⁻¹⁶.)
+- Machine epsilon and unit roundoff are the same number. (With round-to-nearest, the unit roundoff u is ε_mach/2. Some texts use the name "machine epsilon" for u, so check which convention a source uses.)
+- Floating-point addition is associative, like real addition. (Each partial sum is rounded, so grouping matters. Adding many tiny terms to 1 one at a time can lose them all, while summing them first keeps their total.)
+
 ## Questions
 
 ```yaml

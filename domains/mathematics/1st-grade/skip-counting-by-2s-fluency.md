@@ -30,13 +30,21 @@ status: validated
 ## Core Idea
 Skip counting by 2s (2, 4, 6, 8, 10, ...) helps students recognize patterns, understand even numbers, and develop a foundation for multiplication concepts. Fluency with skip counting by 2s makes it easier to count objects arranged in pairs.
 
+## How It's Best Learned
+Once the learner can say 2 to 20, stretch the count. Start at a number other than 2, such as 14, and count on to 40. Then count back by 2s from 30. Use a real pair-count as a check: line up shoes and count them by 2s, then confirm by counting each shoe. Keep a hundred chart nearby for the decade crossings.
+
+## Common Misconceptions
+- After 18 comes 19 when counting by 2s. (Each step adds 2, so after 18 comes 20. Crossing into a new ten is where this slip often happens.)
+- Counting by 2s only works from 0 or 2. (You can start anywhere. Starting at 1 gives 1, 3, 5, 7, which are the odd numbers.)
+- Fluency means saying the list very fast from 2 to 20. (Fluency also means starting at any number, counting backward, and using the count to total real pairs.)
+
 ## Questions
 
 ```yaml
 - question: "A student skip counts by 2s and says: '2, 4, 6, 8, 11, 12.' What went wrong at step 5?"
   type: multiple-choice
   options:
-    - "She added 3 instead of 2, landing on 11 — an odd number"
+    - "She added 3 instead of 2, so she should have said 9"
     - "She skipped a number and should have said 10"
     - "She said 11 instead of 10 because she added 3 instead of 2; skip counting by 2s never lands on an odd number"
     - "Nothing went wrong — 11 is close enough"
@@ -53,7 +61,7 @@ Skip counting by 2s (2, 4, 6, 8, 10, ...) helps students recognize patterns, und
   answer: 1
   explanation: "Skip counting by 2s produces 2, 4, 6, 8, 10, ... and so does multiplying 2 by 1, 2, 3, 4, 5, ... They are identical sequences. This means that fluency with skip counting by 2s is the same as having the 2-times table memorized. Understanding this connection makes multiplication feel like something you already know."
 
-- question: "When you skip count by 2s, you say most counting number (1, 2, 3, 4, 5, ...)."
+- question: "When you skip count by 2s, you say every counting number (1, 2, 3, 4, 5, ...)."
   type: true-false
   answer: false
   explanation: "False. Skip counting by 2s means you jump over every other number, landing only on even numbers: 2, 4, 6, 8, 10 ... You never say the odd numbers (1, 3, 5, 7, 9...). That is why it is called 'skip' counting — you skip every other number."
