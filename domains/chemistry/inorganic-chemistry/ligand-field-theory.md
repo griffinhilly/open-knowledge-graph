@@ -52,7 +52,7 @@ Draw three small energy diagrams side by side for one octahedral metal: a sigma-
 - question: "Ligand field theory predicts that halide ligands (F⁻, Cl⁻, Br⁻, I⁻) are weak-field ligands because their filled p-orbitals act as pi-donors, raising the energy of the metal t₂g orbitals and decreasing Δ."
   type: true-false
   answer: true
-  explanation: "Halides have filled p-orbitals perpendicular to the metal-ligand bond axis. These orbitals have the correct symmetry to overlap with the metal t₂g orbitals. Since the ligand p-orbitals are filled, electron density is donated from ligand to metal t₂g, raising the t₂g energy. This decreases the t₂g-eg gap (Δ), making halides weak-field ligands. The effect is strongest for larger, more polarizable halides (I⁻ > Br⁻ > Cl⁻ > F⁻), which is why the spectrochemical series places I⁻ at the very bottom."
+  explanation: "Halides have filled p-orbitals perpendicular to the metal-ligand bond axis. These orbitals have the correct symmetry to overlap with the metal t₂g orbitals. Since the ligand p-orbitals are filled, electron density is donated from ligand to metal t₂g, raising the t₂g energy. This decreases the t₂g-eg gap (Δ), making halides weak-field ligands. The order within the halides comes mainly from sigma-donor strength, not pi-donation. Angular overlap fits for Cr³⁺ give both the sigma and the pi parameters falling from F⁻ to I⁻, so F⁻ is actually the strongest pi-donor per bond. The spectrochemical series places I⁻ at the very bottom chiefly because it is the weakest sigma-donor."
 
 - question: "Ligand field theory reduces to crystal field theory when all metal-ligand interactions are treated as purely electrostatic."
   type: true-false

@@ -55,7 +55,7 @@ Build the octahedral diagram in stages on one page. Put metal 3d, 4s and 4p on t
   answer: true
   explanation: "This is a critical conceptual point. In CFT, Δ_oct appears to be between two sets of d-orbitals. In MO theory, the full picture reveals that the 'eg' orbitals involved in the splitting are actually antibonding MOs formed from metal eg-symmetry orbitals mixing with ligand sigma-donor SALCs. The t₂g orbitals are nonbonding (with sigma-only ligands) or modified by pi interactions. The gap between these two sets — t₂g (nonbonding or pi-modified) and eg* (antibonding) — is what CFT calls Δ_oct. This explains why stronger sigma-donors produce larger Δ: they push the eg* antibonding orbitals higher."
 
-- question: "In the MO diagram of [Co(CO)₆]³⁺, the t₂g orbitals are significantly stabilized compared to a sigma-only complex. This stabilization results from pi-back-bonding into CO's empty π* orbitals."
+- question: "In the MO diagram of Cr(CO)₆, the t₂g orbitals are significantly stabilized compared to a sigma-only complex. This stabilization results from pi-back-bonding into CO's empty π* orbitals."
   type: true-false
   answer: true
   explanation: "CO has empty π* orbitals with the correct symmetry (t₂g in Oh) to overlap with the filled metal t₂g orbitals. This interaction creates bonding and antibonding combinations: the bonding combination lowers the energy of the metal-based t₂g electrons (stabilizing them), while the antibonding combination raises CO-based orbitals. The net effect is that the occupied t₂g level drops in energy, increasing the gap to eg* and producing a very large Δ_oct. This is the MO basis for CO being the strongest common field ligand."
