@@ -39,7 +39,7 @@ Organize the history by the question each new tool let astronomers answer: naked
   answer: "Ptolemy's system could predict where planets would appear in the sky with reasonable accuracy — it was a mathematical model that worked. But it worked through increasingly complex contrivances (epicycles on epicycles) that had no physical explanation, just mathematical convenience. This raised a fundamental question: is a mathematical model that predicts observations the same as a physical explanation of nature? Ptolemy's success delayed recognition that geocentrism was wrong. A model that works empirically can still be built on incorrect assumptions. The tension between predictive success and physical reality remains a live issue in philosophy of science."
   explanation: "The success of Ptolemy's geocentric model is a key case in history and philosophy of science about what makes a theory 'good' — predictive accuracy alone is not sufficient, because multiple theories can fit the same observations."
 
-- question: "What discovery, announced by Edwin Hubble in 1929, revealed that the universe was far larger and dynamic rather than static?"
+- question: "What discoveries, announced by Edwin Hubble between 1924 and 1929, revealed that the universe was far larger and dynamic rather than static?"
   type: multiple-choice
   options:
     - "That the Milky Way contained more than 100 billion stars"
@@ -47,7 +47,7 @@ Organize the history by the question each new tool let astronomers answer: naked
     - "That the Sun was not at the center of the Milky Way"
     - "That the cosmic microwave background radiation pervaded space"
   answer: 1
-  explanation: "Hubble's 1929 paper reported two connected findings: that spiral nebulae were separate galaxies far beyond the Milky Way (previously disputed), and that these galaxies were receding from Earth, with recession velocity proportional to distance (Hubble's Law). This implied the universe was expanding — run backward, all matter converged to a single point. Combined with Einstein's general relativity, this led to the Big Bang cosmological model."
+  explanation: "Hubble reported two connected findings: in 1924-1925, using Cepheid variable stars, that spiral nebulae were separate galaxies far beyond the Milky Way (previously disputed); and in his 1929 paper, that these galaxies were receding from Earth, with recession velocity proportional to distance (Hubble's Law). This implied the universe was expanding — run backward, all matter converged to a single point. Combined with Einstein's general relativity, this led to the Big Bang cosmological model."
 
 - question: "How did spectroscopy transform astronomy in the 19th century?"
   type: short-answer
@@ -74,6 +74,6 @@ Islamic astronomers of the 9th through 15th centuries made substantial improveme
 
 The telescopic revolution beginning with Galileo in 1609 opened entirely new frontiers. Mountains on the Moon violated the Aristotelian principle of perfect celestial spheres. Sunspots moved across the Sun's face. Four moons orbited Jupiter. The Milky Way resolved into countless individual stars. These observations expanded the observable universe and provided data that Ptolemy's model struggled to accommodate.
 
-Spectroscopy — analyzing the wavelengths of starlight — transformed 19th-century astronomy from position-cataloging to physical understanding. William Fraunhofer's 1814 discovery of dark absorption lines in sunlight, later explained as fingerprints of chemical elements, revealed that distant stars contained the same elements as Earth. The Sun's chemical composition could be read from its light. Stellar velocities were measured through the Doppler shift. Astrophysics — the physics of celestial objects — was born.
+Spectroscopy — analyzing the wavelengths of starlight — transformed 19th-century astronomy from position-cataloging to physical understanding. Joseph von Fraunhofer's 1814 discovery of dark absorption lines in sunlight, later explained as fingerprints of chemical elements, revealed that distant stars contained the same elements as Earth. The Sun's chemical composition could be read from its light. Stellar velocities were measured through the Doppler shift. Astrophysics — the physics of celestial objects — was born.
 
 In the early 20th century, the scale of the universe expanded dramatically. Henrietta Leavitt (1908) discovered that Cepheid variable stars' periods of brightness variation correlated with their intrinsic luminosity — creating a 'standard candle' for measuring cosmic distances. Edwin Hubble used Cepheids in 1924-1925 to demonstrate that spiral nebulae were distant galaxies far beyond the Milky Way. Then in 1929, Hubble announced that these galaxies were receding from Earth with velocities proportional to their distance. The universe was expanding. Run backward, this implied all matter had originated from a single dense state — what Fred Hoyle dismissively called the 'Big Bang.' The cosmic microwave background radiation, discovered in 1965, confirmed this picture. Modern cosmology studies the universe's origin, structure, and fate.

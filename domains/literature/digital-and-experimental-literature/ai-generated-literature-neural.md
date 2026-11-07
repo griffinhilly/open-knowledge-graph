@@ -36,7 +36,7 @@ Generate several outputs from one short prompt and set them beside a human poem 
 - question: How does a neural language model generate novel literary text from the mechanism of 'predicting probable next tokens'?
   type: multiple-choice
   options:
-  - The model learns statistical patterns about which words follow other words; generation proceeds iteratively—given a prompt, the model predicts the most likely next word, then uses that prediction as context to predict the following word, building text token-by-token
+  - The model learns statistical patterns about which words follow other words; generation proceeds iteratively—given a prompt, the model predicts a probability distribution over the next word and selects one (often by sampling rather than always taking the most likely), then uses that choice as context to predict the following word, building text token-by-token
   - The model retrieves and remixes passages from its training data based on keyword matching
   - The model uses human rules about grammar and semantics to construct sentences from scratch
   - The model randomly selects words from its vocabulary and arranges them alphabetically
@@ -73,9 +73,9 @@ Generate several outputs from one short prompt and set them beside a human poem 
 
 Neural language models represent a watershed moment in thinking about language and creativity. To understand why, it helps to grasp how these systems work and what surprises emerge from their operation.
 
-A neural language model learns by ingesting vast amounts of text. It learns statistical patterns—not explicit rules, but probability distributions. Given a sequence of tokens (words or subword units), the model learns to predict what typically comes next. This learning is unsupervised: no human tells the model "when you see the word 'dark' followed by 'night,' the next word is often 'sky'." Instead, the model infers these patterns from the statistics of its training data.
+A neural language model learns by ingesting vast amounts of text. It learns statistical patterns—not explicit rules, but probability distributions. Given a sequence of tokens (words or subword units), the model learns to predict what typically comes next. This learning is self-supervised: the training signal comes from the text itself, and no human tells the model "when you see the word 'dark' followed by 'night,' the next word is often 'sky'." Instead, the model infers these patterns from the statistics of its training data.
 
-During generation, this token-prediction mechanism creates surprising results. Given a prompt, the model predicts the most likely next token, incorporates that prediction into its context, and repeats. Word by word, a sequence emerges. The output is often coherent, thematically sensible, even aesthetically interesting. You can train a model on poetry and get poetry-like output; train it on technical writing and get technical prose. The generated text is novel—not copied from training data, but newly synthesized from learned patterns.
+During generation, this token-prediction mechanism creates surprising results. Given a prompt, the model predicts a probability distribution over possible next tokens, selects one (usually by sampling rather than always taking the single most likely token), incorporates it into its context, and repeats. Word by word, a sequence emerges. The output is often coherent, thematically sensible, even aesthetically interesting. You can train a model on poetry and get poetry-like output; train it on technical writing and get technical prose. The generated text is usually novel—newly synthesized from learned patterns rather than retrieved—though models can sometimes reproduce memorized passages from their training data word for word.
 
 This capability forces an unsettling realization: we have attributed linguistic coherence and literary meaning-making to human consciousness and intentionality. Yet a mechanism that operates purely statistically, without consciousness or intention, produces results that read as coherent and meaningful. What does this reveal?
 

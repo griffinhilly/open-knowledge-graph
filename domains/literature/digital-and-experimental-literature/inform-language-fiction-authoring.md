@@ -33,7 +33,7 @@ Write a two-room game in Inform 7, whose source reads like English sentences suc
 ## Questions
 
 ```yaml
-- question: How does Inform's language design shape what kinds of interactive narratives can be created?"
+- question: How does Inform's language design shape what kinds of interactive narratives can be created?
   type: multiple-choice
   options:
   - Inform abstracts programming into narrative-friendly syntax and enforces a model of stories as object-property-state systems, enabling certain narrative possibilities while constraining others
@@ -43,7 +43,7 @@ Write a two-room game in Inform 7, whose source reads like English sentences suc
   answer: 0
   explanation: 'Inform''s design embodies assumptions about story structure: objects with properties, state changes through actions, rule systems governing interaction. This model works well for exploration-based or puzzle-based narratives but may constrain psychologically complex or non-spatial narratives. The language''s affordances and constraints directly shape what stories are easy or difficult to create.'
 
-- question: What does Inform reveal about the relationship between technical implementation and literary form?"
+- question: What does Inform reveal about the relationship between technical implementation and literary form?
   type: multiple-choice
   options:
   - Technical design decisions (language syntax, data structures, system architecture) fundamentally shape what literary forms are possible and easy to create
@@ -79,6 +79,6 @@ However, this object-property-action model shapes what narrative is natural in I
 
 This reveals something important about the relationship between technical design and literary form. Inform is not a neutral implement; it is a tool shaped by particular assumptions. These assumptions enable certain aesthetic possibilities while constraining others. Understanding interactive fiction literature requires understanding the technical substrate—what the tool makes easy, natural, and elegant, and what it makes difficult or awkward.
 
-Different authoring languages shape different narrative possibilities. Twine, another interactive fiction language, models story as nodes and links rather than objects and properties, enabling branching narrative in a way Inform does not. A language designed around dialogue as the primary unit would enable different narrative possibilities than Inform's object-focus. This suggests that literary form is not independent of technical implementation but emerges from it.
+Different authoring languages shape different narrative possibilities. Twine, another interactive fiction language, models story as nodes and links rather than objects and properties, making link-based branching the default way to write, where in Inform branching has to be built from rules and world state. A language designed around dialogue as the primary unit would enable different narrative possibilities than Inform's object-focus. This suggests that literary form is not independent of technical implementation but emerges from it.
 
 The broader lesson is that technical choices are aesthetic choices. Programming language design, data structure selection, and system architecture are not merely implementation details; they shape what stories can be told and how naturally they can be told. Interactive fiction authors work within the affordances and constraints of their chosen language. Understanding the works thus requires understanding the technical choices that made them possible.

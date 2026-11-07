@@ -56,18 +56,18 @@ Sort the objections Darwin faced in 1859 into two columns: scientific (no mechan
 
 - question: "What was 'Social Darwinism,' and in what sense was it a misapplication of Darwin's theory?"
   type: short-answer
-  answer: "Social Darwinism was a 19th and early 20th century set of ideas applying evolutionary concepts — 'survival of the fittest,' competition, natural selection — to human societies and economies. Herbert Spencer (who coined 'survival of the fittest') and others used evolutionary language to justify laissez-faire capitalism, imperialism, and racial hierarchy: wealthy individuals and nations 'naturally' dominated because they were more fit. This misapplied Darwin in multiple ways: Darwin's natural selection operates on reproductive success over generations, not individual economic competition; Darwin himself did not endorse applying natural selection to social policy; and 'fitness' in evolutionary terms means reproductive success, not moral worth or intelligence."
-  explanation: "Social Darwinism was not really Darwin's theory applied to society but a selective borrowing of evolutionary vocabulary to legitimate existing social arrangements. Darwin is not responsible for Social Darwinism, though his theory provided the language that Social Darwinists misused."
+  answer: "Social Darwinism was a 19th and early 20th century set of ideas applying evolutionary concepts — 'survival of the fittest,' competition, natural selection — to human societies and economies. Herbert Spencer (who coined 'survival of the fittest') and others used evolutionary language to justify laissez-faire capitalism, imperialism, and racial hierarchy: wealthy individuals and nations 'naturally' dominated because they were more fit. This misapplied Darwin in multiple ways: Darwin's natural selection operates on reproductive success over generations, not individual economic competition; Darwin himself was ambivalent (The Descent of Man worries that civilization weakens selection but insists that sympathy for the weak must not be abandoned), and historians still debate how far he shared Social Darwinist views; and 'fitness' in evolutionary terms means reproductive success, not moral worth or intelligence."
+  explanation: "Social Darwinism was not really Darwin's theory applied to society but a selective borrowing of evolutionary vocabulary to legitimate existing social arrangements. Darwin did not create Social Darwinism, though his theory provided the language that Social Darwinists misused."
 
-- question: "Which discovery in the 1950s-1960s most powerfully confirmed that evolution by natural selection was occurring and that Darwin's core mechanism was correct?"
+- question: "Which discovery in the 1950s-1960s gave powerful molecular confirmation of Darwin's claim that all living things share common ancestry?"
   type: multiple-choice
   options:
-    - "The discovery that all living things share the same genetic code"
+    - "The discovery that all living things share nearly the same genetic code"
     - "The observation of Darwin's finches changing beak shape across generations"
     - "The fossil discovery of transitional species between fish and tetrapods"
     - "The mathematical proof that selection could drive speciation"
   answer: 0
-  explanation: "The discovery that all life — from bacteria to humans — uses the same genetic code (the same codons encoding the same amino acids) provided powerful confirmation of common descent. If all life shares a common ancestor, we would expect the genetic 'language' to be universal, inherited from that common ancestor. This molecular-level confirmation of evolution was among the most compelling, arrived at through completely independent evidence from DNA research in the 1950s-1960s."
+  explanation: "The discovery that all life — from bacteria to humans — uses nearly the same genetic code (the same codons encoding the same amino acids, with only minor variants such as those in mitochondria) provided powerful confirmation of common descent. If all life shares a common ancestor, we would expect the genetic 'language' to be shared, inherited from that common ancestor. This molecular-level confirmation of evolution was among the most compelling, arrived at through completely independent evidence from DNA research in the 1950s-1960s."
 
 ```
 

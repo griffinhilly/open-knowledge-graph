@@ -56,10 +56,10 @@ Start with the rain calligram, "Il pleut." Read the words down each slanting lin
   answer: false
   explanation: This is false. The visual arrangement is constitutive of meaning. The shape matters semantically—a poem arranged to depict falling rain communicates 'rain' through form, not just through word choice. To read a calligram and ignore its visual properties is to miss an essential dimension of the work.
 
-- question: Calligrammes pioneered the idea that poetry could exploit the materiality of text (typography, spatial arrangement) as a meaning-making element
+- question: Calligrammes made the materiality of text (typography, spatial arrangement) a central meaning-making element of modernist poetry
   type: true-false
   answer: true
-  explanation: Yes. Before calligrammes, poetry worked through language—word choice, rhythm, imagery, figurative meaning. Apollinaire showed that the material presentation of text—how it appears on the page—could carry meaning equal to linguistic content. This opened the possibility of what would later be called concrete poetry.
+  explanation: Yes. Shaped poems are much older (George Herbert's "Easter Wings", the Greek technopaegnia), and Mallarmé's Un coup de dés (1897) had already used the space of the page, but most poetry of Apollinaire's time worked mainly through language—word choice, rhythm, imagery, figurative meaning. Apollinaire showed that the material presentation of text—how it appears on the page—could carry meaning equal to linguistic content. This opened the possibility of what would later be called concrete poetry.
 
 - question: Explain how calligrammes represent a transition from treating text as purely linguistic to treating it as a visual medium. Why is this transition conceptually significant for literature?
   type: short-answer
@@ -69,7 +69,7 @@ Start with the rain calligram, "Il pleut." Read the words down each slanting lin
 
 ## Explainer
 
-Apollinaire's calligrammes emerged at a moment when modernism was challenging fundamental assumptions across the arts. Visual artists were exploring abstraction, painters were questioning representational perspective, and poets were breaking free from Victorian constraints. But Apollinaire's innovation was specific: he showed that *text itself*—the written word—could be artistic material.
+Apollinaire's calligrammes emerged at a moment when modernism was challenging fundamental assumptions across the arts. Visual artists were exploring abstraction, painters were questioning representational perspective, and poets were breaking free from 19th-century verse conventions. But Apollinaire's innovation was specific: he showed that *text itself*—the written word—could be artistic material.
 
 Consider how we ordinarily think of poetry. A poem is made of language. Its effects come from word choice, sound patterns, imagery, figurative meaning. The poem could be printed in any typeface, any size, any arrangement, and remain essentially the same poem. We might prefer certain layouts, but we assume the poem's identity transcends these material details. The poem is the *text*, not the *document*.
 

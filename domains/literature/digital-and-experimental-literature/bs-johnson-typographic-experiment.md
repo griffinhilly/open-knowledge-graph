@@ -41,7 +41,7 @@ Work with the physical books. Shuffle the middle sections of The Unfortunates, t
   answer: 0
   explanation: Johnson's principle asserts that formal choices must justify themselves through thematic necessity. If a novel is about fragmentation, disorientation, or circularity, the form should embody these concerns. Radical typography, page breaks, or unusual arrangement must emerge from the conceptual needs of the work, not serve as mere decoration or formalist excess.
 
-- question: How did B.S. Johnson's typographic innovations in print literature anticipate later developments in digital and experimental literature?"
+- question: How did B.S. Johnson's typographic innovations in print literature anticipate later developments in digital and experimental literature?
   type: multiple-choice
   options:
   - By demonstrating that form could exceed conventional linearity and that the material arrangement of text constitutes meaning, establishing principles later applied in digital, visual, and concrete poetry
@@ -69,9 +69,9 @@ Work with the physical books. Shuffle the middle sections of The Unfortunates, t
 
 ## Explainer
 
-B.S. Johnson stands as a pivotal figure in modernist literature precisely because he refused the available forms. In the 1960s and 1970s, when most literary fiction operated within inherited conventions of narrative sequentiality and typographic standardization, Johnson asked: why should form be transparent? Why should typography be invisible? Why should readers always move left-to-right, top-to-bottom through a novel?
+B.S. Johnson stands as a pivotal figure in postwar British experimental fiction precisely because he refused the available forms. In the 1960s and 1970s, when most literary fiction operated within inherited conventions of narrative sequentiality and typographic standardization, Johnson asked: why should form be transparent? Why should typography be invisible? Why should readers always move left-to-right, top-to-bottom through a novel?
 
-Johnson's experimental novels employ radical formal strategies. The House Mother Normal uses columns, fragments, and non-linear organization. Albert Angelo includes a hole cut through pages so readers literally see through the text. Other works scatter text across pages, use unconventional punctuation, or break expected narrative sequences. These techniques are not gimmicks; they emerge from Johnson's conviction that form must be an extension of content—that the way a novel is arranged on the page should enact or embody the novel's thematic concerns.
+Johnson's experimental novels employ radical formal strategies. House Mother Normal tells one evening through a series of equal-length monologues whose lines align page by page, ordered from the most lucid resident to the least, so the later sections thin toward blank pages. Albert Angelo includes a hole cut through pages so readers literally see through the text. Other works scatter text across pages, use unconventional punctuation, or break expected narrative sequences. These techniques are not gimmicks; they emerge from Johnson's conviction that form must be an extension of content—that the way a novel is arranged on the page should enact or embody the novel's thematic concerns.
 
 This principle proved foundational. If a novel concerns fragmentation, circularity, or disorientation, imposing a conventional linear form would betray the content. The form must manifest the content's difficulty. This meant Johnson's readers had to actively negotiate the text—to puzzle over page breaks, to puzzle over unusual typography, to puzzle over non-linear progression. The reading experience itself became an aesthetic event, part of the work's meaning.
 

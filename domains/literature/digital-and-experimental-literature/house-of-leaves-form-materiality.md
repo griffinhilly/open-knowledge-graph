@@ -32,7 +32,7 @@ Before reading far, sketch a diagram of the frames: the film The Navidson Record
 ## Questions
 
 ```yaml
-- question: How do typographic and material choices in 'House of Leaves' contribute to narrative meaning?"
+- question: How do typographic and material choices in 'House of Leaves' contribute to narrative meaning?
   type: multiple-choice
   options:
   - Page layout, margin space, footnote structures, and typography create spatial disorientation and navigational difficulty that enacts the novel's themes of a space that defies normal spatial logic
@@ -42,7 +42,7 @@ Before reading far, sketch a diagram of the frames: the film The Navidson Record
   answer: 0
   explanation: In 'House of Leaves,' the physical experience of reading the book—navigating footnotes, encountering unusual page layouts, being disoriented by margins and typography—mirrors the narrative's central concern with a space that defies normal navigation. The reader's physical effort parallels the characters' struggle. Material form is not decorative but constitutive of meaning.
 
-- question: What does Danielewski demonstrate about the relationship between print and digital media in experimental literature?"
+- question: What does Danielewski demonstrate about the relationship between print and digital media in experimental literature?
   type: multiple-choice
   options:
   - Print experimentalism can achieve navigational complexity and reader disorientation comparable to digital interactivity through material form and typography rather than computation

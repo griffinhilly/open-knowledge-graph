@@ -44,7 +44,7 @@ Build a comparison table for the Manhattan Project, the Human Genome Project, an
     - "The Human Genome Project"
     - "The Large Hadron Collider"
   answer: 1
-  explanation: "The Manhattan Project (1942-1945) is typically identified as the paradigm case of Big Science — a state-funded, secret, massively collaborative effort to develop nuclear weapons. It established the model of government-funded large-scale science that dominated the Cold War era and beyond. Derek Price coined the term 'Big Science' in 1963 to describe the structural transformation this exemplified."
+  explanation: "The Manhattan Project (1942-1945) is typically identified as the paradigm case of Big Science — a state-funded, secret, massively collaborative effort to develop nuclear weapons. It established the model of government-funded large-scale science that dominated the Cold War era and beyond. Alvin Weinberg popularized the term 'Big Science' in a 1961 article, and Derek de Solla Price's 1963 book Little Science, Big Science analyzed the structural transformation this exemplified."
 
 - question: "Big Science inevitably produces better science than individual or small-team research."
   type: true-false
@@ -65,17 +65,17 @@ Build a comparison table for the Manhattan Project, the Human Genome Project, an
   type: multiple-choice
   options:
     - "10 member states, approximately $1 billion"
-    - "23 member states, approximately $10 billion"
+    - "25 member states, approximately $10 billion"
     - "50 member states, approximately $50 billion"
     - "The LHC is operated by the US government alone"
   answer: 1
-  explanation: "CERN has 23 member states, and the LHC cost approximately $10 billion to build. This level of investment requires international cooperation because no single state could justify or afford the cost alone. The LHC confirmed the Higgs boson in 2012, a result that required analyzing collisions from hundreds of millions of particle interactions — impossible without both the machine and global teams of physicists."
+  explanation: "CERN has 25 member states (Slovenia became the 25th in 2025), and the LHC cost approximately $10 billion to build. This level of investment requires international cooperation because no single state could justify or afford the cost alone. The LHC confirmed the Higgs boson in 2012, a result that required analyzing collisions from hundreds of millions of particle interactions — impossible without both the machine and global teams of physicists."
 
 ```
 
 ## Explainer
 
-The phrase 'Big Science' was coined by physicist Derek Price in 1963 to describe a structural transformation in how science was organized during the 20th century. Before WWII, scientific research was largely a small-scale enterprise: individual researchers, small laboratories, modest equipment funded by universities or private patrons. The Manhattan Project (1942-1945) shattered this model. Roughly 130,000 people, spread across multiple sites from Los Alamos to Oak Ridge to Hanford, worked in secret to develop the atomic bomb. The project cost approximately $2 billion — equivalent to perhaps $30 billion today — and required integrating theoretical physics, industrial chemistry, and military logistics at unprecedented scale.
+The phrase 'Big Science' was popularized by physicist Alvin Weinberg in 1961 and analyzed by Derek de Solla Price in his 1963 book Little Science, Big Science. It describes a structural transformation in how science was organized during the 20th century. Before WWII, scientific research was largely a small-scale enterprise: individual researchers, small laboratories, modest equipment funded by universities or private patrons. The Manhattan Project (1942-1945) shattered this model. Roughly 130,000 people, spread across multiple sites from Los Alamos to Oak Ridge to Hanford, worked in secret to develop the atomic bomb. The project cost approximately $2 billion — equivalent to perhaps $30 billion today — and required integrating theoretical physics, industrial chemistry, and military logistics at unprecedented scale.
 
 The Manhattan Project established a template that defined postwar science. The National Science Foundation (1950), NASA (1958), and DARPA were all created to channel federal funds into research justified on national security grounds. The Soviet Union's Sputnik launch in 1957 triggered panic and further investment: the National Defense Education Act of 1958 poured money into science education; federal research funding to universities expanded dramatically. Science became understood as a national strategic asset.
 

@@ -23,7 +23,7 @@ status: draft
 # Electronic Poetry: Digital Forms and Affordances
 
 ## Core Idea
-Electronic poetry exploits digital media affordances—interactivity, animation, code, sound, network distribution—that cannot exist in print. Works range from kinetic poems with animated text to algorithmic generation to interactive installations. Electronic poetry reconceptualizes poetry as multimodal and dynamic rather than static verbal arrangement on a page.
+Electronic poetry exploits digital media affordances—computer-driven interactivity, animation, executable code, sound, network distribution—that print cannot offer in the same way, though combinatorial print works such as Queneau's Cent mille milliards de poèmes (1961) anticipated generative poetry. Works range from kinetic poems with animated text to algorithmic generation to interactive installations. Electronic poetry reconceptualizes poetry as multimodal and dynamic rather than static verbal arrangement on a page.
 
 ## How It's Best Learned
 Browse the Electronic Literature Collection, a free online anthology of digital works, and pick one kinetic poem and one interactive poem. For each, list the affordances it uses: motion, timing, reader input, sound, or generation. Then imagine printing a single screenshot and list what disappears. That list of losses names what the work needs the digital medium for.

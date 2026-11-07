@@ -18,7 +18,7 @@ status: draft
 # E.E. Cummings and Typographic Innovation
 
 ## Core Idea
-E.E. Cummings pioneered typographic innovation in modernist poetry, fragmenting words across lines, mixing cases, and using spacing to create visual rhythm. Typography becomes a meaning-making tool, slowing the reader's eye and inviting semantic reinterpretation through visual disturbance of conventional reading pathways.
+E.E. Cummings, building on earlier experiments by Mallarmé and Apollinaire, became one of modernist poetry's boldest typographic innovators, fragmenting words across lines, mixing cases, and using spacing to create visual rhythm. Typography becomes a meaning-making tool, slowing the reader's eye and inviting semantic reinterpretation through visual disturbance of conventional reading pathways.
 
 ## How It's Best Learned
 Begin with "l(a," where the phrase "a leaf falls" sits inside the word "loneliness," split a few letters per line. Read it as printed, then rewrite it on one line and compare. Ask what the lone "l" and the "one" hidden in the word add. Then try the same rebuild on "r-p-o-p-h-e-s-s-a-g-r," his scrambled grasshopper poem.
@@ -56,15 +56,15 @@ Begin with "l(a," where the phrase "a leaf falls" sits inside the word "loneline
   answer: false
   explanation: False. Cummings' typography is constitutive of meaning. A poem reformatted in conventional typography would be a different poem because the visual dimension—integral to interpretation—would be lost.
 
-- question: Cummings pioneered the idea that typography can be a conscious poetic device that shapes reader interpretation, not merely a transparent vehicle for linguistic meaning
+- question: Cummings used typography as a conscious poetic device that shapes reader interpretation, not merely a transparent vehicle for linguistic meaning
   type: true-false
   answer: true
-  explanation: Correct. Cummings demonstrated that visual form—typography, spacing, fragmentation—is as important to poetic meaning as word choice and rhythm.
+  explanation: Correct. Building on earlier experiments by Mallarmé and Apollinaire, Cummings demonstrated that visual form—typography, spacing, fragmentation—is as important to poetic meaning as word choice and rhythm.
 
 - question: Explain how Cummings' typographic innovation prefigures later developments in concrete and digital poetry. What conceptual foundation does his work establish?
   type: short-answer
   answer: Cummings showed that the visual properties of text, such as spacing, case, and broken words, shape interpretation. The principle that poetry is visual as well as linguistic underlies the spatial arrangements of concrete poetry and the multimedia work of digital poetry.
-  explanation: Cummings established the principle that literature is not purely linguistic; it is also visual. By treating typography as a meaning-making tool, he revealed that the visual properties of text—how it appears on the page—are integral to interpretation. This principle became foundational for concrete poetry, which systematically exploits visual and spatial form. It also prefigures digital poetry, which exploits multimedia affordances. Cummings showed that if typography matters, then all visual properties of the written text matter. This opened the possibility that poetry could work across multiple sensory modes (visual, potentially auditory if kinetic), that form could be as significant as language, and that the materiality of text is not incidental but central. Without Cummings' work demonstrating the poetic significance of typography, concrete poetry's visual arrangements and digital poetry's multimedia dimensions would have lacked precedent and conceptual justification.
+  explanation: Cummings established the principle that literature is not purely linguistic; it is also visual. By treating typography as a meaning-making tool, he revealed that the visual properties of text—how it appears on the page—are integral to interpretation. This principle became foundational for concrete poetry, which systematically exploits visual and spatial form. It also prefigures digital poetry, which exploits multimedia affordances. Cummings showed that if typography matters, then all visual properties of the written text matter. This opened the possibility that poetry could work across multiple sensory modes (visual, potentially auditory if kinetic), that form could be as significant as language, and that the materiality of text is not incidental but central. Cummings' work, alongside Mallarmé's and Apollinaire's, gave concrete poetry's visual arrangements and digital poetry's multimedia dimensions an important precedent and conceptual justification.
 ```
 
 ## Explainer
@@ -81,5 +81,5 @@ All of this slows reading and makes it deliberate. Automatic, transparent readin
 
 This reveals that typography is not neutral. It shapes how we read and what we understand. Cummings made this visible by making typography un-transparent, by forcing it to carry poetic meaning.
 
-The significance is foundational for later developments. Concrete poetry systematically exploited the visual dimension that Cummings pioneered. Digital literature exploits multimedia affordances that Cummings' work conceptually justifies: if typography can be poetic, why not animation, sound, interactivity? Cummings established the principle that literature is not purely linguistic. It is also visual—and potentially multimodal. This recognition transformed what poetry could be.
+The significance is foundational for later developments. Concrete poetry systematically exploited the visual dimension that Cummings had helped open. Digital literature exploits multimedia affordances that Cummings' work conceptually justifies: if typography can be poetic, why not animation, sound, interactivity? Cummings established the principle that literature is not purely linguistic. It is also visual—and potentially multimodal. This recognition transformed what poetry could be.
 

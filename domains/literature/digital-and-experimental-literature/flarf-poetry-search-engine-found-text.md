@@ -41,7 +41,7 @@ Run two search queries, one earnest and one absurd, and copy twenty result snipp
   answer: 0
   explanation: Flarf treats the internet as a vast repository of language available for poetic use. A poet might search for absurdist phrases, awkward juxtapositions, or unexpected keyword combinations, then assemble the resulting search results into poetic composition. The internet becomes the primary material, not the poet's imagination. This represents a major shift from Romantic authorship toward conceptual and procedural poetics.
 
-- question: What does flarf poetry reveal about contemporary literary creativity in the context of digital information saturation?"
+- question: What does flarf poetry reveal about contemporary literary creativity in the context of digital information saturation?
   type: multiple-choice
   options:
   - That contemporary poets must engage with overwhelming information abundance by developing procedural and conceptual strategies rather than relying on isolated inspiration

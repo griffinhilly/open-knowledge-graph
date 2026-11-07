@@ -43,7 +43,7 @@ Play the opening of a parser game such as Zork for fifteen minutes and log every
   answer: 0
   explanation: Ergodic literature is defined by the necessity of physical or operational traversal. Clicking a link in hypertext requires an action; solving a puzzle in interactive fiction requires problem-solving action. This is categorically different from metaphorical 'active reading' where readers interpret conventional texts. Ergodic effort is material—fingers on keyboard, eyes tracking screen elements, problem-solving actions.
 
-- question: How does the concept of ergodic literature challenge conventional definitions of reading?"
+- question: How does the concept of ergodic literature challenge conventional definitions of reading?
   type: multiple-choice
   options:
   - By redefining reading as a material practice requiring operational actions, not merely interpretation of passive text consumed in a fixed sequence
@@ -71,7 +71,7 @@ Play the opening of a parser game such as Zork for fifteen minutes and log every
 
 ## Explainer
 
-Espen Aarseth introduced 'ergodic literature' as a theoretical category for works where traversing the text requires nontrivial material effort. The term 'ergodic' comes from physics (ergo = work, ode = path), emphasizing that readers must labor through paths to read the work. This is more than metaphorical: when readers click hypertext links or type commands in interactive fiction, they are performing material actions that determine what text they encounter.
+Espen Aarseth introduced 'ergodic literature' as a theoretical category for works where traversing the text requires nontrivial material effort. Aarseth built the term 'ergodic' from the Greek words ergon (work) and hodos (path), the same roots as the physics term, emphasizing that readers must labor through paths to read the work. This is more than metaphorical: when readers click hypertext links or type commands in interactive fiction, they are performing material actions that determine what text they encounter.
 
 Conventional literary theory treats reading as primarily interpretive and cognitive. A reader encounters a fixed sequence of words and constructs meaning through interpretation. Aarseth's concept reframes reading as material practice. In ergodic literature, meaning emerges through navigation and action. What you read depends on which path you take. The reader's effort is not peripheral to meaning-making but central to it.
 

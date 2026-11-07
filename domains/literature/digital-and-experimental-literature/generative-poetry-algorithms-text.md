@@ -45,7 +45,7 @@ Start with a small grammar-based generator such as Nick Montfort's "Taroko Gorge
   answer: 0
   explanation: In conventional poetry, the author writes specific words in a specific order. In generative poetry, the author designs an algorithm or system that produces varied outputs. Each run of the algorithm produces different poems. The author controls the rules, parameters, and constraints, but not the specific text generated. This makes authorship a matter of system design rather than word selection.
 
-- question: How do different generative methods produce distinct aesthetic effects in generative poetry?"
+- question: How do different generative methods produce distinct aesthetic effects in generative poetry?
   type: multiple-choice
   options:
   - Grammar-based, Markov chain, and neural network methods operate under different constraints and statistics, producing different kinds of coherence, unexpected juxtaposition, or semantic sophistication
@@ -60,10 +60,10 @@ Start with a small grammar-based generator such as Nick Montfort's "Taroko Gorge
   answer: true
   explanation: If a generative poem produces different output each time it runs, what is the 'poem'—the algorithm, one run, all possible runs? This ambiguity is central to generative aesthetics. The work may be defined as the algorithm itself, or as the space of possible outputs, not as a specific fixed text.
 
-- question: Generative poetry raises authorship questions because it requires human-machine co-authorship in a way that traditional poetry never does
+- question: Computer-based generative poetry raises authorship questions because a machine, not the poet, produces the specific text according to human-designed rules
   type: true-false
   answer: true
-  explanation: 'Generative poetry makes explicit the algorithmic component of text production that exists implicitly in all digital literature. It asks: who is the author when a machine generates text according to human-designed rules? This question applies increasingly to all AI-assisted writing.'
+  explanation: 'Generative poetry makes explicit the algorithmic component of text production that exists implicitly in all digital literature. It asks: who is the author when a machine generates text according to human-designed rules? Similar questions arose earlier with procedures carried out by hand, such as Tristan Tzara''s cut-up method and Queneau''s combinatorial sonnets, but computers make them unavoidable. This question applies increasingly to all AI-assisted writing.'
 
 - question: Explain how the concept of 'the work' changes in generative poetry when variation and multiplicity are fundamental to the poem's identity, and discuss what this reveals about authorship.
   type: short-answer

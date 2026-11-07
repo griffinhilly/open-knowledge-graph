@@ -61,7 +61,7 @@ Compare the two superpowers side by side. For the US, trace one funding line fro
   answer: false
   explanation: "Cold War effects on science were mixed. Funding increased dramatically, but ideological pressures were substantial: security clearances were required for much research; scientists with left-wing associations were investigated and blacklisted; research directions were shaped by military applications. Social sciences were particularly affected — funding for research that challenged capitalism or suggested Soviet achievements could raise suspicion. The Cold War accelerated some fields while distorting or suppressing others."
 
-- question: "Which US government agency, created in 1958, has funded the development of the Internet, GPS, stealth technology, and other transformative technologies?"
+- question: "Which US government agency, created in 1958, has funded the development of the Internet, stealth technology, and other transformative technologies?"
   type: multiple-choice
   options:
     - "The National Science Foundation (NSF)"
@@ -69,7 +69,7 @@ Compare the two superpowers side by side. For the US, trace one funding line fro
     - "The Defense Advanced Research Projects Agency (DARPA)"
     - "The National Institutes of Health (NIH)"
   answer: 2
-  explanation: "DARPA was created in 1958 in direct response to Sputnik, tasked with preventing technological surprise and maintaining US strategic advantage. ARPANET — the precursor to the Internet — was a DARPA project begun in 1968. GPS, stealth aircraft, and many other technologies trace to DARPA funding. DARPA exemplifies Cold War science's legacy: a military agency whose investments in basic and applied research produced civilian technologies of enormous significance."
+  explanation: "DARPA was created in 1958 in direct response to Sputnik, tasked with preventing technological surprise and maintaining US strategic advantage. ARPANET — the precursor to the Internet — was a DARPA project begun in 1968. Stealth aircraft, the Transit satellite-navigation system that preceded GPS, miniaturized GPS receivers, and many other technologies trace to DARPA funding; GPS itself was a Defense Department program led by the Air Force. DARPA exemplifies Cold War science's legacy: a military agency whose investments in basic and applied research produced civilian technologies of enormous significance."
 
 ```
 
@@ -77,7 +77,7 @@ Compare the two superpowers side by side. For the US, trace one funding line fro
 
 The Cold War (roughly 1947-1991) was not just a geopolitical contest but a competition for technological and scientific supremacy that fundamentally transformed how research was organized and funded. Both superpowers understood that scientific and technological superiority translated into military advantage, economic power, and ideological legitimacy. The result was an unprecedented investment in science by both states.
 
-In the United States, the Cold War created modern research universities. Federal funding for science, modest before WWII, exploded after 1945. The National Science Foundation (1950) provided civilian research grants; the Office of Naval Research funded basic physics and mathematics; DARPA, created in 1958 after Sputnik, funded speculative research with potential strategic applications. By the mid-1960s, federal research dollars accounted for roughly two-thirds of all R&D spending in the US, and most of this money flowed through university grants. The model of the research university — where professors both teach and conduct federally funded research — was a Cold War creation.
+In the United States, the Cold War greatly expanded the federally funded research university. Federal funding for science, modest before WWII, exploded after 1945. The National Science Foundation (1950) provided civilian research grants; the Office of Naval Research funded basic physics and mathematics; DARPA, created in 1958 after Sputnik, funded speculative research with potential strategic applications. By the mid-1960s, federal research dollars accounted for roughly two-thirds of all R&D spending in the US, and most of this money flowed through university grants. Research universities were older (Johns Hopkins opened in 1876), but the model where professors both teach and conduct federally funded research became the norm during the Cold War.
 
 The Soviet Union's approach was different: large, specialized research institutes rather than universities, with scientists assigned to priorities set by the state. This system produced remarkable results in specific domains — rocketry, nuclear physics, mathematics, materials science — but also showed the limitations of top-down direction. Trofim Lysenko's politically-endorsed pseudoscience devastated Soviet genetics from the 1940s through the early 1960s, setting Soviet biology back decades.
 
