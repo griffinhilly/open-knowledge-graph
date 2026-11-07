@@ -23,7 +23,7 @@ status: draft
 # The Jazz Age and Modern Urban Culture
 
 ## Core Idea
-Jazz Age literature captured the cultural energy, moral experimentation, and social transformation of 1920s America, using modernist formal innovation to express the era's jazz rhythms, sexual liberation, and urban dynamism. Writers engaged with jazz aesthetics as formal and thematic models for literary expression.
+Jazz Age literature captured the cultural energy, moral experimentation, and social transformation of 1920s America, using modernist formal innovation to express the era's jazz rhythms, sexual liberation, and urban dynamism. Writers engaged with jazz as a theme, and some, Langston Hughes most clearly, also took jazz aesthetics as a formal model for literary expression.
 
 ## How It's Best Learned
 Listen to a 1920s jazz or blues recording and note repetition, call and response, and breaks in the beat. Then read Langston Hughes's "The Weary Blues" and mark where the poem uses the same devices. Set beside it one of Gatsby's party scenes, which treats jazz culture as subject matter in conventional prose. The pairing separates jazz as theme from jazz as form.
@@ -37,14 +37,14 @@ Listen to a 1920s jazz or blues recording and note repetition, call and response
 
 ```yaml
 - type: multiple-choice
-  question: "How did Jazz Age writers use jazz aesthetics as a formal model for literature?"
+  question: "How did Jazz Age writers who borrowed from jazz, such as Langston Hughes, use it as a formal model for literature?"
   options:
     - "Jazz had no influence on literary form"
-    - "Jazz rhythms, improvisation, and syncopation became models for narrative structure and linguistic experimentation"
+    - "Jazz rhythms, improvisation, and syncopation became models for poetic structure and linguistic experimentation"
     - "Writers abandoned all form to imitate jazz"
     - "Jazz only influenced subject matter, not form"
   answer: 1
-  explanation: "Jazz's rhythmic syncopation, improvisation, and structural innovation influenced how writers composed: narrative rhythms echoed jazz phrasing; linguistic play mirrored improvisational techniques."
+  explanation: "Jazz's rhythmic syncopation, improvisation, and structural innovation influenced how these writers composed: lines and rhythms echoed jazz and blues phrasing; linguistic play mirrored improvisational techniques. Many other writers treated jazz mainly as subject matter."
 
 - type: multiple-choice
   question: "What did Jazz Age literature express about 1920s American culture?"
@@ -64,7 +64,7 @@ Listen to a 1920s jazz or blues recording and note repetition, call and response
 - type: true-false
   question: "Jazz was merely entertainment with no serious aesthetic influence on literature."
   answer: false
-  explanation: "Writers recognized jazz as a serious aesthetic tradition and adopted its principles as models for literary form."
+  explanation: "Some writers, Langston Hughes most clearly, recognized jazz as a serious aesthetic tradition and adopted its principles as models for literary form."
 
 - type: short-answer
   question: "Explain how engaging with jazz as a formal model allowed Jazz Age writers to represent cultural transformation."
@@ -74,10 +74,10 @@ Listen to a 1920s jazz or blues recording and note repetition, call and response
 
 ## Explainer
 
-The Jazz Age of the 1920s was a period of extraordinary cultural transformation in America. Jazz music—with its syncopation, improvisation, and challenge to classical musical rules—epitomized the era's energy. But jazz was not isolated to music. Writers recognized jazz as expressing something essential about the era and adopted jazz aesthetics as formal models for literature.
+The Jazz Age of the 1920s was a period of extraordinary cultural transformation in America. Jazz music—with its syncopation, improvisation, and challenge to classical musical rules—epitomized the era's energy. But jazz was not isolated to music. Writers recognized jazz as expressing something essential about the era, and some adopted jazz aesthetics as formal models for literature.
 
 This was philosophically significant. It meant form and content were inseparable. To represent the Jazz Age's dynamism and moral experimentation, writers needed forms matching that energy. Traditional nineteenth-century literary forms seemed exhausted, inadequate to capture modern experience. Jazz provided an alternative model: structure that could accommodate improvisation, rhythm that didn't require predictable regularity, innovation that broke classical rules while maintaining coherence.
 
-Writers engaged with jazz at multiple levels. Thematically, they wrote about jazz culture, urban nightlife, sexuality, and moral experimentation. But more importantly, they allowed jazz principles to influence narrative structure and linguistic practice. Jazz rhythms appeared in sentence structure; improvisational techniques influenced how narratives developed; syncopation appeared in narrative pacing. The result was literature that sounded like the era it captured.
+Writers engaged with jazz at multiple levels. Thematically, they wrote about jazz culture, urban nightlife, sexuality, and moral experimentation. Some, Langston Hughes most clearly, also let jazz and blues principles shape form: rhythm, repetition, and call and response appeared in the structure of lines and stanzas. The result was literature that sounded like the era it captured.
 
 This integration of jazz aesthetics with modernist literary innovation proved powerful. It demonstrated that literature could learn from other art forms, that so-called "popular" forms could influence "high" art, and that modernism's formal innovation could serve expressive purposes beyond pure experimentation. Jazz Age literature showed that form and content worked together: the modernist innovation gave shape to the cultural energy, and the cultural energy justified the formal innovation.

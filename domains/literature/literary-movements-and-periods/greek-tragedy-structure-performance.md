@@ -21,7 +21,7 @@ status: draft
 # Greek Tragedy: Structure and Performance
 
 ## Core Idea
-Greek tragedy emerged in 5th-century Athens as a formal genre combining chorus, protagonist, and antagonist within strict structural conventions, exploring fundamental human conflicts through noble characters brought low by fate or moral transgression. Works like Sophocles' Oedipus Rex established dramatic irony, cathartic emotional release, and the investigation of justice and human knowledge. The form became a template for tragedy across all cultures.
+Greek tragedy emerged in 5th-century Athens as a formal genre combining chorus, protagonist, and antagonist within strict structural conventions, exploring fundamental human conflicts through noble characters brought low by fate or moral transgression. Works like Sophocles' Oedipus Rex established dramatic irony, cathartic emotional release, and the investigation of justice and human knowledge. The form became a template for tragedy in the Western tradition.
 
 ## How It's Best Learned
 Read *Oedipus Rex* while keeping two columns: what Oedipus believes at each scene, and what the audience already knows. The widening gap makes dramatic irony concrete. Picture the original staging too: masked male actors, a chorus singing and dancing in an open-air theatre, and plays entered in competition at a civic festival for the god Dionysus.

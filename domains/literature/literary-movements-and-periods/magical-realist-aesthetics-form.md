@@ -76,7 +76,7 @@ Read the scene in García Márquez's *One Hundred Years of Solitude* where Remed
 
 ## Explainer
 
-Magical realism represents a revolutionary synthesis of realism and fantasy, Western modernism and indigenous traditions. Rather than treating magic as escape from reality or supernatural intervention, magical realism integrates fantastic elements into realistic narrative as if they were ordinary. A grandmother floats into heaven; characters exist for centuries; events repeat cyclically. These impossible things happen within the novel's realistic world without explanation or amazement.
+Magical realism represents a revolutionary synthesis of realism and fantasy, Western modernism and indigenous traditions. Rather than treating magic as escape from reality or supernatural intervention, magical realism integrates fantastic elements into realistic narrative as if they were ordinary. A young woman floats into heaven while folding sheets; characters exist for centuries; events repeat cyclically. These impossible things happen within the novel's realistic world without explanation or amazement.
 
 This aesthetic proved particularly significant for postcolonial and Latin American writers. Western realism assumed a world without magic, where reality could be objectively represented and rationally understood. But many indigenous and non-Western worldviews incorporate magical and spiritual dimensions as natural parts of reality. Magical realism offered a way to express these worldviews within sophisticated literary form.
 

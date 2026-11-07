@@ -19,7 +19,7 @@ status: draft
 # Dante Alighieri and the Divine Comedy
 
 ## Core Idea
-The Divine Comedy (early 14th century) was the first major European work written in the vernacular rather than Latin, establishing Italian as a vehicle for high literature. Its three-part structure uses Dante's spiritual journey through the afterlife as a framework for exploring sin, redemption, and divine love, while combining Christian theology, classical philosophy, and autobiography.
+The Divine Comedy (early 14th century) was written in the Italian vernacular rather than Latin, establishing Italian as a vehicle for high literature. Its three-part structure uses Dante's spiritual journey through the afterlife as a framework for exploring sin, redemption, and divine love, while combining Christian theology, classical philosophy, and autobiography.
 
 ## How It's Best Learned
 Read Inferno Cantos 1 and 5 in a facing-page translation. Draw the funnel of Hell and add each sinner you meet, with the sin, the punishment, and how the punishment fits the sin. Then read the final canto of Paradiso to see where the pilgrim's path ends. Holding the start and end together makes the three-part structure visible.
@@ -70,7 +70,7 @@ Read Inferno Cantos 1 and 5 in a facing-page translation. Draw the funnel of Hel
 
 ## Explainer
 
-Dante Alighieri's Divine Comedy stands as one of the pivotal works in Western literature for multiple reasons. First, it demonstrated that vernacular languages could achieve the seriousness and sophistication previously reserved for Latin. Before Dante, serious literature—theology, philosophy, high poetry—was composed in Latin. Vernacular languages were for common people, for practical communication. Dante challenged this hierarchy by creating a work of profound philosophical and theological ambition in Italian. This established that literary greatness did not require Latin; vernacular languages could explore the deepest human and spiritual concerns.
+Dante Alighieri's Divine Comedy stands as one of the pivotal works in Western literature for multiple reasons. First, it demonstrated that vernacular languages could achieve the seriousness and sophistication previously reserved for Latin. Before Dante, theology and philosophy were composed in Latin, the language of highest prestige. Vernacular poetry existed, in French, Occitan, and Italian itself, but vernacular languages were widely seen as lesser tongues. Dante challenged this hierarchy by creating a work of profound philosophical and theological ambition in Italian. This established that literary greatness did not require Latin; vernacular languages could explore the deepest human and spiritual concerns.
 
 Second, the Divine Comedy synthesized traditions that seemed to belong to different worlds. Dante uses Virgil, the classical Roman poet, as his guide through Hell and Purgatory, honoring the classical tradition. He explores Christian theology about sin and redemption. He incorporates medieval philosophy. The poem proves that classical and Christian traditions could be integrated rather than kept separate—that one could honor classical wisdom while exploring Christian truth.
 

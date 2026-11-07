@@ -76,7 +76,7 @@ Pair each canonical text with its answer. Read the attic scenes of *Jane Eyre*, 
 
 Postcolonial literature emerged from the great wave of decolonization in the 20th century as colonized peoples gained independence and reasserted their own cultures, histories, and perspectives. The movement was fundamentally about recovery and reclamation. Colonialism had not only conquered territories but also suppressed indigenous histories, cultures, and languages. Postcolonial literature recovered what had been silenced.
 
-A central strategy was rewriting canonical Western texts from colonized perspectives. If Robinson Crusoe had been rewritten from Friday's perspective, what would the story reveal about colonialism and power? By reinterpre ting classic texts from different viewpoints, postcolonial writers claimed authority and challenged meanings that seemed natural and inevitable.
+A central strategy was rewriting canonical Western texts from colonized perspectives. If Robinson Crusoe had been rewritten from Friday's perspective, what would the story reveal about colonialism and power? By reinterpreting classic texts from different viewpoints, postcolonial writers claimed authority and challenged meanings that seemed natural and inevitable.
 
 Postcolonial literature also developed new forms. Rather than simply adopting Western literary conventions, writers incorporated indigenous narrative traditions, oral forms, and non-Western aesthetics. This assertion of non-Western literary traditions was politically significant: it said these traditions were not primitive or inferior but sophisticated and worthy.
 

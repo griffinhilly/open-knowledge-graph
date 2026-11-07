@@ -73,7 +73,7 @@ Begin with Sartre's paper-knife example: a craftsman plans a tool's purpose befo
 
 ## Explainer
 
-Existentialist literature represents a profound synthesis of philosophy and art. Existentialist thinkers—primarily continental European philosophers like Sartre, Camus, Heidegger—developed a philosophy that placed human freedom and responsibility at the center of existence. Rather than seeing humans as possessing a predetermined essence or nature, existentialists argued that humans exist as free consciousness first; we must create our nature and identity through our choices.
+Existentialist literature represents a profound synthesis of philosophy and art. Existentialist thinkers—primarily continental European philosophers like Sartre, with Camus and Heidegger often grouped alongside him even though both rejected the label—developed a philosophy that placed human freedom and responsibility at the center of existence. Rather than seeing humans as possessing a predetermined essence or nature, existentialists argued that humans exist as free consciousness first; we must create our nature and identity through our choices.
 
 This philosophical position transformed how writers approached literature. If humans are fundamentally free and responsible for creating meaning, then literature should explore this condition directly. Existentialist writers used narrative and drama to depict characters confronting this freedom and its implications. A character faces a situation with no easy answer, no predetermined path; they must choose and accept responsibility for the consequences. Through this dramatization, literature explores philosophical truth.
 

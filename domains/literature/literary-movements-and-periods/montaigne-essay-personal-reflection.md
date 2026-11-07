@@ -74,7 +74,7 @@ Read Montaigne's brief note "To the Reader," where he says he is himself the mat
 
 ## Explainer
 
-Michel de Montaigne invented the essay as a literary and philosophical form. The word itself—essai, attempt or trial—captures the form's exploratory nature. Rather than treatise with systematic argument, Montaigne created short prose pieces attempting to think through ideas, following associations and digressions wherever they led.
+Michel de Montaigne invented the essay as a literary and philosophical form. The word itself—essai, attempt or trial—captures the form's exploratory nature. Rather than treatise with systematic argument, Montaigne created prose pieces, from a page or two to the book-length "Apology for Raymond Sebond," attempting to think through ideas, following associations and digressions wherever they led.
 
 This was revolutionary. Serious philosophical work required authority: appeal to classical texts, established systems, learned traditions. Subjective voice seemed unreliable, contingent, untrustworthy. Montaigne inverted this. He claimed that personal reflection, honestly pursued, could achieve philosophical depth. His own thoughts, observations, doubts, and reversals were philosophically valuable.
 

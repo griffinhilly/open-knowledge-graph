@@ -23,7 +23,7 @@ status: draft
 # Classical Antiquity Literature: Foundations
 
 ## Core Idea
-Classical antiquity (8th century BCE to 5th century CE) produced the foundational literary works and forms that shaped Western literature for millennia. Greek drama, epic poetry, and rhetoric established conventions of formal beauty, psychological insight, and moral complexity that became models for all subsequent periods. Roman literature adapted and expanded these Greek traditions while developing new forms like satire and philosophical dialogue.
+Classical antiquity (8th century BCE to 5th century CE) produced the foundational literary works and forms that shaped Western literature for millennia. Greek drama, epic poetry, and rhetoric established conventions of formal beauty, psychological insight, and moral complexity that became models for all subsequent periods. Roman literature adapted and expanded these Greek traditions, carrying Greek forms such as the philosophical dialogue into Latin and developing verse satire as its own genre.
 
 ## How It's Best Learned
 Draw a timeline from Homer to late antiquity and place one short reading on it for each genre. Good anchors are a book of the Iliad, a Greek tragedy such as Sophocles' Oedipus the King, a famous speech, and a book of Virgil's Aeneid. For each, note what it inherits and what it changes. Then follow one form, such as epic, into a later period.
@@ -51,10 +51,10 @@ Draw a timeline from Homer to late antiquity and place one short reading on it f
   options:
     - "Romans completely rejected Greek forms in favor of entirely original work"
     - "Romans merely imitated Greek literature without innovation"
-    - "Romans adapted and expanded Greek traditions while developing new forms like satire and philosophical dialogue"
+    - "Romans adapted and expanded Greek traditions while developing new forms like verse satire"
     - "There was no relationship between Roman and Greek literature"
   answer: 2
-  explanation: "Roman writers built on Greek foundations but developed their own innovations—particularly satire and philosophical dialogue—showing how tradition can be both respected and transformed."
+  explanation: "Roman writers built on Greek foundations but developed their own innovations—particularly verse satire—showing how tradition can be both respected and transformed. Other forms, such as the philosophical dialogue Cicero wrote, adapted Greek models like Plato's."
 
 - type: true-false
   question: "Classical antiquity's literary works were significant primarily for entertainment purposes, without engaging psychological or moral complexity."
@@ -78,6 +78,6 @@ Classical antiquity created the foundation upon which nearly all Western literat
 
 Greek literature established several major genres, each with its own conventions. Epic poetry—long narrative poems about heroic figures—created templates for depicting heroism, fate, and human struggle that influenced literature for millennia. Dramatic forms (both tragedy and comedy) established conventions for structure, characterization, and the exploration of human conflict that became models for theater and narrative fiction. Greek rhetoric—the systematic study of persuasion—provided principles about arrangement, style, and emotional effect that influenced everything from oratory to prose fiction.
 
-What made classical conventions so durable was their flexibility. They were not so specific that they could only apply to Greek society; they were abstracted enough that they could be adapted to almost any context. A medieval writer could adapt Greek dramatic structure to a religious mystery play; a Renaissance writer could rethink the epic form; a Romantic writer could challenge classical ideals while still engaging with them. This adaptability meant the classical tradition could be both enduring and dynamic.
+What made classical conventions so durable was their flexibility. They were not so specific that they could only apply to Greek society; they were abstracted enough that they could be adapted to almost any context. A medieval poet such as Dante could make Virgil his guide through a Christian afterlife; a Renaissance writer could rethink the epic form; a Romantic writer could challenge classical ideals while still engaging with them. This adaptability meant the classical tradition could be both enduring and dynamic.
 
-Roman literature amplified this effect. By building on Greek forms while creating innovations—particularly in satire (the sharp critique of human folly) and philosophical dialogue—Roman writers showed how tradition could be simultaneously respected and transformed. This became a model for all literary history: each generation inherits forms from the past but adapts them to present concerns. The classical period established not just specific forms but a way of thinking about literary tradition as something to be both honored and reimagined.
+Roman literature amplified this effect. By building on Greek forms while creating innovations—particularly in satire (the sharp critique of human folly)—and by carrying Greek forms such as the philosophical dialogue into Latin, Roman writers showed how tradition could be simultaneously respected and transformed. This became a model for all literary history: each generation inherits forms from the past but adapts them to present concerns. The classical period established not just specific forms but a way of thinking about literary tradition as something to be both honored and reimagined.

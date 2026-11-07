@@ -60,7 +60,7 @@ Read a troubadour lyric in translation, such as Bernart de Ventadorn's lark song
   explanation: "The unattainable beloved maintains emotional intensity and allows endless expression of desire, longing, and worship—the poetry's true subject."
 
 - type: true-false
-  question: "Courtly love poetry established conventions for expressing romantic passion that influenced all subsequent Western lyric poetry."
+  question: "Courtly love poetry established conventions for expressing romantic passion that influenced much later Western lyric poetry."
   answer: true
   explanation: "These conventions—idealization of the beloved, intensity of emotion, sophisticated expression—became foundational to lyric tradition."
 

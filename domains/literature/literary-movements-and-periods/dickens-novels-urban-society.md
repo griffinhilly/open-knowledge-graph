@@ -69,7 +69,7 @@ Read the fog-filled opening of Bleak House and follow how the fog links the Cour
 
 ## Explainer
 
-Charles Dickens stands as the pre-eminent Victorian novelist not merely because he wrote extensively or populally, but because he solved a fundamental artistic problem: how to create literature that is simultaneously compelling entertainment and serious social critique. Victorian readers loved Dickens' novels, following characters with passionate engagement. Yet those same novels were unstinting in their exposure of social cruelty, exploitation, and injustice.
+Charles Dickens stands as the pre-eminent Victorian novelist not merely because he wrote extensively or popularly, but because he solved a fundamental artistic problem: how to create literature that is simultaneously compelling entertainment and serious social critique. Victorian readers loved Dickens' novels, following characters with passionate engagement. Yet those same novels were unstinting in their exposure of social cruelty, exploitation, and injustice.
 
 Dickens accomplished this through technical mastery. He coordinated multiple plot threads that seemed to follow independent characters but gradually revealed their interconnection—meaning that focusing on an individual's private story inevitably revealed larger social patterns. He balanced comedy and pathos, so that even scenes of extreme suffering contained moments of humor or absurdity that prevented sentimentality while deepening emotional impact. He used descriptive language—vivid rendering of urban landscapes, weather, buildings, rooms—to create atmosphere that shaped mood and meaning without explicit commentary.
 

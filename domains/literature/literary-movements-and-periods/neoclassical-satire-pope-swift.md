@@ -20,7 +20,7 @@ status: draft
 # Neoclassical Satire: Pope, Swift, and Rational Critique
 
 ## Core Idea
-Pope and Swift wielded satire as enlightenment critique, using elevated neoclassical form (heroic couplets, mock-epic) to expose folly and corruption. Pope's formal perfection combined with penetrating social observation, while Swift's Gulliver's Travels and A Modest Proposal used fantastic narratives and deadpan irony to anatomize vice. Their work established satire as morally serious and aesthetically sophisticated.
+Pope and Swift wielded satire as enlightenment critique to expose folly and corruption. Pope used elevated neoclassical form (heroic couplets, mock-epic), combining formal perfection with penetrating social observation, while Swift's chief satires are prose: Gulliver's Travels and A Modest Proposal used fantastic narratives and deadpan irony to anatomize vice. Their work established satire as morally serious and aesthetically sophisticated.
 
 ## How It's Best Learned
 Read "A Modest Proposal" first without notes and mark the exact point where you realize the proposal is monstrous. Then reread it to find whose language Swift is imitating. For Pope, take a passage from *The Rape of the Lock*, such as the card game or the arming at the dressing table, and match each detail to the epic scene it parodies.
@@ -34,7 +34,7 @@ Read "A Modest Proposal" first without notes and mark the exact point where you 
 
 ```yaml
 - type: multiple-choice
-  question: "How did Pope and Swift use elevated form ironically in satire?"
+  question: "How did Pope use elevated form ironically in satire?"
   options:
     - "They avoided formal craft"
     - "Heroic couplets and mock-epic elevated trivial subjects, exposing their insignificance"

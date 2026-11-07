@@ -25,7 +25,7 @@ status: draft
 # Chaucer and English Vernacular Narrative
 
 ## Core Idea
-Chaucer elevated English from a provincial tongue to a literary language capable of psychological depth, comedy, and philosophical sophistication. His Canterbury Tales combined frame narrative, diverse poetic forms, and realistic characterization to establish English as viable for serious literary expression.
+Chaucer raised the standing of English, then ranked below French and Latin, as a literary language capable of psychological depth, comedy, and philosophical sophistication. His Canterbury Tales combined frame narrative, diverse poetic forms, and realistic characterization to establish English as viable for serious literary expression.
 
 ## How It's Best Learned
 Read the opening sentence of the General Prologue aloud in Middle English with a pronunciation guide. Mark which words come from French or Latin and which are native English. Then compare three forms Chaucer used: the rhyming couplets of the Miller's Tale, the rhyme royal stanzas of the Prioress's Tale, and the prose of the Parson's Tale. Ask what each form lets English do.
@@ -42,11 +42,11 @@ Read the opening sentence of the General Prologue aloud in Middle English with a
   question: "Before Chaucer, what was the status of English as a literary language?"
   options:
     - "English was the dominant language for serious literature across Europe"
-    - "English was a provincial tongue unsuitable for serious literary expression"
+    - "English had a literary tradition but ranked below French and Latin in prestige for serious writing"
     - "English and French were equally valued for literature"
     - "English had no written tradition whatsoever"
   answer: 1
-  explanation: "Before Chaucer, serious literature was written in French or Latin; English was not considered a language capable of literary sophistication. Chaucer changed this through his work."
+  explanation: "English verse had a long history, from Old English poetry such as Beowulf to Middle English romances, but in Chaucer's England French and Latin carried more prestige for serious writing. Chaucer's work helped raise the standing of English."
 
 - type: multiple-choice
   question: "How did Chaucer's use of diverse poetic forms within the Canterbury Tales contribute to establishing English's literary viability?"
@@ -76,7 +76,7 @@ Read the opening sentence of the General Prologue aloud in Middle English with a
 
 ## Explainer
 
-In the late 14th century, when Chaucer began his career, English was not considered a language for serious literature. The cultural prestige languages were French and Latin. English was the language of common people, of commerce and daily life, but not of high art or philosophy. This linguistic hierarchy reflected political history: after the Norman Conquest of 1066, French-speaking nobles had ruled England, making French the language of power and prestige.
+In the late 14th century, when Chaucer began his career, English ranked below French and Latin as a language for serious literature. The cultural prestige languages were French and Latin. English had a literary past, from Old English poetry such as Beowulf to Middle English romances, and Chaucer's contemporaries Langland, Gower, and the Gawain poet also wrote ambitious English verse. Still, English was chiefly the language of common people, of commerce and daily life, while high art and philosophy usually used French or Latin. This linguistic hierarchy reflected political history: after the Norman Conquest of 1066, French-speaking nobles had ruled England, making French the language of power and prestige.
 
 Chaucer challenged this hierarchy through the sheer ambition and accomplishment of his work. The Canterbury Tales was not a simple narrative but a sophisticated literary structure that combined multiple poetic forms, explored complex psychology, engaged with philosophy and theology, and deployed comedy and irony with remarkable subtlety. The work demonstrated that English could achieve everything that French or Latin could achieve—and could do it with particular grace and effectiveness.
 

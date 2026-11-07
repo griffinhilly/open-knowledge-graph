@@ -60,9 +60,9 @@ Test the phrase "art for art's sake" on one short lyric. List everything the poe
   explanation: "This is central to Aestheticism: the movement elevated aesthetic experience and formal excellence above moral instruction or social utility, making beauty the primary value of art."
 
 - type: true-false
-  question: "The Aesthetic movement anticipated Modernism's rejection of traditional form and structure in favor of realism."
+  question: "The Aesthetic movement anticipated Modernism's preference for realism over attention to form."
   answer: false
-  explanation: "Aestheticism anticipated Modernism's form-consciousness and careful attention to style, but not its rejection of tradition. Both movements valued how form itself could generate meaning, though in different ways."
+  explanation: "Modernism did not prefer realism over form; both movements valued how form itself could generate meaning. Aestheticism anticipated Modernism's form-consciousness and careful attention to style."
 
 - type: short-answer
   question: "How does the Aesthetic principle of 'autonomy' free writers from constraints that Victorian culture placed on them?"
