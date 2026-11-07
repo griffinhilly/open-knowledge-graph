@@ -34,7 +34,7 @@ Take a room described in a short story and redesign it as a VR scene on paper: d
 ## Questions
 
 ```yaml
-- question: How does VR narrative transform the reader's relationship to story through embodied immersion?"
+- question: How does VR narrative transform the reader's relationship to story through embodied immersion?
   type: multiple-choice
   options:
   - By situating the reader as an embodied presence in a 3D space, VR narrative makes bodily experience and spatial navigation constitutive of meaning rather than merely observational
@@ -44,7 +44,7 @@ Take a room described in a short story and redesign it as a VR scene on paper: d
   answer: 0
   explanation: In conventional narrative, readers observe external events. In VR, readers occupy a space; they have a body (represented by position and perspective); they move through the environment. This embodied presence transforms narrative from observation to experience. The body becomes narratively significant.
 
-- question: What narrative possibilities emerge from spatial exploration as a primary narrative mode in VR?"
+- question: What narrative possibilities emerge from spatial exploration as a primary narrative mode in VR?
   type: multiple-choice
   options:
   - Spatial exploration reveals story through what players discover in the environment; narrative emerges from navigation, investigation, and interpretation of spatial details rather than exposition

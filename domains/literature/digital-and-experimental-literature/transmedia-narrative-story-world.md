@@ -33,7 +33,7 @@ Choose one multi-platform story world and build a grid: rows for world elements 
 ## Questions
 
 ```yaml
-- question: How does transmedia narrative differ from simple media adaptation?"
+- question: How does transmedia narrative differ from simple media adaptation?
   type: multiple-choice
   options:
   - Transmedia narrative uses each medium's distinct affordances to tell different narrative aspects, requiring multi-platform engagement; adaptation translates one work into another medium while preserving story
@@ -43,7 +43,7 @@ Choose one multi-platform story world and build a grid: rows for world elements 
   answer: 0
   explanation: 'Adaptation converts a story from one medium to another (novel to film), using that medium''s tools while preserving the story. Transmedia distributes narrative across media: different aspects of a story world exist in different media. A television show develops character relationships; a graphic novel explores history; an online game reveals world mechanics. Each is necessary for full understanding.'
 
-- question: What is the narrative significance of using multiple media platforms in transmedia storytelling?"
+- question: What is the narrative significance of using multiple media platforms in transmedia storytelling?
   type: multiple-choice
   options:
   - Each medium has distinct affordances; transmedia leverages these to tell narrative aspects best suited to each medium, creating richness impossible in single-medium form

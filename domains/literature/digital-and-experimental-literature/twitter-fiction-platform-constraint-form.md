@@ -34,7 +34,7 @@ Take a 100-word flash story and cut it to fit one tweet, noting what you dropped
 ## Questions
 
 ```yaml
-- question: How do Twitter's platform constraints become generative for narrative form?"
+- question: How do Twitter's platform constraints become generative for narrative form?
   type: multiple-choice
   options:
   - Character limits, threading, and reply features impose constraints that force narrative economy and exploit platform affordances; constraints become formal possibilities rather than mere limitations
@@ -44,7 +44,7 @@ Take a 100-word flash story and cut it to fit one tweet, noting what you dropped
   answer: 0
   explanation: 'Twitter''s 280-character limit forces extreme narrative economy. Every word must count; extraneous description is eliminated. Threading allows serialization; replies enable interaction. These constraints are generative: they produce a distinct literary form impossible without them. Constraint becomes aesthetic principle.'
 
-- question: What does Twitter fiction reveal about the relationship between platform affordances and literary form?"
+- question: What does Twitter fiction reveal about the relationship between platform affordances and literary form?
   type: multiple-choice
   options:
   - Platforms are not neutral media; their technical features and constraints directly shape what literary forms are possible and natural to create
@@ -52,7 +52,7 @@ Take a 100-word flash story and cut it to fit one tweet, noting what you dropped
   - All platforms enable identical forms of writing
   - Literary form is independent of platform
   answer: 0
-  explanation: Twitter fiction could not exist on longer-form platforms like blogs. The specific constraints (280 characters, threading structure, public/social nature) generate a form unique to Twitter. Different platforms enable different literary possibilities. Platform is not neutral; it is formative.
+  explanation: Twitter fiction would not take the same shape on longer-form platforms like blogs. The specific constraints (280 characters, threading structure, public/social nature) generate a form unique to Twitter. Different platforms enable different literary possibilities. Platform is not neutral; it is formative.
 
 - question: Twitter fiction demonstrates that literary form is not an a priori category but emerges from material and technical conditions of platforms
   type: true-false

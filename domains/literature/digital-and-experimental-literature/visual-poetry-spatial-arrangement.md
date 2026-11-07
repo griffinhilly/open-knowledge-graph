@@ -33,7 +33,7 @@ Retype a visual poem as plain left-aligned lines in a standard font and compare 
 ## Questions
 
 ```yaml
-- question: How does visual poetry differ from conventional poetry in how form creates meaning?"
+- question: How does visual poetry differ from conventional poetry in how form creates meaning?
   type: multiple-choice
   options:
   - Visual poetry makes spatial arrangement (white space, positioning, typography) integral to meaning-making, whereas conventional poetry prioritizes linguistic meaning with visual form secondary
@@ -43,7 +43,7 @@ Retype a visual poem as plain left-aligned lines in a standard font and compare 
   answer: 0
   explanation: In conventional poetry, visual form (line breaks, stanzas) organizes language but meaning comes primarily from words. Visual poetry treats visual dimension as primary meaning-making element. White space, positioning, and typography create meaning independent of and alongside linguistic meaning.
 
-- question: What does visual poetry reveal about the relationship between linguistic and visual dimensions of writing?"
+- question: What does visual poetry reveal about the relationship between linguistic and visual dimensions of writing?
   type: multiple-choice
   options:
   - Visual poetry demonstrates that writing operates simultaneously on linguistic and visual registers; these are not separable but co-constitutive of meaning

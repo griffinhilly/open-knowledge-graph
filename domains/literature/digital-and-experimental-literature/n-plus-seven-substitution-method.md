@@ -33,7 +33,7 @@ Apply N+7 by hand to a familiar passage, such as a proverb or a well-known openi
 ## Questions
 
 ```yaml
-- question: How does the N+7 procedure generate meaning rather than merely deforming an existing text?"
+- question: How does the N+7 procedure generate meaning rather than merely deforming an existing text?
   type: multiple-choice
   options:
   - By systematically replacing nouns according to dictionary order, N+7 creates unexpected semantic juxtapositions and conceptual collisions that generate new meanings unintended by the original author
@@ -43,7 +43,7 @@ Apply N+7 by hand to a familiar passage, such as a proverb or a well-known openi
   answer: 0
   explanation: N+7 does not merely deform; it generates. By replacing each noun with a dictionary neighbor, unexpected combinations emerge. A sentence about human relationships might become about furniture or animals depending on what nouns appear seven positions later. These collisions create surprising meanings. The mechanical procedure becomes generative.
 
-- question: What does N+7 reveal about the relationship between systematic rule-following and creative meaning-making?"
+- question: What does N+7 reveal about the relationship between systematic rule-following and creative meaning-making?
   type: multiple-choice
   options:
   - Mechanical, algorithmic procedures can generate creative and meaningful results; constraint and creativity are not opposites but partners

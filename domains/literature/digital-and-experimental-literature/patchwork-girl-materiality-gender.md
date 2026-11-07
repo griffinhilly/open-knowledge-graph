@@ -35,7 +35,7 @@ Reread the passages in 'Frankenstein' where Victor builds and then destroys a fe
 ## Questions
 
 ```yaml
-- question: How does 'Patchwork Girl' use its hypertext form to enact thematic concerns about fragmentation and embodiment?"
+- question: How does 'Patchwork Girl' use its hypertext form to enact thematic concerns about fragmentation and embodiment?
   type: multiple-choice
   options:
   - The fragmented hypertext structure mirrors the protagonist's patchwork body, making the form itself an expression of the work's thematic exploration of fragmented embodiment and female subjectivity
@@ -45,15 +45,15 @@ Reread the passages in 'Frankenstein' where Victor builds and then destroys a fe
   answer: 0
   explanation: Jackson deliberately chooses hypertext form to literalize her thematic concerns. The protagonist, like the hypertext navigation, is composed of fragments. Reading the work requires navigating between pieces, just as understanding the protagonist requires understanding her as assemblage rather than unified whole. Form and theme are inseparable.
 
-- question: What does 'Patchwork Girl' explore through combining Frankenstein with digital hypertext form?"
+- question: What does 'Patchwork Girl' explore through combining Frankenstein with digital hypertext form?
   type: multiple-choice
   options:
-  - The work uses Frankenstein's monster—a fragmented, female-coded creature—as framework for exploring how hypertext embodies fragmented identity and challenges unified subjectivity, particularly for women
+  - The work uses the unfinished female creature from Frankenstein—a fragmented, assembled body—as framework for exploring how hypertext embodies fragmented identity and challenges unified subjectivity, particularly for women
   - The work abandons Frankenstein entirely
   - Frankenstein has no relationship to 'Patchwork Girl'
   - The work supports traditional conceptions of unified identity
   answer: 0
-  explanation: Jackson's recasting of the Frankenstein creature as female and patchwork allows exploration of female fragmentation, embodiment, and identity through digital form. The work asks how a creature made of disparate parts achieves subjectivity and agency. Hypertext enacts this through its own fragmented, navigable structure.
+  explanation: Jackson's completion of the female creature that Victor abandons, as a visible patchwork, allows exploration of female fragmentation, embodiment, and identity through digital form. The work asks how a creature made of disparate parts achieves subjectivity and agency. Hypertext enacts this through its own fragmented, navigable structure.
 
 - question: '''Patchwork Girl'' demonstrates that hypertext form can enact thematic concerns about fragmentation, embodiment, and subjective multiplicity rather than merely presenting them as content'
   type: true-false
@@ -73,13 +73,13 @@ Reread the passages in 'Frankenstein' where Victor builds and then destroys a fe
 
 ## Explainer
 
-Shelley Jackson's 'Patchwork Girl' stands as a landmark work of hypertext fiction precisely because it treats the medium as inseparable from its thematic concerns. The work revisits Mary Shelley's 'Frankenstein' but recasts the creature as female and explicitly patchwork—visibly stitched from parts. Jackson then uses hypertext form to literalize this fragmentation.
+Shelley Jackson's 'Patchwork Girl' stands as a landmark work of hypertext fiction precisely because it treats the medium as inseparable from its thematic concerns. The work revisits Mary Shelley's 'Frankenstein' but takes up the female companion that Victor begins and then destroys, completing her as explicitly patchwork—visibly stitched from parts. Jackson then uses hypertext form to literalize this fragmentation.
 
 The result is a work where form and content are merged. The protagonist, like the hypertext navigation, is composed of discrete fragments. Reading 'Patchwork Girl' requires navigating through pieces, encountering the character through distributed textual locations. There is no unified narrative leading from beginning to end but rather a network of textual moments that must be traversed in multiple possible orders. This navigation parallels the protagonist's own constructed nature—she is a fragmented being achieving subjectivity through assemblage rather than through unified, essential identity.
 
 The work engages particularly with feminist concerns. Traditional narrative often represents female identity as either unified/naturalized (the "natural woman") or as fragmentary/pathological (fragmentation as loss or damage). Jackson suggests a different possibility: female identity as constructedly patchwork, achieved through putting pieces together rather than discovering an essential core. The hypertext form makes this visible; it insists that meaning emerges through navigating fragments, that subjectivity is constructed through assembling pieces.
 
-Gender becomes inseparable from form in another way. The creature in Frankenstein is often read as ambiguous in gender; Jackson makes her explicitly female and sexed. This foregrounds how the Frankenstein creature can be read as a meditation on forced embodiment and constructed identity—dimensions particularly salient for feminist analysis. By migrating this thematic concern into hypertext form, Jackson makes the medium itself express her theoretical interventions.
+Gender becomes inseparable from form in another way. In Frankenstein the female creature is destroyed before she is finished; Jackson completes her and makes her explicitly female and sexed. This foregrounds how the Frankenstein creature can be read as a meditation on forced embodiment and constructed identity—dimensions particularly salient for feminist analysis. By migrating this thematic concern into hypertext form, Jackson makes the medium itself express her theoretical interventions.
 
 Narrative agency shifts accordingly. In conventional fiction, agency typically flows from a unified character with coherent motivations. In 'Patchwork Girl,' agency is distributed across fragments. The protagonist achieves power and voice not by becoming unified but by leveraging her fragmentation. Readers similarly exercise agency through navigation—choosing which fragments to encounter, what connections to construct.
 

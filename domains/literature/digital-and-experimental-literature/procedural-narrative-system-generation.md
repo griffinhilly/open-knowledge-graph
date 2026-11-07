@@ -35,7 +35,7 @@ Build a tiny story generator on paper: one table of characters, one of motives, 
 ## Questions
 
 ```yaml
-- question: How does procedural narrative differ from branching narrative structures?"
+- question: How does procedural narrative differ from branching narrative structures?
   type: multiple-choice
   options:
   - Procedural narrative uses algorithms to generate narrative content dynamically rather than pre-authoring all branches; this enables potentially infinite variations
@@ -45,7 +45,7 @@ Build a tiny story generator on paper: one table of characters, one of motives, 
   answer: 0
   explanation: Branching narrative pre-authors content at each choice point. With two choices at 10 points, you need content for 1,024 branches. Procedural narrative generates content algorithmically, producing variations on-demand. This enables much greater narrative complexity and variation without requiring exponential pre-authoring.
 
-- question: What authorship question does procedural narrative raise that differs from conventional authored narrative?"
+- question: What authorship question does procedural narrative raise that differs from conventional authored narrative?
   type: multiple-choice
   options:
   - When algorithms generate narrative content, who is the author—the person who designed the algorithm, the algorithm itself, or the player experiencing the generated content?

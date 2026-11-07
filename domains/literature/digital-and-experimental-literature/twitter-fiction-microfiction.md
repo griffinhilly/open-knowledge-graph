@@ -51,7 +51,7 @@ Read one serialized Twitter story twice: first as followers met it, tweet by twe
   - Authors must edit extensively before publishing
   - Production and distribution are always separate
   answer: 0
-  explanation: 'Traditional publishing separates production (writing, editing) and distribution (publishing, marketing). Twitter fiction collapses this: the author tweets and the audience encounters it immediately. There is no editorial process, no delay between creation and distribution. This affects narrative: works can respond to trending topics in real-time, engage audience feedback, adapt to real-time events.'
+  explanation: 'Traditional publishing separates production (writing, editing) and distribution (publishing, marketing). Twitter fiction collapses this: the author tweets and the audience encounters it immediately. There need be no editorial process and no delay between creation and distribution, though some works are drafted and edited in full before posting. This affects narrative: works can respond to trending topics in real-time, engage audience feedback, adapt to real-time events.'
 
 - question: Twitter fiction uses hashtags and @mentions as formal elements, not merely as metadata for discovery
   type: true-false
@@ -81,7 +81,7 @@ This creates a fundamentally participatory form. Twitter fiction is not produced
 
 Real-time responsiveness also means narratives can engage current events. A Twitter novelist can write about trending topics or world events, creating immediate cultural relevance. The narrative is not separated from the world but responsive to it.
 
-All of this collapses the traditional separation between literary production (writing, editing in private) and distribution (publishing to audiences). In Twitter fiction, the author creates and publishes simultaneously to an audience that can respond, participate, and influence the work's evolution. This is unprecedented in traditional literature.
+All of this collapses the traditional separation between literary production (writing, editing in private) and distribution (publishing to audiences). In Twitter fiction, the author creates and publishes simultaneously to an audience that can respond, participate, and influence the work's evolution. Serialized print fiction could already respond to readers between installments, but Twitter makes the exchange public and immediate.
 
 The implications are philosophical. Authorship becomes less singular (audiences participate), narrative becomes less fixed (it responds and evolves), and literature becomes integrated with real-time life rather than separate from it. Twitter fiction reveals that literature can be participatory, real-time, and responsive rather than concluded, singular, and permanent.
 

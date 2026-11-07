@@ -31,7 +31,7 @@ Run a round-robin story with a small group twice, from the same opening line, un
 ## Questions
 
 ```yaml
-- question: How do participatory narratives blur the boundary between reader and author?"
+- question: How do participatory narratives blur the boundary between reader and author?
   type: multiple-choice
   options:
   - By inviting audiences to contribute story content directly, participatory narratives transform readers from consumers of pre-made narratives into co-creators and authors of shared works
@@ -41,7 +41,7 @@ Run a round-robin story with a small group twice, from the same opening line, un
   answer: 0
   explanation: Participatory narratives distribute authorship across creators and audiences. Readers contribute narrative content—adding scenes, suggesting plot directions, introducing characters. This transforms reading into an authorial act. The distinction between consuming narrative and creating narrative dissolves.
 
-- question: How do platform design and technical structures shape what kinds of participatory creation are possible?"
+- question: How do platform design and technical structures shape what kinds of participatory creation are possible?
   type: multiple-choice
   options:
   - Platform affordances (submission systems, voting mechanisms, approval processes) constrain and enable different forms of audience participation and creative contribution

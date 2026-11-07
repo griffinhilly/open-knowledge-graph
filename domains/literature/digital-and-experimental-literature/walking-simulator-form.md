@@ -58,7 +58,7 @@ Play the first twenty minutes of a walking simulator and keep a route log: where
   answer: true
   explanation: Correct. Presence and immersion are primary; challenge-based mechanics are secondary or absent.
 
-- question: Walking simulators are 'literary' because they use environmental storytelling and narrative fragments rather than dialogue
+- question: Walking simulators are 'literary' because they use environmental storytelling and narrative fragments
   type: true-false
   answer: true
   explanation: Correct. Walking simulators employ narrative techniques traditionally associated with literature and cinema, not with games.

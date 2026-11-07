@@ -23,7 +23,7 @@ status: draft
 # Interactive Fiction and Text Adventures
 
 ## Core Idea
-Interactive fiction uses parser-driven interaction where readers navigate stories through commands like 'examine object' or 'go north.' Unlike hypertext's link navigation, IF creates illusion of navigating a simulated world. Games like Zork established the form; contemporary IF (Inform, Twine) enables sophisticated narrative combining ludic and literary elements.
+Interactive fiction uses parser-driven interaction where readers navigate stories through commands like 'examine object' or 'go north.' Unlike hypertext's link navigation, IF creates illusion of navigating a simulated world. Early games such as Colossal Cave Adventure and Zork established the form; contemporary IF (Inform, Twine) enables sophisticated narrative combining ludic and literary elements.
 
 ## How It's Best Learned
 Play the opening rooms of a parser game and keep a log of every command you type and every reply, including the failures. Then play the opening of a link-based hypertext and log its choices. Comparing the two logs side by side shows where the parser hides its limits and where links show them openly.
@@ -84,7 +84,7 @@ The distinction shapes experience profoundly. In hypertext, you are aware of nar
 
 Both have literary value, but they enable different kinds of narrative. Hypertext's visible choice-structure works well for narratives about decision-making—where being aware of your choices is thematically significant. IF's world-simulation works well for narratives of exploration and discovery—where you uncover a world's secrets through investigation.
 
-Historically, Zork (1980) established IF as a canonical form. It combined puzzle-solving (ludic gameplay) with narrative. Players navigated the Great Underground Empire, solving puzzles to progress. The parser created the illusion of navigating a simulated world. This hybrid form—part game, part literature—showed that IF could be sophisticated, combining challenging gameplay with meaningful narrative.
+Historically, Colossal Cave Adventure (1976) began the form, and Zork, written at MIT in 1977-79 and sold commercially from 1980, made it a canonical one. It combined puzzle-solving (ludic gameplay) with narrative. Players navigated the Great Underground Empire, solving puzzles to progress. The parser created the illusion of navigating a simulated world. This hybrid form—part game, part literature—showed that IF could be sophisticated, combining challenging gameplay with meaningful narrative.
 
 Contemporary IF has developed further. Tools like Inform enable complex game logic alongside literary sophistication. Twine offers a middle ground—combining IF-style choice with hypertext-like visual mapping. But the core distinction remains: IF typically uses parser commands (creating world-navigation illusion), hypertext uses links (making choice visible). Each creates different experiences and enables different narrative possibilities.
 

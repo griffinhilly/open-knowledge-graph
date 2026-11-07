@@ -32,7 +32,7 @@ Close-read one text-based net artwork in three passes: first the words alone, th
 ## Questions
 
 ```yaml
-- question: How does net art blur boundaries between literature, visual art, and interactive digital form?"
+- question: How does net art blur boundaries between literature, visual art, and interactive digital form?
   type: multiple-choice
   options:
   - Net art merges textual, visual, and interactive elements into integrated works where distinguishing between literary and visual components becomes impossible and unproductive
@@ -42,7 +42,7 @@ Close-read one text-based net artwork in three passes: first the words alone, th
   answer: 0
   explanation: 'Net art works often integrate text, image, code, and interactivity. A work might have narrative dimension (textual content), visual aesthetics, and interactive behavior that responds to user input. These elements are not separate; they constitute the work together. The result exists at intersections of disciplines: is it literature? Visual art? Code? Net art suggests the answer is all and none—it is its own form.'
 
-- question: What distinguishes net art from other forms of digital art or internet literature?"
+- question: What distinguishes net art from other forms of digital art or internet literature?
   type: multiple-choice
   options:
   - Net art is specifically created for and distributed through the internet rather than adapted from other media, exploiting internet-specific affordances and materiality

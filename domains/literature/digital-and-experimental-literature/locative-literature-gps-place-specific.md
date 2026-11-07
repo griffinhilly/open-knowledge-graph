@@ -31,7 +31,7 @@ Pick three spots within a short walk of each other and write a fragment for each
 ## Questions
 
 ```yaml
-- question: How does locative literature fundamentally reshape the reading experience compared to conventional digital narrative?"
+- question: How does locative literature fundamentally reshape the reading experience compared to conventional digital narrative?
   type: multiple-choice
   options:
   - By tying narrative content to specific geographic coordinates, locative literature makes physical location and movement constitutive of reading rather than abstract or virtual
@@ -41,7 +41,7 @@ Pick three spots within a short walk of each other and write a fragment for each
   answer: 0
   explanation: Locative literature embeds narrative in place. A reader must physically travel to a location to access content tied to that coordinate. This makes geographic location, physical movement, and embodied presence fundamental to the reading experience. The story is inseparable from the physical site.
 
-- question: What effect does the GPS-based constraint (narrative only accessible at specific locations) have on narrative structure and reader agency?"
+- question: What effect does the GPS-based constraint (narrative only accessible at specific locations) have on narrative structure and reader agency?
   type: multiple-choice
   options:
   - The geographic constraint shapes what paths readers can take and what story sequences they encounter, making physical navigation through place a structural component of narrative

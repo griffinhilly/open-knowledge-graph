@@ -33,7 +33,7 @@ Play a short choice-based story once and mark each choice that felt important. T
 ## Questions
 
 ```yaml
-- question: What is the fundamental tension in designing interactive narrative?"
+- question: What is the fundamental tension in designing interactive narrative?
   type: multiple-choice
   options:
   - Unlimited player choice leads to unlimited authorial labor; constraints on choice are necessary but must feel meaningful, requiring careful design to maintain player agency while managing scope
@@ -43,7 +43,7 @@ Play a short choice-based story once and mark each choice that felt important. T
   answer: 0
   explanation: 'Interactive narrative design involves managing two competing demands: players want meaningful choices that affect narrative, but authors cannot create content for infinite possibilities. Effective design uses constraints (limited but real choices) that feel agentic rather than constraining. Constraints become enabling rather than limiting.'
 
-- question: How can constraints actually enhance reader agency in interactive narrative?"
+- question: How can constraints actually enhance reader agency in interactive narrative?
   type: multiple-choice
   options:
   - By establishing clear possibilities and meaningful trade-offs, constraints make choices feel more significant and consequences more real than unconstrained systems that hide limitations

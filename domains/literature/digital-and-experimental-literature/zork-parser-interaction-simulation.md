@@ -36,7 +36,7 @@ Play Zork from its opening outside the white house and sort every failed command
 ## Questions
 
 ```yaml
-- question: How does the parser in Zork function as both a constraint on player agency and an enabler of creative interaction?"
+- question: How does the parser in Zork function as both a constraint on player agency and an enabler of creative interaction?
   type: multiple-choice
   options:
   - The parser constrains expression to recognizable commands but enables creative agency through experimentation; players discover what interactions are possible through wit and trial-and-error
@@ -46,7 +46,7 @@ Play Zork from its opening outside the white house and sort every failed command
   answer: 0
   explanation: The parser understands commands like 'go north,' 'take lamp,' or 'examine painting.' It does not understand arbitrary text, constraining what can be expressed. Yet within this constraint, players can experiment—trying different verbs, discovering unintended interactions, creating emergent narratives through their actions. Constraint enables rather than eliminates agency.
 
-- question: What does Zork's world simulation reveal about how computational systems can represent fictional worlds?"
+- question: What does Zork's world simulation reveal about how computational systems can represent fictional worlds?
   type: multiple-choice
   options:
   - The simulated world model—with objects, properties, states—can sustain complex interactive narratives by maintaining consistency and enabling player agency within defined rules
