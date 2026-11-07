@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Homer's Iliad and Odyssey established the epic form and conventions of literary heroism, presenting protagonists of exceptional courage facing supernatural challenges and moral choices that test identity and fate. These works created formulaic epithets, elevated language, and the exploration of honor (kleos) with the underlying question of what makes life meaningful in the face of mortality.
 
+## How It's Best Learned
+Start with Achilles' speech to the embassy in Iliad Book 9, where he weighs a long, obscure life against early death and lasting fame. Then set Odysseus beside him and list how each earns honor: one by force in battle, the other by cunning and endurance on the way home. Tracking repeated epithets through a single book shows how formulas work in practice.
+
+## Common Misconceptions
+- Every Greek epic hero is a warrior who wins by strength. (Odysseus succeeds mainly through cunning, disguise and patience, and the Odyssey values homecoming as much as battlefield glory.)
+- Homeric heroes accept the heroic code without question. (In Iliad Book 9, Achilles openly questions whether fame is worth dying for before he returns to the fight.)
+- Epithets like "swift-footed Achilles" are only decoration. (Repeated formulas fit the epic verse line, which helped oral poets compose in performance, and they fix a figure's defining traits.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Homer's Iliad and Odyssey established the epic form and conventions of literary 
 
 - type: short-answer
   question: "Explain how the Greek epic's exploration of mortality and honor addresses the fundamental human question of meaning."
+  answer: "Because heroes cannot escape death, the epic locates meaning in kleos, the lasting fame won through courageous deeds. The hero lives on in memory and song, so the poet who tells the story grants a narrative form of immortality."
   explanation: "All humans face mortality—the ultimate limit on our existence and meaning. Greek epics confront this directly: heroes face death knowing they will die. But they pursue honor and glory (kleos), believing that what matters is not eternal life but meaningful deeds. A hero might die, but their deeds live on in story and memory. By achieving honor through courage and excellence, the hero transcends personal mortality: their fame lives on, their deeds become immortal through narrative. This is the epic's profound answer to mortality: if physical immortality is impossible, then narrative immortality—living on in human memory and story—is the available form of transcendence. This makes honor and heroic action meaningful despite mortality. It also explains why epic poets themselves are important: by telling the hero's story, they grant kleos, ensuring the hero lives on."
 ```
 

@@ -23,6 +23,13 @@ status: draft
 ## Core Idea
 The Harlem Renaissance (1920s-early 1930s) was a flourishing of African American literature, music, and visual art in New York City driven by the Great Migration and emerging black middle-class consciousness. Writers explored African American experience and culture while engaging with modernist innovation and establishing vernacular and folklore as legitimate literary subject matter. The movement asserted black cultural pride and complexity.
 
+## How It's Best Learned
+Build a map of the movement by role: poets and novelists, editors and magazines such as W. E. B. Du Bois's *The Crisis*, musicians, and patrons. Then read one short piece from each of three writers, for example Langston Hughes, Countee Cullen and Zora Neale Hurston, and note where each stands on using vernacular speech. The map shows how institutions and people connected.
+
+## Common Misconceptions
+- Using vernacular in literature began with the Harlem Renaissance. (Earlier writers such as Paul Laurence Dunbar wrote dialect poetry; Renaissance writers argued over how to use folk speech without repeating minstrel stereotypes.)
+- The movement was funded and run entirely by Black institutions. (White publishers and patrons also supported many writers, and that dependence was itself a subject of debate within the movement.)
+
 ## Questions
 
 ```yaml
@@ -58,6 +65,7 @@ The Harlem Renaissance (1920s-early 1930s) was a flourishing of African American
 
 - type: short-answer
   question: "Explain how establishing vernacular and folklore as legitimate literary subjects represented both cultural assertion and literary innovation."
+  answer: "Treating vernacular and folklore as serious literature asserted that Black speech and stories were as worthy as the dominant tradition. It was also innovation, because the rhythms, imagery and narrative forms of these traditions gave literature new resources."
   explanation: "In mainstream American literary tradition, 'proper' literature used formal educated language and addressed universal themes. African-American vernacular and folklore were considered inferior—markers of illiteracy or regional limitation. By making these forms subjects of serious literature, the Renaissance asserted: Black ways of speaking, Black stories, Black cultural traditions are as worthy, complex, and meaningful as anything in the dominant tradition. This was cultural assertion: we have value. But it was also literary innovation: these forms offered new possibilities. Vernacular speech's rhythm, imagery, and authenticity; folklore's narrative structures and wisdom traditions; blues language's compression and emotion—these offered literary resources different from formal educated language. By claiming these forms, Renaissance writers enriched literature while asserting Black cultural value."
 ```
 

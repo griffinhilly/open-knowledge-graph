@@ -25,6 +25,14 @@ status: draft
 ## Core Idea
 Jazz Age literature captured the cultural energy, moral experimentation, and social transformation of 1920s America, using modernist formal innovation to express the era's jazz rhythms, sexual liberation, and urban dynamism. Writers engaged with jazz aesthetics as formal and thematic models for literary expression.
 
+## How It's Best Learned
+Listen to a 1920s jazz or blues recording and note repetition, call and response, and breaks in the beat. Then read Langston Hughes's "The Weary Blues" and mark where the poem uses the same devices. Set beside it one of Gatsby's party scenes, which treats jazz culture as subject matter in conventional prose. The pairing separates jazz as theme from jazz as form.
+
+## Common Misconceptions
+- Jazz Age writers simply celebrated the decade's parties and freedom. (Much of the writing is critical or elegiac, and *The Great Gatsby* shows the era's glamour hiding carelessness and moral emptiness.)
+- Every Jazz Age writer imitated jazz in the structure of their work. (Many wrote about jazz culture in fairly traditional prose; formal borrowing from jazz and blues is clearest in poets such as Hughes.)
+- Jazz was a product of white urban nightlife. (Jazz grew out of African American musical traditions, and questions of who borrowed from whom run through the period's writing.)
+
 ## Questions
 
 ```yaml
@@ -60,6 +68,7 @@ Jazz Age literature captured the cultural energy, moral experimentation, and soc
 
 - type: short-answer
   question: "Explain how engaging with jazz as a formal model allowed Jazz Age writers to represent cultural transformation."
+  answer: "Older literary forms seemed tied to nineteenth-century values, so some writers, Hughes most clearly, borrowed jazz's syncopation, improvisation and rule-breaking as a model for new form. Writing shaped by those principles enacted the era's energy as well as describing it."
   explanation: "Traditional literary forms (the well-made novel, formal poetry) reflected nineteenth-century values and sensibilities. To capture 1920s cultural revolution—new music, new sexuality, new urban dynamism—writers needed new forms. Jazz provided a model: its syncopation, its improvisational freedom, its challenge to classical musical rules mirrored how writers wanted to challenge literary conventions. By adopting jazz-informed principles, writers could create literature that sounded like the era it captured. Jazz aesthetics gave writers permission to experiment, improvise, and break conventional rules in service of authenticity. This made form itself expressive of content: the modernist innovation and jazz-influenced structure didn't just describe the Jazz Age; they enacted it."
 ```
 

@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Pope and Swift wielded satire as enlightenment critique, using elevated neoclassical form (heroic couplets, mock-epic) to expose folly and corruption. Pope's formal perfection combined with penetrating social observation, while Swift's Gulliver's Travels and A Modest Proposal used fantastic narratives and deadpan irony to anatomize vice. Their work established satire as morally serious and aesthetically sophisticated.
 
+## How It's Best Learned
+Read "A Modest Proposal" first without notes and mark the exact point where you realize the proposal is monstrous. Then reread it to find whose language Swift is imitating. For Pope, take a passage from *The Rape of the Lock*, such as the card game or the arming at the dressing table, and match each detail to the epic scene it parodies.
+
+## Common Misconceptions
+- "The Rape of the Lock" is about sexual assault. (Here "rape" carries its older sense of seizing or carrying off; the poem concerns the theft of a lock of hair.)
+- Gulliver speaks for Swift. (Gulliver is often naive or self-deceived, and by the voyage to the Houyhnhnms he is himself a target of the satire.)
+- The target of "A Modest Proposal" is the Irish poor. (Swift attacks the landlords, economists and English policy that already treated the Irish poor as mere commodities.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Pope and Swift wielded satire as enlightenment critique, using elevated neoclass
 
 - type: short-answer
   question: "Explain how Pope's formal perfection and Swift's deadpan irony serve similar satirical purposes despite different techniques."
+  answer: "Both open a gap between manner and matter. Pope lavishes flawless couplets and epic grandeur on trivial affairs, exposing their pettiness, while Swift states atrocity in calm, reasonable prose, exposing inhumanity."
   explanation: "Pope's formal perfection in heroic couplets requires extreme precision: rhyme, meter, elegant language all executed flawlessly. But this technical mastery serves ironic purpose: applied to petty subjects, the perfection exposes how petty those subjects are. The gap between technical excellence and trivial content becomes the critique. Swift's deadpan irony takes opposite approach: states horrors in calm, rationalist tone. The gap between content (eating infants) and tone (composed, logical) becomes unbearable. Both use form/tone gap as critical instrument: perfection exposing pettiness; calmness exposing atrocity. Different techniques, same satirical logic."
 ```
 

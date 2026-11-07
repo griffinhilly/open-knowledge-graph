@@ -28,6 +28,14 @@ status: draft
 ## Core Idea
 Modernism rejected nineteenth-century conventions of linear narrative and unified form, embracing fragmentation, collage, and non-linear temporal structures as appropriate responses to modern consciousness and historical rupture. Modernist writers treated form as intrinsically expressive of meaning and truth.
 
+## How It's Best Learned
+Work through the first section of T. S. Eliot's *The Waste Land* with a highlighter, marking each change of speaker, language or quoted source. Then ask what links the fragments. Next, read the opening of Faulkner's *The Sound and the Fury* and rebuild the events in chronological order. Rebuilding the order by hand shows how much the reader assembles.
+
+## Common Misconceptions
+- Fragmented form means the work has no structure. (Modernist works often rest on hidden scaffolds, such as the Homeric plan of *Ulysses* or the myths and allusions that bind *The Waste Land*.)
+- Modernists rejected the literary past entirely. (Eliot argued that new work must engage tradition, and modernist texts are dense with quotation and allusion to older literature.)
+- Modernist fragmentation began with the First World War. (Writers such as Joseph Conrad and Henry James were already disrupting chronology and point of view before 1914, though the war deepened the sense of rupture.)
+
 ## Questions
 
 ```yaml
@@ -63,6 +71,7 @@ Modernism rejected nineteenth-century conventions of linear narrative and unifie
 
 - type: short-answer
   question: "Explain how modernist formal innovation (fragmentation, collage, non-linearity) served as response to modern historical experience."
+  answer: "War, new psychology, new physics and rapid technological change undermined the coherent, progressive reality that linear narrative assumed. Fragmented, non-linear and collage forms mirrored a world of broken continuity and divided consciousness, so modernists saw them as more honest."
   explanation: "Nineteenth-century fiction assumed coherent reality progressively unfolding. But modernity shattered this: World War I's mechanized killing revealed civilization's violence; Freud revealed unconscious beneath conscious mind; Einstein revealed reality's relativity; rapid technological change created constant disruption. Linear narrative couldn't represent experience where consciousness is fragmented, time doesn't flow straight, multiple perspectives conflict. Fragmented form, non-linear chronology, collage technique—these mirrored actual modern experience. Using fragmented form wasn't stylistic excess but philosophical honesty: claiming narrative could represent modern experience through nineteenth-century techniques would be false."
 ```
 

@@ -26,6 +26,14 @@ status: draft
 ## Core Idea
 Modernism (roughly 1890-1945) constituted a radical break with nineteenth-century conventions, embracing fragmentation and formal difficulty to represent consciousness and subjective experience. Modernist writers abandoned linear narrative and authorial omniscience in favor of experimental forms (stream of consciousness, collage, spatial narratives) mirroring twentieth-century alienation. The movement treated literature as specialized discourse requiring interpretation rather than authorial clarity.
 
+## How It's Best Learned
+Put an omniscient paragraph from a nineteenth-century novel, such as George Eliot's *Middlemarch*, beside the opening pages of Virginia Woolf's *Mrs Dalloway*. List who knows what, how time moves, and where the narrator stands. Then place a few landmark works on a timeline with events in the other arts, such as the 1913 Paris premiere of Stravinsky's *Rite of Spring*. The comparison shows the break, and the timeline shows its reach.
+
+## Common Misconceptions
+- "Modernist" just means modern or recent. (Modernism names a specific historical period, roughly 1890 to 1945, and the artistic practices of that time.)
+- Modernism was one organized movement with a single program. (It was a cluster of overlapping groups and individuals across many countries and arts, including Imagism, Futurism and the Harlem Renaissance.)
+- Modernists ignored popular culture. (Joyce filled *Ulysses* with advertising, newspapers and popular songs, and Eliot worked music-hall and ragtime echoes into *The Waste Land*.)
+
 ## Questions
 
 ```yaml
@@ -61,6 +69,7 @@ Modernism (roughly 1890-1945) constituted a radical break with nineteenth-centur
 
 - type: short-answer
   question: "Explain why modernism's formal difficulty mirrors twentieth-century historical experience."
+  answer: "Nineteenth-century forms assumed a coherent, knowable world, but war, new psychology, relativity and rapid change made experience feel disjointed and uncertain. Difficult, fragmented forms reproduce that experience, making readers interpret constantly as modern life required."
   explanation: "The nineteenth century assumed coherence: history progresses linearly, consciousness is stable and knowable, reality can be represented clearly. But twentieth-century experience shattered these assumptions. War mechanized killing; Freud revealed unconscious depth; Einstein revealed relativity; rapid technological change created constant disruption. Using nineteenth-century forms that assume coherence and clarity would deny actual experience. Fragmented form, difficulty, non-linear narrative—these match reality as actually experienced: disjointed, unclear, requiring constant reinterpretation."
 ```
 

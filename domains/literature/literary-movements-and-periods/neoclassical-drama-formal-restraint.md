@@ -29,6 +29,14 @@ status: draft
 ## Core Idea
 Neoclassical drama imposed strict adherence to the three unities (action, time, place) and the hierarchy of genres, viewing classical Greek and Roman drama as models of formal perfection. This movement privileged restraint, decorum, and rational order, using drama as a vehicle for moral instruction and aesthetic refinement.
 
+## How It's Best Learned
+Read Racine's *Phèdre* and check it against the rules: one action, one day, one place, no violence onstage, elevated verse throughout. Note how the death of Hippolyte reaches the audience only through a messenger's speech. Then compare *The Winter's Tale*, which breaks every unity, and read Samuel Johnson's defense of Shakespeare against the rules in his 1765 Preface.
+
+## Common Misconceptions
+- The three unities come directly from Aristotle. (Aristotle stressed unity of action and noted that tragedy tends to keep within about one day; the strict trio was codified by later Renaissance critics.)
+- Restraint means neoclassical tragedy lacks passion. (Racine's characters are consumed by desire and jealousy; decorum controls how passion is shown, not whether it exists.)
+- Everyone in the period accepted the rules. (Corneille's *Le Cid* set off a public quarrel over whether it broke them, and English critics debated whether Shakespeare's freedom was a fault.)
+
 ## Questions
 
 ```yaml
@@ -64,6 +72,7 @@ Neoclassical drama imposed strict adherence to the three unities (action, time, 
 
 - type: short-answer
   question: "Explain how neoclassical formal constraints (unities, decorum, hierarchy) served moral and aesthetic purposes simultaneously."
+  answer: "The unities concentrated action so that its moral lesson stood out clearly, and decorum kept speech and conduct fitting and free of vulgarity. Mastering these limits also showed artistic excellence, so the same discipline delivered both instruction and refined beauty."
   explanation: "Formal constraints created conditions for moral effect: concentrated action within unities forced clarity; decorum ensured appropriate behavior and language; hierarchy of genres matched form to content. Together, these constraints prevented excess and obscurity. They made moral lessons clear through disciplined form. Aesthetically, constraints created perfection through mastery: achieving beauty within strict limitations demonstrated artistic excellence. The restraint itself was refined. Rather than seeing constraints as limitations, neoclassicists saw them as enabling the highest art. This paralleled neoclassical philosophy: reason, order, and decorum create both moral propriety and aesthetic beauty."
 ```
 

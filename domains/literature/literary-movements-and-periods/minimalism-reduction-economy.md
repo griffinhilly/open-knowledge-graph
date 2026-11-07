@@ -24,6 +24,14 @@ status: draft
 ## Core Idea
 Minimalist literature stripped narrative to essential elements, using sparse prose, limited vocabulary, and emotional restraint to suggest depth beneath surface. The movement treated stylistic economy as a philosophical statement and aesthetic principle.
 
+## How It's Best Learned
+Read a short story by Raymond Carver, such as "Why Don't You Dance?", and list what the narrator never tells you: backstory, motives, feelings. Then write the paragraph a traditional narrator might add to explain the scene, and compare the effect. Reading one of Hemingway's early stories alongside shows where the technique came from.
+
+## Common Misconceptions
+- Minimalist means short. (Minimalism describes a way of writing, with plain diction, little explanation and much omitted; a long work can be minimalist and a short one can be ornate.)
+- Spare prose means shallow meaning. (The omissions leave gaps the reader must fill, so a flat surface often carries grief, fear or anger left unstated.)
+- The minimalist style in famous story collections came from the author alone. (Gordon Lish's heavy cuts to Carver's stories shaped *What We Talk About When We Talk About Love*, as the later publication of Carver's longer versions showed.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +67,7 @@ Minimalist literature stripped narrative to essential elements, using sparse pro
 
 - type: short-answer
   question: "Explain how minimalism's refusal to explain emotion creates emotional intensity."
+  answer: "When the narrator does not name a character's feelings, readers must infer them from small actions and context. Recognizing the emotion for themselves makes it hit harder and seem more real, because restraint avoids sentimentality."
   explanation: "Traditional narrative explains characters' feelings: 'He was heartbroken.' Minimalism omits such explanation. A character does something simple—orders a drink, watches television, drives. No emotional commentary accompanies it. Readers must infer emotion from action and context. This creates particular effect: the absence of emotional language makes emotional content more powerful by requiring readers to recognize it themselves. The restraint paradoxically intensifies emotion by refusing sentimentality. This makes emotional content more believable—real people often hide feelings behind ordinary actions. By refusing elaborate expression, minimalism achieves emotional authenticity. The philosophical claim: reality is simpler than elaborate narration suggests; truth emerges through reduction, not addition."
 ```
 

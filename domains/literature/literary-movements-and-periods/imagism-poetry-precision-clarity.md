@@ -26,6 +26,14 @@ status: draft
 ## Core Idea
 Imagism reacted to symbolism's vagueness by demanding precise presentation of concrete images without narrative or moral commentary. The movement established poetic principles of clarity, economy, and direct treatment of the object, influencing modernist poetry's rejection of sentimentality.
 
+## How It's Best Learned
+Start with Ezra Pound's two-line "In a Station of the Metro" and H.D.'s "Oread," and ask what each poem leaves out. Then take a wordy Victorian stanza and revise it by Imagist rules: cut every word that adds no image, remove the moral, keep the concrete detail. Comparing your revision with the original shows what the principles do in practice.
+
+## Common Misconceptions
+- Imagist poems contain no emotion. (Pound described the image as an intellectual and emotional complex presented in an instant; the feeling is carried by the image instead of stated.)
+- An Imagist poem is any short poem with a picture in it. (The movement had specific rules: direct treatment of the thing, no word that does not contribute, and rhythm built on the musical phrase instead of a fixed meter.)
+- Imagism lasted as a long-running school. (As an organized movement it was brief, around the 1910s, but its principles carried into much later modernist poetry.)
+
 ## Questions
 
 ```yaml
@@ -61,6 +69,7 @@ Imagism reacted to symbolism's vagueness by demanding precise presentation of co
 
 - type: short-answer
   question: "Explain how Imagism's commitment to clarity and direct treatment of objects served both aesthetic and philosophical purposes."
+  answer: "Aesthetically, cutting commentary and excess words gave Imagist poems concentrated intensity in which every word counts. Philosophically, the method assumed that careful attention to a concrete thing can yield meaning directly, without moral or interpretive mediation."
   explanation: "Aesthetically, imagism's precision and economy created concentrated intensity. By eliminating unnecessary language, sentimentality, and commentary, Imagist poems achieve crystalline clarity where every word matters. The poet's work is not to explain but to present so carefully that readers perceive directly. Philosophically, this reflects a particular understanding of perception and language. Imagism claims that direct perception of the object is possible and valuable—that meaning can emerge from careful attention to concrete reality without mediation through interpretation or moral commentary. This is a kind of epistemological claim: if you look carefully at the thing itself, meaning will be evident. This makes Imagism simultaneously modernist (rejecting 19th-century excess and sentimentality) and realist (insisting on direct encounter with the world)."
 ```
 

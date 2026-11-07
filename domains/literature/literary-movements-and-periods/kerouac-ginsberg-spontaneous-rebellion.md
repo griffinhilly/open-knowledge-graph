@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Jack Kerouac and Allen Ginsberg developed formal innovations expressing Beat values: Kerouac's spontaneous prose attempting to transcribe consciousness without revision, and Ginsberg's long-lined prophetic verse combining personal testimony and visionary insight. Both used autobiographical material and exploration of desire as legitimate literary subjects. Their work challenged modernism's polish while maintaining artistic ambition.
 
+## How It's Best Learned
+Read Kerouac's short list "Essentials of Spontaneous Prose" and then a long passage from *On the Road*, marking where sentences run on like a jazz solo. Next, read the first section of Ginsberg's "Howl" aloud, taking one breath per line, and compare its long lines with a passage of Walt Whitman. Reading aloud makes the breath-based rhythm audible.
+
+## Common Misconceptions
+- *On the Road* was published exactly as Kerouac typed it in one burst. (He typed a long scroll draft quickly in 1951, but the published 1957 novel came from years of revision.)
+- Spontaneous composition means the writing has no craft. (Kerouac set out a deliberate method, and Ginsberg reworked "Howl" through several drafts while keeping the feel of improvisation.)
+- Ginsberg's long line came from nowhere. (He drew openly on Walt Whitman's long lines and on William Blake's visionary poetry.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Jack Kerouac and Allen Ginsberg developed formal innovations expressing Beat val
 
 - type: short-answer
   question: "Explain how spontaneous form (lack of revision, improvisational quality) functioned as political and philosophical statement for Kerouac and Ginsberg."
+  answer: "Philosophically, spontaneous form claimed that unedited, associative consciousness is worth representing in literature. Politically, it challenged the literary establishment's standards of polish and control, so the method of writing itself enacted the freedom the work described."
   explanation: "Modernism's insistence on polish, revision, and formal control reflected assumptions about what legitimate literature should be. By refusing revision and embracing spontaneous composition, Kerouac and Ginsberg made formal statement: the immediate, unpolished, authentic voice is artistically valid. This is philosophical: it claims that consciousness itself—unedited, associative, containing both profound and trivial elements—is worthy of literary representation. It is political: it challenges literary institutions' gatekeeping by asserting different standards of value. If polish and control aren't required, then anyone with authentic voice and vision can be a writer. The spontaneous form proves the method's validity: the poem or prose about authentic liberation should itself be written authentically, without mediation through editing and revision."
 ```
 

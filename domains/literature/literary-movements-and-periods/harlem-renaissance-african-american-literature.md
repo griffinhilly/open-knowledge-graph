@@ -25,6 +25,14 @@ status: draft
 ## Core Idea
 The Harlem Renaissance created a flowering of African-American literature, music, and visual art centered in 1920s Harlem, celebrating Black culture, identity, and artistic achievement. The movement synthesized modernist literary innovation with African-American vernacular, blues forms, and exploration of racial identity.
 
+## How It's Best Learned
+Start with Alain Locke's anthology *The New Negro* (1925) to see how the movement presented itself. Then put a sonnet by Countee Cullen beside a blues poem by Langston Hughes and compare how each handles form and speech. Reading Hughes's essay "The Negro Artist and the Racial Mountain" afterward shows that these choices were argued over openly.
+
+## Common Misconceptions
+- Harlem Renaissance writers shared one agreed program. (They argued sharply over whether to use dialect and blues forms or traditional verse, and over whether art should serve racial uplift.)
+- Every Harlem Renaissance writer wrote in vernacular. (Countee Cullen and Claude McKay wrote many poems in traditional forms such as the sonnet, while Hughes drew on blues and spoken idiom.)
+- The movement was only about literature. (Music, visual art, theatre, magazines and political thought were part of the same cultural flowering.)
+
 ## Questions
 
 ```yaml
@@ -60,6 +68,7 @@ The Harlem Renaissance created a flowering of African-American literature, music
 
 - type: short-answer
   question: "Explain how synthesizing modernist innovation with African-American vernacular made both traditions more powerful and expansive."
+  answer: "Applying modernist techniques to Black experience showed that modernism was not a white or European preserve. At the same time, vernacular speech and blues forms, once dismissed, gained recognition as serious literary material."
   explanation: "Modernism had challenged realistic conventions and explored consciousness, fragmentation, and formal innovation. But it was often associated with European and white American concerns. By using modernist techniques to represent African-American experience—employing stream of consciousness for Black characters, using vernacular speech in fragmented narrative, adapting blues structures—the Harlem Renaissance demonstrated that modernism was not limited to white expression. It could serve other cultures and concerns. Simultaneously, African-American vernacular, previously dismissed as 'uneducated' or merely entertaining, gained literary legitimacy through modernist treatment. The combination proved expansive: modernism became available for African-American voices, and African-American traditions gained recognition as worthy of modernist sophistication. This showed that literary traditions and innovations belong to no single group but could be adapted, transformed, and claimed by different cultures."
 ```
 

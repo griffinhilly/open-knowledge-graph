@@ -23,6 +23,15 @@ status: draft
 ## Core Idea
 James Joyce's Ulysses employs stream of consciousness to represent Leopold Bloom's interior and exterior worlds over a single Dublin day, paralleling Homer's Odyssey. Joyce's formal innovation—shifting narrative modes, linguistic layering, preconscious thought representation—created a text demanding interpretation and collaboration from readers. Ulysses demonstrated that the novel could sustain philosophical density while representing ordinary consciousness.
 
+## How It's Best Learned
+Begin with the "Calypso" episode, where Bloom first appears making breakfast, and follow his thoughts sentence by sentence as they move between kidney, cat and memory. Keep a chart of each episode's Homeric parallel and its dominant style. Read the final "Penelope" episode, Molly Bloom's unpunctuated monologue, aloud. A guide or annotated edition helps with the many Dublin references.
+
+## Common Misconceptions
+- Ulysses is written entirely in stream of consciousness. (Its episodes shift between many styles, including newspaper headlines, a play script, parodies of English prose history and a question-and-answer catechism.)
+- The novel follows only Leopold Bloom. (The first three episodes centre on Stephen Dedalus, and the last is given to Molly Bloom's thoughts.)
+- The Homeric chapter titles appear in the book. (Joyce used names like "Calypso" and "Penelope" in his plans and letters, but the published novel prints no episode titles.)
+- Joyce invented stream of consciousness. (Earlier writers had experimented with interior monologue, and the phrase comes from psychology; Joyce pushed the technique further than anyone before him.)
+
 ## Questions
 
 ```yaml
@@ -58,6 +67,7 @@ James Joyce's Ulysses employs stream of consciousness to represent Leopold Bloom
 
 - type: short-answer
   question: "Explain how Joyce's representation of preconscious thought and shifting narrative modes changed what the novel could represent about human experience."
+  answer: "Earlier novels mostly reported conscious thought and action through a narrator. Joyce's stream of consciousness and changing styles rendered the associative, fragmentary flow of memory and sensation directly, so the novel could show how a mind actually moves through a day."
   explanation: "Before Joyce, novels represented characters' conscious thoughts and external actions. The narrator explained psychology or reported speech. Joyce recognized that actual consciousness includes layers beneath awareness—associations, memories, sensations that the conscious mind doesn't organize or explain. By using stream of consciousness, shifting narrative modes (direct narration, internal monologue, stylistic parody), and disorienting linguistic experiments, Joyce attempted to represent consciousness more completely. This included not just what Bloom thinks deliberately but the fragmentary, associative, often incoherent way actual consciousness works. The formal innovations serve this purpose: they disorient readers, demanding active interpretation and making readers experience something like consciousness itself—its difficulty, its multiplicity, its resistance to neat explanation. This proved revolutionary: literature could now represent psychological and phenomenological dimensions of experience that previous forms could not capture."
 ```
 

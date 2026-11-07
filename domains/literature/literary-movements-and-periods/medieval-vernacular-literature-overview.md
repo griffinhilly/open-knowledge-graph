@@ -26,6 +26,14 @@ status: draft
 ## Core Idea
 Medieval literature (5th-15th centuries) saw the rise of vernacular languages replacing Latin, marking a shift in cultural authority from clergy to nobility and merchant classes. Works ranged from courtly romances to religious allegories, often mingling Christian theology with pagan tradition. The period established new literary forms and demonstrated how literature could serve both entertainment and spiritual instruction.
 
+## How It's Best Learned
+Build a timeline that places a few landmark vernacular works, such as *Beowulf*, the *Song of Roland*, Dante's *Divine Comedy* and Chaucer's *Canterbury Tales*, beside the Latin writing that continued alongside them. Then look at one irony: Dante defended poetry in Italian in a treatise he wrote in Latin. For each work, ask who the audience was and whether it was read aloud.
+
+## Common Misconceptions
+- Latin disappeared as vernacular literature rose. (Latin remained the main language of the church, universities, law and scholarship throughout the period.)
+- Vernacular literature was written only by laypeople, and Latin only by clergy. (Many clerics wrote in the vernacular, including saints' lives and sermons, and some lay writers also wrote in Latin.)
+- Medieval readers read books silently and alone. (Much vernacular literature was read aloud or performed to listeners, which shaped its repetitions and direct addresses to an audience.)
+
 ## Questions
 
 ```yaml
@@ -61,6 +69,7 @@ Medieval literature (5th-15th centuries) saw the rise of vernacular languages re
 
 - type: short-answer
   question: "Explain how vernacular literature's rise shifted cultural authority and changed what literature could express."
+  answer: "Writing in native languages widened who could read, write and commission literature beyond the Latin-educated clergy. Nobles and merchants could sponsor works reflecting their own values, so literature took on courtly romance, adventure and local concerns alongside religious instruction."
   explanation: "When Latin was the only literary language, literacy and authorship were clergy preserves. Only the educated church could write authoritative texts. Vernacular literature democratized access: more people could read in their native language, and more people could write. Nobility and merchants could now commission and create literature reflecting their interests and values. This meant literature could address different concerns: courtly romance instead of only religious allegory, adventure instead of only moral instruction. Vernacular literature allowed expression of local, regional, and class-specific concerns. It validated vernacular speech itself as literary worthy. This shift transformed what literature could say and who could say it."
 ```
 

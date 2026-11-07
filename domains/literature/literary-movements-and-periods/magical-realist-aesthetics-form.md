@@ -27,6 +27,14 @@ status: draft
 ## Core Idea
 Magical realism integrated fantastic and impossible elements into realistic narrative as if they were ordinary, treating magical events as part of the texture of reality. This aesthetic became particularly important for postcolonial and Latin American literature, blending indigenous narrative traditions with modernist formal innovation.
 
+## How It's Best Learned
+Read the scene in García Márquez's *One Hundred Years of Solitude* where Remedios the Beauty rises into the sky while folding sheets. Mark how the narrator's tone stays calm and practical, with Fernanda more upset about losing her good sheets than amazed. Then rewrite two sentences in the astonished tone of a fantasy story. The contrast shows that the narrator's flat tone does the work.
+
+## Common Misconceptions
+- Magical realism is fantasy set in Latin America. (Fantasy usually builds a separate magical world or marks magic as extraordinary, while magical realism places the impossible inside a recognizable society without comment.)
+- Only Latin American writers use magical realism. (Writers such as Salman Rushdie in *Midnight's Children* and Toni Morrison in *Beloved* are often read as working in the mode.)
+- The magic is decorative and unrelated to history. (Impossible events often carry political meaning, as when the banana-company massacre in García Márquez's novel is erased from official memory.)
+
 ## Questions
 
 ```yaml
@@ -62,6 +70,7 @@ Magical realism integrated fantastic and impossible elements into realistic narr
 
 - type: short-answer
   question: "Explain how treating magic as ordinary allows magical realism to express alternative worldviews and challenge Western literary dominance."
+  answer: "Presenting magic as an ordinary part of reality lets the narrative take seriously worldviews in which the spiritual and material mix, without labeling them primitive. That challenges the assumption that Western realism's purely rational world is the universal standard for serious literature."
   explanation: "Western realism assumes a world where magic doesn't exist, where reality is rationally comprehensible. But indigenous and non-Western worldviews often incorporate spiritual, magical, or supernatural dimensions as natural parts of reality. By treating magic as ordinary, magical realism expresses these worldviews without dismissing them as primitive. It says: in this world, magic exists naturally alongside realistic events. This challenges the assumption that Western realism represents universal reality. By blending indigenous magical traditions with modernist form, magical realism proves that alternative perspectives can achieve literary sophistication. This proved particularly powerful for postcolonial writers: it allowed them to honor their traditions while creating serious literature that resists Western literary dominance."
 ```
 

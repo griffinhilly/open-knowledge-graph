@@ -26,6 +26,14 @@ status: draft
 ## Core Idea
 The Greco-Roman epic established formal conventions for extended narrative poetry celebrating heroic deeds and national destiny through elevated language, vast scope, and archetypal hero journeys. Works like the Iliad, Odyssey, and Aeneid created a template that influenced literary production for two millennia.
 
+## How It's Best Learned
+Read the opening lines of the Iliad, the Odyssey and the Aeneid side by side and mark the shared conventions: the invocation of the Muse, the statement of theme, the start in the middle of events. Then read one extended simile aloud and ask what it compares and why. Comparing Homer's Achilles with Virgil's Aeneas shows how the Roman poet turned personal glory toward national duty.
+
+## Common Misconceptions
+- The Iliad tells the whole story of the Trojan War. (It covers a short stretch late in the war, centred on Achilles' wrath, and ends before Troy falls.)
+- Epic heroes are moral models to imitate. (Achilles' anger causes great suffering among his own side, and epics often examine the costs of heroic pride.)
+- Homer and Virgil wrote the same kind of epic. (The Homeric poems grew out of an oral tradition, while Virgil composed the Aeneid as a written work that deliberately imitates and answers Homer.)
+
 ## Questions
 
 ```yaml
@@ -61,6 +69,7 @@ The Greco-Roman epic established formal conventions for extended narrative poetr
 
 - type: short-answer
   question: "Explain how the epic's combination of vast scope, archetypal patterns, and elevated language created a form suitable for celebrating national destiny and heroic achievement."
+  answer: "Vast scope sets individual deeds among wars, voyages and gods, so they carry national and cosmic weight. Archetypal patterns make the hero representative of human experience, and elevated verse gives the subject a matching grandeur."
   explanation: "By presenting individual heroic deeds within vast temporal and spatial scope (battles affecting nations, heroes journeying across seas and through underworlds), the epic elevates these deeds to cosmic significance. By employing archetypal patterns—heroes facing trials, achieving transformation, discovering identity—the epic positions individual quests as instances of universal human experience. By using elevated language and formal verse, the epic creates formal grandeur matching the thematic grandeur. Together, these elements allow the epic to treat national history and individual heroism as worthy of the highest literary art. A king's decision in an epic battle affects nations; a hero's journey reveals human possibility. The form elevates the content: vast scope, archetypal pattern, and elevated language work together to say: these deeds matter, these figures are representative, this story reveals universal truths about courage, fate, and human excellence."
 ```
 

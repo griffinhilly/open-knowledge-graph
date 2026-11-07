@@ -25,6 +25,14 @@ status: draft
 ## Core Idea
 Naturalism applied scientific principles to fiction, treating human behavior as determined by heredity, environment, and physiological drives rather than individual will. Naturalist writers adopted clinical observation and investigative methods to depict humans as biological organisms subject to natural laws.
 
+## How It's Best Learned
+Read the opening chapters of a naturalist novel, such as Stephen Crane's *Maggie: A Girl of the Streets* or Zola's *Germinal*, and keep three columns: heredity, environment and drives. Log each force that pushes a character toward their fate. Then read a short passage from Zola's essay "The Experimental Novel" and compare his claims with what the novel actually shows.
+
+## Common Misconceptions
+- Naturalism is writing about nature. (The name refers to the natural sciences; much naturalist fiction is set in slums, mines, factories and cities.)
+- A naturalist novel is a real scientific experiment. (The author invents both the conditions and the outcome, so the "experiment" is a method of fiction and an argument, not a test.)
+- Naturalist writers were detached and took no moral stance. (Their clinical style often serves social protest, as *Germinal* exposes the conditions of coal miners.)
+
 ## Questions
 
 ```yaml
@@ -60,6 +68,7 @@ Naturalism applied scientific principles to fiction, treating human behavior as 
 
 - type: short-answer
   question: "Explain how naturalism's scientific methodology changed what literature could depict about human nature."
+  answer: "By treating people as products of heredity and environment, naturalism turned fiction toward ordinary people ground down by circumstances. Poverty, illness and degradation became serious subjects shown without sentiment, and responsibility shifted partly from the individual to the forces acting on them."
   explanation: "If humans are determined by heredity and environment, literature should investigate how these forces operate. Rather than celebrating heroic individuals, naturalist fiction showed ordinary people ground down by circumstances. Clinical observation meant depicting suffering, squalor, and determinism without sentimentality. This expanded literature's subject matter: poverty, hereditary illness, environmental degradation became serious topics. It also changed literature's philosophical stance: humans aren't entirely responsible for their choices; circumstances constrain possibility. This deterministic vision was darker than Romantic individualism but philosophically rigorous."
 ```
 

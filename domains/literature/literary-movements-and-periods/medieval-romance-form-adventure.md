@@ -26,6 +26,14 @@ status: draft
 ## Core Idea
 Medieval romance developed as a narrative form featuring knights, quests, magic, and courtly values, emphasizing episodic adventure and emotional intensity over classical epic's structural unity. Romances in verse and prose created a flexible narrative template that permitted subplot, digression, and supernatural intervention.
 
+## How It's Best Learned
+Read *Sir Gawain and the Green Knight* in a modern translation and chart its episodes: the challenge at court, the search for the Green Chapel, the three hunts set against the three temptations, the return blow. Laying the hunts and temptations side by side shows how a romance can be episodic and still tightly patterned. A comparison with one book of the Iliad sharpens the contrast with epic.
+
+## Common Misconceptions
+- A medieval romance is a love story. (The word first meant a story in the vernacular "romance" languages; love is common, but quests, tests and marvels drive the form.)
+- Episodic means formless. (Romances are often carefully patterned, and later prose romances interweave several knights' stories in a planned technique called interlace.)
+- Romance heroes are flawless models of chivalry. (Many romances test and expose their knights, as Gawain fails his test by keeping the green girdle to save his life.)
+
 ## Questions
 
 ```yaml
@@ -61,6 +69,7 @@ Medieval romance developed as a narrative form featuring knights, quests, magic,
 
 - type: short-answer
   question: "Explain how romance's flexibility (permitting episodes, subplots, digression) expanded narrative possibilities compared to epic's unity."
+  answer: "Epic's unity bound every part to a single action, while romance let multiple quests, secondary characters' stories and digressions stand as valuable in themselves. Later prose fiction inherited this freedom, which helped the novel interweave many characters and plots."
   explanation: "Epic's formal unity required single action, clear progression, and concentrated effect. Romance's flexibility permitted multiple adventures, secondary characters' stories, and digressive exploration. This allowed romance to accommodate more material: multiple quests, romantic subplots, magical interventions. Rather than everything serving one action, romance elements could be valuable in themselves. This flexibility proved enormously influential: subsequent prose fiction inherited romance's permission for subplots and digression. The novel's capacity to develop multiple characters and interweaving plots comes partly from romance traditions. Romance demonstrated that coherent narrative didn't require classical unity, opening possibilities for more complex, more flexible narrative forms."
 ```
 

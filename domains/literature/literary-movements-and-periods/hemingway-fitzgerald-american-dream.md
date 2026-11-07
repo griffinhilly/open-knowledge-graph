@@ -19,6 +19,14 @@ status: draft
 ## Core Idea
 Ernest Hemingway and F. Scott Fitzgerald examined the American Dream—wealth, success, romance—revealing its corruption and the disillusionment it produces. Hemingway's sparse prose and Fitzgerald's lyrical evocation of desire offered distinct critiques of American culture. Both portrayed protagonists struggling between aspiration and reality, exploring how modern life produces emotional numbness and moral failure.
 
+## How It's Best Learned
+Read the closing page of *The Great Gatsby*, with its green light, beside Hemingway's short story "Hills Like White Elephants." In Fitzgerald, underline the words that make longing beautiful. In Hemingway, list what the couple never says aloud. Comparing what each style puts on the page and what it leaves out shows two different routes to disillusionment.
+
+## Common Misconceptions
+- Gatsby is a self-made man who earned his fortune honestly. (The novel hints that his wealth comes from bootlegging and shady deals, so his rise already depends on corruption.)
+- Gatsby mainly wants money. (He pursues wealth to win back Daisy and to recover a past moment, which is why his dream cannot be fulfilled.)
+- Hemingway's plain prose means his characters feel little. (He leaves strong feeling unstated so that the reader senses it beneath the surface, an approach often called the iceberg theory.)
+
 ## Questions
 
 ```yaml
@@ -54,6 +62,7 @@ Ernest Hemingway and F. Scott Fitzgerald examined the American Dream—wealth, s
 
 - type: short-answer
   question: "Explain how Hemingway and Fitzgerald's different stylistic approaches each reveal corruption in the American Dream and American culture."
+  answer: "Hemingway's sparse prose leaves emotion unstated, so what goes unsaid exposes the emptiness beneath his characters' controlled surfaces. Fitzgerald's lyrical prose makes the Dream seductive, and that beauty turns ironic as the dreamers fail and are destroyed."
   explanation: "Hemingway's sparse, minimal prose strips away sentimentality and decoration. When Hemingway writes about characters facing modern life, the simplicity of language reveals emotional emptiness and numbness. By what's NOT said, Hemingway shows damage and loss. Fitzgerald's lush, lyrical language captures the seductiveness of American Dream imagery—wealth, beauty, romance, success. But the lyric beauty itself becomes ironic: the gorgeous language describes characters whose dreams corrupt them and who fail morally. Fitzgerald shows how seductive the Dream is, how beautiful the vision, even as he shows its falsity and destructive power. Both critiques work through style: Hemingway's emptiness reveals the Dream's spiritual bankruptcy; Fitzgerald's beauty reveals how the Dream seduces while destroying. Together, they demonstrate that the American Dream itself—with all it promises—is fundamentally corrupted and corrupting."
 ```
 

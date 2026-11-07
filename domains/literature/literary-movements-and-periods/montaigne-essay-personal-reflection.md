@@ -25,6 +25,14 @@ status: draft
 ## Core Idea
 Montaigne invented the essay as a philosophical form blending personal reflection, scholarly authority, and exploratory digression. Essays established a prose form that valued intellectual honesty, skepticism, and the writer's personality as an instrument of investigation, creating a new possibility for serious thought expressed through subjective voice.
 
+## How It's Best Learned
+Read Montaigne's brief note "To the Reader," where he says he is himself the matter of his book, and then a longer essay such as "Of Cannibals." Trace each turn in the argument and mark every classical quotation he leans on. Then write a one-page essai of your own on a small question, letting it change direction once.
+
+## Common Misconceptions
+- Montaigne's essays are personal memoir without scholarship. (They are full of quotations from and references to classical authors such as Seneca and Plutarch, which he tests against his own experience.)
+- An essay in Montaigne's sense is a thesis-driven argument like a school essay. (*Essai* means a trial or attempt, and his pieces explore a question, often reaching no firm conclusion.)
+- Montaigne wrote each essay once and left it. (He kept revising and adding to the *Essais* across later editions, so many essays hold layers of his thinking from different years.)
+
 ## Questions
 
 ```yaml
@@ -60,6 +68,7 @@ Montaigne invented the essay as a philosophical form blending personal reflectio
 
 - type: short-answer
   question: "Explain how Montaigne's use of digression serves intellectual honesty rather than undermining it."
+  answer: "Digression lets the essay follow thought as it actually moves, through unexpected connections and changes of course. That is more honest than an argument arranged backward from a predetermined conclusion."
   explanation: "Traditional philosophical writing moves toward predetermined conclusion. Digression seems to wander. But Montaigne's digressions are honest: thought genuinely wanders, connections aren't always obvious, exploration isn't always linear. By permitting digression, the essay form allows genuine thinking rather than manufactured argument. You can follow an idea, discover it connects to something unexpected, pursue that connection. This actual thinking process seems messier than predetermined conclusion, but it's more honest. It acknowledges that real thought isn't always organized. The essay form, with its permission for digression, allows philosophical work that respects how thinking actually happens."
 ```
 

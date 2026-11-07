@@ -21,6 +21,14 @@ status: draft
 ## Core Idea
 Oscar Wilde exemplified Aestheticism through plays and novels featuring brilliant, paradoxical dialogue inverting conventional values while maintaining formal elegance. His work used wit as moral and social critique, treating style itself as the focus of aesthetic attention. Wilde anticipated Modernist preoccupations while demonstrating that artifice and beauty could be pursued without apology.
 
+## How It's Best Learned
+Collect five epigrams from *The Importance of Being Earnest*, such as Algernon's "The truth is rarely pure and never simple." For each, write down the everyday saying or belief it turns upside down, then ask what the inversion reveals. Read the preface to *The Picture of Dorian Gray* next, and test its claims about art against what happens to Dorian.
+
+## Common Misconceptions
+- *The Picture of Dorian Gray* celebrates living only for pleasure and beauty. (Dorian's pursuit of sensation leads to cruelty, murder and his own death, so the novel tests its aesthetic creed as well as voicing it.)
+- Every epigram in Wilde states Wilde's own opinion. (The lines belong to characters such as Lord Henry or Lady Bracknell, and many are deliberately half-true to provoke thought.)
+- *The Importance of Being Earnest* is pure nonsense with no target. (Its subtitle, "A Trivial Comedy for Serious People," signals satire of Victorian earnestness, marriage and class.)
+
 ## Questions
 
 ```yaml
@@ -56,6 +64,7 @@ Oscar Wilde exemplified Aestheticism through plays and novels featuring brillian
 
 - type: short-answer
   question: "Explain how Wilde's paradoxical dialogue serves both aesthetic and critical purposes."
+  answer: "Wilde's paradoxes give pleasure as polished, surprising wit. By flipping conventional beliefs, they also expose those beliefs as arbitrary social constructions, and the beauty and the critique arrive in the same sentence."
   explanation: "Paradoxes are formally brilliant: they create linguistic wit and verbal sparkle. But they also critique: by stating opposite of conventional belief, paradoxes expose those beliefs as arbitrary. A character saying women should have real power (paradoxical in Victorian context) both entertains through wit and critiques through content. Wilde's genius is that the formal brilliance and critical force cannot be separated. You experience the beauty of language while recognizing the critique embedded in it."
 ```
 

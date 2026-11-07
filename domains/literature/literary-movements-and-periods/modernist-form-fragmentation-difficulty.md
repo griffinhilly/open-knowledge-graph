@@ -21,6 +21,14 @@ status: draft
 ## Core Idea
 Modernist formal innovation—stream of consciousness, non-linear narrative, fragmented perspective, linguistic self-consciousness—reconceived literature's relationship to meaning and representation. These techniques registered philosophical skepticism toward stable meaning while attempting to capture consciousness and subjective experience with unprecedented fidelity. Modernist difficulty was integral to meaning, requiring active interpretation.
 
+## How It's Best Learned
+Write one short moment, such as a woman buying flowers, three ways: an omniscient narrator reporting her thoughts, free indirect style in the manner of Woolf's *Mrs Dalloway*, and an unpunctuated interior monologue like Molly Bloom's. Then compare the three with the real passages. Doing it yourself shows what each technique gains and loses, and why the results are harder to read.
+
+## Common Misconceptions
+- Stream of consciousness means writing without punctuation. (That is one extreme version; Woolf renders the flow of thought in ordinary sentences, often through free indirect style.)
+- Because meaning is unstable, any reading of a modernist text is as good as any other. (Difficult texts still give evidence, and readings must account for their patterns, allusions and structure.)
+- Non-linear narratives jump around at random. (Shifts in time usually follow a logic of association, as when a sensation in the present triggers a memory.)
+
 ## Questions
 
 ```yaml
@@ -56,6 +64,7 @@ Modernist formal innovation—stream of consciousness, non-linear narrative, fra
 
 - type: short-answer
   question: "Explain how linguistic self-consciousness (awareness of language's own limitations) drove modernist formal innovation."
+  answer: "Modernists believed language is never a transparent window, because words carry multiple meanings and shape thought. So they used unusual syntax, repetition and puns to make readers notice language itself, which accepted difficulty as the price of honest representation."
   explanation: "If you believe language is transparent—it simply conveys meaning—then clear, simple language suffices. But modernists recognized language is never transparent. Words carry multiple meanings, histories, cultural baggage. Language shapes what can be thought. Being conscious of language's own nature meant acknowledging this. Linguistic self-consciousness meant drawing attention to form itself. Fragmented sentences, unusual syntax, repetition—these make readers notice language rather than overlooking it. This acknowledgment of language's non-transparency justified difficulty: you can't represent consciousness accurately through transparent language because transparent language doesn't exist."
 ```
 

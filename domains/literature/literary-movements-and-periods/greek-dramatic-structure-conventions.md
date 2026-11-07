@@ -26,6 +26,14 @@ status: draft
 ## Core Idea
 Greek dramatic forms established structural patterns including prologue, episodic action separated by choral interludes, and the chorus as collective voice commenting on action. The unities of action, time, and place, plus the requirement for catharsis, created systematic constraints that influenced dramatic theory for centuries.
 
+## How It's Best Learned
+Take one complete tragedy, such as Sophocles' *Oedipus the King*, and label its parts: prologue, parodos (the chorus's entry song), episodes, stasima (choral odes) and exodos. Write one line on what each choral ode does to the audience's view of the episode before it. Then note which events happen offstage and are reported by a messenger, and ask why.
+
+## Common Misconceptions
+- Greek plays were divided into acts like modern plays. (They alternate spoken episodes with choral songs; the five-act division came later, from Roman practice and Renaissance editors.)
+- The chorus is background decoration. (The chorus sings and dances between episodes, speaks with the characters, and frames how the audience judges the action.)
+- Violent climaxes were shown onstage. (Killings and other violent acts usually happen offstage and are described by a messenger, so the audience meets them through report and reaction.)
+
 ## Questions
 
 ```yaml
@@ -61,6 +69,7 @@ Greek dramatic forms established structural patterns including prologue, episodi
 
 - type: short-answer
   question: "Explain how Greek dramatic constraints (unities, chorus, catharsis requirement) created a distinctive formal approach to exploring human conflict and emotion."
+  answer: "Concentrating the action in one line of events, place and short span leaves the protagonist no escape and keeps the conflict intense. The chorus sets that private conflict against a communal view, and the aim of catharsis directs the whole toward pity and fear."
   explanation: "By limiting action to single place and short timeframe, Greek drama concentrates meaning. You cannot escape through subplot or delay; the action must be resolved. By requiring catharsis—emotional release through pity and fear—Greek drama insists on emotional intensity. The protagonist faces trials and consequences within a compressed timeframe. The chorus provides perspective, allowing audiences to reflect on action's moral implications. Together, these elements create formal conditions for exploring human conflict with intensity and philosophical depth. The constraints force dramatists to focus on essential conflict and emotions. The protagonist cannot hide or escape; the chorus reminds audiences of universal principles; the unities ensure that everything matters. This formal discipline allowed Greek playwrights to achieve extraordinary emotional and intellectual power within structural limitations."
 ```
 

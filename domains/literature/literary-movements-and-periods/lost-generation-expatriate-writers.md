@@ -23,6 +23,14 @@ status: draft
 ## Core Idea
 The Lost Generation—American writers disillusioned by World War I—fled to Paris in the 1920s, creating modernist works exploring alienation and meaninglessness. Their fiction combined sparse, precise style with psychological exploration and moral ambiguity. The expatriate experience shaped their representation of displacement and their critique of American consumer culture.
 
+## How It's Best Learned
+Start with the two epigraphs of Hemingway's *The Sun Also Rises*: Gertrude Stein's "You are all a lost generation" and a passage from Ecclesiastes. Ask how each frames the novel. Then follow the characters through the cafés of Paris and the fiesta in Pamplona and note what they do to avoid feeling. A map of the expatriate circle, with who knew whom, helps keep the writers straight.
+
+## Common Misconceptions
+- "Lost" means these writers were doomed or died young. (The phrase points to a generation left aimless and without settled values after the war.)
+- Every Lost Generation writer fought in the war. (Hemingway served as an ambulance driver in Italy, but Fitzgerald never went overseas, and the label covers writers with very different war experiences.)
+- They moved to Paris only out of despair with America. (Cheap living costs, a favorable exchange rate, artistic community and freedom from Prohibition also drew them.)
+
 ## Questions
 
 ```yaml
@@ -58,6 +66,7 @@ The Lost Generation—American writers disillusioned by World War I—fled to Pa
 
 - type: short-answer
   question: "Explain how the Lost Generation's expatriate experience in Paris enabled both personal and artistic responses to WWI disillusionment."
+  answer: "Living in Paris gave the writers a community of the similarly disillusioned and the distance to criticize American materialism and patriotism. Their own displacement then became a central subject, rendered in a restrained style that conveyed alienation without sentiment."
   explanation: "WWI exposed that Western civilization's claimed progress masked capacity for mechanized slaughter. The values that generations had accepted—nationalism, patriotism, civilization itself—seemed corrupted or meaningless. Fleeing America meant escaping a culture that celebrated these values without reckoning with their catastrophic consequences. In Paris, expatriates found a community of similarly disillusioned writers. Geographic displacement mirrored and enabled psychological separation from American values. This distance allowed critique: writers could investigate American consumer culture, materialism, and hollow patriotism from outside. Living abroad also meant experiencing permanent displacement, alienation from home culture. This became central literary subject: exploring what it means to be estranged, to belong nowhere, to find meaning impossible. The sparse, precise style conveyed this alienation: avoiding sentimentality, confronting meaninglessness directly, representing psychological devastation through formal restraint."
 ```
 

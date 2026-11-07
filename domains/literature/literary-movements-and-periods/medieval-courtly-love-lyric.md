@@ -28,6 +28,14 @@ status: draft
 ## Core Idea
 Courtly love poetry established a codified system of desire, worship, and longing directed toward an idealized, often unattainable beloved, emphasizing emotional intensity and refined emotional states. This tradition created literary conventions for expressing romantic passion that became central to Western lyric poetry.
 
+## How It's Best Learned
+Read a troubadour lyric in translation, such as Bernart de Ventadorn's lark song, and list its moves: praise of the lady, the lover's suffering, his service, his hope or despair. Notice the vocabulary of feudal service, with the lady addressed like a lord. Then read a Petrarch sonnet to Laura and check which moves survive. The checklist makes the convention visible.
+
+## Common Misconceptions
+- Courtly love was always chaste and spiritual. (Many lyrics are openly sensual, and famous courtly romances such as the story of Lancelot and Guinevere involve adultery.)
+- Courtly love describes how medieval couples courted and married. (It is a literary code; the beloved is often married to someone else, and noble marriages were usually arranged for property and alliance.)
+- Medieval poets used the term "courtly love." (The troubadours usually spoke of *fin'amor*, "refined love"; the modern term was coined by a nineteenth-century scholar.)
+
 ## Questions
 
 ```yaml
@@ -63,6 +71,7 @@ Courtly love poetry established a codified system of desire, worship, and longin
 
 - type: short-answer
   question: "Explain how the codification of courtly love created a tradition allowing poets to express emotion while participating in an established system."
+  answer: "The conventions of the idealized beloved, the devoted lover and endless longing gave poets a shared language for desire. Because readers knew the system, small variations within it could carry personal meaning, so each poem was both traditional and individual."
   explanation: "By establishing conventions—the idealized beloved, the worship lover, the expression of longing—courtly love created a system poets could work within. This seems restrictive, but it was liberating: these conventions provided language and forms for expressing emotion that might otherwise be inexpressible. A poet using courtly love conventions could say things about desire and emotion within an accepted framework. The system was shared: readers understood the conventions, so subtle variations and innovations within the system communicated meaning. This allowed emotional expression that was simultaneously personal and traditional, individual and conventional. The codification made emotion itself a serious literary subject, proving that refined emotional states could sustain complex poetry."
 ```
 

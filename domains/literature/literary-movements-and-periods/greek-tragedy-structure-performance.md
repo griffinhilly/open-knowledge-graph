@@ -23,6 +23,14 @@ status: draft
 ## Core Idea
 Greek tragedy emerged in 5th-century Athens as a formal genre combining chorus, protagonist, and antagonist within strict structural conventions, exploring fundamental human conflicts through noble characters brought low by fate or moral transgression. Works like Sophocles' Oedipus Rex established dramatic irony, cathartic emotional release, and the investigation of justice and human knowledge. The form became a template for tragedy across all cultures.
 
+## How It's Best Learned
+Read *Oedipus Rex* while keeping two columns: what Oedipus believes at each scene, and what the audience already knows. The widening gap makes dramatic irony concrete. Picture the original staging too: masked male actors, a chorus singing and dancing in an open-air theatre, and plays entered in competition at a civic festival for the god Dionysus.
+
+## Common Misconceptions
+- Hamartia means a moral "tragic flaw" such as pride. (Aristotle's word is closer to an error or mistake, often made in ignorance, as when Oedipus kills a man he does not know is his father.)
+- Every Greek tragedy ends in death and ruin. (Some end in reconciliation or rescue, as Aeschylus' *Eumenides* closes with the Furies welcomed into Athens.)
+- Greek tragedies were private entertainments like modern theatre outings. (They were staged at public religious festivals before large civic audiences, which is why the plays so often address justice and the city.)
+
 ## Questions
 
 ```yaml
@@ -58,6 +66,7 @@ Greek tragedy emerged in 5th-century Athens as a formal genre combining chorus, 
 
 - type: short-answer
   question: "Explain how dramatic irony in Greek tragedy, combined with investigation of justice and knowledge, creates tragedy's philosophical depth."
+  answer: "In *Oedipus Rex* the audience knows that Oedipus's search for the killer will condemn himself. Watching a wise man destroyed by the knowledge he pursues turns the plot into a question about whether human understanding and justice can protect us from fate."
   explanation: "In Oedipus Rex, Oedipus seeks knowledge and pursues justice, believing understanding will solve his problems. But the audience knows he is seeking to condemn himself. As Oedipus discovers the truth—that he killed his father and married his mother—audiences experience both the horror of his realization and philosophical questions about knowledge itself. Can knowledge protect us? Is truth liberating or destroying? Dramatic irony makes these questions visceral: we watch a wise, excellent man destroyed by the very knowledge he pursues. The investigation of justice reveals that human understanding might be insufficient; fate might transcend our ability to control or comprehend. This combination of dramatic irony with philosophical inquiry creates tragedy's power: we experience emotional devastation while contemplating profound questions about human knowledge, fate, and responsibility."
 ```
 

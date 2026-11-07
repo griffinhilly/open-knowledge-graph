@@ -25,6 +25,14 @@ status: draft
 ## Core Idea
 Postcolonial literature emerged from independence movements and the aftermath of colonialism, using narrative to recover suppressed histories, assert indigenous identities, and critique colonial representations. The movement rewrote canonical texts from colonized perspectives and developed literary forms that incorporated non-Western traditions.
 
+## How It's Best Learned
+Pair each canonical text with its answer. Read the attic scenes of *Jane Eyre*, then Jean Rhys's *Wide Sargasso Sea*, which tells the story of Rochester's first wife. Or read part of *Heart of Darkness* and then Achebe's *Things Fall Apart*, ending with the District Commissioner's plan to reduce Okonkwo's life to a paragraph in his book. Ask whose voice each version grants and whose it silences.
+
+## Common Misconceptions
+- "Postcolonial" refers only to writing produced after independence. (Critics also use it for writing that responds to colonialism and its effects, including work written while colonial rule continued.)
+- Postcolonial writers rejected European languages and forms. (Many, including Achebe, chose to write in English and reshape it, while Ngũgĩ wa Thiong'o turned to Gikuyu; the choice of language was itself a major debate.)
+- Postcolonial fiction portrays precolonial societies as perfect. (*Things Fall Apart* shows Igbo society's rigidities and cruelties as well as its richness, before colonial rule breaks it apart.)
+
 ## Questions
 
 ```yaml
@@ -60,6 +68,7 @@ Postcolonial literature emerged from independence movements and the aftermath of
 
 - type: short-answer
   question: "Explain how recovering suppressed histories functions as political act in postcolonial literature."
+  answer: "Colonial rule suppressed indigenous histories along with territory. Narrating those histories reclaims them and asserts that colonized peoples' perspectives are valid, so control over how the story is told becomes part of decolonization."
   explanation: "Colonialism not only conquered territories but also attempted to erase indigenous history and identity. By recovering and narrating these suppressed histories, postcolonial literature reclaims what colonialism tried to destroy. This is political because it asserts: our history matters, our perspectives are valid, our voices deserve hearing. Narrative becomes act of decolonization: taking control of how your story is told."
 ```
 
