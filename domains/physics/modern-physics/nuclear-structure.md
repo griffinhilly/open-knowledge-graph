@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: atomic-structure-basics
   type: soft
+- id: rutherford-scattering
+  type: soft
 builds-toward:
 - radioactive-decay
 - nuclear-fission-fusion

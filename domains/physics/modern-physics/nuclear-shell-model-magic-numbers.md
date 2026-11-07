@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: nuclear-stability-binding-curve
   type: soft
+- id: finite-square-well
+  type: soft
 tags:
 - nuclear-structure
 - shell-model

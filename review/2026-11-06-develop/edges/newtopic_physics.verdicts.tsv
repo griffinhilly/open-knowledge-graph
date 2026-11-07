@@ -1,0 +1,30 @@
+ADD	rocket-propulsion-variable-mass	space-mission-design-planetary	soft	high	Mission delta-v budgets use the rocket equation.
+ADD	air-resistance-and-drag	drag-coefficient-bluff-bodies	soft	high	The drag coefficient refines the quadratic drag law introduced in mechanics.
+ADD	canonical-transformations	liouville-theorem-statistical-mechanics	soft	high	Liouville's theorem follows from time evolution being a canonical transformation.
+ADD	hamilton-jacobi-theory	kam-theorem	hard	high	KAM is stated for perturbations of integrable systems in action-angle variables.
+ADD	hamilton-jacobi-theory	hamiltonian-chaos	soft	high	Integrable motion on invariant tori (action-angle variables) is the baseline that chaos breaks.
+ADD	hamilton-jacobi-theory	wkb-quantization-rule	soft	high	The Bohr-Sommerfeld rule quantizes the action variable ∮p dq.
+ADD	rutherford-scattering	cross-sections-scattering	soft	high	Rutherford scattering is the first worked example of a differential cross-section.
+ADD	rutherford-scattering	born-approximation	soft	high	The Born approximation for a Coulomb potential reproduces the Rutherford formula.
+ADD	rutherford-scattering	nuclear-structure	soft	high	The nuclear atom was established by Rutherford scattering.
+ADD	michelson-interferometer	special-relativity-postulates	soft	high	The Michelson-Morley null result motivates the postulates.
+ADD	michelson-interferometer	gravitational-waves	soft	high	LIGO detectors are Michelson interferometers.
+ADD	lasers-and-stimulated-emission	coherent-states	soft	high	Laser light is the standard physical example of a coherent state.
+ADD	finite-square-well	nuclear-shell-model-magic-numbers	soft	high	Finite wells are the first model of a nucleon's confining potential.
+ADD	heisenberg-and-interaction-pictures	time-dependent-perturbation-theory	soft	high	The interaction picture organizes time-dependent perturbation theory.
+ADD	heisenberg-and-interaction-pictures	s-matrix-scattering-amplitudes	hard	high	The perturbative S-matrix is built from interaction-picture time evolution (Dyson series).
+ADD	heisenberg-and-interaction-pictures	klein-gordon-field-quantization	soft	high	Quantized fields are Heisenberg-picture operators.
+ADD	adiabatic-theorem-quantum	berry-phase-topological-invariants	hard	high	Berry's phase is defined through adiabatic evolution around a closed loop.
+ADD	symmetries-conservation-laws-quantum	transition-probabilities-quantum	soft	high	Parity underlies the electric dipole selection rules.
+ADD	symmetries-conservation-laws-quantum	cpt-theorem	soft	high	CPT combines the discrete symmetries C, P and T introduced here.
+ADD	conservation-laws-particle-reactions	quark-model-hadron-spectroscopy	soft	high	Baryon number and strangeness are the quantum numbers the quark model explains.
+ADD	conservation-laws-particle-reactions	lepton-flavor	soft	high	Lepton family numbers are introduced as conservation laws first.
+ADD	conservation-laws-particle-reactions	leptogenesis-and-baryogenesis	soft	high	Baryogenesis requires violating baryon number, defined here.
+ADD	parity-violation-weak-interaction	cp-violation	hard	high	CP violation is studied after learning that P and C are violated separately.
+ADD	parity-violation-weak-interaction	electroweak-unification	soft	high	The chiral (V − A) structure of the weak interaction is built into the electroweak theory.
+ADD	semiclassical-electron-dynamics	semiconductor-physics-doping	soft	high	Holes and effective masses describe semiconductor carriers.
+ADD	semiclassical-electron-dynamics	boltzmann-transport-equation-cm	hard	high	The Boltzmann equation for electrons uses the semiclassical equations of motion.
+ADD	semiclassical-electron-dynamics	integer-quantum-hall-effect	soft	high	Classical Hall response of Bloch electrons precedes the quantized version.
+ADD	kosterlitz-thouless-transition	superfluidity	soft	high	Superfluid helium films show the BKT universal jump.
+ADD	lorentz-group-representations	dirac-field-quantization	soft	high	The Dirac field is the (½,0) ⊕ (0,½) representation.
+ADD	lorentz-group-representations	spin-statistics-theorem	soft	high	The theorem is stated in terms of Lorentz representations of fields.

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: reynolds-number
   type: hard
+- id: air-resistance-and-drag
+  type: soft
 tags:
 - drag coefficient
 - bluff body

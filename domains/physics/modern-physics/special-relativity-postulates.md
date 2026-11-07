@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: electromagnetic-waves
   type: hard
+- id: michelson-interferometer
+  type: soft
 builds-toward:
 - time-dilation
 - length-contraction

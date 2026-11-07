@@ -626,3 +626,8 @@ ADD	osmoregulation-and-nitrogenous-wastes	renal-physiology-and-fluid-balance	sof
 ADD	origin-of-life	evolutionary-transitions	soft
 ADD	monoclonal-antibodies-and-immunoassays	cancer-immunotherapy-approaches	soft
 ADD	artificial-selection-and-selective-breeding	natural-selection-types-and-examples	soft
+ADD	rocket-propulsion-variable-mass	space-mission-design-planetary	soft
+ADD	air-resistance-and-drag	drag-coefficient-bluff-bodies	soft
+ADD	rutherford-scattering	nuclear-structure	soft
+ADD	michelson-interferometer	special-relativity-postulates	soft
+ADD	finite-square-well	nuclear-shell-model-magic-numbers	soft

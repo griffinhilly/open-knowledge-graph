@@ -6,6 +6,8 @@ course: planetary-science
 prerequisites:
 - id: orbital-mechanics
   type: hard
+- id: rocket-propulsion-variable-mass
+  type: soft
 tags:
 - mission-design
 - trajectories

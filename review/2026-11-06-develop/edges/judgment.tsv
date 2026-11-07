@@ -744,3 +744,4 @@ ADD	faraday-induced-emf	lenzs-law	soft	high	two reviewers agree: Lenz's law give
 ADD	beta-emission-weak-force	gamma-emission-nuclear-transitions	soft	high	two reviewers agree: Gamma emission often follows beta decay leaving an excited daughter.	[would create cycle]
 ADD	van-der-waals-equation-of-state	compressibility-factor-z	soft	high	two reviewers agree: Z deviations are often modeled with the vdW equation.	[would create cycle]
 ADD	doppler-effect-comprehensive	doppler-applications-astronomy	soft	high	two reviewers agree: Astronomical Doppler builds on general Doppler analysis, though light needs the relativistic form.	[would create cycle]
+SUSPECT	brownian-motion	optimal-stopping,stationary-processes,properties-of-brownian-motion,levy-processes	-	medium	math stochastic-processes topics use physics brownian-motion; consider brownian-motion-stochastic (w-L043)
