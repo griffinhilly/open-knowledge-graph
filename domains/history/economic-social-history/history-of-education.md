@@ -65,9 +65,9 @@ Follow the Prussian model as it spread: Prussia after Jena in 1806, Horace Mann'
     - "The Ivy League universities (Harvard, Yale, Princeton) admitting women as undergraduates"
     - "Oberlin College becoming the first coeducational degree-granting institution in the US"
     - "All-female colleges (Wellesley, Smith, Radcliffe) opening to grant degrees to women"
-    - "The US Congress passing the Higher Education Act requiring gender equity in federally funded programs"
+    - "The US Congress passing Title IX requiring gender equity in federally funded programs"
   answer: 1
-  explanation: "Oberlin College in Ohio became the first coeducational degree-granting institution in the US when it admitted women in 1837 and granted women their first bachelor's degrees in 1841. The elite women's colleges ('Seven Sisters') were founded later: Mount Holyoke (1837, though as a seminary initially), Vassar (1861), Wellesley (1870), Smith (1871), Radcliffe (1879), Bryn Mawr (1885), Barnard (1889). The Ivy League institutions were among the last major universities to become coeducational: Yale and Princeton admitted women as undergraduates in 1969, Harvard (through Radcliffe) in 1977, and Columbia in 1983. Title IX of the Higher Education Act (1972) prohibited sex discrimination in federally funded educational programs."
+  explanation: "Oberlin College in Ohio became the first coeducational degree-granting institution in the US when it admitted women in 1837 and granted women their first bachelor's degrees in 1841. The elite women's colleges ('Seven Sisters') were founded later: Mount Holyoke (1837, though as a seminary initially), Vassar (1861), Wellesley (1870), Smith (1871), Radcliffe (1879), Bryn Mawr (1885), Barnard (1889). The Ivy League institutions were among the last major universities to become coeducational: Yale and Princeton admitted women as undergraduates in 1969, Harvard (through Radcliffe) in 1977, and Columbia in 1983. Title IX of the Education Amendments of 1972 prohibited sex discrimination in federally funded educational programs."
 
 - question: "Why do researchers find that simply expanding access to education does not automatically reduce inequality between countries or within them?"
   type: short-answer

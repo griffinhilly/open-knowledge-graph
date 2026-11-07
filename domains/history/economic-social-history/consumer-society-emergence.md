@@ -68,7 +68,7 @@ Treat the 1920s car market as a case study: Ford's falling Model T price and fiv
 
 ## Explainer
 
-Consumer society -- the economic and cultural system organized around mass production and continuous purchase of goods -- did not exist before the 20th century. Most people for most of history consumed at subsistence levels, buying only what they needed for immediate survival. The transition to a society where consumption became central to identity, aspiration, and daily life was engineered, not spontaneous.
+Consumer society -- the economic and cultural system organized around mass production and continuous purchase of goods -- reached its mass form only in the 20th century, though historians trace an earlier "consumer revolution" in 18th-century Britain and the Netherlands. Most people for most of history consumed at subsistence levels, buying only what they needed for immediate survival. The transition to a society where consumption became central to identity, aspiration, and daily life was engineered, not spontaneous.
 
 The material preconditions assembled in the early 20th century. Henry Ford's moving assembly line (Highland Park plant, 1913) demonstrated that complex manufactured goods could be produced at radically reduced cost by substituting sequential machine operation for skilled craft work. The Model T fell from $850 in 1908 to $260 by 1925. Ford's "five-dollar day" (1914) -- roughly double market wages -- was simultaneously a labor retention strategy and a demand creation strategy: Ford wanted his workers to be able to afford his cars. This logic -- high wages enable consumption of mass-produced goods -- became the Fordist economic model that structured the postwar economy.
 

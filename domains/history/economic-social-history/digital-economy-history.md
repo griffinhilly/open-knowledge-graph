@@ -43,11 +43,11 @@ Build a timeline with three layers: public research (ARPANET, TCP/IP, the Web), 
   type: multiple-choice
   options:
     - "Military origins meant the internet was classified and only became public in the 1990s, limiting academic use"
-    - "ARPANET (1969) was funded by DARPA to enable resilient communications, but the packet-switching architecture that made it work also made it a platform for unforeseen uses -- from email (developed 1972) to the World Wide Web (1991) -- because its open, decentralized design allowed anyone to build on it"
+    - "ARPANET (1969) was funded by the Pentagon's ARPA (later DARPA) to let research computers share resources, but the packet-switching architecture that made it work also made it a platform for unforeseen uses -- from email (developed 1972) to the World Wide Web (1991) -- because its open, decentralized design allowed anyone to build on it"
     - "Military origins determined that the internet would be controlled by the US government, which still owns its core infrastructure"
     - "ARPANET was originally designed for commercial purposes; military funding was cover for a commercial development project"
   answer: 1
-  explanation: "ARPANET's design principle -- packet-switching across a decentralized network with no central node -- was motivated by military resilience (no single point of failure) but created a platform for unforeseen applications. The decision to develop open standards (TCP/IP, published openly in 1974) rather than proprietary ones was crucial: any programmer could build on the internet without asking permission. Email was an unforeseen use; so was the World Wide Web (Berners-Lee, CERN, 1991), which itself enabled e-commerce, social media, and all subsequent digital economy applications."
+  explanation: "ARPANET's design principle -- packet-switching across a decentralized network with no central node -- drew on Paul Baran's earlier RAND work on survivable military networks (no single point of failure), though ARPANET itself was built to share computing resources among researchers; the design created a platform for unforeseen applications. The decision to develop open standards (TCP/IP, published openly in 1974) rather than proprietary ones was crucial: any programmer could build on the internet without asking permission. Email was an unforeseen use; so was the World Wide Web (Berners-Lee, CERN, 1991), which itself enabled e-commerce, social media, and all subsequent digital economy applications."
 
 - question: "What is the 'surveillance capitalism' critique of digital platform companies?"
   type: short-answer
