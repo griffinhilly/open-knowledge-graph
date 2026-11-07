@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Macromolecular assemblies are large, multi-component complexes — ribosomes, proteasomes, spliceosomes, nuclear pore complexes, virus capsids — that perform the most sophisticated molecular functions in the cell. Their structures are determined by combining multiple structural techniques: cryo-EM provides overall architecture at near-atomic resolution, X-ray crystallography provides high-resolution subunit structures, cross-linking MS identifies subunit connectivity, SAXS provides solution-state shape constraints, and integrative modeling computationally combines all data into a unified structural model. Understanding these assemblies requires thinking about symmetry, allosteric communication across subunits, conformational heterogeneity, and the assembly pathway by which components come together.
 
+## How It's Best Learned
+Take one assembly, such as the ribosome or the nuclear pore complex, and list each data type used to solve it next to what that data constrained. Open a cryo-EM map of the assembly with fitted subunit models, then hide each subunit in turn to see how the parts fit. Comparing a symmetric capsid with an asymmetric machine shows what symmetry does and does not explain.
+
+## Common Misconceptions
+- An assembly's structure can be read from a single experiment. (Large, flexible assemblies usually need several data types combined. Each one constrains a different aspect, such as overall shape, subunit contacts or atomic detail.)
+- Every subunit in a solved assembly is resolved equally well. (Rigid cores are often well defined while peripheral or flexible subunits are blurred or missing. Local resolution and model confidence vary across the structure.)
+- Assemblies form as soon as all their parts are present in the cell. (Many assemble along ordered pathways and need assembly factors or chaperones. Intermediates along the way can differ in structure from the final complex.)
+
 ## Questions
 
 ```yaml

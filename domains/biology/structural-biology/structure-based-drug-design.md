@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Structure-based drug design (SBDD) uses the three-dimensional structure of a drug target (typically a protein) to guide the discovery and optimization of small-molecule therapeutics. Knowing the target's binding site — its shape, electrostatic properties, hydrogen bonding capacity, and hydrophobic character — enables rational design of molecules that bind with high affinity and selectivity. The SBDD cycle involves structure determination (crystallography, cryo-EM, or computational prediction), virtual screening or de novo design of candidate ligands, experimental testing, co-crystal structure determination of promising hits, and iterative optimization based on structural insights. SBDD has contributed to the development of numerous marketed drugs, including HIV protease inhibitors, kinase inhibitors, and neuraminidase inhibitors (Tamiflu).
 
+## How It's Best Learned
+Follow one published lead-optimization series through its co-crystal structures, such as an HIV protease or neuraminidase inhibitor program. For each step, note the structural observation, the chemical change it motivated and the affinity change that followed. Then try the loop yourself on a structure: propose one modification, model it, and predict its effect before checking the reported data.
+
+## Common Misconceptions
+- A compound that fits the pocket well in the structure will be a good drug. (Binding is one requirement among many. Solubility, permeability, metabolic stability, selectivity and toxicity often decide whether a compound succeeds.)
+- One crystal structure of the target is enough to design against. (Binding sites can change shape when different ligands bind. Co-crystal structures of each new series are needed because compounds can bind in unexpected poses.)
+- Adding more contacts to a ligand will steadily raise its affinity. (Gains can be offset by strain in the ligand, desolvation costs or loss of flexibility. Larger molecules can also lose drug-like properties.)
+
 ## Questions
 
 ```yaml

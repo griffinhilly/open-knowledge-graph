@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 The Nuclear Overhauser Effect Spectroscopy (NOESY) experiment detects through-space proximity between hydrogen atoms by measuring the cross-relaxation between nuclei that are close in three-dimensional space (typically less than 5 Angstroms), regardless of their connectivity through covalent bonds. NOESY cross-peaks provide distance restraints — the closer two protons, the stronger the NOE signal. A network of thousands of such distance restraints (short, medium, and long-range) provides the primary experimental data for NMR protein structure determination. Long-range NOEs (between residues far apart in sequence but close in space) are the most valuable because they define the protein's three-dimensional fold.
 
+## How It's Best Learned
+Take a small protein of known structure and list its proton pairs closer than 5 angstroms. Sort them into sequential, medium-range and long-range contacts, and draw the patterns a helix and a beta sheet produce. Then feed only the short-range set, followed by the full set, into a structure calculation to see that the fold appears once long-range restraints are added.
+
+## Common Misconceptions
+- NOE intensity gives the exact distance between two protons. (Spin diffusion, motion and overlap make precise conversion unreliable. NOEs are usually binned into ranges and used as upper bounds.)
+- No NOE between two protons proves they are far apart. (A missing peak can come from overlap, fast motion or weak signal. Absence of an NOE is weak evidence and is not used as a lower-bound restraint in standard practice.)
+- A strong long-range NOE always means the two residues touch directly. (Spin diffusion can pass magnetization through a third proton and produce a peak between protons that are not themselves close. Short mixing times reduce this effect.)
+
 ## Questions
 
 ```yaml

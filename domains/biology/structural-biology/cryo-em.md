@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Cryo-electron microscopy (cryo-EM) determines the structures of biological macromolecules by imaging individual particles flash-frozen in vitreous (non-crystalline) ice using an electron microscope. Unlike X-ray crystallography, cryo-EM does not require crystals — purified protein in solution is applied to a grid, blotted to a thin film, and rapidly plunged into liquid ethane to trap molecules in their native, hydrated state. The "resolution revolution" (enabled by direct electron detectors and improved image processing algorithms since ~2013) has transformed cryo-EM from a low-resolution technique into a method capable of near-atomic resolution (2-4 Angstroms) for many biological complexes, earning Jacques Dubochet, Joachim Frank, and Richard Henderson the 2017 Nobel Prize.
 
+## How It's Best Learned
+Follow one sample end to end: grid, blotting, plunge-freezing, a raw micrograph, 2D class averages, then the final map. Looking at a single raw particle next to a class average built from thousands of them shows why averaging is the heart of the method. Then compare a pre-2013 map of a complex with a recent one to see what the resolution revolution changed.
+
+## Common Misconceptions
+- A cryo-EM micrograph shows the protein clearly, like a photograph. (Each particle is imaged with a low electron dose to limit damage, so single images are very noisy. The structure emerges only after many particle images are aligned and averaged.)
+- Cryo-EM has replaced X-ray crystallography. (The two are complementary. Small proteins are hard to align in cryo-EM, and crystallography still gives very high resolution for targets that crystallize well.)
+- The reported resolution of a cryo-EM map holds across the whole structure. (The headline number is a global estimate. Flexible surface regions are often resolved much worse than a rigid core, so local resolution varies across the map.)
+
 ## Questions
 
 ```yaml

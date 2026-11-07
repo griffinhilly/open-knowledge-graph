@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Molecular dynamics (MD) simulations compute the time evolution of a biomolecular system by numerically integrating Newton's equations of motion for every atom, using empirical force fields (AMBER, CHARMM, OPLS) that describe bonded and non-bonded interactions. Starting from an experimental structure, MD reveals protein dynamics — conformational fluctuations, domain motions, ligand binding/unbinding, and allosteric transitions — at atomic resolution and femtosecond time resolution. Modern simulations routinely reach microsecond to millisecond timescales (with specialized hardware like Anton reaching beyond), capturing functionally relevant conformational changes inaccessible to experimental methods. MD also enables free energy calculations (binding affinities, mutational effects) that connect structure to thermodynamics.
 
+## How It's Best Learned
+Before running a protein, write a few-line integrator for a single harmonic bond and watch energy drift as the time step grows. Then run a short simulation of a small solvated protein from a crystal structure. Plot backbone RMSD over time and per-residue fluctuations, and compare the fluctuations with the B-factors from the starting crystal structure.
+
+## Common Misconceptions
+- A longer simulation is automatically a converged one. (Sampling depends on whether the relevant states and transitions were visited. A long run can stay trapped in one basin, so convergence is checked with repeat runs and with observables that stop changing.)
+- MD reproduces reality because it obeys Newton's laws exactly. (Results are only as good as the force field and the sampling. Standard classical force fields use fixed charges and do not allow covalent bonds to break or form.)
+- A conformation seen in an MD trajectory must be populated in solution. (Force-field errors or starting-structure bias can produce states that are not real. Comparison with NMR, SAXS, HDX or other experimental data is the way to check.)
+
 ## Questions
 
 ```yaml

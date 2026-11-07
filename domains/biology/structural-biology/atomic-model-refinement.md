@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 Atomic model refinement is the iterative process of improving a macromolecular structure by adjusting atomic coordinates, B-factors (temperature factors), and occupancies to maximize the agreement between the model and the experimental data while maintaining reasonable stereochemistry. Starting from an initial model (obtained from molecular replacement, experimental phasing, or automated building), refinement alternates between **reciprocal-space refinement** (adjusting parameters computationally to minimize the difference between calculated and observed structure factors, using programs like REFMAC5 or phenix.refine) and **real-space refinement** (manual rebuilding in COOT, where the crystallographer inspects the electron density map and corrects errors in chain tracing, side chain conformers, and ligand placement). Chemical restraints (target bond lengths, angles, torsions from small-molecule databases) prevent the model from adopting physically unreasonable geometry during the optimization, acting as regularization that is especially critical at medium to low resolution where the data do not unambiguously define all atomic positions.
 
+## How It's Best Learned
+Take a deposited structure with its structure factors, introduce a few errors (a wrong rotamer, a flipped peptide, a deleted water), and run one refinement cycle. Then find each error in COOT from the Fo-Fc peaks and fix it. Track R-work, R-free and geometry statistics in a table after each round to see what a real improvement looks like.
+
+## Common Misconceptions
+- A lower R-work after a refinement round means the model got better. (R-work can drop through overfitting. R-free, computed from reflections left out of refinement, is the check, and a widening gap between R-work and R-free signals overfitting.)
+- Geometric restraints are a cosmetic tidy-up that does not change the fit. (At typical protein resolutions the data alone do not fix every atomic position, so restraints act as extra information that shapes where atoms end up.)
+- Automated reciprocal-space refinement will eventually correct every error in the model. (Gradient-based refinement makes small moves. Errors such as a misplaced loop, a wrong rotamer or a register shift usually need manual rebuilding before refinement can converge on the right answer.)
+
 ## Questions
 
 ```yaml

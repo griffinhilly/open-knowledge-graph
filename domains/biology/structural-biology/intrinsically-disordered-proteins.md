@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Intrinsically disordered proteins (IDPs) and intrinsically disordered regions (IDRs) lack stable three-dimensional structure under physiological conditions, existing as dynamic ensembles of interconverting conformations. Far from being non-functional, IDPs/IDRs perform essential biological roles including molecular recognition (binding multiple partners through short linear motifs), signaling regulation (serving as hubs in signaling networks), transcriptional control, and biomolecular condensate formation (liquid-liquid phase separation). IDPs challenge the classical structure-function paradigm and require ensemble-based structural methods (NMR, SAXS, single-molecule FRET, MD simulations) rather than static structural techniques. Approximately 30-50% of eukaryotic proteins contain disordered regions of 30+ residues.
 
+## How It's Best Learned
+Compare the data for a folded domain and a disordered region side by side: a dispersed versus a collapsed 1H-15N HSQC spectrum, and a bell-shaped versus a rising Kratky plot from SAXS. Then look at a disordered protein's AlphaFold model colored by pLDDT, next to a published ensemble for the same region, to see why one set of coordinates cannot describe it.
+
+## Common Misconceptions
+- A disordered protein is a misfolded or broken protein. (Disorder is often encoded in the sequence and conserved because it supports function, such as binding many partners or being regulated by modification.)
+- Disordered means the chain is a fully random coil with no structure at all. (Many IDRs have transient secondary structure, local compaction or motifs that fold on binding. The ensemble has preferences even though no single structure dominates.)
+- An IDR binds its partner weakly and without specificity because it has no fixed shape. (Coupled folding and binding through short linear motifs can give specific recognition. Affinities vary widely from one interaction to another.)
+
 ## Questions
 
 ```yaml

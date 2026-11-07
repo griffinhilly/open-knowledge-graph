@@ -29,6 +29,14 @@ status: validated
 ## Core Idea
 Structure validation assesses whether a solved macromolecular structure is correct, accurate, and supported by the experimental data. No structure determination is perfect — models are built into noisy, ambiguous electron density maps, and errors in chain tracing, side chain rotamers, ligand placement, and loop conformations are common. Validation uses two complementary approaches: **data-based metrics** that measure agreement between the model and the experimental observations (R-factor, R-free for crystallography; FSC for cryo-EM), and **knowledge-based metrics** that check whether the model's geometry is physically reasonable (Ramachandran plot statistics, bond length/angle deviations, sidechain rotamer outliers, steric clashes). Tools like MolProbity and the wwPDB validation pipeline combine these assessments into standardized reports that accompany every deposited structure, enabling users to critically evaluate which parts of a structure are reliable and which should be treated with caution.
 
+## How It's Best Learned
+Download the wwPDB validation reports for two entries of the same protein, one at high resolution and one at low resolution, and compare their percentile sliders. Then pick a flagged ligand or Ramachandran outlier from each report, open the model with its map in a viewer, and decide whether the density supports what was built.
+
+## Common Misconceptions
+- A structure with good overall statistics is reliable everywhere. (Global numbers average over the whole model. Individual loops, side chains or ligands can be poorly supported, which per-residue measures such as real-space correlation reveal.)
+- Every Ramachandran outlier is an error. (Some outliers are real strained conformations, often at functional sites, and are supported by clear density. Outliers that also clash or fit the density poorly are the ones most likely to be wrong.)
+- Validation metrics mean the same thing at every resolution. (Expected values shift with resolution. A clashscore or R-free that is good at 3.5 angstroms would be poor at 1.5 angstroms, which is why reports compare entries at similar resolution.)
+
 ## Questions
 
 ```yaml

@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Cryo-electron tomography (cryo-ET) images biological structures in their native cellular context by collecting a tilt series — a sequence of cryo-EM images of the same specimen tilted from approximately -60 to +60 degrees — and computationally reconstructing a three-dimensional volume (tomogram). Unlike single-particle cryo-EM (which images purified molecules in isolation), cryo-ET can visualize macromolecular complexes directly inside cells, revealing their spatial organization, interactions with other cellular components, and functional states in situ. Focused ion beam (FIB) milling thins frozen cells to electron-transparent lamellae (~100-200 nm), and subtomogram averaging of repeated structures within tomograms can achieve sub-nanometer resolution.
 
+## How It's Best Learned
+Start from the CT-scan analogy, then scroll through the slices of a published tomogram and name what you can see: membranes, ribosomes, filaments. Next, view the same volume perpendicular to the beam to see the missing-wedge smearing. Finally, compare one noisy ribosome subvolume with the subtomogram average built from many copies in the same cells.
+
+## Common Misconceptions
+- A tomogram is a high-resolution 3D picture where you can read off atomic detail. (A single tomogram is limited to roughly tens of angstroms by low dose, thickness and the missing wedge. Molecular detail comes from subtomogram averaging of repeated complexes.)
+- A tilt series captures the specimen from every viewing direction. (The stage cannot tilt to 90 degrees, so a wedge of directions is never measured, and features are elongated along the beam direction in the reconstruction.)
+- Any frozen cell can be put straight into the microscope for tomography. (Electrons pass through only thin specimens. Most eukaryotic cells must first be thinned, for example by FIB milling into a lamella.)
+
 ## Questions
 
 ```yaml

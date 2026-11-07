@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Small-angle X-ray scattering (SAXS) measures the scattering of X-rays by macromolecules in solution, providing low-resolution structural information about molecular size, shape, and oligomeric state without requiring crystals or isotope labeling. The scattering curve (intensity vs. scattering angle) encodes the radius of gyration (Rg, from the Guinier approximation), maximum dimension (Dmax, from the pair distribution function), and overall molecular envelope (from ab initio shape reconstruction). SAXS is particularly valuable for characterizing flexible and disordered proteins, multi-domain assemblies, conformational changes upon ligand binding, and quality control of purified samples. It complements high-resolution methods by providing solution-state shape information under nearly any buffer condition.
 
+## How It's Best Learned
+Compute scattering curves from three models of similar mass: a compact globular protein, an elongated rod and a flexible two-domain protein. For each, make a Guinier plot to get Rg, a P(r) curve to read Dmax, and a Kratky plot. Laying the three sets of plots side by side builds the pattern recognition needed to read real data.
+
+## Common Misconceptions
+- A SAXS envelope shows the protein's shape at a resolution where you can see domains in detail. (Envelopes are low resolution and not unique. Different shapes can fit the same curve, so envelopes are best checked against other data or known structures.)
+- A larger Rg means the protein is bigger in mass. (Rg reflects how mass is spread around the center. An elongated or unfolded protein can have a larger Rg than a compact protein of the same or greater mass.)
+- Any sample that gives a curve gives trustworthy results. (Aggregation, interparticle effects at high concentration and poor buffer subtraction distort the curve. A linear Guinier region and measurements at several concentrations help catch these problems.)
+
 ## Questions
 
 ```yaml

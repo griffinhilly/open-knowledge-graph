@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Single-particle analysis is the computational pipeline that converts thousands to millions of noisy 2D cryo-EM images of individual molecules into a high-resolution 3D density map. The process involves particle picking (identifying and extracting individual molecule images from micrographs), 2D classification (grouping similar views and removing junk), 3D reconstruction (determining the orientation of each particle and combining them into a 3D map), and refinement (iteratively improving the orientation assignments and map quality). Modern software (RELION, cryoSPARC) uses maximum-likelihood statistical frameworks and GPU-accelerated computation. A key capability is 3D classification, which can separate conformationally heterogeneous particles into distinct classes, revealing multiple functional states from a single specimen.
 
+## How It's Best Learned
+Work through a small public tutorial dataset in RELION or cryoSPARC from picked particles to a refined map. Pause after 2D classification and sort good classes from junk by eye. Then compare a reconstruction from a few thousand particles with one from the full set, and look at the half-map FSC curve for each to see how resolution is estimated.
+
+## Common Misconceptions
+- If a reference model is used for alignment, the final map can be trusted to be free of that model. (Aligning noisy images to a reference can pull features of the reference into the result, even from pure noise. Independent half-sets and low-pass filtered starting models guard against this bias.)
+- More particles always give a better map. (Adding damaged, mis-picked or heterogeneous particles can blur the result. Cleaning by 2D and 3D classification often improves the map even as the particle count drops.)
+- 3D classification finds every conformational state in the sample. (It separates states that differ enough to detect at the data's signal level. Small or continuous motions can stay mixed within classes and need other analysis methods.)
+
 ## Questions
 
 ```yaml

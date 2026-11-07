@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 AlphaFold (DeepMind, 2020) and related deep learning methods (RoseTTAFold, ESMFold, OpenFold) predict protein structures from amino acid sequence with accuracy approaching experimental methods, achieving median backbone RMSD of ~1 Angstrom on CASP14 targets. AlphaFold2 uses a neural network architecture that processes multiple sequence alignments (MSAs) and pairwise residue features through an iterative "Evoformer" module and a structure module that outputs 3D coordinates with per-residue confidence scores (pLDDT). AlphaFold has been applied to predict structures for virtually every known protein sequence (>200 million in the AlphaFold Protein Structure Database), transforming structural biology from an experimental bottleneck to a computationally accessible resource. Limitations include poor performance on intrinsically disordered regions, difficulty with multiple conformational states, and challenges with protein-protein and protein-ligand interactions.
 
+## How It's Best Learned
+Download one AlphaFold Database entry for a protein that also has an experimental structure, and superpose the two. Color the prediction by pLDDT and check where the high-confidence regions match the experiment and where low-confidence regions sit. Then open the predicted aligned error (PAE) plot and use it to judge which domains have a reliable relative placement.
+
+## Common Misconceptions
+- A high pLDDT everywhere means the whole model, including how its domains are arranged, is right. (pLDDT measures local confidence per residue. The relative placement of domains is judged from the predicted aligned error, which can be poor even when each domain has high pLDDT.)
+- The coordinates in a low-pLDDT region show what that disordered segment looks like. (Low-pLDDT regions are often drawn as extended ribbons, but those coordinates carry no structural meaning and should not be interpreted.)
+- AlphaFold works out the physics of how the chain folds. (It learns patterns from known structures and evolutionary sequence data. It does not simulate the folding pathway, and it gives one static model rather than the set of states a protein can adopt.)
+
 ## Questions
 
 ```yaml

@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Hydrogen-deuterium exchange mass spectrometry (HDX-MS) measures the rate at which backbone amide hydrogens exchange with deuterium from D2O solvent, providing information about protein dynamics, solvent accessibility, and conformational changes. Amide hydrogens in structured, solvent-protected regions (hydrogen-bonded in alpha helices and beta sheets, buried in the hydrophobic core) exchange slowly, while those in flexible, solvent-exposed regions exchange rapidly. By comparing HDX rates across different conditions (with and without ligand, different mutants, different functional states), researchers map conformational changes and allosteric networks at peptide-level resolution. HDX-MS has become a standard tool for characterizing protein-drug interactions, epitope mapping, and studying conformational dynamics.
 
+## How It's Best Learned
+Work from a differential HDX dataset: plot deuterium uptake curves for one peptide in the free and ligand-bound states, then for a peptide far from the binding site. Map the uptake differences onto a known structure as a color scale. Seeing protection appear both at the interface and at a distant site makes the link between exchange, binding and allostery concrete.
+
+## Common Misconceptions
+- Slow exchange in a region means it is buried inside the protein. (Hydrogen bonding in stable secondary structure also slows exchange. A surface helix can be well protected even though it faces solvent.)
+- A region that becomes protected when a ligand binds must be where the ligand touches. (Protection can also come from stabilization at a distance. Differential HDX shows where dynamics change, which can include allosteric sites as well as the interface.)
+- HDX-MS reports exchange for each individual amide. (Standard experiments measure peptides several residues long. Overlapping peptides and special fragmentation can narrow this, but the usual resolution is a segment.)
+- The deuterium measured at the end reflects exactly what was in solution. (Some label is lost during digestion and chromatography, called back-exchange. Quench conditions slow this, and fully deuterated controls are used to correct for it.)
+
 ## Questions
 
 ```yaml

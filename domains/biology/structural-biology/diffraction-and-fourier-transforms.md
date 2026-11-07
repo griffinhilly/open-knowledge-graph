@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 When X-rays interact with a crystal, the regularly spaced atoms scatter the radiation, and the scattered waves interfere constructively only in specific directions determined by Bragg's law (n-lambda = 2d sin-theta), producing a discrete pattern of diffraction spots. Each spot corresponds to a Fourier component of the crystal's electron density — its intensity gives the amplitude, but the phase is lost during measurement. The electron density is the inverse Fourier transform of the structure factors (complex numbers with amplitude and phase for each reflection). Understanding this Fourier relationship between real space (electron density) and reciprocal space (diffraction pattern) is essential for every step of crystallographic structure determination, from data processing to model building.
 
+## How It's Best Learned
+Build intuition with optical diffraction first: shine a laser through a single slit, a grating and a 2D mesh, and see that finer spacing spreads the spots farther apart. Then use a 1D Fourier applet to rebuild a simple density from a few waves, add higher-frequency terms one at a time, and swap the phases to watch the reconstruction change shape.
+
+## Common Misconceptions
+- Each diffraction spot comes from one atom or one spot in the molecule. (Each reflection is a Fourier component that every atom in the unit cell contributes to. One spot carries information about the whole structure.)
+- A bigger unit cell gives diffraction spots that are farther apart. (Real and reciprocal space are inversely related, so a larger cell gives more closely spaced spots.)
+- The detector records the full wave, so the map follows directly from the data. (The detector measures intensities, which give amplitudes but lose phases. Phases must come from another source before the density can be computed.)
+- Spots at high diffraction angle add little to the map. (High-angle reflections correspond to small d-spacings and carry the fine detail. Including them is what raises the resolution of the map.)
+
 ## Questions
 
 ```yaml

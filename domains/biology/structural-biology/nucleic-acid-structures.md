@@ -30,6 +30,14 @@ status: validated
 ## Core Idea
 Nucleic acid structural biology determines the three-dimensional architecture of DNA and RNA molecules and their complexes with proteins, revealing how structure encodes function beyond the primary sequence. DNA adopts distinct helical forms — B-form (the canonical right-handed Watson-Crick duplex), A-form (wider, shorter, adopted by RNA duplexes and DNA-RNA hybrids), and Z-form (left-handed, formed by alternating purine-pyrimidine sequences under high salt) — each with characteristic geometric parameters (rise, twist, groove dimensions) that determine protein recognition and biological activity. RNA structural biology is richer still: single-stranded RNA folds into complex three-dimensional architectures through a hierarchy of structural organization (secondary structure motifs like stems, loops, bulges, and pseudoknots; tertiary structure through long-range interactions, metal coordination, and ribose zippers) that enable catalytic (ribozymes), regulatory (riboswitches), and structural (ribosome) functions. Structural methods (crystallography, cryo-EM, NMR) have revealed the atomic details of major protein-nucleic acid complexes including the ribosome, nucleosome, CRISPR-Cas systems, and transcription factors bound to DNA.
 
+## How It's Best Learned
+Build or load B-, A- and Z-form duplexes of the same length in a viewer and compare them end-on and side-on, measuring rise, turn length and groove widths. Then take an RNA of known structure, draw its secondary structure diagram from base pairs, and match each stem, loop and pseudoknot to its place in the 3D model.
+
+## Common Misconceptions
+- DNA in cells is a uniform B-form helix. (B-form predominates, but local regions can be bent, unwound or switched to other forms, and proteins often distort the DNA they bind.)
+- An RNA's secondary structure diagram shows what the molecule looks like. (The diagram lists base pairs only. Tertiary contacts such as A-minor motifs, tetraloop-receptor docking and metal-ion binding pack those elements into a specific 3D shape.)
+- Proteins read DNA sequence by unwinding the helix to see the bases. (Many proteins recognize sequence through hydrogen bonds to base edges exposed in the grooves, especially the major groove, and through sequence-dependent DNA shape, without separating the strands.)
+
 ## Questions
 
 ```yaml

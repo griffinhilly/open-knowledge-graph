@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Protein-protein interactions (PPIs) are the physical associations between proteins that underlie virtually all cellular processes — signaling, transcription, translation, metabolism, and structural organization. Structurally, PPI interfaces are large (typically 1,200-2,000 A^2 buried surface area), relatively flat compared to small-molecule binding pockets, and involve complementary shapes, hydrogen bonds, salt bridges, and hydrophobic contacts. A key finding is that binding energy is not uniformly distributed across the interface — a few "hotspot" residues contribute disproportionately to binding affinity, while most interfacial residues contribute little. Understanding PPI structure is critical for drug design targeting PPIs, for engineering protein-protein recognition, and for interpreting the vast PPI networks mapped by proteomics.
 
+## How It's Best Learned
+Open the MDM2/p53 peptide complex and color the interface by buried surface area, then by published alanine-scan energies where available. Note how the three p53 hotspot side chains insert into one MDM2 pocket. Then superpose a nutlin-bound MDM2 structure on the same view to see the drug occupying the pocket those side chains fill.
+
+## Common Misconceptions
+- A bigger interface means a tighter interaction. (Affinity depends on which residues are at the interface and how well they pack, not only on area. Hotspot residues carry much of the binding energy, and large interfaces can still bind weakly.)
+- Every residue that touches the partner is important for binding. (Alanine scanning shows that many contact residues can be mutated with little effect on affinity, while a few hotspots cause large losses.)
+- Because PPI interfaces are flat, small molecules cannot block them. (Some interfaces have hotspot sub-pockets that small molecules can occupy. Venetoclax and nutlins bind such sites.)
+
 ## Questions
 
 ```yaml

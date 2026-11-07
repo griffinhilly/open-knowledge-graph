@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Molecular docking predicts how a small molecule (ligand) binds to a protein by computationally searching for the optimal position, orientation, and conformation of the ligand within the protein's binding site. Docking programs (AutoDock, Glide, GOLD) use search algorithms (genetic algorithms, Monte Carlo sampling, systematic enumeration) to explore the conformational space and scoring functions to estimate binding affinity. Docking is widely used for virtual screening (identifying potential hits from large compound libraries) and binding mode prediction (understanding how a known ligand interacts with the target). Key challenges include protein flexibility (most docking treats the protein as rigid), accurate scoring (current functions poorly rank binding affinities), and the entropic contribution of solvent displacement.
 
+## How It's Best Learned
+Do a redocking exercise first: remove a ligand from a crystal complex, dock it back, and measure the RMSD of the top pose to the crystal pose. Then dock the same ligand into the apo structure of that protein and compare. Finally, dock a short list of ligands with known affinities and plot score against measured affinity to see how weak the correlation is.
+
+## Common Misconceptions
+- The best-scoring pose is the true binding mode. (Scoring functions are approximate, so the correct pose is sometimes ranked below an incorrect one. Poses should be checked against chemical sense and experimental data where available.)
+- A better docking score means a tighter binder. (Docking scores correlate weakly with measured affinities. They are more useful for separating likely binders from non-binders than for ranking close analogs.)
+- Docking into any structure of the target protein will find the right pose. (Many docking runs treat the protein as rigid. If binding needs a side chain, loop or domain to move, docking into the wrong conformation can miss the pose.)
+
 ## Questions
 
 ```yaml

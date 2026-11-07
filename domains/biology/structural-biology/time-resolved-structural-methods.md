@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Time-resolved structural methods capture macromolecular structures at defined time points during a biological process, providing atomic-resolution movies of conformational changes, catalytic cycles, and ligand binding. Standard crystallography and cryo-EM produce static, time-averaged structures — they reveal where atoms are but not how they move. Time-resolved approaches overcome this limitation through several strategies: **serial femtosecond crystallography (SFX)** at X-ray free-electron lasers (XFELs) collects diffraction from microcrystals before radiation damage occurs (the "diffraction-before-destruction" principle), enabling room-temperature structures and pump-probe experiments where a light pulse or substrate triggers the reaction and the XFEL pulse captures the structure at a defined delay time. **Time-resolved cryo-EM** captures intermediates by rapid mixing or photolysis followed by plunge-freezing at controlled time points. These methods have revealed catalytic intermediates in enzymes, light-driven conformational changes in photoreceptors, and the structural dynamics of molecular machines in real time.
 
+## How It's Best Learned
+Draw a pump-probe timeline for one light-driven protein: the pump pulse, a set of delay times and the probe pulse, with the expected intermediate at each delay. Then look at published difference electron density maps from a photoreceptor series, and track one feature such as the chromophore or a key water appearing and fading across the delays.
+
+## Common Misconceptions
+- Each time point captures a single, pure intermediate. (At any delay the sample usually holds a mixture of states, and only part of it reacts. Difference maps and kinetic modeling are used to separate the intermediates.)
+- Any reaction can be triggered at the same instant across a crystal. (Light can start a reaction quickly, but mixing in a substrate is limited by diffusion into the crystal. Smaller crystals or photocaged compounds help shorten this delay.)
+- A time-resolved series is a continuous movie of the molecule. (It is a set of snapshots at chosen delays, each averaged over many molecules. Motions between the sampled times are inferred rather than seen.)
+
 ## Questions
 
 ```yaml

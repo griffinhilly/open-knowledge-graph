@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Membrane proteins — receptors, channels, transporters, and enzymes embedded in the lipid bilayer — represent ~30% of all proteins and are the targets of ~60% of approved drugs, yet their structures have been historically difficult to determine because they require a lipid or detergent environment to maintain their native fold. Advances in crystallization in lipidic cubic phase (LCP), the cryo-EM revolution (membrane proteins in detergent micelles, nanodiscs, or liposomes), and the development of thermostabilizing mutations have transformed membrane protein structural biology. Cryo-EM has become the dominant method for large membrane protein complexes, while LCP crystallography remains important for high-resolution structures of smaller membrane proteins like GPCRs.
 
+## How It's Best Learned
+Draw one membrane protein in each sample environment: native bilayer, detergent micelle, nanodisc and lipidic cubic phase, marking where the hydrophobic surface is covered. Then compare an inactive GPCR crystal structure with an active, G protein-bound cryo-EM structure of the same receptor family, and trace which stabilizing tools (fusions, mutations, nanobodies) each structure needed.
+
+## Common Misconceptions
+- A detergent-solubilized structure shows the protein as it is in the membrane. (Detergents can strip bound lipids and change conformational preferences. Results are more trustworthy when they agree with structures in lipid environments or with functional data.)
+- Thermostabilizing mutations and fusion proteins do not affect the structure being studied. (They are chosen to minimize disruption, but they can bias the protein toward particular states, so their effects need checking.)
+- The fuzzy belt around a membrane protein in a cryo-EM map is part of the protein. (It is usually the detergent micelle or nanodisc, which is disordered and is excluded when interpreting the protein density.)
+
 ## Questions
 
 ```yaml

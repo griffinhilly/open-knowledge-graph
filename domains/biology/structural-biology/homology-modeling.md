@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Homology modeling (comparative modeling) predicts a protein's three-dimensional structure based on its sequence similarity to one or more experimentally determined template structures. Because protein structure is more conserved than sequence during evolution, proteins sharing >30% sequence identity typically share the same overall fold, enabling structure prediction by copying the template's backbone and rebuilding side chains and loops. The process involves template identification (BLAST, HHpred), sequence-template alignment, model building (MODELLER, SWISS-MODEL), and model validation (DOPE score, Ramachandran analysis). Homology modeling was the dominant computational structural biology method before AlphaFold, and understanding its principles remains important for interpreting and evaluating all predicted structures.
 
+## How It's Best Learned
+Pick a target whose structure is already known, hide it, and build models from two templates: one at high sequence identity and one in the twilight zone. Superpose each model on the true structure and color by deviation. Then shift the alignment by a few residues in one helix and rebuild, to see how an alignment error moves a whole segment.
+
+## Common Misconceptions
+- A model built from a template is as reliable as the template's crystal structure. (Model accuracy depends on sequence identity and alignment quality. Loops, insertions and poorly aligned segments can be far from the true structure even when the template is excellent.)
+- Getting the side chains right is the hardest part of homology modeling. (Alignment errors and loop modeling usually cause the largest errors. Conserved core regions with a correct alignment tend to be well modeled.)
+- Low sequence identity means the two proteins must have different folds. (Structure is more conserved than sequence, so distant homologs can share a fold even at low identity. The problem is that such relationships become hard to detect and align reliably.)
+
 ## Questions
 
 ```yaml

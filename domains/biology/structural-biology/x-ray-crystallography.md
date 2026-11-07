@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 X-ray crystallography determines the three-dimensional atomic structure of molecules by directing an X-ray beam at a crystal, measuring the diffraction pattern produced by the regularly repeating lattice of molecules, and computationally reconstructing the electron density map from which atomic coordinates are derived. It has been the dominant method for protein structure determination, contributing the majority of structures in the Protein Data Bank. The method requires well-ordered crystals, and the resulting structure represents a time-averaged and space-averaged snapshot of the molecule in the crystal environment. Resolution (typically 1.5-3.0 Angstroms for protein crystals) determines the level of atomic detail visible in the electron density map.
 
+## How It's Best Learned
+Walk one entry from crystal to model: its diffraction image, the processing statistics, the electron density map and the final coordinates. Then compare maps of the same kind of feature, such as an aromatic side chain, at about 1.2, 2.0 and 3.0 angstroms, so you can see what each resolution does and does not let you assign.
+
+## Common Misconceptions
+- A crystal structure is a direct picture of the molecule. (It is a model built into an electron density map. The map is computed from measured amplitudes and estimated phases, and the model reflects choices made by the person building it.)
+- Every atom in a deposited structure is equally certain. (Mobile or poorly ordered regions have weak density and high B-factors. Some parts are left out entirely, and others are modeled with low confidence.)
+- The crystal structure shows the only shape the protein takes. (The crystal holds the molecules in one lattice, often in one conformation, and averages over many copies. In solution the protein may sample other states.)
+
 ## Questions
 
 ```yaml

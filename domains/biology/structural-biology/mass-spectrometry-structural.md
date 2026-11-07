@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Structural mass spectrometry encompasses a suite of MS-based techniques that provide information about protein structure, interactions, and dynamics. Native MS preserves non-covalent complexes in the gas phase, measuring the intact mass and stoichiometry of protein assemblies. Cross-linking MS (XL-MS) identifies residue pairs in spatial proximity by chemically cross-linking them and identifying the cross-linked peptides by LC-MS/MS, providing distance constraints analogous to NMR NOEs but applicable to much larger systems. These approaches complement high-resolution structural methods by characterizing heterogeneous, dynamic, and transient interactions that resist crystallization, providing restraints for integrative structural modeling.
 
+## How It's Best Learned
+Work two small datasets by hand. From a native MS spectrum of a complex, use the charge-state series to compute the mass, then match it to possible subunit stoichiometries. From a list of DSS cross-links on a protein of known structure, measure each lysine-lysine distance in a viewer and sort them into links that fit the structure and links that point to another conformation.
+
+## Common Misconceptions
+- A cross-link shows that two residues are in direct contact. (A cross-link sets an upper bound on distance, set by the linker length plus side-chain reach. The two residues can be many angstroms apart.)
+- A cross-link between two subunits proves they bind each other directly. (It shows the two residues were close at some point in the sample. Overlinking, minor conformations or false identifications can produce links that do not reflect a stable interface.)
+- Native MS measures the complex exactly as it exists in solution. (The gas phase can alter weak or hydrophobic interactions, and some contacts may be lost or nonspecific clusters may form. Native MS results are best checked against solution methods.)
+
 ## Questions
 
 ```yaml

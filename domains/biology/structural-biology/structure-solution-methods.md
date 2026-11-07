@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 Structure solution methods address the phase problem in X-ray crystallography — determining the phases of diffraction reflections that are lost during measurement. Three major approaches exist: molecular replacement (MR) uses a known homologous structure as a search model, rotating and translating it to find the correct orientation and position in the new crystal's unit cell; isomorphous replacement (MIR/SIR) introduces heavy atoms into the crystal and uses the intensity differences between native and derivative data sets to calculate phases; and anomalous dispersion (SAD/MAD) exploits the wavelength-dependent scattering of specific atoms (selenium, introduced via selenomethionine labeling) to extract phase information from a single crystal form. Molecular replacement dominates current practice because of the large number of known structures available as search models.
 
+## How It's Best Learned
+Draw the phase problem as vectors on an Argand diagram: the native amplitude as a circle, then the heavy-atom contribution that gives two possible phases, and the second derivative or anomalous data that picks one. Then run molecular replacement on a tutorial dataset with a close homolog and with a distant one, and compare the two maps and their solution scores.
+
+## Common Misconceptions
+- Molecular replacement just copies the search model into the new crystal. (MR gives starting phases. The map made with those phases and the measured amplitudes shows where the target differs from the model, and rebuilding follows.)
+- A map from molecular replacement that looks like the search model confirms the solution. (Model phases bias the map toward the search model. Features absent from the model, such as new side chains or ligands, are the better sign that the solution is correct.)
+- Anomalous phasing needs the crystal to be soaked with heavy metals. (Selenium can be built into the protein as selenomethionine, and native sulfur atoms can give a weak usable signal, so no soaking is needed in those cases.)
+
 ## Questions
 
 ```yaml

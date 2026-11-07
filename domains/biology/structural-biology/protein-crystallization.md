@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Protein crystallization is the process of growing ordered, three-dimensional lattices of protein molecules suitable for X-ray diffraction analysis. Crystals form when protein molecules are brought to controlled supersaturation — conditions where the solution is thermodynamically unstable and molecules nucleate and grow into ordered arrays. The standard method is vapor diffusion (hanging or sitting drop), where a protein solution mixed with precipitant slowly equilibrates against a reservoir, gradually increasing precipitant concentration and driving crystallization. Crystallization is often the bottleneck in X-ray crystallography because the conditions that produce well-ordered crystals depend on protein purity, homogeneity, concentration, pH, temperature, precipitant type, and additives — parameters that must be screened empirically for each new protein.
 
+## How It's Best Learned
+Sketch a phase diagram with protein concentration against precipitant concentration, marking the undersaturated, metastable, nucleation and precipitation zones. Trace the path a vapor-diffusion drop takes across it. Then set up a hanging-drop tray with a well-behaved model protein such as lysozyme, varying salt across the rows, and match what grows in each drop to its zone on the diagram.
+
+## Common Misconceptions
+- More protein and more precipitant give more crystals. (Pushing too far into supersaturation gives many tiny crystals or amorphous precipitate. Well-ordered crystals usually need a slow approach and growth in the metastable zone.)
+- A clear drop means the condition failed. (A clear drop may be undersaturated and could crystallize at higher protein or precipitant concentration. It still tells you where on the phase diagram you are.)
+- Large, good-looking crystals will diffract well. (Size and appearance do not guarantee internal order. Some crystals that look perfect diffract poorly, and small crystals can diffract to high resolution.)
+
 ## Questions
 
 ```yaml

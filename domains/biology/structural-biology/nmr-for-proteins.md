@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Nuclear magnetic resonance (NMR) spectroscopy determines protein structures and dynamics in solution by exploiting the magnetic properties of atomic nuclei (primarily 1H, 13C, 15N). In a strong magnetic field, nuclear spins resonate at frequencies (chemical shifts) sensitive to their local electronic environment, and through-space (NOE) and through-bond (J-coupling) interactions between nuclei provide distance and connectivity information. Unlike X-ray crystallography and cryo-EM, NMR studies proteins in solution at near-physiological conditions and provides unique information about molecular dynamics on timescales from picoseconds to seconds. The primary limitation is molecular size — NMR is most effective for proteins below ~40 kDa (with special techniques extending to ~100 kDa), because larger proteins have slower tumbling and broader linewidths that degrade spectral resolution.
 
+## How It's Best Learned
+Start from a real 1H-15N HSQC spectrum of a small folded protein and its unfolded form: one peak per backbone amide, well spread versus bunched together. Then follow one residue through the assignment experiments to its peak, and watch a titration in which a few peaks move as a ligand is added. Map those shifting residues onto the structure.
+
+## Common Misconceptions
+- Each HSQC peak can be read off as a specific residue as soon as the spectrum is recorded. (Peaks have to be assigned first, usually with triple-resonance experiments on 13C/15N-labeled protein. Until then a peak is just a frequency pair.)
+- The spread of an NMR ensemble shows how much each region moves. (Spread mainly reflects how well the restraints define each region. Sparse data can make a rigid region look variable, so motion is measured directly with relaxation experiments.)
+- NMR can be used on a protein of any size given a strong enough magnet. (Slower tumbling of large molecules broadens lines. Methods such as TROSY and deuteration push the limit up, but size remains the main constraint.)
+
 ## Questions
 
 ```yaml
