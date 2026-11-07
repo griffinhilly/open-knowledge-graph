@@ -84,4 +84,3 @@ The locked room also represents an ideal of logical certainty. In a sealed space
 
 What makes locked-room mysteries enduringly appealing is that they trust the reader's intelligence. You're invited to compete with the author intellectually, not to be passively entertained. The puzzle is fairly constructed; you have all the information; if you solve it, you've genuinely outsmarted someone who was trying to outsmart you. This appeals to readers who want intellectual challenge from their fiction, who find satisfaction in puzzles.
 
-```

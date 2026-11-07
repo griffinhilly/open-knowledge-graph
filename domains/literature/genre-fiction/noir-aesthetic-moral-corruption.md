@@ -85,4 +85,3 @@ The combination of aesthetic and worldview creates noir's distinctive emotional 
 
 Noir's influence across art forms reflects how effectively this form expresses contemporary experience. In an era of institutional failure and systemic corruption, noir's worldview resonates. Its aesthetic of shadow and decay speaks to contemporary anxiety. Noir provides a language—both visual and thematic—for expressing skepticism about institutions and the possibility of justice. This is why noir conventions persist and evolve across genres: they express something culturally resonant that readers and viewers find compelling.
 
-```

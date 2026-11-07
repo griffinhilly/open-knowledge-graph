@@ -86,4 +86,3 @@ This transforms the love triangle from melodramatic obstacle to meaningful struc
 
 The resolution's significance extends to the character who doesn't get chosen. In some triangles, the unchosen partner represents genuine loss and serves the protagonist's growth (they must learn to live with unfulfilled longing or unmet desire). In others, the unchosen partner represents something the protagonist had to reject to become themselves. Either way, the triangle creates dramatic space to explore desire, identity, and the adult requirement of choosing.
 
-```

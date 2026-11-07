@@ -81,4 +81,3 @@ The small-town setting also enables King's exploration of community evil. Indivi
 
 Understanding King's work requires recognizing that the horror operates on multiple levels simultaneously. There's the immediate threat (a creature, a curse), the eruption of human evil in response to that threat, and the violation of the reader's expectation that small towns should be safe. All three elements work together to create horror that's both supernatural and terrifyingly human.
 
-```

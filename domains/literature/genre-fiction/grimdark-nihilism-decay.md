@@ -83,4 +83,3 @@ The futility of idealism is perhaps the most philosophically significant aspect 
 
 This creates a distinctive emotional and intellectual experience—not the catharsis of watching good overcome evil or the pathos of watching virtue destroyed, but the alienation of watching all meaningful action become impossible. Grimdark asks readers to sit in the discomfort of a world where doing nothing is easier than meaningful resistance, where all options are corrupting, and where power always follows the same logic regardless of ideology.
 
-```

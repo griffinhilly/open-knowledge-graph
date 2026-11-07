@@ -82,4 +82,3 @@ The Cthulhu Mythos became a shared universe precisely because Lovecraft's core c
 
 Understanding Lovecraft's horror requires recognizing that it's primarily philosophical rather than visceral. The scare doesn't come from grotesque imagery (though his creatures are disturbing) but from the existential implications of cosmic insignificance. His influence on horror, fantasy, and cosmic fiction endures because this existential anxiety remains powerful—the fear that the universe doesn't care about us and that full knowledge of this truth would be unbearable.
 
-```

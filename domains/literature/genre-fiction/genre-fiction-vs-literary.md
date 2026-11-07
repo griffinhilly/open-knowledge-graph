@@ -86,4 +86,3 @@ The core insight is that "genre" and "literary" describe different systems of va
 
 Understanding this transforms how you evaluate literature. Instead of asking "Is this genre or literary fiction?" as a way to judge quality, you can recognize what each tradition prioritizes and evaluate works on their own terms—whether they achieve what they set out to do and whether their approach to narrative, character, and theme rewards attention.
 
-```

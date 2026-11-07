@@ -82,4 +82,3 @@ The Common Misconceptions section about craft is crucial: genre fiction requires
 
 Importantly, the category "genre fiction" encompasses work of vastly different quality levels—just as literary fiction does. The term refers to commercial and formal categories, not to artistic merit. Some of the most skillfully written literature in contemporary culture is published as genre fiction. The distinction between "genre" and "literary" tells you about publishing categories and reader communities, not about whether a work is good.
 
-```

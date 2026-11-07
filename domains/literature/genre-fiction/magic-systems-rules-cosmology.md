@@ -82,4 +82,3 @@ The Common Misconceptions section is crucial because readers (and some authors) 
 
 Understanding magic systems requires asking what effects the author is pursuing. If they're pursuing wonder, mystery, and transcendence, hard magic might actually work against these effects by explaining too much. If they're pursuing intellectual engagement and clever problem-solving, soft magic might feel unsatisfying because solutions feel arbitrary. Neither is universally better; each serves different narrative purposes.
 
-```

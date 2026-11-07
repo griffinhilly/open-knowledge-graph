@@ -81,4 +81,3 @@ The focus on exploring "alien perspectives and cultural systems" reflects Le Gui
 
 What makes Le Guin's fiction politically sophisticated is that it examines real social questions without requiring readers to accept the author's answers. The thought experiments are open-ended. Readers can wonder about gender relations, politics, ethics, and human possibility without being lectured. The speculative distance makes genuine intellectual engagement possible—readers examine ideas because they're interested, not because they're being preached to. This is why Le Guin's work, written decades ago, remains provocative and generative: the thought experiments continue to raise questions, continue to make assumptions visible, continue to open conceptual space where readers might think differently.
 
-```

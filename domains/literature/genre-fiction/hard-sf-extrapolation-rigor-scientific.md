@@ -82,4 +82,3 @@ Importantly, the commitment to scientific plausibility can actually enable more 
 
 The phrase "technical precision and commitment to accuracy" suggests both a style and an ethic. Hard SF values clear explanation of its scientific principles, often including diagrams, technical language, or exposition that would seem tedious in other genres but that hard SF readers expect and appreciate. The commitment to accuracy means the author has done homework, means readers can trust the premises, means the thought experiment has genuine intellectual weight. Hard SF trusts readers to understand scientific concepts and to appreciate the intellectual challenge of rigorous speculation.
 
-```

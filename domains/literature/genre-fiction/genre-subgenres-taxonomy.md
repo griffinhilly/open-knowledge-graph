@@ -86,4 +86,3 @@ The evolution of subgenres tracks the evolution of reader communities and cultur
 
 Mapping genre taxonomies becomes powerful when you recognize that a single work can simultaneously belong to multiple categories and that subgenres are born from the productive collision of different tradition-systems. This understanding also helps you navigate publishing and find works that match what you're seeking—knowing to look for "paranormal romance" when you want fantasy worldbuilding plus emotional satisfaction, or "cozy mystery" when you want puzzle-solving in a smaller, often community-centered context.
 
-```

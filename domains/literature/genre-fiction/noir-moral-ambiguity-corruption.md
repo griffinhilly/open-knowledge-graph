@@ -83,4 +83,3 @@ The noir aesthetic of shadow and danger embodies this worldview. You cannot trus
 
 Understanding noir requires abandoning the assumption that narratives move toward justice or redemption. Noir accepts that some situations are inescapable, some corruption is systemic, some damage is permanent. The pleasure of noir comes not from hoping for justice but from recognizing the protagonist's navigation of impossible circumstances with as much dignity and code as possible. Noir is not optimistic, but it's not nihilistic either—it's realistic about limitations while maintaining that individual choice and personal code matter, even in hopeless systems.
 
-```

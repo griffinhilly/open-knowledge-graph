@@ -79,4 +79,3 @@ The distinction between "lazy" trope deployment and "skillful" deployment lies i
 
 This is why the Common Misconceptions section is so important: tropes are not the enemy of good writing. Trying to avoid all tropes often results in awkward, self-conscious storytelling. Instead, skilled genre writers work *with* the conventions their audience expects, then find fresh variations within that framework. They know what readers expect and deliver it, but with enough specificity and emotional precision that it feels surprising. A veteran mystery reader has encountered hundreds of detective stories, but a great mystery writer can still create genuine surprise through clever plotting and character insight—not by abandoning the detective convention, but by executing it with excellence.
 
-```

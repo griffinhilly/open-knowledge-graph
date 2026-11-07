@@ -85,4 +85,3 @@ Haunted house narratives persistently ask questions about how trauma embeds itse
 
 The physical trap of the house—inability to escape, architecture that confuses and constrains—becomes metaphorical for psychological traps. Inhabitants cannot leave because they're bound by guilt, by family obligation, by need for answers or redemption. The house becomes the spatial manifestation of psychological imprisonment. In this way, the haunted house genre explores the question of how space and psyche interact: how the places we inhabit shape our consciousness, how history embeds itself in physical structures, how our need to deny trauma might manifest as supernatural disturbance.
 
-```

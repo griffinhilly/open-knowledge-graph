@@ -80,4 +80,3 @@ Cultural contexts determine which narrative concerns become urgent and which anx
 
 The understanding that genres evolve through interconnected systems of economics, technology, reader communities, and cultural context transforms how you read literature. It explains why certain classics felt essential to their moment but now seem dated in their concerns. It also suggests that current genres will continue to evolve—some toward canonicity and cultural prestige, others toward decline as reader communities shift or publishing economics change.
 
-```

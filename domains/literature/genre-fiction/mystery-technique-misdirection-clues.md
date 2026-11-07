@@ -84,4 +84,3 @@ What distinguishes sophisticated mystery technique from mere trickery is that it
 
 The phrase "balance multiple suspects" indicates another key technique: plausible alternative solutions. If only one suspect seems possible, there's no mystery. The effective mystery presents multiple characters who could plausibly be guilty. Each has some motive, some opportunity, some suspicious quality. The reader might suspect suspect A through chapter five, then suspect B through chapter ten, because the author has balanced the clues to keep attention moving. The true culprit emerges not because they're obviously guilty but because the author guides attention in their direction while maintaining plausibility for others.
 
-```

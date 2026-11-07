@@ -84,4 +84,3 @@ High fantasy's connection to epic quests and moral struggles is not incidental. 
 
 What elevates high fantasy from world-building exercise to artistic achievement is how authors use the secondary world to explore questions impossible to explore in our world. They create systems where the nature of power, the costs of magic, the relationship between individual action and cosmic forces can be made visible. A high fantasy author builds a world not simply for the pleasure of building but to ask specific questions: What does a society built on magic look like? How do individuals navigate worlds where ancient powers constrain them? What happens when someone realizes the moral framework they've been taught is false? The secondary world is the laboratory in which these questions are explored.
 
-```

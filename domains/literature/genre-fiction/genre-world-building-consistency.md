@@ -87,4 +87,3 @@ The same principle applies to historical fiction, where accurate period details 
 
 Readers of genre fiction are sophisticated enough to recognize when authors are respecting their own established world-building and when they're breaking rules for convenience. The moment you establish a rule and then violate it without consequence or explanation, you've signaled to readers that the world doesn't operate according to consistent logic—and that trust is genuinely difficult to rebuild. The most successful genre writers treat their world-building rules as seriously as they treat their plot, because the consistency of the world is part of the emotional and intellectual satisfaction the genre provides.
 
-```

@@ -80,4 +80,3 @@ The moral compromise at the heart of hardboiled fiction is crucial: the protagon
 
 This creates hardboiled's distinctive tone: weary acknowledgment that the world is corrupt, that justice is impossible within official systems, that the detective's only option is individual action guided by personal code. It's noir not because everything is dark, but because light and shadow are constantly negotiated, and you can never be quite sure which is which.
 
-```

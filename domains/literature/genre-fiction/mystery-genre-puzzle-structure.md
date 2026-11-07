@@ -86,4 +86,3 @@ The Common Misconceptions section is essential because fair play is sometimes di
 
 Reading a fair play mystery with the intention of solving it before the reveal requires active engagement. You must track clues, notice what's mentioned and what's emphasized, remain alert for misdirection. You're not passively consuming a story; you're actively competing with the author. This is why fair play mysteries have devoted readers: the form offers intellectual engagement that other narratives might not provide.
 
-```

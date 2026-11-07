@@ -87,4 +87,3 @@ This creates a distinctive narrative experience: the protagonist is not simply o
 
 The enduring popularity of gothic romance reflects something true about human emotional experience: we are often attracted to complexity, darkness, and the unknown, even when we recognize danger. Gothic romance doesn't deny this or moralize about it—it explores the genuine intensity of that attraction and the real risks it entails.
 
-```

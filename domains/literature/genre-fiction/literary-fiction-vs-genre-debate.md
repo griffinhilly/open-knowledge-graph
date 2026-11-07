@@ -81,4 +81,3 @@ What's most revealing about the debate is what it says about attitudes toward re
 
 Understanding the literary/genre debate requires seeing it as a historical and institutional phenomenon rather than an objective distinction. The categories do exist—they describe different publishing markets, different reader communities, different conventions—but they don't reliably predict artistic merit. Excellence occurs in both categories. The most interesting contemporary literature often exists precisely at the intersection, refusing the distinction by demonstrating that ambitious artistic work and engaging genre fiction are not mutually exclusive.
 
-```

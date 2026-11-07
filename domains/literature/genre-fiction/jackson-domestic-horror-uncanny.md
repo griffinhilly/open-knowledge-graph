@@ -80,4 +80,3 @@ What makes Jackson's approach distinct from other horror writers is that she tre
 
 The title of her author entry—"Domestic Horror and the Ordinary Uncanny"—captures the essential insight. The "uncanny" is the familiar made strange, the homely revealed as uncannily hostile. Jackson specializes in this: taking the intimate space of family, the familiar space of small-town community, and revealing how hostile and dangerous these spaces can be. There are no external threats in Jackson; the threat comes from within the social structures that are supposed to protect you. This is psychologically devastating in ways that external horror often is not.
 
-```

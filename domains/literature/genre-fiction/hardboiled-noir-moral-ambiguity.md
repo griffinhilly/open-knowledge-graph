@@ -86,4 +86,3 @@ The "brutal landscape" isn't simply a setting; it's a character in itself. The u
 
 The distinction between Chandler's lyrical hardboiled and Hammett's minimalist hardboiled illustrates how the same genre can serve different ends. Chandler's prose allows for reflection and moral complexity—we see the detective thinking about his choices, feeling the weight of cynicism, questioning whether his code is sustainable. Hammett's spare style creates emotional distance—we observe the detective acting, inferring his thoughts and feelings from behavior. Both are hardboiled; both explore moral compromise in corrupt systems. But Chandler's approach emphasizes the emotional cost of cynicism, while Hammett's emphasizes the detective's effective operation within systems of power. The genre contains multitudes.
 
-```

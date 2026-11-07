@@ -84,4 +84,3 @@ Hilary Mantel's approach in Wolf Hall illustrates the productive middle: she hon
 
 The Common Misconceptions section is crucial: historical fiction is not a lesser form of history, nor is it pure fiction. It's a distinct form that serves "emotional and thematic truth as much as factual truth." A historical novel can illuminate something true about a period even while inventing specific details. It can help readers understand what it felt like to live in a particular moment, what mattered, what was difficult—truths that history documents but doesn't always convey. This emotional and thematic truth justifies the invention; the imaginative work serves understanding.
 
-```

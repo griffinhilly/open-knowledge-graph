@@ -90,4 +90,3 @@ The particular challenge is dialogue for historical figures. Readers know these 
 
 Understanding period voice as a craft element transforms how you read historical fiction. You become aware of how authors layer authenticity: a few period terms in dialogue, careful word choices that evoke an era without being incomprehensible, speech patterns that feel slightly formal or different without being unreadable. You recognize that achieving this balance is skilled work, and you can appreciate how successfully (or unsuccessfully) different authors manage it.
 
-```
