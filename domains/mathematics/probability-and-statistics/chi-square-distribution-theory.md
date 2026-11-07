@@ -3,7 +3,9 @@ id: chi-square-distribution-theory
 title: 'Chi-Square Distribution: Theory and Tests'
 domain: mathematics
 course: probability-and-statistics
-prerequisites: []
+prerequisites:
+- id: standard-normal-z-scores-theory
+  type: hard
 builds-toward:
 - chi-square-test
 - hypothesis-testing-fundamentals

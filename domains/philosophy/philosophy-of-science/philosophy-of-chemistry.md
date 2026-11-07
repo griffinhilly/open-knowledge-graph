@@ -3,7 +3,9 @@ id: philosophy-of-chemistry
 title: "Philosophy of Chemistry"
 domain: philosophy
 course: philosophy-of-science
-prerequisites: []
+prerequisites:
+- id: reduction-emergence-science
+  type: soft
 builds-toward: []
 tags:
 - chemistry

@@ -93,7 +93,7 @@ NONE	-	pushes-and-pulls	-	high	Entry point of physics; no pre-formal physics top
 ADD	wave-properties-conceptual	wave-properties-and-classification	soft	high	Conceptual wavelength, frequency, amplitude precede the formal treatment.
 ADD	simple-harmonic-motion	wave-properties-and-classification	soft	medium	Period and amplitude of the oscillating medium come from SHM.
 ADD	kitchen-awareness-safety-fundamentals	burner-heat-level-control	soft	high	Hot-stove hazard awareness precedes operating burners.
-NONE	-	kitchen-awareness-safety-fundamentals	-	high	Entry point of the cooking course for children (overlaps kitchen-safety-and-hygiene).
+ADD	staying-safe-at-home	kitchen-awareness-safety-fundamentals	soft	high	Pre-formal home-hazard awareness precedes kitchen-specific hazards (note: overlaps kitchen-safety-and-hygiene).
 ADD	washing-hands-and-hygiene	kitchen-safety-and-hygiene	soft	high	Pre-formal handwashing is the base of kitchen hygiene.
 ADD	germs-bacteria-and-viruses	kitchen-safety-and-hygiene	soft	medium	Cross-contamination rules rest on knowing germs spread.
 ADD	temperature-and-thermometers-3rd	oven-temperature-and-preheating	soft	medium	Recipes give temperatures in F or C; reading a temperature scale helps.
@@ -110,3 +110,36 @@ ADD	connecting-to-the-internet	internet-connectivity-basics	soft	medium	Hands-on
 ADD	web-browser-basics	internet-safety-basics	soft	medium	Safe-browsing rules (HTTPS, downloads) presume basic browser use.
 ADD	clicking-links-and-buttons	internet-safety-basics	soft	medium	Risk centres on clicking without thinking; clicking links comes first.
 ADD	computer-parts-identification	mouse-and-trackpad-control	soft	medium	Knowing the mouse as a computer part precedes technique (note: overlaps using-a-mouse).
+ADD	cognitive-biases-overview	behavioral-biases-in-financial-decisions	soft	medium	Applies general cognitive biases (anchoring, loss aversion) to money (note: staged one level below the psych topic).
+ADD	cognitive-biases-overview	behavioral-finance-and-cognitive-biases	soft	medium	Applies general cognitive biases to money (note: near-duplicate of behavioral-biases-in-financial-decisions).
+ADD	money-fundamentals-definition-and-characteristics	income-classification-earned-vs-passive	soft	medium	Classifying income presumes the basic concept and functions of money.
+ADD	trading-and-exchange	money-fundamentals-definition-and-characteristics	soft	high	Money as medium of exchange is understood against trade and barter.
+ADD	understanding-money-value	money-fundamentals-definition-and-characteristics	soft	medium	Concrete coin and bill values precede the functions of money.
+ADD	scarcity-and-opportunity-cost	opportunity-cost-in-financial-decisions	soft	high	Concrete economics introduction to opportunity cost precedes its financial application.
+ADD	needs-vs-wants	opportunity-cost-in-financial-decisions	soft	medium	Choosing between options under limited money starts with needs vs wants.
+ADD	conductors-and-insulators	electrical-safety-basics	soft	high	Water-and-electricity hazards rest on knowing what conducts.
+ADD	simple-circuits	electrical-safety-basics	soft	medium	Cutting power at the breaker presumes the idea of a closed circuit.
+ADD	understanding-home-systems	exterior-finish-damage-types-and-assessment	soft	medium	Exterior envelope (roof, siding, windows) is one of the home systems.
+ADD	home-maintenance-fundamentals	exterior-finish-damage-types-and-assessment	soft	medium	Preventive vs corrective maintenance frames early damage identification.
+NONE	-	home-maintenance-fundamentals	-	high	Course entry point explaining why homes need maintenance.
+ADD	home-maintenance-fundamentals	home-system-components-and-layout	soft	medium	Course introduction precedes the tour of home systems (note: near-duplicate of understanding-home-systems).
+NONE	-	household-cleaning-systems	-	medium	Concrete routine-building topic; no earlier topic it clearly draws on.
+ADD	home-maintenance-fundamentals	interior-finish-damage-types-and-assessment	soft	medium	Preventive vs corrective framing precedes damage assessment.
+ADD	home-system-components-and-layout	plumbing-basics	soft	medium	Plumbing supply and drain is introduced as one of the home systems.
+ADD	home-maintenance-fundamentals	understanding-home-systems	soft	medium	Course introduction precedes the home-systems overview (note: near-duplicate of home-system-components-and-layout).
+ADD	nervous-system-ls	central-peripheral-nervous-system-organization	soft	high	Life-science overview of brain, spinal cord and nerves precedes CNS/PNS organization (note: biology has central-vs-peripheral-nervous-system duplicate).
+ADD	neuron-structure-and-function	central-peripheral-nervous-system-organization	soft	medium	Afferent and efferent neurons are the units of the organization.
+ADD	inter-rater-reliability-agreement	dsm-5-diagnostic-criteria-and-classification	soft	medium	Standardized criteria exist to make diagnosis reliable across clinicians (clinical-assessment-overview would cycle via dsm5-classification-system).
+ADD	recording-observations-in-science	scientific-inquiry-empirical-cycles-psychology	soft	medium	Concrete observation recording precedes the observation-hypothesis cycle (note: near-duplicate of scientific-method-psychology).
+ADD	recording-observations-in-science	scientific-method-psychology	soft	medium	Concrete observation recording precedes the formal scientific method.
+ADD	human-geography-overview	geographic-scale-analysis	soft	medium	Scale is a core concept introduced within the field overview (note: near-duplicate of spatial-scale-human-geography).
+ADD	near-and-far-places	geographic-scale-analysis	soft	medium	Concrete local-to-distant place ideas precede multi-scalar analysis.
+ADD	environmental-determinism-possibilism	geographic-thought-history	soft	high	History traces determinism to possibilism to critical approaches (note: that topic is staged one level higher).
+ADD	human-geography-overview	geographic-thought-history	soft	medium	Overview of the discipline precedes its intellectual history.
+ADD	human-geography-overview	spatial-scale-human-geography	soft	medium	Scale is a core concept introduced within the field overview.
+ADD	near-and-far-places	spatial-scale-human-geography	soft	medium	Concrete local-to-distant place ideas precede scale as a concept.
+ADD	family-structures	belonging-to-groups	soft	medium	Family is the first group the topic lists.
+NONE	-	family-structures	-	high	Entry point of the community course; draws on the child's own family.
+ADD	belonging-to-groups	neighborhoods-and-communities	soft	medium	A community is defined as a group sharing a place or goals.
+ADD	intro-to-sociology	philosophy-of-social-science-epistemology	soft	medium	Reflecting on how we know claims about society presumes what social science studies (note: overlaps philosophy-of-social-science).
+ADD	belonging-to-groups	intro-to-sociology	soft	medium	Concrete groups and belonging precede the study of behavior within groups.

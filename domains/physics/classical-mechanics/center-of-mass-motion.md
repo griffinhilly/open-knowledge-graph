@@ -3,7 +3,13 @@ id: center-of-mass-motion
 title: Center of Mass Motion
 domain: physics
 course: classical-mechanics
-prerequisites: []
+prerequisites:
+- id: center-of-mass
+  type: hard
+- id: newtons-second-law
+  type: hard
+- id: newtons-third-law
+  type: soft
 builds-toward:
 - reduced-mass-problem
 - angular-momentum-of-rigid-body

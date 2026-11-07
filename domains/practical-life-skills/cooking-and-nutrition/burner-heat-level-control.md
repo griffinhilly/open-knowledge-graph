@@ -3,7 +3,9 @@ id: burner-heat-level-control
 title: Controlling Burner Heat Levels
 domain: practical-life-skills
 course: cooking-and-nutrition
-prerequisites: []
+prerequisites:
+- id: kitchen-awareness-safety-fundamentals
+  type: soft
 builds-toward:
 - sauteing-and-pan-cooking
 - boiling-and-simmering

@@ -3,7 +3,9 @@ id: scientific-explanation-models
 title: "Scientific Explanation & Causal Models"
 domain: philosophy
 course: philosophy-of-science
-prerequisites: []
+prerequisites:
+- id: deductive-nomological-explanation
+  type: soft
 builds-toward: []
 tags:
 - explanation

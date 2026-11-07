@@ -1,0 +1,117 @@
+ADD	span-and-basis	change-of-basis	hard	high	Change of basis presupposes knowing what a basis is; already implied via basis-and-dimension.
+ADD	linear-transformations	composition-linear-transformations	hard	high	Composing linear transformations requires the notion of a linear transformation.
+ADD	determinant-computation	cramers-rule	hard	high	Cramer's rule is a ratio of determinants that must be computed.
+ADD	dot-product	cross-product	soft	high	Orthogonality of the cross product to its factors is checked with the dot product.
+ADD	matrix-transpose	determinant-properties	soft	high	det(A^T)=det(A) is a standard determinant property.
+ADD	composition-linear-transformations	diagonalization	soft	medium	A=PDP^-1 is read as a composition of maps; useful framing, not required.
+ADD	matrix-composition	diagonalization	soft	medium	Duplicate of composition-linear-transformations; same soft framing role for A=PDP^-1.
+DROP	vector-norms	dot-product	-	high	vector-norms already lists dot-product as a prerequisite; adding would create a cycle.
+ADD	law-of-cosines	dot-product	soft	high	The geometric formula u.v=|u||v|cos(theta) is derived from the law of cosines.
+DROP	composition-linear-transformations	eigenvalues-and-eigenvectors	-	medium	Eigenvalues concern a single map; composition is not needed.
+ADD	determinant-computation	eigenvalues-and-eigenvectors	hard	high	Finding eigenvalues requires computing det(A - lambda I).
+DROP	matrix-transpose	eigenvalues-and-eigenvectors	-	medium	Eigen-theory does not draw on the transpose beyond a side fact.
+DROP	diagonalization	least-squares-approximation	-	high	Least squares uses projections/normal equations, not diagonalization.
+ADD	positive-definite-matrices	least-squares-approximation	soft	medium	A^T A being positive definite explains uniqueness of the least-squares solution.
+ADD	singular-value-decomposition	least-squares-approximation	soft	medium	SVD/pseudoinverse is an alternate route to least squares, not required.
+ADD	covariance-between-random-variables	linear-regression	soft	medium	Regression slope equals cov(X,Y)/var(X); helpful statistical context.
+ADD	covariance-correlation-theory	linear-regression	soft	medium	Duplicate covariance topic; same soft link to the regression slope.
+ADD	matrix-transpose	matrix-inverses	soft	medium	Inverse properties ((A^T)^-1) and adjugate formula use the transpose.
+ADD	gaussian-elimination-pivoting	matrix-norms-conditioning	soft	medium	Pivoting and round-off motivate condition numbers; not strictly required.
+DROP	matrix-addition-subtraction	matrix-transpose	-	medium	Transpose is a standalone operation; (A+B)^T is only a minor property.
+ADD	dot-product	orthogonal-projections	hard	high	The projection formula (u.v/v.v)v is built from the dot product.
+ADD	basis-and-dimension	rank-nullity-theorem	hard	high	Rank-nullity is a statement about dimensions.
+ADD	basis-definition	rank-nullity-theorem	hard	high	Dimension counts rely on bases; already implied via dimension-vector-space.
+DROP	matrix-inverses	rank-nullity-theorem	-	medium	Dominant direction is rank-nullity informing invertibility, not the reverse.
+ADD	null-space	rank-nullity-theorem	hard	high	Nullity is the dimension of the null space.
+ADD	systems-of-linear-equations	rank-nullity-theorem	soft	high	Systems give the main application and intuition for rank and nullity.
+ADD	gaussian-elimination	reduced-row-echelon-form	hard	high	RREF is the endpoint of row reduction; already implied via row-echelon-form.
+DROP	determinants-2x2-3x3	systems-of-linear-equations	-	medium	Writing and solving systems in matrix form does not require determinants.
+ADD	lp-completeness	banach-spaces	soft	medium	L^p completeness supplies the canonical Banach-space example; not needed for the definition.
+ADD	lp-space-completeness-riesz-fischer	banach-spaces	soft	medium	Duplicate Riesz-Fischer topic; same soft example role.
+JUDGE	open-mapping-theorem	closed-graph-theorem	hard	high	Correct direction (CGT is proved from OMT), but open-mapping-theorem lists closed-graph-theorem as prereq; reverse that edge.
+JUDGE	fatou-lemma-measure-theory	dominated-convergence-theorem	hard	high	DCT is proved from Fatou, but fatou-lemma-measure-theory lists DCT as prereq (backwards); reverse that edge.
+JUDGE	monotone-convergence-theorem-analysis	dominated-convergence-theorem	soft	high	MCT underlies Fatou/DCT, but MCT lists both Fatou topics as prereqs (backwards), so adding closes a cycle; fix those first.
+JUDGE	monotone-convergence-theorem-analysis	fatou-lemma-measure-theory	hard	high	Fatou is proved from MCT, but MCT currently lists fatou-lemma-measure-theory as prereq; reverse that edge.
+DROP	linear-functionals-dual-spaces	hilbert-spaces	-	medium	Defining Hilbert spaces needs inner products and completeness, not duals.
+ADD	measurable-functions	lebesgue-integral	hard	high	The Lebesgue integral is defined for measurable functions.
+ADD	lebesgue-measure-real-line	lebesgue-integral-simple-functions	soft	medium	Simple-function integrals live on general measure spaces; Lebesgue measure gives the main examples.
+ADD	null-sets-almost-everywhere	lebesgue-integral-simple-functions	soft	medium	A.e. equality explains when simple integrals agree; helpful, not required.
+ADD	outer-measure	lebesgue-measure-real-line	hard	high	Lebesgue measure is built from outer measure via Caratheodory.
+ADD	orthogonality-and-projections	orthonormal-bases-in-hilbert	hard	high	Orthonormal bases require orthogonality and projection onto spans.
+ADD	set-theory-basics	cartesian-product	hard	high	Cartesian product is a set construction; already implied via set-operations.
+ADD	set-fundamentals	cartesian-products-relations	hard	high	Products and relations are built from sets; already implied.
+ADD	truth-values-and-statements	conditional-implication-statements	hard	high	Conditionals are statements with truth values; already implied via connectives.
+ADD	cartesian-products-relations	equivalence-relations	hard	high	An equivalence relation is a subset of A x A.
+ADD	set-operations	equivalence-relations	soft	medium	Partitions into classes use unions and disjointness.
+DROP	biconditional-and-equivalence	equivalence-relations-and-partitions	-	high	Word overlap only; logical biconditional is not what equivalence relations draw on.
+ADD	set-operations-and-notation	equivalence-relations-and-partitions	hard	high	Partitions and relations are stated in set notation; already implied.
+ADD	functions-domain-codomain-range	function-composition-and-inverses	hard	high	Composition and inverses require domain/codomain; already implied.
+ADD	uniqueness-proofs	injective-surjective-bijective	soft	medium	Injectivity proofs are uniqueness arguments; helpful, not required.
+ADD	logical-connectives-and-operators	logical-equivalence	hard	high	Equivalence compares compound statements built from connectives.
+ADD	statements-and-logical-connectives	logical-equivalences	hard	high	Equivalences are between compound statements; already implied via truth-tables.
+ADD	logical-equivalence-propositional	logical-equivalences	soft	medium	Cross-domain near-duplicate; reinforces the same content.
+ADD	direct-proof	mathematical-induction	hard	high	The inductive step is a direct proof of P(k) -> P(k+1); already implied via proof-by-cases.
+ADD	proof-by-cases-exhaustion	mathematical-induction	soft	medium	Duplicate of proof-by-cases already listed; base/step split is case-like.
+DROP	proof-by-contradiction	proof-by-cases-exhaustion	-	medium	Proof by cases does not draw on contradiction.
+ADD	proof-structure-and-terminology	proof-by-contrapositive	hard	high	Contrapositive proofs use the standard proof vocabulary; already implied via direct-proof.
+DROP	de-morgans-laws	proof-structure-and-terminology	-	medium	Proof structure and vocabulary do not need De Morgan's laws.
+ADD	direct-proof-introduction	proof-structure-and-terminology	soft	medium	An earlier-stage first look at proofs eases formal proof terminology.
+DROP	proving-by-contradiction	proving-by-cases	-	medium	Proof by cases does not draw on contradiction.
+ADD	existential-quantifier-introduction	proving-by-contradiction	soft	high	Negating universal claims yields existentials; already implied via negating-quantifiers.
+DROP	proving-by-contrapositive	proving-by-contradiction	-	high	Reverse edge already exists (contradiction is a prereq of contrapositive); adding creates a cycle.
+ADD	conditional-implication-statements	proving-by-contrapositive	hard	high	The contrapositive is a transformation of a conditional; already implied.
+ADD	modus-ponens-and-modus-tollens	proving-by-contrapositive	soft	high	Modus tollens is the inference behind contrapositive proof.
+ADD	negating-quantifiers	proving-by-contrapositive	soft	high	Forming the contrapositive of quantified claims requires negating them.
+ADD	rules-of-logical-inference	proving-by-direct-method	hard	high	Direct proof chains inference rules; already implied via modus-ponens.
+ADD	set-operations-and-venn-diagrams	set-operations-union-intersection-complement	soft	high	Earlier-stage Venn treatment of the same operations.
+ADD	truth-values-and-statements	truth-tables-and-evaluation	hard	high	Truth tables tabulate truth values of statements; already implied.
+ADD	constrained-optimization-lagrange	applications-multivariable	soft	high	Applications include constrained optimization; lagrange-multipliers already listed.
+ADD	triple-integrals-cylindrical	applications-multivariable	soft	medium	Volume/mass applications may use cylindrical integrals; not core.
+ADD	triple-integrals-spherical	applications-multivariable	soft	medium	Volume/mass applications may use spherical integrals; not core.
+ADD	tangent-planes	chain-rule-multivariable	soft	medium	Linear approximation motivates the multivariable chain rule.
+ADD	double-integrals-polar	change-of-variables-multivariable	soft	high	Polar is the motivating Jacobian example; already implied via jacobian-change-of-variables.
+ADD	line-integrals	conservative-fields-potential	hard	high	Path independence is a property of line integrals; already implied.
+DROP	second-partials-test-extrema	constrained-optimization-lagrange	-	medium	Lagrange multipliers use gradients, not the second-partials test.
+ADD	multivariable-functions-intro-domain	contour-maps	soft	high	Duplicate of functions-of-several-variables already listed.
+DROP	implicit-differentiation-multivariable	critical-points-multivariable	-	high	Finding critical points needs first partials, not implicit differentiation.
+DROP	mixed-partials-clairaut	critical-points-multivariable	-	medium	Locating critical points uses first partials only; classification is elsewhere.
+ADD	vector-fields	curl-and-divergence	hard	high	Curl and divergence are operators on vector fields.
+ADD	conservative-vector-fields	curl-divergence	soft	high	Curl-free test for conservative fields is a key application.
+ADD	vector-valued-functions	curvature	hard	high	Curvature is defined via derivatives of r(t); already implied via space-curves.
+ADD	vector-valued-functions-curves	curvature-and-torsion	hard	high	Curvature/torsion are derived from r(t); already implied via arc-length.
+ADD	contour-maps-level-curves	directional-derivatives	soft	high	Level curves give the geometric reading of directional derivatives.
+ADD	contour-maps	directional-derivatives-gradient	soft	high	Gradient is perpendicular to contours; geometric support.
+ADD	greens-theorem	divergence-theorem	soft	high	The flux form of Green's theorem is the 2D divergence theorem.
+ADD	iterated-integrals-fubini	double-integrals-general-regions	hard	high	General regions are computed as iterated integrals; already implied.
+JUDGE	double-integrals-rectangular-regions	double-integrals-polar	soft	high	Right direction, but adding closes a cycle via double-integrals listing double-integrals-polar-coordinates; fix that edge first.
+ADD	double-integrals	double-integrals-rectangular-regions	hard	high	Rectangular regions specialize the double-integral definition; already implied.
+ADD	3d-coordinate-systems	equations-lines-planes	hard	high	Lines and planes are stated in 3D coordinates; already implied via vectors-in-3d.
+ADD	parametric-surfaces	flux-integrals	hard	high	Flux integrals are computed over parametrized surfaces; already implied.
+DROP	contour-maps	gradient-vector	-	medium	gradient-vector already lists duplicate contour-maps-level-curves; adding closes a cycle via level-sets-surfaces -> tangent-planes-surfaces.
+ADD	dot-product-geometry	gradient-vector	soft	medium	Steepest-ascent interpretation of the gradient uses the dot product.
+JUDGE	level-sets-surfaces	gradient-vector	soft	medium	Gradient-normal-to-level-set is real, but level-sets-surfaces lists tangent-planes-surfaces (which needs gradient), so adding closes a cycle.
+DROP	conservative-fields	greens-theorem	-	medium	Green's theorem does not need conservative fields; the consequence runs the other way.
+DROP	conservative-vector-fields	greens-theorem	-	medium	Green's theorem does not need conservative fields; the consequence runs the other way.
+DROP	curl-and-divergence	greens-theorem	-	medium	Green's theorem is usually taught before curl; its integrand needs only partials.
+DROP	curl-divergence	greens-theorem	-	medium	Green's theorem is usually taught before curl; its integrand needs only partials.
+ADD	clairaut-theorem	hessian-matrix-second-derivative-test	soft	high	Clairaut makes the Hessian symmetric; already implied.
+DROP	second-partials-test	lagrange-multipliers	-	medium	Lagrange multipliers do not draw on the unconstrained second-partials test.
+ADD	equations-lines-planes	level-sets-surfaces	soft	medium	Planes are the simplest level surfaces in 3D.
+ADD	line-integrals-scalar	line-integrals-vector-fields	soft	high	Scalar line integrals introduce the parametrization machinery first.
+DROP	multivariable-functions-intro-domain	multivariable-limits	-	medium	Limits already list duplicate functions-of-several-variables; adding closes a cycle via multivariable-functions-intro -> multivariable-limits.
+DROP	tangent-planes-linear-approximation	optimization-multivariable-basics	-	medium	Optimization draws on critical points and the Hessian, not tangent planes.
+DROP	contour-maps	partial-derivatives	-	medium	Partial derivatives are already an ancestor of contour-maps (via level-sets-surfaces); adding creates a cycle.
+ADD	functions-of-several-variables	partial-derivatives	hard	high	Partial derivatives are taken of functions of several variables; already implied.
+DROP	conservative-fields	stokes-theorem	-	medium	Stokes does not draw on conservative fields; it implies curl-free results instead.
+ADD	greens-theorem	stokes-theorem	soft	high	Stokes generalizes Green's theorem to surfaces in 3D.
+ADD	surface-integrals-scalar	stokes-theorem	hard	high	Stokes uses surface flux integrals built on scalar surface integrals; already implied.
+ADD	work-circulation	stokes-theorem	hard	high	The boundary side of Stokes is a circulation integral.
+DROP	curl-and-divergence	surface-integrals-flux	-	medium	Flux integrals do not require curl or divergence.
+ADD	differentiability-multivariable	tangent-planes	soft	high	Tangent planes exist when f is differentiable; already implied via total-differential.
+ADD	differentiability-multivariate	tangent-planes-linear-approximation	soft	high	Duplicate differentiability topic; already implied.
+DROP	level-sets-surfaces	tangent-planes-linear-approximation	-	medium	level-sets-surfaces already depends on this topic via tangent-planes-surfaces; adding creates a cycle.
+ADD	total-differential	tangent-planes-linear-approximation	soft	high	Total differential and linear approximation are the same idea; already implied.
+ADD	iterated-integrals	triple-integrals	hard	high	Triple integrals are evaluated as iterated integrals; already implied.
+ADD	double-integrals-polar	triple-integrals-cylindrical	hard	high	Cylindrical coordinates are polar plus z; already implied.
+ADD	critical-points-extrema-saddle	unconstrained-optimization	hard	high	Unconstrained optimization finds and classifies critical points; already implied.
+ADD	directional-derivatives-gradient	vector-fields	soft	medium	Gradient fields are a standard vector-field example.

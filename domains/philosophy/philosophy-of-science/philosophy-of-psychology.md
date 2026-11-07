@@ -3,7 +3,9 @@ id: philosophy-of-psychology
 title: "Philosophy of Psychology"
 domain: philosophy
 course: philosophy-of-science
-prerequisites: []
+prerequisites:
+- id: mind-body-problem-formulation
+  type: soft
 builds-toward: []
 tags:
 - psychology

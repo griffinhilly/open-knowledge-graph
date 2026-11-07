@@ -3,7 +3,9 @@ id: vectors-in-rn
 title: Vectors in R^n
 domain: mathematics
 course: linear-algebra
-prerequisites: []
+prerequisites:
+- id: vectors-in-two-dimensions
+  type: soft
 builds-toward:
 - vector-addition-subtraction
 - scalar-multiplication

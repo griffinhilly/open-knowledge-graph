@@ -3,7 +3,9 @@ id: central-peripheral-nervous-system-organization
 title: Central and Peripheral Nervous System Organization
 domain: psychology
 course: biological-psychology
-prerequisites: []
+prerequisites:
+- id: nervous-system-ls
+  type: soft
 builds-toward:
 - autonomic-nervous-system-organization-and-control
 - brain-structure-and-functional-localization

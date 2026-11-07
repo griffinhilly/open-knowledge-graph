@@ -3,7 +3,9 @@ id: imagination-vs-reality
 title: Imagination vs Reality
 domain: philosophy
 course: wondering-and-thinking
-prerequisites: []
+prerequisites:
+- id: real-vs-make-believe
+  type: soft
 builds-toward:
 - what-is-real-vs-pretend
 - what-would-happen-if

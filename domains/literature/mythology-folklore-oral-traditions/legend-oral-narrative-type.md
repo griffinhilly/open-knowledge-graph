@@ -3,7 +3,9 @@ id: legend-oral-narrative-type
 title: 'Legend: Narrative Type and Cultural Memory'
 domain: literature
 course: mythology-folklore-oral-traditions
-prerequisites: []
+prerequisites:
+- id: myth-definition-cultural-narrative
+  type: soft
 builds-toward:
 - oral-tradition-transmission-variation
 - comparative-mythology-patterns

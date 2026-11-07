@@ -3,7 +3,9 @@ id: opportunity-cost-in-financial-decisions
 title: Opportunity Cost in Financial Decisions
 domain: practical-life-skills
 course: financial-literacy
-prerequisites: []
+prerequisites:
+- id: scarcity-and-opportunity-cost
+  type: soft
 builds-toward:
 - financial-independence-and-passive-income
 - expected-return-and-asset-allocation

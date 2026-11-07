@@ -3,7 +3,9 @@ id: conservation-of-electric-charge
 title: Conservation of Electric Charge
 domain: physics
 course: electricity-and-magnetism
-prerequisites: []
+prerequisites:
+- id: electric-charge-conceptual
+  type: soft
 builds-toward:
 - coulomb-force-superposition
 tags:

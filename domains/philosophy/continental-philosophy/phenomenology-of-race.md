@@ -3,7 +3,11 @@ id: phenomenology-of-race
 title: "Phenomenology of Race & Racialization"
 domain: philosophy
 course: continental-philosophy
-prerequisites: []
+prerequisites:
+- id: phenomenology-husserl
+  type: soft
+- id: merleau-ponty-embodied-perception
+  type: soft
 builds-toward: []
 tags:
 - race

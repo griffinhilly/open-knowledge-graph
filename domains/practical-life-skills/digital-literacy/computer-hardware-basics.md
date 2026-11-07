@@ -3,7 +3,9 @@ id: computer-hardware-basics
 title: Computer Hardware Basics
 domain: practical-life-skills
 course: digital-literacy
-prerequisites: []
+prerequisites:
+- id: computer-parts-identification
+  type: soft
 builds-toward:
 - operating-system-fundamentals
 - device-security-desktop-mobile

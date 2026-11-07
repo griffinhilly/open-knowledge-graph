@@ -3,7 +3,9 @@ id: scatterplots-and-correlation
 title: Scatterplots and Correlation
 domain: mathematics
 course: probability-and-statistics
-prerequisites: []
+prerequisites:
+- id: coordinate-plane-all-four-quadrants
+  type: hard
 builds-toward:
 - correlation-coefficient
 - linear-regression-basics

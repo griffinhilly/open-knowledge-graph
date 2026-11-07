@@ -507,3 +507,99 @@ ADD	plot-structure	creative-nonfiction-definition	soft	medium	Narrative techniqu
 ADD	folklore-definition-traditions	fable-moral-instruction	soft	medium	Fables are a traditional folk narrative form.
 ADD	myth-definition-cultural-narrative	fable-moral-instruction	soft	medium	Fables are defined in contrast to myths.
 ADD	holidays-and-traditions	folklore-definition-traditions	soft	medium	Seasonal customs and handed-down traditions are the everyday base of folklore.
+ADD	folklore-definition-traditions	legend-oral-narrative-type	soft	medium	Legend is one oral narrative genre within folklore.
+ADD	understanding-genres	myth-definition-cultural-narrative	soft	medium	Myth is framed as a narrative form distinct from history and fiction; genre awareness helps.
+ADD	symbolism-intro-basics	myth-definition-cultural-narrative	soft	medium	Myths are described as symbolic narratives working on a metaphorical level.
+ADD	shapes-2d-attributes-3rd	points-lines-rays-segments	soft	medium	Sides of shapes are the first segments students meet.
+ADD	measuring-length-with-ruler-2nd-grade	points-lines-rays-segments	soft	medium	Segments are drawn with rulers and defined by having a definite length.
+ADD	cartesian-product	counting-principles-fundamentals	soft	medium	The multiplication principle counts pairs, i.e. |A x B| = |A||B|.
+ADD	multiplication-strategies-arrays-3rd	counting-principles-fundamentals	soft	medium	The m x n array model of multiplication is the concrete base of the principle.
+ADD	truth-values-and-statements	statements-and-logical-connectives	soft	medium	Connectives combine statements with truth values (near-duplicate topics; dedupe may be better).
+ADD	category-data-collection	categorical-vs-quantitative-data	soft	medium	Earlier work with categorical data grounds the distinction.
+ADD	line-plots-measurement-data	categorical-vs-quantitative-data	soft	medium	Measurement data on line plots is the earlier encounter with quantitative data.
+ADD	probability-density-functions-theory	chi-square-distribution-theory	soft	medium	Chi-square is a continuous distribution described by a density.
+ADD	variance-of-random-variables	chi-square-distribution-theory	soft	medium	Core idea states E and Var of chi-square(k).
+ADD	simple-probability	sample-spaces-and-events	soft	medium	Prealgebra probability with coins and dice precedes formal sample spaces.
+ADD	categorical-vs-quantitative-data	scatterplots-and-correlation	soft	medium	Scatterplots apply to two quantitative variables.
+ADD	slope-concept	scatterplots-and-correlation	soft	medium	Positive or negative linear association reads like slope direction.
+ADD	solving-inequalities	ordered-field-axioms	soft	medium	Order axioms formalize familiar rules for manipulating inequalities.
+ADD	direct-proof	ordered-field-axioms	soft	medium	Real-analysis use of the axioms is deriving consequences by proof.
+ADD	triad-construction-major-minor	doubling-rules-root-fifth-third	hard	high	Doubling choices refer to root, third and fifth of major and minor triads (note: topic staged abstract-reasoning while all triad topics are formal-systems).	[hard prereq staged above successor]
+ADD	voice-leading-parallel-perfect-intervals	doubling-rules-root-fifth-third	soft	medium	Doubling rules are justified by avoiding parallel octaves.
+ADD	what-is-history	music-historical-methodology	soft	medium	General historical method underlies music-history method.
+ADD	what-is-history	music-history-overview	soft	medium	Overview presumes the idea of studying change over time from evidence.
+ADD	communitarianism	african-philosophy-ubuntu	soft	medium	Ubuntu is framed as a communal alternative to Western individualism.
+ADD	normative-ethics-overview	african-philosophy-ubuntu	soft	medium	Ubuntu offers an alternative ethics of personhood and obligation.
+ADD	hobbes-absolute-sovereign	agamben-bare-life	soft	medium	Bare life is a theory of sovereign power; classical sovereignty is the backdrop.
+ADD	marx-historical-materialism	arendt-human-condition	soft	medium	Arendt's labor/work/action scheme is set against Marx's privileging of labor.
+ADD	confucianism-ancient-philosophy	asian-philosophy-overview	soft	medium	Overview treats Confucianism philosophically; historical introduction helps.
+ADD	taoism-ancient-philosophy	asian-philosophy-overview	soft	medium	Overview treats Taoism philosophically; historical introduction helps.
+ADD	post-structuralism-overview	badiou-event-truth	soft	medium	Badiou is positioned against postmodern skepticism about truth.
+ADD	hermeneutics-gadamer	continental-philosophy-of-religion	soft	medium	Field applies hermeneutic interpretation to religious experience.
+ADD	beauvoir-ethics-of-ambiguity	judith-butler-gender-performativity	soft	medium	Beauvoir's Second Sex claim that one becomes a woman is the classic precursor.
+ADD	foucault-power-knowledge-continental	judith-butler-gender-performativity	soft	medium	Butler draws on Foucault's account of norms and discursive power.
+ADD	postcolonial-philosophy	latin-american-philosophy	soft	medium	Latin American philosophy centres colonialism, epistemicide and Eurocentrism critique.
+ADD	phenomenology-husserl	levinas-ethics-of-the-other	soft	medium	Levinas works within and against phenomenology (note: near-duplicate of levinas-ethics-as-first-philosophy).
+ADD	heidegger-being-and-time	levinas-ethics-of-the-other	soft	medium	Ethics as prior to ontology is a direct reply to Heidegger.
+ADD	right-and-wrong	consequences-in-moral-evaluation	soft	medium	Basic moral judgement precedes asking what makes actions good.
+ADD	is-it-ever-ok-to-lie	consequences-in-moral-evaluation	soft	medium	The lie-to-save-a-life case is the same intuition pump used here.
+ADD	right-and-wrong	normative-vs-metaethical-questions	soft	medium	Ordinary moral judgement is what the normative/metaethical split sorts.
+ADD	fairness-and-rules	normativity-and-ought	soft	medium	Rules as standards we should follow are the concrete form of normativity.
+ADD	right-and-wrong	normativity-and-ought	soft	medium	Obligatory/forbidden builds on basic right and wrong.
+ADD	puzzles-and-paradoxes-for-kids	vagueness-sorites-paradox	soft	medium	Earlier paradox puzzles prepare the sorites.
+ADD	modus-ponens-tollens	vagueness-sorites-paradox	soft	medium	The sorites is a chain of modus ponens steps that classical logic appears to validate.
+ADD	thinking-about-thinking	philosophy-of-mind-introduction	soft	medium	Child-level reflection on minds and thought precedes formal philosophy of mind.
+ADD	bond-classification	philosophy-of-chemistry	soft	medium	Asks what a chemical bond is; basic bond knowledge is needed.
+ADD	godels-incompleteness-theorems	philosophy-of-mathematics-advanced	soft	medium	Topic addresses incompleteness and Godel's puzzle of intuition.
+ADD	natural-kinds-classification	philosophy-of-medicine	soft	medium	Is disease an objective category or social construction is a natural-kinds question.
+ADD	reduction-emergence-science	philosophy-of-medicine	soft	medium	Medical reductionism vs holism is a central issue.
+ADD	reduction-emergence-science	philosophy-of-psychology	soft	medium	Cognitive reductionism and explanatory autonomy are core issues.
+ADD	galilean-observation-experimentation	philosophy-of-science-intro	soft	medium	Familiarity with how experimental science works precedes reflecting on it.
+ADD	deductive-validity-introduction	philosophy-of-science-intro	soft	medium	Asks what makes explanations valid; deductive validity is assumed.
+ADD	reduction-emergence-science	philosophy-of-social-science	soft	medium	Reductionism of sociology to psychology or neurobiology is a core issue.
+ADD	natural-kinds-classification	philosophy-of-social-science	soft	medium	Whether races, genders, classes are objective categories is a natural-kinds question.
+ADD	democracy-types-and-theory	science-and-democracy	soft	medium	Topic relies on democratic theory's claim that citizens decide policy.
+ADD	values-in-science	science-and-democracy	soft	medium	Expert disagreement and value-laden technical decisions build on values in science.
+ADD	correlation-and-causation-distinction	scientific-explanation-models	soft	medium	Asks whether correlations without intervention can explain.
+ADD	laws-and-government-basics	rule-of-law-concept	soft	medium	Basic idea of laws and government precedes the rule-of-law principle.
+ADD	fairness-and-rules	rule-of-law-concept	soft	medium	Equal, consistent application of rules is the concrete intuition behind rule of law.
+ADD	asking-questions-about-stories	curiosity-and-questions	soft	medium	Pre-formal question-asking during read-alouds precedes it.
+ADD	static-electricity-and-charge-transfer	conservation-of-electric-charge	soft	medium	Charge is transferred or separated, not created; static charging is the standard example.
+ADD	curl-and-divergence	conservation-of-electric-charge	soft	medium	Core idea encodes conservation in the continuity equation with a divergence.
+ADD	protons-neutrons-electrons	elementary-charge-conservation	soft	medium	Elementary charge is the charge of the electron and proton.
+ADD	simple-harmonic-motion	wave-properties-and-classification	soft	medium	Period and amplitude of the oscillating medium come from SHM.
+ADD	germs-bacteria-and-viruses	kitchen-safety-and-hygiene	soft	medium	Cross-contamination rules rest on knowing germs spread.
+ADD	temperature-and-thermometers-3rd	oven-temperature-and-preheating	soft	medium	Recipes give temperatures in F or C; reading a temperature scale helps.
+ADD	kitchen-awareness-safety-fundamentals	oven-temperature-and-preheating	soft	medium	Oven use presumes hot-surface safety (oven mitts).
+ADD	food-groups-and-balanced-diet	vegetables-fruits-freshness-and-selection	soft	medium	Topic frames produce as a nutrition source; food groups give that context.
+ADD	computer-hardware-basics	file-system-basics	soft	medium	Storage holding files permanently is the hardware base of the file system.
+ADD	saving-and-opening-files	file-types-and-extensions	soft	medium	Topic is about saving correctly and choosing the opening program.
+ADD	connecting-to-the-internet	internet-connectivity-basics	soft	medium	Hands-on connecting precedes understanding connection types and ISPs.
+ADD	web-browser-basics	internet-safety-basics	soft	medium	Safe-browsing rules (HTTPS, downloads) presume basic browser use.
+ADD	clicking-links-and-buttons	internet-safety-basics	soft	medium	Risk centres on clicking without thinking; clicking links comes first.
+ADD	computer-parts-identification	mouse-and-trackpad-control	soft	medium	Knowing the mouse as a computer part precedes technique (note: overlaps using-a-mouse).
+ADD	cognitive-biases-overview	behavioral-biases-in-financial-decisions	soft	medium	Applies general cognitive biases (anchoring, loss aversion) to money (note: staged one level below the psych topic).
+ADD	cognitive-biases-overview	behavioral-finance-and-cognitive-biases	soft	medium	Applies general cognitive biases to money (note: near-duplicate of behavioral-biases-in-financial-decisions).
+ADD	money-fundamentals-definition-and-characteristics	income-classification-earned-vs-passive	soft	medium	Classifying income presumes the basic concept and functions of money.
+ADD	understanding-money-value	money-fundamentals-definition-and-characteristics	soft	medium	Concrete coin and bill values precede the functions of money.
+ADD	needs-vs-wants	opportunity-cost-in-financial-decisions	soft	medium	Choosing between options under limited money starts with needs vs wants.
+ADD	simple-circuits	electrical-safety-basics	soft	medium	Cutting power at the breaker presumes the idea of a closed circuit.
+ADD	understanding-home-systems	exterior-finish-damage-types-and-assessment	soft	medium	Exterior envelope (roof, siding, windows) is one of the home systems.
+ADD	home-maintenance-fundamentals	exterior-finish-damage-types-and-assessment	soft	medium	Preventive vs corrective maintenance frames early damage identification.
+ADD	home-maintenance-fundamentals	home-system-components-and-layout	soft	medium	Course introduction precedes the tour of home systems (note: near-duplicate of understanding-home-systems).
+ADD	home-maintenance-fundamentals	interior-finish-damage-types-and-assessment	soft	medium	Preventive vs corrective framing precedes damage assessment.
+ADD	home-system-components-and-layout	plumbing-basics	soft	medium	Plumbing supply and drain is introduced as one of the home systems.
+ADD	home-maintenance-fundamentals	understanding-home-systems	soft	medium	Course introduction precedes the home-systems overview (note: near-duplicate of home-system-components-and-layout).
+ADD	neuron-structure-and-function	central-peripheral-nervous-system-organization	soft	medium	Afferent and efferent neurons are the units of the organization.
+ADD	inter-rater-reliability-agreement	dsm-5-diagnostic-criteria-and-classification	soft	medium	Standardized criteria exist to make diagnosis reliable across clinicians (clinical-assessment-overview would cycle via dsm5-classification-system).
+ADD	recording-observations-in-science	scientific-inquiry-empirical-cycles-psychology	soft	medium	Concrete observation recording precedes the observation-hypothesis cycle (note: near-duplicate of scientific-method-psychology).
+ADD	recording-observations-in-science	scientific-method-psychology	soft	medium	Concrete observation recording precedes the formal scientific method.
+ADD	human-geography-overview	geographic-scale-analysis	soft	medium	Scale is a core concept introduced within the field overview (note: near-duplicate of spatial-scale-human-geography).
+ADD	near-and-far-places	geographic-scale-analysis	soft	medium	Concrete local-to-distant place ideas precede multi-scalar analysis.
+ADD	human-geography-overview	geographic-thought-history	soft	medium	Overview of the discipline precedes its intellectual history.
+ADD	human-geography-overview	spatial-scale-human-geography	soft	medium	Scale is a core concept introduced within the field overview.
+ADD	near-and-far-places	spatial-scale-human-geography	soft	medium	Concrete local-to-distant place ideas precede scale as a concept.
+ADD	family-structures	belonging-to-groups	soft	medium	Family is the first group the topic lists.
+ADD	belonging-to-groups	neighborhoods-and-communities	soft	medium	A community is defined as a group sharing a place or goals.
+ADD	intro-to-sociology	philosophy-of-social-science-epistemology	soft	medium	Reflecting on how we know claims about society presumes what social science studies (note: overlaps philosophy-of-social-science).
+ADD	belonging-to-groups	intro-to-sociology	soft	medium	Concrete groups and belonging precede the study of behavior within groups.

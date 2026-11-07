@@ -3,7 +3,9 @@ id: geographic-thought-history
 title: History of Geographic Thought and Concepts
 domain: social-sciences
 course: human-geography
-prerequisites: []
+prerequisites:
+- id: environmental-determinism-possibilism
+  type: soft
 builds-toward:
 - landscape-interpretation-reading
 - place-and-space-concepts

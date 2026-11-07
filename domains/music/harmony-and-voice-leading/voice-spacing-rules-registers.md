@@ -3,7 +3,9 @@ id: voice-spacing-rules-registers
 title: Voice Spacing Rules and Register Management
 domain: music
 course: harmony-and-voice-leading
-prerequisites: []
+prerequisites:
+- id: triad-voicing-and-spacing
+  type: soft
 builds-toward:
 - four-part-writing-voice-distribution
 - voice-leading-error-recognition-and-correction

@@ -3,7 +3,9 @@ id: 3d-coordinate-systems
 title: 3D Cartesian Coordinate Systems
 domain: mathematics
 course: multivariable-calculus
-prerequisites: []
+prerequisites:
+- id: coordinate-plane-all-four-quadrants
+  type: hard
 builds-toward:
 - distance-and-distance-formula-3d
 - vectors-in-3d

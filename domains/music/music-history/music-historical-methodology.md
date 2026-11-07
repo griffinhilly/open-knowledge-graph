@@ -3,7 +3,9 @@ id: music-historical-methodology
 title: Music Historical Methodology
 domain: music
 course: music-history
-prerequisites: []
+prerequisites:
+- id: primary-sources
+  type: soft
 builds-toward:
 - music-periodization-major-eras
 - historiography-and-canon-formation

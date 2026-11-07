@@ -3,7 +3,9 @@ id: kitchen-safety-and-hygiene
 title: Kitchen Safety and Hygiene
 domain: practical-life-skills
 course: cooking-and-nutrition
-prerequisites: []
+prerequisites:
+- id: washing-hands-and-hygiene
+  type: soft
 builds-toward:
 - knife-skills-basics
 - boiling-and-simmering

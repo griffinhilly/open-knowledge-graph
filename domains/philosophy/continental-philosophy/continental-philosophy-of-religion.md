@@ -3,7 +3,9 @@ id: continental-philosophy-of-religion
 title: "Continental Philosophy of Religion"
 domain: philosophy
 course: continental-philosophy
-prerequisites: []
+prerequisites:
+- id: phenomenology-husserl
+  type: soft
 builds-toward: []
 tags:
 - religion

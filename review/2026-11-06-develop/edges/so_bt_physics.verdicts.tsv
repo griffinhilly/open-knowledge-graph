@@ -1,0 +1,32 @@
+ADD	center-of-mass-motion	angular-momentum-of-rigid-body	soft	medium	Rigid-body L splits into orbital (CM) plus spin parts; CM motion helps but fixed-axis L=Iω stands alone.
+ADD	reduced-mass-two-body	central-force-motion-analysis	soft	high	Reducing a two-body central-force problem to one body uses reduced mass.
+ADD	inelastic-collisions	collision-analysis-applications	soft	high	Real collisions (crashes, restitution) are mostly inelastic; B analyzes them directly.
+ADD	rotational-dynamics	conservation-of-angular-momentum	soft	high	Zero net torque -> L conserved follows from τ = dL/dt; rigid-body L already hard.
+ADD	energy-transfer	conservation-of-energy	soft	medium	Concrete energy-transfer intuition helps the formal KE+PE bookkeeping.
+DROP	tension-forces-mechanics	coupled-oscillator-equations	-	medium	B is spring/ODE/eigenvector coupling; string tension is not what it draws on.
+ADD	conservative-vector-fields-mechanics	effective-potential-central-forces	soft	high	U_eff = U(r) + L²/2mr² requires U(r) from a conservative central force.
+ADD	inelastic-collisions	energy-dissipation-and-irreversibility	soft	medium	Inelastic collisions are a standard example of irreversible KE loss to heat.
+ADD	newtons-first-law	free-body-diagrams	soft	high	FBDs for equilibrium cases use the net-force-zero condition of the first law.
+ADD	inclined-planes-and-wedges	friction-forces	soft	medium	Friction problems are typically set on inclines; concrete incline intuition helps.
+DROP	rolling-motion-equations	gyroscopic-motion-precession	-	high	Precession Ω = τ/L draws on torque and L, not the rolling constraint.
+ADD	newtons-law-of-gravitation	keplers-laws	soft	high	B derives T² = 4π²a³/GM from gravitation, though the empirical laws stand alone.
+ADD	projectile-motion-conceptual	kinematics-2d	soft	medium	Conceptual projectile intuition (independent x/y) supports formal 2D kinematics. Note: B oddly lists reduced-mass-two-body as a soft prereq.
+DROP	phase-space-trajectories	lagrangian-mechanics-intro	-	medium	Lagrangian intro works in configuration space; phase space belongs with Hamiltonian mechanics.
+ADD	mass-vs-weight	newtons-law-of-gravitation	soft	high	B connects G m₁m₂/r² to F = mg; mass vs weight distinction underlies that link.
+ADD	effective-potential-central-forces	orbital-mechanics	soft	medium	Effective potential gives the standard analysis of bound elliptical orbits.
+ADD	reduced-mass-two-body	orbital-mechanics	soft	medium	Real two-body orbits (binaries) use reduced mass; not needed for fixed-center orbits.
+DROP	mechanical-advantage-intro	power-and-work-rate	-	medium	Power P = F·v does not draw on mechanical advantage of simple machines.
+ADD	relative-motion-and-reference-frames	reduced-mass-problem	soft	medium	Reduction uses the CM frame and relative coordinate; frame-change skill helps.
+ADD	rotational-motion-fixed-axis	rolling-motion-equations	soft	high	Rolling analysis uses ω, α and τ = Iα of rotation, alongside the existing hard prereqs.
+ADD	parallel-axis-theorem	rotational-dynamics	soft	medium	τ = Iα about a pivot often needs I via parallel-axis theorem.
+ADD	wheel-and-axle	rotational-dynamics	soft	medium	Concrete wheel-and-axle gives torque intuition for formal rotational dynamics.
+DROP	perpendicular-axis-theorem	rotational-kinetic-energy	-	medium	½Iω² uses a given I; perpendicular-axis theorem is a niche I-computation tool.
+DROP	rolling-without-slipping	rotational-kinetic-energy	-	medium	Dominant direction is rotational KE -> rolling energy analysis, not the reverse; mutual otherwise.
+ADD	newtons-first-law-conceptual	static-equilibrium	soft	medium	Conceptual inertia precursor; formal newtons-first-law is already a hard prereq.
+ADD	levers	static-equilibrium	soft	high	Lever balance is the concrete prototype of torque equilibrium.
+ADD	stability-and-balance	static-equilibrium	soft	medium	Concrete balance/stability intuition supports formal equilibrium conditions.
+ADD	elastic-collisions-mechanics	two-body-collision-center-of-mass	soft	high	B's core examples are elastic collisions viewed in the CM frame.
+ADD	inclined-planes-and-wedges	work-and-energy	soft	medium	Inclines show work = force x distance trade-off concretely.
+ADD	mechanical-advantage-intro	work-and-energy	soft	medium	Mechanical advantage trading force for distance motivates the work concept.
+DROP	screws	work-and-energy	-	medium	Screws are a narrow simple machine; inclined-planes and mechanical-advantage already cover the intuition.
+ADD	energy-transfer	work-energy-theorem	soft	medium	Work as energy transfer is the conceptual basis of W_net = ΔKE.

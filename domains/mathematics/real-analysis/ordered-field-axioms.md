@@ -3,7 +3,9 @@ id: ordered-field-axioms
 title: Ordered Field Axioms of the Real Numbers
 domain: mathematics
 course: real-analysis
-prerequisites: []
+prerequisites:
+- id: properties-of-operations
+  type: soft
 builds-toward:
 - completeness-axiom-lub
 - archimedean-property

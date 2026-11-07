@@ -3,7 +3,9 @@ id: money-fundamentals-definition-and-characteristics
 title: 'Money: Fundamentals, Definition, and Characteristics'
 domain: practical-life-skills
 course: financial-literacy
-prerequisites: []
+prerequisites:
+- id: trading-and-exchange
+  type: soft
 builds-toward:
 - apr-apy-and-interest-rate-calculation
 - credit-reports-contents-and-history

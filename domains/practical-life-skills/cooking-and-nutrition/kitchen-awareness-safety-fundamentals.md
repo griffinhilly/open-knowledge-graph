@@ -3,7 +3,9 @@ id: kitchen-awareness-safety-fundamentals
 title: Kitchen Safety and Hazard Awareness
 domain: practical-life-skills
 course: cooking-and-nutrition
-prerequisites: []
+prerequisites:
+- id: staying-safe-at-home
+  type: soft
 builds-toward:
 - boiling-and-simmering-water-based-cooking
 - pan-cooking-and-sauteing-basics

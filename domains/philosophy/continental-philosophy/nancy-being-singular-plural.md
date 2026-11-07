@@ -3,7 +3,9 @@ id: nancy-being-singular-plural
 title: "Nancy: Being Singular Plural"
 domain: philosophy
 course: continental-philosophy
-prerequisites: []
+prerequisites:
+- id: heidegger-being-and-time
+  type: soft
 builds-toward: []
 tags:
 - Nancy

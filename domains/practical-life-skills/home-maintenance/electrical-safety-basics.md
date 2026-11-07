@@ -3,7 +3,9 @@ id: electrical-safety-basics
 title: Electrical Safety Basics
 domain: practical-life-skills
 course: home-maintenance
-prerequisites: []
+prerequisites:
+- id: conductors-and-insulators
+  type: soft
 builds-toward:
 - circuit-breakers-and-fuses
 - diy-vs-hire-professional

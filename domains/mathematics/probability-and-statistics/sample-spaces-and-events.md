@@ -3,7 +3,9 @@ id: sample-spaces-and-events
 title: Sample Spaces and Events
 domain: mathematics
 course: probability-and-statistics
-prerequisites: []
+prerequisites:
+- id: set-theory-basics
+  type: soft
 builds-toward:
 - probability-rules-for-events
 - law-of-total-probability

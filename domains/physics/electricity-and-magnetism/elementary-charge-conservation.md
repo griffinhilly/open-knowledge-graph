@@ -3,7 +3,9 @@ id: elementary-charge-conservation
 title: Elementary Charge and Charge Conservation
 domain: physics
 course: electricity-and-magnetism
-prerequisites: []
+prerequisites:
+- id: electric-charge-conceptual
+  type: soft
 builds-toward:
 - coulomb-law-point-interactions
 - electric-current-definition

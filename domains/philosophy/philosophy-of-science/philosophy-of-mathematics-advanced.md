@@ -3,7 +3,9 @@ id: philosophy-of-mathematics-advanced
 title: "Philosophy of Mathematics: Advanced Topics"
 domain: philosophy
 course: philosophy-of-science
-prerequisites: []
+prerequisites:
+- id: abstract-entities-platonism
+  type: soft
 builds-toward: []
 tags:
 - mathematics

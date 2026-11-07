@@ -3,7 +3,9 @@ id: effective-web-searching
 title: Effective Web Searching
 domain: practical-life-skills
 course: digital-literacy
-prerequisites: []
+prerequisites:
+- id: basic-web-searching
+  type: soft
 builds-toward:
 - evaluating-online-information
 tags:

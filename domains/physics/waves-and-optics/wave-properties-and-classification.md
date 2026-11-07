@@ -3,7 +3,9 @@ id: wave-properties-and-classification
 title: Wave Properties and Classification
 domain: physics
 course: waves-and-optics
-prerequisites: []
+prerequisites:
+- id: wave-properties-conceptual
+  type: soft
 builds-toward:
 - wavelength-frequency-speed-relation
 - transverse-and-longitudinal-waves

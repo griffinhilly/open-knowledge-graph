@@ -3,7 +3,9 @@ id: judith-butler-gender-performativity
 title: "Judith Butler: Gender & Performativity"
 domain: philosophy
 course: continental-philosophy
-prerequisites: []
+prerequisites:
+- id: austin-speech-acts
+  type: soft
 builds-toward: []
 tags:
 - Butler

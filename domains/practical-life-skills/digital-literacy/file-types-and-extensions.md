@@ -3,7 +3,9 @@ id: file-types-and-extensions
 title: File Types & Extensions Explained
 domain: practical-life-skills
 course: digital-literacy
-prerequisites: []
+prerequisites:
+- id: what-is-a-file
+  type: soft
 builds-toward:
 - creating-saving-and-opening-files
 tags:
