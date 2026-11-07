@@ -1254,3 +1254,176 @@ DROP	chomsky-hierarchy	recognizability-vs-decidability	-	medium	Recognizability 
 ADD	boolean-satisfiability-and-reductions	space-complexity-classes	soft	medium	TQBF-completeness generalizes SAT and uses reductions.
 ADD	limitations-of-context-free	turing-machines	soft	medium	Non-context-free languages motivate the more powerful TM model.
 ADD	multi-tape-turing-machines	universal-turing-machine	soft	medium	UTM simulation is commonly described with multiple tapes.
+ADD	maternal-inheritance-and-extranuclear-genes	genomic-imprinting-and-parent-of-origin-effects	soft	medium	Imprinting is taught by contrast with other parent-of-origin patterns such as maternal cytoplasmic inheritance.
+DROP	sex-linked-inheritance-and-x-linked-genes	genomic-imprinting-and-parent-of-origin-effects	-	medium	Imprinting is autosomal epigenetic silencing and does not draw on X-linkage.
+DROP	regulatory-mutations-cis-elements	haploinsufficiency-dosage	-	medium	Dosage sensitivity rests on dominance and aneuploidy, not on cis-regulatory mutation.
+ADD	rna-structure-and-base-pairing	intron-removal-and-splicing	soft	medium	Splice-site recognition and spliceosome catalysis depend on snRNA-pre-mRNA base pairing.
+DROP	silencer-elements-and-repression	locus-control-regions-lcr	-	medium	LCRs are built from enhancers and open chromatin, not silencers.
+DROP	position-effect-variegation-pev	long-noncoding-rna-mechanisms	-	medium	lncRNA mechanisms (scaffolds, guides, ceRNA) do not draw on heterochromatin spreading.
+DROP	animal-babies-and-parents	mendelian-genetics	-	medium	Mendelian genetics already has inherited-traits and what-is-heredity for the intuitive offspring-resemble-parents base.
+DROP	base-excision-repair-ber	mismatch-repair-mlh-msh	-	medium	MMR rests on replication errors and general DNA repair, not on BER glycosylases.
+DROP	frameshift-mutations-indels	missense-nonsense-silent-mutation-effects	-	medium	These are sibling point-mutation classes; missense/nonsense needs only the genetic code.
+ADD	homologous-recombination-rad51-complex	non-homologous-end-joining-nhej	soft	medium	NHEJ is defined by contrast with homology-directed repair of double-strand breaks.
+DROP	silencer-elements-and-repression	position-effect-variegation-pev	-	medium	PEV is heterochromatin spreading; it does not draw on silencer elements.
+ADD	transcription-initiation-prokaryotes	promoters-enhancers-and-regulatory-regions	soft	medium	The topic covers Pribnow box and -35 promoter elements recognized by sigma factors.
+DROP	rna-polymerase-ii-and-ctd-regulation	rna-processing	-	medium	CTD coupling elaborates RNA processing; the intro topic does not need it.
+DROP	rna-splicing-introns-exons-spliceosome	rna-processing	-	medium	RNA processing is the overview; the detailed spliceosome topic builds on it, not the reverse.
+DROP	transcription-elongation-and-termination	rna-processing	-	medium	RNA processing already rests on transcription; termination detail is not needed.
+DROP	frameshift-insertions-deletions	spontaneous-mutation-rates-causes	-	medium	Mutation rates and sources rest on dna-mutations; frameshift classification is not needed.
+DROP	enhancer-elements-and-interaction	transcription-factor-binding-specificity	-	medium	DNA recognition by binding domains does not draw on long-range enhancer looping.
+ADD	transcription-initiation-eukaryotes	transcription-factors-and-gene-regulation	soft	medium	Activation domains recruit Mediator and the initiation machinery covered there.
+DROP	prokaryotic-promoters-sigma-factors	transcription-factors-binding-domains	-	medium	The topic is eukaryotic TF domains built on TFIID; sigma factors are not drawn upon.
+DROP	mrna-translation-start-sites	translation-elongation-elongation-factors	-	medium	Elongation already has ribosomal-initiation-factors-tRNA as hard prerequisite; a second initiation link is redundant.
+DROP	intron-removal-and-splicing	translation-initiation-start-codon	-	medium	Cap-dependent scanning and Kozak recognition do not draw on splicing.
+DROP	gene-conversion-meiotic	unequal-crossing-over-duplication	-	medium	Unequal crossing over rests on misaligned crossing over, not nonreciprocal gene conversion.
+DROP	copy-number-variation-cnv	variant-annotation-interpretation	-	medium	Annotation as taught covers coding and regulatory consequences of small variants, not CNVs.
+ADD	genome-structure-and-organization	epigenomics-chip-seq-atac-seq	soft	medium	Genome-wide maps of promoters, enhancers and open chromatin presume genome organization.
+DROP	multiple-sequence-alignment	gene-regulatory-networks	-	medium	GRN inference uses expression and ChIP data, not multiple sequence alignment.
+DROP	comparative-genomics	multi-omics-integration	-	medium	Integration of molecular layers within samples does not draw on cross-species comparison.
+ADD	gene-regulatory-networks	multi-omics-integration	soft	medium	Network-based integration methods extend regulatory network inference.
+DROP	metagenomics	multi-omics-integration	-	medium	Multi-omics integration as described does not draw on community sequencing.
+ADD	single-cell-rna-sequencing	multi-omics-integration	soft	medium	Single-cell multiome integration (RNA + ATAC) builds on scRNA-seq.
+DROP	spatial-transcriptomics	multi-omics-integration	-	medium	Integration rests on the omics layers listed; spatial methods are not drawn upon.
+DROP	constraint-based-modeling-fba	multi-omics-integration	-	medium	Statistical integration frameworks (MOFA, DIABLO) do not draw on flux balance analysis.
+DROP	phylogenetic-tree-construction	population-genomics	-	medium	Population structure and selection scans rest on population genetics, not tree building.
+ADD	immunology-overview	adaptive-immunity-overview	soft	medium	Foundations of immunology frames the adaptive arm alongside innate immunity.
+DROP	antibody-affinity-and-avidity	affinity-maturation-somatic-hypermutation	-	medium	antibody-affinity-and-avidity already lists affinity-maturation as a prerequisite; adding this would make a cycle.
+DROP	plasma-cells-and-antibody-secretion	antibody-isotypes-and-effector-functions	-	medium	Isotype structure and effector functions do not draw on plasma cell differentiation.
+DROP	b-cell-development-maturation	antibody-structure-and-function	-	medium	Antibody structure rests on BCR and protein structure, not on B cell development.
+DROP	complement-activation-pathways	antibody-structure-and-function	-	medium	The classical pathway draws on antibodies, not the reverse; the complement overview covers what antibodies need.
+ADD	complement-system-overview	antibody-structure-and-function	soft	medium	Complement activation is one of the antibody effector functions the topic covers.
+DROP	microbiome-immune-homeostasis	autoimmunity-mechanisms	-	medium	Autoimmunity rests on tolerance breakdown; microbiome homeostasis is not drawn upon.
+DROP	primary-immunodeficiency-categories	autoimmunity-mechanisms	-	medium	Autoimmunity mechanisms do not need immunodeficiency classification.
+ADD	type-iii-and-iv-hypersensitivity	autoimmunity-mechanisms	soft	medium	Tissue damage in lupus and type 1 diabetes runs through type III and IV mechanisms.
+DROP	graft-versus-host-disease-gvhd	cancer-immunotherapy-approaches	-	medium	CAR-T, checkpoint blockade and vaccines rest on T cell and checkpoint biology, not GVHD.
+DROP	antigen-presentation-mechanisms	cd4-helper-t-cells	-	medium	Already covered by the hard prerequisite mhc-class-ii-presentation.
+ADD	cross-presentation-exogenous-antigens	cd8-cytotoxic-t-cells	soft	medium	Dendritic-cell cross-presentation is how many CD8 responses are primed.
+DROP	natural-killer-cells	cd8-cytotoxic-t-cells	-	medium	CTL recognition and killing do not draw on NK biology; they are parallel cytotoxic cells.
+DROP	pattern-recognition-receptors	complement-system-overview	-	medium	The complement overview rests on innate immunity and does not need PRR signaling.
+DROP	toll-like-receptors	cytokines-and-chemokines	-	medium	Cytokine signaling as a general topic does not draw on TLRs; TLRs induce cytokines.
+DROP	follicular-helper-t-cells-tfh	germinal-center-reactions	-	medium	Tfh already lists germinal-center-reactions as a prerequisite; adding this would make a cycle.
+DROP	tumor-immune-surveillance	immune-checkpoint-regulators	-	medium	Checkpoint topic already has tumor-immunology-immune-evasion as hard prerequisite.
+DROP	cytokine-signaling-and-pleiotropic-effects	immune-tolerance-central-and-peripheral	-	medium	Central and peripheral tolerance rest on thymic selection and Tregs, not cytokine pleiotropy.
+DROP	adaptive-immune-response-kinetics	immunological-memory-secondary-response	-	medium	adaptive-immune-response-kinetics already lists immunological-memory as a prerequisite; adding this would make a cycle.
+ADD	affinity-maturation-somatic-hypermutation	immunological-memory-secondary-response	soft	medium	Higher-affinity secondary antibodies come from affinity maturation.
+DROP	lymphocyte-trafficking-homing-adhesion-molecules	immunological-memory-secondary-response	-	medium	Memory as described rests on long-lived cells and recall, not homing molecules.
+DROP	antigenic-variation-and-immune-evasion	infectious-disease-immunopathology	-	medium	Immunopathology concerns protective vs harmful responses, not pathogen evasion.
+DROP	secondary-immunodeficiency-causes	infectious-disease-immunopathology	-	medium	The topic rests on host-pathogen interactions and adaptive immunity, not acquired immunodeficiency.
+DROP	fc-gamma-receptors-igg-signaling	inflammatory-response-cellular	-	medium	Cellular inflammation rests on cytokines, TLRs and leukocyte recruitment, not FcγR signaling.
+DROP	mast-cells-basophils-and-allergic-response	inflammatory-response-cellular	-	medium	The core mechanism of cellular inflammation does not draw on mast cell biology.
+DROP	bacterial-toxins-exotoxins-and-endotoxins	inflammatory-response-cellular	-	medium	Toxins are triggers of inflammation, not a basis for its cellular mechanism.
+DROP	bacterial-virulence-and-disease-mechanisms	inflammatory-response-cellular	-	medium	Bacterial virulence is not drawn upon by the cellular mechanism of inflammation.
+ADD	immune-cell-trafficking-lymphoid-organs	mucosal-immunity-and-iga-response	soft	medium	GALT, M cells and lamina propria plasma cells presume lymphoid organ architecture.
+DROP	innate-lymphoid-cells-ilcs	mucosal-immunity-and-iga-response	-	medium	The topic centres on IgA and GALT; ILCs are not drawn upon.
+DROP	lymphocyte-trafficking-homing-adhesion-molecules	mucosal-immunity-and-iga-response	-	medium	lymphocyte-trafficking already lists mucosal-immunity as a prerequisite; adding this would make a cycle.
+DROP	inflammatory-response-cellular	natural-killer-cells	-	medium	NK missing-self recognition and killing rest on innate immunity, not inflammation.
+ADD	complement-regulation-and-deficiency	primary-immunodeficiency-categories	soft	medium	Complement deficiency is one of the categories the topic classifies.
+DROP	thymic-selection-positive-negative	regulatory-t-cells-immune-tolerance	-	medium	Already covered by the hard prerequisite t-cell-development-thymic-selection.
+DROP	immunological-synapse-formation	t-cell-activation-costimulation	-	medium	Two-signal activation does not need synapse structure; the synapse topic builds on activation.
+DROP	antibody-dependent-cell-mediated-cytotoxicity-adcc	tumor-immunology-immune-evasion	-	medium	Tumor evasion is built around CTL recognition and MHC-I loss, not ADCC.
+DROP	antibody-dependent-cell-mediated-cytotoxicity-adcc	vaccine-response-and-immunogenicity	-	medium	Vaccine immunogenicity and adjuvants do not draw on ADCC.
+ADD	cross-presentation-exogenous-antigens	vaccine-response-and-immunogenicity	soft	medium	CD8 responses to subunit and inactivated vaccines depend on cross-presentation.
+DROP	primary-immunodeficiency-categories	vaccine-response-and-immunogenicity	-	medium	Immunogenicity and adjuvants do not draw on immunodeficiency classification.
+DROP	viral-pathogenesis-and-disease	vaccine-response-and-immunogenicity	-	medium	Vaccine response rests on adaptive immunity and APCs, not viral pathogenesis.
+ADD	germinal-center-reactions	vaccines-and-vaccination	soft	medium	The topic says effective vaccines work through germinal center reactions.
+DROP	pollination-and-fertilization	animal-reproduction-basics	-	medium	Animal reproduction rests on animal life cycles; plant pollination is a parallel, not a basis.
+ADD	respiration-intro	body-systems-working-together	soft	medium	Why systems deliver oxygen and nutrients to every cell is explained by cellular respiration.
+DROP	single-celled-organisms	cells-to-tissues-and-organs	-	medium	The tissue-organ hierarchy rests on what a cell is, not on unicellular life.
+DROP	symbiosis-ls	competition-and-niches	-	medium	Competition and niches rest on ecosystems and resources; symbiosis is a sibling interaction.
+DROP	competition-and-niches	human-impact-on-ecosystems	-	medium	Human impact rests on ecosystems and food webs; niche theory is not drawn upon.
+ADD	extinction-ls	human-impact-on-ecosystems	soft	medium	Overexploitation and climate change are framed as drivers of extinction.
+ADD	aminoglycoside-ribosome-inhibition	antibiotic-resistance-mutations-downregulation	soft	medium	Target mutations in ribosomal proteins presume knowing how aminoglycosides act on the ribosome.
+ADD	bacterial-conjugation-plasmid-transfer	antibiotic-resistance-mutations-downregulation	soft	medium	The topic says conjugative plasmids amplify resistance spread.
+DROP	beta-lactam-inhibition-transpeptidase	antibiotic-resistance-mutations-downregulation	-	medium	The topic's examples are ribosomal and topoisomerase target mutations, not PBPs.
+DROP	bacterial-typing-and-identification-techniques	antimicrobial-susceptibility-testing	-	medium	MIC testing methods rest on resistance mechanisms, not typing methods.
+JUDGE	bacterial-aerobic-respiration-electron-transport	bacterial-anaerobic-respiration-and-fermentation	soft	medium	Anaerobic respiration is defined against aerobic ETC, but the aerobic topic already lists the anaerobic one as prerequisite; a human should pick the direction.
+DROP	microbiology-scope-and-history	bacterial-cell-structure	-	medium	Bacterial anatomy does not draw on the history of microbiology.
+DROP	gram-negative-outer-membrane	bacterial-pili-fimbriae-types	-	medium	Pili types and functions rest on general cell structure, not outer membrane detail.
+DROP	bacterial-ribosomes-and-translation-prokaryotes	bacterial-protein-secretion-pathways	-	medium	Secretion pathways rest on protein targeting and signal sequences, not ribosome structure.
+DROP	bacterial-chromosome-structure-and-organization	bacterial-ribosomes-70s-translation	-	medium	70S ribosome structure rests on ribosome biology and the genetic code, not chromosome organization.
+DROP	bacterial-ribosomes-70s-translation	bacterial-toxins-exotoxins-and-endotoxins	-	medium	Exotoxins and endotoxins rest on secretion and host-pathogen biology, not bacterial ribosomes.
+DROP	bacterial-flagella-and-chemotaxis	bacterial-virulence-and-disease-mechanisms	-	medium	The virulence factors named are adhesins, invasins, toxins and capsules, not motility.
+ADD	bacterial-cell-wall-architecture	beta-lactam-inhibition-transpeptidase	soft	medium	PBP cross-linking of peptidoglycan presumes cell wall architecture.
+DROP	bacterial-flagella-pili-motility-adhesion	chemotaxis-signaling-phosphorylation	-	medium	Already covered by flagellar-motor-rotation (hard) and bacterial-flagella-and-chemotaxis (soft).
+DROP	antibiotic-resistance-mechanisms-and-evolution	emerging-infectious-diseases	-	medium	Resistance is already a soft prerequisite via antibiotic-resistance-mechanisms; the topic centres on zoonotic spillover.
+DROP	antibiotic-targets-and-resistance-development	emerging-infectious-diseases	-	medium	The topic centres on zoonotic spillover and viral evolution, not antibiotic targets.
+DROP	antimicrobial-resistance-epidemiology-and-spread	emerging-infectious-diseases	-	medium	Resistance is already a soft prerequisite; the topic centres on zoonotic spillover.
+DROP	bacterial-virulence-and-disease-mechanisms	emerging-infectious-diseases	-	medium	The topic centres on spillover and viral evolution, not bacterial virulence factors.
+DROP	fungal-pathogenesis-and-mycosis	emerging-infectious-diseases	-	medium	The topic does not draw on fungal pathogenesis.
+ADD	host-pathogen-interactions	emerging-infectious-diseases	soft	medium	Spillover and host adaptation presume the host-pathogen balance framework.
+DROP	protist-classification-and-parasitism	emerging-infectious-diseases	-	medium	The topic does not draw on protist classification.
+DROP	viral-pathogenesis-and-disease	emerging-infectious-diseases	-	medium	Emergence is about spillover and viral evolution; viral-replication-cycle already covers the needed virology.
+DROP	microbial-substrate-utilization-and-enzyme-induction	fermentation-pathways-and-end-products	-	medium	Fermentation pathways do not draw on enzyme induction.
+DROP	fungal-reproduction-and-life-cycles	fungal-dimorphism-morphology	-	medium	Dimorphism is temperature-driven morphology switching, already backed by fungal-spore-conidia-ascospores.
+DROP	fungal-sexual-and-asexual-reproduction	fungal-pathogenesis-and-mycosis	-	medium	Fungal virulence factors do not draw on sexual vs asexual reproduction.
+ADD	bacterial-pili-fimbriae-types	host-pathogen-interactions	soft	medium	Adhesins for attachment to host tissue are a core virulence factor in the topic.
+DROP	quorum-sensing	host-pathogen-interactions	-	medium	The host-pathogen framework (virulence factors, immune balance, Koch) does not draw on quorum sensing.
+DROP	protist-classification-and-parasitism	human-microbiome	-	medium	The microbiome topic centres on bacterial commensals, not protist parasites.
+ADD	host-agent-environment-disease-model	infectious-disease-epidemiology	soft	medium	The epidemiological triad frames transmission and disease occurrence.
+DROP	fermentation-pathways-and-end-products	microbial-ecology-biogeochemical-cycling	-	medium	The cycles described (nitrification, sulfur, methanogenesis) do not draw on fermentation end products.
+DROP	microbial-substrate-utilization-and-enzyme-induction	microbial-ecology-biogeochemical-cycling	-	medium	Biogeochemical cycling does not draw on enzyme induction.
+DROP	microbiology-scope-and-history	microbial-ecology-overview	-	medium	Microbial ecology does not draw on the history of microbiology.
+DROP	photosynthesis-in-bacteria-and-cyanobacteria	microbial-ecology-overview	-	medium	The overview centres on niches, syntrophy and metagenomics, not phototrophy.
+DROP	bacteriophage-and-lysogenic-cycles	microbial-genetics-overview	-	medium	The overview introduces transduction itself; lytic/lysogenic detail builds on it.
+ADD	chemotaxis-signaling-phosphorylation	quorum-sensing	soft	medium	Peptide quorum sensing in Gram-positive bacteria signals through two-component systems.
+DROP	viral-classification-and-genome-organization	viral-attachment-and-entry-mechanisms	-	medium	Attachment and entry rest on glycoproteins and membranes, not genome classification.
+DROP	viral-classification-and-genome-types	viral-infection-and-pathogenesis-mechanisms	-	medium	Pathogenesis rests on attachment and host-pathogen biology, not genome classification.
+ADD	viral-replication-strategies-rna-vs-dna	viral-pathogenesis-and-disease	soft	medium	Virulence depends on replication rate, and latency in DNA viruses and retroviruses is part of the topic.
+DROP	viral-attachment-and-entry-mechanisms	viral-replication-strategies-rna-vs-dna	-	medium	Genome replication strategies rest on the replication cycle and polymerases, not entry detail.
+DROP	voltage-clamp-recording	absolute-refractory-period	-	medium	Refractoriness rests on Na+ inactivation and K+ conductance, not on the recording method.
+DROP	motor-control-spinal-coordination	basal-ganglia-motor-selection	-	medium	Basal ganglia action selection rests on dopamine circuitry, not spinal coordination.
+DROP	neuronal-cell-types-and-morphology	cable-theory-axonal-conduction	-	medium	Cable theory already rests on neuron-structure-and-function; cell-type morphology is not needed.
+DROP	exocytosis-snare-proteins-membrane-fusion	calcium-signaling-neurons	-	medium	Calcium is the trigger for exocytosis; neuronal calcium signaling does not draw on SNAREs.
+DROP	motor-learning-cerebellar	cerebellar-circuits	-	medium	motor-learning-cerebellar already lists cerebellar-circuits as a prerequisite; adding this would make a cycle.
+DROP	primary-motor-cortex	cerebellum-motor-coordination	-	medium	The cerebellar learning algorithm rests on LTD and climbing-fiber error signals, not M1.
+DROP	motor-control-spinal-coordination	cerebellum-motor-coordination	-	medium	The cerebellar learning algorithm does not draw on spinal coordination.
+DROP	dendritic-spine-plasticity	critical-developmental-periods	-	medium	Critical periods rest on activity-dependent plasticity and GABAergic gating, not spine morphology.
+DROP	dendritic-spine-plasticity	hippocampus-memory-consolidation	-	medium	Hippocampal consolidation already rests on LTP; spine morphology is not needed.
+ADD	nmda-receptor-structure	long-term-potentiation	soft	high	LTP induction runs through Ca2+ influx via NMDA receptors, as the topic states.	[would create cycle]
+DROP	motor-control-spinal-coordination	motor-cortex	-	medium	M1 tuning and population coding do not draw on spinal coordination.
+DROP	sodium-potassium-atpase	nernst-equation	-	medium	The Nernst equation is an equilibrium calculation from concentrations; it does not need the pump.
+DROP	mitochondrial-function-and-brain-energy	neurodegenerative-disease-pathology	-	medium	The topic centres on protein misfolding and aggregation, not brain energetics.
+ADD	autophagy-in-cell-death-and-disease	neurodegenerative-disease-pathology	soft	medium	Impaired clearance of aggregates is a named common theme.
+DROP	neuroimmunology-and-brain-inflammation	neuroinflammation-glia	-	medium	neuroimmunology-and-brain-inflammation already lists neuroinflammation-glia as a prerequisite; adding this would make a cycle.
+ADD	action-potential-initiation	saltatory-conduction	soft	medium	Saltatory conduction is action potential regeneration at nodes of Ranvier.
+DROP	axonal-transport-and-trafficking	synaptogenesis-and-circuit-development	-	medium	Synapse formation and pruning rest on guidance cues and activity, not axonal transport.
+DROP	oxygen-transport-hemoglobin-dynamics	acid-base-respiratory-compensation	-	medium	Respiratory compensation rests on CO2 transport and buffering, not O2 binding.
+DROP	cortisol-stress-axis-adaptation	blood-flow-redistribution-homeostasis	-	medium	Blood flow redistribution rests on cardiac output and vascular tone, not cortisol.
+DROP	vascular-smooth-muscle-autoregulation	blood-pressure-regulation	-	medium	Local autoregulation is not drawn upon by systemic baroreflex and RAAS control; smooth muscle contraction is already soft.
+DROP	homeostasis-and-feedback	blood-pressure-regulation	-	medium	Already covered by the hard prerequisite negative-feedback-mechanisms.
+ADD	vascular-resistance-blood-flow-control	blood-pressure-regulation	hard	medium	Arterial pressure is cardiac output times peripheral resistance; the resistance half is missing from the prerequisites.
+DROP	atrioventricular-conduction-delay	cardiac-output-stroke-volume-regulation	-	medium	Preload, contractility and afterload do not draw on AV nodal delay.
+DROP	venous-circulation-and-venous-return	cardiac-output-stroke-volume-regulation	-	medium	Venous return builds on Frank-Starling; adding this would also close a cycle through blood-pressure-regulation.
+DROP	major-body-parts	cardiovascular-system-overview	-	medium	The overview already has heart-and-blood for the intuitive base.
+ADD	cardiac-output-stroke-volume-regulation	coronary-circulation-myocardial-oxygen	soft	medium	Myocardial oxygen consumption tracks cardiac work (heart rate and contractility).
+ADD	vascular-tone-resistance-regulation	coronary-circulation-regulation	soft	medium	Coronary autoregulation works through metabolic and endothelial control of vascular tone.
+ADD	hypothalamic-neuroendocrine-integration	cortisol-stress-axis-adaptation	soft	medium	The HPA axis starts with hypothalamic CRH release.
+DROP	cortisol-stress-axis-adaptation	energy-expenditure-metabolic-rate	-	medium	The topic names thyroid hormone and catecholamines, not cortisol, as metabolic-rate modulators.
+ADD	ventilation-mechanics-control	gas-exchange-and-diffusion	soft	medium	Alveolar gas partial pressures depend on ventilation delivering air.
+ADD	autonomic-parasympathetic-dominance	gastrointestinal-secretion-motility	soft	medium	Parasympathetic tone drives secretion and motility alongside the enteric system.
+DROP	intestinal-absorption-nutrient-transport	gastrointestinal-secretion-motility	-	medium	Secretion and motility coordination does not draw on absorption mechanisms.
+DROP	carbohydrate-digestion-and-monosaccharide-absorption	glucose-homeostasis-fed-fasted-metabolic-states	-	medium	Already covered by the hard prerequisite fed-state-metabolism.
+DROP	neural-integration-synaptic-plasticity	motor-control-spinal-coordination	-	medium	Spinal coordination already rests on spinal-reflex-circuits; plasticity is not needed.
+DROP	sensory-neural-coding-perception	motor-control-spinal-coordination	-	medium	Muscle and joint feedback is covered by spinal-reflex-circuits; perception coding is not needed.
+DROP	motor-unit-recruitment-principle	muscle-contraction-mechanics-force-velocity	-	medium	Force-velocity is cross-bridge kinetics within a fiber, not motor unit recruitment.
+DROP	five-senses	nervous-system-overview	-	medium	The overview already has nervous-system-ls and brain-and-nerves for the intuitive base.
+ADD	presynaptic-inhibition-and-short-term-plasticity	neural-integration-synaptic-plasticity	soft	medium	The topic covers presynaptic as well as postsynaptic changes in efficacy.
+DROP	ventilation-mechanics-control	oxygen-transport-hemoglobin-dynamics	-	medium	Hemoglobin O2 binding does not draw on ventilation mechanics.
+DROP	negative-feedback-mechanisms	renal-physiology-and-fluid-balance	-	medium	Already covered by the hard prerequisite homeostasis-and-feedback.
+DROP	respiratory-system-overview	respiratory-control-mechanisms	-	medium	Already reached through the hard prerequisite gas-exchange-and-diffusion, which requires the overview.
+DROP	neural-integration-synaptic-plasticity	sensory-neural-coding-perception	-	medium	Sensory coding rests on action potentials and receptors, not synaptic plasticity.
+DROP	axonal-transport-and-trafficking	synaptic-transmission	-	medium	Synaptic transmission does not draw on axonal transport.
+DROP	neuronal-cell-types-and-morphology	synaptic-transmission	-	medium	Synaptic transmission does not draw on neuronal cell-type classification.
+ADD	blood-flow-redistribution-homeostasis	thermoregulation	soft	medium	Cutaneous vasodilation and vasoconstriction are core thermoregulatory effectors.
+ADD	hypothalamic-neuroendocrine-integration	thyroid-hormone-thermoregulation	soft	medium	Cold stress acts through the hypothalamic-pituitary-thyroid axis.
+DROP	capillary-fluid-exchange-starling-equilibrium	venous-circulation-and-venous-return	-	medium	Venous return rests on pressure gradients and pumps, not Starling filtration.
+DROP	acid-base-respiratory-compensation	ventilation-mechanics-control	-	medium	Respiratory compensation draws on ventilation control, not the reverse.
+DROP	lung-compliance-and-elastic-recoil	ventilation-perfusion-matching	-	medium	V/Q matching rests on gas exchange and perfusion, not compliance.
+DROP	cryo-et	macromolecular-assemblies	-	medium	The topic's methods are cryo-EM, crystallography, cross-linking MS and SAXS, not cryo-ET.
+ADD	nucleic-acid-structures	macromolecular-assemblies	soft	medium	Ribosomes and spliceosomes are RNA-protein assemblies.
+ADD	homology-modeling	structure-based-drug-design	soft	medium	Computational prediction of target structure is one entry point to the SBDD cycle.
+DROP	structure-solution-methods	structure-based-drug-design	-	medium	Already covered by the hard prerequisite x-ray-crystallography.
+ADD	structure-validation-model-quality	structure-based-drug-design	soft	medium	Designing against a structure presumes judging the model's reliability.
+DROP	reaction-diffusion-spatial-patterning	agent-based-modeling-biology	-	medium	ABMs are framed against continuum models generally; reaction-diffusion is not drawn upon.
+DROP	stochastic-gene-expression	cell-cycle-modeling	-	medium	Cell cycle models rest on ODE and Boolean methods, not stochastic expression.
+ADD	sensitivity-analysis	systems-pharmacology	soft	medium	Finding which network nodes control drug response is a sensitivity question.

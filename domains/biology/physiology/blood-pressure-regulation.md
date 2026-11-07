@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: vascular-smooth-muscle-contraction
   type: soft
+- id: cardiovascular-system-overview
+  type: soft
 builds-toward:
 - renal-physiology-and-fluid-balance
 tags:

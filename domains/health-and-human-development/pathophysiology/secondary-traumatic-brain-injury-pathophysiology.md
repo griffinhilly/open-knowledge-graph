@@ -9,8 +9,7 @@ prerequisites:
   type: hard
 - id: inflammation-and-wound-healing
   type: hard
-builds-toward:
-- neuroinflammation-glia
+builds-toward: []
 tags:
 - tbi
 - secondary-injury

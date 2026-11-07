@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: human-microbiome
   type: soft
+- id: viral-replication-strategies-rna-vs-dna
+  type: soft
 tags:
 - zoonosis
 - spillover

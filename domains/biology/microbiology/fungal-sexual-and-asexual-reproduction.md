@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - fungal-pathogenesis-and-mycosis
-- fungal-biology-overview
 tags:
 - fungal-reproduction
 - spores

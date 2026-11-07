@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - rna-processing
-- transcription-initiation-eukaryotes
 tags:
 - elongation
 - rho-independent-termination

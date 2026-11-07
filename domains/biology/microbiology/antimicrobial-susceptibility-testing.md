@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: sterilization-and-disinfection
   type: soft
-builds-toward:
-- emerging-infectious-diseases
+builds-toward: []
 tags:
 - susceptibility
 - testing

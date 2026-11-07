@@ -12,7 +12,6 @@ prerequisites:
   type: hard
 builds-toward:
 - viral-attachment-and-entry-mechanisms
-- viral-replication-cycle
 tags:
 - viral-classification
 - genome-types

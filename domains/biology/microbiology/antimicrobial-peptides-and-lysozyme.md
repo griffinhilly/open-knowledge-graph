@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: inflammatory-response-cellular
   type: soft
-builds-toward:
-- antibiotic-resistance-mechanisms
+builds-toward: []
 tags:
 - antimicrobial
 - innate-immunity

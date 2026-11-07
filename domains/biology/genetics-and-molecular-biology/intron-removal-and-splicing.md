@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - translation-initiation-start-codon
-- small-rnas-mirna-and-rnai
 tags:
 - spliceosome
 - transesterification

@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: post-translational-modifications
   type: hard
-builds-toward:
-- rna-processing
+builds-toward: []
 tags:
 - histone-acetylation
 - epigenetics

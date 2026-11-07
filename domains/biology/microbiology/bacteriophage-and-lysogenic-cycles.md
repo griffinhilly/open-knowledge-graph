@@ -9,7 +9,6 @@ prerequisites:
 - id: bacterial-chromosome-structure-and-organization
   type: hard
 builds-toward:
-- emerging-infectious-diseases
 - microbial-genetics-overview
 tags:
 - bacteriophages

@@ -14,8 +14,7 @@ prerequisites:
   type: soft
 - id: memory-b-cells-and-long-lived-antibody-response
   type: soft
-builds-toward:
-- immunological-memory-secondary-response
+builds-toward: []
 tags:
 - vaccine-immunogenicity
 - adjuvants

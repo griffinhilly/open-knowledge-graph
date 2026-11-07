@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: mhc-class-ii-presentation
   type: hard
+- id: cytokines-and-chemokines
+  type: soft
 builds-toward:
 - th1-th2-th17-responses
 - germinal-center-reactions

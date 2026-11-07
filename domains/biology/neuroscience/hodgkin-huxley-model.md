@@ -14,9 +14,7 @@ prerequisites:
   type: soft
 - id: systems-of-first-order-linear-odes
   type: soft
-builds-toward:
-- action-potential-initiation
-- action-potential-repolarization
+builds-toward: []
 tags:
 - hh-model
 - conductance

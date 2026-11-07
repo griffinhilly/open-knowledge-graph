@@ -11,7 +11,6 @@ prerequisites:
 builds-toward:
 - thyroid-hormone-thermoregulation
 - cortisol-stress-axis-adaptation
-- insulin-glucagon-glucose-homeostasis
 tags:
 - anterior pituitary
 - hormone axes

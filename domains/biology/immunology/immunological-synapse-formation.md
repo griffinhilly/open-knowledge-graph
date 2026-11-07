@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - t-cell-activation-costimulation
-- th1-th2-th17-responses
 tags:
 - immunological-synapse
 - T-APC-interaction

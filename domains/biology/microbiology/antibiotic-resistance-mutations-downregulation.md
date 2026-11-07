@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: gene-regulation-prokaryotes
   type: soft
+- id: fluoroquinolone-topoisomerase-inhibition
+  type: soft
 tags:
 - resistance
 - mutations

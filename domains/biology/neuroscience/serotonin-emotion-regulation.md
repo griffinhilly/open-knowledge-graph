@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: serotonin-system
   type: soft
-builds-toward:
-- autonomic-sympathetic-parasympathetic
+builds-toward: []
 tags:
 - neurotransmitter-systems
 - mood

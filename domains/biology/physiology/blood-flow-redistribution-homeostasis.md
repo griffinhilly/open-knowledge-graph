@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - coronary-circulation-regulation
-- oxygen-transport-hemoglobin-dynamics
 - thermoregulation
 tags:
 - blood flow

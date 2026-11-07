@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: gene-expression-overview
   type: hard
-builds-toward:
-- microrna-biogenesis-and-function
+builds-toward: []
 tags:
 - long-noncoding-rna
 - lncRNA

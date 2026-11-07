@@ -10,8 +10,7 @@ prerequisites:
   type: soft
 - id: viral-infection-and-pathogenesis-mechanisms
   type: soft
-builds-toward:
-- antimicrobial-peptides-and-lysozyme
+builds-toward: []
 tags:
 - toxins
 - virulence

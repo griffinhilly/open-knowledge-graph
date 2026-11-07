@@ -8,7 +8,6 @@ prerequisites:
   type: soft
 builds-toward:
 - bacterial-cell-structure
-- viral-replication-cycle
 - microbial-ecology-overview
 tags:
 - history

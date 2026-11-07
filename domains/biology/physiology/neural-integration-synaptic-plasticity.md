@@ -11,7 +11,6 @@ prerequisites:
 builds-toward:
 - motor-control-spinal-coordination
 - sensory-neural-coding-perception
-- hypothalamic-neuroendocrine-integration
 tags:
 - synaptic
 - plasticity

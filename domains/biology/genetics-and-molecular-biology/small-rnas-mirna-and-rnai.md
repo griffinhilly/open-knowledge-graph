@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: rna-structure-and-base-pairing
   type: soft
-builds-toward:
-- transcription-factors-and-gene-regulation
+builds-toward: []
 tags:
 - mirna
 - sirna

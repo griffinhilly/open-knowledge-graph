@@ -8,8 +8,7 @@ prerequisites:
   type: soft
 - id: dopamine-reward-system
   type: hard
-builds-toward:
-- cerebellum-motor-coordination
+builds-toward: []
 tags:
 - motor-systems
 - basal-ganglia

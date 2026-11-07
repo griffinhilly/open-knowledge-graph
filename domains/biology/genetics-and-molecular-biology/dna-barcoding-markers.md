@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: dna-sequence-divergence
   type: hard
-builds-toward:
-- next-generation-sequencing-ngs
+builds-toward: []
 tags:
 - dna-barcoding
 - species-identification

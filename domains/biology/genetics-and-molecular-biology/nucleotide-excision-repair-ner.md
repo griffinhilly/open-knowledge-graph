@@ -12,8 +12,7 @@ prerequisites:
   type: soft
 - id: chemical-mutagenesis-mutagens
   type: soft
-builds-toward:
-- non-homologous-end-joining-nhej
+builds-toward: []
 tags:
 - dna-repair
 - nucleotide-excision-repair

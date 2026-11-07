@@ -8,9 +8,7 @@ prerequisites:
   type: hard
 - id: exponential-growth-and-decay
   type: hard
-builds-toward:
-- microbial-ecology-biogeochemical-cycling
-- fermentation-pathways-and-end-products
+builds-toward: []
 tags:
 - growth-kinetics
 - population-dynamics

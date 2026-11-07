@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: mitochondrion-energy-production
   type: soft
-builds-toward:
-- blood-pressure-regulation
+builds-toward: []
 tags:
 - cardiac
 - coronary

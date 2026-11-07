@@ -10,8 +10,7 @@ prerequisites:
   type: soft
 - id: movement-does-not-mean-alive
   type: soft
-builds-toward:
-- cardiovascular-system-overview
+builds-toward: []
 tags:
 - skeleton
 - bones

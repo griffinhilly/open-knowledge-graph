@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: rna-processing
   type: soft
+- id: gene-expression-overview
+  type: soft
 builds-toward:
 - gene-regulation-prokaryotes
 - gene-regulation-eukaryotes

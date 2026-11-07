@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - rna-processing
-- small-rnas-mirna-and-rnai
 tags:
 - ctd
 - phosphorylation

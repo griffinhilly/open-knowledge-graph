@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: bacterial-toxins-and-virulence-mechanisms
   type: soft
+- id: bacterial-quorum-sensing-and-gene-regulation
+  type: soft
 builds-toward:
 - emerging-infectious-diseases
 - inflammatory-response-cellular

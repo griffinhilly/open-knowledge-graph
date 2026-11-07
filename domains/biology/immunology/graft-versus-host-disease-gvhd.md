@@ -11,7 +11,6 @@ prerequisites:
 - id: t-cell-development-thymic-selection
   type: soft
 builds-toward:
-- tumor-immune-surveillance
 - cancer-immunotherapy-approaches
 tags:
 - GVHD

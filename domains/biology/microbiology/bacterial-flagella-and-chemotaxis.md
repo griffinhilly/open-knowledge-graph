@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - bacterial-virulence-and-disease-mechanisms
-- microbial-ecology-biogeochemical-cycling
 tags:
 - motility
 - flagella

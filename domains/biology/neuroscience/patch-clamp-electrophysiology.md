@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: voltage-gated-potassium-channels
   type: hard
-builds-toward:
-- ligand-gated-ion-channels
+builds-toward: []
 tags:
 - patch-clamp
 - single-channel

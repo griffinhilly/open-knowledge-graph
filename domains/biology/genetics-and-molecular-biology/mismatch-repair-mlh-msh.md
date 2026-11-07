@@ -10,8 +10,7 @@ prerequisites:
   type: soft
 - id: dna-proofreading-and-error-correction
   type: soft
-builds-toward:
-- homologous-recombination-rad51-complex
+builds-toward: []
 tags:
 - dna-repair
 - mismatch-repair

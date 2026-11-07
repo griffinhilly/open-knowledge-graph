@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: immune-system-basics
   type: soft
+- id: cells-to-tissues-and-organs
+  type: soft
 builds-toward: []
 tags:
 - body-systems

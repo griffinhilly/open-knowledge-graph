@@ -10,8 +10,7 @@ prerequisites:
   type: hard
 - id: myelin-and-myelination
   type: hard
-builds-toward:
-- descending-motor-pathways
+builds-toward: []
 tags:
 - action-potential-propagation
 - myelin

@@ -7,7 +7,6 @@ prerequisites:
 - id: neuronal-compartments
   type: soft
 builds-toward:
-- critical-developmental-periods
 - hippocampus-memory-consolidation
 tags:
 - neural-development

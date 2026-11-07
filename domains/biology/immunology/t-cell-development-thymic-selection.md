@@ -10,8 +10,7 @@ prerequisites:
   type: hard
 - id: lymphoid-organ-architecture-and-function
   type: soft
-builds-toward:
-- t-cell-receptor-structure-and-function
+builds-toward: []
 tags:
 - adaptive
 - t-cell

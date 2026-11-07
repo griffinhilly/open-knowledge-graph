@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: telomeres-chromosome-ends
   type: soft
+- id: dna-replication-leading-lagging-strands
+  type: hard
 builds-toward:
 - cell-senescence-aging
 tags:

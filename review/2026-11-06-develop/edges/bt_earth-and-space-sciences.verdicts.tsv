@@ -1,0 +1,80 @@
+ADD	black-hole-formation-and-mechanics	accretion-disk-physics	soft	medium	B contrasts accretion efficiency for non-spinning vs spinning black holes, which draws on black hole mechanics.
+ADD	galaxy-morphology-and-classification	active-galactic-nuclei	soft	medium	B discusses Seyfert hosts and red-and-dead ellipticals under AGN feedback, using morphology vocabulary.
+ADD	solar-system-zones-architecture	asteroid-belt-structure	soft	medium	B contrasts the belt with the inner solar system zones where rocky planets accreted.
+ADD	red-giant-branch-evolution	asymptotic-giant-branch-evolution	soft	high	B defines the AGB track relative to the red giant branch the star ascended earlier.
+ADD	stars-and-constellations	celestial-coordinates	soft	medium	Familiarity with the night sky and star charts helps before formal RA/Dec, but B rests on spherical coordinates.
+DROP	stellar-effective-temperature-color	core-hydrogen-burning-main-sequence	-	medium	B is about fusion and hydrostatic equilibrium; it never uses effective temperature or color index.
+ADD	absolute-magnitude-and-luminosity-distance	cosmic-distance-ladder-calibration	hard	medium	Standard-candle rungs work by comparing intrinsic to apparent brightness via the inverse square law.
+ADD	large-scale-structure-universe	cosmic-inflation-and-early-universe	soft	medium	B cites galaxies, clusters and the cosmic web as the observed outcome of inflationary seed fluctuations.
+DROP	extinction-and-interstellar-reddening	galaxy-morphology-and-classification	-	medium	B mentions dust lanes only as a morphological feature, not reddening or extinction physics.
+DROP	black-hole-accretion	gravitational-waves-binary-mergers	-	high	B never mentions accretion; mergers draw on compact objects and GR, not accretion physics.
+ADD	cometary-orbits-and-dynamics	impact-craters-and-hazards	soft	medium	B's hazard assessment covers comets among NEOs and relies on orbital trajectories of impactors.
+DROP	gravitational-lensing-mass	large-scale-structure-universe	-	medium	B explains the cosmic web via gravitational instability and surveys; lensing is not used.
+DROP	tidal-forces-and-locking	lunar-geology-and-history	-	medium	B explains maria asymmetry by crustal thickness; tides appear only as a wrong answer option.
+DROP	eclipses-solar-and-lunar	moon-earth-system-dynamics	-	medium	B is about tidal recession and day lengthening; eclipses appear only as historical timing records.
+ADD	main-sequence-lifetime-mass-luminosity-relation	red-giant-branch-evolution	soft	medium	B opens with the star leaving the main sequence on core-hydrogen exhaustion, which the lifetime topic frames.
+DROP	stellar-mass-loss-and-wind	red-giant-branch-evolution	-	medium	B covers shell burning, envelope expansion and the helium flash; mass loss is not discussed.
+ADD	orbital-resonances-dynamics	solar-system-zones-architecture	soft	high	B explains the current architecture via giant planets migrating through resonances and resonant Kuiper Belt objects.
+ADD	parallax-and-distance-ladders	star-clusters-age-dating	soft	medium	B relies on all cluster members sharing a single known distance for isochrone fitting.
+DROP	hertzsprung-russell-diagram	stellar-end-states	-	medium	B never uses the HR diagram; it draws on post-main-sequence evolution and binaries instead.
+ADD	the-moon-in-detail	tidal-forces-and-locking	soft	medium	B applies tides to the Earth-Moon system to explain why the Moon is tidally locked and receding.
+DROP	stellar-mass-loss-and-wind	white-dwarf-cooling-and-crystallization	-	medium	B is about cooling of an existing white dwarf; mass loss is not discussed and AGB is already a prerequisite.
+ADD	pulsar-timing-and-physics	x-ray-binary-systems	soft	medium	B notes periodic X-ray pulsations reveal spinning neutron stars, which draws on pulsar physics.
+ADD	dansgaard-oeschger-oscillations	abrupt-climate-change-mechanisms	soft	high	B uses D-O events as a central example of freshwater-driven abrupt change.
+DROP	heinrich-events	abrupt-climate-change-mechanisms	-	medium	B's examples are D-O and the Younger Dryas; Heinrich events are not discussed.
+DROP	lake-sediment-paleoclimate	abrupt-climate-change-mechanisms	-	medium	B mentions glacial Lake Agassiz as a meltwater source, not lake sediment archives.
+DROP	stadials-interstadials-glacial	abrupt-climate-change-mechanisms	-	medium	B does not use the stadial/interstadial framing; its mechanisms stand on AMOC and feedbacks.
+ADD	younger-dryas-event	abrupt-climate-change-mechanisms	soft	high	B calls the Younger Dryas the canonical example of disproportionate response to modest forcing.
+DROP	volcanic-aerosol-forcing	anthropogenic-aerosol-forcing-effects	-	medium	B discusses sulfate from fossil fuels and the masking dilemma without drawing on volcanic forcing.
+ADD	subtropical-jet-streams	baroclinic-instability	soft	medium	B uses the jet stream as the example of vertical wind shear in a baroclinic atmosphere.
+ADD	pressure-tendency-and-vertical-motion	baroclinic-instability	soft	medium	B's growth mechanism rests on co-phasing vertical motion with the temperature field.
+DROP	amazon-rainforest-dieback-scenarios	climate-extremes-and-attribution	-	high	B is about attributing extreme events; Amazon dieback is unrelated.
+DROP	storm-track-dynamics-climate	climate-extremes-and-attribution	-	medium	B never mentions storm tracks; attribution draws on models and statistics.
+DROP	anthropogenic-aerosol-forcing-effects	climate-sensitivity-radiative-feedbacks	-	medium	B defines sensitivity via forcing and feedbacks; aerosol effects are not discussed.
+DROP	anthropogenic-carbon-cycle	climate-sensitivity-radiative-feedbacks	-	medium	B uses CO2 doubling only as a reference forcing; carbon cycle dynamics are not needed.
+DROP	atlantic-meridional-overturning-stability	climate-sensitivity-radiative-feedbacks	-	high	AMOC stability is a downstream application, not something sensitivity draws on.
+DROP	general-circulation-models	climate-sensitivity-radiative-feedbacks	-	medium	B is built on energy balance and feedback parameters; GCMs appear only in a learning tip.
+DROP	ocean-heat-transport-mechanism	climate-sensitivity-radiative-feedbacks	-	medium	B uses ocean heat uptake for ECS vs TCR, not horizontal ocean heat transport mechanisms.
+DROP	solar-variability-climate	climate-sensitivity-radiative-feedbacks	-	medium	B is forcing-agnostic and does not discuss solar variability.
+ADD	atlantic-meridional-overturning-circulation	climate-tipping-points	soft	high	B uses AMOC as a named tipping element and in its cascade example.
+DROP	polar-amplification-ice-feedback	climate-tipping-points	-	medium	B's tipping elements are ice sheets, Amazon, permafrost and AMOC; polar amplification is not used.
+DROP	rapid-climate-change-events	climate-tipping-points	-	medium	B is framed on modern tipping elements and already lists paleoclimate-tipping-points.
+DROP	atlantic-multidecadal-oscillation	enso-mechanisms-teleconnections	-	high	B never mentions the AMO; ENSO mechanics do not depend on it.
+DROP	coral-paleoclimatology	enso-mechanisms-teleconnections	-	high	Corals record ENSO history, but B's mechanisms and teleconnections do not draw on coral geochemistry.
+DROP	hadley-cell-dynamics	enso-mechanisms-teleconnections	-	medium	Hadley circulation appears only as a wrong answer option; B rests on Walker/Bjerknes and Rossby wave trains.
+ADD	subtropical-jet-streams	enso-mechanisms-teleconnections	soft	medium	B's teleconnections work by Rossby wave trains modifying jet streams and storm tracks.
+DROP	carbon-cycle-long-term	glacial-interglacial-cycles	-	medium	B uses CO2 as a feedback amplifier; million-year weathering cycles are not drawn on.
+ADD	eccentricity-climate-forcing	glacial-interglacial-cycles	soft	high	B's central puzzle is eccentricity modulating precession to pace the 100 kyr cycle.
+DROP	last-glacial-maximum	glacial-interglacial-cycles	-	medium	B explains the cycle mechanism; the LGM is a specific instance, better as a downstream topic.
+DROP	loess-paleosol-sequences	glacial-interglacial-cycles	-	high	B never mentions loess; it rests on orbital forcing and marine and ice records.
+ADD	obliquity-climate-forcing	glacial-interglacial-cycles	soft	high	B explicitly uses obliquity's role in high-latitude summer insolation.
+ADD	orbital-forcing-variations	glacial-interglacial-cycles	soft	high	B is built on how orbital parameters combine to force ice-sheet growth and decay.
+DROP	coral-paleoclimatology	holocene-climate-variability	-	medium	B's archives are ice cores, lake sediments, speleothems and tree rings; corals are not used.
+ADD	lake-sediment-paleoclimate	holocene-climate-variability	soft	medium	B names lake sediments among the proxy archives resolving Holocene variability.
+ADD	speleothem-paleoclimate-records	holocene-climate-variability	soft	medium	B names speleothems and cave records as archives of Holocene events like 8.2 ka.
+DROP	younger-dryas-event	holocene-climate-variability	-	medium	B does not discuss the Younger Dryas; its abrupt example is the 8.2 ka event.
+ADD	heinrich-events	ice-sheet-climate-coupling	soft	high	B uses Heinrich events in its explainer and a question as the case of ice-sheet discharge driving climate.
+ADD	carbon-dioxide-ocean-circulation	marine-biological-pump	soft	medium	B ties sequestration time to the deep overturning circulation; solubility context helps.
+ADD	diel-vertical-migration-plankton	marine-biological-pump	soft	high	B names diel vertical migration as a pathway of the biological pump.
+DROP	alkenone-paleothermometry	marine-isotope-stages	-	high	B is built entirely on benthic d18O; alkenones are not used.
+ADD	deep-ocean-abyssal-currents	marine-sediment-paleoclimate	soft	medium	B uses grain size as a bottom-current proxy and benthic records of deep-water conditions.
+DROP	atmospheric-circulation-reconstruction	monsoon-paleoclimate-dynamics	-	medium	B explains monsoon shifts via insolation and ITCZ dynamics, not circulation reconstruction methods.
+ADD	holocene-climate-variability	monsoon-paleoclimate-dynamics	soft	medium	B's main case is the early-Holocene Green Sahara, which Holocene variability sets up.
+DROP	latent-heating-in-weather-systems	monsoon-systems-and-climate	-	medium	B does not discuss latent heat release; it draws on Hadley circulation, moisture transport and surface fluxes.
+ADD	alkenone-paleothermometry	multi-proxy-climate-reconstruction	soft	high	B lists alkenones among the proxies it combines and discusses their biases.
+DROP	holocene-climate-variability	multi-proxy-climate-reconstruction	-	medium	Holocene appears only as a question setting; B is about proxy combination methods.
+DROP	peat-paleoclimate-records	multi-proxy-climate-reconstruction	-	medium	B never mentions peat archives.
+ADD	ocean-stratification-and-mixing	ocean-heat-transport-mechanism	soft	medium	B notes stratification changes alter how efficiently heat is moved.
+DROP	mesoscale-eddy-dynamics	ocean-heat-transport-mechanism	-	medium	B does not mention eddies; it rests on gyres, boundary currents and overturning.
+ADD	internal-waves-density-stratification	ocean-stratification-and-mixing	soft	medium	B names breaking internal waves from tidal flow as a source of deep mixing.
+ADD	abrupt-climate-change-mechanisms	paleoclimate-data-model-comparison	soft	medium	B uses D-O events as the test of model ocean circulation dynamics.
+DROP	atmospheric-circulation-reconstruction	paleoclimate-data-model-comparison	-	medium	B mentions regional precipitation biases only in passing; circulation reconstruction is not drawn on.
+ADD	cloud-feedback-paleoclimate	paleoclimate-data-model-comparison	soft	medium	B attributes models' weak tropical LGM cooling to cloud feedbacks or ocean mixing.
+ADD	glacial-interglacial-cycles	paleoclimate-data-model-comparison	soft	medium	B's main test cases are glacial climates and their forcings.
+ADD	ice-sheet-climate-coupling	paleoclimate-data-model-comparison	soft	medium	B says the LGM tests ice-sheet and albedo feedbacks in models.
+ADD	last-glacial-maximum	paleoclimate-data-model-comparison	soft	high	The LGM is B's central benchmark period throughout explainer and questions.
+DROP	marine-isotope-stages	paleoclimate-data-model-comparison	-	medium	B uses d18O as a fit metric but never the MIS framework.
+ADD	ocean-circulation-paleoclimate	paleoclimate-data-model-comparison	soft	medium	B says abrupt events test model ocean circulation dynamics.
+ADD	polar-amplification-paleoclimate	paleoclimate-data-model-comparison	soft	high	B's key mismatch is models underestimating polar amplification at the LGM.
+DROP	spectral-analysis-paleoclimate	paleoclimate-data-model-comparison	-	medium	B never uses spectral or periodicity analysis.
+DROP	water-vapor-feedback-paleoclimate	paleoclimate-data-model-comparison	-	medium	B names ice-albedo and cloud feedbacks but not water vapor feedback.

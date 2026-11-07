@@ -10,8 +10,7 @@ prerequisites:
   type: hard
 - id: rna-splicing-introns-exons-spliceosome
   type: hard
-builds-toward:
-- microrna-biogenesis-and-function
+builds-toward: []
 tags:
 - post-transcriptional-regulation
 - exon-skipping

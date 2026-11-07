@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: cell-membrane-structure
   type: hard
-builds-toward:
-- ionotropic-vs-metabotropic-receptors
+builds-toward: []
 tags:
 - synaptic-transmission
 - exocytosis

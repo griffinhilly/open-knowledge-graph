@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - sterilization-and-disinfection
-- emerging-infectious-diseases
 tags:
 - endospores
 - survival

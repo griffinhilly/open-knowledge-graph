@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - mucosal-immunity-and-iga-response
-- immune-tolerance-central-and-peripheral
 tags:
 - ILCs
 - group-3-ILCs

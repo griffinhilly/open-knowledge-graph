@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: digestive-system-overview
   type: soft
-builds-toward:
-- immunological-memory-secondary-response
+builds-toward: []
 tags:
 - mucosal-immunity
 - iga

@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - thymic-selection-positive-negative
-- vdj-recombination-antibody-diversity
 tags:
 - developmental-checkpoints
 - beta-selection

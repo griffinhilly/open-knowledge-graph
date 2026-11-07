@@ -8,9 +8,7 @@ prerequisites:
   type: hard
 - id: genome-assembly
   type: hard
-builds-toward:
-- spatial-transcriptomics
-- multi-omics-integration
+builds-toward: []
 tags:
 - PacBio
 - Oxford-Nanopore

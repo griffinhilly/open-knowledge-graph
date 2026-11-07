@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: sodium-potassium-atpase
   type: hard
+- id: nernst-equation
+  type: hard
 builds-toward:
 - voltage-gated-sodium-channels
 - voltage-gated-potassium-channels

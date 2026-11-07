@@ -46,7 +46,7 @@ DROP	constraint-based-modeling-fba	multi-omics-integration	-	medium	Statistical 
 DROP	phylogenetic-tree-construction	population-genomics	-	medium	Population structure and selection scans rest on population genetics, not tree building.
 DROP	long-read-sequencing	spatial-transcriptomics	-	high	Spatial methods use barcoded arrays or FISH, not long-read sequencing.
 ADD	immunology-overview	adaptive-immunity-overview	soft	medium	Foundations of immunology frames the adaptive arm alongside innate immunity.
-ADD	antibody-affinity-and-avidity	affinity-maturation-somatic-hypermutation	soft	medium	Affinity maturation selects for higher binding affinity, a quantity defined in the affinity topic.
+DROP	antibody-affinity-and-avidity	affinity-maturation-somatic-hypermutation	-	medium	antibody-affinity-and-avidity already lists affinity-maturation as a prerequisite; adding this would make a cycle.
 DROP	plasma-cells-and-antibody-secretion	antibody-isotypes-and-effector-functions	-	medium	Isotype structure and effector functions do not draw on plasma cell differentiation.
 DROP	b-cell-development-maturation	antibody-structure-and-function	-	medium	Antibody structure rests on BCR and protein structure, not on B cell development.
 DROP	complement-activation-pathways	antibody-structure-and-function	-	medium	The classical pathway draws on antibodies, not the reverse; the complement overview covers what antibodies need.
@@ -66,7 +66,7 @@ DROP	tumor-immune-surveillance	immune-checkpoint-regulators	-	medium	Checkpoint 
 DROP	cytokine-signaling-and-pleiotropic-effects	immune-tolerance-central-and-peripheral	-	medium	Central and peripheral tolerance rest on thymic selection and Tregs, not cytokine pleiotropy.
 DROP	innate-lymphoid-cells-ilcs	immune-tolerance-central-and-peripheral	-	high	Tolerance mechanisms do not draw on innate lymphoid cells.
 DROP	memory-b-cells-and-long-lived-antibody-response	immune-tolerance-central-and-peripheral	-	high	Tolerance mechanisms do not draw on memory B cell maintenance.
-ADD	adaptive-immune-response-kinetics	immunological-memory-secondary-response	soft	high	The secondary response is defined by comparison with primary-response kinetics.
+DROP	adaptive-immune-response-kinetics	immunological-memory-secondary-response	-	medium	adaptive-immune-response-kinetics already lists immunological-memory as a prerequisite; adding this would make a cycle.
 ADD	affinity-maturation-somatic-hypermutation	immunological-memory-secondary-response	soft	medium	Higher-affinity secondary antibodies come from affinity maturation.
 DROP	lymphocyte-trafficking-homing-adhesion-molecules	immunological-memory-secondary-response	-	medium	Memory as described rests on long-lived cells and recall, not homing molecules.
 DROP	mucosal-immunity-and-iga-response	immunological-memory-secondary-response	-	high	Memory and the secondary response do not draw on mucosal IgA.
@@ -81,7 +81,7 @@ DROP	bacterial-virulence-and-disease-mechanisms	inflammatory-response-cellular	-
 DROP	fungal-pathogenesis-and-mycosis	inflammatory-response-cellular	-	high	Cellular inflammation does not draw on fungal pathogenesis.
 ADD	immune-cell-trafficking-lymphoid-organs	mucosal-immunity-and-iga-response	soft	medium	GALT, M cells and lamina propria plasma cells presume lymphoid organ architecture.
 DROP	innate-lymphoid-cells-ilcs	mucosal-immunity-and-iga-response	-	medium	The topic centres on IgA and GALT; ILCs are not drawn upon.
-ADD	lymphocyte-trafficking-homing-adhesion-molecules	mucosal-immunity-and-iga-response	soft	medium	IgA plasma cells reach the lamina propria through mucosal homing.
+DROP	lymphocyte-trafficking-homing-adhesion-molecules	mucosal-immunity-and-iga-response	-	medium	lymphocyte-trafficking already lists mucosal-immunity as a prerequisite; adding this would make a cycle.
 DROP	inflammatory-response-cellular	natural-killer-cells	-	medium	NK missing-self recognition and killing rest on innate immunity, not inflammation.
 ADD	complement-regulation-and-deficiency	primary-immunodeficiency-categories	soft	medium	Complement deficiency is one of the categories the topic classifies.
 DROP	thymic-selection-positive-negative	regulatory-t-cells-immune-tolerance	-	medium	Already covered by the hard prerequisite t-cell-development-thymic-selection.
@@ -110,7 +110,7 @@ DROP	beta-lactam-inhibition-transpeptidase	antibiotic-resistance-mutations-downr
 ADD	fluoroquinolone-topoisomerase-inhibition	antibiotic-resistance-mutations-downregulation	soft	high	Topoisomerase target mutations and the fluoroquinolone case are central examples.
 DROP	bacterial-toxins-and-virulence-mechanisms	antimicrobial-peptides-and-lysozyme	-	high	Host antimicrobial peptides rest on innate immunity, not bacterial toxins.
 DROP	bacterial-typing-and-identification-techniques	antimicrobial-susceptibility-testing	-	medium	MIC testing methods rest on resistance mechanisms, not typing methods.
-ADD	bacterial-aerobic-respiration-electron-transport	bacterial-anaerobic-respiration-and-fermentation	soft	high	Anaerobic respiration is electron transport with alternative acceptors, defined against aerobic respiration.
+JUDGE	bacterial-aerobic-respiration-electron-transport	bacterial-anaerobic-respiration-and-fermentation	soft	medium	Anaerobic respiration is defined against aerobic ETC, but the aerobic topic already lists the anaerobic one as prerequisite; a human should pick the direction.
 DROP	microbiology-scope-and-history	bacterial-cell-structure	-	medium	Bacterial anatomy does not draw on the history of microbiology.
 DROP	gram-negative-outer-membrane	bacterial-pili-fimbriae-types	-	medium	Pili types and functions rest on general cell structure, not outer membrane detail.
 DROP	bacterial-ribosomes-and-translation-prokaryotes	bacterial-protein-secretion-pathways	-	medium	Secretion pathways rest on protein targeting and signal sequences, not ribosome structure.
@@ -157,3 +157,79 @@ ADD	viral-replication-strategies-rna-vs-dna	viral-pathogenesis-and-disease	soft	
 DROP	microbiology-scope-and-history	viral-replication-cycle	-	high	The replication cycle does not draw on microbiology history.
 DROP	viral-classification-and-genome-organization	viral-replication-cycle	-	high	Reverse dependency: the intro replication cycle comes before genome-based classification.
 DROP	viral-attachment-and-entry-mechanisms	viral-replication-strategies-rna-vs-dna	-	medium	Genome replication strategies rest on the replication cycle and polymerases, not entry detail.
+DROP	voltage-clamp-recording	absolute-refractory-period	-	medium	Refractoriness rests on Na+ inactivation and K+ conductance, not on the recording method.
+DROP	hodgkin-huxley-model	action-potential-initiation	-	high	Reverse dependency: the expert HH model formalizes the threshold behavior taught here.
+DROP	hodgkin-huxley-model	action-potential-repolarization	-	high	Reverse dependency: the HH model formalizes repolarization; the concept does not need it.
+DROP	serotonin-emotion-regulation	autonomic-sympathetic-parasympathetic	-	high	Sympathetic and parasympathetic physiology does not draw on serotonergic mood control.
+DROP	motor-control-spinal-coordination	basal-ganglia-motor-selection	-	medium	Basal ganglia action selection rests on dopamine circuitry, not spinal coordination.
+DROP	neuronal-cell-types-and-morphology	cable-theory-axonal-conduction	-	medium	Cable theory already rests on neuron-structure-and-function; cell-type morphology is not needed.
+DROP	exocytosis-snare-proteins-membrane-fusion	calcium-signaling-neurons	-	medium	Calcium is the trigger for exocytosis; neuronal calcium signaling does not draw on SNAREs.
+DROP	motor-learning-cerebellar	cerebellar-circuits	-	medium	motor-learning-cerebellar already lists cerebellar-circuits as a prerequisite; adding this would make a cycle.
+DROP	basal-ganglia-motor-selection	cerebellum-motor-coordination	-	high	Cerebellar LTD-based error correction does not draw on basal ganglia.
+DROP	primary-motor-cortex	cerebellum-motor-coordination	-	medium	The cerebellar learning algorithm rests on LTD and climbing-fiber error signals, not M1.
+DROP	motor-control-spinal-coordination	cerebellum-motor-coordination	-	medium	The cerebellar learning algorithm does not draw on spinal coordination.
+DROP	dendritic-spine-plasticity	critical-developmental-periods	-	medium	Critical periods rest on activity-dependent plasticity and GABAergic gating, not spine morphology.
+DROP	neurogenesis-adult	critical-developmental-periods	-	high	Developmental critical periods do not draw on adult neurogenesis.
+DROP	saltatory-conduction	descending-motor-pathways	-	high	Corticospinal and brainstem tract anatomy does not draw on saltatory conduction.
+DROP	dendritic-spine-plasticity	hippocampus-memory-consolidation	-	medium	Hippocampal consolidation already rests on LTP; spine morphology is not needed.
+DROP	synaptic-vesicle-release-exocytosis	ionotropic-vs-metabotropic-receptors	-	high	Postsynaptic receptor classes do not draw on presynaptic vesicle release.
+DROP	patch-clamp-electrophysiology	ligand-gated-ion-channels	-	high	Ligand-gated channel function does not need the expert recording technique.
+ADD	nmda-receptor-structure	long-term-potentiation	soft	high	LTP induction runs through Ca2+ influx via NMDA receptors, as the topic states.
+DROP	motor-control-spinal-coordination	motor-cortex	-	medium	M1 tuning and population coding do not draw on spinal coordination.
+DROP	sodium-potassium-atpase	nernst-equation	-	medium	The Nernst equation is an equilibrium calculation from concentrations; it does not need the pump.
+DROP	mitochondrial-function-and-brain-energy	neurodegenerative-disease-pathology	-	medium	The topic centres on protein misfolding and aggregation, not brain energetics.
+ADD	autophagy-in-cell-death-and-disease	neurodegenerative-disease-pathology	soft	medium	Impaired clearance of aggregates is a named common theme.
+DROP	neuroimmunology-and-brain-inflammation	neuroinflammation-glia	-	medium	neuroimmunology-and-brain-inflammation already lists neuroinflammation-glia as a prerequisite; adding this would make a cycle.
+DROP	secondary-traumatic-brain-injury-pathophysiology	neuroinflammation-glia	-	high	Reverse dependency: secondary TBI draws on neuroinflammation.
+ADD	nernst-equation	resting-membrane-potential	hard	high	Resting potential cannot be explained without single-ion equilibrium potentials.
+ADD	action-potential-initiation	saltatory-conduction	soft	medium	Saltatory conduction is action potential regeneration at nodes of Ranvier.
+DROP	axonal-transport-and-trafficking	synaptogenesis-and-circuit-development	-	medium	Synapse formation and pruning rest on guidance cues and activity, not axonal transport.
+DROP	oxygen-transport-hemoglobin-dynamics	acid-base-respiratory-compensation	-	medium	Respiratory compensation rests on CO2 transport and buffering, not O2 binding.
+DROP	cortisol-stress-axis-adaptation	blood-flow-redistribution-homeostasis	-	medium	Blood flow redistribution rests on cardiac output and vascular tone, not cortisol.
+DROP	vascular-smooth-muscle-autoregulation	blood-pressure-regulation	-	medium	Local autoregulation is not drawn upon by systemic baroreflex and RAAS control; smooth muscle contraction is already soft.
+ADD	cardiovascular-system-overview	blood-pressure-regulation	soft	high	The overview of heart, vessels and circulation is the base for pressure regulation.
+DROP	coronary-circulation-myocardial-oxygen	blood-pressure-regulation	-	high	Systemic pressure regulation does not draw on coronary supply-demand balance.
+DROP	homeostasis-and-feedback	blood-pressure-regulation	-	medium	Already covered by the hard prerequisite negative-feedback-mechanisms.
+ADD	vascular-resistance-blood-flow-control	blood-pressure-regulation	hard	medium	Arterial pressure is cardiac output times peripheral resistance; the resistance half is missing from the prerequisites.
+DROP	atrioventricular-conduction-delay	cardiac-output-stroke-volume-regulation	-	medium	Preload, contractility and afterload do not draw on AV nodal delay.
+DROP	venous-circulation-and-venous-return	cardiac-output-stroke-volume-regulation	-	medium	Venous return builds on Frank-Starling; adding this would also close a cycle through blood-pressure-regulation.
+DROP	bones-and-muscles	cardiovascular-system-overview	-	high	The cardiovascular overview does not draw on bones and muscles.
+DROP	major-body-parts	cardiovascular-system-overview	-	medium	The overview already has heart-and-blood for the intuitive base.
+ADD	cardiac-output-stroke-volume-regulation	coronary-circulation-myocardial-oxygen	soft	medium	Myocardial oxygen consumption tracks cardiac work (heart rate and contractility).
+ADD	vascular-tone-resistance-regulation	coronary-circulation-regulation	soft	medium	Coronary autoregulation works through metabolic and endothelial control of vascular tone.
+ADD	hypothalamic-neuroendocrine-integration	cortisol-stress-axis-adaptation	soft	medium	The HPA axis starts with hypothalamic CRH release.
+DROP	cortisol-stress-axis-adaptation	energy-expenditure-metabolic-rate	-	medium	The topic names thyroid hormone and catecholamines, not cortisol, as metabolic-rate modulators.
+ADD	ventilation-mechanics-control	gas-exchange-and-diffusion	soft	medium	Alveolar gas partial pressures depend on ventilation delivering air.
+ADD	autonomic-parasympathetic-dominance	gastrointestinal-secretion-motility	soft	medium	Parasympathetic tone drives secretion and motility alongside the enteric system.
+DROP	intestinal-absorption-nutrient-transport	gastrointestinal-secretion-motility	-	medium	Secretion and motility coordination does not draw on absorption mechanisms.
+DROP	carbohydrate-digestion-and-monosaccharide-absorption	glucose-homeostasis-fed-fasted-metabolic-states	-	medium	Already covered by the hard prerequisite fed-state-metabolism.
+DROP	neural-integration-synaptic-plasticity	hypothalamic-neuroendocrine-integration	-	high	Hypothalamic hormone control does not draw on synaptic plasticity.
+DROP	anterior-pituitary-hormone-axes	insulin-glucagon-glucose-homeostasis	-	high	The topic says islets sense glucose directly without pituitary intermediates.
+DROP	neural-integration-synaptic-plasticity	motor-control-spinal-coordination	-	medium	Spinal coordination already rests on spinal-reflex-circuits; plasticity is not needed.
+DROP	sensory-neural-coding-perception	motor-control-spinal-coordination	-	medium	Muscle and joint feedback is covered by spinal-reflex-circuits; perception coding is not needed.
+DROP	motor-unit-recruitment-principle	muscle-contraction-mechanics-force-velocity	-	medium	Force-velocity is cross-bridge kinetics within a fiber, not motor unit recruitment.
+DROP	five-senses	nervous-system-overview	-	medium	The overview already has nervous-system-ls and brain-and-nerves for the intuitive base.
+ADD	presynaptic-inhibition-and-short-term-plasticity	neural-integration-synaptic-plasticity	soft	medium	The topic covers presynaptic as well as postsynaptic changes in efficacy.
+DROP	blood-flow-redistribution-homeostasis	oxygen-transport-hemoglobin-dynamics	-	high	Hemoglobin binding and cooperativity do not draw on blood flow redistribution.
+DROP	ventilation-mechanics-control	oxygen-transport-hemoglobin-dynamics	-	medium	Hemoglobin O2 binding does not draw on ventilation mechanics.
+DROP	negative-feedback-mechanisms	renal-physiology-and-fluid-balance	-	medium	Already covered by the hard prerequisite homeostasis-and-feedback.
+DROP	respiratory-system-overview	respiratory-control-mechanisms	-	medium	Already reached through the hard prerequisite gas-exchange-and-diffusion, which requires the overview.
+DROP	neural-integration-synaptic-plasticity	sensory-neural-coding-perception	-	medium	Sensory coding rests on action potentials and receptors, not synaptic plasticity.
+ADD	action-potential	skeletal-muscle-contraction	soft	high	Excitation-contraction coupling begins with muscle action potentials along T-tubules.
+DROP	axonal-transport-and-trafficking	synaptic-transmission	-	medium	Synaptic transmission does not draw on axonal transport.
+DROP	neuronal-cell-types-and-morphology	synaptic-transmission	-	medium	Synaptic transmission does not draw on neuronal cell-type classification.
+ADD	neuron-structure-and-function	synaptic-transmission	soft	high	The topic presumes axon terminals, dendrites and pre/postsynaptic neurons.
+ADD	blood-flow-redistribution-homeostasis	thermoregulation	soft	medium	Cutaneous vasodilation and vasoconstriction are core thermoregulatory effectors.
+ADD	hypothalamic-neuroendocrine-integration	thyroid-hormone-thermoregulation	soft	medium	Cold stress acts through the hypothalamic-pituitary-thyroid axis.
+DROP	capillary-fluid-exchange-starling-equilibrium	venous-circulation-and-venous-return	-	medium	Venous return rests on pressure gradients and pumps, not Starling filtration.
+DROP	acid-base-respiratory-compensation	ventilation-mechanics-control	-	medium	Respiratory compensation draws on ventilation control, not the reverse.
+DROP	lung-compliance-and-elastic-recoil	ventilation-perfusion-matching	-	medium	V/Q matching rests on gas exchange and perfusion, not compliance.
+DROP	cryo-et	macromolecular-assemblies	-	medium	The topic's methods are cryo-EM, crystallography, cross-linking MS and SAXS, not cryo-ET.
+ADD	nucleic-acid-structures	macromolecular-assemblies	soft	medium	Ribosomes and spliceosomes are RNA-protein assemblies.
+ADD	homology-modeling	structure-based-drug-design	soft	medium	Computational prediction of target structure is one entry point to the SBDD cycle.
+DROP	structure-solution-methods	structure-based-drug-design	-	medium	Already covered by the hard prerequisite x-ray-crystallography.
+ADD	structure-validation-model-quality	structure-based-drug-design	soft	medium	Designing against a structure presumes judging the model's reliability.
+DROP	reaction-diffusion-spatial-patterning	agent-based-modeling-biology	-	medium	ABMs are framed against continuum models generally; reaction-diffusion is not drawn upon.
+DROP	stochastic-gene-expression	cell-cycle-modeling	-	medium	Cell cycle models rest on ODE and Boolean methods, not stochastic expression.
+DROP	circadian-clock-modeling	multi-scale-modeling	-	high	Scale-bridging frameworks do not draw on circadian models.
+ADD	sensitivity-analysis	systems-pharmacology	soft	medium	Finding which network nodes control drug response is a sensitivity question.

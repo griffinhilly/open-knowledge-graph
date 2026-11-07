@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: motor-proteins-cellular-movement
   type: soft
+- id: action-potential
+  type: soft
 tags:
 - muscle contraction
 - sliding filament

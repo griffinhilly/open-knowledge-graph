@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: organic-chemistry-intro
   type: soft
+- id: neuron-structure-and-function
+  type: soft
 builds-toward:
 - neuromuscular-junction
 - nervous-system-overview

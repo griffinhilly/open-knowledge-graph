@@ -16,7 +16,6 @@ prerequisites:
   type: soft
 builds-toward:
 - vaccine-response-and-immunogenicity
-- immune-tolerance-central-and-peripheral
 tags:
 - memory-B-cells
 - plasma-cells

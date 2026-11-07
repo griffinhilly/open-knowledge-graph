@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - emerging-infectious-diseases
-- inflammatory-response-cellular
 tags:
 - fungal-pathogenesis
 - mycosis

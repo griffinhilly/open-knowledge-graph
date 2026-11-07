@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - antibiotic-resistance-mechanisms-and-evolution
-- microbial-genetics-overview
 tags:
 - plasmids
 - horizontal-gene-transfer

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: complement-activation-pathways
   type: soft
+- id: innate-immunity-overview
+  type: soft
 builds-toward:
 - natural-killer-cells
 - hypersensitivity-reactions

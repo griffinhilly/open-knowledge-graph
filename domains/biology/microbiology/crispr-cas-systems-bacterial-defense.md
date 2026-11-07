@@ -10,8 +10,7 @@ prerequisites:
   type: soft
 - id: bacteriophage-taxonomy-lytic-lysogenic
   type: soft
-builds-toward:
-- specialized-transduction-viral-dna-transfer
+builds-toward: []
 tags:
 - crispr
 - immunity
