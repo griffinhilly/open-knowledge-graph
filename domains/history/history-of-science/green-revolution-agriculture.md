@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The Green Revolution (1960s-1980s) dramatically increased global agricultural yields through selective breeding, synthetic fertilizers, pesticides, and irrigation. Scientists like Norman Borlaug developed high-yielding crop varieties that, combined with chemical inputs, quintupled wheat production in some regions. The revolution prevented famines predicted by population forecasters and was heralded as a triumph of science and technology. Yet it also had unintended consequences: dependence on chemical inputs, monoculture vulnerability, soil degradation, water pollution, and loss of crop biodiversity. The Green Revolution illustrated a pattern repeated throughout modern science: technological solutions to problems create new problems. It also raised questions about technological determinism — the assumption that scientific advances automatically improve human welfare — versus the need for broader social and environmental consideration. Understanding the Green Revolution requires both appreciation for the real reduction in hunger and critical awareness of its costs.
 
+## How It's Best Learned
+Start with the plant: compare a tall traditional wheat and a semi-dwarf variety under heavy fertilizer, and see why one falls over and the other turns the nitrogen into grain. Then keep a two-column ledger for Punjab, gains on one side and costs on the other, with rough dates. Finish by asking why the same package did much less in sub-Saharan Africa.
+
+## Common Misconceptions
+- The Green Revolution was about better seeds. (The seeds were one part of a package. They were bred to respond to fertilizer, irrigation, and pesticides, and their large yield gains depended on those inputs.)
+- The Green Revolution used genetically modified crops. (It relied on conventional selective breeding. Genetic engineering of crops came decades later.)
+- Producing more food ended hunger where yields rose. (Early gains went disproportionately to farmers who could afford inputs, and hunger depends on whether people can get food, not only on how much exists.)
+- The Green Revolution spread evenly across the developing world. (Sub-Saharan Africa largely missed it, because of diverse agro-ecologies, weak infrastructure, and less research on its main food crops.)
+
 ## Questions
 
 ```yaml

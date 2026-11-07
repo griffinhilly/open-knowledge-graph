@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 European science provided both justification and tools for imperial domination. Racial science — phrenology, comparative anatomy, Social Darwinism — was used to justify colonialism and slavery by asserting the natural inferiority of non-European peoples. Yet science also provided practical tools: astronomical measurement enabled accurate maps and ocean navigation essential to colonial trade; natural history collecting documented colonial territories; agricultural science improved productivity in colonial plantations. The telescope, microscope, and thermometer were technologies of power — they allowed new forms of observation and measurement. Western science's emphasis on quantification and mathematical formalism — which elevated it in the eyes of European thinkers — also made it seem authoritative and irresistible. Understanding the relationship between science and empire is crucial for multiple reasons: it explains how science was used to justify injustice; it reveals that science is not culturally neutral but shaped by power; and it opens the possibility of imagining different science, organized differently and in service of different goals. This is not to say science is merely a tool of domination, but rather that science, like any human practice, is entangled with power.
 
+## How It's Best Learned
+Sort the examples into three bins: science as a tool of empire (longitude at sea, the Great Trigonometric Survey, Kew's plant transfers), science as justification (Morton's skull measurements, Broca's brain studies), and empire shaping science (which questions got funded and whose knowledge counted). For each example, ask who paid, who benefited, and whose knowledge went uncredited.
+
+## Common Misconceptions
+- Empire used science, but science itself stayed neutral. (Imperial priorities shaped which questions were funded and which knowledge was accepted as legitimate, so power affected content as well as use.)
+- Scientific racism was the work of fringe cranks. (Prominent anatomists and anthropologists produced it, and its scientific framing gave it authority that open prejudice lacked.)
+- Botanical gardens such as Kew existed mainly for research and display. (They also worked as imperial transfer stations, moving cinchona to India and rubber to Southeast Asia for colonial profit.)
+- Showing that science was shaped by empire means its findings are all false. (The point is that power influenced which questions were asked and which answers were accepted, not that every scientific claim is equally distorted.)
+
 ## Questions
 
 ```yaml

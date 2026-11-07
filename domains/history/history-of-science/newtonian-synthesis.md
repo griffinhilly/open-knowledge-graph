@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Isaac Newton's *Principia Mathematica* (1687) unified terrestrial and celestial mechanics under a single set of laws: his three laws of motion and his law of universal gravitation. By showing that the same force — gravity — governs both a falling apple and orbiting planets, Newton demonstrated the power of mathematical description to unify seemingly disparate phenomena. His work established a mechanistic worldview in which the universe operated like a machine governed by deterministic laws. This vision shaped not only physics but also philosophy, theology, and eventually social thought for centuries. Yet Newton's own work also revealed limits to mechanical determinism: the three-body problem and other complications suggested that even simple systems could become mathematically intractable.
 
+## How It's Best Learned
+Work through Newton's Moon test. The Moon is about 60 Earth radii away, so an inverse-square force there should be 1/3600 as strong as at Earth's surface. Compare that with the Moon's actual acceleration toward Earth. One calculation shows the apple and the Moon obeying one law. Then trace which pieces came from Kepler, Galileo, and Descartes.
+
+## Common Misconceptions
+- Newton discovered that things fall. (Falling was obvious long before him. His contribution was a universal law showing that the force behind falling also holds the Moon and planets in orbit.)
+- Newton explained what gravity is. (He described how gravity acts mathematically and declined to say what causes it. Critics such as Leibniz objected to this action at a distance.)
+- Newton was a modern scientist who rejected mystical pursuits. (He spent more time on alchemy and biblical prophecy than on physics, which fit the intellectual world of his time.)
+- Relativity and quantum mechanics showed that Newton's laws are wrong and useless. (Newton's mechanics is an approximation that remains accurate for everyday speeds and scales, and it emerges as a limiting case of the later theories.)
+
 ## Questions
 
 ```yaml
@@ -58,6 +67,7 @@ Isaac Newton's *Principia Mathematica* (1687) unified terrestrial and celestial 
 - question: "What was the significance of the 'three-body problem' for Newton's deterministic worldview?"
   type: short-answer
   answer: "Newton could solve the gravitational interaction of two bodies (Earth-Sun, Earth-Moon) exactly using his laws. The three-body problem — calculating the motions of three mutually gravitating bodies — proved analytically unsolvable: there is no closed-form solution. This created a subtle tension with the Newtonian vision of a deterministic mechanical universe: even in principle, calculating exact trajectories of three-body systems requires infinite computational resources. Henri Poincaré's late 19th-century analysis showed three-body systems exhibit what is now called chaos — extreme sensitivity to initial conditions. This undermined Laplacian determinism (the idea that knowing all positions and velocities at one moment allows prediction of all future states) from within Newtonian mechanics."
+  explanation: "This answer is right because Newton's laws give an exact general solution for two bodies but no general closed-form formula for three, so their motion has to be worked out step by step. Poincaré showed that in such systems tiny differences in starting conditions can grow over time. A small error in measuring the starting state can therefore ruin long-range prediction, which opens a gap between Newton's equations and Laplace's hope of foreseeing every future state."
 
 ```
 

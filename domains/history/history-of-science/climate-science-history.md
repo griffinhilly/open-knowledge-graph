@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Climate science emerged from two distinct traditions: meteorology (short-term weather prediction) and historical geology (long-term climate change). In the 19th century, scientists noted that greenhouse gases like CO2 could trap heat — Fourier and Tyndall developed the basic physics. Arrhenius calculated that doubling CO2 might raise global temperatures by 5°C, but this seemed academically interesting rather than alarming: change would be slow, and industrial expansion seemed benign. Mid-20th-century developments changed the picture: ice cores revealed rapid climate shifts in the past; carbon dating showed human civilization had occurred during an unusually stable climate; atmospheric CO2 measurements began in 1958 and showed steady increases. Climate models, built on principles of fluid dynamics and thermodynamics, began predicting significant warming for a doubling of CO2. By the 1970s, some scientists worried about cooling; by the 1980s, consensus shifted to warming. The Intergovernmental Panel on Climate Change (1988) synthesized evidence, and the 1995 IPCC assessment declared that human influence on climate was detectable. This history reveals how scientific consensus emerges gradually, how it faces resistance from economic interests, and how the legitimacy of science itself becomes contested when evidence implies costly social changes.
 
+## How It's Best Learned
+Draw a timeline with three lanes: physics of the greenhouse effect (Fourier, Tyndall, Arrhenius), measurement (the Keeling Curve, ice cores), and institutions (Hansen's testimony, the IPCC). Mark where each lane changed what scientists believed. Then look at a plot of the Keeling Curve and ask why Arrhenius's 1896 result drew little alarm while the 1958 measurements did.
+
+## Common Misconceptions
+- Scientists only discovered the greenhouse effect in the late 20th century. (The basic physics dates to the 19th century, with Fourier, Tyndall, and Arrhenius. What came later was measurement showing CO2 was rising and models projecting the effects.)
+- In the 1970s scientists agreed the planet was heading for an ice age. (Some researchers worried about cooling from aerosols, but there was no consensus. Concern shifted to warming in the 1980s as evidence of warming trends built up.)
+- Arrhenius warned the world about dangerous warming. (He calculated the effect of doubling CO2 but did not find it alarming. He expected the change to be slow and thought warming might help agriculture.)
+- Public doubt about climate science reflected real disagreement among climate scientists. (Much of the public controversy was funded by industry campaigns that stressed uncertainty, while the scientific consensus grew stronger.)
+
 ## Questions
 
 ```yaml

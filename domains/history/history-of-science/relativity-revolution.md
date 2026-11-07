@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Albert Einstein's special theory of relativity (1905) and general theory of relativity (1916) fundamentally restructured physics and our understanding of space, time, and gravity. Special relativity posited that the speed of light is constant in all reference frames and derived the equivalence of mass and energy (E=mc²), time dilation, and length contraction. General relativity reconceived gravity not as a force (as Newton had) but as the curvature of spacetime caused by massive objects. These theories predicted phenomena (gravitational lensing, gravitational time dilation, black holes, gravitational waves) that seemed bizarre from a Newtonian perspective but have been confirmed by experiment. Relativity overturned intuitions about absolute time and space, unified gravity with spacetime geometry, and opened new frontiers in cosmology. It also illustrated the power of elegant mathematical description to reveal deep truths — and showed that those truths could be radically counterintuitive.
 
+## How It's Best Learned
+Start from Einstein's two postulates and work one consequence by hand: a light clock on a moving train, where the light's longer diagonal path at the same speed forces time to run slower. Then do the closed-box thought experiment behind the equivalence principle. Finish with a table of predictions (light bending, gravitational time dilation, gravitational waves, black holes) and the year and method of each confirmation.
+
+## Common Misconceptions
+- Relativity says that everything is relative. (The theory is built on things that do not change between observers: the laws of physics in inertial frames and the speed of light in vacuum.)
+- Einstein built special relativity to explain the Michelson–Morley result. (He later said he was barely aware of it. The tension between Maxwell's electromagnetism and Newtonian mechanics was the deeper driver.)
+- Relativistic effects matter only near black holes or at near-light speeds. (GPS satellites have to correct for gravitational time dilation to stay accurate.)
+- Eddington's 1919 eclipse measurement settled the question on its own. (His data had significant uncertainties. Later expeditions and many other tests built the case for general relativity.)
+
 ## Questions
 
 ```yaml

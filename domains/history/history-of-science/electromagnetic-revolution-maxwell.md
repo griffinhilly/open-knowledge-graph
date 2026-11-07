@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 James Clerk Maxwell's four equations (1865) unified electricity, magnetism, and light into a single mathematical framework — electromagnetism. The equations predicted that oscillating electric and magnetic fields could propagate as waves at the speed of light, suggesting that light itself was an electromagnetic phenomenon. This was a stunning unification: two seemingly distinct forces were revealed as different aspects of a single phenomenon, and a third phenomenon (light) was subsumed into it. Maxwell's work exemplified the power of mathematical unification to reveal deep truths. Yet it also exposed limits to Newtonian mechanics: Maxwell's equations behaved oddly under Galilean transformations, a puzzle that eventually drove Einstein toward special relativity. The detection of electromagnetic waves by Hertz (1887) confirmed Maxwell's predictions and enabled radio, radar, and modern telecommunications.
 
+## How It's Best Learned
+Trace the chain as a relay of four steps: Ørsted shows currents make magnetism, Faraday shows changing magnetism makes currents and proposes fields, Maxwell writes the fields as equations and finds waves at light's speed, Hertz makes and detects those waves. For each step, name whether it was an experiment or a piece of mathematics, and what it handed to the next person.
+
+## Common Misconceptions
+- Maxwell discovered that electricity and magnetism are connected. (Ørsted and Faraday had shown the connection experimentally decades earlier. Maxwell turned it into a unified mathematical theory and found that it predicted waves.)
+- The field idea was Maxwell's invention. (Faraday introduced fields as physical entities filling space. Maxwell gave them mathematical form.)
+- Light and radio waves are different kinds of things. (Maxwell's theory treats both as electromagnetic waves that differ in frequency, and Hertz's radio-frequency waves traveled at the speed of light.)
+- Maxwell's theory fit comfortably inside Newtonian mechanics. (Its fixed wave speed clashed with Galilean relativity, a puzzle that Einstein resolved with special relativity in 1905.)
+
 ## Questions
 
 ```yaml

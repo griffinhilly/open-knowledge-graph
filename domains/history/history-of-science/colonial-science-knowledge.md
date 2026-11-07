@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 European science did not exist in a vacuum: it expanded globally through colonialism. Colonial powers extracted natural history specimens, botanical knowledge, and geographical information from colonized lands. Natural history museums filled with specimens collected by naturalists working for colonial regimes. Indigenous knowledge systems — medical practices, agricultural techniques, taxonomies — were ignored, appropriated, or suppressed. Linnaeus's taxonomic system reflected Enlightenment assumptions about order and hierarchy that mapped onto racist hierarchies of human types. Yet colonized peoples and non-European scientists also contributed: Indian astronomers advanced mathematical astronomy; Chinese naturalists had sophisticated botanical classifications. The science that emerged from European expansion was both genuinely global in ambition and deeply shaped by colonial power relations. Understanding the history of science requires attending to how knowledge production was entangled with empire. It also reveals that alternatives existed: non-European knowledge systems represented distinct ways of organizing and understanding nature, not simply primitive precursors to European science.
 
+## How It's Best Learned
+Follow one object from its source to a European collection. Quinine from cinchona bark works well: ask who knew the plant's use first, who recorded it, who profited, and whose name was attached. Then read Linnaeus's descriptions of human varieties next to his plant classifications and ask what changes when the same system is applied to people.
+
+## Common Misconceptions
+- Colonial science was European knowledge carried outward to the rest of the world. (Much of it flowed the other way: naturalists relied on Indigenous guides and healers, and took specimens and knowledge back to Europe.)
+- Colonial powers either ignored Indigenous knowledge or credited it fairly. (A common pattern was extraction without credit: knowledge such as the use of cinchona bark was taken into European science while its holders were erased.)
+- Linnaeus's classification of humans was neutral description. (He attached temperaments matching racial stereotypes to his human varieties, which gave racial hierarchy the look of objective science.)
+- Non-European knowledge systems were primitive early versions of European science. (They were distinct ways of organizing nature, and some, such as Indian mathematical astronomy, fed into European work.)
+
 ## Questions
 
 ```yaml

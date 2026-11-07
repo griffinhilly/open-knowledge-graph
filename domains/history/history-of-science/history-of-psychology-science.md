@@ -19,6 +19,15 @@ status: validated
 ## Core Idea
 Psychology emerged from philosophy (questions about mind, consciousness, perception) and experimental physiology (measurement of sensory thresholds, reaction times). Wilhelm Wundt established the first psychology laboratory (1879), using introspection under controlled conditions. Early psychology was experimental and scientific in ambition, though introspection — subjective report of internal experience — is problematic as a scientific method. Behaviorism (Watson, Skinner, Thorndike) rejected introspection in favor of observable behavior, developing principles of learning through conditioning. Psychoanalysis (Freud) offered a comprehensive theory of mind including the unconscious, though its scientific status was disputed. Cognitive psychology, emerging in the 1960s, studied mental processes using information-processing analogies and experimental methods. Neuroscience revealed brain mechanisms underlying behavior and cognition. Modern psychology integrates behavioral, cognitive, and neuroscientific perspectives, yet the field faces replicability challenges and philosophical questions about what psychology is trying to explain. The history of psychology as a science reveals tensions between scientific aspiration and the difficulty of studying subjective experience objectively. It shows how theoretical frameworks shape research directions — behaviorists found evidence for conditioning; cognitive scientists found evidence for mental representations; neuroscientists found brain mechanisms. This raises questions about whether different perspectives are genuinely incompatible or are describing the same phenomena at different levels of analysis.
 
+## How It's Best Learned
+Take one everyday task, such as remembering a list of words, and describe how each school would study it. Wundt's observers report what recall feels like, a behaviorist counts correct responses after reinforcement, a cognitive psychologist models storage and retrieval, a neuroscientist images the brain. For each, ask what counts as evidence and what the method cannot see.
+
+## Common Misconceptions
+- Wundt matters because introspection worked. (His introspective method was largely abandoned because observers' reports varied. His lasting contribution was the laboratory as the home of psychological research.)
+- Behaviorists claimed people have no minds. (Watson's main claim was about method: mental states could not be observed scientifically, so psychology should study behavior. Skinner went further and treated mental states as unneeded explanations.)
+- Freud's psychoanalysis is the scientific foundation of modern psychology. (Its scientific status was disputed from the start. Popper treated it as a case of an unfalsifiable theory, and its core concepts have proven hard to test.)
+- A finding published in a psychology journal can be taken as established. (Large replication efforts found that a substantial share of published findings did not reproduce.)
+
 ## Questions
 
 ```yaml
@@ -31,6 +40,7 @@ Psychology emerged from philosophy (questions about mind, consciousness, percept
 - question: "Behaviorism, dominant in American psychology from roughly 1913-1960, rejected the study of mental states. What was the behaviorist argument, and what was the movement's legacy?"
   type: short-answer
   answer: "John Watson's 1913 manifesto 'Psychology as the Behaviorist Views It' argued that mental states (consciousness, intentions, desires) were inaccessible to scientific observation and that psychology should restrict itself to observable behavior and environmental stimuli. B.F. Skinner extended this: all behavior was conditioned by reinforcement history; internal mental states were unnecessary explanatory fictions. Behaviorism's legacy is mixed: it produced rigorous experimental learning theory and useful applied techniques (behavioral therapy). But its rejection of mental states prevented engagement with perception, memory, reasoning, and language, leaving large domains of psychology unstudied until the cognitive revolution."
+  explanation: "The answer is right because Watson's case rested on observability: behavior and stimuli can be measured by any observer, while introspective reports cannot be checked. The legacy follows from that choice. Narrowing the subject made conditioning experiments rigorous and repeatable, but it pushed internal processes such as memory, reasoning, and language to the margins until the cognitive revolution brought mental processes back."
 
 - question: "What was the 'replication crisis' in psychology, and what did it reveal about scientific practice?"
   type: multiple-choice

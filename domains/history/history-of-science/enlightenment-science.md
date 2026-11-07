@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The Enlightenment enthusiastically embraced Newtonian science as proof that human reason could unlock nature's secrets. Figures like Voltaire, Hume, and Kant integrated Newtonian mechanics into broader visions of progress through reason and empirical investigation. The belief that the natural world — and even human society — could be understood scientifically became a hallmark of Enlightenment thought. Scientific societies and academies expanded, creating institutional structures for the collaborative pursuit of knowledge. Yet Enlightenment thinkers also applied scientific methods to philosophy, politics, and morality, leading to diverse outcomes: some developed rigorous empiricism (Hume), others pursued mathematical systems of ethics. This period saw the institutionalization of the experimental method and the emerging professional identity of 'natural philosopher' (soon to be 'scientist').
 
+## How It's Best Learned
+Start with Newton's Principia as the template, then follow how thinkers carried its method into new fields: Condorcet on voting, Smith on markets, Beccaria on punishment. Next read Hume's problem of induction as the same empiricism turned back on Newtonian science. Finish by asking who could join the academies and who was only classified by them.
+
+## Common Misconceptions
+- Enlightenment science meant pure reason replacing observation. (Its model was Newton, who joined mathematical reasoning to empirical observation, and empiricists such as Hume put experience first.)
+- Enlightenment thinkers were united in confidence about reason. (Hume used empiricist logic to show that inductive generalization cannot be proven, which challenged the certainty of Newtonian laws.)
+- The Enlightenment's universal reason was extended to everyone. (Scientific societies largely excluded women and non-Europeans, and "scientific" classification was used to rank human races.)
+- People in this period called themselves scientists. (They were natural philosophers. The word "scientist" came into use later, in the 19th century.)
+
 ## Questions
 
 ```yaml
@@ -45,6 +54,7 @@ The Enlightenment enthusiastically embraced Newtonian science as proof that huma
 - question: "What was the Royal Society of London, and why was it important for the development of Enlightenment science?"
   type: short-answer
   answer: "The Royal Society, founded in 1660 with royal charter from Charles II, was one of the first permanent institutions dedicated to natural philosophy (what we would call science). It provided a forum for presenting and critiquing experimental results; it published the Philosophical Transactions (one of the earliest scientific journals); it created networks among natural philosophers across Europe. The Society embodied the Enlightenment ideal of knowledge produced through collective empirical investigation rather than individual authority. Similar academies followed in France (Académie des sciences, 1666), Prussia, Russia, and elsewhere."
+  explanation: "The answer is right because the Society changed how claims became knowledge. Experiments were shown to witnesses, discussed in meetings, and printed in the Philosophical Transactions so others could check them. Its motto, Nullius in verba ('take nobody's word for it'), expressed the shift from authority to evidence."
 
 - question: "David Hume applied empiricist principles most rigorously and reached conclusions that challenged Enlightenment confidence in reason. What was his central philosophical problem for Newtonian science?"
   type: short-answer

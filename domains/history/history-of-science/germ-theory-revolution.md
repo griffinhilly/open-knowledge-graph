@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 For centuries, medical practice was based on humoral theory: disease resulted from imbalances of the body's four humors. In the mid-19th century, Louis Pasteur and Robert Koch developed the germ theory of disease — the idea that specific microorganisms cause specific diseases. This was revolutionary because it provided a mechanistic explanation for infection and a rationale for prevention (sterilization, vaccination) and treatment (antibiotics). Pasteur's work on fermentation, rabies vaccination, and the anthrax bacillus, combined with Koch's identification of the tuberculosis bacillus, established the framework. The theory faced resistance: many physicians clung to miasma theory (diseases spread through bad air) or attributed disease to heredity and constitution rather than external pathogens. Yet once germ theory explained epidemics and prevention succeeded where humoral medicine had failed, it became orthodoxy and transformed public health, surgery, and medicine.
 
+## How It's Best Learned
+Take one disease, such as cholera, and explain it three ways: by humors, by miasma, and by germs. For each, say what the theory predicts and which intervention it recommends. Then walk through Koch's postulates as a checklist applied to a real case, and compare Semmelweis's 1847 result with Pasteur's and Koch's later work to see what changed besides the evidence.
+
+## Common Misconceptions
+- Germ theory followed directly from seeing microbes under a microscope. (Leeuwenhoek observed microorganisms in the 1670s, but nearly two centuries passed before experiments tied specific microbes to specific diseases.)
+- Because miasma theory was wrong, the reforms it inspired did nothing. (Sewers and clean water reduced disease anyway, because they also removed pathogens.)
+- Semmelweis was ignored because his evidence was weak. (His mortality figures dropped sharply. He was rejected because he had no mechanism, his conclusion insulted physicians, and he alienated colleagues.)
+- Germ theory means each disease has one microbe as its full cause. (Many infections depend on host immunity and other factors, and many diseases are not infectious at all.)
+
 ## Questions
 
 ```yaml

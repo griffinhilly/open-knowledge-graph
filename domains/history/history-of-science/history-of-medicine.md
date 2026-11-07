@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 For most of human history, medicine was based on intuition, folk wisdom, and incorrect theories. Hippocratic medicine posited four humors whose imbalance caused disease — bleeding and purging were treatments meant to restore balance. Islamic physicians like Al-Razi made careful clinical observations; yet mechanistic understanding remained limited. Surgery advanced through necessity (battlefield wounds) and empiricism (what worked got repeated). The germ theory revolution of the late 19th century provided a causal framework: specific microbes cause specific diseases. This enabled specific treatments — vaccines, antibiotics — rather than general remedies. The development of anesthesia (ether, chloroform) transformed surgery from torture into a medical procedure. X-rays revealed internal anatomy. Antibiotics — discovered by Fleming accidentally in 1928 — became wonder drugs that cured previously fatal infections. Modern medicine combines mechanistic understanding (biochemistry, molecular biology), population-level evidence (epidemiology, randomized controlled trials), and specialized techniques (surgery, imaging, pharmaceuticals). Yet medicine remains partly art — diagnosis often involves pattern recognition; treatment requires weighing uncertain evidence. The history of medicine illustrates both the power of scientific explanation and the complexity of translating laboratory findings into clinical practice.
 
+## How It's Best Learned
+Take bloodletting and ask how a physician in 1800 could have found out it did harm. Then design the comparison that would have shown it, and match your design to the 1948 streptomycin trial. With that trial as the hinge, sort the other milestones (germ theory, anesthesia, antisepsis, penicillin) into two groups: those that explained causes and those that tested whether treatments worked.
+
+## Common Misconceptions
+- Medicine improved steadily from ancient times to today. (Progress was uneven. Physicians such as Al-Razi and ibn Sina often practiced better medicine than their European contemporaries, and bloodletting lasted for centuries.)
+- Humoral medicine survived for two thousand years because its treatments worked. (It survived because it was a coherent framework that gave physicians a rationale. Without controlled comparisons, no one could see that its treatments failed or harmed.)
+- Penicillin became a treatment as soon as Fleming discovered it. (It took over a decade. Florey, Chain, and Heatley had to purify it, and wartime industry had to learn to mass-produce it.)
+- If a treatment makes sense biologically, it works. (Evidence-based medicine arose because many plausible, widely used treatments had never been tested, and some proved harmful.)
+
 ## Questions
 
 ```yaml

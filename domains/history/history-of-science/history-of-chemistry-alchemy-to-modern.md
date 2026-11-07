@@ -19,6 +19,15 @@ status: validated
 ## Core Idea
 Chemistry emerged from alchemy — mystical attempts to transmute base metals into gold — but became a rigorous science through the work of Boyle, Lavoisier, and Dalton. Robert Boyle's experiments on air pressure established the concept of the chemical element as a substance that could not be decomposed further. Antoine Lavoisier's careful measurements of mass in chemical reactions established the law of conservation of mass and overturned phlogiston theory. John Dalton's atomic theory (1808) proposed that matter was composed of indivisible atoms, and that chemical reactions involved rearrangement of atoms. These ideas were controversial: atoms were not directly observable, yet Dalton's theory explained chemical proportions with elegant simplicity. Mendeleev's periodic table (1869) organized elements by atomic weight and predicted new elements, providing powerful support for atomic theory. The discovery of electrons and nuclei in the early 20th century revealed atoms had internal structure. Chemistry became the study of how atoms bond, arranged, and react — fundamental to understanding matter. The history of chemistry illustrates the transition from qualitative observation to quantitative measurement, and from mysticism to mechanistic explanation.
 
+## How It's Best Learned
+Work one case under two theories: a metal heated in air turns to calx and gets heavier. Explain that with phlogiston, then with oxygen, and see where the weight gain forces a choice. Then lay Mendeleev's predictions for eka-aluminum beside the measured properties of gallium. Seeing a prediction checked against a later discovery shows why the periodic table persuaded chemists.
+
+## Common Misconceptions
+- Alchemy was fraud with no link to chemistry. (Alchemists developed distillation, sublimation, crystallization, and filtration, and discovered many substances. The line between alchemy and early chemistry was blurry.)
+- Phlogiston theory was obviously foolish. (It explained burning and calcination well enough to dominate for much of the 18th century. Careful weighing, not common sense, overturned it.)
+- Mendeleev ordered the elements by atomic number. (He ordered them by atomic weight. A few anomalies were resolved only when atomic number replaced weight as the organizing principle.)
+- Dalton's atoms are the same as modern atoms. (Dalton's atoms were indivisible and identical within an element. Later work found electrons, nuclei, and isotopes.)
+
 ## Questions
 
 ```yaml

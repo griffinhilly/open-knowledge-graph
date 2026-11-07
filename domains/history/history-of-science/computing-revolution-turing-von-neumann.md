@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Alan Turing's 1936 paper on computable numbers defined a theoretical model of computation (the Turing machine) that established the limits of what could be computed. During WWII, Turing worked on code-breaking at Bletchley Park, and the challenge of breaking the Enigma cipher drove early developments in mechanical computation. After the war, von Neumann, Turing, and others developed the concept of the stored-program computer — a machine that could be reprogrammed by modifying its internal memory rather than its hardware. Early computers (ENIAC, EDVAC) were massive, power-hungry machines. Yet the stored-program architecture established the fundamental principle of modern computing: code and data are both information, stored and manipulated the same way. The history of computing illustrates how abstract mathematical theory (Turing's formalism), military necessity, and engineering ingenuity converged to create a transformative technology.
 
+## How It's Best Learned
+Lay out two parallel tracks, theory and machines, and place the 1936 paper, the Bombe, Colossus, ENIAC, the EDVAC report, and the Manchester machines on them. For each machine, ask one question: to change what it did, did you rewire it or change its memory? That single test makes the stored-program idea concrete and shows why "first computer" depends on definitions.
+
+## Common Misconceptions
+- The Turing machine was Turing's design for a real computer. (It was a mathematical thought experiment built to answer Hilbert's question about decidability, not an engineering plan.)
+- ENIAC was the first electronic computer and ran stored programs. (Colossus came earlier, and ENIAC's programs were at first set by rewiring. Stored programs arrived with machines built after the EDVAC report.)
+- Turing built Colossus to break Enigma. (Turing helped design the electromechanical Bombe for Enigma. Colossus was built by Tommy Flowers and colleagues to attack the Lorenz cipher.)
+- Von Neumann invented the stored-program computer on his own. (His 1945 report formalized the idea, but he drew on Turing, Mauchly, Eckert, and others, and the credit is disputed.)
+
 ## Questions
 
 ```yaml

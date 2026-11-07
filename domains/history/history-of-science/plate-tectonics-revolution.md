@@ -19,6 +19,15 @@ status: validated
 ## Core Idea
 For centuries, geology was largely descriptive: cataloging rocks, mapping strata, inferring Earth's history from visible formations. In the 1960s, plate tectonics unified dozens of isolated observations (continental drift, mid-ocean ridges, earthquake patterns, mountain building) into a coherent theory: Earth's crust is composed of mobile plates that move over a viscous mantle. The theory explained why continents fit together, why earthquakes cluster along plate boundaries, why volcanic arcs form, and how mountain ranges are built. It also provided a mechanism for continental drift — a hypothesis proposed by Alfred Wegener in 1912 but largely rejected because no one could explain how continents moved. Plate tectonics faced initial skepticism but became orthodoxy within a decade as evidence mounted. Like other revolutions, it unified apparently disparate phenomena under a single framework and opened new research directions — paleomagnetics, seafloor spreading, mantle convection studies. It was also significant because geology, the study of Earth, had been largely separated from physics and chemistry; plate tectonics firmly integrated geosciences into the physical sciences.
 
+## How It's Best Learned
+Model seafloor spreading with two paper strips pulled out of a slot in opposite directions. Color both strips as they emerge, switching color at each "reversal," and a mirror-image stripe pattern appears. Then set Wegener's 1912 evidence beside the 1950s–60s ocean evidence, and ask which new findings answered the objection that sank him: no mechanism.
+
+## Common Misconceptions
+- Wegener was rejected mainly because he was a meteorologist, not a geologist. (His outsider status was used against him, but the main objection was that he had no workable mechanism. His proposed forces were far too weak.)
+- Plate tectonics confirmed Wegener's picture of continents plowing through the ocean floor. (In plate tectonics the seafloor itself moves. New crust forms at ridges and sinks at trenches, carrying continents along.)
+- The ocean floor is ancient and unchanging. (Nearly all oceanic crust on the seafloor is younger than about 200 million years, far younger than the oldest continental rock, because it is constantly created and destroyed.)
+- Plate tectonics fully explains why the plates move. (Mantle convection is the leading explanation, but whether ridge push or slab pull dominates is still debated.)
+
 ## Questions
 
 ```yaml

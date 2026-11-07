@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The Human Genome Project (1990-2003), an international collaboration to sequence the complete human genome, exemplified 'big science' in the genomic era. The $3 billion project aimed to determine the sequence of all three billion base pairs in human DNA. The technical challenge was immense: early DNA sequencing methods were slow and error-prone. Investment in sequencing technology drove rapid improvements: new methods could sequence longer reads faster and cheaper. By 2003, the draft sequence was complete. The human genome revealed surprises: only about 1.5% of the genome codes for proteins; there are only about 20,000 genes (far fewer than predicted); much of the genome seems non-coding yet conserved. The project opened new frontiers: personalized medicine (using individual genetic variants to predict disease risk and tailor treatment), synthetic biology, and understanding human evolutionary history. It also raised ethical questions: how should genetic privacy be protected? Should genetic testing be available for disease predisposition? The project illustrated both the power of large-scale collaborative science and the complexity of translating genomic knowledge into medical practice.
 
+## How It's Best Learned
+Compare the two sequencing strategies with a physical model: cut two copies of a printed paragraph into strips, one in ordered chunks (clone-by-clone) and one at random (shotgun), and reassemble each from overlaps. Then plot the cost of sequencing a genome over time. Finish by setting the 100,000-gene prediction against the 20,000-gene result and asking where complexity must come from.
+
+## Common Misconceptions
+- The Human Genome Project sequenced one particular person's genome. (The reference sequence was assembled from DNA of several anonymous donors and serves as a reference for comparing individual variation.)
+- More complex organisms have more genes, so humans should have the most. (Humans have about 20,000 protein-coding genes, comparable to a roundworm. Much complexity comes from how genes are regulated.)
+- DNA that does not code for proteins is junk. (Only about 1.5% codes for proteins, but some non-coding DNA has regulatory and structural roles. How large a share is functional is still debated.)
+- Sequencing the genome made personalized medicine routine. (Genomic medicine is well established in niches such as cancer treatment and drug metabolism, but most common diseases involve many small genetic effects plus environment.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +64,7 @@ The Human Genome Project (1990-2003), an international collaboration to sequence
 - question: "How did the Human Genome Project accelerate DNA sequencing technology, and what happened to sequencing costs after the project was completed?"
   type: short-answer
   answer: "The HGP drove investment in sequencing technology because the project's cost depended on throughput. New sequencing chemistry and capillary electrophoresis reduced costs during the project. After completion, 'next-generation sequencing' technologies (Illumina, 454, Ion Torrent) introduced massively parallel sequencing — millions of DNA fragments sequenced simultaneously — reducing the cost of sequencing a human genome from $3 billion (HGP era) to under $1,000 by 2015, and under $200 by the early 2020s. This cost collapse — faster than Moore's Law in computing — has made genomic research widely accessible and enabled large-scale population genomics studies impossible when the HGP was conducted."
+  explanation: "This is right because the project's cost scaled with throughput, which gave funders a reason to pay for faster methods. The biggest drop came when next-generation platforms changed how sequencing worked, reading millions of fragments in parallel where Sanger machines read at most a few hundred per run. That change in method explains why costs fell faster than Moore's Law."
 
 ```
 

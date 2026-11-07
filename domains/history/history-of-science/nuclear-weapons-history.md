@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The discovery that nuclei could release enormous energy (E=mc²) and that uranium-235 could undergo a chain reaction opened the possibility of nuclear weapons. Physicists who recognized this danger warned the US government; the Manhattan Project was the response. The first atomic bombs dropped on Hiroshima and Nagasaki killed over 200,000 people. The nuclear age revealed a new kind of power: the capacity to cause global annihilation. The subsequent arms race, the Cuban Missile Crisis near-disaster, and decades of 'mutually assured destruction' (MAD) created a world that balanced on the brink of apocalypse. Many Manhattan Project physicists expressed profound regret and advocated for arms control. Some, like Edward Teller, pushed for ever-larger weapons and new strategic doctrines. The history of nuclear weapons illustrates both the awesome power of physics and the gravity of scientific responsibility. It raises fundamental questions: to what extent are scientists responsible for how their discoveries are used? Can scientific research be ethical if it enables atrocity? Is it possible to develop science in isolation from its applications? These questions remain urgent as new technologies emerge.
 
+## How It's Best Learned
+Build a timeline from the 1938 discovery of fission to the 1968 Non-Proliferation Treaty, and mark each point where a choice was made: the Einstein–Szilard letter, Trinity, the hydrogen bomb, the Cuban Missile Crisis. For each, note who chose and what they knew. Then reason through the logic of MAD as a two-player problem: why does defending yourself make the other side less safe?
+
+## Common Misconceptions
+- E=mc² showed physicists how to build a bomb. (It explains why nuclear reactions release so much energy. A weapon became possible only after fission was discovered in 1938 and neutrons from fission were found to sustain a chain reaction.)
+- Mutually assured destruction meant each side tried to protect itself from the other's missiles. (MAD depended on both sides accepting vulnerability. Missile defense was seen as destabilizing because it might make a first strike look winnable.)
+- The danger in the Cuban Missile Crisis came only from decisions by Kennedy and Khrushchev. (A Soviet submarine harassed by US practice depth charges came close to launching a nuclear torpedo, which shows the risk of accident and miscalculation.)
+- After Hiroshima, the bomb's builders all turned against nuclear weapons. (Many advocated arms control, but others, such as Edward Teller, pushed for more powerful weapons.)
+
 ## Questions
 
 ```yaml

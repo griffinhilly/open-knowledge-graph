@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Galileo Galilei's telescopic observations in 1610 provided empirical support for heliocentrism: the moons of Jupiter circled Jupiter, not Earth; Venus showed phases like the Moon, implying it orbited the Sun. Yet Galileo's 1633 trial and house arrest by the Inquisition for publishing his heliocentric arguments illustrated the conflict between empirical evidence and religious authority. The trial became a symbol of science versus dogmatism, though the historical reality was more nuanced: Galileo's combative style, the complexity of the evidence, and the Church's genuine theological concerns all played roles. The episode nonetheless marked a turning point: science had developed methods and findings that could challenge established authority.
 
+## How It's Best Learned
+Draw Venus's orbit in Ptolemy's system and in the Copernican system, then sketch which phases Earth would see in each; the full phase settles the question for strict geocentrism. Then work through 1616, 1623, 1632, and 1633 in order, asking at each date what Galileo was allowed to say, what he actually said, and who he offended.
+
+## Common Misconceptions
+- Galileo invented the telescope. (The telescope was a Dutch device. Galileo heard of it in 1609 and built improved versions.)
+- Galileo's observations proved that Earth orbits the Sun. (They made the strict geocentric model untenable, but they did not prove heliocentrism.)
+- In 1616 the Church banned all discussion of heliocentrism. (The decree allowed heliocentrism to be discussed as a mathematical hypothesis. The problem was asserting it as physical truth.)
+- Galileo was condemned because the Church was against science, and he died in a dungeon. (The trial turned on personal politics and on his going beyond the 1616 limits. He was sentenced to house arrest and kept working.)
+
 ## Questions
 
 ```yaml

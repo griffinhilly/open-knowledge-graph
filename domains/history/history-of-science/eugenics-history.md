@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Eugenics — the attempt to improve the human genetic makeup through selective breeding — emerged in the early 20th century from misapplication of Darwinian theory. Scientists like Karl Pearson developed statistical methods for studying heredity, which seemed to show that intelligence, criminality, and moral worth were heritable traits. Eugenics had wide appeal: progressives saw it as rational improvement; conservatives used it to defend class and racial hierarchies. Eugenics movements in the US, UK, and Scandinavia led to forced sterilization laws. Nazi eugenics took racial eugenics to its horrific conclusion: the regime sterilized hundreds of thousands and murdered millions on the basis of presumed genetic deficiency. After WWII, eugenics became taboo in most of the world — it was discredited both scientifically (the genetics was crude) and morally (its association with genocide). Yet eugenics reveals a profound danger: scientific authority can be misused to justify atrocity. It shows how scientific ideas can become entangled with racism and used to legitimize violence. It also reveals the difficulty of distinguishing legitimate medical genetics from eugenic thinking — modern genetic testing, gene therapy, and prenatal screening raise eugenics-adjacent questions about what traits are 'worth' inheriting, and whether society should guide human genetic evolution.
 
+## How It's Best Learned
+Follow one case through the system: Carrie Buck, from the label "feebleminded" to Buck v. Bell (1927), then to the 1933 German law modeled on American legislation. Then take a eugenic family study and separate what its data could show (relatives resemble each other) from what it claimed (genes cause the resemblance). That gap is where the science failed.
+
+## Common Misconceptions
+- Eugenics was a Nazi invention. (Galton coined the term in Britain in 1883, and the US and Scandinavian countries passed sterilization laws before and alongside Nazi Germany, whose 1933 law drew on American models.)
+- Eugenics was a fringe idea rejected by mainstream science. (It had journals, societies, international congresses, leading scientists, and support across the political spectrum.)
+- Eugenics was wrong morally but sound as science. (Its genetics was crude: it treated complex traits as simply inherited, confused shared environment with heredity, and measured culturally defined categories.)
+- Coercive eugenics ended with the defeat of Nazi Germany. (Some democracies kept their programs for decades. Sweden sterilized people until 1975.)
+
 ## Questions
 
 ```yaml

@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Nicolaus Copernicus's 1543 proposal that the Sun, not the Earth, was the center of the solar system challenged not merely astronomy but fundamental assumptions about humanity's place in the cosmos. The shift from geocentrism to heliocentrism was philosophically radical: if Earth is not central, where does humanity stand? The theory was also technically incomplete (Copernicus kept circular orbits, which didn't match observations), but its core insight — that the apparent motion of stars could be explained by Earth's own motion — eventually compelled a wholesale revision of cosmology, theology, and philosophy.
 
+## How It's Best Learned
+Draw the same planet's path twice, once from a fixed Earth with epicycles and once from a moving Earth, and see how a planet's backward loop arises from Earth overtaking it. Then build a timeline from 1543 through Kepler (1609), Galileo (1610), the 1616 condemnation, and Newton (1687). Mark at each point whether heliocentrism had better evidence, better predictions, or only a cleaner geometry.
+
+## Common Misconceptions
+- Copernicus won because his model predicted planetary positions better than Ptolemy's. (Because he kept circular orbits, his model was not more accurate. Heliocentrism clearly outperformed Ptolemy only after Kepler's ellipses.)
+- Copernicus got rid of epicycles. (He still needed epicycles to match observations, because he kept the assumption of perfect circular motion.)
+- Copernicus was the first person to propose that Earth orbits the Sun. (The ancient Greek Aristarchus had proposed a heliocentric model. Copernicus supplied detailed mathematical machinery for it.)
+- The Church condemned Copernicus as soon as his book appeared. (The formal condemnation came in 1616, about seventy years after publication.)
+
 ## Questions
 
 ```yaml

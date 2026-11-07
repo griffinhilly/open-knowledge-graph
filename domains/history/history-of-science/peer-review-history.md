@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Peer review — evaluation of research by other scientists before publication — emerged gradually as the mechanism for quality control in science. Early scientific societies like the Royal Society relied on editors to judge papers; by the 20th century, peer review became standard. Peer review has advantages: it reduces publication of clearly erroneous work; it provides feedback for improvement; it creates community ownership of standards. Yet it has limitations: peers may reject novel ideas; slow review delays publication; anonymity can enable unfairness; reviewers often lack incentive to do thorough review. The crisis in replicability in some fields (psychology, medicine) has raised questions about whether peer review adequately filters poor science. P-hacking — manipulating statistical analyses to produce significant results — can escape peer review. Yet critics also recognize that alternative systems (publication without review, or publication with open post-hoc commentary) have their own problems. Peer review remains the foundation of scientific credibility, yet its shortcomings are increasingly recognized. Understanding the history and limits of peer review is important for understanding modern science: it reveals that gatekeeping is imperfect, that scientific consensus can incorporate errors, and that fixing problems requires structural changes, not just individual moral reform.
 
+## How It's Best Learned
+Follow one manuscript through review and list what the reviewer can see (the written paper) and cannot see (raw data, code, the analyses that were tried and dropped). Then match each known failure to a blind spot: p-hacking, publication bias, the Stapel and Hwang frauds. Finally, match each reform (pre-registration, open data, registered reports) to the blind spot it is meant to close.
+
+## Common Misconceptions
+- Peer review has been part of science since the first journals. (Early journals relied on editorial judgment. Systematic external review spread in the mid-20th century, and Nature formalized it only in the 1970s.)
+- A peer-reviewed finding has been confirmed. (Review checks whether a paper is coherent and its methods sound. It does not repeat the study, and many reviewed findings have failed to replicate.)
+- Reviewers check the raw data. (They usually see only the manuscript, which is why fabricated results have passed review.)
+- The replication crisis was mainly caused by fraud. (Its main causes were structural: publication bias, small samples, and flexible analysis choices that inflate chance findings.)
+
 ## Questions
 
 ```yaml

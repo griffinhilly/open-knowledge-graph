@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Watson and Crick's 1953 determination of DNA's double-helix structure was perhaps the 20th century's greatest scientific achievement. The structure immediately suggested how DNA replicated and how it could encode genetic information — through the sequence of base pairs. This discovery unified evolution (variation in DNA sequence explained variation in organisms), molecular biology (DNA → RNA → protein provided a mechanism for gene expression), and genetics (inheritance was explained by DNA replication and variation). It transformed medicine by enabling understanding of genetic diseases, cancer, and drug development. It also raised ethical questions: what should society do with knowledge of genetic predispositions? Should humans engineer their own genes? The molecular biology revolution that followed DNA's discovery made biology as quantitative and mechanistic as physics, though it also revealed new layers of complexity — epigenetics, gene regulation, non-coding DNA — that were not anticipated from DNA structure alone.
 
+## How It's Best Learned
+Sketch the ladder of base pairs, pull the two strands apart on paper, and fill in each new partner strand from the pairing rules. That shows why the structure "immediately suggested" copying. Then map the inputs Watson and Crick used (Chargaff's ratios, Pauling's helices, Franklin and Gosling's X-ray images) and ask how each one constrained the model.
+
+## Common Misconceptions
+- Watson and Crick discovered DNA. (DNA was known well before 1953. Their contribution was its double-helix structure and what that structure implied about copying.)
+- Watson and Crick solved the structure from their own experiments. (They built models from others' data, including Chargaff's base ratios and Franklin and Gosling's X-ray images, which they used without adequate credit.)
+- Franklin was passed over when the 1962 Nobel Prize was awarded. (She died in 1958, before the prize was given. The deeper issue is that her contribution was understated in the original work and for years after.)
+- Knowing DNA's structure led straight to genetic engineering. (Applications took decades of further work, from cracking the genetic code to recombinant DNA, PCR, and sequencing.)
+
 ## Questions
 
 ```yaml

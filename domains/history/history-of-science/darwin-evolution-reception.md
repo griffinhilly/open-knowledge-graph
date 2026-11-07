@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Charles Darwin's *On the Origin of Species* (1859) proposed that species evolved through natural selection — descent with modification driven by differential reproductive success in competition for limited resources. The theory explained biodiversity and structural similarities among organisms without invoking divine creation. Its reception was deeply controversial: some scientists embraced it quickly, while others, including many religious figures, rejected it as incompatible with faith or insufficient in evidence. The 'debate' between Huxley and Wilberforce became an iconic symbol of science versus religion, though the historical reality was more complex — many Christians accepted evolution, and the scientific evidence for evolution was genuinely incomplete in 1859. Over the next century, as genetics provided a mechanism for heredity and molecular biology confirmed evolutionary predictions, evolution became the cornerstone of modern biology. Yet resistance persisted, rooted partly in genuine concerns about implications for human uniqueness and morality, partly in simple misunderstanding.
 
+## How It's Best Learned
+Sort the objections Darwin faced in 1859 into two columns: scientific (no mechanism of heredity, Kelvin's age of Earth) and religious or moral. Then note when and how each scientific objection was answered: Mendel's rediscovery, the Modern Synthesis, radioactive dating, the genetic code. Read the Huxley–Wilberforce legend last and compare it with the messier picture the columns show.
+
+## Common Misconceptions
+- When Darwin published, the evidence was complete and only religion stood in the way. (His theory had real scientific gaps, including no mechanism of heredity and Kelvin's estimate that Earth was too young.)
+- The reception of evolution was a clear fight between scientists and the Church. (Many clergymen accepted evolution as compatible with faith, and some scientists had objections unrelated to religion.)
+- Mendel's genetics was quickly recognized as the missing piece of Darwin's theory. (Mendel's work was ignored until 1900 and was first seen as an alternative to Darwinism. The Modern Synthesis of the 1930s and 1940s joined the two.)
+- Social Darwinism was Darwin's theory applied to society. (It borrowed evolutionary vocabulary, much of it from Spencer, to justify existing social arrangements, and historians still debate how far Darwin himself shared its views.)
+
 ## Questions
 
 ```yaml

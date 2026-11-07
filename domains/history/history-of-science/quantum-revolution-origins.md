@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 At the turn of the 20th century, classical physics faced a crisis: phenomena at the atomic scale — black-body radiation, the photoelectric effect, atomic spectra — violated the predictions of classical electromagnetism. Max Planck's 1900 proposal that energy was emitted in discrete 'quanta' (packets) rather than continuously resolved the black-body problem. Einstein's 1905 explanation of the photoelectric effect as photons — light quanta with energy proportional to frequency — extended quantization to light itself. Niels Bohr's 1913 model of the atom, with discrete electron orbits, further showed that atoms operated according to quantized rules. These were radical departures from classical determinism: nature at small scales exhibited discrete steps and probabilistic behavior. The philosophical implications were still being worked out in the 1920s, but the empirical evidence was mounting that the quantum framework was necessary.
 
+## How It's Best Learned
+Make a table of the three anomalies (black-body radiation, the photoelectric effect, hydrogen's spectral lines) with columns for what classical physics predicted, what experiments showed, and the quantum fix with its date. Then reason through the photoelectric case directly: a dim violet light ejects electrons from a metal while a bright red one may not. Explaining that with waves, then with photons, shows why quanta had to be real.
+
+## Common Misconceptions
+- Planck believed he had shown that light is made of particles. (He treated quantization as a mathematical device to fit the black-body data. Einstein was the one who proposed that light quanta were physically real.)
+- Brighter light gives each ejected electron more energy. (Brighter light means more photons and more ejected electrons. Each electron's energy depends on the light's frequency.)
+- Bohr's 1913 model is the modern quantum picture of the atom. (It was a hybrid of classical orbits and quantum rules that failed for multi-electron atoms. The quantum mechanics of 1925–1926 replaced it.)
+- Einstein rejected quantum theory. (He helped found it with his photon proposal. What he rejected was the Copenhagen view that the probabilistic description is complete.)
+
 ## Questions
 
 ```yaml

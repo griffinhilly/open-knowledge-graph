@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Astronomy has been one of humanity's oldest sciences — Ancient Babylonians, Greeks, Chinese, and Islamic scholars all made detailed observations. Yet ancient astronomy was often geometrical and predictive rather than causal: models like Ptolemy's epicycles accurately predicted planetary positions without necessarily describing physical reality. The telescopic revolution beginning with Galileo opened new frontiers: moons, sunspots, nebulae, galaxies. Spectroscopy in the 19th century revealed that light from distant stars contained the same elements as Earth — revealing chemical uniformity across space. In the early 20th century, distance measurements (parallax, Cepheid variables) revealed that spiral nebulae were distant galaxies, not clouds within our Milky Way — the universe was far larger than suspected. Hubble's 1929 observation that galaxies were receding, and their recession velocity was proportional to distance, revealed an expanding universe. This observation, combined with relativity theory and nuclear physics, led to the Big Bang theory. Modern astronomy integrates observation, theory, and experimentation; it has become astrophysics — the physics of stars, galaxies, and the universe.
 
+## How It's Best Learned
+Organize the history by the question each new tool let astronomers answer: naked-eye records (where and when), the telescope (what is there), spectroscopy (what it is made of and how it moves), Cepheid distances (how far), Hubble's redshift–distance relation (how the universe changes). Place each figure from Babylon to Hubble under one tool. Then ask what the previous tool could not tell them.
+
+## Common Misconceptions
+- Ptolemy's model failed because it made poor predictions. (It predicted planetary positions with useful accuracy and stayed authoritative for over a thousand years. Its problem was that prediction did not mean it described physical reality.)
+- Astronomy stood still between the Greeks and Copernicus. (Islamic astronomers from the 9th to 15th centuries corrected Ptolemy's observations, improved instruments, and compiled star catalogs that Europe later absorbed.)
+- Astronomers can only learn where stars are, not what they are made of. (Spectroscopy reads stars' chemical composition from dark lines in their light and measures their motion through the Doppler shift.)
+- Astronomers have long known that the Milky Way is one galaxy among many. (Whether spiral nebulae lay inside or outside the Milky Way was disputed until Hubble's Cepheid distance measurements in the mid-1920s.)
+
 ## Questions
 
 ```yaml

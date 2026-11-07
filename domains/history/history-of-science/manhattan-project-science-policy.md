@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The Manhattan Project (1942-1945) was an enormous, secret research program to develop nuclear weapons before Nazi Germany. It unified theoretical physics (from Einstein to Bohr to Feynman), industrial engineering, and military organization on an unprecedented scale. The project succeeded in detonating the first nuclear bomb in July 1945 and produced the weapons used on Hiroshima and Nagasaki in August. The Manhattan Project exemplified 'big science' — large-scale, expensive, collaborative research with direct military application. It raised enduring questions about scientific responsibility: many physicists felt profound moral conflict after seeing the destructive power of weapons their research had enabled. Bohr and others advocated for international control of atomic energy; many supported a postwar movement for arms control. The project also established a model for government-funded scientific research that persisted through the Cold War. Its legacy includes both technological transformation and a persistent tension between scientific progress and ethical responsibility.
 
+## How It's Best Learned
+Draw two diagrams. The first maps the sites (Los Alamos, Oak Ridge, Hanford, Chicago) with what each produced and how the parts fit together. The second traces the decision to use the bomb: who knew what, who decided, and where the Franck Report entered and was set aside. Comparing the two shows how a project can be vast in production and narrow in decision-making.
+
+## Common Misconceptions
+- The scientists who built the bomb decided to use it. (President Truman, Secretary of War Stimson, and military advisers made the decision. Scientists had no formal authority over its use.)
+- The Manhattan Project scientists agreed about using the bomb. (Their views varied. Many supported use, but Franck, Szilard, and others urged a demonstration or a warning first.)
+- The Manhattan Project was a physics laboratory at Los Alamos. (Los Alamos designed the weapons, but the project employed about 130,000 people at many sites, and much of the work was industrial enrichment and plutonium production.)
+- Most workers knew they were building an atomic bomb. (Security compartmentalization meant most of them did not know what they were producing.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +64,7 @@ The Manhattan Project (1942-1945) was an enormous, secret research program to de
 - question: "Why did the Manhattan Project succeed in producing a weapon before Nazi Germany, when Germany had a head start?"
   type: short-answer
   answer: "Germany's nuclear weapons program (the 'Uranium Club') had several disadvantages: German military leadership did not prioritize it highly enough for resource allocation; key Jewish physicists (Einstein, Szilard, Fermi, Meitner, many others) had fled Germany by 1933-1938; Werner Heisenberg's program made technical errors in calculating critical mass; Allied bombing disrupted heavy water production in Norway essential to German reactor designs. The US program benefited from an enormous industrial base, protected geography, and the talent of the refugee physicists who had fled European fascism. Many of the Manhattan Project's leaders were European Jews directly fleeing Hitler."
+  explanation: "The answer is right because a bomb program needed three things at once: people who understood fission, high state priority, and a large industrial base. Germany lost many of the first through emigration, gave the program limited priority, and had its heavy water supply attacked. The United States had all three, and refugee physicists made up part of its scientific strength."
 
 ```
 

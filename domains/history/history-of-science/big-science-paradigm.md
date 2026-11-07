@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 'Big Science' refers to large-scale, expensive, collaborative research projects: the Manhattan Project, the Apollo program, the Large Hadron Collider, the Human Genome Project, the International Space Station. These projects require immense funding, coordinated teams of hundreds or thousands, and state support. They represent a shift from individual researchers working in isolation to collaborative networks. Big Science accelerates progress through massive resource investment and enables research impossible for individuals — smashing particles together at the LHC requires equipment worth billions. Yet Big Science also shapes research priorities: funding agencies decide what questions are worth asking, and expensive equipment constrains researchers to questions that justify its cost. The shift from little science to big science transformed how scientific careers were organized: PhD students and postdocs now often work as part of large teams rather than pursuing independent projects. Some worry that big science crowds out little science — that curiosity-driven research without immediate application becomes harder to fund. Others argue big science produces insights that smaller efforts could never achieve. The history of big science reveals how the organization of science shapes the knowledge produced.
 
+## How It's Best Learned
+Build a comparison table for the Manhattan Project, the Human Genome Project, and the LHC. For each, record who paid, roughly how many people worked on it, and what questions the equipment made possible or ruled out. Then set one small-team discovery, such as Fleming's penicillin, beside the table and ask what each kind of science can and cannot do.
+
+## Common Misconceptions
+- Big Science is ordinary research with a bigger budget. (The change was also organizational: research came to run through large teams, state funding, and shared equipment, which reshaped careers and the questions people asked.)
+- Big Science started with the Space Race or the LHC. (The Manhattan Project is usually treated as the founding case, and postwar agencies such as the NSF and NASA built on its model.)
+- Bigger projects produce better science. (Large projects can answer questions small teams cannot, but there is evidence that small teams tend to produce more disruptive discoveries.)
+- Funding agencies pay for research but do not shape it. (Deciding which projects and machines get funded steers which questions researchers can pursue.)
+
 ## Questions
 
 ```yaml

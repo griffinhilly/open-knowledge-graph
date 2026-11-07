@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Edward Jenner's 1796 inoculation of a boy with cowpox to protect against smallpox was revolutionary: he used exposure to a weak form of disease to trigger immunity, a principle completely at odds with humoral theory. Jenner's approach — repeated use of crude biological material — gradually gave way to scientific understanding. By the 20th century, vaccines were based on inactivated pathogens (like polio vaccine), live-attenuated strains (measles), or isolated antigens (hepatitis B). The scientific understanding improved: the adaptive immune system's structure was mapped; the cellular and humoral responses were distinguished; T cells and B cells were identified. Modern vaccines exploit these mechanisms: mRNA vaccines instruct cells to produce viral antigens, triggering immune response without virus exposure. The history of vaccination reveals the gap between empirical success and mechanistic understanding — Jenner succeeded without knowing why — and shows how deeper understanding enabled better vaccines. Vaccination campaigns have eradicated smallpox and nearly eradicated polio, among the greatest public health achievements. Yet vaccine skepticism has persisted, often rooted in mistrust of authority and incomplete understanding of risk. This history illustrates the challenge of scientific communication when stakes are high.
 
+## How It's Best Learned
+Build a two-row timeline: what vaccinators could do on top, and what they understood about immunity below. Variolation, Jenner, Pasteur, the 20th-century vaccines, and mRNA go on the top row; antibodies, T and B cells, and genome sequencing go below. The gap between rows shows practice running ahead of theory. Then use smallpox's features to explain why it alone was eradicated.
+
+## Common Misconceptions
+- Jenner invented the idea of deliberate inoculation. (Variolation, infection with mild smallpox material, was practiced in China and the Ottoman Empire long before. Jenner's change was to use cowpox, which was safer.)
+- Jenner knew how his vaccine worked. (He had no theory of immunity. Antibodies and the cellular immune system were understood only much later.)
+- Opposition to vaccines is a recent phenomenon. (Britain's compulsory vaccination law of 1853 provoked organized protest on civil liberties grounds.)
+- mRNA vaccines were invented from scratch in 2020 and alter a person's DNA. (The technology had been in development for decades, and the mRNA does not enter the cell nucleus and breaks down quickly.)
+
 ## Questions
 
 ```yaml

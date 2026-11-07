@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 The ARPANET, developed by the Advanced Research Projects Agency beginning in 1968, was designed to enable computer communication across geographically distributed research institutions. Its architects — Larry Roberts, Bob Taylor, Vint Cerf, Bob Kahn, and others — developed packet-switching protocols that allowed data to be broken into chunks, sent independently across heterogeneous networks, and reassembled at the destination. This architecture was radically decentralized: no single control point, no requirement for a central authority, resilient to partial failures. The TCP/IP protocol suite, developed in the 1970s, provided a standardized way for different networks to interconnect. The ARPANET evolved into the Internet, and the development of the World Wide Web in 1989 made it accessible to non-specialists. The Internet's history reveals how technological design embodies political assumptions: the decentralized architecture reflected Cold War concerns about survivability of command networks, yet it also enabled democratic communication structures. The Internet is a rare case where a transformative technology's origins are well-documented and traceable to specific decisions.
 
+## How It's Best Learned
+Act out packet switching: split a message into numbered cards, pass them to the destination by different routes through a group, and reassemble them in order. Compare that with one reserved line for a phone call. Then draw the layers as a stack: packets, TCP/IP, then applications such as email, file transfer, and the Web. Place 1969, the 1970s, 1989, and 1993 on the stack.
+
+## Common Misconceptions
+- ARPANET was built mainly as a military command network that could survive nuclear war. (Its designers' main aim was letting research sites share expensive computers. Baran's survivability work was related research, and the story grew from that overlap.)
+- The Internet and the World Wide Web are the same thing. (The Internet is the network of networks running TCP/IP. The Web is one application on top of it, and email and file transfer existed before the Web.)
+- Internet data travels along a dedicated line from sender to receiver, like a phone call. (That is circuit switching. On the Internet, messages are split into packets that travel independently and are reassembled at the destination.)
+- The Internet was a commercial network from the start. (For its first two decades it served mainly researchers, and acceptable use policies prohibited commercial activity.)
+
 ## Questions
 
 ```yaml
@@ -53,6 +62,7 @@ The ARPANET, developed by the Advanced Research Projects Agency beginning in 196
 - question: "Mosaic, the first graphical Web browser, was released in 1993. What was its significance for Internet adoption?"
   type: short-answer
   answer: "Mosaic (developed by Marc Andreessen and Eric Bina at NCSA) made the Web accessible to non-technical users by displaying images inline with text and providing point-and-click navigation. Before Mosaic, Web browsers were text-only and used complex commands. Mosaic's graphical interface reduced the barrier to entry dramatically; Netscape Communications (founded by Andreessen) commercialized a successor browser, and rapid commercial adoption of the Web followed 1993-1995. The transition from 1 million to 100 million Internet users took roughly 7 years (1993-2000). Mosaic is often credited with triggering the commercialization of the Internet."
+  explanation: "This answer is right because Mosaic lowered the skill needed to use the Web. Showing images alongside text and letting users click links made browsing possible for people with no technical training. Once ordinary users could browse, businesses had an audience, which is why Mosaic and its successor Netscape are tied to the Web's commercial take-off."
 
 ```
 
