@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Metabolic flux analysis (MFA) quantifies the rates (fluxes) at which metabolites flow through the reactions of a metabolic network in a living cell. Unlike measuring metabolite concentrations (which are pools), MFA measures throughput — how much carbon, nitrogen, or energy flows through each pathway per unit time. Experimental MFA typically uses 13C-labeled substrates: cells consume labeled glucose, and mass spectrometry or NMR measures the labeling patterns in downstream metabolites, which are then computationally deconvolved to infer the flux through each reaction. MFA reveals how cells allocate metabolic resources and how this allocation shifts in disease, drug treatment, or environmental change.
 
+## How It's Best Learned
+Trace carbon atoms by hand first. Draw glucose as six numbered carbons and follow [1,2-13C]glucose through glycolysis and through the oxidative pentose phosphate pathway. Note which labeled forms of pyruvate each route makes. Then write the mass balances for a small branched network and see which flux ratio the labeling pattern pins down that the balances alone cannot.
+
+## Common Misconceptions
+- High expression of an enzyme means high flux through its reaction. (Flux also depends on substrate supply, product removal and regulation. A highly expressed enzyme can carry little flux.)
+- Labeling data alone gives absolute reaction rates. (Labeling patterns mainly fix relative flux ratios at branch points. Absolute rates also need measured uptake and secretion rates.)
+- You can read labeling patterns as soon as the tracer is added. (Standard 13C-MFA assumes the labeling has reached a steady state. Earlier time points need an instationary analysis that models how labels build up.)
+- If a metabolite carries the label, the pathway that made it is its main source. (Several routes and reversible exchange reactions mix labels. Only a model fit across many metabolites separates their contributions.)
+
 ## Questions
 
 ```yaml

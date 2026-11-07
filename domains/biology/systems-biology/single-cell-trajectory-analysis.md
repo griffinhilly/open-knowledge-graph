@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Single-cell trajectory analysis reconstructs the continuous progression of cells through biological processes — differentiation, activation, disease progression — from snapshot scRNA-seq data where each cell is measured only once. Since single-cell RNA sequencing destroys the cell, temporal ordering must be inferred computationally: cells at different stages of a process coexist in the sample, and trajectory inference algorithms arrange them along a pseudotime axis that recapitulates the biological progression. Pseudotime methods (Monocle, Slingshot, PAGA) construct low-dimensional manifolds from gene expression space and order cells along paths through these manifolds. RNA velocity (La Manno et al., 2018) adds directionality by exploiting the ratio of unspliced to spliced mRNA within each cell as a proxy for transcriptional rate of change, predicting each cell's future state without requiring external time labels. Together, these methods transform static snapshots into dynamic narratives of cell-state change, making trajectory analysis central to modern developmental and stem cell biology.
 
+## How It's Best Learned
+Use a well-characterized dataset, such as a public hematopoiesis or pancreas development set, where the true order of stages is known. Run two methods, for example Slingshot and Monocle 3, from the same root and plot known marker genes against each pseudotime. Then compute RNA velocity and check whether its arrows agree with the known direction, and look for the genes where they do not.
+
+## Common Misconceptions
+- A trajectory algorithm finds a path only when cells really form a continuum. (Most methods will fit a path through any dataset, even well-separated clusters. Check that intermediate states are actually present before reading the path as a process.)
+- Distances in a UMAP plot show how far apart cell states are. (UMAP keeps local neighborhoods but distorts larger distances. Pseudotime is usually computed in PCA or graph space, and velocity arrows drawn on a UMAP can mislead.)
+- RNA velocity arrows are trustworthy for every gene. (The method assumes simple, steady splicing and degradation kinetics. Genes that break those assumptions, such as those whose transcription rate rises partway through the process, can give arrows in the wrong direction.)
+
 ## Questions
 
 ```yaml

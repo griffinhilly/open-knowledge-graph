@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Parameter estimation fits the unknown rate constants, binding affinities, and Hill coefficients of a biological model to experimental data. The challenge in systems biology is that models are typically underdetermined: they have more parameters than the data can constrain, leading to non-identifiability (many parameter sets fit the data equally well) and practical identifiability issues (parameters are correlated, creating ridges in the likelihood landscape). Methods range from optimization-based (least squares, maximum likelihood with global search algorithms) to Bayesian (MCMC sampling of the posterior distribution over parameters). Ensemble approaches that characterize the full range of plausible parameter sets, rather than seeking a single "best fit," are increasingly recognized as essential for making reliable predictions from biological models.
 
+## How It's Best Learned
+Work with data you made yourself. Simulate a small model with known parameters, add realistic noise, and try to recover the parameters with multi-start fitting on a log scale. Plot the profile likelihood for each parameter to see which ones are flat. Then add a second type of measurement, such as a knockdown condition, and watch which profiles sharpen.
+
+## Common Misconceptions
+- A close fit to the data means the estimated parameter values are accurate. (Correlated parameters can compensate for each other, so a good fit can come from wrong values. Profiles or posteriors show how well each parameter is actually pinned down.)
+- If individual parameters are poorly constrained, the model's predictions are useless. (Some predictions depend only on well-constrained combinations of parameters. Those can be reliable even when single parameters have wide ranges.)
+- More time points from the same experiment will fix any identifiability problem. (Structural problems need a different kind of measurement or a reparameterized model. Practical problems are often solved faster by new perturbations than by denser sampling.)
+- Searching parameter space on a linear scale is fine. (Rate constants can span several orders of magnitude, so searching and setting priors on a log scale usually explores the space far better.)
+
 ## Questions
 
 ```yaml

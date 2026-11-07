@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Agent-based models (ABMs) simulate biological systems by representing individual entities -- cells, organisms, or molecules -- as autonomous agents that follow local rules, interact with neighbors, and make stochastic decisions based on their internal state and local environment. Unlike equation-based approaches (ODEs, PDEs) that describe populations as continuous variables, ABMs capture the heterogeneity, spatial structure, and discrete nature of real biological systems. Emergent behaviors -- tumor morphology, tissue patterning, collective cell migration, biofilm architecture -- arise from the aggregate of individual agent interactions without being explicitly programmed. ABMs are essential when spatial organization, cell-to-cell variability, and local interactions dominate system behavior.
 
+## How It's Best Learned
+Build a tiny ABM yourself before reading about large frameworks. Put cells on a 2D grid with two rules, such as "divide into an empty neighboring site" and "die if nutrient is low," then watch a colony shape appear. Next, write the matching logistic ODE and compare its smooth curve with the spread of many stochastic ABM runs.
+
+## Common Misconceptions
+- An ABM is more realistic than an ODE model, so it is the better choice for any problem. (ABMs pay off when spatial structure, small numbers or cell-to-cell variability matter. For well-mixed, large populations, an ODE often gives the same answer far more cheaply.)
+- One simulation run shows what the model predicts. (ABMs are stochastic, so a single run is one sample. Predictions come from the distribution over many replicate runs.)
+- If the simulation reproduces the observed pattern, the agent rules must be correct. (Different rule sets can produce similar emergent patterns. A match supports the rules but does not prove them, so models need tests against data they were not tuned to.)
+
 ## Questions
 
 ```yaml

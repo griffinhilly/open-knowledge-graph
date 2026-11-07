@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Boolean network models represent genes or proteins as binary variables (ON/OFF) and regulatory interactions as logical functions (AND, OR, NOT). The network's state — the vector of all ON/OFF values — updates according to these rules, and the system evolves through a finite state space until it reaches a stable state (attractor) or a repeating cycle (limit cycle). Attractors are interpreted as cell fates or phenotypes, and the basins of attraction define which initial conditions lead to which outcomes. Boolean models capture the qualitative logic of biological regulation without requiring kinetic parameters, making them tractable for large networks where quantitative data is sparse.
 
+## How It's Best Learned
+Take a three-gene network, write its logical rules, and build the full state-transition table by hand: all 8 states and where each one goes next. Draw the arrows to find the attractors and their basins. Then rerun the same network with asynchronous updating, one gene at a time, and compare which attractors survive.
+
+## Common Misconceptions
+- A Boolean model has no assumptions beyond the network wiring. (The choice of logical rule for each gene, the thresholds implied by ON and OFF, and the update scheme are all modeling assumptions that can change the result.)
+- The update scheme does not matter, because the rules are the same. (Synchronous updating, where all genes change at once, can create cycles that disappear when genes update one at a time. Fixed points are the same under both schemes, but cyclic attractors can differ.)
+- Every attractor of the model corresponds to a real cell type. (Some attractors are artifacts of the simplification or are unreachable from biologically plausible starting states. Each one needs to be checked against observed expression patterns.)
+
 ## Questions
 
 ```yaml

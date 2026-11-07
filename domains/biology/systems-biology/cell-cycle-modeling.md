@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Cell cycle modeling applies dynamical systems theory to understand how cells progress through G1, S, G2, and M phases in a robust, irreversible, and precisely timed sequence. The core machinery — cyclin-CDK complexes regulated by synthesis, degradation, phosphorylation, and inhibitor binding — creates a biochemical oscillator with embedded bistable switches that ensure irreversible phase transitions. John Tyson and Bela Novak pioneered ODE models showing that the G1/S and metaphase/anaphase transitions are driven by bistable switches (hysteresis ensures commitment once a threshold is crossed), while the overall cycle is an autonomous oscillation driven by periodic cyclin accumulation and APC/C-mediated degradation. Boolean models by Faure et al. showed that the cell cycle's sequential logic can be captured without kinetic parameters.
 
+## How It's Best Learned
+Isolate one switch first. Build a two-variable model of CDK1 activation with Cdc25 and Wee1 feedback, plot steady-state CDK1 activity against total cyclin B, and find the two thresholds of the hysteresis loop. Then let cyclin B be synthesized steadily and degraded by APC/C that active CDK1 switches on, and watch the switch turn into an oscillator.
+
+## Common Misconceptions
+- CDK activity rises smoothly in proportion to cyclin level. (Feedback through Wee1, Cdc25 and CDK inhibitors makes activity switch-like. Activity stays low until cyclin crosses a threshold, then jumps.)
+- A checkpoint is a separate brake added on top of the oscillator. (In the models, checkpoint signals act on the same feedback loops. For example, inhibiting Cdc25 raises the cyclin threshold for mitotic entry, so the cell holds in G2.)
+- The Boolean and ODE models disagree, so one of them must be wrong. (They answer different questions. The Boolean model tests whether the wiring gives the right order of events, and the ODE model adds timing, thresholds and dose effects.)
+
 ## Questions
 
 ```yaml

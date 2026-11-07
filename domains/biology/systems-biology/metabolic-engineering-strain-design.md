@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Metabolic engineering strain design uses genome-scale metabolic models and constraint-based optimization to computationally identify genetic modifications (gene knockouts, overexpressions, or heterologous pathway insertions) that redirect metabolic flux toward a desired product. The foundational algorithm, OptKnock, formulates strain design as a bilevel optimization problem: the outer problem maximizes product flux, while the inner problem maximizes growth (reflecting the cell's own objective), subject to the constraint that specified reactions are deleted. This ensures the designed strain couples product formation to growth — the organism cannot grow without also producing the target compound. Extensions like OptForce, RobustKnock, and OptCouple address limitations of OptKnock by incorporating kinetic constraints, robustness to alternative optima, and cofactor coupling. The field bridges computational systems biology with practical biotechnology, connecting FBA predictions to fermentation outcomes measured as yield, titer, and productivity.
 
+## How It's Best Learned
+Use the E. coli core model and plot a production envelope: maximum and minimum product flux at each growth rate. Delete candidate reactions, alone and in combination, and redraw the envelope. A growth-coupled design is visible as a lower edge that lifts above zero at high growth. After that, read an OptKnock result and check it by drawing its envelope yourself.
+
+## Common Misconceptions
+- The design with the highest predicted yield is the best strain to build. (Yield is one of three metrics. A strain that reaches high yield but grows slowly or tolerates little product can fail on titer and productivity.)
+- Deleting one gene removes one reaction from the model. (Gene-protein-reaction rules map genes to reactions. Isozymes can mean several genes must go to block one reaction, and one gene can serve several reactions.)
+- Overexpressing the first enzyme of the product pathway is enough to raise output. (Flux depends on the whole network, including competing branches, cofactor supply and downstream bottlenecks. Raising one enzyme often moves the limit somewhere else.)
+
 ## Questions
 
 ```yaml

@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 Network motifs are small, recurring subgraph patterns that appear in biological networks significantly more often than expected by chance. Identified by Uri Alon's group, key motifs include negative autoregulation (a transcription factor represses its own gene), positive autoregulation, the feedforward loop (a regulator controls a target both directly and indirectly through an intermediary), and the single-input module (one regulator controls a set of genes). Each motif performs a specific information-processing function: negative autoregulation speeds response time and reduces noise, the coherent feedforward loop filters transient signals, and the incoherent feedforward loop generates pulses. Motifs are the recurring circuit elements from which larger regulatory networks are composed.
 
+## How It's Best Learned
+Simulate each motif with two or three ODEs and give it the same input: a long step and a short pulse. Put the outputs side by side. Compare an unregulated gene with a negatively autoregulated gene tuned to the same steady state, and compare the coherent FFL under AND and OR logic. Then count feedforward loops in a small real network against degree-preserving shuffles.
+
+## Common Misconceptions
+- A motif's wiring diagram fixes its behavior. (The logic at the target promoter and the parameter values matter too. A coherent type-1 FFL with AND logic delays the response to an ON step, while with OR logic it delays the response to an OFF step.)
+- If a pattern is enriched in a network, it must have evolved for the function seen in models. (Enrichment suggests selection but does not prove a function. The predicted behavior has to be tested in the actual circuit.)
+- A motif behaves the same way inside a large network as it does in isolation. (Inputs from other regulators, shared targets and resource load can change its dynamics. The isolated analysis is a starting hypothesis.)
+
 ## Questions
 
 ```yaml

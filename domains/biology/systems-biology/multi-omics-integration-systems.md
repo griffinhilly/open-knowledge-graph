@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Multi-omics integration combines data from multiple molecular measurement technologies — genomics, transcriptomics, proteomics, metabolomics, epigenomics — into unified models that capture the flow of biological information from genome to phenotype. No single omics layer tells the complete story: mRNA levels imperfectly predict protein abundance, protein abundance does not capture post-translational modification states, and metabolite levels depend on enzyme activities that none of the other layers directly measure. Integration strategies range from concatenation-based (stacking data matrices) to network-based (mapping data onto biological networks) to mechanistic model-based (constraining systems biology models with multi-omics data). The goal is to reconstruct the causal chain from genotype to molecular state to cellular behavior.
 
+## How It's Best Learned
+Pick one pathway, such as glycolysis, in a public dataset with matched transcriptomics, proteomics and metabolomics. Plot mRNA against protein for each enzyme, then lay both layers and the metabolite levels onto the pathway map. Then constrain an FBA model with the expression data using a method like iMAT and compare its flux predictions with the unconstrained model.
+
+## Common Misconceptions
+- A weak mRNA-protein correlation across genes means mRNA changes tell you nothing about protein changes. (Correlation across different genes and correlation for one gene across conditions are separate questions. The fold changes of a single gene can track more closely than the cross-gene number suggests.)
+- Values from different omics layers can be compared directly once they are on the same samples. (Each technology has its own scale, noise and batch effects. Missing values in proteomics and metabolomics often mean "below detection" rather than random gaps.)
+- Concordant changes across layers prove a causal chain from gene to metabolite. (Concordance fits a causal chain but does not prove one. A shared upstream cause can move all layers together, and time lags can hide real links.)
+
 ## Questions
 
 ```yaml

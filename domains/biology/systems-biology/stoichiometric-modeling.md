@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Stoichiometric modeling represents a metabolic network as a matrix (the stoichiometric matrix S) where rows are metabolites, columns are reactions, and entries are stoichiometric coefficients. The steady-state mass balance condition — the rate of production equals consumption for each internal metabolite — is expressed as S * v = 0, where v is the vector of reaction fluxes. The solution space (null space of S) defines all thermodynamically and stoichiometrically feasible flux distributions. This framework is the mathematical foundation for constraint-based metabolic modeling and flux balance analysis.
 
+## How It's Best Learned
+Write the stoichiometric matrix by hand for a toy network of four metabolites and six reactions, including uptake and secretion. Check each column against its reaction, then compute a rational null-space basis with a tool such as SymPy and read each basis vector as a route through the network. After that, open a genome-scale model in COBRApy and inspect a few rows and columns of its S matrix.
+
+## Common Misconceptions
+- S · v = 0 means no reactions are running. (Fluxes can be large. The equation says that for each internal metabolite, total production equals total consumption.)
+- Every metabolite in the model must be balanced, including the nutrients the cell takes up. (Only internal metabolites are balanced. Exchange reactions let the network take up and secrete external compounds.)
+- The stoichiometric matrix records whether each reaction is reversible. (S holds only coefficients. Reversibility enters separately, as lower and upper bounds on each flux.)
+
 ## Questions
 
 ```yaml

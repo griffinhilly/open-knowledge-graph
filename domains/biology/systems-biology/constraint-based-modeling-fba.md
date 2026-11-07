@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Flux balance analysis (FBA) predicts the optimal flux distribution through a metabolic network by formulating a linear programming problem: maximize a biological objective function (typically biomass production) subject to stoichiometric constraints (S * v = 0), reaction bounds (capacity limits and reversibility), and measured uptake rates. FBA does not require kinetic parameters, making it applicable to genome-scale metabolic models with thousands of reactions. It successfully predicts growth rates, gene essentiality, and metabolic phenotypes across diverse organisms and conditions, and forms the foundation of the COBRA (Constraint-Based Reconstruction and Analysis) toolbox widely used in systems biology and metabolic engineering.
 
+## How It's Best Learned
+Solve FBA by hand on a toy network of four or five reactions with two variables left free. Draw the feasible region, mark the objective direction, and see the optimum land on a corner. Then run the same steps on the E. coli core model in COBRApy: set a glucose uptake bound, maximize biomass, knock out a reaction, and run flux variability analysis on the result.
+
+## Common Misconceptions
+- S · v = 0 means the metabolite concentrations are zero or the fluxes are zero. (It means each internal metabolite is produced as fast as it is consumed, so its concentration stays constant.)
+- The FBA solution is the flux distribution the cell uses. (FBA returns one optimal point. Many flux distributions often reach the same optimum, and the cell may not be at the optimum at all.)
+- FBA predictions include the effects of gene regulation. (Standard FBA sees only stoichiometry, bounds and the objective. A reaction that is feasible in the model may be switched off in the cell unless regulatory constraints are added.)
+- If biomass is the objective, FBA has no other assumptions. (The biomass reaction's composition, the uptake bounds and the reaction list are all choices, and predictions can shift when any of them changes.)
+
 ## Questions
 
 ```yaml

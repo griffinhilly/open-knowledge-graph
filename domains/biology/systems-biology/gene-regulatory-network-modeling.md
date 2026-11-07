@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 Gene regulatory network (GRN) modeling formalizes the relationships between transcription factors, signaling molecules, and their target genes as mathematical or computational models that can predict dynamic gene expression behavior. Models range from qualitative (Boolean, logical) to quantitative (ODEs, stochastic) depending on available data and the questions being asked. The central challenge is parameter estimation: biological networks involve many interacting components with partially known kinetic parameters, requiring integration of diverse data types (expression, binding, perturbation) and specialized inference algorithms.
 
+## How It's Best Learned
+Model the same small circuit, such as a three-gene cascade with one feedback loop, twice: once as Boolean rules and once as ODEs with Hill functions. Compare the steady states each predicts. Then generate synthetic noisy data from the ODE version and try to recover its parameters, so you see firsthand how many different parameter sets fit equally well.
+
+## Common Misconceptions
+- If knocking out gene A changes gene B's expression, A must bind B's promoter. (The effect can pass through intermediate genes. A knockout shows that A affects B, and binding data is needed to claim direct regulation.)
+- Genes with correlated expression regulate each other. (Correlation can come from a shared upstream regulator or a shared response to conditions. Correlation alone does not give a direction or a direct link.)
+- A model that fits the data well has found the true parameters. (With sparse data, many parameter sets fit equally well. The fit supports the model structure only if it also predicts experiments it was not fitted to.)
+
 ## Questions
 
 ```yaml

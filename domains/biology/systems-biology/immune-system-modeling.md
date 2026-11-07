@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Immune system modeling applies dynamical systems and multi-scale approaches to understand how the immune system detects pathogens, mounts responses, and forms memory. ODE models describe the population dynamics of immune cells (T cells, B cells, antibodies) interacting with pathogens, capturing phenomena like clonal expansion, contraction, and the threshold pathogen load that triggers adaptive immunity. Agent-based models simulate individual immune cell decisions (activation, migration, differentiation, death) in tissue microenvironments. Applications include predicting vaccine efficacy, optimizing immunotherapy dosing schedules, understanding autoimmune dynamics, and modeling the within-host evolutionary dynamics of chronic infections like HIV.
 
+## How It's Best Learned
+Code the three-variable target cell, infected cell and virus model and fit it to a published viral load curve. Then add an effector cell compartment with a delayed expansion term. Vary the initial inoculum and the speed of immune activation, and watch how peak viral load and time to clearance change. Keep both versions so you can compare how well each fits the same data.
+
+## Common Misconceptions
+- If a model with an immune term fits the viral load curve, immune killing must explain the decline. (A model with no immune term, where the virus simply runs out of target cells, can also produce a rise and fall. Telling mechanisms apart needs extra data such as cell counts.)
+- Adding more immune cell types makes the model more predictive. (Each new compartment brings parameters that the data seldom constrain. Extra detail helps only when there are measurements to pin it down.)
+- An ODE model can describe how a T cell finds its antigen in a lymph node. (ODEs assume well-mixed populations and give only an average encounter rate. Search paths, contact and tissue geometry need spatial or agent-based models.)
+
 ## Questions
 
 ```yaml

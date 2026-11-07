@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Systems pharmacology applies network and dynamical systems approaches to understand drug action at the level of biological networks rather than individual molecular targets. It models how a drug's perturbation propagates through signaling, metabolic, and gene regulatory networks to produce therapeutic effects and side effects. By integrating pharmacokinetics (drug concentration over time), pharmacodynamics (drug-target binding), and systems biology models of the target network, systems pharmacology predicts drug efficacy, toxicity, resistance mechanisms, and rational combination strategies. This network-aware approach addresses the high failure rate of single-target drug development by accounting for compensatory pathway activation and off-target effects.
 
+## How It's Best Learned
+Chain three small models in order. Start with a one-compartment PK model for oral dosing, feed its concentration into a target-occupancy equation, then drive a small signaling model with negative feedback onto the receptor. Compare once-daily and twice-daily dosing at the same total dose. Then add a second inhibitor on the feedback branch and see how the response changes.
+
+## Common Misconceptions
+- A drug's effect follows the dose a patient takes. (The effect depends on the drug concentration at the target over time. The same dose can give quite different exposures in different patients.)
+- A drug that binds its target tightly in a test tube will block it to the same degree in the body. (Occupancy depends on the free drug concentration at the site, binding to plasma proteins and competition with natural ligands, such as ATP for kinase inhibitors.)
+- A combination that is synergistic in cell culture will be synergistic in patients. (Synergy depends on the concentrations reached. In patients, toxicity often limits the doses, and the two drugs may not reach the target together at the needed levels.)
+- Off-target binding only causes side effects. (Some drugs owe part of their benefit to targets other than the intended one, which is a main concern of polypharmacology.)
+
 ## Questions
 
 ```yaml

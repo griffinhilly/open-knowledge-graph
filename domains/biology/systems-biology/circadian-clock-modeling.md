@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 Circadian clock modeling uses dynamical systems theory to explain how organisms generate self-sustaining oscillations with an approximately 24-hour period, maintain them against molecular noise, and entrain them to environmental light-dark cycles. The core mechanism is a transcription-translation feedback loop (TTFL) where clock proteins (PER, TIM, CRY, BMAL1, CLOCK) repress their own transcription after a delay caused by translation, nuclear import, and post-translational modification. The Goodwin oscillator (a three-variable negative feedback loop with nonlinear repression) provides the minimal mathematical framework, while the Leloup-Goldbeter model incorporates explicit biochemical steps — phosphorylation, dimerization, nuclear transport, and mRNA/protein degradation — to reproduce the detailed dynamics of the Drosophila and mammalian clocks. Delay differential equations (DDEs) offer an alternative formulation where the finite time between transcription and repression is modeled as an explicit time delay rather than through intermediate species.
 
+## How It's Best Learned
+Simulate the three-variable Goodwin model and sweep the Hill coefficient from low to high (the classic form needs a value above about 8). Watch damped oscillations become a sustained limit cycle past the Hopf point. Next, add a square-wave light input to one rate and vary the forcing period to map where the clock locks on and where it drifts. Move to the Leloup-Goldbeter model after this.
+
+## Common Misconceptions
+- Any negative feedback loop in a gene network will oscillate. (Negative feedback without enough delay and nonlinearity settles to a steady state, often after damped oscillations. Sustained rhythms need both.)
+- The clock's period is set mainly by how fast the clock genes are transcribed. (In detailed models, the period is often most sensitive to post-translational steps such as phosphorylation and degradation. This is why kinase mutations shift the period.)
+- A model that gives a 24-hour period has captured the clock. (Period alone is a weak test. A good model should also reproduce phase responses to light pulses, mutant periods and the near-constant period across temperatures seen in real clocks.)
+
 ## Questions
 
 ```yaml

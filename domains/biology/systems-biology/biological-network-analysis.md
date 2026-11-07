@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Biological network analysis applies graph theory to study the organization and properties of molecular interaction networks, including protein-protein interaction networks, metabolic networks, and gene regulatory networks. By computing topological properties such as degree distribution, clustering coefficient, betweenness centrality, and modularity, researchers can identify functionally important nodes (hubs), discover modular organization, and infer how network architecture supports robust cellular behavior. Most biological networks are scale-free, meaning a few highly connected hub nodes dominate the topology.
 
+## How It's Best Learned
+Load a small, well-studied network, such as a yeast protein interaction subset, into a tool like Cytoscape or NetworkX. Compute degree and betweenness for every node, then list the top ten by each and compare the lists. Remove the top hubs, then remove the same number of random nodes, and track the size of the largest connected component each time.
+
+## Common Misconceptions
+- An edge in an interaction network means the two proteins bind directly inside the cell. (Edges depend on the assay. Some methods report co-membership in a complex or a statistical association, and many edges are false positives or are never present in a given cell type.)
+- The most connected node is the most biologically important one. (Degree is one signal. A bottleneck with modest degree can matter more, and well-studied proteins can look like hubs because they were tested more often.)
+- A network's topology tells you how the system behaves over time. (A static graph has no rates, signs or concentrations. Dynamics need a model built on top of the wiring.)
+- Modules found by a clustering algorithm are real biological units. (Algorithms will partition any network. A module is credible when it matches independent evidence, such as shared function or co-expression.)
+
 ## Questions
 
 ```yaml

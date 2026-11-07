@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Microbiome systems biology models the interactions within complex microbial communities — hundreds to thousands of species competing for resources, cross-feeding metabolites, and modifying their shared environment. Approaches range from ecological models (generalized Lotka-Volterra equations describing species abundances) to community metabolic models (multi-species FBA predicting metabolic exchanges) to agent-based spatial models capturing biofilm architecture. The goal is to understand and predict how community composition responds to diet, drugs, and disease, and how the collective metabolic output of the microbiome influences host health. Key challenges include the enormous species diversity, incomplete metabolic knowledge for most community members, and the spatial and temporal heterogeneity of real microbial habitats.
 
+## How It's Best Learned
+Begin with a two-species system where species A secretes a metabolite that species B needs. Write it as a gLV model, then as a two-species FBA with a shared metabolite pool, and compare what each predicts when A's growth is cut in half. Then fit a three-species gLV model to a published longitudinal time series and look at how uncertain the fitted interaction terms are.
+
+## Common Misconceptions
+- A rise in a species' relative abundance means that species grew. (Sequencing gives proportions. A species' share can rise because others declined, so absolute changes need a measure of total microbial load.)
+- Two species that often appear together must be interacting. (Co-occurrence can come from a shared preference for the same diet, pH or host site. Interaction claims need time series or perturbation data.)
+- If a species' genome encodes a pathway, the species performs that function in the gut. (Gene content shows capacity. Whether the pathway runs depends on expression, substrates and conditions in that habitat.)
+
 ## Questions
 
 ```yaml

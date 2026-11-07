@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Biological robustness is the ability of a system to maintain its function despite perturbations — genetic mutations, environmental fluctuations, or stochastic noise in molecular processes. Far from being opposites, robustness and evolvability are deeply connected: robust systems accumulate cryptic genetic variation (mutations with no phenotypic effect) that can be revealed by environmental changes or genetic backgrounds, providing raw material for evolutionary innovation. Network properties that confer robustness — modularity, degeneracy (multiple distinct components performing similar functions), and distributed processing — simultaneously enable evolutionary exploration of new functions without disrupting existing ones.
 
+## How It's Best Learned
+Use a toy genotype-phenotype map, such as RNA sequences folded to secondary structures with a tool like ViennaRNA. Make every single-base change to one sequence and count how many keep the same structure. Then walk through neutral mutations and record which new structures sit one step away at each stop. That makes the neutral-network argument something you can count.
+
+## Common Misconceptions
+- A robust system is robust to every kind of perturbation. (Robustness is specific to particular perturbations. A design that buffers common disturbances can be fragile to rare or new ones.)
+- Robustness evolved because it makes future evolution easier. (Selection acts on fitness now. Robustness is usually explained by its present benefits or as a side effect of other traits, and evolvability can follow from it.)
+- Hidden genetic variation has no consequences, because it has no effect on the phenotype. (Cryptic variation is neutral only in the current environment and genetic background. A change in either can reveal it.)
+
 ## Questions
 
 ```yaml

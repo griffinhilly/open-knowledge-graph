@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Multi-scale modeling integrates mathematical descriptions at different biological scales — molecular (protein interactions), cellular (gene regulation, metabolism), tissue (cell-cell communication, spatial organization), and organism (organ physiology) — into a unified computational framework. The central challenge is bridging scales: molecular events (microseconds to seconds) influence cellular decisions (minutes to hours), which shape tissue patterns (hours to days), which determine organismal phenotypes (days to years). Approaches include agent-based models (cells as autonomous agents with internal ODE models), hybrid continuum-discrete models, and hierarchical coupling of scale-specific sub-models. Multi-scale models are essential for problems like tumor growth, wound healing, and organ development where no single scale captures the relevant biology.
 
+## How It's Best Learned
+Couple two scales before trying four. Give each cell on a grid a small ODE for an oxygen-sensing signal that decides whether it divides, and let a diffusion equation supply local oxygen that cells consume. Run it with the cell-to-tissue link cut, then with feedback both ways, and compare the tumor shapes. Then vary how often the two models exchange values to see the cost-accuracy trade.
+
+## Common Misconceptions
+- A good multi-scale model includes every scale in full detail. (Each scale should be resolved only as far as the question needs. Many models coarse-grain one level so another can be simulated in detail.)
+- Separate scale models can be run one after another, passing outputs once. (When feedback runs in both directions, the models must exchange values repeatedly during the run. A single hand-off misses the feedback.)
+- Fast molecular processes can be left out of a tissue-scale model because they are too quick to matter. (Fast processes are usually approximated as being at quasi-steady state, so their effect is kept while their fast dynamics are dropped.)
+- Rate constants measured in vitro can be used unchanged at the cellular scale. (Crowding, compartments and local conditions inside cells can shift effective rates, so transferred parameters need checking against cell-level data.)
+
 ## Questions
 
 ```yaml

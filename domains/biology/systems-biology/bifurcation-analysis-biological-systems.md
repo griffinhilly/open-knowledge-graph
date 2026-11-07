@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Bifurcation analysis studies how the qualitative behavior of a dynamical system changes as a parameter is varied continuously. In biological systems, a bifurcation point is a critical parameter value where the number or stability of steady states changes abruptly -- for example, a cell switching from a monostable (single steady state) to a bistable (two stable steady states) regime as a signaling molecule concentration crosses a threshold. This framework explains irreversible cell fate decisions, toggle-switch behavior in gene circuits, and the onset of oscillations in calcium signaling and circadian clocks, making it indispensable for understanding how continuous biochemical changes produce discrete biological outcomes.
 
+## How It's Best Learned
+Start with a one-variable model of a self-activating gene. Plot production and degradation rates against protein level, and count where the curves cross as you raise the basal production rate. Then draw the bifurcation diagram by hand, sweep the parameter up and down in simulation to see hysteresis, and only then use a continuation tool on a two-variable oscillator.
+
+## Common Misconceptions
+- A bifurcation is any large change in a model's output. (A bifurcation is a change in the number or stability of steady states or limit cycles. A steep but smooth response with one stable state throughout is not a bifurcation.)
+- Running many simulations at different parameter values finds the full bifurcation structure. (Simulations settle onto stable states, so they miss unstable branches. Continuation methods track those branches directly.)
+- Bistability requires two separate genes or species. (A single gene with strong, cooperative positive feedback on itself can be bistable. The usual ingredient is positive feedback with enough nonlinearity.)
+- Once the parameter returns to its old value, the cell returns to its old state. (Inside a bistable range, the state depends on history. The parameter has to move past the other bifurcation point before the system switches back.)
+
 ## Questions
 
 ```yaml

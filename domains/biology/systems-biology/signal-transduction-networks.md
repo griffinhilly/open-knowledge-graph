@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 Signal transduction networks describe how cells receive external signals (hormones, growth factors, stress cues) and convert them into intracellular responses through cascades of protein modifications, primarily phosphorylation. Systems biology treats these pathways not as linear chains but as interconnected networks with extensive crosstalk, feedback loops, and nonlinear dynamics. Mathematical modeling reveals emergent properties — ultrasensitivity, bistability, oscillations, and signal adaptation — that arise from the network architecture rather than from any individual component. Understanding these network-level behaviors is essential for predicting cellular responses to drugs and for identifying intervention points in disease.
 
+## How It's Best Learned
+Build the MAPK cascade one level at a time. Model a single phosphorylation-dephosphorylation cycle and plot output against kinase input as the enzymes move toward saturation. Then stack three cycles and measure how the dose-response steepens. Add negative feedback from the last level to the first and compare the response to a sustained input with and without the loop.
+
+## Common Misconceptions
+- Inhibiting a kinase in a pathway will lower that pathway's output. (If the kinase also drives a negative feedback loop, blocking it can relieve that feedback and raise activity upstream or in a connected pathway.)
+- A graded response in a population means each cell responds in a graded way. (A smooth population average can come from cells that each switch all-or-none at different thresholds. Single-cell measurements are needed to tell these apart.)
+- The level of a phosphorylated protein at one time point describes the pathway's activity. (Signaling is dynamic. Transient and sustained activation of the same kinase can lead to different cell outcomes, so time courses matter.)
+
 ## Questions
 
 ```yaml

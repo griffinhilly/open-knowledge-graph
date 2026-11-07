@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 Synthetic gene circuits are engineered genetic systems composed of well-characterized regulatory parts (promoters, repressors, activators) assembled into defined network architectures to perform specific functions — toggling between states, oscillating, sensing inputs, or computing logic. The field was launched by two landmark circuits in 2000: the toggle switch (Gardner et al., bistable memory element from mutual repression) and the repressilator (Elowitz and Leibler, synthetic oscillator from a three-gene repression ring). Synthetic circuits serve as test beds for systems biology theory — by building a circuit from first principles and comparing its behavior to mathematical predictions, researchers validate models of gene regulation, noise, and network dynamics.
 
+## How It's Best Learned
+Model the toggle switch as two ODEs and draw the nullclines for Hill coefficients of 1 and 2. Count the crossings, then simulate a short inducer pulse that flips the state. Do the same for the repressilator: vary protein lifetime and Hill coefficient to map where it oscillates. Then run each model stochastically to see the cell-to-cell variation the deterministic version hides.
+
+## Common Misconceptions
+- Any ring with an odd number of repressors will oscillate. (The odd ring gives the needed negative feedback, but sustained oscillation also needs steep enough repression and well-matched timescales. Protein lifetimes that are too long can damp the cycle.)
+- Parts characterized on their own will behave the same once they are connected. (A downstream module binds and uses up upstream molecules, which can change the upstream behavior. Shared cell resources add further coupling.)
+- A circuit that works in one strain and medium will work the same elsewhere. (Host strain, plasmid copy number, growth rate and temperature can all shift part behavior, so circuits often need retuning in a new context.)
+- Once built, a circuit stays the same in a growing culture. (Circuits impose a cost on the host, so mutants that break the circuit can grow faster and take over the culture across many generations.)
+
 ## Questions
 
 ```yaml

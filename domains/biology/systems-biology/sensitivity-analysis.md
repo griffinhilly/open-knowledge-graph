@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Sensitivity analysis determines how changes in model parameters or inputs affect model outputs, identifying which parameters most strongly influence the system's behavior. Local sensitivity analysis computes partial derivatives of outputs with respect to individual parameters near a specific operating point. Global sensitivity analysis (Sobol indices, Morris screening) explores the full parameter space, accounting for interactions between parameters and nonlinear effects. In metabolic systems, metabolic control analysis (MCA) formalizes sensitivity as flux control coefficients and elasticity coefficients. Sensitivity analysis guides experimental design (measure the parameters that matter most), identifies drug targets (the most sensitive nodes in disease networks), and reveals which model predictions are robust versus parameter-dependent.
 
+## How It's Best Learned
+Take a small ODE model, such as a two-step enzyme pathway, and compute local sensitivities by changing each parameter by 1% at two different operating points. Note how the ranking changes between the points. Then run Morris screening and Sobol analysis over the same ranges, and widen one parameter's range to watch its index grow. For MCA, check the summation theorem numerically on the same pathway.
+
+## Common Misconceptions
+- Changing one parameter at a time shows how parameters work together. (One-at-a-time changes miss interactions, where the effect of one parameter depends on another's value. Variance-based global methods measure those interactions.)
+- A global sensitivity index is a fixed property of the model. (Global indices depend on the parameter ranges and distributions you choose. Widening one parameter's range can raise its index and lower the others'.)
+- Every flux control coefficient lies between 0 and 1. (In branched pathways, some coefficients can be negative and others can exceed 1, while the total still sums to 1.)
+
 ## Questions
 
 ```yaml

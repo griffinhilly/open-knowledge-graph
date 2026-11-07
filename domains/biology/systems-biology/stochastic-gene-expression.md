@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 Gene expression is inherently stochastic: transcription and translation are probabilistic events involving small numbers of molecules (often fewer than 10 mRNA copies per gene per cell), producing random fluctuations in protein levels even among genetically identical cells in the same environment. This noise is decomposed into intrinsic noise (randomness in the biochemical reactions of a specific gene) and extrinsic noise (cell-to-cell variation in shared cellular machinery like ribosomes and polymerases). Stochastic modeling using the chemical master equation or Gillespie algorithm captures these fluctuations, revealing that noise is not merely an imperfection but a functional feature exploited by cells for bet-hedging, probabilistic differentiation, and phenotypic diversity.
 
+## How It's Best Learned
+Write a Gillespie simulation for the simplest case, an mRNA made at a constant rate and degraded, and compare its histogram with a Poisson distribution of the same mean. Next, add a promoter that switches on and off and watch the distribution widen. Then simulate two identical reporters in many cells that share a fluctuating ribosome level, and split their scatter plot into intrinsic and extrinsic parts.
+
+## Common Misconceptions
+- Most cell-to-cell variation in a reporter is measurement error. (Dual-reporter and single-molecule counting experiments show real variation between identical cells. Instrument noise must still be measured and subtracted.)
+- Genes with higher expression are noisier, since there are more molecules to fluctuate. (The variance grows with expression, but relative noise, measured as the coefficient of variation, tends to fall as the mean rises for intrinsic noise.)
+- The average of many stochastic simulations always matches the ODE solution. (For simple linear reactions it does. With nonlinear or bistable dynamics the mean can differ, and an average may describe no real cell at all.)
+
 ## Questions
 
 ```yaml

@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 Reaction-diffusion models explain how spatial patterns — stripes, spots, waves, gradients — emerge spontaneously in biological systems from the interaction of chemical reactions and molecular diffusion. Alan Turing's 1952 paper showed that a system of two reacting and diffusing substances (morphogens) can undergo a **diffusion-driven instability**: a spatially uniform steady state that is stable without diffusion becomes unstable when diffusion is added, provided the inhibitor diffuses faster than the activator. This counterintuitive result — that diffusion, which normally smooths out heterogeneity, can generate pattern — arises because rapid inhibitor diffusion creates local activation with long-range inhibition, selecting spatial wavelengths that grow into periodic patterns. Reaction-diffusion PDEs describe these dynamics mathematically and have been applied to animal coat patterns (leopard spots, zebrafish stripes), digit formation in limb development, hair follicle spacing, and bacterial colony patterns. They represent the fundamental spatial extension of the well-mixed ODE models used elsewhere in systems biology.
 
+## How It's Best Learned
+Run a one-dimensional activator-inhibitor model on a grid with small random noise as the starting state. Start with equal diffusion rates, then raise the inhibitor's diffusion step by step until peaks appear. Next, do the linear stability analysis by hand: find the growth rate as a function of wavenumber and check that its peak predicts the spacing you saw. Finally, try the model in 2D.
+
+## Common Misconceptions
+- If the inhibitor diffuses faster than the activator, a pattern will form. (Faster inhibitor diffusion is needed in the classic two-species model but does not by itself produce a pattern. The reaction kinetics must also meet the instability conditions, and the domain must be large enough to hold at least one wavelength.)
+- A larger tissue produces larger stripes or spots. (The spacing is set by reaction and diffusion parameters. A larger domain usually holds more repeats of about the same size.)
+- Any evenly spaced pattern in an embryo is a Turing pattern. (Periodic structures can also come from other mechanisms, such as a clock-and-wavefront system in somite formation or a pre-pattern laid down by gradients. A Turing mechanism needs its own evidence.)
+
 ## Questions
 
 ```yaml

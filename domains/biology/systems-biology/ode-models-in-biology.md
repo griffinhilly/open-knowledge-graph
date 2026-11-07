@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 Ordinary differential equation (ODE) models describe how the concentrations of biological molecules change over time as continuous functions of production, degradation, and interaction rates. In systems biology, ODEs model gene expression dynamics (mRNA and protein levels), signaling cascades (phosphorylation kinetics), and metabolic reactions (enzyme-catalyzed flux). Hill functions capture cooperative regulation, Michaelis-Menten kinetics describe enzyme saturation, and mass-action kinetics model binding events. ODE models can predict transient dynamics, steady states, oscillations, and bifurcations — behaviors that emerge from the nonlinear interactions between components and are inaccessible to purely topological or Boolean analyses.
 
+## How It's Best Learned
+Start from dP/dt = f(A) - d·P with constant production and solve it by hand to see the exponential approach and the half-time ln2/d. Replace the constant with a Hill function of P itself, so the gene activates its own production, and plot production and degradation against P on one graph. Their crossings are the steady states. Then raise the Hill coefficient until there are three crossings, and simulate from several starting values to find the two stable states.
+
+## Common Misconceptions
+- The Hill coefficient equals the number of binding sites. (For cooperative binding, the number of sites sets an upper limit on the Hill coefficient. Measured values are often lower, and steep responses can also come from other mechanisms.)
+- A model that settles to one steady state from one starting point has only that steady state. (Other initial conditions may reach other stable states. Checking for bistability means simulating from several starting points or finding all the steady states.)
+- ODEs describe any molecular system well, since concentrations change smoothly. (ODEs treat molecule numbers as continuous averages. When a species has only a few molecules per cell, random fluctuations matter and a stochastic model fits better.)
+
 ## Questions
 
 ```yaml
