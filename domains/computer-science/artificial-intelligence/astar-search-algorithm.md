@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: monte-carlo-tree-search
   type: soft
+- id: uninformed-search-strategies
+  type: soft
 tags:
 - search
 - graphs

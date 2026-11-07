@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: sql-views
   type: soft
+- id: join-algorithms
+  type: soft
 tags:
 - query optimization
 - cost-based optimization

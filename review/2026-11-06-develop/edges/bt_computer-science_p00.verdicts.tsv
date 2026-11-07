@@ -1,0 +1,27 @@
+ADD	loss-functions	backpropagation	soft	high	Backprop computes gradients of a loss, so knowing loss functions helps but the idea of a scalar loss suffices.
+DROP	optimization-algorithms	backpropagation	-	high	Optimizers like Adam consume gradients that backprop produces; the dependency runs from backprop to optimizers.
+ADD	vanishing-gradient-problem	batch-normalization	soft	medium	BN is commonly taught as a remedy for unstable gradients, though B's explainer motivates it by covariate shift instead.
+DROP	classification-metrics	confusion-matrix	-	high	classification-metrics already lists confusion-matrix as a prerequisite; adding the reverse makes a cycle.
+ADD	backtracking-search-csp	constraint-propagation	soft	high	B's explainer contrasts propagation with backtracking and describes interleaving the two.
+DROP	heuristic-search-functions	constraint-propagation	-	high	Arc consistency and AC-3 do not use A*-style heuristic functions.
+ADD	temporal-difference-learning	deep-q-networks	soft	high	DQN trains on TD targets; q-learning (already hard) covers most of it.
+DROP	shap-lime	fairness-machine-learning	-	medium	B defines fairness via group rates and error rates, not via feature attribution methods.
+DROP	curse-of-dimensionality	feature-engineering-selection	-	high	curse-of-dimensionality already lists feature-engineering-selection as a prerequisite; reverse would be a cycle.
+DROP	meta-learning	few-shot-learning	-	high	meta-learning already lists few-shot-learning as a prerequisite; reverse would be a cycle.
+DROP	feature-scaling-normalization	gradient-descent-optimization	-	medium	GD is a calculus-level optimization topic; scaling is a practical topic that draws on GD, not the reverse.
+DROP	bayesian-optimization	hyperparameter-optimization	-	high	bayesian-optimization already lists hyperparameter-optimization as a prerequisite; B only surveys BO.
+DROP	support-vector-regression	kernel-methods	-	high	Kernel methods build on SVMs; SVR is an application of kernels, not a basis for them.
+ADD	vanishing-gradient-problem	lstm-gated-networks	soft	high	B's Core Idea states LSTMs exist to address vanishing gradients.
+DROP	model-based-reinforcement-learning	monte-carlo-tree-search	-	high	MCTS is a standalone planning algorithm; model-based RL (e.g. AlphaZero) draws on MCTS, not the reverse.
+DROP	activation-functions	neural-networks-intro	-	high	activation-functions already hard-requires neural-networks-intro; reverse would be a cycle.
+DROP	feature-scaling-normalization	neural-networks-intro	-	high	Neural network fundamentals do not depend on feature scaling.
+ADD	curse-of-dimensionality	principal-component-analysis	soft	medium	High-dimensional pain motivates PCA, but B is built on eigendecomposition and stands without it.
+DROP	multi-task-learning	representation-learning	-	medium	Representation learning is the general idea; multi-task learning (expert) applies it, not the reverse.
+DROP	knowledge-graphs	semantic-networks	-	high	Semantic networks are the older, simpler precursor; knowledge graphs draw on them.
+DROP	time-series-forecasting	sequence-to-sequence-models	-	high	Seq2seq rests on LSTMs and attention; forecasting is not needed.
+DROP	data-augmentation	transfer-learning-neural	-	medium	B's explainer covers pretraining and fine-tuning with no use of augmentation.
+DROP	meta-learning	transfer-learning-neural	-	high	Path transfer -> few-shot -> meta-learning exists; reverse would create a cycle.
+DROP	multi-task-learning	transfer-learning-neural	-	medium	Transfer learning is explained via pretrain-then-fine-tune; multi-task learning (expert) is a sibling, not a base.
+DROP	self-supervised-learning	transfer-learning-neural	-	medium	B uses supervised ImageNet pretraining; self-supervised (expert) builds on representation learning, not the reverse.
+JUDGE	self-attention	transformer-architecture	-	medium	self-attention lists transformer-architecture as prereq, yet B is built on self-attention; a human should pick the direction.
+DROP	few-shot-learning	zero-shot-learning	-	high	few-shot-learning already lists zero-shot-learning as a soft prerequisite; reverse would be a cycle.

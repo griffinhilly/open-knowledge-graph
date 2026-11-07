@@ -6,6 +6,8 @@ course: distributed-systems
 prerequisites:
 - id: distributed-systems-introduction
   type: hard
+- id: remote-procedure-calls
+  type: soft
 builds-toward:
 - two-phase-commit-protocol
 tags:

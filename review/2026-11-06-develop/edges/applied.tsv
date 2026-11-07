@@ -680,3 +680,12 @@ ADD	finite-distributed-lag-models	lagged-dependent-variable-regression	soft
 ADD	capital-structure-modigliani-miller	dividend-policy-and-valuation	soft
 ADD	samuelson-condition-public-goods	vcg-auction-mechanism	soft
 ADD	harrod-domar-growth-model	foreign-aid-effectiveness	soft
+ADD	two-dimensional-arrays	graph-adjacency-list-matrix-representations	soft
+ADD	linear-search	binary-search-algorithm	soft
+ADD	join-algorithms	query-optimization	soft
+ADD	multiple-access-protocols	ethernet-protocol	soft
+ADD	multiple-access-protocols	wireless-networking-802-11	soft
+ADD	uninformed-search-strategies	heuristic-search-functions	soft
+ADD	uninformed-search-strategies	astar-search-algorithm	soft
+ADD	remote-procedure-calls	at-least-once-semantics	soft
+ADD	remote-procedure-calls	idempotent-operations	soft

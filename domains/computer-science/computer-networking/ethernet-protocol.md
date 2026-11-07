@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: osi-model-layers
   type: soft
+- id: multiple-access-protocols
+  type: soft
 builds-toward:
 - mac-addressing
 - switching-basics

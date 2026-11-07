@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mac-addressing
   type: hard
+- id: multiple-access-protocols
+  type: soft
 builds-toward:
 - mobile-ip-and-handover
 tags:

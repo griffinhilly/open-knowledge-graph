@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: linked-lists
   type: hard
+- id: two-dimensional-arrays
+  type: soft
 builds-toward:
 - graph-depth-first-search-applications
 - graph-breadth-first-search-applications

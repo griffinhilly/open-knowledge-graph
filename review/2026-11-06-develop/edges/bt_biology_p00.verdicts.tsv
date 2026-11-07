@@ -172,3 +172,65 @@ DROP	chromosomal-evolution	speciation	-	medium	The advanced karyotype topic shou
 DROP	apparent-competition-indirect-effects	trophic-cascade-top-down-control	-	medium	Cascades are predator-herbivore-producer chains; apparent competition is a separate indirect effect.
 DROP	antipredator-defenses-and-mimicry	trophic-cascades-in-food-webs	-	medium	Cascade dynamics do not draw on defense and mimicry mechanisms.
 DROP	plant-animal-coevolutionary-networks	trophic-cascades-in-food-webs	-	medium	Cascades rest on food web structure, not on coevolutionary mutualist networks.
+DROP	polyploidy-instant-speciation	adaptive-radiation	-	medium	Radiation draws on ecological speciation and opportunity, not polyploid isolation.
+DROP	directional-selection	adaptive-radiation	-	medium	Radiation already draws on natural selection (soft); the advanced directional-selection topic adds nothing needed.
+DROP	positive-selection	adaptive-radiation	-	medium	Radiation is an ecological-diversification pattern; molecular positive selection is not drawn on.
+DROP	punctuated-equilibrium	adaptive-radiation	-	medium	Radiation does not depend on the punctuated-equilibrium tempo debate.
+DROP	evolutionary-trade-offs	adaptive-radiation-molecular-basis	-	medium	The molecular basis (duplication, regulatory divergence) does not draw on life-history trade-offs.
+DROP	evolutionary-transitions	adaptive-radiation-molecular-basis	-	medium	Fossil-record transitions between major groups are not drawn on by radiation genetics.
+DROP	evolvability	adaptive-radiation-molecular-basis	-	medium	The topic's mechanisms are duplication and regulatory change; evolvability is not invoked.
+ADD	major-evolutionary-innovations	adaptive-radiation-molecular-basis	soft	medium	Innovations via duplication and regulatory change are what open niches for radiation.
+ADD	gene-flow-migration	allopatric-speciation	soft	high	Allopatric speciation is defined by barriers that stop gene flow.
+ADD	inclusive-fitness	altruism-evolution	soft	high	Altruism evolves by kin selection, which rests on inclusive fitness.
+ADD	kin-selection-theory	altruism-evolution	soft	high	Kin selection is the primary explanation the topic gives for altruism.
+DROP	fitness-landscape	balancing-selection	-	medium	Overdominance and frequency dependence are explained without fitness-landscape theory.
+DROP	heterozygote-advantage	balancing-selection	-	medium	The reverse edge already exists (balancing-selection is a soft prereq of heterozygote-advantage); adding would create a 2-cycle.
+DROP	genealogical-methods-phylogenetics	bayesian-phylogenetics	-	medium	Bayesian tree inference draws on likelihood and Bayes, not coalescent genealogy.
+ADD	phylogenetic-inference	bayesian-phylogenetics	soft	high	Bayesian methods are one approach within phylogenetic inference.
+DROP	wahlund-effect	coalescent-theory	-	high	Coalescent theory rests on drift and Ne; the Wahlund effect is not used.
+DROP	wahlund-effect	effective-population-size	-	high	Ne is defined from drift and reproductive variance; substructure heterozygote deficit is not needed.
+ADD	mutation-selection-balance	efficacy-selection-finite-populations	soft	medium	Whether drift fixes deleterious alleles builds on the balance between mutation and selection.
+DROP	recombination-evolution	efficacy-selection-finite-populations	-	medium	The s versus 1/(2Ne) threshold does not draw on recombination-rate evolution.
+DROP	slightly-deleterious-mutations	efficacy-selection-finite-populations	-	medium	Slightly deleterious mutations applies the efficacy idea; adding would also cycle through nearly-neutral-evolution.
+DROP	heterochrony-development-evolution	evo-developmental-modules	-	medium	Modularity does not draw on changes in developmental timing.
+ADD	regulatory-evolution	evo-developmental-modules	soft	medium	Modular cis-regulatory elements are how modules evolve independently.
+DROP	local-adaptation-genotype-by-environment	evolutionary-constraints	-	medium	Developmental, genetic and historical constraints do not draw on GxE.
+DROP	kin-selection-hamilton	evolutionary-game-theory	-	medium	Game theory rests on frequency-dependent payoffs, not on kin selection.
+ADD	frequency-dependent-selection-polymorphism	evolutionary-stable-strategy	soft	medium	ESS payoffs depend on strategy frequencies, as in frequency-dependent selection.
+ADD	hawk-dove-game	evolutionary-stable-strategy	soft	medium	The topic uses hawk-dove as its worked example of a mixed ESS.
+ADD	exaptation	evolutionary-transitions	soft	medium	Intermediate stages adaptive in their own context often involve co-opted traits.
+DROP	punctuated-equilibrium	evolutionary-transitions	-	medium	Transitions are documented through intermediate fossils, not through tempo theory.
+DROP	adaptive-landscape-crossing	evolvability	-	medium	Evolvability rests on architecture, mutation and Ne, not on landscape crossing.
+ADD	efficacy-selection-finite-populations	evolvability	soft	medium	The topic lists effective population size as a determinant of evolvability.
+ADD	kin-selection-theory	hamilton-rule	soft	medium	Hamilton's rule is the quantitative form of kin selection.
+ADD	evolutionary-genetics-foundations	hardy-weinberg-advanced	soft	medium	The foundations of allele and genotype frequencies support the advanced HW applications.
+DROP	adaptive-landscape-crossing	major-evolutionary-innovations	-	medium	Novelties arise by co-option and regulatory change, not by landscape crossing.
+DROP	chromosomal-evolution	major-evolutionary-innovations	-	medium	The topic draws on gene duplication and regulatory change, not karyotype rearrangement.
+ADD	substitution-rates	molecular-clock	soft	medium	The clock is a constant substitution rate, so the rate concept helps.
+DROP	molecular-dating-phylogenetic-clocks	molecular-evolution-rates	-	medium	Dating draws on rate variation, not the reverse.
+DROP	effective-recombination-rate	molecular-evolution-rates	-	medium	Rate variation across sites, genes and lineages does not draw on linked selection.
+DROP	genealogical-methods-phylogenetics	molecular-evolution-rates	-	medium	Rate variation is explained by constraint and lineage traits, not coalescent methods.
+ADD	efficacy-selection-finite-populations	nearly-neutral-evolution	soft	medium	Nearly neutral theory is built on the s versus 1/(2Ne) threshold.
+DROP	mutation-rate-evolution	nearly-neutral-evolution	-	medium	The drift-barrier idea applies nearly neutral theory to mutation rates, not the reverse.
+DROP	mutation-selection-balance	nearly-neutral-evolution	-	medium	Nearly neutral theory rests on drift, Ne and fixation probability, not mutation-selection balance.
+ADD	polyploidy-autopolyploidy-mechanisms	polyploidy-speciation	soft	high	Polyploid speciation draws on how chromosome doubling arises.
+ADD	protein-evolution	positive-selection	soft	medium	Detecting positive selection (dN/dS > 1) is read against functional constraint.
+DROP	frequency-dependent-selection-polymorphism	sexual-selection	-	medium	Mate competition and choice are explained without frequency-dependent selection.
+DROP	rna-secondary-structure-stability	alternative-splicing-mechanisms	-	medium	Alternative splicing draws on splicing machinery, not RNA folding thermodynamics.
+ADD	test-cross-analysis-determining-genotypes	chi-square-analysis-in-genetics	soft	medium	Chi-square tests are often applied to observed test-cross ratios.
+ADD	transcription-factors-and-gene-regulation	chromatin-remodeling-and-histone-acetylation	soft	medium	HATs and remodelers are recruited by transcription factors.
+DROP	transcription-factor-binding-specificity	chromatin-remodeling-swi-snf	-	medium	SWI/SNF is recruited by TFs, but the topic does not draw on DNA-recognition specificity.
+ADD	recombinant-dna-technology	crispr-gene-editing	soft	medium	Delivering Cas9 and guide RNAs uses recombinant DNA tools; molecular cloning is already hard.
+DROP	microbial-biotechnology-industrial-applications	crispr-gene-editing	-	medium	CRISPR editing does not draw on industrial microbial applications.
+DROP	dna-fingerprinting-rflp	dna-barcoding-markers	-	medium	Barcoding uses sequence divergence of marker genes, not restriction fragment patterns.
+ADD	dna-replication-accuracy-proofreading	dna-repair-mechanisms	soft	medium	Repair handles errors that escape polymerase proofreading.
+ADD	eukaryotic-promoters-tfiid-complex	enhancers-silencers-eukaryotic	soft	high	Enhancers and silencers are defined by how they act on a distant promoter.
+DROP	nucleus-structure-and-function	gene-expression-overview	-	medium	The central dogma does not draw on nuclear envelope or nucleolus detail.
+DROP	locus-control-regions-lcr	gene-regulation-eukaryotes	-	medium	LCRs are a specialized case that builds on general eukaryotic regulation.
+DROP	ribosomal-rna-and-ribosome-assembly	gene-regulation-eukaryotes	-	high	Eukaryotic gene regulation does not draw on rRNA catalysis or ribosome assembly.
+DROP	transcription-factors-binding-domains	gene-regulation-eukaryotes	-	medium	Adding would close a cycle (gene-regulation-eukaryotes -> TF-and-gene-regulation -> TF-binding-specificity -> TF-binding-domains).
+DROP	haploinsufficiency-dosage	genetic-heterogeneity-locus	-	medium	Locus and allelic heterogeneity do not draw on dosage sensitivity.
+DROP	variant-annotation-interpretation	genetic-heterogeneity-locus	-	medium	Heterogeneity is a Mendelian concept that does not need variant-annotation pipelines.
+DROP	homologous-recombination-rad51-complex	genetic-mapping-recombination-frequency	-	medium	Mapping uses crossover frequencies, not the molecular mechanism of strand exchange.
+DROP	dna-proofreading-and-error-correction	genetic-recombination-and-linkage-mapping	-	high	Linkage analysis does not draw on mismatch repair.
+DROP	dna-replication-mechanics-leading-lagging	genetic-recombination-and-linkage-mapping	-	high	Linkage analysis does not draw on leading and lagging strand synthesis.

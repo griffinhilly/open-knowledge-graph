@@ -1,0 +1,11 @@
+ADD	two-dimensional-arrays	graph-adjacency-list-matrix-representations	soft	high	an adjacency matrix is a 2D array; row/column indexing and nested traversal are assumed
+ADD	linear-search	binary-search-algorithm	soft	high	binary search is motivated and analyzed by contrast with linear search
+ADD	join-algorithms	query-optimization	soft	high	the optimizer chooses among nested-loop, sort-merge and hash joins by estimated cost
+ADD	multiple-access-protocols	ethernet-protocol	soft	high	classic Ethernet uses CSMA/CD with binary exponential backoff
+ADD	multiple-access-protocols	wireless-networking-802-11	soft	high	802.11 uses CSMA/CA, taught as a variant of CSMA
+ADD	uninformed-search-strategies	heuristic-search-functions	soft	high	heuristics are introduced as an improvement on blind search over the same problem formulation
+ADD	uninformed-search-strategies	astar-search-algorithm	soft	high	A* extends uniform-cost search by adding h(n) to g(n)
+ADD	remote-procedure-calls	at-least-once-semantics	soft	high	at-least-once delivery is first met as an RPC call semantics under retries
+ADD	remote-procedure-calls	idempotent-operations	soft	high	idempotence is motivated by safe retrying of remote calls
+ADD	cpa-cca-security-definitions	modes-of-operation	soft	high	modes such as CBC and CTR are judged by whether they meet CPA security; CTR's malleability shows CCA failure
+ADD	cpa-cca-security-definitions	authenticated-encryption	soft	high	authenticated encryption is the standard route to CCA security

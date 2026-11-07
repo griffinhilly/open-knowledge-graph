@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: greedy-algorithms
   type: soft
+- id: uninformed-search-strategies
+  type: soft
 builds-toward:
 - local-search-optimization
 - constraint-propagation

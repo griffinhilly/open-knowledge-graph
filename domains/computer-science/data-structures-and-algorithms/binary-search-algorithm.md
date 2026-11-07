@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: array-representation-operations-efficiency
   type: hard
+- id: linear-search
+  type: soft
 builds-toward:
 - binary-search-trees
 - divide-and-conquer-strategy
