@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: extemporaneous-speaking
   type: soft
+- id: collaborative-discussion-skills
+  type: soft
 tags:
 - panel
 - discussion

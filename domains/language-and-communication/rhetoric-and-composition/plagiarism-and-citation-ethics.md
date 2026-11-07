@@ -6,6 +6,8 @@ course: rhetoric-and-composition
 prerequisites:
 - id: research-and-citation
   type: hard
+- id: ellipses-and-brackets-in-quotations
+  type: soft
 builds-toward:
 - academic-writing-conventions
 tags:

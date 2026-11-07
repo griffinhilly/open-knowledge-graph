@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: grammaticalization-pathways
   type: soft
+- id: semantic-change
+  type: soft
 tags:
 - language-change
 - grammaticalization

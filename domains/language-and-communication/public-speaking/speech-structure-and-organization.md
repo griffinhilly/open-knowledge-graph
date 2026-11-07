@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: audience-analysis-for-speaking
   type: soft
+- id: speech-topic-and-purpose-selection
+  type: soft
 builds-toward:
 - speech-introductions-and-conclusions
 - informative-speaking

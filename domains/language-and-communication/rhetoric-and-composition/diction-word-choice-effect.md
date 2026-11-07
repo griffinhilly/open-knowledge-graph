@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: hyperbole-understatement-restraint
   type: soft
+- id: synonyms-antonyms-shades-of-meaning
+  type: soft
 builds-toward:
 - rhetorical-devices-in-prose
 - revision-strategies

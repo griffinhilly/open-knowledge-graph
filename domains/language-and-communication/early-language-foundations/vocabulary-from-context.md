@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: predicting-and-inferring
   type: soft
+- id: word-parts-affixes-and-roots
+  type: soft
 builds-toward: []
 tags:
 - vocabulary

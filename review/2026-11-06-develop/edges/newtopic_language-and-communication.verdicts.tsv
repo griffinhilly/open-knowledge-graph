@@ -1,0 +1,25 @@
+ADD	informative-writing-early	paragraph-writing-intro	soft	high	early informative pieces group related facts, the precursor of paragraphing
+ADD	informative-writing-early	expository-writing	soft	high	elementary informative writing is the early form of expository prose
+ADD	word-parts-affixes-and-roots	vocabulary-from-context	soft	high	morphology is a word-learning strategy used alongside context
+ADD	word-parts-affixes-and-roots	prefix-suffix-affixation	soft	high	school-level affix knowledge underlies the formal treatment of affixation
+ADD	synonyms-antonyms-shades-of-meaning	semantic-relations	soft	high	formal synonymy, antonymy and polysemy generalize the school-level relations
+ADD	synonyms-antonyms-shades-of-meaning	diction-word-choice-effect	soft	high	choosing among near-synonyms is the basis of diction
+ADD	collaborative-discussion-skills	panel-discussion-skills	soft	high	panel discussion extends basic discussion norms
+ADD	commonly-confused-words	sentence-level-editing	soft	high	editing passes target homophone and usage errors
+ADD	conditional-sentences	formal-semantics-of-modality	soft	high	counterfactual conditionals are a core case for modal semantics
+ADD	ellipses-and-brackets-in-quotations	quotation-integration-writing	soft	high	trimming and adjusting quotations relies on these marks
+ADD	ellipses-and-brackets-in-quotations	plagiarism-and-citation-ethics	soft	high	misleading ellipses are a form of source misrepresentation
+ADD	count-and-noncount-nouns	articles-a-an-the-usage	soft	high	a/an versus zero article depends on countability
+ADD	count-and-noncount-nouns	determiners-and-articles	soft	high	quantifier choice (much/many, few/little) depends on countability
+ADD	count-and-noncount-nouns	subject-verb-agreement	soft	high	noncount nouns take singular verbs
+ADD	process-analysis-writing	demonstration-speeches	soft	high	a demonstration speech is spoken directive process analysis
+ADD	classification-and-division-writing	organizational-patterns-argument	soft	high	classification is one of the organizational patterns arguments draw on
+ADD	speech-topic-and-purpose-selection	speech-structure-and-organization	soft	high	main points are organized around the specific purpose and central idea
+ADD	speech-topic-and-purpose-selection	informative-speaking	soft	high	an informative speech starts from a specific informative purpose
+ADD	speech-topic-and-purpose-selection	persuasive-speech-design	soft	high	persuasive design starts from a specific persuasive purpose
+ADD	speech-topic-and-purpose-selection	outlining-and-speaking-notes	soft	high	preparation outlines open with the specific purpose and central idea
+ADD	design-features-of-language	language-universals	soft	high	universals research builds on the question of what all languages share
+ADD	design-features-of-language	sign-language-linguistics	soft	high	sign languages are the key test of which design features are modality-independent
+ADD	acoustic-phonetics	suprasegmental-phonology	soft	high	pitch, duration and intensity are measured acoustically
+ADD	acoustic-phonetics	intonational-phonology	soft	high	intonation analysis relies on F0 tracks from acoustic analysis
+ADD	semantic-change	grammaticalization-pathways-semantics	soft	high	semantic bleaching is a special case of semantic change

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: claim-hierarchy-emphasis
   type: soft
+- id: classification-and-division-writing
+  type: soft
 builds-toward:
 - argumentative-essay-structure
 - persuasive-writing

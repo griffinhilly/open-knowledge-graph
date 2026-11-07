@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: language-acquisition
   type: soft
+- id: design-features-of-language
+  type: soft
 tags:
 - universals
 - universal grammar

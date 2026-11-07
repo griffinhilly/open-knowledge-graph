@@ -14,3 +14,4 @@ newtopic_economics.verdicts.tsv
 newtopic_computer-science.verdicts.tsv
 bt_chemistry.verdicts.tsv
 newtopic_history.verdicts.tsv
+newtopic_language-and-communication.verdicts.tsv

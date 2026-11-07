@@ -912,3 +912,4 @@ DROP	gibbs-energy-molecular-basis	transition-state-geometry-activated-complex	-	
 DROP	quantum-tunneling-barrier-penetration	transition-state-geometry-activated-complex	-	medium	Transition-state geometry does not draw on tunneling.
 DROP	rotational-quantum-numbers-energy	vibrational-energy-levels-selection-rules	-	medium	B covers pure vibrational levels and rules, not rovibrational structure.
 DROP	rotational-spectroscopy-quantum-theory	vibrational-overtones-and-transitions	-	medium	Overtones and hot bands come from anharmonicity, not rotational theory.
+ADD	informative-writing-early	paragraph-writing-intro	soft	high	early informative pieces group related facts, the precursor of paragraphing	[would create cycle]

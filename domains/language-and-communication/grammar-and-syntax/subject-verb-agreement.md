@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: regular-plural-noun-formation
   type: soft
+- id: count-and-noncount-nouns
+  type: soft
 builds-toward:
 - pronoun-agreement
 - complex-sentence-construction

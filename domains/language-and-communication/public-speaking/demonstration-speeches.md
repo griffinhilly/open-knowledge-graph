@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: visual-aids-in-presentations
   type: soft
+- id: process-analysis-writing
+  type: soft
 tags:
 - demonstration
 - how-to

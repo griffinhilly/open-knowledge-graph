@@ -20,6 +20,8 @@ prerequisites:
   type: soft
 - id: technical-presentation-speaking
   type: soft
+- id: speech-topic-and-purpose-selection
+  type: soft
 builds-toward:
 - visual-aids-in-presentations
 - extemporaneous-speaking

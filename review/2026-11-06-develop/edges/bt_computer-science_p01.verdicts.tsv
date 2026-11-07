@@ -1,0 +1,99 @@
+ADD	cycle-detection-directed-undirected	topological-sort	soft	medium	Topo sort is defined only for DAGs and the DFS version needs explicit cycle detection.
+ADD	stacks-data-structure	topological-sort	soft	medium	DFS-based topo sort pushes finished nodes onto a stack and pops for the order.
+DROP	string-matching-naive-optimized	tries	-	medium	Tries are a string data structure; they do not draw on naive/KMP-style matching.
+DROP	sql-stored-procedures-control-flow	acid-properties	-	high	ACID is a transaction concept that needs no stored-procedure knowledge.
+ADD	b-trees	btree-indexes	soft	high	B-tree indexes apply the B-tree/B+ tree structure to disk pages.
+ADD	database-transactions	concurrency-control-databases	hard	high	Concurrency control is about interleaving transactions; the transaction concept is required.
+ADD	concurrency-control-databases	database-deadlocks	soft	high	Deadlocks arise from lock-based concurrency control.
+DROP	er-to-relational-schema-conversion	database-normalization-1nf-2nf	-	medium	Normalization works on any relation via FDs; ER mapping is not drawn upon.
+ADD	functional-dependencies	database-normalization-3nf-bcnf	hard	high	3NF and BCNF are defined in terms of functional dependencies and superkeys.
+ADD	database-normalization-1nf-2nf	database-schema-design	soft	high	Schema design chooses a normalization level, building on 1NF/2NF.
+DROP	join-dependencies-fifth-nf	database-schema-design	-	high	Schema design (formal-systems) stops at 3NF/BCNF; 5NF is not used.
+ADD	referential-integrity-cascading-actions	database-schema-design	soft	medium	Designing FK constraints includes choosing referential/cascade behavior.
+DROP	sql-triggers-before-after-events	database-schema-design	-	medium	Schema design covers tables, types and constraints, not triggers.
+DROP	join-dependencies-fifth-nf	denormalization-strategy	-	medium	Denormalization draws on BCNF-level normalization and joins, not 5NF.
+ADD	database-systems-introduction	entity-relationship-diagrams	soft	medium	ER modeling presumes the basic idea of a database system (also reached via relational-data-model).
+DROP	sql-constraint-enforcement	functional-dependencies	-	medium	FDs are relational theory built on keys; SQL constraint syntax is not needed.
+DROP	database-schema-design	index-types-btree-hash-bitmap	-	high	Index structures do not draw on schema design.
+DROP	denormalization-strategy	index-types-btree-hash-bitmap	-	high	Index types do not draw on denormalization trade-offs.
+DROP	distributed-replication-consistency-models	nosql-concepts	-	medium	NoSQL intro (formal-systems) only touches eventual consistency; the advanced replication topic builds on it, not vice versa.
+ADD	sql-isolation-levels-anomalies	optimistic-concurrency-control	soft	medium	OCC is an alternative mechanism for the anomalies isolation levels address.
+DROP	sql-constraint-enforcement	primary-and-foreign-keys	-	high	Reverse direction: SQL constraint syntax implements the PK/FK concept.
+DROP	sql-table-creation-definition	primary-and-foreign-keys	-	medium	PK/FK is a relational-model concept; DDL syntax is not needed to understand it.
+DROP	buffer-pool-cache-replacement-policies	query-execution-plan-analysis-explain	-	medium	EXPLAIN reading needs the optimizer, not buffer-pool policies (only a distractor mentions BUFFERS).
+DROP	index-selection-optimization	query-optimization	-	medium	Optimizer chooses among existing indexes; index design strategy builds on the optimizer.
+DROP	query-cardinality-selectivity-estimation	query-optimization	-	high	Cardinality estimation already lists query-optimization as hard prerequisite; adding would make a cycle.
+DROP	sql-aggregation	query-optimization	-	medium	Query optimization explainer draws on algebra, indexes and joins, not GROUP BY.
+DROP	sql-subqueries	query-optimization	-	medium	Query optimization does not use subqueries/CTEs in its content.
+DROP	table-statistics-histogram-collection	query-optimization	-	high	Table statistics depends (via cardinality estimation) on query-optimization; adding would make a cycle.
+DROP	sql-distinct-eliminating-duplicates	sql-aggregation	-	medium	Aggregation content never uses DISTINCT.
+DROP	sql-coalesce-nullif-functions	sql-case-when-expressions	-	high	Reverse direction: COALESCE/NULLIF are shorthand for CASE; CASE content never uses them.
+DROP	referential-integrity-cascading-actions	sql-constraint-enforcement	-	high	Referential integrity already lists sql-constraint-enforcement as a prerequisite; would make a cycle.
+DROP	sql-triggers-before-after-events	sql-constraint-enforcement	-	high	Declarative constraints come before triggers; constraints do not draw on triggers.
+DROP	primary-and-foreign-keys	sql-data-retrieval-select	-	medium	Basic SELECT queries do not need key concepts.
+DROP	sql-table-creation-definition	sql-data-retrieval-select	-	medium	SELECT on existing tables does not need DDL.
+DROP	sql-outer-joins-comprehensive	sql-joins	-	high	Outer joins lists sql-joins as hard prerequisite; would make a cycle.
+DROP	sql-sorting-limiting-results	sql-joins	-	high	Joins do not draw on ORDER BY/LIMIT.
+DROP	sql-ranking-functions-row-number	sql-lag-lead-offset-functions	-	high	Ranking already lists lag-lead as a prerequisite; would make a cycle.
+ADD	sql-filtering-conditions	sql-sorting-limiting-results	soft	medium	Sorting content relies on WHERE-then-ORDER BY execution order and keyset filters.
+DROP	er-to-relational-schema-conversion	sql-table-creation-definition	-	medium	CREATE/ALTER TABLE does not require ER-to-relational mapping.
+DROP	sql-case-when-expressions	sql-window-functions-introduction	-	medium	Window functions content never uses CASE.
+ADD	replication-strategies-analysis	causal-consistency	soft	medium	Causal consistency is discussed in terms of replicas and replication.
+ADD	vector-clocks	causal-consistency	soft	high	Causal consistency content uses vector clocks to track causal dependencies.
+DROP	multi-master-replication	consistency-models	-	high	Consistency models is foundational; multi-master (expert) builds on it.
+DROP	quorum-based-replication	distributed-hash-tables	-	medium	DHT content is consistent hashing and routing; quorums are not used.
+DROP	saga-pattern-distributed-transactions	distributed-lock-management	-	high	Distributed locks do not draw on sagas.
+DROP	chandy-lamport-algorithm	distributed-tracing	-	high	Tracing (spans, trace IDs) does not use snapshot algorithms.
+DROP	distributed-snapshots	distributed-tracing	-	high	Tracing does not use consistent-snapshot theory.
+DROP	byzantine-fault-tolerance	flp-impossibility	-	high	FLP concerns crash failures; BFT builds on consensus results, not the reverse.
+DROP	distributed-hash-tables	gossip-protocols	-	medium	Gossip content never mentions DHTs; DHTs may use gossip, not the reverse.
+DROP	hinted-handoff	gossip-protocols	-	medium	Gossip does not draw on hinted handoff.
+DROP	exactly-once-semantics	idempotent-operations	-	high	Reverse direction: exactly-once is built from idempotence plus retries.
+ADD	timeout-retry-strategies	idempotent-operations	soft	high	Idempotence content is motivated throughout by timeouts and retries.
+ADD	network-partition-tolerance	leader-election-algorithms	soft	medium	Leader election content centers on split-brain under network partitions.
+DROP	bloom-filters-distributed-systems	merkle-trees-data-consistency	-	high	Merkle trees do not draw on Bloom filters.
+ADD	distributed-systems-introduction	network-partition-tolerance	soft	high	Partition tolerance presumes the basic distributed-systems model.
+DROP	distributed-lock-management	paxos-algorithm	-	high	Paxos does not draw on lock managers; robust locks build on consensus.
+DROP	view-change-protocols	paxos-algorithm	-	medium	View change is a later refinement of leader failover; basic Paxos does not need it.
+DROP	distributed-lock-management	raft-algorithm	-	high	Raft does not draw on distributed locks.
+DROP	sequential-consistency	read-after-write-consistency	-	medium	Read-after-write content contrasts with linearizability, not sequential consistency.
+ADD	leader-election-algorithms	replication-strategies-analysis	soft	high	Replication strategies content discusses leader-based replication and failover.
+DROP	state-machine-replication	replication-strategies-analysis	-	medium	SMR (expert, needs Paxos/Raft) is a specialization built after the replication survey.
+DROP	three-phase-commit-protocol	saga-pattern-distributed-transactions	-	high	Sagas draw on 2PC's limits, not on 3PC.
+ADD	total-order-broadcast	state-machine-replication	soft	medium	SMR is applying a totally ordered command log to deterministic replicas.
+DROP	linearizability	strong-eventual-consistency	-	medium	SEC builds on eventual and causal consistency; linearizability is only a passing contrast.
+DROP	read-after-write-consistency	strong-eventual-consistency	-	medium	SEC content does not use session guarantees.
+DROP	sequential-consistency	strong-eventual-consistency	-	medium	SEC content does not use sequential consistency.
+DROP	at-least-once-semantics	two-phase-commit-protocol	-	medium	2PC content does not use delivery semantics.
+DROP	at-most-once-semantics	two-phase-commit-protocol	-	medium	2PC content does not use delivery semantics.
+DROP	exactly-once-semantics	two-phase-commit-protocol	-	high	Reverse direction: exactly-once processing often uses atomic commit.
+DROP	idempotent-operations	two-phase-commit-protocol	-	medium	2PC content does not use idempotence.
+DROP	linearizability	two-phase-commit-protocol	-	high	2PC is atomic commit; it does not draw on linearizability (expert).
+DROP	network-partition-tolerance	two-phase-commit-protocol	-	medium	2PC content discusses coordinator failure and blocking, not partitions.
+DROP	process-calculi	concurrency-verification	-	medium	Concurrency verification content uses Hoare/separation logic and model checking, not CCS/pi.
+ADD	interactive-theorem-proving	dependent-type-theory	soft	medium	DTT is best learned in Lean/Agda, so proof-assistant fluency helps; siblings, judgment call.
+DROP	floyd-hoare-verification	symbolic-execution	-	medium	Symbolic execution uses path conditions and solvers, not Hoare triples.
+DROP	rate-distortion-theory-advanced	information-theory-statistical-inference	-	medium	Content builds on KL, MDL and Fisher information, not rate-distortion.
+DROP	mimo-capacity	network-information-theory	-	medium	Network IT builds on channel capacity and coding theorems, not MIMO.
+ADD	mutual-exclusion-and-locks	counting-semaphores-resource-pools	soft	medium	Counting semaphores generalize the lock/mutual-exclusion idea (also reached via semaphores).
+DROP	memory-mapped-files-io	io-buffering-and-kernel-buffers	-	high	mmap already lists io-buffering as prerequisite; would make a cycle.
+ADD	operating-system-design-principles	kernel-architecture	soft	medium	Kernel architecture content invokes mechanism/policy design principles.
+ADD	shared-memory-inter-process-communication	memory-mapped-files-io	soft	medium	mmap content uses MAP_SHARED pages for inter-process sharing.
+DROP	condition-variable-patterns	monitors-and-condition-variables	-	high	Patterns already lists monitors as prerequisite; would make a cycle.
+ADD	mutual-exclusion-and-locks	monitors-and-condition-variables	soft	high	A monitor is a lock plus condition variables.
+ADD	scheduling-fairness-and-starvation	multilevel-feedback-queue-scheduling	soft	high	MLFQ priority boosting exists to prevent starvation.
+ADD	kernel-architecture	os-security-basics	soft	medium	OS security content relies on user/kernel mode and privilege separation.
+DROP	kernel-architecture	process-concept	-	medium	Process/PCB content does not use kernel structure (monolithic vs micro).
+DROP	operating-system-design-principles	process-model-formalization	-	medium	Process formalization draws on process concept and states, not design principles.
+ADD	process-concept	process-states-and-transitions	hard	high	Process states cannot be understood without the process concept.
+ADD	fcfs-scheduling-algorithm	round-robin-scheduling	soft	high	Round robin is FCFS with a time quantum and preemption.
+ADD	shortest-job-first-sjf-cpu-scheduling	scheduling-fairness-and-starvation	soft	medium	SJF starving long jobs is a standard starvation example used in the content.
+ADD	synchronization-problem	semaphores	soft	high	Semaphores are a solution to the critical-section/race problem.
+ADD	test-and-set-primitive	semaphores	soft	medium	Semaphore operations must be atomic, implemented via hardware primitives.
+ADD	message-passing-ipc-semantics	shared-memory-inter-process-communication	soft	medium	Shared memory content argues its advantage by contrast with copy-based message passing.
+ADD	command-line-arguments-and-environment	shell-execution-model	soft	medium	Shell content covers parsing and passing arguments and environment to exec.
+ADD	pipes-and-named-pipes-ipc	shell-execution-model	soft	high	Shell execution content centers on building pipelines with pipes.
+DROP	thread-model-user-vs-kernel	synchronization-problem	-	medium	Race conditions need threads, not the user-vs-kernel thread model.
+ADD	critical-section-problem-formalization	test-and-set-primitive	soft	high	Test-and-set is a hardware solution to the critical-section problem.
+ADD	virtual-memory-management	thrashing-and-working-set	soft	high	Thrashing is a demand-paged virtual memory phenomenon.
+ADD	virtual-address-translation-scheme	working-set-model	soft	medium	Working set reasons about page references, which presume paging.

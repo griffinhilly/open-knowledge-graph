@@ -6,6 +6,8 @@ course: grammar-and-syntax
 prerequisites:
 - id: nouns-intro
   type: hard
+- id: count-and-noncount-nouns
+  type: soft
 builds-toward:
 - noun-phrase-modification
 tags:

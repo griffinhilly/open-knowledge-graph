@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: formal-semantics-of-tense
   type: soft
+- id: conditional-sentences
+  type: soft
 tags:
 - semantics
 - modality

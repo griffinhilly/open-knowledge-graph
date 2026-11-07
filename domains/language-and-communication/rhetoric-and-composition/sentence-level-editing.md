@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: concision-and-clarity
   type: soft
+- id: commonly-confused-words
+  type: soft
 builds-toward:
 - academic-writing-conventions
 tags:

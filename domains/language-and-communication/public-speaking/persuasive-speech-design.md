@@ -32,6 +32,8 @@ prerequisites:
   type: soft
 - id: information-architecture-speech-design
   type: soft
+- id: speech-topic-and-purpose-selection
+  type: soft
 builds-toward:
 - call-to-action-in-speeches
 - refutation-in-debate

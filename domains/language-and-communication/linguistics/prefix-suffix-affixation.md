@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: morphological-structure
   type: hard
+- id: word-parts-affixes-and-roots
+  type: soft
 builds-toward:
 - derivational-morphology
 tags:

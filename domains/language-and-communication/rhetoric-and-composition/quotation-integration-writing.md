@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: quotation-and-dialogue-mechanics
   type: soft
+- id: ellipses-and-brackets-in-quotations
+  type: soft
 builds-toward:
 - paraphrase-synthesis-strategies
 - source-integration-strategies

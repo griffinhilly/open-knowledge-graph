@@ -98,3 +98,66 @@ DROP	atomic-mass-and-molar-mass	stoichiometry-calculations	-	medium	B already ha
 DROP	temperature-reading	thermochemistry-heat-and-energy	-	medium	Thermometer reading is a lab skill; enthalpy concepts do not need it.
 ADD	noble-gases-and-stability	valence-electrons-and-reactivity	soft	medium	Noble-gas stability illustrates why valence-shell filling governs reactivity.
 DROP	composition-of-compounds	writing-ionic-formulas	-	high	Charge balancing of ions does not use percent composition or empirical formulas.
+DROP	sandwich-compounds-metallocenes	catalytic-cycles-wilkinson-grubbs	-	medium	Wilkinson and Grubbs cycles use elementary organometallic steps, not metallocene bonding.
+DROP	mo-theory-transition-metal-complexes	electronic-spectra-tanabe-sugano	-	medium	Tanabe-Sugano analysis rests on ligand field theory and term symbols, which B already requires.
+DROP	metal-carbonyls	homogeneous-catalysis-mechanisms	-	medium	Redundant: B hard-requires catalytic-cycles-wilkinson-grubbs, which soft-requires A.
+DROP	bioinorganic-chemistry-metalloenzymes	inorganic-photochemistry	-	medium	B builds on electron transfer and coordination spectroscopy; metalloenzymes are not used.
+DROP	hsab-theory	reaction-mechanisms-coordination-compounds	-	medium	D/A/I substitution and the trans effect rest on crystal field theory, not HSAB.
+DROP	conducting-polymers-chemistry	photovoltaic-materials-chemistry	-	medium	B centers on semiconductor band gaps and inorganic thin films; conducting polymers are not needed.
+DROP	glass-and-amorphous-materials	thin-film-deposition-cvd-pvd	-	medium	CVD and PVD are deposition processes; amorphous-solid structure is not required.
+DROP	nanomaterials-synthesis	thin-film-deposition-cvd-pvd	-	medium	Sibling synthesis topic; B draws on kinetics and surface chemistry, not nanomaterials.
+DROP	iupac-nomenclature-alkenes	addition-to-alkynes	-	medium	Redundant: B hard-requires electrophilic-addition-to-alkenes, which soft-requires A.
+DROP	allylic-oxidation-selectivity	alcohol-oxidation-to-carbonyls	-	medium	Alcohol oxidation with Jones, DMP or Swern does not need allylic C–H oxidation.
+DROP	hydroboration-oxidation-alkenes	alcohol-oxidation-to-carbonyls	-	medium	A makes alcohols, but B only needs alcohol classes, not how they were made.
+DROP	oxymercuration-mechanism	alcohol-oxidation-to-carbonyls	-	medium	A makes alcohols, but B only needs alcohol classes, not how they were made.
+DROP	alcohol-oxidation-to-carbonyls	carbonyl-reduction-to-alcohols	-	medium	The reverse reaction is a useful pairing, but hydride reduction does not depend on it.
+DROP	hydroboration-oxidation-anti-markovnikov	catalytic-hydrogenation-lindlar-catalyst	-	medium	Both are syn additions, but hydrogenation does not draw on hydroboration.
+DROP	friedel-crafts-acylation-mechanism	directed-electrophilic-aromatic-substitution	-	medium	B already soft-links the alkylation mechanism; acylation adds nothing B needs.
+DROP	reaction-mechanisms-overview	e1-elimination	-	medium	Redundant: B hard-requires sn1-reaction, which reaches A through sn2-reaction.
+DROP	reaction-mechanisms-overview	e2-elimination	-	medium	Redundant: B hard-requires sn2-reaction, which hard-requires A.
+DROP	friedel-crafts-alkylation-acylation	electrophilic-aromatic-substitution-directors	-	medium	Directing effects come from σ-complex resonance; Friedel-Crafts specifics are not needed.
+DROP	aldehyde-and-ketone-structure-and-nomenclature	enamine-chemistry-mechanism-and-reactions	-	medium	B already hard-requires imine-enamine-formation, which builds on carbonyl addition.
+ADD	nucleophilic-acyl-substitution	enols-and-enolate-chemistry	soft	medium	B covers the Claisen condensation, which is enolate attack via acyl substitution.
+DROP	williamson-ether-synthesis-sn2	ether-cleavage-and-fragmentation	-	medium	Ether cleavage is acid-promoted SN1/SN2 on ethers; it does not need the Williamson synthesis.
+DROP	nomenclature-carbonyls-carboxylic-acids	friedel-crafts-alkylation-acylation	-	medium	B already requires the acylation mechanism, which brings the needed carbonyl basics.
+DROP	directed-ortho-para-effects	nucleophilic-aromatic-substitution	-	medium	SNAr ortho/para activation comes from anion stabilization, not EAS directing effects.
+DROP	molecular-geometry-basics	reaction-mechanisms-overview	-	medium	Arrow pushing rests on resonance and formal charge, not VSEPR geometry.
+DROP	amide-formation-and-properties	relative-reactivity-carboxylic-acid-derivatives	-	medium	B already hard-requires the acid-derivatives topic, which covers amides.
+DROP	carbocation-stability-rearrangement	resonance-in-organic-intermediates	-	medium	A applies resonance stabilization; the dependence runs from B to A.
+DROP	amine-alkylation-quaternary-ammonium	retrosynthetic-analysis	-	medium	Disconnection logic does not depend on this specific reaction.
+DROP	competing-substitution-and-elimination	retrosynthetic-analysis	-	medium	Disconnection logic does not depend on substitution/elimination competition.
+ADD	diels-alder-reaction	retrosynthetic-analysis	soft	medium	Diels-Alder is a standard ring-forming disconnection in retrosynthetic planning.
+DROP	electrophilic-aromatic-substitution-directors	retrosynthetic-analysis	-	medium	B already soft-links directed-electrophilic-aromatic-substitution, a duplicate of A.
+DROP	enamine-chemistry-mechanism-and-reactions	retrosynthetic-analysis	-	medium	Disconnection logic does not depend on enamine chemistry.
+DROP	relative-reactivity-carboxylic-acid-derivatives	retrosynthetic-analysis	-	medium	Disconnection logic does not depend on derivative reactivity order.
+DROP	selectivity-reduction-techniques	retrosynthetic-analysis	-	medium	B already soft-links protecting-groups and reduction-reactions-organic, which cover this.
+DROP	substitution-vs-elimination	retrosynthetic-analysis	-	medium	Disconnection logic does not depend on substitution/elimination competition.
+DROP	reaction-mechanisms-overview	sn1-reaction	-	medium	Redundant: B hard-requires sn2-reaction, which hard-requires A.
+DROP	alkane-structure-and-properties	sn2-reaction	-	medium	Steric hindrance in SN2 does not need alkane conformational analysis.
+DROP	chair-cyclohexane-conformations	stereochemistry-intro	-	medium	The intro covers isomer classes; chair conformations are more advanced and not needed.
+DROP	ether-cleavage-and-fragmentation	structure-elucidation-using-ir-nmr-and-ms	-	medium	B already hard-requires mass-spectrometry-organic; ether fragmentation is one narrow case.
+DROP	conformational-isomerism-newman-projections	walden-inversion-stereochemistry	-	medium	Inversion at a stereocenter needs SN2 and chirality, not Newman projections.
+DROP	sn1-sn2-reaction-selectivity-factors	zaitsevs-rule-hofmann-elimination	-	medium	Zaitsev/Hofmann regioselectivity rests on E2 and alkene stability, not SN1/SN2 choice.
+DROP	walsh-diagrams-structure-bonding-correlation	aromaticity-huckel-rule-pi-system	-	medium	Hückel aromaticity uses π-MO energies, not geometry-correlation Walsh diagrams.
+DROP	michaelis-menten-enzyme-kinetics-physical-chemistry	autocatalytic-reactions-mechanisms	-	medium	B already soft-links michaelis-menten-enzyme-kinetics, a near-duplicate of A.
+DROP	diffusion-controlled-reaction-kinetics	bimolecular-collision-dynamics-trajectory	-	medium	B is about gas-phase trajectories on a PES; solution diffusion limits are not used.
+DROP	hybridization-sp-orbitals	bonding-antibonding-orbitals	-	medium	B builds σ/π MOs from MO diagrams and orbital shapes, not from valence-bond hybridization.
+DROP	two-dimensional-nmr-spectroscopy	chemical-exchange-kinetics-nmr	-	medium	B analyzes 1D line shapes and coalescence; 2D methods are not needed.
+DROP	molecular-orbital-diagrams-polyatomic	electron-correlation-approximations	-	medium	B already hard-requires molecular-orbital-theory-advanced, which covers this.
+DROP	wave-function-normalization-orthogonality	electron-correlation-multi-electron-atoms	-	medium	B already hard-requires the Hartree-Fock method, which builds on wavefunction basics.
+DROP	hydrogen-atom-wavefunctions	electronic-spectroscopy-theory	-	medium	Redundant: B hard-requires selection-rules-spectroscopy, which soft-requires A.
+DROP	selection-rules-electronic-spectroscopy	excited-state-decay-pathways	-	medium	Redundant: B hard-requires electronic-spectroscopy-theory, which hard-requires selection-rules-spectroscopy.
+DROP	molecular-orbital-diagrams-polyatomic	group-theory-molecular-symmetry	-	high	Group theory is used to build polyatomic MO diagrams, so the dependence runs from B to A.
+DROP	aromaticity-huckel-rule-pi-system	molecular-orbital-symmetry-classification	-	medium	Symmetry classification of MOs needs group theory and MO theory, not aromaticity.
+DROP	exchange-integral-chemical-bonding	molecular-orbital-symmetry-classification	-	medium	Symmetry labels and allowed mixing do not need the exchange integral.
+DROP	molecular-spectroscopy-selection-rules	nmr-spectroscopy-spin-coupling	-	medium	B already hard-requires nmr-quantum-theory; general selection rules add nothing B uses.
+DROP	statistical-entropy-molecular-disorder	partition-function-thermodynamic-properties	-	high	Would form a cycle: A requires gibbs-energy-molecular-basis, which requires B.
+DROP	molecular-orbital-diagrams-and-bonding	perturbation-theory-quantum-chemistry	-	medium	MP perturbation theory builds on quantum-chemistry foundations, not MO diagrams.
+DROP	molecular-orbital-symmetry-classification	selection-rules-spectroscopy	-	medium	B derives rules from oscillator, rotor and H-atom transition integrals; MO symmetry labels are not needed.
+ADD	solute-solvent-interactions-solvation	solution-thermodynamics	soft	medium	B ties activity-coefficient deviations to solute-solvent interactions, which A explains.
+DROP	statistical-mechanics-foundations	statistical-thermodynamics-applications	-	medium	Redundant: B hard-requires molecular-partition-functions, which hard-requires A.
+DROP	post-hartree-fock-methods	time-dependent-dft-excited-states	-	medium	TDDFT builds on DFT and linear response; MP/CC theory is not needed.
+DROP	gibbs-energy-molecular-basis	transition-state-geometry-activated-complex	-	medium	B is about PES saddle-point geometry; molecular Gibbs energy is not used.
+DROP	quantum-tunneling-barrier-penetration	transition-state-geometry-activated-complex	-	medium	B treats classical crossing through the saddle point; tunneling is not needed.
+DROP	rotational-quantum-numbers-energy	vibrational-energy-levels-selection-rules	-	medium	B covers vibrational levels and Δv rules; rotational structure is not used.
+DROP	rotational-spectroscopy-quantum-theory	vibrational-overtones-and-transitions	-	medium	Overtones and hot bands come from anharmonicity and thermal population, not rotation.

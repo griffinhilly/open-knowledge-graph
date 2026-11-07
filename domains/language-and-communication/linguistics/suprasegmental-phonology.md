@@ -6,6 +6,8 @@ course: linguistics
 prerequisites:
 - id: phonological-systems
   type: hard
+- id: acoustic-phonetics
+  type: soft
 tags:
 - stress
 - tone

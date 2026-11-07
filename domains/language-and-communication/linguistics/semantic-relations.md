@@ -6,6 +6,8 @@ course: linguistics
 prerequisites:
 - id: lexical-semantics
   type: hard
+- id: synonyms-antonyms-shades-of-meaning
+  type: soft
 tags:
 - synonymy
 - antonymy

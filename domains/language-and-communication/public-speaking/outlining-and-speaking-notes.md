@@ -6,6 +6,8 @@ course: public-speaking
 prerequisites:
 - id: speech-structure-and-organization
   type: hard
+- id: speech-topic-and-purpose-selection
+  type: soft
 tags:
 - outline
 - notes

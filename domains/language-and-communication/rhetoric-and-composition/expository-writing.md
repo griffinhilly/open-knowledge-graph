@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: evidence-and-support
   type: hard
+- id: informative-writing-early
+  type: soft
 builds-toward:
 - synthesis-in-writing
 tags:

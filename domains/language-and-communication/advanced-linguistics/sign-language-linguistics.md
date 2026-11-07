@@ -6,6 +6,8 @@ course: advanced-linguistics
 prerequisites:
 - id: phonological-systems
   type: soft
+- id: design-features-of-language
+  type: soft
 builds-toward:
 - language-and-cognition-interfaces
 tags:

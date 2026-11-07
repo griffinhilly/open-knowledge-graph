@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: stress-assignment-rules
   type: soft
+- id: acoustic-phonetics
+  type: soft
 builds-toward:
 - computational-pragmatics
 tags:

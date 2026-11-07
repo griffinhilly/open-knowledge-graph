@@ -6,6 +6,8 @@ course: grammar-and-syntax
 prerequisites:
 - id: determiners-and-articles
   type: hard
+- id: count-and-noncount-nouns
+  type: soft
 tags:
 - articles
 - determiners
