@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: multiplication-circuits
   type: soft
+- id: flip-flops-and-latches
+  type: hard
 builds-toward:
 - cpu-datapath
 - cpu-control-unit

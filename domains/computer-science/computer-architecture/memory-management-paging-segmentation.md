@@ -8,9 +8,7 @@ prerequisites:
   type: hard
 - id: memory-organization
   type: soft
-builds-toward:
-- cache-memory-design
-- io-systems-overview
+builds-toward: []
 tags:
 - memory
 - paging

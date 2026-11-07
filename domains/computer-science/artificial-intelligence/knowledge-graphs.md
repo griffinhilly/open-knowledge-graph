@@ -10,8 +10,7 @@ prerequisites:
   type: soft
 - id: graph-adjacency-list-matrix-representations
   type: soft
-builds-toward:
-- semantic-networks
+builds-toward: []
 tags:
 - knowledge-representation
 - semantic-web

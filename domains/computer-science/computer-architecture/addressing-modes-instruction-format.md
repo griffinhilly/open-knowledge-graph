@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - pipelining-fundamentals
-- memory-management-paging-segmentation
 tags:
 - addressing
 - modes

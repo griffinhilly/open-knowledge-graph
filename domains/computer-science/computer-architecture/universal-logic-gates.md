@@ -7,7 +7,6 @@ prerequisites:
 - id: boolean-algebra-and-laws
   type: hard
 builds-toward:
-- multiplexers-and-demultiplexers
 - flip-flops-and-latches
 tags:
 - gates

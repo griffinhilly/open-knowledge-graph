@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: recursion-basics
   type: hard
-builds-toward:
-- type-inference-algorithms
+builds-toward: []
 tags:
 - interpreters
 - execution

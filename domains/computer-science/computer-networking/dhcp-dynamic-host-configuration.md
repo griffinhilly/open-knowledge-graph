@@ -6,8 +6,7 @@ course: computer-networking
 prerequisites:
 - id: ipv4-addressing
   type: hard
-builds-toward:
-- network-management-and-monitoring
+builds-toward: []
 tags:
 - dhcp
 - address-assignment

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: network-topologies
   type: soft
+- id: ethernet-protocol
+  type: soft
 builds-toward:
 - vlans-virtual-area-networks
 - spanning-tree-protocol-stp

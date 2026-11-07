@@ -10,8 +10,7 @@ prerequisites:
   type: soft
 - id: lexical-error-handling-reporting
   type: soft
-builds-toward:
-- semantic-analysis
+builds-toward: []
 tags:
 - error-recovery
 - error-handling

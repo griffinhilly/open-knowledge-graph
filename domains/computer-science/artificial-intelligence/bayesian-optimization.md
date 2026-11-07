@@ -10,8 +10,7 @@ prerequisites:
   type: soft
 - id: expected-value-and-variance
   type: soft
-builds-toward:
-- hyperparameter-optimization
+builds-toward: []
 tags:
 - bayesian-optimization
 - hyperparameter

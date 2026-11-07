@@ -10,9 +10,7 @@ prerequisites:
   type: soft
 - id: domain-specific-language-design
   type: soft
-builds-toward:
-- type-inference-algorithms
-- activation-records-runtime
+builds-toward: []
 tags:
 - semantics
 - formal-methods

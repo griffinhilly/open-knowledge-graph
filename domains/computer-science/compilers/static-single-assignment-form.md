@@ -9,7 +9,6 @@ prerequisites:
 - id: control-flow-graphs
   type: hard
 builds-toward:
-- dataflow-analysis
 - code-optimization
 tags:
 - ssa

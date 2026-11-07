@@ -10,9 +10,7 @@ prerequisites:
   type: hard
 - id: bgp-route-filtering-hijacking-prevention
   type: soft
-builds-toward:
-- network-standards-and-ietf
-- network-management-and-monitoring
+builds-toward: []
 tags:
 - routing
 - bgp

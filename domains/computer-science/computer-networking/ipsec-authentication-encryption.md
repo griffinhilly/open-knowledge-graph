@@ -10,9 +10,7 @@ prerequisites:
   type: hard
 - id: vpn-virtual-private-networks
   type: soft
-builds-toward:
-- vpn-virtual-private-networks
-- network-security-fundamentals
+builds-toward: []
 tags:
 - security
 - ipsec

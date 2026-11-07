@@ -10,9 +10,7 @@ prerequisites:
   type: hard
 - id: spanning-tree-protocol-stp
   type: soft
-builds-toward:
-- network-topologies
-- qos-quality-of-service
+builds-toward: []
 tags:
 - link-layer
 - aggregation

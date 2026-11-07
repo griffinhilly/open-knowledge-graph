@@ -14,7 +14,6 @@ prerequisites:
   type: soft
 builds-toward:
 - gradient-descent-optimization
-- neural-networks-intro
 tags:
 - scaling
 - normalization

@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - register-allocation
-- code-generation
 tags:
 - code-generation
 - backend

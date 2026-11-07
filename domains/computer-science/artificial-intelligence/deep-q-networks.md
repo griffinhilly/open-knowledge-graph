@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: convolutional-neural-networks
   type: hard
+- id: temporal-difference-learning
+  type: soft
 tags:
 - reinforcement-learning
 - deep-learning

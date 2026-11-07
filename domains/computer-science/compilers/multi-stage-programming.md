@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: code-generation
   type: hard
-builds-toward:
-- compiler-bootstrapping
+builds-toward: []
 tags:
 - metaprogramming
 - stages

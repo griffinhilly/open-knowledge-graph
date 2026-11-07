@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - content-delivery-networks
-- network-management-and-monitoring
 tags:
 - application-layer
 - caching

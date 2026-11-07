@@ -6,6 +6,8 @@ course: data-structures-and-algorithms
 prerequisites:
 - id: algorithm-design-basics
   type: hard
+- id: recursion-basics
+  type: hard
 builds-toward:
 - backtracking-constraint-satisfaction-problems
 - recurrence-relations-analysis-techniques

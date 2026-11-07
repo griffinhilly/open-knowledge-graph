@@ -16,7 +16,6 @@ prerequisites:
   type: soft
 builds-toward:
 - array-subscript-optimization
-- code-optimization
 tags:
 - analysis
 - loops

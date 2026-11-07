@@ -10,8 +10,7 @@ prerequisites:
   type: hard
 - id: loop-invariant-code-motion
   type: soft
-builds-toward:
-- vectorization-and-simd
+builds-toward: []
 tags:
 - optimization
 - loops

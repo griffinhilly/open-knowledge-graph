@@ -6,9 +6,7 @@ course: computer-architecture
 prerequisites:
 - id: flip-flops-and-latches
   type: hard
-builds-toward:
-- pipelining-fundamentals
-- io-systems-overview
+builds-toward: []
 tags:
 - counters
 - binary

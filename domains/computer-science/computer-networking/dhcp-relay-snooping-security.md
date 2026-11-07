@@ -8,9 +8,7 @@ prerequisites:
   type: hard
 - id: network-security-fundamentals
   type: hard
-builds-toward:
-- network-security-fundamentals
-- network-management-and-monitoring
+builds-toward: []
 tags:
 - security
 - dhcp

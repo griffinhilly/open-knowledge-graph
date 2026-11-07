@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: basic-block-analysis
   type: hard
-builds-toward:
-- code-generation
+builds-toward: []
 tags:
 - optimization
 - code-generation

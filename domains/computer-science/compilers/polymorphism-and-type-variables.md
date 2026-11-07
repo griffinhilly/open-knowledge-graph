@@ -16,8 +16,9 @@ prerequisites:
   type: soft
 - id: dependent-types-programming
   type: soft
-builds-toward:
-- intermediate-code-representation
+- id: type-systems-overview
+  type: soft
+builds-toward: []
 tags:
 - type-systems
 - generics

@@ -10,9 +10,7 @@ prerequisites:
   type: hard
 - id: email-protocols-smtp-pop3-imap
   type: soft
-builds-toward:
-- network-security-fundamentals
-- ssh-secure-shell
+builds-toward: []
 tags:
 - application-layer
 - file-transfer

@@ -8,9 +8,7 @@ prerequisites:
   type: hard
 - id: network-virtualization-network-slicing
   type: hard
-builds-toward:
-- network-management-and-monitoring
-- qos-quality-of-service
+builds-toward: []
 tags:
 - sdn
 - nfv

@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: memory-bus-interconnect
   type: soft
-builds-toward:
-- io-systems-overview
+builds-toward: []
 tags:
 - dma
 - io-transfer

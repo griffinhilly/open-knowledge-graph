@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - dynamic-programming-intro
-- greedy-algorithms
 tags:
 - backtracking
 - csp

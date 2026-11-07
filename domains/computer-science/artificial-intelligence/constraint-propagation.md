@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: belief-propagation-algorithm
   type: soft
+- id: backtracking-search-csp
+  type: soft
 builds-toward: []
 tags:
 - constraints

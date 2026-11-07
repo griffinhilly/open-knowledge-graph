@@ -10,9 +10,7 @@ prerequisites:
   type: hard
 - id: icmpv6-neighbor-discovery-protocol
   type: soft
-builds-toward:
-- tcp-flow-control-and-congestion-control
-- network-management-and-monitoring
+builds-toward: []
 tags:
 - network-layer
 - mtu

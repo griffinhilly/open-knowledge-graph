@@ -6,6 +6,8 @@ course: computer-networking
 prerequisites:
 - id: switching-basics
   type: hard
+- id: mac-addressing
+  type: soft
 builds-toward:
 - network-security-fundamentals
 tags:

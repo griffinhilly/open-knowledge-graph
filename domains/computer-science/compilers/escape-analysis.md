@@ -10,8 +10,7 @@ prerequisites:
   type: hard
 - id: alias-analysis
   type: soft
-builds-toward:
-- alias-analysis
+builds-toward: []
 tags:
 - optimization
 - memory

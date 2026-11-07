@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: binary-arithmetic
   type: soft
+- id: fixed-point-number-representation
+  type: soft
 builds-toward:
 - arithmetic-logic-unit
 tags:

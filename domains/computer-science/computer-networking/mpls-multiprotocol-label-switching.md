@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - segment-routing-architecture-sr
-- vpn-virtual-private-networks
 tags:
 - routing
 - mpls

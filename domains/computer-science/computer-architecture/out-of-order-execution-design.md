@@ -12,8 +12,9 @@ prerequisites:
   type: soft
 - id: power-thermal-performance-metrics
   type: soft
-builds-toward:
-- power-thermal-performance-metrics
+- id: data-hazards-control-hazards
+  type: hard
+builds-toward: []
 tags:
 - ooo
 - execution

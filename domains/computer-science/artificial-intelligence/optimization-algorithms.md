@@ -17,7 +17,6 @@ prerequisites:
 - id: loss-functions
   type: hard
 builds-toward:
-- backpropagation
 - hyperparameter-optimization
 tags:
 - optimization

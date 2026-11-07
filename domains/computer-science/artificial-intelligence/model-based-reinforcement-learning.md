@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: markov-decision-processes
   type: hard
-builds-toward:
-- monte-carlo-tree-search
+builds-toward: []
 tags:
 - reinforcement-learning
 - planning

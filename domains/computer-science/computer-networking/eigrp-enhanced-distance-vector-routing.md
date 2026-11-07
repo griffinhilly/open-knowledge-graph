@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - routing-convergence-flap-damping
-- bgp-border-gateway-protocol
 tags:
 - routing
 - eigrp

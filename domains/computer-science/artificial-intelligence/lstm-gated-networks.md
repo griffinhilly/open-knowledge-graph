@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: matrix-operations
   type: soft
+- id: vanishing-gradient-problem
+  type: soft
 tags:
 - deep-learning
 - sequence-models

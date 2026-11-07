@@ -14,9 +14,10 @@ prerequisites:
   type: soft
 - id: overflow-underflow-arithmetic
   type: soft
+- id: combinational-circuit-design
+  type: soft
 builds-toward:
 - arithmetic-logic-unit
-- fixed-point-number-representation
 tags:
 - adders
 - binary

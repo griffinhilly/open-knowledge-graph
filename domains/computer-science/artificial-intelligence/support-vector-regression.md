@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: linear-regression-ml
   type: hard
-builds-toward:
-- kernel-methods
+builds-toward: []
 tags:
 - svr
 - support-vector

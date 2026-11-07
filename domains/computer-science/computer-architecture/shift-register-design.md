@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: sequential-circuit-design
   type: soft
-builds-toward:
-- finite-state-machine-processor-design
+builds-toward: []
 tags:
 - sequential-circuits
 - shift-register

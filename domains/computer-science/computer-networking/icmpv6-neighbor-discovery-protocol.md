@@ -10,9 +10,7 @@ prerequisites:
   type: hard
 - id: icmp-internet-control-message-protocol
   type: soft
-builds-toward:
-- ipv6-addressing
-- network-security-fundamentals
+builds-toward: []
 tags:
 - network-layer
 - ipv6

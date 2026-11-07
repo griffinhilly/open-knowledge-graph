@@ -10,9 +10,7 @@ prerequisites:
   type: hard
 - id: port-addressing-sockets
   type: soft
-builds-toward:
-- qos-quality-of-service
-- network-standards-and-ietf
+builds-toward: []
 tags:
 - transport-layer
 - protocols

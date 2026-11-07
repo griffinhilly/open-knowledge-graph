@@ -6,6 +6,8 @@ course: computer-architecture
 prerequisites:
 - id: memory-hierarchy-overview
   type: hard
+- id: memory-organization
+  type: soft
 builds-toward:
 - cache-replacement-policies
 tags:

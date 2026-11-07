@@ -10,9 +10,7 @@ prerequisites:
   type: hard
 - id: network-security-fundamentals
   type: soft
-builds-toward:
-- https-and-tls
-- network-security-fundamentals
+builds-toward: []
 tags:
 - application-layer
 - email

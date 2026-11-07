@@ -8,9 +8,7 @@ prerequisites:
   type: hard
 - id: udp-user-datagram-protocol
   type: hard
-builds-toward:
-- network-management-and-monitoring
-- network-security-fundamentals
+builds-toward: []
 tags:
 - monitoring
 - snmp

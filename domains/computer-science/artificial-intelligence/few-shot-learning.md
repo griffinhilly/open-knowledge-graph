@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: zero-shot-learning
   type: soft
-builds-toward:
-- zero-shot-learning
+builds-toward: []
 tags:
 - few-shot
 - low-data

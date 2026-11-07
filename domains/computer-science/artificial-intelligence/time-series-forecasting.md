@@ -14,8 +14,7 @@ prerequisites:
   type: soft
 - id: derivative-as-slope-of-tangent
   type: soft
-builds-toward:
-- sequence-to-sequence-models
+builds-toward: []
 tags:
 - time-series
 - forecasting

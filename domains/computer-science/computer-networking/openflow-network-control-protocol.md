@@ -8,9 +8,7 @@ prerequisites:
   type: hard
 - id: network-topologies
   type: hard
-builds-toward:
-- network-function-virtualization-nfv
-- network-management-and-monitoring
+builds-toward: []
 tags:
 - sdn
 - openflow

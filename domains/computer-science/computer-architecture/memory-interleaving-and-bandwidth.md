@@ -10,8 +10,7 @@ prerequisites:
   type: soft
 - id: direct-memory-access-dma
   type: soft
-builds-toward:
-- memory-hierarchy-overview
+builds-toward: []
 tags:
 - memory-interleaving
 - bandwidth

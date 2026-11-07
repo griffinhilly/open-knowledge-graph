@@ -12,8 +12,7 @@ prerequisites:
   type: soft
 - id: multicast-routing-protocols
   type: soft
-builds-toward:
-- network-standards-and-ietf
+builds-toward: []
 tags:
 - routing
 - segment-routing

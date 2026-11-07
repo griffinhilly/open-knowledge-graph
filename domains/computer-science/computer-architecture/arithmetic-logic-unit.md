@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: full-adder-and-carry-logic
   type: hard
+- id: binary-arithmetic
+  type: hard
 builds-toward:
 - cpu-datapath
 - cpu-control-unit

@@ -8,9 +8,7 @@ prerequisites:
   type: hard
 - id: neural-networks-intro
   type: hard
-builds-toward:
-- few-shot-learning
-- transfer-learning-neural
+builds-toward: []
 tags:
 - meta-learning
 - learning-to-learn

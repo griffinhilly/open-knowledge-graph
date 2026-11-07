@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: lambda-calculus-foundations
   type: hard
+- id: type-systems-overview
+  type: soft
 builds-toward:
 - polymorphism-and-type-variables
 tags:

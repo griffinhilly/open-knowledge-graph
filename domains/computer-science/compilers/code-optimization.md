@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: dead-code-elimination
   type: soft
+- id: intermediate-code-representation
+  type: soft
 builds-toward:
 - common-subexpression-elimination
 - loop-invariant-code-motion

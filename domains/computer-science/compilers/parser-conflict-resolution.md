@@ -6,8 +6,9 @@ course: compilers
 prerequisites:
 - id: lalr-grammar-construction
   type: hard
-builds-toward:
-- syntax-error-recovery-techniques
+- id: shift-reduce-bottom-up-parsing
+  type: hard
+builds-toward: []
 tags:
 - parsing
 - conflicts

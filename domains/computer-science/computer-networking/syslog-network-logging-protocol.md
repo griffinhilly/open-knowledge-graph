@@ -10,9 +10,7 @@ prerequisites:
   type: soft
 - id: snmp-simple-network-management-protocol
   type: soft
-builds-toward:
-- network-management-and-monitoring
-- network-security-fundamentals
+builds-toward: []
 tags:
 - monitoring
 - logging

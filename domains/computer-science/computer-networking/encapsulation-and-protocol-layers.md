@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: network-fundamentals
   type: hard
-builds-toward:
-- error-detection-and-correction
+builds-toward: []
 tags:
 - layering
 - encapsulation

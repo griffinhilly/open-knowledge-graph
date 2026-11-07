@@ -16,7 +16,6 @@ prerequisites:
   type: soft
 builds-toward:
 - out-of-order-execution-design
-- power-thermal-performance-metrics
 tags:
 - superscalar
 - vliw

@@ -10,8 +10,7 @@ prerequisites:
   type: hard
 - id: dead-code-elimination
   type: soft
-builds-toward:
-- code-generation
+builds-toward: []
 tags:
 - optimization
 - SIMD

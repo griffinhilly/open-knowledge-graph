@@ -15,7 +15,6 @@ prerequisites:
 - id: chain-rule
   type: soft
 builds-toward:
-- neural-networks-intro
 - vanishing-gradient-problem
 tags:
 - activation

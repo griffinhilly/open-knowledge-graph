@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: link-state-routing-protocols
   type: hard
+- id: routing-algorithms-overview
+  type: soft
 builds-toward:
 - bgp-border-gateway-protocol
 tags:

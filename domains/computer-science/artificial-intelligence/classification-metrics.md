@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - roc-auc
-- confusion-matrix
 tags:
 - metrics
 - evaluation

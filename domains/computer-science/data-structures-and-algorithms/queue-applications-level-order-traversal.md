@@ -11,7 +11,6 @@ prerequisites:
 - id: graph-breadth-first-search-applications
   type: soft
 builds-toward:
-- breadth-first-search
 - bipartite-graph-detection-coloring
 tags:
 - queues

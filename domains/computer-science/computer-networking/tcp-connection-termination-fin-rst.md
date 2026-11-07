@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: tcp-transmission-control-protocol
   type: hard
-builds-toward:
-- tcp-flow-control-and-congestion-control
+builds-toward: []
 tags:
 - transport-layer
 - tcp
