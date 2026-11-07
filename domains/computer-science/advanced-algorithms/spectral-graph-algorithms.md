@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Spectral graph algorithms use eigenvalues and eigenvectors of graph-associated matrices (adjacency matrix, Laplacian) to solve graph problems. The graph Laplacian L = D - A (degree matrix minus adjacency matrix) has eigenvalues 0 = lambda_1 <= lambda_2 <= ... <= lambda_n, where the multiplicity of zero equals the number of connected components and lambda_2 (the algebraic connectivity or Fiedler value) measures how well-connected the graph is. The Fiedler vector (eigenvector for lambda_2) provides a spectral bisection that approximates the minimum ratio cut within a Cheeger-inequality factor of sqrt(lambda_2). Spectral methods yield near-linear time algorithms for graph partitioning, Laplacian system solving (Spielman-Teng), and effective resistance computation, with applications in machine learning (spectral clustering), network analysis, and scientific computing.
 
+## How It's Best Learned
+Take two triangles joined by one edge, write out L = D − A, and compute its eigenvalues with any numerical tool. Look at the signs of the Fiedler vector entries and see which vertices fall on each side. Then delete the joining edge and watch a second zero eigenvalue appear. Finally, do a sweep cut by hand on the sorted Fiedler values.
+
+## Common Misconceptions
+- Spectral clustering uses the eigenvectors with the largest Laplacian eigenvalues. (For the Laplacian, the cluster structure is in the eigenvectors of the smallest eigenvalues. The largest eigenvalues matter when you work with the adjacency matrix instead.)
+- A small λ₂ means the graph is disconnected. (λ₂ is exactly zero when the graph is disconnected. A small positive λ₂ means the graph is connected but has a bottleneck.)
+- The Fiedler sweep cut finds the best ratio cut. (Cheeger's inequality only bounds its quality, with a square-root gap between the two sides. On some graphs the sweep cut is far from optimal.)
+
 ## Questions
 
 ```yaml

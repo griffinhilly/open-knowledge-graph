@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Semidefinite programming (SDP) extends linear programming by optimizing a linear objective over the cone of positive semidefinite matrices. SDP relaxations produce tighter bounds than LP relaxations for many combinatorial optimization problems. The landmark result is the Goemans-Williamson algorithm for MAX-CUT: relax binary variables to unit vectors, solve the SDP to find an optimal vector configuration, then round using a random hyperplane. This achieves an approximation ratio of ~0.878, which is optimal assuming the Unique Games Conjecture. SDP relaxations also yield the best known approximations for graph coloring, MAX-SAT, and constraint satisfaction problems, and the integrality gaps of SDP hierarchies (Lasserre, Sum-of-Squares) connect to fundamental questions in computational complexity.
 
+## How It's Best Learned
+Start with MAX-CUT on a 5-cycle. Write the ±1 integer program, then relax each variable to a unit vector in the plane and find the optimal vector arrangement by hand. Next, draw random lines through the origin and count how often each edge is cut. Finally, plot arccos(x)/π against (1 − x)/2 on [−1, 1] to see where the 0.878 ratio comes from.
+
+## Common Misconceptions
+- The SDP solution gives each vertex a side of the cut directly. (It gives each vertex a vector. A separate rounding step, such as the random hyperplane, turns those vectors into a cut.)
+- Goemans-Williamson cuts at least 87.8% of the edges in every graph. (The guarantee is that the expected cut is at least about 0.878 times the optimal cut, which can be far less than the total number of edges.)
+- An SDP is solved exactly, like a system of linear equations. (Solvers return a solution accurate to within a chosen tolerance, and the optimum can be irrational. For approximation algorithms this small error is enough.)
+- The 0.878 ratio is proven to be the best possible. (Its optimality is proven under the assumption that the Unique Games Conjecture holds and P ≠ NP. The conjecture is still open.)
+
 ## Questions
 
 ```yaml

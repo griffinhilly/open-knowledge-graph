@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 A set function f: 2^V -> R is submodular if it satisfies diminishing returns: for all A subset B and element x not in B, f(A + x) - f(A) >= f(B + x) - f(B). Adding an element to a smaller set helps at least as much as adding it to a larger set. Submodular functions arise naturally in coverage (how many distinct customers are reached?), information gain (how much entropy is reduced?), and network influence (how many nodes are activated?). For monotone submodular maximization subject to a cardinality constraint, the greedy algorithm achieves approximation ratio (1 - 1/e) ≈ 0.632, and this is optimal unless P = NP. Submodular minimization (the dual problem) is solvable exactly in polynomial time via the Lovász extension and convex optimization — a surprising asymmetry between maximization and minimization.
 
+## How It's Best Learned
+Work a small maximum coverage instance by hand: five or six sets over about ten elements. At each greedy step, write the marginal gain of every remaining set in a table and watch the gains shrink. Check the diminishing-returns inequality for one pair A ⊆ B. Then build an instance with k = 2 where greedy falls short of the optimum, and follow the 1/k-of-the-gap argument on it.
+
+## Common Misconceptions
+- Submodular just means subadditive, f(A ∪ B) ≤ f(A) + f(B). (Submodularity is the stronger condition f(A) + f(B) ≥ f(A ∪ B) + f(A ∩ B). For nonnegative functions it implies subadditivity, but some subadditive functions are not submodular.)
+- Greedy gives a (1 − 1/e) guarantee for any submodular function under any constraint. (That guarantee needs a monotone function and a cardinality constraint. On non-monotone functions plain greedy can do badly, and for monotone functions over a general matroid it guarantees only 1/2.)
+- Since minimization is polynomial, you can maximize f by minimizing −f. (The negation of a submodular function is supermodular, so the minimization algorithms do not apply to it.)
+
 ## Questions
 
 ```yaml

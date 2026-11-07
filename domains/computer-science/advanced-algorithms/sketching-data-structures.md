@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Sketching compresses high-dimensional data into a small-space summary (a "sketch") that supports approximate queries. The sketch operates via random linear projections: map the data vector x to a much lower-dimensional sketch s = A * x (mod prime or in a vector space), where A is a random matrix chosen from a structured family. The count-min sketch uses independent hash functions for item frequency estimation; the Johnson-Lindenstrauss lemma shows that random projections preserve pairwise distances with high probability, enabling approximate nearest-neighbor search in subquadratic space. Min-hashing estimates Jaccard similarity between sets by tracking the minimum hash value. Sketch linearity (the sketch of a sum equals the sum of sketches) enables distributed computation and streaming. These structures trade off sketch size, space, update time, and query error in precise ways, offering guarantees on approximation quality and probability of failure.
 
+## How It's Best Learned
+Build a count-min sketch by hand with 2 rows and 4 columns, using small hash tables you write out. Feed it a short stream and query a rare item to watch collisions inflate its count. Then, in a notebook, project a few hundred random high-dimensional points with a Gaussian matrix. Plot the distribution of distance ratios as the target dimension k grows.
+
+## Common Misconceptions
+- A count-min estimate can come out too low as well as too high. (With nonnegative updates, collisions only add to a counter, so the estimate is at least the true count. The error is one-sided.)
+- Count-min error is a small percentage of each item's own frequency. (The bound is ε times the total count of the whole stream. A rare item's estimate can be many times its true count.)
+- The Johnson-Lindenstrauss target dimension grows with the original dimension of the data. (It depends on the number of points n and the error ε, as O(log(n) / ε²). The original dimension does not appear.)
+
 ## Questions
 
 ```yaml

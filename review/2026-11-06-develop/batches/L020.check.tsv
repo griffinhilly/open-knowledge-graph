@@ -1,0 +1,52 @@
+domains/biology/systems-biology/agent-based-modeling-biology.md	how	3	0	ok
+domains/biology/systems-biology/agent-based-modeling-biology.md	mis	6	0	ok
+domains/biology/systems-biology/bifurcation-analysis-biological-systems.md	how	3	0	ok
+domains/biology/systems-biology/bifurcation-analysis-biological-systems.md	mis	8	1	fixed	"What is needed is positive feedback" overstated as the sole requirement (bistability can also arise without explicit feedback, e.g. multisite phosphorylation with enzyme sequestration); softened to "usual ingredient"
+domains/biology/systems-biology/biological-network-analysis.md	how	3	0	ok
+domains/biology/systems-biology/biological-network-analysis.md	mis	8	0	ok	Older Core Idea: "Most biological networks are scale-free" is an overstatement (contested; Broido and Clauset 2019 find strong scale-free structure rare); not edited, out of scope
+domains/biology/systems-biology/boolean-network-models.md	how	3	0	ok
+domains/biology/systems-biology/boolean-network-models.md	mis	6	0	ok
+domains/biology/systems-biology/cell-cycle-modeling.md	how	3	1	fixed	Exercise fails as worked: cyclin degraded by APC/C at a fixed rate gives a steady state, not an oscillator; APC/C must be activated by CDK1 (negative feedback). Added that
+domains/biology/systems-biology/cell-cycle-modeling.md	mis	6	0	ok
+domains/biology/systems-biology/circadian-clock-modeling.md	how	4	0	fixed	Not wrong but underspecified: added that the classic Goodwin form needs a Hill coefficient above about 8 (matches Questions item 0), so the sweep actually reaches the Hopf point
+domains/biology/systems-biology/circadian-clock-modeling.md	mis	6	1	fixed	"period depends mostly on post-translational steps" overstated; softened to "is often most sensitive to"
+domains/biology/systems-biology/gene-regulatory-network-modeling.md	how	3	0	ok
+domains/biology/systems-biology/gene-regulatory-network-modeling.md	mis	6	0	ok
+domains/biology/systems-biology/constraint-based-modeling-fba.md	how	3	0	ok
+domains/biology/systems-biology/constraint-based-modeling-fba.md	mis	8	0	ok
+domains/biology/systems-biology/immune-system-modeling.md	how	4	1	fixed	Exercise fails as worked: a target-limited TIV/effector model without target-cell production always clears, so there is no clearance/persistence line to find; changed to watching peak viral load and time to clearance
+domains/biology/systems-biology/immune-system-modeling.md	mis	6	1	fixed	Correction overstated: ODEs can give an average encounter rate; softened so only search paths, contacts and geometry need spatial/agent models
+domains/biology/systems-biology/metabolic-engineering-strain-design.md	how	4	1	fixed	Exercise likely fails as worked: single deletions in the E. coli core model rarely give growth coupling; changed to deletions alone and in combination. Older Core Idea: OptForce uses measured fluxes, not kinetic constraints; OptKnock coupling holds at maximal growth only (not edited)
+domains/biology/systems-biology/metabolic-engineering-strain-design.md	mis	6	0	ok
+domains/biology/systems-biology/metabolic-flux-analysis.md	how	4	0	ok
+domains/biology/systems-biology/metabolic-flux-analysis.md	mis	8	0	ok
+domains/biology/systems-biology/microbiome-systems-biology.md	how	3	0	ok
+domains/biology/systems-biology/microbiome-systems-biology.md	mis	6	0	ok
+domains/biology/systems-biology/multi-omics-integration-systems.md	how	3	0	ok
+domains/biology/systems-biology/multi-omics-integration-systems.md	mis	6	0	ok
+domains/biology/systems-biology/multi-scale-modeling.md	how	4	1	fixed	Exercise fails as worked: cells had no division rule, so no tumor shape can form; added that the oxygen signal decides division
+domains/biology/systems-biology/multi-scale-modeling.md	mis	8	0	ok
+domains/biology/systems-biology/network-motifs.md	how	4	0	ok
+domains/biology/systems-biology/network-motifs.md	mis	6	0	ok
+domains/biology/systems-biology/ode-models-in-biology.md	how	4	1	fixed	Steps muddled: a Hill function of an external input plotted against P gives one flat line; made it a Hill function of P (self-activation) and moved bistability to raising the Hill coefficient
+domains/biology/systems-biology/ode-models-in-biology.md	mis	6	0	ok
+domains/biology/systems-biology/parameter-estimation-in-biological-models.md	how	4	0	ok
+domains/biology/systems-biology/parameter-estimation-in-biological-models.md	mis	8	0	ok
+domains/biology/systems-biology/reaction-diffusion-spatial-patterning.md	how	4	0	ok
+domains/biology/systems-biology/reaction-diffusion-spatial-patterning.md	mis	6	0	ok
+domains/biology/systems-biology/robustness-and-evolvability.md	how	4	0	ok
+domains/biology/systems-biology/robustness-and-evolvability.md	mis	6	1	fixed	"evolvability follows from it" stated as a rule; softened to "can follow"
+domains/biology/systems-biology/sensitivity-analysis.md	how	4	0	ok
+domains/biology/systems-biology/sensitivity-analysis.md	mis	6	0	ok
+domains/biology/systems-biology/signal-transduction-networks.md	how	4	0	ok
+domains/biology/systems-biology/signal-transduction-networks.md	mis	6	0	ok
+domains/biology/systems-biology/single-cell-trajectory-analysis.md	how	3	0	ok
+domains/biology/systems-biology/single-cell-trajectory-analysis.md	mis	6	1	fixed	"sudden bursts of transcription" names the wrong phenomenon (bursting); the known velocity failure is a mid-process rise in transcription rate (transcriptional boost); reworded
+domains/biology/systems-biology/stochastic-gene-expression.md	how	3	0	ok
+domains/biology/systems-biology/stochastic-gene-expression.md	mis	6	0	ok
+domains/biology/systems-biology/stoichiometric-modeling.md	how	3	1	fixed	Exercise fails as worked with common tools: an orthonormal null-space basis (e.g. scipy) mixes routes and is unreadable; specified a rational basis (e.g. SymPy). Older Core Idea: null space alone is not "thermodynamically" feasible; bounds are needed (not edited)
+domains/biology/systems-biology/stoichiometric-modeling.md	mis	6	0	ok
+domains/biology/systems-biology/synthetic-gene-circuits.md	how	4	0	ok
+domains/biology/systems-biology/synthetic-gene-circuits.md	mis	8	0	fixed	Style only: "take over over many generations" reworded
+domains/biology/systems-biology/systems-pharmacology.md	how	4	0	ok
+domains/biology/systems-biology/systems-pharmacology.md	mis	8	0	ok

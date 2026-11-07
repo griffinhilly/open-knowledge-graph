@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Universal hashing and perfect hashing provide rigorous, provable guarantees for hash-based data structures. A universal hash family is a collection of hash functions where the probability of any two distinct keys colliding is at most 1/m (for m buckets) when the function is chosen randomly from the family — eliminating adversarial worst cases without knowing the input distribution. Perfect hashing goes further: given a static set of n keys, it constructs a hash function with zero collisions, achieving O(1) worst-case lookup in O(n) space. The FKS (Fredman-Komlós-Szemerédi) scheme achieves this by using two levels of universal hashing, with the second level sized quadratically to guarantee no collisions at each bucket.
 
+## How It's Best Learned
+Pick a small prime such as p = 17 and m = 4, fix two distinct keys, and list h(x) = ((ax + b) mod p) mod m for every allowed (a, b). Count the collisions and compare the fraction with 1/m. Then build FKS on ten keys with a short script. Record the sum of n_i² for several random first-level functions and see why a few retries are enough.
+
+## Common Misconceptions
+- A universal hash function is one function that spreads every input set evenly. (Each function in the family has some bad input set. The 1/m bound holds for each fixed pair of keys, over the random choice of function.)
+- Universal hashing still protects you if an attacker can see which function was chosen. (An attacker who knows h can pick keys that collide. The guarantee needs the keys to be fixed without knowledge of the random choice.)
+- FKS needs quadratic total space because each second-level table is quadratic in its bucket size. (Each table is quadratic in its own n_i, and universal first-level hashing keeps the sum of n_i² at O(n) in expectation.)
+
 ## Questions
 
 ```yaml

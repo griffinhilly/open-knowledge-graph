@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Streaming algorithms process massive data sequences in a single pass (or few passes) using memory sublinear in the input size — typically O(polylog n) or O(1/epsilon^2) space. The count-min sketch estimates item frequencies using a 2D array of counters with d hash functions, providing frequency estimates with additive error epsilon * ||f||_1 using O((1/epsilon) * log(1/delta)) counters. HyperLogLog estimates the number of distinct elements (cardinality) using O(log log n) bits per register across O(1/epsilon^2) registers, achieving epsilon-relative error. The AMS (Alon-Matias-Szegedy) sketch estimates frequency moments F_k = sum(f_i^k). These algorithms share a common structure: hash-based projections compress the stream into a compact summary, and probabilistic analysis guarantees approximation quality.
 
+## How It's Best Learned
+Trace HyperLogLog by hand. Give each item in a short stream an 8-bit hash from a table, track the maximum leading-zero count, and compare 2 to that power with the true distinct count. Then split the items into 4 registers by their first 2 bits and redo it. Write a few lines of code that run the same experiment on a stream of a million items.
+
+## Common Misconceptions
+- HyperLogLog needs more memory as the number of distinct items grows, like a hash set. (The register count m is fixed by the accuracy you want. Each register stores a leading-zero count, which needs only about log log n bits.)
+- Repeated items push a distinct-count estimate upward. (A repeated item gets the same hash every time, so it cannot change any register after its first arrival.)
+- With clever enough code, one pass in small space can give the exact distinct count. (Exact distinct counting needs space linear in the number of distinct items in the worst case. Small space is possible only because these algorithms accept approximate, randomized answers.)
+
 ## Questions
 
 ```yaml

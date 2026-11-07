@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Sublinear algorithms solve problems in time (or space) less than the input size — they cannot even read the entire input. This is possible when approximate answers suffice and the algorithm can query specific parts of the input via random access or random sampling. A sublinear-time algorithm for estimating the average value of an array uses O(1/epsilon^2) random samples to achieve epsilon-additive error with high probability, independent of array size. For graph problems, sublinear algorithms can estimate the number of connected components, approximate the minimum spanning tree weight, and test bipartiteness in time sublinear in the graph size. The key insight is that global properties often have local witnesses: if a property fails, a small random sample reveals evidence of failure with high probability.
 
+## How It's Best Learned
+Start with an experiment. Estimate the mean of arrays with values in [0, 1] at sizes 10³, 10⁶, and 10⁹ (generated on demand). Note that the sample size needed for a fixed ε stays the same. Then estimate a star graph's average degree from a few random vertex degrees and see how one rare high-degree vertex breaks the estimate. This contrast shows when local samples carry global information.
+
+## Common Misconceptions
+- A sample has to be a fixed fraction of the input to say anything about it. (For a mean of values in a bounded range, the sample size depends on ε and the confidence level, not on n.)
+- If a property tester accepts, the input has the property. (A tester separates inputs that have the property from inputs that are ε-far from it. An input that fails the property but is close to satisfying it may be accepted.)
+- A graph problem has one query complexity, whatever the representation. (Adjacency-matrix queries and adjacency-list queries can give very different complexities for the same problem.)
+
 ## Questions
 
 ```yaml

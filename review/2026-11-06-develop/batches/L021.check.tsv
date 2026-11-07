@@ -1,0 +1,56 @@
+domains/chemistry/materials-chemistry/battery-materials-chemistry.md	how	4	0	ok
+domains/chemistry/materials-chemistry/battery-materials-chemistry.md	mis	8	1	fixed	SEI bullet overstated: interfaces "often control cycle life and safety more than any bulk property"; softened to "strongly affect ... often as much as bulk properties do"
+domains/chemistry/materials-chemistry/biomaterials-chemistry.md	how	3	1	fixed	timeline put integration/encapsulation at "days"; it takes weeks; cell arrival widened to minutes to hours
+domains/chemistry/materials-chemistry/biomaterials-chemistry.md	mis	8	0	ok
+domains/chemistry/materials-chemistry/catalytic-materials-design.md	how	3	0	ok
+domains/chemistry/materials-chemistry/catalytic-materials-design.md	mis	8	0	ok
+domains/chemistry/materials-chemistry/ceramic-materials-chemistry.md	how	3	0	ok
+domains/chemistry/materials-chemistry/ceramic-materials-chemistry.md	mis	8	1	fixed	sintering bullet absolute "only liquid-phase sintering uses a molten additive" (liquid need not come from an additive; viscous sintering also exists); reworded as a separate variant where a small amount of liquid forms
+domains/chemistry/materials-chemistry/characterization-methods-tem-sem-xps.md	how	3	0	ok
+domains/chemistry/materials-chemistry/characterization-methods-tem-sem-xps.md	mis	8	0	ok
+domains/chemistry/materials-chemistry/composite-materials-chemistry.md	how	2	0	ok
+domains/chemistry/materials-chemistry/composite-materials-chemistry.md	mis	8	0	ok	iso-stress is a lower bound and real transverse modulus sits somewhat above it; "follows" judged an acceptable approximation, left
+domains/chemistry/materials-chemistry/conducting-polymers-chemistry.md	how	3	0	ok
+domains/chemistry/materials-chemistry/conducting-polymers-chemistry.md	mis	8	1	fixed	carrier bullet stated carriers "are polarons and bipolarons" with no qualifier; trans-polyacetylene (the How example) also has solitons; added "usually" and the soliton case
+domains/chemistry/materials-chemistry/corrosion-chemistry-and-protection.md	how	3	0	ok
+domains/chemistry/materials-chemistry/corrosion-chemistry-and-protection.md	mis	8	0	ok
+domains/chemistry/materials-chemistry/crystal-structures-and-unit-cells.md	how	3	0	ok
+domains/chemistry/materials-chemistry/crystal-structures-and-unit-cells.md	mis	8	0	ok
+domains/chemistry/materials-chemistry/crystal-symmetry-and-space-groups.md	how	3	1	fixed	exercise asked to link "each glide or screw axis" to absences for Fm-3m, whose symbol has none; its absences come from F centering; added lattice centering
+domains/chemistry/materials-chemistry/crystal-symmetry-and-space-groups.md	mis	8	0	ok
+domains/chemistry/materials-chemistry/defect-chemistry.md	how	3	0	ok
+domains/chemistry/materials-chemistry/defect-chemistry.md	mis	8	0	ok
+domains/chemistry/materials-chemistry/electronic-band-theory-of-solids.md	how	3	0	ok
+domains/chemistry/materials-chemistry/electronic-band-theory-of-solids.md	mis	8	0	ok
+domains/chemistry/materials-chemistry/glass-and-amorphous-materials.md	how	3	0	ok
+domains/chemistry/materials-chemistry/glass-and-amorphous-materials.md	mis	8	0	ok
+domains/chemistry/materials-chemistry/magnetic-materials-chemistry.md	how	3	0	ok
+domains/chemistry/materials-chemistry/magnetic-materials-chemistry.md	mis	8	0	ok
+domains/chemistry/materials-chemistry/mechanical-properties-microstructure.md	how	3	0	ok
+domains/chemistry/materials-chemistry/mechanical-properties-microstructure.md	mis	8	0	ok
+domains/chemistry/materials-chemistry/metal-organic-frameworks-extended.md	how	4	0	ok
+domains/chemistry/materials-chemistry/metal-organic-frameworks-extended.md	mis	8	0	ok
+domains/chemistry/materials-chemistry/nanomaterials-synthesis.md	how	3	0	ok	LaMer plot is strictly monomer concentration; "precursor concentration" matches the file's older question explanation, left
+domains/chemistry/materials-chemistry/nanomaterials-synthesis.md	mis	8	0	ok
+domains/chemistry/materials-chemistry/phase-diagrams-materials.md	how	3	1	fixed	exercise fails when worked: Pb-Sn is a eutectic with separate alpha, beta and liquid G curves, so it has no spinodal points; split into common tangents for Pb-Sn plus a separate miscibility-gap curve for the spinodal
+domains/chemistry/materials-chemistry/phase-diagrams-materials.md	mis	8	0	ok
+domains/chemistry/materials-chemistry/photovoltaic-materials-chemistry.md	how	4	0	ok
+domains/chemistry/materials-chemistry/photovoltaic-materials-chemistry.md	mis	8	1	fixed	silicon bullet credited its lead "largely" to manufacturing and passivation, omitting its near-optimal 1.1 eV gap and abundance; added both
+domains/chemistry/materials-chemistry/polymer-chemistry-basics.md	how	3	0	ok
+domains/chemistry/materials-chemistry/polymer-chemistry-basics.md	mis	8	0	ok
+domains/chemistry/materials-chemistry/self-assembly-materials.md	how	3	0	ok
+domains/chemistry/materials-chemistry/self-assembly-materials.md	mis	8	0	ok
+domains/chemistry/materials-chemistry/semiconductor-materials-chemistry.md	how	4	0	ok
+domains/chemistry/materials-chemistry/semiconductor-materials-chemistry.md	mis	8	0	ok
+domains/chemistry/materials-chemistry/superconducting-materials-chemistry.md	how	3	0	ok
+domains/chemistry/materials-chemistry/superconducting-materials-chemistry.md	mis	8	0	ok
+domains/chemistry/materials-chemistry/surface-chemistry-adsorption.md	how	3	0	ok
+domains/chemistry/materials-chemistry/surface-chemistry-adsorption.md	mis	8	0	ok
+domains/chemistry/materials-chemistry/thermoelectric-materials.md	how	3	0	ok
+domains/chemistry/materials-chemistry/thermoelectric-materials.md	mis	8	1	fixed	"records are often measured on single crystals in one direction" overstated (most record ZT values are polycrystalline; SnSe is the single-crystal case); reworded to peak values at one high temperature, sometimes single crystals
+domains/chemistry/materials-chemistry/thin-film-deposition-cvd-pvd.md	how	3	0	ok
+domains/chemistry/materials-chemistry/thin-film-deposition-cvd-pvd.md	mis	8	0	ok
+domains/chemistry/materials-chemistry/x-ray-powder-diffraction.md	how	4	0	ok
+domains/chemistry/materials-chemistry/x-ray-powder-diffraction.md	mis	8	0	ok
+domains/chemistry/materials-chemistry/zeolite-chemistry-and-applications.md	how	3	0	ok
+domains/chemistry/materials-chemistry/zeolite-chemistry-and-applications.md	mis	8	0	ok

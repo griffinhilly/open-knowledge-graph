@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Smoothed analysis reconciles the gap between worst-case and average-case complexity. In worst-case analysis, an adversary chooses the worst possible input. In average-case analysis, inputs are random. Smoothed analysis is hybrid: an adversary constructs an instance, then nature perturbs it with small random noise. The simplex algorithm runs in exponential time on contrived worst-case instances (Klee-Minty cubes) but polynomial time on random instances. Smoothed analysis explains this gap: even if an adversary constructs a hard instance, small perturbations (perturbing each coordinate by Gaussian noise with bounded variance) yield polynomial expected running time. This gives Spielman and Teng's result: the simplex algorithm has smoothed complexity O(poly(n, 1/sigma)) where sigma is the noise level. Smoothed analysis applies to many problems: k-means clustering, SAT solvers, and interior-point methods. It provides a more nuanced worst-case guarantee than assuming random inputs, yet avoids pessimistic worst-case bounds that algorithms in practice do not exhibit.
 
+## How It's Best Learned
+Write the three definitions side by side: worst case is max over inputs of T(x), average case is E over random x of T(x), and smoothed is max over x of E over noise g of T(x + σg). Then run simplex with Dantzig's largest-coefficient pivot rule on a small Klee-Minty cube and count pivots. Add Gaussian noise to the coefficients at several values of σ and record how the pivot counts change.
+
+## Common Misconceptions
+- Smoothed analysis is average-case analysis with a noise distribution added. (The adversary still picks the worst base instance. Smoothed complexity is the maximum, over base instances, of the expected running time under the perturbation.)
+- A polynomial smoothed bound means the algorithm is polynomial on every input. (The bound grows as σ shrinks. With no noise, the worst-case behavior, such as exponential pivots on Klee-Minty cubes, returns.)
+- Spielman and Teng's result covers the simplex method with any pivot rule. (Their proof is for the shadow-vertex pivot rule. Other rules need their own analysis.)
+
 ## Questions
 
 ```yaml
