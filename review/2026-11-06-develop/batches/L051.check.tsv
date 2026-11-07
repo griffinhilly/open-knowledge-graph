@@ -1,0 +1,85 @@
+domains/physics/statistical-mechanics/bogoliubov-transformation.md	how	4	0	ok	worked: E=√(ε²−Δ²) with ε=ε_k+gn, Δ=gn gives √(ε_k(ε_k+2gn))
+domains/physics/statistical-mechanics/bogoliubov-transformation.md	mis	6	0	ok
+domains/physics/statistical-mechanics/boltzmann-equation-kinetic.md	how	4	0	ok	worked: relaxation solution and first-order drift current
+domains/physics/statistical-mechanics/boltzmann-equation-kinetic.md	mis	6	0	ok
+domains/physics/statistical-mechanics/boltzmann-transport-equation.md	how	4	0	ok	worked: f=f_eq+(qτ/kT)(E·v)f_eq and σ=nq²τ/m check out
+domains/physics/statistical-mechanics/boltzmann-transport-equation.md	mis	6	1	fixed	bullet 3 called τ "a fitted relaxation rate"; τ is a time and can be estimated from collision data, not only fitted
+domains/physics/statistical-mechanics/boltzmann-transport-equation.md	old:q:3	1	1	fixed	garbled stem "most particle's individual trajectory" -> "each particle's"
+domains/physics/statistical-mechanics/bose-einstein-condensation-statmech.md	how	4	0	ok	worked: 1−0.5^1.5 = 0.646
+domains/physics/statistical-mechanics/bose-einstein-condensation-statmech.md	mis	6	0	ok	not fixed, noted: old Core Idea and Explainer call BEC a "quantum phase transition" (it is a finite-T transition); q:2 stem says |ψ|² is a fraction while its explanation says density
+domains/physics/statistical-mechanics/bose-einstein-condensation.md	how	4	0	ok	worked: 3D integrand ε^(−1/2) converges, 2D 1/ε diverges
+domains/physics/statistical-mechanics/bose-einstein-condensation.md	mis	6	0	ok
+domains/physics/statistical-mechanics/bose-einstein-condensation.md	old:core	3	3	fixed	T_c formula was dimensionally wrong; "finite density of states at k=0" (it vanishes); T^(3/2) excited density placed above T_c instead of below
+domains/physics/statistical-mechanics/bose-einstein-condensation.md	old:q:3	1	1	fixed	condensate fraction 1−(T/T_c)³ (harmonic-trap result) -> 1−(T/T_c)^(3/2) for the uniform gas; same fix in Explainer
+domains/physics/statistical-mechanics/bose-einstein-distribution-statistics.md	how	3	0	ok	worked: x=3 gives 0.052/0.047/0.050; x=0.1 gives 9.51/0.475/0.905
+domains/physics/statistical-mechanics/bose-einstein-distribution-statistics.md	mis	6	1	fixed	bullet 3 said the ±1 matters only where occupations "approach 1 or more"; the file's own table shows FD 0.48 vs MB 0.90; now "not small compared with 1"
+domains/physics/statistical-mechanics/bose-einstein-distribution-statistics.md	old:q:3	1	1	fixed	stem "most particles occupy the ground state" keyed false is true below ~0.63 T_c; changed to "all particles in an ideal Bose gas", which matches the explanation
+domains/physics/statistical-mechanics/brownian-motion.md	how	4	0	ok	worked: D=0.435 μm²/s, rms 0.93 μm at 1 s, 9.3 μm at 100 s
+domains/physics/statistical-mechanics/brownian-motion.md	mis	8	0	ok
+domains/physics/statistical-mechanics/canonical-ensemble.md	how	4	0	ok	worked: ⟨E⟩=ε/(e^(ε/kT)+1), limits 0 and ε/2
+domains/physics/statistical-mechanics/canonical-ensemble.md	mis	6	0	ok
+domains/physics/statistical-mechanics/canonical-partition-function.md	how	4	0	ok	worked: P=NkT/V
+domains/physics/statistical-mechanics/canonical-partition-function.md	mis	6	0	ok
+domains/physics/statistical-mechanics/canonical-partition-function.md	old:q:2	1	1	fixed	garbled stem "you is expected to sum ... over most microstates" -> "you must sum ... over all microstates"
+domains/physics/statistical-mechanics/canonical-partition-function.md	old:ex	2	2	fixed	infinite ladder called "N-state"; high-T ⟨E⟩ said to saturate (it is ≈ kT)
+domains/physics/statistical-mechanics/chapman-enskog-expansion.md	how	4	0	ok	worked: P_xy=−nkTτ du/dy, η=pτ
+domains/physics/statistical-mechanics/chapman-enskog-expansion.md	mis	6	0	ok
+domains/physics/statistical-mechanics/chemical-potential.md	how	4	0	ok	worked: N2 at 300 K, 1 atm gives nλ³≈1.7e-7, μ≈−15.6 kT
+domains/physics/statistical-mechanics/chemical-potential.md	mis	6	0	ok
+domains/physics/statistical-mechanics/clausius-clapeyron-equation.md	how	4	0	ok	worked: 1/T₂=0.0025383, T₂=394 K
+domains/physics/statistical-mechanics/clausius-clapeyron-equation.md	mis	6	0	fixed	hedge only: "well under a degree" for a skater depends on blade contact area (estimates run from tenths to a few K); cut the number, kept the conclusion
+domains/physics/statistical-mechanics/clausius-clapeyron-equation.md	old:core	1	1	fixed	writer-flagged contradiction: Core Idea said ice melts at higher T under pressure; new bullet and Explainer are right (ΔV<0, slope negative)
+domains/physics/statistical-mechanics/collective-excitations-phonons.md	how	4	0	ok	worked: ω=2√(K/m)|sin(ka/2)|
+domains/physics/statistical-mechanics/collective-excitations-phonons.md	mis	6	0	ok
+domains/physics/statistical-mechanics/correlation-functions-statmech.md	how	4	0	ok	worked: ξ=−1/ln(0.7616)=3.67
+domains/physics/statistical-mechanics/correlation-functions-statmech.md	mis	6	0	ok
+domains/physics/statistical-mechanics/critical-exponents.md	how	5	0	ok	worked: Rushbrooke, Widom, Fisher on 2D Ising and mean field
+domains/physics/statistical-mechanics/critical-exponents.md	mis	6	0	ok
+domains/physics/statistical-mechanics/critical-exponents.md	old:q:0	1	1	fixed	iron is a 3D Heisenberg magnet (β≈0.37), not 3D Ising; replaced with a binary alloy order-disorder transition
+domains/physics/statistical-mechanics/critical-exponents.md	old:q:2	1	1	fixed	garbled "are most independent quantities that should be" -> "are independent quantities that must be"
+domains/physics/statistical-mechanics/critical-phenomena-critical-exponents.md	how	4	1	fixed	"minimizing at m² + bm⁴" did not parse as a step; now "the Landau free energy f = a·t·m² + b·m⁴" (worked: m∝|t|^(1/2))
+domains/physics/statistical-mechanics/critical-phenomena-critical-exponents.md	mis	6	0	ok
+domains/physics/statistical-mechanics/critical-phenomena-critical-exponents.md	old:q:1	1	1	fixed	β≈0.326 attributed to iron (Heisenberg class); now "a uniaxial ferromagnet"; same fix in the q:1 explanation and the Explainer's last paragraph
+domains/physics/statistical-mechanics/critical-phenomena-statmech.md	how	5	0	ok	worked: vdW expansion gives −6tω and −(3/2)ω³; γ=1, δ=3
+domains/physics/statistical-mechanics/critical-phenomena-statmech.md	mis	6	0	ok
+domains/physics/statistical-mechanics/critical-phenomena-statmech.md	old:q:0	1	1	fixed	water and iron do not share exponents (Ising vs Heisenberg), so distractor C was arguably right; now "a uniaxial ferromagnet"; same fix in Explainer
+domains/physics/statistical-mechanics/debye-model-lattice-dynamics.md	how	4	0	ok	worked: ω_D=v_s(6π²N/V)^(1/3); crossover at T/T_D=0.234
+domains/physics/statistical-mechanics/debye-model-lattice-dynamics.md	mis	6	0	ok
+domains/physics/statistical-mechanics/debye-model-lattice-dynamics.md	old:core	1	1	fixed	low-T C_V given as 12π⁴/5 Nk with the (T/T_D)³ factor missing
+domains/physics/statistical-mechanics/debye-model-lattice-dynamics.md	old:ex	1	1	fixed	Einstein model called something "this topic builds toward"; it is a prerequisite
+domains/physics/statistical-mechanics/debye-model-solids.md	how	5	0	ok	worked: 0.1% of modes; Debye 0.078×3R, Einstein 0.0045×3R at T=Θ/10
+domains/physics/statistical-mechanics/debye-model-solids.md	mis	6	0	ok
+domains/physics/statistical-mechanics/debye-model-solids.md	old:ex	1	1	fixed	writer-flagged contradiction: Explainer said lower frequencies crowd more densely; the new bullet is right (g∝ω², density rises with ω)
+domains/physics/statistical-mechanics/debye-model-solids.md	old:q:4	1	1	fixed	explanation said "quadratically more long-wavelength modes than short-wavelength"; same error, reversed
+domains/physics/statistical-mechanics/debye-model-solids.md	old:q:1	1	1	fixed	explanation counted accessible modes as T² and U as T³ while still claiming C∝T³; now T³ modes, U∝T⁴
+domains/physics/statistical-mechanics/debye-model-solids.md	old:q:3	1	1	fixed	"most atoms vibrating at a single frequency" -> "all atoms"
+domains/physics/statistical-mechanics/debye-temperature.md	how	4	0	ok	worked: A=1944/Θ³, Θ=215 K; lead 105 K = 9.0 meV
+domains/physics/statistical-mechanics/debye-temperature.md	mis	6	0	ok	not fixed, noted: old q:0 and q:3 say diamond at 300 K (T/Θ≈0.13) follows C∝T³ with C≪3R; the T³ law is only rough there
+domains/physics/statistical-mechanics/density-of-states-fermi-gas.md	how	4	0	ok	worked: 3/(2×7 eV)=0.214 per eV per electron
+domains/physics/statistical-mechanics/density-of-states-fermi-gas.md	mis	6	0	ok
+domains/physics/statistical-mechanics/distribution-functions-moments.md	how	4	0	ok	worked: Poisson skewness 1/√(Mλ), excess kurtosis 1/(Mλ); κ₂(E)=kT²C_V
+domains/physics/statistical-mechanics/distribution-functions-moments.md	mis	6	0	ok
+domains/physics/statistical-mechanics/distribution-functions-moments.md	old:q:1	1	1	fixed	writer-flagged contradiction: key said zero skew and zero excess kurtosis prove Gaussian; the new bullet is right. Rewrote option C and the explanation; answer index unchanged
+domains/physics/statistical-mechanics/distribution-functions-moments.md	old:q:3	1	1	fixed	stem "most cumulants are zero" -> "all cumulants" (the explanation rebuts "all")
+domains/physics/statistical-mechanics/distribution-functions-moments.md	old:ex	1	1	fixed	"corrections of order 1/N" to Gaussianity; the leading correction (skewness) is 1/√N, as the new How shows
+domains/physics/statistical-mechanics/einstein-model-solids.md	how	5	0	ok	worked: 0.979, 0.921, 0.304; x=4.4 gives 0.244, about 6.1 J/(mol·K)
+domains/physics/statistical-mechanics/einstein-model-solids.md	mis	6	0	ok
+domains/physics/statistical-mechanics/ensemble-theory-fundamentals.md	how	3	0	ok	worked: ⟨s₁⟩=−1/3
+domains/physics/statistical-mechanics/ensemble-theory-fundamentals.md	mis	6	0	ok
+domains/physics/statistical-mechanics/ergodic-hypothesis.md	how	4	0	ok	worked: E₁ uniform on [0,E], so ⟨E₁⟩=E/2, but E₁ is conserved
+domains/physics/statistical-mechanics/ergodic-hypothesis.md	mis	6	0	ok
+domains/physics/statistical-mechanics/ergodic-hypothesis.md	old:q:1	1	1	fixed	called the energy surface 2D (it is 3D) and the irrational case "closer to ergodic"; E₁ and E₂ are separately conserved for any ratio, as the new How says. Explanation and Explainer amended
+domains/physics/statistical-mechanics/ergodic-hypothesis.md	old:q:2	1	1	fixed	garbled "rigorously highly probable" -> "rigorously true"
+domains/physics/statistical-mechanics/ergodicity-breaking.md	how	4	0	ok	worked: e^30, e^40, e^50 × 1e-12 s = 10.7 s, 2.7 d, 164 yr
+domains/physics/statistical-mechanics/ergodicity-breaking.md	mis	6	0	ok
+domains/physics/statistical-mechanics/ergodicity-breaking.md	old:q:3	1	1	fixed	garbled "can seldom break" -> "cannot break"
+domains/physics/statistical-mechanics/fermi-dirac-distribution-statistics.md	how	3	0	ok	worked: 0.881, 0.731, 0.5, 0.269, 0.119
+domains/physics/statistical-mechanics/fermi-dirac-distribution-statistics.md	mis	6	0	ok
+domains/physics/statistical-mechanics/fermi-energy-fermi-surface.md	how	4	0	ok	worked: k_F=1.36e10, E_F=1.13e-18 J, v_F=1.58e6, v_th=1.17e5 m/s
+domains/physics/statistical-mechanics/fermi-energy-fermi-surface.md	mis	6	0	ok
+domains/physics/statistical-mechanics/fermi-gas-finite-temperature.md	how	4	0	ok	worked: shift 7.9e-5 eV; C_V=0.0183 Nk, 1/82 of 1.5 Nk
+domains/physics/statistical-mechanics/fermi-gas-finite-temperature.md	mis	6	0	ok
+domains/physics/statistical-mechanics/fermi-gas-finite-temperature.md	old:q:4	2	2	fixed	explanation gave (kT/E_F)² ~ 0.003 (it is ~1e-5) and said the shift matters "near absolute zero" (it vanishes as T²)
+domains/physics/statistical-mechanics/fermi-gas-ideal-quantum.md	how	4	0	ok	worked: P=(2/5)nE_F=3.8e10 Pa ≈ 376,000 atm
+domains/physics/statistical-mechanics/fermi-gas-ideal-quantum.md	mis	6	0	ok
+domains/physics/statistical-mechanics/fermi-gas-ideal-quantum.md	old:q:0	1	1	fixed	"about 200 times smaller" ignores the π²/2 prefactor that the file's own formula has; (π²/2)(kT/E_F)=0.026 at 5 eV, so about 60 times. Same fix in q:4 answer and Explainer

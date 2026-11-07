@@ -1,0 +1,60 @@
+domains/mathematics/differential-geometry/comparison-theorems.md	how	3	0	ok	Model Jacobi lengths and the sphere area ratio 2(1-cos r)/r² (starts at 1, decreasing) checked.
+domains/mathematics/differential-geometry/comparison-theorems.md	mis	6	0	ok
+domains/mathematics/differential-geometry/connections-and-covariant-derivative.md	how	3	0	ok	Polar Christoffels and e_x = cos θ ∂r − (sin θ/r) ∂θ worked; ∇e_x = 0 confirmed.
+domains/mathematics/differential-geometry/connections-and-covariant-derivative.md	mis	6	0	ok
+domains/mathematics/differential-geometry/curvature-tensor.md	how	3	0	ok	R^θ_φθφ = sin²θ gives K = 1; octant holonomy π/2 checked.
+domains/mathematics/differential-geometry/curvature-tensor.md	mis	6	0	ok
+domains/mathematics/differential-geometry/de-rham-cohomology.md	how	3	0	ok
+domains/mathematics/differential-geometry/de-rham-cohomology.md	mis	6	0	ok	RP² real H¹ = H² = 0, integer H² = ℤ/2 confirmed.
+domains/mathematics/differential-geometry/differential-forms-introduction.md	how	3	0	ok	dx∧dy = r dr∧dθ worked.
+domains/mathematics/differential-geometry/differential-forms-introduction.md	mis	6	0	ok
+domains/mathematics/differential-geometry/exponential-map.md	how	3	0	ok
+domains/mathematics/differential-geometry/exponential-map.md	mis	6	0	ok
+domains/mathematics/differential-geometry/exterior-derivative.md	how	2	0	ok	d(P dx+Q dy+R dz) and d(df) for x²y worked.
+domains/mathematics/differential-geometry/exterior-derivative.md	mis	6	0	ok
+domains/mathematics/differential-geometry/fiber-bundles.md	how	2	1	fixed	The section/IVT argument shows only that the line bundle (structure group ±1) is nontrivial, not that the [−1,1] band is not a product; reworded to the Möbius line bundle with fiber ℝ.
+domains/mathematics/differential-geometry/fiber-bundles.md	mis	6	0	ok
+domains/mathematics/differential-geometry/gauss-bonnet-theorem.md	how	2	0	ok	Octant excess π/2 and torus integrand cos u du dv checked.
+domains/mathematics/differential-geometry/gauss-bonnet-theorem.md	mis	6	0	ok
+domains/mathematics/differential-geometry/geodesics.md	how	3	0	ok	Sphere geodesic equations, equator/latitude test checked.
+domains/mathematics/differential-geometry/geodesics.md	mis	6	0	ok
+domains/mathematics/differential-geometry/hodge-theory.md	how	3	0	ok	Decomposition of (2+sin 2πx)dx + cos 2πx dy checked: exact, co-exact, L²-orthogonal.
+domains/mathematics/differential-geometry/hodge-theory.md	mis	6	0	ok
+domains/mathematics/differential-geometry/implicit-function-theorem-on-manifolds.md	how	3	0	ok	d(det)_A(A) = 2 det A checked.
+domains/mathematics/differential-geometry/implicit-function-theorem-on-manifolds.md	mis	6	0	ok
+domains/mathematics/differential-geometry/integration-on-manifolds.md	how	3	0	ok	Pullback sin θ dθ∧dφ (outward orientation) and 4π checked.
+domains/mathematics/differential-geometry/integration-on-manifolds.md	mis	6	0	ok
+domains/mathematics/differential-geometry/jacobi-fields.md	how	3	0	ok
+domains/mathematics/differential-geometry/jacobi-fields.md	mis	6	0	ok
+domains/mathematics/differential-geometry/levi-civita-connection.md	how	3	0	ok	Half-plane Christoffels and y = e^t geodesic checked.
+domains/mathematics/differential-geometry/levi-civita-connection.md	mis	6	0	ok
+domains/mathematics/differential-geometry/lie-brackets.md	how	3	0	ok	Four-step loop points and [rotation, dilation] = 0 checked.
+domains/mathematics/differential-geometry/lie-brackets.md	mis	6	0	ok
+domains/mathematics/differential-geometry/lie-groups-and-lie-algebras.md	how	3	0	ok	[L_x, L_y] = L_z checked with the standard generators (basis not written out; acceptable).
+domains/mathematics/differential-geometry/lie-groups-and-lie-algebras.md	mis	6	0	ok
+domains/mathematics/differential-geometry/minimal-surfaces.md	how	3	0	ok	Scherk terms sec²x sec²y and −sec²x sec²y checked.
+domains/mathematics/differential-geometry/minimal-surfaces.md	mis	6	1	fixed	"Rings far enough apart" overstated: past h/R ≈ 0.66 no catenoid exists; catenoid has more area than the disks only for an intermediate range. Changed to "at some separations".
+domains/mathematics/differential-geometry/orientation.md	how	2	0	ok
+domains/mathematics/differential-geometry/orientation.md	mis	6	0	ok
+domains/mathematics/differential-geometry/parallel-transport.md	how	3	0	ok	Rate cos θ₀, turn 2π cos θ₀ = 2π − cap area checked.
+domains/mathematics/differential-geometry/parallel-transport.md	mis	6	0	ok	Older text was wrong and contradicted the new correct bullet 3: Core Idea said flat transport is path-independent, Q stem said "any closed loop". Fixed both minimally (up to homotopy; contractible loop).
+domains/mathematics/differential-geometry/partition-of-unity.md	how	2	0	ok	Denominator positivity and supports (−∞,1], [−1,∞) checked.
+domains/mathematics/differential-geometry/partition-of-unity.md	mis	6	0	ok
+domains/mathematics/differential-geometry/principal-bundles.md	how	3	0	ok
+domains/mathematics/differential-geometry/principal-bundles.md	mis	6	1	fixed	Belief "a principal bundle has one fixed structure group" is true by definition (a principal G-bundle has G); the correction is about reduction to subbundles. Belief reworded to frame-bundle structure group cannot be made smaller than GL(n).
+domains/mathematics/differential-geometry/ricci-curvature-and-scalar-curvature.md	how	2	0	ok	Small-ball expansion 1 − ε²/12 = 1 − Rε²/(6(n+2)) at n=2, R=2 checked.
+domains/mathematics/differential-geometry/ricci-curvature-and-scalar-curvature.md	mis	6	0	ok
+domains/mathematics/differential-geometry/riemannian-metrics.md	how	3	0	ok	∫ 2/(1−r²) dr diverges checked.
+domains/mathematics/differential-geometry/riemannian-metrics.md	mis	6	0	ok
+domains/mathematics/differential-geometry/sectional-curvature.md	how	2	0	ok	K = cos²α on S² × ℝ checked.
+domains/mathematics/differential-geometry/sectional-curvature.md	mis	6	0	ok
+domains/mathematics/differential-geometry/smooth-manifolds.md	how	3	0	ok	uv = 1 on the overlap checked.
+domains/mathematics/differential-geometry/smooth-manifolds.md	mis	6	0	ok	x ↦ x^{1/3} is a diffeomorphism from the standard structure to the x³ structure (direction left implicit; true).
+domains/mathematics/differential-geometry/stokes-theorem-on-manifolds.md	how	3	0	ok	Disk and upper hemisphere both give π with induced orientation checked.
+domains/mathematics/differential-geometry/stokes-theorem-on-manifolds.md	mis	6	1	fixed	"Only exact n-forms do" fails on disconnected closed manifolds (±area forms on two components integrate to 0 without being exact). Changed to "Exact n-forms do, by Stokes."
+domains/mathematics/differential-geometry/submanifolds.md	how	3	0	fixed	O(n) derivative, dimension and tangent space checked. Style/specificity: "sort plane curves" did not say into what; now names immersions, injective immersions, embeddings.
+domains/mathematics/differential-geometry/submanifolds.md	mis	6	1	fixed	"That needs a regular value" overstated: regular value is sufficient, not necessary (x² = 0 is a line; sibling IFT page says so). Reworded to what the regular value theorem guarantees.
+domains/mathematics/differential-geometry/symmetric-spaces.md	how	2	0	ok
+domains/mathematics/differential-geometry/symmetric-spaces.md	mis	6	0	ok
+domains/mathematics/differential-geometry/tangent-vectors-and-tangent-spaces.md	how	3	0	ok	∂/∂x = (1/√2)∂r − (1/2)∂θ at (1,1) checked on f = x.
+domains/mathematics/differential-geometry/tangent-vectors-and-tangent-spaces.md	mis	6	0	ok

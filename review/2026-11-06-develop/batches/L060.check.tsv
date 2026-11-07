@@ -1,0 +1,63 @@
+domains/mathematics/multivariable-calculus/applications-double-integrals.md	how	4	0	ok	worked: area pi, paraboloid volume pi/2
+domains/mathematics/multivariable-calculus/applications-double-integrals.md	mis	6	0	ok
+domains/mathematics/multivariable-calculus/applications-integrals-area-mass.md	how	4	0	ok	worked: rho=1 xbar=1/3; rho=x M=1/6, M_y=1/12, xbar=1/2
+domains/mathematics/multivariable-calculus/applications-integrals-area-mass.md	mis	6	0	ok
+domains/mathematics/multivariable-calculus/applications-multivariable.md	how	3	0	ok	worked: work 2 on both paths; flux 4pi both sides
+domains/mathematics/multivariable-calculus/applications-multivariable.md	mis	8	0	ok
+domains/mathematics/multivariable-calculus/applications-triple-integrals.md	how	3	0	ok	worked: cylinder 2pi, ball (4/3)piR^3
+domains/mathematics/multivariable-calculus/applications-triple-integrals.md	mis	6	0	ok	verified 2pi^2 R and zero-volume claims
+domains/mathematics/multivariable-calculus/arc-length-curves-3d.md	how	4	0	ok	worked: helix 2pi*sqrt(a^2+b^2), unrolled diagonal matches
+domains/mathematics/multivariable-calculus/arc-length-curves-3d.md	mis	8	0	ok
+domains/mathematics/multivariable-calculus/area-volume-integrals.md	how	4	0	ok	worked: both orders give 1/6
+domains/mathematics/multivariable-calculus/area-volume-integrals.md	mis	6	0	ok
+domains/mathematics/multivariable-calculus/chain-rule-multivariable-function.md	how	4	0	ok	worked: tree and substitution agree
+domains/mathematics/multivariable-calculus/chain-rule-multivariable-function.md	mis	6	0	ok
+domains/mathematics/multivariable-calculus/chain-rule-multivariable.md	how	4	0	ok	worked: cos 2t both ways
+domains/mathematics/multivariable-calculus/chain-rule-multivariable.md	mis	6	0	ok
+domains/mathematics/multivariable-calculus/change-of-variables-jacobian.md	how	4	0	ok	worked: |J|=1/2, integral 1/2, area 1
+domains/mathematics/multivariable-calculus/change-of-variables-jacobian.md	mis	6	0	ok
+domains/mathematics/multivariable-calculus/change-of-variables-multivariable.md	how	4	0	ok	worked: ellipse area pi*ab
+domains/mathematics/multivariable-calculus/change-of-variables-multivariable.md	mis	6	0	ok
+domains/mathematics/multivariable-calculus/clairaut-theorem.md	how	4	0	ok	worked: both orders give 6x^2y + cos(xy) - xy sin(xy); counterexample gives 1 and -1
+domains/mathematics/multivariable-calculus/clairaut-theorem.md	mis	6	0	ok	third bullet (f_xx = f_yy) is borderline strawman; kept
+domains/mathematics/multivariable-calculus/conservative-fields-potential.md	how	4	0	ok	worked: curl checks and f = x^2y + xz
+domains/mathematics/multivariable-calculus/conservative-fields-potential.md	mis	6	0	ok
+domains/mathematics/multivariable-calculus/conservative-fields-potential.md	old:core	1	1	fixed	Core Idea said "Magnetic fields are irrotational models of conservation" (false: curl B = mu0 J); replaced with gravitational and electrostatic fields as examples
+domains/mathematics/multivariable-calculus/conservative-vector-fields-potential.md	how	4	0	ok	worked: f(1,2)=11; direct line integral also 11
+domains/mathematics/multivariable-calculus/conservative-vector-fields-potential.md	mis	6	0	ok
+domains/mathematics/multivariable-calculus/conservative-vector-fields.md	how	4	0	ok	worked: 0 and 2pi around unit circle
+domains/mathematics/multivariable-calculus/conservative-vector-fields.md	mis	6	0	ok
+domains/mathematics/multivariable-calculus/conservative-vector-fields.md	old:core	1	1	fixed	Core Idea said conservative iff P_y = Q_x with no domain condition, contradicting the new misconception bullet; added "on a simply connected domain"
+domains/mathematics/multivariable-calculus/constrained-optimization-lagrange.md	how	4	0	ok	worked: extremes +-2, d/dc sqrt(2c) = 1/2 = lambda
+domains/mathematics/multivariable-calculus/constrained-optimization-lagrange.md	mis	6	0	ok
+domains/mathematics/multivariable-calculus/constrained-optimization.md	how	4	0	ok	worked: cube side sqrt(S/6), lambda = x/4 = dV*/dS
+domains/mathematics/multivariable-calculus/constrained-optimization.md	mis	6	1	fixed	bullet 2 advice "check whether the feasible set is bounded" is misleading: the box problem's own feasible set is unbounded yet has a max; changed to check that the optimum exists
+domains/mathematics/multivariable-calculus/continuity-multivariable.md	how	4	0	ok	worked: lines give 0, y=x^2 gives 1/2; |f| <= |y| bound
+domains/mathematics/multivariable-calculus/continuity-multivariable.md	mis	6	0	ok
+domains/mathematics/multivariable-calculus/contour-maps-level-curves.md	how	4	0	ok	worked: radii 0,1,2,3,4 vs 0,1,sqrt2,sqrt3,2
+domains/mathematics/multivariable-calculus/contour-maps-level-curves.md	mis	6	0	ok
+domains/mathematics/multivariable-calculus/contour-maps.md	how	4	0	ok	worked: semi-axes 1,1/2; 2,1; 3,3/2
+domains/mathematics/multivariable-calculus/contour-maps.md	mis	6	0	ok
+domains/mathematics/multivariable-calculus/critical-points-extrema-saddle.md	how	4	0	ok	worked: (+-1,0), slices at -1 prove saddle
+domains/mathematics/multivariable-calculus/critical-points-extrema-saddle.md	mis	6	0	ok
+domains/mathematics/multivariable-calculus/critical-points-extrema.md	how	4	0	ok	worked: min -1 at (1,0), max 8 at (-2,0)
+domains/mathematics/multivariable-calculus/critical-points-extrema.md	mis	6	0	ok	verified x^2 + y^2(1-x)^3 has a single critical point and no global min
+domains/mathematics/multivariable-calculus/critical-points-multivariable-classification.md	how	5	0	ok	worked: D values 4, -4, -5, 0, 0
+domains/mathematics/multivariable-calculus/critical-points-multivariable-classification.md	mis	6	1	fixed	bullet 3 overstated "The region must be closed and bounded" (sufficient for the guarantee, not necessary); reworded to "The guarantee requires a closed and bounded region"
+domains/mathematics/multivariable-calculus/cross-product-geometry-3d.md	how	5	0	ok	worked: <6,3,2>, length 7, area 7/2, plane 6x+3y+2z=6
+domains/mathematics/multivariable-calculus/cross-product-geometry-3d.md	mis	6	0	ok
+domains/mathematics/multivariable-calculus/curl-and-divergence-operators.md	how	4	0	ok	worked: div 3/0/0, curls 0, <0,0,2>, <0,0,-1>
+domains/mathematics/multivariable-calculus/curl-and-divergence-operators.md	mis	8	0	ok
+domains/mathematics/multivariable-calculus/curl-and-divergence.md	how	4	0	ok	worked: div x+y+z, curl <-y,-z,-x>, div curl 0, curl grad 0
+domains/mathematics/multivariable-calculus/curl-and-divergence.md	mis	6	0	ok
+domains/mathematics/multivariable-calculus/curl-divergence.md	how	5	0	ok	worked: all four table cells
+domains/mathematics/multivariable-calculus/curl-divergence.md	mis	6	0	ok
+domains/mathematics/multivariable-calculus/curvature-and-torsion.md	how	5	0	ok	worked: r' x r'', kappa = a/(a^2+b^2), tau = b/(a^2+b^2)
+domains/mathematics/multivariable-calculus/curvature-and-torsion.md	mis	6	0	ok
+domains/mathematics/multivariable-calculus/curvature-and-torsion.md	old:core	1	1	fixed	Core Idea typo "oscillating plane" corrected to "osculating plane"
+domains/mathematics/multivariable-calculus/differentiability-multivariable.md	how	4	0	ok	worked: ratios sqrt2|x| and 1/sqrt2
+domains/mathematics/multivariable-calculus/differentiability-multivariable.md	mis	6	0	ok	verified directional derivatives of x^2y/(x^4+y^2) exist (a^2/b)
+domains/mathematics/multivariable-calculus/differentiability-multivariate.md	how	4	0	ok	worked: ratio 1/2 along y=x; xy bound
+domains/mathematics/multivariable-calculus/differentiability-multivariate.md	mis	6	0	ok
+domains/mathematics/multivariable-calculus/directional-derivatives-gradient.md	how	5	0	ok	worked: D_u f = 3.2; f(1.03,2.04)=2.1642, rate 3.28; |grad f| = 4.12
+domains/mathematics/multivariable-calculus/directional-derivatives-gradient.md	mis	6	0	ok

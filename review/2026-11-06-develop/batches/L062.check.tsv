@@ -1,0 +1,68 @@
+domains/mathematics/multivariable-calculus/line-integrals-vector-fields.md	how	3	0	ok	worked: line 1/2, parabola 1/3
+domains/mathematics/multivariable-calculus/line-integrals-vector-fields.md	mis	8	0	ok
+domains/mathematics/multivariable-calculus/line-integrals.md	how	4	0	ok	worked: scalar 1/2, vector pi/4
+domains/mathematics/multivariable-calculus/line-integrals.md	mis	8	0	ok
+domains/mathematics/multivariable-calculus/line-integrals.md	old:core	1	1	fixed	Core Idea said both integrals depend on orientation; contradicted new mis bullet 2 and Explainer; now only the vector version
+domains/mathematics/multivariable-calculus/mixed-partials-clairaut.md	how	4	0	ok	worked both orders: 6x^2y + cos(xy) - xy sin(xy)
+domains/mathematics/multivariable-calculus/mixed-partials-clairaut.md	mis	8	0	ok
+domains/mathematics/multivariable-calculus/multivariable-functions-intro-domain.md	how	3	0	ok
+domains/mathematics/multivariable-calculus/multivariable-functions-intro-domain.md	mis	6	0	ok
+domains/mathematics/multivariable-calculus/multivariable-functions-intro-domain.md	old:format	1	1	fixed	Questions block sat after Explainer; moved before Explainer
+domains/mathematics/multivariable-calculus/multivariable-functions-intro.md	how	4	1	fixed	"level curves of x^2 - y^2 are hyperbolas" false at c = 0 (crossing lines); qualified to c != 0
+domains/mathematics/multivariable-calculus/multivariable-functions-intro.md	mis	6	1	fixed	same absolute in bullet 2; added the c = 0 crossing-lines case
+domains/mathematics/multivariable-calculus/multivariable-functions-intro.md	old:q:3:question	1	1	fixed	garbled "along most straight-line path" -> "every straight-line path" (matches explanation)
+domains/mathematics/multivariable-calculus/optimization-multivariable-basics.md	how	4	0	ok	worked: (1/2,0) gives -1/4; boundary 1 - cos t in [0,2]
+domains/mathematics/multivariable-calculus/optimization-multivariable-basics.md	mis	8	0	ok
+domains/mathematics/multivariable-calculus/partial-derivatives.md	how	3	0	ok	worked: f_x = 4, f_y = 13 at (1,2)
+domains/mathematics/multivariable-calculus/partial-derivatives.md	mis	6	0	ok
+domains/mathematics/multivariable-calculus/rates-of-change-partial-derivatives.md	how	4	0	ok	worked: T(3.1,1) = 88.39, change -0.61
+domains/mathematics/multivariable-calculus/rates-of-change-partial-derivatives.md	mis	8	0	ok
+domains/mathematics/multivariable-calculus/second-partials-test-extrema.md	how	4	0	ok	worked: D = 3 and D = -5; g(x,-x) = -x^2
+domains/mathematics/multivariable-calculus/second-partials-test-extrema.md	mis	6	0	ok
+domains/mathematics/multivariable-calculus/second-partials-test-hessian.md	how	4	0	ok	worked: eigenvalues 6, -2 with eigenvectors (1,-1),(1,1); slices 6x^2, -2x^2; product -12 = D
+domains/mathematics/multivariable-calculus/second-partials-test-hessian.md	mis	6	0	ok
+domains/mathematics/multivariable-calculus/space-curves.md	how	4	0	ok	worked: speed 5, kappa = 3/25
+domains/mathematics/multivariable-calculus/space-curves.md	mis	8	0	ok
+domains/mathematics/multivariable-calculus/stokes-and-divergence-theorems.md	how	4	0	ok	worked: 4pi both sides; 2pi both sides
+domains/mathematics/multivariable-calculus/stokes-and-divergence-theorems.md	mis	6	0	ok
+domains/mathematics/multivariable-calculus/stokes-theorem-applications.md	how	4	0	ok	worked: curl <1,1,1>, disk flux pi, line integral of cos^2 t = pi
+domains/mathematics/multivariable-calculus/stokes-theorem-applications.md	mis	6	0	ok	checked F = <0,0,x>: curl <0,-1,0>, circulation 0
+domains/mathematics/multivariable-calculus/stokes-theorem.md	how	3	0	ok	hemisphere flux of constant <0,0,2> = 2pi checked
+domains/mathematics/multivariable-calculus/stokes-theorem.md	mis	6	0	ok
+domains/mathematics/multivariable-calculus/stokes-theorem.md	q:4:explanation	1	0	ok
+domains/mathematics/multivariable-calculus/stokes-theorem.md	old:ex	2	2	fixed	Explainer called curl-free fields "conservative" and said surface independence holds "for conservative fields", contradicting new mis bullet 2; now "irrotational" and "any smooth field"
+domains/mathematics/multivariable-calculus/surface-area-integrals.md	how	3	0	ok	worked: cross <-2,-1,1>, area sqrt 6; sphere 4piR^2
+domains/mathematics/multivariable-calculus/surface-area-integrals.md	mis	6	0	ok	2pi^2 checked
+domains/mathematics/multivariable-calculus/surface-integrals-flux-vector.md	how	4	0	ok	worked: sin phi cos phi integrand, flux pi
+domains/mathematics/multivariable-calculus/surface-integrals-flux-vector.md	mis	6	0	ok
+domains/mathematics/multivariable-calculus/surface-integrals-flux.md	how	3	0	ok	worked: integrand 1 + x^2 + y^2, 3pi/2; opening "flat constant-field check" refers only to the Explainer's scaling check
+domains/mathematics/multivariable-calculus/surface-integrals-flux.md	mis	6	0	ok
+domains/mathematics/multivariable-calculus/surface-integrals-scalar-function.md	how	4	0	ok	worked both ways = pi; average 1/2
+domains/mathematics/multivariable-calculus/surface-integrals-scalar-function.md	mis	6	0	ok	parameter rectangle area pi^2 checked
+domains/mathematics/multivariable-calculus/surface-integrals-scalar.md	how	4	0	ok	worked: 18pi, area 12pi, mean 3/2
+domains/mathematics/multivariable-calculus/surface-integrals-scalar.md	mis	6	0	ok
+domains/mathematics/multivariable-calculus/surface-parametrization-tangent.md	how	4	0	ok	worked: cross <v cos u, v sin u, -v>, length v sqrt 2
+domains/mathematics/multivariable-calculus/surface-parametrization-tangent.md	mis	6	0	ok
+domains/mathematics/multivariable-calculus/tangent-planes-linear-approximation.md	how	4	0	ok	worked: L = 4.988, true 4.98812; at (3.2,3.7) error 0.0118 vs 0.000116 (~100x)
+domains/mathematics/multivariable-calculus/tangent-planes-linear-approximation.md	mis	6	0	ok
+domains/mathematics/multivariable-calculus/tangent-planes-surfaces.md	how	4	0	ok	worked: f_x = -1/3, f_y = -2/3, normals parallel
+domains/mathematics/multivariable-calculus/tangent-planes-surfaces.md	mis	8	0	ok
+domains/mathematics/multivariable-calculus/tangent-planes-surfaces.md	old:core+q+ex	5	5	fixed	Core Idea, Q0 and Q2 explanations and Explainer claimed the 2D gradient <f_x,f_y> lies in the tangent plane (false unless gradient is 0); now "lies in the xy-plane". Q4 explanation said the <f_x,f_y,-1> normal points upward; it points downward, fixed
+domains/mathematics/multivariable-calculus/total-differential-approximation.md	how	4	0	ok	worked: df 0.75 vs 0.7395; 0.375 vs 0.3724; gap ratio ~0.24
+domains/mathematics/multivariable-calculus/total-differential-approximation.md	mis	6	0	ok	worst case 1.65 checked
+domains/mathematics/multivariable-calculus/total-differential.md	how	4	0	ok	worked: df 0.8, Df 0.82
+domains/mathematics/multivariable-calculus/total-differential.md	mis	6	1	fixed	bullet 1 compared with "the x term" without giving dx; added dx = 0.02 and both terms (0.08, -0.12)
+domains/mathematics/multivariable-calculus/total-differential.md	old:ex	1	1	fixed	garbled "rate of change with x fixed y" -> "with y fixed"
+domains/mathematics/multivariable-calculus/triple-integrals-cartesian.md	how	3	0	ok	worked: 1/6
+domains/mathematics/multivariable-calculus/triple-integrals-cartesian.md	mis	6	0	ok
+domains/mathematics/multivariable-calculus/triple-integrals-cylindrical-spherical.md	how	3	0	ok	worked: (16pi/3)(1 - sqrt2/2); r <= sqrt 2
+domains/mathematics/multivariable-calculus/triple-integrals-cylindrical-spherical.md	mis	6	0	ok	phi to 2pi gives 0 checked
+domains/mathematics/multivariable-calculus/triple-integrals-cylindrical.md	how	3	0	ok	worked: 7pi/2; pi
+domains/mathematics/multivariable-calculus/triple-integrals-cylindrical.md	mis	6	0	ok
+domains/mathematics/multivariable-calculus/triple-integrals-cylindrical.md	old:q+ex	5	5	fixed	Q4 diagnostic said missing r gives RH (it gives 2pi RH); "undercount" claims in Q0, Q3, Q4 and Explainer false for regions with r < 1; reworded to "misweight" and "differ by the factor R/2"
+domains/mathematics/multivariable-calculus/triple-integrals-spherical.md	how	3	1	fixed	step failed when worked: changing only the phi-bound of the 1/rho^2 integral gives 2pi, not the half-ball volume 2pi/3; now says integrate f = 1
+domains/mathematics/multivariable-calculus/triple-integrals-spherical.md	mis	6	0	ok
+domains/mathematics/multivariable-calculus/triple-integrals.md	how	3	0	ok	worked: 10/3; 8pi/3
+domains/mathematics/multivariable-calculus/triple-integrals.md	mis	6	0	ok
+domains/mathematics/multivariable-calculus/unconstrained-optimization.md	how	4	0	ok	worked: D = 12, f = -2; D = -12
+domains/mathematics/multivariable-calculus/unconstrained-optimization.md	mis	6	0	ok

@@ -1,0 +1,50 @@
+domains/mathematics/stochastic-processes/branching-processes.md	how	4	0	ok	worked: G=1/4+3/4 s^2, mu=3/2, 3q^2-4q+1=0 roots 1/3,1
+domains/mathematics/stochastic-processes/branching-processes.md	mis	8	0	ok
+domains/mathematics/stochastic-processes/brownian-motion-stochastic.md	how	3	0	ok	Var(W(1))=n*(1/n)=1 checked
+domains/mathematics/stochastic-processes/brownian-motion-stochastic.md	mis	6	0	ok
+domains/mathematics/stochastic-processes/continuous-time-markov-chains.md	how	3	0	ok	P00(t) checked against q01=alpha, q10=beta
+domains/mathematics/stochastic-processes/continuous-time-markov-chains.md	mis	6	0	ok
+domains/mathematics/stochastic-processes/diffusion-processes.md	how	4	0	ok	worked: s for BM+drift, OU s' and speed density, variance sigma^2/(2 theta)
+domains/mathematics/stochastic-processes/diffusion-processes.md	mis	6	1	fixed	bullet 3 said +inf is natural "because" it is not reached in finite time; not reached gives inaccessible (entrance boundaries are also unreached). Reworded: inaccessible because unreached, and in fact natural
+domains/mathematics/stochastic-processes/ergodic-theory-for-stochastic-processes.md	how	3	0	ok	dX=-X dt+sqrt2 dW stationary N(0,1) checked
+domains/mathematics/stochastic-processes/ergodic-theory-for-stochastic-processes.md	mis	6	1	fixed	bullet 1 dropped qualifier: OU mixture is stationary only if each component starts from its stationary law; added
+domains/mathematics/stochastic-processes/feynman-kac-formula.md	how	3	0	ok	worked: u=x^2+T-t and discounted version both satisfy PDE
+domains/mathematics/stochastic-processes/feynman-kac-formula.md	mis	6	0	ok
+domains/mathematics/stochastic-processes/geometric-brownian-motion.md	how	4	0	ok	worked: mu-sigma^2/2=-0.04, mean e^0.4=1.49, median e^-0.4=0.67
+domains/mathematics/stochastic-processes/geometric-brownian-motion.md	mis	6	0	ok
+domains/mathematics/stochastic-processes/girsanov-theorem.md	how	4	1	fixed	completing the square checks (N(-theta T,T)); "the whole theorem in one picture" overstated a one-time marginal as the full process-level theorem; changed to "the theorem seen at a single time"
+domains/mathematics/stochastic-processes/girsanov-theorem.md	mis	6	0	ok
+domains/mathematics/stochastic-processes/ito-integral.md	how	4	0	ok	worked: left/right/average sums; isometry both sides T^2/2
+domains/mathematics/stochastic-processes/ito-integral.md	mis	6	0	ok
+domains/mathematics/stochastic-processes/itos-formula.md	how	3	0	ok	exp(theta x - theta^2 t/2) cancellation checked
+domains/mathematics/stochastic-processes/itos-formula.md	mis	6	0	ok
+domains/mathematics/stochastic-processes/kolmogorov-equations.md	how	3	0	ok	BM-with-drift density and zero-flux OU condition checked
+domains/mathematics/stochastic-processes/kolmogorov-equations.md	mis	6	0	ok
+domains/mathematics/stochastic-processes/levy-processes.md	how	3	0	ok	mass 2 eps^-alpha/alpha; int min(1,x^2) nu finite for 0<alpha<2
+domains/mathematics/stochastic-processes/levy-processes.md	mis	8	0	ok
+domains/mathematics/stochastic-processes/martingale-convergence-theorems.md	how	4	0	ok	sum 1/k^2 < pi^2/6 < 2
+domains/mathematics/stochastic-processes/martingale-convergence-theorems.md	mis	6	0	ok
+domains/mathematics/stochastic-processes/martingale-representation-theorem.md	how	3	0	ok	worked: E[W(T)^3|F_t] and H=3W^2+3(T-t), delta recipe matches
+domains/mathematics/stochastic-processes/martingale-representation-theorem.md	mis	6	0	ok
+domains/mathematics/stochastic-processes/optimal-stopping.md	how	3	0	ok	worked: 3.5, 4.25, 14/3
+domains/mathematics/stochastic-processes/optimal-stopping.md	mis	6	0	ok	belief "largest process above the payoff" is weak but plausible (sup over stopping times); kept
+domains/mathematics/stochastic-processes/ornstein-uhlenbeck-process.md	how	3	0	ok	older Core Idea "only stationary Gaussian Markov process" omits Doob's trivial/affine exceptions (not in scope)
+domains/mathematics/stochastic-processes/ornstein-uhlenbeck-process.md	mis	6	0	ok
+domains/mathematics/stochastic-processes/poisson-processes.md	how	3	0	ok
+domains/mathematics/stochastic-processes/poisson-processes.md	mis	6	0	ok
+domains/mathematics/stochastic-processes/properties-of-brownian-motion.md	how	3	0	ok	2(1-Phi(1))=0.317 checked
+domains/mathematics/stochastic-processes/properties-of-brownian-motion.md	mis	8	0	ok
+domains/mathematics/stochastic-processes/reflected-brownian-motion.md	how	3	1	fixed	worked the Skorokhod map: l(t)=t on [0,1], so x=w+l=0 on all of [0,1], not only at t=1; reworded to "stays at 0 on [0,1] and again on [5,6], exactly where l is increasing"
+domains/mathematics/stochastic-processes/reflected-brownian-motion.md	mis	6	0	ok
+domains/mathematics/stochastic-processes/renewal-theory.md	how	4	0	ok	worked: E[min(X,1)]=3/4, cost 2, rate 8/3, E[X^2]/E[X]=4/3
+domains/mathematics/stochastic-processes/renewal-theory.md	mis	6	1	fixed	bullet 3 dropped qualifiers: m(t) - t/mu -> (sigma^2-mu^2)/(2mu^2) needs non-lattice X with finite variance; added
+domains/mathematics/stochastic-processes/stationary-processes.md	how	3	0	ok	triangle FT = (sin(w/2)/(w/2))^2 checked
+domains/mathematics/stochastic-processes/stationary-processes.md	mis	6	0	ok	det of [[1,1,0],[1,1,1],[0,1,1]] = -1 checked
+domains/mathematics/stochastic-processes/stochastic-calculus-in-finance.md	how	3	0	ok	worked: delta 0.5, borrow 40, price 10, q=0.5
+domains/mathematics/stochastic-processes/stochastic-calculus-in-finance.md	mis	6	0	ok
+domains/mathematics/stochastic-processes/stochastic-control-basics.md	how	4	0	ok	worked LQ HJB: a'=a^2, b'=-sigma^2 a, a=1/(1+T-t), b=sigma^2 ln(1+T-t)
+domains/mathematics/stochastic-processes/stochastic-control-basics.md	mis	6	0	ok
+domains/mathematics/stochastic-processes/stochastic-differential-equations.md	how	3	0	ok	x=t^3 and 1/(1-t) checked
+domains/mathematics/stochastic-processes/stochastic-differential-equations.md	mis	6	0	ok
+domains/mathematics/stochastic-processes/stochastic-integration-semimartingales.md	how	3	0	ok	jump term (x+1)^2-x^2-2x=1 and M^2=2int M- dM + N checked
+domains/mathematics/stochastic-processes/stochastic-integration-semimartingales.md	mis	6	0	ok

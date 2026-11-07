@@ -1,0 +1,24 @@
+domains/economics/advanced-microeconomics/signaling-games-and-pooling-separating.md	how	4	0	ok	Worked: low mimics iff e<1, high signals iff e<=2; least-cost separating e=1.
+domains/economics/advanced-microeconomics/signaling-games-and-pooling-separating.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/signaling-games-and-pooling-separating.md	old:q:0:explanation	1	1	fixed	Said pooling signal is uninformative "because it is not differentially costly"; pooling exists with single crossing (beliefs sustain it). Now "because every type sends it".
+domains/economics/advanced-microeconomics/signaling-games.md	mis	6	0	ok
+domains/economics/advanced-microeconomics/slutsky-equation.md	how	4	0	ok	Worked: total -50, Hicksian at u=50 gives -25, income term -25.
+domains/economics/advanced-microeconomics/slutsky-equation.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/social-welfare-optimization.md	how	4	1	fixed	Leaky-transfer step had no starting endowment, so it could not be worked. Added endowment (10,0), half lost per unit; worked: t=5, consumption 5 and 2.5.
+domains/economics/advanced-microeconomics/social-welfare-optimization.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/stackelberg-competition.md	how	5	0	ok	Worked: q1=60, q2=30, P=30, profits 1800/900 vs Cournot 1600 each.
+domains/economics/advanced-microeconomics/stackelberg-competition.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/strategic-form-games.md	how	4	1	fixed	"Matching Pennies (none)" dropped the "pure" qualifier and contradicted the mixed equilibrium in the next sentence; now "none in pure strategies".
+domains/economics/advanced-microeconomics/strategic-form-games.md	mis	6	0	ok
+domains/economics/advanced-microeconomics/strong-axiom-revealed-preference.md	how	4	0	ok
+domains/economics/advanced-microeconomics/strong-axiom-revealed-preference.md	mis	6	0	ok
+domains/economics/advanced-microeconomics/subgame-perfect-equilibrium.md	how	3	1	fixed	"Find both Nash equilibria": the matrix also has a continuum of mixed NE (Out, Fight with prob >= 1/2). Now "both pure-strategy Nash equilibria". Rest worked and correct.
+domains/economics/advanced-microeconomics/subgame-perfect-equilibrium.md	mis	6	0	ok
+domains/economics/advanced-microeconomics/vcg-auction-mechanism.md	how	5	0	ok	Worked: B pays 10-6=4, C pays 4, revenue 8.
+domains/economics/advanced-microeconomics/vcg-auction-mechanism.md	mis	6	0	fixed	Style only: "payments fund the outcome they choose" had a dangling "they"; now "cover the cost of the outcome the mechanism chooses".
+domains/economics/advanced-microeconomics/walrasian-equilibrium.md	how	4	0	ok	Worked: A demands x=5, B demands 5/p, p=1; y market clears 5+5=10.
+domains/economics/advanced-microeconomics/walrasian-equilibrium.md	mis	6	0	ok
+domains/economics/advanced-microeconomics/welfare-analysis-advanced.md	how	5	0	ok	Worked: DWL 50 and 200, revenue 700 and 1200.
+domains/economics/advanced-microeconomics/welfare-analysis-advanced.md	mis	8	1	fixed	"Most of what they lose becomes government revenue" overstated: at high taxes DWL exceeds revenue (tax 60 here: revenue 1200, DWL 1800). Now "Part of".
+domains/economics/advanced-microeconomics/welfare-analysis-advanced.md	old:core	1	1	fixed	Harberger approximation said "half the distortion squared times quantity"; it is times the quantity response to price (dQ/dP). Fixed.
+domains/economics/advanced-microeconomics/welfare-analysis-advanced.md	old:ex	1	1	fixed	Same formula error in Explainer ("times the quantity affected"). Fixed. Also noted, not changed: Explainer paragraph 3 implies CV/EV weight consumers by income, which they do not.

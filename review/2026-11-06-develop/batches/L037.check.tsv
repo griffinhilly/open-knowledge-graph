@@ -1,0 +1,50 @@
+domains/mathematics/commutative-algebra/ca-associated-primes.md	how	5	0	ok
+domains/mathematics/commutative-algebra/ca-associated-primes.md	mis	6	0	ok	New bullets correct but contradicted OLD text (Explainer said embedded primes are "strictly contained in" another associated prime and that embedded primes vary with the decomposition; Q3/Q4 explanations said the same). Fixed those 4 old sentences to match: embedded primes strictly contain another associated prime; the set Ass is unique, embedded components vary.
+domains/mathematics/commutative-algebra/ca-chain-conditions.md	how	4	0	ok
+domains/mathematics/commutative-algebra/ca-chain-conditions.md	mis	6	0	ok
+domains/mathematics/commutative-algebra/ca-completion.md	how	5	0	ok	Hensel steps worked: 6t = -1 mod 7 gives t = 1, b = 10, 100 = 2 mod 49.
+domains/mathematics/commutative-algebra/ca-completion.md	mis	6	0	ok	Old text (not fixed): Q5 explanation says faithful flatness carries Noetherianness up to the completion; that is not how the result is proved.
+domains/mathematics/commutative-algebra/ca-dedekind-domains.md	how	5	0	ok	P^2 = (4, 2+2√-5, -4+2√-5) = (2) and norm argument both check.
+domains/mathematics/commutative-algebra/ca-dedekind-domains.md	mis	6	0	ok	Checked Z[√-3]: unique prime P over 2 has P^2 = 2P, so (2) is not a product of primes.
+domains/mathematics/commutative-algebra/ca-exact-sequences.md	how	3	0	ok
+domains/mathematics/commutative-algebra/ca-exact-sequences.md	mis	6	0	ok
+domains/mathematics/commutative-algebra/ca-flatness.md	how	4	0	ok
+domains/mathematics/commutative-algebra/ca-flatness.md	mis	6	0	ok	Old text (not fixed): Q5 explanation says S^-1 R is faithfully flat "only if every prime of R meets S"; wrong (it is faithfully flat iff no maximal ideal meets S).
+domains/mathematics/commutative-algebra/ca-going-up-going-down.md	how	5	0	ok
+domains/mathematics/commutative-algebra/ca-going-up-going-down.md	mis	8	1	fixed	Lying-over bullet said "It needs integrality" (absolute; lying over also holds for e.g. faithfully flat maps). Changed to "It can fail without integrality." Old text (not fixed): Explainer implies dim S = dim R needs going down; for integral extensions it follows from going up plus incomparability.
+domains/mathematics/commutative-algebra/ca-graded-rings.md	how	3	0	ok
+domains/mathematics/commutative-algebra/ca-graded-rings.md	mis	6	0	ok	Old text (not fixed): Q2 explanation says every nonzero ideal contains a homogeneous element; false, (x+1) in k[x,y] contains none.
+domains/mathematics/commutative-algebra/ca-hilbert-basis-theorem.md	how	4	0	ok
+domains/mathematics/commutative-algebra/ca-hilbert-basis-theorem.md	mis	6	0	ok
+domains/mathematics/commutative-algebra/ca-homological-dimension.md	how	4	0	ok
+domains/mathematics/commutative-algebra/ca-homological-dimension.md	mis	6	0	ok
+domains/mathematics/commutative-algebra/ca-ideal-operations.md	how	6	0	ok
+domains/mathematics/commutative-algebra/ca-ideal-operations.md	mis	6	0	ok	Old text (not fixed): Q4 and Explainer call "P contains I∩J implies P contains I or J" prime avoidance; that is a misnomer.
+domains/mathematics/commutative-algebra/ca-integral-extensions.md	how	5	0	ok
+domains/mathematics/commutative-algebra/ca-integral-extensions.md	mis	6	0	ok
+domains/mathematics/commutative-algebra/ca-krull-dimension.md	how	4	0	ok
+domains/mathematics/commutative-algebra/ca-krull-dimension.md	mis	6	0	ok	Old text (not fixed, answer key wrong): Q2 restricts to f a non-zero-divisor and answers false; with that hypothesis every minimal prime over (f) has height exactly 1, so the statement is true. Dropping "non-zero-divisor" from the question would make the key and explanation right.
+domains/mathematics/commutative-algebra/ca-local-rings.md	how	5	0	ok
+domains/mathematics/commutative-algebra/ca-local-rings.md	mis	6	0	ok
+domains/mathematics/commutative-algebra/ca-localization.md	how	4	0	ok
+domains/mathematics/commutative-algebra/ca-localization.md	mis	6	0	ok
+domains/mathematics/commutative-algebra/ca-modules-over-rings.md	how	4	0	ok
+domains/mathematics/commutative-algebra/ca-modules-over-rings.md	mis	6	0	ok
+domains/mathematics/commutative-algebra/ca-nakayama-lemma.md	how	5	0	ok
+domains/mathematics/commutative-algebra/ca-nakayama-lemma.md	mis	6	0	ok
+domains/mathematics/commutative-algebra/ca-noether-normalization.md	how	6	1	fixed	"Projection along z hits every value" is false over non-closed fields (over Q, x^2 + 1 = 0 has no root at z = 0). Added "over an algebraically closed field". Rest of the worked normalization checks. Old text (not fixed, answer key wrong): Q1 keys "integral extension of k[x]" for k[x,y]/(xy-1) and its explanation is self-contradictory draft text; the new How section correctly says A is not integral over k[x]. Question needs a rewrite.
+domains/mathematics/commutative-algebra/ca-noether-normalization.md	mis	6	0	ok
+domains/mathematics/commutative-algebra/ca-noetherian-rings.md	how	4	0	ok
+domains/mathematics/commutative-algebra/ca-noetherian-rings.md	mis	6	0	ok	Old text (not fixed): Explainer typo "In = In" (should be In = IN); Q1 explanation says "all primes principal" is not sufficient for Noetherian, but it is (Cohen's theorem).
+domains/mathematics/commutative-algebra/ca-primary-decomposition.md	how	4	0	ok
+domains/mathematics/commutative-algebra/ca-primary-decomposition.md	mis	6	0	ok	Old text (not fixed): Q1 explanation contains leftover draft text "(since we need a²... actually)".
+domains/mathematics/commutative-algebra/ca-prime-and-maximal-ideals.md	how	4	0	ok
+domains/mathematics/commutative-algebra/ca-prime-and-maximal-ideals.md	mis	6	0	ok
+domains/mathematics/commutative-algebra/ca-regular-sequences.md	how	5	0	ok	Worked both orders; z(1-x) is a zero divisor mod y(1-x) as stated.
+domains/mathematics/commutative-algebra/ca-regular-sequences.md	mis	6	0	ok	Old text (not fixed): Explainer claims (y(1-x), x) is not regular in k[x,y]; it is regular (the counterexample needs three variables, as the new How uses). Q1 option B (xy, z) is also a regular sequence, so Q1 has two correct answers.
+domains/mathematics/commutative-algebra/ca-spec-and-zariski-topology.md	how	4	0	ok
+domains/mathematics/commutative-algebra/ca-spec-and-zariski-topology.md	mis	6	0	ok	Old text (not fixed): Q2 explanation states V(∩I_α) = ∪V(I_α) for arbitrary families; should be ∩V(I_α) = V(ΣI_α) and V(I)∪V(J) = V(IJ).
+domains/mathematics/commutative-algebra/ca-tensor-products.md	how	3	0	ok
+domains/mathematics/commutative-algebra/ca-tensor-products.md	mis	6	0	ok	Old text (not fixed): Q1 explanation contains garbled draft text ("·something", "...").
+domains/mathematics/commutative-algebra/ca-valuation-rings.md	how	5	0	ok
+domains/mathematics/commutative-algebra/ca-valuation-rings.md	mis	6	0	ok	Old text (not fixed): Q4 "a valuation ring that is not a DVR is never Noetherian" keyed true, but fields are counterexamples (the explanation admits this).

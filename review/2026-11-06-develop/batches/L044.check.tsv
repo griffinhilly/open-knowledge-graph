@@ -1,0 +1,60 @@
+domains/physics/condensed-matter-physics/anderson-localization.md	how	4	0	ok
+domains/physics/condensed-matter-physics/anderson-localization.md	mis	8	0	ok
+domains/physics/condensed-matter-physics/antiferromagnetism-spin-waves.md	how	4	0	ok
+domains/physics/condensed-matter-physics/antiferromagnetism-spin-waves.md	mis	8	0	ok
+domains/physics/condensed-matter-physics/band-structure-density-of-states.md	how	3	0	ok
+domains/physics/condensed-matter-physics/band-structure-density-of-states.md	mis	8	1	fixed	VHS bullet said true divergences appear in 2D; dropped qualifier: in 2D only saddle points diverge (log), band edges are finite steps
+domains/physics/condensed-matter-physics/bcs-theory-detailed.md	how	4	0	ok
+domains/physics/condensed-matter-physics/bcs-theory-detailed.md	mis	8	0	ok
+domains/physics/condensed-matter-physics/berry-phase-topological-invariants.md	how	4	0	ok
+domains/physics/condensed-matter-physics/berry-phase-topological-invariants.md	mis	8	0	ok
+domains/physics/condensed-matter-physics/bloch-theorem.md	how	5	0	ok
+domains/physics/condensed-matter-physics/bloch-theorem.md	mis	8	0	ok
+domains/physics/condensed-matter-physics/boltzmann-transport-equation-cm.md	how	4	0	ok
+domains/physics/condensed-matter-physics/boltzmann-transport-equation-cm.md	mis	6	1	fixed	"only Fermi-surface electrons contribute" lacked the metal (degenerate) qualifier and read as clashing with the How section's shifted-Fermi-sphere picture; added qualifier and reconciled
+domains/physics/condensed-matter-physics/crystal-structure-bravais-lattices.md	how	5	0	ok	worked FCC (a^3/4) and BCC (a^3/2) triple products: correct
+domains/physics/condensed-matter-physics/crystal-structure-bravais-lattices.md	mis	8	0	ok
+domains/physics/condensed-matter-physics/density-functional-theory-cm.md	how	4	0	ok
+domains/physics/condensed-matter-physics/density-functional-theory-cm.md	mis	8	0	ok
+domains/physics/condensed-matter-physics/drude-sommerfeld-models.md	how	4	0	ok	worked copper numbers: tau 2.46e-14 s, l 2.9 nm classical, 39 nm Fermi: correct
+domains/physics/condensed-matter-physics/drude-sommerfeld-models.md	mis	8	0	ok
+domains/physics/condensed-matter-physics/electron-phonon-interaction.md	how	4	0	ok	Bloch-Gruneisen limits checked
+domains/physics/condensed-matter-physics/electron-phonon-interaction.md	mis	6	0	ok
+domains/physics/condensed-matter-physics/fermi-liquid-theory.md	how	3	0	ok
+domains/physics/condensed-matter-physics/fermi-liquid-theory.md	mis	6	0	ok
+domains/physics/condensed-matter-physics/ferromagnetism-heisenberg-model.md	how	5	0	ok	triplet -J/4, singlet +3J/4 and m = tanh(T_C m/T) checked
+domains/physics/condensed-matter-physics/ferromagnetism-heisenberg-model.md	mis	6	0	ok
+domains/physics/condensed-matter-physics/fractional-quantum-hall-effect.md	how	4	0	ok
+domains/physics/condensed-matter-physics/fractional-quantum-hall-effect.md	mis	8	0	ok
+domains/physics/condensed-matter-physics/ginzburg-landau-theory.md	how	4	0	ok	tanh(x/(sqrt2 xi)) verified by substitution
+domains/physics/condensed-matter-physics/ginzburg-landau-theory.md	mis	6	0	ok
+domains/physics/condensed-matter-physics/greens-functions-many-body.md	how	5	0	ok
+domains/physics/condensed-matter-physics/greens-functions-many-body.md	mis	8	0	ok
+domains/physics/condensed-matter-physics/heavy-fermion-systems.md	how	5	0	ok
+domains/physics/condensed-matter-physics/heavy-fermion-systems.md	mis	8	0	ok
+domains/physics/condensed-matter-physics/hubbard-model.md	how	5	0	ok	two-site singlet energy and -4t^2/U limit checked
+domains/physics/condensed-matter-physics/hubbard-model.md	mis	8	0	ok
+domains/physics/condensed-matter-physics/integer-quantum-hall-effect.md	how	5	0	ok	B(nu=1) = 12.4 T and hbar omega_c = 17 meV checked
+domains/physics/condensed-matter-physics/integer-quantum-hall-effect.md	mis	6	0	ok
+domains/physics/condensed-matter-physics/josephson-effect.md	how	5	0	ok	1 uV -> 483.6 MHz checked
+domains/physics/condensed-matter-physics/josephson-effect.md	mis	6	0	ok
+domains/physics/condensed-matter-physics/kondo-effect.md	how	5	0	ok
+domains/physics/condensed-matter-physics/kondo-effect.md	mis	6	0	ok
+domains/physics/condensed-matter-physics/magnetism-paramagnetism-diamagnetism.md	how	5	0	ok	arguments 0.0022 and 6.7, ratio 3kT/(2E_F) checked
+domains/physics/condensed-matter-physics/magnetism-paramagnetism-diamagnetism.md	mis	8	0	ok
+domains/physics/condensed-matter-physics/metals-insulators-semiconductors.md	how	6	1	fixed	Ge/Si factor "about 4000": with standard gaps 1.12 and 0.66-0.67 eV, exp(dEg/2kT) gives ~6000-7000; changed to "several thousand". Diamond 1e37 correct
+domains/physics/condensed-matter-physics/metals-insulators-semiconductors.md	mis	6	0	ok
+domains/physics/condensed-matter-physics/mott-insulators.md	how	4	1	fixed	"Removing an electron costs eps_d" has the wrong sign (removal costs -eps_d), so the step as worked gives 2eps_d+U, not U; reworded to removal level eps_d and addition level eps_d+U
+domains/physics/condensed-matter-physics/mott-insulators.md	mis	6	0	ok
+domains/physics/condensed-matter-physics/nearly-free-electron-model.md	how	5	0	ok	2x2 gap 2|V|; k_F = 3.54/a crosses pi/a boundary: correct
+domains/physics/condensed-matter-physics/nearly-free-electron-model.md	mis	8	0	ok
+domains/physics/condensed-matter-physics/reciprocal-lattice-brillouin-zones.md	how	5	0	ok	all four dot products checked
+domains/physics/condensed-matter-physics/reciprocal-lattice-brillouin-zones.md	mis	6	0	ok
+domains/physics/condensed-matter-physics/semiconductor-physics-doping.md	how	5	0	ok	0.357 eV and V_bi 0.714 V checked
+domains/physics/condensed-matter-physics/semiconductor-physics-doping.md	mis	8	0	ok
+domains/physics/condensed-matter-physics/superconductivity-phenomenology.md	how	4	0	ok	lambda_L = 53 nm for n_s 1e28 checked
+domains/physics/condensed-matter-physics/superconductivity-phenomenology.md	mis	6	0	ok
+domains/physics/condensed-matter-physics/superfluidity-cm.md	how	4	0	ok	roton Delta/p0 ~ 59 m/s, tangent ~58: correct
+domains/physics/condensed-matter-physics/superfluidity-cm.md	mis	6	0	ok
+domains/physics/condensed-matter-physics/tight-binding-model.md	how	4	0	ok
+domains/physics/condensed-matter-physics/tight-binding-model.md	mis	6	0	ok

@@ -1,0 +1,96 @@
+domains/literature/creative-nonfiction/food-writing-sensory.md	how	2	0	ok
+domains/literature/creative-nonfiction/food-writing-sensory.md	mis	8	0	ok
+domains/literature/creative-nonfiction/food-writing-sensory.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/food-writing-sensory.md	old:q:1:explanation	1	0	noted	"lots of words for taste ... but they're limited" is self-contradictory and omits salty; minor, not edited.
+domains/literature/creative-nonfiction/frame-narrative-nonfiction.md	how	2	0	ok
+domains/literature/creative-nonfiction/frame-narrative-nonfiction.md	mis	6	0	ok
+domains/literature/creative-nonfiction/frame-narrative-nonfiction.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/gonzo-journalism-subjectivity.md	how	2	0	ok
+domains/literature/creative-nonfiction/gonzo-journalism-subjectivity.md	mis	6	0	ok
+domains/literature/creative-nonfiction/gonzo-journalism-subjectivity.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/gonzo-journalism-subjectivity.md	old:q:0:explanation	1	1	fixed	Garbled sentence "The honest about what the reporter experiences and feels." Changed to "The account is honest about ...".
+domains/literature/creative-nonfiction/graphic-memoir.md	how	2	0	ok
+domains/literature/creative-nonfiction/graphic-memoir.md	mis	6	0	ok
+domains/literature/creative-nonfiction/graphic-memoir.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/hermit-essay-solitude.md	how	2	0	ok	Walden does have a chapter titled "Solitude"; verified.
+domains/literature/creative-nonfiction/hermit-essay-solitude.md	mis	6	0	ok
+domains/literature/creative-nonfiction/hermit-essay-solitude.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/historical-essay.md	how	2	0	ok
+domains/literature/creative-nonfiction/historical-essay.md	mis	6	0	ok
+domains/literature/creative-nonfiction/historical-essay.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/immersion-reporting-ethics.md	how	2	0	ok
+domains/literature/creative-nonfiction/immersion-reporting-ethics.md	mis	6	0	ok
+domains/literature/creative-nonfiction/immersion-reporting-ethics.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/immersion-reporting-ethics.md	old:q:3	1	1	fixed	Keyed false while its explanation says "This statement is actually true, not false"; Core Idea and Explainer also support disclosure and consent. Answer changed to true, misleading "False:" stem prefix removed, explanation opener changed to "This statement is true."
+domains/literature/creative-nonfiction/immersion-reporting.md	how	2	0	ok
+domains/literature/creative-nonfiction/immersion-reporting.md	mis	6	0	ok
+domains/literature/creative-nonfiction/immersion-reporting.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/immersion-reporting.md	old:q:3	1	1	fixed	Keyed false while its explanation says "actually true" and the Core Idea says immersion "reduces authorial distance". Answer changed to true, "False:" stem prefix removed, explanation opener changed to "This statement is true."
+domains/literature/creative-nonfiction/interview-form-dialogue.md	how	2	0	ok
+domains/literature/creative-nonfiction/interview-form-dialogue.md	mis	6	0	ok
+domains/literature/creative-nonfiction/interview-form-dialogue.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/interview-technique.md	how	2	0	ok
+domains/literature/creative-nonfiction/interview-technique.md	mis	8	0	ok
+domains/literature/creative-nonfiction/interview-technique.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/investigative-nonfiction.md	how	2	0	ok
+domains/literature/creative-nonfiction/investigative-nonfiction.md	mis	6	0	ok
+domains/literature/creative-nonfiction/investigative-nonfiction.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/investigative-nonfiction.md	old:q:2	1	0	noted	Stem prefixed "True:" but keyed false (key itself is right); prefix misleads learners. Not edited.
+domains/literature/creative-nonfiction/list-essay-enumeration.md	how	2	0	ok
+domains/literature/creative-nonfiction/list-essay-enumeration.md	mis	8	0	ok
+domains/literature/creative-nonfiction/list-essay-enumeration.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/literary-journalism-technique.md	how	2	0	ok
+domains/literature/creative-nonfiction/literary-journalism-technique.md	mis	6	0	ok
+domains/literature/creative-nonfiction/literary-journalism-technique.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/literary-journalism-technique.md	old:q:3	1	0	noted	Keyed false for "should aim for complete accuracy ... including exact dialogue"; explanation endorses approximate dialogue, in tension with standard practice that quoted words be exact and with interview-technique.md Q3. Contested, not edited.
+domains/literature/creative-nonfiction/lyric-essay.md	how	2	0	ok
+domains/literature/creative-nonfiction/lyric-essay.md	mis	6	0	ok
+domains/literature/creative-nonfiction/lyric-essay.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/mailer-engaged-intellectual.md	how	3	0	ok	The Armies of the Night: third-person "Mailer", October 1967 march on the Pentagon; verified.
+domains/literature/creative-nonfiction/mailer-engaged-intellectual.md	mis	6	0	ok
+domains/literature/creative-nonfiction/mailer-engaged-intellectual.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/memoir-and-trauma.md	how	2	0	ok
+domains/literature/creative-nonfiction/memoir-and-trauma.md	mis	8	0	ok
+domains/literature/creative-nonfiction/memoir-and-trauma.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/memoir-family-narrative.md	how	2	0	ok
+domains/literature/creative-nonfiction/memoir-family-narrative.md	mis	6	0	ok
+domains/literature/creative-nonfiction/memoir-family-narrative.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/memoir-structure-selectivity.md	how	2	0	ok
+domains/literature/creative-nonfiction/memoir-structure-selectivity.md	mis	6	0	ok
+domains/literature/creative-nonfiction/memoir-structure-selectivity.md	q:4:answer	1	0	fixed	Style only: banned word "pivotal" changed to "decisive".
+domains/literature/creative-nonfiction/memoir-truth-memory.md	how	2	0	ok
+domains/literature/creative-nonfiction/memoir-truth-memory.md	mis	8	0	ok
+domains/literature/creative-nonfiction/memoir-truth-memory.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/memoir-vs-autobiography.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/memoir-vs-autobiography.md	old:ex	1	1	fixed	Cited Maggie Nelson's The Art of Cruelty (cultural criticism) as a memoir example; changed to The Argonauts (memoir). Old Misconceptions bullets also do not follow the "- belief. (correction)" format; not edited.
+domains/literature/creative-nonfiction/metaphorical-thinking-nonfiction.md	how	2	0	ok
+domains/literature/creative-nonfiction/metaphorical-thinking-nonfiction.md	mis	6	0	ok
+domains/literature/creative-nonfiction/metaphorical-thinking-nonfiction.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/montaigne-essay-invention.md	how	2	0	ok	"Of Idleness" (Essays I.8) is a real short essay on the wandering mind; verified.
+domains/literature/creative-nonfiction/montaigne-essay-invention.md	mis	6	0	ok
+domains/literature/creative-nonfiction/montaigne-essay-invention.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/montaigne-essay-invention.md	old:q:2:explanation	1	0	noted	"Before Montaigne, rigorous writing followed formal rules" overgeneralizes (Seneca's letters, Plutarch's Moralia were informal models). Explainer also says his model "has never been surpassed" (opinion). Not edited.
+domains/literature/creative-nonfiction/montaigne-essay-self-portraiture.md	how	2	0	ok
+domains/literature/creative-nonfiction/montaigne-essay-self-portraiture.md	mis	6	0	ok
+domains/literature/creative-nonfiction/montaigne-essay-self-portraiture.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/narrative-arc-nonfiction.md	how	2	0	ok
+domains/literature/creative-nonfiction/narrative-arc-nonfiction.md	mis	6	0	ok
+domains/literature/creative-nonfiction/narrative-arc-nonfiction.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/narrative-arc-nonfiction.md	old:q:2	1	0	noted	Keyed true that the writer "cannot alter the sequence of actual events"; explanation says "You can't rearrange events", which conflicts with the Explainer's open-then-trace-backward structure. Core Idea's "follows the actual sequence and proportions" has the same issue. Defensible if read as misrepresenting chronology, so not edited.
+domains/literature/creative-nonfiction/narrative-journalism-characterization.md	how	2	0	ok
+domains/literature/creative-nonfiction/narrative-journalism-characterization.md	mis	6	0	ok
+domains/literature/creative-nonfiction/narrative-journalism-characterization.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/nature-observation-technique.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/nature-observation-technique.md	old:ex	1	1	fixed	Named Alexis Henderson (fantasy/horror novelist) as a nature writer on grief and landscape; changed to Helen Macdonald (H is for Hawk). Old Misconceptions bullets also off-format; not edited.
+domains/literature/creative-nonfiction/nature-writing-science-poetry.md	how	2	0	ok
+domains/literature/creative-nonfiction/nature-writing-science-poetry.md	mis	6	0	ok
+domains/literature/creative-nonfiction/nature-writing-science-poetry.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/nature-writing-tradition.md	how	2	0	ok
+domains/literature/creative-nonfiction/nature-writing-tradition.md	mis	6	0	ok
+domains/literature/creative-nonfiction/nature-writing-tradition.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/new-journalism-movement.md	how	3	0	ok	"Frank Sinatra Has a Cold" (Talese) and Wolfe's four devices from The New Journalism introduction; verified.
+domains/literature/creative-nonfiction/new-journalism-movement.md	mis	6	0	ok
+domains/literature/creative-nonfiction/new-journalism-movement.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/nonfiction-dialogue-representation.md	how	2	0	ok
+domains/literature/creative-nonfiction/nonfiction-dialogue-representation.md	mis	6	0	ok
+domains/literature/creative-nonfiction/nonfiction-dialogue-representation.md	q:4:answer	1	0	ok

@@ -1,0 +1,50 @@
+domains/mathematics/representation-theory/burnsides-theorem.md	how	3	1	fixed	Step 2 claimed a pqᵇ group always has a class of prime-power size >1; the class of z can have size 1 (z central) and Q needs b ≥ 1. Added both cases. Old text: Q0 credits Goldschmidt (1970) alone; he did odd p,q, with Bender and Matsuyama (1972-73) completing it.
+domains/mathematics/representation-theory/burnsides-theorem.md	mis	6	0	ok
+domains/mathematics/representation-theory/character-tables.md	how	4	0	ok	A4 row (3,-1,0,0) worked and verified.
+domains/mathematics/representation-theory/character-tables.md	mis	8	0	ok	Old text: Q3 explanation separates D4 and Q8 by "D4 has elements of order 4", which Q8 also has (true split: D4 has 5 involutions, Q8 has 1). Explainer simplicity criterion "no row is a sum of the trivial character and another" is garbled.
+domains/mathematics/representation-theory/character-theory.md	how	3	0	ok	Multiplicities (1,0,1) verified.
+domains/mathematics/representation-theory/character-theory.md	mis	6	0	ok
+domains/mathematics/representation-theory/equivalence-of-representations.md	how	3	0	ok	P⁻¹ρP = diag(1,-1) verified.
+domains/mathematics/representation-theory/equivalence-of-representations.md	mis	6	0	ok
+domains/mathematics/representation-theory/frobenius-reciprocity.md	how	4	0	ok	"the two-dimensional one becomes ω + ω²" is shorthand for σ ⊕ σ̄; correct, left as is.
+domains/mathematics/representation-theory/frobenius-reciprocity.md	mis	6	0	ok
+domains/mathematics/representation-theory/group-algebras.md	how	3	0	ok	Idempotents and (1+g)²=0 in char 2 verified.
+domains/mathematics/representation-theory/group-algebras.md	mis	6	0	ok
+domains/mathematics/representation-theory/group-representations.md	how	3	0	ok
+domains/mathematics/representation-theory/group-representations.md	mis	6	0	ok
+domains/mathematics/representation-theory/induced-representations.md	how	4	0	ok	Induced sign character (3,-1,0) verified.
+domains/mathematics/representation-theory/induced-representations.md	mis	6	0	ok
+domains/mathematics/representation-theory/lie-group-representations-intro.md	how	3	0	ok
+domains/mathematics/representation-theory/lie-group-representations-intro.md	mis	6	1	fixed	"Compactness is needed" for complete reducibility states a sufficient condition as necessary (finite-dim reps of SL2(C) etc. are completely reducible). Now "Compactness guarantees it, but without such a hypothesis it can fail."
+domains/mathematics/representation-theory/maschkes-theorem.md	how	4	0	ok	Averaged projection and F2 case verified.
+domains/mathematics/representation-theory/maschkes-theorem.md	mis	8	0	ok
+domains/mathematics/representation-theory/matrix-representations.md	how	3	0	ok	Block matrix 1 ⊕ [[-1,1],[0,1]] verified.
+domains/mathematics/representation-theory/matrix-representations.md	mis	6	1	fixed	Transposed matrices "break" the homomorphism property: false for abelian groups. Now "can break".
+domains/mathematics/representation-theory/modular-representation-theory.md	how	4	0	ok	J³ = I and S3 over F2 simples verified.
+domains/mathematics/representation-theory/modular-representation-theory.md	mis	6	1	fixed	Dropped qualifier: simples = p-regular classes only over an algebraically closed (splitting) field; e.g. Z/7 over F2 has 3 simples, not 7. Added the qualifier.
+domains/mathematics/representation-theory/orthogonality-relations.md	how	3	0	ok	<χ,χ>=2 and column lengths 2, 3 verified.
+domains/mathematics/representation-theory/orthogonality-relations.md	mis	6	0	ok
+domains/mathematics/representation-theory/permutation-representations.md	how	3	0	ok	Fixed-point counts, <χ,1>=1, <χ,χ>=3 verified.
+domains/mathematics/representation-theory/permutation-representations.md	mis	6	0	ok
+domains/mathematics/representation-theory/reducibility-and-irreducibility.md	how	3	0	ok	Eigenvectors (1,∓i) verified.
+domains/mathematics/representation-theory/reducibility-and-irreducibility.md	mis	6	1	fixed	Counterexample to "every ρ(g) has an eigenvector" cited only reflections; over R the rotations have none, so the example did not meet the belief's hypothesis. Now stated over C, where every element has one.
+domains/mathematics/representation-theory/regular-representation.md	how	3	0	ok	g·vₖ = ω⁻ᵏvₖ verified.
+domains/mathematics/representation-theory/regular-representation.md	mis	6	0	ok
+domains/mathematics/representation-theory/representation-ring.md	how	3	0	ok	σ² = 1+ε+σ and (0,0,-3) verified.
+domains/mathematics/representation-theory/representation-ring.md	mis	6	0	ok	Old text: Core Idea calls R(G) "the Green ring" (Green ring is the modular version with indecomposables); Explainer's R(Z/n) ≅ Z[ζₙ] is wrong (it is Z[x]/(xⁿ-1), as the Questions say).
+domains/mathematics/representation-theory/representations-of-abelian-groups.md	how	3	0	ok
+domains/mathematics/representation-theory/representations-of-abelian-groups.md	mis	6	1	fixed	"A nonabelian group has at least one complex irreducible of dimension >1" needs "finite". Added.
+domains/mathematics/representation-theory/representations-of-cyclic-groups.md	how	3	0	ok	A³ = I, trace -1, char poly x²+x+1 verified.
+domains/mathematics/representation-theory/representations-of-cyclic-groups.md	mis	6	1	fixed	"They merge only over ℝ": false absolute (they also merge over Q and other subfields). Now "Over ℝ they merge into one two-dimensional irreducible."
+domains/mathematics/representation-theory/representations-of-sl2.md	how	4	0	ok	e(y²)=2xy, e(xy)=x², [e,f]x²=2x² verified.
+domains/mathematics/representation-theory/representations-of-sl2.md	mis	6	0	ok
+domains/mathematics/representation-theory/representations-of-symmetric-groups.md	how	3	0	ok	Hook lengths and branching (3,1)→(3)+(2,1) verified.
+domains/mathematics/representation-theory/representations-of-symmetric-groups.md	mis	6	0	ok
+domains/mathematics/representation-theory/schurs-lemma.md	how	3	0	ok	Commutant [[a,-b],[b,a]] verified.
+domains/mathematics/representation-theory/schurs-lemma.md	mis	6	0	ok
+domains/mathematics/representation-theory/semisimplicity-and-wedderburn.md	how	3	0	ok
+domains/mathematics/representation-theory/semisimplicity-and-wedderburn.md	mis	6	0	ok
+domains/mathematics/representation-theory/tensor-product-of-representations.md	how	3	0	ok	Sym² (3,1,0) and Λ² (1,-1,1) verified.
+domains/mathematics/representation-theory/tensor-product-of-representations.md	mis	6	0	ok	Old text: Explainer calls tensor multiplicities "Clebsch-Gordan coefficients" (those are change-of-basis coefficients); the open problem is a combinatorial rule for Kronecker coefficients, not computing them.
+domains/mathematics/representation-theory/young-diagrams-and-tableaux.md	how	4	0	ok	Five SYT of shape (3,2) listed and verified.
+domains/mathematics/representation-theory/young-diagrams-and-tableaux.md	mis	6	0	ok

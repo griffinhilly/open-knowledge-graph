@@ -1,0 +1,96 @@
+domains/physics/statistical-mechanics/non-equilibrium-basics-statmech.md	how	4	0	ok	entropy production J/T_c − J/T_h checked
+domains/physics/statistical-mechanics/non-equilibrium-basics-statmech.md	mis	6	0	ok
+domains/physics/statistical-mechanics/non-equilibrium-basics-statmech.md	old:explainer	1	1	fixed	minimum entropy production principle attributed to Onsager; it is Prigogine's
+domains/physics/statistical-mechanics/order-parameter-phase-transition.md	how	4	0	ok	M² = −a/2b and beta = 1/2 worked
+domains/physics/statistical-mechanics/order-parameter-phase-transition.md	mis	6	0	ok
+domains/physics/statistical-mechanics/pair-distribution-function.md	how	4	0	ok
+domains/physics/statistical-mechanics/pair-distribution-function.md	mis	6	0	ok
+domains/physics/statistical-mechanics/pair-distribution-function.md	old:explainer	1	1	fixed	pressure from g(r) is the virial (pressure) equation, not the virial expansion
+domains/physics/statistical-mechanics/percolation-critical-phenomena.md	how	4	0	ok
+domains/physics/statistical-mechanics/percolation-critical-phenomena.md	mis	6	0	ok
+domains/physics/statistical-mechanics/percolation-critical-phenomena.md	old:core-idea	2	2	fixed	order parameter is the infinite-cluster fraction, not cluster size; exponents do not match equilibrium transitions (percolation is its own class)
+domains/physics/statistical-mechanics/percolation-critical-phenomena.md	old:q:1	2	2	fixed	question premise and explanation said percolation shares Ising exponents; reworded to shared scaling framework, added beta 5/36 vs 1/8
+domains/physics/statistical-mechanics/percolation-critical-phenomena.md	old:explainer	2	2	fixed	mean cluster size written as xi (correlation-length symbol) -> S; Erdős–Rényi graphs removed from same-dimension universality list (no spatial dimension; mean-field)
+domains/physics/statistical-mechanics/phase-diagrams.md	how	4	0	ok
+domains/physics/statistical-mechanics/phase-diagrams.md	mis	6	1	fixed	"Any substance sublimes below its triple-point pressure" overstated (helium-4 has no solid-liquid-gas triple point); qualified
+domains/physics/statistical-mechanics/phase-diagrams.md	old:q:0	1	1	fixed	pressure melting cited as why ice skating works (a known myth); removed
+domains/physics/statistical-mechanics/phase-diagrams.md	old:q:2	1	1	fixed	drafting garble "most three phases" -> "all three phases"
+domains/physics/statistical-mechanics/phase-diagrams.md	old:explainer	2	2	fixed	every direction from triple point is not single-phase (coexistence curves); Maxwell construction applies below T_c, not only near the critical point
+domains/physics/statistical-mechanics/phase-space-density-evolution.md	how	4	0	ok
+domains/physics/statistical-mechanics/phase-space-density-evolution.md	mis	6	0	ok
+domains/physics/statistical-mechanics/phase-space-density-evolution.md	old:q:4	1	1	fixed	Maxwell's demon entropy cost placed in measurement; modern analysis (Landauer/Bennett) places it in memory erasure
+domains/physics/statistical-mechanics/phase-transition-equilibrium.md	how	4	0	ok	dP/dT = LP/RT² ≈ 3.57 kPa/K worked
+domains/physics/statistical-mechanics/phase-transition-equilibrium.md	mis	6	0	ok
+domains/physics/statistical-mechanics/phase-transitions-first-and-second-order.md	how	4	1	fixed	ferromagnet G called smooth (it is non-analytic) and "sharp peak with no spike" ambiguous; now finite jump or divergent peak, no latent-heat spike
+domains/physics/statistical-mechanics/phase-transitions-first-and-second-order.md	mis	6	0	ok
+domains/physics/statistical-mechanics/phase-transitions-first-and-second-order.md	old:core-idea	1	1	fixed	second derivatives "diverge" -> "jump or diverge" (mean-field and BCS give a finite jump)
+domains/physics/statistical-mechanics/phase-transitions-first-and-second-order.md	old:explainer	1	1	fixed	same absolute in Explainer (C_P and kappa_T "both blow up")
+domains/physics/statistical-mechanics/phonon-statistics.md	how	4	0	ok	optical gap and n(x) values 9.51, 0.58, 0.0068 worked
+domains/physics/statistical-mechanics/phonon-statistics.md	mis	6	0	ok
+domains/physics/statistical-mechanics/photon-gas-thermodynamics.md	how	4	0	ok	u′/u = 4/T derivation worked
+domains/physics/statistical-mechanics/photon-gas-thermodynamics.md	mis	6	0	ok
+domains/physics/statistical-mechanics/photon-gas-thermodynamics.md	old:explainer	1	1	fixed	grand potential sign: Omega = +k_BT sum ln(1 − e^−x) (negative), text had a minus sign
+domains/physics/statistical-mechanics/planck-distribution-blackbody.md	how	4	0	ok	mode count (8π/3)Vν³/c³ worked
+domains/physics/statistical-mechanics/planck-distribution-blackbody.md	mis	6	0	ok
+domains/physics/statistical-mechanics/planck-distribution-blackbody.md	old:q:3	1	1	fixed	heated iron said to glow blue-white (it melts and vaporizes first)
+domains/physics/statistical-mechanics/planck-distribution-blackbody.md	old:explainer	1	1	fixed	same iron-glows-blue claim in Explainer
+domains/physics/statistical-mechanics/quantum-statistics-intro.md	how	5	0	ok	9/6/3 microstates and all six occupancies worked
+domains/physics/statistical-mechanics/quantum-statistics-intro.md	mis	6	0	ok
+domains/physics/statistical-mechanics/radial-distribution-function.md	how	4	0	ok	−16περσ³/9 integral worked
+domains/physics/statistical-mechanics/radial-distribution-function.md	mis	6	0	ok
+domains/physics/statistical-mechanics/radial-distribution-function.md	old:explainer	1	1	fixed	liquid metals described as "single-peak" g(r) (they show oscillating shells)
+domains/physics/statistical-mechanics/renormalization-group-intro.md	how	4	0	ok	tanh K′ = tanh² K iterates 0.66, 0.35, 0.11 worked
+domains/physics/statistical-mechanics/renormalization-group-intro.md	mis	6	0	ok
+domains/physics/statistical-mechanics/renormalization-group-intro.md	old:explainer	1	1	fixed	2D Ising, liquid-gas and polymer collapse put in one class with "2D"; liquid-gas is 3D Ising, theta point is a different class
+domains/physics/statistical-mechanics/renormalization-group-scaling.md	how	4	0	ok	beta = (d − y_h)/y_t = 1/8 worked
+domains/physics/statistical-mechanics/renormalization-group-scaling.md	mis	6	0	ok
+domains/physics/statistical-mechanics/renormalization-group-scaling.md	old:q:0	1	1	fixed	iron (3D Heisenberg) said to share CO₂ (3D Ising) exponents -> uniaxial magnet
+domains/physics/statistical-mechanics/renormalization-group-scaling.md	old:q:4	1	1	fixed	same iron/water claim in explanation
+domains/physics/statistical-mechanics/renormalization-group-scaling.md	old:explainer	2	2	fixed	iron/water Z2 claim -> uniaxial magnet; "magnets, fluids, polymers share the same exponents" -> "can share"
+domains/physics/statistical-mechanics/response-functions-definition.md	how	4	1	fixed	impulse response called a decaying sine without the light-damping qualifier (overdamped case is not oscillatory); chi(omega), chi″ and power formula worked and correct
+domains/physics/statistical-mechanics/response-functions-definition.md	mis	6	0	ok
+domains/physics/statistical-mechanics/response-functions-susceptibilities.md	how	4	0	ok	Curie law and C_P − C_V = Nk_B worked
+domains/physics/statistical-mechanics/response-functions-susceptibilities.md	mis	6	0	ok
+domains/physics/statistical-mechanics/response-functions-susceptibilities.md	old:explainer	1	1	fixed	kappa_T = <ΔN²>/(k_BT N²ρ) off by a factor N; correct is <ΔN²>/(k_BT Nρ); also "volume fluctuations" -> particle-number fluctuations
+domains/physics/statistical-mechanics/response-functions-susceptibilities.md	old:q:3	1	1	fixed	heat capacity said to always diverge at criticality (finite cusp when alpha < 0, e.g. 3D Heisenberg)
+domains/physics/statistical-mechanics/scaling-invariance-universality.md	how	4	0	ok	Rushbrooke, Fisher, Josephson with 2D Ising values and mean-field d = 4 worked
+domains/physics/statistical-mechanics/scaling-invariance-universality.md	mis	6	0	ok
+domains/physics/statistical-mechanics/scaling-invariance-universality.md	old:core-idea	1	1	fixed	binary fluids, ferromagnets and superconductors listed as sharing exponents (different classes)
+domains/physics/statistical-mechanics/scaling-invariance-universality.md	old:q:0	1	1	fixed	iron given 3D Ising exponents; it is Heisenberg -> uniaxial magnet
+domains/physics/statistical-mechanics/scaling-invariance-universality.md	old:q:2	1	1	fixed	"3D Ising model" on square and triangular lattices (2D lattices) -> 2D Ising, d = 2
+domains/physics/statistical-mechanics/scaling-invariance-universality.md	old:explainer	1	1	fixed	iron magnet placed in 3D Ising class -> uniaxial magnet
+domains/physics/statistical-mechanics/second-virial-coefficient.md	how	4	0	ok	square-well B2, kT_B = 2.85ε at λ = 1.5, vdW limit worked
+domains/physics/statistical-mechanics/second-virial-coefficient.md	mis	6	0	ok
+domains/physics/statistical-mechanics/spin-glasses-quenched-disorder.md	how	4	0	ok	triangle energies and plaquette sign products worked
+domains/physics/statistical-mechanics/spin-glasses-quenched-disorder.md	mis	6	0	ok
+domains/physics/statistical-mechanics/spin-glasses-quenched-disorder.md	old:q:4	1	1	fixed	answer said qEA is zero for a ferromagnet, contradicting its own earlier sentence; now qEA plus magnetization distinguish the phases
+domains/physics/statistical-mechanics/spontaneous-symmetry-breaking.md	how	4	0	ok	m = tanh(2m) root 0.957 worked
+domains/physics/statistical-mechanics/spontaneous-symmetry-breaking.md	mis	6	0	ok
+domains/physics/statistical-mechanics/spontaneous-symmetry-breaking.md	old:core-idea	1	1	fixed	ordering said to occur when free energy cost is outweighed by entropy gain (backwards); energy gain outweighs entropy loss
+domains/physics/statistical-mechanics/static-structure-factor.md	how	5	0	ok
+domains/physics/statistical-mechanics/static-structure-factor.md	mis	6	0	ok	water S(0) ≈ 0.06 checked
+domains/physics/statistical-mechanics/statistical-ensembles-intro.md	how	4	0	ok	1/4 and 54/256 worked
+domains/physics/statistical-mechanics/statistical-ensembles-intro.md	mis	6	0	ok
+domains/physics/statistical-mechanics/statistical-ensembles-intro.md	old:q:3	1	1	fixed	"the tractable ensemble is always the right one" (fluctuations differ, as the new misconception says); qualified to macroscopic averages
+domains/physics/statistical-mechanics/statistical-ensembles-intro.md	old:explainer	1	1	fixed	same absolute in Explainer; also contradicted its own "not a matter of taste" sentence
+domains/physics/statistical-mechanics/superconductivity-bcs-theory.md	how	4	0	ok	Cooper binding and BCS gap formulas checked
+domains/physics/statistical-mechanics/superconductivity-bcs-theory.md	mis	6	0	ok
+domains/physics/statistical-mechanics/superconductivity-bcs-theory.md	old:explainer	1	1	fixed	"the lattice has relaxed and ... is still elevated" self-contradiction -> has not yet relaxed
+domains/physics/statistical-mechanics/superconductivity-bcs-theory.md	old:q:4	1	1	fixed	Cooper pairs called composite bosons with an "exact" BEC analogy, contradicting the overlap of pairs; softened. Not fixed: q:2 and Explainer say zero resistance is due to the gap (gapless superconductors also have zero resistance)
+domains/physics/statistical-mechanics/superfluidity-bosons.md	how	4	0	ok	v_c = c, h/m ≈ 1.0e-7 m²/s, 2000 vortices/cm² worked
+domains/physics/statistical-mechanics/superfluidity-bosons.md	mis	6	0	ok
+domains/physics/statistical-mechanics/superfluidity.md	how	4	0	ok	ΔP = ρsΔT from dμ = 0 worked
+domains/physics/statistical-mechanics/superfluidity.md	mis	6	0	ok
+domains/physics/statistical-mechanics/superfluidity.md	old:explainer	1	1	fixed	He-4 dissipation said to need breaking a "Cooper-pair analog"; -> phonon, roton or vortex. Not fixed: Psi amplitude labelled superfluid density (condensate density)
+domains/physics/statistical-mechanics/superfluidity.md	old:q:4	2	2	fixed	superfluid flows "to equalize entropy" -> until chemical potential equal; superfluid component equated with the condensate
+domains/physics/statistical-mechanics/symmetry-breaking-phase-transitions.md	how	4	0	ok
+domains/physics/statistical-mechanics/symmetry-breaking-phase-transitions.md	mis	6	0	ok
+domains/physics/statistical-mechanics/symmetry-breaking-phase-transitions.md	old:explainer	1	1	fixed	photon listed as a Goldstone mode of spontaneous symmetry breaking (it is a gauge boson); removed
+domains/physics/statistical-mechanics/thermal-conductivity-kinetic.md	how	5	0	ok	Eucken 3.75 and 4.75 k_B/m worked
+domains/physics/statistical-mechanics/thermal-conductivity-kinetic.md	mis	6	0	ok
+domains/physics/statistical-mechanics/thermal-conductivity-kinetic.md	old:q:1	1	1	fixed	Chapman-Enskog prefactor 5/2 wrong; hard-sphere first approximation is (75/64)(k_B/d²)√(k_BT/πm)
+domains/physics/statistical-mechanics/thermal-conductivity-kinetic.md	old:explainer	1	1	fixed	same prefactor error in Explainer
+domains/physics/statistical-mechanics/thermodynamic-limit-statmech.md	how	4	0	ok	√(2/3N) = 0.082 and 2.6e-12 worked
+domains/physics/statistical-mechanics/thermodynamic-limit-statmech.md	mis	6	0	ok
+domains/physics/statistical-mechanics/time-correlation-functions.md	how	4	0	ok	D = k_BT/ζ worked
+domains/physics/statistical-mechanics/time-correlation-functions.md	mis	6	0	ok	Not fixed (old): Core Idea and q:1 say correlations decay to zero for ergodic systems; strictly this needs mixing

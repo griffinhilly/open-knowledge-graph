@@ -1,0 +1,61 @@
+domains/physics/nonlinear-dynamics/bifurcation-in-pdes.md	how	4	0	ok	Swift-Hohenberg sigma(k)=r-(1-k^2)^2 verified
+domains/physics/nonlinear-dynamics/bifurcation-in-pdes.md	mis	8	0	ok
+domains/physics/nonlinear-dynamics/bifurcation-theory-saddle-node.md	how	4	0	ok	passage-time integral pi/sqrt(r) verified
+domains/physics/nonlinear-dynamics/bifurcation-theory-saddle-node.md	mis	8	0	ok
+domains/physics/nonlinear-dynamics/bifurcation-theory-transcritical-pitchfork.md	how	4	0	ok	f'(r)=-r and f'(+-sqrt r)=-2r verified
+domains/physics/nonlinear-dynamics/bifurcation-theory-transcritical-pitchfork.md	mis	8	0	ok
+domains/physics/nonlinear-dynamics/chaos-definition-and-properties.md	how	4	0	ok	1e-7 gap doubling reaches O(1) at ~23 steps; r=3.2 contracts
+domains/physics/nonlinear-dynamics/chaos-definition-and-properties.md	mis	8	0	ok
+domains/physics/nonlinear-dynamics/feigenbaum-constants.md	how	4	0	ok	gap ratios 4.751 and 4.656 verified
+domains/physics/nonlinear-dynamics/feigenbaum-constants.md	mis	8	0	ok
+domains/physics/nonlinear-dynamics/fixed-points-and-stability.md	how	5	0	ok	tr -3, det 2, eigenvalues -1,-2 verified
+domains/physics/nonlinear-dynamics/fixed-points-and-stability.md	mis	8	0	ok
+domains/physics/nonlinear-dynamics/fractal-dimension-nonlinear.md	how	4	0	ok	Henon D~1.26, exponents 0.42/-1.62, KY 1.26 verified
+domains/physics/nonlinear-dynamics/fractal-dimension-nonlinear.md	mis	6	0	ok
+domains/physics/nonlinear-dynamics/hamiltonian-chaos.md	how	3	0	ok	standard-map Jacobian det=1 verified
+domains/physics/nonlinear-dynamics/hamiltonian-chaos.md	mis	8	0	ok
+domains/physics/nonlinear-dynamics/hopf-bifurcation.md	how	3	0	ok
+domains/physics/nonlinear-dynamics/hopf-bifurcation.md	mis	6	0	ok
+domains/physics/nonlinear-dynamics/hopf-bifurcation.md	old:questions	1	1	fixed	q2 was a "Why...?" question typed true-false; restated as a statement
+domains/physics/nonlinear-dynamics/index-theory-planar-systems.md	how	4	0	ok	indices +1,-1,+2 and det signs verified
+domains/physics/nonlinear-dynamics/index-theory-planar-systems.md	mis	8	0	ok
+domains/physics/nonlinear-dynamics/index-theory-planar-systems.md	old:questions	2	2	fixed	q0 explanation: 2 nodes + 2 saddles sums to 0 not +1 (need 3 nodes, 5 points); q3 key option claimed a saddle is required between two sinks, false in the plane (e.g. xdot=x-x^3, ydot=1-x^2-x^2 y has two sinks, no saddle); reworded to basin boundary
+domains/physics/nonlinear-dynamics/iterated-maps-logistic-map.md	how	4	0	ok	period-2 points 0.513/0.799 at r=3.2 verified
+domains/physics/nonlinear-dynamics/iterated-maps-logistic-map.md	mis	8	0	ok
+domains/physics/nonlinear-dynamics/iterated-maps-logistic-map.md	old:explainer	2	2	fixed	"every orbit is either periodic or dense" at r=4 is false (now "almost every orbit is dense"); "period 3 implies chaos" misattributed as generalized Sharkovskii (it is Li-Yorke 1975)
+domains/physics/nonlinear-dynamics/kam-theorem.md	how	4	0	ok
+domains/physics/nonlinear-dynamics/kam-theorem.md	mis	8	0	ok
+domains/physics/nonlinear-dynamics/limit-cycles.md	how	4	0	ok	dE/dt=-mu(x^2-1)xdot^2 verified; vdP amplitude ~2
+domains/physics/nonlinear-dynamics/limit-cycles.md	mis	8	0	ok
+domains/physics/nonlinear-dynamics/limit-cycles.md	old:questions	1	1	fixed	q2 answer claimed the fixed point inside a stable limit cycle must be unstable; false with nested cycles; qualified to the single-fixed-point, no-other-orbit case
+domains/physics/nonlinear-dynamics/linearization-and-jacobian.md	how	5	1	fixed	said the contrast system "has the same linearization" as the pendulum at (0,0); matrices differ ([[0,-1],[1,0]] vs [[0,1],[-1,0]]), only eigenvalues +-i match
+domains/physics/nonlinear-dynamics/linearization-and-jacobian.md	mis	8	0	ok
+domains/physics/nonlinear-dynamics/linearization-and-jacobian.md	old:questions	1	1	fixed	q0 had two correct options (A and D same matrix); changed A to a sign-error distractor
+domains/physics/nonlinear-dynamics/lorenz-system.md	how	4	1	fixed	slope 0.9 holds only for natural log of separation (log10 gives 0.39); added "natural"
+domains/physics/nonlinear-dynamics/lorenz-system.md	mis	8	0	ok
+domains/physics/nonlinear-dynamics/lorenz-system.md	old:questions	2	2	fixed	q1 explanation "30 time units" for 1e-3 to O(1) at lambda 0.9 is ~8; q3 answer put transient chaos above r_H where C+- are unstable (it is 13.93<r<24.06)
+domains/physics/nonlinear-dynamics/lyapunov-exponents.md	how	4	0	ok	2-cycle multiplier 0.16 at r=3.2, lambda=-0.92 verified
+domains/physics/nonlinear-dynamics/lyapunov-exponents.md	mis	6	0	ok
+domains/physics/nonlinear-dynamics/lyapunov-exponents.md	old:questions	1	1	fixed	q3 explanation called lambda=0.9 "bits/time"; it is natural-log units (~1.3 bits/time)
+domains/physics/nonlinear-dynamics/pattern-formation-turing.md	how	5	0	ok	det(k) and threshold D_v>4.5 verified (roots 0.5, 4.5)
+domains/physics/nonlinear-dynamics/pattern-formation-turing.md	mis	8	0	ok
+domains/physics/nonlinear-dynamics/period-doubling-route-to-chaos.md	how	4	0	ok
+domains/physics/nonlinear-dynamics/period-doubling-route-to-chaos.md	mis	6	0	ok
+domains/physics/nonlinear-dynamics/phase-space-and-flows.md	how	3	0	ok	arrows (1,-0.2) and (0,-1) verified
+domains/physics/nonlinear-dynamics/phase-space-and-flows.md	mis	8	0	ok
+domains/physics/nonlinear-dynamics/phase-space-and-flows.md	old:explainer	1	1	fixed	2D limit-set list omitted chains of fixed points joined by trajectories
+domains/physics/nonlinear-dynamics/poincare-bendixson-theorem.md	how	4	0	ok	annulus bounds sqrt(1-mu), sqrt(1+mu) verified
+domains/physics/nonlinear-dynamics/poincare-bendixson-theorem.md	mis	6	0	ok
+domains/physics/nonlinear-dynamics/poincare-bendixson-theorem.md	old:questions	1	1	fixed	q3 answer said PB gives a periodic orbit if the region holds only unstable fixed points (a saddle breaks this); now requires a fixed-point-free region
+domains/physics/nonlinear-dynamics/smale-horseshoe.md	how	4	0	ok	tent-map escape of middle third verified
+domains/physics/nonlinear-dynamics/smale-horseshoe.md	mis	6	1	fixed	"one aperiodic orbit for each infinite symbol sequence" miscounts (points, not orbits, match bi-infinite sequences)
+domains/physics/nonlinear-dynamics/solitons-and-nonlinear-waves.md	how	4	0	ok	one-soliton (c/2)sech^2(sqrt(c)(x-ct)/2) verified
+domains/physics/nonlinear-dynamics/solitons-and-nonlinear-waves.md	mis	8	0	ok
+domains/physics/nonlinear-dynamics/strange-attractors.md	how	4	0	ok	Henon Jacobian det -0.3 verified
+domains/physics/nonlinear-dynamics/strange-attractors.md	mis	8	0	ok
+domains/physics/nonlinear-dynamics/symbolic-dynamics.md	how	5	0	ok	k/7 period-3 points and ln(golden ratio)~0.48 verified
+domains/physics/nonlinear-dynamics/symbolic-dynamics.md	mis	6	1	fixed	forbidden transitions "give a subshift of finite type": overstated, not every restriction is finite type
+domains/physics/nonlinear-dynamics/symbolic-dynamics.md	old:questions	1	1	fixed	q1 explanation called ln 2 ~0.693 "bits"; it is one bit (0.693 nats)
+domains/physics/nonlinear-dynamics/synchronization-and-coupled-oscillators.md	how	3	0	ok	phi-dot = dw - K sin phi derived; locking iff |dw|<=K
+domains/physics/nonlinear-dynamics/synchronization-and-coupled-oscillators.md	mis	6	0	ok
+domains/physics/nonlinear-dynamics/synchronization-and-coupled-oscillators.md	old:questions	1	1	fixed	q3 explanation sign: with theta_i-dot = w_i + sum Gamma(theta_i - theta_j), Kuramoto needs Gamma = -(K/N) sin

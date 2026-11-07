@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 A vector field F: ℝⁿ → ℝⁿ assigns a vector to each point in space, such as F(x, y) = ⟨P(x,y), Q(x,y)⟩. Vector fields model physical phenomena: velocity (fluid flow), force (electric or gravitational), and heat flux. Visualization uses arrows indicating magnitude and direction.
 
+## How It's Best Learned
+Plot a few fields by hand on a 5-by-5 grid before using software. For F = ⟨−y, x⟩, the arrows at (1, 0), (0, 1), (−1, 0), (0, −1) are ⟨0, 1⟩, ⟨−1, 0⟩, ⟨0, −1⟩, ⟨1, 0⟩, which shows counterclockwise rotation. Then plot ⟨y, −x⟩ and ⟨x, y⟩ and describe how each pattern differs. Finish by matching formulas to unlabeled plots.
+
+## Common Misconceptions
+- A vector field is a path that a particle travels along. (The field gives one vector at each point. Flow lines are curves tangent to those vectors, a separate object built from the field.)
+- The arrow for F(a, b) can be drawn anywhere, or ends at (a, b). (By convention the arrow starts with its tail at the point (a, b).)
+- Arrow lengths in a computer plot show the true magnitudes. (Plotting software often scales or normalizes arrows to reduce clutter, so check the scaling before reading magnitudes off a plot.)
+- A vector field is the same thing as a function whose output is a single number. (A scalar function gives one number per point; a vector field gives a vector per point, with one component function for each coordinate.)
+
 ## Questions
 
 ```yaml

@@ -1,0 +1,51 @@
+domains/earth-and-space-sciences/remote-sensing-and-gis/change-detection-remote-sensing.md	how	3	0	ok
+domains/earth-and-space-sciences/remote-sensing-and-gis/change-detection-remote-sensing.md	mis	6	0	ok	0.9 x 0.9 = 0.81 under independent errors checks out
+domains/earth-and-space-sciences/remote-sensing-and-gis/coordinate-systems-projections.md	how	3	0	ok	111 km x cos 60 = 55.5, about 56 km; checks out
+domains/earth-and-space-sciences/remote-sensing-and-gis/coordinate-systems-projections.md	mis	8	0	ok
+domains/earth-and-space-sciences/remote-sensing-and-gis/coordinate-systems-projections.md	old:q:1	1	1	fixed	Explanation said UTM keeps max scale distortion below 0.04%; 0.04% is only the central-meridian factor (0.9996), edge reaches ~0.1%. Now "within about 0.1% (1 part in 1,000)"
+domains/earth-and-space-sciences/remote-sensing-and-gis/digital-elevation-models.md	how	4	0	ok	15/30 = 50%, atan 0.5 = 26.6 deg; DSM - DTM height model checks out
+domains/earth-and-space-sciences/remote-sensing-and-gis/digital-elevation-models.md	mis	8	0	ok
+domains/earth-and-space-sciences/remote-sensing-and-gis/disaster-monitoring-remote-sensing.md	how	4	0	ok	NBR 0.30/0.50 = 0.6, -0.10/0.40 = -0.25, dNBR 0.85; all check out
+domains/earth-and-space-sciences/remote-sensing-and-gis/disaster-monitoring-remote-sensing.md	mis	8	2	fixed	Bullet 1 correction "each satellite passes over on a fixed orbit" ignored geostationary satellites that watch continuously; scoped to low-orbit and added GEO caveat. Bullet 4 said smoke blocks thermal sensors; thermal/SWIR largely see through smoke; now cloud blocks optical and thermal, smoke blocks visible
+domains/earth-and-space-sciences/remote-sensing-and-gis/geostatistics.md	how	3	0	ok	Lag 1: 30/8 = 3.75; lag 2: 38/6 = 6.33; worked and correct
+domains/earth-and-space-sciences/remote-sensing-and-gis/geostatistics.md	mis	6	0	ok
+domains/earth-and-space-sciences/remote-sensing-and-gis/gis-fundamentals.md	how	3	0	ok
+domains/earth-and-space-sciences/remote-sensing-and-gis/gis-fundamentals.md	mis	6	0	ok
+domains/earth-and-space-sciences/remote-sensing-and-gis/gis-fundamentals.md	old:ex	1	1	fixed	Explainer called QGIS "expensive desktop software"; QGIS is free. Dropped "expensive". (Old Explainer also uses banned "leverages"; left, out of scope)
+domains/earth-and-space-sciences/remote-sensing-and-gis/hyperspectral-imaging.md	how	3	0	ok	0.6 x 0.5 + 0.4 x 0.3 = 0.42 checks out
+domains/earth-and-space-sciences/remote-sensing-and-gis/hyperspectral-imaging.md	mis	6	0	ok
+domains/earth-and-space-sciences/remote-sensing-and-gis/image-classification-remote-sensing.md	how	3	0	ok	PA 20/50 = 40%, UA 20/25 = 80%; matches question 0
+domains/earth-and-space-sciences/remote-sensing-and-gis/image-classification-remote-sensing.md	mis	6	0	ok
+domains/earth-and-space-sciences/remote-sensing-and-gis/image-preprocessing-remote-sensing.md	how	3	1	fixed	"The blue band changes most" fails when worked on Landsat 8/9, where coastal/aerosol band 1 changes more; now "shortest-wavelength (blue and coastal) bands"
+domains/earth-and-space-sciences/remote-sensing-and-gis/image-preprocessing-remote-sensing.md	mis	6	0	ok
+domains/earth-and-space-sciences/remote-sensing-and-gis/land-use-land-cover-mapping.md	how	2	0	ok
+domains/earth-and-space-sciences/remote-sensing-and-gis/land-use-land-cover-mapping.md	mis	6	0	ok
+domains/earth-and-space-sciences/remote-sensing-and-gis/lidar-principles.md	how	3	0	ok	3e8 x 6.67e-6 / 2 = 1000 m; 3e8 x 133e-9 / 2 = 20 m; check out
+domains/earth-and-space-sciences/remote-sensing-and-gis/lidar-principles.md	mis	8	0	ok
+domains/earth-and-space-sciences/remote-sensing-and-gis/multispectral-imaging.md	how	3	0	ok
+domains/earth-and-space-sciences/remote-sensing-and-gis/multispectral-imaging.md	mis	6	0	ok	Landsat 7 band 4 NIR / Landsat 8 band 4 red, band 5 NIR confirmed
+domains/earth-and-space-sciences/remote-sensing-and-gis/network-analysis-gis.md	how	4	0	ok	Dijkstra worked: C=2, B=3, D=10 then 8, path A-C-B-D; correct
+domains/earth-and-space-sciences/remote-sensing-and-gis/network-analysis-gis.md	mis	6	0	ok
+domains/earth-and-space-sciences/remote-sensing-and-gis/optical-remote-sensing.md	how	3	0	ok	8 bit = 256, 12 bit = 4096
+domains/earth-and-space-sciences/remote-sensing-and-gis/optical-remote-sensing.md	mis	6	1	fixed	Bullet 1 correction stated optical sensors as a class need daylight; low-light optical sensors (e.g. VIIRS day/night band) image at night. Now "Most record reflected sunlight"
+domains/earth-and-space-sciences/remote-sensing-and-gis/photogrammetry.md	how	3	0	ok	h = H dp / (P + dp) = 1000 x 2 / 92 = 21.7 m; correct standard parallax formula
+domains/earth-and-space-sciences/remote-sensing-and-gis/photogrammetry.md	mis	6	0	ok
+domains/earth-and-space-sciences/remote-sensing-and-gis/radar-remote-sensing-sar.md	how	3	0	ok	700000 x 0.056 / 10 = 3920 m; fringe = lambda/2 = 2.8 cm; check out
+domains/earth-and-space-sciences/remote-sensing-and-gis/radar-remote-sensing-sar.md	mis	8	1	fixed	Bullet 3 said ascending + descending passes separate vertical and horizontal motion; they resolve vertical and east-west only (north-south is poorly constrained by near-polar orbits). Now "vertical and east-west motion"
+domains/earth-and-space-sciences/remote-sensing-and-gis/remote-sensing-atmosphere.md	how	3	0	ok
+domains/earth-and-space-sciences/remote-sensing-and-gis/remote-sensing-atmosphere.md	mis	6	0	ok
+domains/earth-and-space-sciences/remote-sensing-and-gis/remote-sensing-atmosphere.md	old:q:1	1	1	fixed	True-false stem said GEO satellites "directly measure" temperature profiles (answer true), contradicting new bullet 3 and its own explanation ("retrieves"). Stem now "can retrieve"
+domains/earth-and-space-sciences/remote-sensing-and-gis/remote-sensing-oceans.md	how	3	0	ok	g dh/dx = 9.8e-6, f at 45 deg = 1.03e-4, v = 0.095 m/s; checks out
+domains/earth-and-space-sciences/remote-sensing-and-gis/remote-sensing-oceans.md	mis	6	0	ok
+domains/earth-and-space-sciences/remote-sensing-and-gis/satellite-orbits-remote-sensing.md	how	3	0	ok	a^3/mu = 889,600 s^2, T = 5926 s = 98.8 min, 14.6 orbits/day; checks out
+domains/earth-and-space-sciences/remote-sensing-and-gis/satellite-orbits-remote-sensing.md	mis	8	1	fixed	Bullet 1 correction "full coverage takes days" overstated; wide-swath MODIS covers nearly all of Earth in 1-2 days. Scoped to narrow-swath sensors and added MODIS. GEO speed 3.07 km/s confirmed
+domains/earth-and-space-sciences/remote-sensing-and-gis/spatial-analysis-gis.md	how	3	1	fixed	Weighted overlay 2.3 correct. Checkerboard Moran's I is negative only with rook neighbors; with queen neighbors (4 opposite + 4 same diagonals) it comes out near zero. Added "with rook (edge-sharing) neighbors"
+domains/earth-and-space-sciences/remote-sensing-and-gis/spatial-analysis-gis.md	mis	6	0	ok
+domains/earth-and-space-sciences/remote-sensing-and-gis/spatial-data-models.md	how	2	0	ok
+domains/earth-and-space-sciences/remote-sensing-and-gis/spatial-data-models.md	mis	6	0	ok
+domains/earth-and-space-sciences/remote-sensing-and-gis/thermal-remote-sensing.md	how	4	0	ok	2898/300 = 9.66 um, 2898/1000 = 2.9 um; foil reads colder (low emissivity); correct
+domains/earth-and-space-sciences/remote-sensing-and-gis/thermal-remote-sensing.md	mis	6	0	ok
+domains/earth-and-space-sciences/remote-sensing-and-gis/vegetation-indices-ndvi.md	how	4	0	ok	0.36/0.44 = 0.82, 0.05/0.45 = 0.11, -0.03/0.07 = -0.43, halved 0.18/0.22 = 0.82; all correct
+domains/earth-and-space-sciences/remote-sensing-and-gis/vegetation-indices-ndvi.md	mis	6	0	ok
+domains/earth-and-space-sciences/remote-sensing-and-gis/web-gis.md	how	3	0	ok	4^10 = 1,048,576
+domains/earth-and-space-sciences/remote-sensing-and-gis/web-gis.md	mis	6	0	ok	New bullet 3 is more careful than old Explainer line "dissolving the server layer entirely"; left the old line, noted only

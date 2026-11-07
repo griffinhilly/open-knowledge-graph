@@ -1,0 +1,95 @@
+domains/literature/creative-nonfiction/aphoristic-essay-fragments.md	how	3	0	ok
+domains/literature/creative-nonfiction/aphoristic-essay-fragments.md	mis	6	0	ok
+domains/literature/creative-nonfiction/aphoristic-essay-fragments.md	q:4:answer	1	0	ok	old text note, not changed: Explainer attributes the "unfree world" line to Camus; the attribution is common but its source is uncertain, and it is not an aphorism from a fragment collection
+domains/literature/creative-nonfiction/authorial-persona-mask.md	how	3	0	ok
+domains/literature/creative-nonfiction/authorial-persona-mask.md	mis	6	0	ok
+domains/literature/creative-nonfiction/authorial-persona-mask.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/autobiographical-authority.md	how	2	0	ok
+domains/literature/creative-nonfiction/autobiographical-authority.md	mis	6	0	ok
+domains/literature/creative-nonfiction/autobiographical-authority.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/autoethnography.md	how	3	0	ok
+domains/literature/creative-nonfiction/autoethnography.md	mis	6	1	fixed	cut bullet 3: its correction ("much autoethnographic writing also draws on wider research") does not refute the belief, and evocative autoethnography can rest mainly on personal narrative plus analysis; 2 bullets remain
+domains/literature/creative-nonfiction/autoethnography.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/autoethnography.md	old:q:3	1	1	fixed	wrong answer key: item labeled "False:" with answer false, but its own explanation said "This statement is actually true"; set answer true, relabeled prompt "True or false:", fixed first explanation sentence
+domains/literature/creative-nonfiction/baldwin-essayist-voice.md	how	3	0	ok
+domains/literature/creative-nonfiction/baldwin-essayist-voice.md	mis	6	0	ok
+domains/literature/creative-nonfiction/baldwin-essayist-voice.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/biographical-narrative-structure.md	how	3	0	ok
+domains/literature/creative-nonfiction/biographical-narrative-structure.md	mis	6	0	ok
+domains/literature/creative-nonfiction/biographical-narrative-structure.md	q:4:answer	1	0	ok	old text note, not changed: q:2 marks "a biographer who omits unflattering information is ... hiding truth" as true; this is overstated (its own explanation says selection is necessary) and conflicts in tone with new mis bullet 2
+domains/literature/creative-nonfiction/biography-literary-form.md	how	3	0	ok
+domains/literature/creative-nonfiction/biography-literary-form.md	mis	6	0	ok
+domains/literature/creative-nonfiction/biography-literary-form.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/braided-essay-structure.md	how	4	0	ok
+domains/literature/creative-nonfiction/braided-essay-structure.md	mis	6	0	ok
+domains/literature/creative-nonfiction/braided-essay-structure.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/capote-narrative-true-crime.md	how	3	0	ok
+domains/literature/creative-nonfiction/capote-narrative-true-crime.md	mis	6	0	ok
+domains/literature/creative-nonfiction/capote-narrative-true-crime.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/capote-narrative-true-crime.md	old:explainer	1	1	fixed	"He doesn't invent dialogue that wasn't said" is false: critics documented altered or invented scenes, most famously the closing cemetery scene; rewrote to say Capote presented the book as factual and its accuracy is debated
+domains/literature/creative-nonfiction/capote-narrative-true-crime.md	old:q:2	1	1	fixed	question said the book "proved" power "without fabricating facts" (answer true) and explanation said "The book doesn't invent"; reworded question to "built on factual research" and explanation to note the invented ending
+domains/literature/creative-nonfiction/capote-narrative-true-crime.md	old:core	1	1	fixed	"without falsifying the record" changed to "while staying grounded in reporting" for the same reason
+domains/literature/creative-nonfiction/collage-essay-assemblage.md	how	4	0	ok
+domains/literature/creative-nonfiction/collage-essay-assemblage.md	mis	6	0	ok
+domains/literature/creative-nonfiction/collage-essay-assemblage.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/creative-nonfiction-definition.md	how	3	0	ok
+domains/literature/creative-nonfiction/creative-nonfiction-definition.md	mis	6	1	fixed	bullet 1 correction stated as plain fact that writers "do not make up sensory experiences or events"; some practitioners do and the line is debated; reworded to "the genre's standard is that they do not"
+domains/literature/creative-nonfiction/creative-nonfiction-definition.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/cultural-criticism-essay.md	how	4	0	ok
+domains/literature/creative-nonfiction/cultural-criticism-essay.md	mis	6	0	ok
+domains/literature/creative-nonfiction/cultural-criticism-essay.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/cultural-translation-essay.md	how	4	0	ok
+domains/literature/creative-nonfiction/cultural-translation-essay.md	mis	6	0	ok
+domains/literature/creative-nonfiction/cultural-translation-essay.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/didion-writerly-authority.md	how	4	0	ok
+domains/literature/creative-nonfiction/didion-writerly-authority.md	mis	6	0	ok
+domains/literature/creative-nonfiction/didion-writerly-authority.md	q:4:answer	1	0	ok	old text note, not changed: Explainer says "Didion has written about"; she died in 2021, past tense would be better
+domains/literature/creative-nonfiction/digression-as-form.md	how	3	0	ok
+domains/literature/creative-nonfiction/digression-as-form.md	mis	6	0	ok
+domains/literature/creative-nonfiction/digression-as-form.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/dillard-transcendent-observation.md	how	3	0	ok	giant water bug passage confirmed in chapter 1 of Pilgrim at Tinker Creek
+domains/literature/creative-nonfiction/dillard-transcendent-observation.md	mis	6	0	ok
+domains/literature/creative-nonfiction/dillard-transcendent-observation.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/documentary-nonfiction-film.md	how	3	0	ok
+domains/literature/creative-nonfiction/documentary-nonfiction-film.md	mis	6	0	ok	bullet 2 line between documentary and fiction is somewhat simplified (staging and reenactment debates) but acceptable
+domains/literature/creative-nonfiction/documentary-nonfiction-film.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/documentation-literary-form.md	how	4	0	ok
+domains/literature/creative-nonfiction/documentation-literary-form.md	mis	6	0	ok
+domains/literature/creative-nonfiction/documentation-literary-form.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/ecocriticism-landscape.md	how	4	0	ok
+domains/literature/creative-nonfiction/ecocriticism-landscape.md	mis	6	0	ok	"landscapes" in bullet 2 is the literal topic term, not the banned figurative use
+domains/literature/creative-nonfiction/ecocriticism-landscape.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/ekphrasis-visual-description.md	how	4	0	ok
+domains/literature/creative-nonfiction/ekphrasis-visual-description.md	mis	6	0	ok
+domains/literature/creative-nonfiction/ekphrasis-visual-description.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/embodied-knowledge-writing.md	how	4	0	ok
+domains/literature/creative-nonfiction/embodied-knowledge-writing.md	mis	6	0	ok
+domains/literature/creative-nonfiction/embodied-knowledge-writing.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/environmental-nonfiction.md	how	4	0	ok
+domains/literature/creative-nonfiction/environmental-nonfiction.md	mis	6	0	ok
+domains/literature/creative-nonfiction/environmental-nonfiction.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/epistolary-nonfiction.md	how	2	0	ok	The Fire Next Time does open with the letter to Baldwin's nephew ("My Dungeon Shook")
+domains/literature/creative-nonfiction/epistolary-nonfiction.md	mis	6	0	ok
+domains/literature/creative-nonfiction/epistolary-nonfiction.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/essay-collection-unity.md	how	3	0	ok
+domains/literature/creative-nonfiction/essay-collection-unity.md	mis	6	0	ok
+domains/literature/creative-nonfiction/essay-collection-unity.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/essay-digression-technique.md	how	4	0	ok
+domains/literature/creative-nonfiction/essay-digression-technique.md	mis	6	0	ok
+domains/literature/creative-nonfiction/essay-digression-technique.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/essay-self-portraiture.md	how	4	0	ok	Montaigne's preface "To the Reader" does name himself as the matter of his book
+domains/literature/creative-nonfiction/essay-self-portraiture.md	mis	6	0	ok
+domains/literature/creative-nonfiction/essay-self-portraiture.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/essayistic-argumentation.md	how	5	0	ok
+domains/literature/creative-nonfiction/essayistic-argumentation.md	mis	6	0	ok
+domains/literature/creative-nonfiction/essayistic-argumentation.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/essayistic-meditation.md	how	5	0	ok
+domains/literature/creative-nonfiction/essayistic-meditation.md	mis	6	0	ok
+domains/literature/creative-nonfiction/essayistic-meditation.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/familiar-essay-conversational.md	how	3	0	ok
+domains/literature/creative-nonfiction/familiar-essay-conversational.md	mis	6	0	ok
+domains/literature/creative-nonfiction/familiar-essay-conversational.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/flash-nonfiction.md	how	4	0	ok	Brevity is a real journal of brief nonfiction
+domains/literature/creative-nonfiction/flash-nonfiction.md	mis	6	0	ok
+domains/literature/creative-nonfiction/flash-nonfiction.md	q:4:answer	1	0	ok
+domains/literature/creative-nonfiction/flash-nonfiction.md	old:explainer	1	1	fixed	misattribution: Robert Olen Butler and Diane Williams are known for flash fiction, not flash nonfiction; kept Dinty W. Moore and noted he founded Brevity

@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Work done by force F moving along curve C: W = ∫_C F · dr. For a closed curve, ∮_C F · dr is circulation (net rotation). Circulation = 0 for conservative fields.
 
+## How It's Best Learned
+Compute two circulations around the unit circle r(t) = ⟨cos t, sin t⟩, 0 ≤ t ≤ 2π. For F = ⟨−y, x⟩, F · r'(t) = sin²t + cos²t = 1, so the circulation is 2π. For F = ⟨x, y⟩ = ∇(½(x² + y²)), F · r'(t) = 0, so the circulation is 0. Sketch both fields on the circle to see why.
+
+## Common Misconceptions
+- If the circulation around one loop is zero, the field is conservative. (A conservative field needs zero circulation around every closed loop. F = ⟨0, x²⟩ has zero circulation around the unit circle but is not conservative.)
+- Work is force times distance, so a longer path means more work. (Only the component of F along the direction of motion counts. Work can be zero or negative, even along a long path.)
+- The direction you go around a loop does not change the circulation. (Reversing the direction flips the sign of the circulation.)
+- A field with zero curl wherever it is defined has zero circulation around every loop. (F = ⟨−y, x⟩/(x² + y²) has zero curl away from the origin, but its circulation around the unit circle is 2π.)
+
 ## Questions
 
 ```yaml
@@ -57,7 +66,7 @@ Work done by force F moving along curve C: W = ∫_C F · dr. For a closed curve
 - question: "Explain why nonzero circulation around a closed loop proves that a vector field is not conservative."
   type: short-answer
   answer: "If F were conservative (F = ∇f), the work integral around any closed loop would equal f(end) − f(start) = f(start) − f(start) = 0. A nonzero circulation value means the integral around the closed loop is not zero, which contradicts the requirement for a conservative field. Therefore the field cannot have a scalar potential, and is not conservative."
-  explanation: "The argument is a proof by contradiction: assume conservativeness → circulation = 0. Contrapositive: circulation ≠ 0 → not conservative. This is exactly why circulation is the diagnostic tool for non-conservativeness, and why Green's theorem (which equates circulation to an area integral of the curl) is so powerful — curl measures how much the field 'rotates' locally, and nonzero curl anywhere inside a loop produces nonzero circulation around it."
+  explanation: "The argument is a proof by contradiction: assume conservativeness → circulation = 0. Contrapositive: circulation ≠ 0 → not conservative. This is exactly why circulation is the diagnostic tool for non-conservativeness, and why Green's theorem (which equates circulation to an area integral of the curl) is so powerful — curl measures how much the field 'rotates' locally, and the circulation around a counterclockwise simple loop equals the total curl over the region it encloses."
 ```
 
 ## Explainer

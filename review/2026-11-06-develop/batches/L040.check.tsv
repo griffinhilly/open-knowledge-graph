@@ -1,0 +1,60 @@
+domains/mathematics/partial-differential-equations/boundary-value-problems-pdes.md	how	5	0	ok
+domains/mathematics/partial-differential-equations/boundary-value-problems-pdes.md	mis	6	1	fixed	Robin bullet: "h > 0 gives uniqueness" stated for any PDE; false e.g. for Helmholtz. Added "For Δu = f".
+domains/mathematics/partial-differential-equations/calculus-of-variations-euler-lagrange.md	how	3	0	ok
+domains/mathematics/partial-differential-equations/calculus-of-variations-euler-lagrange.md	mis	6	0	ok
+domains/mathematics/partial-differential-equations/conservation-laws-weak-solutions-intro.md	how	4	0	ok
+domains/mathematics/partial-differential-equations/conservation-laws-weak-solutions-intro.md	mis	6	0	ok
+domains/mathematics/partial-differential-equations/distribution-theory-pdes.md	how	4	0	ok
+domains/mathematics/partial-differential-equations/distribution-theory-pdes.md	mis	6	0	ok
+domains/mathematics/partial-differential-equations/eigenfunction-expansions-sturm-liouville.md	how	4	0	ok
+domains/mathematics/partial-differential-equations/eigenfunction-expansions-sturm-liouville.md	mis	6	1	fixed	f = 1 given on open (0, π), so the endpoint values did not show the series differing from f; changed to [0, π].
+domains/mathematics/partial-differential-equations/elliptic-regularity-theory.md	how	5	0	ok
+domains/mathematics/partial-differential-equations/elliptic-regularity-theory.md	mis	6	0	ok
+domains/mathematics/partial-differential-equations/energy-methods-pdes.md	how	5	0	ok
+domains/mathematics/partial-differential-equations/energy-methods-pdes.md	mis	6	0	ok
+domains/mathematics/partial-differential-equations/finite-element-method-foundations.md	how	4	0	ok
+domains/mathematics/partial-differential-equations/finite-element-method-foundations.md	mis	6	0	ok
+domains/mathematics/partial-differential-equations/fourier-analysis-sobolev-embedding.md	how	5	0	ok
+domains/mathematics/partial-differential-equations/fourier-analysis-sobolev-embedding.md	mis	6	0	ok
+domains/mathematics/partial-differential-equations/fourier-transform-methods-pdes.md	how	3	0	ok
+domains/mathematics/partial-differential-equations/fourier-transform-methods-pdes.md	mis	6	0	ok
+domains/mathematics/partial-differential-equations/free-boundary-problems.md	how	6	0	ok
+domains/mathematics/partial-differential-equations/free-boundary-problems.md	mis	6	0	ok
+domains/mathematics/partial-differential-equations/fundamental-solutions-pdes.md	how	4	0	ok
+domains/mathematics/partial-differential-equations/fundamental-solutions-pdes.md	mis	6	1	fixed	Listed 1D (|x|) as an exception to the power law, but |x| = |x|^{2-n} for n = 1; only n = 2 is logarithmic.
+domains/mathematics/partial-differential-equations/greens-functions-pdes.md	how	5	0	ok
+domains/mathematics/partial-differential-equations/greens-functions-pdes.md	mis	6	0	ok
+domains/mathematics/partial-differential-equations/hamilton-jacobi-equations.md	how	6	0	ok
+domains/mathematics/partial-differential-equations/hamilton-jacobi-equations.md	mis	6	2	fixed	"Solution stays bounded" false for the file's own u0 = |x|; now "for Lipschitz data stays Lipschitz". Semiconcavity needs uniformly convex H (H = |p| keeps |x|-type kinks); added qualifier.
+domains/mathematics/partial-differential-equations/hyperbolic-pde-theory.md	how	3	0	ok
+domains/mathematics/partial-differential-equations/hyperbolic-pde-theory.md	mis	6	0	ok
+domains/mathematics/partial-differential-equations/laplacian-harmonic-functions.md	how	5	0	ok
+domains/mathematics/partial-differential-equations/laplacian-harmonic-functions.md	mis	6	0	ok
+domains/mathematics/partial-differential-equations/lax-milgram-theorem.md	how	4	0	ok
+domains/mathematics/partial-differential-equations/lax-milgram-theorem.md	mis	6	0	ok
+domains/mathematics/partial-differential-equations/maximum-principles-advanced.md	how	5	0	ok
+domains/mathematics/partial-differential-equations/maximum-principles-advanced.md	mis	6	0	ok
+domains/mathematics/partial-differential-equations/maximum-principles-pdes.md	how	5	1	fixed	Said "compare three solutions" but gave only two; changed to "two".
+domains/mathematics/partial-differential-equations/maximum-principles-pdes.md	mis	6	0	ok
+domains/mathematics/partial-differential-equations/method-of-characteristics.md	how	4	0	ok
+domains/mathematics/partial-differential-equations/method-of-characteristics.md	mis	6	1	fixed	"Constant along characteristics when RHS is zero" is false for fully nonlinear first-order PDEs (e.g. u_t + ½u_x² = 0); restricted to u_t + a(x,t,u)u_x = 0.
+domains/mathematics/partial-differential-equations/nonlinear-pdes-introduction.md	how	4	0	ok
+domains/mathematics/partial-differential-equations/nonlinear-pdes-introduction.md	mis	6	0	ok
+domains/mathematics/partial-differential-equations/parabolic-pde-theory.md	how	4	0	ok
+domains/mathematics/partial-differential-equations/parabolic-pde-theory.md	mis	6	0	ok
+domains/mathematics/partial-differential-equations/pde-classification.md	how	5	1	fixed	"Three equations that differ only in the mixed term" but first had 3u_yy; changed to u_yy, so B² - AC = 3.
+domains/mathematics/partial-differential-equations/pde-classification.md	mis	6	0	ok
+domains/mathematics/partial-differential-equations/reaction-diffusion-equations.md	how	5	0	ok
+domains/mathematics/partial-differential-equations/reaction-diffusion-equations.md	mis	6	0	ok
+domains/mathematics/partial-differential-equations/schauder-estimates.md	how	3	0	ok
+domains/mathematics/partial-differential-equations/schauder-estimates.md	mis	6	0	ok
+domains/mathematics/partial-differential-equations/semigroup-theory-evolution-equations.md	how	4	0	ok
+domains/mathematics/partial-differential-equations/semigroup-theory-evolution-equations.md	mis	6	0	ok
+domains/mathematics/partial-differential-equations/sobolev-spaces-pdes.md	how	6	0	ok
+domains/mathematics/partial-differential-equations/sobolev-spaces-pdes.md	mis	6	0	ok
+domains/mathematics/partial-differential-equations/spectral-theory-elliptic-operators.md	how	4	0	ok
+domains/mathematics/partial-differential-equations/spectral-theory-elliptic-operators.md	mis	6	0	ok
+domains/mathematics/partial-differential-equations/variational-methods-pdes.md	how	4	0	ok
+domains/mathematics/partial-differential-equations/variational-methods-pdes.md	mis	6	1	fixed	"Only weak convergence is guaranteed" overstates; a bounded sequence is only guaranteed a weakly convergent subsequence.
+domains/mathematics/partial-differential-equations/viscosity-solutions.md	how	4	0	ok
+domains/mathematics/partial-differential-equations/viscosity-solutions.md	mis	6	0	ok

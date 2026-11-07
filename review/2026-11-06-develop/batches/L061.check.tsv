@@ -1,0 +1,64 @@
+domains/mathematics/multivariable-calculus/distance-and-distance-formula-3d.md	how	4	0	ok	worked (2,3,6): sqrt13 then 7, correct
+domains/mathematics/multivariable-calculus/distance-and-distance-formula-3d.md	mis	8	0	ok
+domains/mathematics/multivariable-calculus/divergence-theorem-applications.md	how	4	1	fixed	cube flux 3 = 3 checks out; "on a sphere only the volume side is quick" false for F=<x,y,z> (F·n = R, surface side is immediate); replaced with sphere check R·4piR^2 = 3·(4/3)piR^3
+domains/mathematics/multivariable-calculus/divergence-theorem-applications.md	mis	8	0	ok
+domains/mathematics/multivariable-calculus/divergence-theorem.md	how	4	0	ok
+domains/mathematics/multivariable-calculus/divergence-theorem.md	mis	8	0	ok
+domains/mathematics/multivariable-calculus/divergence-theorem.md	old:questions	1	0	ok	noted only: Q1 explanation and Explainer say open surfaces are "handled by Stokes' theorem"; true only for the flux of a curl, misleading in general; not edited
+domains/mathematics/multivariable-calculus/dot-cross-products-geometry.md	how	4	0	ok	u·v=0, u×v=(-2,5,-4), |u×v|=sqrt45=3sqrt5 all verified
+domains/mathematics/multivariable-calculus/dot-cross-products-geometry.md	mis	8	0	ok
+domains/mathematics/multivariable-calculus/dot-product-geometry.md	how	4	0	ok	proj=(6/5,8/5), residual (4/5,-3/5)·a=0 verified
+domains/mathematics/multivariable-calculus/dot-product-geometry.md	mis	8	1	fixed	"they differ unless a and b are parallel" false: if b parallel to a, proj_a(b)=b and proj_b(a)=a, still different unless a=b; corrected to equal only when a=b or a⊥b
+domains/mathematics/multivariable-calculus/double-integrals-cartesian-coordinates.md	how	4	0	ok	both orders = 18 verified
+domains/mathematics/multivariable-calculus/double-integrals-cartesian-coordinates.md	mis	8	0	ok
+domains/mathematics/multivariable-calculus/double-integrals-cartesian-coordinates.md	old:questions	1	1	fixed	Q0 asked which iterated integral is "computable in closed form" with key B, but B's outer integral of sin(y^2) has no closed form (explanation admitted this); stem changed to ask which order has a closed-form inner integral
+domains/mathematics/multivariable-calculus/double-integrals-cartesian.md	how	4	0	ok	both slicings = 1/6 verified
+domains/mathematics/multivariable-calculus/double-integrals-cartesian.md	mis	8	0	ok	noted only: old Explainer calls horizontal slicing of this region "awkward", though the new How shows it is simple (x from y to sqrt y)
+domains/mathematics/multivariable-calculus/double-integrals-general-regions.md	how	4	0	ok	intersections -2,1; area 9/2; Type II split at y=1 (right boundary line to parabola) verified
+domains/mathematics/multivariable-calculus/double-integrals-general-regions.md	mis	8	0	ok
+domains/mathematics/multivariable-calculus/double-integrals-polar-coordinates.md	how	4	0	ok	piR^2, 2piR, 8pi verified
+domains/mathematics/multivariable-calculus/double-integrals-polar-coordinates.md	mis	8	0	ok	noted only: old Explainer says Gaussian integral is "made accessible only by polar coordinates" (overstated)
+domains/mathematics/multivariable-calculus/double-integrals-polar.md	how	4	0	ok	r=2cos(theta), area pi verified
+domains/mathematics/multivariable-calculus/double-integrals-polar.md	mis	8	0	ok
+domains/mathematics/multivariable-calculus/double-integrals-rectangular-regions.md	how	5	0	ok	midpoint sum 8 = exact 8; 2(e-1) verified
+domains/mathematics/multivariable-calculus/double-integrals-rectangular-regions.md	mis	6	0	ok
+domains/mathematics/multivariable-calculus/double-integrals.md	how	4	0	ok	corner sum 9, midpoint sum 4, exact 4 verified
+domains/mathematics/multivariable-calculus/double-integrals.md	mis	8	1	fixed	"A finite sum is an approximation" sat next to a How example where the 4-square midpoint sum is exact; qualified to "in general" and noted xy is a special case
+domains/mathematics/multivariable-calculus/equations-lines-planes-3d.md	how	4	0	ok	line, t=3, point (7,5,-3) verified
+domains/mathematics/multivariable-calculus/equations-lines-planes-3d.md	mis	8	0	ok
+domains/mathematics/multivariable-calculus/equations-lines-planes.md	how	4	0	ok	normal (6,3,2), plane 6x+3y+2z=6, distance 6/7 verified
+domains/mathematics/multivariable-calculus/equations-lines-planes.md	mis	8	0	ok
+domains/mathematics/multivariable-calculus/equations-lines-planes.md	old:ex	1	1	fixed	Explainer said t "plays the role of a signed distance" with no qualifier, contradicting the new (correct) misconception; now "When d is a unit vector". Q0 explanation phrase "5 ≠ 2·(11/2)" is garbled but not false; left
+domains/mathematics/multivariable-calculus/flux-integrals.md	how	4	0	ok	flux 3, 0, 2pi a^3 verified
+domains/mathematics/multivariable-calculus/flux-integrals.md	mis	8	0	ok
+domains/mathematics/multivariable-calculus/functions-of-several-variables.md	how	4	0	ok	test points verified
+domains/mathematics/multivariable-calculus/functions-of-several-variables.md	mis	8	0	ok
+domains/mathematics/multivariable-calculus/fundamental-theorem-line-integrals.md	how	4	0	ok	6t^2 -> 2, 0+2, f(1,2)=2 verified
+domains/mathematics/multivariable-calculus/fundamental-theorem-line-integrals.md	mis	8	0	ok
+domains/mathematics/multivariable-calculus/greens-theorem-applications.md	how	3	0	ok	x dy - y dx = ab dt, area pi ab verified
+domains/mathematics/multivariable-calculus/greens-theorem-applications.md	mis	8	0	ok
+domains/mathematics/multivariable-calculus/greens-theorem.md	how	4	0	ok	edges 0,1,1,0 = 2 = curl·area verified
+domains/mathematics/multivariable-calculus/greens-theorem.md	mis	8	0	ok
+domains/mathematics/multivariable-calculus/greens-theorem.md	old:ex	1	1	fixed	Explainer said zero 2D curl means "conservative" and zero circulation around any loop, with no simply-connected condition, contradicting the new misconception bullet 3; added the no-holes condition
+domains/mathematics/multivariable-calculus/hessian-matrix-second-derivative-test.md	how	5	0	ok	det -5, slices 5x^2 and -x^2, eigenvalues 5 and -1 verified
+domains/mathematics/multivariable-calculus/hessian-matrix-second-derivative-test.md	mis	8	0	ok
+domains/mathematics/multivariable-calculus/hessian-matrix-second-derivative-test.md	old:core	1	1	fixed	writer's report confirmed: Core Idea had max/min swapped (said local max at det>0, f_xx>0); corrected to local min at f_xx>0, local max at f_xx<0
+domains/mathematics/multivariable-calculus/higher-order-partial-derivatives.md	how	4	0	ok	all four second partials of x^3y^2 verified. noted only: old Misconceptions section is not in bullet/correction format and bullets 2-3 are true statements, not misconceptions; old Q2 key (Hessian "generally symmetric" = false) is debatable
+domains/mathematics/multivariable-calculus/higher-order-partials-mixed.md	how	4	0	ok	slopes 0,1,2 -> mixed partial 1; x^2+y^2 -> 0 verified
+domains/mathematics/multivariable-calculus/higher-order-partials-mixed.md	mis	8	0	ok	noted only: old Q4 explanation says zero mixed partial at a point means "locally separable" (needs zero on a neighborhood)
+domains/mathematics/multivariable-calculus/higher-order-partials.md	how	4	0	ok	e^{xy} partials verified
+domains/mathematics/multivariable-calculus/higher-order-partials.md	mis	8	0	ok	noted only: old Q4 explanation claims Clairaut's hypothesis holds for "all elementary functions everywhere they are defined" (overstated)
+domains/mathematics/multivariable-calculus/implicit-differentiation-multivariable.md	how	4	0	ok	-1/2 both ways verified
+domains/mathematics/multivariable-calculus/implicit-differentiation-multivariable.md	mis	8	0	ok
+domains/mathematics/multivariable-calculus/iterated-integrals-fubini.md	how	4	0	ok	(e^2-3)/2 verified
+domains/mathematics/multivariable-calculus/iterated-integrals-fubini.md	mis	8	0	ok
+domains/mathematics/multivariable-calculus/iterated-integrals.md	how	4	0	ok	1/8 both orders verified
+domains/mathematics/multivariable-calculus/iterated-integrals.md	mis	8	0	ok
+domains/mathematics/multivariable-calculus/lagrange-multipliers.md	how	5	0	ok	candidates, lambda=1/2, d/dc sqrt(2c)=1/2 at c=2 verified
+domains/mathematics/multivariable-calculus/lagrange-multipliers.md	mis	8	0	ok
+domains/mathematics/multivariable-calculus/level-sets-surfaces.md	how	4	0	ok	k=1 one sheet, k=0 cone, k=-1 two sheets verified
+domains/mathematics/multivariable-calculus/level-sets-surfaces.md	mis	8	1	fixed	belief "level curves can cross each other" is partly true (a single level set can self-cross, e.g. x^2-y^2=0, and the k=0 cone in the How); narrowed belief to level curves for two different k
+domains/mathematics/multivariable-calculus/limits-continuity-multivariable.md	how	4	0	ok	|f|<=|y|; g: lines 0, parabola 1/2 verified
+domains/mathematics/multivariable-calculus/limits-continuity-multivariable.md	mis	8	0	ok	noted only: old Explainer says partial derivatives "assume" continuity (false) and has drafting junk "spirals, spirals that spiral inward"
+domains/mathematics/multivariable-calculus/line-integrals-scalar.md	how	4	0	ok	sqrt2 both parametrizations; 1 and 1/2 without speed verified
+domains/mathematics/multivariable-calculus/line-integrals-scalar.md	mis	8	0	ok

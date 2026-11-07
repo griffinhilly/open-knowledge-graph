@@ -1,0 +1,99 @@
+domains/mathematics/abstract-algebra/group-basic-properties.md	how	4	0	ok
+domains/mathematics/abstract-algebra/group-basic-properties.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/group-basic-properties.md	old:q:2:question	1	1	fixed	garbled qualifier "nearly every group contains exactly one identity" restored to "every group"
+domains/mathematics/abstract-algebra/group-definition-examples.md	how	5	0	ok
+domains/mathematics/abstract-algebra/group-definition-examples.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/group-definition-examples.md	old:q:0:explanation	1	1	fixed	drafting chatter "...wait, −3 is odd" and false claim that option D is true; rewritten: C true, D false
+domains/mathematics/abstract-algebra/group-definition-examples.md	old:ex	1	1	fixed	"six rotations of an equilateral triangle" -> six symmetries (three rotations, three reflections)
+domains/mathematics/abstract-algebra/group-homomorphisms.md	how	4	0	ok
+domains/mathematics/abstract-algebra/group-homomorphisms.md	mis	8	0	ok
+domains/mathematics/abstract-algebra/group-isomorphisms.md	how	4	0	ok
+domains/mathematics/abstract-algebra/group-isomorphisms.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/insolvability-of-the-quintic.md	how	6	0	ok	worked: S4 series quotients Z2,Z3,V4; A5 class sums with identity (13,16,21,25,28,33,36,40,45,48) none divide 60; x^5-4x+2 has 3 real roots so Gal=S5
+domains/mathematics/abstract-algebra/insolvability-of-the-quintic.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/insolvability-of-the-quintic.md	old:ex	1	1	fixed	"For thousands of years" mathematicians sought a quintic formula -> "For centuries" (cubic/quartic only solved in 16th c.)
+domains/mathematics/abstract-algebra/insolvability-quintic.md	how	6	0	ok	worked: (23)(45)(123)(23)(45) = (132); (132)(132) = (123), so (123) is a commutator
+domains/mathematics/abstract-algebra/insolvability-quintic.md	mis	6	1	fixed	bullet 3 strawman (no learner thinks S5 "has no commutators"); bullet cut, 2 remain
+domains/mathematics/abstract-algebra/insolvability-quintic.md	old:q:0:explanation	1	1	fixed	Galois group of x^5 - 1 over Q is Z4 (= (Z/5)^x), not Z5
+domains/mathematics/abstract-algebra/integral-domains.md	how	5	0	ok
+domains/mathematics/abstract-algebra/integral-domains.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/integral-domains.md	old:q:2:question	1	1	fixed	garbled "Most integral domain is a field" -> "Every integral domain is a field" (answer false stays right)
+domains/mathematics/abstract-algebra/irreducibility-criteria.md	how	6	0	ok	worked: (x+1)^4+1 = x^4+4x^3+6x^2+4x+2 Eisenstein at 2; x^3+x+1 has no root mod 2; x^4+4 = (x^2+2x+2)(x^2-2x+2)
+domains/mathematics/abstract-algebra/irreducibility-criteria.md	mis	6	1	fixed	bullet 3 dropped qualifier: "factors over Q => factors mod p" needs p not dividing the leading coefficient (2x^2+x reduces to x mod 2); qualifier added
+domains/mathematics/abstract-algebra/maximal-and-prime-ideals.md	how	6	0	ok
+domains/mathematics/abstract-algebra/maximal-and-prime-ideals.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/maximal-and-prime-ideals.md	old:q:3:question	1	1	fixed	garbled "most prime ideal is maximal" -> "every prime ideal is maximal"
+domains/mathematics/abstract-algebra/maximal-and-prime-ideals.md	old:ex	1	1	fixed	inverse argument said "a unit multiple of a lands in M"; correct: M + Ra = R gives 1 = m + ra, so [r] inverts [a]
+domains/mathematics/abstract-algebra/maximal-prime-ideals.md	how	6	0	ok
+domains/mathematics/abstract-algebra/maximal-prime-ideals.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/maximal-prime-ideals.md	old:core	1	1	fixed	"no ideal properly contains M" (R does) -> "no proper ideal properly contains M"
+domains/mathematics/abstract-algebra/maximal-prime-ideals.md	old:q:0:explanation	1	1	fixed	"(n) is prime iff n is prime" false for (0), contradicts new misconception bullet; restricted to n > 0
+domains/mathematics/abstract-algebra/maximal-prime-ideals.md	old:q:3:question	1	1	fixed	garbled "nearly every prime ideal" -> "every prime ideal"
+domains/mathematics/abstract-algebra/normal-subgroups.md	how	4	0	ok	worked: (12)·(13)H differs from (13)H since (13)(12)(13) = (23) not in H
+domains/mathematics/abstract-algebra/normal-subgroups.md	mis	6	0	ok	bullet 3 belief (finite G rescues non-normal quotients) is weakly plausible; kept
+domains/mathematics/abstract-algebra/orbit-stabilizer-theorem.md	how	6	0	ok
+domains/mathematics/abstract-algebra/orbit-stabilizer-theorem.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/orbit-stabilizer-theorem.md	old:q:3:question	1	1	fixed	garbled "they is expected to lie" -> "they must lie"
+domains/mathematics/abstract-algebra/permutation-groups.md	how	3	0	ok
+domains/mathematics/abstract-algebra/permutation-groups.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/permutation-groups.md	old:ex	1	1	fixed	"A5 is simple (has no normal subgroups)" -> no normal subgroups other than {e} and A5
+domains/mathematics/abstract-algebra/polynomial-rings.md	how	4	0	ok	worked: (2x+1)(x/2 - 1/4) = x^2 - 1/4, remainder 5/4
+domains/mathematics/abstract-algebra/polynomial-rings.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/polynomial-rings.md	old:q:3:question	1	1	fixed	garbled "most nonzero polynomial" -> "every nonzero polynomial"
+domains/mathematics/abstract-algebra/polynomial-rings.md	old:q:4:answer	1	1	fixed	"over infinite rings or fields the notions coincide" false for infinite rings with zero divisors (infinite Boolean ring); -> infinite integral domains
+domains/mathematics/abstract-algebra/principal-ideal-domains.md	how	4	0	ok
+domains/mathematics/abstract-algebra/principal-ideal-domains.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/principal-ideal-domains.md	old:q:3:question	1	1	fixed	garbled "Most unique factorization domain" -> "Every unique factorization domain"
+domains/mathematics/abstract-algebra/quotient-groups.md	how	5	0	ok
+domains/mathematics/abstract-algebra/quotient-groups.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/quotient-groups.md	old:q:2:question	1	1	fixed	"cosets of any subgroup typically partition G" -> "always" (explanation says always)
+domains/mathematics/abstract-algebra/quotient-rings.md	how	5	0	ok	worked: (2+3x)(1-x) = 2+x-3x^2 -> 5+x; (2+3i)(1-i) = 5+i
+domains/mathematics/abstract-algebra/quotient-rings.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/quotient-rings.md	old:q:0:explanation	1	1	fixed	"only the generator x^2+1 becomes zero" false (every element of the ideal does); reworded
+domains/mathematics/abstract-algebra/ring-definition-and-examples.md	how	4	0	ok	worked: A = E12, A^2 = 0, A A^T = E11, A^T A = E22
+domains/mathematics/abstract-algebra/ring-definition-and-examples.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/ring-definition-and-examples.md	old:q:3:question	1	1	fixed	garbled "Nearly every ring is expected to ... most ring" -> "Every ring must ... every ring must"
+domains/mathematics/abstract-algebra/ring-definition-and-examples.md	old:q:4:explanation	1	1	fixed	cancellation in a domain justified by "multiply by a's inverse"; correct: a(b-c) = 0 forces b = c
+domains/mathematics/abstract-algebra/ring-definition-examples.md	how	5	0	ok	worked: AB = E11, BA = E22, AB+BA = I, 2AB = 2E11
+domains/mathematics/abstract-algebra/ring-definition-examples.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/ring-definition-examples.md	old:ex	1	1	fixed	Explainer said (a+b)^2 = a^2+2ab+b^2 holds in rings; contradicts new bullet 2; -> a^2+ab+ba+b^2
+domains/mathematics/abstract-algebra/ring-definition-examples.md	old:q:2:question	1	1	fixed	garbled "Most ring is expected to have" -> "Every ring has"; explanation "2e = 2 for all elements" -> "ea = a for every a in 2Z"
+domains/mathematics/abstract-algebra/ring-definition-examples.md	old:q:3:question	1	1	fixed	garbled "for most elements ... is expected to be a field" -> "for all elements ... must be a field"
+domains/mathematics/abstract-algebra/ring-homomorphisms.md	how	5	0	ok
+domains/mathematics/abstract-algebra/ring-homomorphisms.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/ring-homomorphisms.md	old:q:3:question	1	1	fixed	garbled "mainly needs to satisfy" -> "only needs to satisfy"
+domains/mathematics/abstract-algebra/ring-homomorphisms.md	old:q:3:explanation	1	1	fixed	drafting chatter ("actually this one works ... actually also fine") with two failed counterexamples; replaced with n -> 2n
+domains/mathematics/abstract-algebra/ruler-and-compass-constructions.md	how	5	0	ok	worked: 8c^3-6c-1 at ±1, ±1/2, ±1/4, ±1/8 gives 1, -3, -3, 1, -2.375, 0.375, -1.73, -0.27; none zero
+domains/mathematics/abstract-algebra/ruler-and-compass-constructions.md	mis	6	1	fixed	bullet 3 said angles "can be trisected" by approximation; approximation is not trisection; reworded (exact with marked ruler, approximate otherwise)
+domains/mathematics/abstract-algebra/ruler-and-compass-constructions.md	old:ex	1	1	fixed	"Gauss proved this [n-gon iff] at age 19": Gauss proved sufficiency (17-gon at 19); Wantzel proved necessity (1837)
+domains/mathematics/abstract-algebra/ruler-compass-constructions-algebraic.md	how	7	0	ok	worked: (x^2-5)^2 = 24 gives x^4-10x^2+1; 4c^2+2c-1 = 0 at c = (sqrt5-1)/4
+domains/mathematics/abstract-algebra/ruler-compass-constructions-algebraic.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/ruler-compass-constructions-algebraic.md	old:core	2	2	fixed	writer flag confirmed: "constructible iff minimal polynomial degree is a power of 2" false (root of x^4-x-1 has degree 4, Galois group S4); also "pi is transcendental" listed as a consequence; rewritten
+domains/mathematics/abstract-algebra/ruler-compass-constructions-algebraic.md	old:q:2:explanation	1	1	fixed	"converse also holds: any number of degree 2^k lies in a tower"; false; replaced with the x^4-x-1 counterexample (question stem itself is true and kept)
+domains/mathematics/abstract-algebra/ruler-compass-constructions-algebraic.md	old:q:4:explanation	1	1	fixed	recast reachability as equivalent to degree power of 2; now stated as a necessary condition
+domains/mathematics/abstract-algebra/ruler-compass-constructions-algebraic.md	old:ex	1	1	fixed	"constructible iff [Q(a):Q] is a power of 2, which happens iff Galois group is a 2-group": first iff false; now Galois 2-group criterion with counterexample
+domains/mathematics/abstract-algebra/second-and-third-isomorphism-theorems.md	how	5	0	ok	worked: 4Z+6Z = 2Z, 4Z∩6Z = 12Z, both quotients order 3
+domains/mathematics/abstract-algebra/second-and-third-isomorphism-theorems.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/second-isomorphism-theorem-groups.md	how	5	0	ok
+domains/mathematics/abstract-algebra/second-isomorphism-theorem-groups.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/second-isomorphism-theorem-groups.md	old:ex	1	1	fixed	drafting chatter "(4 elements on the left, 3 on the right... wait, Z12/N has 3 cosets)" cleaned
+domains/mathematics/abstract-algebra/sign-of-a-permutation.md	how	5	0	ok	worked: (123)(45) one-line 2 3 1 5 4, inversions (2,1),(3,1),(5,4)
+domains/mathematics/abstract-algebra/sign-of-a-permutation.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/sign-of-a-permutation.md	old:ex	1	1	fixed	"A_n is simple (no proper normal subgroups)" -> no normal subgroups other than {e} and A_n
+domains/mathematics/abstract-algebra/sign-permutation.md	how	4	0	ok
+domains/mathematics/abstract-algebra/sign-permutation.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/splitting-fields.md	how	5	0	ok
+domains/mathematics/abstract-algebra/splitting-fields.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/splitting-fields.md	old:q:3:question	1	1	fixed	garbled "usually equals n!" -> "always equals n!"; explanation "not 2! = 2 (coincidentally equal here)" cleaned
+domains/mathematics/abstract-algebra/subgroups-subgroup-test.md	how	5	0	ok
+domains/mathematics/abstract-algebra/subgroups-subgroup-test.md	mis	6	1	fixed	bullet 1 dropped qualifier: closure alone suffices only for nonempty finite subsets (empty set is closed); added "nonempty"
+domains/mathematics/abstract-algebra/subgroups-subgroup-test.md	old:core	1	1	fixed	Core Idea called the nonempty+closure+inverses test "one-step"; Explainer calls it two-step and gives ab^-1 as the one-line test; -> "two-step"
+domains/mathematics/abstract-algebra/subgroups-subgroup-test.md	old:ex	1	1	fixed	"three of those [axioms] are essentially free" -> two (associativity and identity)
+domains/mathematics/abstract-algebra/subgroups-subgroup-test.md	old:q:3:question	1	1	fixed	garbled "verify most four group axioms" -> "all four"
+domains/mathematics/abstract-algebra/subrings-and-ideals.md	how	4	0	ok
+domains/mathematics/abstract-algebra/subrings-and-ideals.md	mis	6	0	ok	worked: matrices with zero second column are closed under left multiplication, not right
+domains/mathematics/abstract-algebra/subrings-and-ideals.md	old:core	1	1	fixed	garbled "making it a kernels of homomorphisms" -> "ideals are exactly the kernels of ring homomorphisms"
+domains/mathematics/abstract-algebra/subrings-and-ideals.md	old:q:2:question	1	1	fixed	garbled "Nearly every subring" -> "Every subring"
+domains/mathematics/abstract-algebra/subrings-ideals.md	how	4	0	ok
+domains/mathematics/abstract-algebra/subrings-ideals.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/subrings-ideals.md	old:q:3:question	1	1	fixed	garbled "Most ideal in a ring" -> "Every ideal in a ring"; explanation "typically does not contain 1" -> "does not contain 1"

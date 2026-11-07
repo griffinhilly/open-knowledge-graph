@@ -1,0 +1,9 @@
+domains/mathematics/multivariable-calculus/vector-fields.md	how	3	0	ok	Worked: F=<-y,x> at the four axis points gives the stated arrows; counterclockwise confirmed. Old Explainer uses banned word "landscape" (out of scope, not changed).
+domains/mathematics/multivariable-calculus/vector-fields.md	mis	8	0	ok
+domains/mathematics/multivariable-calculus/vector-valued-functions-curves.md	how	4	0	ok	Worked: r'(t)=<-sin t,cos t,1>, r'(0)=<0,1,1> at (1,0,0), speed sqrt2 constant; r(2t) same helix at 2sqrt2. Old Q3 explanation uses banned word "crucial" (out of scope, not changed).
+domains/mathematics/multivariable-calculus/vector-valued-functions-curves.md	mis	8	0	ok	Checked <2t,4t^2> gives y=x^2; <t^2,t^3> has r'(0)=0 and a cusp.
+domains/mathematics/multivariable-calculus/vectors-in-3d.md	how	4	0	ok	Worked: Q-P=<2,-3,6>, sqrt13, then sqrt49=7.
+domains/mathematics/multivariable-calculus/vectors-in-3d.md	mis	6	0	ok	Triangle-equality condition (same direction or one zero) is correct.
+domains/mathematics/multivariable-calculus/work-circulation.md	how	5	0	ok	Worked: integrands 1 and 0 on the unit circle; circulations 2pi and 0; potential 1/2(x^2+y^2) correct.
+domains/mathematics/multivariable-calculus/work-circulation.md	mis	8	0	ok	Checked <0,x^2>: circulation integral of cos^3 t over [0,2pi] = 0, curl 2x nonzero. Checked <-y,x>/(x^2+y^2) gives 2pi on the unit circle. Old Explainer uses banned word "crucial" (out of scope, not changed).
+domains/mathematics/multivariable-calculus/work-circulation.md	old:q:4:explanation	1	1	fixed	Said "nonzero curl anywhere inside a loop produces nonzero circulation around it"; false (curl can cancel; the new mis bullet's <0,x^2> is a counterexample). Replaced with: circulation around a counterclockwise simple loop equals the total curl over the enclosed region.

@@ -1,0 +1,71 @@
+domains/physics/particle-physics/b-physics-and-b-factories.md	how	4	1	fixed	"B and B-bar fly apart along the beam" is wrong: at the Upsilon(4S) both B's move in the boost direction; changed to "both move along the boost axis". Delta-t and sin(2beta) steps check out.
+domains/physics/particle-physics/b-physics-and-b-factories.md	mis	6	0	ok
+domains/physics/particle-physics/b-physics-and-b-factories.md	old:q:0:explanation	1	1	fixed	Said the boost "stretched" the 450 um proper decay length to ~260 um (a smaller number); reworded as c*tau turned into mean lab flight distances.
+domains/physics/particle-physics/b-physics-and-b-factories.md	old:ex	1	1	fixed	Upsilon(4S) said to decay almost exclusively to B_d B_d-bar; it gives B B-bar, roughly half B+B- and half B0 B0-bar.
+domains/physics/particle-physics/bsm-overview.md	how	3	0	ok	(Lambda/m_H)^2 checked: 6400 at 10 TeV, ~10^34 at Planck scale.
+domains/physics/particle-physics/bsm-overview.md	mis	6	0	ok
+domains/physics/particle-physics/ckm-matrix-quark-mixing.md	how	6	0	ok	Parameter count worked for n=2 and n=3.
+domains/physics/particle-physics/ckm-matrix-quark-mixing.md	mis	6	0	ok
+domains/physics/particle-physics/collider-physics-methods.md	how	4	0	ok	s/sqrt(b) = 1.0, 2.53, 0.71 checked.
+domains/physics/particle-physics/collider-physics-methods.md	mis	6	0	ok
+domains/physics/particle-physics/collider-physics-methods.md	old:q:0:explanation	1	1	fixed	"Every 5-sigma discovery in particle physics has been confirmed" is false (e.g. OPERA superluminal neutrinos); replaced with a statement that 5 sigma does not protect against unrecognized systematics.
+domains/physics/particle-physics/cp-violation.md	how	3	0	ok	|A|^2 - |Abar|^2 = -4 A1 A2 sin(dphi) sin(ddelta) derived and confirmed; C/P/CP neutrino images correct.
+domains/physics/particle-physics/cp-violation.md	mis	6	1	fixed	Bullet 3 correction overstated: "a rate asymmetry needs two amplitudes differing in weak and strong phase" holds for direct CP violation only; mixing-induced asymmetries (B -> J/psi K_S) arise from one decay amplitude. Qualified to "direct asymmetry" and noted mixing can supply the second path.
+domains/physics/particle-physics/cross-section-measurements.md	how	4	0	ok	200 fb and the 2-bin response (150,50)->(130,70) checked.
+domains/physics/particle-physics/cross-section-measurements.md	mis	6	0	ok
+domains/physics/particle-physics/dark-matter-candidates.md	how	5	0	ok
+domains/physics/particle-physics/dark-matter-candidates.md	mis	6	0	ok
+domains/physics/particle-physics/deep-inelastic-scattering.md	how	5	0	ok	Q^2 = 6.4 GeV^2, nu = 12 GeV, x = 0.28 checked; W ~ 4.1 GeV so the event is deep inelastic.
+domains/physics/particle-physics/deep-inelastic-scattering.md	mis	6	0	ok
+domains/physics/particle-physics/deep-inelastic-scattering.md	old:q:0:answer	1	1	fixed	Question asks about three FREE quarks; key pointed to option 2 (bound quarks, also with a garbled sum-rule claim). The explanation itself says free quarks give delta functions at x = 1/3. Answer changed 2 -> 0.
+domains/physics/particle-physics/detector-physics-basics.md	how	4	0	ok	r = 16.7 m, s = 7.5 mm at 10 GeV, 75 um at 1 TeV checked.
+domains/physics/particle-physics/detector-physics-basics.md	mis	6	0	ok
+domains/physics/particle-physics/detector-physics-basics.md	old:ex	1	0	noted	Muon dE/dx given as "~2 MeV/cm"; that is ~2 MeV cm^2/g (about 11 MeV/cm in iron). Not edited.
+domains/physics/particle-physics/effective-field-theory-particle-physics.md	how	4	0	ok	G_F = 1.155e-5 GeV^-2 from g = 0.65, M_W = 80.4 checked.
+domains/physics/particle-physics/effective-field-theory-particle-physics.md	mis	6	0	ok
+domains/physics/particle-physics/effective-field-theory-particle-physics.md	old:q:0:explanation	1	1	fixed	m_nu ~ v^2/Lambda with Lambda = 10^14 GeV gives ~0.3 eV, not 0.05 eV; changed Lambda to 10^15 GeV (gives ~0.03-0.06 eV).
+domains/physics/particle-physics/electron-positron-annihilation.md	how	5	0	ok	R = 2, 10/3, 11/3 checked.
+domains/physics/particle-physics/electron-positron-annihilation.md	mis	6	0	ok
+domains/physics/particle-physics/electron-positron-annihilation.md	old:q:2	1	0	noted	"R ~ 20 at the Z pole" is Gamma_had/Gamma_ll (both via Z); the keyed option and explanation attribute it to Z enhancement over the photon and to Z couplings "greatly exceeding" EM, which is muddled. Not edited.
+domains/physics/particle-physics/electroweak-precision-measurements.md	how	5	0	ok	Gamma_inv = 0.499 GeV, N_nu = 2.99 checked.
+domains/physics/particle-physics/electroweak-precision-measurements.md	mis	6	0	ok
+domains/physics/particle-physics/extra-dimensions.md	how	5	0	ok	R ~ 2e13 m (n=1), ~2 mm (n=2), ~4e-14 m (n=6); e^(-12 pi) ~ 4e-17 checked.
+domains/physics/particle-physics/extra-dimensions.md	mis	6	0	ok
+domains/physics/particle-physics/extra-dimensions.md	old:q:0:options	1	1	fixed	Keyed option said inverse-square tests to ~50 um were "not yet ruling out n = 2 with M_D = 1 TeV", but that case needs R ~ 1 mm; it is ruled out. Changed to "which rules out".
+domains/physics/particle-physics/grand-unification.md	how	6	0	ok	Worked: SM 1/alpha_i at 1e16 GeV ~ 38, 46, 45 (miss); MSSM at 2e16 GeV ~ 24.3 each (meet). 5-bar charge sum zero.
+domains/physics/particle-physics/grand-unification.md	mis	6	0	ok
+domains/physics/particle-physics/higgs-boson-discovery-and-properties.md	how	4	0	ok	m = 124.9 GeV at 124 degrees checked.
+domains/physics/particle-physics/higgs-boson-discovery-and-properties.md	mis	6	0	ok
+domains/physics/particle-physics/jets-and-jet-algorithms.md	how	4	0	ok	Ran anti-kT: d_AB = 5.6e-5 merges first, jets 105 and 50 GeV; soft particle at y = 0.6 joins the 50 GeV jet, jets unchanged.
+domains/physics/particle-physics/jets-and-jet-algorithms.md	mis	6	0	ok
+domains/physics/particle-physics/jets-and-jet-algorithms.md	old:q:0:explanation	1	1	fixed	Claimed k_T and anti-k_T "give the same inclusive cross sections"; different algorithms give different jets and cross sections beyond LO. Clause removed.
+domains/physics/particle-physics/lattice-qcd-basics.md	how	4	0	ok	m_eff = 0.684 at t=0 and 0.507 at t=5 checked.
+domains/physics/particle-physics/lattice-qcd-basics.md	mis	6	0	ok
+domains/physics/particle-physics/leptogenesis-and-baryogenesis.md	how	4	0	ok	B = 28/79, L = -51/79 checked.
+domains/physics/particle-physics/leptogenesis-and-baryogenesis.md	mis	6	0	ok
+domains/physics/particle-physics/leptogenesis-and-baryogenesis.md	old:q:1:answer	1	0	noted	Davidson-Ibarra bound is usually written with v = 174 GeV; text says v = 246 GeV (factor 2 in the bound). Not certain of convention; not edited.
+domains/physics/particle-physics/lepton-flavor.md	how	4	0	ok	Dm^2/M_W^2 = 3.9e-25 checked (squared ~1.5e-49, before the alpha prefactor).
+domains/physics/particle-physics/lepton-flavor.md	mis	6	0	ok
+domains/physics/particle-physics/lepton-flavor.md	old:ex	1	1	fixed	W -> l nu partial-width ratios were said to test universality "to 0.3%"; LEP/LHC precision is ~1-2%. Changed. Also noted: R(K(*)) is no longer in tension (LHCb 2022); not edited.
+domains/physics/particle-physics/luminosity-and-event-rates.md	how	4	0	ok	8e8 /s, 3.16e7 crossings/s, ~25 pileup, 7e6 events checked.
+domains/physics/particle-physics/luminosity-and-event-rates.md	mis	6	0	ok
+domains/physics/particle-physics/luminosity-and-event-rates.md	old:q:2:explanation	1	1	fixed	31 fb x 3000 fb^-1 is ~9e4 di-Higgs events, not ~100. Corrected to ~10^5 produced, barely enough for evidence after BRs and selection.
+domains/physics/particle-physics/neutrino-masses-and-oscillations.md	how	5	0	ok	L/E = 495 km/GeV; 500 km, 1.5 km, 50 km checked.
+domains/physics/particle-physics/neutrino-masses-and-oscillations.md	mis	6	0	ok
+domains/physics/particle-physics/neutrino-masses-and-oscillations.md	old:q:1:explanation	1	0	noted	Says the unknown absolute mass scale "means we don't know the mass ordering"; the ordering is unknown because the sign of Dm^2_32 is unmeasured, a separate issue. Not edited.
+domains/physics/particle-physics/neutrino-mixing-pmns-matrix.md	how	5	0	ok	|U_e1|^2 = 0.67, |U_e2|^2 = 0.31, |U_e3|^2 = 0.02, |U_e3| = 0.15 checked.
+domains/physics/particle-physics/neutrino-mixing-pmns-matrix.md	mis	6	0	ok
+domains/physics/particle-physics/parton-distribution-functions.md	how	4	0	ok	x = 0.0096 for Higgs, 0.15 for 2 TeV dijet checked.
+domains/physics/particle-physics/parton-distribution-functions.md	mis	6	0	ok
+domains/physics/particle-physics/parton-distribution-functions.md	old:q:2:question	1	1	fixed	"Two major collaborations (CT, MSHT, NNPDF)" lists three; changed to "Three".
+domains/physics/particle-physics/qcd-at-colliders.md	how	5	0	ok	One-loop alpha_s = 0.129 (50 GeV), 0.106 (200 GeV); alpha_s^2 ratio 1.49 checked.
+domains/physics/particle-physics/qcd-at-colliders.md	mis	6	0	ok
+domains/physics/particle-physics/quark-model-hadron-spectroscopy.md	how	5	0	ok	397/637 = 0.62 ~ m_u/m_s checked.
+domains/physics/particle-physics/quark-model-hadron-spectroscopy.md	mis	6	0	ok
+domains/physics/particle-physics/supersymmetry-basics.md	how	4	1	fixed	Fine-tuning exercise could not be worked: Lambda in ln(Lambda^2/m_stop^2) was never given. Added Lambda ~ 10^16 GeV (gives ~37x and ~570x (125 GeV)^2). R-parity values checked.
+domains/physics/particle-physics/supersymmetry-basics.md	mis	6	0	ok
+domains/physics/particle-physics/w-and-z-boson-physics.md	how	5	0	ok	Tree-level Z BRs worked: 69.1% hadrons, 20.5% nu, 10.3% charged leptons.
+domains/physics/particle-physics/w-and-z-boson-physics.md	mis	6	0	ok
+domains/physics/particle-physics/w-and-z-boson-physics.md	old:q:0:question	1	1	fixed	Stem said W's are "longitudinally polarized at threshold but become increasingly longitudinally polarized"; self-contradictory sentence removed.
+domains/physics/particle-physics/w-and-z-boson-physics.md	old:q:2:question	1	1	fixed	"u dbar -> W+ and dbar u -> W+" duplicated W+; changed second to "d ubar -> W-".
+domains/physics/particle-physics/w-and-z-boson-physics.md	old:ex	1	1	fixed	"tens of nanobars" -> "nanobarns".

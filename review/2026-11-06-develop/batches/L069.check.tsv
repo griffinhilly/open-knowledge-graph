@@ -1,0 +1,9 @@
+domains/mathematics/abstract-algebra/sylow-theorems.md	how	5	0	ok	worked S3 (n2=3, n3=1), A4 (n3=4, n2=1), order 15 (n5=1): all correct
+domains/mathematics/abstract-algebra/sylow-theorems.md	mis	8	0	ok
+domains/mathematics/abstract-algebra/third-isomorphism-theorem-groups.md	how	5	0	ok	worked Z/12Z mod {0,3,6,9} = 3 cosets; S4/V4 = S3, (S4/V4)/(A4/V4) = S4/A4 = Z2: correct
+domains/mathematics/abstract-algebra/third-isomorphism-theorem-groups.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/third-isomorphism-theorem-groups.md	old:ex	1	1	fixed	Explainer said "2Z ⊆ 6Z"; corrected to 6Z ⊆ 2Z
+domains/mathematics/abstract-algebra/unique-factorization-domains.md	how	6	0	ok	worked norms (N(2)=4, N(3)=9, N(1±√−5)=6, no norm 2 or 3): correct; "so 6 has two factorizations" leaves implicit that they are non-associate (units are ±1), not changed
+domains/mathematics/abstract-algebra/unique-factorization-domains.md	mis	8	0	ok	checked 1+2i = i(2−i) and 1−2i = −i(2+i): correct
+domains/mathematics/abstract-algebra/unique-factorization-domains.md	old:q:2:explanation	1	1	fixed	"every prime ideal is maximal" in a PID; corrected to "every nonzero prime ideal"
+domains/mathematics/abstract-algebra/unique-factorization-domains.md	old:ex	1	1	fixed	attributed the Z[√−5] example to Kummer; Kummer worked with cyclotomic integers, so the sentence now says that

@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 A 3D vector ⟨a, b, c⟩ has magnitude √(a² + b² + c²) and can be added, subtracted, and scalar-multiplied component-wise. Vectors represent displacement, force, velocity, and other directional quantities in 3D space.
 
+## How It's Best Learned
+Start from two points, P = (1, 2, 3) and Q = (3, −1, 9). Form the vector from P to Q as Q − P = ⟨2, −3, 6⟩. Find its length in two Pythagorean steps: √(4 + 9) = √13 across the floor, then √(13 + 36) = 7. Divide by 7 to get a unit vector, then sketch tip-to-tail sums in a box drawing.
+
+## Common Misconceptions
+- A vector has to start at the origin, so ⟨a, b, c⟩ and the point (a, b, c) are the same thing. (A vector is a displacement that can be drawn from any starting point. Drawn from the origin, ⟨a, b, c⟩ ends at the point (a, b, c).)
+- The vector from P to Q is P − Q. (It is Q − P, the end point minus the starting point. P − Q has the same length but points the opposite way.)
+- The length of a sum is the sum of the lengths, |u + v| = |u| + |v|. (That holds only when u and v point the same way or one is zero. For ⟨1, 0, 0⟩ + ⟨0, 1, 0⟩ the length is √2, not 2.)
+
 ## Questions
 
 ```yaml

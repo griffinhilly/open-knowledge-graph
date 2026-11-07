@@ -1,0 +1,62 @@
+domains/physics/quantum-field-theory/anomalies-qft.md	how	4	0	ok
+domains/physics/quantum-field-theory/anomalies-qft.md	mis	6	0	ok
+domains/physics/quantum-field-theory/asymptotic-freedom.md	how	4	0	ok	worked: N_f=5, b0=23/3 gives alpha_s(1 TeV)=0.089; matches "about 0.09"
+domains/physics/quantum-field-theory/asymptotic-freedom.md	mis	6	0	ok
+domains/physics/quantum-field-theory/classical-field-theory-lagrangian-density.md	how	4	0	ok
+domains/physics/quantum-field-theory/classical-field-theory-lagrangian-density.md	mis	6	0	ok
+domains/physics/quantum-field-theory/confinement-and-hadrons.md	how	3	0	ok	worked: crossover r = sqrt(4 alpha_s hbar c/(3 sigma)) = 0.28 fm
+domains/physics/quantum-field-theory/confinement-and-hadrons.md	mis	8	0	ok
+domains/physics/quantum-field-theory/cpt-theorem.md	how	4	1	fixed	exercise fails as written: psi-bar gamma5 psi is anti-Hermitian and picks up -1 under antiunitary CPT, breaking the stated (-1)^n rule; changed to the Hermitian bilinear i psi-bar gamma5 psi
+domains/physics/quantum-field-theory/cpt-theorem.md	mis	8	0	ok
+domains/physics/quantum-field-theory/cross-sections-decay-rates.md	how	4	0	ok	worked: |p_f| = 29.78 MeV
+domains/physics/quantum-field-theory/cross-sections-decay-rates.md	mis	8	0	ok
+domains/physics/quantum-field-theory/dirac-field-quantization.md	how	4	0	ok
+domains/physics/quantum-field-theory/dirac-field-quantization.md	mis	8	0	ok
+domains/physics/quantum-field-theory/effective-field-theory.md	how	4	0	ok	worked: G_F = sqrt2 g^2/(8 M_W^2) = 1.16e-5 GeV^-2
+domains/physics/quantum-field-theory/effective-field-theory.md	mis	6	0	ok
+domains/physics/quantum-field-theory/electromagnetic-field-quantization.md	how	4	0	ok
+domains/physics/quantum-field-theory/electromagnetic-field-quantization.md	mis	8	0	ok
+domains/physics/quantum-field-theory/electroweak-unification.md	how	4	0	ok	worked: mass matrix eigenvalues 0 and g^2+g'^2; m_W/m_Z = cos theta_W
+domains/physics/quantum-field-theory/electroweak-unification.md	mis	8	0	ok
+domains/physics/quantum-field-theory/feynman-diagrams-systematic.md	how	4	0	ok	worked: 3 pairings x 1/4! = 1/8
+domains/physics/quantum-field-theory/feynman-diagrams-systematic.md	mis	6	0	ok
+domains/physics/quantum-field-theory/fock-space-particle-interpretation.md	how	4	0	ok
+domains/physics/quantum-field-theory/fock-space-particle-interpretation.md	mis	8	0	ok
+domains/physics/quantum-field-theory/functional-methods-generating-functionals.md	how	5	0	ok	worked: <phi^2> = 1 - lambda/2, <phi^4> = 3 - 4 lambda, connected -lambda
+domains/physics/quantum-field-theory/functional-methods-generating-functionals.md	mis	8	0	ok
+domains/physics/quantum-field-theory/goldstone-theorem-qft.md	how	4	0	ok
+domains/physics/quantum-field-theory/goldstone-theorem-qft.md	mis	8	0	ok
+domains/physics/quantum-field-theory/higgs-mechanism.md	how	5	0	ok
+domains/physics/quantum-field-theory/higgs-mechanism.md	mis	6	1	fixed	dropped qualifier: "elementary fermions" includes neutrinos, whose mass origin is not established; now "quarks and charged leptons"
+domains/physics/quantum-field-theory/klein-gordon-field-quantization.md	how	4	0	ok
+domains/physics/quantum-field-theory/klein-gordon-field-quantization.md	mis	6	0	ok
+domains/physics/quantum-field-theory/loop-diagrams-divergences.md	how	4	0	ok	worked: D = 1, 2, 0
+domains/physics/quantum-field-theory/loop-diagrams-divergences.md	mis	6	0	ok
+domains/physics/quantum-field-theory/loop-diagrams-divergences.md	old:q:0	2	2	fixed	answer option said integrand ~1/k^2 and "diverges logarithmically because k grows"; explanation said 1/k^3 x k^3 dk = dk/k; both arithmetic wrong; now 1/k^3, linear by power counting, log after symmetric integration (matches How D = 1)
+domains/physics/quantum-field-theory/noethers-theorem-fields.md	how	4	0	ok	worked: T00 = (1/2)(phidot^2 + grad^2 + m^2 phi^2)
+domains/physics/quantum-field-theory/noethers-theorem-fields.md	mis	8	0	ok
+domains/physics/quantum-field-theory/non-abelian-gauge-theories.md	how	4	0	ok	worked: [D_mu, D_nu] = -ig F^a T^a with f^{bca} = f^{abc}
+domains/physics/quantum-field-theory/non-abelian-gauge-theories.md	mis	6	0	ok
+domains/physics/quantum-field-theory/path-integral-quantization.md	how	4	0	ok
+domains/physics/quantum-field-theory/path-integral-quantization.md	mis	8	0	ok
+domains/physics/quantum-field-theory/propagators-greens-functions.md	how	4	0	ok
+domains/physics/quantum-field-theory/propagators-greens-functions.md	mis	6	0	ok
+domains/physics/quantum-field-theory/qcd-basics.md	how	4	0	ok	worked: C_F = 4/3, R = 2
+domains/physics/quantum-field-theory/qcd-basics.md	mis	8	0	ok
+domains/physics/quantum-field-theory/qed-vertex-basic-processes.md	how	3	0	ok
+domains/physics/quantum-field-theory/qed-vertex-basic-processes.md	mis	6	0	ok
+domains/physics/quantum-field-theory/regularization-techniques-qft.md	how	4	0	ok	worked: cutoff (1/16pi^2)[ln(Lambda^2/Delta) - 1]
+domains/physics/quantum-field-theory/regularization-techniques-qft.md	mis	6	0	ok
+domains/physics/quantum-field-theory/renormalization-group-qft.md	how	5	0	ok
+domains/physics/quantum-field-theory/renormalization-group-qft.md	mis	8	0	ok
+domains/physics/quantum-field-theory/renormalization-of-qed.md	how	4	0	ok
+domains/physics/quantum-field-theory/renormalization-of-qed.md	mis	8	0	ok
+domains/physics/quantum-field-theory/running-coupling-constants.md	how	4	0	ok
+domains/physics/quantum-field-theory/running-coupling-constants.md	mis	8	0	ok
+domains/physics/quantum-field-theory/running-coupling-constants.md	old:core	1	1	fixed	Core Idea said QED charge is "anti-screened at short distances"; QED screens; now "vacuum polarization screens the charge at long distances"
+domains/physics/quantum-field-theory/s-matrix-scattering-amplitudes.md	how	4	0	ok
+domains/physics/quantum-field-theory/s-matrix-scattering-amplitudes.md	mis	6	0	ok
+domains/physics/quantum-field-theory/spin-statistics-theorem.md	how	4	0	ok	note (old, not fixed): q:1 claims anticommuting scalar gives "all states have zero norm"; doubtful, but not certain enough to edit
+domains/physics/quantum-field-theory/spin-statistics-theorem.md	mis	6	0	ok
+domains/physics/quantum-field-theory/spontaneous-symmetry-breaking-qft.md	how	4	0	ok	worked: (1/2)(2mu^2)h^2 + lambda phi0 h^3 + (lambda/4)h^4
+domains/physics/quantum-field-theory/spontaneous-symmetry-breaking-qft.md	mis	6	0	ok

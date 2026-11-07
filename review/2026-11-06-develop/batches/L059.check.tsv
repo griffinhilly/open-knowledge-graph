@@ -1,0 +1,24 @@
+domains/mathematics/differential-equations/second-order-linear-homogeneous-odes.md	how	4	0	ok	worked: r²−r−2 roots 2,−1; c₁+c₂=1, 2c₁−c₂=0 gives 1/3, 2/3
+domains/mathematics/differential-equations/second-order-linear-homogeneous-odes.md	mis	6	0	ok
+domains/mathematics/differential-equations/separable-differential-equations.md	how	4	0	ok	worked: −1/y = x²/2 − 1 gives y = 2/(2 − x²)
+domains/mathematics/differential-equations/separable-differential-equations.md	mis	8	0	ok
+domains/mathematics/differential-equations/separation-variables-pde.md	how	4	0	ok	worked: u = 3e^(−t)sin x + 5e^(−16t)sin 4x; λ ≤ 0 trivial under X'' = −λX
+domains/mathematics/differential-equations/separation-variables-pde.md	mis	8	0	ok
+domains/mathematics/differential-equations/spring-mass-systems.md	how	4	0	ok	worked: c=2 roots −1±2i; c=2√5 gives c²=4mk; c=10 roots −5±2√5 both negative
+domains/mathematics/differential-equations/spring-mass-systems.md	mis	6	0	ok
+domains/mathematics/differential-equations/spring-mass-systems.md	old:q:4:explanation	1	1	fixed	called c²/(4mk) the damping ratio; damping ratio is ζ = c/(2√(mk)), c²/(4mk) = ζ²
+domains/mathematics/differential-equations/stability-classification.md	how	5	0	ok	worked all four matrices; [[0,1],[0,0]] gives x₁ = c₁ + c₂t
+domains/mathematics/differential-equations/stability-classification.md	mis	8	0	ok
+domains/mathematics/differential-equations/stability-classification.md	q:4:explanation	1	0	ok	note (old, not changed): Core Idea, Explainer and q:4 question stem treat Re(λ)=0 for ALL eigenvalues as necessary for marginal stability; the standard condition is all Re(λ) ≤ 0 with Re(λ)=0 eigenvalues non-defective
+domains/mathematics/differential-equations/systems-of-first-order-linear-odes.md	how	4	0	ok	worked: A(1,−1) = (−1,1) = −1·(1,−1)
+domains/mathematics/differential-equations/systems-of-first-order-linear-odes.md	mis	6	0	ok	note (old): Explainer "one per eigenvalue" ignores defective case
+domains/mathematics/differential-equations/undetermined-coefficients.md	how	4	0	ok	worked: −2Ax − A − 2B = 4x gives A=−2, B=1; (Axe^(2x)) gives 3Ae^(2x)
+domains/mathematics/differential-equations/undetermined-coefficients.md	mis	6	0	ok
+domains/mathematics/differential-equations/unit-step-function.md	how	4	0	ok	worked: transform and checks at t=1 (1) and t=3 (3)
+domains/mathematics/differential-equations/unit-step-function.md	mis	6	0	ok
+domains/mathematics/differential-equations/variation-of-parameters.md	how	4	0	ok	worked: W=1, u₁'=−tan x, u₂'=1
+domains/mathematics/differential-equations/variation-of-parameters.md	mis	6	0	ok
+domains/mathematics/differential-equations/wave-equation-pde.md	how	4	0	ok	worked: g=0 gives φ=ψ=f/2
+domains/mathematics/differential-equations/wave-equation-pde.md	mis	8	0	ok
+domains/mathematics/differential-equations/wronskian-linear-independence.md	how	5	0	ok	worked: W values e^(2rt), β, t²; t,t² solve y'' − (2/t)y' + (2/t²)y = 0, singular at 0
+domains/mathematics/differential-equations/wronskian-linear-independence.md	mis	6	0	ok	checked W[t², t|t|] = 0

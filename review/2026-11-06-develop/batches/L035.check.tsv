@@ -1,0 +1,60 @@
+domains/mathematics/algebraic-topology/borsuk-ulam-theorem.md	how	4	0	ok
+domains/mathematics/algebraic-topology/borsuk-ulam-theorem.md	mis	6	0	ok
+domains/mathematics/algebraic-topology/brouwer-fixed-point-theorem-homological.md	how	4	1	fixed	Exercise said to pick a sample fixed-point-free map of D^2, which does not exist; now uses a few points with made-up values f(x) != x. Old text also fixed: Q2 (index 2) explanation claimed f(x) lies in the interior, contradicting the new misconception bullet.
+domains/mathematics/algebraic-topology/brouwer-fixed-point-theorem-homological.md	mis	8	0	ok
+domains/mathematics/algebraic-topology/cellular-homology.md	how	5	0	ok	Worked torus, Klein bottle (abab^-1 gives 2a), RP^2: all check.
+domains/mathematics/algebraic-topology/cellular-homology.md	mis	6	0	ok
+domains/mathematics/algebraic-topology/chain-complexes-boundary-operator.md	how	4	0	ok
+domains/mathematics/algebraic-topology/chain-complexes-boundary-operator.md	mis	8	0	ok
+domains/mathematics/algebraic-topology/chain-homotopy-equivalence.md	how	3	0	ok
+domains/mathematics/algebraic-topology/chain-homotopy-equivalence.md	mis	6	0	ok	Old Explainer fixed: L(7,1) and L(7,2) ARE homotopy equivalent (2 is a square mod 7); replaced with L(5,1), L(5,2).
+domains/mathematics/algebraic-topology/cochain-complexes-cohomology.md	how	4	0	ok
+domains/mathematics/algebraic-topology/cochain-complexes-cohomology.md	mis	6	0	ok
+domains/mathematics/algebraic-topology/cup-product.md	how	4	0	ok	Worked the two-triangle torus: alpha cup beta evaluates to 1 on the fundamental cycle.
+domains/mathematics/algebraic-topology/cup-product.md	mis	6	0	ok	Old Q3 explanation fixed: "no ring homomorphism" -> "no degree-preserving ring isomorphism" (homomorphisms exist).
+domains/mathematics/algebraic-topology/cw-complexes.md	how	3	0	ok
+domains/mathematics/algebraic-topology/cw-complexes.md	mis	6	0	ok	Old Q3 answer fixed: "14 triangles" -> 14 simplices (4+6+4).
+domains/mathematics/algebraic-topology/degree-theory-maps-spheres.md	how	4	0	ok
+domains/mathematics/algebraic-topology/degree-theory-maps-spheres.md	mis	6	0	ok	Old Q0 and Q2 explanations had writing-process artifacts ("Wait — actually", "actually the correct statement is"); cleaned. Old Explainer Brouwer sentence and Q3 last sentence still garbled, not fixed.
+domains/mathematics/algebraic-topology/delta-complexes.md	how	4	0	ok	Worked torus (both triangles a+b-c) and Klein bottle with one b reversed (orderings exist; H_1 = Z + Z/2).
+domains/mathematics/algebraic-topology/delta-complexes.md	mis	6	0	ok
+domains/mathematics/algebraic-topology/euler-characteristic-homology.md	how	4	0	ok
+domains/mathematics/algebraic-topology/euler-characteristic-homology.md	mis	8	0	ok
+domains/mathematics/algebraic-topology/exact-sequences-homological-algebra.md	how	4	0	ok
+domains/mathematics/algebraic-topology/exact-sequences-homological-algebra.md	mis	6	0	ok
+domains/mathematics/algebraic-topology/excision-theorem.md	how	4	0	ok
+domains/mathematics/algebraic-topology/excision-theorem.md	mis	6	0	ok
+domains/mathematics/algebraic-topology/five-lemma.md	how	4	1	fixed	Told reader to list the injectivity hypotheses (beta, delta, alpha) right after the short five lemma, whose labels in this file differ; now says to prove the full five lemma with maps alpha..epsilon first.
+domains/mathematics/algebraic-topology/five-lemma.md	mis	6	0	ok	Old text fixed: Core Idea said "four of the five maps" (contradicts new bullet 3) and gave wrong injectivity hypotheses; Q0 explanation dropped delta/beta; Q1 question wording; Q2 answer was true but the five lemma holds for nonabelian groups -> false, explanation rewritten.
+domains/mathematics/algebraic-topology/higher-homotopy-groups.md	how	4	0	ok
+domains/mathematics/algebraic-topology/higher-homotopy-groups.md	mis	6	0	fixed	Precision only: "Maps S^n -> X cannot be composed" -> "cannot in general" (they can when X = S^n). Old text fixed: Q3/Q4 explanations and Explainer claimed homotopy groups determine the homotopy type; corrected with S^2 x RP^3 vs RP^2 x S^3.
+domains/mathematics/algebraic-topology/homology-of-spheres.md	how	3	0	ok
+domains/mathematics/algebraic-topology/homology-of-spheres.md	mis	6	0	ok	Old Q0 explanation said H_1 = 0 means S^3 is simply connected, contradicting new bullet 3; fixed.
+domains/mathematics/algebraic-topology/homology-with-coefficients.md	how	4	0	ok
+domains/mathematics/algebraic-topology/homology-with-coefficients.md	mis	6	0	ok	Old text contradicted the new How (Z/2 gives Z/2 in every degree): Q1 claimed Tor vanishes for every field; restricted to characteristic 0. Q3 answer and Explainer claimed mod-p homology recovers full torsion (Z/2 vs Z/4 fails); fixed. Explainer field paragraph fixed.
+domains/mathematics/algebraic-topology/homotopy-exact-sequence-fibration.md	how	4	0	ok
+domains/mathematics/algebraic-topology/homotopy-exact-sequence-fibration.md	mis	6	0	ok
+domains/mathematics/algebraic-topology/hurewicz-theorem.md	how	4	0	ok
+domains/mathematics/algebraic-topology/hurewicz-theorem.md	mis	6	0	ok	Old Q2 answer key wrong: acyclic CW complex need not be contractible; answer 0 -> 1, explanation cleaned ("quotients of trees" replaced by punctured Poincare sphere).
+domains/mathematics/algebraic-topology/jordan-curve-theorem-homological.md	how	4	0	fixed	Clarity only: the MV step switched from S^n to S^2 mid-sentence; added "For n = 2 this gives".
+domains/mathematics/algebraic-topology/jordan-curve-theorem-homological.md	mis	6	0	ok	Old Q2 fixed: Alexander duality needs reduced H_k (and locally contractible K for singular cohomology); explanation used H~^0(S^1) instead of H~^1(S^1).
+domains/mathematics/algebraic-topology/kunneth-formula.md	how	4	0	ok	Worked RP^2 x RP^2: H_2 = Z/2 from tensor, H_3 = Z/2 from Tor. Correct.
+domains/mathematics/algebraic-topology/kunneth-formula.md	mis	6	0	ok	Old Q2 answer key wrong (said Tor gives H_2 torsion, contradicting new How) and had "let me recompute" artifact; answer 2 -> 1, option and explanation rewritten.
+domains/mathematics/algebraic-topology/lefschetz-fixed-point-theorem.md	how	5	0	ok	Worked A = [[2,1],[1,1]]: L = -1. Correct.
+domains/mathematics/algebraic-topology/lefschetz-fixed-point-theorem.md	mis	6	0	ok	Old Q0 had two correct options (both L = 4); option 0 changed to L = 3. Old Explainer converse parenthetical was nonsense; replaced with identity of the torus.
+domains/mathematics/algebraic-topology/mayer-vietoris-sequence.md	how	4	0	ok	Worked Klein bottle: Z^2/(2,-2) = Z + Z/2, connecting map zero. Correct.
+domains/mathematics/algebraic-topology/mayer-vietoris-sequence.md	mis	6	1	fixed	Dropped qualifier: closed pieces need neighborhoods U, V with U cap V deformation retracting onto A cap B, not just each piece a neighborhood deformation retract. Old Q0 explanation index off by one (H_{n+1}(X) -> H_n(A cap B)); fixed.
+domains/mathematics/algebraic-topology/poincare-duality.md	how	4	0	ok
+domains/mathematics/algebraic-topology/poincare-duality.md	mis	6	0	ok	Old Q2 answer was true while its explanation argued it is not a violation; answer -> false, last sentence fixed.
+domains/mathematics/algebraic-topology/relative-homology-long-exact-sequence.md	how	4	0	ok	Worked (S^1, two points): H_1 = Z^2 matches wedge of two circles.
+domains/mathematics/algebraic-topology/relative-homology-long-exact-sequence.md	mis	6	0	ok
+domains/mathematics/algebraic-topology/simplicial-complexes.md	how	4	0	ok	3x3 grid torus: 9-27+18, valid simplicial complex. Correct.
+domains/mathematics/algebraic-topology/simplicial-complexes.md	mis	6	0	ok	Old Q2 explanation said non-locally-Euclidean spaces cannot be triangulated (false); changed to non-locally-contractible, e.g. Hawaiian earring.
+domains/mathematics/algebraic-topology/simplicial-homology-groups.md	how	4	0	ok
+domains/mathematics/algebraic-topology/simplicial-homology-groups.md	mis	6	0	ok	Old Q3 and Explainer tie torsion to non-orientability too generally (lens spaces are orientable with torsion); not fixed.
+domains/mathematics/algebraic-topology/singular-cohomology.md	how	4	0	ok
+domains/mathematics/algebraic-topology/singular-cohomology.md	mis	6	0	ok	Old Q3 explanation says trivial ring is "specific to spheres" (S^2 v S^4 also); not fixed.
+domains/mathematics/algebraic-topology/singular-homology-groups.md	how	4	0	ok
+domains/mathematics/algebraic-topology/singular-homology-groups.md	mis	6	0	ok
+domains/mathematics/algebraic-topology/singular-simplices-singular-chains.md	how	5	0	fixed	Precision only: constant-simplex boundary rule needs n >= 1 (n = 0 boundary is 0). Worked the gamma + reverse-gamma boundary construction: correct.
+domains/mathematics/algebraic-topology/singular-simplices-singular-chains.md	mis	6	0	fixed	Precision only: reverse path equals -gamma "modulo boundaries" rather than "in homology" (gamma need not be a cycle).

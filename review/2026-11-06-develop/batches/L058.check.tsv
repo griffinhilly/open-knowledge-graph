@@ -1,0 +1,71 @@
+domains/mathematics/differential-equations/autonomous-equations.md	how	3	0	ok
+domains/mathematics/differential-equations/autonomous-equations.md	mis	8	0	ok
+domains/mathematics/differential-equations/bessel-functions.md	how	3	1	fixed	Separating variables in Laplace's equation in polar coordinates gives a Cauchy-Euler equation, not Bessel's; changed to the Helmholtz (drumhead) equation with x = λr
+domains/mathematics/differential-equations/bessel-functions.md	mis	8	0	ok
+domains/mathematics/differential-equations/bifurcation-in-odes.md	how	3	0	ok
+domains/mathematics/differential-equations/bifurcation-in-odes.md	mis	6	0	ok
+domains/mathematics/differential-equations/characteristic-equation-method.md	how	3	0	ok
+domains/mathematics/differential-equations/characteristic-equation-method.md	mis	8	0	ok
+domains/mathematics/differential-equations/common-laplace-transforms.md	how	3	0	ok
+domains/mathematics/differential-equations/common-laplace-transforms.md	mis	8	0	ok
+domains/mathematics/differential-equations/complex-roots-oscillatory-solutions.md	how	3	0	ok
+domains/mathematics/differential-equations/complex-roots-oscillatory-solutions.md	mis	6	0	ok
+domains/mathematics/differential-equations/convolution-theorem.md	how	2	0	ok
+domains/mathematics/differential-equations/convolution-theorem.md	mis	6	0	ok
+domains/mathematics/differential-equations/differential-equations-intro.md	how	3	0	ok
+domains/mathematics/differential-equations/differential-equations-intro.md	mis	8	0	ok
+domains/mathematics/differential-equations/dirac-delta-function.md	how	3	0	ok
+domains/mathematics/differential-equations/dirac-delta-function.md	mis	6	0	ok
+domains/mathematics/differential-equations/even-odd-extensions-fourier.md	how	4	0	ok
+domains/mathematics/differential-equations/even-odd-extensions-fourier.md	mis	6	0	ok
+domains/mathematics/differential-equations/exact-differential-equations.md	how	3	0	ok
+domains/mathematics/differential-equations/exact-differential-equations.md	mis	6	0	ok
+domains/mathematics/differential-equations/exact-differential-equations.md	old:q:3	1	0	ok	Note only, not edited: "can generally be made exact by an integrating factor" is keyed false, but an integrating factor exists locally under mild conditions; the item conflates existence with findability
+domains/mathematics/differential-equations/existence-uniqueness-ode.md	how	3	0	ok
+domains/mathematics/differential-equations/existence-uniqueness-ode.md	mis	6	0	ok
+domains/mathematics/differential-equations/first-order-linear-odes.md	how	3	0	ok
+domains/mathematics/differential-equations/first-order-linear-odes.md	mis	6	0	ok
+domains/mathematics/differential-equations/first-order-linear-odes.md	old:q:2	1	1	fixed	"P(x) > 0 implies y_h always decays" is false (P = 1/x² has a finite integral); changed the hypothesis to P(x) ≥ k > 0; also softened the matching parenthetical in q:3 explanation
+domains/mathematics/differential-equations/fourier-series-definition.md	how	3	0	ok
+domains/mathematics/differential-equations/fourier-series-definition.md	mis	8	0	ok
+domains/mathematics/differential-equations/fourier-series-definition.md	old:q:0	1	1	fixed	Answer key was (2/L) option; a₁ = (1/L)∫f cos(πx/L) dx under either a₀ convention; answer set to 1 and explanation corrected
+domains/mathematics/differential-equations/fourier-series-definition.md	old:q:1	1	1	fixed	Stem "typically converges to f(x) at most point" is true for piecewise smooth f, yet keyed false; restored to "always converges ... at every point", which matches the key and explanation
+domains/mathematics/differential-equations/frobenius-method.md	how	4	0	ok
+domains/mathematics/differential-equations/frobenius-method.md	mis	6	0	ok
+domains/mathematics/differential-equations/heat-equation-pde.md	how	3	0	ok
+domains/mathematics/differential-equations/heat-equation-pde.md	mis	6	0	ok
+domains/mathematics/differential-equations/higher-order-linear-odes.md	how	3	0	ok
+domains/mathematics/differential-equations/higher-order-linear-odes.md	mis	6	0	ok
+domains/mathematics/differential-equations/integrating-factor-method.md	how	3	0	ok
+domains/mathematics/differential-equations/integrating-factor-method.md	mis	6	0	ok
+domains/mathematics/differential-equations/inverse-laplace-transform.md	how	3	0	ok
+domains/mathematics/differential-equations/inverse-laplace-transform.md	mis	6	1	cut	Bullet 3 ("partial fractions can be skipped if you can guess") was not a misconception: its correction opened "You can"; deleted, 2 bullets remain
+domains/mathematics/differential-equations/laplace-transform-definition.md	how	3	0	ok	Old explainer contains banned word "genuinely" (line 80); left, out of scope
+domains/mathematics/differential-equations/laplace-transform-definition.md	mis	6	0	ok
+domains/mathematics/differential-equations/laplace-transform-of-derivatives.md	how	3	0	ok
+domains/mathematics/differential-equations/laplace-transform-of-derivatives.md	mis	6	0	ok
+domains/mathematics/differential-equations/laplace-transform-of-derivatives.md	old:ex	1	1	fixed	Typo eˡ for eᵗ in the worked example
+domains/mathematics/differential-equations/laplaces-equation.md	how	3	0	ok
+domains/mathematics/differential-equations/laplaces-equation.md	mis	6	0	ok
+domains/mathematics/differential-equations/laplaces-equation.md	old:ex	1	1	fixed	Claimed a Neumann condition determines the solution uniquely; it does so only up to an added constant
+domains/mathematics/differential-equations/legendre-equations.md	how	4	0	ok
+domains/mathematics/differential-equations/legendre-equations.md	mis	6	0	ok
+domains/mathematics/differential-equations/linearization-of-nonlinear-systems.md	how	4	0	ok
+domains/mathematics/differential-equations/linearization-of-nonlinear-systems.md	mis	6	0	ok
+domains/mathematics/differential-equations/matrix-exponential-method.md	how	3	0	ok
+domains/mathematics/differential-equations/matrix-exponential-method.md	mis	6	0	ok
+domains/mathematics/differential-equations/ordinary-and-singular-points.md	how	3	0	ok
+domains/mathematics/differential-equations/ordinary-and-singular-points.md	mis	6	0	ok
+domains/mathematics/differential-equations/phase-portraits-linear-systems.md	how	3	0	ok
+domains/mathematics/differential-equations/phase-portraits-linear-systems.md	mis	6	0	ok
+domains/mathematics/differential-equations/phase-portraits-linear-systems.md	old:ex	1	1	fixed	Said defective (Jordan) nodes "spiral mildly"; they bend toward the single eigenvector without spiraling
+domains/mathematics/differential-equations/power-series-solutions.md	how	4	0	ok
+domains/mathematics/differential-equations/power-series-solutions.md	mis	6	0	ok
+domains/mathematics/differential-equations/power-series-solutions.md	old:ex	1	1	fixed	"Simple harmonic oscillator with non-constant forcing" listed as a variable-coefficient ODE (forcing is not a coefficient); replaced with Airy's equation
+domains/mathematics/differential-equations/power-series-solutions.md	old:q:1	1	1	fixed	Garbled "e₊" restored to eˣ
+domains/mathematics/differential-equations/repeated-roots-reduction-of-order.md	how	4	0	ok
+domains/mathematics/differential-equations/repeated-roots-reduction-of-order.md	mis	6	0	ok
+domains/mathematics/differential-equations/repeated-roots-reduction-of-order.md	old:ex	1	1	fixed	"w'' = 0, so w is constant" is wrong (w'' = 0 gives linear w); the reduced equation is v'' = 0, i.e. w' = 0
+domains/mathematics/differential-equations/resonance-and-damping.md	how	3	0	ok
+domains/mathematics/differential-equations/resonance-and-damping.md	mis	6	0	ok
+domains/mathematics/differential-equations/resonance-and-damping.md	old:ex	1	1	fixed	Tacoma Narrows presented as resonance; the accepted cause is aeroelastic flutter, now stated

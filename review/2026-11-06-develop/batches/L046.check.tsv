@@ -1,0 +1,58 @@
+domains/physics/general-relativity/adm-formalism.md	how	4	0	ok
+domains/physics/general-relativity/adm-formalism.md	mis	8	0	ok
+domains/physics/general-relativity/black-hole-thermodynamics.md	how	4	0	ok	worked: integrating first law gives S = 4πGkM²/(ħc), matches kA/(4l_P²); T_H(M_sun) ≈ 6.2e-8 K
+domains/physics/general-relativity/black-hole-thermodynamics.md	mis	8	0	ok
+domains/physics/general-relativity/black-holes-schwarzschild.md	how	4	0	ok	worked: 2GML/r_s³ = Lc⁶/(4G²M²)
+domains/physics/general-relativity/black-holes-schwarzschild.md	mis	8	0	ok
+domains/physics/general-relativity/christoffel-symbols.md	how	4	0	ok	worked: Euler-Lagrange equations give Γ^r_θθ = −r, Γ^θ_rθ = 1/r
+domains/physics/general-relativity/christoffel-symbols.md	mis	6	0	ok
+domains/physics/general-relativity/cosmological-constant-dark-energy.md	how	4	0	ok	worked: Λc⁴/(8πG) ≈ 5e-10 J/m³ for Λ ≈ 1.1e-52
+domains/physics/general-relativity/cosmological-constant-dark-energy.md	mis	8	0	ok
+domains/physics/general-relativity/curved-spacetime-metric-tensor.md	how	3	0	ok	worked: gh/c² ≈ 1.1e-13 for h = 1 km
+domains/physics/general-relativity/curved-spacetime-metric-tensor.md	mis	8	0	ok
+domains/physics/general-relativity/einstein-field-equations.md	how	5	0	ok	worked: trace-reversed 00 component = 4πGρ/c², R_00 ≈ ∇²Φ/c² gives Poisson; vacuum step assumes Λ = 0, consistent with the trace-reversed form used
+domains/physics/general-relativity/einstein-field-equations.md	mis	8	0	ok
+domains/physics/general-relativity/equivalence-principle.md	how	4	0	ok	worked: gh/c² = 2.45e-15 for h = 22.5 m
+domains/physics/general-relativity/equivalence-principle.md	mis	6	0	ok	ISS altitude g ≈ 0.88 g₀, "roughly 90%" fine. Older Core Idea labels the strong form "(Einstein)", which conflates SEP and EEP; noted, not edited
+domains/physics/general-relativity/frame-dragging.md	how	4	1	fixed	Earth's J is 5.9e33 kg·m²/s, not 7e33; changed to 6e33. Rate GJ/(c²r³) ≈ 1.3e-14 rad/s ≈ 80 mas/yr, so "about 1e-14" and "tens of mas/yr" still hold
+domains/physics/general-relativity/frame-dragging.md	mis	8	0	ok	geodetic/LT ratio for GP-B 6606/39.2 ≈ 170 checks
+domains/physics/general-relativity/frame-dragging.md	old:q:3:answer	1	1	fixed	old answer divided by 3.1e25 instead of 3.1e37 and reported 1.5e-2 arcsec/yr (15 mas/yr); corrected arithmetic to ≈1.3e-14 rad/s ≈ 80 mas/yr; question's J changed 7e33 → 6e33 to match
+domains/physics/general-relativity/friedmann-equations.md	how	4	0	ok	worked: Newtonian ball gives (ȧ/a)² = (8πG/3)ρ + 2E/(a²x²)
+domains/physics/general-relativity/friedmann-equations.md	mis	8	0	ok
+domains/physics/general-relativity/geodesic-equation.md	how	4	0	ok	worked: equator and meridians satisfy the 2-sphere EL equations; E and ℓ conserved
+domains/physics/general-relativity/geodesic-equation.md	mis	6	0	ok
+domains/physics/general-relativity/gravitational-energy-pseudo-tensors.md	how	4	0	ok	worked: ADM integrand 4M/r², integral gives M
+domains/physics/general-relativity/gravitational-energy-pseudo-tensors.md	mis	8	0	ok
+domains/physics/general-relativity/gravitational-lensing.md	how	4	0	ok	worked: quadratic roots of β = θ − θ_E²/θ check
+domains/physics/general-relativity/gravitational-lensing.md	mis	8	0	ok
+domains/physics/general-relativity/gravitational-redshift.md	how	4	0	ok	worked: GM/c²(1/R − 1/r) = 5.29e-10, × 86400 s = 45.7 μs/day
+domains/physics/general-relativity/gravitational-redshift.md	mis	8	0	ok
+domains/physics/general-relativity/gravitational-waves.md	how	4	0	ok
+domains/physics/general-relativity/gravitational-waves.md	mis	6	0	ok
+domains/physics/general-relativity/hawking-radiation.md	how	4	0	ok	worked: κ = c⁴/(4GM) in ħκ/(2πck) gives ħc³/(8πGMk)
+domains/physics/general-relativity/hawking-radiation.md	mis	8	0	ok
+domains/physics/general-relativity/kerr-solution.md	how	4	0	ok	worked: M_irr(a = M) = M/√2, 29% extractable
+domains/physics/general-relativity/kerr-solution.md	mis	8	0	ok
+domains/physics/general-relativity/linearized-gravity.md	how	5	0	ok	worked: h̄_00 = −4Φ/c² trace-reverses to h_00 = h_ii = −2Φ/c²
+domains/physics/general-relativity/linearized-gravity.md	mis	8	0	ok
+domains/physics/general-relativity/penrose-diagrams.md	how	4	0	ok	worked: constant-t lines end at (T, R) = (0, π) = i⁰
+domains/physics/general-relativity/penrose-diagrams.md	mis	6	0	ok
+domains/physics/general-relativity/perihelion-precession-mercury.md	how	4	0	ok	worked: linearized orbit gives 6πGM/(a(1−e²)c²); 415 orbits/century
+domains/physics/general-relativity/perihelion-precession-mercury.md	mis	6	0	ok
+domains/physics/general-relativity/ricci-tensor-scalar-curvature.md	how	4	0	ok	worked: R_μν u^μ u^ν = 4π(ρ + 3p) for a perfect fluid
+domains/physics/general-relativity/ricci-tensor-scalar-curvature.md	mis	6	0	ok
+domains/physics/general-relativity/riemann-curvature-tensor.md	how	4	0	ok	worked: octant holonomy π/2 = area/a²; tidal +2GM/r³ radial, −GM/r³ transverse
+domains/physics/general-relativity/riemann-curvature-tensor.md	mis	6	0	ok
+domains/physics/general-relativity/robertson-walker-metric.md	how	4	0	ok
+domains/physics/general-relativity/robertson-walker-metric.md	mis	8	0	ok
+domains/physics/general-relativity/schwarzschild-solution.md	how	4	0	ok	r_s Sun 2.95 km, Earth 8.9 mm check
+domains/physics/general-relativity/schwarzschild-solution.md	mis	6	0	ok
+domains/physics/general-relativity/singularity-theorems.md	how	4	0	ok	worked: d(1/θ)/dλ ≥ ½ gives θ → −∞ by λ = 2/|θ₀|
+domains/physics/general-relativity/singularity-theorems.md	mis	8	0	ok
+domains/physics/general-relativity/stress-energy-tensor.md	how	4	0	ok	worked: boosted dust components and trace −ρc² + 3p = 0 check
+domains/physics/general-relativity/stress-energy-tensor.md	mis	8	0	ok
+domains/physics/general-relativity/stress-energy-tensor.md	old:core	1	1	fixed	Core Idea called ρ "the energy density" in T_μν = (ρ + p/c²)u_μu_ν + p g_μν, which is dimensionally inconsistent; now "mass density (energy density divided by c²)", matching the How section's diag(ρc², p, p, p)
+domains/physics/general-relativity/tensor-calculus-gr.md	how	4	0	ok	worked: V^r = 1/√2, V^θ = −1/2, V_θ = −1, V^μV_μ = 1
+domains/physics/general-relativity/tensor-calculus-gr.md	mis	8	0	ok
+domains/physics/general-relativity/tests-of-general-relativity.md	how	4	0	ok	PPN factors (1+γ)/2, (1+γ), (2+2γ−β)/3 check
+domains/physics/general-relativity/tests-of-general-relativity.md	mis	8	0	ok

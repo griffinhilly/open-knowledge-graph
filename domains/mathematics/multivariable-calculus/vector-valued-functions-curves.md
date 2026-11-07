@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 A vector-valued function r(t) = ⟨f(t), g(t), h(t)⟩ traces a curve in space as t varies. The derivative r'(t) is the tangent vector pointing in the direction of motion. Speed is |r'(t)|, and the direction of r'(t) gives the curve's orientation.
 
+## How It's Best Learned
+Work one helix fully: r(t) = ⟨cos t, sin t, t⟩. Mark the points at t = 0, π/2, π and sketch the curve. Compute r'(t) = ⟨−sin t, cos t, 1⟩, draw r'(0) = ⟨0, 1, 1⟩ with its tail at (1, 0, 0), and check that the speed is √2 at every t. Then compare r(2t) to see the same curve traced faster.
+
+## Common Misconceptions
+- The curve is a graph of r plotted against t. (The curve is the set of points the tip of r(t) visits. The parameter t does not appear as an axis.)
+- Two different formulas must give two different curves. (⟨t, t²⟩ and ⟨2t, 4t²⟩ both trace the parabola y = x², at different speeds.)
+- The vector r'(t) starts at the origin. (It is drawn with its tail at the point r(t), where it is tangent to the curve.)
+- A curve with a smooth-looking formula has a tangent direction at every point. (Where r'(t) = 0 the tangent direction can fail; r(t) = ⟨t², t³⟩ has r'(0) = 0 and a cusp at the origin.)
+
 ## Questions
 
 ```yaml
