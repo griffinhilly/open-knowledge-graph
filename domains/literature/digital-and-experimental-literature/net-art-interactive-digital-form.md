@@ -21,6 +21,14 @@ status: draft
 ## Core Idea
 Net art encompasses works created for and distributed through the internet, often merging textual and narrative elements with visual and interactive components. These works treat literature as experimental medium alongside code and form, suggesting how contemporary literature increasingly intersects with digital art practice.
 
+## How It's Best Learned
+Close-read one text-based net artwork in three passes: first the words alone, then the visual design, then its behavior as you click, wait, scroll and resize. Write one sentence about meaning after each pass. Then ask which pass the work could lose and still be itself. That question shows how tightly the three layers are bound.
+
+## Common Misconceptions
+- Net art is a visual form, so literary tools do not apply. (Many net artworks carry narrative, voice and wordplay, and reading them closely as text is part of analyzing them.)
+- A screenshot or screen recording preserves a net artwork. (A capture keeps one path through the work but loses its interactivity, its live behavior and its response to the viewer.)
+- Net art is any existing artwork moved onto the internet. (Net art is made for the network and uses its affordances, such as links, live data and server-side processing, as part of its form.)
+
 ## Questions
 
 ```yaml
@@ -56,6 +64,7 @@ Net art encompasses works created for and distributed through the internet, ofte
 
 - question: Explain how net art represents a convergence of literary, visual, and computational practices, and discuss what this reveals about disciplinary boundaries in contemporary artistic practice.
   type: short-answer
+  answer: Net art combines narrative text, visual design and code-driven behavior into one work that no single discipline can fully describe. This suggests that boundaries between literature, visual art and computation are historically contingent, and that reading such works needs hybrid literacy.
   explanation: 'Convergence: Net art integrates narrative (literary), visual aesthetics, and code (computational logic) into works that cannot be reduced to any single discipline. A net art work might have narrative content (literary), visual design (visual art), and interactive behavior determined by code (computation). None of these aspects is auxiliary; all constitute the work. What this reveals: (1) Disciplinary boundaries (literature, visual art, code) are historically contingent, not essential; (2) Contemporary artistic practice increasingly requires hybrid literacy—understanding language, image, and code; (3) The internet as a medium creates affordances that naturally merge disciplines (code displays as visual/textual interface); (4) Critical practice must develop vocabulary for hybrid forms that don''t fit traditional categories. This suggests that future artistic literacy will require simultaneous fluency in multiple registers: linguistic, visual, computational. Net art pioneers this convergence.'
 ```
 

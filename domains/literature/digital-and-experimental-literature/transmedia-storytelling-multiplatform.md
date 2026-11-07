@@ -24,6 +24,14 @@ status: draft
 ## Core Idea
 Transmedia storytelling extends narrative worlds across multiple platforms—film, television, comics, games, novels, social media. Each medium contributes unique story elements; total narrative requires platform engagement. This form fosters participatory fandom as audiences collectively construct meaning across dispersed texts.
 
+## How It's Best Learned
+Pick one open question in a multi-platform story world, such as a character's origin, and trace every official source that answers part of it. Then open a fan wiki entry on the same question and check which platform each claim comes from. This shows both how the narrative is dispersed and how fans do the work of assembling it.
+
+## Common Misconceptions
+- Fans assembling a transmedia story are writing fan fiction. (Assembling means gathering and connecting official content spread across platforms. Fan fiction creates new, unofficial content, which is a different kind of participation.)
+- Dispersing a story across platforms makes every audience member more engaged. (Audiences who follow one platform can miss pieces or find gaps, so designers need to balance rewards for deep followers against clarity for casual ones.)
+- Because the pieces belong to one story world, they always fit together. (Different studios, publishers and developers can produce content that conflicts, and fans often debate which sources count as canon.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +67,7 @@ Transmedia storytelling extends narrative worlds across multiple platforms—fil
 
 - question: Explain how transmedia storytelling transforms audiences from 'consumers' to 'collaborators.' What changes in the audience's role and experience?
   type: short-answer
+  answer: Because the story is spread across platforms, audiences must seek out pieces, compile them, share discoveries and theorize connections. Their role shifts from receiving a finished story to assembling and interpreting it with other fans, which makes them co-producers of meaning.
   explanation: 'In traditional narrative, audiences are consumers: they receive a complete story from an author/studio. The narrative is finished; their role is to interpret and enjoy. In transmedia, audiences are collaborators: they actively hunt content across platforms, compile information, discuss theories. The narrative is dispersed; fans must assemble it. This changes audience experience from passive reception to active participation. Fans feel like they are discovering the story, not receiving it. They are co-authors of meaning—not in the sense of creating the original content, but in assembling and interpreting dispersed elements. This creates deeper engagement and community: fans bond through shared hunting, discussing what they''ve found, theorizing connections. The collaboration makes audiences active producers of meaning rather than passive consumers of finished products.'
 ```
 

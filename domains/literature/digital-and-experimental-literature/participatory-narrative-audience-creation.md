@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Participatory narratives invite audiences to contribute to story creation, transforming readers into active authors. These forms challenge authorship, copyright, and narrative authority while exploring how collective creation generates meaning. Platform design constrains and shapes how audiences participate, making technical structures inseparable from narrative possibilities.
 
+## How It's Best Learned
+Run a round-robin story with a small group twice, from the same opening line, under two rule sets. In the first, anyone may add any sentence. In the second, each addition is capped at 30 words and the group votes on whether to keep it. Comparing the two stories shows directly how platform rules shape what a collective narrative becomes.
+
+## Common Misconceptions
+- Picking a path in a branching story makes the reader a co-author. (Choosing among options the author has written is interaction. Participatory narrative means audiences contribute new content to the story.)
+- A participatory narrative has no author. (Someone still sets the premise, the platform and the rules for contribution and moderation, and those choices shape the story indirectly.)
+- Collective storytelling started with the internet. (Shared storytelling is much older, from oral traditions to parlor games such as exquisite corpse. Digital platforms change the scale and the rules of participation.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Participatory narratives invite audiences to contribute to story creation, trans
 
 - question: Explain how participatory narrative challenges traditional concepts of authorship and artistic control, and discuss what this reveals about the relationship between participation and meaning-making.
   type: short-answer
+  answer: Participatory narrative spreads authorship across many contributors, so no single person controls the story's direction, and the designer controls it only indirectly through platform rules. This shows that meaning can be made collectively and relationally, and that participation changes how people invest in a story.
   explanation: 'Challenge to authorship: Traditional literature assumes a singular author controlling the narrative vision. Participatory narratives distribute authorship across multiple contributors. No single person controls the direction; meaning emerges from collective decisions. Challenges control: Authors of participatory platforms must relinquish control over narrative direction. They set initial conditions and platforms; contributors determine outcomes. What this reveals: (1) Meaning-making is not exclusively individual—collective contribution can generate coherent, meaningful narratives; (2) Authorship is relational, not individual—meaning emerges from negotiation among contributors; (3) Platform design is curatorial—by shaping affordances (voting, submission systems, moderation), platform designers indirectly shape narratives; (4) Participation changes how people engage with stories—contributors develop different investments in narratives they help create. Example: A participatory narrative might have 1,000 contributors adding scenes, characters, and plot developments. The resulting narrative has no single author but emerges from collective creativity. Who should be credited? Who owns the copyright? How do we evaluate quality when no single vision controls it? These questions force reconceptualization of how authorship, creativity, and meaning-making work.'
 ```
 

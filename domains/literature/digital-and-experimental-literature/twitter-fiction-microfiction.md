@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Twitter fiction uses social media constraints and affordances as formal conditions. Works include serialized narratives across days (Twitter novels), standalone flash fiction within single tweets, and collaborative narratives built through retweets. The form engages real-time audiences, exploiting hashtags and @mentions, collapsing literary production and distribution.
 
+## How It's Best Learned
+Read one serialized Twitter story twice: first as followers met it, tweet by tweet with timestamps and replies, then as a compiled block of text. List what the compiled version loses, such as the waiting, the audience replies, and the tweets from others that interrupted it. Then write a single-tweet story and a five-tweet version of the same idea and compare the compression.
+
+## Common Misconceptions
+- Twitter fiction is ordinary short fiction cut into tweet-sized pieces. (The form is built around platform features such as hashtags, mentions, retweets and timed release, which shape how the story is structured and read.)
+- Every Twitter story is improvised live. (Some works are drafted in full and released on a schedule. Real-time response is a possibility the platform opens, and authors choose how far to use it.)
+- The character limit has always been 280. (The limit was 140 characters until late 2017, so earlier Twitter fiction was written under a tighter constraint.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Twitter fiction uses social media constraints and affordances as formal conditio
 
 - question: Explain what it means for Twitter fiction to be 'participatory' and real-time, and how these characteristics change what narrative can be
   type: short-answer
+  answer: Participatory means audiences can extend, answer and spread the story through retweets, mentions and hashtags. Real-time means the author publishes as the audience reads and can respond to feedback and events, so the narrative becomes ongoing and shared instead of finished before anyone reads it.
   explanation: 'Participatory means audiences can contribute: retweeting extends distribution, @mentions invite response, hashtags enable community. Real-time means works respond to current events and audience feedback instantaneously. This changes narrative from fixed, authored creation to responsive, participatory, real-time collaboration. A Twitter novelist can write in response to audience suggestions, world events, trending topics. The narrative evolves through interaction with audiences. This is fundamentally different from traditional literature where authorship is complete before audience encounter. Real-time participatory narrative blurs author/audience distinction and makes narrative ongoing rather than concluded.'
 ```
 

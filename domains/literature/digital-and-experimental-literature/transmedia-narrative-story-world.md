@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Transmedia narratives extend coherent story worlds across multiple media platforms, using each medium's affordances to tell distinct narrative aspects. Rather than simple adaptation, transmedia works require multi-platform engagement for complete narrative understanding, challenging assumptions about literature as a single-medium form.
 
+## How It's Best Learned
+Choose one multi-platform story world and build a grid: rows for world elements (main plot, backstory, geography, rules of the world, minor characters) and columns for each medium. Fill in which medium carries which element. Cells where the same content repeats show adaptation, and cells only one medium fills show transmedia extension.
+
+## Common Misconceptions
+- Any franchise with films, books and games is transmedia. (Many franchises retell the same story in each medium, which is adaptation. Transmedia requires each medium to add something the others do not contain.)
+- In transmedia, each piece is a fragment that makes no sense alone. (Each piece can often be enjoyed on its own. Engaging with several of them gives fuller understanding of the shared world.)
+- Transmedia storytelling spreads a plot across media. (Much of what gets distributed is the world itself: its history, places, rules and secondary characters, beyond any single plotline.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Transmedia narratives extend coherent story worlds across multiple media platfor
 
 - question: Explain how transmedia narrative challenges traditional assumptions about authorship and medium-specificity, and discuss what this reveals about contemporary storytelling.
   type: short-answer
+  answer: Transmedia treats each medium as a tool for particular effects rather than as a fixed essence, and it needs teams of specialists, so single authorship gives way to collaboration. This shows that contemporary storytelling is distributed across platforms and that audiences are expected to read across media.
   explanation: 'Challenge to medium-specificity: Traditionally, we assume each medium has essential properties—literature is words on page, film is moving images, games are interactive systems. Transmedia suggests these essences are contingent. The ''same'' narrative distributed across media reveals that no medium is essential for storytelling; rather, each medium is a tool for particular narrative effects. Challenge to authorship: A transmedia work requires multiple authors (novelist, screenwriter, game designer). Traditional concepts of singular authorship break down. Meaning emerges from authorial collaboration across platforms. What it reveals: (1) Narrative is independent of medium—the ''same'' story can be told differently in film, prose, games; (2) Different media are complementary, not competitive—each offers distinct possibilities; (3) Contemporary audiences are literate across media—they navigate multiple platforms seeking narrative; (4) Authorship is increasingly distributed across media specialists and platforms. Example: A transmedia franchise might have: novels exploring character psychology, films showing action sequences, games offering player agency in decision-making, webcomics revealing social relationships. Each contributes to narrative understanding. No single platform is sufficient. This suggests storytelling is becoming increasingly multi-platform and audiences increasingly multi-literate.'
 ```
 

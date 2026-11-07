@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Visual poetry makes spatial arrangement on the page integral to poetic meaning rather than secondary to language. White space, lineation, font choices, and positioning create meaning through visual codes rather than linguistic progression alone, challenging the separation of visual and linguistic dimensions of poetry.
 
+## How It's Best Learned
+Retype a visual poem as plain left-aligned lines in a standard font and compare it with the original, listing each meaning the retyped version loses. Then take a short conventional poem and lay it out on the page two different ways, changing only spacing and position. Reading both layouts side by side shows white space and placement doing semantic work.
+
+## Common Misconceptions
+- Visual poetry means poems shaped like a picture of their subject. (Shaped poems are one kind. Visual poetry also works through scattered placement, white space, fragmentation and typography without forming any image.)
+- Visual poetry is a modern or digital invention. (Shaped poems are centuries old, such as George Herbert's 'Easter Wings'. Digital tools added new possibilities like color, motion and interactivity.)
+- Reading a visual poem aloud gives you the whole poem. (Spoken aloud, the poem loses its spatial meaning, and some visual poems have no single reading order to speak.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Visual poetry makes spatial arrangement on the page integral to poetic meaning r
 
 - question: Explain how visual poetry challenges the assumption that writing is a purely linguistic medium and discuss what this reveals about the nature of poetry and literature.
   type: short-answer
+  answer: Visual poetry treats spatial arrangement, typography and white space as part of the poem's meaning, so the page itself becomes a compositional space. This shows that writing has always been visual as well as linguistic, and that reading poetry needs visual literacy alongside linguistic literacy.
   explanation: 'Challenge: Writing is often theorized as a linguistic medium—the visual is merely a vehicle for language. Visual poetry insists the visual is not secondary but primary meaning-making. The poem is not the language; it is the page. Spatial arrangement, typography, white space are not decorative but constitutive. Reveals: (1) Writing is multimedia from the start—visual and linguistic dimensions are inseparable; (2) Conventional poetry backgrounded visual meaning by standardizing typography and spacing, making them seem neutral; visual poetry foregrounds what was hidden; (3) Poetry form extends beyond rhythm and meter to include visual form; (4) Readers engage poetry with both linguistic and visual literacy; (5) The page itself is a compositional space, like canvas for visual artists. Example: A conventional poem about isolation uses words to express loneliness. A visual poem about isolation might position scattered words across white space, using spatial arrangement to enact isolation. The second makes explicit what the first achieves linguistically. Visual poetry argues that visual arrangements are not supplementary illustrations but constitute the poem itself.'
 ```
 

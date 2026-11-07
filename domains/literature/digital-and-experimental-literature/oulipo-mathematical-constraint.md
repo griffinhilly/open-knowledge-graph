@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Oulipo (Workshop of Potential Literature) applies mathematical and algorithmic structures to literary composition. Members develop constraints generating vast potential literary output—the N+7 procedure, Queneau's 100,000 Billion Poems. Oulipo's philosophy treats literature as combinatorial exploration, with mathematics enabling rather than diminishing literary meaning.
 
+## How It's Best Learned
+Build a small version of Queneau's sonnet machine: write three four-line stanzas whose lines can be swapped position by position. Count the combinations (3 × 3 × 3 × 3 = 81) and test a few. Making every line fit grammatically and sonically in every slot shows both the combinatorial arithmetic and the craft the structure demands.
+
+## Common Misconceptions
+- Oulipo was a group of mathematicians playing with words. (The group brought together writers and mathematicians, and its constraints served literary aims as much as mathematical ones.)
+- Oulipo methods are random text generators. (Oulipo constraints are deliberate rules applied systematically. A combinatorial work can yield many outcomes, but each follows from the rule rather than from chance.)
+- Once the constraint is set, the writing takes care of itself. (In 100,000 Billion Poems every line has to work grammatically and rhythmically beside every possible neighbor, which makes the writing harder.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Oulipo (Workshop of Potential Literature) applies mathematical and algorithmic s
 
 - question: Explain Oulipo's central philosophical claim that 'mathematics enabling rather than diminishing literary meaning.' Why is this counterintuitive, and what does Oulipo demonstrate?
   type: short-answer
+  answer: The claim is counterintuitive because mathematics seems rule-bound while creativity seems to need freedom. Oulipo shows that structures such as combinatorial frameworks and algorithmic procedures generate large spaces of possible texts, so structure becomes a source of creativity.
   explanation: 'Intuitively, mathematics and creativity seem opposed. Mathematics is rule-based and deterministic; creativity seems to require freedom. Oulipo challenges this dichotomy by showing that constraints can be generative. Mathematical rules don''t limit literary meaning; they structure and enable it. A sonnet''s mathematical structure (14 lines, rhyme scheme) doesn''t diminish meaning; it channels meaning-making. Oulipo extends this: more complex mathematical structures (combinatorial frameworks, algorithmic procedures) generate more complex and voluminous possibility-spaces. What seems like mechanization—applying rules—paradoxically generates creativity. This suggests that creativity is not the opposite of structure but emerges through engagement with structure. Mathematics provides tools for exploring literary possibility. By mathematizing constraints, Oulipo reveals that literature is fundamentally structural and combinatorial. This is liberating: it shows that literary potential is vast, that constraints are generative, and that mathematics is a valid artistic medium.'
 ```
 

@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 N+7 replaces each noun in a text with the noun appearing seven positions after it in a dictionary, producing systematic textual transformation through an algorithmic procedure. This method generates surprising meanings through mechanical rule-following and anticipates computational text processing, demonstrating how systematic constraint generates rather than constrains meaning-making.
 
+## How It's Best Learned
+Apply N+7 by hand to a familiar passage, such as a proverb or a well-known opening line, using a print dictionary. Then run the same passage through a second dictionary of a different size. Setting the two outputs side by side shows that the rule is fixed but its results depend on the word list, and it makes the semantic collisions easy to point to.
+
+## Common Misconceptions
+- N+7 replaces every word in the text. (The standard rule replaces nouns only. Verbs, articles and syntax stay in place, which is why the result still reads as a sentence.)
+- Any N+7 of a given text produces the same output. (The output depends on the dictionary chosen. A larger or smaller dictionary puts different nouns seven entries later.)
+- Because the procedure is mechanical, the writer makes no choices. (The writer still chooses the source text, the dictionary and which results to keep, and those choices shape the finished piece.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ N+7 replaces each noun in a text with the noun appearing seven positions after i
 
 - question: Explain how N+7 functions as both a constraint and a tool for aesthetic exploration, and discuss what this reveals about artistic procedure.
   type: short-answer
+  answer: As a constraint, N+7 takes control of noun choice away from the author by a fixed dictionary rule. As a tool, that same rule produces juxtapositions no author would plan, which shows that procedure and accident can generate meaning alongside intention.
   explanation: 'Constraint: N+7 imposes a strict rule—replace each noun with the next seventh noun in the dictionary. This seems severely limiting; it removes the author''s semantic control. Tool for exploration: This apparent limitation becomes a tool for discovering new meanings. Because nouns are replaced mechanically, unexpected juxtapositions emerge that no author would intentionally create. These accidents often generate surprising insights or beauty. The procedure generates surprise; it generates discovery. What this reveals: (1) Constraint and creativity are not opposed but collaborative—rules can be generative; (2) Authorial intention is not the only source of meaning—accident and procedure can generate meanings; (3) Treating language as formal structure (nouns as dictionary positions rather than semantic units) creates possibilities for manipulation and transformation; (4) Aesthetic value can emerge from mechanical procedure. N+7 shows that artistic practice need not depend on individual genius or intentional control. Rules can be more liberating than constraining.'
 ```
 

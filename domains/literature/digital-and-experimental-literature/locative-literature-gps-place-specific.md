@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Locative literature uses GPS technology to tie narratives to specific geographic locations, with content accessible only when physically present at defined coordinates. This form embeds digital narrative in physical place rather than abstract digital space, creating reading experiences fundamentally shaped by geographic situation and movement.
 
+## How It's Best Learned
+Pick three spots within a short walk of each other and write a fragment for each that only makes sense when read on site. Then walk the route in two different orders and read the fragments in place. Notice how the walking time, the view and the order change the story. Compare that with reading the same fragments at a desk.
+
+## Common Misconceptions
+- In locative literature the place is the setting, the same as in a novel. (In a novel the setting is described in words. In locative literature the reader stands in the real place, so distance, route and surroundings become part of the form.)
+- Locative literature is a screen-based story that happens to use a map. (Many locative works deliver text or audio that the reader takes in while looking at the real surroundings, so the place carries part of the meaning.)
+- Place-specific writing began with GPS. (Texts tied to particular sites, such as inscriptions and guided walks, existed long before GPS. GPS lets a device trigger content automatically at defined coordinates.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Locative literature uses GPS technology to tie narratives to specific geographic
 
 - question: Explain how locative literature represents a shift from abstract digital space to embodied place-based narrative, and discuss what this reveals about how medium shapes meaning-making.
   type: short-answer
+  answer: Locative literature moves narrative off the screen and into real places, so the reader must be physically present and moving to read it. This shows that a narrative's meaning depends on its material conditions, because where and how a story is accessed changes how it means.
   explanation: 'Shift: Conventional digital narrative exists in abstract digital space (on screens, in databases). Locative literature grounds narrative in actual geography—readers must be physically present at real coordinates to access content. This embeds narrative in embodied experience. What it reveals: (1) Narrative meaning is not independent of its material conditions—moving narrative from screens to physical places changes how it is experienced; (2) Place can be a structural narrative element, not merely a setting; (3) Bodies and physical movement can be meaning-making dimensions of literature, not just cognitive interpretation; (4) Digital technology need not be abstract or screen-based—it can be integrated with embodied geography. Example: A locative narrative about a city''s history might have content tied to specific locations where historical events occurred. Visiting those locations—physically standing where something happened—creates a different kind of understanding than reading a historical account. The embodied presence matters. The medium (GPS-based, place-tied) directly shapes the experience. This suggests that form is not independent of materiality—changing where and how we access narrative (abstract digital vs. embodied place) changes what narrative means.'
 ```
 

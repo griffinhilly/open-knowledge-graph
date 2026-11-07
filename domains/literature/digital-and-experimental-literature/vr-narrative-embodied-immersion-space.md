@@ -23,6 +23,14 @@ status: draft
 ## Core Idea
 Virtual reality narrative emphasizes embodied, spatially-immersive storytelling where the reader's presence and movement through 3D space becomes narratively significant. Story meaning emerges through spatial exploration and first-person embodiment rather than external plot observation, creating narrative possibilities distinct from conventional forms.
 
+## How It's Best Learned
+Take a room described in a short story and redesign it as a VR scene on paper: draw a floor plan, mark where the visitor enters, place three objects that carry the story, and decide how light or sound draws the eye. Then have a partner talk through where they would look and walk. Gaps between your plan and their path show the core design problem of spatial storytelling.
+
+## Common Misconceptions
+- VR narrative is a 360-degree film. (In 360-degree video the viewer can usually look around but not move or act. Many VR narratives let the visitor walk, handle objects and trigger events.)
+- In VR the creator cannot control what the visitor notices. (Creators lack a camera frame, but they guide attention with sound, light, motion and the layout of space.)
+- Being inside the story makes the visitor its protagonist. (The visitor's role has to be designed. A VR piece may cast them as a character, a witness or an unseen presence, and each role changes the story's effect.)
+
 ## Questions
 
 ```yaml
@@ -58,6 +66,7 @@ Virtual reality narrative emphasizes embodied, spatially-immersive storytelling 
 
 - question: Explain how VR narrative represents a shift from narrative as external observation to narrative as embodied inhabitation, and discuss what this reveals about how medium shapes narrative possibility.
   type: short-answer
+  answer: Literature and film place the audience outside the story world as observers, while VR places the visitor inside it as a body that perceives and moves. Effects such as scale, vulnerability and claustrophobia are then felt rather than described, which shows that a medium sets which narrative effects are possible.
   explanation: 'External observation: Traditional narrative (literature, film) positions the reader/viewer outside the narrative world. We observe characters, events, and spaces externally. The narrator or camera provides perspective from which we watch. Embodied inhabitation: VR positions the reader inside the space. You occupy a body; you perceive through first-person perspective; you can move around and explore. The environment is not external to you but surrounds you. What this reveals: (1) Narrative experience depends on position—where you stand relative to the story world matters profoundly; (2) Embodiment creates distinct narrative effects—physical vulnerability, sense of scale, disorientation, immersion feel different than observation; (3) Spatial navigation becomes narrative method—players discover story through exploring rather than through exposition; (4) Medium directly constrains narrative form—some effects are possible only in embodied 3D space. Example: A traditional narrative describes a claustrophobic space through description and character response. VR creates claustrophobia through physical experience—narrow walls, low ceiling, limited movement space. The body experiences what words describe. This physical understanding is available only in embodied form. Medium (VR) enables narrative effects impossible in external observation (literature, film).'
 ```
 

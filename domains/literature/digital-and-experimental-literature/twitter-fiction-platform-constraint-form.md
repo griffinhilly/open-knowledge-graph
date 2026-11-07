@@ -23,6 +23,14 @@ status: draft
 ## Core Idea
 Twitter fiction exploits the Twitter platform's formal constraints and affordances to create serialized micro-narratives. Character limits, threading, retweets, and replies become narrative structures themselves, demonstrating how platform-specific constraints generate literary forms while highlighting how social media platforms shape contemporary writing.
 
+## How It's Best Learned
+Take a 100-word flash story and cut it to fit one tweet, noting what you dropped first. Then turn it into a five-tweet thread in which each tweet still makes sense if it is retweeted alone. The two rewrites show the two pressures of the form: compression inside the character limit, and installments that have to work both in sequence and out of it.
+
+## Common Misconceptions
+- Twitter fiction is flash fiction that happens to be posted online. (Flash fiction usually runs to hundreds of words and is read as one complete text. Twitter fiction is shaped by the character limit, threading and replies that can arrive between installments.)
+- Readers meet a Twitter story in the order the author posted it. (Tweets can surface out of order or alone in timelines and retweets, so writers often make each installment work on its own.)
+- A platform's constraints are fixed, like a sonnet's. (Platforms change their rules, as when the limit rose from 140 to 280 characters, so a platform-native form shifts when the platform does.)
+
 ## Questions
 
 ```yaml
@@ -58,6 +66,7 @@ Twitter fiction exploits the Twitter platform's formal constraints and affordanc
 
 - question: Explain how Twitter fiction represents a convergence of literature and platform design, and discuss what this reveals about authorship and literary production in digital media.
   type: short-answer
+  answer: Twitter fiction grows out of the platform's features, so the character limit, threading and replies work as formal principles. This means authors need platform literacy alongside literary craft, and that literary production is increasingly shaped by technical infrastructure.
   explanation: 'Convergence: Twitter fiction is not literature adapted to Twitter but literature emergent from Twitter''s features. Character limits are not obstacles to overcome but formal principles to exploit. Threading is not a workaround but a narrative structure. Platform design directly generates literary form. Authorship implications: (1) Authors must work within platform constraints—this becomes a skill; (2) Platform affordances enable certain effects—Twitter''s public/social nature creates accountability and audience interaction unique to the form; (3) Authorship is platform-literate—effective Twitter fiction requires understanding Twitter''s specific features; (4) The author is constrained but not diminished—constraint is generative. What this reveals: (1) Contemporary literary form emerges from platforms, not from abstract theory; (2) Writers are platform-designers in miniature—they must understand and exploit platform affordances; (3) Social media is not merely destructive to literature but generative of new forms; (4) Literary production is increasingly shaped by technical infrastructure and platform design. This suggests future literature will be increasingly platform-specific, with different platforms enabling different forms. Twitter enables micro-serialized narrative; other platforms enable different possibilities.'
 ```
 

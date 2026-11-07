@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Interactive narratives balance reader agency (meaningful narrative effect) against authorial constraint (predetermined possibilities). Systems that appear to offer infinite choice must manage expectations through limited but coherent alternatives. Understanding this relationship requires analyzing how constraints enable rather than simply diminish agency and how transparency about limitation can enhance meaning.
 
+## How It's Best Learned
+Play a short choice-based story once and mark each choice that felt important. Then replay it, taking other options, and draw a flowchart of where the branches split and merge. Comparing the marked choices with the flowchart separates choices that felt weighty from choices that changed outcomes, which is the gap between perceived and actual agency.
+
+## Common Misconceptions
+- More choices means more agency. (Agency depends on whether choices have consequences the player can see. A few consequential choices can give more agency than many that lead to the same result.)
+- Any constraint on choice reduces player freedom. (Clear limits can make each choice weightier, because the player knows the options are real and the stakes are visible.)
+- When branches merge, the earlier choices meant nothing. (Hidden convergence can make choices feel illusory, but a choice can still affect the player's experience through what they saw, learned or felt along the way.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Interactive narratives balance reader agency (meaningful narrative effect) again
 
 - question: Explain the difference between 'false agency' (choices that appear meaningful but have hidden constraints) and 'transparent agency' (constraints are acknowledged but choices have real consequences), and discuss why this distinction matters for interactive narrative design.
   type: short-answer
+  answer: False agency presents choices as open while hidden constraints force the same outcome, so player investment collapses once the convergence is found. Transparent agency states its limits but gives each choice real consequences. The distinction matters because honest constraint preserves trust and keeps choices meaningful.
   explanation: 'False agency: The player believes their choices are open and consequential, but unknown constraints force convergence to identical outcomes regardless of choice. Example: Three narrative paths appear different but merge before the ending, making earlier choices feel illusory. Problem: When players discover constraints, agency retroactively dissolves. Transparent agency: The player understands choices are limited but accepts this because choices have real, visible consequences. Constraints are explicit. Designers state: ''You can go north or south, leading to different outcomes.'' Consequences are evident. Advantage: Players experience genuine agency within acknowledged bounds. Why it matters: False agency damages trust and retroactively invalidates player investment. Transparent agency acknowledges reality while preserving meaning. It suggests: (1) Agency is relational—achieved through negotiation between player expectations and design reality; (2) Constraint is not opposed to agency but can enable it; (3) Transparency about limitations can enhance rather than diminish player experience; (4) Good design manages expectations by being clear about what''s possible. This principle extends beyond games: any interactive narrative must balance offering choice with authorial feasibility. The balance is best served by honest constraint rather than hidden limitation.'
 ```
 

@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Net art and digital installation merge visual art with networked media and computational processes. Works incorporate data, algorithms, and networked distribution as aesthetic elements. These forms challenge notions of authorship, ownership, and spectatorship, interrogating assumptions about human agency in algorithmic systems.
 
+## How It's Best Learned
+Pick one net artwork and one digital installation and, for each, sketch a diagram of where the work lives: the server, data sources, the algorithm, the screen or room, and the viewer. Mark which parts change over time. Compare that sketch with a diagram of a painting in a gallery. The difference shows why "the artwork" is hard to locate.
+
+## Common Misconceptions
+- Any art shown on a website is net art. (A photograph of a painting posted online is still a painting. Net art uses the network, data or code as part of the work itself.)
+- Net art and digital installation are two names for the same thing. (Net art lives in networked space such as a browser. Digital installation puts computation into a physical room, often responding to viewers through sensors.)
+- A net artwork, once online, stays as the artist made it. (Works that depend on browsers, servers, live data or links can break or change as that infrastructure changes, which makes preservation a real problem for the form.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Net art and digital installation merge visual art with networked media and compu
 
 - question: Explain what it means to say net art and digital installation 'interrogate assumptions about human agency in algorithmic systems.' What assumptions are being questioned?
   type: short-answer
+  answer: These works question the assumption that humans fully author and control algorithmic systems. By making processes visible that run partly independent of the artist, they raise whether agency is shared between human design and computation.
   explanation: 'These forms question the assumption that humans fully control and author algorithmic systems. Traditional art is authored by humans exercising creative agency. Algorithmic art involves processes that humans designed but that operate somewhat independently. The algorithm generates variation, processes data, produces outcomes that the artist did not manually create. This raises questions: Is the algorithm co-author? Is human agency diminished? Do algorithms have agency? These works make algorithmic processes visible, forcing viewers to confront how computation operates and what role it plays in artistic creation. They interrogate whether human agency remains supreme in algorithmic systems or whether agency is distributed between human design and computational process.'
 ```
 

@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 A lipogram is written entirely without a specific letter. Georges Perec's 'La Disparition,' a 300-page novel without the letter 'e' (French's most common), exemplifies how constraint forces linguistic creativity and generates meaning at the formal level. The absent letter becomes thematically significant, forcing semantic detours that alter conceptual depth.
 
+## How It's Best Learned
+Take a plain paragraph you wrote and rewrite it with no letter 'e'. Mark each word you had to replace and what you chose instead. Those forced detours show the constraint at work faster than any description. Then read a passage of 'La Disparition' in French or in an English lipogram translation and look for the same kinds of detours.
+
+## Common Misconceptions
+- A lipogram means a text without the letter 'e'. (A lipogram can omit any letter. Perec omitted 'e', the most common letter in French, which makes it the hardest single letter to do without.)
+- Lipograms were invented by the Oulipo. (Lipograms are far older than the Oulipo. The group revived the form and treated it as a deliberate method for generating text.)
+- Readers can spot the missing letter at once. (The Explainer notes that readers sense something odd in the language before they identify what is missing, and that delay is part of the effect.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ A lipogram is written entirely without a specific letter. Georges Perec's 'La Di
 
 - question: Explain how a formal constraint like the lipogram reveals that form and content are inseparable. What does Perec's 'La Disparition' demonstrate about the relationship between constraint and meaning?
   type: short-answer
+  answer: In 'La Disparition' the missing 'e' forces unusual vocabulary and syntax, and it mirrors the novel's theme of disappearance. The constraint shapes both how the text reads and what it means, so form cannot be separated from content.
   explanation: '''La Disparition'' demonstrates that constraint is not external to content—it shapes content. The missing ''e'' is not merely a technical puzzle imposed on a story that could exist without it. The constraint generates the story''s linguistic character and thematic resonance. A novel about disappearance with a missing letter creates meaningful alignment: form mirrors content. The constraint forces Perec to make linguistic detours—to use unexpected vocabulary and syntax. This linguistic strangeness reinforces the novel''s themes. Additionally, the constraint reveals that meaning emerges from form. Because ''e'' is absent, readers notice its absence. The text reads strangely; this strangeness becomes part of the reading experience. Form (the missing letter) is not decoration applied to pre-existing content; it shapes what the novel is and how it means. This challenges the distinction between form and content, showing they are ultimately unified.'
 ```
 

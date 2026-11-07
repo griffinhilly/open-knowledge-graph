@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Kinetic poetry animates text itself: letters move, words dissolve, morphing across screen synchronized to sound. Temporal unfolding becomes part of poetic form, often reinforcing semantic or rhythmic meaning. Animation is not decorative but constitutive of the poem's interpretation.
 
+## How It's Best Learned
+Watch a short kinetic poem twice, then write out its words as a static page and read that page aloud. Note what the static version loses: a delayed arrival, a dissolve, a word timed to a beat. Then animate a three-line poem of your own with slide transitions, changing only the timing, and see how the meaning shifts.
+
+## Common Misconceptions
+- Kinetic poetry is an ordinary poem with motion graphics added on top. (In kinetic poetry the motion carries meaning, so removing it changes the poem rather than leaving the same poem undecorated.)
+- Analyzing a kinetic poem means analyzing its words. (Timing, speed, order of appearance and synchronization with sound are also part of the form and need close reading too.)
+- Text in motion began with computers. (Moving text appeared in film and television before personal computers. Digital tools made it easier to program, combine with sound, and distribute.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Kinetic poetry animates text itself: letters move, words dissolve, morphing acro
 
 - question: Explain why kinetic poetry requires viewers to experience text temporally rather than spatially. How does this change what poetry can be?
   type: short-answer
+  answer: Print poetry is a fixed spatial arrangement that the reader paces. Kinetic poetry unfolds on a programmed timeline, so the author controls when and how fast words appear. Timing then becomes a meaning-making tool, and poetry moves closer to music.
   explanation: 'Print poetry is spatial: the reader scans a fixed arrangement of words simultaneously. The reader controls pacing—they can read fast or slow, skip ahead, reread. Kinetic poetry is temporal: text unfolds according to programmed timing. The viewer experiences the poem in the sequence the author determined. This temporal constraint is both limiting and enabling. Limiting: the viewer cannot control pacing. Enabling: the author can control exactly when text appears, how quickly, synchronized with sound or other text. This allows meaning-making that depends on timing: a delayed word arrival creates anticipation; rapid morph creates urgency. This changes what poetry can be: from static arrangement to temporal experience. Poetry becomes more like music (which unfolds temporally) than visual art. This opens new dimensions: rhythm can be visual, not just sonic; timing can carry meaning; the poem''s duration becomes part of its form.'
 ```
 

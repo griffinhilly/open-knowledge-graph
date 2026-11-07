@@ -25,6 +25,14 @@ status: draft
 ## Core Idea
 Video game narrative design integrates storytelling with mechanics, player agency, and system constraints. Games narrate through dialogue, cutscenes, environmental detail, mechanical affordances, and emergent play. Narrative designers balance author intent with player agency, creating stories accommodating multiple playstyles. Narrative and systems are integrated, not opposed.
 
+## How It's Best Learned
+Pick a game you know and list three of its mechanics, such as limited saves, scarce ammunition or a dialogue wheel. For each, write one sentence on what it tells you about the world with no reference to dialogue or cutscenes. Then compare those sentences with what the scripted story claims. Places where they agree or clash show narrative and systems working together or against each other.
+
+## Common Misconceptions
+- A game's story lives in its cutscenes and dialogue. (Mechanics, environments and the results of play also narrate. A scarcity mechanic can convey hardship as strongly as any line of dialogue.)
+- A narrative designer writes the characters' lines. (Narrative design also covers structure, pacing, how story is placed in the world, and how systems carry meaning, beyond writing dialogue.)
+- When the story and the mechanics send different messages, players go by the story. (A gap between what the mechanics reward and what the story claims can weaken both, because players learn from what they do as well as from what they are told.)
+
 ## Questions
 
 ```yaml
@@ -60,6 +68,7 @@ Video game narrative design integrates storytelling with mechanics, player agenc
 
 - question: Explain what it means for narrative and systems to be 'integrated, not opposed.' How does narrative game design treat systems as story-telling elements?
   type: short-answer
+  answer: Integration means the rules and mechanics themselves carry story meaning. Resource scarcity conveys hardship, permanent death conveys stakes, and branching dialogue conveys choice, so what the player does becomes part of what the story means.
   explanation: 'Traditional thinking separates story (what you''re narrating) and systems (the rules and mechanics). Narrative designers integrate these: systems communicate story. Resource scarcity (mechanic) narrates survival difficulty (story). Permanent death (system) narrates stakes and consequence (story). Dialogue tree branching (mechanic) narrates choice and agency (story). By treating systems as narrative elements, designers create stories where what players do is inseparable from what the story means. A game about struggling against authority could use difficult combat mechanics (mechanical resistance) integrated with narrative resistance. The mechanics are not decorative; they are the story. This integration allows designers to use systems themselves as narrative tools, creating stories that are fundamentally about how play feels, not merely what happens in cutscenes.'
 ```
 

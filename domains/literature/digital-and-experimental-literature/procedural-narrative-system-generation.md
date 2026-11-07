@@ -24,6 +24,14 @@ status: draft
 ## Core Idea
 Procedural narrative uses algorithmic systems to generate narrative content rather than relying on pre-authored branches. This approach raises fundamental questions about authorship, originality, and whether algorithmic emergence constitutes genuine narrative, while demonstrating how algorithmic systems can produce theoretically infinite narrative variation.
 
+## How It's Best Learned
+Build a tiny story generator on paper: one table of characters, one of motives, one of events, and roll dice to combine them ten times. Rate how coherent each result feels. Then add one state rule, such as "a character who leaves cannot act again", and generate ten more. The jump in coherence shows where procedural authorship actually happens: in the rules.
+
+## Common Misconceptions
+- Procedural narrative means random narrative. (Randomness may supply variation, but the rules, tables and tracked state decide what can happen and in what order.)
+- More possible variations means more interesting stories. (A system can produce huge numbers of outputs that feel alike. Variety the player notices depends on how the rules shape meaningful differences.)
+- Procedural narrative requires machine learning. (Many procedural systems are hand-written rules, grammars or simulations, with no trained model involved.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +67,7 @@ Procedural narrative uses algorithmic systems to generate narrative content rath
 
 - question: Explain how procedural narrative enables theoretically infinite narrative variation while raising new questions about what constitutes authorship and narrative authenticity.
   type: short-answer
+  answer: Rules for characters, plot and world combine to produce a very large space of distinct narratives from finite authored input. Because specific content emerges from the system rather than from direct composition, authorship is spread between designer, system and player, and authenticity can no longer rest only on authorial intention.
   explanation: 'Infinite variation: A procedural system with rules about character generation, plot development, and world-building can produce many unique narratives. Each player or each run generates different content. The variation space is limited by the rules but can be very large (potentially infinite depending on system design). Authorship questions: (1) Is the designer the author? Yes, in that they create the system. (2) Is the generated content authored? It emerges from algorithmic combination, not human composition. (3) Is the player an author by experiencing generated content? They configure some parameters but don''t directly write narrative. Authenticity question: Is an algorithmically generated narrative ''authentic'' literature? It may lack intentional authorial voice while achieving thematic coherence through system logic. This challenges definitions of narrative that depend on authorial intention. Significance: Procedural narrative suggests that authorship can be distributed between system-design and algorithmic generation, that narrative can be co-created by designer and system, and that meaning can emerge from algorithmic logic rather than from intentional composition. This has implications for understanding AI-generated content and the future of narrative in algorithmic culture.'
 ```
 

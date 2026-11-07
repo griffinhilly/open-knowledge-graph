@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 A lipogram excludes a specific letter throughout a text. Perec's 'La Disparition'—a full novel written without the letter 'e'—demonstrates how radical lexical constraints generate creative innovation by forcing exploratory language use and making visible the otherwise transparent choices poets and writers make. Lipograms reveal constraint as generative rather than merely limiting.
 
+## How It's Best Learned
+Write the same short paragraph three times: once freely, once without 'z', and once without 'e'. Compare how many words each version forced you to change. The gap between the rare letter and the common one shows how letter frequency sets the strength of the constraint. It also shows which of your word choices were habits you had never noticed.
+
+## Common Misconceptions
+- Any missing letter makes an equally demanding lipogram. (Leaving out a rare letter changes almost nothing. The constraint becomes radical only when the excluded letter is common, as 'e' is in French and English.)
+- A lipogram novel must read like a puzzle or gibberish. (As the Explainer says, 'La Disparition' stays comprehensible while sounding visibly strange, and that tension is part of its effect.)
+- A constraint makes writing better by itself. (A constraint pushes the writer off habitual choices. What comes of that depends on how the writer uses the pressure.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ A lipogram excludes a specific letter throughout a text. Perec's 'La Disparition
 
 - question: Explain how the lipogram function as both a technical constraint and a tool for making language itself visible as a subject of aesthetic exploration.
   type: short-answer
+  answer: As a technical constraint, the lipogram removes words and forces deliberate selection in place of habit. Because readers feel the absence of a common letter, they start noticing letters, word structure and choice, so language becomes visible material instead of a transparent medium.
   explanation: 'Technical constraint: Excluding a letter limits vocabulary available and forces systematic choice-making. Writers cannot rely on habit; they must consciously select from reduced options. Language as subject: By making exclusion explicit, lipograms foreground how language is constructed. Readers notice the absence of a common letter; they become aware of letter frequency, word structure, and the choices available. The constraint makes language''s own functioning a central concern. Example: Reading a text without ''e'' makes visible how dependent English is on that letter. Readers notice the awkwardness when ''the'' cannot appear, making them conscious of how natural that article usually feels. The constraint thus transforms language from transparent medium into visible material. This is important because: (1) It shows how constraint can be liberating—by limiting vocabulary, it expands creative possibility; (2) It reveals that ''natural'' language is actually highly constructed; (3) It makes writing itself, not just content, into aesthetic material worthy of attention. Lipograms belong to a broader project of making language itself visible through formal manipulation.'
 ```
 
