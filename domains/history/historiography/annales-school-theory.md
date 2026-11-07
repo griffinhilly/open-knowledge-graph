@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 The Annales School (Bloch, Febvre, Braudel) rejected narrative political history in favor of structural social history, collective mentalities, and long-term processes. They integrated geography, demography, and archaeology into historical study. This French innovation transformed global historiography toward 'total history' that examined all dimensions of society, not just elite politics or diplomacy.
 
+## How It's Best Learned
+Pick one well-known event, such as a war or a famine, and draw Braudel's three speeds as three stacked timelines: geography and climate across centuries, economic and social structures across decades, and the event itself across months. Place each cause on the timeline where it belongs. Then compare a short narrative account of the event with the structural picture and ask which one explains more.
+
+## Common Misconceptions
+- The Annales historians thought events and individuals were irrelevant. (They treated events as the visible surface of deeper structures, and their argument was about causal priority, not about ignoring events entirely.)
+- Mentalités means the ideas of philosophers and theologians. (It refers to the shared, often unstated assumptions of whole populations, including ordinary people who left few written records.)
+- The Annales School was one fixed doctrine. (Its generations differed: Bloch and Febvre emphasized mentalities and comparison, while Braudel put geography and long-run structures at the center.)
+- Interdisciplinary history means adding a few statistics to a narrative. (For the Annales historians it meant reshaping historical questions with methods from geography, demography, economics and other fields.)
+
 ## Questions
 
 ```yaml

@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 A function f: X → Y is continuous if the preimage of every open set in Y is open in X. Equivalently: the preimage of every closed set is closed; f is continuous at x if for every neighborhood V of f(x), there exists a neighborhood U of x with f(U) ⊆ V. This generalizes ε-δ continuity and is the natural definition in topology.
 
+## How It's Best Learned
+Check continuity by listing preimages on a two-point space. Let X = {a, b} with open sets ∅, {a}, X, and map X to itself. The identity and both constant maps are continuous. The swap a ↔ b is not, since the preimage of {a} is {b}, which is not open. Then do the same on ℝ for the step function that is 0 for x < 0 and 1 for x ≥ 0: the preimage of (1/2, 2) is [0, ∞), which is not open.
+
+## Common Misconceptions
+- A continuous function sends open sets to open sets. (Continuity is about preimages. The constant map on ℝ is continuous but sends every open interval to a single point.)
+- Continuity depends only on the formula for f. (It depends on both topologies. The identity map from ℝ with the standard topology to ℝ with the discrete topology is not continuous.)
+- The preimage f⁻¹(V) only makes sense when f has an inverse. (Preimages exist for any function. For f(x) = x², the preimage of (1, 4) is (−2, −1) ∪ (1, 2).)
+
 ## Questions
 
 ```yaml
@@ -34,7 +42,7 @@ A function f: X → Y is continuous if the preimage of every open set in Y is op
     - "No — this proves f is an open map, not that f is continuous; continuity requires preimages of open sets to be open"
     - "No — you also need to verify f sends closed sets to closed sets"
   answer: 2
-  explanation: "This is the most common confusion in topological continuity. Checking f(U) open for every open U is the 'open map' condition — a different and strictly stronger property. Continuity requires the preimage direction: f⁻¹(V) is open in X for every open V in Y. The constant function f(x) = 0 is continuous but maps every open set to {0}, which is not open. These are fundamentally different conditions."
+  explanation: "This is the most common confusion in topological continuity. Checking f(U) open for every open U is the 'open map' condition — a different property, and neither condition implies the other. Continuity requires the preimage direction: f⁻¹(V) is open in X for every open V in Y. The constant function f(x) = 0 is continuous but maps every open set to {0}, which is not open. These are fundamentally different conditions."
 
 - question: "Which statement correctly characterizes when f: X → Y is continuous in the topological sense?"
   type: multiple-choice
@@ -44,12 +52,12 @@ A function f: X → Y is continuous if the preimage of every open set in Y is op
     - "For every point x in X, f(x) belongs to some open subset of Y"
     - "f maps convergent sequences in X to convergent sequences in Y"
   answer: 1
-  explanation: "The topological definition of continuity is: f⁻¹(V) is open in X for every open V in Y. The preimage direction is essential — it asks whether the topology on X is fine enough to detect all the open structure of Y through f. Option A defines an open map. Option C is trivially true in any non-empty topological space. Option D (sequential continuity) is equivalent to topological continuity only in metric spaces, not general topological spaces."
+  explanation: "The topological definition of continuity is: f⁻¹(V) is open in X for every open V in Y. The preimage direction is essential — it asks whether the topology on X is fine enough to detect all the open structure of Y through f. Option A defines an open map. Option C is trivially true in any non-empty topological space. Option D (sequential continuity) is equivalent to topological continuity in metric spaces (and more generally in first-countable spaces), but not in all topological spaces."
 
-- question: "If f: X → Y is continuous, then f maps most open set in X to an open set in Y."
+- question: "If f: X → Y is continuous, then f maps every open set in X to an open set in Y."
   type: true-false
   answer: false
-  explanation: "Continuity requires preimages of open sets to be open — not that images of open sets are open. The constant function f: ℝ → ℝ, f(x) = 5 is continuous (trivially, since f⁻¹(V) is either ∅ or all of ℝ for any open V), but maps the open interval (0, 1) to {5}, which is not open. The forward direction — images of open sets are open — defines an 'open map,' a strictly stronger condition that continuous functions need not satisfy."
+  explanation: "Continuity requires preimages of open sets to be open — not that images of open sets are open. The constant function f: ℝ → ℝ, f(x) = 5 is continuous (trivially, since f⁻¹(V) is either ∅ or all of ℝ for any open V), but maps the open interval (0, 1) to {5}, which is not open. The forward direction — images of open sets are open — defines an 'open map,' a separate condition that continuous functions need not satisfy."
 
 - question: "The topological definition of continuity (preimages of open sets are open) agrees with the ε-δ definition on metric spaces because open balls generate the metric topology."
   type: true-false
@@ -58,7 +66,7 @@ A function f: X → Y is continuous if the preimage of every open set in Y is op
 
 - question: "Why is topological continuity defined using preimages (f⁻¹(V) open) rather than images (f(U) open)? What would go wrong if we used images instead?"
   type: short-answer
-  answer: "Using images would define an open map, not continuity — a different and stronger condition. Many continuous functions are not open maps (e.g., constant functions). The preimage direction correctly captures the intuition: continuity means that if we require the output to lie in some open region V, the set of inputs mapping into V (i.e., f⁻¹(V)) must be an open region in X. This matches the ε-δ idea: every neighborhood of the output pulls back to a neighborhood of the input."
+  answer: "Using images would define an open map, not continuity — a different condition. Many continuous functions are not open maps (e.g., constant functions). The preimage direction correctly captures the intuition: continuity means that if we require the output to lie in some open region V, the set of inputs mapping into V (i.e., f⁻¹(V)) must be an open region in X. This matches the ε-δ idea: every neighborhood of the output pulls back to a neighborhood of the input."
   explanation: "The asymmetry is meaningful. Asking 'does f send open sets forward to open sets?' tests whether f preserves the output topology. Asking 'does f pull open sets backward to open sets?' tests whether nearby inputs produce nearby outputs — the essence of continuity. The preimage direction also makes continuity composable in the right way: if f and g are continuous, f⁻¹(g⁻¹(V)) = (g∘f)⁻¹(V) is open, so the composition is continuous. The image direction does not compose this cleanly."
 ```
 

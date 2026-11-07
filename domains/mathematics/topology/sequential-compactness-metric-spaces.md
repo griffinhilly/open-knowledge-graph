@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 A space is sequentially compact if every sequence has a convergent subsequence. In metric spaces, sequential compactness and compactness are equivalent (by Bolzano-Weierstrass). In general spaces they differ; infinite products can be compact but not sequentially compact (Tychonoff). This equivalence makes metric spaces special.
 
+## How It's Best Learned
+Prove the step "sequentially compact implies totally bounded" by contradiction. If finitely many ε-balls never suffice, choose points one at a time, each at distance at least ε from all earlier ones. That sequence has no Cauchy subsequence, so none converges. Then apply the same idea in ℓ², where the unit vectors eₙ satisfy ‖eₙ − eₘ‖ = √2 for n ≠ m.
+
+## Common Misconceptions
+- In any metric space, closed and bounded sets are compact. (That holds in ℝⁿ but fails in general. The closed unit ball of ℓ² is closed and bounded, but the unit vectors have no convergent subsequence.)
+- A complete metric space is sequentially compact. (ℝ is complete, but the sequence 1, 2, 3, … has no convergent subsequence. Compactness needs total boundedness as well.)
+- Sequential compactness means every sequence converges. (Only some subsequence must converge. In [−1, 1], the sequence (−1)ⁿ diverges, yet its even terms converge.)
+
 ## Questions
 
 ```yaml

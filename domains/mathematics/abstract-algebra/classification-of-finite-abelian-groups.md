@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Every finite abelian group is isomorphic to a direct product of cyclic groups. The primary decomposition uniquely writes any finite abelian group as a p-group product. This classification theorem completely describes all finite abelian group structures.
 
+## How It's Best Learned
+Use the theorem to identify a group you meet in the wild. The units mod 20, {1, 3, 7, 9, 11, 13, 17, 19}, form an abelian group of order 8. Square each element: 9, 11 and 19 have order 2, and the other four non-identity elements have order 4. Z₈ has one element of order 2 and Z₂ × Z₂ × Z₂ has seven, so this group is Z₄ × Z₂.
+
+## Common Misconceptions
+- Z₂ × Z₆ and Z₂ × Z₂ × Z₃ are different groups, because they have different numbers of factors. (Z₆ ≅ Z₂ × Z₃, so they are the same group. Split every factor into prime powers before comparing lists.)
+- The theorem describes every abelian group. (It covers finite abelian groups, and an extended version covers finitely generated ones. The rationals under addition are abelian but are not a direct product of cyclic groups.)
+- The largest element order identifies the group. (Z₄ × Z₄ and Z₄ × Z₂ × Z₂ both have order 16 and largest element order 4, but their elementary divisors differ, so they are not isomorphic.)
+
 ## Questions
 
 ```yaml

@@ -29,6 +29,15 @@ status: validated
 ## Core Idea
 Fossil records reveal evolutionary patterns over geological timescales: body plan origins, transitional forms, diversification bursts, and extinction events. Provides direct evidence of macroevolution and constrains rates and modes of evolution.
 
+## How It's Best Learned
+Build a range chart: draw a vertical time axis and a bar for each group from its first to last known fossil. Add a cladogram above it. Where a group's sister lineage has older fossils, extend a dashed "ghost" bar back to that date, since both lineages must have split by then. Then discuss what the dashed bars say about gaps and preservation.
+
+## Common Misconceptions
+- Transitional fossils such as Tiktaalik or Archaeopteryx are the direct ancestors of later groups. (They are usually close relatives on side branches that show an intermediate combination of features, not the exact ancestral population.)
+- The oldest known fossil of a group shows when that group first evolved. (A first appearance is a minimum age; the lineage could be older but unpreserved or undiscovered.)
+- Fossils are dated by carbon-14 measured in the fossil itself. (Carbon-14 works only for roughly the last 50,000 years; older fossils are dated mostly by radiometric dating of nearby volcanic layers and by biostratigraphy.)
+- A gap in the fossil record means evolution jumped from one form to another. (Gaps often reflect conditions that did not preserve fossils or rocks that have not been found or studied.)
+
 ## Questions
 
 ```yaml

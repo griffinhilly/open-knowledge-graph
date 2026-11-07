@@ -26,6 +26,11 @@ The lithosphere bends elastically under loads (mountains, sediment basins) with 
 ## How It's Best Learned
 Use forward modeling to simulate basin geometry under varying loads. Compare predictions to observed topography and gravity to invert elastic thickness.
 
+## Common Misconceptions
+- Effective elastic thickness is the thickness of the lithosphere. (Tₑ is the thickness of an idealized elastic plate that bends the same way as the real one. It is usually much smaller than the full lithospheric thickness.)
+- A stiffer plate sinks deeper under the same load. (A stiffer plate spreads the load over a wider area, so its greatest deflection is smaller and its moat is broader and shallower.)
+- The flexural bulge is a separate uplift pushed up by the mantle. (The bulge is part of the same bending. A plate pressed down in one place bows upward farther out.)
+
 ## Questions
 
 ```yaml

@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 Evolvability describes a population's capacity to evolve adaptive variation. Depends on genetic architecture, mutation rates, recombination, and effective population size. Higher evolvability enables rapid adaptation; varies among species and traits.
 
+## How It's Best Learned
+Compare two traits with the same heritability. Trait X has mean 100, additive variance 25 and phenotypic variance 50. Trait Y has mean 10 with the same variances. Both have h² = 0.5, so a selection differential of 7 units gives each a response of 3.5 units. Yet that is a 35% change for Y and only 3.5% for X. This separates heritability from capacity for change. Then list which features of architecture (modularity, pleiotropy, duplication) raise or lower that capacity.
+
+## Common Misconceptions
+- A trait with high heritability is highly evolvable. (Heritability can be high because environmental variance is low, even when additive variance is small relative to the trait mean. Scaling additive variance by the mean gives a better guide to how far a trait can change.)
+- Organisms evolve evolvability because it will help them adapt later. (Selection cannot look ahead. Evolvability can spread through lineage persistence, or as a side effect of traits favored for other reasons.)
+- Evolvability is a single fixed property of a species. (It differs among traits in the same species and changes as genetic architecture and population size change.)
+
 ## Questions
 
 ```yaml

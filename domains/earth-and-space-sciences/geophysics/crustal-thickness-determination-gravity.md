@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Regional gravity anomalies primarily reflect variations in crustal thickness and density. Using isostatic assumptions and the gravity effect of the crustal/mantle density contrast at the Mohorovičić discontinuity, crustal thickness can be inverted from Bouguer gravity anomalies. This method is especially valuable in continental regions where seismic Moho observations are sparse.
 
+## How It's Best Learned
+Start with the infinite-slab estimate Δg = 2πGΔρΔh. With a Moho contrast of 400 kg/m³, each extra kilometre of crust gives about −16.8 mGal, so a regional Bouguer anomaly of −100 mGal implies a Moho about 6 km deeper than the reference. Repeat with 300 and 600 kg/m³ (about 7.9 and 4.0 km) to see how much the assumed contrast controls the answer.
+
+## Common Misconceptions
+- A gravity inversion returns one unique Moho depth. (Many combinations of density contrast and depth fit the same anomaly, so seismic control points are needed to fix the contrast and reference depth.)
+- The whole regional Bouguer anomaly comes from Moho topography. (Sedimentary basins, intracrustal intrusions and density variations in the mantle also contribute and must be removed or modelled first.)
+- The slab formula works equally well for narrow and broad crustal roots. (A root that is narrow compared with its depth produces a smaller anomaly than an infinite slab, so slab-based estimates understate its depth change.)
+
 ## Questions
 
 ```yaml
@@ -48,7 +56,7 @@ Regional gravity anomalies primarily reflect variations in crustal thickness and
 - question: "A positive Bouguer anomaly in a continental interior generally indicates that the crust is thinner than average because denser mantle material sits closer to the surface."
   type: true-false
   answer: true
-  explanation: "The relationship is symmetric: negative Bouguer anomalies correlate with thick crust (low-density crustal root displacing mantle), and positive anomalies correlate with thin crust (mantle rock at shallower depth, higher density than average). Continental cratons with ancient, thin crust, rift zones where the lithosphere has thinned, and ocean-continent transition zones often show positive or near-zero Bouguer anomalies precisely because the Moho is relatively shallow. Gravity inversion exploits this systematic relationship: measuring the Bouguer anomaly and solving for the Moho depth that would produce it."
+  explanation: "The relationship is symmetric: negative Bouguer anomalies correlate with thick crust (low-density crustal root displacing mantle), and positive anomalies correlate with thin crust (mantle rock at shallower depth, higher density than average). Rift zones where the lithosphere has thinned and ocean-continent transition zones often show positive or near-zero Bouguer anomalies precisely because the Moho is relatively shallow. Gravity inversion exploits this systematic relationship: measuring the Bouguer anomaly and solving for the Moho depth that would produce it."
 
 - question: "Gravity data alone can determine absolute crustal thickness without any additional seismic or geological constraints, because the density contrast at the Moho is a fixed physical constant."
   type: true-false
@@ -58,7 +66,7 @@ Regional gravity anomalies primarily reflect variations in crustal thickness and
 - question: "Explain the physical relationship between Bouguer gravity anomalies and crustal thickness, specifically what creates the negative anomaly beneath mountain ranges."
   type: short-answer
   answer: "The key is the density contrast at the Moho — the boundary between crust (approximately 2800 kg/m³) and mantle (approximately 3300 kg/m³). Where crust is thick, a large volume of low-density crustal rock occupies space that would otherwise be filled by denser mantle rock. This creates a mass deficit relative to a reference model where crust has normal thickness. The Bouguer anomaly measures deviations from expected gravity after removing the effect of surface topography, so this deep mass deficit registers as a negative Bouguer anomaly. Beneath mountain ranges, the crust is thickest (isostatic compensation requires a root to support the topographic load), so the mass deficit is greatest and the Bouguer anomaly is most negative. The inverse applies at ocean basins and thin-crust regions: mantle is close to the surface, the mass excess produces positive anomalies."
-  explanation: "The gravitational effect of the Moho is large because the density contrast (300–600 kg/m³) persists over a thick horizontal layer. A 10 km variation in Moho depth produces a Bouguer anomaly difference of roughly 50–80 milligals — easily detectable with modern gravimeters. This sensitivity is what makes gravity a powerful tool for crustal mapping despite its resolution limitations."
+  explanation: "The gravitational effect of the Moho is large because the density contrast (300–600 kg/m³) persists over a thick horizontal layer. For a broad root, a 10 km variation in Moho depth produces a Bouguer anomaly difference of roughly 125–250 milligals — easily detectable with modern gravimeters. This sensitivity is what makes gravity a powerful tool for crustal mapping despite its resolution limitations."
 ```
 
 ## Explainer

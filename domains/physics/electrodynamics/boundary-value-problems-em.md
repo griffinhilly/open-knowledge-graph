@@ -29,6 +29,15 @@ status: validated
 ## Core Idea
 Separation of variables systematically solves Laplace's and Poisson's equations in bounded regions with specified boundary conditions. Assuming solutions of the form f(x,y,z) = X(x)Y(y)Z(z) reduces the PDE to ODEs. Boundary conditions determine which eigenfunction combinations satisfy the full problem.
 
+## How It's Best Learned
+Start in two dimensions with a square of side a: V = 0 on three sides and V = V₀ sin(πx/a) on the top, y = a. One term solves it: V = V₀ sin(πx/a) sinh(πy/a)/sinh(π). Check each side by substitution. Then make the top a constant V₀ and see why a full Fourier sine series is now needed.
+
+## Common Misconceptions
+- The separated product X(x)Y(y)Z(z) is the general solution. (A single product is one mode. The general solution is a sum of such products, with coefficients fixed by the boundary data.)
+- Every separation constant must be negative, so every factor oscillates. (The constants must sum to zero, so unless all are zero, at least one factor grows or decays exponentially, as sinh or e^(−kx).)
+- The sign of each separation constant is a free choice. (The boundary conditions decide it. Directions with zero potential on both walls need sines, and the remaining direction takes exponential or hyperbolic factors.)
+- Separation of variables works in any geometry. (It needs boundaries that lie on coordinate surfaces of a system in which Laplace's equation separates, such as boxes, cylinders and spheres.)
+
 ## Questions
 
 ```yaml

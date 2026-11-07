@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Sexual selection arises from competition for mates (intrasexual) or mate choice (intersexual) and can drive rapid evolution of secondary sexual traits. Traits costly for survival can increase in frequency if they improve mating success sufficiently. Sexual selection explains elaborate ornaments like peacock tails and complex courtship behaviors.
 
+## How It's Best Learned
+Compare variance in mating success between the sexes with a small table. Five females mate twice each; five males share those 10 matings as 0, 0, 0, 1 and 9. Both sexes average 2 matings, but female variance is 0 and male variance is 62/5 = 12.4. Then link the larger variance to stronger selection on male traits, and ask what would reverse the pattern.
+
+## Common Misconceptions
+- Sexual selection acts only on males. (It acts most strongly on whichever sex competes more for mates; in some species, such as jacanas and some pipefish, females compete or carry the ornaments.)
+- Female choice requires a conscious judgment of beauty or quality. (A preference can be a simple sensory bias or response rule that is heritable and shapes which males mate.)
+- Sexually selected traits evolve because they benefit the species. (They spread because they raise individual mating success, even when they lower survival or harm the population.)
+- An ornament must be an honest signal of good genes. (That is one hypothesis; under runaway selection a trait can escalate because females prefer it, without indicating quality.)
+
 ## Questions
 
 ```yaml

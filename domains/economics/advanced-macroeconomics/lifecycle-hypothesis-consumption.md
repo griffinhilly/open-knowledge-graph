@@ -19,7 +19,15 @@ status: validated
 # Lifecycle Hypothesis and Consumption-Saving Patterns
 
 ## Core Idea
-The lifecycle hypothesis predicts that individuals smooth consumption over their lifetimes: saving when young (and earning less), dissaving in retirement. This creates predictable patterns of net wealth accumulation and decumulation across the lifespan. Aggregate consumption depends on the age distribution of the population; an aging society with more retirees will have lower aggregate savings. The lifecycle hypothesis is crucial for understanding why demographic shifts affect macroeconomic outcomes and asset prices.
+The lifecycle hypothesis predicts that individuals smooth consumption over their lifetimes: saving during working years, dissaving in retirement. This creates predictable patterns of net wealth accumulation and decumulation across the lifespan. Aggregate consumption depends on the age distribution of the population; an aging society with more retirees will have lower aggregate savings. The lifecycle hypothesis is crucial for understanding why demographic shifts affect macroeconomic outcomes and asset prices.
+
+## How It's Best Learned
+Work the basic arithmetic with a zero interest rate. A person earns 60 a year for 40 years, then retires for 20. Lifetime income is 2,400, so consumption is 40 a year. Saving is 20 a year while working, wealth peaks at 800 at retirement, then falls by 40 a year to zero. With equal-sized cohorts, workers' saving of 800 a year exactly offsets retirees' dissaving.
+
+## Common Misconceptions
+- Retirees who keep much of their wealth disprove the lifecycle hypothesis. (Bequest motives, uncertain lifespans, and possible medical costs can make slow drawdown consistent with lifecycle planning.)
+- In the lifecycle model, national saving depends only on how patient people are. (With identical preferences, faster population or income growth raises aggregate saving, because the saving young outweigh the dissaving old.)
+- The lifecycle and permanent income hypotheses make opposite predictions. (Both are forward-looking smoothing theories. The lifecycle version stresses a finite life and retirement; the permanent income version stresses how income shocks are perceived.)
 
 ## Questions
 

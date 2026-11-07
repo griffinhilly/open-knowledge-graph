@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 The quotient topology is defined on the set of equivalence classes of a topological space under an equivalence relation. A set is open in the quotient if its preimage under the quotient map is open, making the quotient map continuous and the finest topology with this property. This is the natural topology for identifying points or gluing spaces together.
 
+## How It's Best Learned
+Test candidate neighborhoods of the glued point in [0, 1]/(0 ~ 1) by computing preimages. The image of [0, 0.1) has preimage [0, 0.1) ∪ {1}, which is not open, so it is not a neighborhood. The image of [0, 0.1) ∪ (0.9, 1] has an open preimage, so it is. This shows that open sets in X/~ match the open saturated sets of X, those that are unions of whole equivalence classes.
+
+## Common Misconceptions
+- The open sets of X/~ are the images of open sets of X. (Openness is tested on preimages. The image of [0, 0.1) in [0, 1]/(0 ~ 1) is not open.)
+- The quotient topology is the coarsest topology that makes q continuous. (It is the finest. The indiscrete topology is the coarsest such topology.)
+- A quotient of a familiar space is a familiar, well-behaved space. (On ℝ, let x ~ y when x − y is rational. Every class is dense, so the only open saturated sets are ∅ and ℝ, and the quotient is indiscrete.)
+
 ## Questions
 
 ```yaml

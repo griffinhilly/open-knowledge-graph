@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 Extensive form represents games as game trees with nodes and branches. Subgame perfect equilibrium (SPE) requires Nash equilibrium play in every subgame, eliminating non-credible threats. SPE is found by backward induction: optimize at the last decision node, then work backward. SPE is more restrictive than Nash equilibrium in strategic form, as converting to extensive form may eliminate non-credible equilibria.
 
+## How It's Best Learned
+Solve one entry game both ways. Staying out pays (0, 4). Entering leads the incumbent to fight for (−1, 1) or accommodate for (2, 2). Write the 2×2 strategic form and find both Nash equilibria: (Out, Fight) and (In, Accommodate). Then apply backward induction on the tree and watch (Out, Fight) drop out, since fighting after entry pays 1 instead of 2.
+
+## Common Misconceptions
+- A Nash equilibrium of a sequential game is already credible. (Nash only checks best responses on the path of play. A strategy can include a threat at an unreached node that the player would not carry out.)
+- Backward induction starts with the first mover's choice. (It starts at the last decision nodes and works toward the root.)
+- A subgame can start at any node. (A subgame starts at a single node and must contain every node that follows it, without cutting through an information set.)
+- In the entry game, the non-credible equilibrium is (Enter, Fight). (In that profile the entrant would rather stay out. The equilibrium sustained by the threat is (Stay Out, Fight).)
+
 ## Questions
 
 ```yaml
@@ -63,7 +72,7 @@ Extensive form represents games as game trees with nodes and branches. Subgame p
 
 In strategic-form games, you represented interactions as a matrix of payoffs where players choose simultaneously. But many real strategic situations are sequential: one player moves first, the other observes the move, then responds. A **game tree** captures this timing explicitly. Each node represents a point where a specific player must make a decision, branches represent the available actions, and terminal nodes list the payoffs for all players. The tree structure encodes who moves when, what they know at the time, and what outcomes result from each combination of choices.
 
-The key insight that motivates subgame perfection is that ordinary Nash equilibrium allows players to make **non-credible threats** — strategies they would never actually follow through on if called upon to act. Consider a simple entry game: an incumbent threatens to start a price war if a rival enters the market. In the strategic form, "enter, and the incumbent fights" can be a Nash equilibrium if the incumbent's threat deters entry. But look at the game tree: if entry actually happens, fighting is costly for the incumbent too. The incumbent would rationally accommodate rather than fight. The threat to fight is not credible because, at the decision node where the incumbent must act, fighting is suboptimal. Nash equilibrium does not catch this problem because it only checks that each player's overall strategy is a best response — it does not verify that the strategy remains optimal at every decision point within the game.
+The key insight that motivates subgame perfection is that ordinary Nash equilibrium allows players to make **non-credible threats** — strategies they would never actually follow through on if called upon to act. Consider a simple entry game: an incumbent threatens to start a price war if a rival enters the market. In the strategic form, "stay out, and the incumbent fights if entry occurs" can be a Nash equilibrium if the incumbent's threat deters entry. But look at the game tree: if entry actually happens, fighting is costly for the incumbent too. The incumbent would rationally accommodate rather than fight. The threat to fight is not credible because, at the decision node where the incumbent must act, fighting is suboptimal. Nash equilibrium does not catch this problem because it only checks that each player's overall strategy is a best response — it does not verify that the strategy remains optimal at every decision point within the game.
 
 **Subgame perfect equilibrium** fixes this by requiring that strategies form a Nash equilibrium not just in the overall game, but in every **subgame** — every portion of the game tree that could stand alone as a well-defined game. The method for finding SPE is **backward induction**: start at the final decision nodes, determine each player's optimal choice there, then move one step earlier in the tree and optimize given that you now know what will happen downstream. Continue working backward to the root of the tree. At every step, players are choosing optimally given what will actually happen later, not what someone threatens will happen. This guarantees credibility at every decision point.
 

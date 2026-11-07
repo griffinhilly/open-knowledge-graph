@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Enlightenment historiography (18th century) sought to impose rational principles and universal progress narratives onto history, rejecting medieval chronicle and theological determinism. Thinkers like Giambattista Vico and Edward Gibbon attempted to identify causal laws and narrative patterns in history while expanding the scope to include cultural and intellectual development. This period established the ambition to make history a systematic science of human civilization.
 
+## How It's Best Learned
+Compare how two kinds of historian explain the same event. Read a short medieval chronicle passage that explains a disaster as divine judgment, then a passage from Voltaire or Gibbon on a similar event, and list the causes each one names. Then read a few pages of Gibbon on early Christianity and mark where his irony or skepticism shapes the account. The exercise shows both the secular break and the bias it carried.
+
+## Common Misconceptions
+- Enlightenment historians were neutral observers who finally removed bias from history. (They replaced theological assumptions with rationalist ones, which led them, Gibbon included, to undervalue religion as a real motive.)
+- Enlightenment history was only about kings and wars. (Voltaire deliberately widened history to include commerce, the arts, science and manners.)
+- Renaissance humanists had already made history fully secular. (Most humanists kept providential assumptions, and the Enlightenment break with divine explanation was sharper.)
+- All Enlightenment historians shared one view of how history moves. (Voltaire wrote a polemical story of reason against superstition, while Vico proposed recurring cycles of ages.)
+
 ## Questions
 
 ```yaml
@@ -46,7 +55,7 @@ Enlightenment historiography (18th century) sought to impose rational principles
     - "Vico limited historical inquiry to political events, excluding culture and ideas as too subjective"
     - "Vico claimed history follows a linear trajectory of rational progress analogous to the natural sciences"
   answer: 1
-  explanation: "Vico's distinctive claim was epistemological: humans can understand history in a way they cannot understand nature, because history is a human creation (verum factum — 'the true is what is made'). He also proposed a structural cyclical model — divine, heroic, and human ages — recurring across civilizations regardless of their particular events. This is fundamentally different from Voltaire's polemical secular progressivism. Vico did not restore providence; his cycles are human developmental patterns, not divine plans."
+  explanation: "Vico's distinctive claim was epistemological: humans can understand history in a way they cannot understand nature, because history is a human creation (verum factum — 'the true is what is made'). He also proposed a structural cyclical model — divine, heroic, and human ages — recurring across civilizations regardless of their particular events. This is fundamentally different from Voltaire's polemical secular progressivism. Vico did give providence a role, but one working through human institutions rather than by direct intervention; his cycles are human developmental patterns."
 
 - question: "Enlightenment historians represented a direct continuity with Renaissance humanist historiography, since both groups rejected theological explanations and focused on human agency."
   type: true-false

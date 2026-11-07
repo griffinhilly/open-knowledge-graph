@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 The column space col(A) is the span of the columns of A; it equals the image of the linear transformation x ↦ Ax. The row space row(A) is the span of the rows of A, equal to col(Aᵀ). Both are fundamental subspaces determined by A; rank(A) is the dimension of each.
 
+## How It's Best Learned
+Use one small matrix such as A = [[1,2,3],[2,4,7]]. Row-reduce it, mark the pivot columns (1 and 3), and take those columns from the original A as a basis for col(A) in ℝ². Then take the nonzero rows of the echelon form as a basis for row(A) in ℝ³. Both bases have two vectors, which shows rank as the shared dimension.
+
+## Common Misconceptions
+- The pivot columns of the echelon form are a basis for col(A). (Row operations change the columns. Use the pivot positions to pick the matching columns of the original A.)
+- The column space and row space of A are the same subspace. (For an m × n matrix, col(A) lives in ℝᵐ and row(A) lives in ℝⁿ. They share a dimension, the rank, but are generally different spaces.)
+- Adding a column to a matrix makes its column space bigger. (A new column that is a combination of the existing columns leaves col(A) unchanged. For m rows, the dimension can never exceed m.)
+
 ## Questions
 
 ```yaml

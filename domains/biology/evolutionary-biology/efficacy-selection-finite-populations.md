@@ -29,6 +29,14 @@ status: validated
 ## Core Idea
 Selection efficacy depends on selection coefficient relative to drift. When |s| << 1/(2Ne), drift dominates and selection fails to prevent fixation of deleterious alleles. Critical threshold determines whether selection or drift governs molecular evolution.
 
+## How It's Best Learned
+Hold one mildly deleterious mutation fixed and vary Ne. Using Kimura's fixation formula, compare its fixation chance with that of a neutral mutation. When 2Ne|s| = 0.2, the ratio is about 0.8; when 2Ne|s| = 2, it falls below 0.1; when 2Ne|s| = 20, it is close to zero. The table shows that the threshold is a steep transition rather than an on-off switch.
+
+## Common Misconceptions
+- Selection always wins over drift in the end because it pushes in a consistent direction. (Whether selection wins depends on |s| relative to 1/(2Ne). Weak selection in a small population is swamped by drift.)
+- An "effectively neutral" mutation has no effect on fitness. (Its effect is real but too small, relative to drift, to change its fate much in that population.)
+- A population with millions of individuals must have efficient selection. (Efficacy depends on effective size, which can be far below census size because of unequal reproduction, past bottlenecks and linked selection.)
+
 ## Questions
 
 ```yaml
@@ -60,7 +68,7 @@ Selection efficacy depends on selection coefficient relative to drift. When |s| 
 - question: "A mutation with s = −0.0001 is 'effectively neutral' in a population of 1,000 individuals, meaning it behaves evolutionarily like a mutation with s = 0, even though its fitness effect is real."
   type: true-false
   answer: true
-  explanation: "When |s| << 1/(2Ne), the fate of an allele is governed by drift rather than selection. For Ne = 1,000 and s = −0.0001: 2Ne·|s| = 0.2, well below 1. Drift will fix or lose this mutation with essentially the same probabilities as a strictly neutral mutation (s = 0). 'Effectively neutral' means the fitness effect is real in principle but too small relative to drift to affect evolutionary outcome. In a bacterial population with Ne = 10⁸, the same mutation would be far from neutral — 2Ne·|s| = 20, strongly selected. The same mutation, entirely different fate."
+  explanation: "When |s| << 1/(2Ne), the fate of an allele is governed by drift rather than selection. For Ne = 1,000 and s = −0.0001: 2Ne·|s| = 0.2, well below 1. Drift will fix or lose this mutation with essentially the same probabilities as a strictly neutral mutation (s = 0). 'Effectively neutral' means the fitness effect is real in principle but too small relative to drift to affect evolutionary outcome. In a bacterial population with Ne = 10⁸, the same mutation would be far from neutral — 2Ne·|s| = 20,000, strongly selected. The same mutation, entirely different fate."
 
 - question: "Explain why the efficacy of selection is not simply a property of a mutation's fitness effect but depends on the whole mutation-population system. What happens evolutionarily to a mildly deleterious mutation as effective population size decreases?"
   type: short-answer

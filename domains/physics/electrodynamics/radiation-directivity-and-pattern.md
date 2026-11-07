@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Radiation patterns describe the angular distribution of radiated power. Directivity D characterizes the ratio of power radiated in the peak direction to isotropic radiation at the same total power. Antenna gain includes efficiency factors; narrow patterns emerge from coherent sources separated by wavelengths.
 
+## How It's Best Learned
+Compute one directivity from scratch. For a short dipole dP/dΩ ∝ sin²θ, and ∫sin²θ dΩ = 2π∫sin³θ dθ = 8π/3. The average over the sphere is (8π/3)/(4π) = 2/3, so the peak directivity is 1/(2/3) = 1.5. Then sketch the polar plot next to an isotropic circle of the same total power and see where it falls below 1.
+
+## Common Misconceptions
+- A high-gain antenna produces extra power. (A passive antenna only redistributes power in angle. Gain above 1 in some directions is paid for by gain below 1 in others.)
+- A dipole antenna radiates equally in all directions around it. (Its pattern is uniform in azimuth but goes as sin²θ in elevation, with nulls along its axis.)
+- The beam width of a dish or array depends only on its physical size. (It depends on size measured in wavelengths, roughly λ/L, so the same dish gives a narrower beam at a higher frequency.)
+- Directivity and gain are interchangeable. (Directivity describes the pattern shape alone. Gain G = ηD also counts the power lost in the antenna.)
+
 ## Questions
 
 ```yaml

@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Agents must form expectations about future inflation, interest rates, output, and other macroeconomic variables using available information and forecasting models. Alternative mechanisms—rational expectations, adaptive expectations, rule-of-thumb heuristics, and sticky information—imply vastly different inflation dynamics and policy transmission. The choice of expectation mechanism critically affects predictions about inflation acceleration, policy credibility, and the efficacy of stabilization policies.
 
+## How It's Best Learned
+Simulate one disinflation from 8% to 2% under two rules, using π_t = π^e_t − 0.5(u_t − u*). With adaptive expectations, π^e_t = π_{t−1}, so holding unemployment 2 points above u* lowers inflation 1 point a year: six years and 12 point-years of extra unemployment. With credible rational expectations, π^e drops to 2 at once and u stays at u*.
+
+## Common Misconceptions
+- Rational expectations means people's forecasts are always right. (It means forecast errors are unpredictable from the information available; forecasts are correct on average, and errors still happen.)
+- Adaptive expectations are irrational in every setting. (If inflation behaves like a persistent random walk plus noise, an adaptive rule that weights recent observations is the best available forecast.)
+- Sticky information is another name for sticky prices. (Under sticky information, firms can change prices every period but some set them using outdated forecasts; under sticky prices, the price itself stays fixed.)
+
 ## Questions
 
 ```yaml

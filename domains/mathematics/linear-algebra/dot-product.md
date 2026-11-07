@@ -37,6 +37,14 @@ status: validated
 ## Core Idea
 The dot product of two vectors u and v is the sum of products of corresponding components: u · v = u₁v₁ + u₂v₂ + ... + uₙvₙ. It measures alignment between vectors and connects to angle via cos(θ) = (u · v)/(‖u‖‖v‖). The dot product is zero precisely when vectors are orthogonal.
 
+## How It's Best Learned
+Check the angle formula against angles you can see. On graph paper, (1,0) and (1,1) meet at 45°. The formula gives cos(θ) = 1/√2, which agrees. Then try (1,1,0) and (0,1,1) in ℝ³: the dot product is 1, the norms multiply to 2, so θ = 60°. Finally draw (3,4) and (4,−3) and confirm a zero dot product looks like a right angle.
+
+## Common Misconceptions
+- The dot product of (u₁, u₂) and (v₁, v₂) is the vector (u₁v₁, u₂v₂). (The products are added, so the result is a single number.)
+- A larger dot product means a smaller angle. (Length matters too. (10,0) · (10,10) = 100 at 45°, while (1,0) · (2,0) = 2 at 0°. Compare angles using cos(θ), which divides out the lengths.)
+- u · v equals ‖u‖ ‖v‖ for any two vectors. (That holds only when the vectors point the same way or one of them is zero. In general |u · v| ≤ ‖u‖ ‖v‖, which is the Cauchy–Schwarz inequality.)
+
 ## Questions
 
 ```yaml
@@ -44,9 +52,9 @@ The dot product of two vectors u and v is the sum of products of corresponding c
   type: multiple-choice
   options: ["-2", "2", "7", "-7"]
   answer: 0
-  explanation: "u · v = (2)(1) + (−1)(4) + (3)(0) = 2 − 4 + 0 = −2. Each pair of corresponding components is multiplied and the products are summed. The zero from the third pair contributes nothing, illustrating that components beyond the shared dimension vanish."
+  explanation: "u · v = (2)(1) + (−1)(4) + (3)(0) = 2 − 4 + 0 = −2. Each pair of corresponding components is multiplied and the products are summed. The zero from the third pair contributes nothing."
 
-- question: "If u · v = 0, then at least one of u or v should be the zero vector."
+- question: "If u · v = 0, then at least one of u or v must be the zero vector."
   type: true-false
   answer: false
   explanation: "Two nonzero vectors can have a zero dot product whenever they are orthogonal (perpendicular). For example, u = (1, 0) and v = (0, 1) are both nonzero but u · v = 0. Only the zero vector has a zero dot product with every other vector."

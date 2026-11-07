@@ -1,0 +1,87 @@
+domains/physics/electrodynamics/em-waves-anisotropic-media.md	how	4	0	ok	worked D=(ε_x,ε_y,0)/√2 and eigenmode recombination; correct
+domains/physics/electrodynamics/em-waves-anisotropic-media.md	mis	8	1	fixed	bullet 2 dropped qualifier: a principal-axis polarization is an eigenmode only for propagation along another principal axis; added the condition
+domains/physics/electrodynamics/em-waves-in-conductors.md	how	4	0	ok	worked copper skin depth: 8.53 mm at 60 Hz, 2.09 μm at 1 GHz; k² and δ=√(2/μσω) correct
+domains/physics/electrodynamics/em-waves-in-conductors.md	mis	6	0	ok
+domains/physics/electrodynamics/evanescent-waves-total-reflection.md	how	4	0	ok	worked: k_x=1.061, κ=0.354 ω/c, decay length 0.45 λ0; shrinks at 60°
+domains/physics/electrodynamics/evanescent-waves-total-reflection.md	mis	8	0	ok
+domains/physics/electrodynamics/far-field-radiation-limit.md	how	4	0	ok	1 : kr : (kr)² term ratio and sin θ / sin²θ check out
+domains/physics/electrodynamics/far-field-radiation-limit.md	mis	6	0	ok
+domains/physics/electrodynamics/faraday-law-advanced.md	how	4	0	ok	worked E=(r/2)dB/dt inside, (R²/2r)dB/dt outside; zero circulation for non-enclosing loop
+domains/physics/electrodynamics/faraday-law-advanced.md	mis	8	0	ok
+domains/physics/electrodynamics/faraday-law-advanced.md	old:ex	1	1	fixed	Explainer said a loop "anywhere" outside the solenoid gets an EMF; only loops that encircle it do (contradicted new bullet 2)
+domains/physics/electrodynamics/ferromagnetism-microscopic-view.md	how	4	0	ok	worked m=tanh(2m): m=0.957 at T=0.5T_c
+domains/physics/electrodynamics/ferromagnetism-microscopic-view.md	mis	6	0	ok
+domains/physics/electrodynamics/ferromagnetism-microscopic-view.md	old:ex	1	1	fixed	Explainer said mean-field magnetization "vanishes discontinuously" at T_c; it falls continuously (second-order)
+domains/physics/electrodynamics/field-tensor-lorentz-covariance.md	how	4	0	ok	worked E'_y=−γvB_z, B'_z=γB_z, invariant B² recovered
+domains/physics/electrodynamics/field-tensor-lorentz-covariance.md	mis	6	1	fixed	bullet 2 absolute "|E| alone changes from frame to frame" (not for boosts along E with B=0); now "can change"
+domains/physics/electrodynamics/field-tensor-lorentz-covariance.md	old:ex	1	1	fixed	F^{0i}=E_i/c with F^{ij}=−ε^{ijk}B_k mixes two conventions; with F^{0i}=E_i/c the consistent entry is +ε^{ijk}B_k
+domains/physics/electrodynamics/field-tensor-lorentz-covariance.md	old:ex	1	1	fixed	"if B²>E²/c² a boost exists where E vanishes" needs E·B=0; qualifier added
+domains/physics/electrodynamics/frequency-dependent-permittivity.md	how	4	0	ok	worked χ at 0.5ω0 (positive real), ω0 (10i(ω_p/ω0)²), 2ω0 (negative real)
+domains/physics/electrodynamics/frequency-dependent-permittivity.md	mis	6	0	ok
+domains/physics/electrodynamics/frequency-dependent-permittivity.md	old:format	1	1	fixed	Questions block sat after Explainer; moved before Explainer, YAML unchanged
+domains/physics/electrodynamics/gauge-transformations.md	how	4	0	ok	worked both potential pairs and λ=−E0xt under the file's sign convention
+domains/physics/electrodynamics/gauge-transformations.md	mis	6	0	ok
+domains/physics/electrodynamics/gauge-transformations.md	old:q:3	1	1	fixed	statement "can seldom both be satisfied simultaneously" is roughly true yet keyed false (explanation agrees it holds); restated as "only one of them can be used" so false is correct
+domains/physics/electrodynamics/gauss-law-applications.md	how	4	0	ok	E=Qr/(4πε0R³) inside, Q/(4πε0r²) outside, peak at R
+domains/physics/electrodynamics/gauss-law-applications.md	mis	6	1	fixed	bullet 3 "field is zero only in the hollow of a shell" false (solid sphere has E=0 at its center); reworded
+domains/physics/electrodynamics/green-function-method-electrostatics.md	mis	8	0	ok
+domains/physics/electrodynamics/group-velocity-and-dispersion.md	how	4	0	ok	beat identity, envelope Δω/Δk, deep water v_g=½v_p all check
+domains/physics/electrodynamics/group-velocity-and-dispersion.md	mis	6	0	ok	note (not fixed): old q:1 credits pulse spreading to differing phase velocities; strictly it is variation of v_g (GVD)
+domains/physics/electrodynamics/higher-multipole-radiation.md	how	5	0	ok	0⁺→2⁺ needs E2, ½⁺→½⁺ only M1, (ka)²=1.58e-6
+domains/physics/electrodynamics/higher-multipole-radiation.md	mis	8	1	fixed	bullet 1 "the state still decays through M1 or E2" overstated and contradicted bullet 4 (0→0); now "can still decay by a higher multipole such as"
+domains/physics/electrodynamics/laplace-poisson-equations-electrostatics.md	how	4	0	ok	∇²(r²)=6 and harmonic test functions correct; relaxation recipe sound
+domains/physics/electrodynamics/laplace-poisson-equations-electrostatics.md	mis	8	0	ok
+domains/physics/electrodynamics/laplace-poisson-equations-electrostatics.md	old:q:0	1	1	fixed	premise "guesses φ=A+B·r² and verifies ∇²φ=0" impossible (∇²=6B); replaced with a generic trial function
+domains/physics/electrodynamics/laplace-poisson-equations-electrostatics.md	old:ex	1	1	fixed	G=1/(4πε0|r−r'|) with φ=∫Gρ/ε0 double-counts ε0; now G=1/(4π|r−r'|)
+domains/physics/electrodynamics/larmor-formula.md	how	5	0	ok	worked ∫sin²θ dΩ=8π/3, a=9.1e22, P=4.7e-8 W, timescale ~5e-11 s
+domains/physics/electrodynamics/larmor-formula.md	mis	8	0	ok
+domains/physics/electrodynamics/larmor-formula.md	old:q:3	1	1	fixed	"atoms collapse in nanoseconds" off by ~100x; classical hydrogen collapse ~1e-11 s (now consistent with How)
+domains/physics/electrodynamics/larmor-formula.md	old:q:4	1	1	fixed	"synchrotron radiation scales as a⁴" wrong; at fixed radius power scales as γ⁴
+domains/physics/electrodynamics/lienard-potential-applications.md	how	4	0	ok	abrupt-stop field picture correct; Thomson σ=(8π/3)r_e² reproduced
+domains/physics/electrodynamics/lienard-potential-applications.md	mis	6	0	ok
+domains/physics/electrodynamics/lienard-potential-applications.md	old:q:2	1	1	fixed	velocity-field flux written as 1/r²×r²=constant; corrected to 1/r⁴×r²=1/r²
+domains/physics/electrodynamics/lienard-wiechert-potentials.md	how	4	0	ok	worked t_r, showed κR=d−vt exactly
+domains/physics/electrodynamics/lienard-wiechert-potentials.md	mis	8	0	ok	bullet 2 1/κ origin phrasing is heuristic but defensible
+domains/physics/electrodynamics/lienard-wiechert-potentials.md	old:q:0	1	1	fixed	"κ is a feature of the velocity fields only" false (κ³ in acceleration field); contradicted new bullet 3
+domains/physics/electrodynamics/lienard-wiechert-potentials.md	old:q:3	1	1	fixed	same κ-only-in-velocity-fields error
+domains/physics/electrodynamics/lienard-wiechert-potentials.md	old:q:4	1	1	fixed	non-radiation of uniform motion attributed to the equivalence principle (answer + Explainer); it follows from the principle of relativity
+domains/physics/electrodynamics/lorentz-covariance-em.md	how	4	0	ok	worked Galilean chain rule: cross term −(2v/c²)∂t'∂x' confirmed
+domains/physics/electrodynamics/lorentz-covariance-em.md	mis	8	0	ok
+domains/physics/electrodynamics/lorentz-transformations-em-fields.md	how	3	0	ok	worked γvE/c² = μ0γλv/(2πr)
+domains/physics/electrodynamics/lorentz-transformations-em-fields.md	mis	6	0	ok
+domains/physics/electrodynamics/lorentz-transformations-em-fields.md	old:ex	1	1	fixed	frame-where-B=0/E=0 claim needs E·B=0; qualifier added
+domains/physics/electrodynamics/lorenz-gauge.md	how	4	0	ok	derived φ wave equation and □λ source; correct
+domains/physics/electrodynamics/lorenz-gauge.md	mis	6	0	ok
+domains/physics/electrodynamics/lorenz-gauge.md	old:ex	1	1	fixed	□²=(1/c²)∂t²−∇² gives □²φ=+ρ/ε0, not −; changed definition to ∇²−(1/c²)∂t²
+domains/physics/electrodynamics/magnetic-dipole-radiation.md	how	4	0	ok	E1/M1 power formulas and (v/c)² ratio check
+domains/physics/electrodynamics/magnetic-dipole-radiation.md	mis	6	0	ok
+domains/physics/electrodynamics/magnetic-dipole-radiation.md	old:core	1	1	fixed	"(a/c)²" dimensionally wrong; now (a/λ)²
+domains/physics/electrodynamics/magnetic-dipole-radiation.md	old:ex	1	1	fixed	[O III] green lines are mainly M1, not "the quadrupole channel"; now "M1 or E2 channel"
+domains/physics/electrodynamics/magnetic-field-and-lorentz-force.md	how	4	0	ok	worked r=0.104 m, T=6.56e-7 s
+domains/physics/electrodynamics/magnetic-field-and-lorentz-force.md	mis	6	0	ok
+domains/physics/electrodynamics/magnetic-susceptibility-and-permeability.md	how	4	0	ok	worked B=2.513/2.516 mT and 12.57 T
+domains/physics/electrodynamics/magnetic-susceptibility-and-permeability.md	mis	8	0	ok
+domains/physics/electrodynamics/magnetization-and-temperature.md	how	4	0	ok	small-m expansion reproduced exactly; β=½
+domains/physics/electrodynamics/magnetization-and-temperature.md	mis	6	0	ok
+domains/physics/electrodynamics/magnetization-and-temperature.md	old:core	1	1	fixed	typo "(Tₓ − T)" → "(T_c − T)"
+domains/physics/electrodynamics/maxwell-stress-tensor-forces.md	how	4	0	ok	T_zz=½ε0E² gives σ²/(2ε0) attraction; matches σ·σ/(2ε0)
+domains/physics/electrodynamics/maxwell-stress-tensor-forces.md	mis	6	0	ok
+domains/physics/electrodynamics/maxwell-stress-tensor-forces.md	old:ex	1	1	fixed	"Electric fields push along field lines (tension)" self-contradictory and against new bullet 2; now "pull"
+domains/physics/electrodynamics/maxwell-stress-tensor.md	how	4	0	ok	T_zz=−u; sunlight 1360/c=4.5 μN/m²
+domains/physics/electrodynamics/maxwell-stress-tensor.md	mis	6	0	ok
+domains/physics/electrodynamics/maxwell-stress-tensor.md	q:4:explanation	4	0	ok
+domains/physics/electrodynamics/method-of-images.md	how	4	0	ok	σ(r) correct; V=0 at both sphere poles confirmed for image −qR/d at R²/d
+domains/physics/electrodynamics/method-of-images.md	mis	6	0	ok
+domains/physics/electrodynamics/multipole-expansion-fields.md	how	4	0	ok	exact on-axis V=2a²/[z(z²−a²)] confirmed; 1% at 10a, 33% at 2a
+domains/physics/electrodynamics/multipole-expansion-fields.md	mis	6	0	ok
+domains/physics/electrodynamics/multipole-expansion-fields.md	old:q:2	1	1	fixed	softened "is expected to be the leading contribution" made the false key wrong (Explainer says dipole often dominates); restored "always"
+domains/physics/electrodynamics/multipole-expansion-fields.md	old:ex	1	1	fixed	"most neutral objects have non-zero dipole moments" false (atoms, N2, CO2...); now "many neutral molecules"
+domains/physics/electrodynamics/multipole-expansion-radiation.md	how	4	0	ok	∫J=ṗ via parts + continuity; ka=0.021
+domains/physics/electrodynamics/multipole-expansion-radiation.md	mis	6	0	ok
+domains/physics/electrodynamics/multipole-expansion-radiation.md	old:core	1	1	fixed	"(a/c)²" dimensionally wrong; now (a/λ)²
+domains/physics/electrodynamics/multipole-expansion-radiation.md	old:q:3	2	2	fixed	"two equal and opposite charges oscillating symmetrically" do have a dipole moment (2qz); now "two equal charges"; "can seldom radiate" restored to "cannot"
+domains/physics/electrodynamics/multipole-expansion-radiation.md	old:q:3	1	1	fixed	explanation claimed all-zero radiating moments never occur for oscillating charges; a radially pulsating spherical shell is a counterexample
+domains/physics/electrodynamics/multipole-expansion-radiation.md	old:ex	1	1	fixed	radiation expansion described as "in powers of (a/r)"; it is in powers of ka
+domains/physics/electrodynamics/multipole-static-fields.md	how	4	0	ok	worked p=2qa x̂, exact V, 1% at 10a, square quadrupole Q=p=0
+domains/physics/electrodynamics/multipole-static-fields.md	mis	6	0	ok
+domains/physics/electrodynamics/multipole-static-fields.md	old:q:0	1	1	fixed	"perfectly symmetric" neutral atom keyed as quadrupole; a spherically symmetric atom gives zero (new bullet 2), so distractor D was arguably right; question now specifies a non-spherical distribution

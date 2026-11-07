@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 The Calvo pricing framework models price adjustment as random, with each firm receiving a constant probability of resetting its price each period independent of the size of desired price changes. This generates a realistic distribution of prices across firms and produces substantial monetary policy transmission lags despite firms' ability to adjust prices immediately when allowed. Calvo pricing's mathematical tractability has made it the standard specification in modern DSGE models used by central banks.
 
+## How It's Best Learned
+Take θ = 0.75 and suppose every firm's desired price jumps permanently by 10%. Each period, a quarter of the remaining old prices reset, so the price level has risen 10% × (1 − 0.75^t): 2.5% after one quarter, about 4.4% after two, about 6.8% after four. Tabulating this shows the gradual adjustment and the fading real effect.
+
+## Common Misconceptions
+- θ is the probability that a firm changes its price. (In this notation θ is the probability of keeping the old price; the reset probability is 1 − θ.)
+- An expected price duration of four quarters means each price lasts four quarters. (Durations are random: with θ = 0.75 a quarter of new prices change the next period, and about 32% are still in place after four quarters.)
+- Because prices are sticky, a monetary shock changes real output permanently. (As more firms reset, the price level catches up and the real effect fades.)
+
 ## Questions
 
 ```yaml
@@ -49,7 +57,7 @@ The Calvo pricing framework models price adjustment as random, with each firm re
   answer: true
   explanation: "This is the defining feature of Calvo pricing: the reset probability (1 − θ) is constant and memoryless — independent of how long the firm has been stuck or how misaligned its price has become. This is sometimes called the 'Calvo lottery.' It is mathematically convenient (it generates a tractable, stationary distribution of price vintages) and is the key assumption that makes DSGE models analytically solvable. The assumption is a simplification — in reality, firms with severely misaligned prices are more likely to update — but it is tractable and empirically reasonable on average."
 
-- question: "The Calvo model predicts that firms adjust prices frequently in small increments, keeping prices nearly generally close to their optimal level."
+- question: "The Calvo model predicts that firms adjust prices frequently in small increments, keeping prices close to their optimal level."
   type: true-false
   answer: false
   explanation: "The Calvo model predicts the opposite: firms adjust prices infrequently (only when they receive a random 'green light') and in large increments when they do adjust, because their prices may have drifted far from optimal during the period of being stuck. The realistic feature of Calvo pricing is that it generates lumpy, infrequent price changes, not continuous small adjustments. This matches empirical evidence showing prices are often unchanged for months before jumping by several percentage points when they do change."

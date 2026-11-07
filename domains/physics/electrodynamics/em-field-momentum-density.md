@@ -23,7 +23,15 @@ status: validated
 # Momentum Density in Electromagnetic Fields
 
 ## Core Idea
-Electromagnetic fields carry momentum density g = S/c² = (ε₀/c²)(E × B), where S is the Poynting vector. This momentum transfers to matter in the form of radiation pressure, with magnitude equal to energy density divided by c².
+Electromagnetic fields carry momentum density g = S/c² = ε₀(E × B), where S is the Poynting vector. For a plane wave g = u/c, and this momentum transfers to matter as radiation pressure equal to the energy density u on an absorber.
+
+## How It's Best Learned
+Put numbers on radiation pressure. Sunlight near Earth has intensity about 1.36 kW/m², so I/c gives about 4.5 μPa on an absorber and 9 μPa on a mirror. A reflective sail 100 m on a side then feels about 0.09 N. Next redo the mirror at an angle θ and show the pressure becomes (2I/c)cos²θ: one cosine for the area, one for the momentum component.
+
+## Common Misconceptions
+- Radiation pressure on a mirror is the same at every angle of incidence. (For a perfect reflector it falls as cos²θ. The beam covers more area and only the normal momentum component reverses.)
+- Light pressure is what spins a Crookes radiometer. (The vanes turn the opposite way from what light pressure predicts. Thermal effects in the leftover gas drive them.)
+- Only propagating waves carry field momentum. (Any region with crossed E and B has nonzero ε₀(E × B), including static arrangements of charges and magnets.)
 
 ## Questions
 

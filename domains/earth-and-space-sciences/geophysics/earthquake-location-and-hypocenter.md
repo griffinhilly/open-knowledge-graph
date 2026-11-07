@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Earthquake hypocenter (focus) locations are determined by measuring P and S arrival times at multiple seismometer stations and solving an inverse problem to find the source space and time coordinates. The method relies on forward modeling of travel times through a velocity model and iterative least-squares or probabilistic inversion. Hypocenter distribution reveals the geometry of faults, subduction zones, and stress accumulation zones at plate boundaries.
 
+## How It's Best Learned
+Locate an event by hand before using software. With Vp = 6 km/s and Vs = 3.5 km/s, distance equals 8.4 times the S−P time, so a 5 s gap means 42 km. Draw circles of the computed radii around three stations on a map and find where they meet. Then shift one reading by half a second and see how far the epicenter moves.
+
+## Common Misconceptions
+- A well-constrained epicenter means the depth is just as well constrained. (Depth is often the weakest coordinate because it trades off with origin time, unless a station sits close to the epicenter.)
+- Small arrival-time residuals prove the location is correct. (A wrong velocity model can fit the arrivals well while shifting the hypocenter systematically.)
+- The hypocenter marks where the whole earthquake happened. (It is only where rupture started; a large rupture can extend tens to hundreds of kilometres away from it.)
+- Double-difference relocation fixes absolute locations. (It sharpens the positions of events relative to each other; the whole cluster can still be offset by velocity-model error.)
+
 ## Questions
 
 ```yaml

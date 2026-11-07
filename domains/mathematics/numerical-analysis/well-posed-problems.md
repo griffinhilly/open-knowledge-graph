@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 A problem is well-posed (Hadamard) if (1) a solution exists, (2) it is unique, and (3) it depends continuously on input data. Ill-posed problems violate one or more conditions and are numerically unstable. Understanding well-posedness guides method selection; ill-posed problems may require regularization to be numerically tractable.
 
+## How It's Best Learned
+Take f(x) = sin x, add random noise of size about 10⁻⁶ to its values, and estimate f'(1) with (f(1 + h) − f(1))/h for h = 10⁻¹ down to 10⁻⁸. The error shrinks at first and then grows, since noise is divided by h. Then sort short examples into the Hadamard condition each one fails: an inconsistent system, a consistent rank-deficient system, and differentiating data.
+
+## Common Misconceptions
+- Any problem with a large condition number is ill-posed. (A nonsingular linear system with a huge condition number still has one solution that depends continuously on b. It is well-posed but ill-conditioned.)
+- Ill-posedness comes from floating-point rounding, so higher precision will fix it. (The instability belongs to the mathematical problem itself. Differentiating noisy data amplifies the noise at any precision.)
+- Regularization recovers the exact solution of the original problem. (It solves a nearby well-posed problem instead, and the result is biased toward whatever the penalty or constraint favors.)
+
 ## Questions
 
 ```yaml

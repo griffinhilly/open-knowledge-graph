@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Revealed preference reconstructs preferences purely from observed choices without assuming a utility function. If bundle A is chosen when B is affordable, then A is revealed preferred to B. The Weak Axiom (WARP) and Strong Axiom (SARP) ensure consistency: violations indicate choices inconsistent with any utility-maximizing behavior. This data-driven approach recovers ordinal preferences from market observations.
 
+## How It's Best Learned
+Plot one observed choice and its budget line. Shade the budget set as revealed worse than the choice, and shade the bundles with more of both goods as better. The indifference curve through the choice must pass between the two regions. Add a second observation at new prices and watch the band where the curve can lie get narrower.
+
+## Common Misconceptions
+- With enough data, revealed preference pins down one exact utility function. (A finite dataset gives bounds on where indifference curves can lie. Even full knowledge of the ordering fixes utility only up to an increasing transformation.)
+- Revealed preference needs no assumptions at all. (It needs no functional form, but it still assumes preferences stayed fixed across the observations and that the analyst knows each budget set.)
+- A SARP violation proves the consumer is irrational. (A violation can also come from changed tastes, measurement error, or goods and prices the analyst did not record. The test checks the data and these assumptions together.)
+
 ## Questions
 
 ```yaml

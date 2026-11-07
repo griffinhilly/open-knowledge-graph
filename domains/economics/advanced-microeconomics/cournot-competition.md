@@ -29,6 +29,15 @@ status: validated
 ## Core Idea
 Firms simultaneously choose quantities of a homogeneous product; price clears the market. Each firm's profit depends on its output and rivals' outputs. Cournot-Nash equilibrium occurs where each firm optimizes given rivals' quantities. As competitors increase, equilibrium price approaches marginal cost. Cournot yields prices between monopoly and perfect competition.
 
+## How It's Best Learned
+Use P = 100 − Q with marginal cost 10. Derive firm 1's best response q₁ = (90 − q₂)/2 and plot both reaction lines. Then iterate by hand from q₂ = 0: firm 1 picks 45, firm 2 replies 22.5, firm 1 replies 33.75. The sequence closes in on 30 each, and seeing it converge makes the intersection meaningful.
+
+## Common Misconceptions
+- Cournot firms produce the monopoly output and split it. (Each firm ignores how its output lowers the rival's price, so total output exceeds the monopoly level.)
+- In Cournot equilibrium each firm sets price equal to marginal cost. (Each firm sets its own marginal revenue equal to marginal cost, so price stays above marginal cost with a finite number of firms.)
+- If a rival produces more, a Cournot firm should produce more to keep its market share. (Best responses slope downward. Higher rival output shrinks residual demand, so the firm produces less.)
+- Cournot equilibrium requires firms to know each other's actual output in advance. (Choices are simultaneous. The equilibrium is a pair where each firm's output is a best response to the other's.)
+
 ## Questions
 
 ```yaml
@@ -55,7 +64,7 @@ Firms simultaneously choose quantities of a homogeneous product; price clears th
 - question: "In Cournot competition, a firm's best-response quantity decreases when it expects its rival to produce more output."
   type: true-false
   answer: true
-  explanation: "The best-response (reaction) function is downward sloping: if the rival increases output, total supply rises, driving down market price. This shrinks the residual demand facing our firm, lowering the profit-maximizing quantity for our firm. Setting MR = MC with higher rival output yields a lower optimal own-output. This strategic substitutability — where rivals' quantities and own quantities move in opposite directions — is the defining feature of Cournot-style quantity competition. (Contrast with Bertrand competition, where strategies are also substitutes, but in price space.)"
+  explanation: "The best-response (reaction) function is downward sloping: if the rival increases output, total supply rises, driving down market price. This shrinks the residual demand facing our firm, lowering the profit-maximizing quantity for our firm. Setting MR = MC with higher rival output yields a lower optimal own-output. This strategic substitutability — where rivals' quantities and own quantities move in opposite directions — is the defining feature of Cournot-style quantity competition. (Contrast with Bertrand competition with differentiated products, where prices are typically strategic complements.)"
 
 - question: "Cournot competition and perfect competition are mostly separate theoretical models with no mathematical relationship between them."
   type: true-false

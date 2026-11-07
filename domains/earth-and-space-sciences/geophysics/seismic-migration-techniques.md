@@ -25,7 +25,16 @@ status: validated
 # Seismic Migration and Depth Imaging
 
 ## Core Idea
-Seismic migration repositions reflected events to their true subsurface locations by accounting for dipping layers and velocity variations. Time migration assumes constant velocity, while depth migration uses accurate velocity models to correct for lateral velocity changes. Modern pre-stack depth migration (PSDM) produces depth-converted images essential for exploration and accurate structural interpretation.
+Seismic migration repositions reflected events to their true subsurface locations by accounting for dipping layers and velocity variations. Time migration assumes velocity varies with depth but not laterally, while depth migration uses accurate velocity models to correct for lateral velocity changes. Modern pre-stack depth migration (PSDM) produces depth-converted images essential for exploration and accurate structural interpretation.
+
+## How It's Best Learned
+Migrate two zero-offset picks by hand with v = 2,000 m/s. Traces 500 m apart record a reflection at 1.0 s and 1.2 s. Draw semicircles of radius vt/2, here 1,000 m and 1,200 m, centered on each trace. Then draw the line tangent to both. It dips arcsin(200/500) ≈ 23.6°, steeper than the 21.8° of the unmigrated picks, and sits updip.
+
+## Common Misconceptions
+- Migration is the same as converting time to depth. (Time migration still outputs time; migration moves dipping events laterally and collapses diffractions, which a vertical time-to-depth stretch cannot do.)
+- Migration moves dipping reflectors downdip. (Unmigrated events are displaced downdip; migration moves them updip, steepens them, and shortens them.)
+- A migrated image is correct whatever velocity was used. (Too high a velocity over-migrates and leaves upward-curving "smiles"; too low a velocity under-migrates and leaves residual diffraction tails.)
+- Depth migration gives a better image than time migration in every case. (Depth migration is only as good as its velocity model; with a poor model it can misplace events more than time migration does.)
 
 ## Questions
 

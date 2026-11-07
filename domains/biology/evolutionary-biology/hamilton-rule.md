@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Hamilton's rule (rb > c) predicts that altruistic behavior evolves when the benefit to recipients weighted by relatedness (rb) exceeds the cost to the altruist (c). This quantitative framework explains why sterile castes evolve in eusocial insects and how cooperation can be evolutionarily stable.
 
+## How It's Best Learned
+Build a small table with columns r, b, c and rb − c, and fill it for helping a full sibling (r = 0.5), a half sibling (0.25) and a first cousin (0.125) at a fixed cost of c = 1. Find the break-even benefit for each row: 2, 4 and 8. Then redo the sibling row for a haplodiploid female helping a sister (r = 0.75) versus a brother (r = 0.25).
+
+## Common Misconceptions
+- r is the fraction of all genes two relatives share. (r is the probability of sharing an allele by common descent, above the population baseline; relatives share most of their genome with any member of the species.)
+- Hamilton's rule says animals calculate relatedness before helping. (The rule describes which alleles selection favors; animals can follow simple cues such as familiarity or shared nest without any calculation.)
+- Haplodiploidy alone explains why social insects have sterile workers. (Sisters have r = 0.75, but a female's relatedness to her brothers is only 0.25, and eusociality also evolved in diploid species such as naked mole-rats.)
+- Hamilton's rule applies only to dramatic sacrifices like sterility. (It covers any social act with fitness costs and benefits, including small ones such as alarm calls or food sharing.)
+
 ## Questions
 
 ```yaml
@@ -33,7 +42,7 @@ Hamilton's rule (rb > c) predicts that altruistic behavior evolves when the bene
     - "r = 0.25 for cousins, so 8 × 0.25 = 2 > 1, well exceeding the threshold"
     - "Haldane's quip doesn't satisfy Hamilton's rule — he was speaking metaphorically"
   answer: 1
-  explanation: "First cousins share on average r = 0.125 of their genes by common descent (one of eight possible shared great-grandparent alleles). With eight cousins: rb = 8 × 0.125 = 1.0, which exactly equals the cost c = 1 (one life). This is the break-even point — the allele for this altruism neither spreads nor declines. With even slightly higher benefit (nine cousins) or lower cost, the allele would spread. r = 0.5 applies to full siblings (two brothers is sufficient for Haldane), and r = 0.25 applies to half-siblings or grandchildren."
+  explanation: "First cousins share on average r = 0.125 of their genes by common descent (they are linked through a shared pair of grandparents). With eight cousins: rb = 8 × 0.125 = 1.0, which exactly equals the cost c = 1 (one life). This is the break-even point — the allele for this altruism neither spreads nor declines. With even slightly higher benefit (nine cousins) or lower cost, the allele would spread. r = 0.5 applies to full siblings (two brothers is sufficient for Haldane), and r = 0.25 applies to half-siblings or grandchildren."
 
 - question: "Worker bees in a haplodiploid (Hymenoptera) colony are sterile females who help their mother (the queen) produce more sisters rather than reproducing themselves. Hamilton's rule explains this because:"
   type: multiple-choice
@@ -65,7 +74,7 @@ Hamilton's rule (rb > c) predicts that altruistic behavior evolves when the bene
 
 From inclusive fitness, you already understand that an organism's evolutionary success is not measured solely by its own offspring but includes the reproduction of relatives who share its genes. Hamilton's rule translates this insight into a precise, testable inequality: **rb > c**. Here, **r** is the coefficient of relatedness between the altruist and the recipient (the probability that they share a given allele by common descent), **b** is the reproductive benefit the recipient gains from the altruistic act, and **c** is the reproductive cost the altruist pays. When the left side exceeds the right, the gene for altruism spreads — even though the altruist personally suffers a fitness cost.
 
-The intuition behind the rule is bookkeeping. Imagine you carry an allele that makes you help your sibling at a cost to yourself. Your sibling shares half your genes (r = 0.5), so any reproductive benefit they gain has a 50% chance of propagating copies of that same allele. If helping your sibling doubles their reproductive output (b = 2 extra offspring) at a cost of one of your own offspring (c = 1), the math works out: 0.5 × 2 = 1 > 1... actually that is exactly equal. The allele breaks even. But if the benefit is slightly larger or the cost slightly lower, the allele spreads. The biologist J.B.S. Haldane reportedly quipped that he would lay down his life for two brothers or eight cousins — a colorful statement of Hamilton's rule, since r = 0.5 for siblings (2 × 0.5 = 1) and r = 0.125 for cousins (8 × 0.125 = 1).
+The intuition behind the rule is bookkeeping. Imagine you carry an allele that makes you help your sibling at a cost to yourself. Your sibling shares half your genes (r = 0.5), so any reproductive benefit they gain has a 50% chance of propagating copies of that same allele. If helping your sibling doubles their reproductive output (b = 2 extra offspring) at a cost of one of your own offspring (c = 1), then 0.5 × 2 = 1, which exactly equals c. The allele breaks even. But if the benefit is slightly larger or the cost slightly lower, the allele spreads. The biologist J.B.S. Haldane reportedly quipped that he would lay down his life for two brothers or eight cousins — a colorful statement of Hamilton's rule, since r = 0.5 for siblings (2 × 0.5 = 1) and r = 0.125 for cousins (8 × 0.125 = 1).
 
 The most dramatic application of Hamilton's rule is explaining **eusociality** in the Hymenoptera (ants, bees, wasps). Due to their **haplodiploid** sex-determination system, female hymenopterans share three-quarters of their genes with their sisters (r = 0.75) but only half with their own daughters (r = 0.5). Hamilton's rule predicts that a female in a haplodiploid species gains more inclusive fitness by helping her mother produce sisters than by reproducing herself — which is exactly the behavior of sterile worker castes. This elegant explanation of one of evolution's greatest puzzles was Hamilton's original motivation for formalizing the rule. However, eusociality has also evolved in diploid species (naked mole-rats, some shrimp), indicating that high relatedness facilitates but does not require haplodiploidy.
 

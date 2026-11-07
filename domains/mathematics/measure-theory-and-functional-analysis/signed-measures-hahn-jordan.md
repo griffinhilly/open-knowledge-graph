@@ -18,6 +18,14 @@ status: validated
 ## Core Idea
 A signed measure ν: F → ℝ is countably additive but can take negative values. Every signed measure decomposes uniquely as ν = ν⁺ - ν⁻ (Hahn-Jordan), where ν⁺, ν⁻ are mutually singular positive measures.
 
+## How It's Best Learned
+Decompose one density measure fully. Let ν(E) = ∫_E sin x dx on [0, 2π]. A Hahn decomposition is P = [0, π], N = (π, 2π], so ν⁺([0, 2π]) = 2, ν⁻([0, 2π]) = 2, |ν|([0, 2π]) = 4, and ν([0, 2π]) = 0. Note that the point π can sit in P or N. Then write a non-minimal decomposition ν = (ν⁺ + λ) − (ν⁻ + λ) to see why mutual singularity is required.
+
+## Common Misconceptions
+- A positive set is any set E with ν(E) ≥ 0. (Every measurable subset must have nonnegative measure. In the sin example, [0, 3π/2] has ν = 1, but its subset (π, 3π/2] has ν = −1.)
+- |ν(E)| and |ν|(E) are the same number. (Only |ν(E)| ≤ |ν|(E) holds. On [0, 2π] in the sin example, ν = 0 while |ν| = 4.)
+- A signed measure may take both +∞ and −∞ as values. (When infinite values are allowed, at most one of them can occur, so that expressions like ∞ − ∞ never arise in additivity.)
+
 ## Questions
 
 ```yaml
@@ -46,7 +54,7 @@ A signed measure ν: F → ℝ is countably additive but can take negative value
   answer: true
   explanation: "True. Since ν⁺ and ν⁻ are both positive measures, their sum |ν| is also a positive measure — it measures the total 'magnitude' of signed mass, analogous to the absolute value of a real number. |ν|(E) = ν⁺(E) + ν⁻(E) ≥ 0 always. This is why |ν| is called the total variation: it captures total mass regardless of sign."
 
-- question: "The Hahn decomposition of a measurable space into a positive set P and a negative set N is largely unique — there is exactly one such partition with no ambiguity."
+- question: "The Hahn decomposition of a measurable space into a positive set P and a negative set N is unique — there is exactly one such partition with no ambiguity."
   type: true-false
   answer: false
   explanation: "False. The Hahn decomposition is unique only up to ν-null sets. If Z is a set with ν(E) = 0 for all measurable E ⊆ Z (a ν-null set), you can move Z from P to N or vice versa without violating the conditions, producing a different partition that still satisfies all requirements. The decomposition is essentially unique — any two Hahn decompositions differ only on null sets — but not absolutely unique."

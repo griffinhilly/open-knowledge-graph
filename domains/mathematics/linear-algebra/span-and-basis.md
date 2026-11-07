@@ -31,6 +31,12 @@ The span of vectors v₁, ..., vₖ is all linear combinations c₁v₁ + ... + 
 ## How It's Best Learned
 Compute span geometrically in R² and R³ (lines, planes). Check linear independence by row-reducing the matrix of vectors. Build a basis by selecting pivot columns from a spanning set.
 
+## Common Misconceptions
+- Three vectors are independent as long as no two of them are parallel. (Pairwise checks are not enough: (1, 0, 0), (0, 1, 0) and (1, 1, 0) are pairwise non-parallel, but the third is the sum of the first two.)
+- Adding more vectors to a set always makes its span bigger. (A vector already in the span adds nothing; the span grows only when the new vector lies outside it.)
+- Each space has one basis, the standard one. (A space has infinitely many bases; any two non-parallel vectors in ℝ², such as (1, 1) and (1, −1), form a basis.)
+- Two vectors in ℝ³ can span all of ℝ³ if they point in different enough directions. (Two vectors span at most a plane; spanning ℝ³ takes at least three.)
+
 ## Questions
 
 ```yaml
@@ -40,9 +46,9 @@ Compute span geometrically in R² and R³ (lines, planes). Check linear independ
     - "{v₁, v₂, v₃} is a valid basis for R² because all three are needed to reach every point"
     - "{v₁, v₂, v₃} spans R² but is not a basis, because v₃ is a linear combination of v₁ and v₂"
     - "{v₁, v₂} is not a basis because it doesn't include the large vector v₃=(2,3)"
-    - "Any two of these three vectors form a linearly independent set and thus a basis for R²"
+    - "No two of these three vectors form a basis for R², because some pair is always linearly dependent"
   answer: 1
-  explanation: "Since v₃ = 2v₁ + 3v₂, v₃ is linearly dependent on v₁ and v₂. The set {v₁,v₂,v₃} spans R² correctly, but fails the independence requirement — v₃ is redundant. A basis must be both spanning AND independent. Option A is the classic misconception: 'we need v₃ to reach (2,3)' confuses span (you can reach (2,3) using v₁ and v₂ alone) with independence. Option D is also false: (1,0) and (2,0) are two vectors in R² that are NOT independent — being two vectors doesn't guarantee independence."
+  explanation: "Since v₃ = 2v₁ + 3v₂, v₃ is linearly dependent on v₁ and v₂. The set {v₁,v₂,v₃} spans R² correctly, but fails the independence requirement — v₃ is redundant. A basis must be both spanning AND independent. Option A is the classic misconception: 'we need v₃ to reach (2,3)' confuses span (you can reach (2,3) using v₁ and v₂ alone) with independence. Option D is also false: no vector here is a multiple of another, so every pair is independent and any two of them form a basis for R²."
 
 - question: "Five vectors span a subspace V, but some are linearly dependent. After removing the redundant ones, 3 linearly independent vectors remain that still span V. What can you conclude?"
   type: multiple-choice
@@ -54,7 +60,7 @@ Compute span geometrically in R² and R³ (lines, planes). Check linear independ
   answer: 0
   explanation: "Once you have 3 linearly independent vectors that span V, you have a basis. The fundamental theorem of dimension states that every basis for the same subspace has the same cardinality. So V has dimension exactly 3 — any other basis will also have 3 vectors. Option B is wrong because the original 5-vector spanning set was overcomplete (had redundancy); it's the size of a *minimal* spanning set (a basis) that defines dimension, not the size of any spanning set. Option D conflates the size of an over-complete spanning set with dimension."
 
-- question: "Two vectors are linearly dependent if and mainly if at least one of them is the zero vector."
+- question: "Two vectors are linearly dependent if and only if at least one of them is the zero vector."
   type: true-false
   answer: false
   explanation: "Linear dependence means one vector can be written as a linear combination of the others — equivalently, there exist scalars c₁, c₂, not all zero, such that c₁v₁ + c₂v₂ = 0. Two nonzero vectors like (1,2) and (2,4) are linearly dependent (the second is 2× the first) without either being zero. Geometrically in R², two nonzero vectors are dependent if and only if they are parallel (collinear through the origin). The zero vector does always create dependence, but dependence does not require a zero vector."

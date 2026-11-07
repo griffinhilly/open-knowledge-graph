@@ -31,6 +31,15 @@ status: validated
 ## Core Idea
 Adverse selection occurs when one party has private information about their type/quality and this affects contracting. Example: insurance buyers know health risk better than insurers. High-risk types seek coverage eagerly; insurers cannot distinguish types. Standard contracts collapse (high risks drive out low risks). Solutions: screening (insurer offers menu of contracts) or signaling (informed party reveals type).
 
+## How It's Best Learned
+Run a numeric unraveling example. Suppose buyers have expected losses spread evenly from 0 to 100, and each buys coverage only if the premium is below their own expected loss. At a premium of 50, only buyers above 50 stay, and their average loss is 75. At 75 the average of those remaining is 87.5. Tracing these rounds shows the pool shrinking toward the riskiest buyers.
+
+## Common Misconceptions
+- Adverse selection means buyers behave carelessly once insured. (That is moral hazard, a hidden action after the contract. Adverse selection is a hidden type that exists before the contract.)
+- The problem is that the insurer knows too little in general. (The problem is the asymmetry. If both sides were equally uninformed, average-risk pricing would not drive out low-risk buyers.)
+- Adverse selection always destroys the whole market. (Total collapse is the extreme case. Often the market shrinks to the higher-risk types, or screening and signaling keep it going at some efficiency cost.)
+- Charging a higher premium fixes adverse selection. (A higher pooled premium drives out more low-risk buyers and can make the pool worse.)
+
 ## Questions
 
 ```yaml

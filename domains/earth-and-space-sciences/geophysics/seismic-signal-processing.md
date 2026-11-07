@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Seismic data are processed in time and frequency domains using filtering, deconvolution, and spectral analysis. Fourier transforms convert time-domain signals to frequency content, enabling removal of noise and geologic artifacts.
 
+## How It's Best Learned
+Build a synthetic trace in a spreadsheet or short script. Convolve a few spikes with a 30 Hz wavelet, then add a 60 Hz hum and a slow swell. Take the Fourier transform, find each component in the spectrum, and bandpass it out. Then divide by the wavelet spectrum and watch noise blow up at frequencies where the wavelet has little energy.
+
+## Common Misconceptions
+- Dividing by the wavelet spectrum recovers the reflectivity at every frequency. (Where the wavelet carries little energy, division amplifies noise, so practical deconvolution adds a small stabilizing term and recovers mainly the band the source excited.)
+- A bandpass filter removes noise without touching the signal. (Noise inside the passband stays, and sharp cutoffs can make the filtered wavelet ring.)
+- A trace sampled every 4 ms faithfully records any frequency present in the ground motion. (Frequencies above the Nyquist frequency, 125 Hz at 4 ms, fold back as false lower frequencies unless they are filtered out before sampling.)
+- The amplitude spectrum tells you everything about a signal. (Two signals can share an amplitude spectrum yet look different in time; the phase spectrum holds the timing information.)
+
 ## Questions
 
 ```yaml

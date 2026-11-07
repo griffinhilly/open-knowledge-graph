@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 RBC theory models business cycles as efficient responses to exogenous technology shocks in competitive markets with flexible prices, rational expectations, and perfectly functioning financial markets. Persistent technology shocks drive both output and employment fluctuations through intertemporal substitution and income effects on labor supply, with no involuntary unemployment in equilibrium. RBC models minimize a role for monetary policy in stabilization and predict that output fluctuations reflect optimal responses to real fundamentals rather than nominal frictions.
 
+## How It's Best Learned
+Compare a temporary and a permanent productivity rise using the household's labor-supply condition. With log utility in consumption, a permanent rise moves income and substitution effects by offsetting amounts, so hours stay flat. A temporary rise makes today an unusually good time to work, so hours rise. Then read a model's impulse responses to a persistent TFP shock and compare how much consumption and investment move.
+
+## Common Misconceptions
+- RBC theory says workers in a recession are idle by choice in the everyday sense of quitting. (In the model, total hours fall because households supply less labor when its temporary return is low; the model has no separate pool of involuntarily unemployed workers.)
+- A negative technology shock means society has forgotten how to produce. (Shocks are measured as changes in productivity not explained by inputs, which can reflect regulation, input prices or how intensively capital and labor are used.)
+- Because RBC models are calibrated rather than estimated, they are never compared with data. (Parameters are set from long-run facts and micro evidence, and the model's predicted volatilities and correlations are then compared with business-cycle data.)
+
 ## Questions
 
 ```yaml

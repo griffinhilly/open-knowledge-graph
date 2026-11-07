@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Sympatric speciation involves reproductive isolation evolving without geographic barriers, requiring strong disruptive selection and assortative mating. Polyploidy causes instant reproductive isolation in plants. Cichlid fish in lakes provide compelling examples of sympatric diversification through sexual selection and ecological specialization.
 
+## How It's Best Learned
+Treat the two routes separately. For polyploidy, count chromosomes: a diploid with 2n = 14 makes gametes with 7, a tetraploid with 4n = 28 makes gametes with 14, so their offspring get 21 and carry three sets that pair badly at meiosis. For ecological divergence, sketch one population on two food types and ask what happens to the in-between offspring with random mating versus mating by food type.
+
+## Common Misconceptions
+- Two species are sympatric products if they live in the same place today. (The term describes where the split happened. Species that overlap now may have diverged apart and come back into contact later.)
+- Disruptive selection alone will split a population in two. (If the extreme types still mate at random, each generation produces intermediate offspring again. Some form of assortative mating is needed to keep the groups apart.)
+- Polyploid speciation takes many generations of divergence. (Crosses between a new tetraploid and its diploid parents give triploid offspring that are usually sterile, so the barrier can appear in one generation.)
+- Assortative mating has to evolve as a separate mate preference. (It can come as a side effect of resource use. If individuals mate on or near the resource they feed on, a shift in resource also sorts mates.)
+
 ## Questions
 
 ```yaml

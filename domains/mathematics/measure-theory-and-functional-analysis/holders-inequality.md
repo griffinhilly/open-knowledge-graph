@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 For 1 < p < ∞ with 1/p + 1/q = 1, Hölder's inequality states ∫|fg| ≤ ‖f‖_p ‖g‖_q. This is the key inequality enabling duality in L^p theory. When p = q = 2, it reduces to Cauchy–Schwarz.
 
+## How It's Best Learned
+Find the conjugate condition by scaling. On ℝ, replace f(x) and g(x) by f(λx) and g(λx). Then ∫|fg| scales by λ⁻¹, while ‖f‖_p ‖g‖_q scales by λ^(−1/p − 1/q). A bound that survives every λ > 0 forces 1/p + 1/q = 1. Then use Hölder with g = 1 on [0,1] to get ‖f‖₁ ≤ ‖f‖_p.
+
+## Common Misconceptions
+- Hölder needs f and g to be integrable themselves. (They only need f ∈ Lᵖ and g ∈ L^q. On ℝ, f = g = 1/(1 + |x|) lies in L² but not L¹, yet fg is integrable.)
+- Larger p always gives a larger Lᵖ norm. (That holds on probability spaces, where Hölder gives ‖f‖₁ ≤ ‖f‖_p. On ℝ it fails: f = (1/2)·1_{[0,4]} has ‖f‖₁ = 2 and ‖f‖₂ = 1.)
+- Hölder has no version at p = 1. (The endpoint pair p = 1, q = ∞ gives ∫|fg| ≤ ‖f‖₁‖g‖∞, which follows from |fg| ≤ |f|·‖g‖∞ almost everywhere.)
+
 ## Questions
 
 ```yaml

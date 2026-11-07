@@ -19,6 +19,15 @@ status: validated
 ## Core Idea
 In second-price (Vickrey) auctions, the winner pays the second-highest bid and truth-telling is dominant. In first-price auctions, the winner pays their own bid, inducing bid-shading below true value. The Revenue Equivalence Theorem shows these formats generate the same expected revenue under independent private values. Strategic incentives differ fundamentally between formats.
 
+## How It's Best Learned
+Fill in a payoff table for a bidder with value 400. Rows are bids of 350, 400 and 450. Columns are the highest rival bid: 300, 380, 420 and 500. Under second-price rules, the 400 row is never beaten: 350 loses the 20 gain at 380, and 450 loses 20 at 420. Redo the table under first-price rules, and bidding 400 earns zero in every column.
+
+## Common Misconceptions
+- In a second-price auction, bidding above your value is harmless because you pay the second price. (Overbidding can make you win when the rival bid lies between your value and your bid, so you pay more than the item is worth to you.)
+- Truth-telling in a second-price auction depends on how many rivals there are or what you believe about them. (It is weakly dominant, so it is optimal whatever the others bid.)
+- Shading in a first-price auction is a mistake that costs the seller money. (Shading is the equilibrium response. Under the theorem's assumptions, the seller's expected revenue matches the second-price auction.)
+- Both formats give the same price in every auction. (They give the same expected revenue. The realized price in a given auction usually differs.)
+
 ## Questions
 
 ```yaml

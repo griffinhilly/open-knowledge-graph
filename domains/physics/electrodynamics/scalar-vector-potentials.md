@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Instead of working directly with E and B fields, one can use the scalar potential φ and vector potential A such that E = -∇φ - ∂A/∂t and B = ∇ × A. These potentials automatically satisfy the two Maxwell equations with no sources (∇·B = 0 and ∇ × E = -∂B/∂t). Potentials are mathematically more convenient and form the foundation for quantum mechanics and quantum field theory.
 
+## How It's Best Learned
+Write two potentials for a uniform field Bẑ: A₁ = ½B(−y, x, 0) and A₂ = B(0, x, 0). Check that both curls give Bẑ and that they differ by ∇(Bxy/2). Then let B grow slowly with φ = 0. E = −∂A₁/∂t has magnitude Ḃr/2 and circles the axis, which matches Faraday's law: ∮E·dl = −πr²Ḃ.
+
+## Common Misconceptions
+- The line integral of E between two points equals the potential difference, as in electrostatics. (With a changing B, ∮E·dl ≠ 0, so the integral depends on the path and is not fixed by φ alone.)
+- A points along B, the way E points along −∇φ. (A is related to B by a curl. For a long solenoid, or a uniform field in the symmetric gauge A₁, A circles the field axis.)
+- Where B = 0, the vector potential must be zero too. (A can be a nonzero gradient field where B = 0, as outside a long solenoid.)
+- The Lorenz gauge condition is an extra law of nature. (It is a choice. A suitable gauge function Λ can always bring the potentials into Lorenz gauge.)
+
 ## Questions
 
 ```yaml

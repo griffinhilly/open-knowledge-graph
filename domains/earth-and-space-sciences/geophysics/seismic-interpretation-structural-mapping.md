@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Seismic interpretation converts migrated seismic images into geological models by identifying reflectors with subsurface interfaces, tracing faults and stratigraphic units, and estimating depths using velocity models. Interpreters map subsurface geology, identify structural traps for hydrocarbon accumulation, assess resource potential, and guide drilling decisions.
 
+## How It's Best Learned
+Pick one horizon around a closed loop of intersecting lines and check that it returns to the same time; a mismatch points to a missed fault or a wrong pick. Then depth-convert one time value two ways. At 2.0 s TWT, an average velocity of 2,500 m/s gives 2,500 m, while 3,000 m/s gives 3,000 m. Ask what that does to a mapped closure.
+
+## Common Misconceptions
+- A high on a time-structure map is a high in depth. (A fast body above the horizon, such as salt or a reef, can pull reflections up in time; a closure must be confirmed after depth conversion.)
+- Every reflection marks a boundary between two rock formations. (Some reflections cut across bedding, such as flat spots at gas-water contacts, and multiples are not real interfaces at all.)
+- A thin bed shows up as separate reflections from its top and base. (Below roughly a quarter of a wavelength, the two reflections interfere and merge into one composite event.)
+- If reflectors line up across a zone, no fault is there. (Faults with throw below seismic resolution, or strike-slip faults with little vertical offset, can leave reflectors almost undisturbed.)
+
 ## Questions
 
 ```yaml

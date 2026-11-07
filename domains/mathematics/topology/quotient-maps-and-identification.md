@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 A quotient map q: X → Y is a surjective function where Y carries the quotient topology relative to q—a set is open iff its preimage is open. Quotient maps formalize the process of identifying points or gluing spaces together. Understanding when quotient maps are homeomorphisms and when they preserve properties like compactness is essential for constructing new spaces.
 
+## How It's Best Learned
+Work one identification all the way through. The map f(t) = (cos 2πt, sin 2πt) from [0, 1] onto S¹ is a continuous surjection from a compact space to a Hausdorff space, so it is a quotient map. It identifies only 0 with 1, so [0, 1]/(0 ~ 1) is homeomorphic to S¹. Then restrict f to [0, 1) and find the open set whose image is not open.
+
+## Common Misconceptions
+- Every continuous surjection is a quotient map. (For f(t) = e^{2πit} from [0, 1) to S¹, the image A of [0, 1/2) is not open in S¹, yet f⁻¹(A) = [0, 1/2) is open. So S¹ does not carry the quotient topology for f.)
+- Quotient maps send open sets to open sets. (Gluing 0 to 1 in [0, 1], the open set [0, 1/2) maps to an arc whose preimage [0, 1/2) ∪ {1} is not open, so the arc is not open.)
+- A quotient of a Hausdorff space is Hausdorff. (Collapse the interval (0, 1) in ℝ to one point. Every saturated open set containing 0 must contain that collapsed point, so the two cannot be separated.)
+
 ## Questions
 
 ```yaml
@@ -47,10 +55,10 @@ A quotient map q: X → Y is a surjective function where Y carries the quotient 
   answer: 1
   explanation: "Identifying the endpoints of [0,1] produces a space homeomorphic to S¹ (the circle). Intuitively, the interval is 'bent' so its two ends meet at a single point, forming a loop. The quotient topology makes this rigorous: an open set in the quotient must have a preimage that is open in [0,1], and the neighborhoods of the identified endpoint must include open sets from both ends of the interval simultaneously — exactly the behavior of a neighborhood of a point on a circle."
 
-- question: "Most surjective continuous map from one topological space to another is a quotient map."
+- question: "Every surjective continuous map from one topological space to another is a quotient map."
   type: true-false
   answer: false
-  explanation: "A continuous bijection that is not a homeomorphism provides a counterexample: the map f: [0,1) → S¹ given by f(t) = e^{2πit} is a continuous bijection, but its inverse is not continuous (the circle topology is 'finer' in the relevant sense). So f is surjective and continuous but not a quotient map — there are open sets in S¹ whose preimages are not open in [0,1). A quotient map requires the stronger condition: V is open in Y if AND ONLY IF f⁻¹(V) is open in X."
+  explanation: "A continuous bijection that is not a homeomorphism provides a counterexample: the map f: [0,1) → S¹ given by f(t) = e^{2πit} is a continuous bijection, but its inverse is not continuous (the circle topology is coarser than the quotient topology for f). So f is surjective and continuous but not a quotient map — there are sets in S¹ that are not open but whose preimages are open in [0,1). A quotient map requires the stronger condition: V is open in Y if AND ONLY IF f⁻¹(V) is open in X."
 
 - question: "If q: X → Y is a quotient map and X is compact, then Y is compact."
   type: true-false

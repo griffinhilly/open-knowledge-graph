@@ -26,6 +26,11 @@ The kernel ker(T) = {v : T(v) = 0} is the null space of the matrix A. The image 
 ## How It's Best Learned
 Compute kernel by solving Ax = 0 (null space). Find image by identifying pivot columns and their span. Relate geometric intuition: kernel is directions that collapse to zero; image is reachable outputs.
 
+## Common Misconceptions
+- An injective transformation has an empty kernel. (The kernel always contains the zero vector, since T(0) = 0. Injective means the kernel is exactly {0}.)
+- The kernel is a subspace of the codomain, because it is about outputs equal to zero. (The kernel is made of inputs, so it is a subspace of the domain V. The image is the one that lives in W.)
+- With the right formula, a linear map from ℝ³ to ℝ² can be injective. (The image has dimension at most 2, so rank-nullity forces the kernel to have dimension at least 1. Some nonzero vector always maps to zero.)
+
 ## Questions
 
 ```yaml
@@ -54,7 +59,7 @@ Compute kernel by solving Ax = 0 (null space). Find image by identifying pivot c
   answer: true
   explanation: "Correct. The image is {T(v) : v ∈ ℝⁿ} — the set of all outputs. These outputs live in the codomain ℝᵐ. The kernel, by contrast, is a subspace of the domain ℝⁿ — it consists of inputs that map to zero, so it lives in the domain. Keeping this straight is important: the rank-nullity theorem says dim(ker T) + dim(im T) = n, where n is the domain dimension, because both the kernel (domain subspace) and image dimension (capped by both domain and codomain) are constrained by n."
 
-- question: "If T: ℝⁿ → ℝᵐ is injective (ker T = {0}), then T should map onto most of ℝᵐ (T is also surjective)."
+- question: "If T: ℝⁿ → ℝᵐ is injective (ker T = {0}), then T must map onto all of ℝᵐ (T is also surjective)."
   type: true-false
   answer: false
   explanation: "Injectivity and surjectivity are independent properties unless n = m. T: ℝ² → ℝ³ defined by T(x,y) = (x, y, 0) is injective (ker T = {0}) but not surjective (only the xy-plane is reachable). Injectivity means no two inputs share an output; surjectivity means every output is reachable. By rank-nullity, an injective T: ℝⁿ → ℝᵐ has rank n — so T is also surjective only if n = m."
@@ -67,7 +72,7 @@ Compute kernel by solving Ax = 0 (null space). Find image by identifying pivot c
 
 ## Explainer
 
-Every linear transformation T: V → W partitions its input space V into two fundamental subspaces. The **kernel** (also called the null space) is the collection of all vectors that T sends to the zero vector: ker(T) = {v ∈ V : T(v) = 0}. Think of the kernel as the "invisible" part of the domain — everything in it collapses to a single point (the zero vector in W) and leaves no trace in the output. The **image** (also called the column space or range) is the collection of all vectors that T can actually produce: im(T) = {T(v) : v ∈ V}. It answers the question "what outputs are reachable?"
+Every linear transformation T: V → W comes with two fundamental subspaces, one in V and one in W. The **kernel** (also called the null space) is the collection of all vectors that T sends to the zero vector: ker(T) = {v ∈ V : T(v) = 0}. Think of the kernel as the "invisible" part of the domain — everything in it collapses to a single point (the zero vector in W) and leaves no trace in the output. The **image** (also called the column space or range) is the collection of all vectors that T can actually produce: im(T) = {T(v) : v ∈ V}. It answers the question "what outputs are reachable?"
 
 From your prerequisite on matrix representations, you know T corresponds to a matrix A. Computing the kernel means solving the homogeneous system Ax = 0 — exactly the null space computation you've seen before. The image is the span of A's columns: any output T(v) = Av is a linear combination of the columns of A, weighted by the entries of v. So "which outputs are reachable?" is the same as "which vectors lie in the column space of A?"
 

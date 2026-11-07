@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 A sequence (xₙ) converges to x if every neighborhood of x contains all but finitely many terms. Unlike metric spaces, limits need not be unique in general topological spaces, and sequences alone cannot always describe the topology—nets or filters are sometimes necessary.
 
+## How It's Best Learned
+Fix a sequence and find its limits in several topologies. On X = {a, b} with open sets ∅, {a}, X, the constant sequence a, a, a, ... converges to both a and b, but b, b, b, ... converges only to b. On ℝ with the cofinite topology, every nonempty open set misses only finitely many points, so the sequence 1, 2, 3, ... converges to every real number.
+
+## Common Misconceptions
+- A convergent sequence has exactly one limit. (Uniqueness needs a condition such as Hausdorff. In the cofinite topology on ℝ, the sequence 1, 2, 3, ... converges to every point.)
+- A constant sequence converges only to its constant value. (On {a, b} with open sets ∅, {a}, X, the only open set containing b is X, so the constant sequence a converges to b as well.)
+- Fewer open sets make convergence harder. (A coarser topology has fewer neighborhoods to enter, so sequences converge more easily. In the indiscrete topology every sequence converges to every point.)
+- Sequences can detect the closure of any set. (This works in first-countable spaces. In general, nets are needed.)
+
 ## Questions
 
 ```yaml

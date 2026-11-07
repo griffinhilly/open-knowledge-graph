@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 The AK model assumes constant returns to a broad capital aggregate (including human capital, infrastructure, and knowledge), eliminating the diminishing returns that limit growth in Solow-type models. With constant marginal returns to capital, the savings rate directly determines the growth rate, creating a knife-edge equilibrium where growth is endogenous and persistent. Though analytically simple, the model illustrates how broad-based capital accumulation without technological bottlenecks can sustain long-run growth.
 
+## How It's Best Learned
+Generalize to Y = AK^α and plot the gross saving curve sAK^(α−1) against K, with a horizontal line at δ. Draw it for α = 0.9, 1, and 1.1. Only α = 1 gives a flat curve and constant growth; below 1 the curve falls to meet δ, and above 1 growth speeds up without limit. This makes the knife-edge visible.
+
+## Common Misconceptions
+- With no steady state, nothing in the AK economy settles down. (The economy is on a balanced growth path: the growth rate sA − δ is constant, and ratios such as K/Y = 1/A and C/Y = 1 − s stay fixed.)
+- Returns to capital that are close to constant give growth close to the AK prediction forever. (With any α below 1, the marginal product eventually falls and the economy converges to a Solow-type steady state, though the approach can be slow.)
+- In the AK model, more saving is better for welfare without limit. (Higher s raises growth but lowers current consumption; the model shows how saving affects growth, and the welfare-best saving rate depends on preferences.)
+
 ## Questions
 
 ```yaml

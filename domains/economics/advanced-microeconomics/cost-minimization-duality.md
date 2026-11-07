@@ -34,6 +34,15 @@ status: validated
 ## Core Idea
 Duality in producer theory establishes equivalence between profit maximization and sequential problems of cost minimization (for given output) plus revenue maximization. The cost function C(w,y) and profit function π(p,w) contain all technological information. Shephard's lemma derives factor demands from the cost function through differentiation.
 
+## How It's Best Learned
+Run the two-step route on y = x^(1/2) with one input priced at w. Step one gives the cost function C = wy². Step two picks output where p = 2wy, so y = p/(2w) and π = p²/(4w). Then differentiate π: ∂π/∂p = p/(2w) recovers supply, and −∂π/∂w = p²/(4w²) recovers input demand, matching y² from step one.
+
+## Common Misconceptions
+- Shephard's lemma and Hotelling's lemma are the same result. (Shephard's lemma differentiates the cost function and gives conditional demands at fixed output. Hotelling's lemma differentiates the profit function and gives supply and unconditional demands.)
+- The profit function is concave in prices like the cost function. (The cost function is concave in input prices. The profit function is convex in prices.)
+- Conditional and unconditional factor demands respond to an input price the same way. (Unconditional demand adds a scale effect, since output also changes when the input price changes.)
+- The profit function exists for any technology. (With constant or increasing returns at fixed prices, profit can be zero or unbounded, so the profit function may not be well defined.)
+
 ## Questions
 
 ```yaml

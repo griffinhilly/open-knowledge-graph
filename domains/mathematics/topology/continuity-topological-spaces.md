@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 A function f: X → Y between topological spaces is continuous if the preimage of every open set is open (equivalently, preimages of closed sets are closed, or preimages of neighborhoods are neighborhoods). This topological definition removes reliance on distance and applies to any pair of topological spaces, unifying continuity across algebra, analysis, and geometry.
 
+## How It's Best Learned
+Test one map with all three characterizations. Take the step function f that is 0 for x < 0 and 1 for x ≥ 0. With open sets, the preimage of (1/2, 3/2) is [0, ∞), which is not open. With closed sets, the preimage of {0} is (−∞, 0), which is not closed. With neighborhoods, (1/2, 3/2) is a neighborhood of f(0) = 1, but its preimage is not a neighborhood of 0.
+
+## Common Misconceptions
+- A continuous function sends open sets to open sets. (Continuity concerns preimages. A constant map is continuous and sends every open set to a single point.)
+- In the neighborhood version, f⁻¹(N) must be an open set. (It needs to be a neighborhood of x, meaning it contains some open set around x.)
+- A function that preserves limits of convergent sequences is continuous in every space. (This holds in metric spaces, but not in general. On ℝ with the co-countable topology, convergent sequences are eventually constant, so the identity map to standard ℝ preserves limits yet is not continuous.)
+
 ## Questions
 
 ```yaml
@@ -36,7 +44,7 @@ A function f: X → Y between topological spaces is continuous if the preimage o
     - "f is continuous because f sends every open set in ℝ to an open set in ℝ"
     - "f is not continuous because no ε-δ bound exists that works globally"
   answer: 1
-  explanation: "For any open set V in ℝ: if 0 ∈ V then f⁻¹(V) = ℝ, which is open; if 0 ∉ V then f⁻¹(V) = ∅, which is also open. So f is continuous. The image {0} being non-open is irrelevant — continuity requires preimages of open sets to be open, not images. Option C describes an 'open map,' a separate and stronger condition."
+  explanation: "For any open set V in ℝ: if 0 ∈ V then f⁻¹(V) = ℝ, which is open; if 0 ∉ V then f⁻¹(V) = ∅, which is also open. So f is continuous. The image {0} being non-open is irrelevant — continuity requires preimages of open sets to be open, not images. Option C describes an 'open map,' a separate condition."
 
 - question: "The topological definition of continuity uses preimages of open sets rather than epsilon-delta conditions primarily because:"
   type: multiple-choice
@@ -53,7 +61,7 @@ A function f: X → Y between topological spaces is continuous if the preimage o
   answer: true
   explanation: "Since C is closed, Y \\ C is open. Continuity means f⁻¹(Y \\ C) is open in X. But f⁻¹(Y \\ C) = X \\ f⁻¹(C), so X \\ f⁻¹(C) is open, which means f⁻¹(C) is closed. The open-set and closed-set characterizations of continuity are fully equivalent — preimages commute with complements."
 
-- question: "If f: X → Y is a continuous function between topological spaces, then the image of most open set in X is open in Y."
+- question: "If f: X → Y is a continuous function between topological spaces, then the image of every open set in X is open in Y."
   type: true-false
   answer: false
   explanation: "This is the most common confusion about topological continuity. The constant function f(x) = c maps every open set to the single point {c}, which is not open. Continuity only guarantees that preimages — not images — of open sets are open. A function that sends open sets to open sets is called an 'open map,' which is a distinct property that continuous functions need not have."
@@ -68,7 +76,7 @@ A function f: X → Y between topological spaces is continuous if the preimage o
 
 You learned continuity in calculus through the epsilon-delta definition: f is continuous at x₀ if for every ε > 0 there exists δ > 0 such that |x − x₀| < δ implies |f(x) − f(x₀)| < ε. This definition is intuitive and practical, but it is built around the idea of distance — the absolute values measure how far two points are from each other. Topology's goal is to study properties that don't depend on distance at all, only on which sets are "open." To work in that more general setting, you need a definition of continuity that uses only open sets.
 
-The key insight is that the epsilon-delta condition can be rephrased entirely in terms of open sets: f is continuous at x₀ if and only if for every open set V containing f(x₀), the **preimage** f⁻¹(V) = {x ∈ X : f(x) ∈ V} is an open set containing x₀. Asking for "every such open V" to have an open preimage is exactly what the global definition says: f is continuous if and only if f⁻¹(V) is open in X whenever V is open in Y. Notice that the arrow is backward — you pull sets back through f, not forward. The image f(U) of an open set need not be open (think of f(x) = constant, where every open set maps to a single point), but the preimage of an open set must be open.
+The key insight is that the epsilon-delta condition can be rephrased entirely in terms of open sets: f is continuous at x₀ if and only if for every open set V containing f(x₀), the **preimage** f⁻¹(V) = {x ∈ X : f(x) ∈ V} contains an open set around x₀. Asking this at every point x₀ is exactly what the global definition says: f is continuous if and only if f⁻¹(V) is open in X whenever V is open in Y. Notice that the arrow is backward — you pull sets back through f, not forward. The image f(U) of an open set need not be open (think of f(x) = constant, where every open set maps to a single point), but the preimage of an open set must be open.
 
 Why does this matter? Because the preimage definition works in any topological space, even ones where there is no meaningful notion of distance. A function between two abstract topological spaces — say, two different spaces of functions, or a space built from combinatorial data — can be declared continuous using only the topology (the collection of open sets) on each space. This unifies the continuity you know from real analysis, the continuity of paths in topology, the continuity of group homomorphisms in algebra, and the continuity of probability measures — all instances of the same definition.
 

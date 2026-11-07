@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Monetary neutrality asserts that in the long run, changes in the money supply affect only nominal prices and wages, not real variables like output, employment, capital stock, or real interest rates. This principle follows from rational expectations and flexible prices: agents anticipate that nominal expansions cause proportional inflation, leaving real incentives unchanged. Temporary departures from neutrality occur when prices are sticky, but long-run neutrality constrains models and policy effects.
 
+## How It's Best Learned
+Start from MV = PY with V fixed and Y set by real factors, and double M: P must double. Then build a small table for a sticky-price version, where prices close half the remaining gap each period, and track real balances M/P and output back to their starting values. Finish by contrasting a one-time rise in the level of M with a permanent rise in its growth rate.
+
+## Common Misconceptions
+- Neutrality means monetary policy has no real effects. (Neutrality is a long-run claim; with sticky prices, money changes real interest rates and output in the short run.)
+- A one-time money injection leaves no lasting trace on the economy. (The price level and all other nominal quantities stay permanently higher; only real variables return to their original values.)
+- If the level of money is neutral, its growth rate must be neutral too. (That stronger claim is superneutrality, a separate proposition; sustained inflation can affect real decisions through money holdings and tax interactions.)
+
 ## Questions
 
 ```yaml

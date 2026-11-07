@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Every finite abelian group is isomorphic to a direct product of cyclic groups of prime power order: G ≅ Z/p₁^(a₁) Z × Z/p₂^(a₂) Z × ⋯. This decomposition is essentially unique and completely determines the group.
 
+## How It's Best Learned
+List every abelian group of a given order, then convert each one between the two forms. For 72 = 2³ · 3², the partitions of 3 and of 2 give 3 × 2 = 6 groups. To convert Z/2Z × Z/4Z × Z/3Z × Z/3Z to invariant factors, combine the largest power of each prime (4 · 3 = 12), then the next largest (2 · 3 = 6), giving Z/6Z × Z/12Z.
+
+## Common Misconceptions
+- Z/2Z × Z/6Z ≅ Z/12Z, because 2 · 6 = 12. (Z/mZ × Z/nZ is cyclic exactly when gcd(m, n) = 1. Here gcd(2, 6) = 2, and the largest element order is 6.)
+- The number of abelian groups of order n depends on which primes divide n. (It depends only on the exponents: multiply the number of partitions of each exponent. Orders 12 = 2² · 3 and 75 = 3 · 5² both give 2 groups.)
+- Elementary divisors and invariant factors are two separate classifications that could disagree. (They describe the same groups in two formats, and each form can be converted into the other.)
+
 ## Questions
 
 ```yaml

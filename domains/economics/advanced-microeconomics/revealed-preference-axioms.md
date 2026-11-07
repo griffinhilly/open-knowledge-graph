@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Revealed preference theory infers consumer preferences from observed choices without assuming a specific utility function. If bundle A is chosen when bundle B is affordable, A is revealed preferred to B. The WARP (Weak Axiom of Revealed Preference) ensures consistency; SARP (Strong Axiom) is necessary and sufficient for preferences to be rationalizable by a well-behaved utility function.
 
+## How It's Best Learned
+Put the data in a matrix whose entry (t, s) is the cost of bundle s at the prices of observation t. Bundle s was affordable at t when its entry is no larger than the diagonal entry of row t. Try prices (2, 1) with choice (3, 1) and prices (1, 2) with choice (1, 4). The off-diagonal costs are 6 and 5, below the spending of 7 and 9, so WARP fails.
+
+## Common Misconceptions
+- If A was chosen and B was not, A is revealed preferred to B. (The inference needs B to have been affordable when A was chosen. A bundle outside the budget reveals nothing.)
+- Choosing A when B was affordable shows the consumer strictly prefers A. (It shows at least weak preference, since B might be just as good. A strict ranking follows when B cost less than the whole budget and more of a good is always better.)
+- A WARP reversal can be excused because prices changed between observations. (The test already accounts for prices. Stable preferences with a single best bundle in each budget cannot produce the reversal at any pair of prices.)
+- Data that pass SARP prove the consumer maximizes utility. (Passing shows the data are consistent with some utility function. A finite dataset cannot rule out other explanations, and new observations could still produce a violation.)
+
 ## Questions
 
 ```yaml

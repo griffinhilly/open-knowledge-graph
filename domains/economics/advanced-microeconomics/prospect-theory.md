@@ -18,6 +18,15 @@ status: validated
 ## Core Idea
 Prospect Theory replaces expected utility with a value function exhibiting loss aversion (losses loom larger than gains) and reference dependence (utility depends on changes from a reference point). Probability weighting overweights small probabilities and underweights large ones. These features explain empirical regularities: reflection effect (risk-seeking for losses, risk-averse for gains), endowment effect (owning increases perceived value), and framing effects (choices depend on how outcomes are framed).
 
+## How It's Best Learned
+Start with a linear value function and a loss weight of 2. Find the smallest gain X that makes a coin flip between +X and −$100 acceptable: 0.5X − 0.5(2)(100) > 0, so X must exceed $200. Then bend the loss side to be convex and, ignoring probability weighting, check that a 50% chance of −$1,000 now beats a sure −$500.
+
+## Common Misconceptions
+- Risk seeking over losses comes from loss aversion. (It comes from the convex shape of the value function below the reference point. Loss aversion is the kink at the reference point, a separate feature.)
+- Probability weighting means people misjudge how likely events are. (π(p) is a decision weight. It distorts choices even when the probability is stated exactly and understood.)
+- Loss aversion means people turn down any gamble that might lose money. (They accept when the possible gain is large enough. With a 2:1 loss weight, a 50-50 gamble needs a gain of more than twice the loss.)
+- The reference point is current wealth in every case. (It is often the status quo, but expectations or the way a choice is described can move it. That movement is what produces framing effects.)
+
 ## Questions
 
 ```yaml

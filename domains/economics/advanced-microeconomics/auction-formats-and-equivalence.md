@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Standard auction formats include English (ascending price), Dutch (descending price), sealed-bid first-price, and sealed-bid second-price. Under symmetric bidder assumptions, these formats generate equal expected revenue (revenue equivalence theorem). Different formats induce different bidding behavior and have different strategic implications.
 
+## How It's Best Learned
+Compute revenue in two formats for two bidders with values uniform on [0, 1]. In the second-price auction each bids their value, and the seller expects the lower value, which averages 1/3. In the first-price auction the equilibrium bid is v/2, so the seller expects half the higher value, which is half of 2/3, also 1/3. Seeing different bids give the same number makes the theorem concrete.
+
+## Common Misconceptions
+- Revenue equivalence means bidders bid the same way in every format. (Bids differ a lot: truthful in second-price, shaded in first-price. Only the seller's expected revenue matches.)
+- Revenue equivalence means every auction realizes the same price. (The theorem is about expected revenue. In any single auction, first-price and second-price payments usually differ.)
+- In a first-price auction you should bid your value. (Bidding your value gives zero surplus when you win. The equilibrium bid is shaded below value.)
+- The theorem holds for any bidders. (It relies on risk-neutral, symmetric bidders with independent private values. Risk aversion, asymmetry or correlated values can break it.)
+
 ## Questions
 
 ```yaml
@@ -49,7 +58,7 @@ Standard auction formats include English (ascending price), Dutch (descending pr
   answer: true
   explanation: "In both formats, a bidder must commit to a price before knowing others' bids, and the winner pays exactly their own bid. The strategic problem is identical: how much to shade below your true value, trading off a higher probability of winning (bid high) against a larger surplus if you do win (bid low). Because the information structure and payoff structure are the same, both formats induce the same equilibrium bids and the same expected outcomes."
 
-- question: "The revenue equivalence theorem implies that bidders behave the same way across most four standard auction formats."
+- question: "The revenue equivalence theorem implies that bidders behave the same way across the four standard auction formats."
   type: true-false
   answer: false
   explanation: "Revenue equivalence says expected *revenues* are equal under its assumptions — not that bidding behavior is identical. In fact, bidding behavior is strikingly different: in English and Vickrey auctions, truthful bidding is dominant; in Dutch and first-price auctions, the equilibrium involves bid shading below true value. The theorem's insight is that these very different strategies happen to produce the same expected revenue for the seller. Behavior diverges; outcomes (in expectation) do not."

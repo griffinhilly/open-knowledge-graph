@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Topological invariants are properties preserved under homeomorphisms—if two spaces are homeomorphic, they must share the same invariants. Examples include compactness, connectedness, dimension, and the fundamental group. Invariants provide tools to prove that two spaces are not homeomorphic.
 
+## How It's Best Learned
+Sort the letters C, I, O, T, and X, drawn as thin curves, into homeomorphism classes using point removal. C and I are both arcs. O stays connected after any single point is deleted, unlike an arc. T has a point whose removal leaves three pieces, and X has a point that leaves four. Each count is an invariant, so the classes are {C, I}, {O}, {T}, and {X}.
+
+## Common Misconceptions
+- Two spaces that share a list of invariants are homeomorphic. (The closed disk and S² are both compact, path-connected, and simply connected, yet they are not homeomorphic.)
+- Boundedness and length are topological invariants. (The map x ↦ tan(π(x − 1/2)) is a homeomorphism from the bounded interval (0, 1) onto ℝ.)
+- A continuous bijection preserves invariants the way a homeomorphism does. (The map t ↦ e^{2πit} is a continuous bijection from [0, 1) onto S¹, but S¹ is compact and [0, 1) is not.)
+
 ## Questions
 
 ```yaml
@@ -48,7 +56,7 @@ Topological invariants are properties preserved under homeomorphisms—if two sp
   answer: 1
   explanation: "Removing a single point from ℝ leaves two disjoint open rays — the space is disconnected. Removing a single point from ℝ² leaves a punctured plane, which is still path-connected (you can route any path around the missing point). Since connectedness after point removal is a topological invariant (it depends only on the homeomorphism type), ℝ and ℝ² cannot be homeomorphic. This elegant argument requires no algebraic invariants. Note: both ℝ and ℝ² are simply connected with trivial fundamental group, so option C is actually wrong."
 
-- question: "If two topological spaces share the same fundamental group, they is expected to be homeomorphic."
+- question: "If two topological spaces share the same fundamental group, they must be homeomorphic."
   type: true-false
   answer: false
   explanation: "Invariants establish necessary conditions for homeomorphism, not sufficient ones. Two spaces can share their fundamental group — and even all their homotopy groups — while still failing to be homeomorphic. A single differing invariant rules out homeomorphism; shared invariants only tell you the spaces might be homeomorphic. Proving homeomorphism requires constructing an explicit bijective continuous map with continuous inverse."

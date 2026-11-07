@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 A Banach space is a complete normed vector space where every Cauchy sequence converges. Lᵖ spaces, C[a,b], and sequence spaces ℓᵖ are canonical examples, providing natural settings for analysis and optimization.
 
+## How It's Best Learned
+Take one space with two norms. On C[0,1], let fₙ be 0 up to x = 1/2, rise linearly to 1 on [1/2, 1/2 + 1/n], and stay at 1 after. In the L¹ norm, ‖fₙ − fₘ‖₁ ≤ 1/min(n, m), so the sequence is Cauchy, but its limit is a step function outside C[0,1]. In the sup norm, ‖fₙ − f₂ₙ‖∞ = 1/2, so the sequence is not Cauchy at all.
+
+## Common Misconceptions
+- Any normed space is complete once the norm is a valid norm. (Completeness depends on the pairing of space and norm. C[0,1] is complete under the sup norm but not under the L¹ norm.)
+- A space is complete because every convergent sequence in it is Cauchy. (That direction holds in every metric space. Completeness is the converse: every Cauchy sequence converges to a point of the space.)
+- In a Banach space, closed and bounded sets are compact, as in ℝⁿ. (This fails in every infinite-dimensional normed space. In ℓ², the standard unit vectors lie in the closed unit ball but are pairwise √2 apart, so no subsequence converges.)
+
 ## Questions
 
 ```yaml
@@ -43,7 +51,7 @@ A Banach space is a complete normed vector space where every Cauchy sequence con
   answer: 1
   explanation: "In function spaces, a Cauchy sequence in the norm is a sequence of functions whose pairwise distance (measured by the norm) goes to zero — they are 'trying to converge' to some limiting function. Without completeness, that limit may fail to be continuous, integrable, or in the space at all. For example, a sequence of continuous functions converging pointwise to a discontinuous function is Cauchy in many norms; completeness (under the sup norm for C[a,b], or Lᵖ norm for Lᵖ) guarantees the limit lands where it should. Option D is also true for finite dimensions, but that is not why completeness matters in infinite dimensions."
 
-- question: "Any normed vector space in which most convergent sequence is Cauchy is automatically a Banach space."
+- question: "Any normed vector space in which every convergent sequence is Cauchy is automatically a Banach space."
   type: true-false
   answer: false
   explanation: "In any metric space, every convergent sequence is Cauchy — this is trivially true and requires no completeness assumption. The Banach condition is the non-trivial *converse*: every Cauchy sequence must *converge* (to a point within the space). Completeness is a property of the space, not just a property of convergent sequences. An incomplete normed space trivially satisfies 'convergent implies Cauchy' while still lacking completeness."

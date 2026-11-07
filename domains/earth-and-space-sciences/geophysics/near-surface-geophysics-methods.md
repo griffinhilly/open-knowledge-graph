@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Near-surface geophysics applies seismic refraction/reflection, ground-penetrating radar (GPR), electrical resistivity, and other techniques to image the upper 10–100 m for engineering, environmental, and archaeological applications. Seismic resolution depends on wavelength (high frequency = short wavelength = high resolution); GPR uses radar waves that attenuate rapidly in conductive media. Electrical and electromagnetic methods map groundwater, contaminant plumes, and subsurface voids; integration with borehole data constrains properties and improves model reliability.
 
+## How It's Best Learned
+Build a target-by-property table before choosing a tool. Rows are targets: water table in sand, saline plume in clay, steel pipe, void in limestone. Columns are seismic velocity, dielectric constant, conductivity and density. Mark where each target makes a strong contrast. Then size one GPR survey: in dry sand (ε ≈ 4) radar travels about 0.15 m/ns, so a 100 MHz antenna gives a 1.5 m wavelength.
+
+## Common Misconceptions
+- A higher-frequency GPR antenna sees deeper because it sends a stronger signal. (Higher frequencies resolve finer detail but are absorbed faster, so penetration depth goes down.)
+- An anomaly tells you what is buried. (It shows only a contrast in some physical property. Different materials can give similar anomalies, so drilling or digging is needed to confirm the source.)
+- A refraction survey detects every layer under the line. (A layer slower than the one above it produces no refracted first arrival, and thin layers can also be missed, so depths can come out wrong.)
+
 ## Questions
 
 ```yaml

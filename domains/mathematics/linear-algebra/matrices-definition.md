@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 An m × n matrix is a rectangular array of m rows and n columns of scalars. Matrices are denoted A, B, etc., with entry a_ij in row i and column j. Special types include square matrices (m = n), diagonal, identity, triangular, and symmetric matrices. Matrices represent linear systems and transformations.
 
+## How It's Best Learned
+Write a 3 × 4 matrix whose entries are its own indices, so a_ij is written as "ij" (row 1 reads 11, 12, 13, 14). Read off a_23 and a_32 and see that they sit in different places. Then sort a set of small square matrices into the special types, noting that one matrix can belong to several (the identity is diagonal, triangular and symmetric).
+
+## Common Misconceptions
+- An m × n matrix has m columns and n rows. (The first number counts rows and the second counts columns, so a 2 × 3 matrix has 2 rows and 3 columns.)
+- In a_ij, the first subscript gives the horizontal position, like an x-coordinate. (The first subscript is the row, which is the vertical position counted from the top.)
+- A diagonal matrix must have nonzero numbers on its diagonal. (A diagonal matrix only needs zeros off the diagonal; diagonal entries may be zero, so the zero square matrix is diagonal.)
+- Each matrix belongs to exactly one special type. (The types overlap: every diagonal matrix is both upper and lower triangular and also symmetric.)
+
 ## Questions
 
 ```yaml

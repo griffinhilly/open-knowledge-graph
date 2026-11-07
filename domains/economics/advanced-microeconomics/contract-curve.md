@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 The contract curve is the locus of Pareto efficient allocations in an Edgeworth box—points where the indifference curves of the two consumers are tangent. Trade moves the economy along the contract curve. The set of allocations in the contract curve that both agents prefer to the initial endowment is the core, the set of outcomes that cannot be blocked by coalitions.
 
+## How It's Best Learned
+Derive one contract curve by hand. Take a 10-by-10 box with u_A = x_A y_A and u_B = x_B² y_B. Setting MRS_A = y_A/x_A equal to MRS_B = 2(10 − y_A)/(10 − x_A) gives y_A = 20x_A/(10 + x_A). Plot it from corner to corner, then mark an endowment and shade the part of the curve both agents prefer.
+
+## Common Misconceptions
+- Points on the contract curve are fair allocations. (The curve includes allocations where one agent has nearly everything. Efficiency says nothing about how gains are split.)
+- Pareto efficiency means each consumer has equal marginal utility for each good. (The condition is equal marginal rates of substitution. Marginal utilities themselves can differ in level.)
+- Any point on the contract curve can be reached by voluntary trade from a given endowment. (Voluntary trade only reaches the part of the curve where both agents are at least as well off as at the endowment.)
+- The contract curve is always the diagonal of the box. (It is the diagonal only in special cases, such as identical homothetic preferences. Different preferences bend it.)
+
 ## Questions
 
 ```yaml

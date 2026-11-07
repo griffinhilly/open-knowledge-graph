@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Gaussian elimination solves linear systems by applying elementary row operations (swapping rows, scaling, adding multiples) to transform the augmented matrix into simpler form. These operations preserve the solution set. The algorithm produces row echelon form or reduced row echelon form for direct solution.
 
+## How It's Best Learned
+Solve one system in two columns side by side: equations on the left, augmented matrix on the right. Use x + y + z = 6, 2x + 3y + z = 11, x − y + 2z = 5. Do R2 − 2R1, R3 − R1, then R3 + 2R2, and write each step in both forms. Back-substitute to get z = 3, y = 2, x = 1, and check all three original equations.
+
+## Common Misconceptions
+- Multiplying a row by 0 is allowed, since it is just scaling. (The scalar must be nonzero. Scaling by 0 erases an equation and can add solutions that the original system did not have.)
+- Column operations are as safe as row operations. (Combining columns mixes the unknowns and changes the solution set of the original system. Gaussian elimination uses only row operations.)
+- A system has one correct echelon form. (Different sequences of row operations can produce different echelon forms. The reduced row echelon form is unique.)
+
 ## Questions
 
 ```yaml

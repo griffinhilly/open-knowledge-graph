@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Conducting cavities confine waves, permitting only discrete standing-wave normal modes at resonant frequencies determined by geometry. Each mode has specific field distribution and resonant frequency. Used as filters and oscillators in microwave engineering and particle accelerators.
 
+## How It's Best Learned
+Build the cavity from a waveguide you already know. Take a guide with a = 3 cm, so TE₁₀ cuts off at c/(2a) = 5 GHz. Close it with end walls d = 4 cm apart: resonance needs the guide wavelength to equal 2d/p. For p = 1 this gives f = √(5² + 3.75²) GHz = 6.25 GHz, where the guide wavelength is exactly 8 cm.
+
+## Common Misconceptions
+- The cavity's lowest resonance equals the waveguide's cutoff frequency. (For TE₁₀ the guide wavelength at cutoff is infinite and cannot fit between the end walls. The lowest resonance lies above the guide's lowest cutoff.)
+- Each index triple (m, n, p) labels exactly one mode. (When all three indices are nonzero in a rectangular cavity, a TE and a TM mode share the triple and the frequency.)
+- A bigger cavity resonates at higher frequencies because it holds more energy. (Resonant frequencies scale inversely with size. Doubling every dimension halves every frequency.)
+- A high-Q cavity needs no power source once it is filled. (Wall losses remain. The source must keep replacing the energy dissipated each cycle.)
+
 ## Questions
 
 ```yaml
@@ -43,7 +52,7 @@ Conducting cavities confine waves, permitting only discrete standing-wave normal
     - "Because the resonant frequency is fixed by geometry, eliminating thermal noise"
     - "Because standing waves in a cavity reflect energy rather than dissipating it"
   answer: 1
-  explanation: "Q = (energy stored)/(energy lost per cycle). In a metal cavity, the electromagnetic field fills the entire interior volume, storing substantial energy. But resistive losses only occur in the thin skin-depth layer (order of micrometers) at the surface — a very small fraction of the volume. The ratio of total stored energy to surface-loss energy is enormous, giving Q ~ 10⁴–10⁵. In a lumped LC circuit, resistive elements pervade the circuit and the stored energy is much smaller relative to dissipation."
+  explanation: "Q = 2π × (energy stored)/(energy lost per cycle). In a metal cavity, the electromagnetic field fills the entire interior volume, storing substantial energy. But resistive losses only occur in the thin skin-depth layer (order of micrometers) at the surface — a very small fraction of the volume. The ratio of total stored energy to surface-loss energy is enormous, giving Q ~ 10⁴–10⁵. In a lumped LC circuit, resistive elements pervade the circuit and the stored energy is much smaller relative to dissipation."
 
 - question: "In a cavity resonator, energy alternates between electric and magnetic field storage — analogous to a mass-spring oscillator exchanging potential and kinetic energy."
   type: true-false
@@ -67,6 +76,6 @@ You already understand waveguides: they confine electromagnetic waves to propaga
 
 When you cap both ends of a waveguide, you introduce a third boundary condition: the fields must also satisfy the conducting-wall requirement in the propagation direction z. The fields in the cavity are now standing waves in all three directions, and only specific combinations of field patterns can fit inside the box while satisfying the boundary conditions everywhere simultaneously. These are the **normal modes** (or resonant modes) of the cavity. For a rectangular cavity of dimensions a × b × d, the resonant frequencies are f_mnp = (c/2)√[(m/a)² + (n/b)² + (p/d)²], where m, n, p are non-negative integers (not all zero) labeling the mode. Each distinct triple (m,n,p) corresponds to a unique standing-wave field pattern.
 
-The key physics is the energy trapping: unlike a waveguide where power flows continuously along the guide, a cavity stores energy. At resonance, energy sloshes back and forth between the electric field (concentrated when charges are maximally separated) and the magnetic field (concentrated when currents flow). This is the electromagnetic analogue of a mass-spring oscillator trading potential and kinetic energy — a connection you can make precise through the circuit analogy of an LC resonator. The ratio of stored energy to power dissipated per cycle is the **quality factor** Q, which can be extremely large in metal cavities (Q ~ 10⁴–10⁵) because the only loss is resistive heating in the small skin-depth layer at the cavity walls.
+The key physics is the energy trapping: unlike a waveguide where power flows continuously along the guide, a cavity stores energy. At resonance, energy sloshes back and forth between the electric field (concentrated when charges are maximally separated) and the magnetic field (concentrated when currents flow). This is the electromagnetic analogue of a mass-spring oscillator trading potential and kinetic energy — a connection you can make precise through the circuit analogy of an LC resonator. 2π times the ratio of stored energy to energy dissipated per cycle is the **quality factor** Q, which can be extremely large in metal cavities (Q ~ 10⁴–10⁵) because the only loss is resistive heating in the small skin-depth layer at the cavity walls.
 
 These properties make cavity resonators indispensable wherever precision frequency control is needed. In particle accelerators, microwave cavities at precisely tuned resonant frequencies impart energy to charged particles on each pass — the cavity's high Q means the driving source must supply only the small energy lost to the walls, while the cavity itself stores the bulk of the field energy. In radar and telecommunications, cavities act as narrow-band filters: only signals near a resonant frequency couple efficiently to the cavity, rejecting everything else. The mode index (m,n,p) determines both frequency and field geometry; choosing which mode to excite is a design decision that controls where the fields concentrate and how efficiently energy is transferred.

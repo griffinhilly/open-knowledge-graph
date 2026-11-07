@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 In search-and-matching models, wages emerge from bilateral bargaining over the surplus from a job match. The wage is a weighted average of the worker's reservation value and the firm's productivity minus its hiring cost. Tighter labor markets (higher vacancy-unemployment ratio) increase workers' bargaining power and equilibrium wages.
 
+## How It's Best Learned
+Draw both curves in one diagram with tightness on the horizontal axis and the wage on the vertical: the upward-sloping wage-setting curve and the downward-sloping job-creation curve. Find the intersection, then read unemployment off the Beveridge curve at that tightness. Practice two shifts, a rise in unemployment benefits and a rise in productivity, and track how the wage, tightness and unemployment each move.
+
+## Common Misconceptions
+- The wage-setting curve alone pins down the wage. (It gives the wage for each level of tightness; the equilibrium wage needs the job-creation condition as well.)
+- Higher unemployment benefits raise wages without affecting jobs. (A higher wage makes vacancies less profitable, so firms post fewer, tightness falls and unemployment rises.)
+- A productivity gain shows up only in higher wages. (With unemployment income held fixed, it also makes vacancies more profitable, so tightness rises and unemployment falls; how the gain splits between wages and tightness depends on the parameters.)
+
 ## Questions
 
 ```yaml

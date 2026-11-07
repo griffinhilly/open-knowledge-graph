@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 The effective recombination rate experienced by a locus depends on local recombination and linkage to other sites under selection. Even modest recombination is reduced effective when linked to many selected sites, reducing efficacy of selection genome-wide.
 
+## How It's Best Learned
+Start with a two-locus picture: a neutral allele sits on the same chromosome as a new deleterious mutation with selection coefficient s. If the recombination rate r between them is much smaller than s, selection removes the neutral allele along with the mutation. If r is much larger than s, the neutral allele escapes onto a clean background. Then read a plot of diversity against local recombination rate with that rule in mind.
+
+## Common Misconceptions
+- Low diversity in a region means the mutation rate there is low. (Linked selection can lower diversity with no change in mutation rate. Divergence between species, which tracks mutation rate at neutral sites, helps tell the two apart.)
+- Linked selection only matters near beneficial mutations that sweep. (Purifying selection against harmful mutations also removes linked neutral variants. This background selection is strongest in gene-dense, low-recombination regions.)
+- A locus with a high crossover rate is evolving independently of its neighbors. (Independence also depends on how many selected sites lie nearby and how strong that selection is.)
+
 ## Questions
 
 ```yaml

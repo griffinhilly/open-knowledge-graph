@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Surface waves are confined to the upper layers of the Earth and decay exponentially with depth. Rayleigh waves involve coupled P and S motion in a retrograde elliptical pattern; Love waves are horizontally polarized shear waves. Both travel slower than body waves but dominate earthquake damage and global seismograms because they carry large amplitude and propagate with minimal attenuation.
 
+## How It's Best Learned
+Open a three-component record of a distant shallow earthquake. Rotate the horizontals into radial and transverse. Find the Love wave on the transverse trace and the Rayleigh wave on the vertical and radial traces. Plot vertical against radial to see the ellipse. Then measure group velocity at two periods: 50 s energy arriving 1,000 s after origin at 4,000 km gives 4 km/s.
+
+## Common Misconceptions
+- Rayleigh-wave particle motion is retrograde at every depth. (In a uniform half-space it is retrograde near the surface but reverses to prograde below roughly a fifth of a wavelength.)
+- Group velocity and phase velocity are the same thing. (In a dispersive medium they differ; group velocity is the speed of the energy packet, while phase velocity is the speed of individual crests.)
+- A surface wave of a given period samples a single depth. (Each period is sensitive to a range of depths, and that range deepens and broadens as the period increases.)
+- Deep earthquakes produce surface waves as strong as shallow ones of the same size. (Surface-wave excitation drops as the source gets deeper, so deep events show weak surface waves compared with their body waves.)
+
 ## Questions
 
 ```yaml

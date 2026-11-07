@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Seismic velocity varies with depth due to pressure, temperature, and composition changes in the Earth. Velocity-depth models describe how P-wave and S-wave velocities increase through the crust and mantle, creating the layered structure used in all seismic ray tracing and wave propagation studies. Understanding velocity structures is essential for converting seismic travel times to depth and for inferring Earth's internal composition.
 
+## How It's Best Learned
+Plot Vp and Vs against depth from a reference model table. Mark the Moho, the low-velocity zone, 410 km, 660 km and the core-mantle boundary, and note where Vs is zero. Then test why the model matters. A station 100 km away records P at 15.87 s, matching a true average of 6.3 km/s. A 6.0 km/s model places the source about 95 km away, roughly 5 km too close.
+
+## Common Misconceptions
+- Velocity increases with depth because deeper rock is denser. (Density alone would lower velocity; velocity rises because pressure raises the elastic moduli faster than it raises density.)
+- The low-velocity zone is a layer of molten rock. (It is mostly solid and transmits S waves; at most a small melt fraction is present.)
+- The drop in P velocity at the core-mantle boundary means the core is less dense than the mantle. (The core is much denser; P velocity drops because the liquid outer core has no shear modulus and its density is far higher.)
+- A one-dimensional reference model describes the Earth beneath any particular place. (It is a global average; real velocities vary laterally, most strongly in the upper mantle.)
+
 ## Questions
 
 ```yaml

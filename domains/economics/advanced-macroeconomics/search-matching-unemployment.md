@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Search and matching models recognize that finding jobs and workers takes time. Workers search among job opportunities; firms search among worker applicants; matches occur only after search. This friction creates unemployment even when jobs exist and workers want to work. The model generates realistic unemployment dynamics: workers do not instantly find jobs, firms do not instantly fill vacancies, and job separation creates frictional unemployment. Matching functions describe how worker and firm searches translate into employment relationships.
 
+## How It's Best Learned
+Start from the steady-state flow condition u = s/(s + f), where s is the monthly separation rate and f the job-finding rate. With s = 0.02 and f = 0.3, u is about 6.3%. Raising s to 0.03, or cutting f to 0.2, both give about 9.1%. Then let f depend on tightness through the matching function and trace the Beveridge curve.
+
+## Common Misconceptions
+- Open vacancies alongside many unemployed workers mean those workers do not want jobs. (Matching takes time, so unemployment and vacancies coexist even when every worker and firm wants to match.)
+- An outward shift of the Beveridge curve proves a skills mismatch. (It means more unemployment at each vacancy rate, which can come from lower matching efficiency for many reasons or from a higher separation rate.)
+- Because search unemployment is frictional, its level must be efficient. (Equilibrium unemployment can be too high or too low; in the standard model it is efficient only when workers' bargaining share equals the elasticity of matches with respect to unemployment, the Hosios condition.)
+
 ## Questions
 
 ```yaml

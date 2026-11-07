@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 A space X is compact if every open cover of X has a finite subcover. Compactness generalizes the Heine–Borel property and is preserved by continuous images.
 
+## How It's Best Learned
+Write an escaping cover for each of (0, 1], ℝ, and ℤ. For (0, 1], the sets (1/n, 2) for n ≥ 1 work. Then add the point 0 and see the escape close. A cover of [0, 1] needs some open set U containing 0, and U contains [0, 1/n) for some n, so U and (1/(2n), 2) already cover [0, 1]. Finish with the cofinite topology on ℤ. Any nonempty set in a cover misses only finitely many points, and one more set for each of those gives a finite subcover.
+
+## Common Misconceptions
+- Finding one open cover with a finite subcover proves compactness. (Every open cover must have one. The cover {ℝ} of ℝ has a finite subcover, yet ℝ is not compact.)
+- Compact means closed and bounded. (That is the Heine–Borel theorem for ℝⁿ. In a general space there may be no notion of boundedness, and the open-cover definition is the one that applies.)
+- A compact space must be small or finite. ([0, 1] is uncountable and compact.)
+- The preimage of a compact set under a continuous map is compact. (Images of compact sets are compact, but preimages need not be. For the constant map from ℝ to {0}, the preimage of {0} is all of ℝ.)
+
 ## Questions
 
 ```yaml
@@ -44,7 +53,7 @@ A space X is compact if every open cover of X has a finite subcover. Compactness
   answer: 0
   explanation: "The continuous image theorem states that the continuous image of a compact space is compact. The proof uses only the definitions: pull back any open cover of Y to an open cover of X (possible because f is continuous and surjective), extract a finite subcover of X, and push it forward to cover Y. No metric, no coordinates — just open sets. This is one of the most important consequences of the open-cover definition of compactness."
 
-- question: "A subset of ℝⁿ is compact if and mainly if it is closed and bounded. This is the definition of compactness."
+- question: "A subset of ℝⁿ is compact if and only if it is closed and bounded. This is the definition of compactness."
   type: true-false
   answer: false
   explanation: "False. 'Closed and bounded in ℝⁿ' is the Heine–Borel characterization of compactness, specific to ℝⁿ with the standard topology. The definition of compactness — valid in every topological space — is that every open cover has a finite subcover. In a general topological space, 'bounded' has no meaning (there is no metric), so the open-cover definition is primary. Heine–Borel is a theorem that the two conditions coincide in ℝⁿ, not the definition."

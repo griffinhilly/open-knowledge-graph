@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 Sylow theorems are used to prove groups of specific orders have particular structures or are simple. For example, no simple group of order 12 exists, and every group of order p² is abelian.
 
+## How It's Best Learned
+After the order-12 argument, try order 56 on your own. The constraints give n₇ ∈ {1, 8}. If n₇ = 8, those subgroups hold 8 · 6 = 48 elements of order 7, leaving 8 elements. A Sylow 2-subgroup has 8 elements and none of order 7, so it must be exactly those 8, and it is unique and normal. Then study A₅ to see where the method stops.
+
+## Common Misconceptions
+- Element counting works the same way for every Sylow subgroup. (Distinct subgroups of prime order meet only in the identity, so their elements can be counted separately. Sylow subgroups of order p² or higher can overlap, so that count fails.)
+- With enough cleverness, Sylow counting shows that no group of composite order is simple. (A₅ has order 60 and is simple. Its counts are n₅ = 6, n₃ = 10 and n₂ = 5, and nothing forces any of them to 1.)
+- A simple group has no proper nontrivial subgroups. (Simple means no proper nontrivial normal subgroups. A₅ has many subgroups, including its Sylow subgroups, but none of them is normal.)
+
 ## Questions
 
 ```yaml

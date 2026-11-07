@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Contextualism in intellectual history insists that ideas and texts must be understood in their specific historical context—the questions people were asking, the frameworks available, the political stakes. Quentin Skinner's contextualism argues that interpreting a text without understanding its context is methodologically confused and necessarily produces misreading.
 
+## How It's Best Learned
+Take one sentence from a canonical political text and read it twice. First read it cold and write what you think it means. Then read a short account of the debate the author was entering, the opponents being answered and the terms in use at the time, and ask what the author was doing in writing that sentence: defending, attacking, mocking or conceding. Comparing the two readings shows what context adds.
+
+## Common Misconceptions
+- Contextualism means listing background facts about an author's life before reading the text. (It means reconstructing the debates, vocabulary and opponents that let you identify what act the author was performing.)
+- Close reading of the words alone recovers what a text means. (The words give the content, but the same sentence can be an argument, an ironic jab or a concession, and context decides which.)
+- Contextualists think old texts have nothing to say to the present. (Skinner's position is that historical understanding and present-day philosophical use are different tasks, and contextual work shows how present concepts came to be.)
+
 ## Questions
 
 ```yaml

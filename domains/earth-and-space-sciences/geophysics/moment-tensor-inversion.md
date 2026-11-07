@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 The seismic moment tensor M is a 3×3 symmetric tensor that fully characterizes the earthquake source radiation pattern without assuming a simple double couple. Moment tensor inversion fits observed waveforms (displacement, velocity, or acceleration) by minimizing misfit between data and synthetic seismograms computed via Green's function convolution. The moment tensor eigenvalues and eigenvectors reveal the nodal planes, type of faulting (normal, reverse, strike-slip), and moment magnitude.
 
+## How It's Best Learned
+Build the tensor for a vertical strike-slip fault from M_ij = M₀(n_i s_j + n_j s_i), with fault normal ŷ and slip x̂. Only M_xy = M_yx = M₀ are nonzero. Find the eigenvalues (+M₀, −M₀, 0) and eigenvectors, which give the T, P and null axes. Then swap n and s. The tensor does not change, which shows why the two nodal planes cannot be told apart.
+
+## Common Misconceptions
+- A large non-double-couple component proves the event was an explosion or volcanic. (Noise, poor station coverage and errors in the velocity model can create false non-double-couple parts. Ruptures on several faults at once can also produce them.)
+- The moment tensor shows how slip was spread along the fault. (A point-source moment tensor sums the whole rupture into one source. Mapping slip along the fault requires a separate finite-fault inversion.)
+- Moment magnitude is read from the largest wiggle on a seismogram. (Mw comes from the scalar moment M₀, the product of rigidity, fault area and slip, fit from long-period waveforms. That is why it does not saturate for very large events.)
+
 ## Questions
 
 ```yaml
@@ -48,7 +56,7 @@ The seismic moment tensor M is a 3×3 symmetric tensor that fully characterizes 
 - question: "For a pure double-couple earthquake source, the three eigenvalues of the seismic moment tensor are +M₀, 0, and −M₀, where M₀ is the scalar seismic moment."
   type: true-false
   answer: true
-  explanation: "This eigenvalue structure is the mathematical signature of a double-couple: two equal and opposite principal moments with a null axis. It reflects the force-couple geometry of shear faulting — equal amounts of compression and tension at 45° to the fault, with a null axis perpendicular to the fault plane. When a moment tensor is decomposed and the null eigenvalue is exactly zero, the source is consistent with pure fault slip. Non-zero null eigenvalues indicate CLVD or isotropic components, signaling a more complex source."
+  explanation: "This eigenvalue structure is the mathematical signature of a double-couple: two equal and opposite principal moments with a null axis. It reflects the force-couple geometry of shear faulting — equal amounts of compression and tension at 45° to the fault, with a null axis lying in the fault plane, perpendicular to the slip direction. When a moment tensor is decomposed and the null eigenvalue is exactly zero, the source is consistent with pure fault slip. Non-zero null eigenvalues indicate CLVD or isotropic components, signaling a more complex source."
 
 - question: "Moment tensor inversion determines which of the two nodal planes is the actual fault plane, because the seismic radiation pattern differs between the fault plane and the auxiliary plane."
   type: true-false

@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 In a normal space, if F and G are disjoint closed sets, there exists a continuous function f: X → [0,1] with f(F) = {0} and f(G) = {1}.
 
+## How It's Best Learned
+Start with metric spaces, where f(x) = d(x, F)/(d(x, F) + d(x, G)) works directly. The denominator is never zero, since no point lies in both closed sets. Then build the first two levels of the general proof. Set U(1) = X \ G, use normality to get an open U(0) ⊇ F whose closure lies in U(1), then insert U(1/2) between them the same way.
+
+## Common Misconceptions
+- The lemma needs a metric. (The distance formula is a shortcut for metric spaces. The general proof uses only normality.)
+- The function is 0 exactly on F and 1 exactly on G. (F and G must map to 0 and 1, but other points may too. On ℝ with F = {0} and G = {1}, a valid f can be 0 on all of (−∞, 1/2].)
+- The lemma also works in Hausdorff spaces that are not normal. (A separating f would make f⁻¹([0, 1/2)) and f⁻¹((1/2, 1]) disjoint open sets around F and G. So in a non-normal space, some pair of closed sets has no such function.)
+
 ## Questions
 
 ```yaml
@@ -48,7 +56,7 @@ In a normal space, if F and G are disjoint closed sets, there exists a continuou
   answer: 1
   explanation: "Normality is defined as: for any two disjoint closed sets, there exist disjoint open sets containing them. This is a purely set-theoretic separation condition — it gives you two open sets that don't overlap. Urysohn's Lemma goes further: it builds a continuous function that equals 0 on one closed set and 1 on the other, varying continuously throughout the entire space. Building a globally continuous function with prescribed values requires coordinating the topology across the whole space, not just finding two disjoint open sets. The lemma reveals that normality is strong enough to support this function-theoretic construction."
 
-- question: "Urysohn's Lemma applies to most Hausdorff spaces, since normal spaces are simply Hausdorff spaces with an additional separation property."
+- question: "Urysohn's Lemma applies to all Hausdorff spaces, since normal spaces are simply Hausdorff spaces with an additional separation property."
   type: true-false
   answer: false
   explanation: "Not all Hausdorff spaces are normal. Hausdorff (T₂) requires that any two distinct points can be separated by disjoint open sets. Normal spaces additionally require that any two disjoint closed sets can be separated by disjoint open sets — a strictly stronger condition. There exist Hausdorff spaces that are not normal (the Sorgenfrey plane is a classic example), and Urysohn's Lemma does not apply to them. Normal spaces form a proper subclass of Hausdorff spaces."

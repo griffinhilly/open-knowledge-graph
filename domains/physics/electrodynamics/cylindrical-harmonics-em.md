@@ -22,7 +22,16 @@ status: validated
 # Cylindrical Harmonics and Bessel Functions
 
 ## Core Idea
-Solutions to Laplace's equation in cylindrical coordinates involve Bessel functions of integer and half-integer order. These provide the natural eigenfunctions for cylindrical boundary value problems and waveguide mode analysis.
+Solutions to Laplace's equation in cylindrical coordinates involve Bessel functions, of integer order when the domain spans the full circle. These provide the natural eigenfunctions for cylindrical boundary value problems and waveguide mode analysis.
+
+## How It's Best Learned
+Solve a closed can of radius a and height L, grounded on the side and bottom, with V₀ on the top. The side forces J₀(kr) with k = j₀,ₘ/a, the bottom forces sinh(kz), and the top needs 1 = Σ cₘJ₀(j₀,ₘr/a) with cₘ = 2/(j₀,ₘJ₁(j₀,ₘ)). Then ground both ends, put V₀ on the side, and watch I₀ replace J₀.
+
+## Common Misconceptions
+- The radial part of a cylindrical Laplace solution is a J_n every time. (If the z-dependence oscillates, as sin(kz), the radial equation changes sign and gives the modified Bessel functions I_n and K_n.)
+- Every cylindrical Laplace problem needs Bessel functions. (With no z-dependence the radial solutions are r^n and r^(−n), or 1 and ln r for n = 0, as for a line charge.)
+- The order n can take any value. (Single-valuedness around the full circle forces integer n. Non-integer orders appear only when the domain is a wedge.)
+- J_n(kr) for different zeros are orthogonal under a plain integral over r. (The orthogonality integral on 0 ≤ r ≤ a carries a weight factor r.)
 
 ## Questions
 

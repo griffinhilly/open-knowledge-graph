@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 Firms differentiate products (horizontally or vertically) to relax price competition. Differentiation creates local monopoly power: firms don't lose all customers if they raise price. In monopolistic competition, many differentiated competitors with free entry yield equilibrium with product diversity, positive markups, and zero economic profit. Differentiation is an alternative to collusion for sustaining supracompetitive pricing.
 
+## How It's Best Learned
+Solve the linear city with firms at the two ends, consumers spread evenly on [0, 1], transport cost t per unit of distance, and marginal cost c. The indifferent consumer sits at x = (p₂ − p₁ + t)/(2t). Firm 1's first-order condition then gives the symmetric price p = c + t. Let t shrink toward 0 and watch the price fall to the Bertrand outcome.
+
+## Common Misconceptions
+- Zero economic profit in the long run means price equals marginal cost. (Free entry removes profit, but each firm still faces downward-sloping demand. The markup over marginal cost remains and covers fixed costs.)
+- Firms in the linear city crowd together at the center. (With prices fixed, they do cluster there. When they also compete on price, with quadratic transport costs, they move to opposite ends to soften price competition.)
+- Free entry produces the best number of varieties. (Entrants ignore the sales they take from rivals and cannot capture all the consumer surplus a new variety creates. The market can end up with too many or too few varieties.)
+- Under vertical differentiation, the higher-quality product takes the whole market. (Buyers agree on the quality ranking but differ in what they will pay for quality. A cheaper, lower-quality product can keep the buyers who value quality less.)
+
 ## Questions
 
 ```yaml

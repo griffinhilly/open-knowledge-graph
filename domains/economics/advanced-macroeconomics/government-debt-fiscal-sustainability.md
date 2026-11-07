@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Fiscal sustainability requires that government debt does not grow faster than the economy indefinitely. The fundamental intertemporal budget constraint shows that if the real interest rate exceeds the growth rate, debt-to-GDP ratios will eventually explode unless primary deficits shrink. Sustainability analysis examines whether current tax and spending policies are viable long-term or require future adjustments. Countries with high debt levels face constraints on fiscal policy and higher refinancing costs, potentially triggering crises.
 
+## How It's Best Learned
+Decompose a real year of debt data with Δb ≈ (r − g)·b + d. Suppose the ratio rose from 90% to 95% with r − g = 1%: interest compounding explains 0.9 points, so the primary deficit was about 4.1% of GDP. Then link it to the intertemporal constraint: at 100% debt and r − g = 2%, a constant primary surplus of 2% of GDP exactly covers the debt.
+
+## Common Misconceptions
+- A stable debt-to-GDP ratio means the government has stopped borrowing. (With a stable ratio, the debt stock grows at the same rate as nominal GDP.)
+- Under Ricardian equivalence, debt sustainability does not matter. (Ricardian equivalence assumes the government meets its intertemporal budget constraint; it concerns the timing of taxes, not whether the path is solvent.)
+- A government can always inflate its debt away. (Expected inflation is built into new interest rates. Inflation erodes mainly long-term nominal debt, and only to the extent it was not expected when the debt was issued; indexed or foreign-currency debt does not shrink.)
+
 ## Questions
 
 ```yaml

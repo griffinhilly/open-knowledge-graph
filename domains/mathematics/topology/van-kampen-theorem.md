@@ -30,6 +30,14 @@ status: validated
 ## Core Idea
 van Kampen's theorem computes the fundamental group of a space glued from pieces: π₁(X) ≅ π₁(U) *_{π₁(U∩V)} π₁(V) when X = U ∪ V with overlapping U and V. This is the fundamental tool for computing fundamental groups of complex spaces from simpler pieces.
 
+## How It's Best Learned
+Run three computations in order. First cover S¹ by two open arcs: each arc is simply connected, and so is each piece of their overlap. But the overlap has two pieces, and a naive use of the formula wrongly predicts a trivial group. Next do the wedge S¹ ∨ S¹ to get ℤ * ℤ. Then do the torus: the punctured torus has π₁ free on a and b, and the annulus loop maps to aba⁻¹b⁻¹ there and to e in the disk.
+
+## Common Misconceptions
+- If the intersection is simply connected, π₁(X) is the direct product π₁(U) × π₁(V). (It is the free product. For S¹ ∨ S¹ the two generators do not commute.)
+- The theorem works for any cover of X by two open sets. (U, V, and U ∩ V must be path-connected. Covering S¹ by two arcs breaks this, and the formula would give the wrong answer.)
+- A loop that is nontrivial in π₁(U) stays nontrivial in π₁(X). (Gluing can kill it. The loop aba⁻¹b⁻¹ is nontrivial in the punctured torus but trivial in the torus.)
+
 ## Questions
 
 ```yaml
@@ -77,4 +85,4 @@ The setup: suppose X = U ∪ V where U and V are open, path-connected subsets of
 
 The **wedge sum** S¹ ∨ S¹ (two circles joined at a point) illustrates the theorem cleanly. Take U to be an open neighborhood of the first circle (slightly overlapping the second near the join point), and V to be an open neighborhood of the second circle. Each of U and V deformation-retracts to a circle, so π₁(U) ≅ π₁(V) ≅ ℤ. The intersection U ∩ V deformation-retracts to the join point, which is simply connected: π₁(U ∩ V) = {e}. The amalgamated free product over a trivial group is just the **free product** ℤ \* ℤ, which is the free group on two generators. So π₁(S¹ ∨ S¹) ≅ ℤ \* ℤ — loops on the first circle and loops on the second circle generate independent, non-commuting elements.
 
-The **torus** T² = S¹ × S¹ gives a richer example. Represent the torus as a square with opposite edges identified (top = bottom with label a, left = right with label b). Remove a small open disk from the interior to get U, and let V be a small open disk around the center. U deformation-retracts to the boundary square (a loop aba⁻¹b⁻¹), V is simply connected, and U ∩ V is a circle (simply connected intersection gives a free product, but the loop of U ∩ V bounds a disk in V). Van Kampen then gives π₁(T²) = ⟨a, b | aba⁻¹b⁻¹ = e⟩ = ℤ × ℤ: the two generators commute, reflecting the fact that going around the torus one way then the other way is homotopic to going the other way first. The theorem reduces a global topological question to an algebraic calculation from local data.
+The **torus** T² = S¹ × S¹ gives a richer example. Represent the torus as a square with opposite edges identified (top = bottom with label a, left = right with label b). Remove a small open disk from the interior to get U, and let V be a small open disk around the center. U deformation-retracts to the boundary square (a loop aba⁻¹b⁻¹), V is simply connected, and U ∩ V is an annulus whose core loop is aba⁻¹b⁻¹ in U but bounds a disk in V. Van Kampen then gives π₁(T²) = ⟨a, b | aba⁻¹b⁻¹ = e⟩ = ℤ × ℤ: the two generators commute, reflecting the fact that going around the torus one way then the other way is homotopic to going the other way first. The theorem reduces a global topological question to an algebraic calculation from local data.

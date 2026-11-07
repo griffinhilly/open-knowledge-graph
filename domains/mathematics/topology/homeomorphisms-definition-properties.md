@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 A homeomorphism is a continuous bijection with continuous inverse. Two spaces are homeomorphic if such a map exists; they are topologically identical. Homeomorphisms preserve all topological properties: compactness, connectedness, dimension, fundamental groups. Classification of topological spaces is the problem of describing spaces up to homeomorphism.
 
+## How It's Best Learned
+Work one example of each kind. Show (0, 1) ≅ ℝ with t ↦ tan(π(t − 1/2)) and check that both it and its inverse are continuous. Then take f(t) = (cos 2πt, sin 2πt) on [0, 1) and find an open set whose image is not open: [0, 1/4) maps to an arc that contains (1, 0) but no points just below it.
+
+## Common Misconceptions
+- A continuous bijection is a homeomorphism. (The inverse must also be continuous. The wrap of [0, 1) onto S¹ is a continuous bijection, yet the two spaces are not homeomorphic.)
+- Homeomorphic spaces have the same size or shape. ((0, 1) is homeomorphic to ℝ, so boundedness, length and completeness are not topological properties.)
+- Showing that one particular map fails to be a homeomorphism proves the spaces are different. (Every possible map must fail. The usual method is to find a topological property the spaces disagree on.)
+- A knotted loop in ℝ³ is not homeomorphic to a round circle. (Both are homeomorphic to S¹. Knotting describes how a space sits inside ℝ³, which homeomorphism of the loop itself does not see.)
+
 ## Questions
 
 ```yaml
@@ -28,10 +37,10 @@ A homeomorphism is a continuous bijection with continuous inverse. Two spaces ar
   options:
     - "Yes — any continuous bijection between topological spaces is a homeomorphism"
     - "No — the map is not continuous at t = 0"
-    - "No — the inverse f⁻¹ is not continuous: a small open arc near the seam of S¹ pulls back to a disconnected set near both 0 and 1 in [0,1), so open sets in S¹ do not correspond to open sets in [0,1)"
+    - "No — the inverse f⁻¹ is not continuous: [0, 1/4) is open in [0,1), but its image under f is an arc ending at the seam point (1, 0) that is not open in S¹"
     - "No — bijectivity requires both spaces to have the same cardinality, which fails here"
   answer: 2
-  explanation: "f is continuous and bijective, but f⁻¹ fails to be continuous at the identification point. A small open arc near the 'seam' of S¹ pulls back to a set near t = 0 and t approaching 1 in [0,1) — a disconnected preimage. A homeomorphism requires both f and f⁻¹ to be continuous, so f is not a homeomorphism. The key lesson: continuous bijection ≠ homeomorphism."
+  explanation: "f is continuous and bijective, but f⁻¹ fails to be continuous at the seam point (1, 0). The set [0, 1/4) is open in [0,1), yet its image f([0, 1/4)) is an arc that contains (1, 0) and none of the points just below it, so it is not open in S¹. A homeomorphism requires both f and f⁻¹ to be continuous, so f is not a homeomorphism. The key lesson: continuous bijection ≠ homeomorphism."
 
 - question: "To show that [0,1] and S¹ are not homeomorphic, a topologist removes a point from each space and compares the results. What does this argument show?"
   type: multiple-choice
@@ -43,7 +52,7 @@ A homeomorphism is a continuous bijection with continuous inverse. Two spaces ar
   answer: 0
   explanation: "Removing an interior point from [0,1] splits it into two disjoint open intervals — the space becomes disconnected. But removing any single point from S¹ leaves a connected arc. Since homeomorphisms preserve connectedness, and the 'remove a point' operation yields different connectivity results, the two spaces cannot be homeomorphic. This is the template: find a topological invariant they disagree on."
 
-- question: "A continuous bijection f: X → Y is generally a homeomorphism."
+- question: "A continuous bijection f: X → Y is always a homeomorphism."
   type: true-false
   answer: false
   explanation: "A homeomorphism requires both f and f⁻¹ to be continuous. A continuous bijection can fail to be a homeomorphism when the inverse is discontinuous. The standard example: f: [0,1) → S¹ wrapping the interval onto the circle is continuous and bijective, but the inverse is not continuous at the identification point. Continuity of f and bijectivity together do not force f⁻¹ to be continuous."
@@ -63,7 +72,7 @@ A homeomorphism is a continuous bijection with continuous inverse. Two spaces ar
 
 From the topological definition of continuity, you know that a continuous function f: X → Y "respects" the topology: preimages of open sets in Y are open in X. But continuity alone, even with bijectivity, does not make f a topological equivalence. A **homeomorphism** adds the requirement that the inverse f⁻¹ is also continuous — so the topology flows both ways, and open sets in X correspond exactly to open sets in Y. A homeomorphism is the topology's notion of "being the same."
 
-A classic example reveals why the inverse's continuity matters. Consider the map f: [0,1) → S¹ defined by f(t) = (cos 2πt, sin 2πt) — wrapping the half-open interval onto the unit circle. This is a continuous bijection, but f⁻¹ is not continuous (small open sets near the "seam" of the circle pull back to disconnected sets near 0 and 1). So f is not a homeomorphism: [0,1) and S¹ are topologically distinct. The circle is compact; the half-open interval is not — and compactness is a topological property that homeomorphisms must preserve.
+A classic example reveals why the inverse's continuity matters. Consider the map f: [0,1) → S¹ defined by f(t) = (cos 2πt, sin 2πt) — wrapping the half-open interval onto the unit circle. This is a continuous bijection, but f⁻¹ is not continuous (the open set [0, 1/4) in [0,1) maps to an arc that contains the "seam" point (1, 0) but is not open in S¹). So f is not a homeomorphism: [0,1) and S¹ are topologically distinct. The circle is compact; the half-open interval is not — and compactness is a topological property that homeomorphisms must preserve.
 
 **Topological properties** are precisely those that homeomorphisms preserve: compactness, connectedness, path-connectedness, the number of connected components, the fundamental group, and dimension. If X and Y are homeomorphic, they must agree on all of these. This turns homeomorphism classification into a game: to show two spaces are homeomorphic, exhibit a homeomorphism; to show they are not, find a topological property they disagree on. The circle S¹ and the interval [0,1] both have one connected component, but removing a point from S¹ leaves the space connected while removing an interior point from [0,1] disconnects it — so they are not homeomorphic.
 

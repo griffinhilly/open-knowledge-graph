@@ -31,6 +31,14 @@ status: validated
 ## Core Idea
 The Solow model explains long-run economic growth through capital accumulation, labor force growth, and exogenous technological progress operating under diminishing returns to capital. It identifies the steady-state growth rate as determined solely by population growth and productivity growth—not by savings behavior—because capital accumulation has diminishing payoffs. The model's key insight is that only technological progress can sustain indefinite per-capita growth in a competitive economy.
 
+## How It's Best Learned
+Run the accumulation equation Δk = s·k^0.5 − (δ + n)k in a spreadsheet with s = 0.2 and δ + n = 0.1, so k* = 4. Start one country at k = 1: capital per worker grows 10% in the first period. Start another at k = 2.25: it grows about 3.3%. Watching both paths approach k* = 4 shows convergence and diminishing returns at once.
+
+## Common Misconceptions
+- The Solow model predicts that every poor country will catch up with rich ones. (It predicts convergence to each country's own steady state; countries with different saving, population growth or technology settle at different income levels.)
+- Faster population growth raises output per worker because there are more workers. (Faster growth spreads capital over more workers, which lowers steady-state capital and output per worker.)
+- Households in the Solow model choose their saving rate optimally. (The saving rate is a fixed parameter; models such as Ramsey-Cass-Koopmans derive saving from household optimization.)
+
 ## Questions
 
 ```yaml

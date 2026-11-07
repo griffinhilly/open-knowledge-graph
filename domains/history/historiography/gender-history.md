@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Gender history treats gender (as opposed to 'women's history') as a fundamental analytical category that reveals how power, labor, and social structures are organized across all domains of history. Gender historians analyze not only women's experiences but how gendered categories themselves—masculinity, femininity, sexuality—are historically constructed and how gender systems intersect with race, class, and nation.
 
+## How It's Best Learned
+Take one topic, such as factory work in the nineteenth century, and write two research questions about it. The women's-history question asks where women were and what they did. The gender-history question asks how ideas of manhood and womanhood shaped wages, skill labels, unions and law for everyone. Then add a third question that brings in race or class, which shows what intersectional analysis changes.
+
+## Common Misconceptions
+- Gender history only matters where women were present. (Domains run by men, such as armies or legislatures, were built on gendered ideas of authority and virtue, so they are central cases.)
+- Saying gender is socially constructed means bodies and sex difference are fictional. (The claim is that the roles, virtues and prohibitions a society attaches to sex difference are historical products that change.)
+- Intersectionality means adding up separate disadvantages. (It holds that gender, race, class and legal status combine into experiences that analyzing each dimension separately would miss.)
+- Women's history was a mistake that gender history replaced. (Recovering women's experiences remains valuable work, and gender history builds on it by adding gender as a category of analysis.)
+
 ## Questions
 
 ```yaml

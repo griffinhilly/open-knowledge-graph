@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Magnetic minerals acquire natural remanent magnetization (NRM) during cooling through the Curie temperature (thermoremanent magnetization) or during deposition and diagenesis (depositional remanence). The strength of NRM depends on paleomagnetic field strength at the time of remanence acquisition and is independent of the current ambient field. Saturation magnetization indicates the maximum magnetization possible for a given mineral.
 
+## How It's Best Learned
+Run a simple paleointensity calculation. If a sample's NRM is 80% of the TRM it gains when cooled in a 50 μT lab field, the ancient field was about 40 μT, because TRM scales with field strength. Then compare NRM with saturation. A basalt with 1% magnetite by volume has Mₛ ≈ 4.8 kA/m, so an NRM of 1 A/m uses only about 0.02% of it.
+
+## Common Misconceptions
+- A strongly magnetized rock means Earth's field was strong when it formed. (NRM intensity also depends on the amount, type and grain size of the magnetic minerals. Paleointensity needs a comparison with a lab-induced TRM on the same sample.)
+- Remanence is fixed at the instant a mineral passes its Curie temperature. (Magnetic order appears at the Curie temperature, but each grain's remanence becomes fixed at its own blocking temperature, at or below that point.)
+- A rock's NRM is one single magnetization. (NRM is often a sum of components, such as a primary TRM or DRM plus later chemical, viscous or lightning-induced remanence. Stepwise demagnetization separates them.)
+
 ## Questions
 
 ```yaml

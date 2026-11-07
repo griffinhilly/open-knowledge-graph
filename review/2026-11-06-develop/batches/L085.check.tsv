@@ -1,0 +1,66 @@
+domains/physics/electrodynamics/plane-electromagnetic-waves.md	how	4	0	ok	Faraday derivation of B_y worked; correct
+domains/physics/electrodynamics/plane-electromagnetic-waves.md	mis	8	0	ok
+domains/physics/electrodynamics/plane-electromagnetic-waves.md	old:core	1	1	fixed	Core Idea said E and B magnitudes are equal in SI units; corrected to |B| = |E|/c in SI (equal only in Gaussian)
+domains/physics/electrodynamics/plane-waves-in-vacuum.md	how	4	0	ok	four algebraic Maxwell equations and k x (k x E0) step worked; gives omega = ck
+domains/physics/electrodynamics/plane-waves-in-vacuum.md	mis	8	0	ok
+domains/physics/electrodynamics/plane-waves-in-vacuum.md	old:ex	2	2	fixed	Explainer had S = E x H/mu0 (should be E x B/mu0) and |S| = c^2 eps0 E^2 (should be c eps0 E^2)
+domains/physics/electrodynamics/polarization-of-waves.md	how	4	0	fixed	tabulation worked; clarity only: "repeat with unequal amplitudes" now says repeat phi = pi/2 (with phi = 0 unequal amplitudes give a line, not an ellipse)
+domains/physics/electrodynamics/polarization-of-waves.md	mis	8	0	ok	I0/8 for 45-degree middle polarizer checked
+domains/physics/electrodynamics/polarization-of-waves.md	old:q:0:explanation	1	1	fixed	explanation said E_y becomes negative and rotates clockwise; at z=0 E_y = E0 sin(wt) > 0, so rotation is x to y (counterclockwise seen from +z), left-circular in optics convention. Also note: Explainer sits before Questions in this file (old ordering, not moved)
+domains/physics/electrodynamics/poynting-theorem-conservation-law.md	how	4	0	ok	resistor surface flux VI/(2 pi a L) times 2 pi a L = VI checked
+domains/physics/electrodynamics/poynting-theorem-conservation-law.md	mis	8	0	ok
+domains/physics/electrodynamics/poynting-vector-and-energy-flux.md	how	4	0	ok	13.3 W/m^2 both ways checked (13.28, 13.26)
+domains/physics/electrodynamics/poynting-vector-and-energy-flux.md	mis	8	1	fixed	complex-field bullet: belief stated as Re(E) x Re(B)/mu0, which is the correct real-field product and matched its own correction; belief now "E x B/mu0 computed directly from complex amplitudes"
+domains/physics/electrodynamics/poynting-vector-and-energy-flux.md	old:q:1:explanation	1	1	fixed	reason given was "S^2 is always nonnegative"; changed to |S| proportional to E^2 is never negative
+domains/physics/electrodynamics/poynting-vector-energy-flow.md	how	3	0	ok	coax annulus integral gives VI, ln(b/a) cancels
+domains/physics/electrodynamics/poynting-vector-energy-flow.md	mis	6	0	ok
+domains/physics/electrodynamics/radiation-accelerating-charges.md	how	4	0	ok	Purcell kink ratio a r sin(theta)/c^2 worked
+domains/physics/electrodynamics/radiation-accelerating-charges.md	mis	8	0	ok
+domains/physics/electrodynamics/radiation-accelerating-charges.md	old:q:3:explanation	1	1	fixed	called classical atomic collapse the "ultraviolet catastrophe" (that is blackbody radiation); now "instability of the classical atom"
+domains/physics/electrodynamics/radiation-accelerating-charges.md	old:ex	1	1	fixed	same "ultraviolet catastrophe" misattribution in Explainer
+domains/physics/electrodynamics/radiation-damping-radiation-reaction.md	how	5	0	ok	integration by parts, jerk = -w^2 v, decay rate tau w^2 all checked
+domains/physics/electrodynamics/radiation-damping-radiation-reaction.md	mis	6	0	ok	Schott term difference m tau d(v.a)/dt checked
+domains/physics/electrodynamics/radiation-damping-radiation-reaction.md	old:ex	1	1	fixed	Explainer had F_damp proportional to -w v; correct is -w^2 v (consistent with its own Gamma ~ w^2)
+domains/physics/electrodynamics/radiation-directivity-and-pattern.md	how	4	0	ok	8 pi/3 integral and D = 1.5 checked
+domains/physics/electrodynamics/radiation-directivity-and-pattern.md	mis	8	0	ok
+domains/physics/electrodynamics/radiation-from-accelerated-charges.md	how	4	0	ok
+domains/physics/electrodynamics/radiation-from-accelerated-charges.md	mis	8	0	ok
+domains/physics/electrodynamics/radiation-reaction-force.md	how	5	0	ok	runaway and pre-acceleration solutions worked; tau = 6.27e-24 s
+domains/physics/electrodynamics/radiation-reaction-force.md	mis	6	1	fixed	"large correction for electrons in ordinary circuits" was a strawman and its correction mixed slow electrons with synchrotrons; rewritten as "always negligible since tau ~ 1e-23 s" with cumulative synchrotron loss as correction
+domains/physics/electrodynamics/radiation-reaction-force.md	old:ex	1	1	fixed	equation of motion written m adot = F_ext + F_rad; corrected to m a
+domains/physics/electrodynamics/rectangular-waveguide-propagation.md	how	4	0	ok	WR-90 cutoffs 6.56/13.1/14.75/16.15 GHz checked
+domains/physics/electrodynamics/rectangular-waveguide-propagation.md	mis	8	0	ok
+domains/physics/electrodynamics/rectangular-waveguide-propagation.md	old:ex	1	1	fixed	"(or c/(2b) if b < a/2)" inverted; TE01 limits the band when b > a/2
+domains/physics/electrodynamics/rectangular-waveguide-propagation.md	old:q:3:explanation	1	1	fixed	said "at least one of m and n must be nonzero" for TM; both must be nonzero
+domains/physics/electrodynamics/refractive-index-and-dispersion.md	how	5	0	ok	n = 1.44, 1.53, 1.81, 0.82 recomputed
+domains/physics/electrodynamics/refractive-index-and-dispersion.md	mis	8	0	ok
+domains/physics/electrodynamics/relativistic-particle-em-coupling.md	how	4	0	ok	gauge A = Bx y-hat; dp_y conservation reproduces q v x B
+domains/physics/electrodynamics/relativistic-particle-em-coupling.md	mis	6	0	ok
+domains/physics/electrodynamics/relativistic-particle-em-coupling.md	old:q:0:answer	1	1	fixed	wrong answer key: with E = B = 0 the kinetic momentum is conserved (Lorentz force zero); key changed 1 -> 0, explanation rewritten, stem now states phi constant (needed for E = 0)
+domains/physics/electrodynamics/resonant-cavities-em.md	how	4	0	ok	Q/w0 = 1.59 us and 100 kHz both ways checked
+domains/physics/electrodynamics/resonant-cavities-em.md	mis	6	0	ok	cube degeneracy TE101/TE011/TM110 at c/(a sqrt2) checked
+domains/physics/electrodynamics/resonant-cavities-em.md	old:q:0:explanation	1	1	fixed	claimed "no partial resonance at nearby off-mode frequencies", contradicting Lorentzian response; now says 3.1 GHz is far outside a linewidth
+domains/physics/electrodynamics/retarded-potentials.md	how	4	0	ok	switched-on wire A(s,t) and late-time B = mu0 I/(2 pi s) checked
+domains/physics/electrodynamics/retarded-potentials.md	mis	6	0	ok
+domains/physics/electrodynamics/scalar-vector-potentials.md	how	5	0	ok	both curls, gradient difference, E = Bdot r/2 and loop integral checked
+domains/physics/electrodynamics/scalar-vector-potentials.md	mis	8	1	fixed	"for a uniform field A circles the axis" is gauge-dependent and contradicted by A2 in the file's own How; qualified to symmetric gauge
+domains/physics/electrodynamics/separation-variables-elliptic-equations.md	how	4	0	ok	infinite slot series (4V0/pi) sum odd matches standard result
+domains/physics/electrodynamics/separation-variables-elliptic-equations.md	mis	8	0	ok
+domains/physics/electrodynamics/synchrotron-radiation.md	how	4	0	ok	U0 = q^2 gamma^4/(3 eps0 R) derived; 3 GeV, 10 m gives 0.717 MeV; (mp/me)^4 = 1.1e13
+domains/physics/electrodynamics/synchrotron-radiation.md	mis	6	0	ok
+domains/physics/electrodynamics/synchrotron-radiation.md	old:q:0:explanation	1	1	fixed	LEP loss per turn at ~100 GeV was a few GeV, not "in the MeV range"
+domains/physics/electrodynamics/synchrotron-radiation.md	old:q:1:explanation	1	1	fixed	"isotropic donut" for non-relativistic pattern (sin^2 is not isotropic); now "broad donut"
+domains/physics/electrodynamics/synchrotron-radiation.md	old:ex	1	1	fixed	same "isotropic (a donut shape)" error in Explainer
+domains/physics/electrodynamics/transverse-electric-modes.md	how	4	0	ok	guide wavelength 4.54 cm and gamma = 94 m^-1 checked
+domains/physics/electrodynamics/transverse-electric-modes.md	mis	8	0	ok
+domains/physics/electrodynamics/transverse-electric-modes.md	old:ex	1	1	fixed	evanescent decay described as "within a few skin depths" (skin depth is conductor penetration); now "over a short distance along the guide". Q0 option text still uses 'skin depths' in quotes (left)
+domains/physics/electrodynamics/transverse-magnetic-modes.md	how	4	0	ok	TM11 cutoff 16.77 GHz checked
+domains/physics/electrodynamics/transverse-magnetic-modes.md	mis	8	1	fixed	linac bullet cited "TM01-type mode" on a page that says TM modes need both indices nonzero; now specifies the circular-guide TM01
+domains/physics/electrodynamics/vector-potential-and-curl.md	how	3	0	ok	solenoid A inside/outside via Stokes checked
+domains/physics/electrodynamics/vector-potential-and-curl.md	mis	8	0	ok
+domains/physics/electrodynamics/waveguide-equations-general.md	how	4	0	ok
+domains/physics/electrodynamics/waveguide-equations-general.md	mis	8	1	fixed	"k_z smaller than w/c for every guided mode" overstated (TEM modes of two-conductor lines have k_z = w/c); limited to hollow guide
+domains/physics/electrodynamics/waveguides-propagation-modes.md	how	4	0	ok	sin(theta) = fc/f, c/cos, c cos checked
+domains/physics/electrodynamics/waveguides-propagation-modes.md	mis	8	0	ok
+domains/physics/electrodynamics/waveguides-transmission-lines.md	how	4	0	ok	Z0 = 59.96 ln(b/a); b/a = 2.3 gives 49.9 ohm
+domains/physics/electrodynamics/waveguides-transmission-lines.md	mis	8	0	ok	coax TE11 near lambda = pi(a+b) checked

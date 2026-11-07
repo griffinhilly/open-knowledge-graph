@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 A field is a commutative ring with unity in which every nonzero element has a multiplicative inverse. Fields include the rationals Q, reals R, complexes C, and finite fields Z/pZ for prime p.
 
+## How It's Best Learned
+Build a field that is not Z/pZ. Work with polynomials over Z/2Z modulo x² + x + 1, so that x² = x + 1. The elements are 0, 1, x and x + 1, and x(x + 1) = x² + x = 1, so every nonzero element has an inverse. Then find its characteristic: 1 + 1 = 0, so it is 2, a prime, as the theorem requires.
+
+## Common Misconceptions
+- The characteristic of a finite field equals its number of elements. (The four-element field above has characteristic 2. In general a finite field of characteristic p has a power of p as its size.)
+- A field of characteristic p must be finite. (The field of rational functions with coefficients in Z/pZ is infinite and has characteristic p.)
+- A field has no ideals. (Every field has exactly two ideals, {0} and the whole field. The theorem says it has no proper nonzero ideals.)
+
 ## Questions
 
 ```yaml

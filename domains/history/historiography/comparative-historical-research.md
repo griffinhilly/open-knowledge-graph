@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Comparing historical cases across regions or time periods enables historians to identify patterns, test generalizations, and understand how context shapes outcomes. Comparative history requires selecting commensurable cases, identifying what is truly comparable, and remaining alert to asymmetries of power and knowledge that make comparison itself politically fraught. Effective comparison illuminates both similarities and differences.
 
+## How It's Best Learned
+Draw a small table with cases as columns and background factors plus the outcome as rows. Fill it in for a most-similar pair, such as two neighboring states that ended up with different regimes, and then for a most-different pair that shared an outcome. Seeing which row changes in each table makes the two designs clear. Then test one key concept, such as "feudalism," by writing what it would mean in each case.
+
+## Common Misconceptions
+- A most-similar design compares cases that share the same outcome. (It compares cases alike in background conditions that differ in outcome; cases with very different backgrounds and a shared outcome are a most-different design.)
+- Careful case selection gives the same certainty as a controlled experiment. (Historical cases are complex configurations of factors, so comparison narrows explanations without fully removing confounding causes.)
+- If two societies use the same label, such as "revolution," they are comparable. (Comparability has to be checked by examining whether the institutions or processes actually worked alike.)
+- Choosing a baseline case is a purely technical step. (Treating one region's path as the norm can make other cases look like they "lacked" something, which distorts the comparison.)
+
 ## Questions
 
 ```yaml

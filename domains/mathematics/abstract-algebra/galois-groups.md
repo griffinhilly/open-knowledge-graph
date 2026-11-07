@@ -25,7 +25,15 @@ status: validated
 # Galois Groups
 
 ## Core Idea
-The Galois group Gal(K/F) of a field extension K/F is the group of field automorphisms of K that fix F element-wise. For separable extensions, the order of the Galois group equals the degree of the extension.
+The Galois group Gal(K/F) of a field extension K/F is the group of field automorphisms of K that fix F element-wise. For Galois (normal and separable) extensions, the order of the Galois group equals the degree of the extension.
+
+## How It's Best Learned
+List the automorphisms of ℚ(√2, √3) by deciding where the two generators go. √2 can go to ±√2 and √3 to ±√3, which gives four maps. Compose them and check that every non-identity map has order 2, so the group is ℤ₂ × ℤ₂ and not ℤ₄. Then try ℚ(∛2), where the identity is the only automorphism.
+
+## Common Misconceptions
+- The Galois group contains every permutation of the roots. (Automorphisms must respect the relations among roots. The roots of (x² − 2)(x² − 3) are ±√2 and ±√3, but no automorphism sends √2 to √3, so only 4 of the 24 permutations occur.)
+- To describe an automorphism you must say where every element goes. (An automorphism fixing F is determined by where it sends the generators of K over F. For ℚ(√2, √3), the images of √2 and √3 determine the whole map.)
+- The Galois group depends only on the larger field K. (It depends on the base field too. Gal(ℚ(√2, √3)/ℚ) has order 4, while Gal(ℚ(√2, √3)/ℚ(√2)) has order 2.)
 
 ## Questions
 
@@ -58,7 +66,7 @@ The Galois group Gal(K/F) of a field extension K/F is the group of field automor
 - question: "For a Galois extension K/F of degree n, the Galois group Gal(K/F) has exactly n elements."
   type: true-false
   answer: true
-  explanation: "This is the fundamental counting theorem of Galois theory: for separable (and hence Galois) extensions, |Gal(K/F)| = [K:F]. The example ℚ(√2)/ℚ illustrates this — the extension has degree 2 (a basis is {1, √2}), and the Galois group {identity, conjugation} has exactly 2 elements. This equality is non-trivial: there could in principle be fewer automorphisms (if the polynomial has repeated roots) or more (if we allow automorphisms not fixing F). Separability ensures neither pathology occurs."
+  explanation: "This is the fundamental counting theorem of Galois theory: for Galois (normal and separable) extensions, |Gal(K/F)| = [K:F]. The example ℚ(√2)/ℚ illustrates this — the extension has degree 2 (a basis is {1, √2}), and the Galois group {identity, conjugation} has exactly 2 elements. This equality is non-trivial: there can be fewer automorphisms when the extension is not normal (ℚ(∛2)/ℚ has degree 3 but only the identity) or when roots repeat. Normality and separability together make the count exact."
 
 - question: "Why must any automorphism φ in Gal(ℚ(√2)/ℚ) send √2 to either √2 or −√2, and not to some other value like √3 or 2?"
   type: short-answer

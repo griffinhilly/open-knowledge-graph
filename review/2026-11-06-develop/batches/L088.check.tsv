@@ -1,0 +1,69 @@
+domains/biology/evolutionary-biology/adaptive-landscape-crossing.md	how	3	0	ok
+domains/biology/evolutionary-biology/adaptive-landscape-crossing.md	mis	6	1	fixed	Bullet 2 called "drift helps small populations find better peaks" a misconception, contradicting the file's own Explainer and Q1/Q2 (drift-assisted valley crossing, shifting balance). Reworded belief to "drift steers toward higher peaks" and the correction now grants valley crossing.
+domains/biology/evolutionary-biology/adaptive-radiation-molecular-basis.md	how	4	0	ok
+domains/biology/evolutionary-biology/adaptive-radiation-molecular-basis.md	mis	6	1	fixed	Bullet 3 correction implied only one duplicate can change; under subfunctionalization both copies diverge. Reworded to: selection keeps the function in at least one copy or split between them.
+domains/biology/evolutionary-biology/adaptive-radiation.md	how	4	0	ok
+domains/biology/evolutionary-biology/adaptive-radiation.md	mis	6	0	ok	Note (old q:4:explanation): "Genetics was identical; ecology was different" is hyperbole about continental vs Galapagos finches; left as is.
+domains/biology/evolutionary-biology/allopatric-speciation.md	how	3	0	ok
+domains/biology/evolutionary-biology/allopatric-speciation.md	mis	8	0	ok
+domains/biology/evolutionary-biology/altruism-evolution.md	how	4	0	ok	Worked rB: 0.5x3=1.5>1, 0.125x3=0.375<1 correct.
+domains/biology/evolutionary-biology/altruism-evolution.md	mis	8	0	ok
+domains/biology/evolutionary-biology/balancing-selection.md	how	5	0	ok	Worked: p*=0.8/(0.2+0.8)=0.8; marginal fitnesses 0.84/0.84 at p=0.8 and 0.82/0.92 at p=0.9 correct.
+domains/biology/evolutionary-biology/balancing-selection.md	mis	6	0	ok
+domains/biology/evolutionary-biology/balancing-selection.md	q:4:explanation	1	0	ok	Checked 1-ps, 1-qt, p=t/(s+t) and stability direction.
+domains/biology/evolutionary-biology/bayesian-phylogenetics.md	how	5	0	ok	Worked: posteriors 0.6/0.3/0.1, MH acceptance 0.5 (assumes symmetric proposals).
+domains/biology/evolutionary-biology/bayesian-phylogenetics.md	mis	6	0	ok
+domains/biology/evolutionary-biology/bayesian-phylogenetics.md	old:ex	1	1	fixed	Explainer said MCMC accepts proposals "based on whether it increases the posterior" (hill-climbing). Fixed to Metropolis-Hastings ratio rule, matching the new How section.
+domains/biology/evolutionary-biology/chromosomal-evolution.md	how	4	0	ok	Worked the pericentric inversion loop crossover: products ABC.DEA and GFBC.DEFG confirmed.
+domains/biology/evolutionary-biology/chromosomal-evolution.md	mis	6	0	ok
+domains/biology/evolutionary-biology/coalescent-theory.md	how	4	0	ok	Worked: Ne/3 + 2Ne/3 + 2Ne = 3Ne = 4Ne(1-1/4); last pair 2/3 of total.
+domains/biology/evolutionary-biology/coalescent-theory.md	mis	6	0	ok
+domains/biology/evolutionary-biology/codon-bias-and-selection.md	how	3	0	ok
+domains/biology/evolutionary-biology/codon-bias-and-selection.md	mis	6	0	ok
+domains/biology/evolutionary-biology/convergent-evolution.md	how	3	0	ok
+domains/biology/evolutionary-biology/convergent-evolution.md	mis	6	0	ok
+domains/biology/evolutionary-biology/developmental-constraints.md	how	4	0	ok
+domains/biology/evolutionary-biology/developmental-constraints.md	mis	8	0	ok
+domains/biology/evolutionary-biology/directional-selection.md	how	5	0	ok	Worked haploid recursion at s=0.1: 0.00099, 0.0238, 0.0009 match.
+domains/biology/evolutionary-biology/directional-selection.md	mis	6	0	ok
+domains/biology/evolutionary-biology/directional-selection.md	old:q:0	1	1	fixed	Answer option and explanation explained an S-curve in bacteria by "copies hidden in heterozygotes"/"homozygous"; bacteria are haploid. Reworded option C and the explanation sentence; answer index unchanged.
+domains/biology/evolutionary-biology/directional-stabilizing-selection.md	how	4	0	ok	Worked: directional mean 3.4, var 1.04; stabilizing mean 3, var 0.59 from 1.2.
+domains/biology/evolutionary-biology/directional-stabilizing-selection.md	mis	6	0	ok
+domains/biology/evolutionary-biology/disruptive-selection.md	how	4	0	ok	Worked: survivors 10,12,8,12,10; mean 3; var 104/52 = 2.0.
+domains/biology/evolutionary-biology/disruptive-selection.md	mis	6	0	ok
+domains/biology/evolutionary-biology/dna-sequence-divergence.md	how	5	0	ok	Worked JC: 0.107, 0.383, 1.207. Die step needs a d20 or random table to pick among 20 sites; left as is.
+domains/biology/evolutionary-biology/dna-sequence-divergence.md	mis	6	0	ok
+domains/biology/evolutionary-biology/dna-sequence-divergence.md	old:q:4:answer	1	1	fixed	Garbled sentence "one lineage substitutes A->G independently in both lineages"; fixed to "A->G occurs independently in both lineages".
+domains/biology/evolutionary-biology/effective-recombination-rate.md	how	3	0	ok
+domains/biology/evolutionary-biology/effective-recombination-rate.md	mis	6	0	ok
+domains/biology/evolutionary-biology/efficacy-selection-finite-populations.md	how	4	0	ok	Worked Kimura ratio S/(e^S-1) with S=4Ne|s|: 0.81, 0.075, ~0. Style: "essentially" -> "close to".
+domains/biology/evolutionary-biology/efficacy-selection-finite-populations.md	mis	6	0	ok
+domains/biology/evolutionary-biology/efficacy-selection-finite-populations.md	old:q:3:explanation	1	1	fixed	Arithmetic: 2 x 10^8 x 10^-4 = 20,000, not 20.
+domains/biology/evolutionary-biology/evo-developmental-modules.md	how	3	1	fixed	"Freshwater sticklebacks lost their pelvic spines" overgeneralized; only some freshwater populations show pelvic reduction. Changed to "Several freshwater stickleback populations".
+domains/biology/evolutionary-biology/evo-developmental-modules.md	mis	6	0	ok
+domains/biology/evolutionary-biology/evolutionary-constraints.md	how	3	0	ok
+domains/biology/evolutionary-biology/evolutionary-constraints.md	mis	6	0	ok
+domains/biology/evolutionary-biology/evolutionary-constraints.md	old:q:3:explanation	1	1	fixed	Giraffe recurrent laryngeal nerve detour "up to a meter" is wrong (several meters; Explainer says meters). Fixed.
+domains/biology/evolutionary-biology/evolutionary-game-theory.md	how	5	0	ok	Worked: W_H=2-3p, W_D=1-p, p*=0.5; V=6,C=4 gives W_H-W_D=3-2p>0.
+domains/biology/evolutionary-biology/evolutionary-game-theory.md	mis	8	0	ok
+domains/biology/evolutionary-biology/evolutionary-stable-strategy.md	how	5	0	ok	Worked both ESS conditions for the 50:50 mix: 0.5/0.5 tie, -0.5>-1, 1.5>1.
+domains/biology/evolutionary-biology/evolutionary-stable-strategy.md	mis	6	0	ok
+domains/biology/evolutionary-biology/evolutionary-trade-offs.md	how	3	0	ok
+domains/biology/evolutionary-biology/evolutionary-trade-offs.md	mis	6	0	ok
+domains/biology/evolutionary-biology/evolvability.md	how	5	0	ok	Worked: R=0.5x7=3.5; 35% vs 3.5% of mean.
+domains/biology/evolutionary-biology/evolvability.md	mis	6	0	ok
+domains/biology/evolutionary-biology/exaptation.md	how	3	0	ok
+domains/biology/evolutionary-biology/exaptation.md	mis	8	0	ok
+domains/biology/evolutionary-biology/exaptation.md	old:q:3:explanation	2	2	fixed	Said "Fish swim bladders gave rise to tetrapod lungs" (reversed: lungs are ancestral in bony fishes, swim bladders derived) and referred to "The Explainer". Fixed both.
+domains/biology/evolutionary-biology/exaptation.md	old:ex	1	1	fixed	Same swim bladder -> lung reversal in Explainer; rewritten as lungs co-opted into swim bladders in ray-finned fishes.
+domains/biology/evolutionary-biology/extinction-and-recovery.md	how	4	0	ok	Worked: t = ln4/0.2 = 6.9 My.
+domains/biology/evolutionary-biology/extinction-and-recovery.md	mis	6	0	ok
+domains/biology/evolutionary-biology/fitness-landscape.md	how	3	0	ok
+domains/biology/evolutionary-biology/fitness-landscape.md	mis	6	0	ok
+domains/biology/evolutionary-biology/fixation-probability.md	how	5	0	ok	Worked: e^-1.02 = 0.36; 0.04/0.00005 = 800.
+domains/biology/evolutionary-biology/fixation-probability.md	mis	6	0	ok
+domains/biology/evolutionary-biology/fixation-probability.md	old:q:3:explanation	2	2	fixed	Claimed 2s holds "regardless of how large s is" and gave 20%/40% for s=0.1/0.2; branching-process values are about 18%/31%. Fixed.
+domains/biology/evolutionary-biology/gene-flow-migration.md	how	5	0	ok	Worked: gap x0.95/gen, half-life 13.5 gen; FST 0.2 and 0.024.
+domains/biology/evolutionary-biology/gene-flow-migration.md	mis	8	0	ok
+domains/biology/evolutionary-biology/genealogical-methods-phylogenetics.md	how	4	0	ok	Worked: 1-(2/3)e^-1 = 0.755, (1/3)e^-1 = 0.123.
+domains/biology/evolutionary-biology/genealogical-methods-phylogenetics.md	mis	6	0	ok	Note (old q:0): stem says "two closely related species" yet speaks of conflicting topologies, which need 3+ taxa; left as is.

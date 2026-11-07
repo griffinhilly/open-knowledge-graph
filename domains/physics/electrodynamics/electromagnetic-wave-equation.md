@@ -36,6 +36,14 @@ status: validated
 ## Core Idea
 In source-free regions, Maxwell's equations combine to yield wave equations: ∇²E = μ₀ε₀∂²E/∂t² and ∇²B = μ₀ε₀∂²B/∂t². These show electromagnetic disturbances propagate at c = 1/√(μ₀ε₀), revealing light as an electromagnetic phenomenon and unifying optics with electromagnetism.
 
+## How It's Best Learned
+After the derivation, test a trial solution against the first-order equations, not just the wave equation. Take E = E₀cos(kz − ωt) x̂. Faraday's law then forces B = (kE₀/ω)cos(kz − ωt) ŷ, and the Ampère-Maxwell law requires k = ω/c, so B₀ = E₀/c. Next try a field along z, E = E₀cos(kz − ωt) ẑ, and watch ∇·E = 0 rule it out.
+
+## Common Misconceptions
+- Any solution of the wave equation for E is a possible electromagnetic wave. (The wave equation is a consequence of Maxwell's equations. A solution must still satisfy the original first-order equations, which rule out longitudinal plane waves in vacuum.)
+- In a light wave, E and B are a quarter cycle out of phase, trading energy like an LC circuit. (In a vacuum plane wave, E and B peak together, in phase.)
+- The E and B wave equations can be solved separately and the results paired freely. (Once E is chosen, Faraday's law fixes B. The two fields are linked, not independent.)
+
 ## Questions
 
 ```yaml
@@ -59,10 +67,10 @@ In source-free regions, Maxwell's equations combine to yield wave equations: ∇
   answer: 2
   explanation: "Self-propagating waves require mutual induction: changing E creates B, and changing B creates E, with each sustaining the other in a traveling disturbance. Faraday's law covers only one direction of this coupling (changing B → E). Without the displacement current, the reverse coupling (changing E → B) is absent. Taking the curl of Faraday's law would give ∇²E⃗ = 0, a Laplace equation with no wave solutions. The displacement current term is what transforms a static-field theory into a wave theory."
 
-- question: "The propagation speed predicted by Maxwell's wave equation, c = 1/√(μ₀ε₀), matched the known speed of light before Maxwell derived it — this match was already measured from astronomical observations."
+- question: "The propagation speed predicted by Maxwell's wave equation, c = 1/√(μ₀ε₀), matched the speed of light, which had already been measured before Maxwell derived it."
   type: true-false
   answer: true
-  explanation: "By the time Maxwell assembled his equations in the 1860s, Rømer and others had measured the speed of light from observations of Jupiter's moons to good accuracy. Maxwell computed 1/√(μ₀ε₀) from electrically measured constants and recognized immediately that the agreement was not coincidental — it meant light was electromagnetic in nature. The theoretical prediction and the experimental measurement converged, making this one of the most compelling unifications in physics history."
+  explanation: "By the time Maxwell assembled his equations in the 1860s, Rømer had estimated the speed of light from observations of Jupiter's moons, and Fizeau and Foucault had measured it in the laboratory. Maxwell computed 1/√(μ₀ε₀) from electrically measured constants and recognized immediately that the agreement was not coincidental — it meant light was electromagnetic in nature. The theoretical prediction and the experimental measurement converged, making this one of the most compelling unifications in physics history."
 
 - question: "The electromagnetic wave equation is derived by assuming that light is a wave and then verifying that Maxwell's equations are consistent with this assumption."
   type: true-false

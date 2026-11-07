@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Evolutionary game theory applies game theory to evolution by treating organisms as players with fitness payoffs determined by strategy frequencies in the population. Strategies that perform well against the current population composition can invade, leading to dynamic equilibria. Game theory explains cooperation, conflict, and signaling evolution.
 
+## How It's Best Learned
+Fill in a Hawk-Dove payoff matrix with resource value V = 2 and injury cost C = 4. With Hawk frequency p, Hawk fitness is 2 − 3p and Dove fitness is 1 − p. These are equal at p = 0.5. Check that Hawks gain at p = 0.25 and lose at p = 0.75. Then set V = 6 and C = 4, and show that Hawks now do better at every frequency.
+
+## Common Misconceptions
+- Animals pick strategies by working out which payoff is higher. (Strategies are inherited behaviors. Selection changes their frequencies over generations, with no calculation by the animal.)
+- An evolutionarily stable strategy is the best outcome for the group. (It is the strategy a rare mutant cannot beat once it is common. Stable outcomes can leave everyone worse off, as with mutual defection in a one-shot Prisoner's Dilemma.)
+- The Hawk-Dove game ends in a mix of Hawks and Doves whatever the payoffs. (A mix is stable only when the injury cost exceeds the resource value. When the value is at least as large as the cost, pure Hawk is the ESS.)
+- A mixed equilibrium means every individual sometimes plays Hawk and sometimes Dove. (It can also be a population of fixed Hawk and Dove types at the equilibrium ratio. Both versions give the same frequencies in this game.)
+
 ## Questions
 
 ```yaml

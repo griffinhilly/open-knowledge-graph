@@ -22,10 +22,18 @@ status: validated
 ## Core Idea
 Cycle notation is a compact way to write permutations. Every permutation can be uniquely written as a product of disjoint cycles. Every permutation is a product of transpositions, and the parity (odd or even number of transpositions) is invariant.
 
+## How It's Best Learned
+Compose permutations by chasing one element at a time, and fix a convention first. With σ = (1 2 3), τ = (2 3 4), and τ applied first, follow each element: 1 → 1 → 2, 2 → 3 → 1, 3 → 4 → 4, 4 → 2 → 3. So στ = (1 2)(3 4). Then compute τσ = (1 3)(2 4) and compare. The two products differ, and both are even, as two 3-cycles must give.
+
+## Common Misconceptions
+- A k-cycle is even when k is even. (A k-cycle is a product of k − 1 transpositions, so it is even when k is odd. A 3-cycle is even and a 4-cycle is odd.)
+- Cycles commute, so their order in a product does not matter. (Only disjoint cycles are guaranteed to commute. With the right-hand factor applied first, (1 2 3)(2 3 4) = (1 2)(3 4) but (2 3 4)(1 2 3) = (1 3)(2 4).)
+- (1 2 3) and (2 3 1) are different permutations. (They are the same: a cycle can start at any of its entries. (1 3 2) is a different permutation, the inverse of (1 2 3).)
+
 ## Questions
 
 ```yaml
-- question: "Two students decompose the 4-cycle (1 2 3 4) into transpositions differently. Student A writes (1 2)(1 3)(1 4) — three transpositions. Student B writes (1 4)(2 4)(3 4)(1 4)(2 4) — five transpositions. Which student, if either, is correct?"
+- question: "Two students decompose the 4-cycle (1 2 3 4) into transpositions differently, both composing left to right (the leftmost factor acts first). Student A writes (1 2)(1 3)(1 4) — three transpositions. Student B writes (1 2)(1 3)(2 4)(1 2)(2 4) — five transpositions. Which student, if either, is correct?"
   type: multiple-choice
   options:
     - "Student A only — the unique decomposition into transpositions uses exactly three"
@@ -57,7 +65,8 @@ Cycle notation is a compact way to write permutations. Every permutation can be 
 
 - question: "Why is the parity of a permutation well-defined, even though there are infinitely many ways to write the same permutation as a product of transpositions?"
   type: short-answer
-  answer: "Parity is well-defined because of a topological or algebraic invariant that is preserved by every transposition: for instance, the sign of a permutation can be defined as the sign of the Vandermonde polynomial ∏(xᵢ − xⱼ) under the action of the permutation. Each transposition flips exactly one pair (xᵢ − xⱼ) to −(xᵢ − xⱼ), changing the sign. So every transposition toggles the sign exactly once. No matter how you factor a permutation into transpositions, each factor flips the sign once — so an even-count decomposition always leaves the sign unchanged (even permutation) and an odd-count decomposition always flips it (odd permutation). Because the final sign is determined by the permutation itself, not by the decomposition, parity is invariant."
+  answer: "Parity is well-defined because of a topological or algebraic invariant that is preserved by every transposition: for instance, the sign of a permutation can be defined as the sign of the Vandermonde polynomial ∏(xᵢ − xⱼ) under the action of the permutation. Each transposition reverses an odd number of the factors (xᵢ − xⱼ), changing the sign. So every transposition toggles the sign exactly once. No matter how you factor a permutation into transpositions, each factor flips the sign once — so an even-count decomposition always leaves the sign unchanged (even permutation) and an odd-count decomposition always flips it (odd permutation). Because the final sign is determined by the permutation itself, not by the decomposition, parity is invariant."
+  explanation: "The sign is defined from the permutation alone, by its effect on the product of all differences (xᵢ − xⱼ) with i < j, without reference to any factorization. A transposition (i j) reverses an odd number of those factors, namely (xᵢ − xⱼ) itself and two factors for each index strictly between i and j, so it negates the whole product. A product of m transpositions therefore has sign (−1)ᵐ. If one permutation had factorizations of lengths m and m′, then (−1)ᵐ = (−1)ᵐ′, so m and m′ have the same parity."
 ```
 
 ## Explainer

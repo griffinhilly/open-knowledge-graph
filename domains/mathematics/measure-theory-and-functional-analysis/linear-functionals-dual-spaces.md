@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 A linear functional is a bounded linear operator f: X → ℝ (or ℂ). The dual space X* is the Banach space of all continuous linear functionals with norm ‖f‖ = sup{|f(x)| : ‖x‖ ≤ 1}. Duality is central to functional analysis.
 
+## How It's Best Learned
+Work one functional on ℓ² from start to finish. Let f(x) = Σ xₙ/n. Cauchy–Schwarz shows f is bounded, and Riesz identifies it with y = (1/n), so ‖f‖ = ‖y‖ = π/√6. Then test the unit vectors against it: f(eₙ) = 1/n → 0, while ‖eₙ‖ = 1. This is weak convergence to 0 without norm convergence, seen through a single functional.
+
+## Common Misconceptions
+- Every linear map from X to the scalars has a closed kernel. (A nonzero linear map to the scalars is bounded exactly when its kernel is closed. An unbounded one has a dense kernel.)
+- Over ℂ, the Riesz map y ↦ ⟨·, y⟩ is a linear isomorphism from H onto H*. (It is isometric but conjugate-linear: with ⟨x, y⟩ linear in x, the vector iy goes to −i times the functional for y.)
+- Every Banach space is reflexive, so X** = X. (The canonical map X → X** is always an isometric embedding, but it can fail to be onto. For c₀, the bidual is ℓ∞, which is strictly larger.)
+
 ## Questions
 
 ```yaml
@@ -51,7 +59,7 @@ A linear functional is a bounded linear operator f: X → ℝ (or ℂ). The dual
   answer: true
   explanation: "This is the definition of weak convergence. The weak topology on X is precisely the coarsest topology that makes every functional in X* continuous. Weak convergence is weaker than norm convergence: if ‖xₙ − x‖ → 0 (norm convergence) then f(xₙ) → f(x) for all f by continuity, but the converse fails in infinite-dimensional spaces. A standard example is the standard basis (eₙ) in ℓ², which converges weakly to 0 but has ‖eₙ‖ = 1 for all n."
 
-- question: "If a sequence converges weakly in an infinite-dimensional Banach space, it is expected to also converge in norm."
+- question: "If a sequence converges weakly in an infinite-dimensional Banach space, it must also converge in norm."
   type: true-false
   answer: false
   explanation: "Weak convergence does not imply norm convergence in infinite-dimensional spaces. The standard basis vectors (eₙ) in ℓ² converge weakly to 0 — for any f ∈ (ℓ²)*, represented by y ∈ ℓ², f(eₙ) = yₙ → 0 because y ∈ ℓ² means its terms go to zero. But ‖eₙ − 0‖ = ‖eₙ‖ = 1 for all n. This failure is one reason weak topology is useful: it allows sequences to 'converge' in a useful sense without the strong requirement of norm convergence, enabling compactness arguments unavailable in the norm topology."

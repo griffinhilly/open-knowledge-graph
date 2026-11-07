@@ -29,6 +29,15 @@ status: validated
 ## Core Idea
 Accelerating charges radiate electromagnetic waves that carry energy and momentum away from the charge. The radiated fields depend on the acceleration and fall off as 1/r (not 1/r² like Coulomb fields), indicating energy transport. This radiation causes energy loss and is the mechanism behind antenna operation, atomic transitions, and synchrotron emission.
 
+## How It's Best Learned
+Draw the field-line kink yourself. A charge at rest gets a brief acceleration a for time τ, then coasts at v = aτ. At time t = r/c, lines outside radius r point from the old position and lines inside point from the new one, joined by a shell of thickness cτ. Kink geometry gives E_⊥/E_r = ar sinθ/c², so E_⊥ = qa sinθ/(4πε₀c²r).
+
+## Common Misconceptions
+- A fast-moving charge radiates because of its speed. (A charge at constant velocity in vacuum does not radiate. The radiation field is proportional to acceleration.)
+- Radiation is strongest along the direction of acceleration. (For a slow charge the pattern goes as sin²θ: zero along the acceleration axis and largest perpendicular to it.)
+- The radiation field is a stronger version of the Coulomb field. (It is a separate term that falls as 1/r, points transverse to the line of sight, and depends on the acceleration at the retarded time.)
+- Only charges that oscillate steadily emit radiation. (Any acceleration radiates. A single brief kick sends out a single pulse.)
+
 ## Questions
 
 ```yaml
@@ -60,7 +69,7 @@ Accelerating charges radiate electromagnetic waves that carry energy and momentu
 - question: "The classical picture of an electron orbiting a nucleus fails because an orbiting electron is continuously accelerating and should therefore radiate energy, spiraling inward."
   type: true-false
   answer: true
-  explanation: "Centripetal acceleration is real acceleration — the electron's direction changes continuously even if its speed is constant. By the Larmor formula P = q²a²/(6πε₀c³), any acceleration produces radiated power. For a classical orbiting electron, this power loss would cause it to spiral inward in a tiny fraction of a second. This 'ultraviolet catastrophe' for atomic stability was one of the central crises classical physics could not resolve, ultimately requiring quantum mechanics and the quantization of orbital angular momentum."
+  explanation: "Centripetal acceleration is real acceleration — the electron's direction changes continuously even if its speed is constant. By the Larmor formula P = q²a²/(6πε₀c³), any acceleration produces radiated power. For a classical orbiting electron, this power loss would cause it to spiral inward in a tiny fraction of a second. This instability of the classical atom was one of the central crises classical physics could not resolve, ultimately requiring quantum mechanics and the quantization of orbital angular momentum."
 
 - question: "Explain why accelerating charges radiate but charges moving at constant velocity do not. What physically happens to the electric field lines when a charge is suddenly accelerated?"
   type: short-answer
@@ -76,4 +85,4 @@ The key mathematical signature is the 1/r falloff. The energy flux (Poynting vec
 
 The total radiated power is given by the **Larmor formula**: P = q²a²/(6πε₀c³) in SI units. The dependence on a² means power goes up rapidly with acceleration, and the dependence on 1/c³ makes radiation a relativistic effect — in the non-relativistic limit, it's small. The angular distribution is not isotropic: radiation is strongest perpendicular to the acceleration and zero along the acceleration axis, following a sin²θ pattern (donut-shaped, with the donut axis along the acceleration direction). This explains why antennas designed for omnidirectional coverage orient their driven element vertically — the radiation is strongest in the horizontal plane.
 
-The physical consequences are profound. An electron in a circular orbit — as in the Bohr model — is constantly accelerating centripetally, so it should continuously radiate and spiral inward. This "ultraviolet catastrophe" of classical atomic physics was one of the crises quantum mechanics resolved by quantizing orbital angular momentum. In modern particle physics, synchrotron radiation from electrons in circular accelerators (unavoidable due to centripetal acceleration) both limits achievable energies and creates a valuable X-ray light source used in material science. In astrophysics, synchrotron emission from relativistic electrons spiraling in cosmic magnetic fields produces the characteristic radio emission of pulsars and active galactic nuclei. The principle — **accelerating charges radiate** — is one of the most consequential in all of physics.
+The physical consequences are profound. An electron in a circular orbit — as in the Bohr model — is constantly accelerating centripetally, so it should continuously radiate and spiral inward. This instability of the classical atom was one of the crises quantum mechanics resolved by quantizing orbital angular momentum. In modern particle physics, synchrotron radiation from electrons in circular accelerators (unavoidable due to centripetal acceleration) both limits achievable energies and creates a valuable X-ray light source used in material science. In astrophysics, synchrotron emission from relativistic electrons spiraling in cosmic magnetic fields produces the characteristic radio emission of pulsars and active galactic nuclei. The principle — **accelerating charges radiate** — is one of the most consequential in all of physics.

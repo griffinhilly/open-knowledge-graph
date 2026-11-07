@@ -32,6 +32,15 @@ status: validated
 ## Core Idea
 Elastic waves propagate through solids by deforming the material elastically and transferring energy via strain-stress coupling. The wave equation derives from Newton's second law applied to continuous media, yielding plane wave solutions with velocity depending on elastic moduli and density. Seismic P and S waves are the two fundamental modes of elastic wave propagation in 3D solids.
 
+## How It's Best Learned
+Put numbers into the velocity formulas before the 3D derivation. Rock with K = 50 GPa, G = 30 GPa and ρ = 2,700 kg/m³ gives v_P ≈ 5.8 km/s and v_S ≈ 3.3 km/s. Water, with G = 0, K = 2.2 GPa and ρ = 1,000 kg/m³, gives v_P ≈ 1.5 km/s and no S-wave. Then take the divergence and curl of the wave equation to see the two modes separate.
+
+## Common Misconceptions
+- P-wave speed depends only on the bulk modulus because P-waves are compressional. (A P-wave also shears the material as it compresses it, so its speed depends on K + 4G/3.)
+- Denser rock carries waves faster because there is more material to push. (Density sits in the denominator of both velocity formulas; velocity rises only when stiffness rises more than density.)
+- Rock travels outward from the source along with the wave. (Particles oscillate about fixed positions; energy moves through the medium while the material stays in place.)
+- S-waves die out in liquids because liquids are too thin or light. (They cannot exist there because a liquid has zero shear modulus, so nothing restores a shear displacement.)
+
 ## Questions
 
 ```yaml

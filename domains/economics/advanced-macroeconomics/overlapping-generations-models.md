@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 OLG models feature agents of different ages living simultaneously; each generation is born, works, saves, retires, and dies. This structure makes intergenerational effects central to the analysis, revealing how current policy affects not just today's households but future generations. OLG models naturally incorporate lifecycle consumption patterns and can show how unfunded government debt shifts the burden to future generations, making them essential for analyzing pensions, social security, and long-term fiscal policy.
 
+## How It's Best Learned
+Solve the Diamond model with log utility, Cobb-Douglas output and full depreciation: saving is βw/(1+β), so k_{t+1} = β(1−α)k_t^α / [(1+β)(1+n)]. Plot it against the 45-degree line to find k*. Then show that the gross return over 1+n equals α(1+β)/[β(1−α)]. With β = 1, α = 0.25 gives 0.67, a dynamically inefficient economy, while α = 0.4 gives 1.33.
+
+## Common Misconceptions
+- A dynamically inefficient economy is one that saves too little. (It has accumulated too much capital, so the interest rate is below the growth rate and lower saving could raise the consumption of every generation.)
+- In an OLG model, public debt and pay-as-you-go pensions make future generations worse off. (That holds in a dynamically efficient economy; in an inefficient one, such transfers can make every generation better off.)
+- Ricardian equivalence cannot hold in any OLG setting. (If parents care about their children and leave positive bequests, generations are linked and equivalence can be restored.)
+
 ## Questions
 
 ```yaml

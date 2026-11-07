@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Waveguides confine and direct electromagnetic waves through structured channels (rectangular, cylindrical, optical fibers), supporting only discrete propagation modes at frequencies above a cutoff. Each mode has a unique field pattern and dispersion relation. Waveguides are fundamental to high-frequency communications, radar, microwaves, and photonics, with their mode structure determining transmission efficiency and bandwidth.
 
+## How It's Best Learned
+Build TE₁₀ from two plane waves crossing the guide at angles ±θ to its axis, with k_x = ±π/a. Then sin θ = f_c/f. The crests move along the axis at c/cos θ, the energy moves at c cos θ, and the product is c². At cutoff θ = 90°, so the waves bounce straight across and nothing advances down the guide.
+
+## Common Misconceptions
+- A waveguide sends a beam straight down its center. (A mode is a standing pattern across the guide, equivalent to plane waves zig-zagging between the walls.)
+- Any frequency travels down any guide, only more weakly at low frequency. (Below the lowest cutoff no mode propagates. The field dies out within a short distance of the source.)
+- A larger guide always carries signals more cleanly. (A bigger cross-section lowers every cutoff, so more modes propagate at a given frequency and modal dispersion can appear.)
+- Single-mode operation removes all pulse distortion. (A single mode is itself dispersive. Its group velocity depends on frequency, so a broadband pulse still spreads.)
+
 ## Questions
 
 ```yaml

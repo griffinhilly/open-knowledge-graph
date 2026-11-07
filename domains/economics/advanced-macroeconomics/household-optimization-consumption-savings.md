@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 Households make consumption and savings decisions over their lifetime by maximizing the present value of utility from consumption. The budget constraint links current and future consumption through interest rates and income flows. Preferences (particularly the elasticity of intertemporal substitution) determine how much households reduce consumption today to increase it in the future when interest rates rise, shaping macroeconomic responses to policy.
 
+## How It's Best Learned
+Solve the two-period problem with log utility and β = 1, which gives c₁ = W/2, where W is the present value of income. A saver with income 100 today and nothing tomorrow consumes 50 whatever r is. A borrower with nothing today and 110 tomorrow consumes 50 at r = 10%, but about 45.5 at r = 21%. Same preferences, opposite exposure to the rate.
+
+## Common Misconceptions
+- A higher interest rate affects households only through the return on their savings. (It also lowers the present value of future labor income, which reduces lifetime wealth and current consumption.)
+- Households with no savings are not affected by interest rates. (Borrowers face a higher price of borrowing; in the log example the borrower cuts current consumption when r rises.)
+- The EIS and risk aversion are separate parameters in the standard model. (With CRRA utility they are tied, EIS = 1/σ; separating them requires other preferences, such as Epstein-Zin utility.)
+
 ## Questions
 
 ```yaml

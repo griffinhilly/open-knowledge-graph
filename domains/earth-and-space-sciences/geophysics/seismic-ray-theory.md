@@ -37,6 +37,15 @@ status: validated
 ## Core Idea
 Ray theory describes wave propagation as rays traveling along paths determined by Snell's law and the velocity structure. Ray parameters (p-values) remain constant along rays, enabling inversion of travel times to velocity models.
 
+## How It's Best Learned
+Trace rays by hand through three flat layers with velocities 4, 6 and 8 km/s. For p = 0.1 s/km, sin θ = pv gives 0.4, 0.6 and 0.8, so the ray crosses all three. For p = 0.15 s/km, the value reaches 1.2 in the third layer, so the ray turns above it. For p = 0.2 s/km, it turns above the second. Smaller p goes deeper.
+
+## Common Misconceptions
+- A ray entering faster rock bends toward the vertical. (Entering faster rock increases the angle from the vertical, so a downgoing ray flattens and eventually turns back up.)
+- The ray parameter is just the launch angle. (p = sin θ / v has units of seconds per kilometer, and it equals the local slope of the travel-time curve at the distance where that ray emerges.)
+- Ray theory is accurate for structures of any size. (It is a high-frequency approximation that works when the wavelength is small compared with the scale of velocity changes; smaller features need wave-based methods.)
+- A shadow zone receives no seismic energy at all. (Ray theory predicts no direct arrivals there, but diffracted waves, such as P waves diffracted along the core, carry weak energy into it.)
+
 ## Questions
 
 ```yaml
@@ -48,7 +57,7 @@ Ray theory describes wave propagation as rays traveling along paths determined b
     - "Both rays turn at the same depth because the turning depth depends only on the velocity structure, not the launch angle"
     - "The shallow-angle ray turns immediately near the surface because low-angle rays cannot refract into high-velocity material"
   answer: 1
-  explanation: "The ray parameter p = sin(θ)/v is conserved along the ray path. A steeper ray (larger θ from horizontal at launch) has a smaller p value. The turning point occurs where the ray becomes horizontal (θ = 90°), meaning sin(θ)/v = 1/v_turn = p. A smaller p corresponds to a larger v_turn — a deeper layer with higher velocity — so steep rays (small p) turn deeper. Shallow-angle rays (large p) hit the turning condition at shallower, lower-velocity depths. This is the inverse of intuition: it's the steep ray, not the shallow one, that penetrates deeper."
+  explanation: "The ray parameter p = sin(θ)/v is conserved along the ray path. A steeper ray (smaller angle θ from the vertical at launch) has a smaller p value. The turning point occurs where the ray becomes horizontal (θ = 90°), meaning sin(θ)/v = 1/v_turn = p. A smaller p corresponds to a larger v_turn — a deeper layer with higher velocity — so steep rays (small p) turn deeper. Shallow-angle rays (large p) hit the turning condition at shallower, lower-velocity depths. This is the inverse of intuition: it's the steep ray, not the shallow one, that penetrates deeper."
 
 - question: "A seismologist observes a gap in a travel-time curve — a range of epicentral distances where no direct seismic arrivals are recorded. What does this shadow zone most likely indicate about Earth's interior?"
   type: multiple-choice
@@ -58,7 +67,7 @@ Ray theory describes wave propagation as rays traveling along paths determined b
     - "Seismic attenuation absorbs all energy before the waves can travel that far through the mantle"
     - "The seismometers at those distances were not operating when the earthquake occurred"
   answer: 1
-  explanation: "A low-velocity zone (LVZ) bends rays toward steeper angles (they speed up entering the LVZ, which by Snell's law bends them away from horizontal). This refracts direct rays into a narrower distance range, leaving a gap — a shadow zone — at intermediate distances. The classic example is Earth's outer core: P-wave velocity drops sharply at the core-mantle boundary, creating a P-wave shadow zone between ~105° and ~140°. Similarly, the asthenosphere LVZ creates subtle effects in teleseismic travel times. Shadow zones are diagnostic of velocity decreases with depth."
+  explanation: "A low-velocity zone (LVZ) bends rays toward steeper angles (they slow down entering the LVZ, which by Snell's law bends them away from horizontal). This refracts direct rays into a narrower distance range, leaving a gap — a shadow zone — at intermediate distances. The classic example is Earth's outer core: P-wave velocity drops sharply at the core-mantle boundary, creating a P-wave shadow zone between ~105° and ~140°. Similarly, the asthenosphere LVZ creates subtle effects in teleseismic travel times. Shadow zones are diagnostic of velocity decreases with depth."
 
 - question: "The ray parameter p = sin(θ)/v is conserved along a seismic ray path, which causes rays to curve continuously as they travel through rock where velocity changes smoothly with depth."
   type: true-false

@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 If φ: R → S is a ring homomorphism, then R/ker(φ) ≅ im(φ) as rings. This mirrors the group version but handles two operations simultaneously. Every ring homomorphism factors through a quotient ring.
 
+## How It's Best Learned
+Find the kernel and image of evaluation maps, then read off the quotient. Evaluating f ∈ ℚ[x] at √2 has kernel (x² − 2) and image {a + b√2 : a, b ∈ ℚ}, so ℚ[x]/(x² − 2) ≅ ℚ(√2). Evaluating f ∈ ℝ[x] at i gives ℝ[x]/(x² + 1) ≅ ℂ. In each case, check that products of cosets match products in the image.
+
+## Common Misconceptions
+- The kernel of a ring homomorphism is a subring. (It is an ideal: it absorbs multiplication by every element of R. For rings with 1, it contains 1 only when the image is the zero ring.)
+- A map that preserves addition is a ring homomorphism. (It must also preserve multiplication. On ℤ, x ↦ 2x preserves sums, but 2(3 · 5) = 30 while (2 · 3)(2 · 5) = 60.)
+- The image of a ring homomorphism is an ideal of S. (It is a subring. The inclusion ℤ → ℚ has image ℤ, which is not an ideal of ℚ.)
+
 ## Questions
 
 ```yaml
@@ -68,6 +76,6 @@ The core picture is a **factoring diagram**. Instead of going directly from R to
 
 What makes this a *ring* isomorphism (not just a group one) is that φ̄ respects both operations: φ̄ preserves addition because φ does, and φ̄ preserves multiplication because φ(r₁r₂) = φ(r₁)φ(r₂) passes cleanly to cosets. This is the extra work compared to the group version — you must check both operations.
 
-A concrete example: let φ: ℤ → ℤ/nℤ be reduction mod n. Then ker(φ) = nℤ, im(φ) = ℤ/nℤ, and the theorem says ℤ/nℤ ≅ ℤ/nℤ — trivially true here, but the power shows in richer cases. Consider the evaluation homomorphism φ: ℝ[x] → ℝ defined by φ(f) = f(√2). The kernel is all polynomials with √2 as a root, which is the ideal (x² - 2). The theorem says ℝ[x]/(x² - 2) ≅ im(φ). In fact im(φ) = ℝ, confirming that quotienting out x² - 2 from the polynomial ring returns you to the reals. This is a template: **quotient rings are how you build new rings, and the first isomorphism theorem explains exactly what you get**.
+A concrete example: let φ: ℤ → ℤ/nℤ be reduction mod n. Then ker(φ) = nℤ, im(φ) = ℤ/nℤ, and the theorem says ℤ/nℤ ≅ ℤ/nℤ — trivially true here, but the power shows in richer cases. Consider the evaluation homomorphism φ: ℝ[x] → ℝ defined by φ(f) = f(√2). The kernel is all polynomials with √2 as a root, which is the ideal (x - √2), since x - √2 already has real coefficients. The theorem says ℝ[x]/(x - √2) ≅ im(φ). In fact im(φ) = ℝ, confirming that quotienting out x - √2 from the polynomial ring returns you to the reals. This is a template: **quotient rings are how you build new rings, and the first isomorphism theorem explains exactly what you get**.
 
 The theorem's deepest message is that homomorphisms and quotient rings are two faces of the same construction. Every quotient ring R/I arises as the image of a surjective homomorphism (the natural projection), and every ring homomorphism factors through a quotient. This means understanding all ring homomorphisms out of R is equivalent to understanding all ideals of R — a profound unification that drives much of ring theory.

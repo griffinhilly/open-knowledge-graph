@@ -35,6 +35,14 @@ status: validated
 ## Core Idea
 The mantle undergoes slow viscous convection driven by internal heat generation (radioactive decay) and cooling at the surface, transporting heat and material over geologic timescales. Convection is modeled as Rayleigh-Bénard convection modified by pressure-dependent viscosity, internal heating, and phase transitions; patterns range from laminar (whole-mantle) to plume-dominated depending on Rayleigh number. Mantle convection drives plate motion, creates spreading ridges and subduction zones, and generates plume volcanism; seismic tomography, geochemistry, and numerical models illuminate the vigor and pattern of mantle flow.
 
+## How It's Best Learned
+Plug mantle values into Ra = ρgαΔTd³/(κη): ρ = 4,000 kg/m³, g = 10 m/s², α = 3 × 10⁻⁵ K⁻¹, ΔT = 2,500 K, d = 2,900 km, κ = 10⁻⁶ m²/s, η = 10²² Pa·s. Ra comes out near 7 × 10⁶, far above the critical value of about 10³. Then set d = 660 km for a layered upper mantle and watch Ra fall about 85-fold.
+
+## Common Misconceptions
+- The mantle is a layer of liquid magma. (The mantle is almost entirely solid rock. It flows by slow creep, and melt forms only in limited regions such as beneath ridges and hotspots.)
+- Plates ride passively on convection currents like boxes on a conveyor belt. (Plates are the cold top layer of the convecting system. The pull of sinking slabs is one of the main forces that moves them.)
+- Mantle convection forms neat, regular loops of rising and sinking rock. (Real mantle flow changes over time and is irregular, shaped by plate geometry, slabs, plumes and viscosity that varies with depth.)
+
 ## Questions
 
 ```yaml

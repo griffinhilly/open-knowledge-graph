@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 An evolutionary stable strategy (ESS) is a strategy that, once fixed in a population, cannot be invaded by alternative strategies because invaders do worse against the ESS than the ESS does against itself. ESS concept explains why mixed strategies (probabilistic play of alternatives) can be stable equilibria, such as in hawk-dove conflicts.
 
+## How It's Best Learned
+Run the two ESS conditions on Hawk-Dove with V = 2 and C = 4. Pure Dove fails: Hawk earns 2 against Dove, Dove earns only 1. Pure Hawk fails: Dove earns 0 against Hawk, Hawk earns −1. For the 50:50 mix, Hawk and Dove each earn 0.5 against it, a tie. So check the second condition: the mix earns −0.5 against Hawk (beating −1) and 1.5 against Dove (beating 1).
+
+## Common Misconceptions
+- An ESS is the strategy that earns the highest payoff. (It is the strategy that resists invasion once common. Its payoff can be lower than what a different, unstable population would earn.)
+- A strategy is an ESS as long as no mutant does better against it. (If a mutant ties against the resident, the resident must also do better against the mutant than the mutant does against itself.)
+- Every game has an ESS, and populations always reach it. (Some games have none, such as the standard rock-paper-scissors game. An ESS also describes stability once reached, not whether a population will get there.)
+
 ## Questions
 
 ```yaml

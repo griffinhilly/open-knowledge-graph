@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Mid-ocean ridges are divergent plate boundaries where new oceanic lithosphere forms by upwelling mantle decompression melting. Spreading rate (full rate, 2–20 cm/yr) controls ridge morphology: slow ridges are deep with large scarps; fast ridges are shallow with an axial volcanic high. Seismic imaging reveals the melt distribution and magma chamber structure; heat flow is anomalously high due to young, hot lithosphere; crustal accretion mechanisms (magmatic vs. amagmatic) vary along ridge axis. Magnetic anomalies record reversals and spreading rate changes, providing a precise chronology of ocean floor age.
 
+## How It's Best Learned
+Draw a pressure-temperature plot with the peridotite solidus and a mantle adiabat. Trace a rising parcel and mark where it crosses the solidus; melting continues above that point. Raise the adiabat by 100 °C and see melting start deeper. Then convert stripe widths: a 1-million-year polarity interval spans 50 km at a 5 cm/yr half rate, but only 10 km at 1 cm/yr.
+
+## Common Misconceptions
+- A large pool of liquid magma sits under the ridge axis. (At fast ridges, seismic imaging shows a thin melt lens above a broad zone of crystal mush that is mostly solid. At slow ridges a melt body may be absent much of the time.)
+- Mantle plumes under ridges push the plates apart. (At most ridges, upwelling is a largely passive response to plates moving apart. The plates are pulled by forces elsewhere, such as the sinking of slabs at subduction zones.)
+- A ridge's spreading rate is how fast each plate moves away from the axis. (The full rate is the total separation speed. Each side moves at about half that rate when spreading is symmetric.)
+
 ## Questions
 
 ```yaml

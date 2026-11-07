@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Heat flow (q = κ × dT/dz) is measured by combining borehole temperature profiles with thermal conductivity. Global heat flow varies from ~30 mW/m² in stable cratons to >150 mW/m² in rift zones and mid-ocean ridges.
 
+## How It's Best Learned
+Start from a borehole log with a reading every 50 m. Drop the shallow points disturbed by surface temperature changes, fit a slope to the rest, and multiply by core conductivity: 25 °C/km × 2.4 W/(m·K) = 60 mW/m². For a hole through several rock units, plot temperature against summed thermal resistance (Σ Δz/κ). The slope of that Bullard plot is the heat flow.
+
+## Common Misconceptions
+- The temperature logged right after drilling is the true rock temperature. (Drilling and circulating fluid disturb the temperatures around the hole. Reliable logs are taken after the hole has had time to return to equilibrium.)
+- One conductivity value from a single core works for the whole borehole. (Conductivity changes from one rock unit to the next, so a layered section needs a value for each unit, and lab values may differ from in-place conditions.)
+- Probe measurements at young seafloor capture all the heat escaping there. (Much of the heat near ridges is carried away by circulating seawater, so conductive measurements there tend to underestimate the total heat loss.)
+
 ## Questions
 
 ```yaml

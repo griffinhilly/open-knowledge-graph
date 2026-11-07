@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Ricardian equivalence argues that financing government spending through debt versus taxes has no real effects: households recognize that debt must eventually be repaid through future taxes, so they save the tax cut in anticipation, leaving consumption unchanged. While theoretically elegant, empirical evidence is mixed—many households appear not to behave according to the theorem, suggesting credit constraints, myopia, or uncertainty matter. Understanding when and why equivalence fails is central to evaluating fiscal policy effectiveness.
 
+## How It's Best Learned
+Work a two-period budget with r = 5%: cut today's tax by $1,000 and raise next period's by $1,050. The present value of taxes is unchanged, so the lifetime budget line, chosen consumption, and everything except saving stay the same. Then break one assumption at a time, such as a binding borrowing limit or a repayment that falls after the household is gone, and redo the choice.
+
+## Common Misconceptions
+- Under Ricardian equivalence, a deficit lowers national saving and raises interest rates. (Private saving rises by the amount of the tax cut, so national saving and interest rates are unchanged.)
+- A household that spends its tax cut must be irrational. (A household that wants to borrow against future income but cannot is acting rationally when it spends the cut.)
+- The timing of any tax can be shifted without effect under the theorem. (The result is about lump-sum taxes; when taxes distort work or saving decisions, changing their timing changes incentives and equivalence fails.)
+
 ## Questions
 
 ```yaml

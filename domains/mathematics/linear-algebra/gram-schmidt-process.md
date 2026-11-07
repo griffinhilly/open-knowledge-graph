@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 The Gram-Schmidt process converts any basis into an orthonormal basis by iterative orthogonalization: orthogonalize each vector against all previous ones. Starting with v₁, compute u_k = v_k − Σ_{j<k} ⟨v_k, e_j⟩e_j and normalize. The process yields an orthonormal basis spanning the same space.
 
+## How It's Best Learned
+Run the process on (1,1,1), (0,1,1), (0,0,1). Orthogonalize first and normalize last to avoid square roots, using the coefficient ⟨v, w⟩/⟨w, w⟩ for each unnormalized w. You should get w₂ = (−2/3, 1/3, 1/3) and w₃ = (0, −1/2, 1/2). Check that every pair has dot product zero, then normalize. Finally, try a dependent set and watch a zero residual appear.
+
+## Common Misconceptions
+- At each step you subtract projections onto the original vectors v₁, …, v_{k−1}. (You subtract projections onto the new orthogonal vectors. The originals are not orthogonal to each other, so removing their projections does not leave a perpendicular remainder.)
+- If you normalize every input first, the output is already unit length. (Subtracting projections changes the length again. Normalize each vector after its projections are removed.)
+- Gram-Schmidt works only in ℝⁿ with the dot product. (It works with any inner product, for example on polynomials with ⟨f, g⟩ defined by an integral.)
+
 ## Questions
 
 ```yaml
@@ -38,7 +46,7 @@ The Gram-Schmidt process converts any basis into an orthonormal basis by iterati
   answer: 1
   explanation: "The step u₂ = v₂ − ⟨v₂, e₁⟩e₁ subtracts from v₂ exactly its component in the e₁ direction (the projection). Computing ⟨u₂, e₁⟩ = ⟨v₂, e₁⟩ − ⟨v₂, e₁⟩⟨e₁, e₁⟩ = ⟨v₂, e₁⟩ − ⟨v₂, e₁⟩ = 0 confirms orthogonality. u₂ is not yet normalized (that comes next), does not 'rotate' v₂ (it changes direction by subtraction), and stays in the same span as v₁ and v₂."
 
-- question: "After applying Gram-Schmidt to three basis vectors of a plane in ℝ⁴, a student claims the resulting orthonormal vectors now describe a different plane because they point in different directions than the originals. Is this correct?"
+- question: "After applying Gram-Schmidt to two basis vectors of a plane in ℝ⁴, a student claims the resulting orthonormal vectors now describe a different plane because they point in different directions than the originals. Is this correct?"
   type: multiple-choice
   options:
     - "Yes — Gram-Schmidt rotates the basis to align with coordinate axes, changing which plane is described"

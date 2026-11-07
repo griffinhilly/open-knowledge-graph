@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Technology shocks are changes in total factor productivity that shift the production function. RBC models show that a positive technology shock causes agents to increase investment and hours worked (as future returns to capital are higher), generating co-movement of output, consumption, and investment. Persistence in technology shocks and agents' expectations of future productivity are crucial for explaining why shocks have long-lived effects on the economy and are central to understanding business cycle propagation.
 
+## How It's Best Learned
+Simulate the TFP process A_t = ρA_{t−1} + ε_t after a single 1% shock, once with ρ = 0.95 and once with ρ = 0.5. The half-life is about 13.5 quarters in the first case and one quarter in the second. Then lay a model's output response on top of the TFP path itself. The gap between the two curves shows how much propagation the model adds beyond the shock.
+
+## Common Misconceptions
+- A long-lasting output response shows that the model has strong internal propagation. (Much of the persistence can be inherited from the assumed persistence of TFP; comparing output with the TFP path shows what the model itself contributes.)
+- Measured TFP changes are pure changes in technology. (The Solow residual also moves with unmeasured changes in capital utilization and labor effort, which tend to rise in booms.)
+- A positive technology shock must raise hours worked. (Higher wages have both substitution and income effects; the more persistent the shock, the larger the income effect, which can offset the rise in hours.)
+
 ## Questions
 
 ```yaml

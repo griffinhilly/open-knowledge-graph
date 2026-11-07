@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 A sequence (xₙ) converges weakly to x if f(xₙ) → f(x) for every bounded linear functional f ∈ X*. Weak convergence is weaker than norm convergence but sufficient for many applications.
 
+## How It's Best Learned
+Start in ℓ² with the basis vectors eₙ. For each y ∈ ℓ², ⟨eₙ, y⟩ = yₙ → 0, so eₙ ⇀ 0, while ‖eₙ‖ = 1. Then prove the repair in a Hilbert space: if xₙ ⇀ x and ‖xₙ‖ → ‖x‖, expanding ‖xₙ − x‖² = ‖xₙ‖² − 2Re⟨xₙ, x⟩ + ‖x‖² shows it tends to 0. Missing norm is exactly what weak limits can lose.
+
+## Common Misconceptions
+- A weak limit keeps the norm of the sequence. (Norm can be lost. In general ‖x‖ ≤ lim inf ‖xₙ‖, and for eₙ ⇀ 0 the inequality is strict.)
+- A weakly convergent sequence can be unbounded. (By the uniform boundedness principle, every weakly convergent sequence in a normed space is bounded in norm.)
+- Weak convergence in L² gives convergence at almost every point. (sin(nπt) ⇀ 0 in L²([0,1]), but if it tended to 0 almost everywhere, dominated convergence would force ∫sin²(nπt) dt → 0, contradicting the value 1/2.)
+
 ## Questions
 
 ```yaml

@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 A finite field has q = pⁿ elements for a prime p and positive integer n. For each prime power q there exists a unique finite field up to isomorphism. The Frobenius automorphism x ↦ xᵖ generates the Galois group of F_q over F_p.
 
+## How It's Best Learned
+Build 𝔽₈ by hand as 𝔽₂[x]/(x³ + x + 1), writing α for the class of x so that α³ = α + 1. List α, α², …, α⁷ and check that they run through all seven nonzero elements and end at α⁷ = 1. Then apply Frobenius: it sends α to α², α² to α⁴, and α⁴ back to α⁸ = α, cycling the three roots of x³ + x + 1.
+
+## Common Misconceptions
+- The field with pⁿ elements is ℤ/pⁿℤ. (For n ≥ 2, ℤ/pⁿℤ is not a field, since p · pⁿ⁻¹ = 0. In ℤ/4ℤ, 2 · 2 = 0.)
+- 𝔽_{pᵐ} sits inside 𝔽_{pⁿ} whenever m ≤ n. (It is a subfield exactly when m divides n. 𝔽₄ is not a subfield of 𝔽₈, because 2 does not divide 3.)
+- Frobenius is the identity map, because xᵖ = x by Fermat's little theorem. (xᵖ = x holds for elements of 𝔽_p. On 𝔽_{pⁿ} with n > 1, Frobenius moves elements: in 𝔽₈ it sends α to α² ≠ α.)
+
 ## Questions
 
 ```yaml

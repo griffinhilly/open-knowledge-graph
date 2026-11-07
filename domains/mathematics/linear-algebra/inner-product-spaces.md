@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 An inner product on a vector space V is a function ⟨·,·⟩: V × V → ℝ satisfying positivity (⟨v,v⟩ ≥ 0), symmetry, and linearity in the second argument. The dot product is the standard inner product on R^n. Inner products induce norms and enable defining orthogonality and projections.
 
+## How It's Best Learned
+Test candidate formulas on ℝ² against each axiom. Check that ⟨u, v⟩ = 2u₁v₁ + 3u₂v₂ passes, that u₁v₁ − u₂v₂ fails because ⟨(0,1), (0,1)⟩ = −1, and that u₁v₁ alone fails because it gives 0 for (0,1). Then compute ⟨(1,1), (3,−2)⟩ in the weighted product. It equals 0, although the ordinary dot product is 1.
+
+## Common Misconceptions
+- Whether two vectors are orthogonal is fixed once you know the vectors. (Orthogonality depends on the inner product. (1,1) and (3,−2) are orthogonal under 2u₁v₁ + 3u₂v₂ but not under the dot product.)
+- Any symmetric function that is linear in each argument is an inner product. (It must also be positive definite. u₁v₁ − u₂v₂ is symmetric and bilinear, but it gives a negative value for (0,1).)
+- ⟨v, v⟩ ≥ 0 for every v is all that positivity requires. (It also requires ⟨v, v⟩ = 0 only when v = 0. The formula u₁v₁ meets the first part but fails the second.)
+
 ## Questions
 
 ```yaml
@@ -32,7 +40,7 @@ An inner product on a vector space V is a function ⟨·,·⟩: V × V → ℝ s
   answer: 2
   explanation: "Positive definiteness states that ⟨v, v⟩ ≥ 0 for all v, with equality if and only if v = 0. This is what makes the induced norm ‖v‖ = √⟨v,v⟩ a true norm — it ensures only the zero vector has zero length. Without positive definiteness, the 'norm' could vanish for nonzero vectors, breaking the geometric interpretation."
 
-- question: "Most inner product on a vector space is just the standard dot product."
+- question: "Every inner product on a vector space is just the standard dot product."
   type: true-false
   answer: false
   explanation: "The dot product is the standard inner product on ℝⁿ, but many other valid inner products exist on the same or different spaces. For example, on the space of continuous functions on [a, b], the integral ⟨f, g⟩ = ∫_a^b f(x)g(x) dx defines an inner product. Different inner products on the same space define different notions of length and orthogonality, and the 'right' inner product depends on the application."

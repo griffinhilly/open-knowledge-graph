@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 The geothermal gradient (dT/dz) is typically 25–30 K/km in stable continental crust but varies with crustal thickness, composition, and age. Heat flow q = −k(dT/dz) depends on thermal conductivity k; high heat flows mark mid-ocean ridges and hot-spots, while low flows occur in cold subducting slabs. The global heat budget is dominated by mantle convection, radiogenic heat from the core and mantle, and cooling of the lithosphere away from spreading centers.
 
+## How It's Best Learned
+Compute heat flow for two boreholes. A 40 K/km gradient in shale with k = 1.5 W/m·K gives 60 mW/m², while 20 K/km in quartzite with k = 6 W/m·K gives 120 mW/m². Then pass 60 mW/m² through shale over granite (k = 3 W/m·K). The gradient drops from 40 to 20 K/km at the contact, and the heat flow stays the same.
+
+## Common Misconceptions
+- A kink in a borehole temperature profile means the heat flow changes at that depth. (In steady state, a change in thermal conductivity changes the gradient while the heat flow stays the same.)
+- The surface gradient of 25–30 K/km continues all the way to Earth's centre. (Extending 25 K/km over 6,371 km would give about 160,000 K, far hotter than the estimated centre temperature of roughly 5,000 to 6,000 K, so the gradient must fall off with depth.)
+- Earth's internal heat comes entirely from radioactive decay. (A substantial part is primordial heat left from Earth's formation, and the exact split between the two sources is still uncertain.)
+
 ## Questions
 
 ```yaml

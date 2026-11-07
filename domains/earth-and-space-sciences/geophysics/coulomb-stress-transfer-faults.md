@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Large earthquakes change the stress field in surrounding rock, bringing some faults closer to failure (stress loading) and others further from failure (unloading). Coulomb stress transfer models use earthquake source parameters and friction coefficients to predict how mainshocks affect aftershock locations and whether nearby faults may be triggered to rupture.
 
+## How It's Best Learned
+Compute ΔCFS by hand for one receiver fault before reading maps. Take Δτ = +0.1 MPa, Δσₙ = −0.5 MPa (clamping) and μ′ = 0.4: ΔCFS = 0.1 + 0.4(−0.5) = −0.1 MPa, so added shear stress still left the fault farther from failure. Then sketch the positive lobes and stress shadows around a strike-slip rupture and overlay a real aftershock map on it.
+
+## Common Misconceptions
+- If an earthquake raises the shear stress on a nearby fault, that fault is closer to failure. (Normal stress also counts; added clamping can outweigh a shear increase and give a negative ΔCFS.)
+- Each point in the crust has one Coulomb stress change. (ΔCFS is resolved onto a receiver fault with a given orientation and slip direction, so one point can be loaded for one fault and unloaded for another.)
+- A positive ΔCFS means the receiver fault will rupture soon. (It moves the fault closer to failure, but the timing depends on how close the fault already was, which is rarely known.)
+- Stress changes far smaller than the total stress on a fault are too small to matter. (A fault already near its failure threshold can be pushed over it by a small added stress.)
+
 ## Questions
 
 ```yaml

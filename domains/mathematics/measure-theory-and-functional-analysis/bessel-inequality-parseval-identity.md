@@ -18,6 +18,14 @@ status: validated
 ## Core Idea
 Bessel's inequality states Σᵢ |⟨x, eᵢ⟩|² ≤ ‖x‖² for any orthonormal system {eᵢ}. Parseval's identity is the equality case: when {eᵢ} is a complete orthonormal basis, Σᵢ |⟨x, eᵢ⟩|² = ‖x‖². This connects L² functions to their Fourier coefficients.
 
+## How It's Best Learned
+Start in ℝ³. With x = (1, 1, 1) and the system {e₁, e₂}, the squared coefficients sum to 2 while ‖x‖² = 3; the missing 1 is the e₃ component. Then run Parseval on f(x) = x in L²[−π, π]. Its coefficients against sin(nx)/√π have squares 4π/n², and ‖f‖² = 2π³/3, which gives Σ 1/n² = π²/6.
+
+## Common Misconceptions
+- Bessel's inequality needs a complete orthonormal basis. (It holds for every orthonormal system. Completeness is what turns the inequality into an equality.)
+- If equality Σ|⟨x, eᵢ⟩|² = ‖x‖² holds for one vector x, the system is complete. (Equality for one x only shows that x lies in the closed span of the system. Completeness needs equality for every x in the space.)
+- Parseval's identity means the Fourier series of f converges to f at every point. (It gives convergence in the L² norm. Pointwise convergence is a separate question and can fail at individual points.)
+
 ## Questions
 
 ```yaml
@@ -65,6 +73,6 @@ The key computation is to expand ‖x − Sₙ‖². Using orthonormality, this 
 
 **Parseval's identity** is the equality version: Σᵢ |⟨x, eᵢ⟩|² = ‖x‖². This holds exactly when the orthonormal system is a complete orthonormal basis — when there are no missing directions. Equality means the partial sums Sₙ → x in norm: the Fourier series converges to x in the Hilbert space sense. Parseval's identity is equivalent to completeness of the orthonormal system, and it is the Hilbert space analogue of the Pythagorean theorem: the squared norm of a vector equals the sum of the squares of all its coordinate magnitudes.
 
-For L²([0, 2π]) with the trigonometric basis {1/√(2π), cos(nx)/√π, sin(nx)/√π}, Parseval's identity says that for any square-integrable function f, the sum of the squares of all its Fourier coefficients equals (1/2π)∫|f|². This is why Fourier analysis works: you can represent a function by its coefficients and recover its norm exactly. In quantum mechanics, the same identity underpins the interpretation of probability amplitudes — the sum of squared coefficients in any orthonormal expansion of a state vector must equal 1.
+For L²([0, 2π]) with the trigonometric basis {1/√(2π), cos(nx)/√π, sin(nx)/√π}, Parseval's identity says that for any square-integrable function f, the sum of the squares of all its Fourier coefficients equals ∫|f|². This is why Fourier analysis works: you can represent a function by its coefficients and recover its norm exactly. In quantum mechanics, the same identity underpins the interpretation of probability amplitudes — the sum of squared coefficients in any orthonormal expansion of a state vector must equal 1.
 
 The gap between Bessel's inequality and Parseval's identity is precisely the missing "energy" in directions not spanned by the orthonormal system. Testing whether a given orthonormal set is actually a basis amounts to checking whether this gap is zero for all x — equivalently, whether the only vector orthogonal to every eᵢ is the zero vector. When Parseval's identity holds, the Hilbert space is "fully described" by the basis, and the coefficients ⟨x, eᵢ⟩ carry complete information about x.

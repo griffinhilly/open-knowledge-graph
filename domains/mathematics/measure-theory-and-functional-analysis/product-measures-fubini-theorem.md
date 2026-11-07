@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The product of two σ-finite measure spaces has a natural product measure. Fubini's theorem guarantees that integrable functions on product spaces can be iterated: ∫∫f dμ dν = ∫(∫f(x,y) dν(y)) dμ(x).
 
+## How It's Best Learned
+Compute the counterexample yourself. For f = (x² − y²)/(x² + y²)², the inner integral over y is [y/(x² + y²)] from 0 to 1, which equals 1/(1 + x²), so one order gives π/4. Swapping x and y flips the sign. Then show ∫∫|f| = ∞ in polar coordinates near the origin. Contrast a legitimate swap: ∫₀¹∫ₓ¹ e^(y²) dy dx becomes ∫₀¹ y e^(y²) dy = (e − 1)/2.
+
+## Common Misconceptions
+- If both iterated integrals exist, they must be equal. (For (x² − y²)/(x² + y²)² on [0,1]² both exist and differ. Equality is guaranteed once ∫|f| d(μ × ν) < ∞.)
+- If the two iterated integrals agree, f is integrable. (For xy/(x² + y²)² on [−1,1]², both iterated integrals are 0 by oddness, yet ∫|f| = ∞.)
+- σ-finiteness is a formality. (With Lebesgue measure on [0,1] in x and counting measure on [0,1] in y, the indicator of the diagonal has iterated integrals 1 and 0.)
+- The inner integral ∫f(x, y) dν(y) is defined for every x. (Fubini guarantees it only for μ-almost every x.)
+
 ## Questions
 
 ```yaml

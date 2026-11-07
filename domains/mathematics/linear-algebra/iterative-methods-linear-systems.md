@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Iterative methods like Jacobi and Gauss-Seidel solve Ax = b as a fixed-point iteration x^(k+1) = (I − D⁻¹A)x^(k) + D⁻¹b. They converge when ||I − D⁻¹A|| < 1 and are useful for sparse or large systems. Convergence rate depends on spectral radius. Conjugate gradient (CG) converges faster for symmetric positive definite matrices.
 
+## How It's Best Learned
+Run three sweeps by hand on 4x + y = 9, x + 3y = 5 (solution x = 2, y = 1), starting from (0, 0). Jacobi gives (2.25, 1.667), then (1.833, 0.917), then (2.021, 1.056). Gauss-Seidel reaches (2.002, 0.999) in the same three sweeps. Then write the equations in the opposite order and run Jacobi again. The iterates blow up, because the iteration matrix now has spectral radius √12.
+
+## Common Misconceptions
+- Jacobi converges for any system with a unique solution. (It converges for every starting guess only when the iteration matrix has spectral radius below 1. Reordering the equations can turn a converging iteration into a diverging one.)
+- Gauss-Seidel converges faster than Jacobi on every system. (It often does, but there are matrices where Jacobi converges and Gauss-Seidel does not.)
+- A small residual b − Ax^(k) means x^(k) is close to the true solution. (For an ill-conditioned A, the error can be large even when the residual is small.)
+
 ## Questions
 
 ```yaml

@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Two paths γ, σ: [0,1] → X with the same endpoints are homotopic if there is a continuous deformation H: [0,1] × [0,1] → X connecting them while keeping endpoints fixed. Homotopy is an equivalence relation on paths.
 
+## How It's Best Learned
+Draw the square [0, 1] × [0, 1] with its edges labeled: γ along the bottom, σ along the top, the constant p on the left, the constant q on the right. Then write out transitivity. Given H from γ to σ and K from σ to τ, set L(s, t) = H(s, 2t) for t ≤ 1/2 and K(s, 2t − 1) for t ≥ 1/2. Check that both formulas give σ(s) at t = 1/2.
+
+## Common Misconceptions
+- Intermediate paths in a homotopy may move their endpoints as long as they return by the end. (Every slice H(·, t) must start at p and end at q; the left and right edges of the square are constant.)
+- Any two path homotopies can be stacked into one. (The top edge of the first must match the bottom edge of the second, as σ does here. Then the pasting lemma gives continuity: the two halves are closed sets, each piece is continuous, and the pieces agree on the overlap t = 1/2.)
+- Homotopy classes of paths from p to q form a group. (Two paths from p to q compose only when the first ends where the second starts, so this needs p = q; that case gives the fundamental group.)
+
 ## Questions
 
 ```yaml
@@ -52,7 +60,7 @@ Two paths γ, σ: [0,1] → X with the same endpoints are homotopic if there is 
   answer: true
   explanation: "True. ℝ² is convex: for any two paths γ and σ with the same endpoints, the straight-line interpolation H(s,t) = (1−t)γ(s) + tσ(s) is a valid homotopy. Every point along every intermediate path stays in ℝ², and the endpoints are clearly fixed throughout. The existence of holes or other topological obstructions is what can prevent homotopy; without them, all paths between the same endpoints are homotopic."
 
-- question: "A homotopy H: [0,1]×[0,1] → X is expected to satisfy H(s,0) = H(s,1) for most s."
+- question: "A homotopy H: [0,1]×[0,1] → X must satisfy H(s,0) = H(s,1) for all s."
   type: true-false
   answer: false
   explanation: "False. H(s,0) = γ(s) is the initial path and H(s,1) = σ(s) is the final path — these are *different* paths (that's the whole point of the homotopy). The conditions that must hold are the *endpoint conditions*: H(0,t) = γ(0) = σ(0) and H(1,t) = γ(1) = σ(1) for all t, keeping the starting and ending points fixed throughout the deformation. Confusing path-time and deformation-time conditions is a common source of error."

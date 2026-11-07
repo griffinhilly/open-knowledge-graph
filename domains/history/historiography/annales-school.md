@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 The Annales School (named after the journal *Annales d'histoire économique et sociale*, founded 1929) rejected political narrative history in favor of structural analysis of underlying economic, social, and environmental conditions. Key figures like Lucien Febvre, Marc Bloch, and Fernand Braudel studied mentalités, everyday life, and long-term structures, demonstrating that history could be a science of human societies rather than chronicles of events.
 
+## How It's Best Learned
+Work from one sorting exercise. List ten causes of a historical change, such as the decline of a trade route, and assign each to Braudel's three speeds: structure (geography, climate), conjuncture (prices, population cycles), or event (a war, a decree). Then ask which kinds of sources each cause needs. The result shows why Annales historians turned to price series and parish registers instead of royal correspondence.
+
+## Common Misconceptions
+- The Annales School was a single book or a single historian's idea. (It was a movement built around a journal founded in 1929, with several generations whose emphases differed.)
+- Structural history leaves no room for people. (Annales historians studied how ordinary people lived and thought; the structures they analyzed are the conditions under which people acted.)
+- Quantitative history and the Annales approach are the same thing. (Counting prices and births was one tool; the study of mentalités relied heavily on qualitative sources such as beliefs about miracles and kingship.)
+
 ## Questions
 
 ```yaml
@@ -51,7 +59,7 @@ The Annales School (named after the journal *Annales d'histoire économique et s
 - question: "The Annales School held that political events — battles, treaties, and royal decisions — are less fundamental explanations of historical change than underlying economic and social structures."
   type: true-false
   answer: true
-  explanation: "This is the core methodological commitment of Annales. Braudel explicitly subordinated événements (events) to the slower time scales of conjuncture and structure. Annales historians argued that events are 'surface disturbances on a deep sea of structural forces' — they can be dramatic but they do not explain the underlying patterns of human experience as deeply as structural analysis does. This was a direct challenge to the political narrative tradition that dominated nineteenth-century historiography under historians like Ranke and Michelet."
+  explanation: "This is the core methodological commitment of Annales. Braudel explicitly subordinated événements (events) to the slower time scales of conjuncture and structure. Annales historians argued that events are 'surface disturbances on a deep sea of structural forces' — they can be dramatic but they do not explain the underlying patterns of human experience as deeply as structural analysis does. This was a direct challenge to the political narrative tradition that dominated nineteenth-century historiography under historians like Ranke and, in France, Charles Seignobos."
 
 - question: "Lucien Febvre and Marc Bloch founded the Annales School primarily to restore attention to great political leaders whose contributions had been neglected by social historians."
   type: true-false

@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 Sylow theorems classify groups of certain orders. Every group of order p² is abelian; groups of order pq are determined by their Sylow structure. These applications show how Sylow theorems reveal group structure for specific orders.
 
+## How It's Best Learned
+Work orders where the congruences alone do not finish the job. For |G| = 30, n₅ ∈ {1, 6} and n₃ ∈ {1, 10}. If both were larger than 1, G would hold 6 · 4 = 24 elements of order 5 and 10 · 2 = 20 of order 3, which is 44 elements in a group of 30. So one of them is normal. Do 15 first, then 30, then 12.
+
+## Common Misconceptions
+- If one Sylow subgroup is normal, G is the direct product of its Sylow subgroups. (A direct product needs every Sylow subgroup normal. S₃ has a normal Sylow 3-subgroup, but it is not Z₃ × Z₂, because that group is abelian.)
+- If n_p > 1 for some prime p, the group has no normal Sylow subgroup and may be simple. (Another prime can still give a normal Sylow subgroup. In S₃, n₂ = 3, but the Sylow 3-subgroup A₃ is normal.)
+- Showing that some n_p = 1 proves the group is abelian. (It proves one Sylow subgroup is normal. A₄ has a normal Sylow 2-subgroup, the Klein four-group, and A₄ is not abelian.)
+
 ## Questions
 
 ```yaml

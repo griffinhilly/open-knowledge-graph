@@ -30,6 +30,14 @@ status: validated
 ## Core Idea
 The New Keynesian model synthesizes Keynesian demand-side insights (sticky prices create monetary non-neutrality) with classical supply-side microfoundations (rational expectations, optimizing agents) and competitive labor markets. It features monopolistically competitive firms with Calvo pricing, forward-looking consumption determined by intertemporal optimization, and monetary policy conducted through interest-rate rules. The model shows how monetary policy affects output and inflation in the short run while being neutral in the long run, reconciling old Keynesian and classical insights.
 
+## How It's Best Learned
+Substitute the rule i = φπ into the IS curve and write the system as E[z_{t+1}] = M z_t with z = (x, π). With σ = 1, κ = 0.1 and β = 0.99, compute M's eigenvalues for φ = 1.5 and φ = 0.5. At 1.5 both lie outside the unit circle (modulus about 1.08), so the equilibrium is unique; at 0.5 one is about 0.82, and determinacy fails.
+
+## Common Misconceptions
+- The output gap is output minus its smooth trend. (In the model it is output minus the flexible-price level of output, and that level moves with technology and other real shocks.)
+- A firm that gets to reset its price picks the best price for current conditions. (It knows the price may be stuck for several periods, so it sets the price using expected future marginal costs as well.)
+- Responding less than one-for-one to inflation just brings inflation down more slowly. (In the baseline model, unless the rule also responds strongly to the output gap, it leaves the equilibrium indeterminate, so self-fulfilling swings in inflation and output become possible.)
+
 ## Questions
 
 ```yaml

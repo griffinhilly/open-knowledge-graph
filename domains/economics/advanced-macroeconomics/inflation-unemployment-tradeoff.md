@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 The Phillips curve describes the relationship between inflation and unemployment. When unemployment falls below its natural rate, labor markets tighten, wage pressures rise, and inflation accelerates. The stability of this tradeoff depends on how inflation expectations form and respond to policy credibility.
 
+## How It's Best Learned
+Run the accelerationist curve π_t = π_{t−1} − 0.5(u_t − 5) for a few years, starting at 2% inflation. Hold unemployment at 3%, and inflation rises one point a year: 3%, 4%, 5%. Plot each year's (u, π) point and draw a short-run curve through it. The curves stack upward, and holding inflation steady needs u back at 5%.
+
+## Common Misconceptions
+- The natural rate of unemployment is a fixed, known number. (It is the rate consistent with stable inflation; it shifts with labor-market structure and is estimated with wide uncertainty.)
+- A vertical long-run Phillips curve means monetary policy cannot affect unemployment. (Policy can move unemployment in the short run; the vertical curve says it cannot hold unemployment away from the natural rate permanently.)
+- Stagflation showed that the Phillips curve was simply wrong. (It refuted the stable original version. The expectations-augmented curve allows high inflation with high unemployment when expected inflation is high or a supply shock hits.)
+
 ## Questions
 
 ```yaml

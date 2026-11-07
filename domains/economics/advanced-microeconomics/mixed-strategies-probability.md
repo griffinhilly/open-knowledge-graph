@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 A mixed strategy is a probability distribution over pure strategies. Players may use mixed strategies when payoff matrices make any pure strategy exploitable by opponents. Mixed strategy equilibrium exists under standard conditions even when pure strategy equilibrium does not. Indifference conditions ensure players are willing to randomize: expected payoffs from strategies in the support must be equal.
 
+## How It's Best Learned
+Change Matching Pennies so Player 1 earns 3 for matching on Heads, 1 for matching on Tails, and 0 otherwise, while Player 2 earns 1 for any mismatch and 0 for a match. Solve both indifference conditions. Player 1 still plays Heads with probability 1/2, but Player 2 plays Heads with probability 1/4. Raising Player 1's payoff moved only the opponent's mix.
+
+## Common Misconceptions
+- A player's equilibrium mix is set by that player's own payoffs. (It is set by the opponent's payoffs, since the mix must make the opponent indifferent. In the modified game above, Player 1's mix stays at 1/2 whatever Player 1 earns from matching.)
+- In a mixed equilibrium, a player strictly prefers randomizing to any pure strategy. (Every pure strategy in the support earns the same expected payoff. The player is indifferent, and the mix is what keeps the opponent willing to mix too.)
+- Mixed equilibria matter only in games with no pure-strategy equilibrium. (Battle of the Sexes has two pure-strategy equilibria and also a third, mixed one.)
+
 ## Questions
 
 ```yaml

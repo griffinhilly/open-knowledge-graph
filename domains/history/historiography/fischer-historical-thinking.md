@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 David Hackett Fischer's 'Historians' Fallacies' systematically analyzes errors in historical reasoning from logical, statistical, and psychological perspectives. Fischer catalogs common mistakes: assuming correlation is causation, committing anachronism, confusing necessary with sufficient conditions. His work emphasizes that history is a discipline with standards of valid reasoning that can be learned and taught, not merely a literary art.
 
+## How It's Best Learned
+Take a short passage of real historical argument, such as a textbook explanation of a war's causes, and audit it line by line. Mark each causal claim, then ask three questions of it: does it rely only on sequence, does it treat a necessary condition as the whole cause, and was the evidence chosen to fit? Rewriting one flawed sentence so it states its causal claim precisely is the best practice Fischer's catalog offers.
+
+## Common Misconceptions
+- If one event came right before another, the first probably caused the second. (Sequence alone does not establish cause; this is the post hoc fallacy, and a causal claim also needs a mechanism and a check against alternatives.)
+- Showing that an event could not have happened without some factor proves that factor was the cause. (That shows a necessary condition; many necessary conditions usually exist, and none is sufficient by itself.)
+- Fischer thought history follows its own special logic. (He argued that historians are bound by the same standards of valid reasoning as other fields of inquiry.)
+- Learning a list of fallacy names is the point of Fischer's book. (Some of his categories are idiosyncratic; the lasting value is the habit of testing historical arguments against clear standards.)
+
 ## Questions
 
 ```yaml

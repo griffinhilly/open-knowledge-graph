@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 In models with search and matching, wages result from bilateral bargaining between employers and employees. Because workers and firms earn rents from the match (the surplus from employment relative to remaining unemployed or unfilled), there is room for negotiation. Wage dynamics reflect movements in unemployment, worker and firm outside options, and the value of the match. This framework explains why wages are sticky downward and respond sluggishly to labor market conditions, contributing to unemployment persistence.
 
+## How It's Best Learned
+Use the standard bargained wage w = (1−β)b + β(p + cθ), where b is the unemployed worker's flow value, p is match output, c is the vacancy cost and θ is tightness. With β = 0.5, b = 0.6, p = 1 and cθ = 0.2, w = 0.9. If a recession halves θ, w falls to 0.85. Then hold the wage fixed instead and see how the firm's gain from posting a vacancy changes.
+
+## Common Misconceptions
+- A worker's outside option is the best offer from a competing employer. (In the baseline model it is the value of unemployment: benefits, leisure and the expected value of finding another job; outside offers enter in models with on-the-job search.)
+- Only the wages of current employees matter for hiring. (Firms post vacancies based on the wages they expect to pay new hires over the life of a match, so new-hire wages matter most for job creation.)
+- Workers climb the wage ladder only by renegotiating with their current employer. (Moving to a better-paying job is also a main route, and recessions slow it by reducing outside offers.)
+
 ## Questions
 
 ```yaml

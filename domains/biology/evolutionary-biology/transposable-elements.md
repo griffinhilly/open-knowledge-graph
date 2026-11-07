@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 Transposable elements (TEs) are mobile DNA sequences that can copy themselves throughout genomes, sometimes comprising >45% of mammalian genomes. Though mostly silenced, TEs contribute to evolution through insertional mutagenesis, recombination, and exaptation (co-option of TE sequences for new functions). TE activity varies across species and lineages.
 
+## How It's Best Learned
+Draw a chromosome as a line and run the two mechanisms side by side for three rounds. If every copy of a copy-and-paste element makes one new copy per round, the count goes from 1 to 2 to 4 to 8. A cut-and-paste element stays at 1 copy and only changes position. Then follow single insertions to three fates: inside an exon, in an intergenic region, and beside a gene where it adds a regulatory sequence.
+
+## Common Misconceptions
+- Transposable elements are inert junk with no effect on the host. (Most copies are inactive, but insertions can disrupt genes and cause rearrangements, and some TE sequences have become host regulatory elements or genes.)
+- All transposable elements move by copy-and-paste. (Class II DNA transposons usually excise and reinsert, so a move does not by itself add a copy.)
+- A genome made largely of TEs must have elements jumping all the time. (In many genomes most copies are old, mutated remnants that can no longer move. Only a small subset stays active.)
+- An exapted TE evolved in order to help its host. (The sequence spread because it copied itself. The host function came later, when selection kept a copy that happened to be useful.)
+
 ## Questions
 
 ```yaml
@@ -61,7 +70,7 @@ Transposable elements (TEs) are mobile DNA sequences that can copy themselves th
 
 ## Explainer
 
-From your study of DNA mutations, you know that changes to the genome — substitutions, insertions, deletions — provide the raw material for evolution. **Transposable elements** (TEs) represent an entirely different scale of genomic change: rather than single-nucleotide alterations, TEs are sequences hundreds to thousands of base pairs long that can move or copy themselves to new locations within the genome. They are sometimes called "jumping genes," a term coined by Barbara McClintock, who first discovered them in maize in the 1940s. Far from being rare curiosities, TEs make up roughly 45% of the human genome and over 80% of some plant genomes like maize.
+From your study of DNA mutations, you know that changes to the genome — substitutions, insertions, deletions — provide the raw material for evolution. **Transposable elements** (TEs) represent an entirely different scale of genomic change: rather than single-nucleotide alterations, TEs are sequences hundreds to thousands of base pairs long that can move or copy themselves to new locations within the genome. They are popularly called "jumping genes." Barbara McClintock first discovered them in maize in the 1940s and called them "controlling elements." Far from being rare curiosities, TEs make up roughly 45% of the human genome and over 80% of some plant genomes like maize.
 
 TEs fall into two major classes based on their mechanism of movement. **Class I elements** (retrotransposons) use a "copy-and-paste" mechanism: they are transcribed into RNA, reverse-transcribed back into DNA, and the new DNA copy inserts at a new genomic location. The original copy stays put, so retrotransposons increase in copy number over time. LINEs (Long Interspersed Nuclear Elements) and SINEs (Short Interspersed Nuclear Elements, including the human Alu element) are the most abundant retrotransposons in mammalian genomes. **Class II elements** (DNA transposons) use a "cut-and-paste" mechanism: the element is excised from one location and inserted into another by a transposase enzyme. DNA transposons do not inherently increase in copy number, though replication timing can sometimes produce a net gain.
 

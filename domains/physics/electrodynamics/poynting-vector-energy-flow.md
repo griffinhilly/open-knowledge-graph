@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The Poynting vector S = (1/μ₀)E × B represents the directional electromagnetic energy flux, with units of power per unit area. Its magnitude gives the intensity of electromagnetic radiation, and its direction indicates energy flow. The continuity equation for electromagnetic energy, ∂u/∂t + ∇·S = -J·E, elegantly connects energy density, energy flow, and work done on charges.
 
+## How It's Best Learned
+Work out where the power goes in a coaxial cable with inner radius a, outer radius b, voltage V and current I. Between the conductors E = V/(r ln(b/a)) radially and B = μ₀I/(2πr) around the axis, so S points along the cable. Integrate S over the annulus a < r < b: the ln(b/a) cancels and the total is exactly VI.
+
+## Common Misconceptions
+- In a coaxial cable the energy travels inside the copper conductors. (S is largest in the insulating gap between them. The conductors guide the fields, and the energy flows through the gap.)
+- Light has no mass, so an electromagnetic wave carries no momentum. (Fields carry momentum density S/c². Fully absorbed light at normal incidence exerts a pressure of I/c.)
+- A positive ∇·S at a point means energy is being created there. (Positive divergence means net outflow. It must be balanced by falling field energy or by charges feeding energy into the field.)
+
 ## Questions
 
 ```yaml

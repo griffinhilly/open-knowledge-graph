@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 A metric space (X, d) is a set X with a distance function d: X × X → ℝ satisfying positivity, symmetry, and triangle inequality. Metrics provide explicit distance structure underlying topological properties.
 
+## How It's Best Learned
+Prove the triangle inequality for a few metrics, since that axiom carries the work. For the Hamming distance on binary strings of length n (the number of positions where they differ), note that wherever x and z differ, x differs from y or y differs from z. For the sup metric, bound |f(x) − h(x)| ≤ d(f, g) + d(g, h) at each x, then take the supremum.
+
+## Common Misconceptions
+- Nonnegativity is an independent requirement. (It follows from the other axioms: 0 = d(x, x) ≤ d(x, y) + d(y, x) = 2d(x, y).)
+- The condition "d(x, y) = 0 only if x = y" can be dropped without changing much. (Without it you get a pseudometric. For example, d(f, g) = |f(0) − g(0)| on C([0, 1]) puts distinct functions at distance 0.)
+- Under any metric on functions, two close functions are close at every point. (That is true for the sup metric. Under the distance ∫|f − g|, a tall narrow spike is close to the zero function while differing from it greatly at one point.)
+
 ## Questions
 
 ```yaml

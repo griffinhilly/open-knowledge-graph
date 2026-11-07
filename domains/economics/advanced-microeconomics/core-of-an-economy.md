@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 The core is the set of allocations from which no coalition of traders can profitably deviate by trading only among themselves. Competitive equilibrium allocations lie in the core. In large economies, the core shrinks toward the competitive equilibrium, showing that competition eliminates profitable deviations even without explicit equilibration mechanism.
 
+## How It's Best Learned
+Work one blocking step in a replicated box. Pick a two-person core allocation that is not competitive, and suppose B strictly prefers the midpoint of the line from the endowment to B's assigned bundle. With two agents of each type, one A and two Bs can block. Each B makes half of B's original trade, so A's bundle is unchanged while both Bs gain.
+
+## Common Misconceptions
+- The core of a two-person economy is the whole contract curve. (It is only the part of the contract curve where both agents are at least as well off as at their endowments.)
+- An allocation is blocked only if the whole economy can do better. (Any coalition, even a single agent or a small group, can block by trading among themselves using only their own endowments.)
+- Adding more agents makes more allocations stable. (Replication gives coalitions more ways to form, so more allocations get blocked and the core shrinks.)
+- Core convergence assumes agents take prices as given. (The core is defined with no prices at all. Competitive allocations emerge from coalition blocking in large economies.)
+
 ## Questions
 
 ```yaml

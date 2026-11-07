@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 The principal-agent problem arises when a principal (firm owner) hires an agent (manager) whose effort is unobservable (moral hazard) and whose ability/type may be unknown (adverse selection). The principal must design compensation schemes balancing incentive provision (to motivate effort and attract high-ability agents) against risk-sharing (given agent risk aversion).
 
+## How It's Best Learned
+Solve a two-type screening problem by hand. The principal keeps q − t, and an agent of ability a ∈ {1, 2} gets t − q²/(2a), each type equally likely. First-best output is q = a. With the low type's IR and the high type's IC binding, the high type's rent is q_L²/4. Maximizing expected profit gives q_H = 2, with no distortion at the top, and q_L = 2/3, below its first-best of 1.
+
+## Common Misconceptions
+- No distortion at the top means the high type earns no rent. (The high type's output is efficient, but it still earns an information rent. In the exercise above, that rent is q_L²/4 = 1/9.)
+- The binding constraints are the high type's participation and the low type's incentive constraint. (In the standard two-type problem it is the reverse. The low type's IR and the high type's IC bind.)
+- Hidden effort costs the principal something in every case. (With a risk-neutral agent who can pay up front, the principal can sell the output to the agent for a fixed fee. The agent then chooses first-best effort.)
+
 ## Questions
 
 ```yaml

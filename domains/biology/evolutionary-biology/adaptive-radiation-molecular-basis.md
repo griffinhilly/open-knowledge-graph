@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Adaptive radiations involve rapid speciation and diversification often following colonization of new niches. Genetic basis frequently involves gene duplication (paralogous evolution), relaxation of constraint on previously neutral variation, and regulatory divergence producing ecological specialization.
 
+## How It's Best Learned
+Build a three-column table, one column per mechanism: gene duplication, regulatory divergence, standing variation. Put one example in each column (cichlid opsins, finch BMP4, stickleback freshwater alleles). Then write the genomic evidence that would point to each: extra gene copies, conserved protein with changed expression, or alleles older than the populations that carry them.
+
+## Common Misconceptions
+- A burst of new species needs a burst of new mutations. (Much of the raw material can already be present as standing variation, which selection sorts quickly once new niches open.)
+- Large differences in body form must come from large changes in protein sequences. (Changes in when, where and how much a gene is expressed can reshape a structure while the protein stays nearly the same, as with BMP4 in finch beaks.)
+- After a gene duplicates, both copies can freely lose the original function. (Selection keeps the original function in at least one copy, or split between the two copies under subfunctionalization. Under neofunctionalization, one copy stays conserved while the other diverges, and many duplicates are simply lost as pseudogenes.)
+
 ## Questions
 
 ```yaml

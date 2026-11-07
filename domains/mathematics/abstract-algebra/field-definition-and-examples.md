@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 A field is a commutative ring with unity where every nonzero element has a multiplicative inverse. Fields are integral domains with additional structure. Examples: rationals Q, reals R, complex numbers C, finite fields Z/p. Every field is an integral domain.
 
+## How It's Best Learned
+Write the multiplication tables of ℤ/5ℤ and ℤ/6ℤ side by side. Every nonzero row of ℤ/5ℤ contains a 1, while the rows for 2, 3 and 4 in ℤ/6ℤ do not. Then invert an element in a field you have not met: in ℚ(√2) = {a + b√2 : a, b ∈ ℚ}, multiply 1 + √2 by its conjugate to find (1 + √2)⁻¹ = √2 − 1.
+
+## Common Misconceptions
+- Every finite field is ℤ/pℤ, and ℤ/4ℤ is the field with 4 elements. (ℤ/4ℤ is not a field, since 2 · 2 = 0. A field with 4 elements does exist, but it is built differently.)
+- Any ring where every nonzero element has an inverse is a field. (A field also needs commutative multiplication. The quaternions have inverses for all nonzero elements, but ij ≠ ji, so they are a division ring, not a field.)
+- A subring of a field is a field. (ℤ is a subring of ℚ, but 2 has no inverse in ℤ.)
+
 ## Questions
 
 ```yaml

@@ -17,6 +17,14 @@ status: validated
 ## Core Idea
 The closed graph theorem states that a linear operator T: X → Y between Banach spaces is continuous if and only if its graph {(x, T(x)) : x ∈ X} is closed in X × Y. This provides a powerful criterion for continuity without explicit bound verification.
 
+## How It's Best Learned
+Work one application and one non-example. Application: if T is defined on all of a Hilbert space with ⟨Tx, z⟩ = ⟨x, Tz⟩, and xₙ → x, Txₙ → y, then ⟨y, z⟩ = lim ⟨xₙ, Tz⟩ = ⟨Tx, z⟩ for every z, so y = Tx and T is bounded. Non-example: d/dx from C¹[0,1] into C[0,1], both with the sup norm, has a closed graph but is unbounded, because its domain is not complete.
+
+## Common Misconceptions
+- A function with a closed graph is continuous. (This fails for general maps: f(x) = 1/x with f(0) = 0 has a closed graph in ℝ² but is discontinuous at 0. The theorem needs linearity and complete spaces.)
+- Every closed linear operator is bounded. (The conclusion needs the operator to be defined on a whole Banach space. Differentiation on the dense subspace C¹[0,1] of C[0,1] is closed but unbounded.)
+- To check the graph is closed, you must first prove that T(xₙ) converges. (You may assume both xₙ → x and T(xₙ) → y. The only task is to show y = T(x), which is why the test is often easier than a direct bound.)
+
 ## Questions
 
 ```yaml

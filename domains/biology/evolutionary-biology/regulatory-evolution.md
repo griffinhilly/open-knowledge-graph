@@ -31,6 +31,15 @@ status: validated
 ## Core Idea
 Evolution of regulatory regions—promoters, enhancers, silencers—shapes gene expression patterns without changing protein sequence. Regulatory changes produce phenotypic diversity with minimal genetic change, crucial for development and adaptation.
 
+## How It's Best Learned
+Draw one gene with three separate enhancers, each driving expression in a different tissue, such as limb, gut and brain. Predict the effect of two mutations: one that deletes the limb enhancer and one that changes the protein. Shade the tissues each mutation touches. Then check the drawing against the stickleback case, where loss of a Pitx1 pelvic enhancer removes pelvic spines while Pitx1 works elsewhere.
+
+## Common Misconceptions
+- Regulatory evolution means changes in transcription factor genes. (Changes can be cis, in DNA near the target gene such as an enhancer, or trans, in regulators that act on many genes; cis changes tend to have narrower effects.)
+- Enhancers sit right next to the gene they control. (Some lie far away, hundreds of thousands of bases off or inside other genes, and work by DNA looping.)
+- Mutations in non-coding DNA have no effect on the phenotype. (Enhancers, promoters and silencers are non-coding, and changes in them can alter where, when and how much a gene is expressed.)
+- If regulatory changes matter, coding changes do not. (Both contribute; changes in protein function also underlie many adaptations.)
+
 ## Questions
 
 ```yaml
@@ -42,7 +51,7 @@ Evolution of regulatory regions—promoters, enhancers, silencers—shapes gene 
     - "That transcription factors, not cis-elements, are the primary substrate for morphological evolution"
     - "That coding sequence evolution is insufficient to explain any morphological difference between species"
   answer: 1
-  explanation: "This is the central principle of regulatory evolution: phenotypic differences between species (or populations) often arise not from differences in what proteins exist, but from differences in when, where, and how much those proteins are produced. A single nucleotide change in an abdomen-specific enhancer alters gene expression in exactly one tissue context without affecting the protein's function or its expression anywhere else. Option C overstates the claim — coding mutations do drive some evolution; the point is that cis-regulatory mutations are a *primary* substrate, especially for morphological traits where coding changes would be too pleiotropically disruptive."
+  explanation: "This is the central principle of regulatory evolution: phenotypic differences between species (or populations) often arise not from differences in what proteins exist, but from differences in when, where, and how much those proteins are produced. A single nucleotide change in an abdomen-specific enhancer alters gene expression in exactly one tissue context without affecting the protein's function or its expression anywhere else. Option D overstates the claim — coding mutations do drive some evolution; the point is that cis-regulatory mutations are a *primary* substrate, especially for morphological traits where coding changes would be too pleiotropically disruptive."
 
 - question: "Why are mutations in tissue-specific enhancers often more evolvable than mutations in the protein-coding sequence of the same gene?"
   type: multiple-choice

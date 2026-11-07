@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Different groups tell fundamentally different histories of the same past—indigenous and settler narratives of colonization, liberation and loss accounts of war. Rather than declaring one version 'true,' historians increasingly ask: What does this plurality tell us about history and memory? Can multiple histories coexist? How do we adjudicate competing claims without imposing dominance? This topic examines historical conflicts as windows into how knowledge and identity intertwine.
 
+## How It's Best Learned
+Put two accounts of the same event side by side, such as a school textbook passage and an oral history from a community the event harmed. For each account, list which facts it includes, which sources it trusts, who acts and who suffers. Then mark the points where the accounts disagree on evidence and the points where they disagree on framing. The two kinds of disagreement call for different responses.
+
+## Common Misconceptions
+- Pluralism means every version of the past is equally true. (Pluralism still separates evidence-based work from propaganda; it holds that significance, framing and source authority depend partly on position.)
+- With enough archival evidence, competing accounts will merge into one. (Some disagreements are about which questions matter and whose experience counts, and more documents do not settle those.)
+- A neutral synthesis is the fair way to handle conflicting histories. (A synthesis still makes choices about frame and emphasis, and it often defaults to the dominant group's view.)
+- History and memory are the same thing. (Memory sustains a community's identity through commemoration and tradition, while academic history tests inherited narratives against evidence.)
+
 ## Questions
 
 ```yaml

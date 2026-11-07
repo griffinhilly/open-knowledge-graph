@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 Recombination rates evolve in response to selection. Regions of low recombination accumulate deleterious mutations (Hill-Robertson interference), reducing fitness. Increased recombination is selected when it breaks unfavorable linkage between beneficial and deleterious alleles.
 
+## How It's Best Learned
+Start with a population where beneficial alleles A and B, at two linked loci, sit on different copies of the chromosome: half are Ab, half are aB, and none are AB. Without recombination, AB can appear only by a new mutation. With recombination fraction r = 0.1 and random mating, about r/4 = 2.5% of gametes in the next generation are AB. Then explain why a modifier that raises r tends to end up on these AB chromosomes.
+
+## Common Misconceptions
+- Recombination creates new alleles. (It creates new combinations of existing alleles at different loci; new alleles come from mutation.)
+- Recombination raises the fitness of offspring. (It can also break apart favorable combinations, so its benefit depends on the linkage disequilibrium present.)
+- A recombination modifier spreads because it helps the species adapt. (It spreads through indirect selection, by being carried on the fitter chromosomes it helps produce.)
+- Regions of low recombination have fewer mutations. (Mutations arise there as elsewhere; low recombination makes selection on them less efficient, so harmful ones accumulate more readily.)
+
 ## Questions
 
 ```yaml

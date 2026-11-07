@@ -19,7 +19,16 @@ status: validated
 # Hox Genes and Body Plan Evolution
 
 ## Core Idea
-Hox genes are conserved transcription factors that determine body segment identity and organization, with homologs shared across all animals. Changes in Hox gene expression and sequence can produce dramatic shifts in body plans with relatively few genetic changes. The Hox cluster organization and collinearity are products of evolution from an ancestral cluster.
+Hox genes are conserved transcription factors that determine body segment identity and organization, with homologs shared across most animals. Changes in Hox gene expression and sequence can produce dramatic shifts in body plans with relatively few genetic changes. The Hox cluster organization and collinearity are products of evolution from an ancestral cluster.
+
+## How It's Best Learned
+Draw the Hox cluster as colored boxes in chromosome order, then color a body axis with the matching expression domains, letting them overlap and nest. Use the drawing to predict homeotic mutants before checking them. Antennapedia expressed in the head gives legs in place of antennae, and loss of Ultrabithorax turns the fly's halteres into a second pair of wings.
+
+## Common Misconceptions
+- Hox genes contain the instructions for building legs, wings or ribs. (Hox genes encode transcription factors that assign regional identity; separate downstream gene networks build the structures.)
+- Each Hox gene controls exactly one body segment. (Hox expression domains overlap, and a region's identity depends on the combination of Hox genes active there.)
+- Body plans differ mainly because Hox proteins differ between species. (Hox protein sequences are highly conserved; much body plan change comes from shifts in where and when the genes are expressed.)
+- Because a single homeotic mutation can turn antennae into legs, such mutations are a common route to new body plans. (Large homeotic transformations are usually harmful; evolutionary change tends to come from smaller shifts in Hox regulation and in the genes Hox proteins control.)
 
 ## Questions
 

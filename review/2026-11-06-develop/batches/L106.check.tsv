@@ -1,0 +1,24 @@
+domains/mathematics/1st-grade/telling-time-to-hour-1st.md	how	4	0	ok
+domains/mathematics/1st-grade/telling-time-to-hour-1st.md	mis	6	0	ok
+domains/mathematics/1st-grade/telling-time-to-hour-1st.md	old:ex	1	1	fixed	Explainer said the hour hand "only steps to the next number" after a full lap; contradicts Core Idea and new bullet (hand moves continuously). Reworded to "creep".
+domains/mathematics/1st-grade/telling-time-to-hour-1st.md	old:q:1	1	1	fixed	Correct option said the hour hand "only steps" to the next number; reworded to "takes one full trip of the minute hand ... to move".
+domains/mathematics/1st-grade/telling-time-to-hour.md	how	3	0	ok
+domains/mathematics/1st-grade/telling-time-to-hour.md	mis	6	0	ok
+domains/mathematics/1st-grade/ten-frames-for-addition.md	how	4	1	fixed	Worked 8+5, 9+4, 7+6 (all 13, correct). Step never set out the 5 blue counters, so "3 stay out" had no referent; added "in the first frame and 5 blue counters beside it".
+domains/mathematics/1st-grade/ten-frames-for-addition.md	mis	6	1	fixed	Bullet 3 belief "counters can go in any boxes in any order" is not false (the count is unchanged); reframed as "scattered counters are just as easy to read" and added that the total is the same.
+domains/mathematics/1st-grade/ten-frames-for-addition.md	old:q:2	1	0	ok	Not fixed, flag only: true-false "only works if a student already knows number bonds to 10" keyed true is doubtful; the Explainer itself says empty boxes show the distance to 10 without bonds.
+domains/mathematics/1st-grade/time-to-half-hour-practice.md	how	3	0	ok
+domains/mathematics/1st-grade/time-to-half-hour-practice.md	mis	6	0	ok
+domains/mathematics/1st-grade/time-to-half-hour-practice.md	old:ex	1	1	fixed	Pizza analogy called 12-to-6 the "top half" and 6-to-12 the "bottom half"; those are the right and left halves. Fixed.
+domains/mathematics/1st-grade/time-to-hour-practice.md	how	3	0	ok
+domains/mathematics/1st-grade/time-to-hour-practice.md	mis	6	0	ok	Bullet 3 (12:00 looks wrong when hands overlap) is mild but plausible for young learners.
+domains/mathematics/1st-grade/time-to-hour-practice.md	old:q:1	1	1	fixed	Question had big hand at 3, little at 12; that student read the hour hand correctly, so the keyed "reversed the hands" was wrong and no option fit. Swapped to big at 12, little at 3, and fixed the explanation sentence.
+domains/mathematics/1st-grade/two-digit-addition-no-regrouping.md	how	3	0	ok
+domains/mathematics/1st-grade/two-digit-addition-no-regrouping.md	mis	6	0	ok	Checked 2+3+1+5=11 and 32+50=82 vs 37.
+domains/mathematics/1st-grade/two-digit-number-composition-1st.md	how	3	0	ok
+domains/mathematics/1st-grade/two-digit-number-composition-1st.md	mis	6	0	ok
+domains/mathematics/1st-grade/weight-or-mass-comparison-1st.md	how	4	1	fixed	"Big pillow and small rock" fails when worked: a big pillow does not fit a classroom pan balance and is not reliably lighter than a small rock. Changed to a blown-up balloon.
+domains/mathematics/1st-grade/weight-or-mass-comparison-1st.md	mis	6	0	ok
+domains/mathematics/1st-grade/weight-or-mass-comparison-1st.md	old:q:3	1	0	ok	Not fixed, flag only: "A larger object is typically heavier" keyed false, and "size and weight are independent" (also in q:0) overstates it; same-material objects do get heavier with size.
+domains/mathematics/1st-grade/word-problems-addition-subtraction-1st.md	how	3	0	ok
+domains/mathematics/1st-grade/word-problems-addition-subtraction-1st.md	mis	6	0	ok	Note: older Explainer pushes signal-word hunting ("the key skill") and says "gets more" means addition; the new bullets correctly warn against this. Explainer not edited.

@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Oceanic lithosphere cools as it ages, following half-space cooling or plate models. Temperature, density, and seismic velocity change predictably with age. Plate age variations explain bathymetry, heat flow, and isostatic structure across ocean basins and passive margins.
 
+## How It's Best Learned
+Plot seafloor depth against √age instead of age, and heat flow against 1/√age. Half-space cooling makes both plots straight lines, so the flattening of old seafloor stands out as a bend. Then compare a 4 Ma plate with a 36 Ma plate. The older one is three times as thick and has subsided three times as far from the ridge, with one third the heat flow.
+
+## Common Misconceptions
+- A plate thickens at a steady rate as it ages. (Thickness grows with the square root of age. The plate thickens fast when young and slowly later, so quadrupling the age only doubles the thickness.)
+- Ridges stand high because magma pushes the seafloor up. (They stand high mainly because young lithosphere is hot and less dense. As it cools and contracts, it sinks isostatically.)
+- In the plate model, old seafloor flattens because the plate has gone cold all the way through. (The base stays hot. Heat supplied from below balances heat lost at the top, so the temperature profile approaches a steady state.)
+
 ## Questions
 
 ```yaml

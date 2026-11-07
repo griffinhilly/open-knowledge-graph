@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 A system of m linear equations in n unknowns can be written as Ax = b, where A is m × n, x is the unknown vector, and b is the constant vector. A system is consistent (has solutions) if and only if b is in the column space of A. The solution set forms an affine subspace.
 
+## How It's Best Learned
+Draw one system two ways. For 2x + y = 5 and x − y = 1, the row picture shows two lines meeting at (2, 1). The column picture shows 2·(2, 1) + 1·(1, −1) = (5, 1), so x = (2, 1) combines the columns of A to reach b. Then try A = [[1, 2], [2, 4]] with b = (3, 7). Both columns lie on one line, and b is off it.
+
+## Common Misconceptions
+- A system with more equations than unknowns has no solution. (It can be consistent; x = 1 and 2x = 2 are two equations in one unknown with the solution x = 1.)
+- A system with more unknowns than equations has infinitely many solutions. (Only if it is consistent; x + y + z = 1 and x + y + z = 2 are two equations in three unknowns with no solution at all.)
+- The solution set of Ax = b is a subspace. (When b ≠ 0 the set does not contain 0, so it is a shifted copy of the null space, not a subspace.)
+- A homogeneous system Ax = 0 might have no solution. (x = 0 always solves it, so the question is only whether other solutions exist.)
+
 ## Questions
 
 ```yaml

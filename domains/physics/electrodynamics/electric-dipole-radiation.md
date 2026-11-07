@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Electric dipole radiation from time-varying dipole moment p(t) dominates for non-relativistic sources. Radiated power and angular distribution depend on dipole acceleration magnitude and direction. Maximum radiation perpendicular to acceleration; zero along it. Dipole antennas exploit this pattern.
 
+## How It's Best Learned
+Check the pattern against the total power. Write dP/dΩ = C sin²θ and integrate over the sphere: ∫sin²θ dΩ = 8π/3, so C = 3P/(8π). For p = p₀cos(ωt), averaging cos² gives ⟨P⟩ = p₀²ω⁴/(12πε₀c³). Then sketch the doughnut pattern in 3D and mark the E-field direction at a few points on it.
+
+## Common Misconceptions
+- Radiated intensity falls as 1/r because the radiation field does. (The far field falls as 1/r, so intensity falls as 1/r². The power through a large sphere stays constant.)
+- A dipole of fixed magnitude cannot radiate. (If its direction rotates, p̈ is nonzero and it radiates. A rotating dipole acts like two perpendicular dipoles oscillating 90° out of phase.)
+- A source with a constant dipole moment radiates nothing at all. (Magnetic dipole and electric quadrupole terms can still radiate. For small sources they are much weaker than dipole radiation.)
+- Radiation is strongest along the direction the charges move. (Along the oscillation axis the radiated power is zero. The maximum lies in the plane perpendicular to it.)
+
 ## Questions
 
 ```yaml

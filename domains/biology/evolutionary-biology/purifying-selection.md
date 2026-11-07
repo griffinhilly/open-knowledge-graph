@@ -30,6 +30,15 @@ status: validated
 ## Core Idea
 Purifying selection removes or reduces frequency of deleterious mutations by eliminating individuals carrying them. Explains why functional regions of genomes evolve slowly compared to neutral sites.
 
+## How It's Best Learned
+Take an aligned coding sequence for one gene from several mammals, plus a stretch of a nearby intron. Before counting, predict which will differ most: first, second or third codon positions, or the intron. Then count differences in each class and compare. Finish by finding the amino acids that never vary and checking whether they sit in the protein's active site or core.
+
+## Common Misconceptions
+- A conserved sequence is one where mutations do not occur. (Mutations arise there at a normal rate; they are rare among species because carriers leave fewer offspring and the mutations are removed.)
+- Purifying selection removes every harmful mutation. (Weakly harmful mutations can drift to high frequency in small populations, and recessive ones persist hidden in heterozygotes.)
+- Purifying selection is a separate force from natural selection. (It is natural selection acting against harmful variants, as opposed to selection favoring new beneficial ones.)
+- Any sequence that evolves slowly is under purifying selection. (A low local mutation rate also slows change, so constraint is judged against a neutral reference with a similar mutation rate.)
+
 ## Questions
 
 ```yaml
@@ -51,7 +60,7 @@ Purifying selection removes or reduces frequency of deleterious mutations by eli
     - "In the small population, genetic drift may overpower weak purifying selection, allowing the mutation to drift to fixation; in the large population, purifying selection efficiently removes it"
     - "The mutation will reach higher frequency in the large population due to mutation-selection balance dynamics"
   answer: 2
-  explanation: "Whether selection or drift dominates depends on the product Nes (effective population size × selection coefficient). When Nes >> 1, selection is efficient; when Nes << 1, drift dominates. For N=40 and s=0.001: Nes ≈ 0.04 — drift is ~25x stronger than selection, and the mutation is likely to drift to fixation or loss by chance. For N=200,000 and s=0.001: Nes ≈ 200 — selection strongly dominates, and the mutation is efficiently purged. This interaction between drift and purifying selection explains why small, isolated populations accumulate more deleterious mutations over time — a process called Muller's ratchet."
+  explanation: "Whether selection or drift dominates depends on the product Nes (effective population size × selection coefficient). When Nes >> 1, selection is efficient; when Nes << 1, drift dominates. For N=40 and s=0.001: Nes ≈ 0.04 — drift is ~25x stronger than selection, and the mutation is likely to drift to fixation or loss by chance. For N=200,000 and s=0.001: Nes ≈ 200 — selection strongly dominates, and the mutation is efficiently purged. This interaction between drift and purifying selection explains why small, isolated populations accumulate more deleterious mutations over time, a burden called drift load."
 
 - question: "Purifying selection and positive selection can act simultaneously on different sites within the same gene — some positions are under strong constraint against change while others are favored for adaptive divergence."
   type: true-false

@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 The quality factor Q describes wave attenuation in materials; high-Q materials preserve amplitude while low-Q materials absorb energy. Attenuation varies with frequency, temperature, and fluid content and is measurable from spectral ratios and amplitude decay.
 
+## How It's Best Learned
+Compute the decay factor exp(−πft/Q) for a 2 s travel time and Q = 100. It is about 0.53 at 10 Hz and 0.08 at 40 Hz. Take the natural log of each, plot them against frequency, and read the slope, about −0.063 per Hz. Since the slope equals −πt/Q, recover Q = 100. This shows why spectral ratios measure Q.
+
+## Common Misconceptions
+- All the amplitude a wave loses with distance is attenuation. (Geometric spreading and scattering also reduce amplitude; intrinsic Q describes only the energy converted to heat, so the other effects must be corrected first.)
+- A Q of 100 means the wave loses 1% of its energy per cycle. (The fractional loss per cycle is 2π/Q, so Q = 100 means about 6% per cycle.)
+- P waves and S waves through the same rock have the same Q. (In much of the Earth, shear-wave Q is lower than P-wave Q because much of the dissipation occurs in shear.)
+- Attenuation only lowers amplitude and leaves travel times alone. (Attenuating media are dispersive, so velocity depends on frequency and pulses broaden as they travel.)
+
 ## Questions
 
 ```yaml
@@ -43,7 +52,7 @@ The quality factor Q describes wave attenuation in materials; high-Q materials p
     - "High-frequency waves have higher amplitudes and therefore lose more energy per unit distance to geometric spreading"
     - "The viscosity of pore fluids is frequency-dependent, affecting high frequencies more than low frequencies"
   answer: 1
-  explanation: "Q is defined as the ratio of energy stored to energy lost per cycle (times 2π). Each wave cycle dissipates a fixed fractional amount of energy — approximately 1/Q. A high-frequency wave completes more cycles per unit distance traveled than a low-frequency wave at the same velocity. Therefore, it accumulates more cycles of fractional energy loss per meter, attenuating faster. This is why distant earthquakes or deep reflections look 'softer' — their high-frequency content is preferentially removed by attenuation, leaving only lower frequencies to arrive at distant receivers. The spectral ratio method exploits this predictable slope to calculate Q from comparing frequency spectra at two distances."
+  explanation: "Q is defined as the ratio of energy stored to energy lost per cycle (times 2π). Each wave cycle dissipates a fixed fractional amount of energy — 2π/Q. A high-frequency wave completes more cycles per unit distance traveled than a low-frequency wave at the same velocity. Therefore, it accumulates more cycles of fractional energy loss per meter, attenuating faster. This is why distant earthquakes or deep reflections look 'softer' — their high-frequency content is preferentially removed by attenuation, leaving only lower frequencies to arrive at distant receivers. The spectral ratio method exploits this predictable slope to calculate Q from comparing frequency spectra at two distances."
 
 - question: "A rock with a high Q value (e.g., Q = 1000) rapidly absorbs seismic wave energy, causing strong attenuation over short propagation distances."
   type: true-false

@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 The dimension of a vector space V, denoted dim(V), is the size of any basis. All bases have equal cardinality. Dimension measures the number of independent coordinates needed. For R^n, dimension is n. Subspaces have dimension ≤ the parent space's dimension.
 
+## How It's Best Learned
+Find the dimension of spaces that do not look like ℝⁿ by writing a general element and counting free parameters. A symmetric 2×2 matrix [[a, b], [b, c]] has three, so the space has dimension 3. Polynomials of degree at most 2 with p(1) = 0 have basis {x − 1, x² − 1}, so dimension 2. Each time, check that your basis spans and is independent.
+
+## Common Misconceptions
+- The span of three vectors has dimension 3. (It has dimension equal to the number of independent vectors among them. The span of (1,0), (0,1), and (1,1) has dimension 2.)
+- A subspace with the same dimension as V can still be smaller than V. (In a finite-dimensional space, a subspace of full dimension contains a basis of V, so it equals V.)
+- Each linear condition you impose lowers the dimension by one. (Only conditions independent of the earlier ones do. Requiring x + y = 0 and 2x + 2y = 0 in ℝ² lowers the dimension by one, not two.)
+
 ## Questions
 
 ```yaml

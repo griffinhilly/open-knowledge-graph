@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 The New Keynesian Phillips curve shows that inflation depends on expected future inflation, the output gap, and marginal costs. Unlike the traditional Phillips curve (which posits a stable unemployment-inflation tradeoff), the NKPC is forward-looking and depends on real variables. This microfounded derivation from Calvo pricing explains why monetary policy affects inflation through demand pressure on costs, not backward-looking wage adjustment, and why supply shocks can cause stagflation.
 
+## How It's Best Learned
+Let θ be the probability that a firm keeps its old price. Derive the curve in three steps: the reset price as a weighted average of expected marginal costs with weights (βθ)^j, the price index p_t = θp_{t−1} + (1−θ)p*_t, and the combination. That gives a slope on real marginal cost of (1−θ)(1−βθ)/θ. With θ = 0.75 (prices last four quarters on average) and β = 0.99, the slope is about 0.086.
+
+## Common Misconceptions
+- Stickier prices make the Phillips curve steeper. (A higher probability θ of keeping the old price lowers the slope, so inflation responds less to marginal cost.)
+- A credible announcement makes disinflation costless in practice. (That result needs perfect credibility; with partial credibility, expectations adjust slowly and output still falls.)
+- The expected-inflation term in the NKPC is whatever surveys of households report. (In the model it is the rational forecast of price-setting firms; which data best measure it is an empirical question.)
+
 ## Questions
 
 ```yaml

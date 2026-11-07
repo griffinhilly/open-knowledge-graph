@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Connected histories frameworks study how societies and regions are linked through trade, migration, communication, and conflict rather than as isolated units. Entanglement historiography emphasizes how colonizer and colonized, metropole and colony, were mutually shaped through interaction. These approaches reject nationalist and Eurocentric frames in favor of relational perspectives that reveal how apparently separate histories are deeply intertwined.
 
+## How It's Best Learned
+Take a decision usually told inside one national story, such as a colonial governor's policy, and list every outside actor whose moves shaped it: rival empires, local rulers, merchants, the people being governed. Draw the result as a web with arrows running both ways. Then rewrite the national version of the story so the outside actors appear as causes, not background. The rewrite shows what the container model hid.
+
+## Common Misconceptions
+- Connected history is comparative history with more cases. (Comparison keeps societies as separate units; connected history argues that many "internal" developments were produced by interaction between them.)
+- Entanglement means one culture influenced another. (Influence models assume an active source and a passive receiver, while entanglement claims both sides were shaped by the encounter.)
+- Adding a chapter on foreign contacts to a national history makes it connected history. (The approach asks historians to rethink the unit of analysis itself, so the connections become part of the explanation.)
+- Mutual shaping means the two sides were equals. (Entanglement can occur within very unequal relationships, such as colony and metropole, and the power gap remains part of the story.)
+
 ## Questions
 
 ```yaml

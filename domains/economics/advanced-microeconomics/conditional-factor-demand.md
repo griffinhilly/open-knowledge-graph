@@ -19,6 +19,15 @@ status: validated
 ## Core Idea
 Conditional (or derived) factor demand x(w, y) gives the quantity of input used when minimizing costs for output level y at input prices w. By Shephard's lemma, ∂c(w,y)/∂w_i = x_i(w,y). These demands depend on output level, unlike Marshallian input demand which conditions on revenue. Conditional demands are crucial for understanding production and technological change.
 
+## How It's Best Learned
+Derive the demands for y = K^(1/2) L^(1/2) with wage w and rental rate r. Cost minimization gives L = y(r/w)^(1/2) and K = y(w/r)^(1/2), so cost is c = 2y(wr)^(1/2). Differentiate c with respect to w and you get L back, which is Shephard's lemma. Then double both prices and confirm that L and K stay the same.
+
+## Common Misconceptions
+- When the wage rises, conditional labor demand falls because the firm produces less. (Output is held fixed in conditional demand. Labor falls only because the firm substitutes toward capital along the same isoquant.)
+- Conditional and profit-maximizing factor demands are the same function. (Conditional demand takes output as given. Profit-maximizing demand lets output respond to prices, so it includes a scale effect as well.)
+- Doubling all input prices halves the inputs a firm uses. (With output fixed, equal scaling of prices leaves relative prices unchanged, so conditional demands stay the same and only cost doubles.)
+- A higher price for an input can raise its conditional demand. (At fixed output, the own-price effect is non-positive. This follows from concavity of the cost function in prices.)
+
 ## Questions
 
 ```yaml

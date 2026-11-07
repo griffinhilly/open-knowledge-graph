@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Vectors x and y in a Hilbert space are orthogonal if ⟨x,y⟩ = 0. For a closed convex set K, there is a unique nearest point. Orthogonal projection onto a closed subspace M is the linear operator P_M: H → M projecting each x to the nearest point in M.
 
+## How It's Best Learned
+Compute a projection in L²[−1,1]: project x² onto span{1, x}. Since 1 and x are orthogonal there, P(x²) = (⟨x²,1⟩/⟨1,1⟩)·1 + (⟨x²,x⟩/⟨x,x⟩)·x = (2/3)/2 + 0 = 1/3. Check that x² − 1/3 is orthogonal to 1 and to x. Then see why closedness matters: in ℓ², (1, 1/2, 1/3, ...) has distance 0 from the finitely supported sequences but no nearest point among them.
+
+## Common Misconceptions
+- Every subspace has a nearest point to each x. (The subspace must be closed. For a dense, non-closed subspace the infimum distance can be 0 with no point achieving it.)
+- The formula Σ⟨x, eᵢ⟩eᵢ projects onto the span of any basis. (It needs an orthonormal set. For a non-orthogonal basis you solve the normal equations, or orthonormalize first.)
+- Any operator with P² = P is an orthogonal projection. (On ℝ², P(x, y) = (x + y, 0) is idempotent, but v − Pv = (−y, y) is not orthogonal to the range when y ≠ 0. Orthogonal projections are the idempotents that are also self-adjoint.)
+- Orthogonal functions must be zero where the other is nonzero. (On [−π, π], sin x and cos x are orthogonal in L², though both are nonzero at almost every point.)
+
 ## Questions
 
 ```yaml
@@ -44,7 +53,7 @@ Vectors x and y in a Hilbert space are orthogonal if ⟨x,y⟩ = 0. For a closed
   answer: 2
   explanation: "Idempotence P² = P means that once you project onto M, re-applying P leaves you in M unchanged — P fixes every vector in its own range. Both P = 0 and P = I satisfy P² = P, but so does every orthogonal projection onto any subspace. The geometric meaning is: a vector already in M is its own nearest point in M, so projecting it again does nothing. This is the opposite of 'collapsing to zero.'"
 
-- question: "If P_M x = x for some nonzero vector x, then x should not be in the subspace M."
+- question: "If P_M x = x for some nonzero vector x, then x cannot be in the subspace M."
   type: true-false
   answer: false
   explanation: "P_M x = x means x is fixed by the projection — its nearest point in M is itself, which happens precisely when x ∈ M. The statement has it backwards: P_M x = x if and only if x is already in M. Conversely, P_M x = 0 would mean the nearest point of x in M is the origin, which occurs when x ∈ M⊥."

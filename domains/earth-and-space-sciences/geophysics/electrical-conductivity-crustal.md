@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Crustal electrical conductivity varies with mineralogy, temperature, fluid content, and pressure. Mafic rocks are more conductive than felsic rocks; water-saturated rocks are much more conductive than dry rock. Conductivity increases steeply with temperature in the lower crust.
 
+## How It's Best Learned
+Work Archie's law, ρ = ρ_w·φ⁻ᵐ, with brine at 0.1 Ω·m and m = 2. At 1% connected porosity the rock is about 1,000 Ω·m; at 5% it is about 40 Ω·m, against 10,000 Ω·m for dry granite. Plot these on a log resistivity axis, then add the other candidate causes (graphite, melt, hot dry rock) and the settings where each is plausible.
+
+## Common Misconceptions
+- The amount of water in a rock sets its conductivity. (Connectivity matters more: isolated fluid pockets add little, while a small connected network can lower resistivity by orders of magnitude.)
+- Any water makes rock conductive. (Charge is carried by dissolved ions, so fresh water conducts poorly and fluid salinity strongly affects bulk resistivity.)
+- A deep conductive anomaly means partial melt. (Saline fluids, graphite films, sulfides and hot rock can give similar anomalies; temperature and geology are needed to choose among them.)
+- Conductivity and resistivity are separate properties that must be measured separately. (Resistivity is the reciprocal of conductivity, so 100 Ω·m is the same as 0.01 S/m.)
+
 ## Questions
 
 ```yaml

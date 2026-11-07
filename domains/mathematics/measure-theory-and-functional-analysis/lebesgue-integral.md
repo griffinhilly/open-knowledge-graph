@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 The Lebesgue integral is defined for simple functions as ∫s dμ = Σ aᵢμ(Eᵢ), extended to non-negative measurable functions by monotone supremum, then to general functions via positive and negative parts. This construction unifies and extends Riemann integration.
 
+## How It's Best Learned
+Integrate one function by slicing its range. For f(x) = x² on [0,1], the set where f ≥ t has measure 1 − √t. Summing horizontal layers gives ∫f = ∫₀¹ (1 − √t) dt = 1 − 2/3 = 1/3, the same as the Riemann answer. Then run the signed stage on sin x over [0, 2π]: ∫f⁺ = 2 and ∫f⁻ = 2, so ∫f = 0 while ∫|f| = 4.
+
+## Common Misconceptions
+- Every measurable function has a Lebesgue integral. (On ℝ, f(x) = x has ∫f⁺ = ∫f⁻ = ∞, so ∫f is undefined. The constant 1 has integral ∞ and is not in L¹.)
+- For a Riemann integrable function on [a,b], the Lebesgue integral can give a different value. (The two integrals agree for every Riemann integrable function on a closed bounded interval.)
+- Computing a Lebesgue integral means building simple-function approximations each time. (The construction defines the integral and proves its properties. In practice you compute with Riemann techniques, Fubini, and the convergence theorems.)
+
 ## Questions
 
 ```yaml

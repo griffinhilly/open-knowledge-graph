@@ -30,6 +30,15 @@ status: validated
 ## Core Idea
 Mutations with selection coefficients of order 1/(2Ne) evolve under combined influence of drift and weak selection. These 'nearly neutral' mutations have fixation rates between neutral and selected expectations, prevalent in genomic evolution.
 
+## How It's Best Learned
+Hold one mutation fixed at s = −10⁻⁴ and compute 2Ne|s| for Ne = 10³, 10⁴, 10⁵ and 10⁶. The values are 0.2, 2, 20 and 200. Read the first as nearly neutral, the second as the boundary where drift and selection are comparable, and the last two as selection-dominated. Then repeat with s = +10⁻⁴ to see that slightly beneficial mutations follow the same rule.
+
+## Common Misconceptions
+- A nearly neutral mutation has no effect on fitness. (Its effect is real but small enough that, in a given population, drift can outweigh selection on it.)
+- Whether a mutation is neutral is a fixed property of the mutation. (The same mutation can be effectively neutral in a small population and clearly selected in a large one, because the threshold is about 1/(2Ne).)
+- Only harmful mutations fall in the nearly neutral zone. (Slightly beneficial mutations do too, and in small populations many of them are lost by drift.)
+- Drift in small populations helps adaptation by fixing new mutations faster. (Drift fixes slightly harmful mutations more often and slightly beneficial ones less reliably, so small populations tend to lose fitness over time.)
+
 ## Questions
 
 ```yaml

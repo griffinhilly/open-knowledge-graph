@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The null space nul(A) is the set of all solutions to Ax = 0, found by Gaussian elimination. It is a subspace and equals the kernel of the linear transformation x ↦ Ax. Nullity(A) is the dimension of nul(A), equal to the number of free variables in RREF.
 
+## How It's Best Learned
+Start from a matrix already in RREF, A = [[1, 2, 0, 3], [0, 0, 1, 4]]. The free variables are x₂ and x₄, with x₁ = −2x₂ − 3x₄ and x₃ = −4x₄. Setting each free variable to 1 in turn gives the basis (−2, 1, 0, 0) and (−3, 0, −4, 1). Multiply each by A to confirm you get zero.
+
+## Common Misconceptions
+- The null space of an m × n matrix lives in ℝᵐ. (Null space vectors are inputs x, so they live in ℝⁿ, the space whose dimension is the number of columns.)
+- If Ax = 0 has only the trivial solution, the null space is empty. (It is {0}, a subspace with one vector and dimension zero.)
+- Row-reducing A changes its null space, so the answer must be checked against the original matrix. (Row operations preserve the solutions of Ax = 0, so A and its RREF have the same null space.)
+- The basis vectors of the null space are the non-pivot columns of A. (The basis comes from solving for pivot variables in terms of free ones; the non-pivot columns live in ℝᵐ and are different vectors.)
+
 ## Questions
 
 ```yaml
@@ -58,7 +67,7 @@ The null space nul(A) is the set of all solutions to Ax = 0, found by Gaussian e
 
 - question: "A matrix A, when row-reduced to RREF, yields 4 free variables. What does this tell you about the null space, and what does it mean geometrically?"
   type: short-answer
-  answer: "The null space has dimension 4 — it is a 4-dimensional subspace of the input space. Each free variable parameterizes one independent direction in the solution set of Ax = 0. Geometrically, the null space is a 4-dimensional flat (hyperplane through the origin) consisting of all vectors that A collapses to zero."
+  answer: "The null space has dimension 4 — it is a 4-dimensional subspace of the input space. Each free variable parameterizes one independent direction in the solution set of Ax = 0. Geometrically, the null space is a 4-dimensional flat through the origin consisting of all vectors that A collapses to zero."
   explanation: "Each free variable contributes exactly one basis vector to nul(A). You find these basis vectors by setting each free variable to 1 (and others to 0) and solving for the pivot variables. The geometric picture is important: a 4-dimensional null space means A 'destroys' 4 independent directions — it collapses a 4-dimensional family of vectors to zero. The larger the null space, the more information A discards."
 ```
 

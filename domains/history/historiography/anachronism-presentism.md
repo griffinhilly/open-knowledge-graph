@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Anachronism—reading present concepts, values, or knowledge into the past—is a cardinal methodological sin. Yet historians must use present frameworks to ask questions of the past. Presentism uses past events to legitimate present causes. The challenge is navigating between understanding the past in its own terms and asking questions relevant to our time without distorting either.
 
+## How It's Best Learned
+Take one short passage of historical writing and mark every key term. For each term, ask two questions: did the people being described use this word or idea, and is the historian presenting it as their category or as an analytical lens? Then rewrite one anachronistic sentence so the modern concept is flagged as the historian's tool. Comparing a Whig-style narrative with a contextualist account of the same event shows how presentism shapes what gets told.
+
+## Common Misconceptions
+- Avoiding anachronism means a historian may not use any modern concept. (Modern concepts are acceptable as analytical tools, as long as the historian makes clear they are not the past actors' own categories.)
+- Presentism just means caring about the present. (Present concerns can legitimately motivate questions; presentism is letting present causes decide the answers before the evidence is weighed.)
+- Anachronism is only about objects in the wrong period, like a wristwatch in a Roman scene. (The harder cases are conceptual, such as calling a medieval king a "nationalist.")
+- A careful enough historian can fully escape their own standpoint. (Questions always come from the present; the aim is to be transparent about that standpoint and let the evidence push back.)
+
 ## Questions
 
 ```yaml

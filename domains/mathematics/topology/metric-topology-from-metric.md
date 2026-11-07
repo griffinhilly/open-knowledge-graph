@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Given a metric d on X, the metric topology consists of all unions of open balls B(x,ε) = {y : d(x,y) < ε}. Open balls form a basis for this topology. Not every topology comes from a metric (metrization theorems characterize which do). Metrics provide explicit, computable topologies on ℝⁿ and function spaces.
 
+## How It's Best Learned
+Begin with the lemma behind everything else: if y ∈ B(x, ε) and r = ε − d(x, y), then B(y, r) ⊆ B(x, ε), by the triangle inequality. Draw it as a small disk inside a larger one. Then compare two metrics on ℝ² through nested balls: B₂(x, r) ⊆ B∞(x, r) and B∞(x, r/√2) ⊆ B₂(x, r), so the Euclidean and max metrics give the same open sets.
+
+## Common Misconceptions
+- The closed ball {y : d(x, y) ≤ ε} is the closure of the open ball B(x, ε). (In a discrete metric space, the closed ball of radius 1 is all of X, but the closure of B(x, 1) = {x} is {x}.)
+- Metrics with the same open sets agree on which sequences are Cauchy. (On ℝ, |arctan x − arctan y| gives the usual topology, yet the sequence 1, 2, 3, … is Cauchy for it and has no limit. Completeness is a metric property, not a topological one.)
+- Replacing d by the bounded metric min(d, 1) gives a coarser topology. (Balls of radius below 1 are unchanged, so the topology is the same.)
+
 ## Questions
 
 ```yaml
@@ -46,10 +54,10 @@ Given a metric d on X, the metric topology consists of all unions of open balls 
   answer: 2
   explanation: "The collection of open balls is a *basis* for the metric topology, not the topology itself. A topology must be closed under finite intersections, but the intersection of two open balls of different sizes and centers is typically a lens-shaped region — not itself an open ball. The topology consists of all *unions* of open balls. This is why 'basis' is the right vocabulary: every open set in the topology is a union of basis elements, but the basis elements themselves don't form a topology."
 
-- question: "Most topology on a set X is induced by some metric on X."
+- question: "Every topology on a set X is induced by some metric on X."
   type: true-false
   answer: false
-  explanation: "Not every topology is metrizable. Metrization theorems (such as Urysohn's metrization theorem) characterize which topological spaces can be given a metric that generates their topology — conditions like second-countability and regularity are required. The indiscrete topology on a set with more than one point, for example, is not metrizable: any metric would generate a finer topology (open balls separate points), but the indiscrete topology has only ∅ and X as open sets."
+  explanation: "Not every topology is metrizable. Metrization theorems (such as Urysohn's metrization theorem) characterize which topological spaces can be given a metric that generates their topology — for example, second-countability plus regularity and Hausdorff is sufficient. The indiscrete topology on a set with more than one point, for example, is not metrizable: any metric would generate a finer topology (open balls separate points), but the indiscrete topology has only ∅ and X as open sets."
 
 - question: "Two metrics that induce the same topology are called topologically equivalent, even if the exact distances they assign to pairs of points differ significantly."
   type: true-false
@@ -70,4 +78,4 @@ The construction begins with **open balls**: B(x, ε) = {y ∈ X : d(x, y) < ε}
 
 The open balls form a **basis** for this topology, meaning every open set is a union of open balls — but the open balls themselves need not form a topology, because finite intersections of open balls are not generally open balls. The concept of a basis is important: you rarely specify a topology by listing all open sets (there can be uncountably many). Instead, you specify a basis and declare a set open if it's a union of basis elements. The metric provides such a basis for free.
 
-A central point is that **different metrics can generate the same topology**. On ℝⁿ, the Euclidean metric, the taxicab metric (sum of coordinate differences), and the maximum metric all generate the same topology — the standard one — even though the shapes of their open "balls" differ. Two metrics that generate the same topology are called **topologically equivalent**. This shows that topology abstracts away the specific geometry (exact distances) and retains only the qualitative structure (which sets are open). The converse question — which topologies arise from some metric — is answered by **metrization theorems**: not every topology is metrizable, and conditions like second-countability and regularity characterize which ones are. The metric topology sits at a middle level of generality: richer than abstract topology (because you have explicit distances), but not as rigid as Euclidean geometry (because distances can be exotic). Most spaces you encounter in analysis — function spaces like C([0,1]) with the sup-norm, sequence spaces like ℓ², manifolds — are metric spaces, making this the dominant setting for applied topology.
+A central point is that **different metrics can generate the same topology**. On ℝⁿ, the Euclidean metric, the taxicab metric (sum of coordinate differences), and the maximum metric all generate the same topology — the standard one — even though the shapes of their open "balls" differ. Two metrics that generate the same topology are called **topologically equivalent**. This shows that topology abstracts away the specific geometry (exact distances) and retains only the qualitative structure (which sets are open). The converse question — which topologies arise from some metric — is answered by **metrization theorems**: not every topology is metrizable, and conditions such as Urysohn's (second-countable, regular and Hausdorff) guarantee that a topology is. The metric topology sits at a middle level of generality: richer than abstract topology (because you have explicit distances), but not as rigid as Euclidean geometry (because distances can be exotic). Most spaces you encounter in analysis — function spaces like C([0,1]) with the sup-norm, sequence spaces like ℓ², manifolds — are metric spaces, making this the dominant setting for applied topology.

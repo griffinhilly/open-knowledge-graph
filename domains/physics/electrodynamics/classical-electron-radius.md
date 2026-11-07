@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 The classical electron radius re = q²/(4πε₀mc²) ≈ 2.8 × 10⁻¹⁵ m sets the scale where radiation reaction effects become important. The ratio of radiation damping to inertial force scales as (re/r)·(a/c²), indicating when classical electrodynamics requires quantum corrections.
 
+## How It's Best Learned
+Compute r_e in nuclear units: e²/(4πε₀) ≈ 1.44 MeV·fm and m_ec² ≈ 0.511 MeV give r_e ≈ 2.82 fm. Then place it on a ladder with the reduced Compton wavelength, ħ/(m_ec) ≈ 386 fm, and the Bohr radius, about 52,900 fm. Each step is a factor of about 137, the inverse fine-structure constant.
+
+## Common Misconceptions
+- r_e is the measured size of the electron. (Scattering experiments show no structure down to about 10⁻¹⁸ m. r_e is a length built from e, m_e and c.)
+- Equating self-energy to rest energy fixes r_e exactly. (The self-energy of a charged shell or ball carries a numerical factor such as 1/2 or 3/5. The definition of r_e drops that factor.)
+- Classical electrodynamics stays reliable all the way down to r_e. (Quantum effects already matter near the reduced Compton wavelength, which is about 137 times larger than r_e.)
+
 ## Questions
 
 ```yaml
@@ -36,7 +44,7 @@ The classical electron radius re = q²/(4πε₀mc²) ≈ 2.8 × 10⁻¹⁵ m se
   answer: 1
   explanation: "r_e is defined by setting the electrostatic self-energy of a charged sphere q²/(4πε₀r) equal to the rest-mass energy m_e c² and solving for r. It represents the scale where these two forms of energy are comparable — where self-interaction becomes as important as inertia. The electron has no measurable physical size down to ~10⁻¹⁸ m (far smaller than r_e), so r_e is not a physical surface. It is a characteristic scale encoding the relationship between charge, mass, and electromagnetic energy — a useful length even though it describes no actual structure."
 
-- question: "The Thomson scattering cross-section is σ_T = (8π/3)r_e². The appearance of r_e in this quantum-regime result suggests:"
+- question: "The Thomson scattering cross-section is σ_T = (8π/3)r_e². The appearance of r_e in this result, which QED reproduces at low photon energies, suggests:"
   type: multiple-choice
   options:
     - "The electron must physically be the size r_e for photon scattering to occur"
@@ -44,7 +52,7 @@ The classical electron radius re = q²/(4πε₀mc²) ≈ 2.8 × 10⁻¹⁵ m se
     - "r_e is not a classical artifact but a fundamental combination of electron charge, mass, and c that reappears wherever charge-radiation interactions occur, even in quantum field theory"
     - "The scattering cross-section proves the electron has a definite physical radius equal to r_e"
   answer: 2
-  explanation: "The reappearance of r_e in Thomson scattering — a quantum result — shows that this classical scale carries real physical content. r_e is the combination q²/(4πε₀m_e c²) built from fundamental constants; QED recovers the same combination in cross-sections involving charge and radiation. The quantum theory doesn't erase the classical scale; it remembers it. This is not coincidental: r_e encodes the strength of the electromagnetic coupling relative to the electron's inertia, a ratio that remains physically meaningful in any theory of charged particles."
+  explanation: "The reappearance of r_e in Thomson scattering — a classical result that QED reproduces in the low-energy limit — shows that this classical scale carries real physical content. r_e is the combination q²/(4πε₀m_e c²) built from fundamental constants; QED recovers the same combination in cross-sections involving charge and radiation. The quantum theory doesn't erase the classical scale; it remembers it. This is not coincidental: r_e encodes the strength of the electromagnetic coupling relative to the electron's inertia, a ratio that remains physically meaningful in any theory of charged particles."
 
 - question: "The classical electron radius r_e represents the actual, measured physical size of the electron."
   type: true-false

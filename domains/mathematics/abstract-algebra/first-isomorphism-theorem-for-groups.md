@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 If φ: G → H is a homomorphism, then G/ker(φ) ≅ im(φ). Every homomorphism factors through a quotient by its kernel. This fundamental theorem connects quotient groups to isomorphisms and reveals homomorphism structure.
 
+## How It's Best Learned
+Start with maps where you can count everything. Reduction ℤ₁₂ → ℤ₄, k ↦ k mod 4, has kernel {0, 4, 8}, so ℤ₁₂/{0, 4, 8} ≅ ℤ₄, and 12/3 = 4 confirms the count. Next do the sign map S₃ → {±1}, whose kernel is A₃. Then move to an infinite case: det: GL₂(ℝ) → ℝ^× is onto with kernel SL₂(ℝ).
+
+## Common Misconceptions
+- The theorem gives G/ker(φ) ≅ H. (It gives G/ker(φ) ≅ im(φ). The two agree only when φ is surjective.)
+- You must prove ker(φ) is normal before you can form G/ker(φ). (Every kernel is normal: if k ∈ ker(φ), then φ(gkg⁻¹) = φ(g)φ(k)φ(g)⁻¹ = e.)
+- G/ker(φ) is a subgroup of G. (Its elements are cosets, not elements of G. ℤ/6ℤ is a quotient of ℤ, yet ℤ has no subgroup of order 6.)
+
 ## Questions
 
 ```yaml

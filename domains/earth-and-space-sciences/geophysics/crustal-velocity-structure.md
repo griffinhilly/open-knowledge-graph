@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 The crust exhibits distinct velocity layers: the weathered layer, sediments, metamorphic basement, and high-velocity lower crust. Seismic velocity is a function of pressure, temperature, mineralogy, and fluid content, varying laterally and with depth.
 
+## How It's Best Learned
+Draw velocity-depth columns for oceanic and continental crust side by side on the same axes, with the Moho jump to about 8 km/s marked on each. Then compute vertical P-wave travel time through one continental column: 2 km of sediment at 3 km/s, 15 km at 6 km/s and 18 km at 6.8 km/s take about 0.67, 2.5 and 2.65 s, so about 5.8 s to the Moho.
+
+## Common Misconceptions
+- Denser rock is faster because waves move faster through heavier material. (Velocity depends on elastic modulus divided by density; denser rocks are faster only when their stiffness rises more than their density.)
+- A P-wave velocity identifies a specific rock type. (Velocity ranges of different rocks overlap, and pressure, temperature and porosity shift them, so velocity alone rarely gives a unique lithology.)
+- A refraction survey will reveal every layer in the crustal column. (A slower layer beneath a faster one produces no head wave, so refraction-based velocity models can miss low-velocity zones.)
+- The thin weathered layer is too shallow to matter for deep imaging. (Its very low velocity delays every ray that crosses it, so surveys apply static corrections to remove its effect.)
+
 ## Questions
 
 ```yaml

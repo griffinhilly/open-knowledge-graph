@@ -35,6 +35,14 @@ status: validated
 ## Core Idea
 Metrization theorems characterize when a topological space's topology comes from a metric: typically requiring second-countability or local finiteness combined with regular and Hausdorff separation. The Urysohn metrization theorem is the key result. These theorems clarify which topological properties are metric in nature.
 
+## How It's Best Learned
+List what every metrizable space must satisfy (Hausdorff, regular, normal, first-countable), then test non-examples against the list. ℝ with the cofinite topology fails Hausdorff. The Sorgenfrey line passes every item but still is not metrizable: it is separable, a separable metric space is second-countable, and the Sorgenfrey line is not. Finally, place an uncountable discrete space against Urysohn's hypotheses.
+
+## Common Misconceptions
+- Second-countability is necessary for metrizability. (An uncountable discrete space is metrizable by the discrete metric but has no countable basis. Urysohn's theorem gives sufficient conditions.)
+- Second-countable and Hausdorff is enough. (Regularity cannot be dropped: ℝ with the K-topology is second-countable and Hausdorff but not regular, so it is not metrizable.)
+- Urysohn's theorem describes every metrizable space. (It is a one-way implication. The Nagata–Smirnov theorem gives a condition that is both necessary and sufficient.)
+
 ## Questions
 
 ```yaml

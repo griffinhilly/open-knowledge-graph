@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Peripatric speciation is a special case of allopatric speciation in which a small founding population colonizes a new area. Genetic drift in the small population rapidly changes allele frequencies and may quickly establish reproductive isolation even from the ancestral population. Island colonization exemplifies peripatric speciation.
 
+## How It's Best Learned
+Fill a bag with 95 white and 5 red beads as the mainland gene pool, then draw 10 as founders and record the red count. Repeat the draw many times. More than half of the founder groups have no red bead, and a few have two or more, at least four times the mainland frequency. Then let one founder group drift by resampling 10 beads each generation.
+
+## Common Misconceptions
+- A founding group carries a small but accurate copy of the source population's gene pool. (A small sample deviates from the source by chance, so rare alleles can be lost and others can rise well above their mainland frequency.)
+- Any small isolated population will soon become a new species. (Many founder populations go extinct or stay able to interbreed with the source, and how often drift alone produces reproductive isolation is debated.)
+- Drift in a founder population can only remove variation, so it cannot create differences from the mainland. (By shifting which alleles are common, drift makes the island population differ from the mainland even without new mutations.)
+- Peripatric speciation means speciation on islands. (The defining feature is a small isolated population at the edge of the range; an island is one common setting, but isolated habitat patches also qualify.)
+
 ## Questions
 
 ```yaml

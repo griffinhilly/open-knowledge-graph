@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 Linear algebra models diverse real-world systems: networks via adjacency matrices, population dynamics via Leslie matrices, image compression via SVD, least-squares fitting for data, and solutions to systems of differential equations via matrix exponentials. Eigenvalues reveal stability and long-term behavior. These applications demonstrate the unifying power of linear algebra across science and engineering.
 
+## How It's Best Learned
+Build one small model by hand before reading about many. Take a two-age-class Leslie matrix such as [[0, 2], [0.5, 0]], start from the vector (10, 0), and multiply five times. The population alternates between (10, 0) and (0, 5). Then compute the eigenvalues (1 and −1) and see why two eigenvalues of equal size stop the age distribution from settling. Change the 0 in the top-left to 1 and repeat to see convergence.
+
+## Common Misconceptions
+- A model built from matrices predicts exact real-world outcomes. (A linear model is an approximation. It holds only as well as the linearity assumption fits the system being modeled.)
+- The dominant eigenvalue tells you the stable age distribution. (The eigenvalue gives the long-run growth factor per step. The matching eigenvector gives the proportions the population approaches.)
+- Least squares finds the solution of Ax = b. (When the system is overdetermined there is usually no exact solution. Least squares finds the x̂ that makes Ax̂ as close as possible to b.)
+- PageRank scores a page by what it says. (PageRank uses only the link structure between pages, through the dominant eigenvector of the link matrix.)
+
 ## Questions
 
 ```yaml
@@ -43,7 +52,7 @@ Linear algebra models diverse real-world systems: networks via adjacency matrice
   answer: 2
   explanation: "An overdetermined system Ax = b generally has no exact solution because b lies outside the column space of A. The least-squares solution finds x̂ such that Ax̂ is as close as possible to b — meaning Ax̂ is the orthogonal projection of b onto the column space of A. The residual b − Ax̂ is orthogonal to every column of A, which is exactly what the normal equations AᵀAx̂ = Aᵀb capture algebraically. Option A confuses x̂ itself (the parameter vector) with the output Ax̂."
 
-- question: "The dominant eigenvector of the Leslie matrix for a population model gives the stable age distribution that the population converges to over time, regardless of its initial age structure."
+- question: "When a Leslie matrix has one eigenvalue strictly larger in absolute value than all the others, its dominant eigenvector gives the stable age distribution that the population converges to over time, regardless of its initial age structure."
   type: true-false
   answer: true
   explanation: "Any initial population vector can be decomposed as a linear combination of the Leslie matrix's eigenvectors. After repeated multiplication, the component in the direction of the dominant eigenvector (with the largest |λ|) grows faster than all others. Eventually the dominant eigenvector component dominates, so the proportional age distribution converges to it — regardless of starting conditions. The dominant eigenvalue governs the rate at which total population grows or shrinks; the dominant eigenvector governs the shape the population settles into."

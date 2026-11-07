@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 Retarded potentials are exact solutions to inhomogeneous wave equations where φ and A depend on charge and current at retarded time t' = t - |r - r'|/c. This explicitly encodes causality: fields depend on sources at earlier times, with influence propagating at speed c.
 
+## How It's Best Learned
+Work the switched-on wire. An infinite wire carries current I₀ starting at t = 0. At distance s, only segments with |z| < √(c²t² − s²) have reached the field point, which gives A = (μ₀I₀/2π) ln[(ct + √(c²t² − s²))/s] for t > s/c. Differentiate to get E and B, and check that B approaches the static value μ₀I₀/(2πs) at late times.
+
+## Common Misconceptions
+- The fields of time-varying sources are the Coulomb and Biot-Savart formulas with t replaced by t_ret. (Differentiating the retarded potentials produces extra terms involving time derivatives of ρ and J. The naive substitution gives wrong fields.)
+- One retarded time applies to the whole source. (t_ret depends on r′, so different parts of an extended source contribute from different earlier moments.)
+- Retarded potentials hold in every gauge. (These formulas solve the wave equations of the Lorenz (Lorentz) gauge. In the Coulomb gauge φ is the instantaneous Coulomb potential, though E and B remain causal.)
+
 ## Questions
 
 ```yaml

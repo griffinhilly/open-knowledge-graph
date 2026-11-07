@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 History of the body examines how bodily experience, sexuality, health, disease, and material existence are historically contingent. It challenges mind-body dualism by showing how ideas about the body shape social relations (gender, race, disability) and how bodily experience shapes historical consciousness. This includes sensory history: how people heard, smelled, tasted, and felt in particular ways across different periods.
 
+## How It's Best Learned
+Start from one object made for the body, such as a corset, a hospital bed or a set of surgical tools. Ask what the object assumes about the body using it, who made those assumptions, and what written sources would confirm or complicate the reading. Then take one bodily experience, such as pain, and list the ways its meaning could differ between two societies while the injury stays the same.
+
+## Common Misconceptions
+- History of the body claims biology is made up. (The field accepts that bodies break, sicken and age; it studies how the meanings and experiences of those states change across societies.)
+- Culture only changes how people talk about pain, not how they feel it. (Historians of the body argue that cultural frameworks shape the experience itself, such as whether suffering feels redemptive or shameful.)
+- Sensory history is impossible because smells and sounds leave no records. (Senses rarely leave direct traces, but historians reconstruct them from descriptions, complaints, regulations, architecture and objects.)
+- Mind-body dualism is simply how humans have always understood themselves. (It is one philosophical framework, given its classic modern form by Descartes, and other traditions have organized body, mind and person differently.)
+
 ## Questions
 
 ```yaml

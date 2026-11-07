@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 If A is m × n and B is n × p, their product AB is m × p where (AB)_ij = Σ_k a_ik b_kj. Matrix multiplication is associative and distributes over addition but is NOT commutative. It represents function composition for linear transformations. Multiplication is possible only when inner dimensions match.
 
+## How It's Best Learned
+Compute one pair both ways. With A = [[1, 2], [3, 4]] and the swap matrix B = [[0, 1], [1, 0]], AB = [[2, 1], [4, 3]] swaps the columns of A, while BA = [[3, 4], [1, 2]] swaps its rows. Then recompute AB column by column, as A times each column of B, to see the row-column rule and the composition view agree.
+
+## Common Misconceptions
+- To multiply matrices, multiply the matching entries. (That is the entrywise product; the (i, j) entry of AB is the dot product of row i of A with column j of B.)
+- If AB = 0, then A = 0 or B = 0. (For N = [[0, 1], [0, 0]], N·N = 0 even though N is not the zero matrix.)
+- If AB = AC, then B = C. (Cancellation is safe when A is invertible; a singular A can send different matrices B and C to the same product.)
+- (A + B)² = A² + 2AB + B². (Expanding gives A² + AB + BA + B², which matches only when AB = BA.)
+
 ## Questions
 
 ```yaml
@@ -55,7 +64,7 @@ If A is m × n and B is n × p, their product AB is m × p where (AB)_ij = Σ_k 
   answer: false
   explanation: "Matrix multiplication is NOT commutative — even for square matrices of the same size, AB and BA are generally not equal. The geometric reason: applying transformation B then A typically gives a different result than applying A then B. For example, rotating then reflecting a shape is different from reflecting then rotating. This is one of the most important ways matrices differ from ordinary numbers."
 
-- question: "If AB is defined, then BA is expected to also be defined."
+- question: "If AB is defined, then BA is also defined."
   type: true-false
   answer: false
   explanation: "AB is defined when A's column count equals B's row count. If A is m×n and B is n×p, then AB is m×p. For BA to be defined, B's columns (p) must equal A's rows (m) — only guaranteed when m = p. For instance, a 2×3 matrix times a 3×5 matrix is defined (giving 2×5), but the reverse product (3×5)(2×3) requires 5 = 2, which is false — undefined."

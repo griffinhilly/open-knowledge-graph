@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Vectors u and v are orthogonal if ⟨u, v⟩ = 0. An orthonormal set has pairwise orthogonal unit vectors. An orthonormal basis enables simple coordinates: v = Σ⟨v, e_i⟩e_i. Orthonormal bases are numerically stable and reveal structure clearly.
 
+## How It's Best Learned
+Take the rotated basis e₁ = (1, 1)/√2, e₂ = (1, −1)/√2 and v = (3, 1). The inner products are 2√2 and √2, and 2√2·e₁ + √2·e₂ = (2, 2) + (1, −1) = (3, 1). Then try the non-orthogonal basis (1, 0), (1, 1). Its inner products with v are 3 and 4, but the true coordinates, found by solving a system, are 2 and 1.
+
+## Common Misconceptions
+- Every orthogonal set is linearly independent. (This holds when no vector is zero; the zero vector is orthogonal to everything, so {(1, 0), (0, 0)} is orthogonal but dependent.)
+- The standard basis is the only orthonormal basis of ℝⁿ. (Any rotation or reflection of it is also orthonormal, such as (1, 1)/√2 and (1, −1)/√2 in ℝ².)
+- Inner products with the basis vectors give coordinates in any basis. (That shortcut needs an orthonormal basis; for the basis (1, 0), (1, 1), the inner products of (3, 1) are 3 and 4, but its coordinates are 2 and 1.)
+- Orthogonality only makes sense for arrows you can draw. (It is defined by the inner product, so functions can be orthogonal; sin x and cos x are orthogonal under ∫ f g dx over [−π, π].)
+
 ## Questions
 
 ```yaml

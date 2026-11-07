@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The Poynting theorem ∂u/∂t + ∇·S = -J·E expresses conservation of electromagnetic energy: the sum of field energy change, energy flow out, and work done on charges equals zero. This is a fundamental conservation law following from Maxwell's equations.
 
+## How It's Best Learned
+Check the theorem on a cylindrical resistor of radius a and length L carrying current I with voltage V across it. At its surface E = V/L along the axis and B = μ₀I/(2πa) around it, so S = EB/μ₀ = VI/(2πaL), pointing inward. Multiply by the side area 2πaL and you get VI, the Joule heating rate.
+
+## Common Misconceptions
+- In a circuit, energy travels inside the wire, carried by the drifting electrons. (The Poynting vector outside the conductors carries the energy, and it enters the resistor through its side surface.)
+- A nonzero Poynting vector at a point means energy is piling up or draining there. (Static crossed fields, such as a charge beside a magnet, give S ≠ 0 with ∇·S = 0. Local energy change depends on ∇·S, not on S.)
+- J·E is always positive, so fields can only lose energy to charges. (Inside a battery or generator, current runs against E, J·E is negative, and energy flows into the field.)
+- The theorem pins down S uniquely as the local energy flux. (It fixes only ∇·S. Adding the curl of any vector field to S leaves the theorem unchanged, so S = E × B/μ₀ is the standard choice.)
+
 ## Questions
 
 ```yaml

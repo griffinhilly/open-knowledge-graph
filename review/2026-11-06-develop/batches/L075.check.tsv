@@ -1,0 +1,70 @@
+domains/earth-and-space-sciences/geophysics/secondary-magnetization-alteration.md	how	4	0	ok
+domains/earth-and-space-sciences/geophysics/secondary-magnetization-alteration.md	mis	8	0	ok
+domains/earth-and-space-sciences/geophysics/seismic-anisotropy-shear-wave-splitting.md	how	4	0	ok	worked: projection and grid search undo split
+domains/earth-and-space-sciences/geophysics/seismic-anisotropy-shear-wave-splitting.md	mis	8	0	ok
+domains/earth-and-space-sciences/geophysics/seismic-attenuation-quality-factor.md	how	5	0	ok	worked: 0.534, 0.081, slope -0.0628/Hz, Q=100 all check
+domains/earth-and-space-sciences/geophysics/seismic-attenuation-quality-factor.md	mis	8	0	ok
+domains/earth-and-space-sciences/geophysics/seismic-attenuation-quality-factor.md	old:questions	1	1	fixed	q1 explanation said loss per cycle is ~1/Q; changed to 2π/Q to match definition, q2 and new bullet
+domains/earth-and-space-sciences/geophysics/seismic-data-processing-and-filtering.md	how	6	2	fixed	NMO-corrected far-trace times wrong: writer subtracted the moveout computed at t0 instead of solving t0=sqrt(t^2-x^2/v^2); 0.919->0.875 s (1800 m/s), 1.063->1.083 s (2200 m/s); 1.118/1.414 and curvature senses were right
+domains/earth-and-space-sciences/geophysics/seismic-data-processing-and-filtering.md	mis	8	0	ok
+domains/earth-and-space-sciences/geophysics/seismic-interpretation-structural-mapping.md	how	5	0	ok	worked: 2.0 s at 2500/3000 m/s gives 2500/3000 m
+domains/earth-and-space-sciences/geophysics/seismic-interpretation-structural-mapping.md	mis	8	0	ok
+domains/earth-and-space-sciences/geophysics/seismic-migration-techniques.md	how	6	0	ok	worked: radii 1000/1200 m, sin=0.4 gives 23.6°, tan=0.4 gives 21.8°, updip
+domains/earth-and-space-sciences/geophysics/seismic-migration-techniques.md	mis	8	0	ok
+domains/earth-and-space-sciences/geophysics/seismic-migration-techniques.md	old:core	1	1	fixed	Core Idea said time migration assumes constant velocity; it assumes velocity varies with depth but not laterally (as the Explainer says)
+domains/earth-and-space-sciences/geophysics/seismic-moment-and-magnitude.md	how	5	0	ok	worked: 6e18 N·m, +0.20, +1.33, 10^1.5≈32
+domains/earth-and-space-sciences/geophysics/seismic-moment-and-magnitude.md	mis	8	0	ok
+domains/earth-and-space-sciences/geophysics/seismic-moment-and-magnitude.md	old:core	2	2	fixed	Mw constant −10.7 is for dyne·cm but the page uses N·m (6e18 N·m would give Mw 1.8); changed to −6.07 with units; "M0 quantifies total energy released" changed to rupture size
+domains/earth-and-space-sciences/geophysics/seismic-moment-and-magnitude.md	old:explainer	2	2	fixed	same Mw constant fixed (dyne·cm value noted); magnitude-2 event M0 is ~10^12 N·m not 10^9, ratio to Tohoku >10^10 not 10^13
+domains/earth-and-space-sciences/geophysics/seismic-moment-and-magnitude.md	old:q:1	1	1	fixed	keyed answer "equal M0 means equal energy released" is false (radiated energy scales with stress drop × M0); reframed stem/options to ask about Mw, same answer index, new explanation
+domains/earth-and-space-sciences/geophysics/seismic-network-design-and-station-deployment.md	how	5	0	ok	worked: gaps 90° and 270°
+domains/earth-and-space-sciences/geophysics/seismic-network-design-and-station-deployment.md	mis	8	0	ok
+domains/earth-and-space-sciences/geophysics/seismic-network-design-and-station-deployment.md	old:explainer	1	1	fixed	stations all north (gap to south) leave north-south position poorly constrained, not east-west; now matches q0 explanation
+domains/earth-and-space-sciences/geophysics/seismic-ray-theory.md	how	5	0	ok	worked: pv values 0.4/0.6/0.8, 0.6/0.9/1.2, 0.8/1.2
+domains/earth-and-space-sciences/geophysics/seismic-ray-theory.md	mis	8	0	ok
+domains/earth-and-space-sciences/geophysics/seismic-ray-theory.md	old:q:0	1	1	fixed	explanation defined θ from horizontal while p=sinθ/v uses θ from vertical; fixed to "smaller angle θ from the vertical"
+domains/earth-and-space-sciences/geophysics/seismic-ray-theory.md	old:q:1	1	1	fixed	explanation said rays "speed up entering the LVZ"; they slow down
+domains/earth-and-space-sciences/geophysics/seismic-ray-tracing-methods.md	how	5	0	ok	worked: x=1.281 km at p=0.10, 2.129 km at p=0.15
+domains/earth-and-space-sciences/geophysics/seismic-ray-tracing-methods.md	mis	8	0	ok	bullet 1 scoped to smooth gradients; note the How (reflection) shows the opposite trend, which the scope covers
+domains/earth-and-space-sciences/geophysics/seismic-ray-tracing-methods.md	old:core	1	1	fixed	Core Idea had ray bending backwards (toward vertical in fast zones); reversed
+domains/earth-and-space-sciences/geophysics/seismic-ray-tracing-methods.md	old:q:4	1	1	fixed	explanation called diving-wave paths "head-wave-like"; changed to continuously refracted diving waves
+domains/earth-and-space-sciences/geophysics/seismic-reflection-surveys.md	mis	8	0	ok	not fixed: old q1 wording calls under-correction "upward curvature"/"frown" and over-correction a "downward smile", which is confusing though the keyed answer is right
+domains/earth-and-space-sciences/geophysics/seismic-signal-processing.md	how	5	0	ok
+domains/earth-and-space-sciences/geophysics/seismic-signal-processing.md	mis	8	0	ok	Nyquist 125 Hz at 4 ms checks
+domains/earth-and-space-sciences/geophysics/seismic-surface-waves-rayleigh-love.md	how	5	0	ok	worked: 4000 km / 1000 s = 4 km/s
+domains/earth-and-space-sciences/geophysics/seismic-surface-waves-rayleigh-love.md	mis	8	0	ok	not fixed: old Core Idea says surface waves propagate with "minimal attenuation"; dominance is mainly from 2D spreading
+domains/earth-and-space-sciences/geophysics/seismic-tomography-velocity-imaging.md	how	5	0	ok	worked: checkerboard gives zero on all row/column rays, diagonal gives nonzero
+domains/earth-and-space-sciences/geophysics/seismic-tomography-velocity-imaging.md	mis	8	0	ok
+domains/earth-and-space-sciences/geophysics/seismic-tomography-velocity-imaging.md	old:questions	1	1	fixed	two Questions blocks (5 + 5 distinct items) merged into one YAML block of 10; two regularization MC items overlap in topic but are not identical, both kept
+domains/earth-and-space-sciences/geophysics/seismic-tomography-velocity-imaging.md	old:core	1	1	fixed	"ray theory approximates propagation as straight rays" -> "as rays"
+domains/earth-and-space-sciences/geophysics/seismic-tomography-velocity-imaging.md	old:q:3	1	1	fixed	explanation said velocity increases with density; at fixed moduli it decreases; removed density
+domains/earth-and-space-sciences/geophysics/seismic-tomography-velocity-imaging.md	old:explainer	1	1	fixed	CT uses X-ray attenuation, not X-ray travel times
+domains/earth-and-space-sciences/geophysics/seismic-velocity-density-relationships.md	how	5	0	ok	worked: Vp 6.71 km/s at 3000, 6.40 at 3300
+domains/earth-and-space-sciences/geophysics/seismic-velocity-density-relationships.md	mis	6	0	ok
+domains/earth-and-space-sciences/geophysics/seismic-velocity-density-relationships.md	old:questions	2	2	fixed	q1 and q2 explanations listed eclogite as a Vp 7.0 km/s rock; eclogite is ~8 km/s; replaced with amphibolite
+domains/earth-and-space-sciences/geophysics/seismic-velocity-density-relationships.md	old:explainer	1	1	fixed	"Vp = 6.5 km/s could be gabbro, granulite, or eclogite" -> 7.0 km/s, gabbro, mafic granulite, amphibolite
+domains/earth-and-space-sciences/geophysics/seismic-velocity-depth-models.md	how	5	0	ok	worked: 100/6.3 = 15.87 s; 15.87×6.0 = 95.2 km
+domains/earth-and-space-sciences/geophysics/seismic-velocity-depth-models.md	mis	8	1	fixed	CMB bullet gave loss of shear modulus as the sole cause of the P drop; the density jump (5.6 to 9.9 g/cc) contributes about equally; added
+domains/earth-and-space-sciences/geophysics/stress-tensor-inversion-from-earthquakes.md	how	5	0	ok	worked: shear (0.5,0,-0.5)/√3 and (0.4,0.2,-0.6)/√3; isotropic shift and scaling leave direction
+domains/earth-and-space-sciences/geophysics/stress-tensor-inversion-from-earthquakes.md	mis	8	0	ok
+domains/earth-and-space-sciences/geophysics/stress-tensor-inversion-from-earthquakes.md	old:core	1	1	fixed	Core Idea said Michael method assumes optimally oriented planes; it assumes uniform stress and Wallace-Bott slip on faults of any orientation
+domains/earth-and-space-sciences/geophysics/subduction-zone-seismic-structure.md	how	4	0	ok	worked: 100/tan45 = 100 km, 100/tan30 = 173 km
+domains/earth-and-space-sciences/geophysics/subduction-zone-seismic-structure.md	mis	8	0	ok	not fixed: old Explainer cites Tonga as a slab that penetrates deep into the lower mantle; Tonga is often imaged as deflected in the transition zone
+domains/earth-and-space-sciences/geophysics/subduction-zone-structure-and-dynamics.md	how	3	0	ok
+domains/earth-and-space-sciences/geophysics/subduction-zone-structure-and-dynamics.md	mis	8	0	ok	not fixed: old Explainer says Wadati-Benioff zones reach "up to 660 km"; deepest events are near 700 km
+domains/earth-and-space-sciences/geophysics/subduction-zone-thermal-structure.md	how	5	0	ok	worked: L²/κ = 2.5e15 s ≈ 79 Myr; 300 km at 5 cm/yr = 6 Myr; √(κt) ≈ 13.8 km
+domains/earth-and-space-sciences/geophysics/subduction-zone-thermal-structure.md	mis	8	0	ok
+domains/earth-and-space-sciences/geophysics/subduction-zone-thermal-structure.md	old:q:1	1	1	fixed	explanation called the 100–120 km slab depth beneath the arc the "arc-trench gap" (a horizontal distance)
+domains/earth-and-space-sciences/geophysics/synthetic-seismogram-modeling.md	mis	8	0	ok
+domains/earth-and-space-sciences/geophysics/thermal-conductivity-and-rocks.md	how	5	0	ok	worked: 15 and 40 °C/km, 55 °C; harmonic 2.18 gives 55 °C, arithmetic 2.75 gives 43.6 °C
+domains/earth-and-space-sciences/geophysics/thermal-conductivity-and-rocks.md	mis	8	0	ok
+domains/earth-and-space-sciences/geophysics/thermal-conductivity-and-rocks.md	old:core	2	2	fixed	"5–6 W/(m·K) in crystalline basement" (granite/gneiss are ~2.5–3.5; 5–6 is quartzite) and "fluid-filled pores reduce conductivity compared to dry rock" (water-filled pores conduct better than air-filled; q0 says so); both corrected
+domains/earth-and-space-sciences/geophysics/thermal-time-constant.md	how	5	0	ok	worked: 1e12 s ≈ 31,700 yr; 1e14 s ≈ 3.2 Myr; √(κt) 5.6 and 11.2 km
+domains/earth-and-space-sciences/geophysics/thermal-time-constant.md	mis	6	0	ok
+domains/earth-and-space-sciences/geophysics/thermal-time-constant.md	old:q:0	1	1	fixed	d²/κ for 100 km is ~317 Myr, not ~100 Myr; stem and option values rescaled (300/150/75/300/600), same answer index
+domains/earth-and-space-sciences/geophysics/thermal-time-constant.md	old:q:3	3	3	fixed	5 m flow τ ≈ 290 days not "days"; 100 km/5 m = 2×10⁴ not 2×10⁷; squared 4×10⁸ not 4×10¹⁴
+domains/earth-and-space-sciences/geophysics/thermal-time-constant.md	old:explainer	3	3	fixed	1 m flow τ ≈ 12 days not "about a day"; 100 km τ ≈ 300 Myr not ~100 Myr; few-meter intrusion heats for weeks to months, not days to weeks
+domains/earth-and-space-sciences/geophysics/thermobarometry-cooling-history.md	how	4	0	ok	worked: 0.8e9/(2800×9.81) ≈ 29.1 km
+domains/earth-and-space-sciences/geophysics/thermobarometry-cooling-history.md	mis	8	2	fixed	bullet 2 belief overstated (single-mineral thermometers like Zr-in-rutile exist); scoped to garnet-biotite; bullet 4 (clockwise path means the rock rotated) is a strawman, cut; 3 bullets remain
+domains/earth-and-space-sciences/geophysics/thermochronology-and-cooling-ages.md	how	5	0	ok	worked: 10, 6, 6.6 °C/Myr; 10/25 = 0.4 km/Myr
+domains/earth-and-space-sciences/geophysics/thermochronology-and-cooling-ages.md	mis	8	0	ok

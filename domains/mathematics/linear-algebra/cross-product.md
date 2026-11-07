@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 The cross product u × v in R^3 produces a vector perpendicular to both u and v with magnitude ||u|| ||v|| sin(θ). It can be computed using: u × v = (u₂v₃ − u₃v₂, u₃v₁ − u₁v₃, u₁v₂ − u₂v₁). The cross product is anti-commutative and non-associative.
 
+## How It's Best Learned
+Compute u × v for u = (1, 2, 3) and v = (4, 5, 6) with the determinant layout and get (−3, 6, −3). Check perpendicularity by dotting the result with u and with v; both give 0. Then compute v × u and see the sign flip. Act out the right-hand rule with your hand on i and j to confirm i × j = k.
+
+## Common Misconceptions
+- The cross product gives a number, like the dot product. (It gives a vector in R^3. Only its magnitude, ||u|| ||v|| sin(θ), is a number.)
+- If u × v = 0, then u or v must be the zero vector. (Any two parallel vectors have a zero cross product, such as (1, 2, 3) and (2, 4, 6).)
+- You can regroup a chain of cross products freely. ((i × i) × j = 0, but i × (i × j) = i × k = −j, so the grouping changes the result.)
+
 ## Questions
 
 ```yaml
@@ -36,7 +44,7 @@ The cross product u × v in R^3 produces a vector perpendicular to both u and v 
   answer: 2
   explanation: "Applying the component formula: u × v = (u₂v₃ − u₃v₂, u₃v₁ − u₁v₃, u₁v₂ − u₂v₁) = (0·0 − 0·1, 0·0 − 1·0, 1·1 − 0·0) = (0, 0, 1). Geometrically, the cross product of the first and second standard basis vectors is the third — consistent with the right-hand rule."
 
-- question: "The cross product is commutative: u × v = v × u for most vectors u and v in R^3."
+- question: "The cross product is commutative: u × v = v × u for all vectors u and v in R^3."
   type: true-false
   answer: false
   explanation: "The cross product is anti-commutative, meaning v × u = −(u × v). Reversing the order reverses the direction of the resulting vector. This follows from the right-hand rule: curling from v to u points in the opposite direction from curling u to v. This is a fundamental difference from the dot product and from scalar multiplication, both of which are commutative."

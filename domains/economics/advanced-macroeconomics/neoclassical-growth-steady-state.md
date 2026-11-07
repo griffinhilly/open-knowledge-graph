@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 In neoclassical growth, economies converge to a steady state where capital stock is constant and output grows at the exogenous technology rate. Steady-state capital satisfies s·f(k*) = (δ + n + g)k*, where n is population growth and g is productivity growth.
 
+## How It's Best Learned
+Solve one case by hand with f(k) = k^0.5, s = 0.2 and δ + n + g = 0.05: k* = (0.2/0.05)² = 16 and y* = 4. Raise s to 0.3 and k* becomes 36, y* becomes 6. Then sketch log output per worker over time: a straight line of slope g, a faster climb during the transition, and a new line with the same slope at a higher level.
+
+## Common Misconceptions
+- At the steady state, the economy stops growing. (Quantities per effective worker, such as k and y, are constant; total output and capital grow at n + g, and output per worker grows at g.)
+- A higher saving rate raises the long-run growth rate. (It raises the steady-state level of output per worker; growth is faster only during the transition to the new k*.)
+- More saving always means more steady-state consumption. (Steady-state consumption per effective worker peaks at the golden-rule saving rate; saving beyond that lowers it.)
+
 ## Questions
 
 ```yaml
@@ -65,11 +73,7 @@ In neoclassical growth, economies converge to a steady state where capital stock
   type: short-answer
   answer: "Capital accumulation cannot sustain long-run per-capita growth because of diminishing returns: each additional unit of capital adds less output than the previous one. As capital accumulates, the marginal product of capital falls, and eventually the output gained from new investment just offsets depreciation and dilution from population growth — no net addition to k occurs. This is the steady state. Without technological progress (g = 0), per-capita output converges to a fixed level. Technological progress escapes this trap by continuously raising the productivity of each unit of capital and labor, shifting up the production function and allowing output per worker to grow indefinitely at rate g. Capital deepening can lift the level of output but cannot change the growth rate once the economy is near its steady state."
   explanation: "This result is the Solow model's central policy implication and its central controversy: if only technology drives long-run growth, and technology is exogenous, then standard policies affecting savings or investment cannot permanently raise growth rates. Endogenous growth theory, starting with Romer (1990), tried to make technological progress itself a function of investment in R&D and human capital."
-```
 
-## Questions
-
-```yaml
 - question: "Country A permanently raises its savings rate from 20% to 30% of GDP. According to the Solow model, what is the long-run effect on the growth rate of output per worker?"
   type: multiple-choice
   options:
@@ -103,7 +107,7 @@ In neoclassical growth, economies converge to a steady state where capital stock
 - question: "Why does the Solow model predict that only technological progress can sustain long-run growth in output per worker, while a permanently higher savings rate cannot?"
   type: short-answer
   answer: "The answer lies in diminishing returns to capital. As the capital stock per effective worker rises, each additional unit of capital produces less additional output. Eventually, the output gain from new investment exactly equals the break-even investment needed to maintain the capital stock (replacing depreciation and equipping new workers and new-technology-efficiency units). From that point, additional saving cannot raise growth — it only maintains the capital stock at k*. Technological progress, by contrast, shifts the production function upward continuously, meaning each unit of capital at any stock level now produces more output than before. This prevents the marginal product from falling to break-even permanently, sustaining growth in output per worker indefinitely at rate g."
-  explanation: "Students who say 'diminishing returns' without explaining why technological progress escapes them are only halfway there. The key is that technological progress shifts the production function itself — it's not capital deepening but capital-augmenting efficiency growth, which changes the level at which diminishing returns bite."
+  explanation: "Students who say 'diminishing returns' without explaining why technological progress escapes them are only halfway there. The key is that technological progress shifts the production function itself — it's not capital deepening but labor-augmenting efficiency growth, which changes the level at which diminishing returns bite."
 ```
 
 ## Explainer

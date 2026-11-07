@@ -29,6 +29,12 @@ E.P. Thompson's 'The Making of the English Working Class' pioneered social histo
 ## How It's Best Learned
 Read Thompson's methodology sections explaining his approach to sources, then compare how later historians adopted, adapted, or critiqued his methods.
 
+## Common Misconceptions
+- Thompson thought class was purely cultural and had nothing to do with economics. (He accepted a materialist foundation but argued that class consciousness forms through experience, culture and struggle rather than following automatically from economic position.)
+- History from below means sympathetic storytelling about ordinary people. (Thompson treated it as a rigorous method, reading hostile and fragmentary sources against the grain for evidence of agency.)
+- Food rioters were desperate mobs acting without principles. (Thompson's moral economy argument holds that crowds often enforced shared customary norms about fair prices and proper dealing.)
+- Thompson's account covered the whole working class. (Feminist historians pointed out that his working class was implicitly male and left women's labor largely out.)
+
 ## Questions
 
 ```yaml

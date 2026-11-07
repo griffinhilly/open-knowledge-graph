@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Quasi-linear preferences have the form u(x, y) = v(x) + y, where x is a divisible good and y is numeraire (money). Income effects vanish for good x: the marginal rate of substitution depends only on x, not income. This makes quasi-linear preferences analytically tractable and natural for auction and mechanism design, as the planner can use cash transfers to manipulate welfare without distorting the allocation of x.
 
+## How It's Best Learned
+Take v(x) = 2√x and price p = 1/2. The condition v'(x) = 1/√x = p gives x = 4, so with income 10 or 20 the consumer buys 4 units and spends the rest on y. Then compute consumer surplus, v(4) − 2 = 2. Check that compensating and equivalent variation for losing access to the good both equal 2 as well.
+
+## Common Misconceptions
+- Quasi-linear utility is linear in both goods. (Only the numeraire y enters linearly. The function v(x) is usually concave, so indifference curves are curved.)
+- With no income effect, a price change does not move demand for x. (The substitution effect remains. Demand comes from v'(x) = p, so it falls as the price rises, and Marshallian and Hicksian demand for x coincide.)
+- Under quasi-linearity, cash transfers do not affect anyone's welfare. (Each dollar changes utility one for one. What transfers leave untouched is the surplus-maximizing allocation of x.)
+
 ## Questions
 
 ```yaml

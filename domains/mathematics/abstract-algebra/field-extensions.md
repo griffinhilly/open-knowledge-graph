@@ -29,6 +29,14 @@ status: validated
 ## Core Idea
 A field extension K/F is a pair of fields with F ⊆ K. K is a vector space over F, and its dimension is the degree [K : F]. The multiplicative property holds: [K : F] = [K : E][E : F] for intermediate fields E.
 
+## How It's Best Learned
+Multiply bases to see why the tower law holds. Q(√2) has basis {1, √2} over Q, and Q(√2, √3) has basis {1, √3} over Q(√2). The four products 1, √2, √3 and √6 form a basis of Q(√2, √3) over Q. Then use degrees to settle membership: √2 is not in Q(∛2), because Q(√2) ⊆ Q(∛2) would force 2 to divide 3.
+
+## Common Misconceptions
+- K/F is a quotient, like G/H for groups. (Here the slash only names the pair of fields F ⊆ K. Nothing is divided out.)
+- The degree counts how many elements were adjoined. (Q(∛2) adjoins one element and has degree 3. Q(√2, √3) adjoins two elements and has degree 4.)
+- An extension of one infinite field by another has infinite degree. (Some do: [R : Q] is infinite. But [C : R] = 2, with basis {1, i}.)
+
 ## Questions
 
 ```yaml

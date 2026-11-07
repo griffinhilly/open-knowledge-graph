@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 The profit function π(p, w) gives maximum profit as a function of prices and is homogeneous of degree 1 and convex in (p, w). Hotelling's lemma states that the derivative of profit with respect to a price gives the optimal supply (or factor demand with negative sign): ∂π/∂p = output supply, ∂π/∂w = -factor demand. The profit function unifies output and input decisions, embodying the duality principle.
 
+## How It's Best Learned
+Derive π(p, w) = p²/(4w) for y = x^(1/2), and check Hotelling's lemma on it. Then test convexity with numbers. Set w = 1 and let p be 1 or 3 with equal chance. Profit is 0.25 or 2.25, averaging 1.25, while profit at the average price of 2 is only 1. The gap shows why the firm gains from being able to adjust.
+
+## Common Misconceptions
+- Price volatility always hurts a profit-maximizing firm. (When the firm can adjust its plan after seeing prices, convexity of π means expected profit is at least the profit at the average price.)
+- The derivative of profit with respect to an input price is the input demand. (Hotelling's lemma gives the negative of input demand, since a higher input price lowers profit.)
+- Doubling all prices doubles the firm's output. (Profit doubles, but relative prices are unchanged, so the optimal output and inputs stay the same.)
+- Convexity of π in prices is an assumption about technology. (It follows from π being a maximum of functions that are linear in prices, with no extra assumption on technology.)
+
 ## Questions
 
 ```yaml

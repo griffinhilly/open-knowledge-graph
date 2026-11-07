@@ -1,0 +1,66 @@
+domains/economics/advanced-microeconomics/incentive-compatibility-constraints.md	how	5	0	ok	Worked: IR holds, high type gets 4 from A, t_B=16 restores IC, rent 4 = (10-6)x1.
+domains/economics/advanced-microeconomics/incentive-compatibility-constraints.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/incentive-compatibility.md	how	4	0	ok	Worked: pay-your-report invites overstatement; second-lowest-report payment has no profitable lie.
+domains/economics/advanced-microeconomics/incentive-compatibility.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/individual-rationality-mechanism.md	how	4	0	ok	Worked: ex ante 1, interim -2 for low type, price 4 leaves high type 6.
+domains/economics/advanced-microeconomics/individual-rationality-mechanism.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/information-asymmetry.md	how	3	0	ok
+domains/economics/advanced-microeconomics/information-asymmetry.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/information-asymmetry.md	old:q:0:explanation	1	1	fixed	Called deductibles "screening tools" for moral hazard (screening addresses adverse selection); now says they mitigate moral hazard by leaving the insured part of each loss.
+domains/economics/advanced-microeconomics/insurance-markets-and-selection.md	how	4	0	ok	Worked: fair premiums 10/40, pooled 25 at 50/50.
+domains/economics/advanced-microeconomics/insurance-markets-and-selection.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/integrability-revealed-preference.md	how	4	0	ok	Worked: both Slutsky cross terms = a(1-a)m/(p1p2); e = K(u)p1^a p2^(1-a).
+domains/economics/advanced-microeconomics/integrability-revealed-preference.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/labor-market-signaling.md	how	4	0	ok	Worked: low out iff e*>=1, high in iff e*<=2.
+domains/economics/advanced-microeconomics/labor-market-signaling.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/labor-market-signaling.md	old:ex	1	1	fixed	Explainer called signaling education a "screening device", contradicting the new misconception that separates signaling from screening; changed to "sorting device".
+domains/economics/advanced-microeconomics/lemons-market.md	how	5	0	ok	Worked: avg quality p/2, buyers pay 0.75p; with 3q all cars trade at p=1 (any p in [1,1.5] works).
+domains/economics/advanced-microeconomics/lemons-market.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/market-for-lemons-unraveling.md	how	4	0	ok	Worked: 6+6s >= 10 iff s >= 2/3.
+domains/economics/advanced-microeconomics/market-for-lemons-unraveling.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/mechanism-design-basics.md	how	4	0	ok
+domains/economics/advanced-microeconomics/mechanism-design-basics.md	mis	6	0	ok
+domains/economics/advanced-microeconomics/mechanism-design-basics.md	old:q:3:explanation	1	1	fixed	Attributed the efficiency/IR/budget-balance impossibility to Gibbard-Satterthwaite (a voting result); now Myerson-Satterthwaite for bilateral trade.
+domains/economics/advanced-microeconomics/mechanism-design-basics.md	old:q:0	2	2	fixed	Option B (ascending auction) also has a weakly dominant drop-out-at-value strategy, so the key was ambiguous; replaced with Dutch auction. Explanation said truth-telling "individually rational"; now "a dominant strategy".
+domains/economics/advanced-microeconomics/mixed-strategies-probability.md	how	4	0	ok	Worked: P2 indifference gives p=1/2; 3q = 1-q gives q=1/4.
+domains/economics/advanced-microeconomics/mixed-strategies-probability.md	mis	6	0	ok
+domains/economics/advanced-microeconomics/mixed-strategy-equilibrium.md	how	4	1	fixed	p* = 10/(10+F) checks, but the final step asked for q* from the inspector's indifference with no inspector payoffs given, so it could not be worked. Added audit cost 2 and gain 8, giving q* = 1/4 independent of F (consistent with misconception 1).
+domains/economics/advanced-microeconomics/mixed-strategy-equilibrium.md	mis	6	0	ok
+domains/economics/advanced-microeconomics/moral-hazard.md	mis	8	1	fixed	Informativeness principle stated without its qualifier: a signal helps only if informative about effort beyond the outcome already used. Added "beyond what the main outcome already shows". Note: old q:2 explanation says the optimal contract "always" has pay-for-performance (false when low effort is optimal to implement); left as is.
+domains/economics/advanced-microeconomics/nash-equilibrium-refinements.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/nash-refinements-and-trembling-hand.md	how	4	0	ok	Worked: tremble to L gives U = eps > 0 = D.
+domains/economics/advanced-microeconomics/nash-refinements-and-trembling-hand.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/nash-refinements-and-trembling-hand.md	old:q:0	2	2	fixed	Keyed option and explanation said Firm A's tremble makes B enter; for small eps B still stays out. The failure comes from B trembling into Enter, which makes Fight strictly worse for A. Rewrote option B and that explanation sentence.
+domains/economics/advanced-microeconomics/pareto-efficiency-and-optimality.md	how	5	0	ok	Worked: contract curve y=x; MRS 1/4 and 4; (5,5) gives 25 each.
+domains/economics/advanced-microeconomics/pareto-efficiency-and-optimality.md	mis	6	1	fixed	"The equilibrium is the one point the endowments lead to" ignores multiple equilibria; now "the point, or points".
+domains/economics/advanced-microeconomics/perfect-bayesian-equilibrium.md	how	4	0	ok	Worked: separating 1.5>1 and 1>0.5; pooling wage 1.5 with MBA->L deters both.
+domains/economics/advanced-microeconomics/perfect-bayesian-equilibrium.md	mis	6	0	ok
+domains/economics/advanced-microeconomics/pooling-separating-equilibrium.md	how	4	0	ok
+domains/economics/advanced-microeconomics/pooling-separating-equilibrium.md	mis	6	0	ok
+domains/economics/advanced-microeconomics/principal-agent-contracting.md	how	5	0	ok	Worked: rent q_L^2/4, FOCs give q_H=2, q_L=2/3; rent 1/9.
+domains/economics/advanced-microeconomics/principal-agent-contracting.md	mis	6	0	ok
+domains/economics/advanced-microeconomics/product-differentiation.md	how	4	0	ok	Worked: x = (p2-p1+t)/(2t); FOC gives p = c+t.
+domains/economics/advanced-microeconomics/product-differentiation.md	mis	8	1	fixed	Vertical-differentiation correction stated absolutely that the low-quality product keeps low-WTP buyers; in some models (narrow taste dispersion) it is driven out. Now "can keep".
+domains/economics/advanced-microeconomics/prospect-theory.md	how	3	0	ok	Worked: X > 200; with convex losses 0.5*1000^b < 500^b for b<1.
+domains/economics/advanced-microeconomics/prospect-theory.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/quasi-linear-preferences.md	how	4	0	ok	Worked: x=4, CS = 4-2 = 2 = CV = EV.
+domains/economics/advanced-microeconomics/quasi-linear-preferences.md	mis	6	0	ok
+domains/economics/advanced-microeconomics/repeated-games-and-trigger-strategies.md	how	4	0	ok	Worked: delta >= 1/2; two-period punishment gives delta^2+delta >= 1, delta >= 0.618.
+domains/economics/advanced-microeconomics/repeated-games-and-trigger-strategies.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/repeated-games-and-trigger-strategies.md	old:core	1	1	fixed	Core Idea stated the Folk Theorem bound as "maximin"; the explainer and questions use minmax, which is correct. Changed to minmax.
+domains/economics/advanced-microeconomics/revealed-preference-axioms.md	how	4	0	ok	Worked: costs 6<7 and 5<9, WARP fails.
+domains/economics/advanced-microeconomics/revealed-preference-axioms.md	mis	8	1	fixed	"Stable preferences cannot produce the reversal" drops the qualifier: an indifferent consumer with multiple best bundles can. Added "with a single best bundle in each budget".
+domains/economics/advanced-microeconomics/revealed-preference-theory.md	how	4	0	ok
+domains/economics/advanced-microeconomics/revealed-preference-theory.md	mis	6	0	ok
+domains/economics/advanced-microeconomics/revelation-principle-mechanisms.md	how	4	0	ok	Worked: payoff r(v - r/2) peaks at r = v.
+domains/economics/advanced-microeconomics/revelation-principle-mechanisms.md	mis	8	0	ok	Note: old q:2 explanation says the principle applies to "all equilibrium concepts"; overstated, left as is.
+domains/economics/advanced-microeconomics/screening-and-self-selection.md	how	5	0	ok	Worked: 500/200 fails (business keeps 100 on restricted); cap 400; with restricted value 250 cap 450.
+domains/economics/advanced-microeconomics/screening-and-self-selection.md	mis	6	0	ok
+domains/economics/advanced-microeconomics/screening-and-self-selection.md	old:q:4:answer	1	1	fixed	Said pooling eliminates the high type's rent; a pooled contract the low type accepts still gives the high type rent. Only shutting out the low type does. Fixed.
+domains/economics/advanced-microeconomics/screening-contracts.md	how	5	0	ok	Worked: t_L=q_L, t_H=2q_H-q_L; q_H=2, q_L=1/2; equal shares give q_L=0.
+domains/economics/advanced-microeconomics/screening-contracts.md	mis	6	0	ok
+domains/economics/advanced-microeconomics/screening-contracts.md	old:ex	1	1	fixed	Explainer said high-risk generosity prevents low-risk types mimicking high-risk; direction reversed. Fixed.
+domains/economics/advanced-microeconomics/screening-contracts.md	old:q:4:explanation	1	1	fixed	Same pooling-eliminates-rent error as screening-and-self-selection; now "shut the low type out", matching the new misconception.
+domains/economics/advanced-microeconomics/second-price-auction.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/second-welfare-theorem.md	how	5	0	ok	Worked: MRS 1, A spends 4 -> (2,2), B spends 16 -> (8,8), markets clear.
+domains/economics/advanced-microeconomics/second-welfare-theorem.md	mis	8	0	ok

@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 DNA sequences diverge as substitutions accumulate; the number of differences between sequences increases approximately linearly with time under neutral evolution. However, multiple substitutions at the same site and unequal substitution rates among sites require statistical corrections (like Kimura's distance) to accurately estimate evolutionary time. Sequence divergence is the foundation for molecular phylogenetics and dating.
 
+## How It's Best Learned
+Fill in a short table with the Jukes-Cantor formula d = −(3/4) ln(1 − 4p/3). At p = 0.10, d is about 0.107; at p = 0.30, about 0.383; at p = 0.60, about 1.21. The correction is tiny for close relatives and doubles the estimate for distant ones. Then simulate multiple hits: write a 20-site sequence, change random sites with a die over several rounds, and compare true changes with visible differences.
+
+## Common Misconceptions
+- The proportion of differing sites equals the number of substitutions that happened. (Multiple hits and reversals hide some changes, so the raw proportion undercounts, and the gap grows with distance.)
+- A distance between two species counts the changes in one lineage. (It counts changes along both branches since the common ancestor. Time since the split is the distance divided by twice the per-lineage rate.)
+- A corrected distance is exact once you apply the formula. (It is only as good as the model's assumptions. Near saturation, a small error in p produces a large error in d.)
+
 ## Questions
 
 ```yaml
@@ -54,7 +62,7 @@ DNA sequences diverge as substitutions accumulate; the number of differences bet
 
 - question: "Explain why the same nucleotide position can appear identical in two distantly related species even though two substitutions have occurred at that site since their common ancestor."
   type: short-answer
-  answer: "If the ancestral state at a site is A, and one lineage substitutes A→G independently in both lineages, both modern sequences show G at that site — they look identical, but two substitutions have occurred (one in each lineage). Alternatively, in one lineage a site might change A→G and then later G→A (a back mutation), again appearing identical to the unchanged other lineage despite two events. In both cases, the site contributes zero to the p-distance count, even though it accumulated two substitutions. This is the 'multiple hits' problem, and it causes p-distance to systematically underestimate the true number of substitutions."
+  answer: "If the ancestral state at a site is A, and A→G occurs independently in both lineages, both modern sequences show G at that site — they look identical, but two substitutions have occurred (one in each lineage). Alternatively, in one lineage a site might change A→G and then later G→A (a back mutation), again appearing identical to the unchanged other lineage despite two events. In both cases, the site contributes zero to the p-distance count, even though it accumulated two substitutions. This is the 'multiple hits' problem, and it causes p-distance to systematically underestimate the true number of substitutions."
   explanation: "The problem worsens with evolutionary distance because the probability of multiple events at the same site increases with time. For closely related sequences it is negligible, but for ancient divergences it can be severe, which is why increasingly complex substitution models — Jukes-Cantor, Kimura, GTR — are necessary for accurate evolutionary inference across deep time."
 ```
 

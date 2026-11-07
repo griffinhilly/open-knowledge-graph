@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 The Riesz-Fischer theorem states that L^p is complete: every Cauchy sequence in L^p converges to an L^p function. This makes L^p a Banach space and is essential for spectral theory and harmonic analysis.
 
+## How It's Best Learned
+Write the proof as four checkable steps. (1) Pick n₁ < n₂ < ⋯ with ‖f_{n_{k+1}} − f_{n_k}‖_p ≤ 2⁻ᵏ. (2) Let g_K = Σ_{k<K} |f_{n_{k+1}} − f_{n_k}|. Minkowski gives ‖g_K‖_p ≤ 1, and monotone convergence gives ‖g‖_p ≤ 1 for the limit g, so g < ∞ a.e. (3) The telescoping series then converges a.e. to some f. (4) Fatou gives ‖f − f_{n_k}‖_p ≤ liminf_j ‖f_{n_j} − f_{n_k}‖_p, which tends to 0.
+
+## Common Misconceptions
+- Any subsequence whose gaps shrink to 0 would serve. (The gaps must be summable. With gaps of size 1/k, the bound on ‖g_K‖_p grows without limit and step (2) fails.)
+- The a.e. limit f is automatically in L^p. (That needs an argument. Fatou gives ∫|f|^p ≤ liminf ∫|f_{n_k}|^p, which is finite because Cauchy sequences are bounded.)
+- Completeness is special to L², where the inner product helps. (The proof uses only Minkowski and the convergence theorems, so it works for every 1 ≤ p < ∞. L^∞ is also complete, by a separate argument.)
+
 ## Questions
 
 ```yaml
@@ -45,7 +53,7 @@ The Riesz-Fischer theorem states that L^p is complete: every Cauchy sequence in 
   answer: 2
   explanation: "A Cauchy sequence only guarantees that gaps between terms become small — not that they are summable. By extracting a subsequence where ‖f_{n_{k+1}} − f_{n_k}‖_p ≤ 2^{−k}, the total variation ∑2^{−k} = 1 is finite. Minkowski's inequality then controls the partial sums, and the monotone convergence theorem shows the telescoping series converges both a.e. and in L^p norm. Without this extraction, the a.e. convergence argument does not go through and you cannot construct the candidate limit function."
 
-- question: "Nearly every normed vector space is complete, so proving the Minkowski inequality for L^p is sufficient to establish that L^p is a Banach space."
+- question: "Every normed vector space is complete, so proving the Minkowski inequality for L^p is sufficient to establish that L^p is a Banach space."
   type: true-false
   answer: false
   explanation: "False — being a normed vector space does not imply completeness. The rationals ℚ with the absolute value form a normed vector space, yet ℚ is not complete: a sequence of rational approximations to √2 is Cauchy but has no limit in ℚ. Completeness is an additional property that must be proved separately. The Minkowski inequality establishes L^p is a normed space; the Riesz-Fischer theorem is the separate work required to prove completeness."
@@ -67,6 +75,6 @@ From the Minkowski inequality you know that ‖f + g‖_p ≤ ‖f‖_p + ‖g�
 
 The proof strategy is illuminating. Given a Cauchy sequence {fₙ}, you extract a rapidly converging subsequence where ‖fₙₖ₊₁ − fₙₖ‖_p ≤ 2⁻ᵏ. You then construct the candidate limit by summing these incremental differences: f = f₁ + Σ(fₙₖ₊₁ − fₙₖ). Minkowski's inequality controls the partial sums, letting you apply the monotone convergence theorem to show the series converges a.e. and that the limit is in Lᵖ. The key step uses the fact that absolutely convergent series in Lᵖ are convergent — a direct consequence of the norm structure plus Minkowski.
 
-The theorem has a subtle but essential technicality: Lᵖ functions are equivalence classes of functions, where two functions are identified if they differ on a set of measure zero. This is not a pedantic point — it is *required* for completeness. Without quotienting out null sets, a constant sequence fₙ = 1_ℚ (the indicator of the rationals) would converge to something outside the space. The quotient construction ensures the space is actually complete.
+The theorem has a subtle but essential technicality: Lᵖ functions are equivalence classes of functions, where two functions are identified if they differ on a set of measure zero. This is not a pedantic point — it is *required* for ‖·‖_p to be a norm. Without quotienting out null sets, 1_ℚ (the indicator of the rationals) has norm 0 without being the zero function, and a Cauchy sequence would have many limits. The quotient construction makes limits unique.
 
 Why does this matter? Completeness is the prerequisite for virtually all of functional analysis. Fixed-point theorems, spectral theory, and variational methods require convergent sequences to stay within the space you are working in. Harmonic analysis in particular relies on Lᵖ completeness: the Fourier series of an L² function converges in the L² norm to that function — a result that requires knowing L² is complete. The Riesz-Fischer theorem is thus not an isolated result but the foundation on which Lᵖ analysis is built.

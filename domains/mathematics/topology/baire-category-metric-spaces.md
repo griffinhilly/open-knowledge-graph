@@ -18,6 +18,15 @@ status: validated
 ## Core Idea
 The Baire category theorem: a complete metric space is not a countable union of nowhere-dense sets. Equivalently, every countable intersection of dense open sets is dense. This means complete metric spaces are 'large' topologically. Applications include the open mapping theorem, uniform boundedness principle, and proving existence of continuous nowhere-differentiable functions.
 
+## How It's Best Learned
+First sort examples in ℝ into a table with two columns, dense or not and meager or not: ℤ, ℚ, the irrationals, the Cantor set, and an open interval. Then draw the proof as a picture: a sequence of nested closed balls, each chosen to miss the next nowhere-dense set, shrinking to a single point. Last, try the same construction in ℚ and see where the limit point goes missing.
+
+## Common Misconceptions
+- A dense set must be large in the Baire sense. (ℚ is dense in ℝ yet meager, since it is a countable union of nowhere-dense singletons.)
+- Nowhere dense just means the set has empty interior. (The closure must have empty interior. ℚ has empty interior in ℝ, but its closure is ℝ, so ℚ is not nowhere dense.)
+- Meager sets have measure zero, and measure-zero sets are meager. (The two notions of smallness are independent. ℝ splits into a meager set and a set of Lebesgue measure zero.)
+- The theorem says the countable intersection of dense open sets is merely nonempty. (It says the intersection is dense, which is a stronger statement.)
+
 ## Questions
 
 ```yaml
@@ -54,7 +63,7 @@ The Baire category theorem: a complete metric space is not a countable union of 
 - question: "Why does the Baire Category Theorem require completeness, and what breaks down in an incomplete metric space?"
   type: short-answer
   answer: "The proof constructs a Cauchy sequence by choosing nested closed balls, each shrinking in radius and each avoiding the next nowhere-dense set Fₙ. Completeness guarantees this Cauchy sequence converges to a limit point — and that limit point avoids every Fₙ, providing the contradiction. Without completeness, the Cauchy sequence might not converge in the space, and the contradiction fails. The rationals ℚ confirm this is necessary: ℚ is not complete, and ℚ is a countable union of singletons (each nowhere dense), which would violate the Baire conclusion — showing completeness cannot be dropped."
-  explanation: "The key step 'the Cauchy sequence converges' is exactly where completeness enters. This is not a technicality — it is the heart of the proof. The theorem is false for incomplete spaces, so the condition is necessary, not just sufficient. Understanding this also shows why the theorem is a result about complete metric spaces specifically, not about arbitrary metric or topological spaces."
+  explanation: "The key step 'the Cauchy sequence converges' is exactly where completeness enters. This is not a technicality — it is the heart of the proof. The theorem can fail for incomplete spaces, as ℚ shows, so the hypothesis cannot simply be dropped. Understanding this also shows why the theorem is a result about complete metric spaces specifically, not about arbitrary metric or topological spaces."
 ```
 
 ## Explainer

@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Magnetic sources are modeled as dipoles whose anomalies depend on magnetization direction, moment, and position. 3D forward modeling of magnetic blocks and inversions recover source location and moment from observed anomalies.
 
+## How It's Best Learned
+Forward-model one buried dipole along a north-south profile at inclinations of 90°, 45° and 0°. Mark where the positive and negative lobes fall relative to the source each time. Then double the depth. The dipole anomaly scales as 1/z³ times a shape in x/z, so the peak drops to one eighth and the anomaly becomes twice as wide.
+
+## Common Misconceptions
+- The anomaly peak sits right above the source wherever the survey is done. (That holds only where the field and magnetization are vertical. At other inclinations the lobes shift, so the peak can be offset from the body.)
+- A body's magnetization points along Earth's present field. (Rocks can carry remanent magnetization in another direction. Assuming induced magnetization alone can misplace the source and spoil reduction to the pole.)
+- Magnetic anomalies weaken with depth at the same rate as gravity anomalies. (A dipole field falls off as 1/r³ while a point mass falls off as 1/r², so magnetic anomalies fade faster as sources get deeper.)
+
 ## Questions
 
 ```yaml
@@ -48,7 +56,7 @@ Magnetic sources are modeled as dipoles whose anomalies depend on magnetization 
 - question: "A deeper buried magnetic source produces a narrower, higher-amplitude anomaly at the surface compared to a shallower source of identical magnetization and volume."
   type: true-false
   answer: false
-  explanation: "The opposite is true. Anomaly width at the surface increases with source depth because magnetic field strength decreases as the square of distance, and the geometric spreading of the field lines widens the anomaly footprint. A shallow source produces a narrow, sharp, high-amplitude anomaly; a deep source produces a broad, low-amplitude anomaly. This inverse relationship between anomaly width and source depth is one of the primary tools for estimating burial depth from surface magnetic data."
+  explanation: "The opposite is true. Anomaly width at the surface increases with source depth because a dipole's field strength decreases as the cube of distance, and the geometric spreading of the field lines widens the anomaly footprint. A shallow source produces a narrow, sharp, high-amplitude anomaly; a deep source produces a broad, low-amplitude anomaly. This inverse relationship between anomaly width and source depth is one of the primary tools for estimating burial depth from surface magnetic data."
 
 - question: "Unlike gravity anomalies, a magnetic anomaly from a single compact buried source necessarily has both positive and negative lobes."
   type: true-false

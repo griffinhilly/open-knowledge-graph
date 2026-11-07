@@ -18,6 +18,15 @@ status: validated
 ## Core Idea
 In insurance markets, individuals know their risk type better than insurers. High-risk individuals demand more insurance, but pooled pricing (average risk) is unattractive to low-risk customers, who exit. The remaining pool becomes riskier, forcing higher premiums, driving out more low-risk customers—market unraveling. Insurers use screening (deductible menus) to separate types and stabilize the market.
 
+## How It's Best Learned
+Use the explainer's drivers with a loss of 100. Fair premiums are 10 for safe types and 40 for risky types, and the pooled fair premium is 25. Recompute the break-even premium after safe drivers leave, and watch it climb toward 40. Then draw both types' indifference curves in coverage-premium space to see why a partial-coverage contract keeps risky drivers out.
+
+## Common Misconceptions
+- Under pooled pricing, the high-risk customers subsidize the low-risk ones. (It runs the other way. Low-risk customers pay more than their fair premium, which is why they are the ones who leave.)
+- Screening hurts the risky types most. (In the Rothschild-Stiglitz separating outcome, risky types get full coverage at their fair premium. The cost of separation falls on safe types, who get only partial coverage.)
+- A competitive market can always settle on the separating menu. (In the Rothschild-Stiglitz model, if safe types are a large enough share, an insurer can profitably break the separating pair with a pooling offer, and no equilibrium may exist.)
+- A mandate makes every customer better off. (A mandate stops the spiral, but safe types may then pay more than their fair premium and can be worse off than if they could opt out.)
+
 ## Questions
 
 ```yaml

@@ -1,0 +1,83 @@
+domains/physics/electrodynamics/ampere-maxwell-law.md	how	3	0	ok
+domains/physics/electrodynamics/ampere-maxwell-law.md	mis	8	0	ok
+domains/physics/electrodynamics/birefringence-and-dichroism.md	how	4	0	ok
+domains/physics/electrodynamics/birefringence-and-dichroism.md	mis	8	1	fixed	QWP bullet said every non-45° input gives elliptical light; input along either axis passes unchanged. Added that case.
+domains/physics/electrodynamics/boundary-value-problem-types.md	how	3	0	ok
+domains/physics/electrodynamics/boundary-value-problem-types.md	mis	8	0	ok
+domains/physics/electrodynamics/boundary-value-problem-types.md	old:q:0:explanation	1	1	fixed	Said the additive-constant ambiguity "is physical", contradicting the rest of the file; now "has no physical consequence".
+domains/physics/electrodynamics/boundary-value-problems-electrostatics.md	how	3	0	ok
+domains/physics/electrodynamics/boundary-value-problems-electrostatics.md	mis	8	0	ok
+domains/physics/electrodynamics/boundary-value-problems-em.md	how	3	0	ok
+domains/physics/electrodynamics/boundary-value-problems-em.md	mis	8	1	fixed	"At least one factor grows or decays exponentially" ignored the all-zero case (linear solutions); added "unless all are zero".
+domains/physics/electrodynamics/cavity-resonator-quality-factor.md	how	4	0	ok
+domains/physics/electrodynamics/cavity-resonator-quality-factor.md	mis	8	1	fixed	Cut bullet "higher-Q cavity stores more energy for the same input": at resonance it does (U = QP/ω₀), so the belief is not false. 3 bullets remain.
+domains/physics/electrodynamics/cavity-resonator-solutions.md	how	3	0	ok
+domains/physics/electrodynamics/cavity-resonator-solutions.md	mis	8	0	ok
+domains/physics/electrodynamics/cavity-resonator-solutions.md	old:core	1	1	fixed	"TM modes have all three field components while TE have zero Ez or Hz" garbled; now TM has Hz = 0, TE has Ez = 0.
+domains/physics/electrodynamics/cavity-resonator-solutions.md	old:q:2:explanation	1	1	fixed	Said the lowest mode needs only a half-wave along the longest axis; it needs the two longest. Matches new misconception bullet.
+domains/physics/electrodynamics/cavity-resonator-solutions.md	old:ex	1	1	fixed	"Lowest frequency set by the largest dimension" changed to "two largest dimensions".
+domains/physics/electrodynamics/cavity-resonators.md	how	4	0	ok
+domains/physics/electrodynamics/cavity-resonators.md	mis	8	1	fixed	"At cutoff the guide wavelength cannot fit" is false for TM modes with p = 0; scoped it to TE₁₀ and the guide's lowest cutoff.
+domains/physics/electrodynamics/cavity-resonators.md	old:q:1:explanation	1	1	fixed	Q formula missing 2π factor (energy lost per cycle).
+domains/physics/electrodynamics/cavity-resonators.md	old:ex	1	1	fixed	Same missing 2π, and "power dissipated per cycle" corrected to energy.
+domains/physics/electrodynamics/cherenkov-radiation.md	how	4	0	ok
+domains/physics/electrodynamics/cherenkov-radiation.md	mis	8	0	ok
+domains/physics/electrodynamics/cherenkov-radiation.md	old:ex	1	1	fixed	"θ_c opens toward 90°" contradicted the next sentence (max is arccos(1/n)); removed "toward 90°".
+domains/physics/electrodynamics/cherenkov-radiation.md	old:q:2:question	1	1	fixed	Garbled stem "can primarily be emitted" restored to "can only be emitted".
+domains/physics/electrodynamics/circular-waveguide-propagation.md	how	5	1	fixed	"Plot J₁ and J₁′ beside each row" fails for the TM₀₁ row (uses J₀); now "the relevant J_n or J_n′".
+domains/physics/electrodynamics/circular-waveguide-propagation.md	mis	8	0	ok
+domains/physics/electrodynamics/circular-waveguide-propagation.md	old:core	1	1	fixed	Nonsense cutoff formula jₙₘ = (λc/2πa)(ωc/ω) replaced with f_c = c·x/(2πa).
+domains/physics/electrodynamics/classical-electron-radius.md	how	4	0	ok
+domains/physics/electrodynamics/classical-electron-radius.md	mis	6	0	ok
+domains/physics/electrodynamics/classical-electron-radius.md	old:q:1	2	2	fixed	Stem and explanation called Thomson scattering a quantum result; it is classical, reproduced by QED at low energy.
+domains/physics/electrodynamics/conductivity-complex-dielectric.md	how	4	0	ok
+domains/physics/electrodynamics/conductivity-complex-dielectric.md	mis	8	0	ok
+domains/physics/electrodynamics/conductivity-complex-dielectric.md	old:q:2:question	1	1	fixed	Garbled stem "is expected to have" restored to "must have".
+domains/physics/electrodynamics/conductivity-complex-dielectric.md	old:q:3:question	1	1	fixed	Garbled stem "that is expected to each be measured" restored to "that must each be measured".
+domains/physics/electrodynamics/conformal-mapping-electrostatics.md	how	4	0	ok
+domains/physics/electrodynamics/conformal-mapping-electrostatics.md	mis	8	1	fixed	"Only analytic maps, and only in 2D" overstated: anti-analytic maps also work, and 3D rigid motions and scalings keep Laplace's equation. Reworded.
+domains/physics/electrodynamics/conformal-mapping-electrostatics.md	old:format	1	1	fixed	Questions came after Explainer; moved Questions block before Explainer, content unchanged.
+domains/physics/electrodynamics/coulomb-gauge.md	how	3	0	ok
+domains/physics/electrodynamics/coulomb-gauge.md	mis	8	0	ok
+domains/physics/electrodynamics/cylindrical-harmonics-em.md	how	4	0	ok
+domains/physics/electrodynamics/cylindrical-harmonics-em.md	mis	8	0	ok
+domains/physics/electrodynamics/cylindrical-harmonics-em.md	old:core	1	1	fixed	"Bessel functions of integer and half-integer order" (half-integer belongs to spherical problems) conflicted with the new integer-order bullet; now "integer order when the domain spans the full circle".
+domains/physics/electrodynamics/dielectric-susceptibility-permittivity.md	mis	8	1	fixed	"D follows from free charge alone only when symmetry fixes its direction" too absolute (also true whenever curl P = 0); softened to "mainly".
+domains/physics/electrodynamics/dispersion-relations-em-waves.md	how	4	0	ok
+domains/physics/electrodynamics/dispersion-relations-em-waves.md	mis	8	0	ok
+domains/physics/electrodynamics/dispersion-relations-em-waves.md	old:q:0	2	2	fixed	Answer option and explanation blamed pulse spreading on differing phase velocities; it is group-velocity dispersion (matches the new bullet). Changed to group velocities.
+domains/physics/electrodynamics/dispersion-relations-em-waves.md	old:q:3:explanation	1	1	fixed	Said group velocity is always ≤ c; it can exceed c in anomalous dispersion. Now says the signal front never outruns c.
+domains/physics/electrodynamics/dispersion-relations.md	how	4	0	ok
+domains/physics/electrodynamics/dispersion-relations.md	mis	8	0	ok
+domains/physics/electrodynamics/drude-model-conductivity.md	mis	8	0	ok
+domains/physics/electrodynamics/electric-dipole-radiation.md	how	4	0	ok
+domains/physics/electrodynamics/electric-dipole-radiation.md	mis	8	0	ok
+domains/physics/electrodynamics/electric-flux-and-gauss-law.md	how	3	0	ok
+domains/physics/electrodynamics/electric-flux-and-gauss-law.md	mis	6	0	ok
+domains/physics/electrodynamics/electromagnetic-angular-momentum-radiation.md	how	4	0	ok
+domains/physics/electrodynamics/electromagnetic-angular-momentum-radiation.md	mis	6	0	ok
+domains/physics/electrodynamics/electromagnetic-angular-momentum-radiation.md	old:core	1	1	fixed	Density written l = ε₀(E × B)/c² (missing r ×, spurious 1/c²); now l = ε₀ r × (E × B).
+domains/physics/electrodynamics/electromagnetic-angular-momentum-radiation.md	old:ex	2	2	fixed	Spurious /c² in l = r × g; "carries Lℓ per photon" corrected to ℓℏ.
+domains/physics/electrodynamics/electromagnetic-field-tensor.md	how	4	0	ok
+domains/physics/electrodynamics/electromagnetic-field-tensor.md	mis	8	0	ok
+domains/physics/electrodynamics/electromagnetic-field-tensor.md	old:q:4:question	1	1	fixed	Stem claimed relative magnitudes and angles of E and B are frame-independent; only relations like E² > c²B² or E ⟂ B are. Reworded.
+domains/physics/electrodynamics/electromagnetic-field-tensor.md	old:ex	1	1	fixed	"The angle between E and B is a relativistic invariant" is false; now "whether E and B are perpendicular is the same in every frame".
+domains/physics/electrodynamics/electromagnetic-wave-equation.md	how	3	1	fixed	Exercise attributed k = ω/c to Faraday's law; Faraday gives B = (kE₀/ω)cos(...), and Ampère-Maxwell fixes k = ω/c.
+domains/physics/electrodynamics/electromagnetic-wave-equation.md	mis	6	0	ok
+domains/physics/electrodynamics/electromagnetic-wave-equation.md	old:q:2	2	1	fixed	Garbled stem ("this match was already measured from astronomical observations") restored; explanation credited Rømer with good accuracy; now Rømer estimate plus Fizeau and Foucault lab measurements.
+domains/physics/electrodynamics/electromagnetic-wave-polarization.md	how	3	1	fixed	Formula "N extra polarizers in steps of 90°/N pass (I₀/2)cos^(2N)(90°/N)" gives 0 for the three-polarizer case; N must count steps, not inserted polarizers. Reworded.
+domains/physics/electrodynamics/electromagnetic-wave-polarization.md	mis	8	0	ok
+domains/physics/electrodynamics/electromagnetic-wave-polarization.md	old:q:3:question	1	1	fixed	Garbled stem "in most directions" restored to "in all directions".
+domains/physics/electrodynamics/electromagnetic-waves-in-dielectrics.md	how	4	0	ok
+domains/physics/electrodynamics/electromagnetic-waves-in-dielectrics.md	mis	8	0	ok
+domains/physics/electrodynamics/electromagnetic-waves-in-media.md	how	4	0	ok
+domains/physics/electrodynamics/electromagnetic-waves-in-media.md	mis	8	0	ok
+domains/physics/electrodynamics/em-angular-momentum-density.md	how	3	0	ok
+domains/physics/electrodynamics/em-angular-momentum-density.md	mis	8	0	ok
+domains/physics/electrodynamics/em-angular-momentum-density.md	old:q:2:question	1	1	fixed	Garbled stem "hardly anything ... is rotating" restored to "nothing ... is rotating".
+domains/physics/electrodynamics/em-angular-momentum-density.md	old:q:3:question	1	1	fixed	Garbled stem "requires that primarily" restored to "requires only that".
+domains/physics/electrodynamics/em-field-energy-conservation.md	how	4	0	ok
+domains/physics/electrodynamics/em-field-energy-conservation.md	mis	6	0	ok
+domains/physics/electrodynamics/em-field-momentum-density.md	how	4	0	ok
+domains/physics/electrodynamics/em-field-momentum-density.md	mis	6	0	ok
+domains/physics/electrodynamics/em-field-momentum-density.md	old:core	2	2	fixed	g written (ε₀/c²)(E × B), and pressure "equal to energy density divided by c²"; now g = ε₀(E × B), g = u/c, pressure on absorber = u.

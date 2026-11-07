@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 A left coset of subgroup H in group G is a set of the form aH = {ah : h ∈ H}. Cosets partition G into equal-sized disjoint subsets. Lagrange's theorem states that the order of H divides the order of G, and [G : H] = |G| / |H| is the index of H in G.
 
+## How It's Best Learned
+Draw ℤ₁₂ as a clock face and color the cosets of H = {0, 4, 8}. You get four blocks: {0, 4, 8}, {1, 5, 9}, {2, 6, 10} and {3, 7, 11}, so [ℤ₁₂ : H] = 4 = 12/3. Check that a + H = b + H exactly when a − b ∈ H. Then repeat with 3ℤ inside ℤ, where both groups are infinite but the index is 3.
+
+## Common Misconceptions
+- Different representatives give different cosets. (aH = bH exactly when b⁻¹a ∈ H. In ℤ₁₂ with H = {0, 4, 8}, 1 + H and 5 + H are the same coset.)
+- Index only makes sense for finite groups. (The index counts cosets, and that count can be finite when both groups are infinite. The subgroup 3ℤ has index 3 in ℤ.)
+- Lagrange's theorem guarantees that a group of order 15 has subgroups of order 3 and 5. (Lagrange only rules orders out. That those subgroups exist follows from Cauchy's theorem, a separate result.)
+
 ## Questions
 
 ```yaml

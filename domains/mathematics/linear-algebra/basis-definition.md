@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 A basis of a vector space V is a linearly independent spanning set. Every vector in V has a unique representation as a linear combination of basis vectors. A space with a finite basis has dimension equal to the number of basis vectors. Different bases have equal size.
 
+## How It's Best Learned
+Test candidate sets against both conditions separately, using a two-column check: "spans?" and "independent?". Try {(1,0),(0,1),(1,1)}, {(1,2)}, {(1,2),(2,4)}, and {(1,1),(1,−1)} in ℝ². For the one that passes both, solve for the coefficients of (2,3) and confirm there is exactly one answer: (5/2, −1/2).
+
+## Common Misconceptions
+- A basis is any set that spans the space. (A spanning set can contain redundant vectors. A basis must also be linearly independent, so each vector has one representation.)
+- Basis vectors must be perpendicular or have length 1. (Any linearly independent spanning set is a basis. Orthonormal bases are a convenient special case.)
+- The coordinates of a vector are fixed numbers that belong to the vector. (Coordinates depend on the chosen basis. The same vector has different coordinates in different bases.)
+
 ## Questions
 
 ```yaml
@@ -69,7 +77,7 @@ A basis of a vector space V is a linearly independent spanning set. Every vector
 
 Your two prerequisites give you the two halves of the basis definition. A **spanning set** is a set of vectors from which you can reach every vector in the space by taking linear combinations — it's big enough to cover everything. A **linearly independent** set is one in which no vector is redundant — none can be written as a combination of the others. A **basis** is a set that is both at once: big enough to span, lean enough to be independent. It is the "just right" set — neither too small nor too large.
 
-Why does independence matter if you already have a spanning set? Suppose you span ℝ² with three vectors: (1,0), (0,1), and (1,1). You can reach every point in the plane, but (1,1) is redundant — it's already the sum of the first two. That redundancy has a cost: the representation of any vector as a linear combination is no longer unique. The vector (2,3) could be written as 2(1,0) + 3(0,1) + 0(1,1), or as 1(1,0) + 3(0,1) + 1(1,1) − something, or infinitely many ways. A basis eliminates this ambiguity: with a basis, every vector has **exactly one** representation as a linear combination of basis vectors.
+Why does independence matter if you already have a spanning set? Suppose you span ℝ² with three vectors: (1,0), (0,1), and (1,1). You can reach every point in the plane, but (1,1) is redundant — it's already the sum of the first two. That redundancy has a cost: the representation of any vector as a linear combination is no longer unique. The vector (2,3) could be written as 2(1,0) + 3(0,1) + 0(1,1), or as 1(1,0) + 2(0,1) + 1(1,1), or in infinitely many other ways. A basis eliminates this ambiguity: with a basis, every vector has **exactly one** representation as a linear combination of basis vectors.
 
 The standard example in ℝ³ is the **standard basis**: e₁ = (1,0,0), e₂ = (0,1,0), e₃ = (0,0,1). These three vectors are clearly independent (none is a combination of the others) and clearly span ℝ³ (any (a,b,c) = ae₁ + be₂ + ce₃). The coefficients (a,b,c) are simply the coordinates — a fact that feels obvious here but generalizes powerfully to abstract vector spaces where "coordinates" only make sense relative to a chosen basis.
 

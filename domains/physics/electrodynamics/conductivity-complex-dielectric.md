@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The complex permittivity ε(ω) = ε'(ω) + iε''(ω) encodes both oscillatory response and dissipation. The imaginary part ε''(ω) directly relates to conductivity and absorption coefficient through Kramers-Kronig relations.
 
+## How It's Best Learned
+Substitute the Drude form σ(ω) = σ₀/(1 − iωτ) into ε = ε₀ + iσ/ω and work two limits. For ωτ ≪ 1 the imaginary part σ₀/ω dominates, the good-conductor case. For ωτ ≫ 1 the conductivity is nearly imaginary and gives ε′ ≈ ε₀(1 − ω_p²/ω²), with ω_p² = σ₀/(ε₀τ). The sign of ε′ then tells you reflection versus transmission.
+
+## Common Misconceptions
+- A negative real permittivity is unphysical. (For free electrons below the plasma frequency ε′ is negative. The wave vector is then imaginary, so the wave is evanescent and mostly reflected.)
+- A large ε″ means the material absorbs most of the light that hits it. (A large ε″ often gives a short skin depth and high reflectance. Most of the light never enters the material.)
+- Conductivity and permittivity are separate properties that a metal needs both of. (At nonzero frequency the free-current and bound-charge responses can be merged into one complex ε(ω) or one complex σ(ω). The split is bookkeeping.)
+- The decay length 1/Im(k) is how far the intensity travels before falling by e. (It is the amplitude decay length. Intensity falls twice as fast, so the absorption coefficient is 2 Im(k).)
+
 ## Questions
 
 ```yaml
@@ -46,12 +55,12 @@ The complex permittivity ε(ω) = ε'(ω) + iε''(ω) encodes both oscillatory r
   answer: 1
   explanation: "ε''(ω) describes the out-of-phase, dissipative component of the medium's response to the driving field — the part that converts electromagnetic energy into heat. A large ε'' means strong absorption per cycle and rapid attenuation of the wave (short skin depth). ε'(ω) (the real part) describes the in-phase, reactive response — energy stored and returned per cycle — which governs the phase velocity and refractive index."
 
-- question: "A material transparent in the visible range (ε'' ≈ 0 at visible frequencies) is expected to have a structurally featureless real permittivity ε'(ω) at those same frequencies, since there is no local absorption to drive any dispersion."
+- question: "A material transparent in the visible range (ε'' ≈ 0 at visible frequencies) must have a structurally featureless real permittivity ε'(ω) at those same frequencies, since there is no local absorption to drive any dispersion."
   type: true-false
   answer: false
   explanation: "The Kramers-Kronig relations guarantee the opposite: absorption features (peaks in ε'') at other frequencies — in the UV or IR — produce dispersive features in ε' at those frequencies, and the integral over all frequencies determines ε' everywhere, including in the transparent window. A material can be transparent at visible frequencies while having absorption bands elsewhere that, through Kramers-Kronig, create detectable structure in ε' even in the transparent region."
 
-- question: "The real and imaginary parts of the complex permittivity ε(ω) are independent functions that is expected to each be measured separately to fully characterize a material's electromagnetic response."
+- question: "The real and imaginary parts of the complex permittivity ε(ω) are independent functions that must each be measured separately to fully characterize a material's electromagnetic response."
   type: true-false
   answer: false
   explanation: "The Kramers-Kronig relations, derived from causality, relate ε'(ω) and ε''(ω) by a Hilbert transform pair. Knowing ε'' across all frequencies determines ε', and vice versa. This is why measuring absorption over a broad spectral range is sufficient to reconstruct the full complex permittivity. The interdependence is not an approximation — it is an exact consequence of the requirement that effects follow causes."

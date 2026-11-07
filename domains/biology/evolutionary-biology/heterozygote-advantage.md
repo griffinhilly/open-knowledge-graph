@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Heterozygotes possess higher fitness than both homozygotes, maintaining genetic polymorphism at stable intermediate allele frequencies. Classic example: sickle-cell trait confers malaria resistance without severe anemia cost in heterozygotes.
 
+## How It's Best Learned
+Use fitnesses 0.8 for HbA/HbA, 1 for the heterozygote and 0.2 for HbS/HbS. Compute each allele's average fitness from the chance it pairs with each partner: HbS earns p(1) + q(0.2), HbA earns p(0.8) + q(1). At q = 0.05, HbS wins (0.96 vs 0.81); at q = 0.5, HbA wins (0.6 vs 0.9). At q = 0.2 they tie at 0.84, matching s/(s + t).
+
+## Common Misconceptions
+- Heterozygote advantage means the healthy allele is dominant. (Dominance describes how a phenotype is expressed; overdominance means the heterozygote's fitness exceeds both homozygotes, which neither allele achieves alone.)
+- The sickle-cell allele is favored everywhere because it protects against malaria. (The advantage depends on malaria being present; where malaria is absent, HbS lowers fitness and selection acts against it.)
+- At equilibrium the two alleles must be at 50% each. (The equilibrium HbS frequency is s/(s + t), so a severe homozygote cost holds the allele at a low frequency.)
+- Overdominance makes the population fitter by maintaining variation. (Each generation, Mendelian segregation produces some low-fitness homozygotes, so a population at this equilibrium carries a steady fitness cost.)
+
 ## Questions
 
 ```yaml

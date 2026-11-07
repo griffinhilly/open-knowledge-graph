@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 When interest rates hit zero, conventional monetary policy loses traction because the central bank cannot make lending less attractive (negative rates face practical limits). The zero lower bound creates a constraint on demand stimulus and can trap the economy in a low-inflation or deflationary equilibrium. This limitation motivates unconventional policies and makes expectations management crucial—agents must believe inflation will recover, since the central bank cannot easily deliver more stimulus through rate cuts.
 
+## How It's Best Learned
+Compare two plans after a shock pushes the needed real rate to −2% for four quarters. Under discretion, the bank holds the rate at zero and returns to normal as soon as the shock ends. Under commitment, it promises to keep the rate at zero for several quarters longer and let inflation overshoot. Then ask whether, once the shock ends, the bank would still want to keep that promise. The answer shows why credibility is the hard part.
+
+## Common Misconceptions
+- Forward guidance works by promising low rates during the slump. (Rates are already at zero then; the lever is a promise of lower rates after the slump ends, which raises expected inflation and future income now.)
+- At zero rates, creating more money must raise inflation. (Money and short-term bonds become close substitutes, so extra money can simply be held; what moves inflation is expectations about future policy.)
+- A productivity improvement can only help output during a liquidity trap. (In New Keynesian models at the bound, a positive supply shock can lower expected inflation and raise real rates, which reduces demand in the short run.)
+
 ## Questions
 
 ```yaml

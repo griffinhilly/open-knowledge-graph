@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 Disruptive (or diversifying) selection favors phenotypic extremes while selecting against intermediates, creating a bimodal distribution. This mechanism can maintain multiple distinct phenotypes and is thought to drive sympatric speciation when coupled with reproductive isolation.
 
+## How It's Best Learned
+Take five beak classes (1 to 5) with counts 10, 20, 40, 20, 10 and apply survival rates of 1.0, 0.6, 0.2, 0.6 and 1.0. The survivors are 10, 12, 8, 12 and 10: the mean stays at 3, the variance rises from 1.2 to 2.0, and the middle class becomes a dip. Then pair a class-1 bird with a class-5 bird and ask what beak sizes their offspring will have.
+
+## Common Misconceptions
+- Disruptive selection by itself splits a population into two species. (If the extremes mate with each other, their offspring include intermediates again. Splitting also needs reproductive isolation, such as assortative mating.)
+- A two-peaked trait distribution proves disruptive selection is acting. (Bimodality can also come from a single gene of large effect, a mix of two populations, or differences between the sexes. Fitness must be shown to be lower in intermediates.)
+- Disruptive selection pushes the mean toward one end. (It can leave the mean unchanged. Its main effect is to increase variance by favoring both tails.)
+
 ## Questions
 
 ```yaml

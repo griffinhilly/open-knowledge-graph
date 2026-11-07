@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 For Galois extension F/K, there is a bijection between intermediate fields E (K ⊆ E ⊆ F) and subgroups H of Gal(F/K), given by H ↔ F^H (the fixed field). Subgroups are normal iff corresponding fields are Galois extensions. The correspondence reverses inclusion.
 
+## How It's Best Learned
+Work the splitting field of x³ − 2 over ℚ, which is F = ℚ(∛2, ω) with Gal(F/ℚ) ≅ S₃. Match the three subgroups of order 2 with the degree-3 fields ℚ(∛2), ℚ(ω∛2) and ℚ(ω²∛2), and match A₃ with ℚ(ω). Then check the normality clause: A₃ is normal and ℚ(ω)/ℚ is Galois, while the order-2 subgroups are not normal and ℚ(∛2)/ℚ is not Galois.
+
+## Common Misconceptions
+- In F/K, F is the smaller field. (The notation F/K means F is an extension of K. Here K is the base field, and texts differ in which letters they use.)
+- The subgroup matched with E has order [E:K]. (It has order [F:E], and [E:K] is its index. ℚ(ω) has degree 2 over ℚ and is matched with A₃, which has order 3.)
+- Isomorphic intermediate fields are matched with the same subgroup. (ℚ(∛2) and ℚ(ω∛2) are isomorphic as fields but are different subfields of F. They are matched with different, conjugate subgroups.)
+
 ## Questions
 
 ```yaml

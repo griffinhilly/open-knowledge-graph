@@ -19,6 +19,15 @@ status: validated
 ## Core Idea
 Parsimony phylogenetics selects the tree requiring the fewest evolutionary steps (mutations) to explain sequence differences. While simple and computationally fast, parsimony can be misled by homoplasy and unequal substitution rates. It remains useful for morphological data and as a null hypothesis for phylogenetic inference.
 
+## How It's Best Learned
+Score three sites by hand on the three unrooted trees for taxa A, B, C and D. Two sites read G G T T and one reads G T G T. Tree AB|CD needs 1 + 1 + 2 = 4 changes, AC|BD needs 5, and AD|BC needs 6. Then add a site where only one taxon differs and see that it adds 1 to every tree.
+
+## Common Misconceptions
+- Every variable site helps choose between trees. (A site where only one taxon differs costs one change on every tree, so it carries no information under parsimony.)
+- Parsimony makes no assumptions about evolution. (It specifies no model, but it works well only when repeated changes at the same site are rare and is misled when they are common.)
+- Adding more sequence data will fix long branch attraction. (When branch lengths fall in the problem zone, more data makes parsimony more confident in the wrong tree.)
+- There is always a single most parsimonious tree. (Several trees can tie for the lowest score, and analyses often summarize them with a consensus tree.)
+
 ## Questions
 
 ```yaml

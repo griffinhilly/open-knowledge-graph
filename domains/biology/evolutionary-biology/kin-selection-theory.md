@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Kin selection explains the evolution of altruistic behaviors toward relatives by recognizing that genes promoting helpfulness to kin can spread if the relatedness is high enough. Inclusive fitness extends the concept of reproductive success beyond one's own offspring to include contributions to relatives' offspring.
 
+## How It's Best Learned
+Draw a small family pedigree and compute r by path counting. Each parent-offspring link halves the chance of sharing an allele, and each shared ancestor adds a path. Full siblings give 2 × (1/2)² = 0.5, half siblings (1/2)² = 0.25, and first cousins 2 × (1/2)⁴ = 0.125. Then use these values in rB > C for an alarm call.
+
+## Common Misconceptions
+- Kin selection means animals help their group or species. (Selection favors helping in proportion to relatedness between actor and recipient; helping unrelated group members is not explained by kin selection.)
+- Animals have to recognize their relatives to show kin-selected behavior. (Simple rules such as helping those who share your nest or burrow can work when neighbors tend to be kin.)
+- Kin selection predicts that organisms help relatives whenever they can. (Helping is favored only when rB exceeds C, so costly help toward distant kin is not predicted.)
+- Kin selection is a separate force that competes with natural selection. (It is natural selection acting on genes whose effects reach copies of themselves in relatives.)
+
 ## Questions
 
 ```yaml
@@ -50,7 +59,7 @@ Kin selection explains the evolution of altruistic behaviors toward relatives by
 - question: "Kin selection requires that organisms consciously recognize and calculate their genetic relatedness to potential recipients before deciding whether to help."
   type: true-false
   answer: false
-  explanation: "Kin selection operates through natural selection on genes — no cognitive calculation is required. Selection simply favors genes that produce helping behavior in contexts where relatives are statistically likely to be nearby. A ground squirrel doesn't calculate r; it just has inherited tendencies that correlate with directing alarm calls toward relatives (often because relatives live nearby). The Explainer explicitly states: 'Kin selection does not require organisms to consciously recognize and calculate their relatedness — selection simply favors genes that produce helping behavior in contexts where relatives are statistically likely to be nearby.'"
+  explanation: "Kin selection operates through natural selection on genes — no cognitive calculation is required. Selection simply favors genes that produce helping behavior in contexts where relatives are statistically likely to be nearby. A ground squirrel doesn't calculate r; it just has inherited tendencies that correlate with directing alarm calls toward relatives (often because relatives live nearby)."
 
 - question: "According to Hamilton's rule, an altruistic act that is too costly to evolve between distant relatives might still be favored by selection between close relatives."
   type: true-false

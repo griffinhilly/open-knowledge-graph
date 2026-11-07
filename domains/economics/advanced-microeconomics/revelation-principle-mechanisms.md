@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The revelation principle states that any allocation implementable by some mechanism can be implemented by a direct mechanism where agents truthfully report their private information. Direct mechanisms simplify analysis by focusing on truth-telling equilibria rather than complex indirect mechanisms, dramatically reducing mechanism design complexity.
 
+## How It's Best Learned
+Take a first-price auction with two bidders whose values are uniform on [0, 1], where the equilibrium bid is v/2. Build the direct version: each bidder reports a value, and the highest report wins and pays half of it. A bidder with value v who reports r, facing a truthful rival, earns r(v − r/2), which peaks at r = v. That is the construction in miniature.
+
+## Common Misconceptions
+- The revelation principle means bidders in the original mechanism tell the truth. (In the first-price auction, bidders shade to v/2. Truth-telling holds only in the constructed direct mechanism.)
+- The direct mechanism turns any equilibrium into a dominant-strategy one. (It keeps the solution concept. A Bayes-Nash equilibrium of the original gives a Bayesian incentive-compatible direct mechanism, as in the auction above, where truth is best only if the rival is truthful.)
+- Truth-telling is the only equilibrium of the direct mechanism. (It is one equilibrium. The direct mechanism can have others, so the principle concerns implementing an outcome in some equilibrium.)
+- The principle holds whatever the designer can commit to. (The construction assumes the designer applies the announced rule after seeing the reports. If the designer can change course after learning types, truthful reports may stop being optimal.)
+
 ## Questions
 
 ```yaml

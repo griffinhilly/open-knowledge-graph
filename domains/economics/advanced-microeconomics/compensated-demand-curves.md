@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Compensated (Hicksian) demand curves show the quantity demanded as price varies while holding utility constant, unlike ordinary Marshallian demand which allows income effects. The compensated demand curve is always negatively sloped due to the substitution effect and forms the foundation of duality theory in consumer economics.
 
+## How It's Best Learned
+Use u = x^(1/2) y^(1/2). Marshallian demand is x = m/(2p_x), with own-price elasticity −1. Hicksian demand is h_x = u(p_y/p_x)^(1/2), with elasticity −1/2. Plot both curves through the same starting bundle. The Hicksian curve is steeper, and the gap between them is the income effect of a normal good.
+
+## Common Misconceptions
+- Compensated demand holds income constant. (Marshallian demand holds income constant. Compensated demand holds utility constant and lets income adjust.)
+- A Giffen good has an upward-sloping Hicksian curve too. (Giffen behavior comes from the income effect. The Hicksian curve shows only the substitution effect, which is non-positive.)
+- The compensation in Hicksian demand is a real payment to consumers. (It is a hypothetical adjustment used to separate the substitution effect from the income effect.)
+- Marshallian consumer surplus is the exact welfare change from a price change. (It approximates the welfare change. The exact measures, compensating and equivalent variation, are areas under Hicksian curves.)
+
 ## Questions
 
 ```yaml

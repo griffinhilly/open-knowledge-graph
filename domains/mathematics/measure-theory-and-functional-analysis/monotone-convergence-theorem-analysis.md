@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 If 0 ≤ fₙ ≤ f_{n+1} pointwise for all n and fₙ → f, then ∫fₙ dμ → ∫f dμ. This is the most fundamental convergence theorem for the Lebesgue integral, allowing us to interchange limit and integral under monotonicity.
 
+## How It's Best Learned
+Use truncations to compute an improper integral. Take f(x) = x^(−1/2) on (0, 1] and fₙ = min(f, n). Then ∫fₙ = n · (1/n²) + (2 − 2/n) = 2 − 1/n, which increases to 2, so MCT gives ∫f = 2. Next, break each hypothesis in turn with χ_[n,n+1] (not monotone) and −χ_[n,∞) (not non-negative).
+
+## Common Misconceptions
+- Any non-negative sequence that converges pointwise lets you swap limit and integral. (Without monotonicity this fails: χ_[n,n+1] converges to 0 pointwise, yet each integral equals 1.)
+- The theorem is useful only when the limit integral is finite. (Both sides may equal +∞, and the theorem still asserts they are equal.)
+- Non-negativity is a technical convenience that could be dropped. (For fₙ = −χ_[n,∞) the sequence increases to 0, but every integral is −∞. A version holds if f₁ is bounded below by an integrable function.)
+- Monotonicity must hold at every single point. (It is enough for 0 ≤ fₙ ≤ fₙ₊₁ and fₙ → f to hold almost everywhere, since null sets do not affect integrals.)
+
 ## Questions
 
 ```yaml
@@ -34,7 +43,7 @@ If 0 ≤ fₙ ≤ f_{n+1} pointwise for all n and fₙ → f, then ∫fₙ dμ �
     - "The limit function f = 0 is not measurable, so MCT cannot be applied"
     - "The MCT only applies on finite measure spaces, and [0,1] must be extended to ℝ"
   answer: 1
-  explanation: "The MCT requires 0 ≤ f₁ ≤ f₂ ≤ ... monotone pointwise. For this sequence, at x = 1/4: f₁(1/4)=1, f₂(1/4)=2, f₃(1/4)=3, f₄(1/4)=4, f₅(1/4)=0 — the sequence is NOT non-decreasing at every point. In fact ∫fₙ dλ = 1 for all n, so ∫fₙ dλ does not converge to 0. This is the classic counterexample showing why monotonicity is indispensable."
+  explanation: "The MCT requires 0 ≤ f₁ ≤ f₂ ≤ ... monotone pointwise. For this sequence, at x = 1/4: f₁(1/4)=1, f₂(1/4)=2, f₃(1/4)=3, f₄(1/4)=0 — the sequence is NOT non-decreasing at every point. In fact ∫fₙ dλ = 1 for all n, so ∫fₙ dλ does not converge to 0. This is the classic counterexample showing why monotonicity is indispensable."
 
 - question: "The Lebesgue integral of a non-negative measurable function f is defined as ∫f dμ = lim ∫sₙ dμ, where sₙ ↑ f is an increasing sequence of simple functions approximating f from below. Why is the MCT essential to this definition?"
   type: multiple-choice

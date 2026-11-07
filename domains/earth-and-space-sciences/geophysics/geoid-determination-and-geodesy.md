@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 The geoid is the equipotential surface of Earth's gravity field coinciding with mean sea level; it deviates from an ideal ellipsoid by up to ±100 m due to density variations in crust and mantle. Geoid undulations reflect the response to isostatic and dynamic processes: positive undulations occur over dense subducting slabs, and negative undulations over hot buoyant mantle plumes. Satellite missions like GRACE measure the geoid with high precision, constraining subsurface mass anomalies and time-varying mass transport.
 
+## How It's Best Learned
+Draw the three surfaces on one sketch: the smooth ellipsoid, the undulating geoid and the ground. Label h, N and H, then check H = h − N with a negative undulation: h = 120 m and N = −30 m give H = 150 m. Then sketch equipotential lines around a buried dense body and note how they bulge outward above it.
+
+## Common Misconceptions
+- Gravity has the same strength everywhere on the geoid. (The potential is constant along the geoid, but the strength of gravity varies along it and is larger at the poles than at the equator.)
+- The geoid is exactly the surface of the ocean. (The mean sea surface departs from the geoid by up to roughly a metre because of currents, winds and water density differences.)
+- The geoid's highs and lows follow the mountains and ocean basins. (Isostatically compensated topography produces only a small geoid signal, and the largest undulations come from density variations deep in the mantle.)
+
 ## Questions
 
 ```yaml

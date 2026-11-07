@@ -30,6 +30,15 @@ status: validated
 ## Core Idea
 Consumer duality states that utility maximization (fixing income, maximizing utility) and expenditure minimization (fixing utility, minimizing spending) yield the same optimal bundle. Marshallian demand and indirect utility come from the utility problem; Hicksian demand and expenditure function come from the expenditure problem. Shephard's lemma and Roy's identity connect these dual approaches.
 
+## How It's Best Learned
+Go around the full duality loop with u = xy. Marshallian demand is x = m/(2p_x), so V = m²/(4p_x p_y). Invert V for m to get e = 2(u p_x p_y)^(1/2). Apply Shephard's lemma to e and Roy's identity to V, and check that e(p, V(p, m)) = m. Each step can be confirmed by hand.
+
+## Common Misconceptions
+- Utility maximization and expenditure minimization pick different bundles. (When the utility target equals the maximized utility at income m, both problems choose the same bundle and spend m.)
+- Hicksian demand depends on income. (Hicksian demand is a function of prices and a utility level. Income enters only after you substitute u = V(p, m).)
+- Roy's identity is the derivative of indirect utility with respect to price. (Roy's identity divides that derivative by the marginal utility of income and flips the sign. The raw derivative is not demand.)
+- The expenditure function and indirect utility function hold different information. (Each one is the inverse of the other in its utility or income argument, so either recovers the other.)
+
 ## Questions
 
 ```yaml

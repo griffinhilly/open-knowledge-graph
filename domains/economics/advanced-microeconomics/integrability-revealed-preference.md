@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Integrability theory determines when demand functions can be recovered from underlying preferences through integration. The Slutsky matrix must be symmetric and negative semidefinite for consistency with utility-maximizing behavior. This connects observable demand to unobservable preferences through mathematical constraints.
 
+## How It's Best Learned
+Start from Cobb-Douglas demand x₁ = am/p₁ and x₂ = (1−a)m/p₂. Compute s_ij = ∂x_i/∂p_j + x_j·∂x_i/∂m and confirm both cross terms equal a(1−a)m/(p₁p₂). Then integrate back: solve ∂e/∂p₁ = ae/p₁ and ∂e/∂p₂ = (1−a)e/p₂ to get e = K(u)·p₁^a·p₂^(1−a). That traces the full recovery for one known case.
+
+## Common Misconceptions
+- The uncompensated cross-price effects ∂x_i/∂p_j must be symmetric. (Symmetry applies to compensated effects. Marshallian cross effects generally differ because each includes a different income effect.)
+- Negative semidefiniteness means every Slutsky entry is zero or negative. (Only the diagonal entries must be nonpositive. Off-diagonal entries are positive for substitutes.)
+- Integrability recovers one exact utility function. (It recovers the preference ordering. Any increasing transformation of the recovered utility represents the same preferences.)
+- Checking the Slutsky conditions at one observed price point is enough. (The conditions must hold at every price and income in the domain for the integration to go through.)
+
 ## Questions
 
 ```yaml

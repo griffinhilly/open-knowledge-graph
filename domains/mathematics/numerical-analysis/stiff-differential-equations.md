@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Stiff ODEs have widely separated eigenvalues; fast modes force explicit methods to use tiny steps for stability, though slow modes change slowly. Implicit methods have larger stability regions, allowing larger steps. Stiffness is problem-dependent and characterized by the ratio of largest to smallest eigenvalue magnitudes times the integration interval length.
 
+## How It's Best Learned
+Start with y' = −50y, y(0) = 1, and step size h = 0.1 by hand. Forward Euler multiplies by (1 − 5) = −4 each step and gives 1, −4, 16, −64. Backward Euler divides by (1 + 5) = 6 and gives 1, 1/6, 1/36. Then sketch both stability regions in the complex hλ-plane and mark hλ = −5 on each.
+
+## Common Misconceptions
+- A stiff equation is one whose solution changes very fast. (Stiffness is a stability problem. A fast mode that has already decayed still limits an explicit method's step size while the solution itself stays smooth.)
+- An A-stable method gives an accurate answer at any step size. (A-stability only keeps the numerical solution from blowing up on stable test problems. Accuracy still depends on h and on the method's order.)
+- Every A-stable method damps the fast components quickly. (The trapezoidal rule is A-stable, but its amplification factor tends to −1 as hλ goes to −∞, so stiff components can oscillate and decay slowly. Backward Euler damps them strongly, a property called L-stability.)
+- Implicit methods are the better choice for every ODE. (On non-stiff problems the cost of solving an algebraic system at each step usually outweighs the benefit, and explicit methods are cheaper.)
+
 ## Questions
 
 ```yaml

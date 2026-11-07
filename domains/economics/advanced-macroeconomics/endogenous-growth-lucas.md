@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 Lucas's model makes growth endogenous through human capital accumulation. Agents allocate time between work and education; as they invest in skills, both individual productivity and aggregate technological progress improve. The model shows that differences in human capital investment policies across countries can explain persistent income inequality. Long-run growth is sustained by intentional education choices, creating a direct link between growth and the educational sector.
 
+## How It's Best Learned
+Work the time tradeoff with δ = 0.1 and output proportional to u·h, ignoring physical capital. Country A schools 20% of the time: output 0.8·e^(0.02t). Country B schools 30%: output 0.7·e^(0.03t). B starts behind, catches up when e^(0.01t) = 8/7, about 13 years, and pulls ahead from then on. This shows the level cost and the growth gain together.
+
+## Common Misconceptions
+- In the Lucas model, more education raises income by a one-time step. (A higher share of time in education raises the growth rate of h, so income gaps keep widening.)
+- Sustained growth in the Lucas model depends on the spillover from average human capital. (Growth is sustained by the linear accumulation equation ḣ = δ(1 − u)h. The spillover mainly makes the market outcome inefficient, giving too little schooling.)
+- Spending more time in education raises output right away. (Time in school is time taken from work, so current output falls; the gain comes through faster growth later.)
+
 ## Questions
 
 ```yaml

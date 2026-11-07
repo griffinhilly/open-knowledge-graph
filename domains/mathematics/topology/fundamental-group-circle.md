@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 π₁(S¹) ≅ ℤ, where an integer n corresponds to the homotopy class of loops that wind around the circle n times. This is computed using the universal covering map ℝ → S¹.
 
+## How It's Best Learned
+Draw ℝ as a helix sitting above the circle, with each integer over the base point 1. Lift specific loops by hand: γ(s) = e^{4πis} lifts to γ̃(s) = 2s, ending at 2. Then lift a loop that goes around twice counterclockwise and once clockwise, and watch the lift end at 1. Finally check that lifting a concatenation adds the endpoints.
+
+## Common Misconceptions
+- A loop that passes over every point of the circle cannot be shrunk to a point. (Going once counterclockwise and then once clockwise covers the whole circle, yet its winding number is 0, so the loop is null-homotopic.)
+- The winding number counts every revolution, whichever way it goes. (It is a net count: clockwise revolutions subtract from counterclockwise ones.)
+- The covering map is useful because ℝ and S¹ are basically the same space. (They are not homeomorphic. Lifting works because p is a covering map and ℝ is simply connected, so endpoints of lifts detect homotopy classes.)
+- A path in S¹ has exactly one lift to ℝ. (It has one lift for each choice of starting point in the fiber over its start; the lift is unique once that starting point is fixed.)
+
 ## Questions
 
 ```yaml
@@ -49,7 +58,7 @@ status: validated
   answer: true
   explanation: "This is the content of π₁(S¹) ≅ ℤ. Homotopy classes of loops are in bijection with integers via the winding number. Loops with the same winding number can be continuously deformed into each other; loops with different winding numbers cannot. The winding number is a complete invariant for loop homotopy on S¹."
 
-- question: "Since S¹ is a connected topological space, its fundamental group is expected to be trivial (i.e., nearly every loop is contractible to a point)."
+- question: "Since S¹ is a connected topological space, its fundamental group must be trivial (i.e., every loop is contractible to a point)."
   type: true-false
   answer: false
   explanation: "Connectivity and simple connectivity are different properties. A space is connected if it is in one piece; it is simply connected if every loop can be contracted to a point (i.e., π₁ = 0). The circle S¹ is connected but not simply connected: π₁(S¹) ≅ ℤ, meaning there are infinitely many distinct homotopy classes of loops. A loop that winds around the circle once cannot be continuously contracted to a point without leaving S¹. This is precisely what distinguishes S¹ from the disk D² (which is simply connected)."

@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 The financial accelerator amplifies shocks through credit markets: when net worth falls, borrowers appear riskier, widening credit spreads. Higher borrowing costs reduce investment and entrepreneurship, worsening the initial shock. Asset price declines feed back to reduce net worth, creating a negative feedback loop.
 
+## How It's Best Learned
+Start from one leveraged balance sheet. A firm holds assets of 100 with debt of 80, so net worth is 20, and lenders allow assets up to five times net worth. A 10% fall in asset prices cuts net worth to 10, so the firm can now carry only 50 of assets. Its forced sales push prices down again. Trace a second round.
+
+## Common Misconceptions
+- The financial accelerator runs only through banks. (In the Bernanke-Gertler-Gilchrist model it runs through the net worth of borrowing firms; bank balance-sheet versions extend the same idea.)
+- Wider credit spreads in a downturn show that lenders are panicking. (In the model, wider spreads are a rational response: lower borrower net worth raises the expected cost of lending under asymmetric information.)
+- The accelerator matters for crises but not for ordinary monetary policy. (A rate cut raises asset prices and net worth, which lowers the external finance premium, so the mechanism also strengthens the effect of policy.)
+
 ## Questions
 
 ```yaml
@@ -34,7 +42,7 @@ The financial accelerator amplifies shocks through credit markets: when net wort
   answer: 1
   explanation: "The financial accelerator operates through the net worth channel: falling asset prices erode collateral and net worth, making borrowers appear riskier. Lenders widen credit spreads, raising the cost of external funds. Higher borrowing costs reduce investment, which depresses economic activity and asset prices further — each round amplifying the initial shock. Options A, C, and D are real effects but are not the financial accelerator mechanism; they describe demand-side multiplier effects or regulatory responses, not the credit-market feedback loop."
 
-- question: "The financial accelerator is symmetric — it amplifies downturns but not expansions."
+- question: "The financial accelerator is asymmetric — it amplifies downturns but not expansions."
   type: true-false
   answer: false
   explanation: "The financial accelerator amplifies both contractions and expansions. During booms, rising asset prices increase net worth, lower credit spreads, encourage borrowing and investment, and push asset prices higher still. This symmetric amplification is why the mechanism contributes to boom-bust cycles. The asymmetry in public perception (the accelerator is most visible in crises) does not mean it is absent during expansions — it actively inflates the boom that precedes the bust."

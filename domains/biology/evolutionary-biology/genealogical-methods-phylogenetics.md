@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 Genealogical methods use genetic data to infer population history and evolutionary relationships by modeling how lineages coalesce backward in time. Enables estimation of divergence times, migration rates, demographic changes, and time to most recent common ancestor.
 
+## How It's Best Learned
+Compute gene tree probabilities for three species with species tree ((A,B),C). If the internal branch lasts T generations in an ancestral population of size Ne, A and B fail to coalesce on it with probability e^(−T/2Ne). The matching gene tree then has probability 1 − (2/3)e^(−T/2Ne), and each mismatching tree (1/3)e^(−T/2Ne). At T = 2Ne, that gives about 0.75 matching and 0.12 for each mismatch.
+
+## Common Misconceptions
+- Gene trees that conflict with the species tree mean the data or the analysis are wrong. (Incomplete lineage sorting and gene flow produce real conflict, and its frequency carries information about ancestral population size and timing.)
+- Any gene tree conflict points to hybridization. (Incomplete lineage sorting alone makes the two mismatching three-species trees equally common. Gene flow tends to make one of them more common than the other, which is how the two causes are told apart.)
+- Joining all loci into one long alignment will give the right species tree if there is enough data. (When incomplete lineage sorting is strong, a single concatenated analysis can give high support to the wrong tree. Coalescent methods model each locus's genealogy separately to avoid this.)
+
 ## Questions
 
 ```yaml

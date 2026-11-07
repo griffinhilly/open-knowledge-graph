@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Not all matrices are diagonalizable. Jordan normal form J is block-diagonal with Jordan blocks (eigenvalue λ on diagonal, 1s on superdiagonal). Every matrix A is similar to its Jordan form: A = PJP⁻¹. Generalized eigenvectors extend eigenvectors to fill out Jordan blocks. Jordan form reveals algebraic and geometric multiplicities and enables computing matrix functions.
 
+## How It's Best Learned
+Build one Jordan chain by hand. A = [[3,1],[−1,1]] has characteristic polynomial (λ − 2)², but A − 2I = [[1,1],[−1,−1]] has rank 1, so there is only one eigenvector, v₁ = (1,−1). Solve (A − 2I)v₂ = v₁ to get v₂ = (1,0). Check that Av₁ = 2v₁ and Av₂ = v₁ + 2v₂. In the basis {v₁, v₂}, A becomes [[2,1],[0,2]].
+
+## Common Misconceptions
+- The algebraic and geometric multiplicities always fix the Jordan form. (They do for small cases, but not once the algebraic multiplicity reaches 4. With geometric multiplicity 2, the blocks could be sizes 3 + 1 or 2 + 2. The ranks of powers of A − λI decide.)
+- Every vector in a Jordan chain is scaled by A, like an ordinary eigenvector. (Only the first vector is. A sends each later chain vector vᵢ to λvᵢ + vᵢ₋₁, so it leaves its own line.)
+- Since the Jordan form is unique, the matrix P in A = PJP⁻¹ is unique too. (J is unique up to the order of its blocks. P has many valid choices, since chains can be rescaled and combined.)
+
 ## Questions
 
 ```yaml
@@ -44,7 +52,7 @@ Not all matrices are diagonalizable. Jordan normal form J is block-diagonal with
   answer: 1
   explanation: "A true eigenvector satisfies (A − λI)v₁ = 0 — it is annihilated by (A − λI). A generalized eigenvector at level i satisfies (A − λI)vᵢ = vᵢ₋₁: applying the defect operator maps it to the previous vector in the chain, not to zero. This chain structure is precisely what Jordan blocks encode — the 1s on the superdiagonal represent these 'shift' relationships between consecutive chain vectors."
 
-- question: "A matrix is diagonalizable if and mainly if most of its eigenvalues are distinct (no repeated eigenvalues)."
+- question: "A matrix is diagonalizable if and only if all of its eigenvalues are distinct (no repeated eigenvalues)."
   type: true-false
   answer: false
   explanation: "Distinct eigenvalues are sufficient but not necessary for diagonalizability. A matrix with repeated eigenvalues can still be diagonalizable if the geometric multiplicity equals the algebraic multiplicity for every eigenvalue — that is, if there are enough linearly independent eigenvectors to form a full basis. For example, the identity matrix has only one eigenvalue (λ = 1 with algebraic multiplicity n) but is trivially diagonalizable. The key test is the multiplicity comparison, not whether eigenvalues are distinct."
@@ -52,7 +60,7 @@ Not all matrices are diagonalizable. Jordan normal form J is block-diagonal with
 - question: "The number of distinct Jordan blocks for an eigenvalue λ in the Jordan normal form equals the geometric multiplicity of λ."
   type: true-false
   answer: true
-  explanation: "Each Jordan block begins with a true eigenvector — you need one eigenvector to start each chain. Since the eigenvectors for λ are exactly the nonzero vectors in ker(A − λI), and the number of linearly independent eigenvectors is the geometric multiplicity, that equals the number of Jordan blocks. Their sizes sum to the algebraic multiplicity. This relationship between the two multiplicities completely determines the Jordan block structure."
+  explanation: "Each Jordan block begins with a true eigenvector — you need one eigenvector to start each chain. Since the eigenvectors for λ are exactly the nonzero vectors in ker(A − λI), and the number of linearly independent eigenvectors is the geometric multiplicity, that equals the number of Jordan blocks. Their sizes sum to the algebraic multiplicity. The two multiplicities constrain the block structure, but from algebraic multiplicity 4 upward they do not fully determine the block sizes."
 
 - question: "Why does a defective matrix (one that cannot be diagonalized) produce solutions to differential equations y' = Ay that include polynomial terms like te^(λt), rather than pure exponentials?"
   type: short-answer

@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 A space is separable if it has a countable dense subset. Separability is related to second-countability (second-countable implies separable) and together with other axioms often implies metrization. Many important spaces are separable: ℝⁿ, Lᵖ spaces, and spaces of continuous functions.
 
+## How It's Best Learned
+First check density by hand: show that every open disk in ℝ² contains a point of ℚ². Then find a separable space with a non-separable subspace. In the Sorgenfrey plane, with basic sets [a, b) × [c, d), the set ℚ² is dense. But the box [x, x + 1) × [−x, −x + 1) meets the line y = −x only at (x, −x), so that line is an uncountable discrete subspace.
+
+## Common Misconceptions
+- Every subspace of a separable space is separable. (This holds in metric spaces. In the Sorgenfrey plane, the line y = −x is an uncountable discrete subspace, which is not separable.)
+- A separable space must be countable. (ℝ is uncountable, yet the countable set ℚ is dense in it.)
+- Separable means having a countable base. (A countable base implies separability, but the Sorgenfrey line is separable with no countable base.)
+
 ## Questions
 
 ```yaml

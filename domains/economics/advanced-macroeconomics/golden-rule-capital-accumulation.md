@@ -21,7 +21,15 @@ status: validated
 # Golden Rule of Capital Accumulation
 
 ## Core Idea
-The golden rule determines the optimal steady-state capital stock that maximizes consumption per capita—a normative benchmark for welfare maximization. At the golden-rule level, the marginal product of capital exactly equals the depreciation rate, balancing capital's productivity benefit against the consumption cost of forgone output. Most developed economies accumulate capital beyond the golden-rule level, implying they could increase steady-state consumption by reducing capital investment.
+The golden rule determines the optimal steady-state capital stock that maximizes consumption per capita—a normative benchmark for welfare maximization. At the golden-rule level, the marginal product of capital exactly equals the depreciation rate, balancing capital's productivity benefit against the consumption cost of forgone output. Evidence such as Abel, Mankiw, Summers, and Zeckhauser (1989) suggests that the United States and other developed economies are below the golden-rule level, so reaching it would require higher saving and a temporary fall in consumption.
+
+## How It's Best Learned
+Use y = k^0.3 and δ = 0.1, so steady-state capital is (s/δ)^(1/0.7) and consumption is (1 − s)·k*^0.3. Compute consumption for s = 0.2, 0.3, and 0.4: about 1.08, 1.12, and 1.09. The peak sits at s = 0.3, the capital share. Check that f′(k*) = 0.3 × 0.1/0.3 = 0.1 = δ there.
+
+## Common Misconceptions
+- An economy below the golden rule is dynamically inefficient. (Below the golden rule the economy is dynamically efficient: no free gain exists, and adding capital costs consumption during the transition.)
+- A planner should always steer the economy to the golden rule. (Building capital up to it means lower consumption first. With impatience, the optimal steady state of the Ramsey model has less capital, at the modified golden rule.)
+- When f′(k) < δ, extra capital produces nothing. (Extra capital still adds output; the problem is that its marginal product is smaller than the cost of replacing it as it wears out.)
 
 ## Questions
 
@@ -33,8 +41,8 @@ The golden rule determines the optimal steady-state capital stock that maximizes
     - "The economy is dynamically inefficient — reducing the savings rate would raise steady-state consumption"
     - "The economy is below the golden rule — increasing the savings rate would raise steady-state consumption"
     - "The economy is growing too fast — consumption must be permanently reduced to stabilize capital"
-  answer: 2
-  explanation: "The golden rule requires f'(k*) = δ. Here f'(k*) = 0.06 < δ = 0.10, meaning the economy has accumulated too little capital relative to the optimum — it is below the golden rule. Increasing savings would raise capital and increase steady-state consumption. Dynamic inefficiency (too much capital) occurs when f'(k*) < δ in the other direction — when the economy is so over-capitalized that the extra output barely covers the maintenance cost."
+  answer: 1
+  explanation: "The golden rule requires f'(k*) = δ. Here f'(k*) = 0.06 < δ = 0.10, so the economy has more capital than the golden-rule level and is dynamically inefficient: the last units of capital add less output than it costs to replace them as they wear out. Reducing the savings rate would raise consumption now and in the new steady state. If instead f'(k*) were above δ, the economy would be below the golden rule, and a higher savings rate would raise steady-state consumption."
 
 - question: "An economy is found to have f'(k*) < δ. This is called dynamic inefficiency. Why is it considered a 'free lunch'?"
   type: multiple-choice

@@ -33,6 +33,14 @@ status: validated
 ## Core Idea
 Endogenous growth models explain persistent per-capita growth through mechanisms endogenous to the economic system—human capital accumulation, R&D, spillovers, or learning-by-doing—rather than exogenous technological progress. Unlike Solow, these models show how policy (education subsidies, R&D incentives, IP protection) and private innovation incentives directly affect long-run growth rates. They highlight the role of increasing returns, knowledge externalities, and monopolistic competition in sustaining endogenous growth.
 
+## How It's Best Learned
+Build a table with rows for Solow, AK, Romer, and Lucas. For each, record what accumulates, why its returns do not diminish, and whether a permanent policy change moves the level or the growth rate. Then show why the difference matters: growing at 2.5% instead of 2% for 50 years leaves an economy about 28% richer.
+
+## Common Misconceptions
+- Endogenous growth models have no externally given parameters. (They still take preferences and technology parameters as given. "Endogenous" means the growth rate comes out of agents' choices instead of being assumed.)
+- Endogenous growth requires removing diminishing returns to physical capital. (Physical capital can keep diminishing returns. What is needed is non-diminishing returns to some accumulable factor, such as knowledge or broad capital.)
+- These models show that markets invest too little in R&D in every case. (Spillovers push toward too little research, but in some models innovators also take profits from earlier innovators, which pushes toward too much.)
+
 ## Questions
 
 ```yaml

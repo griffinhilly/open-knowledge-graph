@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 A system of m linear equations in n unknowns is written as Ax = b, where A is m×n, x is the unknown vector, and b is the right-hand side. Solutions exist if and only if b is in the column space of A. The solution set is either empty, a single point, or an affine subspace (infinite solutions). Augmented matrices [A | b] encode the system compactly.
 
+## How It's Best Learned
+Write one small system three ways. Take x + 2y = 5, 3x − y = 1, x + y = 3 as equations, as Ax = b with a 3×2 matrix A, and as x(1,3,1) + y(2,−1,1) = (5,1,3). Solve to get x = 1, y = 2. Then change the last 3 to a 4. The column view shows why no x and y can now reach b.
+
+## Common Misconceptions
+- In an m×n coefficient matrix, the m rows stand for the unknowns. (Rows stand for equations and columns stand for unknowns. So x has n entries and b has m entries.)
+- A system with more unknowns than equations always has infinitely many solutions. (It can never have exactly one, but it can have none. x + y + z = 1 and x + y + z = 2 have no common solution.)
+- The augmented matrix [A | b] is a new system with one more unknown. (The last column holds the constants, not coefficients of a variable. The bar marks the equals signs.)
+
 ## Questions
 
 ```yaml
@@ -53,7 +61,7 @@ A system of m linear equations in n unknowns is written as Ax = b, where A is m�
   answer: true
   explanation: "Any two solutions x₁ and x₂ differ by a vector in the null space of A: x₁ − x₂ ∈ null(A). If the null space contains a nonzero vector v, then x₁ + tv is a solution for every scalar t, generating infinitely many. There is no way to have exactly 2 solutions: once you have 2, you have infinitely many by taking all scalar multiples of the difference in the null space direction."
 
-- question: "The system Ax = b has no solution if and mainly if A has more rows than columns."
+- question: "The system Ax = b has no solution if and only if A has more rows than columns."
   type: true-false
   answer: false
   explanation: "The existence of solutions depends on whether b lies in the column space of A, not on whether the system is overdetermined. A tall (m > n) system may be consistent if b happens to lie in col(A). Conversely, even a square system (m = n) can have no solution if A is singular and b is not in the column space. Shape alone does not determine consistency."

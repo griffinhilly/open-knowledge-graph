@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Polyploidy—duplication of the entire chromosome set—can create instant reproductive isolation because polyploid individuals cannot produce viable hybrids with diploid parents (odd ploidy levels cause sterility). Polyploid speciation is particularly common in plants, where it can be triggered by hybridization or spontaneous chromosome doubling. Polyploid speciation is rapid and does not require geographic isolation.
 
+## How It's Best Learned
+Model one chromosome type with paper strips. A diploid has 2 strips and a tetraploid has 4. Halve each to make gametes, fuse a 2-strip gamete with a 1-strip gamete, and try to pair the 3 strips. Then model allopolyploidy: species A (AA) and species B (BB) give a hybrid AB with nothing to pair, while the doubled AABB pairs A with A and B with B.
+
+## Common Misconceptions
+- Polyploidy means having an extra copy of one or a few chromosomes. (That is aneuploidy; polyploidy duplicates entire chromosome sets.)
+- A sterile interspecies hybrid fails because it has too many chromosomes. (It fails because its chromosomes come from two divergent genomes and lack matching partners; doubling gives each one a partner.)
+- Once a single polyploid appears, the new species is established. (A lone polyploid has few compatible mates, so it depends on selfing, vegetative spread or repeated origins to build a population, and many new polyploid lines die out.)
+- Polyploid speciation happens only in plants. (It is far more common in plants, but some animals, such as certain frogs and fish, are polyploid.)
+
 ## Questions
 
 ```yaml

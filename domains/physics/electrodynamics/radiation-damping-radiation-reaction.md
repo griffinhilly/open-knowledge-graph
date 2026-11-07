@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Accelerating charges lose energy through radiation; this energy loss manifests as a damping force in the equation of motion. For oscillating motion, the radiation damping force acts like a friction proportional to the time derivative of acceleration, with coefficient depending on the classical electron radius.
 
+## How It's Best Learned
+Do the energy-balance derivation by hand. Write the Larmor power as mτa² with τ = q²/(6πε₀mc³), then integrate by parts: ∫a·a dt = [v·a] − ∫v·ȧ dt. For periodic motion the bracket vanishes, so F_rad = mτȧ. Then insert x = A cos ωt: ȧ = −ω²v, so the force is −mτω²v and the energy decays at rate τω².
+
+## Common Misconceptions
+- Radiation reaction is a velocity-proportional friction for every kind of motion. (The general force is proportional to the jerk ȧ. It reduces to −mτω²v only for nearly sinusoidal motion.)
+- The Abraham-Lorentz force removes energy at the Larmor rate at every instant. (The match holds averaged over a cycle. Instantaneously the two differ by mτ d(v·a)/dt, often called the Schott term.)
+- Runaway solutions are a real prediction that free electrons can self-accelerate. (They are unphysical and are excluded, for example by boundary conditions or by reduction of order. They signal that the classical point-charge model fails at very short time scales.)
+
 ## Questions
 
 ```yaml
@@ -66,6 +74,6 @@ From the Larmor formula, you know that an accelerating charge radiates power P =
 
 The answer comes from energy conservation over a complete oscillation cycle. The total energy radiated per cycle must equal the work done by some damping force F_rad acting against the motion. Working backward from the Larmor formula through integration by parts, this force turns out to be F_rad = (q²/6πε₀c³)(da/dt), where da/dt is the time derivative of acceleration — sometimes called **jerk**. This is the **Abraham-Lorentz force**. Its coefficient q²/(6πε₀c³) can be written as (2/3)(r_e/c)m_e, where r_e = q²/(4πε₀m_ec²) is the **classical electron radius** from your prerequisite — the length scale at which classical self-energy of the electron equals its rest mass energy.
 
-The physical picture is that the electromagnetic field created by the charge propagates outward at finite speed c, so the charge experiences a small retarded force from its own near field. For simple oscillatory motion at frequency ω, the Abraham-Lorentz force reduces to an effective friction: F_damp ∝ −ωv⃗, which damps the oscillation at a rate Γ ∝ ω². This radiation damping gives spectral lines a natural **linewidth** — atoms in excited states don't radiate forever; they decay with a characteristic time τ ≈ r_e/c ~ 10⁻²³ s times (λ/a)² ~ 10⁻⁸ s, which matches observed atomic lifetimes.
+The physical picture is that the electromagnetic field created by the charge propagates outward at finite speed c, so the charge experiences a small retarded force from its own near field. For simple oscillatory motion at frequency ω, the Abraham-Lorentz force reduces to an effective friction: F_damp ∝ −ω²v⃗, which damps the oscillation at a rate Γ ∝ ω². This radiation damping gives spectral lines a natural **linewidth** — atoms in excited states don't radiate forever; they decay with a characteristic time τ ≈ r_e/c ~ 10⁻²³ s times (λ/a)² ~ 10⁻⁸ s, which matches observed atomic lifetimes.
 
 The Abraham-Lorentz equation has deeply problematic features: it is third-order in time (requiring initial acceleration as well as position and velocity), and it admits **runaway solutions** where the charge accelerates without any applied force, gaining energy from its own radiation field. These pathologies signal that classical electrodynamics breaks down near the scale of the classical electron radius. A consistent treatment requires quantum electrodynamics, where the radiation reaction is reinterpreted in terms of photon emission and the electron's self-energy is handled through renormalization. For practical purposes, however — antenna design, spectral linewidths, plasma physics — the classical radiation damping framework provides a correct and essential account of energy balance in radiating systems.

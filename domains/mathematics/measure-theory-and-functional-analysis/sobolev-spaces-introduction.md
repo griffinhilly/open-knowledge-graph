@@ -20,10 +20,18 @@ status: validated
 ## Core Idea
 Sobolev space W^{k,p} consists of Lᵖ functions whose weak derivatives up to order k are in Lᵖ. These spaces are essential for PDE theory, allowing rigorous treatment of differential equations with non-classical solutions.
 
+## How It's Best Learned
+Verify a weak derivative by hand on (−1, 1). Split ∫|x|φ′ dx at 0 and integrate by parts on each half; the boundary terms vanish and you get −∫ sgn(x)φ dx. Then repeat with sgn x itself: ∫ sgn(x)φ′ dx = −2φ(0). No integrable function g satisfies ∫gφ dx = 2φ(0) for every test function φ, so sgn x is not in W^{1,p}(−1, 1).
+
+## Common Misconceptions
+- A piecewise smooth function is always weakly differentiable. (A jump breaks this. The derivative of sgn x in the distributional sense is 2δ₀, a point mass, which is not a function.)
+- Functions in W^{1,p} are continuous. (In one dimension each has a continuous representative, but in ℝ² the function log log(1 + 1/|x|) lies in W^{1,2} of the unit disk and is unbounded near 0.)
+- The weak derivative is determined at every point. (It is unique only almost everywhere, as an element of Lᵖ. Changing it on a null set gives the same weak derivative.)
+
 ## Questions
 
 ```yaml
-- question: "Consider the function f(x) = |x|. Which statement about its Sobolev membership is correct?"
+- question: "Consider the function f(x) = |x| on (−1, 1). Which statement about its Sobolev membership is correct?"
   type: multiple-choice
   options:
     - "f has no weak derivative because it is not differentiable at x = 0 — weak derivatives only exist where classical ones do"
@@ -48,7 +56,7 @@ Sobolev space W^{k,p} consists of Lᵖ functions whose weak derivatives up to or
   answer: true
   explanation: "This is precisely the definition. A function g is the weak derivative of f if ∫ f φ' dx = −∫ g φ dx holds for every smooth compactly supported test function φ. This definition requires only that f and g are locally integrable — no pointwise limit is involved. The integration-by-parts formula is what classical derivatives satisfy, so weak derivatives are exactly the Lᵖ functions that behave like derivatives in the integral sense."
 
-- question: "Nearly every function in the Sobolev space W^{1,p}(Ω) is also continuously differentiable on Ω."
+- question: "Every function in the Sobolev space W^{1,p}(Ω) is also continuously differentiable on Ω."
   type: true-false
   answer: false
   explanation: "W^{1,p} contains functions that may be far from continuously differentiable. For example, W^{1,1}(R) includes absolutely continuous functions whose derivatives are merely integrable, not continuous. The Sobolev embedding theorem specifies when regularity is sufficient for continuous differentiability — for W^{1,p}(Ω) ⊂ C(Ω̄) one needs p > n (dimension). Without that condition, W^{1,p} functions can be irregular, and this is precisely why Sobolev spaces are needed: classical function spaces were too restrictive."

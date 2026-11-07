@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Deep history extends historical inquiry into prehistoric and pre-literate periods using archaeological, genetic, and paleoenvironmental evidence. It asks: What can we know and understand about human experience before writing? How do geological timescales reshape historical perspective? This approach bridges history and prehistory, addressing fundamental questions about human nature and social change.
 
+## How It's Best Learned
+Draw the span of Homo sapiens as a single bar and shade the part covered by written records; the shaded part is a thin slice at one end. Then pick one prehistoric question, such as how a region was first settled, and list which kinds of evidence could answer it: tools, burials, ancient DNA, pollen or ice cores. Asking what each kind can and cannot show builds the method.
+
+## Common Misconceptions
+- Deep history is ordinary history with an earlier start date. (It depends on different evidence and methods, drawn from archaeology, genetics and paleoclimate science, because written documents do not exist for most of the period.)
+- People before writing were less mentally capable than later humans. (Humans were cognitively modern long before writing, states and farming appeared.)
+- Ancient DNA tells the whole story of prehistoric peoples. (Genetic evidence shows population movement and mixing, but it says little by itself about language or belief and gives only partial clues about social organization, such as kinship.)
+- States, social classes and farming are the natural form of human society. (They appear only in the most recent part of the human past, which raises the question of how much of them is contingent.)
+
 ## Questions
 
 ```yaml
@@ -58,7 +67,7 @@ Deep history extends historical inquiry into prehistoric and pre-literate period
 
 - question: "Why does deep history's challenge to assumptions about 'human nature' constitute a more radical intervention than simply adding prehistoric chapters to a history textbook?"
   type: short-answer
-  answer: "Adding prehistoric chapters would just extend the timeline; the assumptions about what counts as 'natural' human social organization (states, classes, agriculture, writing) would remain intact. Deep history's radical claim is that these institutions occupied most of human existence before them — and that behaviors like hierarchical states or agricultural sedentism are recent and contingent, not inevitable expressions of human nature. This reframes the entire question: rather than asking how early humans were primitive versions of us, we must ask whether 'us' is a peculiar and historically specific arrangement rather than the natural endpoint of human development."
+  answer: "Adding prehistoric chapters would just extend the timeline; the assumptions about what counts as 'natural' human social organization (states, classes, agriculture, writing) would remain intact. Deep history's radical claim is that humans lived most of their existence before these institutions appeared — and that behaviors like hierarchical states or agricultural sedentism are recent and contingent, not inevitable expressions of human nature. This reframes the entire question: rather than asking how early humans were primitive versions of us, we must ask whether 'us' is a peculiar and historically specific arrangement rather than the natural endpoint of human development."
   explanation: "The key insight is that most of what historians study (states, classes, religions, empires) only exists in the last ~5% of modern human existence. Deep history doesn't just add early chapters — it recontextualizes all later chapters by showing how recently the structures we take for granted actually appeared."
 ```
 

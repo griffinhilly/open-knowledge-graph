@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 The Poynting vector S = (1/μ₀)(E × B) represents electromagnetic energy flux (power per unit area). Its integral ∮ S · dA gives power flow through a surface. Time-averaged Poynting vector magnitude equals wave intensity. This connects abstract Maxwell equations to observable electromagnetic energy transport.
 
+## How It's Best Learned
+Compute the intensity of a plane wave with E₀ = 100 V/m two ways. First, ε₀cE₀²/2 ≈ 13.3 W/m². Second, B₀ = E₀/c ≈ 3.3 × 10⁻⁷ T and E₀B₀/(2μ₀) gives the same 13.3 W/m². Then surround an isotropic source of power P with spheres and show that I = P/(4πr²) keeps ∮S·dA equal to P on every sphere.
+
+## Common Misconceptions
+- The intensity of a wave is the peak value E₀²/(μ₀c). (Detectors respond to the time average, which is half the peak for a sinusoidal wave: E₀²/(2μ₀c).)
+- Because S oscillates, the average energy flow of any wave is zero. (In a traveling wave S ∝ cos², which is never negative, so its average is positive. A standing wave made of two equal counter-propagating waves does have zero average S.)
+- With complex fields, the average flux is E × B/μ₀ computed directly from the complex amplitudes. (Products must use real fields. In phasor form the time average is ⟨S⟩ = ½Re(E × B*)/μ₀.)
+- Inside a magnetic material the flux is still E × B/μ₀. (In linear media the flux is S = E × H, which equals E × B/μ for permeability μ.)
+
 ## Questions
 
 ```yaml
@@ -49,7 +58,7 @@ The Poynting vector S = (1/μ₀)(E × B) represents electromagnetic energy flux
     - "E₀²/(2μ₀c), the average of the oscillating instantaneous power"
     - "2E₀²/(μ₀c), because power averages include both positive and negative half-cycles"
   answer: 2
-  explanation: "The instantaneous Poynting vector oscillates at twice the wave frequency (since S ∝ E²). The time average of sin² or cos² is 1/2, so ⟨|S|⟩ = E₀²/(2μ₀c) = ε₀cE₀²/2. This time-averaged value is what photodetectors, radiometers, and skin actually respond to. Option A (the peak) fails because intensity is a time-averaged quantity; option B is wrong because S² is always nonnegative, so its average is not zero."
+  explanation: "The instantaneous Poynting vector oscillates at twice the wave frequency (since S ∝ E²). The time average of sin² or cos² is 1/2, so ⟨|S|⟩ = E₀²/(2μ₀c) = ε₀cE₀²/2. This time-averaged value is what photodetectors, radiometers, and skin actually respond to. Option A (the peak) fails because intensity is a time-averaged quantity; option B is wrong because |S| ∝ E² is never negative, so its average is not zero."
 
 - question: "The Poynting vector S⃗ = (1/μ₀)(E⃗ × B⃗) can point in a direction different from the direction of wave propagation in some field configurations."
   type: true-false

@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Two matrices of the same size are added/subtracted entry-wise: (A + B)_ij = a_ij + b_ij. Matrix addition is commutative, associative, and has an identity (the zero matrix). These operations make m × n matrices into a vector space themselves, denoted M_{m,n}.
 
+## How It's Best Learned
+Work one small pair by hand. With A = [[1, 2], [3, 4]] and B = [[5, 0], [−1, 2]], A + B = [[6, 2], [2, 6]] and A − B = [[−4, 2], [4, 2]]. Then compute B − A and check that it equals −(A − B). Finish by trying to add a 2 × 3 and a 3 × 2 matrix and finding the entries that have no partner.
+
+## Common Misconceptions
+- Two matrices can be added if they have the same number of entries. (Both the number of rows and the number of columns must match; a 2 × 3 and a 3 × 2 matrix cannot be added.)
+- Matrix subtraction is commutative, like addition. (A − B and B − A are negatives of each other, so they are equal only when A = B.)
+- Writing A + 5 adds 5 to every entry of A. (A matrix plus a scalar is not defined in standard notation; A + 5I adds 5 to the diagonal entries only.)
+- There is one zero matrix. (There is a zero matrix for each size m × n, and only the one of matching size acts as the identity for A.)
+
 ## Questions
 
 ```yaml

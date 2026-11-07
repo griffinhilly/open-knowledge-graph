@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Waveguides and transmission lines confine waves to propagate along a path. Metallic waveguide boundary conditions permit only discrete modes above cutoff frequency. Transmission lines support TEM modes. Essential for RF engineering, telecommunications, and accelerators.
 
+## How It's Best Learned
+Model an air-filled coaxial line with inductance L′ = (μ₀/2π) ln(b/a) and capacitance C′ = 2πε₀/ln(b/a) per unit length. Then v = 1/√(L′C′) = c, independent of frequency and radii, and Z₀ = √(L′/C′) ≈ 60 ln(b/a) Ω. With b/a = 2.3 you get about 50 Ω. Contrast this with a hollow guide, whose group velocity changes with frequency.
+
+## Common Misconceptions
+- A coaxial cable carries only the TEM mode at every frequency. (At high enough frequency, roughly when the wavelength falls to the mean circumference π(a + b), the TE₁₁ coaxial mode also propagates.)
+- The TEM wave speed depends on the shape and size of the conductors. (For a uniform filling it is 1/√(με), set by the material. The geometry sets the characteristic impedance.)
+- A 50 Ω characteristic impedance is a resistance that turns power into heat. (Z₀ is the voltage-to-current ratio of a traveling wave. A lossless 50 Ω line dissipates nothing.)
+- Hollow waveguides are lossier versions of coaxial cable. (At microwave frequencies a hollow guide typically has lower loss and handles more power than a coaxial line of comparable size.)
+
 ## Questions
 
 ```yaml

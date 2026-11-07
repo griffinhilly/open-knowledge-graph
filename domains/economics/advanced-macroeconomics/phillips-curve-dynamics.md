@@ -34,6 +34,14 @@ status: validated
 ## Core Idea
 The modern Phillips curve relates inflation to expected future inflation and current economic slack, with the slope reflecting nominal rigidities and firms' pricing behavior. This forward-looking specification—derived from New Keynesian models—shows that inflation depends on firms' expectations about future demand and costs, not just current conditions. The Phillips curve forms a key constraint on monetary policy trade-offs and crucially depends on the anchoring of inflation expectations.
 
+## How It's Best Learned
+Iterate the NKPC forward to get π_t = κ Σ β^j E_t[x_{t+j}], then plug in numbers. With κ = 0.1 and β near 1, a gap of −1% expected to last one quarter lowers inflation by about 0.1 points; the same gap expected to last four quarters lowers it by about 0.4. This makes clear that inflation responds to the whole expected path of slack.
+
+## Common Misconceptions
+- A flat Phillips curve means slack no longer affects inflation. (Inflation still responds to the gap, only weakly, and shifts in expected inflation can still move it a lot.)
+- The forward-looking NKPC naturally produces inflation that stays high for years. (The pure version has no lagged inflation term, so persistence comes from persistence in the output gap or marginal cost; hybrid versions add lagged inflation to fit the data.)
+- A flatter estimated curve proves prices have become stickier. (Better-anchored expectations, or policy that offsets demand shocks, can also flatten the estimated relationship, which makes the true slope hard to identify.)
+
 ## Questions
 
 ```yaml

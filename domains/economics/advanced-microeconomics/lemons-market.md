@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Akerlof's 'Market for Lemons' shows that with quality uncertainty and adverse selection, high-quality goods are driven out of the market. Sellers know quality; buyers only know the average. If buyers pay the average, owners of good cars leave the market, reducing average quality and buyer willingness to pay. Eventually only low-quality (lemon) goods remain. This illustrates market failure under asymmetric information.
 
+## How It's Best Learned
+Work the uniform version. Let quality q be uniform on [0, 1], with sellers valuing a car at q and buyers at 1.5q. At price p, only cars with q ≤ p are offered, so average quality is p/2 and buyers will pay 0.75p. Since 0.75p < p for every p > 0, no positive price survives. Then raise buyer value to 3q and see every car trade at p = 1.
+
+## Common Misconceptions
+- The market fails because good-car sellers cheat or hide defects. (No one needs to lie. Good-car owners withdraw because the pooled price is below what their car is worth to them.)
+- If the market collapses, there were no gains from trade. (In the uniform example, buyers value every car more than its seller does. Trade fails anyway because buyers cannot tell cars apart.)
+- Unraveling ends with only lemons in every case. (How far it goes depends on how much buyers value quality relative to sellers. With a large enough gap, part or all of the market still trades.)
+- Sellers of good cars can fix the problem by asking a higher price. (A lemon owner can ask the same price at no cost, so price alone carries no information. A credible signal must be costly to fake, like a warranty.)
+
 ## Questions
 
 ```yaml

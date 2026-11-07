@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 The composition of linear transformations S ∘ T is linear, and its matrix representation is the product [S][T]. Invertible transformations form a group under composition (the general linear group GL_n). Composition of matrices directly corresponds to sequential application of transformations.
 
+## How It's Best Learned
+Track one vector by hand before multiplying matrices. Let R = [[0,−1],[1,0]] (rotate 90° counterclockwise) and F = [[1,0],[0,−1]] (reflect across the x-axis). Send e₁ through R and then F to get (0,−1). Confirm this is the first column of FR = [[0,−1],[−1,0]], not of RF = [[0,1],[1,0]]. Sketching both results on grid paper makes the order rule stick.
+
+## Common Misconceptions
+- In S ∘ T, you apply S first because it is written first. (T is applied first. Read the composition and the product [S][T] from right to left.)
+- The inverse of S ∘ T is S⁻¹ ∘ T⁻¹. (To undo "T then S" you undo S first, so (S ∘ T)⁻¹ = T⁻¹ ∘ S⁻¹.)
+- Any two linear transformations can be composed. (S ∘ T requires the output space of T to be the input space of S. In matrix terms, the column count of [S] must equal the row count of [T].)
+- Because matrix multiplication is not commutative, ST and TS are never equal. (Some pairs do commute, such as two rotations of the plane, or any matrix with the identity.)
+
 ## Questions
 
 ```yaml

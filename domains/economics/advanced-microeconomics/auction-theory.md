@@ -31,6 +31,15 @@ status: validated
 ## Core Idea
 Auction theory analyzes mechanisms for selling goods to bidders with private valuations. Key results include the revenue equivalence theorem (many auctions yield same expected revenue under symmetry) and the optimal auction design (Myerson auction). Auctions are canonical applications of mechanism design with incomplete information.
 
+## How It's Best Learned
+Start with one buyer whose value is uniform on [0, 1]. A take-it-or-leave-it price r earns r(1 − r), which peaks at r = 1/2. Then compute the virtual value v − (1 − F(v))/f(v) = 2v − 1 and see that it turns negative below 1/2. The same cutoff reappears as the optimal reserve with many bidders.
+
+## Common Misconceptions
+- A revenue-maximizing seller always sells to someone. (The Myerson auction sets a reserve price, so sometimes the item goes unsold even when a buyer values it above the seller's cost.)
+- Revenue equivalence means auction format never matters. (It holds under symmetric, risk-neutral bidders with independent private values. Risk aversion, correlated values or asymmetric bidders make format matter.)
+- In a second-price auction the winner pays their own bid. (The winner pays the second-highest bid. That is why bidding your true value is weakly dominant.)
+- The efficient auction and the revenue-maximizing auction are the same. (Efficiency gives the item to the highest value. Revenue maximization gives it to the highest virtual value above zero, and the two can differ.)
+
 ## Questions
 
 ```yaml

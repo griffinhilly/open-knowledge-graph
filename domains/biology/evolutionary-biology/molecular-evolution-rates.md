@@ -36,6 +36,15 @@ status: validated
 ## Core Idea
 Rates of molecular evolution vary among sites (constrained sites evolve slowly), genes (different functions have different constraints), and lineages (generation time, population size affect rates). Understanding rate variation is essential for accurate molecular dating and phylogenetic inference.
 
+## How It's Best Learned
+Work a dating example with two genes from species that split 50 million years ago. Gene A differs at 10% of sites, so its rate is 0.10 / (2 × 50) = 0.001 per million years. Gene B differs at 1%. Apply gene A's rate to gene B and you get 0.01 / (2 × 0.001) = 5 million years, a tenfold underestimate. Repeat with a fast and a slow lineage.
+
+## Common Misconceptions
+- A gene that evolves fast must be under strong positive selection. (Fast rates often reflect weak functional constraint, as in fibrinopeptides; positive selection needs other evidence, such as more nonsynonymous than synonymous change.)
+- Shorter generation times raise the mutation rate per generation. (The per-generation rate can be similar; more generations per year raise the rate per year.)
+- Rate variation makes molecular dating useless. (Relaxed-clock models and fossil calibrations allow useful dates as long as rate variation is modeled.)
+- Treating all sites as evolving at one rate only adds random noise. (It tends to underestimate distances between divergent sequences, because fast sites become saturated with repeated changes that go uncounted.)
+
 ## Questions
 
 ```yaml
@@ -71,7 +80,7 @@ Rates of molecular evolution vary among sites (constrained sites evolve slowly),
 
 - question: "Why must molecular dating studies calibrate substitution rates gene-by-gene rather than applying a single universal rate, and what are the consequences of ignoring this?"
   type: short-answer
-  answer: "Substitution rates vary systematically among genes based on functional constraint (among-gene variation), among sites within genes based on structural role (among-site variation), and among lineages based on generation time and population size (among-lineage variation). A single universal rate would average across all these sources of variation, producing large systematic errors for genes that evolve much faster or slower than the average. For slowly evolving genes like histones, a universal rate would dramatically overestimate divergence times; for rapidly evolving genes like fibrinopeptides, it would underestimate them. Ignored lineage effects would similarly skew dates when comparing fast-evolving rodents to slow-evolving primates. Estimated divergence times can be off by tens of millions of years when rate variation is not modeled."
+  answer: "Substitution rates vary systematically among genes based on functional constraint (among-gene variation), among sites within genes based on structural role (among-site variation), and among lineages based on generation time and population size (among-lineage variation). A single universal rate would average across all these sources of variation, producing large systematic errors for genes that evolve much faster or slower than the average. For slowly evolving genes like histones, a universal rate would dramatically underestimate divergence times; for rapidly evolving genes like fibrinopeptides, it would overestimate them. Ignored lineage effects would similarly skew dates when comparing fast-evolving rodents to slow-evolving primates. Estimated divergence times can be off by tens of millions of years when rate variation is not modeled."
   explanation: "The molecular clock is a useful approximation, not a precise metronome. Its accuracy depends critically on choosing appropriate genes, modeling rate heterogeneity with tools like gamma distributions, calibrating with fossil or biogeographic evidence, and using relaxed-clock phylogenetic models that allow branch-specific rates."
 ```
 

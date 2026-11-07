@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 Elements u, v are orthogonal if ⟨u, v⟩ = 0. The orthogonal complement M⊥ of a closed subspace M is always closed and satisfies H = M ⊕ M⊥, enabling orthogonal decompositions.
 
+## How It's Best Learned
+Work one decomposition by hand. In L²[−1,1], let M be the even functions; then M⊥ is the odd functions, and f(x) = ½(f(x) + f(−x)) + ½(f(x) − f(−x)) splits f. For eˣ this gives cosh x + sinh x. Then test a subspace that is not closed: in ℓ², the finitely supported sequences have complement {0}, so M ⊕ M⊥ falls short of ℓ².
+
+## Common Misconceptions
+- H = M ⊕ M⊥ holds for every subspace M. (It needs M closed. For a dense subspace that is not closed, M⊥ = {0}, and M ⊕ M⊥ = M is not all of H.)
+- Taking the complement twice returns M. (In general (M⊥)⊥ is the closure of M, which equals M only when M is closed.)
+- Any vector outside M lies in M⊥. (M⊥ is a subspace, not the set-theoretic complement. In ℝ², (1, 1) lies in neither the x-axis nor its complement, the y-axis.)
+- Orthogonality is transitive. (In ℝ², e₁ ⊥ e₂ and e₂ ⊥ e₁, but e₁ is not orthogonal to itself.)
+
 ## Questions
 
 ```yaml
@@ -55,7 +64,7 @@ Elements u, v are orthogonal if ⟨u, v⟩ = 0. The orthogonal complement M⊥ o
 
 - question: "How do Fourier series illustrate the orthogonal decomposition theorem in L²[−π,π]? Identify the subspace, the inner product, and what the theorem guarantees."
   type: short-answer
-  answer: "In H = L²[−π,π], the inner product is ⟨f, g⟩ = ∫f(x)g(x)dx. The trigonometric functions {1, cos(x), sin(x), cos(2x), sin(2x), …} form an orthonormal system — each pair has inner product zero, each has unit norm. Each finite collection of these functions spans a closed subspace (a space of trigonometric polynomials). The orthogonal decomposition theorem, extended to the full orthonormal basis, guarantees that any f ∈ L²[−π,π] decomposes uniquely as a Fourier series, and each Fourier coefficient is computed as the inner product ⟨f, eₙ⟩."
+  answer: "In H = L²[−π,π], the inner product is ⟨f, g⟩ = ∫f(x)g(x)dx. The trigonometric functions {1, cos(x), sin(x), cos(2x), sin(2x), …} form an orthogonal system — each pair has inner product zero, and dividing each by its norm (√(2π) for 1, √π for the others) makes the system orthonormal. Each finite collection of these functions spans a closed subspace (a space of trigonometric polynomials). The orthogonal decomposition theorem, extended to the full orthonormal basis, guarantees that any f ∈ L²[−π,π] decomposes uniquely as a Fourier series, and each Fourier coefficient is computed as the inner product ⟨f, eₙ⟩."
   explanation: "Fourier coefficients are inner products: aₙ = (1/π)⟨f, cos(nx)⟩, bₙ = (1/π)⟨f, sin(nx)⟩. The partial sums of the Fourier series are orthogonal projections onto finite-dimensional subspaces, giving the best L² approximation to f by trigonometric polynomials of degree ≤ N. The full theorem guarantees that the series converges in L² norm to f itself. This makes abstract Hilbert space geometry the engine behind one of the most widely used tools in mathematics, physics, and engineering."
 ```
 
@@ -67,4 +76,4 @@ Given a closed subspace M ⊆ H, the **orthogonal complement** M⊥ is the set o
 
 The central theorem is the **orthogonal decomposition**: if M is a closed subspace of H, then every element h ∈ H can be written uniquely as h = m + m⊥, where m ∈ M and m⊥ ∈ M⊥. This is written H = M ⊕ M⊥ (the **direct sum**). The element m is called the **orthogonal projection** of h onto M, and it is the closest point in M to h. This projection property is enormously useful: it gives you the best approximation of h from the subspace M, in the sense of minimizing the norm ‖h − m‖.
 
-In L²[−π,π], Fourier series illustrate orthogonal decomposition concretely. The functions {1, cos(x), sin(x), cos(2x), sin(2x), ...} form an **orthonormal basis** — mutually orthogonal functions each with unit norm. Every square-integrable function decomposes uniquely into a sum of these basis elements, and each Fourier coefficient is the inner product of the function with the corresponding basis element. The decomposition theorem guarantees that this sum converges in L², making the abstract theorem the engine behind one of the most useful tools in applied mathematics.
+In L²[−π,π], Fourier series illustrate orthogonal decomposition concretely. The functions {1, cos(x), sin(x), cos(2x), sin(2x), ...} are mutually orthogonal, and after dividing each by its norm (√(2π) for 1, √π for the others) they form an **orthonormal basis**. Every square-integrable function decomposes uniquely into a sum of these basis elements, and each Fourier coefficient is the inner product of the function with the corresponding basis element. The decomposition theorem guarantees that this sum converges in L², making the abstract theorem the engine behind one of the most useful tools in applied mathematics.

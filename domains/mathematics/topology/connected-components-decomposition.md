@@ -18,6 +18,15 @@ status: validated
 ## Core Idea
 The connected component of a point x is the maximal connected subset containing x. Connected components partition X into connected pieces. A space is connected iff it has one component. Component spaces are topological invariants; they classify spaces into their 'pieces.' Connected components of the identity in topological groups are normal subgroups.
 
+## How It's Best Learned
+Find the components of several spaces before using them in proofs: {1, 2, 3} with the discrete topology, ℝ \ {0, 1}, ℤ and ℚ as subspaces of ℝ, and two disjoint circles. Then use components to tell spaces apart. Removing 0 from [0, 1) leaves one component, but removing any point from (0, 1) leaves two, so the two intervals are not homeomorphic.
+
+## Common Misconceptions
+- A component is the smallest connected piece around a point. (It is the largest. The smallest connected set containing x is {x}.)
+- Components are open sets. (They are closed, but need not be open. In ℚ each component is a single point, which is not open.)
+- Two points that cannot be joined by a path lie in different components. (The topologist's sine curve is connected, so it has one component, yet some pairs of its points cannot be joined by a path.)
+- Spaces with the same number of components are homeomorphic. (The count is only a coarse invariant. [0, 1] and a circle each have one component but are not homeomorphic.)
+
 ## Questions
 
 ```yaml

@@ -33,6 +33,14 @@ status: validated
 ## Core Idea
 New Keynesian macroeconomics combines microfounded optimization (from RBC theory) with nominal rigidities and imperfect competition. The framework recognizes that prices and wages do not adjust instantly to clear markets, creating room for monetary policy to affect real variables in the short run. New Keynesian models explain why inflation responds sluggishly to demand shocks, why unemployment fluctuates, and why monetary policy can stabilize the economy—addressing key empirical facts that RBC theory struggles with.
 
+## How It's Best Learned
+Add the ingredients one at a time and ask what a monetary shock does at each step. Start with a flexible-price RBC economy, where money is neutral. Add monopolistic competition: firms now set prices with a markup, but money is still neutral. Add staggered price setting, and the same shock moves the real interest rate and output. This sequence shows which ingredient produces non-neutrality.
+
+## Common Misconceptions
+- New Keynesian models assume people are irrational or backward-looking. (Households and firms optimize with rational expectations; the friction is a limit on how often prices can be reset.)
+- New Keynesian models bring back a permanent tradeoff between inflation and output. (The real effects of a monetary shock last only while prices are still adjusting; the long-run Phillips curve in the baseline model is close to vertical.)
+- Adding sticky prices means throwing out the RBC model. (The flexible-price RBC economy remains inside the model, and technology shocks still matter; the output gap is measured against that flexible-price outcome.)
+
 ## Questions
 
 ```yaml

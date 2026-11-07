@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Mildly deleterious mutations accumulate in small populations because drift overwhelms weak purifying selection. This reduces population fitness (mutational load) and becomes critical in conservation biology and speciation.
 
+## How It's Best Learned
+Show how tiny effects add up. Suppose a small population fixes 1,000 mutations, each with s = 10⁻⁴. Fitness becomes (1 − 10⁻⁴)¹⁰⁰⁰ ≈ e^(−0.1) ≈ 0.90, about a 10% loss from changes that are each nearly invisible. Then draw the mutational meltdown loop: fitness falls, population shrinks, Ne drops, more mutations slip past selection. Mark where added gene flow or a larger Ne breaks the loop.
+
+## Common Misconceptions
+- A mutation with a tiny fitness effect is harmless. (One such mutation barely matters, but many fixed together can cause a large drop in fitness.)
+- Mutational load in small populations comes only from inbreeding. (Inbreeding exposes recessive harmful alleles, but drift can also fix slightly harmful alleles under random mating.)
+- If a small population later grows large, selection will quickly remove the mutations it fixed. (A fixed mutation has no alternative allele left for selection to favor; recovery needs new mutations or gene flow from other populations.)
+- Slightly deleterious mutations matter only for endangered species. (They affect substitution rates and genome evolution in any lineage where many mutations have |s| near 1/(2Nₑ).)
+
 ## Questions
 
 ```yaml
@@ -53,7 +62,7 @@ Mildly deleterious mutations accumulate in small populations because drift overw
 - question: "The same mutation can be efficiently removed by purifying selection in a large population but drift to fixation in a small population."
   type: true-false
   answer: true
-  explanation: "This is the central insight of the slightly deleterious mutation framework. Whether a mutation is 'visible' to selection depends on the ratio of its selection coefficient (s) to the power of drift (1/2Nₑ). The mutation's intrinsic fitness effect is fixed, but its evolutionary fate depends on population context. In a population of millions, selection can reliably detect fitness differences of 0.001%; in a population of hundreds, such differences are swamped by random sampling noise. This means the same genome change can be adaptive, neutral, or deleterious in different population contexts — a key insight for comparing molecular evolution across taxa."
+  explanation: "This is the central insight of the slightly deleterious mutation framework. Whether a mutation is 'visible' to selection depends on the ratio of its selection coefficient (s) to the power of drift (1/2Nₑ). The mutation's intrinsic fitness effect is fixed, but its evolutionary fate depends on population context. In a population of millions, selection can reliably detect fitness differences of 0.001%; in a population of hundreds, such differences are swamped by random sampling noise. This means the same genome change can behave as effectively neutral in one population and clearly deleterious in another — a key insight for comparing molecular evolution across taxa."
 
 - question: "Whether a mutation counts as 'slightly deleterious' is a fixed property of the mutation's biochemical effect on the organism, independent of population size."
   type: true-false

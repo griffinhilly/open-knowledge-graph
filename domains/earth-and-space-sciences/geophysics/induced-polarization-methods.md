@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 Induced polarization (IP) measures the polarizability of subsurface materials through frequency-dependent impedance. IP anomalies from sulfide minerals, clay minerals, and permafrost aid in ore exploration and environmental mapping.
 
+## How It's Best Learned
+Draw the equivalent circuit: one resistor for open pore paths, in parallel with a resistor and capacitor in series for paths blocked at grain surfaces. Trace the current at steady DC, at high frequency, and just after switch-off. The same sketch then explains both the time-domain voltage decay and the frequency-domain drop in resistivity.
+
+## Common Misconceptions
+- A strong IP anomaly means sulfide ore. (Graphite and clay-rich rocks also produce IP responses, and graphite can rival sulfides, so an anomaly needs drilling or other data to identify its source.)
+- Higher chargeability means more metal, so the strongest anomaly marks the richest ore. (IP responds to the area of polarizable grain surfaces. Finely disseminated sulfides can give a larger response than the same amount of coarse or massive sulfide.)
+- Time-domain and frequency-domain IP measure different properties. (They detect the same polarization, one through the voltage decay after switch-off and the other through how resistivity changes with frequency.)
+
 ## Questions
 
 ```yaml

@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Gravity and seismic data constrain different physical properties (density and seismic velocity) and can be combined in joint inversions to construct more robust models of subsurface structure. Gravity adds depth sensitivity beyond seismic surveys and provides independent constraints on density; seismics provides detailed velocity structure. Joint inversion reduces model ambiguity and improves interpretability.
 
+## How It's Best Learned
+Start with a slab estimate for a sedimentary basin: Δg = 2πGΔρh, about 0.042 mGal per meter of thickness per g/cm³ of contrast. A −10 mGal low fits about 950 m of sediment at −0.25 g/cm³, or about 480 m at −0.5 g/cm³. Now add a refraction depth of 950 m. The density-thickness trade-off collapses to one answer.
+
+## Common Misconceptions
+- Joint inversion makes the model unique. (It shrinks the set of acceptable models but does not remove non-uniqueness. The result still depends on the chosen coupling and regularization.)
+- Structural coupling needs velocity and density to rise and fall together. (The cross-gradient term only asks that the gradients line up, parallel or opposite, so a body can be fast and light as long as its edges match in both models.)
+- An empirical velocity-density rule such as Gardner's relation holds for any rock. (These rules fit particular rock groups. Gas sands and salt are common cases where velocity and density do not follow the usual trend.)
+
 ## Questions
 
 ```yaml

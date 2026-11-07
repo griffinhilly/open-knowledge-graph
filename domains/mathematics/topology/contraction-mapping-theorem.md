@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 If f: X → X is a contraction on a complete metric space (with Lipschitz constant < 1), then f has a unique fixed point and iterating f from any starting point converges to it. This theorem provides a constructive method for proving existence and uniqueness of solutions to differential equations and other problems.
 
+## How It's Best Learned
+Iterate a real contraction on a calculator. The map cos sends [0, 1] into itself, and by the mean value theorem it contracts with k = sin 1, about 0.84. Starting at 1, the iterates run 0.540, 0.858, 0.654, 0.793, ... and settle near 0.739. Compare the actual errors with the bound kⁿ/(1 − k) · d(x₀, x₁). Then iterate x ↦ x/2 on (0, 1) and watch the limit leave the space.
+
+## Common Misconceptions
+- A map that never increases distances has a fixed point. (The translation x ↦ x + 1 on ℝ preserves every distance and has no fixed point. The constant must be strictly less than 1.)
+- Any map with |f′(x)| < 1 everywhere is a contraction. (The bound must be uniform. f(x) = x + 1/x on [1, ∞) has |f′(x)| < 1 for x > 1, but f′ approaches 1 and f has no fixed point.)
+- Different starting points can lead to different fixed points. (The fixed point is unique, so every starting point leads to the same limit.)
+
 ## Questions
 
 ```yaml
@@ -47,15 +55,15 @@ If f: X → X is a contraction on a complete metric space (with Lipschitz consta
   answer: true
   explanation: "This quantitative bound is one of the theorem's most powerful practical features. It tells you precisely how many iterations are needed to achieve a desired accuracy — a feature that pure existence theorems lack. For algorithms like Newton's method (analyzed as iterated contractions), this gives explicit convergence guarantees. The bound kⁿ/(1−k) · d(x₀, f(x₀)) follows from the geometric series structure of the cumulative error across all remaining iterations."
 
-- question: "A contraction on a closed, bounded subset of ℝ is very likely to have a fixed point, even if the subset is not complete as a metric space."
+- question: "A contraction on a closed, bounded subset of an arbitrary metric space is guaranteed to have a fixed point, even if the subset is not complete."
   type: true-false
   answer: false
-  explanation: "Closed and bounded (compact) subsets of ℝ are actually complete, so this specific example works — but the claim as stated is wrong in general. In an arbitrary metric space, a closed subset need not be complete: for instance, a closed subset of an incomplete metric space inherits the incompleteness. The theorem's hypothesis is completeness, not closedness or boundedness. The key is whether Cauchy sequences in the space converge *within* the space, which requires completeness."
+  explanation: "Closed and bounded (compact) subsets of ℝ are complete, so there the claim holds — but it is wrong in general. In an arbitrary metric space, a closed bounded subset need not be complete: in ℚ, the set ℚ ∩ [1, 2] is closed and bounded, and f(x) = x/2 + 1/x maps it into itself with constant 1/2, yet the only candidate fixed point, √2, is missing. The theorem's hypothesis is completeness, not closedness or boundedness. The key is whether Cauchy sequences in the space converge *within* the space, which requires completeness."
 
 - question: "Explain why completeness is a necessary hypothesis in the Contraction Mapping Theorem, not merely a convenient simplification."
   type: short-answer
   answer: "A contraction creates a Cauchy sequence of iterates: the distances between successive iterates shrink geometrically (by factor k < 1), so the sequence is Cauchy by the geometric series. But a Cauchy sequence in an incomplete space may converge to a limit that lies *outside* the space. If the limit is outside X, then f has no fixed point in X — the theorem fails. Completeness is exactly the condition that guarantees every Cauchy sequence converges to a point *within* the space, so the limit of the iterates is an actual element of X where f is defined and where f(x*) = x* can be verified."
-  explanation: "The incompleteness counterexample is instructive: on (0,1), the map f(x) = x/2 is a contraction (k = 1/2) whose unique fixed point would be 0 — but 0 ∉ (0,1). The iterates 1/2, 1/4, 1/8, ... are Cauchy and converge, but the limit is outside the space. Completeness closes this gap. This shows completeness is load-bearing, not decorative."
+  explanation: "The incompleteness counterexample is instructive: on (0,1), the map f(x) = x/2 is a contraction (k = 1/2) whose unique fixed point would be 0 — but 0 ∉ (0,1). The iterates 1/2, 1/4, 1/8, ... are Cauchy and converge, but the limit is outside the space. Completeness closes this gap. This shows completeness is a real requirement, not decorative."
 ```
 
 ## Explainer

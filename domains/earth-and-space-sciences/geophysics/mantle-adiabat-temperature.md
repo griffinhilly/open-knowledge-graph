@@ -19,7 +19,15 @@ status: validated
 # Mantle Adiabat and Temperature Estimates
 
 ## Core Idea
-The mantle convects nearly adiabatically (without heat transfer), following an adiabatic temperature gradient of ~0.4–0.5 K/km. The potential temperature of the mantle is approximately 1300 K. Using seismic velocity data and empirical velocity-temperature relationships, mantle potential temperature can be estimated, providing constraints on mantle composition and convection vigor.
+The mantle convects nearly adiabatically (without heat transfer), following an adiabatic temperature gradient of ~0.4–0.5 K/km. The potential temperature of the mantle is approximately 1300–1350 °C (about 1600 K). Using seismic velocity data and empirical velocity-temperature relationships, mantle potential temperature can be estimated, providing constraints on mantle composition and convection vigor.
+
+## How It's Best Learned
+Compute the adiabatic gradient from dT/dz = αgT/c_p. With α = 3 × 10⁻⁵ K⁻¹, g = 10 m/s², T = 1600 K and c_p = 1200 J/(kg·K), it comes to 0.4 K/km. Draw that line from a potential temperature of 1350 °C on the same plot as a 25 K/km lithospheric geotherm. Find where the two meet, which marks roughly where conduction gives way to convection.
+
+## Common Misconceptions
+- Adiabatic means the temperature does not change. (It means no heat is exchanged with the surroundings. Temperature still rises with depth because compression warms the rock.)
+- Potential temperature is the real temperature somewhere in the mantle. (It is a reference value found by following the adiabat up to zero pressure. Actual temperatures in the convecting mantle are higher than Tp.)
+- Slow seismic velocity in the mantle means the rock is hot. (Melt, water and composition also lower velocity. Converting velocity to temperature requires assumptions about these other factors.)
 
 ## Questions
 

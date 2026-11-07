@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 A steady state in growth models is a balanced-growth path where all variables grow at constant rates and capital-to-labor ratios remain constant. Analyzing steady-state properties reveals long-run equilibrium capital stocks, consumption levels, and growth rates that determine welfare. Stability analysis around the steady state shows whether economies converge to equilibrium or diverge after disturbances, providing crucial insights into long-run economic behavior.
 
+## How It's Best Learned
+Linearize one equation first: for k̇ = s·k^α − (n + δ)k, the derivative at k* is −(1 − α)(n + δ). With α = 1/3 and n + δ = 0.06, that is −0.04, so the gap to k* halves in about 17 years. Then move to two-variable systems and classify each Jacobian: a negative determinant means one positive and one negative eigenvalue, a saddle.
+
+## Common Misconceptions
+- If the linearized system is stable, the economy converges from any starting point. (Linearization describes behavior near the steady state; global behavior needs further analysis, such as a phase diagram.)
+- A saddle point is unstable, so it cannot describe a real economy. (When one variable, such as consumption, can jump, forward-looking choices place the economy on the stable arm, and the saddle gives a unique prediction.)
+- The steady state is the best outcome the economy can reach. (It is a rest point of the dynamics; in the Solow model, for example, the steady state need not maximize consumption per worker.)
+
 ## Questions
 
 ```yaml

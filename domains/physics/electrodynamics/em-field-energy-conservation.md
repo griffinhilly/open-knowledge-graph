@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The energy density u = (ε₀E² + B²/μ₀)/2 stored in electromagnetic fields represents energy localized in space. Conservation of total energy requires the Poynting theorem relating energy flow to the rate of work on charges.
 
+## How It's Best Learned
+Compute the energy flow into a cylindrical resistor of length L, radius a, voltage V and current I. At its surface E = V/L along the axis and B = μ₀I/(2πa) around it. So S = EB/μ₀ = VI/(2πaL), pointing inward. Multiply by the side area 2πaL and you get VI, the Joule heating rate. Repeat for a charging capacitor, where energy enters through the gap's edge.
+
+## Common Misconceptions
+- The field energy of two charges is the sum of each charge's own field energy. (Energy density is quadratic in the field. The cross term ε₀E₁·E₂ holds their interaction energy.)
+- Static fields cannot have energy flow. (A charge sitting near a magnet has a nonzero E × B. The energy circulates with zero divergence, so no energy builds up anywhere.)
+- The Poynting vector at each point is fixed uniquely by the theorem. (Adding any divergence-free field to S leaves the theorem unchanged. Only the flux through closed surfaces is fixed.)
+
 ## Questions
 
 ```yaml

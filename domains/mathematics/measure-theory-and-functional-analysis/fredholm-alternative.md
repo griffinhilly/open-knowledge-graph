@@ -18,6 +18,14 @@ status: validated
 ## Core Idea
 For a compact operator T on a Banach space, either (I - T)(x) = y has a unique solution for every y, or (I - T)(x) = 0 has non-trivial solutions. This dichotomy determines solvability of integral equations.
 
+## How It's Best Learned
+Solve one equation by hand in both cases: x(t) − λ∫₀¹ x(s) ds = y(t) on L²[0,1]. Integrating gives (1 − λ)∫x = ∫y. For λ ≠ 1 the unique solution is x = y + λ∫y/(1 − λ). For λ = 1 the constants solve the homogeneous equation, and a solution exists only when ∫y = 0. Then x = y + c works for every constant c.
+
+## Common Misconceptions
+- If (I − T)x = 0 has only the zero solution, surjectivity of I − T still has to be checked. (For compact T, injectivity of I − T already makes it onto, just as for a square matrix.)
+- The alternative also governs Tx = y for compact T. (It is about I − T, or λI − T with λ ≠ 0. On an infinite-dimensional space, a compact T is never onto, so Tx = y fails for some y.)
+- In the singular case, (I − T)x = y has no solutions. (It is solvable exactly when y meets the orthogonality condition. Then the solutions form a whole family that differ by elements of the null space.)
+
 ## Questions
 
 ```yaml
@@ -41,10 +49,10 @@ For a compact operator T on a Banach space, either (I - T)(x) = y has a unique s
   answer: 2
   explanation: "The Fredholm Alternative is precisely this dichotomy: uniqueness (I − T is bijective) versus non-uniqueness of the homogeneous equation — and the two cases cannot occur simultaneously. Moreover, when the homogeneous equation has nontrivial solutions, there is a solvability condition: (I − T)x = y is solvable if and only if y is orthogonal (in the appropriate dual sense) to all solutions of the adjoint homogeneous equation (I − T*)z = 0. Option A is wrong — compact operators can create nontrivial null spaces. Option B is wrong — the theorem does not require self-adjointness. Option D misunderstands what 'infinitely many solutions' means in this context."
 
-- question: "The Fredholm Alternative applies to most bounded linear operators on infinite-dimensional Banach spaces, not just compact ones."
+- question: "The Fredholm Alternative applies to all bounded linear operators on infinite-dimensional Banach spaces, not just compact ones."
   type: true-false
   answer: false
-  explanation: "This is the most important conceptual boundary condition for the theorem. The Fredholm Alternative requires compactness (or more generally, the operator I − T being a Fredholm operator). For a general bounded operator, the finite-dimensional dichotomy breaks down entirely. The simplest counterexample is the identity operator itself: I − I = 0 maps everything to zero, so (I − I)x = y has solutions only when y = 0 — this doesn't fit the clean either/or structure. The compactness condition ensures the 'almost finite-dimensional' spectral behavior that makes the theorem work. The theorem's power comes precisely from isolating the class of operators (compact ones) where finite-dimensional intuition survives into infinite dimensions."
+  explanation: "This is the most important conceptual boundary condition for the theorem. The Fredholm Alternative requires compactness (or more generally, the operator I − T being a Fredholm operator). For a general bounded operator, the finite-dimensional dichotomy breaks down entirely. A simple counterexample on ℓ² is T = I − S, where S is the right shift: then I − T = S is injective but not onto, so neither branch of the alternative holds. The compactness condition ensures the 'almost finite-dimensional' spectral behavior that makes the theorem work. The theorem's power comes precisely from isolating the class of operators (compact ones) where finite-dimensional intuition survives into infinite dimensions."
 
 - question: "The solvability condition for (I − T)x = y in the Fredholm Alternative — that y must be orthogonal to all solutions of the adjoint homogeneous equation — is the exact infinite-dimensional analogue of the rank-nullity theorem's solvability condition for linear systems."
   type: true-false

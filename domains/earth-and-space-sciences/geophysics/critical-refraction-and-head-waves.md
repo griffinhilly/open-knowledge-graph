@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 When a seismic ray encounters a velocity increase at a boundary, it reaches a critical angle of incidence beyond which total internal reflection occurs. At the critical angle, refracted waves travel horizontally along the interface and generate head waves that arrive at large distances before direct rays. Head waves provide important constraints on velocity structure and are widely used in refraction seismic surveys.
 
+## How It's Best Learned
+Work one two-layer case by hand: V₁ = 500 m/s, V₂ = 2,000 m/s, top layer 10 m thick. The critical angle is arcsin(0.25) ≈ 14.5°, and the intercept time 2h·cosθc/V₁ is about 38.7 ms. Plot both arrival lines on a t-x graph and check that they cross near 25.8 m. Then mark the critical distance, 2h·tanθc ≈ 5.2 m, where head waves first reach the surface.
+
+## Common Misconceptions
+- Head waves first appear at the crossover distance. (They reach the surface from the critical distance onward; the crossover distance is where they start arriving before the direct wave.)
+- Beyond the critical angle, a ray still passes into the lower layer. (Beyond the critical angle there is no transmitted ray of the same wave type, so much more of the energy is reflected, which is why wide-angle reflections are strong.)
+- The slope of the head-wave line gives the depth to the interface. (The slope gives V₂; depth comes from the intercept time or crossover distance combined with V₁ and V₂.)
+- A single shot over a dipping interface gives the true lower-layer velocity. (Shooting downdip and updip gives different apparent velocities, so reversed profiles are needed to recover the true V₂ and the dip.)
+
 ## Questions
 
 ```yaml

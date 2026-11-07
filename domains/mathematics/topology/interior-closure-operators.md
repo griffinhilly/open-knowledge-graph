@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Interior and closure are operators satisfying Kuratowski's axioms: they are idempotent, expansive (or contractive), preserve unions (or intersections), and are compatible with the empty set and whole space. These axioms characterize how topologies are defined, and an alternative approach to topology is to axiomatically define a closure operator and derive the open sets from it.
 
+## How It's Best Learned
+Apply the operators by hand to A = (0, 1) ∪ (1, 2) ∪ {3} ∪ (ℚ ∩ (4, 5)) in ℝ. You get cl(A) = [0, 2] ∪ {3} ∪ [4, 5], int(cl(A)) = (0, 2) ∪ (4, 5), int(A) = (0, 1) ∪ (1, 2), and cl(int(A)) = [0, 2]. Then test a non-example against the axioms, such as the convex hull in ℝ².
+
+## Common Misconceptions
+- Closure preserves intersections the way it preserves unions. (Only cl(A ∩ B) ⊆ cl(A) ∩ cl(B) holds. In ℝ, cl(ℚ ∩ (ℝ ∖ ℚ)) = ∅, but cl(ℚ) ∩ cl(ℝ ∖ ℚ) = ℝ.)
+- Closure preserves any union. (The axiom covers finite unions. Each {1/n} is closed, but the closure of their union also contains 0.)
+- Any operator that is extensive and idempotent is a Kuratowski closure operator. (The convex hull in ℝ² has both properties, but the hull of two points is a segment, not the union of the two points' hulls.)
+- For an open set A, int(cl(A)) = A. (For A = (0, 1) ∪ (1, 2), int(cl(A)) = (0, 2), which also contains 1.)
+
 ## Questions
 
 ```yaml

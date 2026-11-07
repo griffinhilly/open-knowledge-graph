@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 A space is first-countable if every point has a countable neighborhood base. Metric spaces are first-countable. In first-countable spaces, sequential properties determine topology: f is continuous iff it preserves sequential limits. First-countability is weaker than second-countability but sufficient for many purposes.
 
+## How It's Best Learned
+Write a countable neighborhood base for several spaces: B(x, 1/n) in a metric space, [x, x + 1/n) in the Sorgenfrey line, and {x} in a discrete space. Then prove a failure. In the cofinite topology on an uncountable set, each Uₙ in a supposed countable base at x misses finitely many points. Pick y ≠ x that none of them misses. The open set X \ {y} contains x but contains no Uₙ.
+
+## Common Misconceptions
+- A first-countable space is metrizable. (Every metric space is first-countable, but not conversely. The Sorgenfrey line is first-countable and not metrizable.)
+- First-countable means the whole space has a countable basis. (That is second countability. An uncountable discrete space is first-countable but has no countable basis.)
+- A neighborhood base must consist of balls. (Any collection of neighborhoods of x works if every neighborhood of x contains one of them. In the Sorgenfrey line the sets [x, x + 1/n) serve.)
+
 ## Questions
 
 ```yaml

@@ -32,6 +32,14 @@ status: validated
 ## Core Idea
 An allocation is Pareto efficient if there is no way to make someone better off without making someone else worse off. Competitive equilibria lie on the Pareto frontier, meaning no unexploited mutually beneficial trades exist. However, many Pareto-efficient allocations exist with different distributions, so efficiency alone does not determine equilibrium; the distribution of initial endowments does.
 
+## How It's Best Learned
+Draw an Edgeworth box with 10 units of each good and u = xy for both people. Equating the two MRS values gives the contract curve y_A = x_A, the diagonal. Then start at A = (8, 2) and B = (2, 8), where the MRS values are 1/4 and 4. Trading 3 units of x for 3 of y moves both to (5, 5) and raises each utility from 16 to 25.
+
+## Common Misconceptions
+- Moving from an inefficient allocation to any efficient one makes everyone better off. (Only efficient points inside the lens between the two indifference curves through the start do that. Other points on the contract curve leave someone worse off than before.)
+- The competitive equilibrium is the one Pareto-efficient allocation. (Every point on the contract curve is efficient. The equilibrium is the point, or points, that the initial endowments lead to.)
+- Every efficient allocation has tangent indifference curves. (Tangency is the condition for interior allocations. At a corner of the box, an allocation can be efficient with unequal MRS values.)
+
 ## Questions
 
 ```yaml

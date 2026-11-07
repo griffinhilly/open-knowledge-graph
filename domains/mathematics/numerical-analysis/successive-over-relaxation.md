@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 SOR accelerates Gauss-Seidel by introducing a relaxation parameter ω: x_i^{(k+1)} = (1-ω)x_i^{(k)} + ω·(Gauss-Seidel step). For 0 < ω < 2, SOR can significantly reduce iterations needed for convergence. The optimal ω depends on the matrix eigenvalues; poor choice of ω can slow or even prevent convergence.
 
+## How It's Best Learned
+Take A = [[2, −1], [−1, 2]] and write out the SOR iteration matrix for ω = 1, 1.2, 1.5 and 1.9. Their spectral radii are 0.25, 0.2, 0.5 and 0.9. Then run a few sweeps with each ω from x = 0 and watch the error. ω = 1.2 beats Gauss-Seidel, while ω = 1.5 and ω = 1.9 are slower than Gauss-Seidel.
+
+## Common Misconceptions
+- A larger ω always gives faster convergence, so ω close to 2 is best. (Past the optimal value the spectral radius grows again, and ω near 2 can converge far more slowly than plain Gauss-Seidel.)
+- SOR converges for every matrix as long as 0 < ω < 2. (That range is a necessary condition. Inside it, convergence still depends on the matrix; for symmetric positive definite matrices it is guaranteed.)
+- Changing ω changes the answer SOR converges to. (For any ω ≠ 0 the fixed point is the solution of Ax = b. The parameter changes how fast the iterates get there, and whether they get there at all.)
+
 ## Questions
 
 ```yaml

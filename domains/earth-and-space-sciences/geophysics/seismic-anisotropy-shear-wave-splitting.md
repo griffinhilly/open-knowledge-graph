@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Seismic anisotropy—directional dependence of wave velocity—arises from aligned minerals (e.g., olivine in the mantle or mica in schists) or aligned fluid-filled cracks. S-waves split into orthogonal fast (Sf) and slow (Ss) polarizations when propagating through anisotropic media; the time delay δt between them is proportional to anisotropy strength and path length. Shear wave splitting measurements constrain mantle fabric (flow direction), crack orientation (stress or fluids), and deformation depth, providing windows into lithospheric and mantle dynamics.
 
+## How It's Best Learned
+Build a synthetic split wave by hand. Take one S pulse polarized at 30° to a chosen fast axis, project it onto the fast and slow directions, and delay the slow copy by 1 s. Plot the horizontal particle motion and see it turn elliptical. Then undo the split by trying different φ and δt values until the particle motion becomes linear again.
+
+## Common Misconceptions
+- A station that shows no splitting sits above isotropic mantle. (A null also appears when the incoming polarization lies parallel or perpendicular to the fast axis, so nulls must be checked across several back azimuths.)
+- The delay time tells you how deep the anisotropy is. (SKS splitting integrates over the whole path below the station; depth needs other evidence, such as comparing phases with different paths or using surface-wave anisotropy.)
+- The fast direction marks the mantle flow direction in every setting. (That link assumes a common olivine fabric formed in simple shear; other fabric types, such as those formed under wet, high-stress conditions, can put the fast axis at a high angle to flow.)
+- One pair of φ and δt values fully describes the anisotropy under a station. (With two or more anisotropic layers, the apparent splitting parameters change with the back azimuth of the incoming wave.)
+
 ## Questions
 
 ```yaml

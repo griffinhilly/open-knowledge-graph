@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Separation of variables reduces partial differential equations (Laplace, Poisson, wave equations) into ordinary differential equations by assuming separable solutions. In Cartesian coordinates, this yields sines and cosines; in cylindrical coordinates, Bessel functions; in spherical coordinates, Legendre polynomials. This technique is fundamental for solving structured BVPs and understanding the spectrum of modes in confined geometries.
 
+## How It's Best Learned
+Solve the infinite slot: V = 0 on y = 0 and y = a, V → 0 as x → ∞, and V = V₀ on x = 0. Choose the separation constants so Y oscillates and X decays, giving terms e^{−nπx/a} sin(nπy/a). Fourier-match at x = 0 to get V = (4V₀/π) Σ_{odd n} (1/n) e^{−nπx/a} sin(nπy/a). Then plot one, three and ten terms near the corners.
+
+## Common Misconceptions
+- All the separation constants can be negative, so every direction gets sines and cosines. (For Laplace's equation the constants sum to zero. Unless all are zero, at least one direction must have exponential or hyperbolic solutions.)
+- Which direction gets the oscillating solutions is an arbitrary choice. (The boundaries decide. A direction with V = 0 at both ends needs sines, and the direction carrying the nonzero boundary data gets exponentials or sinh and cosh.)
+- The series converges quickly everywhere on the boundary. (Near corners where the boundary value jumps, convergence is slow and partial sums overshoot, a Gibbs effect.)
+- Any boundary shape can be handled by separation if you pick clever coordinates. (Laplace's equation separates in only a limited family of coordinate systems. Irregular boundaries need other methods, such as numerical relaxation.)
+
 ## Questions
 
 ```yaml

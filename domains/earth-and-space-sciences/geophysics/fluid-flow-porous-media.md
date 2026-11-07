@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 Flow in aquifers is governed by Darcy's law (q = −K∇h). Permeability varies with grain size and cementation. Seismic velocity and electrical conductivity change when water content and pore fluid salinity vary, enabling hydrogeophysical imaging.
 
+## How It's Best Learned
+Carry one Darcy problem through to a travel time. Sand with K = 10⁻⁴ m/s under a head gradient of 0.01 gives q = 10⁻⁶ m/s. Dividing by a porosity of 0.25 gives a seepage velocity near 0.35 m/day, so water crosses 100 m in about 290 days. Repeat with clay at K = 10⁻⁹ m/s to see flow slow by a factor of 100,000.
+
+## Common Misconceptions
+- The Darcy flux is the speed at which water moves through the pores. (Water moves only through the pore space, so its average speed is the flux divided by effective porosity, which is faster.)
+- Hydraulic conductivity is a property of the rock alone. (It depends on the rock's permeability and on the fluid's density and viscosity; permeability is the rock-only property.)
+- A change in resistivity between surveys measures the change in contaminant concentration directly. (Temperature, saturation and clay content also change resistivity, so a rock physics model and borehole calibration are needed.)
+
 ## Questions
 
 ```yaml

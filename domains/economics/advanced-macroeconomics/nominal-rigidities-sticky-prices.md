@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Nominal price rigidities—including explicit contracts, menu costs, information constraints, and coordination frictions—prevent prices from adjusting instantly to changes in demand or costs. When prices are sticky, monetary shocks cannot be fully offset by proportional price increases, allowing money to have real short-run effects on output and employment. Understanding the sources, magnitude, and duration of price adjustment frictions is central to New Keynesian models and monetary policy analysis.
 
+## How It's Best Learned
+Work a menu-cost example with profit near the optimum written as π* − 2(p − p*)² and a $0.50 menu cost. A $0.40 gap loses only $0.32, so the firm keeps its price; a $0.60 gap loses $0.72, so it reprices. Then add up many such firms after a money shock to see a small private loss turn into a large change in real demand.
+
+## Common Misconceptions
+- Menu costs must be large to keep prices from moving. (Because profit is flat near its maximum, a small price gap costs very little, so small adjustment costs can be enough to deter repricing.)
+- A firm that leaves its price unchanged is acting irrationally. (Given the cost of adjusting, keeping the old price can be the profit-maximizing choice.)
+- Sticky prices means every price adjusts at the same slow pace. (Adjustment frequency varies widely across goods; fuel prices change often, while many service prices change much less often.)
+
 ## Questions
 
 ```yaml

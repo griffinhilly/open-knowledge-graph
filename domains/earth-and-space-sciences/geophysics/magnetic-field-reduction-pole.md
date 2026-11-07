@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Magnetic anomalies are displaced from their sources in non-equatorial regions. Reduction-to-the-pole transforms data as if the dipole field were vertical, relocating anomalies to their true positions and enhancing small anomalies.
 
+## How It's Best Learned
+Test the filter on a body whose position you know. Compute the anomaly of an induced sphere at 45° inclination, apply RTP, and check that the peak moves over the center. Repeat at 10° inclination, then again with remanence pointing away from the present field. Seeing where the filter works and where it fails makes field maps easier to trust or doubt.
+
+## Common Misconceptions
+- RTP centers every anomaly over its source. (Standard RTP assumes magnetization parallel to the present field. Sources with strong remanence in another direction stay displaced or distorted.)
+- RTP slides the whole map sideways by a fixed distance. (It is a wavenumber-domain filter that reshapes each anomaly according to its wavelength and direction. It can also amplify noise, badly so at low inclinations.)
+- In the northern hemisphere, the positive peak of an induced anomaly is shifted toward the pole. (For an induced source in the northern hemisphere, the positive lobe lies on the equator side, to the south, and the negative lobe lies to the north.)
+
 ## Questions
 
 ```yaml
@@ -34,7 +42,7 @@ Magnetic anomalies are displaced from their sources in non-equatorial regions. R
     - "It remains in the same location but becomes sharper, because RTP only improves resolution, not position"
     - "It disappears, because RTP removes induced anomalies and only remanent anomalies remain"
   answer: 1
-  explanation: "Reduction to the pole transforms the measured data as if the survey had been conducted at the magnetic pole, where the ambient field is vertical. This removes the lateral displacement and asymmetry introduced by the inclined field, repositioning anomaly peaks directly above their sources. The displacement at mid-latitudes occurs because the inclined ambient field causes the source's magnetization to produce an asymmetric anomaly with the peak offset in the poleward direction. RTP corrects this systematically, making the map geologically interpretable."
+  explanation: "Reduction to the pole transforms the measured data as if the survey had been conducted at the magnetic pole, where the ambient field is vertical. This removes the lateral displacement and asymmetry introduced by the inclined field, repositioning anomaly peaks directly above their sources. The displacement at mid-latitudes occurs because the inclined ambient field causes the source's magnetization to produce an asymmetric anomaly with the peak offset in the equatorward direction. RTP corrects this systematically, making the map geologically interpretable."
 
 - question: "A surveying team attempts to apply RTP processing to airborne magnetic data collected near the magnetic equator (inclination ≈ 3°). Why is this problematic?"
   type: multiple-choice
@@ -54,11 +62,11 @@ Magnetic anomalies are displaced from their sources in non-equatorial regions. R
 - question: "Reduction to the pole makes magnetic anomaly interpretation easier at mid-latitudes because, at the pole, a simple induced source produces a symmetric anomaly centered directly above the body."
   type: true-false
   answer: true
-  explanation: "This is exactly the logic behind RTP. At the magnetic pole, the ambient field is vertical and the induced magnetization is also vertical. A vertically magnetized source produces a symmetric, positive anomaly centered over it with no lateral offset and no negative lobe — a 'bulls-eye' pattern. This symmetry is what makes anomaly shapes easy to interpret in terms of source geometry and depth. At mid-latitudes, the inclined field creates asymmetric patterns with off-center peaks and flanking negative lobes, which complicate interpretation. RTP transforms the data to the simpler polar geometry."
+  explanation: "This is exactly the logic behind RTP. At the magnetic pole, the ambient field is vertical and the induced magnetization is also vertical. A vertically magnetized source produces a symmetric, positive anomaly centered over it with no lateral offset and only a weak, symmetric negative ring around it — a 'bulls-eye' pattern. This symmetry is what makes anomaly shapes easy to interpret in terms of source geometry and depth. At mid-latitudes, the inclined field creates asymmetric patterns with off-center peaks and flanking negative lobes, which complicate interpretation. RTP transforms the data to the simpler polar geometry."
 
 - question: "Why does an inclined (non-vertical) magnetic field cause a buried induced source to produce an asymmetric anomaly that is offset from the source, rather than a symmetric anomaly centered above it?"
   type: short-answer
-  answer: "An induced source magnetizes parallel to the ambient field. When the field is inclined rather than vertical, the magnetization vector has both vertical and horizontal components. The horizontal component introduces a dipolar pattern in the horizontal direction — a positive lobe on one side and a negative lobe on the other — superimposed on the vertical component's symmetric pattern. The combined effect shifts the net anomaly peak to one side of the source (toward the pole) and creates an asymmetric shape. The degree of asymmetry increases as inclination decreases toward the equator."
+  answer: "An induced source magnetizes parallel to the ambient field. When the field is inclined rather than vertical, the magnetization vector has both vertical and horizontal components. The horizontal component introduces a dipolar pattern in the horizontal direction — a positive lobe on one side and a negative lobe on the other — superimposed on the vertical component's symmetric pattern. The combined effect shifts the net anomaly peak to one side of the source (toward the equator) and creates an asymmetric shape. The degree of asymmetry increases as inclination decreases toward the equator."
   explanation: "The key insight is that magnetic anomalies depend on both the magnetization direction of the source and the direction of the field in which measurements are made. RTP effectively rotates both to vertical, eliminating the horizontal components that cause the asymmetry. Without this correction, geologists trying to locate buried sources from anomaly peaks will systematically drill in the wrong place."
 ```
 

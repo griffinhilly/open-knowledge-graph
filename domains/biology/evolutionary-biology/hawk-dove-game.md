@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 The Hawk-Dove game models conflict over a resource: Hawks fight (winning or losing) while Doves retreat, avoiding injury. At equilibrium, neither pure strategy is stable; instead, a mixed strategy evolves where the frequency of Hawks is determined by fitness equality. This game explains why animals sometimes fight fiercely and sometimes retreat, depending on population composition.
 
+## How It's Best Learned
+Write the 2×2 payoff matrix with numbers, say V = 4 and C = 6. Let p be the Hawk frequency and compute each strategy's average payoff: Hawk earns p(−1) + (1 − p)(4), Dove earns (1 − p)(2). Set them equal and solve to get p = 2/3, which matches V/C. Then try p = 0.9 and p = 0.3 to see which strategy gains.
+
+## Common Misconceptions
+- Hawk is the winning strategy because Hawks beat Doves in every encounter. (A Hawk's payoff depends on how often it meets other Hawks; when Hawks are common and C > V, costly Hawk-Hawk fights drag their average below the Doves'.)
+- At the mixed equilibrium, Hawks and Doves win the same share of contests. (What is equal at equilibrium is the average payoff of each strategy; Hawks still win more contests but pay injury costs that offset the gain.)
+- The game says a mixed population evolves whatever the values of V and C. (The mixed equilibrium at V/C requires C > V; if V exceeds C, pure Hawk is stable.)
+- Doves cooperate for the good of the group. (Dove persists because it earns as much as Hawk at the equilibrium frequency, through individual payoffs, with no appeal to group benefit.)
+
 ## Questions
 
 ```yaml
@@ -43,7 +52,7 @@ The Hawk-Dove game models conflict over a resource: Hawks fight (winning or losi
     - "Never — Hawk is always invaded by Doves regardless of V and C"
     - "When V = C — the costs and benefits exactly balance, making Hawk neutral"
   answer: 1
-  explanation: "In an all-Hawk population, each individual earns (V − C)/2 on average. A rare Dove earns 0 (it always retreats against Hawks). If V > C, then (V − C)/2 > 0 > 0... wait, the Dove earns exactly 0 regardless, and Hawks earn (V−C)/2. When V > C, (V−C)/2 > 0 > Dove's payoff? No — Dove earns 0, which equals Dove's payoff. Actually when V > C, Hawks get (V-C)/2 which is positive, and a rare Dove gets 0. Since 0 < (V-C)/2, Doves cannot invade — pure Hawk is an ESS. When C > V, (V-C)/2 is negative, so rare Doves get 0 which is better, and Dove can invade. This is why C > V is the condition for a mixed equilibrium."
+  explanation: "In an all-Hawk population, each individual earns (V − C)/2 on average. A rare Dove earns 0 (it always retreats against Hawks). When V > C, Hawks get (V − C)/2, which is positive. Since 0 < (V − C)/2, Doves cannot invade, so pure Hawk is an ESS. When C > V, (V-C)/2 is negative, so rare Doves get 0 which is better, and Dove can invade. This is why C > V is the condition for a mixed equilibrium."
 
 - question: "At the mixed ESS in the Hawk-Dove game (with C > V), the average fitness of Hawks exactly equals the average fitness of Doves, so neither strategy has a selective advantage."
   type: true-false

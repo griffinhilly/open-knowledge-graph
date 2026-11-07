@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Directional selection consistently favors alleles at one end of a phenotypic distribution, causing mean phenotype to shift monotonically over generations. The allele frequency trajectory is smooth and predictable, eventually reaching fixation unless mutation or drift counterbalance selection.
 
+## How It's Best Learned
+Compute the haploid recursion Δp = sp(1 − p)/(1 + sp) with s = 0.1 at three frequencies. At p = 0.01 the change is about 0.001; at p = 0.5 it is about 0.024; at p = 0.99 it is back to about 0.001. Plot these, or iterate in a spreadsheet, to see the S-curve emerge. Then repeat with s = 0.01 to see how s sets the time scale.
+
+## Common Misconceptions
+- Mice get bigger because each mouse grows larger to cope with the cold. (The mean shifts because larger individuals with heritable size differences leave more offspring. Individuals do not pass on size they acquired.)
+- A new beneficial mutation is bound to spread once it appears. (While rare, it is easily lost by chance. In a large population, a new mutation with a small advantage s fixes with probability of only about 2s.)
+- Once directional selection starts, the trait keeps changing in the same direction indefinitely. (Selection lasts only as long as the environment favors one extreme. Beak depth in Galápagos finches rose after a drought and later fell when conditions changed.)
+
 ## Questions
 
 ```yaml
@@ -30,10 +38,10 @@ Directional selection consistently favors alleles at one end of a phenotypic dis
   options:
     - "Mutation rate fluctuates across the experiment, causing variable rates of allele introduction"
     - "Selection pressure decreases as resistance becomes common, reducing the advantage"
-    - "When rare, most copies are hidden in heterozygotes and selection is inefficient; near fixation, few disfavored copies remain to replace"
+    - "When rare, there are few favored copies for selection to multiply; near fixation, few disfavored copies remain to replace"
     - "Genetic drift dominates when the allele is rare or near fixation, overriding directional selection"
   answer: 2
-  explanation: "The S-shaped (logistic) trajectory is an inherent feature of directional selection, not a sign of changing selection pressure. When the beneficial allele is rare, most individuals are homozygous for the ancestral allele and selection acts on relatively few favorable copies. As the allele reaches intermediate frequencies, selection is maximally efficient — many favorable vs. unfavorable comparisons are made each generation. Near fixation, there are few disfavored alleles left to replace, so the rate slows again. This is the expected mathematical trajectory, not an artifact of changing conditions."
+  explanation: "The S-shaped (logistic) trajectory is an inherent feature of directional selection, not a sign of changing selection pressure. When the beneficial allele is rare, most cells carry the ancestral allele and selection acts on relatively few favorable copies. As the allele reaches intermediate frequencies, selection is maximally efficient — many favorable vs. unfavorable comparisons are made each generation. Near fixation, there are few disfavored alleles left to replace, so the rate slows again. This is the expected mathematical trajectory, not an artifact of changing conditions."
 
 - question: "In a population of mice exposed to consistent cold winters, larger mice survive better and reproduce more. Which statement best characterizes directional selection in this scenario?"
   type: multiple-choice

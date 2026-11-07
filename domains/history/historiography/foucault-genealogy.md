@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Michel Foucault's genealogical method traces how apparently natural or timeless concepts (sexuality, madness, rationality) were historically constructed through relations of power and knowledge. Rather than seeking origins or progress, genealogy exposes contingency, discontinuity, and how power operates through the production of 'truth.' Genealogy has become a crucial tool for historians investigating how categories and subjectivities emerge and are maintained.
 
+## How It's Best Learned
+Read the opening of *Discipline and Punish*, which sets a public execution beside a later prison timetable, and list what changed: who is watched, by whom, how often and with what records. Then choose one category that feels natural today, such as "delinquent" or "normal," and ask three genealogical questions: when did it become thinkable, which institutions produced knowledge about it, and what did applying it allow those institutions to do?
+
+## Common Misconceptions
+- Calling a category constructed means it is fake or does not exist. (Genealogy shows that a category has a contingent history; constructed categories can be very real in their effects on people.)
+- Genealogy looks for the true origin of a concept. (Following Nietzsche, Foucault rejects the search for a pure origin and traces descent and emergence instead.)
+- Foucault argued that prisons are worse than torture. (His claim is that prison reform was not simple progress, because it built a new and more pervasive form of power through surveillance and normalization.)
+- Power-knowledge means powerful people decide what counts as true. (Foucault means that knowledge and power produce each other through institutions and practices, not only through the choices of rulers.)
+
 ## Questions
 
 ```yaml

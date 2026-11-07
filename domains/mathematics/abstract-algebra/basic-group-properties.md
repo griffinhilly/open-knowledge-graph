@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Basic group properties include uniqueness of identity and inverses, cancellation laws, and (ab)^{-1} = b^{-1}a^{-1}. These follow directly from axioms and are used throughout group theory. Proofs are brief but build essential intuition.
 
+## How It's Best Learned
+Write each proof one equality per line and label the axiom that justifies each step. Then test the inverse rule in S₃ with a = (1 2) and b = (2 3). Composing right to left, ab = (1 2 3), so (ab)⁻¹ = (1 3 2). Since a⁻¹b⁻¹ = ab = (1 2 3) but b⁻¹a⁻¹ = ba = (1 3 2), the reversed order is the one that works.
+
+## Common Misconceptions
+- The inverse of a product is the product of the inverses in the same order, (ab)⁻¹ = a⁻¹b⁻¹. (The order reverses: (ab)⁻¹ = b⁻¹a⁻¹. The two agree in abelian groups, which is why the error goes unnoticed with numbers.)
+- If ab = ca, you can cancel a to get b = c. (Cancellation needs a on the same side of both products. From ab = ca you only get b = a⁻¹ca, which can differ from c when a and c do not commute.)
+- To show b is the inverse of a, you must check both ab = e and ba = e. (In a group, ab = e is enough. Multiply on the left by a⁻¹ to get b = a⁻¹.)
+
 ## Questions
 
 ```yaml

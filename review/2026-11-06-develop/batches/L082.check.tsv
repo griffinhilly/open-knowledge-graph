@@ -1,0 +1,62 @@
+domains/mathematics/measure-theory-and-functional-analysis/minkowski-inequality-lp.md	how	4	0	ok	worked p=1/2 indicator example: 4 > 2 checks
+domains/mathematics/measure-theory-and-functional-analysis/minkowski-inequality-lp.md	mis	8	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/minkowski-inequality-lp.md	old:q:3	1	1	fixed	garbled stem "holds for most p > 0" restored to "every p > 0"
+domains/mathematics/measure-theory-and-functional-analysis/monotone-convergence-theorem-analysis.md	how	4	0	ok	worked: int min(x^-1/2, n) = 2 - 1/n checks
+domains/mathematics/measure-theory-and-functional-analysis/monotone-convergence-theorem-analysis.md	mis	8	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/monotone-convergence-theorem-analysis.md	old:q:0:explanation	1	1	fixed	f_4(1/4) is 0 (open interval (0,1/4)), not 4; removed f_5 term
+domains/mathematics/measure-theory-and-functional-analysis/normed-vector-spaces.md	how	4	0	ok	worked: (1,1) gives 4 > 2; x^n L1 norm 1/(n+1)
+domains/mathematics/measure-theory-and-functional-analysis/normed-vector-spaces.md	mis	8	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/open-mapping-theorem.md	how	4	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/open-mapping-theorem.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/operator-norm.md	how	4	0	ok	worked: l1 norm 2, linf norm 3, l2 norm sqrt5 all check
+domains/mathematics/measure-theory-and-functional-analysis/operator-norm.md	mis	8	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/orthogonality-and-projections.md	how	4	0	ok	worked: P(x^2)=1/3 on L2[-1,1] checks
+domains/mathematics/measure-theory-and-functional-analysis/orthogonality-and-projections.md	mis	8	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/orthogonality-and-projections.md	old:q:2	1	1	fixed	ambiguous stem "should not be in M" changed to "cannot be in M" (answer false stands)
+domains/mathematics/measure-theory-and-functional-analysis/orthogonality-hilbert-spaces.md	how	4	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/orthogonality-hilbert-spaces.md	mis	8	0	ok	transitivity bullet is weak as a misconception but valid
+domains/mathematics/measure-theory-and-functional-analysis/orthogonality-hilbert-spaces.md	old:q:4:answer	1	1	fixed	1, cos nx, sin nx on [-pi,pi] are orthogonal, not unit norm (norms sqrt(2pi), sqrt(pi)); said so
+domains/mathematics/measure-theory-and-functional-analysis/orthogonality-hilbert-spaces.md	old:ex	1	1	fixed	same unit-norm error in Explainer Fourier paragraph
+domains/mathematics/measure-theory-and-functional-analysis/orthonormal-bases-in-hilbert.md	how	4	0	ok	worked: sums 1/3 and 1/15 check
+domains/mathematics/measure-theory-and-functional-analysis/orthonormal-bases-in-hilbert.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/orthonormal-bases-in-hilbert.md	old:q:2	1	1	fixed	garbled stem "if and mainly if ... most element" restored to "if and only if ... every element"
+domains/mathematics/measure-theory-and-functional-analysis/product-measures-definition.md	how	4	0	ok	worked: strip sums (n-1)/(2n), (n+1)/(2n), diagonal cover 1/n check
+domains/mathematics/measure-theory-and-functional-analysis/product-measures-definition.md	mis	8	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/product-measures-definition.md	old:q:3	1	1	fixed	garbled stem "Most set" restored to "Every set"
+domains/mathematics/measure-theory-and-functional-analysis/product-measures-definition.md	old:ex	1	1	fixed	Explainer claimed unique extension without sigma-finiteness, contradicting new mis bullet and Q2; added sigma-finite condition
+domains/mathematics/measure-theory-and-functional-analysis/product-measures-definition.md	old:q:0:explanation	1	1	fixed	same: uniqueness of extension now conditioned on sigma-finiteness
+domains/mathematics/measure-theory-and-functional-analysis/product-measures-fubini-theorem.md	how	4	0	ok	worked: inner integral 1/(1+x^2), pi/4; (e-1)/2 checks
+domains/mathematics/measure-theory-and-functional-analysis/product-measures-fubini-theorem.md	mis	8	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/radon-nikodym-theorem.md	how	4	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/radon-nikodym-theorem.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/radon-nikodym-theorem.md	old:core	1	1	fixed	Core Idea required only nu sigma-finite; the theorem needs mu sigma-finite (the How counterexample has nu=Lebesgue sigma-finite); now "mu and nu are sigma-finite"
+domains/mathematics/measure-theory-and-functional-analysis/reflexive-spaces.md	how	4	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/reflexive-spaces.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/reflexive-spaces.md	old:q:4:answer	1	1	fixed	deleted false claim that an abstract isomorphism X = X** tells you only the Hamel-basis cardinality
+domains/mathematics/measure-theory-and-functional-analysis/riemann-lebesgue-comparison.md	how	3	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/riemann-lebesgue-comparison.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/riesz-representation-hilbert.md	how	4	0	ok	worked: norm 1/sqrt2; y=f(z)z=(1,1) checks
+domains/mathematics/measure-theory-and-functional-analysis/riesz-representation-hilbert.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/riesz-representation-hilbert.md	old:q:3	1	1	fixed	garbled stem "there is typically an isometric isomorphism" restored to "there is an"
+domains/mathematics/measure-theory-and-functional-analysis/riesz-representation-theorem-hilbert.md	how	4	0	ok	worked: both norms 1/sqrt3 check
+domains/mathematics/measure-theory-and-functional-analysis/riesz-representation-theorem-hilbert.md	mis	6	1	fixed	dropped qualifier: y_n = f(e_n) holds only for an orthonormal basis; "A basis" -> "An orthonormal basis"
+domains/mathematics/measure-theory-and-functional-analysis/riesz-representation-theorem-hilbert.md	old:q:2	1	1	fixed	garbled stem "nearly every Banach space" restored to "every Banach space"
+domains/mathematics/measure-theory-and-functional-analysis/riesz-representation-theorem-hilbert.md	old:ex	1	1	fixed	Explainer said QM observables are bounded functionals and each matches a state; observables are self-adjoint operators; rewrote as bra/ket identification
+domains/mathematics/measure-theory-and-functional-analysis/signed-measures-hahn-jordan.md	how	4	0	ok	worked: nu+ = nu- = 2, |nu| = 4 checks
+domains/mathematics/measure-theory-and-functional-analysis/signed-measures-hahn-jordan.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/signed-measures-hahn-jordan.md	old:q:3	1	1	fixed	garbled stem "is largely unique" restored to "is unique"
+domains/mathematics/measure-theory-and-functional-analysis/sobolev-spaces-introduction.md	how	4	0	ok	worked: both integrations by parts check, int sgn phi' = -2 phi(0)
+domains/mathematics/measure-theory-and-functional-analysis/sobolev-spaces-introduction.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/sobolev-spaces-introduction.md	old:q:3	1	1	fixed	garbled stem "Nearly every function" restored to "Every function"
+domains/mathematics/measure-theory-and-functional-analysis/sobolev-spaces-introduction.md	old:q:0	1	1	fixed	|x| is not in L^p(R); stem now says "on (-1, 1)" so answer "W^{1,p} for any p >= 1" is true
+domains/mathematics/measure-theory-and-functional-analysis/spectral-theorem-compact-self-adjoint.md	how	4	0	ok	worked: (Tf)'' = -f, f(0)=0, f'(1)=0, eigenvalues 1/((n-1/2)^2 pi^2) check
+domains/mathematics/measure-theory-and-functional-analysis/spectral-theorem-compact-self-adjoint.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/tonelli-theorem.md	how	4	0	ok	worked: Frullani ln(b/a) and divergent series case check
+domains/mathematics/measure-theory-and-functional-analysis/tonelli-theorem.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/uniform-boundedness-principle.md	how	3	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/uniform-boundedness-principle.md	mis	8	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/weak-convergence.md	how	3	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/weak-convergence.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/weak-star-convergence.md	how	4	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/weak-star-convergence.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/weak-star-convergence.md	q:4:explanation	6	0	ok	Alaoglu/Tychonoff sketch and subnet/subsequence caveat correct

@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Balancing selection maintains multiple alleles in a population by favoring heterozygotes or varying selection across environments. Classic mechanisms include overdominance (heterozygote advantage) and frequency-dependent selection. Balancing selection is crucial for explaining persistent polymorphisms like ABO blood groups.
 
+## How It's Best Learned
+Compute marginal allele fitnesses for an overdominant locus. Give AA fitness 0.8, Aa fitness 1 and aa fitness 0.2. The equilibrium frequency of A is 0.8/(0.2 + 0.8) = 0.8. At p = 0.8 both alleles have marginal fitness 0.84. At p = 0.9, A drops to 0.82 while a rises to 0.92, so selection pushes p back down. Then compare with the predator search-image case, where fitness depends on morph frequency directly.
+
+## Common Misconceptions
+- If heterozygotes are fittest, selection will eventually make every individual a heterozygote. (Two heterozygous parents produce homozygous offspring a quarter of the time each, so both homozygotes reappear every generation.)
+- Balancing selection holds the two alleles at equal frequencies. (The equilibrium depends on the relative costs of the two homozygotes. In malaria regions, HbS stays much rarer than HbA.)
+- Any polymorphism that has lasted a long time must be under balancing selection. (Neutral alleles can persist for long periods under drift, and harmful alleles can persist at low frequency through recurrent mutation. Signatures such as excess intermediate-frequency alleles are needed to infer balancing selection.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +67,7 @@ Balancing selection maintains multiple alleles in a population by favoring heter
 - question: "Explain why overdominance (heterozygote advantage) produces a stable equilibrium where both alleles persist rather than one allele eventually driving the other to fixation."
   type: short-answer
   answer: "Overdominance creates a fitness landscape where the heterozygote Aa outperforms both homozygotes AA and aa. As a result, each allele has frequency-dependent fitness: when allele A is common, most A-bearing individuals are AA (low fitness), so selection acts against A. When A is rare, most A-bearing individuals are Aa (high fitness), so selection favors A. The same negative frequency dependence applies to allele a. Each allele is favored when rare and disfavored when common, producing a stable equilibrium frequency where both alleles persist indefinitely. At this equilibrium, the marginal fitness of each allele (averaged over all genotypes it appears in) is equal. Any perturbation from this equilibrium is corrected by selection, making it a stable attractor rather than a transient state."
+  explanation: "The key quantity is each allele's marginal fitness, the average fitness of the genotypes it sits in. With fitnesses 1 - s for AA, 1 for Aa and 1 - t for aa, the marginal fitness of A is 1 - ps and that of a is 1 - qt. These are equal when p = t/(s + t). Above that frequency, a has the higher marginal fitness and p falls; below it, A has the higher marginal fitness and p rises. Selection therefore returns the population to the same point from either side, which is what makes the equilibrium stable. Sickle-cell hemoglobin in malaria regions follows this pattern."
 ```
 
 ## Explainer

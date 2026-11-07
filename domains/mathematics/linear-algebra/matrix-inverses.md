@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 A square matrix A is invertible if there exists A^{-1} such that AA^{-1} = A^{-1}A = I. A matrix is invertible if and only if it has full rank and non-zero determinant. Invertibility is equivalent to being non-singular and having linearly independent rows and columns.
 
+## How It's Best Learned
+Start with A = [[2, 1], [5, 3]]. Its determinant is 6 − 5 = 1, so the 2 × 2 formula gives A⁻¹ = [[3, −1], [−5, 2]]. Multiply A by this result to get I. Then row-reduce [A | I] to [I | A⁻¹] and get the same matrix. Last, try [[1, 2], [2, 4]] and watch the row reduction produce a zero row.
+
+## Common Misconceptions
+- The inverse of a matrix is found by taking the reciprocal of each entry. (A⁻¹ is the matrix that multiplies with A to give I; for [[2, 1], [5, 3]] it is [[3, −1], [−5, 2]], not the entrywise reciprocals.)
+- (AB)⁻¹ = A⁻¹B⁻¹. (The order reverses: (AB)⁻¹ = B⁻¹A⁻¹, because B⁻¹A⁻¹AB = I.)
+- A matrix with no zero entries is invertible, and one with zeros is not. (Zeros do not decide it: [[1, 2], [2, 4]] has no zeros and is singular, while the identity matrix has many zeros and is invertible.)
+- (A + B)⁻¹ = A⁻¹ + B⁻¹. (This fails in general; with A = B = I, the left side is I/2 and the right side is 2I.)
+
 ## Questions
 
 ```yaml

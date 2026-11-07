@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 The geomagnetic field reverses at irregular intervals (averaging ~200 ka). A geomagnetic polarity time scale (GPTS) documents reversal patterns; magnetostratigraphy correlates magnetic reversals in sediments and lavas to the GPTS for dating.
 
+## How It's Best Learned
+Build a polarity column from a list of sample depths and polarities, then slide it along a printed GPTS strip until the pattern of zone thicknesses fits. Anchor one boundary first: if the Brunhes–Matuyama boundary, about 0.78 Ma, lies at 39 m in a core, the mean sedimentation rate is 50 m per million years. Use that rate to predict where older boundaries should fall, then check them.
+
+## Common Misconceptions
+- A single normal or reversed zone can be dated by its polarity. (Polarity alone gives only two choices; a unique match to the GPTS needs the pattern of several zones and their relative thicknesses.)
+- A reversal happens instantly. (A polarity transition takes on the order of thousands of years, which is short enough on geological timescales to serve as a near-synchronous marker.)
+- Every thin polarity zone in a section is a real chron or subchron. (Brief zones can come from excursions, later remagnetization or a single bad sample, so they need replication before correlation.)
+- If a chron is missing from a section, the field did not reverse at that time. (A hiatus or erosion can remove part of the record, and changes in sedimentation rate stretch or squeeze zone thicknesses.)
+
 ## Questions
 
 ```yaml
@@ -63,7 +72,7 @@ The geomagnetic field reverses at irregular intervals (averaging ~200 ka). A geo
 
 ## Explainer
 
-From your study of the geodynamo, you know that Earth's magnetic field periodically reverses polarity — north becomes south and south becomes north. From paleomagnetic dating, you know that rocks can record these polarity states and that the pattern of reversals can be matched across distant locations. Geomagnetic reversal chronology brings these ideas together into a single, precisely calibrated framework: the **geomagnetic polarity time scale (GPTS)**, which is essentially a barcode of normal and reversed polarity intervals stretching back through geologic time.
+From your study of the geodynamo, you know that Earth's magnetic field repeatedly reverses polarity at irregular intervals — north becomes south and south becomes north. From paleomagnetic dating, you know that rocks can record these polarity states and that the pattern of reversals can be matched across distant locations. Geomagnetic reversal chronology brings these ideas together into a single, precisely calibrated framework: the **geomagnetic polarity time scale (GPTS)**, which is essentially a barcode of normal and reversed polarity intervals stretching back through geologic time.
 
 The GPTS was originally constructed by measuring the magnetic polarity and radiometric ages of young volcanic rocks, particularly basalt flows in places like Iceland and the western United States. When many dated lava flows were arranged in time sequence, a pattern emerged: intervals of normal polarity (field oriented like today) alternating with intervals of reversed polarity at irregular spacings. The major polarity intervals, lasting roughly 0.5 to 5 million years, are called **chrons** and are named after pioneers of geomagnetism — Brunhes (current normal), Matuyama (reversed), Gauss (normal), and Gilbert (reversed) for the most recent four. Within chrons, shorter episodes of opposite polarity called **subchrons** add finer detail; the Olduvai and Jaramillo subchrons within the Matuyama, for example, are normal-polarity intervals lasting a few hundred thousand years each.
 

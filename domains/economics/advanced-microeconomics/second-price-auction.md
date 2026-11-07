@@ -23,6 +23,12 @@ In a Vickrey auction, the highest bidder wins but pays the second-highest bid. T
 ## How It's Best Learned
 Analyze bidder payoffs graphically. Show that truthful bid maximizes utility for any bid distribution. Compare revenue with first-price auctions.
 
+## Common Misconceptions
+- Overbidding is harmless because the winner pays the second-highest bid. (Overbidding can win at a price above your value. Bid 800 on a value of 600 against a rival's 750, and you pay 750 for a 600 item.)
+- Truthful bidding is strictly better than every other bid. (It is weakly dominant. Against given rival bids, many other bids give the same outcome, and truthful bidding is never worse.)
+- Since the winner pays only the second-highest bid, the seller earns less than in a first-price auction. (Under the revenue equivalence assumptions, expected revenue is the same. First-price bidders shade their bids by just enough to offset the difference.)
+- Bidding your value estimate stays dominant when the item is worth the same to everyone, such as oil drilling rights. (The dominance argument needs private values. With a common value, winning means others estimated lower, so bidders should shade to avoid the winner's curse.)
+
 ## Questions
 
 ```yaml

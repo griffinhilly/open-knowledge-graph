@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 A space is normal if disjoint closed sets F, G have disjoint open neighborhoods. Every compact Hausdorff space and every metric space is normal.
 
+## How It's Best Learned
+Run the metric proof on a hard pair in ℝ²: F, the x-axis, and G, the curve y = 1/x for x > 0. Both are closed and disjoint, yet they come arbitrarily close, so no strip of fixed width separates them. Check that U = {p : d(p, F) < d(p, G)} and V = {p : d(p, G) < d(p, F)} still work. Then compare with the Sorgenfrey plane, which is regular but not normal.
+
+## Common Misconceptions
+- Disjoint closed sets are some positive distance apart, and that is why they can be separated. (The x-axis and the curve y = 1/x are disjoint closed sets at distance 0. The separation comes from comparing d(p, F) with d(p, G) at each point.)
+- Normality by itself implies Hausdorff. (A two-point space with the indiscrete topology is normal, since it has no nonempty disjoint closed sets, but it is not Hausdorff. Many texts add T₁ to the definition of T₄ for this reason.)
+- Products of normal spaces are normal. (The Sorgenfrey line is normal, but its square, the Sorgenfrey plane, is not.)
+- Every subspace of a normal space is normal. (Closed subspaces are, but arbitrary ones need not be: the deleted Tychonoff plank is a non-normal subspace of a compact Hausdorff space.)
+
 ## Questions
 
 ```yaml
@@ -44,7 +53,7 @@ A space is normal if disjoint closed sets F, G have disjoint open neighborhoods.
   answer: 2
   explanation: "The two major classes guaranteed to be normal are metric spaces and compact Hausdorff spaces. For metric spaces, the proof is constructive using the distance function. For compact Hausdorff spaces, compactness and Hausdorff-ness together force normality. Regular spaces are NOT automatically normal — there exist T₃ spaces that fail T₄, such as certain infinite products. The hierarchy T₁ ⊂ T₂ ⊂ T₃ does not automatically continue to T₄ without additional hypotheses."
 
-- question: "Nearly every Hausdorff (T₂) topological space is automatically normal (T₄)."
+- question: "Every Hausdorff (T₂) topological space is automatically normal (T₄)."
   type: true-false
   answer: false
   explanation: "This is the most common misconception about the separation axiom hierarchy. The T₁ ⊂ T₂ ⊂ T₃ ⊂ T₄ containments do NOT hold in general without extra conditions. There exist Hausdorff spaces that are not regular, and regular spaces that are not normal. A famous example of a non-normal Hausdorff space is the Niemytzki (Moore) plane. Normality requires substantially more structure than Hausdorff-ness — the condition that arbitrary disjoint closed sets (not just points) can be separated is genuinely harder to satisfy."
@@ -64,7 +73,7 @@ A space is normal if disjoint closed sets F, G have disjoint open neighborhoods.
 
 You've studied the **separation axioms** — a hierarchy of conditions that capture how well a topological space can separate points and sets using open sets. Recall the key levels: T₁ (points are closed), T₂ or Hausdorff (disjoint points have disjoint open neighborhoods), and T₃ or regular (a point and a disjoint closed set have disjoint open neighborhoods). **Normal spaces** (T₄) push this one step further: *two disjoint closed sets* can always be separated by disjoint open neighborhoods.
 
-To feel why this is a meaningful strengthening, compare T₃ and T₄. In a regular space, you can separate a *point* from a closed set it doesn't belong to. But a single point is a very special kind of closed set. Normality demands the same separation for *arbitrary* disjoint closed sets — even large, complicated ones. In some pathological spaces (certain infinite products, the long line), disjoint closed sets cannot always be separated this way, showing that normality is a genuine restriction.
+To feel why this is a meaningful strengthening, compare T₃ and T₄. In a regular space, you can separate a *point* from a closed set it doesn't belong to. But a single point is a very special kind of closed set. Normality demands the same separation for *arbitrary* disjoint closed sets — even large, complicated ones. In some pathological spaces (certain infinite products, the Sorgenfrey plane), disjoint closed sets cannot always be separated this way, showing that normality is a genuine restriction.
 
 The two major classes of normal spaces are metric spaces and compact Hausdorff spaces. For metric spaces, the proof is constructive: given disjoint closed sets F and G in a metric space, let U = {x : d(x,F) < d(x,G)} and V = {x : d(x,G) < d(x,F)}. These are open (they're defined by strict inequalities of continuous functions), disjoint, and contain F and G respectively. The metric provides enough structure to build the separating neighborhoods explicitly. For compact Hausdorff spaces, the argument is topological: compactness lets you build finite open covers, and Hausdorff-ness provides local separability that can be pieced together globally.
 

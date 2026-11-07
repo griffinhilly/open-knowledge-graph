@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Earthquakes are classified as shallow (<70 km), intermediate (70–300 km), or deep (>300 km) based on focal depth. Shallow earthquakes occur at all plate boundaries; intermediate and deep earthquakes occur primarily in subduction zones where cold, sinking lithosphere remains brittle at depths where surface rocks would deform plastically. Focal depth patterns reveal lithospheric structure and plate convergence geometry.
 
+## How It's Best Learned
+Plot a catalog of hypocenters on a cross-section drawn perpendicular to one trench, coloring each depth class differently. Read the slab dip from the plot: if events at 300 km depth sit 400 km from the trench, the average dip is arctan(300/400) ≈ 37°. Then make the same plot for a mid-ocean ridge, where nearly every event falls in the shallow class.
+
+## Common Misconceptions
+- Deep earthquakes happen directly beneath the trench. (They occur along the dipping slab, often hundreds of kilometres from the trench on the overriding-plate side.)
+- The 70 km and 300 km boundaries mark three physical layers. (They are classification conventions; seismicity changes gradually with depth, and slab processes do not switch at those exact depths.)
+- A deep earthquake shakes the surface as hard as a shallow one of the same magnitude. (The waves travel hundreds of kilometres before reaching the surface, so shaking near the epicenter is usually much weaker, though it may be felt over a wide area.)
+
 ## Questions
 
 ```yaml
@@ -60,6 +68,7 @@ Earthquakes are classified as shallow (<70 km), intermediate (70–300 km), or d
 - question: "Explain why deep-focus earthquakes (>300 km) can occur within subducting slabs but not in the surrounding mantle at the same depth."
   type: short-answer
   answer: "At depths greater than 300 km, the ambient mantle is hot enough that rocks flow plastically — the pressure-temperature conditions favor ductile deformation rather than elastic fracture. Earthquakes require brittle failure: rock must store elastic energy and then snap suddenly. The subducting oceanic slab, however, is old and cold when it begins to descend, and it sinks faster than heat can diffuse inward from the surrounding mantle. This creates a persistent thermal anomaly: the slab remains hundreds of degrees cooler than the surrounding mantle at the same depth. That temperature difference preserves the conditions for brittle failure, or enables dehydration embrittlement — where minerals in the subducting slab release water at specific pressure-temperature conditions, reducing effective stress and triggering sudden fracture. Without this temperature contrast, deep-focus seismicity would be impossible."
+  explanation: "The answer ties seismicity to temperature rather than to depth or pressure alone. The slab and the mantle around it sit at the same pressure, yet only the slab produces earthquakes, so the slab's low temperature is the key difference. Cold rock can store elastic strain and release it suddenly, while hot mantle relieves stress by slow flow. The answer names dehydration embrittlement as one possible failure mechanism because the exact process at the greatest depths is still debated."
 ```
 
 ## Explainer

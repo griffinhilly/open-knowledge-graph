@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Lᵖ(μ) is the space of measurable functions with ∫|f|ᵖ dμ < ∞, identified modulo null sets, equipped with norm ‖f‖ₚ = (∫|f|ᵖ dμ)^(1/p). These are the fundamental function spaces in functional analysis and harmonic analysis.
 
+## How It's Best Learned
+Build a membership table for power functions. With Lebesgue measure, x^(−a) on (0,1] lies in Lᵖ exactly when ap < 1, because ∫₀¹ x^(−ap) dx is finite only then. On [1, ∞) the condition flips to ap > 1. Then show Lᵖ is closed under addition before any Minkowski argument: |f + g| ≤ 2·max(|f|, |g|) gives |f + g|ᵖ ≤ 2ᵖ(|f|ᵖ + |g|ᵖ).
+
+## Common Misconceptions
+- Functions in Lᵖ must be bounded. (On (0,1], x^(−1/4) is unbounded but lies in L², since ∫₀¹ x^(−1/2) dx = 2.)
+- Membership in Lᵖ depends only on how tall a function gets. (It also depends on how far the function spreads. For x^(−a), the condition is ap < 1 near 0 but ap > 1 near infinity.)
+- The same formula gives a norm for 0 < p < 1. (For p < 1 the triangle inequality fails: with counting measure on two points, f = (1, 0) and g = (0, 1) give ‖f + g‖ = 2^(1/p) > 2.)
+
 ## Questions
 
 ```yaml
@@ -49,7 +57,7 @@ Lᵖ(μ) is the space of measurable functions with ∫|f|ᵖ dμ < ∞, identifi
   answer: true
   explanation: "Completeness is the key structural property that makes Lᵖ spaces analytically useful. Without it, limits of sequences of Lᵖ functions might escape the space, making analysis intractable. The Riesz-Fischer theorem establishes that Lᵖ is complete for all 1 ≤ p ≤ ∞. This property underpins all convergence theorems in functional analysis and makes Lᵖ spaces suitable for solving differential equations, optimization problems, and approximation questions."
 
-- question: "On a probability space (total measure 1), most function in L¹ is also in L², since a finite integral automatically implies a finite squared integral."
+- question: "On a probability space (total measure 1), every function in L¹ is also in L², since a finite integral automatically implies a finite squared integral."
   type: true-false
   answer: false
   explanation: "The inclusion goes the other direction: on a probability space, L∞ ⊆ L² ⊆ L¹. A function can have finite integral (L¹) without having finite squared integral (L²). For example, f(x) = x^(−3/4) on (0,1]: ∫₀¹ x^(−3/4) dx = 4 (finite, so f ∈ L¹), but ∫₀¹ x^(−3/2) dx diverges (f ∉ L²). Higher Lᵖ membership is the more restrictive condition — being in L² is a stronger requirement than being in L¹ on probability spaces."

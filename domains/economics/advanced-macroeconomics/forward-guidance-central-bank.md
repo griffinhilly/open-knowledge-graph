@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Forward guidance—explicit central bank communication about future policy—directly affects current expectations and spending when nominal rates are at zero. By credibly committing to future accommodation, central banks lower current long-term rates and inflation expectations, stimulating consumption and investment.
 
+## How It's Best Learned
+Price a three-year bond as the average of expected one-year rates, ignoring the term premium. If markets expect 0%, 1%, and 2%, the three-year rate is 1%. A credible promise of zero for two years changes the path to 0%, 0%, 2%, and the rate falls to about 0.67% with no change in today's rate. Then solve the IS curve forward to see the same logic for output.
+
+## Common Misconceptions
+- Forward guidance is a tool for the zero lower bound only. (Central banks can guide expectations at any rate level; it is most valuable at the bound because the usual tool is unavailable.)
+- Any statement that rates will stay low is stimulative. (If the public reads it as a gloomy forecast instead of a commitment, it can lower expected income and spending.)
+- In the standard New Keynesian model, promises about the distant future have small effects. (Solving the IS curve forward, a rate promise far ahead moves output today about as much as a near one, and more once inflation effects are included. This is called the forward guidance puzzle.)
+
 ## Questions
 
 ```yaml

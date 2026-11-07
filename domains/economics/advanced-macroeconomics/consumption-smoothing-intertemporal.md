@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 The permanent income hypothesis asserts that rational agents spread consumption evenly across their lifetime given expected lifetime income. Temporary income shocks have small effects on consumption (high marginal propensity to save), while permanent shocks have large effects. This implies permanent income, not current income, drives consumption.
 
+## How It's Best Learned
+Work a three-period case with a zero interest rate and no discounting. Income of 50, 50, 110 sums to 210, so consumption is 70 each period, with borrowing of 20 twice and repayment of 40 at the end. Add a one-time 30 in period 1 and consumption rises by 10 per period. Add 30 in every period and it rises by 30.
+
+## Common Misconceptions
+- Consumption smoothing means a perfectly flat consumption path. (The path is flat when the interest rate equals the rate of time preference; otherwise the Euler equation tilts it upward or downward.)
+- Under the PIH, current income does not matter for consumption. (Current income matters as news: a change that signals a permanent rise in income moves consumption almost one for one.)
+- Households that spend most of a stimulus check show that people do not want to smooth consumption. (A household that cannot borrow may want a smoother path but be unable to reach it, so it spends extra cash when it arrives.)
+
 ## Questions
 
 ```yaml
@@ -53,7 +61,7 @@ The permanent income hypothesis asserts that rational agents spread consumption 
   answer: true
   explanation: "A temporary shock affects only one period's income. When spread over a lifetime of, say, 40 remaining years, the impact on permanent income is roughly 1/40 of the shock. Since consumption tracks permanent income, the marginal propensity to consume out of transitory income is very close to zero. Almost all of the temporary windfall should be saved. This is the sharpest empirical prediction of the PIH and one of its most tested implications."
 
-- question: "The permanent income hypothesis implies that households with higher current incomes generally consume more than households with lower current incomes."
+- question: "The permanent income hypothesis implies that households with higher current incomes always consume more than households with lower current incomes."
   type: true-false
   answer: false
   explanation: "The PIH says consumption tracks permanent income, not current income. A young doctor in residency (high permanent income, low current income) may consume more than a retired worker on a comfortable pension (moderate permanent income, moderate current income). Conversely, a farmer who had a one-time bumper crop has high current income but low permanent income and should save most of it, consuming little. Current income is only relevant insofar as it updates the estimate of permanent income."

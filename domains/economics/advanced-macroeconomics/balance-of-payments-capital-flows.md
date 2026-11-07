@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 The balance of payments is an accounting identity: the current account (trade in goods, services, and income) plus the financial account (changes in international asset holdings) sum to zero. A current account deficit means the country is borrowing from abroad; this can reflect high productivity (profitable investment opportunities) or low savings. Persistent current account deficits are unsustainable if they require unbounded accumulation of foreign debt; crises occur when investors lose confidence and capital flows reverse.
 
+## How It's Best Learned
+Record a few transactions twice. A domestic firm imports $10 million of machinery and pays in domestic-currency deposits that the foreign exporter keeps: the current account falls by 10 and net capital inflows rise by 10. Then link the identity to saving and investment: with national saving at 18% of GDP and investment at 22%, the current account is −4% of GDP.
+
+## Common Misconceptions
+- The current account is the same as the trade balance. (It also includes income flows, such as interest and dividends on foreign assets, and transfers such as remittances.)
+- Trade barriers are the main way to close a current account deficit. (Since the current account equals national saving minus investment, a trade measure changes it only to the extent it changes saving or investment.)
+- Capital inflows only follow passively to pay for a trade deficit. (Causation can run the other way: investors seeking domestic assets can push up the currency and widen the deficit.)
+
 ## Questions
 
 ```yaml

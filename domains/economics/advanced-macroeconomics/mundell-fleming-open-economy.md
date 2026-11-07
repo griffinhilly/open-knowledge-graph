@@ -30,6 +30,14 @@ status: validated
 ## Core Idea
 The Mundell-Fleming model extends the IS-LM framework to an open economy with capital mobility. It shows how fiscal and monetary policy effectiveness depends on the exchange rate regime (fixed versus floating). Under floating rates, monetary policy is powerful but fiscal policy is weak (spending crowds out net exports); under fixed rates, the reverse holds. Capital flows between countries create linkages: higher interest rates in one country attract foreign capital, appreciating the currency and reducing competitiveness.
 
+## How It's Best Learned
+Fill a two-by-two table: fiscal or monetary expansion, under a float or a peg, with r pinned at r*. For each cell, write which curve shifts first, what capital flows do, and which variable absorbs the pressure: the exchange rate or the money supply. Once all four cells are filled, the reversal between regimes becomes visible. Then relax perfect capital mobility and see which results weaken.
+
+## Common Misconceptions
+- Under a float, fiscal expansion fails because higher interest rates crowd out investment. (With perfect capital mobility the interest rate stays at the world rate; crowding out works through currency appreciation and lower net exports.)
+- Under a fixed exchange rate, the central bank stays out of the currency market. (Defending the peg requires buying or selling reserves, which makes the money supply respond to capital flows.)
+- The stark policy results hold for any open economy. (They rely on a small economy that takes the world rate as given, perfect capital mobility and a fixed price level; with imperfect mobility the results are matters of degree.)
+
 ## Questions
 
 ```yaml

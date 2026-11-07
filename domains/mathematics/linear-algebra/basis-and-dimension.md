@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 A basis of vector space V is a linearly independent spanning set. Every basis has the same cardinality, called the dimension of V. Dimension is the minimum number of vectors needed to span V and the maximum size of a linearly independent set. Coordinates relative to a basis are unique.
 
+## How It's Best Learned
+Start in ℝ² and try to break each condition on purpose. Add (1,1) to the standard basis and find two different ways to write (3,−2). Remove a vector and find a vector you can no longer reach. Then move to polynomials of degree at most 2 and check that {1, 1+x, 1+x+x²} is also a basis of size 3.
+
+## Common Misconceptions
+- A space has one basis, and it is the standard one. (A nonzero space over the real numbers has infinitely many bases. Dimension is the same for all of them.)
+- Any set of n vectors in an n-dimensional space is a basis. (The n vectors must also be linearly independent. Two parallel vectors in ℝ² do not form a basis.)
+- A plane through the origin in ℝ³ has dimension 3 because its vectors have three entries. (Dimension counts basis vectors, not entries. Such a plane has dimension 2.)
+
 ## Questions
 
 ```yaml
@@ -38,7 +46,7 @@ A basis of vector space V is a linearly independent spanning set. Every basis ha
   answer: 2
   explanation: "A basis must be linearly independent AND span the space. {(1,0),(0,1)} is the standard basis — 2 independent vectors that span ℝ². The first set has 3 vectors and is not linearly independent. The second set is linearly dependent (each vector is a scalar multiple of the other). The fourth contains the zero vector, which makes any set linearly dependent."
 
-- question: "Nearly every linearly independent set of vectors in ℝ³ is a basis for ℝ³."
+- question: "Every linearly independent set of vectors in ℝ³ is a basis for ℝ³."
   type: true-false
   answer: false
   explanation: "A basis must satisfy two conditions: linear independence AND spanning. Two linearly independent vectors in ℝ³ span only a plane through the origin, not all of ℝ³. A basis for ℝ³ requires exactly 3 linearly independent vectors. Having too few independent vectors means the set cannot span the full space."

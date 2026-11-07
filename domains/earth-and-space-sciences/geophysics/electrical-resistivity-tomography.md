@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 2D electrical resistivity tomography (ERT) inverts multi-electrode surface measurements to image subsurface conductivity. Applications include groundwater mapping, contaminant plume imaging, and engineering site characterization.
 
+## How It's Best Learned
+Compute one Wenner value by hand: spacing a = 10 m, current 0.5 A and voltage 0.8 V give ρa = 2πa·ΔV/I ≈ 100 Ω·m. Then build a synthetic model with one conductive block in a resistive host, forward-model its pseudosection, and invert it. Place the true model, the pseudosection and the inverted section side by side to see what inversion recovers and what it smooths.
+
+## Common Misconceptions
+- The inverted section shows the true resistivity of the ground. (It is one smooth model that fits the data; regularization blurs sharp boundaries and resolution drops with depth.)
+- The deep parts of the image are as reliable as the shallow parts. (Sensitivity falls with depth and toward the ends of the line, so the deep corners of a section are poorly constrained.)
+- A low-resistivity zone means groundwater or contamination. (Clay also lowers resistivity strongly, so boreholes or other data are needed to tell clay from saline water.)
+- A 2D line only sees structure directly beneath it. (Current spreads in three dimensions, so bodies off to the side of the line can appear in the 2D section as artifacts.)
+
 ## Questions
 
 ```yaml

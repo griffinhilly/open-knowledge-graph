@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 A set A is dense in X if cl(A) = X, meaning A intersects every non-empty open set. A space is separable if it has a countable dense subset. Dense subsets capture the notion of being 'spread throughout' the space; separability measures how 'small' a space is in a topological sense.
 
+## How It's Best Learned
+Apply the test "meets every nonempty open set" to many cases. In ℝ, check ℚ, the even integers, and the numbers k/2ⁿ, which are dense because any interval longer than 1/2ⁿ contains one. Then change the topology on the same set. In the indiscrete topology every nonempty set is dense. In the discrete topology only the whole space is dense, so an uncountable discrete space is not separable.
+
+## Common Misconceptions
+- A dense set must be uncountable. (ℚ is countable and dense in ℝ.)
+- Any infinite subset of ℝ is dense. (ℤ is infinite, but the interval (0.1, 0.9) contains no integer.)
+- Density is a property of the set alone. (It depends on the topology. In the discrete topology on ℝ, the only dense subset is ℝ itself.)
+- A separable space must be countable. (ℝ is uncountable and separable, since ℚ is a countable dense subset.)
+
 ## Questions
 
 ```yaml
@@ -45,7 +54,7 @@ A set A is dense in X if cl(A) = X, meaning A intersects every non-empty open se
   answer: 0
   explanation: "The open interval (0.1, 0.9) contains no even integers, so the even integers fail the open-set criterion for density. Option B mirrors the correct reasoning for ℚ (between any two reals there is a rational) but is false for even integers — there is no even integer between 0 and 1. Option C confuses infinite cardinality with density; the integers are infinite and not dense. Option D confuses density with cardinality in the opposite direction; ℚ is countable and dense."
 
-- question: "If A is dense in X, then A is expected to be uncountable."
+- question: "If A is dense in X, then A must be uncountable."
   type: true-false
   answer: false
   explanation: "The rationals ℚ are countable yet dense in ℝ. Density says nothing about cardinality — it says A approximates every point of X arbitrarily well (every point of X is in A or is a limit point of A). A separable space is precisely a space with a *countable* dense subset, so countable dense subsets are not just possible but definitionally important."
@@ -69,6 +78,6 @@ The canonical example is ℚ ⊂ ℝ. The rationals are dense in the reals becau
 
 The equivalent open-set characterization — A is dense iff A meets every non-empty open set — is often easier to check in practice. Suppose A misses some non-empty open set U: then U ⊆ Aᶜ, which is closed, so cl(A) ⊆ X \ U ≠ X. Contrapositive: if cl(A) = X, A must hit every open set. This criterion makes density purely a statement about the interaction of A with open sets, which is exactly the topological perspective — no metrics needed.
 
-**Separability** says X has a *countable* dense subset. The integers-to-reals analogy applies again: ℝ is separable because ℚ is countable and dense. Separability is a "smallness" condition on the topology. Intuitively, a separable space can be "approximated" by a countable collection of test points. This has major consequences: separable spaces support many properties that fail in general — for instance, every subspace of a separable metrizable space is separable, and separability makes it possible to work with sequences rather than nets or filters in many important theorems.
+**Separability** says X has a *countable* dense subset. The rationals-to-reals example applies again: ℝ is separable because ℚ is countable and dense. Separability is a "smallness" condition on the topology. Intuitively, a separable space can be "approximated" by a countable collection of test points. This has major consequences: separable spaces support many properties that fail in general — for instance, every subspace of a separable metrizable space is separable, and separability makes it possible to work with sequences rather than nets or filters in many important theorems.
 
 The connection to the basis you've studied is tight: a second countable space (one with a countable basis) is always separable — just pick one point from each basis element. In metric spaces the converse holds too: separability is equivalent to second countability. So for the spaces you'll encounter most often — Euclidean spaces, manifolds, function spaces — separability and second countability travel together, and dense countable subsets serve as the "rational approximation" scaffolding the whole theory rests on.

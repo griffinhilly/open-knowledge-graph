@@ -22,7 +22,15 @@ status: validated
 # Gravity Anomalies and Interpretation
 
 ## Core Idea
-A gravity anomaly is the observed gravitational acceleration minus a reference value (usually the International Gravity Reference Field for a spherical, non-rotating Earth). The Bouguer anomaly corrects for elevation and rock density between the station and a reference surface, revealing subsurface density contrasts. Residual anomalies isolate local features from regional trends, enabling interpretation of basin geometry, ore deposits, and deep crustal structure.
+A gravity anomaly is the observed gravitational acceleration minus a reference value (usually normal gravity on a rotating reference ellipsoid, given by the International Gravity Formula). The Bouguer anomaly corrects for elevation and rock density between the station and a reference surface, revealing subsurface density contrasts. Residual anomalies isolate local features from regional trends, enabling interpretation of basin geometry, ore deposits, and deep crustal structure.
+
+## How It's Best Learned
+Forward-model a buried sphere: radius 100 m, density contrast 500 kg/m³, centre 200 m deep. Its peak anomaly is GM/z² ≈ 0.35 mGal, and it falls to half that about 153 m from the peak. Move the centre to 400 m and give it four times the excess mass. The peak stays at 0.35 mGal while the half-width doubles, so profile shape, not amplitude alone, carries depth information.
+
+## Common Misconceptions
+- A positive free-air anomaly over a mountain range means dense rock lies beneath it. (The free-air anomaly still includes the pull of the mountain itself; the Bouguer correction is what removes it.)
+- A Bouguer anomaly of zero means the subsurface has uniform density. (Positive and negative density contrasts can cancel at a station, so zero only means their net effect is zero there.)
+- The choice of Bouguer reduction density has little effect on the map. (A wrong density leaves anomalies that mirror the topography, which is why the density is often chosen to remove that correlation.)
 
 ## Questions
 

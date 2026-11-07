@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Relativistic charges in magnetic fields undergo intense forward-directed synchrotron radiation. Power scales as γ⁴ (Lorentz factor), far exceeding classical Larmor radiation. Crucial in particle accelerators and astrophysics (pulsars). Represents a major energy loss mechanism in accelerator design.
 
+## How It's Best Learned
+Derive the energy lost per turn. With a = c²/R and P = q²γ⁴a²/(6πε₀c³), multiply by the period 2πR/c to get U₀ = q²γ⁴/(3ε₀R). For a 3 GeV electron (γ ≈ 5870) on a 10 m bending radius, this comes to about 0.7 MeV per turn. Repeat for a proton of the same energy: the loss drops by (m_p/m_e)⁴ ≈ 10¹³.
+
+## Common Misconceptions
+- Synchrotron light comes out at the orbital frequency. (Beaming turns the emission into short flashes, so the spectrum extends up to a critical frequency of order γ³ times the orbital frequency.)
+- Protons do not emit synchrotron radiation. (They do, but at fixed energy and bending radius the loss scales as 1/m⁴, so it is far weaker than for electrons.)
+- The narrow 1/γ cone is how the charge radiates in its own rest frame. (In the instantaneous rest frame the pattern is the broad dipole shape. Aberration into the lab frame squeezes it into the forward cone.)
+
 ## Questions
 
 ```yaml
@@ -37,7 +45,7 @@ Relativistic charges in magnetic fields undergo intense forward-directed synchro
     - "The LHC tunnel was rebuilt with stronger bending magnets that eliminate synchrotron losses for all particle types"
     - "Protons experience no synchrotron radiation loss because their charge is spread over a larger volume"
   answer: 1
-  explanation: "The key is mass. For the same kinetic energy, an electron (mass 0.511 MeV/c²) reaches a γ that is 1836 times larger than a proton (mass 938 MeV/c²). Since synchrotron power scales as γ⁴, this translates to a factor of ~10¹³ difference in radiated power at the same energy. At LEP energies (~100 GeV), electron synchrotron losses per revolution were in the MeV range and required continuous replenishment by RF cavities. The LHC uses protons precisely because their larger mass keeps γ — and thus synchrotron losses — far smaller at comparable energies in the same tunnel."
+  explanation: "The key is mass. For the same kinetic energy, an electron (mass 0.511 MeV/c²) reaches a γ that is 1836 times larger than a proton (mass 938 MeV/c²). Since synchrotron power scales as γ⁴, this translates to a factor of ~10¹³ difference in radiated power at the same energy. At LEP energies (~100 GeV), electron synchrotron losses per revolution were a few GeV and required continuous replenishment by RF cavities. The LHC uses protons precisely because their larger mass keeps γ — and thus synchrotron losses — far smaller at comparable energies in the same tunnel."
 
 - question: "A relativistic electron with γ = 1000 undergoes circular motion in a magnetic field. Compared to a non-relativistic electron with the same centripetal acceleration, the relativistic electron's synchrotron radiation is:"
   type: multiple-choice
@@ -47,7 +55,7 @@ Relativistic charges in magnetic fields undergo intense forward-directed synchro
     - "10¹² times more powerful and concentrated in a narrow forward cone of half-angle ~1/1000 radians"
     - "10¹² times more powerful but still emitted isotropically in all directions"
   answer: 2
-  explanation: "Two separate effects each scale with γ. First, the relativistic generalization of the Larmor formula gives P ∝ γ⁴ for transverse acceleration — at γ = 1000, that is (10³)⁴ = 10¹² times more power than classical Larmor predicts. Second, the radiation pattern collapses from an isotropic donut (non-relativistic) to a narrow forward cone of half-angle ~1/γ = 10⁻³ radians due to relativistic aberration. Both effects are consequences of special relativity and both grow without bound as v → c."
+  explanation: "Two separate effects each scale with γ. First, the relativistic generalization of the Larmor formula gives P ∝ γ⁴ for transverse acceleration — at γ = 1000, that is (10³)⁴ = 10¹² times more power than classical Larmor predicts. Second, the radiation pattern collapses from a broad donut (non-relativistic) to a narrow forward cone of half-angle ~1/γ = 10⁻³ radians due to relativistic aberration. Both effects are consequences of special relativity and both grow without bound as v → c."
 
 - question: "Synchrotron radiation from a relativistic charge moving in a circular orbit is emitted isotropically — equally in most directions — just as the non-relativistic Larmor formula predicts."
   type: true-false
@@ -67,7 +75,7 @@ Relativistic charges in magnetic fields undergo intense forward-directed synchro
 
 ## Explainer
 
-The Larmor formula tells you that an accelerating charge radiates power P = q²a²/(6πε₀c³). For a non-relativistic charge moving in a circle in a magnetic field, the centripetal acceleration is a = qvB/m, and the radiated power is modest. But as a charge is accelerated to relativistic speeds, two effects combine to produce dramatically more radiation than Larmor predicts. First, the relativistic generalization of the Larmor formula gives P ∝ γ⁴ a² for transverse acceleration (acceleration perpendicular to velocity, as in circular motion). Second, the radiation pattern, which is isotropic (a donut shape) for a non-relativistic charge, collapses into a narrow forward cone of half-angle ~1/γ for a relativistic charge. Both effects scale with **γ** (the Lorentz factor), and since γ = 1/√(1−v²/c²) grows without bound as v → c, both effects become enormous at high energy.
+The Larmor formula tells you that an accelerating charge radiates power P = q²a²/(6πε₀c³). For a non-relativistic charge moving in a circle in a magnetic field, the centripetal acceleration is a = qvB/m, and the radiated power is modest. But as a charge is accelerated to relativistic speeds, two effects combine to produce dramatically more radiation than Larmor predicts. First, the relativistic generalization of the Larmor formula gives P ∝ γ⁴ a² for transverse acceleration (acceleration perpendicular to velocity, as in circular motion). Second, the radiation pattern, which is a broad donut shape for a non-relativistic charge, collapses into a narrow forward cone of half-angle ~1/γ for a relativistic charge. Both effects scale with **γ** (the Lorentz factor), and since γ = 1/√(1−v²/c²) grows without bound as v → c, both effects become enormous at high energy.
 
 The γ⁴ power scaling is physically striking. A particle at γ = 1000 (easily reached in modern synchrotrons) radiates 10¹² times more power than the Larmor formula would predict for the same acceleration. For electrons — which are light and therefore reach high γ easily at a given energy — this is a catastrophic energy loss mechanism. An electron in a circular accelerator loses energy to synchrotron radiation every revolution; the accelerating cavities must continuously replenish this energy. This is why the Large Electron-Positron Collider (LEP) at CERN was limited in achievable energy: at higher energies, the synchrotron radiation loss per turn grew as γ⁴ and became impossible to compensate economically. For protons, which are 1836× heavier, γ is much smaller at the same energy, and synchrotron losses are far less severe — which is why the LHC uses protons in the same tunnel.
 

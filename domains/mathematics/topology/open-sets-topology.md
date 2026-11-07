@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 A set U in a topological space (X, τ) is open if U ∈ τ. Open sets are the building blocks of a topology and generalize open intervals from ℝ. They are defined by closure under arbitrary unions and finite intersections rather than by distance.
 
+## How It's Best Learned
+Check the axioms by hand on a three-point set X = {a, b, c}. Try τ = {∅, {a}, {b}, X}: it fails, because {a} ∪ {b} = {a, b} is missing. Add {a, b} and confirm every union and intersection now lands back in τ. Then return to ℝ and see why the ε-interval definition produces a collection with the same three properties.
+
+## Common Misconceptions
+- If a set is not open, it must be closed. (Open and closed are not opposites. In ℝ, the interval [0, 1) is neither open nor closed, and ∅ and ℝ are both.)
+- Whether a set is open is a fact about the set itself. (Openness depends on the chosen topology. On X = {a, b}, the set {a} is open in the discrete topology but not in the indiscrete one.)
+- Any intersection of open sets is open. (Only finite intersections are guaranteed. In ℝ, the open intervals (−1/n, 1/n) intersect to {0}, which is not open.)
+
 ## Questions
 
 ```yaml

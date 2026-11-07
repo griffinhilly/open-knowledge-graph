@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Extensive form games represent sequential decision-making using game trees with nodes (decision points), edges (actions), and information sets (showing what players know). This representation captures move order and information asymmetries absent from strategic form. Perfect information games have singleton information sets; incomplete information is modeled through nature's moves.
 
+## How It's Best Learned
+Draw the same two-move game twice. Player 1 picks L or R, then player 2 picks l or r. In the first tree player 2 sees player 1's move. In the second, player 2's two nodes share one information set. Count player 2's strategies in each: four in the first (one action per node) and two in the second. Then write both strategic forms, a 2×4 and a 2×2 matrix.
+
+## Common Misconceptions
+- A strategy is the move a player makes when it is their turn. (A strategy is a complete plan that names an action at every information set the player owns, including ones never reached.)
+- A sequential game always has perfect information. (Moves can come in sequence while a later mover cannot see an earlier move. That is imperfect information, shown by a multi-node information set.)
+- A player can choose different actions at nodes in the same information set. (The player cannot tell those nodes apart, so the strategy must assign the same action to all of them.)
+- Incomplete information needs a different kind of game tree. (Harsanyi's approach adds a move by Nature that picks types, which turns it into a game of imperfect information on an ordinary tree.)
+
 ## Questions
 
 ```yaml

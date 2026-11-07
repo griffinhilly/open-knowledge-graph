@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 The orthogonal projection of b onto a subspace W is proj_W(b), the point in W closest to b. For orthonormal basis {u₁, ..., uₖ}, proj_W(b) = Σ⟨b,uᵢ⟩uᵢ. For subspace spanned by columns of A, proj_W(b) = A(AᵀA)⁻¹Aᵀb. Least squares minimizes ||Ax − b||²; the optimal solution x* satisfies the normal equations AᵀAx* = Aᵀb, found via projection.
 
+## How It's Best Learned
+Fit a line y = c + dt to the points (0, 6), (1, 0), (2, 0). Here A = [[1, 0], [1, 1], [1, 2]] and b = (6, 0, 0), so AᵀA = [[3, 3], [3, 5]] and Aᵀb = (6, 0). Solving gives c = 5, d = −3. The residual b − Ax* = (1, −2, 1), and checking Aᵀ times it gives (0, 0), the perpendicularity the normal equations demand.
+
+## Common Misconceptions
+- The projection formula Σ⟨b, uᵢ⟩uᵢ works with any basis of W. (It needs an orthonormal basis; with an orthogonal basis each term must be divided by ||uᵢ||², and with a non-orthogonal basis the sum is in general the wrong vector.)
+- Least squares line fitting minimizes the perpendicular distances from the points to the line. (It minimizes the squared vertical residuals, the differences between observed and fitted b values.)
+- If the columns of A are dependent, the least-squares problem has no solution. (The projection of b is still unique, but infinitely many x give that same Ax, so the minimizer x* is not unique.)
+
 ## Questions
 
 ```yaml

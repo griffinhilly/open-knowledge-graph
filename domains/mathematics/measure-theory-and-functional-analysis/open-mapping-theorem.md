@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The open mapping theorem states that a continuous surjective linear operator between Banach spaces is open (maps open sets to open sets). This deep result relies on the Baire category theorem and implies the bounded inverse theorem.
 
+## How It's Best Learned
+Start with a map where the conclusion fails: T(x)ₙ = xₙ/n on ℓ². It is continuous and injective, but T(eₙ) = eₙ/n, so the inverse on the range is unbounded. The open mapping theorem then says the range is not complete. After that, read the Baire step of the proof and derive the bounded inverse theorem in two lines.
+
+## Common Misconceptions
+- A continuous linear surjection between any normed spaces is open. (Completeness is needed. The diagonal map xₙ ↦ xₙ/n, viewed as a map onto its range in ℓ², is a continuous bijection whose inverse is unbounded, so it is not open.)
+- An open map must also be injective. (The projection ℝ² → ℝ, (x, y) ↦ x, is open with a nontrivial kernel. Injectivity is added only to get the bounded inverse theorem.)
+- Open maps also send closed sets to closed sets. (The same projection sends the closed hyperbola xy = 1 onto ℝ \ {0}, which is not closed.)
+
 ## Questions
 
 ```yaml

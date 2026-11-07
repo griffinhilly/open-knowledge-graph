@@ -31,6 +31,14 @@ status: validated
 ## Core Idea
 The Bellman equation decomposes a dynamic optimization problem into current period and future components: V(x) = max[u(c,x) + βV(x')]. This recursive formulation enables solving infinite-horizon problems and characterizing optimal consumption, investment, and labor supply decisions over time.
 
+## How It's Best Learned
+Use the cake-eating problem V(W) = max ln c + βV(W − c). Iterate by hand from V₀ = 0: the first pass eats the whole cake, the second gives c = W/(1 + β). Then guess V(W) = a + b ln W. The first-order condition and matching coefficients give b = 1/(1 − β) and c = (1 − β)W, the limit the iterations approach.
+
+## Common Misconceptions
+- The state variable is what the agent chooses each period. (The agent chooses the control c. The state x is inherited from the past, and the transition equation turns x and c into next period's state x'.)
+- Value function iteration converges only from a good initial guess. (With bounded payoffs and β < 1, the contraction mapping theorem gives convergence from any bounded starting guess.)
+- The recursive problem can give a different answer from the original sequence problem. (Under standard conditions both give the same value and the same optimal plan; the Bellman form is a different route to it.)
+
 ## Questions
 
 ```yaml

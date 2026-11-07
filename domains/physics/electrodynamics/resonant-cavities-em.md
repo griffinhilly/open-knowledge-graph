@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Resonant cavities confine electromagnetic waves and support standing wave modes at discrete resonant frequencies determined by geometry and boundary conditions. The quality factor Q = 2π(stored energy)/(energy lost per cycle) characterizes cavity performance. Resonant cavities are essential components in microwave devices, masers, particle accelerators, and tunable laser systems.
 
+## How It's Best Learned
+Connect the two meanings of Q with one example. For f₀ = 1 GHz and Q = 10⁴, the stored energy decays as e^{−ω₀t/Q}, with time constant Q/ω₀ ≈ 1.6 μs. The linewidth f₀/Q is 100 kHz, and 1/(2π × 1.6 μs) gives the same 100 kHz. Then sketch the Lorentzian response curve to see how the amplitude falls as the drive moves off resonance.
+
+## Common Misconceptions
+- A cavity driven slightly off a resonance does not respond at all. (A finite-Q cavity has a Lorentzian response. The amplitude falls off over a band of width about f₀/Q, so nearby frequencies still excite the mode weakly.)
+- A cube-shaped cavity has a single fundamental mode. (In a cube of side a, TE₁₀₁, TE₀₁₁ and TM₁₁₀ all resonate at c/(a√2). Symmetry produces degenerate modes.)
+- A higher Q is better for every application. (A high-Q cavity has a narrow bandwidth and takes about Q/ω₀ to fill or empty. Broadband filters and fast-switching systems use lower Q.)
+
 ## Questions
 
 ```yaml
@@ -32,7 +40,7 @@ Resonant cavities confine electromagnetic waves and support standing wave modes 
     - "The field propagates through the cavity as through an open waveguide at that frequency"
     - "The cavity heats and thermally expands, shifting its resonant frequency toward 3.1 GHz"
   answer: 1
-  explanation: "Resonant cavities support standing-wave modes only at specific discrete frequencies determined by the cavity geometry. A frequency that doesn't match a cavity mode cannot establish a standing wave — destructive interference prevents energy buildup. This is the fundamental difference between an open waveguide (continuous band above cutoff) and a closed cavity (discrete resonances). Option A is wrong: there is no partial resonance at nearby off-mode frequencies. Option C is wrong: closing both ends of the waveguide is exactly what creates the discrete spectrum rather than a continuous one."
+  explanation: "Resonant cavities support standing-wave modes only at specific discrete frequencies determined by the cavity geometry. A frequency that doesn't match a cavity mode cannot establish a standing wave — destructive interference prevents energy buildup. This is the fundamental difference between an open waveguide (continuous band above cutoff) and a closed cavity (discrete resonances). Option A is wrong: 3.1 GHz is about 30% away from the mode, far outside a linewidth of order f₀/Q, so the response there is negligible. Option C is wrong: closing both ends of the waveguide is exactly what creates the discrete spectrum rather than a continuous one."
 
 - question: "A cavity operates at 1 GHz with quality factor Q = 10^4. What is its approximate resonance linewidth (half-power bandwidth)?"
   type: multiple-choice

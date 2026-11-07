@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 A bounded function on a finite interval is Riemann-integrable if and only if its discontinuity set has measure zero. The Lebesgue integral extends Riemann integration to unbounded functions and domains while preserving equality on Riemann-integrable functions.
 
+## How It's Best Learned
+Compare three functions on [0,1]. For the Dirichlet function, every subinterval has sup 1 and inf 0, so upper sums are 1 and lower sums 0. Thomae's function (1/q at p/q in lowest terms, 0 at irrationals) is discontinuous only at the rationals, so it is Riemann-integrable with integral 0. Finally, indicators of the first n rationals have Riemann integral 0 and increase to the Dirichlet function, which only the Lebesgue integral handles.
+
+## Common Misconceptions
+- A function equal almost everywhere to a Riemann-integrable function is Riemann-integrable. (The Dirichlet function equals 0 almost everywhere but is not Riemann-integrable. Changing values on a null set can create discontinuities everywhere.)
+- A measure-zero discontinuity set must be countable. (The indicator of the Cantor set is discontinuous exactly on the Cantor set, which is uncountable but has measure 0, so the function is Riemann-integrable.)
+- Every convergent improper Riemann integral is a Lebesgue integral. (∫₀^∞ (sin x)/x dx converges as an improper integral, but ∫₀^∞ |sin x|/x dx = ∞, so the function is not Lebesgue integrable on (0, ∞).)
+
 ## Questions
 
 ```yaml

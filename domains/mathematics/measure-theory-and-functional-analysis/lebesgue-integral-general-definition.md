@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 For general measurable f, decompose f = f⁺ - f⁻ (positive and negative parts). If at least one of ∫f⁺ or ∫f⁻ is finite, define ∫f dμ = ∫f⁺ - ∫f⁻. Functions with ∫|f| < ∞ are integrable. This preserves linearity for signed functions.
 
+## How It's Best Learned
+Compute one easy case and one failure. For f(x) = x on [−1, 2], ∫f⁺ = 2 and ∫f⁻ = 1/2, so ∫f = 3/2. For f(x) = sin(x)/x on (0, ∞), the improper Riemann integral converges, but ∫f⁺ and ∫f⁻ are both infinite, so the Lebesgue integral is undefined. Then prove linearity. With h = f + g, rearrange h⁺ − h⁻ = f⁺ − f⁻ + g⁺ − g⁻ into h⁺ + f⁻ + g⁻ = h⁻ + f⁺ + g⁺, and integrate both sides.
+
+## Common Misconceptions
+- The negative part f⁻ is a negative function. (f⁻ = max(−f, 0) is non-negative. That is why the non-negative integral applies to it, and f = f⁺ − f⁻.)
+- (f + g)⁺ = f⁺ + g⁺. (With f = 1 and g = −1, the left side is 0 and the right side is 1. Linearity needs the rearrangement argument instead.)
+- Every convergent improper Riemann integral is a Lebesgue integral. (For sin(x)/x on (0, ∞), the improper integral converges, but ∫|f| = ∞, and the Lebesgue integral is not defined.)
+
 ## Questions
 
 ```yaml

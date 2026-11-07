@@ -28,7 +28,16 @@ status: validated
 # Seismic Tomography and Velocity Imaging
 
 ## Core Idea
-Seismic tomography inverts arrival time data from earthquakes and controlled sources to recover 3D velocity structure of the Earth. Ray theory approximates high-frequency seismic wave propagation as straight rays; travel time anomalies are inverted using regularized least-squares methods to build velocity models. Applications include crustal imaging (high-resolution for exploration), lithospheric structure (10–100 km scale), and mantle structure (global scale), revealing the density, temperature, and composition anomalies that drive plate tectonics.
+Seismic tomography inverts arrival time data from earthquakes and controlled sources to recover 3D velocity structure of the Earth. Ray theory approximates high-frequency seismic wave propagation as rays; travel time anomalies are inverted using regularized least-squares methods to build velocity models. Applications include crustal imaging (high-resolution for exploration), lithospheric structure (10–100 km scale), and mantle structure (global scale), revealing the density, temperature, and composition anomalies that drive plate tectonics.
+
+## How It's Best Learned
+Set up a 2×2 grid of 10 km cells with four rays: two along the rows and two along the columns. Give the top-left cell a slowness perturbation and compute the four residuals. Then add the checkerboard pattern +1, −1, −1, +1 and check that every residual stays the same. Add one diagonal ray and see that it detects the pattern.
+
+## Common Misconceptions
+- A fast anomaly must be cold rock. (Composition, such as depleted cratonic mantle, can also raise velocity, so temperature is one of several possible causes.)
+- An elongated anomaly shows the true shape of the structure. (Where most rays run in nearly the same direction, anomalies smear along that direction and form streaks.)
+- A good checkerboard test proves the real anomalies are correct. (It shows how one synthetic pattern would be recovered with the same rays and regularization; anomalies of other sizes or shapes may be recovered differently.)
+- Stronger damping gives a more accurate model. (It gives a smoother, lower-amplitude model, so the strength of real anomalies tends to be underestimated.)
 
 ## Questions
 
@@ -61,17 +70,13 @@ Seismic tomography inverts arrival time data from earthquakes and controlled sou
 - question: "In seismic tomography, slow velocity anomalies in the mantle typically indicate regions that are hotter, less dense, or partially molten compared to the surrounding mantle."
   type: true-false
   answer: true
-  explanation: "Seismic wave velocity increases with density and elastic moduli, which decrease with temperature and melt fraction. Hot regions — mid-ocean ridges, mantle plumes, regions of active volcanism — show up as slow anomalies because elevated temperature reduces elastic stiffness and partial melting creates compliant fluid-solid mixtures that dramatically slow seismic waves. This relationship is the physical basis for using seismology to image temperature and compositional structure that cannot be sampled directly."
+  explanation: "Seismic wave velocity increases with the elastic moduli, which decrease with temperature and melt fraction. Hot regions — mid-ocean ridges, mantle plumes, regions of active volcanism — show up as slow anomalies because elevated temperature reduces elastic stiffness and partial melting creates compliant fluid-solid mixtures that dramatically slow seismic waves. This relationship is the physical basis for using seismology to image temperature and compositional structure that cannot be sampled directly."
 
 - question: "Why is seismic tomography described as an 'inverse problem,' and what fundamental challenge does this pose for interpreting the resulting velocity models?"
   type: short-answer
   answer: "Seismic tomography is an inverse problem because we observe effects (travel-time anomalies at the surface) and must infer causes (velocity anomalies in the interior) — the opposite of the forward problem, which predicts travel times given a known velocity model. The fundamental challenge is non-uniqueness: many different velocity models can fit the same set of travel-time observations equally well, especially in regions with poor ray coverage. Regularization constraints are needed to select a physically reasonable solution, but the choice of constraints shapes the result. Interpreters must always consider resolution — whether a velocity anomaly is real or an artifact of the inversion — and test whether model features are robust to changes in regularization parameters."
   explanation: "This inverse problem structure means that seismic tomography models are never uniquely determined. Resolution tests (like synthetic checkerboard tests) assess which features in the model can actually be recovered given the available ray geometry. A feature visible in the tomography may be real, smeared from nearby structures, or entirely an artifact of data coverage — distinguishing these requires careful uncertainty analysis."
-```
 
-## Questions
-
-```yaml
 - question: "Seismic waves from a deep earthquake arrive at a recording station 2 seconds earlier than predicted by the reference Earth model. What does this travel-time anomaly most likely indicate about the mantle along that ray path?"
   type: multiple-choice
   options:
@@ -110,7 +115,7 @@ Seismic tomography inverts arrival time data from earthquakes and controlled sou
 
 ## Explainer
 
-From your understanding of elastic wave propagation and seismic body waves, you know that P-waves and S-waves travel through rock at speeds determined by the material's elastic properties and density. **Seismic tomography** exploits this relationship in reverse: by measuring how long waves take to travel through the Earth, it reconstructs the velocity structure of the interior — much like a medical CT scan builds an image of the body from X-ray travel times.
+From your understanding of elastic wave propagation and seismic body waves, you know that P-waves and S-waves travel through rock at speeds determined by the material's elastic properties and density. **Seismic tomography** exploits this relationship in reverse: by measuring how long waves take to travel through the Earth, it reconstructs the velocity structure of the interior — much like a medical CT scan builds an image of the body from X-ray attenuation measured along many paths.
 
 The basic data are **arrival times** — the precise moments when seismic waves from an earthquake (or a controlled explosion) reach recording stations around the world or across a survey area. If the Earth had perfectly uniform velocity, these travel times would be predictable from distance alone. In reality, waves that pass through hotter, slower regions arrive late, while waves traversing cold, fast regions arrive early. These **travel-time residuals** — the differences between observed and predicted arrival times — encode information about the velocity anomalies along each ray path.
 

@@ -1,0 +1,76 @@
+domains/biology/evolutionary-biology/genome-duplications.md	how	3	0	ok
+domains/biology/evolutionary-biology/genome-duplications.md	mis	8	0	ok
+domains/biology/evolutionary-biology/hamilton-rule.md	how	3	0	ok	break-even b = c/r (2, 4, 8) and haplodiploid 0.75/0.25 verified
+domains/biology/evolutionary-biology/hamilton-rule.md	mis	8	0	ok
+domains/biology/evolutionary-biology/hamilton-rule.md	old:ex	1	1	fixed	drafting chatter "0.5 × 2 = 1 > 1... actually that is exactly equal" replaced with clean statement
+domains/biology/evolutionary-biology/hamilton-rule.md	old:q:0:explanation	1	1	fixed	first cousins linked via shared grandparents, not "great-grandparent alleles"
+domains/biology/evolutionary-biology/hawk-dove-game.md	how	4	0	ok	V=4, C=6 payoffs worked: Hawk 4−5p, Dove 2−2p, p=2/3=V/C; p=0.9 favors Dove, p=0.3 favors Hawk
+domains/biology/evolutionary-biology/hawk-dove-game.md	mis	8	0	ok
+domains/biology/evolutionary-biology/hawk-dove-game.md	old:q:1:explanation	1	1	fixed	removed leftover drafting chatter ("wait... No — ... Actually")
+domains/biology/evolutionary-biology/heterochrony-development-evolution.md	how	3	0	ok
+domains/biology/evolutionary-biology/heterochrony-development-evolution.md	mis	8	0	ok
+domains/biology/evolutionary-biology/heterochrony-development-evolution.md	q:4:explanation	2	0	ok
+domains/biology/evolutionary-biology/heterozygote-advantage.md	how	4	0	ok	marginal fitnesses verified: q=0.05 0.96 vs 0.81; q=0.5 0.6 vs 0.9; q=0.2 tie 0.84 = s/(s+t)
+domains/biology/evolutionary-biology/heterozygote-advantage.md	mis	8	0	ok
+domains/biology/evolutionary-biology/horizontal-gene-transfer.md	how	3	0	ok
+domains/biology/evolutionary-biology/horizontal-gene-transfer.md	mis	8	0	ok
+domains/biology/evolutionary-biology/horizontal-gene-transfer.md	old:q:0:explanation	1	1	fixed	"HGT is the primary explanation" for any gene-tree conflict contradicted new bullet 4; softened to "a leading explanation in prokaryotes"
+domains/biology/evolutionary-biology/hox-genes-body-plan.md	how	3	0	ok
+domains/biology/evolutionary-biology/hox-genes-body-plan.md	mis	8	0	ok
+domains/biology/evolutionary-biology/hox-genes-body-plan.md	old:core	1	1	fixed	"homologs shared across all animals" -> "most animals" (sponges and ctenophores lack Hox genes)
+domains/biology/evolutionary-biology/inclusive-fitness.md	how	4	0	ok	ledger worked: (6−2)×0.5 = 2 ties direct 2
+domains/biology/evolutionary-biology/inclusive-fitness.md	mis	8	0	ok
+domains/biology/evolutionary-biology/kin-selection-theory.md	how	4	0	ok	path counting verified 0.5, 0.25, 0.125
+domains/biology/evolutionary-biology/kin-selection-theory.md	mis	8	0	ok
+domains/biology/evolutionary-biology/kin-selection-theory.md	old:q:2:explanation	1	1	fixed	removed meta sentence quoting "The Explainer explicitly states"
+domains/biology/evolutionary-biology/linkage-disequilibrium-evolutionary.md	how	4	0	ok	D=0.15; 0.15×0.9^10 ≈ 0.052; 0.15×0.5^10 ≈ 0
+domains/biology/evolutionary-biology/linkage-disequilibrium-evolutionary.md	mis	8	0	ok
+domains/biology/evolutionary-biology/major-evolutionary-innovations.md	how	3	0	ok
+domains/biology/evolutionary-biology/major-evolutionary-innovations.md	mis	8	0	ok
+domains/biology/evolutionary-biology/maximum-likelihood-phylogenetics.md	how	4	0	ok	JC distance −(3/4)ln(1−0.1333) = 0.1073 verified
+domains/biology/evolutionary-biology/maximum-likelihood-phylogenetics.md	mis	8	0	ok
+domains/biology/evolutionary-biology/molecular-evolution-rates.md	how	4	0	ok	rate 0.001/Myr; 0.01/(2×0.001) = 5 Myr verified
+domains/biology/evolutionary-biology/molecular-evolution-rates.md	mis	8	0	ok
+domains/biology/evolutionary-biology/molecular-evolution-rates.md	old:q:4:answer	1	1	fixed	direction reversed: a universal rate underestimates dates for slow genes (histones) and overestimates for fast ones (fibrinopeptides); matches the How example
+domains/biology/evolutionary-biology/mutation-rate-evolution.md	how	3	0	ok	1/(2Ne) thresholds 5e-5 and 5e-10 verified
+domains/biology/evolutionary-biology/mutation-rate-evolution.md	mis	6	1	fixed	bullet 3 said a mutator rises "only" by hitchhiking; Explainer itself says drift can fix rate increases in small populations; replaced "only" with "mainly ... or by drift in small populations"
+domains/biology/evolutionary-biology/mutation-selection-balance.md	how	3	0	ok	μ/s=1e-4, √(μ/s)=0.01, s·q²=1e-5 verified
+domains/biology/evolutionary-biology/mutation-selection-balance.md	mis	8	0	ok
+domains/biology/evolutionary-biology/mutation-selection-balance.md	old:ex	1	1	fixed	CF example called q=0.001 a "carrier frequency"; carriers ≈ 2q ≈ 1 in 500; now says allele frequency vs carrier frequency
+domains/biology/evolutionary-biology/nearly-neutral-evolution.md	how	3	0	ok	2Ne|s| = 0.2, 2, 20, 200 verified
+domains/biology/evolutionary-biology/nearly-neutral-evolution.md	mis	8	0	ok
+domains/biology/evolutionary-biology/paleontology-fossil-record.md	how	3	0	ok
+domains/biology/evolutionary-biology/paleontology-fossil-record.md	mis	8	0	ok
+domains/biology/evolutionary-biology/parapatric-speciation.md	how	3	0	ok
+domains/biology/evolutionary-biology/parapatric-speciation.md	mis	6	0	ok
+domains/biology/evolutionary-biology/parapatric-speciation.md	old:q:1:explanation	1	1	fixed	tetraploid × diploid offspring get two sets from the polyploid gamete plus one, not "one set from the polyploid"
+domains/biology/evolutionary-biology/parsimony-phylogenetics.md	how	3	0	ok	site scores worked: AB|CD 1+1+2=4, AC|BD 5, AD|BC 6; singleton adds 1 everywhere
+domains/biology/evolutionary-biology/parsimony-phylogenetics.md	mis	8	0	ok
+domains/biology/evolutionary-biology/peripatric-speciation.md	how	4	1	fixed	P(0 red in 10 of 95/5) ≈ 0.58 checks; but 2 of 10 red = 20% vs 5% mainland is four times, not "doubling"
+domains/biology/evolutionary-biology/peripatric-speciation.md	mis	8	0	ok
+domains/biology/evolutionary-biology/phylogenetic-inference.md	how	3	0	ok	3 → 15 → 105 trees verified (2n−5 branches)
+domains/biology/evolutionary-biology/phylogenetic-inference.md	mis	8	0	ok
+domains/biology/evolutionary-biology/phylogenetic-inference.md	old:q:3:question	1	1	fixed	T/F "parsimony makes no assumptions" keyed true while its own explanation (and parsimony page) say it is assumption-light, not assumption-free; reworded stem to "does not require specifying an explicit model"
+domains/biology/evolutionary-biology/polyploidy-speciation.md	how	3	0	ok
+domains/biology/evolutionary-biology/polyploidy-speciation.md	mis	8	0	ok
+domains/biology/evolutionary-biology/positive-selection.md	how	3	0	ok	12/300=0.04, 2/100=0.02, dN/dS=2 verified
+domains/biology/evolutionary-biology/positive-selection.md	mis	8	0	ok
+domains/biology/evolutionary-biology/positive-selection.md	old:q:1:explanation	1	1	fixed	claim that purifying selection does not reduce regional diversity contradicted new bullet 4 (background selection); softened
+domains/biology/evolutionary-biology/punctuated-equilibrium.md	how	3	0	ok
+domains/biology/evolutionary-biology/punctuated-equilibrium.md	mis	8	0	ok
+domains/biology/evolutionary-biology/purifying-selection.md	how	2	0	ok
+domains/biology/evolutionary-biology/purifying-selection.md	mis	8	0	ok
+domains/biology/evolutionary-biology/purifying-selection.md	old:q:1:explanation	1	1	fixed	drift accumulation in small sexual populations mislabeled "Muller's ratchet" (asexual/non-recombining); now "drift load"
+domains/biology/evolutionary-biology/recombination-evolution.md	how	3	1	fixed	"A and B sit on different chromosomes" conflicts with r = 0.1 (unlinked loci have r = 0.5); now "two linked loci ... different copies of the chromosome"; r/4 = 2.5% verified
+domains/biology/evolutionary-biology/recombination-evolution.md	mis	8	0	ok
+domains/biology/evolutionary-biology/regulatory-evolution.md	how	3	0	ok
+domains/biology/evolutionary-biology/regulatory-evolution.md	mis	8	0	ok
+domains/biology/evolutionary-biology/regulatory-evolution.md	old:q:0:explanation	1	1	fixed	explanation critiqued "Option C" but the overstatement it describes is option D
+domains/biology/evolutionary-biology/reproductive-isolation.md	how	3	0	ok
+domains/biology/evolutionary-biology/reproductive-isolation.md	mis	8	0	ok
+domains/biology/evolutionary-biology/reproductive-isolation.md	old:ex	1	1	fixed	hybrid at first contact is AaBb, not "aabb (or AaBb)"
+domains/biology/evolutionary-biology/sexual-selection.md	how	4	0	ok	variance (4+4+4+1+49)/5 = 12.4 verified
+domains/biology/evolutionary-biology/sexual-selection.md	mis	8	0	ok
+domains/biology/evolutionary-biology/slightly-deleterious-mutations.md	how	3	0	ok	(1−1e-4)^1000 ≈ e^−0.1 ≈ 0.905 verified
+domains/biology/evolutionary-biology/slightly-deleterious-mutations.md	mis	8	0	ok
+domains/biology/evolutionary-biology/slightly-deleterious-mutations.md	old:q:2:explanation	1	1	fixed	"the same genome change can be adaptive, neutral, or deleterious" -> effectively neutral in one population, clearly deleterious in another

@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Asset prices reflect discounted expectations of future cash flows and are highly forward-looking, making them both indicators of economic fundamentals and transmission channels for monetary policy. Macroeconomic risks—business cycle exposure, inflation surprises, financial stability threats—drive equity risk premiums and variation in returns across assets and over time. Understanding asset pricing connections to macroeconomics explains stock market predictability patterns, equity premium puzzles, and how wealth fluctuations affect consumption.
 
+## How It's Best Learned
+Use the growing-perpetuity formula P = D/(r − g) to see the forward-looking side. With a dividend of 2, required return 7%, and growth 3%, the price is 50. Raise the risk premium by one point, so r = 8%, and the price falls to 40. Dividends did not change; only the discount rate did. Then ask what macroeconomic news would move r or g.
+
+## Common Misconceptions
+- A falling stock market means investors expect lower future dividends. (Prices also fall when the risk premium or discount rate rises, with no change in expected cash flows.)
+- Asset prices mirror the economy but do not affect it. (Through the wealth effect and the value of collateral, price swings change consumption, credit, and investment.)
+- The equity premium puzzle is that stock prices are too volatile. (The puzzle concerns the size of the average excess return on stocks; excess price volatility is a separate puzzle.)
+
 ## Questions
 
 ```yaml
@@ -33,7 +41,7 @@ Asset prices reflect discounted expectations of future cash flows and are highly
     - "It should offer the same expected return as the risk-free rate, since its gains and losses average out"
     - "Its expected return cannot be determined without knowing its correlation with the stock market"
   answer: 1
-  explanation: "Counter-cyclical assets — those that pay well precisely when consumption is falling and marginal utility is highest — act as insurance. Investors will accept a lower return, even below the risk-free rate, to hold such an asset. The consumption-based CAPM says risk is not about volatility per se but about when an asset pays off: assets that pay poorly during recessions (when every extra dollar is most valuable) require a risk premium, while assets that pay well during recessions command a premium in the form of a price discount — i.e., a below-market return."
+  explanation: "Counter-cyclical assets — those that pay well precisely when consumption is falling and marginal utility is highest — act as insurance. Investors will accept a lower return, even below the risk-free rate, to hold such an asset. The consumption-based CAPM says risk is not about volatility per se but about when an asset pays off: assets that pay poorly during recessions (when every extra dollar is most valuable) require a risk premium, while assets that pay well during recessions command a higher price, which means a lower expected return."
 
 - question: "The equity premium puzzle refers to which empirical observation?"
   type: multiple-choice

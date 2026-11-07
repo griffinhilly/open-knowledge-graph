@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 In Hausdorff spaces, compact subsets are closed and finite products of compact spaces are compact (though infinite products require Tychonoff's theorem). These results show that compactness and closure interact beautifully in Hausdorff spaces, making them ideal for analysis.
 
+## How It's Best Learned
+Run the separation proof by hand with K = [0, 1] and x = 2 in ℝ. For each k in K, take intervals around k and around 2 of radius |2 − k|/2, pick finitely many that cover K, and intersect the matching intervals around 2. Then see the theorem fail in the Sierpiński space. Last, test the homeomorphism corollary on t ↦ (cos 2πt, sin 2πt) from [0, 1) to the circle.
+
+## Common Misconceptions
+- Compact sets are closed in every space. (This needs the Hausdorff property. In the Sierpiński space with open sets ∅, {1}, {0, 1}, the set {1} is compact but not closed.)
+- Closed sets in a Hausdorff space are compact. (ℝ is Hausdorff, and [0, ∞) is closed in ℝ but not compact.)
+- A continuous bijection onto a Hausdorff space is a homeomorphism. (The domain must be compact. The map t ↦ (cos 2πt, sin 2πt) from [0, 1) onto the circle is a continuous bijection, but its inverse is not continuous.)
+- Finite products of compact spaces are compact only when the spaces are Hausdorff. (Finite products of compact spaces are compact in general. Tychonoff's theorem extends this to arbitrary products.)
+
 ## Questions
 
 ```yaml
@@ -57,7 +66,7 @@ In Hausdorff spaces, compact subsets are closed and finite products of compact s
 - question: "In any topological space, compact subsets are closed."
   type: true-false
   answer: false
-  explanation: "This is false in general — it requires the Hausdorff property. Non-Hausdorff counterexamples are easy to construct: in the particular point topology on {0, 1, 2} with open sets ∅, {1}, {0,1}, {1,2}, {0,1,2}, the set {0} is compact (every cover has a finite subcover) but is not closed. The statement 'compact implies closed' is a theorem about Hausdorff spaces, not about topological spaces in general. This is why the Hausdorff condition is so useful in analysis — it brings compact sets into alignment with closed sets, as geometric intuition demands."
+  explanation: "This is false in general — it requires the Hausdorff property. Non-Hausdorff counterexamples are easy to construct: in the particular point topology on {0, 1, 2} with open sets ∅, {1}, {0,1}, {1,2}, {0,1,2}, the set {1} is compact (every cover has a finite subcover) but is not closed, since its complement {0, 2} is not open. The statement 'compact implies closed' is a theorem about Hausdorff spaces, not about topological spaces in general. This is why the Hausdorff condition is so useful in analysis — it brings compact sets into alignment with closed sets, as geometric intuition demands."
 
 - question: "Describe the proof strategy for showing that compact subsets of Hausdorff spaces are closed. Which role does compactness play, and which role does the Hausdorff property play?"
   type: short-answer

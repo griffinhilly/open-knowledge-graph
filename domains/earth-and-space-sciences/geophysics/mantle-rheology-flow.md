@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Mantle rocks deform by dislocation and diffusion creep, with viscosity temperature-dependent and sensitive to grain size and water content. Mantle viscosity (10²¹–10²³ Pa·s) governs convection rates and plate-driving forces.
 
+## How It's Best Learned
+Work the Arrhenius ratio by hand: η₁/η₂ = exp[(E*/R)(1/T₁ − 1/T₂)]. With E* ≈ 500 kJ/mol, warming from 1600 K to 1700 K cuts viscosity about ninefold. Then compare the two creep laws. Doubling the stress doubles the strain rate in diffusion creep but raises it about eightfold in dislocation creep with n = 3.
+
+## Common Misconceptions
+- The mantle has one viscosity value. (Viscosity changes by orders of magnitude with depth and temperature. In dislocation creep it also falls as stress rises.)
+- The lower mantle is hotter, so it should flow more easily than the upper mantle. (Higher pressure and different minerals make the lower mantle stiffer despite its higher temperature.)
+- Water weakens mantle rock only by making it melt. (Even small amounts of water dissolved in olivine crystals lower creep strength with no melt present.)
+
 ## Questions
 
 ```yaml
@@ -72,4 +80,4 @@ At the temperatures and pressures of the mantle (roughly 1000–4000°C, 1–140
 
 The single most important control on mantle viscosity is **temperature**. Viscosity depends exponentially on temperature through an Arrhenius relationship: η ∝ exp(E*/RT), where E* is the activation energy, R is the gas constant, and T is absolute temperature. A temperature increase of just 100°C can decrease viscosity by an order of magnitude. This extreme sensitivity creates a strong feedback with mantle convection — hot upwellings are less viscous and rise faster, while cold downgoing slabs are stiffer and resist deformation. Beyond temperature, **water content** dramatically reduces viscosity even at parts-per-million concentrations by weakening crystal bonds and enhancing dislocation mobility (the "hydrolytic weakening" effect). **Grain size** matters because diffusion creep rate scales inversely with grain size squared or cubed — finer-grained rock flows more easily by diffusion.
 
-The effective viscosity of the mantle spans roughly two orders of magnitude, from about 10¹⁹–10²⁰ Pa·s in the asthenosphere (the low-viscosity layer beneath the lithosphere where temperatures are near the solidus) to 10²²–10²³ Pa·s in the lower mantle. This viscosity structure is constrained by observations of **post-glacial rebound** — the ongoing uplift of Scandinavia and Canada after the last ice sheets melted — which provides a direct measurement of how fast the mantle flows in response to a known load change. The rate of rebound and the pattern of relative sea-level change are sensitive to viscosity at different depths, making glacial isostatic adjustment one of the most powerful constraints on the mantle's rheological profile. This viscosity structure, in turn, sets the timescale of mantle convection, the coupling between plates and the underlying mantle, and ultimately the vigor of Earth's internal heat engine.
+The effective viscosity of the mantle spans roughly three to four orders of magnitude, from about 10¹⁹–10²⁰ Pa·s in the asthenosphere (the low-viscosity layer beneath the lithosphere where temperatures are near the solidus) to 10²²–10²³ Pa·s in the lower mantle. This viscosity structure is constrained by observations of **post-glacial rebound** — the ongoing uplift of Scandinavia and Canada after the last ice sheets melted — which provides a direct measurement of how fast the mantle flows in response to a known load change. The rate of rebound and the pattern of relative sea-level change are sensitive to viscosity at different depths, making glacial isostatic adjustment one of the most powerful constraints on the mantle's rheological profile. This viscosity structure, in turn, sets the timescale of mantle convection, the coupling between plates and the underlying mantle, and ultimately the vigor of Earth's internal heat engine.

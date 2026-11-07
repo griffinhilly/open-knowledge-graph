@@ -39,6 +39,14 @@ status: validated
 ## Core Idea
 DSGE models integrate microeconomic optimization with macroeconomic outcomes under uncertainty. Households and firms solve dynamic problems subject to constraints and expectations; aggregate equilibrium clears markets while agents are subject to exogenous shocks. DSGE models allow simulation of policy experiments and analysis of how shocks propagate through the economy. They form the baseline framework for modern central bank analysis of monetary policy and represent the state-of-the-art tool for macroeconomic forecasting and policy evaluation.
 
+## How It's Best Learned
+Do the Blanchard-Kahn check on a one-equation model before a full system. Combine a Fisher equation with a fixed real rate, i_t = r + E_t π_{t+1}, with a rule i_t = r + φπ_t. This gives E_t π_{t+1} = φπ_t, with inflation as the one jump variable. The root φ is explosive when |φ| > 1; for a positive response coefficient this is φ > 1, the Taylor principle.
+
+## Common Misconceptions
+- Explosive eigenvalues mean the model economy is unstable. (Explosive roots are what pin down the jump variables: agents choose the one path that does not explode. A unique stable solution needs exactly as many explosive roots as jump variables.)
+- A log-linearized solution is the exact solution of the model. (It is a first-order approximation around the steady state, accurate for small shocks; it misses nonlinear effects such as a zero lower bound and time-varying risk premia.)
+- Any model with optimizing agents is automatically safe from the Lucas critique. (That protection holds only if the assumed preferences and technology are correct and truly policy-invariant.)
+
 ## Questions
 
 ```yaml

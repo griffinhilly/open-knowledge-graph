@@ -21,7 +21,16 @@ status: validated
 # Matrix Exponential and Differential Equations
 
 ## Core Idea
-The matrix exponential eᴬ = Σ Aⁿ/n! solves the matrix ODE dX/dt = AX with initial condition X(0) = I, giving X(t) = eᴬᵗ. If A is diagonalizable, eᴬ = PeᴰPP⁻¹ where e^D is diagonal. Solutions to dx/dt = Ax are x(t) = eᴬᵗx₀. Jordan normal form provides formulas for eᴬᵗ in the non-diagonalizable case.
+The matrix exponential eᴬ = Σ Aⁿ/n! solves the matrix ODE dX/dt = AX with initial condition X(0) = I, giving X(t) = eᴬᵗ. If A is diagonalizable, eᴬ = PeᴰP⁻¹ where e^D is diagonal. Solutions to dx/dt = Ax are x(t) = eᴬᵗx₀. Jordan normal form provides formulas for eᴬᵗ in the non-diagonalizable case.
+
+## How It's Best Learned
+Build up in three cases. For D = diag(1, 2), the series gives e^{Dt} = diag(eᵗ, e²ᵗ). For N = [[0, 1], [0, 0]], N² = 0, so the series stops and e^{Nt} = I + Nt = [[1, t], [0, 1]]. For J = λI + N, the two parts commute, so e^{Jt} = e^{λt}[[1, t], [0, 1]]. Differentiate each result to confirm it satisfies X' = AX.
+
+## Common Misconceptions
+- eᴬ is found by exponentiating each entry of A. (For a diagonal matrix you exponentiate only the diagonal entries; in general eᴬ comes from the series Σ Aⁿ/n!, and e^N for N = [[0, 1], [0, 0]] is [[1, 1], [0, 1]], not [[1, e], [1, 1]].)
+- The matrix exponential exists only when A is diagonalizable. (The series converges for every square matrix; diagonalization is a shortcut for computing it.)
+- If every entry of A is negative, solutions of x' = Ax decay. (Stability depends on the eigenvalues; A = [[−1, −3], [−3, −1]] has eigenvalues 2 and −4, so most solutions grow.)
+- e^{A+B} = eᴬe^B holds for all matrices, as it does for numbers. (It holds when AB = BA but can fail when A and B do not commute.)
 
 ## Questions
 

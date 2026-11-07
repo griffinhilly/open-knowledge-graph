@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 A space is regular if for closed F and x ∉ F, there exist disjoint open sets separating them. Regularity separates points from closed sets. Every metric space is regular.
 
+## How It's Best Learned
+Pair the metric proof with a counterexample. First separate x from closed F in a metric space using balls of radius d(x, F)/2. Then study the K-topology on ℝ, where the set K = {1/n : n ≥ 1} is declared closed. It is Hausdorff, but no open sets separate 0 from K. Finally, prove the reformulation: every neighborhood U of x contains an open V with x ∈ V and closure of V inside U.
+
+## Common Misconceptions
+- Every Hausdorff space is regular. (The K-topology on ℝ is Hausdorff, yet the point 0 cannot be separated from the closed set K.)
+- Regularity alone implies Hausdorff. (A two-point indiscrete space is regular, since its only closed sets are ∅ and the whole space, but it is not Hausdorff. The implication needs T₁ as well.)
+- Separating x from each point of F one at a time separates x from F. (The pointwise neighborhoods of x may be infinitely many, and their intersection need not be open.)
+
 ## Questions
 
 ```yaml
@@ -49,7 +57,7 @@ A space is regular if for closed F and x ∉ F, there exist disjoint open sets s
 - question: "Every T3 space (regular and T1) is automatically Hausdorff (T2)."
   type: true-false
   answer: true
-  explanation: "In a T3 space, single points are closed (the T1 condition). Regularity then allows separating any point from any closed set not containing it. Since {y} is closed (by T1) and x ∉ {y} for distinct x and y, regularity gives disjoint open sets separating x from {y} — exactly the Hausdorff condition. So T3 implies T2 in the presence of T1, confirming the separation axioms form a genuine hierarchy: T1 ⊂ T2 ⊂ T3 ⊂ T4."
+  explanation: "In a T3 space, single points are closed (the T1 condition). Regularity then allows separating any point from any closed set not containing it. Since {y} is closed (by T1) and x ∉ {y} for distinct x and y, regularity gives disjoint open sets separating x from {y} — exactly the Hausdorff condition. So T3 implies T2 in the presence of T1, confirming the separation axioms form a genuine hierarchy: T4 ⟹ T3 ⟹ T2 ⟹ T1."
 
 - question: "A space is normal (T4) if it can separate any point from any closed set not containing it with disjoint open sets."
   type: true-false

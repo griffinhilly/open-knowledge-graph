@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The First Welfare Theorem states that every Walrasian equilibrium allocation is Pareto efficient (under assumptions of price-taking behavior, no externalities, and no public goods). This foundational result shows that competition automatically eliminates wasteful misallocations. The theorem does not imply fairness or equity—only that there are no unexploited gains from trade.
 
+## How It's Best Learned
+Trace the proof in an Edgeworth box. Draw the equilibrium price line through the endowment, tangent to both indifference curves. Any allocation that helps one person without hurting the other must lie on or beyond each person's budget line, and strictly beyond for the one who gains. Adding the two costs gives more than the value of the endowment, which the box cannot supply.
+
+## Common Misconceptions
+- The theorem says competitive markets produce fair outcomes. (It says the equilibrium is Pareto efficient. An efficient allocation can be extremely unequal.)
+- The theorem proves that government intervention always lowers efficiency. (It holds only under its assumptions. With externalities, market power or missing markets, intervention can improve efficiency.)
+- Pareto efficiency means total utility is maximized. (Pareto efficiency only rules out changes that help someone and hurt no one. It needs no adding up of utilities across people.)
+- The theorem needs convex preferences. (Convexity matters for the Second Welfare Theorem. The First rests on price taking, complete markets, no externalities and local nonsatiation.)
+
 ## Questions
 
 ```yaml
@@ -49,7 +58,7 @@ The First Welfare Theorem states that every Walrasian equilibrium allocation is 
 - question: "An allocation where one person owns all resources and everyone else has nothing can be Pareto efficient."
   type: true-false
   answer: true
-  explanation: "This is the most important and surprising implication of Pareto efficiency: it has nothing to do with fairness. If giving resources to others would require taking from the person who owns everything, that's a Pareto improvement — wait, no: taking from them makes *them* worse off, so it's not a Pareto improvement. The allocation where one person owns everything can satisfy 'you cannot make someone better off without making someone else worse off' trivially. Pareto efficiency is a necessary condition for a good outcome, but far from sufficient — it says nothing about equity or justice."
+  explanation: "This is the most important and surprising implication of Pareto efficiency: it has nothing to do with fairness. Giving resources to others would require taking from the person who owns everything, which makes that person worse off, so it is not a Pareto improvement. The allocation where one person owns everything can satisfy 'you cannot make someone better off without making someone else worse off' trivially. Pareto efficiency is a necessary condition for a good outcome, but far from sufficient — it says nothing about equity or justice."
 
 - question: "The First Welfare Theorem implies that any government intervention in a competitive market makes the outcome worse, since it disrupts Pareto efficiency."
   type: true-false

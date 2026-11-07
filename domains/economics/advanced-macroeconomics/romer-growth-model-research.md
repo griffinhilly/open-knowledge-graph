@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 The Romer model endogenizes technological progress through R&D spending. The economy has a manufacturing sector producing output and an R&D sector producing designs. Sustained growth occurs because knowledge accumulation increases productivity of all future capital, creating a positive externality that drives perpetual growth.
 
+## How It's Best Learned
+Write the idea production function Ȧ = δL_A·A, so the growth rate of ideas is δL_A. Double the research workforce and the growth rate doubles. Then change it to Ȧ = δL_A·A^φ with φ < 1 and redo the exercise: long-run growth now equals n/(1−φ), and more researchers raise the level of ideas but not their long-run growth rate. The contrast shows exactly where the growth effect comes from.
+
+## Common Misconceptions
+- Because ideas are nonrival, anyone can use them for free. (Nonrivalry means one use does not deplete the idea; whether others can be excluded is separate and depends on patents or secrecy.)
+- Endogenous growth requires the absence of diminishing returns everywhere in the model. (Final-goods production can still have diminishing returns to each input; sustained growth comes from the knowledge equation being linear in A.)
+- The model's prediction that more researchers mean faster growth fits the data well. (Research employment in advanced economies has grown greatly while their growth rates have not risen to match; semi-endogenous models drop this scale effect.)
+
 ## Questions
 
 ```yaml

@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Time-domain (TEM) and frequency-domain electromagnetic methods measure electrical conductivity through induced currents and transient responses. Data are inverted for 1D/2D/3D conductivity-depth models.
 
+## How It's Best Learned
+Calculate skin depths with δ ≈ 503·√(ρ/f) metres. In 100 Ω·m ground, 10 kHz gives about 50 m and 100 Hz about 500 m; in 10 Ω·m ground both shrink by a factor of about 3. Then sketch the TEM current ring at three times after shut-off, each deeper and wider, and match each sketch to its part of the decay curve.
+
+## Common Misconceptions
+- The skin depth is the deepest the method can see. (Fields extend beyond one skin depth, and detection also depends on target size, contrast and noise; skin depth is a scale, not a cutoff.)
+- Induction methods detect resistive layers as well as conductive ones. (They are most sensitive to conductors; a thin resistive layer between conductive ones can give little signal.)
+- Each TEM time window samples one depth. (Sensitivity at any time is spread over a range of depths, so windows overlap and the inversion has to separate them.)
+- EM induction surveys need electrodes in the ground. (Induction couples through magnetic fields, so loops can lie on the surface or be flown from aircraft without ground contact.)
+
 ## Questions
 
 ```yaml

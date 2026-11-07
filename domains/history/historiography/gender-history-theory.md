@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Gender is not merely 'women's history'; it is a fundamental structural category shaping all historical phenomena. Gender history examines how societies construct masculinity and femininity, organize labor and power along gender lines, and how these patterns change over time. It asks: How has gender been experienced differently across cultures and periods? How does gender intersect with class, race, and colonialism?
 
+## How It's Best Learned
+Read a source that seems to have nothing to do with gender, such as a speech on trade policy or a military manual, and highlight every word that codes qualities as masculine or feminine: "manly," "weak," "virile," "honor." Then ask what work those codes do in the argument. Reading Scott's 1986 essay right after the exercise lets you match her two-part definition to what you found.
+
+## Common Misconceptions
+- Gender history is women's history under a new name. (Gender history includes women's history, but it studies how gender as a category organizes power across all institutions, men included.)
+- Sources that never mention women or gender have nothing to offer a gender historian. (Scott's point is that gender often works as an unstated grammar in sources about politics, war or economics.)
+- Masculinity is the neutral default and needs no history. (Masculinity has changing historical forms, and treating it as the norm hides how it shaped institutions.)
+- Gender can be studied on its own, apart from race and class. (People experienced gender through their race, class, legal status and religion at the same time.)
+
 ## Questions
 
 ```yaml

@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 Mutation rates themselves evolve. Rates balanced between costs of high mutation (mutational load) and benefits of genetic variation for adaptation. Selection acts on replication fidelity, DNA repair efficiency, and proofreading mechanisms to optimize rates.
 
+## How It's Best Learned
+Treat a fidelity-improving allele like any other allele with a selection coefficient. Suppose it gives s = 10⁻⁶. Compare s with 1/(2Ne): for Ne = 10⁴ the threshold is 5 × 10⁻⁵, so drift wins; for Ne = 10⁹ it is 5 × 10⁻¹⁰, so selection wins. Then explain why the two species end up with different mutation rates.
+
+## Common Misconceptions
+- Mutation rates are fixed by the chemistry of DNA and cannot evolve. (Polymerases, proofreading and repair enzymes are encoded by genes whose variants change fidelity, so the rate is a heritable trait.)
+- Large populations should have higher per-nucleotide mutation rates because they produce more mutations. (A large population produces more mutations in total, but selection there can refine fidelity further, so the drift barrier predicts lower per-nucleotide rates.)
+- Mutator alleles spread because a higher mutation rate helps the population adapt. (A mutator does not spread for the population's benefit; it rises mainly by hitchhiking with a beneficial mutation it caused in the same genome, or by drift in small populations, and recombination in sexual populations breaks the hitchhiking link.)
+
 ## Questions
 
 ```yaml

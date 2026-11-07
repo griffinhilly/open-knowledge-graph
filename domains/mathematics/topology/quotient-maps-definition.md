@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 A surjection q: X → Y is a quotient map if U ⊆ Y is open iff q⁻¹(U) is open. The quotient topology on Y is the finest making q continuous. Quotient maps formalize identification and gluing: the torus is ℝ² with 'opposite edges identified,' projective space ℝP^n is S^n with antipodal points identified.
 
+## How It's Best Learned
+Compute a quotient topology on a tiny example. Let X = {1, 2, 3} with open sets ∅, {1}, {1, 2}, X, and let q send 1 to a and both 2 and 3 to b. Test each subset of Y = {a, b}: only ∅, {a}, and Y have open preimages. Then note that the indiscrete topology on Y also makes q continuous, which shows why "finest" is part of the definition.
+
+## Common Misconceptions
+- Any topology on Y that makes q continuous is the quotient topology. (The indiscrete topology makes every map into Y continuous. The quotient topology is the finest one that works.)
+- To prove a map f: Y → Z out of a quotient is continuous, you must handle open sets of Y directly. (It is enough to show that f ∘ q: X → Z is continuous.)
+- Any function on X passes down to a function on the quotient. (It passes down only if it takes the same value on every point of each equivalence class.)
+
 ## Questions
 
 ```yaml
@@ -58,8 +66,8 @@ A surjection q: X → Y is a quotient map if U ⊆ Y is open iff q⁻¹(U) is op
 
 - question: "Explain in your own words why the biconditional in the definition of a quotient map — 'U is open if and only if q⁻¹(U) is open' — is stronger than mere continuity, and why this matters for the resulting topology on Y."
   type: short-answer
-  answer: "Continuity is one direction: q continuous means q⁻¹(U) open whenever U is open. The quotient map adds the converse: if q⁻¹(U) is open, then U must be open. This biconditional means the topology of Y is entirely determined by q — Y has exactly the open sets that q 'lets through,' making it the finest possible topology consistent with q. A weaker topology would discard topological information; a stronger one would require q to be an open map, which quotient maps need not be."
-  explanation: "The biconditional ensures the quotient topology captures the full topological content of the identification. Any coarser topology would declare some set U closed even though q⁻¹(U) is open, destroying information about the space. The finest topology condition is what makes quotient spaces well-defined and gives them the universal property: maps out of Y are continuous iff their composition with q is continuous."
+  answer: "Continuity is one direction: q continuous means q⁻¹(U) open whenever U is open. The quotient map adds the converse: if q⁻¹(U) is open, then U must be open. This biconditional means the topology of Y is entirely determined by q — Y has exactly the open sets that q 'lets through,' making it the finest possible topology consistent with q. A coarser topology would discard topological information; a finer one would contain some set with a non-open preimage, so q would not be continuous."
+  explanation: "The biconditional ensures the quotient topology captures the full topological content of the identification. Any coarser topology would declare some set U not open even though q⁻¹(U) is open, destroying information about the space. The finest topology condition is what makes quotient spaces well-defined and gives them the universal property: maps out of Y are continuous iff their composition with q is continuous."
 ```
 
 ## Explainer
@@ -68,6 +76,6 @@ From continuity of topological spaces, you know that a map f: X → Y is continu
 
 The canonical motivation is gluing. Take a square [0,1] × [0,1] and identify the left and right edges: declare that (0, t) and (1, t) are "the same point" for every t ∈ [0, 1]. The result is a cylinder. Then identify top and bottom edges of the cylinder: (s, 0) and (s, 1) become the same. The result is a torus. The quotient map q sends each point of the square to its equivalence class under these identifications, and the quotient topology on the torus is precisely: a set U in the torus is open iff its preimage in the square is open. This construction is completely precise — you do not need to embed the torus in ℝ³ or describe its geometry. The topology is entirely determined by the identification rule and the continuity condition.
 
-The **quotient topology** on Y is the finest (largest) topology making q continuous. "Finest" means as many open sets as possible: since q is continuous iff preimages of opens are open, we put in every set whose preimage is open. Any coarser topology would declare some set U closed even though q⁻¹(U) is open — discarding topological information. The quotient topology keeps everything the map allows. A useful consequence: a map f: Y → Z out of a quotient space Y is continuous iff the composition f ∘ q: X → Z is continuous. This is the **universal property** of quotient maps, and it means you can check continuity of maps *out of* quotient spaces by working upstairs in X, where life is often simpler.
+The **quotient topology** on Y is the finest (largest) topology making q continuous. "Finest" means as many open sets as possible: since q is continuous iff preimages of opens are open, we put in every set whose preimage is open. Any coarser topology would declare some set U not open even though q⁻¹(U) is open — discarding topological information. The quotient topology keeps everything the map allows. A useful consequence: a map f: Y → Z out of a quotient space Y is continuous iff the composition f ∘ q: X → Z is continuous. This is the **universal property** of quotient maps, and it means you can check continuity of maps *out of* quotient spaces by working upstairs in X, where life is often simpler.
 
 The power of quotient maps in practice is that they generate all the important non-trivial topological spaces from simple ones. The projective plane ℝP² is S² with antipodal points identified — q: S² → ℝP² collapses each pair {x, −x} to a single point. The Möbius band is a rectangle with one pair of opposite edges identified with a flip. These are not merely metaphors or embeddings in 3-space: they are precisely defined topological spaces, and their topology (which sets are open) is given by the quotient map definition. Whenever you see a description like "X with these points identified" or "X modulo the equivalence relation ∼," you are seeing a quotient space, and the quotient map is the projection sending each point to its equivalence class. The biconditional in the definition — not just preimages of opens are open, but conversely — is what ensures the quotient space captures the full topological content of the identification.

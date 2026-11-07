@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Environmental history treats the natural world not as background but as an active historical agent. It investigates how humans have transformed ecosystems, how environmental constraints have shaped societies, and how environmental crises and transformations structure historical change. Environmental historians study climate, disease, forests, waterways, and species as historical participants alongside human agency.
 
+## How It's Best Learned
+Sort sample claims into three bins: environmental determinism ("the climate made them lazy"), anthropocentrism ("settlers tamed the wilderness"), and reciprocal environmental history ("land-use choices changed the soil, which limited later farming"). Then draw one feedback loop for a case such as Crosby's ecological imperialism, with arrows from human action to environment and back again. Drawing the loop shows why the field calls causation reciprocal.
+
+## Common Misconceptions
+- Environmental history is the same as environmental determinism. (Determinism says geography and climate dictate outcomes; environmental history studies a two-way relationship in which humans also reshape their environments.)
+- Treating nature as an actor means people did not matter. (Human choices remain central, and environmental history traces how those choices and natural processes shaped each other over time.)
+- Before contact with outsiders, Indigenous societies lived in untouched harmony with nature. (Many Indigenous societies actively managed their lands, for example by burning, and environmental history treats that management as part of the story.)
+- Climate change and extinction belong to science, not history. (Environmental historians treat them as historical processes with causes, consequences and records, like wars and revolutions.)
+
 ## Questions
 
 ```yaml

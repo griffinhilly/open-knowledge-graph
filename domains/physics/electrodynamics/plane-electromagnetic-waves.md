@@ -26,7 +26,16 @@ status: validated
 # Plane Electromagnetic Waves
 
 ## Core Idea
-Plane waves are the simplest solutions to Maxwell's equations, with electric and magnetic fields perpendicular to each other and to the direction of propagation, oscillating sinusoidally in space and time. In a plane wave, E and B are related by B = k × E/ω, and their magnitudes are equal in SI units. Most radiation problems can be analyzed locally using plane wave approximations.
+Plane waves are the simplest solutions to Maxwell's equations, with electric and magnetic fields perpendicular to each other and to the direction of propagation, oscillating sinusoidally in space and time. In a plane wave, E and B are related by B = k × E/ω, and |B| = |E|/c in SI units (the magnitudes are equal only in Gaussian units). Most radiation problems can be analyzed locally using plane wave approximations.
+
+## How It's Best Learned
+Derive B by hand for E = E₀ x̂ cos(kz − ωt). The y-component of Faraday's law gives ∂B_y/∂t = kE₀ sin(kz − ωt), so B_y = (E₀/c) cos(kz − ωt). This shows that B points along +ŷ, is in phase with E, and is smaller by a factor of c. Then sketch E and B arrows along the z-axis at one instant and check that E × B points along +z.
+
+## Common Misconceptions
+- E and B in a traveling wave are 90° out of phase, trading energy back and forth like an LC circuit. (In a traveling plane wave in vacuum they peak and cross zero together. A 90° offset appears in standing waves.)
+- The magnetic field is so much smaller than the electric field that it carries almost none of the energy. (In SI units |B| = |E|/c, but the energy densities ε₀E²/2 and B²/2μ₀ are exactly equal.)
+- Because the solution is written as a complex exponential, the physical field is complex. (The physical field is the real part. Products such as energy density must be formed from real fields or by time-averaging rules.)
+- A plane wave is a narrow beam traveling along k. (An ideal plane wave has infinite flat wavefronts with the same amplitude everywhere on them. Real beams are only approximately plane over a limited region.)
 
 ## Questions
 

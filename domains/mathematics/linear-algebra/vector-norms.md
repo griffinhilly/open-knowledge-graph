@@ -31,6 +31,12 @@ The norm (or magnitude) of a vector is a real number measuring its length, compu
 ## How It's Best Learned
 Start with 2D and 3D visualization of distance formula. Then extend algebraically to R^n. Normalize vectors by dividing by their norm to create unit vectors in the same direction.
 
+## Common Misconceptions
+- The norm of a vector is the sum of its components. (The Euclidean norm squares, adds and takes a square root, so ||(3, 4)|| = 5; the sum of absolute values, 7, is a different norm called the L1 norm.)
+- A vector with negative components has a negative norm. (Squaring removes the signs, so ||(−3, −4)|| = 5, the same as ||(3, 4)||.)
+- A unit vector is one whose components are all 1. (A unit vector has norm 1; (1, 1) has norm √2, and the unit vector in its direction is (1, 1)/√2.)
+- The norm of a sum is the sum of the norms. (Usually it is smaller: for (3, 0) and (0, 4), ||u + v|| = 5 while ||u|| + ||v|| = 7.)
+
 ## Questions
 
 ```yaml

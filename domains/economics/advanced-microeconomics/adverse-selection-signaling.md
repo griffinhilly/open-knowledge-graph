@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Adverse selection occurs when one party (uninformed) cannot distinguish among types of the other party (informed). Informed parties may use costly signals (education, warranties, investment) to credibly communicate private information. Separating equilibria exist where different types take different actions, revealing information; pooling equilibria may also occur where all types behave identically.
 
+## How It's Best Learned
+Work a two-type Spence example by hand. Let high-ability workers produce 2 and low-ability workers produce 1, with education cost e for high types and 2e for low types. In a separating equilibrium, low types need 1 ≥ 2 − 2e, so e ≥ 0.5. High types need 2 − e ≥ 1, so e ≤ 1. Any e from 0.5 to 1 can separate.
+
+## Common Misconceptions
+- Education signals ability because it makes workers more productive. (In the basic Spence model education adds nothing to productivity. It works as a signal because it costs high-ability workers less to acquire.)
+- A low type cannot send the signal. (Low types can acquire the signal. In a separating equilibrium they choose not to, because the cost exceeds the wage gain.)
+- A signaling game has one equilibrium. (Many signal levels can sustain separation, and pooling equilibria can also exist. Refinements are used to narrow the set.)
+- Separation through signaling makes the market efficient. (When the signal adds no productivity, the cost high types spend on it is a deadweight loss relative to full information.)
+
 ## Questions
 
 ```yaml

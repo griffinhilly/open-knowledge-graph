@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Trembling hand perfection refines Nash equilibrium by requiring robustness to small mistakes: an equilibrium is perfect if it is a limit of equilibria in perturbed games where players make small errors. This eliminates equilibria dependent on implausibly irrational off-path beliefs. An equilibrium is perfect if no player has an incentive to deviate even when others may occasionally make mistakes.
 
+## How It's Best Learned
+Use the 2×2 game where (U, L) pays both players 1 and every other cell pays 0. Both (U, L) and (D, R) are Nash equilibria. Let the column player tremble to L with probability ε: the row player's U then earns ε while D earns 0, so D stops being a best response. (D, R) fails the test, and (U, L) survives it.
+
+## Common Misconceptions
+- A test this strict may leave some finite games with no equilibrium at all. (Every finite strategic-form game has at least one trembling-hand perfect equilibrium.)
+- Any Nash equilibrium in undominated strategies is trembling-hand perfect. (That holds in finite two-player games. With three or more players, an undominated equilibrium can still fail the test.)
+- Perfection in the strategic form guarantees subgame perfection. (A normal-form perfect equilibrium can fail subgame perfection in the extensive form. Applying trembles at each decision node, the extensive-form version, closes that gap.)
+- The trembles describe how players actually behave. (The error probabilities go to zero in the limit. They are a test of whether the equilibrium strategies stay optimal near the equilibrium, and the limit prediction itself contains no mistakes.)
+
 ## Questions
 
 ```yaml
@@ -30,11 +39,11 @@ Trembling hand perfection refines Nash equilibrium by requiring robustness to sm
   type: multiple-choice
   options:
     - "Yes — Firm B has no incentive to enter given the threat, so the equilibrium is self-sustaining"
-    - "No — if there is a small chance Firm A trembles into Accommodating, Firm B's best response is to enter, so the equilibrium is not robust to small mistakes"
+    - "No — if there is a small chance Firm B trembles into entering, Fight earns Firm A strictly less than Accommodate, so the equilibrium is not robust to small mistakes"
     - "Yes — trembling hand perfection only applies to simultaneous-move games, not entry deterrence"
     - "No — but only because Firm B is using a weakly dominated strategy"
   answer: 1
-  explanation: "This is the classic case that trembling hand perfection was designed to eliminate. The threat to Fight is not credible: if Firm A actually faces entry, its best response is Accommodate. The Nash equilibrium survives only because Firm B believes the threat with certainty. But when Firm A trembles — plays Fight with probability only (1-ε) — Firm B's best response may shift to Enter. Because the equilibrium depends on a threat that would never be executed, it fails the perfection test."
+  explanation: "This is the classic case that trembling hand perfection was designed to eliminate. The threat to Fight is not credible: if Firm A actually faces entry, its best response is Accommodate. The Nash equilibrium survives only because Firm B believes the threat with certainty. But if Firm B trembles into Enter with probability ε, Fight earns Firm A strictly less than Accommodate, so Fight is not a best response in the perturbed game. Because the equilibrium depends on a threat that would never be executed, it fails the perfection test."
 
 - question: "Player A has a weakly dominated strategy W — another strategy D does at least as well against every opponent action and strictly better against some. A Nash equilibrium requires Player A to play W. What does trembling hand perfection say about this equilibrium?"
   type: multiple-choice

@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 When short-term interest rates are at the zero lower bound, central banks conduct quantitative easing: purchasing long-term bonds or other assets to inject liquidity and lower long-term rates. QE affects the economy through portfolio balance (changing relative asset supplies), signaling effects (commitments to future policy), and credit channels (ensuring lending continues despite financial stress). The effectiveness of QE remains debated, with estimates ranging from substantial real effects to mostly inflation, highlighting disagreement about monetary transmission when conventional tools are exhausted.
 
+## How It's Best Learned
+Start with T-accounts: show the central bank and a bond seller before and after a purchase, so the asset swap is visible. Then split a 10-year yield into the expected average short rate plus a term premium. Assign each channel to the piece it moves: signaling lowers the expected path, and portfolio balance lowers the term premium. The credit channel works mainly on spreads in impaired markets.
+
+## Common Misconceptions
+- QE hands new cash to households to spend. (It swaps reserves for bonds; bond sellers end up holding deposits or reserves instead of bonds, and their wealth is not directly increased.)
+- A large rise in bank reserves must cause inflation of the same size. (Near zero rates, banks can hold extra reserves without lending them out, so broad money and prices need not rise in proportion.)
+- QE affects only the yields of the bonds the central bank buys. (Signaling can lower the whole expected path of short rates, and investors who sell bonds may move into other assets and lower their yields too.)
+
 ## Questions
 
 ```yaml

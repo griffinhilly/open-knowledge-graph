@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 An orthonormal system {eᵢ}ᵢ∈ᴵ is orthonormal if ⟨eᵢ, eⱼ⟩ = δᵢⱼ. A maximal orthonormal system (orthonormal basis) has dense span in H. Every separable Hilbert space has a countable orthonormal basis.
 
+## How It's Best Learned
+Use Parseval's identity as a test for completeness. In ℓ², take x = (1/2, 1/4, 1/8, ...), so ‖x‖² = Σ4⁻ⁿ = 1/3. Against the full standard basis, the squared coefficients also sum to 1/3. Against the even-indexed vectors {e₂, e₄, ...} they sum to Σ16⁻ⁿ = 1/15. The gap shows that this orthonormal set, though infinite, is not a basis.
+
+## Common Misconceptions
+- An orthonormal basis is a basis in the linear-algebra sense. (In infinite dimensions, finite combinations of the eᵢ are only dense. A Hamel basis of an infinite-dimensional Hilbert space is uncountable.)
+- Any infinite orthonormal set in an infinite-dimensional space is a basis. (The even-indexed vectors {e₂, e₄, ...} in ℓ² are orthonormal and infinite, yet e₁ is orthogonal to all of them.)
+- The expansion f = Σ⟨f, eᵢ⟩eᵢ converges pointwise for functions in L². (The guaranteed convergence is in norm, which by itself does not give convergence at any particular point.)
+
 ## Questions
 
 ```yaml
@@ -45,7 +53,7 @@ An orthonormal system {eᵢ}ᵢ∈ᴵ is orthonormal if ⟨eᵢ, eⱼ⟩ = δᵢ
   answer: 3
   explanation: "Fourier analysis is not analogous to Hilbert space theory — it IS Hilbert space theory applied to L²([0,1]). The inner product ⟨f,g⟩ = ∫₀¹ f(x)g(x)dx makes L² a Hilbert space. The trig functions are orthonormal under this inner product and their span is dense in L², making them an orthonormal basis. The Fourier coefficient ĉₙ = ∫f(x)eₙ(x)dx is exactly ⟨f,eₙ⟩, and f = Σ ⟨f,eₙ⟩eₙ is the basis expansion formula. Convergence is in L² norm, not pointwise."
 
-- question: "An orthonormal system {eᵢ} in a Hilbert space is an orthonormal basis if and mainly if its span equals H — most element of H can be written as a finite linear combination of the eᵢ."
+- question: "An orthonormal system {eᵢ} in a Hilbert space is an orthonormal basis if and only if its span equals H — every element of H can be written as a finite linear combination of the eᵢ."
   type: true-false
   answer: false
   explanation: "An orthonormal basis requires that the span is DENSE in H — every element can be approximated arbitrarily well by finite linear combinations, but not necessarily written as a finite combination exactly. 'Span equals H' is the finite-dimensional notion of basis. In infinite-dimensional spaces, the correct condition is density of the span (equivalently, maximality: no unit vector exists that is orthogonal to every element of the set). The expansion f = Σ⟨f,eᵢ⟩eᵢ is an infinite series converging in norm, not a finite sum."

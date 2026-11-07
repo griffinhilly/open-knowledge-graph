@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Scaling a vector by a scalar c multiplies each component: c(v₁, v₂, ..., vₙ) = (cv₁, cv₂, ..., cvₙ). Positive scalars scale magnitude; negative scalars reverse direction. Scalar multiplication distributes over vector addition and is associative with scalar multiplication.
 
+## How It's Best Learned
+On graph paper, draw v = (2, 1) from the origin. Then draw cv for c = 2, 1/2, 0, −1 and −1.5. Every result lands on the same line through the origin. Next compute lengths: ||v|| = √5, ||2v|| = 2√5 and ||−1.5v|| = 1.5√5. This shows the length rule ||cv|| = |c|·||v|| and the role of the sign.
+
+## Common Misconceptions
+- A negative scalar gives a vector with negative length. (Length is never negative; ||cv|| = |c|·||v||, and the sign of c only sets the direction.)
+- Multiplying a scalar by a vector produces a number. (cv is a vector in the same space as v; the dot product u · v is the operation that produces a number.)
+- 0·v equals the number 0. (It equals the zero vector (0, 0, …, 0) in ℝⁿ, which is a vector, not a scalar.)
+- Scaling a vector can turn it to point in a new direction, such as at a right angle. (Every multiple of v lies on the line through v, so the direction can only stay the same or reverse.)
+
 ## Questions
 
 ```yaml

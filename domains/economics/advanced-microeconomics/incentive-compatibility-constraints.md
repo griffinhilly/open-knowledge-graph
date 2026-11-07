@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Incentive compatibility requires that each agent's optimal action is truth-telling (or the action chosen). Individual rationality requires agents accept the contract (participate). In contract design, these constraints limit efficiency: the planner must offer rents to induce truthful reporting or effort, creating information rents that reduce total surplus. The tradeoff between incentives and efficiency is fundamental to contract theory.
 
+## How It's Best Learned
+Work a two-type menu with numbers. Let utility be θq − t, with θ = 6 or 10. Offer A = (q = 1, t = 6) for the low type and B = (q = 2, t = 20) for the high type. Both IR constraints hold, but the high type gets 4 from A and 0 from B. Cutting t_B to 16 restores IC, and that rent of 4 equals (10 − 6) × 1.
+
+## Common Misconceptions
+- If a mechanism is incentive compatible, every type will take part. (IC only compares the contracts on the menu with each other. Participation needs the IR constraint, a separate comparison with the outside option.)
+- Every IC and IR constraint binds at the optimal contract. (In the standard two-type problem, the high type's IC and the low type's IR typically bind, and the other two are slack.)
+- Information rents mean the designer set the contracts badly. (Rents are the cost of getting truthful reports. The optimal mechanism generally leaves rent to any type that could profitably mimic another.)
+- IC requires each type to strictly prefer its own contract. (Weak preference is enough. At the optimum, the binding IC usually leaves the high type exactly indifferent.)
+
 ## Questions
 
 ```yaml

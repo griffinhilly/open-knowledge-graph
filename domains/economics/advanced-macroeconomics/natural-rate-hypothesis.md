@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 The natural rate hypothesis asserts that unemployment has a long-run level independent of monetary policy and inflation (the NAIRU—non-accelerating inflation rate of unemployment). Expansionary policy only temporarily reduces unemployment; expectations adjust and inflation accelerates. Only supply-side policies can persistently lower the natural rate.
 
+## How It's Best Learned
+Iterate an accelerationist Phillips curve by hand: π_t = π_{t−1} − 0.5(u_t − 5), starting at π = 2. Hold unemployment at 4 and inflation climbs to 2.5, 3, 3.5 and keeps rising. Hold it at 5 and inflation stays at whatever level it reached. Plotting both paths shows why only one unemployment rate is consistent with stable inflation.
+
+## Common Misconceptions
+- The natural rate is the lowest or ideal level of unemployment. (It is the rate consistent with stable inflation, set by structural factors; "natural" does not mean optimal.)
+- The natural rate is a fixed, known number. (It differs across countries, shifts over time with institutions and demographics, and has to be estimated with wide uncertainty.)
+- A vertical long-run Phillips curve means monetary policy cannot affect unemployment at all. (Policy can move unemployment in the short run, until expectations catch up with actual inflation.)
+
 ## Questions
 
 ```yaml

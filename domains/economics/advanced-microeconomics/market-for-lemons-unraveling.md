@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Akerlof's 'market for lemons' demonstrates how information asymmetry about quality unravels markets. Since buyers cannot distinguish high from low quality, they offer average prices. High-quality sellers exit, lowering average quality. This iterative process continues until only low-quality (lemons) remain. The potential welfare gains from trade may fail to be realized entirely when quality is unobservable and heterogeneous.
 
+## How It's Best Learned
+Start from the explainer's peaches and lemons, and let the share of peaches be s. The average buyer value is 12s + 6(1 − s) = 6 + 6s thousand dollars. Peach sellers stay only if this reaches 10, which needs s ≥ 2/3. Compare s = 1/2 with s = 3/4 to see unraveling switch on and off.
+
+## Common Misconceptions
+- Once unraveling starts, the market must disappear. (In the explainer's example, lemons still trade at $6,000. With a peach share of 2/3 or more, both types trade at a pooled price.)
+- Buyers could save the market by offering a higher price. (At $10,000 with half peaches, both types sell, but the expected car is worth $9,000 to the buyer. The buyer loses money on average.)
+- The welfare loss is lemon sellers being overpaid. (A price paid from buyer to seller is a transfer. The loss is the surplus from peach trades that never happen.)
+- A warranty helps only because it pays for repairs later. (It also signals quality. The same warranty costs a lemon seller far more to honor, so a peach seller can offer it when a lemon seller would not.)
+
 ## Questions
 
 ```yaml

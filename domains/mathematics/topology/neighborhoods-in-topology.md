@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 A neighborhood of a point x is any set containing an open set that contains x. Neighborhoods allow us to study local behavior in a topological space—properties that depend only on what happens near a particular point, not on the space globally. Convergence and continuity are fundamentally local concepts expressed via neighborhoods.
 
+## How It's Best Learned
+Decide case by case whether a set is a neighborhood of a point in ℝ. [0, 2] is a neighborhood of 1 but not of 0, and ℚ is not a neighborhood of 0. [−1, 1] ∖ {1/n : n ≥ 1} is not a neighborhood of 0, because every interval around 0 contains some 1/n. Then check the filter properties: closure under supersets and finite intersections, and why ⋂(−1/n, 1/n) = {0} breaks the infinite case.
+
+## Common Misconceptions
+- A neighborhood of x is also a neighborhood of each of its other points. ([0, 2] is a neighborhood of 1 but not of its endpoint 0. A set with this property for all its points is exactly an open set.)
+- Any intersection of neighborhoods of x is a neighborhood of x. (Finite intersections are. The sets (−1/n, 1/n) are all neighborhoods of 0, but their intersection {0} is not.)
+- A set that has points of its own on both sides of x, at every scale, is a neighborhood of x. ([−1, 1] ∖ {1/n : n ≥ 1} does, yet no open interval around 0 fits inside it.)
+
 ## Questions
 
 ```yaml
@@ -53,7 +61,7 @@ A neighborhood of a point x is any set containing an open set that contains x. N
   answer: true
   explanation: "By definition, a neighborhood N of x is any set containing an open set U with x ∈ U ⊆ N. If N is itself open and contains x, take U = N: N contains the open set N which contains x. So every open set containing x satisfies the neighborhood definition. The class of neighborhoods is a superset of 'open sets containing x' — it includes non-open sets too, as long as they contain an open cushion around x."
 
-- question: "A neighborhood of a point is expected to itself be an open set."
+- question: "A neighborhood of a point must itself be an open set."
   type: true-false
   answer: false
   explanation: "This is the central misconception. The definition requires only that a neighborhood N of x contain some open set U with x ∈ U ⊆ N — N itself need not be open. For example, [0, 1] is a neighborhood of 0.5 in ℝ (it contains (0.25, 0.75) which contains 0.5), even though [0, 1] is closed. Insisting that neighborhoods be open would collapse the concept to 'open sets containing x,' losing the flexibility that makes neighborhoods useful."

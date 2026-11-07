@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Every bounded linear functional f on a Hilbert space H has the form f(x) = ⟨x, y⟩ for a unique y ∈ H. This natural isomorphism H ≅ H* is special to Hilbert spaces and fails in general Banach spaces.
 
+## How It's Best Learned
+Compute representers in two spaces. On L²[0,1], f(g) = ∫₀¹ x g(x) dx is represented by y(x) = x, so ‖f‖ = (∫x² dx)^(1/2) = 1/√3. On ℓ², f(x) = Σxₙ/2ⁿ has y = (1/2, 1/4, ...), also of norm 1/√3. Check ‖f‖ = ‖y‖ by testing x = y/‖y‖. Then contrast ℓ¹: f(x) = Σxₙ is bounded, but its natural representer (1, 1, 1, ...) lies in ℓ∞, not ℓ¹.
+
+## Common Misconceptions
+- The representing vector y depends on a choice of basis. (y is unique and defined without any basis. An orthonormal basis only gives a way to compute it, as yₙ = f(eₙ) in the real case.)
+- The orthogonal complement of ker(f) can be large. (For f ≠ 0 it is one-dimensional, because f is injective on ker(f)^⊥ and takes scalar values.)
+- This is the same theorem as the Riesz representation theorem for measures. (That result, often called Riesz-Markov, represents positive linear functionals on spaces of continuous functions by measures. The Hilbert-space theorem represents functionals by vectors.)
+
 ## Questions
 
 ```yaml
@@ -46,7 +54,7 @@ Every bounded linear functional f on a Hilbert space H has the form f(x) = ⟨x,
   answer: 1
   explanation: "The self-duality H ≅ H* is a special consequence of the inner product, not just the norm. In L^p with p ≠ 2, there is no inner product, and the dual is the different space L^q (conjugate exponent). When p = 2, L^p = L² is a Hilbert space, q = 2 as well, and indeed L^2 ≅ (L^2)* — the theorem applies. The inner product structure is essential: it is what allows 'measurements' (functionals) to be identified with 'states' (vectors) in the same space."
 
-- question: "The Riesz Representation Theorem shows that nearly every Banach space is self-dual (isomorphic to its dual space), since bounded linear functionals on any normed space can be represented as inner products."
+- question: "The Riesz Representation Theorem shows that every Banach space is self-dual (isomorphic to its dual space), since bounded linear functionals on any normed space can be represented as inner products."
   type: true-false
   answer: false
   explanation: "This is the most important misconception to correct. Self-duality is SPECIFIC to Hilbert spaces — it depends on the existence of an inner product. General Banach spaces are not self-dual: the dual of L^p is L^q (conjugate exponent), which is a different space unless p = 2. The Riesz theorem characterizes a special feature of Hilbert geometry, not a universal property of Banach spaces. The inner product is the structure that collapses the distinction between a space and its dual."
@@ -70,4 +78,4 @@ The geometric intuition comes from your understanding of **orthogonality in Hilb
 
 More carefully: fix a nonzero bounded functional f. The kernel ker(f) is a closed subspace, so by your orthogonal decomposition results, H = ker(f) ⊕ ker(f)^⊥. The orthogonal complement is one-dimensional — pick any unit vector z in it. Every x ∈ H decomposes as x = (x − f(x)/f(z) · z) + f(x)/f(z) · z. The first part lies in ker(f), the second is a scalar multiple of z. Setting y = f(z)·z̄ (conjugated in the complex case), you get f(x) = ⟨x, y⟩. Uniqueness follows because if ⟨x, y⟩ = ⟨x, y'⟩ for all x, then y = y'.
 
-The consequence is the isomorphism H ≅ H*: the map y ↦ ⟨·, y⟩ is a bijection from H onto H*. This is why Hilbert spaces are called **self-dual** — a Hilbert space "knows" its own dual. This fails in general Banach spaces: the dual of L^p is L^q (with 1/p + 1/q = 1), which is a different space unless p = 2. The inner product is the special structure that collapses this distinction. For applications — including quantum mechanics, where states live in L² and observables are bounded functionals — this self-duality is indispensable: every observable corresponds to a unique state vector, and vice versa.
+The consequence is the isomorphism H ≅ H*: the map y ↦ ⟨·, y⟩ is a bijection from H onto H*. This is why Hilbert spaces are called **self-dual** — a Hilbert space "knows" its own dual. This fails in general Banach spaces: the dual of L^p is L^q (with 1/p + 1/q = 1), which is a different space unless p = 2. The inner product is the special structure that collapses this distinction. For applications — including quantum mechanics, where states live in L² — this self-duality is what lets every "bra" (a bounded functional) be identified with a unique "ket" (a state vector), and vice versa.

@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Perfect Bayesian equilibrium refines Bayesian Nash equilibrium by imposing consistency requirements on beliefs at information sets reached with positive probability (via Bayes' rule) and requiring sequential rationality at every information set. It eliminates implausible equilibria sustained by unreasonable beliefs off the equilibrium path.
 
+## How It's Best Learned
+Check candidates in a two-type MBA game. Types H and L are equally likely, productivity is 2 or 1, and the wage equals expected productivity. An MBA costs H 0.5 and L 1.5. For the separating guess, Bayes' rule gives wages of 2 and 1, and neither type gains by switching. For pooling on no MBA, the wage is 1.5, and the off-path belief that an MBA means type L deters deviation.
+
+## Common Misconceptions
+- Beliefs in a PBE are about what the other player will do next. (Beliefs are probabilities over the nodes in an information set, such as the sender's type. Future moves are given by the strategies.)
+- Since off-path beliefs are free, PBE puts no limits on off-path play. (Play at every information set must be optimal given the beliefs held there. A free belief still has to justify the action taken.)
+- Sequential rationality only has to hold on the equilibrium path. (It must hold at every information set. Checking only the path would let non-credible threats back in.)
+
 ## Questions
 
 ```yaml

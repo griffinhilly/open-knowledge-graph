@@ -27,6 +27,12 @@ A Nash equilibrium refinement is a criterion that eliminates some Nash equilibri
 ## How It's Best Learned
 Start with games that have multiple Nash equilibria. Show why some seem unreasonable. Apply different refinements and see which equilibria survive.
 
+## Common Misconceptions
+- An equilibrium held up by a non-credible threat is not a Nash equilibrium. (It is a Nash equilibrium, because the threat is never tested on the path of play. Subgame perfection is the extra test that removes it.)
+- A refinement can turn up new equilibria that Nash missed. (Each refinement keeps a subset of the Nash equilibria. It can only remove candidates.)
+- Applying a refinement leaves a unique prediction. (Many games keep several equilibria after refinement. In a pure coordination game, both strict equilibria survive subgame perfection and trembling-hand perfection.)
+- Bayes' rule fixes the beliefs at every information set in a PBE. (It applies only where the information set is reached with positive probability. Off-path beliefs are left open, which is why further criteria exist.)
+
 ## Questions
 
 ```yaml

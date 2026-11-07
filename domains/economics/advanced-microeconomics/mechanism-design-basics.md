@@ -34,6 +34,14 @@ status: validated
 ## Core Idea
 Mechanism design addresses the problem: given a desired outcome rule and agents with private information and misaligned incentives, design a game form (mapping message profiles to outcomes) where rational equilibrium play yields the desired outcome. It is the inverse of game theory: instead of analyzing games, it designs them to achieve social objectives.
 
+## How It's Best Learned
+Take the explainer's painting with two bidders whose values are 7 and 4. Write three outcome functions as small tables: winner pays nothing, winner pays own bid, winner pays the other bid. For each one, look for a profitable lie. The first invites everyone to overstate, the second rewards shading, and the third leaves no profitable deviation.
+
+## Common Misconceptions
+- The designer can pick any outcome rule and build a game that delivers it. (Incentive and participation constraints rule out many rules. In bilateral trade, the Myerson-Satterthwaite theorem shows that efficiency, incentive compatibility, voluntary participation and budget balance cannot all hold under its assumptions.)
+- A mechanism has to ask agents to report their types. (The message space can be anything, such as bids in an ascending auction. The revelation principle says a direct mechanism can reproduce the same outcome, which makes analysis easier.)
+- If the desired outcome is one equilibrium of the mechanism, agents will produce it. (The mechanism may have other equilibria with worse outcomes. Full implementation requires every equilibrium to give the desired outcome.)
+
 ## Questions
 
 ```yaml
@@ -41,11 +49,11 @@ Mechanism design addresses the problem: given a desired outcome rule and agents 
   type: multiple-choice
   options:
     - "A first-price sealed-bid auction, where the highest bidder wins and pays their own bid"
-    - "An open-outcry ascending auction with no reserve price"
+    - "A descending-price (Dutch) auction, where the price falls until a bidder accepts"
     - "Simply asking companies to submit their true valuations on an honor system"
     - "A second-price sealed-bid auction, where the winner pays the second-highest bid"
   answer: 3
-  explanation: "In a first-price auction, each bidder shades their bid below their true valuation to capture surplus — if you value the license at $10M and bid $10M, you break even even if you win. This means bids are not truthful. In a second-price (Vickrey) auction, the winner pays the second-highest bid regardless of what they bid. Bidding your true valuation is a dominant strategy: if you overbid and win, you may end up paying more than your valuation; if you underbid and lose, you miss a profitable opportunity. The second-price format 'implements' the efficient allocation by making truth-telling individually rational."
+  explanation: "In a first-price auction, each bidder shades their bid below their true valuation to capture surplus — if you value the license at $10M and bid $10M, you break even even if you win. This means bids are not truthful. In a second-price (Vickrey) auction, the winner pays the second-highest bid regardless of what they bid. Bidding your true valuation is a dominant strategy: if you overbid and win, you may end up paying more than your valuation; if you underbid and lose, you miss a profitable opportunity. The second-price format 'implements' the efficient allocation by making truth-telling a dominant strategy."
 
 - question: "What is the fundamental challenge that mechanism design addresses that standard game theory does not?"
   type: multiple-choice
@@ -65,7 +73,7 @@ Mechanism design addresses the problem: given a desired outcome rule and agents 
 - question: "Incentive compatibility constraints limit what outcomes a mechanism can achieve, because not every socially optimal outcome can be implemented when agents behave strategically."
   type: true-false
   answer: true
-  explanation: "This is one of the central results of mechanism design theory. The set of outcomes that can be achieved in dominant strategy equilibrium or Bayesian Nash equilibrium is a constrained subset of all outcomes that would be socially desirable. Classic impossibility results (like the Gibbard-Satterthwaite theorem) show that no mechanism can be simultaneously efficient, individually rational, and budget-balanced for all environments. The tension between what is socially optimal and what is incentive-compatible is the discipline's central problem."
+  explanation: "This is one of the central results of mechanism design theory. The set of outcomes that can be achieved in dominant strategy equilibrium or Bayesian Nash equilibrium is a constrained subset of all outcomes that would be socially desirable. Classic impossibility results (like the Myerson-Satterthwaite theorem) show that no mechanism for bilateral trade can be simultaneously efficient, incentive compatible, individually rational, and budget-balanced. The tension between what is socially optimal and what is incentive-compatible is the discipline's central problem."
 
 - question: "A school district wants to match students to schools in a way that maximizes overall satisfaction. Explain why simply asking students to rank their preferences and assigning them accordingly is insufficient, and what mechanism design must do instead."
   type: short-answer

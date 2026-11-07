@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Every group G is isomorphic to a subgroup of some symmetric group Sₙ. The left-multiplication action of G on itself embeds G into Sₙ where n = |G|. This shows that abstract group theory is equivalent to the concrete theory of permutation groups.
 
+## How It's Best Learned
+Compute the left-regular representation of a small group by hand. In ℤ₄ = {0, 1, 2, 3}, adding 1 gives the cycle (0 1 2 3), adding 2 gives (0 2)(1 3), and adding 3 gives (0 3 2 1). Repeat for ℤ₂ × ℤ₂ and compare: both land in S₄, but as different subgroups. Note that every non-identity permutation you get moves every element.
+
+## Common Misconceptions
+- Cayley's theorem applies only to finite groups. (The proof works for any group and embeds G into Sym(G), the group of all bijections of G. For infinite G, that group is not one of the finite Sₙ.)
+- The left-regular representation is the smallest way to write G as permutations. (S₃ already acts on 3 points, but the left-regular representation places it inside S₆.)
+- Right multiplication x ↦ xg works the same way. (It reverses the order of composition: the map for gh is the map for g followed by the map for h, so as a composite of functions it equals (map for h) ∘ (map for g). Using x ↦ xg⁻¹ fixes this.)
+
 ## Questions
 
 ```yaml
@@ -47,7 +55,7 @@ Every group G is isomorphic to a subgroup of some symmetric group Sₙ. The left
 - question: "Cayley's theorem guarantees that nearly every group has the most efficient possible embedding into a symmetric group, with no 'wasted' elements."
   type: true-false
   answer: false
-  explanation: "The left-regular representation embeds a group G of order n into S_{n} — a symmetric group of order n!, which can be vastly larger than G. ℤ₃ (order 3) embeds into S₃ (order 6) via the left-regular representation, even though a cyclic group of order 3 could in principle be represented more compactly. More efficient representations exist: if G acts on a coset space G/H for some subgroup H, the resulting permutation representation embeds G into S_{[G:H]}, which may be much smaller. The theorem's value is existence, not efficiency: it guarantees an embedding for *every* group, making no assumptions about structure."
+  explanation: "The left-regular representation embeds a group G of order n into S_{n} — a symmetric group of order n!, which can be vastly larger than G. S₃ (order 6) embeds into S₆ (order 720) via the left-regular representation, even though S₃ already acts faithfully on just 3 points. More efficient representations exist: if G acts on a coset space G/H for some subgroup H, the resulting permutation representation embeds G into S_{[G:H]}, which may be much smaller. The theorem's value is existence, not efficiency: it guarantees an embedding for *every* group, making no assumptions about structure."
 
 - question: "Since every group G is isomorphic to a subgroup of some symmetric group by Cayley's theorem, any theorem that holds for all subgroups of all symmetric groups also holds for all groups."
   type: true-false
@@ -68,4 +76,4 @@ The key construction is to let the group act on *itself* by left multiplication.
 
 This map Φ is a group homomorphism: λ_{gh}(x) = ghx = λ_g(λ_h(x)), so Φ(gh) = Φ(g) ∘ Φ(h). It is also injective: if λ_g = λ_h, then gx = hx for all x ∈ G; setting x = e gives g = h. An injective homomorphism is an embedding, so the image Φ(G) = {λ_g : g ∈ G} is a subgroup of Sym(G) that is isomorphic to G. Since |G| = n implies Sym(G) ≅ Sₙ, the theorem follows.
 
-The practical power of Cayley's theorem is that it reduces proofs about abstract groups to proofs about permutation groups, which have rich combinatorial and geometric structure. For example, any property that holds for all subgroups of all symmetric groups holds for all groups. One subtlety worth noting: the embedding sends G into S_{|G|}, which can be far larger than necessary — the cyclic group ℤ₃ of order 3 embeds into S₃ of order 6, not into a group of order 3. More efficient representations (using coset spaces rather than the whole group) are possible, but the left-regular construction guarantees an embedding exists for *every* group, which is the theorem's core claim.
+The practical power of Cayley's theorem is that it reduces proofs about abstract groups to proofs about permutation groups, which have rich combinatorial and geometric structure. For example, any property that holds for all subgroups of all symmetric groups holds for all groups. One subtlety worth noting: the embedding sends G into S_{|G|}, which can be far larger than necessary — S₃ itself, of order 6, lands in S₆ of order 720, though it already acts faithfully on 3 points. More efficient representations (using coset spaces rather than the whole group) are possible, but the left-regular construction guarantees an embedding exists for *every* group, which is the theorem's core claim.

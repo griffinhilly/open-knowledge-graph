@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 A bounded operator T: X → Y is compact if it maps bounded sets to relatively compact sets. Compact operators have discrete spectrum (except possibly 0) consisting of eigenvalues, behaving like infinite-dimensional matrices.
 
+## How It's Best Learned
+Put two diagonal operators on ℓ² side by side, using the unit vectors eₙ. The identity keeps the eₙ pairwise √2 apart, so their images have no convergent subsequence. The map T(xₙ) = (xₙ/n) sends eₙ to eₙ/n → 0. Cutting T off after k coordinates gives a finite-rank Tₖ with ‖T − Tₖ‖ = 1/(k+1), so T is a norm limit of matrices.
+
+## Common Misconceptions
+- A compact operator sends bounded sets to compact sets. (The image only needs compact closure. Even the identity on ℝ sends the open interval (−1, 1) to itself, which is bounded but not compact.)
+- Every compact operator has a nonzero eigenvalue, like a matrix. (The Volterra operator (Vf)(x) = ∫₀ˣ f on L²[0,1] is compact, has no eigenvalues, and has spectrum {0}.)
+- A compact operator on an infinite-dimensional space can have a bounded inverse. (If it did, I = T⁻¹T would be compact, but the identity on an infinite-dimensional space is not compact.)
+
 ## Questions
 
 ```yaml
@@ -52,7 +60,7 @@ A bounded operator T: X → Y is compact if it maps bounded sets to relatively c
   answer: true
   explanation: "In ℝⁿ (or any finite-dimensional normed space), a set is compact if and only if it is closed and bounded (Heine-Borel). Every bounded linear operator maps bounded sets to bounded sets. In finite dimensions, bounded sets are relatively compact — their closures are compact. Therefore, every bounded linear operator maps bounded sets to relatively compact sets, satisfying the definition of a compact operator. This is why compactness of operators is trivial in finite dimensions but non-trivial in infinite dimensions, where bounded sets are not generally relatively compact."
 
-- question: "A compact operator T: X → Y maps most bounded sequence (xₙ) to a sequence (Txₙ) that converges in Y."
+- question: "A compact operator T: X → Y maps every bounded sequence (xₙ) to a sequence (Txₙ) that converges in Y."
   type: true-false
   answer: false
   explanation: "The definition of compactness guarantees only that every bounded sequence has a convergent SUBSEQUENCE in the image — not that the full sequence converges. The operator extracts a convergent subsequence from any bounded sequence, but the original sequence need not converge. This is the standard compactness condition: relatively compact means the closure is compact, which is equivalent to every sequence having a convergent subsequence. Confusing 'has a convergent subsequence' with 'converges' is a common error in functional analysis."
@@ -65,7 +73,7 @@ A bounded operator T: X → Y is compact if it maps bounded sets to relatively c
 
 ## Explainer
 
-In finite dimensions, a linear operator on ℝⁿ is just a matrix, and the image of a bounded set under a matrix is always bounded and closed — hence compact, by Heine-Borel. This is so automatic in finite dimensions that it seems trivial. In infinite-dimensional spaces, it fails: the identity operator maps the closed unit ball to itself, which is not compact in infinite dimensions (no sequence of unit vectors must have a convergent subsequence). **Compact operators** are the class of operators that recover this finite-dimensional behavior even in infinite-dimensional spaces.
+In finite dimensions, a linear operator on ℝⁿ is just a matrix, and the image of a bounded set under a matrix is always bounded — so its closure is compact, by Heine-Borel. This is so automatic in finite dimensions that it seems trivial. In infinite-dimensional spaces, it fails: the identity operator maps the closed unit ball to itself, which is not compact in infinite dimensions (a sequence of unit vectors need not have a convergent subsequence). **Compact operators** are the class of operators that recover this finite-dimensional behavior even in infinite-dimensional spaces.
 
 Formally, a **bounded linear operator** T: X → Y is **compact** if, for every bounded sequence (xₙ) in X, the image sequence (Txₙ) has a convergent subsequence in Y. Equivalently, T maps bounded sets to relatively compact sets (sets whose closure is compact). You can think of compact operators as those that "compress" the infinite-dimensional structure of X into something essentially finite-dimensional in Y — they squeeze an infinite amount of input data down to a compact, highly constrained output.
 

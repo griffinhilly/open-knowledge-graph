@@ -27,6 +27,12 @@ Synthetic seismograms are calculated from 1D earth models using convolution of t
 ## How It's Best Learned
 Compare synthetic traces to field data. Experiment with varying wavelets, velocities, and density contrasts to understand sensitivity.
 
+## Common Misconceptions
+- A convolutional synthetic contains every wave in the real record. (The basic model holds only normal-incidence primary reflections; multiples, transmission losses, attenuation and offset-dependent amplitudes are missing unless fuller modeling adds them.)
+- A large velocity contrast always gives a strong reflection. (Reflection strength depends on impedance, so a velocity increase paired with a density decrease can produce only a weak reflection.)
+- If the synthetic does not match the seismic trace, the well logs must be wrong. (Mismatches often come from the wavelet phase or the time-depth relation; sonic-log times can drift from seismic times, so ties use checkshot data to correct them.)
+- A positive reflection coefficient always plots as a peak. (Display polarity conventions differ, so the synthetic must use the same polarity as the seismic data it is tied to.)
+
 ## Questions
 
 ```yaml

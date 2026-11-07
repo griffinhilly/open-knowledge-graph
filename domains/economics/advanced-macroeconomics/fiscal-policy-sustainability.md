@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 A fiscal policy is sustainable if the debt-to-GDP ratio converges to a stable level. The debt dynamics equation is d_{t+1} = (1+r-g)d_t + (primary deficit ratio), where r is the real interest rate and g is growth. Fiscal policy is sustainable if primary balances and growth are consistent with stable debt levels.
 
+## How It's Best Learned
+Iterate the equation in a spreadsheet. With r − g = −1% and a primary deficit of 1% of GDP, start at 60% debt: next year is 60 × 0.99 + 1 = 60.4, and the ratio climbs toward 100%. Setting d_{t+1} = d_t gives that limit, d* = deficit/(g − r). Then switch r − g to +2% and watch the same deficit push debt up without bound.
+
+## Common Misconceptions
+- When growth exceeds the interest rate, any primary deficit is sustainable. (The debt ratio converges to deficit/(g − r), which can be very large: a 3% deficit with g − r = 1% settles at 300% of GDP, and r may rise along the way.)
+- The interest rate and growth rate are given, whatever fiscal policy does. (Higher debt can raise r through risk premia, and fiscal tightening can lower g in the short run, so r − g can respond to policy.)
+- It is fine to compare a nominal interest rate with real growth. (Both rates must be nominal or both real; mixing them misstates r − g by roughly the inflation rate.)
+
 ## Questions
 
 ```yaml
@@ -48,7 +56,7 @@ A fiscal policy is sustainable if the debt-to-GDP ratio converges to a stable le
   answer: false
   explanation: "Fiscal sustainability requires only that the debt-to-GDP ratio stabilize at some finite level, not that the nominal debt stock be repaid. The intertemporal government budget constraint says the present value of all future primary surpluses must equal (not exceed) the current debt. Since the economy grows over time, a constant or slowly growing debt stock falls as a share of GDP even without repayment. Governments like the UK have held debt continuously since the 18th century without 'repaying' it — what matters is that the ratio remains manageable relative to the economy's capacity to generate tax revenue."
 
-- question: "If a government's real interest rate suddenly rises from below to above the GDP growth rate, it must immediately run a primary surplus to prevent debt from becoming unsustainable."
+- question: "If a government's real interest rate suddenly rises from below to above the GDP growth rate, it must run a primary surplus to keep the debt-to-GDP ratio from rising."
   type: true-false
   answer: true
   explanation: "This is precisely what the debt dynamics equation shows. When r crosses above g, the snowball term (1 + r − g) exceeds 1, meaning the debt ratio grows automatically each period — even with a balanced primary budget. To prevent the ratio from rising, the government must generate a primary surplus at least equal to (r − g)·d. The larger the existing debt stock d and the larger the r − g gap, the bigger the required surplus. This is the fiscal tightening mechanism behind sovereign debt crises: a rise in borrowing costs (increasing r) can flip a previously sustainable path to unsustainable almost overnight."

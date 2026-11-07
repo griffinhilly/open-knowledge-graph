@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Financial frictions—credit constraints, collateral requirements, information asymmetries, and monitoring costs—create powerful feedback loops that amplify real shocks and contribute substantially to business cycle volatility. When adverse shocks reduce collateral values, firms and households face tighter borrowing constraints, reducing investment and spending further and depressing asset prices more. Financial accelerator models show how relatively small shocks to fundamentals can generate large macroeconomic fluctuations through financial channels.
 
+## How It's Best Learned
+Treat the loop as a geometric series. Suppose a shock first cuts investment by 1, and each round of falling asset prices removes a further share f of the previous cut. The total cut is 1/(1 − f): about 1.43 for f = 0.3, 2 for f = 0.5, and about 3.33 for f = 0.7. Then ask which features raise f: leverage, collateral requirements, and fire sales.
+
+## Common Misconceptions
+- Collateral constraints and the external finance premium are the same mechanism. (A collateral constraint limits how much a borrower can borrow; the external finance premium raises the price of borrowing. Models use one, the other, or both.)
+- Financial frictions matter only during financial crises. (In these models the frictions are present in every period and shape how ordinary shocks and policy changes spread; crises are where they are most visible.)
+- A highly leveraged firm creates risk only for itself and its lenders. (When many borrowers sell the same assets at once, prices fall for everyone holding them, which tightens other borrowers' constraints.)
+
 ## Questions
 
 ```yaml

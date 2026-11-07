@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Subducting lithosphere creates distinctive seismic structures: high-velocity slabs visible in seismic tomography, a double seismic zone (shallow and deep intraslab earthquakes separated vertically), and a thermal structure that controls mineral stability and earthquake patterns. Seismic imaging reveals slab geometry, stagnation depths in the mantle, and the fate of subducted material.
 
+## How It's Best Learned
+Plot catalog hypocenters on a cross-section perpendicular to the trench and overlay a tomography slice. Mark the slab top, both planes of the double seismic zone, the slow mantle wedge, and the arc. Then check the geometry: the slab top reaches 100 km depth about 100 km from the trench at a 45° dip, but about 173 km at 30°. Dip moves the arc.
+
+## Common Misconceptions
+- Tomography shows a slab's true thickness and sharp edges. (Smoothing and limited ray coverage blur slabs, so they often look wider and weaker than they are.)
+- Arc magma comes from melting of the subducting slab. (In most arcs, melt forms mainly in the mantle wedge, where water released from the slab lowers the melting point of peridotite.)
+- Deep earthquakes, at hundreds of kilometers, break rock the same way shallow ones do. (High pressure suppresses ordinary brittle fracture there; proposed mechanisms include faulting during phase changes in metastable olivine, dehydration, and thermal runaway.)
+- A slab that stagnates at 660 km stays out of the lower mantle for good. (Stagnant slabs can later sink further, and many slabs pass the boundary directly.)
+
 ## Questions
 
 ```yaml

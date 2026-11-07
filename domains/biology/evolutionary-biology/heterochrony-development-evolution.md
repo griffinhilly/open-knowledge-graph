@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Heterochrony—evolutionary changes in timing or rate of developmental events—produces evolutionary novelty. Neoteny (retention of juvenile features), progenesis (early sexual maturation), and acceleration/deceleration of development enable rapid morphological evolution.
 
+## How It's Best Learned
+Draw a growth curve of one trait's shape against age for an ancestor, marking onset, rate and offset, with sexual maturity as a vertical line. Then redraw it for descendants: lower the rate (neoteny), move maturity earlier (progenesis), and extend the offset (hypermorphosis). Read off the adult shape each time and sort the results into juvenile-like and beyond-ancestral outcomes.
+
+## Common Misconceptions
+- Neoteny and pedomorphosis mean the same thing. (Pedomorphosis is the outcome, an adult that resembles the ancestor's juvenile; neoteny is one way to reach it, and progenesis is another.)
+- Heterochrony changes the timing of the whole organism at once. (It can shift one trait or structure relative to others, so a single feature can be juvenile-like while the rest of the body is not.)
+- A neotenic animal such as the axolotl has lost the ability to develop adult features. (Axolotls can be induced to metamorphose with thyroid hormone, which shows the adult program is still present but not triggered.)
+- A juvenile-looking adult tells you which timing change produced it. (Neoteny and progenesis can give similar adult forms, so telling them apart needs data on growth rate and age at maturity.)
+
 ## Questions
 
 ```yaml
@@ -63,6 +72,7 @@ Heterochrony—evolutionary changes in timing or rate of developmental events—
 - question: "Why is heterochrony described as an evolutionarily efficient mechanism for generating large morphological changes, and how does the hierarchical organization of developmental programs amplify its effects?"
   type: short-answer
   answer: "Heterochrony is efficient because it modifies existing developmental programs rather than building new ones. Evolution by heterochrony requires changing only the timing parameters (start, rate, duration) of programs that already work — it does not need to invent new gene functions or new regulatory networks. This dramatically increases the probability of generating viable organisms, since the developmental machinery itself remains intact. The hierarchical organization of development amplifies these effects: Hox genes and other upstream regulators control broad body regions through cascades of downstream targets. A single timing change in an upstream regulator can therefore reshape an entire body region — an elongated neck, reduced limbs, enlarged braincase — because hundreds of downstream developmental events are all shifted together. This explains why heterochronic changes appear repeatedly in the fossil record as major morphological transitions, often with rapid evolutionary tempo."
+  explanation: "The answer is right because it names both parts of the question. Efficiency comes from reusing developmental programs that already produce a viable body and changing only when they start, how fast they run, or when they stop. Amplification comes from the hierarchy: a timing shift in an upstream regulator moves many downstream events together, so one change can alter a whole body region."
 ```
 
 ## Explainer

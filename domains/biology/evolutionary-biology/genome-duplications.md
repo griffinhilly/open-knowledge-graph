@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Whole-genome duplications (polyploidy) and tandem duplications create redundant genes allowing exploration of new functions without loss of essential ones. Duplicate genes diverge through subfunctionalization or neofunctionalization, generating protein novelty. Two rounds of whole-genome duplication early in vertebrate evolution enabled complex developmental programs.
 
+## How It's Best Learned
+Draw an ancestral gene with two expression domains, say liver and brain, then sketch the three fates after duplication: one copy decays to a pseudogene, the copies split liver and brain between them, or one copy gains a new role. For each fate, ask what happens to the organism if that copy is deleted. Then compare a tandem duplicate with a whole-genome duplicate.
+
+## Common Misconceptions
+- Most duplicated genes go on to do something new. (Loss of function is the usual fate; most duplicates become pseudogenes, and neofunctionalization is a minority outcome.)
+- Subfunctionalization and neofunctionalization are the same thing, since both copies end up different. (Subfunctionalization divides functions the ancestral gene already had; neofunctionalization adds a function the ancestor lacked.)
+- Polyploidy happens only in plants. (It is far more common in plants, but whole-genome duplications also occurred in animal lineages, including early vertebrates.)
+- A new duplicate has no effect until it gains a new function. (Doubling a gene can change gene dosage right away, which may help or harm, and the redundancy lets one copy mutate while the other keeps the original function.)
+
 ## Questions
 
 ```yaml

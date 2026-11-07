@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 A point x is a limit point of a set A if every open set containing x contains a point of A other than x itself. The closure of A equals A union its limit points. This characterizes closed sets.
 
+## How It's Best Learned
+Take A = {0} ∪ (1, 2) ∪ {3 + 1/n : n ≥ 1} in ℝ and sort every relevant point into three bins: isolated points of A, limit points in A, and limit points outside A. You should find that 0 and each 3 + 1/n are isolated, every point of [1, 2] is a limit point, and 1, 2 and 3 lie outside A. Then write down the closure from your bins.
+
+## Common Misconceptions
+- A limit point of A is any limit of a sequence in A. (The constant sequence x, x, x, … converges to x, even when x is isolated. In a metric space, the right test uses a sequence of points of A other than x.)
+- Every point of a closed set is a limit point of it. (A finite subset of ℝ is closed, and each of its points is isolated.)
+- Every neighborhood of a limit point contains infinitely many points of A. (This holds in T₁ spaces such as ℝ, but not in general. In {a, b} with the indiscrete topology, a is a limit point of {b}.)
+
 ## Questions
 
 ```yaml
@@ -46,7 +54,7 @@ A point x is a limit point of a set A if every open set containing x contains a 
   answer: 2
   explanation: "A set is closed iff it contains all its limit points — equivalently, A = Ā. Option A is wrong: closed sets can contain isolated points (points that are not limit points), such as a finite set like {1, 2, 3}. Option B is also wrong for the same reason. The key is whether limit points that A 'accumulates toward' are captured inside A."
 
-- question: "Most point in a set A is a limit point of A."
+- question: "Every point in a set A is a limit point of A."
   type: true-false
   answer: false
   explanation: "Isolated points are members of A that are NOT limit points: they have some open neighborhood containing no other point of A. For example, in A = {0} ∪ (1, 2), the point 0 belongs to A but every small open interval around it contains no other element of A, so 0 is isolated — not a limit point."

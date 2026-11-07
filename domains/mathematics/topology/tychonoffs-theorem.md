@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 An arbitrary product of compact spaces is compact in the product topology. This deep result is equivalent to the Axiom of Choice. Compactness is stable under infinite products.
 
+## How It's Best Learned
+Prove the two-factor case first with the tube lemma: for compact Y and a point x, an open set containing {x} × Y contains a tube U × Y. Then see why the infinite case needs a new idea. In the box topology on {0, 1}^ℕ, every singleton is a product of open sets, so the space is discrete and infinite, hence not compact. The product topology avoids this because each basic set restricts only finitely many coordinates.
+
+## Common Misconceptions
+- Since finite products of compact spaces are compact, the infinite case follows by induction. (Induction covers every finite product but never reaches an infinite one. The infinite case needs a separate argument, such as one using ultrafilters.)
+- An infinite product of compact spaces is compact in the box topology too. (The box topology on {0, 1}^ℕ is discrete and infinite, so it is not compact.)
+- A compact product is also sequentially compact. (The product {0, 1}^ℝ is compact by Tychonoff's theorem but not sequentially compact.)
+
 ## Questions
 
 ```yaml

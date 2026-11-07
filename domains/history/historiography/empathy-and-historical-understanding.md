@@ -28,6 +28,12 @@ Historical empathy is imaginative effort to understand past actors within their 
 ## How It's Best Learned
 Read histories that help you understand perspectives you find disagreeable or alien with genuine comprehension rather than dismissal.
 
+## Common Misconceptions
+- Historical empathy means feeling what past people felt and agreeing with them. (That is sympathy; historical empathy is reconstructing their beliefs and constraints well enough to make their choices intelligible.)
+- Understanding why someone did something wrong excuses it. (Empathy and moral judgment are compatible, and reconstruction lets the judgment target what the actor actually believed and did.)
+- Calling a past actor irrational or evil explains their behavior. (Such labels replace explanation with condemnation and leave out the frameworks and pressures that made the action make sense to them.)
+- Empathy is a matter of imagination, so it needs no evidence. (Historical empathy is built from sources about what actors knew, believed and could choose, and it can be checked against them.)
+
 ## Questions
 
 ```yaml

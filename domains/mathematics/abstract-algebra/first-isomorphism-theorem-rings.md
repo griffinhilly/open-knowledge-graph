@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 If φ: R → S is a ring homomorphism, then R/ker(φ) ≅ im(φ). This is the ring version of the fundamental homomorphism theorem.
 
+## How It's Best Learned
+Practice choosing the homomorphism yourself. To identify Z/6Z, map n ↦ (n mod 2, n mod 3) into Z/2Z × Z/3Z. The images of 0 through 5 are all six pairs, and the kernel is 6Z, so Z/6Z ≅ Z/2Z × Z/3Z as rings. Then map Z[x] onto Z/2Z by p(x) ↦ p(0) mod 2, and show that its kernel is the ideal (2, x).
+
+## Common Misconceptions
+- Some ideals cannot be the kernel of any ring homomorphism. (Every ideal I is the kernel of the projection R → R/I, r ↦ r + I.)
+- If φ has trivial kernel, then R ≅ S. (A trivial kernel gives R ≅ im(φ). The inclusion Z → Q has trivial kernel, but Z and Q are not isomorphic.)
+- R/ker(φ) ≅ im(φ) means R contains a copy of im(φ). (The copy lives in the quotient, not in R. Reduction Z → Z/2Z is onto, yet Z has no nonzero finite subring.)
+
 ## Questions
 
 ```yaml
@@ -53,7 +61,7 @@ If φ: R → S is a ring homomorphism, then R/ker(φ) ≅ im(φ). This is the ri
 - question: "For any ring homomorphism φ: R → S, the First Isomorphism Theorem gives an isomorphism R/ker(φ) ≅ S."
   type: true-false
   answer: false
-  explanation: "The theorem gives R/ker(φ) ≅ im(φ), not R/ker(φ) ≅ S. These coincide only when φ is surjective. If φ: Z → Z is multiplication by 2, then im(φ) = 2Z ≠ Z, and Z/ker(φ) = Z/{0} = Z ≅ 2Z, not all of Z. Conflating im(φ) with S is the most common misstatement of the theorem."
+  explanation: "The theorem gives R/ker(φ) ≅ im(φ), not R/ker(φ) ≅ S. These coincide only when φ is surjective. If φ: Z → Q is the inclusion, then im(φ) = Z ≠ Q, and Z/ker(φ) = Z/{0} ≅ Z, not Q. Conflating im(φ) with S is the most common misstatement of the theorem."
 
 - question: "What practical strategy does the First Isomorphism Theorem enable for proving that a quotient ring R/I is isomorphic to a known ring S?"
   type: short-answer

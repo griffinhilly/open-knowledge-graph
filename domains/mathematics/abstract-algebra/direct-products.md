@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 The direct product G × H has elements (g, h) with operation (g₁, h₁)(g₂, h₂) = (g₁g₂, h₁h₂). G × H is abelian iff both factors are. The order is |G| · |H| and direct products are commutative: G × H ≅ H × G.
 
+## How It's Best Learned
+Look for direct products hiding inside familiar groups. In ℤ₆, the map k ↦ (k mod 2, k mod 3) matches all six elements with the pairs of ℤ₂ × ℤ₃ and respects addition. Then take the units mod 8, {1, 3, 5, 7} under multiplication. Each non-identity element squares to 1, so this group is ℤ₂ × ℤ₂ rather than ℤ₄.
+
+## Common Misconceptions
+- Because G × H ≅ H × G, the group G × H is commutative. (That isomorphism only says the order of the factors does not matter. G × H is abelian only when both G and H are.)
+- G and H are subsets of G × H. (The elements of G × H are pairs. It contains copies of G and H, namely G × {e} and {e} × H.)
+- Every element of G × H lies in one of those two copies. (Many elements have two non-identity components, such as (1, 1) in ℤ₂ × ℤ₃. Each one is a product (g, e)(e, h) of one element from each copy.)
+
 ## Questions
 
 ```yaml

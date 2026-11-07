@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Asymmetric information—where buyers and sellers have different information about product quality or value—can lead to market failure even with rational actors. Sellers know more about true quality; buyers cannot distinguish high from low quality and therefore pay only average prices. This creates adverse selection: high-quality sellers exit when prices fail to compensate for quality.
 
+## How It's Best Learned
+Work the uniform-quality case. Let quality q be uniform on [0, 1], sellers value a car at q, and buyers value it at 1.5q. At any price p, only cars with q ≤ p are offered, with average quality p/2. Buyers will then pay at most 0.75p, which is below p. So no positive price clears the market, even though every trade would create gains.
+
+## Common Misconceptions
+- Market breakdown happens because buyers are irrational or careless. (In the lemons model buyers are fully rational. They correctly pay the expected value of the cars offered, and that is what drives good sellers out.)
+- Asymmetric information is the same as uncertainty. (If both sides were equally uncertain, a pooled price would not select sellers. The damage comes from sellers' willingness to trade being linked to quality the buyer cannot see.)
+- If trade is mutually beneficial, the market will find a way to happen. (The uniform example shows that every car can be worth more to buyers than sellers while no trade occurs at any positive price.)
+- Asymmetric information always causes total collapse. (Collapse depends on the quality distribution and valuations. Often the market shrinks to lower-quality goods instead.)
+
 ## Questions
 
 ```yaml

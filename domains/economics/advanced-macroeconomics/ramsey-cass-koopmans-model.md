@@ -37,6 +37,14 @@ status: validated
 ## Core Idea
 The Ramsey-Cass-Koopmans model endogenizes savings behavior by having infinitely-lived households optimize consumption over time subject to intertemporal budget constraints and dynamic capital accumulation. Savings and consumption respond to interest rates, discount rates, and expectations about future income, creating richer short-run and long-run dynamics than the exogenous-savings Solow model. This framework demonstrates how optimal consumption paths align with capital accumulation and provides foundations for analyzing fiscal policy and monetary policy effects on savings.
 
+## How It's Best Learned
+Build the phase diagram yourself from k̇ = f(k) − c − δk and ċ/c = (f′(k) − δ − ρ)/θ. Draw the vertical ċ = 0 line at k*, the hump-shaped k̇ = 0 curve, and arrows in all four regions; the saddle path then follows. Then trace a permanent fall in ρ: the ċ = 0 line shifts right, consumption drops at once onto the new saddle path, and both c and k then rise.
+
+## Common Misconceptions
+- Any starting level of consumption eventually leads to the steady state. (For a given capital stock, only one initial consumption level puts the economy on the saddle path; every other choice diverges.)
+- The Ramsey steady state is the golden-rule capital stock. (It is the modified golden rule, where the marginal product of capital net of depreciation equals the discount rate, so impatient households hold less capital than the golden rule.)
+- Consumption moves only gradually because households smooth it. (Consumption can jump when unexpected news arrives; capital is the variable that cannot jump, and smoothing applies to anticipated changes.)
+
 ## Questions
 
 ```yaml
@@ -63,7 +71,7 @@ The Ramsey-Cass-Koopmans model endogenizes savings behavior by having infinitely
 - question: "In the Ramsey-Cass-Koopmans model, a permanent increase in government spending raises the long-run capital stock by stimulating aggregate investment."
   type: true-false
   answer: false
-  explanation: "A permanent increase in government spending reduces household lifetime wealth (households anticipate higher future taxes). To smooth consumption optimally, they reduce saving — which crowds out capital accumulation. The long-run capital stock falls, not rises. This is the opposite of what a naive Keynesian multiplier intuition might suggest. The RCK model produces this result because savings behavior responds endogenously to wealth and the return on capital."
+  explanation: "A permanent increase in government spending reduces household lifetime wealth (households anticipate higher future taxes). With lump-sum taxes, they cut consumption one-for-one with the extra spending. The long-run capital stock does not rise; it is unchanged, because the modified golden rule f′(k*) = ρ + δ does not depend on government spending. The RCK model produces this result because savings behavior responds endogenously to wealth and the return on capital."
 
 - question: "Unlike the Solow model, the Ramsey-Cass-Koopmans model rules out dynamic inefficiency — capital over-accumulation beyond the golden rule — because optimizing households would never save so much that the return on capital falls below their discount rate."
   type: true-false
@@ -84,4 +92,4 @@ The central result is the **Euler equation** (also called the Keynes-Ramsey rule
 
 The dynamics of the RCK model are best understood through a **phase diagram** in capital-consumption space. The system has two key curves: one where capital is constant (investment equals depreciation) and one where consumption is constant (the Euler equation holds with zero growth). Their intersection is the steady state. Most initial conditions lead to paths that diverge — either consumption explodes and capital collapses, or consumption collapses and capital overshoots. Only one path, the **saddle path**, converges to the steady state, and rational forward-looking households select exactly this path. This saddle-path stability is what makes the model determinate: given any initial capital stock, there is a unique optimal consumption level.
 
-Why does this matter beyond the Solow model? Because savings behavior now responds to policy. A temporary tax increase causes households to smooth consumption by drawing down savings — something the Solow model cannot capture. A permanent increase in government spending crowds out capital accumulation because households, facing lower lifetime wealth, reduce saving. The RCK model also eliminates the **dynamic inefficiency** problem possible in the Solow model: optimizing households never over-accumulate capital past the golden rule, because doing so would mean the return on saving falls below their discount rate and they would rationally consume more instead. This framework forms the backbone of modern dynamic macroeconomics and is the starting point for models of endogenous growth, real business cycles, and new Keynesian DSGE models.
+Why does this matter beyond the Solow model? Because savings behavior now responds to policy. A temporary rise in government purchases leads households to smooth consumption by cutting it only slightly and running down capital — something the Solow model cannot capture. A permanent rise in government purchases instead lowers consumption one-for-one and leaves the steady-state capital stock unchanged, because households facing lower lifetime wealth absorb the whole cost in consumption. The RCK model also eliminates the **dynamic inefficiency** problem possible in the Solow model: optimizing households never over-accumulate capital past the golden rule, because doing so would mean the return on saving falls below their discount rate and they would rationally consume more instead. This framework forms the backbone of modern dynamic macroeconomics and is the starting point for models of endogenous growth, real business cycles, and new Keynesian DSGE models.

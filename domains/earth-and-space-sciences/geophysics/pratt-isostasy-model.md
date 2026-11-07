@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 The Pratt model achieves isostatic balance through lateral variations in density at constant crustal thickness rather than through crustal thickness variations. High topography corresponds to lower-density crust, while low topography corresponds to higher-density crust. Though less realistic than Airy isostasy, Pratt's model usefully interprets gravity anomalies in regions where crust deforms by density redistribution.
 
+## How It's Best Learned
+Set a compensation depth 100 km below sea level and a sea-level column density of 2,700 kg/m³. A 2 km mountain then needs ρ = 2,700 × 100/102 ≈ 2,647 kg/m³, only about 2% lighter. Put this beside the Airy answer for the same mountain: about a 9 km root with crust at 2,700 and mantle at 3,300 kg/m³. Ask which prediction a seismic survey could test.
+
+## Common Misconceptions
+- Pratt's model also gives mountains a root, just one made of lighter rock. (Pratt puts the base of every column at the same compensation depth, so there is no root. The lower density is spread through the whole column.)
+- Supporting kilometers of relief in the Pratt model needs huge density differences. (The column is tall compared with the topography, so a density change of a few percent can balance a large mountain.)
+- Mid-ocean ridges stand high because their crust is a lighter rock type. (The density drop at ridges is mainly thermal. Hot, expanded mantle beneath the axis lowers the column's average density.)
+
 ## Questions
 
 ```yaml

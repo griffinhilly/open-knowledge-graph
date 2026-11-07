@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 The determinant is a scalar assigned to a square matrix that measures how the matrix scales areas (2D) or volumes (3D). For 2×2: det(A) = ad − bc; for 3×3, it's computed via the rule of Sarrus or cofactor expansion. A nonzero determinant indicates the matrix is invertible.
 
+## How It's Best Learned
+Draw the columns of [[3,1],[1,2]], which are (3,1) and (1,2), on grid paper and complete the parallelogram. Find its area by taking the 4 × 3 bounding box (12) and cutting away the four corner triangles (3 + 2) and two 1 × 1 squares (2). The result, 5, matches ad − bc = 6 − 1. Swap the columns and the formula gives −5.
+
+## Common Misconceptions
+- A negative determinant means you made an arithmetic mistake, since area cannot be negative. (The sign records orientation. A negative value means the matrix flips orientation, as a reflection does.)
+- The 2×2 formula is ab − cd. (For [[a, b], [c, d]] it is ad − bc: the main diagonal product minus the other diagonal product.)
+- A negative determinant means the matrix is not invertible. (Any nonzero determinant, positive or negative, means the matrix is invertible. Only det(A) = 0 rules it out.)
+
 ## Questions
 
 ```yaml
@@ -36,7 +44,7 @@ The determinant is a scalar assigned to a square matrix that measures how the ma
     - "The transformation reversed orientation (like a reflection) while scaling area by a factor of 5"
     - "The transformation shrinks area rather than expanding it"
   answer: 2
-  explanation: "The absolute value |det(A)| = 5 gives the area scaling factor — the unit square maps to a parallelogram of area 5. The sign indicates orientation: positive means the transformation preserved handedness (rotation, scaling); negative means it reversed orientation (like a reflection or a shear that flips the axes). A determinant of −5 means area scales by 5 AND orientation flips. Neither sign makes the matrix non-invertible — det ≠ 0 in both cases means the matrix is invertible."
+  explanation: "The absolute value |det(A)| = 5 gives the area scaling factor — the unit square maps to a parallelogram of area 5. The sign indicates orientation: positive means the transformation preserved handedness (rotation, scaling); negative means it reversed orientation (like a reflection). A determinant of −5 means area scales by 5 AND orientation flips. Neither sign makes the matrix non-invertible — det ≠ 0 in both cases means the matrix is invertible."
 
 - question: "You compute the determinant of a 3×3 matrix and get 0. What does this tell you about the geometric effect of the transformation?"
   type: multiple-choice

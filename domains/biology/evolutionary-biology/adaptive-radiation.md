@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Adaptive radiation is the rapid diversification of ancestral lineages into multiple species occupying distinct ecological niches. Classic examples include Darwin's finches, Hawaiian honeycreepers, and East African cichlids. Radiations typically require ecological opportunity, absence of competitors, and traits enabling morphological innovation.
 
+## How It's Best Learned
+Take three cases: Galápagos finches, mammals after the end-Cretaceous extinction, and Antarctic notothenioid fish. For each, name the source of ecological opportunity (new empty habitat, removed competitors, or key innovation). Then sketch a phylogeny with fast early branching that slows later, and explain in a sentence why niche filling would produce that shape.
+
+## Common Misconceptions
+- Any group that splits into many species quickly is an adaptive radiation. (The species must also diverge into different ecological niches. Rapid speciation without ecological differences is called a non-adaptive radiation.)
+- Individual finches reshaped their beaks to suit the food on their island. (Beak size varied among individuals and was heritable. Selection changed which variants became common over generations.)
+- Radiations happen because the new environment raises the mutation rate. (Mutation supplies variation in most lineages. What changes is the availability of open niches that make divergent variants advantageous.)
+
 ## Questions
 
 ```yaml

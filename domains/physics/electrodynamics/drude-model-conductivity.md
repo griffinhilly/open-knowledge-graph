@@ -27,6 +27,12 @@ The Drude model treats free electrons in metals as experiencing a uniform fricti
 ## How It's Best Learned
 Derive the equation of motion for electrons, solve for velocity response to oscillating field, and identify the plasma frequency. Show how conductivity diverges at ω=0 for collisionless case.
 
+## Common Misconceptions
+- The plasma frequency depends on how often electrons collide. (ωₚ = √(ne²/mε₀) contains no τ. Collisions set the damping and the DC conductivity, not ωₚ.)
+- Below the plasma frequency the metal absorbs the wave and heats up. (In the collisionless limit the wave is fully reflected with no loss. Absorption comes from the collision term.)
+- Drude collisions are electrons bouncing off each ion in the lattice. (A perfectly periodic lattice does not scatter electrons in quantum theory. In real metals τ is set by lattice vibrations, impurities and defects.)
+- Electrons in a current-carrying wire drift fast, near the signal speed. (Drift speeds in ordinary wires are a fraction of a millimeter per second. The signal travels with the electromagnetic field.)
+
 ## Questions
 
 ```yaml

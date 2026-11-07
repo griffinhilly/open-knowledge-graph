@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 A topological manifold is a Hausdorff space with a countable basis where every point has a neighborhood homeomorphic to an open ball in ℝⁿ. Manifolds are the natural spaces for calculus and geometry. Understanding manifold topology is foundational for differential topology and differential geometry.
 
+## How It's Best Learned
+Build an atlas on S¹ by hand. Stereographic projection from (0, 1) sends (x, y) to x/(1 − y), and projection from (0, −1) sends it to x/(1 + y). Multiply the two: x²/(1 − y²) = 1, so the transition map is t ↦ 1/t. Then test the conditions on two non-examples: the line with two origins (fails Hausdorff) and the figure-eight (fails locally Euclidean at the crossing).
+
+## Common Misconceptions
+- Locally Euclidean spaces are automatically Hausdorff. (The line with two origins is locally Euclidean, but its two origins cannot be separated by disjoint open sets.)
+- A sphere can be covered by a single chart. (A chart onto all of S² would make S² homeomorphic to an open subset of ℝ². That subset would be compact, nonempty, and open in ℝ², which cannot happen, so at least two charts are needed.)
+- The figure-eight is a 1-manifold because it is made of two circles. (Removing the crossing point from any small connected neighborhood of it leaves four pieces. Doing the same in an open interval leaves two.)
+
 ## Questions
 
 ```yaml
@@ -53,7 +61,7 @@ A topological manifold is a Hausdorff space with a countable basis where every p
   answer: true
   explanation: "This is correct and captures the key insight about manifolds: the manifold definition is about *local* structure only. Both T² and S² satisfy the locally Euclidean condition — any sufficiently small neighborhood of any point is homeomorphic to an open disk in ℝ². Their global structures are radically different (they are not homeomorphic to each other), but locally they cannot be distinguished by topology alone. This is precisely why the manifold concept is powerful: it separates local structure (where calculus works) from global structure (which requires more sophisticated tools)."
 
-- question: "A manifold's global topology can typically be determined by examining the charts (local coordinate systems) in its atlas."
+- question: "A manifold's global topology can be determined by examining any single chart (local coordinate system) in its atlas."
   type: true-false
   answer: false
   explanation: "This is false — and it is the central subtlety of manifold theory. Individual charts only reveal local structure (homeomorphic to ℝⁿ). The global topology is encoded in *how charts overlap*, not in any single chart. The transition maps between overlapping charts — and their compatibility conditions — determine the manifold's global structure. For instance, a cylinder and a Möbius band have identical local structure (both are locally flat 2D strips), but their atlas transition maps differ in orientation, revealing their global difference. Distinguishing global topology requires tools like homology, homotopy groups, and the Euler characteristic."

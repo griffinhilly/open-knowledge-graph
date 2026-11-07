@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 In dielectrics, D = ε₀εE and B = μ₀μH modify Maxwell's equations. Plane waves satisfy ω²/v_p² = k² where v_p = c/n is the phase velocity. The dispersion relation ω(k) depends on material properties, meaning different frequencies travel at different speeds (dispersion).
 
+## How It's Best Learned
+Work three short calculations in a row. First, match the wave's phase along the interface, k₁sinθ₁ = k₂sinθ₂, and Snell's law appears with no field details. Second, at normal incidence R = ((n₁ − n₂)/(n₁ + n₂))², about 4% from air into glass with n = 1.5. Third, compute copper's skin depth at 1 MHz from δ = √(2/(ωμσ)): about 66 μm.
+
+## Common Misconceptions
+- Snell's law depends on the wave's polarization. (It follows from phase matching alone. Polarization affects how much is reflected, not the direction of the refracted wave.)
+- A clear glass pane transmits all the light that hits it. (At normal incidence about 4% reflects at each surface, which is why windows show faint reflections.)
+- The refractive index is √ε_r in every material. (In general n = √(ε_rμ_r). The simpler form works because μ_r ≈ 1 for most optical materials.)
+- A better conductor lets waves penetrate deeper because its electrons carry the wave along. (The skin depth shrinks as 1/√σ, so better conductors are penetrated less.)
+
 ## Questions
 
 ```yaml

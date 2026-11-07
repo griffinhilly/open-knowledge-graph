@@ -29,6 +29,14 @@ status: validated
 ## Core Idea
 For an inconsistent system Ax = b, the least squares solution minimizes ||Ax − b||². The solution satisfies A^T Ax = A^T b (the normal equations), giving x̂ = (A^T A)^{-1} A^T b when A has full column rank. Least squares finds the best approximation when exact solutions don't exist, essential in statistics and data fitting.
 
+## How It's Best Learned
+Fit a line to three points by hand: (0,1), (1,1), (2,3). Set up A with a column of ones and a column of x-values, form AᵀA = [[3,3],[3,5]] and Aᵀb = (5,7), and solve to get y = 2/3 + x. Then compute the residual (1/3, −2/3, 1/3) and check that it is orthogonal to both columns of A. Plotting the points and line shows what the residuals measure.
+
+## Common Misconceptions
+- Least squares minimizes the perpendicular distances from the points to the line. (In line fitting, it minimizes the sum of squared vertical gaps between each observed y and the predicted y.)
+- (AᵀA)⁻¹Aᵀb simplifies to A⁻¹b. (For a non-square A there is no A⁻¹, so (AᵀA)⁻¹ cannot be split into A⁻¹(Aᵀ)⁻¹.)
+- When Ax = b already has an exact solution, least squares gives a different answer. (If b is in the column space of A, the residual can be zero, and every exact solution is also a least squares solution.)
+
 ## Questions
 
 ```yaml
@@ -76,4 +84,4 @@ The answer has a beautiful geometric interpretation rooted in the Gram-Schmidt w
 
 When A has full column rank (its columns are linearly independent), A^T A is invertible and the unique solution is x̂ = (A^T A)^{-1} A^T b. The matrix (A^T A)^{-1} A^T is called the **pseudoinverse** of A. In statistics, this formula underlies ordinary least squares regression: if you set up the matrix A with a column of ones and a column of predictor values, the least squares solution gives you the intercept and slope of the best-fit line. The geometry — projecting b onto the column space — makes clear why this works and what "best" means precisely.
 
-When A does not have full column rank (columns are linearly dependent), the normal equations still have solutions but the solution is not unique. In practice this signals a redundant predictor in a regression model. The Gram-Schmidt process you studied provides one route to handling this: QR decomposition factors A = QR, after which the normal equations simplify to Rx̂ = Q^T b, which is easy to solve by back-substitution. This is numerically preferable to forming A^T A directly, since squaring the matrix doubles the condition number and amplifies floating-point errors.
+When A does not have full column rank (columns are linearly dependent), the normal equations still have solutions but the solution is not unique. In practice this signals a redundant predictor in a regression model. The Gram-Schmidt process you studied provides one route to handling this: QR decomposition factors A = QR, after which the normal equations simplify to Rx̂ = Q^T b, which is easy to solve by back-substitution. This is numerically preferable to forming A^T A directly, since forming AᵀA squares the condition number and amplifies floating-point errors.

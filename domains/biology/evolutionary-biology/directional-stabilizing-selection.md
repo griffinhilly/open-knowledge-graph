@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Directional selection favors one phenotypic extreme, shifting the mean phenotype and reducing variation—causing sustained evolution. Stabilizing selection favors intermediate phenotypes, removing variation at both extremes and maintaining the mean—reducing overall variation. These contrasting modes have opposite effects on population variance and rates of phenotypic evolution.
 
+## How It's Best Learned
+Use five trait classes (1 to 5) with counts 10, 20, 40, 20, 10. Apply directional survival rates of 0.2, 0.4, 0.6, 0.8 and 1.0, then stabilizing rates of 0.2, 0.6, 1.0, 0.6 and 0.2. Compute the survivors' mean and variance. Directional selection moves the mean from 3 to 3.4 and trims variance slightly (1.2 to 1.04); stabilizing selection holds the mean at 3 and roughly halves the variance.
+
+## Common Misconceptions
+- Under stabilizing selection, nothing is really happening because the trait stays the same. (Selection removes individuals at both extremes every generation. The steady mean is the result of that ongoing selection.)
+- Stabilizing selection eventually removes all genetic variation in the trait. (New mutations and other forces keep adding variation. Many traits under stabilizing selection still show heritable variation.)
+- If a trait's mean has not changed for many generations, stabilizing selection must be acting. (A mean can stay put with weak or no selection. Showing stabilizing selection requires measuring fitness across phenotypes, such as survival at different birth weights.)
+
 ## Questions
 
 ```yaml

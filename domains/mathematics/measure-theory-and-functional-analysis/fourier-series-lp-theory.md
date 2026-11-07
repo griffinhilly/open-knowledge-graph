@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 Viewing L²([0, 2π]) as a Hilbert space with orthonormal basis {e^(inx)}, Fourier series are orthogonal projections. Convergence in L² is automatic by Parseval; pointwise convergence requires additional regularity of f.
 
+## How It's Best Learned
+Work the square wave f = 1 on (0, π) and −1 on (π, 2π) with the inner product (1/2π)∫fg̅. Its coefficients are cₙ = 2/(iπn) for odd n and 0 otherwise. Parseval then reads (8/π²)·Σ_{odd n>0} 1/n² = 1 = ‖f‖², using Σ_{odd} 1/n² = π²/8. Next evaluate the partial sums at the jump x = π: every term (4/πn)sin(nπ) is 0, so they converge to the midpoint.
+
+## Common Misconceptions
+- L² convergence of a Fourier series needs f to be continuous or smooth. (Every f in L² has a Fourier series that converges to it in the L² norm. Regularity matters for pointwise and uniform convergence.)
+- The Fourier series of a continuous function converges at every point. (Some continuous functions have Fourier series that diverge at a point. Continuity alone does not secure pointwise convergence.)
+- At a jump, the partial sums settle on one of the two one-sided values. (For the square wave, Sₙ(π) = 0 for every n, the average of the values on each side.)
+
 ## Questions
 
 ```yaml
@@ -42,7 +50,7 @@ Viewing L²([0, 2π]) as a Hilbert space with orthonormal basis {e^(inx)}, Fouri
   answer: 1
   explanation: "The inner product ⟨f, g⟩ = (1/2π)∫fg̅dx on L² makes the complex exponentials {eⁱⁿˣ} an orthonormal basis, and the Fourier coefficient cₙ = ⟨f, eₙ⟩ is exactly the orthogonal projection of f onto eₙ. Parseval's theorem then says ∑|cₙ|² = ‖f‖² — the infinite-dimensional Pythagorean theorem — and completeness of the system guarantees L² convergence for all f ∈ L². L¹ lacks an inner product, so there's no natural notion of 'projection,' and Fourier series can fail to converge in L¹ norm. The Hilbert space structure of L² is what makes p = 2 so special."
 
-- question: "If f ∈ L²([0, 2π]) and ‖f − Sₙ(f)‖₂ → 0, then the Fourier partial sums Sₙ(f)(x) converge to f(x) for nearly every x ∈ [0, 2π]."
+- question: "If f ∈ L²([0, 2π]) and ‖f − Sₙ(f)‖₂ → 0, then the Fourier partial sums Sₙ(f)(x) converge to f(x) for every x ∈ [0, 2π]."
   type: true-false
   answer: false
   explanation: "L² norm convergence does not imply pointwise convergence at every x. L² functions are equivalence classes (defined up to sets of measure zero), so 'the value at x' isn't even well-defined. Pointwise convergence is a separate question that requires f to have additional regularity. Without further hypotheses, you can only conclude that the approximation is good 'on average' in the L² sense — the squared error integrates to zero — but the series may misbehave at particular points."

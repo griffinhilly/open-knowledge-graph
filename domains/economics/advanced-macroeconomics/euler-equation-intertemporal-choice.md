@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 The Euler equation characterizes optimal consumption growth: u'(c_t) = βE_t[u'(c_{t+1})(1+r_{t+1})]. It equates current marginal utility to discounted expected future marginal utility, showing consumption growth depends on the real interest rate and the elasticity of intertemporal substitution.
 
+## How It's Best Learned
+Derive it from a Bellman equation with a known interest rate: V(a) = max u(c) + βV(a′), with a′ = (1 + r)(a − c). The first-order condition gives u′(c) = β(1 + r)V′(a′). The envelope condition gives V′(a) = u′(c), so V′(a′) = u′(c′). Substitute to get the Euler equation, then repeat with a random return and see where the expectation goes.
+
+## Common Misconceptions
+- Under uncertainty, you can put expected future consumption inside marginal utility, using u′(E[c_{t+1}]). (The condition uses the expectation of marginal utility, E[u′(c_{t+1})]. When u′ is convex, the two differ, and that gap drives precautionary saving.)
+- The return (1 + r_{t+1}) can be pulled outside the expectation. (That holds only if the return is known at time t. With a risky return, its covariance with future marginal utility matters, which is the basis of consumption-based asset pricing.)
+- The transversality condition is a technicality that never changes the answer. (Some paths satisfy the Euler equation in every period but pile up assets that are never consumed; the transversality condition rules them out.)
+
 ## Questions
 
 ```yaml

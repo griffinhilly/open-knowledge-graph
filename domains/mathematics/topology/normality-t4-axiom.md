@@ -18,7 +18,15 @@ status: validated
 # Normality and T₄ Spaces
 
 ## Core Idea
-A space is normal if for every two disjoint closed sets, there exist disjoint open sets separating them. T₄ = normal + T₁. Normal spaces have strong separation: any continuous function on a closed set extends to the whole space (Tietze extension). Compact Hausdorff spaces and metric spaces are normal.
+A space is normal if for every two disjoint closed sets, there exist disjoint open sets separating them. T₄ = normal + T₁. Normal spaces have strong separation: any continuous real-valued function on a closed set extends to the whole space (Tietze extension). Compact Hausdorff spaces and metric spaces are normal.
+
+## How It's Best Learned
+Run the Urysohn construction where every step can be checked: X = ℝ, F₁ = (−∞, 0], F₂ = [1, ∞), with U_r = (−∞, r) for dyadic r in (0, 1) and U₁ = X ∖ F₂. Confirm cl(U_r) ⊆ U_s for r < s, then compute f(x) = inf{r : x ∈ U_r}, with f = 1 where no U_r contains x. You get 0 for x ≤ 0, x on (0, 1), and 1 for x ≥ 1.
+
+## Common Misconceptions
+- "Normal" and "T₄" mean the same thing. (Here T₄ adds T₁. Without it, the indiscrete two-point space counts as normal but not Hausdorff. With T₁, points are closed, so normality separates any two points.)
+- Urysohn's function is zero exactly on F₁. (It is zero on F₁ but may also be zero elsewhere. Asking for zero set exactly F₁ is a stronger condition.)
+- The Urysohn function needs a metric. (In a metric space, d(x, F₁)/(d(x, F₁) + d(x, F₂)) does the job directly. In a general normal space, the function is built from the nested open sets U_r, with no distances involved.)
 
 ## Questions
 
@@ -43,12 +51,12 @@ A space is normal if for every two disjoint closed sets, there exist disjoint op
   answer: 1
   explanation: "The sets Uᵢ = {x : d(x, Fᵢ) < d(x, Fⱼ)} work: each contains its Fᵢ (since d(x, Fᵢ) = 0 < d(x, Fⱼ) for x ∈ Fᵢ when the sets are disjoint closed), they are open (the distance function is continuous), and they are disjoint (a point can't be closer to each set than to the other simultaneously)."
 
-- question: "In a normal space, any continuous function defined on a closed subspace can be extended to a continuous function on the entire space."
+- question: "In a normal space, any continuous real-valued function defined on a closed subspace can be extended to a continuous function on the entire space."
   type: true-false
   answer: true
   explanation: "This is the Tietze extension theorem, which follows directly from normality via Urysohn's lemma. The proof iteratively constructs extensions with geometrically shrinking error. This is one of the primary reasons normality matters in analysis."
 
-- question: "Most regular (T₃) space is also normal (T₄), because if you can separate a point from a closed set, you can separate two closed sets from each other."
+- question: "Every regular (T₃) space is also normal (T₄), because if you can separate a point from a closed set, you can separate two closed sets from each other."
   type: true-false
   answer: false
   explanation: "Regularity does not imply normality. Separating a point from a closed set is easier than separating two arbitrary closed sets. There exist regular spaces that are not normal (e.g., the Sorgenfrey plane). The implication goes the other way: compact Hausdorff spaces are normal, but compact Hausdorff implies more than T₃."

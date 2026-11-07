@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 In a normal space, every continuous function f: A → ℝ from a closed subset A extends to a continuous function F: X → ℝ.
 
+## How It's Best Learned
+Do the first step of the proof yourself. For f: A → [−1, 1], let A₊ = f⁻¹([1/3, 1]) and A₋ = f⁻¹([−1, −1/3]), two disjoint closed sets. Urysohn gives g: X → [−1/3, 1/3] equal to 1/3 on A₊ and −1/3 on A₋. Check case by case that |f − g| ≤ 2/3 on A, then repeat on f − g to see the geometric series form.
+
+## Common Misconceptions
+- The theorem works for any subset A. (A must be closed. The function sin(1/x) on (0, 1] is bounded and continuous but has no continuous extension to ℝ, because it cannot be given a value at 0.)
+- Any extension of a function f: A → [−1, 1] stays inside [−1, 1]. (Arbitrary extensions can leave the interval. The theorem says one extension can be chosen that keeps the bound.)
+- The extension F is unique. (There are usually many. With A = {0} in ℝ, every continuous F with F(0) = f(0) is an extension.)
+
 ## Questions
 
 ```yaml
@@ -52,7 +60,7 @@ In a normal space, every continuous function f: A → ℝ from a closed subset A
   answer: true
   explanation: "Urysohn's lemma solves a special instance of the extension problem: it extends the function that is 0 on the closed set A and 1 on the closed set B to a continuous function on all of X. Tietze generalizes this: instead of the simple 0/1 target, any continuous f: A → ℝ can be extended. The proof of Tietze actually reduces to repeated applications of Urysohn's lemma, confirming the logical dependence. In this sense Urysohn is the atomic building block and Tietze is the general statement."
 
-- question: "If A is an open (rather than closed) subset of a normal space X and f: A → ℝ is continuous, then the Tietze theorem still guarantees that f extends to a continuous function on most of X."
+- question: "If A is an open (rather than closed) subset of a normal space X and f: A → ℝ is continuous, then the Tietze theorem still guarantees that f extends to a continuous function on all of X."
   type: true-false
   answer: false
   explanation: "Closedness of A is an essential hypothesis, not a convenience. When A is open, f need not extend continuously: consider X = ℝ, A = (0, 1), and f(x) = 1/x. This is continuous on A but cannot be extended continuously to 0, which is a limit point of A not in A. The open set provides no control over what f does as you approach the boundary from inside, so no continuous extension to the boundary (and hence to all of X) need exist. Closedness ensures that f's values on A constrain what F must do near A's boundary from both sides."
@@ -71,4 +79,4 @@ To see why normality matters, think about what could go wrong. Suppose A is a cl
 
 The constructive proof of Tietze uses Urysohn's lemma iteratively. You approximate f by a sequence of continuous functions defined on all of X, each reducing the approximation error by a factor of 2/3 on A. The series converges uniformly to an extension F. This "uniform approximation by Urysohn functions" technique is a model for many existence arguments in analysis: rather than writing down the answer, you build it as a limit of manageable pieces. The key insight is that Urysohn's lemma is the atomic building block — the ability to extend indicator-like functions — and Tietze shows that more complex functions are just combinations of these atoms.
 
-The theorem has two equivalent formulations: the extension can be arranged to map X → [−1,1] when f maps A → [−1,1] (bounded case), or X → ℝ when f: A → ℝ (unbounded case). Both follow from the same argument. The geometric content is that **normal spaces are functionally rich** — they support enough continuous functions to interpolate from any closed subset to the ambient space. This is not trivially true in general: without normality (or some separation axiom), continuous functions can be scarce and extensions may fail. The Tietze theorem connects to your next topic of metrization: one characterization of metrizable spaces is that they are normal, and normality combined with second-countability is exactly what the Urysohn metrization theorem needs. Tietze is thus part of the chain showing that normal spaces behave like metric spaces in their function theory.
+The theorem has two equivalent formulations: the extension can be arranged to map X → [−1,1] when f maps A → [−1,1] (bounded case), or X → ℝ when f: A → ℝ (unbounded case). Both follow from the same argument. The geometric content is that **normal spaces are functionally rich** — they support enough continuous functions to interpolate from any closed subset to the ambient space. This is not trivially true in general: without normality (or some separation axiom), continuous functions can be scarce and extensions may fail. The Tietze theorem connects to your next topic of metrization: every metrizable space is normal, and normality combined with second-countability is exactly what the Urysohn metrization theorem needs. Tietze is thus part of the chain showing that normal spaces behave like metric spaces in their function theory.

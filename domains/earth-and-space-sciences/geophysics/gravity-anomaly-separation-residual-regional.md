@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Gravity anomalies measured at the surface reflect contributions from sources at all depths. Regional anomalies arise from deep crustal and mantle density variations, while residual anomalies originate from shallow sources. Separation techniques such as filtering, upward continuation, and polynomial fits isolate regional and residual components to match interpreted targets to specific depth ranges.
 
+## How It's Best Learned
+Apply the upward-continuation factor e^(−2πh/λ) by hand. Continued up 1 km, a 2 km wavelength keeps about 4% of its amplitude, while a 50 km wavelength keeps about 88%. Then build a synthetic map from a shallow sphere plus a deep broad body. Separate it with a polynomial, a filter and continuation, and compare each residual with the known shallow body.
+
+## Common Misconceptions
+- Each wavelength band comes from one depth range. (A broad shallow body also produces long wavelengths, so a long-wavelength anomaly can come from a wide shallow source as well as a deep one.)
+- Subtracting the regional leaves the target's anomaly at its full amplitude. (The target's broad tail is partly absorbed into the regional, so residual amplitudes are often too small.)
+- A residual low next to a residual high marks a low-density body. (Filtering and polynomial removal can create artificial lows flanking a strong anomaly, so such lows need checking against the unfiltered data.)
+
 ## Questions
 
 ```yaml

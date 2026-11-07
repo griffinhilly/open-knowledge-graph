@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Maps f, g: X → Y are homotopic if there exists a continuous map H: X × [0,1] → Y with H(x,0) = f(x) and H(x,1) = g(x). Homotopy measures when maps are 'continuously deformable.' Homotopy equivalence is weaker than homeomorphism but strong enough to detect topological structure. Fundamental groups and higher homotopy groups are invariants of homotopy type.
 
+## How It's Best Learned
+Start with the straight-line homotopy H(x, t) = (1 − t)f(x) + t·g(x) and prove that any two maps into a convex subset of ℝⁿ are homotopic. Then try it on the inclusion S¹ → ℝ² ∖ {0} and the constant map at (1, 0). The segment from (−1, 0) to (1, 0) passes through the origin, so the formula leaves the space.
+
+## Common Misconceptions
+- If every slice Hₜ is continuous, then H is a homotopy. (H must be continuous on X × [0, 1] as a whole. On [0, 1] × [0, 1], H(x, t) = 2xt/(x² + t²) with H(0, 0) = 0 has continuous slices but equals 1 along x = t, so it is not continuous at (0, 0).)
+- Any two maps into a path-connected space are homotopic. (The identity S¹ → S¹ is not homotopic to a constant map, even though S¹ is path-connected.)
+- Homotopy equivalent spaces have the same dimension. (The disk D² and a single point are homotopy equivalent, so dimension is not a homotopy invariant.)
+
 ## Questions
 
 ```yaml

@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Counterfactual history uses controlled hypotheticals ('What if Austria had won the Austro-Prussian War?') to illuminate actual causation by testing which conditions were necessary for historical outcomes. When done rigorously with attention to period plausibility, counterfactuals can clarify causal logic and challenge determinist narratives. Contested as a method, counterfactuals become valuable precisely when surprising alternatives appear plausible.
 
+## How It's Best Learned
+Take one causal sentence from a textbook, such as "X caused Y," and rewrite it as the counterfactual it implies: "Without X, Y would not have happened." Then test that counterfactual against two checks. Was the alternative available at the time (period plausibility)? Does it change one condition and leave the rest alone (minimality)? Fogel's railroad study is a good worked model to compare your attempt against.
+
+## Common Misconceptions
+- Counterfactual history is just entertaining speculation. (Done rigorously, it tests causal claims, because every claim that X caused Y implies that Y depended on X.)
+- Any "what if" question counts as a counterfactual analysis. (A useful counterfactual uses alternatives that were possible at the time and changes as little as possible; questions like "what if Napoleon had been born English" fail both tests.)
+- Showing that an outcome could have differed means structures did not matter. (Counterfactuals help weigh how much work structures and specific decisions each did, and both can be real causes.)
+- Counterfactuals add guesswork that ordinary history avoids. (Ordinary causal claims already rest on unstated counterfactuals; the method makes them explicit so they can be checked.)
+
 ## Questions
 
 ```yaml

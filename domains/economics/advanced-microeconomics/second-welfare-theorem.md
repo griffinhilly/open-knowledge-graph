@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The Second Welfare Theorem states that any Pareto-efficient allocation can be decentralized as a Walrasian equilibrium with appropriate lump-sum redistributions of initial endowments. This separates the efficiency role of markets from the distribution role of policy: society can use transfers to achieve any desired efficient allocation, then allow markets to clear. The theorem requires convexity of preferences and production sets.
 
+## How It's Best Learned
+Use an Edgeworth box with 10 units of each good and u = xy for both people. Pick the efficient point A = (2, 2), B = (8, 8). Both MRS values equal 1, so the supporting prices are (1, 1). Give A the endowment (4, 0) and B the endowment (6, 10). At those prices A spends 4 and buys (2, 2), B spends 16 and buys (8, 8), and both markets clear.
+
+## Common Misconceptions
+- The theorem says markets reach the socially preferred allocation by themselves. (Markets reach an efficient allocation determined by the endowments. Reaching a particular target needs the right lump-sum redistribution first.)
+- Only one endowment can support the target allocation. (Any endowment on the supporting budget line works. In the exercise, giving A (0, 4) or (2, 2) instead of (4, 0) gives the same equilibrium.)
+- The Second Welfare Theorem needs the same assumptions as the First. (The First needs little beyond locally nonsatiated preferences. The Second also needs convexity so that supporting prices exist.)
+- Subsidizing a good that poorer households buy achieves the same result as a cash transfer. (A subsidy changes the price consumers face relative to the cost of supply. That wedge generally makes the outcome inefficient, which a lump-sum transfer avoids.)
+
 ## Questions
 
 ```yaml

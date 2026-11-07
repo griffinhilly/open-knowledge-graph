@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 For non-negative measurable functions, ∫(liminf fₙ) ≤ liminf ∫fₙ. This weaker result than dominated convergence requires no dominating function. Fatou's lemma is essential for many existence proofs in functional analysis.
 
+## How It's Best Learned
+Prove it from the Monotone Convergence Theorem. Set gₙ = inf_{k≥n} fₖ; then gₙ increases to liminf fₙ, and ∫gₙ ≤ ∫fₖ for every k ≥ n. Monotone convergence finishes the proof. Then test strictness two ways: a bump 1_{[n,n+1]} that slides to infinity, and indicators on [0,1] that alternate between 1_{[0,1/2]} and 1_{[1/2,1]}.
+
+## Common Misconceptions
+- Strict inequality happens only when mass escapes to infinity. (Oscillation also causes it. The alternating indicators 1_{[0,1/2]} and 1_{[1/2,1]} have liminf equal to 0 almost everywhere, yet every integral is 1/2.)
+- If liminf ∫fₙ is finite, Fatou's inequality becomes an equality. (Finiteness does not help. Both standard examples have finite integrals and a strict inequality.)
+- The mirror statement ∫(limsup fₙ) ≥ limsup ∫fₙ also holds for non-negative functions. (It needs an integrable dominating function. For the sliding bump 1_{[n,n+1]}, limsup fₙ = 0 everywhere while every integral is 1.)
+
 ## Questions
 
 ```yaml

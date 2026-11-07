@@ -28,6 +28,12 @@ A firm's technology can be represented by either the production function f(x) = 
 ## How It's Best Learned
 Derive cost functions for simple production functions: Leontief, Cobb-Douglas, CES. Show that the isoquants and cost minimization condition determine the same technology. Use duality to derive input demands.
 
+## Common Misconceptions
+- Shephard's lemma gives marginal cost. (The derivative of cost with respect to an input price gives the conditional demand for that input. Marginal cost is the derivative with respect to output.)
+- The cost function can recover any production function. (It recovers the technology when input requirement sets are convex. With nonconvex isoquants, the recovered technology is the convex hull, so some detail is lost.)
+- Using the cost function means you need to know the production function first. (A cost function that is concave, increasing and homogeneous of degree one in prices corresponds to some valid technology, so you can start from it directly.)
+- The cost function is concave in output. (Concavity holds in input prices. Its shape in output depends on returns to scale.)
+
 ## Questions
 
 ```yaml

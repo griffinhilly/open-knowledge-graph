@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 For a square system Ax = b with det(A) ≠ 0, Cramer's rule gives x_i = det(A_i) / det(A), where A_i is A with column i replaced by b. This provides an explicit formula for solutions but is computationally inefficient compared to Gaussian elimination.
 
+## How It's Best Learned
+Use Cramer's rule where it shines: a system with a parameter. Solve ax + y = 1, x + y = 2. Here det(A) = a − 1, so x = −1/(a − 1) and y = (2a − 1)/(a − 1). Substitute back to check both equations. Then ask what happens at a = 1, where the formula breaks because the two lines are parallel.
+
+## Common Misconceptions
+- To build A_i, you replace row i of A with b. (You replace column i. Column i holds the coefficients of the unknown xᵢ.)
+- If det(A) = 0, the system has no solution. (It has no unique solution. Depending on b, it may have none or infinitely many, and Cramer's rule cannot tell which.)
+- Cramer's rule is more exact than Gaussian elimination. (In exact arithmetic both give the same solution. Cramer's rule costs far more work for large systems.)
+
 ## Questions
 
 ```yaml

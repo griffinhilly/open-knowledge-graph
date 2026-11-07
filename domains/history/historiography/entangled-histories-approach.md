@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Entangled history studies societies as deeply interpenetrated rather than separate units. It examines mutual constitution: how colonizer and colonized shaped each other, how empires and peripheries co-produced modernity. This 'histoire croisée' (crossed history) approach asks: How do we tell histories of connection without erasing agency or difference? How do we avoid conflating connection with equality?
 
+## How It's Best Learned
+Work through one colonial relationship in two columns. In the first, list what changed in the colony; in the second, list what changed in the metropole because of the same relationship, such as new museums, scholarly fields or consumer goods. Then add a third column recording who held power at each point. Keeping the third column in view stops mutual change from being read as an equal exchange.
+
+## Common Misconceptions
+- If both sides shaped each other, the relationship was balanced. (Mutual constitution can happen under deep inequality, and entangled history keeps the violence and coercion of colonial rule in the account.)
+- Entangled history is global history with more trade routes added. (Global history often tracks flows between distinct units, while entangled history questions whether those units existed apart from the relationship.)
+- Studying the colonizer's impact on the colonized tells the whole story. (The approach also asks how the relationship changed the colonizing society.)
+- One national archive is enough if it is large. (Each archive records the relationship from one institutional position, so entangled history reads across archives and languages.)
+
 ## Questions
 
 ```yaml

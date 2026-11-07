@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Plane wave solutions to the wave equation have the form E = E₀e^{i(k·r - ωt)} where ω = ck. The transverse nature of electromagnetic waves (E and B perpendicular to k and to each other) follows from Maxwell's equations. The dispersion relation ω = ck is exact in vacuum, independent of frequency.
 
+## How It's Best Learned
+Turn all four vacuum Maxwell equations into algebra. On the ansatz, ∇ → ik and ∂/∂t → −iω, so they become k·E₀ = 0, k·B₀ = 0, k × E₀ = ωB₀, and k × B₀ = −(ω/c²)E₀. Cross k into the third equation and substitute the fourth: −k²E₀ = −(ω²/c²)E₀, which recovers ω = ck.
+
+## Common Misconceptions
+- Transversality is an extra postulate added to Maxwell's theory. (It follows from the two divergence equations, ∇·E = 0 and ∇·B = 0, applied to the plane-wave form.)
+- The wave equation by itself forces E to be perpendicular to k. (A longitudinal field E₀ ∥ k also satisfies the wave equation with ω = ck. Gauss's law is what rules it out.)
+- Higher-frequency light travels faster in vacuum because it carries more energy. (In vacuum ω/k = c for every frequency, so phase and group velocities both equal c.)
+- The wavelength and frequency of a vacuum plane wave can be chosen independently. (The dispersion relation ties them: once |k| is fixed, ω = c|k|.)
+
 ## Questions
 
 ```yaml
@@ -69,5 +78,5 @@ Substituting the plane wave ansatz into the wave equation immediately gives the 
 
 The truly remarkable consequence comes from applying **Gauss's law** ∇·**E** = 0 to the plane wave. Taking the divergence of **E** = **E₀** e^{i(**k**·**r** − ωt)}, the spatial derivative acts on the exponent to pull down a factor of i**k**, giving i**k**·**E₀** = 0. This means **k**·**E₀** = 0: the electric field is perpendicular to the propagation direction. The wave is **transverse**. Similarly, Gauss's law for magnetism (∇·**B** = 0) forces **k**·**B** = 0 — the magnetic field is also transverse. Faraday's law then fixes the relationship between **E** and **B**: **B** = (**k** × **E**)/ω = k̂ × **E**/c. The three vectors **k**, **E**, and **B** form a right-handed orthogonal triplet, with |**B**| = |**E**|/c. This geometry — not assumed but derived from Maxwell's equations — is the fundamental structure of all electromagnetic radiation.
 
-The plane wave solution is also the foundation for understanding **polarization**: since **E₀** can point in any direction perpendicular to **k**, there is a two-dimensional space of polarization states. Linearly polarized waves have **E₀** pointing along a fixed direction; circularly polarized waves are superpositions of two orthogonal linear polarizations with a 90° phase offset. The energy flux carried by the wave — the Poynting vector **S** = **E** × **H**/μ₀ — points in the **k** direction with magnitude |S| = |E|²/(μ₀c) = c²ε₀|E|², averaging over a cycle to give the intensity. All of this rich structure follows from the single elegant fact that Maxwell's equations in vacuum admit plane wave solutions with ω = ck.
+The plane wave solution is also the foundation for understanding **polarization**: since **E₀** can point in any direction perpendicular to **k**, there is a two-dimensional space of polarization states. Linearly polarized waves have **E₀** pointing along a fixed direction; circularly polarized waves are superpositions of two orthogonal linear polarizations with a 90° phase offset. The energy flux carried by the wave — the Poynting vector **S** = **E** × **B**/μ₀ — points in the **k** direction with magnitude |S| = |E|²/(μ₀c) = cε₀|E|², averaging over a cycle to give the intensity. All of this rich structure follows from the single elegant fact that Maxwell's equations in vacuum admit plane wave solutions with ω = ck.
 

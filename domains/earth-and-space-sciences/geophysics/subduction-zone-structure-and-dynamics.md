@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Subduction zones are regions where oceanic lithosphere descends into the mantle at convergent plate boundaries, characterized by deep seismic zones (Wadati–Benioff zones) dipping ~45° into the mantle. Seismic tomography shows cold subducting slabs as high-velocity anomalies; thermal models predict slab temperatures 500–700 K colder than surrounding mantle. Seismicity patterns (megathrust events, intermediate-depth slab earthquakes, volcanic arc seismicity) reflect stress state, dehydration reactions, and thermal structure; understanding subduction zones is critical for hazard assessment and plate dynamics.
 
+## How It's Best Learned
+Draw two cross-sections to scale, one for a steep slab like the Marianas and one for a flat slab beneath South America. Mark the trench, the locked megathrust, intraslab earthquakes, the mantle wedge, and the arc where present. Then sort a short earthquake list by depth, position relative to the slab top, and mechanism into interface thrusts, intraslab events and upper-plate events.
+
+## Common Misconceptions
+- The downgoing plate is mostly shoved under by the plate behind it. (The slab sinks mainly under its own negative buoyancy, and this slab pull is thought to be the largest plate-driving force.)
+- Arc volcanoes sit right at the trench. (They sit roughly 100–200 km inland, above where the slab has descended deep enough to release water into hot mantle.)
+- Every subduction-zone earthquake happens on the plate boundary. (Many occur inside the descending slab at intermediate and great depths, and others occur within the overriding plate.)
+- Older, denser plates dip more steeply as a rule. (Age and dip correlate only weakly; overriding-plate motion, slab rollback and buoyant features such as subducting ridges also control dip.)
+
 ## Questions
 
 ```yaml

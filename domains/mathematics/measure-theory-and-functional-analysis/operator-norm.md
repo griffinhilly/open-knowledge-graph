@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 For a bounded linear operator T: X → Y, the operator norm is ‖T‖ = sup{‖T(x)‖_Y : ‖x‖_X ≤ 1}. The space ℒ(X,Y) of bounded operators is itself a normed space (Banach if Y is Banach).
 
+## How It's Best Learned
+Compute one matrix norm three ways. For A = [[1, 2], [0, 0]] on ℝ², the ℓ¹ operator norm (maximum column sum) is 2, the ℓ∞ norm (maximum row sum) is 3, and the ℓ² norm is √5, since A sends x to ((1,2)·x, 0). Then show differentiation on polynomials with the sup norm on [0,1] is unbounded: ‖xⁿ‖ = 1 but ‖nxⁿ⁻¹‖ = n.
+
+## Common Misconceptions
+- The operator norm of a matrix depends only on the matrix. (It depends on the norms placed on the domain and codomain. The matrix above has norm 2, √5, or 3 depending on that choice.)
+- Some unit vector always achieves the supremum. (On ℓ², the diagonal map xₙ ↦ (1 − 1/n)xₙ has norm 1, yet ‖Tx‖ < 1 for every unit vector x.)
+- ‖ST‖ equals ‖S‖‖T‖. (Only the inequality holds. In ℝ², projection onto the x-axis composed with projection onto the y-axis is 0, though each has norm 1.)
+- Every linear map between normed spaces has a finite operator norm. (Differentiation on polynomials with the sup norm is linear but unbounded. In finite dimensions every linear map is bounded.)
+
 ## Questions
 
 ```yaml

@@ -22,18 +22,26 @@ status: validated
 ## Core Idea
 Paleomagnetic poles from continental rocks reconstruct plate positions in past time by matching apparent polar wander paths between continents. This approach constrains the timing and geometry of continental collisions, rifting events, and plate movements. Paleomagnetic reconstruction complements seafloor magnetic anomaly data to build comprehensive plate motion models.
 
+## How It's Best Learned
+On a polar projection, plot same-age poles from two continents. Rotate each continent so its pole moves to the geographic north pole, which fixes its latitude and orientation. Then slide one continent east or west along its latitude band until the margins fit. Doing the sliding by hand shows that the longitude comes from the geological fit, while the magnetic data supply the rest.
+
+## Common Misconceptions
+- If two continents give different poles for the same age, the data must be wrong. (Different poles are expected when continents were apart. Only continents that were joined should share a pole once restored to their past positions.)
+- A paleomagnetic pole always tells you which hemisphere a continent was in. (Normal and reversed poles are antipodal. For old rocks without a continuous path to link them, the polarity can be unknown, so the continent could sit in either hemisphere.)
+- Paleolatitudes from sedimentary rocks are as reliable as those from lava flows. (Deposition and compaction can flatten the recorded inclination in sediments. That biases paleolatitude toward the equator unless it is corrected.)
+
 ## Questions
 
 ```yaml
-- question: "South America and Africa have overlapping apparent polar wander (APW) paths for the Triassic period, but their paths diverge starting in the Jurassic. What is the correct interpretation?"
+- question: "South America and Africa have overlapping apparent polar wander (APW) paths for the Triassic and Jurassic periods, but their paths diverge starting in the Cretaceous. What is the correct interpretation?"
   type: multiple-choice
   options:
-    - "Earth's magnetic pole moved rapidly during the Jurassic, affecting both continents equally"
-    - "The two continents moved together (as part of Gondwana) through the Triassic, then began separating as the Atlantic opened in the Jurassic"
-    - "The paleomagnetic data from the Jurassic must be unreliable, since two continents cannot have different APW paths simultaneously"
+    - "Earth's magnetic pole moved rapidly during the Cretaceous, affecting both continents equally"
+    - "The two continents moved together (as part of Gondwana) through the Triassic and Jurassic, then began separating as the South Atlantic opened in the Cretaceous"
+    - "The paleomagnetic data from the Cretaceous must be unreliable, since two continents cannot have different APW paths simultaneously"
     - "Africa remained stationary while South America drifted, so only South America's path shifted"
   answer: 1
-  explanation: "Overlapping APW paths for the same time period mean the continents were moving together — they shared the same position relative to the pole. When the paths diverge, the continents began independent motion. The divergence starting in the Jurassic matches precisely when rifting initiated and the South Atlantic began opening. Option A is wrong because the pole doesn't actually wander (APW reflects continent motion, not pole motion). Option C is wrong — two continents moving independently will naturally produce different APW paths."
+  explanation: "Overlapping APW paths for the same time period mean the continents were moving together — they shared the same position relative to the pole. When the paths diverge, the continents began independent motion. The divergence starting in the Cretaceous matches when the South Atlantic began opening. Option A is wrong because the pole doesn't actually wander (APW reflects continent motion, not pole motion). Option C is wrong — two continents moving independently will naturally produce different APW paths."
 
 - question: "When geologists rotate South America back against Africa and find that their Jurassic APW paths converge into a single track, what geometric fact does this demonstrate?"
   type: multiple-choice

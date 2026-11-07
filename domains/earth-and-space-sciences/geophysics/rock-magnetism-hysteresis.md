@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Magnetization in rocks arises from ferromagnetic and antiferromagnetic minerals with magnetic domains. Hysteresis curves (magnetization vs. field) reveal domain size, saturation magnetization, and coercivity; these properties vary with mineralogy, grain size, and temperature.
 
+## How It's Best Learned
+Trace a printed loop with a finger and say what the domains do at each stage: alignment, saturation, field back to zero, reverse field. Then read Mₛ, Mᵣ, Hc and the remanent coercivity Hcr from two loops and plot Mᵣ/Mₛ against Hcr/Hc. The single-domain sample lands high and to the left. The multi-domain sample lands low and to the right.
+
+## Common Misconceptions
+- The smaller the grain, the more stable its magnetic record. (Grains well below single-domain size become superparamagnetic. Thermal energy flips their moments freely, so they hold no stable remanence at room temperature.)
+- Saturation magnetization reveals the domain state. (Mₛ depends on which mineral is present and how much. Domain state comes from the loop's shape, through ratios such as Mᵣ/Mₛ and Hcr/Hc.)
+- Coercivity and remanent coercivity are the same quantity. (Hc is the reverse field that brings magnetization to zero while that field is applied. Hcr is the reverse field that leaves zero remanence once it is removed, and it is at least as large as Hc.)
+
 ## Questions
 
 ```yaml

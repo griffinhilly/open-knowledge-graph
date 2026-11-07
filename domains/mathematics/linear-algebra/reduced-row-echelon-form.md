@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Reduced row echelon form (RREF) is the unique simplest form where: matrix is in REF, all pivots equal 1, and all entries above and below pivots are zero. RREF reveals solutions directly with no back-substitution. Every matrix has a unique RREF, which determines rank and solution structure.
 
+## How It's Best Learned
+Take an augmented matrix already in REF, with rows [1, 2, 1 | 8], [0, 1, 1 | 5], [0, 0, 1 | 2]. Clear above the pivots from the bottom up: R2 − R3 gives [0, 1, 0 | 3], R1 − R3 gives [1, 2, 0 | 6], then R1 − 2R2 gives [1, 0, 0 | 0]. Read off x = 0, y = 3, z = 2, and compare with back-substitution on the REF.
+
+## Common Misconceptions
+- The RREF of a matrix is the identity matrix. (Only square invertible matrices reduce to I; others have zero rows or non-pivot columns, as in [[1, 2], [0, 0]].)
+- In RREF, every entry except the pivots must be zero. (Pivot columns are zero apart from the pivot, but non-pivot columns can hold any values.)
+- Different sequences of row operations can lead to different RREFs. (The RREF of a matrix is unique; only the intermediate REFs vary.)
+- Free variables are set to zero to get the solution. (Free variables can take any value; setting them to zero gives one particular solution out of infinitely many.)
+
 ## Questions
 
 ```yaml

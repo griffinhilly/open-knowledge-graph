@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 For a set A: the closure Ā is the smallest closed set containing A; the interior A° is the largest open set contained in A; the boundary ∂A = Ā \ A°. These are fundamental closure operators in topology.
 
+## How It's Best Learned
+Fill a table with columns A°, Ā, and ∂A for these subsets of ℝ: [0, 1), [0, 1], ℤ, ℚ, and {0} ∪ (1, 2). The last one is instructive: its interior is (1, 2), its closure is {0} ∪ [1, 2], and its boundary is {0, 1, 2}. Then read the table to confirm that A is closed exactly when Ā = A and open exactly when A° = A.
+
+## Common Misconceptions
+- A boundary point of A must belong to A. (1 is a boundary point of [0, 1) but is not in [0, 1).)
+- If Ā = A, then A has empty boundary. (Ā = A means A is closed. [0, 1] equals its closure and has boundary {0, 1}.)
+- The interior is A with its endpoints removed. (Isolated points also drop out. The interior of {0} ∪ (1, 2) is (1, 2), and the interior of ℚ is empty.)
+- The closure of A is the set of limit points of A. (The closure is A together with its limit points. In {0} ∪ (1, 2), the point 0 is in the closure but is not a limit point.)
+
 ## Questions
 
 ```yaml
@@ -48,7 +57,7 @@ For a set A: the closure Ā is the smallest closed set containing A; the interio
   answer: 1
   explanation: "The closure Ā is defined as the smallest closed set containing A. If A = Ā, then A is equal to a closed set, so A is closed. This is the definition: a set is closed if and only if it contains all its limit points, which is equivalent to equaling its own closure. Option C is tempting but wrong — ∂A = Ā \\ A° = A \\ A° could still be non-empty if A is not open. Option D overclaims; Ā = A just says A is closed, not that it is also open."
 
-- question: "A set A is open if and mainly if A equals its own closure."
+- question: "A set A is open if and only if A equals its own closure."
   type: true-false
   answer: false
   explanation: "This confuses the characterization of open sets with that of closed sets. A set is closed if and only if it equals its own closure (Ā = A). A set is open if and only if it equals its own interior (A° = A). These are distinct properties: closure is about containing limit points, interior is about being 'surrounded' by the set. An open interval (0,1) satisfies A° = A but Ā = [0,1] ≠ A. A closed interval [0,1] satisfies Ā = A but A° = (0,1) ≠ A."
@@ -72,4 +81,4 @@ Start with the **interior** A°. A point x is in A° if there exists an open set
 
 The **closure** Ā adds to A all points that are "limit points" — every open neighborhood of x intersects A. Equivalently, Ā is the smallest closed set containing A. For A = (0,1), the closure is [0,1]: the endpoints 0 and 1 are limit points because every open interval around them overlaps with (0,1). The closure captures A together with everything it is "trying to approach." A set is closed if and only if it equals its own closure.
 
-The **boundary** ∂A = Ā \ A° consists of points that are in the closure but not the interior — points where every open neighborhood intersects both A and its complement. For A = (0,1), the boundary is {0, 1}. Boundary points are "on the edge": you cannot put an open ball around them that stays entirely inside A or entirely outside A. Notice that ∂A is always a closed set (as the difference of two closed sets), and that X is partitioned into three disjoint pieces: A°, ∂A (intersected with A and its complement), and the exterior (interior of the complement). These three operators together give a complete topological decomposition of how A relates to the ambient space, and they arise constantly in continuity proofs and limit point arguments that build on this foundation.
+The **boundary** ∂A = Ā \ A° consists of points that are in the closure but not the interior — points where every open neighborhood intersects both A and its complement. For A = (0,1), the boundary is {0, 1}. Boundary points are "on the edge": you cannot put an open ball around them that stays entirely inside A or entirely outside A. Notice that ∂A is always a closed set (as the intersection of the closed sets Ā and X \ A°), and that X is partitioned into three disjoint pieces: A°, ∂A (intersected with A and its complement), and the exterior (interior of the complement). These three operators together give a complete topological decomposition of how A relates to the ambient space, and they arise constantly in continuity proofs and limit point arguments that build on this foundation.

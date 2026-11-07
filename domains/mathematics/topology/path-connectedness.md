@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 A space is path-connected if any two points can be joined by a continuous path (image of a continuous map from [0,1]). Path-connectedness implies connectedness but not conversely. It provides a more intuitive and constructive notion of connectedness amenable to algebraic topology.
 
+## How It's Best Learned
+Write the concatenation formula yourself: (γ₁·γ₂)(t) = γ₁(2t) for t ≤ 1/2 and γ₂(2t − 1) for t ≥ 1/2. Check that both pieces give q at t = 1/2, then cite the pasting lemma for continuity. Use it to prove that two path-connected sets sharing a point have a path-connected union. Then contrast with the topologist's sine curve.
+
+## Common Misconceptions
+- A space is path-connected if every point lies on some path. (Every point lies on a constant path. The condition asks for a path between every pair of points.)
+- In the plane, connected sets are path-connected. (The topologist's sine curve sits in ℝ² and is connected but not path-connected.)
+- A subspace of a path-connected space is path-connected. (ℝ is path-connected, but its subspace {0, 1} is not.)
+
 ## Questions
 
 ```yaml
@@ -55,7 +63,7 @@ A space is path-connected if any two points can be joined by a continuous path (
   answer: true
   explanation: "Proof sketch: Suppose X is path-connected but not connected. Then X = U ∪ V with U, V disjoint, nonempty, and open. Take p ∈ U and q ∈ V. By path-connectedness, there is a continuous path γ: [0,1] → X with γ(0) = p and γ(1) = q. Then [0,1] = γ⁻¹(U) ∪ γ⁻¹(V) is a partition into disjoint open sets, with 0 ∈ γ⁻¹(U) and 1 ∈ γ⁻¹(V). But [0,1] is connected — contradiction. Therefore path-connectedness implies connectedness."
 
-- question: "Most connected topological space is path-connected."
+- question: "Every connected topological space is path-connected."
   type: true-false
   answer: false
   explanation: "The topologist's sine curve (closure of {(x, sin(1/x)) : x > 0}) is the standard counterexample. It is connected — it cannot be split into two disjoint nonempty open sets — but it is not path-connected because no continuous path can reach the limit segment {0} × [−1, 1] from the oscillating part. Connectedness is a strictly weaker condition: it rules out global separations, but does not guarantee that any two points can be joined by a continuous arc."

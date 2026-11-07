@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The Edgeworth box is a geometric tool for analyzing two-person, two-good exchange economies. The contract curve traces all mutually beneficial allocations where indifference curves are tangent; competitive equilibrium lies on this curve. The box illustrates how trade expands the feasible set from autarky and demonstrates Pareto efficiency of equilibrium.
 
+## How It's Best Learned
+Draw a 10-by-10 box on graph paper. Give A the endowment (8, 2) and B the rest, with u = xy for both. Sketch each person's indifference curve through the endowment to find the lens. Then set p_y = 1 and clear the market for X: the price ratio is 1, and each person ends at (5, 5). Utility rises from 16 to 25 for both.
+
+## Common Misconceptions
+- Every point in the lens is Pareto efficient. (Points in the lens improve on the endowment. Most of them are not efficient, because the indifference curves still cross there.)
+- B's indifference curves look like A's in the box. (B's map is rotated 180 degrees, so B's utility rises toward A's origin in the lower left.)
+- The competitive equilibrium is the most efficient point on the contract curve. (All points on the contract curve are equally efficient. The equilibrium is one of them, picked out by the endowment and prices.)
+- Moving to the contract curve makes both consumers better off from any starting point. (Only the part of the contract curve inside the lens makes both better off than at the endowment.)
+
 ## Questions
 
 ```yaml
@@ -44,14 +53,14 @@ The Edgeworth box is a geometric tool for analyzing two-person, two-good exchang
     - "All Pareto efficient allocations, from A receiving everything to B receiving everything"
     - "The set of allocations reachable through voluntary trade starting from the endowment"
   answer: 2
-  explanation: "The contract curve is the locus of all tangency points between consumers' indifference curves — every allocation where MRS_A = MRS_B. This includes every Pareto efficient allocation in the box, from the corner where A gets nearly everything to the corner where B gets nearly everything. Option A is wrong: there is no single allocation that 'maximizes total utility' in the ordinal utility framework — utility is not interpersonally comparable. Option B describes the lens-shaped region of Pareto improvements from the endowment (a subset of the contract curve). Option D describes the core of the economy — the allocations reachable through voluntary trade — which is a segment of the contract curve, not the whole thing."
+  explanation: "The contract curve is the locus of all tangency points between consumers' indifference curves — every allocation where MRS_A = MRS_B. This includes every Pareto efficient allocation in the box, from the corner where A gets nearly everything to the corner where B gets nearly everything. Option A is wrong: there is no single allocation that 'maximizes total utility' in the ordinal utility framework — utility is not interpersonally comparable. Option B describes the lens-shaped region of Pareto improvements from the endowment (only part of which lies on the contract curve). Option D describes the core of the economy — the allocations reachable through voluntary trade — which is a segment of the contract curve, not the whole thing."
 
 - question: "In an Edgeworth box, the competitive equilibrium is one specific point on the contract curve. Other points on the contract curve are equally Pareto efficient but differ only in their distributional consequences."
   type: true-false
   answer: true
   explanation: "This is the core insight separating efficiency from equity in the Edgeworth framework. Every point on the contract curve is Pareto efficient — at each point, no reallocation can benefit one consumer without harming the other. The competitive equilibrium at given prices lands on one particular point on the contract curve, but the entire contract curve consists of efficient allocations. Points closer to A's corner are efficient but favor A in distribution; points closer to B's corner are efficient but favor B. The Second Welfare Theorem formalizes this: any efficient allocation on the contract curve can in principle be achieved as a competitive equilibrium — you just need to redistribute the initial endowment appropriately first. Efficiency tells us nothing about who deserves what."
 
-- question: "Most point inside the lens-shaped region between the two indifference curves through the endowment is Pareto efficient."
+- question: "Most points inside the lens-shaped region between the two indifference curves through the endowment are Pareto efficient."
   type: true-false
   answer: false
   explanation: "Points inside the lens are Pareto improvements over the endowment — they make both consumers better off than they were initially. But Pareto improvements and Pareto efficiency are different concepts. A point inside the lens is Pareto efficient only if no further mutually beneficial trade is possible from that point, which occurs only when the two consumers' indifference curves are tangent (i.e., on the contract curve). Most points inside the lens are NOT on the contract curve: at those points, the consumers' indifference curves cross, and the lens shape around that crossing contains further Pareto improvements. Efficiency requires that you have exhausted all mutual gains from trade, which is achieved only at tangency points."

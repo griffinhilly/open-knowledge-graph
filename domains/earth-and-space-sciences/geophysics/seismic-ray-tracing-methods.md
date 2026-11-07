@@ -24,7 +24,16 @@ status: validated
 # Seismic Ray Tracing and Wave Path Geometry
 
 ## Core Idea
-Seismic ray tracing uses Snell's law and geometric principles to predict the paths that seismic waves follow through layered and laterally varying velocity structures. Rays bend toward the vertical in high-velocity zones and away from the vertical in low-velocity zones. This approach enables prediction of travel times, ray takeoff angles, and wave amplitudes essential for earthquake location and seismic imaging.
+Seismic ray tracing uses Snell's law and geometric principles to predict the paths that seismic waves follow through layered and laterally varying velocity structures. Rays bend away from the vertical as they enter faster rock and toward the vertical as they enter slower rock. This approach enables prediction of travel times, ray takeoff angles, and wave amplitudes essential for earthquake location and seismic imaging.
+
+## How It's Best Learned
+Shoot rays by hand. Use two 1 km layers at 2 and 4 km/s over a flat reflector. A surface receiver sits 2 km from the source. Offset is x = 2(h₁tanθ₁ + h₂tanθ₂). With p = 0.10 s/km the ray lands near 1.28 km; with p = 0.15 s/km, near 2.13 km. Bisect between them until the ray hits 2 km.
+
+## Common Misconceptions
+- A ray launched more steeply lands closer to the source, like a thrown ball. (Where velocity increases smoothly with depth, a steeper ray dives deeper and usually emerges farther away.)
+- Each receiver is reached by exactly one ray. (A rapid velocity increase can deliver several rays to the same distance, and a shadow zone can leave a receiver with no direct ray, so two-point tracing must handle both cases.)
+- An eikonal solver on a grid gives every arrival at a receiver. (A standard eikonal solver returns only the first-arrival time at each grid point; later arrivals need ray shooting or wavefield methods.)
+- Traced travel times are exact for any velocity model. (Ray tracing assumes the wavelength is short compared with the velocity variations; smaller features bend real waves in ways rays do not capture.)
 
 ## Questions
 
@@ -62,7 +71,7 @@ Seismic ray tracing uses Snell's law and geometric principles to predict the pat
 - question: "Explain why seismic rays traveling through an Earth with velocity increasing with depth follow curved paths that return to the surface, rather than continuing downward indefinitely."
   type: short-answer
   answer: "The ray parameter p = sin(θ)/v is conserved along the ray path. As velocity v increases with depth, θ (the angle from vertical) must increase to keep p constant. As θ grows toward 90°, the ray becomes horizontal. Since θ continues increasing past 90° (the ray is now pointing upward), the ray curves back toward the surface. In a continuous velocity gradient, this produces a smooth arc without requiring any reflection boundary."
-  explanation: "The ray is not reflected — it is continuously refracted by the velocity gradient. This distinction matters: the curved paths are head-wave-like refraction phenomena, not reflections. The steeper the initial angle (smaller p), the deeper the ray penetrates before curving back, since it needs a higher velocity (deeper depth) to accumulate enough change in θ to reverse direction."
+  explanation: "The ray is not reflected — it is continuously refracted by the velocity gradient. This distinction matters: the curved paths are continuously refracted diving waves, not reflections. The steeper the initial angle (smaller p), the deeper the ray penetrates before curving back, since it needs a higher velocity (deeper depth) to accumulate enough change in θ to reverse direction."
 ```
 
 ## Explainer

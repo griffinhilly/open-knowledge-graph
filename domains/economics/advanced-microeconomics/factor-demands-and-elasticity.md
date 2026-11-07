@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Factor demands show how optimal input quantities respond to factor prices and output levels. The Allen partial elasticity of substitution measures the percentage change in factor ratio from a one percent increase in relative factor prices. Higher substitution elasticity implies greater flexibility in adjusting input mix when relative prices change.
 
+## How It's Best Learned
+Derive σ for the CES technology y = (aK^ρ + bL^ρ)^(1/ρ). The tangency condition gives K/L = [(a/b)(w/r)]^(1/(1−ρ)), so the log of K/L moves 1/(1−ρ) times as much as the log of w/r. That makes σ = 1/(1−ρ). Then plug in ρ = 0, ρ → −∞ and ρ = 1 to recover Cobb-Douglas, Leontief and perfect substitutes.
+
+## Common Misconceptions
+- A high elasticity of substitution means the firm is locked into its input mix. (High σ means the input ratio responds strongly to relative prices. Low σ means it barely moves.)
+- σ is the elasticity of labor demand with respect to the wage. (σ measures how the ratio of inputs responds to the ratio of their prices, holding output fixed. The full labor demand response also includes a scale effect from changes in output.)
+- With σ near zero, a wage increase cannot reduce employment. (Fixed proportions rule out substitution, but higher costs can still lower output and so lower employment through the scale effect.)
+- Cobb-Douglas inputs do not substitute because their cost shares are fixed. (Constant cost shares are what σ = 1 implies. The input ratio still changes in proportion to the price ratio.)
+
 ## Questions
 
 ```yaml
@@ -52,7 +61,7 @@ Factor demands show how optimal input quantities respond to factor prices and ou
 - question: "If the elasticity of substitution between labor and capital is near zero, a large increase in the minimum wage will cause a large reduction in employment."
   type: true-false
   answer: false
-  explanation: "Near-zero substitution elasticity means the firm has almost no ability to swap between inputs — it must use them in nearly fixed proportions. When wages rise, a firm with σ ≈ 0 cannot easily replace workers with machines, so the employment effect is small. Large employment effects from wage increases require high substitution elasticity (σ >> 0), where firms can readily automate. This is why empirical estimates of σ are central to predicting minimum wage employment impacts."
+  explanation: "Near-zero substitution elasticity means the firm has almost no ability to swap between inputs — it must use them in nearly fixed proportions. When wages rise, a firm with σ ≈ 0 cannot easily replace workers with machines, so the substitution effect on employment is small (higher costs can still cut employment through lower output). Large employment effects from wage increases require high substitution elasticity (σ >> 0), where firms can readily automate. This is why empirical estimates of σ are central to predicting minimum wage employment impacts."
 
 - question: "A tax is imposed on capital income. Using the concept of substitution elasticity, explain how the ability to substitute between capital and labor determines who ultimately bears the burden of this tax."
   type: short-answer

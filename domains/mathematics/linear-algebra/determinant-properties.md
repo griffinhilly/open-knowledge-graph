@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 Key properties: det(AB) = det(A)det(B), det(A^T) = det(A), det(cA) = c^n det(A). Row operations: swapping rows negates det; scaling a row by c multiplies det by c; adding row multiples doesn't change det. A matrix is invertible iff det(A) ≠ 0.
 
+## How It's Best Learned
+Test each property on a pair of 2×2 matrices before trusting it. With A = [[1,2],[3,4]] (det −2) and B = [[2,0],[1,1]] (det 2), compute AB = [[4,2],[10,4]] and check that its determinant is −4. Then compute det(A + B) = 7 and see that it is not −2 + 2 = 0. One counterexample makes clear which rules hold.
+
+## Common Misconceptions
+- det(A + B) = det(A) + det(B). (The determinant respects products, not sums. The example above gives 7 on the left and 0 on the right.)
+- Since AB and BA are usually different, their determinants differ too. (For square A and B, det(AB) = det(A)det(B) = det(BA).)
+- The determinant of A⁻¹ is −det(A). (Since AA⁻¹ = I and det(I) = 1, det(A⁻¹) = 1/det(A).)
+
 ## Questions
 
 ```yaml

@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Rocks can acquire secondary remanent magnetization through chemical weathering, burial heating, or mechanical processes that alter magnetic minerals. Secondary magnetization can overprint primary (original) magnetization, complicating paleomagnetic interpretation. Laboratory heating and stepwise demagnetization isolate primary and secondary components based on their different unblocking temperatures.
 
+## How It's Best Learned
+Sketch a two-component sample on a Zijderveld diagram. Give it a present-field overprint removed by about 300°C and a reversed primary component that decays straight to the origin near 580°C. Plot the horizontal and vertical projections step by step and find the two straight segments. Then ask how the plot would change if the overprint were hematite grown during alteration and survived to higher temperatures.
+
+## Common Misconceptions
+- The magnetization measured in a fresh sample is the field direction from when the rock formed. (The natural remanence is the vector sum of every component the rock carries; the primary direction appears only after overprints are removed.)
+- A secondary component will be removed at lower temperatures than the primary one. (This usually holds for VRM, but a CRM carried by newly grown hematite or a thermal overprint from deep burial can unblock at temperatures as high as the primary signal, or replace it.)
+- If demagnetization reveals one stable direction, that direction must be primary. (A rock can be completely remagnetized, so field tests such as fold or baked-contact tests are needed to show the component predates later events.)
+- Secondary magnetization is noise with no geological value. (Its direction and unblocking range can date alteration, burial heating, or fluid flow events.)
+
 ## Questions
 
 ```yaml

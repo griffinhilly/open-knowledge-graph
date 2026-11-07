@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 When charged particles travel through matter faster than light in that medium (v > c/n), they emit Cherenkov radiation. The shock-like radiation forms a cone with angle θ_c = arccos(1/(βn)). Provides evidence of superluminal particle motion relative to medium. Used in particle detectors.
 
+## How It's Best Learned
+Draw the Huygens construction on graph paper. Mark the particle at equal time steps, and at each mark draw a circle of radius (c/n) times the time since it passed. The tangent line gives the cone, and cos θ_c = 1/(βn) follows from one right triangle. Then compute the threshold in water: β = 1/1.33 means γ ≈ 1.52, about 0.26 MeV kinetic energy for an electron.
+
+## Common Misconceptions
+- Cherenkov light means the particle is moving faster than c. (The particle exceeds c/n, the speed of light in the medium, while staying below c.)
+- The cone angle shrinks as the particle speeds up, like a sonic boom's Mach cone. (The emission angle θ_c, measured from the particle's path, grows with speed. The wavefront cone's half-angle is its complement, which does shrink.)
+- Any charged particle in water emits Cherenkov light if it is energetic enough by some fixed amount. (The threshold is a speed, so heavier particles need far more energy. A proton needs roughly 0.49 GeV of kinetic energy in water.)
+- The particle itself glows because it is accelerating. (A uniformly moving charge emits Cherenkov light. The light comes from the medium's polarization response adding coherently along the cone.)
+
 ## Questions
 
 ```yaml
@@ -44,7 +53,7 @@ When charged particles travel through matter faster than light in that medium (v
   answer: 2
   explanation: "At threshold (v = c/n, β = 1/n), cos θ_c = 1/(βn) = 1, so θ_c = 0 — the cone is infinitely narrow and no radiation is emitted. As v increases (β increases), 1/(βn) decreases, so θ_c = arccos(1/(βn)) increases. At the relativistic limit β → 1, θ_c approaches arccos(1/n), which for water (n = 1.33) is about 41°. The angle opens as speed increases — exactly the opposite of sonic boom behavior, which many students expect to go the other way."
 
-- question: "Cherenkov radiation can primarily be emitted by particles moving faster than c, the vacuum speed of light."
+- question: "Cherenkov radiation can only be emitted by particles moving faster than c, the vacuum speed of light."
   type: true-false
   answer: false
   explanation: "False — Cherenkov radiation requires exceeding c/n (the phase velocity of light in the medium), not c (the vacuum speed). Since c/n < c for any medium with n > 1, a particle can emit Cherenkov radiation while remaining below c. This is the fundamental point: special relativity is not violated because the speed limit c remains inviolable; the medium has simply slowed light's phase velocity below c, creating a threshold that a slower-than-c particle can still cross."
@@ -66,4 +75,4 @@ From your study of electromagnetic waves in media, you know that light slows dow
 
 The mechanism is best understood by analogy with a sonic boom. A supersonic aircraft moves faster than sound can propagate outward from it. The pressure waves pile up into a coherent shock front — a Mach cone — that trails the aircraft at a fixed half-angle determined by the ratio of the aircraft's speed to the sound speed. Replace "sound" with "light in the medium" and "aircraft" with "charged particle," and the physics is identical. As a fast-charged particle passes through a medium, it polarizes the atoms along its path. When v < c/n, the electromagnetic disturbances radiated from each point along the path are spherical waves that spread outward faster than the particle moves, and they largely cancel by destructive interference in the forward direction. When v > c/n, the particle outpaces its own electromagnetic wake; the disturbances can no longer cancel, and they constructively interfere along a cone that builds up coherently behind the particle.
 
-The geometry is exact: the **Cherenkov angle** θ_c satisfies cos θ_c = c/(nv) = 1/(βn), where β = v/c. At threshold (v = c/n, β = 1/n), cos θ_c = 1 and θ_c = 0 — the cone is infinitely narrow (no radiation). As the particle speeds up, θ_c opens toward 90°. For highly relativistic particles (β → 1), the maximum angle is cos⁻¹(1/n): in water (n = 1.33), this gives θ_c ≈ 41°. Measuring θ_c tells you v, and since you can often measure the momentum p independently, you can determine the mass m — which is why Cherenkov detectors are powerful **particle identification** tools in high-energy physics experiments. The characteristic blue glow visible in water-cooled nuclear reactors is Cherenkov radiation from fast electrons (beta particles) produced in the reactor core.
+The geometry is exact: the **Cherenkov angle** θ_c satisfies cos θ_c = c/(nv) = 1/(βn), where β = v/c. At threshold (v = c/n, β = 1/n), cos θ_c = 1 and θ_c = 0 — the cone is infinitely narrow (no radiation). As the particle speeds up, θ_c opens. For highly relativistic particles (β → 1), the maximum angle is cos⁻¹(1/n): in water (n = 1.33), this gives θ_c ≈ 41°. Measuring θ_c tells you v, and since you can often measure the momentum p independently, you can determine the mass m — which is why Cherenkov detectors are powerful **particle identification** tools in high-energy physics experiments. The characteristic blue glow visible in water-cooled nuclear reactors is Cherenkov radiation from fast electrons (beta particles) produced in the reactor core.

@@ -24,7 +24,15 @@ status: validated
 # Lithospheric Structure and Strength
 
 ## Core Idea
-The lithosphere is the strong, relatively cold outer layer of the Earth (crust + uppermost mantle) overlying the weaker asthenosphere. Strength profiles, computed from laboratory rheology and geotherms, show elastic thickness and integrated strength varying with age, temperature, and composition; young, hot lithosphere is weak and thick, old, cold lithosphere is strong. The seismogenic zone's depth distribution reflects the brittle-ductile transition; total lithospheric strength governs stress accumulation at plate boundaries and controls the style of tectonics (extension, compression, strike-slip).
+The lithosphere is the strong, relatively cold outer layer of the Earth (crust + uppermost mantle) overlying the weaker asthenosphere. Strength profiles, computed from laboratory rheology and geotherms, show elastic thickness and integrated strength varying with age, temperature, and composition; young, hot lithosphere is weak and thin, old, cold lithosphere is strong. The seismogenic zone's depth distribution reflects the brittle-ductile transition; total lithospheric strength governs stress accumulation at plate boundaries and controls the style of tectonics (extension, compression, strike-slip).
+
+## How It's Best Learned
+Build a yield strength envelope by hand on one depth axis. Draw the frictional line rising with depth, then a creep curve falling as the geotherm heats the rock. At each depth, strength is the lower of the two. Redraw with a hotter geotherm and watch the crossing point rise. Then switch the mineral below the Moho to olivine to produce the jelly sandwich.
+
+## Common Misconceptions
+- The lithosphere is the same thing as the crust. (The lithosphere includes the crust and the uppermost mantle. It is defined by how the rock behaves mechanically, not by composition.)
+- The base of the lithosphere is a change in rock type, like the Moho. (The lithosphere-asthenosphere boundary lies within mantle rock of broadly similar composition. It marks where the mantle becomes hot enough to flow readily.)
+- Rock keeps getting stronger with depth because pressure keeps rising. (That holds only in the brittle part. Below the brittle-ductile transition, rising temperature makes creep easier and strength falls.)
 
 ## Questions
 
@@ -37,7 +45,7 @@ The lithosphere is the strong, relatively cold outer layer of the Earth (crust +
     - "Both will flex equally, because flexure depends only on the load mass, not on lithospheric age"
     - "The seamount on young lithosphere, because hot rocks are more buoyant and respond more dramatically to loading"
   answer: 1
-  explanation: "Young oceanic lithosphere near a mid-ocean ridge is hot, thin, and has a small elastic thickness (Te). A small Te means the plate is mechanically weak and bends significantly under topographic loads. Old, cold oceanic lithosphere has a large Te because more of the plate is below the brittle-ductile transition temperature, contributing to its rigidity. The same load on old lithosphere produces much less flexure. This is why the Hawaiian chain shows progressively stronger subsidence signatures on older lithosphere as the Pacific Plate moves northwest over the hot spot."
+  explanation: "Young oceanic lithosphere near a mid-ocean ridge is hot, thin, and has a small elastic thickness (Te). A small Te means the plate is mechanically weak and bends significantly under topographic loads. Old, cold oceanic lithosphere has a large Te because more of the plate is cold enough to resist creep, contributing to its rigidity. The same load on old lithosphere produces much less flexure."
 
 - question: "In the yield strength envelope (strength vs. depth diagram) for continental lithosphere, what controls the transition from increasing strength to decreasing strength as depth increases?"
   type: multiple-choice

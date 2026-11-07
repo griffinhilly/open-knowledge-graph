@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 An element α of a field extension K/F is algebraic over F if it is a root of a nonzero polynomial with coefficients in F; otherwise it is transcendental. Every algebraic element has a unique minimal polynomial.
 
+## How It's Best Learned
+Compare ℚ(∛2) with ℚ(π) by trying to invert an element in each. In ℚ(∛2), use (1 + ∛2)(1 − ∛2 + ∛4) = 1 + 2 = 3 to get 1/(1 + ∛2) = (1 − ∛2 + ∛4)/3, a polynomial in ∛2. In ℚ(π), 1/(1 + π) is not a polynomial in π, so the field needs fractions of polynomials, just like ℚ(x).
+
+## Common Misconceptions
+- F(α) is the set of polynomial expressions in α with coefficients in F. (That set, F[α], equals F(α) when α is algebraic. When α is transcendental, F[α] is not a field, and F(α) also needs quotients such as 1/α.)
+- Transcendental elements are unusual real numbers like π and e. (The indeterminate x is transcendental over F inside the field of rational functions F(x), and every transcendental α gives F(α) ≅ F(x).)
+- The polynomials in F[x] that vanish at α have no common structure. (Every one of them is a multiple of the minimal polynomial of α over F.)
+
 ## Questions
 
 ```yaml

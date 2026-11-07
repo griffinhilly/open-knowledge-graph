@@ -1,0 +1,15 @@
+domains/biology/evolutionary-biology/substitution-rates.md	how	7	0	ok	Both worked examples check (K = 10^-8 for N = 10 and N = 10,000).
+domains/biology/evolutionary-biology/substitution-rates.md	mis	8	0	ok	All four correct; they agree with K = mu, which the old Core Idea contradicted.
+domains/biology/evolutionary-biology/substitution-rates.md	old:core	2	2	fixed	Core Idea said K = 2mu and K < 2mu at neutral/purified sites; corrected to K = mu and K < mu.
+domains/biology/evolutionary-biology/substitution-rates.md	old:ex	1	1	fixed	Explainer said diploid K = 2mu; replaced with haploid derivation (N mu x 1/N = mu) so both ploidies give K = mu.
+domains/biology/evolutionary-biology/substitution-rates.md	old:q:1:explanation	1	1	fixed	K_synonymous ~ 2mu corrected to ~ mu (two places).
+domains/biology/evolutionary-biology/sympatric-speciation.md	how	5	0	ok	2n=14 x 4n=28 gives 7+14=21 = three sets; checks.
+domains/biology/evolutionary-biology/sympatric-speciation.md	mis	8	0	ok
+domains/biology/evolutionary-biology/synonymous-nonsynonymous-substitutions.md	how	5	0	ok	CUU worked: 3 third-position changes keep Leu, 6 others change; 20/2S vs 10/S gives 1.
+domains/biology/evolutionary-biology/synonymous-nonsynonymous-substitutions.md	mis	8	0	ok	AUG->AUA = Met->Ile verified in standard code.
+domains/biology/evolutionary-biology/synonymous-nonsynonymous-substitutions.md	old:ex	1	1	fixed	"almost all amino acid changes are lethal" overstated; changed to "harmful". Not fixed, noted: Q4 answer's reasoning about mutation at nonsynonymous sites raising dS is muddled.
+domains/biology/evolutionary-biology/transposable-elements.md	how	4	1	fixed	"An element that copies once per round goes 1-2-4-8" only holds if every copy copies; worked literally it gives 1-2-3-4. Reworded.
+domains/biology/evolutionary-biology/transposable-elements.md	mis	8	0	ok
+domains/biology/evolutionary-biology/transposable-elements.md	old:ex	1	1	fixed	McClintock did not coin "jumping genes" (she used "controlling elements"); reworded. Noted, not fixed: Q3 explanation "TEs are a primary driver of regulatory evolution" is strong.
+domains/biology/evolutionary-biology/wahlund-effect.md	how	6	0	ok	Deficits 0.18 and 0.02 both equal 2 x var(p) (0.09, 0.01); checks.
+domains/biology/evolutionary-biology/wahlund-effect.md	mis	8	0	ok	"Pooling loses alleles" is a weak but plausible belief (confusing heterozygosity with allelic diversity); kept.

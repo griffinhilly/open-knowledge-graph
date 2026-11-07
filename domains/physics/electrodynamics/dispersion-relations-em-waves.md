@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The dispersion relation ω(k) connects frequency and wavenumber for waves in a medium, determining the wave velocity v_phase = ω/k and group velocity v_group = dω/dk. Different frequency components travel at different speeds due to material dispersion, causing pulse broadening and chromatic effects. Understanding dispersion is crucial for signal propagation, optical design, and analyzing material properties.
 
+## How It's Best Learned
+Take one dispersion relation and compute both velocities by hand. For a plasma, ω² = ω_p² + c²k² gives v_phase = c/√(1 − ω_p²/ω²), which exceeds c, and v_group = c√(1 − ω_p²/ω²), which stays below c, with their product equal to c². Then plot ω against k: phase velocity is the slope of the line from the origin, group velocity is the slope of the tangent.
+
+## Common Misconceptions
+- A pulse spreads because its frequencies have different phase velocities. (Spreading comes from the group velocity changing with frequency. A medium with a frequency-independent group velocity would carry the envelope unchanged.)
+- Group velocity can never exceed c. (Near an absorption line, in anomalous dispersion, it can exceed c or turn negative. The front of a signal still does not outrun c.)
+- A nonlinear dispersion relation means the medium is optically nonlinear. (Dispersion means the response depends on frequency. Optical nonlinearity means the response depends on field strength, which is a separate effect.)
+- Phase velocity and group velocity always point the same way. (In some structured media they are opposite, so crests move backward through a forward-moving packet.)
+
 ## Questions
 
 ```yaml
@@ -30,11 +39,11 @@ The dispersion relation ω(k) connects frequency and wavenumber for waves in a m
   type: multiple-choice
   options:
     - "The pulse loses energy to absorption, which stretches its duration"
-    - "Different frequency components travel at different phase velocities, arriving at the receiver at different times"
+    - "Different frequency components travel at different group velocities, arriving at the receiver at different times"
     - "The group velocity increases along the fiber, causing later components to catch up and overlap with earlier ones"
     - "Reflection at the fiber walls mixes frequency components together"
   answer: 1
-  explanation: "In a dispersive medium, the dispersion relation ω(k) is nonlinear, so phase velocity v_phase = ω/k varies with frequency. A pulse is a superposition of many frequency components; in a dispersive fiber these components 'walk apart' as they travel because each propagates at a slightly different speed. What was a sharp pulse at the transmitter arrives as a smeared-out pulse at the receiver. Absorption (option A) reduces amplitude but doesn't cause spreading. This pulse broadening directly limits fiber data rates because adjacent pulses must be spaced far enough that they don't overlap after spreading."
+  explanation: "In a dispersive medium, the dispersion relation ω(k) is nonlinear, so the group velocity v_group = dω/dk varies with frequency. A pulse is a superposition of many frequency components; in a dispersive fiber these components 'walk apart' as they travel because each propagates at a slightly different speed. What was a sharp pulse at the transmitter arrives as a smeared-out pulse at the receiver. Absorption (option A) reduces amplitude but doesn't cause spreading. This pulse broadening directly limits fiber data rates because adjacent pulses must be spaced far enough that they don't overlap after spreading."
 
 - question: "In a dispersive medium, which velocity determines how quickly a signal or information is transmitted?"
   type: multiple-choice
@@ -54,7 +63,7 @@ The dispersion relation ω(k) connects frequency and wavenumber for waves in a m
 - question: "Phase velocity and group velocity can differ significantly in a dispersive medium, and the group velocity is the physically meaningful quantity for the transmission of energy and information."
   type: true-false
   answer: true
-  explanation: "This is the central distinction in dispersion theory. In a dispersive medium, the nonlinear ω(k) causes v_phase = ω/k to differ from v_group = dω/dk. Phase velocity can even exceed c in regions of anomalous dispersion without violating special relativity, because no information travels at the phase velocity. All signal transmission, energy flow, and information encoding occur at the group velocity, which is constrained to be ≤ c in physical systems."
+  explanation: "This is the central distinction in dispersion theory. In a dispersive medium, the nonlinear ω(k) causes v_phase = ω/k to differ from v_group = dω/dk. Phase velocity can even exceed c in regions of anomalous dispersion without violating special relativity, because no information travels at the phase velocity. Away from absorption lines, energy and information travel at the group velocity. Even where the group velocity exceeds c, the front of a signal never outruns c."
 
 - question: "Explain why pulse broadening in optical fibers limits data transmission rates, and what property of the dispersion relation determines how severe the broadening is."
   type: short-answer

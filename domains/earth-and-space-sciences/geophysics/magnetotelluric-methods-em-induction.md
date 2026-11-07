@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Magnetotelluric (MT) methods measure natural time-varying electric and magnetic fields (sourced by solar wind–magnetosphere coupling and thunderstorms) to probe electrical conductivity structure to mantle depths. At each frequency, the impedance tensor Z relates orthogonal E and B field components; its phase and magnitude yield apparent resistivity and impedance tensor orientation. 3D MT inversions reveal high-conductivity zones (fluid-rich, partial melt, hydrated minerals), making MT particularly sensitive to volatile distribution in subduction zones and beneath volcanoes.
 
+## How It's Best Learned
+Fill in a skin-depth table with δ ≈ 503√(ρ/f) m for ground of 100 Ω·m. At 100 Hz, δ is about 0.5 km; at 1 Hz, about 5 km; at 0.01 Hz, about 50 km. Then sketch the sounding curve for a conductive layer buried in resistive rock. Apparent resistivity dips at the periods that reach it, and phase rises above 45° where resistivity drops with depth.
+
+## Common Misconceptions
+- Each frequency gives the resistivity at one exact depth. (Each frequency senses a broad depth range centered roughly near its skin depth. Apparent resistivity is a weighted average, and an inversion is needed to recover layer values.)
+- Skin depth depends only on frequency. (It also depends on resistivity. The same frequency penetrates less deeply into conductive ground than into resistive ground.)
+- A thin resistive layer shows up as clearly as a thin conductive one. (MT is far more sensitive to conductors. Induced currents flow around a thin resistor, so it leaves only a weak mark on the data.)
+
 ## Questions
 
 ```yaml

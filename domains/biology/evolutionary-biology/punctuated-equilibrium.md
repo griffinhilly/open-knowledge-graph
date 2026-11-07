@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Evolution may occur in rapid bursts during speciation followed by long morphological stasis. Explains fossil record's apparent discontinuities: rapid change concentrated at speciation events due to small population sizes and strong founder effects.
 
+## How It's Best Learned
+Plot a trait against time two ways: a steady slope (gradualism) and long flat stretches joined by short jumps at branch points (punctuated). Then sample a jump that took 20,000 years at one point every 200,000 years and see that it looks instant. Finally, ask what each model predicts about the ancestor: under punctuated equilibrium it often survives beside its descendant.
+
+## Common Misconceptions
+- Punctuated equilibrium says new species appear in a single generation by giant mutations. (The punctuations can take thousands to tens of thousands of years, which looks sudden only on a geological scale, and use ordinary evolutionary processes.)
+- Stasis means the species stopped evolving. (Genetic change continues; stasis describes little net change in form, which selection, gene flow and constraints can maintain.)
+- Punctuated equilibrium blames abrupt fossil appearances on gaps in preservation. (It argues the opposite, that the abrupt pattern often reflects how change really happened.)
+- If punctuated equilibrium is right, gradual change never happens. (The debate is about how common each pattern is; the fossil record contains examples of both.)
+
 ## Questions
 
 ```yaml

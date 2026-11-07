@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Historians debate what explains historical change: material conditions, ideas, individual decisions, technological innovation, environmental factors, or contingent accidents. Different historiographical schools emphasize different causal mechanisms. Understanding these debates clarifies that 'explanation' in history is not a matter of identifying THE cause but rather of narrating how multiple factors combined to produce particular outcomes in specific contexts.
 
+## How It's Best Learned
+Pick one major change, such as the French Revolution or the outbreak of the First World War, and write three one-paragraph explanations of it: one materialist, one idealist and one contingent. Then combine them into a single account that says which factor worked at which level and over what time span. Comparing the separate paragraphs with the combined account shows what causal pluralism adds and where each mode over-explains.
+
+## Common Misconceptions
+- A good historical explanation names the one true cause. (Most historians work with causal pluralism, combining structural conditions, ideas and specific decisions at different levels.)
+- Materialist explanation means ideas cause change. (Materialist explanation gives priority to economic structures and class relations; giving priority to ideas is idealist explanation.)
+- If the conditions for an event existed, the event was bound to happen. (Conditions can make outcomes more likely without making them inevitable, and treating them as inevitable is retrospective determinism.)
+- Causal pluralism is a refusal to take a position. (Pluralist accounts still have to say which factors did the most work and how they combined in the case at hand.)
+
 ## Questions
 
 ```yaml

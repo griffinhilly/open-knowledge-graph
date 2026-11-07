@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 Large-scale chromosomal changes—duplications, deletions, inversions, translocations—reshape genomes. Can create reproductive isolation, suppress recombination near breakpoints, and enable acquisition of novel functions through retained duplicates.
 
+## How It's Best Learned
+Draw it by hand. Write a normal chromosome as A B C • D E F G (• is the centromere) and its inverted partner as A E D • C B F G. Pair them in an inversion loop and place one crossover between B and C. Trace the two recombinant chromatids: A B C • D E A lacks F and G, and G F B C • D E F G lacks A. Seeing the unbalanced products makes recombination suppression and the supergene idea concrete.
+
+## Common Misconceptions
+- Genes inside an inversion stop working because they are now read backwards. (Each gene is read from its own promoter, on either DNA strand. An inversion usually harms function only when a breakpoint falls inside a gene or its regulatory region.)
+- An inversion blocks all recombination in its region. (Suppression applies in heterozygotes. Two copies of the same arrangement recombine normally, and rare double crossovers or gene conversion can still move alleles between arrangements.)
+- More chromosomes means a more complex organism. (Chromosome number varies widely with no link to complexity, from one pair in the jack jumper ant to hundreds of pairs in some ferns.)
+
 ## Questions
 
 ```yaml

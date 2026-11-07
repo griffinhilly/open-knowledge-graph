@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 A set F in a topological space is closed if its complement X \ F is open. Closed sets satisfy the dual property to open sets: they are closed under arbitrary intersections and finite unions.
 
+## How It's Best Learned
+Pair each closed-set rule with a failure of its opposite. Compute ⋂ (−1/n, 1/n) = {0}, an intersection of open sets that is closed and not open. Compute ⋃ [1/n, 1] = (0, 1], a union of closed sets that is not closed. Then write out the De Morgan step X \ ⋂Fα = ⋃(X \ Fα) for a specific family before reading the general proof.
+
+## Common Misconceptions
+- Closed is the opposite of open. (A set can be open, closed, both, or neither. ∅ and X are both in every topology.)
+- An infinite union of closed sets is closed. (The union of [1/n, 1] over all n ≥ 1 is (0, 1], which is not closed in ℝ.)
+- A single point is a closed set in any space. (Points are closed in ℝ, but in the indiscrete topology on a set with at least two points, the complement of a point is not open.)
+
 ## Questions
 
 ```yaml

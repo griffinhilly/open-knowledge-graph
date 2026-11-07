@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 A space is simply connected if it is path-connected and its fundamental group is trivial (every loop is homotopic to the constant loop). Intuitively, a simply connected space is path-connected with no 'holes.' Simply connected spaces form an important class in algebraic topology where global properties are heavily constrained by topology.
 
+## How It's Best Learned
+Write the straight-line homotopy H(s, t) = (1 − t)γ(s) + t·x₀ and check it contracts every loop in a convex set. Then try it on the unit circle in ℝ² \ {0} with x₀ = (1, 0): at s = 1/2 and t = 1/2 it hits the origin. A failed formula proves nothing by itself, so finish with the winding number as the invariant that shows no contraction exists.
+
+## Common Misconceptions
+- The sphere S² encloses a hole, so it is not simply connected. (Every loop on S² contracts to a point. Its hole is 2-dimensional and shows up in π₂, not π₁.)
+- A simply connected space is contractible. (S² is simply connected but not contractible, since π₂(S²) is nontrivial.)
+- A space whose loops at each point are all contractible is simply connected. (Two disjoint open disks have trivial π₁ at every point, but the space is not path-connected, so it is not simply connected.)
+- If one attempted contraction runs into a hole, the loop is not contractible. (Another homotopy might succeed. Proving a loop is non-contractible needs an invariant such as the winding number.)
+
 ## Questions
 
 ```yaml
@@ -48,7 +57,7 @@ A space is simply connected if it is path-connected and its fundamental group is
   answer: 1
   explanation: "ℝ² minus a point deformation retracts onto a circle surrounding that point, so it has fundamental group π₁ = ℤ — the same as S¹. A loop encircling the puncture cannot be contracted to a point without passing through the hole. Simple connectivity fails everywhere, not just near the removed point, because the group is a topological invariant of the whole space. This is why complex analysis requires simply connected domains: if the domain has a puncture, contour integrals around it may be non-zero."
 
-- question: "A simply connected space should have trivial homotopy groups πₙ for most n ≥ 1."
+- question: "A simply connected space must have trivial homotopy groups πₙ for all n ≥ 1."
   type: true-false
   answer: false
   explanation: "Simple connectivity only requires π₁ = {e} (trivial fundamental group). Higher homotopy groups can be non-trivial. The 2-sphere S² is simply connected — every loop on S² can be contracted to a point — yet π₂(S²) = ℤ, reflecting the existence of non-contractible 2-spheres mapped into S². Simple connectivity rules out 1-dimensional holes, not higher-dimensional ones. This is why it appears as a hypothesis in theorems about 1-dimensional objects (paths, loops, line integrals) but not as a blanket guarantee of topological triviality."

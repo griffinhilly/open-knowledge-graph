@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Screening describes actions by the uninformed party to differentiate types of the informed party. The principal designs a menu of contracts (bundles of terms and conditions) such that self-interested agents of different types choose different contracts, revealing their types. Incentive compatibility constraints ensure each type prefers contracts designed for them.
 
+## How It's Best Learned
+Price an airline menu. Business travelers value a flexible ticket at 500 and a restricted one at 300; leisure travelers value them at 250 and 200. Fares of 500 and 200 fail, since business travelers keep 100 by buying restricted. Business IC caps the flexible fare at 400. Adding restrictions that cut business value of the restricted ticket to 250, with leisure value unchanged, lets the flexible fare rise to 450.
+
+## Common Misconceptions
+- A menu works only if customers are prevented from picking the other contract. (Anyone may choose any contract. Incentive compatibility makes each type not want to.)
+- Both types' incentive constraints bind at the optimal menu. (Typically only the constraint of the type tempted to mimic binds. The other type would not want the other contract anyway.)
+- A seller makes its cheaper product worse only to save costs. (Degrading the cheap option can raise profit by making it less tempting to high-value buyers. In the airline exercise, extra restrictions raise the flexible fare by 50.)
+
 ## Questions
 
 ```yaml
@@ -57,7 +65,7 @@ Screening describes actions by the uninformed party to differentiate types of th
 
 - question: "Why must the principal leave an 'information rent' to the high type in a screening model, and what happens if the principal tries to reduce it to zero?"
   type: short-answer
-  answer: "The information rent is the extra surplus the high type receives above their participation constraint — the payoff they would get by accepting their designated contract versus their outside option. It exists because the high type's contract must be good enough that the high type prefers it to the low type's contract (incentive compatibility). If the principal tries to reduce this rent to zero by lowering the high type's payoff, the high type would prefer to claim to be the low type and take that contract instead. The only way to eliminate the rent entirely is to make both types' contracts identical — a pooling equilibrium that sacrifices all informational benefit of the menu."
+  answer: "The information rent is the extra surplus the high type receives above their participation constraint — the payoff they would get by accepting their designated contract versus their outside option. It exists because the high type's contract must be good enough that the high type prefers it to the low type's contract (incentive compatibility). If the principal tries to reduce this rent to zero by lowering the high type's payoff, the high type would prefer to claim to be the low type and take that contract instead. The only way to eliminate the rent entirely is to shut the low type out (offer it no contract), which gives up the surplus from serving that type."
   explanation: "Information rent is the price of private information. The principal cannot extract all surplus from the high type without violating the IC constraint. The tradeoff is between extracting more rent from the high type (requiring more distortion of the low type's contract) and reducing distortion (but leaving more rent to the high type). The optimal mechanism balances these two costs. This is why screening is always second-best: asymmetric information forces the principal to leave value on the table."
 ```
 

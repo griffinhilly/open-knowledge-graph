@@ -17,6 +17,14 @@ status: validated
 ## Core Idea
 Tonelli's theorem extends Fubini's iteration to non-negative measurable functions that may not be integrable, using iterated integrals with values in [0,∞]. It complements Fubini by handling the non-integrable case.
 
+## How It's Best Learned
+Use Tonelli to evaluate an integral by inserting a second variable. For 0 < a < b, write (e^(−ax) − e^(−bx))/x = ∫_a^b e^(−xy) dy. The integrand e^(−xy) is non-negative, so swap freely: ∫₀^∞ e^(−xy) dx = 1/y, and ∫_a^b dy/y = ln(b/a). Then check the infinite case: ∫₀¹ Σxⁿ dx and Σ1/(n + 1) both equal +∞.
+
+## Common Misconceptions
+- Tonelli needs nothing beyond f ≥ 0 and measurability. (Both measures must be σ-finite. With Lebesgue measure and counting measure on [0,1], the indicator of the diagonal has iterated integrals 1 and 0.)
+- If an iterated integral is +∞, Tonelli gives no information. (It says the double integral and the other iterated integral are also +∞, which is how you prove a function is not integrable.)
+- A finite iterated integral of f itself licenses Fubini. (For f of mixed sign, the check must be run on |f|. The iterated integrals of f can be finite while ∫|f| = ∞.)
+
 ## Questions
 
 ```yaml

@@ -21,7 +21,15 @@ status: validated
 # Bounded Linear Operators
 
 ## Core Idea
-A linear operator T: X → Y between normed spaces is bounded if ‖T(x)‖_X ≤ C‖x‖_X for all x, or equivalently if T maps the unit ball to a bounded set. Bounded operators are continuous and form a natural subclass of linear maps.
+A linear operator T: X → Y between normed spaces is bounded if ‖T(x)‖_Y ≤ C‖x‖_X for all x, or equivalently if T maps the unit ball to a bounded set. Bounded operators are continuous and form a natural subclass of linear maps.
+
+## How It's Best Learned
+Compare two operators on functions with the sup norm on [0,1]. The integral (Vf)(x) = ∫₀ˣ f satisfies ‖Vf‖ ≤ ‖f‖, so it is bounded with C = 1. Differentiation fails: fₙ(x) = sin(nx) has ‖fₙ‖ ≤ 1, but ‖fₙ′‖ = n because fₙ′(0) = n. No constant C can cover every n.
+
+## Common Misconceptions
+- A bounded operator has a bounded range. (If T(x) ≠ 0, then T(tx) = tT(x) grows without limit as t grows. "Bounded" means bounded sets go to bounded sets, so the only linear map with bounded range is 0.)
+- Boundedness is a property of the formula alone. (It depends on the norms chosen. Differentiation is unbounded from C¹[0,1] with the sup norm to C[0,1], but bounded if C¹[0,1] carries the norm ‖f‖∞ + ‖f′‖∞.)
+- The supremum in the operator norm is attained at some unit vector. (On ℓ², the map (xₙ) ↦ ((1 − 1/n)xₙ) has norm 1, yet ‖Tx‖ < ‖x‖ for every nonzero x.)
 
 ## Questions
 
@@ -51,7 +59,7 @@ A linear operator T: X → Y between normed spaces is bounded if ‖T(x)‖_X �
   answer: true
   explanation: "This equivalence is one of the first fundamental theorems of functional analysis. If T is bounded (‖T(x)‖ ≤ C‖x‖), then for any convergent sequence xₙ → x: ‖T(xₙ) − T(x)‖ = ‖T(xₙ − x)‖ ≤ C‖xₙ − x‖ → 0, so T is continuous. Conversely, if T is continuous at 0, a simple argument shows T must be bounded. The key is that linearity links behavior at one point (0) to behavior everywhere, so local continuity implies global boundedness. This equivalence fails for nonlinear maps."
 
-- question: "Most linear map between infinite-dimensional Banach spaces is bounded."
+- question: "Every linear map between infinite-dimensional Banach spaces is bounded."
   type: true-false
   answer: false
   explanation: "This is the central misconception. In finite-dimensional spaces, the theorem that all linear maps are continuous holds because finite-dimensional spaces are topologically simple. In infinite-dimensional spaces, you can construct linear maps using a Hamel basis that are demonstrably unbounded — they send a sequence of unit vectors to vectors with norms growing without bound. Differential operators (like d/dx on function spaces) are the canonical examples from applications: they are linear but unbounded on natural function spaces. The distinction between bounded and unbounded operators is one of the main reasons functional analysis is non-trivial."

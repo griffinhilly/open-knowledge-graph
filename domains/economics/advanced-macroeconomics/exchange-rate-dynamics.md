@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Exchange rates equilibrate the supply and demand for currencies in foreign exchange markets. Purchasing power parity (PPP) states that the real exchange rate (purchasing power) is equalized across countries in the long run; the nominal rate adjusts to offset inflation differences. Deviations from PPP reflect differences in asset returns, interest rates, and inflation expectations. Exchange rate dynamics are highly volatile in the short run because currency markets respond immediately to financial news about interest rates and return differentials; connections to fundamentals are weaker in the short run.
 
+## How It's Best Learned
+Trace a stylized overshooting path with numbers. A monetary contraction makes the currency's long-run value 5% stronger and keeps domestic rates 2 points above foreign rates for three years. Interest parity then requires an expected depreciation of 2% a year. So the currency must jump about 11% on impact, then slide about 6% to its new long-run level. Draw the path against time.
+
+## Common Misconceptions
+- PPP means each good costs the same everywhere once converted at the exchange rate. (That is the law of one price for single goods. PPP concerns whole price levels and holds only as a long-run tendency, partly because many goods are not traded.)
+- Overshooting shows that currency traders overreact. (In Dornbusch's model overshooting happens with rational expectations; it follows from sticky goods prices combined with interest parity.)
+- A currency that PPP says is undervalued will soon appreciate. (Real exchange rates can stay away from PPP for years, so PPP gives a weak guide to short-run moves.)
+
 ## Questions
 
 ```yaml

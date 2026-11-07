@@ -21,7 +21,16 @@ status: validated
 # Propagation in Circular Waveguides
 
 ## Core Idea
-In circular guides with radius a, azimuthal symmetry is broken by propagation or mode numbers. TE and TM modes are characterized by Bessel function zeros, with cutoff frequencies given by jₙₘ = (λc/2πa)·(ωc/ω). Degenerate modes have the same cutoff frequency.
+In circular guides with radius a, azimuthal symmetry is broken by propagation or mode numbers. TE and TM modes are characterized by Bessel function zeros, with cutoff frequencies f_c = c·x/(2πa), where x is the Bessel zero jₙₘ (TM) or j′ₙₘ (TE). Degenerate modes have the same cutoff frequency.
+
+## How It's Best Learned
+Make a ranked table of cutoffs for one guide, say radius a = 1 cm, using f_c = c·x/(2πa) with x the relevant Bessel zero. TE₁₁ uses j′₁₁ ≈ 1.841 and cuts off near 8.79 GHz. TM₀₁ uses j₀₁ ≈ 2.405 and cuts off near 11.5 GHz. The gap between them is the single-mode band. Plot the relevant J_n or J_n′ beside each table row.
+
+## Common Misconceptions
+- TE and TM cutoffs both come from the zeros of J_n. (TM modes use zeros of J_n, because E_z vanishes at the wall. TE modes use zeros of the derivative J_n′, because ∂H_z/∂r vanishes there.)
+- The azimuthally symmetric mode TM₀₁ is the lowest mode because it is the simplest pattern. (TE₁₁ has the lowest cutoff. TM₀₁ is the next mode above it.)
+- Modes of different types never share a cutoff in a circular guide. (TE₀₁ and TM₁₁ are degenerate, because J₀′ = −J₁ makes j′₀₁ and j₁₁ the same number, about 3.832.)
+- The two TE₁₁ polarizations are a single mode. (They are two independent modes with the same cutoff, related by a 90° rotation.)
 
 ## Questions
 

@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Cartels are agreements among competitors to restrict output and elevate price toward monopoly levels, sharing monopoly profit. Collusion is unstable because each firm has incentive to cheat by undercutting the agreed price. Sustainability requires credible punishment (grim trigger: permanent reversion to Cournot) and sufficient future profit weight, with higher discount rates destabilizing collusion.
 
+## How It's Best Learned
+Derive the threshold for n firms in repeated Bertrand with grim trigger. Colluding gives each firm π/n per period, where π is monopoly profit. Undercutting slightly gives about π once, then zero forever. Collusion holds when (π/n)/(1 − δ) ≥ π, so δ ≥ 1 − 1/n. Two firms need δ ≥ 1/2, while ten need δ ≥ 0.9, which shows why concentration matters.
+
+## Common Misconceptions
+- A higher discount rate makes collusion easier because firms care more about money. (A higher discount rate means a lower δ. Future collusive profits count for less, so the cartel is harder to sustain.)
+- More cartel members make cheating easier to catch. (More members shrink each firm's share of collusive profit and make it harder to tell who deviated, so larger cartels tend to be less stable.)
+- The punishment can be anything harsh enough to scare firms. (The punishment must be credible. Reverting to the static Nash equilibrium is credible because each firm is best-responding once it starts.)
+- A drop in price proves a member cheated. (With uncertain demand, a price drop can come from a demand shock. This is why imperfect monitoring leads to occasional price wars.)
+
 ## Questions
 
 ```yaml

@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 An action of a group G on a set X is a function G × X → X satisfying (gh)x = g(hx) and ex = x. Group actions formalize the notion of a group 'acting' on a set by transformations, unifying permutation groups, matrix groups, and abstract symmetries.
 
+## How It's Best Learned
+Let one group act in several ways and record the orbits each time. S₃ acting on {1, 2, 3} has one orbit. S₃ acting on itself by conjugation, g·x = gxg⁻¹, has three: {e}, the transpositions, and the 3-cycles. The square's symmetry group acting on its two diagonals is a third case, where four elements, including the 180° rotation, act as the identity.
+
+## Common Misconceptions
+- Right multiplication, g·x = xg, is an action in the same sense. (It gives (gh)·x = xgh but g·(h·x) = xhg, which differ when G is not abelian. The rule g·x = xg⁻¹ does satisfy the axioms.)
+- If g·x = x for some x, then g is the identity. (Other elements can fix points. In S₃ acting on {1, 2, 3}, the transposition (1 2) fixes 3.)
+- Different group elements always act as different permutations. (An action can send several elements to the same permutation. In the diagonal example, the 180° rotation acts exactly like the identity.)
+
 ## Questions
 
 ```yaml

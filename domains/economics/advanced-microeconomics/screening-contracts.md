@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 In screening, the uninformed principal moves first by offering a menu of contracts. Informed agents self-select into contracts based on their type. The principal designs contracts so that incentive compatibility is satisfied: each type prefers the contract meant for them. Example: insurance companies offer plans with different deductibles to reveal risk types.
 
+## How It's Best Learned
+Solve a two-type pricing problem. A buyer of type θ ∈ {1, 2} gets θq − t, the seller's cost is q²/2, and two-thirds of buyers are low types. The binding low-type IR and high-type IC give t_L = q_L and t_H = 2q_H − q_L. Maximizing profit gives the efficient q_H = 2 and a distorted q_L = 1/2 instead of 1. Repeat with equal shares and the low type is shut out.
+
+## Common Misconceptions
+- The principal always serves every type. (When low types are scarce enough, dropping them can pay because it removes the high type's rent. In the exercise, equal shares lead the seller to set q_L = 0.)
+- The high type's rent depends on how costly its own contract is to supply. (The rent equals what the high type would earn by taking the low type's contract, (2 − 1)·q_L in the exercise. Cutting q_L shrinks it.)
+- With many types, only the lowest type's contract is distorted. (In standard models with many types, every type below the top gets less than its efficient quantity. Only the top type is undistorted.)
+
 ## Questions
 
 ```yaml
@@ -57,7 +65,7 @@ In screening, the uninformed principal moves first by offering a menu of contrac
 - question: "Why must a principal designing a screening menu leave information rents to the high type, even though the principal's goal is to maximize profit by extracting as much surplus as possible?"
   type: short-answer
   answer: "To maintain incentive compatibility: the principal must ensure the high type genuinely prefers the contract designed for it over the low type's contract. If the high type's contract were no more attractive than the low type's, the high type would misrepresent itself and pick the lower-cost option, collapsing the separation. The information rent is the minimum premium that keeps the high type from defecting. It is the price the principal pays for not being able to directly observe the agent's private information."
-  explanation: "The information rent is an unavoidable cost of information asymmetry, not a design failure. The only way to eliminate information rents would be to observe types directly (first-best) or to offer a single pooling contract (which loses the benefits of type separation). The principal optimizes by minimizing the rent while still maintaining separation — typically by distorting the low type's contract, making it less desirable to the high type, which reduces how much extra the high type must be given."
+  explanation: "The information rent is an unavoidable cost of information asymmetry, not a design failure. The only way to eliminate information rents would be to observe types directly (first-best) or to shut the low type out (which gives up the surplus from serving it). The principal optimizes by minimizing the rent while still maintaining separation — typically by distorting the low type's contract, making it less desirable to the high type, which reduces how much extra the high type must be given."
 ```
 
 ## Explainer
@@ -68,6 +76,6 @@ The classic example is an insurance company that cannot directly observe whether
 
 For this to work, the menu must satisfy two constraints. The **incentive compatibility constraint** (IC) requires that each type genuinely prefers the contract designed for them over any other option on the menu. If the low-deductible plan were too cheap, low-risk types would take it too, defeating the purpose. The **individual rationality constraint** (IR, also called the participation constraint) requires that each type prefers their designated contract to no contract at all — otherwise they simply walk away. The principal's optimization problem is to maximize profit (or minimize cost) subject to these IC and IR constraints.
 
-A critical result in screening theory is that the principal can typically extract the **full surplus from the lowest type** (making their IR constraint bind — they are just barely willing to participate) while leaving **information rents** to higher types. In the insurance example, low-risk customers get a plan that is just barely acceptable, while high-risk customers get a more generous plan — not out of kindness, but because that generosity is what prevents low-risk types from mimicking high-risk types. The information rent is the cost the principal pays for being uninformed: it is the premium that must be offered to prevent profitable misrepresentation.
+A critical result in screening theory is that the principal can typically extract the **full surplus from the lowest type** (making their IR constraint bind — they are just barely willing to participate) while leaving **information rents** to higher types. In the insurance example, low-risk customers get a plan that is just barely acceptable, while high-risk customers get a more generous plan — not out of kindness, but because that generosity is what prevents high-risk types from mimicking low-risk types. The information rent is the cost the principal pays for being uninformed: it is the premium that must be offered to prevent profitable misrepresentation.
 
 Compared to the full-information benchmark, screening always involves a **distortion** of the contract offered to at least one type. The principal typically distorts the low type's contract downward (less coverage, less quantity, lower quality) to make it unattractive to the high type, thereby preserving separation. The high type's contract is often efficient (no distortion) — a result known as "no distortion at the top." This pattern appears across screening applications: quantity discounts that offer less-than-efficient small packages, airlines that make economy class deliberately uncomfortable, software companies that cripple basic versions. In each case, the distortion is not arbitrary — it is the precise cost of eliciting truthful self-selection in a world where the principal cannot observe what the agent knows.

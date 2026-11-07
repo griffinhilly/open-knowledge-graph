@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 The quality factor Q = ω₀(stored energy)/(dissipated power) characterizes cavity losses. Finite conductivity and dielectric losses broaden resonances; the bandwidth Δω = ω₀/Q relates inverse Q to fractional bandwidth. High-Q cavities are needed for narrowband filtering and frequency standards.
 
+## How It's Best Learned
+Read Q two ways for the same cavity and check they agree. From dU/dt = −P_loss = −ω₀U/Q, stored energy decays as U₀e^(−ω₀t/Q). At 10 GHz with Q = 10⁴, the decay time Q/ω₀ is about 0.16 μs and the bandwidth f₀/Q is 1 MHz. Note that Δω times the decay time equals 1: ring-down time and linewidth are one fact.
+
+## Common Misconceptions
+- A better conductor has a thicker skin depth, so currents spread out and lose less. (Higher σ makes the skin depth thinner. The surface resistance, proportional to √(ω/σ), still falls, so losses drop and Q rises.)
+- Q counts only the electric field energy. (U is the total stored energy, electric plus magnetic, averaged over a cycle.)
+- Q is fixed by the cavity's shape alone. (Shape sets the mode pattern, but wall conductivity, any filling dielectric and coupling ports all add loss and lower Q.)
+
 ## Questions
 
 ```yaml

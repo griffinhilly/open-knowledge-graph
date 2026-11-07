@@ -1,0 +1,64 @@
+domains/history/historiography/anachronism-presentism.md	how	3	0	ok
+domains/history/historiography/anachronism-presentism.md	mis	8	0	ok
+domains/history/historiography/annales-school-theory.md	how	3	0	ok
+domains/history/historiography/annales-school-theory.md	mis	8	0	ok
+domains/history/historiography/annales-school.md	how	3	0	ok
+domains/history/historiography/annales-school.md	mis	6	0	ok
+domains/history/historiography/annales-school.md	old:q:2:explanation	1	1	fixed	Michelet named as part of the political-narrative tradition Annales opposed; Febvre claimed Michelet as a forerunner. Replaced with Seignobos, the actual French target.
+domains/history/historiography/big-history-universal.md	how	3	1	fixed	On a 13.8-billion-year calendar, agriculture, cities and industry fall in the final ~30 seconds, not "final minutes"; changed to "final seconds".
+domains/history/historiography/big-history-universal.md	mis	8	0	ok
+domains/history/historiography/bodily-experience-and-matter.md	how	3	0	ok
+domains/history/historiography/bodily-experience-and-matter.md	mis	8	1	fixed	Dualism "formalized by Descartes" overstated the attribution (soul-body dualism predates him, e.g. Plato); now "given its classic modern form by Descartes". Explainer has the same simplification (left).
+domains/history/historiography/braudel-longue-duree.md	how	3	0	ok	TOC order (environment, collective destinies, events) and "crests of foam" quote verified.
+domains/history/historiography/braudel-longue-duree.md	mis	6	0	ok
+domains/history/historiography/carlo-ginzburg-microhistory.md	how	3	0	ok
+domains/history/historiography/carlo-ginzburg-microhistory.md	mis	8	0	ok	Not fixed (old Explainer): first trial usually dated 1584 (denounced 1583); left as uncertain.
+domains/history/historiography/comparative-global-history.md	how	3	0	ok
+domains/history/historiography/comparative-global-history.md	mis	8	0	ok
+domains/history/historiography/comparative-global-history.md	old:q:1:question	1	1	fixed	Moore's Social Origins cases are England, France, the US, China, Japan and India; Germany was not a main case and the US and China were missing.
+domains/history/historiography/comparative-global-history.md	old:ex	1	1	fixed	Same Moore case list error in the Explainer; corrected.
+domains/history/historiography/comparative-global-history.md	old:q:3:explanation	1	1	fixed	"French and Russian Revolutions" linked by Atlantic abolitionism and Enlightenment print culture is incoherent; changed to French and Haitian Revolutions.
+domains/history/historiography/comparative-historical-research.md	how	4	0	ok
+domains/history/historiography/comparative-historical-research.md	mis	8	0	ok
+domains/history/historiography/computational-history-methods.md	how	3	0	ok
+domains/history/historiography/computational-history-methods.md	mis	8	0	ok
+domains/history/historiography/connected-histories-entanglement.md	how	3	0	ok
+domains/history/historiography/connected-histories-entanglement.md	mis	8	0	ok
+domains/history/historiography/contested-histories-pluralism.md	how	3	0	ok
+domains/history/historiography/contested-histories-pluralism.md	mis	8	0	ok
+domains/history/historiography/contextualism-historical.md	how	3	0	ok
+domains/history/historiography/contextualism-historical.md	mis	6	0	ok	Not fixed (old q:4:explanation): perlocutionary effect glossed as "intended impact"; in Austin it is the effect actually produced.
+domains/history/historiography/contingency-and-inevitability.md	mis	8	0	ok
+domains/history/historiography/counterfactual-history-theory.md	how	4	0	ok
+domains/history/historiography/counterfactual-history-theory.md	mis	8	0	ok
+domains/history/historiography/deep-history-approach.md	how	3	0	ok
+domains/history/historiography/deep-history-approach.md	mis	8	1	fixed	"Says little ... about social organization" overstated; ancient DNA has reconstructed kinship and residence patterns. Now "gives only partial clues about social organization, such as kinship".
+domains/history/historiography/deep-history-approach.md	old:q:4:answer	1	1	fixed	Answer said the institutions "occupied most of human existence before them" (reversed sense); now says humans lived most of their existence before these institutions appeared.
+domains/history/historiography/digital-history-theory.md	how	3	0	ok
+domains/history/historiography/digital-history-theory.md	mis	8	0	ok
+domains/history/historiography/empathy-and-historical-understanding.md	mis	8	0	ok
+domains/history/historiography/enlightenment-historiography.md	how	3	0	ok
+domains/history/historiography/enlightenment-historiography.md	mis	8	0	ok
+domains/history/historiography/enlightenment-historiography.md	old:q:1:explanation	1	1	fixed	"Vico did not restore providence" is wrong; the New Science gives providence a central role working through human institutions. Answer key unaffected.
+domains/history/historiography/entangled-histories-approach.md	how	3	0	ok
+domains/history/historiography/entangled-histories-approach.md	mis	8	0	ok	Not fixed (old q:0/q:2 explanations, Explainer): "India shaped Britain as much as Britain shaped India" is a contested claim stated as settled.
+domains/history/historiography/environmental-history-theory.md	how	3	0	ok
+domains/history/historiography/environmental-history-theory.md	mis	8	0	ok
+domains/history/historiography/environmental-history.md	how	3	0	ok
+domains/history/historiography/environmental-history.md	mis	8	0	fixed	Style only: banned word "landscapes" changed to "lands".
+domains/history/historiography/ep-thompson-history.md	mis	8	0	ok
+domains/history/historiography/explanation-in-history.md	how	3	0	ok
+domains/history/historiography/explanation-in-history.md	mis	8	0	ok	Not fixed (old): Weber presented as plainly idealist; Weber himself disclaimed a one-sided spiritualist explanation.
+domains/history/historiography/fischer-historical-thinking.md	how	3	0	ok
+domains/history/historiography/fischer-historical-thinking.md	mis	8	0	ok
+domains/history/historiography/foucault-genealogy.md	how	3	0	ok	D&P opening (Damiens 1757 vs. Faucher timetable) verified.
+domains/history/historiography/foucault-genealogy.md	mis	8	0	ok	Not fixed (old Explainer/q:0): act-to-identity shift for sodomy/homosexuality stated as settled fact; it is Foucault's contested thesis.
+domains/history/historiography/gayatri-spivak-subaltern.md	how	3	0	ok
+domains/history/historiography/gayatri-spivak-subaltern.md	mis	8	0	ok
+domains/history/historiography/gender-history-theory.md	how	3	0	ok
+domains/history/historiography/gender-history-theory.md	mis	8	0	ok
+domains/history/historiography/gender-history.md	how	3	0	ok
+domains/history/historiography/gender-history.md	mis	8	0	ok
+domains/history/historiography/genealogical-method.md	how	3	0	ok
+domains/history/historiography/genealogical-method.md	mis	8	0	ok	Not fixed (old Core Idea): says Foucauldian genealogy traces concepts "back to their problematic foundations", which contradicts its anti-origin stance.
+domains/history/historiography/genealogical-method.md	old:ex	1	1	fixed	Family reconstitution credited to the Cambridge Group; it was pioneered by Louis Henry (with Fleury) in France and developed in England by the Cambridge Group.

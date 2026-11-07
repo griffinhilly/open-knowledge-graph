@@ -31,6 +31,15 @@ status: validated
 ## Core Idea
 General equilibrium existence is non-trivial and requires proof. Under convexity of preferences, continuous utility functions, and no free disposal, Brouwer and Kakutani fixed-point theorems establish that at least one Walrasian equilibrium exists. The proof models excess demand as a mapping from the price simplex to itself and applies fixed-point theory to find equilibrium prices.
 
+## How It's Best Learned
+Start with two goods, where the price simplex is just p₁ in [0, 1] with p₂ = 1 − p₁. Plot the excess demand for good 1: it is positive when good 1 is nearly free and negative when good 2 is nearly free. If the curve is continuous, it must cross zero, which is Brouwer's theorem in one dimension. Then draw a curve that jumps over zero to see what non-convexity can break.
+
+## Common Misconceptions
+- Walras' law proves that an equilibrium exists. (Walras' law holds at every price vector. It lets you check one fewer market, but finding prices that clear the rest still needs a fixed-point argument.)
+- The existence theorem shows the equilibrium is unique. (It shows at least one equilibrium exists. Many economies satisfying its assumptions have several.)
+- A fixed point means the economy will actually reach equilibrium. (The proof shows that equilibrium prices exist. It does not show that any real price-adjustment process converges to them.)
+- Brouwer's theorem applies to any function on the price simplex. (It needs a continuous function from a compact convex set into itself. Discontinuous excess demand can break the guarantee.)
+
 ## Questions
 
 ```yaml

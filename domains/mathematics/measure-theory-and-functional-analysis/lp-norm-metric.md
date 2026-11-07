@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 The L^p norm ‖f‖_p = (∫|f|^p dμ)^(1/p) defines a metric d(f,g) = ‖f - g‖_p on L^p. Proving this is a norm requires Minkowski's inequality, making L^p a normed (hence metric) space.
 
+## How It's Best Learned
+Compute several norms of one sequence. On [0,1], let fₙ = √n · 1_{[0,1/n]}. Then ‖fₙ‖_p = n^(1/2 − 1/p). So ‖fₙ‖₁ = n^(−1/2) → 0, ‖fₙ‖₂ = 1 for every n, ‖fₙ‖₄ = n^(1/4) → ∞, and ‖fₙ‖_∞ = √n. One sequence tends to 0 in L¹, stays put in L², and blows up for larger p.
+
+## Common Misconceptions
+- d(f, g) = 0 means f and g are equal at every point. (It means f = g almost everywhere. Elements of L^p are equivalence classes, so values on a null set carry no information.)
+- Convergence in one L^p norm gives convergence in all of them. (The sequence √n · 1_{[0,1/n]} converges to 0 in L¹ but not in L².)
+- Larger p always gives a larger space L^p. (On [0,1] the inclusion runs the other way: L^q ⊂ L^p when p < q. On ℝ neither contains the other: 1/(1 + |x|) is in L² but not L¹, and x^(−1/2) on (0,1) is in L¹ but not L².)
+
 ## Questions
 
 ```yaml
@@ -59,7 +67,7 @@ The L^p norm ‖f‖_p = (∫|f|^p dμ)^(1/p) defines a metric d(f,g) = ‖f - g
 - question: "Why does establishing the L^p metric require Minkowski's inequality, and what would fail if the triangle inequality were violated?"
   type: short-answer
   answer: "The triangle inequality ‖f + g‖_p ≤ ‖f‖_p + ‖g‖_p is one of the three axioms a norm must satisfy. If it failed, d(f,g) = ‖f-g‖_p would also violate the metric triangle inequality d(f,h) ≤ d(f,g) + d(g,h), since that metric inequality follows directly from the norm inequality. Without a valid metric, L^p would not be a metric space — we could not define convergence of sequences, Cauchy sequences, or completeness. The entire functional-analytic structure (Banach space theory, density results, approximation theorems) depends on L^p being a complete metric space, which requires the norm triangle inequality as its foundation."
-  explanation: "Minkowski's inequality is not a technical formality — it is the result that distinguishes a genuine geometric space (with a meaningful notion of distance) from a mere set of functions equipped with an arbitrary non-negative function. Every downstream result that uses the metric structure of L^p — from Hölder's inequality to the Riesz representation theorem — ultimately rests on this."
+  explanation: "Minkowski's inequality is not a technical formality — it is the result that distinguishes a genuine geometric space (with a meaningful notion of distance) from a mere set of functions equipped with an arbitrary non-negative function. Every downstream result that uses the metric structure of L^p — from completeness (Riesz-Fischer) to the Riesz representation theorem — ultimately rests on this."
 ```
 
 ## Explainer

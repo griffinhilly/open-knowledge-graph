@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 For an orthonormal sequence (eₙ), Bessel's inequality states Σ|⟨x, eₙ⟩|² ≤ ‖x‖². If the sequence is a complete orthonormal basis, Parseval's identity holds: Σ|⟨x, eₙ⟩|² = ‖x‖².
 
+## How It's Best Learned
+Draw x, its projection Sₙ, and the remainder x − Sₙ as a right triangle; Bessel is the statement that a leg is no longer than the hypotenuse. Then break Parseval on purpose. Remove the constant function from the trigonometric system on L²[−π, π] and take f = 1. Every remaining coefficient is 0, so the sum is 0 while ‖f‖² = 2π.
+
+## Common Misconceptions
+- An infinite orthonormal sequence in an infinite-dimensional Hilbert space must be complete. (Delete one vector from a complete orthonormal basis. What remains is still infinite and orthonormal, but the deleted vector is orthogonal to all of it.)
+- Completeness means every vector is a finite linear combination of the eₙ. (Completeness means finite combinations are dense. Most vectors need infinitely many terms, with the series converging in norm.)
+- Parseval's identity holds for any orthonormal sequence once enough terms are summed. (For an incomplete sequence the full infinite sum still falls short of ‖x‖² for some x. The gap is the squared norm of the part of x orthogonal to every eₙ.)
+
 ## Questions
 
 ```yaml
@@ -49,7 +57,7 @@ For an orthonormal sequence (eₙ), Bessel's inequality states Σ|⟨x, eₙ⟩|
   answer: true
   explanation: "Bessel's inequality is unconditional — it follows from the non-negativity of ‖x − Sₙ‖² ≥ 0 for the partial projection Sₙ, and this holds for any orthonormal sequence regardless of completeness. Completeness is the additional condition that makes the inequality into an equality (Parseval). Without completeness, the sum converges to some value ≤ ‖x‖², and the gap represents the squared norm of the projection of x onto the orthogonal complement of the sequence's closed span."
 
-- question: "If Parseval's identity Σ|⟨x, eₙ⟩|² = ‖x‖² holds for one specific vector x, the orthonormal sequence should be a complete orthonormal basis."
+- question: "If Parseval's identity Σ|⟨x, eₙ⟩|² = ‖x‖² holds for one specific vector x, the orthonormal sequence must be a complete orthonormal basis."
   type: true-false
   answer: false
   explanation: "Parseval holding for a single vector does not imply completeness. A sequence could capture all the energy of one particular vector while failing to span the full space. For example, if x happens to lie in the closed span of the sequence, Parseval holds for x even if the sequence misses an orthogonal subspace entirely. Completeness requires Parseval's identity to hold for ALL vectors in H — it is a global condition on the sequence, not a local condition on any single vector."

@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 A normed vector space is a vector space V with a norm ‖·‖: V → [0,∞) satisfying positive definiteness, homogeneity, and the triangle inequality. Norms induce metrics and topologies, making analysis possible in abstract spaces.
 
+## How It's Best Learned
+Sketch the unit balls of ℓ¹, ℓ², and ℓ∞ in ℝ², then test a failed candidate: ‖v‖ = (|v₁|^(1/2) + |v₂|^(1/2))². It gives (1,0) and (0,1) length 1 but (1,1) length 4, breaking the triangle inequality, and its unit ball is not convex. Then on C[0,1] compare xⁿ: sup norm 1, L¹ norm 1/(n + 1).
+
+## Common Misconceptions
+- A vector space comes with one natural norm. (The same space carries many norms. In infinite dimensions they can disagree on convergence: xⁿ tends to 0 in the L¹ norm on C[0,1] but not in the sup norm.)
+- Homogeneity says ‖αv‖ = α‖v‖. (The factor is |α|; otherwise ‖−v‖ would be negative.)
+- Non-negativity has to be assumed as its own axiom. (It follows from the others: 0 = ‖v + (−v)‖ ≤ ‖v‖ + ‖−v‖ = 2‖v‖.)
+- The unit ball of a norm can have any shape. (It must be convex and symmetric about the origin. A non-convex "ball" signals that the triangle inequality fails.)
+
 ## Questions
 
 ```yaml

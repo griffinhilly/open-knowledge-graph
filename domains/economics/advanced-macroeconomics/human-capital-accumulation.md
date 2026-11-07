@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Human capital is the productive capacity embodied in workers through education, training, and experience. Unlike physical capital, human capital grows through intentional investment in schooling and on-the-job training. Models incorporating human capital accumulation show that investment in education has both private returns (higher wages) and social returns (faster aggregate growth). The quality of a country's educational system is one of the strongest correlates of long-run growth and income levels.
 
+## How It's Best Learned
+Work the augmented Solow steady state with capital and human-capital shares both 1/3. Steady-state output per effective worker is then proportional to s_k·s_h/(n + g + δ)². A country that invests twice as much in human capital, with everything else equal, has twice the income. In the plain Solow model with a capital share of 1/3, doubling s_k raises income only by √2, about 41%.
+
+## Common Misconceptions
+- Human capital means years of schooling. (It also includes training, experience, and health, and schooling quality differs widely, so years of school are an imperfect measure.)
+- The wage premium for educated workers proves that schooling raises productivity by that amount. (Part of the premium can reflect more able people choosing more school, or schooling acting as a signal to employers.)
+- In the augmented Solow model, human capital produces sustained growth. (It raises the steady-state level of income; long-run growth still comes from exogenous technology. Sustained growth from human capital needs models like Lucas's.)
+
 ## Questions
 
 ```yaml

@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Accelerated charges radiate electromagnetic waves. Lienard-Wiechert fields separate into velocity-dependent (near) and acceleration-dependent (far) components. The far field is the radiation field proportional to 1/r, responsible for energy transport.
 
+## How It's Best Learned
+Start from the Liénard-Wiechert field and set β = 0. The acceleration term becomes E_rad = qR̂ × (R̂ × a)/(4πε₀c²R), with magnitude qa sinθ/(4πε₀c²R). Divide by the Coulomb term q/(4πε₀R²) to get aR sinθ/c². This ratio grows with distance, so beyond R ~ c²/a the radiation term dominates.
+
+## Common Misconceptions
+- The near field exists only close to the charge and the radiation field only far away. (Both terms are present at every point. The names describe which one dominates at a given distance.)
+- The radiation field at the observer depends on what the charge is doing now. (It depends on the acceleration at the retarded time t − R/c.)
+- The radiation field points radially away from the charge, like the Coulomb field. (The acceleration field is perpendicular to the line of sight R̂, which is why it behaves like a transverse wave.)
+- A charge that is momentarily at rest cannot radiate. (Radiation depends on acceleration. A charge at the turning point of an oscillation has zero velocity and maximum acceleration.)
+
 ## Questions
 
 ```yaml

@@ -20,7 +20,15 @@ status: validated
 # Radon-Nikodym Theorem
 
 ## Core Idea
-If ν is σ-finite and absolutely continuous with respect to μ, then ∃h measurable: ν(A) = ∫_A h dμ. The Radon-Nikodym derivative dν/dμ = h formalizes differentiation of measures.
+If μ and ν are σ-finite and ν is absolutely continuous with respect to μ, then ∃h measurable: ν(A) = ∫_A h dμ. The Radon-Nikodym derivative dν/dμ = h formalizes differentiation of measures.
+
+## How It's Best Learned
+Start on a finite set, where dν/dμ(x) = ν({x})/μ({x}) at every point with μ({x}) > 0, so the derivative is a ratio of masses. Then test each hypothesis. Lebesgue measure λ on [0,1] is absolutely continuous with respect to counting measure c, but a density would need h(x) = λ({x}) = 0 at every point, giving ∫h dc = 0 ≠ 1. Here c is not σ-finite.
+
+## Common Misconceptions
+- ν ≪ μ alone guarantees a density. (σ-finiteness matters. Lebesgue measure on [0,1] is absolutely continuous with respect to counting measure, yet it has no density with respect to it.)
+- ν ≪ μ means ν(A) ≤ Cμ(A) for some constant C. (The density need not be bounded. For ν(A) = ∫_A x^(−1/2) dx on (0,1], ν ≪ λ, but ν(A)/λ(A) is unbounded on small intervals near 0.)
+- A measure on ℝ with no point masses has a density with respect to Lebesgue measure. (The Cantor measure has no atoms but lives on the Cantor set, which has Lebesgue measure 0, so it is not absolutely continuous.)
 
 ## Questions
 

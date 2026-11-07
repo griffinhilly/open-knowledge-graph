@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The dispersion relation ω(k) describes frequency-wave vector dependence. Phase velocity v_p = ω/k is the speed of crests; group velocity v_g = dω/dk is the energy and packet speed. In vacuum, v_p = v_g = c. In dispersive media, v_p ≠ v_g; dispersion causes packet broadening.
 
+## How It's Best Learned
+Add two waves, cos(k₁x − ω₁t) + cos(k₂x − ω₂t), and rewrite the sum as a product with the identity for sums of cosines. The fast factor moves at the mean ω/k, the envelope moves at Δω/Δk, and letting Δk shrink gives dω/dk. Animate the sum in a plotting tool. Then use k = nω/c to show v_g = c/(n + ω dn/dω).
+
+## Common Misconceptions
+- The group index of glass equals its refractive index n. (The group index is n + ω dn/dω. Under normal dispersion it is larger than n, so pulses travel slower than c/n.)
+- Below the plasma frequency or a waveguide cutoff, the wave still propagates, only slowly. (It does not propagate. The wavenumber is imaginary and the field decays with distance.)
+- Dispersion comes only from the material filling the space. (An empty metal waveguide is dispersive from its geometry alone, with ω² = ω_c² + c²k².)
+- Once a pulse spreads in a dispersive medium, the spreading cannot be undone. (Spreading from dispersion is a phase effect. A second medium with opposite dispersion can recompress the pulse.)
+
 ## Questions
 
 ```yaml

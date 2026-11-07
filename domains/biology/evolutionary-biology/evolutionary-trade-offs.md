@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Traits often show negative genetic correlations due to competing selective pressures or resource allocation limits. Examples: early vs. late reproduction, fecundity vs. parental investment. Trade-offs constrain life-history evolution and generate diversity in reproductive strategies.
 
+## How It's Best Learned
+Use a simple allocation model. Each bird gathers a resource budget and splits it between breeding and survival. Two birds with budget 10 that split 7:3 and 3:7 show a clear trade-off. Now add a bird with budget 20 split 10:10 and one with budget 6 split 3:3. Plot all four and see how differences in budget can hide the trade-off in field data.
+
+## Common Misconceptions
+- If a trade-off exists, the individuals that breed most will always die soonest. (Individuals differ in how much they acquire. Well-fed individuals can breed more and survive better at the same time, which can hide the trade-off.)
+- A species that produces few offspring is less successful than one that produces many. (Fitness depends on how many offspring survive to reproduce. Few well-provisioned young can match or exceed many poorly provisioned ones in the right environment.)
+- Trade-offs only appear when food is scarce. (Time, body space and physiological pathways are also limited. A trade-off can persist even when food is plentiful.)
+
 ## Questions
 
 ```yaml

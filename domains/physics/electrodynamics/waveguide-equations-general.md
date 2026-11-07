@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Waveguide modes satisfy Maxwell's equations with boundary conditions on conductor walls. Separating longitudinal and transverse components, modes are determined by transverse field patterns, leading to dispersion relations relating ω and k_z and cutoff frequencies.
 
+## How It's Best Learned
+Substitute fields ∝ e^{i(k_z z − ωt)} into the two curl equations and solve for E_x, E_y, B_x and B_y in terms of derivatives of E_z and B_z. Each result carries a factor 1/k_c², with k_c² = (ω/c)² − k_z². Then set E_z = B_z = 0. Nonzero transverse fields now need k_c = 0, and E_t must obey the 2D Laplace equation, which a single closed conductor forces to zero.
+
+## Common Misconceptions
+- The propagation constant k_z equals the free-space wavenumber ω/c. (k_z = √((ω/c)² − k_c²), which is smaller than ω/c for every mode of a hollow guide and goes to zero at cutoff.)
+- A field in a hollow guide must be either TE or TM. (Each mode is TE or TM, but a general field is a superposition of both families.)
+- Modes in a guide trade energy with one another as they travel. (In a uniform, lossless guide the modes are orthogonal and propagate independently. Bends, steps and wall defects are what couple them.)
+- The length of the guide sets its cutoff frequencies. (Cutoffs come from the cross-section alone, through the eigenvalue k_c of the transverse problem.)
+
 ## Questions
 
 ```yaml

@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 For any sequence of non-negative measurable functions, ∫liminf fₙ dμ ≤ liminf ∫fₙ dμ. Unlike the Monotone Convergence Theorem, Fatou's Lemma applies to non-monotone sequences without boundedness assumptions, making it more universally applicable.
 
+## How It's Best Learned
+Make a table with three sequences on [0,1] or ℝ and compute both sides for each: the spike n·1_{(0,1/n)}, the sliding bump 1_{[n,n+1]}, and fₙ = 1 on [0,1] for every n. The first two give 0 < 1 and the third gives 1 = 1. Then use the lemma the way proofs do: if fₙ → f a.e. and ∫fₙ ≤ M for all n, then ∫f ≤ M.
+
+## Common Misconceptions
+- The inequality reads ∫(liminf fₙ) ≥ liminf ∫fₙ. (Mass can vanish in the limit but cannot appear. For the spike n·1_{(0,1/n)}, the left side is 0 and the right side is 1.)
+- Non-negativity is a minor technical convenience. (Without a lower bound the lemma fails: gₙ = −1_{[n,n+1]} gives 0 on the left and −1 on the right. A lower bound fₙ ≥ −h with h integrable is enough.)
+- Fatou's Lemma needs each ∫fₙ to be finite. (The integrals may take the value ∞, and the inequality still holds in [0, ∞].)
+
 ## Questions
 
 ```yaml

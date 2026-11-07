@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Romer's model breaks the exogeneity of technological progress by making the rate of innovation endogenous to economic incentives, particularly R&D investment. The model features a separate R&D sector where firms create new varieties of intermediate goods. Because ideas have public good properties and imperfect excludability, the economy can sustain positive long-run growth without population growth, with sustained increases in living standards driven by intentional innovation rather than exogenous technological manna.
 
+## How It's Best Learned
+Start with the replication argument. To build a second factory identical to the first, you need a second set of machines and workers but not a second copy of the blueprint. So F(2K, 2L, A) = 2F(K, L, A), and doubling A as well gives more than double the output. Then ask who pays for A if every input is paid its marginal product.
+
+## Common Misconceptions
+- Because ideas are nonrival, they are also free for anyone to use. (Nonrivalry concerns use; excludability concerns access. Patents and secrecy make ideas partly excludable, which is what lets inventors earn a return.)
+- The monopoly power of intermediate-goods firms is a flaw the model could do without. (With nonrival designs, pricing at marginal cost leaves nothing to cover the fixed cost of invention; monopoly profits are what pay for R&D.)
+- In Romer's model, the growth rate does not depend on the size of the economy. (In the 1990 version, growth rises with the human capital working in research. Later work questioned this scale effect because research employment rose sharply without a matching rise in growth.)
+
 ## Questions
 
 ```yaml

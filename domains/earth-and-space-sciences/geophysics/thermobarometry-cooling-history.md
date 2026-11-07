@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Mineral assemblages and their chemical compositions constrain pressure and temperature at crystallization. P-T paths traced through metamorphic grade document tectonic history; closure ages from radiometric dating mark cooling rates and exhumation.
 
+## How It's Best Learned
+Draw one thermometer and one barometer as lines on a P-T diagram. The exchange thermometer plots steep and the net-transfer barometer plots shallow, so their crossing fixes a P-T point. Convert pressure to depth with P = ρgh: at 2,800 kg/m³, 0.8 GPa is about 29 km. Then plot core and rim points from a zoned garnet and connect them in growth order.
+
+## Common Misconceptions
+- A thermometer reading gives the peak temperature the rock reached. (It records when the minerals last equilibrated; Fe-Mg exchange can continue during cooling, so results can fall below the true peak.)
+- A single garnet analysis is enough to get a temperature from garnet-biotite thermometry. (Exchange thermometers need two coexisting minerals that equilibrated together, such as touching garnet and biotite rims.)
+- A pressure converts to one exact depth. (The conversion assumes lithostatic pressure and an average rock density, so depths are estimates that shift with those assumptions.)
+
 ## Questions
 
 ```yaml

@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Monetary policy transmission describes the channels through which interest-rate changes propagate to real economic outcomes: interest-sensitive spending (consumption, investment), exchange-rate appreciation/depreciation, asset price effects on wealth, credit conditions, and expectations about future income and inflation. Transmission is neither automatic nor immediate; typical lags of 6–18 months precede maximum output effects. New Keynesian models emphasize intertemporal substitution and expectations-driven demand shifts as key channels.
 
+## How It's Best Learned
+Draw one rate hike as a flowchart: policy rate to market rates, exchange rate, asset prices, credit conditions and expectations, then to spending, output and inflation. Label each arrow with how fast it responds. Then rerun the chart for two cases, a small open economy and a country where most mortgages carry adjustable rates, and ask which arrows get stronger.
+
+## Common Misconceptions
+- The central bank sets the interest rates that households and firms pay. (It sets a short-term policy rate; loan and bond rates also depend on the expected future policy path and on risk premia, so pass-through can be partial.)
+- Policy affects the economy only when the rate actually changes. (A credible signal about future policy can move long rates, asset prices and expectations before any change in the policy rate.)
+- Once financial markets have priced in a hike, its effect is complete. (Asset prices adjust quickly, but spending, hiring, wage setting and pricing respond over many months.)
+- Each channel has the same strength in every economy. (The exchange-rate channel matters more in small open economies, and the interest-rate channel depends on how borrowing is financed.)
+
 ## Questions
 
 ```yaml

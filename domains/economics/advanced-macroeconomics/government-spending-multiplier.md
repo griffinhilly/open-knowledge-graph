@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 The government spending multiplier measures the change in aggregate output from a unit increase in government purchases. In New Keynesian models, the multiplier typically lies between 0.5 and 2, depending on monetary policy stance (larger when the central bank keeps interest rates low) and whether the economy is at the ZLB.
 
+## How It's Best Learned
+Use the market-clearing condition Y = C + G with the consumption Euler equation, and take a temporary rise in G. If the central bank keeps the real rate path unchanged, the Euler equation leaves consumption unchanged, so output rises one for one. Then compare a real rate that rises under a Taylor rule with one that falls at the ZLB. The ranking below 1, equal to 1, and above 1 follows from the response of consumption.
+
+## Common Misconceptions
+- Debt-financed spending stimulates more than tax-financed spending in the baseline model. (With forward-looking households and lump-sum taxes, the timing of taxes does not change the outcome in the representative-agent model.)
+- A multiplier above 1 means the spending pays for itself or is worth doing. (The multiplier measures output, not welfare or budget cost; whether spending is worthwhile depends on the value of what is bought.)
+- Reported multipliers can be compared directly. (Studies report impact, peak, or cumulative multipliers, and these definitions can give quite different numbers for the same policy.)
+
 ## Questions
 
 ```yaml

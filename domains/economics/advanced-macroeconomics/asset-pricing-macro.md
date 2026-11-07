@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The Euler equation links asset prices to consumption growth and preferences: asset returns must compensate for the consumption risk they carry. Higher expected returns on risky assets (the risk premium) reflect compensation for bearing consumption risk. Macroeconomic conditions affect asset prices by changing expected consumption paths and the covariance of returns with consumption; financial crises and downturns are times when assets become riskier relative to consumption, causing price declines and return spikes.
 
+## How It's Best Learned
+Price two assets in a two-state world. Booms and recessions are equally likely, with SDF values 0.8 and 1.1. Asset A pays 1.2 in a boom and 0.9 in a recession; asset B pays the reverse. Both expect 1.05, yet A costs 0.975 (return about 7.7%) and B costs 1.02 (about 2.9%), against a risk-free return of about 5.3%.
+
+## Common Misconceptions
+- An asset with more volatile returns must offer a higher expected return. (The premium depends on covariance with the SDF. Volatility that is unrelated to consumption earns no premium in this framework.)
+- No rational investor would hold an asset expected to return less than the risk-free rate. (An asset that pays off in recessions works as insurance and can rationally carry an expected return below the risk-free rate.)
+- The equity premium puzzle shows that stock markets are irrational. (It shows that standard consumption-based models need implausibly high risk aversion to match the data, which is a problem of model fit.)
+
 ## Questions
 
 ```yaml
@@ -35,7 +43,7 @@ The Euler equation links asset prices to consumption growth and preferences: ass
     - "Investor A, simply because stocks have higher return variance, and all variance must be compensated"
     - "Neither; in an efficient market, risk-adjusted returns equalize across all assets"
   answer: 1
-  explanation: "The key insight is that risk is defined by WHEN an asset fails you, not just how variable its returns are. Stocks are procyclical: they pay off in booms (when household consumption and marginal utility are low) and fail in recessions (when consumption is low and marginal utility is high). This is the worst possible pattern — the asset disappoints exactly when additional income would be most valuable. Investors demand extra return to hold this pattern of payoffs. Option C is wrong because variance alone is insufficient — an asset that is highly variable but uncorrelated with consumption growth would not earn a premium in this framework."
+  explanation: "The key insight is that risk is defined by WHEN an asset fails you, not just how variable its returns are. Stocks are procyclical: they pay off in booms (when household consumption is high and marginal utility is low) and fail in recessions (when consumption is low and marginal utility is high). This is the worst possible pattern — the asset disappoints exactly when additional income would be most valuable. Investors demand extra return to hold this pattern of payoffs. Option C is wrong because variance alone is insufficient — an asset that is highly variable but uncorrelated with consumption growth would not earn a premium in this framework."
 
 - question: "The 'equity premium puzzle' refers to which of the following observations?"
   type: multiple-choice

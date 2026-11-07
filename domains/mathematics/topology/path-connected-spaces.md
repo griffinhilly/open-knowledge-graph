@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 A space is path-connected if for every two points x,y, there exists a continuous path γ: [0,1] → X with γ(0) = x and γ(1) = y. Path-connected implies connected, but not conversely (topologist's sine curve). Most natural 'nice' spaces that are connected are path-connected; path-connectivity is more intuitive and stronger.
 
+## How It's Best Learned
+Build up through a sequence of pictures. In a convex set, write the straight-line path γ(t) = (1−t)x + ty. In an annulus, the straight line between opposite points crosses the hole, so write an arc instead. Then sketch the topologist's sine curve, pick a point on the wiggly graph, and try to draw a path to the segment on the y-axis. Watch where continuity breaks.
+
+## Common Misconceptions
+- Connected and path-connected mean the same thing. (Path-connected implies connected, but the topologist's sine curve is connected and not path-connected.)
+- A path is a curve that does not cross itself. (A path is any continuous map γ: [0, 1] → X. It may revisit points or even be constant.)
+- If the straight line between two points leaves the space, the space is not path-connected. (Any continuous path counts. In an annulus, a curved arc joins points that no straight segment inside the annulus can join.)
+
 ## Questions
 
 ```yaml
@@ -49,7 +57,7 @@ A space is path-connected if for every two points x,y, there exists a continuous
   answer: true
   explanation: "This is the one-directional implication that does hold. If X is path-connected, then for any two points you can find a continuous path γ: [0,1] → X between them. Since [0,1] is connected and γ is continuous, its image is connected. Using this, one can show X cannot be partitioned into two disjoint nonempty open sets, which is the definition of connectedness. The implication is: path-connected ⟹ connected."
 
-- question: "Nearly every connected topological space is path-connected."
+- question: "Every connected topological space is path-connected."
   type: true-false
   answer: false
   explanation: "False — the topologist's sine curve is the standard counterexample. It is the closure of {(x, sin(1/x)) : x > 0} in ℝ². This set cannot be split into two disjoint nonempty open sets (it is connected in the topological sense), but there is no continuous path from any point on the oscillating graph part to any point on the limiting segment {0} × [−1, 1]. The oscillation near x = 0 is too rapid for any continuous function to 'cross' it. This shows connectedness is strictly weaker than path-connectedness."

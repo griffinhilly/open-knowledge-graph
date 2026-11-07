@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 In a first-price auction, the highest bidder wins and pays their own bid. Bidders shade bids below true valuations: in symmetric equilibrium with N bidders and uniform valuations on [0, v], equilibrium bid is b(v) = ((N-1)/N)v. Revenue increases with N. Unlike second-price auctions, truthful bidding is not dominant.
 
+## How It's Best Learned
+Derive the bid for two bidders with values uniform on [0, 1]. Guess the rival bids kv. Then a bid b wins with probability b/k, so you maximize (v − b)(b/k), which gives b = v/2 and confirms k = 1/2. Repeat with N bidders, where you win with probability (b/k)^(N−1). The first-order condition gives b = ((N−1)/N)v.
+
+## Common Misconceptions
+- Bidding your true value is safest in a first-price auction. (Winning at your value earns zero surplus. Shading trades some chance of winning for a positive gain.)
+- The winner always pays more than the second-highest value. (The winner's shaded bid can fall below the runner-up's value. Only on average does the winner's payment equal the expected second-highest value.)
+- Bid shading means the seller earns less than in a second-price auction. (Under symmetric independent private values with risk-neutral bidders, expected revenue is the same in both formats.)
+- The (N−1)/N rule applies to any value distribution. (It is the equilibrium for values uniform on an interval starting at zero. Other distributions give other bid functions.)
+
 ## Questions
 
 ```yaml

@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 The focal mechanism describes the orientation of faulting and stress at an earthquake source using the radiation pattern of seismic waves. A beach ball diagram visualizes P-wave first motions (compressions and dilatations) and defines nodal planes that represent the fault plane and auxiliary plane. The stress tensor encodes the state of stress; its eigenvalues and eigenvectors reveal principal stress directions, which align with plate motions and regional tectonics.
 
+## How It's Best Learned
+Diagonalize a simple stress tensor by hand. With σxx = σyy = 30 MPa, σxy = 10 MPa, σzz = 25 MPa and z vertical, the eigenvalues are 40, 25 and 20 MPa. σ₁ is horizontal at 45° to x and σ₂ is vertical, so Anderson's theory predicts strike-slip faulting. Then plot ten first-motion polarities on a stereonet and fit two perpendicular nodal planes to them.
+
+## Common Misconceptions
+- The P and T axes of a beach ball are the σ₁ and σ₃ directions. (They are set at 45° to the nodal planes by the slip geometry; the principal stresses can lie elsewhere and are estimated from many mechanisms together.)
+- Principal stress axes are directions in which the stress is zero. (They are directions in which shear stress vanishes on the perpendicular plane; the normal stresses on those planes are the principal stresses, which include the largest and smallest normal stress at that point.)
+- Compressive stress is positive in every textbook and code. (Geology usually counts compression as positive, while much of engineering and physics counts tension as positive, so check the sign convention before reading σ₁.)
+
 ## Questions
 
 ```yaml

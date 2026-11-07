@@ -33,6 +33,14 @@ status: validated
 ## Core Idea
 Forward modeling computes gravity anomalies from 2D or 3D density distributions. Iterative inversion adjusts densities to fit observed anomalies while minimizing model complexity (Occam's razor). Tikhonov regularization stabilizes inversions for underdetermined problems.
 
+## How It's Best Learned
+Start with a toy inversion: one station, two cells, d = 2m₁ + m₂ = 4. Both (2, 0) and (0, 4) fit exactly, so the data alone cannot choose. The minimum-norm solution m = Gᵀ(GGᵀ)⁻¹d gives (1.6, 0.8), which also fits. Then forward-model a 2D polygon body by hand and compare it with a regularized inversion of the same synthetic data.
+
+## Common Misconceptions
+- A smooth inversion result shows the true shape of the body. (Smoothness regularization spreads a sharp, compact body into a blurred one, so recovered edges and peak densities reflect the regularization as well as the geology.)
+- An unconstrained inversion puts density at the right depth. (Shallow cells have the largest sensitivity, so minimum-norm inversions pile density near the surface unless depth weighting is added.)
+- The model that fits the data most closely is the best model. (Fitting below the noise level turns noise into structure; the target misfit should match the data errors.)
+
 ## Questions
 
 ```yaml

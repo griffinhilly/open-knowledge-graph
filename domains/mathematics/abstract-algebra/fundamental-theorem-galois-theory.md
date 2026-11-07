@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 For a finite Galois extension K/F, there is a bijection between subgroups of Gal(K/F) and intermediate fields F ⊆ E ⊆ K. This bijection is order-reversing: larger subgroups correspond to smaller fields.
 
+## How It's Best Learned
+Draw the subgroup lattice and the field lattice for ℚ(√2, √3) side by side, one upside down. Let σ negate √2 and τ negate √3. Then ⟨σ⟩ fixes ℚ(√3), ⟨τ⟩ fixes ℚ(√2), and ⟨στ⟩ fixes ℚ(√6), since στ(√6) = (−√2)(−√3) = √6. Next do the splitting field of x³ − 2, whose Galois group S₃ has subgroups that are not normal.
+
+## Common Misconceptions
+- The correspondence holds for any finite extension. (It needs K/F to be Galois. ℚ(∛2)/ℚ has two intermediate fields, ℚ and ℚ(∛2), but its only automorphism is the identity, so there is one subgroup.)
+- Only normal subgroups correspond to intermediate fields. (Every subgroup has a fixed field. Normality picks out the intermediate fields E for which E/F is Galois.)
+- For E = K^H, the group Gal(K/E) is the quotient Gal(K/F)/H. (Gal(K/E) is H itself. The quotient describes Gal(E/F), and only when H is normal.)
+
 ## Questions
 
 ```yaml

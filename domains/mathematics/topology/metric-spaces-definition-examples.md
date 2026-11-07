@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 A metric space (X, d) has a metric d: X × X → ℝ with d(x,y) ≥ 0 (equality iff x=y), symmetry d(x,y) = d(y,x), and triangle inequality d(x,z) ≤ d(x,y) + d(y,z). Examples include ℝⁿ with Euclidean distance, function spaces with supremum norm, and discrete metrics where d(x,y) = 1 for x ≠ y.
 
+## How It's Best Learned
+Test candidate distances on ℝ against each axiom: (x − y)² fails the triangle inequality at 0, 1, 2, and |x² − y²| fails identity, since it gives 0 for 1 and −1. |x − y|/(1 + |x − y|) passes: t ↦ t/(1 + t) is increasing and satisfies f(a + b) ≤ f(a) + f(b). Then sketch the unit balls in ℝ² for the sum, Euclidean and max metrics: a diamond, a disk, a square.
+
+## Common Misconceptions
+- A metric needs coordinates or a formula like |x − y|. (Any set carries the discrete metric, with no algebraic structure at all.)
+- Open balls are round. (In ℝ² with the max metric, balls are squares; under the discrete metric, a ball is a single point or the whole space.)
+- If every distance is less than 1, the space is small or bounded in the usual sense. (On ℝ, |x − y|/(1 + |x − y|) keeps all distances below 1, yet it gives the same open sets as the usual metric.)
+- Different metrics on a set give different open sets. (The sum, Euclidean and max metrics on ℝ² are different functions, but they produce the same open sets.)
+
 ## Questions
 
 ```yaml

@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Firms simultaneously set prices; consumers buy from the cheapest seller. With homogeneous products, any firm can undercut competitors to capture the entire market. This drives prices to marginal cost (near-perfect-competition outcome) with just two firms. Bertrand equilibrium illustrates the importance of product differentiation: differentiation creates pricing power by reducing substitutability.
 
+## How It's Best Learned
+Sketch firm 2's best response to firm 1's price p1 in three ranges. Above the monopoly price, firm 2 charges the monopoly price. Between cost c and the monopoly price, it undercuts p1 slightly. At c or below, no price earns a profit. Then check every candidate pair against both best responses. Only (c, c) survives, and that check is the proof.
+
+## Common Misconceptions
+- Two firms are too few to compete prices down to cost. (With identical products, equal constant costs and enough capacity, two firms reach price equals marginal cost in the one-shot game.)
+- More firms would push the Bertrand price below marginal cost. (Pricing below cost means losses on every sale, so the price stays at marginal cost no matter how many firms compete.)
+- Bertrand and Cournot are two ways of describing the same equilibrium. (Choosing prices or quantities as the strategic variable gives different outcomes. Cournot prices stay above marginal cost.)
+- Firms in a Bertrand equilibrium are choosing to earn zero profit. (Each firm would like a higher price, but any price above cost is undercut by the rival.)
+
 ## Questions
 
 ```yaml

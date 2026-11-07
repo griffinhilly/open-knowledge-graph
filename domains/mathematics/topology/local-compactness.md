@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 A space is locally compact if every point has a compact neighborhood. Local compactness allows one-point compactification and enables many results from classical analysis to extend. Manifolds are locally compact, and the concept bridges finite-dimensional compactness with infinite-dimensional topology.
 
+## How It's Best Learned
+Check the definition point by point in three subspaces of ℝ²: the open unit disk, ℚ × {0}, and Y = {(x, y) : y > 0} ∪ {(0, 0)}. Y fails only at the origin. A compact neighborhood there would be closed in ℝ², so it would contain points (x, 0) with x ≠ 0 near the origin, and those are not in Y. Then build the one-point compactification of ℝ and match it with S¹.
+
+## Common Misconceptions
+- Locally compact means every point has a compact open neighborhood. (The compact set only needs to contain an open set around the point. ℝ is locally compact, yet its only compact open subset is ∅.)
+- Every subspace of a locally compact space is locally compact. (ℚ in ℝ is a counterexample. In a locally compact Hausdorff space, open subspaces and closed subspaces are locally compact.)
+- A normed space looks like ℝⁿ near each point, so it is locally compact. (A normed space is locally compact exactly when it is finite-dimensional; in infinite dimensions the closed unit ball is not compact.)
+- The one-point compactification of any space is Hausdorff. (It is Hausdorff exactly when the original space is locally compact and Hausdorff; for ℚ it is not.)
+
 ## Questions
 
 ```yaml
@@ -67,4 +76,4 @@ The canonical example is ℝⁿ. The real line ℝ is not compact (the cover {(�
 
 The most powerful consequence of local compactness in a Hausdorff space is the **one-point compactification** (Alexandroff compactification). Given a locally compact Hausdorff space X, adjoin a single extra point ∞ to form X* = X ∪ {∞}. Declare the topology on X* by keeping all the original open sets of X, and declaring a neighborhood of ∞ to be any set whose complement in X is compact. The result is compact: every open cover of X* either omits ∞ (covered by X's topology) or includes a neighborhood of ∞ whose complement is compact, reducing to a finite subcover. This construction turns ℝ into the circle S¹ and ℝ² into the 2-sphere S². Local compactness is exactly the hypothesis that ensures there are enough compact sets to build the topology around ∞ coherently — without it, the construction fails to produce a Hausdorff space.
 
-Local compactness is also a cornerstone of integration theory beyond ℝⁿ. **Haar measure** — the canonical translation-invariant measure on locally compact groups — requires local compactness as an essential hypothesis; without compact neighborhoods, the averaging procedure used to construct the measure breaks down. For topological manifolds, local compactness is part of the definition: it ensures every point has a neighborhood homeomorphic to an open ball in ℝⁿ, connecting abstract topology to the finite-dimensional geometry you understand from calculus. Local compactness is the minimal condition under which the intuitions of classical analysis — that you can work locally in a small, controlled, "finite-feeling" region — remain valid in a general topological setting.
+Local compactness is also a cornerstone of integration theory beyond ℝⁿ. **Haar measure** — the canonical translation-invariant measure on locally compact groups — requires local compactness as an essential hypothesis; without compact neighborhoods, the averaging procedure used to construct the measure breaks down. Topological manifolds are locally compact: every point has a neighborhood homeomorphic to an open ball in ℝⁿ, and a smaller closed ball inside it is a compact neighborhood, connecting abstract topology to the finite-dimensional geometry you understand from calculus. Local compactness is the minimal condition under which the intuitions of classical analysis — that you can work locally in a small, controlled, "finite-feeling" region — remain valid in a general topological setting.

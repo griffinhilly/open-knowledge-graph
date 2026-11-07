@@ -26,6 +26,12 @@ A matrix A is diagonalizable if A = PDP⁻¹ where D is diagonal and P has eigen
 ## How It's Best Learned
 Find eigenvalues and eigenvectors. Build P from eigenvectors as columns; D has eigenvalues on the diagonal. Verify A = PDP⁻¹ by computation. Use diagonal form to compute A¹⁰ easily.
 
+## Common Misconceptions
+- The eigenvectors can go into P in any order, whatever order the eigenvalues appear in D. (Column i of P must be an eigenvector for the i-th diagonal entry of D. You may reorder, but P and D must be reordered together.)
+- Two matrices with the same eigenvalues are similar. ([[2,1],[0,2]] and 2I both have eigenvalue 2 twice, but only 2I is diagonal and no change of basis turns one into the other.)
+- A diagonalizable matrix must be invertible. (Diagonalizability depends on having enough eigenvectors. [[1,0],[0,0]] is diagonal, yet it has eigenvalue 0 and no inverse.)
+- If A = PDP⁻¹, then A = P⁻¹DP as well. (These are different products in general. When A = PDP⁻¹, the eigenvectors of A are the columns of P, not of P⁻¹.)
+
 ## Questions
 
 ```yaml
@@ -49,7 +55,7 @@ Find eigenvalues and eigenvectors. Build P from eigenvectors as columns; D has e
   answer: 1
   explanation: "The key identity is Aⁿ = PDⁿP⁻¹. A diagonal matrix Dⁿ is trivial to compute: just raise each diagonal entry to the n-th power (scalar exponentiation). Without diagonalization, computing A¹⁰⁰ would require 99 matrix multiplications, each O(n³). With diagonalization, it requires computing P and P⁻¹ once, then one multiplication PDⁿP⁻¹. This is the payoff for all the eigenvalue machinery — it reduces matrix exponentiation (hard) to scalar exponentiation (trivial) plus two matrix multiplications."
 
-- question: "If a matrix has a repeated eigenvalue, it can seldom be diagonalized."
+- question: "If a matrix has a repeated eigenvalue, it cannot be diagonalized."
   type: true-false
   answer: false
   explanation: "This is a common misconception. A matrix is diagonalizable if and only if it has n linearly independent eigenvectors. Distinct eigenvalues guarantee this (since eigenvectors for distinct eigenvalues are always independent), so a matrix with n distinct eigenvalues is always diagonalizable. But a repeated eigenvalue *may* still yield enough independent eigenvectors — the identity matrix I has only one eigenvalue (λ=1, with multiplicity n) yet is perfectly diagonalizable (it's already diagonal). The question is whether the geometric multiplicity (dimension of the eigenspace) equals the algebraic multiplicity (multiplicity as a root of the characteristic polynomial)."

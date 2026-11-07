@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Paleomagnetic poles determined from rocks of different ages define a path called the apparent polar wander (APW) path. If Earth's magnetic dipole were always aligned with the rotation axis, all paleomagnetic poles would cluster at the geographic poles. Instead, APW paths show continuous motion reflecting true polar wander (rotation axis motion) and true continental motion (plate tectonics).
 
+## How It's Best Learned
+Compute one pole by hand. A rock at 50°N, 0°E with declination 0° and inclination 49° has a paleolatitude of 30°, from tan I = 2 tan λ. The pole lies 60° of arc north of the site along its meridian. That carries it past the geographic pole to 70°N, 180°E. Then plot poles of several ages on a globe and rotate the continent until each one sits at the north pole.
+
+## Common Misconceptions
+- A paleomagnetic pole tells you a continent's past longitude. (The axial dipole field is symmetric around the spin axis. A pole fixes paleolatitude and orientation but leaves longitude unknown.)
+- The direction from one lava flow gives a reliable pole. (A single flow records the field at one moment, including secular variation. A paleomagnetic pole averages many units spanning thousands of years.)
+- One continent's APW path shows plate motion and true polar wander separately. (A single path mixes the two. Separating them requires comparing paths from several continents for a shared component.)
+
 ## Questions
 
 ```yaml
@@ -55,7 +63,7 @@ Paleomagnetic poles determined from rocks of different ages define a path called
 - question: "An apparent polar wander path directly records the physical motion of Earth's magnetic pole through space over geological time."
   type: true-false
   answer: false
-  explanation: "This is the central misconception the APW concept invites. The path shows apparent pole positions as computed from rocks on one continent — it does not show where the pole actually was in space. Under the geocentric axial dipole hypothesis, each computed pole position tells you where the continent was relative to the (roughly fixed) geographic pole. The 'wandering' is the continent's wandering as seen from a fixed pole reference frame, not the pole's motion. The word 'apparent' in apparent polar wander is load-bearing."
+  explanation: "This is the central misconception the APW concept invites. The path shows apparent pole positions as computed from rocks on one continent — it does not show where the pole actually was in space. Under the geocentric axial dipole hypothesis, each computed pole position tells you where the continent was relative to the (roughly fixed) geographic pole. The 'wandering' is the continent's wandering as seen from a fixed pole reference frame, not the pole's motion. The word 'apparent' in apparent polar wander is the key word."
 
 - question: "Explain why the existence of different apparent polar wander paths for different continents supports plate tectonics rather than true polar wander."
   type: short-answer

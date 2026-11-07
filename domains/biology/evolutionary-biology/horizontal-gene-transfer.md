@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Horizontal gene transfer (HGT) moves genes between distantly related organisms without vertical inheritance, especially common in prokaryotes. HGT can rapidly introduce metabolic innovations and pathogenicity factors, causing sudden phenotypic shifts. Evidence of HGT complicates phylogenetic reconstruction and challenges tree-of-life assumptions.
 
+## How It's Best Learned
+Draw a five-species tree, then a gene tree from the same species in which one taxon sits inside a distant group. Draw the transfer as a sideways arrow between branches. Then list what else could cause the mismatch, such as hidden paralogs or a poorly supported node, and name evidence that favors transfer: unusual GC content, odd codon usage, or nearby phage or plasmid sequences.
+
+## Common Misconceptions
+- Horizontal gene transfer happens only in bacteria. (It is most common in prokaryotes, but eukaryotes have also acquired genes this way, including many genes moved from mitochondria and chloroplasts into the nucleus.)
+- A transferred gene gives the recipient an immediate advantage. (Many acquired genes are not expressed well, are neutral or costly, and are lost; selection decides which ones persist.)
+- All genes are equally likely to be transferred. (Genes for core cell machinery, such as ribosomal proteins, move less often than genes on plasmids or for specialized metabolism, which is why core genes are used for species trees.)
+- Any conflict between a gene tree and the species tree proves horizontal transfer. (Paralogy, incomplete lineage sorting and tree-building errors can also produce conflicts, so transfer has to be supported by other evidence.)
+
 ## Questions
 
 ```yaml
@@ -36,7 +45,7 @@ Horizontal gene transfer (HGT) moves genes between distantly related organisms w
     - "The phylogenetic analysis of Gene A was performed incorrectly and should be redone"
     - "Cyanobacteria and Proteobacteria are more closely related to each other than currently recognized"
   answer: 1
-  explanation: "When a gene's phylogenetic history conflicts with the species tree, HGT is the primary explanation. Gene A appears to have been acquired from a cyanobacterial donor — its sequence reflects cyanobacterial ancestry rather than the organism's own lineage. Genes B and C, which agree with each other, likely reflect the actual species history. Conflicting gene trees are one of the primary methods for detecting HGT events, and this scenario is precisely why biologists must use multiple genes — especially vertically inherited core genes — to reconstruct reliable species phylogenies."
+  explanation: "When a gene's phylogenetic history conflicts with the species tree in prokaryotes, HGT is a leading explanation. Gene A appears to have been acquired from a cyanobacterial donor — its sequence reflects cyanobacterial ancestry rather than the organism's own lineage. Genes B and C, which agree with each other, likely reflect the actual species history. Conflicting gene trees are one of the primary methods for detecting HGT events, and this scenario is precisely why biologists must use multiple genes — especially vertically inherited core genes — to reconstruct reliable species phylogenies."
 
 - question: "A harmless soil bacterium and a pathogenic Staphylococcus share an identical beta-lactamase gene that destroys penicillin, despite being otherwise very distantly related. What is the most parsimonious explanation?"
   type: multiple-choice

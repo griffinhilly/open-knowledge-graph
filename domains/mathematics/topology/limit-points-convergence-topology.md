@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 A point x is a limit point of a set A if every neighborhood of x contains points of A other than x itself. Convergence generalizes the real-line notion: a sequence converges to x if for every neighborhood of x, all but finitely many terms lie in that neighborhood. In general topological spaces, limits may not be unique, which is addressed by separation axioms.
 
+## How It's Best Learned
+Run one sequence, xₙ = 1/n, through three topologies on ℝ. In the usual topology it converges to 0 alone; in the cofinite topology it converges to every point, because each nonempty open set misses only finitely many terms. In the discrete topology it converges nowhere, because each singleton {x} is open. Then ask, in each topology, which points are limit points of the set {1/n}.
+
+## Common Misconceptions
+- A limit point of the set of terms is the same as a limit of the sequence. (The terms of (−1)ⁿ(1 + 1/n) have limit points 1 and −1, yet the sequence does not converge.)
+- In a non-Hausdorff space, every convergent sequence has several limits. (Failure of Hausdorff means some pair of points cannot be separated. On the line with two origins, 1/n converges to both origins, but 1 + 1/n converges only to 1.)
+- If x is a limit point of A, some sequence in A ∖ {x} converges to x. (This holds in first-countable spaces such as metric spaces. It can fail in general: in the ordinal space [0, ω₁], ω₁ is a limit point of [0, ω₁), but no sequence from [0, ω₁) converges to it.)
+
 ## Questions
 
 ```yaml

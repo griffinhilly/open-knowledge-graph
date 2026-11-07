@@ -31,6 +31,15 @@ status: validated
 ## Core Idea
 Firms minimize cost for any target output by equating the marginal rate of technical substitution to the input price ratio. Conditional factor demands depend on output and input prices and are derived from the cost function using Shephard's lemma: ∂C/∂w_i = conditional demand for input i. This mirrors the consumer duality problem and is essential for understanding production technology.
 
+## How It's Best Learned
+Solve one case numerically before the general Lagrangian. With q = x₁^(1/2) x₂^(1/2), q = 4, w₁ = 1 and w₂ = 4, the tangency x₂/x₁ = w₁/w₂ gives x₁ = 8 and x₂ = 2, costing 16. Compare the bundle (4, 4), which also makes 4 units but costs 20. Then check the general cost function 2q(w₁w₂)^(1/2) against that 16.
+
+## Common Misconceptions
+- A firm should hire more of the input with the highest marginal product. (The rule compares marginal product per dollar. An input with a high marginal product can still be a poor buy if its price is high.)
+- If the MRTS of input 1 for input 2 exceeds w₁/w₂, the firm should shift toward input 2. (MRTS above the price ratio means input 1 gives more output per dollar. The firm should use more input 1 and less input 2.)
+- Cost minimization requires profit maximization. (A firm can minimize the cost of a given output whether or not that output is profit-maximizing. Profit maximization implies cost minimization, not the reverse.)
+- The tangency condition holds in every case. (With corner solutions or kinked isoquants, such as perfect complements, the cost minimum can occur where MRTS does not equal the price ratio.)
+
 ## Questions
 
 ```yaml
@@ -41,8 +50,8 @@ Firms minimize cost for any target output by equating the marginal rate of techn
     - "Use more of input 1 and less of input 2 — the firm is getting more output per dollar from input 1"
     - "Use more of input 2 and less of input 1 — the MRTS exceeds the price ratio, so substituting toward input 2 reduces cost while maintaining output"
     - "The firm is already at the cost minimum because any MRTS with positive inputs satisfies optimality"
-  answer: 2
-  explanation: "MRTS = 3 means the firm could give up 3 units of input 2 in exchange for 1 unit of input 1 and maintain output. But the price ratio w₁/w₂ = 2 means buying 1 unit of input 1 costs twice what 1 unit of input 2 costs. So by substituting: save 3 units of input 2 (saving 3w₂) and buy 1 unit of input 1 (spending w₁ = 2w₂) — net saving = w₂ per substitution. The firm should keep substituting toward input 2 until MRTS falls to equal the price ratio. The cost minimum requires MRTS = w₁/w₂."
+  answer: 1
+  explanation: "MRTS = 3 means the firm could give up 3 units of input 2 in exchange for 1 unit of input 1 and maintain output. But the price ratio w₁/w₂ = 2 means buying 1 unit of input 1 costs twice what 1 unit of input 2 costs. So by substituting: save 3 units of input 2 (saving 3w₂) and buy 1 unit of input 1 (spending w₁ = 2w₂) — net saving = w₂ per substitution. The firm should keep substituting toward input 1 until MRTS falls to equal the price ratio. The cost minimum requires MRTS = w₁/w₂."
 
 - question: "Shephard's lemma states that the conditional demand for input i can be obtained by:"
   type: multiple-choice

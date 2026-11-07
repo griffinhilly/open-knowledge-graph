@@ -21,7 +21,16 @@ status: validated
 # Repeated Games and Trigger Strategies
 
 ## Core Idea
-In infinitely repeated games, players can sustain cooperation via trigger strategies that punish deviations. The Folk Theorem shows that any outcome achieving each player's maximin payoff can be sustained as subgame-perfect equilibrium with low enough discount rates. Triggers create accountability: deviating gains short-term but triggers permanent punishment, making cooperation attractive if players are patient enough.
+In infinitely repeated games, players can sustain cooperation via trigger strategies that punish deviations. The Folk Theorem shows that any outcome achieving each player's minmax payoff can be sustained as subgame-perfect equilibrium with low enough discount rates. Triggers create accountability: deviating gains short-term but triggers permanent punishment, making cooperation attractive if players are patient enough.
+
+## How It's Best Learned
+Use the explainer's payoffs: 3 for mutual cooperation, 5 for cheating once, 1 during punishment. Solve 3/(1 − δ) ≥ 5 + δ/(1 − δ) to get δ ≥ 1/2. Then replace grim trigger with a two-period punishment and solve again. The condition becomes δ² + δ ≥ 1, so δ must be at least about 0.62. Shorter punishments need more patience.
+
+## Common Misconceptions
+- The Folk Theorem predicts that patient players will cooperate. (It says cooperation can be an equilibrium. Playing the stage-game Nash equilibrium in every period is also a subgame-perfect equilibrium, for any δ.)
+- Punishment must last forever to deter cheating. (A finite punishment can work if players are patient enough. In the exercise, a two-period punishment needs δ of about 0.62 instead of 1/2.)
+- A higher discount rate means a more patient player. (Patience rises with the discount factor δ. The discount rate r moves the other way, with δ = 1/(1 + r).)
+- A game with a random end works differently from an infinite discounted game. (A constant chance of continuing each period acts like a discount factor. The cooperation conditions take the same form.)
 
 ## Questions
 

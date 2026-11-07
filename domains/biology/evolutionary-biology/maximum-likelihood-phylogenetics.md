@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Maximum likelihood phylogenetics finds the tree and evolutionary model that maximize the probability of observing the data. ML accounts for multiple substitutions per site and provides branch length estimates and statistical support values. Likelihood framework allows model comparison and hypothesis testing about evolutionary processes.
 
+## How It's Best Learned
+Start with two sequences that differ at 10 of 100 sites under Jukes-Cantor, where the only unknown is branch length t. The likelihood peaks when the expected fraction of differing sites equals 0.10. That gives t = −(3/4) ln(1 − (4/3)(0.10)) ≈ 0.107, above 0.10 because some sites changed more than once. Then compare the three possible unrooted trees for four taxa.
+
+## Common Misconceptions
+- The likelihood of a tree is the probability that the tree is correct. (Likelihood is the probability of the data given the tree and model; a probability for the tree itself needs a Bayesian analysis with priors.)
+- A bootstrap value of 95% means a 95% chance the clade is real. (Bootstrap support measures how often the clade reappears when alignment columns are resampled, which reflects consistency of the signal, not a probability of truth.)
+- The model with the highest likelihood is the one to use. (Adding parameters almost always raises the likelihood, so models are compared with likelihood ratio tests or information criteria that penalize extra parameters.)
+- The ML tree a program reports is guaranteed to be the best tree. (Searches are heuristic and can stop at a local optimum, which is why several searches from different starting trees are run.)
+
 ## Questions
 
 ```yaml

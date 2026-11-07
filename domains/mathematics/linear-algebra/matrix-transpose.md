@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The transpose of A, denoted A^T, swaps rows and columns: (A^T)_ij = a_ji. Properties: (A^T)^T = A, (AB)^T = B^T A^T, (A + B)^T = A^T + B^T. A symmetric matrix satisfies A = A^T. The transpose is essential for defining adjoints and studying eigenvalues.
 
+## How It's Best Learned
+Write A = [[1, 2, 3], [4, 5, 6]] and read each row down as a column to get Aᵀ = [[1, 4], [2, 5], [3, 6]]. Then test the product rule with the column B = (1, 0, 1). AB = (4, 10), and BᵀAᵀ = [1, 0, 1]·Aᵀ = [4, 10] as well. Note that AᵀBᵀ is a 3 × 2 times a 1 × 3, which is undefined.
+
+## Common Misconceptions
+- Transposing a matrix rotates it by 90 degrees. (A transpose reflects across the main diagonal; for [[1, 2], [3, 4]] the transpose is [[1, 3], [2, 4]], while a quarter turn gives a different arrangement.)
+- (AB)ᵀ = AᵀBᵀ. (The order reverses, (AB)ᵀ = BᵀAᵀ, and for non-square factors the unreversed product is often undefined.)
+- The transpose of a matrix is its inverse. (That holds only for orthogonal matrices; for [[2, 0], [0, 1]] the transpose is itself, but the inverse is [[1/2, 0], [0, 1]].)
+- Transposing moves the diagonal entries. (Entries a_ii stay in place; only off-diagonal entries swap with their mirror partners.)
+
 ## Questions
 
 ```yaml

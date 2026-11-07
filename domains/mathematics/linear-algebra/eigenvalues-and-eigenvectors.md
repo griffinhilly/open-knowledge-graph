@@ -31,6 +31,14 @@ status: validated
 ## Core Idea
 For matrix A, scalar λ is an eigenvalue if Av = λv has a nonzero solution v (an eigenvector). Eigenvectors span the eigenspace E_λ = nul(A − λI). Eigenvalues reveal how A stretches directions; they are invariant under similarity transformations and determine the dynamics of matrix iteration.
 
+## How It's Best Learned
+Look before you solve. Apply A = [[2,1],[1,2]] to several vectors and plot input and output: (1,0) goes to (2,1) and leaves its line, but (1,1) goes to (3,3) and (1,−1) stays at (1,−1). Then solve det(A − λI) = (λ − 1)(λ − 3) = 0 and find the null space of A − λI for each root to recover the same two lines.
+
+## Common Misconceptions
+- The zero vector is an eigenvector, since A0 = λ0. (Eigenvectors must be nonzero by definition. Otherwise every λ would count as an eigenvalue. The eigenvalue λ = 0, however, is allowed.)
+- The eigenvalues of a matrix are its diagonal entries. (That holds for triangular matrices. [[2,1],[1,2]] has 2 and 2 on its diagonal, but its eigenvalues are 3 and 1.)
+- Every real square matrix has a real eigenvector. (The 90° rotation [[0,−1],[1,0]] moves every nonzero vector off its line. Its eigenvalues are the complex numbers i and −i.)
+
 ## Questions
 
 ```yaml
@@ -53,7 +61,7 @@ For matrix A, scalar λ is an eigenvalue if Av = λv has a nonzero solution v (a
 
 ## Explainer
 
-Most linear transformations scramble vectors — they change both direction and length. But every square matrix has special directions it simply scales, never rotates. These are the eigenvectors. If Av = λv for a nonzero vector v, then multiplying v by A just multiplies it by the scalar λ (the eigenvalue). The vector "survives" the transformation unchanged in direction.
+Most linear transformations scramble vectors — they change both direction and length. But many square matrices have special directions they simply scale, never rotate. These are the eigenvectors. If Av = λv for a nonzero vector v, then multiplying v by A just multiplies it by the scalar λ (the eigenvalue). The vector "survives" the transformation on its own line through the origin.
 
 You already know how to find eigenvalues from the characteristic polynomial: solve det(A − λI) = 0. Each root λ is an eigenvalue. Once you have λ, you find its eigenvectors by solving (A − λI)v = 0 — that is, finding the null space of (A − λI). This null space is the eigenspace E_λ. It can be one-dimensional (a line of eigenvectors through the origin) or higher-dimensional if multiple independent vectors satisfy the equation.
 

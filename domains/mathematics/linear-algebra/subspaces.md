@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 A subspace W of vector space V is a nonempty subset closed under addition and scalar multiplication. Equivalently, W is nonempty and cw₁ + w₂ ∈ W for all scalars c and w₁, w₂ ∈ W. Examples include lines and planes through the origin in R³, the null space of a matrix, and polynomial subspaces.
 
+## How It's Best Learned
+Test four sets in ℝ² against the two closure rules, and name the vector that breaks each failure. The line y = 2x passes both. The line y = 2x + 1 misses the origin. The union of the two axes fails addition, since (1, 0) + (0, 1) = (1, 1). The first quadrant fails scaling, since −1·(1, 1) leaves it.
+
+## Common Misconceptions
+- A set that contains the zero vector is a subspace. (Containing 0 is necessary but not sufficient; the union of the x-axis and y-axis contains 0 yet is not closed under addition.)
+- Every line or plane in ℝ³ is a subspace. (Only lines and planes through the origin are; a plane such as z = 1 fails both closure rules.)
+- ℝ² is a subspace of ℝ³. (Vectors in ℝ² have two entries, so ℝ² is not a subset of ℝ³; the plane {(x, y, 0)} is a subspace of ℝ³ that has the same structure as ℝ².)
+- The union of two subspaces is a subspace. (The two axes in ℝ² are each subspaces, but their union is not; the intersection of two subspaces is always a subspace.)
+
 ## Questions
 
 ```yaml
@@ -52,7 +61,7 @@ A subspace W of vector space V is a nonempty subset closed under addition and sc
   answer: true
   explanation: "True. If W is a nonempty subspace and w ∈ W, then 0·w = 0 must be in W by closure under scalar multiplication. The zero vector is guaranteed — it is a theorem, not an extra axiom. A subset that does not contain 0 cannot be a subspace, which is why the fastest way to disprove a subspace claim is to check whether 0 is in the set."
 
-- question: "A nonempty subset of ℝ² that is closed under vector addition is expected to be a subspace."
+- question: "A nonempty subset of ℝ² that is closed under vector addition must be a subspace."
   type: true-false
   answer: false
   explanation: "False. Closure under addition alone is insufficient — you also need closure under scalar multiplication. Consider the set of all vectors with integer coordinates: {(m, n) : m, n ∈ ℤ}. This is closed under addition, but (0.5)·(1, 0) = (0.5, 0) is not in the set, so it fails scalar closure. Both conditions are required."

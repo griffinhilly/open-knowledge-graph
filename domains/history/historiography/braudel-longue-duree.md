@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 Fernand Braudel's concept of the *longue durée* (long duration) distinguished between three temporal registers: long-term structures (geography, ecology, demography), medium-term cycles (economic and social systems), and short-term events (political narratives). His study of the Mediterranean World in the Age of Philip II (1949) exemplified how historians could analyze vast time spans and spaces through layered structural analysis, moving beyond event-centered narrative.
 
+## How It's Best Learned
+Read the table of contents of *The Mediterranean* and notice that it opens with mountains, plains and seas, then moves to economies and empires, and ends with events. Then build a three-layer chart for one event you know well, such as a famous battle. Put a structure, a conjuncture and the event in each layer, and draw arrows showing how each slower layer limited the faster one.
+
+## Common Misconceptions
+- The longue durée is any long period, such as a century of trade growth. (That describes a conjuncture; the longue durée is the slowest layer of geography, climate and ecology, nearly invisible within one lifetime.)
+- Braudel thought events do not matter at all. (He judged them the least explanatory layer and called them "crests of foam," but his framework places events inside the structures that shape them.)
+- The three registers are just a filing system for facts. (They form an argument about causal layering, in which slower structures limit what medium-term cycles and events can do.)
+
 ## Questions
 
 ```yaml

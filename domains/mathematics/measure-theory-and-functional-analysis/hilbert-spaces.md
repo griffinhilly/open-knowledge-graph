@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 A Hilbert space is a complete inner product space. The inner product induces a norm, and completeness ensures limits exist. L² spaces exemplify Hilbert spaces, which are fundamental in quantum mechanics and harmonic analysis.
 
+## How It's Best Learned
+Test the parallelogram law ‖u+v‖² + ‖u−v‖² = 2‖u‖² + 2‖v‖² on u = e₁ and v = e₂. In ℓ² both sides equal 4. In ℓ¹ the left side is 8 and the right is 4, so no inner product gives the ℓ¹ norm. Then project f(x) = x in L²[0,1] onto the constants. The closest constant is 1/2, and x − 1/2 is orthogonal to 1.
+
+## Common Misconceptions
+- Every complete norm comes from some inner product. (A norm comes from an inner product exactly when it satisfies the parallelogram law. The ℓ¹ norm fails it, as the computation with e₁ and e₂ shows.)
+- An orthonormal basis of a Hilbert space is a basis in the linear-algebra sense. (In infinite dimensions, most vectors are infinite sums Σ⟨x, eₙ⟩eₙ that converge in norm, not finite combinations.)
+- Every Hilbert space has a countable orthonormal basis. (Only the separable ones do. ℓ² over an uncountable index set needs an uncountable orthonormal basis.)
+
 ## Questions
 
 ```yaml
@@ -48,7 +56,7 @@ A Hilbert space is a complete inner product space. The inner product induces a n
   answer: true
   explanation: "A Hilbert space's inner product induces a norm via ‖v‖ = √⟨v,v⟩, and completeness with respect to this norm makes it a Banach space. So every Hilbert space satisfies the definition of a Banach space. But the converse fails: a Banach space has a norm but may not come from any inner product. The parallelogram law (‖u+v‖² + ‖u−v‖² = 2‖u‖² + 2‖v‖²) is necessary and sufficient for a norm to come from an inner product — not all Banach space norms satisfy it. For example, L¹ is Banach but not Hilbert."
 
-- question: "An inner product space is automatically a Hilbert space, because the inner product structure provides most of the geometric information needed for analysis."
+- question: "An inner product space is automatically a Hilbert space, because the inner product structure provides all of the geometric information needed for analysis."
   type: true-false
   answer: false
   explanation: "An inner product space has angle, length, and orthogonality, but it may fail to be complete. Completeness — that every Cauchy sequence converges to a limit inside the space — is a separate, independent requirement. Without it, infinite-dimensional operations become unreliable: a Fourier series might converge to something outside the space, making the expansion meaningless. Hilbert spaces are inner product spaces that have been 'filled in' (completed), so no limits can escape. The completeness requirement is not redundant — it is what makes functional analysis work."

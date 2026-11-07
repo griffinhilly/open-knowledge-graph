@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 Linear regression fits a model y = Xβ + ε to data by minimizing ||y − Xβ||². The optimal coefficients are β* = (XᵀX)⁻¹Xᵀy (normal equations), found via orthogonal projection of y onto the column space of X. Residuals r = y − Xβ* are orthogonal to the fitted subspace. QR decomposition is preferred numerically over normal equations for stability.
 
+## How It's Best Learned
+Fit the data (0,1), (1,1), (2,3) with X = [[1,0],[1,1],[1,2]] and get β* = (2/3, 1). Then build the hat matrix P = (1/6)[[5,2,−1],[2,2,2],[−1,2,5]]. Check that P is symmetric and that Py gives the fitted values (2/3, 5/3, 8/3). Finally add an x² column and refit. The residual drops to zero, since three coefficients can fit three points exactly.
+
+## Common Misconceptions
+- Linear regression can only fit straight lines. ("Linear" means linear in the coefficients β. A model such as y = β₀ + β₁x + β₂x² is still linear regression, with x² as one column of X.)
+- Adding another predictor can raise the sum of squared residuals on the same data. (A new column can only enlarge col(X), so the projection of y gets at least as close. The in-sample residual sum cannot increase.)
+- The residuals always add up to zero. (That is guaranteed when col(X) contains the all-ones vector, as with an intercept column. Without it, the residuals need not sum to zero.)
+
 ## Questions
 
 ```yaml

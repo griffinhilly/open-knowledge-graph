@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Computational methods—text mining, network analysis, GIS mapping, data visualization—enable historians to analyze large evidence bodies in new ways. These methods reveal patterns across thousands of documents, map relationships and connections, or identify anomalies. However, computational history raises epistemological questions: what interpretive labor is hidden when complex data is simplified, and how do tools' affordances shape which questions historians ask?
 
+## How It's Best Learned
+Follow one pattern from output back to documents. Start with a topic-model chart or a word-frequency spike, open ten of the documents that drive it, and read them closely to judge whether the cluster reflects a real discourse, a genre habit or an OCR error. Then write down what the corpus leaves out: which languages, archives and kinds of people are missing.
+
+## Common Misconceptions
+- An algorithm that processes thousands of documents is more objective than a historian reading them. (The interpretive choices move into corpus building, parameter settings and the reading of output, so judgment is relocated rather than removed.)
+- Topic models find the themes the writers intended. (They find words that co-occur statistically, and the historian has to decide whether a cluster means anything historically.)
+- A digitized archive is a fair sample of the past. (Digitization tends to favor printed, institutional and English-language material, so the corpus can carry systematic gaps.)
+- A striking computational pattern is a finished finding. (It is better treated as a question that close reading and archival work then test.)
+
 ## Questions
 
 ```yaml

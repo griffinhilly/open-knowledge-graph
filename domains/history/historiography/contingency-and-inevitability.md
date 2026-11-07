@@ -31,6 +31,12 @@ Contingency means historical outcomes were not inevitable or predetermined by la
 ## How It's Best Learned
 Use counterfactual reasoning: identify a pivotal moment and work through plausible alternatives to understand what made the actual outcome contingent.
 
+## Common Misconceptions
+- A contingent event is one that had no cause. (Contingent events are fully caused; the claim is that different choices or accidents within the same conditions could have produced a different outcome.)
+- If strong structural pressures existed, the outcome was inevitable. (Structures can make an outcome more likely while leaving it open, and the threshold question asks when the alternatives actually closed.)
+- Listing the causes of an outcome proves it had to happen. (Working backward from a known result can make it look foreordained, which is the teleological error.)
+- Historians must choose between pure chance and pure determinism. (Many work with contingency within structured possibility, in which structure limits options and decisions select among them.)
+
 ## Questions
 
 ```yaml

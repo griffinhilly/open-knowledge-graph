@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 A covering space of X is a space X̃ with a local homeomorphism p: X̃ → X such that every point has an evenly covered neighborhood. Covering spaces provide a way to 'unwind' a space and relate its fundamental group to the structure of covering space. The universal cover is the simply connected covering space containing all others.
 
+## How It's Best Learned
+Work the circle's finite covers by hand before the general theory. For p(z) = z³ on the unit circle, the fiber over 1 is the three cube roots of unity. The loop that goes once around lifts to a path from 1 to e^{2πi/3}, which is not closed. The loop that goes three times around lifts to a closed loop. So the image of p* is 3ℤ, with index 3, matching the three sheets.
+
+## Common Misconceptions
+- Every surjective local homeomorphism is a covering map. (The map t ↦ e^{2πit} from (0, 2) onto the circle is a surjective local homeomorphism, but no neighborhood of the point 1 is evenly covered.)
+- A loop in X lifts to a loop in the covering space. (A lift can fail to close up. The loop once around S¹ lifts in ℝ to a path from 0 to 1.)
+- All covering spaces of a space have the same number of sheets. (The circle has an n-sheeted cover z ↦ zⁿ for each n ≥ 1, as well as the infinite-sheeted cover by ℝ.)
+
 ## Questions
 
 ```yaml
@@ -59,7 +67,7 @@ A covering space of X is a space X̃ with a local homeomorphism p: X̃ → X suc
 - question: "A covering map p: X̃ → X is injective — distinct points in X̃ are mapped to distinct points in X."
   type: true-false
   answer: false
-  explanation: "A covering map is typically many-to-one, not injective. The defining property is that it is a local homeomorphism — every point has a neighborhood that maps homeomorphically — but globally, multiple distinct points in X̃ can map to the same point in X. For p: ℝ → S¹, every point on the circle has countably infinitely many preimages (all integers differing by 1). Covering maps are local homeomorphisms, not global homeomorphisms. A covering map is injective only in the trivial case where X̃ = X and p is the identity."
+  explanation: "A covering map is typically many-to-one, not injective. The defining property is that it is a local homeomorphism — every point has a neighborhood that maps homeomorphically — but globally, multiple distinct points in X̃ can map to the same point in X. For p: ℝ → S¹, every point on the circle has countably infinitely many preimages (all integers differing by 1). Covering maps are local homeomorphisms, not global homeomorphisms. A covering map is injective only when it has a single sheet, in which case it is a homeomorphism."
 
 - question: "Explain the correspondence between covering spaces of X and subgroups of π₁(X), using the example p: ℝ → S¹ to illustrate."
   type: short-answer
@@ -73,6 +81,6 @@ A covering space provides a systematic way to "unfold" a space that has complica
 
 The formal definition: a covering space is a space X̃ together with a map p: X̃ → X (the **covering map**) such that every point x ∈ X has an **evenly covered** open neighborhood U — meaning p⁻¹(U) is a disjoint union of open sets in X̃, each mapped homeomorphically onto U by p. Think of p as a projection from multiple "sheets" of X̃ down to X. The canonical example is p: ℝ → S¹ defined by p(t) = e^{2πit} — the real line wraps around the circle infinitely many times. Over each small arc of S¹ there are infinitely many disjoint intervals in ℝ, each mapping homeomorphically onto that arc.
 
-The deep structure is the **correspondence between covering spaces and subgroups of π₁(X)**. Given a connected covering space X̃ of X, the induced map p*: π₁(X̃, x̃₀) → π₁(X, x₀) is injective, and its image is a subgroup of π₁(X, x₀). Different covering spaces correspond to different subgroups — the more of the fundamental group that "lifts" to a loop in X̃ (rather than becoming contractible), the larger the subgroup. The **universal cover** X̃ corresponds to the trivial subgroup: it is simply connected (π₁ = 0) and is covered by all other covering spaces. For S¹, the universal cover is ℝ, consistent with π₁(S¹) ≅ ℤ.
+The deep structure is the **correspondence between covering spaces and subgroups of π₁(X)**. Given a connected covering space X̃ of X, the induced map p*: π₁(X̃, x̃₀) → π₁(X, x₀) is injective, and its image is a subgroup of π₁(X, x₀). Different covering spaces correspond to different subgroups — the more of the fundamental group that "lifts" to a loop in X̃ (rather than becoming contractible), the larger the subgroup. The **universal cover** X̃ corresponds to the trivial subgroup: it is simply connected (π₁ = 0) and covers every other connected covering space. For S¹, the universal cover is ℝ, consistent with π₁(S¹) ≅ ℤ.
 
 The **deck transformations** — homeomorphisms X̃ → X̃ that commute with p — form a group that acts freely on each fiber p⁻¹(x). For a universal cover, this group is isomorphic to π₁(X) itself. The topology of X is recovered as the quotient X̃ / π₁(X). This correspondence between the geometry of covering spaces, the algebra of subgroups, and the action of deck transformations is one of the clearest examples of the interplay between algebraic and topological thinking, and it is the prototype for the broader theory of fiber bundles and principal G-bundles.

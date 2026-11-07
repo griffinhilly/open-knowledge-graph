@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Potential field methods interpret gravity and magnetic anomalies to map subsurface density and magnetization contrasts. Forward modeling computes fields from assumed geometries and properties; inverse problems recover density/magnetization distributions from observed fields. Filtering and analytical continuation enhance anomalies and separate regional from residual components; derivatives (first, second, analytic signal) highlight edges and delineate structural boundaries.
 
+## How It's Best Learned
+Treat upward continuation as a filter that multiplies each wavelength λ by e^(−2πh/λ). Raising the data 1 km keeps about 88% of a 50 km wavelength but only about 4% of a 2 km wavelength. Apply it to a synthetic map with one deep and one shallow source and watch the shallow one fade. Then compare the vertical derivative and analytic signal on the same map.
+
+## Common Misconceptions
+- Downward continuation can be carried to any depth to image the source directly. (It is valid only in the source-free space above the sources. Noise grows rapidly as you continue downward, and the result breaks down once you reach a source.)
+- The residual left after removing the regional field is the true local signal. (The split depends on the filter or surface chosen. A different choice can create or remove residual anomalies.)
+- A body that shows up in gravity will show up the same way in magnetics. (Gravity responds to density and magnetics to magnetization. A body can have a strong contrast in one and almost none in the other, and magnetic anomalies also depend on field direction.)
+
 ## Questions
 
 ```yaml

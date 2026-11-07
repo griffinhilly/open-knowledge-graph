@@ -35,6 +35,14 @@ status: validated
 ## Core Idea
 For a linear transformation T: V → W with V finite-dimensional: dim(V) = rank(T) + nullity(T), where rank(T) = dim(im(T)) and nullity(T) = dim(ker(T)). For an m × n matrix A: rank(A) + nullity(A) = n. This fundamental relation connects the sizes of key subspaces.
 
+## How It's Best Learned
+Row-reduce a 3 × 4 matrix to A = [[1, 2, 0, 3], [0, 0, 1, 4], [0, 0, 0, 0]] and label each column as pivot or free. Columns 1 and 3 are pivots (rank 2), and columns 2 and 4 are free (nullity 2). Every column is one or the other, so the sum is 4, the number of columns. Seen this way, the theorem is a column count.
+
+## Common Misconceptions
+- Rank plus nullity equals the number of rows. (It equals n, the number of columns, which is the dimension of the domain.)
+- The kernel and image split V into two complementary pieces. (The image lives in W, and the theorem compares dimensions only; for N = [[0, 1], [0, 0]], the kernel and image are the same line.)
+- The rank of a matrix is the number of nonzero rows it has. (That count works only after row reduction; [[1, 2], [2, 4]] has two nonzero rows but rank 1.)
+
 ## Questions
 
 ```yaml

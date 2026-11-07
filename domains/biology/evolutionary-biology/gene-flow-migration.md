@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Gene flow (migration) introduces alleles from one population into another, homogenizing allele frequencies across populations and reducing genetic differentiation. Even small amounts of gene flow can counteract local adaptation and prevent speciation by swamping local selection. Conversely, restriction of gene flow allows populations to diverge and can lead to reproductive isolation and speciation.
 
+## How It's Best Learned
+Iterate the island model by hand or in a spreadsheet: p′(next) = (1 − m)p′ + mp. With m = 0.05, mainland p = 0.2 and island p′ = 0.9, the gap shrinks by 5% each generation and halves in about 14 generations. Then compare Wright's approximation FST ≈ 1/(4Nm + 1) at Nm = 1 (FST = 0.2) and Nm = 10 (FST about 0.02) to see why the number of migrants matters.
+
+## Common Misconceptions
+- Any individual that moves between populations adds gene flow. (Only migrants that breed in the new population transfer alleles. Gene flow can also travel as pollen or gametes without whole organisms moving.)
+- For neutral differentiation, the fraction of migrants is what matters. (In the island model, FST depends on Nm, the number of migrants per generation. About one migrant per generation limits drift-driven differentiation whatever the population size.)
+- A high FST means the populations are isolated right now. (FST reflects history. Recently separated populations can still show low FST, and a bottleneck in one population can raise FST quickly.)
+- Gene flow is harmful to a local population. (It can swamp local adaptation, but it can also bring in useful alleles and reduce inbreeding in small populations.)
+
 ## Questions
 
 ```yaml

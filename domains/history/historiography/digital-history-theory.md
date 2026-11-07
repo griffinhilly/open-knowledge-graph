@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Digital history uses computational methods—textual analysis, data visualization, mapping, network analysis—to ask new questions about historical evidence at scale. Digital historians create databases of historical documents, analyze patterns in large textual corpora, and visualize networks of relationships across time. These methods complement traditional close reading while raising new questions about reproducibility, interpretation, and what large-scale patterns reveal about historical meaning.
 
+## How It's Best Learned
+Pair one distant-reading result with one close reading. For example, chart how often a word such as "liberty" appears across decades of newspapers, then read three articles from the peak year and three from a low year. Write down what the chart shows that the articles cannot, and what the articles show that the chart cannot. This makes the hermeneutic gap between pattern and meaning concrete.
+
+## Common Misconceptions
+- Distant reading is a shortcut that replaces close reading. (The two answer different questions: one finds patterns across many texts, the other interprets particular texts in depth.)
+- A word that appears more often over time must have become more important. (Rising frequency can also reflect changes in genre, in which sources were preserved or digitized, or in the word's meaning.)
+- Network centrality proves a person was influential. (Centrality depends on what the historian counted as a link and which records survived, so it is a starting point for interpretation.)
+- Digital history is only about tools and software. (Its theory concerns what large-scale patterns can and cannot reveal about historical meaning.)
+
 ## Questions
 
 ```yaml

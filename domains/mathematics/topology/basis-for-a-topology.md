@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 A basis for a topology is a collection of open sets such that every open set is a union of basis sets. Working with a basis is often easier than the entire topology since you only need to verify properties for basis elements. This is how metric topologies and product topologies are typically constructed.
 
+## How It's Best Learned
+Test candidate collections against the two basis conditions. Open intervals in ℝ pass. Closed intervals [a, b] fail the second condition, since [0, 1] ∩ [1, 2] = {1} contains no closed interval with a < b. Then sketch ℝ² and show that every open disk around a point contains an open square around it, and the reverse, so both collections give the same topology.
+
+## Common Misconceptions
+- Every open set is a basis element. (Most open sets are unions of several basis elements. (0, 1) ∪ (3, 5) is open in ℝ but is not an interval.)
+- The second condition says B₁ ∩ B₂ must itself be in the basis. (It asks only for some basis element around each point of the intersection. Two overlapping open disks meet in a lens shape, which is not a disk.)
+- A topology has one correct basis. (Many collections generate the same topology. Open disks and open squares both generate the standard topology on ℝ².)
+- Every open set in the product topology is a rectangle U × V. (Rectangles form a basis, but an open disk in ℝ² is open and is not a product of two sets.)
+
 ## Questions
 
 ```yaml
@@ -50,7 +59,7 @@ A basis for a topology is a collection of open sets such that every open set is 
   answer: true
   explanation: "This analogy is precise and useful. Just as every vector is a linear combination of basis vectors, every open set is a union of basis elements. Neither the topology nor the vector space needs to be specified element-by-element once a basis is given — the basis determines it completely. The analogy helps explain why bases are so useful: working with a few well-chosen generating sets is far more tractable than the full structure."
 
-- question: "In a metric space, nearly every open set in the metric topology is an open ball B(x, r) for some center x and radius r."
+- question: "In a metric space, every open set in the metric topology is an open ball B(x, r) for some center x and radius r."
   type: true-false
   answer: false
   explanation: "Open balls form a BASIS for the metric topology, meaning every open set is a union of open balls — but most open sets are not themselves open balls. For example, in ℝ with the Euclidean metric, (0,1) ∪ (2,3) is open (it is a union of open intervals, which are open balls in ℝ) but is not itself a single open interval. Confusing 'basis element' with 'open set' is one of the most common errors when first learning topology."
@@ -63,7 +72,7 @@ A basis for a topology is a collection of open sets such that every open set is 
 
 ## Explainer
 
-A topology can contain enormously many open sets — in principle, uncountably many. Checking a property for every open set is impractical. A **basis** is a compact generating set: a smaller collection ℬ such that every open set in the topology is a union of elements of ℬ. This is analogous to a basis in linear algebra, where every vector is a linear combination of basis vectors — except here, "combination" means union rather than addition. The topology is completely determined by ℬ, yet ℬ is usually far simpler to describe.
+A topology can contain enormously many open sets — in principle, uncountably many. Checking a property for every open set is impractical. A **basis** is a generating set: a smaller collection ℬ such that every open set in the topology is a union of elements of ℬ. This is analogous to a basis in linear algebra, where every vector is a linear combination of basis vectors — except here, "combination" means union rather than addition. The topology is completely determined by ℬ, yet ℬ is usually far simpler to describe.
 
 A collection ℬ of subsets of X qualifies as a basis for a topology if two conditions hold: (1) every point of X belongs to some basis element (ℬ covers X), and (2) whenever a point x lies in B₁ ∩ B₂ for basis elements B₁, B₂ ∈ ℬ, there exists a basis element B₃ ∈ ℬ with x ∈ B₃ ⊆ B₁ ∩ B₂. The second condition ensures that intersections of basis elements, though not necessarily basis elements themselves, are still expressible as unions of basis elements — so the collection {unions of ℬ-elements} is closed under finite intersection, as a topology requires. When these two conditions hold, declaring the topology to be all unions of elements of ℬ is well-defined and produces a genuine topology.
 

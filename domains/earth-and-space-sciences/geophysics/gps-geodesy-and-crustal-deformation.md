@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 Global Positioning System (GPS) and modern satellite geodesy measure crustal motions with millimeter precision, revealing plate velocities, interseismic strain accumulation, and coseismic/postseismic deformation. GPS networks constrain plate kinematics, validate plate motion models, and detect uplift or subsidence from loading, volcanism, or groundwater withdrawal. Time-series analysis reveals secular trends and transient signals (slow-slip events, postseismic relaxation), providing constraints on lithospheric rheology and fault mechanical properties.
 
+## How It's Best Learned
+Fit the locked-fault model v(x) = (V/π)·arctan(x/D) to a velocity profile across a strike-slip fault. With slip rate V = 40 mm/yr and locking depth D = 15 km, a station 15 km from the fault moves 10 mm/yr relative to the trace, half the far-field 20 mm/yr. Then change D and watch the profile widen or narrow before plotting real station velocities against the curve.
+
+## Common Misconceptions
+- A GPS velocity is an absolute speed for the station. (Velocities are given relative to a chosen reference frame or fixed plate; changing the frame changes the numbers but not the relative motions or strain.)
+- Vertical GPS positions are as precise as horizontal ones. (Vertical precision is typically two to three times worse, so small uplift signals need longer time series.)
+- GPS strain maps show when the next earthquake will happen. (They show where strain is building and how fast, but not when a fault will release it.)
+
 ## Questions
 
 ```yaml

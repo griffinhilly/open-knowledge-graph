@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 A space is sequentially compact if every sequence has a convergent subsequence. In metric spaces, sequential compactness is equivalent to compactness, but in general topology they differ. Sequential compactness characterizes compactness using sequences, the more intuitive notion from calculus.
 
+## How It's Best Learned
+Test several subsets of ℝ, namely [0, 1], (0, 1), [0, ∞), and ℤ, and for each failure name the sequence that witnesses it. Then run the maximizing-sequence argument for f(x) = x on [0, 1). The sequence 1 − 1/n pushes f toward its supremum 1, but no subsequence converges inside [0, 1). That pinpoints the step where sequential compactness is used.
+
+## Common Misconceptions
+- Sequential compactness and compactness are the same in every topological space. (They agree in metric spaces. The product {0, 1}^ℝ is compact by Tychonoff's theorem but not sequentially compact.)
+- A subsequence that converges to a point outside X still counts. (The limit must lie in X. In (0, 1), the sequence 1/n converges in ℝ to 0, which is not in the space.)
+- Every bounded sequence has a convergent subsequence, in any space. (Bolzano-Weierstrass is a fact about ℝⁿ. In ℓ², the unit vectors are bounded but no subsequence converges.)
+
 ## Questions
 
 ```yaml
@@ -52,7 +60,7 @@ A space is sequentially compact if every sequence has a convergent subsequence. 
 - question: "A space can be sequentially compact without being compact (in the open-cover sense) when considered as a general topological space."
   type: true-false
   answer: true
-  explanation: "The equivalence between sequential compactness and compactness is a theorem specific to metric spaces, not a universal truth. In general topological spaces, there are sequentially compact spaces that are not compact (uncountable products can exhibit this), and compact spaces that are not sequentially compact. This is why topology distinguishes the two concepts: each captures a different aspect of 'finiteness' in a space, and they only coincide when the metric provides enough structure for sequences to do the full job."
+  explanation: "The equivalence between sequential compactness and compactness is a theorem specific to metric spaces, not a universal truth. In general topological spaces, there are sequentially compact spaces that are not compact (such as the ordinal space [0, ω₁)), and compact spaces that are not sequentially compact (uncountable products can exhibit this). This is why topology distinguishes the two concepts: each captures a different aspect of 'finiteness' in a space, and they only coincide when the metric provides enough structure for sequences to do the full job."
 
 - question: "The open interval (0, 1) fails to be sequentially compact because it contains unbounded sequences."
   type: true-false

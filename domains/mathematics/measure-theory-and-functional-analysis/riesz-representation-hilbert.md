@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 The Riesz representation theorem states that for any bounded linear functional f on a Hilbert space H, there exists a unique y ∈ H such that f(x) = ⟨x, y⟩ for all x. This establishes an isometric isomorphism between H and its dual H*.
 
+## How It's Best Learned
+Find representers by hand, then run the kernel construction once. On L²[0,1], f(g) = ∫₀^(1/2) g dx is represented by y = 1_[0,1/2], so ‖f‖ = ‖y‖ = 1/√2. In ℝ², f(x) = x₁ + x₂ has kernel x₁ = −x₂; take z = (1,1)/√2, so f(z) = √2 and y = f(z)z = (1,1), as expected.
+
+## Common Misconceptions
+- Every linear functional on H is represented by some y. (Only bounded ones are, since x ↦ ⟨x, y⟩ is always bounded. Infinite-dimensional Hilbert spaces also carry unbounded linear functionals.)
+- Completeness plays no role. (On the finitely supported sequences with the ℓ² inner product, f(x) = Σxₙ/n is bounded, but its would-be representer (1, 1/2, 1/3, ...) is not in that space.)
+- Over ℂ, the map y ↦ f_y is linear. (It is conjugate-linear: f_(αy) = ᾱ f_y, because the inner product is conjugate-linear in its second slot.)
+
 ## Questions
 
 ```yaml
@@ -48,7 +56,7 @@ The Riesz representation theorem states that for any bounded linear functional f
   answer: true
   explanation: "True, and this is the pivotal step. Continuity of f (which follows from boundedness) ensures that ker(f) = f⁻¹({0}) is closed. The orthogonal complement ker(f)^⊥ is then non-trivial (since f ≠ 0), and the representing vector y is constructed from a unit vector in ker(f)^⊥. Without closedness, the orthogonal decomposition H = ker(f) ⊕ ker(f)^⊥ would not be valid."
 
-- question: "For any Banach space X, there is typically an isometric isomorphism between X and its dual X*."
+- question: "For any Banach space X, there is an isometric isomorphism between X and its dual X*."
   type: true-false
   answer: false
   explanation: "False. Hilbert spaces are self-dual (H ≅ H* isometrically) by the Riesz theorem, but this is special. For Banach spaces the dual can be entirely different. The dual of L^p is L^q where 1/p + 1/q = 1 (for p ≠ 2), so (L^p)* ≅ L^q ≇ L^p when p ≠ 2. The dual of L^1 is L^∞, not L^1. Only for p = 2, where L² is a Hilbert space, does self-duality hold."

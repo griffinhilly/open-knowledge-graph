@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 The boundary ∂A = cl(A) \ int(A) consists of points where every neighborhood intersects both A and its complement. Equivalently, ∂A = cl(A) ∩ cl(X \ A). A set is closed iff ∂A ⊆ A; it is open iff ∂A ∩ A = ∅. Boundaries capture where sets 'edge' into their complement.
 
+## How It's Best Learned
+Compute the boundary of each set two ways, as cl(A) \ int(A) and as cl(A) ∩ cl(X \ A), and check that the answers match. Use (0, 1), [0, 1], {0}, ℤ, and ℚ in ℝ. The last case is the surprise: cl(ℚ) = ℝ and int(ℚ) = ∅, so ∂ℚ is all of ℝ. That example breaks the picture of a boundary as a thin edge.
+
+## Common Misconceptions
+- An open set has no boundary. (An open set contains none of its boundary points, but the boundary can be nonempty. The boundary of (0, 1) is {0, 1}.)
+- A boundary is a thin edge, like a curve around a region. (A boundary can be large. In ℝ, the boundary of ℚ is all of ℝ.)
+- Every boundary point of A is a limit point of A. (In ℝ, the set {0} has boundary {0}, but 0 is an isolated point of {0}, not a limit point of it.)
+- The boundary depends only on the set A. (It depends on the ambient space too. The interval (0, 1) has boundary {0, 1} in ℝ but empty boundary as a subset of the space (0, 1) itself.)
+
 ## Questions
 
 ```yaml
@@ -69,4 +78,4 @@ The geometric intuition is sharp: a boundary point is one where you cannot take 
 
 The classic example is the closed disk A = {(x, y) : x² + y² ≤ 1} in the plane. Its interior is the open disk (strict inequality), and its closure is itself. The boundary ∂A is the circle {(x, y) : x² + y² = 1} — the unit circle, exactly where the inside meets the outside. Every point on the circle has neighborhoods that reach both into the disk and out of it. For the open disk B = {(x, y) : x² + y² < 1}, the interior is again B itself, the closure is the closed disk, so ∂B = the same unit circle. The boundary is the same regardless of whether you start with the open or closed disk — it belongs to neither intrinsically but separates both.
 
-The relationship between a set and its boundary reveals whether the set is open or closed. A **closed** set contains its entire boundary: ∂A ⊆ A. A closed set cannot "reject" a boundary point because closure requires containing all limit points, and boundary points are limit points of A. An **open** set contains none of its boundary: ∂A ∩ A = ∅. If a point is on the boundary, it has no neighborhood entirely inside A, so it fails the definition of an interior point and thus cannot be in an open set. A set is clopen (both open and closed) precisely when it has an empty boundary, meaning there are no transitional points at all. In a connected space, only ∅ and X itself are clopen, which is why the existence of a nonempty proper clopen subset is the definition of disconnectedness.
+The relationship between a set and its boundary reveals whether the set is open or closed. A **closed** set contains its entire boundary: ∂A ⊆ A. A closed set cannot "reject" a boundary point because a closed set equals its own closure, and every boundary point lies in the closure of A. An **open** set contains none of its boundary: ∂A ∩ A = ∅. If a point is on the boundary, it has no neighborhood entirely inside A, so it fails the definition of an interior point and thus cannot be in an open set. A set is clopen (both open and closed) precisely when it has an empty boundary, meaning there are no transitional points at all. In a connected space, only ∅ and X itself are clopen, which is why the existence of a nonempty proper clopen subset is the definition of disconnectedness.

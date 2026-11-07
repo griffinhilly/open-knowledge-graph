@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Parapatric speciation occurs despite ongoing gene flow between diverging populations, typically driven by strong disruptive selection or polyploidy. Selection for local adaptation can build reproductive isolation faster than gene flow erodes it, particularly in plants with polyploidy. Examples include grass species evolving heavy-metal tolerance on mine tailings.
 
+## How It's Best Learned
+Sketch a transect across the mine boundary and plot the frequency of a tolerance allele against distance. Draw one curve where selection is weak relative to migration (a shallow, wide cline) and one where it is strong (a steep cline). Then mark where assortative mating would have to arise for the cline to turn into a reproductive barrier. Compare with sketches for allopatric and sympatric speciation.
+
+## Common Misconceptions
+- Parapatric populations are separated, just less completely than allopatric ones. (They occupy adjacent ranges that meet in a contact zone, and individuals, seeds or pollen still cross between them.)
+- Any gene flow between two populations prevents them from diverging. (Divergence can persist when selection against immigrants and hybrids is strong relative to the migration rate.)
+- A steep cline in one adapted trait means speciation is complete. (A few locally adapted genes can differ while the rest of the genome still mixes; speciation needs reproductive isolation to build across the contact zone.)
+
 ## Questions
 
 ```yaml
@@ -42,7 +50,7 @@ Parapatric speciation occurs despite ongoing gene flow between diverging populat
     - "Polyploids evolve in geographically isolated refugia and have no opportunity to mate with parental diploids"
     - "The regulatory incompatibilities between duplicated genomes prevent any gene expression and polyploids are always inviable"
   answer: 1
-  explanation: "Allopolyploidy (hybridization + genome doubling) produces an organism with a complete chromosome set from each parent species. When this polyploid mates back with either parent, the resulting offspring has an unbalanced chromosome set — one set from the polyploid plus one set from the diploid parent — that cannot complete meiosis properly, causing sterility. The new polyploid is therefore immediately reproductively isolated from both parents, representing instant speciation. This is why polyploidy is a powerful and rapid route to speciation in plants, bypassing the gradual accumulation of genetic incompatibilities."
+  explanation: "Allopolyploidy (hybridization + genome doubling) produces an organism with a complete chromosome set from each parent species. When this polyploid mates back with either parent, the resulting offspring has an unbalanced chromosome set — two sets from the polyploid's gamete plus one set from the diploid parent's — that cannot complete meiosis properly, causing sterility. The new polyploid is therefore immediately reproductively isolated from both parents, representing instant speciation. This is why polyploidy is a powerful and rapid route to speciation in plants, bypassing the gradual accumulation of genetic incompatibilities."
 
 - question: "In parapatric speciation, reproductive isolation is present before geographic separation occurs — the populations diverge while remaining in contact."
   type: true-false

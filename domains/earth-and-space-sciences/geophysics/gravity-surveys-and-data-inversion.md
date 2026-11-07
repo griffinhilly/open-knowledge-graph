@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Gravity surveys measure the gravitational acceleration at stations on the surface or from aircraft (airborne gravity). Data reduction (free-air, Bouguer, terrain corrections) isolates the gravitational effect of subsurface masses. Inversion methods (Tikhonov regularization, depth weighting) recover 3D density models from gravity anomalies, with resolution inversely proportional to depth. Modern approaches incorporate constraints from seismic, well-log, and geologic information to improve uniqueness.
 
+## How It's Best Learned
+Before inverting anything, forward-model a buried sphere. Its vertical anomaly is G·M·z/(x² + z²)^(3/2), which falls to half its peak at x ≈ 0.77z. Plot spheres at 2 km and 5 km depth to see that deeper sources give broader, weaker peaks. Then invert one synthetic profile twice, with and without depth weighting, and compare where each run places the mass.
+
+## Common Misconceptions
+- With enough stations and precise enough readings, the inversion will give one correct answer. (Non-uniqueness is a property of potential fields. Even complete, error-free surface data can be fit by many density models, so only independent constraints or added assumptions narrow the choice.)
+- The Bouguer anomaly shows the actual density of the rock under each station. (It shows lateral density contrasts relative to the reduction density, and its values change if a different correction density is chosen.)
+- The smooth model a regularized inversion returns is what the subsurface really looks like. (Regularization picks the smoothest or simplest model that fits the data. Real geology can have sharp contacts that the inversion blurs out.)
+
 ## Questions
 
 ```yaml

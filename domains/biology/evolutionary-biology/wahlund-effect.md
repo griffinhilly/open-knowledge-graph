@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Subdivided populations show reduced heterozygosity compared to Hardy-Weinberg prediction due to allele frequency variation among subpopulations. This heterozygote deficiency increases with population subdivision and isolation.
 
+## How It's Best Learned
+Pool two equal subpopulations in Hardy-Weinberg equilibrium and compute the gap yourself. With p = 0.8 and 0.2, each has 0.32 heterozygotes against a pooled 2pq of 0.50, a deficit of 0.18. With p = 0.6 and 0.4, each has 0.48, so the deficit is 0.02. In both cases the deficit equals twice the variance in p. Then let the pooled group mate at random for one generation.
+
+## Common Misconceptions
+- A heterozygote deficit in a sample is proof of inbreeding. (Pooling groups with different allele frequencies gives the same deficit even when every group mates at random.)
+- The deficit stays after the subpopulations merge and interbreed. (One generation of random mating across the merged population restores Hardy-Weinberg proportions at a locus, so the deficit goes away.)
+- Only small or inbred subpopulations produce the effect. (The size of the deficit depends on how much allele frequencies differ among groups. Large, randomly mating groups show it whenever their frequencies differ.)
+- Pooling the groups loses alleles. (The pooled allele frequency is the weighted average of the group frequencies. Only the genotype proportions depart from 2pq.)
+
 ## Questions
 
 ```yaml

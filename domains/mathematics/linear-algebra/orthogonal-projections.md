@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 The orthogonal projection of vector b onto a subspace W is the unique point proj_W(b) ∈ W closest to b. For a subspace spanned by orthonormal vectors u₁, ..., uₖ, proj_W(b) = (⟨b,u₁⟩u₁ + ... + ⟨b,uₖ⟩uₖ). Projections are fundamental to least-squares and Gram–Schmidt.
 
+## How It's Best Learned
+Project b = (3, 1, 2) onto the line through u = (1, 1, 0)/√2. Since ⟨b, u⟩ = 4/√2, the projection is (2, 2, 0) and the error is (1, −1, 2), which is perpendicular to u. Then repeat with the unnormalized v = (1, 1, 0) in the same formula. You get (4, 4, 0), and its error is not perpendicular to v, which shows why unit length matters.
+
+## Common Misconceptions
+- The projection formula works with any spanning vectors for W. (Σ⟨b, uᵢ⟩uᵢ requires orthonormal vectors; with vectors that are not unit length or not orthogonal it in general gives a point that is not the closest one.)
+- The projection of b is always strictly shorter than b. (||proj_W(b)|| ≤ ||b||, with equality when b already lies in W.)
+- You can recover b from its projection. (Every vector b + z with z in W⊥ has the same projection, so the W⊥ part is lost.)
+- A projection matrix is an orthogonal matrix. (A projection matrix P satisfies P² = P and Pᵀ = P; it is orthogonal only when W is the whole space and P = I.)
+
 ## Questions
 
 ```yaml
@@ -52,7 +61,7 @@ The orthogonal projection of vector b onto a subspace W is the unique point proj
 - question: "The formula proj_W(b) = ⟨b,u₁⟩u₁ + ⟨b,u₂⟩u₂ gives the correct orthogonal projection for any basis {u₁, u₂} of W."
   type: true-false
   answer: false
-  explanation: "False. This formula works only when {u₁, u₂} is an orthonormal basis — each vector has unit length and they are mutually orthogonal. For a general (non-orthonormal) basis, the formula overcounts or undercounts contributions because the basis vectors are not independent in the inner-product sense. The correct formula for a non-orthonormal basis requires the Gram matrix (AᵀA)⁻¹Aᵀ — precisely the least-squares normal equation. This is why Gram-Schmidt, which converts any basis to an orthonormal one, is so useful."
+  explanation: "False. This formula works only when {u₁, u₂} is an orthonormal basis — each vector has unit length and they are mutually orthogonal. For a general (non-orthonormal) basis, the formula overcounts or undercounts contributions because the basis vectors are not independent in the inner-product sense. For a non-orthonormal basis stored as the columns of A, the correct formula uses the Gram matrix AᵀA: proj_W(b) = A(AᵀA)⁻¹Aᵀb, the same formula the least-squares normal equations give. This is why Gram-Schmidt, which converts any basis to an orthonormal one, is so useful."
 
 - question: "The orthogonal projection of b onto W typically lies strictly between b and the origin."
   type: true-false

@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 The subspace topology on a subset A of a topological space X is defined by taking intersections of open sets in X with A. This makes A itself a topological space and ensures that the inclusion map is continuous. It provides a natural way to inherit topological structure from a larger space.
 
+## How It's Best Learned
+Compute traces U ∩ A on odd subsets of ℝ. For A = ℤ, the trace (n − 1/2, n + 1/2) ∩ ℤ = {n}, so ℤ gets the discrete topology. For A = [0, 1) ∪ {2}, show that {2} is open in A and that [0, 1) is both open and closed in A. Then prove that when A is open in X, a set is open in A exactly when it is open in X.
+
+## Common Misconceptions
+- A set that is open in A is open in X. ([0, 1/2) is open in [0, 1] but not in ℝ. The implication does hold when A itself is open in X.)
+- A set that is closed in A is closed in X. (In A = (0, 2), the set (0, 1] = [0, 1] ∩ A is closed in A, but it is not closed in ℝ.)
+- The open sets of A are the open sets of X that lie inside A. (That collection misses sets like [0, 1/2) in [0, 1], and it does not contain A itself unless A is open in X.)
+
 ## Questions
 
 ```yaml
@@ -51,7 +59,7 @@ The subspace topology on a subset A of a topological space X is defined by takin
   answer: true
   explanation: "This follows directly from the definition. A set is closed if its complement is open. C is closed in A iff A \\ C is open in A iff A \\ C = U ∩ A for some open U in X. Taking complements: C = A \\ (U ∩ A) = A ∩ (X \\ U). Let F = X \\ U, which is closed in X. Then C = F ∩ A. The same structure that defines open sets in A — intersecting open sets of X with A — gives an analogous description of closed sets."
 
-- question: "If U is open in the subspace topology on A ⊆ X, then U is expected to also be open in X."
+- question: "If U is open in the subspace topology on A ⊆ X, then U must also be open in X."
   type: true-false
   answer: false
   explanation: "This is the key subtlety of subspace topology: open in A does not imply open in X. A = [0, 1] with the subspace topology from ℝ: the set [0, 1/2) is open in A (it is (−1, 1/2) ∩ [0, 1]) but is not open in ℝ — it contains 0, which has no open interval around it lying entirely in [0, 1/2). Openness is always relative to a specific topology on a specific space. When we say U is open in A, we mean U belongs to the subspace topology τ_A, not that U belongs to the original topology τ on X."
@@ -59,6 +67,7 @@ The subspace topology on a subset A of a topological space X is defined by takin
 - question: "Explain why, in the subspace topology on A = [0, 1] ⊆ ℝ, the endpoint 0 is an interior point of A even though it is a boundary point of [0, 1] when viewed from ℝ."
   type: short-answer
   answer: "Interior in the subspace topology means 0 has an open neighborhood *within A's topology* that contains only points of A. The set [0, ε) = (−ε, ε) ∩ [0, 1] is open in A for any ε > 0, and it is a neighborhood of 0 lying entirely within A. Since A only 'sees' its own topology — it does not look outside itself to ℝ — 0 is surrounded by open sets within A. The concept of interior is always relative: a point is interior if it has an open neighborhood in the topology of the space it belongs to. From ℝ's perspective, 0 is a boundary point of [0, 1] because any open interval around 0 in ℝ contains points outside [0, 1]. But once we restrict to A, those external points no longer exist in our space, and 0 gains interior status."
+  explanation: "Interior and boundary are defined relative to an ambient space. In ℝ, every open interval around 0 contains negative numbers, which lie outside [0, 1], so 0 is on the boundary there. In A, the open sets are the traces U ∩ A, and the trace (−ε, ε) ∩ [0, 1] = [0, ε) contains 0 and lies inside A. Any space is open in itself, so every point of A is interior to A in the subspace topology."
 ```
 
 ## Explainer

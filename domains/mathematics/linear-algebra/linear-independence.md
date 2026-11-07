@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 Vectors v₁, ..., vₖ are linearly independent if c₁v₁ + ... + cₖvₖ = 0 implies all c_i = 0. They are linearly dependent if a non-trivial combination equals zero. Independence means no vector is a combination of others. For matrices: columns are independent iff rank equals the number of columns.
 
+## How It's Best Learned
+Test a set where the eye is fooled: (1,2,3), (4,5,6), (7,8,9). No two are parallel, yet row-reducing the matrix with these columns leaves only two pivots. Solve c₁v₁ + c₂v₂ + c₃v₃ = 0 to find the nontrivial solution (1, −2, 1), and confirm that (7,8,9) = 2(4,5,6) − (1,2,3).
+
+## Common Misconceptions
+- Independence is a property of each vector by itself. (It is a property of the whole set. (1,0) is independent on its own but dependent together with (2,0).)
+- Removing one vector from a dependent set makes it independent. ({(1,0), (2,0), (3,0)} is still dependent after any one vector is removed.)
+- Independent vectors must be perpendicular. ((1,0) and (1,1) are independent but not perpendicular. Nonzero orthogonal vectors are independent, but the converse fails.)
+
 ## Questions
 
 ```yaml
@@ -63,7 +71,7 @@ Vectors v₁, ..., vₖ are linearly independent if c₁v₁ + ... + cₖvₖ = 
 
 - question: "Why does the definition of linear independence use the algebraic condition 'c₁v₁ + ⋯ + cₖvₖ = 0 implies all cᵢ = 0' rather than a simpler geometric condition like 'no two vectors point in the same direction'?"
   type: short-answer
-  answer: "The geometric condition 'no two vectors are parallel' only catches pairwise collinearity — it misses the case where three or more vectors are dependent even though no two of them are parallel. For example, in ℝ², the vectors (1,0), (0,1), and (1,1) have no two pairs that are parallel, yet they are linearly dependent because (1,1) = 1·(1,0) + 1·(0,1). The algebraic definition captures all forms of redundancy simultaneously: any vector expressible as a combination of the others will produce a nontrivial solution to the zero-combination equation. The algebraic condition is both necessary and sufficient; the pairwise geometric condition is neither."
+  answer: "The geometric condition 'no two vectors are parallel' only catches pairwise collinearity — it misses the case where three or more vectors are dependent even though no two of them are parallel. For example, in ℝ², the vectors (1,0), (0,1), and (1,1) have no two pairs that are parallel, yet they are linearly dependent because (1,1) = 1·(1,0) + 1·(0,1). The algebraic definition captures all forms of redundancy simultaneously: any vector expressible as a combination of the others will produce a nontrivial solution to the zero-combination equation. The algebraic condition is both necessary and sufficient; the pairwise geometric condition is necessary but not sufficient."
   explanation: "Geometric intuition about 'direction' breaks down in higher dimensions and for more than two vectors. The algebraic definition is universal — it applies in any vector space of any dimension, including abstract ones where 'direction' has no geometric meaning."
 ```
 

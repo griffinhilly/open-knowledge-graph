@@ -1,0 +1,87 @@
+domains/mathematics/measure-theory-and-functional-analysis/banach-spaces.md	how	4	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/banach-spaces.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/banach-spaces.md	old:q:2	1	1	fixed	true-false stem garbled "every convergent sequence" into "most convergent sequence"; restored
+domains/mathematics/measure-theory-and-functional-analysis/bessel-inequality-parseval-identity.md	how	4	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/bessel-inequality-parseval-identity.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/bessel-inequality-parseval-identity.md	old:ex	1	1	fixed	with the stated orthonormal basis Parseval gives sum of squared coefficients = ∫|f|², not (1/2π)∫|f|²
+domains/mathematics/measure-theory-and-functional-analysis/bessel-parseval.md	how	3	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/bessel-parseval.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/bessel-parseval.md	old:q:3	1	1	fixed	true-false stem "should be" restored to "must be"
+domains/mathematics/measure-theory-and-functional-analysis/bounded-linear-operators.md	how	4	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/bounded-linear-operators.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/bounded-linear-operators.md	old:q:3	1	1	fixed	true-false stem "Most linear map" restored to "Every linear map"
+domains/mathematics/measure-theory-and-functional-analysis/bounded-linear-operators.md	old:core	1	1	fixed	‖T(x)‖_X corrected to ‖T(x)‖_Y
+domains/mathematics/measure-theory-and-functional-analysis/closed-graph-theorem.md	how	4	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/closed-graph-theorem.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/compact-operators.md	how	4	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/compact-operators.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/compact-operators.md	old:q:3	1	1	fixed	true-false stem "maps most bounded sequence" restored to "every"
+domains/mathematics/measure-theory-and-functional-analysis/compact-operators.md	old:ex	2	2	fixed	image of a bounded set under a matrix is bounded, not always closed (now: closure compact); garbled "no sequence of unit vectors must have" restored to "need not have"
+domains/mathematics/measure-theory-and-functional-analysis/dual-spaces-bounded-functionals.md	how	4	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/dual-spaces-bounded-functionals.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/dual-spaces-bounded-functionals.md	old:q:3	1	1	fixed	true-false stem "most bounded linear functionals" restored to "all"
+domains/mathematics/measure-theory-and-functional-analysis/fatou-lemma-measure-theory.md	how	4	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/fatou-lemma-measure-theory.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/fatou-lemma.md	how	4	1	fixed	"fₙ = 1 gives 1 = 1" only holds on [0,1]; the exercise allowed ℝ, where both sides are ∞; added "on [0,1]"
+domains/mathematics/measure-theory-and-functional-analysis/fatou-lemma.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/fourier-series-lp-theory.md	how	4	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/fourier-series-lp-theory.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/fourier-series-lp-theory.md	old:q:2	1	1	fixed	stem said "nearly every x", which would make the statement true (Carleson); restored "every x" so answer false is right
+domains/mathematics/measure-theory-and-functional-analysis/fredholm-alternative.md	how	5	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/fredholm-alternative.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/fredholm-alternative.md	old:q:2	2	2	fixed	stem "most bounded linear operators" restored to "all"; explanation's counterexample T = I fits the alternative (nontrivial kernel), replaced with T = I − S (S right shift on ℓ²), where I − T is injective but not onto
+domains/mathematics/measure-theory-and-functional-analysis/fubini-theorem.md	how	5	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/fubini-theorem.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/hahn-banach-theorem.md	how	5	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/hahn-banach-theorem.md	mis	6	0	ok	bullet 3 is correct but contradicted the old Explainer; Explainer fixed (see old:ex)
+domains/mathematics/measure-theory-and-functional-analysis/hahn-banach-theorem.md	old:ex	1	1	fixed	Explainer said dense subspaces make extension subtle; on a dense subspace the extension is unique by continuity. Replaced with infinite codimension plus keeping the norm bound
+domains/mathematics/measure-theory-and-functional-analysis/hilbert-spaces.md	how	4	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/hilbert-spaces.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/hilbert-spaces.md	old:q:3	1	1	fixed	true-false stem "provides most of the geometric information" restored to "all of"
+domains/mathematics/measure-theory-and-functional-analysis/holder-inequality.md	how	4	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/holder-inequality.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/holders-inequality.md	how	3	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/holders-inequality.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/lebesgue-integral-general-definition.md	how	4	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/lebesgue-integral-general-definition.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/lebesgue-integral-non-negative.md	how	3	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/lebesgue-integral-non-negative.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/lebesgue-integral-non-negative.md	old:ex	1	1	fixed	Explainer gave 1/√x near 0 as an infinite-integral example (its integral on (0,1] is 2); changed to 1/x
+domains/mathematics/measure-theory-and-functional-analysis/lebesgue-integral-simple-functions.md	how	3	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/lebesgue-integral-simple-functions.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/lebesgue-integral-simple-functions.md	old:core	1	1	fixed	notation 𝟙ₐᵢ corrected to 𝟙_{Aᵢ}
+domains/mathematics/measure-theory-and-functional-analysis/lebesgue-integral.md	how	3	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/lebesgue-integral.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/lebesgue-measure-euclidean-space.md	how	3	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/lebesgue-measure-euclidean-space.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/lebesgue-measure-euclidean-space.md	old:q:3	1	1	fixed	true-false stem "is expected to be" restored to "must be"
+domains/mathematics/measure-theory-and-functional-analysis/lebesgue-measure-euclidean-space.md	old:q:4:answer	1	1	fixed	answer used one slab of height ε around the plane (infinite volume, the exact error mis bullet 1 corrects); replaced with boxes of height 2ε·2⁻ʲ over unit squares
+domains/mathematics/measure-theory-and-functional-analysis/lebesgue-measure-real-line.md	how	3	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/lebesgue-measure-real-line.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/lebesgue-measure-real-line.md	old:q:3	1	1	fixed	true-false stem "Most subset" restored to "Every subset"
+domains/mathematics/measure-theory-and-functional-analysis/lebesgue-outer-measure.md	how	4	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/lebesgue-outer-measure.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/lebesgue-outer-measure.md	old:ex	1	1	fixed	"no measure can assign a size to every subset" is false (e.g. counting measure); restricted to translation-invariant countably additive measures extending volume (Vitali)
+domains/mathematics/measure-theory-and-functional-analysis/linear-functionals-dual-spaces.md	how	4	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/linear-functionals-dual-spaces.md	mis	6	1	fixed	bullet 1 spoke of unbounded "linear functionals" while Core Idea defines linear functionals as bounded; reworded to "linear map from X to the scalars"
+domains/mathematics/measure-theory-and-functional-analysis/linear-functionals-dual-spaces.md	old:q:3	1	1	fixed	true-false stem "is expected to also converge" restored to "must also converge"
+domains/mathematics/measure-theory-and-functional-analysis/lp-completeness.md	how	4	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/lp-completeness.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/lp-completeness.md	old:q:3	1	1	fixed	true-false stem "nearly every Cauchy sequence" restored to "every"
+domains/mathematics/measure-theory-and-functional-analysis/lp-norm-metric.md	how	5	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/lp-norm-metric.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/lp-norm-metric.md	old:q:4:explanation	1	1	fixed	said Hölder's inequality rests on Minkowski/the metric (reverse is true); replaced with completeness (Riesz-Fischer)
+domains/mathematics/measure-theory-and-functional-analysis/lp-space-completeness-riesz-fischer.md	how	5	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/lp-space-completeness-riesz-fischer.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/lp-space-completeness-riesz-fischer.md	old:q:2	1	1	fixed	true-false stem "Nearly every normed vector space" restored to "Every"
+domains/mathematics/measure-theory-and-functional-analysis/lp-space-completeness-riesz-fischer.md	old:ex	1	1	fixed	claimed a constant sequence 1_ℚ would converge outside the space; real issue is that without the quotient ‖·‖_p is a seminorm and limits are not unique
+domains/mathematics/measure-theory-and-functional-analysis/lp-spaces.md	how	3	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/lp-spaces.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/lp-spaces.md	old:q:3	1	1	fixed	true-false stem "most function in L¹" restored to "every function"
+domains/mathematics/measure-theory-and-functional-analysis/measurable-functions.md	how	4	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/measurable-functions.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/measurable-functions.md	old:q:3	1	1	fixed	true-false stem "is expected to be continuous at almost nearly every point" restored to "must be continuous at almost every point"
+domains/mathematics/measure-theory-and-functional-analysis/measurable-functions.md	old:core	1	1	fixed	Core Idea called measurable functions "the natural notion of integrable function", which contradicts mis bullet 1; now "the functions to which the Lebesgue integral can be applied"
+domains/mathematics/measure-theory-and-functional-analysis/measurable-sets-properties.md	how	4	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/measurable-sets-properties.md	mis	6	0	ok
+domains/mathematics/measure-theory-and-functional-analysis/measurable-sets-properties.md	old:ex	1	1	fixed	"Vitali sets are excluded from any σ-algebra" is false (the power set contains them); now "excluded from the Lebesgue σ-algebra"

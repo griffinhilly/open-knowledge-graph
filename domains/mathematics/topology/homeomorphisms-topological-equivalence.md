@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 A homeomorphism is a continuous bijection with continuous inverse; two spaces are topologically equivalent if a homeomorphism exists between them. Homeomorphisms preserve all topological properties—they capture the intuition that two spaces have the same shape if one can be continuously deformed into the other without tearing or gluing.
 
+## How It's Best Learned
+Build a table with spaces as rows ([0, 1], [0, 1), (0, 1), ℝ, S¹, the figure-eight) and invariants as columns: compact, connected, and whether removing each single point disconnects it. Use it to separate pairs. For example, removing 0 from [0, 1) leaves a connected set, but removing any point of (0, 1) disconnects it, so the two are not homeomorphic.
+
+## Common Misconceptions
+- A homeomorphism must be a physical deformation inside the surrounding space. (It is a map between the spaces alone. A band with one full twist is homeomorphic to a plain annulus, though neither can be deformed into the other inside ℝ³ without cutting.)
+- [0, 1] and (0, 1) differ because one is closed and the other open. (Open and closed are relative to an ambient space; every space is both open and closed in itself. Compactness is the invariant that separates them.)
+- If two spaces agree on every invariant you have checked, they are homeomorphic. (Agreement proves nothing. S² and the torus are both compact and connected, yet their fundamental groups differ. A homeomorphism has to be built.)
+
 ## Questions
 
 ```yaml
@@ -31,11 +39,11 @@ A homeomorphism is a continuous bijection with continuous inverse; two spaces ar
   type: multiple-choice
   options:
     - "It is a homeomorphism — any continuous bijection between topological spaces is a homeomorphism"
-    - "The inverse f⁻¹ is not continuous: a small open arc near the point (1, 0) on S¹ maps back to a set that is not open in [0, 1), violating the requirement for a continuous inverse"
+    - "The inverse f⁻¹ is not continuous: [0, 1/4) is open in [0, 1), but its image under f is an arc containing (1, 0) that is not open in S¹, violating the requirement for a continuous inverse"
     - "f is not bijective because the circle has more points than the half-open interval"
     - "f is not continuous at t = 0 because the interval is half-open"
   answer: 1
-  explanation: "A homeomorphism requires that BOTH f and f⁻¹ are continuous. Here f is a continuous bijection, but f⁻¹ fails at (1, 0): any small open arc on S¹ containing (1, 0) pulls back under f⁻¹ to a set that includes points near 0 AND near 1 in [0, 1) — which is not open in [0, 1). Option A is the central misconception: continuity of the bijection alone is insufficient. The continuous inverse condition is a real, non-trivial requirement."
+  explanation: "A homeomorphism requires that BOTH f and f⁻¹ are continuous. Here f is a continuous bijection, but f⁻¹ fails at (1, 0): the set [0, 1/4) is open in [0, 1), yet its image f([0, 1/4)) is an arc that contains (1, 0) and none of the points just below it, so it is not open in S¹. Since this image is the preimage of [0, 1/4) under f⁻¹, f⁻¹ is not continuous. Option A is the central misconception: continuity of the bijection alone is insufficient. The continuous inverse condition is a real, non-trivial requirement."
 
 - question: "You want to prove that the closed interval [0, 1] and the open interval (0, 1) are NOT homeomorphic. Which argument works?"
   type: multiple-choice
@@ -65,7 +73,7 @@ A homeomorphism is a continuous bijection with continuous inverse; two spaces ar
 
 ## Explainer
 
-In algebra, an isomorphism is a structure-preserving bijection — a map that respects all the operations and whose inverse does too. Topology has the same concept: a **homeomorphism** is the topological version of an isomorphism, a bijection that preserves the open-set structure in both directions. Formally, f: X → Y is a homeomorphism if f is bijective, f is continuous (preimages of open sets are open), and f⁻¹ is also continuous. That third condition is not automatic. A continuous bijection can fail to have a continuous inverse: map [0, 1) onto the circle S¹ by f(t) = (cos 2πt, sin 2πt). This is a continuous bijection, but f⁻¹ is not continuous at the point (1, 0) — a small open arc on the circle maps back to a set that is not open in [0, 1). The two spaces are not homeomorphic.
+In algebra, an isomorphism is a structure-preserving bijection — a map that respects all the operations and whose inverse does too. Topology has the same concept: a **homeomorphism** is the topological version of an isomorphism, a bijection that preserves the open-set structure in both directions. Formally, f: X → Y is a homeomorphism if f is bijective, f is continuous (preimages of open sets are open), and f⁻¹ is also continuous. That third condition is not automatic. A continuous bijection can fail to have a continuous inverse: map [0, 1) onto the circle S¹ by f(t) = (cos 2πt, sin 2πt). This is a continuous bijection, but f⁻¹ is not continuous at the point (1, 0) — the open set [0, 1/4) in [0, 1) maps to an arc that contains (1, 0) but is not open in S¹. The two spaces are not homeomorphic.
 
 The power of homeomorphisms is that they make two spaces completely interchangeable for any topological purpose. The open interval (0, 1) and the entire real line ℝ are homeomorphic: the map f(x) = tan(π(x − 1/2)) is a homeomorphism from (0, 1) to ℝ. They "look different" — one is bounded, the other infinite — but boundedness is not a topological concept (it depends on a metric, not just open sets). Both spaces have the same connected components, the same number of holes, the same "local" structure at every point. Topologically they are identical.
 

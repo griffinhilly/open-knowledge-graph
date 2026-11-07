@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 The direct product G × H of two groups is the Cartesian product with component-wise multiplication: (g₁, h₁)(g₂, h₂) = (g₁g₂, h₁h₂). Direct products are the basic way to build new groups from existing ones.
 
+## How It's Best Learned
+Count elements by order using ord(a, b) = lcm(ord(a), ord(b)). In ℤ₂ × ℤ₄ there is one element of order 1, three of order 2 and four of order 4. ℤ₈ has one of order 2 and four of order 8, and ℤ₂ × ℤ₂ × ℤ₂ has seven of order 2. The three groups of order 8 have different counts, so no two of them are isomorphic.
+
+## Common Misconceptions
+- The order of (g, h) is ord(g) · ord(h). (It is the least common multiple. In ℤ₄ × ℤ₆, the element (1, 1) has order lcm(4, 6) = 12, not 24.)
+- G × H is abelian if one of the factors is abelian. (G × H is abelian exactly when both G and H are. S₃ × ℤ₂ is not abelian.)
+- Every subgroup of G × H has the form A × B with A ≤ G and B ≤ H. (The diagonal {(0, 0), (1, 1)} in ℤ₂ × ℤ₂ is a subgroup, but it is not a product of a subgroup of each factor.)
+
 ## Questions
 
 ```yaml

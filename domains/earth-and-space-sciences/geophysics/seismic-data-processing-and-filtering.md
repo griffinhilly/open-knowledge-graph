@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Raw seismic data contains noise from instrument errors, ambient vibrations, and multiples (reflections bouncing multiple times). Processing steps include denoising, gain correction, velocity analysis, normal moveout correction, and stacking. These operations enhance reflections from target interfaces while suppressing noise, producing final seismic images ready for interpretation.
 
+## How It's Best Learned
+Build a three-trace CMP gather with t₀ = 1.0 s and v = 2,000 m/s. At offsets 0, 1,000 and 2,000 m, the reflection arrives at 1.000, 1.118 and 1.414 s. Apply NMO with 1,800 m/s and the far trace lands at 0.875 s, curving up. With 2,200 m/s it lands at 1.083 s, curving down. Only 2,000 m/s flattens the event.
+
+## Common Misconceptions
+- Stacking removes multiples on its own. (Stacking weakens multiples only partly, through their residual moveout at the primary velocity; strong multiples often survive and need a dedicated suppression step.)
+- The stacking velocity is the velocity of the rock at the reflector. (For flat layers it approximates the RMS velocity of everything above the reflector; interval velocities must be derived from it, and dip also changes it.)
+- A bandpass filter can remove any kind of noise. (It removes only noise at frequencies the signal does not share; ground roll that overlaps the signal band is better separated by its apparent velocity, for example with f-k filtering.)
+- Gain correction restores the true reflection amplitudes. (Automatic gain control equalizes amplitudes and destroys their relative strengths; amplitude studies need gains based on spreading and attenuation models.)
+
 ## Questions
 
 ```yaml

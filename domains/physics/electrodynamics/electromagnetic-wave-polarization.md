@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 The polarization of an electromagnetic wave describes how the electric field vector varies in direction as the wave propagates. Waves can be linearly polarized (E oscillates along a fixed direction), circularly polarized (E traces a helix), or elliptically polarized. Polarization is determined by the superposition of orthogonal field components and is crucial for understanding light-matter interactions and optical devices.
 
+## How It's Best Learned
+Plot the tip of E at a fixed point for E_x = cos(ωt) and E_y = cos(ωt − δ). Try δ = 0°, 45°, 90° and 180°, then halve E_y and repeat. The shapes go from line to ellipse to circle and back. Then extend the three-polarizer result: split the 90° turn into N equal steps, and unpolarized light I₀ passes (I₀/2)cos^(2N)(90°/N), which rises toward I₀/2 as N grows.
+
+## Common Misconceptions
+- A polarizer turns all incoming light to its axis without loss. (It passes only the component along its axis. The intensity drops by cos²θ.)
+- In circular polarization the field strength rises and falls each cycle. (At a fixed point the magnitude of E stays constant. Only its direction rotates.)
+- "Right-circular" names the same wave in every textbook. (Two handedness conventions are in use, viewed from the source or from the receiver. The same wave can carry either label.)
+- Unpolarized light is one more fixed polarization state, like linear or circular. (It is a rapidly changing random mixture. No single fixed pair of amplitudes and phase describes it.)
+
 ## Questions
 
 ```yaml
@@ -49,7 +58,7 @@ The polarization of an electromagnetic wave describes how the electric field vec
   answer: true
   explanation: "Any polarization state can be described as the superposition of two orthogonal linearly polarized components with some amplitude ratio and phase difference. When the amplitudes are equal and the phase difference is 90°, the ellipse becomes a circle (circular polarization). When the phase difference is 0° or 180°, the ellipse collapses to a line (linear polarization). All other combinations produce an ellipse, making elliptical polarization the general form."
 
-- question: "Unpolarized light, such as sunlight, has its electric field oscillating in most directions, including along the direction of propagation."
+- question: "Unpolarized light, such as sunlight, has its electric field oscillating in all directions, including along the direction of propagation."
   type: true-false
   answer: false
   explanation: "Electromagnetic waves are transverse — the electric field E⃗ is always confined to the plane perpendicular to the direction of propagation. Unpolarized light does not oscillate along the propagation direction; rather, its polarization direction varies randomly and rapidly within the transverse plane. A longitudinal electric field component would violate Maxwell's equations for EM waves in vacuum."

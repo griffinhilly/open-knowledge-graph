@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 Natural selection favors beneficial mutations, driving them toward fixation. Detectable when non-synonymous substitution rates exceed synonymous rates, indicating amino acid changes are adaptive.
 
+## How It's Best Learned
+Compute dN/dS from raw counts. Take a gene with 300 nonsynonymous and 100 synonymous sites, and two species that differ at 12 nonsynonymous and 2 synonymous sites. The raw ratio is 12:2, but per site it is 12/300 = 0.04 against 2/100 = 0.02, so dN/dS = 2. Then discuss how averaging over a whole gene can hide a few positively selected sites.
+
+## Common Misconceptions
+- More nonsynonymous than synonymous differences means dN/dS is above 1. (Most coding sites are nonsynonymous, so counts must be divided by the number of sites of each type before comparing.)
+- A gene with dN/dS below 1 shows no positive selection. (A whole-gene average can be below 1 while a few sites, such as MHC binding sites, have ratios well above 1.)
+- A beneficial mutation will spread to fixation. (While it is rare, drift can easily remove it; in large populations a new mutation with a small advantage s fixes with probability of only about 2s.)
+- A region with low genetic diversity proves a recent selective sweep. (Low recombination and ongoing purifying selection against linked harmful mutations can also reduce diversity, so other signatures are needed.)
+
 ## Questions
 
 ```yaml
@@ -49,7 +58,7 @@ Natural selection favors beneficial mutations, driving them toward fixation. Det
     - "A selective sweep where a beneficial allele fixed rapidly and dragged nearby neutral variants to fixation"
     - "Purifying selection removing deleterious mutations from that region over many generations"
   answer: 2
-  explanation: "A selective sweep occurs when a beneficial allele rises rapidly toward fixation. Because recombination doesn't have time to break up associations between the favored allele and nearby neutral variants, flanking variation gets dragged to fixation alongside it (genetic hitchhiking), producing a long haplotype block with unusually low diversity. Option A (neutral bottleneck) would affect the entire genome proportionally, not one region. Option B (balancing selection) maintains multiple alleles and tends to *increase* diversity at a locus, the opposite of what's observed. Option D (purifying selection) removes harmful alleles but doesn't cause dramatic regional diversity reductions."
+  explanation: "A selective sweep occurs when a beneficial allele rises rapidly toward fixation. Because recombination doesn't have time to break up associations between the favored allele and nearby neutral variants, flanking variation gets dragged to fixation alongside it (genetic hitchhiking), producing a long haplotype block with unusually low diversity. Option A (neutral bottleneck) would affect the entire genome proportionally, not one region. Option B (balancing selection) maintains multiple alleles and tends to *increase* diversity at a locus, the opposite of what's observed. Option D (purifying selection) can lower linked diversity through background selection, but it does not usually produce a sharp, localized dip around one recently favored gene."
 
 - question: "A dN/dS ratio less than 1 indicates that a gene is under positive selection because non-synonymous mutations are being preferentially retained over synonymous ones."
   type: true-false

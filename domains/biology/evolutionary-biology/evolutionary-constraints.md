@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 Developmental, genetic, and historical constraints limit evolutionary trajectories even when alternative phenotypes might be adaptive. Constraints channel evolution along particular paths and explain why certain designs never evolve despite seeming beneficial.
 
+## How It's Best Learned
+Sort five cases into developmental, genetic and historical constraints: the recurrent laryngeal nerve, the vertebrate blind spot, a gene that raises immunity but lowers fertility, the absence of six-limbed vertebrates, and the reproduction-survival trade-off. For each, write what evidence would test the constraint claim, such as whether the needed variation ever appears or whether related lineages ever produce the trait.
+
+## Common Misconceptions
+- A poorly designed feature, like the blind spot, shows that selection is not acting on it. (Selection works only with variants reachable from the current design. A feature can be poor by engineering standards yet the best that available variation allows.)
+- Every trade-off between traits is caused by one gene with several effects. (Trade-offs can also come from limited resources. Energy spent on reproduction is not available for body maintenance, whatever the genes involved.)
+- Calling something a constraint explains why it never evolved. (A constraint claim is a hypothesis. It is tested by checking whether the needed variation exists, for example in selection experiments, or appears in related lineages.)
+
 ## Questions
 
 ```yaml
@@ -59,7 +67,7 @@ Developmental, genetic, and historical constraints limit evolutionary trajectori
 - question: "The recurrent laryngeal nerve's long detour in mammals — traveling from the brain down to the chest and back up to the larynx — is best interpreted as a historical constraint rather than a failure of natural selection."
   type: true-false
   answer: true
-  explanation: "The nerve's route made anatomical sense in fish ancestors, where the precursor nerve and relevant blood vessel were adjacent. As the vertebrate body elongated and the heart descended during evolution, the nerve was locked into its route because rewiring it would disrupt developmental sequences that other critical structures depend on. The cost of the detour (up to a meter in giraffes) is less than the developmental upheaval of redesigning it — a historical constraint, not a failure of selection."
+  explanation: "The nerve's route made anatomical sense in fish ancestors, where the precursor nerve and relevant blood vessel were adjacent. As the vertebrate body elongated and the heart descended during evolution, the nerve was locked into its route because rewiring it would disrupt developmental sequences that other critical structures depend on. The cost of the detour (several meters in giraffes) is less than the developmental upheaval of redesigning it — a historical constraint, not a failure of selection."
 
 - question: "Why does the existence of pleiotropic genes create evolutionary trade-offs that prevent natural selection from independently optimizing all traits?"
   type: short-answer

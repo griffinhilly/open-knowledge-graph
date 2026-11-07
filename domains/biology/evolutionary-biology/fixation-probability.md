@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 The probability a mutant allele fixes depends on selection strength and population size. New beneficial mutations have fixation probability ≈ 2s in large populations; neutral mutations fix with probability 1/(2Ne). Diffusion equations model this stochastic process.
 
+## How It's Best Learned
+Start with the first generation of a single new mutant. If its carrier leaves a Poisson number of copies with mean 1.02 (s = 0.02), the chance of leaving zero is e^(−1.02), about 0.36. A third of beneficial mutants are gone after one generation, which makes 2s = 0.04 believable. Then compare with a neutral mutant at Ne = 10,000: 1/20,000 = 0.00005, so selection raised the odds 800-fold yet still loses 96% of copies.
+
+## Common Misconceptions
+- The 2s rule applies to any mutation in any population. (It is an approximation for small s in a population where Ne·s is large. When Ne·s is small, fixation probability approaches the neutral value.)
+- Small populations accumulate neutral substitutions faster because each new mutation is more likely to fix. (Each mutation's fixation chance is higher, but fewer mutations arise. The two effects cancel, so the neutral substitution rate equals the mutation rate.)
+- A deleterious mutation cannot fix. (It can fix by drift, with probability below the neutral value. The chance is non-negligible when Ne·|s| is small.)
+
 ## Questions
 
 ```yaml
@@ -58,7 +66,7 @@ The probability a mutant allele fixes depends on selection strength and populati
 - question: "A strongly beneficial mutation with a large selection coefficient is virtually very likely to fix once it appears in a population, because strong selection overcomes drift."
   type: true-false
   answer: false
-  explanation: "The fixation probability is approximately 2s regardless of how large s is within biologically realistic ranges. A mutation with s = 0.10 has only ~20% fixation probability; a mutation with s = 0.20 has ~40%. Even very strongly beneficial mutations are usually lost — because when a mutation first appears as a single copy, it is at the mercy of drift before selection has a chance to act. 'Virtually guaranteed' would require a fixation probability near 100%, which never occurs for a single new mutation. Most beneficial mutations are simply unlucky in their early generations."
+  explanation: "The fixation probability is approximately 2s when s is small, and it stays well below 1 even when s is large. A mutation with s = 0.10 has only about an 18% fixation probability; a mutation with s = 0.20, about 31%. Even very strongly beneficial mutations are usually lost — because when a mutation first appears as a single copy, it is at the mercy of drift before selection has a chance to act. 'Virtually guaranteed' would require a fixation probability near 100%, which never occurs for a single new mutation. Most beneficial mutations are simply unlucky in their early generations."
 
 - question: "What does the product Ne × s reveal about the fate of a mutation, and why does this product matter more than the selection coefficient s alone?"
   type: short-answer

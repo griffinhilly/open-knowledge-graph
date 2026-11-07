@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Financial frictions arise when lenders have limited information about borrowers (adverse selection) or borrowers cannot be perfectly monitored (moral hazard). These frictions create credit constraints: borrowers can only borrow against collateral, or face interest rates that vary with their creditworthiness. Financial crises occur when collateral values plummet, suddenly tightening credit constraints and reducing investment and consumption. The interaction between the financial sector and real economy creates powerful amplification mechanisms that magnify real shocks.
 
+## How It's Best Learned
+Work a two-type lending example. Half the applicants are of each type, and each borrower needs 100. A safe project returns 110 for sure; a risky one returns 150 or 0 with equal odds, and failed borrowers repay nothing. At a 10% rate both types apply, and the bank expects 82.5 back per loan. At 11% the safe type drops out, and the bank expects only 55.5. Raising the rate lowers the return.
+
+## Common Misconceptions
+- Credit rationing means lenders have run out of funds. (A lender with funds can still refuse loans, because raising the rate to clear the market would drive away safe borrowers and lower its expected return.)
+- Collateral removes the information problem. (It protects the lender and helps screen borrowers, but its value falls in downturns, which is why constraints tighten when the economy weakens.)
+- Borrowers who cannot get credit must have poor projects. (A borrower can have a productive project and still be refused because the lender cannot verify its quality or the borrower lacks collateral.)
+
 ## Questions
 
 ```yaml

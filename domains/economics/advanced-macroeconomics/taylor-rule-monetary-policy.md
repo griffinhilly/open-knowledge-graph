@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 The Taylor rule describes systematic monetary policy as an interest-rate response to inflation and output gaps: i = r* + π + α(π − π*) + β(y − y*), making policy explicit and predictable. This simple rule captures actual central bank behavior and provides a benchmark for evaluating whether deviations improve or worsen outcomes. Extensions address the zero lower bound, financial conditions, and asset price stability.
 
+## How It's Best Learned
+Compute a prescription by hand with α = β = 0.5, r* = 2, π* = 2, inflation at 4 and an output gap of −1: i = 2 + 4 + 1 − 0.5 = 6.5%. Then cut the r* estimate to 0.5 and the prescription falls to 5.0%. Repeating this with different gap estimates shows how much the rule depends on inputs that cannot be observed directly.
+
+## Common Misconceptions
+- With α = 0.5, the rate rises half a point for each point of inflation. (Inflation also enters the rule directly, so the total response is 1 + α = 1.5 points.)
+- The inputs to the rule are known numbers. (The neutral real rate and potential output are estimated with wide uncertainty, and reasonable estimates can move the prescription by more than a percentage point.)
+- The rate the rule prescribes is the optimal policy rate. (The rule is a simple benchmark; whether it is optimal depends on the economy's structure and the shocks it faces.)
+
 ## Questions
 
 ```yaml

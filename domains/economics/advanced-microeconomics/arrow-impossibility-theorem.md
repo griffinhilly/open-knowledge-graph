@@ -17,6 +17,15 @@ status: validated
 ## Core Idea
 Arrow's Impossibility Theorem shows that no voting rule simultaneously satisfies: unrestricted domain (any preference profile), unanimity (if all prefer A to B, society does), independence of irrelevant alternatives (society's A vs. B ranking depends only on voters' relative preferences), and non-dictatorship (no single voter dictates). This fundamental result reveals unavoidable tradeoffs in aggregating preferences into collective decisions.
 
+## How It's Best Learned
+Start with the Condorcet cycle. Three voters rank A>B>C, B>C>A and C>A>B. Pairwise majority gives A over B, B over C and C over A, so no transitive group ranking exists. Then take two or three familiar rules, such as Borda count and dictatorship, and find which of Arrow's conditions each one gives up.
+
+## Common Misconceptions
+- Arrow's theorem shows that majority rule is broken but some better rule exists. (The theorem covers every rule that turns individual rankings into a social ranking with three or more alternatives. Each one gives up at least one condition.)
+- The theorem applies to choices between two options. (With two alternatives, majority rule satisfies all the conditions. The impossibility needs at least three.)
+- Independence of irrelevant alternatives means removing a losing candidate cannot change the winner. (IIA says the social ranking of A versus B depends only on how individuals rank A versus B. It concerns information used, and spoiler effects are one symptom of violating it.)
+- Arrow's theorem says democracy is impossible. (It says every aggregation rule involves a tradeoff among the conditions. Restricting the domain, such as to single-peaked preferences with an odd number of voters, lets majority rule give a transitive ranking.)
+
 ## Questions
 
 ```yaml

@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Electromagnetic waves in dielectric materials interact with bound charges through polarization, producing frequency-dependent electric permittivity and permeability. The wave equation in matter becomes ∇²E = μ₀ε(ω)∂²E/∂t², where the frequency-dependent ε(ω) encodes material response. Understanding wave propagation in materials is essential for optics, photonics, and condensed matter physics.
 
+## How It's Best Learned
+Build ε(ω) from one driven, damped bound electron. Solve m(ẍ + γẋ + ω₀²x) = −eE₀e^(−iωt) to get ε(ω) = 1 + ω_p²/(ω₀² − ω² − iγω), with ω_p² = Ne²/(mε₀). Then plot the real and imaginary parts. ε′ rises below ω₀, the ε″ peak sits at ω₀, and ε′ dips below 1 just above it.
+
+## Common Misconceptions
+- Light slows in glass because atoms absorb photons and re-emit them after a delay. (The slower phase velocity comes from the incident wave adding to the forward wave radiated by the driven charges. Transparent glass absorbs very little.)
+- The refractive index of a dielectric is greater than 1 at every frequency. (Just above a resonance, and at X-ray frequencies, n can be slightly less than 1.)
+- Light changes frequency when it enters a dielectric. (The frequency stays the same. The wavelength shrinks to λ₀/n.)
+- The static dielectric constant gives the optical refractive index through n = √ε. (Water has ε ≈ 80 at low frequency, which would give n ≈ 9. Its optical index is about 1.33, because its molecules cannot reorient at optical frequencies.)
+
 ## Questions
 
 ```yaml

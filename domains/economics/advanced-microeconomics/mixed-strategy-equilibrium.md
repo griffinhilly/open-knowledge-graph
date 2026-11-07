@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 A mixed strategy is a probability distribution over pure strategies. In a mixed-strategy Nash equilibrium, each player randomizes such that each pure strategy in the support is a best response (yielding equal expected payoffs). Strategies outside the support yield strictly lower payoffs. Mixed strategies explain coordination failures and are necessary for games like Matching Pennies that lack pure-strategy equilibria.
 
+## How It's Best Learned
+Solve the inspection game with numbers. Let the firm gain 10 from evading when not audited, pay a fine F when caught, and get 0 from complying. The firm is indifferent when p(−F) + (1 − p)·10 = 0, so p* = 10/(10 + F). Raising F from 10 to 30 cuts p* from 1/2 to 1/4. Then let the inspector pay 2 per audit and gain 8 when it catches an evader. Its indifference condition, 8q − 2 = 0, gives q* = 1/4 whatever F is.
+
+## Common Misconceptions
+- A higher fine lowers the firm's equilibrium evasion rate. (The evasion rate is set by the inspector's indifference. If the fine does not enter the inspector's payoffs, the fine changes the audit rate and leaves evasion unchanged.)
+- Players in a mixed equilibrium put equal weight on each strategy. (The weights come from the opponent's indifference condition. In the inspection example, the audit probability is 1/4 when F = 30.)
+- You find a player's mix by maximizing that player's expected payoff over p. (Expected payoff is linear in a player's own probability, so maximizing over it pins nothing down at an interior mix. The mix comes from the opponent's indifference.)
+
 ## Questions
 
 ```yaml

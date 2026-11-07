@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Paleomagnetic reversals create alternating zones of normal and reversed polarity in sedimentary and volcanic sequences. These polarity zones (magnetozones and magnetochrons) can be matched to the geomagnetic polarity time scale (GPTS), providing age constraints independent of radiometric dating. Magnetostratigraphy is valuable for dating sediments too young for radiometric methods or lacking datable minerals.
 
+## How It's Best Learned
+Do a barcode match on paper. Take a local polarity column with zone thicknesses in meters and a strip of the GPTS. Slide one against the other and test each candidate fit by plotting the depth of each reversal against its GPTS age. A good match gives a fairly straight age-depth line. A wrong match makes the implied sedimentation rate jump around.
+
+## Common Misconceptions
+- A thick polarity zone means a long chron. (Zone thickness also depends on sedimentation rate. A short chron deposited quickly can look thicker than a long chron deposited slowly.)
+- A sample with reversed direction proves the rock formed during a reversed chron. (Later chemical or thermal overprints can add a secondary direction. Step-by-step demagnetization is needed to isolate the primary signal.)
+- If a known short subchron is missing from the section, the correlation must be wrong. (Short subchrons can be missed when samples are too widely spaced or when a gap in deposition removed that interval.)
+
 ## Questions
 
 ```yaml
@@ -50,7 +58,7 @@ Paleomagnetic reversals create alternating zones of normal and reversed polarity
   answer: true
   explanation: "True. Every chron boundary in the GPTS has a well-calibrated radiometric age derived from volcanic rocks and seafloor magnetic anomalies. Once a local polarity column is matched to the GPTS, the age of each polarity reversal in the section is simply read from the GPTS at that correlation position. This provides dated horizons typically spaced at 200,000–500,000 year intervals throughout the section — far denser age control than most radiometric dating can achieve from the same materials."
 
-- question: "Magnetostratigraphy is an mostly self-contained dating method that produces absolute ages without any input from radiometric dating or biostratigraphy."
+- question: "Magnetostratigraphy is a fully self-contained dating method that produces absolute ages without any input from radiometric dating or biostratigraphy."
   type: true-false
   answer: false
   explanation: "False. A polarity column has a distinctive pattern of thick and thin zones, but this pattern may match multiple positions on the GPTS if the section is short or if the pattern is ambiguous. Even one radiometric date, biostratigraphic datum, or dated ash layer within the section anchors the correlation and resolves the ambiguity. Magnetostratigraphy is most powerful when combined with other methods: it provides dense interpolated age control *between* the sparse absolute dates that radiometric and biostratigraphic methods supply."

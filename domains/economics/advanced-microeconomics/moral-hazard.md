@@ -28,6 +28,12 @@ Moral hazard arises when an agent's actions are unobservable to the principal. T
 ## How It's Best Learned
 Analyze a simple principal-agent model with continuous effort. Solve for optimal contract. Compare to full-information benchmark to see efficiency loss from hidden action.
 
+## Common Misconceptions
+- Moral hazard means the agent is acting dishonestly. (It describes a rational change in behavior when someone else bears part of the cost. No lie is involved, only an action the principal cannot see.)
+- Moral hazard and adverse selection are the same problem. (Adverse selection is hidden information about type, present before the contract. Moral hazard is a hidden action taken after the contract is signed.)
+- If no one can watch the agent, the agent will shirk whatever the contract says. (Pay that depends on outcomes can make effort the agent's own best choice, even with no monitoring.)
+- The best contract pays only on the main outcome, such as profit. (In the standard model, any extra signal that tells the principal something about effort beyond what the main outcome already shows can improve the contract. Pay tied to a peer's results can filter out shared luck.)
+
 ## Questions
 
 ```yaml

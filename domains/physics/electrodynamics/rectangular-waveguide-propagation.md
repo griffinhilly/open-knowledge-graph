@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 In rectangular guides with dimensions a and b, TE and TM modes are labeled by integers m,n. The dominant TE₁₀ mode has the lowest cutoff frequency fc = c/(2a). Field patterns are products of sines/cosines in each transverse direction, satisfying boundary conditions.
 
+## How It's Best Learned
+Build a mode chart for a real guide. For a = 2.286 cm and b = 1.016 cm, the cutoffs are TE₁₀ 6.56 GHz, TE₂₀ 13.1 GHz, TE₀₁ 14.8 GHz, and TE₁₁ with TM₁₁ at 16.2 GHz. Mark them on a frequency axis. The single-mode window is 6.56–13.1 GHz, and an 8–12 GHz operating band sits inside it, clear of both edges.
+
+## Common Misconceptions
+- The TE₁₀ cutoff depends on both a and b. (TE₁₀ has no variation along y, so its cutoff c/(2a) is independent of b. The height b sets where TE₀₁ appears.)
+- A wave in an air-filled guide travels at c, since the guide contains air. (The group velocity is c√(1 − (f_c/f)²), below c, and the phase velocity is above c.)
+- Below cutoff the walls absorb the wave. (The evanescent decay occurs even with perfect conductors. The power is reflected back toward the source, not dissipated.)
+- TM₁₀ and TM₀₁ modes exist alongside TE₁₀ and TE₀₁. (A TM mode needs E_z ∝ sin(mπx/a)sin(nπy/b), which vanishes if m or n is zero. The lowest TM mode is TM₁₁.)
+
 ## Questions
 
 ```yaml
@@ -54,7 +63,7 @@ In rectangular guides with dimensions a and b, TE and TM modes are labeled by in
 - question: "The TM₁₀ mode exists in a rectangular waveguide and has the same cutoff frequency as the TE₁₀ dominant mode."
   type: true-false
   answer: false
-  explanation: "The TM₁₀ mode does not exist. TM modes require E_z = sin(mπx/a)·sin(nπy/b). With n = 0, this becomes sin(mπx/a)·sin(0) = 0 identically — no field exists. The same applies to TM_m0 and TM_0n modes: at least one of m and n must be nonzero for TM modes to exist. The lowest-order TM mode is TM₁₁. This is why TE₁₀ is the unique dominant mode — there is no TM counterpart at the same cutoff frequency."
+  explanation: "The TM₁₀ mode does not exist. TM modes require E_z = sin(mπx/a)·sin(nπy/b). With n = 0, this becomes sin(mπx/a)·sin(0) = 0 identically — no field exists. The same applies to TM_m0 and TM_0n modes: both m and n must be nonzero for TM modes to exist. The lowest-order TM mode is TM₁₁. This is why TE₁₀ is the unique dominant mode — there is no TM counterpart at the same cutoff frequency."
 
 - question: "Why is single-mode operation desirable in a rectangular waveguide, and how do the dimensions a and b determine the frequency range over which it is achievable?"
   type: short-answer
@@ -70,4 +79,4 @@ The solution separates beautifully. For a **TE_mn mode**, the longitudinal magne
 
 Each integer pair (m, n) labels a distinct mode with its own transverse field pattern and its own **cutoff frequency**: f_c = (c/2)√[(m/a)² + (n/b)²]. Below f_c, the mode is **evanescent** — it decays exponentially along the guide rather than propagating. Above f_c, the mode propagates with phase velocity v_p = c/√[1 − (f_c/f)²], which exceeds c near cutoff (though the energy velocity, the group velocity, remains less than c). The **propagation constant** is k_z = (2π/λ)√[1 − (f_c/f)²], going to zero at cutoff and approaching the free-space value k at high frequencies.
 
-The **dominant mode** is TE₁₀, which has m = 1, n = 0 — one half-wave variation across the width a and none across the height b. Its cutoff frequency is f_c = c/(2a), and it has the lowest cutoff of all modes. In practical systems, the operating frequency is chosen in the range c/(2a) < f < c/a (or c/(2b) if b < a/2), ensuring only the TE₁₀ mode propagates while all higher modes are cut off. This **single-mode operation** gives clean, predictable transmission: only one field pattern travels down the guide, avoiding the modal dispersion and interference that would occur if multiple modes coexisted. Standard waveguide dimensions (e.g., WR-90 with a = 22.86 mm, used at 8–12 GHz) are chosen precisely to single-mode the frequencies of interest.
+The **dominant mode** is TE₁₀, which has m = 1, n = 0 — one half-wave variation across the width a and none across the height b. Its cutoff frequency is f_c = c/(2a), and it has the lowest cutoff of all modes. In practical systems, the operating frequency is chosen in the range c/(2a) < f < c/a (or c/(2b) if b > a/2), ensuring only the TE₁₀ mode propagates while all higher modes are cut off. This **single-mode operation** gives clean, predictable transmission: only one field pattern travels down the guide, avoiding the modal dispersion and interference that would occur if multiple modes coexisted. Standard waveguide dimensions (e.g., WR-90 with a = 22.86 mm, used at 8–12 GHz) are chosen precisely to single-mode the frequencies of interest.

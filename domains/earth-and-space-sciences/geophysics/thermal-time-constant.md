@@ -20,16 +20,24 @@ status: validated
 ## Core Idea
 The thermal time constant τ = d²/κ (where d is thickness and κ is thermal diffusivity ~10⁻⁶ m²/s) describes how quickly thermal perturbations diffuse through rock. Lithospheric cooling occurs over tens to hundreds of millions of years. Understanding thermal timescales is essential for interpreting geothermal data, predicting basin subsidence, and linking geophysical observations to geological processes.
 
+## How It's Best Learned
+Fill a short table with κ = 10⁻⁶ m²/s. For d = 1 km, τ = d²/κ is 10¹² s, about 32,000 years; for 10 km it is about 3.2 million years. Then run it backward with the penetration depth √(κt). After 1 million years heat reaches about 5.6 km; after 4 million years, about 11.2 km. Four times the time buys twice the depth.
+
+## Common Misconceptions
+- At t = τ the layer has finished cooling. (τ is a characteristic scale; how far equilibration has gone at that time depends on the geometry and boundary conditions, and some treatments include factors such as 4 or π² in the formula.)
+- The half-space cooling model fits ocean floor of every age. (It fits young lithosphere well, but depth and heat flow for old seafloor flatten out compared with its predictions.)
+- A rock with higher thermal conductivity always equilibrates faster. (The timescale depends on diffusivity, k divided by ρc, so heat capacity per unit volume matters as well.)
+
 ## Questions
 
 ```yaml
-- question: "Oceanic lithosphere is ~100 km thick with κ ≈ 10⁻⁶ m²/s, giving a thermal time constant of roughly 100 million years. If the lithosphere were only 50 km thick, what would the thermal time constant be?"
+- question: "Oceanic lithosphere is ~100 km thick with κ ≈ 10⁻⁶ m²/s, giving a thermal time constant d²/κ of roughly 300 million years. If the lithosphere were only 50 km thick, what would the thermal time constant be?"
   type: multiple-choice
   options:
-    - "~50 million years — halving the thickness halves the time constant"
-    - "~25 million years — the time constant scales with the square of thickness, so halving d reduces τ by a factor of four"
-    - "~100 million years — thermal diffusivity, not thickness, controls the cooling rate"
-    - "~200 million years — thinner lithosphere retains heat longer because there is less surface area to radiate"
+    - "~150 million years — halving the thickness halves the time constant"
+    - "~75 million years — the time constant scales with the square of thickness, so halving d reduces τ by a factor of four"
+    - "~300 million years — thermal diffusivity, not thickness, controls the cooling rate"
+    - "~600 million years — thinner lithosphere retains heat longer because there is less surface area to radiate"
   answer: 1
   explanation: "τ = d²/κ — the time constant scales with the *square* of thickness. Halving d reduces d² by a factor of 4. The most tempting wrong answer (option A) assumes a linear relationship, which would be true if heat simply 'flowed through' the slab at a constant velocity. But diffusion slows as it progresses: the thermal front penetrates a distance proportional to √(κt), so the time to diffuse through a given thickness d is proportional to d²/κ. This quadratic dependence is the key conceptual insight."
 
@@ -48,10 +56,10 @@ The thermal time constant τ = d²/κ (where d is thickness and κ is thermal di
   answer: false
   explanation: "The thermal time constant is τ = d²/κ — it scales with the *square* of thickness. Doubling the thickness quadruples the time constant, not doubles it. This counterintuitive result follows from the diffusion equation: the distance a thermal front penetrates grows as √(κt), so the time to reach depth d is t = d²/κ. Diffusion slows as it progresses — it cannot be described by a constant propagation velocity, which would give linear scaling. The quadratic dependence is why a 10,000× increase in linear scale produces a 10⁸× increase in thermal equilibration time."
 
-- question: "The enormous difference in cooling timescale between a 5-meter lava flow (days) and 100-km-thick lithosphere (100 Myr) is primarily due to differences in the thermal diffusivity of different rock types."
+- question: "The enormous difference in cooling timescale between a 5-meter lava flow (under a year) and 100-km-thick lithosphere (~300 Myr) is primarily due to differences in the thermal diffusivity of different rock types."
   type: true-false
   answer: false
-  explanation: "Rocks of similar composition have similar thermal diffusivity — κ ≈ 10⁻⁶ m²/s is a reasonable value for most crustal rocks. The extraordinary difference in cooling timescale is almost entirely due to the difference in thickness. The 100 km lithosphere is 2 × 10⁷× thicker than a 5-meter flow, and because τ = d²/κ, this translates to a time constant roughly (2 × 10⁷)² = 4 × 10¹⁴ times longer. Physical scale — not material properties — is the dominant control on geological thermal timescales. This is what makes τ = d²/κ such a powerful conceptual tool."
+  explanation: "Rocks of similar composition have similar thermal diffusivity — κ ≈ 10⁻⁶ m²/s is a reasonable value for most crustal rocks. The extraordinary difference in cooling timescale is almost entirely due to the difference in thickness. The 100 km lithosphere is 2 × 10⁴ times thicker than a 5-meter flow, and because τ = d²/κ, this translates to a time constant roughly (2 × 10⁴)² = 4 × 10⁸ times longer. Physical scale — not material properties — is the dominant control on geological thermal timescales. This is what makes τ = d²/κ such a powerful conceptual tool."
 
 - question: "Explain why continental collision zones remain thermally elevated and produce metamorphism and granitic melts for tens of millions of years after active shortening has ceased."
   type: short-answer
@@ -63,8 +71,8 @@ The thermal time constant τ = d²/κ (where d is thickness and κ is thermal di
 
 From crustal age and cooling curves, you know that oceanic lithosphere cools and subsides predictably as it moves away from mid-ocean ridges, and that heat flow decreases with the square root of age. The thermal time constant provides the physical framework for understanding *why* these cooling processes operate on the timescales they do — and it comes down to a single, powerful relationship between length scale and diffusion time.
 
-The formula **τ = d²/κ** says that the time required for a thermal disturbance to diffuse through a layer of thickness d is proportional to the *square* of that thickness. The thermal diffusivity κ (about 10⁻⁶ m²/s for most rocks, or roughly 32 m²/yr) describes how efficiently a material conducts heat relative to its ability to store it. The quadratic dependence on d is the critical insight: doubling the thickness quadruples the equilibration time. A 1-meter-thick lava flow cools in about a day. A 1 km slab of rock takes roughly 30,000 years. The 100 km-thick oceanic lithosphere has a thermal time constant on the order of 100 million years — which is why plate-scale thermal processes unfold over geological time.
+The formula **τ = d²/κ** says that the time required for a thermal disturbance to diffuse through a layer of thickness d is proportional to the *square* of that thickness. The thermal diffusivity κ (about 10⁻⁶ m²/s for most rocks, or roughly 32 m²/yr) describes how efficiently a material conducts heat relative to its ability to store it. The quadratic dependence on d is the critical insight: doubling the thickness quadruples the equilibration time. A 1-meter-thick lava flow has a time constant of about 12 days. A 1 km slab of rock takes roughly 30,000 years. The 100 km-thick oceanic lithosphere has a thermal time constant of roughly 300 million years — which is why plate-scale thermal processes unfold over geological time.
 
 This scaling relationship explains many first-order observations in geophysics. The **half-space cooling model** for oceanic lithosphere assumes that newly formed lithosphere at a ridge starts hot and cools by conduction from the surface. The thermal boundary layer (the depth to which cooling has penetrated) grows as √(κt), so the lithosphere thickens proportionally to the square root of its age. This is why ocean depth increases as √(age) — the plate gets denser as it cools, and it subsides isostatically. Heat flow decreases as 1/√(age) for the same reason: as the thermal boundary layer thickens, the temperature gradient at the surface decreases. The model works remarkably well for lithosphere younger than about 80 million years.
 
-The thermal time constant also governs how geological processes interact across scales. A volcanic intrusion (a dike or sill) a few meters thick heats its surrounding rock for days to weeks — fast enough to be irrelevant to regional tectonics but critical for contact metamorphism. A sedimentary basin that subsides and fills over tens of millions of years cools slowly enough that its thermal history controls petroleum maturation — source rocks must spend sufficient time in the "oil window" temperature range. Continental collision zones, where crust is thickened to 60–70 km, require over 100 million years to reach a new thermal equilibrium, which is why elevated heat flow and metamorphism persist long after active shortening ceases. In each case, the thermal time constant tells you whether a given thermal perturbation has had time to equilibrate, is still evolving, or has barely begun — connecting the timescale of geological processes to the physics of heat diffusion.
+The thermal time constant also governs how geological processes interact across scales. A volcanic intrusion (a dike or sill) a few meters thick heats its surrounding rock for weeks to months — fast enough to be irrelevant to regional tectonics but critical for contact metamorphism. A sedimentary basin that subsides and fills over tens of millions of years cools slowly enough that its thermal history controls petroleum maturation — source rocks must spend sufficient time in the "oil window" temperature range. Continental collision zones, where crust is thickened to 60–70 km, require over 100 million years to reach a new thermal equilibrium, which is why elevated heat flow and metamorphism persist long after active shortening ceases. In each case, the thermal time constant tells you whether a given thermal perturbation has had time to equilibrate, is still evolving, or has barely begun — connecting the timescale of geological processes to the physics of heat diffusion.

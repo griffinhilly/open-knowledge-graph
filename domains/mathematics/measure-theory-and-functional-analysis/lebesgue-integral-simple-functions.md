@@ -21,7 +21,15 @@ status: validated
 # Lebesgue Integral for Simple Functions
 
 ## Core Idea
-For a simple function φ = Σᵢ aᵢ 𝟙ₐᵢ, define ∫φ dμ = Σᵢ aᵢ μ(Aᵢ). This definition is well-defined (independent of representation) and linear. It extends to non-negative functions by taking limits of simple approximations.
+For a simple function φ = Σᵢ aᵢ 𝟙_{Aᵢ}, define ∫φ dμ = Σᵢ aᵢ μ(Aᵢ). This definition is well-defined (independent of representation) and linear. It extends to non-negative functions by taking limits of simple approximations.
+
+## How It's Best Learned
+Check well-definedness on an overlapping representation. On [0,3], let φ = 2·𝟙_{[0,2]} + 1·𝟙_{[1,3]}. The formula gives 2·2 + 1·2 = 6. Now refine to disjoint pieces: φ = 2 on [0,1), 3 on [1,2], and 1 on (2,3]. That gives 2 + 3 + 1 = 6. The general proof is the same move: intersect the sets of two representations and use additivity.
+
+## Common Misconceptions
+- The sets Aᵢ must be disjoint for the formula to work. (Overlapping representations give the same value, as the [0,3] example shows. Disjoint pieces are only a convenient canonical form.)
+- A simple function is a step function on intervals. (The Aᵢ can be any measurable sets. The indicator of the rationals is a simple function with integral 0.)
+- The integral is undefined when some Aᵢ has infinite measure. (For non-negative φ, with the convention 0·∞ = 0, the integral is defined. It equals ∞ when a positive value sits on a set of infinite measure, as for 𝟙_ℝ.)
 
 ## Questions
 

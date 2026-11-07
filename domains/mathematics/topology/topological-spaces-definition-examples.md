@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 A topological space (X, τ) consists of a set X and a collection τ of subsets called open sets satisfying: ∅ and X are open, any union of open sets is open, and finite intersections of open sets are open. This structure generalizes the notion of 'open' from real analysis to arbitrary sets and forms the foundation of topology.
 
+## How It's Best Learned
+List every topology on X = {a, b}. There are four: {∅, X}, {∅, {a}, X}, {∅, {b}, X}, and the full power set. Then check an infinite example, the cofinite topology on ℕ. Unions and finite intersections of cofinite sets are cofinite, but the intersection of the sets ℕ \ {n} over all n ≥ 2 is {1}, which is not open.
+
+## Common Misconceptions
+- Every topology comes from some distance function. (On {a, b}, the topology {∅, {a}, X} is not Hausdorff, and every metric topology is Hausdorff, so no metric produces it.)
+- The axioms allow only finite unions. (Arbitrary unions of open sets must be open. The finiteness restriction applies to intersections.)
+- Of two topologies on the same set, one is always finer than the other. (On {a, b}, the topologies {∅, {a}, X} and {∅, {b}, X} are not comparable.)
+
 ## Questions
 
 ```yaml

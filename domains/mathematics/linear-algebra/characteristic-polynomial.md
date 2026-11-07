@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The characteristic polynomial of A is det(A − λI), whose roots are eigenvalues. A matrix is diagonalizable if its eigenvectors form a complete basis. Diagonalizable matrices A satisfy A = PDP^{-1}, where D is diagonal and P is the eigenvector matrix. Similar matrices share eigenvalues and determinant.
 
+## How It's Best Learned
+Compute det(A − λI) by hand for A = [[4,1],[2,3]] and get λ² − 7λ + 10 = (λ − 2)(λ − 5). Check that 2 + 5 equals the trace and 2 · 5 equals the determinant. Then find an eigenvector for each root, build P and D, and multiply PDP⁻¹ to recover A. Repeat with [[2,1],[0,2]] to see where the method stops.
+
+## Common Misconceptions
+- To form A − λI, you subtract λ from every entry of A. (You subtract λ only from the diagonal entries, because λI is a diagonal matrix.)
+- det(A − λI) and det(λI − A) give different eigenvalues. (For an n×n matrix they differ by a factor of (−1)ⁿ, so they have the same roots.)
+- A repeated root in the characteristic polynomial means the matrix cannot be diagonalized. (The identity matrix has a repeated root and is already diagonal. Over the complex numbers, diagonalization fails only when an eigenspace is smaller than the root's multiplicity.)
+- Two matrices with the same characteristic polynomial are similar. ([[1,1],[0,1]] and the 2×2 identity share (λ − 1)², but they are not similar.)
+
 ## Questions
 
 ```yaml
@@ -44,12 +53,12 @@ The characteristic polynomial of A is det(A − λI), whose roots are eigenvalue
     - "The determinant of the matrix"
     - "The product of the diagonal entries only"
   answer: 2
-  explanation: "The characteristic polynomial is p(λ) = det(A − λI). At λ = 0, this becomes det(A − 0) = det(A). So the constant term of p(λ) is always the determinant of A. This gives a useful check: since the constant term also equals the product of all eigenvalues (evaluated at λ = 0), the product of the eigenvalues equals det(A). Similarly, the coefficient of λⁿ⁻¹ is always −tr(A), connecting eigenvalue sums to the trace. These relationships hold even without solving for eigenvalues explicitly."
+  explanation: "The characteristic polynomial is p(λ) = det(A − λI). At λ = 0, this becomes det(A − 0) = det(A). So the constant term of p(λ) is always the determinant of A. This gives a useful check: since the constant term also equals the product of all eigenvalues (evaluated at λ = 0), the product of the eigenvalues equals det(A). Similarly, the coefficient of λⁿ⁻¹ is (−1)ⁿ⁻¹tr(A) (so −tr(A) for a 2×2 matrix), connecting eigenvalue sums to the trace. These relationships hold even without solving for eigenvalues explicitly."
 
-- question: "Two matrices with the same characteristic polynomial should be similar to each other."
+- question: "Two matrices with the same characteristic polynomial are always similar to each other."
   type: true-false
   answer: false
-  explanation: "Similarity implies the same characteristic polynomial — that direction holds. But the converse fails: two matrices can share a characteristic polynomial without being similar. The classic example involves the 2×2 identity matrix I and any diagonalizable matrix with both eigenvalues equal to 1; they have the same characteristic polynomial (λ−1)² but are similar only to I itself. More starkly, [[1,1],[0,1]] and [[1,0],[0,1]] have the same characteristic polynomial (λ−1)² but are not similar (one is diagonalizable, the other is not). The characteristic polynomial is a similarity invariant, but not a complete invariant."
+  explanation: "Similarity implies the same characteristic polynomial — that direction holds. But the converse fails: two matrices can share a characteristic polynomial without being similar. For example, [[1,1],[0,1]] and [[1,0],[0,1]] have the same characteristic polynomial (λ−1)² but are not similar (one is diagonalizable, the other is not). The characteristic polynomial is a similarity invariant, but not a complete invariant."
 
 - question: "A square matrix with n distinct eigenvalues is always diagonalizable."
   type: true-false
@@ -66,7 +75,7 @@ The characteristic polynomial of A is det(A − λI), whose roots are eigenvalue
 
 From your study of eigenvalues and eigenvectors, you know that λ is an eigenvalue of A when Av = λv for some nonzero vector v — equivalently, when (A − λI)v = 0 has a nontrivial solution. This happens precisely when A − λI is **singular**, meaning det(A − λI) = 0. The **characteristic polynomial** is simply this determinant written as a function of λ: p(λ) = det(A − λI). Its roots are exactly the eigenvalues of A.
 
-For an n×n matrix, p(λ) is a polynomial of degree n. For a 2×2 matrix [[a,b],[c,d]], p(λ) = (a−λ)(d−λ) − bc = λ² − (a+d)λ + (ad−bc). Notice what appears: the coefficient of λⁿ⁻¹ is always −tr(A) (the **trace**, sum of diagonal entries), and the constant term is always det(A). This means you can read off two important eigenvalue facts without solving anything: the sum of all eigenvalues equals tr(A), and the product of all eigenvalues equals det(A). The characteristic polynomial encodes these global properties as coefficients.
+For an n×n matrix, p(λ) is a polynomial of degree n. For a 2×2 matrix [[a,b],[c,d]], p(λ) = (a−λ)(d−λ) − bc = λ² − (a+d)λ + (ad−bc). Notice what appears: the coefficient of λ is −tr(A) (the **trace**, sum of diagonal entries; for n×n the λⁿ⁻¹ coefficient is (−1)ⁿ⁻¹tr(A)), and the constant term is always det(A). This means you can read off two important eigenvalue facts without solving anything: the sum of all eigenvalues equals tr(A), and the product of all eigenvalues equals det(A). The characteristic polynomial encodes these global properties as coefficients.
 
 **Diagonalization** asks: can we choose a basis of eigenvectors? If A has n linearly independent eigenvectors v₁, …, vₙ with eigenvalues λ₁, …, λₙ, form the matrix P whose columns are these vectors and D = diag(λ₁, …, λₙ). Then AP = PD (multiply out: AP's i-th column is Avᵢ = λᵢvᵢ = PD's i-th column), so A = PDP⁻¹. This decomposition is powerful because Aᵏ = PDᵏP⁻¹, and raising a diagonal matrix to a power is trivial: just raise each diagonal entry to that power.
 

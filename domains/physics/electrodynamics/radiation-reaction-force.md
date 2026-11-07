@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 A radiating charge experiences recoil force (radiation reaction) opposing acceleration: F_rad = (q²ȧ)/(6πε₀c³). This self-force arises from the charge's own electromagnetic field. The Abraham-Lorentz equation of motion includes this force and shows energy loss proportional to the square of acceleration.
 
+## How It's Best Learned
+Solve the equation ma = F + mτȧ, with τ = q²/(6πε₀mc³), in two cases. With F = 0 you get the runaway a = a₀e^{t/τ}. With a constant F switched on at t = 0, require a to stay finite as t → ∞. The solution is a = F/m for t > 0 and a = (F/m)e^{t/τ} for t < 0. That second piece is pre-acceleration, lasting about τ ≈ 6 × 10⁻²⁴ s for an electron.
+
+## Common Misconceptions
+- A uniformly accelerated charge feels a radiation reaction force because it radiates. (For constant acceleration ȧ = 0, so the Abraham-Lorentz force vanishes even though the Larmor power does not. The energy balance involves the Schott term.)
+- Pre-acceleration is an observed violation of causality. (It acts over times near τ, far below the range where classical electrodynamics applies, and it has not been observed.)
+- Radiation reaction is always negligible, since τ is only about 10⁻²³ s. (It is tiny over one cycle when the motion changes slowly compared with τ, but the losses add up over many cycles, as in the energy electrons lose in a synchrotron.)
+
 ## Questions
 
 ```yaml
@@ -65,7 +73,7 @@ A radiating charge experiences recoil force (radiation reaction) opposing accele
 
 The Larmor formula tells you that an accelerating charge radiates power P = q²a²/(6πε₀c³). This radiated energy must come from somewhere — energy is conserved. If the charge loses kinetic energy to radiation, some force must be doing negative work on it. That force is the **radiation reaction force** (also called the Abraham-Lorentz force or self-force). Its existence is not an assumption but a logical necessity: whatever external field is accelerating the charge cannot simultaneously drain its kinetic energy into radiation. The radiation reaction force is the mechanism by which the field "pays back" the charge for the energy it emits.
 
-Deriving this force by integrating the charge's own electromagnetic field over itself yields the **Abraham-Lorentz formula**: F_rad = (μ₀q²/6πc) · da⃗/dt = (q²/6πε₀c³) · ȧ⃗, where ȧ = da/dt is the **jerk** — the time derivative of acceleration. The full equation of motion is then m ȧ⃗ = F_external + F_rad. The dependence on *jerk* rather than velocity or acceleration is immediately strange from a classical mechanics standpoint: Newton's laws involve up to second derivatives of position, but this introduces a third. This changes the mathematical character of the equation completely, requiring not just initial position and velocity, but also initial acceleration to specify the solution.
+Deriving this force by integrating the charge's own electromagnetic field over itself yields the **Abraham-Lorentz formula**: F_rad = (μ₀q²/6πc) · da⃗/dt = (q²/6πε₀c³) · ȧ⃗, where ȧ = da/dt is the **jerk** — the time derivative of acceleration. The full equation of motion is then m a⃗ = F_external + F_rad. The dependence on *jerk* rather than velocity or acceleration is immediately strange from a classical mechanics standpoint: Newton's laws involve up to second derivatives of position, but this introduces a third. This changes the mathematical character of the equation completely, requiring not just initial position and velocity, but also initial acceleration to specify the solution.
 
 The Abraham-Lorentz equation has alarming pathologies. First, **runaway solutions**: even with no external force, the equation admits solutions where acceleration grows exponentially — the particle accelerates itself into infinity. Second, **pre-acceleration**: to avoid runaway solutions, one must impose a boundary condition that forces the particle to "know" about an applied force before it arrives — causality appears to be violated at the scale of the classical electron radius r_e = q²/(4πε₀mc²) ≈ 2.8 × 10⁻¹⁵ m. Both pathologies signal that classical electrodynamics is pushing beyond its domain of validity at scales where quantum mechanics matters.
 

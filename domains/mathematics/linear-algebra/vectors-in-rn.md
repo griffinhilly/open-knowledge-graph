@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 A vector in R^n is an ordered n-tuple of real numbers, representing both magnitude and direction in n-dimensional space. Vectors can be represented as columns or rows and form the foundational objects of linear algebra. They generalize familiar 2D and 3D vectors to arbitrary dimensions, enabling abstract algebraic treatment.
 
+## How It's Best Learned
+Draw the vector (3, −1) as an arrow from the origin, then as an arrow from (1, 2) to (4, 1). Both have the same components, since (4, 1) − (1, 2) = (3, −1). Then record four quiz scores, such as (7, 9, 6, 10), as a vector in ℝ⁴. Swap two entries to see that order carries meaning even when no picture is possible.
+
+## Common Misconceptions
+- A vector always starts at the origin. (A vector is fixed by its components, so the arrow from (1, 2) to (4, 1) and the arrow from the origin to (3, −1) are the same vector.)
+- The order of the components does not matter. (Vectors are ordered tuples, so (1, 2) and (2, 1) are different vectors.)
+- Vectors in ℝ⁴ or higher are not meaningful because they cannot be drawn. (They are defined algebraically, and the same rules for length, sums and scaling apply in every dimension.)
+- Vectors with different numbers of components can be combined by padding with zeros. (Operations such as addition are defined only within one ℝⁿ, so (1, 2) + (1, 2, 3) is undefined.)
+
 ## Questions
 
 ```yaml

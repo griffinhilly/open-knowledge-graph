@@ -18,7 +18,16 @@ status: validated
 # Seismic Moment and Magnitude Scales
 
 ## Core Idea
-Seismic moment M₀ = μ × A × D (rigidity × fault area × average slip) quantifies the total energy released by an earthquake and is the most physically meaningful measure of earthquake size. Moment magnitude Mw = (2/3)log₁₀(M₀) − 10.7 is uniform across all frequency ranges and does not saturate at large magnitudes like older scales (local, body, surface wave magnitudes). The moment tensor, a 3×3 symmetric tensor, completely characterizes the radiation pattern and provides information on focal mechanism and stress orientation.
+Seismic moment M₀ = μ × A × D (rigidity × fault area × average slip) measures the size of the fault rupture and is the most physically meaningful measure of earthquake size. Moment magnitude Mw = (2/3)log₁₀(M₀) − 6.07 (M₀ in N·m) is uniform across all frequency ranges and does not saturate at large magnitudes like older scales (local, body, surface wave magnitudes). The moment tensor, a 3×3 symmetric tensor, completely characterizes the radiation pattern and provides information on focal mechanism and stress orientation.
+
+## How It's Best Learned
+Compute M₀ for one fault: μ = 3×10¹⁰ Pa, a 20 km × 10 km rupture, and 1 m of slip give 6×10¹⁸ N·m. Then change one factor at a time. Doubling the slip raises Mw by (2/3)log₁₀2 ≈ 0.2. Making the area 100 times larger raises it by about 1.33. Run it backward too: one unit of Mw is 10^1.5, or about 32 times the moment.
+
+## Common Misconceptions
+- Each step of one magnitude unit means an earthquake ten times bigger. (The factor of ten describes wave amplitude on the older amplitude scales; one unit of Mw is about 32 times the seismic moment.)
+- A higher magnitude means stronger shaking wherever you are. (Magnitude describes the source; shaking at a site also depends on distance, depth and local ground conditions, which intensity scales describe.)
+- The fault slipped only near the epicenter. (The hypocenter is where rupture began; in a large earthquake, slip can extend hundreds of kilometers along the fault, and all of that area counts in A.)
+- Large earthquakes are still reported on the Richter scale. (Local magnitude saturates for big events, so agencies generally report moment magnitude for large earthquakes.)
 
 ## Questions
 
@@ -33,15 +42,15 @@ Seismic moment M₀ = μ × A × D (rigidity × fault area × average slip) quan
   answer: 1
   explanation: "Older scales measure amplitudes of specific wave types at specific frequencies. For giant earthquakes, those waves saturate — the seismograph records the maximum amplitude the wave type can carry at that frequency, even as the fault continues to grow. Mw is derived from seismic moment M₀ = μ × A × D, a direct physical measure with no intrinsic upper bound. As fault area and slip grow, M₀ grows proportionally. The factor of ~30 in energy between Ms 8.5 and Mw 9.5 illustrates how severely saturated scales underestimate the largest earthquakes."
 
-- question: "Two earthquakes have identical seismic moment M₀. Earthquake A ruptured a large fault area with small average slip. Earthquake B ruptured a small fault area with large average slip. Which released more energy?"
+- question: "Two earthquakes have identical seismic moment M₀. Earthquake A ruptured a large fault area with small average slip. Earthquake B ruptured a small fault area with large average slip. Which has the larger moment magnitude Mw?"
   type: multiple-choice
   options:
-    - "Earthquake A — larger fault area means more rock displaced and more total energy"
-    - "Earthquake B — larger slip means stronger ground shaking and more seismic energy"
-    - "They released equal energy — seismic moment is the product μ × A × D, and identical M₀ means identical total elastic energy released"
+    - "Earthquake A — larger fault area means a larger magnitude"
+    - "Earthquake B — larger slip means a larger magnitude"
+    - "Neither — Mw is computed from M₀ = μ × A × D alone, so identical M₀ means identical Mw"
     - "Cannot be determined without knowing the rock rigidity μ at each fault"
   answer: 2
-  explanation: "Seismic moment M₀ = μ × A × D is the single quantity that physically quantifies earthquake size. Identical M₀ (with similar μ) means the same total elastic energy released, regardless of how area and slip are distributed. Both earthquakes have the same Mw. Their different fault geometries may produce different ground-shaking patterns due to directivity, but the fundamental energy measure is identical."
+  explanation: "Mw depends only on M₀, and M₀ = μ × A × D already includes rigidity, so identical M₀ gives identical Mw however area and slip are split. Moment is not the same as radiated energy, though. Earthquake B, with large slip on a small area, has a higher stress drop, and radiated energy scales roughly with stress drop times moment, so B probably radiated more seismic energy despite the equal Mw."
 
 - question: "Moment magnitude Mw was intentionally calibrated to agree with Richter's original local magnitude scale in the magnitude 3–7 range."
   type: true-false
@@ -63,8 +72,8 @@ Seismic moment M₀ = μ × A × D (rigidity × fault area × average slip) quan
 
 From focal mechanisms, you understand that earthquakes occur when stress exceeds the frictional strength of a fault, producing slip that radiates seismic waves. Seismic moment and magnitude scales give you the tools to quantify *how big* that rupture was — and they do so in a way that is grounded in the physics of the fault itself rather than in the amplitude of a particular seismogram.
 
-The **seismic moment** M₀ = μ × A × D combines three physical quantities: the **rigidity** (shear modulus) μ of the rock surrounding the fault, the **fault area** A that ruptured, and the **average slip** D across that area. Each factor contributes independently to earthquake size. A small fault with large displacement and a large fault with small displacement can have the same moment — it is the product that matters. The units of seismic moment are Newton-meters (the same as torque), and values span an enormous range: a barely-felt magnitude-2 event might have M₀ ≈ 10⁹ N·m, while the 2011 Tōhoku earthquake reached about 5 × 10²² N·m — a factor of 10¹³ larger.
+The **seismic moment** M₀ = μ × A × D combines three physical quantities: the **rigidity** (shear modulus) μ of the rock surrounding the fault, the **fault area** A that ruptured, and the **average slip** D across that area. Each factor contributes independently to earthquake size. A small fault with large displacement and a large fault with small displacement can have the same moment — it is the product that matters. The units of seismic moment are Newton-meters (the same as torque), and values span an enormous range: a barely-felt magnitude-2 event might have M₀ ≈ 10¹² N·m, while the 2011 Tōhoku earthquake reached about 5 × 10²² N·m — a factor of more than 10¹⁰ larger.
 
-Because seismic moment spans so many orders of magnitude, it is convenient to compress it onto a logarithmic scale. The **moment magnitude** formula Mw = (2/3)log₁₀(M₀) − 10.7 does exactly this, and it was deliberately calibrated to agree with Richter's original local magnitude scale in the range where both are valid (roughly magnitude 3–7). The critical advantage of Mw is that it **does not saturate**. Older scales measured the amplitude of specific seismic wave types at specific frequencies, and for very large earthquakes, those particular waves stop getting bigger even as the fault keeps growing — the scale "clips" like an overloaded microphone. The body-wave magnitude (mb) saturates around 6.5, and the surface-wave magnitude (Ms) around 8.2. The 1960 Chilean earthquake, the largest ever recorded, was Ms 8.5 on the surface-wave scale but Mw 9.5 when measured by seismic moment — a factor of 30 more energy than the saturated scale suggests.
+Because seismic moment spans so many orders of magnitude, it is convenient to compress it onto a logarithmic scale. The **moment magnitude** formula Mw = (2/3)log₁₀(M₀) − 6.07 (with M₀ in N·m; the constant is 10.7 when M₀ is in dyne·cm) does exactly this, and it was deliberately calibrated to agree with Richter's original local magnitude scale in the range where both are valid (roughly magnitude 3–7). The critical advantage of Mw is that it **does not saturate**. Older scales measured the amplitude of specific seismic wave types at specific frequencies, and for very large earthquakes, those particular waves stop getting bigger even as the fault keeps growing — the scale "clips" like an overloaded microphone. The body-wave magnitude (mb) saturates around 6.5, and the surface-wave magnitude (Ms) around 8.2. The 1960 Chilean earthquake, the largest ever recorded, was Ms 8.5 on the surface-wave scale but Mw 9.5 when measured by seismic moment — a factor of 30 more energy than the saturated scale suggests.
 
 The **moment tensor** generalizes seismic moment into a mathematical object that captures not just the size but the geometry of the source. It is a 3×3 symmetric matrix (six independent components) whose eigenvectors define the orientation of the fault plane and slip direction, and whose eigenvalues define the magnitude and type of deformation (double-couple for simple shear faulting, plus possible non-double-couple components for more complex sources like volcanic explosions or mine collapses). Modern seismology routinely computes moment tensors for significant earthquakes within minutes using long-period waveform data from global seismic networks, providing immediate information on fault geometry, stress orientation, and earthquake size that feeds into tsunami warnings, aftershock forecasts, and tectonic studies.

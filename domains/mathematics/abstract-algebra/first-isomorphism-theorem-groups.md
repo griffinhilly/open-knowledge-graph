@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 If φ: G → H is a group homomorphism, then G/ker(φ) ≅ im(φ). This theorem connects quotient groups and images of homomorphisms.
 
+## How It's Best Learned
+Practice the two directions separately. Given a map, compute its kernel and image and check |G| = |ker(φ)| · |im(φ)|: x ↦ 3x on ℤ₁₂ has kernel {0, 4, 8} and image {0, 3, 6, 9}, and 3 · 4 = 12. Given a quotient, hunt for a map with that kernel: z ↦ z/|z| shows that ℂ^× modulo the positive reals is the unit circle.
+
+## Common Misconceptions
+- Two homomorphisms with the same kernel are the same map. (They have isomorphic images, but the maps can differ. On ℤ, x ↦ x and x ↦ −x both have trivial kernel.)
+- A homomorphism with a large kernel also has a large image. (For finite G, |ker(φ)| · |im(φ)| = |G|, so a larger kernel means a smaller image.)
+- The theorem can show that a function is a homomorphism. (It assumes φ is a homomorphism. Check φ(ab) = φ(a)φ(b) first, then apply the theorem.)
+
 ## Questions
 
 ```yaml
@@ -63,7 +71,8 @@ If φ: G → H is a group homomorphism, then G/ker(φ) ≅ im(φ). This theorem 
 
 - question: "Explain why the map φ̄: G/ker(φ) → im(φ) defined by φ̄(gK) = φ(g) is called 'well-defined,' and why this verification step is necessary."
   type: short-answer
-  answer: "Well-defined means the output depends only on the coset gK, not on which representative g is chosen. If g' is another element in the same coset, then g' = gk for some k ∈ ker(φ), so φ(g') = φ(gk) = φ(g)φ(k) = φ(g)·e = φ(g). So both representatives give the same output. The verification is necessary because a coset has infinitely many representatives, and if different choices gave different outputs, φ̄ would not be a function at all. Well-definedness is exactly the statement that 'having the same image under φ' is the precise criterion for being in the same coset — and this is what makes the theorem work."
+  answer: "Well-defined means the output depends only on the coset gK, not on which representative g is chosen. If g' is another element in the same coset, then g' = gk for some k ∈ ker(φ), so φ(g') = φ(gk) = φ(g)φ(k) = φ(g)·e = φ(g). So both representatives give the same output. The verification is necessary because a coset can have many representatives, and if different choices gave different outputs, φ̄ would not be a function at all. Well-definedness is exactly the statement that being in the same coset forces the same image under φ — and this is what makes the theorem work."
+  explanation: "A coset gK can be named by any of its elements, and φ̄ is defined through a chosen name, so it is a function only if every name gives the same output. The check needs only that φ(k) = e for every k in ker(φ). It shows that elements in the same coset have the same image. The reverse direction, that equal images force the same coset, is a separate step, and it is what makes φ̄ injective."
 ```
 
 ## Explainer

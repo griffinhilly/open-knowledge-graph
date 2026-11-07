@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Information asymmetry means one party has more or better information than the other. This creates agency problems: hidden information (adverse selection) or hidden actions (moral hazard). Markets with asymmetric information may unravel (market for lemons), produce inefficient equilibria, or fail to exist. Information revelation and screening are mechanisms to mitigate these problems.
 
+## How It's Best Learned
+Sort cases into a two-column table: hidden information before the contract, and hidden action after it. Good cases are a used-car sale, a driver's care after buying insurance, a job applicant's ability, and a salesperson's effort. For each case, name who holds the information and whether a signal, a screening menu, or monitoring could reduce the problem.
+
+## Common Misconceptions
+- Information asymmetry means the informed side is lying. (It describes who knows what. In the lemons model no one lies; good-car owners just withdraw at the pooled price.)
+- Adverse selection and moral hazard are two names for risky people buying insurance. (Adverse selection is about characteristics fixed before the contract. Moral hazard is about actions taken after it. One market can have both.)
+- Any information gap destroys the market. (Full unraveling needs specific conditions. Many markets with asymmetric information keep trading, often helped by warranties, signals, screening and reputation.)
+- A deductible is only a way to sort risk types. (A deductible also leaves the insured bearing part of each loss, which keeps some incentive for care. The same contract term can address both problems.)
+
 ## Questions
 
 ```yaml
@@ -34,7 +43,7 @@ Information asymmetry means one party has more or better information than the ot
     - "Signaling, because drivers reveal their type through their driving record over time."
     - "Screening, because the insurer designs deductibles to sort drivers by risk level."
   answer: 1
-  explanation: "Moral hazard involves hidden *actions* taken after a contract is formed — the insured party changes behavior because they bear less of the risk. Adverse selection, by contrast, involves hidden *information* that exists before the contract: high-risk drivers self-select into insurance. The scenario here describes post-contract behavior change, which is moral hazard. (Deductibles and co-pays are screening tools designed to mitigate this moral hazard.)"
+  explanation: "Moral hazard involves hidden *actions* taken after a contract is formed — the insured party changes behavior because they bear less of the risk. Adverse selection, by contrast, involves hidden *information* that exists before the contract: high-risk drivers self-select into insurance. The scenario here describes post-contract behavior change, which is moral hazard. (Deductibles and co-pays can mitigate this moral hazard by leaving the insured with part of each loss.)"
 
 - question: "Information asymmetry generally leads to complete market failure — there is no mechanism that can restore efficiency in markets where one party has better information."
   type: true-false

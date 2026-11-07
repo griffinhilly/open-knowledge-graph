@@ -29,6 +29,14 @@ status: validated
 ## Core Idea
 The Euler equation is the first-order condition for optimal consumption over time: the marginal rate of substitution between current and future consumption must equal the intertemporal price (1 plus the real interest rate). This equation shows that consumption growth is determined by the real interest rate and the household's willingness to substitute consumption across time periods. The Euler equation is the backbone of modern macro models, linking macroeconomic outcomes to household preferences and financial conditions.
 
+## How It's Best Learned
+Derive it by perturbation first: give up ε today, save it, consume (1 + r)ε tomorrow, and set the utility change to zero. Then plug in numbers with β = 0.96 and r = 0.06, so β(1 + r) = 1.0176. With σ = 2, consumption grows about 0.9% a year; with σ = 0.5, about 3.6%. Same prices, different willingness to substitute.
+
+## Common Misconceptions
+- The Euler equation says consumption should be the same every period. (It gives a flat path only when β(1 + r) = 1. If the interest rate exceeds the rate of time preference, consumption rises over time.)
+- The discount factor β is the market discount 1/(1 + r). (β is a preference that measures impatience; 1/(1 + r) is a market price. The Euler equation compares the two.)
+- If consumption data violate the Euler equation, households are not optimizing. (A binding borrowing limit turns the equation into an inequality, and a misspecified utility function can also produce failures.)
+
 ## Questions
 
 ```yaml

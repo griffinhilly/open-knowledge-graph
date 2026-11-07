@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Relative gravimeters (spring-based) measure gravity differences with high precision; absolute gravimeters determine actual g. Drift, temperature sensitivity, and site calibration affect data quality. Base-station networks and careful instrument handling are essential.
 
+## How It's Best Learned
+Correct one survey loop by hand. The base reads 2,500.00 mGal at 08:00 and 2,500.12 mGal at 12:00, a drift of 0.03 mGal per hour. A field station read at 10:00 as 2,512.40 mGal corrects to 2,512.34, so it lies 12.34 mGal above the base. Then add a known absolute value at the base to turn every difference into absolute gravity.
+
+## Common Misconceptions
+- Drift means the gravimeter is faulty. (All spring gravimeters drift; it is a normal behaviour that base-station reoccupations measure and remove.)
+- Calibration and drift correction fix the same error. (Drift is a change in reading over time; calibration sets the scale factor that converts readings to milligals, and its error grows with the gravity range covered.)
+- Earth tides are too small to matter in a field survey. (Tidal gravity changes of up to about 0.3 mGal over a few hours are comparable to drift, so they must be corrected.)
+- An absolute gravimeter reading needs no further corrections. (It gives total g at that point and moment, so tides and other time-varying effects still have to be removed.)
+
 ## Questions
 
 ```yaml

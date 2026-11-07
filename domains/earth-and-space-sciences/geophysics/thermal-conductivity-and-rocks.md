@@ -20,7 +20,16 @@ status: validated
 # Thermal Conductivity of Rocks
 
 ## Core Idea
-Thermal conductivity k in rocks ranges from ~2 W/(m·K) in poorly consolidated sediments to ~5–6 W/(m·K) in crystalline basement; it decreases with temperature and porosity. Anisotropy in conductivity (higher parallel to foliation) reflects mineral alignment and microstructure. Effective conductivity in layered sequences is a spatial average weighted by layer thickness, and fluid-filled pores greatly reduce effective conductivity compared to dry rock.
+Thermal conductivity k in rocks ranges from below ~1.5 W/(m·K) in poorly consolidated sediments to ~5–6 W/(m·K) in quartz-rich rocks such as quartzite; it decreases with temperature and porosity. Anisotropy in conductivity (higher parallel to foliation) reflects mineral alignment and microstructure. Effective conductivity in layered sequences is a spatial average weighted by layer thickness, and fluid-filled pores greatly reduce effective conductivity compared to the solid mineral matrix.
+
+## How It's Best Learned
+Work a two-layer stack: 1 km of sandstone (k = 4) over 1 km of shale (k = 1.5), carrying 60 mW/m² vertically. The gradient is 15 °C/km in the sandstone and 40 °C/km in the shale, so the stack warms 55 °C. Check that the harmonic mean, about 2.18 W/(m·K), gives the same 55 °C. The arithmetic mean, 2.75, does not.
+
+## Common Misconceptions
+- More heat flows through high-conductivity layers. (In steady vertical conduction without heat sources, every layer carries the same heat flow; high-conductivity layers simply have gentler temperature gradients.)
+- The conductivity of a layered sequence is the plain thickness-weighted average. (For heat flow across the layers, the harmonic mean applies, and it is pulled toward the poorly conducting layers.)
+- A conductivity measured in the lab at room temperature applies at depth. (Conductivity of crystalline rock falls as temperature rises, so lab values need correcting to in-situ temperatures.)
+- Thermal conductivity and thermal diffusivity mean the same thing. (Conductivity sets the heat flux for a given gradient; diffusivity, k divided by ρc, sets how fast a temperature change spreads.)
 
 ## Questions
 

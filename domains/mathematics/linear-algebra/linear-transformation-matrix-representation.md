@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Every linear transformation T: Rⁿ → Rᵐ is represented by an m×n matrix A, where T(x) = Ax. To find A, compute T(eᵢ) for each standard basis vector and place the results as columns. For non-standard bases, the matrix is [T]_B = [T(b₁) ... T(bₙ)]_C in coordinates relative to bases B and C.
 
+## How It's Best Learned
+Build the matrix of T(x, y) = (x + 2y, 3y, x − y) from T(e₁) = (1,0,1) and T(e₂) = (2,3,−1). Check that A(2,1) = (4,3,1) agrees with the formula. Next, take the reflection T(x, y) = (y, x) and the basis B = {(1,1), (1,−1)}. Writing T(b₁) and T(b₂) in B-coordinates gives the diagonal matrix [[1,0],[0,−1]], which shows how a good basis simplifies the matrix.
+
+## Common Misconceptions
+- A map from Rⁿ to Rᵐ has an n×m matrix. (It has m rows, one per output component, and n columns, one per input basis vector. The map above, from R² to R³, has a 3×2 matrix.)
+- Any formula-defined map, such as T(x, y) = (x + 1, y), has a matrix. (Only linear maps do. This T sends 0 to (1, 0), and every matrix sends 0 to 0.)
+- For a non-standard basis, the columns are T(bᵢ) in ordinary coordinates. (Each T(bᵢ) must be rewritten in coordinates relative to the codomain basis C before it becomes a column.)
+
 ## Questions
 
 ```yaml
@@ -52,7 +60,7 @@ Every linear transformation T: Rⁿ → Rᵐ is represented by an m×n matrix A,
   answer: true
   explanation: "The same linear transformation can be represented by different matrices depending on the choice of bases for the domain and codomain. The matrix [T]_B^C encodes the transformation relative to a specific pair of bases B and C. Changing B or C changes the coordinates used, which changes the entries of the matrix — but T itself (as a function mapping vectors to vectors) remains the same geometric object. This is why 'change of basis' is such a fundamental operation: it lets you choose a basis that makes the matrix as simple as possible (e.g., diagonal for an eigendecomposition)."
 
-- question: "If you know a linear transformation T sends two specific vectors u and v to their images T(u) and T(v), you can generally reconstruct the full matrix of T."
+- question: "If you know a linear transformation T sends two specific vectors u and v to their images T(u) and T(v), you can always reconstruct the full matrix of T."
   type: true-false
   answer: false
   explanation: "You can reconstruct T from two vectors only if those two vectors form a basis for the domain. If u and v are linearly dependent (one is a scalar multiple of the other), they span only a line, and T's behavior on the rest of the space is completely unconstrained by what you know. For example, knowing T(e₁) tells you nothing about T(e₂). The key condition is that the vectors you evaluate T on must span the domain — which means they must form a basis. Linearity then guarantees the rest."
@@ -69,6 +77,6 @@ The core insight here is beautiful: a linear transformation is completely determ
 
 For the standard basis in Rⁿ, this is especially clean. The standard basis vectors are e₁ = (1,0,...,0), e₂ = (0,1,...,0), and so on. To build the matrix for T: Rⁿ → Rᵐ, compute T(e₁), T(e₂), ..., T(eₙ). Each result is a vector in Rᵐ. Arrange them as columns: the first column is T(e₁), the second is T(e₂), and so on. You have your m×n matrix A. To verify it works: any x ∈ Rⁿ can be written as x = x₁e₁ + ... + xₙeₙ, so T(x) = x₁T(e₁) + ... + xₙT(eₙ) = Ax, where Ax is the standard matrix-vector product.
 
-For non-standard bases, the same logic applies but coordinates change. If T maps from a space with basis B to a space with basis C, you compute T applied to each vector in B, then express each result in terms of C. The resulting coordinate vectors become the columns of the **change-of-basis matrix** [T]_B^C. This is the direct application of your prerequisite on basis and dimension: the matrix representation depends entirely on which bases you choose for the domain and codomain.
+For non-standard bases, the same logic applies but coordinates change. If T maps from a space with basis B to a space with basis C, you compute T applied to each vector in B, then express each result in terms of C. The resulting coordinate vectors become the columns of the **matrix of T relative to B and C**, written [T]_B^C. This is the direct application of your prerequisite on basis and dimension: the matrix representation depends entirely on which bases you choose for the domain and codomain.
 
 The payoff is that every theorem about matrices becomes a theorem about linear transformations, and vice versa. Composition of transformations corresponds to matrix multiplication. The rank of the matrix equals the dimension of the image. The nullity equals the dimension of the kernel. The abstract world of transformations and the computational world of matrices are not just analogous — they are literally the same object written in two different notations.

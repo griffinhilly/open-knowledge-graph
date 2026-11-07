@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Gayatri Spivak's essay 'Can the Subaltern Speak?' argues that the colonized and marginalized lack a voice within colonial discourse and that historians cannot simply 'give voice' to the subaltern without reproducing the power dynamics that silenced them. Her work fundamentally challenges the assumption that archives and texts can provide unmediated access to subaltern consciousness, forcing historians to grapple with representation and the limits of historical knowledge.
 
+## How It's Best Learned
+Map Spivak's sati example as a diagram of speakers and audiences. Put the colonial administrator, the nationalist defender and the widow in separate boxes, and draw arrows for who speaks about whom and who is heard by whom. The widow's box has arrows pointing in and none pointing out. Then apply the same diagram to one archival source you know, asking who produced it and who appears only as its object.
+
+## Common Misconceptions
+- "The subaltern cannot speak" means subaltern people had no thoughts or could not talk. (Spivak's claim is structural: dominant discourse offered no position from which their speech would be heard and recorded as meaningful.)
+- More sources would solve the problem. (The silence comes from how colonial discourse and its archives were organized, so adding documents of the same kind does not remove it.)
+- Spivak says historians should give up on subaltern history. (She asks for reflexivity about representation, not for the project to be abandoned.)
+- A sympathetic historian can speak for the subaltern without distortion. (Spivak warns that "giving voice" can reproduce the dominant frameworks that silenced people in the first place.)
+
 ## Questions
 
 ```yaml

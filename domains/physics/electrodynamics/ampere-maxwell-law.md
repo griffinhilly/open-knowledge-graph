@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Maxwell's crucial addition to Ampère's law—the displacement current term ε₀∂E/∂t—accounts for magnetic fields produced by time-varying electric fields. Without this term, electromagnetic waves are impossible and charge conservation is violated. This modification unifies electricity and magnetism completely and predicts that light is an electromagnetic wave.
 
+## How It's Best Learned
+Work the charging parallel-plate capacitor first. With plate area A and charge Q, the field between the plates is E = Q/(ε₀A), so the flux is Φ_E = Q/ε₀ and ε₀ dΦ_E/dt = dQ/dt = I. Then draw one Amperian loop with two surfaces, flat and bulging between the plates, and check that both now give μ₀I.
+
+## Common Misconceptions
+- Displacement current is charge that leaks across the capacitor gap. (No charge crosses a vacuum gap. The term is a changing electric flux that produces a magnetic field the way a real current would.)
+- The displacement current term only matters inside capacitors. (It appears wherever E changes in time, and in empty space it is the term that lets electromagnetic waves propagate.)
+- For steady currents the displacement term changes the answer. (When E is constant in time the term is zero, and the law reduces to the original Ampère's law.)
+- The magnetic field in the capacitor gap depends on which surface you pick. (B is fixed by the loop. With the displacement term included, every surface bounded by the loop gives the same circulation.)
+
 ## Questions
 
 ```yaml

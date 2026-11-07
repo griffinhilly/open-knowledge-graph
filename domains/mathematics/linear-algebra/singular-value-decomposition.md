@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Every m×n matrix A can be written as A = UΣVᵀ where U and V are orthogonal and Σ is diagonal with singular values σ₁ ≥ σ₂ ≥ ... ≥ 0. Singular values are square roots of eigenvalues of AᵀA or AAᵀ. SVD reveals the rank, condition number, and principal directions of A. It is the most general and numerically stable decomposition.
 
+## How It's Best Learned
+Compute one 2 × 2 case by hand. For A = [[3, 0], [4, 5]], AᵀA = [[25, 20], [20, 25]], with eigenvalue 45 on (1, 1) and 5 on (1, −1). So σ₁ = 3√5 and σ₂ = √5, and σ₁σ₂ = 15 = |det A|. Check that Av₁ for v₁ = (1, 1)/√2 has length √45. Then sketch how A maps the unit circle to an ellipse with semi-axes σ₁ and σ₂.
+
+## Common Misconceptions
+- The singular values of A are its eigenvalues. (For A = [[−3, 0], [0, 1]] the eigenvalues are −3 and 1, but the singular values are 3 and 1.)
+- Singular values can be negative. (They are square roots of eigenvalues of AᵀA, so they are nonnegative; any sign is absorbed into a column of U or V.)
+- U and V in the SVD are the same matrix. (They differ in general and need not even be the same size; U = V can occur for symmetric positive semidefinite A.)
+- The SVD of a matrix is unique. (The singular values are unique, but U and V are not; flipping the signs of a matched pair uᵢ, vᵢ gives another valid SVD.)
+
 ## Questions
 
 ```yaml

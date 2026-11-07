@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 TE modes have zero longitudinal electric field (Ez = 0) but nonzero Hz. They exist for all frequencies above a cutoff frequency ωc, determined by boundary conditions. Below cutoff, the longitudinal wave vector becomes imaginary and modes are evanescent.
 
+## How It's Best Learned
+Put numbers on both sides of cutoff. For a guide with a = 2 cm, TE₁₀ cuts off at 7.5 GHz. At 10 GHz the guide wavelength is 3 cm/√(1 − 0.5625) ≈ 4.5 cm, longer than the 3 cm free-space wavelength. At 6 GHz, γ = (2π/c)√(7.5² − 6²) GHz ≈ 94 m⁻¹, so the field falls by a factor of e in about 1 cm.
+
+## Common Misconceptions
+- In a TE mode both fields are transverse. (Only E is transverse. H has a longitudinal component H_z, which is what defines the mode family.)
+- For TE modes, H_z must vanish on the walls, as E_z does for TM modes. (The TE condition is ∂H_z/∂n = 0. For TE₁₀, H_z ∝ cos(πx/a) is largest at the side walls.)
+- There is a TE₀₀ mode with zero cutoff. (A constant H_z produces no transverse fields, so TE₀₀ is not a mode. A hollow guide has no zero-cutoff mode.)
+- The guide wavelength equals the free-space wavelength. (It is λ/√(1 − (f_c/f)²), which is longer and grows without bound as f approaches cutoff.)
+
 ## Questions
 
 ```yaml
@@ -67,6 +76,6 @@ From your prerequisite on waveguide equations, you know that a hollow metallic w
 
 The defining feature of TE modes is the **cutoff frequency**. Substituting Ez = 0 into Maxwell's equations and applying the conducting boundary conditions (tangential E = 0 at the walls) forces Hz to satisfy a two-dimensional Helmholtz equation in the cross-section with Neumann boundary conditions (∂Hz/∂n = 0 at the walls). The eigenvalues of this problem are discrete, labeled by integers (m, n) for a rectangular guide, and each eigenvalue determines a **cutoff frequency** ωc,mn. For a rectangular waveguide of dimensions a × b, the cutoff frequencies are ωc,mn = c·π√((m/a)² + (n/b)²). The mode with the lowest cutoff is called the **dominant mode** — for a rectangular guide it is TE₁₀.
 
-Above the cutoff frequency, the longitudinal wavenumber kz = √(ω²/c² − kc²) is real and positive, meaning the mode propagates along the guide as a traveling wave with phase velocity vph = ω/kz > c. (The group velocity vg = c²/vph < c; information travels at group velocity.) Below cutoff, kz becomes imaginary: kz = iγ with γ real and positive. The mode decays exponentially as e^(−γz) — it is **evanescent** rather than propagating. This is analogous to total internal reflection in optics or quantum tunneling below a barrier: the mode tries to propagate but is forbidden by the boundary geometry, and instead decays within a few skin depths.
+Above the cutoff frequency, the longitudinal wavenumber kz = √(ω²/c² − kc²) is real and positive, meaning the mode propagates along the guide as a traveling wave with phase velocity vph = ω/kz > c. (The group velocity vg = c²/vph < c; information travels at group velocity.) Below cutoff, kz becomes imaginary: kz = iγ with γ real and positive. The mode decays exponentially as e^(−γz) — it is **evanescent** rather than propagating. This is analogous to total internal reflection in optics or quantum tunneling below a barrier: the mode tries to propagate but is forbidden by the boundary geometry, and instead decays over a short distance along the guide.
 
 In practice, a waveguide is typically operated in a frequency range where only the dominant TE₁₀ mode propagates, while all higher modes are below their cutoffs and thus evanescent. This single-mode operation avoids interference between modes and preserves signal integrity. Understanding TE modes — how to identify them, compute their cutoff frequencies, and determine their field patterns — is foundational for designing microwave components including filters, horns, cavities, and antenna feeds.

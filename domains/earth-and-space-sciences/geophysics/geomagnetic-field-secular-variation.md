@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Earth's magnetic field changes over years to centuries (secular variation) due to core fluid dynamics. The dipole tilts and moves, non-dipole anomalies grow and decay, and westward drift persists—all tracked by global observatory networks and satellite missions.
 
+## How It's Best Learned
+Read the declination for one town in 1900, 1950 and 2000 from a historical field model and plot it against time. Then convert westward drift into a core speed. At the core-mantle boundary, radius about 3,480 km, a drift of 0.2° per year is about 12 km per year, or roughly 0.4 mm/s. That is the order of core-flow speed used in dynamo estimates.
+
+## Common Misconceptions
+- Secular variation is caused by the Sun disturbing the field. (Solar and ionospheric effects cause changes over hours to days; changes over years to centuries come from flow in the core.)
+- Every non-dipole feature drifts west at the same rate. (Westward drift is uneven: it is strong in the Atlantic hemisphere and weak in the Pacific, and some features barely move.)
+- A speeding-up magnetic pole shows that a reversal is starting. (Pole motion tracks shifting patches of magnetic flux at the core surface; a change in pole speed is not by itself evidence of a coming reversal.)
+
 ## Questions
 
 ```yaml

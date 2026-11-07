@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 Magnetostratigraphy uses the pattern of paleomagnetic reversals (magnetic polarity zones) preserved in sedimentary and volcanic sequences to establish age correlations across regions, independent of fossils. The geomagnetic polarity time scale (GPTS) calibrates reversal boundaries using radiometric dates; reversal patterns are globally synchronous, enabling correlation and dating of undated sequences. Combined with biostratigraphy and radiometric dating, magnetostratigraphy yields high-resolution chronologies for Phanerozoic and Cenozoic strata.
 
+## How It's Best Learned
+Work a vector endpoint (Zijderveld) diagram for one sample with a present-day overprint on a reversed primary signal. The early demagnetization steps follow one straight segment. The later steps form a second line running into the origin, and that line is the ChRM. Then convert each level's ChRM to a virtual pole latitude and plot it against height. Positive values mark normal zones; negative values mark reversed zones.
+
+## Common Misconceptions
+- Because reversals are global, each boundary is a razor-sharp horizon in every section. (A reversal takes thousands of years. In sediments the magnetization can lock in a little below the sediment surface, so the recorded boundary may sit slightly lower than its true level.)
+- Every short reversed interval in a section is a full polarity chron. (Brief excursions of the field and single-sample artifacts can look like reversals. A zone is usually trusted only when several consecutive samples share the polarity.)
+- Once correlated, every layer has a measured age. (Only the reversal boundaries are dated. Ages between them are interpolated by assuming steady sedimentation.)
+
 ## Questions
 
 ```yaml

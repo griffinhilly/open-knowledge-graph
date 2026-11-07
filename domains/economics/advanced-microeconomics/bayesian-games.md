@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 A Bayesian game models situations where players have private information (types). Each player has a type from a set T_i, a payoff function u_i(a, t), and beliefs over others' types. A Bayesian Nash equilibrium is a strategy for each type such that each type's strategy maximizes expected payoff given beliefs. This framework unifies signaling, screening, and mechanism design.
 
+## How It's Best Learned
+Solve a linear Cournot duopoly where firm 2's cost is high or low with equal probability and only firm 2 knows it. Write one best response for each of firm 2's types, then firm 1's best response to firm 2's expected output. Solving the three equations together shows a strategy as a map from types to actions.
+
+## Common Misconceptions
+- A strategy in a Bayesian game is the action a player takes. (A strategy assigns an action to every type the player could be, including types the player does not turn out to be.)
+- Players need to know the other players' types to find their best response. (They best-respond to the distribution of others' types and the strategies each type uses, averaging over what they cannot see.)
+- Incomplete information means players don't know the rules of the game. (In the Harsanyi setup the rules and the type distribution are common knowledge. Only each player's realized type is private.)
+- Bayesian Nash equilibrium handles all games with private information. (In dynamic games, players update beliefs after seeing moves, and refinements such as perfect Bayesian equilibrium are used.)
+
 ## Questions
 
 ```yaml

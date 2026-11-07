@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Gauss's law states that the electric flux through a closed surface equals the enclosed charge divided by ε₀. It emerges from Coulomb's law via symmetry arguments and provides an elegant method for calculating electric fields in high-symmetry situations.
 
+## How It's Best Learned
+Start with a point charge at the center of a cube: symmetry gives q/(6ε₀) through each face without any integral. Then run every symmetric problem through one template: use symmetry to fix the field's direction and what it depends on, choose the surface, then compute. Work a uniform ball both ways. Inside, E = ρr/(3ε₀); outside, E = Q/(4πε₀r²).
+
+## Common Misconceptions
+- Zero net flux through a closed surface means the field is zero on that surface. (The field can be large there. External charges, or equal and opposite enclosed charges, give zero net flux with a nonzero field.)
+- Gauss's law holds only for symmetric charge distributions. (It holds for every closed surface. Symmetry is needed only to pull E out of the integral.)
+- The field on a Gaussian surface comes only from the enclosed charge. (Every charge, inside or outside, contributes to E at the surface. Only the net flux depends on the enclosed charge alone.)
+
 ## Questions
 
 ```yaml

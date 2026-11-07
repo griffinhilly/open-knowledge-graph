@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 Fubini's theorem: for integrable f on X × Y, ∫∫f d(μ⊗ν) = ∫(∫f(x,y) dν(y)) dμ(x). Tonelli's version handles non-negative functions without integrability, allowing interchange of iteration under more general conditions.
 
+## How It's Best Learned
+Compute the standard counterexample yourself. On [0,1]², let f(x,y) = (x² − y²)/(x² + y²)². Since ∂/∂y [y/(x² + y²)] = f, the inner y-integral is 1/(1 + x²), and the dy dx order gives π/4. By antisymmetry the other order gives −π/4. Then check with Tonelli why Fubini does not apply: near the origin |f| behaves like 1/r², and ∫∫ |f| diverges.
+
+## Common Misconceptions
+- Tonelli's theorem holds for any two measure spaces. (It needs σ-finite measures. With Lebesgue measure and counting measure on [0,1], the indicator of the diagonal gives 1 in one order and 0 in the other.)
+- Fubini's theorem needs f to be bounded or continuous. (Measurability and ∫|f| d(μ⊗ν) < ∞ are enough. Unbounded integrable functions qualify.)
+- The inner integral ∫f(x,y) dν(y) is defined for every x. (Fubini guarantees it only for μ-almost every x. The outer integral ignores the exceptional null set.)
+
 ## Questions
 
 ```yaml

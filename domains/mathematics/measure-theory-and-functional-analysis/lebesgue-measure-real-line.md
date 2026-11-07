@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 The Lebesgue measure on ℝ is the unique measure on the Borel σ-algebra satisfying μ([a,b]) = b - a. The Carathéodory measurable sets form a σ-algebra strictly larger than Borel sets (including all null sets). Lebesgue measure is translation-invariant and extends naturally to ℝⁿ.
 
+## How It's Best Learned
+Verify the Carathéodory condition yourself for E = (0, ∞). Cover any set A by intervals Iₖ, and split each Iₖ into its parts inside and outside E. The lengths add up, so μ*(A ∩ E) + μ*(A ∩ Eᶜ) ≤ Σ|Iₖ|, and taking the infimum gives the condition. Then compute the Cantor set's measure: the removed intervals have total length 1/3 + 2/9 + 4/27 + ⋯ = 1, so the uncountable remainder has measure 0.
+
+## Common Misconceptions
+- A set of measure zero must be countable. (The Cantor set is uncountable and has measure 0.)
+- An open set that is dense in [0,1] has measure 1. (Cover the n-th rational in [0,1] by an open interval of length ε/2ⁿ. The union is open and dense, yet its measure is at most ε.)
+- Outer measure is already additive, so the measurability condition is a formality. (Using a Vitali-type set, one can find disjoint sets A and B with μ*(A ∪ B) < μ*(A) + μ*(B). The Carathéodory condition picks out the sets on which additivity holds.)
+
 ## Questions
 
 ```yaml
@@ -55,7 +63,7 @@ The Lebesgue measure on ℝ is the unique measure on the Borel σ-algebra satisf
   answer: true
   explanation: "This property is called completeness of Lebesgue measure. If a set N has measure zero, the Carathéodory condition is easily verified for any subset S ⊆ N (since μ*(A ∩ S) ≤ μ*(N) = 0 for all A). Borel sets do not include all such subsets. Completeness matters for integration: you want to be able to modify a function on a null set without changing its integrability or integral value."
 
-- question: "Most subset of ℝ is Lebesgue measurable."
+- question: "Every subset of ℝ is Lebesgue measurable."
   type: true-false
   answer: false
   explanation: "Non-measurable sets exist — the classic example is the Vitali set, constructed using the axiom of choice by selecting one representative from each equivalence class of reals modulo the rationals. Such sets violate the Carathéodory condition. Non-measurability is not a defect of the theory; it is precisely why the theory restricts to measurable sets. The existence of non-measurable sets shows that not every set has a well-defined size consistent with countable additivity and translation invariance."

@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Romer's model features R&D firms that create new products or improve existing ones, generating increasing returns to scale and sustaining long-run growth. Monopolistic competition in the intermediate goods sector provides profit incentives for innovation while creating efficiency losses from market power and duplication. The model shows how market size, R&D intensity, innovation rates, and human capital jointly determine long-run growth and explains cross-country income differences through R&D investments.
 
+## How It's Best Learned
+Take the final-goods function Y = L^(1−α) Σ x_i^α over A varieties and set every x_i = X/A, holding total intermediate input X fixed. Output becomes L^(1−α) A^(1−α) X^α, which rises with A alone. This shows why spreading the same inputs over more varieties raises productivity. Pair it with the replication argument: doubling rival inputs doubles output, so doubling ideas as well more than doubles it.
+
+## Common Misconceptions
+- Growth in the model comes from producing more of each existing intermediate good. (More of a given variety runs into diminishing returns; growth comes from adding new varieties.)
+- Each final-goods firm operates with increasing returns. (Final-goods firms have constant returns in rival inputs; the increasing returns come from nonrival designs whose one-time cost is spread over every unit produced.)
+- Because the market underinvests in R&D, any research subsidy raises welfare. (A subsidy that is too large pushes R&D past the social optimum; the size of the subsidy matters.)
+
 ## Questions
 
 ```yaml
@@ -33,7 +41,7 @@ Romer's model features R&D firms that create new products or improve existing on
     - "Scarcity — the limited supply of good ideas drives up their price and returns"
     - "Embodiment — ideas only generate returns once they are embedded in physical capital"
   answer: 1
-  explanation: "Nonrivalry is the key. A blueprint for a better engine can be used by any number of factories at once — using it in one place does not prevent its use elsewhere. This means doubling all rival inputs (labor, capital) while holding the stock of knowledge constant more than doubles output, because knowledge scales with all uses simultaneously. Excludability matters for private incentives (without some ability to profit, no one invests in R&D), but it is nonrivalry that generates the increasing returns. Excludability without nonrivalry — like a physical machine — would not produce economy-wide scale effects."
+  explanation: "Nonrivalry is the key. A blueprint for a better engine can be used by any number of factories at once — using it in one place does not prevent its use elsewhere. This means doubling all rival inputs (labor, capital) while holding the stock of knowledge constant doubles output, so doubling knowledge as well more than doubles it, because knowledge scales with all uses simultaneously. Excludability matters for private incentives (without some ability to profit, no one invests in R&D), but it is nonrivalry that generates the increasing returns. Excludability without nonrivalry — like a physical machine — would not produce economy-wide scale effects."
 
 - question: "In Romer's model, the decentralized economy underinvests in R&D relative to the social optimum. What is the PRIMARY reason?"
   type: multiple-choice

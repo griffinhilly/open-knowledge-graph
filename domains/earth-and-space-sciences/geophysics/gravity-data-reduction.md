@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Observed gravity must be corrected for latitude (normal gravity), elevation (free-air correction), topographic masses (terrain correction), and bathymetry to isolate subsurface anomalies. The Bouguer anomaly (with assumed density slab) reveals density variations with depth.
 
+## How It's Best Learned
+Reduce one station by hand. At 500 m elevation the free-air correction is 0.3086 × 500 ≈ 154.3 mGal, and the slab correction 2πGρh at 2,670 kg/m³ is about 56.0 mGal. If observed minus normal gravity is −100 mGal, the free-air anomaly is +54.3 mGal and the Bouguer anomaly is −1.7 mGal. Redo the slab with 2,300 kg/m³ and the Bouguer anomaly becomes +6.1 mGal.
+
+## Common Misconceptions
+- The free-air correction is subtracted at stations above the datum. (Gravity is weaker at height, so the free-air correction is added; the Bouguer slab correction is the one subtracted.)
+- The latitude correction can be ignored in a small survey. (At mid-latitudes normal gravity changes by about 0.8 mGal per kilometre north-south, which is large for a detailed survey.)
+- A complete Bouguer anomaly map depends only on the measurements. (It also depends on the chosen reduction density, datum and terrain model, so two maps of the same area can differ.)
+
 ## Questions
 
 ```yaml

@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 Hölder's inequality states ∫|fg| dμ ≤ ‖f‖ₚ‖g‖_q for conjugate exponents 1/p + 1/q = 1. Minkowski's inequality proves ‖f+g‖ₚ ≤ ‖f‖ₚ + ‖g‖ₚ, establishing that Lᵖ is a normed space.
 
+## How It's Best Learned
+Prove Hölder in two moves. First rescale so that ‖f‖ₚ = ‖g‖_q = 1, which homogeneity allows. Then apply Young's inequality |f||g| ≤ |f|ᵖ/p + |g|^q/q at each point and integrate to get ∫|fg| ≤ 1/p + 1/q = 1. Then see why p ≥ 1 matters: with counting measure on two points, f = (1, 0), g = (0, 1) and p = 1/2 give ‖f + g‖ = 4 while ‖f‖ + ‖g‖ = 2.
+
+## Common Misconceptions
+- Minkowski's inequality holds for every p > 0. (It fails for 0 < p < 1, as the two-point example shows. In that range ‖·‖ₚ is not a norm.)
+- Hölder's bound works for any pair of exponents. (On ℝ with Lebesgue measure, take f = g = 1_{[0,N]} and p = q = 4. Then ∫fg = N, but ‖f‖₄‖g‖₄ = √N, which is smaller for N > 1.)
+- Equality in Hölder requires f = g. (Equality holds when |f|ᵖ and |g|^q are proportional almost everywhere. For p ≠ 2, f = g does not give equality in general.)
+
 ## Questions
 
 ```yaml

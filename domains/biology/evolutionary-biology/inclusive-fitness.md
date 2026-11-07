@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Inclusive fitness is an individual's total genetic contribution to the next generation through both direct reproduction and help given to relatives. An organism can increase its inclusive fitness by raising its own offspring, helping siblings, or supporting other kin, weighted by relatedness coefficient (r).
 
+## How It's Best Learned
+Keep a two-column ledger, direct and indirect, and compare two choices. Breeding alone raises 2 offspring. Skipping breeding to help a full sibling lifts her output from 2 to 6, so the indirect column gets (6 − 2) × 0.5 = 2. The two choices tie at 2. Change one number at a time to see which choice wins.
+
+## Common Misconceptions
+- Inclusive fitness is the total offspring of you and your relatives, weighted by relatedness. (It counts only the extra reproduction in relatives that your actions cause, not offspring they would have raised anyway.)
+- Direct fitness counts all of your own offspring. (Inclusive fitness removes offspring you raised only because relatives helped you; otherwise the same offspring would be counted in two individuals' ledgers.)
+- Inclusive fitness matters only for social insects. (It applies to any behavior that affects relatives, such as helpers at the nest in cooperatively breeding birds or alarm calls near kin.)
+- An individual with zero offspring has zero fitness in every sense. (Its direct fitness is zero, but its inclusive fitness can be high if its help adds many offspring to close relatives.)
+
 ## Questions
 
 ```yaml

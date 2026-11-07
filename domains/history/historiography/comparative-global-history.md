@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 Comparative and global history transcends national frameworks to examine connections, similarities, and differences across regions and time periods. Rather than assuming nations or civilizations as bounded units, this approach traces exchanges, circulations, and entanglements. Global historians ask how ideas, goods, diseases, and people moved across space and how those movements shaped multiple societies simultaneously.
 
+## How It's Best Learned
+Take one topic, such as sugar or silver, and frame it two ways. First write a comparative question: why did two regions that grew or mined it develop differently? Then write a global question: how did the flow of that commodity link producers, traders and consumers across continents? Listing the sources each question needs makes the difference between comparison and connection concrete.
+
+## Common Misconceptions
+- Global history means writing about the whole world at once. (It means following connections across borders, and a study of one port or one trade route can be global history.)
+- Comparative and global history are the same method at different scales. (Comparison asks what was similar or different across separate cases; global history asks what was linked.)
+- Leaving the national frame removes bias. (Choosing which connections, archives and actors to center still involves decisions, and much global history has been criticized for keeping an implicit European center.)
+- Picking cases for comparison is a neutral first step. (Choosing cases because they fit a thesis is selection bias, the main methodological risk of comparative work.)
+
 ## Questions
 
 ```yaml
@@ -33,7 +42,7 @@ Comparative and global history transcends national frameworks to examine connect
   answer: 2
   explanation: "Global history asks 'what was linked?' rather than 'what was similar?' It traces connections, circulations, and entanglements across political borders rather than comparing separate cases or working within a single unit. Option A describes comparative history (structural parallels across cases). Option D is the national-frame approach that global history specifically aims to escape. Global history insists that the Mediterranean trade decline cannot be understood in isolation from its connections to other trading systems that were simultaneously shifting."
 
-- question: "Barrington Moore compared how England, France, Germany, Japan, and India experienced modernization to develop a theory of paths to democracy and authoritarianism. What is the primary methodological danger in this comparative approach?"
+- question: "Barrington Moore compared how England, France, the United States, China, Japan, and India experienced modernization to develop a theory of paths to democracy and authoritarianism. What is the primary methodological danger in this comparative approach?"
   type: multiple-choice
   options:
     - "Using too many cases dilutes the causal argument, since each case introduces additional variables"
@@ -51,7 +60,7 @@ Comparative and global history transcends national frameworks to examine connect
 - question: "Comparative history and global history ask the same fundamental question; they differ primarily in the scale of the cases they study."
   type: true-false
   answer: false
-  explanation: "The two methods ask genuinely different questions. Comparative history asks 'what was similar or different across cases?' — it places cases side by side to develop and test causal arguments about structural conditions. Global history asks 'what was connected?' — it traces the actual flows, movements, and entanglements that crossed borders and shaped multiple societies simultaneously. A comparative study of the French and Russian Revolutions asks why similar conditions produced similar outcomes; a global history study of those revolutions would ask how Atlantic abolitionist ideas, commodity markets, and Enlightenment print culture linked them. Scale is the least important difference."
+  explanation: "The two methods ask genuinely different questions. Comparative history asks 'what was similar or different across cases?' — it places cases side by side to develop and test causal arguments about structural conditions. Global history asks 'what was connected?' — it traces the actual flows, movements, and entanglements that crossed borders and shaped multiple societies simultaneously. A comparative study of the French and Haitian Revolutions asks why similar conditions produced similar outcomes; a global history study of those revolutions would ask how Atlantic abolitionist ideas, commodity markets, and Enlightenment print culture linked them. Scale is the least important difference."
 
 - question: "What is the difference between comparative history and global history as methods, and what kind of question does each approach ask?"
   type: short-answer
@@ -63,7 +72,7 @@ Comparative and global history transcends national frameworks to examine connect
 
 Most history you have encountered was written within a national frame: the history of France, of China, of the United States. The nation-state seems like a natural unit for historical analysis — it has archives, governments, and languages. But the national frame can make the world look more divided than it was, obscuring the connections, movements, and processes that crossed political borders. **Comparative and global history** is the methodological project of escaping that container.
 
-**Comparative history** puts two or more cases alongside each other to ask: why did similar conditions produce different outcomes, or different conditions produce similar ones? Barrington Moore's *Social Origins of Dictatorship and Democracy* compared how England, France, Germany, Japan, and India responded to the pressures of commercialization and state-building in the nineteenth and twentieth centuries, and from those comparisons developed a theory of why some paths led to democracy and others to fascism or communism. The comparison is the method: each case tests and refines the argument. The risk is selecting cases to confirm a predetermined thesis — **selection bias** is the core methodological danger in comparative work.
+**Comparative history** puts two or more cases alongside each other to ask: why did similar conditions produce different outcomes, or different conditions produce similar ones? Barrington Moore's *Social Origins of Dictatorship and Democracy* compared how England, France, the United States, China, Japan, and India responded to the pressures of commercialization and state-building in the nineteenth and twentieth centuries, and from those comparisons developed a theory of why some paths led to democracy and others to fascism or communism. The comparison is the method: each case tests and refines the argument. The risk is selecting cases to confirm a predetermined thesis — **selection bias** is the core methodological danger in comparative work.
 
 **Global history** moves from comparison to connection. Rather than asking "what was similar?" it asks "what was linked?" The Columbian Exchange is a global history event: you cannot understand the demographic catastrophe of the Americas, the transformation of European diets, and the rise of African slavery without tracing their interconnection across a single biological-economic system. Global historians like Kenneth Pomeranz (*The Great Divergence*) have reframed major historical questions — why did industrial capitalism emerge in England rather than China? — by placing them in genuinely global comparative frameworks rather than asking only what England had that others lacked.
 

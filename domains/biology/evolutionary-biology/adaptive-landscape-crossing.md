@@ -29,6 +29,14 @@ status: validated
 ## Core Idea
 Evolution navigates fitness landscapes by moving uphill via selection and occasionally crossing fitness valleys via drift-assisted mutations or environmental change. Population size and landscape topology determine probability of crossing valleys and exploring distant adaptive peaks.
 
+## How It's Best Learned
+Draw a two-locus landscape with four genotypes: ab on a low peak, Ab and aB in a valley, and AB on a higher peak. Trace every one-step path from ab to AB and mark where selection pushes back. Then ask how the answer changes for a population of 20 versus 20,000, and what happens if the environment raises the fitness of Ab.
+
+## Common Misconceptions
+- Given enough time, selection will carry a population to the highest peak on the landscape. (Selection only climbs locally. A population can stay on a lower peak if every path to a higher one passes through less-fit genotypes.)
+- Drift steers small populations toward higher peaks. (Drift moves allele frequencies at random, with no bias toward higher peaks. It can carry a population across a valley, but only selection climbs the new slope, and drift also fixes harmful mutations in small populations.)
+- The fitness landscape is a fixed map that the population moves across. (Fitness depends on the environment, so peaks and valleys can shift when conditions change, even if the population's genotypes stay the same.)
+
 ## Questions
 
 ```yaml

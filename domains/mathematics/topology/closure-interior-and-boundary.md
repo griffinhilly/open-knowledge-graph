@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 For a set A in a topological space, the closure is the smallest closed set containing A, the interior is the largest open set contained in A, and the boundary consists of points in the closure but not the interior. These three operations decompose the space into three disjoint pieces relative to any subset and are fundamental to understanding local structure.
 
+## How It's Best Learned
+Shade the plane into interior, boundary, and exterior for several sets. Use the open disk, the closed disk, the open disk with its center removed, and ℚ × ℚ. The punctured disk has the circle and the center as its boundary. For ℚ × ℚ the interior and exterior are both empty, and the boundary is the whole plane. Then check int(A) = X \ cl(X \ A) on one example.
+
+## Common Misconceptions
+- A closed set equals its own interior. (The closed unit disk is closed, but its interior is the open disk. Interior points need a neighborhood inside the set.)
+- The boundary of A is part of A. (The open disk contains none of its boundary circle.)
+- A dense set must have a nonempty interior. (ℚ is dense in ℝ, but every interval contains irrationals, so the interior of ℚ is empty.)
+- Every point lies in the interior or on the boundary. (Points with a neighborhood that misses A form the exterior. The point (5, 5) is exterior to the unit disk.)
+
 ## Questions
 
 ```yaml
@@ -52,7 +61,7 @@ For a set A in a topological space, the closure is the smallest closed set conta
   answer: true
   explanation: "The interior of A is a subset of A (it is the largest open set contained in A), and A is a subset of its own closure (since the closure adds limit points to A, never removes them). Therefore, interior(A) ⊆ A ⊆ closure(A). Interior points — those with an open neighborhood contained in A — certainly satisfy the closure condition: their neighborhoods intersect A (trivially, since the neighborhoods lie inside A)."
 
-- question: "If p is in the closure of A, then p should be an element of A."
+- question: "If p is in the closure of A, then p must be an element of A."
   type: true-false
   answer: false
   explanation: "The closure of A consists of A together with all its limit points — points every neighborhood of which intersects A. A limit point of A need not be in A itself. For example, take A = (0, 1) in ℝ. The point 0 is in the closure of A (every neighborhood of 0 intersects (0,1)), but 0 ∉ A. This is precisely why 'closure' adds something: it includes the limit points on the 'edge' of A that A itself may not contain."
@@ -60,7 +69,7 @@ For a set A in a topological space, the closure is the smallest closed set conta
 - question: "Explain the duality between the interior and closure operations, and why it means you never need to define both independently."
   type: short-answer
   answer: "The interior of A equals the complement of the closure of the complement of A: int(A) = (cl(Aᶜ))ᶜ. Intuitively, a point is inside A if and only if it is not in the closure of the outside. This algebraic relationship means each operation determines the other: once you know how to compute closures (e.g., as intersections of closed sets), you can compute interiors via complement, and vice versa."
-  explanation: "The duality reflects the symmetry between open and closed sets in topology: taking complements swaps open sets for closed sets. Because the interior is the largest open set inside A and the closure is the smallest closed set containing A, and because complements turn open sets into closed sets, the two operations are mirror images of each other. This is why most topology texts define closure axiomatically and derive interior from it."
+  explanation: "The duality reflects the symmetry between open and closed sets in topology: taking complements swaps open sets for closed sets. Because the interior is the largest open set inside A and the closure is the smallest closed set containing A, and because complements turn open sets into closed sets, the two operations are mirror images of each other. This is why a text can define either operation first and derive the other from it."
 ```
 
 ## Explainer

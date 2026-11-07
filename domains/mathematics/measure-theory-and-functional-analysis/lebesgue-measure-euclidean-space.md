@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 Lebesgue measure on ℝⁿ extends the one-dimensional measure via product measure, assigning volume to measurable sets. Lower-dimensional sets (lines, planes) have measure zero, reflecting that they are 'negligible' in the higher-dimensional space.
 
+## How It's Best Learned
+Prove that the plane z = 0 has λ₃-measure zero with an explicit cover. List the unit squares of the plane as S₁, S₂, … and cover Sⱼ by the box Sⱼ × [−ε2⁻ʲ, ε2⁻ʲ]. Its volume is 2ε·2⁻ʲ, so the total is at most 2ε. Then check the scaling rule λₙ(T(A)) = |det T|·λₙ(A): a shear keeps the unit square's area 1, and doubling every side multiplies volume by 2ⁿ.
+
+## Common Misconceptions
+- One thin slab around a plane shows the plane has measure zero. (A slab of height ε around an infinite plane has infinite volume. The cover needs countably many boxes whose heights shrink.)
+- Lebesgue measure on ℝⁿ is exactly the product measure built on the product of one-dimensional Lebesgue σ-algebras. (That product σ-algebra is not complete. If A ⊂ ℝ is non-measurable, A × {0} sits inside a null line but is not in the product σ-algebra. Lebesgue measure on ℝⁿ is the completion.)
+- Every curve in ℝ² has area zero. (Smooth curves do, but a continuous space-filling curve has the whole unit square as its image, which has area 1.)
+
 ## Questions
 
 ```yaml
@@ -47,14 +55,14 @@ Lebesgue measure on ℝⁿ extends the one-dimensional measure via product measu
   answer: true
   explanation: "True. Smooth surfaces are 2-dimensional manifolds embedded in ℝ³. They have no 3-dimensional thickness — they cannot fill any open ball in ℝ³, and they can be covered by 3D boxes of arbitrarily small total volume. Formally, this follows from the general principle that any k-dimensional smooth manifold (k < n) has λₙ-measure zero. This means integration over ℝ³ is completely unaffected by what a function does on any smooth surface, curve, or point."
 
-- question: "A set of Lebesgue measure zero in ℝⁿ is expected to be either finite or countably infinite."
+- question: "A set of Lebesgue measure zero in ℝⁿ must be either finite or countably infinite."
   type: true-false
   answer: false
   explanation: "False. Many uncountable sets have Lebesgue measure zero. The classic example on ℝ is the Cantor set — uncountable yet λ₁-measure zero. In ℝⁿ, any smooth curve, surface, or lower-dimensional manifold is uncountable and yet has measure zero. For instance, the x-axis in ℝ² contains uncountably many points but has λ₂-measure zero. The 'negligibility' captured by measure zero is about n-dimensional volume, not cardinality."
 
 - question: "Explain why a 2-dimensional plane has Lebesgue measure zero in ℝ³, and why this fact matters for integration over ℝ³."
   type: short-answer
-  answer: "A plane in ℝ³ has no 3-dimensional thickness: it can be enclosed in a collection of 3D boxes whose total volume is arbitrarily small (take boxes of height ε centered on the plane). By definition, this means its λ₃-measure is zero. For integration, this means changes to a function on any plane — or any surface, curve, or lower-dimensional set — leave the Lebesgue integral unchanged. This is what 'almost everywhere' means: properties that hold everywhere except on a set of measure zero are sufficient for all integration-theoretic purposes."
+  answer: "A plane in ℝ³ has no 3-dimensional thickness: it can be enclosed in a collection of 3D boxes whose total volume is arbitrarily small (cover the j-th unit square of the plane by a box of height 2ε·2⁻ʲ, for a total volume of at most 2ε). By definition, this means its λ₃-measure is zero. For integration, this means changes to a function on any plane — or any surface, curve, or lower-dimensional set — leave the Lebesgue integral unchanged. This is what 'almost everywhere' means: properties that hold everywhere except on a set of measure zero are sufficient for all integration-theoretic purposes."
   explanation: "This measure-zero phenomenon is not merely a curiosity — it underpins the concept of 'almost everywhere' equality, which makes Lebesgue integration robust and allows function spaces like L² to treat functions that differ only on a set of measure zero as identical. It also explains why you can safely ignore discontinuities on curves or surfaces when computing integrals, and why Fourier series can converge almost everywhere even to functions with countably many jumps."
 ```
 

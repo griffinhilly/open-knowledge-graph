@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Allopatric speciation occurs when geographic barriers prevent gene flow between populations, allowing independent evolution and accumulation of reproductive isolation. This is the dominant mode of speciation and is supported by patterns of biogeography and molecular clocks. Secondary contact between allopatric populations reveals degree of reproductive isolation achieved.
 
+## How It's Best Learned
+Start from a map: draw one population, add a barrier, and list the forces that act on each side (mutation, drift, local selection, sexual selection). Then remove the barrier and predict three outcomes of secondary contact: merging, a hybrid zone, or coexistence without interbreeding. Snapping shrimp split by the Isthmus of Panama make a good real case to test against.
+
+## Common Misconceptions
+- The barrier itself makes the two populations change. (The barrier only stops gene flow. Mutation, drift and selection acting separately on each side produce the differences.)
+- If two populations look different, they have become separate species. (Appearance can diverge while the populations can still interbreed. Reproductive isolation, tested at secondary contact, is the criterion.)
+- Speciation fails if the barrier later disappears. (The barrier only needs to block gene flow long enough for isolation to build up. After that, the species can share a range.)
+- A barrier has to be something large, like a mountain range or an ocean. (What counts as a barrier depends on how far the organism disperses. A river can isolate flightless beetles but not birds.)
+
 ## Questions
 
 ```yaml

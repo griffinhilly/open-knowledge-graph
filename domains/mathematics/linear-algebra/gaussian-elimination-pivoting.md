@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Partial pivoting swaps rows to place the largest entry in the pivot position before elimination, reducing rounding errors in floating-point arithmetic. Without pivoting, small pivots can amplify errors in subsequent operations. Pivoting is essential for numerical stability and is standard in computational practice.
 
+## How It's Best Learned
+Solve 0.0001x + y = 1, x + y = 2 by hand, rounding every result to three significant digits. Without pivoting the multiplier is 10,000, the second row rounds to −10,000y = −10,000, so y = 1 and back-substitution gives x = 0. Swap the rows first and the same rounding gives x = 1, y = 1, close to the true solution (about 1.0001 and 0.9999).
+
+## Common Misconceptions
+- Partial pivoting makes every system solve accurately. (It keeps multipliers at most 1 in size, but it cannot fix an ill-conditioned system, where tiny changes in the data change the answer a lot.)
+- Partial pivoting picks the largest entry anywhere in the remaining matrix. (It searches only the current column, at and below the pivot row. Searching rows and columns together is called complete pivoting.)
+- After swapping rows, you must also reorder the unknowns in x. (A row swap only reorders the equations, so x is unchanged. Column swaps, used in complete pivoting, are what reorder the unknowns.)
+
 ## Questions
 
 ```yaml
@@ -48,7 +56,7 @@ Partial pivoting swaps rows to place the largest entry in the pivot position bef
 - question: "Even when a linear system Ax = b has a unique exact solution, Gaussian elimination without pivoting can produce a completely wrong numerical answer due to floating-point error amplification."
   type: true-false
   answer: true
-  explanation: "This is the core motivation for partial pivoting. The existence and uniqueness of the mathematical solution is not the issue; the question is whether the numerical algorithm finds it accurately. A near-zero pivot creates a large multiplier that amplifies rounding errors. Across multiple elimination steps, these errors compound, potentially making the computed result far from the true solution. Partial pivoting keeps all multipliers ≤ 1, preventing this amplification regardless of the system's condition."
+  explanation: "This is the core motivation for partial pivoting. The existence and uniqueness of the mathematical solution is not the issue; the question is whether the numerical algorithm finds it accurately. A near-zero pivot creates a large multiplier that amplifies rounding errors. Across multiple elimination steps, these errors compound, potentially making the computed result far from the true solution. Partial pivoting keeps all multipliers ≤ 1, which limits this amplification."
 
 - question: "Using partial pivoting changes the mathematical solution that Gaussian elimination computes, and should primarily be applied when numerical accuracy matters more than finding the true exact solution."
   type: true-false
@@ -69,6 +77,6 @@ Here's the problem. Suppose your current pivot — the leading entry you're elim
 
 **Partial pivoting** prevents this by swapping rows before each elimination step. Before using entry (k, k) as the pivot, scan all the entries below it in column k and find the largest one in absolute value. Swap that row up to position k. Now the pivot is the largest available entry in its column, so every multiplier in this step has absolute value ≤ 1. Errors don't get amplified — they stay bounded. The only cost is bookkeeping: you record the row swaps in a permutation matrix P so you can reconstruct that you solved PA = LU rather than A = LU directly.
 
-A small example shows the difference clearly. Solving the system [0.001, 1; 1, 1] × [x; y] = [1; 2] without pivoting: divide row 2 by 0.001 to eliminate, producing a multiplier of 1000 that amplifies floating-point noise. With pivoting: swap rows first so the pivot is 1 (the larger entry), multiplier becomes 0.001, and the elimination is numerically clean. The final answers match analytically but diverge significantly in floating-point.
+A small example shows the difference clearly. Solving the system [0.001, 1; 1, 1] × [x; y] = [1; 2] without pivoting: subtract 1000 times row 1 from row 2 to eliminate, a multiplier of 1000 that amplifies floating-point noise. With pivoting: swap rows first so the pivot is 1 (the larger entry), multiplier becomes 0.001, and the elimination is numerically clean. The final answers match analytically but diverge significantly in floating-point.
 
 Every serious numerical linear algebra library — LAPACK, NumPy, MATLAB — applies partial pivoting by default when solving Ax = b. It's not optional engineering caution; it's the reason direct solvers work reliably in practice. Understanding pivoting also prepares you for **LU decomposition with permutation matrices** (PA = LU), where the same row-swapping logic is formalized into a factorization that can be reused to solve systems with multiple right-hand sides efficiently.

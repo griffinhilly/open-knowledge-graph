@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Calvo pricing assumes firms can adjust prices only randomly (with constant probability each period), creating a realistic form of price rigidity. Unlike menu-cost models, Calvo pricing leads to tractable equilibria and is widely used in DSGE models. The key insight is that firms optimally reset prices but must sometimes sell at stale prices, creating nominal inertia. This staggered pricing structure causes monetary shocks to have real effects on output and employment in the short run.
 
+## How It's Best Learned
+Compute one reset price by hand. Let θ = 0.5, take β close to 1, and let the firm's desired price be 100 today, 101 next period, 102 after that, and so on. Weight period k by (1 − θ)θ^k, the chance the price is still in force: 0.5, 0.25, 0.125, and so on. The reset price comes out at 101, above today's desired 100.
+
+## Common Misconceptions
+- Calvo and menu-cost models give similar real effects for the same frequency of price changes. (In menu-cost models the firms with the largest price gaps choose to adjust, so the price level can respond faster and real effects can be smaller.)
+- Stickier prices, a higher θ, make the Phillips curve steeper. (Higher θ means fewer firms respond to marginal cost each period, so the Phillips curve gets flatter.)
+- The Calvo lottery is meant as a literal account of how firms decide when to reprice. (It is a modeling device chosen for tractability; real repricing depends partly on how far a price has drifted.)
+
 ## Questions
 
 ```yaml

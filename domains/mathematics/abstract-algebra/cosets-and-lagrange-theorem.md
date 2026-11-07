@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 A left coset gH = {gh : h ∈ H} partitions G with all cosets having size |H|. Lagrange's theorem: |H| divides |G| and the number of cosets is |G|/|H|. This fundamental result constrains possible subgroup orders.
 
+## How It's Best Learned
+List every coset of a small subgroup by hand and look at the partition. In S₃ with H = {e, (1 2)}, composing right to left, the left coset (1 3)H is {(1 3), (1 2 3)}, but the right coset H(1 3) is {(1 3), (1 3 2)}. Both families split S₃ into three blocks of size 2, which is the counting behind |G| = [G : H] · |H|.
+
+## Common Misconceptions
+- If d divides |G|, then G has a subgroup of order d. (Lagrange's theorem gives only the forward direction. A₄ has order 12 but no subgroup of order 6.)
+- The left coset gH and the right coset Hg are the same set. (They can differ. In S₃ with H = {e, (1 2)}, the left and right cosets of (1 3) above are different sets.)
+- Every coset of H is a subgroup. (Only the coset eH = H contains the identity. Every other coset is disjoint from H, so it misses e and cannot be a subgroup.)
+
 ## Questions
 
 ```yaml

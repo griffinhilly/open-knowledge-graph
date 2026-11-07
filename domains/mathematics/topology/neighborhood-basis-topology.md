@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 A neighborhood basis at point x is a collection of open sets containing x such that every open neighborhood of x contains some basis set. This characterizes local topology around points.
 
+## How It's Best Learned
+Check candidate families at 0 in ℝ against the definition: {(−1/n, 1/n)} passes, but {(−1/n, 1)} fails, since none fits inside (−1, 1/2). Then show that ℝ with the cofinite topology has no countable local base at x. Given countably many cofinite sets, pick y ≠ x outside all of their finite complements. The open set ℝ ∖ {y} contains x but contains none of them.
+
+## Common Misconceptions
+- A family of open sets around x whose intersection is {x} is a local base. (In ℝ, the sets (−1/n, 1/n) ∪ (n, n + 1) intersect in {0}, but none of them lies inside (−1, 1).)
+- The sets in a local base have to be nested. (Any family meeting the definition works. In a first-countable space, a countable local base can be made nested, but that is extra.)
+- A countable local base at every point gives a countable basis for the space. (That confuses first-countable with second-countable. An uncountable discrete space has the local base {{x}} at each x, but every basis contains all the singletons.)
+
 ## Questions
 
 ```yaml
@@ -49,7 +57,7 @@ A neighborhood basis at point x is a collection of open sets containing x such t
   answer: true
   explanation: "For any open set U containing x in a metric space, there exists ε > 0 with B(x, ε) ⊆ U. Choose n large enough that 1/n < ε — then B(x, 1/n) ⊆ B(x, ε) ⊆ U. So every open neighborhood of x contains some ball B(x, 1/n). This countable collection therefore satisfies the neighborhood basis definition and is what makes metric spaces first-countable — and why ε–δ arguments using sequences work for all continuous-function questions in metric spaces."
 
-- question: "In nearly every topological space, a point x is in the closure of a set A if and mainly if some sequence of points from A converges to x."
+- question: "In every topological space, a point x is in the closure of a set A if and only if some sequence of points from A converges to x."
   type: true-false
   answer: false
   explanation: "This equivalence holds in first-countable spaces (including all metric spaces) but fails in general. In non-first-countable spaces, x can be a limit point of A — every open neighborhood of x intersects A — yet no sequence from A converges to x. The correct general statement uses nets or filters instead of sequences. This is a significant reason why working topologists cannot rely solely on sequential intuition and need the more general convergence notions."
@@ -66,7 +74,7 @@ You have already seen that a topological basis for a whole space allows you to r
 
 In a metric space, the open balls B(x, 1/n) for n = 1, 2, 3, ... form a countable neighborhood basis at x. This is the key structure behind the ε–δ definition of continuity: to verify that a function is continuous at x, you only need to check preimages of sets in the local base, not all open sets. The countability of this local base is not a coincidence — it is the defining property of **first-countable spaces**. In such spaces, sequences suffice to detect limits, closure, and continuity, which is why metric-space intuition transfers so cleanly to first-countable topological spaces.
 
-In more exotic spaces, the local base may be uncountable. Consider the **long line** or **ordinal spaces**: at certain points, every neighborhood basis must be uncountable because the topology is too rich to be probed by sequences alone. In such spaces, the absence of a countable local base means that sequences are no longer sufficient — a point x can be a limit point of a set A without any sequence in A converging to x. This failure of sequences is precisely what motivated the development of nets and filters as the natural convergence tools for general topology.
+In more exotic spaces, the local base may be uncountable. Consider **ordinal spaces** such as [0, ω₁]: at the point ω₁, every neighborhood basis must be uncountable because the topology is too rich to be probed by sequences alone. In such spaces, the absence of a countable local base means that sequences are no longer sufficient — a point x can be a limit point of a set A without any sequence in A converging to x. This failure of sequences is precisely what motivated the development of nets and filters as the natural convergence tools for general topology.
 
 The neighborhood basis concept also clarifies what **homeomorphism** really means at the local level. Two spaces are homeomorphic if there is a bijection that sends open sets to open sets in both directions. At each point, this bijection must map a neighborhood basis at x to a neighborhood basis at the image f(x). So a homeomorphism preserves the entire local structure — not just closeness in a metric sense but the pattern of which sets nest inside which near each point. This is why topologists say homeomorphic spaces are "the same," even when they look geometrically different: their local bases are in bijective correspondence, and local bases encode everything about how the topology behaves near each point.
 

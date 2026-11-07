@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Biodiversity at any time reflects the balance between speciation and extinction rates. Mass extinction events (catastrophic loss of many species) are followed by adaptive radiations that refill ecological space. Understanding extinction risk and recovery potential is critical for conservation and for interpreting paleontological patterns.
 
+## How It's Best Learned
+Do the bookkeeping. Start with 1,000 species, each with speciation and extinction rates of 0.1 per million years, so diversity holds steady. A pulse removes 75%, leaving 250. If speciation then rises to 0.3 while extinction stays at 0.1, diversity grows as 250e^(0.2t). Solving 250e^(0.2t) = 1,000 gives t = ln 4 / 0.2, about 7 million years.
+
+## Common Misconceptions
+- Diversity falls only when extinction rates go up. (Diversity reflects the balance of the two rates. A drop in speciation with unchanged extinction also lowers it.)
+- After a mass extinction, the same kinds of species eventually come back. (Lost lineages do not return. Recovery fills niches with descendants of survivors, so post-recovery communities are dominated by different groups.)
+- The species that survive a mass extinction are the fittest in general. (Survival depends on traits that matter during the catastrophe, such as wide range or small body size. Those traits may have counted for little in normal times.)
+
 ## Questions
 
 ```yaml

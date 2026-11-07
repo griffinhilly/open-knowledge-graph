@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Convergent evolution is the independent evolution of similar traits in distantly related species facing similar selective pressures. Classic examples include camera eyes in vertebrates and cephalopods, or streamlining in sharks and dolphins. Convergence demonstrates that natural selection can find the same solutions repeatedly despite different genetic starting points.
 
+## How It's Best Learned
+Sort trait pairs on a simple phylogeny: shark and dolphin body shape, vertebrate and octopus eyes, human arm and whale flipper, bird wing and bat wing. For each pair, mark the common ancestor and ask whether it had the trait. The bird and bat case is the most useful, because the answer changes depending on whether you compare the wings or the forelimb bones.
+
+## Common Misconceptions
+- Species that look alike must be close relatives. (Similar pressures can produce similar forms in distant lineages. Relationships are tested with traits inherited from a common ancestor, not with resemblance alone.)
+- A trait is either homologous or analogous, full stop. (It depends on the level of comparison. Bird and bat wings are analogous as wings, but the forelimb bones inside them are homologous as tetrapod limbs.)
+- Convergent traits are the same in every detail. (They often differ underneath. Vertebrate photoreceptors face away from incoming light while cephalopod photoreceptors face toward it, and dolphins beat horizontal flukes while sharks sweep a vertical tail.)
+
 ## Questions
 
 ```yaml

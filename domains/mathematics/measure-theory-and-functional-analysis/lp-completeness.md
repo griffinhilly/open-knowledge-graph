@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Lᵖ(μ) is a complete normed space (Banach space) for 1 ≤ p ≤ ∞. Riesz-Fischer states that any Cauchy sequence in Lᵖ converges to a function in Lᵖ, making it a natural setting for limiting processes.
 
+## How It's Best Learned
+Watch the subsequence step on the typewriter sequence in Lᵖ[0,1]. List the indicators of [j/2ᵐ, (j+1)/2ᵐ] for j = 0, …, 2ᵐ − 1, then m = 1, 2, …. Each has norm 2^(−m/p), so the sequence tends to 0 in Lᵖ. Yet at every x the values hit 1 infinitely often. The subsequence 1_{[0, 2⁻ᵐ]} converges to 0 at every x > 0, which is the a.e. convergence the proof extracts.
+
+## Common Misconceptions
+- Convergence in Lᵖ implies convergence almost everywhere. (The typewriter sequence converges to 0 in Lᵖ but converges at no point. Only a subsequence is guaranteed to converge a.e.)
+- Any function space with an integral norm is complete, because ℝ is complete. (C[0,1] with the L¹ norm is not complete. Lᵖ is complete because it allows every measurable limit and identifies functions that agree a.e.)
+- The a.e. limit of the subsequence might differ from the Lᵖ limit. (The two agree almost everywhere, so they are the same element of Lᵖ.)
+
 ## Questions
 
 ```yaml
@@ -50,7 +58,7 @@ Lᵖ(μ) is a complete normed space (Banach space) for 1 ≤ p ≤ ∞. Riesz-Fi
   answer: false
   explanation: "This is exactly the negation of completeness. A metric space is complete if and only if every Cauchy sequence converges to a limit *within* the space. If the space is not complete, there exist Cauchy sequences whose limit points lie outside it — the space has 'gaps.' The rational numbers ℚ are a classic example: the sequence 3, 3.1, 3.14, 3.141, ... is Cauchy in ℚ but converges to π, which is irrational."
 
-- question: "The completeness of Lᵖ guarantees that nearly every Cauchy sequence in Lᵖ converges pointwise almost everywhere."
+- question: "The completeness of Lᵖ guarantees that every Cauchy sequence in Lᵖ converges pointwise almost everywhere."
   type: true-false
   answer: false
   explanation: "Completeness guarantees convergence in the Lᵖ *norm* — ‖fₙ − f‖ₚ → 0 — not pointwise convergence. Norm convergence is strictly weaker: a Cauchy sequence in Lᵖ may fail to converge pointwise at individual points or even diverge almost everywhere, as long as the Lᵖ norm of the difference goes to zero. This separation between norm convergence and pointwise convergence is one of the key subtleties of Lᵖ theory."

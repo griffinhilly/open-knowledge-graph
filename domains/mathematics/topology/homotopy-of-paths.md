@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Two paths are homotopic if one can be continuously deformed into the other while keeping endpoints fixed. This is an equivalence relation on paths, and the set of equivalence classes can be given a group structure (under concatenation) when the basepoint is fixed. Homotopy captures the intuition that topologically equivalent deformations preserve path structure.
 
+## How It's Best Learned
+First prove that a reparametrization changes nothing: if φ: [0, 1] → [0, 1] is continuous with φ(0) = 0 and φ(1) = 1, then H(t, s) = γ((1 − s)t + s·φ(t)) is a homotopy rel endpoints from γ to γ∘φ. Then draw the upper and lower semicircles from (1, 0) to (−1, 0) in ℝ² ∖ {0}, and note that one followed by the reverse of the other winds once around the origin.
+
+## Common Misconceptions
+- Two paths that are homotopic as maps are homotopic rel endpoints. (Any two paths in a path-connected space are homotopic as maps, because [0, 1] is contractible. Fixing the endpoints is what makes the upper and lower semicircles in ℝ² ∖ {0} inequivalent.)
+- Changing the speed of a path gives a new homotopy class. (Any reparametrization fixing 0 and 1 is homotopic rel endpoints to the original path.)
+- Only loops can be concatenated. (Any path α can be followed by a path β with β(0) = α(1). Loops at one basepoint are the case where every pair composes, which is why they form a group.)
+
 ## Questions
 
 ```yaml

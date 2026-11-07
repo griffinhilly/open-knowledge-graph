@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 The vector potential A is defined by B = ∇ × A, automatically satisfying ∇ · B = 0. This reformulation replaces the magnetic constraint with a vector equation, often simplifying calculations. Like scalar potential, A is non-unique under gauge transformations.
 
+## How It's Best Learned
+Use Stokes's theorem, ∮A·dl = Φ_B, the way Gauss's law is used for E. For a long solenoid of radius R with uniform field B inside, a circle of radius s gives A_φ = Bs/2 inside and A_φ = BR²/(2s) outside. Check the outside result: (1/s)d(sA_φ)/ds = 0, so B vanishes there while A does not.
+
+## Common Misconceptions
+- Knowing B = ∇ × A fixes A uniquely. (The curl leaves the divergence and boundary behavior open. You also need a gauge condition such as ∇·A = 0 and a condition at infinity.)
+- A at a point is set by B at that same point. (Outside a long solenoid B = 0 but A_φ = BR²/(2s), fixed by the flux enclosed by the path.)
+- A points along B, the way field lines run. (In Coulomb gauge each Cartesian component obeys ∇²A_i = −μ₀J_i, so A tends to follow the current, and B is its curl.)
+- The formula A = (μ₀/4π)∫J/|r − r′| dV′ holds in any gauge. (It gives the Coulomb-gauge potential for steady, localized currents. Other gauges give A plus a gradient.)
+
 ## Questions
 
 ```yaml

@@ -19,6 +19,15 @@ status: validated
 ## Core Idea
 Individual rationality (IR) requires that participation in the mechanism yields at least the agent's reservation utility (outside option). For each type, u_i(outcome | type) ≥ u_i(outside option). The mechanism must leave everyone at least as well off as not participating. IR + IC together characterize feasible mechanisms.
 
+## How It's Best Learned
+Take one buyer whose value is 4 or 10 with equal chance, and a rule that charges 6 for the good. Before learning the value, the buyer expects 0.5(−2) + 0.5(4) = 1, so ex ante IR holds. With a value of 4 the payoff is −2, so interim IR fails. Lowering the price to 4 fixes both types and leaves the high type a surplus of 6.
+
+## Common Misconceptions
+- Meeting the IR constraint means the agent gets zero surplus. (IR sets a floor. In the optimal mechanism the lowest type often sits at the floor, while higher types keep rents above it.)
+- IR only matters when agents have private information. (IR applies whenever participation is voluntary. Private information makes it harder to meet because the designer cannot tailor terms to each type.)
+- If IR holds in expectation, no participant ends up worse off. (Interim IR allows losses after the outcome. In an all-pay auction, losers pay their bids and finish below their outside option.)
+- The outside option is zero for every type. (Zero is a common normalization. Outside options can depend on type, such as a worker's alternative wage, and that can change which type's IR binds.)
+
 ## Questions
 
 ```yaml

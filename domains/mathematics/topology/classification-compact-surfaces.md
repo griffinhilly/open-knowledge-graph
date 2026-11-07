@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Every compact connected surface without boundary is homeomorphic to either a sphere, a connected sum of tori, or a connected sum of projective planes. The classification is complete: surfaces are determined up to homeomorphism by their orientability and genus. This is a major theorem demonstrating the power of topological invariants.
 
+## How It's Best Learned
+Build surfaces from labeled polygons and compute χ = V − E + F after gluing. A square with edge word aba⁻¹b⁻¹ gives the torus: one vertex, two edges, one face, so χ = 0. A two-sided polygon with word aa gives the projective plane, with χ = 1 − 1 + 1 = 1. Then name a mystery surface from its χ and orientability alone.
+
+## Common Misconceptions
+- The Euler characteristic alone identifies a compact surface. (The torus and the Klein bottle both have χ = 0. Orientability is needed to tell them apart.)
+- The Klein bottle is a separate type outside the list. (It is homeomorphic to the connected sum of two projective planes.)
+- Mixing tori and projective planes in a connected sum creates a new kind of surface. (The torus summed with a projective plane is homeomorphic to the sum of three projective planes, so it falls in the non-orientable family.)
+- The theorem classifies every surface. (It covers compact, connected surfaces without boundary. The plane and the open disk are surfaces but are not compact.)
+
 ## Questions
 
 ```yaml
@@ -55,7 +64,7 @@ Every compact connected surface without boundary is homeomorphic to either a sph
   answer: true
   explanation: "For the orientable family, genus alone determines the homeomorphism type. The orientable surfaces form a sequence: sphere (g=0), torus (g=1), double torus (g=2), and so on. Any two members of this sequence with the same genus are related by a homeomorphism, and members with different genera are not. This is precisely the content of the classification theorem restricted to orientable surfaces."
 
-- question: "A surface with Euler characteristic −2 is expected to be homeomorphic to the double torus."
+- question: "A compact surface with Euler characteristic −2 must be homeomorphic to the double torus."
   type: true-false
   answer: false
   explanation: "χ = −2 alone does not determine the surface — orientability also matters. The double torus (orientable, genus 2) has χ = 2 − 2(2) = −2. But the connected sum of four projective planes (non-orientable, k=4) also has χ = 2 − 4 = −2. These two surfaces are NOT homeomorphic. The classification theorem requires both Euler characteristic AND orientability to match; knowing only χ leaves a two-way ambiguity (orientable vs non-orientable)."

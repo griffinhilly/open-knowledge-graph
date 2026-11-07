@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Coalescent theory models the genealogy of a sample of genes, tracing lineages backward in time to their common ancestor. The theory predicts that expected time to coalescence depends on effective population size (Ne) and provides a framework for inferring past population sizes, divergence times, and gene flow from sequence data.
 
+## How It's Best Learned
+First draw a small Wright-Fisher grid: rows of 8 gene copies per generation, each copy picking a random parent in the row above. Trace a few present-day copies upward until they meet. Then compute the expected waits 4Ne/(k(k−1)) for k = 4, 3, 2. They are Ne/3, 2Ne/3 and 2Ne, for a total of 3Ne. The last two lineages take two-thirds of the total, which explains the long branches near the root.
+
+## Common Misconceptions
+- The most recent common ancestor was the only individual alive at that time. (Many individuals lived then. The MRCA is just where the sampled lineages happen to meet, and other individuals may have left descendants through other loci.)
+- Sampling many more individuals pushes the common ancestor much further back. (Expected time to the MRCA is 4Ne(1 − 1/n), which approaches 4Ne. Going from 10 to 100 samples adds little depth.)
+- The gene tree for one locus shows the history of the whole population. (Each unlinked locus has its own genealogy, and these differ by chance. Demographic inference combines many loci.)
+
 ## Questions
 
 ```yaml

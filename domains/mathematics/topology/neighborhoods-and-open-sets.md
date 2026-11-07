@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 A neighborhood of point x is an open set containing x. Neighborhoods capture the intuition of 'regions around x.' Every topological space is determined by the neighborhood structure: two topologies are equal iff they assign the same neighborhoods to every point. Neighborhoods enable local analysis of topological spaces.
 
+## How It's Best Learned
+List neighborhoods by hand in a small space: X = {a, b, c} with open sets ∅, {a}, {a, b}, X. Each nonempty open set is a neighborhood of a, b has {a, b} and X, and c has only X. Then check what follows: the constant sequence a, a, a, … converges to all three points. Last, prove that U is open exactly when it is a neighborhood of each of its points.
+
+## Common Misconceptions
+- Every point has small neighborhoods that close in around it. (In the space above, the only neighborhood of c is all of X.)
+- A set that contains a neighborhood of one of its points is open. (The condition is needed at every point. [0, 1) contains (0, 1/2) around 1/4, but no open interval around 0 lies inside it, so it is not open in ℝ.)
+- The intersection of all neighborhoods of x is {x}. (This holds in T₁ spaces. In the space above, every neighborhood of b contains a, so the intersection is {a, b}.)
+
 ## Questions
 
 ```yaml
@@ -49,7 +57,7 @@ A neighborhood of point x is an open set containing x. Neighborhoods capture the
   answer: true
   explanation: "This is the precise topological definition of convergence in neighborhood language. For any open set U containing x, there must exist N such that xₙ ∈ U for all n > N — the sequence is eventually inside every neighborhood of x. This generalizes the metric-space definition (where neighborhoods are ε-balls) to arbitrary topological spaces, and illustrates why neighborhoods are the natural vocabulary for convergence: the question 'does the sequence converge to x?' reduces to 'does every neighborhood of x eventually trap the sequence?'"
 
-- question: "Two topologies on a set X can assign exactly the same neighborhoods to nearly every point while still being distinct topologies."
+- question: "Two topologies on a set X can assign exactly the same neighborhoods to every point while still being distinct topologies."
   type: true-false
   answer: false
   explanation: "This is false — the neighborhood structure completely determines the topology. A set U is open if and only if it is a neighborhood of every point it contains. So if two topologies agree on which sets are neighborhoods of each point, they must agree on which sets are open, meaning they are identical topologies. This is the deep content of the equivalence between the open-set axioms and the neighborhood-filter axioms: the local neighborhood data at each point encodes the entire global topology."

@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 A sequence of functionals (fₙ) in X* converges weak* to f if fₙ(x) → f(x) for every x ∈ X. The weak* topology on X* enables compactness: the closed unit ball is weak* compact (Alaoglu's theorem).
 
+## How It's Best Learned
+Compare the two convergences on one sequence. View ℓ¹ as the dual of c₀. The vectors eₙ converge weak* to 0, since eₙ(x) = xₙ → 0 for each x ∈ c₀. They do not converge weakly, because (1, 1, 1, ...) ∈ ℓ∞ = (ℓ¹)* takes the value 1 on every eₙ. Then check that point masses δ_(1/n) converge weak* to δ₀ in C[0,1]*, although ‖δ_(1/n) − δ₀‖ = 2.
+
+## Common Misconceptions
+- Alaoglu's theorem gives every bounded sequence in X* a weak* convergent subsequence. (In general it gives a convergent subnet. The sequential version holds when X is separable, and in (ℓ∞)* the coordinate functionals have no weak* convergent subsequence.)
+- Weak* convergence and weak convergence in X* are the same. (In ℓ¹ = (c₀)*, eₙ converges weak* to 0 but not weakly, as the functional (1, 1, 1, ...) shows.)
+- A weak* limit keeps the norm of the sequence. (Norm can drop: ‖f‖ ≤ lim inf ‖fₙ‖, and for eₙ → 0 weak* in ℓ¹ each term has norm 1 while the limit has norm 0.)
+
 ## Questions
 
 ```yaml
@@ -58,6 +66,7 @@ A sequence of functionals (fₙ) in X* converges weak* to f if fₙ(x) → f(x) 
 - question: "Why is the weak* topology — rather than the norm topology — the right setting for Alaoglu's compactness theorem, and what makes this theorem useful in practice?"
   type: short-answer
   answer: "Riesz's theorem shows the unit ball in an infinite-dimensional space is never norm-compact, so norm topology cannot supply compactness. The weak* topology on X* is defined only by pointwise convergence against elements of X — a coarser topology with fewer open sets — making it easier for sequences to converge and for sets to be compact. Alaoglu's theorem states the closed unit ball in X* is weak* compact. In practice, this lets you take a bounded sequence of approximate solutions (functionals or measures), extract a weak* convergent subnet via Alaoglu, and show the weak* limit is an exact solution — a pattern that drives existence proofs across analysis, PDEs, and variational calculus."
+  explanation: "A coarser topology has fewer open sets, so there are fewer open covers to defeat compactness. The proof of Alaoglu makes this concrete. Each f in the unit ball of X* is identified with the tuple of its values (f(x)) for x in X, which lies in a product of closed disks of radius ‖x‖. That product is compact by Tychonoff's theorem, the weak* topology matches the product topology, and the unit ball is a closed subset. The norm topology demands uniform closeness on the whole unit ball of X, which is why it cannot give compactness. One caution for applications is that Alaoglu yields convergent subnets in general, and convergent subsequences when X is separable."
 ```
 
 ## Explainer

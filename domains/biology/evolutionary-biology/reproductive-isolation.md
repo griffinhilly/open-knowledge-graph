@@ -19,6 +19,15 @@ status: validated
 ## Core Idea
 Reproductive isolation mechanisms prevent gene flow between species and can be prezygotic (behavioral, temporal, mechanical barriers) or postzygotic (hybrid inviability, sterility, breakdown). Dobzhansky-Muller incompatibilities show how neutral divergence can create reproductive isolation without direct selection.
 
+## How It's Best Learned
+Draw a timeline of reproduction: finding a mate, mating, fertilization, hybrid development, hybrid fertility, then the F2 generation. Place each barrier at the step where it acts, with the zygote marking the prezygotic and postzygotic split. Then trace the Dobzhansky-Muller case: start from AABB, show aaBB on one branch and AAbb on the other, and note that a and b first meet in the AaBb hybrid.
+
+## Common Misconceptions
+- If two species can produce a hybrid, they are not reproductively isolated. (Postzygotic barriers such as hybrid sterility or breakdown can still block gene flow even when hybrids form.)
+- Hybrid incompatibility means at least one parent species carried a harmful mutation. (In the Dobzhansky-Muller model each allele works well in its own background; the problem appears only when the two alleles meet.)
+- Reproductive isolation evolves because selection favors keeping species apart. (Barriers often arise as byproducts of divergence; reinforcement, in which selection strengthens prezygotic barriers after contact, is a special case.)
+- Each pair of species is kept apart by a single barrier. (Several barriers usually act together, and their effects combine to reduce gene flow.)
+
 ## Questions
 
 ```yaml
@@ -66,4 +75,4 @@ These barriers fall into two broad categories based on when they act. **Prezygot
 
 **Postzygotic barriers** act after a hybrid zygote has formed, reducing its fitness. Hybrid inviability means the embryo fails to develop properly — certain crosses between sheep and goat species produce embryos that die early in development. Hybrid sterility means the offspring survives but cannot reproduce — the mule, a cross between horse and donkey, is the classic example. Its mismatched chromosomes cannot pair properly during meiosis, so it produces no viable gametes. Hybrid breakdown appears in later generations: the first hybrid generation (F1) may be fine, but F2 or backcross offspring show reduced fitness as incompatible gene combinations segregate out.
 
-One of the deepest insights about reproductive isolation comes from the **Dobzhansky-Muller model**. It explains how incompatibilities can arise without any single harmful mutation. Imagine an ancestral population with genotype AABB that splits into two isolated populations. In one, a neutral mutation changes A to a (giving aaBB), and in the other, a neutral mutation changes B to b (giving AAbb). Each mutation is perfectly fine in its own genetic background. But when the populations meet again and a hybrid forms with genotype aabb (or AaBb), the a and b alleles interact for the first time — and this novel combination may be lethal or cause sterility. No single step was disadvantageous; the incompatibility emerges only from the combination. This model elegantly explains why reproductive isolation can evolve as a byproduct of ordinary genetic divergence in separated populations, without natural selection directly favoring barriers to interbreeding.
+One of the deepest insights about reproductive isolation comes from the **Dobzhansky-Muller model**. It explains how incompatibilities can arise without any single harmful mutation. Imagine an ancestral population with genotype AABB that splits into two isolated populations. In one, a neutral mutation changes A to a (giving aaBB), and in the other, a neutral mutation changes B to b (giving AAbb). Each mutation is perfectly fine in its own genetic background. But when the populations meet again and a hybrid forms with genotype AaBb, the a and b alleles interact for the first time — and this novel combination may be lethal or cause sterility. No single step was disadvantageous; the incompatibility emerges only from the combination. This model elegantly explains why reproductive isolation can evolve as a byproduct of ordinary genetic divergence in separated populations, without natural selection directly favoring barriers to interbreeding.

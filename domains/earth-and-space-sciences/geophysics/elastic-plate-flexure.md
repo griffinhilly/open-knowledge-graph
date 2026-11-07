@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Lithosphere behaves elastically on timescales of load application (years to thousands of years), supporting topographic loads before isostatic compensation occurs. The elastic plate thickness (effective elastic thickness, Te) quantifies lithospheric strength. Loading from mountains or ice sheets causes flexural bending; wavelength and amplitude depend on Te and load geometry. Gravity and bathymetry reveal Te variations.
 
+## How It's Best Learned
+Compute the flexural parameter α = [4D/(Δρg)]^¼, with rigidity D = E·Te³/[12(1−ν²)]. For Te = 30 km, E = 70 GPa, ν = 0.25 and a water-filled moat (Δρ = 2,300 kg/m³), D ≈ 1.7 × 10²³ N·m and α ≈ 74 km. A line load's forebulge sits near πα, about 230 km out. Then halve Te and watch the bulge move inward.
+
+## Common Misconceptions
+- Flexure and isostasy are competing explanations. (Flexure is regional isostatic compensation: buoyancy still balances the load, but plate strength spreads that support over a wide area.)
+- Doubling Te doubles the width of the flexural depression. (The width scales with α, which goes as Te to the 3/4 power, so doubling Te widens it by about 1.7 times.)
+- A stiffer plate sinks deeper under the same load. (A stiffer plate spreads the load more widely, so the deflection directly beneath the load is smaller.)
+- The forebulge forms because mantle rock is squeezed outward from under the load. (In the elastic plate model the bulge comes from plate bending alone, with no lateral mantle flow required.)
+
 ## Questions
 
 ```yaml

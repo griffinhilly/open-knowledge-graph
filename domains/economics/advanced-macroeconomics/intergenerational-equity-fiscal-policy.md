@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 OLG models reveal that government policies distribute burdens and benefits across generations. Unfunded government spending or deficits shift the tax burden to future generations; intergenerational equity requires that the present value of government spending across all generations be matched by taxes. This framework shows why current deficits create intergenerational imbalances and why sustainable policy requires current generations to pay for their consumption.
 
+## How It's Best Learned
+Trace a pay-as-you-go pension through three generations. Each young worker pays 10, which goes straight to current retirees, so the first retirees collect without ever paying in. If the workforce and wages each grow about 1% a year, later generations earn an implicit return near 2% a year. Compare that with a 4% return on a funded plan to see who pays for the first windfall.
+
+## Common Misconceptions
+- Any deficit makes future generations worse off. (If borrowing pays for investment that raises future output, or if the interest rate stays below the growth rate, later cohorts need not lose.)
+- The official deficit shows how much a policy shifts burdens between generations. (Pension and health promises do not appear in official debt, and the same policy can be booked with different deficits; generational accounting tracks lifetime net taxes instead.)
+- A funded pension system removes all demographic risk. (It ends the dependence on the ratio of workers to retirees, but an aging population can still affect the returns and prices of the assets the fund holds.)
+
 ## Questions
 
 ```yaml

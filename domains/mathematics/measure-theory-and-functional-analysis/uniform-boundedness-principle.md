@@ -17,6 +17,15 @@ status: validated
 ## Core Idea
 The uniform boundedness principle (Banach-Steinhaus) states that if a family of bounded linear operators {Tᵢ : X → Y} between Banach spaces is pointwise bounded, then the operators are uniformly bounded in norm. This powerful tool controls infinite families of operators.
 
+## How It's Best Learned
+Use the theorem in its contrapositive form on Fourier series. On the continuous periodic functions with the sup norm, the functionals f ↦ Sₙf(0) have norms equal to the Lebesgue constants (1/2π)∫|Dₙ|, which grow without bound. So some continuous f has sup |Sₙf(0)| = ∞. Then prove the standard corollary: a pointwise limit of bounded operators on a Banach space is bounded.
+
+## Common Misconceptions
+- Both X and Y must be complete. (Only the domain X needs to be a Banach space. The codomain can be any normed space.)
+- Uniform boundedness means one bound on ‖Tᵢx‖ that works for every x. (The conclusion is ‖Tᵢx‖ ≤ C‖x‖, a bound that scales with ‖x‖.)
+- Pointwise boundedness on a dense subset is enough. (On c₀, Tₙ(x) = n xₙ is bounded at each finitely supported x, a dense set, but ‖Tₙ‖ = n.)
+- Pointwise convergence Tₙx → Tx implies ‖Tₙ − T‖ → 0. (The theorem gives a bounded limit, not norm convergence. Projections onto the first n coordinates of ℓ² converge pointwise to the identity, yet ‖I − Pₙ‖ = 1.)
+
 ## Questions
 
 ```yaml

@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Regular spaces (T₃) allow separation of points from disjoint closed sets by open neighborhoods, while normal spaces (T₄) extend this to separating disjoint closed sets. These axioms enable the existence of continuous functions with prescribed values on closed sets (Tietze extension) and provide flexibility in constructing continuous real-valued functions (Urysohn's lemma).
 
+## How It's Best Learned
+Verify the metric-space proof of normality line by line. For U = {x : d(x, A) < d(x, B)}, openness follows from continuity of x ↦ d(x, A) − d(x, B). A point a ∈ A has d(a, A) = 0 and d(a, B) > 0, because B is closed and misses a. Then test the closed sets {(x, 0)} and {(x, 1/x) : x > 0} in ℝ², which are disjoint yet at distance zero.
+
+## Common Misconceptions
+- Every regular space is normal. (The Sorgenfrey plane is regular but not normal. Separating two closed sets is a harder demand than separating a point from one.)
+- Normality by itself implies regularity and the Hausdorff property. (The Sierpiński space, {a, b} with open sets ∅, {a}, and {a, b}, is normal but neither regular nor Hausdorff. Those implications need T₁.)
+- In a metric space, disjoint closed sets can be separated by ε-neighborhoods for one fixed ε. (The x-axis and the curve y = 1/x for x > 0 are disjoint closed sets at distance zero, so no fixed ε works.)
+
 ## Questions
 
 ```yaml
@@ -51,12 +59,12 @@ Regular spaces (T₃) allow separation of points from disjoint closed sets by op
 - question: "Every metric space is normal (T₄)."
   type: true-false
   answer: true
-  explanation: "Given disjoint closed sets A and B in a metric space, define U = {x : d(x,A) < d(x,B)} and V = {x : d(x,B) < d(x,A)}. These sets are open, disjoint, and contain A and B respectively. So every metric space is normal. This is why T₄ feels like the natural baseline for classical analysis — all spaces that arise in analysis and geometry are metric spaces and hence automatically normal."
+  explanation: "Given disjoint closed sets A and B in a metric space, define U = {x : d(x,A) < d(x,B)} and V = {x : d(x,B) < d(x,A)}. These sets are open, disjoint, and contain A and B respectively. So every metric space is normal. This is why T₄ feels like the natural baseline for classical analysis — many spaces that arise in analysis and geometry are metric spaces and hence automatically normal."
 
 - question: "A regular (T₃) space is also normal (T₄), since both axioms concern separation of closed sets by open sets."
   type: true-false
   answer: false
-  explanation: "Regularity and normality are genuinely distinct: T₃ does not imply T₄. A classical example is the Sorgenfrey plane (ℝ with the lower limit topology, squared), which is regular but not normal. The difference is significant: T₃ separates a single point from a closed set; T₄ must separate two arbitrary disjoint closed sets. Separating two large closed sets from each other is a strictly harder requirement. The hierarchy T₁ ⊂ T₂ ⊂ T₃ ⊂ T₄ is strict at every step."
+  explanation: "Regularity and normality are genuinely distinct: T₃ does not imply T₄. A classical example is the Sorgenfrey plane (ℝ with the lower limit topology, squared), which is regular but not normal. The difference is significant: T₃ separates a single point from a closed set; T₄ must separate two arbitrary disjoint closed sets. Separating two large closed sets from each other is a strictly harder requirement. The chain T₄ ⟹ T₃ ⟹ T₂ ⟹ T₁ is strict at every step."
 
 - question: "Why is normality (T₄) the threshold that enables continuous functions to be constructed from purely topological data, as Urysohn's lemma demonstrates?"
   type: short-answer
@@ -70,6 +78,6 @@ From your study of Hausdorff spaces (T₂), you know that a space satisfies the 
 
 **Normality** (T₄) pushes one step further: X is normal if any two disjoint closed sets A and B can be separated by disjoint open sets. A **T₄ space** is both normal and T₁. Every metric space is normal: given disjoint closed sets A and B, the open sets U = {x : d(x,A) < d(x,B)} and V = {x : d(x,B) < d(x,A)} are disjoint and cover A and B respectively (the triangle inequality ensures they work). So all the spaces of classical analysis are normal, which is why T₄ feels like the natural baseline for many theorems.
 
-The payoff for T₄ is the pair of theorems it enables. **Urysohn's lemma** states: in a normal space, given disjoint closed sets A and B, there exists a continuous function f: X → [0,1] with f(A) = 0 and f(B) = 1. This is remarkable — it constructs a continuous function from purely topological data, with no metric or formula. The proof builds f by inductively finding open sets U_r for every dyadic rational r ∈ [0,1], arranged so that A ⊆ U_0 and X \ B ⊇ U_1 and U_r ⊆ closure(U_s) whenever r < s. Normality is invoked at every inductive step to find each new separating open set. The function f(x) = inf{r : x ∈ U_r} then turns out to be continuous.
+The payoff for T₄ is the pair of theorems it enables. **Urysohn's lemma** states: in a normal space, given disjoint closed sets A and B, there exists a continuous function f: X → [0,1] with f(A) = 0 and f(B) = 1. This is remarkable — it constructs a continuous function from purely topological data, with no metric or formula. The proof builds f by inductively finding open sets U_r for every dyadic rational r ∈ [0,1], arranged so that A ⊆ U_0 and X \ B ⊇ U_1 and closure(U_r) ⊆ U_s whenever r < s. Normality is invoked at every inductive step to find each new separating open set. The function f(x) = inf{r : x ∈ U_r} then turns out to be continuous.
 
 The **Tietze extension theorem** follows from Urysohn and completes the picture: in a normal space, every continuous real-valued function defined on a closed subspace extends to a continuous function on the whole space. Together, Urysohn and Tietze show that T₄ is the threshold where topology becomes rich enough to guarantee the existence of continuous functions with prescribed behavior on closed sets. This matters practically: when you work in abstract settings like manifolds or function spaces, verifying normality (or the related condition of complete regularity, T₃.₅) is often the first step that legitimizes the use of partition-of-unity arguments, bump functions, and other tools that make analysis flexible.

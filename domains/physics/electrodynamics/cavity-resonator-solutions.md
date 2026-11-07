@@ -22,7 +22,16 @@ status: validated
 # Electromagnetic Field Solutions in Cavities
 
 ## Core Idea
-Cavity resonators confine standing wave patterns through metal boundaries. Resonant frequencies ωₙₘₚ are determined by boundary conditions; TMₙₘₚ modes have all three field components while TEₙₘₚ modes have zero Ez or Hz. Field patterns are spatial modes with time-harmonic oscillation.
+Cavity resonators confine standing wave patterns through metal boundaries. Resonant frequencies ωₙₘₚ are determined by boundary conditions; TMₙₘₚ modes have Hz = 0 while TEₙₘₚ modes have Ez = 0. Field patterns are spatial modes with time-harmonic oscillation.
+
+## How It's Best Learned
+Compute a mode table for one box, say a = 3 cm, b = 1.5 cm, d = 4 cm, using f = (c/2)√[(n/a)² + (m/b)² + (p/d)²]. The lowest mode is (1, 0, 1) at 6.25 GHz, since 1/a and 1/d form a 3-4-5 triangle. Next comes (1, 0, 2) near 9.0 GHz. Then sketch the TE₁₀₁ fields to see which indices may be zero.
+
+## Common Misconceptions
+- Any choice of integers (n, m, p) gives a mode. (Some choices make every field component vanish. In a rectangular cavity at least two indices must be nonzero, so (1, 0, 0) is not a mode.)
+- The lowest mode depends only on the longest side. (It puts half-wavelengths along the two longest sides. The shortest dimension usually drops out because its index can be zero.)
+- TE and TM labels in a cavity refer to the direction the wave travels. (A cavity mode is a standing wave. The labels refer to a chosen reference axis, usually the axis of the original waveguide.)
+- Resonant frequencies stay distinct for every set of indices. (In symmetric boxes, such as a cube, different index sets can share one frequency. These modes are degenerate.)
 
 ## Questions
 
@@ -50,7 +59,7 @@ Cavity resonators confine standing wave patterns through metal boundaries. Reson
 - question: "The dominant mode (lowest resonant frequency) of a rectangular cavity resonator is determined primarily by the cavity's largest dimension."
   type: true-false
   answer: true
-  explanation: "ωₙₘₚ is minimized when the term under the square root is smallest. The largest dimension contributes the smallest (p/L)² term, so the mode that places one half-wavelength along the longest axis is the lowest-frequency resonant mode."
+  explanation: "ωₙₘₚ is minimized when the term under the square root is smallest. The largest dimension contributes the smallest (p/L)² term, so the lowest-frequency mode places one half-wavelength along the longest axis and one along the second-longest, which also affects it."
 
 - question: "A TE mode in a cavity resonator has no magnetic field component along the propagation axis."
   type: true-false
@@ -67,7 +76,7 @@ Cavity resonators confine standing wave patterns through metal boundaries. Reson
 
 A waveguide is an open channel — fields travel down it indefinitely. A **cavity resonator** is a waveguide sealed at both ends, creating a metal box. When you close the ends, the forward-traveling and backward-traveling waves reflect back and forth and interfere. At most frequencies this interference is destructive and the field quickly dies out. But at specific frequencies the reflections reinforce constructively, creating a stable **standing wave** pattern. These are the resonant modes of the cavity — the electromagnetic analog of the harmonics of a vibrating string.
 
-For a rectangular cavity of dimensions a × b × d, the resonant frequencies take the form ωₙₘₚ = c·π√[(n/a)² + (m/b)² + (p/d)²]. Each triplet of integers (n, m, p) labels a distinct mode, and each mode has its own spatial field pattern. The integers count half-wavelengths that fit along each dimension — exactly the same standing-wave quantization you know from a vibrating string fixed at both ends. The lowest resonant frequency (dominant mode) is set by the largest dimension of the cavity.
+For a rectangular cavity of dimensions a × b × d, the resonant frequencies take the form ωₙₘₚ = c·π√[(n/a)² + (m/b)² + (p/d)²]. Each triplet of integers (n, m, p) labels a distinct mode, and each mode has its own spatial field pattern. The integers count half-wavelengths that fit along each dimension — exactly the same standing-wave quantization you know from a vibrating string fixed at both ends. The lowest resonant frequency (dominant mode) is set by the two largest dimensions of the cavity.
 
 The **TM** and **TE** mode classification that applied to waveguides extends naturally to cavities. **TE modes** (transverse electric) have no electric field component along the propagation axis; **TM modes** (transverse magnetic) have no magnetic field component along that axis. In a closed cavity, all three spatial directions must satisfy boundary conditions simultaneously — the tangential E-field must vanish at every conductor wall. This constraint is why the resonant frequencies are discrete: only field patterns that simultaneously satisfy E_tan = 0 on all six walls can exist as standing modes.
 

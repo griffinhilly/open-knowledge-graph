@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 The closure of A, denoted cl(A) or Ā, is the intersection of all closed sets containing A (the smallest closed set containing A). cl(A) consists of A together with all its limit points. Properties: cl(cl(A)) = cl(A), A ⊆ cl(A), cl(A ∪ B) = cl(A) ∪ cl(B), cl(A ∩ B) ⊆ cl(A) ∩ cl(B).
 
+## How It's Best Learned
+Compute one closure both ways. For A = {1/n : n ≥ 1} in ℝ, list some closed supersets, such as A ∪ {0}, [0, 1], and ℝ, and intersect them. Then find the limit points directly and get the same answer, A ∪ {0}. Next, work a finite space: X = {a, b, c} with open sets ∅, {a}, {a, b}, X. There cl({a}) = X, cl({b}) = {b, c}, and cl({c}) = {c}.
+
+## Common Misconceptions
+- Taking a closure adds only a few edge points. (The closure can be much larger than the set. cl(ℚ) = ℝ adds every irrational number.)
+- Closure distributes over intersections. (With A = (0, 1) and B = (1, 2), cl(A ∩ B) = ∅ but cl(A) ∩ cl(B) = {1}.)
+- The closure of a set is the same in every space that contains it. (It depends on the ambient space. In the subspace (0, 1), the closure of (0, 1/2) is (0, 1/2], since 0 is not in the space.)
+- In a metric space, the closure of an open ball is the closed ball with the same radius. (In a discrete metric space, the open ball of radius 1 is {x} and is already closed, but the closed ball of radius 1 is the whole space.)
+
 ## Questions
 
 ```yaml
@@ -64,7 +73,7 @@ The closure of A, denoted cl(A) or Ā, is the intersection of all closed sets co
 
 You know that a set is closed if and only if it contains all its limit points — the points that sequences from the set can converge toward. But what if a set is not closed? The **closure** operation "completes" the set by adjoining exactly the missing limit points: it produces the smallest closed set that contains A. Think of it as surrounding A with all the points that A is trying to reach but hasn't quite captured yet.
 
-There are two equivalent ways to define cl(A), and switching between them depending on the problem is a key technique. The **lattice definition**: cl(A) = ∩ {F : F is closed and F ⊇ A}. This intersection works because arbitrary intersections of closed sets are closed (from your prerequisite), so the intersection is itself a closed set, and it's the smallest one containing A. The **limit point definition**: cl(A) = A ∪ {all limit points of A}, where x is a limit point of A if every open set containing x intersects A. In metric spaces these coincide with the sequential limit definition: x ∈ cl(A) iff there is a sequence in A converging to x.
+There are two equivalent ways to define cl(A), and switching between them depending on the problem is a key technique. The **lattice definition**: cl(A) = ∩ {F : F is closed and F ⊇ A}. This intersection works because arbitrary intersections of closed sets are closed (from your prerequisite), so the intersection is itself a closed set, and it's the smallest one containing A. The **limit point definition**: cl(A) = A ∪ {all limit points of A}, where x is a limit point of A if every open set containing x intersects A in a point other than x. In metric spaces these coincide with the sequential limit definition: x ∈ cl(A) iff there is a sequence in A converging to x.
 
 Examples make the definition concrete. In ℝ: cl((0, 1)) = [0, 1] (the open interval's closure adds its two boundary points). cl(ℚ) = ℝ (every real number is a limit of rationals, so every real is a limit point of ℚ — the rationals are **dense** in ℝ, meaning their closure is all of ℝ). cl({1/n : n ≥ 1}) = {0} ∪ {1/n : n ≥ 1} (the only new limit point is 0, approached by the sequence 1, 1/2, 1/3, …). The closure of an already-closed set is itself, which is the content of the **idempotence** property: cl(cl(A)) = cl(A).
 

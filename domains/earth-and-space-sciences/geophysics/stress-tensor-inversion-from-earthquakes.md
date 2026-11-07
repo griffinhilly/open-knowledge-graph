@@ -23,7 +23,16 @@ status: validated
 # Stress Tensor Inversion from Focal Mechanisms
 
 ## Core Idea
-Focal mechanisms from earthquake populations can be inverted to determine the regional stress tensor (principal stress orientations and relative magnitudes). Methods like the Michael method assume earthquakes occur on planes optimally oriented for slip given the stress state. Stress tensors inferred from seismicity illuminate plate boundary mechanics and lithospheric stress states.
+Focal mechanisms from earthquake populations can be inverted to determine the regional stress tensor (principal stress orientations and relative magnitudes). Methods like the Michael method assume a uniform stress state and that each earthquake slips parallel to the resolved shear stress on its fault plane (the Wallace-Bott hypothesis); the faults need not be optimally oriented. Stress tensors inferred from seismicity illuminate plate boundary mechanics and lithospheric stress states.
+
+## How It's Best Learned
+Compute one shear traction by hand in principal-axis coordinates. With σ = diag(1, 0.5, 0) and fault normal n = (1, 1, 1)/√3, the shear part of σn points along (1, 0, −1). Change σ₂ to 0.8 and it points along (2, 1, −3). Then add 10 to every principal stress, or double them all, and see that the direction does not change.
+
+## Common Misconceptions
+- The P and T axes of a focal mechanism are the σ₁ and σ₃ directions. (P and T are fixed at 45° to the nodal planes, so they are set by fault geometry and can differ from the principal stresses by tens of degrees.)
+- More earthquakes always mean a better inversion. (Mechanisms on parallel faults give nearly the same constraint; a range of fault orientations is what resolves the stress tensor.)
+- It makes no difference which nodal plane is used as the fault. (Each choice gives a different slip observation, and wrong choices bias the result, so methods test both planes or pick the one that fits better.)
+- An inversion of a whole catalog gives the stress everywhere in the region. (If the catalog mixes areas with different stress, the result is an average that may fit none of them; large misfits or widely scattered bootstrap solutions signal this.)
 
 ## Questions
 

@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Focal mechanisms from earthquake catalogs can be inverted for the regional stress tensor. Bootstrap and other statistical methods test solution robustness, and results reveal principal stress directions and magnitudes controlling seismicity.
 
+## How It's Best Learned
+Start with the invariance. Add the same pressure to all three principal stresses, or double every component, and the predicted slip direction on any plane stays the same. That leaves four recoverable parameters: three orientations and R. Then plot the P and T axes of 15 to 20 focal mechanisms from one region on a stereonet and compare their clusters with the inverted σ₁ and σ₃.
+
+## Common Misconceptions
+- The P and T axes of one focal mechanism are the σ₁ and σ₃ directions. (P and T axes describe slip geometry; faults often slip on existing planes oblique to the principal stresses, so a single P axis can sit far from σ₁.)
+- Adding more earthquakes to the inversion makes the result better. (Mixing events from regions with different stress states gives a misleading average with large misfits; the data must share one stress field.)
+- The inversion cannot run until the true fault plane is known for every event. (Methods handle the nodal-plane ambiguity by testing both planes or picking the one that fits the stress better; the ambiguity adds uncertainty but does not block the inversion.)
+
 ## Questions
 
 ```yaml
@@ -71,4 +79,4 @@ The inversion algorithm searches for the stress tensor (specifically, the orient
 
 Because real data contain measurement errors and the regional stress assumption may not hold perfectly, statistical testing is essential. **Bootstrap resampling** — repeatedly solving the inversion on random subsets of the focal mechanism catalog — reveals how stable the solution is. Tight clustering of bootstrap results means the stress tensor is well constrained; a scattered distribution warns that the data may be insufficient or that multiple stress regimes are mixed in the catalog. Practitioners also check whether systematic misfits correlate with spatial location, which can indicate that the region should be subdivided into zones with distinct stress states.
 
-The results have direct tectonic significance. The orientation of σ₁ (maximum compressive stress) reveals the direction of tectonic loading — perpendicular to a subduction trench, parallel to a transform fault, or radial to a rift zone. Changes in stress orientation with depth or across fault boundaries illuminate how stress is partitioned in the lithosphere. Stress inversion results are also essential inputs for Coulomb stress transfer calculations, which model how one earthquake changes the stress state on neighboring faults and helps forecast where future seismicity is most likely.
+The results have direct tectonic significance. The orientation of σ₁ (maximum compressive stress) reveals the direction of tectonic loading — perpendicular to a subduction trench, oblique to a transform fault, or vertical beneath a rift zone. Changes in stress orientation with depth or across fault boundaries illuminate how stress is partitioned in the lithosphere. Stress inversion results are also essential inputs for Coulomb stress transfer calculations, which model how one earthquake changes the stress state on neighboring faults and helps forecast where future seismicity is most likely.

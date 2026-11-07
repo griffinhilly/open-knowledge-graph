@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Linkage disequilibrium (LD) is the non-random association of alleles at different loci, caused by limited recombination, genetic drift, or selection on linked sites. LD decays over time through recombination, but patterns of LD across the genome reveal population history, selection, and recombination rates. LD is fundamental to genome-wide association studies (GWAS).
 
+## How It's Best Learned
+Compute D from a four-haplotype table. With A and B each at 0.5 and AB at 0.4, D = 0.4 − 0.5 × 0.5 = 0.15. Multiply by (1 − r) each generation: with r = 0.1, D falls to about 0.05 after 10 generations; with r = 0.5, it is near zero. Then relate the two curves to short and long haplotype blocks.
+
+## Common Misconceptions
+- Linkage disequilibrium and linkage are the same thing. (Linkage is physical closeness on a chromosome; LD is a statistical association between alleles in a population, which drift, selection or admixture can create even between unlinked loci.)
+- The SNP that a GWAS flags is the variant that causes the trait. (A flagged SNP is often a marker in LD with the causal variant, which still has to be found by fine-mapping or experiments.)
+- One round of recombination erases LD. (Each generation multiplies D by (1 − r), so LD between tightly linked loci can persist for many generations.)
+- A marker that tags a disease variant in one population will tag it in every population. (LD patterns depend on each population's history, so marker-variant associations can differ between populations.)
+
 ## Questions
 
 ```yaml

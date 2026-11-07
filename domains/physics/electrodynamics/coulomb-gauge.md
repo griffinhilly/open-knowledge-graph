@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 The Coulomb gauge (∇·A = 0) simplifies calculations in the non-relativistic limit and atomic physics. In this gauge, the scalar potential φ satisfies Poisson's equation ∇²φ = -ρ/ε₀ (instantaneous Coulomb interaction), while the vector potential A satisfies a wave equation with a source term. This gauge naturally separates Coulomb (instantaneous) interactions from radiation effects.
 
+## How It's Best Learned
+Derive both equations yourself. Put E = −∇φ − ∂A/∂t into Gauss's law and set ∇·A = 0: Poisson's equation appears in one line. Then do the same with the Ampère-Maxwell law and use charge continuity to show that the extra term (1/c²)∇(∂φ/∂t) cancels the longitudinal part of J. Only the transverse current is left to drive A.
+
+## Common Misconceptions
+- In the Coulomb gauge the electric field is just −∇φ. (The term −∂A/∂t also contributes. The −∇φ piece is the curl-free part of E and the −∂A/∂t piece is the divergence-free part.)
+- Some vector potentials cannot be put into the Coulomb gauge. (Any A can be. Choose λ with ∇²λ = −∇·A and add ∇λ to A.)
+- The condition ∇·A = 0 fixes the potentials completely. (A gauge function with ∇²λ = 0 still preserves the condition. Requiring the potentials to vanish at infinity removes this freedom.)
+- The full current J is the source of A in this gauge. (The longitudinal part of J is cancelled by the φ term. A is driven by the transverse current.)
+
 ## Questions
 
 ```yaml

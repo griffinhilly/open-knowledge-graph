@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Rock magnetization acquires a remanent magnetization (TRM in igneous rocks, DRM in sediments) parallel to Earth's magnetic field at the time of formation, preserving a record of ancient field directions. Paleomagnetic reversals—sudden switches of the dipole polarity (north ↔ south)—occur irregularly on timescales of 200,000 to millions of years; the reversal rate accelerated in the Cenozoic. The paleomagnetic record provides a dating tool and reveals true polar wander and apparent polar wander paths used in plate reconstruction.
 
+## How It's Best Learned
+Make a table from tan I = 2 tan λ. Latitudes of 0°, 30°, 45° and 60° give inclinations of 0°, 49°, 63° and 74°. Notice that inclination climbs fast near the equator and levels off toward the poles. Then sort a set of site directions into normal or reversed by their declination and inclination sign before computing each paleolatitude.
+
+## Common Misconceptions
+- A reversal is an instant flip, or a moment when Earth has no field. (A reversal takes thousands of years. The field weakens and becomes complex during the transition but does not vanish.)
+- Once a rock is magnetized, its record cannot change. (Reheating above the blocking temperature resets the remanence. A rock baked by a later intrusion records the field at the time of reheating.)
+- Normal polarity is the field's usual state and reversed polarity is an exception. ("Normal" is only the name for today's polarity. Over long spans of geologic time the field has spent broadly similar time in each state.)
+
 ## Questions
 
 ```yaml
@@ -49,7 +57,7 @@ Rock magnetization acquires a remanent magnetization (TRM in igneous rocks, DRM 
   answer: 1
   explanation: "The APWP traces the apparent position of the pole as reconstructed from the inclination of remanent magnetization in rocks. The field's dipole axis has not dramatically wandered; rather, the continent moved. Since inclination encodes latitude (tan I = 2 tan λ), a rock formed at lower latitude shows shallower inclination. If a continent was near the equator 300 Ma and is now at 50°N, rocks of that age show shallow inclination — the 'pole' appears to have been at low latitude relative to the continent's current position. Two continents that share an APWP were joined; divergent APWPs record separation."
 
-- question: "Geomagnetic reversals occur at regular, predictable intervals — roughly most 200,000 years — and can therefore be forecast."
+- question: "Geomagnetic reversals occur at regular, predictable intervals — roughly every 200,000 years — and can therefore be forecast."
   type: true-false
   answer: false
   explanation: "Polarity reversals are highly irregular. The intervals between reversals range from tens of thousands to tens of millions of years, with no detectable periodicity. The Cretaceous Normal Superchron lasted ~40 million years without a reversal; other intervals have seen many reversals in rapid succession. This irregularity is why the geomagnetic polarity timescale (GPTS) must be calibrated by radiometric dating of individual volcanic horizons rather than extrapolated from a regular clock. Reversals cannot be forecast from the timing of past reversals."

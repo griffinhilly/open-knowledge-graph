@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 A matrix is in row echelon form if non-zero rows appear before zero rows and each non-zero row has a leading (pivot) entry to the right of the pivot above. REF allows back-substitution to find solutions. Pivot columns identify basic variables; non-pivot columns identify free variables.
 
+## How It's Best Learned
+Back-substitute through one REF system whose pivots are not 1, such as rows [2, 1, −1 | 4], [0, 3, 1 | 8], [0, 0, 2 | 4]. The last row gives z = 2, the middle gives 3y = 6 so y = 2, and the top gives 2x = 4 so x = 2. Then sort a few small matrices into REF or not, including one with a zero row above a nonzero row.
+
+## Common Misconceptions
+- The pivots of a REF must lie on the main diagonal. (Each pivot must sit to the right of the one above, but it can skip columns, as in [[1, 2, 3], [0, 0, 4]].)
+- Every pivot in REF has to equal 1. (In the definition used here any nonzero pivot is allowed, and scaling pivots to 1 is part of reaching RREF; some textbooks do require leading 1s in REF.)
+- A row of zeros in the REF means the system has no solution. (An all-zero row with a zero right-hand side is a redundant equation; no solution arises only from a row of the form 0 = c with c ≠ 0.)
+
 ## Questions
 
 ```yaml
@@ -48,7 +56,7 @@ A matrix is in row echelon form if non-zero rows appear before zero rows and eac
   answer: true
   explanation: "REF is not unique — different operation sequences yield different-looking results. But the pivot columns are determined by the matrix itself: they correspond to the columns that contain the leading nonzero entries of each row, and this set is invariant regardless of reduction path. This invariance is why rank (the count of pivots) is a well-defined property of the matrix."
 
-- question: "A system with more unknowns than equations usually has infinitely many solutions."
+- question: "A system with more unknowns than equations always has infinitely many solutions."
   type: true-false
   answer: false
   explanation: "Having more unknowns than equations guarantees at least one free variable IF the system is consistent — but the system might not be consistent. A zero row with a nonzero right-hand side (the equation 0 = c, c ≠ 0) is a contradiction that makes the system inconsistent with no solutions at all. More unknowns than equations is a necessary but not sufficient condition for infinitely many solutions."

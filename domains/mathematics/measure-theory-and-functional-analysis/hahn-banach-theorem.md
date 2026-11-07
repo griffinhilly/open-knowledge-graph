@@ -18,6 +18,14 @@ status: validated
 ## Core Idea
 The Hahn-Banach theorem states that any bounded linear functional on a subspace of a normed space extends to a bounded functional on the whole space with the same norm. This is a cornerstone result ensuring the dual space is rich and enabling point separation.
 
+## How It's Best Learned
+Do the one-step extension in ℝ². Let Y be the x-axis and φ(a, 0) = a, with norm 1. Every extension has the form Φ(a, b) = a + cb. Under the ℓ¹ norm, ‖Φ‖ = max(1, |c|), so every c in [−1, 1] gives a norm-preserving extension. Under the Euclidean norm, ‖Φ‖ = √(1 + c²), so only c = 0 works. Then derive the corollary: for x₀ ≠ 0, some Φ has ‖Φ‖ = 1 and Φ(x₀) = ‖x₀‖.
+
+## Common Misconceptions
+- The norm-preserving extension is unique. (Often there are many, as the ℓ¹ example shows. Uniqueness holds in special cases such as Hilbert spaces.)
+- Hahn-Banach needs X to be a Banach space. (The extension theorem holds in every normed space. Completeness plays no role in the proof.)
+- Extending from a dense subspace is the hard case. (On a dense subspace, a bounded functional has exactly one continuous extension, obtained by taking limits. The theorem matters for subspaces that are not dense.)
+
 ## Questions
 
 ```yaml
@@ -61,7 +69,7 @@ The Hahn-Banach theorem states that any bounded linear functional on a subspace 
 
 From your study of linear functionals and dual spaces, you know that the dual X* of a normed space X is the collection of all bounded linear functionals φ: X → ℝ, equipped with the operator norm ||φ|| = sup{ |φ(x)| : ||x|| ≤ 1 }. A natural question arises: if you have only defined a functional on a *subspace* of X, can you extend it to the whole space without distorting it? The **Hahn-Banach theorem** answers yes: if Y is a subspace of a normed space X and φ: Y → ℝ is a bounded linear functional, then there exists a bounded linear functional Φ: X → ℝ such that Φ(y) = φ(y) for all y ∈ Y, and ||Φ|| = ||φ||. The extension is norm-preserving — it doesn't enlarge the functional.
 
-Why is this non-trivial? In finite-dimensional spaces, you can always extend a linear functional by choosing values on a basis — the problem is algebraically straightforward. But in infinite-dimensional Banach spaces, a subspace can be dense in the whole space, and extensions must be compatible with limits in a topologically subtle way. The proof uses Zorn's lemma (a form of the axiom of choice) to handle the infinite-dimensional case: you extend one dimension at a time and invoke maximality to assert the process terminates at a full extension.
+Why is this non-trivial? In finite-dimensional spaces, you can always extend a linear functional by choosing values on a basis — the problem is algebraically straightforward. But in infinite-dimensional spaces, a subspace can have infinite codimension, and every step of the extension must keep the norm bound. The proof uses Zorn's lemma (a form of the axiom of choice) to handle the infinite-dimensional case: you extend one dimension at a time and invoke maximality to assert the process terminates at a full extension.
 
 The theorem has two standard formulations. The **analytic form** (above) handles normed spaces. The **geometric form** says that a convex set and a point outside it can be separated by a hyperplane — a **separating hyperplane** whose existence is guaranteed by Hahn-Banach. Both versions express the same underlying richness of the dual space. In finite dimensions, this geometric fact is visually obvious (draw a tangent hyperplane to a convex set); Hahn-Banach lifts it to infinite dimensions.
 

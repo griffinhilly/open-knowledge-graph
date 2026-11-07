@@ -36,6 +36,15 @@ status: validated
 ## Core Idea
 Natural populations maintain equilibrium between mutation introducing deleterious alleles and selection removing them. At equilibrium, mutation frequency equals loss due to selection, creating stable allele frequencies that depend on mutation rate and selection strength.
 
+## How It's Best Learned
+Use one pair of values, μ = 10⁻⁵ and s = 0.1, in both formulas. A dominant allele settles near μ/s = 10⁻⁴, while a recessive one settles near √(μ/s) = 0.01, a hundred times higher. Check the recessive case as a flux balance: affected homozygotes are q² = 10⁻⁴, and selection removes about s·q² = 10⁻⁵ copies per generation, matching μ.
+
+## Common Misconceptions
+- At equilibrium the allele's frequency equals the mutation rate. (The equilibrium depends on both μ and s, near μ/s for a dominant allele and √(μ/s) for a recessive one.)
+- Dominant and recessive harmful alleles with the same μ and s end up equally common. (Recessive alleles hide from selection in heterozygotes, so they settle at much higher frequencies.)
+- Once the population reaches balance, mutation and selection stop acting. (Both keep acting every generation; the frequency is steady because new copies from mutation match copies removed by selection.)
+- If an allele is more common than the model predicts, the mutation rate must be higher than measured. (Heterozygote advantage, drift in small or founder populations, or a weaker effect than assumed can also keep an allele above the predicted level.)
+
 ## Questions
 
 ```yaml
@@ -81,6 +90,6 @@ You already know from population genetics that allele frequencies change through
 
 The math is elegantly simple. For a recessive lethal allele, the equilibrium frequency (q̂) is approximately √(μ/s), where μ is the mutation rate per generation and s is the selection coefficient. For a dominant deleterious allele, q̂ ≈ μ/s. These formulas tell you two important things. First, even strong selection (large s) cannot drive a deleterious allele to zero as long as mutation keeps feeding it back in. Second, the weaker the selection against an allele (smaller s), the higher its equilibrium frequency — because selection removes it more slowly while mutation introduces it at the same rate.
 
-Consider a concrete example: cystic fibrosis. The CF allele has a mutation rate of roughly 10⁻⁶ per generation and is effectively recessive lethal (s ≈ 1 for homozygotes in historical populations). The predicted carrier frequency is √(10⁻⁶/1) = 0.001, or about 1 in 1,000. The observed frequency is actually much higher (~1 in 25 in European populations), which signals that something beyond simple mutation-selection balance is at work — likely heterozygote advantage. This is exactly how the model is useful: deviations from the predicted equilibrium point you toward additional evolutionary forces.
+Consider a concrete example: cystic fibrosis. The CF allele has a mutation rate of roughly 10⁻⁶ per generation and is effectively recessive lethal (s ≈ 1 for homozygotes in historical populations). The predicted allele frequency is √(10⁻⁶/1) = 0.001, which makes carriers (about 2q) roughly 1 in 500. The observed carrier frequency is actually much higher (~1 in 25 in European populations), which signals that something beyond simple mutation-selection balance is at work — likely heterozygote advantage. This is exactly how the model is useful: deviations from the predicted equilibrium point you toward additional evolutionary forces.
 
 The concept connects directly to what you will study next. When selection is very weak (s is tiny), drift in finite populations can overpower selection and allow mildly deleterious alleles to drift to unexpectedly high frequencies — the domain of slightly deleterious mutations and nearly neutral theory. Mutation-selection balance assumes selection is the dominant removal force, which works well in large populations. In small populations, that assumption breaks down, and the interplay between mutation, selection, and drift becomes the central story of molecular evolution.

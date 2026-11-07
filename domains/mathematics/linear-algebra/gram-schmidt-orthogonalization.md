@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 The Gram-Schmidt process converts a linearly independent set {v₁, ..., vₖ} into an orthonormal set by iteratively projecting out previously computed directions. It produces vectors u₁, u₂, ... where uᵢ is perpendicular to all u₁, ..., uᵢ₋₁. QR decomposition writes A = QR where Q has orthonormal columns and R is upper triangular, computed via Gram-Schmidt. This is numerically superior to solving normal equations.
 
+## How It's Best Learned
+Run the process on the columns of A, v₁ = (1,1,0) and v₂ = (1,0,1). Get u₁ = (1,1,0)/√2, subtract the projection (1/2, 1/2, 0) from v₂, and normalize the residual to u₂ = (1,−1,2)/√6. Check u₁ · u₂ = 0. Then record the coefficients in R = [[√2, 1/√2], [0, √(3/2)]] and multiply QR to recover A.
+
+## Common Misconceptions
+- The order of the input vectors does not affect the result. (u₁ always points along v₁, so a different order generally gives a different orthonormal set and a different Q.)
+- The projection of v onto w is (v · w)w. (That formula needs w to be a unit vector. For a general w, the projection is ((v · w)/(w · w))w.)
+- In a reduced QR of a tall matrix, QQᵀ = I. (QᵀQ = I because the columns are orthonormal. QQᵀ is the projection onto the column space of A, which is not the identity when A has more rows than columns.)
+
 ## Questions
 
 ```yaml
@@ -45,7 +53,7 @@ The Gram-Schmidt process converts a linearly independent set {v₁, ..., vₖ} i
   answer: 1
   explanation: "When the columns of A are nearly linearly dependent, A has a large condition number κ. Forming AᵀA squares the condition number to κ², dramatically amplifying rounding errors. This can make the normal equations numerically useless even when the true solution is well-defined. QR decomposition avoids this: solving via the orthonormal Q and triangular R never squares the condition number. Option C is mathematically true but practically false — identical in exact arithmetic, but hugely different under floating-point. Option D is also true but misses the point: symmetric positive definite is not sufficient for stability when the condition number is enormous."
 
-- question: "The Gram-Schmidt process can be applied to any set of vectors, linearly independent or not, and generally produces an orthonormal set of the same size as the input."
+- question: "The Gram-Schmidt process can be applied to any set of vectors, linearly independent or not, and always produces an orthonormal set of the same size as the input."
   type: true-false
   answer: false
   explanation: "When a vector is linearly dependent on the preceding ones, its residual after subtracting all projections is the zero vector — which cannot be normalized (division by zero). The process breaks down at that vector. In practice, a linearly dependent vector is discarded, and the output set is smaller than the input. Gram-Schmidt produces an orthonormal basis for the *span* of the input vectors; if the inputs are linearly dependent, the span has dimension less than the number of input vectors."

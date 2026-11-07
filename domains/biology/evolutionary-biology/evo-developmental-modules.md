@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 Developmental modules are semi-autonomous units that can evolve relatively independently. Modularity facilitates evolution of complexity by decoupling parts; allows for fine-tuning of specific body regions without wholesale developmental reorganization.
 
+## How It's Best Learned
+Work through one real case of enhancer modularity. Several freshwater stickleback populations lost their pelvic spines through loss of a pelvis-specific enhancer of the gene *Pitx1*, while the gene still works in other tissues. Ask the learner to predict what a break in the *Pitx1* coding sequence would do instead. Then map the same logic onto bat forelimbs and hindlimbs.
+
+## Common Misconceptions
+- Each module is built by its own separate set of genes. (Modules often share the same toolkit genes. Their independence comes mostly from separate regulatory elements, such as tissue-specific enhancers.)
+- Modules evolve completely independently of each other. (They are semi-autonomous. Forelimbs and hindlimbs share much of their developmental program and often vary together to some degree.)
+- A module is the same thing as an organ or a visible body part. (A module is a set of traits or processes that vary together and apart from others. It can be a body region, a signaling pathway or a group of cells, and its boundaries can change over evolution.)
+
 ## Questions
 
 ```yaml

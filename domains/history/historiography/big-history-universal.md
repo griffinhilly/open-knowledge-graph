@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Big history tells human history within cosmic history, from the Big Bang to the present, seeking universal patterns and common humanity across cultures. This grand synthetic approach resists Eurocentric and parochial perspectives through global connection. Yet universalizing approaches risk flattening diversity and imposing teleological narratives. How can historians think globally without reducing complexity to oversimplified patterns?
 
+## How It's Best Learned
+Draw a single timeline of 13.8 billion years scaled to one calendar year, and mark where agriculture, cities and industry fall in the final seconds of December 31. Then tell the same story twice: once with "increasing complexity" as the plot, and once from the view of a group that progress harmed. Comparing the two versions shows both the anti-parochial payoff and the teleological risk.
+
+## Common Misconceptions
+- Big history is a summary of all of world history in more detail. (It works by zooming out, so it trades detail for patterns that only appear at very large scales.)
+- Because big history uses physics and biology, it is free of interpretive choices. (Choosing complexity and collective learning as the organizing themes is itself an interpretation that shapes what counts as important.)
+- Rising complexity in big history means things got better. (Complexity in this framework describes more intricate structures using more energy, which is a separate question from whether lives improved.)
+- Universal history is a new idea. (Attempts to write the history of the whole known world are much older; big history is a recent version that adds cosmic and biological time.)
+
 ## Questions
 
 ```yaml

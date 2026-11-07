@@ -30,6 +30,12 @@ The consumer's problem has two dual formulations: (1) maximize utility subject t
 ## How It's Best Learned
 Work through the dual problems for a concrete utility function. Verify the identities linking indirect utility and expenditure. See how duality enables estimation: either form generates the same demand.
 
+## Common Misconceptions
+- Duality means Marshallian and Hicksian demand are the same function. (They take different arguments. They coincide only when evaluated at matching points, as in h(p, u) = x(p, e(p, u)).)
+- The duality identities hold for any preferences. (They rely on regularity conditions such as continuous, locally nonsatiated preferences. Without local nonsatiation, a consumer can spend less than m and still reach the maximum utility.)
+- Because Hicksian demand is not observed, it cannot be used in practice. (Hicksian demand can be recovered from observed Marshallian demand by solving ∂e/∂p = x(p, e) for the expenditure function, then applying Shephard's lemma.)
+- The expenditure function and the indirect utility function are the same object. (The expenditure function gives money as a function of utility. The indirect utility function gives utility as a function of money. Each inverts the other.)
+
 ## Questions
 
 ```yaml

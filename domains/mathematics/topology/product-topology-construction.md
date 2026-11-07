@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 On ∏ᵢ Xᵢ, the product topology has basis of finite intersections of sets of the form πᵢ⁻¹(Uᵢ) where Uᵢ is open. Products of finitely many spaces are metrizable if factors are (product metric). Infinite products: projections are open, products of Hausdorff/compact/connected spaces are Hausdorff/compact/connected (by Tychonoff). Product topology is the coarsest making projections continuous.
 
+## How It's Best Learned
+Draw ℝ × ℝ and shade π₁⁻¹((0, 1)) as a vertical strip and π₂⁻¹((0, 1)) as a horizontal strip. Their intersection is the open square. Then move to ℝ^ℕ and test the sequence xₙ = (1/n, 1/n, 1/n, …). In the product topology it converges to 0. In the box topology, the neighborhood ∏ₖ (−1/k, 1/k) of 0 contains no xₙ.
+
+## Common Misconceptions
+- The open sets of X × Y are exactly the products U × V. (Those products form a basis. A general open set is a union of them, like the open unit disk in ℝ², which is not a rectangle.)
+- For an infinite product, a basic open set is ∏ Uᵢ with each Uᵢ open. (That gives the box topology. The product topology also requires Uᵢ = Xᵢ for all but finitely many i.)
+- Since projections are open maps, they are also closed maps. (The hyperbola xy = 1 is closed in ℝ², but its image under π₁ is ℝ \ {0}, which is not closed.)
+
 ## Questions
 
 ```yaml
@@ -51,7 +59,7 @@ On ∏ᵢ Xᵢ, the product topology has basis of finite intersections of sets o
 - question: "The box topology on an infinite product has strictly fewer open sets than the product topology."
   type: true-false
   answer: false
-  explanation: "This is backwards. The box topology is strictly *finer* — it has strictly *more* open sets. In the product topology, a basis element πᵢ⁻¹(Uᵢ) restricts only one coordinate and leaves all others as the full space; finite intersections allow finitely many restricted coordinates. The box topology allows *infinitely many* restricted coordinates simultaneously, generating many more open sets. The product topology is the *coarsest* topology making projections continuous; the box topology is strictly coarser."
+  explanation: "This is backwards. The box topology is strictly *finer* — it has strictly *more* open sets. In the product topology, a basis element πᵢ⁻¹(Uᵢ) restricts only one coordinate and leaves all others as the full space; finite intersections allow finitely many restricted coordinates. The box topology allows *infinitely many* restricted coordinates simultaneously, generating many more open sets. The product topology is the *coarsest* topology making projections continuous; the box topology is strictly finer."
 
 - question: "The product topology is defined as the *coarsest* topology making projections continuous. Why does 'coarsest' matter, and what fails if you use a finer topology instead?"
   type: short-answer

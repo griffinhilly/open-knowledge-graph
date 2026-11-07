@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 The zero lower bound constraint prevents nominal interest rates from going significantly negative, constraining monetary policy's ability to stimulate demand during severe recessions. When the ZLB binds, central banks cannot reduce real interest rates further through conventional policy and must resort to unconventional measures like quantitative easing. Understanding the ZLB is crucial for analyzing monetary policy effectiveness in deep downturns and explaining the puzzlingly low inflation in many developed economies.
 
+## How It's Best Learned
+Build a Fisher-equation table with the nominal rate stuck at 0 and a needed real rate of −3%. Let expected inflation fall from 2% to 0% to −1%: the real rate rises from −2% to 0% to +1%, and the gap from −3% widens each step. Then add a credible promise of 2% future inflation and see how far the real rate falls without any change in the nominal rate.
+
+## Common Misconceptions
+- The lower bound sits at exactly zero. (Holding large amounts of cash is costly, so the effective floor is somewhat below zero, which is why some central banks have set small negative rates.)
+- A zero policy rate means monetary policy is as loose as it can be. (What matters is the real rate relative to the rate the economy needs; with falling inflation expectations, a zero nominal rate can still be tight.)
+- The bound means real interest rates cannot fall below zero either. (The floor on the real rate is minus expected inflation, so real rates can be well below zero when expected inflation is positive; this is one argument for a higher inflation target.)
+
 ## Questions
 
 ```yaml

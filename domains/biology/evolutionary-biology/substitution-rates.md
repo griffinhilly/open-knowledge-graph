@@ -25,7 +25,16 @@ status: validated
 # Substitution Rates and Neutral Theory
 
 ## Core Idea
-At neutral sites, substitution rate K equals twice the mutation rate (K = 2μ). Under purifying selection, K < 2μ. This fundamental relationship enables inference of mutation rates and selection strength from genetic sequences.
+At neutral sites, substitution rate K equals the mutation rate (K = μ). Under purifying selection, K < μ. This fundamental relationship enables inference of mutation rates and selection strength from genetic sequences.
+
+## How It's Best Learned
+Run the cancellation with numbers for two populations. Take μ = 10⁻⁸ per site per generation. With N = 10, there are 2Nμ = 2 × 10⁻⁷ new mutations per generation, each fixing with probability 1/20, so K = 10⁻⁸. With N = 10,000, there are 2 × 10⁻⁴ new mutations, each fixing with probability 1/20,000, so K = 10⁻⁸ again. Then compare synonymous and nonsynonymous rates to see how selection pulls K away from this baseline.
+
+## Common Misconceptions
+- A large population piles up neutral substitutions faster because it produces more mutations. (Each new neutral mutation has a smaller fixation probability, 1/(2N), and this exactly offsets the larger supply. The neutral substitution rate does not depend on N.)
+- The substitution rate equals the mutation rate at every site. (That holds for neutral sites. Purifying selection holds the rate below the mutation rate, and positive selection can push it above.)
+- Divergence between two species grows at the substitution rate of one lineage. (After the split, both lineages accumulate substitutions independently, so pairwise divergence grows at about twice the per-lineage rate.)
+- A mutation that reached fixation must have been favored by selection. (Neutral mutations can fix by drift alone. Neutral theory holds that many molecular substitutions arose this way.)
 
 ## Questions
 
@@ -48,7 +57,7 @@ At neutral sites, substitution rate K equals twice the mutation rate (K = 2μ). 
     - "Positive selection is driving rapid amino acid evolution at these sites"
     - "The gene has a low GC content, which reduces nonsynonymous mutation rates"
   answer: 1
-  explanation: "When K_nonsynonymous << K_synonymous ≈ 2μ, it means most amino acid changes are eliminated by purifying selection before reaching fixation. Synonymous sites are approximately neutral (same amino acid regardless of nucleotide), so they serve as the neutral baseline (K ≈ 2μ). The ratio dN/dS = K_nonsynonymous / K_synonymous < 1 indicates constraint. If positive selection were driving amino acid evolution, we'd expect K_nonsynonymous > K_synonymous (dN/dS > 1), which is rare and localized."
+  explanation: "When K_nonsynonymous << K_synonymous ≈ μ, it means most amino acid changes are eliminated by purifying selection before reaching fixation. Synonymous sites are approximately neutral (same amino acid regardless of nucleotide), so they serve as the neutral baseline (K ≈ μ). The ratio dN/dS = K_nonsynonymous / K_synonymous < 1 indicates constraint. If positive selection were driving amino acid evolution, we'd expect K_nonsynonymous > K_synonymous (dN/dS > 1), which is rare and localized."
 
 - question: "A large population accumulates neutral substitutions faster per generation than a small population because it generates more new mutations per generation."
   type: true-false
@@ -70,7 +79,7 @@ At neutral sites, substitution rate K equals twice the mutation rate (K = 2μ). 
 
 From your study of the molecular clock and DNA sequence divergence, you know that species accumulate genetic differences over time at roughly predictable rates. **Substitution rate** is the formal measure of this process: the rate at which mutations become fixed in a population and show up as permanent differences between lineages. Understanding what controls this rate connects mutation, drift, and selection into a single quantitative framework.
 
-The foundational result comes from neutral theory. In a diploid population of size N, each new neutral mutation arises at rate 2Nμ per generation across all individuals (2N gene copies, each mutating at rate μ). The probability that any single neutral mutation drifts to fixation is 1/(2N). Multiply these together and the population size cancels: **K = 2Nμ × 1/(2N) = μ**. For a haploid, K = μ directly; for a diploid, K = 2μ when counting per-site rates across both alleles. This elegant cancellation means that **neutral substitution rate is independent of population size** — it depends only on the mutation rate. A large population produces more mutations but each has a proportionally smaller chance of fixing, and these effects exactly balance.
+The foundational result comes from neutral theory. In a diploid population of size N, each new neutral mutation arises at rate 2Nμ per generation across all individuals (2N gene copies, each mutating at rate μ). The probability that any single neutral mutation drifts to fixation is 1/(2N). Multiply these together and the population size cancels: **K = 2Nμ × 1/(2N) = μ**. The same holds for a haploid population: Nμ new mutations, each fixing with probability 1/N, again give K = μ. This elegant cancellation means that **neutral substitution rate is independent of population size** — it depends only on the mutation rate. A large population produces more mutations but each has a proportionally smaller chance of fixing, and these effects exactly balance.
 
 This result is what makes the molecular clock possible. If neutral substitution rate equals the mutation rate, and mutation rate is roughly constant per generation, then the number of neutral differences between two species is proportional to their divergence time. By comparing sequences at sites presumed neutral (pseudogenes, synonymous sites, intergenic regions), you can estimate divergence times or, conversely, calibrate the mutation rate using fossil-dated divergences.
 

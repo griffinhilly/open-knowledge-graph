@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 A fitness landscape is a multidimensional surface where each point represents a genotype and its height represents fitness. Populations evolve by climbing peaks (local optima) or navigating valleys due to mutation and selection. Real landscapes are complex with multiple peaks, epistasis, and changing surfaces.
 
+## How It's Best Learned
+Draw the four genotypes of a two-locus system as the corners of a square and write a fitness at each. Compare two versions. In the first, ab = 1.0, Ab = 1.1, aB = 1.1 and AB = 1.2; in the second, ab = 1.0, Ab = 0.9, aB = 0.9 and AB = 1.2. Starting from ab, check which single-step paths selection can follow in each version.
+
+## Common Misconceptions
+- A fitness landscape is a map of physical terrain where the organisms live. (The positions are genotypes, or allele frequencies. Neighboring points differ by a single mutation, not by distance on the ground.)
+- Any interaction between genes makes a landscape rugged. (Multiple peaks need sign epistasis, where a mutation helps on one background and hurts on another. Epistasis that only changes the size of an effect leaves a single peak.)
+- The two-dimensional hill picture shows how hard it is to escape a peak. (Real genotype spaces have very many dimensions. More neighbors means more possible routes, so peaks may be less isolated than the drawing suggests.)
+
 ## Questions
 
 ```yaml

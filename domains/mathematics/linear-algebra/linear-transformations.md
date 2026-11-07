@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 A linear transformation T: Rⁿ → Rᵐ satisfies T(cu + v) = cT(u) + T(v) for all scalars c and vectors u, v. Linear transformations preserve vector addition and scalar multiplication, making them algebraic homomorphisms. Every linear transformation is represented by a unique matrix A such that T(x) = Ax.
 
+## How It's Best Learned
+Test candidates with specific vectors, then prove the ones that pass. With u = (1,2) and v = (3,−1), T(x, y) = (x + y, 2x) gives T(u + v) = (5,8) = T(u) + T(v). S(x, y) = (xy, y) gives S(u + v) = (4,1) but S(u) + S(v) = (−1,1), so S fails. Then apply T to the corners of the unit square and sketch the parallelogram it becomes.
+
+## Common Misconceptions
+- If T(0) = 0, then T is linear. (Sending 0 to 0 is necessary but not enough. T(x, y) = (x², y) sends 0 to 0, yet T(2, 0) = (4, 0) is not 2T(1, 0) = (2, 0).)
+- Checking the linearity rules on a few vectors proves T is linear. (Examples can only show that T fails. A proof must check the rules for all vectors and scalars, usually with symbols.)
+- f(x) = 2x + 3 is a linear transformation because its graph is a line. (In linear algebra, "linear" requires f(0) = 0. Here f(0) = 3, so f is affine, not linear.)
+
 ## Questions
 
 ```yaml

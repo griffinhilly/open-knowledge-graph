@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 TM modes have zero longitudinal magnetic field (Hz = 0) but nonzero Ez. Like TE modes, they have cutoff frequencies. The boundary condition Ez = 0 at perfect conductors determines allowed transverse wavenumbers and mode patterns.
 
+## How It's Best Learned
+Sketch TM₁₁ in a 2 cm × 1 cm guide. E_z ∝ sin(πx/a)sin(πy/b) peaks at the center and vanishes on every wall. The transverse E is proportional to ∇ₜE_z, so it points toward or away from the center, while transverse H circles it. The cutoff (c/2)√(1/a² + 1/b²) ≈ 16.8 GHz equals that of TE₁₁ and sits far above TE₁₀ at 7.5 GHz.
+
+## Common Misconceptions
+- In a TM mode the electric field points entirely along the guide. (E has transverse components as well as E_z. Only H is purely transverse.)
+- TM modes have no magnetic field. (H is nonzero. It simply has no component along the propagation direction.)
+- TE₁₁ and TM₁₁ are the same mode because they share a cutoff. (They are degenerate in frequency but have different field patterns, and a wall imperfection can couple one into the other.)
+- TM modes are of no practical use because they cut off higher. (Their longitudinal E_z is what accelerates particles in linear accelerator structures, which use the TM₀₁ mode of a circular guide, where the indices count differently than in a rectangular one.)
+
 ## Questions
 
 ```yaml

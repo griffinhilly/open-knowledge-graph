@@ -31,6 +31,12 @@ Seismic reflection surveys use reflected waves to image subsurface structure. Co
 ## How It's Best Learned
 Study real seismic datasets and process them step-by-step: sorting, NMO correction, velocity picking, and stacking. Compare stacked sections from different velocity models.
 
+## Common Misconceptions
+- Traces in a CMP gather reflect from the same subsurface point whatever the geology. (That holds for flat reflectors; over a dipping reflector the reflection points spread updip with offset, which later processing such as dip moveout or prestack migration corrects.)
+- The NMO velocity is the velocity of the layer just above the reflector. (It is close to the RMS average of all the layers above the reflector; interval velocities for single layers must be calculated from it.)
+- A strong reflection means the rock below is harder. (Reflection strength depends on the size of the impedance contrast, and its polarity on the sign; a soft gas sand under shale can give a strong negative reflection.)
+- Adding farther offsets always improves the stack. (At far offsets and shallow times, NMO correction stretches the wavelet, so those parts are often muted before stacking.)
+
 ## Questions
 
 ```yaml

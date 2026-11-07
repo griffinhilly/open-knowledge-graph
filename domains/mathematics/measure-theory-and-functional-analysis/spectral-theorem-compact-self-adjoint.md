@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 The spectral theorem for compact self-adjoint operators states that such an operator T on a Hilbert space has an orthonormal basis of eigenvectors with eigenvalues λₙ → 0. This is the infinite-dimensional analogue of matrix diagonalization and is foundational for applications.
 
+## How It's Best Learned
+Begin with the diagonal operator Teₙ = eₙ/n on ℓ², then diagonalize a real integral operator. For Tf(x) = ∫₀¹ min(x, y) f(y) dy on L²[0,1], differentiating Tf = λf twice gives λf″ = −f with f(0) = 0 and f′(1) = 0. So the eigenfunctions are sin((n − ½)πx), with eigenvalues 1/((n − ½)²π²) → 0.
+
+## Common Misconceptions
+- Every compact operator has an eigenvector. (The Volterra operator Vf(x) = ∫₀ˣ f(t) dt is compact on L²[0,1] but has no eigenvalues. Self-adjointness is what guarantees eigenvectors.)
+- Every bounded self-adjoint operator has an orthonormal eigenbasis. (Multiplication by x on L²[0,1] is self-adjoint with no eigenvalues at all. Compactness is what makes the spectrum discrete.)
+- Since the eigenvalues tend to 0, zero must be an eigenvalue. (On an infinite-dimensional space 0 lies in the spectrum, but it need not be an eigenvalue: Teₙ = eₙ/n is injective.)
+
 ## Questions
 
 ```yaml

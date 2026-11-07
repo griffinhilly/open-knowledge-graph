@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 Firms can increase joint profit by colluding to reduce output and raise prices. However, each firm has incentive to cheat (produce above quota). In infinitely repeated games, collusion is sustainable via trigger strategies: deviators face permanent retaliation. Stability requires that the present value of cooperation exceeds the one-time deviation gain. Discount rates and market concentration determine collusion sustainability.
 
+## How It's Best Learned
+Work the grim-trigger threshold for a Cournot duopoly with P = 1 − Q and zero cost. Collusion pays each firm 1/8 per period, Cournot pays 1/9, and the best one-period deviation against a partner producing 1/4 pays 9/64. Setting (1/8)/(1 − δ) ≥ 9/64 + δ(1/9)/(1 − δ) gives δ ≥ 9/17. Then change one input and see how the threshold moves.
+
+## Common Misconceptions
+- If collusion is profitable enough for the group, each firm will stick to it. (Joint gains do not stop any one firm from gaining by cheating. Without a future punishment, the agreement unravels.)
+- Cheating is irrational because it destroys the cartel. (Cheating is privately profitable in the period it happens. It is deterred only when the discounted loss of future collusive profit is larger.)
+- The discount factor only measures how impatient firms are. (It also reflects the chance the interaction continues. Entry or antitrust risk lowers the effective δ.)
+- Any repeated interaction sustains collusion. (With a known final period and a unique stage-game equilibrium, backward induction unravels cooperation. With no end date, a low δ still defeats it.)
+
 ## Questions
 
 ```yaml

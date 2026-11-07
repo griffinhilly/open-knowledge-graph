@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 The AK model assumes a linear production function Y = A·K with constant returns to capital and no diminishing returns. This generates perpetual growth: if agents save a constant fraction of output, capital and consumption grow at a constant rate indefinitely without requiring exogenous technological progress.
 
+## How It's Best Learned
+Compute capital growth side by side for two economies with s = 0.2 and δ = 0.05. In the AK economy with A = 0.5, growth is 0.2 × 0.5 − 0.05 = 5% at every K. In a Solow economy with y = k^0.5, growth is 0.2·k^(−0.5) − 0.05: 15% at k = 1, 5% at k = 4, and zero at k = 16. The table shows what removing diminishing returns does.
+
+## Common Misconceptions
+- The AK model needs each firm's machines to have constant returns. (K is read broadly, including human capital and knowledge, and constant returns can hold in the aggregate through spillovers even if individual firms face diminishing returns.)
+- An AK economy first converges to a steady state and then grows. (With a constant saving rate, capital grows at sA − δ from the start whatever its level, so the basic model has no transitional dynamics.)
+- A higher saving rate in the AK model raises the level of income but leaves growth unchanged. (That is the Solow result. In the AK model a permanent rise in s raises the growth rate sA − δ permanently.)
+
 ## Questions
 
 ```yaml

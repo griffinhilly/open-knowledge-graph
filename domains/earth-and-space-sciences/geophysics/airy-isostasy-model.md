@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 The Airy model assumes isostatic equilibrium is maintained by variations in crustal thickness: mountains have thick crustal roots while ocean basins have thin crust. A column of rock at any location has the same total gravitational weight if integrated to a constant reference depth. Airy isostasy predicts the crustal thickness needed to balance observed topography.
 
+## How It's Best Learned
+Draw two columns side by side down to one compensation depth: a reference column at sea level and a column under a 2 km mountain. Write each column's weight per unit area and set them equal. With crust at 2,700 kg/m³ and mantle at 3,300 kg/m³, the root comes out to 2 × 2,700 / 600 = 9 km. Then float wooden blocks of different heights in water and watch the taller ones sit deeper.
+
+## Common Misconceptions
+- A mountain's root is about as deep as the mountain is tall. (Because the crust-mantle density contrast is small, the root is several times deeper than the topography is high, roughly 4.5 times for typical densities.)
+- In the Airy model, high regions stand high because their crust is lighter. (Airy holds crustal density constant and varies thickness; varying density at constant thickness is the Pratt model.)
+- Mountains are held up by the strength of the rock beneath them. (Airy isostasy treats each column as floating on buoyancy alone; lithospheric strength is ignored, and adding it leads to flexure models.)
+- A fully compensated mountain range has no gravity signature. (Its low-density root is a mass deficit, so the Bouguer anomaly over the range is strongly negative, while the free-air anomaly over broad compensated features is near zero.)
+
 ## Questions
 
 ```yaml

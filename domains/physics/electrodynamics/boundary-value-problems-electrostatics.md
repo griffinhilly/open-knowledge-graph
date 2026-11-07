@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Boundary value problems (BVPs) in electrostatics involve finding the potential satisfying Poisson's equation in a region, subject to boundary conditions on its surface. The boundary conditions (Dirichlet, Neumann, or mixed) specify either the potential or its normal derivative, and uniqueness theorems guarantee a unique solution. BVPs are ubiquitous in engineering and physics, describing fields near conductors, dielectrics, and complex electrode configurations.
 
+## How It's Best Learned
+Work the grounded slot first: V = 0 on the plates y = 0 and y = a, V → 0 as x → ∞, and V = V₀ on the end x = 0. Separation gives terms sin(nπy/a)e^(−nπx/a), and matching the end gives coefficients 4V₀/(nπ) for odd n. Then check each boundary condition against the series to see uniqueness at work.
+
+## Common Misconceptions
+- An image charge is a real charge hidden inside the conductor. (It is a device that reproduces the boundary condition. The potential it gives is valid only in the region outside the conductor.)
+- The charge inside the region determines the potential there without any boundary information. (Poisson's equation alone has infinitely many solutions, and the boundary conditions select one.)
+- A solution found by guessing is less trustworthy than one derived step by step. (If it satisfies the equation and the boundary conditions, the uniqueness theorem makes it the solution.)
+- Each separated term must satisfy every boundary condition by itself. (Each term satisfies the homogeneous conditions. Only the full sum has to match the nonzero boundary values.)
+
 ## Questions
 
 ```yaml

@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 The Baire Category Theorem states that a complete metric space cannot be expressed as a countable union of nowhere dense sets. This provides a powerful 'genericity' argument: typical points in a complete metric space satisfy any condition that excludes only countably many nowhere dense sets. Applications include proving the uniform boundedness principle and open mapping theorem.
 
+## How It's Best Learned
+Work the proof on ℝ with a concrete cover attempt: list sets F₁, F₂, F₃ such as {0}, ℤ, and the Cantor set, and pick nested closed intervals by hand, each avoiding the next set. Then repeat in ℚ with Fₙ = {qₙ} and watch the nested intervals close in on an irrational. Finally, read one application, such as uniform boundedness, and mark the step where the meager cover appears.
+
+## Common Misconceptions
+- Meager sets in a complete space are empty or tiny. (ℚ is meager in ℝ and also dense. The theorem only says a meager set cannot be the whole space.)
+- If X is a countable union of sets, one of the sets must contain an open ball. (One set must have a closure with nonempty interior. ℝ is the union of ℚ and the irrationals, and neither contains an open interval.)
+- Completeness is required, so every incomplete metric space fails the conclusion. (Completeness is sufficient, not necessary. The open interval (0, 1) is incomplete in the usual metric but is homeomorphic to ℝ, so it is not meager in itself.)
+
 ## Questions
 
 ```yaml
@@ -44,12 +52,12 @@ The Baire Category Theorem states that a complete metric space cannot be express
   answer: 2
   explanation: "Each singleton {q} is nowhere dense in ℚ (its closure is itself, which contains no open interval). So ℚ = ∪{q} is a countable union of nowhere dense sets — the exact scenario the theorem says is impossible for complete spaces. The theorem requires completeness, and ℚ is not complete (Cauchy sequences of rationals can converge to irrationals). This shows completeness is not just a technical assumption but the essential hypothesis."
 
-- question: "If a complete metric space X is written as a countable union X = A₁ ∪ A₂ ∪ …, then at least one Aₙ must contain an open ball."
+- question: "If a complete metric space X is written as a countable union X = A₁ ∪ A₂ ∪ …, then the closure of at least one Aₙ must contain an open ball."
   type: true-false
   answer: true
   explanation: "This is essentially what the Baire Category Theorem says. If every Aₙ were nowhere dense (its closure contains no open ball), then their countable union could not be all of X — a complete metric space cannot be meager. So if the union really is all of X, at least one set must fail to be nowhere dense, meaning its closure must contain an open ball."
 
-- question: "The Baire Category Theorem implies that meager sets in a complete metric space should be empty."
+- question: "The Baire Category Theorem implies that meager sets in a complete metric space must be empty."
   type: true-false
   answer: false
   explanation: "Meager sets can be nonempty — even quite large. The rationals ℚ are a meager subset of the complete metric space ℝ (countable union of nowhere dense singletons), yet ℚ is dense in ℝ. What Baire says is that a meager set cannot be *all* of a complete metric space. 'Meager' means topologically negligible, not necessarily small in other senses."

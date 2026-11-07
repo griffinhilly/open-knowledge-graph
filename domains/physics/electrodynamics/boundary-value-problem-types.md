@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Boundary value problems are classified by the type of boundary condition: Dirichlet (potential specified), Neumann (normal field specified), or mixed. The uniqueness theorem establishes that each type has a unique solution under appropriate regularity conditions.
 
+## How It's Best Learned
+Solve the one-dimensional case d²V/dx² = 0 on 0 ≤ x ≤ L under each condition type. Dirichlet, V(0) = 0 and V(L) = V₀, gives exactly V = V₀x/L. Neumann, dV/dx = −E₀ at both ends, gives V = −E₀x + C with C free. Neumann with different slopes at the two ends has no solution at all, which previews the compatibility condition.
+
+## Common Misconceptions
+- Specifying both V and ∂V/∂n everywhere on the boundary pins the solution down even better. (For Laplace's equation that over-specifies the problem. In general no solution satisfies both sets of data.)
+- Any Neumann data can be chosen freely. (The normal derivative must integrate over the closed boundary to −Q_enc/ε₀, as Gauss's law requires. Otherwise no solution exists.)
+- The additive constant in a Neumann solution is a physical ambiguity. (It shifts V everywhere by the same amount and leaves E, forces, and potential differences unchanged.)
+- Mixed problems lose uniqueness because the boundary data are of two kinds. (Specifying V on some parts and ∂V/∂n on the rest still gives a unique solution.)
+
 ## Questions
 
 ```yaml
@@ -36,7 +45,7 @@ Boundary value problems are classified by the type of boundary condition: Dirich
     - "Mixed; no unique solution exists without additional constraints"
     - "Dirichlet; the solution is unique up to an additive constant"
   answer: 1
-  explanation: "Knowing the surface charge density is equivalent to knowing σ = ε₀E_n, the normal component of the electric field, which equals −ε₀(∂V/∂n). This is a Neumann boundary condition — the normal derivative of V is specified. The uniqueness theorem for Neumann problems states that the solution is unique up to an additive constant: you can always add a global constant to V without changing E (since E = −∇V). This ambiguity is physical — the absolute potential is arbitrary; only differences matter."
+  explanation: "Knowing the surface charge density is equivalent to knowing σ = ε₀E_n, the normal component of the electric field, which equals −ε₀(∂V/∂n). This is a Neumann boundary condition — the normal derivative of V is specified. The uniqueness theorem for Neumann problems states that the solution is unique up to an additive constant: you can always add a global constant to V without changing E (since E = −∇V). This ambiguity has no physical consequence — the absolute potential is arbitrary; only differences matter."
 
 - question: "The method of images replaces a physical configuration (a point charge near a grounded conducting plane) with a simpler equivalent (a point charge and its mirror image, no plane). Why is this substitution valid?"
   type: multiple-choice

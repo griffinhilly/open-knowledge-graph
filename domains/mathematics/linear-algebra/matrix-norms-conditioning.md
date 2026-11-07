@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Matrix norms measure matrix size; common ones are the operator norm ||A||₂ = σ_max(A), Frobenius norm ||A||_F = √(Σᵢⱼ Aᵢⱼ²), and max norm ||A||_∞. The condition number κ(A) = ||A|| ||A⁻¹|| quantifies sensitivity of Ax = b to perturbations: small relative errors in b lead to large relative errors in x when κ is large. κ = σ_max/σ_min for SVD.
 
+## How It's Best Learned
+Use a diagonal matrix, where the singular values are visible. Take A = diag(1, 0.001), so κ = 1000. Solve Ax = b with b = (1, 0) to get x = (1, 0). Now perturb b by δb = (0, 0.001): the solution moves by δx = (0, 1). The relative error grows from 0.001 to 1, a factor of exactly κ.
+
+## Common Misconceptions
+- A matrix with a tiny determinant is ill-conditioned. (Scaling does not change κ: 0.1I in ten dimensions has determinant 10⁻¹⁰ but κ = 1, while [[1, 1000], [0, 1]] has determinant 1 and κ near 10⁶.)
+- The Frobenius norm and the operator 2-norm are the same number. (They agree only for matrices of rank at most one; for the n × n identity, ||I||₂ = 1 but ||I||_F = √n.)
+- A large condition number means the solving algorithm is faulty. (κ is a property of the matrix and the problem; even exact arithmetic on a perturbed b shows the same amplification.)
+- A large κ guarantees a large error in every solution. (κ bounds the worst case; the error for a given perturbation depends on how it lines up with the singular directions.)
+
 ## Questions
 
 ```yaml

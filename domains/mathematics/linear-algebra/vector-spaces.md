@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 A vector space over ℝ is a set V with addition and scalar multiplication satisfying eight axioms: closure, associativity, commutativity, additive identity, additive inverses, distributivity, associativity of scalar multiplication, and scalar multiplicative identity. Examples include Rⁿ, polynomials of degree ≤ n, and continuous functions on [a,b].
 
+## How It's Best Learned
+Match polynomials a + bx + cx² with triples (a, b, c), and check that adding or scaling either one gives the matching result in the other. Then test a broken example. Keep ordinary addition on ℝ², but define c·(x, y) = (cx, 0). Every axiom holds except 1·v = v, since 1·(2, 3) = (2, 0). This shows each axiom does real work.
+
+## Common Misconceptions
+- Vectors are arrows or lists of numbers. (Any element of a set satisfying the axioms is a vector, including polynomials, matrices and continuous functions.)
+- Any set with an addition and a scalar multiplication is a vector space. (The operations must satisfy every axiom; the rule c·(x, y) = (cx, 0) on ℝ² fails 1·v = v.)
+- The zero vector is the number 0. (It is the additive identity of the space, such as the zero matrix in a matrix space or the function f(x) = 0 in a function space.)
+- The set of vectors in ℝ² with positive entries is a vector space, since sums of such vectors stay positive. (Scaling by −1 leaves the set, and the set has no zero vector.)
+
 ## Questions
 
 ```yaml

@@ -22,18 +22,26 @@ status: validated
 ## Core Idea
 The relativistic Lorentz force dp^μ/dτ = q F^μν u_ν expresses particle motion in manifestly covariant form using 4-momentum and 4-velocity. The action S = -mc²∫dτ - q∫A_μ dx^μ encodes electromagnetic coupling, with canonical momentum p = mv + qA differing from kinetic momentum.
 
+## How It's Best Learned
+Work a uniform field Bẑ in the gauge A = Bx ŷ. The Lagrangian L = −mc²/γ + qv·A does not depend on y, so the canonical momentum p_y = mγv_y + qBx is conserved. Differentiate it: d(mγv_y)/dt = −qBv_x, which is the y-component of qv × B. The kinetic momentum turns while the canonical y-momentum stays fixed.
+
+## Common Misconceptions
+- Canonical momentum is the momentum a detector measures. (Canonical momentum changes under a gauge transformation. The kinetic momentum mγv is gauge invariant and is what a measurement of motion gives.)
+- At high speed a magnetic field can change a particle's energy. (The μ = 0 component contains only E·v, so a pure magnetic field turns the momentum at every speed but leaves the energy fixed.)
+- Work done by the field can change the particle's rest mass. (Because F^μν is antisymmetric, p_μ dp^μ/dτ = 0, so p^μp_μ = m²c² stays constant. Work changes γ, not m.)
+
 ## Questions
 
 ```yaml
-- question: "A charged particle moves through a region where ∇×A = 0 and ∂A/∂t = 0, so both E = 0 and B = 0. A student concludes that because there are no forces, the kinetic momentum p = mγv is conserved. What is wrong with this reasoning?"
+- question: "A charged particle moves through a region where ∇×A = 0, ∂A/∂t = 0 and φ is constant, so both E = 0 and B = 0. A student concludes that because there are no forces, the kinetic momentum p = mγv is conserved. What is wrong with this reasoning?"
   type: multiple-choice
   options:
     - "Nothing — kinetic momentum is conserved whenever the electromagnetic fields vanish"
     - "The canonical momentum p_can = mγv + qA is the conserved quantity, not the kinetic momentum. A can be non-zero even when fields vanish, so mγv can change even without classical forces"
     - "Energy is conserved but not momentum, because the electromagnetic potential contributes to total energy"
     - "The kinetic momentum formula p = mγv is only valid in non-relativistic mechanics"
-  answer: 1
-  explanation: "Noether's theorem ties conservation of canonical momentum to translational symmetry of the action. The canonical momentum is p_can = mγv + qA, not the kinetic momentum alone. When fields vanish (∇×A = 0, ∂A/∂t = 0), the vector potential A can still be non-zero (it might be a pure gauge field), and if A is spatially varying in the direction of motion, kinetic momentum changes even though there is no classical force (F = q(E + v×B) = 0). This is not a paradox — the missing momentum is exchanged with the field. The Aharonov-Bohm effect in quantum mechanics makes this kinetic/canonical distinction experimentally measurable."
+  answer: 0
+  explanation: "Nothing is wrong. The equation of motion d(mγv)/dt = q(E + v×B) involves only the fields, so with E = 0 and B = 0 the kinetic momentum mγv is conserved. A can still be nonzero there (a pure gauge field), and then the canonical momentum mγv + qA changes along the path as A changes, while mγv stays fixed. A pure-gauge A can be removed by a gauge transformation, so it cannot affect the classical motion. In quantum mechanics, the Aharonov-Bohm effect shows that potentials in a field-free region can shift interference phases when the region encloses magnetic flux, but they still exert no classical force."
 
 - question: "The relativistic equation dp^μ/dτ = qF^μν u_ν is preferred over the non-relativistic Lorentz force law F = q(E + v×B) for relativistic particles primarily because:"
   type: multiple-choice

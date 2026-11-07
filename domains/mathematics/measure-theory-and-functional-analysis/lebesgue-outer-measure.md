@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 Lebesgue outer measure on ℝⁿ is defined as λ*(A) = inf{Σᵢ vol(Iᵢ) : A ⊆ ∪ᵢ Iᵢ}, where the infimum is over countable covers by open intervals. Applying Carathéodory's theorem yields the Lebesgue measure.
 
+## How It's Best Learned
+Prove λ*([0,1]) = 1 in one dimension. The bound ≤ 1 is immediate from covers (−ε, 1 + ε). For ≥ 1, take any countable open cover. Heine–Borel gives a finite subcover. Chain intervals from the one containing 0 to one containing 1, each overlapping the next, and their lengths sum to more than 1. Then compare with ℚ ∩ [0,1], where countable covers can have total length below any ε.
+
+## Common Misconceptions
+- λ*([a,b]) = b − a follows directly from the definition. (The upper bound does. The lower bound needs compactness to reduce to a finite cover, since a countable cover of a dense countable set can have tiny total length.)
+- Covering by finitely many boxes would give the same outer measure. (Finite covers give Jordan outer content. ℚ ∩ [0,1] has Jordan outer content 1 but Lebesgue outer measure 0.)
+- Using closed boxes instead of open boxes changes the outer measure. (It gives the same value. Each closed box can be enlarged to an open box with volume only ε·2⁻ⁱ larger.)
+
 ## Questions
 
 ```yaml
@@ -61,7 +69,7 @@ Lebesgue outer measure on ℝⁿ is defined as λ*(A) = inf{Σᵢ vol(Iᵢ) : A 
 
 ## Explainer
 
-The motivating problem is deceptively simple: how do you assign a "size" to an arbitrary subset of ℝⁿ? For intervals and rectangles this is obvious — length, area, volume. But what about a dense countable set like the rationals? Or a Cantor set? The naive approach of summing lengths breaks down quickly on exotic sets, and Banach-Tarski-type paradoxes show that no measure can consistently assign a size to every subset of ℝⁿ. The Lebesgue outer measure is the response: define a notion of size for all sets, accepting that it will only be a true "measure" on a restricted class of well-behaved sets.
+The motivating problem is deceptively simple: how do you assign a "size" to an arbitrary subset of ℝⁿ? For intervals and rectangles this is obvious — length, area, volume. But what about a dense countable set like the rationals? Or a Cantor set? The naive approach of summing lengths breaks down quickly on exotic sets, and the Vitali construction shows that no translation-invariant, countably additive measure extending volume can assign a size to every subset of ℝⁿ. The Lebesgue outer measure is the response: define a notion of size for all sets, accepting that it will only be a true "measure" on a restricted class of well-behaved sets.
 
 The definition of **Lebesgue outer measure** is: λ*(A) is the infimum of the total volume of all countable collections of open boxes that cover A. Think of it as approximating A from the outside — you are asking, "what is the least total volume I need if I'm allowed to cover A with as many (possibly overlapping) open boxes as I like?" The infimum ensures you are finding the tightest such approximation. For an interval [a, b], this gives b − a exactly, matching your intuition. For a single point, every cover can be made arbitrarily small, so the outer measure is 0. For a countable set of points, the same argument shows outer measure 0, even though such a set can be dense.
 

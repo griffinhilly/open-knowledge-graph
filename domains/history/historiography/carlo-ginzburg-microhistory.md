@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Carlo Ginzburg's *The Cheese and the Worms* reconstructs the worldview of Menocchio, a 16th-century miller interrogated by the Inquisition. Through Inquisition trial transcripts, Ginzburg recovers a popular cosmology and demonstrates how microhistorical reconstruction can illuminate ordinary people's agency and intellectual life. His approach combines close textual analysis with attention to language, metaphor, and meaning-making—showing how histories of the silenced can be told.
 
+## How It's Best Learned
+Read a short excerpt of Menocchio's testimony with the inquisitor's questions left in. Mark which words come from the questioner and which from Menocchio, and note where the answers go beyond what was asked. Then list the books Menocchio said he read and compare what the books say with how he retold them. That gap is where Ginzburg locates the popular oral culture.
+
+## Common Misconceptions
+- Ginzburg claims Menocchio was a typical peasant. (He presents Menocchio as an unusual case whose anomalies point to a wider popular culture, without claiming most peasants held the same views.)
+- A source created by the Inquisition is too biased to tell us anything about the accused. (The questions shaped the answers, but read against the grain, the transcript records the accused's own words in rare detail.)
+- One case can support no conclusions beyond one life. (A single well-documented case can show that a way of thinking existed and can overturn assumptions, even though it cannot measure how common that thinking was.)
+- Menocchio's ideas came straight from his books. (Ginzburg argues that he reworked what he read through an oral peasant culture, so his readings often departed from the texts.)
+
 ## Questions
 
 ```yaml

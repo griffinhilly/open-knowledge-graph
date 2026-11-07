@@ -21,7 +21,15 @@ status: validated
 # Rock Rheology and Elastic-Plastic Deformation
 
 ## Core Idea
-Rock deformation is elastic at low strain (linear stress-strain), brittle at shallow depths (fracture), and ductile at high temperature and pressure (viscous flow). Laboratory experiments and microstructural studies show yield strength decreases with temperature and strain rate; power-law creep (stress-dependent viscosity) dominates at mantle conditions. The brittle-ductile transition (~300–400°C) defines the upper boundary of the seismogenic zone; understanding rheology constrains lithospheric strength and long-term deformation rates.
+Rock deformation is elastic at low strain (linear stress-strain), brittle at shallow depths (fracture), and ductile at high temperature and pressure (viscous flow). Laboratory experiments and microstructural studies show ductile strength decreases with rising temperature and falling strain rate; power-law creep (stress-dependent viscosity) dominates at mantle conditions. The brittle-ductile transition (~300–400°C in quartz-rich crust) defines the lower boundary of the seismogenic zone; understanding rheology constrains lithospheric strength and long-term deformation rates.
+
+## How It's Best Learned
+Start with silly putty. It bounces when dropped, stretches when pulled slowly, and snaps when yanked hard, so one material can be elastic, viscous or brittle depending on rate. Then attach numbers to each regime. A stress of 100 MPa on rock with E = 50 GPa gives an elastic strain of 0.002. In power-law creep with n = 3, doubling the stress makes the strain rate eight times faster.
+
+## Common Misconceptions
+- Ductile rock is partly molten. (Ductile flow happens in solid rock, through creep inside and between crystals. No melt is needed.)
+- Each rock type has one fixed strength. (Strength depends on temperature, confining pressure, strain rate, fluids and grain size. The same granite can be strong near the surface and weak at depth.)
+- Loading rock more slowly makes it behave more rigidly. (The reverse holds for ductile rock. At slower strain rates it flows at lower stress, so long-term geologic loads are carried by weaker rock than fast lab tests suggest.)
 
 ## Questions
 

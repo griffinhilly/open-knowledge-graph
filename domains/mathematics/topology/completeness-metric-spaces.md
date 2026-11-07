@@ -31,6 +31,14 @@ status: validated
 ## Core Idea
 A metric space is complete if every Cauchy sequence converges. Completeness is a metric property (not purely topological) that guarantees existence of limits. Many important spaces are complete: ℝⁿ, closed subsets of complete spaces, and function spaces with appropriate metrics. Completeness enables powerful existence theorems in analysis.
 
+## How It's Best Learned
+Compare two metrics that give ℝ the same open sets. With the usual metric, ℝ is complete. With d(x, y) = |arctan x − arctan y|, the sequence 1, 2, 3, ... is Cauchy, since arctan n approaches π/2, but it has no limit in ℝ. Working this example shows directly that completeness depends on the metric. Then check which subsets of ℝ are complete, starting with [0, 1], (0, 1), and ℤ.
+
+## Common Misconceptions
+- A sequence is Cauchy if each term gets close to the next one. (Shrinking gaps between neighbors is not enough. The partial sums 1 + 1/2 + ... + 1/n have gaps 1/n that go to zero, yet they grow without bound.)
+- Every subset of a complete space is complete. ((0, 1) sits inside the complete space ℝ but is not complete. Closed subsets of a complete space are complete.)
+- Completeness depends only on the topology. (The usual metric and the arctan metric give ℝ the same topology, but only the first is complete.)
+
 ## Questions
 
 ```yaml
@@ -59,7 +67,7 @@ A metric space is complete if every Cauchy sequence converges. Completeness is a
   answer: true
   explanation: "If a sequence converges to a limit L, then for any ε > 0, terms eventually get within ε/2 of L, so they get within ε of each other — the sequence is Cauchy. The converse fails in incomplete spaces: a Cauchy sequence in ℚ may converge to an irrational number not in ℚ. In a complete metric space, the two notions coincide — every Cauchy sequence converges. This equivalence is exactly what completeness guarantees."
 
-- question: "If two metric spaces are homeomorphic, they should have the same completeness."
+- question: "If two metric spaces are homeomorphic, they must have the same completeness."
   type: true-false
   answer: false
   explanation: "Homeomorphism preserves topological structure (open sets, continuity, connectedness) but not metric structure. Completeness is a metric property that depends on the specific distance function, not just the topology. The spaces (0, 1) and ℝ are homeomorphic via a continuous bijection like x → tan(π(x − 1/2)), but ℝ is complete while (0, 1) is not. You can 'change' completeness by picking a different metric or by working in a subspace — something impossible with purely topological properties."

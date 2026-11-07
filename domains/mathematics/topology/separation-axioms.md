@@ -22,10 +22,18 @@ status: validated
 ## Core Idea
 Separation axioms measure how well a topology distinguishes points and sets. T₀ through T₄ range from weak separation (different neighborhoods) to strong separation (disjoint closed sets).
 
+## How It's Best Learned
+Build a table with one row per space and one column per axiom, and justify every entry. Use the indiscrete two-point space (fails T₀), the Sierpiński space {a, b} with open sets ∅, {a}, {a, b} (T₀ but not T₁), the cofinite topology on ℕ (T₁ but not T₂), and ℝ (all of them). Each row shows exactly where one axiom stops holding.
+
+## Common Misconceptions
+- A space satisfying a higher-numbered axiom satisfies all the lower ones. (That holds once T₁ is assumed. The Sierpiński space meets the normality condition but is neither regular nor T₁.)
+- T₁ means two points can be separated by disjoint open sets. (That is T₂. In the cofinite topology on an infinite set, points are closed, yet any two nonempty open sets overlap.)
+- T₀ is so weak that every space satisfies it. (In the indiscrete topology on two points, the only open sets are ∅ and the whole space, so neither point has an open set excluding the other.)
+
 ## Questions
 
 ```yaml
-- question: "In a topological space, you want to guarantee that every convergent sequence has at most one limit. Which separation axiom is sufficient (and necessary) for this?"
+- question: "In a topological space, you want to guarantee that every convergent sequence has at most one limit. Which separation axiom is sufficient for this?"
   type: multiple-choice
   options:
     - "T₀ (Kolmogorov) — there exists an open set distinguishing any two points"
@@ -50,10 +58,10 @@ Separation axioms measure how well a topology distinguishes points and sets. T�
   answer: true
   explanation: "Given two distinct points x and y in a metric space with d(x,y) = r > 0, the open balls B(x, r/2) and B(y, r/2) are disjoint open neighborhoods. If some point z were in both, the triangle inequality gives r = d(x,y) ≤ d(x,z) + d(z,y) < r/2 + r/2 = r, a contradiction. This construction works in any metric space, so all metric spaces — including ℝⁿ, normed vector spaces, and function spaces with a metric — are Hausdorff."
 
-- question: "Nearly every Hausdorff (T₂) space is also a normal (T₄) space."
+- question: "Every Hausdorff (T₂) space is also a normal (T₄) space."
   type: true-false
   answer: false
-  explanation: "This is false. T₄ requires separating any two disjoint *closed sets* by disjoint open sets; T₂ only requires separating *points*. There exist Hausdorff spaces that are not normal — a classic example is the Sorgenfrey plane (ℝ² with the lower-limit topology on each coordinate). The two axes are disjoint closed sets that cannot be separated by disjoint open sets in that topology. The implications run T₄ → T₃ → T₂ → T₁ → T₀, but none of these arrows reverses."
+  explanation: "This is false. T₄ requires separating any two disjoint *closed sets* by disjoint open sets; T₂ only requires separating *points*. There exist Hausdorff spaces that are not normal — a classic example is the Sorgenfrey plane (ℝ² with the lower-limit topology on each coordinate). The rational points and the irrational points of the line y = −x are disjoint closed sets that cannot be separated by disjoint open sets in that topology. The implications run T₄ → T₃ → T₂ → T₁ → T₀, but none of these arrows reverses."
 
 - question: "Explain why Urysohn's lemma makes the normal (T₄) separation axiom especially significant for analysis, beyond the purely topological separation of closed sets."
   type: short-answer
@@ -65,7 +73,7 @@ Separation axioms measure how well a topology distinguishes points and sets. T�
 
 When you first encountered open sets, the examples were mostly familiar spaces — ℝ, intervals, metric spaces — where distinct points have plenty of room between them. But a topology can in principle put any collection of sets on a space and call them open, including pathological ones where distinct points are topologically indistinguishable. The **separation axioms** are a hierarchy of conditions that progressively rule out these pathologies by requiring that the topology can separate points or sets from one another using open sets.
 
-**T₀ (Kolmogorov)** is the weakest: for any two distinct points x and y, there exists an open set containing one but not the other. This rules out the trivial topology where the only open sets are ∅ and X — in that topology, every point looks identical. **T₁ (Fréchet)** strengthens this: for any two distinct points x and y, there exist open sets separating *each* from the other — one containing x but not y, and one containing y but not x. In T₁ spaces, every singleton {x} is a closed set, because its complement is the intersection of all open sets containing each other point, which is open. Finite spaces with discrete topology are T₁; in fact T₁ is often described as "points are closed."
+**T₀ (Kolmogorov)** is the weakest: for any two distinct points x and y, there exists an open set containing one but not the other. This rules out the trivial topology where the only open sets are ∅ and X — in that topology, every point looks identical. **T₁ (Fréchet)** strengthens this: for any two distinct points x and y, there exist open sets separating *each* from the other — one containing x but not y, and one containing y but not x. In T₁ spaces, every singleton {x} is a closed set, because its complement is the union of open sets, one around each other point and excluding x, which is open. Finite spaces with discrete topology are T₁; in fact T₁ is often described as "points are closed."
 
 **T₂ (Hausdorff)** is the most commonly invoked axiom in analysis and geometry: for any two distinct points x and y, there exist *disjoint* open sets U containing x and V containing y. Hausdorff means points can be *simultaneously* separated — they each have their own private open neighborhood with no overlap. Every metric space is Hausdorff (just take balls of radius half the distance between the points). Most spaces mathematicians work with day-to-day are Hausdorff, which is why limits of sequences are unique in these spaces: if xₙ → x and xₙ → y with x ≠ y in a Hausdorff space, the disjoint open sets around x and y eventually exclude the sequence, giving a contradiction.
 

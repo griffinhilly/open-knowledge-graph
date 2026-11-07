@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 A space is connected if it is not the disjoint union of two nonempty open sets. Connected spaces have no gaps. Continuous images of connected spaces are connected.
 
+## How It's Best Learned
+Write explicit separations for disconnected sets: ℝ \ {0}, the two-point set {0, 1}, and ℚ, split by (−∞, √2) and (√2, ∞). Then use connectedness as a tool. Removing any one point from a circle leaves a connected set. Removing the point 1/2 from [0, 1] does not. So [0, 1] and the circle are not homeomorphic. Finish by deriving the intermediate value theorem from the image theorem.
+
+## Common Misconceptions
+- A connected space is one where any two points can be joined by a path. (That is path-connectedness, which is stronger. The topologist's sine curve is connected but not path-connected.)
+- The two pieces of a disconnected space must be some distance apart. ((0, 1) ∪ (1, 2) is disconnected, though its pieces come arbitrarily close.)
+- Any split into two disjoint nonempty sets shows a space is disconnected. (Both pieces must be open. [0, 1] splits as [0, 1/2] ∪ (1/2, 1], but [0, 1/2] is not open in [0, 1].)
+- Removing a curve of zero width cannot disconnect the plane. (Removing the unit circle leaves the open disk and the exterior, two disjoint open sets.)
+
 ## Questions
 
 ```yaml
@@ -49,14 +58,14 @@ A space is connected if it is not the disjoint union of two nonempty open sets. 
   answer: true
   explanation: "This is one of the key characterizations of connectedness. If U is a nonempty proper clopen subset, then U and its complement V = X \\ U are both open, both nonempty, and disjoint with U ∪ V = X — a separation. So if X is connected, no such U can exist; the only clopens are ∅ and X. Conversely, if the only clopens are ∅ and X, any open partition would require one part to also be closed, forcing it to be ∅ or X."
 
-- question: "A topological space is connected if and mainly if nearly every two points in it can be joined by a continuous path."
+- question: "A topological space is connected if and only if every two points in it can be joined by a continuous path."
   type: true-false
   answer: false
   explanation: "This describes path-connectedness, which is a strictly stronger condition. Every path-connected space is connected, but not every connected space is path-connected. The classic counterexample is the topologist's sine curve: the closure of {(x, sin(1/x)) : x > 0} in ℝ². This set is connected (the two pieces cannot be separated by open sets) yet there is no continuous path from a point on the oscillating part to the point (0, 0) on the y-axis segment."
 
 - question: "Explain why ℝ with the standard topology is connected, while ℝ \\ {0} is not."
   type: short-answer
-  answer: "ℝ is connected because any attempt to split it into two disjoint nonempty open sets must leave a point uncovered: between any two open intervals, there is always a point in neither. More formally, suppose ℝ = U ∪ V with U, V open, disjoint, nonempty. Pick a ∈ U and b ∈ V; the supremum of [a, b] ∩ U must belong to both the closure of U and the closure of V, but disjoint open sets have disjoint closures — contradiction. For ℝ \\ {0}: write it as (−∞, 0) ∪ (0, ∞). Both pieces are open in ℝ \\ {0}, nonempty, and disjoint — a valid separation."
+  answer: "ℝ is connected because any attempt to split it into two disjoint nonempty open sets fails at a boundary point between them. More formally, suppose ℝ = U ∪ V with U, V open, disjoint, nonempty. Pick a ∈ U and b ∈ V with a < b, and let s = sup([a, b] ∩ U). The point s lies in U or in V, and either way openness gives an interval around s inside that set, which contradicts s being the supremum. For ℝ \\ {0}: write it as (−∞, 0) ∪ (0, ∞). Both pieces are open in ℝ \\ {0}, nonempty, and disjoint — a valid separation."
   explanation: "Removing a single point from ℝ creates a gap that cannot be bridged by any path remaining in ℝ \\ {0}. Topologically, the removed point was the only 'link' between the two halves, and its absence makes the separation exact."
 ```
 

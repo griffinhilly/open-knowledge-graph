@@ -27,6 +27,12 @@ The electric displacement field D relates to the field E and polarization P thro
 ## How It's Best Learned
 Relate susceptibility to microscopic polarizability through the Lorentz field concept. Calculate for simple models (atomic dipoles, charged particles in potential wells).
 
+## Common Misconceptions
+- Since ∇·D = ρ_free, D can be found from the free charge alone in any geometry. (The curl of D equals the curl of P, which is nonzero at many dielectric boundaries. Gauss's law gives D from free charge alone mainly when symmetry fixes its direction.)
+- A dielectric with larger εᵣ always lowers the field. (That holds for fixed free charge. At fixed voltage, a capacitor completely filled with dielectric keeps E = V/d, and the plates take on εᵣ times more free charge.)
+- Bound charges are a bookkeeping device and do not produce real fields. (They are real displaced charges. Their fields add to those of the free charges to give E.)
+- The susceptibility χ is one fixed number for each material. (It varies with frequency, becomes a tensor in anisotropic crystals, and depends on field strength in nonlinear media.)
+
 ## Questions
 
 ```yaml

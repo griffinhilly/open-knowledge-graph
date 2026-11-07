@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 For non-negative measurable f, define ∫f dμ = sup{∫φ dμ : φ simple, φ ≤ f}. This definition is monotone: f ≤ g implies ∫f ≤ ∫g. The integral may be infinite but is always defined.
 
+## How It's Best Learned
+Compute from below by hand. For f(x) = x on [0,1], the simple functions φₙ = ⌊nx⌋/n lie under f and have ∫φₙ = (n − 1)/(2n), which rises to 1/2. Then take the indicator of the rationals in [0,1]. It has no Riemann integral, but every simple φ below it is 0 off a null set, so its Lebesgue integral is 0.
+
+## Common Misconceptions
+- An unbounded non-negative function has infinite integral. (On (0,1], f(x) = 1/√x is unbounded, yet its integral is 2.)
+- If ∫f dμ = 0, then f is the zero function. (It only forces f = 0 almost everywhere. The indicator of the rationals has integral 0 but equals 1 at every rational.)
+- Some simple function below f must reach the supremum. (For f(x) = x on [0,1], every simple φ ≤ f has ∫φ < 1/2, though the supremum is 1/2.)
+
 ## Questions
 
 ```yaml
@@ -67,6 +75,6 @@ You already know how to integrate **simple functions** — those that take only 
 
 The key idea is the **supremum definition**: ∫f dμ = sup{∫φ dμ : φ simple, 0 ≤ φ ≤ f}. You take all the simple functions that underestimate f everywhere, integrate each one, and then take the least upper bound of all those numbers. If f is itself simple, this recovers the simple function integral. If f is a smooth curve, it approximates f from below with ever-finer staircases. The supremum captures the "total area" even when no single simple function achieves it.
 
-This definition handles two important edge cases cleanly. First, it is always defined — the supremum of a set of non-negative numbers is either a finite non-negative number or +∞, never undefined. A function like 1/√x near 0 may have infinite integral; that's allowed and just equals +∞. Second, it is **monotone**: if f ≤ g everywhere, then every simple function below f is also below g, so the supremum for f is ≤ the supremum for g. This monotonicity is the engine behind the Monotone Convergence Theorem you'll see next.
+This definition handles two important edge cases cleanly. First, it is always defined — the supremum of a set of non-negative numbers is either a finite non-negative number or +∞, never undefined. A function like 1/x near 0 may have infinite integral; that's allowed and just equals +∞. Second, it is **monotone**: if f ≤ g everywhere, then every simple function below f is also below g, so the supremum for f is ≤ the supremum for g. This monotonicity is the engine behind the Monotone Convergence Theorem you'll see next.
 
 Why restrict to non-negative functions first? Because non-negative functions have a clean order structure: if φ ≤ f, then more of φ means more of f. Negative values break this — you could have a function that is sometimes large-positive and sometimes large-negative, and the cancellations make "approximating from below" ambiguous. The general Lebesgue integral (for functions that can be negative) is built on top of this: split f into its positive part f⁺ = max(f, 0) and negative part f⁻ = max(−f, 0), integrate both as non-negative functions, and subtract — but only when at least one is finite to avoid ∞ − ∞.

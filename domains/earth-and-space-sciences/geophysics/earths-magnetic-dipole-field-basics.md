@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Earth's magnetic field is generated primarily by convection of liquid iron in the outer core (geodynamo) and approximated as a dipole field tilted about 11° from the rotation axis. The field strength at the surface is ~25–65 microteslas and varies spatially and temporally. Secular variation (long-period changes) occurs on timescales of years to centuries; paleomagnetic reversals occur on timescales of thousands to millions of years.
 
+## How It's Best Learned
+Sketch dipole field lines around a circle and mark the inclination at the equator, mid-latitudes and poles. Then compute it with tan I = 2 tan λ: at 30° magnetic latitude I ≈ 49°, and at 45° I ≈ 63°. Pair this with the strength relation B ∝ √(1 + 3 sin²λ), which shows the field doubling from equator to pole.
+
+## Common Misconceptions
+- The magnetic pole in the Arctic is a north magnetic pole. (The north end of a compass needle is attracted to it, so in physics terms it is a south magnetic pole; field lines point down into the ground there.)
+- The magnetic poles are exactly where the best-fit dipole axis meets the surface. (The dip poles, where inclination is 90°, are offset from the dipole's geomagnetic poles because non-dipole components also shape the field.)
+- The magnetic poles stay at a fixed position relative to the geographic poles. (Secular variation moves them; the dip poles drift measurably over years to decades.)
+
 ## Questions
 
 ```yaml

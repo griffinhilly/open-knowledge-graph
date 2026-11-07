@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Subducting slabs remain cold owing to rapid plate motion. Cold slab interiors inhibit melting; thermal models show geothermal gradients much lower in subduction zones than in the mantle wedge, explaining metamorphic facies and magma generation.
 
+## How It's Best Learned
+Compare two timescales with κ = 10⁻⁶ m²/s and a 50 km thick slab. Heat needs L²/κ, about 79 million years, to diffuse across the slab. At 5 cm/yr, the slab travels 300 km in 6 million years. In that time heat penetrates only √(κt), about 14 km. Then repeat for a younger, thinner slab moving at 2 cm/yr.
+
+## Common Misconceptions
+- A subducting slab is uniformly cold. (Its top heats by contact with the hot mantle wedge while its interior stays cold, so the coldest rock lies inside the slab rather than at its surface.)
+- The mantle wedge is chilled throughout by the slab beneath it. (Flow in the wedge drags hot mantle toward the slab, so most of the wedge stays hot, though a cold corner remains near the forearc.)
+- A slab's temperature depends only on how fast it subducts. (Plate age matters too: older plates start colder and thicker, so slab temperature reflects both age and descent rate.)
+- Blueschist exposed at the surface shows subduction is happening there today. (Exhumed blueschist belts record ancient subduction and can lie far from any active margin.)
+
 ## Questions
 
 ```yaml
@@ -44,7 +53,7 @@ Subducting slabs remain cold owing to rapid plate motion. Cold slab interiors in
     - "Hydrous minerals in the subducting slab dehydrate at this depth, releasing water that rises into the hot mantle wedge and lowers the peridotite melting point, triggering flux melting"
     - "The weight of 100 km of overriding crust creates enough pressure to squeeze melt upward from the slab"
   answer: 2
-  explanation: "Arc magmatism is driven by flux melting, not direct slab melting. The subducting oceanic crust contains hydrous minerals (amphibole, serpentine, chlorite) that are stable only up to certain pressure-temperature conditions. As the slab descends and heats, these minerals break down and release water. This water rises buoyantly into the overlying mantle wedge — which is hot (1200°C+) peridotite. Water dramatically lowers the solidus (melting temperature) of peridotite, causing flux melting at temperatures well below dry peridotite's melting point. The 100–120 km arc-trench gap reflects the depth at which the last major hydrous phases in the slab decompose."
+  explanation: "Arc magmatism is driven by flux melting, not direct slab melting. The subducting oceanic crust contains hydrous minerals (amphibole, serpentine, chlorite) that are stable only up to certain pressure-temperature conditions. As the slab descends and heats, these minerals break down and release water. This water rises buoyantly into the overlying mantle wedge — which is hot (1200°C+) peridotite. Water dramatically lowers the solidus (melting temperature) of peridotite, causing flux melting at temperatures well below dry peridotite's melting point. The 100–120 km slab depth beneath the arc reflects the depth at which the last major hydrous phases in the slab decompose."
 
 - question: "Blueschist facies metamorphism — characterized by high pressure and low temperature — is uniquely associated with subduction zone settings and is not found at equivalent depths elsewhere in the crust."
   type: true-false

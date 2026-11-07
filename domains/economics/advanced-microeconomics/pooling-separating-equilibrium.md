@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 In signaling games, a separating equilibrium is one where different types take different actions, fully revealing types. A pooling equilibrium is one where all types take identical action, revealing no information. Market unraveling can occur when high-quality types find pooling equilibrium pay too low relative to signaling cost, causing them to exit, degrading average quality.
 
+## How It's Best Learned
+Plot both types' indifference curves through a pooling point in education-wage space, with the high type's curves flatter. The wedge between the two curves holds offers that only the high type would take. Ask what employers must believe about a move into that wedge for the pool to survive. Then shade the range of separating education levels, from the low type's mimic threshold to the high type's limit.
+
+## Common Misconceptions
+- In a pooling equilibrium, beliefs do not matter because employers learn nothing. (On-path beliefs equal the prior, but off-path beliefs decide what a deviator is paid. Pessimistic off-path beliefs are what hold many pools together.)
+- Pooling means every type chooses zero education. (Types can pool at any common education level that suitable off-path beliefs support. Zero is one case.)
+- Whether a pool survives depends only on the high type's cost of deviating. (It also depends on how employers interpret the deviation. Refinements such as the Intuitive Criterion restrict those beliefs, and in the standard two-type Spence model they rule out pooling.)
+
 ## Questions
 
 ```yaml

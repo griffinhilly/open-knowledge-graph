@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 An element α in F is algebraic over K if it satisfies a polynomial equation with coefficients in K; otherwise it is transcendental. For algebraic α, the minimal polynomial is the monic polynomial of smallest degree with α as root. The degree of α equals the degree of its minimal polynomial.
 
+## How It's Best Learned
+Find a minimal polynomial by hand. For α = √2 + √3, square to get α² = 5 + 2√6, isolate the radical, and square again to reach x⁴ − 10x² + 1. Then argue it is irreducible by showing ℚ(α) = ℚ(√2, √3) and [ℚ(√2, √3):ℚ] = 4. Next, redo the problem over ℚ(√2), where the minimal polynomial drops to x² − 2√2x − 1, to see that degree depends on the base field.
+
+## Common Misconceptions
+- Every irrational number is transcendental. (Many irrationals are algebraic: √2 is a root of x² − 2. Transcendental means no nonzero polynomial over the base field has the element as a root.)
+- Being algebraic or transcendental is a property of the number alone. (It depends on the base field K. π is transcendental over ℚ but algebraic over ℝ, since it is a root of x − π.)
+- Any polynomial with α as a root is its minimal polynomial. (x⁴ − 4 has √2 as a root, but it factors over ℚ as (x² − 2)(x² + 2). The minimal polynomial is the monic one of least degree, x² − 2, and it is irreducible.)
+
 ## Questions
 
 ```yaml

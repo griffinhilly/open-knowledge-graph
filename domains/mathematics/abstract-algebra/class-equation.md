@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 For a finite group G under conjugation, |G| = |Z(G)| + Σ |Cᵢ|, where the sum is over conjugacy classes of size > 1. This equation relates the center and conjugacy classes of the group.
 
+## How It's Best Learned
+Compute the class equation of two small groups by hand, finding each class size as |G|/|C_G(x)|. For S₃ you get 6 = 1 + 2 + 3. For the dihedral group D₄ of order 8, with rotation r of order 4 and reflection s, the classes are {e}, {r²}, {r, r³}, {s, sr²} and {sr, sr³}, so 8 = 2 + 2 + 2 + 2. Compare the two to see why a 2-group must have a center larger than {e}.
+
+## Common Misconceptions
+- The sum has one term for every conjugacy class. (Each central element is its own class, and those classes are grouped together as |Z(G)|. The sum Σ|Cᵢ| has one term for each class of size greater than 1.)
+- The size of a conjugacy class equals the order of its elements. (Class size is the index |G|/|C_G(x)|. In S₃ the transpositions have order 2, but they form a class of size 3.)
+- The class equation shows that every finite group has a nontrivial center. (The argument needs every non-central class size to be divisible by one prime p, which holds for p-groups. S₃ has trivial center, as 6 = 1 + 2 + 3 shows.)
+
 ## Questions
 
 ```yaml

@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 Reflection seismic surveys use arrays of sources and receivers to record reflections from subsurface interfaces. Survey parameters such as source-receiver distance, receiver spacing, and line direction must be chosen based on target depth, expected reflection geometry, and spatial resolution requirements. Common-midpoint (CMP) gathers organize the data to enhance signals and suppress noise.
 
+## How It's Best Learned
+Lay out a 2D line on graph paper: 240 channels at 25 m spacing, with a shot every 50 m. Fold = 240 × 25 / (2 × 50) = 60. Then compute moveout at 2,000 m offset with v = 2,500 m/s. A reflection at t₀ = 2.0 s arrives 154 ms late, while one at t₀ = 0.4 s arrives 494 ms late. Deep events need long offsets to show measurable moveout.
+
+## Common Misconceptions
+- Every trace in a CMP gather reflects from exactly the same subsurface point. (That holds for flat layers. With dipping layers the reflection points spread updip as offset grows, which later processing steps must correct.)
+- Closer receiver spacing improves vertical resolution. (Vertical resolution depends mainly on the dominant wavelength, set by frequency and velocity. Receiver spacing controls lateral sampling and aliasing.)
+- The stacking velocity is the true velocity of the layer at the reflector. (It is an average over the whole path above the reflector and is affected by dip. Interval velocities must be derived from it.)
+
 ## Questions
 
 ```yaml
@@ -64,6 +72,7 @@ Reflection seismic surveys use arrays of sources and receivers to record reflect
 - question: "Explain the purpose of the normal moveout (NMO) correction in CMP processing. Why is it necessary before stacking, and what key parameter must be estimated to apply it correctly?"
   type: short-answer
   answer: "In a CMP gather, the reflection from a flat horizontal layer arrives later at longer offsets because the ray path is longer. This offset-dependent delay follows a hyperbolic relationship: t²(x) = t₀² + x²/v², where t₀ is the zero-offset two-way travel time and v is the stacking velocity. The NMO correction flattens this hyperbola by subtracting the extra travel time at each offset, so the reflection aligns at the same time across all traces. Without this correction, stacking would smear rather than reinforce the reflection. The key parameter is the NMO velocity (or stacking velocity), which must be estimated — typically by testing a range of velocities and selecting the one that produces the flattest, best-aligned gather (velocity semblance analysis). This velocity also provides information about subsurface interval velocities, which can be used for depth conversion."
+  explanation: "Stacking adds traces sample by sample, so a reflection reinforces itself only if it sits at the same time on every trace. The hyperbola t² = t₀² + x²/v² shows that the delay at each offset depends on velocity. A velocity that is too low overcorrects the event, so it curves upward at far offsets; one that is too high leaves it undercorrected. The velocity that flattens the event gives the strongest stack."
 ```
 
 ## Explainer

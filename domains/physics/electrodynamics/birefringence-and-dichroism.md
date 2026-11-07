@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Birefringence (anisotropic refractive index) causes different polarizations to propagate at different speeds, rotating linear polarization or converting between linear and circular. Dichroism (anisotropic absorption) attenuates different polarizations differently.
 
+## How It's Best Learned
+Track polarization as a two-component vector along the crystal's fast and slow axes. Start with light at 45°, written (1, 1)/√2. A quarter-wave plate multiplies one component by i, giving (1, i)/√2, which is circular. A half-wave plate multiplies it by −1, giving (1, −1)/√2, linear light rotated by 90°. Then repeat with a polarizer sheet and a wave plate on a phone screen.
+
+## Common Misconceptions
+- A birefringent crystal blocks one polarization the way a polarizer does. (Birefringence shifts the relative phase of the two components. Removing one component by absorption is dichroism.)
+- Any wave plate turns linear light into circular light. (A quarter-wave plate gives circular output only when the input is at 45° to the axis. Input along either axis passes through unchanged, other angles give elliptical light, and a half-wave plate gives linear light.)
+- Light leaving a birefringent crystal is unpolarized because its two parts traveled at different speeds. (The two components stay coherent, so they recombine into a definite polarization state.)
+- Birefringence and dichroism cannot occur in the same material. (Both can coexist when the real and imaginary parts of the refractive index are both anisotropic.)
+
 ## Questions
 
 ```yaml

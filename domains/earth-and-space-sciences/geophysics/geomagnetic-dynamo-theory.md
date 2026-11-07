@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Earth's magnetic field is sustained by convection-driven currents in the liquid iron outer core via the magnetohydrodynamic (MHD) dynamo mechanism. The induction equation ∂B/∂t = ∇ × (v × B) + (η/μ₀)∇²B couples magnetic field evolution to fluid velocity and resistivity. Core convection is driven by cooling and iron crystallization at the inner core boundary; differential rotation and helical flow patterns (α–ω dynamo) regenerate magnetic field against Ohmic decay. Paleomagnetic reversals reflect bistability or transient excursions in the chaotic nonlinear dynamo.
 
+## How It's Best Learned
+Compare the two terms of the induction equation through the magnetic Reynolds number Rm = vL/λ, where λ = η/μ₀ is the magnetic diffusivity. With core flow near 0.5 mm/s, L ≈ 2,200 km and λ ≈ 1 m²/s, Rm is about 1,000, so induction outpaces decay. Then draw the α–ω cycle as two steps: poloidal field sheared into toroidal field, then twisted back into poloidal field.
+
+## Common Misconceptions
+- A dynamo can create a magnetic field from nothing. (It amplifies an existing seed field; with B = 0 the induction term ∇ × (v × B) vanishes.)
+- A highly conductive core would hold its field without any flow. (Any finite conductivity lets the field decay; higher conductivity slows the decay but does not stop it.)
+- During a reversal the magnetic field switches off. (The dipole weakens, but the field does not vanish; non-dipole components remain and can dominate for a time.)
+
 ## Questions
 
 ```yaml

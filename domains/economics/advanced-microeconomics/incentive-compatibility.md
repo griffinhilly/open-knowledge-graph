@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Incentive compatibility (IC) is a constraint in mechanism design: truth-telling must be optimal for each agent. Formal IC: for all types t_i, t_i', agent i weakly prefers reporting true type t_i over lying and reporting t_i'. Strong IC requires strict preference. IC is necessary for mechanisms to elicit honest information without monitoring.
 
+## How It's Best Learned
+Use the procurement example with two firms whose costs are 5 and 8. Under pay-your-report, the cost-5 firm still wins with any report below 8, so it gains by reporting above 5. Then pay the winner the second-lowest report instead. Check each firm's possible lies one by one: none beats the truthful report, whatever the other firm says.
+
+## Common Misconceptions
+- A Bayesian incentive-compatible mechanism makes truth-telling best whatever the others report. (BIC only makes truth-telling optimal in expectation over others' types. For some realized reports, a lie can pay. Robustness to every report is DSIC.)
+- IC needs the designer to check reports after the fact. (IC is built into the payment and allocation rules, so that lying does not pay even with no verification.)
+- Truth-telling only needs to beat lies close to the true type. (The constraint must hold against every alternative report. A mechanism can pass nearby checks and still invite a large lie.)
+- An incentive-compatible mechanism gives an efficient outcome. (IC is about reporting. A second-price auction with a high reserve price is DSIC but can leave the good unsold to a buyer who values it above the seller's cost.)
+
 ## Questions
 
 ```yaml

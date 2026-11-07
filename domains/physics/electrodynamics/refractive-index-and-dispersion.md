@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 The refractive index n(ω) describes how fast electromagnetic waves propagate in a medium relative to vacuum, embodying the material's electromagnetic response. The frequency-dependence n(ω) (normal dispersion: dn/dω > 0, or anomalous: dn/dω < 0) causes different colors to refract differently, explaining chromatic aberration, prism spectra, and material absorption. Real refractive indices exhibit rich frequency dependence connecting to atomic resonances and electronic band structure.
 
+## How It's Best Learned
+Tabulate the lossless one-resonance model n² = 1 + ω_p²/(ω₀² − ω²) with ω_p = ω₀. At ω/ω₀ = 0.25, 0.5 and 0.75, n ≈ 1.44, 1.53 and 1.81, rising toward the resonance. At ω/ω₀ = 2, n ≈ 0.82, below 1. Then add damping and plot the real and imaginary parts of n near ω₀ to see the anomalous region line up with the absorption peak.
+
+## Common Misconceptions
+- An index below 1 means light travels faster than c, which breaks relativity. (Only the phase velocity exceeds c. The front of a signal cannot outrun c.)
+- A pulse in glass travels at the phase velocity c/n. (The envelope moves at the group velocity c/(n + ω dn/dω), which is slower than c/n under normal dispersion.)
+- Dispersion is the same thing as absorption. (Dispersion is the frequency dependence of the real part of n. Glass disperses visible light strongly while absorbing very little of it.)
+- Anomalous dispersion is a rare or exotic effect. (It occurs inside every absorption band. The name is historical, from when normal dispersion was the case first studied.)
+
 ## Questions
 
 ```yaml

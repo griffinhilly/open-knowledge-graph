@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Phylogenetic inference reconstructs evolutionary relationships among organisms using genetic or morphological data. Core approaches (parsimony, likelihood, Bayesian) differ in assumptions and computational costs but share the goal of finding the tree topology and branch lengths best supported by data.
 
+## How It's Best Learned
+Count tree space by building it. Draw the 3 unrooted trees for 4 taxa, then add a fifth taxon to each of the 5 branches of one tree, giving 3 × 5 = 15 trees. A sixth taxon can join any of 7 branches, giving 105. Then score one small alignment with parsimony and discuss why a model-based method might rank the trees differently.
+
+## Common Misconceptions
+- Taxa that sit next to each other at the tips of a drawn tree are the closest relatives. (Relatedness is read from shared branch points; nodes can be rotated without changing the tree, so tip order carries no meaning.)
+- A tree built from one gene shows the history of the species. (Individual genes can have different histories because of incomplete lineage sorting, gene duplication or horizontal transfer.)
+- A 95% bootstrap value and a 95% posterior probability say the same thing. (Bootstrap support measures how often a clade reappears when data are resampled; a posterior probability is a model-based probability that depends on priors, and the two often differ.)
+- The tree with the best score is the true tree. (It is the tree best supported by these data under this method and model; a different model or more data can change it.)
+
 ## Questions
 
 ```yaml
@@ -53,7 +62,7 @@ Phylogenetic inference reconstructs evolutionary relationships among organisms u
   answer: false
   explanation: "Bayesian inference produces a distribution over trees, not a single tree. MCMC sampling explores tree space and the output is a posterior probability distribution across many possible topologies. The proportion of sampled trees supporting a given grouping (clade) is its posterior probability — a natural measure of confidence. This is fundamentally different from maximum likelihood, which returns the single tree that maximizes the probability of the observed data."
 
-- question: "The parsimony criterion for tree selection makes no assumptions about the underlying model of sequence evolution."
+- question: "The parsimony criterion for tree selection does not require specifying an explicit model of sequence evolution."
   type: true-false
   answer: true
   explanation: "Parsimony is model-free in the sense that it does not specify substitution rates, transition/transversion biases, or rate variation among sites — it simply counts the minimum number of mutations required. This is both a strength (no incorrect model assumptions) and a weakness (it implicitly assumes that all changes are equally likely and that multiple substitutions at the same site are negligible — an assumption violated when evolution is rapid). Being assumption-light is not the same as being assumption-free."

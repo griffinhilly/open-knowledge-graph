@@ -21,7 +21,15 @@ status: validated
 # Open Covers and Finite Subcovers
 
 ## Core Idea
-An open cover of K is a collection {Uᵢ} of open sets with K ⊆ ⋃ Uᵢ. A space is compact if every open cover has a finite subcover. Open covers encode 'global' properties: compact spaces cannot be covered by infinitely many 'small' open sets. Compactness is preserved by continuous images and closed subsets of compact spaces.
+An open cover of K is a collection {Uᵢ} of open sets with K ⊆ ⋃ Uᵢ. A space is compact if every open cover has a finite subcover. Open covers encode 'global' properties: in a compact space, every open cover, however fine, can be cut down to finitely many of its sets. Compactness is preserved by continuous images and closed subsets of compact spaces.
+
+## How It's Best Learned
+Prove compactness from the definition for K = {0} ∪ {1/n : n ≥ 1}. Given any open cover, one member contains 0 and so contains all but finitely many points 1/n; add one member for each point left over. Then remove 0 and find a cover of {1/n : n ≥ 1} by small intervals, each containing exactly one point, which has no finite subcover.
+
+## Common Misconceptions
+- A subcover is any finite collection of open sets that covers K. (It must be drawn from the given cover. The single set (0, 1) covers (0, 1), but it is not a member of the cover {(1/n, 1)}.)
+- Compact subsets are closed in every space. (That holds in Hausdorff spaces. In ℝ with the cofinite topology, every subset is compact, including ℕ, which is not closed.)
+- A union of compact sets is compact. (Finite unions are. ℝ is the union of the compact sets [−n, n] and is not compact.)
 
 ## Questions
 
@@ -31,12 +39,12 @@ An open cover of K is a collection {Uᵢ} of open sets with K ⊆ ⋃ Uᵢ. A sp
   options:
     - "Yes, because it is bounded and any open cover can be reduced to finitely many sets"
     - "No, because the cover {(1/n, 1) : n = 2, 3, 4, ...} has no finite subcover"
-    - "No, because (0,1) is not closed, and only closed sets can be compact"
+    - "No, because (0,1) is infinite, and only finite sets can be compact"
     - "Yes, because every continuous function on (0,1) attains its maximum and minimum"
   answer: 1
-  explanation: "The collection {(1/n, 1)} for n ≥ 2 covers (0,1) — every x ∈ (0,1) lies in (1/n, 1) for all large enough n. But no finite sub-collection covers (0,1): any finite collection omits (1/N, 1) for some large N, leaving points near 0 uncovered. So (0,1) fails the compactness definition. Option C conflates closed and compact — closedness is relevant only when the set sits inside a compact ambient space. Option D is false: f(x) = 1/x is continuous on (0,1) but attains no maximum."
+  explanation: "The collection {(1/n, 1)} for n ≥ 2 covers (0,1) — every x ∈ (0,1) lies in (1/n, 1) for all large enough n. But no finite sub-collection covers (0,1): any finite collection omits (1/N, 1) for some large N, leaving points near 0 uncovered. So (0,1) fails the compactness definition. Option C is false: [0,1] is infinite and compact. Option D is false: f(x) = 1/x is continuous on (0,1) but attains no maximum."
 
-- question: "A continuous function f: K → ℝ attains its maximum value on K for every continuous f. What does this tell us about K?"
+- question: "Let K be a nonempty subset of ℝ. Every continuous function f: K → ℝ attains its maximum value on K. What does this tell us about K?"
   type: multiple-choice
   options:
     - "K must be closed, since the maximum must be achieved at a boundary point"
@@ -44,7 +52,7 @@ An open cover of K is a collection {Uᵢ} of open sets with K ⊆ ⋃ Uᵢ. A sp
     - "K must be connected, since attaining a maximum requires no gaps in the domain"
     - "K must be both compact and path-connected, so that the intermediate value theorem also applies"
   answer: 1
-  explanation: "The extreme value theorem states that continuous functions on compact spaces attain their maximum and minimum. The key theorem here: continuous images of compact spaces are compact. If f(K) is compact in ℝ, it is closed and bounded, hence contains its supremum — so f attains its maximum. Conversely, if K is not compact, one can find a continuous function that doesn't attain its maximum (as (0,1) shows). Connectedness (options C, D) is needed for the intermediate value theorem, not the extreme value theorem."
+  explanation: "The extreme value theorem states that continuous functions on compact spaces attain their maximum and minimum. The key theorem here: continuous images of compact spaces are compact. If f(K) is compact in ℝ, it is closed and bounded, hence contains its supremum — so f attains its maximum. Conversely, if K ⊆ ℝ is not compact, one can find a continuous function that doesn't attain its maximum (as (0,1) shows). Connectedness (options C, D) is needed for the intermediate value theorem, not the extreme value theorem."
 
 - question: "If K is compact and C ⊆ K is closed, then C is compact."
   type: true-false

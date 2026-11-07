@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Despite the genetic code's degeneracy, most organisms use certain synonymous codons more frequently than others. Codon bias reflects weak selection for translation efficiency, optimal tRNA availability, and mRNA stability. This bias can be detected in comparative genomics and affects evolutionary rates of synonymous sites.
 
+## How It's Best Learned
+Count codons for one amino acid, such as leucine with its six codons, in a highly expressed gene and a weakly expressed gene from the same genome. Compare both counts with the genome's overall GC content. Then compute Nₑs for one small s at Nₑ = 10⁴ and Nₑ = 10⁶, and say which population can hold the bias against drift.
+
+## Common Misconceptions
+- Synonymous changes cannot affect fitness because the protein is the same. (Codon choice changes how fast and how accurately ribosomes translate the message, which matters most in highly expressed genes.)
+- Any uneven use of synonymous codons is proof of selection. (Mutational bias in base composition can also skew codon usage. Selection is inferred when bias is strongest in highly expressed genes and matches the most abundant tRNAs.)
+- The preferred codon for an amino acid is the same in every organism. (Preferred codons follow each species' tRNA pool, which differs among species. That difference is why foreign genes are codon-optimized for their host.)
+
 ## Questions
 
 ```yaml

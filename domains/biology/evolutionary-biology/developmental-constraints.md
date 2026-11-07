@@ -19,6 +19,15 @@ status: validated
 ## Core Idea
 Developmental constraints limit which phenotypic variants are possible or viable, biasing evolution toward certain trajectories. Pleiotropy, functional integration, and embryonic induction patterns constrain evolution even when mutations are available. Understanding constraints explains evolutionary patterns and why some seemingly advantageous traits never evolve.
 
+## How It's Best Learned
+Compare necks. A giraffe and a mouse each have seven neck vertebrae; the giraffe's are much longer, not more numerous. Birds, by contrast, vary widely in neck vertebra count. Ask what in mammalian development might lock the number while leaving length free to change, and use that to separate a constraint on one trait from freedom in a neighboring one.
+
+## Common Misconceptions
+- If a trait would help and there is enough time, selection will produce it. (Selection acts only on the variants development can generate. Some variants are rarely produced, or come with costs elsewhere that cancel the benefit.)
+- Developmental constraints only stop evolution. (They bias it. Some changes are easy to produce and recur often, which can make evolution more predictable and lead to repeated similar outcomes.)
+- A constraint applies equally to every lineage and lasts forever. (Constraints differ among groups and can loosen. Neck vertebra number is nearly fixed in mammals but varies a great deal in birds.)
+- A gene that affects many traits cannot change without harming them all. (A change in one regulatory element can alter the gene's expression in one tissue only, avoiding side effects elsewhere.)
+
 ## Questions
 
 ```yaml

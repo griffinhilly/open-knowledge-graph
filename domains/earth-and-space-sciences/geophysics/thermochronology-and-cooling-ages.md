@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Thermochronology exploits temperature-dependent closure of diffusion in isotope systems (K–Ar, ⁴⁰Ar/³⁹Ar, U–Pb, (U–Th)/He) to measure the age when rocks cooled through a closure temperature. Different isotopes close at different temperatures (muscovite ~350°C, biotite ~300°C, apatite ~75°C), yielding nested cooling ages. Combining multiple systems constructs a cooling history that reveals exhumation rates, denudation patterns, and burial-heating events, constraining lithospheric dynamics and surface processes.
 
+## How It's Best Learned
+Plot the Explainer's four ages on a temperature-time graph and compute each segment's cooling rate. It is 10 °C/Myr from 50 to 45 Ma, 6 °C/Myr from 45 to 35 Ma, and 6.6 °C/Myr from 35 to 10 Ma. Divide by a 25 °C/km gradient to get exhumation rates, such as 0.4 km/Myr for the first segment. Then try a different gradient.
+
+## Common Misconceptions
+- Each mineral system has one fixed closure temperature. (Closure temperature depends on cooling rate and grain size, and for apatite helium on radiation damage; faster cooling raises it.)
+- Cooling always means the rock was moving toward the surface. (A rock can cool in place, for example as heat from a nearby intrusion dissipates, so converting cooling to exhumation needs a thermal model.)
+- Exhumation and surface uplift are the same thing. (Exhumation is the removal of overburden above a rock; surface uplift is the rise of the land surface, and erosion can exhume rock while the surface stays level.)
+- The present-day geothermal gradient can be used unchanged to convert any cooling rate. (Fast exhumation carries heat upward and crowds isotherms near the surface, so using an undisturbed gradient tends to overestimate the exhumation rate.)
+
 ## Questions
 
 ```yaml

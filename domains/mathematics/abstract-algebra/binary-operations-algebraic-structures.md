@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 A binary operation on a set assigns to each ordered pair of elements a unique element of the set. Algebraic structures are sets equipped with operations satisfying specific axioms like closure, associativity, and identity properties. Understanding these foundational concepts is essential for studying groups, rings, and fields.
 
+## How It's Best Learned
+Write out operation tables on the set {0, 1, 2} and test each property cell by cell. Try a ★ b = |a − b|: it is closed and commutative, 0 is an identity, and each element is its own inverse. Yet (2 ★ 1) ★ 1 = 0 while 2 ★ (1 ★ 1) = 2, so it is not associative. Then try a ★ b = a, which is associative but has no identity.
+
+## Common Misconceptions
+- Closure is a property you check after you already have a binary operation. (Closure is part of the definition. If a ★ b can land outside S, then ★ is not a binary operation on S at all.)
+- The identity element is 0 or 1. (It depends on the operation. Under a ★ b = a + b + 1 on ℤ, the identity is −1, since a + (−1) + 1 = a.)
+- The pairs (a, b) and (b, a) give the same result. (A binary operation acts on ordered pairs. Unless the operation is commutative, a ★ b and b ★ a can differ, as with matrix multiplication.)
+
 ## Questions
 
 ```yaml

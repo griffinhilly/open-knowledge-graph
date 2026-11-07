@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Oceanic crust cools as it moves away from mid-ocean ridges following a half-space cooling model. Crustal thickness, heat flow, bathymetry, and seismic velocity all change predictably with age. The relationship between bathymetry and age (approximately 2600 m for young crust, increasing to 6000 m by 80 Ma) is a fundamental constraint on plate tectonics and mantle potential temperature.
 
+## How It's Best Learned
+Scale with square roots before using formulas. If seafloor at 80 Ma sits about 3,400 m below a 2,600 m ridge, then 20 Ma seafloor has subsided √(20/80) = 0.5 as much, about 1,700 m, for a depth near 4,300 m. Then plot depth against √age instead of age. Half-space cooling becomes a straight line, and the old-seafloor flattening shows as a bend away from it.
+
+## Common Misconceptions
+- Total seafloor depth is proportional to the square root of age. (The subsidence below the ridge crest scales with √age; the ridge itself already sits a few kilometers below sea level.)
+- Seafloor deepens with age because the crust is eroded or thinned. (The deepening comes from the cooling lithosphere contracting, growing denser and sinking isostatically.)
+- Low measured heat flow on young seafloor shows that the cooling model overestimates its heat loss. (Near ridges, hydrothermal circulation carries much of the heat out with seawater, which conductive heat-flow probes do not record.)
+- The flattening of old seafloor depth means old lithosphere has stopped losing heat. (Heat still flows out at the surface; in the plate model it is balanced by heat supplied at the base, so the plate stops thickening.)
+
 ## Questions
 
 ```yaml
@@ -47,7 +56,7 @@ Oceanic crust cools as it moves away from mid-ocean ridges following a half-spac
 - question: "Both seafloor heat flow and ocean depth can be predicted from crustal age alone using the half-space cooling model, because both observables arise from the same underlying thermal diffusion process."
   type: true-false
   answer: true
-  explanation: "The half-space model provides a unified thermal picture connecting multiple independent observables to a single variable: age. Surface heat flow = κ × (temperature gradient) ∝ 1/√(age) — highest at the ridge, declining steadily. Ocean depth ∝ √(age) — shallowest at the ridge, deepening as the lithosphere cools, contracts, and isostatically subsides. Both predictions follow from the same one-dimensional heat conduction solution with identical parameters. This predictive unity — one physical model, two independent observables both confirmed — was enormously compelling evidence for plate tectonics in the 1960s–70s."
+  explanation: "The half-space model provides a unified thermal picture connecting multiple independent observables to a single variable: age. Surface heat flow = k × (temperature gradient), with k the thermal conductivity, ∝ 1/√(age) — highest at the ridge, declining steadily. Ocean depth ∝ √(age) — shallowest at the ridge, deepening as the lithosphere cools, contracts, and isostatically subsides. Both predictions follow from the same one-dimensional heat conduction solution with identical parameters. This predictive unity — one physical model, two independent observables both confirmed — was enormously compelling evidence for plate tectonics in the 1960s–70s."
 
 - question: "Under the half-space cooling model, the oceanic lithosphere (thermal boundary layer) grows thicker at a rate proportional to age — so lithosphere that is 4× older is 4× thicker."
   type: true-false

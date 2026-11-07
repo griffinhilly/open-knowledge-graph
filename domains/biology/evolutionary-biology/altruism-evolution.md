@@ -19,6 +19,15 @@ status: validated
 ## Core Idea
 Altruistic behavior—costly acts benefiting others—can evolve through kin selection when helping relatives shares genes identical-by-descent. Kin selection is the primary explanation for eusocial insect colonies and family cooperation in vertebrates, though reciprocal altruism and group selection offer alternative mechanisms.
 
+## How It's Best Learned
+Run Hamilton's rule on small numbers before reading cases. Helping costs the actor 1 offspring and gives the recipient 3 extra offspring: for a full sibling (r = 0.5), rB = 1.5 > 1, so helping is favored; for a cousin (r = 0.125), rB = 0.375 < 1, so it is not. Then sort real examples (alarm calls, worker bees, vampire bat food sharing) by whether relatedness or repeated exchange explains them.
+
+## Common Misconceptions
+- Animals help relatives because they know they share genes. (Hamilton's rule describes how selection acts on genes. The behavior can run on simple cues such as shared nest or familiarity, with no awareness of relatedness.)
+- Kin selection works because relatives pay the helper back later. (That is reciprocal altruism. Kin selection needs no return; the helper's genes spread through the relatives it helps.)
+- Altruism evolves because it is good for the species. (An individual that accepts help but gives none would usually leave more offspring than altruists in its group. Altruism needs a mechanism such as kin selection or reciprocity to offset that.)
+- Haplodiploidy explains all eusociality. (Termites and naked mole-rats are eusocial but diploid. In bees and ants, a queen that mates with several males lowers worker-to-sister relatedness below 0.75.)
+
 ## Questions
 
 ```yaml
