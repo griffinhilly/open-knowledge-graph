@@ -12,8 +12,7 @@ prerequisites:
   type: soft
 - id: fundamental-frequency-and-overtones
   type: soft
-builds-toward:
-- fundamental-frequency-and-overtones
+builds-toward: []
 tags:
 - resonance
 - strings

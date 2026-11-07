@@ -10,7 +10,6 @@ prerequisites:
   type: soft
 builds-toward:
 - huygens-principle
-- geometric-optics-ray-approximation
 tags:
 - geometric-optics
 - wavefronts

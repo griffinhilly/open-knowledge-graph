@@ -9,7 +9,6 @@ prerequisites:
 - id: damped-harmonic-oscillator
   type: soft
 builds-toward:
-- damped-harmonic-oscillator
 - driven-harmonic-oscillator
 tags:
 - dissipation

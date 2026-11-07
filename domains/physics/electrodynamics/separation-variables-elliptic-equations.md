@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: separation-variables-pde
   type: hard
+- id: laplace-poisson-equations-electrostatics
+  type: hard
 builds-toward: []
 tags:
 - separation-of-variables

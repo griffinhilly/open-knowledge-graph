@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dielectric-susceptibility-constant
   type: soft
+- id: parallel-plate-capacitor-formula
+  type: soft
 builds-toward:
 - electric-current-definition
 tags:

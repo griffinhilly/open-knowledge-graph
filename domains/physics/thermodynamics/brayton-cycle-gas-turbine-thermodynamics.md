@@ -10,9 +10,7 @@ prerequisites:
   type: hard
 - id: diesel-cycle-compression-ignition-thermodynamics
   type: soft
-builds-toward:
-- pv-diagram-interpretation
-- ts-diagram-entropy-temperature
+builds-toward: []
 tags:
 - cycles
 - turbines

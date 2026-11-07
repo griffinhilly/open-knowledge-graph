@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: matrix-operations
   type: soft
+- id: special-relativity-postulates
+  type: hard
 builds-toward:
 - relativistic-velocity-addition
 - relativistic-momentum-energy

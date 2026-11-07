@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: critical-angle-total-internal-reflection-optical
   type: hard
+- id: refraction-intro
+  type: soft
 builds-toward:
 - dispersion-and-prisms
 tags:

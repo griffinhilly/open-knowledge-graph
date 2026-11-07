@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: phase-transitions
   type: soft
+- id: latent-heat
+  type: soft
 tags:
 - phase-diagrams
 - coexistence

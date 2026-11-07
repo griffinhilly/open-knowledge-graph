@@ -10,8 +10,7 @@ prerequisites:
   type: soft
 - id: poynting-vector-energy-flow
   type: soft
-builds-toward:
-- radiation-from-accelerated-charges
+builds-toward: []
 tags:
 - stress
 - momentum

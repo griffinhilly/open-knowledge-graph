@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: wave-energy-and-intensity
   type: soft
+- id: acoustic-pressure-and-amplitude
+  type: soft
+- id: amplitude-intensity-and-energy
+  type: soft
 builds-toward:
 - doppler-effect
 tags:

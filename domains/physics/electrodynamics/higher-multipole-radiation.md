@@ -10,8 +10,7 @@ prerequisites:
   type: hard
 - id: magnetic-dipole-radiation
   type: soft
-builds-toward:
-- multipole-expansion-fields
+builds-toward: []
 tags:
 - multipole
 - higher-order

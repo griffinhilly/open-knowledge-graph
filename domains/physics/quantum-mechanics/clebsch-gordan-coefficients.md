@@ -6,6 +6,10 @@ course: quantum-mechanics
 prerequisites:
 - id: angular-momentum-coupling
   type: hard
+- id: addition-of-angular-momenta
+  type: hard
+- id: angular-momentum-addition
+  type: hard
 builds-toward:
 - hydrogen-energy-levels
 tags:

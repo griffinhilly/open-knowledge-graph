@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: wave-equation-pde
   type: hard
+- id: electromagnetic-spectrum-intro
+  type: soft
 tags:
 - EM-waves
 - speed-of-light

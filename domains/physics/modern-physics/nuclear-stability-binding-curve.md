@@ -6,6 +6,8 @@ course: modern-physics
 prerequisites:
 - id: mass-defect-binding-energy
   type: hard
+- id: nuclear-force-binding-mechanism
+  type: soft
 builds-toward:
 - nuclear-shell-model-magic-numbers
 tags:

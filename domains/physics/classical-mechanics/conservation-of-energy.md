@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: energy-conservation-quantitative
   type: soft
+- id: energy-conversion
+  type: soft
 builds-toward:
 - collisions-elastic-inelastic
 - spring-mass-system

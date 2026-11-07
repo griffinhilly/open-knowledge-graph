@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: second-law-of-thermodynamics
   type: hard
+- id: heat-engines
+  type: soft
 builds-toward:
 - carnot-efficiency
 tags:

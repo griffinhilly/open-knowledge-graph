@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: dispersion-and-prisms
   type: soft
-builds-toward:
-- dispersion-and-prisms
+builds-toward: []
 tags:
 - dispersion
 - wavelength-dependent

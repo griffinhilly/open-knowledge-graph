@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: refraction-and-snells-law
   type: soft
+- id: wave-speed-medium
+  type: soft
 builds-toward:
 - total-internal-reflection
 - dispersion-and-prisms

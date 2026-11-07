@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: acceleration-and-velocity
   type: hard
+- id: measuring-speed
+  type: soft
 builds-toward:
 - kinematics-2d
 - projectile-motion

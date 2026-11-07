@@ -1,0 +1,311 @@
+JUDGE	addition-subtraction-word-problems-1st	addition-subtraction-word-problems	-	medium	Near-duplicate 1st-grade topics on the same skill; a human should merge or pick direction.
+ADD	fact-families	addition-subtraction-word-problems	soft	medium	Knowing add/subtract relations helps pick and check the operation in word problems.
+ADD	finding-missing-addends	addition-subtraction-word-problems	soft	medium	Unknown-addend situations are one word-problem type; helpful, not required.
+ADD	subtraction-fact-families-1st	addition-subtraction-word-problems	soft	medium	Fact-family relations support choosing the operation.
+ADD	two-digit-addition-no-regrouping	addition-subtraction-word-problems	soft	medium	Larger-number word problems use it, but core word problems are within 20.
+DROP	addition-word-problems-2nd	addition-subtraction-word-problems	-	medium	2nd-grade word problems build on the 1st-grade topic, not the reverse.
+ADD	doubles-facts-within-10	addition-within-20	soft	high	Doubles are a key strategy for sums within 20.
+ADD	tens-and-ones-place-value	addition-within-20	soft	medium	Teen-number structure (10 + ones) supports make-ten addition.
+ADD	equal-groups-concept-1st	arrays	hard	medium	An array is equal groups arranged in rows.
+ADD	comparing-and-ordering-numbers-to-20	comparing-two-digit-numbers	soft	high	Comparing to 20 is the smaller-range precursor.
+ADD	number-recognition-1-100	comparing-two-digit-numbers	hard	medium	Must read two-digit numerals to compare them.
+ADD	identifying-three-dimensional-shapes	composing-shapes	soft	medium	Composing includes 3D solids in 1st grade, but 2D is the main path.
+ADD	identifying-two-dimensional-shapes	composing-shapes	hard	high	Composing shapes requires naming the component shapes.
+ADD	skip-counting-by-10s-fluency	counting-to-100	soft	high	Counting by tens is part of counting to 100.
+ADD	identifying-two-dimensional-shapes	decomposing-shapes	hard	medium	Decomposing requires recognizing the resulting shapes.
+DROP	area-rectilinear-shapes	decomposing-shapes	-	high	3rd-grade area draws on 1st-grade decomposition, not the reverse.
+ADD	time-to-half-hour-practice	elapsed-time	hard	medium	Elapsed time requires reading clock times.
+DROP	elapsed-time-within-hour	elapsed-time	-	high	3rd-grade elapsed time builds on the 1st-grade topic.
+DROP	skip-counting-by-5s	even-and-odd-numbers	-	medium	Even/odd relies on pairing or counting by 2s, not 5s.
+ADD	addition-within-10	fact-families	hard	high	Fact families are built from addition facts.
+ADD	subtraction-within-10	fact-families	hard	high	Fact families relate addition and subtraction facts.
+DROP	fact-families-multiplication-and-division-3rd	fact-families	-	high	3rd-grade multiplicative fact families build on the 1st-grade topic.
+JUDGE	fractions-halves-and-fourths-1st	intro-to-fractions	-	medium	Near-duplicate of B's content (B already has halves-and-quarters hard); merge question.
+DROP	fractions-halves-thirds-fourths	intro-to-fractions	-	medium	2nd-grade fractions build on 1st-grade intro, not the reverse.
+ADD	measuring-with-standard-units-length	measuring-length-with-ruler	soft	medium	Knowing inch/cm units helps read a ruler.
+ADD	ordering-numbers-to-20	number-line-0-to-20	soft	high	Number order underlies placing numbers on a line.
+ADD	ordering-numbers-1-to-20	ordering-two-digit-numbers	soft	high	Ordering to 20 is the smaller-range precursor.
+ADD	tally-chart-data-collection-1st	picture-graphs	soft	medium	Collected tallies feed picture graphs.
+ADD	making-ten-strategy-1st	place-value-tens-and-ones	soft	medium	Making ten foreshadows grouping into tens.
+ADD	number-bonds-to-20	place-value-tens-and-ones	soft	medium	Decomposing teens as 10 + n supports place value.
+ADD	finding-missing-addends	subtraction-within-20	soft	high	Think-addition is a core subtraction strategy.
+ADD	tens-and-ones-place-value	subtraction-within-20	soft	medium	Teen structure supports subtracting through ten.
+ADD	time-to-hour-practice	telling-time-to-half-hour	hard	high	Half-hour reading extends hour reading.
+DROP	addition-subtraction-word-problems-1st	addition-within-100	-	medium	Addition within 100 is a computation skill that does not require word problems.
+ADD	fact-family-relationships	addition-within-100	soft	medium	Add/subtract relationship is a listed strategy, not required.
+ADD	skip-counting-by-5s	coins-and-their-values	soft	high	Counting nickels uses skip counting by 5s.
+ADD	place-value-hundreds	comparing-three-digit-numbers	hard	high	Comparing three-digit numbers relies on hundreds place value.
+ADD	understanding-money-value	counting-coins-and-bills	hard	high	Must know coin values to count collections.
+ADD	coins-and-their-values	counting-money-simple	hard	high	Must know coin values to count coins.
+ADD	division-introduction-grouping	division-facts-2nd-grade	soft	medium	One meaning of division; either model suffices for facts.
+ADD	division-introduction-sharing	division-facts-2nd-grade	soft	medium	One meaning of division; either model suffices for facts.
+ADD	telling-time-to-hour-half-hour-2nd	elapsed-time-simple-2nd	hard	high	Elapsed time requires reading start and end times.
+ADD	introduction-fractions-equal-parts	fractions-halves-thirds-fourths	hard	high	Naming halves/thirds/fourths requires equal parts.
+ADD	money-coins-paper-bills-2nd	making-change-2nd	hard	high	Making change requires counting coins and bills.
+ADD	counting-coins-and-bills	making-change-simple	hard	high	Making change requires counting collections of money.
+ADD	associative-property-addition-1st	mental-math-add-subtract-tens	soft	medium	Regrouping addends supports mental strategies.
+DROP	doubles-and-near-doubles	mental-math-add-subtract-tens	-	medium	Adding tens relies on place value, not doubles facts.
+ADD	subtraction-strategies-counting-back	mental-math-add-subtract-tens	soft	medium	Counting back by tens extends counting back.
+ADD	counting-coins-and-bills	money-word-problems	hard	high	Money word problems require counting money.
+ADD	dollars-and-cents-notation	money-word-problems	soft	high	Notation is used in problems but values can be stated other ways.
+ADD	skip-counting-multiplication-readiness	multiplication-introduction-arrays	soft	high	Skip counting rows is a common array strategy.
+ADD	three-digit-number-forms	number-line-to-1000	hard	medium	Placing numbers to 1000 requires reading three-digit numbers.
+ADD	equal-groups-concept-1st	repeated-addition-to-multiplication	hard	high	Repeated addition is adding equal groups.
+ADD	arrays-2nd-grade	repeated-addition-to-multiplication	soft	high	Arrays model repeated addition but are not required.
+JUDGE	bar-graphs-3rd	scaled-bar-graphs	-	high	Duplicate topics with the same title in 2nd and 3rd grade; merge question.
+ADD	category-data-collection	scaled-bar-graphs	soft	medium	B draws collected data into graphs; staged in a later course but same stage.
+ADD	collecting-and-organizing-data-3rd	scaled-bar-graphs	soft	medium	B has students graph collected data.
+ADD	category-data-collection	scaled-picture-graphs	soft	medium	Categorical data is what picture graphs display.
+ADD	collecting-and-organizing-data-3rd	scaled-picture-graphs	soft	medium	Organized data feeds picture graphs.
+JUDGE	picture-graphs-3rd	scaled-picture-graphs	-	high	Duplicate scaled-picture-graph topics in 2nd and 3rd grade; merge question.
+ADD	time-to-half-hour-practice	telling-time-to-5-minutes	soft	medium	Half-hour reading helps but hour reading is the core need.
+ADD	time-to-hour-practice	telling-time-to-5-minutes	hard	high	Reading the hour hand is required for any clock time.
+ADD	two-digit-addition-with-regrouping	three-digit-addition	hard	high	Three-digit addition extends regrouping.
+ADD	two-digit-subtraction-with-regrouping	three-digit-subtraction	hard	high	Three-digit subtraction extends regrouping.
+ADD	perimeter-understanding-2nd	area-and-perimeter-problems	hard	high	Problems require knowing what perimeter is.
+ADD	partition-shapes-equal-parts	area-by-counting-squares	soft	medium	Partitioning into equal squares supports unit-square counting.
+ADD	division-as-equal-sharing	division-facts-within-100	soft	medium	One meaning of division; helpful for facts.
+ADD	division-as-grouping	division-facts-within-100	soft	medium	One meaning of division; helpful for facts.
+ADD	division-as-inverse-multiplication-3rd	division-facts-within-100	hard	high	Division facts within 100 are learned via related multiplication facts.
+ADD	multiplication-facts-within-100	division-facts-within-100	hard	high	Division facts depend on multiplication facts.
+DROP	division-with-remainders-3rd	division-facts-within-100-3rd	-	high	Remainders build on division facts, not the reverse.
+ADD	division-as-equal-sharing	division-word-problems	soft	medium	Sharing is one situation type in division problems.
+ADD	partition-shapes-equal-parts	fractions-sixths-eighths	hard	medium	Sixths and eighths are named equal partitions.
+ADD	division-word-problems	multi-step-word-problems-3rd	soft	medium	Multi-step problems combine one-step problem types.
+ADD	multiplication-word-problems	multi-step-word-problems-3rd	soft	medium	Multi-step problems combine one-step problem types.
+ADD	remainders-and-quotients-3rd	multi-step-word-problems-3rd	soft	medium	Some multi-step problems involve remainders.
+ADD	division-facts-2nd-grade	multiplication-division-relationship	soft	medium	Knowing some division facts helps relate the operations.
+ADD	division-as-equal-sharing	multiplication-division-relationship	soft	medium	A meaning of division helps link it to multiplication.
+ADD	picture-graph-simple	picture-graphs-3rd	hard	medium	Scaled pictographs extend basic picture graphs.
+ADD	associative-property-multiplication	two-digit-by-one-digit-multiplication	soft	medium	B uses the distributive property mainly; associativity helps with tens.
+JUDGE	two-digit-multiplication-one-digit-3rd	two-digit-by-one-digit-multiplication	-	high	Duplicate 3rd-grade topics on the same skill; merge question.
+ADD	equal-parts-and-whole-shapes	unit-fractions	hard	high	A unit fraction is one of b equal parts.
+ADD	multiplication-division-fact-families	unknown-factor-problems	soft	high	Fact families help find unknown factors.
+ADD	multiplication-division-relationship	unknown-factor-problems	hard	high	Unknown-factor problems rest on the multiplication-division relationship.
+ADD	equivalent-fractions-intro-3rd	adding-fractions-like-denominators	soft	medium	Useful for simplifying sums, not needed to add.
+ADD	fractions-of-a-set-comparison-3rd	adding-fractions-like-denominators	soft	medium	Non-unit fraction sense helps; not required.
+ADD	area-of-irregular-shapes-3rd	area-of-rectangles	soft	medium	Unit-square area understanding supports the formula.
+ADD	multiplication-arrays-3rd	area-of-rectangles	hard	medium	Area = length x width is the array model of multiplication.
+ADD	multiplication-strategies-arrays-3rd	area-of-rectangles	soft	medium	Array strategies support area, overlaps the arrays topic.
+ADD	multi-digit-multiplication	area-of-rectangles	soft	high	Needed only for larger side lengths.
+ADD	intro-to-fractions-4th-grade	comparing-fractions	hard	high	Comparing fractions requires fraction meaning.
+DROP	estimating-length-2nd	estimation-strategies	-	medium	B is numerical estimation (rounding), with no measurement content.
+ADD	estimation-products-3rd	estimation-strategies	soft	high	Estimating products is a precursor estimation skill.
+ADD	fractions-sixths-eighths	fractions-on-number-line	soft	medium	More denominators help, but halves/fourths suffice.
+ADD	picture-graph-creation-interpretation	interpreting-data-bar-graphs	soft	medium	Earlier graph reading helps.
+ADD	bar-graphs-read-create-2nd	interpreting-data-bar-graphs	hard	medium	Interpreting bar graphs requires reading them.
+JUDGE	line-symmetry-3rd	line-symmetry	-	high	Duplicate line-symmetry topics in 3rd and 4th grade; merge question.
+DROP	measuring-length-nonstandard-units-1st	measurement-conversions-customary	-	medium	Conversions rely on standard units and multiplication, not nonstandard units.
+DROP	weight-or-mass-comparison-1st	measurement-conversions-metric	-	medium	Metric conversion relies on units and place value, not direct weight comparison.
+ADD	intro-to-fractions-4th-grade	mixed-numbers-and-improper-fractions	hard	high	Mixed numbers require fraction meaning.
+ADD	equal-groups-2nd-grade	multi-digit-multiplication	soft	medium	Distant conceptual root; helps but not direct.
+ADD	associative-property-multiplication-3rd	multi-digit-multiplication	soft	medium	Used in multiplying by multiples of ten.
+ADD	patterns-in-addition-and-multiplication-3rd	patterns-and-sequences	soft	high	Earlier arithmetic patterns support sequence rules.
+ADD	perimeter-finding-regular-shapes-3rd	perimeter	soft	medium	Heavy overlap; 3rd-grade rectangle perimeter precedes the 4th-grade formula topic.
+ADD	adding-fractions-like-denominators	adding-fractions-unlike-denominators	hard	high	Unlike denominators reduce to like denominators.
+ADD	shape-attributes-2d	classifying-2d-shapes	hard	high	Classification is by attributes.
+ADD	shapes-2d-attributes-3rd	classifying-quadrilaterals	hard	high	Quadrilateral classes are defined by attributes.
+ADD	classifying-angles	classifying-triangles	hard	high	Acute/right/obtuse triangles require angle classes.
+ADD	intro-to-decimals	comparing-decimals	hard	high	Comparing decimals requires decimal meaning.
+DROP	positional-words	coordinate-plane-intro	-	medium	Coordinate plane relies on number lines and ordered pairs, not K positional language.
+ADD	fractions-as-division	dividing-decimals	soft	medium	Helps interpret quotients; not required for decimal division.
+ADD	division-facts-within-100	fractions-as-division	hard	medium	Interpreting a/b as a divided by b requires division.
+DROP	ordering-numbers-1-to-20	number-patterns-and-relationships	-	high	Too distant; 5th-grade patterns do not draw on ordering to 20.
+ADD	subtracting-fractions-like-denominators	subtracting-fractions-unlike-denominators	hard	high	Unlike denominators reduce to like denominators.
+ADD	adding-fractions-like-denominators-5th	subtracting-fractions-unlike-denominators	hard	high	Like-denominator subtraction is the final step.
+ADD	distributive-property-intro	writing-numerical-expressions	soft	medium	Expressions like 2 x (8 + 7) use it but do not require it.
+ADD	order-of-operations	writing-numerical-expressions	hard	medium	Interpreting expressions requires parentheses and operation order.
+ADD	cosets-and-lagrange-theorem	class-equation	hard	high	Class sizes are indices of centralizers.
+ADD	group-actions	class-equation	hard	high	Class equation comes from the conjugation action.
+ADD	cyclic-groups	classification-finite-abelian-groups	hard	high	Classification is as products of cyclic groups.
+ADD	basic-group-properties	cosets-and-lagrange-theorem	hard	high	Cosets need group axioms and basic properties.
+DROP	group-homomorphisms	cosets-lagrange-theorem	-	medium	Lagrange's theorem does not use homomorphisms.
+ADD	group-basic-properties	cyclic-groups	hard	high	Cyclic groups are a class of groups.
+ADD	cycle-notation-decomposition	dihedral-groups	soft	medium	Useful for writing dihedral elements as permutations.
+ADD	permutation-groups	dihedral-groups	soft	medium	Dihedral groups embed in S_n but can be taught as symmetries.
+ADD	irreducibility-criteria	field-extensions	soft	medium	F[x]/(p) needs irreducible p; criteria help but are not required.
+ADD	field-definition-examples	finite-fields	hard	high	Finite fields are fields.
+ADD	group-isomorphisms	first-isomorphism-theorem-groups	hard	high	The theorem asserts an isomorphism.
+ADD	normal-subgroups	first-isomorphism-theorem-groups	hard	high	The kernel is a normal subgroup and G/K needs normality.
+ADD	splitting-fields	galois-groups	hard	high	Galois groups are of splitting fields.
+ADD	dihedral-groups	group-actions	soft	medium	A standard example of an action.
+ADD	quotient-rings	integral-domains	soft	medium	R/P is a domain iff P prime; definition does not need it.
+ADD	cosets-and-lagrange-theorem	normal-subgroups	hard	high	Normality is defined via left and right cosets.
+ADD	dihedral-groups	normal-subgroups	soft	medium	Source of examples and non-examples.
+ADD	group-homomorphisms	normal-subgroups	soft	high	Kernels motivate normal subgroups.
+ADD	subgroups-and-subgroup-test	normal-subgroups	hard	high	Normal subgroups are subgroups.
+ADD	subgroups-subgroup-test	normal-subgroups	hard	high	Normal subgroups are subgroups (A is a duplicate of subgroups-and-subgroup-test).
+ADD	cosets-lagrange-theorem	quotient-groups	hard	high	Quotient groups are sets of cosets.
+ADD	ring-homomorphisms	quotient-rings	soft	high	Kernels and the projection map motivate quotients.
+ADD	quotient-groups	second-isomorphism-theorem-groups	hard	high	The theorem is about quotient groups.
+ADD	permutation-groups	sign-permutation	hard	high	Sign is a homomorphism on S_n.
+ADD	field-extensions	splitting-fields	hard	high	A splitting field is a field extension.
+ADD	ring-definition-examples	subrings-ideals	hard	high	Subrings and ideals are inside rings.
+ADD	orbit-stabilizer-theorem	sylow-theorems	hard	medium	Standard Sylow proofs use orbit counting of group actions.
+ADD	order-group-element	sylow-theorems	soft	medium	Element orders are used but subgroup orders are central.
+ADD	order-of-group-element	sylow-theorems	soft	medium	Same as order-group-element (A is a duplicate topic).
+ADD	integral-domains	unique-factorization-domains	hard	high	A UFD is an integral domain.
+ADD	solving-inequalities	absolute-value-inequalities	hard	high	Absolute value inequalities reduce to compound linear inequalities.
+ADD	absolute-value	absolute-value-inequalities	hard	high	Requires absolute value as distance.
+ADD	proportions	direct-and-inverse-variation	hard	medium	Direct variation is a proportional relationship.
+ADD	two-step-equations	equations-variables-both-sides	hard	high	Collecting variables reduces to a two-step equation.
+ADD	multiplying-polynomials	factoring-difference-of-squares	hard	medium	Factoring reverses the (a+b)(a-b) product.
+ADD	multiplying-polynomials	factoring-trinomials	hard	medium	Factoring reverses binomial multiplication.
+ADD	arithmetic-sequences	linear-functions	soft	high	Arithmetic sequences are discrete linear functions; helpful, not required.
+ADD	exponents-intro	negative-exponents	hard	high	Negative exponents extend exponent rules.
+ADD	point-slope-form	parallel-and-perpendicular-slopes	soft	medium	Used to write the parallel/perpendicular line.
+ADD	slope-intercept-form	parallel-and-perpendicular-slopes	soft	medium	Reading slope from y = mx + b helps; slope itself is the core need.
+ADD	one-step-equations	solving-multi-step-equations	hard	high	Multi-step equations chain one-step moves.
+ADD	factoring-difference-of-squares	solving-quadratics-by-factoring	soft	high	One factoring pattern used; not required for all cases.
+ADD	factoring-gcf	solving-quadratics-by-factoring	soft	medium	Needed for some quadratics such as x^2 + 3x = 0.
+ADD	factoring-trinomials	solving-quadratics-by-factoring	hard	high	Most factorable quadratics are trinomials.
+ADD	multiplying-binomials-foil	solving-quadratics-by-factoring	soft	medium	Used to check factorizations.
+ADD	equations-variables-both-sides	systems-substitution	hard	medium	Substitution often yields variables on both sides.
+DROP	multi-step-word-problems-3rd	systems-word-problems	-	medium	Too distant; algebra systems problems do not draw on 3rd-grade multi-step problems.
+ADD	systems-graphing	systems-word-problems	soft	medium	One solution method; substitution or elimination also work.
+ADD	exponents-intro	zero-exponent	hard	high	Zero exponent extends exponent rules.
+ADD	factorial	binomial-theorem	soft	medium	nCr formula uses factorials; Pascal's triangle avoids them.
+DROP	geometric-sequences-and-series	binomial-theorem	-	medium	The binomial theorem does not use geometric series.
+ADD	binomial-coefficients	binomial-theorem	hard	high	The theorem's coefficients are binomial coefficients.
+ADD	discriminant	complex-numbers-intro	soft	high	Negative discriminants motivate complex numbers.
+ADD	quadratic-formula	complex-numbers-intro	soft	high	Complex roots arise from the formula.
+ADD	synthetic-division	factor-theorem	soft	high	A tool for testing roots; not required for the theorem.
+ADD	systems-word-problems	linear-programming	soft	high	Modeling constraints from context is shared.
+DROP	systems-of-three-variables	matrix-operations	-	medium	Matrix operations do not draw on three-variable systems.
+ADD	exponential-functions-and-graphs	natural-logarithm-and-e	hard	high	ln is the inverse of e^x.
+DROP	distribution-shape-skewness-kurtosis	normal-distribution-intro	-	medium	Intro normal distribution does not need skewness or kurtosis.
+ADD	homology-of-spheres	brouwer-fixed-point-theorem-homological	hard	high	The proof uses H_n(S^n) and the disk.
+DROP	chain-homotopy-equivalence	five-lemma	-	medium	The five lemma is a diagram chase on exact sequences, not chain homotopy.
+ADD	relative-homology-long-exact-sequence	homology-of-spheres	soft	medium	One computation route; Mayer-Vietoris is an alternative.
+ADD	cellular-homology	homology-with-coefficients	soft	medium	Cellular chains make coefficient computations easy.
+ADD	poincare-duality	lefschetz-fixed-point-theorem	soft	medium	Used in some proofs, not in the standard trace proof.
+ADD	cochain-complexes-cohomology	universal-coefficient-theorem	hard	high	UCT relates homology and cohomology.
+ADD	constant-multiple-and-sum-rules	antiderivatives	soft	medium	Antiderivative linearity mirrors these rules.
+ADD	piecewise-functions	continuity-definition	soft	high	Common source of continuity examples.
+ADD	derivative-as-slope-of-tangent	curve-sketching	hard	high	Curve sketching reads behavior from derivatives.
+DROP	natural-logarithm-and-e	derivative-as-slope-of-tangent	-	high	The derivative concept does not need ln or e.
+ADD	rates-of-change-preview	derivative-as-slope-of-tangent	hard	high	Tangent slope is the limit of secant slopes.
+ADD	inverse-functions-review	derivatives-of-logarithmic-functions	soft	high	ln as inverse of e^x is used to derive d/dx ln x.
+ADD	definite-integral-definition	fundamental-theorem-of-calculus-part-2	hard	high	FTC2 evaluates definite integrals.
+DROP	natural-logarithm-and-e	limit-definition-intuitive	-	high	Intuitive limits do not need ln or e.
+ADD	limits-intuitive-introduction	limit-laws	hard	high	Limit laws operate on limits.
+ADD	parametric-equations-intro	arc-length-parametric	hard	high	B is arc length of parametric curves.
+ADD	improper-integrals-convergence	comparison-test	soft	medium	Parallel comparison for integrals; helpful, not needed for series.
+ADD	p-series	limit-comparison-test	soft	high	p-series are the usual comparison targets.
+ADD	polar-graphs	polar-arc-length	hard	high	B is arc length of polar curves.
+ADD	geometric-series	radius-and-interval-of-convergence	soft	high	The geometric series is the model example.
+DROP	limit-superior-inferior	ratio-test	-	high	Calc-2 ratio test uses plain limits; limsup is a later refinement.
+DROP	limit-superior-inferior	root-test	-	high	Calc-2 root test uses plain limits; limsup is a later refinement.
+ADD	geometric-sequences-and-series	series-definition-and-partial-sums	soft	high	Finite geometric sums preview partial sums.
+ADD	sequences-and-series-review	series-definition-and-partial-sums	soft	high	Precalc sequence and sigma notation review helps.
+ADD	taylor-series	taylor-series-common-functions	hard	high	B applies the general Taylor series.
+ADD	derivatives-of-trigonometric-functions	trigonometric-integrals	soft	medium	Trig antiderivatives come from trig derivatives.
+ADD	u-substitution	trigonometric-substitution	hard	medium	Trig substitution is a substitution technique.
+ADD	dot-product-precalculus	work-as-integral	soft	medium	W = F . d motivates work; 1D integrals do not need it.
+ADD	ca-flatness	ca-completion	soft	medium	Flatness of completions is a key property.
+ADD	ca-flatness	ca-going-up-going-down	soft	high	Going down holds for flat extensions.
+ADD	ca-local-rings	ca-going-up-going-down	soft	medium	Proofs localize at primes.
+ADD	ca-ideal-operations	ca-krull-dimension	soft	medium	Dimension uses prime chains; ideal operations help.
+ADD	ca-flatness	ca-regular-sequences	soft	medium	Regular sequences behave well under flat base change.
+ADD	ca-going-up-going-down	ca-valuation-rings	soft	medium	Valuation rings dominate local rings; links to lying over.
+ADD	residues-definition-computation	argument-principle	hard	medium	The argument principle is the residue theorem applied to f'/f.
+ADD	singularities-classification	argument-principle	soft	medium	Zeros and poles are the singularities of f'/f.
+ADD	complex-differentiability	cauchy-riemann-equations	hard	high	CR equations characterize complex differentiability.
+ADD	complex-line-integrals	cauchys-theorem	hard	high	Cauchy's theorem is about contour integrals.
+ADD	topological-spaces-complex-plane	cauchys-theorem	soft	high	Simply connected domains need topology.
+ADD	complex-functions-mappings	complex-differentiability	hard	high	Differentiability is a property of complex functions.
+ADD	modulus-and-argument	complex-exponential-form	hard	high	re^{i theta} uses modulus and argument.
+ADD	complex-exponential-form	complex-logarithm-branch-cuts	hard	high	log z inverts the exponential form.
+ADD	complex-trigonometric-functions	evaluating-integrals-residues	soft	medium	Trig integrals convert via complex exponentials.
+ADD	cauchy-riemann-equations	harmonic-conjugates	hard	high	Harmonic conjugates are built from CR equations.
+ADD	limits-continuity-complex-functions	holomorphic-functions	hard	high	Holomorphy is defined via limits.
+ADD	taylor-series-complex	laurent-series	soft	high	Laurent series generalize Taylor series.
+ADD	convergence-complex-sequences	power-series-complex-plane	hard	high	Power series convergence needs sequence convergence.
+ADD	cauchys-integral-formula	taylor-series-complex	hard	medium	Analyticity of holomorphic functions is proved via the integral formula.
+ADD	holomorphic-functions	taylor-series-complex	hard	high	B expands holomorphic functions.
+ADD	existence-uniqueness-ode	autonomous-equations	soft	medium	Uniqueness explains why solutions do not cross equilibria.
+DROP	unit-step-function	convolution-theorem	-	medium	The convolution theorem does not use step functions.
+ADD	differential-equations-intro	first-order-linear-odes	hard	high	Intro ODE vocabulary is required.
+ADD	first-order-linear-odes	higher-order-linear-odes	soft	medium	Linearity carries over; first-order methods not required.
+ADD	laplace-transform-definition	inverse-laplace-transform	hard	high	Inversion requires the transform.
+DROP	rlc-circuits	laplace-transform-of-derivatives	-	medium	RLC is an application, not a foundation, of Laplace of derivatives.
+ADD	wave-equation-pde	laplaces-equation	soft	medium	Shared separation-of-variables method; either can come first.
+ADD	differential-equations-intro	separable-differential-equations	hard	high	Intro ODE vocabulary is required.
+DROP	dirac-delta-function	systems-of-first-order-linear-odes	-	high	Systems of linear ODEs do not use the delta function.
+ADD	second-order-linear-homogeneous-odes	wronskian-linear-independence	soft	medium	Wronskian is applied to solution sets; definable without it.
+DROP	boolean-functions-and-circuits	algorithm-complexity-discrete	-	high	Big-O does not draw on boolean circuits.
+DROP	hamiltonian-cycles-discrete	algorithm-complexity-discrete	-	medium	Complexity basics do not need Hamiltonian cycles; reverse is likelier.
+ADD	permutations-arrangements-discrete	binomial-theorem-discrete	soft	medium	Counting arrangements helps derive coefficients.
+ADD	euclidean-algorithm	chinese-remainder-theorem	hard	medium	Constructing CRT solutions needs modular inverses via Euclid.
+ADD	modular-arithmetic-congruences	chinese-remainder-theorem	hard	high	CRT is about systems of congruences.
+ADD	modular-arithmetic	chinese-remainder-theorem	hard	high	CRT is about systems of congruences (A duplicates modular-arithmetic-congruences).
+ADD	counting-principles-fundamentals	combinations-and-selections	hard	high	Combinations derive from the multiplication principle.
+ADD	counting-fundamentals-discrete	combinations-selections-discrete	hard	high	Combinations derive from the multiplication principle.
+ADD	graph-matrices-representations	connectivity-components-discrete	soft	medium	Matrix methods can detect connectivity; not required.
+ADD	discrete-math-overview	counting-fundamentals-discrete	soft	medium	Orientation only.
+ADD	mathematical-proof-strategies	counting-fundamentals-discrete	soft	medium	Counting arguments use proof techniques; not required.
+ADD	counting-principles	derangements	soft	medium	Derangements use inclusion-exclusion; basic counting helps.
+ADD	graph-connectivity-components	euler-paths-circuits	hard	medium	The Euler characterization assumes a connected graph.
+ADD	discrete-math-overview	formal-logic-propositions	soft	medium	Orientation only.
+DROP	inclusion-exclusion-principle	generating-functions-discrete	-	medium	Generating functions do not draw on inclusion-exclusion.
+DROP	inclusion-exclusion-advanced	generating-functions-intro	-	medium	Generating functions do not draw on inclusion-exclusion.
+ADD	linear-recurrences-homogeneous	generating-functions-intro	soft	high	Solving recurrences is a main use of generating functions.
+DROP	graph-traversal-algorithms	graph-coloring-discrete	-	medium	Coloring concepts do not need DFS/BFS.
+DROP	pigeonhole-principle-discrete	graph-connectivity-components	-	high	Connectivity does not draw on the pigeonhole principle.
+DROP	pigeonhole-and-counting	graph-fundamentals-discrete	-	high	Basic graph terms do not draw on pigeonhole.
+ADD	trees-and-tree-properties	graph-traversal-algorithms	soft	medium	DFS/BFS produce trees; helps but the reverse is equally common.
+DROP	bipartite-graphs-matching	hamiltonian-cycles-discrete	-	medium	Hamiltonian cycles do not draw on matchings.
+ADD	euler-paths-circuits	hamiltonian-paths-cycles	soft	high	The Euler contrast motivates Hamiltonian problems.
+ADD	binomial-theorem-discrete	inclusion-exclusion-advanced	soft	medium	The binomial identity is used in the counting proof.
+DROP	multinomial-theorem	inclusion-exclusion-principle	-	medium	Inclusion-exclusion does not use multinomials.
+ADD	trees-in-graph-theory	minimum-spanning-trees	hard	high	MSTs are spanning trees.
+ADD	combinations-and-selections	multinomial-theorem	hard	high	Multinomial coefficients generalize combinations.
+ADD	linear-congruences-discrete	multiplicative-inverse-modular	soft	medium	Inverse is ax = 1 mod n; the dominant direction may be reversed.
+ADD	discrete-math-overview	set-relations-functions-discrete	soft	medium	Orientation only.
+ADD	cycle-detection-directed-graphs	strongly-connected-components	soft	medium	SCCs relate to directed cycles.
+ADD	directed-acyclic-graphs-discrete-math	topological-sorting	hard	high	Topological orders exist exactly for DAGs.
+ADD	strongly-connected-components	topological-sorting	soft	medium	The condensation DAG links them.
+ADD	graph-theory-intro	trees-in-graph-theory	hard	high	Trees are graphs.
+DROP	area-of-trapezoids	area-of-regular-polygons	-	medium	Regular polygon area uses triangles and apothem, not trapezoids.
+DROP	corresponding-angles	coordinate-geometry-proofs	-	medium	Coordinate proofs use slope and distance, not angle theorems.
+ADD	circle-basics	inscribed-angles	hard	high	Inscribed angles use chords and arcs.
+ADD	triangle-congruence-asa-aas	isosceles-triangle-theorem	soft	medium	One proof route; SAS or SSS also work.
+ADD	angle-basics-and-classification	parallel-lines-and-transversals	hard	high	Transversal angle pairs need angle basics.
+ADD	radical-expressions-simplifying	segment-and-distance	soft	high	Distances often simplify to radicals.
+ADD	scale-drawings-and-maps	similar-triangles-aa	soft	high	Scale factor intuition supports similarity.
+ADD	angle-pairs	triangle-angle-sum	soft	medium	The proof uses supplementary angles on a line.
+ADD	corresponding-angles	triangle-angle-sum	soft	medium	The proof uses parallel-line angle relations (usually alternate interior).
+ADD	volume-of-prisms-and-cylinders	volume-of-spheres	soft	medium	Cavalieri cylinder comparison helps.
+ADD	degree-sequences-erdos-gallai	extremal-graph-theory	soft	medium	Degree counting is a common extremal tool.
+ADD	turan-theorem	extremal-graph-theory	soft	high	B surveys Turán as its classical result.
+ADD	kuratowskis-theorem	graph-minors	soft	high	The classic forbidden-structure example.
+ADD	wagners-theorem	graph-minors	soft	high	Planarity by forbidden minors motivates the theory.
+DROP	degree-sequences-erdos-gallai	graph-operations-and-products	-	medium	Graph operations do not need Erdős–Gallai.
+ADD	bipartite-matching	konigs-theorem	hard	high	König's theorem is about bipartite matchings.
+ADD	edge-coloring-vizings-theorem	list-coloring	soft	medium	List edge coloring generalizes edge coloring.
+ADD	adjacency-matrix-graphs	matrix-tree-theorem	soft	medium	The Laplacian is built from the adjacency matrix.
+ADD	adjacency-matrix	matrix-tree-theorem	soft	medium	The Laplacian is built from the adjacency matrix.
+ADD	graph-laplacian-spectrum	matrix-tree-theorem	hard	high	The theorem uses Laplacian cofactors.
+ADD	network-flows	mengers-theorem	soft	high	A standard proof uses max-flow.
+DROP	konig-theorem	network-flows-max-flow-min-cut	-	medium	Max-flow min-cut implies König, not the reverse.
+DROP	integer-partitions	polya-enumeration-theorem	-	medium	Pólya counts orbits under group actions, not partitions.
+ADD	turan-theorem	probabilistic-method-graphs	soft	medium	Caro–Wei / Turán bounds are a classic probabilistic example.
+ADD	counting-sequence-to-five	cardinality-principle	hard	high	Cardinality is about the last number counted.
+DROP	number-zero-concept	cardinality-principle	-	medium	Cardinality does not need zero.
+ADD	numeral-recognition-and-matching-0-10	cardinality-principle	soft	medium	Matching numerals to counts helps.
+ADD	comparing-quantities	combining-small-groups	soft	medium	Quantity sense helps.
+ADD	subitizing	combining-small-groups	soft	high	Instant recognition speeds combining.
+ADD	understanding-zero	comparing-quantities-more-less	soft	medium	Zero as a quantity enters comparisons.
+DROP	number-zero-concept	counting-to-10	-	medium	Counting to 10 starts at one.
+ADD	abc-repeating-patterns	extending-and-creating-patterns	soft	high	ABC patterns are a case of extending patterns.
+JUDGE	comparing-lengths-longer-shorter	measurement-comparison-length	-	high	Duplicate K topics on the same skill; merge question.
+JUDGE	comparing-weights-heavier-lighter	measurement-comparison-weight	-	high	Duplicate K topics on the same skill; merge question.
+ADD	understanding-zero	numeral-recognition-0-10	soft	medium	The numeral 0 needs the zero concept.
+JUDGE	ordinal-position-language	ordinal-numbers-first-through-tenth	-	high	Duplicate K topics on the same skill; merge question.
+ADD	classifying-and-sorting-shapes	sorting-by-attributes	soft	medium	Heavy overlap; shape sorting is one case of sorting by attributes.
+DROP	counting-to-five	subitizing-to-five	-	medium	Subitizing is perceptual and usually precedes counting.
+ADD	iterative-methods-linear-systems	applications-linear-algebra-modeling	soft	medium	One tool used in modeling.
+ADD	matrix-exponential	applications-linear-algebra-modeling	soft	medium	One tool used in modeling.
+ADD	subspaces	basis-and-dimension	hard	medium	Dimension of subspaces is a core use.
+ADD	vector-spaces	basis-and-dimension	hard	high	Basis is defined for vector spaces.
+ADD	scalar-multiplication	basis-definition	hard	high	A basis uses linear combinations.

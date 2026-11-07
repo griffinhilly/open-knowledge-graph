@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: linear-response-theory-statmech
   type: hard
+- id: time-correlation-functions
+  type: hard
 builds-toward:
 - transport-coefficients-viscosity
 - thermal-conductivity-kinetic

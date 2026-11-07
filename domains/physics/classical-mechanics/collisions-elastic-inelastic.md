@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: conservation-of-energy
   type: soft
+- id: kinetic-energy
+  type: hard
 tags:
 - collisions
 - elastic

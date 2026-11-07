@@ -1,0 +1,83 @@
+ADD	myth-definition-cultural-narrative	legend-oral-narrative-type	soft	high	Legend is defined by contrast with myth (its questions ask what separates legend from myth).
+ADD	folklore-definition-traditions	legend-oral-narrative-type	soft	medium	Legend is one oral narrative genre within folklore.
+ADD	understanding-genres	myth-definition-cultural-narrative	soft	medium	Myth is framed as a narrative form distinct from history and fiction; genre awareness helps.
+ADD	symbolism-intro-basics	myth-definition-cultural-narrative	soft	medium	Myths are described as symbolic narratives working on a metaphorical level.
+ADD	shapes-2d-attributes-3rd	points-lines-rays-segments	soft	medium	Sides of shapes are the first segments students meet.
+ADD	measuring-length-with-ruler-2nd-grade	points-lines-rays-segments	soft	medium	Segments are drawn with rulers and defined by having a definite length.
+ADD	cartesian-product	counting-principles-fundamentals	soft	medium	The multiplication principle counts pairs, i.e. |A x B| = |A||B|.
+ADD	multiplication-strategies-arrays-3rd	counting-principles-fundamentals	soft	medium	The m x n array model of multiplication is the concrete base of the principle.
+NONE	-	discrete-math-overview	-	medium	Course-opening survey; it introduces the material rather than drawing on prior topics.
+ADD	matrices-intro	matrices-definition	soft	high	Algebra 2 introduction to matrices as arrays precedes the formal linear-algebra definition.
+ADD	vectors-in-two-dimensions	vectors-in-rn	soft	high	R^n vectors generalize 2D vectors.
+NONE	-	set-theory-basics	-	medium	Foundational entry point for proof courses; no earlier set topic exists in the graph.
+ADD	truth-values-and-statements	statements-and-logical-connectives	soft	medium	Connectives combine statements with truth values (near-duplicate topics; dedupe may be better).
+NONE	-	truth-values-and-statements	-	medium	Entry point of formal logic; defines what a statement is.
+ADD	coordinate-plane-all-four-quadrants	3d-coordinate-systems	hard	high	3D coordinates explicitly extend the 2D coordinate plane by a third axis.
+ADD	category-data-collection	categorical-vs-quantitative-data	soft	medium	Earlier work with categorical data grounds the distinction.
+ADD	line-plots-measurement-data	categorical-vs-quantitative-data	soft	medium	Measurement data on line plots is the earlier encounter with quantitative data.
+ADD	standard-normal-z-scores-theory	chi-square-distribution-theory	hard	high	Chi-square is defined as the sum of squared independent standard normals.
+ADD	probability-density-functions-theory	chi-square-distribution-theory	soft	medium	Chi-square is a continuous distribution described by a density.
+ADD	variance-of-random-variables	chi-square-distribution-theory	soft	medium	Core idea states E and Var of chi-square(k).
+ADD	set-theory-basics	sample-spaces-and-events	soft	high	Events are defined as subsets of the sample space.
+ADD	simple-probability	sample-spaces-and-events	soft	medium	Prealgebra probability with coins and dice precedes formal sample spaces.
+ADD	coordinate-plane-all-four-quadrants	scatterplots-and-correlation	hard	high	Scatterplots plot paired (x, y) observations on a coordinate plane.
+ADD	categorical-vs-quantitative-data	scatterplots-and-correlation	soft	medium	Scatterplots apply to two quantitative variables.
+ADD	slope-concept	scatterplots-and-correlation	soft	medium	Positive or negative linear association reads like slope direction.
+ADD	properties-of-operations	ordered-field-axioms	soft	high	Field axioms formalize commutativity, associativity and distributivity met in prealgebra.
+ADD	solving-inequalities	ordered-field-axioms	soft	medium	Order axioms formalize familiar rules for manipulating inequalities.
+ADD	direct-proof	ordered-field-axioms	soft	medium	Real-analysis use of the axioms is deriving consequences by proof.
+ADD	triad-construction-major-minor	doubling-rules-root-fifth-third	hard	high	Doubling choices refer to root, third and fifth of major and minor triads (note: topic staged abstract-reasoning while all triad topics are formal-systems).
+ADD	voice-leading-parallel-perfect-intervals	doubling-rules-root-fifth-third	soft	medium	Doubling rules are justified by avoiding parallel octaves.
+ADD	triad-voicing-and-spacing	voice-spacing-rules-registers	soft	high	Close vs open triad spacing precedes SATB spacing rules.
+ADD	primary-sources	music-historical-methodology	soft	high	Method centres on reading primary sources and their survival biases.
+ADD	what-is-history	music-historical-methodology	soft	medium	General historical method underlies music-history method.
+ADD	what-is-history	music-history-overview	soft	medium	Overview presumes the idea of studying change over time from evidence.
+ADD	communitarianism	african-philosophy-ubuntu	soft	medium	Ubuntu is framed as a communal alternative to Western individualism.
+ADD	normative-ethics-overview	african-philosophy-ubuntu	soft	medium	Ubuntu offers an alternative ethics of personhood and obligation.
+ADD	foucault-power-knowledge-continental	agamben-bare-life	soft	high	Agamben explicitly builds on Foucault's biopolitics.
+ADD	hobbes-absolute-sovereign	agamben-bare-life	soft	medium	Bare life is a theory of sovereign power; classical sovereignty is the backdrop.
+ADD	marx-historical-materialism	arendt-human-condition	soft	medium	Arendt's labor/work/action scheme is set against Marx's privileging of labor.
+ADD	confucianism-ancient-philosophy	asian-philosophy-overview	soft	medium	Overview treats Confucianism philosophically; historical introduction helps.
+ADD	taoism-ancient-philosophy	asian-philosophy-overview	soft	medium	Overview treats Taoism philosophically; historical introduction helps.
+ADD	post-structuralism-overview	badiou-event-truth	soft	medium	Badiou is positioned against postmodern skepticism about truth.
+ADD	phenomenology-husserl	continental-philosophy-of-religion	soft	high	Field is defined as applying phenomenological method to religion.
+ADD	hermeneutics-gadamer	continental-philosophy-of-religion	soft	medium	Field applies hermeneutic interpretation to religious experience.
+ADD	austin-speech-acts	judith-butler-gender-performativity	soft	high	Butler's performativity adapts Austin's performative utterances.
+ADD	beauvoir-ethics-of-ambiguity	judith-butler-gender-performativity	soft	medium	Beauvoir's Second Sex claim that one becomes a woman is the classic precursor.
+ADD	foucault-power-knowledge-continental	judith-butler-gender-performativity	soft	medium	Butler draws on Foucault's account of norms and discursive power.
+ADD	postcolonial-philosophy	latin-american-philosophy	soft	medium	Latin American philosophy centres colonialism, epistemicide and Eurocentrism critique.
+ADD	phenomenology-husserl	levinas-ethics-of-the-other	soft	medium	Levinas works within and against phenomenology (note: near-duplicate of levinas-ethics-as-first-philosophy).
+ADD	heidegger-being-and-time	levinas-ethics-of-the-other	soft	medium	Ethics as prior to ontology is a direct reply to Heidegger.
+ADD	heidegger-being-and-time	nancy-being-singular-plural	soft	high	Nancy radicalizes Heidegger's being-with (Mitsein) and critique of presence.
+ADD	phenomenology-husserl	phenomenology-of-race	soft	high	Topic applies phenomenological method to racialized experience.
+ADD	merleau-ponty-embodied-perception	phenomenology-of-race	soft	high	Fanon-style analysis of the lived racialized body extends Merleau-Ponty's embodiment.
+ADD	right-and-wrong	consequences-in-moral-evaluation	soft	medium	Basic moral judgement precedes asking what makes actions good.
+ADD	is-it-ever-ok-to-lie	consequences-in-moral-evaluation	soft	medium	The lie-to-save-a-life case is the same intuition pump used here.
+ADD	right-and-wrong	normative-vs-metaethical-questions	soft	medium	Ordinary moral judgement is what the normative/metaethical split sorts.
+ADD	fairness-and-rules	normativity-and-ought	soft	medium	Rules as standards we should follow are the concrete form of normativity.
+ADD	right-and-wrong	normativity-and-ought	soft	medium	Obligatory/forbidden builds on basic right and wrong.
+NONE	-	philosophy-of-language-intro	-	medium	Course entry point; introduces meaning and reference from scratch.
+ADD	puzzles-and-paradoxes-for-kids	vagueness-sorites-paradox	soft	medium	Earlier paradox puzzles prepare the sorites.
+ADD	modus-ponens-tollens	vagueness-sorites-paradox	soft	medium	The sorites is a chain of modus ponens steps that classical logic appears to validate.
+ADD	thinking-about-thinking	philosophy-of-mind-introduction	soft	medium	Child-level reflection on minds and thought precedes formal philosophy of mind.
+ADD	reduction-emergence-science	philosophy-of-chemistry	soft	high	Central question is whether chemistry reduces to physics or is emergent.
+ADD	bond-classification	philosophy-of-chemistry	soft	medium	Asks what a chemical bond is; basic bond knowledge is needed.
+ADD	abstract-entities-platonism	philosophy-of-mathematics-advanced	soft	high	Platonism vs nominalism about abstract objects is the core debate.
+ADD	godels-incompleteness-theorems	philosophy-of-mathematics-advanced	soft	medium	Topic addresses incompleteness and Godel's puzzle of intuition.
+ADD	natural-kinds-classification	philosophy-of-medicine	soft	medium	Is disease an objective category or social construction is a natural-kinds question.
+ADD	reduction-emergence-science	philosophy-of-medicine	soft	medium	Medical reductionism vs holism is a central issue.
+ADD	mind-body-problem-formulation	philosophy-of-psychology	soft	high	Core idea names the mind-body problem as central.
+ADD	reduction-emergence-science	philosophy-of-psychology	soft	medium	Cognitive reductionism and explanatory autonomy are core issues.
+ADD	galilean-observation-experimentation	philosophy-of-science-intro	soft	medium	Familiarity with how experimental science works precedes reflecting on it.
+ADD	deductive-validity-introduction	philosophy-of-science-intro	soft	medium	Asks what makes explanations valid; deductive validity is assumed.
+ADD	reduction-emergence-science	philosophy-of-social-science	soft	medium	Reductionism of sociology to psychology or neurobiology is a core issue.
+ADD	natural-kinds-classification	philosophy-of-social-science	soft	medium	Whether races, genders, classes are objective categories is a natural-kinds question.
+ADD	democracy-types-and-theory	science-and-democracy	soft	medium	Topic relies on democratic theory's claim that citizens decide policy.
+ADD	values-in-science	science-and-democracy	soft	medium	Expert disagreement and value-laden technical decisions build on values in science.
+ADD	deductive-nomological-explanation	scientific-explanation-models	soft	high	Causal models are presented as a departure from the D-N model.
+ADD	correlation-and-causation-distinction	scientific-explanation-models	soft	medium	Asks whether correlations without intervention can explain.
+ADD	laws-and-government-basics	rule-of-law-concept	soft	medium	Basic idea of laws and government precedes the rule-of-law principle.
+ADD	fairness-and-rules	rule-of-law-concept	soft	medium	Equal, consistent application of rules is the concrete intuition behind rule of law.
+NONE	-	asking-why	-	medium	Root of the kids' philosophy course; draws on native child curiosity.
+ADD	asking-questions-about-stories	curiosity-and-questions	soft	medium	Pre-formal question-asking during read-alouds precedes it.
+ADD	real-vs-make-believe	imagination-vs-reality	soft	high	Pre-formal real vs make-believe distinction is the same skill one stage earlier.

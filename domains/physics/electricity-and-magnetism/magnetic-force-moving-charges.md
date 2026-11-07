@@ -6,6 +6,8 @@ course: electricity-and-magnetism
 prerequisites:
 - id: transient-response-rc-circuits
   type: hard
+- id: magnetic-field-intro
+  type: hard
 builds-toward:
 - magnetic-force-current-wires
 - magnetic-field-intro

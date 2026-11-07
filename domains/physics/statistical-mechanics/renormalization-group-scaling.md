@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: critical-exponents
   type: hard
+- id: critical-phenomena-statmech
+  type: soft
 tags:
 - renormalization-group
 - scaling-flow

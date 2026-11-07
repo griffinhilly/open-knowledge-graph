@@ -6,6 +6,8 @@ course: statistical-mechanics
 prerequisites:
 - id: langevin-equation-stochastic
   type: hard
+- id: brownian-motion
+  type: soft
 builds-toward:
 - master-equation
 tags:

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: complex-exponential-form
   type: soft
+- id: wave-equation-one-dimensional
+  type: soft
 builds-toward:
 - electromagnetic-wave-polarization
 - poynting-vector-energy-flow

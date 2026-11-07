@@ -6,6 +6,8 @@ course: thermodynamics
 prerequisites:
 - id: rms-speed-and-kinetic-energy
   type: hard
+- id: kinetic-theory-of-gases
+  type: soft
 builds-toward:
 - heat-capacity-of-gases
 - adiabatic-processes

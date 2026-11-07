@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: surface-integrals-flux
   type: hard
+- id: electric-field
+  type: hard
 builds-toward:
 - maxwells-equations-overview
 - conductors-in-electrostatics

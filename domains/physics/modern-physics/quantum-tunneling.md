@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: differential-equations-intro
   type: hard
+- id: schrodinger-equation-intro
+  type: hard
 builds-toward:
 - nuclear-fission-fusion
 - radioactive-decay

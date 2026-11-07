@@ -10,8 +10,7 @@ prerequisites:
   type: soft
 - id: mutual-inductance-coupled-coils
   type: soft
-builds-toward:
-- lorentz-force-complete-em
+builds-toward: []
 tags:
 - inductance
 - rl-circuit

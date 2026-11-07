@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: newtons-second-law
   type: soft
+- id: retarded-potentials
+  type: soft
 builds-toward:
 - larmor-formula
 - multipole-expansion-radiation

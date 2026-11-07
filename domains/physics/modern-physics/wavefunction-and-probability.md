@@ -15,7 +15,6 @@ prerequisites:
 - id: schrodinger-equation-intro
   type: soft
 builds-toward:
-- schrodinger-equation-intro
 - particle-in-a-box
 tags:
 - quantum

@@ -71,3 +71,97 @@ ADD	conceptual-art-foundations	video-art-history	soft	medium	Video art grew alon
 ADD	digital-art-foundations	virtual-reality-art	soft	high	VR art is a digital medium built on digital art foundations; file body is a stub.
 ADD	installation-art	virtual-reality-art	soft	medium	Immersive VR extends installation art's immersive environment.
 ADD	interactive-art-installations	virtual-reality-art	soft	medium	VR works are interactive and respond to viewer movement.
+ADD	visual-fundamentals-elements-and-principles	design-principles-course-overview	soft	medium	The seven design principles organize visual elements that the fundamentals topic introduces.
+ADD	visual-perception-and-communication	design-principles-foundations	soft	medium	The topic says design principles emerge from human perception.
+ADD	visual-fundamentals-elements-and-principles	design-principles-foundations	soft	medium	Design principles act on the visual elements introduced in the fundamentals topic.
+ADD	engineering-design-process	design-process-and-iteration	soft	medium	The basic define-build-test-improve cycle is the simpler form of the design iteration loop.
+NONE	-	paper-selection-for-drawing	-	medium	A practical materials topic needing no prior concept.
+NONE	-	line-observation-in-nature-and-art	-	medium	Observing lines in the world is designed as a first entry into visual elements.
+NONE	-	visual-fundamentals-elements-and-principles	-	high	Course overview and foundation for visual elements and principles.
+ADD	five-senses	visual-perception-and-communication	soft	medium	Visual perception builds on the basic idea of sight as a sense.
+ADD	five-senses	observing-and-describing-matter	soft	medium	Describing matter uses the senses to observe properties.
+ADD	observing-and-describing-matter	solids-liquids-gases	soft	high	Classifying states of matter relies on observing and describing properties.
+ADD	binary-number-system	hexadecimal-number-system	hard	medium	Hex is defined as a shorthand for 4-bit binary groups; caution: creates cycle via binary-number-system -> number-base-conversion-operations -> hex, and that binary prereq looks backwards.
+ADD	place-value-whole-numbers	hexadecimal-number-system	soft	high	Base-16 positional notation generalizes base-10 place value.
+ADD	network-fundamentals	bandwidth-latency-throughput	soft	high	Latency and throughput are defined over packets and links introduced in network fundamentals.
+ADD	network-fundamentals	network-topologies	soft	high	Topologies describe arrangements of the nodes and links introduced in network fundamentals.
+ADD	network-fundamentals	osi-model-layers	hard	medium	The OSI model formalizes the layered protocol stack that network fundamentals introduces.
+ADD	file-io-basics	database-systems-introduction	soft	medium	Why databases exist is clearer after seeing the limits of plain file storage.
+ADD	network-fundamentals	distributed-systems-introduction	soft	high	Distributed systems are defined as computers communicating through networks.
+ADD	operating-systems-introduction	distributed-systems-introduction	soft	medium	Processes, concurrency and resource sharing on one machine precede reasoning across machines.
+ADD	hello-world	operating-systems-introduction	soft	medium	The OS is explained as managing the programs a learner has already written and run.
+NONE	-	hello-world	-	high	The first program is the entry point of programming fundamentals.
+ADD	hello-world	memory-and-data-storage	soft	medium	A memory model of variables follows having run a first program.
+ADD	binary-number-system	memory-and-data-storage	soft	medium	Data in memory is stored as bits.
+ADD	set-theory-basics	formal-languages-and-strings	soft	high	A formal language is defined as a set of strings over a finite alphabet set.
+ADD	string-basics	formal-languages-and-strings	soft	medium	Familiarity with strings as symbol sequences helps; formal strings abstract them.
+ADD	earths-rotation	celestial-sphere-coordinate-systems	soft	high	Equatorial coordinates are defined by Earth's rotation axis.
+ADD	melting-and-freezing	types-of-rocks	soft	medium	Igneous rock formation is explained as melted rock cooling and hardening.
+ADD	minerals-basics	types-of-rocks	soft	medium	Rocks are made of minerals; knowing minerals helps but is not needed for the three formation groups.
+ADD	wave-properties-conceptual	gravity-waves-wind-ocean-surface	soft	high	Wave height, period and speed are the basic wave properties.
+ADD	what-is-gravity	gravity-waves-wind-ocean-surface	soft	medium	Gravity is the restoring force that defines these waves.
+ADD	density-intro	ocean-temperature-structure-thermocline	soft	high	The thermocline matters because it creates a density discontinuity that blocks mixing.
+ADD	photosynthesis-intro	photic-zone-light-ocean-penetration	soft	high	The photic zone is defined by enough light for net photosynthesis.
+ADD	electromagnetic-spectrum-intro	photic-zone-light-ocean-penetration	soft	medium	Depth-dependent loss of red versus blue light relies on knowing light wavelengths.
+ADD	gravity-and-orbits-intro	tidal-equilibrium-mechanics	hard	medium	Tides are explained as the gravitational pull of Moon and Sun; the theory cannot be followed without gravity.
+ADD	moon-and-its-phases	tidal-equilibrium-mechanics	soft	medium	Spring and neap tides depend on Sun-Moon alignment, seen in lunar phases.
+ADD	scarcity-and-opportunity-cost	budget-constraint-affordability	soft	high	The budget constraint formalizes the scarcity-driven tradeoff between goods.
+ADD	standard-form-linear-equations	budget-constraint-affordability	soft	medium	The budget line I = P1Q1 + P2Q2 is a linear equation in standard form.
+ADD	scarcity-and-opportunity-cost	production-function-technology	soft	medium	Production with limited inputs rests on scarcity; note near-duplicate of production-function-microeconomics.
+ADD	function-notation-review	production-function-technology	soft	medium	Q = f(K, L) requires reading function notation.
+NONE	-	scarcity-and-opportunity-cost	-	high	Foundational entry point that many economics topics already depend on.
+ADD	scarcity-and-opportunity-cost	scarcity-choice-production-tradeoff	soft	high	Same scarcity-tradeoff idea at an earlier stage; note near-duplicate topic.
+ADD	scarcity-and-opportunity-cost	utility-consumer-preferences	soft	medium	Utility maximization models choice under scarcity.
+ADD	function-notation-review	utility-consumer-preferences	soft	medium	Utility functions assume basic function notation.
+ADD	ohms-law	circuit-element-types-and-definitions	soft	high	Resistor behavior as a voltage-current relation is Ohm's law.
+ADD	electric-current-definition	circuit-element-types-and-definitions	soft	medium	Elements are characterized by voltage-current relations, so current must be defined.
+NONE	-	what-is-engineering	-	high	Entry point of design-and-build; many topics already depend on it.
+ADD	newtons-second-law-conceptual	introduction-to-fluid-mechanics	soft	medium	Fluid mechanics applies conservation and force principles from mechanics.
+ADD	density-intro	introduction-to-fluid-mechanics	soft	medium	Density is a basic fluid property used throughout.
+ADD	multivariate-normal-distribution	kalman-filter-state-estimation	soft	high	The Kalman filter propagates Gaussian state estimates with covariances.
+ADD	state-space-representation-control	kalman-filter-state-estimation	soft	high	The filter is defined on a state-space model of the system.
+ADD	bayes-theorem	kalman-filter-state-estimation	soft	medium	Kalman updates are Bayesian prediction-correction steps.
+ADD	astar-search-algorithm	motion-planning-algorithms	soft	high	Graph-search pathfinding like A* is the core of grid-based motion planning.
+ADD	dijkstras-algorithm	motion-planning-algorithms	soft	medium	Shortest-path search underlies discrete motion planners.
+ADD	bayes-theorem	particle-filter-localization	soft	high	Particle filters approximate recursive Bayesian belief updates.
+ADD	transformation-matrices	robot-kinematics-forward-inverse	soft	high	Forward kinematics composes coordinate transforms of each link.
+ADD	right-triangle-trigonometry-intro	robot-kinematics-forward-inverse	soft	high	Joint angles to end-effector position uses sine and cosine.
+ADD	inner-product-spaces	orthogonal-signal-decomposition-basis	soft	high	Orthogonality is defined as zero inner product; note topic is staged abstract-reasoning, below its math.
+ADD	orthogonal-vectors-orthonormal-bases	orthogonal-signal-decomposition-basis	soft	high	Signal decomposition is projection onto an orthogonal basis.
+ADD	dark-ages-greece-transition	homer-epics-literature-culture	soft	high	Homer's 8th-century epics emerge from the Greek Dark Age and recall the Mycenaean past.
+ADD	oral-tradition-transmission-variation	homer-epics-literature-culture	soft	medium	The epics were oral compositions before being written down.
+ADD	ancient-china-origins	shang-bronze-vessels-ritual-objects	soft	high	The Shang dynasty overview gives the context for its ritual bronzes.
+ADD	shang-dynasty-oracle-bones	shang-bronze-vessels-ritual-objects	soft	medium	Oracle-bone divination and ancestor veneration frame the bronzes' ritual use.
+ADD	paleoanthropology-human-origins-evolution	agricultural-revolution-neolithic	soft	medium	The shift to farming is read against earlier hunter-gatherer human prehistory.
+ADD	timelines-and-sequencing	chronometric-dating-methods	soft	medium	Relative dating is about establishing sequence, built on basic timeline ordering.
+ADD	radioactive-decay	chronometric-dating-methods	soft	medium	Radiocarbon, a core absolute method, rests on radioactive decay.
+ADD	spatial-representation-maps	historical-cartography-and-map-analysis	soft	high	Reading historical maps assumes knowing how maps represent space.
+ADD	primary-sources	historical-cartography-and-map-analysis	soft	high	The topic treats maps as primary sources to be read critically.
+ADD	periodization	medieval-world-definition-periodization	soft	high	Defining the Middle Ages applies the general idea of periodization.
+ADD	fall-of-western-rome	medieval-world-definition-periodization	soft	medium	The conventional start of the medieval period is the fall of the Western Roman Empire.
+NONE	-	family-history-and-stories	-	medium	A concrete entry topic built on the learner's own family.
+ADD	family-history-and-stories	holidays-and-traditions	soft	medium	Family traditions passed down are the nearest base for community holidays and traditions.
+NONE	-	long-ago-vs-today	-	high	Entry point for comparing past and present.
+ADD	phonological-systems	sign-language-linguistics	soft	high	Sign phonology is understood by analogy to spoken phonological structure.
+ADD	morphological-structure	sign-language-linguistics	soft	medium	Simultaneous morphology and classifiers assume basic morphology.
+NONE	-	nouns-intro	-	high	Entry point of grammar; many topics depend on it.
+NONE	-	verbs-intro	-	high	Entry point of grammar; many topics depend on it.
+ADD	phonemic-awareness	articulatory-phonetics	soft	medium	Hearing individual speech sounds precedes classifying how they are produced.
+ADD	set-notation-basics	formal-linguistics-overview	soft	medium	Formal linguistics uses mathematical and logical tools such as sets.
+ADD	parts-of-speech-overview	formal-linguistics-overview	soft	medium	Formal models of grammar assume basic grammatical categories.
+ADD	articulatory-phonetics	phoneme-inventory-analysis	soft	high	Cataloguing phonemes uses place, manner and voicing classifications from articulatory phonetics.
+ADD	phonemic-awareness	phoneme-inventory-analysis	soft	medium	Minimal-pair testing builds on hearing sound contrasts.
+ADD	oral-presentation-basics	speech-anxiety-management	soft	high	It already lists speech-anxiety-management in builds-toward; basic speaking precedes managing speaking anxiety.
+ADD	managing-anxiety-and-stress	speech-anxiety-management	soft	medium	General anxiety-coping strategies like reframing and breathing are applied to speaking.
+NONE	-	board-and-concept-books-infants	-	medium	Entry subgenre of the children's literature course.
+ADD	folklore-definition-traditions	children-literature-global-traditions-cultural	soft	medium	Global children's literature includes oral storytelling traditions covered in folklore.
+ADD	author-and-illustrator-roles	picture-book-as-complete-art-form	soft	high	Picture books integrate text and image, building on the author and illustrator roles.
+ADD	visual-fundamentals-elements-and-principles	picture-book-as-complete-art-form	soft	medium	Visual composition and page design draw on basic visual elements.
+ADD	fiction-vs-nonfiction	creative-nonfiction-definition	soft	high	The genre is defined by applying fiction techniques to nonfiction.
+ADD	plot-structure	creative-nonfiction-definition	soft	medium	Narrative techniques borrowed from fiction include plot structure.
+ADD	literary-analysis-overview	critical-theory-introduction	soft	high	Critical theory moves beyond basic literary analysis of what texts say.
+NONE	-	theatrical-conventions	-	medium	Foundational drama topic; no basic drama-elements topic found to precede it.
+ADD	moral-and-lesson	fable-moral-instruction	soft	high	Fables are built around a story's moral or lesson.
+ADD	folklore-definition-traditions	fable-moral-instruction	soft	medium	Fables are a traditional folk narrative form.
+ADD	myth-definition-cultural-narrative	fable-moral-instruction	soft	medium	Fables are defined in contrast to myths.
+ADD	holidays-and-traditions	folklore-definition-traditions	soft	medium	Seasonal customs and handed-down traditions are the everyday base of folklore.

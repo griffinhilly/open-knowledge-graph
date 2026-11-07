@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: lens-power-dioptric-strength
   type: soft
+- id: thin-lenses
+  type: hard
 builds-toward:
 - optical-instruments
 tags:

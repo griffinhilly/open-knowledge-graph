@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: bose-einstein-distribution-statistics
   type: hard
+- id: chemical-potential
+  type: soft
 builds-toward:
 - superfluidity
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: photon-model
   type: hard
+- id: relativistic-momentum-energy
+  type: soft
 tags:
 - quantum
 - antiparticle

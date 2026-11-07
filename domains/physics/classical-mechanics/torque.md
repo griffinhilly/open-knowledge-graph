@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: vectors-in-two-dimensions
   type: soft
+- id: levers
+  type: soft
 builds-toward:
 - rotational-dynamics
 - angular-momentum

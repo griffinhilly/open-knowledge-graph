@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: grand-canonical-ensemble
   type: soft
+- id: quantum-statistics-intro
+  type: soft
 builds-toward:
 - bose-einstein-condensation-statmech
 - planck-distribution-blackbody

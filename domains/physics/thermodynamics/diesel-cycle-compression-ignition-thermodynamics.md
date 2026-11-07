@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: thermodynamic-processes
   type: soft
-builds-toward:
-- pv-diagram-interpretation
+builds-toward: []
 tags:
 - cycles
 - engines

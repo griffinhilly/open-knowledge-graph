@@ -14,8 +14,7 @@ prerequisites:
   type: soft
 - id: pv-diagram-interpretation
   type: soft
-builds-toward:
-- ts-diagram-entropy-temperature
+builds-toward: []
 tags:
 - cycles
 - steam-power

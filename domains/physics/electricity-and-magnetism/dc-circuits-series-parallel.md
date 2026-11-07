@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: series-circuits
   type: soft
+- id: electric-current-and-resistance
+  type: hard
 builds-toward:
 - kirchhoffs-rules
 - rc-circuits

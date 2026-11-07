@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: biot-savart-law
   type: hard
-builds-toward:
-- amperes-law
+builds-toward: []
 tags:
 - magnetism
 - forces

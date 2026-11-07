@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: faraday-induced-emf
   type: hard
+- id: magnetic-field-solenoid
+  type: soft
 builds-toward:
 - rl-transient-response
 tags:

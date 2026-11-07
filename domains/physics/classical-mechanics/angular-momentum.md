@@ -10,6 +10,12 @@ prerequisites:
   type: soft
 - id: cross-product
   type: soft
+- id: moment-of-inertia
+  type: hard
+- id: rotational-kinematics
+  type: soft
+- id: torque
+  type: soft
 builds-toward:
 - conservation-of-angular-momentum
 tags:

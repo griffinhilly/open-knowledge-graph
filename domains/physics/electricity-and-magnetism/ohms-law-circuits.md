@@ -6,6 +6,8 @@ course: electricity-and-magnetism
 prerequisites:
 - id: resistance-resistivity-temperature
   type: hard
+- id: electric-current-definition
+  type: hard
 builds-toward:
 - electromotive-force-batteries
 - kirchhoff-circuit-laws-rules

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: density-of-states-fermi-gas
   type: soft
+- id: quantum-statistics-intro
+  type: soft
 builds-toward:
 - debye-model-lattice-dynamics
 tags:

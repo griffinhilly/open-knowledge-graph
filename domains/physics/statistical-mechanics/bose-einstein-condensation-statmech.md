@@ -8,9 +8,9 @@ prerequisites:
   type: hard
 - id: order-parameter-phase-transition
   type: soft
-builds-toward:
-- phase-transition-equilibrium
-- spontaneous-symmetry-breaking
+- id: bose-einstein-distribution-statistics
+  type: soft
+builds-toward: []
 tags:
 - condensation
 - order-parameter

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: statistical-ensembles-intro
   type: hard
+- id: microstates-macrostates
+  type: hard
 builds-toward:
 - canonical-ensemble
 - partition-function-definition

@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: keplers-laws
   type: soft
-builds-toward:
-- orbital-mechanics
+builds-toward: []
 tags:
 - orbits
 - stability

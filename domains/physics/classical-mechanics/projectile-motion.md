@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: projectile-motion-conceptual
   type: soft
+- id: kinematic-equations
+  type: hard
 builds-toward:
 - circular-motion-kinematics
 tags:

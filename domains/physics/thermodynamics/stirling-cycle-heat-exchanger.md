@@ -10,8 +10,7 @@ prerequisites:
   type: soft
 - id: brayton-cycle-gas-turbine-thermodynamics
   type: soft
-builds-toward:
-- ts-diagram-entropy-temperature
+builds-toward: []
 tags:
 - cycles
 - reversible-engines

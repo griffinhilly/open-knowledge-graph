@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: definite-integral-definition
   type: hard
+- id: electric-field-superposition-principle
+  type: hard
 builds-toward:
 - gauss-law-integral-form
 - electric-flux-and-divergence

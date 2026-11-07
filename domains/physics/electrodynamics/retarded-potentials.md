@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: lorenz-gauge
   type: hard
+- id: scalar-vector-potentials
+  type: hard
 builds-toward:
 - lienard-wiechert-potentials
 - radiation-from-accelerated-charges

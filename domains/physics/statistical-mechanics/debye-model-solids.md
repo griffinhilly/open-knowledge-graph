@@ -11,7 +11,6 @@ prerequisites:
 - id: debye-model-lattice-dynamics
   type: soft
 builds-toward:
-- einstein-model-solids
 - debye-temperature
 tags:
 - solids

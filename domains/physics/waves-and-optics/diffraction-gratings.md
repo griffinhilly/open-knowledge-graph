@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: multiple-slit-grating-equation
   type: soft
+- id: two-source-interference-patterns
+  type: soft
 tags:
 - diffraction grating
 - spectroscopy

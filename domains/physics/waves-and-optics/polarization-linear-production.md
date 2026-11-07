@@ -10,8 +10,7 @@ prerequisites:
   type: soft
 - id: circular-elliptical-polarization
   type: soft
-builds-toward:
-- polarization-production-and-analysis
+builds-toward: []
 tags:
 - polarization
 - linear-polarization

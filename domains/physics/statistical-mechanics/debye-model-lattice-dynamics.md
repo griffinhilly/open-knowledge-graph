@@ -10,8 +10,7 @@ prerequisites:
   type: soft
 - id: einstein-model-solids
   type: soft
-builds-toward:
-- einstein-model-solids
+builds-toward: []
 tags:
 - debye-model
 - phonons

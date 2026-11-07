@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: linear-superposition-principle
   type: hard
+- id: path-difference-phase-difference
+  type: hard
 builds-toward:
 - diffraction-gratings
 - youngs-double-slit

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: compton-scattering
   type: soft
+- id: photoelectric-effect
+  type: soft
 builds-toward:
 - de-broglie-wavelength
 - heisenberg-uncertainty-principle

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: canonical-ensemble
   type: soft
+- id: ideal-fermi-gas-t-equals-zero
+  type: hard
 tags:
 - fermi-gas
 - thermal-effects

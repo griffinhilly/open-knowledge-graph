@@ -11,7 +11,6 @@ prerequisites:
 - id: wavelength-color-refractive-index
   type: soft
 builds-toward:
-- dispersion-and-prisms
 - thin-lenses
 tags:
 - refractive-index

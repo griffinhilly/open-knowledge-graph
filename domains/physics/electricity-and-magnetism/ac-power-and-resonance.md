@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: electric-power
   type: hard
+- id: ac-circuits-fundamentals
+  type: hard
 builds-toward:
 - electromagnetic-waves
 tags:

@@ -10,9 +10,10 @@ prerequisites:
   type: hard
 - id: quantum-numbers
   type: soft
+- id: wavefunction-and-probability
+  type: soft
 builds-toward:
 - quantum-tunneling
-- quantum-numbers
 - band-theory-intro
 tags:
 - quantum
