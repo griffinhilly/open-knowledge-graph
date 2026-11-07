@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: phase-changes-and-diagrams
   type: soft
+- id: concentration-units
+  type: soft
 builds-toward: []
 tags:
 - vapor-pressure

@@ -18,6 +18,8 @@ prerequisites:
   type: hard
 - id: polar-covalent-bonds-and-dipoles
   type: hard
+- id: covalent-bonding
+  type: soft
 builds-toward:
 - intermolecular-forces
 tags:

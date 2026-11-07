@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: acid-base-neutralization-reactions
   type: soft
+- id: ph-scale
+  type: soft
 builds-toward:
 - ph-and-acid-base-calculations
 tags:

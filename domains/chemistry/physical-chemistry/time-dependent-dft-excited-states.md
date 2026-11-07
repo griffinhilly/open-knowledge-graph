@@ -10,8 +10,7 @@ prerequisites:
   type: soft
 - id: configuration-interaction-methods
   type: soft
-builds-toward:
-- selection-rules-electronic-spectroscopy
+builds-toward: []
 tags:
 - spectroscopy
 - excited-states

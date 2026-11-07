@@ -745,3 +745,170 @@ ADD	beta-emission-weak-force	gamma-emission-nuclear-transitions	soft	high	two re
 ADD	van-der-waals-equation-of-state	compressibility-factor-z	soft	high	two reviewers agree: Z deviations are often modeled with the vdW equation.	[would create cycle]
 ADD	doppler-effect-comprehensive	doppler-applications-astronomy	soft	high	two reviewers agree: Astronomical Doppler builds on general Doppler analysis, though light needs the relativistic form.	[would create cycle]
 SUSPECT	brownian-motion	optimal-stopping,stationary-processes,properties-of-brownian-motion,levy-processes	-	medium	math stochastic-processes topics use physics brownian-motion; consider brownian-motion-stochastic (w-L043)
+ADD	recording-observations-in-science	accuracy-precision-error	soft	medium	Error analysis builds on the habit of recording repeated measurements with units; helpful background, not required.
+DROP	percent-yield-and-limiting-reagent-analysis	analytical-chemistry-intro	-	medium	Intro to analytical chemistry is about sampling and measurement, not reaction yield.
+DROP	precipitation-equilibrium-and-common-ion	analytical-chemistry-intro	-	medium	The overview of analytical chemistry does not draw on precipitation equilibria.
+DROP	analytical-method-development-workflow	analytical-selectivity-and-specificity	-	medium	Selectivity is a concept that method development uses, so the dominant direction runs the other way.
+DROP	analytical-method-validation-core-parameters	analytical-selectivity-and-specificity	-	medium	Specificity is one input to validation; validation draws on it, not the reverse.
+ADD	method-robustness-stability-assessment	analytical-standard-operating-procedures	soft	medium	SOP tolerances and parameter limits are informed by robustness studies.
+DROP	high-throughput-analytical-screening	automated-and-high-throughput-analysis	-	medium	B is the general automated-systems topic; screening is an application of it (near-duplicate pair).
+ADD	sample-preparation-automation-systems	automated-and-high-throughput-analysis	soft	medium	B integrates automated sample preparation as one of its components.
+ADD	carryover-contamination-prevention	batch-and-sequence-optimization	soft	medium	Batch design places blanks to monitor carryover, so carryover knowledge helps.
+DROP	solubility-product-constant-ksp	complexometric-titration	-	medium	EDTA titrations rest on formation constants and pH, not on Ksp.
+ADD	analytical-standard-operating-procedures	data-integrity-regulatory-compliance	soft	medium	Data integrity relies on documented procedures; SOP knowledge helps.
+DROP	forensic-evidence-analytical-methods	data-integrity-regulatory-compliance	-	medium	Data integrity rules (21 CFR Part 11, audit trails) do not draw on forensic methods.
+DROP	outlier-detection-statistical-methods	data-integrity-regulatory-compliance	-	medium	B is about record completeness and audit trails, not statistical outlier tests.
+ADD	trace-metals-ultra-low-concentration	environmental-sample-analysis-methods	soft	medium	Trace metals are a named target of environmental analysis.
+ADD	field-portable-analytical-instruments	green-and-sustainable-analytical-chemistry	soft	medium	B names on-site analysis as a green approach.
+ADD	batch-and-sequence-optimization	high-throughput-analytical-screening	soft	medium	HTS run design benefits from batch and sequence planning.
+ADD	multianalyte-panel-determination	high-throughput-analytical-screening	soft	medium	Multiplex panels are one route to the throughput HTS needs.
+DROP	analytical-method-equivalence-transfer	iso-iec-17025-laboratory-accreditation	-	medium	ISO 17025 covers validation and QA broadly; method transfer is not a needed base.
+ADD	analytical-standard-operating-procedures	iso-iec-17025-laboratory-accreditation	soft	medium	Accreditation requires documented procedures, so SOP knowledge helps.
+ADD	data-integrity-regulatory-compliance	iso-iec-17025-laboratory-accreditation	soft	medium	ISO 17025 includes control of data and records.
+DROP	method-robustness-stability-assessment	iso-iec-17025-laboratory-accreditation	-	medium	Robustness is covered by the validation prerequisite B already has.
+DROP	detector-ionization-suppression-effects	matrix-effects	-	medium	Ion suppression is a specific case of matrix effects; A should draw on B, not the reverse.
+DROP	pharmaceutical-impurity-related-substances	method-development-lifecycle	-	medium	Impurity analysis is an application area, not a base for the lifecycle concept.
+DROP	process-analytical-technology-real-time	method-development-lifecycle	-	medium	The lifecycle concept does not draw on PAT.
+ADD	detector-ionization-suppression-effects	multianalyte-panel-determination	soft	medium	MS-based multiplex panels must handle ion suppression between co-eluting analytes.
+DROP	multivariate-calibration-pls-pcr	multianalyte-panel-determination	-	medium	B's panels use MS/MS, immunoassay or chromatography, not PLS/PCR models.
+ADD	confirmatory-testing-identification-methods	pharmaceutical-impurity-related-substances	soft	medium	Impurity work includes identifying unknowns, which confirmatory methods support.
+DROP	pharmaceutical-impurity-related-substances	pharmaceutical-quality-analysis	-	medium	B is the broad overview; the specialised impurity topic should draw on it, not the reverse.
+ADD	field-portable-analytical-instruments	process-analytical-technology-real-time	soft	medium	PAT uses in-situ instruments that share design ideas with field-portable ones.
+DROP	measurement-uncertainty-budgeting	quality-assurance-analytical	-	medium	QA control charts do not require uncertainty budgets.
+DROP	analytical-method-equivalence-transfer	quality-control-and-quality-assurance	-	medium	Basic QC/QA does not draw on method transfer.
+DROP	batch-and-sequence-optimization	quality-control-and-quality-assurance	-	medium	Batch design applies QC principles; the dominant direction is QC/QA to batch design.
+DROP	carryover-contamination-prevention	quality-control-and-quality-assurance	-	medium	QC/QA is the broader base; carryover control applies it.
+ADD	outlier-detection-statistical-methods	quality-control-and-quality-assurance	soft	medium	Statistical monitoring in QC includes judging outlying results.
+ADD	reference-material-traceability	quality-control-and-quality-assurance	soft	medium	QC checks use certified reference materials, whose traceability helps.
+DROP	chemometrics-multivariate-calibration	raman-spectroscopy-analytical-methods	-	medium	Raman fundamentals do not need chemometrics, though applications use it.
+DROP	selectivity-vs-sensitivity-analytical-tradeoffs	response-surface-methodology-method-optimization	-	medium	RSM is an experimental-design technique; the trade-off topic is not needed for it.
+DROP	liquid-chromatography-mass-spectrometry-lc-ms	two-dimensional-chromatography-comprehensive	-	medium	2D chromatography rests on orthogonal separation, not on MS detection.
+ADD	acid-base-definitions	acid-base-chemistry	soft	medium	B builds on the Arrhenius and Bronsted-Lowry definitions that A lays out, though B restates them.
+ADD	acids-properties-and-examples	acid-base-chemistry	soft	medium	Intro-level acid properties give concrete grounding for B's formal treatment.
+ADD	bases-properties-and-examples	acid-base-chemistry	soft	medium	Intro-level base properties give concrete grounding for B's formal treatment.
+ADD	everyday-acids-and-bases	acid-base-chemistry	soft	medium	Familiar examples help, but B does not depend on them.
+ADD	electronegativity-and-polarity-continuum	acid-base-definitions	soft	medium	Lewis and Bronsted acid behaviour links to bond polarity; helpful, not required.
+ADD	ion-formation-from-electron-transfer	acid-base-definitions	soft	medium	Arrhenius definitions talk about H+ and OH- ions, so the ion concept helps.
+DROP	integrated-rate-laws	arrhenius-equation	-	medium	Arrhenius needs a rate constant (from chemical-kinetics), not integrated rate laws.
+ADD	mass-and-weight	atomic-mass-and-molar-mass	soft	medium	The basic concept of mass underlies atomic and molar mass.
+DROP	mole-concept	chemical-equations-and-balancing	-	medium	Balancing works by counting atoms; moles enter later in stoichiometry.
+DROP	the-mole-concept-and-avogadro	chemical-equations-and-balancing	-	medium	Balancing works by counting atoms; Avogadro's number is not needed.
+ADD	combustion-reactions	chemical-equations-and-balancing	soft	medium	B classifies equation types; combustion is one of the familiar types.
+ADD	synthesis-and-decomposition	chemical-equations-and-balancing	soft	medium	B classifies equation types; synthesis and decomposition are familiar types.
+DROP	signs-of-chemical-change	chemical-equations-and-balancing	-	medium	Writing and balancing equations is symbolic and does not draw on observing signs of change.
+ADD	gibbs-free-energy-spontaneity	chemical-equilibrium	soft	medium	The link between dG and K helps; B already lists the similar entropy-and-gibbs topic.
+ADD	reaction-coordinate-diagrams	chemical-equilibrium	soft	medium	Forward and reverse barriers help explain dynamic equilibrium.
+ADD	concentration-and-molarity	colligative-properties-solutions	hard	medium	B's freezing-point and osmotic formulas need solute concentration.
+ADD	solution-properties	colligative-properties-solutions	soft	medium	Knowing what a solution is and how solutes dissolve helps B.
+ADD	atomic-mass-and-molar-mass	concentration-units	soft	medium	Converting grams of solute to moles uses molar mass; B already has mole-concept.
+ADD	electron-configuration	covalent-bonding	soft	medium	Valence-shell configuration explains electron sharing; B already has valence-electrons.
+ADD	periodic-table-overview	covalent-bonding	soft	medium	Locating nonmetals on the table helps; B already has periodic-trends.
+ADD	flexibility-and-brittleness	crystal-structures-and-properties	soft	medium	B explains properties like brittleness from structure; the concrete property helps.
+ADD	hardness-and-strength	crystal-structures-and-properties	soft	medium	B explains hardness from lattice structure; the concrete property helps.
+JUDGE	oxidation-reduction-reactions	electrochemistry-basics	-	medium	Near-duplicate topics (both titled Oxidation-Reduction Reactions); a human should decide whether to merge them.
+ADD	atomic-structure-and-atoms	electron-configuration	soft	medium	Electrons in atoms are needed; B already lists the near-duplicate atomic-structure-basics.
+ADD	noble-gases-and-stability	electron-configuration	soft	medium	Noble-gas stability motivates filled shells and noble-gas shorthand.
+DROP	cooking-as-chemical-change	endothermic-and-exothermic-reactions	-	medium	B is about the sign of dH; cooking as chemical change is not needed.
+ADD	entropy-and-disorder	entropy-and-gibbs-free-energy	hard	medium	dG = dH - TdS cannot be understood without the entropy concept A introduces.
+DROP	heat-capacity-calorimetry	entropy-and-gibbs-free-energy	-	medium	Gibbs free energy does not rest on calorimetry.
+ADD	balancing-redox-equations	galvanic-electrochemical-cells	soft	medium	Overall cell reactions combine balanced half-reactions.
+ADD	half-reactions-and-balancing	galvanic-electrochemical-cells	hard	medium	B is framed in terms of anode and cathode half-reactions.
+ADD	measuring-volume	gas-laws	soft	medium	Volume measurement is one of the quantities gas laws relate.
+ADD	limiting-reagent-calculations	gas-stoichiometry	soft	medium	Gas stoichiometry problems often include limiting-reagent steps.
+DROP	percent-yield-and-limiting-reagent-analysis	gas-stoichiometry	-	medium	Volume-volume conversions do not need percent yield.
+ADD	entropy-and-disorder	gibbs-free-energy-spontaneity	soft	medium	dG = dH - TdS uses entropy; B gets it transitively via entropy-and-gibbs-free-energy.
+ADD	spontaneity-and-gibbs-free-energy-intro	gibbs-free-energy-spontaneity	soft	medium	The intro version precedes this fuller treatment (near-duplicate pair).
+DROP	bond-energy-and-enthaly	hess-law-of-enthalpy	-	medium	Hess's law combines reaction enthalpies; bond energies are a parallel method, not a base.
+ADD	electron-configuration	ionic-bonding	soft	medium	Ions form to reach noble-gas configurations; B already has valence-electrons.
+JUDGE	ion-formation-from-electron-transfer	ionic-bonding	-	medium	B truly draws on A, but A now lists B as a prerequisite; the existing edge must be reversed, not just added.
+ADD	periodic-table-overview	ionic-bonding	soft	medium	Locating metals and nonmetals helps; B already has periodic-trends.
+JUDGE	gas-laws-ideal-gas	kinetic-molecular-theory	-	medium	KMT explains the gas laws, but sibling gas-laws lists KMT as its prerequisite; direction needs a human call.
+ADD	equilibrium-expression-kc-kp-constants	le-chatelier-principle-applications	soft	medium	B says temperature changes K, so knowing K helps.
+ADD	dissolving-and-solutions	matter-classification-and-properties	soft	medium	Solutions are the standard example of homogeneous mixtures.
+ADD	physical-vs-chemical-change-summary	matter-classification-and-properties	soft	medium	Classifying properties as physical or chemical draws on this distinction.
+DROP	reversible-and-irreversible-changes	matter-classification-and-properties	-	medium	Classifying elements, compounds and mixtures does not need reversibility.
+ADD	separating-mixtures-filtering-evaporating	matter-classification-and-properties	soft	medium	Physical separability is what distinguishes mixtures from compounds.
+ADD	separating-mixtures-magnets-and-sieves	matter-classification-and-properties	soft	medium	Physical separability is what distinguishes mixtures from compounds.
+ADD	suspensions-and-colloids	matter-classification-and-properties	soft	medium	Suspensions are examples of heterogeneous mixtures.
+DROP	alloys-intro	metallic-bonding	-	medium	Metallic bonding explains alloys; the dominant direction is B to A.
+ADD	thermal-and-electrical-conductivity	metallic-bonding	soft	medium	B's electron-sea model explains conductivity, the phenomenon A introduces.
+DROP	resonance-structures	molecular-geometry-prediction	-	medium	VSEPR prediction works from Lewis structures; resonance is not needed.
+ADD	single-replacement-reactions	oxidation-reduction-basics	soft	medium	Single replacement reactions are familiar redox examples.
+ADD	rusting-and-tarnishing	oxidation-reduction-basics	soft	medium	Rusting is a familiar redox example.
+ADD	metals-nonmetals-metalloids	periodic-table-overview	soft	medium	The metal/nonmetal regions are part of reading the periodic table.
+ADD	metals-nonmetals-metalloids	periodic-trends	soft	medium	Metallic character is one of the trends B covers.
+DROP	real-gases-van-der-waals	phase-changes-and-diagrams	-	medium	Phase changes and diagrams do not need the van der Waals equation.
+DROP	bond-energy-and-enthaly	reaction-coordinate-diagrams	-	medium	B is about activation energy and transition states, not bond-energy sums.
+DROP	hess-law-of-enthalpy	reaction-coordinate-diagrams	-	medium	Energy profiles do not draw on Hess's law.
+DROP	henrys-law-gas-solubility	solute-solvent-interactions-solvation	-	medium	Solvation is about intermolecular interactions, not gas solubility versus pressure.
+DROP	properties-of-liquids	solution-properties	-	medium	B draws on dissolving and intermolecular forces, not general liquid properties.
+DROP	crystal-structures-and-properties	states-of-matter-phase-changes	-	medium	B's basic phase-change treatment does not need crystal lattice types.
+ADD	density-how-packed-together	states-of-matter-properties-and-transitions	soft	medium	B distinguishes states by how closely particles are packed.
+ADD	atomic-mass-and-molar-mass	stoichiometry-calculations	hard	medium	The grams-to-moles step needs molar mass; B already lists the similar molar-mass-and-conversions.
+ADD	temperature-reading	thermochemistry-heat-and-energy	soft	medium	Calorimetric heat measurement relies on reading temperature changes.
+ADD	noble-gases-and-stability	valence-electrons-and-reactivity	soft	medium	Unreactive noble gases illustrate how valence electrons govern reactivity.
+DROP	composition-of-compounds	writing-ionic-formulas	-	medium	Ionic formulas come from balancing charges, not percent composition.
+DROP	sandwich-compounds-metallocenes	catalytic-cycles-wilkinson-grubbs	-	medium	Wilkinson and Grubbs cycles rest on organometallic elementary steps, not metallocene structure.
+ADD	mo-theory-transition-metal-complexes	electronic-spectra-tanabe-sugano	soft	medium	MO/ligand-field treatment of d orbitals supports reading Tanabe-Sugano diagrams; B already has ligand-field-theory.
+ADD	metal-carbonyls	homogeneous-catalysis-mechanisms	soft	medium	Hydroformylation and many cycles in B use metal carbonyl catalysts.
+DROP	bioinorganic-chemistry-metalloenzymes	inorganic-photochemistry	-	medium	Excited-state coordination chemistry does not draw on metalloenzymes.
+DROP	hsab-theory	reaction-mechanisms-coordination-compounds	-	medium	D/A/I substitution mechanisms do not rest on HSAB.
+ADD	conducting-polymers-chemistry	photovoltaic-materials-chemistry	soft	medium	Organic photovoltaics use conjugated polymers; helpful context for B.
+DROP	glass-and-amorphous-materials	thin-film-deposition-cvd-pvd	-	medium	CVD/PVD rests on gas-phase chemistry and surfaces, not glass science.
+DROP	nanomaterials-synthesis	thin-film-deposition-cvd-pvd	-	medium	Thin-film deposition does not draw on nanomaterial synthesis; they are parallel topics.
+ADD	iupac-nomenclature-alkenes	addition-to-alkynes	soft	medium	One-equivalent additions give alkenes, so naming alkenes helps.
+DROP	allylic-oxidation-selectivity	alcohol-oxidation-to-carbonyls	-	medium	Alcohol oxidation does not draw on allylic oxidation.
+DROP	hydroboration-oxidation-alkenes	alcohol-oxidation-to-carbonyls	-	medium	Making alcohols by hydroboration is a synthetic sequence, not a concept B needs.
+DROP	oxymercuration-mechanism	alcohol-oxidation-to-carbonyls	-	medium	Making alcohols by oxymercuration is a synthetic sequence, not a concept B needs.
+DROP	alcohol-oxidation-to-carbonyls	carbonyl-reduction-to-alcohols	-	medium	These are reverse transformations; neither is needed to learn the other.
+DROP	hydroboration-oxidation-anti-markovnikov	catalytic-hydrogenation-lindlar-catalyst	-	medium	Hydrogenation does not draw on hydroboration.
+DROP	friedel-crafts-acylation-mechanism	directed-electrophilic-aromatic-substitution	-	medium	Directing effects do not need the acylation mechanism; B already has an EAS base.
+ADD	reaction-mechanisms-overview	e1-elimination	hard	medium	E1 is taught as a curved-arrow mechanism, so arrow-pushing is needed first.
+ADD	reaction-mechanisms-overview	e2-elimination	hard	medium	E2 is taught as a curved-arrow mechanism, so arrow-pushing is needed first.
+DROP	friedel-crafts-alkylation-acylation	electrophilic-aromatic-substitution-directors	-	medium	Directing effects do not need Friedel-Crafts specifics (B duplicates directed-electrophilic-aromatic-substitution).
+ADD	aldehyde-and-ketone-structure-and-nomenclature	enamine-chemistry-mechanism-and-reactions	soft	medium	Enamines are made from aldehydes and ketones.
+DROP	nucleophilic-acyl-substitution	enols-and-enolate-chemistry	-	medium	Enol/enolate and aldol chemistry rest on carbonyl acidity, not acyl substitution.
+DROP	williamson-ether-synthesis-sn2	ether-cleavage-and-fragmentation	-	medium	Ether cleavage rests on SN1/SN2 of protonated ethers, not on Williamson synthesis.
+ADD	nomenclature-carbonyls-carboxylic-acids	friedel-crafts-alkylation-acylation	soft	medium	Acylation uses acid chlorides and gives aryl ketones, so carbonyl naming helps.
+DROP	directed-ortho-para-effects	nucleophilic-aromatic-substitution	-	medium	SNAr activation comes from Meisenheimer stabilisation, not EAS directing; the sibling directors topic lists SNAr as its prerequisite.
+ADD	molecular-geometry-basics	reaction-mechanisms-overview	soft	medium	3D shape helps when following electron flow, e.g. backside attack.
+ADD	amide-formation-and-properties	relative-reactivity-carboxylic-acid-derivatives	soft	medium	Amide resonance explains why amides sit at the bottom of the reactivity order.
+ADD	carbocation-stability-rearrangement	resonance-in-organic-intermediates	soft	medium	Basic carbocation stability ordering helps before adding resonance stabilisation.
+DROP	amine-alkylation-quaternary-ammonium	retrosynthetic-analysis	-	medium	A narrow reaction; retrosynthesis does not depend on it.
+ADD	competing-substitution-and-elimination	retrosynthetic-analysis	soft	medium	Choosing conditions for a disconnection needs SN/E competition (duplicate of substitution-vs-elimination).
+ADD	diels-alder-reaction	retrosynthetic-analysis	soft	medium	Diels-Alder is a classic ring-forming disconnection.
+ADD	electrophilic-aromatic-substitution-directors	retrosynthetic-analysis	soft	medium	Same content as directed-electrophilic-aromatic-substitution (duplicate topics).
+DROP	enamine-chemistry-mechanism-and-reactions	retrosynthetic-analysis	-	medium	A specialised reaction; retrosynthesis does not depend on it.
+ADD	relative-reactivity-carboxylic-acid-derivatives	retrosynthetic-analysis	soft	medium	Planning acyl interconversions uses the reactivity order.
+ADD	selectivity-reduction-techniques	retrosynthetic-analysis	soft	medium	Reagent choice and protecting groups matter in planning; B already has protecting-groups.
+ADD	substitution-vs-elimination	retrosynthetic-analysis	soft	medium	Choosing conditions for a disconnection needs SN/E competition (duplicate of competing-substitution-and-elimination).
+ADD	reaction-mechanisms-overview	sn1-reaction	hard	medium	SN1 is taught as a curved-arrow mechanism, so arrow-pushing is needed first.
+ADD	alkane-structure-and-properties	sn2-reaction	soft	medium	Substrate classes (methyl, primary, secondary) and steric hindrance draw on alkane structure.
+DROP	chair-cyclohexane-conformations	stereochemistry-intro	-	medium	The stereochemistry intro does not need chair conformations; B already has cycloalkanes.
+DROP	ether-cleavage-and-fragmentation	structure-elucidation-using-ir-nmr-and-ms	-	medium	Ether MS fragmentation is a minor detail; B rests on its spectroscopy prerequisites.
+DROP	conformational-isomerism-newman-projections	walden-inversion-stereochemistry	-	medium	Walden inversion concerns configuration at a stereocenter, not conformations.
+DROP	sn1-sn2-reaction-selectivity-factors	zaitsevs-rule-hofmann-elimination	-	medium	Elimination regioselectivity does not draw on SN1/SN2 selectivity.
+DROP	walsh-diagrams-structure-bonding-correlation	aromaticity-huckel-rule-pi-system	-	medium	Aromaticity rests on Huckel pi-MO energies, not Walsh diagrams.
+DROP	michaelis-menten-enzyme-kinetics-physical-chemistry	autocatalytic-reactions-mechanisms	-	medium	Autocatalysis does not need Michaelis-Menten; B already lists the sibling michaelis-menten-enzyme-kinetics.
+DROP	diffusion-controlled-reaction-kinetics	bimolecular-collision-dynamics-trajectory	-	medium	Gas-phase trajectory analysis does not draw on solution diffusion limits.
+ADD	hybridization-sp-orbitals	bonding-antibonding-orbitals	soft	medium	Hybrid orbitals give the sigma framework that bonding/antibonding orbitals describe.
+DROP	two-dimensional-nmr-spectroscopy	chemical-exchange-kinetics-nmr	-	medium	B analyses 1D line shapes, not 2D NMR.
+DROP	molecular-orbital-diagrams-polyatomic	electron-correlation-approximations	-	medium	Electron correlation rests on HF/DFT, not polyatomic MO diagrams.
+DROP	wave-function-normalization-orthogonality	electron-correlation-multi-electron-atoms	-	medium	Too basic to list directly; B gets it via its Hartree-Fock prerequisite.
+DROP	hydrogen-atom-wavefunctions	electronic-spectroscopy-theory	-	medium	Molecular electronic spectroscopy rests on MO theory, not hydrogen wavefunctions.
+ADD	selection-rules-electronic-spectroscopy	excited-state-decay-pathways	soft	medium	Spin-forbidden intersystem crossing and radiative rates draw on electronic selection rules.
+DROP	molecular-orbital-diagrams-polyatomic	group-theory-molecular-symmetry	-	medium	Group theory is foundational and does not need MO diagrams; the direction runs the other way.
+DROP	aromaticity-huckel-rule-pi-system	molecular-orbital-symmetry-classification	-	medium	MO symmetry labelling does not need aromaticity.
+DROP	exchange-integral-chemical-bonding	molecular-orbital-symmetry-classification	-	medium	Symmetry classification does not need exchange integrals.
+DROP	molecular-spectroscopy-selection-rules	nmr-spectroscopy-spin-coupling	-	medium	Chemical shifts and J-coupling do not draw on general spectroscopic selection rules.
+ADD	boltzmann-distribution-molecular-populations	partition-function-thermodynamic-properties	hard	high	B defines Z as a sum of Boltzmann factors.	[would create cycle]
+ADD	statistical-entropy-molecular-disorder	partition-function-thermodynamic-properties	soft	medium	B derives entropy from Z; the statistical view of entropy helps.
+DROP	molecular-orbital-diagrams-and-bonding	perturbation-theory-quantum-chemistry	-	medium	Perturbation theory rests on QM foundations, not MO diagrams.
+DROP	molecular-orbital-symmetry-classification	selection-rules-spectroscopy	-	medium	General selection rules rest on the transition dipole and simple models, not MO symmetry labels.
+ADD	solute-solvent-interactions-solvation	solution-thermodynamics	soft	medium	Non-ideal activity reflects solute-solvent interactions.
+ADD	statistical-mechanics-foundations	statistical-thermodynamics-applications	hard	medium	B applies ensemble and Boltzmann ideas from the foundations topic.
+DROP	post-hartree-fock-methods	time-dependent-dft-excited-states	-	medium	TDDFT rests on DFT and linear response, not MP/CC theory.
+DROP	gibbs-energy-molecular-basis	transition-state-geometry-activated-complex	-	medium	B is about saddle-point geometry on the PES; B already has transition-state-theory.
+DROP	quantum-tunneling-barrier-penetration	transition-state-geometry-activated-complex	-	medium	Transition-state geometry does not draw on tunneling.
+DROP	rotational-quantum-numbers-energy	vibrational-energy-levels-selection-rules	-	medium	B covers pure vibrational levels and rules, not rovibrational structure.
+DROP	rotational-spectroscopy-quantum-theory	vibrational-overtones-and-transitions	-	medium	Overtones and hot bands come from anharmonicity, not rotational theory.

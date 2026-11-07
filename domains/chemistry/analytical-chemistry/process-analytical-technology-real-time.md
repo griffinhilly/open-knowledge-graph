@@ -9,7 +9,6 @@ prerequisites:
 - id: spectroscopic-instrumentation
   type: soft
 builds-toward:
-- quality-control-and-quality-assurance
 - method-development-lifecycle
 tags:
 - pat

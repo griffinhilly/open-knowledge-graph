@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - alcohol-oxidation-to-carbonyls
-- nucleophile-electrophile-definitions
 tags:
 - nomenclature
 - alcohols

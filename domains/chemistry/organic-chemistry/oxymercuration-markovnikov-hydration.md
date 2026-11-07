@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: markovnikov-rule-in-addition-reactions
   type: soft
-builds-toward:
-- catalytic-hydrogenation-lindlar-catalyst
+builds-toward: []
 tags:
 - oxymercuration
 - hydration

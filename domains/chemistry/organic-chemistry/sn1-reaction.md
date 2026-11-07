@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: nucleophile-electrophile-definitions
   type: hard
+- id: enantiomers-and-chirality
+  type: soft
 builds-toward:
 - e1-elimination
 - alcohols-and-ethers

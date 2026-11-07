@@ -9,7 +9,6 @@ prerequisites:
 - id: electron-configuration
   type: hard
 builds-toward:
-- molecular-geometry-basics
 - organic-chemistry-intro
 tags:
 - hybridization

@@ -9,7 +9,6 @@ prerequisites:
 - id: isotopes-intro
   type: soft
 builds-toward:
-- electron-configuration
 - nuclear-chemistry
 tags:
 - isotopes

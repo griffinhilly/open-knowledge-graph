@@ -16,6 +16,12 @@ prerequisites:
   type: soft
 - id: wittig-reaction-mechanism
   type: soft
+- id: directed-electrophilic-aromatic-substitution
+  type: soft
+- id: oxidation-reactions-organic
+  type: soft
+- id: reduction-reactions-organic
+  type: soft
 builds-toward: []
 tags:
 - retrosynthesis

@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - automated-and-high-throughput-analysis
-- method-development-lifecycle
 tags:
 - high-throughput
 - screening

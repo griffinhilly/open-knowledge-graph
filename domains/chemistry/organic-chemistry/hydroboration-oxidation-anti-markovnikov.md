@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: hydroboration-oxidation-alkenes
   type: soft
+- id: markovnikov-rule-in-addition-reactions
+  type: hard
 builds-toward:
 - catalytic-hydrogenation-lindlar-catalyst
 tags:

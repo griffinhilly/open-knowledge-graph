@@ -8,9 +8,7 @@ prerequisites:
   type: hard
 - id: potentiometry-ph-and-ion-measurement
   type: soft
-builds-toward:
-- quality-control-and-quality-assurance
-- pharmaceutical-quality-analysis
+builds-toward: []
 tags:
 - clinical
 - diagnostics

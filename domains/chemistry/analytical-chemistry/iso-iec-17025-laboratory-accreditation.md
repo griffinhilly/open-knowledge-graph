@@ -8,8 +8,11 @@ prerequisites:
   type: hard
 - id: analytical-method-validation-core-parameters
   type: hard
-builds-toward:
-- quality-assurance-analytical
+- id: measurement-uncertainty-budgeting
+  type: soft
+- id: reference-material-traceability
+  type: soft
+builds-toward: []
 tags:
 - accreditation
 - iso-iec-17025

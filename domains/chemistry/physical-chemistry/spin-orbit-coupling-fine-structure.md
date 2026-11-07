@@ -11,7 +11,6 @@ prerequisites:
 - id: perturbation-theory-time-independent
   type: hard
 builds-toward:
-- nmr-second-order-effects
 - phosphorescence-intersystem-crossing
 tags:
 - spin-orbit-coupling

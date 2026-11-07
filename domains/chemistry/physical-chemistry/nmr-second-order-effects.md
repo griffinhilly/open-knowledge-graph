@@ -10,8 +10,7 @@ prerequisites:
   type: hard
 - id: perturbation-theory-time-independent
   type: soft
-builds-toward:
-- structure-elucidation-using-ir-nmr-and-ms
+builds-toward: []
 tags:
 - nmr-spectroscopy
 - second-order-effects

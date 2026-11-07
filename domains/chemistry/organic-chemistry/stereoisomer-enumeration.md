@@ -10,8 +10,7 @@ prerequisites:
   type: hard
 - id: r-s-nomenclature-cahn-ingold-prelog-rules
   type: hard
-builds-toward:
-- retrosynthetic-analysis
+builds-toward: []
 tags:
 - stereoisomers
 - chiral-centers

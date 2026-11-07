@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - phase-changes-and-diagrams
-- solution-concentration
 tags:
 - states
 - phase

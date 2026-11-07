@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: ionic-bonding
   type: hard
-builds-toward:
-- phase-diagrams-clausius-clapeyron
+builds-toward: []
 tags:
 - thermochemistry
 - born-haber

@@ -10,9 +10,7 @@ prerequisites:
   type: soft
 - id: bioanalytical-methods-in-pharmacology
   type: soft
-builds-toward:
-- pharmaceutical-quality-analysis
-- method-validation
+builds-toward: []
 tags:
 - bioanalysis
 - pharmacokinetics

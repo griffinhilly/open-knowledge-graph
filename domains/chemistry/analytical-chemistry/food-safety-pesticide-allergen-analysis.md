@@ -8,9 +8,7 @@ prerequisites:
   type: hard
 - id: environmental-sample-analysis-methods
   type: soft
-builds-toward:
-- green-and-sustainable-analytical-chemistry
-- trace-metals-ultra-low-concentration
+builds-toward: []
 tags:
 - food-safety
 - pesticides

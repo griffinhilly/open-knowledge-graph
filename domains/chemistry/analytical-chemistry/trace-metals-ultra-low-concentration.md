@@ -11,7 +11,6 @@ prerequisites:
 - id: metals-alloy-analysis-methods
   type: soft
 builds-toward:
-- limit-of-detection-loq
 - environmental-sample-analysis-methods
 tags:
 - trace-analysis

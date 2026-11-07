@@ -8,9 +8,7 @@ prerequisites:
   type: hard
 - id: partition-function-applications
   type: hard
-builds-toward:
-- phase-diagrams-clausius-clapeyron
-- chemical-potential-thermodynamics
+builds-toward: []
 tags:
 - canonical-ensemble
 - partition-function

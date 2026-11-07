@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: resonance-and-formal-charge
   type: soft
+- id: variational-principle-chemistry
+  type: soft
 builds-toward:
 - electronic-spectroscopy-theory
 tags:

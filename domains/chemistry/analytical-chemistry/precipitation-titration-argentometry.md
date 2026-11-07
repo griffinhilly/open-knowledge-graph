@@ -12,8 +12,7 @@ prerequisites:
   type: soft
 - id: complexometric-titration
   type: soft
-builds-toward:
-- analytical-method-validation-core-parameters
+builds-toward: []
 tags:
 - precipitation
 - argentometry

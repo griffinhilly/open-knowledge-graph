@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: potential-energy-surfaces
   type: hard
-builds-toward:
-- arrhenius-equation-temperature-dependence
+builds-toward: []
 tags:
 - transition-state
 - reaction-mechanism

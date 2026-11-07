@@ -11,7 +11,6 @@ prerequisites:
 - id: configuration-interaction-methods
   type: soft
 builds-toward:
-- configuration-interaction-methods
 - time-dependent-dft-excited-states
 tags:
 - quantum

@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: electronic-transitions-excited-states
   type: soft
+- id: beers-law
+  type: soft
 tags:
 - fluorescence
 - phosphorescence

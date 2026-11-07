@@ -9,7 +9,6 @@ prerequisites:
 - id: statistical-methods-analytical
   type: hard
 builds-toward:
-- nuclear-magnetic-resonance-quantitative
 - raman-spectroscopy-analytical-methods
 tags:
 - chemometrics

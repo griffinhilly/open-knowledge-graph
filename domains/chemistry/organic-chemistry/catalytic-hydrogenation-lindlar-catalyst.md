@@ -10,8 +10,7 @@ prerequisites:
   type: hard
 - id: electrophilic-addition-to-alkenes
   type: soft
-builds-toward:
-- structure-elucidation-using-ir-nmr-and-ms
+builds-toward: []
 tags:
 - hydrogenation
 - lindlar-catalyst

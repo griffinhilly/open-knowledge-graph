@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: colligative-properties-solutions
   type: soft
+- id: concentration-units
+  type: hard
 tags:
 - boiling-point-elevation
 - freezing-point-depression

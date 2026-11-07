@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cycloalkanes
   type: soft
+- id: stereochemistry-intro
+  type: soft
 builds-toward:
 - sn1-reaction
 - sn2-reaction

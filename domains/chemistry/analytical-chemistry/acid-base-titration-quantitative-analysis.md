@@ -10,8 +10,7 @@ prerequisites:
   type: hard
 - id: buffer-solutions
   type: soft
-builds-toward:
-- analytical-method-validation-core-parameters
+builds-toward: []
 tags:
 - titration
 - acid-base

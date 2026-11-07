@@ -14,7 +14,6 @@ prerequisites:
   type: soft
 builds-toward:
 - writing-ionic-formulas
-- chemical-equations-and-balancing
 tags:
 - percent composition
 - empirical formula

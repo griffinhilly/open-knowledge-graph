@@ -10,8 +10,7 @@ prerequisites:
   type: soft
 - id: activation-energy-catalysis-reaction-pathways
   type: soft
-builds-toward:
-- organic-chemistry-intro
+builds-toward: []
 tags:
 - mechanism
 - elementary-step

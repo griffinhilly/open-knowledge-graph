@@ -11,7 +11,6 @@ prerequisites:
 - id: electron-correlation-approximations
   type: soft
 builds-toward:
-- variational-method-ground-state
 - density-functional-theory-intro
 tags:
 - electron-correlation

@@ -12,8 +12,7 @@ prerequisites:
   type: hard
 - id: c-13-nmr-and-ir-structural-determination
   type: soft
-builds-toward:
-- retrosynthetic-analysis
+builds-toward: []
 tags:
 - structure-determination
 - spectroscopy

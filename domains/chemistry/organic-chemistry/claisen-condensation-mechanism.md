@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: nucleophilic-acyl-substitution
   type: hard
-builds-toward:
-- aldol-reaction
+builds-toward: []
 tags:
 - condensation
 - claisen

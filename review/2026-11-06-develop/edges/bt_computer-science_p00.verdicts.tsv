@@ -25,3 +25,38 @@ DROP	multi-task-learning	transfer-learning-neural	-	medium	Transfer learning is 
 DROP	self-supervised-learning	transfer-learning-neural	-	medium	B uses supervised ImageNet pretraining; self-supervised (expert) builds on representation learning, not the reverse.
 JUDGE	self-attention	transformer-architecture	-	medium	self-attention lists transformer-architecture as prereq, yet B is built on self-attention; a human should pick the direction.
 DROP	few-shot-learning	zero-shot-learning	-	high	few-shot-learning already lists zero-shot-learning as a soft prerequisite; reverse would be a cycle.
+DROP	programming-language-semantics	activation-records-runtime	-	high	Stack frames are a runtime-layout topic and need no formal semantics.
+DROP	escape-analysis	alias-analysis	-	high	escape-analysis already lists alias-analysis as a prerequisite; reverse would be a cycle.
+DROP	exception-handling-compilation	bytecode-and-vm-design	-	medium	Bytecode and VM design stand without exception-handling implementation; exception handling is a later refinement.
+DROP	instruction-selection-techniques	code-generation	-	high	instruction-selection-techniques already lists code-generation as a prerequisite; reverse would be a cycle.
+DROP	peephole-optimization	code-generation	-	high	peephole-optimization already lists code-generation as a prerequisite; reverse would be a cycle.
+DROP	register-allocation	code-generation	-	medium	Code generation introduces register assignment at overview level; register-allocation is the deep dive built on liveness and coloring.
+DROP	vectorization-and-simd	code-generation	-	high	Basic code generation from IR does not need SIMD vectorization.
+ADD	intermediate-code-representation	code-optimization	soft	high	B says optimizations are applied to IR; IR is already upstream via dataflow and CFGs.
+DROP	loop-detection-analysis	code-optimization	-	high	loop-detection lists loop-unrolling, which lists code-optimization; reverse would be a cycle.
+DROP	static-single-assignment-form	code-optimization	-	medium	B's fundamentals rest on classic dataflow (reaching defs, liveness), not SSA.
+ADD	use-definition-chains	code-optimization	soft	medium	B names reaching definitions as an enabler; use-def chains are its practical form, but not required.
+JUDGE	code-optimization	common-subexpression-elimination	-	medium	An overview should precede CSE, but CSE -> dead-code-elimination -> code-optimization already exists, so adding this makes a cycle.
+DROP	multi-stage-programming	compiler-bootstrapping	-	high	Bootstrapping a self-hosting compiler does not use staged programming.
+DROP	lookahead-and-parsing-power	compiler-error-recovery	-	medium	B's techniques (token insertion, resync) rest on syntax-error recovery, not on grammar-class theory.
+DROP	static-single-assignment-form	dataflow-analysis	-	high	Dataflow analysis is defined over CFGs and fixpoints; SSA is a later IR form that refines it.
+JUDGE	subtyping-and-bounds	gradual-typing-systems	-	medium	B contrasts consistency with subtyping, but path gradual -> dependent-types -> subtyping exists, so adding makes a cycle.
+DROP	operator-precedence-parsing	grammar-design-for-compilation	-	medium	Grammar design is upstream of specific parsing techniques; operator-precedence parsing applies it.
+ADD	type-systems-overview	hindley-milner-type-system	soft	high	HM is a specific type system; the overview is already upstream via type-inference-algorithms.
+DROP	polymorphism-and-type-variables	intermediate-code-representation	-	high	IR design does not depend on parametric polymorphism.
+ADD	bytecode-and-vm-design	interpreter-design-and-tradeoffs	soft	medium	B weighs tree-walking vs bytecode vs JIT designs, so knowing bytecode VMs helps.
+DROP	domain-specific-language-design	multi-stage-programming	-	medium	B rests on IR and code generation; DSLs are an application of staging, not a basis.
+ADD	partial-evaluation-specialization	multi-stage-programming	soft	medium	B names partial evaluation as a use case; the two ideas are closely tied.
+ADD	shift-reduce-bottom-up-parsing	parser-conflict-resolution	hard	high	B is about shift-reduce and reduce-reduce conflicts, which presuppose shift-reduce parsing.
+ADD	type-systems-overview	polymorphism-and-type-variables	soft	high	Parametric polymorphism is a feature of type systems; the overview is upstream via HM already.
+DROP	instruction-selection-techniques	register-allocation	-	medium	Register allocation rests on liveness and graph coloring, not on how instructions were selected.
+DROP	attribute-grammar-framework	semantic-analysis	-	medium	B explains name resolution and type checking without attribute grammars, which formalize it later.
+DROP	syntax-error-recovery-techniques	semantic-analysis	-	high	Semantic checks on the AST do not depend on syntax-error recovery.
+JUDGE	lr-parsing	shift-reduce-bottom-up-parsing	-	medium	LR parsing and shift-reduce parsing heavily overlap; a human should pick the direction or merge them.
+DROP	parser-conflict-resolution	syntax-error-recovery-techniques	-	high	Panic mode and token repair do not depend on resolving grammar conflicts.
+DROP	programming-language-semantics	type-inference-algorithms	-	high	B rests on constraint generation and unification, not on formal semantics.
+ADD	semantic-analysis	type-inference-algorithms	soft	medium	Type inference runs within semantic analysis; already upstream via type-systems-overview.
+ADD	symbol-tables-and-scope	type-inference-algorithms	soft	medium	Inference needs a typing environment, which symbol tables realize; already upstream via semantic-analysis.
+DROP	tree-walking-interpreters	type-inference-algorithms	-	high	Type inference does not depend on interpreter design.
+DROP	alias-analysis	value-numbering-optimization	-	medium	B's hash-based value numbering works on scalar expressions; alias info matters only for a load/store extension.
+DROP	loop-unrolling-optimization	vectorization-and-simd	-	high	Path vectorization -> loop-invariant-code-motion -> loop-unrolling exists; reverse would be a cycle.

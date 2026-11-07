@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: ph-scale
   type: soft
+- id: solution-concentration
+  type: hard
 tags:
 - pH
 - pOH

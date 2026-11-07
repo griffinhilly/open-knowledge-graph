@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: intermolecular-potential-energy-functions
   type: soft
-builds-toward:
-- hydrogen-bonding-energetics
+builds-toward: []
 tags:
 - thermodynamics
 - equation-of-state

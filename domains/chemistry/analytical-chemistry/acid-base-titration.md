@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: solution-stoichiometry-dilution
   type: hard
+- id: acid-base-neutralization-reactions
+  type: hard
 tags:
 - acid-base titration
 - titration curve

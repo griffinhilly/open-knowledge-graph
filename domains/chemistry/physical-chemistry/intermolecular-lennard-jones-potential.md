@@ -8,8 +8,7 @@ prerequisites:
   type: soft
 - id: intermolecular-forces
   type: hard
-builds-toward:
-- osmotic-pressure-van-t-hoff
+builds-toward: []
 tags:
 - intermolecular
 - lennard-jones

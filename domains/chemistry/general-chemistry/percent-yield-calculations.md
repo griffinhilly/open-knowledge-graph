@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: percent-yield-and-limiting-reagent-analysis
   type: soft
+- id: stoichiometry-calculations
+  type: hard
 tags:
 - percent yield
 - actual yield

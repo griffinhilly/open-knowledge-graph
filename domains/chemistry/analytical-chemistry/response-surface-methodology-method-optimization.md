@@ -15,7 +15,6 @@ prerequisites:
 - id: optimization-of-analytical-method-parameters
   type: soft
 builds-toward:
-- optimization-of-analytical-method-parameters
 - method-robustness-stability-assessment
 tags:
 - optimization

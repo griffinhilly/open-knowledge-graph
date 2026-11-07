@@ -11,7 +11,6 @@ prerequisites:
 - id: molecular-spectroscopy-structure-determination
   type: soft
 builds-toward:
-- structure-elucidation-using-ir-nmr-and-ms
 - forensic-evidence-analytical-methods
 tags:
 - hyphenated-techniques

@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: oxidation-reactions-organic
   type: soft
-builds-toward:
-- diastereomers-and-meso-compounds
+builds-toward: []
 tags:
 - addition
 - hydroxylation

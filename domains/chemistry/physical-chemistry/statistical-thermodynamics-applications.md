@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: heat-capacity-of-gases
   type: soft
+- id: harmonic-oscillator-molecular-vibrations
+  type: soft
 builds-toward:
 - transition-state-theory
 tags:

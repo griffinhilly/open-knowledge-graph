@@ -10,8 +10,7 @@ prerequisites:
   type: hard
 - id: vibrational-frequency-force-constant
   type: soft
-builds-toward:
-- vibrational-frequency-force-constant
+builds-toward: []
 tags:
 - vibrational-spectroscopy
 - selection-rules

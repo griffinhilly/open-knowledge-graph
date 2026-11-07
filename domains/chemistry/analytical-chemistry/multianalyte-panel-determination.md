@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - high-throughput-analytical-screening
-- pharmaceutical-quality-analysis
 tags:
 - multiplex
 - multianalyte

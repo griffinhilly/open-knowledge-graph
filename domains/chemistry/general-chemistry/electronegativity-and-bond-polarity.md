@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - molecular-polarity
-- vsepr-theory
 tags:
 - electronegativity
 - bond polarity

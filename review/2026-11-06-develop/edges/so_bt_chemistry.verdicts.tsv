@@ -1,0 +1,38 @@
+DROP	recording-observations-in-science	accuracy-precision-error	-	medium	B builds on statistics of systematic vs random error, not on a concrete-stage note-taking skill.
+DROP	percent-yield-and-limiting-reagent-analysis	analytical-chemistry-intro	-	medium	The intro overview of the analytical workflow does not use percent-yield calculations.
+DROP	precipitation-equilibrium-and-common-ion	analytical-chemistry-intro	-	medium	The intro is a survey of the analytical process and does not draw on common-ion equilibria.
+DROP	analytical-method-development-workflow	analytical-selectivity-and-specificity	-	high	Would form a cycle: workflow already requires selectivity-vs-sensitivity-tradeoffs, which requires B.
+DROP	analytical-method-validation-core-parameters	analytical-selectivity-and-specificity	-	high	Would form a cycle: validation requires the workflow, which transitively requires B.
+DROP	method-robustness-stability-assessment	analytical-standard-operating-procedures	-	high	Would form a cycle: robustness already lists B as a prerequisite.
+DROP	high-throughput-analytical-screening	automated-and-high-throughput-analysis	-	high	Would form a cycle: A requires sample-preparation-automation-systems, which requires B.
+DROP	sample-preparation-automation-systems	automated-and-high-throughput-analysis	-	high	Would form a cycle: A already lists B as a prerequisite.
+ADD	carryover-contamination-prevention	batch-and-sequence-optimization	soft	medium	Batch design places blanks to catch carryover, so knowing carryover helps.
+DROP	solubility-product-constant-ksp	complexometric-titration	-	high	EDTA titrations rest on formation constants, not solubility products.
+ADD	analytical-standard-operating-procedures	data-integrity-regulatory-compliance	soft	medium	Data integrity relies on documented, version-controlled procedures that SOPs provide.
+DROP	forensic-evidence-analytical-methods	data-integrity-regulatory-compliance	-	medium	B is about 21 CFR Part 11 audit trails in regulated labs, not forensic methods.
+DROP	outlier-detection-statistical-methods	data-integrity-regulatory-compliance	-	medium	B is about records, audit trails and access control; outlier statistics are not needed.
+DROP	trace-metals-ultra-low-concentration	environmental-sample-analysis-methods	-	medium	B is a broad survey of environmental matrices; trace-metal technique is a specialization, not a base.
+ADD	field-portable-analytical-instruments	green-and-sustainable-analytical-chemistry	soft	medium	B lists on-site analysis as a green approach, which field-portable instruments enable.
+ADD	batch-and-sequence-optimization	high-throughput-analytical-screening	soft	medium	HTS runs large sequences with interspersed QC, which batch design covers.
+DROP	multianalyte-panel-determination	high-throughput-analytical-screening	-	medium	HTS is about automation and many samples, not multiplexed analytes per sample.
+DROP	analytical-method-equivalence-transfer	iso-iec-17025-laboratory-accreditation	-	medium	Accreditation draws on QC and validation (already hard); method transfer is not central.
+ADD	analytical-standard-operating-procedures	iso-iec-17025-laboratory-accreditation	soft	medium	ISO 17025 requires documented procedures, so SOP knowledge helps.
+ADD	data-integrity-regulatory-compliance	iso-iec-17025-laboratory-accreditation	soft	medium	Accreditation covers records control and traceability that data integrity explains.
+DROP	method-robustness-stability-assessment	iso-iec-17025-laboratory-accreditation	-	medium	Robustness is a part of validation, which B already requires; no direct draw.
+DROP	detector-ionization-suppression-effects	matrix-effects	-	medium	Ion suppression is a special case of matrix effects; the general topic does not depend on it.
+DROP	pharmaceutical-impurity-related-substances	method-development-lifecycle	-	medium	B is a general lifecycle; the pharma impurity application is downstream, not a base.
+DROP	process-analytical-technology-real-time	method-development-lifecycle	-	medium	B's lifecycle (ATP, DOE, validation, transfer) does not draw on PAT.
+ADD	detector-ionization-suppression-effects	multianalyte-panel-determination	soft	medium	B names matrix suppression affecting each analyte differently as a core challenge.
+DROP	multivariate-calibration-pls-pcr	multianalyte-panel-determination	-	medium	B uses MS/MS and chromatography, not chemometric calibration; A is also staged higher.
+DROP	confirmatory-testing-identification-methods	pharmaceutical-impurity-related-substances	-	medium	B already requires structure elucidation; confirmatory testing is a sibling, not a base.
+ADD	pharmaceutical-impurity-related-substances	pharmaceutical-quality-analysis	soft	high	B's core includes impurity profiles and ICH thresholds, which A covers in depth.
+DROP	field-portable-analytical-instruments	process-analytical-technology-real-time	-	medium	PAT uses in-line process sensors; handheld field instruments are a sibling topic.
+ADD	measurement-uncertainty-budgeting	quality-assurance-analytical	soft	medium	B rests on metrological traceability, and uncertainty budgets help explain it.
+DROP	analytical-method-equivalence-transfer	quality-control-and-quality-assurance	-	medium	B covers QC programs and control charts; method transfer is not needed.
+DROP	batch-and-sequence-optimization	quality-control-and-quality-assurance	-	medium	Batch design applies QC concepts; the dominant direction is QC toward batch design.
+DROP	carryover-contamination-prevention	quality-control-and-quality-assurance	-	medium	B is a general QC program overview and does not draw on carryover specifics.
+ADD	outlier-detection-statistical-methods	quality-control-and-quality-assurance	soft	medium	B applies Westgard-type statistical rules, which outlier statistics support.
+ADD	reference-material-traceability	quality-control-and-quality-assurance	soft	medium	QC programs depend on traceable reference materials for control samples.
+DROP	chemometrics-multivariate-calibration	raman-spectroscopy-analytical-methods	-	medium	Raman theory and practice do not require chemometrics; A is also staged higher.
+DROP	selectivity-vs-sensitivity-analytical-tradeoffs	response-surface-methodology-method-optimization	-	medium	Redundant: B requires the method-development workflow, which already requires A.
+DROP	liquid-chromatography-mass-spectrometry-lc-ms	two-dimensional-chromatography-comprehensive	-	medium	2D chromatography draws on GC and HPLC separation, not on MS detection.

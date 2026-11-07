@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: nucleophilic-addition-to-carbonyls
   type: soft
+- id: functional-groups-overview
+  type: soft
 builds-toward:
 - nucleophilic-acyl-substitution
 - amines-structure-and-properties

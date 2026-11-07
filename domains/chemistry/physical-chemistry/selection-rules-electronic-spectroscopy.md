@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: molecular-orbital-diagrams-and-bonding
   type: soft
+- id: molecular-symmetry-and-group-theory
+  type: soft
 builds-toward:
 - excited-state-decay-pathways
 tags:

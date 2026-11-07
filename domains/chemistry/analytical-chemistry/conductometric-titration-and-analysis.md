@@ -10,8 +10,7 @@ prerequisites:
   type: soft
 - id: acid-base-titration-quantitative-analysis
   type: soft
-builds-toward:
-- analytical-method-validation-core-parameters
+builds-toward: []
 tags:
 - conductometry
 - titration

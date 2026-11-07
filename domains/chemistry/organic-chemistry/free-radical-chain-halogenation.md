@@ -9,7 +9,6 @@ prerequisites:
 - id: reaction-mechanisms-elementary-steps
   type: hard
 builds-toward:
-- oxidation-reactions-organic
 - allylic-oxidation-selectivity
 tags:
 - mechanism

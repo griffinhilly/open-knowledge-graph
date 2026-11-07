@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: properties-of-solids
   type: soft
+- id: bond-classification
+  type: soft
 builds-toward:
 - states-of-matter-phase-changes
 tags:

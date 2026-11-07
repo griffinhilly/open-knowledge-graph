@@ -10,8 +10,7 @@ prerequisites:
   type: soft
 - id: electromagnetic-waves
   type: soft
-builds-toward:
-- retrosynthetic-analysis
+builds-toward: []
 tags:
 - nmr
 - carbon-nmr
