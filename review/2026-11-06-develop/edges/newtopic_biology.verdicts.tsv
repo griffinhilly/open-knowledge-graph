@@ -1,0 +1,11 @@
+ADD	plant-tissues-and-growth	plant-development	soft	high	Expert plant development assumes meristems and tissue systems; the formal-level anatomy now exists to point back to.
+ADD	plant-hormones-and-tropisms	plant-development	soft	high	plant-development teaches auxin as a morphogen; the intro to hormone classes and tropisms prepares for it.
+ADD	properties-of-water-for-life	osmosis-and-water-movement	soft	high	Osmosis and water potential rest on water's polarity and hydrogen bonding.
+ADD	properties-of-water-for-life	cell-membrane-fluid-mosaic	soft	high	Bilayer formation is driven by the hydrophobic effect, taught in the new topic.
+ADD	properties-of-water-for-life	protein-tertiary-structure	soft	high	Burial of hydrophobic side chains during folding depends on the hydrophobic effect.
+ADD	osmoregulation-and-nitrogenous-wastes	renal-physiology-and-fluid-balance	soft	high	The comparative survey of water balance and excreted waste forms puts the mammalian kidney in context.
+ADD	origin-of-life	evolutionary-transitions	soft	high	Major evolutionary transitions start from the first replicators and protocells.
+ADD	monoclonal-antibodies-and-immunoassays	cancer-immunotherapy-approaches	soft	high	Checkpoint inhibitors and many other immunotherapies are monoclonal antibodies; CAR-T binding domains often derive from them.
+ADD	drosophila-segmentation-gene-hierarchy	hox-genes-and-body-plan	soft	high	Hox expression domains are set by gap and pair-rule proteins; segment identity follows segmentation.
+ADD	artificial-selection-and-selective-breeding	natural-selection-types-and-examples	soft	high	Darwin's own route to natural selection ran through domestic breeding; the comparison grounds selection types.
+ADD	photoperiodism-and-phytochrome	circadian-clock-modeling	soft	high	Plant photoperiodic timing is a standard biological example of light input to a circadian clock.

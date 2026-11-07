@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: aromatic-compounds-intro
   type: soft
+- id: properties-of-water-for-life
+  type: soft
 builds-toward:
 - protein-quaternary-structure
 - protein-folding-and-chaperones

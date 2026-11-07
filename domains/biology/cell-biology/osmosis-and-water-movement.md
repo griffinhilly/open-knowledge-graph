@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: colligative-properties
   type: soft
+- id: properties-of-water-for-life
+  type: soft
 builds-toward:
 - membrane-transport-mechanisms
 tags:

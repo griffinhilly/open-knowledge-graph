@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: major-evolutionary-innovations
   type: soft
+- id: origin-of-life
+  type: soft
 builds-toward:
 - adaptive-radiation-molecular-basis
 tags:

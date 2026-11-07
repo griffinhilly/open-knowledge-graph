@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: capillary-filtration-and-reabsorption
   type: soft
+- id: osmoregulation-and-nitrogenous-wastes
+  type: soft
 tags:
 - kidney
 - nephron

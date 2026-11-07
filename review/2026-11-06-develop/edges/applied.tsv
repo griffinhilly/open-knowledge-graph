@@ -619,3 +619,10 @@ DROP	impedance-matching-and-reflection	total-internal-reflection	-
 DROP	acoustic-wave-speed-properties	vibrating-string-normal-modes	-
 ADD	sound-and-vibrations	wave-motion-definition	soft
 DROP	energy-forms-heat-light-sound	wave-properties-intro	-
+ADD	properties-of-water-for-life	osmosis-and-water-movement	soft
+ADD	properties-of-water-for-life	cell-membrane-fluid-mosaic	soft
+ADD	properties-of-water-for-life	protein-tertiary-structure	soft
+ADD	osmoregulation-and-nitrogenous-wastes	renal-physiology-and-fluid-balance	soft
+ADD	origin-of-life	evolutionary-transitions	soft
+ADD	monoclonal-antibodies-and-immunoassays	cancer-immunotherapy-approaches	soft
+ADD	artificial-selection-and-selective-breeding	natural-selection-types-and-examples	soft

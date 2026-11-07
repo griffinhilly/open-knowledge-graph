@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: tumor-immune-surveillance
   type: soft
+- id: monoclonal-antibodies-and-immunoassays
+  type: soft
 tags:
 - cancer-immunotherapy
 - CAR-T-cells

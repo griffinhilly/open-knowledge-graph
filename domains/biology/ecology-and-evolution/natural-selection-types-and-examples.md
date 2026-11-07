@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: heritability-broad-sense-narrow-sense
   type: soft
+- id: artificial-selection-and-selective-breeding
+  type: soft
 builds-toward:
 - genetic-drift-in-small-populations
 - population-genetic-structure-metapopulations

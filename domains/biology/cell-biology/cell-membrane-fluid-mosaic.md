@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: lipid-bilayer-and-amphipathic-molecules
   type: soft
+- id: properties-of-water-for-life
+  type: soft
 builds-toward:
 - osmosis-and-water-movement
 - membrane-transport-mechanisms
