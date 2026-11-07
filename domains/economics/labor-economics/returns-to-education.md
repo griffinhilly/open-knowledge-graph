@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The Mincer earnings equation — log(wage) = alpha + beta*S + gamma1*X + gamma2*X^2 + epsilon — is the foundational empirical specification in labor economics, where S is years of schooling, X is potential experience, and beta estimates the percentage return to an additional year of education. The equation fits observed earnings data remarkably well across countries, but the OLS estimate of beta (typically 8-13%) is biased by ability bias (high-ability individuals get more education AND earn more, inflating the apparent return) and selection bias. Instrumental variable approaches — using compulsory schooling laws, quarter of birth, or distance to college as instruments — generally find returns similar to or slightly above OLS estimates, suggesting that ability bias may be roughly offset by measurement error or that the local average treatment effect for compliers exceeds the average return.
 
+## How It's Best Learned
+Run the Mincer regression yourself on a small wage data set and read the schooling coefficient as an approximate percentage return. Then list every reason it could be biased, marking each as pushing up (ability) or down (measurement error). Finally, compare the OLS estimate with an IV estimate from a compulsory schooling instrument and explain the gap using the idea of compliers.
+
+## Common Misconceptions
+- The schooling coefficient from OLS is the causal return to education. (It also picks up unmeasured ability and selection into schooling, so it can be biased.)
+- Ability bias means IV estimates should come out well below OLS. (IV estimates are often similar to or above OLS, possibly because measurement error pulls OLS down or because compliers have high returns to the marginal year.)
+- An IV estimate gives the return for every student. (It identifies a local effect for compliers, such as students kept in school by compulsory schooling laws.)
+- Each year of school adds the same percentage to earnings. (That is the basic Mincer assumption, but degree-completion years can carry extra returns, known as sheepskin effects.)
+
 ## Questions
 
 ```yaml

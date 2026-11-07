@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Human capital theory (Becker, 1964) treats education, training, and skill acquisition as investment decisions: individuals incur costs (tuition, foregone earnings) in the present to increase their future productivity and earnings. The theory predicts that individuals invest in human capital up to the point where the marginal rate of return equals the discount rate, that more educated workers earn higher wages because they are more productive, and that firms invest in firm-specific training (which increases productivity only at that firm) but not in general training (which increases productivity portably, creating a poaching risk). The theory provides the economic framework for understanding wage differentials, earnings profiles that rise with experience, and the economics of education — while sparking debate about whether observed education premiums reflect genuine productivity gains or signaling effects.
 
+## How It's Best Learned
+Price out a college decision as an investment: list tuition and foregone earnings, list the extra future earnings, and discount both to the present at two different discount rates. Then compare who pays for a general skill, such as a professional certification, and a firm-specific one, such as an in-house system. Sketching a rising, flattening age-earnings profile links the investment logic to data.
+
+## Common Misconceptions
+- The main cost of college is tuition. (Foregone earnings during the years of study are a large part of the cost and are often bigger than direct costs.)
+- Firms pay for all the training their workers receive. (Becker predicts workers pay for general training through lower wages during training, because a trained worker could leave. Firm and worker can share the cost of firm-specific training.)
+- Because college graduates earn more, the full earnings gap is caused by college. (People with higher ability and motivation tend to get more education, so the raw gap mixes causal returns with selection. Signaling may also play a part.)
+- Earnings rise with experience only because of seniority rules. (Human capital theory explains the rising profile by on-the-job investment that is heaviest early in a career.)
+
 ## Questions
 
 ```yaml

@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Monopsony refers to labor markets where employers have market power in wage-setting — they face an upward-sloping labor supply curve (they must raise wages to attract additional workers) rather than taking the wage as given. In the pure monopsony model (one buyer of labor), the firm hires fewer workers at a lower wage than the competitive equilibrium because the marginal cost of labor exceeds the wage (raising the wage for the marginal worker means raising it for all inframarginal workers too). Modern monopsony theory (Manning, 2003) extends this beyond the single-employer case to any market where search frictions, switching costs, geographic immobility, or differentiated job attributes give employers some wage-setting power. Monopsony has major implications: it means minimum wage increases can raise employment, firms earn profits from underpaying workers, and the competitive model systematically overpredicts wages.
 
+## How It's Best Learned
+Build a small table for a firm facing an upward-sloping supply curve: workers, wage needed, total wage bill, and the marginal cost of one more worker. Seeing marginal cost run ahead of the wage explains why the firm stops hiring early. Then impose a minimum wage between the monopsony and competitive wages and redo the table to watch employment rise.
+
+## Common Misconceptions
+- Monopsony requires a single employer, like a company town. (Modern monopsony theory shows that search frictions, switching costs, and job differentiation give many employers some wage-setting power.)
+- A monopsonist hires where the wage equals the marginal revenue product. (It hires where the marginal cost of labor equals the marginal revenue product. Because that marginal cost exceeds the wage, workers are paid below their marginal revenue product.)
+- Any minimum wage under monopsony raises employment. (Employment rises only for a floor set above the monopsony wage and not too far above the competitive level. A very high floor can still cut employment.)
+- If a firm cut wages below the market rate, all its workers would leave at once. (With frictions, many workers stay because switching is costly. That partial retention is the source of monopsony power.)
+
 ## Questions
 
 ```yaml

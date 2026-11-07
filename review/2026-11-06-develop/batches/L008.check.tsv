@@ -1,0 +1,56 @@
+domains/economics/labor-economics/compensating-wage-differentials.md	how	3	0	ok
+domains/economics/labor-economics/compensating-wage-differentials.md	mis	6	0	ok
+domains/economics/labor-economics/discrimination-economics.md	how	3	0	ok
+domains/economics/labor-economics/discrimination-economics.md	mis	6	0	ok
+domains/economics/labor-economics/empirical-methods-labor-economics.md	how	3	0	ok
+domains/economics/labor-economics/empirical-methods-labor-economics.md	mis	8	0	ok
+domains/economics/labor-economics/gender-wage-gap.md	how	3	0	ok
+domains/economics/labor-economics/gender-wage-gap.md	mis	8	1	fixed	Bullet 1 said the headline gap compares "all working women with all working men"; the 82-cent figure compares median earnings of full-time workers. Fixed.
+domains/economics/labor-economics/gig-economy.md	how	3	0	ok
+domains/economics/labor-economics/gig-economy.md	mis	8	0	ok
+domains/economics/labor-economics/globalization-and-labor.md	how	3	0	ok
+domains/economics/labor-economics/globalization-and-labor.md	mis	8	0	ok
+domains/economics/labor-economics/human-capital-theory.md	how	3	0	ok
+domains/economics/labor-economics/human-capital-theory.md	mis	8	0	ok
+domains/economics/labor-economics/immigration-economics.md	how	3	0	ok
+domains/economics/labor-economics/immigration-economics.md	mis	8	0	ok
+domains/economics/labor-economics/incentive-design-personnel-economics.md	how	3	0	ok
+domains/economics/labor-economics/incentive-design-personnel-economics.md	mis	8	0	ok
+domains/economics/labor-economics/informal-labor-markets.md	how	3	0	ok
+domains/economics/labor-economics/informal-labor-markets.md	mis	8	0	ok
+domains/economics/labor-economics/intergenerational-mobility.md	how	3	0	ok	Older text: Core Idea calls the IGE a "correlation" (it is an elasticity/regression slope), and Q0 explanation mixes percentile ranks (90th -> 70th) into an IGE example; not fixed (out of scope).
+domains/economics/labor-economics/intergenerational-mobility.md	mis	8	1	fixed	Bullet 2 said moves to high-mobility areas improve children's outcomes without the age qualifier; movers/MTO gains are for children who move young (teen movers show little or no gain). Fixed.
+domains/economics/labor-economics/internal-labor-markets.md	how	3	0	ok
+domains/economics/labor-economics/internal-labor-markets.md	mis	8	0	ok
+domains/economics/labor-economics/labor-demand-theory.md	how	3	0	ok
+domains/economics/labor-economics/labor-demand-theory.md	mis	8	0	ok
+domains/economics/labor-economics/labor-market-equilibrium.md	how	3	0	ok
+domains/economics/labor-economics/labor-market-equilibrium.md	mis	8	0	ok
+domains/economics/labor-economics/labor-market-institutions.md	how	3	0	ok
+domains/economics/labor-economics/labor-market-institutions.md	mis	8	1	fixed	Bullet 1 said "Nordic countries" pair generous benefits with low unemployment; Sweden and Finland currently have above-EU-average unemployment. Narrowed to Denmark (relatively low unemployment), matching the How section.
+domains/economics/labor-economics/labor-market-regulation.md	how	3	0	ok
+domains/economics/labor-economics/labor-market-regulation.md	mis	8	0	ok
+domains/economics/labor-economics/labor-supply-theory.md	how	3	0	ok
+domains/economics/labor-economics/labor-supply-theory.md	mis	8	0	ok
+domains/economics/labor-economics/labor-unions.md	how	3	0	ok
+domains/economics/labor-economics/labor-unions.md	mis	8	0	ok
+domains/economics/labor-economics/lifecycle-labor-supply.md	how	3	0	ok	Older text: Core Idea says "U-shaped lifecycle earnings profile"; the profile is an inverted U (hump). Not fixed (out of scope).
+domains/economics/labor-economics/lifecycle-labor-supply.md	mis	8	2	fixed	Bullet 3 belief was incoherent (a rise in participation cannot come from hours); reworded to "women's labor supply". Bullet 4 "The data reject income pooling ... as the collective model predicts" overstated; changed to "Many studies reject" and "which the collective model allows and the unitary model does not".
+domains/economics/labor-economics/minimum-wage-economics.md	how	3	0	ok	Older text: Core Idea credits "meta-analyses by Dube"; Dube's main work is border-pair and bunching studies, not meta-analysis. Not fixed (out of scope).
+domains/economics/labor-economics/minimum-wage-economics.md	mis	8	0	ok
+domains/economics/labor-economics/monopsony.md	how	3	0	ok
+domains/economics/labor-economics/monopsony.md	mis	8	0	ok
+domains/economics/labor-economics/occupational-choice.md	how	3	0	ok
+domains/economics/labor-economics/occupational-choice.md	mis	8	1	fixed	Bullet 3 (better at everything -> "biggest raw advantage" vs "relative return is largest") was ambiguous: belief and correction are not clearly distinct, and Roy choice is where own earnings are highest. Cut; 3 bullets remain.
+domains/economics/labor-economics/returns-to-education.md	how	3	0	ok
+domains/economics/labor-economics/returns-to-education.md	mis	8	0	ok
+domains/economics/labor-economics/search-and-matching-models.md	how	3	0	ok
+domains/economics/labor-economics/search-and-matching-models.md	mis	8	0	ok
+domains/economics/labor-economics/signaling-model.md	how	3	0	ok
+domains/economics/labor-economics/signaling-model.md	mis	8	0	ok
+domains/economics/labor-economics/technological-change-labor.md	how	3	0	ok
+domains/economics/labor-economics/technological-change-labor.md	mis	8	0	ok
+domains/economics/labor-economics/unemployment-theory.md	how	3	0	ok
+domains/economics/labor-economics/unemployment-theory.md	mis	8	1	fixed	Bullet 4 claimed the NAIRU is not what policymakers aim for; central banks often treat the natural rate as the maximum-employment benchmark, so the correction is contestable. Cut; 3 bullets remain.
+domains/economics/labor-economics/wage-determination.md	how	3	0	ok
+domains/economics/labor-economics/wage-determination.md	mis	8	0	ok

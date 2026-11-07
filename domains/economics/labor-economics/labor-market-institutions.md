@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Labor market institutions are the laws, regulations, norms, and organizational structures that shape employment relationships and labor market outcomes. Key institutions include employment protection legislation (hiring and firing regulations), unemployment insurance (income support during joblessness), minimum wages, collective bargaining systems (centralized vs. decentralized), active labor market policies (training, job placement, subsidized employment), and payroll taxes. Cross-country variation in these institutions explains much of the variation in unemployment rates, wage inequality, and labor market dynamics across developed economies. The literature debates whether "rigid" institutions (strong protections, generous UI) primarily protect workers or primarily generate unemployment — with the answer depending critically on institutional design, complementarities between institutions, and macroeconomic conditions.
 
+## How It's Best Learned
+Make a grid with countries as rows and institutions as columns: firing rules, UI generosity and conditions, bargaining level, and active labor market programs. Fill it for Denmark, the US, and one Southern European country, then compare unemployment levels and durations. Reading across a row shows how institutions combine, which is the main lesson of this topic.
+
+## Common Misconceptions
+- Generous unemployment benefits lead to high unemployment. (Denmark pairs generous benefits with relatively low unemployment by adding strict search requirements and active programs. Design matters as much as generosity.)
+- Employment protection lowers unemployment because it prevents layoffs. (It reduces firing but also reduces hiring, so the effect on the unemployment rate is ambiguous. It tends to lengthen unemployment spells.)
+- Each institution can be judged on its own. (The effect of one institution depends on the others it is combined with, such as UI with or without activation rules.)
+- Unemployment insurance only creates moral hazard. (It can reduce search effort, but it also smooths income and can let workers find jobs that match their skills better.)
+
 ## Questions
 
 ```yaml

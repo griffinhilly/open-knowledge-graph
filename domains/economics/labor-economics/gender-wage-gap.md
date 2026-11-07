@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 The gender wage gap — women earn roughly 82 cents for every dollar men earn in the US (2024) — is one of the most studied phenomena in labor economics. Decomposition analyses show that observable differences in education, experience, occupation, and industry explain a significant portion but not all of the gap. The unexplained residual reflects some combination of discrimination, unmeasured productivity differences, and compensating differentials. Goldin's (2014) research showed that the gap is concentrated in occupations that disproportionately reward long hours and inflexible schedules (finance, law, corporate management), and that the gap widens sharply at the point of parenthood (the "motherhood penalty"), suggesting that the interaction of workplace structure with gendered caregiving responsibilities is a primary driver.
 
+## How It's Best Learned
+Begin by decomposing a raw gap into explained and unexplained parts, then ask what each part could contain. Next, compare two occupations side by side: one where pay rises in proportion to hours, like pharmacy, and one where long hours earn a disproportionate premium, like corporate law. Finally, trace a couple's earnings around the birth of a first child to see where the gap opens.
+
+## Common Misconceptions
+- The raw gap means women are paid less than men for the same job. (The headline figure compares the median earnings of women and men who work full time, across all jobs. Much of it reflects differences in occupation, hours, and experience, though a residual remains after these controls.)
+- If a gap can be explained by occupation and hours, it involves no discrimination or constraint. (The choices of occupation and hours can be shaped by expected discrimination, caregiving norms, and workplace pay structures.)
+- The gap today mainly reflects women having less education than men. (In the US, women now earn more bachelor's and master's degrees than men, so education explains a shrinking share of the gap.)
+- The gap is roughly constant across a woman's career. (The gap is modest among young childless workers and widens sharply after the first child.)
+
 ## Questions
 
 ```yaml

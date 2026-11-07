@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Wage determination integrates supply-side factors (human capital, preferences, labor supply elasticity), demand-side factors (marginal productivity, product market conditions, technology), and institutional factors (unions, minimum wages, norms, regulations) to explain both the level and distribution of wages. In the perfectly competitive model, wages equal the marginal revenue product of labor. In practice, wages are also shaped by bargaining power (rent-sharing between firms and workers), efficiency wage considerations (firms paying above market-clearing wages to elicit effort or reduce turnover), compensating differentials, discrimination, and institutional constraints. Understanding wage determination requires recognizing that no single model captures all the forces at work — the competitive model is the baseline, but departures from it are empirically important.
 
+## How It's Best Learned
+Follow one worker through two employers: same skills, same job title, different pay. List every explanation the competitive model allows, then add the ones it does not, such as rent-sharing, efficiency wages, unions, and discrimination. An AKM decomposition, which splits wages into a worker effect and a firm effect, makes a good worked example once the list is built.
+
+## Common Misconceptions
+- Each worker is paid exactly what they produce. (That is the competitive benchmark. Bargaining, efficiency wages, monopsony, and institutions can push pay above or below marginal revenue product.)
+- Workers with the same skills earn the same wage everywhere. (Firm fixed effects explain a substantial share of wage variation, so where someone works matters as well as who they are.)
+- Paying above the market wage is irrational for a firm. (Efficiency wage models show it can pay off through less shirking, lower turnover, better applicants, or reciprocated effort.)
+- Wage differences reflect only differences in skill. (Compensating differentials, rent-sharing, discrimination, and norms also shape the wage structure.)
+
 ## Questions
 
 ```yaml

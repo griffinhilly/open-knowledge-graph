@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 Lifecycle labor supply models analyze how individuals and households allocate time between work, leisure, and home production over the course of their lives, rather than treating labor supply as a static decision at a point in time. The framework distinguishes between the extensive margin (whether to participate in the labor force at all) and the intensive margin (how many hours to work conditional on participation), a distinction critical for understanding female labor supply. Key contributions include Heckman's (1974, 1979) selection correction for the extensive margin (accounting for the fact that observed wages represent only those who chose to participate), the MaCurdy (1981) lifecycle model (where intertemporal substitution of leisure means workers supply more labor when wages are temporarily high), and Chiappori's (1988, 1992) collective household model (which models the household as two agents with different preferences bargaining over labor supply, replacing the unitary household assumption). These models explain the dramatic rise in female labor force participation, the U-shaped lifecycle earnings profile, the decline in male labor force participation, and the impact of tax and transfer policies on work incentives.
 
+## How It's Best Learned
+Begin with a sample of women where wages appear only for those who work, and ask what an average of observed wages says about women who stay home. That sets up Heckman's correction. Next, compare one worker's response to a permanent raise with a one-season wage spike to separate Marshallian and Frisch responses. Finish with a couple whose wife's earnings rise while household income stays fixed.
+
+## Common Misconceptions
+- The average wage of working women shows what non-working women could earn. (Women who work are self-selected, and those with higher potential wages are more likely to participate. Observed wages are a non-random sample.)
+- A temporary raise and a permanent raise should change hours by the same amount. (A permanent raise brings a larger income effect. A temporary raise mainly triggers intertemporal substitution, so the Frisch elasticity is typically larger than the Marshallian.)
+- The rise in women's labor supply came mainly from working women adding hours. (It was mainly an extensive-margin change, with more women entering the labor force.)
+- It does not matter which spouse receives household income. (Many studies reject income pooling. Income controlled by women is spent differently, which the collective model allows and the unitary model does not.)
+
 ## Questions
 
 ```yaml

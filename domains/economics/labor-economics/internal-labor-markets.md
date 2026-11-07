@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 An internal labor market (ILM) is an administrative system within a firm where the pricing and allocation of labor is governed by rules, procedures, and customs rather than by external market forces. In the canonical framework of Doeringer and Piore (1971), workers enter the firm through limited "ports of entry" at the bottom of job ladders, and subsequent movement — promotions, lateral transfers, wage increases — is determined by seniority, performance evaluations, and organizational rules rather than by competitive bidding from outside. Internal labor markets arise because firm-specific human capital, on-the-job training costs, and institutional norms make continuous external market clearing impractical. The theory explains why wages within firms often deviate substantially from external market wages, why layoffs follow seniority rules, and why large firms pay more than small firms for observably identical workers — the large-firm wage premium.
 
+## How It's Best Learned
+Draw the job ladder of one large organization you know, marking the port of entry and the rungs filled by promotion. Next to each rung, write whether its wage is set by internal rules or by outside offers. Then follow a long-tenure worker through a plant closing and ask which parts of their pay survive the move to a new employer.
+
+## Common Misconceptions
+- Internal labor markets exist because laws require firms to promote from within. (They arise mainly from firm-specific skills, training costs, and better information about incumbents. Regulation can reinforce them but is not the main cause.)
+- Within a firm, each worker is paid their own marginal product. (In an ILM, wages attach to jobs and the structure is compressed by internal equity norms, so pay can depart from individual productivity.)
+- A displaced worker can find a similar job at a similar wage. (Firm-specific capital and ILM rents are lost when a firm closes, and plant-closing studies find large, lasting earnings losses.)
+- Seniority rules only protect older workers at the firm's expense. (They also protect the firm-specific investment both sides have made and reduce the risk that a firm replaces trained workers with cheaper novices.)
+
 ## Questions
 
 ```yaml

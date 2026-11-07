@@ -29,6 +29,15 @@ status: validated
 ## Core Idea
 Personnel economics applies principal-agent theory to the employment relationship, analyzing how firms design compensation structures to elicit effort from workers whose actions they cannot perfectly observe. The core problem is moral hazard: workers bear the cost of effort but firms capture most of the output, creating a misalignment of incentives. Key compensation mechanisms include piece rates (pay per unit of output, which provide strong incentives but expose workers to risk and distort effort toward measurable dimensions), tournaments (rank-order compensation as in Lazear and Rosen, 1981, where workers compete for promotion and the prize spread motivates effort), deferred compensation (Lazear, 1979, where workers are underpaid early and overpaid late in their careers, creating self-enforcing incentives because workers lose deferred pay if fired for shirking), and efficiency wages (paying above market-clearing wages so that job loss is costly, motivating effort without direct monitoring). Each mechanism involves a different tradeoff between incentive power, risk allocation, and measurement costs.
 
+## How It's Best Learned
+Pick one job, such as a windshield installer or a teacher, and design a pay scheme for it four ways: piece rate, tournament, deferred pay, and efficiency wage. For each, write what the firm must observe, who bears the risk, and how a worker could game it. The Safelite case is a good worked example to start from, because it separates incentive effects from sorting effects.
+
+## Common Misconceptions
+- Stronger pay-for-performance is better. (When some tasks are hard to measure, strong incentives on measured tasks pull effort away from the rest. The best contract may use weaker incentives.)
+- In a promotion tournament, workers try to hit an output target. (Only relative rank matters. Effort depends on the prize spread and the noise in evaluation, and common shocks drop out.)
+- Pay that rises with tenure must reflect rising productivity. (In Lazear's deferred-compensation model, senior workers are paid above their marginal product as a return on an implicit bond posted early in the career.)
+- A firm that pays above the market wage is wasting money. (An efficiency wage makes job loss costly, which can motivate effort and cut turnover more cheaply than close monitoring.)
+
 ## Questions
 
 ```yaml

@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Unemployment theory distinguishes among frictional unemployment (temporary joblessness during transitions between jobs), structural unemployment (mismatch between workers' skills/locations and available jobs), and cyclical unemployment (joblessness due to insufficient aggregate demand). The natural rate of unemployment (or NAIRU — Non-Accelerating Inflation Rate of Unemployment) represents the equilibrium unemployment rate in the absence of cyclical fluctuations, determined by the efficiency of the matching process, the generosity of unemployment insurance, the degree of mismatch, and institutional factors. Understanding why unemployment exists, why it varies over time and across countries, and what policies can reduce it without generating inflation requires integrating search theory, efficiency wage models, and macroeconomic analysis.
 
+## How It's Best Learned
+Classify a set of short cases as frictional, structural, or cyclical: a graduate looking for a first job, a steel worker in a closing mill town, a waiter laid off in a recession. For each, name the policy that would help and the one that would not. Then compare the unemployment rate with inflation over a few years to see why the NAIRU is estimated, not observed.
+
+## Common Misconceptions
+- Any unemployment means the economy is failing. (Some frictional unemployment comes from people searching for better matches, which can raise productivity.)
+- The natural rate is a fixed number. (The NAIRU shifts with matching efficiency, unemployment insurance, demographics, and institutions.)
+- Demand stimulus can cure any kind of unemployment. (Stimulus works on cyclical unemployment. Structural mismatch needs retraining, mobility, or other supply-side measures, and stimulus aimed at it risks inflation.)
+
 ## Questions
 
 ```yaml

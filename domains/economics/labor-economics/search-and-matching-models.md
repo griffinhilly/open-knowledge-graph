@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Search and matching models (Diamond, Mortensen, Pissarides — 2010 Nobel Prize) explain labor market dynamics by modeling the costly, time-consuming process of matching workers with jobs. Rather than assuming frictionless instantaneous matching, these models treat the labor market as a decentralized process where unemployed workers search for vacancies, firms post vacancies and screen applicants, and matches form through a stochastic matching function M(U, V). Once matched, wages are determined by Nash bargaining that splits the match surplus between worker and firm. The framework explains why unemployment and vacancies coexist (the Beveridge curve), how unemployment insurance affects job search and labor market outcomes, and why job creation and destruction drive business cycle dynamics.
 
+## How It's Best Learned
+Plug numbers into a Cobb-Douglas matching function: pick U and V, compute matches, then the job-finding rate per worker and the fill rate per vacancy. Double V and see how both rates change with tightness. Then plot the unemployment and vacancy rates over several years on Beveridge-curve axes and separate moves along the curve from shifts of it.
+
+## Common Misconceptions
+- If there are as many vacancies as unemployed workers, unemployment should fall to zero. (Matching takes time because of information gaps, skill mismatch, and location, so unemployment and vacancies coexist.)
+- In search models the wage equals the worker's marginal product, as in competition. (Wages come from bargaining over the match surplus and depend on bargaining power and each side's outside option.)
+- Any rise in unemployment means the labor market matches workers worse. (A move along the Beveridge curve reflects weaker demand. Only an outward shift of the curve points to worse matching efficiency.)
+- Unemployment insurance only harms the labor market by reducing search effort. (It can lengthen spells, but it also lets workers search longer for better matches.)
+
 ## Questions
 
 ```yaml

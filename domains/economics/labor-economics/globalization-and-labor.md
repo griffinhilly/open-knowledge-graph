@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Globalization affects labor markets through trade in goods (which shifts product demand and thus labor demand across sectors), offshoring of tasks (which extends the substitution frontier beyond domestic automation to international wage competition), and immigration (covered separately). The Stolper-Samuelson theorem predicts that trade with low-wage countries reduces wages for the abundant factor in those countries (low-skilled labor in developed nations) while raising wages for scarce factors. The "China shock" literature (Autor, Dorn, Hanson) empirically documented that US communities more exposed to Chinese import competition experienced significant declines in manufacturing employment, wages, and labor force participation — with adjustment costs far exceeding what standard trade models predicted and persisting for over a decade.
 
+## How It's Best Learned
+Work through a two-good, two-factor example: a skill-abundant country opens trade, the price of the unskilled-intensive good falls, and you trace the effect on each factor's real wage. Then contrast that frictionless prediction with the China shock evidence by listing why a displaced factory worker does not move smoothly into a growing sector. Sorting a few jobs by whether their tasks could be done remotely shows how offshoring reaches services.
+
+## Common Misconceptions
+- If trade raises national income, every worker gains. (Trade can raise aggregate welfare while lowering the real wage of the factor used intensively in import-competing goods. In a skill-abundant country, that is unskilled labor.)
+- Workers who lose jobs to imports quickly move into expanding industries. (The China shock evidence shows lasting declines in employment and wages in exposed regions, due to immobility, skill mismatch, and search frictions.)
+- Only manufacturing jobs are exposed to globalization. (Task offshoring puts specific service tasks, such as data processing or reading digital images, into international competition.)
+- Trade effects stay inside the industry facing imports. (In the Stolper-Samuelson model, factor prices adjust across the whole economy, so workers outside the competing industry are affected too.)
+
 ## Questions
 
 ```yaml

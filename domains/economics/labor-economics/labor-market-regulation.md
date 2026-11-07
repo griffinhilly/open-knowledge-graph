@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Employment protection legislation (EPL) comprises the set of regulations governing the hiring and — especially — the dismissal of workers: advance notice requirements, severance pay mandates, restrictions on unfair dismissal, and rules governing the use of temporary and fixed-term contracts. EPL is one of the most studied and debated labor market institutions because it creates a fundamental tradeoff: stricter protection reduces involuntary job loss for incumbent workers (insiders) but raises the cost of adjustment for firms, potentially reducing hiring rates and trapping outsiders (the unemployed, youth, new entrants) in precarious or informal employment. The OECD's EPL index, which scores countries on the stringency of their dismissal regulations, reveals enormous cross-country variation — from flexible Anglo-Saxon systems (US, UK) to rigid Continental European systems (France, Italy, Spain) — and this variation has been central to debates about why European unemployment rates diverged from American rates in the 1980s and 1990s.
 
+## How It's Best Learned
+Treat a firing cost as a tax and follow one firm through a boom and a bust: in the bust it keeps workers it would have let go, and in the boom it hires fewer because each hire may later cost severance. Then draw unemployment as a bathtub with inflows and outflows to see why both can shrink while the level barely moves. Spain's two-tier contracts make a good case to close on.
+
+## Common Misconceptions
+- Strict employment protection clearly raises the unemployment rate. (It lowers both firing and hiring, so the net effect on the rate is ambiguous. The cross-country correlation with unemployment is weak.)
+- Employment protection only affects firing decisions. (Firms expect future firing costs when they hire, so strict rules also slow hiring.)
+- Making temporary contracts easier fixes the problems of strict protection. (Loosening only temporary contracts can deepen the split between protected permanent workers and temporary workers who bear the adjustment risk.)
+- Employment protection mainly changes how many people are unemployed. (Its clearest effects are on who is unemployed and for how long: lower turnover, longer spells, and more youth unemployment.)
+
 ## Questions
 
 ```yaml

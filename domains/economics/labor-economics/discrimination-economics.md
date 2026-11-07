@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Economic models of labor market discrimination explain persistent wage gaps between demographic groups through two distinct mechanisms. Becker's taste-based discrimination model (1957) treats prejudice as a preference — discriminating employers, coworkers, or customers have a "taste for discrimination" that leads them to avoid or underpay minority workers. The model predicts that competitive market forces should erode taste-based discrimination over time (non-discriminating firms earn higher profits by hiring underpriced minority workers). Statistical discrimination (Phelps, Arrow) operates through rational Bayesian inference under imperfect information — employers use group membership as a signal of productivity when individual information is costly to acquire, even without prejudice. The two models have different policy implications: taste-based discrimination may respond to competition and anti-discrimination law, while statistical discrimination requires improving information or prohibiting the use of group statistics.
 
+## How It's Best Learned
+Work the Becker model with numbers first: set a majority wage, add a discrimination coefficient d, and find the minority wage at which a prejudiced employer hires. Then show why a non-discriminating rival profits from that gap. Next, build a small statistical-discrimination example where an employer sees a noisy test score and shrinks it toward a group average.
+
+## Common Misconceptions
+- Discrimination requires prejudice. (Statistical discrimination can arise from employers using group averages to predict individual productivity, with no animus at all. The harm to high-productivity members of the group is still real.)
+- Competition will remove any kind of discrimination. (Becker's model predicts competition erodes employer taste-based discrimination. Customer and coworker discrimination, market power, and statistical discrimination are not removed by the same mechanism.)
+- The unexplained part of a wage-gap decomposition is a direct measure of discrimination. (The residual also captures omitted productivity-related variables. Observed characteristics such as occupation may themselves reflect earlier discrimination, so the residual is an approximate measure.)
+
 ## Questions
 
 ```yaml

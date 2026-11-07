@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Occupational choice theory models how individuals select among occupations based on comparative advantage, preferences, and expected returns. The Roy model (1951) provides the foundational framework: individuals self-select into the occupation where their earnings are highest, given their sector-specific skills. This selection generates sorting — individuals with high ability in finance cluster in finance, those with high ability in teaching cluster in teaching — and this sorting has implications for wage distributions within occupations and for the interpretation of observed wage differentials. Understanding self-selection is essential because naive comparisons of wages across occupations confound the causal effect of the occupation with the characteristics of who selects into it.
 
+## How It's Best Learned
+Create five workers, each with a potential wage in two occupations, and let each choose the higher one. Then compute the average wage in each occupation and compare it with what a randomly assigned worker would earn there. The gap between the two averages is selection made visible, and it sets up why Heckman-style corrections exist.
+
+## Common Misconceptions
+- People should pick the occupation with the highest average wage. (In the Roy model, each person picks the occupation where their own earnings are highest, which depends on their skill profile.)
+- The wage gap between two occupations is what a person would gain by switching. (Observed gaps mix the occupation's effect with differences in who chose it, so an individual switcher may gain much less or more.)
+- Occupational sorting reflects only skills and preferences. (Information gaps, social norms, financial constraints, and past discrimination also shape who enters which occupations.)
+
 ## Questions
 
 ```yaml

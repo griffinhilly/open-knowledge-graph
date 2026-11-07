@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Minimum wage economics examines the effects of legally mandated wage floors on employment, wages, and welfare. The standard competitive model predicts that a binding minimum wage (above the equilibrium wage) reduces employment by creating a labor surplus. The monopsony model predicts that moderate minimum wage increases can raise both wages and employment. Empirical evidence, particularly Card and Krueger's (1994) study of fast-food restaurants and subsequent meta-analyses by Dube, has generally found small or zero negative employment effects from moderate minimum wage increases, with clear positive effects on earnings for low-wage workers. The debate remains one of the most active in labor economics, with the consensus shifting toward small disemployment effects that are outweighed by earnings gains for most affected workers.
 
+## How It's Best Learned
+Draw the same minimum wage on two diagrams: a competitive market, where it cuts employment, and a monopsony market, where a moderate floor raises it. Then work through the Card and Krueger difference-in-differences table with New Jersey and Pennsylvania before and after. List the margins a restaurant can adjust besides headcount, such as prices, hours, and turnover, to see why measured job losses can be small.
+
+## Common Misconceptions
+- Economic theory says a minimum wage must reduce employment. (That is the competitive model's prediction. Under monopsony, a moderate minimum wage can raise both wages and employment.)
+- Since moderate increases show small employment effects, any increase is safe. (The evidence covers moderate increases. Very large increases relative to local wages have less coverage and may cause larger job losses.)
+- Employers can respond to a higher minimum wage only by cutting jobs. (Firms can also raise prices, trim hours or benefits, accept lower profits, or gain from lower turnover.)
+- Economists now agree on the size of the employment effect. (The consensus has moved toward small effects, but researchers still disagree, partly because of different comparison groups and methods.)
+
 ## Questions
 
 ```yaml

@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Labor unions are worker organizations that bargain collectively with employers over wages, benefits, and working conditions. Economic analysis examines unions through two complementary lenses: the monopoly face (unions raise wages above the competitive level by restricting labor supply, creating allocative inefficiency) and the collective voice face (unions provide a mechanism for communicating worker preferences to management, reducing turnover and improving workplace governance — Freeman and Medoff, 1984). The union wage premium — the wage advantage of union over comparable non-union workers — is estimated at 10-20% in the US. Union membership has declined dramatically in most developed countries since the 1970s, from about 35% to under 10% in the US private sector, with significant implications for wage inequality and worker bargaining power.
 
+## How It's Best Learned
+Draw two sectors side by side: a union raises the wage in one, employment there falls, and displaced workers lower the wage in the other. Then list the workplace public goods, such as safety rules and grievance procedures, that a single worker cannot win alone. Weighing the misallocation from the first exercise against the voice gains from the second gives Freeman and Medoff's two-faces framework.
+
+## Common Misconceptions
+- Unions only raise wages for their members and have no wider effect. (Union wage gains can push displaced workers into the non-union sector and lower wages there. Unions also compress the wage distribution, so their decline is linked to rising inequality.)
+- The union wage premium shows that unions make workers more productive. (The premium mainly reflects bargaining power. Any productivity gains come through the voice channel, and the evidence on those is mixed.)
+- Unions are purely a source of inefficiency. (The voice face can reduce turnover and improve information flow, which may offset part or all of the monopoly cost in some settings.)
+- Union decline is explained by the shift from manufacturing to services. (Structural change is one factor. The steeper US decline compared with Nordic countries suggests employer opposition and legal changes matter too.)
+
 ## Questions
 
 ```yaml

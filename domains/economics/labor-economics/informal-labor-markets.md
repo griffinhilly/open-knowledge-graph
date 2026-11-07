@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Informal labor markets encompass economic activities and employment relationships that operate outside the reach of government regulation, taxation, and social protection systems. In developing countries, informal employment represents 50-90% of total non-agricultural employment. The informal sector includes street vendors, domestic workers, informal manufacturing, and unregistered small enterprises. Competing theoretical perspectives view informality as either involuntary exclusion (workers who cannot access formal sector jobs due to barriers) or voluntary exit (workers who choose informality to avoid taxes, regulations, and bureaucracy). The heterogeneity of the informal sector — ranging from subsistence survival strategies to profitable unregistered businesses — suggests both mechanisms operate simultaneously for different segments. Understanding informality is essential for labor policy in developing countries because standard policy tools (minimum wages, UI, EPL) have limited reach when most workers are informal.
 
+## How It's Best Learned
+Compare two informal workers: a waste picker with no formal job offer and a small workshop owner who could register but chooses not to. For each, list the costs and benefits of formalizing and decide which theory, exclusion or exit, fits. Then trace a formal-sector minimum wage increase through both a spillover channel and a displacement channel to see how policy reaches the informal sector.
+
+## Common Misconceptions
+- Informal work is the same as illegal activity. (Most informal work involves legal goods and services, such as street vending or domestic work. It is informal because it is unregistered and untaxed.)
+- Informal workers are there only because no formal jobs exist. (Some are excluded, but others choose informality because formalization costs more than it returns. Both groups exist.)
+- The informal sector is all low-productivity subsistence work. (It also includes skilled artisans and profitable small businesses that may earn more than some formal workers.)
+- A higher formal minimum wage only affects formal workers. (It can raise informal wages as a reference point or push displaced workers into the informal sector, lowering wages there.)
+
 ## Questions
 
 ```yaml

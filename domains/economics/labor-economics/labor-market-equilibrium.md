@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Labor market equilibrium occurs where labor supply equals labor demand, determining the market wage and employment level. In the perfectly competitive model, the market clears — every worker willing to work at the equilibrium wage finds employment. However, real labor markets exhibit persistent features that the simple model cannot explain: involuntary unemployment, wage rigidity, and persistent wage differentials across identical workers. Extensions including efficiency wages (firms pay above market-clearing wages), search frictions (matching workers and jobs takes time and resources), insider-outsider dynamics (employed workers have bargaining power that unemployed workers lack), and monopsony (employer market power) explain why observed equilibria typically involve unemployment and wages that do not perfectly reflect marginal productivity.
 
+## How It's Best Learned
+Draw the competitive supply-and-demand diagram first and confirm that no one willing to work at the equilibrium wage is left out. Then modify it one friction at a time: raise the wage above clearing for an efficiency wage, add a matching process for search, and give one employer wage-setting power. For each version, mark where unemployment appears and predict what a minimum wage would do.
+
+## Common Misconceptions
+- Anyone without a job in the competitive model is involuntarily unemployed. (In the competitive model, those not working have chosen not to work at the going wage. Involuntary unemployment needs a departure from the model, such as efficiency wages or search frictions.)
+- Unemployment means the market is out of equilibrium and will soon clear. (In efficiency-wage and search models, unemployment is part of a stable equilibrium.)
+- Unemployment and vacancies cannot both be high, since workers would fill the open jobs. (With search frictions, unemployed workers and open vacancies coexist because matching takes time and information.)
+- A minimum wage reduces employment in every labor market. (That holds in the competitive model. Under monopsony, a moderate minimum wage can raise employment.)
+
 ## Questions
 
 ```yaml

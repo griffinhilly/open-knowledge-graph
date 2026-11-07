@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 Labor demand is a derived demand — firms hire workers not for their own sake but because labor produces output that generates revenue. A profit-maximizing firm hires workers up to the point where the marginal revenue product of labor (MRPL = marginal product of labor times marginal revenue) equals the wage. The labor demand curve slopes downward because of diminishing marginal returns: as more workers are added to fixed capital, each additional worker's marginal product eventually declines. Labor demand elasticity — how responsive hiring is to wage changes — depends on the elasticity of product demand, the ease of substituting capital for labor, labor's share of total costs, and the supply elasticity of other factors (the Hicks-Marshall rules). These determinants are crucial for predicting the employment effects of minimum wages, payroll taxes, and technological change.
 
+## How It's Best Learned
+Build a short table for a small kitchen: workers hired, total meals, marginal product, and marginal revenue product at a fixed meal price. Find the hiring level at two different wages, and the downward-sloping demand curve appears. Then apply the four Hicks-Marshall rules to two contrasting employers, such as a fast-food chain and a hospital, and predict which cuts staff more after a wage rise.
+
+## Common Misconceptions
+- Firms hire workers because they need workers. (Labor demand is derived from demand for the firm's output. If demand for the product falls, demand for the workers who make it falls too.)
+- The demand curve slopes down because firms dislike paying more. (In the short run it slopes down because of diminishing marginal product. The firm hires until the marginal revenue product of the last worker equals the wage.)
+- A wage rise has the same employment effect in the short run and the long run. (In the long run, firms can also substitute capital for labor, so long-run labor demand is more elastic.)
+- A firm should hire more whenever workers are productive on average. (The hiring decision depends on the marginal worker's revenue product compared with the wage, not on average productivity.)
+
 ## Questions
 
 ```yaml

@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Immigration economics examines how the inflow of foreign workers affects native wages, employment, and the overall economy. The simple competitive model predicts that immigration increases labor supply, depressing wages for native workers who are substitutes for immigrants and raising wages for those who are complements. Empirical evidence — particularly Card's (1990) Mariel boatlift study and subsequent area-based analyses — generally finds small negative effects on native wages, especially for the average native worker, though effects on close substitutes (particularly low-skilled natives and previous immigrants) may be larger. The immigration surplus — the net gain to the receiving economy from employing immigrant labor at below-native wages — is positive but small relative to GDP. The debate centers on distributional effects (who gains and who loses), long-run assimilation, and fiscal impacts.
 
+## How It's Best Learned
+Draw a labor market, shift supply out for an immigrant inflow, and shade the immigration surplus triangle and the rectangle transferred from native workers to employers. Then redo the diagram with immigrants as complements to native workers. Comparing Card's Miami design with Borjas's skill-group design shows why the two approaches reach different answers.
+
+## Common Misconceptions
+- Immigrants take a fixed number of jobs away from natives. (The number of jobs is not fixed. Immigrants also spend income and firms adjust capital, which raises labor demand.)
+- Immigration affects every native worker the same way. (Natives who are close substitutes for immigrants face wage pressure, while those who are complements can gain.)
+- A small average wage effect means immigration has small consequences. (The aggregate surplus is small, but the redistribution from substitutable workers to employers and complementary workers can be large for those groups.)
+- Area-based studies settle the question because they compare real cities. (Natives may move out and capital may move in to high-immigration areas, which can hide wage effects in city comparisons.)
+
 ## Questions
 
 ```yaml

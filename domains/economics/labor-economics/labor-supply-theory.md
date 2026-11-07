@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 Labor supply theory models the individual's choice between labor (earning income) and leisure (all non-work time), treating the wage rate as the price of leisure. The worker maximizes utility subject to a budget constraint where income equals the wage times hours worked plus non-labor income. A wage increase produces two opposing effects: the substitution effect (leisure is now more expensive, so the worker substitutes toward work) and the income effect (higher income enables more consumption of all normal goods, including leisure). The backward-bending labor supply curve results when the income effect dominates at high wages — workers choose to consume more leisure (work less) as they become wealthier. This framework underpins the analysis of taxation, welfare policy, and labor market participation decisions.
 
+## How It's Best Learned
+Draw the budget line with leisure on the horizontal axis and consumption on the vertical, starting from non-labor income. Rotate it for a wage rise, then draw a compensated line tangent to the original indifference curve to split the move into substitution and income effects. Repeat for a tax cut and for a welfare benefit that phases out with earnings, and compare the kinks.
+
+## Common Misconceptions
+- A higher wage makes people work more. (The substitution effect pushes toward more work, but the income effect pushes toward more leisure. The net effect can go either way.)
+- Leisure means idle time. (In the model, leisure is all non-market time, including home production and childcare.)
+- Working fewer hours after a raise is irrational. (It is a rational response when the income effect outweighs the substitution effect, which produces the backward-bending supply curve.)
+- Labor supply responds to wages the same way for everyone. (Prime-age men show low elasticities. Married women, secondary earners, and older workers respond more, especially on the decision to participate at all.)
+
 ## Questions
 
 ```yaml

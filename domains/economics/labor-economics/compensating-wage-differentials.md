@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Compensating wage differentials theory (Adam Smith, 1776; modern formalization by Rosen, 1986) predicts that wages adjust to offset non-monetary characteristics of jobs — dangerous, unpleasant, or inconvenient jobs pay more, while safe, pleasant, or flexible jobs pay less, all else equal. The theory treats the labor market as a hedonic market where the wage is the price of a bundle of job attributes. Workers with different preferences sort into jobs that best match their attribute-tradeoff preferences, and firms with different cost structures offer different amenity-wage packages. The resulting equilibrium generates a hedonic wage function that reveals implicit prices for job attributes like fatality risk, flexibility, commute time, and working conditions.
 
+## How It's Best Learned
+Start with two jobs that differ in one attribute, such as night shifts, and ask what wage gap would leave a typical worker indifferent between them. Then work the value-of-a-statistical-life arithmetic by hand: divide an annual risk premium by the extra fatality risk. Finish by listing why a raw comparison of risky and safe jobs can show the wrong sign.
+
+## Common Misconceptions
+- Dangerous jobs should pay more in every data set, so a study that finds otherwise disproves the theory. (The prediction holds other things equal. Raw comparisons can mislead because risky jobs often employ workers with lower skills or fewer options, which pulls measured pay down.)
+- The observed risk premium shows how much every worker dislikes risk. (Workers sort by preference, so the market premium reflects the marginal worker. Risk-tolerant workers in dangerous jobs may need less than the premium, and others would need more.)
+- A job that pays less must be a worse job. (Lower pay can be the price of amenities such as flexibility, safety, or autonomy. Total compensation includes these non-monetary attributes.)
+
 ## Questions
 
 ```yaml

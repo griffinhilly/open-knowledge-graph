@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Spence's signaling model (1973) proposes that education may serve primarily as a signal of pre-existing ability rather than a producer of productivity. In a labor market with asymmetric information — employers cannot directly observe worker ability — education functions as a credible signal because it is cheaper for high-ability workers to acquire (they find coursework easier and face lower psychic costs). In the separating equilibrium, high-ability workers get more education to distinguish themselves, employers pay educated workers more (correctly inferring higher ability), and the education premium reflects selection rather than causation. The model has radical policy implications: if education primarily signals rather than produces, subsidizing it may be socially wasteful, merely raising the bar for signaling without increasing total output.
 
+## How It's Best Learned
+Set up two worker types with fixed productivities and different costs per year of schooling, and assume education adds nothing to output. Find the range of thresholds e* where high types prefer to get the degree and low types prefer not to. Then compare each type's payoff with the pooling wage they would get without signals, and list the empirical tests that could tell this world apart from human capital.
+
+## Common Misconceptions
+- For education to work as a signal, it must teach useful skills. (In Spence's model, education can add nothing to productivity and still be informative, as long as it costs high-ability workers less.)
+- Signaling makes everyone better off by giving employers more information. (Low-ability workers lose the average wage they would get under pooling, and high-ability workers gain only if their premium exceeds the cost of the signal.)
+- Wage jumps at degree completion prove that education is a pure signal. (Sheepskin effects fit signaling but could also reflect how curricula are structured, so they are not conclusive.)
+- The signaling and human capital views cannot both be true. (Education can build skills and signal ability at the same time. The open question is their relative weight.)
+
 ## Questions
 
 ```yaml

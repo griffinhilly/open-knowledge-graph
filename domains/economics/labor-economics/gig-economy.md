@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The gig economy refers to labor markets organized around short-term, task-based work arrangements mediated by digital platforms (Uber, DoorDash, Upwork, TaskRabbit) or other non-traditional employment structures. Gig workers are typically classified as independent contractors rather than employees, which exempts them from minimum wage, overtime, benefits, unemployment insurance, and employment protection laws designed for the traditional employment relationship. The gig economy raises fundamental questions about worker classification (are gig workers really independent or economically dependent?), the adequacy of existing labor law frameworks, the trade-off between flexibility (which many workers value) and security (which the independent contractor classification removes), and the future of work in an increasingly platform-mediated economy.
 
+## How It's Best Learned
+Compute a ride-hail driver's effective hourly pay from gross fares: subtract fuel, vehicle depreciation, insurance, and self-employment taxes, then divide by hours logged in, including waiting time. Then list the platform's control levers, such as pricing, task assignment, ratings, and deactivation, and compare them with the legal tests for employee status. Two worker profiles help: a student earning extra income and someone with no other job.
+
+## Common Misconceptions
+- Gig workers are free agents, so platforms exercise little control over their work. (Algorithms set prices, assign tasks, rate performance, and can deactivate workers. This control is the center of the classification debate.)
+- Headline earnings per hour show what gig work pays. (Gross figures leave out costs that the worker bears, such as vehicle wear, insurance, and self-employment taxes. Net hourly pay can be much lower.)
+- All gig workers choose gig work for its flexibility. (Some value flexibility highly, while others take gig work because they cannot find a stable job with benefits.)
+- The gig economy is a large share of total employment. (Estimates put it at a relatively small share, though the classification questions it raises reach well beyond its size.)
+
 ## Questions
 
 ```yaml

@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Intergenerational mobility measures the extent to which children's economic outcomes are independent of their parents' — the degree to which a person's position in the income distribution is determined by their own effort and ability versus their family background. The intergenerational elasticity (IGE) of income measures the correlation between parents' and children's earnings, with higher values indicating less mobility. The US has relatively low mobility (IGE ≈ 0.4-0.5) compared to Nordic countries (IGE ≈ 0.2). Chetty et al.'s work using IRS tax records revealed enormous geographic variation in mobility within the US, with local factors like school quality, social capital, and neighborhood characteristics explaining much of the variation. The "Great Gatsby curve" (Corak) documents a cross-country correlation between inequality and immobility, suggesting that higher inequality reduces intergenerational mobility.
 
+## How It's Best Learned
+Start with the IGE as a regression slope: take a parent 20% above mean earnings and compute the child's expected position under an IGE of 0.2 and of 0.5. Then explore the Opportunity Atlas for two places you know and compare outcomes for children of 25th-percentile parents. Contrast the cross-place correlations with the movers evidence to see how the research moved from correlation toward causation.
+
+## Common Misconceptions
+- An IGE of 0.5 means children earn half of what their parents earned. (It means about half of the parent's proportional distance from the mean is expected to carry over to the child.)
+- Low mobility is fixed by genetics, so policy cannot change it. (Genetic transmission accounts for part of persistence. Neighborhoods, schools, and social networks matter too, and moves to high-mobility areas improve outcomes for children who move when young.)
+- A country's mobility level holds everywhere within it. (Chetty's work shows large differences in upward mobility across US places.)
+- Places with high mobility are better only because better-off families live there. (The movers evidence shows that children who move to high-mobility areas when young do better, which points to an effect of place itself.)
+
 ## Questions
 
 ```yaml

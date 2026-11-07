@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 Labor economics has been at the frontier of the "credibility revolution" in empirical economics — the shift from structural estimation and OLS regressions toward quasi-experimental methods that provide more credible causal identification. The key challenge is that most labor market questions involve endogeneity: does education cause higher wages, or do more able people both earn more and get more education? Do minimum wages reduce employment, or do states that raise minimum wages differ systematically from those that do not? Four identification strategies dominate modern labor economics: difference-in-differences (comparing changes in outcomes between a treated and control group, as in Card and Krueger's 1994 minimum wage study), regression discontinuity (exploiting sharp eligibility thresholds, as in studies using age cutoffs for policy eligibility), instrumental variables (using exogenous variation to isolate causal effects, as in Angrist and Krueger's 1991 use of quarter of birth to instrument for schooling), and natural experiments (exploiting policy changes, institutional features, or historical accidents as sources of quasi-random variation). These methods transformed the field from one where empirical claims were weakly identified to one with a high standard of causal evidence.
 
+## How It's Best Learned
+Take one question, such as whether schooling raises wages, and write down why a plain regression of wages on schooling is biased. Then attack the same question with each design in turn and state the one assumption each design needs: parallel trends, no sorting at the cutoff, or the exclusion restriction. Building a two-by-two difference-in-differences table from Card and Krueger's setup makes the logic concrete.
+
+## Common Misconceptions
+- A quasi-experimental design removes the need for assumptions. (Each method rests on an identifying assumption, such as parallel trends for difference-in-differences or the exclusion restriction for instrumental variables. These can fail and are only partly testable.)
+- An instrumental-variables estimate gives the average effect for the whole population. (IV identifies a local average treatment effect for compliers, the people whose behavior the instrument changes. That effect can differ from the population average.)
+- A regression discontinuity result applies to everyone. (RD estimates the effect for units near the cutoff. Units far from the threshold may respond differently.)
+- Controlling for more variables in a regression solves endogeneity. (Added controls cannot remove bias from factors that are unobserved, such as ability, which is why credible identification needs a source of exogenous variation.)
+
 ## Questions
 
 ```yaml

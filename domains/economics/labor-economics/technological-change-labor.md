@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Technological change transforms labor markets by altering the demand for different types of skills and tasks. Skill-biased technological change (SBTC) — the hypothesis that technology complements high-skilled workers while substituting for low-skilled workers — was the dominant explanation for rising wage inequality from the 1980s through the 2000s. The task-based model (Autor, Levy, Murnane) refined this by distinguishing routine tasks (codifiable procedures susceptible to automation) from non-routine tasks (requiring creativity, judgment, or interpersonal skills). This produces job polarization: employment grows at the top (non-routine cognitive) and bottom (non-routine manual) of the skill distribution while hollowing out the middle (routine cognitive and manual), with corresponding effects on the wage distribution.
 
+## How It's Best Learned
+Take a list of ten occupations and break each into its main tasks, then label each task routine or non-routine and cognitive or manual. Rank the occupations by typical pay and check where the routine-heavy ones fall. Plotting employment growth against skill rank shows the U-shape of polarization, which a pure skill-level story does not predict.
+
+## Common Misconceptions
+- Automation mainly threatens the lowest-skill jobs. (Routine tasks are concentrated in middle-skill jobs such as bookkeeping and assembly. Many low-skill service jobs need non-routine dexterity and interaction.)
+- A job's exposure to automation depends on how much education it requires. (In the task model, what matters is whether the tasks follow codifiable rules, which cuts across skill levels.)
+- Technology just replaces workers. (It can substitute for some tasks and complement others, raising demand for workers who perform non-routine cognitive tasks.)
+- The routine and non-routine line is fixed. (Advances in machine learning and robotics are moving tasks once thought non-routine into the automatable set.)
+
 ## Questions
 
 ```yaml
