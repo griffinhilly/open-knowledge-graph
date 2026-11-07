@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: turing-machines
   type: hard
+- id: time-hierarchy-theorem-computability-and-complexity
+  type: soft
 builds-toward:
 - pspace-complexity-class
 tags:

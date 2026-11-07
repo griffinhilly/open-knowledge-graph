@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: thread-scheduling-coordination
   type: soft
+- id: synchronization-problem
+  type: soft
 builds-toward:
 - monitors-and-condition-variables
 - deadlock-conditions

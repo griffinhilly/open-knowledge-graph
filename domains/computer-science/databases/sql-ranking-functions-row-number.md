@@ -10,8 +10,7 @@ prerequisites:
   type: soft
 - id: sql-coalesce-nullif-functions
   type: soft
-builds-toward:
-- sql-lag-lead-offset-functions
+builds-toward: []
 tags:
 - sql
 - ranking

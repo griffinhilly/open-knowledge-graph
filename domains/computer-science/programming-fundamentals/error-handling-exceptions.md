@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: program-structure
   type: hard
+- id: conditional-statements
+  type: soft
 builds-toward:
 - file-io-basics
 - testing-and-validation-basics

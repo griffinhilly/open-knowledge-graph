@@ -8,6 +8,12 @@ prerequisites:
   type: hard
 - id: diagonalization-and-uncomputability
   type: hard
+- id: church-turing-thesis
+  type: soft
+- id: decidability
+  type: hard
+- id: halting-problem
+  type: hard
 builds-toward:
 - reduction-techniques-undecidability
 - rice-theorem

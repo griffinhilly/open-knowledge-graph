@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: while-loops
   type: soft
+- id: invariants-and-monovariants-intro
+  type: soft
 builds-toward:
 - nested-loops
 - iterating-over-collections

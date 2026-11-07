@@ -13,7 +13,6 @@ prerequisites:
 builds-toward:
 - switch-statements
 - switch-statements
-- loop-design-and-invariants
 tags:
 - control-flow
 - conditionals

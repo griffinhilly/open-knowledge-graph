@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: binary-search-algorithm
   type: soft
+- id: b-trees
+  type: soft
 builds-toward:
 - query-optimization
 tags:

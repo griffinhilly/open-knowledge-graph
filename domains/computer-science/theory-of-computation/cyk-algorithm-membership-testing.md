@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dynamic-programming-intro
   type: soft
+- id: parse-trees-ambiguity-and-derivation
+  type: soft
 tags:
 - cyk
 - parsing

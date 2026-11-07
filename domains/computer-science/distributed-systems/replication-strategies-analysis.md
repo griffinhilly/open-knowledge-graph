@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: consistency-models
   type: hard
+- id: leader-election-algorithms
+  type: soft
 builds-toward:
 - causal-consistency
 - two-phase-commit-protocol

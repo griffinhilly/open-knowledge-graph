@@ -45,3 +45,115 @@ DROP	spatial-transcriptomics	multi-omics-integration	-	medium	Integration rests 
 DROP	constraint-based-modeling-fba	multi-omics-integration	-	medium	Statistical integration frameworks (MOFA, DIABLO) do not draw on flux balance analysis.
 DROP	phylogenetic-tree-construction	population-genomics	-	medium	Population structure and selection scans rest on population genetics, not tree building.
 DROP	long-read-sequencing	spatial-transcriptomics	-	high	Spatial methods use barcoded arrays or FISH, not long-read sequencing.
+ADD	immunology-overview	adaptive-immunity-overview	soft	medium	Foundations of immunology frames the adaptive arm alongside innate immunity.
+ADD	antibody-affinity-and-avidity	affinity-maturation-somatic-hypermutation	soft	medium	Affinity maturation selects for higher binding affinity, a quantity defined in the affinity topic.
+DROP	plasma-cells-and-antibody-secretion	antibody-isotypes-and-effector-functions	-	medium	Isotype structure and effector functions do not draw on plasma cell differentiation.
+DROP	b-cell-development-maturation	antibody-structure-and-function	-	medium	Antibody structure rests on BCR and protein structure, not on B cell development.
+DROP	complement-activation-pathways	antibody-structure-and-function	-	medium	The classical pathway draws on antibodies, not the reverse; the complement overview covers what antibodies need.
+ADD	complement-system-overview	antibody-structure-and-function	soft	medium	Complement activation is one of the antibody effector functions the topic covers.
+DROP	microbiome-immune-homeostasis	autoimmunity-mechanisms	-	medium	Autoimmunity rests on tolerance breakdown; microbiome homeostasis is not drawn upon.
+DROP	primary-immunodeficiency-categories	autoimmunity-mechanisms	-	medium	Autoimmunity mechanisms do not need immunodeficiency classification.
+ADD	type-iii-and-iv-hypersensitivity	autoimmunity-mechanisms	soft	medium	Tissue damage in lupus and type 1 diabetes runs through type III and IV mechanisms.
+DROP	graft-versus-host-disease-gvhd	cancer-immunotherapy-approaches	-	medium	CAR-T, checkpoint blockade and vaccines rest on T cell and checkpoint biology, not GVHD.
+DROP	antigen-presentation-mechanisms	cd4-helper-t-cells	-	medium	Already covered by the hard prerequisite mhc-class-ii-presentation.
+ADD	cytokines-and-chemokines	cd4-helper-t-cells	soft	high	CD4 subset differentiation is driven by the cytokine microenvironment.
+ADD	cross-presentation-exogenous-antigens	cd8-cytotoxic-t-cells	soft	medium	Dendritic-cell cross-presentation is how many CD8 responses are primed.
+DROP	natural-killer-cells	cd8-cytotoxic-t-cells	-	medium	CTL recognition and killing do not draw on NK biology; they are parallel cytotoxic cells.
+DROP	pattern-recognition-receptors	complement-system-overview	-	medium	The complement overview rests on innate immunity and does not need PRR signaling.
+DROP	toll-like-receptors	cytokines-and-chemokines	-	medium	Cytokine signaling as a general topic does not draw on TLRs; TLRs induce cytokines.
+DROP	follicular-helper-t-cells-tfh	germinal-center-reactions	-	medium	Tfh already lists germinal-center-reactions as a prerequisite; adding this would make a cycle.
+DROP	tumor-immune-surveillance	immune-checkpoint-regulators	-	medium	Checkpoint topic already has tumor-immunology-immune-evasion as hard prerequisite.
+DROP	cytokine-signaling-and-pleiotropic-effects	immune-tolerance-central-and-peripheral	-	medium	Central and peripheral tolerance rest on thymic selection and Tregs, not cytokine pleiotropy.
+DROP	innate-lymphoid-cells-ilcs	immune-tolerance-central-and-peripheral	-	high	Tolerance mechanisms do not draw on innate lymphoid cells.
+DROP	memory-b-cells-and-long-lived-antibody-response	immune-tolerance-central-and-peripheral	-	high	Tolerance mechanisms do not draw on memory B cell maintenance.
+ADD	adaptive-immune-response-kinetics	immunological-memory-secondary-response	soft	high	The secondary response is defined by comparison with primary-response kinetics.
+ADD	affinity-maturation-somatic-hypermutation	immunological-memory-secondary-response	soft	medium	Higher-affinity secondary antibodies come from affinity maturation.
+DROP	lymphocyte-trafficking-homing-adhesion-molecules	immunological-memory-secondary-response	-	medium	Memory as described rests on long-lived cells and recall, not homing molecules.
+DROP	mucosal-immunity-and-iga-response	immunological-memory-secondary-response	-	high	Memory and the secondary response do not draw on mucosal IgA.
+DROP	vaccine-response-and-immunogenicity	immunological-memory-secondary-response	-	high	Reverse dependency; vaccine-response already depends on memory via vaccines-and-vaccination, so this would make a cycle.
+DROP	antigenic-variation-and-immune-evasion	infectious-disease-immunopathology	-	medium	Immunopathology concerns protective vs harmful responses, not pathogen evasion.
+DROP	secondary-immunodeficiency-causes	infectious-disease-immunopathology	-	medium	The topic rests on host-pathogen interactions and adaptive immunity, not acquired immunodeficiency.
+DROP	fc-gamma-receptors-igg-signaling	inflammatory-response-cellular	-	medium	Cellular inflammation rests on cytokines, TLRs and leukocyte recruitment, not FcγR signaling.
+ADD	innate-immunity-overview	inflammatory-response-cellular	soft	high	The topic recruits macrophages, neutrophils and dendritic cells introduced in the innate overview.
+DROP	mast-cells-basophils-and-allergic-response	inflammatory-response-cellular	-	medium	The core mechanism of cellular inflammation does not draw on mast cell biology.
+DROP	bacterial-toxins-exotoxins-and-endotoxins	inflammatory-response-cellular	-	medium	Toxins are triggers of inflammation, not a basis for its cellular mechanism.
+DROP	bacterial-virulence-and-disease-mechanisms	inflammatory-response-cellular	-	medium	Bacterial virulence is not drawn upon by the cellular mechanism of inflammation.
+DROP	fungal-pathogenesis-and-mycosis	inflammatory-response-cellular	-	high	Cellular inflammation does not draw on fungal pathogenesis.
+ADD	immune-cell-trafficking-lymphoid-organs	mucosal-immunity-and-iga-response	soft	medium	GALT, M cells and lamina propria plasma cells presume lymphoid organ architecture.
+DROP	innate-lymphoid-cells-ilcs	mucosal-immunity-and-iga-response	-	medium	The topic centres on IgA and GALT; ILCs are not drawn upon.
+ADD	lymphocyte-trafficking-homing-adhesion-molecules	mucosal-immunity-and-iga-response	soft	medium	IgA plasma cells reach the lamina propria through mucosal homing.
+DROP	inflammatory-response-cellular	natural-killer-cells	-	medium	NK missing-self recognition and killing rest on innate immunity, not inflammation.
+ADD	complement-regulation-and-deficiency	primary-immunodeficiency-categories	soft	medium	Complement deficiency is one of the categories the topic classifies.
+DROP	thymic-selection-positive-negative	regulatory-t-cells-immune-tolerance	-	medium	Already covered by the hard prerequisite t-cell-development-thymic-selection.
+DROP	immunological-synapse-formation	t-cell-activation-costimulation	-	medium	Two-signal activation does not need synapse structure; the synapse topic builds on activation.
+DROP	t-cell-development-thymic-selection	t-cell-receptor-structure-and-function	-	high	Reverse dependency: thymic selection tests the TCR, and TCR already builds toward thymic selection.
+DROP	immunological-synapse-formation	th1-th2-th17-responses	-	high	Th effector cytokine programs do not draw on synapse formation.
+DROP	graft-versus-host-disease-gvhd	tumor-immune-surveillance	-	high	Immunoediting rests on CTL and NK biology, not GVHD.
+DROP	antibody-dependent-cell-mediated-cytotoxicity-adcc	tumor-immunology-immune-evasion	-	medium	Tumor evasion is built around CTL recognition and MHC-I loss, not ADCC.
+DROP	antibody-dependent-cell-mediated-cytotoxicity-adcc	vaccine-response-and-immunogenicity	-	medium	Vaccine immunogenicity and adjuvants do not draw on ADCC.
+ADD	cross-presentation-exogenous-antigens	vaccine-response-and-immunogenicity	soft	medium	CD8 responses to subunit and inactivated vaccines depend on cross-presentation.
+DROP	primary-immunodeficiency-categories	vaccine-response-and-immunogenicity	-	medium	Immunogenicity and adjuvants do not draw on immunodeficiency classification.
+DROP	viral-pathogenesis-and-disease	vaccine-response-and-immunogenicity	-	medium	Vaccine response rests on adaptive immunity and APCs, not viral pathogenesis.
+ADD	germinal-center-reactions	vaccines-and-vaccination	soft	medium	The topic says effective vaccines work through germinal center reactions.
+DROP	lymphocyte-development-checkpoints	vdj-recombination-antibody-diversity	-	high	Reverse dependency: development checkpoints test the products of V(D)J recombination.
+DROP	pollination-and-fertilization	animal-reproduction-basics	-	medium	Animal reproduction rests on animal life cycles; plant pollination is a parallel, not a basis.
+ADD	cells-to-tissues-and-organs	body-systems-working-together	soft	high	The topic presumes the organ-system level of organization defined in cells-to-tissues.
+ADD	respiration-intro	body-systems-working-together	soft	medium	Why systems deliver oxygen and nutrients to every cell is explained by cellular respiration.
+DROP	single-celled-organisms	cells-to-tissues-and-organs	-	medium	The tissue-organ hierarchy rests on what a cell is, not on unicellular life.
+DROP	symbiosis-ls	competition-and-niches	-	medium	Competition and niches rest on ecosystems and resources; symbiosis is a sibling interaction.
+DROP	competition-and-niches	human-impact-on-ecosystems	-	medium	Human impact rests on ecosystems and food webs; niche theory is not drawn upon.
+ADD	extinction-ls	human-impact-on-ecosystems	soft	medium	Overexploitation and climate change are framed as drivers of extinction.
+DROP	antimicrobial-peptides-and-lysozyme	antibiotic-resistance-mechanisms	-	high	Antibiotic resistance rests on bacterial structure and genetics, not host peptides.
+ADD	aminoglycoside-ribosome-inhibition	antibiotic-resistance-mutations-downregulation	soft	medium	Target mutations in ribosomal proteins presume knowing how aminoglycosides act on the ribosome.
+ADD	bacterial-conjugation-plasmid-transfer	antibiotic-resistance-mutations-downregulation	soft	medium	The topic says conjugative plasmids amplify resistance spread.
+DROP	beta-lactam-inhibition-transpeptidase	antibiotic-resistance-mutations-downregulation	-	medium	The topic's examples are ribosomal and topoisomerase target mutations, not PBPs.
+ADD	fluoroquinolone-topoisomerase-inhibition	antibiotic-resistance-mutations-downregulation	soft	high	Topoisomerase target mutations and the fluoroquinolone case are central examples.
+DROP	bacterial-toxins-and-virulence-mechanisms	antimicrobial-peptides-and-lysozyme	-	high	Host antimicrobial peptides rest on innate immunity, not bacterial toxins.
+DROP	bacterial-typing-and-identification-techniques	antimicrobial-susceptibility-testing	-	medium	MIC testing methods rest on resistance mechanisms, not typing methods.
+ADD	bacterial-aerobic-respiration-electron-transport	bacterial-anaerobic-respiration-and-fermentation	soft	high	Anaerobic respiration is electron transport with alternative acceptors, defined against aerobic respiration.
+DROP	microbiology-scope-and-history	bacterial-cell-structure	-	medium	Bacterial anatomy does not draw on the history of microbiology.
+DROP	gram-negative-outer-membrane	bacterial-pili-fimbriae-types	-	medium	Pili types and functions rest on general cell structure, not outer membrane detail.
+DROP	bacterial-ribosomes-and-translation-prokaryotes	bacterial-protein-secretion-pathways	-	medium	Secretion pathways rest on protein targeting and signal sequences, not ribosome structure.
+DROP	bacterial-chromosome-structure-and-organization	bacterial-ribosomes-70s-translation	-	medium	70S ribosome structure rests on ribosome biology and the genetic code, not chromosome organization.
+DROP	bacterial-ribosomes-70s-translation	bacterial-toxins-exotoxins-and-endotoxins	-	medium	Exotoxins and endotoxins rest on secretion and host-pathogen biology, not bacterial ribosomes.
+DROP	bacterial-flagella-and-chemotaxis	bacterial-virulence-and-disease-mechanisms	-	medium	The virulence factors named are adhesins, invasins, toxins and capsules, not motility.
+ADD	bacterial-quorum-sensing-and-gene-regulation	bacterial-virulence-and-disease-mechanisms	soft	high	The topic says virulence factors are coordinately regulated via quorum sensing.
+ADD	bacterial-cell-wall-architecture	beta-lactam-inhibition-transpeptidase	soft	medium	PBP cross-linking of peptidoglycan presumes cell wall architecture.
+DROP	bacterial-flagella-pili-motility-adhesion	chemotaxis-signaling-phosphorylation	-	medium	Already covered by flagellar-motor-rotation (hard) and bacterial-flagella-and-chemotaxis (soft).
+DROP	antibiotic-resistance-mechanisms-and-evolution	emerging-infectious-diseases	-	medium	Resistance is already a soft prerequisite via antibiotic-resistance-mechanisms; the topic centres on zoonotic spillover.
+DROP	antibiotic-targets-and-resistance-development	emerging-infectious-diseases	-	medium	The topic centres on zoonotic spillover and viral evolution, not antibiotic targets.
+DROP	antimicrobial-resistance-epidemiology-and-spread	emerging-infectious-diseases	-	medium	Resistance is already a soft prerequisite; the topic centres on zoonotic spillover.
+DROP	antimicrobial-susceptibility-testing	emerging-infectious-diseases	-	high	Emerging disease concepts do not draw on MIC testing.
+DROP	bacterial-endospores-survival-and-germination	emerging-infectious-diseases	-	high	Emerging disease concepts do not draw on endospore biology.
+DROP	bacterial-virulence-and-disease-mechanisms	emerging-infectious-diseases	-	medium	The topic centres on spillover and viral evolution, not bacterial virulence factors.
+DROP	bacteriophage-and-lysogenic-cycles	emerging-infectious-diseases	-	high	Phage cycles are not drawn upon by zoonotic emergence.
+DROP	fungal-pathogenesis-and-mycosis	emerging-infectious-diseases	-	medium	The topic does not draw on fungal pathogenesis.
+ADD	host-pathogen-interactions	emerging-infectious-diseases	soft	medium	Spillover and host adaptation presume the host-pathogen balance framework.
+DROP	protist-classification-and-parasitism	emerging-infectious-diseases	-	medium	The topic does not draw on protist classification.
+DROP	viral-pathogenesis-and-disease	emerging-infectious-diseases	-	medium	Emergence is about spillover and viral evolution; viral-replication-cycle already covers the needed virology.
+ADD	viral-replication-strategies-rna-vs-dna	emerging-infectious-diseases	soft	high	RNA virus mutation rates and segment reassortment drive emergence, as the topic states.
+DROP	microbial-growth-kinetics-and-population-dynamics	fermentation-pathways-and-end-products	-	high	Fermentation biochemistry rests on glycolysis and pyruvate, not growth kinetics.
+DROP	microbial-substrate-utilization-and-enzyme-induction	fermentation-pathways-and-end-products	-	medium	Fermentation pathways do not draw on enzyme induction.
+DROP	fungal-sexual-and-asexual-reproduction	fungal-biology-overview	-	high	Reverse dependency: the overview introduces spores and reproduction that the detailed topic expands.
+DROP	fungal-reproduction-and-life-cycles	fungal-dimorphism-morphology	-	medium	Dimorphism is temperature-driven morphology switching, already backed by fungal-spore-conidia-ascospores.
+DROP	fungal-sexual-and-asexual-reproduction	fungal-pathogenesis-and-mycosis	-	medium	Fungal virulence factors do not draw on sexual vs asexual reproduction.
+ADD	bacterial-pili-fimbriae-types	host-pathogen-interactions	soft	medium	Adhesins for attachment to host tissue are a core virulence factor in the topic.
+DROP	quorum-sensing	host-pathogen-interactions	-	medium	The host-pathogen framework (virulence factors, immune balance, Koch) does not draw on quorum sensing.
+DROP	protist-classification-and-parasitism	human-microbiome	-	medium	The microbiome topic centres on bacterial commensals, not protist parasites.
+ADD	host-agent-environment-disease-model	infectious-disease-epidemiology	soft	medium	The epidemiological triad frames transmission and disease occurrence.
+DROP	bacterial-flagella-and-chemotaxis	microbial-ecology-biogeochemical-cycling	-	high	Nutrient cycling does not draw on motility.
+DROP	fermentation-pathways-and-end-products	microbial-ecology-biogeochemical-cycling	-	medium	The cycles described (nitrification, sulfur, methanogenesis) do not draw on fermentation end products.
+DROP	microbial-growth-kinetics-and-population-dynamics	microbial-ecology-biogeochemical-cycling	-	high	Biogeochemical cycling does not draw on growth kinetics.
+DROP	microbial-substrate-utilization-and-enzyme-induction	microbial-ecology-biogeochemical-cycling	-	medium	Biogeochemical cycling does not draw on enzyme induction.
+DROP	microbiology-scope-and-history	microbial-ecology-overview	-	medium	Microbial ecology does not draw on the history of microbiology.
+DROP	photosynthesis-in-bacteria-and-cyanobacteria	microbial-ecology-overview	-	medium	The overview centres on niches, syntrophy and metagenomics, not phototrophy.
+DROP	bacteriophage-and-lysogenic-cycles	microbial-genetics-overview	-	medium	The overview introduces transduction itself; lytic/lysogenic detail builds on it.
+DROP	plasmids-and-horizontal-gene-transfer	microbial-genetics-overview	-	high	Reverse dependency: the overview introduces plasmids and HGT that the detailed topic expands.
+ADD	chemotaxis-signaling-phosphorylation	quorum-sensing	soft	medium	Peptide quorum sensing in Gram-positive bacteria signals through two-component systems.
+DROP	crispr-cas-systems-bacterial-defense	specialized-transduction-viral-dna-transfer	-	high	Transduction does not draw on CRISPR defense.
+DROP	viral-classification-and-genome-organization	viral-attachment-and-entry-mechanisms	-	medium	Attachment and entry rest on glycoproteins and membranes, not genome classification.
+DROP	viral-classification-and-genome-types	viral-infection-and-pathogenesis-mechanisms	-	medium	Pathogenesis rests on attachment and host-pathogen biology, not genome classification.
+ADD	viral-replication-strategies-rna-vs-dna	viral-pathogenesis-and-disease	soft	medium	Virulence depends on replication rate, and latency in DNA viruses and retroviruses is part of the topic.
+DROP	microbiology-scope-and-history	viral-replication-cycle	-	high	The replication cycle does not draw on microbiology history.
+DROP	viral-classification-and-genome-organization	viral-replication-cycle	-	high	Reverse dependency: the intro replication cycle comes before genome-based classification.
+DROP	viral-attachment-and-entry-mechanisms	viral-replication-strategies-rna-vs-dna	-	medium	Genome replication strategies rest on the replication cycle and polymerases, not entry detail.

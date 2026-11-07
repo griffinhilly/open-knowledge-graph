@@ -6,6 +6,8 @@ course: operating-systems
 prerequisites:
 - id: semaphores
   type: hard
+- id: mutual-exclusion-and-locks
+  type: soft
 tags:
 - monitor
 - condition-variable

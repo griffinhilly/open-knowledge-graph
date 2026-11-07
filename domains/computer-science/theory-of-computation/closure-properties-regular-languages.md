@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: regular-expressions-formal
   type: soft
+- id: deterministic-finite-automata
+  type: hard
+- id: kleene-theorem
+  type: soft
 builds-toward:
 - pumping-lemma-for-regular-languages
 tags:

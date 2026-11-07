@@ -9,7 +9,6 @@ prerequisites:
 - id: database-normalization-3nf-bcnf
   type: hard
 builds-toward:
-- database-schema-design
 - denormalization-strategy
 tags:
 - 5NF

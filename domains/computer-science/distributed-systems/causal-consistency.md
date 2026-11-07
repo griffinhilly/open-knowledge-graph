@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: read-after-write-consistency
   type: soft
+- id: vector-clocks
+  type: soft
 builds-toward:
 - crdts-convergent-replicated-types
 tags:

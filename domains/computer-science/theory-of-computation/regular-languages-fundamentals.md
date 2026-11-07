@@ -10,6 +10,14 @@ prerequisites:
   type: hard
 - id: regular-expressions-formal
   type: soft
+- id: deterministic-finite-automata
+  type: hard
+- id: formal-languages-and-strings
+  type: soft
+- id: kleene-theorem
+  type: soft
+- id: nfa-to-dfa-conversion
+  type: soft
 builds-toward:
 - closure-properties-regular-languages
 - pumping-lemma-for-regular-languages

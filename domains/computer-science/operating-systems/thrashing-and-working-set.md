@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: demand-paging-and-page-faults
   type: hard
+- id: virtual-memory-management
+  type: soft
 tags:
 - thrashing
 - working-set

@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: mutual-exclusion-and-locks
   type: hard
-builds-toward:
-- monitors-and-condition-variables
+builds-toward: []
 tags:
 - condition-variables
 - patterns

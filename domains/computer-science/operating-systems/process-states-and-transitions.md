@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: process-termination-and-cleanup
   type: soft
+- id: process-concept
+  type: hard
 builds-toward:
 - context-switching-and-cpu-dispatch
 - cpu-scheduling-basics

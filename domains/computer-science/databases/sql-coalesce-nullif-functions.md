@@ -6,8 +6,7 @@ course: databases
 prerequisites:
 - id: sql-data-retrieval-select
   type: hard
-builds-toward:
-- sql-case-when-expressions
+builds-toward: []
 tags:
 - sql
 - null-handling

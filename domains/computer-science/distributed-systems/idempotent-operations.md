@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: remote-procedure-calls
   type: soft
+- id: timeout-retry-strategies
+  type: soft
 builds-toward:
 - two-phase-commit-protocol
 tags:

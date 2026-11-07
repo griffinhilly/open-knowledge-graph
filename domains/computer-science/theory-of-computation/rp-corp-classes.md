@@ -10,8 +10,7 @@ prerequisites:
   type: soft
 - id: bpp-complexity-class
   type: soft
-builds-toward:
-- bpp-complexity-class
+builds-toward: []
 tags:
 - complexity-classes
 - one-sided-error

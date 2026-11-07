@@ -6,8 +6,7 @@ course: databases
 prerequisites:
 - id: sql-data-retrieval-select
   type: hard
-builds-toward:
-- sql-joins
+builds-toward: []
 tags:
 - SQL
 - ORDER BY

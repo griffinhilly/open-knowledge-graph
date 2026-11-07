@@ -6,8 +6,7 @@ course: databases
 prerequisites:
 - id: query-cardinality-selectivity-estimation
   type: hard
-builds-toward:
-- query-optimization
+builds-toward: []
 tags:
 - statistics
 - histogram

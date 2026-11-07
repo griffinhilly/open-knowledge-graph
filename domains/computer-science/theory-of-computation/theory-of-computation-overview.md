@@ -7,7 +7,6 @@ prerequisites:
 - id: formal-languages-and-strings
   type: soft
 builds-toward:
-- formal-languages-and-strings
 - automata-fundamentals-and-models
 tags:
 - foundational

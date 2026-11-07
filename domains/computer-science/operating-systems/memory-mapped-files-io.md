@@ -16,8 +16,7 @@ prerequisites:
   type: soft
 - id: io-buffering-and-kernel-buffers
   type: soft
-builds-toward:
-- io-buffering-and-kernel-buffers
+builds-toward: []
 tags:
 - memory
 - files

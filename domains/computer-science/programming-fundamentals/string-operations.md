@@ -15,7 +15,6 @@ prerequisites:
 builds-toward:
 - list-operations
 - file-io-basics
-- input-output
 tags:
 - strings
 - concatenation

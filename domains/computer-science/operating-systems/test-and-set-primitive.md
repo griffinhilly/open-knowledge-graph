@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: barrier-synchronization-primitives
   type: soft
+- id: critical-section-problem-formalization
+  type: soft
 builds-toward:
 - semaphores
 tags:

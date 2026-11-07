@@ -6,6 +6,8 @@ course: theory-of-computation
 prerequisites:
 - id: universal-turing-machine
   type: hard
+- id: turing-machines
+  type: hard
 builds-toward:
 - decidability
 - undecidable-problems

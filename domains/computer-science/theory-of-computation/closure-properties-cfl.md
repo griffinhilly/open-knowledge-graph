@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: context-free-grammar-properties-and-ambiguity
   type: soft
+- id: context-free-grammars
+  type: hard
 builds-toward:
 - pumping-lemma-cfl
 tags:

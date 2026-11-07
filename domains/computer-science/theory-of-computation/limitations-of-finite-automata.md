@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: limitations-of-context-free
   type: soft
-builds-toward:
-- context-free-grammars
+builds-toward: []
 tags:
 - automata-limits
 - non-regular

@@ -14,8 +14,9 @@ prerequisites:
   type: soft
 - id: iterating-over-collections
   type: soft
-builds-toward:
-- arrays-and-lists
+- id: loop-control-statements
+  type: soft
+builds-toward: []
 tags:
 - loops
 - nesting

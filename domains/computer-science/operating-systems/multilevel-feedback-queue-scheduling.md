@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: priority-scheduling-algorithms
   type: soft
+- id: scheduling-fairness-and-starvation
+  type: soft
 builds-toward:
 - real-time-scheduling-algorithms
 tags:

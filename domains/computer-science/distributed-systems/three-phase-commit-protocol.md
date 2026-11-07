@@ -6,8 +6,7 @@ course: distributed-systems
 prerequisites:
 - id: two-phase-commit-protocol
   type: hard
-builds-toward:
-- saga-pattern-distributed-transactions
+builds-toward: []
 tags:
 - transactions
 - commit

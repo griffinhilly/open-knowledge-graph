@@ -9,7 +9,6 @@ prerequisites:
 - id: sql-filtering-conditions
   type: hard
 builds-toward:
-- query-optimization
 - table-statistics-histogram-collection
 tags:
 - cardinality

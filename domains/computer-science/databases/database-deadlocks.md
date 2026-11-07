@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: deadlock-conditions
   type: hard
+- id: concurrency-control-databases
+  type: soft
 tags:
 - deadlock
 - wait-for graph

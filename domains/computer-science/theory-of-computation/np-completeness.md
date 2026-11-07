@@ -6,6 +6,8 @@ course: theory-of-computation
 prerequisites:
 - id: complexity-class-np-definition
   type: hard
+- id: p-vs-np-problem
+  type: soft
 tags:
 - np-completeness
 - cook-levin

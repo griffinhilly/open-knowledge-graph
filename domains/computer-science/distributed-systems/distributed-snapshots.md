@@ -12,7 +12,6 @@ prerequisites:
   type: soft
 builds-toward:
 - chandy-lamport-algorithm
-- distributed-tracing
 tags:
 - consistency
 - snapshots

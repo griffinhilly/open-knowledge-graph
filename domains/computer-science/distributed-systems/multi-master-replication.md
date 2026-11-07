@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: consensus-problem
   type: hard
-builds-toward:
-- consistency-models
+builds-toward: []
 tags:
 - replication
 - topology

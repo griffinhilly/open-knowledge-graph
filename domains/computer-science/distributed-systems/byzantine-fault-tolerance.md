@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: consensus-problem
   type: hard
-builds-toward:
-- flp-impossibility
+builds-toward: []
 tags:
 - byzantine
 - byzantine-faults

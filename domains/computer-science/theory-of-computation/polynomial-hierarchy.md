@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: complexity-class-definitions-hierarchy
   type: hard
+- id: alternating-turing-machines
+  type: soft
+- id: oracle-turing-machines
+  type: soft
 tags:
 - complexity-classes
 - quantified-formulas

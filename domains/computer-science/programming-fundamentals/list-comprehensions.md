@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: nested-loops
   type: soft
+- id: arrays-and-lists
+  type: hard
 builds-toward:
 - algorithm-design-basics
 tags:

@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: logical-clocks
   type: hard
-builds-toward:
-- distributed-tracing
+builds-toward: []
 tags:
 - snapshots
 - algorithm

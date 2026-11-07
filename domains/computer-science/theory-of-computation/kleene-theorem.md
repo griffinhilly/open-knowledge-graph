@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: nfa-to-dfa-conversion
   type: hard
+- id: nondeterministic-finite-automata
+  type: hard
 builds-toward:
 - regular-languages-fundamentals
 - closure-properties-regular-languages

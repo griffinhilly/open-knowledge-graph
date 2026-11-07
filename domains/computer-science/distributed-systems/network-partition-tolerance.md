@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: failure-detection-heartbeats
   type: soft
+- id: distributed-systems-introduction
+  type: soft
 builds-toward:
 - two-phase-commit-protocol
 - leader-election-algorithms

@@ -6,6 +6,10 @@ course: theory-of-computation
 prerequisites:
 - id: reduction-techniques-undecidability
   type: hard
+- id: halting-problem
+  type: hard
+- id: undecidable-problems
+  type: soft
 tags:
 - rice-theorem
 - undecidability

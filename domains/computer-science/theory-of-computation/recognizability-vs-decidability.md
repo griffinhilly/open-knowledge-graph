@@ -6,6 +6,8 @@ course: theory-of-computation
 prerequisites:
 - id: halting-problem
   type: hard
+- id: decidability
+  type: hard
 builds-toward:
 - undecidable-problems
 tags:

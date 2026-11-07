@@ -9,7 +9,6 @@ prerequisites:
 - id: sequential-consistency
   type: soft
 builds-toward:
-- two-phase-commit-protocol
 - strong-eventual-consistency
 tags:
 - consistency

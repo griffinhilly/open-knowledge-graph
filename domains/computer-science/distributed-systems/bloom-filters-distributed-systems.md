@@ -6,8 +6,7 @@ course: distributed-systems
 prerequisites:
 - id: distributed-hash-tables
   type: soft
-builds-toward:
-- merkle-trees-data-consistency
+builds-toward: []
 tags:
 - bloom-filter
 - probabilistic

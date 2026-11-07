@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: sql-joins
   type: soft
-builds-toward:
-- index-types-btree-hash-bitmap
+builds-toward: []
 tags:
 - denormalization
 - redundancy

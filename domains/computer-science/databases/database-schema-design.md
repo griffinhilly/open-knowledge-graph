@@ -10,8 +10,9 @@ prerequisites:
   type: hard
 - id: primary-and-foreign-keys
   type: hard
+- id: database-normalization-1nf-2nf
+  type: soft
 builds-toward:
-- index-types-btree-hash-bitmap
 - database-security
 tags:
 - schema design

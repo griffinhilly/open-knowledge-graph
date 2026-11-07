@@ -1162,3 +1162,95 @@ DROP	backtracking-constraint-satisfaction-problems	dynamic-programming-intro	-	m
 DROP	recurrence-relations-analysis-techniques	dynamic-programming-intro	-	medium	DP draws on recurrence formulation (already via recurrence-relations), not on runtime analysis by master theorem.
 DROP	insertion-sort	sorting-lower-bounds	-	medium	B rests on merge, quick and heap sort; insertion sort adds no needed idea.
 DROP	selection-sort	sorting-lower-bounds	-	medium	B rests on merge, quick and heap sort; selection sort adds no needed idea.
+ADD	cycle-detection-directed-undirected	topological-sort	soft	medium	Topo sort is defined only for DAGs and the DFS version needs explicit cycle detection.
+ADD	stacks-data-structure	topological-sort	soft	medium	DFS-based topo sort pushes finished nodes onto a stack and pops for the order.
+DROP	string-matching-naive-optimized	tries	-	medium	Tries are a string data structure; they do not draw on naive/KMP-style matching.
+DROP	er-to-relational-schema-conversion	database-normalization-1nf-2nf	-	medium	Normalization works on any relation via FDs; ER mapping is not drawn upon.
+ADD	referential-integrity-cascading-actions	database-schema-design	soft	medium	Designing FK constraints includes choosing referential/cascade behavior.
+DROP	sql-triggers-before-after-events	database-schema-design	-	medium	Schema design covers tables, types and constraints, not triggers.
+DROP	join-dependencies-fifth-nf	denormalization-strategy	-	medium	Denormalization draws on BCNF-level normalization and joins, not 5NF.
+ADD	database-systems-introduction	entity-relationship-diagrams	soft	medium	ER modeling presumes the basic idea of a database system (also reached via relational-data-model).
+DROP	sql-constraint-enforcement	functional-dependencies	-	medium	FDs are relational theory built on keys; SQL constraint syntax is not needed.
+DROP	distributed-replication-consistency-models	nosql-concepts	-	medium	NoSQL intro (formal-systems) only touches eventual consistency; the advanced replication topic builds on it, not vice versa.
+ADD	sql-isolation-levels-anomalies	optimistic-concurrency-control	soft	medium	OCC is an alternative mechanism for the anomalies isolation levels address.
+DROP	sql-table-creation-definition	primary-and-foreign-keys	-	medium	PK/FK is a relational-model concept; DDL syntax is not needed to understand it.
+DROP	buffer-pool-cache-replacement-policies	query-execution-plan-analysis-explain	-	medium	EXPLAIN reading needs the optimizer, not buffer-pool policies (only a distractor mentions BUFFERS).
+DROP	index-selection-optimization	query-optimization	-	medium	Optimizer chooses among existing indexes; index design strategy builds on the optimizer.
+DROP	sql-aggregation	query-optimization	-	medium	Query optimization explainer draws on algebra, indexes and joins, not GROUP BY.
+DROP	sql-subqueries	query-optimization	-	medium	Query optimization does not use subqueries/CTEs in its content.
+DROP	sql-distinct-eliminating-duplicates	sql-aggregation	-	medium	Aggregation content never uses DISTINCT.
+DROP	primary-and-foreign-keys	sql-data-retrieval-select	-	medium	Basic SELECT queries do not need key concepts.
+DROP	sql-table-creation-definition	sql-data-retrieval-select	-	medium	SELECT on existing tables does not need DDL.
+ADD	sql-filtering-conditions	sql-sorting-limiting-results	soft	medium	Sorting content relies on WHERE-then-ORDER BY execution order and keyset filters.
+DROP	er-to-relational-schema-conversion	sql-table-creation-definition	-	medium	CREATE/ALTER TABLE does not require ER-to-relational mapping.
+DROP	sql-case-when-expressions	sql-window-functions-introduction	-	medium	Window functions content never uses CASE.
+ADD	replication-strategies-analysis	causal-consistency	soft	medium	Causal consistency is discussed in terms of replicas and replication.
+DROP	quorum-based-replication	distributed-hash-tables	-	medium	DHT content is consistent hashing and routing; quorums are not used.
+DROP	distributed-hash-tables	gossip-protocols	-	medium	Gossip content never mentions DHTs; DHTs may use gossip, not the reverse.
+DROP	hinted-handoff	gossip-protocols	-	medium	Gossip does not draw on hinted handoff.
+ADD	network-partition-tolerance	leader-election-algorithms	soft	medium	Leader election content centers on split-brain under network partitions.
+DROP	view-change-protocols	paxos-algorithm	-	medium	View change is a later refinement of leader failover; basic Paxos does not need it.
+DROP	sequential-consistency	read-after-write-consistency	-	medium	Read-after-write content contrasts with linearizability, not sequential consistency.
+DROP	state-machine-replication	replication-strategies-analysis	-	medium	SMR (expert, needs Paxos/Raft) is a specialization built after the replication survey.
+ADD	total-order-broadcast	state-machine-replication	soft	medium	SMR is applying a totally ordered command log to deterministic replicas.
+DROP	linearizability	strong-eventual-consistency	-	medium	SEC builds on eventual and causal consistency; linearizability is only a passing contrast.
+DROP	read-after-write-consistency	strong-eventual-consistency	-	medium	SEC content does not use session guarantees.
+DROP	sequential-consistency	strong-eventual-consistency	-	medium	SEC content does not use sequential consistency.
+DROP	at-least-once-semantics	two-phase-commit-protocol	-	medium	2PC content does not use delivery semantics.
+DROP	at-most-once-semantics	two-phase-commit-protocol	-	medium	2PC content does not use delivery semantics.
+DROP	idempotent-operations	two-phase-commit-protocol	-	medium	2PC content does not use idempotence.
+DROP	network-partition-tolerance	two-phase-commit-protocol	-	medium	2PC content discusses coordinator failure and blocking, not partitions.
+DROP	process-calculi	concurrency-verification	-	medium	Concurrency verification content uses Hoare/separation logic and model checking, not CCS/pi.
+ADD	interactive-theorem-proving	dependent-type-theory	soft	medium	DTT is best learned in Lean/Agda, so proof-assistant fluency helps; siblings, judgment call.
+DROP	floyd-hoare-verification	symbolic-execution	-	medium	Symbolic execution uses path conditions and solvers, not Hoare triples.
+DROP	rate-distortion-theory-advanced	information-theory-statistical-inference	-	medium	Content builds on KL, MDL and Fisher information, not rate-distortion.
+DROP	mimo-capacity	network-information-theory	-	medium	Network IT builds on channel capacity and coding theorems, not MIMO.
+ADD	mutual-exclusion-and-locks	counting-semaphores-resource-pools	soft	medium	Counting semaphores generalize the lock/mutual-exclusion idea (also reached via semaphores).
+ADD	operating-system-design-principles	kernel-architecture	soft	medium	Kernel architecture content invokes mechanism/policy design principles.
+ADD	shared-memory-inter-process-communication	memory-mapped-files-io	soft	medium	mmap content uses MAP_SHARED pages for inter-process sharing.
+ADD	kernel-architecture	os-security-basics	soft	medium	OS security content relies on user/kernel mode and privilege separation.
+DROP	kernel-architecture	process-concept	-	medium	Process/PCB content does not use kernel structure (monolithic vs micro).
+DROP	operating-system-design-principles	process-model-formalization	-	medium	Process formalization draws on process concept and states, not design principles.
+ADD	fcfs-scheduling-algorithm	round-robin-scheduling	soft	high	Round robin is FCFS with a time quantum and preemption.	[would create cycle]
+ADD	shortest-job-first-sjf-cpu-scheduling	scheduling-fairness-and-starvation	soft	medium	SJF starving long jobs is a standard starvation example used in the content.
+ADD	test-and-set-primitive	semaphores	soft	medium	Semaphore operations must be atomic, implemented via hardware primitives.
+ADD	message-passing-ipc-semantics	shared-memory-inter-process-communication	soft	medium	Shared memory content argues its advantage by contrast with copy-based message passing.
+ADD	command-line-arguments-and-environment	shell-execution-model	soft	medium	Shell content covers parsing and passing arguments and environment to exec.
+ADD	pipes-and-named-pipes-ipc	shell-execution-model	soft	high	Shell execution content centers on building pipelines with pipes.	[would create cycle]
+DROP	thread-model-user-vs-kernel	synchronization-problem	-	medium	Race conditions need threads, not the user-vs-kernel thread model.
+ADD	virtual-address-translation-scheme	working-set-model	soft	medium	Working set reasons about page references, which presume paging.
+ADD	primitive-data-types	arithmetic-operators	soft	medium	Operand types (int vs float) determine arithmetic results such as division.
+DROP	variables-and-assignment	arithmetic-operators	-	medium	Arithmetic content does not use variables or compound assignment.
+ADD	type-conversion	comparison-operators	soft	medium	Comparison content warns that 5 == '5' is false across types.
+ADD	code-comments-and-style	function-design-and-contracts	soft	medium	Contracts are written down as function documentation.
+DROP	parameter-passing-value-vs-reference	function-design-and-contracts	-	medium	Contract content (pre/postconditions) does not use pass-by-value/reference.
+DROP	variables-and-assignment	function-design-and-contracts	-	medium	Only a distant foundation, already reached transitively; not specifically drawn upon.
+DROP	iterating-over-collections	immutability-and-mutation	-	medium	Immutability content draws on indexing, barely on iteration.
+DROP	immutability-and-mutation	intro-to-classes	-	medium	Intro-to-classes content never discusses mutability.
+DROP	loop-design-and-invariants	iterating-over-collections	-	medium	Basic collection iteration does not need loop invariants.
+ADD	boolean-logic	loop-control-statements	soft	medium	break/continue are triggered by boolean conditions.
+DROP	do-while-loops	loop-control-statements	-	medium	Loop-control content never uses do-while loops.
+ADD	loop-control-statements	loop-design-and-invariants	soft	medium	Loop design content discusses how break affects loop exit reasoning.
+ADD	arrays-and-lists	nested-loops	soft	medium	Nested loops are commonly applied to lists and grids.
+ADD	memory-and-data-storage	primitive-data-types	soft	medium	Primitive types are characterized by their storage size in memory.
+ADD	arrays-and-lists	string-basics	soft	medium	String basics compares strings to lists as indexed sequences.
+ADD	debugging-basics	testing-and-validation-basics	soft	medium	Testing content relates tests to finding and debugging errors.
+ADD	error-handling-exceptions	testing-and-validation-basics	soft	medium	Testing content checks that functions raise errors on invalid input.
+ADD	program-structure	variables-and-assignment	soft	medium	Reassignment semantics rely on sequential statement execution.
+ADD	hamiltonian-path-cycle	approximation-algorithms-design	soft	medium	Approximation content uses TSP, whose hardness rests on Hamiltonian cycle.
+ADD	partition-subset-sum-problems	approximation-algorithms-design	soft	medium	Approximation content uses knapsack, a subset-sum-type problem.
+DROP	chomsky-normal-form	cfg-pda-equivalence	-	medium	CFG-PDA equivalence content never uses CNF.
+DROP	cfg-pda-equivalence	chomsky-normal-form	-	medium	CNF is a grammar transformation; it mentions PDAs only once in passing.
+ADD	context-free-grammar-properties-and-ambiguity	chomsky-normal-form	soft	medium	CNF conversion uses grammar properties (epsilon/unit productions); already reached via parse-trees.
+ADD	p-vs-np-problem	cook-levin-theorem	soft	medium	Cook-Levin's significance is framed by the P vs NP question.
+DROP	context-free-grammars-formal	linear-bounded-automata	-	medium	LBAs recognize context-sensitive languages; CFGs are not drawn upon.
+DROP	pushdown-automata-formal	linear-bounded-automata	-	medium	LBAs are restricted TMs; PDAs are not drawn upon.
+ADD	nondeterministic-complexity	np-completeness	soft	medium	NP-completeness rests on NP defined via nondeterministic machines.
+DROP	turing-machine-completeness	oracle-turing-machines	-	medium	Oracle TMs extend TMs; Turing completeness is not drawn upon.
+DROP	linear-bounded-automata	pspace-complexity-class	-	medium	PSPACE content does not use LBAs.
+DROP	oracle-turing-machines	pspace-complexity-class	-	medium	PSPACE content never uses oracles.
+JUDGE	space-hierarchy-theorem	pspace-complexity-class	soft	medium	PSPACE content cites hierarchy theorems, but adding would make an advanced topic draw on an expert one.
+DROP	chomsky-hierarchy	recognizability-vs-decidability	-	medium	Recognizability content never uses the Chomsky hierarchy.
+ADD	boolean-satisfiability-and-reductions	space-complexity-classes	soft	medium	TQBF-completeness generalizes SAT and uses reductions.
+ADD	limitations-of-context-free	turing-machines	soft	medium	Non-context-free languages motivate the more powerful TM model.
+ADD	multi-tape-turing-machines	universal-turing-machine	soft	medium	UTM simulation is commonly described with multiple tapes.

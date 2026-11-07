@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: do-while-loops
   type: soft
+- id: arrays-and-lists
+  type: hard
 builds-toward:
 - immutability-and-mutation
 - nested-loops

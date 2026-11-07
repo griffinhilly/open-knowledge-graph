@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: mutual-exclusion-and-locks
   type: soft
+- id: database-transactions
+  type: hard
 builds-toward:
 - two-phase-locking
 - database-deadlocks

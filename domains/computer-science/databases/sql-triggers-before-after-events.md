@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - database-schema-design
-- sql-constraint-enforcement
 tags:
 - triggers
 - events

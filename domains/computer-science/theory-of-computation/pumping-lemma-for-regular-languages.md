@@ -6,6 +6,8 @@ course: theory-of-computation
 prerequisites:
 - id: closure-properties-regular-languages
   type: hard
+- id: regular-languages-fundamentals
+  type: hard
 builds-toward:
 - limitations-of-finite-automata
 tags:

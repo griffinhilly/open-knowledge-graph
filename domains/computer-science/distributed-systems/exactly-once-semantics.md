@@ -10,9 +10,7 @@ prerequisites:
   type: soft
 - id: at-most-once-semantics
   type: soft
-builds-toward:
-- idempotent-operations
-- two-phase-commit-protocol
+builds-toward: []
 tags:
 - semantics
 - delivery

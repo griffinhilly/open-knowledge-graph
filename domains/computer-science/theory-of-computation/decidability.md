@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: turing-machine-variants
   type: soft
+- id: universal-turing-machine
+  type: soft
 builds-toward:
 - halting-problem
 - recognizability-vs-decidability

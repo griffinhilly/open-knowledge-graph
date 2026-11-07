@@ -6,6 +6,8 @@ course: databases
 prerequisites:
 - id: database-normalization-1nf-2nf
   type: hard
+- id: functional-dependencies
+  type: hard
 builds-toward:
 - database-schema-design
 tags:
