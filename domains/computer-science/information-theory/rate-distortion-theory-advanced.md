@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Advanced rate-distortion theory extends beyond single-letter characterizations to address operational questions: variable-rate coding, remote source coding, side information, and the geometric structure of the rate-distortion region. The test channel p(x-hat|x) that minimizes R(D) is characterized by the Blahut-Arimoto algorithm and exhibits phase transitions as D varies. The rate-distortion function can be inverted to study the distortion-rate function D(R), showing how distortion decays with increased transmission rate. Information-geometric methods reveal that the optimal test channel lies on a level set of a divergence, and the dually flat structure explains why variational methods converge. Advanced topics include multi-terminal source coding (source coding with side information at the decoder, or the helper), universal rate-distortion coding without knowledge of the source distribution, and the connection to machine learning through the information bottleneck principle.
 
+## How It's Best Learned
+Run Blahut-Arimoto in a spreadsheet on a Bernoulli(0.2) source with Hamming distortion and beta = ln 9. Start from a uniform p(x-hat). After a few dozen rounds, p(x-hat = 1) settles at 0.125, the distortion at 0.1, and the rate at H(0.2) − H(0.1) ≈ 0.25 bits, which matches the closed form. Then change beta and watch the point move along the curve.
+
+## Common Misconceptions
+- Blahut-Arimoto can get stuck in a poor local optimum, as k-means can. (For a fixed beta the rate-distortion problem is convex, and the alternating updates converge to the true R(D) point for that slope.)
+- The parameter beta is the target distortion. (Beta is a Lagrange multiplier that sets the slope of R(D) at the point reached. To hit a given D you search over beta.)
+- The distortion-rate function D(R) describes a different tradeoff from R(D). (It is the same curve read the other way: the least distortion achievable at a given rate.)
+- The information bottleneck uses a distortion measure you choose, such as squared error. (Its effective distortion is the KL divergence between p(y|x) and p(y|t). The relevance variable Y defines it, so no separate distortion measure is chosen.)
+
 ## Questions
 
 ```yaml

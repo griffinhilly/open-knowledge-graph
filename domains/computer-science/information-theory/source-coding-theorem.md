@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 Shannon's source coding theorem (noiseless coding theorem) states that the entropy H(X) of a source is the fundamental limit of lossless compression. No lossless code can achieve an average rate below H(X) bits per symbol, and there exist codes that get arbitrarily close to H(X). For a sequence of n i.i.d. symbols, the compressed length approaches nH(X) bits as n grows. This theorem established entropy as the operationally meaningful measure of information content and launched the field of information theory.
 
+## How It's Best Learned
+Take a binary source with P(0) = 0.9, whose entropy is about 0.469 bits. Coding single symbols needs 1 bit each. Now build a Huffman code on pairs, with probabilities 0.81, 0.09, 0.09 and 0.01. The codeword lengths come out 1, 2, 3, 3, for an average of 1.29 bits per pair, or 0.645 per symbol. Longer blocks close more of the gap to H.
+
+## Common Misconceptions
+- The theorem's proof gives a practical compression method. (The typical-set code in the proof needs very long blocks and a huge index table. Practical codes such as Huffman and arithmetic coding are separate constructions.)
+- Because Huffman codewords have whole-bit lengths, nobody can get closer than 1 bit to H. (Coding blocks of n symbols spreads the rounding loss, so the overhead falls to at most 1/n bit per symbol.)
+- Text cannot be compressed below the entropy of its single-letter frequencies. (For a source with memory, the limit is the entropy rate, which accounts for dependence between symbols and can be far lower.)
+
 ## Questions
 
 ```yaml

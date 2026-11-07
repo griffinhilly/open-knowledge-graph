@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The Slepian-Wolf theorem characterizes the achievable rate region for distributed lossless compression of correlated sources. Two encoders observe correlated sources X and Y respectively and compress them independently (no communication between encoders), while a joint decoder reconstructs both. The achievable rate region is R_X >= H(X|Y), R_Y >= H(Y|X), and R_X + R_Y >= H(X,Y). Remarkably, the sum rate H(X,Y) matches what is achievable with joint encoding — distributed compression loses nothing in total rate compared to centralized compression. This surprising result shows that correlation can be exploited even without encoder cooperation.
 
+## How It's Best Learned
+Work a small binning example by hand. Let X and Y be 3-bit words that differ in at most one position. Group the eight words into four bins: {000, 111}, {001, 110}, {010, 101}, {100, 011}. Encoder X sends only the 2-bit bin index; encoder Y sends all 3 bits. The two words in each bin differ in every position, so only one lies within one bit of Y.
+
+## Common Misconceptions
+- To send only H(X|Y) bits, encoder X must see Y. (Encoder X sends a bin index that depends only on X. The decoder uses Y to pick the right sequence out of the bin.)
+- Both encoders can drop to their conditional entropies at once, for a total of H(X|Y) + H(Y|X). (The sum rate must be at least H(X,Y), which exceeds H(X|Y) + H(Y|X) by I(X;Y).)
+- The no-penalty result carries over unchanged to lossy compression. (In the Wyner-Ziv lossy setting, side information at the decoder alone can cost extra rate compared with side information at both ends. For a Gaussian source under squared error there is no loss.)
+
 ## Questions
 
 ```yaml

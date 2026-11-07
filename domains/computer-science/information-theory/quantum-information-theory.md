@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Quantum information theory extends Shannon's classical information theory to quantum systems. The fundamental quantum analog is the **von Neumann entropy** S(rho) = -Tr[rho log_2(rho)], where rho is a density matrix representing a quantum state. Like Shannon entropy, von Neumann entropy quantifies uncertainty and is maximized for completely mixed states. However, quantum information differs profoundly: quantum states cannot be copied (no-cloning theorem), entanglement creates correlations with no classical analog, and quantum channels have capacities for classical bits, quantum bits (qubits), and entanglement-assisted communication that differ. The quantum capacity C_Q of a channel represents the number of qubits that can be reliably transmitted per channel use. Quantum key distribution (QKD) uses quantum states to distribute cryptographic keys information-theoretically secure against eavesdroppers. Quantum information theory unifies quantum mechanics, information theory, and cryptography, with profound implications for communication, computation, and security.
 
+## How It's Best Learned
+Work by hand with 2×2 density matrices. Mix |0> and |+> with probability 1/2 each to get rho = [[3/4, 1/4], [1/4, 1/4]]. Its eigenvalues are about 0.854 and 0.146, so S(rho) ≈ 0.60 bits, less than the 1 bit of the coin that chose the state. Then take a Bell state: the pair has S = 0, yet each half has S = 1.
+
+## Common Misconceptions
+- The von Neumann entropy of a mixture equals the Shannon entropy of the mixing probabilities. (For a mixture of pure states, the two agree when the states are orthogonal. For non-orthogonal pure states S is smaller, because the states overlap and cannot be told apart perfectly.)
+- Since a qubit has continuous amplitudes, it can carry an unlimited number of classical bits. (The Holevo bound limits what a measurement can extract to at most one classical bit per qubit sent, when no entanglement is shared in advance.)
+- Shared entanglement lets one party send a message to the other instantly. (Measuring one half of an entangled pair does not change the other party's local statistics. Teleportation and dense coding both need a separate channel as well.)
+- As in the classical case, a whole system has at least as much entropy as any of its parts. (For an entangled pure state, S(AB) = 0 while S(A) > 0, so the conditional entropy S(A|B) can be negative.)
+
 ## Questions
 
 ```yaml

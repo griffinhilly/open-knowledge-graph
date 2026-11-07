@@ -29,6 +29,15 @@ status: validated
 ## Core Idea
 Network information theory extends Shannon's point-to-point results to multi-user communication networks. When multiple senders and/or receivers share a channel, new phenomena arise that have no single-user analog: cooperation, interference, distributed compression, and capacity regions (sets of achievable rate tuples rather than single numbers). The capacity of the multiple access channel, broadcast channel, and interference channel are central problems. While some multi-user capacity regions are fully characterized (multiple access channel, degraded broadcast channel), others remain open after 50+ years (general interference channel, relay channel), making network information theory one of the most active areas of information-theoretic research.
 
+## How It's Best Learned
+Start with a two-user Gaussian multiple access channel with P1 = P2 = 3 and noise N = 1. Compute the single-user bounds, R1 ≤ (1/2) log2(1 + 3) = 1 bit, and the sum bound, (1/2) log2(7) ≈ 1.40 bits. Draw the pentagon. Then derive its corner (0.40, 1) by successive decoding: decode user 1 treating user 2 as noise, subtract it, decode user 2. Compare with the time-sharing line, whose sum rate is 1.
+
+## Common Misconceptions
+- A network's capacity is found by computing the capacity of each link separately. (Users interact through interference, cooperation and correlated sources, so the joint problem generally does not split into independent single-user problems.)
+- The MAC capacity region is a rectangle, with each sender getting its full single-user capacity at the same time. (A sum-rate constraint generally cuts off the corner. For the two-user Gaussian MAC the region is a pentagon.)
+- Interference is best handled by treating it as extra noise. (When interference is strong, a receiver can decode the interfering message and remove it. Treating it as noise then gives lower rates.)
+- Taking turns at the single-user rates reaches every point of the capacity region. (For the Gaussian MAC, the straight line between the two single-user points lies inside the region. Simultaneous transmission with successive decoding reaches points beyond it.)
+
 ## Questions
 
 ```yaml

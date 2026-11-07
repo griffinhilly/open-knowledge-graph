@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 The asymptotic equipartition property (AEP) states that for a long sequence of n i.i.d. random variables, -(1/n) log p(X_1, ..., X_n) converges to H(X) in probability. This means almost all observed sequences have probability approximately 2^(-nH), forming the "typical set" of about 2^(nH) sequences. Although the total number of possible sequences is |alphabet|^n, the typical set is exponentially smaller (when H < log|alphabet|) yet carries nearly all the probability. The AEP is the law of large numbers applied to information and is the foundational tool for proving both source coding and channel coding theorems.
 
+## How It's Best Learned
+Use a spreadsheet for a coin with P(1) = 0.1 and n = 100. For each count k of ones, list the number of sequences, the probability of each one, and their total. The all-zeros sequence is the single most likely, at about 2.7×10^-5. Yet k = 10 carries about 0.13 of the probability, and its −(1/n) log2 p equals H(0.1) ≈ 0.469.
+
+## Common Misconceptions
+- The typical set is made of the most probable sequences. (Each typical sequence has probability near 2^(−nH). The all-zeros sequence above has −(1/n) log2 p ≈ 0.152, far from H, so it is not typical.)
+- Since the typical set holds nearly all the probability, it holds most of the sequences. (Its share of all sequences is about 2^(nH)/|alphabet|^n, which shrinks toward zero when H < log|alphabet|.)
+- A typical sequence must show each symbol about n·p(x) times. (The definition used here constrains only −(1/n) log p(x^n). With three or more symbols, a sequence with other counts can meet it. Strong typicality is a separate definition that constrains the counts.)
+
 ## Questions
 
 ```yaml

@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 Rate-distortion theory characterizes the fundamental limits of lossy compression. The rate-distortion function R(D) = min_{p(x-hat|x): E[d(x,x-hat)]<=D} I(X; X-hat) gives the minimum number of bits per symbol needed to represent a source with average distortion at most D. At D=0, R(0) = H(X) (lossless compression). As tolerable distortion increases, fewer bits are needed. For a Gaussian source with mean-squared error distortion, R(D) = (1/2) log(sigma^2/D) for D <= sigma^2. Rate-distortion theory provides the information-theoretic foundation for JPEG, MP3, and all lossy codecs.
 
+## How It's Best Learned
+Plot R(D) = 1 − H(D) for a fair-coin source with Hamming distortion. At D = 0.11, H(D) ≈ 0.5, so half a bit per symbol suffices. Compare a naive scheme at the same rate: send half the bits exactly and let the decoder guess the rest. Its distortion is 0.25. The gap between 0.11 and 0.25 shows what block coding buys.
+
+## Common Misconceptions
+- R(D) can be reached by quantizing each symbol on its own. (Per-symbol quantizers generally fall short of R(D). The achievability proof codes long blocks of symbols jointly.)
+- The rate-distortion function measures how well a particular codec performs. (R(D) depends only on the source distribution and the distortion measure. A codec's performance is compared against it.)
+- The distortion bound D caps the error on every symbol. (D bounds the expected distortion. Individual symbols can be reconstructed with larger errors.)
+- The best reconstruction has the same distribution as the source. (For a Gaussian source under squared error, the optimal reconstruction has variance sigma^2 − D, smaller than the source variance.)
+
 ## Questions
 
 ```yaml

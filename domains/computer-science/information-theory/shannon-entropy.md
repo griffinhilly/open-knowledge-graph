@@ -33,6 +33,14 @@ status: validated
 ## Core Idea
 Shannon entropy H(X) = -sum p(x) log p(x) quantifies the average uncertainty or "surprise" in a random variable X. It measures the minimum average number of bits needed to encode outcomes drawn from a distribution. A fair coin has entropy 1 bit; a biased coin has less. Entropy is maximized when all outcomes are equally likely and equals zero only when the outcome is certain. It is the foundational quantity of information theory, from which nearly all other measures are derived.
 
+## How It's Best Learned
+Play a yes/no guessing game for a variable with probabilities 1/2, 1/4, 1/8, 1/8. Ask "Is it the first?", then "Is it the second?", then "Is it the third?". The expected number of questions is 1/2·1 + 1/4·2 + 1/8·3 + 1/8·3 = 1.75, which equals H(X). Then compare a uniform four-outcome variable, which needs 2 questions.
+
+## Common Misconceptions
+- Entropy counts how many outcomes a variable can take. (Entropy depends on the probabilities. A two-outcome source with probabilities 0.99 and 0.01 has about 0.081 bits, far below 1 bit.)
+- Entropy depends on the values of the outcomes, so a variable taking values 1 and 100 has more entropy than one taking 0 and 1 with the same probabilities. (Entropy uses only the probabilities. Relabeling the outcomes leaves it unchanged.)
+- Entropy is the information carried by each outcome. (It is an average. Each outcome carries its own surprise −log2 p(x), and rare outcomes carry much more than the average.)
+
 ## Questions
 
 ```yaml
