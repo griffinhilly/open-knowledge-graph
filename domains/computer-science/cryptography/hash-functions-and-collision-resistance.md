@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 A cryptographic hash function maps arbitrary-length inputs to fixed-length outputs and must satisfy three security properties: preimage resistance (given h, hard to find m with H(m) = h), second-preimage resistance (given m, hard to find m' != m with H(m) = H(m')), and collision resistance (hard to find any pair m != m' with H(m) = H(m')). Collision resistance is the strongest property and is limited by the birthday bound — O(2^{n/2}) for an n-bit hash. SHA-256 (256-bit output, birthday bound 2^128) is the current standard. Hash functions are foundational building blocks for MACs, digital signatures, commitment schemes, and proof-of-work systems.
 
+## How It's Best Learned
+Truncate SHA-256 to 16 or 24 bits and search for collisions and preimages yourself, recording how many tries each takes. The collision search finishes after roughly the square root of the preimage effort, which makes the birthday bound concrete. Then write out each property as a game between a challenger and an attacker, and compare who chooses the messages in each game.
+
+## Common Misconceptions
+- A good hash function has no collisions. (Collisions must exist because there are more possible inputs than outputs. Security means they are infeasible to find.)
+- An n-bit hash gives n bits of collision resistance. (Generic birthday attacks find collisions in about 2^{n/2} evaluations, so a 256-bit hash gives about 128 bits of collision resistance.)
+- Hashing is a kind of encryption. (A standard hash such as SHA-256 has no key and no decryption. It is designed so that the input cannot feasibly be recovered from the output.)
+- Any secure cryptographic hash is fine for storing passwords. (General hashes like SHA-256 are fast, which helps attackers test guesses. Password storage needs salted, deliberately slow functions such as bcrypt or Argon2.)
+
 ## Questions
 
 ```yaml

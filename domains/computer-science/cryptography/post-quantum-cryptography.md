@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Shor's quantum algorithm solves factoring and discrete logarithms in polynomial time, breaking RSA, DH, ECDH, and ECDSA. Post-quantum cryptography (PQC) develops replacements based on problems believed resistant to quantum attack: lattices (ML-KEM, ML-DSA), hash functions (SPHINCS+/SLH-DSA), codes (Classic McEliece), and multivariate polynomials. NIST standardized ML-KEM and ML-DSA in 2024, based on Module-LWE/Module-SIS. The "harvest now, decrypt later" threat (adversaries store encrypted traffic for future quantum decryption) motivates immediate transition, even before large quantum computers exist. Hybrid approaches pair PQC with classical algorithms during the migration.
 
+## How It's Best Learned
+Make a table with one row per algorithm in use today: RSA, ECDH, ECDSA, AES-128, AES-256 and SHA-256. Mark which quantum algorithm affects each, Shor or Grover, and whether the fix is a new algorithm or larger parameters. Then trace one TLS handshake and mark where ML-KEM and ML-DSA would replace the classical steps, noting the change in message sizes. Last, work out how long recorded traffic must stay secret to judge the urgency.
+
+## Common Misconceptions
+- Post-quantum cryptography means cryptography that runs on quantum computers. (PQC runs on ordinary computers. It is designed to resist attackers who have quantum computers.)
+- Quantum computers break all of cryptography. (Shor's algorithm breaks factoring and discrete-log schemes. Symmetric ciphers and hashes face Grover's quadratic speedup, which larger keys and outputs can offset.)
+- There is no reason to migrate until large quantum computers exist. (Traffic recorded today can be decrypted later. Data that must stay secret for many years is already exposed to this "harvest now, decrypt later" threat.)
+- PQC is the same as quantum key distribution. (Quantum key distribution uses quantum physics and special hardware to share keys. PQC is ordinary software based on math problems believed hard for quantum computers.)
+
 ## Questions
 
 ```yaml

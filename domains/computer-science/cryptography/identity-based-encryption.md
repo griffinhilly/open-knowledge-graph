@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Identity-based encryption (IBE) allows a sender to encrypt to a recipient using only their identity (email address, phone number) as the public key — no certificate lookup needed. A trusted Key Generation Center (KGC) holds a master secret key and derives private keys from identities. Boneh and Franklin (2001) gave the first efficient IBE construction using bilinear pairings on elliptic curves. IBE simplifies key management (no PKI needed) but introduces key escrow (the KGC can decrypt all messages). IBE also enables advanced features like fuzzy/attribute-based encryption and hierarchical delegation.
 
+## How It's Best Learned
+Compare two ways of sending Alice an encrypted email. In the PKI flow, list each step: find her certificate, check the chain, check revocation, encrypt. In the IBE flow, encrypt to her address with the public parameters. Then mark which party in each flow could read the message. Next, check the bilinearity identity e(aP, bQ) = e(P, Q)^{ab} and follow how Boneh-Franklin uses it to match sender and receiver.
+
+## Common Misconceptions
+- IBE removes the need to trust any central party. (The Key Generation Center derives every private key and can decrypt every message. IBE moves trust from certificate authorities to the KGC.)
+- Knowing someone's email address lets you decrypt messages sent to them. (The identity is the public key. Decryption needs the private key, which only the KGC can derive from the master secret.)
+- The recipient must register before anyone can encrypt to them. (A sender needs only the identity string and the public parameters. The recipient can get the private key later and still decrypt.)
+- IBE avoids the revocation problem. (Revoking an identity like an email address is awkward because the identity cannot change. Schemes often add time periods to identity strings so revoked users stop receiving new keys.)
+
 ## Questions
 
 ```yaml

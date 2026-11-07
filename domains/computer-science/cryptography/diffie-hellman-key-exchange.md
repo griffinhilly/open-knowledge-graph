@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Diffie-Hellman (1976) allows two parties to establish a shared secret key over a public channel without any prior shared secret. Both parties agree on a public prime p and generator g. Alice picks secret a, sends g^a mod p; Bob picks secret b, sends g^b mod p. Both compute the shared key g^{ab} mod p. Security rests on the Computational Diffie-Hellman (CDH) assumption: given g^a and g^b, computing g^{ab} is hard without knowing a or b. DH is vulnerable to man-in-the-middle attacks without authentication. The protocol also works over elliptic curve groups (ECDH), offering equivalent security with smaller parameters.
 
+## How It's Best Learned
+Run the protocol with small numbers, such as p = 23 and g = 5, and have two learners exchange values on a board while a third plays the eavesdropper. With numbers this small the eavesdropper can find a by trying every exponent, which shows why p must be large. Then let the third learner play an active attacker who swaps the public values, and ask what each party would need to detect it.
+
+## Common Misconceptions
+- Diffie-Hellman encrypts the messages Alice and Bob send. (It only produces a shared secret. That secret is then used to derive keys for a separate symmetric cipher.)
+- Diffie-Hellman alone protects against any attacker on the network. (Unauthenticated DH resists passive eavesdroppers but not an active man-in-the-middle. The public values must be authenticated, for example by signatures or certificates.)
+- Breaking Diffie-Hellman requires solving the discrete logarithm problem. (The attacker needs to solve CDH, computing g^{ab} from g^a and g^b. CDH is no harder than the discrete logarithm problem and might be easier.)
+- Reusing the same secret exponent across many sessions costs nothing. (Using fresh exponents for each session gives forward secrecy, so a later key leak does not expose past sessions.)
+
 ## Questions
 
 ```yaml

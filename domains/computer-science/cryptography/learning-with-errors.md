@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The Learning with Errors (LWE) problem asks: given pairs (a_i, b_i) where b_i = <a_i, s> + e_i mod q (inner product with a secret vector s, plus small random noise e_i), find s — or even distinguish these pairs from uniformly random. Regev (2005) proved that LWE is as hard as worst-case lattice problems (with a quantum reduction). LWE underpins most modern lattice-based cryptography: Regev encryption, key exchange (Kyber/ML-KEM), FHE (BGV, BFV, CKKS), and more. Ring-LWE and Module-LWE use polynomial ring structure for efficiency. The noise is essential — without it, the problem reduces to linear algebra (Gaussian elimination).
 
+## How It's Best Learned
+Generate a few LWE samples by hand with tiny numbers, such as n = 2 and q = 17, and errors in {-1, 0, 1}. Try Gaussian elimination and watch the errors spread through the answer. Then encrypt one bit with Regev's scheme using the same numbers and decrypt by rounding. Finally, add two ciphertexts and check how the error grows, which prepares the ground for homomorphic encryption.
+
+## Common Misconceptions
+- The noise in LWE is a flaw that a better scheme would remove. (The noise is what makes the problem hard. Without it, Gaussian elimination recovers s directly.)
+- Larger noise always makes LWE schemes better. (More noise makes the problem harder but can cause decryption to fail. Parameters must keep the noise small relative to q.)
+- Because Regev's reduction is quantum, LWE is only believed hard against classical computers. (The reduction shows that breaking LWE would let a quantum computer solve worst-case lattice problems. LWE is believed hard against quantum adversaries as well.)
+- Ring-LWE and Module-LWE are just faster versions of LWE with the same security basis. (They add algebraic structure for efficiency. Their hardness rests on lattice problems over structured lattices, which is a different and possibly weaker assumption.)
+
 ## Questions
 
 ```yaml

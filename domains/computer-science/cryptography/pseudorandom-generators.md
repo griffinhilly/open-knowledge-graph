@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 A pseudorandom generator (PRG) is a deterministic function G: {0,1}^n → {0,1}^l(n) with l(n) > n (expansion) such that the output on a random seed is computationally indistinguishable from a truly random string of length l(n). No efficient statistical test can tell PRG output from random with non-negligible advantage. PRGs exist if and only if one-way functions exist (HILL theorem). The Goldreich-Levin hard-core bit construction turns any OWF into a PRG by extracting one pseudorandom bit per invocation, then iterating. PRGs are the theoretical foundation of stream ciphers and the basis for building pseudorandom functions.
 
+## How It's Best Learned
+Begin with a counting exercise: a generator from 3-bit seeds to 6-bit outputs can reach at most 8 of the 64 possible strings. An unlimited tester could check membership in that set. Then frame the definition as a game against a tester with limited running time. Next, write the hybrid argument for stretching a 1-bit-expansion PRG to longer outputs, one step at a time. Last, contrast this with an insecure generator such as a linear congruential generator and find a test that breaks it.
+
+## Common Misconceptions
+- A PRG's output is statistically close to random. (For any real expansion, the output is far from uniform in a statistical sense. It only looks random to tests that run in polynomial time.)
+- Passing standard statistical test suites makes a generator a PRG. (A generator can pass common tests and still be predictable. A PRG must defeat every efficient test, including ones designed against it.)
+- A PRG creates randomness. (A PRG is deterministic. All of its unpredictability comes from the random seed, so a weak or reused seed weakens the whole output.)
+- The seed can be revealed once the output has been generated. (Anyone with the seed can recompute the output exactly. The seed must stay secret for the output to look random.)
+
 ## Questions
 
 ```yaml

@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Cryptographic security depends critically on high-quality randomness for key generation, nonces, IVs, and padding. A cryptographically secure pseudorandom number generator (CSPRNG) expands a short truly random seed into a long pseudorandom stream that is computationally indistinguishable from true randomness. Entropy — genuine physical unpredictability — must be harvested from hardware sources (timing jitter, thermal noise, etc.) and cannot be created algorithmically. Weak or predictable randomness has caused catastrophic real-world failures: the Debian OpenSSL bug (2008) reduced key entropy to 15 bits, and Dual_EC_DRBG contained an NSA backdoor. Using the OS-provided CSPRNG (/dev/urandom, CryptGenRandom) is the correct practice.
 
+## How It's Best Learned
+Seed a fast non-cryptographic generator, such as a language's default random module, with the current time in seconds and generate a "key". Then have a partner recover the key by trying every second in the past day. Repeat with the operating system's CSPRNG and see that the same search has nothing to work with. Then read the Debian OpenSSL case and estimate the attacker's search space from the number of possible seeds.
+
+## Common Misconceptions
+- A generator that passes statistical randomness tests is safe for keys. (Statistical tests check for patterns, not unpredictability. A generator seeded with a timestamp can pass them while its output is easy to predict.)
+- A strong CSPRNG makes up for a weak seed. (A CSPRNG cannot add entropy. If the seed has 30 bits of entropy, an attacker needs only about 2^30 guesses.)
+- Hashing a predictable value makes it random. (A hash of a guessable value is still guessable. An attacker can hash each candidate the same way.)
+- Writing your own generator from a good cipher is as safe as using the OS. (Custom generators often fail at seeding, reseeding or handling forks and virtual machine snapshots. The OS CSPRNG is the safer choice.)
+
 ## Questions
 
 ```yaml

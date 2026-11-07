@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Code-based cryptography constructs public-key encryption and signatures from error-correcting codes. The most famous is McEliece encryption, which hides a systematic error-correcting code as a random matrix. Encryption adds random errors; decryption uses the hidden code structure to correct errors and recover the message. Code-based schemes are post-quantum secure: no known polynomial-time quantum algorithms break them, and the underlying problem (syndrome decoding) is NP-hard. Challenges include large public keys and ciphertexts, but recent improvements (quasi-dyadic codes, rank metrics) reduce overhead. Code-based cryptography is standardized (NIST lattice-based competition) and increasingly deployed.
 
+## How It's Best Learned
+Start with a small code you can decode by hand, such as the [7,4] Hamming code. Encode a 4-bit message, flip one bit, and use the parity-check matrix to compute the syndrome and find the error. Then scramble the generator matrix with a random invertible matrix and a permutation, and notice that the scrambled matrix still encodes but no longer shows how to decode. That gap is the McEliece trapdoor.
+
+## Common Misconceptions
+- McEliece is secure because decoding every linear code is NP-hard. (NP-hardness is a worst-case statement about general codes. McEliece security also assumes that the scrambled public code looks like a random code and that typical instances are hard to decode.)
+- Any error-correcting code works as the hidden code. (Some code families have been broken because their structure shows through the scrambled public key. Binary Goppa codes have resisted structural attacks in the original McEliece design.)
+- Code-based schemes are a new idea built for the quantum era. (McEliece was proposed in the 1970s, long before quantum attacks drove interest in post-quantum cryptography.)
+- Adding more random errors to the ciphertext makes McEliece safer. (The number of errors must stay within what the hidden code can correct. With too many errors, the legitimate receiver cannot decrypt either.)
+
 ## Questions
 
 ```yaml

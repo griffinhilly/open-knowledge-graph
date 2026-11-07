@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 A pseudorandom function (PRF) family {F_k} maps inputs to outputs such that F_k (for a random key k) is computationally indistinguishable from a truly random function, even to an adversary with adaptive oracle access. PRFs are the theoretical model for block ciphers and the core building block for MACs, CPA-secure encryption, and key derivation. The GGM construction proves that PRGs imply PRFs, completing the chain: OWFs → PRGs → PRFs. A pseudorandom permutation (PRP) is a PRF that is also a bijection — the formal model for block ciphers like AES. The PRP/PRF switching lemma shows PRPs and PRFs are interchangeable for most applications when the domain is large.
 
+## How It's Best Learned
+Picture the security game as a sealed box with an input slot: inside is either F_k or a function whose outputs were drawn at random, and the adversary may feed in any inputs it likes. Then draw the GGM tree for 3-bit inputs, label every node, and trace F_k(101) from root to leaf. Next, write the hybrid that swaps one level for random values. Finally, build CPA-secure encryption and a fixed-length MAC from a PRF and check what each reduction needs.
+
+## Common Misconceptions
+- A PRF's output is random only if the inputs are random. (The guarantee holds for inputs the adversary chooses, even adaptively. That is why a PRF is stronger than a PRG.)
+- Once the key is published, a PRF still looks random. (Pseudorandomness depends on the key being secret. With the key, anyone can compute F_k and tell it apart from a random function.)
+- A PRF is the same as a hash function. (A PRF is keyed and its security assumes a secret random key. A hash has no secret key, and collision resistance is a different property.)
+- Block ciphers are PRFs. (Block ciphers are modeled as pseudorandom permutations. They can stand in for PRFs only while the number of queries stays well below 2^{n/2}.)
+
 ## Questions
 
 ```yaml

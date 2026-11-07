@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 A MAC is a keyed function that takes a secret key and a message and produces a short tag. The sender transmits (message, tag); the receiver recomputes the tag with the shared key and checks for a match. Security requires existential unforgeability under chosen-message attack (EUF-CMA): an adversary who can obtain tags on messages of their choice still cannot forge a valid tag on any new message. HMAC (hash-based) and CBC-MAC (block-cipher-based) are the main constructions. MACs provide integrity and authenticity but not confidentiality — the message is sent in the clear alongside the tag.
 
+## How It's Best Learned
+Start with an attack. Encrypt a short message such as "PAY 100" in CTR mode, flip ciphertext bits to turn it into "PAY 900", and decrypt it. Then add a tag and show the change is caught. After that, work the two classic forgeries by hand: length extension on H(key || message) and the two-block forgery on plain CBC-MAC. Each one explains a design choice in HMAC or CMAC.
+
+## Common Misconceptions
+- Encrypting a message also protects it from tampering. (Encryption alone is often malleable. An attacker can change ciphertext to make predictable changes in the plaintext without detection.)
+- H(key || message) is a fine MAC because the key is secret. (With Merkle-Damgård hashes such as SHA-256, length extension lets an attacker forge tags for longer messages. HMAC's nested structure prevents this.)
+- A valid MAC proves to anyone who sent the message. (Both parties hold the same key, so either could have made the tag. A MAC convinces the receiver but cannot prove authorship to a third party.)
+- Checking a tag with an ordinary byte-by-byte comparison is safe. (A comparison that stops at the first mismatch can leak timing information. Implementations should compare tags in constant time.)
+
 ## Questions
 
 ```yaml

@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Authenticated encryption (AE) combines confidentiality and integrity in a single primitive, guaranteeing that ciphertext cannot be read or tampered with. AEAD (AE with Associated Data) additionally authenticates unencrypted metadata (headers, routing info). The correct generic composition is encrypt-then-MAC (encrypt first, then MAC the ciphertext). MAC-then-encrypt and encrypt-and-MAC have led to devastating attacks (padding oracles, BEAST, Lucky13). Dedicated AEAD constructions (GCM, ChaCha20-Poly1305, OCB) integrate encryption and authentication for efficiency and resistance to misuse. AE is the modern standard — standalone encryption without authentication is considered a design error.
 
+## How It's Best Learned
+Begin with an attack on unauthenticated encryption: flip one bit of a CTR-mode ciphertext and watch the matching plaintext bit flip on decryption. Then draw the three generic compositions side by side and trace, for each one, what the receiver must do before it can reject a forged message. Finish by reading the inputs and outputs of an AEAD call (key, nonce, plaintext, associated data) and listing what goes wrong if the nonce repeats.
+
+## Common Misconceptions
+- Encryption alone stops an attacker from changing a message. (Many encryption modes are malleable. An attacker can alter ciphertext bits and cause predictable changes in the plaintext unless a MAC or AEAD tag is checked.)
+- The order of encryption and MAC does not matter as long as both are used. (Only encrypt-then-MAC is generically secure. Other orders have led to real attacks because the receiver processes ciphertext before verifying it.)
+- Associated data is encrypted along with the payload. (Associated data is authenticated but stays readable. Changing it makes the tag fail, but anyone can read it.)
+- Reusing a nonce with AES-GCM only leaks a little about the two messages involved. (A repeated nonce under one key reveals the XOR of the two plaintexts and can let an attacker recover the authentication key and forge tags.)
+
 ## Questions
 
 ```yaml

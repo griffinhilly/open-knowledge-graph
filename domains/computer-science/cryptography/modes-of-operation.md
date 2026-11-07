@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 A block cipher encrypts one fixed-size block deterministically. Modes of operation extend it to arbitrary-length messages while achieving semantic security (identical plaintexts produce different ciphertexts). ECB fails this by encrypting blocks independently. CBC chains blocks via XOR with the previous ciphertext (requiring a random IV). CTR turns the block cipher into a stream cipher by encrypting sequential counter values. GCM combines CTR encryption with a polynomial MAC for authenticated encryption. Each mode has distinct properties regarding parallelism, error propagation, and the consequences of nonce/IV misuse.
 
+## How It's Best Learned
+Draw block diagrams for ECB, CBC and CTR on one page, with arrows for every XOR and cipher call. Then use the diagrams to answer the same three questions for each mode: what one flipped ciphertext bit does on decryption, which steps can run in parallel, and what goes wrong when the IV or nonce repeats. Encrypting an image with a simple block pattern in ECB and then CBC makes the first lesson visible.
+
+## Common Misconceptions
+- A strong block cipher like AES is secure in any mode. (The mode determines what leaks. ECB with AES still shows which plaintext blocks are equal.)
+- A CBC IV only needs to be unique. (CBC needs an unpredictable IV. A predictable IV allows chosen-plaintext attacks, as BEAST showed against TLS.)
+- A CTR nonce can be repeated, since the counter changes anyway. (If a nonce and key repeat, the keystream repeats, and XORing the two ciphertexts gives the XOR of the plaintexts.)
+- CBC and CTR detect tampering because errors garble the output. (Neither mode provides integrity. An attacker can make controlled bit flips, so a MAC or an AEAD mode such as GCM is needed.)
+
 ## Questions
 
 ```yaml

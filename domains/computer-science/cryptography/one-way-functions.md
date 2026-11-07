@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 A one-way function (OWF) is a function that is easy to compute (polynomial time) but hard to invert (no polynomial-time algorithm succeeds on a non-negligible fraction of inputs). OWFs are the minimal assumption of cryptography: they exist if and only if P != NP for certain structured problems, and their existence is necessary and sufficient for private-key cryptography (pseudorandom generators, pseudorandom functions, MACs, symmetric encryption, digital signatures, commitment schemes). Candidate OWFs include integer multiplication (easy to multiply, hard to factor) and modular exponentiation. Proving any function is one-way remains an open problem equivalent in difficulty to separating P from NP.
 
+## How It's Best Learned
+Start by writing the formal definition as a game: pick a random x, give the inverter f(x), and say it wins if it outputs any x' with f(x') = f(x). Then test candidates against the game. Multiplication of two random numbers fails, since a random product is even three times out of four and easy to split. Multiplication of two random primes of equal length is a serious candidate. Comparing these two cases shows why the input distribution matters.
+
+## Common Misconceptions
+- A function is one-way if it is hard to invert on some inputs. (The definition needs average-case hardness. An efficient algorithm must fail on all but a negligible fraction of random inputs.)
+- Inverting means recovering the exact original input. (The inverter wins by finding any preimage, so a function where many inputs map to the same output is not one-way just because the true input is hidden.)
+- If P ≠ NP, then one-way functions exist. (One-way functions imply P ≠ NP, but the converse is open. P ≠ NP gives only worst-case hardness.)
+- One-way functions give public-key encryption. (They give the main private-key primitives, but they are not known to give public-key encryption. That appears to need extra structure such as a trapdoor.)
+
 ## Questions
 
 ```yaml

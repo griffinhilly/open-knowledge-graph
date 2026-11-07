@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 A lattice is the set of all integer linear combinations of a set of basis vectors in R^n. Lattice problems — finding short vectors (SVP), finding close vectors (CVP) — are believed hard even for quantum computers. Lattice-based cryptography builds encryption, signatures, FHE, and more on the hardness of these problems. The key advantage over number-theoretic schemes is worst-case to average-case reductions (Ajtai 1996): breaking a random lattice instance is as hard as solving the worst case of standard lattice problems. This provides stronger theoretical foundations and quantum resistance, making lattices the basis for NIST's post-quantum standards (ML-KEM, ML-DSA).
 
+## How It's Best Learned
+Work in two dimensions first. Plot one lattice from a short, nearly orthogonal basis and again from a long, skewed basis, and check that both give the same points. Then pick a target point off the lattice and try to round to the nearest lattice point with each basis. The good basis usually lands on the nearest point, and the bad one often lands on a farther one. That picture carries the trapdoor idea into high dimensions, where it can no longer be drawn.
+
+## Common Misconceptions
+- A lattice has one basis. (Any lattice of dimension two or more has infinitely many bases. Some bases are short and nearly orthogonal, and others are long and skewed.)
+- Lattice problems are hard in every dimension. (Problems like SVP are easy in low dimensions and LLL finds fairly short vectors in moderate ones. Hardness comes from using high enough dimensions.)
+- Worst-case to average-case reductions prove that lattice schemes are secure. (They show random instances are as hard as the worst case, assuming the worst case is hard. That assumption is still unproven.)
+- A secure scheme's parameters follow directly from the reduction. (Practical parameters are usually set from the cost of the best known attacks, such as lattice reduction, rather than from the reduction's guarantees.)
+
 ## Questions
 
 ```yaml

@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Classical ciphers -- substitution, transposition, and their combinations -- formed the basis of secret communication for centuries. Studying them introduces core cryptographic concepts (keys, keyspaces, Kerckhoffs' principle) and, equally important, the methods used to break them. Frequency analysis, known-plaintext attacks, and pattern exploitation demonstrate why security through obscurity fails and why modern cryptography demands mathematically grounded definitions of security.
 
+## How It's Best Learned
+Break ciphers by hand. Encrypt a paragraph with a Caesar shift, swap with a partner, and recover the shift by counting letters. Repeat with a random substitution alphabet, where counting gets you started but common words like "the" finish the job. Then try a Vigenère ciphertext, find repeated fragments to guess the key length, and split the text into columns that each fall to frequency analysis.
+
+## Common Misconceptions
+- A substitution cipher with a huge keyspace is secure. (A random substitution alphabet has 26! keys, but frequency analysis breaks it without searching the keyspace. A large keyspace is needed for security, but it does not guarantee it.)
+- Keeping the algorithm secret is a sound basis for a cipher's security. (Kerckhoffs' principle says security should rest on the key alone. A secret algorithm can leak and cannot be replaced the way a key can.)
+- Polyalphabetic ciphers like Vigenère hide letter frequencies completely. (They flatten the overall frequency count, but a repeating key leaves periodic patterns. Once the period is found, each column is a simple shift cipher.)
+- Combining two weak ciphers gives a weak cipher. (Combining substitution and transposition can be much stronger than either alone, which is why modern block ciphers alternate both kinds of layers.)
+
 ## Questions
 
 ```yaml

@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Blockchain consensus protocols use cryptography to achieve distributed agreement on transaction history without a trusted central authority. Cryptographic primitives enable: (1) authenticity (digital signatures prove senders), (2) integrity (hash functions detect tampering), (3) consensus (proof-of-work uses computational puzzles; proof-of-stake uses signatures and slashing), (4) finality (cryptographic sortition, BFT protocols). Advanced protocols (proof-of-authority, proof-of-history) add efficiency or additional guarantees. Cryptographic security of blockchains is crucial: compromised signatures, hash collisions, or consensus protocol flaws can enable theft or double-spending. Understanding the cryptographic foundations of consensus is essential for evaluating blockchain security.
 
+## How It's Best Learned
+Build a toy chain of three blocks on paper, each holding a list of signed transactions, a Merkle root and the previous block's hash. Change one transaction in the first block and trace which hashes and links break. Then compare proof-of-work and proof-of-stake on the same question: what an attacker must spend or risk to rewrite that block. Keep a two-column list of which guarantees come from cryptography and which come from incentives.
+
+## Common Misconceptions
+- A blockchain is secure because its data is encrypted. (Most public blockchains store transactions in the clear. Their security comes from signatures, hash links and the consensus rule, not from hiding data.)
+- Hash chaining alone makes history impossible to change. (Anyone can recompute the hashes of a modified chain. What makes rewriting hard is the consensus cost, such as redoing proof-of-work or risking slashed stake.)
+- A 51% attacker can steal coins from any account. (Majority control lets an attacker reorder or censor transactions and double-spend their own coins. It does not let them forge signatures on other users' transactions.)
+- Proof-of-stake has no cost for misbehaving. (Validators lock up stake as collateral, and provable equivocation, such as signing two conflicting blocks, can cause that stake to be slashed.)
+
 ## Questions
 
 ```yaml

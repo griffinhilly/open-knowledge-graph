@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Yao's garbled circuits enable two-party secure computation. The garbler converts a Boolean circuit into a "garbled" version where each wire carries random labels instead of 0/1 values, and each gate's truth table is encrypted so that knowing input labels reveals only the output label — not whether it represents 0 or 1. The evaluator obtains their input labels via oblivious transfer and evaluates the garbled circuit gate by gate, learning only the final output. Key optimizations (point-and-permute, free XOR, half-gates) reduce cost from 4 ciphertexts per gate to 1.5 for AND gates and zero for XOR gates, making garbled circuits practical for real applications.
 
+## How It's Best Learned
+Garble a single AND gate by hand. Pick two random labels for each wire, write the four rows of the truth table, encrypt each output label under its pair of input labels, and shuffle the rows. Then play the evaluator holding one label per input wire and see that only one row opens. After that, chain two gates, add point-and-permute bits, and redo an XOR gate with free XOR to see why it needs no table.
+
+## Common Misconceptions
+- The evaluator sees the 0/1 values on the wires as the circuit runs. (The evaluator sees only random labels. It learns what the final output labels mean through the decoding table, and nothing about intermediate wires.)
+- A garbled circuit can be reused for many inputs. (Revealing labels for both values on a wire breaks the security. Basic garbled circuits are one-time use, so each run needs a fresh garbling.)
+- The evaluator can just ask the garbler for the labels of its own input bits. (That would reveal the evaluator's input to the garbler. Oblivious transfer delivers the right labels without the garbler learning which ones were chosen.)
+- Yao's basic protocol is secure even if the garbler cheats. (The basic protocol is secure against semi-honest parties. A malicious garbler could garble a different function, so extra techniques such as cut-and-choose are needed.)
+
 ## Questions
 
 ```yaml

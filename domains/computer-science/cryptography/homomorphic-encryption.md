@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Homomorphic encryption (HE) allows computation on encrypted data without decrypting it. Partially homomorphic schemes support one operation (RSA: multiplication; Paillier: addition). Fully homomorphic encryption (FHE), first achieved by Gentry (2009), supports arbitrary computations — both addition and multiplication, and therefore any circuit. The key technique is bootstrapping: using the scheme to homomorphically evaluate its own decryption circuit, refreshing noisy ciphertexts. Modern FHE schemes (BGV, BFV, CKKS, TFHE) are based on lattice problems (LWE/RLWE) and are ~10,000x slower than plaintext computation, but improving rapidly. Applications include private cloud computation, encrypted machine learning, and private database queries.
 
+## How It's Best Learned
+Begin with textbook RSA and multiply two small ciphertexts to see the product decrypt correctly. Then build a toy noisy scheme, where a ciphertext for a bit m is c = m + 2e + pq for a secret odd p, a small error e and a random q, and decryption is (c mod p) mod 2. Track the error as you add and multiply. Watch decryption fail once the error grows too large. That failure motivates bootstrapping, which is easier to follow once the noise budget has been seen in numbers.
+
+## Common Misconceptions
+- Homomorphic encryption lets the server see results while keeping inputs secret. (The output stays encrypted. Only the holder of the secret key can decrypt the result.)
+- Any scheme that supports one homomorphic operation can compute anything. (Schemes such as Paillier support only addition, which limits them to linear functions. Arbitrary computation needs both addition and multiplication.)
+- Leveled and fully homomorphic schemes are the same thing. (A leveled scheme supports circuits up to a fixed depth set in advance. Bootstrapping is what removes that limit.)
+- CKKS gives wrong answers because it is approximate. (CKKS is designed for approximate arithmetic. Its results match the true values up to a controlled precision, which suits tasks such as machine learning.)
+
 ## Questions
 
 ```yaml

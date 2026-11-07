@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Elliptic curve cryptography (ECC) performs the same operations as classical public-key cryptography (DH, DSA, encryption) but over the group of points on an elliptic curve rather than the multiplicative group of integers modulo a prime. The key advantage is efficiency: the best known attacks on elliptic curve discrete logarithms (Pollard's rho) run in O(sqrt(n)) time, compared to sub-exponential algorithms for integer factorization and modular discrete logarithms. A 256-bit elliptic curve provides ~128 bits of security, matching a 3072-bit RSA/DH key. This makes ECC the default choice for modern protocols (TLS 1.3, Signal, SSH).
 
+## How It's Best Learned
+First add points on a real-number plot of y² = x³ − x + 1 with the chord-and-tangent rule, so the picture is clear. Then list every point of a tiny curve over a small prime field, such as F_17, and build its addition table by formula. Compute 13P with double-and-add and count the steps. Finally, try to recover k from P and kP by brute force, and compare that search with the double-and-add work.
+
+## Common Misconceptions
+- Elliptic curves in cryptography are smooth curves drawn on a graph. (Cryptographic curves are defined over finite fields, so the "curve" is a scattered set of points. The geometric picture motivates the formulas, which are then applied in modular arithmetic.)
+- Elliptic curves are related to ellipses. (The name comes from elliptic integrals. An elliptic curve such as y² = x³ + ax + b is not an ellipse.)
+- Shorter ECC keys mean weaker security than RSA. (A 256-bit curve gives about the same security as 3072-bit RSA, because the best known attack on well-chosen curves is generic and much slower than factoring algorithms.)
+- Any curve with a large number of points is safe. (Some curves have structure that enables faster attacks, such as anomalous or pairing-friendly curves with small embedding degree. Curve choice and point validation matter.)
+
 ## Questions
 
 ```yaml

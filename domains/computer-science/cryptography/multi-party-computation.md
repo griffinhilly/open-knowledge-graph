@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Multi-party computation (MPC) enables n parties to jointly compute a function f(x_1, ..., x_n) where party i holds input x_i, without revealing individual inputs to each other. Parties learn only the output f(x_1, ..., x_n), not intermediate values or others' inputs. MPC is theoretically proven possible for any computable function (universal), with various constructions: secret sharing (Shamir, additive), garbled circuits, homomorphic encryption, and oblivious transfer. Practical MPC protocols balance security (information-theoretic vs. computational), robustness (honest majority vs. dishonest majority), and efficiency. Applications include privacy-preserving data analysis, secure auctions, and collaborative machine learning.
 
+## How It's Best Learned
+Have three learners compute their average salary without revealing any salary. Each splits their number into three random shares that add up to it mod a large number, hands one share to each person, and everyone adds what they hold and announces the total. Then try to multiply two shared values the same way and see why local work is not enough. That gap motivates multiplication protocols, OT and garbled circuits.
+
+## Common Misconceptions
+- MPC hides everything about the inputs. (MPC reveals the output, and the output can reveal a lot. For example, if two parties compute the sum of their inputs, each one can subtract its own input to learn the other's.)
+- MPC needs a trusted party to collect the data. (The point of MPC is to get the result a trusted party would compute without having one. No single party ever sees the others' inputs.)
+- Security against parties who follow the protocol also covers parties who cheat. (Semi-honest security assumes everyone follows the protocol. Protection against malicious parties needs extra tools such as commitments, zero-knowledge proofs or MACs on shares.)
+- Additive shares can be multiplied locally just as they are added. (Addition of shares is local, but multiplying shares does not give shares of the product. Multiplication needs interaction or precomputed material such as Beaver triples.)
+
 ## Questions
 
 ```yaml

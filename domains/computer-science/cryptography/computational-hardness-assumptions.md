@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Modern cryptography is built on unproven mathematical assumptions: specific computational problems (factoring, CDH, DDH, LWE) are believed to be intractable for polynomial-time algorithms. A cryptographic scheme's security is proven by reduction — showing that any efficient attacker breaks the scheme only if they can also solve the underlying hard problem. Assumptions are arranged in a hierarchy: DDH implies CDH implies DLP; factoring implies RSA. Weaker assumptions yield stronger results. The gap between "no one knows how to solve X" and "X is provably hard" is the foundational epistemic limitation of cryptography — no hardness assumption has been proven unconditionally (doing so would resolve P != NP).
 
+## How It's Best Learned
+Draw the DLP, CDH and DDH problems as a chain and write, next to each arrow, the one-line algorithm that turns a solver for one problem into a solver for the next. Then read the direction of the arrows as statements about hardness and check which assumption is stronger. Finally, write out one complete reduction, such as ElGamal's semantic security from DDH, and mark where the attacker is used as a subroutine.
+
+## Common Misconceptions
+- A security proof means the scheme cannot be broken. (A reduction proves security only relative to an assumption. If the assumption fails, the proof says nothing.)
+- A stronger assumption is a safer foundation. (A stronger assumption claims more, so it is more likely to be false. Cryptographers prefer the weakest assumption that supports the scheme.)
+- A security reduction turns a solver for the hard problem into an attack on the scheme. (The reduction turns any attacker on the scheme into a solver for the hard problem. It shows breaking the scheme is at least as hard as solving the problem.)
+- If DDH holds in one group, it holds in every group where discrete logs are hard. (DDH is easy in some groups with bilinear pairings, even though CDH and discrete logs are believed hard there.)
+
 ## Questions
 
 ```yaml

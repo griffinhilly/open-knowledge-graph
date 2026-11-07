@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 RSA is a public-key cryptosystem whose security rests on the difficulty of factoring large integers. The public key (n, e) consists of a product n = pq of two large primes and an encryption exponent e. The private key d satisfies ed ≡ 1 (mod phi(n)). Encryption computes c = m^e mod n; decryption computes m = c^d mod n. Correctness follows from Euler's theorem. The trapdoor is factorization: computing d from (n, e) is easy if p and q are known but believed hard otherwise. RSA is used for key exchange and digital signatures, though direct RSA encryption requires padding schemes (OAEP) to be secure against chosen-ciphertext attacks.
 
+## How It's Best Learned
+Generate a key by hand with small primes, such as p = 5 and q = 11, so n = 55 and phi(n) = 40. Choose e = 3, find d = 27 with the extended Euclidean algorithm, and encrypt and decrypt a few numbers. Then encrypt the same message twice and see the identical ciphertexts, which shows why textbook RSA needs padding. Finally, factor n and recompute d to see where the trapdoor lies.
+
+## Common Misconceptions
+- RSA encryption is hard for everyone to reverse. (It is a trapdoor function, and the holder of d reverses it easily. Security rests on the belief that taking e-th roots mod n is hard without d. Factoring n would reveal d, so RSA is no harder to break than factoring.)
+- Textbook RSA, c = m^e mod n, is fine to use as it is. (It is deterministic and malleable. Real systems use padding such as OAEP for encryption and PSS for signatures.)
+- RSA is normally used to encrypt files and messages directly. (RSA is slow and limited to inputs smaller than n. It usually protects a short symmetric key or signs a hash, while a symmetric cipher handles the data.)
+- Only d needs to stay secret, so p and q can be thrown away carelessly or made public. (Anyone who learns p or q can factor n, compute phi(n) and recover d. The primes must be kept secret or securely erased.)
+
 ## Questions
 
 ```yaml

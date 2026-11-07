@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 A digital signature scheme lets a signer with a private key produce a signature on a message that anyone with the corresponding public key can verify. Unlike MACs, signatures provide non-repudiation: the signer cannot deny having signed because only they possess the private key. Security requires existential unforgeability under chosen-message attack (EUF-CMA). RSA-PSS, DSA, and ECDSA are the main schemes. Signatures are applied to message hashes (not raw messages) for efficiency and to prevent algebraic attacks. They are foundational to PKI, code signing, certificates, and blockchain transactions.
 
+## How It's Best Learned
+Sign and verify with toy RSA numbers, such as n = 33, e = 3 and d = 7. Then multiply two signatures and show that the product verifies as a signature on the product of the messages, which is why real schemes hash and pad. Next, place a MAC and a signature side by side and ask who could have produced each tag. Finally, walk through the ECDSA nonce-reuse equations to see how a repeated k exposes the private key.
+
+## Common Misconceptions
+- Signing a message also keeps it secret. (A signature proves origin and integrity. The message and signature are usually sent in the clear, and anyone with the public key can verify them.)
+- A MAC gives the same guarantees as a signature. (A MAC uses a shared key, so either party could have made the tag. Only a signature lets a third party verify who signed.)
+- An occasional repeated ECDSA nonce does little harm. (Reusing a nonce for two messages reveals the private key, and even small biases in nonces have enabled key recovery.)
+- Signing is the same as encrypting with the private key. (That view loosely fits textbook RSA but not schemes like ECDSA or Ed25519. Even for RSA, secure signing needs hashing and padding such as PSS.)
+
 ## Questions
 
 ```yaml

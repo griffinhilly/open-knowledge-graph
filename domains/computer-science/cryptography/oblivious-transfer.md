@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 1-out-of-2 oblivious transfer (OT) is a protocol where a sender has two messages (m0, m1) and a receiver has a choice bit b. After the protocol, the receiver learns m_b but nothing about m_{1-b}, while the sender learns nothing about b. OT is a complete primitive for secure computation: any function can be securely computed using only OT as a building block (Kilian 1988). OT requires computational assumptions — it is impossible information-theoretically. OT extension protocols amortize expensive public-key operations, enabling millions of OTs from a small number of base OTs using only symmetric cryptography.
 
+## How It's Best Learned
+Begin with a physical version: the sender puts two messages in two locked boxes and the receiver can open only one, unseen by the sender. Then ask what the math must do to keep both guarantees. Walk through one concrete protocol, such as a Diffie-Hellman-style OT, and check each party's view in turn. Last, show how a garbled-circuit evaluator uses one OT per input bit to get its labels.
+
+## Common Misconceptions
+- The receiver can just ask for the message it wants. (A plain request reveals the choice bit to the sender. OT has to hide the choice and also stop the receiver from learning the other message.)
+- OT is a minor tool only used inside garbled circuits. (OT is complete for secure computation. Any function can be securely computed with OT as the only cryptographic building block.)
+- Every OT needs its own public-key operation. (OT extension turns a small number of base OTs into a very large number of OTs using only symmetric-key operations.)
+- OT can be built from hash functions or block ciphers alone. (In the plain model, OT is not known to follow from one-way functions, and black-box constructions from them are ruled out. Base OTs need public-key-style assumptions.)
+
 ## Questions
 
 ```yaml

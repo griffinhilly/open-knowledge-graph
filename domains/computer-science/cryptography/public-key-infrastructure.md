@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 PKI solves the key distribution problem for public-key cryptography: how do you know that a public key actually belongs to the claimed entity? Certificate Authorities (CAs) sign X.509 certificates binding identities to public keys. Trust flows hierarchically from root CAs (pre-installed in browsers/OSes) through intermediate CAs to end-entity certificates. Revocation (CRL, OCSP) handles key compromise. Certificate Transparency logs provide public auditability. PKI is the trust backbone of HTTPS, code signing, and email encryption, but its security depends on every CA in the chain being trustworthy — a single compromised CA can forge certificates for any domain.
 
+## How It's Best Learned
+Open a real HTTPS site's certificate in a browser and read the chain from the site's certificate up to the root. For each certificate, note the subject, issuer, validity dates and public key. Then find the same root in the operating system's trust store and look up the site's certificates in a Certificate Transparency log search. Finally, sketch what an attacker gains by compromising a root, an intermediate or the site's own key.
+
+## Common Misconceptions
+- The padlock means the website is trustworthy. (The padlock means the connection is encrypted to a server that proved control of the domain. A phishing site can get a valid certificate for its own domain.)
+- A certificate contains the site's private key. (A certificate holds the public key and the CA's signature over it. The private key stays with the certificate's owner and is not sent to clients.)
+- Only the CA that issued a site's certificate can issue one for that domain. (Most CAs the browser trusts are technically able to issue a certificate for any domain. CAA records tell CAs which of them may issue, but they work only if the CA honors them.)
+- Revoking a certificate stops all clients from accepting it right away. (Revocation information spreads slowly, and many clients soft-fail when they cannot check it. Short certificate lifetimes help limit the damage.)
+
 ## Questions
 
 ```yaml

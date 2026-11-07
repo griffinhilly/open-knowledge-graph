@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Shannon's definition of perfect secrecy requires that a ciphertext reveals absolutely nothing about the plaintext — formally, the posterior distribution over plaintexts given the ciphertext equals the prior. The one-time pad (XOR with a truly random key as long as the message) achieves this, but Shannon proved any perfectly secret scheme requires keys at least as long as messages. This impossibility result motivates computational security: since information-theoretic perfection demands impractical key lengths, modern cryptography settles for security against computationally bounded adversaries.
 
+## How It's Best Learned
+Work with 2-bit messages and keys. Write a table of every message, key and resulting ciphertext under XOR, then fix one ciphertext and list which messages could have produced it. Repeat with a 1-bit key used on 2-bit messages and see some messages drop out. Then encrypt two short words with the same pad, XOR the ciphertexts, and recover them by guessing common letters.
+
+## Common Misconceptions
+- The one-time pad is secure as long as the key is secret. (The key must also be truly random, at least as long as the message, and never reused. Breaking any of these conditions destroys perfect secrecy.)
+- Perfect secrecy means the attacker learns nothing at all, including the message length. (The definition applies to messages of a fixed length. A one-time pad ciphertext reveals how long the message is.)
+- A better algorithm could give perfect secrecy with short keys. (Shannon proved that any perfectly secret scheme needs at least as many keys as messages. No cleverness can avoid this bound.)
+- Perfect secrecy also stops an attacker from changing the message. (The one-time pad is malleable. Flipping a ciphertext bit flips the same plaintext bit, and the receiver cannot tell.)
+
 ## Questions
 
 ```yaml

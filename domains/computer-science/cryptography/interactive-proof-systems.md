@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Interactive proofs generalize NP verification by allowing multiple rounds of interaction between a computationally unbounded prover and a polynomial-time probabilistic verifier. The class IP (Interactive Polynomial-time) equals PSPACE (Shamir 1990), dramatically exceeding NP. Key results: IP contains problems like graph non-isomorphism (not known to be in NP). Arthur-Merlin protocols (public-coin) are equivalent in power to general interactive proofs. The Fiat-Shamir heuristic converts interactive proofs into non-interactive ones by replacing the verifier's random challenges with hash function outputs, enabling practical ZK proofs and signatures.
 
+## How It's Best Learned
+Act out the graph non-isomorphism protocol with two small graphs on cards. The verifier secretly picks a graph, relabels its vertices and asks which one it came from. Repeat with an isomorphic pair and see the prover reduced to guessing. Then run one sum-check round by hand on a two-variable polynomial over a small field, so the later IP = PSPACE proof has a concrete anchor.
+
+## Common Misconceptions
+- An interactive proof convinces the verifier with certainty. (Soundness is probabilistic. A cheating prover can succeed with small probability, which repetition can drive down.)
+- The prover's computing power is the source of IP's strength. (An unbounded prover with no interaction and no verifier randomness can only offer a static proof. The power comes from interaction combined with random challenges.)
+- A verifier that hides its random coins is more powerful than one that reveals them. (Goldwasser and Sipser showed that public-coin protocols are as powerful as private-coin ones, with only a few extra rounds.)
+- Fiat-Shamir is secure for any protocol and any hash function. (Its security is proven in the random oracle model. Some protocols have been shown insecure under Fiat-Shamir with every concrete hash function.)
+
 ## Questions
 
 ```yaml

@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Isogeny-based cryptography uses the structure of isogenies (maps) between elliptic curves to build post-quantum public-key cryptosystems. Unlike lattice or code-based cryptography, isogeny schemes are based on algebraic geometry. The most developed scheme is SIKE/CSIDH, which constructs encryption by finding a path of isogenies through a graph of elliptic curves. Security relies on the hardness of the endomorphism ring computation problem, which has no known polynomial-time classical OR quantum algorithms. Isogeny schemes offer small keys and ciphertexts (advantages over lattices/codes), though key generation is slow. NIST selected SIKE as a finalist in the post-quantum cryptography standardization process.
 
+## How It's Best Learned
+Start with a small isogeny graph over a small finite field, drawn as vertices for curves and edges for degree-2 isogenies. Take a short secret walk, publish only the end curve, and ask a partner to find the path. Then compare the two main designs side by side: SIDH-style schemes, which also publish images of torsion points, and CSIDH, which uses a commutative group action. Study the 2022 attack on SIKE as a case of how extra public data can break a scheme.
+
+## Common Misconceptions
+- Isogeny schemes use elliptic curves, so Shor's algorithm breaks them just as it breaks ECC. (Shor's algorithm solves discrete logarithms within one curve's group. Isogeny problems ask for a map between different curves, and no polynomial-time quantum algorithm is known for them.)
+- SIKE and CSIDH are the same scheme. (SIKE is based on SIDH, which publishes extra torsion-point information. CSIDH is built on a commutative group action and works differently.)
+- The break of SIKE ended isogeny-based cryptography. (The 2022 attack used the torsion-point data that SIDH-style schemes reveal. Designs that do not publish that data, such as CSIDH, were not broken by it.)
+- CSIDH has no known quantum attack faster than brute force. (CSIDH's group action allows a sub-exponential quantum attack, which pushes its parameters larger than early estimates.)
+
 ## Questions
 
 ```yaml
