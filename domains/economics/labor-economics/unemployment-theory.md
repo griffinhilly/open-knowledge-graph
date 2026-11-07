@@ -47,7 +47,7 @@ Classify a set of short cases as frictional, structural, or cyclical: a graduate
 - question: "The NAIRU is a constant that does not change over time."
   type: true-false
   answer: false
-  explanation: "The NAIRU is not a fixed natural constant — it varies with structural features of the labor market. Changes in matching efficiency (due to technology like online job boards), unemployment insurance generosity, demographic composition of the workforce (younger workers have higher turnover rates), occupational mismatch, and labor market institutions all shift the NAIRU over time. The US NAIRU has varied from roughly 6% in the 1980s to below 4% in the 2020s, partly reflecting improved matching technology and demographic shifts."
+  explanation: "The NAIRU is not a fixed natural constant — it varies with structural features of the labor market. Changes in matching efficiency (due to technology like online job boards), unemployment insurance generosity, demographic composition of the workforce (younger workers have higher turnover rates), occupational mismatch, and labor market institutions all shift the NAIRU over time. The US NAIRU has varied from roughly 6% in the 1980s to roughly 4-4.5% in the 2020s, partly reflecting improved matching technology and demographic shifts."
 
 - question: "What is the difference between structural and cyclical unemployment, and why does the distinction matter for policy?"
   type: short-answer
