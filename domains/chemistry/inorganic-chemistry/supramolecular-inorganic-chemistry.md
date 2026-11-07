@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Supramolecular inorganic chemistry studies structures held together by non-covalent interactions or by the coordination preferences of metal ions, using metals as directional building blocks for self-assembly. Metal-directed self-assembly exploits the predictable coordination geometries of metal ions (linear, square planar, octahedral) combined with multitopic ligands to build architectures ranging from simple helicates and cages to porous frameworks. The key insight is that metals provide geometric control that purely organic supramolecular chemistry cannot easily achieve.
 
+## How It's Best Learned
+Draw each component as a set of arrows: the metal's open coordination sites and the ligand's donor directions. Then find the closed shape in which every arrow meets a partner without strain. Start with a 90° metal corner and a linear linker, then change one variable at a time, first the ligand bend angle and then the metal geometry. Contrast a labile metal with an inert one to see why error correction needs reversible bonds.
+
+## Common Misconceptions
+- The cage forms because the pieces click together in the right order on the first try. (Many wrong assemblies form along the way; labile metal-ligand bonds let them break apart and reform until the most stable product accumulates.)
+- Stronger, more inert metal-ligand bonds give cleaner self-assembly. (Inert bonds lock in early mistakes and give mixtures; clean assembly needs bonds labile enough to correct errors on the timescale of the experiment.)
+- Coordinate bonds are too strong to count as supramolecular, so metal-directed assemblies belong to ordinary coordination chemistry. (What places them in supramolecular chemistry is that the metal-ligand bonds are reversible, so the components assemble and correct themselves.)
+- The metal's geometry alone decides the architecture. (The ligand's length, bend angle and flexibility matter as much; the same metal corner with a linear or a bent ligand gives different structures.)
+
 ## Questions
 
 ```yaml

@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Term symbols (²ˢ⁺¹L) describe the electronic states of multi-electron atoms and ions by specifying the total orbital angular momentum (L), total spin (S), and multiplicity (2S+1). For d-electron configurations, term symbols enumerate all possible electronic states — including ground and excited states — which directly correspond to the energy levels seen in electronic spectra. Deriving term symbols from microstate analysis is the foundation for understanding Tanabe-Sugano diagrams and the full electronic spectrum of any transition metal complex.
 
+## How It's Best Learned
+Build the ML/MS microstate table for d² by hand first, and confirm that it holds 45 entries. Then peel off terms one at a time, crossing out a full (2S+1)(2L+1) block at each step until the table is empty. Next, check Hund's rules against a fresh case by filling the five ml boxes for d³ to reach ⁴F. Apply the hole formalism to d⁸ only after d² is solid.
+
+## Common Misconceptions
+- A term symbol labels one electron or one orbital, like t₂g or e_g. (A term describes the state of the whole ion, coupling every electron's orbital and spin angular momentum; one configuration such as d² gives several terms.)
+- The term with the largest L is the ground state, so d² has a ¹G ground term. (Hund's first rule maximizes S before L is considered; ¹G has the largest L for d² but is a singlet, so the triplet ³F lies lower.)
+- Hund's rules rank every term, so the first excited term is the one with the next-highest S and L. (Hund's rules reliably identify the ground term; the order of the excited terms does not follow them in general.)
+- Because d² and d⁸ share the same terms, they behave the same in every respect. (The J ordering within the ground term reverses for a more-than-half-filled shell, and in an octahedral field the splitting pattern of the terms is inverted.)
+
 ## Questions
 
 ```yaml

@@ -22,6 +22,15 @@ status: draft
 ## Core Idea
 Virginia Woolf used Modernist techniques to represent women's consciousness and interiority with unprecedented subtlety, examining how consciousness shapes and is shaped by time and memory. Works like Mrs. Dalloway treat a single day as an occasion for exploring meaning and mortality. Woolf's innovations combined form-consciousness with feminist investment in women's experience.
 
+## How It's Best Learned
+Start with the opening pages of Mrs. Dalloway, where a walk to buy flowers opens into memories of Clarissa's youth at Bourton. Mark each sentence as present perception or memory, and note where the narration passes from one mind to another. Then set the striking of Big Ben against the page count to see how little clock time a long stretch of consciousness takes.
+
+## Common Misconceptions
+- Woolf's stream of consciousness is raw, unpunctuated thought poured onto the page. (Woolf mostly uses free indirect discourse: a third-person narrator whose grammatical sentences take on a character's words, rhythms, and associations.)
+- A novel set on a single day leaves out the past. (Memory carries decades into the day, so Clarissa's youth and old choices return again and again inside the present.)
+- Woolf's feminism lives in her essays, and her novels are formal experiments. (Her techniques for showing consciousness are the means by which the novels treat women's inner lives as worth serious attention.)
+- Because little external action happens, the novel has no structure. (The striking hours, the coming party, and the parallel between Clarissa and Septimus Smith give the book a firm shape.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +66,7 @@ Virginia Woolf used Modernist techniques to represent women's consciousness and 
 
 - type: short-answer
   question: "How does Woolf's focus on women's interiority function as a feminist literary intervention?"
+  answer: "By making women's thoughts, perceptions, and memories the central subject of serious fiction, Woolf claimed that women's inner lives deserve the same literary attention long given to men's. Her form itself is the argument."
   explanation: "By devoting entire novels to the subtle exploration of women's consciousness, Woolf asserted that women's inner lives—their thoughts, feelings, perceptions, memories, and complexities—were as significant and worthy of literary attention as men's had been. Earlier literature often represented women as objects of male desire or moral examples rather than as complex consciousnesses. Woolf's focus on the microscopic detail of female consciousness insisted that women's subjective experience was real, complex, and profoundly interesting. This was a political statement: that women's thoughts and feelings mattered, that their perspective was valid, and that literature should represent their consciousness with the same seriousness given to men's."
 ```
 

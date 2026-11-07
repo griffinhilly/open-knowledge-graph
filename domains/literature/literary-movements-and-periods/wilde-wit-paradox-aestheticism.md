@@ -25,6 +25,15 @@ status: draft
 ## Core Idea
 Wilde synthesized aestheticism with epigrammatic wit and logical paradox, treating language as a form of beautiful artifice where meaning emerges through witty contradiction and surface play. His dramatic and literary work established the aesthete as a character type and demonstrated that surface and substance could achieve artistic harmony.
 
+## How It's Best Learned
+Take one epigram, such as Lady Bracknell's line that losing one parent is a misfortune but losing both looks like carelessness. Write out the sober statement it echoes, then name the word that flips it and the assumption the flip exposes. Repeat with three or four lines from one play, then read a full scene aloud to hear how the wit drives the dialogue.
+
+## Common Misconceptions
+- Wilde's paradoxes are clever nonsense with no real meaning. (Many of them turn a familiar maxim or expectation on its head, and the turn exposes an assumption the ordinary phrasing hid.)
+- When a Wildean dandy speaks, Wilde is stating his own opinions. (The aesthete's lines are performances of wit and style, so reading them as the author's sincere creed misses how the plays work.)
+- A commitment to beautiful surfaces means the work has no moral or social bite. (The wit unsettles moral seriousness and received opinion, so the surface play is also a challenge to convention.)
+- Epigram and paradox are two names for the same thing. (An epigram is a short, pointed saying; a paradox is a seeming contradiction. Many of Wilde's epigrams are paradoxes, but an epigram need not be one.)
+
 ## Questions
 
 ```yaml
@@ -60,6 +69,7 @@ Wilde synthesized aestheticism with epigrammatic wit and logical paradox, treati
 
 - type: short-answer
   question: "How does Wilde's use of epigram and paradox challenge conventional wisdom and moral seriousness?"
+  answer: "Wilde's epigrams invert familiar sayings and expected meanings, so a line that sounds false reveals an unexamined assumption behind received opinion. The wit treats conventional morality as something to question and even mock."
   explanation: "Epigrams and paradoxes work by inverting expected meanings and conventional wisdom. A true epigram startles us by expressing something that seems contradictory or false but reveals hidden truth or unsuspected insight. By making paradox and witty inversion central to expression, Wilde asserts that conventional wisdom is not necessarily true, that received opinion often rests on unexamined assumption. Wit becomes a form of intellectual rebellion—the ability to overturn expectation and see truth through witty contradiction. This undermines the moral seriousness and conventional values that aestheticism was resisting. Through wit and paradox, Wilde demonstrates that conventional morality and wisdom can be exposed as pretentious or absurd."
 ```
 

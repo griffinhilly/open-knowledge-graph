@@ -1,0 +1,11 @@
+domains/computer-science/distributed-systems/raft-algorithm.md	how,mis
+domains/computer-science/distributed-systems/read-after-write-consistency.md	how,mis
+domains/computer-science/distributed-systems/replica-placement-strategies.md	how,mis
+domains/computer-science/distributed-systems/replication-strategies-analysis.md	mis
+domains/computer-science/distributed-systems/sequential-consistency.md	how,mis
+domains/computer-science/distributed-systems/state-machine-replication.md	how,mis
+domains/computer-science/distributed-systems/strong-eventual-consistency.md	how,mis
+domains/computer-science/distributed-systems/synchronous-asynchronous-systems.md	how,mis
+domains/computer-science/distributed-systems/three-phase-commit-protocol.md	how,mis
+domains/computer-science/distributed-systems/timeout-retry-strategies.md	how,mis
+domains/computer-science/distributed-systems/view-change-protocols.md	how,mis

@@ -25,6 +25,15 @@ status: draft
 ## Core Idea
 Zola developed the concept of the experimental novel, treating fiction as a controlled investigation into human nature under varying conditions of heredity and environment. His naturalist methods and scandalous subject matter made the novel a vehicle for social reform and scientific investigation.
 
+## How It's Best Learned
+Read a short extract from Zola's essay "The Experimental Novel," where he borrows his model from Claude Bernard's experimental medicine. Make a two-column table of the lab experiment's parts (conditions, subject, variable, observed result) and fill in the matching parts of one novel, such as Germinal's mining town. Then ask who controls the result in each column.
+
+## Common Misconceptions
+- Zola's novels are real experiments that prove laws of human behavior. (The novelist sets both the conditions and the outcome, so the experiment is an analogy, and critics have objected that the results are decided in advance.)
+- "Experimental novel" means a novel that experiments with form or style. (Zola's term refers to the scientific experiment, where the novelist tests how characters respond to set conditions. It does not describe formal innovation of the kind later avant-garde writers pursued.)
+- Naturalism and realism are the same movement under two names. (Naturalism grows out of realism but adds a thesis that heredity and environment determine character.)
+- Zola dwells on vice and squalor for shock value. (Zola defended such detail as observation the investigation required, and he tied it to exposing social conditions.)
+
 ## Questions
 
 ```yaml
@@ -60,6 +69,7 @@ Zola developed the concept of the experimental novel, treating fiction as a cont
 
 - type: short-answer
   question: "How does treating the novel as 'experimental' change what subjects and methods are available to fiction?"
+  answer: "Any subject that reveals human nature becomes legitimate, including poverty, disease, sexuality, and crime. The method becomes close observation and precise documentation, which also gives the novelist a social duty to report findings that could support reform."
   explanation: "If the novel is a form of scientific investigation, then any subject becomes legitimate if it reveals truth about human nature. Poverty, disease, sexual desire, crime—these are not sensational but phenomena to be investigated. The novelist's method becomes observational: recording details of how people actually live under certain conditions, documenting speech and behavior with scientific precision. This legitimates unprecedented realism and access to previously taboo subjects. It also implies that the novelist has a social responsibility: to conduct this investigation carefully and accurately, and to make findings available to society so reform can be undertaken."
 ```
 

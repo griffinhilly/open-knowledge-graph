@@ -19,6 +19,15 @@ status: draft
 ## Core Idea
 Émile Zola extended Realism into Naturalism, employing scientific method and deterministic philosophy to depict how heredity and environment shape human behavior. His Rougon-Macquart cycle traced families through generations, documenting how poverty and position determined individual fates. Zola combined detailed social documentation with moral argument, treating literature as scientific investigation while maintaining intense affective engagement.
 
+## How It's Best Learned
+Sketch one branch of the Rougon-Macquart family tree, such as Gervaise Macquart of L'Assommoir and her children Nana, Étienne, Claude, and Jacques. Beside each name, write what the character inherits and what the setting adds: the laundry and the tavern, the mine, the art world, the railway. Then compare two siblings to see how one inheritance plays out in different environments.
+
+## Common Misconceptions
+- Zola's heredity is the same idea as modern genetics. (Zola drew on nineteenth-century theories of inheritance, including inherited vices and nervous flaws, which differ from genetics as it is understood today.)
+- Determinism turns Zola's characters into puppets with no inner life. (His characters desire, struggle, and suffer; the forces act through their psychology instead of replacing it.)
+- If fates are determined, the novels are morally neutral and excuse everything. (Zola shifts blame from the individual toward social conditions, and that shift carries moral outrage and a call for reform.)
+- Naturalism is Realism with grimmer subjects. (Naturalism adds an interpretive framework: the claim that heredity and environment determine behavior.)
+
 ## Questions
 
 ```yaml
@@ -30,7 +39,7 @@ status: draft
     - "Heredity and environment shape behavior in deterministic ways"
     - "Luck and chance alone determine outcomes"
   answer: 2
-  explanation: "Zola employed deterministic philosophy: human behavior is shaped by heredity (genetic inheritance) and environment (social conditions, poverty, circumstances). Individuals are not entirely free agents but products of these forces."
+  explanation: "Zola employed deterministic philosophy: human behavior is shaped by heredity (inherited traits) and environment (social conditions, poverty, circumstances). Individuals are not entirely free agents but products of these forces."
 
 - type: multiple-choice
   question: "What does Zola accomplish by tracing the Rougon-Macquart family through generations?"
@@ -54,6 +63,7 @@ status: draft
 
 - type: short-answer
   question: "How does Zola's investigation of heredity and environment function as social critique?"
+  answer: "By showing that poverty and harsh conditions shape characters' fates, Zola challenges the idea that individuals alone are to blame for their suffering. Responsibility shifts to society, which implies that the conditions should be changed."
   explanation: "By demonstrating through detailed documentation that poverty and adverse social conditions determine outcomes, Zola challenges the assumption that individuals are solely responsible for their fates. If a character's poverty and desperation are products of heredity and environment beyond individual control, then society is responsible for changing those conditions. The novels document the operation of deterministic forces, revealing that reform must address social structures and conditions, not merely individual character. This makes naturalism inherently critical of social injustice: it exposes the conditions that determine suffering and implies that these conditions should and could be changed."
 ```
 
