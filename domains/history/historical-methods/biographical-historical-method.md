@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Biography as historical method uses individual lives to understand broader historical forces and patterns. The biographical approach requires balancing attention to individual agency and choices with recognition of structural constraints shaping possibility. A life can serve as a case study illuminating historical context or as evidence of how ordinary people navigated extraordinary circumstances.
 
+## How It's Best Learned
+Take one well-documented decision from a subject's life and write two short paragraphs about it. In the first, explain the choice as the subject understood it, using their own letters or statements. In the second, explain the same choice through forces they may not have seen, such as class, law or the economy. Then compare the life with three or four people in the same position to see whether the choice was typical.
+
+## Common Misconceptions
+- A good biography tells the story from the subject's point of view. (Empathy for the subject is one lens; the biographer also needs to analyze the structures the subject did not recognize or chose not to mention.)
+- Biography is about great individuals. (Microhistory and prosopography use ordinary or grouped lives, and exceptional subjects are by definition unrepresentative of their time.)
+- Writing empathetically about someone means approving of them. (Empathy means reconstructing how a person saw their choices, which is compatible with a critical judgment of those choices.)
+- Who I choose to write about is a neutral practical decision. (The choice of subject shapes whose experience counts as history, and it is limited by whose lives the archive preserved.)
+
 ## Questions
 
 ```yaml

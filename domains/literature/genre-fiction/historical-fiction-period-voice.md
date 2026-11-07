@@ -28,6 +28,15 @@ status: draft
 ## Core Idea
 Historical fiction invents dialogue and internal monologue for historical figures, creating conversations and thoughts that never occurred. Period-appropriate language and voice conventions matter profoundly; anachronistic diction breaks historical plausibility. Period voice must feel authentic without sacrificing modern comprehensibility, navigating the tension between historical accuracy and readability for contemporary audiences.
 
+## How It's Best Learned
+Take a page of dialogue from a novel set in an earlier century and sort its words into period markers, neutral words, and modern words. Check doubtful words in a dictionary that gives first-use dates; "okay," for example, dates only from the late 1830s. Then rewrite the passage twice, once fully modern and once heavily archaic, and compare which version sounds believable.
+
+## Common Misconceptions
+- Authentic period voice means writing exactly as people spoke at the time. (Exact period speech would be hard for modern readers to follow, and for many eras everyday speech survives only indirectly through writing. Writers build a convincing impression of the period.)
+- Sprinkling in words like "thee" and "forsooth" makes dialogue sound historical. (Scattered archaisms often read as costume. Forms of address, sentence rhythm, and what characters leave unsaid do more to evoke an era.)
+- Only obvious modern slang counts as an anachronism. (Modern idioms, concepts, and assumptions that a person of the period could not have held also break plausibility.)
+- A word that sounds old must be old. (Some old-sounding words are fairly recent, and some modern-sounding words are centuries old. Checking first-use dates is more reliable than instinct.)
+
 ## Questions
 
 ```yaml
@@ -63,6 +72,7 @@ Historical fiction invents dialogue and internal monologue for historical figure
 
 - question: How can a historical fiction author use period voice to build credibility with readers while maintaining comprehensibility?
   type: short-answer
+  answer: The author avoids anachronisms and places a few period words, forms of address, and speech rhythms at key moments, while keeping the rest of the prose plain enough for modern readers. Selective markers build trust in the period more effectively than consistent archaic speech, which tends to tire readers.
   explanation: A good answer should recognize that period-appropriate vocabulary and syntax in key moments (dialogue, formal speech, period-specific terminology) establishes authenticity, while judicious use of modern idioms for internal monologue or narrative maintains accessibility. The author can use selective period speech rather than consistent archaic language. Students should understand that this is a calibration rather than an all-or-nothing choice, and that strategic authenticity builds reader trust.
 ```
 

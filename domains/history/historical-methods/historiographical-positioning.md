@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Historians work within intellectual traditions and schools of thought—social history, cultural history, microhistory, postcolonial history—that provide frameworks, questions, and methods. Understanding these historiographical approaches helps researchers situate their work and understand how their interpretations build on or challenge existing scholarship. Positioning yourself within or against historiographical traditions is not bias but necessary intellectual transparency.
 
+## How It's Best Learned
+Take the introduction of a recent monograph and mark every sentence where the author names a school, cites a predecessor, or says what earlier work missed. From those marks, write a one-paragraph map of the debate the book joins. Then draft the same kind of paragraph for your own project, naming the tradition you work in and the view you push against.
+
+## Common Misconceptions
+- Naming the school you work in admits bias. (Stating your framework lets readers judge your evidence against it; a historian who claims no framework still has one, unexamined.)
+- Historiographical schools are rival teams, and one of them must be correct. (Schools often ask different questions about the same past, so their accounts can differ without either being false.)
+- Positioning is a literature review you finish before the real work. (It shapes which questions you ask and which evidence counts, so it runs through the whole argument.)
+- Each historian belongs to exactly one school. (Many historians borrow methods from several traditions, and a single work can draw on more than one.)
+
 ## Questions
 
 ```yaml
@@ -63,6 +72,7 @@ Historians work within intellectual traditions and schools of thought—social h
 - question: "How does reading a historical account produced by two different historiographical traditions about the same event provide something neither tradition can provide alone?"
   type: short-answer
   answer: "Each tradition answers different questions and makes different aspects of the past visible while leaving others in the background. A social historian makes material conditions and structural forces visible; a cultural historian makes meaning, symbols, and lived experience visible. When you read both, you gain not just additive information but a critical perspective: comparing the accounts reveals what each framework takes for granted, what questions it cannot ask, and where its explanatory power runs out. The comparison itself becomes evidence about the limits of each approach and opens space for new inquiry that neither tradition's questions could generate on their own."
+  explanation: "A framework is hard to see from inside, because its assumptions feel like plain description. Setting two accounts of one event side by side exposes those assumptions. Where the accounts agree, the finding rests on more than one way of reading the evidence. Where they differ, the difference points to a question one framework asks and the other leaves out, which is often where new research begins."
 ```
 
 ## Explainer

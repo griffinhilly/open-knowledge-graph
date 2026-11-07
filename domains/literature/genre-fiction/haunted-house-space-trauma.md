@@ -26,6 +26,14 @@ status: draft
 ## Core Idea
 The haunted house functions simultaneously as setting and character—a space that traps inhabitants physically and constrains them psychologically. Haunted house narratives explore how spaces carry history and how architecture shapes consciousness and possibility. The house often embodies collective trauma or concentrated guilt, becoming sentient in effect if not literally animated.
 
+## How It's Best Learned
+Sketch a floor plan of the house in one novel, such as Shirley Jackson's The Haunting of Hill House. Mark where each disturbing event happens and who experiences it. Then note what part of the house's past, or the character's past, the text links to that spot. Finally, ask what the story would lose if the same events happened in a new apartment with no history.
+
+## Common Misconceptions
+- A haunted house story needs a real ghost. (Many leave it open whether the haunting is supernatural or a projection of the inhabitants' minds, and that uncertainty often drives the dread.)
+- The house is only the place where scary things happen. (The house acts like a character. Its layout confines people, and its history shapes what they feel and do.)
+- Characters who stay in the house are foolish, since they could just leave. (These stories usually bind characters to the house through guilt, family duty, money, or a need for answers, so staying expresses the psychological trap the genre explores.)
+
 ## Questions
 
 ```yaml
@@ -61,6 +69,7 @@ The haunted house functions simultaneously as setting and character—a space th
 
 - question: How does the haunted house function as a character? What makes a house more than just a setting?
   type: short-answer
+  answer: The house acts on the people inside it. Its layout traps and disorients them, and it holds a history of violence or guilt that it seems to remember and force into the open, so it shapes the plot the way a character would.
   explanation: A good answer should recognize that a haunted house has agency, history, personality, and effects on the characters who inhabit it. Unlike a neutral setting, the house actively constrains behavior, shapes psychological states, and responds to (or embodies) trauma. The house has memory and intention (whether supernatural or psychological). Students should show understanding that the house is not passive but actively shapes the narrative.
 ```
 

@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Network analysis visualizes connections—family ties, correspondence, patronage, trade—among historical actors, revealing power structures and information flow invisible in narrative. This approach reveals brokers, clusters, and patterns of influence that shape historical outcomes but may be obscured by narrative focus on individuals.
 
+## How It's Best Learned
+Build a small network by hand from one source set, such as twenty letters or one parish's marriage records. List each person as a node and each recorded tie as an edge, and write down your rule for what counts as a tie. Draw it on paper, circle the clusters, and find who links them. Then reread the sources to test whether that linking figure acted as a broker.
+
+## Common Misconceptions
+- The person with the most connections was the most powerful. (A broker who links otherwise separate groups can have more influence than a well-connected person inside one cluster.)
+- A network map shows the society as it was. (It shows the relationships that left records, so groups who left few written traces are often missing.)
+- Every edge in the network means the same thing. (A single letter and a decade-long partnership are different ties, and treating them alike distorts the picture.)
+- Network metrics prove who held influence. (A structural position suggests a hypothesis that the historian must test against the documents.)
+
 ## Questions
 
 ```yaml

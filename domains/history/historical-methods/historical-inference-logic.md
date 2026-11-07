@@ -31,6 +31,15 @@ status: validated
 ## Core Idea
 Historical reasoning involves both inductive inference (drawing general patterns from specific evidence) and deductive reasoning (applying general principles to specific cases). Historians must distinguish clearly between what sources directly state, what can be reasonably inferred, and what remains speculative. Sound historical inference weighs evidence strength, considers alternative explanations, and explicitly acknowledges uncertainty while still reaching defensible conclusions.
 
+## How It's Best Learned
+Take one paragraph from a published history and sort each sentence into three columns: what a source states, what is reasonably inferred, and what is speculation. For each inference, write the unstated premise that links the evidence to the claim, and mark whether the step is inductive or deductive. Then propose one alternative explanation and say what evidence would separate it from the author's.
+
+## Common Misconceptions
+- If no source says it directly, a historian cannot claim it. (Most historical conclusions are inferences from patterns in sources, and they can be well grounded when the evidence is broad and independent.)
+- Phrases like "the evidence suggests" are a sign of weak research. (Qualified language tells readers how strong each claim is, which lets them judge the reasoning.)
+- A deduction in history is as certain as a proof in mathematics. (A historical deduction is only as strong as its general premise, and those premises are often contested.)
+- Showing that my explanation fits the evidence is enough. (A strong argument also shows why competing explanations fit the evidence less well.)
+
 ## Questions
 
 ```yaml

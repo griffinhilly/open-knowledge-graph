@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Comparing different cases can reveal patterns and causal mechanisms that single-case study cannot. Comparison works best examining similar cases to identify what differences caused divergent outcomes, or different cases with similar outcomes to understand common causes. Effective comparison requires careful variable control and contextual awareness.
 
+## How It's Best Learned
+Build a comparison table with cases as columns and candidate causes as rows, plus a final row for the outcome. Fill it in for two similar cases with different outcomes, then cross out every row where the cases match, since those factors cannot explain the difference. Repeat with two very different cases that share an outcome, and this time keep only the rows where they match.
+
+## Common Misconceptions
+- In comparing similar cases, the shared features explain the outcome. (When similar cases have different outcomes, the shared features are held constant and the differences become the causal candidates.)
+- Comparing very different societies is like comparing apples and oranges. (Most-different designs use that variety on purpose, so a factor shared despite the differences becomes a strong candidate cause.)
+- Comparative history aims to find universal laws of society. (Most comparative work claims mechanisms that operated across the cases studied and is cautious about extending them further.)
+- Two cases that look alike are matched on everything that matters. (Real cases are never perfectly matched, and hidden differences can account for divergent outcomes.)
+
 ## Questions
 
 ```yaml

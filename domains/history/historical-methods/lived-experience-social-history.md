@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Social history prioritizes understanding how ordinary people—workers, women, enslaved people, children—experienced and understood their worlds. Reconstructing lived experience requires reading evidence against the grain of official sources, using fragments to imagine daily practices, and recognizing agency in seemingly powerless people. This approach demands disciplined imagination grounded carefully in evidence.
 
+## How It's Best Learned
+Work from one official record about an ordinary person, such as a court deposition or a workhouse register entry. In one column, list what the record's maker wanted to know. In a second, list what the person's answers or details reveal by accident. Then write a short paragraph on their daily life, and tag each sentence as documented, inferred, or unknown.
+
+## Common Misconceptions
+- If ordinary people left no diaries or letters, their experience cannot be recovered. (Court, church and administrative records often preserve their words and actions, which can be read against the grain.)
+- Showing that oppressed people had agency means their oppression was less severe. (People can make choices and resist within brutal structures; recognizing that does not soften the structures.)
+- Reconstructing lived experience lets the historian fill gaps with whatever seems likely. (Imagination must stay tied to the evidence, and the historian should mark where the record runs out.)
+- Official records can tell us only about the institutions that made them. (They are biased toward the institution's purpose, but read with care they can also reveal the lives of the people they recorded.)
+
 ## Questions
 
 ```yaml

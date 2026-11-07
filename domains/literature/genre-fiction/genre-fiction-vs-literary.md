@@ -29,6 +29,12 @@ The boundary between genre and literary fiction is historically constructed and 
 ## How It's Best Learned
 Read genre fiction acclaimed as literary (Atwood's Handmaid's Tale, McCarthy's Blood Meridian, Le Guin's Left Hand of Darkness) and literary fiction using genre conventions. Notice how the boundary dissolves under scrutiny.
 
+## Common Misconceptions
+- The genre or literary label tells you how good a book is. (The label reflects publishing categories, reader communities, and institutional habits. Either kind of book can be written with great skill or with carelessness.)
+- Literary fiction does not use genre conventions. (Many literary novels borrow plots and devices from crime, science fiction, or the western. Which label a book gets often depends on how it is marketed and reviewed.)
+- A genre novel that wins critical acclaim stops being genre fiction. (A praised dystopia still uses speculative conventions. Acclaim changes how the book is shelved and discussed, not the conventions inside it.)
+- Because the boundary is constructed, the two categories describe nothing real. (They describe real tendencies in what each tradition values, such as fulfilling a reader contract versus formal ambition. The differences are in priorities, not in quality.)
+
 ## Questions
 
 ```yaml
@@ -60,10 +66,11 @@ Read genre fiction acclaimed as literary (Atwood's Handmaid's Tale, McCarthy's B
 - question: Works like Margaret Atwood's The Handmaid's Tale are primarily examples of pure literary fiction with no genre elements.
   type: true-false
   answer: false
-  explanation: The core idea lists Atwood's Handmaid's Tale as an example of 'genre fiction acclaimed as literary,' indicating it uses speculative/dystopian genre conventions while achieving literary prestige.
+  explanation: The How It's Best Learned section lists Atwood's Handmaid's Tale as an example of 'genre fiction acclaimed as literary,' indicating it uses speculative/dystopian genre conventions while achieving literary prestige.
 
 - question: What assumptions about artistic merit, commercial appeal, or cultural value might support the traditional hierarchy placing literary fiction above genre fiction? Why might these assumptions be questionable?
   type: short-answer
+  answer: The hierarchy assumes that formal innovation outranks working within conventions, that commercial popularity signals lower quality, and that prestige institutions judge merit objectively. These assumptions are questionable because skill and failure appear in both categories, and the hierarchy was built by institutions with the power to define prestige.
   explanation: A good answer should recognize that the traditional hierarchy assumes that literary innovation is inherently superior to genre conventions, that commercial popularity indicates lesser quality, or that formal experimentation equals greater artistic merit. The answer should question these assumptions by noting that skill exists across both categories and that different criteria and values shape each tradition. Students should recognize that the boundary reflects cultural assumptions rather than objective artistic truth.
 ```
 

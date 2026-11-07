@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 The distinction between literary and genre fiction involves questions of artistic ambition, style, subject matter, and cultural prestige. Contemporary literature increasingly erodes these boundaries, with genre authors producing literary quality work and literary authors employing genre conventions. The debate reflects attitudes about readers, markets, and aesthetic value.
 
+## How It's Best Learned
+Run a blind sort. Copy the first page of a literary novel built on a genre premise, such as Ishiguro's Never Let Me Go, and the first page of a well-reviewed genre novel, with covers and publisher details removed. Ask readers to label each and explain why. Then sort their reasons into ones about the text and ones about assumed readers or prestige.
+
+## Common Misconceptions
+- Literary fiction is defined by being better written. (The label marks a market, a reader community, and a set of priorities such as style and interiority. Strong and weak books appear under both labels.)
+- Genre fiction is commercial and literary fiction is not. (All published fiction is sold in a market. The distinction reflects which markets carry prestige.)
+- Literary fiction has no conventions of its own. (It has recognizable conventions too, such as close attention to inner life, open endings, and distinctive style. Some critics treat it as a genre in its own right.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ The distinction between literary and genre fiction involves questions of artisti
 
 - question: What does it mean that the debate 'reflects attitudes about readers, markets, and aesthetic value'? How do attitudes toward readers relate to the literary/genre distinction?
   type: short-answer
+  answer: The distinction often assumes that literary fiction serves serious, sophisticated readers while genre fiction serves a mass audience seeking entertainment. Judging books by who reads them and how they sell reveals attitudes toward reader communities and markets more than it measures the quality of the writing.
   explanation: 'A good answer should recognize that the distinction often reflects assumptions about audiences: literary fiction is assumed to be for serious, sophisticated readers; genre fiction for ''mass'' readers seeking entertainment. But these distinctions reveal more about attitudes toward different reader communities than about actual quality or merit. Students should understand that the debate is sociological and political—about prestige and institutional power—rather than purely aesthetic.'
 ```
 
@@ -64,11 +73,11 @@ The literary/genre distinction has never been purely aesthetic. Instead, it refl
 
 But this framework has always been unstable. Some of the most artistically ambitious work gets published as genre fiction (Le Guin, Dick, Bradbury). Some literary fiction simply uses more techniques and conventions than its authors acknowledge. The distinction often says more about publishing economics and institutional prejudices than about the actual qualities of the work. A novel published as "literary fiction" receives different critical attention, different marketing, and different cultural status than an identical novel published as "mystery" or "fantasy," despite having identical artistic merit.
 
-Contemporary literature increasingly reveals how blurry the boundaries actually are. Magaret Atwood's speculative fiction is canonized as literary. Kazuo Ishiguro writes science fiction. Irish literatures have always mixed genre elements with literary prestige. Younger literary authors feel less need to pretend genre doesn't interest them. Simultaneously, genre authors produce sophistication—complex characterization, thematic depth, narrative innovation—that rival or exceed literary fiction.
+Contemporary literature increasingly reveals how blurry the boundaries actually are. Margaret Atwood's speculative fiction is canonized as literary. Kazuo Ishiguro writes science fiction. Irish literatures have always mixed genre elements with literary prestige. Younger literary authors feel less need to pretend genre doesn't interest them. Simultaneously, genre authors produce sophistication—complex characterization, thematic depth, narrative innovation—that rival or exceed literary fiction.
 
 The factors the core idea identifies—artistic ambition, style, subject matter, cultural prestige—operate differently depending on perspective. "Artistic ambition" might mean formal innovation (a literary value) or perfectly executing within genre constraints (a genre value). "Style" might privilege experimental prose (literary) or clean, precise prose that serves narrative (genre value). "Subject matter" traditionally coded literary (high-status topics like philosophical questions, relationship complexity) and genre (low-status topics like plot-driven adventure, worldbuilding), but contemporary work refuses these hierarchies.
 
-What's most revealing about the debate is what it says about attitudes toward readers and markets. The literary/genre distinction historically protected literary fiction from accusations of commercialism by treating genre fiction as "merely commercial." But all published fiction is commercial—it has a market. The distinction reflects anxiety about which markets are respected. A novel that sells millions copies is somehow less artistically valuable if those readers are reading for adventure rather than philosophical insight? This reveals more about cultural prejudices than about literary quality.
+What's most revealing about the debate is what it says about attitudes toward readers and markets. The literary/genre distinction historically protected literary fiction from accusations of commercialism by treating genre fiction as "merely commercial." But all published fiction is commercial—it has a market. The distinction reflects anxiety about which markets are respected. A novel that sells millions of copies is somehow less artistically valuable if those readers are reading for adventure rather than philosophical insight? This reveals more about cultural prejudices than about literary quality.
 
 Understanding the literary/genre debate requires seeing it as a historical and institutional phenomenon rather than an objective distinction. The categories do exist—they describe different publishing markets, different reader communities, different conventions—but they don't reliably predict artistic merit. Excellence occurs in both categories. The most interesting contemporary literature often exists precisely at the intersection, refusing the distinction by demonstrating that ambitious artistic work and engaging genre fiction are not mutually exclusive.
 

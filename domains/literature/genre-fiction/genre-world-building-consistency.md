@@ -30,6 +30,12 @@ Genre world-building requires internal logical consistency—whether a realistic
 ## How It's Best Learned
 Create a world bible for a fictional setting (5-10 pages). Document the magic system, technology level, social structures, and geography. Then write a scene that must respect these constraints, noticing where the world-building creates or limits plot possibilities.
 
+## Common Misconceptions
+- World-building only matters for invented worlds, so realistic fiction does not need it. (A contemporary village or a historical city also runs on rules that readers learn and expect the story to respect.)
+- A consistent world must explain every rule on the page. (Readers need to trust that rules exist and are kept. A world can stay consistent while leaving much of its workings unexplained.)
+- Once a rule is set, it can never change. (A rule can change if the story earns it, with a cause and consequences. Readers resent changes made for the author's convenience.)
+- Rigorous world-building means scientific world-building. (Each genre has its own kind of rigor. In gothic horror, consistency lies in mood and in how the supernatural behaves, not in physics.)
+
 ## Questions
 
 ```yaml
@@ -65,6 +71,7 @@ Create a world bible for a fictional setting (5-10 pages). Document the magic sy
 
 - question: How might established world-building rules create or limit plot possibilities? Give an example.
   type: short-answer
+  answer: Rules close off easy solutions and so create problems the plot must solve. If magic exhausts the person who uses it, a character cannot simply cast spells at the climax and must find another way to win, which builds tension and forces choices.
   explanation: 'A good answer should show understanding that world-building constraints are not purely restrictive—they also enable certain plot possibilities while preventing others. For example: a magic system that requires specific ritual components creates plot problems that enable dramatic tension (the magic user must acquire rare components); a historically accurate setting determines which technologies and social structures are available, which enables certain conflicts and prevents others. Students should recognize world-building as both constraining and enabling.'
 ```
 

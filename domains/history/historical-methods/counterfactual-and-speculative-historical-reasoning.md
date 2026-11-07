@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Counterfactual reasoning—imagining how history might have unfolded differently if one contingent fact had been different—illuminates causal mechanisms. Disciplined counterfactual thinking tests causal claims; undisciplined speculation treats the past as arbitrary. The key is to use counterfactuals rigorously to test explanations against evidence, not merely to speculate.
 
+## How It's Best Learned
+Start from a causal sentence in a textbook, such as "X caused Y," and rewrite it as an explicit counterfactual: "Without X, Y would not have happened when and how it did." Then list what you will hold fixed, what single fact you will change, and what evidence from the period bears on the alternative. Finish by judging whether the outcome changes, and what that says about X's causal weight.
+
+## Common Misconceptions
+- Counterfactuals are idle speculation with no place in serious history. (Every causal claim implies a counterfactual, and stating it openly makes the claim easier to test.)
+- A bigger "what if" question teaches more. (Changing many things at once makes it impossible to say which change mattered, so narrow changes give clearer tests.)
+- If I can imagine a different outcome, the event was not determined. (A disciplined counterfactual must be plausible given the period's real constraints, options and motives.)
+- If removing a cause leaves the outcome unchanged, that cause was decisive. (An outcome that would have happened anyway suggests the cause carried less weight than claimed.)
+
 ## Questions
 
 ```yaml

@@ -19,7 +19,16 @@ status: validated
 # DNA Virus Replication Strategies and Polymerases
 
 ## Core Idea
-DNA viruses employ diverse replication strategies: some use host DNA polymerase in the nucleus, while others carry their own DNA polymerase and replicate in the cytoplasm. Viral replication is rapid and often lacks proofreading, leading to high mutation rates and antigenic drift in persistent viruses like herpesviruses and poxviruses.
+DNA viruses employ diverse replication strategies: some use host DNA polymerase in the nucleus, while others carry their own DNA polymerase and replicate in the cytoplasm. Viral replication is rapid, but the DNA polymerases of herpesviruses and poxviruses carry 3′→5′ proofreading, so these viruses mutate far more slowly than RNA viruses.
+
+## How It's Best Learned
+Draw a line with papillomaviruses and polyomaviruses at one end, herpesviruses in the middle and poxviruses at the other. For each, fill in whose polymerase it uses, where it replicates, and whether it needs S phase. Then trace acyclovir through two cells side by side, one infected with herpesvirus and one uninfected, and mark where activation happens and where it stalls.
+
+## Common Misconceptions
+- DNA viruses all replicate in the nucleus, since that is where DNA is copied. (Poxviruses carry their own polymerase and replication enzymes and copy their genomes in cytoplasmic viral factories.)
+- A virus that encodes its own DNA polymerase no longer needs the host. (It still relies on host ribosomes to make its proteins, along with other host resources.)
+- Acyclovir becomes active as soon as it enters any cell. (In herpes simplex and varicella-zoster infections, the viral thymidine kinase performs the first phosphorylation, and host kinases finish the conversion, so the active triphosphate builds up mainly in infected cells.)
+- Papillomavirus oncoproteins exist to cause cancer. (They drive the host cell into S phase so host polymerase will copy the viral genome; cancer is a side effect seen in some persistent infections.)
 
 ## Questions
 
@@ -52,7 +61,7 @@ DNA viruses employ diverse replication strategies: some use host DNA polymerase 
 - question: "High mutation rates in viral DNA polymerases are harmful to viruses because they destroy genetic information faster than beneficial mutations can arise."
   type: true-false
   answer: false
-  explanation: "While most mutations are individually deleterious, viruses produce enormous numbers of progeny, meaning that advantageous mutations — enabling immune evasion, drug resistance, or expanded host range — arise constantly and are rapidly selected for. This is the basis of antigenic drift: gradual accumulation of surface protein changes that lets persistent viruses like herpesviruses evade immune surveillance over years of chronic infection. From the virus's population perspective, high mutation rate is not a liability but a source of evolutionary agility. Antiviral drug resistance emerging during treatment in a single patient illustrates this exactly."
+  explanation: "While most mutations are individually deleterious, viruses produce enormous numbers of progeny, meaning that advantageous mutations — enabling immune evasion, drug resistance, or expanded host range — arise constantly and are rapidly selected for. From the virus's population perspective, high mutation rate is not a liability but a source of evolutionary agility. Antiviral drug resistance emerging during treatment in a single patient illustrates this exactly."
 
 - question: "Why does a DNA virus that carries its own DNA polymerase have more independence than one relying on host polymerase, and what are the tradeoffs of each strategy?"
   type: short-answer
@@ -68,4 +77,4 @@ The first major division is between viruses that **borrow the host's replication
 
 At the other extreme, large DNA viruses like **poxviruses** encode their own DNA polymerase plus a full complement of replication enzymes. This independence means they can replicate entirely in the cytoplasm, never needing to enter the nucleus at all — a remarkable feat for a DNA virus. **Herpesviruses** fall in between: they replicate in the nucleus but encode their own DNA polymerase, giving them partial independence from host enzymes. This viral polymerase is the target of antiviral drugs like acyclovir, which is phosphorylated by a herpesvirus-specific thymidine kinase and then selectively inhibits the viral polymerase over the host enzyme.
 
-A critical consequence of viral polymerase usage is **fidelity**. Host DNA polymerases have robust 3′→5′ exonuclease proofreading and achieve error rates around one mistake per billion bases. Many viral DNA polymerases lack this proofreading entirely, or have reduced proofreading activity, resulting in mutation rates orders of magnitude higher. While most mutations are deleterious, the sheer volume of viral progeny means that advantageous mutations — those enabling immune evasion, drug resistance, or expanded host range — arise frequently. This elevated mutation rate drives **antigenic drift**, the gradual accumulation of surface protein changes that lets persistent viruses like herpesviruses evade immune surveillance over years of chronic infection.
+A critical consequence of viral polymerase usage is **fidelity**. Host DNA polymerases have robust 3′→5′ exonuclease proofreading and achieve error rates around one mistake per billion bases. The DNA polymerases of herpesviruses and poxviruses also carry 3′→5′ exonuclease proofreading, so these viruses mutate far more slowly than RNA viruses. Even so, the sheer volume of viral progeny means that rare advantageous mutations still arise and are selected; acyclovir-resistant herpes simplex virus, usually carrying thymidine kinase mutations, is the standard example. Herpesviruses persist through latency and immune evasion proteins rather than through rapid antigenic change.

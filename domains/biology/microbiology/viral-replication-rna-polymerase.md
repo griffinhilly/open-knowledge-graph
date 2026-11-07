@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 RNA viruses must encode or carry an RNA-dependent RNA polymerase (RdRp) since host cells lack this enzyme. RdRps lack 3' exonuclease activity and introduce errors at high rates (10^-3 to 10^-4), generating quasi-species populations. Positive-sense RNA viruses can directly translate their genome; negative-sense RNA viruses must first synthesize mRNA.
 
+## How It's Best Learned
+Draw one flowchart that starts with a genome entering the cytoplasm and asks whether ribosomes can read it. Follow the yes branch for positive-sense viruses and the no branch for negative-sense viruses, and mark where the RdRp comes from on each. Then multiply error rate by genome length: 10^-4 per base on a 10,000-base genome gives about 1 expected mutation per copy, and 10^-3 gives about 10.
+
+## Common Misconceptions
+- Ribosomes can translate a negative-sense genome by reading it in the other direction. (Ribosomes cannot read it at all; the viral RdRp must first transcribe it into complementary mRNA.)
+- The host's own RNA polymerase can copy an RNA virus genome. (Host RNA polymerases normally use DNA templates, so the virus must supply an RdRp by encoding it or carrying it in the particle; the satellite hepatitis delta virus, which borrows host RNA polymerase II, is a rare exception.)
+- A positive-sense virus never makes negative-sense RNA. (To copy its genome, the RdRp first makes a negative-sense strand, which then serves as the template for new positive-sense genomes.)
+- A high mutation rate only harms an RNA virus. (Most mutations are harmful, but the variation lets the population adapt to drugs and antibodies; harm dominates when the rate passes the error catastrophe threshold.)
+
 ## Questions
 
 ```yaml

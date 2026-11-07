@@ -18,7 +18,16 @@ status: validated
 # Historical Semantics and Terminology Change
 
 ## Core Idea
-Words change meaning across time and context. 'Liberty' meant different things to an eighteenth-century slave trader and abolitioner. Tracking semantic change reveals conceptual history and prevents anachronistic projection of modern meanings onto historical terms. Etymology alone misleads; usage in specific contexts defines historical meaning.
+Words change meaning across time and context. 'Liberty' meant different things to an eighteenth-century slave trader and abolitionist. Tracking semantic change reveals conceptual history and prevents anachronistic projection of modern meanings onto historical terms. Etymology alone misleads; usage in specific contexts defines historical meaning.
+
+## How It's Best Learned
+Pick one charged word, such as "liberty" or "revolution," and collect five uses of it from different periods. For each use, note what the word was set against, what words appeared beside it, and what argument it served. Lining these up in a table makes the shifts in meaning visible and shows why the dictionary root gives little help.
+
+## Common Misconceptions
+- A word's origin tells you what it meant to the people who used it. (Etymology gives a word's history, but its meaning in a given period comes from how people used it in their own debates.)
+- If a past writer uses a familiar word, they meant roughly what we mean. (Familiar words often carried different concepts, so a reader must reconstruct the period's usage before assuming a match.)
+- Tracking word meanings is a matter of vocabulary and has little to do with events. (Conceptual historians argue that when key concepts change, the political options people can imagine change too.)
+- Each word had one meaning in a given period. (Charged terms were often contested at the same time, with rival groups using one word for different ends.)
 
 ## Questions
 

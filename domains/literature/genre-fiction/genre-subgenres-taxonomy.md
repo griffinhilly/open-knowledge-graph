@@ -29,6 +29,12 @@ Genre fiction includes multiple overlapping taxonomy systems—by narrative type
 ## How It's Best Learned
 Create a taxonomy chart categorizing 10-15 works across different genre classifications. Notice how works can belong to multiple genres and how subgenres emerge from the intersection of categories.
 
+## Common Misconceptions
+- Every book has one correct genre, and the shelf label tells you what it is. (A work can belong to several categories at once, and different publishers or retailers may file the same book differently.)
+- A subgenre is a smaller, lesser version of its parent genre. (A subgenre is a particular combination of conventions, often drawn from more than one category, with its own readers and expectations.)
+- Classifying by plot, setting, and atmosphere are rival systems, and only one can be right. (They describe different dimensions of the same work. A book can be historical by setting, a mystery by plot, and noir by atmosphere.)
+- Subgenre labels are marketing inventions that describe nothing. (Publishers often coin or promote the labels, but a label lasts when it names a real cluster of conventions that readers seek out.)
+
 ## Questions
 
 ```yaml
@@ -64,6 +70,7 @@ Create a taxonomy chart categorizing 10-15 works across different genre classifi
 
 - question: Why might multiple overlapping taxonomy systems be necessary for genre fiction classification? What advantage do different classification systems provide?
   type: short-answer
+  answer: Stories vary along several dimensions at once, including plot type, setting, and atmosphere, so one system cannot describe them fully. Using several systems lets readers and publishers describe hybrid works precisely, such as a historical mystery with a noir tone.
   explanation: A good answer should recognize that a work might be categorized by its narrative structure (mystery vs. romance), by its setting (historical vs. contemporary), or by its atmosphere (noir vs. comic), and that these different ways of organizing might serve different purposes. Students should understand that flexible taxonomy allows more nuanced description of complex works and accommodates hybrid forms that don't fit neatly into single categories.
 ```
 

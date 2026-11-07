@@ -23,6 +23,14 @@ status: draft
 ## Core Idea
 Hard science fiction prioritizes scientific plausibility and rigorous extrapolation from known physics and biology. Writers research actual science and build worlds that extend logically from established principles. Hard SF explores 'what if?' questions grounded in real scientific understanding, distinguishing itself through technical precision and commitment to accuracy.
 
+## How It's Best Learned
+Work through one premise as a hard SF writer would. Earth and a Mars colony communicate by radio, and the one-way light delay runs from about 3 to 22 minutes depending on the planets' positions. Work out what conversation, emergency help, and orders from Earth look like under that delay. Then compare a story that ignores it.
+
+## Common Misconceptions
+- Hard SF can only use technology that exists today. (It extrapolates. It can invent new technology as long as that technology works within known physical law.)
+- Technical jargon and long explanations are what make SF hard. (Exposition is common, but hardness means the story's consequences follow from real science. A story can be full of jargon and still break physics.)
+- Hard SF has no interest in characters or society. (Many hard SF stories ask how real constraints, such as signal delays or low gravity, change bodies, politics, and relationships.)
+
 ## Questions
 
 ```yaml
@@ -58,6 +66,7 @@ Hard science fiction prioritizes scientific plausibility and rigorous extrapolat
 
 - question: What makes hard science fiction 'hard,' and how does this commitment to rigor affect the kinds of stories that can be told?
   type: short-answer
+  answer: Hard SF is hard because its premises and consequences follow from established science rather than from authorial convenience. This rules out plot shortcuts that break physics, but it invites stories that work through what real constraints would mean, such as how slow communication across space would change politics.
   explanation: A good answer should recognize that 'hard' means rigorous adherence to established science and logical extrapolation. This commitment creates constraints (you can't violate physics for plot convenience) but also creates opportunities (readers trust the logical consistency and can engage in sophisticated speculation about the implications of the scientific premises). Students should understand that constraints enable rather than merely limit storytelling, creating specific pleasures and challenges.
 ```
 

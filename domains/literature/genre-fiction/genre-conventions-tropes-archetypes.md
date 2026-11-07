@@ -65,6 +65,7 @@ Relying on tropes is not lazy writing; it's economical storytelling. The skill l
 
 - question: Explain why a trope can feel 'earned' or inevitable depending on how it is deployed. What makes the difference?
   type: short-answer
+  answer: A trope feels earned when the writer varies it and grounds it in specific characters, emotions, and context, so it serves this particular story. It feels inevitable, in the stale sense, when it appears only because the genre expects it, with no fresh angle or emotional reason behind it.
   explanation: A good answer should recognize that the same trope can feel fresh or stale depending on how much variation and emotional authenticity the writer brings to it. Students should understand that skill lies not in avoiding tropes but in bringing enough specificity, character development, and context to make familiar patterns feel new and genuine.
 ```
 

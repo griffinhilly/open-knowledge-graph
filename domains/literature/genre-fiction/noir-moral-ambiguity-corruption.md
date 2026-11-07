@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Noir emphasizes moral ambiguity, institutional corruption, and fatalistic consequences of human weakness. Noir settings are typically urban and nocturnal, with morally compromised protagonists. Noir's aesthetic emphasizes shadow, danger, and the failure of institutions to provide justice or redemption.
 
+## How It's Best Learned
+Chart a noir protagonist's fall as a chain of links: the first weakness, the first compromise, and each later step that closes an exit. James M. Cain's The Postman Always Rings Twice works well. At each link, note whether an institution such as the police or the courts could have stepped in, and what happens instead.
+
+## Common Misconceptions
+- Moral ambiguity in noir means nothing is right or wrong. (Noir keeps real ethical stakes. Some choices are worse than others, but no path leads back to innocence.)
+- Noir's fatalism means the protagonist has no choices. (Characters do choose, often badly. The fatalism lies in how each weak choice tightens a trap they cannot escape.)
+- Noir protagonists are villains. (Most are ordinary people with ordinary weaknesses, such as greed or desire, which is part of why their fall disturbs readers.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Noir emphasizes moral ambiguity, institutional corruption, and fatalistic conseq
 
 - question: What is the significance of noir's 'nocturnal' settings? How does nighttime serve noir's thematic and aesthetic purposes?
   type: short-answer
+  answer: Night hides faces, motives, and actions, so characters cannot see clearly or know whom to trust, and authority has less reach. The darkness turns noir's worldview into setting, making a world where truth is hidden and danger is everywhere.
   explanation: 'A good answer should recognize that night enables shadow and obscurity—you cannot see clearly, cannot know completely, cannot trust what you see. Night is traditionally associated with danger, hiding, and moral transgression. Nighttime suggests vulnerability; institutions and authority are less visible; individuals operate in darkness. The nocturnal setting embodies noir''s worldview: the world is obscured, truth is hidden, and darkness is the natural state. Students should understand that nighttime is not merely atmospheric but thematic—it represents the opacity and danger that characterize noir''s world.'
 ```
 

@@ -20,6 +20,15 @@ status: draft
 ## Core Idea
 Hardboiled detective fiction emphasizes corruption, cynicism, and moral ambiguity. Private investigators work outside legal systems in worlds where police are corrupt and violence is common. The genre values direct narration and hard-hitting prose, with morally compromised protagonists operating in corrupt institutions.
 
+## How It's Best Learned
+Read the opening chapter of a hardboiled novel, such as Hammett's Red Harvest, beside the opening of a classic country-house mystery. In each, mark where institutions like the police help or block the investigation, and where the narrator passes moral judgment. Then rewrite one hardboiled paragraph in ornate prose and note what tone it loses.
+
+## Common Misconceptions
+- The hardboiled detective has no morals. (He keeps a private code, such as loyalty to clients and refusing to harm innocents, while distrusting official institutions and their morality.)
+- Hardboiled and noir mean exactly the same thing. (They overlap heavily. Hardboiled usually names the detective tradition and its style, while noir names a wider mood of fatalism and corruption that also covers stories told by criminals and victims.)
+- Short, blunt sentences mean the writing is unsophisticated. (The spare style is a deliberate choice that matches the detective's practical, skeptical outlook, and it depends on precise word choice and understatement.)
+- Hardboiled detectives solve cases mainly by deduction from clues. (They work more through street contacts, pressure, and confrontation than through the armchair reasoning of classic puzzle mysteries.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +64,7 @@ Hardboiled detective fiction emphasizes corruption, cynicism, and moral ambiguit
 
 - question: Why do hardboiled detectives work outside the legal system rather than within it? What does this reveal about the genre's worldview?
   type: short-answer
+  answer: In the hardboiled world, the police and courts are corrupt or serve the powerful, so official channels lead to obstruction rather than justice. The detective's outsider position shows the genre's distrust of institutions and its view that justice depends on an individual following a personal code.
   explanation: A good answer should recognize that working outside legal systems indicates that official institutions (police, law) are corrupt or ineffective, and that justice cannot be achieved through legitimate channels. This reveals the genre's skepticism about institutional authority and its belief that the individual operative must act independently to address injustice. Students should understand this as both practical (corrupt cops won't help) and ideological (questioning whether justice is possible in corrupt systems).
 ```
 

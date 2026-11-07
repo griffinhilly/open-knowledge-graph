@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Historical maps are primary sources that embed geographic knowledge, political claims, and cultural assumptions of their makers. Reading maps requires understanding what they depict, what they omit, and whose perspective they represent. Changes in mapping over time reveal shifts in exploration, empire, scientific knowledge, and political boundaries.
 
+## How It's Best Learned
+Lay two maps of the same region from different dates or makers side by side, ideally one colonial and one later. For each, record what sits at the center, which direction is at the top, which places are named and in which language, and where the map is detailed or blank. Then write a short paragraph on what each set of choices tells you about who made the map and for what purpose.
+
+## Common Misconceptions
+- An old map is a less accurate version of a modern one. (Many historical maps had purposes other than measured accuracy, such as religious meaning, navigation or political claims, and should be read for those purposes.)
+- Maps show what is there. (Every map selects what to include, what to name and what to leave out, so it records the maker's priorities as well as the land.)
+- Place names on a map are neutral labels. (Naming a place in one language or after one person could assert a claim to discovery or sovereignty over it.)
+- A blank area on a map means the maker thought nothing was there. (Blank spaces often mark the limits of the maker's knowledge, or areas that did not matter to the map's purpose.)
+
 ## Questions
 
 ```yaml

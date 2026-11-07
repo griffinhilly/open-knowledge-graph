@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Digital archives and databases make historical sources globally accessible, but they are not neutral tools. Digitization choices (which documents selected, how described, how searchable) shape what historians can find. Digital tools enable new analysis forms—text mining, network mapping, spatial analysis—but require understanding both the tool and the limitations of computational methods applied to history.
 
+## How It's Best Learned
+Run one keyword search in a digitized newspaper archive, then open five hits and five pages from the same dates that did not match. Compare the page image with the machine-read text and note OCR errors and spelling variants the search missed. Search again with those variants and a synonym, and record how the count changes. That change is a rough measure of how far to trust the first number.
+
+## Common Misconceptions
+- If a digital archive returns no results, the thing I searched for is not in the record. (A null result can reflect what was scanned, how it was described, or OCR failure, as well as real absence.)
+- Digitized means searchable. (A page can be fully imaged but poorly machine-read, especially for handwriting, old typefaces and damaged pages.)
+- A rise in a word's frequency shows a rise in the thing it names. (Text mining measures how often words appear, which can change with editorial choices, new terms or a larger corpus.)
+- Computational results are more objective than close reading. (Every computational result depends on a corpus shaped by survival, archiving and digitization, and the historian still has to interpret it.)
+
 ## Questions
 
 ```yaml

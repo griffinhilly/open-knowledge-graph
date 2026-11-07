@@ -26,6 +26,12 @@ Paranormal romance features supernatural beings—vampires, werewolves, gods, gh
 ## How It's Best Learned
 Compare Stephenie Meyer's Twilight with paranormal romances that deconstruct the subgenre (like Laurell K. Hamilton's Anita Blake or Nalini Singh's Psy-Changeling). Notice how different authors negotiate the balance between romance and paranormal elements.
 
+## Common Misconceptions
+- Paranormal romance and urban fantasy are the same thing. (They share creatures and settings, but in paranormal romance the love story drives the plot and ending. In urban fantasy, the plot centers on a protagonist's case or quest, and romance is usually a subplot.)
+- The supernatural partner is a human in costume. (In well-made examples, the being's nature, such as immortality, transformation, or hunger, creates obstacles ordinary couples do not face, and the story has to work through them.)
+- Paranormal romance began with Twilight. (Supernatural lovers appear in much older fiction, and paranormal romance was an established category before Twilight's success.)
+- These books romanticize dangerous partners without question. (Many examine the power imbalance directly, asking whether a human can freely consent to a far stronger partner.)
+
 ## Questions
 
 ```yaml
@@ -61,7 +67,8 @@ Compare Stephenie Meyer's Twilight with paranormal romances that deconstruct the
 
 - question: How does the balance between romance and paranormal elements differ between Twilight and more deconstructive paranormal romances like Anita Blake?
   type: short-answer
-  explanation: A strong answer should explain that Twilight prioritizes the romance with paranormal elements serving as backdrop, while deconstuctive versions like Anita Blake question whether the romance can sustain the paranormal power imbalances and danger. Students should demonstrate understanding of how different authors choose to weight romance versus paranormal elements.
+  answer: Twilight centers the emotional development of the romance and uses the vampire elements mainly as dramatic context. The Anita Blake books lean into danger and horror, asking whether consent and love can survive a partner's overwhelming supernatural power.
+  explanation: A strong answer should explain that Twilight prioritizes the romance with paranormal elements serving as backdrop, while deconstructive versions like Anita Blake question whether the romance can sustain the paranormal power imbalances and danger. Students should demonstrate understanding of how different authors choose to weight romance versus paranormal elements.
 ```
 
 ## Explainer

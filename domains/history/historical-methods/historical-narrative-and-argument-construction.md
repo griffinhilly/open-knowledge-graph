@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Historical writing is a craft: you must organize evidence into an argument, choose what to emphasize, decide on narrative structure, and convince readers of your interpretation. Different narrative forms (chronological, thematic, comparative) suit different arguments. Good historical writing makes both the evidence and reasoning visible so readers can evaluate your interpretation.
 
+## How It's Best Learned
+Start from a factual sentence, such as "The Bastille fell on 14 July 1789," and turn it into a claim another historian could dispute. Outline the same body of evidence twice, once chronologically and once by theme, and note which outline makes your claim easier to show. Then write one paragraph that states a piece of counter-evidence and explains why it does not overturn the claim.
+
+## Common Misconceptions
+- A thesis is a statement of what happened. (A thesis is an interpretive claim about cause, significance or pattern that a reasonable historian could dispute.)
+- Choosing chronological or thematic order is a matter of style. (The structure decides which connections the reader can see, so it should be chosen to fit the argument.)
+- More evidence makes a stronger argument. (Evidence persuades when it is clearly linked to the claim, and an unsorted pile of sources can hide the argument.)
+- Mentioning counter-evidence weakens my case. (Addressing counter-evidence shows readers why the claim survives it, which makes the argument more convincing.)
+
 ## Questions
 
 ```yaml

@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Objects—pottery, tools, textiles, architectural fragments—require systematic description and analysis. Examiners document form, material, wear patterns, manufacturing marks, and decoration. Classification reveals technological change, trade routes, social hierarchy, and daily practices that texts do not record.
 
+## How It's Best Learned
+Practice on an ordinary object you own, such as a mug or a worn tool. Fill in a fixed recording sheet with separate boxes for form, material, manufacture, surface treatment, decoration, wear and repair, and write nothing about function until every box is complete. Then have a partner interpret the object from your sheet alone and see what your description missed.
+
+## Common Misconceptions
+- I should decide what an object was for first, then describe it. (Description comes first, because a hypothesis about function can lead you to overlook wear, residue or repairs that point elsewhere.)
+- An artifact means the same thing wherever it was found. (The same vessel found in a refuse heap and in a grave can carry different meanings, so the find context is part of the evidence.)
+- Small marks and scratches are damage, not data. (Wear patterns, use-marks and repairs can show how an object was used and how much it was valued.)
+- The same style at distant sites proves people traded directly. (Shared styles point to some connection, such as trade, migration or cultural contact, and further evidence is needed to say which.)
+
 ## Questions
 
 ```yaml

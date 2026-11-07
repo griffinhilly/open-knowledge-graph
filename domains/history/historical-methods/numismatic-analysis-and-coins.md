@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 Coins serve as historical evidence for trade, metallurgy, politics, art, and daily life. Numismatists analyze metal composition, manufacturing techniques, iconography, inscriptions, and circulation patterns. Coins provide dated physical evidence and reveal what rulers wanted populations to see and remember.
 
+## How It's Best Learned
+Work through one coin in a fixed order using a museum's online catalogue entry with photographs. Read the obverse and reverse inscriptions, identify the issuer and date range, describe the images, and note the metal and weight. Then compare it with a coin of the same denomination from a later reign and list what changed. Ask what each change suggests about politics or finances.
+
+## Common Misconceptions
+- A coin's date tells you when it was lost or buried. (A coin's issue date gives the earliest possible date for its deposit; coins could circulate for many years before they were lost.)
+- Coin designs were mainly artistic choices. (Images and inscriptions were chosen by the issuing authority and served as widely seen political messages.)
+- Coins found in a place show that people there used money in the same way we do. (Finds show coins reached a place, but they may have been used as bullion, offerings or ornaments as well as currency.)
+- A coin's face value matches the value of its metal. (Debasement reduced the precious metal content while keeping the face value, so the two could drift far apart.)
+
 ## Questions
 
 ```yaml

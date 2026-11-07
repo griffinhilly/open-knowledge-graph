@@ -62,6 +62,7 @@ Explicit magic systems are not inherently superior to mysterious magic; differen
 
 - question: How do hard magic systems enable specific plot possibilities while soft magic systems maintain wonder? Give an example of how magic system choice affects what stories can be told.
   type: short-answer
+  answer: Hard magic's known rules let readers follow and anticipate clever plans, so a Mistborn fight can turn on which metals a character has left to burn. Soft magic keeps its limits unknown, so it cannot drive puzzle-style plots, but its appearances in Hobb's Fitz books feel risky and numinous.
   explanation: 'A good answer should recognize that hard magic systems with explicit rules let readers predict what magic can accomplish, enabling puzzles and clever uses of magic within established constraints. Soft magic maintains wonder by keeping magic''s boundaries undefined, but this prevents readers from anticipating how magic might solve problems. In Sanderson''s hard magic, a character planning how to use Allomancy creates suspense; in Hobb''s soft magic, magic produces wonder because its capabilities remain mysterious. Students should understand this is not about quality but about different effects: hard magic enables intellectual puzzles, soft magic enables numinous wonder.'
 ```
 

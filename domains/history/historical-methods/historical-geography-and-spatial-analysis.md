@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Spatial analysis examines how geography, distance, settlement patterns, and place shape historical events and social relationships. Historical geography moves beyond treating geography as backdrop to understanding how humans transform and live within space, how distance constrains communication and trade, and how place carries meaning and memory.
 
+## How It's Best Learned
+Plot a set of dated events, such as the first recorded cases of an epidemic in each town of a region, on a map that shows roads and navigable rivers. Measure each town's distance from the nearest river or main road and sort the towns by arrival date. Ask whether the arrival order follows straight-line distance or travel routes, then list what else could explain the towns that do not fit.
+
+## Common Misconceptions
+- Geography is the background to history. (Distance, terrain and routes shaped what was possible and what it cost, so they work as causes in historical explanation.)
+- Taking geography seriously means geography decides outcomes. (Space sets constraints and incentives, and technology, politics and human choices shape how people respond to them.)
+- Places that are close on a map were close in practice. (Travel cost depended on terrain and transport, so a port across a sea could be better connected than a town over the hills.)
+- A settlement's layout proves how its people farmed or organized themselves. (Settlement form suggests hypotheses about social organization, which need testing against documents and archaeology.)
+
 ## Questions
 
 ```yaml

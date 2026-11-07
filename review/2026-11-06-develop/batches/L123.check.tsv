@@ -1,0 +1,64 @@
+domains/computer-science/compilers/interpreter-design-and-tradeoffs.md	mis	8	1	fixed	Bullet 3 said code always runs interpreted before JIT; false for JITs that compile every method on first call (classic .NET). Softened to "Many JITs".
+domains/computer-science/compilers/jit-compilation.md	how	4	0	ok	Worked: node --trace-opt --trace-deopt exist; int-then-string add() triggers opt then deopt.
+domains/computer-science/compilers/jit-compilation.md	mis	8	0	ok
+domains/computer-science/compilers/lambda-calculus-foundations.md	how	4	0	ok	Worked: 2 g a -> g (g a); AND TRUE FALSE -> TRUE FALSE TRUE -> FALSE; (λx.λy.x) y needs renaming.
+domains/computer-science/compilers/lambda-calculus-foundations.md	mis	8	0	ok	Old note: Q3 explanation says terms that both fail to terminate are equivalent; not true in general. Not edited.
+domains/computer-science/compilers/live-variable-analysis.md	how	3	0	ok	Worked: live-in sets {a,c},{c,d},{a,c},{b,c} upward from return are correct.
+domains/computer-science/compilers/live-variable-analysis.md	mis	8	0	ok
+domains/computer-science/compilers/ll-parsing.md	how	3	0	ok	Worked: grammar is LL(1); FOLLOW(E')={),$}, FOLLOW(T)={+,),$}; no cell conflicts; id + id traces.
+domains/computer-science/compilers/ll-parsing.md	mis	8	0	ok
+domains/computer-science/compilers/ll-parsing.md	old:q:3:question	1	1	fixed	Garbled "that LL(1) can seldom" changed to "cannot". Old note: Explainer calls left-recursion removal "left-factoring"; not edited.
+domains/computer-science/compilers/lookahead-and-parsing-power.md	how	4	0	ok	Worked: [E,id] gets both productions; LR trace shift/reduce sequence correct.
+domains/computer-science/compilers/lookahead-and-parsing-power.md	mis	8	1	fixed	Bullet 4 said Yacc default rules "hide" conflicts; Yacc/Bison report conflict counts as warnings. Reworded.
+domains/computer-science/compilers/loop-invariant-code-motion.md	how	4	1	fixed	Exercise said check dominance of exits then hoist x*y, but in a top-tested loop no body block dominates the n=0 exit, so the steps contradicted. Added that x*y is hoistable only because it cannot fault and has no side effects.
+domains/computer-science/compilers/loop-invariant-code-motion.md	mis	6	0	ok
+domains/computer-science/compilers/loop-unrolling-optimization.md	mis	6	2	fixed	Bullet 1 "only the loop overhead shrinks" contradicted Explainer/Q1 on ILP gains; added ILP. Bullet 3 said unknown trip counts spend more time in remainder code; limited to short trip counts.
+domains/computer-science/compilers/lr-parsing.md	how	3	0	ok	Worked: with E + T on stack and * next the parser shifts (item T -> T . * id); full trace correct.
+domains/computer-science/compilers/lr-parsing.md	mis	8	0	ok
+domains/computer-science/compilers/multi-stage-programming.md	how	3	0	ok	Worked: spower 3 yields fun x -> x * (x * (x * 1)); string splice is a stage-1 type error.
+domains/computer-science/compilers/multi-stage-programming.md	mis	8	0	ok
+domains/computer-science/compilers/overload-resolution-typing.md	how	4	0	ok	Worked: Java phases give f(long), then f(Integer), then f(Object), then f(int...).
+domains/computer-science/compilers/overload-resolution-typing.md	mis	8	0	ok	Old note: Q0 answer "ambiguous" for f(3,"hello") with f(int,Object)/f(Object,String) holds for C# but in Java phase 1 picks f(int,Object) (Object for 3 needs boxing). Language unstated; not edited.
+domains/computer-science/compilers/parser-generators.md	how	3	0	ok	Worked: ambiguous exp grammar gives shift/reduce conflicts in .output; %left '+' then %left '*' removes them with * tighter.
+domains/computer-science/compilers/parser-generators.md	mis	6	0	ok	Old note: Core Idea "Most real-world compilers use parser generators" conflicts with Explainer (GCC, Clang, Go, Rust hand-written). Not edited.
+domains/computer-science/compilers/parsing-problem-overview.md	how	3	0	ok	Worked: two trees give 7 and 9; layered grammar leaves only 7.
+domains/computer-science/compilers/parsing-problem-overview.md	mis	8	1	fixed	Bullet 1 "Only a few languages are inherently ambiguous" is false as stated (infinitely many exist); changed to "exist, but are rare in practice".
+domains/computer-science/compilers/parsing-problem-overview.md	old:q:3:question	1	1	fixed	"can usually be converted" made the statement true while key says false and explanation argues against "always"; restored "always".
+domains/computer-science/compilers/partial-evaluation-specialization.md	how	3	0	ok	Worked: n=3 residual is three r = r * base lines.
+domains/computer-science/compilers/partial-evaluation-specialization.md	mis	6	0	ok
+domains/computer-science/compilers/peephole-optimization.md	how	3	0	ok	Worked: LOAD -> MOV R2,R1 makes MOV R1,R2 redundant within a 2-instruction window.
+domains/computer-science/compilers/peephole-optimization.md	mis	6	0	ok
+domains/computer-science/compilers/procedure-inlining-optimization.md	mis	6	0	ok
+domains/computer-science/compilers/programming-language-semantics.md	how	4	0	ok	Worked: 3 -> 4 -> 8; wp gives x = 4 then x = 3.
+domains/computer-science/compilers/programming-language-semantics.md	mis	8	0	ok
+domains/computer-science/compilers/reaching-definitions-analysis.md	how	3	0	ok	Worked: gen/kill as stated; pass 2 changes IN[B2..B4], pass 3 changes nothing; d1-d4 reach B4.
+domains/computer-science/compilers/reaching-definitions-analysis.md	mis	6	0	ok	Old note: Q3 explanation says kill set holds defs "BEFORE the current block"; standard kill is all other defs of the variable. Not edited.
+domains/computer-science/compilers/register-allocation.md	how	4	0	ok	Worked: liveness gives triangle a-b-c plus b-d, e isolated; k=2 stalls on the triangle.
+domains/computer-science/compilers/register-allocation.md	mis	6	0	ok
+domains/computer-science/compilers/register-allocation.md	old:q:3:question	1	1	fixed	"seldom simultaneously live ... is expected to" made the statement true-ish against key false; restored "never ... must".
+domains/computer-science/compilers/semantic-analysis.md	how	3	0	ok	Three errors found as stated, assuming a language where bool + int is a type error (true for Java-like, not C++).
+domains/computer-science/compilers/semantic-analysis.md	mis	6	0	ok
+domains/computer-science/compilers/static-single-assignment-form.md	how	3	0	ok	Worked: i1/s1 phis at header, body s2/i2, return s1.
+domains/computer-science/compilers/static-single-assignment-form.md	mis	6	0	ok
+domains/computer-science/compilers/subtyping-and-bounds.md	how	3	0	ok	Worked: Object[] store throws ArrayStoreException; List<Object> = ArrayList<String> rejected.
+domains/computer-science/compilers/subtyping-and-bounds.md	mis	6	0	ok
+domains/computer-science/compilers/subtyping-and-bounds.md	old:q:1:explanation	1	1	fixed	LSP direction reversed ("anything T can do, Comparable<T> can do"); swapped.
+domains/computer-science/compilers/symbol-tables-and-scope.md	how	3	0	ok	Worked: z's x binds to f's x in C.
+domains/computer-science/compilers/symbol-tables-and-scope.md	mis	6	0	ok
+domains/computer-science/compilers/tokenization-and-lexemes.md	how	2	0	ok	Worked: token list matches longest-match + priority.
+domains/computer-science/compilers/tokenization-and-lexemes.md	mis	6	0	ok
+domains/computer-science/compilers/tokenization-and-lexemes.md	q:4:explanation	1	0	ok
+domains/computer-science/compilers/tree-walking-interpreters.md	how	3	0	ok	Worked: 10; lexical 2 vs dynamic 101.
+domains/computer-science/compilers/tree-walking-interpreters.md	mis	6	0	ok
+domains/computer-science/compilers/type-inference-algorithms.md	how	3	0	ok	Worked: f (f x) gives (β → β) → β → β; x x fails occurs check.
+domains/computer-science/compilers/type-inference-algorithms.md	mis	6	0	ok
+domains/computer-science/compilers/type-inference-algorithms.md	old:q:2:question	1	0	fixed	Garbled "can seldom fully verify" changed to "cannot"; key unaffected.
+domains/computer-science/compilers/type-systems-overview.md	how	5	0	ok	Checked: Python TypeError, JS "12", Java "12", OCaml compile error.
+domains/computer-science/compilers/type-systems-overview.md	mis	6	0	ok	Old note: Notes attribute strong/weak axes to Pierce's TAPL; doubtful. Not edited.
+domains/computer-science/compilers/unification-algorithm.md	how	3	0	ok	Worked: first pair fails on List<β> = Int; second gives {α ↦ β, γ ↦ List<β>}.
+domains/computer-science/compilers/unification-algorithm.md	mis	6	0	ok	Old note: Explainer credits Robinson's algorithm with near-linear time; that is later union-find variants. Not edited.
+domains/computer-science/compilers/value-numbering-optimization.md	how	3	0	ok	Worked: line 3 key differs since b changed; line 4 matches line 2 and becomes d = b.
+domains/computer-science/compilers/value-numbering-optimization.md	mis	6	0	ok
+domains/computer-science/compilers/value-numbering-optimization.md	old:q:3:question	1	0	fixed	Garbled "are seldom detected" changed to "cannot be detected"; key unaffected.
+domains/computer-science/compilers/vectorization-and-simd.md	mis	6	0	ok
+domains/computer-science/compilers/vectorization-and-simd.md	old:q:3:question	1	0	fixed	Garbled "can seldom prove" changed to "cannot prove"; key unaffected.

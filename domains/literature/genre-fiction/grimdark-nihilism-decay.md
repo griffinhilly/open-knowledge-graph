@@ -24,6 +24,14 @@ status: draft
 ## Core Idea
 Grimdark fantasy presents worlds where morality is irrelevant or inverted, where characters pursue self-interest amid decay and corruption. Grimdark rejects the concept of meaningful good and evil; all actors pursue power, survival, or advantage. These narratives emphasize the visceral consequences of violence, power's corrupting nature, and the futility of idealism in a rotting system.
 
+## How It's Best Learned
+Put a battle scene from a traditional heroic fantasy beside one from a grimdark novel. For each, list what the text shows afterward: wounds, grief, who profits, and whether the victory means anything. Then follow one idealistic character through a grimdark book and mark each point where the system corrupts, co-opts, or destroys their effort.
+
+## Common Misconceptions
+- Grimdark is defined by how much gore it contains. (Graphic violence serves an argument: showing what violence costs denies readers a glamorous version of it. The bleak worldview defines the genre, not the body count.)
+- Grimdark is another name for dark fantasy. (Dark fantasy can show idealists destroyed while their principles still carry meaning. Grimdark suggests that idealism itself is futile inside a corrupt system.)
+- Grimdark celebrates cruelty and the people who practice it. (Its focus on consequences can work as a critique of power. Depicting ruthlessness is different from endorsing it.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +67,7 @@ Grimdark fantasy presents worlds where morality is irrelevant or inverted, where
 
 - question: How does grimdark's rejection of meaningful morality differ from simply telling a story with morally compromised characters?
   type: short-answer
+  answer: A story with compromised characters still treats right and wrong as real standards that the characters fall short of. Grimdark questions the standards themselves, presenting the whole system as corrupt so that idealism is futile and every actor ends up pursuing power or survival.
   explanation: A good answer should recognize that grimdark rejects the framework of morality itself—not just portraying flawed characters trying to do right, but questioning whether 'right' is even a meaningful concept. In grimdark, the system itself is corrupt and corrupting, and attempting to maintain idealistic principles is presented as futile. This is darker than moral compromise—it's moral nihilism embedded in the worldview. Students should show understanding that grimdark's pessimism is structural, not incidental.
 ```
 

@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Archives organize documents through finding aids, metadata systems, and preservation hierarchies. Understanding archival logic—why certain collections are grouped together, how materials are catalogued, which records are digitized—shapes what historians can find and how they interpret evidence. Digital access changes research possibilities but also creates new absences and biases.
 
+## How It's Best Learned
+Choose one collection that is partly digitized and compare its full finding aid with what is available online. Count which series have been scanned and which exist only on paper, and ask who funded the scanning and for what audience. Then write down how a project built only from the online portion would differ from one built from the whole collection.
+
+## Common Misconceptions
+- A good finding aid shows me everything the archive holds on my topic. (Finding aids describe what survives and has been processed, and some material may be uncatalogued or filed under a creator you have not thought of.)
+- What is online is a fair sample of what exists. (Digitization follows funding, language and expected users, so digital collections can overrepresent some kinds of records and leave others out.)
+- A gap in a records series means nothing happened in those years. (Records may have been destroyed, transferred, left unprocessed, or never created, so a gap is a question to investigate.)
+
 ## Questions
 
 ```yaml

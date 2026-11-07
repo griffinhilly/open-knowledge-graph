@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Secondary sources are not merely summaries of primary evidence but historical documents themselves—evidence of how different eras, scholars, and communities have understood the past. Reading secondary sources against each other reveals historiographical debates, changing interpretations, and how knowledge has been produced. This approach treats historiography itself as data worthy of analysis rather than merely background to research.
 
+## How It's Best Learned
+Gather three or four books or articles on one event, written decades apart, and lay them out in a table by publication year. For each, record its main question, its key sources and the subject it leaves out. Then add a column for what was happening in the discipline and society when it appeared. Use the empty cells to propose one question none of them asked.
+
+## Common Misconceptions
+- Secondary sources are summaries of the facts, so the newest one replaces the older ones. (Each is also evidence of how its own era understood the past, and older works stay useful for that reason.)
+- Interpretations change mainly because historians find new documents. (New evidence matters, but shifts often come from new questions raised by social change or new methods.)
+- A history written soon after the events is more reliable because the author was closer to them. (Early accounts may lack archival access or reflect the pressures of their moment; reliability depends on evidence and method.)
+- Gaps in the literature are just topics nobody got around to. (What past scholars did not ask often reflects their assumptions, and those gaps can point to original research.)
+
 ## Questions
 
 ```yaml

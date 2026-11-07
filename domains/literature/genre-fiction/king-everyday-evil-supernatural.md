@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Stephen King's horror combines supernatural threats with ordinary human evil in recognizable settings. King frequently sets stories in small towns, exploring how supernatural events disrupt normal American life. His protagonists are typically ordinary people discovering that evil can be both supernatural and terrifyingly human.
 
+## How It's Best Learned
+Read one King novel set in a small town, such as 'Salem's Lot, and keep two running lists. One records harms done by the supernatural threat. The other records harms done by townspeople: gossip, abuse, cowardice, greed. Mark the scenes where the two lists meet, and ask which kind of evil the town was already hiding before the threat arrived.
+
+## Common Misconceptions
+- King's horror is mainly about monsters. (His monsters often work as catalysts. Much of the horror lies in how ordinary people behave under pressure, or in cruelty already present in the town.)
+- Every King horror novel has a supernatural threat. (Some have none. In Misery, the threat is a human captor.)
+- King's small towns are peaceful until the monster arrives. (He often reveals the town's secrets and cruelties early, so the threat exposes what was already there.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Stephen King's horror combines supernatural threats with ordinary human evil in 
 
 - question: Why is King's combination of supernatural and human evil particularly effective in small-town settings? What does the ordinary American small town contribute to the horror?
   type: short-answer
+  answer: Readers associate small towns with safety, familiarity, and neighbors who can be trusted, so a supernatural intrusion violates that expectation sharply. The close community also makes human evil intimate, because the cruelty comes from people everyone knows, and the threat exposes how fragile that decency is.
   explanation: A good answer should recognize that small towns represent safety, normalcy, and community—places where people trust each other and supernatural danger seems impossible. The collision between the normalcy of small-town American life and the intrusion of supernatural or human evil creates cognitive dissonance. Readers know small towns; they're familiar; they're supposed to be safe. When supernatural horror invades that space, it violates a fundamental expectation. Additionally, human evil in small towns is betrayal—it comes from neighbors and community members, making it terrifyingly intimate.
 ```
 

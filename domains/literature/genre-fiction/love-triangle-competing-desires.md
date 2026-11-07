@@ -24,6 +24,15 @@ status: draft
 ## Core Idea
 The love triangle presents a protagonist attracted to two competing love interests, creating dramatic tension around the choice of heart and future. Love triangles can explore different kinds of desire (security versus passion, stability versus excitement) or reflect competing identities and visions of the future. The resolution often reveals what the protagonist truly values and who the authentic self is.
 
+## How It's Best Learned
+Map a triangle on paper. Beside each love interest, write the future, community, or version of the protagonist that person stands for. Wuthering Heights is a strong first case: Edgar Linton stands for social position and refinement, and Heathcliff stands for Catherine's wild childhood self. Then read the resolution and state what the choice says about the protagonist.
+
+## Common Misconceptions
+- A love triangle is about which rival is more attractive. (Each love interest usually stands for a kind of desire or a possible future, so the choice says more about the protagonist than about the rivals.)
+- A love triangle must end with the protagonist choosing one partner. (Some end with the protagonist choosing neither, or with the choice taken away by death or circumstance, and those endings carry their own meaning.)
+- The partner who is not chosen was the wrong person all along. (The unchosen partner is often sympathetic, and the story can treat the lost path as a real cost.)
+- Love triangles belong to romance. (The structure appears in fantasy, science fiction, thrillers, and literary fiction, where it can carry competing loyalties or obligations.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +68,7 @@ The love triangle presents a protagonist attracted to two competing love interes
 
 - question: How can a love triangle that explores 'competing identities' differ from one that simply presents two attractive options? Give an example of how choice reveals character.
   type: short-answer
+  answer: When each partner stands for a different self or future, the choice becomes a decision about who the protagonist will be. In Wuthering Heights, Catherine marries Edgar Linton for his social position rather than Heathcliff, who embodies her wild childhood self, and the choice reveals her ambition and the self she gives up.
   explanation: A good answer should recognize that a triangle exploring competing identities isn't just 'which person do I love more?' but rather 'which version of myself do I want to be?' Choosing one partner might mean remaining in a small town versus moving to a city; choosing adventure versus security; choosing conformity versus authenticity. The choice reveals what the protagonist values in themselves, not just what they desire in a partner. Students should understand that the most sophisticated love triangles use romance as a vehicle for exploring identity and selfhood.
 ```
 

@@ -24,6 +24,15 @@ status: draft
 ## Core Idea
 Portal fantasy features transition between our primary world and a fantasy realm, usually via a magical gateway or hidden threshold. The portal creates narrative structure: anticipation before crossing, disorientation upon arrival, gradual acculturation to new rules and possibilities. Portal fantasy allows readers to discover fantasy alongside the protagonist while maintaining connection to the familiar.
 
+## How It's Best Learned
+Map the crossing in C. S. Lewis's The Lion, the Witch and the Wardrobe. Split the opening chapters into before, at, and after the threshold. For the after phase, list each rule of Narnia that Lucy or Edmund learns and how: by being told, by watching, or by making a mistake, as Edmund does with the White Witch. Then compare the opening of a secondary-world novel that has no newcomer to explain things to.
+
+## Common Misconceptions
+- The portal is just a convenient way to get the hero into the story. (It structures the whole narrative. Anticipation, disorientation, and acculturation all follow from the crossing, and the question of return often shapes the ending.)
+- Portal fantasy heroes always return home at the end. (Some return, some stay, and some find that going back has cost them something. Whether and how they return is one of the subgenre's main questions.)
+- Portal fantasy is a children's form. (Many well-known examples are children's books, but portal fantasies are also written for adults.)
+- A portal has to be a literal door. (The threshold can be a wardrobe, a rabbit hole, a painting, or a dream.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +68,7 @@ Portal fantasy features transition between our primary world and a fantasy realm
 
 - question: Why is maintaining connection to the familiar world important for portal fantasy readers even after the protagonist crosses the threshold?
   type: short-answer
+  answer: The familiar world gives readers a reference point for judging how strange the new realm is, and it lets them learn the new rules through the protagonist's eyes. It also supplies emotional stakes, such as whether the protagonist can or wants to return home.
   explanation: A strong answer should explain that keeping the primary world as a reference point helps readers orient themselves in the fantasy realm. Students should demonstrate understanding that discovering fantasy 'alongside the protagonist' is more engaging than being dropped into a fully-formed secondary world with no familiar perspective.
 ```
 

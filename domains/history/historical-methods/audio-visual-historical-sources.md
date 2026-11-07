@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Film, video, and sound recordings provide twentieth-century evidence unavailable for earlier periods. These media embed directorial choices, editing, technical production values, and viewing context that shape meaning. Historians analyze both content and form, recognizing that audio-visual sources are constructed artifacts, not unmediated records.
 
+## How It's Best Learned
+Watch a two-minute newsreel clip three times, each time with one task. First, list what is shown. Second, mark every cut, camera angle and change in music or narration. Third, note who made it, for which audience, and where it was screened. Then write two sentences: one on what the clip shows about the event, one on what it shows about how the event was presented.
+
+## Common Misconceptions
+- A camera records what happened, so film is more objective than a written account. (Every recording involves choices about framing, timing, editing and sound, which shape meaning as much as a writer's choices do.)
+- Propaganda footage is useless as evidence. (Such footage is strong evidence of how a regime or institution wanted events to be seen, even when it misleads about the events themselves.)
+- The meaning of a shot is contained in the shot. (Meaning depends partly on what the shot is placed next to, and on the narration and music around it.)
+- An oral history recording captures a person's memory directly. (The recording also reflects the interview itself, including who asked, what was asked, and what the speaker assumed the listener wanted.)
+
 ## Questions
 
 ```yaml

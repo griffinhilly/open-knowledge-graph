@@ -30,6 +30,12 @@ Gothic romance combines supernatural or uncanny elements with romantic attractio
 ## How It's Best Learned
 Read the canonical gothic romances (Jane Eyre, Rebecca, The Thirteenth Tale) and compare how each uses setting and the Byronic hero to create tension between attraction and fear.
 
+## Common Misconceptions
+- A gothic romance needs real ghosts or monsters. (Many gothic romances, Rebecca among them, build dread from secrets, memory, and the house itself without any confirmed supernatural event.)
+- The Byronic hero is a villain the heroine fails to see through. (He is morally ambiguous. The story gives him a wound, guilt, or depth that makes the attraction understandable, and it keeps open whether he can be trusted.)
+- A gothic romance must end in a happy union, like other romances. (Endings are often ambiguous or bittersweet. The hero may be redeemed or destroyed, and the heroine may stay or escape.)
+- The isolated mansion is spooky background. (Isolation cuts the heroine off from outside help, and the decaying house mirrors the buried secrets, so the setting drives the tension.)
+
 ## Questions
 
 ```yaml
@@ -65,6 +71,7 @@ Read the canonical gothic romances (Jane Eyre, Rebecca, The Thirteenth Tale) and
 
 - question: How do setting and character work together in gothic romance to create the distinctive emotional experience? Explain with a specific example.
   type: short-answer
+  answer: The isolated setting traps the protagonist with the dangerous hero and hides his secrets, so attraction and fear grow together. In Jane Eyre, Thornfield cuts Jane off from outside advice and makes her dependent on Rochester, while the strange laughter on the upper floor embodies the secret he is hiding.
   explanation: A good answer should show understanding that the decaying, isolated setting reinforces the protagonist's psychological and emotional vulnerability, while the mysterious Byronic hero offers both attraction and genuine threat. The isolation intensifies emotional stakes because escape is difficult; the atmospheric darkness mirrors psychological uncertainty. A specific example might reference Jane Eyre (the isolated Thornfield creates dependence; Rochester's secrets mirror the uncertain nature of desire and trust) or another canonical text.
 ```
 

@@ -67,6 +67,7 @@ Psychological horror is not 'just paranoia'; it explores how minds crack under r
 
 - question: How do isolation, confinement, or social pressure create psychological horror effects on the protagonist?
   type: short-answer
+  answer: These conditions cut the protagonist off from other people who could confirm or correct their perceptions, so fears grow unchecked and reality becomes uncertain. In "The Yellow Wallpaper," a woman confined to one room for a rest cure, with her concerns dismissed, comes to see a trapped woman in the wallpaper.
   explanation: A strong answer should explain that these conditions destabilize mental state by removing normal coping mechanisms, support systems, or reality-checking relationships. Students should demonstrate understanding that psychological horror can result from realistic social/environmental factors rather than supernatural causes.
 ```
 

@@ -20,6 +20,15 @@ status: draft
 ## Core Idea
 Genres evolve through changes in publishing markets, reader communities, technology, and cultural contexts. Genres emerge, develop conventions, achieve canonicity, and sometimes decline. Understanding genre evolution requires attention to economic factors, cultural shifts, and how reader communities shape development.
 
+## How It's Best Learned
+Pick one genre and build a timeline with three columns: the main publishing format of each period (magazine serial, pulp, paperback, e-book), the reader community, and the conventions that appear. For each convention, ask what the format or market rewarded. Start with an easy case: serial installments reward cliffhangers at each break.
+
+## Common Misconceptions
+- A genre's conventions are set by its founding writers and then stay fixed. (Conventions accumulate and shift as formats, markets, and readers change, and later writers revise what earlier ones set down.)
+- If markets shape a genre, the genre must be artistically lesser. (Literary fiction is also produced and sold through markets. Economic pressure shapes form, but it does not settle questions of quality.)
+- Readers passively consume whatever publishers decide to sell. (Reader communities shape genres through clubs, conventions, reviews, and buying patterns that make their preferences visible to publishers.)
+- When a genre declines, its conventions disappear. (A declining genre's conventions are often absorbed into other genres or revived later in new forms.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +64,7 @@ Genres evolve through changes in publishing markets, reader communities, technol
 
 - question: How might a change in publishing technology affect genre evolution? Give a specific example.
   type: short-answer
+  answer: Magazine serialization in the nineteenth century pushed writers to end installments on cliffhangers and sustain tension over months. More recently, e-books and self-publishing let niche subgenres reach readers without a traditional publisher's approval.
   explanation: 'A good answer should show understanding that technology shapes what kinds of stories get published and read. Examples might include: how serialization in magazines created different narrative conventions than novels; how e-books and self-publishing changed what genres could develop; how digital platforms altered distribution and reader discovery. Students should connect technological change to concrete effects on genre conventions or reader communities.'
 ```
 

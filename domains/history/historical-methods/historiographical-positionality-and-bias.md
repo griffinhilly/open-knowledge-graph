@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Historians are situated in particular times, places, and social positions that shape what questions they ask, what sources they notice, and what patterns they see. There is no view from nowhere. Acknowledging positionality—being clear about your perspective—does not invalidate your work; it means being honest about your limitations and what you might not be able to see.
 
+## How It's Best Learned
+Read two accounts of the same event written from different national or social standpoints and list the questions each one asks and leaves out. Then write a short positionality note for a paper of your own: where you stand, which sources you can read, and which voices those sources leave out. Ask how that note should change the strength of your claims.
+
+## Common Misconceptions
+- Admitting your positionality weakens your argument. (Stating your standpoint and your sources' limits lets readers judge your claims, which makes the work more credible.)
+- Positionality only matters for historians with a political agenda. (Every historian works from a time, place and training that shape what they notice, including careful and rigorous ones.)
+- If every historian has a standpoint, all interpretations are equally valid. (Evidence and argument still separate stronger accounts from weaker ones; reflexivity is a standard of honesty, not relativism.)
+- Positionality and bias are the same thing. (Positionality is a situated viewpoint; bias is the narrower claim that this viewpoint pushes interpretation in a particular direction.)
+
 ## Questions
 
 ```yaml

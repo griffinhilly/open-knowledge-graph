@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Good historical research begins with a clear research question, not a vague topic. The question shapes which sources you seek, how you interpret them, and what counts as evidence. Research design involves identifying what you need to know, where you're likely to find it, potential obstacles, and how you'll handle contradictory evidence.
 
+## How It's Best Learned
+Start with a broad topic you care about and narrow it in three written drafts, each more specific about place, time, actors and the comparison involved. For the final question, list what evidence would support your expected answer and what evidence would undercut it. Then name where each kind of evidence might survive and which sources are likely missing.
+
+## Common Misconceptions
+- Choosing a topic is the same as having a research question. (A topic names a subject; a question specifies what you are trying to find out and what evidence would answer it.)
+- Good research collects every source on the subject first and finds the argument later. (Without a question there is no rule for what is relevant, so the archive ends up setting the argument.)
+- Contradictory sources are a problem to be resolved by picking the better one. (Conflicts are evidence in themselves, and asking who wrote each account and why often sharpens the question.)
+- Admitting gaps in the evidence weakens a project. (Stating what is missing keeps conclusions in line with the surviving evidence and makes them more trustworthy.)
+
 ## Questions
 
 ```yaml

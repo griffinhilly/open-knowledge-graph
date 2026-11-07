@@ -70,6 +70,7 @@ Hardboiled is not simply violent detective fiction; it's morally serious about t
 
 - question: Explain how Chandler's 'lyrical, philosophical' hardboiled style differs from Hammett's 'minimalist' approach. What effect do these stylistic choices have on the reader's experience?
   type: short-answer
+  answer: Chandler's first-person narration uses vivid similes and reflection, so readers share the detective's thoughts and feel the moral cost of his choices. Hammett's spare, external narration in The Maltese Falcon shows actions without explaining motives, so readers must infer what the detective feels, which makes the world seem opaque.
   explanation: A good answer should recognize that Chandler's lyricism creates space for reflection, moral questioning, and the detective's interiority, allowing readers to feel the detective's moral cost. Hammett's minimalism creates distance and force readers to infer meaning from sparse description, creating alienation and a sense of an opaque world. The same genre tradition produces different emotional effects through stylistic choice. Students should understand that style is not decorative but fundamental to meaning.
 ```
 

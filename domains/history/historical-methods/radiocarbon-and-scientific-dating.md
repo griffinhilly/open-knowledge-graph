@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Radiocarbon dating, optically stimulated luminescence, and other radiometric methods provide absolute dates independent of written records. These techniques enabled major chronological revisions in prehistory and early history. Every method carries calibration uncertainties, contamination risks, and assumptions about initial conditions that historians must understand to interpret results.
 
+## How It's Best Learned
+Use a free calibration program such as OxCal or CALIB. Enter one radiocarbon age with its error, then several more ages a few centuries apart, all with the same error. Plot each calibrated range against the curve. Some ranges come out narrow and others wide or split in two. Seeing that the curve's shape drives the spread makes "± years BP" read as a range, not a date.
+
+## Common Misconceptions
+- A radiocarbon result like 2,800 ± 50 BP means the object is 2,800 calendar years old. (The figure is a radiocarbon age that must be calibrated, and the calendar result is a probability range.)
+- Radiocarbon dating works on any old object, including stone tools. (It dates material that once took in carbon from the atmosphere, such as wood, charcoal, bone or seeds.)
+- A smaller ± figure always means a precise calendar date. (Where the calibration curve is flat, even a precise measurement can spread across a wide calendar range.)
+- A radiocarbon date tells you when an object was used. (It dates when the organism died, so old wood or reused material can give a date earlier than the human activity of interest.)
+
 ## Questions
 
 ```yaml

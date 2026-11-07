@@ -31,6 +31,15 @@ status: validated
 ## Core Idea
 Gender history treats gender—the socially constructed meanings of maleness and femaleness—as a fundamental historical category that shapes institutions, culture, and experience. Rather than studying only women or feminist movements, gender analysis examines how gendered relations structure all of history. This approach reveals power dynamics and social organization invisible when gender is overlooked or taken as natural.
 
+## How It's Best Learned
+Take a source with no women in it, such as a military recruiting poster or an all-male parliamentary debate. Mark every word or image that appeals to manliness, fatherhood, protection or weakness, and ask what work each one does for the argument. Then compare your reading with a "women's history" question about the same period, and note how the two kinds of question differ.
+
+## Common Misconceptions
+- Gender history means studying women. (Gender analysis examines how ideas of masculinity and femininity shaped institutions and power, so it applies to men, war, empire and politics as well.)
+- If no women appear in a source, gender is irrelevant to it. (All-male settings such as armies or legislatures were often organized around ideas of manhood, which gender analysis can examine.)
+- Gender roles in the past were natural reflections of biology. (Meanings of maleness and femaleness varied across times and places, which shows they were socially shaped.)
+- Adding women to the existing story completes the gender analysis. (Adding women changes who is studied; gender analysis also changes the questions, such as how authority or citizenship was defined.)
+
 ## Questions
 
 ```yaml

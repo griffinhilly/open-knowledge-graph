@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Viral pathogenesis results from viral replication damage (cell lysis, apoptosis), immune-mediated damage (excessive inflammation), and viral immune evasion (antigenic variation, MHC downregulation, interferon antagonism). Virulence depends on replication rate, tropism, and host immune competence. Acute infections resolve or cause death; persistent infections (HBV, HIV, herpesviruses) establish latency and evade elimination. Emerging viruses frequently cross species barriers when ecological disruption or mutation enables zoonotic transmission.
 
+## How It's Best Learned
+Make a three-column table headed direct damage, immune-mediated damage and immune evasion. Sort cases into it: poliovirus in motor neurons, hepatitis B in the liver, cytokine storm, HIV envelope change, herpesvirus latency, influenza drift and shift. Then sketch viral titer and tissue damage over time on one graph, first for a cell-killing virus and then for immune-mediated injury, and compare where the two peaks fall.
+
+## Common Misconceptions
+- More virus in the body means worse disease. (Severity comes from direct damage, immune-mediated damage and evasion together; in hepatitis B much of the liver injury is caused by the host's own cytotoxic T cells.)
+- A virus that has gone latent has been cleared. (In latency the viral genome stays inside host cells with little protein made, and herpesviruses can reactivate from this state later.)
+- A virus can infect any cell it reaches in the body. (Tropism limits infection to cells that carry the right receptors and can support viral replication.)
+- Antigenic shift is a faster form of antigenic drift. (Drift is gradual point mutation in surface proteins; shift is reassortment of whole genome segments between strains co-infecting one cell, and it can produce a new subtype.)
+
 ## Questions
 
 ```yaml

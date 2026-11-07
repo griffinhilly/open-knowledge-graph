@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Sources must be understood within their historical context—the circumstances of their creation, the conventions and assumptions of their time, the networks of meaning in which they were embedded. Contextual reading avoids anachronism and reveals how sources participate in their own historical moments. Context is not merely background information but constitutive of meaning and understanding.
 
+## How It's Best Learned
+Take one short source, such as a petition or a letter, and draw three concentric circles around it on a page. In the inner circle, note who wrote it, when, for whom and under what pressure. In the middle, list the texts or genre conventions it answers. In the outer, list the events and structures of the period. Then write one sentence on what the source was doing, and see how each circle changed that sentence.
+
+## Common Misconceptions
+- Context is background you read before getting to the source itself. (Context helps make the meaning, since the same words can do different things in different circumstances.)
+- Understanding an actor in their own terms means excusing what they did. (Contextualizing explains why choices made sense to people at the time; the historian can still judge them.)
+- Past beliefs that look irrational to us show that people were ignorant. (Many such beliefs were reasonable inferences within the frameworks the best-educated people of the time accepted.)
+- Knowing the date and author is enough context. (A text also answers particular debates and follows genre rules, and these shape what it means.)
+
 ## Questions
 
 ```yaml

@@ -27,6 +27,12 @@ Historical causation is complex: multiple factors converge, contingency matters,
 ## How It's Best Learned
 Take a major historical event and build causal analysis: Long-term structural conditions? Medium-term trends? Immediate triggers? Test each by asking: If we removed one cause, would the event still have happened?
 
+## Common Misconceptions
+- The most dramatic event right before something happened is its cause. (An immediate trigger like an assassination sets off conditions already in place, and it explains timing more than the outcome's scale.)
+- Recognizing structural causes means the outcome was inevitable. (Structure sets a range of possible outcomes; decisions and chance events shape which one occurs.)
+- Contingency means history is random and cannot be explained. (Contingent choices happen within constraints, so historians can explain both the range of options and the path taken.)
+- A good explanation lists as many causes as possible. (Listing causes without ranking them or showing how they interact explains little; the analytical work is in weighing them.)
+
 ## Questions
 
 ```yaml

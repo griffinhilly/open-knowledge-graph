@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Intellectual history traces the development of ideas, concepts, and arguments across time by examining the intellectual traditions thinkers inherited, the problems they addressed, and how their ideas circulated and changed meaning in new contexts. Tracking concepts like 'freedom' or 'progress' through history reveals shifting understandings and historically specific assumptions. This approach distinguishes the history of what was thought from the history of reality.
 
+## How It's Best Learned
+Pick one concept and one later thinker who used it, then trace backward through the evidence of transmission: which editions or translations the thinker owned or cited, and which predecessors they named. Draw the result as a branching diagram, with each node labeled by the problem that thinker was trying to solve. The diagram should show the concept changing at each step.
+
+## Common Misconceptions
+- An idea's first or original meaning is its true meaning, and later uses distort it. (Genealogy treats later transformations as part of the concept's history; no one stage is the authentic version.)
+- When a later thinker cites an earlier one, they took over the earlier idea intact. (Readers meet texts through particular editions and debates, and they reshape what they borrow to fit their own problems.)
+- Finding a modern idea in an ancient text shows the ancient thinker anticipated it. (Such resemblances often come from reading the old text through modern categories rather than its own debates.)
+- Intellectual history is about great thinkers in isolation. (Tracing genealogies depends on networks, translations, correspondence and reading practices that link thinkers to their contexts.)
+
 ## Questions
 
 ```yaml

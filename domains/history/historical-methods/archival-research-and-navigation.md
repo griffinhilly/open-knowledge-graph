@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Archives organize and preserve primary source documents; learning to navigate them is essential for serious historical research. Archives are organized by provenance (who created documents), not topic, so you must think creatively about where your sources might be. Understanding finding aids, collection organization, and preservation issues helps you work effectively.
 
+## How It's Best Learned
+Pick a concrete research question and, before opening any catalog, list every institution or person who would have created a record touching it: courts, ministries, businesses, charities, families. Then open a real online finding aid for one of those creators and trace it from fonds to series to a single file. Note which series you expected and could not find.
+
+## Common Misconceptions
+- An archive is arranged like a library, so I can search it by subject. (Archives are arranged by provenance, keeping each creator's records together, so you search by who made the records.)
+- A finding aid lists everything I need to know about a collection. (Finding aids describe collections at varying levels of detail, and many files are described only as a group.)
+- If my topic is not in one archive, the records do not exist. (Records on a topic that crosses institutions are often spread across several archives held by different organizations.)
+- Records are kept in whatever order is most useful to researchers. (Archives try to preserve the original order chosen by the creator, because that order shows how the creator understood its own work.)
+
 ## Questions
 
 ```yaml

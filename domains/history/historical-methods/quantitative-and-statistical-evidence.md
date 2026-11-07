@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Numbers—census data, tax records, trade statistics, casualty counts—are sources requiring careful interpretation. Quantitative evidence reveals large-scale patterns and provides argumentative weight, but numbers are not objective; they reflect what was counted, how, and by whom. Statistical analysis has power; statistical misuse misleads as much as any bad evidence.
 
+## How It's Best Learned
+Take one historical table, such as a census page or a tax roll, and before using any figure, write down four things: who made it, for what purpose, what unit it counted, and who fell outside that unit. Then state one claim the numbers support at the group level and one individual-level claim they cannot support. Check whether the categories changed between two dates you compare.
+
+## Common Misconceptions
+- Numbers are more objective than written descriptions. (Every count reflects choices about what to count and who to include, made by an institution with its own purposes.)
+- A record of households or baptisms tells you the population or birth rate. (Such records count fiscal or church units, so the historian must adjust for people they left out.)
+- A pattern across counties or towns shows how individuals in them behaved. (Inferring individual behavior from group data is the ecological fallacy; group figures describe groups.)
+- A change in a census category over time shows a change in the population. (When category definitions change, part or all of the shift may come from reclassification.)
+
 ## Questions
 
 ```yaml

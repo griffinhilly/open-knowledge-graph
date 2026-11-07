@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Recording and transcribing oral testimony requires structured but open-ended questions, attentiveness to memory processes, awareness of power dynamics between interviewer and narrator, and explicit consent and archival protocols. The historian's presence shapes what is remembered and how it is told; interpretation must account for these influences.
 
+## How It's Best Learned
+Write ten questions for a short interview about a shared event, such as a local flood or a school closing, then rewrite every leading or yes-no question as an open prompt. Run the interview, counting silently to five after each answer before you speak. Afterward, mark in the transcript where the narrator added detail after a pause and where your wording steered the answer.
+
+## Common Misconceptions
+- A good interviewer fills every pause to keep the conversation moving. (Waiting through a silence often prompts narrators to add their most revealing material.)
+- Specific yes-or-no questions get more accurate testimony. (Closed and leading questions push narrators toward the interviewer's assumptions; open prompts let them set their own priorities.)
+- A neutral, professional manner removes the interviewer's influence. (Age, class, race, gender and institutional ties shape what narrators share, so the interviewer should record and account for them.)
+- Consent and archiving are paperwork to finish after the interview. (These protocols set what the narrator agrees to and protect them, so they are part of the method.)
+
 ## Questions
 
 ```yaml

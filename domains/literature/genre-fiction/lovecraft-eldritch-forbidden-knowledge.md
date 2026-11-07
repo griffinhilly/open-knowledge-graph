@@ -20,6 +20,15 @@ status: draft
 ## Core Idea
 H.P. Lovecraft created a shared universe featuring incomprehensibly vast entities and forbidden texts that drive readers mad. His horror emphasizes humanity's cosmic insignificance and the danger of forbidden knowledge. The Cthulhu Mythos has profoundly influenced horror, fantasy, and cosmic fiction for over a century.
 
+## How It's Best Learned
+Read "The Call of Cthulhu" and list each source the narrator learns from: his dead great-uncle's papers, a sculptor's clay relief, a police inspector's account, a sailor's manuscript. Note that the narrator never meets the entity and pieces the truth together from documents. Then ask why Lovecraft delivers his horror through secondhand texts rather than a direct encounter.
+
+## Common Misconceptions
+- Lovecraft's entities are evil monsters bent on destroying humanity. (They are better described as indifferent. The horror lies in how little humans matter to them, not in malice.)
+- Lovecraft planned the Cthulhu Mythos as a system under that name. (August Derleth popularized the name after Lovecraft's death, and other writers, during his life and after, expanded the shared world.)
+- Lovecraft's horror depends on describing monsters in graphic detail. (He often withholds description, calling things indescribable, and builds dread through documents, rumors, and partial glimpses.)
+- The Necronomicon is a real ancient book. (Lovecraft invented it. Its invented history is part of how he made forbidden lore feel real.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +64,7 @@ H.P. Lovecraft created a shared universe featuring incomprehensibly vast entitie
 
 - question: How does the concept of 'cosmic insignificance' function as a source of horror? Why is humanity's smallness in the universe frightening?
   type: short-answer
+  answer: Cosmic insignificance removes the belief that human life, values, and survival matter to the universe. The fear is less of being killed than of learning that existence is meaningless and indifferent, a truth that no heroism or virtue can change.
   explanation: A good answer should recognize that cosmic insignificance undermines the human sense of importance, meaning, and control. If humanity is tiny and insignificant in a vast universe populated by incomprehensible entities, then human concerns, values, and survival are fundamentally unimportant. This creates existential horror—not fear of death but fear of meaninglessness. Traditional horror asks 'will I survive?' Cosmic horror asks 'does my survival matter?' Students should understand this as philosophical horror grounded in existential dread.
 ```
 

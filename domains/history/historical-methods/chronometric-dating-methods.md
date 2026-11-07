@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Absolute and relative dating situate events and artifacts in time. Relative methods (stratigraphy, typology, paleography) establish sequence without precise dates. Absolute methods (radiocarbon, dendrochronology, historic calendars) assign calendar years. Every dating technique has margins of error, assumptions about preservation, and potential for contamination or misinterpretation.
 
+## How It's Best Learned
+Draw a simple section with four layers, A at the top to D at the bottom. Place a coin first minted in 50 CE in layer C, and charcoal radiocarbon dated to about 200 BCE in layer B above it. Work out that the coin means C and everything above it formed after 50 CE. Then list explanations for the older charcoal, such as old wood or redeposited material.
+
+## Common Misconceptions
+- Radiocarbon dating gives the exact year an object was made. (It estimates when the organism died, as a range with uncertainty, and the object may have been made or used much later.)
+- Relative dating is a weaker, outdated version of absolute dating. (Relative methods answer a different question, the order of events, and absolute dates often depend on that order to be interpreted.)
+- A datable object dates the layer it was found in. (An object shows only that the layer formed no earlier than the object, since heirlooms and disturbed deposits can place old objects in younger layers.)
+- When two methods disagree, one of them must simply be wrong. (A disagreement can reveal real features of the site, such as reused timber, contamination or disturbance.)
+
 ## Questions
 
 ```yaml
@@ -42,7 +51,7 @@ Absolute and relative dating situate events and artifacts in time. Relative meth
     - "Treat the conflict as evidence to investigate: check for old-wood effect, reused timber, or contamination, and report both dates with their assumptions"
     - "Average the two dates to produce a best estimate of approximately 1090 BCE"
   answer: 2
-  explanation: "When methods conflict, that conflict is itself important evidence — not a problem to paper over by choosing the 'better' method. The radiocarbon date could reflect old-wood effect (the beam came from inner rings of a long-lived tree that died long before the tree was felled) or reused timber from an older structure. Dendrochronology measures the felling year precisely but requires a matching ring sequence. The correct response is to investigate the source of the discrepancy and report both results honestly, which is itself an informative finding."
+  explanation: "When methods conflict, that conflict is itself important evidence — not a problem to paper over by choosing the 'better' method. The radiocarbon date could reflect old-wood effect (the sample came from inner rings of a long-lived tree, which formed long before the tree was felled) or reused timber from an older structure. Dendrochronology measures the felling year precisely but requires a matching ring sequence. The correct response is to investigate the source of the discrepancy and report both results honestly, which is itself an informative finding."
 
 - question: "Radiocarbon dating directly measures the calendar year when an artifact was made or used, giving a precise absolute date with no margin of error."
   type: true-false

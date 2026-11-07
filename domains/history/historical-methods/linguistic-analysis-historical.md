@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Language itself is a historical artifact—the words available to people, their changing meanings, rhetorical conventions, and discourse patterns reveal historical assumptions and structures of thought. Analyzing vocabulary changes, metaphors, argument structures, and textual genres in historical documents provides insight into mentalities, power relations, and historical consciousness. This approach examines how meaning is constructed linguistically rather than treating language as transparent.
 
+## How It's Best Learned
+Take a one-page document from before 1800 and circle every word that looks modern. Look up each in a historical dictionary such as the Oxford English Dictionary, which dates its senses, and note any sense that differs from today's. Then name the document's genre and list the authorities it had to cite. Reread it with those meanings and rules in view, and note what changed.
+
+## Common Misconceptions
+- A word spelled the same as a modern word means the same thing. (Many familiar words have shifted meaning, so each key term needs checking against usage from its own period.)
+- Language is a neutral container for facts, so a historian only needs the content. (Word choice, genre and argument conventions are evidence in themselves about what people could think and say.)
+- Looking up a word's etymology settles what it meant in a document. (Etymology shows where a word came from; its meaning in a text depends on how people used it at that time.)
+- The genre of a document is a matter of format. (Genre signals what kind of claim is being made and what rules of argument apply to it.)
+
 ## Questions
 
 ```yaml

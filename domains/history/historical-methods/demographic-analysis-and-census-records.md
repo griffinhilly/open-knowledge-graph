@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 Census records and demographic data reveal population size, growth rates, household composition, occupations, and mortality. Yet historical censuses are incomplete, variously biased (excluding servants, enslaved people, women's actual occupations), and defined differently across regions and time. Careful reconstruction accounts for undercounting and changing definitions.
 
+## How It's Best Learned
+Before using any census table, read the enumerator instructions for that year and list each category the enumerator had to fill in. Then compute one indicator yourself: a frontier town listing 1,200 men and 800 women has a sex ratio of 150 men per 100 women. Ask what migration or labor pattern might produce that figure, and which groups the instructions suggest were likely missed.
+
+## Common Misconceptions
+- Census figures are hard facts because they are numbers. (Census counts carry the biases of how and why they were collected, and rates calculated from them inherit those biases.)
+- If the census shows few women with occupations, few women worked. (Enumerators often recorded women as "keeping house," which hid paid and unpaid work done outside formal job categories.)
+- A census category means the same thing from one census to the next. (Definitions of occupation, household and race changed across years and places, so comparisons need checking against each census's instructions.)
+- The people a census misses are a small rounding error. (Undercounting fell hardest on groups with little contact with the state, such as migrants, servants and the poor, so the gaps are patterned, not random.)
+
 ## Questions
 
 ```yaml

@@ -20,6 +20,15 @@ status: draft
 ## Core Idea
 Mystery writers employ sophisticated techniques to hide solutions while maintaining fair play. Red herrings and misdirection work through point-of-view manipulation, selective detail, false emphasis, and psychological suggestion. Effective mysteries balance multiple suspects while guiding attention toward the true culprit.
 
+## How It's Best Learned
+Finish a classic puzzle mystery, then reread it to find every true clue. Label how each was hidden: buried in a list of ordinary details, placed just before an exciting event, filtered through a narrator's framing, or drowned out by a louder false clue. Christie's The Murder of Roger Ackroyd rewards this, since much of its misdirection comes from point of view. Then hide one clue yourself in a short scene and test it on a reader.
+
+## Common Misconceptions
+- Misdirection means lying to the reader. (In a fair-play mystery, the narration states nothing false about the facts. Characters may lie, but the author misleads through placement, emphasis, and framing.)
+- The most suspicious character is never the culprit. (Writers know readers expect this, and some exploit it with a double bluff in which the obvious suspect is guilty after all.)
+- A clue is best hidden by mentioning it as little as possible. (Leaving it out breaks fair play. A clue stated plainly but buried among trivia or placed before a dramatic moment can hide better than a vague hint.)
+- A red herring is simply a false clue. (A good red herring is often a real fact with an innocent explanation revealed later. What misleads is its first, wrong reading.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +64,7 @@ Mystery writers employ sophisticated techniques to hide solutions while maintain
 
 - question: How do 'selective detail' and 'false emphasis' work as misdirection techniques? Give an example of how emphasizing something irrelevant can misdirect readers.
   type: short-answer
+  answer: Readers assume that richly described or heavily investigated details matter, so the author lavishes attention on irrelevant ones and mentions the real clue briefly. For example, the detective spends chapters tracing an expensive watch as the motive, while the real clue is a passing remark that readers skim past.
   explanation: 'A good answer should recognize that selective detail means describing some suspects or clues in rich detail while treating others sparsely, which can misdirect because readers often assume detailed description indicates importance. False emphasis means treating an irrelevant detail in ways that suggest importance (investigating it thoroughly, having characters react to it emotionally), causing readers to wrongly assume it matters. Example: A victim''s expensive watch is described in elaborate detail, the detective investigates who knew the victim had it, readers assume it''s the motive—but the actual motive is unrelated and the watch is misdirection. Students should understand these techniques work on reader psychology, not information withholding.'
 ```
 

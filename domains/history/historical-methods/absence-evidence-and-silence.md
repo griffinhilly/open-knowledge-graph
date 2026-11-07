@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 The archive is not neutral; some voices, experiences, and events are better documented than others. Silences in the record can be as informative as what is explicitly recorded—they point to whose experiences were considered worth preserving. Historians must ask not just 'what does this source tell us?' but 'whose perspective is missing?' and 'why?'
 
+## How It's Best Learned
+Take one dominant-group record, such as a plantation ledger or a court case file, and list every group of people it mentions. Then list who appears only as an object of the record and who never appears. For each gap, decide whether it is more likely an accidental loss or a structural silence, and write one sentence on what the record reveals about the missing group despite itself.
+
+## Common Misconceptions
+- If there are no records of something, it probably did not happen. (Absence of documentation can reflect who kept records and what they thought worth keeping, so a missing record is weak evidence of a missing event.)
+- Every gap in the archive tells us something about power. (Some gaps are accidental, caused by fire, flood or neglect, and carry little interpretive meaning on their own.)
+- Sources written by dominant groups are useless for studying people they excluded. (Read against the grain, such sources can reveal the beliefs, resistance and daily lives of people who did not write them.)
+
 ## Questions
 
 ```yaml

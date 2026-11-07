@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Ursula K. Le Guin's fiction uses diverse human societies and alien worlds as thought experiments in anthropology, gender, politics, and ethics. Her work prioritizes exploring alien perspectives and cultural systems through speculative world-building, using fictional societies to examine real social questions.
 
+## How It's Best Learned
+Read The Left Hand of Darkness with two columns. In one, list each assumption about gender that the envoy Genly Ai brings to Gethen. In the other, note where the story unsettles it. Pay close attention to the inserted field report on Gethenian sexuality, which reads like an anthropologist's notes. Then ask which of Genly's assumptions you shared.
+
+## Common Misconceptions
+- Le Guin presents her invented societies as ideals for readers to adopt. (She usually shows them with their own costs and flaws. The Dispossessed is subtitled "An Ambiguous Utopia.")
+- A thought experiment in fiction is an essay with a plot attached. (Le Guin works through characters and situations. Meaning comes from what happens to people, such as Genly's slowly changing view of Estraven.)
+- Because Le Guin focuses on society rather than technology, her world-building is less rigorous than hard SF. (Her rigor lies in working out how a premise, such as Gethenian biology, would shape kinship, politics, and daily life.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Ursula K. Le Guin's fiction uses diverse human societies and alien worlds as tho
 
 - question: How does creating an alien culture as a 'thought experiment' allow Le Guin to examine real social questions more effectively than direct social commentary would?
   type: short-answer
+  answer: An alien culture makes familiar arrangements strange, so readers see their own assumptions as choices rather than facts of nature. Because the society is fictional, readers can examine a question like gender without the defensiveness that direct commentary on their own society might provoke.
   explanation: A good answer should recognize that by creating genuinely alien perspectives and cultures, Le Guin can make the familiar strange—allowing readers to see their own assumptions as contingent rather than inevitable. A fictional alien culture with different gender relations, different political systems, or different ethical frameworks allows readers to ask 'why do we assume things must work this way?' Thought experiments provide distance that makes critique possible, making readers examine assumptions they'd take for granted in direct social commentary. Students should understand this as a sophisticated literary strategy for philosophical and political thought.
 ```
 
@@ -62,7 +71,7 @@ Ursula K. Le Guin's fiction uses diverse human societies and alien worlds as tho
 
 Ursula K. Le Guin revolutionized science fiction by treating alien worlds and fictional societies not as mere settings but as frameworks for rigorous philosophical and anthropological thought. Her work demonstrates that speculative fiction can be seriously intellectual—that imagining different social systems, different gender relations, different political structures can illuminate questions about how human society actually works. The fictional distance allows her to ask questions that might feel threatening or polemical if posed directly.
 
-Le Guin's approach to world-building is fundamentally anthropological. Rather than asking "what advanced technology would this civilization have?", she asks "how would a society with fundamentally different assumptions about gender, power, or ethics organize itself?" In The Left Hand of Darkness, she imagines a world where inhabitants are ambisexually, where gender doesn't determine social role, where reproduction itself carries different cultural weight. This alien society is not presented as superior or inferior to human society but as different—and that difference makes human assumptions about gender and sexuality visible. We see how contingent our own gender relations are, how many things we assume are "natural" are actually cultural.
+Le Guin's approach to world-building is fundamentally anthropological. Rather than asking "what advanced technology would this civilization have?", she asks "how would a society with fundamentally different assumptions about gender, power, or ethics organize itself?" In The Left Hand of Darkness, she imagines a world where inhabitants are ambisexual, where gender doesn't determine social role, where reproduction itself carries different cultural weight. This alien society is not presented as superior or inferior to human society but as different—and that difference makes human assumptions about gender and sexuality visible. We see how contingent our own gender relations are, how many things we assume are "natural" are actually cultural.
 
 The power of this approach is that it avoids didacticism. Le Guin doesn't tell readers "your society is wrong"; she creates societies with different structures and lets readers think through the implications. What would warfare look like in a society without gender-based physical dimorphism? How would economics function in a culture that valued cooperation over competition? How would communication work across cultures with fundamentally different values? These questions emerge naturally from the fictional thought experiment rather than being imposed by the author.
 

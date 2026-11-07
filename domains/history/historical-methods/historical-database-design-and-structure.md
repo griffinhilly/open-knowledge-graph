@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Transforming historical sources into databases requires decisions about what to record, how to standardize messy data, how to represent uncertainty and contradiction, and what metadata to preserve. Database design embeds historical choices and assumptions; poorly designed databases can erase ambiguity or enforce false precision on partial evidence.
 
+## How It's Best Learned
+Design the record for one messy entry before building anything large. For a baptism noted as "Jno. Smyth s. of Wm. Smyth, bapt. abt. Michaelmas 1643," create fields for the name as written, a normalized name, the date as written, an earliest and latest date, a confidence flag and a source reference. Then enter ten real entries and revise the fields wherever an entry does not fit.
+
+## Common Misconceptions
+- Cleaning the data means replacing old spellings with modern ones. (Keeping the original text in one field and a normalized form in another preserves the evidence and lets others check your choices.)
+- An estimated date should be stored as a single year so it can be sorted. (Storing a guess as an exact year creates false precision; a date range or confidence field keeps the uncertainty visible.)
+- Dropping incomplete records makes the dataset more reliable. (The people with incomplete records are often the poor and mobile, so dropping them biases the sample toward the well-documented.)
+- Dates in old records can be read straight into a modern calendar. (Calendar systems differed; in England before 1752 the legal year began on 25 March, so a record dated February 1643 falls in what we now call 1644.)
+
 ## Questions
 
 ```yaml

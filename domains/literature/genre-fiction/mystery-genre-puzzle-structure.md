@@ -66,6 +66,7 @@ Fair play mysteries are not less sophisticated than psychological mysteries; the
 
 - question: How do red herrings function in a fair play mystery? Why are they acceptable deception even though readers are supposed to see everything?
   type: short-answer
+  answer: A red herring is a clue or suspect placed in plain view that invites the wrong interpretation. It is fair because nothing is withheld; the author misleads through emphasis and framing, and an attentive reader could still see that it does not fit.
   explanation: A good answer should recognize that red herrings aren't hidden information but misdirection—the clues are present and visible, but readers (and the detective) interpret them incorrectly. A red herring is fair because it's not withheld; it's just not what it appears. This is different from crucial information being hidden. Fair play allows the author to mislead through interpretation and emphasis, not through information hiding. Students should understand that this distinction between 'hiding information' and 'misdirecting interpretation' is fundamental to fair play mystery craft.
 ```
 

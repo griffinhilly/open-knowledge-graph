@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 Literary texts—poems, plays, novels—encode historical attitudes, anxieties, and aspirations even when they depict imaginary worlds. Historians read literature not as factual record but as evidence of what people imagined, feared, valued, and took for granted. Literary form, genre conventions, and intended audience shape interpretation.
 
+## How It's Best Learned
+Read one chapter of a period novel next to a non-literary source on the same subject, such as a reformer's report on poverty. Mark what each takes for granted, which characters or groups each treats as normal, and what reaction each expects from its reader. The comparison shows what kind of evidence fiction supplies that the report does not, and the reverse.
+
+## Common Misconceptions
+- Fiction is made up, so it has no value as historical evidence. (Fiction shows what its audience found plausible, moving or funny, which is evidence of attitudes and assumptions.)
+- A realistic novel can be used as a factual record of the conditions it describes. (Novels shape their material for effect, so their details need checking against other sources before use as facts.)
+- A stereotyped portrayal in fiction tells us what the people portrayed were like. (A stereotyped portrayal is better evidence about the author and readers who found it acceptable.)
+- Genre is a neutral container for the story. (Genre conventions set what a text could do, so conformity and departure from them are both evidence.)
+
 ## Questions
 
 ```yaml

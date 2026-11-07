@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Reception history studies how ideas, texts, and cultural products were understood, interpreted, and transformed as they circulated across time and space. A text or idea means different things to different audiences in different contexts—reception history traces these varying interpretations. This approach reveals how meaning is actively created by readers and audiences rather than fixed by authors at the moment of creation.
 
+## How It's Best Learned
+Pick one short, much-read text and gather three readings of it from different periods, such as a review, a commentary and a school edition's notes. For each, record what the reader already knew, which genre they assumed, and what question they brought. Then explain each reading from that horizon without ranking them as right or wrong.
+
+## Common Misconceptions
+- A reader who departs from the author's intent has simply misunderstood the text. (Reception history treats such readings as historical events that shaped later thought and reveal the reader's world.)
+- Later readers get closer to the true meaning of a text. (Modern readings are also shaped by their own horizon; they are differently situated, not neutral.)
+- Reception history means any reading is as good as any other. (It studies why readings arose and what they did; historians can still say what an author likely intended.)
+- Reception history is about texts only. (The method also applies to art, music, ritual and objects, and to how audiences understood them over time.)
+
 ## Questions
 
 ```yaml

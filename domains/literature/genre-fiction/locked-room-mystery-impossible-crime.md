@@ -23,6 +23,14 @@ status: draft
 ## Core Idea
 The locked-room mystery presents a crime (usually murder) that seems impossible: committed in a sealed space with no apparent means of entry, exit, or concealment. These puzzles demand creative logical thinking to explain: secret passages, psychological manipulation, timing tricks, or outright fantastic elements. The locked room represents the ultimate constraint, transforming the mystery into a pure logic problem.
 
+## How It's Best Learned
+Before reading the solution of a locked-room story, write out each assumption that makes the crime look impossible: the door was locked from inside, the death happened while the room was sealed, the victim died where found. Test each assumption against the clues. Poe's "The Murders in the Rue Morgue" works well, since its solution turns on a window that only seemed fastened.
+
+## Common Misconceptions
+- The sealed room makes the puzzle easier, since the killer must have been inside. (The seal removes the obvious explanations and forces a close look at every assumption, such as the time of death, so it usually makes the puzzle harder.)
+- The answer to a locked-room mystery is usually a secret passage. (Many classic solutions instead overturn an assumption about timing, about who locked the door, or about whether the room was ever truly sealed. Many readers consider a secret passage a weak solution.)
+- Locked-room solutions are purely mechanical tricks. (Many depend on misleading witnesses, and the reader, about what they saw and when, which is a psychological trick as much as a physical one.)
+
 ## Questions
 
 ```yaml
@@ -58,6 +66,7 @@ The locked-room mystery presents a crime (usually murder) that seems impossible:
 
 - question: How does the locked room as a 'constraint' transform the mystery genre? What does this add or change compared to mysteries without this constraint?
   type: short-answer
+  answer: The sealed room rules out the ordinary explanations, so the question shifts from who did it to how it was possible. Readers must question every assumption, such as the time of death or whether the room was truly sealed, which makes the mystery a tighter and more demanding logic puzzle.
   explanation: A good answer should recognize that the locked room eliminates many possible explanations (no one could have entered, so how was it done?) and forces the reader to think more creatively. The constraint makes the puzzle more intellectually demanding. It shifts focus from investigation in a large space to logical deduction within tight constraints. Students should understand that constraints actually enable more interesting problems rather than limiting them—the puzzle is more elegant and more intellectually challenging.
 ```
 

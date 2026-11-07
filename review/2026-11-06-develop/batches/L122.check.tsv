@@ -1,0 +1,61 @@
+domains/computer-science/compilers/abstract-syntax-trees.md	how	3	0	ok
+domains/computer-science/compilers/abstract-syntax-trees.md	mis	8	0	ok
+domains/computer-science/compilers/activation-records-runtime.md	mis	8	0	ok
+domains/computer-science/compilers/ad-hoc-polymorphism-overloading.md	how	5	0	ok	worked f(1)->int, f(1.0f)->double (promotion), f('a')->int (promotion), foo(1,2) ambiguous: all correct
+domains/computer-science/compilers/ad-hoc-polymorphism-overloading.md	mis	8	1	fixed	ambiguity rule "no candidate is best on every argument" misstates C++ ranking (a candidate tying on one arg and winning another is chosen); restated as at-least-as-good on every argument and better on one
+domains/computer-science/compilers/alias-analysis.md	how	4	0	ok	worked f(&x,&x) returns 2: correct
+domains/computer-science/compilers/alias-analysis.md	mis	8	0	ok
+domains/computer-science/compilers/array-subscript-optimization.md	mis	8	0	ok
+domains/computer-science/compilers/bytecode-and-vm-design.md	how	4	0	ok	stack (6) and register (2) instruction counts check out
+domains/computer-science/compilers/bytecode-and-vm-design.md	mis	8	0	ok
+domains/computer-science/compilers/code-generation.md	how	5	1	fixed	worked exercise: with only two registers the load of c cannot be hoisted to fill the stall, so "reorder loads to fill stall slots" fails as written; now says try it and notes a third register is needed
+domains/computer-science/compilers/code-generation.md	mis	8	0	ok
+domains/computer-science/compilers/code-optimization.md	how	4	0	ok	worked fragment folds to return 2: correct
+domains/computer-science/compilers/code-optimization.md	mis	8	0	ok	note: new bullet (UB, fast-math) is more accurate than old q:1 explanation ("no exceptions"); old left as is
+domains/computer-science/compilers/common-subexpression-elimination.md	how	4	0	ok	worked diamond: a+b unavailable at B4, available after deleting a=0: correct
+domains/computer-science/compilers/common-subexpression-elimination.md	mis	8	0	ok
+domains/computer-science/compilers/compiler-bootstrapping.md	how	4	0	ok
+domains/computer-science/compilers/compiler-bootstrapping.md	mis	8	0	ok
+domains/computer-science/compilers/compiler-bootstrapping.md	old:Questions q:1	1	1	fixed	fixed-point check compared N+1 (built by old compiler N) with N+2; these legitimately differ. Stem, option and explanation now compare N+2 with N+3
+domains/computer-science/compilers/compiler-bootstrapping.md	old:Explainer	1	1	fixed	same N+1 vs N+2 fixed-point error; now N+2 vs N+3. Also noted, not edited: "GCC originally bootstrapped from a Pastel compiler" is doubtful (Stallman abandoned the Pastel compiler and wrote GCC in C)
+domains/computer-science/compilers/compiler-error-recovery.md	mis	8	0	ok
+domains/computer-science/compilers/constant-propagation.md	how	5	0	ok	worked loop: naive analysis gives NAC at header, SCCP keeps x=1: correct
+domains/computer-science/compilers/constant-propagation.md	mis	8	1	fixed	"every path that reaches the use must agree" contradicted the How section's SCCP case (an unreachable x=2 does not count); now "every path that can reach"
+domains/computer-science/compilers/constraint-based-type-checking.md	how	5	0	ok	worked twice: (b->b)->b->b correct; g gives bool/int conflict as intended
+domains/computer-science/compilers/constraint-based-type-checking.md	mis	8	0	ok
+domains/computer-science/compilers/context-free-grammars-compiler-design.md	how	4	1	fixed	exercise uses a - b - c and rewrites "the subtraction rule", but the file's Expr/Term/Factor grammar has no subtraction; added Expr -> Expr - Term
+domains/computer-science/compilers/context-free-grammars-compiler-design.md	mis	8	0	ok
+domains/computer-science/compilers/control-flow-graphs.md	how	4	0	ok	worked: four leaders/blocks, back edge body->if block: correct
+domains/computer-science/compilers/control-flow-graphs.md	mis	8	0	ok
+domains/computer-science/compilers/dataflow-analysis.md	how	5	0	ok	worked liveness: pass 2 gives in[B3]={b,c}, pass 3 no change: correct
+domains/computer-science/compilers/dataflow-analysis.md	mis	8	0	ok
+domains/computer-science/compilers/dead-code-elimination.md	how	5	0	ok	worked: print block, t, then debug all dead; f(x) call kept: correct
+domains/computer-science/compilers/dead-code-elimination.md	mis	8	0	ok
+domains/computer-science/compilers/dead-code-elimination.md	old:Explainer	1	1	fixed	unreachable = "no predecessors (other than entry)" contradicted the new reachability bullet and is wrong for unreachable cycles; now "no path from the entry reaches"
+domains/computer-science/compilers/dead-code-elimination.md	old:Questions q:3	1	1	fixed	explanation said unreachable = "no predecessors other than itself"; now "no path from the entry block reaches it"
+domains/computer-science/compilers/dependent-types-programming.md	how	4	0	ok	worked append: dropped head gives type error; n + m needs a proof in the nil case: correct
+domains/computer-science/compilers/dependent-types-programming.md	mis	6	0	ok
+domains/computer-science/compilers/dependent-types-programming.md	old:Explainer	1	1	fixed	said the simply-typed lambda calculus has types depending on types ("parametric polymorphism"); STLC has neither. Restated with extensions (polymorphism = terms on types, type operators = types on types). Old q:3 explanation has the same mix-up; noted, not edited
+domains/computer-science/compilers/domain-specific-language-design.md	how	4	0	ok
+domains/computer-science/compilers/domain-specific-language-design.md	mis	8	1	fixed	absolute "each general feature ... weakens the domain checks"; softened to "general features ... can weaken"
+domains/computer-science/compilers/escape-analysis.md	how	4	0	ok
+domains/computer-science/compilers/escape-analysis.md	mis	8	0	ok
+domains/computer-science/compilers/exception-handling-compilation.md	how	5	0	ok
+domains/computer-science/compilers/exception-handling-compilation.md	mis	8	0	ok
+domains/computer-science/compilers/fixpoint-computation.md	how	4	0	ok	worked interval iteration and widening to [0,+inf]: correct
+domains/computer-science/compilers/fixpoint-computation.md	mis	6	0	ok	note: old q:2 explanation (start at bottom = sound, top = unsound) is muddled for must-analyses; left as is
+domains/computer-science/compilers/functional-programming-paradigm.md	how	4	0	ok	worked [1,2,3,4] -> [2,4] -> [4,16] -> 20: correct
+domains/computer-science/compilers/functional-programming-paradigm.md	mis	8	1	fixed	correction about tail calls implicitly denied a belief that is true for non-tail recursion; added the qualifier
+domains/computer-science/compilers/garbage-collection-algorithms.md	how	4	0	ok
+domains/computer-science/compilers/garbage-collection-algorithms.md	mis	8	0	ok
+domains/computer-science/compilers/generics-and-specialization.md	how	4	0	ok
+domains/computer-science/compilers/generics-and-specialization.md	mis	8	0	ok
+domains/computer-science/compilers/gradual-typing-systems.md	how	5	1	fixed	worked: in Typed Racket a value of type Any cannot be passed to a Number parameter (static error), and TypeScript may not fail at all; rewrote the last step as untyped-module-to-typed call in Typed Racket and "where, and whether, each fails"
+domains/computer-science/compilers/gradual-typing-systems.md	mis	8	0	ok
+domains/computer-science/compilers/hindley-milner-type-system.md	how	5	0	ok	worked compose type (b->c)->(a->b)->a->c: correct
+domains/computer-science/compilers/hindley-milner-type-system.md	mis	8	0	ok
+domains/computer-science/compilers/hindley-milner-type-system.md	q:4:explanation	1	1	fixed	said inference with the rank-2 type is undecidable; rank-2 inference is decidable (Kfoury-Wells), undecidability holds at arbitrary rank. Restated
+domains/computer-science/compilers/inlining-heuristics.md	mis	8	0	ok	note: new bullet "tiny bodies shrink code when inlined" conflicts with old q:0/q:2, which say inlining a 3-instruction getter at 800 sites bloats the binary (q:0 explanation also calls option C the right approach). Old questions need a rewrite; not edited
+domains/computer-science/compilers/instruction-selection-techniques.md	mis	6	0	ok
+domains/computer-science/compilers/intermediate-code-representation.md	how	4	0	ok
+domains/computer-science/compilers/intermediate-code-representation.md	mis	6	0	ok

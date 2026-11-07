@@ -22,6 +22,9 @@ status: validated
 ## Core Idea
 Historians make arguments—claims about what happened, why, and what it means. Reading historiography critically means identifying the historian's central claim, tracing how they support it with evidence, recognizing what assumptions they make, and asking what alternatives they dismissed. Good historiography responds to and advances conversation in the field.
 
+## How It's Best Learned
+Take one scholarly article and map its argument on a single page: the claim, which earlier historians it disagrees with, three pieces of evidence, and the unstated premise linking each piece to the claim. Then do the same for an article that reaches a different conclusion on the same topic. Lay the two maps side by side and mark whether they diverge on evidence, on assumptions, or on the question asked.
+
 ## Common Misconceptions
 - Thinking that historiographical disagreement means one historian is simply wrong; competing interpretations often rest on different values, questions, or evidence.
 

@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Every historical source reflects the perspective, biases, and limitations of its creator and original audience. Credibility assessment requires understanding provenance, authorial intent, and what was omitted alongside what was recorded. Historians evaluate reliability through corroboration, contextual analysis, and explicit recognition that bias does not render a source useless—it provides evidence of what people believed, feared, or wanted others to think.
 
+## How It's Best Learned
+Take one partisan source, such as a wartime pamphlet, and split a page into two columns. In the first, list claims it makes about events, and mark which ones another source with different interests confirms. In the second, list what it reveals about its author's fears, audience and rhetoric. Circle any admission that cuts against the author's own side, since those carry extra weight.
+
+## Common Misconceptions
+- A biased source should be thrown out. (Bias changes what a source can tell you; a partisan account is strong evidence of its author's views and audience.)
+- Some sources, like private letters or official records, are free of bias. (Every source was made by someone for a purpose, so each one needs the same questions about intent and audience.)
+- An eyewitness account is reliable because the author was there. (Being present gives access, but eyewitnesses also had interests, limited views and fallible memories.)
+- If several sources agree, the claim is proven. (Agreement strengthens a claim most when the sources are independent and have different interests; copies of one account add little.)
+
 ## Questions
 
 ```yaml

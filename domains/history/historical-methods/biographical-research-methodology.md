@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Writing biography demands gathering scattered traces—letters, documents, testimony—reconstructing a coherent life from fragments, and interrogating whose lives survive in the archive. Biographical practice raises questions about individual agency, historical forces, memory, and whose stories deserve sustained attention.
 
+## How It's Best Learned
+Build a source map for one person before writing anything. Make a timeline of their life and, for each year, list which sources mention them, who created each source, and why. Mark the periods covered only by records others made about them. Then pick one event attested by two sources that disagree and write a paragraph explaining the gap instead of choosing a winner.
+
+## Common Misconceptions
+- A subject's own letters and diaries give the truest picture of them. (Letters and diaries are written for readers, including the writer's future self, so they present a curated version of the person.)
+- More sources make a biography easier to write. (Abundant sources bring more contradictions and more self-presentation to work through, so the interpretive work changes rather than shrinks.)
+- If a person left no writings of their own, their biography cannot be written. (Biographers can reconstruct such lives from records made by others, such as court, church and estate records, by reading them against the grain.)
+- When two sources about a person conflict, the biographer's job is to decide which is right. (The conflict can itself be evidence, for example of how the subject wished to be seen versus how others saw them.)
+
 ## Questions
 
 ```yaml

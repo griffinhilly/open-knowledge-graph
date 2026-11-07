@@ -24,6 +24,15 @@ status: draft
 ## Core Idea
 High fantasy creates entirely separate worlds with their own laws, histories, and cosmologies. The genre demands internal consistency: magic systems, politics, and geography function according to internally coherent rules. High fantasy often features epic quests and moral struggles across complete secondary worlds.
 
+## How It's Best Learned
+Take one magical rule from a secondary-world novel and trace its effects through three systems: who controls it, what it changes in farming or trade, and what history it implies. Then compare a portal fantasy, where a character from Earth enters another world. Note how a native protagonist takes the world for granted, while a visitor's questions explain it to the reader.
+
+## Common Misconceptions
+- Any fantasy with magic and dragons counts as high fantasy. (High fantasy is set wholly in a secondary world. Magic hidden in our world is usually called contemporary or urban fantasy, and stories where Earth characters cross into another world are portal fantasy.)
+- Internal consistency means the world must obey our physics. (A secondary world can have its own laws. Consistency means those laws apply the same way every time.)
+- A detailed map and invented history make a world coherent. (Detail alone does not. Coherence comes from systems that affect one another, so that magic shapes politics and geography shapes travel and trade.)
+- High fantasy is pure escape with no bearing on the real world. (A secondary world lets an author examine power, morality, and belief at a distance, which can make those questions easier to see.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +68,7 @@ High fantasy creates entirely separate worlds with their own laws, histories, an
 
 - question: What is meant by a 'secondary world' in high fantasy, and how does this concept differ from other uses of fantasy setting?
   type: short-answer
+  answer: A secondary world is a complete, separate cosmos with its own laws, geography, history, and cosmology, unconnected to Earth. Urban fantasy places magic inside our world, and portal fantasy sends Earth characters into another world, while high fantasy stays entirely within the invented one.
   explanation: A good answer should recognize that a secondary world is not an alternate version of Earth or a hidden location within our world, but an entirely separate cosmos with its own physical laws, history, and cosmology. This differs from urban fantasy (magic in our world), dark fantasy (morally dark but still Earth-like), or portal fantasy (where Earth characters enter another world). High fantasy commits fully to exploring complete alternative realities. Students should understand that this wholeness creates particular narrative possibilities and obligations.
 ```
 

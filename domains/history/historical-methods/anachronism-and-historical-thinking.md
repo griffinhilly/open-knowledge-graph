@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Anachronism is interpreting past people or events using concepts, values, or knowledge that did not exist at the time. It is a constant risk: judging past morality by present standards, assuming past people had modern motivations, or applying contemporary categories to different contexts. Avoiding anachronism requires imaginatively understanding people on their own terms while remaining honest about real moral questions.
 
+## How It's Best Learned
+Take a short passage of modern writing about a past society and underline every concept in it, such as "economy," "nation," "childhood" or "sexuality." For each one, ask whether people at the time had that category and what word or framework they used instead. Then rewrite one sentence in terms the historical actors themselves could have recognized, and compare what each version lets you see.
+
+## Common Misconceptions
+- Avoiding anachronism means we cannot judge past people morally. (Historians can judge past actors, especially where contemporaries dissented or alternatives existed; the task is to judge them against the options they actually had.)
+- Anachronism is mostly about objects in the wrong period, like a wristwatch in a medieval scene. (The more consequential anachronisms are conceptual, such as assuming past people shared modern categories, motives or values.)
+- Any modern term applied to the past is an error. (Modern concepts can serve as analytical lenses if the historian is clear that the actors did not think in those terms.)
+- The past was heading toward our present. (People in the past did not know how things would turn out, and treating them as steps toward today erases the alternatives they faced.)
+
 ## Questions
 
 ```yaml

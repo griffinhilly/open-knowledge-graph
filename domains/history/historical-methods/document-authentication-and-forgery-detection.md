@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Authentication determines whether a document is genuinely from the claimed time, author, and context. Forgeries—accidental or deliberate—can mislead entire historical narratives. Detection relies on analyzing ink, paper, handwriting, linguistic patterns, historical impossibilities, and material evidence alongside documentary content.
 
+## How It's Best Learned
+Use a checklist with four separate columns: material, script, language and content. Apply it to a documented forgery case such as the Donation of Constantine, filling each column with what was checked and what it showed. Then try it on a document you invent: write a "medieval" charter with one deliberate anachronism hidden in each column and ask a partner to find all four.
+
+## Common Misconceptions
+- If the parchment or paper is truly old, the document is genuine. (A forger can write on old blank material, so ink, script, language and content still need independent checks.)
+- One decisive scientific test settles authenticity. (Authentication rests on several independent lines of evidence, because a forger who anticipates one test may still fail another.)
+- Every misattributed document is a deliberate forgery. (Some false attributions come from honest error, such as a copy taken for an original or a misdated or misfiled document.)
+- A forged document has no historical value. (A forgery can be good evidence of the period and purpose for which it was made, even if it says nothing true about its claimed date.)
+
 ## Questions
 
 ```yaml

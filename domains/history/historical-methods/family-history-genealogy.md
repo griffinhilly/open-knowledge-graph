@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Family history research uses genealogical evidence—vital records, kinship networks, inheritance patterns, marriage alliances—to understand social structures, economic strategies, and ordinary lives. Families serve as units of analysis revealing demographic change, social mobility, and how people navigated historical circumstances. Genealogy, when combined with contextual historical evidence, enables reconstruction of how ordinary people experienced historical forces.
 
+## How It's Best Learned
+Reconstitute one family by hand from parish entries: a marriage in 1820, baptisms of children in 1821, 1823 and 1826, and a child's burial in 1824. Compute the birth intervals (two and three years) and note which link rests on a name match alone. Then repeat for a few more families from the same register and compare the intervals against each other.
+
+## Common Misconceptions
+- Genealogy and family history are the same thing. (Genealogy traces descent, while family history uses linked family records to answer questions about social structure, economy and everyday life.)
+- If two records share a name and parish, they are the same person. (Names were often reused within families and communities, so links need checking against ages, spouses, parents or occupations.)
+- Parish and vital records cover everyone. (Women who changed surnames, enslaved people, migrants and religious minorities are often missing or hard to link, which can distort patterns.)
+- One family's story shows how families lived in that period. (A single family is a case, and structural claims need many reconstructed families.)
+
 ## Questions
 
 ```yaml
@@ -69,7 +78,7 @@ Family history research uses genealogical evidence—vital records, kinship netw
 
 From your work in biographical research and archival research, you already know how to locate sources and reconstruct individual lives. Family history extends those skills by expanding the unit of analysis from a single person to a kinship network — and in doing so, opens a window onto patterns that individual biography cannot see. A single person's marriage tells you about that person; hundreds of marriages across three generations in a parish register reveal marriage age, frequency of remarriage, social endogamy (marrying within a class or community), and how those patterns shifted under economic pressure or demographic crisis.
 
-The **core sources** of genealogical research are records created at the vital moments of the life cycle: birth (baptism registers), marriage (parish records, licenses, bans), and death (burial registers, probate records). From your demographic analysis work, you know how to read these records statistically. Family history uses them to reconstruct specific kinship ties — who was whose parent, sibling, spouse, child — and then asks what those ties can tell us about social life. A father's occupation entered in a baptism register allows you to trace whether sons followed fathers into the same trade. A widow's inheritance documented in probate reveals whether women controlled economic resources. A marriage contract shows what families valued enough to specify legally.
+The **core sources** of genealogical research are records created at the vital moments of the life cycle: birth (baptism registers), marriage (parish records, licenses, banns), and death (burial registers, probate records). From your demographic analysis work, you know how to read these records statistically. Family history uses them to reconstruct specific kinship ties — who was whose parent, sibling, spouse, child — and then asks what those ties can tell us about social life. A father's occupation entered in a baptism register allows you to trace whether sons followed fathers into the same trade. A widow's inheritance documented in probate reveals whether women controlled economic resources. A marriage contract shows what families valued enough to specify legally.
 
 **Linkage** is the central method: connecting records about the same individuals across different document types and archival locations. If you can link a birth record, marriage record, and death record for the same person, you can calculate life expectancy, age at marriage, and interval between births. Linked across a family, you can study sibship size, child mortality, and spacing patterns. The difficulty is that pre-modern records are incomplete, inconsistent in spelling names, and often fail to record women after marriage or enslaved people at all. This is where your archival skills — understanding provenance, critical reading of sources — become essential. Family history that does not interrogate the silences in its records produces a distorted picture that privileges those for whom records were kept.
 

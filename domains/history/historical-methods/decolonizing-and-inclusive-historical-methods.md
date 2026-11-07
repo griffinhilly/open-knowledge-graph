@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Western academic historiography is one tradition among many; other cultures have sophisticated methods for preserving and interpreting their pasts (oral tradition, indigenous chronologies, non-linear time concepts). Decolonizing history means recognizing that the Western archive is partial, learning from other epistemologies, and questioning whose stories count as 'history.' Inclusive historical methods engage multiple knowledge traditions.
 
+## How It's Best Learned
+Pick one colonial-era event and gather two kinds of source on it: an administrative record made by the colonial state, and a published oral tradition or community account. For each source, list the questions it lets you answer and the categories it uses, such as tax unit, tribe or lineage. Then write the questions only the second source makes possible, and note where the two can be checked against each other.
+
+## Common Misconceptions
+- Decolonizing history means swapping the Western story for a non-Western one. (The aim is fuller histories that draw on several knowledge traditions, not a single replacement account.)
+- A sympathetic historian can overcome a colonial archive's bias by good intentions. (The archive's categories and gaps shape which questions can be asked, so changing the outcome usually requires other sources and other questions.)
+- Oral traditions are unreliable because they are not written down. (Many oral traditions have their own rules for preserving and transmitting the past, and historians evaluate them with methods suited to how they work.)
+- Taking other traditions seriously means accepting every account uncritically. (Inclusive methods still compare sources, ask who preserved each account and why, and weigh what each can show.)
+
 ## Questions
 
 ```yaml

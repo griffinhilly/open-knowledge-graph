@@ -66,6 +66,7 @@ Genre fiction is not inherently formulaic or simple; it requires sophisticated c
 
 - question: Explain how the genre contract works. What does each party (writer and reader) agree to when engaging with a specific genre?
   type: short-answer
+  answer: The writer agrees to deliver the satisfactions the genre promises, such as a solvable puzzle in a mystery, while finding fresh variations within that frame. The reader agrees to accept the genre's conventions as the ground rules and to judge the book by how well it plays within them.
   explanation: A good answer should explain that the reader agrees to recognize and accept the genre's conventions in exchange for predictable satisfactions, while the writer agrees to deliver those satisfactions while attempting originality within the framework. Students should recognize this as a mutual agreement that enables both reader enjoyment and writer creativity.
 ```
 

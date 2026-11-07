@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Few historical questions can be answered by a single source. Synthesis—bringing together different sources with different biases and limitations—reveals patterns, corroborates claims, and fills gaps. Triangulation (comparing sources from different perspectives on the same question) strengthens conclusions and reveals what no single source could show.
 
+## How It's Best Learned
+Build an evidence grid for one claim, such as a grain shortage in a given city and year. Put three or four sources of different kinds in the rows. In the columns, note what each says, what it was positioned to see, its likely bias, and whether it might derive from another source in the grid. Then write the claim at the strength the whole grid supports, and name the alternative it does not rule out.
+
+## Common Misconceptions
+- More sources saying the same thing always means stronger evidence. (Agreement counts for much less if the sources copy each other or share one origin, so independence must be checked.)
+- When sources contradict each other, the historian's job is to pick the right one. (A contradiction is also evidence, and asking why accounts diverge often reveals what was at stake.)
+- A biased source should be dropped from the synthesis. (Each source can answer some questions well; the skill is matching each one to the questions it can address.)
+- If a conclusion fits all the sources, it is established. (Several rival conclusions can fit the same evidence, so an argument must show the sources favor one over the others.)
+
 ## Questions
 
 ```yaml

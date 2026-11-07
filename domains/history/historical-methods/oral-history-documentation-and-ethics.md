@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Oral testimony is valuable for recent history and documenting experiences of people who left few written records. Conducting oral history requires careful methodology (structured questions, recording, transcription) and ethical responsibility (informed consent, privacy, appropriate credit). Oral sources must be evaluated like any other, with attention to narrator perspective, memory, and bias.
 
+## How It's Best Learned
+Before interviewing anyone, draft the full paper trail for one practice interview: a consent form that names the archive, who can listen, and how the narrator can restrict parts. Then interview a relative or classmate for twenty minutes, transcribe five minutes, and send the transcript back for review. Compare one remembered date against a document and note how you would cite the mismatch.
+
+## Common Misconceptions
+- A signed consent form at the start covers every later use. (Consent should cover where recordings go and who can access them, and narrators often keep rights to review or restrict material.)
+- If a narrator gets dates or facts wrong, the interview is worthless as evidence. (Errors can be checked against other sources, and how a narrator remembers an event is itself historical evidence.)
+- Oral testimony is less reliable than written sources. (All sources have biases; oral and written sources have different limits, and each needs source criticism.)
+- Once the interview is recorded, the historian's duty to the narrator is done. (Ethical practice includes careful preservation, appropriate credit, and in many projects a continuing relationship with the community.)
+
 ## Questions
 
 ```yaml

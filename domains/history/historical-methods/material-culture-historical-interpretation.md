@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Objects, buildings, tools, and remains are sources revealing daily life, technology, aesthetics, and social organization in ways documents do not. Interpreting material evidence requires understanding production (how was it made?), use (how was it used?), and meaning (what did it signify to people of the time?).
 
+## How It's Best Learned
+Start with an everyday object you can handle, such as an old kitchen tool or a worn coin, and fill in a three-column sheet: production, use and meaning. Record the material, the marks of manufacture, the wear and any repairs. Then do the same for a museum object with a recorded find spot, and note how much the context adds to the meaning column.
+
+## Common Misconceptions
+- Objects speak for themselves, so their meaning is obvious once you know what they were for. (Function alone rarely settles meaning; decoration, find spot and associated objects shape what an object signified.)
+- Material evidence is free of bias because nobody made it to persuade historians. (What survives, what gets excavated and how it is labeled all filter the material record.)
+- An object's value as evidence lies in the object itself. (Much of the meaning comes from context, and an object removed from its find spot loses much of its interpretive value.)
+- Material culture only confirms what documents already say. (For people who left few written records, objects can supply evidence documents lack and can contradict what documents claim.)
+
 ## Questions
 
 ```yaml

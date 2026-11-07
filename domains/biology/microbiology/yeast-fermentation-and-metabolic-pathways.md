@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Saccharomyces cerevisiae (baker's yeast) is the paradigm eukaryotic fermentation organism, converting glucose to ethanol and CO₂ with high efficiency. Yeasts exhibit the Crabtree effect (glucose repression of respiration even with available oxygen), favoring fermentation over respiration. Beyond beverages, yeasts are engineered for recombinant protein production, synthetic biosynthetic pathways, and biofuel generation, making them cornerstones of modern biotechnology.
 
+## How It's Best Learned
+Trace one glucose through alcoholic fermentation, counting carbons and NAD⁺ at each step: glucose (6 C) to 2 pyruvate, then 2 acetaldehyde plus 2 CO₂, then 2 ethanol. Next, set 2 ATP per glucose beside about 30-32 and ask what yeast gains from the lower yield in a sugar-rich niche. Finish by matching each industrial use to the yeast trait it depends on.
+
+## Common Misconceptions
+- Yeast ferments only when oxygen runs out. (With abundant glucose, S. cerevisiae ferments even when oxygen is present; this is the Crabtree effect.)
+- Pyruvate is converted to ethanol in a single step. (Pyruvate is first decarboxylated to acetaldehyde, releasing CO₂, and acetaldehyde is then reduced to ethanol, which regenerates NAD⁺.)
+- The steps that make ethanol are where fermentation produces its ATP. (The 2 ATP come from glycolysis; the ethanol steps make no ATP and serve to regenerate NAD⁺ so glycolysis can keep running.)
+
 ## Questions
 
 ```yaml

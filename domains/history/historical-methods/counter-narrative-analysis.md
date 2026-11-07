@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Dominant narratives—those preserved in official documents and canonical histories—often silence dissent, resistance, and alternative perspectives. Counter-narrative analysis seeks suppressed voices through reading silences, reconstructing oral tradition, analyzing hidden transcripts, and recovering texts condemned as heretical or seditious.
 
+## How It's Best Learned
+Work with a single prosecution record, such as a trial transcript for heresy or sedition. Highlight in one color what the authorities wanted to establish and in another every word attributed to the accused. Rebuild the accused person's position from the second color alone. Then mark which of your claims rest on direct quotation and which rest on inference, and state how confident each one can be.
+
+## Common Misconceptions
+- Counter-narrative history replaces the official story with the true story of the oppressed. (The aim is to show that the dominant account was partial and contested, without setting up an equally total account in its place.)
+- Official records cannot tell us anything about resistance. (Records of prosecution, punishment or "incidents" often have to describe the dissent they were created to suppress.)
+- If I find a hint of resistance, I have found resistance. (Thin evidence supports plausibility, and strong claims need convergent sources and an honest account of the inference involved.)
+- Routine administrative records are too dull to hold dissenting voices. (Patterns across many court, church and estate records can show resistance that no single document makes clear.)
+
 ## Questions
 
 ```yaml

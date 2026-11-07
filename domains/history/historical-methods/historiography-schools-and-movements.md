@@ -25,6 +25,12 @@ Historiography—how historians understand and write history—is not uniform. D
 ## How It's Best Learned
 Read brief excerpts from historians representing different schools. Notice what questions each prioritizes, what sources they use, what they consider 'good evidence,' and what patterns they see. Discuss why the same historical period produces such different interpretations.
 
+## Common Misconceptions
+- Placing a historian in a school tells you their conclusions are biased and can be set aside. (Knowing the school shows which questions and evidence the work favors, so you can judge it on its own terms.)
+- Marxist history explains everything as class conflict. (Many Marxist historians, such as E.P. Thompson, gave close attention to culture and experience while treating material conditions as primary.)
+- Postcolonial history adds non-European topics to an unchanged framework. (Its main challenge was structural: it questioned the use of European history as the standard for measuring other societies.)
+- Microhistory studies small cases for their own sake. (Microhistorians choose a small case because its details can shed light on larger questions.)
+
 ## Questions
 
 ```yaml

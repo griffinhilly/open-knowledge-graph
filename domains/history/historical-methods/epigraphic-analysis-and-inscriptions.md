@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Inscriptions carved in stone, metal, or clay preserve official records, commemorations, and everyday writing. Epigraphic analysis examines letter forms, abbreviations, language, grammar, and context to extract information about politics, religion, commerce, and literacy rates that manuscripts alone cannot provide.
 
+## How It's Best Learned
+Start with formulaic epitaphs, because they repeat. Expand D.M. / C. IULIO SECUNDO / VIX. ANN. XL as Dis Manibus / Gaio Iulio Secundo / vixit annos XL, "To the Divine Shades, to Gaius Julius Secundus, who lived 40 years." Then transcribe a few photographed epitaphs into a table of name, age, occupation and commemorator, and look at who appears and who paid for the stone.
+
+## Common Misconceptions
+- Inscriptions are minor sources compared with literary texts. (Inscriptions record people and activities that literary authors ignored, such as tradespeople, freed slaves and local commerce.)
+- Ages on tombstones are exact. (Ages on Roman epitaphs cluster suspiciously at round numbers like 30 or 40, so they need caution as demographic data.)
+- Epitaphs give a fair picture of the whole population. (A carved stone cost money, so the commemorated are skewed toward people who could afford one or had someone to pay for it.)
+- An inscription is a direct record with no editing. (Inscriptions follow formulas and were often drafted and laid out before carving, so they reflect conventions as well as individual voices.)
+
 ## Questions
 
 ```yaml

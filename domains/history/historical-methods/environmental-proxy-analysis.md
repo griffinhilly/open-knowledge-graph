@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 Tree rings (dendrochronology), pollen cores, ice cores, and sediment layers record past climate, vegetation, and human impact without direct documentary evidence. These proxy records extend history beyond written texts and enable climate reconstruction crucial for understanding agricultural failure, disease, and migration.
 
+## How It's Best Learned
+Calibrate a toy proxy by hand. Suppose modern years give ring widths of 1.0, 1.5 and 2.0 mm with summer temperatures of 14, 16 and 18 °C. The fitted rule is temperature = 10 + 4 × width, so an old 0.5 mm ring reads as 12 °C. Then list why that estimate is shaky: 0.5 mm lies outside the calibrated range, and drought or insects could also explain it.
+
+## Common Misconceptions
+- A narrow tree ring means a cold year. (Narrow rings record poor growing conditions, which can come from cold, drought, disease, insects or other stresses.)
+- Proxies measure past climate directly. (Proxies record climate indirectly through physical or biological processes, so they must be calibrated against modern measurements, which adds uncertainty.)
+- Several proxies agreeing is no stronger than one, since they all measure the same thing. (Different proxies respond to different variables and have different error sources, so independent agreement is stronger evidence.)
+- Pollen records show only climate. (Pollen also records human land use, such as forest clearance and crop farming, which can mask or mimic climate signals.)
+
 ## Questions
 
 ```yaml

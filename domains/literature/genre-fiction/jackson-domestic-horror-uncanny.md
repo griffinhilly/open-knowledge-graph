@@ -20,6 +20,15 @@ status: draft
 ## Core Idea
 Shirley Jackson's horror emerges from darkness lurking beneath ordinary suburban life. Her stories find terror in family dynamics, social rituals, and community traditions. Horror accumulates through ordinary details and social observation, with shocking revelations that expose how evil can hide within normalcy.
 
+## How It's Best Learned
+Read "The Lottery" once without knowing the ending, and stop before the last scene to write down what you expect. Then reread it and mark every detail that prepares the ending: the boys piling stones, the shabby black box, Tessie Hutchinson's late arrival and protest. Note how calmly and ordinarily the narration presents each one.
+
+## Common Misconceptions
+- Jackson's horror depends on a twist ending. (A reread of "The Lottery" shows the ending prepared from the opening paragraphs. The dread comes from how ordinary everything is made to seem.)
+- Domestic horror means horror that happens inside a house. (It means horror rooted in family and community life: obligations, rituals, and social pressures that feel normal to the people inside them.)
+- Jackson's evil comes from monsters or deranged individuals. (Her work often locates evil in ordinary people acting together, following tradition and social pressure.)
+- The uncanny is another word for spooky. (The uncanny is the familiar made strange, so the effect depends on the setting first being recognizably ordinary.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +64,7 @@ Shirley Jackson's horror emerges from darkness lurking beneath ordinary suburban
 
 - question: What is specifically unsettling about finding horror in 'social rituals' and 'community traditions'? Why is this more disturbing than supernatural threats?
   type: short-answer
+  answer: Rituals and traditions are things ordinary people, including readers, take part in without question, so horror rooted in them feels close and plausible. A supernatural threat can be dismissed as unreal, but a community that kills by custom suggests that the reader's own neighbors and habits could be complicit.
   explanation: A good answer should recognize that social rituals and community traditions are things the reader participates in, making the horror disturbingly close to home. If evil can hide in family dynamics and community rituals, then it can exist anywhere, including the reader's own life. The horror isn't distant or fantastical but alarmingly plausible. This makes Jackson's work psychologically disturbing in ways supernatural horror may not be. Students should understand that the normalcy makes the darkness more unsettling.
 ```
 
@@ -64,7 +74,7 @@ Shirley Jackson's genius lies in treating the ordinary as a location of genuine 
 
 Jackson's approach is deeply sociological. She observes family dynamics—how a mother's psychological control shapes her children, how domestic obligation can become destructive. She observes social rituals—how communities enforce conformity, how tradition persists without examination, how people participate in systems they don't consciously endorse. She captures the pressure to fit in, the difficulty of resistance, the way evil naturalizes itself through repetition and social acceptance. The horror in her work is that evil is banal—not theatrical or sensational, but woven into normal life.
 
-This requires a specific narrative method. Jackson accumulates horror through small, precise observations. She notices details that readers might overlook: the tone of a conversation, the slight meanness in a social interaction, the way people justify unjustifiable things, the casual cruelty embedded in community life. She builds tension not through action but through the narrator's growing awareness of something wrong with the situation. The shocking revelations—that the community is participating in an execution, that a mother is poisoning her son, that conformity demands monstrous sacrifice—land hard because they've been prepared through ordinary detail.
+This requires a specific narrative method. Jackson accumulates horror through small, precise observations. She notices details that readers might overlook: the tone of a conversation, the slight meanness in a social interaction, the way people justify unjustifiable things, the casual cruelty embedded in community life. She builds tension not through action but through the narrator's growing awareness of something wrong with the situation. The shocking revelations—that the community is participating in an execution, that a young woman poisoned her own family, that conformity demands monstrous sacrifice—land hard because they've been prepared through ordinary detail.
 
 What makes Jackson's approach distinct from other horror writers is that she treats evil as systemic and social rather than individual and sensational. She doesn't ask "what if a killer lived next door?" but "what if the people next door, perfectly ordinary people, are participating in evil through their social rituals?" This implicates the reader more directly. You cannot enjoy Jackson's horror from safe distance; it asks you to recognize yourself in the ordinary people who participate in the monstrous. The discomfort of her work is not the fear of monsters but the recognition of monstrosity in normalcy.
 

@@ -29,6 +29,15 @@ status: validated
 ## Core Idea
 Historians must deliberately choose which sources to examine rather than attempting to examine all available evidence, which is often impossible or impractical. Selection strategy involves defining the population of potential sources, determining inclusion criteria based on research questions, and being transparent about what is included and excluded. These methodological choices shape conclusions and must be acknowledged and justified.
 
+## How It's Best Learned
+For a research question you have drafted, list every type of source that could bear on it before you look at what is easy to reach. Next to each, note who created it, who it would leave out, and whether you can get it. Then write your inclusion rule and a two-sentence statement of what you excluded and how that limits your conclusions.
+
+## Common Misconceptions
+- Using every source you can find makes a study unbiased. (What survives and what is easy to reach are not random, so a large convenience sample can still skew results.)
+- If each source is read carefully, the conclusions are sound. (Careful reading of each document cannot fix a source set that leaves out whole groups or places.)
+- Mentioning what you left out invites criticism and weakens the work. (Stating exclusions lets readers see the scope of the argument and judge how far the conclusions reach.)
+- Selection is a one-time step at the start of a project. (Inclusion rules often need revising as the question sharpens, and each revision should be recorded.)
+
 ## Questions
 
 ```yaml
@@ -57,7 +66,7 @@ Historians must deliberately choose which sources to examine rather than attempt
   answer: true
   explanation: "Source selection is not a preliminary step that can be left implicit — it shapes every conclusion the historian draws. If the selected sources systematically over- or under-represent certain groups, perspectives, or geographies, the conclusions will reflect that bias whether or not the historian acknowledges it. Readers who know which sources were excluded can identify which populations and perspectives are likely missing, which conclusions might not hold for those excluded groups, and where follow-up research is most needed."
 
-- question: "When a research question can seldom be answered by examining most available source, the best methodological practice is to use whatever sources are most readily accessible to maximize efficiency."
+- question: "When it is impractical to examine every available source for a research question, the best methodological practice is to use whatever sources are most readily accessible to maximize efficiency."
   type: true-false
   answer: false
   explanation: "Using the most accessible sources is convenience sampling — a common but methodologically weak practice. The correct approach is to define the source population (all sources potentially relevant to the question), develop inclusion criteria derived from the research question, and then select from that population deliberately — even if access is difficult. Convenience sampling is often the only practical option, but when it is used, it should be explicitly acknowledged as a limitation rather than left implicit, so readers can assess the bias it introduces."

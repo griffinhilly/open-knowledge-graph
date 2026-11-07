@@ -66,6 +66,7 @@ Historical fiction is not history; it's creative interpretation of historical pe
 
 - question: How does Hilary Mantel's Wolf Hall differ from more historically constrained historical fiction? What does each approach gain and lose?
   type: short-answer
+  answer: Wolf Hall keeps to the documented events of Thomas Cromwell's rise and Thomas More's fall but freely invents Cromwell's thoughts and motives. It gains psychological depth, but readers may take imagined motives as fact. A more constrained novel earns more confidence about what is true but leaves less room for inner life.
   explanation: 'A good answer should recognize that Wolf Hall heavily reimagines historical figures'' inner lives, creating psychological depth and thematic coherence, but takes greater liberties with historical motivation. More constrained approaches maintain closer fidelity to documented events but may have less psychological richness. Students should understand this as a spectrum: strict fidelity vs. imaginative freedom, gains in one area creating losses in another. The ''best'' approach depends on what the author prioritizes.'
 ```
 

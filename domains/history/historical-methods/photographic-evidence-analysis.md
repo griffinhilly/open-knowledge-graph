@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Photographs appear to document reality directly, but photographers select subjects, compose frames, and sometimes manipulate images. Reading photographs requires understanding context of creation, intended audience, technical conditions, and what framing includes or excludes. Photographs provide evidence of material culture and official representation, not transparent access to past events.
 
+## How It's Best Learned
+Take one archival photograph with its catalogue record and work outward in rings. First describe only what is inside the frame. Then list what the frame cuts off and what the moment, angle and pose suggest about staging. Last, trace the caption, who published the image, and where it circulated. Covering the caption and rereading the image shows how much the words were doing.
+
+## Common Misconceptions
+- A camera records what was there, so photographs are more objective than written sources. (Every photograph reflects choices of subject, frame, moment and later cropping and captioning.)
+- If a photograph was staged or selected, it is useless as evidence. (Staged and selected images are good evidence of how their makers wanted a subject to be seen.)
+- The caption is a neutral label for the picture. (Captions tell viewers what to see and feel, and the same image can carry opposite meanings under different captions.)
+- A famous photograph shows what the event was like. (An iconic image is better evidence of how the event was framed, published and remembered than of the whole event.)
+
 ## Questions
 
 ```yaml

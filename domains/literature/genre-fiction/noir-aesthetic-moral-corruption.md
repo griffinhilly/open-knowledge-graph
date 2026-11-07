@@ -24,6 +24,14 @@ status: draft
 ## Core Idea
 Noir is simultaneously an aesthetic and a worldview. Noir emphasizes visual style (shadow, chiaroscuro, urban decay) combined with thematic exploration of pervasive corruption, moral compromise, and the impossibility of innocence. Noir suggests that the world is fundamentally corrupt, that good intentions collide with systemic evil, and that survival requires moral flexibility. Noir influences literature, film, visual arts, and contemporary genre conventions.
 
+## How It's Best Learned
+Compare one scene in two media: James M. Cain's novel Double Indemnity and Billy Wilder's 1944 film of it. List how each creates darkness. The novel works through the narrator's confession and word choice, and the film works through lighting and shadow. Then note which themes of corruption and compromise survive the move from page to screen.
+
+## Common Misconceptions
+- Noir is a film style, and books borrowed it later. (French critics applied the term "film noir" to American crime films of the 1940s, many of them adapted from crime novels. Literary noir builds its shadows through prose.)
+- A noir story needs a detective. (Many noir stories are told by criminals, victims, or ordinary people drawn into crime, such as the insurance salesman who narrates Double Indemnity.)
+- Rain, neon, and dark streets are enough to make a story noir. (Without the worldview of pervasive corruption and lost innocence, the atmosphere is only decoration.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +67,7 @@ Noir is simultaneously an aesthetic and a worldview. Noir emphasizes visual styl
 
 - question: How do visual style (shadow, decay, darkness) and thematic content (corruption, moral compromise) work together in noir? Why is the aesthetic inseparable from the worldview?
   type: short-answer
+  answer: Noir's visual style expresses its worldview. Shadow stands for hidden truth and corruption, chiaroscuro for moral ambiguity, and urban decay for failed institutions, so the way the world looks tells readers or viewers what kind of moral world it is.
   explanation: A good answer should recognize that noir's visual style embodies its philosophical content—shadow and darkness represent moral ambiguity and hidden corruption; urban decay represents systemic failure; chiaroscuro represents moral complexity (neither purely light nor dark). The aesthetic doesn't merely decorate the themes; it expresses them. You cannot see noir's visual style without being in the worldview. Students should understand that in noir, form and content are unified—the way a world looks communicates what kind of world it is ethically and politically.
 ```
 
@@ -74,6 +83,6 @@ What distinguishes noir from other pessimistic genres is the refusal of redempti
 
 The combination of aesthetic and worldview creates noir's distinctive emotional tone. The visual darkness and decay reinforce the philosophical darkness. You don't just learn that the world is corrupt; you see it in every shadow, every deteriorating building, every darkened street. The aesthetic makes the philosophy visceral. This is why noir remains culturally powerful: it expresses something true about how power operates, how institutions function, how individuals navigate systems that don't care about them. The aesthetic presentation makes this abstract philosophy emotionally real.
 
-Noir's influence across art forms reflects how effectively this form expresses contemporary experience. In an era of institutional failure and systemic corruption, noir's worldview resonates. Its aesthetic of shadow and decay speaks to contemporary anxiety. Noir provides a language—both visual and thematic—for expressing skepticism about institutions, institutions, and the possibility of justice. This is why noir conventions persist and evolve across genres: they express something culturally resonant that readers and viewers find compelling.
+Noir's influence across art forms reflects how effectively this form expresses contemporary experience. In an era of institutional failure and systemic corruption, noir's worldview resonates. Its aesthetic of shadow and decay speaks to contemporary anxiety. Noir provides a language—both visual and thematic—for expressing skepticism about institutions and the possibility of justice. This is why noir conventions persist and evolve across genres: they express something culturally resonant that readers and viewers find compelling.
 
 ```

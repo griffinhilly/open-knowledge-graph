@@ -1,0 +1,67 @@
+domains/computer-science/computer-architecture/addressing-modes-instruction-format.md	how	3	0	ok
+domains/computer-science/computer-architecture/addressing-modes-instruction-format.md	mis	8	0	ok
+domains/computer-science/computer-architecture/barrel-shifter-design.md	how	4	0	ok	worked: 10110011<<5 via 4/2/1 stages = 01100000, correct
+domains/computer-science/computer-architecture/barrel-shifter-design.md	mis	8	0	ok
+domains/computer-science/computer-architecture/binary-adders.md	how	3	0	ok	worked: 0111+0001=1000, 0101+0010 no carry
+domains/computer-science/computer-architecture/binary-adders.md	mis	8	0	ok
+domains/computer-science/computer-architecture/binary-adders.md	old:q:3	1	0	ok	NOTED, not edited: question text typo "at most bit position" (meant "most bit positions"); answer key still right
+domains/computer-science/computer-architecture/binary-coded-decimal-encoding.md	how	5	1	fixed	"The third case shows both triggers" was wrong: 9+9 gives low nibble 0010 (not >1001), so it shows only the carry trigger; 7+8 shows the >1001 trigger. Rewrote to "second and third cases show the two triggers"
+domains/computer-science/computer-architecture/binary-coded-decimal-encoding.md	mis	8	0	ok
+domains/computer-science/computer-architecture/boolean-function-implementation.md	how	4	0	ok	worked: minterms 101,110,111 -> A(B+C); 5 maxterms; correct
+domains/computer-science/computer-architecture/boolean-function-implementation.md	mis	8	0	ok
+domains/computer-science/computer-architecture/boolean-function-implementation.md	old:q:1	1	1	fixed	MC had two correct answers: option "{OR, NOT} only" is functionally complete (explanation said so). Replaced option with "{XOR} alone" and fixed explanation sentence
+domains/computer-science/computer-architecture/branch-prediction-techniques.md	how	4	0	ok	worked: TTTN x3; 1-bit misses 2/pass after first, 2-bit misses 1/pass; correct
+domains/computer-science/computer-architecture/branch-prediction-techniques.md	mis	8	0	ok
+domains/computer-science/computer-architecture/cache-associativity-and-mapping.md	how	4	0	ok	worked: 1KB/16B: DM 4/6/22, 4-way 4/4/24, FA 4/0/28; 0x000 and 0x400 share index at DM and 2-way; correct
+domains/computer-science/computer-architecture/cache-associativity-and-mapping.md	mis	8	0	ok
+domains/computer-science/computer-architecture/cache-line-and-offset.md	how	4	1	fixed	address splits all correct (0x1A3C off 60 idx 104; 0x1A40 off 0 idx 105; 0x5A3C off 60 idx 104 tag differs), but closing sentence mislabeled the cases ("a neighbour line, a new line" for what is one next-line case). Rewrote to describe the two comparisons
+domains/computer-science/computer-architecture/cache-line-and-offset.md	mis	8	0	ok
+domains/computer-science/computer-architecture/cache-write-policies.md	how	4	0	ok	worked: 3 stores to A then load B (same line): WT 3 writes, WB 1 at eviction; correct
+domains/computer-science/computer-architecture/cache-write-policies.md	mis	8	0	ok
+domains/computer-science/computer-architecture/carry-lookahead-adder-design.md	how	5	0	ok	worked: A=1011,B=0110: G=0010,P=1101,C1=0,C2=C3=C4=1,S=0001 carry 1 = 17; correct
+domains/computer-science/computer-architecture/carry-lookahead-adder-design.md	mis	8	0	ok
+domains/computer-science/computer-architecture/clock-domain-crossing.md	how	4	0	ok	worked: 011->100 can mix to 111/000; Gray 3=010, 4=110; correct
+domains/computer-science/computer-architecture/clock-domain-crossing.md	mis	8	0	ok
+domains/computer-science/computer-architecture/counters-design-analysis.md	how	3	0	ok	worked: 0111->0110->0100->0000->1000; toggle equations correct
+domains/computer-science/computer-architecture/counters-design-analysis.md	mis	8	1	fixed	absolute: "a counter is a register ... plus logic for load or reset" (basic counters have none) -> "often with logic for load or reset"
+domains/computer-science/computer-architecture/direct-memory-access-dma.md	how	4	1	fixed	exercise said "done three ways" but gives only two (interrupt-driven, DMA); changed to "two ways". 4KB/4B=1024 interrupts correct
+domains/computer-science/computer-architecture/direct-memory-access-dma.md	mis	8	0	ok
+domains/computer-science/computer-architecture/dynamic-ram-dram-design.md	how	4	0	ok	worked: 64 ms / 8192 = 7.8 us; correct
+domains/computer-science/computer-architecture/dynamic-ram-dram-design.md	mis	8	0	ok
+domains/computer-science/computer-architecture/exception-handling-architecture.md	how	4	0	ok
+domains/computer-science/computer-architecture/exception-handling-architecture.md	mis	8	0	ok
+domains/computer-science/computer-architecture/finite-state-machine-processor-design.md	how	4	1	fixed	cycle counts 5/4/4/3 correct, but "the counts show why a multi-cycle design beats a single-cycle one" is an absolute (the sibling multi-cycle page's own worked mix gives 820 ps vs 800 ps, a loss). Changed to "how it can beat"
+domains/computer-science/computer-architecture/finite-state-machine-processor-design.md	mis	8	0	ok
+domains/computer-science/computer-architecture/full-adder-and-carry-logic.md	how	3	0	ok	both carry forms match all 8 rows
+domains/computer-science/computer-architecture/full-adder-and-carry-logic.md	mis	8	1	fixed	correction said "Any input can trigger the longest chain" (false: most inputs do not); changed to "Some inputs, such as 1111 + 0001, carry across every stage"
+domains/computer-science/computer-architecture/full-adder-and-carry-logic.md	old:q:0:explanation	1	1	fixed	said 10000000+00000001 generates a carry at bit 0; 0+1 generates none. Fixed to "no carry propagates at all"
+domains/computer-science/computer-architecture/half-adder-circuit-design.md	how	4	0	ok	worked: 4-NAND XOR and NAND(N,N)=AB check on all rows
+domains/computer-science/computer-architecture/half-adder-circuit-design.md	mis	6	0	ok
+domains/computer-science/computer-architecture/karnaugh-map-optimization.md	how	4	0	ok	worked: m(0,2,8,10) = four corners = B'D'; correct
+domains/computer-science/computer-architecture/karnaugh-map-optimization.md	mis	8	0	ok
+domains/computer-science/computer-architecture/logic-gates-fundamentals.md	how	3	0	ok
+domains/computer-science/computer-architecture/logic-gates-fundamentals.md	mis	8	0	ok
+domains/computer-science/computer-architecture/memory-access-timing.md	how	4	0	ok	worked: one bank last data 350 ns; two banks start every 50 ns, last data 200 ns; correct
+domains/computer-science/computer-architecture/memory-access-timing.md	mis	8	0	ok
+domains/computer-science/computer-architecture/memory-address-decoding.md	how	4	0	ok	worked: 8KB = bits 12..0; four chips at 0x0000-0x7FFF; ignoring bit 15 aliases 0x0000/0x8000; correct
+domains/computer-science/computer-architecture/memory-address-decoding.md	mis	6	0	ok
+domains/computer-science/computer-architecture/memory-bus-interconnect.md	how	4	0	ok	worked: 800 / 400 / 640 MB/s; correct
+domains/computer-science/computer-architecture/memory-bus-interconnect.md	mis	8	0	ok
+domains/computer-science/computer-architecture/memory-interleaving-and-bandwidth.md	how	5	0	ok	worked: stride 1 done by cycle 11, stride 4 at 32, stride 3 banks 0,3,2,1, stride 2 banks 0,2; correct
+domains/computer-science/computer-architecture/memory-interleaving-and-bandwidth.md	mis	8	0	ok
+domains/computer-science/computer-architecture/memory-management-paging-segmentation.md	how	4	0	ok	worked: 0x3A7C -> 0x9A7C; base 0x5000 + 0x300 = 0x5300; 0x900 > limit 0x800 faults; correct
+domains/computer-science/computer-architecture/memory-management-paging-segmentation.md	mis	8	0	ok
+domains/computer-science/computer-architecture/memory-protection-hardware.md	how	3	0	ok	exercise outcomes derivable from listed bits
+domains/computer-science/computer-architecture/memory-protection-hardware.md	mis	8	1	fixed	dropped qualifier: "Execute is a separate permission" is false on legacy x86 paging without NX, where readable pages were executable; added "On processors with a no-execute bit"
+domains/computer-science/computer-architecture/microinstruction-and-control-signals.md	how	3	0	ok	worked: 10 + 8 = 18 bits horizontal, 10 + 3 = 13 encoded; correct
+domains/computer-science/computer-architecture/microinstruction-and-control-signals.md	mis	8	1	fixed	correction "Only mutually exclusive signals are encoded together" is an absolute: highly vertical formats do pack signals that could run together and lose parallelism. Reworded belief to "always loses" and made the correction conditional
+domains/computer-science/computer-architecture/microinstruction-and-control-signals.md	old:q:4:answer	1	0	ok	NOTED, not edited: "patched by reflashing the ROM" is inaccurate for x86, where microcode updates load into on-chip patch RAM at boot; the explanation is right
+domains/computer-science/computer-architecture/multi-cycle-processor-design.md	how	4	0	ok	worked: CPI 0.25*5+0.1*4+0.5*4+0.15*3 = 4.1; 4.1*200 = 820 ps vs 800; correct
+domains/computer-science/computer-architecture/multi-cycle-processor-design.md	mis	8	0	ok
+domains/computer-science/computer-architecture/multilevel-cache-organization.md	how	3	0	ok	worked: AMAT 1 + 0.1*(10 + 0.2*100) = 4; without L2 = 11; correct
+domains/computer-science/computer-architecture/multilevel-cache-organization.md	mis	8	0	ok
+domains/computer-science/computer-architecture/multilevel-cache-organization.md	old:core	1	0	ok	NOTED, not edited: Core Idea "Each level acts as a victim cache for the next" is not true in general (only exclusive/victim designs); inclusive L2/L3 are filled on misses
+domains/computer-science/computer-architecture/multiplication-circuits.md	how	5	0	ok	worked: 1011 x 1101 partial products sum to 10001111 = 143; 01110 = 16 - 2; correct
+domains/computer-science/computer-architecture/multiplication-circuits.md	mis	8	0	ok
+domains/computer-science/computer-architecture/multiplication-circuits.md	old:q:0:explanation	1	1	fixed	"01110 represents 8 - 2 = 6" wrong; 01110 = 14 = 16 - 2
+domains/computer-science/computer-architecture/multiplication-circuits.md	old:ex	1	1	fixed	Explainer said Booth on 01110 replaces "four separate additions ... four operations into two"; 01110 has three 1s, so three into two

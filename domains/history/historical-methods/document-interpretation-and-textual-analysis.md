@@ -27,6 +27,12 @@ Close reading of historical documents means examining exact language, structure,
 ## How It's Best Learned
 Choose a short historical document and read it multiple times: first for general sense, then for argument structure, then line by line. Note explicit statements, assumptions, metaphors, intended audience, and unstated context. Compare your analysis with a scholarly interpretation.
 
+## Common Misconceptions
+- Close reading means reading slowly to collect facts. (Close reading treats the document as an artifact, looking at word choice, form, audience and assumptions as well as stated facts.)
+- The most important evidence in a document is what it says outright. (What an author took for granted, and so never stated, can reveal more about their worldview than their explicit claims.)
+- A petition or public speech tells us what the writer sincerely believed. (Genres have conventions, such as a petition's humble tone, so the form must be read before the content is taken as personal belief.)
+- Everyday words in an old document mean what they mean today. (Word meanings shift over time, so a term's sense in its own period has to be checked before it is interpreted.)
+
 ## Questions
 
 ```yaml

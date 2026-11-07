@@ -27,6 +27,12 @@ Periodization—dividing history into eras—organizes knowledge but also shapes
 ## How It's Best Learned
 Take a region and draw multiple periodizations: one using rulers/dynasties, one using cultural movements, one using economic systems, one using technological change. Compare where boundaries shift and what each periodization reveals or obscures.
 
+## Common Misconceptions
+- Historical periods like the Middle Ages are natural divisions that people at the time recognized. (Most period labels were applied later, and their boundaries are chosen by historians for particular purposes.)
+- A turning point such as 1453 or 1492 changed life everywhere at once. (Marker events matter for specific questions, and many people's daily lives went on with little change.)
+- If periods are constructed, they are arbitrary and useless. (A good periodization marks real transitions for a given question; the point is to choose and defend it knowingly.)
+- European period labels apply to world history. (Labels built around European events often fit poorly for China, West Africa or the Ottoman world, which had their own rhythms of change.)
+
 ## Questions
 
 ```yaml

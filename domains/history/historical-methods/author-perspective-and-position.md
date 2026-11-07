@@ -27,6 +27,12 @@ Every source was created by someone situated in a particular time, place, and so
 ## How It's Best Learned
 Take a single source and build a profile of its author: their social class, region, gender, political allegiances, financial interests, education, and beliefs. Identify how each aspect shaped what they wrote. Compare your analysis with a source from someone in a very different position discussing similar events.
 
+## Common Misconceptions
+- A biased source should be thrown out. (Biased sources are partial, and they are often the best evidence of how their authors saw events and what those authors wanted others to believe.)
+- If two accounts disagree, one author must be lying. (Authors in different positions had different access and different interests, so honest accounts can differ in structured ways.)
+- Perspective and bias are the same thing. (Perspective is what an author could see from their position; bias is the direction their interests pushed the account.)
+- What an author leaves out tells us nothing. (Silences can reveal what the author took for granted, could not see, or found unsafe to say.)
+
 ## Questions
 
 ```yaml
