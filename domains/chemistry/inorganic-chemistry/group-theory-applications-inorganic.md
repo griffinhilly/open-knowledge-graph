@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Group theory provides a systematic method for constructing molecular orbital diagrams, predicting spectroscopic selection rules, and analyzing vibrational modes of coordination compounds. By identifying the point group of a complex, generating reducible representations for ligand orbital sets, and decomposing them into irreducible representations using character tables, you can determine which metal and ligand orbitals can interact — all without solving any integrals.
 
+## How It's Best Learned
+Do the octahedral sigma case by hand once, start to finish. Count how many of the six ligand orbitals stay in place under each class of Oh operation, write the reducible representation, reduce it to a₁g + eg + t₁u, and match each piece to metal orbitals in the character table. Then repeat with the twelve pi orbitals and compare which metal d-orbitals are affected.
+
+## Common Misconceptions
+- Any metal orbital can mix with any ligand orbital that is close in energy. (Orbitals interact only if they belong to the same irreducible representation; in a sigma-only octahedral complex no ligand combination has t₂g symmetry, so those d-orbitals stay nonbonding.)
+- When building a reducible representation, every ligand orbital moved by an operation contributes to the character. (Orbitals moved to another position contribute 0; only orbitals left in place contribute, such as +1 for a sigma orbital that is unchanged and −1 for one that is inverted in sign.)
+- A symmetry-allowed transition must be intense. (Group theory says whether the transition dipole can be nonzero and which polarization it has, but the actual size of an allowed transition requires calculating the integral.)
+- SALCs are real orbitals on individual ligands. (A SALC is a combination of orbitals spread over several ligands, built to match one irreducible representation.)
+
 ## Questions
 
 ```yaml

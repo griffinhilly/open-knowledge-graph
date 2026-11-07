@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Cluster compounds contain three or more metal (or main group) atoms bonded directly to one another, forming polyhedral frameworks. Their structures are governed by electron-counting rules — particularly Wade's rules, which predict the cluster geometry from the number of skeletal electron pairs (SEP). These rules unify the structural chemistry of boranes, carboranes, and transition metal clusters under a single electron-counting framework, revealing deep connections between apparently disparate classes of compounds.
 
+## How It's Best Learned
+Work a fixed counting routine on a short list of boranes first: count vertices, subtract the electrons used in terminal bonds, add the charge, and compare SEP with n. Then hold a deltahedron model and remove one or two vertices to see the nido and arachno shapes. Only after that, swap in isolobal metal fragments and count transition metal clusters the same way.
+
+## Common Misconceptions
+- The SEP count includes every valence electron in the molecule. (Skeletal electron pairs count only the electrons left for cage bonding after terminal B-H or M-CO bonds are accounted for.)
+- A nido cluster has one more vertex than its closo partner. (A nido cluster has the shape of the next-larger closo polyhedron with one vertex missing, so it has fewer vertices than that parent.)
+- Adding electrons to a cluster should make the cage tighter, since more electrons mean more bonding. (Electrons beyond n+1 pairs enter antibonding skeletal orbitals, and the cage opens.)
+- Wade's rules apply only to boranes. (Through the isolobal analogy, fragments such as Fe(CO)₃ count like BH, so many transition metal clusters follow the same rules.)
+
 ## Questions
 
 ```yaml

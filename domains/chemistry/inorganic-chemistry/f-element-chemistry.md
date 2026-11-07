@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 The f-block elements — lanthanides (4f) and actinides (5f) — have distinctive chemistry governed by the shielded, core-like nature of f-orbitals. Lanthanide chemistry is dominated by the +3 oxidation state, large coordination numbers (8-12), and ionic bonding, with minimal crystal field effects because f-orbitals have negligible overlap with ligands. Actinide chemistry, especially for early actinides (U, Np, Pu), shows greater oxidation state variability and more covalent character due to the more extended 5f orbitals. The lanthanide contraction — the steady decrease in ionic radius across the 4f series — has consequences that ripple through the entire periodic table.
 
+## How It's Best Learned
+Build a side-by-side table for a first-row transition metal ion, a Ln³⁺ ion and uranium. Compare orbital extent, crystal field splitting, common oxidation states, coordination numbers and band widths. Then plot Ln³⁺ radii from La to Lu and place Zr⁴⁺ and Hf⁴⁺ next to each other to see the lanthanide contraction and its effect on the 5d metals.
+
+## Common Misconceptions
+- f-orbitals are the outermost orbitals of lanthanides, so they should bond strongly with ligands. (The 4f orbitals lie inside the filled 5s and 5p subshells, so ligands barely interact with them and bonding is mostly ionic.)
+- The lanthanide contraction is caused by adding more electrons, which pulls the ion inward. (It comes from the poor shielding of each added 4f electron, so the effective nuclear charge felt by the outer electrons rises across the series.)
+- Actinides behave just like lanthanides one row down. (Early actinides such as U, Np and Pu have more extended 5f orbitals, more covalent bonding and oxidation states up to +6 for U and +7 for Np and Pu; later actinides from americium on look more lanthanide-like.)
+- Lanthanide colors change with the ligands the way transition metal colors do. (Because the 4f orbitals are shielded, f-f bands are sharp and their positions change little with the ligand environment.)
+
 ## Questions
 
 ```yaml

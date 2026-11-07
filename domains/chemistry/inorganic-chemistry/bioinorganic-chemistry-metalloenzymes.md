@@ -30,6 +30,14 @@ status: validated
 ## Core Idea
 Bioinorganic chemistry examines the roles of metal ions in biological systems. About one-third of all enzymes require metal cofactors for function. Metalloenzymes use the unique properties of transition metals — variable oxidation states, Lewis acidity, tunable redox potentials, and flexible coordination geometry — to catalyze reactions that purely organic molecules cannot. Understanding these systems requires applying coordination chemistry principles (crystal field theory, electron transfer mechanisms, HSAB theory) to the biological context of protein active sites.
 
+## How It's Best Learned
+Study one active site at a time as a coordination complex. For each, list the metal, its oxidation states, its donor atoms, and its geometry, then ask what the protein adds. Comparing heme sites works well: hemoglobin with a histidine fifth ligand and cytochrome P450 with a cysteine fifth ligand bind the same iron-porphyrin unit but do different jobs.
+
+## Common Misconceptions
+- The metal does the chemistry and the protein is just a scaffold that holds it. (The protein sets the donor atoms, geometry, hydrogen bonding and water access, and these tune the metal's redox potential and reactivity.)
+- A metal ion behaves the same in an enzyme as it does in water. (Free Fe²⁺ is oxidized irreversibly by O₂, while the iron in hemoglobin binds O₂ reversibly because of its protein environment.)
+- Zinc enzymes must work through redox chemistry, since they contain a transition metal. (Zn²⁺ is d¹⁰ and does not change oxidation state in these enzymes; it acts as a Lewis acid that activates water or substrate.)
+
 ## Questions
 
 ```yaml

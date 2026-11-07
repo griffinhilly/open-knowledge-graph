@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 Main group chemistry encompasses the s-block and p-block elements, whose chemistry is governed by trends in electronegativity, ionization energy, atomic radius, and oxidation states across and down the periodic table. Key organizing concepts include diagonal relationships (similarities between elements diagonally adjacent in the periodic table), the inert pair effect (reluctance of heavier elements to use their outermost s-electrons in bonding), and the unique first-row anomaly (the lightest element in each group often behaves differently from its heavier congeners).
 
+## How It's Best Learned
+Work from a blank periodic table and annotate it. Draw arrows for the radius, ionization energy and electronegativity trends, then mark the three exceptions: diagonal pairs (Li/Mg, Be/Al, B/Si), the first-row elements, and the heavy p-block elements that favor the lower oxidation state. For each mark, write one compound that shows it, such as N₂ versus P₄ or Tl⁺ versus Tl³⁺.
+
+## Common Misconceptions
+- The inert pair effect means the s-electrons cannot be removed at all. (Tl³⁺, Pb⁴⁺ and Bi⁵⁺ compounds exist; the effect makes the lower oxidation state more stable, and those higher-state compounds tend to be strong oxidants.)
+- The lightest element in a group is a typical member, so its chemistry predicts the rest. (First-row elements are often anomalous; nitrogen forms N≡N, while phosphorus forms P₄ with single bonds.)
+- Elements in the same group behave alike, so lithium should resemble sodium more than any other element. (Through the diagonal relationship, lithium resembles magnesium in several properties because their charge densities are similar.)
+- Boron and aluminum are in the same group, so their bonding should look the same. (Small, electron-deficient boron forms three-center bonds and clusters, while larger, more electropositive aluminum leans toward ionic compounds and higher coordination numbers.)
+
 ## Questions
 
 ```yaml

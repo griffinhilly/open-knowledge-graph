@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 The vivid colors of transition metal complexes arise from electronic transitions between d-orbitals split by the crystal field. A complex absorbs light at wavelengths corresponding to the energy gap Δ, and we perceive the complementary color to what is absorbed. Selection rules (Laporte and spin) govern which transitions are allowed, explaining why some complexes are intensely colored while others are pale.
 
+## How It's Best Learned
+Line up a few solutions side by side with their UV-Vis spectra: [Mn(H₂O)₆]²⁺, [Co(H₂O)₆]²⁺, CoCl₄²⁻ and MnO₄⁻. For each, read off the absorption wavelength, find the observed color on a color wheel, and note the molar absorptivity. Then explain each intensity with the selection rules: spin-forbidden, Laporte-forbidden, relaxed by lost symmetry, or charge transfer.
+
+## Common Misconceptions
+- A complex is the color of the light it absorbs. (We see the complementary color; a complex that absorbs orange light appears blue.)
+- A deeper color means a larger Δ. (Intensity depends on how allowed the transition is, while Δ sets the wavelength absorbed; CoCl₄²⁻ has a smaller Δ than [Co(H₂O)₆]²⁺ but is more intensely colored.)
+- Every intensely colored transition metal compound owes its color to d-d transitions. (Permanganate and chromate get their intense color from charge-transfer transitions, which are Laporte-allowed.)
+- A forbidden transition does not happen at all. (Vibronic coupling and spin-orbit coupling relax the rules, so forbidden transitions still occur with low intensity.)
+
 ## Questions
 
 ```yaml

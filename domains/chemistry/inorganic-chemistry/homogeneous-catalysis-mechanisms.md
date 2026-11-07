@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Homogeneous catalysis by transition metal complexes proceeds through well-defined catalytic cycles composed of elementary organometallic steps. Cross-coupling reactions (Suzuki, Heck, Sonogashira), hydroformylation, and asymmetric catalysis each involve specific sequences of oxidative addition, transmetallation, migratory insertion, and reductive elimination. Understanding the detailed mechanism of each cycle enables rational optimization of catalyst structure, ligand choice, and reaction conditions for selectivity and efficiency.
 
+## How It's Best Learned
+Draw the Suzuki cycle first as a template: oxidative addition, transmetallation, reductive elimination, with Pd oxidation state at each corner. Then redraw it for the Heck reaction, swapping transmetallation for alkene insertion and β-hydride elimination, and mark which step changed. Finish with hydroformylation, tracing which insertion step sets linear versus branched product.
+
+## Common Misconceptions
+- Each named coupling reaction has its own unrelated mechanism. (Most palladium cross-couplings share oxidative addition and reductive elimination; they differ mainly in the step that brings in the second partner.)
+- In the Suzuki reaction the base only neutralizes acid formed in the reaction. (The base also activates the boronic acid for transmetallation.)
+- The Heck reaction ends with reductive elimination of the coupled product, like Suzuki. (The product leaves by β-hydride elimination; the base then removes HX from Pd to regenerate Pd(0).)
+- High enantioselectivity requires a large energy difference between the two pathways. (A difference of only 2-3 kcal/mol between competing transition states is enough for very high enantiomeric excess.)
+
 ## Questions
 
 ```yaml

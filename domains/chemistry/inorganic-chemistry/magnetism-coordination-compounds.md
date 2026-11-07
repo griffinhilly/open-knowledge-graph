@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 The magnetic behavior of coordination compounds is determined by the number of unpaired electrons, which depends on the d-electron configuration and the crystal field splitting. Paramagnetic complexes (with unpaired electrons) are attracted to magnetic fields; diamagnetic complexes (all electrons paired) are weakly repelled. The spin-only magnetic moment formula μ = √(n(n+2)) BM, where n is the number of unpaired electrons, provides a first approximation that connects magnetic measurements directly to electronic structure.
 
+## How It's Best Learned
+Make a lookup table of spin-only moments for n = 1 to 5, then work backward from measured values to n, to the d-electron configuration, to the spin state. Pair this with one ion in two ligand fields, such as Fe²⁺ with H₂O and with CN⁻, drawing both orbital fillings. Finally, look at cases where measured moments differ from spin-only values and identify the orbital contribution.
+
+## Common Misconceptions
+- The number of unpaired electrons depends only on the metal ion. (The same d⁶ Fe²⁺ ion has four unpaired electrons with H₂O and none with CN⁻, because the ligand sets Δ relative to the pairing energy.)
+- Diamagnetic compounds have no response to a magnet. (Diamagnetic substances are weakly repelled by a magnetic field.)
+- A measured moment of 4.9 BM identifies the metal and its oxidation state. (It gives the number of unpaired electrons, four here, which several configurations such as high-spin d⁴ and d⁶ share.)
+- The spin-only formula works equally well for every metal. (It ignores orbital contributions, so it is weaker for heavier metals, for ions with orbitally degenerate ground states, and for lanthanides.)
+
 ## Questions
 
 ```yaml

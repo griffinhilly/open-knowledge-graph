@@ -30,6 +30,15 @@ status: validated
 ## Core Idea
 Crystal field theory (CFT) explains the electronic structure of transition metal complexes by treating ligands as point charges that create an electrostatic field around the metal ion. This field splits the five degenerate d-orbitals into groups of different energy, and the pattern of splitting depends on the geometry of the complex. The magnitude of this splitting (Δ) determines the color, magnetism, and stability of the complex.
 
+## How It's Best Learned
+Place point charges on the x, y and z axes of a 3D d-orbital model and ask which lobes they hit. That gives the octahedral eg and t₂g sets. Then fill electrons for d¹ to d¹⁰ in a table, once with Δ_oct smaller than P and once larger, and compute CFSE for each. Repeat the axis exercise for tetrahedral and square planar ligand positions.
+
+## Common Misconceptions
+- The ligands' field adds energy to every d-orbital, so the complex is destabilized. (Relative to the barycenter, the t₂g set drops by 0.4Δ_oct and the eg set rises by 0.6Δ_oct, so many configurations gain net stabilization.)
+- Electrons fill the lower set completely before entering the upper set. (For d⁴ to d⁷ that happens only when Δ is larger than the pairing energy P; with weak-field ligands electrons occupy all five orbitals singly before pairing.)
+- The tetrahedral splitting has the same pattern as octahedral, just smaller. (The pattern is inverted: the e set lies lower and the t₂ set higher.)
+- Crystal field theory describes real metal-ligand bonds. (CFT treats ligands as point charges and ignores covalency; ligand field theory adds orbital overlap to fix this.)
+
 ## Questions
 
 ```yaml

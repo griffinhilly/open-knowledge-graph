@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Heterogeneous catalysis occurs at the interface between a solid catalyst (typically a transition metal or metal oxide) and gas-phase or liquid-phase reactants. Substrates adsorb onto the surface (chemisorption), undergo bond-breaking and bond-making at active sites (often under-coordinated metal atoms at steps, edges, and defects), and desorb as products. The Sabatier principle and volcano plots correlate catalytic activity with the strength of substrate-surface interaction, providing a rational framework for catalyst selection and design.
 
+## How It's Best Learned
+Draw the Haber-Bosch volcano with metals placed by nitrogen binding strength, and label each side with its rate-limiting step: N₂ dissociation on the weak-binding side, hydrogenation and NH₃ desorption on the strong-binding side. Then walk one N₂ molecule through adsorption, dissociation, hydrogenation and desorption on an iron surface, and compare each stage with the matching step in a homogeneous cycle.
+
+## Common Misconceptions
+- The best catalyst is the metal that binds the reactant most strongly. (The Sabatier principle says activity peaks at intermediate binding; if binding is too strong, products cannot leave and the surface stays blocked.)
+- All surface atoms are equally active. (Under-coordinated atoms at steps, edges and defects are often the active sites, which is one reason particle size and shape matter.)
+- Any adsorption activates the molecule for reaction. (Physisorption is weak and leaves the molecule's bonds nearly unchanged; chemisorption forms bonds to the surface and can weaken or break bonds in the substrate.)
+- The support under a nanoparticle catalyst is inert filler. (The support keeps particles from sintering into larger, less active particles and can also affect their electronic structure.)
+
 ## Questions
 
 ```yaml

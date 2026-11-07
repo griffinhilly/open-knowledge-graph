@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Homogeneous transition metal catalysis proceeds through catalytic cycles — closed sequences of elementary organometallic reactions (oxidative addition, migratory insertion, reductive elimination, beta-hydride elimination) that convert substrates to products while regenerating the active catalyst. Wilkinson's catalyst [RhCl(PPh₃)₃] for alkene hydrogenation and Grubbs' catalyst for olefin metathesis are landmark examples that illustrate how understanding each elementary step enables rational catalyst design.
 
+## How It's Best Learned
+Draw each cycle as a closed loop and label every intermediate with its electron count and oxidation state. Then name the elementary step on each arrow. Doing this for Wilkinson's hydrogenation first, then for Grubbs metathesis, shows that one cycle moves between Rh(I) and Rh(III) while the metathesis steps keep the ruthenium oxidation state unchanged.
+
+## Common Misconceptions
+- The complex you put in the flask is the species that does the catalysis. (Wilkinson's catalyst is a precatalyst; it must lose a PPh₃ ligand to form the 14-electron species that enters the cycle.)
+- Every catalytic cycle involves oxidative addition and reductive elimination. (Olefin metathesis runs through [2+2] cycloaddition and cycloreversion of a metal carbene, with no change in metal oxidation state.)
+- Every intermediate in a cycle should obey the 18-electron rule. (Active intermediates are often 14- or 16-electron species; their open coordination sites are what let substrates bind.)
+- In metathesis the C=C bonds of the reacting alkenes stay intact and only swap partners. (The C=C bonds are broken and new ones form through the metallacyclobutane intermediate.)
+
 ## Questions
 
 ```yaml

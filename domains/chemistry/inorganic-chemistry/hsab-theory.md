@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 Hard-soft acid-base (HSAB) theory, developed by Ralph Pearson, predicts that hard acids prefer to bind hard bases and soft acids prefer soft bases. Hard species are small, highly charged, and weakly polarizable; soft species are large, low-charge, and highly polarizable. This qualitative framework explains trends in complex stability, mineral occurrence, biological metal selection, and ligand preferences that simple electrostatics or electronegativity alone cannot predict.
 
+## How It's Best Learned
+Sort a list of ions into hard, borderline and soft columns using size, charge and polarizability, and write the reason beside each. Then test the sorting on paired cases: Ag⁺ versus Al³⁺ with F⁻ and I⁻, Fe³⁺ versus Fe²⁺, and gold versus aluminum minerals. Predict which pairing is favored before checking it against the known stability or occurrence.
+
+## Common Misconceptions
+- Hardness is a fixed property of an element. (It depends on oxidation state and charge; Fe³⁺ is hard while Fe²⁺ is borderline.)
+- A hard-soft mismatch cannot form a stable complex. (HSAB describes preferences; mismatched complexes can exist and be stable, just less stable than matched pairs.)
+- Hard and soft mean strong and weak acids. (Hardness describes size, charge and polarizability, which is separate from acid strength; a soft acid can bind its preferred bases very strongly.)
+- Soft-soft bonds are strong because of electrostatic attraction, like hard-hard bonds. (Hard-hard pairs are held mainly by electrostatics, while soft-soft pairs rely mainly on covalent orbital overlap.)
+
 ## Questions
 
 ```yaml

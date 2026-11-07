@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Metallocenes are sandwich compounds in which a metal atom is bonded symmetrically between two parallel cyclopentadienyl (Cp) rings. Ferrocene, Fe(η⁵-C₅H₅)₂, is the archetype: an 18-electron, air-stable compound whose discovery in 1951 launched modern organometallic chemistry. The bonding involves donation from the filled pi-orbitals of the Cp rings into metal orbitals, combined with back-donation from metal d-orbitals into empty Cp π* orbitals, producing a delocalized, highly stable metal-ring interaction.
 
+## How It's Best Learned
+Count electrons for the first-row metallocenes from chromocene to nickelocene in one row of a table, and next to each count write its observed behavior: air-sensitive, reducing, stable, paramagnetic. Then draw the ferrocene MO diagram with the Cp combinations labeled a₁, e₁ and e₂ and fill it for 18, 19 and 20 electrons to see where the extra electrons go.
+
+## Common Misconceptions
+- Ferrocene has five separate Fe-C bonds to each ring. (The ring's delocalized pi system bonds to the metal as a whole, with all five Fe-C distances equal.)
+- The neutral and ionic counting methods give different totals for ferrocene. (Fe⁰ with two 5-electron Cp rings and Fe²⁺ with two 6-electron Cp⁻ rings both give 18.)
+- The metal-ring bonding in ferrocene is all sigma-type. (Sigma, pi and delta interactions all contribute, and the pi-type e₁ interactions are the strongest.)
+- Cobaltocene should be as air-stable as ferrocene, since cobalt sits next to iron. (Cobaltocene has 19 electrons, one in a weakly antibonding orbital, so it is a strong reducing agent that readily forms 18-electron cobaltocenium.)
+
 ## Questions
 
 ```yaml

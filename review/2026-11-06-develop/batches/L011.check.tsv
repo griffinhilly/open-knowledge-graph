@@ -1,0 +1,66 @@
+domains/history/history-of-science/big-science-paradigm.md	how	3	0	ok
+domains/history/history-of-science/big-science-paradigm.md	mis	8	0	ok	Older text: 'Big Science' was popularized by Alvin Weinberg (1961) before Price's 1963 book; CERN member count (23) is out of date.
+domains/history/history-of-science/climate-science-history.md	how	3	0	ok
+domains/history/history-of-science/climate-science-history.md	mis	8	0	ok
+domains/history/history-of-science/cold-war-science.md	how	3	0	ok
+domains/history/history-of-science/cold-war-science.md	mis	8	1	fixed	Bullet 2 said the Cold War 'built' the grant-funded research university (copied overstatement; research universities and wartime OSRD contracts came earlier). Now 'greatly expanded the federally funded research university'. Older text: Q5 credits DARPA with GPS (GPS was a DoD/Air Force program).
+domains/history/history-of-science/colonial-science-knowledge.md	how	3	0	ok
+domains/history/history-of-science/colonial-science-knowledge.md	mis	8	0	ok
+domains/history/history-of-science/computing-revolution-turing-von-neumann.md	how	3	0	ok
+domains/history/history-of-science/computing-revolution-turing-von-neumann.md	mis	8	1	fixed	Bullet 2 dropped a 'when': ENIAC was converted in 1948 to run programs from its function tables. Now 'at first set by rewiring'.
+domains/history/history-of-science/copernican-revolution.md	how	3	0	ok
+domains/history/history-of-science/copernican-revolution.md	mis	8	0	ok
+domains/history/history-of-science/darwin-evolution-reception.md	how	3	0	ok
+domains/history/history-of-science/darwin-evolution-reception.md	mis	8	1	fixed	Bullet 4 said flatly that Darwin did not endorse applying selection to social policy (copied from older Q4); Descent of Man contains remarks that cut the other way. Now 'historians still debate how far Darwin himself shared its views'. Older Q4 answer keeps the absolute.
+domains/history/history-of-science/dna-discovery-molecular-biology.md	how	3	0	ok
+domains/history/history-of-science/dna-discovery-molecular-biology.md	mis	8	0	ok
+domains/history/history-of-science/electromagnetic-revolution-maxwell.md	how	3	0	ok
+domains/history/history-of-science/electromagnetic-revolution-maxwell.md	mis	8	0	ok	Older text: Maxwell's 1865 theory had about 20 equations; the four-equation form is Heaviside's. The 'transverse undulations' quote is from 1862, not 1865.
+domains/history/history-of-science/enlightenment-science.md	how	3	0	ok
+domains/history/history-of-science/enlightenment-science.md	mis	8	0	ok
+domains/history/history-of-science/enlightenment-science.md	q:2:explanation	1	1	fixed	Said academies abroad 'copied the model'; the Paris Académie (1666) was a salaried state body on a different model. Clause removed.
+domains/history/history-of-science/eugenics-history.md	how	3	0	ok
+domains/history/history-of-science/eugenics-history.md	mis	8	0	ok	Older Core Idea: 'murdered millions on the basis of presumed genetic deficiency' blurs T4 (about 200,000-300,000) with the Holocaust.
+domains/history/history-of-science/galileo-and-church.md	how	3	0	ok
+domains/history/history-of-science/galileo-and-church.md	mis	8	0	ok
+domains/history/history-of-science/germ-theory-revolution.md	how	3	0	ok
+domains/history/history-of-science/germ-theory-revolution.md	mis	8	0	ok	Older Q5: Pasteur was from Franche-Comte, not Alsace, and he returned (not refused) the Bonn honorary degree.
+domains/history/history-of-science/green-revolution-agriculture.md	how	3	0	ok
+domains/history/history-of-science/green-revolution-agriculture.md	mis	8	1	fixed	Bullet 3 'gains went mostly to farmers who could afford inputs' dropped the time qualifier; smallholders adopted later and consumers gained from lower prices. Now 'Early gains went disproportionately to...'.
+domains/history/history-of-science/history-of-astronomy.md	how	3	0	ok
+domains/history/history-of-science/history-of-astronomy.md	mis	8	0	ok	Older text: Q2 says Hubble's 1929 paper showed nebulae were galaxies (that was 1924-25, as the Explainer says); 'William Fraunhofer' should be Joseph von Fraunhofer.
+domains/history/history-of-science/history-of-chemistry-alchemy-to-modern.md	how	3	0	ok
+domains/history/history-of-science/history-of-chemistry-alchemy-to-modern.md	mis	8	0	ok
+domains/history/history-of-science/history-of-mathematics.md	how	3	0	ok
+domains/history/history-of-science/history-of-mathematics.md	mis	8	0	ok
+domains/history/history-of-science/history-of-medicine.md	how	3	0	ok
+domains/history/history-of-science/history-of-medicine.md	mis	8	0	ok
+domains/history/history-of-science/history-of-psychology-science.md	how	3	0	ok
+domains/history/history-of-science/history-of-psychology-science.md	mis	8	0	ok
+domains/history/history-of-science/history-of-psychology-science.md	q:1:explanation	1	1	fixed	Said behaviorism 'set aside memory, reasoning, and language' (copied overstatement; verbal-learning research and Skinner's Verbal Behavior studied them in S-R terms). Now 'pushed internal processes such as memory, reasoning, and language to the margins'. Older Explainer (40-60% fail) conflicts with Q3 (36-39% replicated).
+domains/history/history-of-science/history-of-vaccination.md	how	3	0	ok
+domains/history/history-of-science/history-of-vaccination.md	mis	8	0	ok
+domains/history/history-of-science/human-genome-project.md	how	3	0	ok
+domains/history/history-of-science/human-genome-project.md	mis	8	1	fixed	Bullet 3 'much non-coding DNA has regulatory and structural roles' overstated a disputed fraction (ENCODE's claim is contested). Now 'some ... How large a share is functional is still debated.'
+domains/history/history-of-science/human-genome-project.md	q:4:explanation	1	1	fixed	Said Sanger methods read fragments 'a few at a time'; capillary machines ran 96-384 reads per run. Now 'at most a few hundred per run'.
+domains/history/history-of-science/internet-origins-arpanet.md	how	3	0	ok
+domains/history/history-of-science/internet-origins-arpanet.md	mis	8	0	ok
+domains/history/history-of-science/internet-origins-arpanet.md	q:4:explanation	1	0	ok	Older text: Mosaic was not the first graphical browser (ViolaWWW, Erwise, WorldWideWeb came earlier), and earlier browsers were not all text-only.
+domains/history/history-of-science/manhattan-project-science-policy.md	how	3	0	ok
+domains/history/history-of-science/manhattan-project-science-policy.md	mis	8	1	fixed	Bullet 2 'Most supported use' is unsupported (the July 1945 Met Lab poll favored a demonstration-type option); Szilard's petition asked for terms or a warning. Now 'Many supported use ... a demonstration or a warning first'.
+domains/history/history-of-science/manhattan-project-science-policy.md	q:4:explanation	1	0	ok	Older Q4 answer: Fermi and Meitner fled Italy and Austria in 1938, not Germany; 'many leaders were European Jews' overstates. Older Q0: Bulletin was founded by Rabinowitch and Goldsmith, not Szilard/Einstein/Russell; Clock dates to 1947.
+domains/history/history-of-science/newtonian-synthesis.md	how	3	0	ok
+domains/history/history-of-science/newtonian-synthesis.md	mis	8	0	ok
+domains/history/history-of-science/newtonian-synthesis.md	q:4:explanation	1	1	fixed	Absolutes: 'no general formula' (Sundman found a convergent series in 1912), 'differences grow' and 'ruins prediction' (not every three-body configuration is chaotic). Now 'no general closed-form formula', 'can grow', 'can ruin'.
+domains/history/history-of-science/nuclear-weapons-history.md	how	3	0	ok
+domains/history/history-of-science/nuclear-weapons-history.md	mis	8	1	fixed	Bullet 3 'under attack by US depth charges' dropped the qualifier: the US dropped practice (signaling) depth charges. Now 'harassed by US practice depth charges'.
+domains/history/history-of-science/peer-review-history.md	how	3	0	ok	Style: 'each failure in the file' referred to the source file; now 'each known failure'.
+domains/history/history-of-science/peer-review-history.md	mis	8	0	ok
+domains/history/history-of-science/plate-tectonics-revolution.md	how	3	0	ok
+domains/history/history-of-science/plate-tectonics-revolution.md	mis	8	1	fixed	Bullet 3 'No oceanic crust is older than about 200 million years' is an absolute copied from the Explainer (possible ~340 Ma crust in the eastern Mediterranean; older ophiolites on land). Now 'Nearly all oceanic crust on the seafloor is younger than...'.
+domains/history/history-of-science/quantum-revolution-origins.md	how	3	0	ok
+domains/history/history-of-science/quantum-revolution-origins.md	mis	8	0	ok
+domains/history/history-of-science/relativity-revolution.md	how	3	0	ok
+domains/history/history-of-science/relativity-revolution.md	mis	8	0	ok
+domains/history/history-of-science/science-and-empire.md	how	3	0	ok	Style: 'the file's examples' referred to the source file; now 'the examples'.
+domains/history/history-of-science/science-and-empire.md	mis	8	0	ok

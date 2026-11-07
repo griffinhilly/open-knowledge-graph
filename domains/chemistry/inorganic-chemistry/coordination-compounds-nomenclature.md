@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Coordination compounds are named using a systematic IUPAC nomenclature that encodes the identity and number of ligands, the central metal, its oxidation state, and the overall charge of the complex. Mastering this naming system is essential because the name uniquely specifies the compound's composition and structure.
 
+## How It's Best Learned
+Name compounds in both directions. Take a formula such as [Co(NH₃)₅Cl]Cl₂ and build the name in fixed steps: split cation from anion, list ligands alphabetically, add count prefixes, work out the oxidation state, and add "-ate" if the complex is an anion. Then reverse the process, turning names like potassium hexacyanidoferrate(II) back into formulas.
+
+## Common Misconceptions
+- Ligands are alphabetized by their full name, including prefixes, so "dichlorido" goes under d. (Multiplying prefixes such as di-, tri- and bis- are ignored when alphabetizing, so dichlorido sorts under c.)
+- The Roman numeral gives the charge of the whole complex ion. (It gives the oxidation state of the metal; for [Co(NH₃)₅Cl]²⁺ the ion is +2 and cobalt is +3.)
+- Ions outside the brackets are ligands too. (Counter ions outside the brackets are named separately, as in the "chloride" that ends pentaamminechloridocobalt(III) chloride.)
+- The "-ate" ending is used for any complex that contains anionic ligands. (It is used only when the overall complex ion carries a negative charge.)
+
 ## Questions
 
 ```yaml

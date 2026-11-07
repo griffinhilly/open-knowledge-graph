@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Chelating ligands (polydentate ligands) form more stable complexes than equivalent monodentate ligands, a phenomenon called the chelate effect. This enhanced stability is primarily entropic in origin: replacing multiple monodentate ligands with fewer chelating ligands increases the total number of free particles in solution. Stability constants quantify this effect, and the macrocyclic effect extends it further for cyclic ligands.
 
+## How It's Best Learned
+Start from the Ni²⁺ comparison: write both balanced equations, count free particles on each side, and convert the log Kf values into ΔG with ΔG = −RT ln K. Then split ΔG into its enthalpy and entropy parts. Seeing that the TΔS term differs more than ΔH does makes the entropic argument concrete before moving on to ring size and macrocycles.
+
+## Common Misconceptions
+- Chelates are more stable because the metal-ligand bonds are stronger. (For Ni²⁺ with en versus NH₃ the enthalpy changes differ only modestly; most of the gain comes from the increase in free particles, which makes ΔS more favorable.)
+- A large formation constant means the complex exchanges ligands slowly. (Kf describes where equilibrium lies, while lability describes how fast it is reached; a complex can be stable and labile at the same time.)
+- Bigger chelate rings have less strain, so they must form more stable complexes. (Saturated six-membered rings are more flexible and lose more entropy on closing, so five-membered rings like those of en are often more stable; metal size also shifts the preference.)
+- The overall formation constant and the stepwise constants are the same thing. (The overall constant β is the product of the stepwise constants K₁, K₂, K₃ and so on for each ligand added.)
+
 ## Questions
 
 ```yaml

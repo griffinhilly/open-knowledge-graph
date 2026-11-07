@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 Molecular orbital theory applied to transition metal complexes constructs MO diagrams by combining metal d (and s, p) orbitals with symmetry-adapted linear combinations of ligand orbitals. In an octahedral complex, sigma-bonding ligand combinations interact with the metal eg and a₁g orbitals, producing bonding and antibonding MO sets. The t₂g metal orbitals may be nonbonding (sigma-only ligands), destabilized (pi-donors), or stabilized (pi-acceptors). This full MO treatment reproduces and extends CFT/LFT predictions while providing a rigorous orbital basis for understanding bonding.
 
+## How It's Best Learned
+Build the octahedral diagram in stages on one page. Put metal 3d, 4s and 4p on the left and the ligand SALCs on the right, labeled a₁g, eg and t₁u. Connect matching labels, leave t₂g unconnected, and fill the twelve ligand electrons plus the metal d-electrons. Then redraw just the t₂g region twice, once with filled pi-donor orbitals below it and once with empty pi-acceptor orbitals above it.
+
+## Common Misconceptions
+- The eg set in crystal field theory is the same as the bonding eg MOs. (The upper eg level of CFT corresponds to the antibonding eg* MOs; the bonding eg MOs lie lower and hold ligand electrons.)
+- The twelve electrons in the sigma-bonding MOs come from the metal. (They are the ligands' donated electron pairs; the metal d-electrons go into t₂g and eg*.)
+- The t₂g orbitals are nonbonding in every octahedral complex. (They are nonbonding only with sigma-only ligands; pi-donors raise the metal-based t₂g level and pi-acceptors lower it.)
+- MO theory gives different predictions from ligand field theory. (MO theory reproduces the LFT results for Δ and spin state and adds explicit covalency and charge-transfer assignments.)
+
 ## Questions
 
 ```yaml

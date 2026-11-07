@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Transition metals can form direct metal-metal bonds with bond orders from one (single) through four (quadruple), the latter involving sigma, two pi, and one delta component. The delta bond — unique to metal-metal bonding — arises from face-to-face overlap of d_xy orbitals and explains the eclipsed geometry of quadruply bonded species like [Re₂Cl₈]²⁻. Metal-metal bond strength and order are analyzed using the MO framework, with the effective bond order determined by the number of bonding minus antibonding electrons divided by two.
 
+## How It's Best Learned
+Draw the d_z², d_xz, d_yz and d_xy orbitals on two metals facing each other along z, and sketch how each pair overlaps: head-on, side-on, and face-to-face. Then build the σ < π < δ < δ* < π* < σ* ladder and fill it for d⁴-d⁴, d⁵-d⁵ and d⁶-d⁶ pairs, computing the bond order each time. Rotate one half of a model by 45° to see the δ overlap vanish.
+
+## Common Misconceptions
+- A quadruple bond is four times as strong as a single bond. (The π and δ components are weaker than the σ component, and the δ component is the weakest, so a quadruple bond is far less than four times as strong.)
+- All five d-orbitals on each metal take part in the quadruple bond. (Four do; in [Re₂Cl₈]²⁻ the d_x²−y² orbitals point at the chloride ligands and are used for metal-ligand bonding.)
+- The eclipsed Cl arrangement in [Re₂Cl₈]²⁻ is chosen to reduce steric clash. (Steric repulsion alone would favor the staggered form; the eclipsed geometry is needed for δ overlap.)
+- Adding more d-electrons to a dimer always strengthens the metal-metal bond. (Beyond d⁴-d⁴ the extra electrons enter δ*, π* and σ* orbitals, so the bond order falls.)
+
 ## Questions
 
 ```yaml

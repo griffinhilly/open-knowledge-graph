@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Tanabe-Sugano diagrams plot the energies of all electronic states of a d^n ion as a function of the crystal field splitting parameter Δ/B, where B is the Racah interelectronic repulsion parameter. They provide a complete picture of the allowed electronic transitions for any d-electron configuration in an octahedral field, enabling quantitative analysis of absorption spectra — including the prediction and assignment of multiple absorption bands, the determination of Δ and B from experimental data, and the identification of spin-crossover points.
 
+## How It's Best Learned
+Work one full assignment with a printed d³ diagram and a real spectrum. Convert the band maxima to cm⁻¹, take the ratio of the first two, slide a ruler along the Δ/B axis until the diagram gives the same ratio, then read E/B and solve for B and Δ. Use the third band as a check. After that, move to d⁶ to see the spin-crossover break.
+
+## Common Misconceptions
+- The y-axis shows energy above the free-ion ground term. (The ground state of the complex is plotted along E/B = 0, so the y-axis gives energies relative to whatever the ground state is at that Δ/B.)
+- Every line on the diagram gives an observable absorption band. (Only spin-allowed transitions, those with the same spin multiplicity as the ground state, give strong d-d bands; spin-forbidden ones are weak or not seen.)
+- The lowest-energy band equals Δ for every configuration. (For d³ the first band does equal Δ, but for configurations like d² the band energies depend on both Δ and B, so the diagram is needed to extract Δ.)
+- The Racah parameter B is the same in the complex as in the free ion. (B in the complex is smaller than the free-ion value B₀, and the ratio β = B/B₀ measures covalency.)
+
 ## Questions
 
 ```yaml

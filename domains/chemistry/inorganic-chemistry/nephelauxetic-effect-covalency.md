@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 The nephelauxetic effect ("cloud-expanding" in Greek) describes the reduction of interelectronic repulsion parameters (Racah B and C) in a coordination compound compared to the free ion. When ligands form covalent bonds with the metal, the d-electron cloud expands into ligand-based orbitals, reducing electron-electron repulsion. The nephelauxetic ratio β = B_complex/B_free ion quantifies the degree of covalency: smaller β indicates greater covalency. This effect provides a direct experimental measure of how "ionic" or "covalent" a metal-ligand bond is.
 
+## How It's Best Learned
+Start from a fitted spectrum. Take B for [Cr(H₂O)₆]³⁺ from a Tanabe-Sugano analysis, divide by the free-ion value to get β, and say what the 21% reduction means. Then set the spectrochemical series and the nephelauxetic series side by side and mark ligands that sit in different places, such as F⁻ and Cl⁻, explaining each shift in terms of field strength versus covalency.
+
+## Common Misconceptions
+- A smaller β means a more ionic bond. (A smaller β means B dropped more from the free-ion value, which indicates more covalent delocalization; β near 1 is the ionic limit.)
+- The nephelauxetic series is just the spectrochemical series under another name. (One ranks covalency and the other ranks Δ; Cl⁻ gives a smaller Δ than F⁻ but a larger nephelauxetic effect.)
+- The free-ion B can be used when fitting spectra of complexes. (The reduced B of the complex must be used; the difference from B₀ is often 20-40%.)
+- The cloud expands because the metal ion gets physically larger in the complex. (The d-electrons spread partly onto ligand orbitals through covalent mixing, which increases their average separation and lowers their repulsion.)
+
 ## Questions
 
 ```yaml

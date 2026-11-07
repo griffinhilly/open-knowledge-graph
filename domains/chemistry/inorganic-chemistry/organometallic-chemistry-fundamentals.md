@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Organometallic chemistry studies compounds with direct metal-carbon bonds. These compounds follow predictable electron-counting rules — particularly the 18-electron rule (analogous to the octet rule for main group elements) — and their reactivity is governed by fundamental reaction types: oxidative addition, reductive elimination, migratory insertion, and beta-hydride elimination. Understanding these building blocks is essential for catalysis, where organometallic complexes enable transformations impossible for classical coordination compounds.
 
+## How It's Best Learned
+Count electrons on a graded set of compounds with one counting method throughout: Cr(CO)₆, Fe(CO)₅, Ni(CO)₄, then Vaska's compound and ferrocene. For each, write the metal electrons and every ligand's donation in a column and add them. Then take Vaska's compound through oxidative addition of H₂ and recount, tracking the change in oxidation state, coordination number and electron count.
+
+## Common Misconceptions
+- A complex that does not have 18 electrons must be unstable. (Many stable complexes have 16 electrons, especially square planar d⁸ complexes such as Vaska's compound.)
+- In migratory insertion, the CO moves into the metal-methyl bond. (In the classic case it is the methyl group that migrates onto the adjacent CO to form the acyl.)
+- Oxidative addition means the metal reacts with oxygen. (It means a bond A-B breaks and both fragments bond to the metal, raising its formal oxidation state and coordination number by two.)
+- A cyclopentadienyl ring always donates the same number of electrons. (The count depends on hapticity; an η⁵-Cp donates 5 electrons in the covalent method while an η¹-Cp donates 1.)
+
 ## Questions
 
 ```yaml

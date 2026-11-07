@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Metal carbonyls are complexes where carbon monoxide serves as the primary ligand, bonding to the metal through both sigma donation (C lone pair to metal) and pi back-donation (metal d-electrons to CO π* orbitals). The synergistic sigma/pi bonding produces exceptionally strong metal-carbon bonds. The CO stretching frequency in infrared spectroscopy serves as a sensitive probe of electron density at the metal center, making IR the primary diagnostic tool for characterizing metal carbonyls and their derivatives.
 
+## How It's Best Learned
+Draw the sigma and pi interactions of one M-CO unit as two separate orbital pictures, then combine them. Next, tabulate ν(CO) for free CO, [V(CO)₆]⁻, Cr(CO)₆, [Mn(CO)₆]⁺ and Cr(CO)₅(PPh₃), and explain each shift in terms of electron density at the metal. Practice electron counts on Ni(CO)₄, Fe(CO)₅ and Mn₂(CO)₁₀ alongside.
+
+## Common Misconceptions
+- Coordination lowers ν(CO) because the heavy metal atom slows the vibration. (The drop comes from back-donation into CO π* orbitals, which weakens the C-O bond.)
+- Sigma donation from carbon is what weakens the C-O bond. (Donation from the carbon lone pair has little effect on, or slightly strengthens, the C-O bond; the weakening comes from filling CO π* through back-donation.)
+- A positively charged metal pulls harder on CO, so its CO ligands should show the lowest stretching frequencies. (A more positive metal back-donates less, so in [Mn(CO)₆]⁺ the C-O bond is stronger and ν(CO) is higher than in Cr(CO)₆.)
+- Replacing a CO with PPh₃ should raise the other CO frequencies, because PPh₃ adds a bulky group. (PPh₃ is a stronger sigma-donor and weaker pi-acceptor, so the metal becomes richer in electrons and the remaining CO frequencies fall.)
+
 ## Questions
 
 ```yaml

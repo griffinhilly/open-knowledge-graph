@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 Electron transfer between metal complexes proceeds by two fundamentally different mechanisms. In outer-sphere transfer, the coordination shells of both metal ions remain intact — the electron tunnels through the ligand shells without any bridging ligand being shared. In inner-sphere transfer (the Taube mechanism), a bridging ligand connects the two metal centers, creating a direct pathway for electron flow. Marcus theory provides the quantitative framework for outer-sphere reactions, predicting rates from thermodynamic driving forces and reorganization energies.
 
+## How It's Best Learned
+Begin with Taube's Co/Cr experiment and trace where the chloride goes at each step: precursor complex, electron transfer, successor complex. Then sketch two intersecting parabolas for reactant and product free energy, and slide the product curve downward. Watching the crossing point fall, reach the minimum, and then rise again shows the normal and inverted regions of Marcus theory.
+
+## Common Misconceptions
+- In inner-sphere transfer the bridging ligand carries the electron across as a radical or ion. (The bridge provides an orbital pathway between the metals; the chloride in Taube's experiment moves as Cl⁻ and ends up on chromium after the electron transfer.)
+- Electron transfer is fastest when the driving force is as large as possible. (Marcus theory predicts that when |ΔG°| exceeds λ, the rate falls; this is the inverted region.)
+- If no ligand ends up on the other metal, the reaction must be outer-sphere. (Ligand transfer is strong evidence for a bridge, but a bridged reaction can also leave the ligand on the original metal, so its absence alone does not settle the mechanism.)
+- Reorganization energy comes only from the solvent. (λ includes an inner-sphere part from metal-ligand bond length changes and an outer-sphere part from solvent reorientation.)
+
 ## Questions
 
 ```yaml

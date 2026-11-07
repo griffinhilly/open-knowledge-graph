@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Inorganic materials chemistry designs and synthesizes functional solids with targeted properties. Zeolites (crystalline aluminosilicates with molecular-sized pores) serve as catalysts and molecular sieves; metal-organic frameworks (MOFs, crystalline porous materials built from metal clusters and organic linkers) achieve record surface areas for gas storage and separation; and perovskites (ABX₃ structures) are revolutionizing solar energy conversion and solid-state electronics. Each material class illustrates how controlling structure at the atomic level determines macroscopic function.
 
+## How It's Best Learned
+Compare the three classes in one table with the same columns: building units, how they connect, what sets pore size or band gap, stability limits, and main use. Then trace one function to one structural feature in each: ZSM-5 pore size to shape selectivity, MOF linker length to surface area, and halide substitution in ABX₃ to band gap. Ball-and-stick models of one unit cell per class help.
+
+## Common Misconceptions
+- Porous materials get their porosity from defects or gaps between grains. (In zeolites and MOFs the pores are part of the crystal structure, repeating in every unit cell.)
+- MOFs are more tunable than zeolites, so they should have replaced zeolites in industry. (Zeolites tolerate high temperatures and steam and are inexpensive, while many MOFs degrade at lower temperatures or in moisture.)
+- Shape selectivity is only about which reactant molecules fit into the pores. (Zeolites also show product selectivity and transition-state selectivity, both arising from the same pore confinement.)
+- "Perovskite" refers only to the new halide solar cell materials. (It names the ABX₃ structure type, which also includes long-known oxides such as BaTiO₃ and SrTiO₃.)
+
 ## Questions
 
 ```yaml

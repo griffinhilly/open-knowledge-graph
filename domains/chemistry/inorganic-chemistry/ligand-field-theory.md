@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Ligand field theory (LFT) combines the orbital splitting picture of crystal field theory with the covalent bonding description of molecular orbital theory. It retains CFT's practical framework of d-orbital splitting and high-spin/low-spin configurations while adding the crucial insight that metal-ligand bonds have substantial covalent character. LFT explains why the spectrochemical series exists: pi-donor ligands decrease Δ, pure sigma-donors give intermediate Δ, and pi-acceptor ligands increase Δ through back-bonding interactions.
 
+## How It's Best Learned
+Draw three small energy diagrams side by side for one octahedral metal: a sigma-only ligand such as NH₃, a pi-donor such as Cl⁻, and a pi-acceptor such as CO. In each, add the ligand pi orbitals above or below the metal t₂g level and show which way t₂g moves. Then place each ligand on the spectrochemical series and check that the order follows from the diagrams.
+
+## Common Misconceptions
+- Ligands with more negative charge produce larger splitting. (Anionic halides are weak-field ligands while neutral CO gives a very large Δ; field strength depends mainly on sigma and pi bonding, not charge.)
+- Back-bonding strengthens every bond in the metal carbonyl unit. (It strengthens the metal-carbon bond but weakens the C-O bond, which shows up as a lower CO stretching frequency in IR spectra.)
+- Pi-donor ligands increase Δ because they add electron density to the metal. (Their filled orbitals push the t₂g set up, which shrinks the gap to eg.)
+- Ligand field theory replaces the d-orbital splitting picture of crystal field theory. (LFT keeps the t₂g and eg sets, spin states and CFSE, and adds covalent sigma and pi interactions to explain Δ.)
+
 ## Questions
 
 ```yaml

@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Coordination compounds exhibit a rich variety of isomerism — multiple distinct compounds sharing the same molecular formula but differing in the arrangement of atoms. Structural isomers differ in which atoms are bonded to which (linkage, ionization, coordination isomerism), while stereoisomers share the same connectivity but differ in spatial arrangement (geometric cis/trans and optical isomerism). Recognizing and predicting isomerism is essential for understanding reactivity and biological activity.
 
+## How It's Best Learned
+Use physical models or a 3D viewer and build each case: cis and trans [Co(NH₃)₄Cl₂]⁺, fac and mer MA₃B₃, and both hands of [Co(en)₃]³⁺. Try to rotate one structure onto another before deciding whether they are isomers. Then sort a list of formulas with a decision tree: connectivity differs, giving structural isomers, or arrangement differs, giving stereoisomers.
+
+## Common Misconceptions
+- Two drawings that look different on paper are different isomers. (Many drawings are the same compound rotated; only arrangements that cannot be rotated onto each other count as isomers.)
+- Tetrahedral MA₂B₂ complexes have cis and trans forms like square planar ones. (All four tetrahedral positions are adjacent to each other, so only one arrangement exists.)
+- A complex needs four different ligands to be chiral, as for a carbon stereocenter. ([Co(en)₃]³⁺ has six identical donor atoms but is chiral because its three chelate rings form a propeller.)
+- Geometric isomers are the same compound and differ only in shape. (They are distinct compounds with different colors, dipole moments and reactivity; cisplatin is active while its trans isomer is not.)
+
 ## Questions
 
 ```yaml

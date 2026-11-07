@@ -29,6 +29,15 @@ status: validated
 ## Core Idea
 Ligand substitution in coordination compounds proceeds through dissociative (D), associative (A), or interchange (I) mechanisms, analogous to SN1, SN2, and concerted pathways in organic chemistry. Octahedral complexes predominantly undergo dissociative substitution, while square planar complexes favor associative substitution. The trans effect governs the selectivity of substitution in square planar complexes, and crystal field activation energy (CFAE) determines whether a complex is labile or inert.
 
+## How It's Best Learned
+Compare rate laws side by side: an octahedral substitution whose rate barely depends on the incoming ligand, and a square planar Pt(II) substitution whose rate does. Sketch the five-coordinate intermediate each case implies: a square pyramid after an octahedral complex loses a ligand, and a trigonal bipyramid after a square planar complex gains one. Then work the cisplatin synthesis from [PtCl₄]²⁻ step by step on paper, marking at each step which ligand sits trans to the one being replaced.
+
+## Common Misconceptions
+- An inert complex is one that is thermodynamically stable. (Inertness is about slow ligand exchange; a complex can be inert while its substitution products are thermodynamically favored.)
+- The trans effect and the trans influence are the same thing. (The trans effect is kinetic, a faster substitution trans to certain ligands; the trans influence is a ground-state weakening of the trans bond.)
+- Octahedral and square planar complexes substitute by the same mechanism. (Octahedral complexes mostly react by dissociative or Id pathways, while square planar complexes mostly react associatively through a five-coordinate intermediate.)
+- The trans effect controls which ligand enters. (It controls which ligand leaves, the one trans to the strongest trans-directing ligand, and so sets where the incoming ligand ends up.)
+
 ## Questions
 
 ```yaml

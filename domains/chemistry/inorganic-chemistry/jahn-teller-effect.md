@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 The Jahn-Teller theorem states that any non-linear molecule in an orbitally degenerate electronic state will undergo a geometric distortion that removes the degeneracy and lowers the total energy. In coordination chemistry, this manifests most strongly in octahedral complexes with unequally occupied eg orbitals (especially d⁴ high-spin, d⁷ low-spin, and d⁹ configurations), which distort from perfect octahedral to tetragonally elongated (or compressed) geometries. The effect explains anomalous bond lengths, thermodynamic stabilities, and spectroscopic properties.
 
+## How It's Best Learned
+Draw the octahedral eg and t₂g levels, then redraw them for a z-elongated octahedron, showing d_z² dropping below d_x²−y² and the t₂g set splitting. Fill in electrons for d¹ through d¹⁰ in both high-spin and low-spin forms and mark which ones gain energy from the distortion. Check the predictions against Cu²⁺ crystal structures, where the axial bonds are longer than the equatorial ones.
+
+## Common Misconceptions
+- Any complex with unpaired electrons shows a Jahn-Teller distortion. (The effect needs an orbitally degenerate state; d³ and high-spin d⁵ have unpaired electrons but evenly occupied sets, so no distortion is expected.)
+- The theorem says the distortion must be an elongation. (It predicts a distortion that removes the degeneracy; elongation along z is the common case, but compression also removes it.)
+- The distortion is caused by crystal packing in the solid. (It has an electronic origin, and it appears in absorption spectra and hydration enthalpies as well as crystal structures.)
+- t₂g degeneracy is exempt from the Jahn-Teller theorem. (The theorem covers any orbital degeneracy; t₂g cases give much weaker distortions because those orbitals point between the ligands.)
+
 ## Questions
 
 ```yaml

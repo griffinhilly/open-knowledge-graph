@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Inorganic photochemistry studies the reactions and properties of coordination compounds in electronically excited states. Light absorption promotes electrons to higher-energy orbitals, creating species with dramatically different redox potentials, bond strengths, and reactivities compared to their ground states. The excited-state properties of Ru(bipy)₃²⁺ and related complexes form the basis for photocatalysis, dye-sensitized solar cells, photodynamic therapy, and artificial photosynthesis.
 
+## How It's Best Learned
+Draw a Jablonski-style diagram for [Ru(bipy)₃]²⁺: MLCT absorption, intersystem crossing to the triplet, and phosphorescence or quenching. Next to it, write the ground-state and excited-state redox couples on one potential scale. Then work out whether a given quencher can be oxidized or reduced by the excited state, using the 2.1 eV of stored energy.
+
+## Common Misconceptions
+- An excited state is just a hotter version of the ground state. (Light moves an electron into a different orbital, so the excited state has its own redox potentials, bond strengths and reactivity.)
+- A molecule cannot be both a better oxidant and a better reductant at once. (In the MLCT state of [Ru(bipy)₃]²⁺ the metal has lost an electron and a bipy ligand has gained one, so it is better at both.)
+- A larger driving force always makes excited-state electron transfer faster. (When |ΔG°| exceeds λ, the reaction enters the Marcus inverted region and slows, which can be used to slow charge recombination.)
+
 ## Questions
 
 ```yaml

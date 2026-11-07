@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 Solid state chemistry studies the structure, bonding, and properties of crystalline and amorphous solids. Crystal structures are described by unit cells and space groups; bonding ranges from ionic (NaCl) to covalent (diamond) to metallic (copper). Band theory extends molecular orbital theory to infinite arrays of atoms, explaining why some solids are metals, some are semiconductors, and some are insulators. Defects in crystal lattices — vacancies, interstitials, substitutions — profoundly affect properties like conductivity, color, and catalytic activity.
 
+## How It's Best Learned
+Build band theory up from MO theory: draw the orbitals for 2, 4 and 8 sodium atoms in a chain and watch the levels crowd into a band, then fill it with one electron per atom. Compare that half-filled band with filled-band diagrams for diamond and silicon. For structures, build rock salt and CsCl unit cells with a model kit and count each ion's nearest neighbors.
+
+## Common Misconceptions
+- An insulator has no empty energy levels for electrons. (It has an empty conduction band, but the gap from the full valence band is too large for thermal energy to bridge.)
+- A metal conducts because its electrons are free and not in orbitals. (Metal electrons occupy band levels built from atomic orbitals; conduction is possible because the band is partly filled, so empty levels lie just above the occupied ones.)
+- Defects always make a material worse. (Defects can be useful: vacancies allow ionic conduction, dopants control semiconductor conductivity, and surface defects often serve as catalytic sites.)
+- p-type doping adds positive particles to the crystal. (It adds atoms with one fewer valence electron, such as boron in silicon, which create holes in the valence band that carry current like positive charges.)
+
 ## Questions
 
 ```yaml
