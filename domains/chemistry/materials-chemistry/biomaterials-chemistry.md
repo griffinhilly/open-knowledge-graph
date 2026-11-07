@@ -31,6 +31,15 @@ status: validated
 ## Core Idea
 Biomaterials are materials designed to interface with biological systems for medical purposes — implants, scaffolds, drug delivery vehicles, and diagnostic sensors. The central requirement is biocompatibility: the material must perform its function without eliciting harmful immune responses, toxic leaching, or thrombosis. Biomaterials span all material classes: metals (Ti-6Al-4V for orthopedic implants), ceramics (hydroxyapatite for bone repair), polymers (PLGA for resorbable sutures and drug delivery), and composites (carbon fiber-reinforced PEEK for spinal implants). The material's surface chemistry determines the biological response — protein adsorption within seconds of implantation triggers the cascade of events (inflammation, foreign body reaction, integration or encapsulation) that determines success or failure.
 
+## How It's Best Learned
+Follow one implant through time: draw a titanium hip stem and mark what happens at its surface after seconds (protein adsorption), minutes to hours (cells arrive), days (inflammation) and weeks (integration or encapsulation). Then build a table of one metal, one ceramic and one degradable polymer, listing for each its job in the body and the surface feature that makes it tolerated.
+
+## Common Misconceptions
+- A biocompatible material is one that is chemically inert and causes no response at all. (Every implanted material provokes some response; biocompatibility means the response suits the device's purpose, and some materials, such as hydroxyapatite, are chosen to bond actively with tissue.)
+- Cells recognize the implant material directly. (Proteins adsorb onto the surface within seconds, and cells interact with that adsorbed protein layer.)
+- A strong, corrosion-resistant bulk metal is enough for a good implant. (The surface decides the biological response; in titanium alloys the thin passive oxide layer gives the corrosion resistance and biocompatibility, and damage to it can release ions.)
+- A degradable scaffold should break down as fast as possible so it leaves the body quickly. (The degradation rate has to match the rate of tissue growth; a scaffold that degrades too fast fails before the new tissue can carry load.)
+
 ## Questions
 
 ```yaml

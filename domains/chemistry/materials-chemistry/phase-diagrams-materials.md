@@ -32,6 +32,15 @@ status: validated
 ## Core Idea
 Phase diagrams map the thermodynamically stable phases of a material system as a function of composition, temperature, and pressure. In materials chemistry, binary and ternary phase diagrams are the essential roadmaps for predicting what phases form during synthesis, processing, and service. The eutectic point marks the composition with the lowest melting temperature in a binary system; the peritectic reaction describes a liquid-plus-solid transforming into a different solid on cooling. The lever rule quantifies the relative amounts of coexisting phases at any point in a two-phase region. Spinodal decomposition provides a kinetic pathway for phase separation without nucleation, producing characteristic nanoscale compositional modulations. Mastering phase diagrams is prerequisite to understanding ceramic sintering, glass formation, alloy design, and semiconductor crystal growth.
 
+## How It's Best Learned
+Take the Pb-Sn diagram and cool three compositions by hand: the eutectic composition, one to its left and one to its right. At several temperatures, draw a tie line, read off the phase compositions, apply the lever rule, and sketch the microstructure. Then relate the binary diagram to free energy-composition curves at one temperature and mark the common tangents. Finally, draw a single curve for a system with a miscibility gap and mark its spinodal points.
+
+## Common Misconceptions
+- In a two-phase region, the phases have the overall composition of the alloy. (Each phase has the composition at the ends of the tie line at that temperature; the overall composition only sets how much of each phase there is.)
+- The lever rule fraction of a phase is the length of the lever arm on its own side. (The fraction of a phase is the arm length on the opposite side, from the overall composition to the other phase, divided by the full tie line.)
+- A phase diagram shows the phases a material will have after any processing. (It shows equilibrium phases; fast cooling can produce metastable phases such as glasses that the diagram does not show.)
+- Spinodal decomposition and nucleation are the same process at different speeds. (Inside the spinodal, any small composition fluctuation lowers the free energy, so no nucleation barrier exists; between spinodal and binodal, separation needs nucleation.)
+
 ## Questions
 
 ```yaml

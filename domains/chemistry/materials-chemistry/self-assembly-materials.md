@@ -30,6 +30,15 @@ status: validated
 ## Core Idea
 Self-assembly is the spontaneous organization of components into ordered structures through noncovalent interactions — hydrogen bonding, van der Waals forces, pi-pi stacking, electrostatic attraction, and hydrophobic effects — without external direction. The process is thermodynamically driven: the assembled structure must be at a lower free energy than the disordered components. Self-assembly operates across scales, from molecular (lipid bilayers, DNA origami) to nanoscale (block copolymer morphologies, colloidal crystals) to macroscale (Cheerios floating on milk). The key design principles are complementarity of shape and interactions, reversibility of individual bonds, and the balance between enthalpy and entropy.
 
+## How It's Best Learned
+Begin with one familiar case: sketch lipid molecules in water and show how hiding the tails lowers free energy. Then move to a diblock copolymer and draw how the shape of the A-B interface changes from flat lamellae to cylinders to spheres as one block gets shorter. Finish by comparing a weak, reversible bond with a strong, permanent one to see why only the weak one lets defects anneal out.
+
+## Common Misconceptions
+- Forming an ordered structure has to lower entropy, so self-assembly runs on enthalpy alone. (The total entropy can rise; in the hydrophobic effect, released water molecules gain entropy, and hard colloidal spheres can crystallize because ordered packing leaves them more room to move.)
+- The strongest possible bonds between components give the best assembled structure. (Strong, irreversible bonds lock in wrong contacts; weak reversible interactions let components detach and correct errors.)
+- Block copolymers separate into two bulk layers like oil and water. (The covalent link between blocks stops macroscopic separation, so the blocks form nanoscale domains instead.)
+- Self-assembly only happens in biology. (Synthetic systems such as block copolymers, colloidal crystals and DNA-directed nanoparticle lattices assemble by the same principles.)
+
 ## Questions
 
 ```yaml

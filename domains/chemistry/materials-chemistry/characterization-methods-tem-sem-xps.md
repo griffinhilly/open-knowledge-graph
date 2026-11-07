@@ -29,6 +29,15 @@ status: validated
 ## Core Idea
 Characterization connects synthesis to properties by revealing the structure, composition, and bonding of materials at length scales from atomic to macroscopic. Transmission electron microscopy (TEM) images internal structure with atomic resolution by passing an electron beam through a thin specimen. Scanning electron microscopy (SEM) images surface topography at nanometer resolution by scanning a focused beam across the surface and detecting secondary or backscattered electrons. X-ray photoelectron spectroscopy (XPS) determines surface elemental composition and chemical bonding state by measuring the kinetic energy of electrons ejected by X-ray irradiation. Together with XRD, these three techniques form the core characterization toolkit for materials chemistry.
 
+## How It's Best Learned
+Take one sample, such as iron oxide nanoparticles on a film, and ask what each technique would tell you: SEM for particle shape and spread, TEM for lattice fringes and size, XPS for the iron oxidation state at the surface. Draw the beam path and the detected signal for each. Then practice choosing the technique from the question asked.
+
+## Common Misconceptions
+- SEM and TEM differ mainly in magnification. (They detect different signals: TEM forms images from electrons transmitted through a thin specimen, while SEM detects electrons emitted or backscattered from the surface of a bulk specimen.)
+- An XPS spectrum reports the composition of the whole sample. (Photoelectrons escape without energy loss only from the top few nanometers, so XPS reports surface composition, which can differ from the bulk.)
+- XPS can detect every element. (Hydrogen and helium are not detected in standard XPS.)
+- The bright areas in a secondary-electron SEM image contain heavier elements. (Secondary-electron contrast mainly shows topography such as edges and slopes; compositional contrast by atomic number comes from backscattered electrons.)
+
 ## Questions
 
 ```yaml

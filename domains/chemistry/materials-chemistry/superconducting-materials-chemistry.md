@@ -29,6 +29,15 @@ status: validated
 ## Core Idea
 Superconducting materials exhibit zero electrical resistance and expel magnetic fields (Meissner effect) below a critical temperature (T_c). Conventional superconductors (most elemental metals and simple alloys, T_c < 30 K) are explained by BCS theory: electrons form Cooper pairs mediated by phonon exchange. High-temperature superconductors (HTS), principally the copper oxide (cuprate) family discovered in 1986, achieve T_c values up to 135 K (ambient pressure) through a mechanism still debated. Materials chemistry is central to superconductor development: crystal structure, oxygen stoichiometry, doping level, and processing all control T_c and the critical current density that determines practical utility.
 
+## How It's Best Learned
+Draw the YBCO unit cell layer by layer and color the CuO2 planes and the CuO chains differently. Then remove chain oxygens step by step and track how the hole doping of the planes falls. Compare this with a classic metal superconductor such as niobium in a table of T_c, pairing mechanism, brittleness and ease of wire making.
+
+## Common Misconceptions
+- A superconductor is just a perfect conductor with zero resistance. (A superconductor also expels magnetic flux from its interior when cooled below T_c, the Meissner effect; a merely perfect conductor would keep whatever field it held.)
+- The material with the highest T_c is the most useful superconductor. (Practical use also depends on critical current density, critical field, and whether the material can be made into wire; metallic Nb-Ti remains widely used despite its low T_c.)
+- Cuprate superconductivity happens throughout the whole crystal equally. (It is concentrated in the CuO2 planes, while the other layers act as charge reservoirs that set the hole doping.)
+- The oxygen content of YBCO is a minor detail of processing. (The oxygen in the CuO chains controls hole doping of the planes, and reducing it lowers T_c and eventually turns the material into an insulator.)
+
 ## Questions
 
 ```yaml

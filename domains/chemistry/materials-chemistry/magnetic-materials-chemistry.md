@@ -29,6 +29,15 @@ status: validated
 ## Core Idea
 Magnetic materials chemistry studies how crystal structure, electronic configuration, and chemical composition determine magnetic behavior. Magnetism in solids arises from unpaired electrons whose spins align cooperatively through exchange interactions. The type of exchange — direct, superexchange, double exchange, or RKKY — depends on the orbital overlap geometry and intervening atoms, which are set by crystal chemistry. Ferromagnets (parallel alignment), antiferromagnets (antiparallel alignment), and ferrimagnets (unequal antiparallel) each emerge from specific structural motifs. Materials chemistry controls magnetic properties by manipulating composition (substituting magnetic ions), crystal structure (changing coordination geometry and bond angles), microstructure (grain size, domain wall pinning sites), and dimensionality (thin films, nanoparticles). Applications span permanent magnets, magnetic recording, spintronics, and biomedical imaging.
 
+## How It's Best Learned
+Use spin arrows on a crystal sketch. Draw a 180-degree M-O-M bond and a 90-degree one, place the oxygen p orbitals, and work out the coupling sign for each. Then apply the result to magnetite: put arrows on the tetrahedral and octahedral sites, add up the moments, and compare your answer with the measured value of about 4 Bohr magnetons per formula unit.
+
+## Common Misconceptions
+- Any material with unpaired electrons is a magnet. (Unpaired electrons give paramagnetism; a spontaneous magnetization needs exchange interactions that align the spins cooperatively.)
+- Antiferromagnets and ferrimagnets are both nonmagnetic because their spins point in opposite directions. (In an antiferromagnet the opposed moments cancel, but in a ferrimagnet such as magnetite the two sublattices have unequal moments and give a net magnetization.)
+- The oxygen between two metal ions blocks magnetic coupling. (Superexchange works through the oxygen p orbitals, and the M-O-M bond angle sets whether the coupling is ferromagnetic or antiferromagnetic.)
+- A magnet works as long as it stays below its Curie temperature. (Coercivity falls as temperature rises, so a permanent magnet such as Nd2Fe14B can be partly demagnetized by opposing fields well below its Curie temperature.)
+
 ## Questions
 
 ```yaml

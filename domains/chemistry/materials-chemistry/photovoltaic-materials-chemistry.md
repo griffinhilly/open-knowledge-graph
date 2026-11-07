@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Photovoltaic materials convert sunlight to electricity through the photovoltaic effect: photons with energy greater than the band gap generate electron-hole pairs that are separated by a built-in electric field (p-n junction or heterojunction) and collected as current. The Shockley-Queisser limit sets the maximum theoretical efficiency for a single-junction cell at about 33% (for a 1.34 eV band gap) — photons below the gap are not absorbed, and excess energy above the gap is lost as heat. Materials chemistry drives PV technology: crystalline silicon dominates (95%+ market share, ~26% record efficiency), but thin-film technologies (CdTe, CIGS, perovskites) and multi-junction cells offer routes to higher efficiency or lower cost.
 
+## How It's Best Learned
+Overlay a sketch of the solar spectrum with vertical lines at the band gaps of silicon (1.1 eV) and CdTe (1.45 eV). Shade the photons each gap misses and the excess energy lost as heat above the gap. Then add a second line at 1.7 eV to show how a tandem splits the spectrum. Finish by comparing absorber thickness for silicon and a direct-gap thin film.
+
+## Common Misconceptions
+- A smaller band gap makes a better solar cell because it absorbs more of the spectrum. (A small gap absorbs more photons but gives a low voltage, and more of each photon's energy is lost as heat; single-junction efficiency peaks at an intermediate gap.)
+- High-energy blue photons give more electrical energy per absorbed photon than red ones. (In a single-junction cell, each absorbed photon above the gap gives one electron-hole pair, and the energy above the gap is lost as heat.)
+- Silicon dominates solar power because it is the best possible absorber. (Silicon has an indirect gap and needs thick wafers; its lead comes from a band gap near the single-junction optimum, abundance, mature manufacturing and excellent surface passivation.)
+- The Shockley-Queisser limit caps every solar cell at about 33%. (The limit applies to a single junction under standard sunlight; tandem and multi-junction cells can exceed it.)
+
 ## Questions
 
 ```yaml

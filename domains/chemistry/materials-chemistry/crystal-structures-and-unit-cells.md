@@ -33,6 +33,15 @@ status: validated
 ## Core Idea
 Crystalline solids consist of atoms, ions, or molecules arranged in a periodically repeating three-dimensional pattern. The smallest repeating unit that captures the full symmetry and composition of the crystal is the unit cell. There are 14 Bravais lattices in three dimensions, grouped into 7 crystal systems (cubic, tetragonal, orthorhombic, hexagonal, trigonal, monoclinic, triclinic). Common structure types — FCC, BCC, HCP for metals; rock salt, fluorite, zinc blende for ionic compounds — arise from different ways of packing spheres and filling interstitial sites. The choice of unit cell determines how you calculate density, coordination numbers, and stoichiometry from crystallographic data.
 
+## How It's Best Learned
+Build FCC, BCC and simple cubic cells from balls or a 3D viewer and count the atoms in each using the 1/8, 1/4, 1/2 and 1 shares. Then build rock salt by placing a second FCC set in the octahedral holes of the first. Finish with one density calculation from an edge length, such as alpha-iron, and check it against the known value.
+
+## Common Misconceptions
+- Every atom drawn in a unit cell picture belongs to that cell. (Corner, edge and face atoms are shared with neighboring cells, so an FCC cell with 14 drawn atoms contains 4.)
+- A crystal has one correct unit cell. (Many cells can tile the same lattice; crystallographers usually choose a conventional cell that shows the symmetry, which can be larger than the smallest primitive cell.)
+- BCC is a close-packed structure, like FCC. (BCC fills about 68% of space; FCC and HCP are the close-packed structures, at about 74%.)
+- The radius ratio rule reliably predicts the structure of an ionic compound. (It is a rough guide that ignores covalent character and polarization, and many real compounds break it.)
+
 ## Questions
 
 ```yaml

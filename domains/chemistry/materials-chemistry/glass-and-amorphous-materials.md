@@ -29,6 +29,15 @@ status: validated
 ## Core Idea
 Amorphous solids lack the long-range periodic order of crystals but retain short-range order — local bonding geometries are similar to the crystalline phase, but the pattern does not repeat over long distances. Glasses are the most important class of amorphous materials, formed when a liquid is cooled fast enough to bypass crystallization. The glass transition temperature (T_g) marks the reversible transformation between the liquid-like supercooled state and the rigid glassy state. Zachariasen's rules predict which oxide compositions form glasses: network formers (SiO2, B2O3, P2O5) build continuous random networks; network modifiers (Na2O, CaO) break bridging oxygen bonds and lower T_g and viscosity; intermediates (Al2O3) can act as either.
 
+## How It's Best Learned
+Compare two drawings of SiO4 tetrahedra side by side: an ordered quartz-like net and a random corner-shared network with the same local geometry. Then add Na2O to the random network and mark each new non-bridging oxygen. Finish with a plot of volume against temperature for slow and fast cooling to see crystallization, the glass transition, and why T_g shifts with cooling rate.
+
+## Common Misconceptions
+- Glass is a liquid that flows slowly at room temperature. (Below T_g, glass has a viscosity so high that flow would take far longer than human history; uneven old window panes come from how they were made.)
+- An amorphous solid has no structure at all. (Local bonding is still well defined, as with tetrahedral Si in silica glass; only the long-range repeating order is missing.)
+- The glass transition is a sharp phase change at a fixed temperature, like melting. (T_g is a kinetic crossover where the liquid falls out of equilibrium, and its value depends on the cooling rate.)
+- Adding Na2O to silica strengthens the glass by adding more bonds. (Na2O breaks Si-O-Si bridges into non-bridging oxygens, which lowers viscosity and T_g and reduces chemical durability.)
+
 ## Questions
 
 ```yaml

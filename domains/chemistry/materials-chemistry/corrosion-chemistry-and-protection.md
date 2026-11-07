@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Corrosion is the electrochemical degradation of materials — primarily metals — through reactions with their environment. A corroding metal simultaneously undergoes anodic dissolution (M -> M^n+ + ne-) at one site and cathodic reduction (O2 + 2H2O + 4e- -> 4OH- in neutral aerated water, or 2H+ + 2e- -> H2 in acidic conditions) at another, forming a short-circuited electrochemical cell on the metal surface. Whether a metal corrodes or resists depends on its electrochemical potential, the stability of its oxide film (passivation), and the aggressiveness of the environment. Materials chemistry governs corrosion resistance through alloy composition (chromium in stainless steel forms a self-healing Cr2O3 passive film), microstructure (grain boundaries and second phases create galvanic couples), and surface engineering (coatings, inhibitors, cathodic protection). Corrosion costs the global economy an estimated 3-4% of GDP annually, making it one of the most economically significant materials degradation processes.
 
+## How It's Best Learned
+Draw a drop of salt water on a steel plate and label the anode near the center, the cathode near the oxygen-rich edge, the ion path through the water and the electron path through the metal. Then read the iron Pourbaix diagram at a few pH and potential points. Finally, explain galvanizing and stainless steel passivation using that same anode-cathode sketch.
+
+## Common Misconceptions
+- Oxygen corrodes iron by attacking the metal directly, as in burning. (In wet corrosion, oxygen is reduced at cathodic sites and consumes the electrons released where iron dissolves at anodic sites.)
+- Stainless steel resists corrosion because chromium is a noble, unreactive metal. (Chromium is more reactive than iron; protection comes from the thin, self-healing Cr2O3 passive film, which is a kinetic barrier.)
+- If a Pourbaix diagram shows a metal is unstable, it will corrode quickly. (The diagram shows thermodynamic stability only; a passive film can keep the actual corrosion rate very low.)
+- Pitting is less serious than uniform corrosion because it removes less metal. (Pits concentrate attack in small spots and can perforate a wall with little visible warning.)
+
 ## Questions
 
 ```yaml

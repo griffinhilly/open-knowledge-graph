@@ -31,6 +31,15 @@ status: validated
 ## Core Idea
 No real crystal is perfect. Point defects — vacancies, interstitials, and substitutional atoms — exist in all crystals at thermodynamic equilibrium because they increase entropy. Defect chemistry studies how these imperfections form, interact, and determine material properties. Kroger-Vink notation provides a systematic way to write defect reactions that conserve mass, charge, and lattice sites. Intrinsic defects (Schottky and Frenkel pairs) arise from thermal equilibrium; extrinsic defects arise from intentional doping. The concentration and mobility of defects control ionic conductivity, electronic conductivity, color, catalytic activity, and mechanical behavior in nearly all functional materials.
 
+## How It's Best Learned
+Draw a small 2D grid of a binary oxide, then remove ions or add dopants and write the matching Kroger-Vink symbol for each change. Check every defect reaction you write against three balances: mass, charge and site ratio. Work the Y2O3-in-ZrO2 reaction first, then compare a Schottky pair in NaCl with a Frenkel pair in AgBr.
+
+## Common Misconceptions
+- A vacancy has no charge because it is empty space. (Kroger-Vink charges are effective charges relative to the perfect lattice; removing an O2- ion leaves a vacancy with an effective charge of 2+.)
+- Defects exist in a crystal only because it was grown badly. (Intrinsic point defects are an equilibrium feature at any temperature above absolute zero, because the entropy they add lowers the Gibbs free energy.)
+- In Kroger-Vink notation, a prime means positive charge. (A dot marks each unit of positive effective charge and a prime marks each unit of negative effective charge; an x marks a neutral site.)
+- Schottky and Frenkel defects change the composition of the crystal. (Both are intrinsic defects that keep the compound stoichiometric; a Schottky pair removes ions in the formula ratio, and a Frenkel pair moves an ion to an interstitial site.)
+
 ## Questions
 
 ```yaml

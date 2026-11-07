@@ -29,6 +29,15 @@ status: validated
 ## Core Idea
 Rechargeable batteries store and release electrical energy through reversible electrochemical reactions. Lithium-ion batteries — the dominant rechargeable technology — work by shuttling Li+ ions between a layered or tunnel-structured cathode (LiCoO2, LiFePO4, NMC) and a graphite anode through a liquid electrolyte. Materials chemistry determines every performance metric: cathode chemistry sets the voltage and capacity; anode chemistry determines the capacity and cycle life; electrolyte chemistry controls ionic conductivity, stability window, and safety. Next-generation battery research targets higher energy density (lithium-sulfur, lithium-air), improved safety (solid-state electrolytes), and lower cost (sodium-ion).
 
+## How It's Best Learned
+Draw one cell on paper: graphite on one side, a layered oxide on the other, electrolyte between, and an external wire. Trace where Li+ and electrons each go during discharge, then during charge. Next, compare three cathode crystal structures (layered, olivine, spinel) side by side in a table of voltage, capacity, cost and safety. Last, follow one failure, such as silicon swelling, from structure change to capacity loss.
+
+## Common Misconceptions
+- Electrons travel through the electrolyte along with the lithium ions. (The electrolyte conducts Li+ ions but is an electronic insulator; electrons move through the external circuit, which is why the battery can do work.)
+- The anode is the positive electrode because current flows out of it. (In a lithium-ion cell the cathode is the positive electrode and the graphite anode is the negative electrode; the names follow the discharge reaction.)
+- A higher-capacity electrode material is a better electrode. (Materials with very high capacity, such as silicon, often change volume greatly during cycling and degrade quickly, so cycle life and stability matter as much as capacity.)
+- The bulk of each electrode decides how well a battery performs. (Interfaces such as the solid electrolyte interphase on graphite strongly affect cycle life and safety, often as much as bulk properties do.)
+
 ## Questions
 
 ```yaml

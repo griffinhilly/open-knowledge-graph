@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Conducting polymers are organic materials with extended pi-conjugated backbones that can be doped to achieve electrical conductivities ranging from insulating (< 10^-10 S/cm) to metallic (> 10^3 S/cm). The conjugated backbone (alternating single and double bonds) creates a delocalized pi-electron system, but pristine conjugated polymers are typically semiconductors or insulators. Doping — oxidation (p-type, removing electrons) or reduction (n-type, adding electrons) — introduces charge carriers (polarons and bipolarons) that move along the conjugated backbone. The 2000 Nobel Prize in Chemistry recognized the discovery that polyacetylene becomes highly conductive when doped with iodine vapor. Modern conducting polymers (PEDOT:PSS, polyaniline, polypyrrole) combine processability with tunable electronic and optical properties.
 
+## How It's Best Learned
+Draw a short polyacetylene chain, remove one electron, and redraw the bond pattern to show the positive charge and the local distortion around it. Move that charge a few carbons along the chain by shifting double bonds. Then compare this redox doping with phosphorus doping of silicon in a two-column table: what is added, how much, and what carries the charge.
+
+## Common Misconceptions
+- Any polymer with double bonds will conduct electricity. (Conduction needs an extended conjugated pi system, and even conjugated polymers are semiconductors or insulators until they are doped.)
+- Doping a conducting polymer works like doping silicon, by swapping in foreign atoms at low concentration. (Polymer doping is an oxidation or reduction of the backbone, with counterions taking up the charge, and it is done at levels of several mole percent or more.)
+- The charge carriers in a doped polymer are free electrons and holes like those in a metal. (The carriers are usually polarons and bipolarons, or solitons in trans-polyacetylene, which are charges bound to a local distortion of the chain geometry.)
+- A longer conjugated chain always makes a more conductive film. (Bulk conductivity is usually limited by hopping between chains, so packing and order in the film can matter more than chain length.)
+
 ## Questions
 
 ```yaml

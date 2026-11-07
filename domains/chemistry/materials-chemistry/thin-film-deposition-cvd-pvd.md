@@ -29,6 +29,15 @@ status: validated
 ## Core Idea
 Thin film deposition creates layers of material from nanometers to micrometers thick on a substrate, enabling the fabrication of semiconductor devices, optical coatings, protective layers, and functional surfaces. Chemical vapor deposition (CVD) uses gas-phase chemical reactions to deposit material: volatile precursors decompose or react at the heated substrate surface to form a solid film. Physical vapor deposition (PVD) transfers material from a source to a substrate without chemical transformation: evaporation, sputtering, or pulsed laser ablation ejects atoms that condense on the substrate. The choice between CVD and PVD depends on the desired film composition, crystallinity, conformality, deposition rate, and substrate compatibility.
 
+## How It's Best Learned
+Draw a deep trench and coat it three ways: evaporation (line-of-sight, thick on top, thin on the walls), CVD (better coverage, still thinner deep inside), and ALD (even layer everywhere). Then plot log growth rate against 1/T for silane CVD and mark the reaction-limited and transport-limited regimes. Finish by stepping through one ALD cycle of trimethylaluminum and water.
+
+## Common Misconceptions
+- PVD and CVD differ only in the equipment used. (CVD forms the film by chemical reactions of precursors at the surface; PVD transfers source atoms physically by evaporation, sputtering or laser ablation.)
+- Thermal evaporation of an alloy source gives a film with the same composition. (Elements with higher vapor pressure evaporate faster, so the film is enriched in the more volatile element; sputtering preserves composition much better.)
+- Running CVD hotter always gives a more uniform film because the reaction is faster. (At high temperature growth becomes limited by gas transport, which depends on flow patterns, so uniformity often gets worse.)
+- Each ALD cycle adds one complete atomic layer. (Growth per cycle is often less than a full monolayer, about 1.1 angstroms per cycle for Al2O3 from trimethylaluminum and water; the self-limiting reactions make it reproducible.)
+
 ## Questions
 
 ```yaml

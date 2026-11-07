@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Crystal symmetry describes the set of operations — rotations, reflections, inversions, screw axes, and glide planes — that map a crystal structure onto itself. The 32 crystallographic point groups classify the rotational and reflectional symmetry of a crystal's external morphology, while the 230 space groups combine these with translational symmetry elements to fully describe the internal atomic arrangement. Space group notation (e.g., Fm-3m for rock salt, P6_3/mmc for HCP metals) encodes all the symmetry information needed to reconstruct the complete crystal from the asymmetric unit — the minimal set of unique atom positions.
 
+## How It's Best Learned
+Start in two dimensions: take a wallpaper or tiled-floor pattern and mark its rotation centers, mirror lines and glide lines. Then move to a 3D model of a simple structure, such as rock salt, and apply each operation by hand. Finally, decode a few space group symbols, such as P2_1/c and Fm-3m, element by element, and link each lattice centering, glide plane or screw axis to the reflections it makes absent.
+
+## Common Misconceptions
+- The unit cell and the asymmetric unit are the same thing. (The asymmetric unit is the smallest unique piece; applying the space group operations to it generates the full unit cell contents.)
+- A crystal's symmetry is fixed by its cell shape, so a cell with three equal edges and 90-degree angles must be cubic. (The crystal system follows from the symmetry of the atomic arrangement; a lower-symmetry crystal can have cell dimensions that look cubic by chance.)
+- Screw axes and glide planes are just rotations and mirrors drawn in a different way. (Each one adds a fractional translation, so it exists only in a periodic structure and leaves its own pattern of systematic absences in diffraction.)
+- Crystals can have 5-fold rotation axes if the atoms are arranged carefully enough. (A periodic lattice allows only 1-, 2-, 3-, 4- and 6-fold rotations; quasicrystals show 5-fold diffraction symmetry because they lack periodic order.)
+
 ## Questions
 
 ```yaml

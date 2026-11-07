@@ -31,6 +31,15 @@ status: validated
 ## Core Idea
 The mechanical behavior of a material — how it deforms and fractures under load — is determined not by its chemical composition alone but by its microstructure: grain size, phase distribution, defect populations, and interfaces. The stress-strain curve captures the elastic (reversible) and plastic (permanent) response, with key parameters including Young's modulus, yield strength, ultimate tensile strength, and ductility. The Hall-Petch relationship quantifies how reducing grain size increases yield strength (finer grains = more grain boundaries = more barriers to dislocation motion). The Griffith criterion establishes that fracture occurs when the energy released by crack growth exceeds the energy required to create new surfaces, explaining why ceramics are strong in compression but catastrophically brittle in tension — pre-existing flaws concentrate stress and propagate without the energy-absorbing plastic zone that metals develop. Understanding structure-property relationships at the microstructural level is what distinguishes materials chemistry from empirical materials testing.
 
+## How It's Best Learned
+Sketch stress-strain curves for a steel, an alumina and a polymer on the same axes, and mark modulus, yield, ultimate strength and fracture on each. Then plot yield strength against 1/sqrt(d) for a few grain sizes to see the Hall-Petch line. Finish by using the Griffith equation to compare fracture stress for flaws of 1 and 100 micrometers in the same ceramic.
+
+## Common Misconceptions
+- Stiffness and strength are the same property. (Young's modulus measures resistance to elastic deformation and comes from bond stiffness; yield and fracture strength depend on defects and microstructure.)
+- A material's strength is set by its chemical composition. (The same composition can have very different strength depending on grain size, precipitates, dislocation density and flaws.)
+- Ceramics fail in tension because their bonds are weak. (Their bonds are strong; without plastic flow to blunt crack tips, small pre-existing flaws concentrate stress and grow into cracks.)
+- Making the grains smaller always makes a metal stronger. (Hall-Petch strengthening holds down to grain sizes of roughly tens of nanometers; below that, grain-boundary mechanisms take over and strength can level off or fall.)
+
 ## Questions
 
 ```yaml

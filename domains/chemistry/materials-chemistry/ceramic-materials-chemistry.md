@@ -32,6 +32,15 @@ status: validated
 ## Core Idea
 Ceramics are inorganic, nonmetallic solids held together by ionic and/or covalent bonds, typically processed at high temperatures. Their strong bonding gives ceramics high hardness, high melting points, chemical inertness, and excellent electrical insulation — but also brittleness, because dislocations cannot move easily through the directional bonding network. The chemistry of ceramics spans simple binary oxides (Al2O3, ZrO2), complex oxides with the perovskite structure (BaTiO3, PZT), nitrides (Si3N4), and carbides (SiC). Sintering — densification of a powder compact by solid-state diffusion at high temperature — is the characteristic ceramic processing route, and controlling grain size, porosity, and phase composition during sintering determines final properties.
 
+## How It's Best Learned
+Start from a rock-salt lattice drawing and slide one plane by half a unit cell: the cations land next to cations, which shows why ionic ceramics resist dislocation glide. Then follow a powder compact through sintering with sketches of necks forming and pores shrinking. Finish by computing the Goldschmidt tolerance factor for BaTiO3 and SrTiO3 from ionic radii.
+
+## Common Misconceptions
+- Ceramics are brittle because their bonds are weak. (Their bonds are strong; brittleness comes from directional and ionic bonding that blocks dislocation motion, so cracks grow instead of the material deforming.)
+- Sintering means partly melting the powder so the particles glue together. (Solid-state sintering densifies the compact by atomic diffusion below the melting point, driven by the reduction of surface energy; liquid-phase sintering is a separate variant in which a small amount of liquid forms between the grains.)
+- Ceramics are electrical insulators by definition. (Many are insulators, but ceramics also include ionic conductors for fuel cells, ferroelectrics and piezoelectrics, and even oxide superconductors.)
+- The perovskite structure is one specific compound. (Perovskite is a structure type, ABO3, shared by many compounds such as BaTiO3 and PZT, with properties set by the choice of A and B cations.)
+
 ## Questions
 
 ```yaml

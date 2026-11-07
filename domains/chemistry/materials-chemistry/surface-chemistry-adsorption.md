@@ -32,6 +32,15 @@ status: validated
 ## Core Idea
 Surface chemistry governs how atoms and molecules interact with the boundaries of materials. At a surface, atoms have unsatisfied bonds (dangling bonds), creating excess energy — the surface energy — that drives phenomena from crystal growth to catalysis to corrosion. Adsorption, the accumulation of molecules at a surface, is described quantitatively by isotherms: the Langmuir isotherm models monolayer chemisorption on uniform sites with constant binding energy, while the BET (Brunauer-Emmett-Teller) isotherm extends this to multilayer physisorption and is the standard method for measuring surface areas of porous materials. The distinction between chemisorption (electron sharing, bond formation, typically 40-400 kJ/mol) and physisorption (van der Waals attraction, typically 5-40 kJ/mol) determines whether a surface interaction activates a molecule for reaction or merely concentrates it. Wetting and contact angle connect surface energy to macroscopic behavior — whether a liquid spreads on a solid or beads up.
 
+## How It's Best Learned
+Plot the Langmuir equation for three values of K on the same axes and watch each curve level off at full monolayer coverage. Then lay a measured N2 isotherm at 77 K next to it and mark the multilayer region that Langmuir cannot fit. Work one BET surface-area calculation from a monolayer capacity, and finish by drawing the three surface tensions acting on a drop for Young's equation.
+
+## Common Misconceptions
+- Adsorption and absorption are the same thing. (Adsorption is accumulation at a surface; absorption is uptake into the bulk of a material.)
+- The Langmuir isotherm describes adsorption that keeps rising with pressure. (Langmuir coverage approaches a full monolayer at high pressure and then levels off; multilayer growth needs a model such as BET.)
+- Physisorption and chemisorption differ only in how strongly the molecule sticks. (Chemisorption forms a chemical bond with surface atoms and can break or weaken bonds in the adsorbate; physisorption is van der Waals attraction that leaves the molecule largely intact.)
+- A high contact angle means the liquid is attracted to the solid. (A contact angle above 90 degrees means the liquid beads up because wetting the solid is unfavorable; good wetting gives a small contact angle.)
+
 ## Questions
 
 ```yaml

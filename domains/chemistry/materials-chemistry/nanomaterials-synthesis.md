@@ -29,6 +29,15 @@ status: validated
 ## Core Idea
 Nanomaterials have at least one dimension between 1 and 100 nm, a size regime where properties differ dramatically from both individual molecules and bulk materials. The high surface-to-volume ratio and quantum confinement effects at this scale produce size-dependent optical, electronic, magnetic, and catalytic properties. Synthesis strategies fall into two categories: top-down (breaking bulk material down to nanoscale via milling, lithography, or etching) and bottom-up (building nanoscale structures from molecular precursors via nucleation and growth, sol-gel, or vapor-phase methods). The LaMer model of nucleation and growth provides the framework for synthesizing monodisperse nanoparticles: a burst of nucleation followed by slow, controlled growth produces uniform particles, while continuous nucleation gives polydisperse products.
 
+## How It's Best Learned
+Draw the LaMer plot of precursor concentration against time, mark the nucleation and growth thresholds, and then map each step of a hot-injection synthesis onto it. Next, compute the fraction of surface atoms for cubes 2, 10 and 100 nm across. Finish by lining up CdSe quantum dot emission colors against size to connect particle radius with band gap.
+
+## Common Misconceptions
+- Nanoparticles are just small pieces of the bulk material with the same properties. (Below about 100 nm, surface atoms and quantum confinement can change color, band gap, melting point and reactivity.)
+- To make uniform nanoparticles you should keep nucleation going steadily throughout the reaction. (Continuous nucleation gives a spread of sizes; uniform particles need a short burst of nucleation followed by growth without new nuclei.)
+- Capping agents are only there to stop the particles from clumping. (They also bind selectively to certain crystal faces, which controls growth rates and can produce rods, wires or plates.)
+- Quantum confinement explains the size-dependent color of every nanoparticle. (Confinement governs semiconductor quantum dots; the color of gold and silver nanoparticles comes mainly from localized surface plasmon resonance of their conduction electrons.)
+
 ## Questions
 
 ```yaml

@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 X-ray powder diffraction (XRPD) is the primary technique for identifying crystalline phases and determining crystal structures from polycrystalline samples. When monochromatic X-rays strike a powdered crystalline sample, they diffract from lattice planes according to Bragg's law: n-lambda = 2d sin(theta). Because a powder contains crystallites in all orientations, every set of lattice planes simultaneously satisfies the Bragg condition at its characteristic angle, producing a unique pattern of peak positions and intensities. Peak positions reveal the unit cell dimensions; peak intensities encode the atomic arrangement; peak shapes carry information about crystallite size and strain.
 
+## How It's Best Learned
+Index one real pattern by hand. Take an FCC metal measured with Cu K-alpha, convert each 2-theta to d-spacing with Bragg's law, compute sin^2(theta) ratios, and match them to the allowed (hkl) set. Then compare with a BCC pattern to see which reflections disappear. Finish by applying the Scherrer equation to one broadened peak from a nanoparticle sample.
+
+## Common Misconceptions
+- X-rays reflect off the surface of the crystal like light off a mirror. (Diffraction comes from interference of X-rays scattered by many parallel planes of atoms inside the crystal, so the Bragg condition is met only at specific angles.)
+- Every set of lattice planes produces a diffraction peak. (Lattice centering and some symmetry elements cause systematic absences; FCC, for example, shows only reflections with h, k and l all odd or all even.)
+- The Scherrer equation gives the particle size seen in a microscope. (It estimates the size of coherently diffracting crystallite domains, and one particle can contain several crystallites; strain and instrument broadening also widen peaks.)
+- If a phase gives no peaks, it is not in the sample. (Amorphous material gives only broad humps, and minor crystalline phases can fall below the detection limit.)
+
 ## Questions
 
 ```yaml

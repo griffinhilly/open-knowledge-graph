@@ -33,6 +33,15 @@ status: validated
 ## Core Idea
 When N atoms come together to form a solid, their N discrete atomic orbitals combine to form N molecular orbitals so closely spaced in energy that they form continuous bands. The band structure of a solid — the arrangement of these energy bands and the gaps between them — determines whether the material is a metal, semiconductor, or insulator. Metals have overlapping or partially filled bands with no gap at the Fermi level; semiconductors have a small band gap (< ~3.5 eV) between a filled valence band and an empty conduction band; insulators have a large band gap (> ~3.5 eV). The Fermi level, density of states, and band gap are the key quantities that govern electronic, optical, and thermal properties.
 
+## How It's Best Learned
+Build the band from MO diagrams: draw the levels for a chain of 2, 4 and 8 atoms side by side and watch the levels crowd into a band of fixed width. Then fill bands with electrons for sodium, magnesium and silicon and predict metal or semiconductor. Finish by comparing the gaps of silicon and diamond with kT at room temperature and with the energy of visible photons.
+
+## Common Misconceptions
+- Electrons in a completely filled band carry current in an electric field. (A full band has no nearby empty states, so it gives no net current; conduction needs a partly filled band or carriers excited across a gap.)
+- Semiconductors and insulators are different kinds of material with different band pictures. (Both have a filled valence band and an empty conduction band separated by a gap; the boundary between them is a convention based on gap size.)
+- Adding more atoms to a solid makes its band wider without limit. (More atoms add more levels inside the band, but the band width is set by the overlap between neighboring orbitals and approaches a fixed value.)
+- An element with an even number of valence electrons fills its bands exactly and must be an insulator. (Bands can overlap, so magnesium, with two valence electrons, is a metal.)
+
 ## Questions
 
 ```yaml

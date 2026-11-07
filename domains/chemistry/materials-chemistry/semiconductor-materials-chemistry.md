@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 Semiconductors are materials with band gaps small enough that their electrical conductivity can be precisely controlled through doping, temperature, and light exposure. Intrinsic semiconductors (pure Si, Ge) have equal numbers of electrons and holes from thermal excitation across the band gap. Extrinsic semiconductors are doped with electron donors (n-type: P in Si) or acceptors (p-type: B in Si) to create controlled carrier concentrations many orders of magnitude above intrinsic levels. The chemistry of semiconductor materials extends beyond elemental Si and Ge to compound semiconductors (III-V: GaAs, InP; II-VI: CdTe, ZnO) and emerging materials (perovskites, organic semiconductors), each offering different band gaps, mobilities, and optical properties.
 
+## How It's Best Learned
+Draw a 2D silicon bond lattice, swap in one phosphorus atom, and circle its fifth electron; then swap in boron and mark the missing bond. Place each dopant's level on a band diagram near the right band edge. Then compare carrier counts: intrinsic silicon at about 10^10 per cm^3 versus phosphorus-doped silicon at 10^16 per cm^3. Finish with a band diagram of GaAs next to silicon.
+
+## Common Misconceptions
+- An n-type semiconductor carries a net negative charge because it has extra electrons. (Each free electron is balanced by a fixed, positively charged donor ion, so the doped crystal stays electrically neutral.)
+- An n-type semiconductor contains no holes. (Holes are still present as minority carriers; doping makes electrons far more numerous than holes but does not remove holes.)
+- A hole is an empty space that does not move. (A hole is a missing electron in the valence band; neighboring electrons fill it in turn, so it moves through the crystal and acts as a mobile positive carrier.)
+- Silicon dominates electronics because it has the best electronic properties of any semiconductor. (GaAs has higher electron mobility, for example; silicon's lead rests largely on its excellent native oxide, abundance and mature manufacturing.)
+
 ## Questions
 
 ```yaml

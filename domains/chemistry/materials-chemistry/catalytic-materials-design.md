@@ -35,6 +35,15 @@ status: validated
 ## Core Idea
 Catalytic materials design applies structure-activity relationships to rationally create catalysts with targeted activity, selectivity, and stability. Heterogeneous catalysts consist of active sites (metal nanoparticles, oxide surface defects, acid sites) dispersed on high-surface-area supports (alumina, silica, carbon, zeolites, MOFs). The Sabatier principle guides active site selection: the optimal catalyst binds reactants strongly enough to activate them but weakly enough to release products — too strong and the surface poisons itself, too weak and no reaction occurs. Scaling relations and volcano plots enable computational screening of candidate materials. Catalyst deactivation (sintering, coking, poisoning) is as important as initial activity — the best catalyst is the one that maintains performance over thousands of hours.
 
+## How It's Best Learned
+Sketch a volcano plot by hand: put binding energy on the x-axis and rate on the y-axis, then label each side with its rate-limiting step (desorption or activation). Next, take one real catalyst, such as Pt on alumina, and list how its active site, support and deactivation route each affect performance. Finish by matching each deactivation mechanism to a design fix.
+
+## Common Misconceptions
+- The best catalyst binds the reactants as strongly as possible. (Binding that is too strong leaves intermediates and products stuck on the surface, so the rate falls; the Sabatier principle puts the best catalysts at intermediate binding strength.)
+- The support is an inert carrier that only holds the active metal in place. (Supports disperse the active phase and can change its electronic structure, shape and activity through metal-support interactions, as in Au on TiO2 for CO oxidation.)
+- Every surface atom of a metal particle is an equally active site. (Corner, edge and step atoms have lower coordination and often bind adsorbates differently from terrace atoms, so activity is concentrated at particular sites.)
+- A catalyst with high initial activity is the best choice for an industrial process. (Sintering, coking and poisoning can erase that activity, so stability over the catalyst's lifetime is part of what makes a catalyst good.)
+
 ## Questions
 
 ```yaml

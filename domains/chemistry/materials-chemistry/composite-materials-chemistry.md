@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Composite materials combine two or more chemically distinct phases to achieve properties that neither phase possesses alone. The continuous phase (matrix) distributes loads and protects the reinforcement; the dispersed phase (fibers, particles, or layers) provides strength, stiffness, or other targeted properties. The chemistry of the interface between matrix and reinforcement is critical — it must transfer stress efficiently while preventing crack propagation. Common systems include polymer-matrix composites (carbon fiber/epoxy), metal-matrix composites (Al/SiC), and ceramic-matrix composites (SiC/SiC). The rule of mixtures provides a first approximation of composite properties, but interface chemistry, fiber orientation, and processing conditions determine real performance.
 
+## How It's Best Learned
+Work the rule of mixtures twice for the same carbon fiber and epoxy, once parallel to the fibers (iso-strain) and once across them (iso-stress), and compare the two moduli. Then sketch a crack meeting a fiber, once with a strong interface and once with a weaker one, to see why the interface decides whether the crack deflects or cuts through.
+
+## Common Misconceptions
+- A composite has the same properties in every direction, like a metal plate. (A unidirectional fiber composite is much stiffer along the fibers than across them; layup design is used to manage this anisotropy.)
+- The rule of mixtures gives the composite's real stiffness in any direction. (The simple iso-strain form applies to continuous aligned fibers loaded along their length and is an upper bound; transverse stiffness follows the much lower iso-stress estimate.)
+- The strongest possible fiber-matrix bond gives the best composite. (An interface that is too strong lets cracks pass straight through the fibers and makes the composite brittle; some interfacial debonding helps deflect cracks.)
+- The matrix only glues the fibers together. (The matrix also transfers load between fibers by shear, protects them from damage and the environment, and sets properties such as maximum service temperature.)
+
 ## Questions
 
 ```yaml

@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Zeolites are crystalline aluminosilicate frameworks with uniform, molecular-sized pores (3-12 Angstroms) and channels. The framework consists of corner-sharing SiO4 and AlO4 tetrahedra; each Al^3+ replacing Si^4+ introduces one negative charge, compensated by exchangeable cations (Na+, K+, Ca^2+, H+) in the pores. This ion-exchange capacity, combined with shape-selective pore geometry, makes zeolites indispensable in three major applications: heterogeneous catalysis (fluid catalytic cracking, methanol-to-olefins), molecular separation (drying, air separation, water purification), and ion exchange (water softening, radioactive waste treatment). Over 250 zeolite framework types are known, each with distinct pore sizes and channel dimensionality.
 
+## How It's Best Learned
+Begin with charge bookkeeping: draw a ring of SiO4 tetrahedra, replace one Si with Al, and add the cation that balances the charge. Then follow that site through NH4+ exchange and calcination to a Bronsted acid site. Finish by comparing the window sizes of LTA, MFI and FAU with the sizes of a few molecules, and sort each case into reactant, product or transition-state selectivity.
+
+## Common Misconceptions
+- Zeolites are acidic catalysts as made. (As-synthesized zeolites usually hold Na+ or organic cations; acid sites appear after exchange to the H+ form, often through NH4+ exchange and calcination.)
+- More aluminum in the framework always gives a better zeolite catalyst. (More Al gives more acid sites but lowers hydrothermal stability, and each site can be weaker, so the best Si/Al ratio depends on the process.)
+- The cations in the pores are part of the fixed framework. (They balance the negative framework charge and can be exchanged for other cations, which is the basis of water softening and detergent use.)
+- A zeolite selects molecules only by whether they fit through the pore opening. (Shape selectivity also acts on which products can diffuse out and which transition states fit inside the pores.)
+
 ## Questions
 
 ```yaml

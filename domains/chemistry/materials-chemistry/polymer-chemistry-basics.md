@@ -29,6 +29,15 @@ status: validated
 ## Core Idea
 Polymers are macromolecules built from repeating monomer units linked by covalent bonds. The two fundamental polymerization mechanisms — chain-growth (addition) and step-growth (condensation) — produce materials with different molecular weight distributions and architectures. Polymer properties depend on molecular weight, chain architecture (linear, branched, cross-linked), tacticity, crystallinity, and the glass transition temperature (T_g). Below T_g, an amorphous polymer is glassy and brittle; above T_g, it becomes rubbery and flexible. Understanding these structure-property relationships allows rational design of materials from soft elastomers to rigid engineering plastics.
 
+## How It's Best Learned
+Compare the two mechanisms with a table of time snapshots: at 10%, 50% and 99% conversion, sketch what the flask contains for chain-growth and for step-growth. Then work a short Mn and Mw calculation for a mix of a few chain lengths. Finish by pairing materials that share a monomer but differ in structure: HDPE and LDPE, isotactic and atactic polypropylene.
+
+## Common Misconceptions
+- A polymer sample is made of identical chains with one molecular weight. (Synthetic polymer samples contain chains of many lengths, which is why Mn, Mw and the dispersity Mw/Mn are reported.)
+- The glass transition is the polymer melting. (T_g is the onset of segmental motion in amorphous regions; melting at T_m happens only in crystalline regions and at a higher temperature.)
+- Step-growth polymerization reaches long chains early in the reaction, like chain-growth. (In step-growth, molecular weight stays low until conversion is very high, often above 99%.)
+- A cross-linked polymer dissolves if you find the right solvent. (Covalent cross-links join the chains into one network, so the polymer can swell but does not dissolve unless bonds are broken.)
+
 ## Questions
 
 ```yaml

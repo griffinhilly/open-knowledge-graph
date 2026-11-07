@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Metal-organic frameworks (MOFs) are crystalline porous materials constructed from metal ions or clusters (secondary building units, SBUs) connected by organic linkers. The modular design — choosing different metals and linkers — allows systematic tuning of pore size (3 to 98 Angstroms), surface area (up to 7,000+ m^2/g), and chemical functionality. Reticular chemistry provides the design framework: the topology of the net (how nodes are connected) is determined by the geometry of the SBU and linker, enabling prediction of new structures before synthesis. Applications span gas storage (H2, CH4, CO2), separation, catalysis, drug delivery, and sensing, with over 100,000 MOF structures reported.
 
+## How It's Best Learned
+Treat MOFs as nets first. Reduce MOF-5 to nodes and struts: each Zn4O cluster is an octahedral 6-connected node and each linker is a straight strut, which gives a cubic net. Then swap in a longer linker and predict the change in pore size, and swap in a node of different connectivity and predict the change in topology. Finish by reading an N2 adsorption isotherm before and after activation.
+
+## Common Misconceptions
+- The MOF with the highest surface area is the best for gas storage. (Volumetric capacity, pore size matched to the gas, and stability often matter more; very open frameworks can have low density and poor capacity per volume.)
+- A MOF is porous as soon as it crystallizes. (The pores are first filled with solvent; activation must remove it without collapsing the framework before the porosity can be used.)
+- MOF topology depends mainly on which metal is used. (Topology follows from the geometry and connectivity of the nodes and linkers, so different metal clusters with the same connectivity can give the same net.)
+- MOFs are as robust as zeolites. (Many MOFs are less thermally and hydrothermally stable than zeolites, which limits their use where water or high temperatures are present.)
+
 ## Questions
 
 ```yaml

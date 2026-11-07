@@ -29,6 +29,15 @@ status: validated
 ## Core Idea
 Thermoelectric materials convert temperature differences directly into electrical voltage (Seebeck effect) or use electrical current to pump heat (Peltier effect). Their efficiency is governed by the dimensionless figure of merit ZT = S^2 sigma T / kappa, where S is the Seebeck coefficient, sigma is the electrical conductivity, T is the absolute temperature, and kappa is the thermal conductivity. The central materials chemistry challenge is that S, sigma, and kappa are interdependent through carrier concentration: increasing carrier concentration raises sigma but lowers S and increases the electronic contribution to kappa. Achieving high ZT requires decoupling these properties, typically through nanostructuring to scatter phonons without scattering electrons, band engineering to enhance the Seebeck coefficient, or compositional complexity to suppress lattice thermal conductivity.
 
+## How It's Best Learned
+Sketch S, sigma, the power factor S^2 sigma, and kappa against carrier concentration on one log axis, and find where ZT peaks. Then split kappa into its electronic and lattice parts and use the Wiedemann-Franz law to see which part you can attack. Finish by matching each strategy (nanostructuring, alloying, rattlers, anharmonic bonding) to the phonons it scatters.
+
+## Common Misconceptions
+- The best thermoelectric is the best electrical conductor. (Metals conduct well but have small Seebeck coefficients and high electronic thermal conductivity; the best thermoelectrics are heavily doped semiconductors.)
+- Adding more carriers always improves thermoelectric performance. (More carriers raise sigma but lower S and raise the electronic part of kappa, so ZT peaks at an intermediate carrier concentration.)
+- Electrical and thermal conductivity can be tuned freely and separately. (The electronic part of kappa rises with sigma under the Wiedemann-Franz law; the lattice part is the main quantity that can be lowered on its own.)
+- A record ZT in the lab means a better commercial device. (Records are often peak values at one high temperature, sometimes on single crystals along one direction; devices also need stability, mechanical strength and low contact resistance.)
+
 ## Questions
 
 ```yaml
