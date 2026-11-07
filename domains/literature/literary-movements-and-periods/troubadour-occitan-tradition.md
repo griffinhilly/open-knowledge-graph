@@ -75,7 +75,7 @@ Read one canso, one sirventes and one tenso in translation, and fill a small tab
 
 ## Explainer
 
-The troubadours of Occitan created something unprecedented in medieval European culture: a sophisticated, artistically ambitious literary tradition composed entirely in a vernacular language rather than in Latin. Latin had been the language of the educated elite, the Church, and high culture. Vernacular languages were considered crude, suitable for ordinary speech but not for serious art or learning. The troubadours' demonstration that Occitan could be a vehicle for subtle, complex, musically sophisticated poetry challenged this assumption fundamentally.
+The troubadours of Occitan created a sophisticated, artistically ambitious lyric tradition composed entirely in a Romance vernacular rather than in Latin. Earlier vernacular traditions existed, such as Old English poetry, but in the Romance-speaking world Latin was the language of the educated elite, the Church, and high culture. Vernacular languages were widely considered less fit for serious art or learning. The troubadours' demonstration that Occitan could be a vehicle for subtle, complex, musically sophisticated poetry challenged this assumption fundamentally.
 
 The forms troubadours invented became models for later traditions. The canso, or love song, with its intricate stanzaic structures, complex rhyme schemes, and emotional nuance, established patterns that influenced love poetry across Europe for centuries. The sirventes, a satirical or political form, showed that poetry could address public issues and engage in witty, pointed social commentary. Other forms like the tenso (poetic debate) and pastorela demonstrated the range of subjects and approaches available to the lyric poet.
 

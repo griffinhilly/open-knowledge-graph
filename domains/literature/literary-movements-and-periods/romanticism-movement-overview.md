@@ -44,7 +44,7 @@ Make a contrast chart with Enlightenment values in one column and Romantic value
     - "Medieval Christian theology"
     - "Enlightenment rationalism and empiricism"
     - "Ancient Greek and Roman literature"
-    - "Industrial mechanization in manufacturing"
+    - "Twentieth-century modernist experimentation"
   answer: 1
   explanation: "Romanticism emerged explicitly as a reaction against Enlightenment rationalism, rejecting the emphasis on reason, logic, and objective empirical knowledge in favor of emotion, imagination, and subjective experience."
 

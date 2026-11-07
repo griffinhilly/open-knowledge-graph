@@ -25,7 +25,7 @@ status: draft
 # Stream of Consciousness and Interior Representation
 
 ## Core Idea
-Stream of consciousness was a modernist technique representing the continuous flow of a character's thoughts, sensations, and associations without grammatical organization or logical ordering. This technique challenged conventional narrative form to represent the actual texture of consciousness.
+Stream of consciousness was a modernist technique representing the continuous flow of a character's thoughts, sensations, and associations without a narrator's logical ordering, sometimes loosening or dropping conventional grammar and punctuation. This technique challenged conventional narrative form to represent the actual texture of consciousness.
 
 ## How It's Best Learned
 Write down your own thoughts for two minutes without editing, then mark each jump and what triggered it: a sound, a memory, a word. Next, take a short passage from Woolf's Mrs Dalloway or the final episode of Joyce's Ulysses and mark its jumps the same way. Finally, rewrite a few lines as a conventional narrator's summary to see what order the technique removes.
@@ -43,10 +43,10 @@ Write down your own thoughts for two minutes without editing, then mark each jum
   options:
     - "It requires more straightforward chronological organization than traditional narrative"
     - "It abandons all representation of character thought and feeling"
-    - "It represents consciousness without imposing logical order or grammatical organization, challenging readers' expectations"
+    - "It represents consciousness without imposing a narrator's logical order, challenging readers' expectations"
     - "It maintains strict rational ordering of thoughts and ideas"
   answer: 2
-  explanation: "Stream of consciousness disrupts conventional narrative form by refusing to impose rational order or grammatical structure on the flow of thought. Instead of logical progression, it follows the actual associative, fragmentary nature of consciousness as it actually occurs."
+  explanation: "Stream of consciousness disrupts conventional narrative form by refusing to impose a narrator's rational order on the flow of thought; some passages also loosen grammar and punctuation. Instead of logical progression, it follows the actual associative, fragmentary nature of consciousness as it actually occurs."
 
 - type: multiple-choice
   question: "In stream of consciousness narrative, how are thoughts, sensations, and associations presented?"
@@ -60,8 +60,8 @@ Write down your own thoughts for two minutes without editing, then mark each jum
 
 - type: true-false
   question: "Stream of consciousness technique requires abandoning grammar and conventional sentence structure to represent actual consciousness."
-  answer: true
-  explanation: "Because actual consciousness is not organized in grammatically correct, logically structured sentences, stream of consciousness often dissolves conventional grammar and sentence form to represent the fragmentary, associative nature of thinking."
+  answer: false
+  explanation: "Abandoning grammar is one option, not a requirement. Molly Bloom's monologue at the end of Joyce's Ulysses runs as eight long, almost unpunctuated sentences, but writers such as Virginia Woolf render the flow of thought in grammatical sentences, using association and free indirect discourse."
 
 - type: true-false
   question: "Stream of consciousness is a technique for making narrative more efficient and reader-friendly."
@@ -80,6 +80,6 @@ Stream of consciousness emerged as a modernist challenge to the assumption that 
 
 But modernist writers recognized a gap between how consciousness actually operates and how conventional narrative represented it. Real consciousness is not logically organized. One thought leads to another through loose association rather than reason. A present sensation can trigger a memory from years past. Fragmentary perceptions interrupt focused thinking. The mind jumps between subjects, returns to preoccupations, drifts through associations. Stream of consciousness technique attempted to represent this actual texture.
 
-The technique operates through abandoning conventional grammar and logical ordering. Instead of organizing thoughts into coherent sentences, stream of consciousness follows the actual fragmentary flow of consciousness. Thoughts might break off incomplete. Syntax might collapse into bare nouns and associations. Past and present might collapse into each other. The reader must actively participate in reconstructing meaning from this fragmentary flow, much as consciousness itself must be experienced rather than fully coherent.
+The technique operates by loosening conventional logical ordering and, in some writers, conventional grammar. Instead of organizing thoughts into a narrator's orderly account, stream of consciousness follows the actual fragmentary flow of consciousness. Thoughts might break off incomplete. Syntax might collapse into bare nouns and associations. Past and present might collapse into each other. The reader must actively participate in reconstructing meaning from this fragmentary flow, much as consciousness itself must be experienced rather than fully coherent.
 
 This technique had profound implications for what narrative could represent and how readers experienced narrative. It made consciousness itself a worthy subject, not subordinate to plot. It asserted that the actual texture of an individual mind—all its associations, fragmentations, and irrationalities—was as worthy of literary representation as external events. It also made reading itself more active and demanding, inviting readers to inhabit consciousness directly rather than receive a narrator's interpretation of it. Stream of consciousness thus both represented consciousness more accurately and changed the relationship between reader and narrative by making the reader a participant in the creation of meaning.

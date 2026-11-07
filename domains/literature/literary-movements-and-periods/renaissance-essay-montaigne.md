@@ -17,7 +17,7 @@ status: draft
 # The Renaissance Essay: Montaigne and Personal Reflection
 
 ## Core Idea
-Michel de Montaigne's Essays invented the modern essay as personal intellectual exploration and self-scrutiny, rejecting formal structure in favor of digressive, conversational investigation. Montaigne's method of following curiosity wherever classical quotations lead modeled a new relationship between writer and reader based on honesty and skepticism. This form became the dominant vehicle for Enlightenment intellectual expression.
+Michel de Montaigne's Essays invented the modern essay as personal intellectual exploration and self-scrutiny, rejecting formal structure in favor of digressive, conversational investigation. Montaigne's method of following curiosity wherever classical quotations lead modeled a new relationship between writer and reader based on honesty and skepticism. This form became an important vehicle for later intellectual expression, including for many Enlightenment writers.
 
 ## How It's Best Learned
 Read one short Montaigne essay and map its path: write down each topic shift and what triggered it, whether a quotation, a memory or an anecdote. The map shows the associative structure directly. Then compare it with a school-style thesis essay on the same subject, and try writing a page of your own that follows a question without settling it.
@@ -58,7 +58,7 @@ Read one short Montaigne essay and map its path: write down each topic shift and
 - type: true-false
   question: "The essay form that Montaigne invented became influential for Enlightenment thinkers as a vehicle for intellectual exploration."
   answer: true
-  explanation: "Montaigne's personal, exploratory essay form became the dominant vehicle for Enlightenment intellectual expression, proving far more influential than formal logical treatises."
+  explanation: "Montaigne's personal, exploratory essay form became an important vehicle for Enlightenment thinkers, used by writers such as Addison, Steele and Hume alongside treatises, letters and encyclopedias."
 
 - type: short-answer
   question: "How does Montaigne's method of 'following classical quotations wherever they lead' function as a literary technique?"
@@ -74,4 +74,4 @@ The essay, for Montaigne, was an exploration—the title "essai" means "attempt"
 
 Montaigne's use of classical quotations was equally innovative. Rather than marshaling classical authorities to prove points, he used them as entry points for meditation and digression. A quotation would trigger a personal memory, which would connect to an observation, which would branch into a new thought. This associative method created an essay that felt less like a formal argument and more like an intimate conversation, where the reader could follow the actual movement of a mind thinking.
 
-This approach established a new relationship between writer and reader. Rather than presenting himself as an expert dispensing wisdom, Montaigne positioned himself as a fellow human being trying to understand himself and the world. The reader was invited not to passively receive truth but to think alongside the writer, to question the writer's conclusions, to recognize their own experiences in the writer's self-examination. This made the essay form democratic and accessible in a new way, and it proved extraordinarily influential. The essay became the preferred form for Enlightenment thinkers precisely because it embodied the Enlightenment values of questioning, exploration, and honest reasoning. Montaigne had shown that personal, honest intellectual exploration could be far more powerful than formal authority.
+This approach established a new relationship between writer and reader. Rather than presenting himself as an expert dispensing wisdom, Montaigne positioned himself as a fellow human being trying to understand himself and the world. The reader was invited not to passively receive truth but to think alongside the writer, to question the writer's conclusions, to recognize their own experiences in the writer's self-examination. This made the essay form democratic and accessible in a new way, and it proved extraordinarily influential. The essay became a favored form for many Enlightenment writers because it embodied the Enlightenment values of questioning, exploration, and honest reasoning. Montaigne had shown that personal, honest intellectual exploration could be far more powerful than formal authority.

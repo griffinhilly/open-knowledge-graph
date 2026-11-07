@@ -76,7 +76,7 @@ Take a short realist passage and rewrite it three ways: once with a narrator who
 
 ## Explainer
 
-Postmodern metafiction uses self-reflexivity—awareness of itself as constructed text—to expose narrative conventions as arbitrary rather than natural. By calling attention to how stories are made, metafiction foregrounds what realism and modernism tried to hide: that representation is always constructed, never transparent.
+Postmodern metafiction uses self-reflexivity—awareness of itself as constructed text—to expose narrative conventions as arbitrary rather than natural. By calling attention to how stories are made, metafiction foregrounds what realist conventions tend to hide: that representation is always constructed, never transparent.
 
 Unreliable narrators embody this principle. Rather than trusting narrator authority, readers must actively interpret, question, and construct meaning. This democratic shift empowers readers as co-creators of meaning while acknowledging interpretation's necessary uncertainty.
 

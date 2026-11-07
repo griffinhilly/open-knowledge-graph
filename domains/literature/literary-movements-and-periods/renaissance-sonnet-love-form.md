@@ -26,7 +26,7 @@ status: draft
 # Renaissance Sonnet Tradition and Conventions
 
 ## Core Idea
-The Renaissance sonnet tradition, descending from Petrarch, created a 14-line form capable of expressing complex emotional and intellectual states within tight formal constraints. The sonnet became the dominant form for love poetry and philosophical meditation, establishing conventions of volta and resolution that unified formal beauty with conceptual argument.
+The Renaissance sonnet tradition, descending from Petrarch, used a 14-line form, first developed by 13th-century Sicilian court poets, capable of expressing complex emotional and intellectual states within tight formal constraints. The sonnet became the dominant form for love poetry and philosophical meditation, establishing conventions of volta and resolution that unified formal beauty with conceptual argument.
 
 ## How It's Best Learned
 Annotate one Italian (Petrarchan) sonnet and one English sonnet side by side: mark the rhyme scheme with letters, box the volta, and summarize the octave and sestet, or the quatrains and couplet, in one line each. Then list the Petrarchan conventions you find, such as the distant beloved and paradoxes like freezing fire. Read Shakespeare's Sonnet 130 afterward to see those conventions turned upside down.

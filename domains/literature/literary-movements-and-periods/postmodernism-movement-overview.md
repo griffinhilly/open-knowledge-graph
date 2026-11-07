@@ -82,4 +82,4 @@ Metafiction—narrative about narrative—became central postmodern technique. B
 
 Unreliable narrators embody postmodern skepticism. If narrators cannot be trusted, readers cannot accept their version of truth. This puts interpretation burden on readers: make meaning, recognizing no authority guarantees truth. Postmodernism thus treated literature as game with form and meaning rather than serious pursuit of truth.
 
-Postmodernism proved that skepticism toward truth need not lead to nihilism but could generate engaging literature. By foregrounding constructedness and treating meaning-making playfully, postmodern works paradoxically created powerful effects while questioning whether powerful effects prove anything.
+Postmodern writers set out to show that skepticism toward truth need not lead to nihilism but could generate engaging literature. By foregrounding constructedness and treating meaning-making playfully, postmodern works paradoxically created powerful effects while questioning whether powerful effects prove anything.

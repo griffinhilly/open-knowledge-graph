@@ -19,7 +19,7 @@ status: draft
 # The Realist Novel: Technique and Representation
 
 ## Core Idea
-Realist novelists developed new formal techniques to convey social truth: free indirect discourse (shifting between narrative and character perspective), careful accumulation of detail establishing milieu, and management of narrative distance balancing authorial authority with character subjectivity. These techniques allowed novelists to represent how individuals understand their social world and how understanding is shaped by class and position.
+Realist novelists refined and extended formal techniques to convey social truth: free indirect discourse (shifting between narrative and character perspective, already used by earlier writers such as Jane Austen), careful accumulation of detail establishing milieu, and management of narrative distance balancing authorial authority with character subjectivity. These techniques allowed novelists to represent how individuals understand their social world and how understanding is shaped by class and position.
 
 ## How It's Best Learned
 Write one character's thought three ways: direct thought ("I am ruined," she thought), indirect report (She thought that she was ruined), and free indirect discourse (She was ruined, utterly ruined). Notice how the third keeps the narrator's grammar but takes on the character's voice. Then find a realist passage, mark where it slides into a character's view, and ask what the narrator knows that the character does not.
@@ -70,7 +70,7 @@ Write one character's thought three ways: direct thought ("I am ruined," she tho
 
 ## Explainer
 
-Realist novelists developed technical innovations enabling representation of social truth with unprecedented sophistication. These techniques went beyond simple representation to investigate how individuals understand their world and how that understanding is shaped by social forces.
+Realist novelists refined techniques enabling representation of social truth with unprecedented sophistication. These techniques went beyond simple representation to investigate how individuals understand their world and how that understanding is shaped by social forces.
 
 Free indirect discourse proved crucial. Rather than separating narrator from character, this technique blends perspectives. Readers access how characters think and feel while remaining aware of authorial perspective. This creates complex representation: characters' self-understanding exists alongside authorial analysis. A character might believe themselves superior, yet readers recognize economic desperation. This gap between self-perception and reality becomes vehicle for social truth.
 
