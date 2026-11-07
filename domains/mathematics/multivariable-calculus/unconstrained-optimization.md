@@ -6,6 +6,8 @@ course: multivariable-calculus
 prerequisites:
 - id: hessian-matrix-second-derivative-test
   type: hard
+- id: critical-points-extrema-saddle
+  type: hard
 builds-toward:
 - lagrange-multipliers
 tags:

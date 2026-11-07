@@ -6,6 +6,10 @@ course: numerical-analysis
 prerequisites:
 - id: composite-quadrature
   type: hard
+- id: newton-cotes-formulas
+  type: soft
+- id: orthogonal-polynomials
+  type: hard
 builds-toward:
 - romberg-integration
 tags:

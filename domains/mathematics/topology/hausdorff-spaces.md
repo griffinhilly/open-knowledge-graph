@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: separation-axioms
   type: soft
+- id: limit-points-convergence-topology
+  type: soft
 builds-toward:
 - compactness-hausdorff-spaces
 - metrization-theorems

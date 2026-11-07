@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: heine-borel-theorem
   type: hard
+- id: sequential-characterization-continuity
+  type: soft
 builds-toward:
 - uniform-continuity-compact-sets
 tags:

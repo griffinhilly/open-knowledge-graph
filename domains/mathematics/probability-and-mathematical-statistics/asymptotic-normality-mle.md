@@ -12,8 +12,9 @@ prerequisites:
   type: hard
 - id: cramer-rao-lower-bound
   type: soft
+- id: maximum-likelihood-estimation-theory
+  type: hard
 builds-toward:
-- umvue
 - confidence-intervals-rigorous-theory
 tags:
 - asymptotic-normality

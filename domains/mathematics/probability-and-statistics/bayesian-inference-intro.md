@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: maximum-likelihood-estimation-theory-probability-and-statistics
   type: soft
+- id: bayes-theorem-and-inference
+  type: hard
 builds-toward:
 - bayesian-point-estimation
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: uniformly-most-powerful-tests
   type: soft
+- id: central-limit-theorem-rigorous
+  type: soft
 builds-toward:
 - bayesian-inference-foundations
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: distribution-shape-skewness-kurtosis
   type: soft
+- id: categorical-vs-quantitative-data
+  type: soft
 builds-toward:
 - distribution-shape-skewness-kurtosis
 tags:

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: multiple-regression-intro
   type: soft
+- id: regression-model-assumptions
+  type: hard
 builds-toward:
 - prediction-intervals-regression
 tags:

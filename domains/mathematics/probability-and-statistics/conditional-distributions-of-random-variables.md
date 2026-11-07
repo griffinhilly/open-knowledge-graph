@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: conditional-distributions-theory
   type: soft
+- id: joint-marginal-distributions
+  type: hard
+- id: joint-probability-distributions
+  type: hard
 builds-toward:
 - conditional-expectation
 - bivariate-normal-distribution

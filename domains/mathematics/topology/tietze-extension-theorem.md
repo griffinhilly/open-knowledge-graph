@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: separation-axioms-t3-regular
   type: hard
+- id: normal-spaces
+  type: hard
 builds-toward:
 - metrization-theorems
 tags:

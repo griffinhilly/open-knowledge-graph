@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - anova-one-way
-- hypothesis-testing-fundamentals
 tags:
 - f-distribution
 stage: formal-systems

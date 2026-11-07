@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dot-cross-products-geometry
   type: hard
+- id: 3d-coordinate-systems
+  type: hard
 builds-toward:
 - tangent-planes-linear-approximation
 - level-sets-surfaces

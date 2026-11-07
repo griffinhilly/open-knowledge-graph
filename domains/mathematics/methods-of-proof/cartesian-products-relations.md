@@ -6,6 +6,8 @@ course: methods-of-proof
 prerequisites:
 - id: set-operations-union-intersection-complement
   type: hard
+- id: set-fundamentals
+  type: hard
 builds-toward:
 - functions-domain-codomain-range
 - equivalence-relations

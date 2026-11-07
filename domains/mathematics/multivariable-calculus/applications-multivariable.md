@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: unconstrained-optimization
   type: soft
+- id: constrained-optimization-lagrange
+  type: soft
 tags:
 - applications
 - physics

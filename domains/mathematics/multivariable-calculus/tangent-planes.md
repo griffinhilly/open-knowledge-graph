@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: equations-lines-planes-3d
   type: soft
+- id: differentiability-multivariable
+  type: soft
 builds-toward:
 - chain-rule-multivariable
 tags:

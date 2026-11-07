@@ -14,6 +14,12 @@ prerequisites:
   type: soft
 - id: relationships-modes-convergence
   type: soft
+- id: independence-sigma-algebras
+  type: hard
+- id: moment-generating-functions
+  type: soft
+- id: weak-law-of-large-numbers
+  type: soft
 builds-toward:
 - maximum-likelihood-estimation-theory
 - confidence-intervals-rigorous-theory

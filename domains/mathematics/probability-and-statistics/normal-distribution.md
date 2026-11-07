@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: bivariate-normal-distribution
   type: soft
+- id: histograms-and-frequency-distributions
+  type: soft
+- id: probability-density-functions-theory
+  type: hard
 builds-toward:
 - standard-normal-and-z-scores
 - central-limit-theorem

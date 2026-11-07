@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: standard-normal-z-scores-theory
   type: hard
+- id: hypothesis-testing-framework-theory
+  type: hard
 builds-toward:
 - t-test-for-means
 tags:

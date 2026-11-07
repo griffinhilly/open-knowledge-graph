@@ -8,6 +8,10 @@ prerequisites:
   type: hard
 - id: expected-value
   type: soft
+- id: probability-spaces-measure-theoretic
+  type: hard
+- id: random-variables-as-measurable-functions
+  type: hard
 builds-toward:
 - variance-higher-moments-rigorous
 - conditional-expectation

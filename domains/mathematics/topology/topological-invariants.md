@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: homeomorphisms-definition-properties
   type: soft
+- id: continuity-topological-spaces
+  type: hard
 builds-toward:
 - fundamental-group-definition
 - classification-compact-surfaces

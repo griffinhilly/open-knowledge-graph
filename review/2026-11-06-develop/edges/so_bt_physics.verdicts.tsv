@@ -30,3 +30,152 @@ ADD	inclined-planes-and-wedges	work-and-energy	soft	medium	Inclines show work = 
 ADD	mechanical-advantage-intro	work-and-energy	soft	medium	Mechanical advantage trading force for distance motivates the work concept.
 DROP	screws	work-and-energy	-	medium	Screws are a narrow simple machine; inclined-planes and mechanical-advantage already cover the intuition.
 ADD	energy-transfer	work-energy-theorem	soft	medium	Work as energy transfer is the conceptual basis of W_net = ΔKE.
+ADD	electromagnetic-induction-applications	ac-circuits-fundamentals	soft	medium	AC sources are generators built on induction; helps motivate sinusoidal EMF.
+ADD	rc-circuits	ac-circuits-fundamentals	soft	high	Capacitive behavior in AC builds on RC circuits; RLC hard prereq already implies it.
+ADD	rl-circuits	ac-circuits-fundamentals	soft	high	Inductive behavior in AC builds on RL circuits; RLC hard prereq already implies it.
+ADD	lc-and-rlc-circuits	ac-power-and-resonance	soft	high	B's resonance ω₀ = 1/√(LC) and Q factor come straight from RLC analysis.
+ADD	equipotential-surfaces	capacitance	soft	medium	Capacitor plates are equipotentials; V between plates defines C.
+ADD	potential-energy-systems	capacitance	soft	medium	Energy stored U = ½CV² draws on electric potential energy of charge systems.
+ADD	gauss-law-integral-form	conductors-electrostatic-behavior	soft	high	E = 0 inside and E = σ/ε₀ at the surface follow from Gauss's law.
+ADD	relationship-e-field-potential	conductors-electrostatic-behavior	soft	high	Conductor is an equipotential because E = 0 inside; E ⊥ surface uses E = −∇V.
+ADD	gauge-transformations	covariant-em	soft	medium	F^μν is gauge invariant and A^μ gauge freedom frames the covariant form.
+DROP	capacitor-networks	dc-circuit-analysis	-	medium	B is resistor networks with KCL/KVL; capacitor combinations are not drawn on.
+ADD	parallel-plate-capacitor	dielectric-constant-relative-permittivity	soft	high	E_inside = E/κ and C = κε₀A/d are framed on the parallel-plate geometry.
+ADD	relationship-e-field-potential	electric-dipole-moment	soft	medium	Dipole far-field and potential V ∝ cosθ/r² link via E = −∇V.
+ADD	electric-field-point-charges	electric-flux-and-divergence	soft	medium	Flux of a point charge through a closed surface is the base case for Q/ε₀.
+DROP	gauss-law-problem-solving	electric-potential	-	medium	Electric potential is foundational and does not draw on Gauss problem-solving.
+ADD	electric-current-and-resistance	electric-power	soft	high	P = IV, I²R, V²/R draw directly on current and resistance.
+ADD	resistance-resistivity-temperature	electromotive-force-batteries	soft	medium	Internal resistance r in V = ε − Ir draws on the resistance concept.
+DROP	capacitor-circuits-series-parallel	energy-density-electric-field	-	medium	u = ½ε₀E² does not draw on series/parallel combination rules.
+ADD	dielectric-materials-polarization	energy-density-electric-field	soft	medium	B's u = ½ε₀εᵣE² includes the dielectric factor from polarization.
+ADD	electric-field-lines	equipotential-surfaces	soft	high	Equipotentials are defined as perpendicular to field lines. Note: A is staged advanced, above B.
+DROP	electromagnets-intro	faradays-law	-	medium	Electromagnets show current -> B; Faraday's law is changing flux -> EMF, a different idea.
+ADD	electric-field-lines	gauss-law	soft	high	Flux as net field lines through a closed surface is the standard intuition for Gauss's law.
+ADD	superposition-principle-electrostatics	gauss-law	soft	medium	Flux from outside charges cancels by superposition; only enclosed charge counts.
+ADD	electric-field-continuous-distributions	gauss-law-integral-form	soft	medium	Gauss's law is the shortcut for symmetric continuous distributions; already implied via flux topic.
+ADD	toroid-magnetic-field-calculation	inductance-and-inductors	soft	medium	Toroid B-field gives a standard self-inductance calculation.
+ADD	ohms-law-circuits	kirchhoff-circuit-laws-rules	soft	high	KVL loop equations use IR drops; EMF hard prereq already implies Ohm's law.
+ADD	inductance-and-inductors	lc-and-rlc-circuits	hard	high	LC/RLC circuits cannot be analyzed without the inductor V = L dI/dt.
+ADD	faraday-induced-emf	lenzs-law	soft	medium	Lenz's law is the sign of Faraday's law; duplicate of faradays-law, which is already hard.
+DROP	magnetic-force-moving-charges	magnetic-field-intro	-	high	Would create a cycle: magnetic-field-intro is already a hard prereq of A. Note: A oddly has transient-response-rc-circuits as a hard prereq.
+DROP	magnetic-attraction-and-repulsion	magnetic-force-moving-charges	-	medium	F = qv×B does not draw on bar-magnet attraction; that belongs with magnetic-field-intro.
+ADD	magnetic-force-conductors	magnetic-torque-dipole	soft	medium	Torque on a loop sums forces on wire segments; A looks like a duplicate of magnetic-force-current-wires (already hard).
+ADD	dc-circuits-series-parallel	rc-circuits	soft	medium	RC circuits are analyzed as series loops with resistor and capacitor.
+ADD	ohms-law-microscopic	resistor-combinations	hard	medium	R_eq derivations use V = IR directly; B's only prereq (joule-heating) is odd.
+ADD	maxwell-equations-differential-form	boundary-value-problems-electrostatics	soft	medium	Poisson's equation comes from ∇·E = ρ/ε₀; laplace-poisson hard prereq covers most of it.
+ADD	electric-potential-and-potential-energy	boundary-value-problems-em	soft	medium	Separation of variables solves for the potential V. Note: A (an E&M basic) is staged expert.
+DROP	polarization-of-waves	cavity-resonators	-	medium	Cavity modes draw on waveguides and boundary conditions, not wave polarization.
+DROP	lorenz-gauge	electromagnetic-field-tensor	-	medium	F^μν is gauge invariant; no gauge choice is needed to build it.
+ADD	displacement-current-and-maxwell	electromagnetic-wave-equation	soft	high	Displacement current is what makes the wave equation close; ampere-maxwell-law hard already covers it.
+ADD	faraday-law-of-induction	electromagnetic-wave-equation	soft	high	∇×E = −∂B/∂t is one of the two curls combined. Note: B lists two near-duplicate Maxwell-differential ids.
+DROP	electromagnetic-wave-polarization	electromagnetic-waves-in-dielectrics	-	medium	B's "polarization" is material polarization of bound charges, not wave polarization; existing polarization-of-waves soft prereq looks like the same mix-up.
+ADD	maxwells-equations-integral-form	electromagnetic-waves-in-media	soft	medium	Interface boundary conditions used for media come from the integral forms.
+DROP	polarization-of-waves	electromagnetic-waves-in-media	-	medium	B is about D = εE, phase velocity c/n and dispersion, not wave polarization.
+DROP	poynting-vector-and-energy-flux	electromagnetic-waves-in-media	-	medium	B's core (n, v_p, dispersion) does not draw on energy flux.
+ADD	conductivity-complex-dielectric	em-waves-anisotropic-media	soft	medium	Tensor ε_ij(ω) generalizes the complex dielectric function; frequency-dependent-permittivity hard covers most.
+DROP	magnetic-susceptibility-and-permeability	em-waves-anisotropic-media	-	medium	B's anisotropy is in the permittivity tensor, not magnetic permeability.
+ADD	electromagnetic-field-tensor	lorentz-transformations-em-fields	soft	high	E and B transformation rules follow from F' = ΛFΛᵀ.
+ADD	poynting-theorem-conservation-law	maxwell-stress-tensor-forces	soft	medium	Momentum conservation via T_ij mirrors Poynting's energy conservation law.
+ADD	boundary-value-problems-electrostatics	method-of-images	soft	high	Images solve a BVP and rely on the uniqueness theorem for validity.
+ADD	electromagnetic-wave-equation	poynting-vector-and-energy-flux	soft	high	Energy flux S = E×B/μ₀ is applied to wave solutions; plane-waves hard prereq already implies it.
+DROP	multipole-expansion-fields	radiation-accelerating-charges	-	medium	B is built on Liénard-Wiechert fields; multipoles feed dipole radiation, which B builds toward. Note: B lists synchrotron-radiation (a downstream case) as a soft prereq.
+DROP	electric-dipole-radiation	radiation-reaction-force	-	medium	B derives from the Larmor formula (already hard), not from dipole radiation patterns.
+ADD	lienard-wiechert-potentials	synchrotron-radiation	soft	high	The γ⁴ relativistic radiation power comes from Liénard-Wiechert fields.
+ADD	schrodinger-equation-time-dependent	classical-limit-correspondence	soft	high	Expectation values reproducing classical motion (Ehrenfest) come from the TDSE.
+ADD	beta-emission-weak-force	gamma-emission-nuclear-transitions	soft	medium	B notes gamma emission often follows beta decay, leaving an excited daughter.
+DROP	nuclear-magnetic-moments	gamma-emission-nuclear-transitions	-	medium	B uses nuclear levels and angular-momentum/parity selection rules, not magnetic moments.
+DROP	uncertainty-relation-measurements	hydrogen-quantum-energy-levels	-	medium	Hydrogen levels and orbitals come from solving the Schrödinger equation, not uncertainty relations.
+DROP	length-contraction-measurement	mass-energy-equivalence-relativity	-	medium	E = γmc² draws on relativistic energy, not length contraction.
+ADD	time-dilation-clock-rates	mass-energy-equivalence-relativity	soft	medium	Learners meet γ in time dilation before E = γmc²; relativistic-momentum-energy is the real hard prereq.
+ADD	compton-wavelength-shift	matter-wave-de-broglie-momentum	soft	medium	Compton shows photon momentum p = h/λ, which de Broglie inverts for matter.
+DROP	periodic-table-filling-orbitals	photon-absorption-emission	-	medium	Dominant direction is energy levels -> spectra -> periodic table; B does not need filling rules.
+ADD	time-dilation	relativistic-momentum-energy	soft	medium	γ factor first met in time dilation; lorentz-transformation hard prereq already covers it.
+ADD	simultaneity-different-reference-frames	time-dilation-clock-rates	soft	medium	The symmetry of mutual clock slowing is resolved by relativity of simultaneity.
+ADD	spacetime-diagrams	time-dilation-clock-rates	soft	medium	Proper time along a worldline is read off spacetime diagrams.
+DROP	classical-limit-correspondence	uncertainty-relation-measurements	-	medium	Operator uncertainty relations do not draw on the classical limit; reverse would be more natural.
+ADD	wave-particle-duality	wavefunction-and-probability	soft	high	Born rule interprets the matter-wave intensity as probability, building on duality.
+ADD	lorenz-system	lyapunov-exponents	soft	medium	Lorenz system is the standard worked example for computing a positive λ₁.
+ADD	lorenz-system	strange-attractors	soft	high	The Lorenz attractor is the canonical strange attractor (B is tagged lorenz-attractor).
+ADD	scattering-theory-quantum	born-approximation	soft	medium	Born approximation is a scattering-amplitude method; A looks like a duplicate of scattering-theory-intro (already hard).
+ADD	partial-wave-analysis	cross-sections-scattering	soft	high	σ = (4π/k²)Σ(2l+1)sin²δ_l is the standard cross-section route.
+ADD	hydrogen-atom-quantum	fine-structure-splitting	hard	high	Fine structure corrects the n, l hydrogen levels; impossible without the QM hydrogen solution.
+DROP	addition-of-angular-momenta	hydrogen-atom-quantum	-	high	The basic hydrogen solution uses single-particle L only; coupling belongs to fine structure.
+DROP	clebsch-gordan-coefficients	hydrogen-energy-levels	-	high	E_n = −13.6/n² and degeneracy need no CG coefficients. Note: B lists fine-structure-splitting as a soft prereq, which looks inverted.
+ADD	scattering-theory-quantum	partial-wave-analysis	soft	medium	Partial waves expand the scattering amplitude; A looks like a duplicate of scattering-theory-intro (already hard).
+DROP	coherent-states	path-integral-formulation	-	medium	B's core is position-space sum over paths; coherent-state path integrals are a later variant.
+ADD	state-vectors-and-wavefunctions	quantum-postulates	hard	medium	The first postulate states the system is a state vector; B cannot be read without that notion.
+ADD	angular-momentum-quantum	spin-angular-momentum	soft	high	Spin obeys the same angular-momentum commutation algebra. Note: B lists partial-wave-analysis (expert scattering) as a soft prereq, which looks wrong.
+DROP	uncertainty-principle-formal	wkb-approximation	-	medium	WKB draws on slowly varying de Broglie wavelength and ODEs, not the uncertainty principle.
+ADD	grand-partition-function	bose-einstein-condensation-statmech	soft	medium	Condensation appears as μ -> 0 in the grand-canonical treatment; bose-gas hard prereq covers most.
+ADD	grand-partition-function	bose-gas-ideal-quantum	soft	high	Bose-gas occupation and T_c are derived from the grand partition function.
+ADD	van-der-waals-derivation	critical-phenomena-statmech	soft	medium	The vdW critical point is the classic mean-field example of critical behavior.
+DROP	fermi-gas-ideal-quantum	debye-model-lattice-dynamics	-	high	Debye phonons are bosons following Planck statistics; Fermi gas is only a contrast.
+ADD	density-of-states-fermi-gas	fermi-gas-finite-temperature	soft	high	B's C_V ∝ g(E_F) T uses the density of states at the Fermi level.
+ADD	grand-partition-function	fermi-gas-ideal-quantum	soft	high	Fermi-gas occupation is derived from the grand partition function.
+DROP	h-theorem-irreversibility	fluctuation-dissipation-theorem	-	medium	FDT draws on linear response and correlations near equilibrium, not Boltzmann's H-theorem.
+ADD	phase-space-density-evolution	fokker-planck-equation	soft	medium	Fokker-Planck extends Liouville-type density evolution with drift and diffusion.
+ADD	partition-function-definition	gibbs-free-energy	soft	medium	Statistical route to G goes through the partition function; helmholtz hard prereq already implies it.
+ADD	long-range-order	goldstone-theorem	soft	medium	Goldstone modes are fluctuations of a broken long-range order parameter.
+ADD	ensemble-theory-fundamentals	grand-canonical-ensemble	soft	high	Grand canonical is one ensemble within general ensemble theory.
+ADD	statistical-ensembles-intro	grand-canonical-ensemble	soft	high	Grand canonical extends the ensemble idea to particle exchange; near-duplicate of ensemble-theory-fundamentals.
+ADD	canonical-ensemble	helmholtz-free-energy	soft	high	F = −kT ln Z is the canonical ensemble's free energy; partition-function hard prereq covers Z.
+ADD	phase-transitions-first-and-second-order	landau-theory	soft	high	Landau theory models second-order transitions, so the classification frames it.
+ADD	rms-speed-and-kinetic-energy	maxwell-boltzmann-distribution	soft	high	v_rms and ⟨KE⟩ = 3/2 kT are the familiar results MB distribution derives.
+ADD	ising-model-fundamentals	monte-carlo-methods-stat-mech	soft	medium	Ising is the standard Metropolis test system.
+ADD	ising-model-statmech	monte-carlo-statistical-mechanics	soft	medium	Ising is the standard importance-sampling test system.
+ADD	statistical-ensembles-intro	partition-function-definition	soft	medium	Z is a sum over ensemble states. Note: A is staged expert, above B (advanced).
+ADD	canonical-partition-function	phase-transition-equilibrium	soft	medium	Phase free energies come from ln Z; free-energy-thermodynamic-relations hard prereq covers most.
+ADD	bose-gas-ideal-quantum	planck-distribution-blackbody	soft	medium	Photon gas is a Bose gas with μ = 0; Planck form is the Bose occupation.
+ADD	landau-theory-phase-transitions	renormalization-group-scaling	soft	medium	RG corrects Landau mean-field exponents; contrast motivates it.
+DROP	spontaneous-symmetry-breaking	renormalization-group-scaling	-	medium	B draws on scaling and critical exponents, not on SSB directly.
+ADD	two-point-correlation-functions	response-functions-definition	soft	medium	Linear response is expressed through correlation functions; time-correlation hard prereq covers most.
+ADD	landau-theory-phase-transitions	scaling-invariance-universality	soft	medium	Universality is framed against Landau mean-field exponents.
+DROP	green-kubo-formula	thermal-conductivity-kinetic	-	medium	B derives κ via Chapman-Enskog kinetic theory; Green-Kubo is an alternate route.
+DROP	green-kubo-formula	transport-coefficients-viscosity	-	medium	B derives viscosity via Chapman-Enskog; Green-Kubo is an alternate route.
+ADD	virial-coefficients-interaction	van-der-waals-derivation	soft	high	vdW a and b come from the second virial coefficient; second-virial-coefficient already hard.
+ADD	virial-expansion-gases	van-der-waals-derivation	soft	high	vdW derivation truncates the virial expansion at B₂.
+ADD	van-der-waals-equation-of-state	compressibility-factor-z	soft	medium	Corresponding-states Z charts rest on reduced variables that vdW makes explicit.
+DROP	compressibility-factor-z	critical-point-phenomena	-	medium	B draws on vdW isotherms; Z uses T_c, P_c, so dominant direction is critical point -> Z.
+ADD	state-variables-and-functions	exact-and-inexact-differentials	soft	high	State functions have exact differentials; near-duplicate path-functions-vs-state-functions is already hard.
+ADD	degrees-of-freedom-and-heat-capacity	heat-capacity-of-gases	soft	high	Cv = (f/2)R for monatomic vs diatomic gases counts degrees of freedom.
+ADD	first-law-of-thermodynamics	heat-capacity-of-gases	soft	high	Cv = dU/dT and Cp − Cv = R come from the first law.
+ADD	conduction-convection-radiation-quantitative	heat-transfer-conduction	soft	medium	Comparative overview of the three mechanisms precedes the formal Fourier-law treatment.
+ADD	thermal-insulators	heat-transfer-conduction	soft	medium	Concrete insulators give intuition for low thermal conductivity k.
+ADD	conduction-convection-radiation-quantitative	heat-transfer-convection	soft	medium	Comparative overview precedes the formal P = hAΔT treatment.
+ADD	conduction-convection-radiation-quantitative	heat-transfer-radiation	soft	medium	Comparative overview precedes the formal Stefan-Boltzmann treatment.
+DROP	density-intro	ideal-gas-law	-	medium	PV = nRT draws on temperature, moles and gas laws, not on density.
+ADD	calorimetry	latent-heat	soft	medium	Latent heats are measured and used in calorimetry (ice-in-water) problems.
+DROP	surface-tension-and-capillarity	phase-equilibrium-coexistence	-	medium	Coexistence draws on equal chemical potentials, not surface tension.
+DROP	joule-thomson-expansion-effect	rankine-cycle-steam-power	-	medium	The Rankine cycle has pump, boiler, turbine and condenser; no throttling or J-T step.
+DROP	throttling-process-analysis	rankine-cycle-steam-power	-	medium	The Rankine cycle has no throttling valve; throttling belongs to refrigeration cycles.
+ADD	heat-transfer-calculations	specific-heat-capacity	soft	medium	Q = mcΔT practice is the lower-stage precursor of the formal specific heat topic.
+ADD	thermodynamic-equilibrium-mechanical-chemical	state-variables-and-functions	soft	medium	State variables are defined for systems in equilibrium.
+ADD	zeroth-law-of-thermodynamics	state-variables-and-functions	soft	medium	The zeroth law makes temperature a well-defined state variable.
+DROP	maxwell-relations-thermodynamics-thermodynamics	thermodynamic-availability-exergy	-	medium	Exergy draws on the second law and free energies, not Maxwell relations.
+ADD	work-in-thermodynamic-processes	thermodynamic-processes	soft	high	Work as area under the PV curve is used for every process on the PV diagram.
+DROP	clausius-inequality	third-law-absolute-entropy	-	medium	B draws on entropy and ∫C_p/T dT, not the Clausius inequality.
+JUDGE	boundary-work-pv-diagram	work-in-thermodynamic-processes	-	medium	A and B are near-duplicates (PV work as area); a human should decide merge vs edge.
+ADD	wave-superposition	beats-and-beat-frequency	soft	high	Beats are superposition of two close frequencies; superposition-principle-waves already hard (likely duplicate).
+ADD	diffraction-and-huygen-principle	diffraction-gratings	soft	medium	Huygens wavelets from each slit explain grating maxima.
+ADD	fraunhofer-diffraction-patterns	diffraction-gratings	soft	medium	A grating pattern is a far-field (Fraunhofer) multi-slit pattern.
+DROP	multiple-slit-grating-equation	diffraction-resolution-angular-separation	-	medium	B is circular-aperture Rayleigh resolution, not grating resolving power. Note: B duplicates rayleigh-criterion-resolution.
+DROP	wavelength-frequency-speed-relation	diffraction-resolution-angular-separation	-	medium	Only uses λ as a symbol; basic wave relation is already upstream of single-aperture diffraction.
+ADD	doppler-effect-comprehensive	doppler-applications-astronomy	soft	high	Astronomy applications apply the general Doppler analysis to light.
+ADD	sound-speed-temperature-and-media	doppler-shift-observer-motion	soft	medium	f' uses v_wave; near-duplicate acoustic-wave-speed-properties is already hard.
+ADD	sound-waves-longitudinal	doppler-shift-observer-motion	soft	medium	B's examples are sound waves; longitudinal sound propagation is the setting.
+ADD	lens-image-formation-ray-diagrams	optical-instruments	soft	high	Instruments are analyzed by tracing images through lens stages.
+ADD	mirror-and-lens-aberrations	optical-instruments	soft	medium	Real instrument design corrects aberrations. Note: A is staged advanced, above B.
+ADD	rayleigh-criterion-resolution	optical-instruments	soft	medium	B covers resolving power of telescopes/microscopes. Note: A is staged advanced, above B.
+ADD	thin-lenses	optical-instruments	soft	high	Instruments are built from converging/diverging thin lenses; thin-lens-equation already hard.
+DROP	brewster-angle-and-polarization	polarization-of-light	-	medium	Dominant direction is polarization-of-light -> Brewster (polarization by reflection); consider the reverse edge.
+DROP	fresnel-diffraction-near-field	rayleigh-criterion-resolution	-	high	Rayleigh criterion is a far-field (Fraunhofer) result; near-field diffraction is not drawn on.
+DROP	transparent-translucent-opaque	refraction-and-snells-law	-	medium	Snell's law draws on wave speed in media, not material transparency categories.
+DROP	mirror-image-formation-ray-diagrams	spherical-mirrors	-	medium	Dominant direction is spherical-mirrors -> mirror ray diagrams; consider the reverse edge.
+ADD	wave-superposition	standing-waves	soft	high	Standing waves are superposed counter-propagating waves; linear-superposition-principle already hard.
+ADD	fresnel-reflection-transmission	thin-film-interference	soft	medium	The π phase shift on reflection from a denser medium comes from Fresnel coefficients.
+ADD	fresnel-reflection-transmission	total-internal-reflection	soft	medium	Fresnel equations give r = 1 past the critical angle. Note: A is staged advanced, above B.
+DROP	impedance-matching-and-reflection	total-internal-reflection	-	medium	TIR draws on Snell's law and the critical angle, not impedance matching.
+DROP	acoustic-wave-speed-properties	vibrating-string-normal-modes	-	medium	String modes use v = √(T/μ) on the string, not sound speed in air.
+ADD	sound-and-vibrations	wave-motion-definition	soft	medium	Concrete sound/vibration experience precedes the formal wave definition.
+DROP	malus-law-derivation	wave-plates-quarter-half-wave	-	medium	Wave plates draw on birefringence and optical path difference, not Malus's law.
+DROP	energy-forms-heat-light-sound	wave-properties-intro	-	medium	B draws on SHM and wave quantities; energy forms are not what it uses.

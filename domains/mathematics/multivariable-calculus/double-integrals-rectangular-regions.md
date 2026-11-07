@@ -6,6 +6,8 @@ course: multivariable-calculus
 prerequisites:
 - id: iterated-integrals-fubini
   type: hard
+- id: double-integrals
+  type: hard
 builds-toward:
 - double-integrals-general-regions
 - double-integrals-polar

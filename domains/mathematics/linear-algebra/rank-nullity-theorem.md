@@ -14,6 +14,14 @@ prerequisites:
   type: hard
 - id: row-space
   type: soft
+- id: basis-and-dimension
+  type: hard
+- id: basis-definition
+  type: hard
+- id: null-space
+  type: hard
+- id: systems-of-linear-equations
+  type: soft
 tags:
 - rank-nullity
 - dimensions

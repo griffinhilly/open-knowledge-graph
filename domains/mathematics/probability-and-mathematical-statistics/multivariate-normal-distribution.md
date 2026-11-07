@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: bivariate-normal-distribution
   type: soft
+- id: moment-generating-functions
+  type: soft
 builds-toward:
 - central-limit-theorem-rigorous
 - bayesian-inference-foundations

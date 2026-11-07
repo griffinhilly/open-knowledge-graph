@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: curl-divergence
   type: hard
+- id: greens-theorem
+  type: soft
 builds-toward:
 - applications-multivariable
 tags:

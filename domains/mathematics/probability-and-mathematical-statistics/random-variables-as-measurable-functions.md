@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: borel-sigma-algebra
   type: hard
+- id: sigma-algebras-measurable-sets
+  type: hard
 builds-toward:
 - distribution-functions-densities-rigorous
 - expectation-measure-theoretic

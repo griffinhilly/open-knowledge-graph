@@ -6,6 +6,8 @@ course: probability-and-statistics
 prerequisites:
 - id: discrete-random-variables
   type: hard
+- id: random-variables-intro
+  type: hard
 builds-toward:
 - continuous-random-variables
 - binomial-distribution

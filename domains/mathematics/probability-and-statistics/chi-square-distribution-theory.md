@@ -8,7 +8,6 @@ prerequisites:
   type: hard
 builds-toward:
 - chi-square-test
-- hypothesis-testing-fundamentals
 tags:
 - chi-square
 stage: formal-systems

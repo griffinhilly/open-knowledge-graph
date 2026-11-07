@@ -16,6 +16,12 @@ prerequisites:
   type: hard
 - id: t-distribution-theory
   type: hard
+- id: linear-transformations-of-random-variables
+  type: soft
+- id: normal-distribution
+  type: hard
+- id: sampling-distributions
+  type: hard
 builds-toward:
 - hypothesis-testing-fundamentals
 tags:

@@ -6,6 +6,8 @@ course: probability-and-statistics
 prerequisites:
 - id: discrete-random-variables
   type: hard
+- id: random-variables-definition-types
+  type: hard
 builds-toward:
 - expected-value
 - variance-of-random-variables

@@ -11,7 +11,6 @@ prerequisites:
 - id: character-theory
   type: soft
 builds-toward:
-- burnsides-theorem
 - induced-representations
 tags:
 - permutation-representation

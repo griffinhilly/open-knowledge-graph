@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: applications-double-integrals
   type: soft
+- id: iterated-integrals
+  type: hard
 builds-toward:
 - triple-integrals-cylindrical
 - triple-integrals-spherical

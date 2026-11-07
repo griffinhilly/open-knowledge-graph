@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: metric-topology-from-metric
   type: soft
+- id: metric-spaces-definition-and-examples
+  type: hard
 builds-toward:
 - contraction-mapping-theorem
 - baire-category-theorem

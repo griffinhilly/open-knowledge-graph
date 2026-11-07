@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: subtracting-integers
   type: soft
+- id: percent-concept
+  type: hard
 builds-toward:
 - simple-interest
 - exponential-growth-and-decay

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: least-squares-estimation-intro
   type: soft
+- id: scatterplots-and-correlation
+  type: hard
 builds-toward:
 - residuals-and-goodness-of-fit
 tags:

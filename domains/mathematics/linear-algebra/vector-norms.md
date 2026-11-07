@@ -13,7 +13,6 @@ prerequisites:
 - id: vectors-3d-coordinate-system
   type: soft
 builds-toward:
-- dot-product
 - orthogonal-vectors-orthonormal-bases
 tags:
 - vectors

@@ -12,6 +12,12 @@ prerequisites:
   type: hard
 - id: joint-distributions-and-marginals-rigorous
   type: soft
+- id: joint-distributions-marginals-rigorous
+  type: hard
+- id: probability-spaces-measure-theoretic
+  type: hard
+- id: conditional-distributions-theory
+  type: soft
 builds-toward:
 - martingales-introduction
 - bayesian-inference-foundations

@@ -10,8 +10,7 @@ prerequisites:
   type: hard
 - id: change-of-basis
   type: soft
-builds-toward:
-- least-squares-approximation
+builds-toward: []
 tags:
 - diagonalization
 - similarity

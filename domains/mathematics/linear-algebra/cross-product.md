@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: vectors-3d-coordinate-system
   type: hard
+- id: dot-product
+  type: soft
 tags:
 - vectors
 - cross product

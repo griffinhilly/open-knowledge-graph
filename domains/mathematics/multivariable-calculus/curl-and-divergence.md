@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: dot-cross-products-geometry
   type: soft
+- id: vector-fields
+  type: hard
 builds-toward:
 - greens-theorem
 - surface-integrals-flux

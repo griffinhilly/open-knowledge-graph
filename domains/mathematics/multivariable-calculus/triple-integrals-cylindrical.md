@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: double-integrals-polar-coordinates
   type: soft
+- id: double-integrals-polar
+  type: hard
 builds-toward:
 - applications-multivariable
 tags:

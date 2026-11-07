@@ -12,6 +12,12 @@ prerequisites:
   type: soft
 - id: space-curves
   type: soft
+- id: greens-theorem
+  type: soft
+- id: surface-integrals-scalar
+  type: hard
+- id: work-circulation
+  type: hard
 builds-toward:
 - applications-multivariable
 tags:

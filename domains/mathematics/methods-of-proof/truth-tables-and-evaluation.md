@@ -6,6 +6,8 @@ course: methods-of-proof
 prerequisites:
 - id: logical-connectives-and-operators
   type: hard
+- id: truth-values-and-statements
+  type: hard
 builds-toward:
 - logical-equivalence
 - tautologies-and-contradictions-classification

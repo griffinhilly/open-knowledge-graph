@@ -6,6 +6,10 @@ course: representation-theory
 prerequisites:
 - id: orthogonality-relations
   type: hard
+- id: character-theory
+  type: hard
+- id: representations-of-cyclic-groups
+  type: soft
 builds-toward:
 - representations-of-symmetric-groups
 tags:

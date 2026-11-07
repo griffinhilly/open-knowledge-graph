@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: cross-product-geometry-3d
   type: hard
+- id: vector-valued-functions-curves
+  type: hard
 tags:
 - curvature
 - torsion

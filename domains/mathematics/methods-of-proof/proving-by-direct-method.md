@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: universal-quantifier-introduction
   type: soft
+- id: rules-of-logical-inference
+  type: hard
 builds-toward:
 - proving-by-contrapositive
 - proving-by-cases

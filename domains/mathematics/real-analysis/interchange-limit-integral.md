@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: uniform-convergence
   type: hard
+- id: uniform-convergence-functions
+  type: hard
 tags:
 - limit-integral
 - interchange

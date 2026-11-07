@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: writing-and-interpreting-expressions
   type: soft
+- id: subtracting-integers
+  type: soft
 builds-toward:
 - two-step-equations
 - one-step-inequalities

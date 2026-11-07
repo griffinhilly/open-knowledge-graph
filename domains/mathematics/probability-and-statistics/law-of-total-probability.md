@@ -6,6 +6,8 @@ course: probability-and-statistics
 prerequisites:
 - id: conditional-probability
   type: hard
+- id: sample-spaces-and-events
+  type: hard
 builds-toward:
 - bayes-theorem
 tags:

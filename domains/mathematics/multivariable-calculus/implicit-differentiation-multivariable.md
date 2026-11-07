@@ -6,8 +6,7 @@ course: multivariable-calculus
 prerequisites:
 - id: chain-rule-multivariable-function
   type: hard
-builds-toward:
-- critical-points-multivariable
+builds-toward: []
 tags:
 - implicit-functions
 - differentiation

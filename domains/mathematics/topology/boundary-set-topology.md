@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: closure-operator-topology
   type: hard
+- id: closed-sets-definition-examples
+  type: hard
 tags:
 - boundary
 - operators

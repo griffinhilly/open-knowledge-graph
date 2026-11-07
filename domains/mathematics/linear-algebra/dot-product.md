@@ -16,6 +16,8 @@ prerequisites:
   type: hard
 - id: vectors-in-two-dimensions
   type: soft
+- id: law-of-cosines
+  type: soft
 builds-toward:
 - vector-norms
 - cross-product

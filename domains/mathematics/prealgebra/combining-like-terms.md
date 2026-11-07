@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: properties-of-operations
   type: soft
+- id: associative-property-addition-1st
+  type: soft
 builds-toward:
 - one-step-equations
 - two-step-equations

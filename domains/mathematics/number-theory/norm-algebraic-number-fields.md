@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: field-extensions
   type: hard
+- id: algebraic-integers
+  type: soft
 builds-toward:
 - failure-unique-factorization
 tags:

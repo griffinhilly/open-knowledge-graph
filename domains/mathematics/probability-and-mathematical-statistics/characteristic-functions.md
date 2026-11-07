@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: distribution-and-density-functions
   type: hard
+- id: distribution-functions-densities-rigorous
+  type: hard
 builds-toward:
 - central-limit-theorem-rigorous
 - convergence-in-distribution

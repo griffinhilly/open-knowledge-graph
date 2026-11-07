@@ -10,7 +10,6 @@ prerequisites:
   type: hard
 builds-toward:
 - bayesian-inference-intro
-- maximum-likelihood-estimation-theory
 tags:
 - bayes
 - inference

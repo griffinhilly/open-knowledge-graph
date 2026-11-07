@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: stability-regions-ode
   type: soft
+- id: rounding-errors
+  type: hard
 builds-toward:
 - condition-number
 tags:

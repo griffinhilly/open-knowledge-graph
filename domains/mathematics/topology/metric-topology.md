@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: metric-spaces-definition
   type: hard
+- id: basis-for-topology
+  type: hard
 builds-toward:
 - metrization-theorems
 - completeness-metric-spaces

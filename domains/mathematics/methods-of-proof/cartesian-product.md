@@ -6,6 +6,8 @@ course: methods-of-proof
 prerequisites:
 - id: set-operations
   type: hard
+- id: set-theory-basics
+  type: hard
 builds-toward:
 - binary-relations
 tags:

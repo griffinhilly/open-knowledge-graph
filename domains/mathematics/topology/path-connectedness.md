@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: homotopy-paths
   type: soft
+- id: connected-spaces
+  type: soft
 builds-toward:
 - homotopy-of-paths
 - fundamental-group-definition

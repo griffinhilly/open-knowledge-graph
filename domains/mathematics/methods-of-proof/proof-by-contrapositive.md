@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: negation-of-quantified-statements
   type: soft
+- id: proof-structure-and-terminology
+  type: hard
 tags:
 - proof
 - contrapositive

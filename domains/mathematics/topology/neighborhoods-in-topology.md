@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: neighborhoods-and-open-sets
   type: soft
+- id: open-sets-in-topological-spaces
+  type: hard
 builds-toward:
 - limit-points-convergence-topology
 - continuity-topological-spaces

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: second-partials-test-extrema
   type: soft
+- id: clairaut-theorem
+  type: soft
 builds-toward:
 - unconstrained-optimization
 tags:

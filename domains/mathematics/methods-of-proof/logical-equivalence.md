@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: logical-equivalence-intro
   type: hard
+- id: logical-connectives-and-operators
+  type: hard
 builds-toward:
 - converse-inverse-contrapositive
 - negating-quantifiers

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: functions-of-several-variables
   type: hard
+- id: multivariable-functions-intro-domain
+  type: hard
 builds-toward:
 - directional-derivatives-gradient
 - partial-derivatives

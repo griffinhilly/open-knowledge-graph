@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: multiplicative-inverse-modular
   type: hard
+- id: fermat-little-theorem
+  type: soft
 tags:
 - rsa
 - cryptography

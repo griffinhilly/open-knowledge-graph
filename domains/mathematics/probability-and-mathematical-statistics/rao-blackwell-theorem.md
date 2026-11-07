@@ -10,8 +10,7 @@ prerequisites:
   type: hard
 - id: sufficient-statistics
   type: hard
-builds-toward:
-- bayesian-point-estimation
+builds-toward: []
 tags:
 - rao-blackwell
 - unbiased-estimation

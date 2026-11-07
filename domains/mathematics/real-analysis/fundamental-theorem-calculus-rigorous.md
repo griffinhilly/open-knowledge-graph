@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: properties-riemann-integral
   type: soft
+- id: riemann-integrability-criteria
+  type: hard
 tags:
 - fundamental-theorem
 - differentiation

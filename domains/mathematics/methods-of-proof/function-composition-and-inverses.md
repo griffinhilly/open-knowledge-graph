@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: function-types-and-bijections
   type: soft
+- id: functions-domain-codomain-range
+  type: hard
 builds-toward:
 - cardinality-and-countability-methods-of-proof
 tags:

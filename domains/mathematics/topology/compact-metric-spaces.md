@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: completeness-metric-spaces
   type: soft
+- id: metric-topology-from-metric
+  type: hard
 tags:
 - compact
 - metric-spaces

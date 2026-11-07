@@ -4,15 +4,23 @@ title: Conic Sections Overview
 domain: mathematics
 course: precalculus
 prerequisites:
-  - id: function-transformations
-    type: soft
-  - id: domain-and-range
-    type: soft
-  - id: graphing-quadratics
-    type: soft
+- id: function-transformations
+  type: soft
+- id: domain-and-range
+  type: soft
+- id: graphing-quadratics
+  type: soft
+- id: conic-sections-circles
+  type: soft
+- id: conic-sections-ellipses
+  type: soft
+- id: conic-sections-hyperbolas
+  type: soft
+- id: conic-sections-parabolas
+  type: soft
 builds-toward:
-  - polar-graphs
-  - parametric-equations-intro
+- polar-graphs
+- parametric-equations-intro
 tags: [conics, parabola, ellipse, hyperbola, circle]
 stage: formal-systems
 status: validated

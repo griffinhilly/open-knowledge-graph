@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: propositional-logic-basics
   type: hard
+- id: statements-and-logical-connectives
+  type: hard
 builds-toward:
 - de-morgans-laws
 - proof-structure-and-terminology

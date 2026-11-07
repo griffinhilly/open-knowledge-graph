@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: confidence-intervals-framework
   type: hard
+- id: sampling-distributions
+  type: hard
 builds-toward:
 - hypothesis-testing-fundamentals
 tags:

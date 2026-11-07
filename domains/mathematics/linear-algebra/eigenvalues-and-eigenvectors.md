@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: transformation-matrices
   type: soft
+- id: determinant-computation
+  type: hard
 builds-toward:
 - diagonalization
 tags:

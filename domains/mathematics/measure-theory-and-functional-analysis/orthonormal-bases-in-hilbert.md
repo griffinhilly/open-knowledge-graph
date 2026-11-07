@@ -6,6 +6,8 @@ course: measure-theory-and-functional-analysis
 prerequisites:
 - id: riesz-representation-hilbert
   type: hard
+- id: orthogonality-and-projections
+  type: hard
 builds-toward:
 - bessel-inequality-parseval-identity
 tags:

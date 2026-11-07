@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: area-of-trapezoids
   type: soft
+- id: 3d-shape-properties-1st
+  type: soft
 builds-toward:
 - surface-area-of-prisms
 tags:

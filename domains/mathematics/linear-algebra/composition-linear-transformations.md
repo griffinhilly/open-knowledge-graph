@@ -6,6 +6,8 @@ course: linear-algebra
 prerequisites:
 - id: linear-transformation-matrix-representation
   type: hard
+- id: linear-transformations
+  type: hard
 builds-toward:
 - eigenvalues-and-eigenvectors
 - diagonalization

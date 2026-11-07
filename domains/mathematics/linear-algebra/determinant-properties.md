@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: determinants-2x2-3x3
   type: hard
+- id: matrix-transpose
+  type: soft
 builds-toward:
 - cramers-rule
 - eigenvalues-and-eigenvectors

@@ -6,6 +6,8 @@ course: number-theory
 prerequisites:
 - id: law-quadratic-reciprocity
   type: hard
+- id: law-of-quadratic-reciprocity
+  type: soft
 tags:
 - jacobi-symbol
 - quadratic-reciprocity

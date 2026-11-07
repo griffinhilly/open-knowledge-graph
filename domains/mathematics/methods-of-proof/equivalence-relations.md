@@ -6,6 +6,8 @@ course: methods-of-proof
 prerequisites:
 - id: binary-relations
   type: hard
+- id: cartesian-products-relations
+  type: hard
 tags:
 - relations
 - equivalence

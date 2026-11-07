@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: proof-by-contradiction-introduction
   type: hard
+- id: existential-quantifier-introduction
+  type: soft
 builds-toward:
 - proving-by-cases
 tags:

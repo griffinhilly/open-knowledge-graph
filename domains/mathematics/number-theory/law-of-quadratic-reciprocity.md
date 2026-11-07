@@ -6,6 +6,8 @@ course: number-theory
 prerequisites:
 - id: euler-criterion
   type: hard
+- id: quadratic-residues-and-legendre-symbol
+  type: hard
 builds-toward:
 - jacobi-symbol
 tags:

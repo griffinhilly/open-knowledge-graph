@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: determinant-computation
   type: hard
+- id: double-integrals-polar
+  type: soft
 tags:
 - jacobian
 - determinant

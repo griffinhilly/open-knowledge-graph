@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: interpolation-error-analysis
   type: hard
+- id: runges-phenomenon
+  type: soft
 tags:
 - splines
 - cubic

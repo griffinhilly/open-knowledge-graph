@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: even-and-odd-functions
   type: soft
+- id: radian-measure
+  type: hard
 builds-toward:
 - amplitude-period-phase-shift
 - derivatives-of-trigonometric-functions

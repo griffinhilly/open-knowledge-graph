@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: biconditional-statements-intro
   type: hard
-builds-toward:
-- equivalence-relations-and-partitions
+builds-toward: []
 tags:
 - logic
 - biconditional

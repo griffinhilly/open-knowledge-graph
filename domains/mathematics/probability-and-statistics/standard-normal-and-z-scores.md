@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: normal-distribution-theory
   type: hard
+- id: cumulative-distribution-functions-theory
+  type: soft
 builds-toward:
 - confidence-intervals-means
 - hypothesis-testing-fundamentals

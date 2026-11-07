@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: mathematical-induction-introduction
   type: hard
+- id: direct-proof
+  type: hard
 builds-toward:
 - strong-induction
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: cross-product
   type: soft
+- id: vector-valued-functions
+  type: hard
 tags:
 - curvature
 - frenet

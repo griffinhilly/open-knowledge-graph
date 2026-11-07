@@ -6,6 +6,8 @@ course: topology
 prerequisites:
 - id: open-sets-topology
   type: hard
+- id: topological-spaces-definition
+  type: hard
 builds-toward:
 - subbasis-topology
 - product-topology

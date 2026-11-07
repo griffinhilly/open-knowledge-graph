@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: quantiles-and-percentiles
   type: hard
+- id: measures-of-spread
+  type: hard
 tags:
 - boxplot
 - outlier-detection

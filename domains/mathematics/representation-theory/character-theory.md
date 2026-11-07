@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: matrix-representations
   type: hard
+- id: equivalence-of-representations
+  type: hard
 builds-toward:
 - orthogonality-relations
 - character-tables

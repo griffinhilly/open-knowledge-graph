@@ -12,6 +12,10 @@ prerequisites:
   type: soft
 - id: tychonoffs-theorem
   type: soft
+- id: fundamental-group-of-circle
+  type: soft
+- id: simply-connected-spaces
+  type: soft
 builds-toward:
 - classification-compact-surfaces
 tags:

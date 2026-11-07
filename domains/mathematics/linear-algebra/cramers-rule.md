@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: cofactor-expansion
   type: soft
+- id: determinant-computation
+  type: hard
 tags:
 - systems
 - cramers rule

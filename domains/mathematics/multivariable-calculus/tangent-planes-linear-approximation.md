@@ -10,6 +10,10 @@ prerequisites:
   type: soft
 - id: equations-lines-planes
   type: soft
+- id: differentiability-multivariate
+  type: soft
+- id: total-differential
+  type: soft
 builds-toward:
 - optimization-multivariable-basics
 tags:

@@ -8,6 +8,14 @@ prerequisites:
   type: hard
 - id: group-definition-examples
   type: hard
+- id: homotopy-definition
+  type: hard
+- id: homotopy-paths
+  type: hard
+- id: path-connectedness
+  type: hard
+- id: topological-invariants
+  type: soft
 builds-toward:
 - fundamental-group-of-circle
 - simply-connected-spaces

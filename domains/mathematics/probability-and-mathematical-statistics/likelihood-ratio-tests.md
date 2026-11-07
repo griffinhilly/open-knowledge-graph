@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: convergence-in-distribution
   type: soft
+- id: maximum-likelihood-estimation-theory
+  type: hard
 builds-toward:
 - uniformly-most-powerful-tests
 tags:

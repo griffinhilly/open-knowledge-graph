@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: conservative-vector-fields
   type: soft
+- id: line-integrals
+  type: hard
 builds-toward:
 - curl-and-divergence
 tags:

@@ -6,6 +6,8 @@ course: probability-and-statistics
 prerequisites:
 - id: type-i-and-type-ii-errors
   type: hard
+- id: p-values-and-significance
+  type: soft
 builds-toward:
 - power-and-sample-size
 tags:

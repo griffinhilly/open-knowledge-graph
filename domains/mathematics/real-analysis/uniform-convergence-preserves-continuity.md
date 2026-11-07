@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: uniform-convergence
   type: hard
+- id: pointwise-convergence-functions
+  type: hard
 builds-toward:
 - interchange-limit-integral
 - weierstrass-approximation-theorem

@@ -14,6 +14,8 @@ prerequisites:
   type: hard
 - id: multivariable-limits
   type: soft
+- id: functions-of-several-variables
+  type: hard
 builds-toward:
 - rates-of-change-partial-derivatives
 - higher-order-partials

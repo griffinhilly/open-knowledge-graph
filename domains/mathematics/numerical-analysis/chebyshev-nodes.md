@@ -6,6 +6,8 @@ course: numerical-analysis
 prerequisites:
 - id: runges-phenomenon
   type: hard
+- id: interpolation-error-analysis
+  type: hard
 builds-toward:
 - cubic-spline-interpolation
 tags:

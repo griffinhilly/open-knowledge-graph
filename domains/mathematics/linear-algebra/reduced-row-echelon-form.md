@@ -6,6 +6,8 @@ course: linear-algebra
 prerequisites:
 - id: row-echelon-form
   type: hard
+- id: gaussian-elimination
+  type: hard
 builds-toward:
 - rank-nullity-theorem
 tags:

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: central-limit-theorem-theory
   type: hard
+- id: unbiased-and-consistent-estimators
+  type: soft
 builds-toward:
 - confidence-intervals-means
 - confidence-intervals-proportions

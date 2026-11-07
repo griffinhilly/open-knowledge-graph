@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: dot-product-geometry
   type: hard
+- id: contour-maps-level-curves
+  type: soft
 builds-toward:
 - conservative-fields
 tags:

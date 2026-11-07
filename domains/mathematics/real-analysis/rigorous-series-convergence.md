@@ -6,6 +6,8 @@ course: real-analysis
 prerequisites:
 - id: epsilon-n-convergence
   type: hard
+- id: monotone-convergence-theorem
+  type: soft
 builds-toward:
 - absolute-convergence-rearrangement
 - uniform-convergence-power-series

@@ -72,7 +72,7 @@ ADD	tangent-planes	chain-rule-multivariable	soft	medium	Linear approximation mot
 ADD	double-integrals-polar	change-of-variables-multivariable	soft	high	Polar is the motivating Jacobian example; already implied via jacobian-change-of-variables.
 ADD	line-integrals	conservative-fields-potential	hard	high	Path independence is a property of line integrals; already implied.
 DROP	second-partials-test-extrema	constrained-optimization-lagrange	-	medium	Lagrange multipliers use gradients, not the second-partials test.
-ADD	multivariable-functions-intro-domain	contour-maps	soft	high	Duplicate of functions-of-several-variables already listed.
+ADD	multivariable-functions-intro-domain	contour-maps	hard	high	Contour maps picture functions of two variables; duplicate functions-of-several-variables already listed.
 DROP	implicit-differentiation-multivariable	critical-points-multivariable	-	high	Finding critical points needs first partials, not implicit differentiation.
 DROP	mixed-partials-clairaut	critical-points-multivariable	-	medium	Locating critical points uses first partials only; classification is elsewhere.
 ADD	vector-fields	curl-and-divergence	hard	high	Curl and divergence are operators on vector fields.
@@ -115,3 +115,196 @@ ADD	iterated-integrals	triple-integrals	hard	high	Triple integrals are evaluated
 ADD	double-integrals-polar	triple-integrals-cylindrical	hard	high	Cylindrical coordinates are polar plus z; already implied.
 ADD	critical-points-extrema-saddle	unconstrained-optimization	hard	high	Unconstrained optimization finds and classifies critical points; already implied.
 ADD	directional-derivatives-gradient	vector-fields	soft	medium	Gradient fields are a standard vector-field example.
+ADD	primitive-roots-and-cyclic-groups-mod-p	discrete-logarithms	hard	high	A discrete log is defined relative to a primitive root; duplicate id already listed.
+ADD	congruence-properties	eulers-theorem	hard	high	Euler's theorem is a congruence statement proved with congruence manipulations.
+ADD	law-of-quadratic-reciprocity	jacobi-symbol	soft	high	Jacobi reciprocity extends Legendre reciprocity; duplicate law-quadratic-reciprocity already listed.
+ADD	quadratic-residues-and-legendre-symbol	law-of-quadratic-reciprocity	hard	high	Reciprocity is a statement about Legendre symbols.
+ADD	divisibility-theory-formal	linear-diophantine-equations	hard	high	Solvability of ax+by=c is a gcd/divisibility condition.
+ADD	algebraic-integers	norm-algebraic-number-fields	soft	high	Norms of algebraic integers being integers is a key use; norm itself is defined on the field.
+DROP	quadratic-congruences	pells-equation	-	medium	Pell's equation draws on continued fractions, not quadratic congruences.
+ADD	sum-of-two-squares-theorem	pythagorean-triples-parametrization	soft	medium	Related but the parametrization is elementary; duplicate sum-two-squares-theorem already listed.
+ADD	fermat-little-theorem	rsa-cryptography	soft	high	RSA correctness rests on Euler/Fermat; duplicate fermats-little-theorem already listed.
+ADD	interpolation-error-analysis	chebyshev-nodes	hard	high	Chebyshev nodes minimize the node polynomial in the error formula; already implied via runges-phenomenon.
+DROP	lu-decomposition-numerical-numerical-analysis	condition-number-of-a-matrix	-	medium	Condition number measures sensitivity; it does not draw on LU factorization.
+ADD	gauss-seidel-method	convergence-iterative-methods	soft	high	Gauss-Seidel is a main case analyzed; already implied via successive-over-relaxation.
+ADD	jacobi-iterative-method	convergence-iterative-methods	hard	high	Convergence analysis is about iteration matrices of methods like Jacobi; already implied.
+ADD	runges-phenomenon	cubic-spline-interpolation	soft	high	Runge's phenomenon motivates piecewise splines; already implied via chebyshev-nodes.
+ADD	newton-cotes-formulas	gaussian-quadrature	soft	high	Gaussian quadrature is framed against Newton-Cotes; already implied via composite-quadrature.
+ADD	orthogonal-polynomials	gaussian-quadrature	hard	high	Gauss nodes are roots of orthogonal polynomials.
+ADD	lagrange-polynomial-interpolation	interpolation-error-analysis	hard	high	The error formula is for the interpolating polynomial.
+DROP	condition-number-of-a-matrix	jacobi-iterative-method	-	medium	Jacobi iteration does not require condition numbers.
+JUDGE	floating-point-representation-numerical-analysis	machine-epsilon	hard	high	Machine epsilon is defined from floating-point format, but this topic currently lists machine-epsilon as prereq; reverse that edge.
+ADD	machine-epsilon	numerical-stability	hard	medium	Stability bounds are stated in units of machine epsilon; already implied via rounding-errors.
+ADD	rounding-errors	numerical-stability	hard	high	Stability is about how rounding errors propagate; already implied.
+ADD	fixed-point-iteration	order-of-convergence	soft	high	Fixed-point iteration is the standard linear-convergence example.
+ADD	secant-method	order-of-convergence	soft	high	Secant's golden-ratio order is a standard example; already implied via bisection-method.
+DROP	convergence-iterative-methods	power-method-eigenvalues	-	medium	Power-method convergence depends on eigenvalue ratios, not linear-system iteration theory.
+ADD	eulers-method	runge-kutta-methods	hard	high	Runge-Kutta generalizes Euler's method; already implied via euler-method-error-analysis.
+ADD	associative-property-addition-1st	combining-like-terms	soft	high	Regrouping terms uses associativity; properties-of-operations already listed.
+DROP	associative-property-multiplication-3rd	distributive-property	-	medium	The distributive law does not draw on associativity of multiplication.
+ADD	commutative-property-multiplication-3rd	distributive-property	soft	medium	(b+c)a = ba+ca uses commutativity; minor support.
+DROP	integer-order-of-operations	one-step-equations	-	medium	One-step equations need inverse operations, not order of operations.
+ADD	subtracting-integers	one-step-equations	soft	high	Solving x+a=b with integers uses subtraction of integers.
+ADD	percent-concept	percent-increase-decrease	hard	high	Percent change requires the percent concept; already implied via percent-of-a-number.
+ADD	fractions-of-a-set	ratios	soft	medium	Part-of-a-set thinking supports part-to-whole ratios.
+DROP	dividing-integers	solving-proportions	-	medium	Proportions use positive quantities; signed integer division is not needed.
+ADD	integers-and-number-line	subtracting-integers	hard	high	Subtracting integers is taught on the number line; already implied via adding-integers.
+ADD	3d-shape-properties-1st	surface-area-intro	soft	high	Knowing the faces of 3D shapes supports computing surface area.
+ADD	discriminant	conic-sections-overview	soft	medium	The conic discriminant B^2-4AC parallels the quadratic discriminant; analogy only.
+ADD	conic-sections-circles	conic-sections-overview	soft	high	The overview surveys each conic; overview has no prerequisites at all.
+ADD	conic-sections-ellipses	conic-sections-overview	soft	high	The overview surveys each conic.
+ADD	conic-sections-hyperbolas	conic-sections-overview	soft	high	The overview surveys each conic.
+ADD	conic-sections-parabolas	conic-sections-overview	soft	high	The overview surveys each conic.
+DROP	odd-and-even-numbers-patterns-3rd	even-and-odd-functions	-	medium	Name overlap; even/odd functions are about symmetry, not parity of integers.
+ADD	radian-measure	graphing-sine-and-cosine	hard	high	Sine and cosine graphs are plotted against radian inputs.
+ADD	special-right-triangles-30-60-90	trigonometric-ratios-review	soft	high	Exact trig values come from special right triangles.
+ADD	special-right-triangles-45-45-90	trigonometric-ratios-review	soft	high	Exact trig values come from special right triangles.
+ADD	maximum-likelihood-estimation-theory	asymptotic-normality-mle	hard	high	Asymptotic normality is a property of the MLE; already implied via consistency-of-estimators.
+DROP	confidence-intervals-rigorous-theory	bayesian-inference-foundations	-	medium	Bayesian foundations do not draw on frequentist confidence intervals.
+DROP	confidence-intervals-rigorous	bayesian-inference-foundations	-	medium	Bayesian foundations do not draw on frequentist confidence intervals.
+DROP	multivariate-normal-distribution	bayesian-inference-foundations	-	medium	Foundations of Bayesian inference do not require the multivariate normal.
+DROP	rao-blackwell-theorem	bayesian-point-estimation	-	high	Bayesian point estimation does not use Rao-Blackwell.
+ADD	independence-sigma-algebras	central-limit-theorem-rigorous	hard	high	The iid CLT proof uses independence to factor characteristic functions.
+ADD	moment-generating-functions	central-limit-theorem-rigorous	soft	high	MGF proofs preview the characteristic-function proof; already implied.
+ADD	weak-law-of-large-numbers	central-limit-theorem-rigorous	soft	high	LLN gives first-order behavior that the CLT refines; already implied via SLLN.
+ADD	distribution-functions-densities-rigorous	characteristic-functions	hard	high	Characteristic functions are expectations against a distribution; duplicate already listed.
+ADD	joint-distributions-marginals-rigorous	conditional-expectation	hard	high	Conditional expectation is computed from joint distributions; duplicate already listed.
+ADD	probability-spaces-measure-theoretic	conditional-expectation	hard	high	Conditional expectation w.r.t. a sigma-algebra needs the measure-theoretic setup; already implied.
+ADD	conditional-distributions-theory	conditional-expectation	soft	high	Elementary conditional distributions motivate E[X|Y]; already implied via duplicate.
+ADD	central-limit-theorem-rigorous	confidence-intervals-rigorous-theory	soft	high	Asymptotic intervals rely on the CLT; already implied via asymptotic-normality-mle.
+ADD	method-of-moments	consistency-of-estimators	soft	medium	MoM estimators are a standard consistency example via the LLN.
+DROP	sufficient-statistics	cramer-rao-lower-bound	-	medium	The Cramer-Rao bound uses Fisher information, not sufficiency.
+ADD	probability-spaces-measure-theoretic	expectation-measure-theoretic	hard	high	Expectation is an integral over the probability space; already implied.
+ADD	random-variables-as-measurable-functions	expectation-measure-theoretic	hard	high	Expectation integrates a measurable random variable; already implied.
+DROP	differential-entropy	fisher-information	-	medium	Fisher information is defined from the score; differential entropy is not needed.
+ADD	random-variables-as-measurable-functions	independence-sigma-algebras	hard	high	Independence of RVs is defined via their generated sigma-algebras; already implied.
+ADD	maximum-likelihood-estimation-theory	likelihood-ratio-tests	hard	high	The LRT statistic is a ratio of maximized likelihoods; already implied.
+DROP	bayes-theorem-and-inference	maximum-likelihood-estimation-theory	-	high	MLE is a frequentist method that does not draw on Bayes' theorem.
+ADD	moment-generating-functions	multivariate-normal-distribution	soft	high	MGFs characterize the multivariate normal; already implied via characteristic-functions.
+ADD	sigma-algebras-measurable-sets	random-variables-as-measurable-functions	hard	high	Measurability is defined relative to sigma-algebras; already implied.
+ADD	independence-sigma-algebras	strong-law-of-large-numbers	hard	high	SLLN is for independent sequences; duplicate already listed.
+DROP	asymptotic-normality-mle	umvue	-	high	UMVUE theory is finite-sample; it does not use MLE asymptotics.
+ADD	bayes-theorem-and-inference	bayesian-inference-intro	hard	high	Bayesian inference is the repeated application of Bayes' theorem; already implied.
+ADD	measures-of-spread	boxplots-and-five-number-summary	hard	high	Boxplots display quartiles and IQR; already implied via five-number-summary.
+ADD	independence-and-mutually-exclusive-events	conditional-distributions-of-random-variables	soft	medium	Independence means conditional equals marginal; helpful contrast.
+ADD	joint-marginal-distributions	conditional-distributions-of-random-variables	hard	high	Conditional = joint / marginal; already implied.
+ADD	joint-probability-distributions	conditional-distributions-of-random-variables	hard	high	Conditional distributions are derived from joint ones; already implied.
+ADD	unbiased-and-consistent-estimators	confidence-intervals-framework	soft	high	CIs are built around good point estimators; already implied via standard-error.
+ADD	linear-transformations-of-random-variables	confidence-intervals-means	soft	high	Standardizing the sample mean uses linear transformation rules; already implied.
+ADD	normal-distribution	confidence-intervals-means	hard	high	z-intervals use normal critical values; already implied via CLT.
+ADD	sampling-distributions	confidence-intervals-means	hard	high	A CI is built from the sampling distribution of the mean; already implied.
+ADD	sampling-distributions	confidence-intervals-proportions	hard	high	A CI is built from the sampling distribution of p-hat; already implied.
+ADD	joint-marginal-distributions	covariance-between-random-variables	hard	high	Covariance needs E[XY], which requires the joint distribution.
+ADD	statistics-probability	discrete-random-variables	soft	medium	Bridge topic from data to probability eases the random-variable idea.
+JUDGE	frequency-tables-histograms	distribution-shape-skewness-kurtosis	soft	high	Shape is read from histograms, but histograms currently list distribution-shape as prereq (backwards); reverse that edge.
+ADD	random-variables-intro	expected-value-and-variance	hard	high	E and Var are defined for random variables; already implied.
+DROP	uniform-distribution-continuous	exponential-distribution	-	medium	The exponential distribution does not draw on the continuous uniform.
+ADD	categorical-vs-quantitative-data	frequency-tables-histograms	soft	high	Histograms are for quantitative data; already implied via frequency-distributions.
+ADD	stem-and-leaf-plots	histograms-and-frequency-distributions	soft	medium	A stem plot is a sideways histogram; earlier-stage support.
+DROP	chi-square-distribution-theory	hypothesis-testing-fundamentals	-	high	Testing fundamentals do not need the chi-square distribution.
+ADD	confidence-intervals-means-theory	hypothesis-testing-fundamentals	soft	medium	CI-test duality helps; tests can be taught without CIs.
+ADD	confidence-intervals-means	hypothesis-testing-fundamentals	soft	medium	CI-test duality helps; tests can be taught without CIs.
+ADD	confidence-intervals-proportions-theory	hypothesis-testing-fundamentals	soft	medium	CI-test duality helps; tests can be taught without CIs.
+ADD	confidence-intervals-proportions	hypothesis-testing-fundamentals	soft	medium	CI-test duality helps; tests can be taught without CIs.
+DROP	f-distribution-theory	hypothesis-testing-fundamentals	-	high	Testing fundamentals do not need the F distribution.
+JUDGE	linear-regression-simple-theory	inference-in-linear-regression	hard	high	Right direction, but adding closes a cycle: linear-regression-basics lists prediction-intervals (which needs this inference topic); fix that edge.
+ADD	regression-model-assumptions	inference-in-linear-regression	hard	high	Regression inference is valid only under the model assumptions; already implied.
+ADD	independence-and-mutually-exclusive-events	joint-probability-distributions	soft	medium	Independence gives the product form of joint distributions.
+ADD	sample-spaces-and-events	law-of-total-probability	hard	high	The law partitions the sample space; already implied.
+ADD	scatterplots-and-correlation	linear-regression-basics	hard	high	Regression fits a line to a scatterplot; already implied via correlation-coefficient.
+ADD	box-and-whisker-plots	measures-of-spread	soft	medium	Box plots preview range and IQR at an earlier stage.
+ADD	binomial-distribution	normal-distribution	soft	medium	Normal approximation to the binomial is a common motivation.
+ADD	histograms-and-frequency-distributions	normal-distribution	soft	high	Bell-shaped histograms motivate the normal curve.
+ADD	probability-density-functions-theory	normal-distribution	hard	high	The normal is defined by its density; already implied.
+ADD	moment-generating-functions-theory	normal-distribution-theory	soft	medium	MGFs prove normal properties like closure under sums.
+DROP	uniform-distribution-theory	normal-distribution-theory	-	high	Normal theory does not draw on the uniform distribution.
+DROP	exponential-distribution-theory	poisson-distribution	-	medium	The Poisson pmf does not need the exponential; the process link runs the other way.
+ADD	probability-with-combinatorics-probability-and-statistics	poisson-distribution	soft	medium	Poisson as a limit of binomial uses combinatorial counts.
+ADD	random-variables-definition-types	probability-density-functions	hard	high	Densities describe continuous random variables; already implied.
+ADD	random-variables-definition-types	probability-mass-functions	hard	high	PMFs describe discrete random variables; already implied.
+DROP	independence-and-multiplication-rule	random-variables-intro	-	medium	Defining random variables does not need independence.
+JUDGE	linear-regression-simple-theory	regression-diagnostics	soft	high	Plausible, but regression-diagnostics is already an ancestor of this topic (via linear-regression-basics -> prediction-intervals), so adding closes a cycle.
+DROP	regression-inference-hypothesis-tests	regression-diagnostics	-	medium	Residual diagnostics do not need inference; adding would also close a cycle.
+ADD	binomial-distribution	sampling-distributions	soft	high	The sampling distribution of p-hat is binomial-based.
+ADD	histograms-and-frequency-distributions	sampling-distributions	soft	medium	Sampling distributions are usually shown as histograms.
+DROP	poisson-distribution	sampling-distributions	-	medium	Sampling distributions do not draw on the Poisson.
+ADD	sampling-methods	sampling-distributions	soft	high	Sampling distributions assume random sampling.
+ADD	cumulative-distribution-functions-theory	standard-normal-and-z-scores	soft	high	z-tables are values of the standard normal CDF.
+ADD	z-test-t-test-means-theory	type-i-and-type-ii-errors	soft	medium	Power calculations are usually illustrated with z/t tests.
+ADD	p-values-and-significance	type-i-type-ii-errors-tradeoff	soft	high	Significance level alpha is the Type I error rate; already implied.
+ADD	hypothesis-testing-framework-theory	z-test-for-means	hard	high	The z-test instantiates the testing framework; already implied.
+JUDGE	bolzano-weierstrass-theorem	compact-sets	soft	medium	Reverse edge exists (BW lists compact-sets); both orders are taught, pick one. BW also lists weierstrass-approximation-theorem, which looks wrong.
+DROP	open-closed-sets-real-line	epsilon-delta-continuity	-	medium	Epsilon-delta continuity is defined without open sets.
+DROP	open-sets-real-line	epsilon-delta-continuity	-	medium	Epsilon-delta continuity is defined without open sets.
+DROP	density-of-rationals	epsilon-n-convergence	-	medium	Epsilon-N convergence needs the Archimedean property, not density of Q.
+ADD	sequential-characterization-continuity	extreme-value-theorem-rigorous	soft	high	The sequential-compactness proof of EVT uses sequential continuity.
+ADD	riemann-integrability-criteria	fundamental-theorem-calculus-rigorous	hard	high	FTC assumes integrability; already implied via riemann-integral-properties.
+ADD	uniform-convergence-functions	interchange-limit-integral	hard	high	Uniform convergence is the hypothesis for swapping limit and integral; duplicate already listed.
+DROP	taylors-theorem-remainder	lhopitals-rule-rigorous	-	medium	L'Hopital's proof uses Cauchy's MVT, not Taylor's theorem.
+ADD	uniform-continuity	riemann-integral-darboux-sums	soft	medium	Uniform continuity proves continuous functions are integrable; the definition does not need it.
+ADD	monotone-convergence-theorem	rigorous-series-convergence	soft	high	Nonnegative series converge iff partial sums are bounded, by MCT.
+ADD	sequential-characterization-continuity	uniform-continuity	soft	medium	Sequential criteria are a common tool for showing failure of uniform continuity.
+JUDGE	compact-sets-heine-borel	uniform-continuity-compact-sets	hard	high	Heine-Cantor uses compactness, but compact-sets-heine-borel lists uniform-continuity-compact-sets as prereq (backwards); reverse that edge.
+DROP	extreme-value-theorem-rigorous	uniform-continuity-compact-sets	-	medium	Heine-Cantor does not need EVT; adding also closes a cycle via compact-sets-heine-borel.
+DROP	limit-superior-inferior	uniform-convergence	-	medium	Uniform convergence is defined with sup norms, not limsup/liminf.
+DROP	limit-superior-and-inferior	uniform-convergence-functions	-	medium	Uniform convergence is defined with sup norms, not limsup/liminf.
+ADD	rigorous-series-convergence	uniform-convergence-power-series	hard	high	Power series convergence rests on series tests; already implied via weierstrass-m-test.
+ADD	pointwise-convergence-functions	uniform-convergence-preserves-continuity	hard	high	The key counterexample is a pointwise limit that is discontinuous; already implied.
+DROP	uniform-convergence-preserves-continuity	weierstrass-approximation-theorem	-	medium	WAT needs uniform convergence (already listed), not preservation of continuity.
+DROP	uniform-convergence	weierstrass-m-test	-	medium	M-test already lists duplicate uniform-convergence-functions; adding closes a cycle via uniform-convergence -> uniform-convergence-power-series.
+DROP	permutation-representations	burnsides-theorem	-	high	This is Burnside's p^a q^b theorem, which uses character theory and algebraic integers, not permutation reps.
+ADD	character-theory	character-tables	hard	high	A character table lists irreducible characters; already implied via orthogonality-relations.
+ADD	representations-of-cyclic-groups	character-tables	soft	high	Cyclic groups give the first worked character tables.
+ADD	equivalence-of-representations	character-theory	hard	high	Characters are invariants of equivalence classes of representations; already implied.
+ADD	schurs-lemma	orthogonality-relations	hard	high	Orthogonality relations are proved from Schur's lemma; already implied.
+ADD	representations-of-abelian-groups	representation-ring	soft	medium	Abelian groups give simple representation-ring examples.
+ADD	topological-spaces-definition	basis-for-topology	hard	high	A basis generates a topology; already implied via open-sets-topology.
+ADD	closed-sets-definition-examples	boundary-set-topology	hard	high	Boundary is closure minus interior; already implied via closure-operator-topology.
+ADD	metric-spaces-definition-examples	cauchy-sequences-metric-spaces	hard	high	Cauchy sequences are defined with the metric; already implied.
+DROP	covering-spaces	classification-compact-surfaces	-	medium	The classification proof uses polygon quotients and invariants, not covering spaces.
+ADD	quotient-topology	classification-compact-surfaces	hard	high	Surfaces are built as quotients of polygons; already implied.
+ADD	topological-spaces-definition-and-examples	closed-sets-in-topological-spaces	hard	high	Closed sets are complements of open sets in a topology; already implied.
+ADD	interior-operator-topology	closure-operator-topology	soft	medium	Closure and interior are dual via complements.
+ADD	metric-topology-from-metric	compact-metric-spaces	hard	high	Compactness in metric spaces uses the metric topology; already implied.
+ADD	heine-borel-compact-sets	compactness-hausdorff-spaces	soft	medium	Compact-implies-closed in Hausdorff spaces generalizes the Heine-Borel picture.
+ADD	metric-spaces-definition-and-examples	completeness-metric-spaces	hard	high	Completeness is a property of metric spaces; duplicate metric-spaces-definition already listed.
+ADD	path-connected-spaces	connected-components-decomposition	soft	medium	Path components parallel connected components.
+ADD	closure-interior-boundary	continuous-functions-topology	soft	medium	Continuity has a closure characterization, f(cl A) in cl f(A).
+ADD	convergence-in-topology	continuous-functions-topology	soft	medium	Continuity preserves convergence; helpful but continuity is defined via open sets.
+ADD	sequences-convergence-topology	continuous-functions-topology	soft	medium	Sequential continuity is a common characterization.
+ADD	fundamental-group-circle	covering-spaces	soft	medium	The R -> S^1 cover is the model example; both directions are taught.
+ADD	fundamental-group-of-circle	covering-spaces	soft	medium	Duplicate circle topic; same model-example role.
+ADD	homotopy-paths	covering-spaces	hard	high	Path and homotopy lifting are the core of covering-space theory.
+DROP	connected-components	fundamental-group-definition	-	medium	The fundamental group is defined at a basepoint; components are not needed.
+ADD	homotopy-definition	fundamental-group-definition	hard	high	Loops are taken up to homotopy; already implied via homotopy-of-paths.
+ADD	homotopy-paths	fundamental-group-definition	hard	high	The group is made of path-homotopy classes of loops; duplicate already listed.
+ADD	path-connectedness	fundamental-group-definition	hard	high	Loops are paths, and basepoint independence needs path-connectedness; already implied.
+ADD	topological-invariants	fundamental-group-definition	soft	high	The fundamental group is framed as a topological invariant.
+ADD	limit-points-convergence-topology	hausdorff-spaces	soft	high	Uniqueness of limits motivates Hausdorff; already implied via separation axioms.
+ADD	closure-interior-boundary	limit-points-and-accumulation	soft	medium	Closure = set plus limit points; mutual support.
+ADD	closure-interior-and-boundary	limit-points-convergence-topology	soft	medium	Closure = set plus limit points; mutual support.
+ADD	basis-for-topology	metric-topology	hard	high	Open balls form a basis for the metric topology; duplicate basis-for-a-topology already listed.
+ADD	first-countable-spaces	metrization-theorems	soft	high	Metrizable spaces are first countable, a necessary condition; already implied.
+ADD	hausdorff-spaces	metrization-theorems	hard	high	Metrization hypotheses include Hausdorff/regularity; already implied.
+DROP	sequential-compactness	metrization-theorems	-	medium	Metrization theorems do not draw on sequential compactness.
+DROP	tietze-extension-theorem	metrization-theorems	-	medium	Urysohn metrization uses Urysohn's lemma (already listed), not Tietze.
+ADD	open-sets-in-topological-spaces	neighborhoods-in-topology	hard	high	Neighborhoods are defined via open sets; already implied via basis-for-a-topology.
+ADD	topological-spaces-definition-examples	neighborhoods-topology-definition	hard	high	Neighborhoods are defined in a topological space; already implied.
+ADD	connected-spaces	path-connectedness	soft	high	Path-connected implies connected; comparison is central; duplicate already listed.
+DROP	subspace-topology	product-topology	-	medium	The product topology does not draw on the subspace topology.
+DROP	subspace-topology	quotient-topology	-	medium	The quotient topology does not draw on the subspace topology.
+ADD	interior-closure-operators	separation-axioms-t3-regular	soft	medium	Regularity is often phrased with closures of neighborhoods.
+ADD	separation-axioms-t0-t1-t2	separation-axioms-t3-regular	hard	high	T3 builds on T1/T2; already implied via hausdorff-spaces.
+ADD	neighborhood-basis-topology	sequences-convergence-topology	soft	medium	Convergence is checked against basic neighborhoods.
+ADD	first-countable-spaces	sequential-compactness	soft	medium	Sequential compactness matches compactness under countability assumptions.
+ADD	normal-spaces	tietze-extension-theorem	hard	high	Tietze holds in normal spaces; already implied via urysohns-lemma.
+ADD	continuity-topological-spaces	topological-invariants	hard	high	Invariants are preserved by homeomorphisms, which are continuous maps; already implied.
+ADD	compactness-hausdorff-spaces	topological-manifolds-introduction	soft	medium	Compact Hausdorff facts are used for compact manifolds.
+ADD	local-compactness	topological-manifolds-introduction	soft	high	Manifolds are locally compact; locally Euclidean gives this directly.
+ADD	metrization-theorems	topological-manifolds-introduction	soft	medium	Manifolds are metrizable by Urysohn; a consequence, not needed for the definition.
+ADD	product-topology	topological-manifolds-introduction	soft	medium	Products of manifolds (e.g. the torus) are standard examples.
+DROP	tychonoff-theorem	topological-manifolds-introduction	-	medium	Introductory manifolds do not need Tychonoff.
+DROP	compactness-hausdorff-spaces	tychonoff-theorem	-	medium	Tychonoff holds for arbitrary compact spaces; Hausdorff is not needed.
+ADD	fundamental-group-of-circle	van-kampen-theorem	soft	high	pi_1(S^1) is the base case in van Kampen computations; duplicate already listed.
+ADD	quotient-maps-and-identification	van-kampen-theorem	soft	medium	Van Kampen is applied to spaces built by identification.
+ADD	simply-connected-spaces	van-kampen-theorem	soft	high	A key corollary: a union of simply connected open sets is simply connected.

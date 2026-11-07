@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: wilsons-theorem
   type: soft
+- id: congruence-properties
+  type: hard
 builds-toward:
 - rsa-cryptography
 tags:

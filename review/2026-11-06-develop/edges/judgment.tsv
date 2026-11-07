@@ -603,3 +603,136 @@ ADD	family-structures	belonging-to-groups	soft	medium	Family is the first group 
 ADD	belonging-to-groups	neighborhoods-and-communities	soft	medium	A community is defined as a group sharing a place or goals.
 ADD	intro-to-sociology	philosophy-of-social-science-epistemology	soft	medium	Reflecting on how we know claims about society presumes what social science studies (note: overlaps philosophy-of-social-science).
 ADD	belonging-to-groups	intro-to-sociology	soft	medium	Concrete groups and belonging precede the study of behavior within groups.
+ADD	composition-linear-transformations	diagonalization	soft	medium	A=PDP^-1 is read as a composition of maps; useful framing, not required.
+ADD	matrix-composition	diagonalization	soft	medium	Duplicate of composition-linear-transformations; same soft framing role for A=PDP^-1.
+DROP	composition-linear-transformations	eigenvalues-and-eigenvectors	-	medium	Eigenvalues concern a single map; composition is not needed.
+DROP	matrix-transpose	eigenvalues-and-eigenvectors	-	medium	Eigen-theory does not draw on the transpose beyond a side fact.
+ADD	positive-definite-matrices	least-squares-approximation	soft	medium	A^T A being positive definite explains uniqueness of the least-squares solution.
+ADD	singular-value-decomposition	least-squares-approximation	soft	medium	SVD/pseudoinverse is an alternate route to least squares, not required.
+ADD	covariance-between-random-variables	linear-regression	soft	medium	Regression slope equals cov(X,Y)/var(X); helpful statistical context.
+ADD	covariance-correlation-theory	linear-regression	soft	medium	Duplicate covariance topic; same soft link to the regression slope.
+ADD	matrix-transpose	matrix-inverses	soft	medium	Inverse properties ((A^T)^-1) and adjugate formula use the transpose.
+ADD	gaussian-elimination-pivoting	matrix-norms-conditioning	soft	medium	Pivoting and round-off motivate condition numbers; not strictly required.
+DROP	matrix-addition-subtraction	matrix-transpose	-	medium	Transpose is a standalone operation; (A+B)^T is only a minor property.
+DROP	matrix-inverses	rank-nullity-theorem	-	medium	Dominant direction is rank-nullity informing invertibility, not the reverse.
+DROP	determinants-2x2-3x3	systems-of-linear-equations	-	medium	Writing and solving systems in matrix form does not require determinants.
+ADD	lp-completeness	banach-spaces	soft	medium	L^p completeness supplies the canonical Banach-space example; not needed for the definition.
+ADD	lp-space-completeness-riesz-fischer	banach-spaces	soft	medium	Duplicate Riesz-Fischer topic; same soft example role.
+JUDGE	open-mapping-theorem	closed-graph-theorem	hard	high	Correct direction (CGT is proved from OMT), but open-mapping-theorem lists closed-graph-theorem as prereq; reverse that edge.
+JUDGE	fatou-lemma-measure-theory	dominated-convergence-theorem	hard	high	DCT is proved from Fatou, but fatou-lemma-measure-theory lists DCT as prereq (backwards); reverse that edge.
+JUDGE	monotone-convergence-theorem-analysis	dominated-convergence-theorem	soft	high	MCT underlies Fatou/DCT, but MCT lists both Fatou topics as prereqs (backwards), so adding closes a cycle; fix those first.
+JUDGE	monotone-convergence-theorem-analysis	fatou-lemma-measure-theory	hard	high	Fatou is proved from MCT, but MCT currently lists fatou-lemma-measure-theory as prereq; reverse that edge.
+DROP	linear-functionals-dual-spaces	hilbert-spaces	-	medium	Defining Hilbert spaces needs inner products and completeness, not duals.
+ADD	lebesgue-measure-real-line	lebesgue-integral-simple-functions	soft	medium	Simple-function integrals live on general measure spaces; Lebesgue measure gives the main examples.
+ADD	null-sets-almost-everywhere	lebesgue-integral-simple-functions	soft	medium	A.e. equality explains when simple integrals agree; helpful, not required.
+ADD	set-operations	equivalence-relations	soft	medium	Partitions into classes use unions and disjointness.
+ADD	uniqueness-proofs	injective-surjective-bijective	soft	medium	Injectivity proofs are uniqueness arguments; helpful, not required.
+ADD	logical-equivalence-propositional	logical-equivalences	soft	medium	Cross-domain near-duplicate; reinforces the same content.
+ADD	proof-by-cases-exhaustion	mathematical-induction	soft	medium	Duplicate of proof-by-cases already listed; base/step split is case-like.
+DROP	proof-by-contradiction	proof-by-cases-exhaustion	-	medium	Proof by cases does not draw on contradiction.
+DROP	de-morgans-laws	proof-structure-and-terminology	-	medium	Proof structure and vocabulary do not need De Morgan's laws.
+ADD	direct-proof-introduction	proof-structure-and-terminology	soft	medium	An earlier-stage first look at proofs eases formal proof terminology.
+DROP	proving-by-contradiction	proving-by-cases	-	medium	Proof by cases does not draw on contradiction.
+ADD	triple-integrals-cylindrical	applications-multivariable	soft	medium	Volume/mass applications may use cylindrical integrals; not core.
+ADD	triple-integrals-spherical	applications-multivariable	soft	medium	Volume/mass applications may use spherical integrals; not core.
+ADD	tangent-planes	chain-rule-multivariable	soft	medium	Linear approximation motivates the multivariable chain rule.
+DROP	second-partials-test-extrema	constrained-optimization-lagrange	-	medium	Lagrange multipliers use gradients, not the second-partials test.
+DROP	mixed-partials-clairaut	critical-points-multivariable	-	medium	Locating critical points uses first partials only; classification is elsewhere.
+JUDGE	double-integrals-rectangular-regions	double-integrals-polar	soft	high	Right direction, but adding closes a cycle via double-integrals listing double-integrals-polar-coordinates; fix that edge first.
+DROP	contour-maps	gradient-vector	-	medium	gradient-vector already lists duplicate contour-maps-level-curves; adding closes a cycle via level-sets-surfaces -> tangent-planes-surfaces.
+ADD	dot-product-geometry	gradient-vector	soft	medium	Steepest-ascent interpretation of the gradient uses the dot product.
+JUDGE	level-sets-surfaces	gradient-vector	soft	medium	Gradient-normal-to-level-set is real, but level-sets-surfaces lists tangent-planes-surfaces (which needs gradient), so adding closes a cycle.
+DROP	conservative-fields	greens-theorem	-	medium	Green's theorem does not need conservative fields; the consequence runs the other way.
+DROP	conservative-vector-fields	greens-theorem	-	medium	Green's theorem does not need conservative fields; the consequence runs the other way.
+DROP	curl-and-divergence	greens-theorem	-	medium	Green's theorem is usually taught before curl; its integrand needs only partials.
+DROP	curl-divergence	greens-theorem	-	medium	Green's theorem is usually taught before curl; its integrand needs only partials.
+DROP	second-partials-test	lagrange-multipliers	-	medium	Lagrange multipliers do not draw on the unconstrained second-partials test.
+ADD	equations-lines-planes	level-sets-surfaces	soft	medium	Planes are the simplest level surfaces in 3D.
+DROP	multivariable-functions-intro-domain	multivariable-limits	-	medium	Limits already list duplicate functions-of-several-variables; adding closes a cycle via multivariable-functions-intro -> multivariable-limits.
+DROP	tangent-planes-linear-approximation	optimization-multivariable-basics	-	medium	Optimization draws on critical points and the Hessian, not tangent planes.
+DROP	contour-maps	partial-derivatives	-	medium	Partial derivatives are already an ancestor of contour-maps (via level-sets-surfaces); adding creates a cycle.
+DROP	conservative-fields	stokes-theorem	-	medium	Stokes does not draw on conservative fields; it implies curl-free results instead.
+DROP	curl-and-divergence	surface-integrals-flux	-	medium	Flux integrals do not require curl or divergence.
+DROP	level-sets-surfaces	tangent-planes-linear-approximation	-	medium	level-sets-surfaces already depends on this topic via tangent-planes-surfaces; adding creates a cycle.
+ADD	directional-derivatives-gradient	vector-fields	soft	medium	Gradient fields are a standard vector-field example.
+DROP	quadratic-congruences	pells-equation	-	medium	Pell's equation draws on continued fractions, not quadratic congruences.
+ADD	sum-of-two-squares-theorem	pythagorean-triples-parametrization	soft	medium	Related but the parametrization is elementary; duplicate sum-two-squares-theorem already listed.
+DROP	lu-decomposition-numerical-numerical-analysis	condition-number-of-a-matrix	-	medium	Condition number measures sensitivity; it does not draw on LU factorization.
+DROP	condition-number-of-a-matrix	jacobi-iterative-method	-	medium	Jacobi iteration does not require condition numbers.
+JUDGE	floating-point-representation-numerical-analysis	machine-epsilon	hard	high	Machine epsilon is defined from floating-point format, but this topic currently lists machine-epsilon as prereq; reverse that edge.
+ADD	machine-epsilon	numerical-stability	hard	medium	Stability bounds are stated in units of machine epsilon; already implied via rounding-errors.
+DROP	convergence-iterative-methods	power-method-eigenvalues	-	medium	Power-method convergence depends on eigenvalue ratios, not linear-system iteration theory.
+DROP	associative-property-multiplication-3rd	distributive-property	-	medium	The distributive law does not draw on associativity of multiplication.
+ADD	commutative-property-multiplication-3rd	distributive-property	soft	medium	(b+c)a = ba+ca uses commutativity; minor support.
+DROP	integer-order-of-operations	one-step-equations	-	medium	One-step equations need inverse operations, not order of operations.
+ADD	fractions-of-a-set	ratios	soft	medium	Part-of-a-set thinking supports part-to-whole ratios.
+DROP	dividing-integers	solving-proportions	-	medium	Proportions use positive quantities; signed integer division is not needed.
+ADD	discriminant	conic-sections-overview	soft	medium	The conic discriminant B^2-4AC parallels the quadratic discriminant; analogy only.
+DROP	odd-and-even-numbers-patterns-3rd	even-and-odd-functions	-	medium	Name overlap; even/odd functions are about symmetry, not parity of integers.
+DROP	confidence-intervals-rigorous-theory	bayesian-inference-foundations	-	medium	Bayesian foundations do not draw on frequentist confidence intervals.
+DROP	confidence-intervals-rigorous	bayesian-inference-foundations	-	medium	Bayesian foundations do not draw on frequentist confidence intervals.
+DROP	multivariate-normal-distribution	bayesian-inference-foundations	-	medium	Foundations of Bayesian inference do not require the multivariate normal.
+ADD	method-of-moments	consistency-of-estimators	soft	medium	MoM estimators are a standard consistency example via the LLN.
+DROP	sufficient-statistics	cramer-rao-lower-bound	-	medium	The Cramer-Rao bound uses Fisher information, not sufficiency.
+DROP	differential-entropy	fisher-information	-	medium	Fisher information is defined from the score; differential entropy is not needed.
+ADD	independence-and-mutually-exclusive-events	conditional-distributions-of-random-variables	soft	medium	Independence means conditional equals marginal; helpful contrast.
+ADD	statistics-probability	discrete-random-variables	soft	medium	Bridge topic from data to probability eases the random-variable idea.
+JUDGE	frequency-tables-histograms	distribution-shape-skewness-kurtosis	soft	high	Shape is read from histograms, but histograms currently list distribution-shape as prereq (backwards); reverse that edge.
+DROP	uniform-distribution-continuous	exponential-distribution	-	medium	The exponential distribution does not draw on the continuous uniform.
+ADD	stem-and-leaf-plots	histograms-and-frequency-distributions	soft	medium	A stem plot is a sideways histogram; earlier-stage support.
+ADD	confidence-intervals-means-theory	hypothesis-testing-fundamentals	soft	medium	CI-test duality helps; tests can be taught without CIs.
+ADD	confidence-intervals-means	hypothesis-testing-fundamentals	soft	medium	CI-test duality helps; tests can be taught without CIs.
+ADD	confidence-intervals-proportions-theory	hypothesis-testing-fundamentals	soft	medium	CI-test duality helps; tests can be taught without CIs.
+ADD	confidence-intervals-proportions	hypothesis-testing-fundamentals	soft	medium	CI-test duality helps; tests can be taught without CIs.
+JUDGE	linear-regression-simple-theory	inference-in-linear-regression	hard	high	Right direction, but adding closes a cycle: linear-regression-basics lists prediction-intervals (which needs this inference topic); fix that edge.
+ADD	independence-and-mutually-exclusive-events	joint-probability-distributions	soft	medium	Independence gives the product form of joint distributions.
+ADD	box-and-whisker-plots	measures-of-spread	soft	medium	Box plots preview range and IQR at an earlier stage.
+ADD	binomial-distribution	normal-distribution	soft	medium	Normal approximation to the binomial is a common motivation.
+ADD	moment-generating-functions-theory	normal-distribution-theory	soft	medium	MGFs prove normal properties like closure under sums.
+DROP	exponential-distribution-theory	poisson-distribution	-	medium	The Poisson pmf does not need the exponential; the process link runs the other way.
+ADD	probability-with-combinatorics-probability-and-statistics	poisson-distribution	soft	medium	Poisson as a limit of binomial uses combinatorial counts.
+DROP	independence-and-multiplication-rule	random-variables-intro	-	medium	Defining random variables does not need independence.
+JUDGE	linear-regression-simple-theory	regression-diagnostics	soft	high	Plausible, but regression-diagnostics is already an ancestor of this topic (via linear-regression-basics -> prediction-intervals), so adding closes a cycle.
+DROP	regression-inference-hypothesis-tests	regression-diagnostics	-	medium	Residual diagnostics do not need inference; adding would also close a cycle.
+ADD	histograms-and-frequency-distributions	sampling-distributions	soft	medium	Sampling distributions are usually shown as histograms.
+DROP	poisson-distribution	sampling-distributions	-	medium	Sampling distributions do not draw on the Poisson.
+ADD	z-test-t-test-means-theory	type-i-and-type-ii-errors	soft	medium	Power calculations are usually illustrated with z/t tests.
+JUDGE	bolzano-weierstrass-theorem	compact-sets	soft	medium	Reverse edge exists (BW lists compact-sets); both orders are taught, pick one. BW also lists weierstrass-approximation-theorem, which looks wrong.
+DROP	open-closed-sets-real-line	epsilon-delta-continuity	-	medium	Epsilon-delta continuity is defined without open sets.
+DROP	open-sets-real-line	epsilon-delta-continuity	-	medium	Epsilon-delta continuity is defined without open sets.
+DROP	density-of-rationals	epsilon-n-convergence	-	medium	Epsilon-N convergence needs the Archimedean property, not density of Q.
+DROP	taylors-theorem-remainder	lhopitals-rule-rigorous	-	medium	L'Hopital's proof uses Cauchy's MVT, not Taylor's theorem.
+ADD	uniform-continuity	riemann-integral-darboux-sums	soft	medium	Uniform continuity proves continuous functions are integrable; the definition does not need it.
+ADD	sequential-characterization-continuity	uniform-continuity	soft	medium	Sequential criteria are a common tool for showing failure of uniform continuity.
+JUDGE	compact-sets-heine-borel	uniform-continuity-compact-sets	hard	high	Heine-Cantor uses compactness, but compact-sets-heine-borel lists uniform-continuity-compact-sets as prereq (backwards); reverse that edge.
+DROP	extreme-value-theorem-rigorous	uniform-continuity-compact-sets	-	medium	Heine-Cantor does not need EVT; adding also closes a cycle via compact-sets-heine-borel.
+DROP	limit-superior-inferior	uniform-convergence	-	medium	Uniform convergence is defined with sup norms, not limsup/liminf.
+DROP	limit-superior-and-inferior	uniform-convergence-functions	-	medium	Uniform convergence is defined with sup norms, not limsup/liminf.
+DROP	uniform-convergence-preserves-continuity	weierstrass-approximation-theorem	-	medium	WAT needs uniform convergence (already listed), not preservation of continuity.
+DROP	uniform-convergence	weierstrass-m-test	-	medium	M-test already lists duplicate uniform-convergence-functions; adding closes a cycle via uniform-convergence -> uniform-convergence-power-series.
+ADD	representations-of-abelian-groups	representation-ring	soft	medium	Abelian groups give simple representation-ring examples.
+DROP	covering-spaces	classification-compact-surfaces	-	medium	The classification proof uses polygon quotients and invariants, not covering spaces.
+ADD	interior-operator-topology	closure-operator-topology	soft	medium	Closure and interior are dual via complements.
+ADD	heine-borel-compact-sets	compactness-hausdorff-spaces	soft	medium	Compact-implies-closed in Hausdorff spaces generalizes the Heine-Borel picture.
+ADD	path-connected-spaces	connected-components-decomposition	soft	medium	Path components parallel connected components.
+ADD	closure-interior-boundary	continuous-functions-topology	soft	medium	Continuity has a closure characterization, f(cl A) in cl f(A).
+ADD	convergence-in-topology	continuous-functions-topology	soft	medium	Continuity preserves convergence; helpful but continuity is defined via open sets.
+ADD	sequences-convergence-topology	continuous-functions-topology	soft	medium	Sequential continuity is a common characterization.
+ADD	fundamental-group-circle	covering-spaces	soft	medium	The R -> S^1 cover is the model example; both directions are taught.
+ADD	fundamental-group-of-circle	covering-spaces	soft	medium	Duplicate circle topic; same model-example role.
+DROP	connected-components	fundamental-group-definition	-	medium	The fundamental group is defined at a basepoint; components are not needed.
+ADD	closure-interior-boundary	limit-points-and-accumulation	soft	medium	Closure = set plus limit points; mutual support.
+ADD	closure-interior-and-boundary	limit-points-convergence-topology	soft	medium	Closure = set plus limit points; mutual support.
+DROP	sequential-compactness	metrization-theorems	-	medium	Metrization theorems do not draw on sequential compactness.
+DROP	tietze-extension-theorem	metrization-theorems	-	medium	Urysohn metrization uses Urysohn's lemma (already listed), not Tietze.
+DROP	subspace-topology	product-topology	-	medium	The product topology does not draw on the subspace topology.
+DROP	subspace-topology	quotient-topology	-	medium	The quotient topology does not draw on the subspace topology.
+ADD	interior-closure-operators	separation-axioms-t3-regular	soft	medium	Regularity is often phrased with closures of neighborhoods.
+ADD	neighborhood-basis-topology	sequences-convergence-topology	soft	medium	Convergence is checked against basic neighborhoods.
+ADD	first-countable-spaces	sequential-compactness	soft	medium	Sequential compactness matches compactness under countability assumptions.
+ADD	compactness-hausdorff-spaces	topological-manifolds-introduction	soft	medium	Compact Hausdorff facts are used for compact manifolds.
+ADD	metrization-theorems	topological-manifolds-introduction	soft	medium	Manifolds are metrizable by Urysohn; a consequence, not needed for the definition.
+ADD	product-topology	topological-manifolds-introduction	soft	medium	Products of manifolds (e.g. the torus) are standard examples.
+DROP	tychonoff-theorem	topological-manifolds-introduction	-	medium	Introductory manifolds do not need Tychonoff.
+DROP	compactness-hausdorff-spaces	tychonoff-theorem	-	medium	Tychonoff holds for arbitrary compact spaces; Hausdorff is not needed.
+ADD	quotient-maps-and-identification	van-kampen-theorem	soft	medium	Van Kampen is applied to spaces built by identification.

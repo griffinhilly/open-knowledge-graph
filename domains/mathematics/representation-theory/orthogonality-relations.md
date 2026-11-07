@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: inner-product-spaces
   type: soft
+- id: schurs-lemma
+  type: hard
 builds-toward:
 - character-tables
 tags:

@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: taylor-series
   type: hard
+- id: lagrange-polynomial-interpolation
+  type: hard
 builds-toward:
 - runges-phenomenon
 - chebyshev-nodes

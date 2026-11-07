@@ -6,6 +6,8 @@ course: numerical-analysis
 prerequisites:
 - id: euler-method-error-analysis
   type: hard
+- id: eulers-method
+  type: hard
 builds-toward:
 - multistep-methods-adams
 - stiff-differential-equations

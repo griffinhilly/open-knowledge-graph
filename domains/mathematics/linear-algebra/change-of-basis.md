@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: linear-transformation-matrix-representation
   type: hard
+- id: span-and-basis
+  type: hard
 builds-toward:
 - diagonalization
 tags:

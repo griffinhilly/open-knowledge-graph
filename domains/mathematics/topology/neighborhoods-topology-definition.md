@@ -6,6 +6,8 @@ course: topology
 prerequisites:
 - id: open-sets-definition-examples
   type: hard
+- id: topological-spaces-definition-examples
+  type: hard
 builds-toward:
 - continuity-topological-definition
 - limit-points-topology-definition

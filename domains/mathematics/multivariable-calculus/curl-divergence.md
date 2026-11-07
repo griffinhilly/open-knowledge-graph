@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: partial-derivatives
   type: hard
+- id: conservative-vector-fields
+  type: soft
 builds-toward:
 - greens-theorem
 - stokes-theorem

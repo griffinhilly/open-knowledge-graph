@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: orthogonality-in-linear-algebra
   type: hard
+- id: dot-product
+  type: hard
 builds-toward:
 - gram-schmidt-process
 - least-squares-approximation

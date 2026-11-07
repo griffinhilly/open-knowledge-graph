@@ -8,6 +8,10 @@ prerequisites:
   type: soft
 - id: eigenvalues-and-eigenvectors
   type: hard
+- id: gauss-seidel-method
+  type: soft
+- id: jacobi-iterative-method
+  type: hard
 builds-toward:
 - power-method-eigenvalues
 tags:

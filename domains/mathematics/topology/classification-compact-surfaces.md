@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: topological-invariants
   type: soft
+- id: quotient-topology
+  type: hard
 tags:
 - surface-classification
 - genus

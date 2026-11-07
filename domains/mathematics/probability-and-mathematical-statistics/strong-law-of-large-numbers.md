@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: relationships-between-modes-of-convergence
   type: soft
+- id: independence-sigma-algebras
+  type: hard
 builds-toward:
 - central-limit-theorem-rigorous
 tags:

@@ -16,6 +16,10 @@ prerequisites:
   type: soft
 - id: urysohns-lemma
   type: hard
+- id: first-countable-spaces
+  type: soft
+- id: hausdorff-spaces
+  type: hard
 builds-toward:
 - topological-manifolds-introduction
 tags:

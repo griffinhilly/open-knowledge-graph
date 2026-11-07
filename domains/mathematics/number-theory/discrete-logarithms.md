@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: order-element-modulo-n
   type: hard
+- id: primitive-roots-and-cyclic-groups-mod-p
+  type: hard
 tags:
 - discrete-log
 - cryptography

@@ -6,6 +6,8 @@ course: topology
 prerequisites:
 - id: hausdorff-spaces
   type: hard
+- id: separation-axioms-t0-t1-t2
+  type: hard
 builds-toward:
 - tietze-extension-theorem
 tags:

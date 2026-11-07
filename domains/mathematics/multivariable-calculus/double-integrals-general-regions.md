@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: double-integrals-polar-coordinates
   type: soft
+- id: iterated-integrals-fubini
+  type: hard
 builds-toward:
 - applications-integrals-area-mass
 tags:

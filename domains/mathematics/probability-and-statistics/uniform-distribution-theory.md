@@ -8,8 +8,7 @@ prerequisites:
   type: hard
 - id: uniform-distribution-continuous
   type: soft
-builds-toward:
-- normal-distribution-theory
+builds-toward: []
 tags:
 - uniform
 stage: formal-systems

@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: countability-axioms-topology
   type: soft
+- id: local-compactness
+  type: soft
 tags:
 - manifolds
 - topological-manifolds

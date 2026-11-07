@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: modular-arithmetic
   type: soft
+- id: divisibility-theory-formal
+  type: hard
 builds-toward:
 - pells-equation
 tags:

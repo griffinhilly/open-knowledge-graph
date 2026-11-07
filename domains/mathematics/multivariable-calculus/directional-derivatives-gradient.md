@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: rates-of-change-partial-derivatives
   type: soft
+- id: contour-maps
+  type: soft
 builds-toward:
 - optimization-multivariable-basics
 - vector-fields

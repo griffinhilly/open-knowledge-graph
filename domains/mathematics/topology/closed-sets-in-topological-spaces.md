@@ -6,6 +6,8 @@ course: topology
 prerequisites:
 - id: open-sets-in-topological-spaces
   type: hard
+- id: topological-spaces-definition-and-examples
+  type: hard
 builds-toward:
 - closure-interior-and-boundary
 - limit-points-convergence-topology

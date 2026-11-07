@@ -6,6 +6,8 @@ course: multivariable-calculus
 prerequisites:
 - id: surface-integrals-scalar
   type: hard
+- id: parametric-surfaces
+  type: hard
 builds-toward:
 - stokes-theorem
 - divergence-theorem

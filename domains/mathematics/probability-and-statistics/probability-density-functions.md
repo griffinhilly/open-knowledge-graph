@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: definite-integral-definition
   type: soft
+- id: random-variables-definition-types
+  type: hard
 builds-toward:
 - expected-value
 - variance-of-random-variables

@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: simply-connected-spaces
   type: soft
+- id: homotopy-paths
+  type: hard
 builds-toward:
 - van-kampen-theorem
 - classification-compact-surfaces

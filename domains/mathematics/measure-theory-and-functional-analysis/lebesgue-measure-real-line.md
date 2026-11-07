@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: measure-spaces
   type: hard
+- id: outer-measure
+  type: hard
 builds-toward:
 - lebesgue-integral-simple-functions
 - riemann-lebesgue-comparison

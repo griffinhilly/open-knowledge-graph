@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: dot-product
   type: hard
+- id: line-integrals-scalar
+  type: soft
 builds-toward:
 - conservative-fields
 tags:

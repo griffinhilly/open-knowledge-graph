@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: sequences-convergence-topology
   type: soft
+- id: metric-spaces-definition-examples
+  type: hard
 builds-toward:
 - completeness-metric-spaces
 tags:

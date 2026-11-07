@@ -18,6 +18,10 @@ prerequisites:
   type: hard
 - id: variance-of-random-variables
   type: hard
+- id: binomial-distribution
+  type: soft
+- id: sampling-methods
+  type: soft
 builds-toward:
 - central-limit-theorem
 - confidence-intervals-means

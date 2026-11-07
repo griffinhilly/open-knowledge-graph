@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: union-and-intersection-intro
   type: soft
+- id: set-operations-and-venn-diagrams
+  type: soft
 builds-toward:
 - cartesian-products-relations
 - proof-by-cases-exhaustion

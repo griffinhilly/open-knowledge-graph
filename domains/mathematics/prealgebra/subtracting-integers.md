@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: opposites-and-additive-inverses
   type: soft
+- id: integers-and-number-line
+  type: hard
 builds-toward:
 - integer-order-of-operations
 - one-step-equations

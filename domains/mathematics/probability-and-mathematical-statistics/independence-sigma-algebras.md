@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: joint-distributions-marginals-rigorous
   type: soft
+- id: random-variables-as-measurable-functions
+  type: hard
 builds-toward:
 - weak-law-of-large-numbers
 - strong-law-of-large-numbers

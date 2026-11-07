@@ -10,6 +10,10 @@ prerequisites:
   type: hard
 - id: convergence-iterative-methods
   type: soft
+- id: fixed-point-iteration
+  type: soft
+- id: secant-method
+  type: soft
 tags:
 - convergence
 - error-reduction

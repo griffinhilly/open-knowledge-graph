@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: lebesgue-integral-general-definition
   type: hard
+- id: measurable-functions
+  type: hard
 builds-toward:
 - riemann-lebesgue-comparison
 - product-measures-fubini-theorem

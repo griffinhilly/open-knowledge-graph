@@ -6,6 +6,8 @@ course: methods-of-proof
 prerequisites:
 - id: relations-properties-and-types
   type: hard
+- id: set-operations-and-notation
+  type: hard
 tags:
 - equivalence relation
 - partition

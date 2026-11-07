@@ -12,6 +12,8 @@ prerequisites:
   type: hard
 - id: variance-standard-deviation
   type: soft
+- id: joint-marginal-distributions
+  type: hard
 builds-toward:
 - linear-regression
 tags:

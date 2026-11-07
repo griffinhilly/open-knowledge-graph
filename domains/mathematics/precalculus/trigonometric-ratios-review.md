@@ -4,14 +4,18 @@ title: Trigonometric Ratios Review
 domain: mathematics
 course: precalculus
 prerequisites:
-  - id: right-triangle-trigonometry-intro
-    type: hard
-  - id: sine-cosine-tangent-ratios
-    type: hard
+- id: right-triangle-trigonometry-intro
+  type: hard
+- id: sine-cosine-tangent-ratios
+  type: hard
+- id: special-right-triangles-30-60-90
+  type: soft
+- id: special-right-triangles-45-45-90
+  type: soft
 builds-toward:
-  - unit-circle
-  - law-of-sines
-  - law-of-cosines
+- unit-circle
+- law-of-sines
+- law-of-cosines
 tags: [trigonometry, ratios, right-triangles]
 stage: formal-systems
 status: validated

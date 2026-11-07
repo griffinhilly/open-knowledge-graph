@@ -10,8 +10,13 @@ prerequisites:
   type: hard
 - id: proving-by-contradiction
   type: soft
-builds-toward:
-- proving-by-contradiction
+- id: conditional-implication-statements
+  type: hard
+- id: modus-ponens-and-modus-tollens
+  type: soft
+- id: negating-quantifiers
+  type: soft
+builds-toward: []
 tags:
 - proof
 - contrapositive
