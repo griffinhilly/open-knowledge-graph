@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Heuristics are mental shortcuts that simplify complex judgments by substituting an easier question for a harder one. Kahneman and Tversky identified three primary heuristics: representativeness (judging probability by similarity to a prototype), availability (judging frequency or probability by ease of recall), and anchoring and adjustment (estimating by starting from an initial value and adjusting insufficiently). Each heuristic is useful in many situations but produces systematic biases when the shortcut departs from statistical reality. The heuristics-and-biases program demonstrated that human judgment deviates from normative standards in predictable, systematic ways — not randomly — challenging the assumption that errors cancel out in aggregate and laying the psychological foundations for behavioral economics.
 
+## How It's Best Learned
+Try the classic problems on yourself before reading the answers: the Steve librarian-or-farmer question, the Linda problem and an anchored estimate. For each one, name the easier question your mind substituted and the statistic it skipped, such as the base rate or the conjunction rule. Then find a case where the same heuristic gives a good answer, so you see where the bias begins.
+
+## Common Misconceptions
+- Heuristics are mistakes that careful people avoid. (Heuristics are useful shortcuts that work in many settings; they produce biases when the shortcut departs from the statistics of the case.)
+- Judgment errors are random and cancel out across many people. (The program's central finding is that the errors are systematic, so they can push aggregate behavior in one direction.)
+- An anchor only matters when it is a sensible starting point. (Arbitrary anchors, such as a number from a spun wheel, also pull estimates toward them.)
+- Knowing about anchoring lets you correct for it fully. (Anchors also shape which information comes to mind, so awareness reduces the effect less than people expect.)
+
 ## Questions
 
 ```yaml

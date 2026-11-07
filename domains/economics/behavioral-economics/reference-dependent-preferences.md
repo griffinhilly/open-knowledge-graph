@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Reference-dependent preferences formalize the insight from prospect theory that people evaluate outcomes as gains or losses relative to a reference point rather than as absolute levels. Koszegi and Rabin (2006) developed the most influential model, proposing that utility has two components: consumption utility (standard utility from the outcome itself) and gain-loss utility (additional utility or disutility depending on whether the outcome exceeds or falls short of a reference point, typically rational expectations). This model generates predictions about labor supply (taxi drivers work less on high-wage days), consumer behavior (demand patterns respond to reference prices), and risk attitudes (which depend on the stochastic properties of expectations). Reference-dependence is now a core building block of behavioral economic theory, extending prospect theory from static laboratory gambles to dynamic economic settings.
 
+## How It's Best Learned
+Compute total utility for one worker who expects to earn $200 and ends the day at $150 or $250. Write consumption utility and gain-loss utility as separate lines, with losses weighted about twice as heavily. Then change the expectation to $250 and redo the sums. Seeing the same $250 day feel different under two expectations shows why the reference point matters.
+
+## Common Misconceptions
+- The reference point is always the status quo. (In the Koszegi-Rabin model it is the person's rational expectations, which move with information and prices.)
+- Gain-loss utility replaces ordinary consumption utility. (The model adds the two together; earning more still raises consumption utility even when the outcome falls short of expectations.)
+- A price increase hurts the same whether or not it was expected. (Expectations-based models such as Koszegi-Rabin predict a stronger reaction to an unexpected increase, because only the surprise counts as a loss.)
+- The taxi driver result is settled proof of income targeting. (The finding is debated, with critics pointing to measurement and selection issues, though the model shows how target earning could arise.)
+
 ## Questions
 
 ```yaml

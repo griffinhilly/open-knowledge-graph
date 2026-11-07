@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Behavioral models of intertemporal choice study how people actually make tradeoffs between costs and benefits occurring at different times, departing sharply from the exponential discounting assumed in standard economics. The central finding is that people are time-inconsistent: they discount the near future much more steeply than the distant future, leading to preference reversals (preferring $100 today over $110 tomorrow, but $110 in 31 days over $100 in 30 days). The quasi-hyperbolic (beta-delta) model formalizes this with a present-bias parameter (beta < 1) that captures the extra weight placed on immediate outcomes. Time-inconsistency creates demand for commitment devices — mechanisms that restrict future choices to prevent the future self from succumbing to temptation — and has profound implications for savings, health behavior, addiction, and the design of default options in retirement plans.
 
+## How It's Best Learned
+Model the same present-biased person twice, once as naive and once as sophisticated, facing a task with a cost today and a benefit next week. Trace each self's choice day by day in a small table to see who keeps postponing and who seeks a deadline. Then read Save More Tomorrow as a design that fits the sophisticated case, with the commitment made before beta can bite.
+
+## Common Misconceptions
+- A very impatient person with a high constant discount rate is time-inconsistent. (A constant rate, however high, gives time-consistent plans; inconsistency needs steeper discounting of the near future than the distant future.)
+- Knowing about your present bias removes it. (A sophisticated agent still has beta below 1; the difference is that they foresee the problem and may seek commitment.)
+- Commitment devices help everyone with present bias. (Naive agents expect to follow through on their own, so they may not adopt commitment devices that would help them.)
+- Present bias is a fixed tendency to prefer anything sooner. (It applies to trade-offs involving the present moment; between two future dates the same person can be quite patient.)
+
 ## Questions
 
 ```yaml

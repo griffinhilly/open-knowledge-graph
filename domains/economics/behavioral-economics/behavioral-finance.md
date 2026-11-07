@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Behavioral finance applies insights from behavioral economics — prospect theory, overconfidence, heuristics, mental accounting, and social influence — to understand financial market anomalies that standard efficient market theory cannot explain. Key phenomena include the disposition effect (selling winners too early and holding losers too long), excess trading volume (driven by overconfidence), the equity premium puzzle (stocks earning far more than bonds, consistent with myopic loss aversion), asset price bubbles, and predictable return patterns (momentum, value premium) that should not exist if markets are fully efficient. Behavioral finance does not claim markets are irrational but argues that investor psychology creates systematic, exploitable departures from the predictions of standard finance.
 
+## How It's Best Learned
+Start from one anomaly and trace it back to a bias you already know: draw the prospect theory value function with the purchase price as the reference point, then mark where a winning and a losing stock sit on it. Next, ask why arbitrage does not erase the anomaly. Pairing each anomaly with its limit to arbitrage shows why mispricings can persist.
+
+## Common Misconceptions
+- Behavioral finance says markets are irrational and prices are meaningless. (It argues that investor psychology produces systematic departures from standard predictions, while markets can still be roughly efficient in many settings.)
+- If a mispricing exists, smart traders will quickly trade it away. (Noise trader risk, short-selling constraints and capital constraints can stop arbitrageurs from correcting a mispricing, so it can widen before it closes.)
+- Investors hold losing stocks because selling them is bad for taxes. (Tax rules usually favor selling losers to realize tax losses, so holding losers is the opposite of what tax optimization recommends.)
+- Trading more often shows skill and should earn higher returns. (Frequent trading adds transaction costs, and in the evidence on individual investors the most active traders earned the lowest returns.)
+
 ## Questions
 
 ```yaml

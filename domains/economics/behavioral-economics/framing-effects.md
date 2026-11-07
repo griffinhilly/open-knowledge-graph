@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Framing effects occur when logically equivalent descriptions of the same decision problem lead to systematically different choices depending on whether the outcomes are presented as gains or losses. The classic demonstration is Tversky and Kahneman's Asian disease problem: when outcomes are framed as lives saved (gain frame), people prefer the certain option; when the same outcomes are framed as lives lost (loss frame), people prefer the risky option. Framing effects violate the invariance axiom of rational choice — that preferences should not change based on how options are described. They arise from prospect theory's reference-dependence and the different risk attitudes in the gain and loss domains, and they have profound implications for medical decisions, policy communication, and marketing.
 
+## How It's Best Learned
+Work through the Asian disease problem in both frames and write out the expected number of survivors for each program, so the equivalence is visible on paper. Then mark each option on the value function, using "all die" and "all survive" as the two reference points. After that, rewrite a real message, such as a surgery's survival statistic, in the opposite frame and predict the shift.
+
+## Common Misconceptions
+- A framing effect happens because people cannot do the arithmetic. (The options are easy to compute, and the reversal comes from coding outcomes as gains or losses against a reference point.)
+- Framing effects disappear once people see both versions or once experts are involved. (They have been found among physicians and other experts and even when the same people answer both frames, though awareness can reduce them.)
+- A gain frame or a loss frame tells the chooser something new about the options. (The frames carry the same information; only the description changes, which is why the reversal violates invariance.)
+- There is a neutral way to present options that avoids framing. (Any description uses some frame, so whoever presents the choice exercises influence whether they intend to or not.)
+
 ## Questions
 
 ```yaml

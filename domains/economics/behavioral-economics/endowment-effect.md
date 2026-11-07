@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 The endowment effect is the finding that people demand significantly more to give up an object they own (willingness to accept, WTA) than they would pay to acquire the same object (willingness to pay, WTP). In classic experiments, subjects endowed with a mug demanded roughly twice the price that non-owners were willing to pay. Standard economics predicts that WTA and WTP should be approximately equal for goods without income effects, so the gap is anomalous. Loss aversion provides the explanation: selling a possessed good is coded as a loss, while buying it is coded as a foregone gain, and losses are psychologically more impactful. The endowment effect has implications for market efficiency, the Coase theorem, and consumer behavior.
 
+## How It's Best Learned
+Run the mug exercise in a small group: hand objects to half the people at random, then ask owners for a selling price and non-owners for a buying price. Plot both medians on the prospect theory value function, with selling as a loss and buying as a gain. Then repeat with a good held for resale, such as a dealer's stock, and discuss why the gap shrinks.
+
+## Common Misconceptions
+- Owners ask for more because they are bargaining strategically. (The gap appears in incentive-compatible settings where overstating your price does not pay.)
+- People value what they own more because it is better than an identical item. (With random assignment the goods are the same, and the gap comes from coding a sale as a loss.)
+- The endowment effect shows up equally for every good and every person. (It is weaker for goods held for exchange and among experienced traders, and stronger for items tied to personal identity.)
+- Who gets the property rights first does not matter as long as people can trade. (A WTA-WTP gap reduces trading, so the starting allocation can shape the final one, against the Coase prediction.)
+
 ## Questions
 
 ```yaml

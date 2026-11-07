@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 Hyperbolic discounting describes the empirical finding that people discount future rewards at rates that decrease over time, rather than at the constant rate assumed by standard exponential discounting. This produces time-inconsistent preferences: a person may prefer $110 in 31 days over $100 in 30 days when both are far away, but prefer $100 today over $110 tomorrow when the immediate option is now available. The key feature is a disproportionate preference for immediate rewards — a "present bias" that leads to procrastination, undersaving, overconsumption, and difficulty following through on long-term plans. Hyperbolic discounting is formally modeled by Laibson's quasi-hyperbolic (beta-delta) model, where beta (<1) captures the immediate-future discount and delta captures the per-period discount thereafter.
 
+## How It's Best Learned
+Graph the value of a reward against its delay twice, once with an exponential curve and once with a beta-delta curve. Then compute the $100-versus-$110 choice at day 0 and at day 30 under each model and watch only the beta-delta version reverse. Linking the reversal to a commitment device you have used, such as an automatic savings transfer, makes the model concrete.
+
+## Common Misconceptions
+- Any strong preference for money now over money later is hyperbolic discounting. (A high but constant discount rate is still exponential; the hyperbolic signature is a rate that falls as both options move into the future.)
+- In the beta-delta model, beta is applied again in every period. (Beta is a one-time extra discount between "now" and any future period; delta is the per-period discount after that.)
+- People who discount hyperbolically cannot do anything about it. (Many anticipate their future present bias and use commitment devices, such as deadlines or payroll deductions, to bind their future selves.)
+- Time inconsistency means people do not know what they want. (Their plans are clear when made; the preference reverses as the moment of choice gets close.)
+
 ## Questions
 
 ```yaml

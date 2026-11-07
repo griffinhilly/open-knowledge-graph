@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Neuroeconomics uses neuroscience methods (fMRI, EEG, lesion studies, pharmacological interventions) to study the neural mechanisms underlying economic decision-making. Key findings include: reward prediction signals in the ventral striatum encode expected value in a manner resembling economic utility; the anterior insula activates during unfair offers (correlating with rejection in ultimatum games); prefrontal cortex engagement is associated with more patient and rational choices; and the dual-systems framework — where an impulsive "System 1" (limbic/emotional) and a deliberative "System 2" (prefrontal/cognitive) compete for control — provides a neural basis for phenomena like present bias and self-control failures. Neuroeconomics aims to ground behavioral economics anomalies in biological mechanisms, though critics question whether brain imaging adds explanatory power beyond behavioral data.
 
+## How It's Best Learned
+Pair each behavioral finding you know with its neural claim in a two-column list: present bias with the McClure intertemporal study, rejection in the ultimatum game with insula activity. For each pair, ask whether the evidence is correlational (fMRI) or causal (lesion, TMS), and write the reverse inference the claim would need. This keeps the brain maps tied to what they can and cannot show.
+
+## Common Misconceptions
+- If a brain region lights up during a task, we know which feeling or process caused the choice. (Most regions take part in many processes, so inferring a specific process from activation is the reverse inference problem.)
+- Emotion and reason sit in separate brain areas that fight for control. (The dual-systems picture is a useful simplification, but "emotional" and "deliberative" regions interact extensively.)
+- Brain imaging has replaced behavioral data as the test of economic theories. (Whether neural data adds predictive power beyond choices is still debated, and some economists argue it is irrelevant to economic theory.)
+- fMRI results show that a region is necessary for a decision. (fMRI is correlational; lesion studies, TMS and pharmacological methods are used to test necessity.)
+
 ## Questions
 
 ```yaml

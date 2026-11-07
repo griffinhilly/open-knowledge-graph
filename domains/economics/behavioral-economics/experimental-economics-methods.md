@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 Experimental economics tests economic theories through controlled laboratory experiments with real monetary incentives. Its methodological principles — first articulated by Vernon Smith — include induced value theory (monetary payments control the utility function), saliency (payoffs must be large enough to matter), dominance (reward structure dominates other motivations), and no deception (unlike psychology experiments, economists typically never deceive participants, preserving the credibility of the experimental environment). These methods enable causal identification of how institutions, incentives, and information structures affect behavior. The field has produced fundamental insights about market efficiency, auction design, public goods provision, and bargaining, and earned Smith the 2002 Nobel Prize alongside Kahneman.
 
+## How It's Best Learned
+Take part in or run a short double-auction session in which each buyer gets a private value and each seller a private cost, paid in real money. Plot the induced supply and demand curves beforehand and compare the trading prices with the predicted equilibrium. Then critique a published design against saliency, dominance and no deception.
+
+## Common Misconceptions
+- Paying participants is a courtesy and does not change what an experiment can show. (Under induced value theory, payments tied to decisions let the experimenter control the incentives that participants face.)
+- Any small payment is enough to count as a real incentive. (Saliency requires payoffs to depend on the participant's decisions, and dominance requires them to outweigh other motives, such as boredom or wanting to please the experimenter.)
+- A lab result with students shows how real markets will behave. (Lab experiments give tight control but limited external validity, so findings are often checked again in field and natural experiments.)
+- Market efficiency in the lab requires each trader to be fully rational. (Smith's double-auction markets converged to competitive equilibrium with few traders who knew no economic theory.)
+
 ## Questions
 
 ```yaml

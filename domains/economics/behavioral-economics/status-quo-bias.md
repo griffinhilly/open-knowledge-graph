@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Status quo bias is the disproportionate preference for the current state of affairs — the tendency to stick with existing options even when switching would be objectively beneficial. It arises from multiple psychological mechanisms: loss aversion (any change involves giving up the current state, which is coded as a loss), the endowment effect (valuing what one already has more than alternatives), decision complexity and effort (switching requires active decision-making while staying requires none), and regret avoidance (people anticipate more regret from bad outcomes of active choices than from equivalent bad outcomes of inaction). Status quo bias explains why employees stick with default retirement plans, consumers rarely switch service providers, and organizations resist change despite compelling evidence for alternatives.
 
+## How It's Best Learned
+List three services you have kept for years, such as a bank, a phone plan or an insurer. For each, write which mechanism keeps you there: loss aversion, switching effort, or fear of regretting a switch. Then design one change that would weaken each mechanism, such as a one-click switch or a side-by-side comparison. Seeing which fixes work tells you which mechanism was strongest.
+
+## Common Misconceptions
+- Sticking with the current option shows it is the best one. (People keep the status quo even when switching would be clearly better, because the current state gets an inertia premium.)
+- Status quo bias is only loss aversion. (Switching effort, decision complexity and regret avoidance also contribute, and they can act without any loss framing.)
+- If switching is free, status quo bias disappears. (Removing money costs leaves the effort of deciding and the anticipated regret of an active choice, so people often still stay.)
+- Doing nothing is not a choice and carries no responsibility. (Inaction has consequences too; people tend to expect less regret for it, which is the omission bias that keeps them in place.)
+
 ## Questions
 
 ```yaml

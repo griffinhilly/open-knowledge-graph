@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 Loss aversion is the empirical finding that losses loom larger than equivalent gains — losing $100 typically feels roughly twice as painful as gaining $100 feels pleasant. Embedded in prospect theory's value function, loss aversion is one of the most robust and consequential findings in behavioral economics. It explains the endowment effect (demanding more to sell an owned good than one would pay to acquire it), status quo bias (preferring the current state over equally attractive alternatives), the disposition effect in investing, and risk aversion for mixed gambles. The loss aversion coefficient (lambda) is typically estimated around 1.5-2.5, meaning losses are weighted 1.5-2.5 times more heavily than gains of equal magnitude.
 
+## How It's Best Learned
+Draw the value function with a visible kink at the reference point and a loss side about twice as steep as the gain side. Then price the +$120/−$100 coin flip on it and see the subjective value turn negative, even though expected money is positive. Contrast this with a smooth concave utility-of-wealth curve, which is nearly straight over such small stakes.
+
+## Common Misconceptions
+- Loss aversion is another name for risk aversion. (Risk aversion in expected utility comes from curvature over total wealth, while loss aversion is a kink at the reference point that matters even for small stakes.)
+- Loss aversion makes people avoid every risk. (It produces caution in mixed gambles, but when all options are losses people often take risks to avoid a certain loss.)
+- Losses always count exactly twice as much as gains. (Estimates of lambda usually fall around 1.5 to 2.5 and vary with the person and the setting.)
+- Gains and losses are measured from zero wealth. (They are measured from a reference point, such as a purchase price or the status quo, which can shift.)
+
 ## Questions
 
 ```yaml

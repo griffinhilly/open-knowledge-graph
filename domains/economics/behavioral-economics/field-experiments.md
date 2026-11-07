@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 Field experiments are randomized controlled trials conducted in real-world settings with real participants making real decisions with real consequences. They address the primary limitation of laboratory experiments — external validity — by testing whether behavioral patterns observed in the lab persist in natural environments with experienced agents, actual stakes, and genuine institutional contexts. Pioneered in economics by researchers like John List, Esther Duflo, and Michael Kremer, field experiments have become the gold standard for evaluating policy interventions in development economics, education, health, and behavioral public policy. The 2019 Nobel Prize was awarded to Banerjee, Duflo, and Kremer for their experimental approach to alleviating global poverty.
 
+## How It's Best Learned
+Pick one lab finding you know, such as the endowment effect, and design three tests of it: artefactual, framed and natural field experiments. For each, note who the participants are, whether they know they are studied, and what control you give up. Comparing your plan with List's sports-card study shows what moving into the field can reveal.
+
+## Common Misconceptions
+- Field experiments are just lab experiments with a less tidy setting. (Their purpose is external validity: real participants, real stakes and real institutions, which can expose boundary conditions a lab cannot.)
+- A field experiment is cheaper and easier than a lab study. (They often need years of data collection, partner cooperation and careful monitoring, which makes them costly and hard to run.)
+- If a field experiment works in one place, the result holds everywhere. (Each field result comes from a specific population and context, so it still needs replication before scaling.)
+- Randomizing who gets a program is unethical by definition. (The concern is real, and designs such as waitlist controls, stepped-wedge rollouts and business-as-usual comparisons are used to address it.)
+
 ## Questions
 
 ```yaml

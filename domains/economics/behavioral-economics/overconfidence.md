@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 Overconfidence is the systematic tendency for people's subjective confidence in their judgments and abilities to exceed their objective accuracy. It manifests in three forms: overestimation (thinking you are better than you are), overplacement (thinking you are better than others — the "better-than-average" effect), and overprecision (excessive certainty that your beliefs are correct — overly narrow confidence intervals). Overconfidence is one of the most robust biases in the psychological literature and has significant economic consequences: it drives excessive market entry by entrepreneurs, overtrading in financial markets, underestimation of project costs and timelines (the planning fallacy), and inadequate risk management. It persists because the costs of overconfidence are often delayed and ambiguous while the benefits (boldness, decisiveness, persuasiveness) are immediate.
 
+## How It's Best Learned
+Test yourself first: give 90% confidence intervals for ten factual quantities, then count how many contain the true value. That hit rate makes overprecision personal. Next, sort examples into the three forms, such as a trader's narrow forecast, a driver's self-ranking and a student's score estimate. Finish by redoing one project estimate with the outside view, using how similar projects turned out.
+
+## Common Misconceptions
+- Overconfidence is one bias that shows up the same way everywhere. (Overestimation, overplacement and overprecision are distinct, and the first two can reverse for very easy or very hard tasks.)
+- Most people think they are above average at everything. (People tend to overplace on easy, common tasks but underplace on difficult, rare ones.)
+- After a few late projects, people learn to plan realistically. (The planning fallacy persists because each new project feels unique under the inside view, so the base rate is rarely consulted.)
+- Overconfidence has no benefits for the person who has it. (Confidence can sustain effort and make someone more persuasive, which is one reason it persists.)
+
 ## Questions
 
 ```yaml

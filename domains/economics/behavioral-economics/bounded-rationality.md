@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 Bounded rationality, introduced by Herbert Simon (1955), holds that human decision-makers have limited cognitive resources — constrained information, computational capacity, and time — and therefore cannot achieve the perfect optimization assumed by standard economic models. Instead of maximizing utility by evaluating all alternatives, boundedly rational agents "satisfice" — they search through options sequentially and accept the first one that meets an aspiration level. This is not irrationality but a different kind of rationality adapted to real-world constraints. Bounded rationality is the foundational concept of behavioral economics because it motivates the entire research program: if people are not perfect optimizers, then understanding how they actually decide requires psychological investigation, not just mathematical axioms.
 
+## How It's Best Learned
+Recall a real search you made, such as renting an apartment or choosing a laptop. Write down how many options you looked at, what made you stop, and what a full optimizer would have needed to know. Then restate your choice as a satisficing rule with an aspiration level, and ask how that level would shift if the search had been easier or harder.
+
+## Common Misconceptions
+- Bounded rationality means people are irrational or foolish. (It means people decide well within limits of information, computation and time, often with strategies that suit those limits.)
+- Satisficing is the same as being lazy or picking at random. (A satisficer searches with a clear aspiration level and stops when an option meets it, which can be sensible when further search is costly.)
+- Bounded rationality is optimization with a small error added on. (Simon argued that the decision process itself differs from optimization, so the departures are in how people search and choose, beyond random noise.)
+
 ## Questions
 
 ```yaml

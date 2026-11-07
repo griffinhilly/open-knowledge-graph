@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Nudge theory (Thaler & Sunstein, 2008) proposes that the design of choice environments — choice architecture — can steer people toward better decisions without restricting their options. A "nudge" is any aspect of the choice architecture that predictably alters behavior without forbidding any options or significantly changing economic incentives. Examples include default enrollment in retirement savings, placing healthy food at eye level in cafeterias, and opt-out organ donation. The philosophical foundation is "libertarian paternalism" — preserving freedom of choice (libertarian) while designing choice environments that help people achieve their own stated long-term goals (paternalism). Nudge theory translates behavioral economics research on biases, heuristics, and bounded rationality into practical policy tools.
 
+## How It's Best Learned
+Sort a list of retirement-savings policies into nudge or not-nudge: automatic enrollment, a savings mandate, a tax penalty, a reminder letter, a matching contribution. For each, test the two parts of the definition, whether any option is forbidden and whether economic incentives change much. The borderline cases, such as a large match, show where the definition gets hard to apply.
+
+## Common Misconceptions
+- Any policy that changes behavior counts as a nudge. (A nudge must leave all options open and not change economic incentives much, so mandates, bans and sizable taxes fall outside it.)
+- Nudges are neutral because people can still opt out. (Defaults and framing do steer choices, which is why critics raise autonomy and manipulation concerns even when options remain.)
+- Libertarian paternalism is a contradiction, so it cannot be defined clearly. (It pairs keeping every option available with designing the environment toward what choosers would judge best for themselves; whether that fully respects liberty is a separate debate.)
+- A nudge that works once will keep working at the same strength. (Many nudges have modest effects, and some fade over time or when they run against strong preferences.)
+
 ## Questions
 
 ```yaml

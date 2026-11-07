@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Identity economics (Akerlof and Kranton, 2000, 2010) incorporates social identity — a person's sense of belonging to social categories such as gender, race, occupation, or class — directly into the utility function. People gain utility from conforming to the behavioral prescriptions associated with their social category (norms) and lose utility from violating them, even at material cost. This framework explains behaviors that standard economics struggles with: why men avoid female-coded occupations even when they pay well (identity-based occupational segregation), why students in disadvantaged communities reject academic achievement (conforming to oppositional identity norms), why insiders in organizations resist outsiders (maintaining group identity), and why identical economic incentives produce different outcomes across social groups. Identity economics does not replace rational choice — it enriches the utility function with a social dimension that traditional models omit.
 
+## How It's Best Learned
+Write the utility function in three parts: material payoff, the person's category, and a penalty for deviating from that category's prescriptions. Then apply it to one case, such as a man weighing a well-paid nursing job, and show how a large enough identity penalty outweighs the wage gap. Finally, ask which policy shifts the prescriptions themselves, such as role models, and which only changes pay.
+
+## Common Misconceptions
+- Identity economics says people are irrational when they follow group norms. (The model keeps rational choice and adds identity utility, so conforming can be the best choice given those preferences.)
+- If segregation persists, employers must be discriminating. (Identity economics adds a supply-side mechanism: workers may avoid cross-typed jobs even when firms do not discriminate.)
+- Paying people more will reliably overcome identity-based resistance. (Identity costs can outweigh feasible incentives, and payment can even make the norm violation more salient.)
+- A person has one fixed identity that drives every choice. (People belong to several categories, and which one is salient can change with the setting.)
+
 ## Questions
 
 ```yaml

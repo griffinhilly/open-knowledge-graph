@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Social preferences refer to the empirical finding that people care about the outcomes of others — not just their own — in systematic ways that violate the standard self-interest assumption. Laboratory experiments (ultimatum games, dictator games, public goods games, trust games) consistently show that people sacrifice material payoffs to achieve fairness, punish unfair behavior, reward cooperation, and share with strangers. Theoretical models by Fehr and Schmidt (inequality aversion), Rabin (fairness equilibrium), and Bolton and Ockenfels (ERC model) formalize these preferences. The evidence challenges the homo economicus assumption and has implications for contract design, public goods provision, tax compliance, and organizational management.
 
+## How It's Best Learned
+Lay out the four canonical games in a table with columns for the self-interest prediction, the typical result, and the model that explains the gap. Then plug numbers into Fehr-Schmidt utility for a $10 ultimatum game, for example a $2 offer with alpha = 1, and check that the responder prefers rejecting. Swapping in Rabin's intention-based model for the same game shows what each model emphasizes.
+
+## Common Misconceptions
+- People who share or reject offers in these games are just confused about the rules. (The patterns persist when players understand the payoffs, and they match systematic motives such as fairness and reciprocity.)
+- Social preferences just mean people are altruistic. (They include conditional and negative motives too, such as punishing unfair players at a cost and cooperating only when others do.)
+- A single model of fairness explains all the results. (Inequality aversion, intention-based reciprocity and relative-payoff models each capture different parts of the data, and none dominates.)
+- Fairness norms are the same in every society. (Henrich and colleagues found substantial variation in offers and rejections across small-scale societies.)
+
 ## Questions
 
 ```yaml

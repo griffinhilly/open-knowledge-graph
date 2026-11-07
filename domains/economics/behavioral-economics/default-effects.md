@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Default effects refer to the disproportionate influence of pre-selected options on final choices. When one option is designated as the default (what happens if no active choice is made), the vast majority of people accept it — regardless of whether it matches their preferences. This has been demonstrated in retirement savings (automatic enrollment increases participation from ~50% to ~90%), organ donation (opt-out countries have donation consent rates near 90% vs. ~15% in opt-in countries), insurance selection, privacy settings, and energy plan choices. Default effects are driven by status quo bias, loss aversion, implied endorsement (the default is perceived as a recommendation), and decision effort (accepting the default requires no action). They are the most powerful single tool in choice architecture.
 
+## How It's Best Learned
+Begin with the 401(k) case: draw two bars for participation under opt-in and under automatic enrollment, then list everything that stayed the same between them. Next, sort the mechanisms (effort, implied endorsement, loss aversion) by asking which ones would weaken if switching took one click. Ending with when defaults fail, such as strong prior preferences, keeps the effect in proportion.
+
+## Common Misconceptions
+- People stick with defaults only because they are lazy. (Inertia is one cause, but people also read the default as a recommendation and treat it as the reference point, so leaving it feels like a loss.)
+- If most people keep the default, it must match what they want. (High acceptance can reflect inertia or implied endorsement, so a default can stick even when it fits a person's preferences poorly.)
+- An opt-out consent rate near 100% means nearly everyone in that country becomes an organ donor. (In opt-out countries the consent rate counts everyone who has not opted out; actual donations also depend on family decisions, medical suitability and hospital systems.)
+- A default only affects the first decision. (In automatic enrollment, default contribution rates and funds also stayed in place for many employees after enrollment.)
+
 ## Questions
 
 ```yaml

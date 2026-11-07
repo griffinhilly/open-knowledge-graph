@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Prospect theory (Kahneman & Tversky, 1979) is the most influential alternative to expected utility theory for modeling decision-making under risk. It introduces three key departures from standard theory: (1) outcomes are evaluated as gains or losses relative to a reference point rather than as final wealth states; (2) the value function is concave for gains (risk aversion) but convex for losses (risk seeking), with losses looming larger than equivalent gains (loss aversion); and (3) people overweight small probabilities and underweight large probabilities (probability weighting function). Prospect theory explains a wide range of anomalies that expected utility theory cannot — including the simultaneous purchase of insurance and lottery tickets, the endowment effect, and the disposition effect in financial markets.
 
+## How It's Best Learned
+Draw the two curves side by side: the S-shaped value function, kinked at the reference point, and the inverse-S probability weighting function. Then run four test choices through them: a sure $100 versus a 50/50 shot at $200, the mirror-image losses, a small-chance lottery, and an insurance premium. Each choice draws on a different part of the curves, so you see which feature does the work.
+
+## Common Misconceptions
+- Prospect theory says people are always risk-averse. (It predicts risk aversion for moderate-probability gains and risk seeking for moderate-probability losses, with the pattern flipping for small probabilities.)
+- The reference point is always current wealth. (It is often the status quo, but it can be an expectation, an aspiration or a comparison with others.)
+- Probability weighting means people cannot work out probabilities. (It describes how known probabilities are weighted in choice, with small ones weighted more and large ones less than their objective value.)
+- Loss aversion and the convex shape for losses are the same thing. (Loss aversion is the steeper slope on the loss side; convexity is diminishing sensitivity as losses grow, and the two can pull risk attitudes in different directions.)
+
 ## Questions
 
 ```yaml

@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Mental accounting (Thaler, 1985) is the set of cognitive operations individuals use to organize, evaluate, and track financial activities. People mentally categorize money into separate accounts — housing, food, entertainment, savings — and treat these accounts as non-fungible, even though standard economics assumes money is perfectly fungible (a dollar is a dollar regardless of its source or intended use). Mental accounting operates at three levels: how outcomes are perceived and experienced (integration vs. segregation of gains and losses), how activities are assigned to accounts (categorization), and how frequently accounts are evaluated (temporal bracketing). It explains behaviors that appear irrational under standard theory — like refusing to spend a windfall from one account on needs in another, or being more willing to splurge with a tax refund than with identical regular income.
 
+## How It's Best Learned
+Track one week of your own spending and label each purchase with the mental account you drew it from, such as groceries, fun money or a gift. Note any time you held back in one account while another had money left. Then work the four hedonic editing rules on the value function, for example two $50 gains against one $100 gain, to see where segregation and integration come from.
+
+## Common Misconceptions
+- Mental accounts only exist when people keep separate bank accounts or envelopes. (They are categories in the mind, and people treat money as non-fungible even when it sits in one place.)
+- Mental accounting is always a mistake. (Budget categories can act as useful self-control rules, though rigid accounts can leave money idle while another category runs short.)
+- Where money came from should change how freely you spend it, so a tax refund is "free money." (Under fungibility a refund dollar buys the same as a wage dollar; treating it differently is the mental accounting pattern itself.)
+- People follow the hedonic editing rules reliably. (They predict how outcomes would be framed to feel best, but the evidence on whether people follow them is mixed.)
+
 ## Questions
 
 ```yaml

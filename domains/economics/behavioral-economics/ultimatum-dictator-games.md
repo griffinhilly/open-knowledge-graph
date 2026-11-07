@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 The ultimatum game and dictator game are canonical experimental paradigms for studying social preferences. In the ultimatum game, a proposer offers a division of a sum to a responder, who can accept (both receive their shares) or reject (both receive nothing). In the dictator game, the proposer unilaterally decides the split with no possibility of rejection. Standard game-theoretic predictions (offer the minimum; accept any positive amount) fail dramatically: ultimatum proposers typically offer 40-50%, responders reject offers below 20% roughly half the time, and dictators give 20-30% on average. These robust findings provide the primary empirical evidence for fairness concerns, inequality aversion, and costly punishment, and they have been replicated across cultures, stake sizes, and experimental designs.
 
+## How It's Best Learned
+Play both games in pairs with a small real sum, first as the ultimatum game and then as the dictator game, and record each split. Compare the two sets of offers. The drop from ultimatum to dictator measures how much giving was strategic fear of rejection, and what remains reflects other-regarding motives. Then solve the ultimatum game by backward induction to see how far play departs from it.
+
+## Common Misconceptions
+- Generous ultimatum offers prove that proposers care about fairness. (Some generosity is strategic fear of rejection; the dictator game removes that motive, and giving falls but stays above zero.)
+- Rejecting a low offer is irrational because the responder loses money. (If the responder's utility includes fairness or the value of punishing, rejecting can be the best choice given those preferences.)
+- Raise the stakes enough and people will play the self-interested prediction. (Offers stayed well above the minimum in studies with stakes worth months of local wages, though responders tend to reject a given low share less often as stakes rise.)
+- Everyone everywhere settles on a 50/50 split. (Offers vary across societies, and within a population some dictators give nothing while others give half or more.)
+
 ## Questions
 
 ```yaml

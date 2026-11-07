@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 Present bias is the specific manifestation of hyperbolic discounting in which individuals place disproportionate weight on immediate payoffs relative to future payoffs, even when this conflicts with their own long-term preferences. It is captured by the beta parameter in the quasi-hyperbolic model, where beta < 1 means the present is overvalued relative to any future period. Present bias generates two distinct agent types: "naive" agents who do not anticipate their future self-control problems (and therefore fail to take precautions) and "sophisticated" agents who recognize their bias (and may adopt commitment devices or, paradoxically, may give up on long-term goals prematurely). Present bias is the proximate cause of procrastination, undersaving, overconsumption, and many health-related self-control failures.
 
+## How It's Best Learned
+Write out the beta-delta sum for a task that costs 6 units of effort today and pays 8 tomorrow, using beta = 0.7 and delta = 1. Show that from yesterday's vantage point the task is worth doing, but from today's it is not. Then shift every period forward by one to see the same reversal reappear. Linking this to a habit you postpone, like starting a report, makes the algebra concrete.
+
+## Common Misconceptions
+- Present-biased people do not care about the future. (They can value the future a great deal; beta adds an extra discount only on trade-offs that involve the present moment.)
+- Present bias is about money only. (It affects any choice where costs and benefits fall at different times, such as exercise, study and diet.)
+- An agent who knows about their present bias no longer has it. (A sophisticated agent has the same beta below 1; awareness changes how they plan, not the bias itself.)
+- Present bias can be fixed by changing beta through willpower or education. (Policy usually works on the environment instead, through defaults, friction and commitment devices.)
+
 ## Questions
 
 ```yaml

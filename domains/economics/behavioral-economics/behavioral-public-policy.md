@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Behavioral public policy applies behavioral economics insights — bounded rationality, present bias, loss aversion, social norms, and framing effects — to design government policies that account for how people actually behave rather than how rational choice theory assumes they behave. Institutionalized through "nudge units" (UK Behavioural Insights Team, US OIRA, and dozens of others worldwide), the field has produced evidence-based interventions in retirement savings, tax compliance, energy conservation, health behavior, and educational attainment. It represents the policy arm of behavioral economics, bridging laboratory findings to scaled interventions, while navigating ongoing debates about paternalism, manipulation, and the limits of behavioral approaches for structural problems.
 
+## How It's Best Learned
+Take one real government letter or form, such as a tax reminder, and redesign it with the EAST checklist (Easy, Attractive, Social, Timely). Then sketch a small randomized trial that would compare the old and new versions. Close by asking which part of the problem a nudge cannot reach and what tax, mandate or law would address it.
+
+## Common Misconceptions
+- Behavioral policy means the government tricks people into doing what it wants. (Many interventions simplify forms, change defaults or add reminders, and people keep the freedom to choose otherwise; whether a given nudge counts as manipulation is a live debate.)
+- If a nudge works in a lab or one city, it will work the same way at national scale. (The field's practice is to test, learn and adapt, because effects can shrink or vanish in a new population or setting.)
+- Nudges can replace taxes, mandates and regulation. (They help most where inertia or bias is the barrier, and they complement traditional tools for structural problems.)
+
 ## Questions
 
 ```yaml

@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Behavioral game theory studies how people actually make strategic decisions, documenting systematic departures from Nash equilibrium and developing formal models that incorporate bounded rationality into strategic interaction. Three major frameworks have emerged: level-k thinking models, where players differ in how many steps of strategic reasoning they perform (level-0 randomizes, level-1 best-responds to level-0, level-2 best-responds to level-1, etc.); cognitive hierarchy models (Camerer, Ho, and Chong, 2004), which generalize level-k by allowing players to best-respond to a Poisson-distributed mixture of lower levels; and quantal response equilibrium (McKelvey and Palfrey, 1995), where players choose better strategies more often but make errors proportional to a noise parameter, converging to Nash as noise vanishes. These models explain canonical anomalies — overbidding in auctions, under-contribution in public goods games, and non-equilibrium play in beauty contest games — that standard game theory cannot.
 
+## How It's Best Learned
+Play a beauty contest round first, choosing a number from 0 to 100 with 2/3 of the average as the target, before seeing any theory. Then compute the level-0, level-1 and level-2 choices (50, 33, 22) and locate your own guess among them. Finally, compare that ladder with a QRE story of noisy best responses for the same game.
+
+## Common Misconceptions
+- Players who do not choose the Nash strategy are just being irrational or random. (Their choices are often systematic, such as best responses to a belief that others reason only one or two steps.)
+- A level-2 thinker is choosing badly because they stop short of the Nash answer. (If most opponents are level-0 or level-1, stopping at level 2 can earn more than playing the Nash equilibrium.)
+- Level-k and cognitive hierarchy models are the same idea. (In level-k a player assumes everyone is exactly one level below; in cognitive hierarchy a player best-responds to a mixture of all lower levels.)
+- In quantal response equilibrium players make mistakes at random with no link to payoffs. (Better strategies are chosen more often, so costly mistakes are rarer than cheap ones.)
+
 ## Questions
 
 ```yaml

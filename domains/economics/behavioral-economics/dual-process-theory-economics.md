@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Dual-process theory distinguishes two modes of cognitive processing — fast, automatic, intuitive thinking (System 1) and slow, deliberate, effortful reasoning (System 2) — and applies this distinction to explain systematic patterns in economic decision-making. Many behavioral anomalies documented in economics (framing effects, anchoring, default bias, base-rate neglect in financial markets) arise because economic agents rely heavily on System 1 even in contexts where System 2 reasoning would produce better outcomes. The framework provides a unifying cognitive mechanism behind the heuristics-and-biases research program: biases are not random errors but predictable consequences of System 1 processing applied to problems that require System 2 analysis. This has direct implications for market design, financial regulation, and choice architecture — interventions can be designed either to de-bias System 1 responses or to activate System 2 engagement at critical decision points.
 
+## How It's Best Learned
+Make a two-column table with System 1 and System 2 as headers. For each bias you already know (anchoring, framing, default bias), write the quick intuitive response in one column and the check that would catch it in the other. Then add a row of conditions that tip the balance, such as time pressure or cognitive load, and match each policy tool to the column it works through.
+
+## Common Misconceptions
+- System 1 and System 2 are two separate parts of the brain. (They are labels for two modes of processing, not distinct physical modules.)
+- System 1 is the source of errors and System 2 is always right. (Fast intuition handles most decisions well, and deliberate reasoning can also go wrong; biases appear when System 1 is applied to problems that need analysis.)
+- Once you learn about a bias, you stop falling for it. (Knowing about a bias is a System 2 fact, while the bias arises in automatic processing, so experts and trained traders still show it.)
+- Giving people more information always moves them into careful System 2 thinking. (Disclosure engages deliberation mainly when the information is simple enough to process, and complex disclosures often fail.)
+
 ## Questions
 
 ```yaml

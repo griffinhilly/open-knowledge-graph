@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 The sunk cost fallacy is the tendency to continue investing in a project, relationship, or course of action because of previously invested resources (time, money, effort) rather than based on future expected value. Standard economics dictates that sunk costs — costs already incurred that cannot be recovered — should be irrelevant to forward-looking decisions. Yet people routinely "throw good money after bad," continuing failing projects to justify past expenditures. The fallacy is driven by loss aversion (abandoning the investment makes the loss "real"), mental accounting (wanting to close the mental account in the positive), waste aversion (reluctance to "waste" invested resources), and self-justification (admitting the investment was wrong threatens self-concept). It produces escalation of commitment in business, government, and personal decisions.
 
+## How It's Best Learned
+Take a failing project and write the decision twice. First frame it the natural way: "Should we write off the $10 million already spent?" Then frame it forward: "Is another $1 million worth what it will bring from here?" Cross out every number that is the same under both choices, and the sunk cost drops out. Repeating this for a personal case, like a gym membership, makes the habit stick.
+
+## Common Misconceptions
+- Every cost from the past is a sunk cost. (Only costs that cannot be recovered are sunk; money you can get back, such as a refundable deposit, still matters.)
+- Paying attention to how much work is already done is always the fallacy. (Progress so far can be useful information about the remaining cost to finish; the fallacy is valuing past spending for its own sake.)
+- Continuing to use something you paid for gets your money back. (The money is gone either way, so going to the gym or finishing the meal only makes sense if it is worth doing from now on.)
+- Experienced managers who understand sunk costs do not fall for them. (Self-justification, public commitment and organizational pressure keep the effect alive even when people know the concept.)
+
 ## Questions
 
 ```yaml

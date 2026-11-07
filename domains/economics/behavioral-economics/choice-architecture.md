@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Choice architecture is the design of environments in which people make decisions. It encompasses the arrangement, framing, and presentation of options — including defaults, number of alternatives, ordering, information display, and feedback mechanisms. Because people are not perfectly rational agents who extract optimal decisions regardless of presentation, the way choices are structured profoundly influences outcomes. Key choice architecture tools include default settings (which option obtains if no active choice is made), simplification (reducing complexity and cognitive load), social norms (communicating what others do), salience (making important information prominent), and mapping (helping people translate options into outcomes they understand).
 
+## How It's Best Learned
+Audit a choice screen you use, such as a benefits enrollment page or a phone's privacy settings. List its default, the number and order of options, what is made salient, and how outcomes are shown. Then redesign it twice, once to help the chooser reach their own goals and once as a dark pattern. Comparing the two shows that the same tools can serve or exploit.
+
+## Common Misconceptions
+- A neutral design that does not influence anyone is possible if the designer is careful. (Every layout has some order and emphasis, so some influence is unavoidable; the choice is whether to design it thoughtfully.)
+- Choice architecture is the same as removing options people might pick badly. (Most tools change how options are presented or which one is pre-selected, while leaving the options available.)
+- Fewer options are always better. (Good simplification is often better organization, such as filters or tiers, and some people want to explore the full set.)
+- Choice architecture only matters when someone sets out to nudge. (Accidental designs, like an inherited default or an arbitrary list order, shape choices too.)
+
 ## Questions
 
 ```yaml
