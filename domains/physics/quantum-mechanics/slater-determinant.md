@@ -33,7 +33,7 @@ Write out the 2×2 determinant by hand, then a 3×3 one for spin-orbitals 1s↑,
 ## Questions
 
 ```yaml
-- question: "Two electrons are assigned to the same spatial orbital in an N-electron Slater determinant. What is the value of the resulting wavefunction?"
+- question: "Two electrons are assigned to the same spin-orbital (same spatial orbital and same spin) in an N-electron Slater determinant. What is the value of the resulting wavefunction?"
   type: multiple-choice
   options:
     - "Double the amplitude of the single-occupancy case, since both electrons contribute"

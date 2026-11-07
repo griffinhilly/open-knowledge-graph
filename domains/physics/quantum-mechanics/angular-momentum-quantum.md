@@ -25,7 +25,7 @@ status: validated
 # Quantum Angular Momentum
 
 ## Core Idea
-Quantum angular momentum operators L̂ₓ, L̂ᵧ, L̂ᵧ satisfy canonical commutation relations [L̂ᵢ, L̂ⱼ] = iℏεᵢⱼₖL̂ₖ. The total angular momentum squared L̂² commutes with each component, so L̂² and one component (typically L̂ᵧ) can be simultaneously diagonalized. Eigenvalues of L̂ᵧ are mℏ where m = -l, -l+1, …, l-1, l and l is the angular momentum quantum number.
+Quantum angular momentum operators L̂ₓ, L̂ᵧ, L̂_z satisfy the angular momentum commutation relations [L̂ᵢ, L̂ⱼ] = iℏεᵢⱼₖL̂ₖ. The total angular momentum squared L̂² commutes with each component, so L̂² and one component (typically L̂_z) can be simultaneously diagonalized. Eigenvalues of L̂_z are mℏ where m = -l, -l+1, …, l-1, l and l is the angular momentum quantum number.
 
 ## How It's Best Learned
 Build the 3×3 matrices for L̂ₓ, L̂ᵧ and L̂_z in the l = 1 basis |1,1⟩, |1,0⟩, |1,−1⟩ using the ladder operators. Check [L̂ₓ, L̂ᵧ] = iℏL̂_z by multiplying them out, and check that L̂² comes out as 2ℏ² times the identity. Seeing the algebra hold in concrete matrices makes the abstract derivation easier to trust.

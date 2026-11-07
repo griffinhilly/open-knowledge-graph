@@ -58,10 +58,10 @@ Translate every expression into matrices for a two-state system. Write |ψ⟩ as
   answer: 1
   explanation: "⟨φ|Â|ψ⟩ is parsed as ⟨φ| acting on the vector Â|ψ⟩, giving their inner product — a complex number. This is a single matrix element of Â in the {|φ⟩, |ψ⟩} basis. Option C describes ⟨ψ|Â|ψ⟩ (same state on both sides), which is the expectation value. Option A conflates matrix elements with transition probabilities, which involve |⟨φ|ψ⟩|² not ⟨φ|Â|ψ⟩."
 
-- question: "The bra ⟨ψ| is simply the ket |ψ⟩ written in an alternative notation — they contain the same mathematical information."
+- question: "The bra ⟨ψ| is simply the ket |ψ⟩ written in an alternative notation — they are the same kind of mathematical object."
   type: true-false
   answer: false
-  explanation: "The bra ⟨ψ| is the conjugate transpose of the ket |ψ⟩. For complex-valued vectors (which quantum states generally are), this involves taking the complex conjugate of every component. The relation ⟨ψ|φ⟩ = ⟨φ|ψ⟩* shows the asymmetry: swapping bra and ket conjugates the result. If the state were purely real, ket and bra would contain identical information — but quantum mechanics requires complex amplitudes, so the conjugate transpose is a genuinely different object."
+  explanation: "The bra ⟨ψ| is a different kind of object: it is a dual vector, a linear map that takes any ket |φ⟩ to the number ⟨ψ|φ⟩. In components it is the conjugate transpose of the ket, a row of complex-conjugated entries rather than a column. Each ket fixes exactly one bra and each bra fixes exactly one ket (the Riesz representation theorem), so the pair carries the same information. But the correspondence is antilinear: the bra of c|ψ⟩ is c*⟨ψ|, and swapping bra and ket conjugates an inner product, ⟨ψ|φ⟩ = ⟨φ|ψ⟩*."
 
 - question: "The inner product ⟨φ|ψ⟩ in Dirac notation is the abstract generalization of the familiar dot product to complex Hilbert spaces."
   type: true-false

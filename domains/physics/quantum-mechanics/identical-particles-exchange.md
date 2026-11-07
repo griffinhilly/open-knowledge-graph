@@ -51,7 +51,7 @@ Take two one-particle states ψ_a and ψ_b of opposite parity in an infinite squ
     - "Their wavefunction must be zero if they occupy the same state, by Pauli exclusion"
     - "The exchange symmetry requirement does not apply to composite particles"
   answer: 1
-  explanation: "Bosons have integer spin and require symmetric wavefunctions: Ψ(r₂, r₁) = +Ψ(r₁, r₂). Symmetry does not exclude identical-state occupation — in fact, the probability amplitude for two bosons in the same state is *enhanced* by a factor of √2 compared to distinguishable particles. This is the origin of stimulated emission (photons), laser action, and Bose-Einstein condensation. The Pauli exclusion principle applies only to fermions; for bosons the situation is the opposite — they prefer to pile into the same state."
+  explanation: "Bosons have integer spin and require symmetric wavefunctions: Ψ(r₂, r₁) = +Ψ(r₁, r₂). Symmetry does not exclude identical-state occupation — in fact, occupation is *enhanced*: the probability for a boson to enter a state already holding n identical bosons is larger by a factor n + 1 (amplitude √(n+1)), so a second boson is twice as likely to join a state that already holds one. This is the origin of stimulated emission (photons), laser action, and Bose-Einstein condensation. The Pauli exclusion principle applies only to fermions; for bosons the situation is the opposite — they prefer to pile into the same state."
 
 - question: "The Pauli exclusion principle is a consequence of the antisymmetry requirement for fermionic wavefunctions under particle exchange — it does not need to be introduced as a separate postulate."
   type: true-false

@@ -54,7 +54,7 @@ Start with a 2×2 Hamiltonian, diagonal entries E₁ and E₂ and off-diagonal c
     - "The matrix element ⟨m^(0)|H'|n^(0)⟩ and the inverse of the energy gap; large matrix element and small gap means strong mixing"
     - "The population of state m in thermal equilibrium at the system temperature"
   answer: 2
-  explanation: "The mixing coefficient for state m into the corrected state n is ⟨m^(0)|H'|n^(0)⟩ / (E_n^(0) − E_m^(0)). Two factors matter: (1) The matrix element must be nonzero — if symmetry (a selection rule) forbids ⟨m|H'|n⟩, that state contributes nothing. (2) The energy denominator E_n − E_m must be large — states nearly degenerate with state n (small denominator) mix in most strongly, and the formula actually diverges when the gap goes to zero, signaling the breakdown of non-degenerate perturbation theory."
+  explanation: "The mixing coefficient for state m into the corrected state n is ⟨m^(0)|H'|n^(0)⟩ / (E_n^(0) − E_m^(0)). Two factors matter: (1) The matrix element must be nonzero — if symmetry (a selection rule) forbids ⟨m|H'|n⟩, that state contributes nothing. (2) The energy denominator E_n − E_m sets the strength: the smaller the gap, the stronger the mixing — states nearly degenerate with state n (small denominator) mix in most strongly, and the formula actually diverges when the gap goes to zero, signaling the breakdown of non-degenerate perturbation theory."
 
 - question: "If the matrix element ⟨m^(0)|H'|n^(0)⟩ = 0 for all m ≠ n due to a symmetry selection rule, then the first-order correction to the state |ψ_n⟩ vanishes."
   type: true-false

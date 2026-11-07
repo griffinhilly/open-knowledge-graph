@@ -64,7 +64,7 @@ Do the full set of integrals for the ground state of an infinite square well of 
   answer: false
   explanation: "Quantum mechanical uncertainty is a property of the *state*, not of the measuring apparatus. ΔA = √(⟨A²⟩ − ⟨A⟩²) is computed from the wavefunction and tells you the intrinsic spread in outcomes for that state, even with a perfect measurement device. An eigenstate has ΔA = 0 regardless of the apparatus; a superposition has ΔA > 0 regardless of how good the instrument is. The Heisenberg uncertainty principle ΔxΔp ≥ ℏ/2 is a statement about states, not about experimental limitations."
 
-- question: "Ehrenfest's theorem shows that the expectation values of position and momentum obey Newton's second law, which is why macroscopic objects follow classical trajectories even though they obey quantum mechanics."
+- question: "Ehrenfest's theorem shows that, for a wavepacket narrow compared with the distance over which the force changes, the expectation values of position and momentum approximately obey Newton's second law, which is why macroscopic objects follow classical trajectories even though they obey quantum mechanics."
   type: true-false
   answer: true
   explanation: "Ehrenfest's theorem states d⟨x⟩/dt = ⟨p⟩/m and d⟨p⟩/dt = −⟨∂V/∂x⟩. When a wavepacket is narrow enough that the potential varies slowly across it, ⟨∂V/∂x⟩ ≈ (∂V/∂x)|_{⟨x⟩}, and the quantum equations reduce to the classical F = ma. Macroscopic objects have extremely narrow wavefunctions relative to the scales over which forces vary, so their expectation values track the classical trajectory with negligible spread. This is the quantum-classical correspondence: quantum mechanics reduces to classical mechanics in the appropriate limit."

@@ -16,7 +16,7 @@ status: validated
 # WKB Quantization and Bohr-Sommerfeld Rule
 
 ## Core Idea
-WKB quantization: ∮ p(x) dx = (n + ½)πℏ (Bohr-Sommerfeld rule) for bound states between classical turning points. Reproduces harmonic oscillator and hydrogen spectra to leading order.
+WKB quantization: ∮ p(x) dx = (n + ½)h = 2πℏ(n + ½) (Bohr-Sommerfeld rule) for bound states between classical turning points. Reproduces harmonic oscillator and hydrogen spectra to leading order.
 
 ## How It's Best Learned
 Apply the one-way form, ∫ p dx from x₁ to x₂ = (n + ½)πℏ, to the harmonic oscillator. The integral is half the area of an ellipse, πE/ω, so Eₙ = (n + ½)ℏω drops out. Then redo a box with hard walls, where the wall phase differs, and recover the exact box energies. Finally, compare the rule with a numerical solution for an anharmonic well.
@@ -29,7 +29,7 @@ Apply the one-way form, ∫ p dx from x₁ to x₂ = (n + ½)πℏ, to the harmo
 ## Questions
 
 ```yaml
-- question: "Using the Bohr-Sommerfeld rule ∮ p dx = (n + ½)πℏ, what is the ground-state energy (n=0) of a harmonic oscillator with angular frequency ω?"
+- question: "Using the Bohr-Sommerfeld rule ∮ p dx = (n + ½)h, what is the ground-state energy (n=0) of a harmonic oscillator with angular frequency ω?"
   type: multiple-choice
   options:
     - "0 — no energy at the lowest quantum state"
@@ -37,9 +37,9 @@ Apply the one-way form, ∫ p dx from x₁ to x₂ = (n + ½)πℏ, to the harmo
     - "ℏω — one full quantum of energy"
     - "The rule cannot be applied to a harmonic oscillator"
   answer: 1
-  explanation: "With n=0, the rule gives ∮ p dx = ½πℏ = ½h, yielding E₀ = ℏω/2. This non-zero zero-point energy is a direct consequence of the ½ in the quantization condition. The original Bohr rule (∮ p dx = nh) with n=0 gives zero, which is wrong — it predicts the oscillator can be completely at rest, violating the uncertainty principle."
+  explanation: "With n=0, the rule gives ∮ p dx = ½h = πℏ. The orbit's phase-space area is 2πE/ω, so E₀ = ℏω/2. This non-zero zero-point energy is a direct consequence of the ½ in the quantization condition. The original Bohr rule (∮ p dx = nh) with n=0 gives zero, which is wrong — it predicts the oscillator can be completely at rest, violating the uncertainty principle."
 
-- question: "The ½ in the Bohr-Sommerfeld rule ∮ p dx = (n + ½)πℏ originates from which physical effect?"
+- question: "The ½ in the Bohr-Sommerfeld rule ∮ p dx = (n + ½)h originates from which physical effect?"
   type: multiple-choice
   options:
     - "The kinetic energy averaging over a half-cycle of the classical orbit"
@@ -52,7 +52,7 @@ Apply the one-way form, ∫ p dx from x₁ to x₂ = (n + ½)πℏ, to the harmo
 - question: "Bohr's original semiclassical quantization rule ∮ p dx = nh correctly predicts the harmonic oscillator energy spectrum."
   type: true-false
   answer: false
-  explanation: "Bohr's original rule predicts energies Eₙ = nℏω (with n = 1, 2, 3, ...) and incorrectly predicts zero ground-state energy for n = 0. The modern Bohr-Sommerfeld rule ∮ p dx = (n + ½)πℏ gives Eₙ = (n + ½)ℏω, which matches the exact quantum mechanical result. The ½ correction comes from phase shifts at the turning points — a quantum effect that the original Bohr model neglected."
+  explanation: "Bohr's original rule predicts energies Eₙ = nℏω (with n = 1, 2, 3, ...) and incorrectly predicts zero ground-state energy for n = 0. The modern Bohr-Sommerfeld rule ∮ p dx = (n + ½)h gives Eₙ = (n + ½)ℏω, which matches the exact quantum mechanical result. The ½ correction comes from phase shifts at the turning points — a quantum effect that the original Bohr model neglected."
 
 - question: "The WKB approximation breaks down near classical turning points because the semiclassical condition λ|dp/dx| ≪ p² is violated there."
   type: true-false
@@ -71,6 +71,6 @@ The WKB approximation gives the semiclassical wavefunction in a region where the
 
 Think of a classical particle bouncing back and forth between two **turning points** x₁ and x₂, where E = V(x) so p = 0. In one complete oscillation, the particle travels from x₁ to x₂ and back. For the wavefunction to be single-valued and well-behaved, the total accumulated phase must match up correctly after the round trip. Each turning point contributes an additional phase shift of π/2 (a quarter wavelength) due to the connection formulas that stitch the WKB solution across the classically forbidden region. Two turning points contribute a total of π/2 + π/2 = π, so the **Bohr-Sommerfeld rule** is: ∮ p dx = 2∫[x₁ to x₂] p(x) dx = (n + ½) · 2πℏ, or equivalently ∮ p dx = (n + ½)h.
 
-The **½ correction** — the Maslov index contribution — is what distinguishes the modern Bohr-Sommerfeld rule from Bohr's original semiclassical quantization, which used ∮ p dx = nh. The original rule gives the wrong zero-point energy for the harmonic oscillator (it predicts E₀ = 0 instead of ℏω/2) and incorrect spectra near the ground state. Adding the ½ accounts for the phase shifts at the turning points and correctly reproduces the harmonic oscillator energies Eₙ = (n + ½)ℏω for all n ≥ 0. For hydrogen, the WKB rule reproduces the Bohr formula Eₙ = −13.6 eV/n² to leading order, which is already exact because the Coulomb potential happens to have special symmetry.
+The **½ correction** — the Maslov index contribution — is what distinguishes the modern Bohr-Sommerfeld rule from Bohr's original semiclassical quantization, which used ∮ p dx = nh. The original rule gives the wrong zero-point energy for the harmonic oscillator (it predicts E₀ = 0 instead of ℏω/2) and incorrect spectra near the ground state. Adding the ½ accounts for the phase shifts at the turning points and correctly reproduces the harmonic oscillator energies Eₙ = (n + ½)ℏω for all n ≥ 0. For hydrogen, the radial WKB rule reproduces the exact Bohr formula Eₙ = −13.6 eV/n² once the centrifugal term l(l+1) is replaced by (l + ½)² (the Langer correction); without that replacement the WKB levels are only approximate.
 
 The power of the rule is practical: to find the allowed energies of a complicated potential, you do not need to solve the Schrödinger equation exactly. Instead, sketch p(x) = √(2m(E−V(x))) as a function of x for a trial energy E, and compute the integral ∫p dx numerically between the turning points. Sweep E until the integral equals (n + ½)πℏ. This technique works whenever the de Broglie wavelength varies slowly compared to the scale over which p itself changes — the **semiclassical condition** λ · |dp/dx| ≪ p² — and breaks down near turning points and at very low quantum numbers where the quantum corrections are large.

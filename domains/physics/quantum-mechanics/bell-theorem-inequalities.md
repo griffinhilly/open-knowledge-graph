@@ -17,7 +17,7 @@ status: validated
 # Bell Theorem and Bell Inequalities
 
 ## Core Idea
-Bell's theorem proves that no local hidden variable theory can reproduce quantum mechanical predictions for entangled states. Bell inequalities give bounds on correlations in any local realistic theory; quantum mechanics violates these bounds. Experiments have confirmed quantum predictions, ruling out local hidden variables. This settles the foundational debate about completeness of quantum mechanics.
+Bell's theorem proves that no local hidden variable theory can reproduce quantum mechanical predictions for entangled states. Bell inequalities give bounds on correlations in any local realistic theory; quantum mechanics violates these bounds. Experiments have confirmed quantum predictions, ruling out local hidden variables. This does not by itself settle whether quantum mechanics is complete: nonlocal hidden-variable theories, such as Bohmian mechanics, remain possible.
 
 ## How It's Best Learned
 Start with a three-setting toy model. Give each particle a card of preset answers, such as (+, −, +), for three detector settings, with the pair always agreeing when the settings match. Enumerate every card and count how often the two detectors agree when settings are chosen at random. Then compare that floor of 5/9 with the quantum agreement rate of 1/2 when the three settings are 120° apart.

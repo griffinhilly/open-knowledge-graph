@@ -23,7 +23,7 @@ status: validated
 # Orbital Angular Momentum in Quantum Mechanics
 
 ## Core Idea
-Orbital angular momentum L⃗ = r⃗ × p⃗ is quantized with [L̂_i, L̂_j] = iℏ ε_{ijk} L̂_k. Only one component and magnitude are simultaneously measurable with eigenvalues ℏm_l and ℏ²l(l+1).
+Orbital angular momentum L⃗ = r⃗ × p⃗ is quantized with [L̂_i, L̂_j] = iℏ ε_{ijk} L̂_k. Only one component and magnitude are simultaneously measurable with eigenvalues ℏm_l and ℏ²l(l+1); the exception is l = 0, where all components are zero.
 
 ## How It's Best Learned
 Write L̂_z = −iℏ ∂/∂φ and apply it to e^{imφ} to get the eigenvalue and the single-valuedness condition in one step. Then derive [L̂_x, L̂_y] = iℏL̂_z from the position-space forms of the operators. For l = 1, draw the cone of length ℏ√2 around the z-axis at each of m = −1, 0 and +1, and compare each height with the length.
@@ -47,7 +47,7 @@ Write L̂_z = −iℏ ∂/∂φ and apply it to e^{imφ} to get the eigenvalue a
   answer: 2
   explanation: "For l = 2, m_l = 2: L_z = ℏ·2 = 2ℏ, but |L| = ℏ√(2·3) = ℏ√6 ≈ 2.45ℏ. Since L_z < |L|, the vector cannot be fully along the z-axis — there must be components in x and y directions, which are genuinely indeterminate. This is a purely quantum effect with no classical counterpart. Classically, you could align a spinning object precisely with any axis; quantum mechanically, the non-commutativity of components prevents this."
 
-- question: "Why can only ONE component of the angular momentum vector be known precisely at a time in quantum mechanics?"
+- question: "For a state with l > 0, why can only ONE component of the angular momentum vector be known precisely at a time in quantum mechanics?"
   type: multiple-choice
   options:
     - "Only L_z has a well-defined mathematical operator; L_x and L_y are undefined"
@@ -55,7 +55,7 @@ Write L̂_z = −iℏ ∂/∂φ and apply it to e^{imφ} to get the eigenvalue a
     - "The angular momentum components do not commute: [L̂_x, L̂_y] = iℏL̂_z, so measuring one component disturbs the others"
     - "Electron spin interferes with orbital angular momentum measurement for all but the z-component"
   answer: 2
-  explanation: "The non-commutativity of L̂_x, L̂_y, L̂_z is the direct cause: [L̂_x, L̂_y] = iℏL̂_z (and cyclically). Two operators that don't commute cannot share a complete set of simultaneous eigenstates — so you cannot have a state where both L_x and L_y have definite values simultaneously. By contrast, L̂² commutes with each component ([L̂², L̂_z] = 0), so you CAN simultaneously know the total magnitude squared and one component."
+  explanation: "The non-commutativity of L̂_x, L̂_y, L̂_z is the direct cause: [L̂_x, L̂_y] = iℏL̂_z (and cyclically). Two operators that don't commute cannot share a complete set of simultaneous eigenstates. Here the only common eigenstates of L̂_x and L̂_y are those with l = 0 (if both are sharp, the commutator forces L_z = 0 too, and then all components vanish), so for l > 0 you cannot have a state where both L_x and L_y have definite values simultaneously. By contrast, L̂² commutes with each component ([L̂², L̂_z] = 0), so you CAN simultaneously know the total magnitude squared and one component."
 
 - question: "When l = 0, all three components L_x, L_y, and L_z are simultaneously zero and thus simultaneously well-defined, which is the only case where all components are simultaneously measurable."
   type: true-false
@@ -70,12 +70,12 @@ Write L̂_z = −iℏ ∂/∂φ and apply it to e^{imφ} to get the eigenvalue a
 - question: "Explain the key difference between knowing L_z and knowing the full angular momentum vector L⃗ for a quantum particle, and why this difference has no classical counterpart."
   type: short-answer
   answer: "Knowing L_z gives you the projection of angular momentum along the z-axis (ℏm_l) and the total magnitude (ℏ√(l(l+1))), but the x and y components are genuinely indeterminate — not merely unknown, but without definite values. The angular momentum vector cannot be fully specified in any direction simultaneously because the components don't commute. Classically, L⃗ has definite components in all three directions at once; quantum mechanically, this is forbidden by the algebra of the operators."
-  explanation: "This is a genuine departure from classical intuition, not just a measurement limitation. It's not that L_x and L_y are hidden from us — it's that the particle doesn't have simultaneous definite values for them. The angular momentum vector 'points' in an indeterminate direction within a cone around the z-axis, which is why the vector model of atomic orbitals shows L⃗ precessing around the z-axis rather than sitting still."
+  explanation: "This is a genuine departure from classical intuition, not just a measurement limitation. It's not that L_x and L_y are hidden from us — it's that the particle doesn't have simultaneous definite values for them. The angular momentum vector 'points' in an indeterminate direction within a cone around the z-axis, which is why the vector model of atomic orbitals draws L⃗ on a cone around the z-axis. The cone pictures the spread in L_x and L_y, not an actual precession: in an L_z eigenstate ⟨L_x⟩ = ⟨L_y⟩ = 0, and in a stationary state nothing changes in time."
 ```
 
 ## Explainer
 
-Classically, angular momentum is the vector L⃗ = r⃗ × p⃗: it has three components L_x, L_y, L_z, all of which you can know simultaneously. In quantum mechanics you can write the same formula using the corresponding operators, but the commutation relations your prerequisites introduced change everything. The key result is [L̂_x, L̂_y] = iℏL̂_z, and cyclically for the other pairs. Because no two components commute, only *one* component can have a definite value at a time. The conventional choice is L̂_z, measured in units of ℏ.
+Classically, angular momentum is the vector L⃗ = r⃗ × p⃗: it has three components L_x, L_y, L_z, all of which you can know simultaneously. In quantum mechanics you can write the same formula using the corresponding operators, but the commutation relations your prerequisites introduced change everything. The key result is [L̂_x, L̂_y] = iℏL̂_z, and cyclically for the other pairs. Because no two components commute, only *one* component can have a definite value at a time — except in the l = 0 state, where all three components are zero. The conventional choice is L̂_z, measured in units of ℏ.
 
 The magnitude-squared operator L̂² = L̂_x² + L̂_y² + L̂_z² does commute with each individual component: [L̂², L̂_z] = 0. This is what allows you to simultaneously know the total magnitude and one component. The eigenvalues work out to |L|² = ℏ²l(l+1) and L_z = ℏm_l, where **l** (the orbital quantum number) is a non-negative integer and **m_l** (the magnetic quantum number) runs from −l to +l in integer steps, giving 2l+1 possible values. Notice that even when m_l = l (the "maximum alignment" case), L_z = ℏl is always less than |L| = ℏ√(l(l+1)): the angular momentum vector can never be fully aligned with any axis, a purely quantum effect.
 
