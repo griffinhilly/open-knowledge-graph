@@ -1,0 +1,78 @@
+domains/mathematics/numerical-analysis/chebyshev-nodes.md	how	6	0	ok	worked: omega=x^3-x peaks 0.385 at x=0.577; nodes 0,+-sqrt3/2 give x^3-3x/4 with max 0.25
+domains/mathematics/numerical-analysis/chebyshev-nodes.md	mis	8	0	ok
+domains/mathematics/numerical-analysis/chebyshev-nodes.md	old:ex	1	1	fixed	Explainer called T_n itself monic; T_n has leading coeff 2^(n-1), the monic minimax polynomial is T_n/2^(n-1)
+domains/mathematics/numerical-analysis/condition-number-of-a-matrix.md	how	4	0	ok	worked: x=y=1, then x=0,y=2; kappa_2 = 40002
+domains/mathematics/numerical-analysis/condition-number-of-a-matrix.md	mis	8	1	fixed	norm bullet: "1-,2-,inf-norm values differ by at most a factor of n" false for 1 vs inf (factor n^2, e.g. I plus ones in first row gives kappa_inf=n^2, kappa_1=4); restated as 1- and inf-norm each within factor n of the 2-norm value
+domains/mathematics/numerical-analysis/condition-number.md	how	5	0	ok	worked: kappa(1.001)=1001, relative change 1.001e-3; kappa(5)=1.25
+domains/mathematics/numerical-analysis/condition-number.md	mis	8	0	ok	note: "small derivative" bullet uses f'=1, which is modest rather than small; correction still true
+domains/mathematics/numerical-analysis/contraction-mapping.md	how	5	0	ok	worked: cos iterates 1, 0.5403, 0.8576, 0.6543, 0.7935 -> 0.739; sin 1 = 0.841
+domains/mathematics/numerical-analysis/contraction-mapping.md	mis	6	0	ok	note (old, not changed): Q3 explanation says L=1 "is an isometry" (L=1 maps need not be isometries); old Q4 explanation uses "load-bearing"
+domains/mathematics/numerical-analysis/cubic-spline-interpolation.md	how	6	0	ok	worked: 4M1=-12, M1=-3; S=1.5x-0.5x^3, S(1)=1, S'(1)=0, S''(1)=-3
+domains/mathematics/numerical-analysis/cubic-spline-interpolation.md	mis	6	0	ok
+domains/mathematics/numerical-analysis/cubic-spline-interpolation.md	old:ex	1	1	fixed	Explainer counted "4n-3 constraints" with garbled reasoning; corrected to 4n coefficients vs 4n-2 equations (matches Q4 answer)
+domains/mathematics/numerical-analysis/euler-method-error-analysis.md	how	10	0	ok	worked: 1.5^2=2.25, 1.25^4=2.4414, 1.125^8=2.5658; errors 0.468, 0.277, 0.152; one-step 0.1487, 0.0340
+domains/mathematics/numerical-analysis/euler-method-error-analysis.md	mis	6	0	ok
+domains/mathematics/numerical-analysis/euler-method-error-analysis.md	old:q:0:explanation	1	1	fixed	called classical Runge-Kutta a second-order method; replaced example with midpoint/Heun
+domains/mathematics/numerical-analysis/fixed-point-iteration.md	how	5	0	ok	worked: 1, 1.25, 1.359375, 1.3974; error ratios 0.40, 0.33, 0.31 toward 0.293
+domains/mathematics/numerical-analysis/fixed-point-iteration.md	mis	6	1	fixed	bullet 1 absolutes: "every rearrangement has the same fixed point" (they can gain extra ones) and "only |g'|<1 attract" (|g'|=1 can still attract, e.g. sin x at 0); reworded to x* is a fixed point, <1 guarantees, >1 repels
+domains/mathematics/numerical-analysis/fixed-point-iteration.md	old:ex	1	1	fixed	Explainer rearrangement x = x^2 - x + 2 is not equivalent to x^2-2=0 (no real fixed point); corrected to g(x) = -x^2 + x + 2 with |1-2sqrt2| = 1.83
+domains/mathematics/numerical-analysis/floating-point-representation-numerical-analysis.md	how	6	0	ok	worked: -6.5 = -1.101b x 2^2, exponent 1025; toy format gaps 0.25, 0.5, 1
+domains/mathematics/numerical-analysis/floating-point-representation-numerical-analysis.md	mis	8	0	ok
+domains/mathematics/numerical-analysis/gauss-seidel-method.md	how	5	0	ok	worked: GS (0.75, 0.9375), (0.984375, 0.99609375); Jacobi (0.75,0.75), (0.9375,0.9375)
+domains/mathematics/numerical-analysis/gauss-seidel-method.md	mis	6	0	ok
+domains/mathematics/numerical-analysis/gauss-seidel-method.md	old:q:3:explanation	1	1	fixed	said diagonal dominance is "the more general condition" with SPD "a special case"; SPD matrices need not be diagonally dominant; restated as two separate sufficient conditions
+domains/mathematics/numerical-analysis/gaussian-elimination-with-pivoting.md	how	6	0	ok	worked: -9999 and -9998 both round to -1.00e4 -> y=1, x=0; pivoted gives (1,1); true (1.0001, 0.9999)
+domains/mathematics/numerical-analysis/gaussian-elimination-with-pivoting.md	mis	8	0	ok
+domains/mathematics/numerical-analysis/gaussian-elimination-with-pivoting.md	old:q:1	1	1	fixed	answer option and explanation said with |m|<=1 errors "are not amplified - can only stay the same or shrink"; contradicts 2^(n-1) growth factor (new mis bullet 2); softened to "limits" growth; same overclaim in Explainer sentence also softened
+domains/mathematics/numerical-analysis/gaussian-quadrature.md	how	6	0	ok	worked: nodes +-1/sqrt3; x^3+x^2 -> 2/3 exact; x^4 -> 2/9 vs 2/5
+domains/mathematics/numerical-analysis/gaussian-quadrature.md	mis	6	0	ok
+domains/mathematics/numerical-analysis/interpolation-error-analysis.md	how	5	0	ok	worked: max|omega| = pi^3/(12 sqrt3) = 1.492, bound 0.249; P(pi/4)=0.75, error 0.0429
+domains/mathematics/numerical-analysis/interpolation-error-analysis.md	mis	6	0	ok	checked |f^(n)(0)| = n! 5^n for even n from the series sum (-25)^k x^(2k)
+domains/mathematics/numerical-analysis/jacobi-iterative-method.md	how	9	0	ok	worked: (1.667,2.5), (0.833,1.667), (1.111,2.083); reordered (5,5), (-5,-10), (25,20); eigenvalues +-sqrt6
+domains/mathematics/numerical-analysis/jacobi-iterative-method.md	mis	6	0	ok
+domains/mathematics/numerical-analysis/lagrange-polynomial-interpolation.md	how	5	0	ok	worked: basis polys correct; 1L0+3L1+7L2 = x^2+x+1
+domains/mathematics/numerical-analysis/lagrange-polynomial-interpolation.md	mis	6	0	ok
+domains/mathematics/numerical-analysis/lagrange-polynomial-interpolation.md	old:core	1	1	fixed	Core Idea said Lagrange form "becomes numerically unstable" when adding points; recomputation is a cost issue, not instability; changed to "costly to update"
+domains/mathematics/numerical-analysis/lagrange-polynomial-interpolation.md	old:format	1	1	fixed	Explainer sat before Questions; moved Explainer to the end (text unchanged)
+domains/mathematics/numerical-analysis/lu-decomposition-numerical-numerical-analysis.md	how	7	0	ok	worked: L=[[1,0],[3,1]], U=[[2,1],[0,1]]; b=(3,10): y=(3,1), x=(1,1); b=(1,2): y=(1,-1), x=(1,-1)
+domains/mathematics/numerical-analysis/lu-decomposition-numerical-numerical-analysis.md	mis	6	0	ok
+domains/mathematics/numerical-analysis/machine-epsilon.md	how	4	0	ok	checked ties-to-even: 1+2^-53 -> 1, so loop stops at 2^-52; grouping example correct
+domains/mathematics/numerical-analysis/machine-epsilon.md	mis	6	0	ok	checked gap near 1e12 = 2^-13 = 1.2e-4
+domains/mathematics/numerical-analysis/multistep-methods-adams.md	how	5	0	ok	worked: AB2 1.2209467, AM (5,8,-1)/12 form 1.2213885; errors 4.56e-4, 1.42e-5
+domains/mathematics/numerical-analysis/multistep-methods-adams.md	mis	6	0	ok
+domains/mathematics/numerical-analysis/newton-cotes-formulas.md	how	4	0	ok	worked: x^3 -> 0.25 exact; x^4 -> 1.25/6 = 0.2083
+domains/mathematics/numerical-analysis/newton-cotes-formulas.md	mis	6	0	ok
+domains/mathematics/numerical-analysis/newton-cotes-formulas.md	old:q:3:explanation	1	1	fixed	named Simpson's 3/8 rule as the degree-4 formula; it is degree 3; degree 4 is Boole's rule
+domains/mathematics/numerical-analysis/newton-cotes-formulas.md	old:q:0:explanation	1	1	fixed	explanation attributed the adaptive-step distractor to option A; adaptive is option C, A is effective-degree doubling
+domains/mathematics/numerical-analysis/numerical-differentiation.md	how	3	0	ok	worked: (e^0.1-1)/0.1 = 1.05171, error 0.0517
+domains/mathematics/numerical-analysis/numerical-differentiation.md	mis	6	0	ok
+domains/mathematics/numerical-analysis/numerical-stability.md	how	6	0	ok	checked max term 20^20/20! = 4.3e7, e^-20 = 2.06e-9, kappa = 20
+domains/mathematics/numerical-analysis/numerical-stability.md	mis	6	0	ok	note (old, not changed): Q0 and Explainer call (x-2)^2 near x=2 well conditioned; true only in the absolute sense (relative kappa = 2|x|/|x-2| blows up)
+domains/mathematics/numerical-analysis/orthogonal-polynomials.md	how	6	0	ok	worked: x^2-1/3 and Chebyshev-weight x^2-1/2 (integrals pi, pi/2)
+domains/mathematics/numerical-analysis/orthogonal-polynomials.md	mis	6	0	ok
+domains/mathematics/numerical-analysis/power-method-eigenvalues.md	how	5	0	ok	worked: RQ 14/5=2.8, 122/41=2.9756, 1094/365=2.9973; error ratios 8.2, 8.9
+domains/mathematics/numerical-analysis/power-method-eigenvalues.md	mis	6	1	fixed	"if two eigenvalues tie for largest magnitude the iterates keep oscillating" is false for a repeated eigenvalue (converges into the eigenspace); added "different"
+domains/mathematics/numerical-analysis/power-method-eigenvalues.md	old:ex	1	1	fixed	Explainer said Rayleigh quotient "converges quadratically"; for the power method it converges linearly at rate |l2/l1|^2 (symmetric case); quadratic/cubic is Rayleigh quotient iteration
+domains/mathematics/numerical-analysis/qr-algorithm.md	how	5	0	ok	worked: A1=[[2.8,0.6],[0.6,1.2]]; A2=[[2.9756,0.2195],[0.2195,1.0244]]; det 3.000
+domains/mathematics/numerical-analysis/qr-algorithm.md	mis	6	0	ok
+domains/mathematics/numerical-analysis/qr-algorithm.md	old:core	1	1	fixed	Core Idea said Schur form is "upper triangular for real matrices"; real matrices with complex eigenvalues give block (quasi-) triangular form
+domains/mathematics/numerical-analysis/richardson-extrapolation.md	how	6	0	ok	worked: D(0.2)=1.0066800, D(0.1)=1.0016675, combo 0.99999666; -h^4/480 = -3.33e-6
+domains/mathematics/numerical-analysis/richardson-extrapolation.md	mis	6	0	ok
+domains/mathematics/numerical-analysis/richardson-extrapolation.md	old:q:2:explanation	1	1	fixed	claimed simply using step h/2 "achieves the same O(h^2) error"; A(h/2) is still O(h)
+domains/mathematics/numerical-analysis/romberg-integration.md	how	5	0	ok	worked: T = 1.859141, 1.753931, 1.727222; col1 1.718861 (= Simpson h=1/2), 1.718319; col2 1.718283
+domains/mathematics/numerical-analysis/romberg-integration.md	mis	6	0	ok
+domains/mathematics/numerical-analysis/rounding-errors.md	how	3	0	ok	worked 4-digit sums: 1000 vs 1002
+domains/mathematics/numerical-analysis/rounding-errors.md	mis	6	0	ok
+domains/mathematics/numerical-analysis/runge-kutta-methods.md	how	4	0	ok	worked: k = 1, 1.05, 1.0525, 1.10525; y1 = 1.105170833
+domains/mathematics/numerical-analysis/runge-kutta-methods.md	mis	6	0	ok
+domains/mathematics/numerical-analysis/runges-phenomenon.md	how	2	0	ok
+domains/mathematics/numerical-analysis/runges-phenomenon.md	mis	6	0	ok
+domains/mathematics/numerical-analysis/runges-phenomenon.md	old:core	1	1	fixed	Core Idea gave 1/(1+x^2) with no interval; on [-1,1] it does not show Runge's phenomenon; added Runge's interval [-5,5]
+domains/mathematics/numerical-analysis/secant-method.md	how	4	0	ok	worked: 4/3, 1.4, 1.4146341, 1.4142114; errors 0.081, 0.0142, 4.2e-4, 2.1e-6; e(n+1)/(e(n) e(n-1)) -> 0.354 = 1/(2 sqrt2)
+domains/mathematics/numerical-analysis/secant-method.md	mis	6	0	ok
+domains/mathematics/numerical-analysis/secant-method.md	old:q:1	1	1	fixed	stem said derivative is expensive while keyed answer (Newton) reasons from a "cheap derivative"; explanation also claimed Newton wins when f and f' cost the same (false: two secant steps multiply digits by 2.6 vs Newton's 2). Stem changed to cheap derivative; equal-cost claim corrected
+domains/mathematics/numerical-analysis/secant-method.md	old:q:4:explanation	1	1	fixed	claimed one-previous-iterate methods generically have order 1 or 2 (Halley is order 3); replaced with a statement about Newton only
+domains/mathematics/numerical-analysis/secant-method.md	old:ex	1	1	fixed	same false equal-cost claim ("Newton's is usually faster") in Explainer; corrected
+domains/mathematics/numerical-analysis/stability-regions-ode.md	how	5	0	ok	worked: 1-2.5=-1.5; 1/3.5=0.286; e^-2.5=0.082
+domains/mathematics/numerical-analysis/stability-regions-ode.md	mis	6	0	ok
+domains/mathematics/numerical-analysis/stability-regions-ode.md	old:format	1	1	fixed	Explainer sat before Questions; moved Explainer to the end (text unchanged)

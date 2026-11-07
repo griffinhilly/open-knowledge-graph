@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 If |fₙ(x)| ≤ Mₙ for all x in a set S and all n, and if ∑Mₙ converges, then ∑fₙ(x) converges uniformly on S. This is the workhorse for proving uniform convergence of series without explicit calculation. It applies to power series, Fourier series, and integral representations.
 
+## How It's Best Learned
+Take Mₙ = sup_{x∈S} |fₙ(x)|, the smallest valid choice, and test whether ∑Mₙ converges. For ∑e^(−nx) on [1, ∞), Mₙ = e⁻ⁿ, a convergent geometric series. On (0, ∞), Mₙ = 1 and the test fails. There the sum 1/(eˣ − 1) is unbounded near 0, while the N-th partial sum is at most N, so the convergence is not uniform.
+
+## Common Misconceptions
+- If the M-test fails, the series does not converge uniformly. (The test is sufficient, not necessary. ∑(−1)ⁿxⁿ/n converges uniformly on [0, 1] by the alternating series bound on its tail, yet sup |fₙ| = 1/n and ∑1/n diverges.)
+- The bounds Mₙ may depend on x. (They must be constants. A bound that changes with x gives back only pointwise information.)
+- It is enough to find bounds Mₙ that tend to 0. (The series ∑Mₙ must converge. Mₙ = 1/n tends to 0 but ∑1/n diverges, so it proves nothing.)
+- A series that passes the M-test can be differentiated term by term. (∑sin(nx)/n² passes on ℝ with Mₙ = 1/n², but its derivative series ∑cos(nx)/n is the harmonic series at x = 0 and diverges. The standard theorem for term-by-term differentiation asks that the differentiated series converge uniformly.)
+
 ## Questions
 
 ```yaml
@@ -54,7 +63,7 @@ If |fₙ(x)| ≤ Mₙ for all x in a set S and all n, and if ∑Mₙ converges, 
 - question: "If a series of functions ∑fₙ(x) converges pointwise on a set S, the Weierstrass M-test can be applied to conclude it also converges uniformly."
   type: true-false
   answer: false
-  explanation: "Pointwise convergence and uniform convergence are genuinely different, and the M-test is not a bridge between them. Pointwise convergence means: for each fixed x, the partial sums eventually stay within ε of the limit — but the required N may depend on x. Uniform convergence requires a single N that works for all x. The M-test establishes uniform convergence directly (without going through pointwise convergence); it cannot be applied to series merely because they converge pointwise. The classic counterexample ∑_{n} fₙ(x) = x^n on [0,1] converges pointwise but not uniformly."
+  explanation: "Pointwise convergence and uniform convergence are genuinely different, and the M-test is not a bridge between them. Pointwise convergence means: for each fixed x, the partial sums eventually stay within ε of the limit — but the required N may depend on x. Uniform convergence requires a single N that works for all x. The M-test establishes uniform convergence directly (without going through pointwise convergence); it cannot be applied to series merely because they converge pointwise. The classic counterexample ∑_{n} fₙ(x) = x^n on [0,1) converges pointwise but not uniformly."
 
 - question: "Why is pointwise convergence insufficient for swapping limits with integration or differentiation, and how does the Weierstrass M-test restore these properties?"
   type: short-answer
@@ -68,7 +77,7 @@ From your study of uniform convergence, you know that a series of functions ∑f
 
 The proof uses comparison with the tail of ∑Mₙ. For any ε > 0, the convergence of ∑Mₙ guarantees that the tail ∑_{n=N+1}^∞ Mₙ < ε for large enough N. But then the tail of the function series satisfies |∑_{n=N+1}^∞ fₙ(x)| ≤ ∑_{n=N+1}^∞ |fₙ(x)| ≤ ∑_{n=N+1}^∞ Mₙ < ε for *every* x in S simultaneously. That uniform bound is exactly what uniform convergence requires — the same N works everywhere, not just pointwise. This is why the test is so useful: you delegate the convergence question to a numerical series, where you already have many tools.
 
-A standard application is the power series ∑xⁿ/n². On the closed interval [−1, 1], you have |xⁿ/n²| ≤ 1/n², and ∑1/n² = π²/6 converges. So the M-test immediately gives uniform convergence on [−1, 1]. You did not have to track how the partial sums behave as x varies — the constants did all the work. Once uniform convergence is established, you can swap limits with integration or pass differentiation through the sum, conclusions that would not be valid from mere pointwise convergence alone.
+A standard application is the power series ∑xⁿ/n². On the closed interval [−1, 1], you have |xⁿ/n²| ≤ 1/n², and ∑1/n² = π²/6 converges. So the M-test immediately gives uniform convergence on [−1, 1]. You did not have to track how the partial sums behave as x varies — the constants did all the work. Once uniform convergence is established, you can swap limits with integration, a conclusion that would not be valid from mere pointwise convergence alone. Passing differentiation through the sum needs more: the standard theorem asks that the differentiated series also converge uniformly. Here it does not, since ∑xⁿ⁻¹/n diverges at x = 1.
 
 The test is sufficient but not necessary: a series can converge uniformly even when no suitable sequence of constants Mₙ exists with ∑Mₙ convergent. When the M-test fails, uniform convergence may still hold by more delicate arguments (Dirichlet's test, Abel's test). But in practice — especially for power series inside the radius of convergence, and for Fourier series with summable coefficient sequences — the M-test is almost always the first tool to reach for. Its elegance lies in translating a functional analysis problem (uniform convergence of functions) into a classical analysis problem (convergence of a numerical series) where comparison, ratio, and integral tests all apply.
 

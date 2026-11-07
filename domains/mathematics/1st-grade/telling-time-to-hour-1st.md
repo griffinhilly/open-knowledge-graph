@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Students learn to read analog clock faces and identify the time when the minute hand points to 12. Understanding that the hour hand indicates which hour and that it moves continuously helps develop time sense. This is a practical skill used daily.
 
+## How It's Best Learned
+Use a geared practice clock, where turning the long hand also moves the short hand. Start at 12:00 and have the learner turn the long hand one full lap while watching the short hand creep from 12 to 1. Stop at 1:00 and say "one o'clock." Repeat lap by lap, then reverse roles: you name an hour and the learner sets the clock.
+
+## Common Misconceptions
+- The long hand tells the hour because it is the bigger hand. (The short hand tells the hour. The long hand tells the minutes, and at the start of each hour it points to 12.)
+- At 3:00 the clock reads "3:12" because the hands point to 3 and 12. (The 12 under the long hand means zero minutes have passed, so the time is 3:00.)
+- The hour hand jumps from one number to the next. (It moves slowly and steadily the whole hour. It sits right on a number only when the long hand is at 12.)
+
 ## Questions
 
 ```yaml
@@ -41,7 +49,7 @@ Students learn to read analog clock faces and identify the time when the minute 
   type: multiple-choice
   options:
     - "The hour hand moves faster than the minute hand and snaps to the nearest number"
-    - "The hour hand only steps to the next number after the minute hand completes one full trip around the clock"
+    - "The hour hand takes one full trip of the minute hand around the clock to move from one number to the next"
     - "Both hands always point to the same number when the time is on the hour"
     - "The hour hand points to 12 at every full hour and resets"
   answer: 1
@@ -69,6 +77,6 @@ A clock has two hands that each tell you something different. The **minute hand*
 
 The short hour hand tells you *which* hour it is. If it points at the 3, it's 3 o'clock. If it points at the 7, it's 7 o'clock. The hour hand moves very slowly — it takes a whole 60 minutes (one full trip of the minute hand around the clock) to move from one number to the next. So at the exact hour, the hour hand sits right on a number.
 
-Think of it like two workers on a track. The minute hand runs the full circle every hour — it's the fast worker. The hour hand barely moves — it's the slow worker who only steps to the next number after the minute hand completes a full lap. When the minute hand reaches 12 and you see the hour hand resting on a number, read that number and say "o'clock."
+Think of it like two workers on a track. The minute hand runs the full circle every hour — it's the fast worker. The hour hand barely moves — it's the slow worker who takes a full lap of the minute hand to creep to the next number. When the minute hand reaches 12 and you see the hour hand resting on a number, read that number and say "o'clock."
 
 If you've already practiced skip-counting by 5s, you know that the numbers on a clock are spaced 5 minutes apart. That skill will matter more when you learn to read minutes later. For now, the key ideas are: **long hand at 12 = top of the hour**, and the **short hand names the hour**. Practice by looking at clocks around you — on the wall, on a stove — and asking yourself: "Where is the long hand? Where is the short hand?" Those two questions answer the time.

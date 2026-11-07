@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 Counting from 1 to 100 builds fluency with the number sequence and reveals the pattern of tens (10, 20, 30, etc.). This skill is foundational for understanding place value and developing number sense. Students learn that numbers follow a predictable pattern, making it easier to work with larger numbers.
 
+## How It's Best Learned
+Count aloud while pointing to each number on a hundred chart. Pause at each decade change, like 29 to 30 and 59 to 60, since that is where most counting breaks down. Then ask the learner to read one column, such as 4, 14, 24, 34, and so on, to hear that the ones part repeats while the tens name changes.
+
+## Common Misconceptions
+- After 29 comes "twenty-ten." (After twenty-nine, the count moves to the next tens name: thirty.)
+- Each group of ten has new numbers that must be memorized. (The ones part, one through nine, repeats in each group. Only the tens name at the front changes.)
+- Fourteen and forty are the same number. (Fourteen is 14, one ten and four ones. Forty is 40, four tens and no ones.)
+
 ## Questions
 
 ```yaml

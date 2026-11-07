@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 In eukaryotes, transcription of protein-coding genes is initiated by RNA Polymerase II in response to transcription factor binding at promoter elements (TATA box, CAAT box, GC box) and enhancers. Chromatin structure, mediated by histones and nucleosomes, suppresses transcription through repressive marks (H3K27me3) and activates transcription through permissive marks (H3K4me3, H3K9ac). The Mediator complex bridges transcription factors to RNA Pol II. Transcription is dynamic and subject to regulation at multiple levels: chromatin remodeling, transcription factor availability, and RNA Pol II pausing and elongation control.
 
+## How It's Best Learned
+Draw a gene with a distant enhancer, a TATA box about 25–30 bp upstream of the start site, and a loop of DNA that brings an enhancer-bound activator next to Mediator and Pol II. Add the general factors in assembly order: TFIID, TFIIA, TFIIB, TFIIF with Pol II, TFIIE, TFIIH. Then predict the effect of three changes: delete the TATA box, delete the enhancer, block histone acetylation.
+
+## Common Misconceptions
+- RNA Pol II finds and binds the promoter on its own. (General transcription factors locate the promoter first, starting with TFIID; Pol II arrives escorted by TFIIF.)
+- Once the pre-initiation complex is assembled, the gene runs at full rate. (The complex alone gives low basal transcription; activators on enhancers, working through Mediator, raise it to high levels.)
+- An enhancer must sit just upstream of the gene it controls. (Enhancers can be far upstream, downstream or inside introns, and they act by DNA looping that brings their bound activators near the promoter.)
+- Every eukaryotic promoter has a TATA box. (Many promoters lack one, and the general machinery assembles on other core promoter elements instead.)
+
 ## Questions
 
 ```yaml

@@ -29,6 +29,14 @@ status: validated
 ## Core Idea
 Tally marks are a system for recording data quickly and organizing it for counting. Students use one mark for each item and group marks in fives (with a diagonal line through four marks) to make counting easier.
 
+## How It's Best Learned
+Run a live class survey, such as "What is your favorite pet: dog, cat or fish?" The learner makes one tally mark as each child answers and draws the fifth mark across the first four the moment it happens. Afterward, they count each row by fives and then add the leftover marks. Comparing this with a plain row of 17 lines shows how much faster the bundles are to count.
+
+## Common Misconceptions
+- A bundle of five is five straight lines with a sixth line across them. (The fifth mark is the line across the first four, so a bundle has five marks in total.)
+- Bigger or more important items get more than one mark. (Each item gets one mark, no matter its size, color or type.)
+- You draw all the straight lines first and add the crossing lines at the end. (Each fifth mark is drawn across the four before it as soon as it is recorded. This keeps the bundles correct while you count.)
+
 ## Questions
 
 ```yaml
@@ -57,7 +65,7 @@ Tally marks are a system for recording data quickly and organizing it for counti
   answer: true
   explanation: "Yes — four straight lines plus a diagonal crossing them form a bundle you can recognize instantly as five. When you have many items, you count the bundles (5, 10, 15...) and add the leftover singles. This is much faster than counting individual marks one by one, especially when you have 20 or 30 or more items."
 
-- question: "You should write down most your tally marks first, then go back and make the diagonal lines through most fourth mark."
+- question: "You should write down all your tally marks first, then go back and make a diagonal line through every fourth mark."
   type: true-false
   answer: false
   explanation: "The diagonal line is made on the FIFTH mark — as you record each item, you make four straight lines, then the fifth gets drawn as a diagonal through all four. The grouping happens as you collect data in real time, not afterward. Trying to add diagonals afterward creates the opportunity to miscount which marks belong to which group."

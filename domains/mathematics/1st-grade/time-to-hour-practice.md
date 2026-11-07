@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 Reading an analog clock when the minute hand points to 12: the hour hand tells the hour (1 o'clock, 2 o'clock, etc.). Understanding that the hour hand is shorter and the minute hand is longer, and what position means '12,' are key.
 
+## How It's Best Learned
+Work in pairs with a practice clock and a stack of cards from 1 o'clock to 12 o'clock. One learner draws a card and sets the clock, and the partner checks it with the two-step check: long hand at 12, then read the short hand. Mix in a few clocks that are not on the hour, such as 12:15 with the long hand at 3, so the learner practices saying "not o'clock yet."
+
+## Common Misconceptions
+- The long hand shows the hour, so long hand at 12 means 12 o'clock. (The long hand is the minute hand. At 12 it only signals an exact hour, and the short hand gives the hour.)
+- If the short hand points at a number, the time is that number o'clock, wherever the long hand is. (The time is exactly that hour only when the long hand points to 12.)
+- At 12 o'clock the clock looks wrong because both hands point to the same place. (At 12:00 both hands point to 12. The short hand still names the hour, which is 12.)
+
 ## Questions
 
 ```yaml
@@ -41,7 +49,7 @@ Reading an analog clock when the minute hand points to 12: the hour hand tells t
   answer: 1
   explanation: "When the long (minute) hand points to 12, it signals the start of a new hour. At that moment you read the short (hour) hand to get the time. The short hand at 8 means 8 o'clock. Option A is the classic confusion — the long hand at 12 is only a signal, not the hour number to read."
 
-- question: "A student looks at a clock and says 'the big hand is at 3 and the little hand is at 12, so it's 12 o'clock.' What mistake did the student make?"
+- question: "A student looks at a clock and says 'the big hand is at 12 and the little hand is at 3, so it's 12 o'clock.' What mistake did the student make?"
   type: multiple-choice
   options:
     - "No mistake — the student is correct"
@@ -49,7 +57,7 @@ Reading an analog clock when the minute hand points to 12: the hour hand tells t
     - "The student should have added the two numbers together"
     - "The student forgot to check whether the time is AM or PM"
   answer: 1
-  explanation: "The short (little) hand is the hour hand, and the long (big) hand is the minute hand. When the big hand is at 3, the minute hand is at 15 minutes — not an exact o'clock. The student reversed the hands. The key two-step check is: (1) Is the long hand at 12? (2) If yes, read the short hand for the hour."
+  explanation: "The short (little) hand is the hour hand, and the long (big) hand is the minute hand. The big hand at 12 only signals an exact hour, and the little hand at 3 gives the hour, so the time is 3 o'clock. The student reversed the hands. The key two-step check is: (1) Is the long hand at 12? (2) If yes, read the short hand for the hour."
 
 - question: "The minute hand pointing to 12 means a new hour has just started."
   type: true-false

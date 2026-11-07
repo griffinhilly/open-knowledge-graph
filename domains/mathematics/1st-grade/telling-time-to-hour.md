@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Telling time to the hour means reading an analog clock when the minute hand points to 12 and the hour hand points to a number. Times are expressed as '_____ o'clock'.
 
+## How It's Best Learned
+Color the short hand of a paper-plate clock red and the long hand blue, and teach one routine: check blue at 12, then read red. Set the clock to times from the learner's day, such as 8 o'clock for school and 12 o'clock for lunch, and have them read each one aloud. Then match each clock face to a card showing the same time in digital form, like 8:00.
+
+## Common Misconceptions
+- When the long hand points to 12, the time is 12 o'clock. (The long hand at 12 only tells you the time is an exact hour. The short hand tells you which hour.)
+- The longer hand must be the hour hand because hours are bigger than minutes. (The short hand is the hour hand. The long hand is the minute hand.)
+- Any time the short hand is near a number, the clock shows that hour exactly. (The time is an exact hour only when the long hand also points to 12.)
+
 ## Questions
 
 ```yaml

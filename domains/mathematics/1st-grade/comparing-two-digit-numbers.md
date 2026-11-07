@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Comparing two-digit numbers uses place value: compare tens first; if tens are equal, compare ones. The symbols <, >, and = express relationships between numbers precisely.
 
+## How It's Best Learned
+Build both numbers with base-ten rods and unit cubes, such as 73 as 7 rods and 3 cubes and 69 as 6 rods and 9 cubes. The learner lines up the rods first and sees that 7 rods is more, even though 9 cubes beats 3 cubes. Then they try a pair with equal tens, like 47 and 43, where only the cubes can settle it.
+
+## Common Misconceptions
+- The number with the bigger ones digit is bigger, so 69 > 73. (Compare the tens first. 7 tens is more than 6 tens, so 73 > 69.)
+- If two numbers have the same tens digit, they are equal. (When the tens match, the ones decide. 58 is greater than 52.)
+- A digit's value is just the digit itself, so in 67 the 7 is worth more than the 6. (The 6 is in the tens place and stands for 60, which is more than 7.)
+
 ## Questions
 
 ```yaml
@@ -73,4 +81,4 @@ Here is the key rule: **always look at the tens place first**. The tens digit te
 
 The ones digit only matters when the tens digits are the same. If you have 47 and 43, both have 4 tens — so the tens cannot settle the comparison. Now you look at the ones: 7 ones vs. 3 ones. Since 7 is more than 3, the number 47 is greater than 43. Think of it like a footrace: if two runners are on the same lap, you look at how far around the track they are. But if they are on different laps, the lap number settles it first.
 
-The symbols <, >, and = are just shorthand for these relationships. The **>** symbol points left toward the bigger number (47 > 43), the **<** symbol points right toward the bigger number (43 < 47), and **=** means both sides are exactly the same amount (45 = 45). A helpful memory trick: the open mouth of the symbol always faces the bigger number, like it wants to eat the larger amount. Practice reading comparison statements aloud — "47 is greater than 43," "43 is less than 47" — so the symbols feel connected to real meaning rather than arbitrary marks.
+The symbols <, >, and = are just shorthand for these relationships. The **>** symbol opens to the left, toward the bigger number (47 > 43), the **<** symbol opens to the right, toward the bigger number (43 < 47), and **=** means both sides are exactly the same amount (45 = 45). A helpful memory trick: the open mouth of the symbol always faces the bigger number, like it wants to eat the larger amount. Practice reading comparison statements aloud — "47 is greater than 43," "43 is less than 47" — so the symbols feel connected to real meaning rather than arbitrary marks.

@@ -31,6 +31,14 @@ status: validated
 ## Core Idea
 Fact families group four related addition and subtraction facts using the same three numbers (e.g., 2+3=5, 3+2=5, 5-2=3, 5-3=2). This helps students see number relationships deeply.
 
+## How It's Best Learned
+Use a fact-family triangle card with the whole (7) at the top corner and the parts (3 and 4) at the bottom corners. The learner covers one corner at a time with a thumb and says the fact that finds it. Covering 7 gives 3 + 4 = 7. Covering 4 gives 7 − 3 = 4. After all four facts are written, try a missing-number problem like 3 + ? = 7 with the same card.
+
+## Common Misconceptions
+- A subtraction fact in the family can start with any of the three numbers. (In whole numbers, the subtraction facts start with the whole: 10 − 4 = 6 and 10 − 6 = 4.)
+- Addition facts and subtraction facts are separate lists to memorize. (One family of three numbers gives both kinds. Knowing 7 + 5 = 12 also gives 12 − 5 = 7 and 12 − 7 = 5.)
+- A missing-number problem like 9 + ? = 15 cannot be solved with subtraction because it has a plus sign. (The same family gives 15 − 9 = 6, so the missing number is 6.)
+
 ## Questions
 
 ```yaml

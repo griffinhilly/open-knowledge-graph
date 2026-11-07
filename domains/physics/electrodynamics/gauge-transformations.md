@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Gauge transformations φ → φ + ∂λ/∂t, A → A - ∇λ leave E and B and all physics unchanged. This gauge freedom reflects the redundancy of potentials. Gauge invariance is a profound symmetry principle underlying both classical and quantum electromagnetism.
 
+## How It's Best Learned
+Describe one uniform field E = E₀x̂ two ways: φ = −E₀x with A = 0, and φ = 0 with A = −E₀t x̂. Check that both give the same E and zero B. Then find the λ that links them under φ → φ − ∂λ/∂t, A → A + ∇λ. The answer is λ = −E₀xt. This shows the same physics carried by different potentials.
+
+## Common Misconceptions
+- B survives a gauge transformation, but E changes because φ changes. (The extra −∇φ term is cancelled exactly by the extra −∂A/∂t term, so E is unchanged too.)
+- Only one gauge gives the correct answer, so you must pick the right one. (Every gauge gives the same E, B and forces. A gauge is chosen to make the equations easier.)
+- Imposing a gauge condition fixes the potentials completely. (Some freedom remains. In Lorenz gauge, any λ that satisfies the wave equation keeps the condition true.)
+
 ## Questions
 
 ```yaml
@@ -54,7 +62,7 @@ Gauge transformations φ → φ + ∂λ/∂t, A → A - ∇λ leave E and B and 
   answer: false
   explanation: "Gauge freedom is not a flaw but a deep feature — a redundancy in the mathematical description that reflects genuine physical symmetry. Far from being incomplete, the theory is richer because of it: the gauge freedom can be exploited to simplify calculations by choosing whichever gauge makes a particular problem most tractable. More profoundly, in quantum mechanics gauge invariance becomes the requirement of local phase invariance, which uniquely determines the form of the electromagnetic interaction. The entire Standard Model of particle physics is built on local gauge symmetries."
 
-- question: "The Coulomb gauge (∇·A = 0) and the Lorenz gauge (∇·A + (1/c²)∂φ/∂t = 0) are both valid gauge choices, but they can seldom both be satisfied simultaneously for the same physical situation."
+- question: "The Coulomb gauge (∇·A = 0) and the Lorenz gauge (∇·A + (1/c²)∂φ/∂t = 0) are both gauge choices, but only one of them can be used to describe a given physical situation."
   type: true-false
   answer: false
   explanation: "This is a common confusion. Both are valid gauge choices — they are just different conventions for fixing the remaining freedom in the potentials. You can always find a gauge transformation λ that transforms any given (φ, A) into Coulomb gauge, and separately a different λ that transforms it into Lorenz gauge. The two choices can't both be imposed simultaneously on the same (φ, A) pair in general, but this doesn't mean one is wrong — it just means you choose one or the other depending on the problem. Both accurately describe the same physics."

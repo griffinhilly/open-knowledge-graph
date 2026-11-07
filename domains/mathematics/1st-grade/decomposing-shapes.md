@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Decomposing shapes means breaking larger shapes into smaller pieces. This develops understanding that shapes can be divided in different ways and builds flexible spatial thinking.
 
+## How It's Best Learned
+Give the learner several paper squares and rectangles and a pair of scissors. For each one, they predict what shapes a cut will make, then fold and cut to check: corner to corner, then straight across the middle. Lay the pieces from different cuts side by side and name each piece. Then put each set back together to show it covers the whole shape again.
+
+## Common Misconceptions
+- Each shape has one correct way to be cut apart. (The same square can be cut into two triangles, two rectangles, four small squares, and more.)
+- Cutting a square in half always makes two smaller squares. (A cut straight across makes two rectangles, and a cut from corner to corner makes two triangles.)
+- The pieces from a decomposed shape are smaller in total than the shape they came from. (Put back together, the pieces cover exactly the same space as the original shape.)
+
 ## Questions
 
 ```yaml
@@ -52,7 +60,7 @@ Decomposing shapes means breaking larger shapes into smaller pieces. This develo
   answer: true
   explanation: "Composing (putting shapes together) and decomposing (taking them apart) are reverse operations. Two congruent right triangles, placed with matching sides together, form a rectangle. This is exactly the reverse of decomposing a rectangle by cutting it corner to corner — the same relationship that addition and subtraction have with numbers."
 
-- question: "Decomposing a square usually produces the same pieces, no matter where you draw the cut."
+- question: "Decomposing a square always produces the same pieces, no matter where you draw the cut."
   type: true-false
   answer: false
   explanation: "The pieces you get depend entirely on where and how you draw the cut. Cutting a square from corner to corner produces two triangles. Cutting it straight across the middle produces two rectangles. Cutting it at a different angle produces different shapes altogether. The square contains many possible decompositions — you choose which one by choosing where to draw the line."

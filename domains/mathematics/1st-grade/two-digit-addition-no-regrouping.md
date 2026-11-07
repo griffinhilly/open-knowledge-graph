@@ -31,6 +31,14 @@ status: validated
 ## Core Idea
 Adding two-digit numbers without regrouping means adding tens to tens and ones to ones separately. For example, 23 + 15 becomes (20+10) + (3+5) = 38. No carrying is needed.
 
+## How It's Best Learned
+Build both numbers with base-ten blocks on a mat with a tens side and a ones side. For 23 + 15, push the 3 and 5 unit cubes together to get 8 ones, then the 2 and 1 rods together to get 3 tens, and read 38. Then write the same problem stacked, with ones under ones, so each column of digits matches a pile of blocks.
+
+## Common Misconceptions
+- You add all the digits together, so 23 + 15 is 2 + 3 + 1 + 5 = 11. (Each digit has a place value. The 2 and 1 are tens and the 3 and 5 are ones, so they are added in separate groups.)
+- It does not matter how you line up the numbers, so 32 + 5 can be stacked with the 5 under the 3. (The 5 is 5 ones and belongs under the 2. Stacking it under the 3 adds 5 tens and gives 82 instead of 37.)
+- You have to start with the tens because they come first when you read. (Without regrouping, either order gives the same answer. Starting with the ones gets you ready for regrouping later.)
+
 ## Questions
 
 ```yaml

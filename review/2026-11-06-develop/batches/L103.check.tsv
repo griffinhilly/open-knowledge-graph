@@ -1,0 +1,31 @@
+domains/mathematics/probability-and-mathematical-statistics/multivariate-normal-distribution.md	how	4	0	ok	worked: Var(X1+X2)=2+2rho=3.6 at rho=0.8
+domains/mathematics/probability-and-mathematical-statistics/multivariate-normal-distribution.md	mis	8	0	ok
+domains/mathematics/probability-and-mathematical-statistics/neyman-pearson-lemma.md	how	5	1	fixed	stop rule "when the size reaches 0.05" never happens with discrete sizes; changed to "before the size would pass 0.05". Sizes 11/1024, 56/1024 and power 0.149 verified
+domains/mathematics/probability-and-mathematical-statistics/neyman-pearson-lemma.md	mis	8	1	fixed	"threshold is usually far from 1" unsupported generalization; replaced with the worked fact (size-11/1024 test rejects only when LR >= about 12.4)
+domains/mathematics/probability-and-mathematical-statistics/rao-blackwell-theorem.md	how	4	0	ok	worked: E[X1|S]=S/n; Poisson (1-1/n)^s
+domains/mathematics/probability-and-mathematical-statistics/rao-blackwell-theorem.md	mis	8	0	ok
+domains/mathematics/probability-and-mathematical-statistics/relationships-between-modes-of-convergence.md	how	4	0	ok
+domains/mathematics/probability-and-mathematical-statistics/relationships-between-modes-of-convergence.md	mis	8	0	ok	old note (not fixed, debatable): Q0 treats "each Xn approximately normal" as not guaranteed, and its explanation says Xn "could be wildly non-normal"; convergence in distribution to N(0,1) does make the CDF of Xn uniformly close to Phi
+domains/mathematics/probability-and-mathematical-statistics/sigma-algebras-and-measurable-sets.md	how	4	0	ok	worked: 4-set and 8-set sigma-algebras on {1,2,3,4}
+domains/mathematics/probability-and-mathematical-statistics/sigma-algebras-and-measurable-sets.md	mis	6	0	ok
+domains/mathematics/probability-and-mathematical-statistics/stationary-distributions.md	how	5	0	ok	worked: pi=(0.75,0.25); iterates (0.9,0.1),(0.84,0.16); second eigenvalue 0.6
+domains/mathematics/probability-and-mathematical-statistics/stationary-distributions.md	mis	8	1	fixed	dropped qualifier: "a reducible chain with two closed classes has infinitely many" fails for infinite chains (two copies of the SRW on Z have none); added "finite"
+domains/mathematics/probability-and-mathematical-statistics/strong-law-of-large-numbers.md	how	5	1	fixed	mislabel: the E[Sn^4] proof needs a finite fourth moment, not "bounded variance"; relabeled. E[Sn^4] formula and C/(eps^4 n^2) bound verified
+domains/mathematics/probability-and-mathematical-statistics/strong-law-of-large-numbers.md	mis	8	0	ok
+domains/mathematics/probability-and-mathematical-statistics/strong-law-of-large-numbers.md	q:4:explanation	1	0	ok
+domains/mathematics/probability-and-mathematical-statistics/sufficient-statistics.md	how	4	0	ok	format note (pre-existing, not changed): this file has Explainer before Questions
+domains/mathematics/probability-and-mathematical-statistics/sufficient-statistics.md	mis	8	0	ok
+domains/mathematics/probability-and-mathematical-statistics/sufficient-statistics.md	old:q:2:explanation	1	1	fixed	"dimension of the sufficient statistic reflects the parameter's degrees of freedom" contradicted the new Uniform(theta,theta+1) bullet; softened to "often matches, though not always"
+domains/mathematics/probability-and-mathematical-statistics/umvue.md	how	6	0	ok	worked: Var((n+1)M/n)=theta^2/(n(n+2)), Var(2Xbar)=theta^2/(3n); n=10 gives 1/120 vs 1/30
+domains/mathematics/probability-and-mathematical-statistics/umvue.md	mis	8	0	ok	old note (not fixed): Explainer says the natural sufficient statistic of an exponential family is "always complete" (needs full rank)
+domains/mathematics/probability-and-mathematical-statistics/umvue.md	old:core	1	1	fixed	Core Idea called "function of a complete sufficient statistic" a necessary condition for a UMVUE; it is a sufficient condition (Lehmann-Scheffe)
+domains/mathematics/probability-and-mathematical-statistics/uniformly-most-powerful-tests.md	how	4	0	ok	worked: LR=exp(n mu1 xbar - n mu1^2/2)
+domains/mathematics/probability-and-mathematical-statistics/uniformly-most-powerful-tests.md	mis	6	0	ok
+domains/mathematics/probability-and-mathematical-statistics/uniformly-most-powerful-tests.md	old:core	1	1	fixed	"maximizes power (Type II error)" -> "maximizes power (minimizes Type II error)"
+domains/mathematics/probability-and-mathematical-statistics/variance-higher-moments-rigorous.md	how	6	0	ok	worked: Pareto alpha=3 mean 3/2, var 3/4
+domains/mathematics/probability-and-mathematical-statistics/variance-higher-moments-rigorous.md	mis	8	0	ok
+domains/mathematics/probability-and-mathematical-statistics/variance-higher-moments-rigorous.md	old:q:3:explanation	1	1	fixed	said moments determine a distribution "only when" Carleman holds; Carleman is sufficient, not necessary
+domains/mathematics/probability-and-mathematical-statistics/weak-law-of-large-numbers.md	how	5	0	ok	worked: bound 100/n; z=3.16, two-sided normal tail about 0.0016
+domains/mathematics/probability-and-mathematical-statistics/weak-law-of-large-numbers.md	mis	8	1	fixed	"actual probability is near 0.002": exact binomial P(|X-500|>50) is about 0.0014; changed to "below 0.002"
+domains/mathematics/probability-and-mathematical-statistics/weak-law-of-large-numbers.md	old:core	1	1	fixed	Core Idea said "the key assumption is finite variance", contradicting its own finite-mean statement and the new bullet; now says the simplest proof assumes finite variance
+domains/mathematics/probability-and-mathematical-statistics/weak-law-of-large-numbers.md	old:q:1:explanation	1	1	fixed	said covariance terms appear "without independence"; added "or at least pairwise uncorrelatedness" to match the new bullet

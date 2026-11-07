@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 The Cambridge School of intellectual history, developed by figures like J.G.A. Pocock and Quentin Skinner, insists that ideas must be understood within their linguistic, rhetorical, and political contexts rather than as timeless truths. This approach rejects anachronistic readings and the 'great tradition' approach, instead reconstructing how historical agents used concepts and languages to argue about their own worlds.
 
+## How It's Best Learned
+Read chapter 21 of *Leviathan*, "Of the Liberty of Subjects", and first summarize it as a timeless claim about freedom. Then read a short piece of 1640s parliamentarian or republican writing about liberty. Rewrite your summary as a move in that argument: whom is Hobbes answering, and what is he trying to make them stop saying? The shift between the two summaries is the Cambridge method.
+
+## Common Misconceptions
+- The Cambridge School says old texts have nothing to teach us today. (Its claim is that we must first recover what a text was doing in its own debate, and Skinner has argued that this recovery can sharpen present thinking.)
+- Context means the author's biography. (It means mainly the arguments, vocabularies, and conventions available at the time, which a text worked with or against.)
+- Recovering intention means guessing what was in the author's head. (Skinner's sense of intention is public: what the author was doing in writing, which can be inferred from the text and its debate.)
+- Pocock and Skinner used the same method. (They share contextualism, but Pocock stresses whole political languages over long periods, while Skinner focuses on the speech acts of particular texts.)
+
 ## Questions
 
 ```yaml

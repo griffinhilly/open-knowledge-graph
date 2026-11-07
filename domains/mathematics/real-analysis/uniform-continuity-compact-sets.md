@@ -21,7 +21,15 @@ status: validated
 # Uniform Continuity on Compact Sets
 
 ## Core Idea
-Every continuous function on a compact set is uniformly continuous. This is a theorem with profound implications: on [a,b], all continuous functions are uniformly continuous, justifying the integral's existence. The proof uses compactness via contradiction: a failure of uniform continuity produces a non-convergent sequence with no convergent subsequence, violating Bolzano-Weierstrass.
+Every continuous function on a compact set is uniformly continuous. This is a theorem with profound implications: on [a,b], all continuous functions are uniformly continuous, justifying the integral's existence. The proof uses compactness via contradiction: a failure of uniform continuity produces pairs of points that get closer while their images stay ε apart; Bolzano-Weierstrass gives a convergent subsequence, and continuity at its limit gives a contradiction.
+
+## How It's Best Learned
+Run the contradiction proof on two failures and find the step that breaks. For 1/x on (0, 1), take xₙ = 1/n and yₙ = 1/(n+1) for n ≥ 2: the gap shrinks, the outputs differ by 1, and the limit 0 lies outside the domain. For x² on [0, ∞), take xₙ = n and yₙ = n + 1/n: the outputs differ by more than 2, and (xₙ) has no convergent subsequence at all.
+
+## Common Misconceptions
+- A function whose derivative is unbounded on [a, b] cannot be uniformly continuous there. (√x is continuous on the compact set [0, 1], so it is uniformly continuous, even though its derivative 1/(2√x) is unbounded near 0.)
+- Uniform continuity requires a compact domain. (The theorem gives only one direction. f(x) = x and f(x) = sin x are uniformly continuous on all of ℝ, which is not compact.)
+- A bounded domain, or a closed one, is enough. (Compactness in ℝ needs both. 1/x fails on the bounded set (0, 1), and x² fails on the closed set [0, ∞).)
 
 ## Questions
 

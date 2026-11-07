@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Lienard-Wiechert potentials provide exact solutions for fields of moving charges on arbitrary trajectories. Applications include bremsstrahlung (radiation from decelerated charges), cyclotron and synchrotron radiation, and classical scattering. They demonstrate the unified description of all radiation processes.
 
+## How It's Best Learned
+Draw the field lines of a charge that moves at speed v and stops abruptly at t = 0. Outside radius ct the lines point from where the charge would now be had it kept moving. Inside they point from the stopped charge, and a thin kinked shell joins the two. Then treat Thomson scattering: put a = eE₀/m into the Larmor formula and divide by the incident intensity. This gives σ = (8π/3)r_e².
+
+## Common Misconceptions
+- Since fields are retarded, the electric field of a uniformly moving charge points away from its retarded position. (For uniform velocity the retarded terms combine so that E points away from the charge's present position.)
+- Bremsstrahlung produces X-rays only at a few sharp energies. (Its spectrum is continuous up to the electron's kinetic energy. The sharp lines seen from an X-ray tube come from atomic transitions in the target.)
+- In Thomson scattering the electron re-radiates at a lower frequency because it absorbs some energy. (In the classical picture it re-radiates at the driving frequency. A shift appears only when photon recoil matters, which is Compton scattering.)
+
 ## Questions
 
 ```yaml
@@ -48,7 +56,7 @@ Lienard-Wiechert potentials provide exact solutions for fields of moving charges
 - question: "The radiation term in Liénard-Wiechert fields falls off as 1/r², just like the Coulomb field of a static charge, so it does not carry net energy to an infinite distance."
   type: true-false
   answer: false
-  explanation: "This is the crucial distinction between velocity fields and radiation fields. The Coulomb (velocity) term falls as 1/r², so the energy flux through a sphere of radius r (proportional to field² × r²) goes as 1/r² × r² = constant over r, then falls to zero as r → ∞. The radiation term falls as 1/r, so flux ~ 1/r² × r² = constant, independent of r. Integrating over a large sphere gives a finite, non-zero power radiated to infinity. Radiation carries energy away from the source; the Coulomb field does not."
+  explanation: "This is the crucial distinction between velocity fields and radiation fields. The Coulomb (velocity) term falls as 1/r², so the energy flux through a sphere of radius r (proportional to field² × r²) goes as 1/r⁴ × r² = 1/r², which falls to zero as r → ∞. The radiation term falls as 1/r, so flux ~ 1/r² × r² = constant, independent of r. Integrating over a large sphere gives a finite, non-zero power radiated to infinity. Radiation carries energy away from the source; the Coulomb field does not."
 
 - question: "Thomson scattering occurs because a free electron driven by an oscillating electromagnetic wave accelerates and re-radiates at the same frequency as the incident wave."
   type: true-false

@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 The past is not like today. Past people thought differently, valued different things, and inhabited different worlds. Understanding this 'alterity'—this radical difference—is central to historical understanding. Yet historians must use present concepts to understand past difference. The challenge is honoring historical otherness while making the past intelligible to contemporary readers.
 
+## How It's Best Learned
+Take a short primary source with one puzzling key term, such as a Roman text using *virtus*. First write the obvious modern translation. Then list every context the term appears in and what it seems to require of a person. Finally rewrite your translation with a gloss. The gap between your first and last versions is the historical difference made visible.
+
+## Common Misconceptions
+- Recognizing difference means treating past people as irrational or primitive. (The point is the reverse: their beliefs often made sense within assumptions that differ from ours.)
+- If the past is truly other, we can never understand it. (Difference makes understanding harder, but careful reading of sources and terms can make past worlds intelligible.)
+- People are the same everywhere, so differences are only on the surface. (Shared human needs do not rule out deep differences in how people understood causes, bodies, time, and duty.)
+- Taking the past on its own terms means historians may never make moral judgments. (It means understanding comes before evaluation; historians still debate when and how judgment belongs in their work.)
+
 ## Questions
 
 ```yaml
@@ -63,7 +72,7 @@ The past is not like today. Past people thought differently, valued different th
 
 ## Explainer
 
-The fundamental temptation in studying history is to assume that past people were basically like us — that they wanted the same things, reasoned in the same ways, and would recognize our categories and concerns. This temptation is called **presentism**, and it is the beginner historian's most reliable error. The concept of historical difference is the antidote: a trained habit of recognizing that the past was, in the philosopher's phrase, a foreign country.
+The fundamental temptation in studying history is to assume that past people were basically like us — that they wanted the same things, reasoned in the same ways, and would recognize our categories and concerns. This temptation is called **presentism**, and it is the beginner historian's most reliable error. The concept of historical difference is the antidote: a trained habit of recognizing that the past was, in the novelist L. P. Hartley's phrase, a foreign country.
 
 Consider a concrete example. Medieval Europeans did not distinguish between "natural" and "supernatural" as categories. When a peasant attributed a poor harvest to divine punishment, they were not being irrational within a framework that distinguished natural causes from divine ones — they inhabited a world in which God, saints, demons, and physical processes all operated within a single causal system. To call this "superstition" is to impose a post-Enlightenment categorical distinction that they did not possess. The historian's task is to describe their world from within the logic it actually operated by, not to judge it by the logic of a different era.
 

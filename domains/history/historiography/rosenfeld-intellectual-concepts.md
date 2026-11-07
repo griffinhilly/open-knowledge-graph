@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Sophia Rosenfeld's work exemplifies contemporary intellectual history: tracing how concepts (democracy, nature, dignity) change meaning over time and across contexts. She shows intellectual history concerns not great thinkers but how ideas circulate, transform, and shape human action. Her methods combine close reading with attention to social circulation, asking not 'what is truth about X' but 'what have different people meant by X in different times.'
 
+## How It's Best Learned
+Set three uses of "common sense" side by side: a passage from Thomas Reid's 1764 *Inquiry*, a page of Thomas Paine's *Common Sense* (1776), and a recent political speech that uses the phrase. For each, note who is speaking, to whom, against whom, and what the phrase lets the speaker dismiss. The shifts across the three show a concept's career at small scale.
+
+## Common Misconceptions
+- Following a concept means leaving canonical thinkers out. (Major texts stay in view as some of the many uses of a concept, read alongside pamphlets, speeches and everyday sources.)
+- The first or most philosophical use of a concept is its true meaning, and later uses are corruptions. (Concept history treats each use as doing work in its own setting and does not rank them by fidelity to an original.)
+- Tracking a word through time is the same as tracking a concept. (Koselleck's concept history separates the two: one word can carry different concepts, and one concept can be expressed by different words.)
+
 ## Questions
 
 ```yaml

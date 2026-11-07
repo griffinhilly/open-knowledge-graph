@@ -29,6 +29,12 @@ Historians work with multiple temporal concepts beyond mere chronology: duration
 ## How It's Best Learned
 Study Braudel's 'longue durée' method compared to traditional event-based narrative to see how time-scale fundamentally changes historical interpretation.
 
+## Common Misconceptions
+- Historical time is just chronology, the dates in order. (Chronology fixes sequence, but duration, rhythm and simultaneity shape what counts as a cause and what counts as change.)
+- Braudel thought events do not matter. (He treated events as real but as the least fundamental layer, set within slower conjunctures and structures that limit what events can do.)
+- Western cultures think of time as linear and non-Western cultures think of it as cyclical. (Many societies, European ones included, used both, such as the cycle of the liturgical or farming year beside linear dynastic or sacred history.)
+- Events that happen at the same date belong to the same stage of history. (Simultaneity asks what was happening in each society on its own terms, without lining all of them up on one developmental clock.)
+
 ## Questions
 
 ```yaml

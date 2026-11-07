@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 Leopold Ranke (1795–1886) established history as a professional discipline by insisting that historians approach primary sources with scientific rigor, aiming to reconstruct 'how it actually was' (*wie es eigentlich gewesen*). He privileged archival documents, developed seminars for critical source analysis, and argued that objective history was possible through disciplined empiricism—though his own work revealed the impossibility of pure objectivity.
 
+## How It's Best Learned
+Read the 1824 preface where the phrase appears: Ranke declines the office of judging the past. Then read his attack on Guicciardini in the companion volume, which tests a famous history against its sources. Last, put an ambassador's eyewitness dispatch beside a later chronicle of the same event. Ask of each who wrote it, why, with what access to events, and with what motive to distort.
+
+## Common Misconceptions
+- "Scientific" history meant history modeled on physics, searching for general laws. (The German *Wissenschaft* means systematic scholarship; Ranke stressed critical method and the particular, and did not seek laws of history.)
+- A primary source is reliable because it is close to the events. (Quellenkritik asks who wrote it, why, and with what access, so an eyewitness can still mislead and must be tested against other sources.)
+- Setting aside moral judgment made Ranke's history free of values. (His focus on states and great powers reflected convictions about what mattered, which shaped what he studied and what he left out.)
+
 ## Questions
 
 ```yaml

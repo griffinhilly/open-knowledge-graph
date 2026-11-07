@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 A positive integer n can be expressed as a sum of two squares if and only if in the prime factorization of n, every prime of the form 4k+3 appears to an even power. This classical result elegantly connects arithmetic structure to geometric representations and is proved using Gaussian integers.
 
+## How It's Best Learned
+List every n ≤ 50 that is a sum of two squares, factor each one, and look for the 4k+3 pattern before reading the proof. Then use Brahmagupta's identity on 5 = 1² + 2² and 13 = 2² + 3²: the two sign choices give 65 = 4² + 7² and 65 = 8² + 1². Finally, note that squares are 0 or 1 mod 4, which rules out every n ≡ 3 (mod 4).
+
+## Common Misconceptions
+- Any n that is not ≡ 3 (mod 4) is a sum of two squares. (The mod 4 test only rules some numbers out. 21 = 3 · 7 ≡ 1 (mod 4), yet it is not a sum of two squares.)
+- A sum of two squares has only one representation. (Many have several. 65 = 1² + 8² = 4² + 7².)
+- Every divisor of a sum of two squares is also a sum of two squares. (9 = 3² + 0², but its divisor 3 is not a sum of two squares.)
+
 ## Questions
 
 ```yaml

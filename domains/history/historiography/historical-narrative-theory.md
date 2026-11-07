@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Historical narrative is not neutral presentation but an active shaping of meaning through selection, arrangement, and emplotment (the imposition of narrative structure like causality or progression). Historians must decide which events to include, how to sequence them, what connections to draw, and what the narrative ultimately means. Understanding historical narrative as constructed—without denying evidential accountability—is central to critical historiography.
 
+## How It's Best Learned
+Take a textbook chapter on the American Civil War and mark its first and last paragraphs. Then sketch two alternative frames: one that ends at Appomattox in 1865 and one that runs through the end of Reconstruction. For each frame, write one sentence on what the war "meant". Seeing the meaning shift with the endpoint shows that framing choices are interpretive claims.
+
+## Common Misconceptions
+- A narrative's start and end dates are just practical limits. (Where a story begins and ends shapes which events look like causes and what the outcome seems to mean.)
+- Calling narratives constructed means they are made up. (Constructed means the historian chooses selection and form, while the events and sources still constrain what can be said.)
+- Analytic history with graphs and tables avoids narrative choices. (Choosing a time span, units, and what counts as the outcome still frames the account.)
+- Emplotment is only about the four plot types. (In wider usage, as in Paul Ricoeur's work, it also covers the plainer work of arranging events into sequences of cause, turning point, and result.)
+
 ## Questions
 
 ```yaml

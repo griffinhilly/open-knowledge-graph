@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The linguistic turn (associated with Hayden White, Michel Foucault, and post-structuralists) argues that history is always mediated through language and narrative. There is no unmediated access to the past; what historians call 'history' is text. This challenges realist assumptions that careful historians can recover 'what really happened.' Language does not transparently represent; it shapes what can be thought and said.
 
+## How It's Best Learned
+Take a paragraph of history you have written and circle every analytical category, such as "class", "development", or "resistance". For each one, find roughly when it came into use and what it assumes. Then ask whether the people you wrote about would have recognized it. Turning the method on your own prose shows what the moderate legacy of the linguistic turn asks of historians.
+
+## Common Misconceptions
+- The linguistic turn claims the past never happened. (Its claim is about access: we reach the past only through texts and categories, which shape what we can say about it.)
+- The linguistic turn is just Hayden White's theory of plots. (It also includes Foucault's work on discourse and wider currents from literary theory and philosophy of language.)
+- Studying discourse means studying words alone. (For Foucault, discourse ties categories to institutions and practices, such as asylums and prisons, that act on people.)
+- Historians either swallowed the linguistic turn whole or rejected it. (Most took a middle path, keeping evidence as a check while becoming more careful about their own categories.)
+
 ## Questions
 
 ```yaml

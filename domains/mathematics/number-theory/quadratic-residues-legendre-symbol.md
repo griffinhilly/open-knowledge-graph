@@ -22,7 +22,15 @@ status: validated
 # Quadratic Residues and the Legendre Symbol
 
 ## Core Idea
-For odd prime p and a not divisible by p, the Legendre symbol (a/p) is +1 if a is a quadratic residue mod p (i.e., x^2 ≡ a mod p solvable) and -1otherwise. Exactly (p-1)/2 residues among 1, 2, ..., p-1 are quadratic residues.
+For odd prime p and a not divisible by p, the Legendre symbol (a/p) is +1 if a is a quadratic residue mod p (i.e., x^2 ≡ a mod p solvable) and -1 otherwise. Exactly (p-1)/2 residues among 1, 2, ..., p-1 are quadratic residues.
+
+## How It's Best Learned
+Write the nonzero residues mod 13 as powers of 2: 1, 2, 4, 8, 3, 6, 12, 11, 9, 5, 10, 7 for exponents 0 to 11. The even powers {1, 3, 4, 9, 10, 12} are exactly the residues. Multiplicativity then reads as adding exponents: even plus even is even, odd plus odd is even. Confirm one entry with Euler's criterion: 10⁶ ≡ 1 (mod 13).
+
+## Common Misconceptions
+- To decide whether a is a residue, you have to find a square root of it. (Euler's criterion decides it from a^((p−1)/2) mod p without finding any root.)
+- The residues are the first half of the list 1, …, p − 1. (They are scattered. Mod 11 the residues are 1, 3, 4, 5 and 9.)
+- −1 is never a quadratic residue, since it is negative. (−1 is a residue exactly when p ≡ 1 (mod 4). Mod 13, 5² = 25 ≡ −1.)
 
 ## Questions
 
@@ -67,7 +75,7 @@ For odd prime p and a not divisible by p, the Legendre symbol (a/p) is +1 if a i
 
 A **quadratic residue** mod p is an integer congruent to a perfect square mod p. More precisely, a (with p ∤ a) is a quadratic residue if x² ≡ a (mod p) has a solution. You already know from modular arithmetic that the nonzero residues mod p form a group under multiplication — the group (ℤ/pℤ)×, which has p−1 elements. A fundamental fact is that among these p−1 nonzero residues, exactly half are quadratic residues.
 
-Why exactly half? The squaring map x ↦ x² sends (ℤ/pℤ)× to itself, but is 2-to-1: both x and −x square to x². Since gcd(m,p) = 1, x ≢ −x (mod p) when p is odd (as x ≡ −x would give 2x ≡ 0, so p | x), so x and −x are genuinely distinct. Each quadratic residue is hit exactly twice, and there are p−1 elements total, giving (p−1)/2 distinct squares — exactly half the nonzero residues. The **Legendre symbol** packages this: (a/p) = +1 if a is a quadratic residue (QR), −1 if a is a non-residue (QNR), and 0 if p | a.
+Why exactly half? The squaring map x ↦ x² sends (ℤ/pℤ)× to itself, but is 2-to-1: both x and −x square to x². Since p ∤ x, x ≢ −x (mod p) when p is odd (as x ≡ −x would give 2x ≡ 0, so p | x), so x and −x are genuinely distinct. Each quadratic residue is hit exactly twice, and there are p−1 elements total, giving (p−1)/2 distinct squares — exactly half the nonzero residues. The **Legendre symbol** packages this: (a/p) = +1 if a is a quadratic residue (QR), −1 if a is a non-residue (QNR), and 0 if p | a.
 
 The Legendre symbol is **multiplicative**: (ab/p) = (a/p)(b/p). This follows from the group structure. QR × QR = QR (the product of two squares is a square); QNR × QNR = QR (the product of two non-residues turns out to be a residue, since the squaring map's kernel — the QRs — forms an index-2 subgroup of (ℤ/pℤ)×, and the coset product of two non-residues lands in the subgroup); QR × QNR = QNR. The sign pattern is identical to multiplying +1 and −1, which is why the Legendre symbol is a group homomorphism from (ℤ/pℤ)× to {±1}.
 

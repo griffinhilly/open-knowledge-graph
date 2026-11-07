@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Traditional history focused on elites, statesmen, and military leaders. History from below reverses perspective, recovering the experiences, agency, and voices of workers, peasants, enslaved people, and subordinated groups. Developed by British social historians like E.P. Thompson, this approach asks: How did ordinary people shape history? What can archives tell us about those usually silent?
 
+## How It's Best Learned
+Read a court deposition or magistrate's report about an 18th-century food riot. In one color, mark what the authorities say about the crowd. In another, mark what the crowd actually did, such as seizing grain and selling it at a price they called fair. The second set of marks reveals norms the authorities never meant to record, which is reading against the grain in practice.
+
+## Common Misconceptions
+- History from below needs sources written by ordinary people. (Much of it relies on records made by courts, landlords, and officials, read for what they reveal despite their purpose.)
+- History from below just adds ordinary people to the old story. (It often changes the story itself, by showing how popular action shaped events and how people made sense of their own lives.)
+- Recovering ordinary people's agency means showing they were free to do as they chose. (Agency here means people acted on their own values and choices within real constraints, which the approach also documents.)
+- "Below" names one group, the working class. (Feminist and postcolonial critics showed that there are layers of subordination within the working class and beyond it.)
+
 ## Questions
 
 ```yaml

@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 A whole can be divided into equal parts. Two equal parts make halves (each is 1/2); four equal parts make fourths (each is 1/4). The size of the parts matters: all parts of a whole must be the same size. Partitioning shapes and real objects (pizza, chocolate bars) makes this concrete.
 
+## How It's Best Learned
+Give the learner two paper strips of the same length. They fold one strip once to make halves and the other twice to make fourths, then unfold and color one part of each. Laying the colored half next to the colored fourth shows that 1/4 is smaller. Then they cut a third strip into four unequal pieces and explain why those pieces are not fourths.
+
+## Common Misconceptions
+- Four pieces of something are always fourths. (Fourths are four equal pieces. If one piece is bigger, the pieces are not fourths.)
+- 1/4 is bigger than 1/2 because 4 is bigger than 2. (The 4 means the whole is cut into more pieces, so each piece is smaller. Of the same whole, 1/2 is bigger than 1/4.)
+- A half of a big pizza and a half of a small pizza are the same amount. (A half depends on its whole. Half of a bigger whole is a bigger amount.)
+
 ## Questions
 
 ```yaml

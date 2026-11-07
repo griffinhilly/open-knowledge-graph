@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 The Prime Number Theorem states that π(x) ~ x/ln(x), where π(x) counts primes up to x. Conjectured by Gauss and Legendre, it was proved in 1896 using complex analysis of the Riemann zeta function. It shows primes have asymptotic density 1/ln(x) near x.
 
+## How It's Best Learned
+Test the density form on a window you can sieve by hand. Between 1000 and 1100 there are 16 primes, and the theorem predicts about 100/ln(1050) ≈ 14.4. Then compare the two approximations at x = 10⁶ from the Explainer: x/ln x is off by about 6,100, while Li(x) is off by about 130, though both ratios tend to 1.
+
+## Common Misconceptions
+- π(x) ~ x/ln(x) means the two are close in absolute terms. (Only the ratio tends to 1. At x = 10⁶ the difference is over 6,000, and it keeps growing.)
+- The theorem guarantees a prime in every stretch of about ln(x) consecutive integers. (It describes average density. Individual gaps between primes can be much longer than ln(x).)
+- The ln in the formula is a base-10 logarithm. (It is the natural logarithm. Near 10²⁰ the density is about 1/46, not 1/20.)
+
 ## Questions
 
 ```yaml

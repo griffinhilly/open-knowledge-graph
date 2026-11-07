@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 The history of mentalities (histoire des mentalités) studies how people in the past thought, felt, and understood the world—their collective psychologies, anxieties, and worldviews. Unlike intellectual history focused on elite thinkers, mentalité history examines ordinary consciousness: beliefs about magic, death, sexuality, and authority. This approach reveals what seemed 'natural' or 'obvious' to past people.
 
+## How It's Best Learned
+Work with a series of will preambles from one region across a century. Count how often each calls on the saints or the Virgin, or orders masses for the soul, and chart the counts by decade. Michel Vovelle used Provençal wills this way to trace a decline of baroque piety in the eighteenth century. Then ask what the formulas show and what they might hide, such as notaries' habits.
+
+## Common Misconceptions
+- A mentality was shared in the same form by everyone in a period. (The concept describes broad patterns, and individual cases such as Ginzburg's miller Menocchio show dissent and variation within them.)
+- The history of mentalities is psychoanalysis of past individuals. (It studies collective assumptions visible in shared practices and sources, not the inner life of one person.)
+- Ariès proved that medieval people had no idea of childhood. (His thesis was influential but has been widely challenged by historians using letters, diaries and other evidence of parental care.)
+
 ## Questions
 
 ```yaml

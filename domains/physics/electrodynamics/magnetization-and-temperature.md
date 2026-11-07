@@ -19,7 +19,15 @@ status: validated
 # Temperature Dependence of Magnetization
 
 ## Core Idea
-Thermal fluctuations compete with exchange interaction; above the Curie temperature ferromagnetic order disappears. The magnetization vanishes as (Tₓ - T)^β near the critical point, characterizing the ferromagnetic-paramagnetic phase transition.
+Thermal fluctuations compete with exchange interaction; above the Curie temperature ferromagnetic order disappears. The magnetization vanishes as (T_c - T)^β near the critical point, characterizing the ferromagnetic-paramagnetic phase transition.
+
+## How It's Best Learned
+Expand the mean-field equation m = tanh(m T_c/T) for small m, using tanh x ≈ x − x³/3. Solving gives m² ≈ 3(T_c/T − 1)(T/T_c)³, so m ≈ √(3(T_c − T)/T_c) just below T_c, and β = ½. Then solve the full equation numerically at several temperatures and plot m(T). Compare the curve with the small-m result near T_c.
+
+## Common Misconceptions
+- A magnet loses its magnetization in one sudden jump at T_c, as ice melts at 0°C. (The spontaneous magnetization falls smoothly to zero as T rises toward T_c. The transition is continuous.)
+- Above T_c the material stops responding to magnetic fields. (It becomes paramagnetic. An applied field still produces a magnetization, and the susceptibility grows as T falls toward T_c.)
+- The mean-field value β = ½ is what experiments measure. (Fluctuations change the exponent. Real three-dimensional ferromagnets give smaller values, roughly 0.3 to 0.4.)
 
 ## Questions
 

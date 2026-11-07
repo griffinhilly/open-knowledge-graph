@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The group velocity vg = dω/dk describes wave packet motion while phase velocity vp = ω/k describes individual wavefront motion. Dispersion (vg ≠ vp) causes wave packets to spread. When dω/dk is imaginary, waves are evanescent rather than propagating.
 
+## How It's Best Learned
+Add two waves, cos(k₁x − ω₁t) + cos(k₂x − ω₂t). Rewrite the sum as 2 cos(½Δk x − ½Δω t) cos(k̄x − ω̄t). The envelope moves at Δω/Δk and the crests at ω̄/k̄. Then apply this to deep-water waves, ω = √(gk). There v_g = ½v_p, so plot the sum at two times and watch crests pass through the envelope.
+
+## Common Misconceptions
+- A phase velocity faster than c breaks relativity. (A single unending sinusoid carries no information, so its crests can outrun light without sending any signal.)
+- The crests inside a pulse move along with the pulse. (Crests travel at v_p and the envelope at v_g. When the two differ, crests appear at one end of the packet and vanish at the other.)
+- Group velocity always gives the speed at which energy and signals travel. (That holds for normal dispersion with weak absorption. Near an absorption line v_g can exceed c or turn negative, and it then loses that meaning.)
+
 ## Questions
 
 ```yaml

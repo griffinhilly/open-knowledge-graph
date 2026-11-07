@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 Students learn to identify and name common two-dimensional shapes like circles, triangles, rectangles, and squares. They recognize these shapes in the environment and understand basic properties like number of sides and corners.
 
+## How It's Best Learned
+Take a shape walk around the room or school. The learner points to an object, such as a door, a clock or a yield sign, names the flat shape it shows, and proves it by counting sides and corners aloud. Back at the table, give them paper shapes in unusual sizes and tilted positions and ask them to name each one by counting.
+
+## Common Misconceptions
+- A triangle has to point up, and a tilted one is not a real triangle. (Turning a shape does not change it. Any closed shape with 3 straight sides is a triangle.)
+- A square is not a rectangle. (A square has 4 sides and 4 square corners, so it is a special rectangle with all sides equal.)
+- A rectangle must have four equal sides. (A rectangle needs 4 square corners and opposite sides that match. Only a square has all four sides equal.)
+
 ## Questions
 
 ```yaml
@@ -55,14 +63,14 @@ Students learn to identify and name common two-dimensional shapes like circles, 
   answer: true
   explanation: "Size does not affect a shape's attributes. Any triangle, regardless of size, has exactly 3 straight sides and 3 corners. This is why shape identification focuses on counting attributes rather than measuring size or comparing appearance."
 
-- question: "A shape that looks like a rectangle at first glance is expected to have four sides of equal length."
+- question: "A rectangle must have four sides of equal length."
   type: true-false
   answer: false
   explanation: "A rectangle requires four right-angle corners and opposite sides of equal length — but not all four sides equal. Only a square (a special rectangle) has all four sides equal. A typical rectangle is longer than it is wide, and that is perfectly valid. Assuming equal sides is a common overgeneralization from the familiar square."
 
 - question: "Why do mathematicians identify shapes by counting their sides and corners rather than by how they look? Give an example where relying on appearance alone would lead to a mistake."
   type: short-answer
-  answer: "Appearance depends on orientation, size, and proportion — all of which can vary without changing what a shape is. A triangle that is very flat and wide, or tilted at an odd angle, may not look like the 'standard' triangle a student pictures, but it still has 3 sides and 3 corners and is therefore a triangle. Counting attributes gives an objective rule that works regardless of how the shape is drawn. Example: a student relying on appearance might call a tilted rectangle a 'parallelogram' because it doesn't look 'upright,' when counting four sides and four right angles correctly identifies it as a rectangle."
+  answer: "Appearance depends on orientation, size, and proportion — all of which can vary without changing what a shape is. A triangle that is very flat and wide, or tilted at an odd angle, may not look like the 'standard' triangle a student pictures, but it still has 3 sides and 3 corners and is therefore a triangle. Counting attributes gives an objective rule that works regardless of how the shape is drawn. Example: a student relying on appearance might say a tilted square is a 'diamond' and not a square, when counting four equal sides and four right angles correctly identifies it as a square."
   explanation: "Attribute-based classification is the foundation of mathematical reasoning about shapes. It prepares students for later work where shapes appear in non-standard orientations, at varied scales, and in complex figures — contexts where visual intuition alone fails."
 ```
 

@@ -28,6 +28,11 @@ Reception history tracks how texts, ideas, and figures are received, interpreted
 ## How It's Best Learned
 Study how a single idea (democracy, nature, freedom, progress) is interpreted very differently in different historical periods and how earlier meanings constrain later ones.
 
+## Common Misconceptions
+- In reception history, every reading is as good as any other. (Reception historians can still note where a reading departs from its source; they treat the departure as something to explain rather than an error to correct.)
+- Reception history and contextual intellectual history are rival methods. (They work together: you need the original context to see what a later reading kept, dropped or changed.)
+- Reception happens only among scholars reading the original texts. (Translations, summaries, school textbooks, popular adaptations and images are all channels through which ideas are received, and often the main ones.)
+
 ## Questions
 
 ```yaml

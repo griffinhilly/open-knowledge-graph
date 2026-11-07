@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 Students learn to identify and name common three-dimensional shapes like cubes, spheres, cones, cylinders, and rectangular prisms. They explore these shapes by handling, rolling, and stacking them, discovering properties like flat and curved faces.
 
+## How It's Best Learned
+Put a set of solid shapes and matching household objects in a "feely bag." The learner reaches in without looking, describes what they feel ("flat circle on the bottom, a point on top"), names the shape, and then pulls it out to check. Afterward, they sort every object onto a mat with three areas: only flat faces, only curved surface, and both.
+
+## Common Misconceptions
+- A cube and a rectangular prism are completely different shapes. (A cube is a special rectangular prism whose edges are all the same length.)
+- Flat shapes and solid shapes have the same names, so a ball is a "circle" and a box is a "square." (A ball is a sphere and a box is a rectangular prism. Circle and square name flat shapes, such as a face of a solid.)
+- Every shape that rolls is a sphere. (A cylinder and a cone also roll on their curved surfaces, but each has at least one flat circular face.)
+
 ## Questions
 
 ```yaml
@@ -50,7 +58,7 @@ Students learn to identify and name common three-dimensional shapes like cubes, 
   answer: 1
   explanation: "Both shapes roll because both have curved surfaces, but the similarity ends there. A sphere is entirely curved — every point on its surface is curved. A cylinder combines a curved side with two flat circular ends. This is why a cylinder can balance upright on a table (resting on a flat end) while a sphere cannot — it will always roll. Shape identity is about surfaces, not just behaviors."
 
-- question: "A cube and a rectangular prism are mostly different kinds of shapes because a cube has equal sides and a rectangular prism does not."
+- question: "A cube and a rectangular prism are completely different kinds of shapes because a cube has equal sides and a rectangular prism does not."
   type: true-false
   answer: false
   explanation: "A cube is actually a special type of rectangular prism — one where all edges happen to be the same length. Both shapes have exactly 6 flat faces, 8 corners, and 12 edges, and neither has any curved surfaces. The cube is a rectangular prism with equal dimensions. Saying they are 'completely different' overstates a subtle distinction in one attribute."

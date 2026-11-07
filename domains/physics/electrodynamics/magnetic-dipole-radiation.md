@@ -19,7 +19,15 @@ status: validated
 # Magnetic Dipole and Quadrupole Radiation
 
 ## Core Idea
-When electric dipole moment vanishes, magnetic dipole moment m and electric quadrupole moment Q contribute to radiation. These higher multipoles are suppressed by factors of (a/c)² relative to dipole radiation. Important in nuclear and atomic transitions where dipole selection rules forbid dipole transitions.
+When electric dipole moment vanishes, magnetic dipole moment m and electric quadrupole moment Q contribute to radiation. These higher multipoles are suppressed by factors of (a/λ)² relative to dipole radiation. Important in nuclear and atomic transitions where dipole selection rules forbid dipole transitions.
+
+## How It's Best Learned
+Set the two power formulas side by side: ⟨P_E1⟩ = μ₀p₀²ω⁴/(12πc) and ⟨P_M1⟩ = μ₀m₀²ω⁴/(12πc³). Their ratio is m₀²/(p₀c)². For a charge q moving at speed v in a loop of size a, m ~ qva and p ~ qa, so the ratio is about (v/c)². Then sketch both patterns and mark which field, E or B, lies along each direction.
+
+## Common Misconceptions
+- A source with zero electric dipole moment does not radiate. (It can still radiate through its magnetic dipole and electric quadrupole moments, only more weakly.)
+- Magnetic dipole radiation is weak because magnetic fields are weaker than electric fields. (The suppression comes from the source. The currents that make m involve charges moving at v ≪ c, which brings the factor (v/c)².)
+- M1 and E2 are of the same order, so they obey the same selection rules. (Both leave parity unchanged, but M1 carries one unit of angular momentum and E2 carries two. Different pairs of states are linked by each.)
 
 ## Questions
 
@@ -68,4 +76,4 @@ The **magnetic dipole** contribution comes from an oscillating magnetic dipole m
 
 The **electric quadrupole** moment Q involves the second moments of the charge distribution. Physically, it captures how elongated or flattened the charge distribution is along various axes. An oscillating quadrupole (like two opposite dipoles canceling each other) radiates with a different angular pattern (∝ sin²θ cos²θ for the simplest case) and the same (v/c)² suppression relative to electric dipole. Both M1 and E2 radiation are weaker than E1 by the same order of magnitude, but they are not identical — they have different angular distributions and different selection rules governing which quantum states can transition via each mechanism.
 
-This hierarchy — E1 dominant, then M1 and E2, then M2 and E3, etc. — is essential in spectroscopy. In atomic transitions, quantum mechanical **selection rules** forbid the electric dipole transition between certain pairs of states (when Δl ≠ ±1 or ΔS ≠ 0 in the non-relativistic limit). These "forbidden" transitions still occur, but at rates suppressed by (a₀/λ)² ∼ (α)², where α ≈ 1/137 is the fine structure constant. The result is metastable excited states with lifetimes of milliseconds or longer instead of nanoseconds. Astronomers observe such transitions in nebulae (e.g., the green forbidden lines of [O III]) under the ultra-low-collision conditions of interstellar space, where atoms have time to radiate via the slow quadrupole channel.
+This hierarchy — E1 dominant, then M1 and E2, then M2 and E3, etc. — is essential in spectroscopy. In atomic transitions, quantum mechanical **selection rules** forbid the electric dipole transition between certain pairs of states (when Δl ≠ ±1 or ΔS ≠ 0 in the non-relativistic limit). These "forbidden" transitions still occur, but at rates suppressed by (a₀/λ)² ∼ (α)², where α ≈ 1/137 is the fine structure constant. The result is metastable excited states with lifetimes of milliseconds or longer instead of nanoseconds. Astronomers observe such transitions in nebulae (e.g., the green forbidden lines of [O III]) under the ultra-low-collision conditions of interstellar space, where atoms have time to radiate via the slow M1 or E2 channel.

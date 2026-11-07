@@ -19,6 +19,15 @@ status: validated
 ## Core Idea
 The Möbius function μ(n) is 0 if n has a squared prime factor, and (-1)^k if n is a product of k distinct primes. Möbius inversion states: if g(n) = Σ_{d|n} f(d), then f(n) = Σ_{d|n} μ(n/d)g(d), enabling inversion of divisor sums.
 
+## How It's Best Learned
+Start by tabulating μ(n) for n = 1 to 30 by factoring each number. Then check Σ_{d|n} μ(d) = 0 by hand for n = 12 and n = 30. Finally, run the inversion on a known identity: from n = Σ_{d|n} φ(d), compute φ(12) = μ(12)·1 + μ(6)·2 + μ(4)·3 + μ(3)·4 + μ(2)·6 + μ(1)·12 = 0 + 2 + 0 − 4 − 6 + 12 = 4.
+
+## Common Misconceptions
+- μ(n) is (−1) raised to the number of prime factors counted with multiplicity. (If any prime appears to a power of 2 or more, μ(n) = 0. Only squarefree n get ±1, by the count of distinct primes.)
+- μ(1) = 0 because 1 has no prime factors. (μ(1) = 1, since 1 is the product of zero primes and (−1)^0 = 1.)
+- Möbius inversion only works for multiplicative functions. (It holds for any arithmetic function f. Multiplicativity helps with computation, not with the validity of the formula.)
+- The inversion formula is f(n) = Σ_{d|n} μ(d)g(d). (The arguments must pair up: f(n) = Σ_{d|n} μ(n/d)g(d), or equivalently Σ_{d|n} μ(d)g(n/d).)
+
 ## Questions
 
 ```yaml

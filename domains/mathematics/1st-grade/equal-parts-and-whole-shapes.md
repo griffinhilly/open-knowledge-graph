@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Students learn that shapes can be divided into equal parts (halves, thirds, quarters) and understand that these parts make up the whole when combined. Understanding that 'half' means one of two equal parts is foundational for fractions.
 
+## How It's Best Learned
+Have the learner fold paper rectangles and circles, then cut along the folds. For halves, they lay one piece on top of the other to check that the two pieces match. Then they cut a second rectangle into two unequal pieces and do the same check. They see that two pieces are not always halves. Last, they fit all the pieces back together to remake each whole.
+
+## Common Misconceptions
+- Any shape cut into two pieces is cut into halves. (Halves are two pieces of the same size. A big piece and a small piece are not halves.)
+- The halves of a rectangle must always be rectangles, so a triangle cannot be half of a rectangle. (A rectangle cut corner to corner makes two triangles that are halves, and a cut across the middle makes two rectangles that are also halves.)
+- More pieces means more of the shape. (Four quarters put together make the same whole as two halves.)
+
 ## Questions
 
 ```yaml

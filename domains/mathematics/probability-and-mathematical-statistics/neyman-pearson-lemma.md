@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 For testing H₀: θ = θ₀ vs H₁: θ = θ₁, the most powerful test rejects H₀ when L(θ₁|X)/L(θ₀|X) > k for some k determined by the significance level. The Neyman-Pearson lemma characterizes the optimal test in terms of likelihood ratios. This is the foundation for constructing best hypothesis tests.
 
+## How It's Best Learned
+Build the test by hand for 10 coin flips, H₀: p = 0.5 vs H₁: p = 0.7. Tabulate the likelihood ratio for each head count k, then add outcomes to the rejection region in order of decreasing ratio. Stop before the size would pass α = 0.05: {k ≥ 9} has size 11/1024 ≈ 0.011, {k ≥ 8} has size 56/1024 ≈ 0.055. Then compute the power of {k ≥ 9} under p = 0.7, about 0.15.
+
+## Common Misconceptions
+- The test rejects H₀ whenever the likelihood ratio exceeds 1, that is, whenever H₁ explains the data better. (The threshold k is chosen so the test has size α. In the coin example, the size-11/1024 test rejects only when the ratio is at least about 12.4.)
+- A nonrandomized test can always be tuned to have size exactly α. (With discrete data the attainable sizes jump, as from 11/1024 to 56/1024 in the coin example. Hitting α exactly requires randomizing on the boundary outcome.)
+- "Most powerful" means the test has high power. (It means no other test of the same size has higher power. In the coin example the best test at size 11/1024 still detects p = 0.7 only about 15% of the time.)
+- The lemma directly gives the best test against a composite alternative such as p > 0.5. (It covers one simple alternative at a time. A test is uniformly most powerful only if the same rejection region is optimal for every alternative value.)
+
 ## Questions
 
 ```yaml

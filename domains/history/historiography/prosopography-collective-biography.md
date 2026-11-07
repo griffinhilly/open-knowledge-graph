@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Prosopography systematically studies a group of individuals—all Roman senators, all 16th-century merchants, all colonial administrators—to understand broader patterns and social structure. By creating biographical databases with information on family, office, wealth, and connections, prosopographers reveal social mobility, networks, and power structures invisible in single biographies.
 
+## How It's Best Learned
+Build a small database by hand. Take the consuls of one Roman decade, fix five fields in advance (family origin, prior offices, known marriage ties, region, whether a "new man"), and fill them from a reference list. Write the coding rules before you start. Then note how many cells stay blank, and how the answer would shift if blanks were read as "no."
+
+## Common Misconceptions
+- The group to study is given by the sources. (The historian draws the boundary, and a category such as "merchant" or "noble" may have been porous or contested at the time.)
+- A blank field means the person lacked that trait. (Usually it means the trait went unrecorded, so missing data has to be reported and handled, not read as absence.)
+- Prosopography can be used only for elites. (It works best for well-recorded groups, but historians have applied it to non-elite populations where tax rolls, parish registers or court records name many people.)
+
 ## Questions
 
 ```yaml

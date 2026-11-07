@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 When the minute hand points to 6 (halfway around the clock), it is 'half past' the hour (2:30, 3:30, etc.). This extends time-telling skills and introduces fractional thinking about hours.
 
+## How It's Best Learned
+Fold a paper clock face along the line from 12 to 6 to show that the 6 marks half of one trip around. Then use a geared clock: set 2:00, turn the long hand to the 6, and have the learner point out that the short hand now sits halfway between 2 and 3. Finish with a mixed set of whole-hour and half-hour times to read aloud, such as 5:00, 5:30 and 6:00.
+
+## Common Misconceptions
+- When the long hand points to 6, the time is 6:30 or 6 o'clock. (The 6 under the long hand means 30 minutes. Read the hour from the short hand.)
+- At 4:30 the hour hand is between 4 and 5, so the time could be 5:30. (Read the number the short hand has already passed. Between 4 and 5 means 4:30.)
+- At half past, the short hand still points right at the hour number. (The short hand moves the whole hour. At 3:30 it is halfway between 3 and 4.)
+
 ## Questions
 
 ```yaml
@@ -73,6 +81,6 @@ You already know how to tell time when the minute hand points straight up to the
 
 This is why "half past" means 30 minutes. The word "half" refers to half of an hour, and an hour has 60 minutes, so half an hour is 30 minutes. When you see the minute hand pointing straight down at the 6, you always know it's 30 minutes past whatever hour the short (hour) hand is near. If the hour hand is between the 2 and the 3, the time is 2:30 — "half past two."
 
-Here's a helpful picture: imagine the clock as a pizza cut in half. The top half goes from the 12 over to the 6. The bottom half goes from the 6 back to the 12. The minute hand sweeps through the top half during the first 30 minutes of each hour, and through the bottom half during the last 30 minutes. When it finishes the top half and reaches the 6, half an hour is done.
+Here's a helpful picture: imagine the clock as a pizza cut in half. The right half goes from the 12 down to the 6. The left half goes from the 6 back up to the 12. The minute hand sweeps through the right half during the first 30 minutes of each hour, and through the left half during the last 30 minutes. When it finishes the right half and reaches the 6, half an hour is done.
 
 One thing to watch carefully: the **hour hand** (the short one) moves too, just much more slowly. At exactly 2:00, the hour hand points right at the 2. By the time 30 minutes have passed and it's 2:30, the hour hand has crept halfway between the 2 and the 3. So at half-past times, the hour hand is always between two numbers — not pointing directly at one. You read the hour from the number the hour hand just passed, not the one it's headed toward.

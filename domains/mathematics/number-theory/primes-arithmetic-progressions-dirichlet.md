@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 If gcd(a,d) = 1, there are infinitely many primes p ≡ a (mod d). The proof uses Dirichlet characters and L-functions, showing primes equidistribute among allowed residue classes.
 
+## How It's Best Learned
+Work the case d = 4 in full before the general proof. There is one non-principal character χ, with χ(1) = 1, χ(3) = −1 and χ(even) = 0, and L(1, χ) = 1 − 1/3 + 1/5 − … = π/4 ≠ 0. Then check that ½(log ζ(s) + log L(s, χ)) equals the sum of p^(−s) over primes p ≡ 1 (mod 4), up to a term that stays bounded as s → 1⁺.
+
+## Common Misconceptions
+- Equal shares means each eligible class has the same count at every x. (The equal split is a limit. Below 100 there are 11 primes ≡ 1 (mod 4) and 13 primes ≡ 3 (mod 4).)
+- Euclid's argument can be adapted to prove every case. (Euclid-style arguments handle some classes, such as 3 mod 4, but Dirichlet's proof of the general theorem uses characters and L-functions.)
+- Any odd class mod 10 contains infinitely many primes. (Class 5 mod 10 fails because every term is divisible by 5. Only classes with gcd(a, d) = 1 qualify.)
+
 ## Questions
 
 ```yaml
@@ -67,7 +75,7 @@ Start with a basic observation from your study of congruences: the integers modu
 
 Dirichlet's Theorem answers this decisively: if gcd(a, d) = 1 — that is, if a and d share no common factor — then the arithmetic progression a, a+d, a+2d, a+3d, ... contains infinitely many primes. The condition gcd(a, d) = 1 is exactly the right condition: if gcd(a, d) = k > 1, then every element of the progression is divisible by k, so only finitely many (if any) can be prime. Beyond this, though, Dirichlet guarantees primes spread out across all the "eligible" residue classes — not just some of them.
 
-The proof strategy draws on the Dirichlet series and L-functions you've studied. The key tool is **Dirichlet characters** — completely multiplicative functions χ: ℤ → ℂ that are periodic mod d and encode information about residue classes. From these characters, Dirichlet constructed **L-functions** L(s, χ) = ∑ χ(n)/n^s, analytic relatives of the Riemann zeta function. The central step of the proof shows that log(number of primes ≤ x in the progression a mod d) grows like (1/φ(d)) · log log x, where φ(d) is Euler's totient — the count of residue classes coprime to d. Since this diverges, there must be infinitely many such primes.
+The proof strategy draws on the Dirichlet series and L-functions you've studied. The key tool is **Dirichlet characters** — completely multiplicative functions χ: ℤ → ℂ that are periodic mod d and encode information about residue classes. From these characters, Dirichlet constructed **L-functions** L(s, χ) = ∑ χ(n)/n^s, analytic relatives of the Riemann zeta function. The central step of the proof shows that the sum of 1/p over primes p ≤ x in the progression a mod d grows like (1/φ(d)) · log log x, where φ(d) is Euler's totient — the count of residue classes coprime to d. Since this diverges, there must be infinitely many such primes.
 
 A stronger result, the **Prime Number Theorem for Arithmetic Progressions**, refines this: among primes up to x, approximately x/(φ(d) · ln x) lie in each eligible class mod d. Primes don't just appear infinitely often in each valid class — they appear *equally often* in the long run, a phenomenon called **equidistribution**. This is remarkable: the primes, despite their irregular individual behavior, are perfectly democratic among residue classes when viewed in aggregate.
 

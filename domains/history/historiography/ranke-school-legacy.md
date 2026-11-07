@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Leopold von Ranke (1795–1886) founded academic history as a discipline through rigorous documentary research and critical methodology. His seminar model, archival practices, and ideal of 'wie es eigentlich gewesen' shaped the profession worldwide. Yet Ranke's positivism and Eurocentrism have been critiqued. Understanding Ranke means recognizing both the rigorous standards he established and the limitations of his framework.
 
+## How It's Best Learned
+Make a two-column table. In the first, list what a modern history PhD still takes from the Rankean seminar: archival research, footnotes, source criticism, an original thesis. In the second, list what later fields changed: whose lives count, what counts as evidence, how openly the historian states a standpoint. Then take the introduction to one social history study and mark which Rankean tools it turns on non-state sources.
+
+## Common Misconceptions
+- Ranke invented the critical testing of documents. (Earlier scholars such as Jean Mabillon set out rules for judging charters in the seventeenth century; Ranke's achievement was to build criticism into university training.)
+- Later historians threw out Ranke's methods along with his focus on states. (Social, feminist and postcolonial historians kept archival research and source criticism while widening the subjects and sources.)
+- The label "positivist" fits Ranke in the same sense it fits Comte. (Ranke sought no general laws of society, and he held that every epoch stands "immediate to God," so the label is applied to him in a looser, contested sense.)
+
 ## Questions
 
 ```yaml

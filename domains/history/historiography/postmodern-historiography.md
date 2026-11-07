@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Postmodern critiques question whether historians can represent the past accurately, whether evidence has fixed meaning, and whether grand narratives are naive illusions. Thinkers like Foucault deny progressive historical knowledge. Yet extreme postmodernism risks collapsing historical knowledge into fiction. Modern historiography asks: How should historians respond to postmodern skepticism while maintaining rigorous standards?
 
+## How It's Best Learned
+Take one short chain of agreed facts, such as the main events of the French Revolution's summer of 1789. Write it once as a tragedy and once as a romance of liberation, using the same facts both times. Compare what each version stresses, omits and treats as the ending. Then list claims that neither version could make without breaking with the evidence.
+
+## Common Misconceptions
+- Hayden White argued that historians make up their facts. (White accepted that individual events can be established from evidence; his claim was that the plot shape given to those events is not dictated by the evidence.)
+- Postmodern theory means any account of the past is as good as any other. (Most historians who engage the critique hold that evidence still rules some claims out, even if it allows more than one narrative.)
+- Rejecting grand narratives means rejecting all narrative history. (Lyotard's "incredulity toward metanarratives" targeted overarching stories of progress or emancipation that claim to explain everything; smaller, local narratives remain open to historians.)
+
 ## Questions
 
 ```yaml

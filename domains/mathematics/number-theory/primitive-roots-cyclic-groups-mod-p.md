@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 A primitive root mod p is an integer g whose powers g^1, g^2, ..., g^(p-1) exhaust all nonzero residues mod p. Equivalently, g has order p-1. Every prime p has primitive roots, making (Z/pZ)* cyclic of order p-1.
 
+## How It's Best Learned
+Compute the order of every residue mod 13 and tally them. You should find 1, 1, 2, 2, 2 and 4 elements of orders 1, 2, 3, 4, 6 and 12, which is φ(d) for each divisor d of 12. The four of order 12 are 2, 6, 7 and 11. This tally shows the shape of the existence proof: x^d − 1 has at most d roots mod p, and the φ(d) sum to p − 1.
+
+## Common Misconceptions
+- Fermat's Little Theorem already proves that primitive roots exist. (It only shows every order divides p − 1. Existence needs a further argument, such as the bound on roots of x^d − 1.)
+- The smallest primitive root mod a prime is 2. (Mod 7, 2 has order 3, so the smallest primitive root is 3.)
+- Because the group is cyclic, discrete logarithms are easy to compute. (Cyclicity guarantees each logarithm exists. Finding it for large p is believed to be hard.)
+
 ## Questions
 
 ```yaml

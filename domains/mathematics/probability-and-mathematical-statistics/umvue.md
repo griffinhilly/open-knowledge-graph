@@ -22,7 +22,16 @@ status: validated
 # Uniformly Minimum Variance Unbiased Estimation (UMVUE)
 
 ## Core Idea
-A UMVUE is an unbiased estimator with minimum variance among all unbiased estimators. By the Cramer-Rao bound, no unbiased estimator can have variance less than 1/I(θ). A necessary condition for a UMVUE is that it's a function of a complete sufficient statistic. UMVUEs need not always exist, and when they do, they are often difficult to find.
+A UMVUE is an unbiased estimator with minimum variance among all unbiased estimators. By the Cramer-Rao bound, no unbiased estimator can have variance less than 1/I(θ). A sufficient condition for a UMVUE is that it is an unbiased function of a complete sufficient statistic (Lehmann-Scheffé). UMVUEs need not always exist, and when they do, they are often difficult to find.
+
+## How It's Best Learned
+Run the two-step recipe on Uniform(0, θ). The maximum M is complete and sufficient, and E[M] = nθ/(n + 1), so (n + 1)M/n is the UMVUE. Compare it with the unbiased 2X̄. Their variances are θ²/(n(n + 2)) and θ²/(3n), which for n = 10 gives θ²/120 against θ²/30. Then repeat for Poisson data, where X̄ attains the Cramér-Rao bound λ/n.
+
+## Common Misconceptions
+- The UMVUE is the best estimator available. (It is best among unbiased estimators. A biased shrinkage or Bayes estimator can have lower mean squared error.)
+- Every parameter has some unbiased estimator to improve on. (For X ~ Binomial(n, p), E[h(X)] is a polynomial in p of degree at most n, so 1/p has no unbiased estimator at all.)
+- If T is the UMVUE of θ, then g(T) is the UMVUE of g(θ). (g(T) is usually biased. With normal data, E[X̄²] = μ² + σ²/n, so X̄² overestimates μ² on average.)
+- A UMVUE must attain the Cramér-Rao bound. (For Poisson data, the UMVUE of e^(−λ) is ((n − 1)/n)^ΣXᵢ, and its variance stays above the bound. The minimum among unbiased estimators can sit above the floor.)
 
 ## Questions
 

@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Gauss's law elegantly solves for electric fields when charge distributions possess symmetry (spherical, cylindrical, or planar). Rather than integrating the Coulomb field contribution from each charge element, Gauss's law uses flux through a carefully chosen Gaussian surface to find the total field. This approach reveals how symmetry dramatically simplifies electrostatics problems.
 
+## How It's Best Learned
+Start with a uniformly charged solid sphere of radius R and charge Q. A Gaussian sphere of radius r encloses Q(r/R)³ when r < R and all of Q when r > R. This gives E = Qr/(4πε₀R³) for r < R and Q/(4πε₀r²) for r > R. Plot E against r and see it peak at R. Then repeat for a long uniform cylinder and a thick slab.
+
+## Common Misconceptions
+- Zero flux through a Gaussian surface means E is zero everywhere on it. (Zero net flux only means zero net enclosed charge. Field from outside charges can enter and leave the surface.)
+- Charges outside the Gaussian surface do not affect the field on it. (They change E on the surface. They only add nothing to the net flux.)
+- The field inside a uniformly charged solid sphere is zero, as it is inside a shell. (Inside a solid sphere the enclosed charge grows as r³, so E rises linearly with r. A shell's field is zero throughout its hollow; a solid sphere's field is zero only at its center.)
+
 ## Questions
 
 ```yaml

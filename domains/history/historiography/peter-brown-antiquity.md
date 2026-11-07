@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Peter Brown's historiography of late antiquity reframed the 'Fall of Rome' from catastrophe to profound transformation. By attending to non-Roman agency, continuities within change, and creative syncretism, Brown showed how apocalyptic narratives can obscure what was actually happening. His work exemplifies how historiographical frameworks shape what becomes visible in evidence and how historians' interpretive choices determine what stories emerge from the past.
 
+## How It's Best Learned
+Put a passage from Gibbon on monks and the cult of saints beside a few pages of Brown's 1971 essay on the holy man in late antiquity. List the evidence each author draws on and the words each uses for the same figures. Then read one short saint's life and ask what social work the holy man does in his village: arbitration, patronage, healing.
+
+## Common Misconceptions
+- Brown argued that Rome never fell. (He accepted the political collapse of the Western Empire and argued that decline was the wrong lens for the period's culture and religion.)
+- "Transformation" means nothing was lost in late antiquity. (Brown's focus was cultural and religious creativity; critics such as Bryan Ward-Perkins argue that the transformation model understates the material losses in the post-Roman West.)
+- Saints' lives are pious fiction with no value as historical evidence. (Read for what they assume about society, they show how communities used holy people as patrons and mediators, whatever the truth of the miracles.)
+
 ## Questions
 
 ```yaml

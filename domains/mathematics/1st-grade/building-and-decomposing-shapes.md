@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 Students combine smaller shapes to create larger ones and break larger shapes into smaller ones. For example, they might put two triangles together to make a larger triangle or square. This develops spatial reasoning and understanding of how shapes relate to each other.
 
+## How It's Best Learned
+Use pattern blocks with a hexagon outline drawn on paper. The learner fills the outline first with 2 trapezoids, then with 3 rhombuses, then with 6 triangles. Each time, they lift the pieces off and put the hexagon block back on top to check that it covers the same space. Then they work in the other direction and build a new shape from the pieces.
+
+## Common Misconceptions
+- A shape can be broken into pieces in only one correct way. (A hexagon can be split into 2 trapezoids, 3 rhombuses, or 6 triangles, and each way is correct.)
+- Cutting a shape into more pieces makes more shape. (The pieces cover the same space as the whole. Nothing is added or lost.)
+- Any two triangles can be put together to make a rectangle. (Two triangles can form a rectangle only if they are matching right triangles joined along their longest sides.)
+
 ## Questions
 
 ```yaml

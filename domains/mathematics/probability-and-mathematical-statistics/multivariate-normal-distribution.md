@@ -30,6 +30,15 @@ status: validated
 ## Core Idea
 A random vector X ~ N(μ, Σ) has characteristic function φ(t) = exp(it'μ - ½t'Σt). The MVN is closed under linear transformations and marginals. A joint distribution is MVN if every linear combination of components is univariate normal. The MVN is fundamental in statistical inference because the sample mean vector is MVN for large samples.
 
+## How It's Best Learned
+Start in two dimensions with Σ = [[1, ρ], [ρ, 1]] and sketch the density contours for ρ = 0 and ρ = 0.8: circles turn into tilted ellipses. Then build X = μ + AZ from independent standard normals Z, so Σ = AAᵀ. Check the quadratic form by hand: Var(X₁ + X₂) = aᵀΣa with a = (1, 1), which gives 2 + 2ρ = 3.6 when ρ = 0.8.
+
+## Common Misconceptions
+- If each component is normal, the vector is multivariate normal. (Joint normality needs every linear combination to be normal. X₂ = S·X₁ with an independent random sign S has normal marginals, but X₁ + X₂ equals 0 with probability 1/2.)
+- Uncorrelated normal variables are independent. (This holds when they are jointly normal. In the random-sign example, Cov(X₁, X₂) = 0, yet |X₂| = |X₁|, so they are dependent.)
+- Every multivariate normal has a density formula. (When Σ is singular, the distribution sits on a lower-dimensional subspace and has no density on ℝⁿ. It is still MVN under the linear-combination definition.)
+- Conditioning on X₂ = x₂ changes the spread of X₁ by an amount that depends on x₂. (The conditional mean shifts with x₂, but the conditional covariance Σ₁₁ − Σ₁₂Σ₂₂⁻¹Σ₂₁ is the same for every observed value.)
+
 ## Questions
 
 ```yaml

@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 When electric dipole radiation vanishes (e.g., for parity reasons), magnetic dipole and electric quadrupole radiation become important. These higher-order multipoles radiate much more weakly, falling off as higher powers of frequency and size relative to wavelength. Understanding multipole radiation is essential for atomic physics, nuclear physics, and analyzing radiation from complex current distributions.
 
+## How It's Best Learned
+Make a table of what each multipole carries: E1 has L = 1 with a parity change, M1 has L = 1 without one, and E2 has L = 2 without one. Classify transitions with the rule |J_i − J_f| ≤ L ≤ J_i + J_f. A 0⁺ → 2⁺ transition needs E2, and ½⁺ → ½⁺ allows only M1. Then estimate (ka)² for a = 0.1 nm and λ = 500 nm: about 1.6×10⁻⁶.
+
+## Common Misconceptions
+- A forbidden transition cannot happen. (It means the E1 route is closed. The state can still decay by a higher multipole such as M1 or E2, only far more slowly.)
+- Magnetic dipole radiation has a four-lobed pattern, unlike the electric dipole. (M1 has the same sin²θ pattern as E1 with E and B swapped. The four-lobed pattern belongs to E2.)
+- Higher multipole fields fall off faster with distance in the radiation zone, and that is why they are weak. (Every multipole's radiation field falls as 1/r far away. They are weak because each order brings an extra factor of about ka in amplitude.)
+- A 0 → 0 transition can always go through some higher multipole. (A single photon carries at least one unit of angular momentum, so no one-photon transition connects two J = 0 states.)
+
 ## Questions
 
 ```yaml

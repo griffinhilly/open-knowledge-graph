@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Faraday's law states that the induced electric field (and EMF) around a closed loop equals the negative rate of change of magnetic flux through the loop. This law is fundamental to understanding electromagnetic induction, AC generators, transformers, and the interaction between time-varying magnetic and electric fields. It reveals the deep coupling between electricity and magnetism.
 
+## How It's Best Learned
+Work the long solenoid of radius R with a growing field B(t). Apply ∮ E · dl = −dΦ_B/dt to a circle of radius r around the axis: E = (r/2)|dB/dt| inside and E = (R²/2r)|dB/dt| outside. Then take a small loop beside the solenoid that does not enclose it. E is nonzero along it, but its circulation is zero.
+
+## Common Misconceptions
+- A loop outside a solenoid gets no EMF because B is zero on the wire. (The EMF depends on the flux through the loop. A loop that encircles the solenoid has changing flux and an EMF.)
+- Any loop near a changing solenoid picks up an EMF. (A loop that does not enclose the solenoid has no flux change. The induced E is present along it, but its line integral around the loop is zero.)
+- An induced EMF is a potential difference between two points, like a battery's terminal voltage. (The induced E has nonzero curl, so it has no single-valued potential. A voltmeter's reading can depend on the path its leads take.)
+- The minus sign in Faraday's law is a sign convention with no physics in it. (It is Lenz's law: the induced current opposes the change in flux, as energy conservation requires.)
+
 ## Questions
 
 ```yaml
@@ -71,6 +80,6 @@ From your study of Faraday's law and magnetic flux, you know that a changing mag
 
 The left side — a line integral of E around a closed loop — measures the **circulation** of the electric field. In electrostatics, this integral is always zero: conservative fields do zero net work around any closed path. But the equation says this integral equals −dΦ_B/dt, which is generally nonzero. The implication is profound: when a magnetic field changes in time, it creates an electric field whose field lines close on themselves — a **non-conservative** electric field with no starting or ending charges. This is qualitatively different from the Coulomb field, which always begins on positive charges and ends on negative ones.
 
-A concrete example: imagine a long solenoid being turned on. Inside the solenoid, B increases. But even *outside* the solenoid, where B = 0, there is a circulating electric field induced by the changing flux inside. The field lines of this induced E form closed rings centered on the solenoid axis. A conducting loop placed anywhere in this region would experience an EMF and carry a current, even though it sits in zero magnetic field. The source of the EMF is not a local field — it is the changing flux threading through the loop's interior. This is the conceptual content the line integral form captures precisely.
+A concrete example: imagine a long solenoid being turned on. Inside the solenoid, B increases. But even *outside* the solenoid, where B = 0, there is a circulating electric field induced by the changing flux inside. The field lines of this induced E form closed rings centered on the solenoid axis. A conducting loop that encircles the solenoid would experience an EMF and carry a current, even though it sits in zero magnetic field. The source of the EMF is not a local field — it is the changing flux threading through the loop's interior. This is the conceptual content the line integral form captures precisely.
 
 Applying Stokes' theorem to the integral form converts ∮ E · dl = −dΦ_B/dt into the differential (local) form: **∇ × E = −∂B/∂t**. This is one of Maxwell's four equations. It makes a local statement: wherever and whenever B changes in time, the electric field curls at that location. Combined with the Ampère-Maxwell law (∇ × B = μ₀J + μ₀ε₀∂E/∂t), these two curl equations form a coupled system. A changing B creates a curling E; a changing E creates a curling B. This mutual induction is the engine of electromagnetic waves, which propagate through space at speed c = 1/√(μ₀ε₀) even in vacuum. Faraday's law, expressed in its advanced form, is not just an engineering tool for calculating transformer EMFs — it is one of the four pillars of classical electrodynamics.

@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Methionine is activated to S-adenosylmethionine (SAM), the universal methyl donor for biosynthetic reactions. Cysteine is synthesized from serine and homocysteine and is a precursor for glutathione, taurine, and coenzyme A. Homocysteine is remethylated to methionine or converted to cysteine, linking these pathways to one-carbon metabolism.
 
+## How It's Best Learned
+Draw the methionine cycle as a loop: methionine → SAM (uses ATP) → SAH (methyl given away) → homocysteine → methionine (methionine synthase, B₁₂ and N⁵-methyl-THF). Add one exit arrow: homocysteine plus serine → cystathionine (B₆) → cysteine. Write each vitamin on its step. Then remove one vitamin at a time and trace where homocysteine piles up.
+
+## Common Misconceptions
+- Cysteine's carbon skeleton comes from methionine. (In transsulfuration, homocysteine supplies only the sulfur; cysteine's carbons and amino group come from serine.)
+- Cysteine can be turned back into methionine. (Transsulfuration is irreversible in humans, which is why methionine is essential and cysteine is only conditionally essential.)
+- Homocysteine is a protein building block like methionine and cysteine. (It is not one of the amino acids used in protein synthesis; it is an intermediate in the methionine cycle.)
+- High homocysteine points to one specific vitamin deficiency. (Low B₁₂, folate or B₆ can each raise it, and so can inherited enzyme defects such as cystathionine β-synthase deficiency.)
+
 ## Questions
 
 ```yaml

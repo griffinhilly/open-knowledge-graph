@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The social history movement (mid-20th century) shifted historical focus from political and military elites to ordinary people—workers, peasants, families, and communities. Historians like E.P. Thompson reconstructed working-class consciousness and culture through personal documents, court records, and oral testimony, arguing that history 'from below' revealed social change driven by popular agency rather than top-down decree.
 
+## How It's Best Learned
+Read the preface to *The Making of the English Working Class*, where Thompson sets out to rescue the stockinger, the Luddite cropper and the hand-loom weaver "from the enormous condescension of posterity." Then compare his Luddite chapter with a textbook account of the same years told through Parliament and the war with France. List what each treats as the cause of events and who appears as an actor.
+
+## Common Misconceptions
+- Social history is history with the politics left out. (That phrase is G. M. Trevelyan's older definition; the movement of the 1960s treated popular politics, protest and power as central to social life.)
+- History from below was a purely Marxist project. (Marxist historians were prominent, but demographic historians such as Peter Laslett and the Annales school also turned attention to ordinary lives.)
+- Court records let ordinary people speak in their own words. (Clerks recorded and often summarized testimony within legal forms, so these voices reach us filtered through the court.)
+
 ## Questions
 
 ```yaml

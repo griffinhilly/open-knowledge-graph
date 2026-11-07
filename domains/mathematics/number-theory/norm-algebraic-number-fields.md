@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 For α in a number field K/ℚ, the norm N(α) is the product of α's conjugates. The norm is multiplicative: N(αβ) = N(α)N(β), and maps the integer ring to ℤ.
 
+## How It's Best Learned
+Begin with quadratic fields, where N(a + b√d) = a² − db². Make a table of a² + 5b² for small a, b in ℤ[√−5] and notice that 2 and 3 never appear; that gap is what makes 2 and 3 irreducible. Then compute N(1 + √2) = −1 in ℤ[√2] to see a negative norm, and N(∛2) = ∛2 · ω∛2 · ω²∛2 = 2 in a cubic field.
+
+## Common Misconceptions
+- The norm is always a non-negative number, so units have norm 1. (That holds in imaginary quadratic fields like ℚ(i). In ℚ(√2), N(1 + √2) = 1 − 2 = −1, and 1 + √2 is a unit; in general units are the integers of norm ±1.)
+- If N(α) divides N(β), then α divides β. (Only the reverse direction holds. In ℤ[i], 1 + 2i and 1 − 2i both have norm 5, yet neither divides the other.)
+- The norm of α is the product of the distinct roots of α's minimal polynomial. (The product runs over all [K : ℚ] embeddings, so roots can repeat. In ℚ(i), N(3) = 3 · 3 = 9, not 3.)
+
 ## Questions
 
 ```yaml
@@ -41,17 +49,17 @@ For α in a number field K/ℚ, the norm N(α) is the product of α's conjugates
 - question: "What does multiplicativity of the norm — N(αβ) = N(α)N(β) — immediately imply about the units of the ring of integers 𝒪_K?"
   type: multiple-choice
   options:
-    - "Every element of norm 1 is a unit, and every unit has norm 1"
+    - "Every element of norm ±1 is a unit, and every unit has norm ±1"
     - "Units must have prime norm, since prime elements generate the group of units"
     - "Only elements of norm 0 are units, since the norm of zero is 0"
     - "The norm of a unit can be any positive integer depending on the field"
   answer: 0
-  explanation: "If α is a unit in 𝒪_K, then αβ = 1 for some β ∈ 𝒪_K. Applying the norm: N(α)N(β) = N(1) = 1. Since norms are integers, N(α) | 1, so N(α) = 1 (as norms are positive). Conversely, if N(α) = 1, then α divides 1 (a constructive argument shows the inverse lies in 𝒪_K), so α is a unit. This characterizes units exactly as norm-1 elements — for ℤ[i], that gives {1, −1, i, −i}, exactly the four Gaussian units of norm 1."
+  explanation: "If α is a unit in 𝒪_K, then αβ = 1 for some β ∈ 𝒪_K. Applying the norm: N(α)N(β) = N(1) = 1. Since norms of algebraic integers are integers, N(α) | 1, so N(α) = ±1. Conversely, if N(α) = ±1, then α divides 1 (a constructive argument shows the inverse lies in 𝒪_K), so α is a unit. This characterizes units exactly as the elements of norm ±1. In imaginary quadratic fields norms are non-negative, so units have norm 1; for ℤ[i] that gives {1, −1, i, −i}. In real quadratic fields a unit can have norm −1, as N(1 + √2) = −1 shows."
 
 - question: "If N(α) divides N(β) in ℤ, then α divides β in the ring of integers 𝒪_K."
   type: true-false
   answer: false
-  explanation: "Norm divisibility is a necessary but not sufficient condition for ring divisibility. If α | β in 𝒪_K, then N(α) | N(β) in ℤ — this is the useful direction for proving non-divisibility. But the converse fails. For example, in ℤ[√−5], N(2) = 4 divides N(2 + 2√−5) = 4 + 20 = 24, but 2 does not divide 2 + 2√−5 in ℤ[√−5] because (2 + 2√−5)/2 = 1 + √−5 ∈ ℤ[√−5]. Wait — actually that does work. A cleaner example: N(3) = 9 divides N(6) = 36, but 3 does divide 6 in ℤ[√−5]. The point is that norm divisibility is necessary, not sufficient: you can't conclude α | β from norm divisibility alone without additional work."
+  explanation: "Norm divisibility is a necessary but not sufficient condition for ring divisibility. If α | β in 𝒪_K, then N(α) | N(β) in ℤ — this is the useful direction for proving non-divisibility. But the converse fails. For example, in ℤ[i], N(1 + 2i) = 5 divides N(1 − 2i) = 5, but (1 − 2i)/(1 + 2i) = (−3 − 4i)/5 is not a Gaussian integer, so 1 + 2i does not divide 1 − 2i. Norm divisibility is necessary, not sufficient: you can't conclude α | β from norm divisibility alone."
 
 - question: "The multiplicativity of the norm N(αβ) = N(α)N(β) is what makes it a useful tool for studying divisibility in rings of integers of number fields."
   type: true-false

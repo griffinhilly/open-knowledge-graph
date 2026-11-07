@@ -23,10 +23,18 @@ status: validated
 ## Core Idea
 Multipole expansion approximates far-field potentials of localized charge and current distributions. The monopole (total charge) provides the leading 1/r term. The dipole moment p provides the next 1/r² term. This systematic expansion clarifies which properties of sources dominate at different distances.
 
+## How It's Best Learned
+Compute Q and p for small sets of point charges. For +q at x = a and −q at x = −a, Q = 0 and p = 2qa x̂. On the x axis the exact potential is kq·2a/(x² − a²), against the dipole value 2kqa/x², so they differ by about 1% at x = 10a. Then place +q at (±a, 0) and −q at (0, ±a), where Q and p both vanish.
+
+## Common Misconceptions
+- The dipole moment points from the positive charge to the negative one. (In physics, p = Σ qᵢrᵢ points from the negative charge toward the positive charge. Some chemistry texts draw the arrow the other way.)
+- A neutral, spherically symmetric charge distribution still produces a quadrupole field far away. (Spherical symmetry makes every moment beyond Q vanish. With Q = 0 the potential outside it is exactly zero.)
+- The dipole term is always much smaller than the monopole term. (That holds only far from the source. At distances comparable to its size the dipole and higher terms can be just as large.)
+
 ## Questions
 
 ```yaml
-- question: "A neutral atom has perfectly symmetric electron distribution so its center of positive charge exactly coincides with its center of negative charge. Far from this atom, which term in the multipole expansion dominates the electric potential?"
+- question: "A neutral atom has a non-spherical electron distribution whose center of negative charge exactly coincides with its center of positive charge. Far from this atom, which term in the multipole expansion dominates the electric potential?"
   type: multiple-choice
   options:
     - "Monopole (1/r) — it always dominates at large distances regardless of net charge"
@@ -34,7 +42,7 @@ Multipole expansion approximates far-field potentials of localized charge and cu
     - "Quadrupole (1/r³) — because both the monopole and dipole terms vanish for this distribution"
     - "None — a perfectly neutral, symmetric atom produces zero electric potential at any distance"
   answer: 2
-  explanation: "The monopole term requires Q ≠ 0 (nonzero net charge) — it vanishes here because the atom is neutral. The dipole term requires p ≠ 0 (nonzero dipole moment, meaning separated centers of charge) — it vanishes here because the distribution is perfectly symmetric, so the centers of positive and negative charge coincide. The first nonzero contribution is therefore the quadrupole term (~1/r³), which responds to the shape of the charge distribution even when it is neutral and symmetric. This hierarchical logic — check monopole, then dipole, then quadrupole — is the operational procedure of multipole expansion."
+  explanation: "The monopole term requires Q ≠ 0 (nonzero net charge) — it vanishes here because the atom is neutral. The dipole term requires p ≠ 0 (nonzero dipole moment, meaning separated centers of charge) — it vanishes here because the centers of positive and negative charge coincide. The first nonzero contribution is therefore the quadrupole term (~1/r³), which responds to the non-spherical shape of the charge distribution even when it is neutral and has no dipole moment. This hierarchical logic — check monopole, then dipole, then quadrupole — is the operational procedure of multipole expansion."
 
 - question: "Why does the dipole potential fall off as 1/r² (faster than the monopole's 1/r) at large distances?"
   type: multiple-choice

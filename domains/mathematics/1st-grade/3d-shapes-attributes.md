@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Three-dimensional shapes (cubes, rectangular prisms, spheres, cylinders, cones) have faces (flat surfaces), edges (lines where faces meet), and vertices (corners). Understanding these properties helps recognize shapes in real-world contexts.
 
+## How It's Best Learned
+Hand the learner a real box and three colors of stickers. One color goes on each flat face, one along each edge, and one on each corner. Counting the stickers gives 6 faces, 12 edges and 8 vertices. Repeat with a can and a party hat, then fill in a class chart that compares the counts side by side.
+
+## Common Misconceptions
+- A shape that looks more complicated has more vertices. (Vertex count depends on how many corners or points a shape has, not on how it looks. A smooth sphere has 0 vertices, and a simple cone has 1.)
+- The edge of a 3D shape is the same thing as its face. (A face is a flat surface you can lay your hand on. An edge is the line where two faces meet.)
+- When you count the faces of a box, you only count the ones you can see. (A box has 6 faces, including the bottom and the back. Turning the box around helps you count them all.)
+
 ## Questions
 
 ```yaml

@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 A primitive root modulo prime p is an integer g whose multiplicative order is p−1, generating the cyclic group (ℤ/pℤ)*. Every prime has primitive roots, and they provide a basis for discrete logarithms and index calculus methods in cryptography.
 
+## How It's Best Learned
+Use the prime-divisor test on p = 11, where p − 1 = 10 = 2 · 5. An element g is a primitive root exactly when g⁵ ≢ 1 and g² ≢ 1. For g = 2, 2⁵ ≡ 10 and 2² = 4, so 2 passes; for g = 3, 3⁵ = 243 ≡ 1, so 3 fails. Then list the others as 2^k with gcd(k, 10) = 1: 2, 8, 7, 6.
+
+## Common Misconceptions
+- Checking a primitive root means computing all p − 1 powers. (It is enough to check g^((p−1)/q) ≢ 1 for each prime q dividing p − 1.)
+- Every power of a primitive root is also a primitive root. (g^k is a primitive root only when gcd(k, p − 1) = 1. Mod 11, 2 is a primitive root but 2² = 4 has order 5.)
+- A prime has only one primitive root. (There are φ(p − 1) of them. Mod 11 there are four: 2, 6, 7 and 8.)
+
 ## Questions
 
 ```yaml

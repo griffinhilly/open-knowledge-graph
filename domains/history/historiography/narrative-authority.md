@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Historians' narrative choices—where they begin and end a story, which characters matter, what patterns they discern—fundamentally shape meaning. Post-structuralist thinkers like Hayden White argue that narrative form is inseparable from historical argument. This raises a persistent question: Does organizing facts into a story necessarily distort historical truth, or can narrative reveal patterns that lists of facts cannot?
 
+## How It's Best Learned
+Take one chapter of an academic history and sort its footnotes by source type: state archives, published elite writing, oral testimony, community records, and so on. Then note whose actions the main text narrates and whose appear only as background. Compare the two lists. They show how a narrative's evidence base and its cast of characters together set whose story counts.
+
+## Common Misconceptions
+- Narrative authority is just a matter of the author's credentials. (It also comes from conventions such as footnotes, archives, and technical language that make some accounts count as knowledge and others not.)
+- Footnotes are a neutral record of where facts came from. (They also signal which kinds of sources a field treats as authoritative, which can sideline other forms of evidence.)
+- Fixing exclusion means adding missing people to the existing story. (Critics argue the story's frame, such as its idea of progress or its turning points, may also need to change.)
+- If authority is constructed, no account has more claim to trust than another. (Accounts can still be judged on evidence and coherence, and on whose experience they leave out.)
+
 ## Questions
 
 ```yaml

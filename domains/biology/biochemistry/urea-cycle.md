@@ -29,6 +29,15 @@ status: validated
 ## Core Idea
 The urea cycle is the primary pathway for nitrogen disposal, converting ammonia to urea in the liver. Five enzymes catalyze five reactions: carbamoyl phosphate synthetase I, ornithine transcarbamoylase, argininosuccinate synthetase, argininosuccinate lyase, and arginase. The cycle consumes 3 ATP and links to the citric acid cycle through fumarate.
 
+## How It's Best Learned
+Draw a mitochondrion beside the cytosol. Put CPS I and OTC inside it and the other three enzymes outside, with arrows for citrulline leaving and ornithine returning. Trace urea's two nitrogens in two colors, one from NH₄⁺ and one from aspartate. Then block each enzyme in turn and predict which metabolite builds up: ammonia, carbamoyl phosphate, citrulline, argininosuccinate or arginine.
+
+## Common Misconceptions
+- Both nitrogens in urea come from free ammonia. (One comes from ammonia through carbamoyl phosphate; the other comes from aspartate at the argininosuccinate synthetase step.)
+- Ornithine is used up in each turn of the cycle. (Arginase regenerates ornithine with each urea released, so ornithine acts as a carrier, much as oxaloacetate does in the citric acid cycle.)
+- The cycle costs 3 ATP, so it spends 3 high-energy bonds. (Argininosuccinate synthetase converts ATP to AMP and PPᵢ, so one turn uses 4 phosphoanhydride bonds.)
+- Every urea cycle defect gives the same lab picture. (The pattern points to the blocked step: OTC deficiency gives low citrulline with high orotic acid, CPS I deficiency gives low citrulline without the orotic acid rise, and argininosuccinate synthetase deficiency gives high citrulline.)
+
 ## Questions
 
 ```yaml

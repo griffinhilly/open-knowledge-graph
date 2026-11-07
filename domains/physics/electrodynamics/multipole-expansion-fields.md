@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Multipole expansion systematically expresses electromagnetic fields far from localized sources as a series of monopole, dipole, quadrupole, and higher moments. Each term falls off as a higher power of 1/r, allowing truncation at low order for distant observation points. This expansion reveals which multipoles dominate in different frequency regimes and provides physical insight into radiation mechanisms.
 
+## How It's Best Learned
+Take −2q at the origin and +q at z = ±a, so Q = 0 and p = 0. On the z axis the exact potential is (q/4πε₀)·2a²/[z(z² − a²)], and for z ≫ a it tends to the quadrupole form 2qa²/(4πε₀z³). At z = 10a the two differ by about 1%. Repeat at z = 2a to see where truncation breaks down.
+
+## Common Misconceptions
+- The dipole moment of any charge distribution is fixed, whatever origin you choose. (That holds only when the total charge is zero. With net charge Q, shifting the origin by d changes p by −Qd.)
+- A neutral source with zero dipole moment produces no field far away. (The quadrupole and higher terms remain. The potential then falls as 1/r³ or faster.)
+- The exterior expansion works at any point outside the source's outline. (The series in r'/r converges only for r larger than the distance from the origin to the farthest source charge.)
+
 ## Questions
 
 ```yaml
@@ -49,7 +57,7 @@ Multipole expansion systematically expresses electromagnetic fields far from loc
   answer: 1
   explanation: "The multipole expansion comes from expanding 1/|r − r'| in powers of r'/r using Legendre polynomials. Each multipole of order ℓ corresponds to P_ℓ(cos θ)/r^(ℓ+1): the monopole (ℓ=0) goes as 1/r, dipole (ℓ=1) as 1/r², quadrupole (ℓ=2) as 1/r³. Each successive term gains one more factor of 1/r. In the far field (r ≫ r'), each successive term gains a factor of r'/r ≪ 1 — making it negligible compared to the previous. This is why truncating at low order is valid far from the source."
 
-- question: "For a system with zero net charge (electric monopole = 0), the dipole term is expected to be the leading contribution to the electrostatic potential at large distances."
+- question: "For a system with zero net charge (electric monopole = 0), the dipole term is always the leading contribution to the electrostatic potential at large distances."
   type: true-false
   answer: false
   explanation: "The monopole term vanishes for a neutral system, making the dipole the next candidate — but the dipole moment can also be zero. CO₂ (linear, symmetric) and CH₄ (tetrahedral) are neutral AND have zero dipole moment. In such cases the quadrupole term leads. A charge distribution with zero total charge AND zero dipole moment will have its potential dominated by the quadrupole. The multipole expansion is a hierarchy: each term leads only if all lower-order terms vanish."
@@ -69,7 +77,7 @@ Multipole expansion systematically expresses electromagnetic fields far from loc
 
 From your study of scalar and vector potentials you know that once you have the charge and current distribution, the fields follow from the potentials via differential operations. The difficulty is that real sources are always extended — a molecule, an antenna, a nucleus — not a single point. The **multipole expansion** is a systematic way to describe what such a source looks like from far away, by expanding the potential in powers of (r'/r), where r' is the size of the source and r is your distance from it. When r ≫ r', each successive term in the expansion is smaller by a factor of r'/r.
 
-The first term is the **monopole**: it depends only on the total charge Q and falls off as Q/r. An electrically neutral system — any atom or molecule — has zero monopole, so this term vanishes. The next term is the **dipole**: it depends on the charge distribution's first moment **p** = Σ qᵢ **r**ᵢ (or ∫ρ **r** dV for a continuous distribution) and falls off as 1/r². A water molecule has a permanent electric dipole moment; two charges ±q separated by distance d form a dipole with p = qd. Because most neutral objects have non-zero dipole moments, the dipole term often dominates at large distances. The next term is the **quadrupole**, falling off as 1/r³, followed by octupole at 1/r⁴, and so on. Each higher multipole requires finer spatial structure in the source to be nonzero, and each falls off faster with distance.
+The first term is the **monopole**: it depends only on the total charge Q and falls off as Q/r. An electrically neutral system — any atom or molecule — has zero monopole, so this term vanishes. The next term is the **dipole**: it depends on the charge distribution's first moment **p** = Σ qᵢ **r**ᵢ (or ∫ρ **r** dV for a continuous distribution) and falls off as 1/r². A water molecule has a permanent electric dipole moment; two charges ±q separated by distance d form a dipole with p = qd. Because many neutral molecules have non-zero dipole moments, the dipole term often dominates at large distances. The next term is the **quadrupole**, falling off as 1/r³, followed by octupole at 1/r⁴, and so on. Each higher multipole requires finer spatial structure in the source to be nonzero, and each falls off faster with distance.
 
 The Taylor series prerequisite makes the mathematical structure transparent. You expand 1/|**r** − **r**'| in Legendre polynomials (using spherical coordinates), and each Legendre polynomial P_ℓ(cos θ) corresponds to one multipole order: ℓ=0 is monopole, ℓ=1 is dipole, ℓ=2 is quadrupole. The physical content is that the source contributes to distant fields through an infinite hierarchy of shape descriptors — moments — and the hierarchy is ordered by how quickly each contribution decays with distance. Truncating at low order is valid whenever r ≫ r', which is precisely the far-field regime.
 

@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Oral history theory addresses how historians work with spoken testimony, interviews, and memory as historical sources. Practitioners grapple with questions of reliability, the constructedness of oral narrative, the relationship between individual memory and collective experience, and ethical obligations to narrators. Oral history has expanded the historical archive to include marginalized voices and contemporary history.
 
+## How It's Best Learned
+Start from Alessandro Portelli's essay on the death of Luigi Trastulli, a steelworker killed in Terni in 1949 whom many narrators placed in the layoff strikes of 1953. Ask why the date moved and what the new placement says about how the community understood its history. Then take a single interview transcript and mark three layers: what it reports, how the narrator frames it, and how the interviewer's questions steered it.
+
+## Common Misconceptions
+- An oral account is useful only where it matches the documents. (Oral history theory treats departures from the record as evidence of how people made sense of events, so a mismatch can be the finding.)
+- The interviewer is a neutral recorder who just collects what the narrator says. (The questions, the setting and the relationship shape the account, so the interview is a joint product of narrator and historian.)
+- Because memory is reconstructive, oral testimony cannot establish any facts. (Testimony can still be checked against other sources and often supplies facts found nowhere else; reconstruction means it needs critical reading, like any source.)
+
 ## Questions
 
 ```yaml

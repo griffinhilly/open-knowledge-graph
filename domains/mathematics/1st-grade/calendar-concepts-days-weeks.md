@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 A calendar shows days of the week (Monday, Tuesday, etc.) and weeks in a month. Understanding 'today,' 'yesterday,' 'tomorrow,' and the sequence of days helps with time concepts and daily routines.
 
+## How It's Best Learned
+Hang a large class calendar and move a "today" marker each morning. The learner says the full sentence: "Yesterday was Tuesday, today is Wednesday, tomorrow will be Thursday." For counting forward, they put a finger on today and hop one square per day without counting today. From Wednesday, 4 hops lands on Sunday. Wrapping from the end of one row to the start of the next shows that the week repeats.
+
+## Common Misconceptions
+- When counting days ahead, today counts as day 1. (Start counting from tomorrow. Four days after Wednesday is Sunday, not Saturday.)
+- A week is the 5 school days. (A calendar week has 7 days, including Saturday and Sunday.)
+- Every month has exactly 4 weeks. (Four weeks is 28 days, and most months have 30 or 31 days, so most months are a little longer than 4 weeks.)
+
 ## Questions
 
 ```yaml

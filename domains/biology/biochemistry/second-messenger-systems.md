@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Second messengers relay signals from cell surface receptors to intracellular targets. cAMP (via adenylyl cyclase) activates protein kinase A; IP₃ and DAG (via phospholipase C) activate IP₃ receptors (Ca²⁺ release) and protein kinase C. Ca²⁺ is both a second messenger and a crucial intracellular regulator, controlling metabolism, muscle contraction, and gene expression.
 
+## How It's Best Learned
+Draw the two pathways side by side as flow charts: receptor → adenylyl cyclase → cAMP → PKA, and receptor → phospholipase C → PIP₂ → IP₃ (ER Ca²⁺ release) plus DAG (PKC). For each messenger, note where it is made, whether it stays in the membrane, what it activates, and what removes it. Then predict what a phosphodiesterase inhibitor does to each chart.
+
+## Common Misconceptions
+- cAMP itself phosphorylates the target proteins. (cAMP binds the regulatory subunits of PKA and releases the catalytic subunits; the kinase does the phosphorylating.)
+- IP₃ and DAG both diffuse through the cytoplasm. (IP₃ is water-soluble and travels to the ER; DAG is a lipid that stays in the plasma membrane, where it helps activate PKC.)
+- The hormone enters the cell and becomes the second messenger. (Water-soluble hormones like epinephrine stay outside; the second messenger is made inside by an enzyme the activated receptor switches on.)
+- A second messenger signal lasts until the molecules wear out by themselves. (Dedicated enzymes and pumps end it: phosphodiesterase converts cAMP to AMP, and Ca²⁺ pumps move Ca²⁺ back into the ER and out of the cell.)
+
 ## Questions
 
 ```yaml

@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Substrate-level phosphorylation directly transfers a phosphoryl group from a high-energy substrate to ADP, forming ATP. In glycolysis, the 1,3-bisphosphoglycerate → 3-phosphoglycerate reaction couples oxidation to ATP synthesis. In the citric acid cycle, succinyl-CoA synthetase (GTP/ATP synthase) catalyzes the only substrate-level phosphorylation step.
 
+## How It's Best Learned
+Tally ATP for one glucose through glycolysis. Hexokinase and phosphofructokinase-1 spend 2 ATP. Phosphoglycerate kinase and pyruvate kinase each run twice and make 2 ATP apiece, so 4 are made and 2 are net. Label each ATP-forming step with its donor. Then rank PEP, 1,3-BPG, ATP and glucose 6-phosphate by group-transfer potential from a textbook table.
+
+## Common Misconceptions
+- Most of a cell's ATP comes from substrate-level phosphorylation. (In aerobic cells oxidative phosphorylation makes most of it; per glucose, substrate-level steps give 4 ATP in glycolysis plus 2 GTP or ATP in the citric acid cycle.)
+- Substrate-level phosphorylation happens only in the cytoplasm. (The glycolytic steps are cytoplasmic, but succinyl-CoA synthetase works in the mitochondrial matrix.)
+- Any phosphorylated molecule can hand its phosphate to ADP. (The donor needs a higher group-transfer potential than ATP, as 1,3-BPG and PEP have; glucose 6-phosphate's is lower, so it cannot make ATP this way.)
+- Glycolysis nets 4 ATP per glucose. (It forms 4 ATP but spends 2 in the preparatory phase, for a net of 2.)
+
 ## Questions
 
 ```yaml

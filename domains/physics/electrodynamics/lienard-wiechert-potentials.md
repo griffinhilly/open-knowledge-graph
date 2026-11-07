@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Lienard-Wiechert potentials give exact potentials and fields of a point charge on arbitrary trajectory. They reveal a moving charge produces velocity fields (∝ 1/r²) and acceleration fields (∝ 1/r). The latter dominates at large distances and is responsible for radiation.
 
+## How It's Best Learned
+Work the on-axis case by hand. A charge moves as x_s = vt toward an observer at x = d. Solve t − t_r = (d − vt_r)/c for t_r, then set R = d − vt_r and κ = 1 − v/c. Show that κR = d − vt, the present distance. So V = q/[4πε₀(d − vt)], which matches the Lorentz-boosted Coulomb potential on that axis.
+
+## Common Misconceptions
+- The retarded time is t − r/c with r the charge's present distance. (The distance must be measured to the retarded position, which itself depends on t_ret. So t_ret is defined implicitly and has to be solved for.)
+- The potential of a moving charge is q/(4πε₀R) with R taken from the retarded position. (There is an extra factor 1/κ. It comes from how long the charge takes to cross the backward light cone of the field point.)
+- The κ factor decides whether a charge radiates. (κ shapes both field terms, but radiation needs a nonzero acceleration at the retarded time.)
+- Fields that change in time as a charge passes by mean it is radiating. (A uniformly moving charge gives time-varying fields at a fixed point, but they fall as 1/r² and carry no energy to infinity.)
+
 ## Questions
 
 ```yaml
@@ -34,7 +43,7 @@ Lienard-Wiechert potentials give exact potentials and fields of a point charge o
     - "It emits no radiation — constant-velocity motion produces only velocity fields, which carry no energy to infinity"
     - "It emits radiation because κ ≠ 1 for relativistic motion"
   answer: 2
-  explanation: "A charge in uniform motion has only velocity fields (∝ 1/r²). Their energy flux falls off as 1/r⁴, which integrates to zero over any large sphere — no energy escapes to infinity. Radiation requires acceleration (a⃗ ≠ 0 at the retarded time). κ ≠ 1 for relativistic motion affects the field's angular distribution but does not create radiation; it is a feature of the velocity (bound) fields only."
+  explanation: "A charge in uniform motion has only velocity fields (∝ 1/r²). Their energy flux falls off as 1/r⁴, which integrates to zero over any large sphere — no energy escapes to infinity. Radiation requires acceleration (a⃗ ≠ 0 at the retarded time). κ ≠ 1 for relativistic motion affects the field's angular distribution but does not create radiation; it shapes the velocity and acceleration fields alike."
 
 - question: "The Lienard-Wiechert fields of an accelerating charge contain two components. Which has the slower spatial decay, and what is its physical significance?"
   type: multiple-choice
@@ -54,11 +63,11 @@ Lienard-Wiechert potentials give exact potentials and fields of a point charge o
 - question: "The κ = 1 − (v⃗·R̂)/c factor in the Lienard-Wiechert potentials primarily determines whether a charge radiates."
   type: true-false
   answer: false
-  explanation: "κ appears in the denominator of both the scalar and vector potentials and controls relativistic beaming — it amplifies the fields of a charge moving toward you (κ < 1) and suppresses fields from a charge moving away (κ > 1). This is a property of the velocity (bound) fields. Radiation — whether it occurs at all — is determined solely by whether the charge is accelerating (a⃗ ≠ 0 at the retarded time), not by the value of κ."
+  explanation: "κ appears in the denominator of both the scalar and vector potentials and controls relativistic beaming — it amplifies the fields of a charge moving toward you (κ < 1) and suppresses fields from a charge moving away (κ > 1). It enters both the velocity and the acceleration fields. Radiation — whether it occurs at all — is determined solely by whether the charge is accelerating (a⃗ ≠ 0 at the retarded time), not by the value of κ."
 
 - question: "Why does a uniformly moving charge not radiate, even though it produces electromagnetic fields that vary in time as it passes an observer?"
   type: short-answer
-  answer: "Radiation requires acceleration. A uniformly moving charge produces only velocity (bound) fields that fall off as 1/r². Their energy flux falls off as 1/r⁴, integrating to zero over a distant sphere, so no net energy escapes to infinity. Radiation fields (∝ 1/r, energy flux ∝ 1/r²) appear only when acceleration is nonzero at the retarded time. This is consistent with the equivalence principle: an observer in free fall cannot detect radiation from an inertially moving charge."
+  answer: "Radiation requires acceleration. A uniformly moving charge produces only velocity (bound) fields that fall off as 1/r². Their energy flux falls off as 1/r⁴, integrating to zero over a distant sphere, so no net energy escapes to infinity. Radiation fields (∝ 1/r, energy flux ∝ 1/r²) appear only when acceleration is nonzero at the retarded time. This is consistent with the principle of relativity: in the charge's own rest frame its field is a static Coulomb field."
   explanation: "The key is the 1/r versus 1/r² distinction. Fields that fall off faster than 1/r cannot deliver finite power flux through a large sphere (power ~ (1/r^n)² × r² → 0 if n > 1). Radiation is defined precisely as the component of the field that carries energy to infinity, which requires exactly the 1/r falloff that only acceleration produces."
 ```
 
@@ -68,6 +77,6 @@ You already know that electromagnetic signals travel at c, and that **retarded p
 
 The factor κ in the denominator is not a small correction — it qualitatively changes the field structure. A charge moving toward you has κ < 1, so the potential is amplified; a charge moving away has κ > 1, suppressed. This **relativistic beaming** concentrates fields in the forward direction of a fast-moving charge, which is why synchrotron radiation is beamed sharply forward. Computing the actual E⃗ and B⃗ fields from these potentials (via the usual −∇V − ∂A⃗/∂t and ∇ × A⃗) reveals two distinct contributions of very different character.
 
-The **velocity fields** (also called "bound fields") fall off as 1/r². They point along the retarded direction modified by the particle's motion, and they look like a distorted Coulomb field dragged along with the charge. Because they fall off as 1/r², the energy flux they carry (∝ E² ∝ 1/r⁴) integrates to zero over a large sphere — they carry no energy to infinity. A uniformly moving charge has only velocity fields: it does not radiate, consistent with the equivalence principle.
+The **velocity fields** (also called "bound fields") fall off as 1/r². They point along the retarded direction modified by the particle's motion, and they look like a distorted Coulomb field dragged along with the charge. Because they fall off as 1/r², the energy flux they carry (∝ E² ∝ 1/r⁴) integrates to zero over a large sphere — they carry no energy to infinity. A uniformly moving charge has only velocity fields: it does not radiate, consistent with the principle of relativity.
 
 The **acceleration fields** (or "radiation fields") fall off as 1/r. They arise only when the charge is accelerating — a⃗ ≠ 0 at the retarded time — and they are proportional to a⃗ projected perpendicular to the observation direction. Because they fall off as 1/r, their energy flux ∝ 1/r² integrates over a large sphere to a finite, nonzero value: energy escapes to infinity. This is radiation. The Lienard-Wiechert fields are the exact classical solution from which Larmor's formula, synchrotron radiation, and all other classical radiation results can be derived by integration.

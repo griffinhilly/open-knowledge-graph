@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 In anisotropic materials the permittivity is a tensor ε_ij(ω). Waves propagate along principal axes without polarization rotation, but arbitrary polarizations decompose into eigenmodes with different phase velocities, causing birefringence.
 
+## How It's Best Learned
+Start with a diagonal tensor ε = diag(ε_x, ε_y, ε_z) and a wave moving along z. Apply E = (1, 1, 0)/√2 and compute D = (ε_x, ε_y, 0)/√2 by hand to see D tilt away from E. Then write the input as the sum of an x-mode and a y-mode, give each its own phase kn_x L and kn_y L, and recombine to watch the polarization turn elliptical.
+
+## Common Misconceptions
+- D and E always point the same way inside a crystal, as they do in glass. (With a tensor ε, D is parallel to E only when E lies along a principal axis.)
+- Birefringence happens for every polarization that enters the crystal. (For a wave traveling along a principal axis, a polarization along one of the other two principal axes is an eigenmode and keeps its polarization. The state changes only when the input mixes two eigenmodes.)
+- The two eigenmodes in a birefringent crystal have different frequencies. (Both have the source frequency. They differ in refractive index and so in phase velocity and wavelength inside the crystal.)
+- Birefringence is the same thing as optical rotation. (Birefringence gives linear eigenmodes with different indices, which turns linear light elliptical. Optical activity has circular eigenmodes and rotates the plane of linear polarization.)
+
 ## Questions
 
 ```yaml

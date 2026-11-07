@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 The order of addends doesn't change the sum: 3 + 5 = 5 + 3 = 8. Recognizing this property reduces the number of facts to learn (if you know 3 + 5, you automatically know 5 + 3) and supports mental math strategies.
 
+## How It's Best Learned
+Use a two-color cube train, such as 3 red cubes and 5 blue. The learner counts it and writes 3 + 5 = 8. Then they turn the train around so the blue end comes first and write 5 + 3 = 8. Next, give a problem like 2 + 9 and ask which order is easier to count on from. Starting at 9 and counting 10, 11 shows why the property is useful.
+
+## Common Misconceptions
+- 4 + 7 and 7 + 4 are two different facts that each need to be learned. (They have the same sum, so knowing one gives you the other.)
+- Order does not matter in subtraction either. (9 − 3 is 6, but 3 − 9 is not 6. The commutative property is true for addition, not subtraction.)
+- Switching the order changes which answer you get when you count on. (Counting on from either number reaches the same total. Starting from the larger number just takes fewer counts.)
+
 ## Questions
 
 ```yaml
@@ -49,7 +57,7 @@ The order of addends doesn't change the sum: 3 + 5 = 5 + 3 = 8. Recognizing this
   answer: true
   explanation: "Yes — this is exactly what the commutative property states. No matter which order you add the two numbers, the total is the same (15). The blocks don't change; only the direction you count them changes."
 
-- question: "Because of the commutative property, you primarily need to memorize half as many addition facts AND half as many subtraction facts."
+- question: "Because of the commutative property, you only need to memorize half as many addition facts AND half as many subtraction facts."
   type: true-false
   answer: false
   explanation: "The commutative property applies to addition, not subtraction. 9 − 3 = 6, but 3 − 9 is a different (negative) result — you cannot simply flip a subtraction problem. So the memorization shortcut applies only to addition facts, not subtraction facts."
@@ -64,7 +72,7 @@ The order of addends doesn't change the sum: 3 + 5 = 5 + 3 = 8. Recognizing this
 
 You already know how to add numbers within 20. Now here is a big insight: it doesn't matter which number you start with. If you have 3 red apples and 5 green apples, you have 8 apples total. But if you count the green ones first and then the red ones — 5 and then 3 more — you still get 8. The **commutative property of addition** says that switching the order of the two numbers you're adding never changes the answer.
 
-Think about it with objects. Put 4 blocks on the left and 2 blocks on the right. Count them all: 6. Now move the groups — 2 on the left and 4 on the right. Count again: still 6. The blocks didn't disappear or multiply — you just looked at them from a different direction. The total is always 8 (or whatever the sum is), no matter which group you count first. This is what "commutative" means: you can **commute** (swap) the addends back and forth.
+Think about it with objects. Put 4 blocks on the left and 2 blocks on the right. Count them all: 6. Now move the groups — 2 on the left and 4 on the right. Count again: still 6. The blocks didn't disappear or multiply — you just looked at them from a different direction. The total is always 6, no matter which group you count first. This is what "commutative" means: you can **commute** (swap) the addends back and forth.
 
 Here is why this is a superpower for learning addition facts. Suppose you already know that 7 + 3 = 10. The commutative property tells you, for free, that 3 + 7 = 10 too. You didn't have to memorize a separate fact — you got it automatically. This cuts the number of addition facts you need to memorize roughly in half. Every fact you learn comes with a partner: 6 + 4 gives you 4 + 6 as a bonus. When you see a new addition problem, always ask yourself: do I already know this one in the other order?
 

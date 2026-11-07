@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 3D shapes have length, width, and depth. A cube has 6 square faces and sits flat; a sphere is round and rolls. A rectangular prism has 6 faces (often rectangles). Recognizing these shapes in the world (boxes, balls, cans) makes geometry meaningful.
 
+## How It's Best Learned
+Gather real objects: a cereal box, a ball, a soup can, a party hat and a number cube. Let the learner test each one on a tilted board and sort them into "rolls," "slides," and "does both." Then ask them to touch the flat faces and the curved surfaces of each object. The sort shows that curved surfaces roll and flat faces slide or stand.
+
+## Common Misconceptions
+- A cube and a box are different kinds of shapes. (A cube is a special rectangular prism. Both have 6 faces, 12 edges and 8 vertices, and a cube's faces are all equal squares.)
+- A sphere has a flat bottom it sits on. (A sphere has no flat faces at all. It touches a table at a single point, which is why it rolls in any direction.)
+- A cylinder can only roll. (A cylinder rolls on its curved surface, but it can stand or slide on either of its two flat circular faces.)
+
 ## Questions
 
 ```yaml

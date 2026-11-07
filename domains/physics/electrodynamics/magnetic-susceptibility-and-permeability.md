@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Magnetic susceptibility χₘ relates magnetization M to applied field through M = χₘH, while permeability μ relates B to H. Materials are classified as diamagnetic (χₘ < 0), paramagnetic (χₘ > 0), or ferromagnetic (χₘ >> 1 and nonlinear).
 
+## How It's Best Learned
+Fill a long solenoid (n = 1000 turns/m, I = 2 A) with different cores, using H = nI = 2000 A/m. Compute M = χₘH and B = μ₀(H + M) for χₘ = −10⁻⁵ and +10⁻³: B stays near 2.51 mT. Then try μ_r = 5000, which predicts about 12.6 T. Real iron saturates near 2 T, which shows why ferromagnets are nonlinear.
+
+## Common Misconceptions
+- H is the field applied from outside, before the material is inserted. (H is defined as B/μ₀ − M. Its curl is set by free currents, but the material's shape can change H through the magnetization's own field.)
+- A ferromagnet has one fixed value of μ_r. (Its μ_r depends on the field strength and on the sample's history, and it falls as the material nears saturation.)
+- Only some materials are diamagnetic. (Every material has a diamagnetic response. In paramagnets and ferromagnets it is masked by a much larger positive response.)
+- A diamagnet is pulled toward a magnet, only weakly. (Its magnetization opposes the field, so it is pushed toward weaker field.)
+
 ## Questions
 
 ```yaml

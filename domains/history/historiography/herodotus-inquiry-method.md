@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Herodotus (c. 484-425 BCE) earned the title 'Father of History' by pioneering systematic inquiry (historia) into causes and events, particularly the Greco-Persian Wars. Unlike mythographers, he traveled extensively to gather eyewitness accounts, consulted inscriptions and monuments, and explicitly distinguished between his own observations, reported speech, and uncertain claims. His method combined curiosity with an early form of source triangulation.
 
+## How It's Best Learned
+Read the opening chapters of Book 1, where Herodotus gives the Persian and Phoenician versions of the abduction of Io and then turns to what he himself knows. Mark each sentence as "I saw", "they say", or "I judge". Then compare a short passage of Thucydides on his method. The markings show how Herodotus builds his own stance into the text.
+
+## Common Misconceptions
+- Herodotus believed every story he wrote down. (He often marks tales as doubtful and says he reports what is told without being bound to believe it.)
+- Calling him the "Father of History" means he was the first to record the past. (Annals, king-lists, and epic came earlier; the title points to his method of open inquiry into causes.)
+- The digressions on Egypt and Scythia are filler. (They form part of his inquiry into the peoples involved in the wars and the customs that help explain how they acted.)
+- Thucydides proved Herodotus wrong, so Herodotus has only curiosity value. (The two represent different choices about scope and evidence, and both still shape debates about method.)
+
 ## Questions
 
 ```yaml

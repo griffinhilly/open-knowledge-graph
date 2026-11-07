@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 A sequence (fₙ) converges uniformly to f on S if for every ε > 0, there exists N (depending only on ε, not on x) such that for all n > N and all x in S, |fₙ(x) − f(x)| < ε. Uniform convergence is stronger than pointwise and preserves many properties: limits of continuous functions are continuous, we can interchange limit and integral, etc.
 
+## How It's Best Learned
+Reduce each example to one number, aₙ = sup_{x∈S} |fₙ(x) − f(x)|, and ask whether aₙ → 0. Try fₙ(x) = x/n on [0, 1], where aₙ = 1/n, and then on ℝ, where aₙ is infinite. Then take fₙ = n on (0, 1/n) and 0 elsewhere on [0, 1]. It tends to 0 at every point, yet aₙ = n and ∫fₙ = 1 for every n.
+
+## Common Misconceptions
+- If sup_{x∈S} |fₙ(x) − f(x)| stays bounded, the convergence is uniform. (The sup must tend to 0. For xⁿ on [0, 1) the sup is 1 for every n, which is bounded, and the convergence is not uniform.)
+- If fₙ → 0 at every point, then ∫fₙ → 0. (fₙ = n on (0, 1/n) and 0 elsewhere on [0, 1] tends to 0 pointwise, but each integral equals 1.)
+- Uniform convergence on every bounded interval means uniform convergence on all of ℝ. (fₙ(x) = x/n converges uniformly to 0 on each [−M, M], since the sup there is M/n, but on ℝ the sup is infinite for every n.)
+
 ## Questions
 
 ```yaml

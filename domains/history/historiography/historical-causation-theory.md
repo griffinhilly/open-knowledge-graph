@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Historical causation differs fundamentally from natural science causation: historians work backward from effects seeking causes, distinguish between necessary and sufficient conditions, and weigh multiple overlapping causes of complex events. Philosophers and historians debate whether causation is reducible to mechanisms, whether human intentions constitute causes, and whether causation can be proven or only argued persuasively through evidence and narrative.
 
+## How It's Best Learned
+List five proposed causes of the Reformation in a table. For each, write two counterfactual tests: "Without this, would the Reformation still have happened as it did?" and "With only this, would it have happened?" Then sort each cause into proximate or structural. Filling in the grid forces the necessary-sufficient distinction and shows why a single cause rarely survives both tests.
+
+## Common Misconceptions
+- The event right before the outcome is its real cause. (The trigger explains timing, but structural conditions explain why the trigger could have such large effects.)
+- A good causal account lists as many causes as possible. (A list without ranking or links between causes is weak, so historians argue about which causes mattered most and how they interacted.)
+- If one thing came before another, it caused it. (Sequence alone does not show causation, so historians also need a mechanism and some test of what would have happened otherwise.)
+- Counterfactual reasoning has no place in serious history. (Any claim that something was necessary implies a claim about what would have happened without it, so counterfactuals are built into causal argument.)
+
 ## Questions
 
 ```yaml

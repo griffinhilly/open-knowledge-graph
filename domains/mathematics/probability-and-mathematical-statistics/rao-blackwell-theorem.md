@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 If T is an unbiased estimator of θ and S is a sufficient statistic, then φ = E[T|S] is unbiased for θ and Var(φ) ≤ Var(T). This theorem shows how to improve unbiased estimators by conditioning on sufficient statistics. Combined with completeness, it yields UMVUEs.
 
+## How It's Best Learned
+Run the procedure on two examples where E[T|S] can be computed exactly. For Bernoulli data, take T = X₁ and S = ΣXᵢ; by symmetry E[X₁|S] = S/n. For Poisson data, estimate P(X = 0) = e^(−λ) with T = 1{X₁ = 0}. Given S = s, X₁ is Binomial(s, 1/n), so E[T|S] = (1 − 1/n)^s.
+
+## Common Misconceptions
+- Conditioning on any statistic gives the same improvement. (If S is not sufficient, E[T|S] generally depends on the unknown θ, so it cannot be computed from the data and is not an estimator.)
+- Rao-Blackwellization strictly lowers the variance. (If T is already a function of S, then E[T|S] = T and nothing changes.)
+- The improved estimator is the UMVUE. (That needs S to be complete as well, by the Lehmann-Scheffé theorem. Without completeness, further improvement may be possible.)
+- The theorem is of no use for biased estimators. (E[T|S] has the same bias as T and no larger variance, so its mean squared error is no larger.)
+
 ## Questions
 
 ```yaml

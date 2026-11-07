@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 When the wave vector becomes imaginary (above the cutoff frequency for the medium), waves decay exponentially rather than propagate. At interfaces beyond the critical angle, evanescent waves extend into the second medium and can tunnel through thin barriers.
 
+## How It's Best Learned
+Work one case with numbers. For glass (n₁ = 1.5) to air at θᵢ = 45°, the tangential wave number k_x = 1.5(ω/c) sin 45° ≈ 1.06 ω/c carries across the interface. Then k_z² = (ω/c)² − k_x² is negative, so κ ≈ 0.35 ω/c and the field decays in about 0.45 vacuum wavelengths. Repeat at 60° to see the decay length shrink.
+
+## Common Misconceptions
+- Total internal reflection means there is no field at all in the second medium. (The boundary conditions require a field there. It decays exponentially and carries no time-averaged power across the interface.)
+- The evanescent wave has an imaginary k in every direction. (Only the component normal to the interface is imaginary. Along the interface the field still oscillates with a real k_x.)
+- Light crossing a narrow gap in frustrated TIR must be photons hopping by a separate quantum effect. (Classical Maxwell theory predicts the transmission: the evanescent field reaches the second prism and couples into its propagating modes.)
+- The evanescent field always reaches about one wavelength into the second medium. (The decay length depends on the angle. It grows without limit near the critical angle and falls as the angle increases.)
+
 ## Questions
 
 ```yaml

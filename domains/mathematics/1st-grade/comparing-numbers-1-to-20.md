@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Using the symbols <, >, and = to compare quantities: 12 > 8, 5 < 10, 7 = 7. Understanding 'greater than,' 'less than,' and 'equal to' supports logical reasoning and prepares for inequalities.
 
+## How It's Best Learned
+Build each number as a cube tower and stand the two towers side by side, with a 0–20 number line underneath. The learner finds which tower is taller and which number sits farther right. Then they place a paper < or > card between the towers so the open side faces the bigger number. Reading the result aloud ("8 is less than 12") connects the symbol to words.
+
+## Common Misconceptions
+- The number written first is the greater one. (Position in the sentence does not decide which is greater. In 8 < 12, the number 12 is greater.)
+- The open side of the symbol faces the smaller number. (The open side faces the larger number, as in 12 > 8.)
+- The equal sign means "the answer comes next." (It means both sides are the same amount, so 7 = 7 is a true statement.)
+
 ## Questions
 
 ```yaml

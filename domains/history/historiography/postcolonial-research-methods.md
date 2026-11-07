@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Postcolonial methodology questions assumptions built into standard historical research: which sources count as legitimate, how archives encode colonial power, what languages historians work in, who gets to write history. Postcolonial historians interrogate how European expansion created the very sources used to study it and develop methods attentive to what colonial archives systematically silence.
 
+## How It's Best Learned
+Take one colonial document, such as a district officer's report, and write two short readings of it side by side. The first states what the document claims. The second lists what it reveals without meaning to, such as complaints, gaps and odd details. Then name one non-archival source, such as an oral account, a vernacular text or an object, that could test the second reading.
+
+## Common Misconceptions
+- Because colonial archives encode colonial power, historians should set them aside. (Postcolonial method keeps using them but reads them critically, for what they reveal beyond their stated purpose.)
+- Oral and vernacular sources give an undistorted view because they come from the colonized. (They have their own politics, hierarchies and reworkings of memory, and need the same critical reading as any source.)
+- Reading against the grain is the single postcolonial way to read an archive. (Ann Laura Stoler, among others, argues for reading along the grain as well, studying the archive's own categories and anxieties as evidence of how colonial rule worked.)
+
 ## Questions
 
 ```yaml

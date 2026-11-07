@@ -32,6 +32,15 @@ status: validated
 ## Core Idea
 RSA encryption relies on the difficulty of factoring large numbers and the ease of computing modular exponentiation. Using Euler's theorem, encryption and decryption are inverse operations: (m^e)^d ≡ m (mod n) when ed ≡ 1 (mod φ(n)). Security depends on the computational hardness of factorization.
 
+## How It's Best Learned
+Run a full key cycle with numbers you can check by hand: p = 3, q = 11, n = 33, φ(n) = 20, e = 3, and d = 7 since 21 ≡ 1 (mod 20). Encrypt m = 4 to c = 64 mod 33 = 31. Decrypt using 31 ≡ −2: (−2)⁷ = −128 ≡ 4 (mod 33). Then try to find d from (33, 3) alone and notice that you need φ(33).
+
+## Common Misconceptions
+- The private exponent d is the inverse of e modulo n. (It is the inverse modulo φ(n). In the toy key, 3 has no inverse mod 33 at all, while 3 · 7 ≡ 1 (mod 20).)
+- Computing φ(n) is easier than factoring n. (From n and φ(n) you get p + q = n − φ(n) + 1, and then p and q are the roots of a quadratic. So finding φ(n) is as hard as factoring.)
+- RSA is secure because modular exponentiation is hard to compute. (Exponentiation is fast. The hard step is taking e-th roots mod n without knowing the factors.)
+- Encrypting the same message twice gives different ciphertexts. (Textbook RSA is deterministic, which is one reason randomized padding such as OAEP is used.)
+
 ## Questions
 
 ```yaml
@@ -79,4 +88,4 @@ You've already proved **Euler's theorem**: if gcd(a, n) = 1, then a^φ(n) ≡ 1 
 
 Why does decryption recover m? Because ed ≡ 1 (mod φ(n)), we have ed = 1 + k·φ(n) for some integer k. Then cᵈ = (mᵉ)ᵈ = m^(ed) = m^(1 + k·φ(n)) = m · (m^φ(n))^k ≡ m · 1ᵏ = m (mod n), by Euler's theorem — provided gcd(m, n) = 1. Encryption by e and decryption by d are inverse operations mod n precisely because their exponents multiply to 1 mod φ(n).
 
-The **security** of RSA rests on the apparent hardness of factoring n. An adversary with the public key (n, e) who could factor n = pq would immediately compute φ(n) = (p−1)(q−1) and recover d = e⁻¹ mod φ(n). With 2048-bit primes, no known classical algorithm can factor n in feasible time. In practice, RSA encrypts a symmetric session key rather than raw data, and **padding schemes** like OAEP are mandatory — textbook RSA without padding leaks structure, since (m₁m₂)ᵉ = m₁ᵉ · m₂ᵉ mod n allows an attacker to combine ciphertexts multiplicatively.
+The **security** of RSA rests on the apparent hardness of factoring n. An adversary with the public key (n, e) who could factor n = pq would immediately compute φ(n) = (p−1)(q−1) and recover d = e⁻¹ mod φ(n). With a 2048-bit modulus, no known classical algorithm can factor n in feasible time. In practice, RSA encrypts a symmetric session key rather than raw data, and **padding schemes** like OAEP are mandatory — textbook RSA without padding leaks structure, since (m₁m₂)ᵉ = m₁ᵉ · m₂ᵉ mod n allows an attacker to combine ciphertexts multiplicatively.

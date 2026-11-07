@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Conceptual history (Begriffsgeschichte) traces how key concepts like 'state,' 'liberty,' 'democracy,' or 'revolution' change meaning over time. It asks: When did a term emerge? What replaced it? How do shifts in concept-usage reveal historical transformation? This German methodology, developed by Reinhart Koselleck, integrates linguistic, intellectual, and social history to show how language embodies and enables historical change.
 
+## How It's Best Learned
+Pick one term, such as "revolution", and build a timeline of dated uses from dictionaries and texts, with a sentence of context for each. For every entry, note who used the word, against whom, and whether it points back to a past order or forward to a future one. The shift in direction across the timeline is the Sattelzeit thesis in miniature.
+
+## Common Misconceptions
+- Conceptual history is the same as etymology. (Etymology traces word origins, while conceptual history tracks how a concept's meanings and uses shift within social and political conflict.)
+- A concept is just a word. (Koselleck treats a concept as a word that gathers many contested meanings and experiences, so it cannot be reduced to a single definition.)
+- Conceptual history and the Cambridge School do the same thing. (Both reject anachronism, but Skinner reads single texts as moves in their immediate debates, while Koselleck tracks concepts across long periods.)
+- Koselleck built the method on his own. (The *Geschichtliche Grundbegriffe* was a collective project that he co-edited with Otto Brunner and Werner Conze.)
+
 ## Questions
 
 ```yaml

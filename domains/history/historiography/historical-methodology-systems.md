@@ -30,6 +30,15 @@ status: validated
 ## Core Idea
 Systematic historical methodology transforms curiosity into rigorous knowledge: formulating researchable questions, locating and assessing sources, synthesizing evidence, constructing arguments, and subjecting conclusions to scholarly scrutiny. Different scales of history (biography, microhistory, national history, global history) require adapted methodological approaches, yet all share commitment to evidence-based reasoning and transparent acknowledgment of sources and logic.
 
+## How It's Best Learned
+Start with a broad question, such as "What caused the French Revolution?", and narrow it in three steps. At each step, name the archive or source type that could answer it and whose voices that source would leave out. Stop when the question is both answerable and still significant. This funnel exercise practices question formulation and source planning together.
+
+## Common Misconceptions
+- Research runs in a straight line from question to sources to argument. (In practice historians revise the question as sources reveal gaps and surprises, so the steps loop back on each other.)
+- A long bibliography proves a rigorous study. (Rigor depends on whether the sources are independent, varied, and fit the question, not on their number.)
+- If a historian reads enough sources, the argument will emerge by itself. (Evidence has to be interpreted, weighed, and organized, and that judgment is part of the method.)
+- One method works for every scale of history. (Biography, microhistory, national history, and global history raise different problems of selection and evidence.)
+
 ## Questions
 
 ```yaml

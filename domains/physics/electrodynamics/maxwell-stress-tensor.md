@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The Maxwell stress tensor T_ij encodes electromagnetic momentum density g = ε₀(E × B) and represents stresses exerted by fields. Radiation carries momentum and exerts pressure on absorbing surfaces. This provides a unified view of electromagnetic forces through momentum conservation.
 
+## How It's Best Learned
+Compute T_zz for a plane wave moving along z, with E along x and B = E/c along y. Using T_ij = ε₀(E_iE_j − ½δ_ijE²) + (1/μ₀)(B_iB_j − ½δ_ijB²), you get T_zz = −u, the energy density. Its time average gives a momentum flux of I/c. Then put in sunlight, I ≈ 1.36 kW/m², to get about 4.5 μN/m² on an absorber.
+
+## Common Misconceptions
+- Light has no mass, so it cannot carry momentum. (The field carries momentum density g = ε₀(E × B) = S/c². A photon of energy E has momentum E/c.)
+- A mirror and a black surface feel the same radiation pressure. (Reflection reverses the light's momentum, so a perfect mirror at normal incidence feels 2I/c against I/c for an absorber.)
+- Only waves carry field momentum. (Any region where E × B is nonzero holds field momentum, including static crossed electric and magnetic fields.)
+
 ## Questions
 
 ```yaml
@@ -60,6 +68,7 @@ The Maxwell stress tensor T_ij encodes electromagnetic momentum density g = ε�
 - question: "How does the Maxwell stress tensor unify the concept of electromagnetic force with the conservation of momentum?"
   type: short-answer
   answer: "The Maxwell stress tensor T_ij expresses the local conservation of total (mechanical + electromagnetic) momentum, in exact parallel to how Poynting's theorem expresses local conservation of energy. T_ij gives the flux of the i-th component of electromagnetic momentum in the j-th direction across a surface. The total force on any matter inside a volume equals the rate of electromagnetic momentum flowing into that volume through its boundary surface (given by the surface integral of T) minus the rate of change of momentum stored in the fields themselves. This means all electromagnetic forces — radiation pressure, Coulomb forces, magnetic forces — are aspects of a single unified momentum conservation law: mechanical momentum changes when electromagnetic momentum flows into matter, and the stress tensor accounts for every cross-surface momentum flux. The fields are not just abstract mathematical tools; they are physical momentum carriers."
+  explanation: "The answer is right because the two conservation laws have the same shape. Poynting's theorem says the power delivered to charges equals −∂u/∂t − ∇·S, a field energy density and its flux. The momentum version says the force density on charges equals ∇·T − ∂g/∂t, with g = ε₀(E × B) the field momentum density and T carrying its flux. Integrating over a volume turns the divergence term into the surface integral of T. So any force on matter can be read as momentum crossing the boundary or leaving the field inside."
 ```
 
 ## Explainer

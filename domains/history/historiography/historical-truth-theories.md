@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 What makes a historical claim true? Correspondence theories say true claims match past reality. Coherence theories say truth consists in fitting with other well-supported claims. Constructivist and pragmatist accounts emphasize how truth emerges through historiographical practice. Each theory implies different standards for evidence, argumentation, and how we evaluate historical work.
 
+## How It's Best Learned
+Write three claims of rising complexity: a date ("Caesar crossed the Rubicon in 49 BCE"), an event description, and a causal claim. Make a grid with one row per claim and one column per theory. In each cell, write what would make the claim true and how a historian would check it. The grid shows where correspondence gives the target and coherence gives the working test.
+
+## Common Misconceptions
+- Correspondence theory is useless because we cannot visit the past. (It defines what truth is, while other tools, such as coherence with evidence, help us judge whether a claim meets it.)
+- A coherent account must be true. (A set of sources that share one bias can produce a coherent picture that is still wrong.)
+- Pragmatist accounts mean a claim is true if it serves a political goal. (Pragmatists judge claims by what they do in inquiry, such as explaining evidence and guiding research, and few accept convenience as truth.)
+- Historians must commit to one theory of truth. (Many work with a mix, treating correspondence as the goal and coherence as the practical standard.)
+
 ## Questions
 
 ```yaml

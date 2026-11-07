@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 A ten frame is a grid of 10 boxes (usually 2 rows of 5). Filling a ten frame and using another shows sums visually: 7 in one frame and 5 in another, with 3 filling the first frame to make 10, then 2 remaining. This concrete aid bridges counting to mental math.
 
+## How It's Best Learned
+Use two ten frames and two colors of counters, and fill the top row left to right before the bottom row. For 8 + 5, lay 8 red counters in the first frame and 5 blue counters beside it, then slide blue counters into the first frame until it is full: 2 move, 3 stay out. Say "10 and 3 is 13." Repeat with 9 + 4 and 7 + 6, then have the learner predict how many will move before touching any counters.
+
+## Common Misconceptions
+- To add with ten frames, you put both numbers out and count every counter from 1. (Counting all works but skips the point. Fill the first frame to 10, then add the leftovers to 10.)
+- The counters you move into the first frame are extra and get added again. (Moving counters only regroups them. The total stays the same, so 8 + 5 and 10 + 3 name the same amount.)
+- Counters scattered in any boxes are just as easy to read as counters in order. (The total is the same either way, but filling the top row first makes 5 and 10 easy to see, so you can tell how many boxes are empty without counting.)
+
 ## Questions
 
 ```yaml

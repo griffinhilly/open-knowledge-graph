@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 The prime counting function π(x) counts primes up to x. Chebyshev proved bounds c₁x/ln(x) < π(x) < c₂x/ln(x) for explicit constants, providing quantitative control on prime density and laying essential groundwork for the Prime Number Theorem.
 
+## How It's Best Learned
+Factor one central binomial coefficient by hand: C(20, 10) = 184756 = 2² · 11 · 13 · 17 · 19. Two facts drive both bounds. Every prime in (10, 20] divides it, which caps θ(2n) − θ(n). Each prime power dividing it is at most 20, so C(2n, n) ≤ (2n)^π(2n), which forces π(2n) to be large.
+
+## Common Misconceptions
+- Every prime up to 2n divides C(2n, n). (Primes in (n, 2n] do, but smaller ones may not. 3, 5 and 7 do not divide C(20, 10).)
+- Chebyshev's bounds show that π(x)/(x/ln x) has a limit. (They only trap the ratio between two constants. The existence of the limit is the content of the Prime Number Theorem.)
+- Since π(x) ≈ x/ln x, the difference between them stays small. (The ratio stays near 1 while the gap grows. π(10⁶) = 78,498, but 10⁶/ln 10⁶ is about 72,382.)
+
 ## Questions
 
 ```yaml
@@ -56,7 +64,7 @@ The prime counting function π(x) counts primes up to x. Chebyshev proved bounds
 
 - question: "Why does the central binomial coefficient C(2n, n) provide useful information about the distribution of primes? Sketch the key idea."
   type: short-answer
-  answer: "C(2n, n) = (2n)!/(n!)² is a product involving all integers up to 2n. Each prime p ≤ 2n divides C(2n, n), and the exact power of p in the factorization is related to how p is distributed in the range [1, 2n]. Summing these contributions connects the prime factorization of C(2n, n) to θ(x) or ψ(x). Meanwhile, C(2n, n) is easily bounded: it is at least 4^n/(2n) (since C(2n,n) is the largest of the 2n+1 binomial coefficients summing to 4^n) and at most 4^n. These simple bounds on C(2n, n) translate into bounds on the prime-counting functions, which in turn give Chebyshev's bounds on π(x)."
+  answer: "C(2n, n) = (2n)!/(n!)² is a product involving all integers up to 2n. Each prime p in (n, 2n] divides C(2n, n), while smaller primes may or may not divide it, and the exact power of each prime p ≤ 2n in the factorization (given by Legendre's formula) satisfies p^k ≤ 2n. Summing these contributions connects the prime factorization of C(2n, n) to θ(x) or ψ(x). Meanwhile, C(2n, n) is easily bounded: it is at least 4^n/(2n + 1) (since C(2n,n) is the largest of the 2n+1 binomial coefficients summing to 4^n) and at most 4^n. These simple bounds on C(2n, n) translate into bounds on the prime-counting functions, which in turn give Chebyshev's bounds on π(x)."
   explanation: "The central binomial coefficient is an elementary object (just factorials) that nonetheless encodes prime distribution through its factorization. Chebyshev's insight was that bounding C(2n,n) above and below — which is elementary — gives bounds on θ, and through Abel summation, on π. This is the kind of elementary-to-deep argument that characterizes analytic number theory at its best."
 ```
 

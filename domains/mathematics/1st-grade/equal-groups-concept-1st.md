@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Groups are equal when they have the same number of objects. Three groups of 2 apples each is 'equal groups.' Seeing 2 + 2 + 2 as 'three groups of 2' introduces the idea that repeated equal groups lead to multiplication, a bridge from addition.
 
+## How It's Best Learned
+Start with 12 counters and paper plates. The learner sorts the counters onto plates in different ways: 4 plates of 3, then 3 plates of 4, then 6 plates of 2. For each sort, they say the description ("4 groups of 3") and write the matching sentence (3 + 3 + 3 + 3 = 12). Then add a mixed set, such as 2, 4, 2 and 4, to show what unequal groups look like.
+
+## Common Misconceptions
+- Any set of groups that adds up to a nice total is equal groups. (Every group must have the same number. 2 + 4 + 2 + 4 makes 12, but the groups are not equal.)
+- "3 groups of 4" and "4 groups of 3" mean the same thing. (They have the same total, 12, but the number of groups and the size of each group are switched.)
+- The number of groups tells you the total. (The total comes from adding the group size once for each group. 4 groups of 3 is 3 + 3 + 3 + 3 = 12, not 4.)
+
 ## Questions
 
 ```yaml

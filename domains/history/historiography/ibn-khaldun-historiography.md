@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Ibn Khaldun (1332–1406) developed in his Muqaddimah ('Introduction') an early philosophy of history that grounded historical causation in social, economic, and environmental factors rather than divine will or great men alone. He argued that historical cycles follow laws rooted in 'asabiyyah (group solidarity), economics, and geography—a proto-sociological approach that anticipated modern structural historiography by centuries.
 
+## How It's Best Learned
+Draw a table with one row per generation of a dynasty and columns for who does the fighting, where revenue comes from, how rulers live, and the strength of *asabiyyah*. Fill it in from the *Muqaddimah*'s own description of the cycle. Then test it on a dynasty you already know and mark where the model fits and where it breaks. The breaks are as useful as the fits.
+
+## Common Misconceptions
+- Ibn Khaldun was a secular thinker who left religion out of history. (He was a religious scholar and judge, and he argued that religion could strengthen group solidarity; his innovation was to explain events through social causes as well.)
+- The *Muqaddimah* is a separate book of sociology. (It is the introduction to his larger universal history, written to give historians tools for judging reports.)
+- *Asabiyyah* just means family loyalty. (Kinship is its typical base, but it names the wider cohesion and shared purpose that lets a group act together and seize power.)
+- His cycle predicts the exact course of each dynasty. (He stated general tendencies, such as a usual span of about three generations, and he treated them as what usually happens rather than a timetable.)
+
 ## Questions
 
 ```yaml

@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Taylor's Theorem states that a smooth function f can be approximated by a polynomial: f(x) = Pₙ(x) + Rₙ(x), where Pₙ is the n-th Taylor polynomial and Rₙ is a remainder term. Rigorous forms (Lagrange and integral remainders) quantify the approximation error, essential for understanding convergence of Taylor series and deriving error bounds.
 
+## How It's Best Learned
+Start from n = 0: the Lagrange form f(x) = f(a) + f'(c)(x − a) is the Mean Value Theorem. Then bound eˣ at x = 1 with a = 0. Every derivative is at most e < 3 on [0, 1], so |Rₙ(1)| ≤ 3/(n+1)!. For error below 0.001, n = 5 gives 3/720 (too large) and n = 6 gives 3/5040 (enough). Then check that P₆(1) ≈ 2.71806 is about 0.00023 from e.
+
+## Common Misconceptions
+- The point c in the Lagrange remainder is a fixed number you can compute. (c depends on x and n and is usually unknown. The theorem only says it lies between a and x, which is why you bound f⁽ⁿ⁺¹⁾ over the whole interval.)
+- The bound M/(n+1)! · |x − a|ⁿ⁺¹ is the actual error. (It is an upper bound. For eˣ at x = 1 with n = 6, the bound is about 0.0006 while the true error is about 0.00023.)
+- If f has derivatives of all orders, its Taylor series converges to f. (The function e^(−1/x²), set to 0 at x = 0, has every derivative equal to 0 at 0, so its Taylor series is 0 and misses f at every x ≠ 0.)
+- A higher-degree Taylor polynomial gives a better approximation at every x. (Outside the interval of convergence it can get worse. For ln(1 + x) centered at 0, the Taylor polynomials at x = 2 move further from ln 3 as n grows from n = 1 on.)
+
 ## Questions
 
 ```yaml
@@ -68,6 +77,6 @@ From your study of rigorous derivatives, you know that differentiability at a po
 
 The **Lagrange remainder** gives the most concrete control over the error: Rₙ(x) = f^(n+1)(c)/(n+1)! · (x−a)^(n+1) for some c strictly between a and x. The formula looks exactly like the next term of the Taylor polynomial, but with an unknown intermediate point c substituted in place of a. You cannot compute c, but you can bound it: if |f^(n+1)(t)| ≤ M for all t in the interval between a and x, then |Rₙ(x)| ≤ M/(n+1)! · |x−a|^(n+1). The proof strategy mirrors the Mean Value Theorem (which you know): construct an auxiliary function that vanishes at both endpoints a and x, then apply Rolle's theorem n+1 times in succession to force the (n+1)-th derivative to equal the remainder expression at some intermediate point.
 
-The **integral remainder** gives an alternative representation: Rₙ(x) = 1/n! · ∫_a^x (x−t)^n f^(n+1)(t) dt. This form is harder to compute explicitly but more revealing: the remainder is a weighted average of the (n+1)-th derivative, where the weight (x−t)^n concentrates near x. The Lagrange form is obtained by applying the MVT for integrals to this formula — so the mysterious intermediate point c is precisely where the weighted average is "achieved."
+The **integral remainder** gives an alternative representation: Rₙ(x) = 1/n! · ∫_a^x (x−t)^n f^(n+1)(t) dt. This form is harder to compute explicitly but more revealing: the remainder is a weighted average of the (n+1)-th derivative, where the weight (x−t)^n is largest near a and vanishes at t = x. The Lagrange form is obtained by applying the MVT for integrals to this formula — so the mysterious intermediate point c is precisely where the weighted average is "achieved."
 
 The remainder has two critical applications. First, **error control**: given a target precision ε, choose n large enough so that M/(n+1)! · |x−a|^(n+1) < ε. This is exactly how computational software evaluates sin x, cos x, and eˣ — by truncating their Taylor series and using the remainder bound to verify accuracy. Second, **series convergence**: the infinite Taylor series Σ f^(k)(a)/k! · (x−a)^k converges to f(x) if and only if Rₙ(x) → 0 as n → ∞. For eˣ, sin x, and cos x, the factorial denominator dominates and the remainder vanishes everywhere; for some other functions, the radius of convergence is finite. Taylor's theorem with remainder is thus the bridge between polynomial approximation (which is local and finite) and power series (which are global and infinite) — it tells you precisely when and how far the bridge extends.

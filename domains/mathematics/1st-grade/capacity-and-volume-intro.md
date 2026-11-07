@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 Capacity is how much a container holds. Students compare containers by filling and pouring (which holds more?, which is about the same?). This is a pre-formal introduction; standard units come later.
 
+## How It's Best Learned
+Set up a water or rice table with a tall, thin glass and a short, wide bowl. Before pouring, the learner predicts which holds more. Then they fill one and pour it into the other to check. Next, they count how many small scoops fill each container. A wrong guess about the tall glass shows that the eye can be fooled and the pour test can be trusted.
+
+## Common Misconceptions
+- The taller container always holds more. (A tall, thin container can hold less than a short, wide one. Width matters as well as height.)
+- A heavier container holds more. (Weight tells how heavy something is. Capacity tells how much fits inside, and a heavy glass jar can hold less than a light plastic jug.)
+- Pouring water into a taller, thinner glass makes more water. (The amount stays the same when you pour it. It only looks like more because the water rises higher in a thin glass.)
+
 ## Questions
 
 ```yaml

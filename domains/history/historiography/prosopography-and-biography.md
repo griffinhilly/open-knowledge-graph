@@ -28,6 +28,11 @@ Prosopography is systematic study of groups through aggregate biographical data:
 ## How It's Best Learned
 Study prosopographical reconstructions of obscure groups: medieval monasteries, early modern merchants, 19th-century factory workers—tracing how ordinary lives reveal structure.
 
+## Common Misconceptions
+- Prosopography is a set of short biographies bound together. (It defines a population, asks the same questions of every member, and analyzes the answers in aggregate, so the group is the unit of study.)
+- A prosopographical pattern describes the whole group as it was. (The data covers only members who left records, so a pattern can reflect who was documented as much as who existed.)
+- If group members share origins, those origins explain what the group did. (Shared traits show a correlation; arguing that they drove decisions needs evidence about motives, a criticism often made of Lewis Namier's studies of eighteenth-century MPs.)
+
 ## Questions
 
 ```yaml

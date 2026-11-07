@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Historical periods like 'Middle Ages,' 'Renaissance,' or 'Enlightenment' are human constructs, not natural divisions in the past. Yet they organize historical thinking and shape how we understand causation and change. This topic examines: How are periods created? On what basis (politics, culture, technology)? How do Eurocentric frameworks bias global periodization schemes?
 
+## How It's Best Learned
+Take one stretch of time, such as 1400 to 1700, and divide it three ways: by political events, by economic change, and by cultural change. Draw the three timelines one above the other and see where the breaks fail to line up. Then try the same European labels on Ming and Qing China and note which ones need forcing to fit.
+
+## Common Misconceptions
+- People living in a period knew they were in it. (Many period names were applied afterward; twelfth-century Parisians did not think of themselves as living in a "middle" age.)
+- Since periods are constructed, they are arbitrary and historians should drop them. (Periods are tools chosen for a purpose; the task is to state the criteria and judge whether they fit the question.)
+- A period boundary marks a sharp break where one era ends and the next begins. (Boundaries are conventions placed on gradual and uneven change, and different regions and fields cross them at different times.)
+- Swapping European labels for global ones removes bias from periodization. (Every scheme selects criteria of significance, so alternative schemes carry their own assumptions about what matters.)
+
 ## Questions
 
 ```yaml

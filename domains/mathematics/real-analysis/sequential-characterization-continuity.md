@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 A function f is continuous at c if and only if for every sequence (xₙ) converging to c, the sequence (f(xₙ)) converges to f(c). This sequential characterization makes it easy to apply continuity proofs using sequence arguments rather than epsilon-delta arguments.
 
+## How It's Best Learned
+Work both directions on concrete functions. First prove x² is continuous at c in one line: if xₙ → c, the product rule for limits gives xₙ² → c². Then take the step function f(x) = 0 for x < 0 and f(x) = 1 for x ≥ 0, and use xₙ = −1/n to show f(xₙ) = 0 does not tend to f(0) = 1. Finally, trace how the δ = 1/n step in the converse proof builds such a sequence.
+
+## Common Misconceptions
+- To prove continuity at c, it is enough to check one convenient sequence such as xₙ = c + 1/n. (The condition must hold for every sequence converging to c. For the step function above at c = 0, xₙ = 1/n works but xₙ = −1/n fails.)
+- The sequential characterization is a second, stronger definition of continuity. (It is a theorem stating that the sequential condition and the epsilon-delta definition are equivalent.)
+- To disprove continuity you need two sequences with different image limits. (One sequence xₙ → c with f(xₙ) not converging to f(c) is enough. Two sequences with different image limits are one convenient way to produce such a sequence.)
+
 ## Questions
 
 ```yaml

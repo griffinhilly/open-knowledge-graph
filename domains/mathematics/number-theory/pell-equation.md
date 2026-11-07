@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 Pell's equation x² − Dy² = 1, where D is a non-square positive integer, always has infinitely many positive integer solutions. Solutions arise via the periodic continued fraction expansion of √D, and the fundamental solution generates all others via multiplication in ℚ(√D).
 
+## How It's Best Learned
+Work one case end to end. Expand √7 = [2; 1, 1, 1, 4], list the convergents 2/1, 3/1, 5/2, 8/3, and compute p² − 7q² for each: −3, 2, −3, 1. Only 8/3 solves the equation. Then square 8 + 3√7 to get 127 + 48√7 and check 127² − 7 · 48² = 16129 − 16128 = 1.
+
+## Common Misconceptions
+- Every convergent of √D solves Pell's equation, since convergents are the best approximations. (Most convergents give some other small value of p² − Dq². For √7, 3/1 gives 2 and 5/2 gives −3.)
+- New solutions come from adding or scaling known ones. (Scaling (x, y) by 2 gives x² − Dy² = 4. New solutions come from powers of x₁ + y₁√D.)
+- The equation also has nontrivial solutions when D is a perfect square. (If D = k², then (x − ky)(x + ky) = 1 forces y = 0, so only the trivial solutions x = ±1 exist.)
+
 ## Questions
 
 ```yaml
@@ -40,12 +48,12 @@ Pell's equation x² − Dy² = 1, where D is a non-square positive integer, alwa
     - "√D is irrational, so its continued fraction is eventually periodic, and convergents at the end of each complete period satisfy p² − Dq² = ±1, with full periods giving +1"
     - "The Pell equation is defined to have solutions wherever the continued fraction algorithm terminates"
   answer: 2
-  explanation: "The periodicity of the continued fraction of √D is the key fact (proved by Lagrange). Because the expansion repeats, the convergents at the end of each period are not just good rational approximations to √D — they satisfy the Pell equation exactly. This is not a coincidence or a pigeonhole argument: the arithmetic of convergents and the structure of the equation are connected through the theory of quadratic irrationalities. Not every convergent works — only those at period-end — which is why knowing the period length is essential."
+  explanation: "The periodicity of the continued fraction of √D is the key fact (proved by Lagrange). Because the expansion repeats, the convergents at the end of each period are not just good rational approximations to √D — they satisfy p² − Dq² = ±1 exactly, with +1 at every period end when the period length is even and at every second one when it is odd. This is not a coincidence or a pigeonhole argument: the arithmetic of convergents and the structure of the equation are connected through the theory of quadratic irrationalities. Not every convergent works — only those at period-end — which is why knowing the period length is essential."
 
 - question: "The fundamental solution to x² − Dy² = 1 always appears as a convergent of the continued fraction expansion of √D."
   type: true-false
   answer: true
-  explanation: "This is the central result connecting continued fractions to Pell's equation. The fundamental solution (x₁, y₁) is the smallest positive-integer solution, and it always occurs at the convergent p_k/q_k corresponding to the end of the first complete period of the continued fraction of √D. Every subsequent solution is generated algebraically from this seed."
+  explanation: "This is the central result connecting continued fractions to Pell's equation. The fundamental solution (x₁, y₁) is the smallest positive-integer solution, and it always occurs at the convergent p_k/q_k corresponding to the end of the first complete period of the continued fraction of √D when the period length is even, and at the end of the second period when the period length is odd. Every subsequent solution is generated algebraically from this seed."
 
 - question: "If (x₁, y₁) is the fundamental solution to x² − Dy² = 1, then (2x₁, 2y₁) is also a solution."
   type: true-false
@@ -62,8 +70,8 @@ Pell's equation x² − Dy² = 1, where D is a non-square positive integer, alwa
 
 Pell's equation x² - Dy² = 1 asks for integer points on a hyperbola that are in an extraordinarily precise sense "close to √D." To see why, rewrite the equation as x/y ≈ √D: if (x, y) is a solution, then (x/y)² ≈ D, so x/y is a rational approximation to √D with error |x/y - √D| ≈ 1/(2y²√D). Your prerequisite — **continued fractions** — provides exactly the tool for finding such best-rational-approximations systematically.
 
-The continued fraction expansion of √D is eventually **periodic** for any non-square positive integer D. For example, √2 = [1; 2, 2, 2, ...] and √3 = [1; 1, 2, 1, 2, ...]. The **convergents** p_n/q_n of this expansion are the best rational approximations to √D: no fraction with a smaller denominator gets closer. The connection to Pell's equation is that the convergents at the end of each complete period satisfy p_n² - Dq_n² = ±1 exactly — and among those, every other period gives +1. The **fundamental solution** (x₁, y₁) is the smallest positive solution, always found at the first period completion.
+The continued fraction expansion of √D is eventually **periodic** for any non-square positive integer D. For example, √2 = [1; 2, 2, 2, ...] and √3 = [1; 1, 2, 1, 2, ...]. The **convergents** p_n/q_n of this expansion are the best rational approximations to √D: no fraction with a smaller denominator gets closer. The connection to Pell's equation is that the convergents at the end of each complete period satisfy p_n² - Dq_n² = ±1 exactly. If the period length is even, every period end gives +1; if it is odd, the signs alternate −1, +1. The **fundamental solution** (x₁, y₁) is the smallest positive solution, found at the first period end that gives +1.
 
-A concrete example: for D = 2, the continued fraction is [1; 2, 2, ...] with period 1, and the first convergent is p₁/q₁ = 3/2. Check: 3² - 2·2² = 9 - 8 = 1. ✓ For D = 3, the period is [1; 1, 2], so the first convergent at period-end is 2/1, but 4 - 3 = 1, giving (2, 1). Check: 4 - 3·1 = 1. ✓ The algorithm is completely mechanical once you can compute the periodic continued fraction.
+A concrete example: for D = 2, the continued fraction is [1; 2, 2, ...] with period 1 (odd), so the first period end 1/1 gives 1 − 2 = −1 and the second, p₁/q₁ = 3/2, gives +1. Check: 3² - 2·2² = 9 - 8 = 1. ✓ For D = 3, the period is [1; 1, 2], so the first convergent at period-end is 2/1, but 4 - 3 = 1, giving (2, 1). Check: 4 - 3·1 = 1. ✓ The algorithm is completely mechanical once you can compute the periodic continued fraction.
 
 Once you have the fundamental solution (x₁, y₁), all others are generated by a remarkable algebraic structure. Think of ε₁ = x₁ + y₁√D as an element of the algebraic number system ℚ(√D). The equation x² - Dy² = 1 is equivalent to (x + y√D)(x - y√D) = 1, meaning these elements have **norm** 1. Multiplying two norm-1 elements gives another norm-1 element: ε₁ⁿ = xₙ + yₙ√D yields the n-th solution (xₙ, yₙ). For D = 2: ε₁ = 3 + 2√2, so ε₁² = 17 + 12√2, giving (17, 12). Check: 17² - 2·12² = 289 - 288 = 1. ✓ The continued fraction finds the seed; the algebraic structure of ℚ(√D) generates the infinite family.

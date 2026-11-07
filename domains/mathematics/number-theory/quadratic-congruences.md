@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Quadratic congruences ax^2 + bx + c ≡ 0 (mod n) reduce to a = 1 and a = prime power cases. Solutions exist iff the discriminant is a quadratic residue modulo relevant prime factors, determined via Legendre symbols and Hensel lifting.
 
+## How It's Best Learned
+Carry one example through every stage. For x² + x + 1 ≡ 0 (mod 7), multiply by 4 to get (2x + 1)² ≡ −3 ≡ 4, so 2x + 1 ≡ ±2 and x ≡ 2 or 4. Then lift x = 2 to mod 49: put x = 2 + 7t, reduce to 1 + 5t ≡ 0 (mod 7), so t = 4 and x = 30. Check: 30² + 30 + 1 = 931 = 19 · 49.
+
+## Common Misconceptions
+- A quadratic congruence has at most two solutions, as over the reals. (That holds mod an odd prime. Mod composites there can be more: x² ≡ 1 (mod 15) has the four solutions 1, 4, 11, 14.)
+- Completing the square works for any modulus. (It needs 2a to be invertible mod n. When n is even or shares a factor with a, those cases must be handled separately.)
+- If x² ≡ d has a solution mod p, it has one mod every power of p. (For odd p with p ∤ d this is true by Hensel lifting. For p = 2 it fails: x² ≡ 5 is solvable mod 2 but not mod 8, where the squares are 0, 1 and 4.)
+
 ## Questions
 
 ```yaml

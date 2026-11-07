@@ -21,7 +21,16 @@ status: validated
 # Supremum and Infimum
 
 ## Core Idea
-The supremum (least upper bound) and infimum (greatest lower bound) are dual concepts that generalize the maximum and minimum. For any bounded set S, sup(S) is the smallest number ≥ all elements of S, and inf(S) is the largest number ≤ all elements of S. These always exist in ℝ by completeness, even when no maximum or minimum does.
+The supremum (least upper bound) and infimum (greatest lower bound) are dual concepts that generalize the maximum and minimum. For any nonempty bounded set S, sup(S) is the smallest number ≥ all elements of S, and inf(S) is the largest number ≤ all elements of S. These always exist in ℝ by completeness, even when no maximum or minimum does.
+
+## How It's Best Learned
+Find sup and inf for a short list of sets and check each answer against the two epsilon conditions. Good sets: {1/n : n ∈ ℕ}, where the sup 1 is attained and the inf 0 is not; {(−1)ⁿ/n : n ∈ ℕ} = {−1, 1/2, −1/3, 1/4, ...}, where both are attained; and {x ∈ ℚ : x² < 2}, whose sup √2 lies outside ℚ. For each bound that is not attained, name an element of S within ε of it.
+
+## Common Misconceptions
+- The supremum of a set must belong to the set. (That describes a maximum. The supremum of (0, 1) is 1, which is not in the set.)
+- Every set of real numbers has a supremum. (Completeness covers nonempty sets that are bounded above. ℕ has no supremum in ℝ, and the empty set has no least upper bound because every real number is an upper bound of it.)
+- To show x = sup(S), it is enough to show x is an upper bound of S. (Any larger number is also an upper bound. You must also show that for every ε > 0 some element of S exceeds x − ε.)
+- If a set has a supremum, it also has an infimum. (The interval (−∞, 0) has supremum 0 but is not bounded below, so it has no infimum in ℝ.)
 
 ## Questions
 

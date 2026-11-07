@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 2D shapes have specific attributes: sides (how many), corners (vertices), straight vs. curved edges. A square has 4 equal sides and 4 corners; a circle has no sides or corners. Understanding these properties helps classify and identify shapes.
 
+## How It's Best Learned
+Give the learner paper cutouts of a triangle, square, long rectangle, hexagon and circle. For each one, they trace the edge with a finger, put a dot on every corner, and make a tally mark on every side. Then they fill in a two-column chart (sides, corners). The matching numbers in each row show the pattern, and the circle's row of zeros shows why it stands apart.
+
+## Common Misconceptions
+- A shape turned on its point is a different shape, so a tilted square is a "diamond" and no longer a square. (Turning a shape does not change its sides or corners, so a tilted square is still a square.)
+- A circle has one curved side. (A side is a straight edge, so a circle has no sides and no corners.)
+- A bigger shape has more sides or corners than a smaller shape of the same kind. (Size does not change the count. A tiny triangle and a huge triangle each have 3 sides and 3 corners.)
+
 ## Questions
 
 ```yaml

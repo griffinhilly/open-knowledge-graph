@@ -24,7 +24,16 @@ status: validated
 # RNA Splicing Mechanisms
 
 ## Core Idea
-RNA splicing is the removal of introns and ligation of exons in eukaryotic pre-mRNA, catalyzed by the spliceosome, a complex of small nuclear RNAs (snRNPs) and proteins. Splicing involves two transesterification reactions: the first cuts at the 5' splice site, releasing the intron lariat; the second ligates the upstream exon to the downstream exon. Alternative splicing, where different combinations of exons are joined, vastly increases proteomic diversity from a fixed number of genes. Errors in splicing are a major cause of genetic disease.
+RNA splicing is the removal of introns and ligation of exons in eukaryotic pre-mRNA, catalyzed by the spliceosome, a complex of small nuclear RNAs (snRNPs) and proteins. Splicing involves two transesterification reactions: the first cuts at the 5' splice site, forming the intron lariat; the second ligates the upstream exon to the downstream exon. Alternative splicing, where different combinations of exons are joined, vastly increases proteomic diversity from a fixed number of genes. Errors in splicing are a major cause of genetic disease.
+
+## How It's Best Learned
+Draw a short pre-mRNA: exon 1, then GU, a branch point A, AG, then exon 2. For step 1, draw an arrow from the A's 2'-OH to the phosphate at the 5' splice site. For step 2, draw one from exon 1's new 3'-OH to the phosphate at the 3' splice site. Count bonds before and after each step. Then draw a three-exon gene and show exon 2 being skipped.
+
+## Common Misconceptions
+- The intron comes out as a straight piece of RNA. (It is released as a lariat, a loop closed by a 2'-5' bond between the intron's 5' end and the branch point adenosine.)
+- Splicing needs ATP to break the bonds at the splice sites. (The two transesterifications exchange one bond for another with no net energy input; ATP is used by helicases to assemble and rearrange the spliceosome.)
+- The spliceosome is a protein enzyme that cuts and pastes RNA. (Its active site is formed largely by U2 and U6 snRNAs, and each cut is coupled to a new bond rather than done as a separate cut and paste.)
+- Each gene makes one mature mRNA, so one gene means one protein. (Alternative splicing can include or skip exons, so one gene can give several mRNA isoforms and proteins.)
 
 ## Questions
 

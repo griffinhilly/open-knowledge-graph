@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Composing shapes means combining smaller shapes to create larger ones. This develops spatial reasoning and helps students understand how shapes fit together and relate.
 
+## How It's Best Learned
+Give the learner pattern blocks and an outline puzzle, such as a hexagon or a large triangle drawn on paper. They fill the outline with smaller blocks, with no gaps and no pieces hanging over the edge. Then they try to fill the same outline a second way with different blocks. Counting the sides of the finished shape shows that shared edges no longer count as sides.
+
+## Common Misconceptions
+- Joining two shapes makes a shape with all their sides added together. (The edges that touch are hidden inside the new shape. Two right triangles joined along their longest sides make a rectangle with 4 sides, not 6.)
+- A new shape made of pieces is not a "real" shape. (Two squares side by side make a true rectangle, with 4 sides and 4 square corners.)
+- There is only one way to build a given shape. (A hexagon can be built from 2 trapezoids, 3 rhombuses, or 6 triangles.)
+
 ## Questions
 
 ```yaml
@@ -48,9 +56,9 @@ Composing shapes means combining smaller shapes to create larger ones. This deve
 - question: "A shape can be decomposed into smaller shapes in more than one way."
   type: true-false
   answer: true
-  explanation: "True. A rectangle, for example, can be split into two squares, two triangles, or two smaller rectangles depending on how and where you cut it. There is rarely just one way to decompose a shape. This flexibility is part of what makes composing and decomposing so powerful — it means the same shape holds multiple hidden relationships simultaneously."
+  explanation: "True. A rectangle, for example, can be split into two triangles or two smaller rectangles depending on how and where you cut it. There is rarely just one way to decompose a shape. This flexibility is part of what makes composing and decomposing so powerful — it means the same shape holds multiple hidden relationships simultaneously."
 
-- question: "When two shapes are combined, the new shape generally has more sides than either of the original shapes."
+- question: "When two shapes are combined, the new shape always has more sides than either of the original shapes."
   type: true-false
   answer: false
   explanation: "False. When shapes are joined along a full edge, that shared edge disappears from both shapes, often reducing the total side count. For example, two squares placed side by side form a rectangle with 4 sides — the same number as each original square, not more. Two triangles joined along their longest sides form a rectangle with 4 sides, fewer than the combined 6 sides of the two triangles. The number of sides in the composed shape depends on which edges are joined and how they align."

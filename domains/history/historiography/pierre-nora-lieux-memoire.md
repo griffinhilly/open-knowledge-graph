@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Pierre Nora's concept of *lieux de mémoire* (sites of memory) refers to physical, symbolic, or commemorative places that crystallize and mobilize collective memory. His multi-volume study of French memory identifies how monuments, texts, symbols, and national narratives shape historical consciousness and identity. Nora argues that modern societies rely on intentional sites of memory because direct transmission of the past through living tradition has been lost.
 
+## How It's Best Learned
+Trace one lieu de mémoire from event to commemoration. Bastille Day works well: the Bastille fell in 1789, but 14 July became the national holiday only in 1880 under the Third Republic. Ask what that republic needed the date to mean. Then sort a local list of monuments, holidays, songs and textbooks into physical, textual, symbolic and temporal sites.
+
+## Common Misconceptions
+- A lieu de mémoire has to be a physical place. (Nora's sites include texts, symbols, songs and dates; what makes something a site is its function as an anchor for collective memory.)
+- Nora presents the growth of museums and commemorations as a sign of healthy memory. (He reads it as a symptom that living memory has broken down and must be propped up by institutions.)
+- A site of memory records the past as it happened. (Sites select and shape what is remembered for present purposes, so they are evidence of the commemorators as much as of the event.)
+
 ## Questions
 
 ```yaml
@@ -45,7 +53,7 @@ Pierre Nora's concept of *lieux de mémoire* (sites of memory) refers to physica
   answer: 2
   explanation: "Nora explicitly argues that sites of memory are not neutral preservation but active construction — they select which past to commemorate, in whose name, and for what present purpose. When communities debate whether to preserve or remove a monument, the dispute is precisely about whose memory is being institutionalized. The historian's observation is a direct application of Nora's insight that lieux de mémoire encode present concerns as much as past events."
 
-- question: "Lieux de mémoire are distinguished from ordinary historical sites by how accurately and mostly they preserve the original events they commemorate."
+- question: "Lieux de mémoire are distinguished from ordinary historical sites by how accurately and completely they preserve the original events they commemorate."
   type: true-false
   answer: false
   explanation: "What defines a lieu de mémoire is not accuracy of preservation but *function*: it serves as an anchor for collective identity, condensing complex histories into symbols around which communities organize. Nora's critical insight is that these sites construct rather than merely record the past — they are always selective, often contested, and mobilized for present purposes. Their power comes from their symbolic role, not their archival completeness."

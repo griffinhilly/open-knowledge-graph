@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Postcolonial historiography challenges Eurocentric narratives of history by centering colonized peoples' agency, consciousness, and perspectives. Subaltern studies scholars like Dipesh Chakrabarty and Gayatri Spivak investigate how colonial archives marginalized non-elite voices and how historians can reconstruct suppressed histories. This approach expands the temporal and spatial scope of historical inquiry while interrogating the power embedded in historical writing itself.
 
+## How It's Best Learned
+Read Ranajit Guha's essay "The Prose of Counter-Insurgency" next to a colonial official's report on a peasant rising. In the report, circle each word used for the rebels and each cause the official assigns. Then list what the rebels actually did, such as which targets they chose and which they spared, and ask what aims those choices suggest.
+
+## Common Misconceptions
+- Postcolonial historiography is only about the history of former colonies. (It also questions the categories and narratives the whole discipline uses, including in European history.)
+- History written by colonized nationalist elites already gives the view from below. (Subaltern Studies criticized elite nationalist history too, for leaving out peasants, workers and women.)
+- Reading the archive against the grain gives direct access to the subaltern's own voice. (Spivak's point is that what we recover is filtered through the archive and the historian's own concepts, so claims to speak for the subaltern need caution.)
+
 ## Questions
 
 ```yaml

@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The Lorentz force F = q(E + v × B) describes the force on a charge moving in electromagnetic fields. The magnetic force is always perpendicular to velocity, doing no work but changing direction. This defines the magnetic field B operationally.
 
+## How It's Best Learned
+Work one orbit with numbers: a proton at 1.0×10⁶ m/s in B = 0.10 T has r = mv/(qB) ≈ 0.10 m and period 2πm/(qB) ≈ 6.6×10⁻⁷ s. Double the speed and note that r doubles while the period stays fixed. Then add an electric field perpendicular to B and find the speed v = E/B at which the particle goes straight through.
+
+## Common Misconceptions
+- The magnetic force points along B, as the electric force points along E. (It points along v × B, perpendicular to both the velocity and the field.)
+- A faster particle completes its circle in less time. (For v ≪ c the period 2πm/(qB) does not depend on speed. A faster particle moves on a larger circle.)
+- An electron and a proton with the same velocity are pushed the same way. (The force is proportional to q, so the electron's force points the opposite way.)
+
 ## Questions
 
 ```yaml

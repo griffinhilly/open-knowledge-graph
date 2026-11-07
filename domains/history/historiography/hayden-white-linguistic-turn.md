@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Hayden White's *Metahistory* (1973) argued that historical narratives are not neutral representations of the past but constructed narratives shaped by implicit narrative structures (romance, tragedy, comedy, satire) and ideological commitments. White demonstrated that historians make meaning through narrative form itself, forcing a reckoning with how history is 'emplotted' and the active role of historical writing in creating historical meaning.
 
+## How It's Best Learned
+Take one short sequence of events, such as the fall of the Bastille and the Terror, and write a single paragraph four times: as romance, tragedy, comedy, and satire. Keep every fact the same. Then compare where each version starts, ends, and puts its turning point. Seeing the same facts carry four meanings makes the claim about emplotment concrete.
+
+## Common Misconceptions
+- White said history is fiction, so evidence does not matter. (He argued that history shares narrative forms with literature, while still being bound by evidence in ways a novel is not.)
+- Emplotment is a kind of bias that careful historians can remove. (For White, any narrative needs some plot form, so the choice can be examined but not avoided.)
+- If the facts are right, only one story can be told from them. (White's point is that the same accurate facts fit several narrative forms with different meanings.)
+- The four plot types are all there is to White's theory. (*Metahistory* also pairs emplotment with modes of argument, ideological positions, and four master tropes of language.)
+
 ## Questions
 
 ```yaml

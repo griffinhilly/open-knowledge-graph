@@ -33,6 +33,11 @@ Students apply addition and subtraction facts to solve word problems that descri
 ## How It's Best Learned
 Start with simple problems, use manipulatives to act out the situation, draw pictures, and discuss different solution strategies. Use consistent problem-solving steps and language.
 
+## Common Misconceptions
+- To solve a word problem, add the two numbers in it. (The story decides the operation. If Lena had 15 books and now has 9, she gave away 15 − 9 = 6.)
+- The word "more" means add. ("How many more does Sam have than Ana?" is a comparison, and you find the difference by subtracting.)
+- If something is missing in a story about getting more, the answer is the bigger number. (In "Jake had 6 apples, got some, and now has 10," the missing part is 10 − 6 = 4, not 10.)
+
 ## Questions
 
 ```yaml

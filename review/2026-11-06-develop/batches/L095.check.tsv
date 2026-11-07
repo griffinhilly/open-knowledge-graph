@@ -1,0 +1,64 @@
+domains/mathematics/number-theory/mobius-function-inversion.md	how	3	0	ok
+domains/mathematics/number-theory/mobius-function-inversion.md	mis	8	0	ok
+domains/mathematics/number-theory/norm-algebraic-number-fields.md	how	4	0	ok
+domains/mathematics/number-theory/norm-algebraic-number-fields.md	mis	6	0	ok
+domains/mathematics/number-theory/norm-algebraic-number-fields.md	old:q:1	1	1	fixed	Answer option and explanation said every unit has norm 1 "as norms are positive"; false in real quadratic fields (N(1+√2) = −1) and contradicted the new misconception bullet. Changed to norm ±1.
+domains/mathematics/number-theory/norm-algebraic-number-fields.md	old:q:2:explanation	1	1	fixed	Drafting chatter ("Wait — actually that does work") with two failed counterexamples. Replaced with 1+2i vs 1−2i in ℤ[i].
+domains/mathematics/number-theory/norm-in-algebraic-number-fields.md	how	3	0	ok
+domains/mathematics/number-theory/norm-in-algebraic-number-fields.md	mis	6	0	ok
+domains/mathematics/number-theory/norm-in-algebraic-number-fields.md	old:q:4:answer	1	1	fixed	Said norms of non-units in O_K are positive integers > 1 and units have norm 1; false for real fields. Changed to absolute values and norm ±1.
+domains/mathematics/number-theory/norm-in-algebraic-number-fields.md	old:ex	1	1	fixed	Same sign issue in prime-norm argument; added "in absolute value".
+domains/mathematics/number-theory/order-element-modulo-n.md	how	3	0	ok
+domains/mathematics/number-theory/order-element-modulo-n.md	mis	6	0	ok
+domains/mathematics/number-theory/order-element-modulo-n.md	q:4:explanation	1	0	ok
+domains/mathematics/number-theory/order-element-modulo-n.md	old:q:1:explanation	1	1	fixed	"3 is prime but 2 mod 7 is not a primitive root" garbled; now "2 is prime but is not a primitive root mod 7".
+domains/mathematics/number-theory/p-adic-valuation.md	how	4	0	ok
+domains/mathematics/number-theory/p-adic-valuation.md	mis	6	0	ok
+domains/mathematics/number-theory/pell-equation.md	how	5	0	ok
+domains/mathematics/number-theory/pell-equation.md	mis	6	0	ok
+domains/mathematics/number-theory/pell-equation.md	old:q:1:explanation	1	1	fixed	Said every period-end convergent solves the equation; for odd period length they alternate −1, +1.
+domains/mathematics/number-theory/pell-equation.md	old:q:2:explanation	1	1	fixed	Said fundamental solution is always at end of first period; for odd period length it is the second.
+domains/mathematics/number-theory/pell-equation.md	old:ex	1	1	fixed	"every other period gives +1" and "always found at the first period completion" wrong; D = 2 example (period 1, first period end 1/1 gives −1) now stated correctly.
+domains/mathematics/number-theory/pells-equation.md	how	4	0	ok
+domains/mathematics/number-theory/pells-equation.md	mis	6	0	ok
+domains/mathematics/number-theory/pells-equation.md	old:ex	1	1	fixed	(p_{s−1}, q_{s−1}) holds only for even period s; for odd s it is (p_{2s−1}, q_{2s−1}). Text contradicted itself on D = 2.
+domains/mathematics/number-theory/pells-equation.md	old:q:4:answer	1	1	fixed	Said every period-end convergent gives +1; changed to ±1 with the parity rule.
+domains/mathematics/number-theory/prime-counting-function-chebyshev-bounds.md	how	5	0	ok
+domains/mathematics/number-theory/prime-counting-function-chebyshev-bounds.md	mis	6	1	fixed	Bullet 2 said the PNT "took analytic methods" (overstated: Erdős–Selberg elementary proof 1949). Now "was first proved in 1896 with complex analysis".
+domains/mathematics/number-theory/prime-counting-function-chebyshev-bounds.md	old:ex	1	1	fixed	Bertrand stated for n ≥ 1 with a prime strictly between n and 2n; fails at n = 1. Changed to n ≥ 2.
+domains/mathematics/number-theory/prime-counting-function.md	how	4	0	ok
+domains/mathematics/number-theory/prime-counting-function.md	mis	6	0	ok	Not fixed: q:0 and q:2 imply Chebyshev's bounds alone force any limit to be 1; bounds 0.92–1.11 do not (Chebyshev proved that separately). Hedged by "subsequent analysis"; left.
+domains/mathematics/number-theory/prime-counting-function.md	old:q:4:answer	1	1	fixed	Confirmed writer's flag: "Each prime p ≤ 2n divides C(2n, n)" is false (3, 5, 7 do not divide C(20,10) = 184756). Now primes in (n, 2n] do, plus p^k ≤ 2n. Also lower bound reason gives 4^n/(2n+1), not 4^n/(2n).
+domains/mathematics/number-theory/prime-number-theorem.md	how	4	0	ok
+domains/mathematics/number-theory/prime-number-theorem.md	mis	6	0	ok
+domains/mathematics/number-theory/primes-arithmetic-progressions-dirichlet.md	how	4	0	ok
+domains/mathematics/number-theory/primes-arithmetic-progressions-dirichlet.md	mis	6	0	ok	Style/precision: "the general theorem needs characters and L-functions" softened to "Dirichlet's proof of the general theorem uses".
+domains/mathematics/number-theory/primes-arithmetic-progressions-dirichlet.md	old:ex	1	1	fixed	"log(number of primes ≤ x in the progression) grows like (1/φ(d)) log log x" is false; it is the sum of 1/p that grows that way.
+domains/mathematics/number-theory/primes-arithmetic-progressions.md	how	4	0	ok
+domains/mathematics/number-theory/primes-arithmetic-progressions.md	mis	6	0	ok	Not fixed: q:0 and Explainer say L(1,χ) = 0 would leave "the class corresponding to χ" with finitely many primes; characters do not correspond to single classes. Muddled, left.
+domains/mathematics/number-theory/primes-arithmetic-progressions.md	old:q:3	1	1	fixed	Answer key wrong: Dirichlet's theorem can be proved without complex analysis (Dirichlet 1837 used real s; Selberg 1949 elementary proof). Flipped to true, rewrote explanation.
+domains/mathematics/number-theory/primes-arithmetic-progressions.md	old:ex	1	1	fixed	"complex analysis becomes unavoidable" false; now "analytic methods enter".
+domains/mathematics/number-theory/primitive-roots-and-cyclic-groups-mod-p.md	how	4	0	ok
+domains/mathematics/number-theory/primitive-roots-and-cyclic-groups-mod-p.md	mis	6	0	ok
+domains/mathematics/number-theory/primitive-roots-cyclic-groups-mod-p.md	how	4	0	ok
+domains/mathematics/number-theory/primitive-roots-cyclic-groups-mod-p.md	mis	6	0	ok
+domains/mathematics/number-theory/pythagorean-triples-parametrization.md	how	3	0	ok
+domains/mathematics/number-theory/pythagorean-triples-parametrization.md	mis	6	0	ok
+domains/mathematics/number-theory/pythagorean-triples-parametrization.md	old:q:1:explanation	1	1	fixed	"2mn is divisible by 2 but not 4 in the primitive case" false (opposite parity makes 2mn divisible by 4, e.g. b = 4 in (3,4,5)). Removed.
+domains/mathematics/number-theory/pythagorean-triples-parametrization.md	old:ex	1	1	fixed	Said c − a and c + a are both even and coprime; impossible. Now their halves are coprime with product (b/2)².
+domains/mathematics/number-theory/quadratic-congruences.md	how	5	0	ok
+domains/mathematics/number-theory/quadratic-congruences.md	mis	6	0	ok
+domains/mathematics/number-theory/quadratic-residues-and-legendre-symbol.md	how	4	0	ok
+domains/mathematics/number-theory/quadratic-residues-and-legendre-symbol.md	mis	6	0	ok
+domains/mathematics/number-theory/quadratic-residues-legendre-symbol.md	how	4	0	ok
+domains/mathematics/number-theory/quadratic-residues-legendre-symbol.md	mis	6	0	ok
+domains/mathematics/number-theory/quadratic-residues-legendre-symbol.md	old:ex	1	1	fixed	Stray variable "gcd(m,p) = 1"; now "p ∤ x". Also fixed Core Idea typo "-1otherwise".
+domains/mathematics/number-theory/rsa-cryptography.md	how	4	0	ok
+domains/mathematics/number-theory/rsa-cryptography.md	mis	8	0	ok
+domains/mathematics/number-theory/rsa-cryptography.md	old:ex	1	1	fixed	"2048-bit primes" wrong; RSA-2048 has a 2048-bit modulus (1024-bit primes).
+domains/mathematics/number-theory/sum-of-two-squares-theorem.md	how	4	0	ok
+domains/mathematics/number-theory/sum-of-two-squares-theorem.md	mis	6	0	ok
+domains/mathematics/number-theory/sum-two-squares-theorem.md	how	4	0	ok
+domains/mathematics/number-theory/sum-two-squares-theorem.md	mis	6	1	fixed	Cut bullet 3 ("doubling destroys the property"): math correct but a strawman. 2 bullets remain.
+domains/mathematics/number-theory/wilsons-theorem.md	how	4	0	ok
+domains/mathematics/number-theory/wilsons-theorem.md	mis	6	0	ok	Not fixed: Explainer says cyclicity of (ℤ/pℤ)* "underpins" Fermat's little theorem; FLT needs only Lagrange. Left.

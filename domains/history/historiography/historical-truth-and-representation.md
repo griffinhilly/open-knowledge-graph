@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 The relationship between historical narrative and truth is philosophically complex. Historians aim to represent reality faithfully, yet all representation involves selection, interpretation, and narrative shaping. Postmodern historians question whether narrative can ever be transparent to reality. A defensible middle position: historical truth is constrained by evidence and answerable to reality, yet always comes to us through interpretation and representation, never unmediated.
 
+## How It's Best Learned
+Take two short accounts of the same event that disagree, such as a trench-level and a strategy-level history of one World War I battle. Highlight every factual statement and check which ones the sources could confirm or refute. Then list what remains: emphasis, framing, and plot. Separating checkable claims from framing choices shows where evidence decides and where interpretation enters.
+
+## Common Misconceptions
+- If every account is shaped by interpretation, there is no historical truth. (Interpretation shapes how facts are framed, but evidence can still show particular claims to be true or false.)
+- A good historian can write a perfectly neutral account. (Selection and narrative form cannot be avoided, so the aim is accountable interpretation rather than a view from nowhere.)
+- Two accounts that tell different stories must contradict each other. (They may answer different questions from different evidence, and both can be accurate.)
+- Postmodern critics claimed that the past did not happen. (Most argued that our access to the past is mediated by language and narrative, which is a claim about representation.)
+
 ## Questions
 
 ```yaml

@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Memory studies examines how individuals and communities remember the past, how those memories shape historical consciousness, and how historians distinguish between history and memory. While history relies on evidence and argument, memory is selective, emotional, and contested. Memory studies illuminates how pasts live in the present through monuments, rituals, narrative, and trauma—areas where historical evidence and lived experience diverge.
 
+## How It's Best Learned
+Ask an older relative or neighbor to describe a public event they lived through, and take notes. Then find newspaper reports from the week it happened. Mark where the account matches, where it differs, and where it echoes later films or anniversaries. The marked-up notes show how personal memory, collective memory, and the documentary record pull apart and blend.
+
+## Common Misconceptions
+- When collective memory differs from the record, people are lying. (Groups select and reshape the past to support identity, often without intent to deceive, and memory studies treats that as something to explain.)
+- Forgetting is a passive fading of the past. (Societies also forget actively, through silence, omission from monuments and lessons, or choices about what to commemorate.)
+- A vivid, confident memory is an accurate one. (Vivid memories can still change in detail over the years, so vividness alone does not show accuracy.)
+- Historians stand outside memory and simply correct it. (The archives and questions historians inherit were shaped by what past societies chose to remember.)
+
 ## Questions
 
 ```yaml

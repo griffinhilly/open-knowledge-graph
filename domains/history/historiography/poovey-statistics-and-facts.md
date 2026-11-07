@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Mary Poovey traces how 'facts' and 'statistics' came to be understood as objective, impersonal knowledge. She shows statistics are not neutral summaries of reality but cultural productions shaped by theories, categories, and interests. Understanding the history of quantification helps historians recognize numbers are as laden with interpretation as narrative, requiring equal scrutiny and awareness of what gets counted, how, and by whom.
 
+## How It's Best Learned
+Start with double-entry bookkeeping, Poovey's first case. Build a small ledger whose debits and credits balance, then slip in one false entry and balance it again. The books still balance, so formal precision shows internal consistency and says nothing about whether each entry is true. Then take one census category, such as "pauper," and find who defined it and for what purpose.
+
+## Common Misconceptions
+- Poovey argues that statistics are fabrications and historians should stop using them. (She asks historians to read numbers critically, attending to who made them and how, while still using them.)
+- The word "fact" has always meant a neutral, observed particular. (Its older sense was legal, a deed or act, and the idea of a context-free fact took shape over time through specific practices.)
+- A precise, internally consistent set of numbers must be accurate. (Precision and balance can give an effect of accuracy without any check on whether the entries match the world.)
+
 ## Questions
 
 ```yaml

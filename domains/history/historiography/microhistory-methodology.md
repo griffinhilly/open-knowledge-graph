@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Microhistory, pioneered by Italian historians like Carlo Ginzburg, zooms in on small-scale events or individuals to reveal large historical structures and processes. By studying one village, trial, or person in meticulous detail, microhistorians discover complexity, contingency, and agency that large-scale narratives miss. The method asks: What can we learn from depth that breadth cannot show us?
 
+## How It's Best Learned
+Take one court case from a published collection or local archive and reconstruct it in full: people, places, words used, and outcome. Then write two short paragraphs. In the first, state what larger process the case lets you see. In the second, state what it cannot show, such as how common the behavior was. Writing both claims makes the microhistorian's argument for scale explicit.
+
+## Common Misconceptions
+- Microhistory is the same as local history. (Local history studies a place for its own sake, while microhistory uses a small case to answer questions about larger structures.)
+- Microhistory rejects numbers and structural history. (Some microhistorians, such as Giovanni Levi, used serial records like land transactions, and many treat micro and macro scales as working together.)
+- A microhistory is a vivid story without a broader argument. (The method requires an explicit case for why the small unit illuminates something beyond itself.)
+- Microhistorians claim their case is typical. (They often study an exceptional, well-documented case and argue about what it reveals, without claiming statistical typicality.)
+
 ## Questions
 
 ```yaml

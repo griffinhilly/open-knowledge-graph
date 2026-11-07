@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 In the radiation zone (kr >> 1), retarded potentials simplify to pure radiation fields with E ∝ ∇ × a_ret and B = (k̂ × E)/c. The electric field near a small source becomes (1/4πε₀c²r)[k̂ × (k̂ × p̈)], proportional to acceleration, decaying as 1/r.
 
+## How It's Best Learned
+Write the exact field of an oscillating dipole. It has terms in 1/r³, 1/r² and 1/r whose sizes compare as 1 : kr : (kr)². Evaluate that ratio at kr = 0.1, 1 and 10 to see where each term wins. Then sketch k̂ × (k̂ × p̈) for p̈ along z at θ = 0°, 45° and 90° to get the sin θ field and sin²θ power pattern.
+
+## Common Misconceptions
+- The far field begins once you are many source sizes away. (The radiation zone also needs kr ≫ 1, so r must be large compared with the wavelength. A tiny antenna seen from a tenth of a wavelength away is still in its near zone.)
+- The near-field terms switch off beyond some radius. (They are present at every distance. They fall as 1/r² and 1/r³, so they become small compared with the 1/r term.)
+- A dipole radiates equally in all directions. (Its power goes as sin²θ: largest perpendicular to the dipole axis and zero along it.)
+
 ## Questions
 
 ```yaml

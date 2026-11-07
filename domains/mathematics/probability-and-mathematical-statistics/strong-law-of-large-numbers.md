@@ -31,6 +31,15 @@ status: validated
 ## Core Idea
 If {Xₙ} are i.i.d. with finite mean μ, then Sₙ/n converges almost surely to μ: P(lim_{n→∞} Sₙ/n = μ) = 1. This is stronger than the weak law. The proof uses the Borel-Cantelli lemmas (for bounded random variables) or truncation arguments. The SLLN provides certainty (up to sets of probability zero) rather than just high probability.
 
+## How It's Best Learned
+Work the proof that assumes a finite fourth moment. For centered i.i.d. Xᵢ, E[Sₙ⁴] = nE[X⁴] + 3n(n − 1)σ⁴ ≤ Cn², so P(|Sₙ/n| > ε) ≤ C/(ε⁴n²), and that sum converges. Compare Chebyshev's bound σ²/(nε²), whose sum diverges. Then plot several running averages of fair coin flips against an ε band to see each path eventually stay inside.
+
+## Common Misconceptions
+- After a run of heads, tails become more likely so the average can return to ½. (The flips stay independent. An early excess of heads is diluted by later flips rather than cancelled.)
+- The law says the total Sₙ ends up close to nμ. (It concerns the average. The gap Sₙ − nμ typically has size of order √n, so it does not shrink.)
+- Probability 1 means every sequence of outcomes has averages converging to μ. (The all-heads sequence is a possible outcome with average 1. The exceptional sequences form a set of probability zero, which is not the same as being empty.)
+- The law applies to any i.i.d. sequence. (It needs a finite mean. For standard Cauchy variables, Sₙ/n is again standard Cauchy for every n and does not converge.)
+
 ## Questions
 
 ```yaml
@@ -67,6 +76,7 @@ If {Xₙ} are i.i.d. with finite mean μ, then Sₙ/n converges almost surely to
 - question: "Explain why the Weak Law of Large Numbers does not guarantee that the sample average 'eventually stays close' to μ, and what the Strong Law adds to give this guarantee."
   type: short-answer
   answer: "The Weak Law says P(|Sₙ/n − μ| > ε) → 0 for each fixed ε — a pointwise statement about individual time steps. This is compatible with the average oscillating away from μ infinitely often, as long as those excursions become increasingly rare. The Strong Law asserts P(lim_{n→∞} Sₙ/n = μ) = 1 — a statement about the whole trajectory. Almost sure convergence means: except for a set of sample paths of measure zero, the running average eventually settles within ε of μ and stays there. The Borel-Cantelli approach makes this precise: by showing the sum of probabilities P(|Sₙ/n − μ| > ε) converges, one concludes (via first Borel-Cantelli) that the bad events occur only finitely many times almost surely."
+  explanation: "The Weak Law controls one n at a time, so it is consistent with infinitely many excursions spread over sparse times. The Strong Law concerns a single event that involves all n together, namely that the limit of Sₙ/n equals μ. Borel-Cantelli turns summable tail probabilities into the statement that only finitely many excursions happen with probability 1, and that is exactly what 'eventually stays within ε' means."
 ```
 
 ## Explainer

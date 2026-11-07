@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Indigenous historiography centers indigenous peoples' own understandings of their past rather than filtering indigenous history through colonial archives. It values oral traditions, place-based knowledge, and indigenous intellectual frameworks alongside or instead of written documents. Decolonizing historiography means recognizing indigenous historians as knowledge creators and questioning whether Western historical methods suit non-Western knowledge systems.
 
+## How It's Best Learned
+Compare a Lakota winter count, a pictographic record in which each year is named for a memorable event, with a fort or agency record covering the same years. Note what each treats as the event worth recording and who keeps and explains it. Then ask what a historian would need from the community to read the winter count well. The comparison shows both the source difference and the framework difference.
+
+## Common Misconceptions
+- Oral traditions are unreliable because they change with each telling. (Many are kept under rules about who may tell them and how, and they can preserve information across long periods, though like any source they need careful reading.)
+- Decolonizing history just means adding oral sources to the usual story. (Indigenous scholars also question the categories of periodization, progress, and individual agency that frame the usual story.)
+- There is one indigenous perspective on the past. (Indigenous peoples are many distinct nations, each with its own traditions, languages, and ways of keeping history.)
+- Indigenous historiography rejects written documents. (Many indigenous historians use colonial and written sources alongside oral and place-based knowledge, while reading them critically.)
+
 ## Questions
 
 ```yaml

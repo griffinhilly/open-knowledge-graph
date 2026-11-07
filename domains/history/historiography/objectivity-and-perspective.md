@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Complete objectivity is impossible in history because historians are always positioned within their own time and social location. Yet history can achieve a form of objectivity through rigorous methodology, explicit acknowledgment of perspective, and accountability to evidence. Objectivity becomes a regulative ideal toward which historians work rather than a final state—an aspiration that demands constant vigilance.
 
+## How It's Best Learned
+Take a short historical argument you have written. Score it against four tests: does each claim rest on cited evidence, is the reasoning shown, are alternatives considered, and is the strength of the conclusion matched to the evidence? Then write the strongest objection a critic from a different standpoint would raise, and revise. The scored draft shows objectivity as a practice you can improve.
+
+## Common Misconceptions
+- Objectivity means giving every side equal space. (Accountability to evidence can require saying one interpretation is better supported, so balance and objectivity can come apart.)
+- Stating your perspective at the start makes your work objective. (Naming a standpoint helps others examine it, but the work must still meet tests of evidence, transparency, and openness to criticism.)
+- Since full objectivity is impossible, the ideal should be dropped. (A regulative ideal guides practice even if it is never fully reached, and dropping it removes the grounds for judging accounts.)
+- Objectivity is a property a finished text either has or lacks. (It comes in degrees and depends on how fully the argument submits to evidence and peer critique.)
+
 ## Questions
 
 ```yaml

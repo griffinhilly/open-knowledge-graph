@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Word problems present real-world situations requiring addition or subtraction. Understanding the context (joining, removing, comparing) guides students to choose the correct operation and solve meaningfully.
 
+## How It's Best Learned
+Act out each story with counters on a mat before writing anything. For "Tom has 5 marbles and gets 3 more," the learner puts down 5 and pushes in 3. For "loses 3," they take 3 away. For "Sam has 3, how many more does Tom have?" they line up two rows and count the extra ones. After acting it out, the learner names the action (join, remove or compare) and then writes the number sentence.
+
+## Common Misconceptions
+- Any problem with the word "more" is an addition problem. ("How many more does Tom have than Sam?" compares two groups, and you subtract to find the difference.)
+- In a subtraction story, the order of the numbers does not matter. (The starting amount goes first. If Maya has 9 stickers and gives away 4, the sentence is 9 − 4, not 4 − 9.)
+- When the amount taken away is the unknown, you should add the two numbers given. (If 6 apples were in a bowl and 2 remain, then 6 − 2 = 4 were eaten.)
+
 ## Questions
 
 ```yaml

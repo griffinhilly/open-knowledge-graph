@@ -29,6 +29,12 @@ Green's functions are fundamental solutions to the Poisson equation that encode 
 ## How It's Best Learned
 Derive Green's function for simple geometries (infinite plane, sphere) and verify reciprocity. Apply to conductors and dielectrics to see how boundary conditions determine the Green function.
 
+## Common Misconceptions
+- The free-space G₀ = 1/(4π|r − r'|) works for any geometry once the right charge density is used. (G₀ ignores the boundaries. With a grounded conductor present, G must also vanish on the conductor's surface.)
+- The volume integral ∫ G ρ/ε₀ d³r' gives the whole potential even when a boundary is held at a nonzero voltage. (That integral covers the charge inside the region. A surface integral over the prescribed boundary values must be added.)
+- One Green function serves every boundary condition for a given geometry. (Dirichlet and Neumann problems need different Green functions, because G must obey the matching condition on the boundary.)
+- An image charge may sit anywhere, including inside the region where the potential is wanted. (It must lie outside that region. Otherwise it would change the Poisson equation there.)
+
 ## Questions
 
 ```yaml

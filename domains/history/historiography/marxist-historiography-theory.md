@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Marxist historiography interprets history as class struggle and understands economic structures as foundational to cultural and political forms. Marx and Engels' historical materialism offered a powerful framework for explaining large-scale social change. Yet Marxist history faces theoretical challenges: Is base-superstructure modeling too mechanical? How do ideology and human agency fit within structural determination?
 
+## How It's Best Learned
+Read the short passage on base and superstructure in Marx's 1859 Preface to *A Contribution to the Critique of Political Economy*. Then read the preface to Thompson's *The Making of the English Working Class*. For each, write one sentence answering "What drives historical change, and where do people's own ideas fit?" Comparing the two answers maps the main debate inside Marxist history.
+
+## Common Misconceptions
+- "Materialism" here means a love of money or goods. (It refers to the claim that the way a society produces its material life shapes its politics, law, and culture.)
+- Class in Marxist history means income level. (Class is defined by relation to the means of production, such as owning them or selling one's labor.)
+- Marxist historiography is one fixed doctrine. (Marxist historians disagreed sharply, for example over how much weight to give structure versus experience and culture.)
+- Hill's reading of the English Civil War as a bourgeois revolution is now the accepted view. (Later historians disputed it heavily, though his work changed which questions the field asked.)
+
 ## Questions
 
 ```yaml

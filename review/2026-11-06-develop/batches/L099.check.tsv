@@ -1,0 +1,35 @@
+domains/mathematics/real-analysis/rigorous-series-convergence.md	how	4	0	ok	Worked both blocks: harmonic block N+1..2N >= 1/2; 1/k^2 telescoping gives < 1/m, N > 1/eps works.
+domains/mathematics/real-analysis/rigorous-series-convergence.md	mis	8	0	ok
+domains/mathematics/real-analysis/sequential-characterization-continuity.md	how	3	0	ok	Step function with x_n = -1/n checked; 1/n works, -1/n fails.
+domains/mathematics/real-analysis/sequential-characterization-continuity.md	mis	6	0	ok
+domains/mathematics/real-analysis/supremum-and-infimum.md	how	4	0	ok	Checked sup/inf and attainment for {1/n}, {(-1)^n/n}, {x in Q : x^2 < 2}.
+domains/mathematics/real-analysis/supremum-and-infimum.md	mis	8	0	ok
+domains/mathematics/real-analysis/supremum-and-infimum.md	old:core	1	1	fixed	Core said sup/inf exist "for any bounded set"; the empty set is bounded and has no sup. Added "nonempty" (also matches new mis bullet 2).
+domains/mathematics/real-analysis/supremum-infimum.md	how	3	0	ok	Rational upper bounds of {q : q^2 < 2} are exactly the positive rationals with q^2 > 2; no least element. Checked.
+domains/mathematics/real-analysis/supremum-infimum.md	mis	8	0	ok	Note (not fixed): file has Explainer before Questions (old structure, out of order).
+domains/mathematics/real-analysis/taylors-theorem-remainder.md	how	5	0	ok	Worked: 3/720 = 0.0042 too large, 3/5040 = 0.00060 enough; P6(1) = 2.718056, error 0.000226.
+domains/mathematics/real-analysis/taylors-theorem-remainder.md	mis	8	1	fixed	ln(1+x) at x = 2: "move further from ln 3 as n grows" fails at the first step (P0 = 0 is 1.10 away, P1 = 2 is 0.90 away). Added "from n = 1 on"; checked P1..P7 distances increase.
+domains/mathematics/real-analysis/taylors-theorem-remainder.md	old:ex	1	1	fixed	Integral remainder weight (x-t)^n was said to concentrate near x; it is largest near a and vanishes at t = x.
+domains/mathematics/real-analysis/uniform-continuity-compact-sets.md	how	4	0	ok	1/x pair: gap 1/(n(n+1)), outputs differ by 1. x^2 pair: outputs differ by 2 + 1/n^2.
+domains/mathematics/real-analysis/uniform-continuity-compact-sets.md	mis	6	0	ok
+domains/mathematics/real-analysis/uniform-continuity-compact-sets.md	old:core	1	1	fixed	Core described the proof as producing "a non-convergent sequence with no convergent subsequence, violating Bolzano-Weierstrass"; replaced with the actual argument (close pairs, B-W subsequence, contradiction from continuity at the limit).
+domains/mathematics/real-analysis/uniform-convergence-functions.md	how	3	0	ok	sup of x^n on [0,1/2] is (1/2)^n; on [0,1) it is 1.
+domains/mathematics/real-analysis/uniform-convergence-functions.md	mis	6	0	ok	Added bullet on derivative exchange (sin(nx)/n counterexample).
+domains/mathematics/real-analysis/uniform-convergence-functions.md	old:core	1	1	fixed	Core claimed uniform convergence guarantees exchanging limits with derivatives. False (sin(nx)/n). Rewrote: continuity and integrals yes; derivatives need uniform convergence of f_n'.
+domains/mathematics/real-analysis/uniform-convergence-functions.md	old:ex	1	1	fixed	Explainer said derivative exchange depends on this one uniform convergence condition. Corrected to uniform convergence of the derivatives.
+domains/mathematics/real-analysis/uniform-convergence-power-series.md	how	4	1	fixed	"Tail after n terms is x^(n+1)/(1-x)" is off by one (after n terms the tail is x^n/(1-x)). Reworded to "after the x^n term". M_n sum 2 and -ln(1-x) integration checked.
+domains/mathematics/real-analysis/uniform-convergence-power-series.md	mis	6	0	ok	Checked sum x^n/n^2 at x = 1 vs derived harmonic series. Added bullet on why term-by-term differentiation is justified.
+domains/mathematics/real-analysis/uniform-convergence-power-series.md	old:ex	1	1	fixed	Explainer said uniform convergence makes "all the interchange theorems apply", including differentiation. Added the real reason: the derived series has the same radius and so also converges uniformly on compact subintervals.
+domains/mathematics/real-analysis/uniform-convergence-preserves-continuity.md	how	3	0	ok	eps/3 on x^n at x = 1 with eps = 1/2: third term needs y^n < 1/6 near 1, impossible for fixed n. Checked.
+domains/mathematics/real-analysis/uniform-convergence-preserves-continuity.md	mis	6	0	ok	n x e^(-nx) peak e^(-1) at 1/n checked. Added derivative bullet.
+domains/mathematics/real-analysis/uniform-convergence-preserves-continuity.md	old:core	1	1	fixed	Core said the theorem justifies exchanging lim with derivatives. False; removed and stated the derivative condition.
+domains/mathematics/real-analysis/uniform-convergence-preserves-continuity.md	old:ex	2	2	fixed	(1) "generic behavior when convergence is non-uniform" overstated (contradicts new mis bullet 1); softened to "standard example". (2) Final paragraph said uniform convergence makes the d/dx swap legal; corrected.
+domains/mathematics/real-analysis/uniform-convergence.md	how	4	0	ok	x/n sup 1/n on [0,1], infinite on R; spike n on (0,1/n): sup n, integral 1.
+domains/mathematics/real-analysis/uniform-convergence.md	mis	6	0	ok	Note (not fixed): Explainer says x^n on [0,1) has limit "0 on [0,1) and 1 at 1"; 1 is outside that domain.
+domains/mathematics/real-analysis/weierstrass-approximation-theorem.md	how	4	0	ok	B_n(x^2) = x^2 + x(1-x)/n, max error 1/(4n); B_2 for |x - 1/2| computed, value 1/4 at 1/2.
+domains/mathematics/real-analysis/weierstrass-approximation-theorem.md	mis	6	0	ok	Constant within eps of sin x needs eps > 1; checked.
+domains/mathematics/real-analysis/weierstrass-approximation-theorem.md	old:q:4:answer	1	1	fixed	"Uniform approximation over all of R fails for any bounded function" is false for constants; added "non-constant".
+domains/mathematics/real-analysis/weierstrass-m-test.md	how	5	0	ok	sum e^(-nx) = 1/(e^x - 1); M_n = e^(-n) on [1,inf), M_n = 1 on (0,inf); partial sum <= N so not uniform. Checked.
+domains/mathematics/real-analysis/weierstrass-m-test.md	mis	6	0	ok	Alternating tail bound x^(N+1)/(N+1) <= 1/(N+1) checked. Added derivative bullet (sum sin(nx)/n^2).
+domains/mathematics/real-analysis/weierstrass-m-test.md	old:q:3:explanation	1	1	fixed	Counterexample "sum x^n on [0,1] converges pointwise" is false (diverges at x = 1); changed to [0,1).
+domains/mathematics/real-analysis/weierstrass-m-test.md	old:ex	1	1	fixed	Explainer said after the M-test you can "pass differentiation through the sum"; false for its own example (sum x^(n-1)/n diverges at x = 1). Corrected.

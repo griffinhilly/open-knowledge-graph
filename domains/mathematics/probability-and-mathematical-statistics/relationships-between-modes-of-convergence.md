@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 The hierarchy is: a.s. convergence ⟹ convergence in probability ⟹ convergence in distribution, and L^p convergence ⟹ convergence in probability. None of the other directions hold in general. Understanding these distinctions determines which limit theorem applies in a given context.
 
+## How It's Best Learned
+Draw the four modes as boxes with implication arrows, then attach a counterexample to every missing arrow, all on [0,1] with uniform probability. The typewriter sequence converges in probability and in L^p but not almost surely. Xₙ = n·1[0,1/n] converges almost surely but has E[Xₙ] = 1 for every n. Xₙ = Z with limit −Z, for Z standard normal, converges only in distribution.
+
+## Common Misconceptions
+- L^p convergence implies almost sure convergence. (The typewriter sequence has E[|Xₙ|^p] equal to the interval length, which tends to 0, yet every path equals 1 infinitely often.)
+- If Xₙ → X almost surely, then E[Xₙ] → E[X]. (Xₙ = n·1[0,1/n] tends to 0 almost surely while E[Xₙ] = 1. Passing the limit through the expectation needs a condition such as domination or uniform integrability.)
+- Convergence in distribution means Xₙ gets close to X. (If Xₙ = Z for every n and X = −Z, the distributions match exactly, but |Xₙ − X| = 2|Z| does not shrink.)
+- Convergence in distribution can never give convergence in probability. (When the limit is a constant c, the two are equivalent.)
+
 ## Questions
 
 ```yaml

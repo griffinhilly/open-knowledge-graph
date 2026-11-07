@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 The Larmor formula P = (q²a²)/(6πε₀c³) gives power radiated by a non-relativistic accelerated point charge. Maximum power radiates perpendicular to acceleration; no power along the acceleration direction. This fundamental result connects acceleration to energy loss by radiation.
 
+## How It's Best Learned
+Get the total from the pattern: integrate dP/dΩ = q²a² sin²θ/(16π²ε₀c³) over the sphere. Since ∫ sin²θ dΩ = 8π/3, you recover P = q²a²/(6πε₀c³). Then apply it to a classical hydrogen electron with v ≈ 2.2×10⁶ m/s and r ≈ 5.3×10⁻¹¹ m. You get a ≈ 9×10²² m/s² and P ≈ 5×10⁻⁸ W. Divide 13.6 eV by that power for the orbit's decay timescale.
+
+## Common Misconceptions
+- A charge radiates because it moves. (A charge at constant velocity does not radiate. Radiation needs acceleration.)
+- A charge circling at constant speed does not radiate, since its speed never changes. (Its velocity changes direction, so it has centripetal acceleration and radiates.)
+- An accelerated charge radiates most strongly along its acceleration. (The pattern goes as sin²θ from the acceleration axis: zero along it and largest perpendicular to it.)
+- The Larmor formula holds at any speed. (It is the v ≪ c limit. At high speeds the relativistic generalization adds powers of γ and beams the radiation forward.)
+
 ## Questions
 
 ```yaml
@@ -55,12 +64,12 @@ The Larmor formula P = (q²a²)/(6πε₀c³) gives power radiated by a non-rela
 - question: "The Larmor formula predicts that an electron in a classical circular orbit around a nucleus should continuously lose energy, implying atoms cannot be stable in classical electrodynamics."
   type: true-false
   answer: true
-  explanation: "A circular orbit requires centripetal acceleration directed inward. The Larmor formula gives P = q²a²/(6πε₀c³) > 0 for any nonzero centripetal acceleration. This means the electron continuously radiates energy, losing it to electromagnetic radiation. As energy decreases, the orbital radius decreases and the centripetal acceleration increases, accelerating the radiation and causing a runaway spiral inward. Classical electrodynamics predicts atoms collapse in nanoseconds — this 'classical catastrophe' was a key motivation for quantum mechanics."
+  explanation: "A circular orbit requires centripetal acceleration directed inward. The Larmor formula gives P = q²a²/(6πε₀c³) > 0 for any nonzero centripetal acceleration. This means the electron continuously radiates energy, losing it to electromagnetic radiation. As energy decreases, the orbital radius decreases and the centripetal acceleration increases, accelerating the radiation and causing a runaway spiral inward. Classical electrodynamics predicts hydrogen collapses in about 10⁻¹¹ seconds — this 'classical catastrophe' was a key motivation for quantum mechanics."
 
 - question: "Why do circular particle accelerators face a fundamental energy-loss challenge from the Larmor formula that linear accelerators avoid?"
   type: short-answer
   answer: "In a circular accelerator, particles move in a curved path, which requires centripetal acceleration directed toward the center of curvature. Even if particle speed is constant, centripetal acceleration is nonzero, so the Larmor formula gives P > 0 — the particles continuously radiate (synchrotron radiation) and lose energy. A linear accelerator accelerates particles along a straight line, so the acceleration is parallel to velocity and there is no centripetal component persisting throughout the path; once the accelerating section ends, acceleration stops and radiation ceases."
-  explanation: "Synchrotron radiation scales as a⁴ in the relativistic generalization of the Larmor formula, making it an increasingly severe problem at high energies. This is why high-energy electron accelerators (like LEP at CERN) eventually hit a wall where all the energy pumped in goes straight out as synchrotron radiation. The Large Hadron Collider uses protons instead of electrons precisely because protons are ~1800× heavier, giving far less centripetal acceleration for the same momentum, and hence far less synchrotron radiation."
+  explanation: "At fixed bending radius, synchrotron power scales as γ⁴ in the relativistic generalization of the Larmor formula, making it an increasingly severe problem at high energies. This is why high-energy electron accelerators (like LEP at CERN) eventually hit a wall where all the energy pumped in goes straight out as synchrotron radiation. The Large Hadron Collider uses protons instead of electrons precisely because protons are ~1800× heavier, giving far less centripetal acceleration for the same momentum, and hence far less synchrotron radiation."
 ```
 
 ## Explainer

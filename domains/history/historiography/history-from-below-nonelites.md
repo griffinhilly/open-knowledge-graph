@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 History from below centers the experiences, agency, and perspectives of ordinary people, workers, and marginalized groups rather than elites. It involves finding and amplifying sources created by or about non-elites and resisting the tendency to view ordinary people as passive subjects of history made by great men. This approach does not romanticize non-elites but takes their perspectives and agency seriously as historical actors.
 
+## How It's Best Learned
+Work through one probate inventory of a laborer's or artisan's household. List the goods room by room and infer what daily work, meals, and comforts looked like. Then ask who never appears in such records, such as people too poor to leave an estate. Doing both steps teaches what non-elite sources can show and where their silences lie.
+
+## Common Misconceptions
+- History from below celebrates ordinary people as heroes resisting the powerful. (It takes their views seriously, which includes recording when they were prejudiced, violent, or conservative.)
+- Ordinary people left no records at all. (Court files, parish registers, probate inventories, and some personal writings survive, though they are scattered and often filtered through institutions.)
+- Registers and inventories are neutral counts of ordinary life. (They were made for church or legal purposes, so people outside those systems can be missing.)
+- Every action by ordinary people should be read as resistance. (Much of what people did was coping, bargaining, or going along, and the method aims to capture that range.)
+
 ## Questions
 
 ```yaml
@@ -67,7 +76,7 @@ History from below centers the experiences, agency, and perspectives of ordinary
 
 ## Explainer
 
-The social history movement you studied established that collective phenomena — class formation, demographic change, family structure, popular culture — were legitimate objects of historical study alongside political events. History from below takes the next step: it insists on centering the experiences and agency of the people who lived through those collective processes. The phrase itself comes from the socialist press tradition — writing history "from below" as opposed to from the perspective of rulers and elites who generated most of the surviving archive. E.P. Thompson's *The Making of the English Working Class*, which you may have encountered, is its canonical expression: a history in which working people are not the backdrop to industrialization but its central subjects, making themselves as they experienced it.
+The social history movement you studied established that collective phenomena — class formation, demographic change, family structure, popular culture — were legitimate objects of historical study alongside political events. History from below takes the next step: it insists on centering the experiences and agency of the people who lived through those collective processes. The phrase itself was popularized by E.P. Thompson's 1966 essay "History from Below" — writing history "from below" as opposed to from the perspective of rulers and elites who generated most of the surviving archive. E.P. Thompson's *The Making of the English Working Class*, which you may have encountered, is its canonical expression: a history in which working people are not the backdrop to industrialization but its central subjects, making themselves as they experienced it.
 
 The methodological challenge is real. Elites left documents because they controlled the institutions that produced and preserved documents: governments, churches, courts, universities, publishing houses. **Non-elite sources** are not absent from the archive, but they are more scattered and often mediated. Court records survive because the state needed them — and they contain the voices of ordinary people, usually in conditions of stress or conflict. Parish registers document births, marriages, and deaths. Probate inventories list the possessions of ordinary households. Diaries and letters of the literate poor survive in family collections. **Ego documents** — personal writings by ordinary people — are rarer than elite sources but not nonexistent, and historians have worked intensively to find them.
 

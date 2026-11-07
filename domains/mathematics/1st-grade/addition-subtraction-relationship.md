@@ -30,6 +30,13 @@ status: validated
 ## Core Idea
 Addition and subtraction are inverse operations: if 5+3=8, then 8-3=5 and 8-5=3. Recognizing this relationship helps students see that fact families belong together and supports flexible thinking.
 
+## How It's Best Learned
+Use a train of 8 linking cubes made of 5 red and 3 blue. The learner joins the parts and says "5 + 3 = 8," then snaps off the 3 blue cubes and says "8 − 3 = 5." Next, they snap the train back together and take off the red cubes instead. Building and breaking the same train shows that subtraction undoes addition.
+
+## Common Misconceptions
+- Subtraction facts are new facts that must be learned one by one. (Each subtraction fact comes from an addition fact. Knowing 5 + 3 = 8 already gives 8 − 3 = 5 and 8 − 5 = 3.)
+- The order of numbers can be switched in subtraction the same way it can in addition. (3 + 5 and 5 + 3 both make 8, but 8 − 3 and 3 − 8 are different. In a fact-family subtraction, the whole comes first.)
+
 ## Questions
 
 ```yaml

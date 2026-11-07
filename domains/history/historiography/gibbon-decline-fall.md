@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Edward Gibbon's *The Decline and Fall of the Roman Empire* (1776–1788) exemplified Enlightenment historiography through comprehensive research, analytical narrative, and explicit skepticism toward religious causes of historical change. Gibbon's monumental work demonstrated that large-scale historical narratives could be constructed from rigorous documentation and rational argument, influencing later historians to adopt similar standards of evidence and interpretive scope.
 
+## How It's Best Learned
+Read a few pages of Gibbon's chapter 15 on early Christianity alongside its footnotes. In one column, list the causes he gives for the spread of the faith; in another, note the tone of the footnotes and where irony enters. Then ask which people never appear in those pages. That last list shows the limits of his elite sources and political categories.
+
+## Common Misconceptions
+- Gibbon blamed Rome's fall on Christianity alone. (He weighed several causes, including the burdens of empire, barbarian pressure, and Christianity's effect on civic life.)
+- Gibbon's history ends with the western empire in 476. (The work continues through the eastern empire to the fall of Constantinople in 1453.)
+- Gibbon's attack on Christianity was a personal quarrel with no method behind it. (Whatever his views, his method was to explain religion by human causes, using the same evidence he used for politics and war.)
+- Later historians set Gibbon aside mainly because his facts were wrong. (They moved past him mostly because they asked new questions about ordinary people, economies, and cultures that his framework did not address.)
+
 ## Questions
 
 ```yaml

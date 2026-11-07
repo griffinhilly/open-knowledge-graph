@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Even numbers (2, 4, 6, 8...) can be split into two equal groups; odd numbers (1, 3, 5, 7...) cannot. Recognizing this property helps with number classification and patterns.
 
+## How It's Best Learned
+Have the learner build each number from 1 to 12 as a two-column tower of cubes, filling the columns in pairs. Even numbers make a flat top. Odd numbers leave one cube sticking up with no partner. Lining the towers up in order shows the flat, bumpy, flat, bumpy pattern. Putting two bumpy towers together shows that the two extra cubes make a pair.
+
+## Common Misconceptions
+- Zero is odd, or is neither even nor odd, because there is nothing to pair. (Zero is even. It splits into two groups of 0 with nothing left over.)
+- Adding two odd numbers gives an odd number. (Each odd number has one leftover, and the two leftovers pair up. So odd + odd is even, as in 3 + 5 = 8.)
+- The first digit decides whether a two-digit number is even or odd, so 30 is odd. (Only the ones digit decides. Any whole number ending in 0, 2, 4, 6 or 8 is even, so 30 is even.)
+
 ## Questions
 
 ```yaml

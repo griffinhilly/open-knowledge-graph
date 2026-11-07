@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 p is prime if and only if (p-1)! ≡ -1 (mod p). While elegant, this is computationally impractical for primality testing but illustrates the special structure of multiplicative groups mod p and provides a theoretical prime characterization.
 
+## How It's Best Learned
+Write out the inverse pairs for p = 11: 2 · 6, 3 · 4, 5 · 9 and 7 · 8 are each ≡ 1 (mod 11). Only 1 and 10 are left unpaired, so 10! ≡ 10 ≡ −1. Then run the same test on composites: 3! = 6 ≡ 2 (mod 4), while 7! = 5040 ≡ 0 (mod 8) and 8! = 40320 ≡ 0 (mod 9).
+
+## Common Misconceptions
+- Each a pairs with p − a in the proof. (The pairing uses multiplicative inverses, not negatives. Mod 7, 2 pairs with 4, not with 5.)
+- Since everything pairs up to 1, (p − 1)! ≡ 1 (mod p). (1 and p − 1 are their own inverses and stay unpaired, so the product is p − 1 ≡ −1.)
+- For composite n, (n − 1)! is some unpredictable value other than −1. (For composite n > 4, (n − 1)! ≡ 0 (mod n). The only exception is n = 4, where 3! ≡ 2.)
+
 ## Questions
 
 ```yaml

@@ -21,7 +21,15 @@ status: validated
 # Uniformly Most Powerful Tests
 
 ## Core Idea
-A UMP test maximizes power (Type II error) uniformly over all alternatives. By Neyman-Pearson, UMP tests exist for simple vs. simple hypotheses. For composite alternatives (e.g., H₁: θ > θ₀), UMP tests may not exist, but UMP unbiased tests sometimes do. The likelihood ratio test is often asymptotically UMP.
+A UMP test maximizes power (minimizes Type II error) uniformly over all alternatives. By Neyman-Pearson, UMP tests exist for simple vs. simple hypotheses. For composite alternatives (e.g., H₁: θ > θ₀), UMP tests may not exist, but UMP unbiased tests sometimes do. The likelihood ratio test is often asymptotically UMP.
+
+## How It's Best Learned
+Take n normal observations with σ = 1 and test μ = 0 against a fixed μ₁ > 0. The likelihood ratio is exp(nμ₁x̄ − nμ₁²/2), which increases in x̄ for every such μ₁, so the region x̄ > 1.645/√n works for all of them at α = 0.05. Repeat with μ₁ < 0 and watch the region move to the left tail. Then sketch both tests' power curves.
+
+## Common Misconceptions
+- UMP tests never exist for composite alternatives. (For one-sided alternatives in a family with a monotone likelihood ratio, the test that rejects for large T is UMP.)
+- The one-sided UMP test is better than the two-sided test. (It has more power for alternatives on its own side. For alternatives on the other side its power falls below α.)
+- Rejecting for large values of a sufficient statistic always gives a UMP one-sided test. (The likelihood ratio must also be monotone in that statistic. For a single Cauchy location observation it is not, and the most powerful region changes with θ₁.)
 
 ## Questions
 

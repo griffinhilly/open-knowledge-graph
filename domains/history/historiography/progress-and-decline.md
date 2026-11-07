@@ -29,6 +29,12 @@ Progress narratives—stories of improvement, modernization, or advancement—ha
 ## How It's Best Learned
 Compare Whiggish histories assuming inevitable progress toward the present with revisionist histories questioning whether change was actually improvement.
 
+## Common Misconceptions
+- Rejecting teleology means denying that anything has improved. (Historians can document real gains, such as longer life expectancy, while denying that those gains were inevitable or came without costs to some groups.)
+- A decline narrative is a safe, critical alternative to progress narratives. (Inevitable decline has the same predetermined shape as inevitable progress and hides contingency just as much.)
+- Whig history is only about British constitutional history. (Butterfield's target was British, but the term now names any account that reads the past as a march toward the writer's present.)
+- Taking contingency seriously means outcomes were random. (Contingency denies that an outcome was necessary; it still allows causes, structures and constraints that made some outcomes more likely.)
+
 ## Questions
 
 ```yaml

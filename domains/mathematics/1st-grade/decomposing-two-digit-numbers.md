@@ -33,6 +33,11 @@ Students learn to break two-digit numbers into different parts—such as tens an
 ## How It's Best Learned
 Use visual models like number lines, base-10 blocks, and part-part-whole diagrams. Practice writing different equations that show different decompositions of the same number.
 
+## Common Misconceptions
+- A two-digit number can be split only into its tens and ones, such as 30 + 7 for 37. (37 is also 20 + 17, 25 + 12, or 36 + 1. Each split keeps the same total.)
+- Splitting 46 into its digits gives 4 + 6. (The 4 means 4 tens, so the split is 40 + 6. 4 + 6 is 10, not 46.)
+- Breaking a number into parts changes how much it is worth. (The parts always add back to the same number, which is why you can choose whichever split is easiest.)
+
 ## Questions
 
 ```yaml
@@ -56,7 +61,7 @@ Use visual models like number lines, base-10 blocks, and part-part-whole diagram
   answer: 1
   explanation: "Both 40 + 6 and 30 + 16 equal 46 — they are both valid decompositions. The key insight is that decomposing does not change the total; you are simply choosing where to 'cut' the number. Note that 4 + 6 = 10, not 46 — writing the digits side by side is not the same as splitting the number."
 
-- question: "There is mainly one correct way to decompose a two-digit number — the standard tens-and-ones split."
+- question: "There is only one correct way to decompose a two-digit number — the standard tens-and-ones split."
   type: true-false
   answer: false
   explanation: "A two-digit number can be decomposed in many valid ways. The number 37, for example, can be written as 30 + 7, or 20 + 17, or 25 + 12, or 36 + 1 — all are true equations. The tens-and-ones split is the most common starting point, but the 'best' decomposition is whichever one makes a particular calculation easiest."

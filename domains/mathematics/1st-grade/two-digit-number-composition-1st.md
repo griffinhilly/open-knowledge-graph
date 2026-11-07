@@ -30,6 +30,14 @@ status: validated
 ## Core Idea
 The number 24 can be shown as 2 tens and 4 ones, or as 20 + 4, or with 24 objects. Composing means putting tens and ones together to make a number; decomposing means breaking a number apart. This flexibility is essential for addition and subtraction algorithms.
 
+## How It's Best Learned
+Have the learner build 24 with 2 bundles of ten straws and 4 loose straws, then write it three ways: 24, 2 tens 4 ones, and 20 + 4. Next, untie one bundle and count again: 1 ten and 14 ones is still 24. Recording each new arrangement as an equation, such as 10 + 14 = 24, shows that the parts change while the total stays the same.
+
+## Common Misconceptions
+- The 2 in 24 just means 2, so 24 breaks into 2 + 4. (The 2 is in the tens place and means 2 tens, which is 20. So 24 = 20 + 4.)
+- There is only one correct way to break apart 24, which is 2 tens and 4 ones. (Other ways have the same value, such as 1 ten and 14 ones. You will use this when you subtract with regrouping.)
+- 3 tens and 12 ones is written 312. (12 ones is 1 ten and 2 ones, so 3 tens and 12 ones is 4 tens and 2 ones, or 42.)
+
 ## Questions
 
 ```yaml

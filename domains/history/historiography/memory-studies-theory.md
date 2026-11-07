@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Pierre Nora distinguished history from memory: memory is lived, embodied, and shared; history is analytical and reconstructive. Yet societies construct 'memory' through commemoration, monuments, and narratives. Memory studies examine how groups remember and forget, how memory shapes identity and politics. Historians must understand memory without reducing history to memory or treating popular memory as accurate past recovery.
 
+## How It's Best Learned
+Pick one event and collect how it was marked at three anniversaries, such as the 10th, 50th, and 100th, using newspaper coverage or official speeches. For each, note who speaks, what is stressed, and what is left out. Then set these beside what historians now know of the event. The gaps between the three versions and the record show memory as evidence about each present.
+
+## Common Misconceptions
+- Collective memory is just the sum of what individuals remember. (Halbwachs argued that groups supply the frameworks for remembering, and people can hold group memories of events they never lived through.)
+- Sites of memory are physical places. (Nora's *lieux* include dates, anthems, books, and rituals as well as monuments and buildings.)
+- Studying memory means exposing popular memory as false. (Memory studies treats what groups remember as evidence of identity and politics, whether or not it matches the record.)
+- Professional history stands wholly outside collective memory. (Historians' work feeds into textbooks and commemorations, so history and memory interact even when they differ in method.)
+
 ## Questions
 
 ```yaml

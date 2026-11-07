@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 A power series ∑aₙ(x - c)ⁿ converges uniformly on any closed interval inside its interval of convergence. This justifies term-by-term differentiation and integration of power series, making them the foundation of analytic functions. The uniform convergence follows from the Weierstrass M-Test applied to majorizing geometric series.
 
+## How It's Best Learned
+Work everything on the geometric series ∑xⁿ = 1/(1 − x), with R = 1. On [−1/2, 1/2], take Mₙ = (1/2)ⁿ, which sums to 2. On (−1, 1), the tail after the xⁿ term is xⁿ⁺¹/(1 − x), which is unbounded as x → 1⁻, so convergence there is not uniform. Then integrate from 0 to x term by term to get −ln(1 − x) = ∑xⁿ⁺¹/(n+1).
+
+## Common Misconceptions
+- A power series converges uniformly on its whole open interval of convergence. (∑xⁿ converges at every point of (−1, 1), but its tail xⁿ⁺¹/(1 − x) has no bound near x = 1, so the convergence there is not uniform.)
+- Differentiating term by term keeps the interval of convergence exactly the same. (The radius stays the same, but endpoint behavior can change. ∑xⁿ/n² converges at x = 1, while its derivative series ∑xⁿ⁻¹/n is the harmonic series there and diverges.)
+- Because uniform convergence holds only on closed subintervals [−r, r], the sum is known to be continuous only on those subintervals. (Continuity is local. Each x in (−R, R) lies inside some [−r, r] with |x| < r < R, so the sum is continuous on all of (−R, R).)
+- Term-by-term differentiation is justified because the original series converges uniformly. (Uniform convergence of a series does not by itself allow this. It is justified because the differentiated series has the same radius, so it too converges uniformly on each closed subinterval [c − r, c + r] with r < R.)
+
 ## Questions
 
 ```yaml
@@ -70,6 +79,6 @@ A power series ∑aₙ(x − c)ⁿ looks like an infinite polynomial, and you wa
 
 The answer comes from the **Weierstrass M-Test**, which you already know. On any closed interval [c−r, c+r] strictly inside the interval of convergence, you can bound each term: |aₙ(x−c)ⁿ| ≤ |aₙ|rⁿ for all x in the interval. Call Mₙ = |aₙ|rⁿ. Since r is strictly less than the radius of convergence, the series ∑Mₙ = ∑|aₙ|rⁿ converges — it is dominated by a convergent geometric-like series. The Weierstrass M-Test then guarantees that ∑aₙ(x−c)ⁿ converges uniformly on [c−r, c+r]. The key word is "closed interval strictly inside" — uniformity can fail at the boundary, which is why you must stay strictly interior.
 
-Once you have uniform convergence on compact subintervals, all the interchange theorems apply. You can integrate term by term: ∫∑aₙ(x−c)ⁿ dx = ∑∫aₙ(x−c)ⁿ dx = ∑aₙ(x−c)ⁿ⁺¹/(n+1). You can differentiate term by term: d/dx ∑aₙ(x−c)ⁿ = ∑naₙ(x−c)ⁿ⁻¹. Both operations produce a new power series with the same radius of convergence. This means that on the interior of its disk of convergence, a power series can be differentiated infinitely many times, and each derivative is again a power series. Functions representable by power series are called **analytic functions** — the most well-behaved class in analysis.
+Once you have uniform convergence on compact subintervals, you can integrate term by term: ∫∑aₙ(x−c)ⁿ dx = ∑∫aₙ(x−c)ⁿ dx = ∑aₙ(x−c)ⁿ⁺¹/(n+1). Differentiation needs one more step, because uniform convergence of a series alone does not allow term-by-term differentiation. The differentiated series ∑naₙ(x−c)ⁿ⁻¹ is again a power series with the same radius of convergence, so it also converges uniformly on compact subintervals, and that is what justifies d/dx ∑aₙ(x−c)ⁿ = ∑naₙ(x−c)ⁿ⁻¹. Both operations produce a new power series with the same radius of convergence. This means that on the interior of its disk of convergence, a power series can be differentiated infinitely many times, and each derivative is again a power series. Functions representable by power series are called **analytic functions** — the most well-behaved class in analysis.
 
 This result is the gateway to understanding functions like sin(x), cos(x), and eˣ as infinite polynomials that you can manipulate term by term. When you learned that sin(x) = x − x³/6 + x⁵/120 − ···, you were implicitly using this theorem: the series converges uniformly on any bounded interval, so you can integrate it to get the series for −cos(x), differentiate it to get the series for cos(x), and multiply two such series to get new identities. Every formula involving Taylor series manipulation rests on this foundation.

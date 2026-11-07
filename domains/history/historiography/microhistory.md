@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Microhistory scales down from grand narratives to examine a single person, family, village, or event through intensive archival research. Practitioners like Carlo Ginzburg argue that close reading of local sources reveals unexpected patterns and allows historians to ask new questions about ordinary lives, cultural meanings, and larger social structures. Microhistory demonstrates that the small can illuminate the large.
 
+## How It's Best Learned
+Read a short published trial record from any period. List three things it reveals about the accused's world that a table of verdicts from many trials could not show. Then write one question the case raises that only a survey of many trials could answer. The two lists show what scale reduction gains and where it hands off to broader methods.
+
+## Common Misconceptions
+- Microhistory only studies Italian peasants in the 16th century. (It began with Italian historians working on early modern cases, but the method has been used for many places and periods.)
+- A microhistory rests on a single document. (Microhistorians often follow a person's name across parish registers, tax rolls, notarial records, and court files to build up the case.)
+- Studying an unusual case means studying a curiosity. (The unusual case matters because its record exposes the ordinary norms it broke.)
+- Microhistory replaced social history. (It grew out of debates within social history and is often used alongside broader surveys.)
+
 ## Questions
 
 ```yaml

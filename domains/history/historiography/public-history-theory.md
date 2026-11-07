@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Public history engages audiences beyond academia through museums, media, heritage sites, and community projects. It raises methodological and ethical questions: How do we communicate complex history responsibly? Who controls historical narrative? How can public history serve justice and reconciliation? This topic examines tensions between popular and academic history, and historians' responsibilities to diverse publics.
 
+## How It's Best Learned
+Study the 1995 dispute over the Smithsonian's Enola Gay exhibition. Compare what the original plan proposed to show with what was finally displayed, and list who objected and why. Then pick one museum label you have seen and rewrite it twice in 50 words, once for a school group and once for a community with a stake in the event. Note what each version had to drop.
+
+## Common Misconceptions
+- A neutral exhibition is possible if curators avoid taking sides. (Choosing which objects, voices and dates to show is already an interpretation, so a display that looks neutral still rests on choices.)
+- Sharing authority with a community means the historian gives up judgment about evidence. (Michael Frisch's idea of "shared authority" describes an exchange in which the historian's expertise and the community's experience both shape the result.)
+- A public outcry over an exhibition shows the history was done badly. (Disputes often turn on identity and meaning, so careful, well-sourced work can still provoke them.)
+
 ## Questions
 
 ```yaml

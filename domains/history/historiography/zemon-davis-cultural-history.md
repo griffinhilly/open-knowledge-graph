@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Natalie Zemon Davis expanded cultural history beyond elite intellectual culture to examine how ordinary people created meaning through ritual, symbol, and narrative. Her work on 16th-century France showed common people negotiating with authority through parades, stories, and religious practices. Davis integrated gender analysis and demonstrated how cultural history recovers agency and intelligence of non-elite actors through creative source interpretation.
 
+## How It's Best Learned
+Read one of the sixteenth-century pardon tales from Davis's *Fiction in the Archives*, in which a person who had killed someone told their story to win the king's pardon. Mark the storytelling choices: the setting, the provocation, the sudden anger, the appeal to honor. Then ask what those choices show about what the teller expected officials to find pardonable, and what that reveals about the culture.
+
+## Common Misconceptions
+- Davis's account of Bertrande de Rols as a knowing partner in the deception is documented fact. (It is her interpretation from the records; Robert Finlay challenged it, arguing that the evidence fits a deceived wife, and Davis replied in defense of her reading.)
+- Religious riots in sixteenth-century France were random frenzies. (In "The Rites of Violence," Davis argued that crowds drew on the forms of liturgy and judicial punishment, so their violence followed cultural scripts.)
+- Legal documents such as pardon letters are plain factual records. (Davis showed that they were crafted narratives shaped to persuade, and that this shaping is itself evidence about the people who wrote them.)
+
 ## Questions
 
 ```yaml

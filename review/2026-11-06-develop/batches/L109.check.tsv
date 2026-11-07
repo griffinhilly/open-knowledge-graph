@@ -1,0 +1,16 @@
+domains/biology/biochemistry/rna-splicing-mechanisms.md	how	5	0	ok
+domains/biology/biochemistry/rna-splicing-mechanisms.md	mis	8	0	ok
+domains/biology/biochemistry/rna-splicing-mechanisms.md	old:core	1	1	fixed	Core Idea said step 1 "releasing the intron lariat"; step 1 forms the lariat intermediate and step 2 releases it (as the Explainer says). Changed to "forming".
+domains/biology/biochemistry/second-messenger-systems.md	how	4	0	ok
+domains/biology/biochemistry/second-messenger-systems.md	mis	8	0	ok
+domains/biology/biochemistry/substrate-level-phosphorylation.md	how	5	0	ok
+domains/biology/biochemistry/substrate-level-phosphorylation.md	mis	8	0	ok	Not fixed, older text: Q1 explanation's NAD+/fermentation reasoning about the citric acid cycle is muddled but not clearly false.
+domains/biology/biochemistry/sulfur-amino-acid-metabolism.md	how	4	0	ok
+domains/biology/biochemistry/sulfur-amino-acid-metabolism.md	mis	8	0	ok	"essential" kept: it is the technical term (essential amino acid), not filler.
+domains/biology/biochemistry/transcription-initiation-and-regulation.md	how	4	0	ok
+domains/biology/biochemistry/transcription-initiation-and-regulation.md	mis	8	0	ok
+domains/biology/biochemistry/translation-initiation-and-elongation.md	how	4	0	ok	Worked the two cycles: tripeptidyl-tRNA in P and 4 GTP (2 EF-Tu, 2 EF-G); the count excludes initiation GTP.
+domains/biology/biochemistry/translation-initiation-and-elongation.md	mis	8	0	ok
+domains/biology/biochemistry/translation-initiation-and-elongation.md	old:ex	1	1	fixed	Explainer said "the amino acid in the P site is transferred" onto the A-site amino acid; the whole growing chain on the P-site tRNA is transferred (this contradicted the new misconception bullet 1). Minimal edit.
+domains/biology/biochemistry/urea-cycle.md	how	4	1	fixed	Exercise "how" was broken when worked: blocking each of the 5 enzymes had only 3 answer options (carbamoyl phosphate, citrulline, arginine). CPS I block builds up ammonia and ASL block builds up argininosuccinate. Added both to the list.
+domains/biology/biochemistry/urea-cycle.md	mis	8	0	ok	Not fixed, older text: Explainer says the cycle runs "exclusively" in hepatocytes and says every enzyme defect gives neonatal hyperammonemia (arginase deficiency usually does not); both are overstated but left as is.

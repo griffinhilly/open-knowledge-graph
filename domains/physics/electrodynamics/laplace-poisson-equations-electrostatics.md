@@ -24,10 +24,19 @@ status: validated
 ## Core Idea
 Laplace's equation ∇²φ = 0 governs the electrostatic potential in charge-free regions, while Poisson's equation ∇²φ = -ρ/ε₀ includes charge sources. Solutions to these equations determine all electrostatic fields and represent one of the most important PDEs in physics and mathematics. Their rich mathematical theory (harmonic functions, Green's functions, conformal mappings) provides powerful techniques for solving electrostatics problems.
 
+## How It's Best Learned
+First test candidates by hand: x² − y², xy and 1/r satisfy ∇²φ = 0 away from the origin, but r² gives ∇²(r²) = 6. Then solve Laplace's equation on a small square grid by relaxation. Hold one edge at 10 V and the other three at 0 V, and replace each interior value by the average of its four neighbors until the numbers settle.
+
+## Common Misconceptions
+- A charge-free region with ∇²φ = 0 has zero field. (Laplace's equation allows a nonzero field. Between parallel plates φ is linear in position and E is uniform.)
+- The potential can have a peak or a dip in empty space where a charge could sit in stable balance. (A harmonic function has no interior maximum or minimum. So electrostatic forces alone cannot hold a charge in stable equilibrium.)
+- Any function that matches the boundary values is the solution. (It must also satisfy Laplace's or Poisson's equation inside the region. Uniqueness applies only to functions that meet both conditions.)
+- Neumann boundary data fix the potential completely. (They fix φ only up to an additive constant. The field E is still unique.)
+
 ## Questions
 
 ```yaml
-- question: "A physicist needs the electric potential inside a charge-free cavity in a conductor. She guesses φ = A + B·r² and verifies it satisfies ∇²φ = 0 inside the cavity and φ = 0 on the conductor surface. Can she conclude she has found the correct potential?"
+- question: "A physicist needs the electric potential inside a charge-free cavity in a conductor. She guesses a trial function φ by inspection and verifies it satisfies ∇²φ = 0 inside the cavity and φ = 0 on the conductor surface. Can she conclude she has found the correct potential?"
   type: multiple-choice
   options:
     - "No — guessing solutions is not rigorous; she must derive φ using systematic separation of variables"
@@ -71,4 +80,4 @@ Solutions to Laplace's equation are called **harmonic functions**, and they have
 
 The practical approach to solving Laplace's equation in many geometries is **separation of variables**. In Cartesian coordinates, you assume φ(x,y,z) = X(x)Y(y)Z(z) and find that each factor satisfies an ordinary differential equation with a separation constant. In spherical coordinates — natural for problems with a center of symmetry — the radial and angular parts separate into polynomial (Legendre) and exponential solutions, building toward the spherical harmonic decompositions that reappear in quantum mechanics. The key is choosing coordinates that match the symmetry of the boundary conditions.
 
-For Poisson's equation with known source distributions, **Green's functions** provide the general framework. The Green's function G(r, r′) is the potential at r due to a unit point charge at r′, accounting for boundary conditions. Once you know G, the potential for any charge distribution is an integral: φ(r) = ∫ G(r,r′) ρ(r′)/ε₀ dV′. For an unbounded region, G = 1/(4πε₀|r − r′|), which is just the Coulomb potential — recovering the familiar superposition principle as a special case of the Green's function method. The general Green's function machinery handles conductors, cavities, and grounded surfaces by adding image charges or boundary correction terms, revealing the deep unity between seemingly different solution techniques.
+For Poisson's equation with known source distributions, **Green's functions** provide the general framework. The Green's function G(r, r′) is the potential at r due to a unit point charge at r′, accounting for boundary conditions. Once you know G, the potential for any charge distribution is an integral: φ(r) = ∫ G(r,r′) ρ(r′)/ε₀ dV′. For an unbounded region, G = 1/(4π|r − r′|), which is ε₀ times the Coulomb potential of a unit charge — recovering the familiar superposition principle as a special case of the Green's function method. The general Green's function machinery handles conductors, cavities, and grounded surfaces by adding image charges or boundary correction terms, revealing the deep unity between seemingly different solution techniques.

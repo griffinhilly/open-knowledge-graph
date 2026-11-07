@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 An array is a rectangular arrangement of objects in rows and columns. Arrays visualize groups of equal size and reveal that rows and columns can be switched (commutative property of multiplication).
 
+## How It's Best Learned
+Have the learner build an array of 12 counters on a sheet of paper as 3 rows of 4. They count it by rows (4, 8, 12), then turn the paper a quarter turn and count it again as 4 rows of 3 (3, 6, 9, 12). Then they try to make 12 as 5 rows and find that the rows cannot all be equal.
+
+## Common Misconceptions
+- Any rectangle-looking group of objects is an array. (Every row in an array has the same number of objects, and the objects line up in columns.)
+- 3 rows of 4 and 4 rows of 3 are different amounts. (Both have 12 objects. Turning the array changes how you see the rows, but the total stays the same.)
+- Rows go up and down. (Rows go across from left to right, and columns go up and down.)
+
 ## Questions
 
 ```yaml

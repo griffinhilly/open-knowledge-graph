@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Electromagnetic waves in conductors exponentially attenuate with characteristic penetration depth (skin depth) δ = 1/√(πfμσ). High-frequency fields penetrate skin-depth; low frequencies penetrate deeper. Perfect conductors (σ → ∞) have δ → 0 and exclude fields. Essential for shielding and cavity resonators.
 
+## How It's Best Learned
+Derive the result once: put J = σE into the Ampère-Maxwell law, get k² = μεω² + iμσω, and drop the first term when σ ≫ εω. That gives k ≈ (1 + i)/δ with δ = √(2/μσω). Then plug in copper (σ ≈ 5.8×10⁷ S/m) at 60 Hz and at 1 GHz to get about 8.5 mm and 2 μm.
+
+## Common Misconceptions
+- A better conductor lets the wave reach deeper, since more electrons carry it inward. (Higher σ gives a smaller skin depth. The electrons absorb the wave's energy near the surface.)
+- The field stops at one skin depth. (The amplitude falls to 1/e, about 37%, of its surface value at z = δ and keeps decaying smoothly beyond it.)
+- Inside a conductor, E and B oscillate in phase as they do in vacuum. (In a good conductor B lags E by 45°, and |B|/|E| is much larger than 1/c, so most of the wave's energy is magnetic.)
+
 ## Questions
 
 ```yaml

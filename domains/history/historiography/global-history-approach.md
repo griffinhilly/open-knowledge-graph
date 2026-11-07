@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Global history breaks from nation-state frameworks to study connections, flows, and exchanges across regions. Rather than comparing separate civilizations, global historians trace how societies became enmeshed through trade, migration, ideas, and diseases. This approach asks: How did the world become interconnected? What histories do nation-centered approaches necessarily obscure?
 
+## How It's Best Learned
+Take one commodity, such as Potosí silver, and draw its path as a map with arrows from mine to port to market. Label each stop with who acted there and which archive would record it. Then write the same story twice: once as a comparison of Spain and China, once as a single connected process. The difference between the two drafts shows what the global approach adds.
+
+## Common Misconceptions
+- Global history means studying the whole world at once. (It means following connections across borders, and a global study can focus on one port or one community if it traces the flows in and out.)
+- Global history is comparative history on a larger map. (Comparison treats societies as separate units, while global history treats the links between them as the thing to explain.)
+- Global history shows how Europe spread its influence to everyone else. (Early work was criticized for this outward-from-Europe pattern, and more recent work treats non-European actors as makers of connections.)
+- National archives are a poor place to look for connections, so global historians do not use them. (They use them heavily, but read several side by side and add merchant, missionary, and community records.)
+
 ## Questions
 
 ```yaml

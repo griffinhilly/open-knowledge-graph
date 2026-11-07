@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 The k-th moment of X is μₖ = E[Xᵏ], which exists if E[|X|ᵏ] < ∞. Variance Var(X) = E[(X - E[X])²] measures spread; higher central moments μₖ = E[(X - E[X])ᵏ] capture skewness (k=3) and kurtosis (k=4). Hölder's inequality and Jensen's inequality are key tools relating moments.
 
+## How It's Best Learned
+Compute moments for two families side by side. For Exponential(1), E[Xᵏ] = k! for every k, the variance is 1, and the skewness is 2. For the Pareto density αx^(−α−1) on x ≥ 1, E[Xᵏ] = α/(α − k) only for k < α. With α = 3 the mean is 3/2 and the variance 3/4, yet the third moment is infinite. Then prove (E|X|²)^(1/2) ≤ (E|X|⁴)^(1/4) with Jensen.
+
+## Common Misconceptions
+- If the mean is finite, the variance is finite too. (The Pareto distribution with α = 2 has E[X] = 2 but E[X²] = ∞. Finite higher moments give finite lower ones, not the reverse.)
+- A third central moment of zero means the distribution is symmetric. (Symmetry about the mean forces μ₃ = 0, but some asymmetric distributions also have μ₃ = 0.)
+- Var(X + Y) = Var(X) + Var(Y) for any X and Y with finite variance. (The full formula adds 2Cov(X, Y). The simple sum holds when X and Y are uncorrelated.)
+- A finite higher moment forces finite lower moments under any measure. (The argument uses total mass 1. Under Lebesgue measure on [1, ∞), f(x) = 1/x has ∫f² finite but ∫f infinite.)
+
 ## Questions
 
 ```yaml
@@ -56,7 +65,7 @@ The k-th moment of X is μₖ = E[Xᵏ], which exists if E[|X|ᵏ] < ∞. Varian
 - question: "Two distinct probability distributions that have identical moments of most orders is expected to be the same distribution."
   type: true-false
   answer: false
-  explanation: "This is false — the moment problem is not always determinate. There exist pairs of distinct distributions with identical moments of all orders; the log-normal distribution and certain modifications provide classic counterexamples. A distribution is uniquely determined by its moments only when Carleman's condition is satisfied: ∑ₖ μ₂ₖ^(−1/(2k)) = ∞. Distributions with heavy tails (like the log-normal) may violate this, making the moment sequence insufficient to characterize them uniquely."
+  explanation: "This is false — the moment problem is not always determinate. There exist pairs of distinct distributions with identical moments of all orders; the log-normal distribution and certain modifications provide classic counterexamples. A distribution is guaranteed to be uniquely determined by its moments when Carleman's condition is satisfied: ∑ₖ μ₂ₖ^(−1/(2k)) = ∞. Distributions with heavy tails (like the log-normal) may violate this, making the moment sequence insufficient to characterize them uniquely."
 
 - question: "Why does positive skewness (γ₁ > 0) indicate a heavy right tail, given that skewness is the third standardized central moment E[(X − μ)³]/σ³?"
   type: short-answer

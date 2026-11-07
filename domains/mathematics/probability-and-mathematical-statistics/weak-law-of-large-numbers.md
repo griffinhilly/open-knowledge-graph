@@ -28,7 +28,16 @@ status: validated
 # Weak Law of Large Numbers
 
 ## Core Idea
-If {Xₙ} are i.i.d. random variables with finite mean μ, then Sₙ/n = (X₁ + ... + Xₙ)/n converges in probability to μ. The key assumption is finite variance (or more generally, applying Chebyshev's inequality). The weak LLN guarantees that sample means stabilize around the true mean, justifying empirical estimation.
+If {Xₙ} are i.i.d. random variables with finite mean μ, then Sₙ/n = (X₁ + ... + Xₙ)/n converges in probability to μ. The simplest proof assumes finite variance and applies Chebyshev's inequality. The weak LLN guarantees that sample means stabilize around the true mean, justifying empirical estimation.
+
+## How It's Best Learned
+Put numbers into the Chebyshev proof for a fair coin. With σ² = 1/4 and ε = 0.05, P(|p̂ − 0.5| > 0.05) ≤ 0.25/(0.0025n) = 100/n. That gives 0.1 at n = 1000, and n = 2000 brings the bound to 0.05. Then compare with the normal approximation at n = 1000, where 0.05 is about 3.2 standard deviations and the probability is roughly 0.002.
+
+## Common Misconceptions
+- The law says the number of heads gets close to n/2. (It says the proportion gets close to 1/2. The count's typical distance from n/2 grows like √n.)
+- The law needs finite variance. (The Chebyshev proof uses finite variance, but for i.i.d. variables a finite mean is enough, by a truncation argument.)
+- The Chebyshev bound is the probability of a large deviation. (It is an upper bound and often loose. For 1000 fair flips it gives 0.1 where the actual probability is below 0.002.)
+- Independence is required for the averages to settle. (The Chebyshev argument only needs Var(Sₙ) = nσ², which holds whenever the variables are pairwise uncorrelated with common variance σ².)
 
 ## Questions
 
@@ -51,7 +60,7 @@ If {Xₙ} are i.i.d. random variables with finite mean μ, then Sₙ/n = (X₁ +
     - "That the variables are independent, which makes their variances additive: Var(Sₙ) = nσ²"
     - "That the variables take values in a bounded interval, ensuring Chebyshev applies"
   answer: 2
-  explanation: "Independence is the key structural property that makes variances additive: for independent random variables, Var(X₁ + ··· + Xₙ) = Var(X₁) + ··· + Var(Xₙ) = nσ². Without independence, covariance terms appear and Var(Sₙ) could be much larger than nσ², preventing the bound σ²/(nε²) from going to zero. Identical distribution ensures each term contributes the same σ², but it is independence that allows addition of variances."
+  explanation: "Independence is the key structural property that makes variances additive: for independent random variables, Var(X₁ + ··· + Xₙ) = Var(X₁) + ··· + Var(Xₙ) = nσ². Without independence (or at least pairwise uncorrelatedness), covariance terms appear and Var(Sₙ) could be much larger than nσ², preventing the bound σ²/(nε²) from going to zero. Identical distribution ensures each term contributes the same σ², but it is independence that allows addition of variances."
 
 - question: "The Weak Law of Large Numbers implies that individual sample paths of Sₙ/n is expected to converge to μ at nearly every outcome ω in the sample space."
   type: true-false

@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Every continuous function on a closed interval [a,b] can be uniformly approximated by polynomials: for every ε > 0, there exists a polynomial P such that |f(x) - P(x)| < ε for all x ∈ [a,b]. This theorem shows that polynomials are dense in the space of continuous functions and is fundamental to approximation theory and functional analysis.
 
+## How It's Best Learned
+Compute Bernstein polynomials by hand on [0, 1]. For f(x) = x², Bₙ(f, x) = x² + x(1 − x)/n, so the largest error is 1/(4n), at x = 1/2. For the corner function f(x) = |x − 1/2|, B₂(f, x) = (1/2)(1 − x)² + (1/2)x², which equals 1/4 at x = 1/2. Then plot B₂, B₄ and B₈ against f to watch the corner get tracked.
+
+## Common Misconceptions
+- The approximating polynomials are the Taylor polynomials of f. (A continuous function may have no derivatives, so it may have no Taylor polynomials at all. The theorem's polynomials come from other constructions, such as Bernstein polynomials.)
+- Interpolating f at more and more equally spaced points gives polynomials that converge uniformly to f. (This can fail. For 1/(1 + 25x²) on [−1, 1], the equally spaced interpolants grow worse near the endpoints, which is Runge's phenomenon.)
+- The theorem extends to all of ℝ. (A polynomial within ε of sin x on all of ℝ would be bounded, so it would be constant, and no constant stays within ε < 1 of sin x.)
+
 ## Questions
 
 ```yaml
@@ -56,7 +64,7 @@ Every continuous function on a closed interval [a,b] can be uniformly approximat
 
 - question: "Why is it surprising that polynomials can uniformly approximate every continuous function on [a,b], and why does the theorem require a closed (bounded) interval rather than all of ℝ?"
   type: short-answer
-  answer: "Polynomials are algebraically rigid — they grow without bound outside any bounded region and are determined by finitely many coefficients. An arbitrary continuous function can have complex local behavior. The surprise is that despite this rigidity, polynomials can track any continuous function to arbitrary precision on a compact interval. The closed interval is essential because polynomials diverge as x → ±∞, so uniform approximation over all of ℝ fails for any bounded function. Compactness allows the law-of-large-numbers argument in the Bernstein proof to control errors uniformly."
+  answer: "Polynomials are algebraically rigid — they grow without bound outside any bounded region and are determined by finitely many coefficients. An arbitrary continuous function can have complex local behavior. The surprise is that despite this rigidity, polynomials can track any continuous function to arbitrary precision on a compact interval. The closed interval is essential because polynomials diverge as x → ±∞, so uniform approximation over all of ℝ fails for any bounded non-constant function. Compactness allows the law-of-large-numbers argument in the Bernstein proof to control errors uniformly."
   explanation: "The compactness of [a,b] is doing real work: it ensures that the supremum of the error is actually attained (rather than approached), and that the Bernstein polynomials — which average f's values according to a binomial distribution — concentrate near any given x as n grows. On an unbounded domain, polynomial approximation can fail even for simple bounded continuous functions like sin(x)."
 ```
 

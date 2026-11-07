@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 A probability distribution π is stationary for a Markov chain with transition kernel P if π = πP, or equivalently ∫π(dx)P(x, A) = π(A) for all measurable A. For irreducible aperiodic chains, the distribution converges to a unique stationary distribution. Stationary distributions characterize long-run behavior.
 
+## How It's Best Learned
+Solve the two-state chain with P = [[0.9, 0.1], [0.3, 0.7]] by hand: πP = π gives π = (0.75, 0.25). Then iterate from (1, 0) to get (0.9, 0.1), then (0.84, 0.16); the gap to 0.75 shrinks by a factor of 0.6 each step. Finally set P = [[0, 1], [1, 0]]. Now (½, ½) is stationary, but a chain started at (1, 0) alternates forever.
+
+## Common Misconceptions
+- Once the chain is in its stationary distribution, it stops moving. (The distribution of the state stays fixed, but the chain keeps jumping between states. Only the probabilities are in equilibrium.)
+- If π is stationary, the chain converges to π from any start. (The flip chain [[0, 1], [1, 0]] has stationary (½, ½), yet started from state 1 its distribution alternates between (1, 0) and (0, 1). Convergence needs aperiodicity.)
+- Every Markov chain has exactly one stationary distribution. (A finite reducible chain with two closed classes has infinitely many, one for each mixture of the class distributions. The simple symmetric random walk on the integers has none.)
+- The stationary distribution is uniform over the states. (In the first example it is (0.75, 0.25). It is uniform when, for instance, the columns of P also sum to 1.)
+
 ## Questions
 
 ```yaml

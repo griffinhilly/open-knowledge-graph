@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Thucydides (c. 460-400 BCE) advanced historiography by demanding rigorous source criticism and privileging eyewitness testimony and documentary evidence over hearsay. His account of the Peloponnesian War explicitly rejects poets and logographers for inventing narratives, instead relying on direct observation and careful reconstruction of speeches and events. Thucydides anticipated the 19th-century aspiration to make history 'scientific' through evidentiary discipline.
 
+## How It's Best Learned
+Read Book I, chapters 20 to 22, where Thucydides corrects a popular Athenian story about the tyrant-slayers and states his method. Then read the Melian Dialogue in Book V, which he says took place before the Melian magistrates and "the few," away from the people. Ask who could have reported it to him and how much of the text must be his own composition.
+
+## Common Misconceptions
+- Thucydides wrote as a detached outsider to the war. (He was an Athenian general, and he tells us he was exiled after the loss of Amphipolis, which shaped both his access to sources and his vantage point.)
+- A "possession for all time" means he claimed a perfect record of events. (He meant a work useful to those who want a clear view of the past and of events like it that human nature will bring again.)
+- Herodotus never weighed his sources. (Herodotus often sets out rival versions and says which he finds more believable, so the contrast with Thucydides is one of degree and emphasis.)
+
 ## Questions
 
 ```yaml
@@ -48,7 +56,7 @@ Thucydides (c. 460-400 BCE) advanced historiography by demanding rigorous source
   answer: 2
   explanation: "Thucydides developed what we would now call source criticism: he ranked eyewitness testimony above hearsay, preferred accounts from multiple independent witnesses, and used contemporary documents where available. Crucially, he articulated why certain sources were preferable and how to evaluate competing claims — not merely that he preferred better sources. Ranke's program of grounding history in primary source archives echoes this directly. The thread connecting them is the aspiration to strip away invention and recover what actually occurred based on contemporary evidence."
 
-- question: "Thucydides' historical method is fully positivist in the modern sense because he committed to reporting mainly what witnesses directly observed without any authorial interpretation."
+- question: "Thucydides' historical method is fully positivist in the modern sense because he committed to reporting only what witnesses directly observed without any authorial interpretation."
   type: true-false
   answer: false
   explanation: "Thucydides' own acknowledgment that he composed speeches based on what each speaker 'would have needed to say' rather than verbatim testimony demonstrates that his method allowed significant authorial construction. He was not a positivist in our sense — he was something more complex: a rigorous source critic who simultaneously exercised literary and analytical judgment. Modern readers often find this troubling; ancient readers found it obvious. Understanding this complexity is essential for accurately characterizing his legacy."

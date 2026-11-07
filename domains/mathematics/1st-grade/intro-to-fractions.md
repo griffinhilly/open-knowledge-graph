@@ -18,6 +18,14 @@ status: validated
 ## Core Idea
 Fractions represent equal parts of a whole. In 1st grade, the focus is on halves and quarters through partitioning concrete shapes and objects, building intuitive understanding before formal notation.
 
+## How It's Best Learned
+Start with folding. The learner folds a paper square in half and checks that the two sides match exactly. Then they fold it again to make quarters. Next, they share a real snack, like a cracker or a sandwich, fairly between two people, then among four. Last, put a fair cut next to an unfair one and ask which one shows halves.
+
+## Common Misconceptions
+- Any two pieces of something are halves. (Halves are two equal pieces. If one piece is bigger, the pieces are not halves.)
+- A quarter is bigger than a half because 4 is more than 2. (Cutting into 4 equal parts makes each part smaller, so a quarter is smaller than a half of the same whole.)
+- After you cut a shape into parts, the whole is gone. (The parts still make up the whole. Two halves or four quarters fit back together into the original shape.)
+
 ## Questions
 
 ```yaml

@@ -20,6 +20,13 @@ status: validated
 ## Core Idea
 An integer n is representable as n = a^2 + b^2 iff in its prime factorization, every prime p ≡ 3 (mod 4) appears to an even power. This theorem connects number theory and geometry; Gaussian integers provide an elegant proof.
 
+## How It's Best Learned
+See a prime split by hand. For p = 13, start from 5² ≡ −1 (mod 13) and run the Euclidean algorithm in ℤ[i] on 13 and 5 + i. The steps are 13 = 2(5 + i) + (3 − 2i) and 5 + i = (1 + i)(3 − 2i). The gcd 3 − 2i has norm 13, so 13 = 3² + 2².
+
+## Common Misconceptions
+- The mod 4 argument proves that every prime p ≡ 1 (mod 4) is a sum of two squares. (It only rules out primes ≡ 3 (mod 4). Showing that the other primes work needs more, such as a square root of −1 mod p and factoring in ℤ[i].)
+- Both squares must be positive. (The theorem counts 0 as a square. 9 = 3² + 0² is a valid representation, though 9 is not a sum of two positive squares.)
+
 ## Questions
 
 ```yaml

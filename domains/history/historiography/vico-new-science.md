@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 Giambattista Vico (1668–1744) argued in Scienza Nuova that historical knowledge is possible because humans create history—a principle he called 'verum factum' (the true is what is made). He developed a cyclical philosophy of history wherein civilizations pass through stages (age of gods, age of heroes, age of men), and he insisted that understanding history requires imaginative reconstruction of the past's mental and cultural world, not merely external facts.
 
+## How It's Best Learned
+Read Book III of the *New Science*, "The Discovery of the True Homer." Vico argues that the poems are the voice of the Greek peoples over generations, not the work of one learned poet. List the evidence he uses, such as the poems' contradictions, mixed dialects and harsh customs. Then ask how a reader who treats Homer as a wise individual philosopher would explain the same features.
+
+## Common Misconceptions
+- The ricorso means history repeats the same events. (Vico describes a recurring pattern of stages; he reads medieval Europe as a "returned barbarism" that follows the pattern in a new, Christian form.)
+- If humans made history, knowing it must be easy. (The minds that made early institutions differed deeply from ours, so recovering the making takes hard imaginative reconstruction, which is why Vico needs fantasia.)
+- Vico dismissed natural science as worthless. (He ranked it as probable knowledge because humans did not make nature; his claim concerns degrees of certainty, not the value of studying nature.)
+
 ## Questions
 
 ```yaml
@@ -48,7 +56,7 @@ Giambattista Vico (1668–1744) argued in Scienza Nuova that historical knowledg
   answer: true
   explanation: "The Enlightenment held that history is a linear movement from ignorance toward reason and civilization — a story of progress. Vico's cycles have no such directionality: the age of men degenerates into a ricorso, a new barbarism, from which the cycle begins again. For Vico, this pattern is providential — evidence of a regular course in human affairs — but it is emphatically not progressive. Civilizations do not accumulate wisdom across cycles; they complete their course and collapse. This made Vico deeply unfashionable in the Enlightenment period and helps explain why his work was largely ignored until the 19th century."
 
-- question: "Vico's insistence on fantasia — imaginative entry into the past's mental world — commits him to historical relativism, the view that most historical periods and their values are equally valid."
+- question: "Vico's insistence on fantasia — imaginative entry into the past's mental world — commits him to historical relativism, the view that all historical periods and their values are equally valid."
   type: true-false
   answer: false
   explanation: "Vico requires that historians understand the past on its own terms, but this is an epistemological demand (how you must approach historical understanding) not a normative claim (that all historical worlds are equally good). He was not saying that the values of a heroic age are as valid as those of a civilized age — the cyclical theory itself implies a hierarchy of development. Fantasia is the method required to achieve understanding, not a commitment to treating all historical worlds as morally equivalent. Confusing methodological empathy with relativism is a common misreading of interpretive approaches in historiography."

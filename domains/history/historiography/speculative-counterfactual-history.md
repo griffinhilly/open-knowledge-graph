@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Counterfactual and speculative history imagines how events might have unfolded differently, explicitly asking 'what if?' This is not fanciful but methodological: by considering plausible alternatives, historians clarify what actually determined the course taken. Speculative history extends to imaginative explorations of historical possibility that may not have happened but could have, revealing the contingency of the actual.
 
+## How It's Best Learned
+Take a causal sentence from a textbook and rewrite it as an explicit counterfactual: "without X, Y would not have happened." Then test that counterfactual for minimality, plausibility and traceable consequences. Compare Robert Fogel's railroad study, which built a model of the American economy without railroads, using canals and wagons instead, to ask how indispensable the railroads were to growth.
+
+## Common Misconceptions
+- A counterfactual tells us what would have happened. (Alternate outcomes cannot be observed; the method's value is in testing causal claims about what did happen and exposing hidden assumptions.)
+- Counterfactual reasoning always shows that events were contingent. (It can also show that an outcome was robust, if plausible changes to one factor still lead to much the same result.)
+- The further you trace an alternative's consequences, the more you learn. (Uncertainty compounds with each step, so long chains of consequences quickly lose evidential support.)
+
 ## Questions
 
 ```yaml

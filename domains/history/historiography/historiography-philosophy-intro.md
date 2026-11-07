@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Historiography examines how historians construct knowledge about the past—the methods, theories, and philosophical assumptions underlying historical practice. This course investigates the philosophy of history: What is historical truth? Can history be objective? How do historians justify their claims? These fundamental questions animate debates from ancient times to today and shape how we understand what historical knowledge can be.
 
+## How It's Best Learned
+Take one familiar historical claim, such as "the fall of Rome was caused by military overextension." Ask four questions of it: Is it true, and what would make it so? What kind of cause is it? Could a historian state it without taking a standpoint? Does it explain the way a scientific law explains? Each question opens one of the course's main debates, so keep the answers and revisit them later.
+
+## Common Misconceptions
+- Philosophy of history means finding the overall direction or meaning of history. (That speculative branch, associated with thinkers like Hegel and Marx, is one part; this course focuses mostly on the critical branch, which asks how historical knowledge works.)
+- Historiography is just another word for history. (History is the study of the past, while historiography studies how historians have written about it and with what methods.)
+- If history cannot be fully objective, every account is as good as any other. (Accounts still differ in how well they fit the evidence and handle counterevidence.)
+- Philosophical questions about history matter only to philosophers. (They shape everyday choices historians make about evidence, causes, and how to tell a story.)
+
 ## Questions
 
 ```yaml

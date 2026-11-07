@@ -22,7 +22,15 @@ status: validated
 # Multipole Expansion and Far-Field Radiation
 
 ## Core Idea
-For radiation at distances large compared to source size, multipole expansion systematically approximates far fields. The dipole moment p(t) dominates for non-relativistic sources; higher moments are suppressed by factors of (a/c)². This reveals which source properties radiate effectively.
+For radiation at distances large compared to source size, multipole expansion systematically approximates far fields. The dipole moment p(t) dominates for non-relativistic sources; higher moments are suppressed by factors of (a/λ)². This reveals which source properties radiate effectively.
+
+## How It's Best Learned
+Write the far-zone vector potential as (μ₀/4πr)∫J(r', t − r/c + r̂·r'/c) d³r', and Taylor-expand the time argument in the small delay r̂·r'/c. Show the leading term is ∫J d³r' = ṗ by integrating x ∇·J by parts and using continuity. Then estimate ka for a 1 m source at λ = 300 m, about 0.02, to see how small the next terms are.
+
+## Common Misconceptions
+- A source with zero electric dipole moment cannot radiate. (Its magnetic dipole and electric quadrupole moments can still radiate, at a rate lower by roughly (ka)².)
+- An electromagnetic source can radiate through a changing monopole. (Charge conservation keeps the total charge fixed, so there is no monopole radiation.)
+- Quadrupole radiation has the same frequency dependence as dipole radiation. (At fixed moment amplitude, dipole power grows as ω⁴ and electric quadrupole power as ω⁶.)
 
 ## Questions
 
@@ -52,10 +60,10 @@ For radiation at distances large compared to source size, multipole expansion sy
   answer: true
   explanation: "This is the physical foundation of the multipole approach. When the source size a is small compared to the wavelength λ = 2π/k, the parameter ka = 2πa/λ << 1. Each successive multipole term carries an extra factor of (ka)², making the series converge rapidly. The electric dipole term then provides an excellent approximation by itself, without needing to track the detailed internal structure of the source."
 
-- question: "A system of two equal and opposite charges oscillating symmetrically about the origin has no net electric dipole moment, so it can seldom radiate electromagnetic energy."
+- question: "A system of two equal charges oscillating symmetrically about the origin has no net electric dipole moment, so it cannot radiate electromagnetic energy."
   type: true-false
   answer: false
-  explanation: "A vanishing dipole moment eliminates *dipole* radiation, but not all radiation. Such a system would still radiate through electric quadrupole (and possibly magnetic dipole) contributions, though suppressed by a factor (ka)² relative to dipole. Only a system with zero for *all* multipole moments would be completely non-radiating — which does not occur for oscillating charge distributions. The statement reflects the misconception that dipole radiation exhausts all radiation mechanisms."
+  explanation: "A vanishing dipole moment eliminates *dipole* radiation, but not all radiation. Such a system would still radiate through electric quadrupole (and possibly magnetic dipole) contributions, though suppressed by a factor (ka)² relative to dipole. Only a source whose radiating multipole moments *all* vanish, such as a radially pulsating spherical shell of charge, is completely non-radiating. The statement reflects the misconception that dipole radiation exhausts all radiation mechanisms."
 
 - question: "Why do gravitational waves from merging black holes radiate only through the quadrupole moment, and what does this tell you about the fundamental constraints on gravitational radiation?"
   type: short-answer
@@ -69,6 +77,6 @@ From your study of radiation from accelerated charges, you know that a single ac
 
 The key observation is that if the source region has size a and the observation point is at distance r >> a, then the retardation delays from different parts of the source differ by at most Δt ~ a/c. If the source oscillates at frequency ω, this delay represents a phase shift of roughly ωa/c = ka (where k = ω/c is the wavenumber). When ka << 1 (the source is much smaller than a wavelength), this phase shift is small, and the entire source can be described by just a few integrated quantities — the multipole moments — rather than its detailed internal structure.
 
-The expansion proceeds by expanding the retarded potential in powers of (a/r): the leading term gives the **electric dipole** contribution, the next gives magnetic dipole and electric quadrupole, and so on. The electric dipole contribution depends on p̈ = d²p/dt² (the acceleration of the dipole moment p = Σqᵢrᵢ). The radiated power from electric dipole radiation is P_dipole = p̈²/(6πε₀c³). Each successive term in the expansion is suppressed by an additional factor of (ka)² = (a/λ)². For a typical radio antenna or a vibrating molecule where a << λ, the dipole term overwhelmingly dominates: quadrupole radiation is suppressed by a factor (a/λ)² relative to dipole radiation.
+The expansion proceeds by expanding the retarded potential in powers of ka: the leading term gives the **electric dipole** contribution, the next gives magnetic dipole and electric quadrupole, and so on. The electric dipole contribution depends on p̈ = d²p/dt² (the acceleration of the dipole moment p = Σqᵢrᵢ). The radiated power from electric dipole radiation is P_dipole = p̈²/(6πε₀c³). Each successive term in the expansion is suppressed by an additional factor of (ka)² = (a/λ)². For a typical radio antenna or a vibrating molecule where a << λ, the dipole term overwhelmingly dominates: quadrupole radiation is suppressed by a factor (a/λ)² relative to dipole radiation.
 
 This hierarchy has profound physical consequences. A system with no time-varying dipole moment — because total charge is zero and it oscillates symmetrically — radiates primarily through the next term (quadrupole or magnetic dipole). Gravitational wave sources (like merging black holes) are even more restricted: there is no monopole radiation (energy conservation) and no dipole radiation (momentum conservation), so the dominant radiation is **quadrupole**, suppressed by (v/c)² relative to a comparable electromagnetic dipole. Understanding which multipoles are active in a given source tells you the angular pattern, the frequency dependence of the power (P_dipole ∝ ω⁴), and the total radiated intensity — making multipole expansion the universal language of radiation physics.

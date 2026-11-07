@@ -1,0 +1,68 @@
+domains/mathematics/1st-grade/length-comparison.md	how	3	0	ok
+domains/mathematics/1st-grade/length-comparison.md	mis	6	0	ok
+domains/mathematics/1st-grade/making-ten-strategy-1st.md	how	3	0	ok
+domains/mathematics/1st-grade/making-ten-strategy-1st.md	mis	6	0	ok
+domains/mathematics/1st-grade/measuring-length-nonstandard-units-1st.md	how	4	1	fixed	Example counts "14 paper clips, 7 cubes" imply a linking cube is twice a paper clip; a standard cube (about 2 cm) is shorter than a clip (about 3.3 cm), so the cube count must be larger. Changed to 24 cubes.
+domains/mathematics/1st-grade/measuring-length-nonstandard-units-1st.md	mis	8	1	fixed	Same physically impossible 14 clips / 7 cubes example in bullet 1; changed to 24 cubes.
+domains/mathematics/1st-grade/measuring-length-nonstandard.md	how	4	0	ok
+domains/mathematics/1st-grade/measuring-length-nonstandard.md	mis	6	0	ok
+domains/mathematics/1st-grade/measuring-length-nonstandard.md	old:ex	2	2	fixed	"If a unit hangs over the end, the object is shorter than that unit" is false (the object is shorter than the count); "the ruler is just a non-standard unit" contradicts itself. Both reworded.
+domains/mathematics/1st-grade/measuring-length-with-ruler.md	how	3	0	ok
+domains/mathematics/1st-grade/measuring-length-with-ruler.md	mis	8	0	ok
+domains/mathematics/1st-grade/measuring-with-standard-units-length.md	how	4	0	ok
+domains/mathematics/1st-grade/measuring-with-standard-units-length.md	mis	6	0	ok
+domains/mathematics/1st-grade/mental-math-strategies-addition-1st.md	how	4	0	ok
+domains/mathematics/1st-grade/mental-math-strategies-addition-1st.md	mis	8	0	ok
+domains/mathematics/1st-grade/mental-math-strategies-addition-1st.md	old:q:3:question	1	1	fixed	Leftover edit artifact "for most addition problem" (ungrammatical); restored to "for every addition problem" so the false key reads cleanly.
+domains/mathematics/1st-grade/mental-math-strategies-subtraction-1st.md	how	4	1	fixed	"The jumps add to 4 either way" is false for counting back: nine jumps of 1 total 9; the answer is where you land. Reworded to "Both ways give 4".
+domains/mathematics/1st-grade/mental-math-strategies-subtraction-1st.md	mis	6	0	ok
+domains/mathematics/1st-grade/near-doubles-facts-within-20.md	mis	6	0	ok
+domains/mathematics/1st-grade/number-bonds-to-20.md	how	4	0	ok
+domains/mathematics/1st-grade/number-bonds-to-20.md	mis	6	0	ok	Bullet 3 (add 10 to both partners) is a weak but plausible overgeneralization; kept. Note: older Core Idea "Numbers 0-20 can be broken into two parts that sum to 20" is garbled; not edited.
+domains/mathematics/1st-grade/number-line-0-to-20.md	how	4	0	ok
+domains/mathematics/1st-grade/number-line-0-to-20.md	mis	6	0	ok	Note: older Q3 explanation has a muddled sentence about "going back"; not false, not edited.
+domains/mathematics/1st-grade/number-patterns-skip-counting-1st.md	how	5	0	ok
+domains/mathematics/1st-grade/number-patterns-skip-counting-1st.md	mis	6	0	ok
+domains/mathematics/1st-grade/number-recognition-1-100.md	how	4	0	ok
+domains/mathematics/1st-grade/number-recognition-1-100.md	mis	6	0	ok
+domains/mathematics/1st-grade/number-recognition-1-100.md	old:q:4:answer	1	1	fixed	"the ten decade numbers (twenty, thirty, forty...)" is wrong: twenty through ninety is eight names. Changed to eight.
+domains/mathematics/1st-grade/ordering-numbers-1-to-20.md	how	4	0	ok
+domains/mathematics/1st-grade/ordering-numbers-1-to-20.md	mis	6	0	ok
+domains/mathematics/1st-grade/ordering-numbers-to-20.md	how	4	0	ok
+domains/mathematics/1st-grade/ordering-numbers-to-20.md	mis	6	1	fixed	Bullet 3 belief "least to greatest and greatest to least give different numbers" is a strawman; reworded to the plausible belief that the reverse order must be worked out from scratch. Bullet 2 is weak but kept.
+domains/mathematics/1st-grade/organizing-data-picture-graphs.md	how	4	0	ok
+domains/mathematics/1st-grade/organizing-data-picture-graphs.md	mis	6	0	ok
+domains/mathematics/1st-grade/part-part-whole-model-1st.md	mis	6	0	ok
+domains/mathematics/1st-grade/picture-graph-creation-interpretation.md	how	4	0	ok
+domains/mathematics/1st-grade/picture-graph-creation-interpretation.md	mis	6	0	ok
+domains/mathematics/1st-grade/picture-graph-creation-interpretation.md	old:q:3:question	1	1	fixed	Edit artifact "count most of the pictures" made the true/false statement incoherent; changed to "count the pictures".
+domains/mathematics/1st-grade/picture-graphs.md	how	4	0	ok
+domains/mathematics/1st-grade/picture-graphs.md	mis	6	0	ok
+domains/mathematics/1st-grade/picture-graphs.md	old:q:3:question	1	1	fixed	"A picture graph usually uses exactly one symbol per item" keyed false is wrong: 1st-grade picture graphs usually are one-to-one. Restored "always", which makes the false key correct.
+domains/mathematics/1st-grade/skip-counting-by-10s-fluency.md	mis	6	1	fixed	Bullet 3 correction "Fluency also means knowing that 60 is 6 tens" contradicts the file's own definition of fluency (fast and automatic). Reworded to "Speed alone does not show understanding. A learner should also know..."
+domains/mathematics/1st-grade/skip-counting-by-10s.md	how	4	0	ok
+domains/mathematics/1st-grade/skip-counting-by-10s.md	mis	6	0	ok
+domains/mathematics/1st-grade/skip-counting-by-2s-fluency.md	how	5	0	ok
+domains/mathematics/1st-grade/skip-counting-by-2s-fluency.md	mis	6	0	ok
+domains/mathematics/1st-grade/skip-counting-by-2s-fluency.md	old:q:0:options	1	1	fixed	Options A and C were both correct (both said she added 3, landing on 11), so the key was ambiguous. Option A now says "so she should have said 9", which is wrong.
+domains/mathematics/1st-grade/skip-counting-by-2s-fluency.md	old:q:2:question	1	1	fixed	Edit artifact "you say most counting number"; restored "every counting number".
+domains/mathematics/1st-grade/skip-counting-by-2s.md	how	4	0	ok	Note: older Explainer claim "Skip counting by 2s is one of the first ways mathematicians discovered even numbers" is unsupported history; not edited.
+domains/mathematics/1st-grade/skip-counting-by-2s.md	mis	6	0	ok
+domains/mathematics/1st-grade/skip-counting-by-5s-fluency.md	how	5	0	ok
+domains/mathematics/1st-grade/skip-counting-by-5s-fluency.md	mis	6	0	ok
+domains/mathematics/1st-grade/skip-counting-by-5s-fluency.md	old:q:2:explanation	1	1	fixed	"No other common skip-counting sequence has this simple a visual pattern" is false (counting by 10s always ends in 0). Sentence deleted.
+domains/mathematics/1st-grade/skip-counting-by-5s.md	how	4	0	ok
+domains/mathematics/1st-grade/skip-counting-by-5s.md	mis	6	0	ok
+domains/mathematics/1st-grade/skip-counting-by-5s.md	old:q:1:question	1	1	fixed	Edit artifact "most number in the sequence ends in 5"; restored "every number".
+domains/mathematics/1st-grade/subtraction-fact-families-1st.md	how	4	0	ok
+domains/mathematics/1st-grade/subtraction-fact-families-1st.md	mis	6	0	ok
+domains/mathematics/1st-grade/tally-chart-data-collection-1st.md	how	4	0	ok
+domains/mathematics/1st-grade/tally-chart-data-collection-1st.md	mis	6	1	fixed	Bullet 3 treated "write the answers first and tally later" as an error; tallying from a recorded list is valid, so the correction was false. Bullet deleted; 2 remain.
+domains/mathematics/1st-grade/tally-charts.md	how	4	0	ok
+domains/mathematics/1st-grade/tally-charts.md	mis	6	0	ok
+domains/mathematics/1st-grade/telling-time-to-half-hour-1st.md	how	4	0	ok
+domains/mathematics/1st-grade/telling-time-to-half-hour-1st.md	mis	6	0	ok
+domains/mathematics/1st-grade/telling-time-to-half-hour-1st.md	old:questions	3	3	fixed	Q0, Q1 and Q4 explanations said the hour is "always the smaller of the two numbers"; false at 12:30 (hand between 12 and 1). Reworded to "the number the hour hand has already passed".
+domains/mathematics/1st-grade/telling-time-to-half-hour-1st.md	old:ex	2	2	fixed	Same "smaller of the two numbers" rule in the Explainer, reworded. "The top half - from 12 around to 6" is wrong (12 to 6 clockwise is the right half); fixed, and "journey" replaced.
+domains/mathematics/1st-grade/telling-time-to-half-hour.md	how	4	0	ok
+domains/mathematics/1st-grade/telling-time-to-half-hour.md	mis	6	0	ok

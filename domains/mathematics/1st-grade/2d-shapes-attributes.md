@@ -35,6 +35,14 @@ status: validated
 ## Core Idea
 Two-dimensional shapes (circles, squares, rectangles, triangles) have distinct attributes: number of sides, number of vertices (corners), and types of lines (straight or curved). Identifying these attributes helps classify and distinguish shapes.
 
+## How It's Best Learned
+Start with a sorting activity. Spread out a pile of paper shapes in many sizes, colors and positions. Ask the learner to sort them by "number of sides" and then re-sort them by "straight or curved edges." When a big red triangle lands in the same group as a small blue upside-down one, the learner sees that the attribute decides the group, while color, size and position do not.
+
+## Common Misconceptions
+- A triangle has to point up, and an upside-down one is a different shape. (Position does not change a shape. Any closed shape with 3 straight sides and 3 vertices is a triangle.)
+- A square is not a rectangle because it looks different. (A square has 4 straight sides and 4 square corners, so it meets every attribute of a rectangle. It is a special rectangle with all sides equal.)
+- Color or size is one of the attributes that names a shape. (The name depends on sides, vertices and the kind of lines. A large red square and a small yellow square are both squares.)
+
 ## Questions
 
 ```yaml

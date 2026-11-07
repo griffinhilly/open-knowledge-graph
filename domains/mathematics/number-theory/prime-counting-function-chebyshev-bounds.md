@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 The prime counting function π(x) counts primes ≤ x. Chebyshev proved elementary bounds 0.92x/ln(x) < π(x) < 1.1x/ln(x) for large x, implying Bertrand's postulate: there exists a prime between n and 2n.
 
+## How It's Best Learned
+Tabulate π(x)/(x/ln x) at x = 10², 10³, 10⁴, 10⁵, 10⁶ (about 1.15, 1.16, 1.13, 1.10, 1.08) to see a bounded ratio. Then test the core inequality for n = 10: the primes 11, 13, 17, 19 multiply to 46189, which divides C(20, 10) = 184756 = 4 · 46189. Since C(20, 10) ≤ 4¹⁰, this caps θ(20) − θ(10) by 20 ln 2.
+
+## Common Misconceptions
+- Chebyshev's constants hold for every x ≥ 2. (They are stated for large x. At x = 1000 the ratio π(x)/(x/ln x) is about 1.16, above 1.1.)
+- Bounding π(x) between constant multiples of x/ln x proves the prime number theorem. (It fixes the order of magnitude. The theorem needs the ratio to tend to 1, which was first proved in 1896 with complex analysis.)
+- Bertrand's postulate means gaps between consecutive primes stay bounded. (It only puts a prime between n and 2n. Gaps are unbounded: (k + 1)! + 2, …, (k + 1)! + (k + 1) are k consecutive composites.)
+
 ## Questions
 
 ```yaml
@@ -65,6 +73,6 @@ The **prime counting function** π(x) is deceptively simple to define: count the
 
 Chebyshev's key insight was to study not π(x) directly, but the smoother auxiliary functions θ(x) = Σ ln(p) over primes p ≤ x and ψ(x) = Σ ln(p) over prime powers p^k ≤ x. These are smoother objects than the jagged step function π(x), and they are closely related to it: θ(x) ~ ψ(x) ~ x implies π(x) ~ x/ln(x). Using elementary bounds on binomial coefficients — specifically that (2n choose n) can be bounded both above (by 4^n) and below (by products over primes in (n, 2n]) — Chebyshev proved that π(x) is sandwiched: 0.92x/ln(x) < π(x) < 1.1x/ln(x) for all sufficiently large x. This was the first proof that π(x) has the right *order of magnitude* as x/ln(x).
 
-**Bertrand's postulate** — that for any integer n ≥ 1 there is always a prime strictly between n and 2n — follows as a corollary. The binomial coefficient (2n choose n) must include prime factors in the range (n, 2n); if none existed, the coefficient would be too small relative to the established lower bound. The result is remarkable: no matter how large you go, you never have to travel further than a factor of 2 to find the next prime. This was known empirically long before Chebyshev's proof and had practical uses in construction of prime tables.
+**Bertrand's postulate** — that for any integer n ≥ 2 there is always a prime strictly between n and 2n — follows as a corollary. The binomial coefficient (2n choose n) must include prime factors in the range (n, 2n); if none existed, the coefficient would be too small relative to the established lower bound. The result is remarkable: no matter how large you go, you never have to travel further than a factor of 2 to find the next prime. This was known empirically long before Chebyshev's proof and had practical uses in construction of prime tables.
 
 The Chebyshev bounds establish the right order of magnitude; the full **prime number theorem** — π(x) ~ x/ln(x) in the strict asymptotic sense — sharpens "bounded between constants times x/ln(x)" to "exactly x/ln(x)" and was proved independently in 1896 by Hadamard and de la Vallée Poussin using the analytic properties of the Riemann zeta function ζ(s). The gap between Chebyshev's elementary argument and the eventual proof took half a century to close, and it required a completely different mathematical toolkit. Understanding Chebyshev bounds thus gives you the scaffolding — the right intuition and order of magnitude — before you encounter the deeper analytic machinery needed for the exact result.

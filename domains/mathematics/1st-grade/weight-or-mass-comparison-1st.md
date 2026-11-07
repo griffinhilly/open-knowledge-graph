@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 Students compare objects by holding them, using balance scales, or simple intuition to determine which is heavier or lighter. Language like 'heavier,' 'lighter,' and 'about the same' are introduced before standard units like pounds or grams.
 
+## How It's Best Learned
+Run predict-then-check rounds with a pan balance. The learner holds two objects, says which feels heavier, then places them on the balance to check. Include pairs where size misleads, such as a blown-up balloon and a small rock. Then order three objects from lightest to heaviest by comparing two at a time, and say each result as a sentence: "The rock is heavier than the apple."
+
+## Common Misconceptions
+- The bigger object is the heavier one. (Size does not decide weight. A small rock can be heavier than a large pillow, so check with your hands or a balance.)
+- On a balance, the side that goes up is the heavier side. (The heavier side sinks down. The lighter side rises.)
+- Squashing a ball of clay flat makes it lighter, or heavier. (Changing the shape does not change the weight if no clay is added or taken away. A balance will show the same result before and after.)
+
 ## Questions
 
 ```yaml

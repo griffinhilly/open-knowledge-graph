@@ -32,6 +32,14 @@ status: validated
 ## Core Idea
 Subaltern studies, originating in Indian historiography, examines experiences of subordinated groups within colonial and postcolonial contexts. Gayatri Spivak's central question—'Can the subaltern speak?'—highlights the epistemological challenge: how can historians represent voices of those systematically excluded from record-making? This approach combines rigorous source analysis with awareness of necessary silences and what cannot be recovered from archives shaped by colonialism.
 
+## How It's Best Learned
+Read the section of "Can the Subaltern Speak?" on the British abolition of sati. List who speaks about the widow, from colonial officials to Indian defenders of the rite, and note where her own voice appears. Then read Spivak's account of Bhubaneswari Bhaduri, a young woman whose 1926 suicide was misread by her own family, and ask what she did to make her act legible and why it still went unread.
+
+## Common Misconceptions
+- "Subaltern" is another word for poor. (From Gramsci, it names subordination in relations of power, which can rest on caste, gender, ethnicity or position, as well as on wealth.)
+- Spivak's answer means historians should give up trying to study subaltern groups. (She aims at critical self-reflection about how historians represent others; she does not call for silence.)
+- Subaltern Studies kept one fixed method from start to finish. (Early volumes stressed peasant insurgency and social history; later work turned toward colonial discourse, a shift Sumit Sarkar criticized as the "decline of the subaltern.")
+
 ## Questions
 
 ```yaml

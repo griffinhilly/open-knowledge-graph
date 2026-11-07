@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 The p-adic valuation v_p(n) is the exponent of p in n's factorization: v_p(p^e · m) = e when gcd(p,m) = 1. Extending multiplicatively to rationals via v_p(a/b) = v_p(a) - v_p(b), it assigns 'distance to zero' based on powers of p.
 
+## How It's Best Learned
+Compute v_2, v_3 and v_5 for the same short list of numbers (12, 1000, 3/4, 10!) so the prime-by-prime reading becomes routine. For 10!, count multiples: v_2(10!) = 5 + 2 + 1 = 8. Then test sums against products: v_2(2 · 2) = 2 = 1 + 1, while v_2(2 + 2) = 2 and v_2(2 + 4) = 1, which shows the min rule for sums.
+
+## Common Misconceptions
+- v_p(a + b) = v_p(a) + v_p(b), just as for products. (Additivity holds for products. For sums, v_p(a + b) ≥ min(v_p(a), v_p(b)), with equality when the two valuations differ.)
+- v_p(0) = 0 because 0 has no prime factors. (Every power of p divides 0, so v_p(0) is set to +∞, which matches |0|_p = 0.)
+- A higher valuation means a number is p-adically larger. (Since |x|_p = p^(−v_p(x)), a higher valuation gives a smaller p-adic absolute value.)
+
 ## Questions
 
 ```yaml

@@ -22,7 +22,16 @@ status: validated
 # Uniform Convergence
 
 ## Core Idea
-A sequence of functions (fₙ) converges uniformly to f on a set S if for every ε > 0, there exists N (independent of x) such that for all x ∈ S, n > N implies |fₙ(x) - f(x)| < ε. Uniform convergence is stronger than pointwise and guarantees that limits can be exchanged with derivatives and integrals. It is fundamental to analysis on function spaces.
+A sequence of functions (fₙ) converges uniformly to f on a set S if for every ε > 0, there exists N (independent of x) such that for all x ∈ S, n > N implies |fₙ(x) - f(x)| < ε. Uniform convergence is stronger than pointwise. It preserves continuity and lets limits be exchanged with integrals on bounded intervals. Exchanging limits with derivatives needs more: the standard theorem asks that the derivatives themselves converge uniformly. It is fundamental to analysis on function spaces.
+
+## How It's Best Learned
+Compute sup_{x∈S} |fₙ(x) − f(x)| for the same sequence on different sets. For fₙ(x) = xⁿ with limit 0, the sup over [0, 1/2] is (1/2)ⁿ → 0, so convergence there is uniform. The sup over [0, 1) stays 1 for every n, so it is not. Sketch the ε-tube around 0 and watch the graph of xⁿ escape it near x = 1.
+
+## Common Misconceptions
+- If the continuous functions fₙ converge pointwise to a continuous limit, the convergence is uniform. (fₙ(x) = nx·e^(−nx) on [0, ∞) converges pointwise to 0, but each fₙ reaches e⁻¹ at x = 1/n, so the sup distance never shrinks.)
+- In uniform convergence, N does not depend on ε. (N may depend on ε. What it may not depend on is the point x.)
+- Uniform convergence is a property of the sequence alone. (It depends on the set. xⁿ → 0 uniformly on [0, 1/2] but not on [0, 1).)
+- If fₙ → f uniformly and each fₙ is differentiable, then fₙ' → f'. (fₙ(x) = sin(nx)/n converges uniformly to 0 on ℝ, since |fₙ(x)| ≤ 1/n, but fₙ'(0) = cos 0 = 1 for every n while f'(0) = 0. The derivative theorem asks for the derivatives fₙ' to converge uniformly.)
 
 ## Questions
 
@@ -71,4 +80,4 @@ You already understand **pointwise convergence**: fₙ converges pointwise to f 
 
 The classic counterexample that separates the two notions is fₙ(x) = xⁿ on [0, 1]. Pointwise, this converges to f(x) = 0 for x ∈ [0, 1) and f(1) = 1 — a discontinuous limit function. Each fₙ is continuous, but the pointwise limit is not. This discontinuity cannot arise under uniform convergence: the uniform limit of continuous functions is always continuous. This theorem is the key example of why uniform convergence is the "right" notion for preserving analytical properties.
 
-The practical test is the **supremum criterion**: fₙ → f uniformly if and only if sup_{x∈S} |fₙ(x) − f(x)| → 0 as n → ∞. This converts a universal quantifier over x into a single limit on a supremum — a much more tractable object. For series, the **Weierstrass M-test** provides a sufficient condition: if |gₙ(x)| ≤ Mₙ for all x and ΣMₙ converges (as a series of constants), then Σgₙ converges uniformly and absolutely. This is the standard tool for establishing uniform convergence of power series and Fourier series. Everything downstream — preserving continuity, exchanging limits with integrals, exchanging limits with derivatives — depends on whether this one uniform convergence condition holds.
+The practical test is the **supremum criterion**: fₙ → f uniformly if and only if sup_{x∈S} |fₙ(x) − f(x)| → 0 as n → ∞. This converts a universal quantifier over x into a single limit on a supremum — a much more tractable object. For series, the **Weierstrass M-test** provides a sufficient condition: if |gₙ(x)| ≤ Mₙ for all x and ΣMₙ converges (as a series of constants), then Σgₙ converges uniformly and absolutely. This is the standard tool for establishing uniform convergence of power series and Fourier series. Preserving continuity and exchanging limits with integrals depend on whether this one uniform convergence condition holds. For exchanging limits with derivatives, the standard theorem asks for uniform convergence of the derivatives fₙ', not only of the fₙ.

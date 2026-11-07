@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 A series ∑ aₙ converges to S if the sequence of partial sums Sₙ = a₁ + a₂ + ... + aₙ converges to S using epsilon-N. A series converges if and only if it is Cauchy: for every ε > 0, there exists N such that for all n > m ≥ N, |Sₙ − Sₘ| < ε. This provides a rigorous foundation for all convergence tests.
 
+## How It's Best Learned
+Run the Cauchy criterion on two series side by side. For ∑ 1/n, the block from N+1 to 2N has N terms, each at least 1/(2N), so it sums to at least 1/2 for every N. For ∑ 1/n², use 1/k² < 1/(k−1) − 1/k for k ≥ 2: the block from m+1 to n telescopes to less than 1/m, so N > 1/ε works.
+
+## Common Misconceptions
+- If the terms go to 0, the series converges. (aₙ → 0 is necessary but not sufficient; the harmonic series has terms going to 0 and diverges.)
+- The Cauchy criterion only asks that consecutive partial sums get close, |Sₙ₊₁ − Sₙ| < ε. (That condition only says aₙ → 0. The criterion requires |Sₙ − Sₘ| < ε for all n > m ≥ N, so blocks of any length must have small sum.)
+- An infinite sum can be regrouped like a finite sum. (The sum is defined as the limit of partial sums. Grouping 1 − 1 + 1 − 1 + ⋯ as (1 − 1) + (1 − 1) + ⋯ gives 0, but the partial sums alternate 1, 0, 1, 0, so the series diverges.)
+- Changing the first few terms can change whether a series converges. (Convergence depends only on the tail. Altering finitely many terms changes the sum but not whether the series converges.)
+
 ## Questions
 
 ```yaml

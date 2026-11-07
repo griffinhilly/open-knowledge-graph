@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Maxwell's equations have the same form in all inertial reference frames—a fundamental requirement of special relativity. This Lorentz covariance is automatic when expressed in terms of 4-vectors and tensors in spacetime, revealing that electrodynamics is inherently relativistic. The covariant formulation unifies space and time, electric and magnetic fields, and provides the foundation for relativistic quantum field theory.
 
+## How It's Best Learned
+Use the chain rule on the wave operator (1/c²)∂²_t − ∂²_x. Under x' = γ(x − vt), t' = γ(t − vx/c²) it keeps its form exactly. Under the Galilean change x' = x − vt, t' = t, a cross term −(2v/c²)∂_t'∂_x' appears. Then, in one fixed sign convention, recover Gauss's law from the ν = 0 component of the tensor equation.
+
+## Common Misconceptions
+- Lorentz covariance means E and B have the same values in every frame. (Covariance means the equations keep their form. The fields themselves transform and mix.)
+- Maxwell's equations had to be corrected for relativity, as Newton's laws were. (They were already consistent with special relativity. Mechanics was what changed.)
+- The magnetic field a moving observer sees is not real, and only the rest-frame electric field is. (Both are frame-dependent parts of one field tensor. Each observer's E and B predict the same physical motion of charges.)
+- Charge density is invariant because total charge is. (Total charge is invariant, but ρ is the time part of the 4-current J^μ. A moving observer measures a larger ρ, by a factor γ, for charge at rest in the original frame.)
+
 ## Questions
 
 ```yaml

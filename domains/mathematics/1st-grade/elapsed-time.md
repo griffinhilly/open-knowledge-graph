@@ -32,6 +32,14 @@ status: validated
 ## Core Idea
 Elapsed time measures how much time passes from a start time to an end time. Students count forward by hours and half-hours to find how much time has passed.
 
+## How It's Best Learned
+Use a geared practice clock that the learner can turn by hand. Set it to the start time, such as 2:00, and turn the hands forward to 4:30. The learner says "one hour" each time the long hand goes all the way around to 12, then "half an hour" for the last half turn from 12 to 6. Recording each jump on a simple open number line shows the total: 2 hours and 30 minutes.
+
+## Common Misconceptions
+- The time on the clock at the end is the answer. (The end time tells when something stopped. Elapsed time is how long it lasted, so 2:00 to 4:30 is 2 hours 30 minutes, not 4:30.)
+- You find elapsed time by subtracting the clock numbers like ordinary numbers. (Clock times do not follow the usual rules for subtracting. Counting forward from the start time is more reliable at this stage.)
+- When the long hand goes from 12 to 6, one hour has passed. (That is a half-hour. One hour passes when the long hand goes all the way around back to 12.)
+
 ## Questions
 
 ```yaml

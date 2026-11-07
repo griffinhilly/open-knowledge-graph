@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 The norm N: K → ℚ of a number field K is a multiplicative function sending each element to the product of its conjugates. The norm is essential for factorization properties, ideal theory, and solving Diophantine equations in algebraic number fields.
 
+## How It's Best Learned
+Check multiplicativity on one product first: (2 + i)(1 + 2i) = 5i, and 5 · 5 = 25 = N(5i). Next, solve x² + y² = 5 by listing every Gaussian integer of norm 5 (±2 ± i and ±1 ± 2i, giving eight solutions). Then contrast with 1 + √−5 in ℤ[√−5], whose norm 6 is composite even though the element is irreducible.
+
+## Common Misconceptions
+- The norm of any element of K is an integer. (That holds for algebraic integers. For other elements the norm is a rational number; in ℚ(i), N(1/2) = 1/4.)
+- An irreducible element must have prime norm. (Prime norm is sufficient for irreducibility but not necessary. In ℤ[i], 3 has norm 9, yet 3 is irreducible because no Gaussian integer has norm 3.)
+- The norm behaves like a length, so N(α + β) = N(α) + N(β). (The norm is multiplicative, not additive. N(1) + N(1) = 2, but N(2) = 4.)
+
 ## Questions
 
 ```yaml
@@ -54,7 +62,7 @@ The norm N: K → ℚ of a number field K is a multiplicative function sending e
 
 - question: "Why does an element with prime norm have to be irreducible in the ring of integers O_K?"
   type: short-answer
-  answer: "If α = βγ with β, γ non-units, then N(α) = N(β)·N(γ) by multiplicativity. Both N(β) and N(γ) are positive integers greater than 1 (since units have norm 1). But then N(α) = N(β)·N(γ) is a product of two integers each ≥ 2, so N(α) is composite — contradicting the assumption that N(α) is prime. Therefore no such factorization into non-units exists, and α is irreducible."
+  answer: "If α = βγ with β, γ non-units, then N(α) = N(β)·N(γ) by multiplicativity. Both |N(β)| and |N(γ)| are integers greater than 1 (since units are exactly the elements of norm ±1). But then |N(α)| = |N(β)|·|N(γ)| is a product of two integers each ≥ 2, so N(α) is not ± a prime — contradicting the assumption that N(α) is prime. Therefore no such factorization into non-units exists, and α is irreducible."
   explanation: "This argument works directly because norm is multiplicative and norms of units equal 1. The key logical move is: prime norm → can't be written as a product of two integers both > 1 → can't factor into two non-units. This makes prime-norm-checking a practical tool for identifying irreducibles without constructing all possible factorizations."
 ```
 
@@ -64,6 +72,6 @@ Start with the simplest nontrivial case: the Gaussian integers ℤ[i], where ele
 
 In a general number field K = ℚ(α) of degree n, an algebraic integer α satisfies a degree-n polynomial over ℚ with n conjugates α = α₁, α₂, ..., αₙ (the roots). The **norm** of an element θ ∈ K is N(θ) = σ₁(θ)·σ₂(θ)···σₙ(θ), the product over all field embeddings σᵢ: K → ℂ. For K = ℚ(i), there are two embeddings: the identity and complex conjugation, giving N(a+bi) = (a+bi)(a−bi) = a²+b² — exactly what we computed above.
 
-Multiplicativity N(αβ) = N(α)N(β) follows from the fact that each embedding is a ring homomorphism: σᵢ(αβ) = σᵢ(α)σᵢ(β), so the product over all embeddings factorizes. This multiplicativity is the norm's most useful property. It means if N(α) is a rational prime p, then α cannot factor as α = βγ with both β,γ non-units in O_K — otherwise N(β)·N(γ) = p with both factors integers greater than 1, a contradiction. So **elements with prime norm are irreducible**.
+Multiplicativity N(αβ) = N(α)N(β) follows from the fact that each embedding is a ring homomorphism: σᵢ(αβ) = σᵢ(α)σᵢ(β), so the product over all embeddings factorizes. This multiplicativity is the norm's most useful property. It means if N(α) is a rational prime p, then α cannot factor as α = βγ with both β,γ non-units in O_K — otherwise N(β)·N(γ) = p with both factors integers greater than 1 in absolute value, a contradiction. So **elements with prime norm are irreducible**.
 
 This gives a direct tool for Diophantine equations. To solve x²+y²=5 in integers, rewrite it as N(x+yi) = 5 in ℤ[i]. Since N(2+i) = 4+1 = 5, we find 2+i is a Gaussian prime, and the solutions to the Diophantine equation correspond to the Gaussian integer factorizations of 5. More generally, any question about which primes p are representable as x²+ny² translates into a question about factorization in ℤ[√(−n)], with the norm measuring whether factorization is possible.

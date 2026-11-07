@@ -28,6 +28,11 @@ Hermeneutics is theory and practice of interpretation. Historical hermeneutics g
 ## How It's Best Learned
 Apply different hermeneutical approaches to the same historical text, noting how contextual, intentional, and reader-response methods produce different meanings.
 
+## Common Misconceptions
+- Hermeneutics is a method for sacred or literary texts only. (It began in biblical and legal interpretation, but Schleiermacher made it a general theory of understanding, and Dilthey extended it to the human sciences, history included.)
+- For Gadamer, "prejudice" means a bias the historian must remove. (He uses the word for the pre-judgments every reader starts from; they are the condition of understanding, and the encounter with the text can revise them.)
+- The fusion of horizons means any present-day reading of a text is as good as another. (Gadamer holds that the text can pull the reader up short and correct mistaken expectations, so interpretation stays answerable to the text.)
+
 ## Questions
 
 ```yaml
@@ -64,6 +69,7 @@ Apply different hermeneutical approaches to the same historical text, noting how
 - question: "What is the hermeneutic circle, and why does it make 'reading a text on its own terms' impossible in any simple sense?"
   type: short-answer
   answer: "The hermeneutic circle describes the circular interdependence between understanding a text and understanding its context: to grasp what a text means, you need to know the historical, cultural, and linguistic context in which it was produced — but that context is itself largely known through texts that also require interpretation. There is no neutral starting point outside interpretation. Additionally, understanding individual passages requires grasping the text as a whole, but the whole is only accessible through its parts. Reading a text 'on its own terms' is therefore not a method that can be straightforwardly applied from the outside — it is an achievement that requires working back and forth between parts, wholes, and contexts, with each pass refining the others. The circle does not trap the interpreter but describes the ongoing structure of interpretive understanding."
+  explanation: "A strong answer names both loops: part and whole, and text and context. It also says why neither loop has a neutral entry point. The circle is productive rather than vicious because each pass through it can revise the earlier reading, so understanding improves without ever resting on an uninterpreted foundation. Calling it a logical fallacy, or saying it makes interpretation arbitrary, misses this point."
 ```
 
 ## Explainer

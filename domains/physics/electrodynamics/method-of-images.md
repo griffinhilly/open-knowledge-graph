@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Method of images solves boundary value problems by replacing boundaries with image charges producing the same boundary conditions. A charge near a grounded conducting plane is equivalent to the charge plus its opposite image at the mirror position. This elegant technique gives exact solutions for high-symmetry geometries.
 
+## How It's Best Learned
+For the plane, find σ = −ε₀ ∂V/∂z at z = 0, which gives σ(r) = −qd/[2π(r² + d²)^(3/2)]. Integrate it over the plane to confirm the total induced charge is −q. For a grounded sphere, put q at distance d and the image −qR/d at R²/d. Check that V = 0 at the sphere's nearest and farthest points.
+
+## Common Misconceptions
+- The image solution also gives the field inside the conductor. (It is valid only in the region outside the conductor. Inside a conductor the true field is zero.)
+- The energy of the charge near the plane equals the energy of the charge and image as a pair. (It is half of that, −q²/(16πε₀d), because the real field exists only above the plane, half the space the two-charge field would fill.)
+- The image charge always has the same size as the real charge. (That holds for the plane. For a grounded sphere of radius R the image is −qR/d.)
+
 ## Questions
 
 ```yaml

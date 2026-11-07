@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Quantitative historians use statistics, databases, and computational methods to analyze large historical datasets. Digital history adds tools like text mining, mapping, and visualization. These approaches promise pattern recognition and empirical rigor at scale. Yet they raise epistemological questions: Can numbers capture historical meaning? What gets lost when we quantify? How do digital tools shape what we can ask and what we find?
 
+## How It's Best Learned
+Code the same ten short reports of crowd events twice, under two definitions of "riot": one requiring twelve or more people, one requiring damage to property. Count the riots under each rule and see how the totals and the trend change. Then read Herbert Gutman's critique of *Time on the Cross* and list which of his objections concern the data and which concern the categories.
+
+## Common Misconceptions
+- A larger dataset removes bias. (Scale reduces random error, but it cannot fix systematic gaps in what the sources recorded or how the categories were defined.)
+- Digital tools are neutral instruments that just reveal what is in the archive. (Results depend on what was digitized, the quality of text recognition and the search terms chosen, all of which shape what is found.)
+- A strong correlation in historical data shows that one thing caused the other. (A causal claim needs an argument about mechanism and rival explanations, which the correlation alone does not supply.)
+- Quantitative and interpretive history are rival camps, and a historian must pick one. (Many projects combine them, using numbers for distribution and change and close reading for meaning and experience.)
+
 ## Questions
 
 ```yaml

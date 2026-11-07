@@ -31,6 +31,14 @@ status: validated
 ## Core Idea
 Word problems translate real situations into math. 'Maria has 5 apples. She gets 3 more. How many does she have now?' requires reading comprehension, identifying the operation (addition), and solving. Problems develop reasoning and show why math matters.
 
+## How It's Best Learned
+Have the learner act out each story with counters, then draw it as a part-part-whole bar: one long bar for the whole, split into two parts. Label the known numbers and put a question mark on the unknown. For "Sam has 6 fish. He gets some more. Now he has 10," the whole is 10 and one part is 6, so the missing part is 10 − 6 = 4, which checks as 6 + 4 = 10.
+
+## Common Misconceptions
+- The word "more" means add. ("How many more does Ava have than Ben?" compares two amounts and is solved by subtracting. Picture what happens in the story instead of hunting for one word.)
+- You can use the two numbers in any order, so 4 − 9 works as well as 9 − 4. (Order matters in subtraction. Start with the amount you had and take away the part that left.)
+- If a story says someone got more, the answer is the two numbers added. (When the story gives the start and the end, as in "had 5, got some more, now has 8," you find the missing change: 8 − 5 = 3.)
+
 ## Questions
 
 ```yaml

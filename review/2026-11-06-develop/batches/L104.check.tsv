@@ -1,0 +1,69 @@
+domains/mathematics/1st-grade/2d-shape-properties-1st.md	how	3	0	ok
+domains/mathematics/1st-grade/2d-shape-properties-1st.md	mis	6	0	ok
+domains/mathematics/1st-grade/2d-shapes-attributes.md	how	2	0	ok
+domains/mathematics/1st-grade/2d-shapes-attributes.md	mis	6	0	ok
+domains/mathematics/1st-grade/3d-shape-properties-1st.md	how	3	0	ok
+domains/mathematics/1st-grade/3d-shape-properties-1st.md	mis	6	0	ok
+domains/mathematics/1st-grade/3d-shapes-attributes.md	how	3	0	ok
+domains/mathematics/1st-grade/3d-shapes-attributes.md	mis	6	1	fixed	Bullet 1 correction said vertex count "depends on where edges meet" then cited the cone's 1 vertex, which is not where edges meet; reworded to corners or points.
+domains/mathematics/1st-grade/addition-subtraction-relationship.md	how	3	0	ok
+domains/mathematics/1st-grade/addition-subtraction-relationship.md	mis	6	1	fixed	Bullet 3 ("undoing addition means subtracting the total") is a strawman; deleted, 2 bullets remain.
+domains/mathematics/1st-grade/addition-subtraction-word-problems-1st.md	mis	6	0	ok
+domains/mathematics/1st-grade/addition-subtraction-word-problems.md	how	4	0	ok
+domains/mathematics/1st-grade/addition-subtraction-word-problems.md	mis	6	0	ok
+domains/mathematics/1st-grade/arrays.md	how	3	0	ok
+domains/mathematics/1st-grade/arrays.md	mis	6	0	ok
+domains/mathematics/1st-grade/building-and-decomposing-shapes.md	how	3	0	ok
+domains/mathematics/1st-grade/building-and-decomposing-shapes.md	mis	6	0	ok
+domains/mathematics/1st-grade/calendar-concepts-days-weeks.md	how	3	0	ok
+domains/mathematics/1st-grade/calendar-concepts-days-weeks.md	mis	6	0	ok
+domains/mathematics/1st-grade/capacity-and-volume-intro.md	how	3	0	ok
+domains/mathematics/1st-grade/capacity-and-volume-intro.md	mis	6	1	fixed	Bullet 3 ("water that fills the other to the brim means the second holds more") is a strawman; replaced with the real conservation misconception (pouring into a taller glass makes more water).
+domains/mathematics/1st-grade/collecting-data-tally-marks.md	how	3	0	ok
+domains/mathematics/1st-grade/collecting-data-tally-marks.md	mis	6	0	ok
+domains/mathematics/1st-grade/collecting-data-tally-marks.md	old:questions	1	1	fixed	Q3 stem garbled ("write down most your tally marks ... through most fourth mark"); restored to "all" / "every fourth mark".
+domains/mathematics/1st-grade/commutative-property-addition-1st.md	how	3	0	ok
+domains/mathematics/1st-grade/commutative-property-addition-1st.md	mis	6	0	ok
+domains/mathematics/1st-grade/commutative-property-addition-1st.md	old:explainer	1	1	fixed	4 blocks + 2 blocks example said "The total is always 8"; corrected to 6.
+domains/mathematics/1st-grade/commutative-property-addition-1st.md	old:questions	1	1	fixed	Q3 stem garbled ("you primarily need to memorize half"); changed to "only need".
+domains/mathematics/1st-grade/comparing-and-measuring-lengths.md	how	3	0	ok
+domains/mathematics/1st-grade/comparing-and-measuring-lengths.md	mis	6	0	ok
+domains/mathematics/1st-grade/comparing-and-measuring-lengths.md	old:questions	1	1	fixed	Q3 stem "generally means the object is longer" made the false key arguable; changed to "always".
+domains/mathematics/1st-grade/comparing-numbers-1-to-20.md	how	3	0	ok
+domains/mathematics/1st-grade/comparing-numbers-1-to-20.md	mis	6	0	ok
+domains/mathematics/1st-grade/comparing-two-digit-numbers.md	how	3	0	ok
+domains/mathematics/1st-grade/comparing-two-digit-numbers.md	mis	6	0	ok
+domains/mathematics/1st-grade/comparing-two-digit-numbers.md	old:explainer	1	1	fixed	Said > "points left" and < "points right" toward the bigger number; the point faces the smaller number. Changed to "opens to the left/right".
+domains/mathematics/1st-grade/composing-shapes.md	how	3	0	ok
+domains/mathematics/1st-grade/composing-shapes.md	mis	6	0	ok
+domains/mathematics/1st-grade/composing-shapes.md	old:questions	2	2	fixed	Q3 stem "generally has more sides" made the false key arguable (changed to "always"); Q2 explanation said any rectangle can be split into two squares (only a 2-by-1 rectangle can), removed.
+domains/mathematics/1st-grade/counting-to-100.md	how	3	0	ok
+domains/mathematics/1st-grade/counting-to-100.md	mis	6	0	ok
+domains/mathematics/1st-grade/decomposing-shapes.md	how	3	0	ok
+domains/mathematics/1st-grade/decomposing-shapes.md	mis	6	0	ok
+domains/mathematics/1st-grade/decomposing-shapes.md	old:questions	1	1	fixed	Q3 stem "usually produces the same pieces" garbled; changed to "always".
+domains/mathematics/1st-grade/decomposing-two-digit-numbers.md	mis	6	0	ok
+domains/mathematics/1st-grade/decomposing-two-digit-numbers.md	old:questions	1	1	fixed	Q2 stem "There is mainly one correct way" garbled; changed to "only one".
+domains/mathematics/1st-grade/elapsed-time.md	how	3	1	fixed	Rule "say 'half an hour' when the long hand reaches 6" would also fire at 2:30 and 3:30 and double-count on the 2:00-4:30 example; reworded to whole turns then a last half turn.
+domains/mathematics/1st-grade/elapsed-time.md	mis	6	0	ok
+domains/mathematics/1st-grade/equal-groups-concept-1st.md	how	3	0	ok
+domains/mathematics/1st-grade/equal-groups-concept-1st.md	mis	6	0	ok
+domains/mathematics/1st-grade/equal-groups.md	how	3	0	ok
+domains/mathematics/1st-grade/equal-groups.md	mis	6	1	fixed	Bullet 1 belief "equal if there are the same number of groups" was incoherent; replaced with "equal if they are in the same kind of container".
+domains/mathematics/1st-grade/equal-groups.md	old:questions	1	1	fixed	Q1 stem garbled ("objects in most of the groups"); changed to "all of the groups".
+domains/mathematics/1st-grade/equal-parts-and-whole-shapes.md	how	3	0	ok
+domains/mathematics/1st-grade/equal-parts-and-whole-shapes.md	mis	6	1	fixed	Bullet 2 belief "equal parts must have the same shape" was not answered by its correction (each cut gives same-shape halves); belief reworded to "halves of a rectangle must always be rectangles".
+domains/mathematics/1st-grade/even-and-odd-numbers.md	how	3	0	ok
+domains/mathematics/1st-grade/even-and-odd-numbers.md	mis	6	1	fixed	Bullet 3 ("big numbers are too big to be even") is a strawman; replaced with judging parity by the first digit (30 is odd).
+domains/mathematics/1st-grade/fact-families.md	how	4	1	fixed	"Try 7 + ? = 12 with the same card" but the card holds 3, 4, 7; changed to 3 + ? = 7.
+domains/mathematics/1st-grade/fact-families.md	mis	6	0	ok
+domains/mathematics/1st-grade/fractions-halves-and-fourths-1st.md	how	3	0	ok
+domains/mathematics/1st-grade/fractions-halves-and-fourths-1st.md	mis	6	0	ok
+domains/mathematics/1st-grade/identifying-three-dimensional-shapes.md	how	2	0	ok
+domains/mathematics/1st-grade/identifying-three-dimensional-shapes.md	mis	6	0	ok
+domains/mathematics/1st-grade/identifying-three-dimensional-shapes.md	old:questions	1	1	fixed	Q2 stem garbled ("mostly different kinds of shapes"; explanation quotes "completely different"); changed to "completely".
+domains/mathematics/1st-grade/identifying-two-dimensional-shapes.md	how	3	0	ok
+domains/mathematics/1st-grade/identifying-two-dimensional-shapes.md	mis	6	0	ok
+domains/mathematics/1st-grade/identifying-two-dimensional-shapes.md	old:questions	2	2	fixed	Q3 stem garbled ("looks like a rectangle at first glance is expected to have"); changed to "A rectangle must have four sides of equal length." Q4 answer called naming a tilted rectangle a "parallelogram" a mistake, but every rectangle is a parallelogram; example changed to a tilted square called a "diamond".
+domains/mathematics/1st-grade/intro-to-fractions.md	how	3	0	ok
+domains/mathematics/1st-grade/intro-to-fractions.md	mis	6	0	ok

@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Quentin Skinner argues that understanding historical texts requires recovering their linguistic context—the 'speech acts' and rhetorical conventions available to an author. Rather than asking 'Is this true?' or 'What does it mean today?', contextualist historians ask 'What was the author doing with these words in this situation?' This method prevents both anachronism and the illusion that we can read a text free from historical interpretation.
 
+## How It's Best Learned
+Read chapter 21 of *Leviathan*, where Hobbes defines liberty as the absence of external impediments and mocks the word "Libertas" written on the turrets of Lucca. Ask whom that definition was arguing against and what it let Hobbes deny about free states. Then read Skinner's 1969 essay "Meaning and Understanding in the History of Ideas" and match each of his named errors to a reading of Hobbes it would rule out.
+
+## Common Misconceptions
+- "Context" for Skinner means the author's social and economic background. (The context he stresses is linguistic: the conventions, debates and contested terms a text engaged with.)
+- Recovering intentions means guessing what was in the author's head. (Skinner's intentions are public acts, read from how a text used the conventions of its day, so they can be argued from evidence.)
+- A great thinker's works must add up to one consistent system. (Skinner calls this the "mythology of coherence"; forcing a unified doctrine can hide real shifts and contradictions in a writer's work.)
+
 ## Questions
 
 ```yaml

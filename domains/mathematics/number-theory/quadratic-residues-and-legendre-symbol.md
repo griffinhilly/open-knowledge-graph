@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 An integer a is a quadratic residue modulo prime p if there exists x such that x² ≡ a (mod p). The Legendre symbol (a/p) ∈ {−1, 0, 1} compactly represents this; it satisfies multiplicativity and enables determining solvability of x² ≡ a (mod p).
 
+## How It's Best Learned
+Square every nonzero element mod 11 by hand and circle the results: {1, 3, 4, 5, 9}. Use the table to test multiplicativity, for example the non-residues 2 and 6 multiply to 12 ≡ 1, a residue. Repeat for p = 13, where the residues are {1, 3, 4, 9, 10, 12}. Notice that −1 is a residue mod 13 but not mod 11.
+
+## Common Misconceptions
+- A quadratic residue must be a perfect square integer. (Only its residue class needs a square root. 3 is a residue mod 11 because 5² = 25 ≡ 3.)
+- The Legendre symbol (a/p) is the fraction a divided by p. (It is notation for a value in {−1, 0, 1} that records whether a is a square mod p.)
+- The sum of two quadratic residues is a residue, since products of residues are. (The rule holds for products only. Mod 7, 1 and 2 are residues, but 1 + 2 = 3 is not.)
+
 ## Questions
 
 ```yaml

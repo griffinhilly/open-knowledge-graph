@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 Students compare the lengths of objects using language like 'longer,' 'shorter,' and 'about the same.' They measure using non-standard units and compare results, developing foundational skills in measurement.
 
+## How It's Best Learned
+Have the learner measure the same book twice, first with large paper clips and then with small ones, laying each clip end to end with no gaps or overlaps. They record both numbers and notice that the small clips give the bigger number. Then they measure a second object with the large clips and compare the two objects using numbers alone.
+
+## Common Misconceptions
+- The bigger number always means the longer object. (This is true only when both objects are measured with the same unit. Smaller units give bigger numbers.)
+- Gaps or overlaps between the units do not matter. (Gaps make the count too small, and overlaps make it too big. The units must touch end to end.)
+- You do not have to line up the starting ends when comparing two objects side by side. (If one object starts farther along, it can look longer than it is. Line up the ends first.)
+
 ## Questions
 
 ```yaml
@@ -56,7 +64,7 @@ Students compare the lengths of objects using language like 'longer,' 'shorter,'
   answer: true
   explanation: "This is exactly the power of measurement. You don't have to bring objects side by side to compare them — measure both with the same unit and compare the numbers. If the book is 8 paper clips long and a box in another room is 5 paper clips long, the book is longer. Measurement transforms comparison into a math problem that works across distance."
 
-- question: "A measurement that gives a bigger number generally means the object is longer."
+- question: "A measurement that gives a bigger number always means the object is longer."
   type: true-false
   answer: false
   explanation: "This is only true when the same unit is used for both measurements. If you measure a pencil with tiny cubes (30 cubes) and a table with a large handspan (2 hands), the pencil's number is bigger — but the table is obviously longer. A bigger number just means you used more units, which could simply mean you used a smaller unit, not that the object is longer."

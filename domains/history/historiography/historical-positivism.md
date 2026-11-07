@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Historical positivism emerged in the 19th century from the assumption that history could be studied with the same objective methods as natural science. Practitioners believed that careful empirical investigation of primary sources would yield objective historical facts and causal laws, free from interpretation. This aspiration, while productive methodologically, was criticized for underestimating the role of narrative, interpretation, and historians' own positioning.
 
+## How It's Best Learned
+Take one primary document and write a short "just the facts" report of what it says. Then list every decision you made: why this document, which lines you quoted, what context you added, and what you left out. Sort the list into checkable method steps and interpretive choices. The two columns match the split between positivist method, which survives, and positivist epistemology, which does not.
+
+## Common Misconceptions
+- Rejecting positivism means rejecting source criticism and archives. (Critics rejected the claim that method yields perspective-free facts, while the methods themselves remain standard practice.)
+- Positivists were naive people who thought facts were easy to find. (They built demanding techniques of authentication and archival work, and the critique targets their view of what those techniques could deliver.)
+- Positivism and Rankean source criticism are the same thing. (They overlap in their stress on evidence, but positivists in Comte's line sought general laws, while Ranke focused on particular events and states.)
+- If no history is fully objective, all histories are equally good. (Accounts can still be ranked by how well they use and answer to the evidence.)
+
 ## Questions
 
 ```yaml

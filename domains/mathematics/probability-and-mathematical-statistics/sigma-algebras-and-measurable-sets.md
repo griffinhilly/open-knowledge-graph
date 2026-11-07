@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 A sigma-algebra on a set Ω is a collection of subsets closed under complementation and countable unions, providing the mathematical structure needed to define probability measures rigorously. It determines which subsets can be assigned probabilities in a probability space. Sigma-algebras replace naive intuitions about 'all' subsets with a carefully chosen closure structure.
 
+## How It's Best Learned
+Generate σ-algebras by hand on Ω = {1, 2, 3, 4}. Starting from {1}, closure gives {∅, {1}, {2, 3, 4}, Ω}. Starting from {1} and {2}, the atoms are {1}, {2}, {3, 4}, and the σ-algebra is all 2³ = 8 unions of atoms. Read each one as the information an observer has. Then see why countable unions matter: the finite and cofinite subsets of ℕ form an algebra, but not a σ-algebra.
+
+## Common Misconceptions
+- A collection closed under complements and finite unions is a σ-algebra. (The finite and cofinite subsets of ℕ pass both tests, but the countable union {2} ∪ {4} ∪ {6} ∪ ... of the even numbers is neither finite nor cofinite.)
+- The union of two σ-algebras is a σ-algebra. (On {1, 2, 3}, combining {∅, {1}, {2, 3}, Ω} with {∅, {2}, {1, 3}, Ω} leaves out {1, 2}. Intersections of σ-algebras are σ-algebras.)
+- Because of the Vitali set, no probability measure can be defined on every subset of ℝ. (A measure concentrated on countably many points, such as a point mass, works on the power set. The obstruction is for translation-invariant length on [0,1].)
+
 ## Questions
 
 ```yaml
