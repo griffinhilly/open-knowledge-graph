@@ -1,0 +1,24 @@
+REMOVE	van-t-hoff-equation	arrhenius-equation-temperature-dependence	-	medium	Arrhenius needs activation energy and rate laws, not equilibrium thermodynamics; only an analogy links them.
+REMOVE	rock-cycle	mechanical-weathering	-	medium	Weathering is a component process of the rock cycle; dominant direction is weathering -> rock cycle.
+REMOVE	rock-cycle	renewable-vs-nonrenewable-resources	-	medium	The concrete resource distinction needs only formation timescales, not the rock cycle as a system.
+REMOVE	phase-diagrams	igneous-rocks	-	medium	Stat-mech phase boundaries are distant; the binary-mixture phase-diagram edge already covers melt crystallization.
+JUDGE	mixing-ratio-saturation-mixing-ratio	water-vapor-saturation-mixing-ratio	soft	medium	Near-duplicate topics on the same concept staged three levels apart; a human should merge or restage.
+SOFTEN	consumer-duality-and-expenditure-function	hicksian-demand	soft	medium	expenditure-function-microeconomics is already the hard prereq; full duality theory only helps.
+SOFTEN	consumption-determinants-and-function	aggregate-demand	soft	medium	AD draws on consumption as a component but can be learned without the full consumption-function topic.
+SOFTEN	agricultural-revolution-neolithic	ancient-civilization-characteristics	soft	medium	Agricultural surplus helps explain civilization features but the features can be learned without the Neolithic topic.
+REMOVE	linguistic-analysis-historical	historical-rhetoric-analysis	-	medium	Rhetoric analysis is the narrower, more basic method; linguistic analysis subsumes rhetorical conventions, so direction is reversed.
+REMOVE	implicature-and-logical-form	dramatic-subtext	-	medium	B already has conversational-implicature (formal-systems), which supplies the needed idea; the formal-semantics topic adds nothing.
+REMOVE	presupposition-and-semantic-content	subtext-and-unspoken-meaning	-	medium	Expert formal semantics is not needed for dramatic subtext; conversational-implicature already covers unspoken meaning.
+REMOVE	implicature-and-logical-form	subtext-and-unspoken-meaning	-	medium	Redundant with B's existing conversational-implicature prereq at the right stage.
+REMOVE	implicature-and-logical-form	dialogue-subtext-meaning	-	medium	Wrong level; if a pragmatics link is wanted, conversational-implicature (formal-systems) is the right source.
+REMOVE	literary-time-temporality-cultural	historical-fiction-authenticity-tension	-	medium	Cross-cultural temporality theory is not drawn on by the authenticity-versus-invention tension.
+REMOVE	presupposition-and-semantic-content	interpretation-ambiguity-and-validity	-	medium	Interpretive validity in literary analysis does not draw on formal presupposition theory.
+REMOVE	implicature-and-logical-form	irony-analysis-types	-	medium	Irony as implicature is a real link, but at conversational-implicature's level, not the formal logical-form topic.
+REMOVE	metrical-phonology-stress	iambic-pentameter	-	medium	Expert generative metrics is not needed; B already has metrical-systems-stress for the linguistic side.
+REMOVE	stress-assignment-rules	meter-and-rhythm-in-poetry	-	medium	Redundant with B's metrical-systems-stress and suprasegmental-phonology; formal stress models are not drawn on.
+REMOVE	metrical-phonology-stress	meter-and-rhythm-in-poetry	-	medium	Redundant with metrical-systems-stress; poetic meter does not need expert metrical phonology.
+REMOVE	stress-assignment-rules	scansion	-	medium	Scansion needs heard stress, already covered by metrical-systems-stress and suprasegmental-phonology.
+REMOVE	faraday-law-advanced	electromagnetic-induction-applications	-	medium	B already has faradays-law as a hard prereq; the electrodynamics-course version is redundant.
+SOFTEN	faraday-law-of-induction	motional-electromotive-force	soft	medium	B's Core Idea derives BLv from the Lorentz force (already hard); Faraday's law is a helpful alternate view.
+SOFTEN	pauli-exclusion-antisymmetry	electron-configuration-aufbau-principle	soft	medium	Aufbau needs only the two-per-orbital rule; consider adding pauli-exclusion-principle as the hard prereq instead.
+REMOVE	boundary-value-problem-types	standing-waves	-	medium	Standing waves need fixed-end conditions, not a formal Dirichlet/Neumann classification from electrodynamics.

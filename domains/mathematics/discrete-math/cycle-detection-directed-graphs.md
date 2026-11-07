@@ -6,8 +6,6 @@ course: discrete-math
 prerequisites:
 - id: directed-graphs-and-digraphs
   type: hard
-- id: topological-sorting
-  type: soft
 - id: depth-first-search-graphs
   type: hard
 builds-toward:

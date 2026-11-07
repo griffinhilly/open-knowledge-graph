@@ -4,8 +4,6 @@ title: Oceanography Fundamentals
 domain: earth-and-space-sciences
 course: oceanography
 prerequisites:
-- id: ocean-circulation-and-climate
-  type: soft
 - id: rivers-lakes-and-oceans
   type: soft
 builds-toward:

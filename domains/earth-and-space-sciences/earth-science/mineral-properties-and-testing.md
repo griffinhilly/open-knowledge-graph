@@ -6,8 +6,6 @@ course: earth-science
 prerequisites:
 - id: types-of-rocks
   type: hard
-- id: rock-identification-skills
-  type: soft
 builds-toward:
 - minerals-and-crystal-structure
 - rock-forming-minerals

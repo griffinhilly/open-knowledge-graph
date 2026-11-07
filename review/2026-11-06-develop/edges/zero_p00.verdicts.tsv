@@ -1,0 +1,73 @@
+ADD	what-makes-something-beautiful	aesthetic-experience-and-beauty	soft	medium	The child-level inquiry into what makes things beautiful is the informal ground for the formal theory of beauty.
+ADD	timelines-and-sequencing	art-history-periodization	soft	medium	Periodization assumes comfort with ordering events on a timeline.
+ADD	periodization	art-history-periodization	soft	high	The general historical concept of periodization is the frame art-history periodization specializes.
+ADD	non-western-art-traditions	cultural-exchange-art-trade-routes	soft	medium	Exchange between Chinese, Islamic and European traditions is easier to follow once those traditions are known.
+ADD	silk-road-trade-network	cultural-exchange-art-trade-routes	soft	medium	The Silk Road is the central example of a trade route carrying artistic techniques.
+ADD	renaissance-humanism-and-art	northern-renaissance-flemish-and-german-traditions	soft	high	The Northern Renaissance is defined alongside and against Italian Renaissance ideals.
+ADD	byzantine-and-medieval-art	northern-renaissance-flemish-and-german-traditions	soft	medium	Northern painters grew out of late Gothic and medieval traditions.
+ADD	renaissance-humanism-and-art	patronage-systems-and-artistic-production	soft	medium	Church, noble and merchant patronage is usually taught through Renaissance cases like the Medici; note near-duplicate of art-history-patronage.
+NONE	-	prehistoric-art-origins	-	medium	Earliest human art is a natural chronological entry point for art history.
+ADD	academic-art-tradition	realist-painting-and-modern-social-observation	soft	high	Realism is framed as a challenge to academic idealization and subject hierarchies; note near-duplicate of realism-and-social-observation.
+ADD	neoclassicism-and-romanticism	realist-painting-and-modern-social-observation	soft	medium	Realism reacted against the Neoclassical and Romantic styles that preceded it.
+ADD	generative-art-code	ai-art-machine-creativity	soft	high	AI art extends the algorithmic-authorship questions of generative art; file body is a stub.
+ADD	neural-networks-intro	ai-art-machine-creativity	soft	medium	Knowing what a neural network does grounds discussion of machine creativity.
+ADD	digital-art-foundations	ai-art-machine-creativity	soft	medium	Digital art foundations already introduces algorithmic authorship.
+ADD	conceptual-art-foundations	appropriation-art	soft	high	Appropriation relies on the conceptual-art claim that the idea, not the handmade object, makes the work; file body is a stub.
+ADD	surrealism-and-dada	appropriation-art	soft	medium	Duchamp's readymades in Dada are the origin of appropriation.
+ADD	authenticity-originality-and-artistic-value	appropriation-art	soft	medium	Appropriation art is a direct challenge to originality and authenticity.
+ADD	digital-art-foundations	art-and-technology-convergence	soft	high	Digital art is the main current case of art-technology convergence; file body is a stub.
+ADD	walter-benjamin-mechanical-reproduction	art-and-technology-convergence	soft	medium	Benjamin's reproduction thesis is the classic theory of technology changing art.
+ADD	photography-and-modernism	art-and-technology-convergence	soft	medium	Photography is the historic precedent for a technology reshaping art.
+ADD	supply-and-demand-basics	art-market-economics	soft	medium	Pricing and circulation in the art market draw on basic supply and demand; file body is a stub.
+ADD	art-collecting-museums-institutions	art-market-economics	soft	medium	Collectors and institutions are core actors in art circulation.
+ADD	digital-art-foundations	augmented-reality-art	soft	high	AR art is a digital medium built on digital art foundations; file body is a stub.
+ADD	interactive-art-installations	augmented-reality-art	soft	medium	AR art is typically interactive and responsive to the viewer.
+ADD	recombinant-dna-technology	bioart-living-systems	soft	medium	Much bioart (e.g., transgenic works) uses genetic engineering techniques; file body is a stub.
+ADD	genetic-engineering-ethics	bioart-living-systems	soft	medium	Bioart is largely about the ethics of manipulating life.
+ADD	conceptual-art-foundations	bioart-living-systems	soft	medium	Bioart relies on the conceptual turn that lets any material or process be art.
+ADD	surrealism-and-dada	conceptual-art-foundations	soft	high	Conceptual art's idea-over-object stance descends from Duchamp and Dada.
+ADD	modern-art-movements	conceptual-art-foundations	soft	medium	Conceptual art is understood as a reaction to modernist object-making.
+ADD	art-collecting-museums-institutions	curatorial-practice	soft	high	Curating sits inside the history of museums and institutional display; file body is a stub.
+ADD	installation-art	curatorial-practice	soft	medium	Contemporary exhibition design often deals with installation and spatial works.
+ADD	identity-politics-art	disability-art-crip-aesthetics	soft	medium	Disability art is one strand of identity-based contemporary practice; file body is a stub.
+ADD	disability-epistemology-crip	disability-art-crip-aesthetics	soft	high	Crip theory is the theoretical ground of crip aesthetics.
+ADD	gender-and-artistic-representation	feminist-art-contemporary	soft	high	Feminist art history and gender representation frame contemporary feminist practice; file body is a stub.
+ADD	feminist-aesthetics-and-the-female-gaze	feminist-art-contemporary	soft	medium	Gaze theory is a central lens for feminist art.
+ADD	women-artists-in-art-history	feminist-art-contemporary	soft	medium	Recovery of women artists is the historical backdrop of feminist art.
+ADD	digital-art-foundations	generative-art-code	soft	high	Digital art foundations introduces generative algorithmic art and its authorship questions; file body is a stub.
+ADD	algorithm-design-basics	generative-art-code	soft	medium	Code-based art requires a basic grasp of algorithms.
+ADD	postmodern-art-and-contemporary-plurality	identity-politics-art	soft	medium	Identity politics art emerges from postmodern plurality; file body is a stub.
+ADD	gender-and-artistic-representation	identity-politics-art	soft	medium	Gender representation is a core identity axis in this practice.
+ADD	artistic-transgression-institutional-critique	institutional-critique	soft	high	This topic already lists institutional-critique in builds-toward and covers its theory; file body is a stub.
+ADD	art-collecting-museums-institutions	institutional-critique	soft	high	Institutional critique targets museums and display systems, so knowing them comes first.
+ADD	institutional-theory-of-art	institutional-critique	soft	medium	The institutional theory of art defines the artworld that the practice critiques.
+ADD	installation-art	interactive-art-installations	soft	high	Interactive installations are a subtype of installation art; file body is a stub.
+ADD	digital-art-foundations	interactive-art-installations	soft	medium	Most interactive installations use digital sensing and human-computer interaction.
+ADD	site-specific-art	land-art-environmental	soft	high	Land art is a major form of site-specific practice; file body is a stub.
+ADD	conceptual-art-foundations	land-art-environmental	soft	medium	Land art emerged with 1960s conceptual art and its rejection of the gallery object.
+ADD	environmental-aesthetics	land-art-environmental	soft	medium	Environmental aesthetics theorizes appreciation of nature that land art engages.
+ADD	digital-art-foundations	nft-digital-ownership-art	soft	high	NFTs answer the digital-art problem of ownership without an original; file body is a stub.
+ADD	art-market-economics	nft-digital-ownership-art	soft	medium	NFTs are mainly a market and ownership mechanism.
+ADD	walter-benjamin-aura-authenticity	nft-digital-ownership-art	soft	medium	NFT debates revive questions of aura and authenticity of copies.
+ADD	photography-and-modernism	photography-as-fine-art	soft	high	The modernist debate over photography's status as art is the direct background; file body is a stub.
+ADD	walter-benjamin-mechanical-reproduction	photography-as-fine-art	soft	medium	Benjamin's analysis of reproducible media frames photography's art status.
+ADD	art-and-colonialism	postcolonial-art-contemporary	soft	high	Colonial art history and postcolonial perspectives are the historical base; file body is a stub.
+ADD	postcolonial-aesthetics	postcolonial-art-contemporary	soft	medium	Postcolonial aesthetics supplies the theory used to read this practice.
+ADD	queer-aesthetics-theory	queer-art-activism	soft	high	Queer aesthetics is the theoretical ground of queer art; file body is a stub.
+ADD	identity-politics-art	queer-art-activism	soft	medium	Queer art activism is a strand of identity-based practice.
+ADD	art-political-intervention	queer-art-activism	soft	medium	Activist art draws on the theory of art as political intervention.
+ADD	installation-art	site-specific-art	soft	high	Installation art already introduces site-specificity; file body is a stub.
+ADD	conceptual-art-foundations	site-specific-art	soft	medium	Site-specific art grew from the conceptual rejection of the portable art object.
+ADD	art-political-intervention	socially-engaged-art	soft	medium	Socially engaged art is a form of art as social and political intervention; file body is a stub.
+ADD	performance-art	socially-engaged-art	soft	medium	Socially engaged practice grew from participatory performance.
+ADD	conceptual-art-foundations	socially-engaged-art	soft	medium	It relies on the conceptual turn that makes a social process the artwork.
+ADD	conceptual-art-foundations	sound-art	soft	medium	Sound art depends on the expanded, non-object definition of art; file body is a stub.
+ADD	installation-art	sound-art	soft	medium	Much sound art is presented as spatial installation.
+ADD	sound-waves-intro	sound-art	soft	medium	Basic acoustics helps in understanding how sound artists shape space.
+ADD	site-specific-art	street-art-graffiti-culture	soft	medium	Street art is defined by its relation to public urban sites; file body is a stub.
+ADD	art-political-intervention	street-art-graffiti-culture	soft	medium	Much street art is political intervention in public space.
+ADD	performance-art	video-art-history	soft	medium	Early video art largely recorded and extended performance; file body is a stub.
+ADD	conceptual-art-foundations	video-art-history	soft	medium	Video art grew alongside 1960s conceptual art.
+ADD	digital-art-foundations	virtual-reality-art	soft	high	VR art is a digital medium built on digital art foundations; file body is a stub.
+ADD	installation-art	virtual-reality-art	soft	medium	Immersive VR extends installation art's immersive environment.
+ADD	interactive-art-installations	virtual-reality-art	soft	medium	VR works are interactive and respond to viewer movement.

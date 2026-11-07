@@ -8,8 +8,6 @@ prerequisites:
   type: hard
 - id: deterministic-finite-automata
   type: hard
-- id: two-way-finite-automata
-  type: soft
 builds-toward:
 - kleene-theorem
 - regular-languages-fundamentals

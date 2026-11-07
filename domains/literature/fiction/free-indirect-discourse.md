@@ -10,8 +10,6 @@ prerequisites:
   type: soft
 - id: reported-speech-indirect-quotation
   type: soft
-- id: discourse-representation-theory
-  type: soft
 builds-toward: []
 tags:
 - discourse

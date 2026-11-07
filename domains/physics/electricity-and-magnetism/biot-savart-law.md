@@ -12,8 +12,6 @@ prerequisites:
   type: hard
 - id: line-integrals-vector-fields
   type: soft
-- id: force-on-current-carrying-conductor
-  type: soft
 builds-toward:
 - amperes-law
 - magnetic-flux-and-induction

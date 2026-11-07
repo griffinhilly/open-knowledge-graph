@@ -1,0 +1,64 @@
+REMOVE	stationary-processes	genetic-drift-in-small-populations	-	high	Drift is an absorbing Markov chain taught via sampling intuition; stationary-process theory is not drawn on.
+KEEP	lorentz-force-on-moving-charge	mass-spectrometry-organic	soft	medium	Magnetic-sector deflection uses the Lorentz force; edge is fine, A looks over-staged at expert.
+KEEP	nuclear-magnetic-moments	nmr-spectroscopy-organic	soft	high	NMR rests directly on nuclear spin magnetic moments.
+REMOVE	van-t-hoff-equation	arrhenius-equation-temperature-dependence	-	medium	Arrhenius needs activation energy and rate laws, not equilibrium thermodynamics; only an analogy links them.
+REMOVE	two-way-finite-automata	nfa-to-dfa-conversion	-	high	Subset construction is standard one-way automata; 2DFAs are a later extension that builds on it.
+REMOVE	rock-cycle	mechanical-weathering	-	medium	Weathering is a component process of the rock cycle; dominant direction is weathering -> rock cycle.
+REMOVE	rock-identification-skills	mineral-properties-and-testing	-	high	Rock identification draws on mineral testing, not the reverse.
+REMOVE	rock-cycle	renewable-vs-nonrenewable-resources	-	medium	The concrete resource distinction needs only formation timescales, not the rock cycle as a system.
+KEEP	crustal-heat-flow-and-geotherms	diagenesis-burial-lithification	soft	medium	Diagenesis depends on burial temperature set by the geothermal gradient.
+KEEP	radiometric-dating	fossils-and-paleontology	soft	medium	Absolute ages of fossils come from radiometric dating of bracketing rocks; A likely over-staged.
+REMOVE	phase-diagrams	igneous-rocks	-	medium	Stat-mech phase boundaries are distant; the binary-mixture phase-diagram edge already covers melt crystallization.
+KEEP	phase-diagrams-binary-mixtures	igneous-rocks	soft	medium	Eutectic and solid-solution diagrams help explain igneous crystallization sequences.
+KEEP	phase-diagrams-binary-mixtures	magma-composition-viscosity-rheology	soft	medium	Partial-melting composition is read off binary phase diagrams.
+KEEP	viscosity-gas-liquid-transport	magma-composition-viscosity-rheology	soft	medium	Magma rheology applies the general viscosity concept.
+KEEP	plate-tectonics	tectonic-boundaries	soft	high	Plate boundaries presuppose plates; the inversion is a staging issue (plate-tectonics likely over-staged).
+KEEP	magma-melting-pressure-temperature	thermal-contact-metamorphism	soft	medium	Contact aureoles form around intrusions, so magma generation helps.
+KEEP	viscosity-gas-liquid-transport	atmospheric-boundary-layer-dynamics	soft	medium	Surface friction and eddy viscosity draw on the viscosity concept.
+KEEP	baroclinic-instability	extratropical-cyclone-structure-stages	soft	high	Extratropical cyclogenesis is explained by baroclinic instability.
+KEEP	saturation-and-dew-point	moisture-transport-and-advection	soft	high	Moisture transport draws on saturation and humidity; A looks over-staged at expert.
+KEEP	convective-instability-indices	severe-weather-systems	soft	high	Severe weather forecasting uses instability indices.
+KEEP	convective-organization-and-structure	severe-weather-systems	soft	medium	MCSs and supercells are forms of organized convection.
+KEEP	latent-heating-in-weather-systems	severe-weather-systems	soft	medium	Latent heat release fuels severe convective storms.
+KEEP	lifted-index-stability	severe-weather-systems	soft	medium	Lifted index is a standard severe-weather diagnostic; overlaps with the indices edge.
+KEEP	atmospheric-photochemistry	stratospheric-thermal-structure	soft	high	Stratospheric warming comes from UV absorption in ozone photochemistry (Chapman cycle).
+KEEP	lifted-index-stability	thunderstorms-and-lightning	soft	medium	Thunderstorm likelihood is assessed with stability indices like LI.
+JUDGE	mixing-ratio-saturation-mixing-ratio	water-vapor-saturation-mixing-ratio	soft	medium	Near-duplicate topics on the same concept staged three levels apart; a human should merge or restage.
+REMOVE	ocean-circulation-and-climate	oceanography-fundamentals	-	high	Fundamentals cannot depend on an advanced application of ocean circulation.
+SOFTEN	consumer-duality-and-expenditure-function	hicksian-demand	soft	medium	expenditure-function-microeconomics is already the hard prereq; full duality theory only helps.
+SOFTEN	consumption-determinants-and-function	aggregate-demand	soft	medium	AD draws on consumption as a component but can be learned without the full consumption-function topic.
+KEEP	inflation-expectations-formation	inflation-dynamics-and-persistence	hard	medium	Persistence is driven by how expectations form; A may be over-staged.
+KEEP	potential-output-and-capacity	okuns-law-output-unemployment	hard	high	Okun's law relates the output gap to unemployment, which requires potential output.
+KEEP	intertemporal-choice-savings	asset-valuation-and-returns	soft	medium	Present value draws on intertemporal discounting.
+SOFTEN	agricultural-revolution-neolithic	ancient-civilization-characteristics	soft	medium	Agricultural surplus helps explain civilization features but the features can be learned without the Neolithic topic.
+REMOVE	linguistic-analysis-historical	historical-rhetoric-analysis	-	medium	Rhetoric analysis is the narrower, more basic method; linguistic analysis subsumes rhetorical conventions, so direction is reversed.
+KEEP	stress-assignment-rules	intonational-phonology	soft	medium	Pitch accents anchor to stressed syllables, so stress theory helps.
+KEEP	althusserian-interpellation	gender-performativity-constitution	soft	high	Butler's account explicitly builds on Althusserian interpellation.
+REMOVE	implicature-and-logical-form	dramatic-subtext	-	medium	B already has conversational-implicature (formal-systems), which supplies the needed idea; the formal-semantics topic adds nothing.
+REMOVE	presupposition-and-semantic-content	subtext-and-unspoken-meaning	-	medium	Expert formal semantics is not needed for dramatic subtext; conversational-implicature already covers unspoken meaning.
+REMOVE	implicature-and-logical-form	subtext-and-unspoken-meaning	-	medium	Redundant with B's existing conversational-implicature prereq at the right stage.
+REMOVE	implicature-and-logical-form	characterization-motivation-believability	-	high	Character motivation does not draw on the logical form of implicature.
+REMOVE	implicature-and-logical-form	dialogue-subtext-meaning	-	medium	Wrong level; if a pragmatics link is wanted, conversational-implicature (formal-systems) is the right source.
+REMOVE	discourse-representation-theory	free-indirect-discourse	-	high	DRT is formal anaphora semantics; free indirect discourse is a narrative voice technique that does not use it.
+REMOVE	literary-time-temporality-cultural	historical-fiction-authenticity-tension	-	medium	Cross-cultural temporality theory is not drawn on by the authenticity-versus-invention tension.
+KEEP	literary-value-aesthetics-comparative	genre-fiction-vs-literary	soft	medium	The genre/literary boundary dispute is a dispute about literary value judgment.
+REMOVE	presupposition-and-semantic-content	interpretation-ambiguity-and-validity	-	medium	Interpretive validity in literary analysis does not draw on formal presupposition theory.
+REMOVE	implicature-and-logical-form	irony-analysis-types	-	medium	Irony as implicature is a real link, but at conversational-implicature's level, not the formal logical-form topic.
+KEEP	stress-assignment-rules	accentual-stress-verse	soft	medium	Accentual verse counts stresses and B has no other stress source besides meter-and-rhythm.
+REMOVE	metrical-phonology-stress	iambic-pentameter	-	medium	Expert generative metrics is not needed; B already has metrical-systems-stress for the linguistic side.
+REMOVE	stress-assignment-rules	meter-and-rhythm-in-poetry	-	medium	Redundant with B's metrical-systems-stress and suprasegmental-phonology; formal stress models are not drawn on.
+REMOVE	metrical-phonology-stress	meter-and-rhythm-in-poetry	-	medium	Redundant with metrical-systems-stress; poetic meter does not need expert metrical phonology.
+REMOVE	stress-assignment-rules	scansion	-	medium	Scansion needs heard stress, already covered by metrical-systems-stress and suprasegmental-phonology.
+REMOVE	topological-sorting	cycle-detection-directed-graphs	-	high	Cycle detection rests on DFS and leads toward DAGs, which topo sort requires; edge closes a near-cycle.
+REMOVE	topological-sorting	divide-conquer-recurrence-analysis	-	high	Master-theorem recurrences have nothing to do with topological ordering.
+KEEP	central-limit-theorem-rigorous	maximum-likelihood-estimation-theory	soft	medium	Asymptotic normality of the MLE uses the CLT; soft is right.
+REMOVE	normal-modes-oscillations	phase-and-amplitude-forced-oscillations	-	high	Single-oscillator forced response does not need multi-DOF normal modes.
+REMOVE	normal-modes-oscillations	physical-pendulum-dynamics	-	high	The physical pendulum is a single-DOF system; normal modes build on it, not the reverse.
+REMOVE	force-on-current-carrying-conductor	biot-savart-law	-	high	Biot-Savart computes fields from currents and does not use the force on a conductor.
+REMOVE	faraday-law-advanced	electromagnetic-induction-applications	-	medium	B already has faradays-law as a hard prereq; the electrodynamics-course version is redundant.
+KEEP	mutual-inductance-coupled-coils	electromagnetic-induction-applications	soft	high	Transformers are a core application and run on mutual inductance.
+KEEP	self-inductance-of-circuits	lc-and-rlc-circuits	hard	high	LC/RLC behavior cannot be analyzed without inductance; A looks over-staged at expert.
+SOFTEN	faraday-law-of-induction	motional-electromotive-force	soft	medium	B's Core Idea derives BLv from the Lorentz force (already hard); Faraday's law is a helpful alternate view.
+KEEP	lorentz-force-on-moving-charge	motional-electromotive-force	hard	high	Motional EMF is derived directly from the Lorentz force on carriers; A looks over-staged.
+SOFTEN	pauli-exclusion-antisymmetry	electron-configuration-aufbau-principle	soft	medium	Aufbau needs only the two-per-orbital rule; consider adding pauli-exclusion-principle as the hard prereq instead.
+REMOVE	boundary-value-problem-types	standing-waves	-	medium	Standing waves need fixed-end conditions, not a formal Dirichlet/Neumann classification from electrodynamics.

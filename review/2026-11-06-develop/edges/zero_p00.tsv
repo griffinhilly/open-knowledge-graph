@@ -1,0 +1,94 @@
+aesthetic-experience-and-beauty	Aesthetic Experience and Beauty	arts-and-aesthetics/aesthetic-theory	formal-systems
+art-history-periodization	Periodization and Chronological Frameworks in Art History	arts-and-aesthetics/art-history	abstract-reasoning
+cultural-exchange-art-trade-routes	Cultural Exchange and Artistic Development Through Trade Networks	arts-and-aesthetics/art-history	abstract-reasoning
+northern-renaissance-flemish-and-german-traditions	Northern Renaissance: Flemish and German Traditions	arts-and-aesthetics/art-history	abstract-reasoning
+patronage-systems-and-artistic-production	Patronage Systems and Their Effects on Artistic Creation	arts-and-aesthetics/art-history	abstract-reasoning
+prehistoric-art-origins	Prehistoric Art and Its Origins	arts-and-aesthetics/art-history	abstract-reasoning
+realist-painting-and-modern-social-observation	Realist Painting and Modern Social Observation	arts-and-aesthetics/art-history	abstract-reasoning
+ai-art-machine-creativity	AI Art and Machine Creativity	arts-and-aesthetics/contemporary-art-new-media	expert
+appropriation-art	Appropriation Art	arts-and-aesthetics/contemporary-art-new-media	advanced
+art-and-technology-convergence	Art and Technology Convergence	arts-and-aesthetics/contemporary-art-new-media	expert
+art-market-economics	Art Market Economics and Circulation	arts-and-aesthetics/contemporary-art-new-media	advanced
+augmented-reality-art	Augmented Reality in Art	arts-and-aesthetics/contemporary-art-new-media	expert
+bioart-living-systems	Bioart and Living Systems	arts-and-aesthetics/contemporary-art-new-media	expert
+conceptual-art-foundations	Conceptual Art Foundations	arts-and-aesthetics/contemporary-art-new-media	advanced
+curatorial-practice	Curatorial Practice and Exhibition Design	arts-and-aesthetics/contemporary-art-new-media	expert
+disability-art-crip-aesthetics	Disability Art and Crip Aesthetics	arts-and-aesthetics/contemporary-art-new-media	expert
+feminist-art-contemporary	Feminist Art and Contemporary Practice	arts-and-aesthetics/contemporary-art-new-media	expert
+generative-art-code	Generative Art and Code-Based Practice	arts-and-aesthetics/contemporary-art-new-media	expert
+identity-politics-art	Identity Politics in Contemporary Art	arts-and-aesthetics/contemporary-art-new-media	expert
+institutional-critique	Institutional Critique	arts-and-aesthetics/contemporary-art-new-media	expert
+interactive-art-installations	Interactive Art Installations	arts-and-aesthetics/contemporary-art-new-media	advanced
+land-art-environmental	Land Art and Environmental Art	arts-and-aesthetics/contemporary-art-new-media	advanced
+nft-digital-ownership-art	NFTs and Digital Ownership in Art	arts-and-aesthetics/contemporary-art-new-media	advanced
+photography-as-fine-art	Photography as Fine Art	arts-and-aesthetics/contemporary-art-new-media	advanced
+postcolonial-art-contemporary	Postcolonial Art and Contemporary Practice	arts-and-aesthetics/contemporary-art-new-media	expert
+queer-art-activism	Queer Art and Activism	arts-and-aesthetics/contemporary-art-new-media	expert
+site-specific-art	Site-Specific Art Practice	arts-and-aesthetics/contemporary-art-new-media	advanced
+socially-engaged-art	Socially Engaged Art	arts-and-aesthetics/contemporary-art-new-media	expert
+sound-art	Sound Art	arts-and-aesthetics/contemporary-art-new-media	advanced
+street-art-graffiti-culture	Street Art and Graffiti Culture	arts-and-aesthetics/contemporary-art-new-media	advanced
+video-art-history	Video Art History and Practice	arts-and-aesthetics/contemporary-art-new-media	advanced
+virtual-reality-art	Virtual Reality and Immersive Art	arts-and-aesthetics/contemporary-art-new-media	expert
+design-principles-course-overview	Design Principles Course Overview	arts-and-aesthetics/design-principles	abstract-reasoning
+design-principles-foundations	Foundations of Design Principles	arts-and-aesthetics/design-principles	abstract-reasoning
+design-process-and-iteration	Design Process and Iteration	arts-and-aesthetics/design-principles	abstract-reasoning
+paper-selection-for-drawing	Paper Selection for Drawing	arts-and-aesthetics/drawing-and-painting	concrete-operations
+line-observation-in-nature-and-art	Line: Observation in Nature and Art	arts-and-aesthetics/visual-elements-and-principles	concrete-operations
+visual-fundamentals-elements-and-principles	Visual Fundamentals: Elements and Principles	arts-and-aesthetics/visual-elements-and-principles	concrete-operations
+visual-perception-and-communication	Visual Perception and Communication	arts-and-aesthetics/visual-elements-and-principles	concrete-operations
+observing-and-describing-matter	Observing and Describing Matter	chemistry/properties-of-matter	concrete-operations
+solids-liquids-gases	Solids, Liquids, and Gases	chemistry/properties-of-matter	concrete-operations
+hexadecimal-number-system	Hexadecimal Number System	computer-science/computer-architecture	abstract-reasoning
+bandwidth-latency-throughput	Bandwidth, Latency, and Throughput	computer-science/computer-networking	advanced
+network-topologies	Network Topologies and Architectures	computer-science/computer-networking	advanced
+osi-model-layers	OSI Model and Seven Layers	computer-science/computer-networking	advanced
+database-systems-introduction	Introduction to Database Systems	computer-science/databases	abstract-reasoning
+distributed-systems-introduction	Introduction to Distributed Systems	computer-science/distributed-systems	formal-systems
+operating-systems-introduction	Introduction to Operating Systems	computer-science/operating-systems	abstract-reasoning
+hello-world	Hello World: Your First Program	computer-science/programming-fundamentals	abstract-reasoning
+memory-and-data-storage	Memory, Data Storage, and Variables	computer-science/programming-fundamentals	formal-systems
+formal-languages-and-strings	Formal Languages and Strings	computer-science/theory-of-computation	formal-systems
+celestial-sphere-coordinate-systems	Celestial Sphere and Equatorial Coordinates	earth-and-space-sciences/astronomy	formal-systems
+types-of-rocks	Types of Rocks	earth-and-space-sciences/earth-and-weather	concrete-operations
+gravity-waves-wind-ocean-surface	Gravity Waves and Wind-Driven Ocean Surface Waves	earth-and-space-sciences/oceanography	abstract-reasoning
+ocean-temperature-structure-thermocline	Ocean Temperature Structure and the Thermocline	earth-and-space-sciences/oceanography	abstract-reasoning
+photic-zone-light-ocean-penetration	Photic Zone and Light Penetration in the Ocean	earth-and-space-sciences/oceanography	abstract-reasoning
+tidal-equilibrium-mechanics	Tidal Equilibrium Theory and Tidal Mechanics	earth-and-space-sciences/oceanography	advanced
+budget-constraint-affordability	Budget Constraint and Purchasing Power	economics/microeconomics	formal-systems
+production-function-technology	Production Functions and Technological Relationships	economics/microeconomics	formal-systems
+scarcity-and-opportunity-cost	Scarcity and Opportunity Cost	economics/microeconomics	concrete-operations
+scarcity-choice-production-tradeoff	Scarcity, Choice, and Production Tradeoffs	economics/microeconomics	formal-systems
+utility-consumer-preferences	Utility and Consumer Preferences	economics/microeconomics	formal-systems
+circuit-element-types-and-definitions	Circuit Element Types and Definitions	engineering/circuits-and-electronics	formal-systems
+what-is-engineering	What Is Engineering?	engineering/design-and-build	concrete-operations
+introduction-to-fluid-mechanics	Introduction to Fluid Mechanics	engineering/fluid-mechanics	formal-systems
+kalman-filter-state-estimation	Kalman Filter and State Estimation	engineering/robotics-and-autonomous-systems	expert
+motion-planning-algorithms	Motion Planning Algorithms and Path Finding	engineering/robotics-and-autonomous-systems	advanced
+particle-filter-localization	Particle Filter Localization (Monte Carlo Localization)	engineering/robotics-and-autonomous-systems	advanced
+robot-kinematics-forward-inverse	Forward and Inverse Kinematics	engineering/robotics-and-autonomous-systems	advanced
+orthogonal-signal-decomposition-basis	Orthogonal Signal Decomposition and Basis Functions	engineering/signals-and-systems	abstract-reasoning
+homer-epics-literature-culture	Homer, Epic Poetry, and Greek Cultural Identity	history/ancient-civilizations	formal-systems
+shang-bronze-vessels-ritual-objects	Shang Dynasty Bronze Vessels and Ritual Culture	history/ancient-civilizations	formal-systems
+agricultural-revolution-neolithic	The Neolithic Agricultural Revolution: Origins and Consequences	history/economic-social-history	advanced
+chronometric-dating-methods	Chronometric Dating Methods	history/historical-methods	formal-systems
+historical-cartography-and-map-analysis	Historical Cartography and Map Analysis	history/historical-methods	formal-systems
+medieval-world-definition-periodization	Medieval World: Definition and Periodization	history/medieval-world	abstract-reasoning
+family-history-and-stories	Family History and Stories	history/then-and-now	concrete-operations
+holidays-and-traditions	Holidays and Traditions	history/then-and-now	concrete-operations
+long-ago-vs-today	Long Ago vs Today	history/then-and-now	concrete-operations
+sign-language-linguistics	Sign Language Linguistics	language-and-communication/advanced-linguistics	expert
+nouns-intro	Nouns: People, Places, Things, and Ideas	language-and-communication/grammar-and-syntax	concrete-operations
+verbs-intro	Verbs: Actions and States of Being	language-and-communication/grammar-and-syntax	concrete-operations
+articulatory-phonetics	Articulatory Phonetics	language-and-communication/linguistics	formal-systems
+formal-linguistics-overview	Formal Linguistics: Overview and Goals	language-and-communication/linguistics	formal-systems
+phoneme-inventory-analysis	Phoneme Inventory Analysis	language-and-communication/linguistics	formal-systems
+speech-anxiety-management	Managing Speech Anxiety	language-and-communication/public-speaking	abstract-reasoning
+board-and-concept-books-infants	Board Books and Concept Books for Infants and Toddlers	literature/childrens-and-ya-literature	formal-systems
+children-literature-global-traditions-cultural	Global Traditions and Cultural Variation in Children's Literature	literature/childrens-and-ya-literature	formal-systems
+picture-book-as-complete-art-form	Picture Book as Complete Art Form	literature/childrens-and-ya-literature	formal-systems
+creative-nonfiction-definition	Creative Nonfiction: Definition and Scope	literature/creative-nonfiction	formal-systems
+critical-theory-introduction	Introduction to Critical Theory	literature/critical-theory	formal-systems
+theatrical-conventions	Theatrical Conventions	literature/drama	abstract-reasoning
+fable-moral-instruction	Fable: Moral Instruction Through Animal Characters	literature/mythology-folklore-oral-traditions	abstract-reasoning
+folklore-definition-traditions	Folklore: Definition and Traditional Knowledge	literature/mythology-folklore-oral-traditions	abstract-reasoning

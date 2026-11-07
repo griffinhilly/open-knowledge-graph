@@ -14,13 +14,11 @@ prerequisites:
   type: soft
 - id: probability-rules-for-events
   type: soft
-- id: stationary-processes
-  type: soft
 - id: mutation-as-evolutionary-force
   type: soft
 builds-toward:
-  - population-genetic-structure-metapopulations
-  - conservation-genetics-effective-size
+- population-genetic-structure-metapopulations
+- conservation-genetics-effective-size
 tags:
 - genetic-drift
 - random-sampling

@@ -8,8 +8,6 @@ prerequisites:
   type: soft
 - id: dijkstra-algorithm
   type: soft
-- id: topological-sorting
-  type: soft
 tags:
 - recurrence-relations
 - algorithms

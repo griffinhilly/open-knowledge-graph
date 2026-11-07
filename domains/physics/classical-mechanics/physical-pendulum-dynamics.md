@@ -10,8 +10,6 @@ prerequisites:
   type: hard
 - id: torque
   type: hard
-- id: normal-modes-oscillations
-  type: soft
 - id: phase-and-amplitude-forced-oscillations
   type: soft
 builds-toward:
