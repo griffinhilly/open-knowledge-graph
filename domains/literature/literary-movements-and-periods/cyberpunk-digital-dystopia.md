@@ -24,6 +24,14 @@ status: draft
 ## Core Idea
 Cyberpunk imagined futures dominated by artificial intelligence, corporate power, and digital networks, combining science-fictional speculation with postmodern formal innovation and noir aesthetics. The movement explored human identity and agency in increasingly technological environments.
 
+## How It's Best Learned
+Read the first chapter of William Gibson's Neuromancer beside the opening of a Raymond Chandler novel such as The Big Sleep. Mark what they share: a worn-down protagonist, a corrupt city, hard-edged similes. Then list what Gibson adds, such as corporations, artificial intelligence, and cyberspace. His first sentence, comparing the sky to a television tuned to a dead channel, shows noir style rebuilt from technology.
+
+## Common Misconceptions
+- Cyberpunk is mainly about cool gadgets and hackers. (Its technology serves a critique of corporate power and a question about identity and agency when networks control information.)
+- Cyberpunk is against technology itself. (The genre treats technology as neither good nor evil. The danger lies in its control by corporations that put profit above human welfare.)
+- Cyberpunk heroes are rebels who overthrow the system. (Protagonists are usually compromised figures who find ways to act and resist inside overwhelming power structures.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +67,7 @@ Cyberpunk imagined futures dominated by artificial intelligence, corporate power
 
 - type: short-answer
   question: "Explain how cyberpunk's noir aesthetic shaped its approach to corporate and technological power differently from optimistic science fiction."
+  answer: "Optimistic science fiction often treats technology as a tool of progress and discovery. Cyberpunk's noir lens brings cynicism about corporate motives and a focus on survival, so technology appears as an instrument of control held by people indifferent to human welfare."
   explanation: "Optimistic science fiction often depicts technology as liberating or neutral, with the story focusing on discovery and progress. Cyberpunk applies noir sensibility to technology: cynicism about corporate motives, assumption that power corrupts, emphasis on danger and survival rather than progress. The noir detective—a figure struggling to maintain integrity in a corrupt system—becomes a model for cyberpunk protagonists navigating corporate-dominated worlds. This noir lens transforms technology from neutral tool into instrument of oppression and control. The combination proves powerful: technology is not evil in itself, but when wielded by corporations pursuing profit above human welfare, it becomes a mechanism of domination. Cyberpunk explored not 'what if we had this technology?' but 'what if this technology is controlled by people who don't care about us?'"
 ```
 

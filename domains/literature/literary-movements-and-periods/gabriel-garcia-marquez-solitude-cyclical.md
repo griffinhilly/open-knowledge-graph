@@ -23,6 +23,14 @@ status: draft
 ## Core Idea
 Gabriel García Márquez's One Hundred Years of Solitude exemplified Magical Realism—integrating magical elements into realistic narrative frames—as a vehicle for representing Latin American experience and the cyclical patterns of history. García Márquez combined fabulistic storytelling with social critique, asserting the validity of non-Western narrative traditions and influencing global literary practice.
 
+## How It's Best Learned
+Draw the Buendía family tree as you read, since names like José Arcadio and Aureliano repeat across generations, and mark where traits and fates recur. Reread the opening sentence, which leaps from a firing squad to a childhood memory of ice, to see how the novel folds time. Then compare how calmly the narrator reports a rain of yellow flowers and the banana company massacre.
+
+## Common Misconceptions
+- Magical realism is fantasy set in Latin America. (Fantasy usually builds a separate invented world. Magical realism places impossible events inside a recognizable social and historical world and reports them matter-of-factly.)
+- Because the novel contains magic, it is not about real history. (The banana company massacre, which the town later denies ever happened, draws on real violence against striking workers in Colombia.)
+- García Márquez invented magical realism. (The term existed before him, and earlier Latin American writers such as Alejo Carpentier worked in related modes. García Márquez became its best-known example.)
+
 ## Questions
 
 ```yaml
@@ -58,6 +66,7 @@ Gabriel García Márquez's One Hundred Years of Solitude exemplified Magical Rea
 
 - type: short-answer
   question: "Explain how Magical Realism's treatment of cyclical history serves both formal and thematic purposes in One Hundred Years of Solitude."
+  answer: "Formally, the Buendías repeat names, traits, and fates across generations, so the structure keeps circling back. Thematically, that repetition expresses a view of Latin American history as recurring cycles of violence, exploitation, and solitude instead of linear progress."
   explanation: "One Hundred Years of Solitude follows the Buendía family through multiple generations, with characters repeating names and patterns. This cyclical structure is not just formal device but embodies the novel's vision of history: Latin American history, like the novel's narrative, repeats itself—patterns of colonialism, solitude, violence return across generations. The magical elements reinforce this: if magical events occur matter-of-factly alongside realistic ones, time itself feels cyclical rather than linear. A magical character might live for centuries; generations might seem like moments. This treatment of time and repetition captures how Latin American history, colonized and exploited repeatedly, might experience cycles rather than progress. Magical Realism's form thus enacts the novel's vision: the combination of magical and realistic elements within a cyclical structure captures dimensions of experience that straightforward realism cannot."
 ```
 

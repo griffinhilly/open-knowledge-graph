@@ -26,6 +26,14 @@ status: draft
 ## Core Idea
 Enlightenment writers used satire as a philosophical tool to critique social hypocrisy, superstition, and inherited authority through irony, exaggeration, and comic narrative. Satire became the dominant literary mode for advancing reasoned critique of existing institutions, creating forms like the mock-heroic poem and the satirical tale.
 
+## How It's Best Learned
+Read Canto 3 of Pope's The Rape of the Lock, where the lock is cut. List each epic convention you find, such as a battle, supernatural helpers, or a solemn catalog, and pair it with the trivial matter it describes. Notice lines that yoke the grand and the petty, like the queen who takes "counsel" and "tea." Then try the technique yourself on a small modern annoyance.
+
+## Common Misconceptions
+- Mock-heroic poems make fun of epic poetry. (The main target is the trivial subject. The epic style is the yardstick that makes it look small, and Pope himself translated Homer.)
+- Satire is mockery for the sake of a laugh. (Enlightenment satire uses laughter to expose contradictions in institutions and beliefs, leading readers to reasoned conclusions.)
+- "A Modest Proposal" shows Swift's contempt for the Irish poor. (Its targets are the people and policies that let the poor starve. The monstrous proposal mirrors their inhumanity.)
+
 ## Questions
 
 ```yaml
@@ -61,6 +69,7 @@ Enlightenment writers used satire as a philosophical tool to critique social hyp
 
 - type: short-answer
   question: "Explain how Enlightenment satirists used exaggeration and irony as tools to advance philosophical critique of authority and superstition."
+  answer: "Exaggeration pushes a belief or policy to its logical extreme until its absurdity is plain, and irony opens a gap between what is said and what is meant. Readers must notice the contradiction themselves, so they reach the critique through their own reasoning."
   explanation: "Exaggeration works by pushing something to its logical extreme until its absurdity becomes obvious. If governments claim absolute authority but also claim to serve the people, a satirist might exaggerate this contradiction until readers see it cannot be sustained. Irony works by saying the opposite of what is meant or describing something in terms that reveal hidden truths. A satirist might describe superstitious beliefs using the language of science, revealing the contradiction. Both techniques rely on reader intelligence: the writer trusts readers to recognize the gap between surface meaning and true meaning. This makes satire philosophically powerful—readers don't receive conclusions but arrive at them through recognizing contradictions and absurdities. The comedy makes this intellectual work enjoyable rather than tedious. Enlightenment writers discovered that you could critique authority more powerfully through exaggerated comedy than through direct argument."
 ```
 

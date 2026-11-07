@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Franz Kafka's sparse, precise narratives depicted protagonists caught in nightmarish bureaucratic systems or bizarre transformations, exploring alienation and powerlessness before incomprehensible authority. His fiction employed realist narrative surfaces combined with surreal premises, creating matter-of-fact horror. Kafka's work anticipated Absurdism while becoming emblematic of twentieth-century anxiety about mechanized society.
 
+## How It's Best Learned
+Read the first pages of The Metamorphosis and list what Gregor worries about after he wakes: missing his train, his job, his boss. Note that the story never explains how the transformation happened. Then read the parable "Before the Law" and try to state its meaning in one sentence. Each answer tends to raise a new question, which is the experience Kafka builds.
+
+## Common Misconceptions
+- Kafka's stories are coded allegories with one correct meaning. (His parables resist single readings. "Before the Law" supports many interpretations, and that uncertainty is part of its effect.)
+- Gregor turns into a cockroach. (Kafka's German names only a monstrous vermin, and he asked his publisher not to show the creature on the cover.)
+- Kafka's fiction is pure gloom without humor. (His work is often darkly comic, with absurd officials, pointless procedures, and deadpan understatement.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Franz Kafka's sparse, precise narratives depicted protagonists caught in nightma
 
 - type: short-answer
   question: "Explain how Kafka's combination of surreal content and realistic narrative technique creates unique psychological effect."
+  answer: "Kafka narrates impossible events, like Gregor's transformation, in calm and precise prose, so readers cannot dismiss them as dream or exaggeration. The matter-of-fact tone treats the nightmare as ordinary, which suggests that the world may be incomprehensible and that we may be powerless within it."
   explanation: "If Kafka narrated his surreal scenarios in expressionistic or fantastical style—distorted language, fragmented form—readers would understand them as dream or distortion. The realistic, precise narration makes the surreal seem terrifyingly real. When Kafka calmly describes a man transformed into an insect or trapped in an inexplicable bureaucratic process using precise, clear prose, readers cannot dismiss it as exaggeration or distortion. The calm tone says: this is simply what happens, the way things are. This collision of surreal content and matter-of-fact presentation creates a unique horror: the recognition that the world might actually be fundamentally incomprehensible and that we might be powerless within systems we don't understand. The style makes the surreal seem disturbingly possible."
 ```
 

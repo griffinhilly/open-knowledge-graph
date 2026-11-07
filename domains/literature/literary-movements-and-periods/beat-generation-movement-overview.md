@@ -24,6 +24,14 @@ status: draft
 ## Core Idea
 The Beat Generation (1950s-early 1960s) rejected conformism and literary establishment conventions in favor of spontaneity and spiritual exploration. Beat writers pioneered new narrative forms emphasizing speech-like rhythms and autobiographical immediacy. The movement challenged both literary propriety and cultural conservatism, appealing to youth hungry for alternatives to postwar conformity.
 
+## How It's Best Learned
+Read a page of polished 1950s magazine fiction beside a page of Kerouac's On the Road. Read both aloud and note sentence length, punctuation, and how close the narrator stands to events. Then listen to a recording of a Beat poet reading, since much of this work was written for the voice. Keep a short list of what each writer in the group does differently.
+
+## Common Misconceptions
+- The Beats were a unified school with a single shared style. (They were a circle of writers with distinct voices, such as Kerouac's spontaneous prose, Ginsberg's long associative lines, and Corso's verbal exuberance.)
+- Beat writers rejected every earlier literary tradition. (They rejected the polished conventions of their own establishment but drew on earlier models. Ginsberg's long lines owe a clear debt to Walt Whitman.)
+- Speech-like rhythm means the Beats transcribed ordinary talk as it happened. (Speech-like rhythm is a crafted effect. The writers shaped prose and verse so it would sound immediate.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +67,7 @@ The Beat Generation (1950s-early 1960s) rejected conformism and literary establi
 
 - type: short-answer
   question: "Explain why the combination of narrative innovation AND countercultural rebellion was essential to Beat literature's impact."
+  answer: "Beat writers saw form and social critique as connected. Speech-like rhythms and autobiographical immediacy rejected establishment polish, so the writing itself modeled the alternative to conformity that its content described."
   explanation: "Beat writers understood that artistic form and social critique were connected. To truly challenge conformist ideology, they needed new forms that rejected the polished restraint of establishment literature. Using speech-like rhythms and autobiographical immediacy wasn't just stylistic choice—it was ideological: it said that authentic human experience mattered more than formal perfection. This unity of form and content gave the movement power. Readers encountered not just a critique of conformity but a living example of alternative possibility in the very texture of Beat writing itself."
 ```
 

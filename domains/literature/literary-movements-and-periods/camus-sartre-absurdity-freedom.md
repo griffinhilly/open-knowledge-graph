@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Albert Camus and Jean-Paul Sartre diverged on responding to existential absurdity—the confrontation between human desire for meaning and the universe's indifference. Camus emphasized acceptance and resistance; Sartre emphasized radical freedom and commitment. Through novels and plays, both explored how individuals construct meaning and identity, how authenticity is achieved, and what responsibility follows from freedom.
 
+## How It's Best Learned
+Read the last pages of Camus's The Myth of Sisyphus beside Sartre's lecture Existentialism Is a Humanism. Build a two-column chart: what each thinker sees as the human situation, what a good response looks like, and what evasion looks like. Then test the chart on a novel. Ask how each would judge Meursault at the end of Camus's The Stranger.
+
+## Common Misconceptions
+- Camus and Sartre belonged to one school and agreed on most things. (Camus rejected the existentialist label, and the two publicly quarreled after Camus published The Rebel.)
+- The absurd means life is worthless and despair is the honest response. (Camus argued against despair and suicide. His image of a happy Sisyphus models lucid revolt against the absurd.)
+- Sartre's radical freedom means a person can do anything without consequence. (For Sartre, freedom brings radical responsibility. We always choose within a situation, and we answer for those choices.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Albert Camus and Jean-Paul Sartre diverged on responding to existential absurdit
 
 - type: short-answer
   question: "Explain how the concept of 'authenticity' relates differently to freedom in Camus versus Sartre."
+  answer: "Both treat authenticity as facing existential reality instead of fleeing into comforting illusions. Camus places it in lucidly accepting the absurd while keeping personal integrity; Sartre places it in owning one's radical freedom through committed, responsible action."
   explanation: "For both thinkers, authenticity means accepting existential reality rather than living in bad faith. But they locate it differently: Camus finds authenticity in accepting absurdity and maintaining personal integrity despite meaninglessness—a kind of heroic defiance. Sartre finds authenticity in recognizing one's radical freedom and taking responsibility for the meanings one creates through committed action. Camus says: 'Accept the absurd, resist through living well.' Sartre says: 'Use your freedom responsibly; your choices create both your identity and your responsibilities.' The difference matters: Camus emphasizes acceptance and individual integrity; Sartre emphasizes action and social commitment."
 ```
 

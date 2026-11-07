@@ -21,6 +21,14 @@ status: draft
 ## Core Idea
 Gothic literature used medieval settings, supernatural phenomena, and psychological terror to explore forbidden desires and social transgression. Works like Frankenstein combined Romantic subjectivity with sensationalism, featuring protagonists who transgress boundaries and haunted settings that externalize internal chaos. Gothic questioned Enlightenment optimism while establishing conventions of psychological horror.
 
+## How It's Best Learned
+Read the opening chapters of Walpole's The Castle of Otranto, then a chapter of Frankenstein. In each, list the Gothic conventions you find, such as an ancient building, a buried secret, a threatened heroine, or a transgressing seeker. Say what inner state each setting mirrors. Then read a few pages of Austen's Northanger Abbey to watch the same conventions turned into comedy.
+
+## Common Misconceptions
+- Frankenstein is the name of the monster. (Victor Frankenstein is the scientist. The creature he makes is never given a name.)
+- Gothic novels present the supernatural as real. (Some do, but Ann Radcliffe's novels typically explain their apparent ghosts as natural events by the end.)
+- Gothic fiction offers only cheap thrills. (Its settings and terrors externalize guilt, desire, and transgression, and it questions Enlightenment faith in reason.)
+
 ## Questions
 
 ```yaml
@@ -56,6 +64,7 @@ Gothic literature used medieval settings, supernatural phenomena, and psychologi
 
 - type: short-answer
   question: "Explain how Gothic literature's combination of Romantic subjectivity and sensationalism created a distinctive approach to exploring forbidden desires."
+  answer: "Romantic subjectivity gave Gothic writers an interest in intense inner emotion, which Gothic pushed toward desires society forbade. Sensational horror and atmosphere made those hidden states visible, as when Frankenstein's creature embodies Victor's transgressive ambition."
   explanation: "Romanticism valued individual subjectivity, intense emotion, and authentic self-expression. Gothic took this further by exploring desires and emotions society forbade—forbidden sexuality, destructive ambition, violent impulses. The sensationalism (Gothic spectacle, terror, dramatic events) makes these internal states visceral and visible. When Victor Frankenstein pursues his ambition to create life, the narrative dramatizes the transgressive desire underlying his actions. The monster becomes external manifestation of his forbidden creativity. The sensational horror—the creature's violence, the Gothic atmosphere—externalizes what would otherwise remain hidden. This combination allowed Gothic writers to explore psychological states that respectable literature avoided while maintaining emotional authenticity."
 ```
 

@@ -24,6 +24,14 @@ status: draft
 ## Core Idea
 Existentialist literature explored philosophical implications of human freedom, the absence of essential nature or predetermined meaning, and the absurdity of existence in a purposeless universe. Writers used narrative and dramatic forms to enact philosophical arguments, depicting characters confronting meaninglessness and choosing to create value through action. Existentialist literature asserted literature's capacity to grapple with fundamental questions.
 
+## How It's Best Learned
+Begin with Sartre's paper-knife example: a craftsman plans a tool's purpose before making it, so its essence comes first. Contrast that with a person, who exists before any purpose is set. Then read Sartre's portrait of the café waiter who plays his role too perfectly, a classic case of bad faith. Finally, find a character in a story you know who says "I had no choice" and test the claim.
+
+## Common Misconceptions
+- "Existence precedes essence" means people have no traits or limits. (It means no fixed purpose defines a person in advance. People still have bodies, histories, and situations to choose within.)
+- Bad faith means lying to other people. (Bad faith is self-deception. It means denying one's own freedom, for example by acting as if one were nothing but a social role.)
+- Existentialism is a single unified doctrine. (Thinkers grouped under the label disagreed sharply. Kierkegaard wrote as a Christian, while Sartre was an atheist.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +67,7 @@ Existentialist literature explored philosophical implications of human freedom, 
 
 - type: short-answer
   question: "Explain why existentialist writers believed that dramatic narrative was an appropriate vehicle for exploring philosophical freedom and authenticity."
+  answer: "Freedom and authenticity are lived through choices, not only argued about. Narrative and drama put characters in situations that demand action, so readers feel the weight of choosing and watch authenticity or bad faith play out."
   explanation: "Philosophy often works through abstract argument, but freedom and authenticity are not abstract—they are lived, experienced, chosen. Narrative can depict these lived experiences. When a character must make a choice in a dramatic situation, readers experience the weight and consequence of freedom. When a character confronts meaninglessness and chooses to create value anyway, readers understand existential authenticity not intellectually but experientially. Drama is particularly powerful because it forces characters into immediate situations requiring action—you cannot resolve a conflict philosophically; someone must do something. This makes narrative and drama ideal for existentialist concerns: they enact freedom and choice in real time rather than discussing them theoretically."
 ```
 

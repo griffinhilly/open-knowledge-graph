@@ -26,6 +26,14 @@ status: draft
 ## Core Idea
 The eighteenth century saw the consolidation of the novel as the dominant literary form, featuring realistic representation of bourgeois life, psychologically complex characters, and a narrative voice that mediated between action and reader interpretation. The novel's rise was enabled by increased literacy, print technology, and a commercial publishing market.
 
+## How It's Best Learned
+Compare two ways of telling a story. Read the first chapter of Fielding's Tom Jones, where the narrator presents the book as a bill of fare, then a letter from Richardson's Pamela, where no narrator stands between reader and heroine. Note who tells you what to think in each. Then ask how booksellers and circulating libraries shaped who could read these books.
+
+## Common Misconceptions
+- The narrator of a novel is the author speaking directly. (The narrator is a constructed voice. Even Fielding's chatty, opinionated narrator is a persona built for effect.)
+- Bourgeois realism means novels avoided adventure or improbable events. (Robinson Crusoe is a shipwreck adventure, yet it is told with realistic detail about tools, food, and record keeping.)
+- Novels spread mainly because they were better written than other forms. (Rising literacy, cheaper print, and commercial publishing created the reading public that novels served.)
+
 ## Questions
 
 ```yaml
@@ -61,6 +69,7 @@ The eighteenth century saw the consolidation of the novel as the dominant litera
 
 - type: short-answer
   question: "Explain how the novel's capacity for psychological complexity and its realistic representation of bourgeois life worked together to create the form's appeal and dominance."
+  answer: "Psychological complexity let novels show inner lives, and bourgeois realism placed those inner lives in ordinary merchants, gentry, and servants. Together they told middle-class readers that their own experiences deserved serious literary attention, which built a large and loyal readership."
   explanation: "Psychological complexity meant novels could represent inner lives—thoughts, feelings, moral development, self-deception. Bourgeois realism meant these inner lives belonged to ordinary merchants, gentry, and servants. Together, this combination was irresistible to middle-class readers: novels showed that their own lives and inner experiences were worthy of serious literary attention. When a novel represented a merchant's daughter's psychological development or a clerk's moral struggles, it validated middle-class consciousness as a subject worthy of literature. The narrative voice further mediated this by offering sympathy and judgment, guiding readers to understand characters' inner lives as meaningful. This created powerful identification: readers saw their own concerns, dilemmas, and inner worlds reflected and validated. The novel's dominance came from this perfect alignment between form (psychological realism), content (bourgeois life), and audience (middle-class readers seeking self-recognition)."
 ```
 

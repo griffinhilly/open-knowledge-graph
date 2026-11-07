@@ -24,6 +24,14 @@ status: draft
 ## Core Idea
 Enlightenment literature (17th-18th centuries) deployed reason and empirical observation, often satirically, to critique irrationality, superstition, and social abuse. Writers used narrative forms to argue for human rights, religious tolerance, and reform. The period saw the novel emerge as the dominant form addressing middle-class readers, establishing literature as a vehicle for philosophical argument and social change.
 
+## How It's Best Learned
+Read Swift's "A Modest Proposal" and the chapters of Voltaire's Candide set during the Lisbon earthquake. For each, state in one plain sentence the argument the satire makes. Then list the techniques that carry it, such as a deadpan speaker, wild exaggeration, or a naive traveler. Seeing the argument and the method side by side shows how story does the work of reason.
+
+## Common Misconceptions
+- Enlightenment writers rejected emotion and imagination. (They used comedy, sympathy, and narrative pleasure to carry their arguments. Reason was the standard of judgment, and story was often the vehicle.)
+- Enlightenment reason meant rejecting religion altogether. (Many writers attacked superstition, dogma, and intolerance rather than belief itself. Voltaire, for example, was a deist.)
+- The speaker of a satire states the author's own views. (The speaker of "A Modest Proposal" calmly recommends eating children. Swift expects readers to recoil from him.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +67,7 @@ Enlightenment literature (17th-18th centuries) deployed reason and empirical obs
 
 - type: short-answer
   question: "Explain how Enlightenment satire combined reason with narrative entertainment to advance philosophical arguments."
+  answer: "Satire exaggerated absurdities and used irony to expose contradictions in institutions such as the church and the state. Readers laughed and followed the story, then reached the critical conclusion themselves, which made the argument more persuasive than a lecture."
   explanation: "Satire allowed Enlightenment writers to critique serious problems—religious intolerance, governmental corruption, social inequality—while remaining entertaining. By exaggerating absurdity or using irony to expose logical contradictions, satirical narratives made readers laugh while recognizing serious truths. The entertainment value made the critique more palatable and widely available: you could read a comic tale and encounter devastating arguments for religious tolerance or human rights. Reason was embedded in the narrative structure itself—the satire's logical exposure of contradiction—rather than stated didactically. This made philosophical arguments more persuasive because readers arrived at conclusions through following the narrative rather than being lectured. Literature proved that philosophical argument and narrative pleasure were not opposed but could reinforce each other."
 ```
 

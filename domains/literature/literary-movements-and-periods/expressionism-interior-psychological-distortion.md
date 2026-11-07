@@ -25,6 +25,14 @@ status: draft
 ## Core Idea
 Expressionism distorted realistic representation to capture intense subjective emotional states, treating external form as secondary to inner feeling and anguish. The movement used fragmented syntax, neologisms, and grotesque imagery to render psychological extremity.
 
+## How It's Best Learned
+Start with images: Munch's The Scream and stills from the film The Cabinet of Dr. Caligari, with its tilted, painted sets. Say what each distortion reveals about a mind. Then read a short German Expressionist poem in translation, such as one by Georg Trakl, and mark where syntax breaks or images turn grotesque. Last, rewrite a plain sentence about a frightening moment in Expressionist style.
+
+## Common Misconceptions
+- Expressionism belongs mainly to painting. (It was also a major movement in literature and drama, especially in Germany, with its own poets and playwrights.)
+- Expressionist writers explain their characters' feelings in detail. (They tend to project feeling outward instead, so the setting, objects, and language themselves become twisted.)
+- Expressionism and Impressionism are the same thing. (Impressionism records fleeting perceptions of the outer world, such as changing light. Expressionism distorts the world to show inner feeling.)
+
 ## Questions
 
 ```yaml
@@ -60,6 +68,7 @@ Expressionism distorted realistic representation to capture intense subjective e
 
 - type: short-answer
   question: "Explain how Expressionist distortion of realistic representation served psychological purposes rather than simply creating chaos."
+  answer: "Expressionist distortion follows the logic of intense emotion, in which language fails and perception warps. Fragmented syntax, invented words, and grotesque images make readers experience psychological extremity directly, so the form enacts distress instead of describing it from outside."
   explanation: "Distortion is not random in Expressionist work—it follows the logic of emotional intensity. Realistic representation creates distance; it presents a coherent world the reader observes from outside. But intense emotion is not coherent or distant. When you are in extremity, language fails, perception distorts, familiar things become grotesque. Expressionist writers used distortion to create this experience of extremity in readers. By fragmenting syntax, inventing words, distorting imagery, they made readers experience psychological intensity directly rather than observing it from distance. The form doesn't just describe emotional distress; it enacts it. This was philosophically important: it challenged the assumption that literature should maintain realistic representation. Expressionism proved that distortion could be emotionally and psychologically truthful—perhaps more truthful to intense experience than realistic accuracy could be."
 ```
 

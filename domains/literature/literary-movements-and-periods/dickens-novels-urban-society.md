@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Charles Dickens' novels created panoramic portraits of Victorian society across classes, using vivid characterization and intricate plots to evoke social indignation and emotional identification. His technical innovation—coordinating multiple plot threads, balancing comedy and pathos, using descriptive language to establish atmosphere—became a model for the modern novel. Dickens demonstrated how literature could simultaneously entertain and instruct.
 
+## How It's Best Learned
+Read the fog-filled opening of Bleak House and follow how the fog links the Court of Chancery to people of very different classes. Keep a character web as you read, adding each hidden connection when the plot reveals it. Reading one serial installment at a time also helps. It shows how cliffhangers and recurring comic figures kept the first readers coming back.
+
+## Common Misconceptions
+- Dickens's novels were first published as complete books. (Most first appeared in serial installments. That format shaped their cliffhangers, large casts, and pacing.)
+- Dickens wrote only about the poor. (His novels range across classes, from paupers and clerks to lawyers and aristocrats, and the plots expose links between them.)
+- The comedy in Dickens weakens his social criticism. (He balances comedy with pathos, and the humor often sharpens the reader's sense of absurd or cruel institutions.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Charles Dickens' novels created panoramic portraits of Victorian society across 
 
 - type: short-answer
   question: "Explain how Dickens' use of vivid characterization served both emotional and social purposes simultaneously."
+  answer: "Dickens made readers love vivid, memorable characters and invest in their fates. That emotional bond became a social argument, because caring about a suffering character meant caring about the conditions that caused the suffering."
   explanation: "Dickens created memorable, often eccentric characters—not simply types representing social positions but fully realized individuals. Readers loved these characters, wanted to follow their stories, felt invested in their fates. This emotional investment made readers care about the social conditions that affected these characters. A vivid portrait of a suffering child is not just emotionally moving; it is a social argument: this person matters, and systems that allow such suffering are wrong. By making readers emotionally identify with characters from different classes and circumstances, Dickens made social inequality visceral and undeniable. You cannot read about a character's suffering without caring about the social structures that produced it. This integration of character psychology with social critique became central to the novel's power."
 ```
 

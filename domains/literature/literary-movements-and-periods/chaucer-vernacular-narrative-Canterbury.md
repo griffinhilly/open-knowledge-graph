@@ -27,6 +27,14 @@ status: draft
 ## Core Idea
 Chaucer elevated English from a provincial tongue to a literary language capable of psychological depth, comedy, and philosophical sophistication. His Canterbury Tales combined frame narrative, diverse poetic forms, and realistic characterization to establish English as viable for serious literary expression.
 
+## How It's Best Learned
+Read the opening sentence of the General Prologue aloud in Middle English with a pronunciation guide. Mark which words come from French or Latin and which are native English. Then compare three forms Chaucer used: the rhyming couplets of the Miller's Tale, the rhyme royal stanzas of the Prioress's Tale, and the prose of the Parson's Tale. Ask what each form lets English do.
+
+## Common Misconceptions
+- Chaucer wrote modern English with old-fashioned spelling. (He wrote Middle English, whose grammar, vocabulary, and pronunciation differ from ours. In his verse, many final -e endings were sounded.)
+- Writing in English meant Chaucer turned away from continental literature. (He drew heavily on French and Italian sources. Troilus and Criseyde, for example, adapts Boccaccio's Il Filostrato.)
+- After Chaucer, English quickly displaced French and Latin as the language of serious writing. (The shift took centuries. Chaucer showed what English could do and opened the way for later writers.)
+
 ## Questions
 
 ```yaml
@@ -62,6 +70,7 @@ Chaucer elevated English from a provincial tongue to a literary language capable
 
 - type: short-answer
   question: "Explain how the combination of realistic characterization and diverse poetic forms elevated English's literary status."
+  answer: "Realistic characterization showed that English could render individual voices and psychological nuance. Using many forms, from rhyming couplets to rhyme royal and prose, showed its flexibility, answering the assumption that only French and Latin suited serious literature."
   explanation: "Chaucer demonstrated two things simultaneously: first, that English could render psychological nuance and realistic human complexity through careful characterization; second, that English was flexible enough to accommodate different poetic modes and styles. By showing the language could handle philosophical sophistication, comedy, realism, and formal innovation all within one work, Chaucer proved English was not a primitive provincial tongue but a fully capable literary medium. This was crucial because it challenged the assumption that only French and Latin could achieve literary seriousness. His work opened the possibility for an English literary tradition."
 ```
 

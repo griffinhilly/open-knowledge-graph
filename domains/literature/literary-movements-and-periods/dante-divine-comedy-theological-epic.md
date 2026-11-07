@@ -28,6 +28,14 @@ status: draft
 ## Core Idea
 Dante's Divine Comedy synthesized classical epic form with medieval Christian theology, creating a vast narrative journey through Hell, Purgatory, and Paradise. The poem established Italian vernacular as capable of high literary expression and created an innovative terza rima form that unified theological philosophy with personal narrative.
 
+## How It's Best Learned
+Copy out the first few tercets of Inferno in Italian and label the rhymes to watch the ABA BCB chain form. Then compare a translation that keeps terza rima with one that drops it, and note what the forward pull gains or loses. Finally, read Aeneas's descent in Book 6 of the Aeneid to see which epic conventions Dante inherited and reshaped.
+
+## Common Misconceptions
+- Terza rima means each three-line stanza rhymes within itself. (The middle line of each tercet supplies the outer rhymes of the next one. That link chains the tercets together.)
+- As a Christian poem, the Comedy rejects pagan classical culture. (Dante's guide is Virgil, a pagan Roman poet, and the poem borrows its voyage, guide, and encounters from classical epic.)
+- Dante invented the journey to the underworld. (Descents to the underworld already appear in classical epic, as in Book 6 of the Aeneid. Dante adapted the convention to Christian theology.)
+
 ## Questions
 
 ```yaml
@@ -63,6 +71,7 @@ Dante's Divine Comedy synthesized classical epic form with medieval Christian th
 
 - type: short-answer
   question: "Explain how the Divine Comedy's formal choices (structure, language, rhyme form) function together to create theological meaning."
+  answer: "The three-part structure embodies the soul's progress, terza rima's interlocking rhymes pull the reader forward like that progress, and its tercets echo the three realms. Writing in Italian opened the theology to ordinary readers, so the poem's form enacts its message of spiritual transformation."
   explanation: "Every level of form supports the theological content. The three-part structure (Hell-Purgatory-Paradise) embodies the Christian understanding of the soul's journey and transformation. Terza rima's interlocking rhyme scheme creates continuous forward momentum, suggesting the soul's progress through the three realms—you cannot stop at the end of one tercet; the rhyme pulls you forward to the next. The three-line units of terza rima echo the tripartite structure. Writing in Italian rather than Latin makes this profound theology accessible to ordinary readers, suggesting that salvation is not an elite privilege but a universal possibility. Classical epic conventions (the journey, the guide, encounters with figures from history and mythology) provide a familiar structure through which to explore unfamiliar theological territory. Form and content are inseparable: the way the poem is made embodies what the poem says about spiritual transformation."
 ```
 

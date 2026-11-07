@@ -27,6 +27,14 @@ status: draft
 ## Core Idea
 Cervantes' Don Quixote established the modern novel's defining characteristic: the exploration of subjective consciousness and the gap between reality and idealization. Through a protagonist deluded by chivalric fiction, Cervantes created metafictional structures and realistic psychological portraiture that transformed prose fiction from entertainment to philosophical investigation.
 
+## How It's Best Learned
+Read the windmill episode and keep two columns: what Don Quixote sees and what Sancho sees. Note how Quixote explains away the evidence when Sancho turns out to be right. Then read a chapter from Part II in which other characters have read Part I and stage tricks for the knight. Comparing the two parts shows the novel turning its own fiction into a subject.
+
+## Common Misconceptions
+- Don Quixote is a simple comic satire of a foolish old man. (The book is funny, but Cervantes gives Quixote coherent reasoning from false premises. That makes him a serious study of how a mind interprets the world.)
+- Metafiction is a modern or postmodern invention. (Don Quixote is already a novel about novels. In Part II, characters have read Part I and treat Quixote as a famous figure from a book.)
+- Sancho Panza is a plain realist who simply sees things as they are. (Sancho grounds the story in ordinary reality, yet he comes to share some of Quixote's hopes, such as the promise that he will govern an island.)
+
 ## Questions
 
 ```yaml
@@ -62,6 +70,7 @@ Cervantes' Don Quixote established the modern novel's defining characteristic: t
 
 - type: short-answer
   question: "Explain how Don Quixote's delusional nature allows Cervantes to explore both literary and philosophical questions simultaneously."
+  answer: "Quixote's mind has been shaped by chivalric romances, so his misreadings of the world, like seeing windmills as giants, satirize the power of fiction. The same delusions raise philosophical questions about how imagination shapes perception and how we tell reality from interpretation."
   explanation: "By creating a protagonist whose mind has been shaped and distorted by reading chivalric fiction, Cervantes creates a double investigation. Literally, he explores the dangers of believing fantasy: Don Quixote mistakes windmills for giants because his imagination is captive to fictional narratives. But more deeply, this allows philosophical exploration of how consciousness works, how imagination shapes perception, and the gap between how we interpret reality and how reality actually is. The metafictional element (a novel about a character shaped by novels) becomes a way to investigate fundamental questions about mind and reality. This was revolutionary: it proved that prose fiction could be both entertainment and serious philosophical exploration simultaneously."
 ```
 

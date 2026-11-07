@@ -21,6 +21,14 @@ status: draft
 ## Core Idea
 Gustave Flaubert's Madame Bovary defined literary realism through obsessive formal precision and authorial absence, creating narrative surfaces allowing readers to infer meaning from Emma's Romantic fantasies versus provincial reality. Flaubert's innovation—free indirect discourse representing character consciousness while maintaining narrative distance—became foundational to modern prose. His notion that the author should be invisible became a guiding principle for subsequent novelists.
 
+## How It's Best Learned
+Read the agricultural fair scene, where Rodolphe's seduction lines alternate with an official's speech and the prize announcements. Mark whose words are whose, and note that the narrator never comments. Ask how the juxtaposition judges both men. Then take a passage of Emma's daydreams and underline the phrases that sound like her romance novels rather than the narrator.
+
+## Common Misconceptions
+- Authorial absence means the novel takes no stance. (Flaubert shapes judgment through arrangement, juxtaposition, and word choice. The meaning is implied instead of stated.)
+- Every sentence in free indirect discourse gives the narrator's own view. (The technique carries a character's thoughts and idiom inside the narrator's voice, so a phrase may be Emma's opinion.)
+- Emma is a foolish woman whom the novel simply mocks. (The novel shows her self-deception, but it also renders her longing and suffering as real.)
+
 ## Questions
 
 ```yaml
@@ -56,6 +64,7 @@ Gustave Flaubert's Madame Bovary defined literary realism through obsessive form
 
 - type: short-answer
   question: "Explain how Madame Bovary's depiction of the gap between Emma's Romantic fantasies and provincial reality depends on Flaubert's formal technique of authorial absence."
+  answer: "Flaubert presents Emma's perceptions and desires without narrator commentary, so readers infer for themselves that fantasies drawn from romantic novels cannot survive provincial reality. Because readers reach that judgment themselves, it carries more force, and they also see her suffering as real."
   explanation: "If Flaubert had the narrator explicitly judge Emma's romantic fantasies as foolish or provincial life as dull, readers would simply accept the author's opinion. Instead, Flaubert presents the narrative surfaces—Emma's perceptions, desires, and confrontations with reality—without authorial commentary. Readers gradually infer the tragic truth: Emma's fantasies, born from reading romantic literature, cannot survive encounter with provincial reality. Her suffering is real, but she created much of it through self-deception. The authorial absence makes this judgment more powerful because readers arrive at it themselves rather than accepting someone else's. The technical precision serves this effect: Flaubert's careful representation of Emma's consciousness shows both her authentic emotions and her self-deceptions. Formal precision creates the conditions for readers to see the gap between fantasy and reality without authorial explanation."
 ```
 

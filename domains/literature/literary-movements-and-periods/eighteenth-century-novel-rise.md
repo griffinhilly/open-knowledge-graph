@@ -21,6 +21,14 @@ status: draft
 ## Core Idea
 The 18th century saw the novel emerge as the dominant literary form, replacing verse and drama in reader attention. Early novels pioneered first-person narrative, domestic realism, and the representation of moral consciousness in prose. The form allowed exploration of individual psychology and social mobility, making it ideal for Enlightenment humanism and middle-class readers' self-recognition.
 
+## How It's Best Learned
+Read a few letters from Richardson's Pamela, then the opening pages of Defoe's Robinson Crusoe. For each, note how the form (letters, or a remembered first-person account) opens the character's mind, and list the ordinary details of money, clothing, and work. Then read a few pages of Shamela, a parody usually attributed to Henry Fielding, to see how contemporaries mocked the new form.
+
+## Common Misconceptions
+- The novel appeared from nowhere in the 18th century. (Prose fiction such as romances and Don Quixote came earlier. The 18th century gave the form new prestige and a focus on realism and private life.)
+- Early English novels were all told in the first person. (Defoe and Richardson used memoir and letters, but Fielding's Tom Jones uses a talkative third-person narrator.)
+- Novels were respected as serious literature from the start. (Many critics saw novels as frivolous or morally risky. Early novelists often presented their books as true histories or moral lessons to defend them.)
+
 ## Questions
 
 ```yaml
@@ -56,6 +64,7 @@ The 18th century saw the novel emerge as the dominant literary form, replacing v
 
 - type: short-answer
   question: "Explain why the novel form's capacity for domestic realism and psychological depth made it particularly appealing to 18th-century middle-class readers."
+  answer: "Novels focused on private life, inner thoughts, and the moral growth of ordinary people, so middle-class readers saw their own concerns treated as worthy of serious literature. Earlier forms had centered on kings, warriors, and lofty ideals."
   explanation: "Middle-class readers saw themselves in novels—not as heroes of epic quests but as individuals navigating moral choices, developing emotionally, seeking improvement. The novel's focus on private life, internal consciousness, and the psychological development of ordinary protagonists made these readers' own experiences worthy of literary attention. When a novel represented a merchant's daughter's moral education, or a servant's inner thoughts, or an ordinary person's social ascent, it said: your life matters, your consciousness is worth exploring, your concerns are legitimate subjects for serious literature. This was revolutionary. Previous forms had valorized kings, warriors, and abstract ideals. The novel said that individual psychological development and domestic morality were equally worthy. This alignment between novel form and reader experience—where readers could see their own lives and concerns reflected—helps explain the form's rapid rise to dominance."
 ```
 

@@ -24,6 +24,14 @@ status: draft
 ## Core Idea
 The Black Arts Movement created explicitly political African-American literature allied with Black Power activism, rejecting integration and demanding that Black art serve Black community liberation. The movement asserted Black aesthetic autonomy and created forms rooted in African-American vernacular and cultural traditions.
 
+## How It's Best Learned
+Read a sonnet by Countee Cullen beside a poem by Amiri Baraka or Sonia Sanchez. For each, ask who the poem addresses and what sounds it borrows: the English sonnet, street speech, or jazz. Then listen to a recorded reading of a Black Arts poem. Many of these poems were built for live performance, and their rhythm and call-and-response come through most clearly when heard.
+
+## Common Misconceptions
+- Openly political art has to give up artistic craft. (The movement treated political purpose as part of the art itself and built new forms from jazz, blues, vernacular speech, and call-and-response.)
+- Writing in vernacular speech shows a lack of education or skill. (Black Arts writers chose vernacular and musical traditions deliberately, as rich aesthetic resources worth serious development.)
+- The Black Arts Movement was the Harlem Renaissance repeated. (Some Harlem Renaissance writers, such as Langston Hughes, also drew on blues and jazz. The Black Arts Movement differed in rejecting integration as a goal and allying art directly with Black Power activism.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +67,7 @@ The Black Arts Movement created explicitly political African-American literature
 
 - type: short-answer
   question: "Explain why the Black Arts Movement's integration of political commitment and aesthetic tradition was significant for African-American literature."
+  answer: "Earlier African-American writers often faced pressure to prove mastery of white forms or to appeal to white audiences. By joining political purpose to Black cultural traditions, the movement freed writers from white standards and treated vernacular, music, and community concerns as valid artistic resources."
   explanation: "Previous African-American writers often faced pressure to prove their mastery of white literary forms or to appeal to white audiences. The Black Arts Movement rejected this logic entirely. By asserting that Black art must serve Black liberation AND must draw on Black cultural traditions, the movement freed Black writers from the need to justify themselves to white standards. This created space for authentic artistic expression rooted in the writer's actual community and concerns. The movement proved that political commitment and artistic excellence were not opposites—in fact, for Black writers, authentic art required both serving liberation and claiming African-American traditions as valid artistic resources."
 ```
 

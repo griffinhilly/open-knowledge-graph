@@ -24,6 +24,14 @@ status: draft
 ## Core Idea
 Aestheticism rejected moralistic and utilitarian approaches to art, asserting that beauty and aesthetic experience were valuable in themselves, independent of moral or social purpose. This movement elevated artificial, refined, and exquisite form as the primary value of literature.
 
+## How It's Best Learned
+Read a short Victorian moral tale beside the preface to Wilde's The Picture of Dorian Gray. For each, write one sentence on what the text asks of its reader. Then take a single sentence of Aestheticist prose and describe only its sound, imagery, and rhythm. This shows what judging a work by form alone feels like in practice.
+
+## Common Misconceptions
+- Aestheticist writing is all surface and has nothing to say. (The movement denied that art needs a moral lesson to justify itself. Its works still explore sensation, mood, and perception in depth.)
+- "Art for art's sake" means the Aestheticists thought morality did not matter in life. (The claim was about how to judge art. A work's value, they argued, does not depend on its moral message or social use.)
+- Aestheticism celebrated natural, unadorned beauty. (The movement prized refined, cultivated, and artificial form over natural or utilitarian simplicity.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +67,7 @@ Aestheticism rejected moralistic and utilitarian approaches to art, asserting th
 
 - type: short-answer
   question: "Explain why the Aesthetic principle of 'art for art's sake' was considered a radical break from Victorian literary values."
+  answer: "Victorian culture expected literature to teach morals or support social reform. Aestheticism claimed art needed no justification beyond its own beauty and form, rejecting the idea that art must serve society or improve readers."
   explanation: "The Victorian era emphasized literature's role in moral instruction and social reform. Aestheticism radically inverted this by claiming art needed no justification beyond its own beauty and form. This freed writers from the burden of moral messaging and allowed them to explore style, sensation, and aesthetic experience as ends in themselves. This was revolutionary because it challenged the assumption that art must serve society or improve readers."
 ```
 

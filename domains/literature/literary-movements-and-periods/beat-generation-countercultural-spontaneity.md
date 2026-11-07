@@ -27,6 +27,14 @@ status: draft
 ## Core Idea
 Beat writers valorized spontaneity, spiritual exploration, and rejection of conformist bourgeois values, using long lines, enumeration, and autobiographical confession as formal expressions of countercultural consciousness. The movement established poetry and prose as vehicles for personal liberation and spiritual seeking.
 
+## How It's Best Learned
+Read the first section of Ginsberg's "Howl" aloud, taking each long line in a single breath. Then read a tightly rhymed, restrained mid-century lyric. Mark where the long line, the repeated "who," and the piled-up catalog of images carry the energy in "Howl." Then look for the same habits in a page of Kerouac's prose.
+
+## Common Misconceptions
+- Beat spontaneity means the writing was careless and unrevised. (Spontaneity was a value the writers cultivated as a style. The feeling of immediacy is an effect, and major Beat works went through revision.)
+- The Beat movement was mainly a lifestyle, with little literary substance. (Their long lines, enumeration, and confession were deliberate formal choices that expressed their values.)
+- Beat writing only attacked mainstream culture and offered nothing in its place. (The Beats proposed positive alternatives: spontaneity, spiritual exploration, and personal liberation.)
+
 ## Questions
 
 ```yaml
@@ -62,6 +70,7 @@ Beat writers valorized spontaneity, spiritual exploration, and rejection of conf
 
 - type: short-answer
   question: "Explain how Beat writers' rejection of 'conformist values' expressed itself through their choice of literary form and subject matter."
+  answer: "Beat writers rejected both conformist subjects, such as suburban materialism, and the restrained forms of the literary establishment. They wrote raw confession and spiritual seeking in long lines, catalogs, and speech-like rhythms, so the form itself enacted their rebellion."
   explanation: "Beat writers rejected both the conformist content (suburban materialism, corporate work, sexual repression) and the refined, restrained literary forms of the establishment. They championed raw confession, spiritual seeking, and personal rebellion as subjects, and expressed these through expansive forms—long lines, catalogs, stream-of-consciousness—that mimicked immediate speech rather than polished writing. This meant form and content aligned: the spontaneous, autobiographical, spiritual concerns required new forms to express authentically."
 ```
 

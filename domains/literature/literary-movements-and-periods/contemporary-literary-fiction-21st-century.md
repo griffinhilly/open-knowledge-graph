@@ -24,6 +24,14 @@ status: draft
 ## Core Idea
 Contemporary literary fiction (21st century) is characterized by multiplicity rather than a single movement: global voices challenging Western canonicity, formal experimentation ranging from maximalism to minimalism, and engagement with digital forms. Writers navigate inherited techniques while developing new modes responsive to globalization and technological change. Contemporary literature asserts the enduring significance of form while acknowledging that no single perspective captures contemporary experience.
 
+## How It's Best Learned
+Build a small shelf of three recent novels that differ on purpose: one from outside Europe and North America, one dense and maximalist, one spare. Read each opening chapter and note its language, setting, form, and the traditions it draws on. Jennifer Egan's A Visit from the Goon Squad, with a chapter told as slides, gives a ready example of digital form in print.
+
+## Common Misconceptions
+- Without a single style, contemporary fiction has nothing in common. (Writers share a historical moment and recurring concerns, such as globalization, digital life, and environmental crisis.)
+- Writers from outside the West are a niche category beside the real canon. (Contemporary literature includes major voices from Africa, Asia, Latin America, and elsewhere. Their presence challenges the idea that Western canonicity defines literary quality.)
+- Experimental contemporary fiction has left realism behind. (Realism remains one of many available modes. Some writers return to it while others pursue maximalism, minimalism, or digital forms.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +67,7 @@ Contemporary literary fiction (21st century) is characterized by multiplicity ra
 
 - type: short-answer
   question: "Explain why 'multiplicity' better describes contemporary literature than terms like 'movement' or 'period style'."
+  answer: "'Movement' and 'period style' imply a shared aesthetic program that major writers follow. Contemporary writers pursue many forms, languages, and traditions at once, and what unites them is a shared historical moment, which 'multiplicity' captures."
   explanation: "Terms like 'movement' or 'period style' imply consensus—a dominant aesthetic shared by major writers. Contemporary literature resists this: there is no single contemporary style, no shared formal program. Instead, writers around the world pursue different experiments and express different perspectives. This isn't fragmentation or failure; it's a recognition that global experience is itself multiple and that authentic contemporary literature must reflect that multiplicity. Writers use formal experimentation ranging from maximalist excess to minimalist reduction; they draw on traditions from around the world; they write in different languages. Contemporary literature is unified not by a shared aesthetic but by a shared historical moment and often by the question: how does literature remain significant and necessary in a complex, globalized, digital world?"
 ```
 

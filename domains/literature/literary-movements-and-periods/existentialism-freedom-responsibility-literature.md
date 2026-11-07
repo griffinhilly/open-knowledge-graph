@@ -27,6 +27,14 @@ status: draft
 ## Core Idea
 Existentialist literature dramatized human freedom, responsibility, and the fundamental absurdity of existence, rejecting determinism and ultimate meaning. Writers like Sartre and Camus used narrative to explore how individuals create meaning through choices in an indifferent universe.
 
+## How It's Best Learned
+Start with the dilemma from Sartre's lecture Existentialism Is a Humanism: a young man must choose between caring for his mother and joining the Free French. Try to settle it with a rule, such as duty, religion, or feeling, and see why each rule fails to decide. Then read Sartre's play No Exit and track how each character dodges responsibility for the life they chose.
+
+## Common Misconceptions
+- Existentialism is a philosophy of despair. (Existentialist writers usually show characters creating value in spite of meaninglessness. The act of choosing becomes the source of meaning.)
+- Radical freedom means having unlimited options. (We always choose within a concrete situation. What we cannot escape, in Sartre's phrase, is being "condemned to be free.")
+- Existentialist fiction is philosophy lectures dressed up as stories. (The ideas work through characters' choices and situations, so readers experience freedom and responsibility instead of being told about them.)
+
 ## Questions
 
 ```yaml
@@ -62,6 +70,7 @@ Existentialist literature dramatized human freedom, responsibility, and the fund
 
 - type: short-answer
   question: "Explain how existentialist rejection of determinism creates both freedom and responsibility in their literature."
+  answer: "If circumstances determined us, we could blame them for our choices. Rejecting determinism removes that excuse, so characters are free but fully responsible, and the literature shows them choosing without guidance and living with the results."
   explanation: "If humans were determined by circumstances, we could blame external forces for our choices. Existentialism rejects this escape: humans are fundamentally free, which means we cannot blame circumstances for who we are or what we do. This freedom is simultaneously exhilarating and terrifying. It's exhilarating because it means humans are not trapped by fate or nature. It's terrifying because it means full responsibility: we create ourselves through our choices. Existentialist literature dramatizes this combination: characters face situations where they must choose without ultimate guidance, knowing they are responsible for their choices and their meaning. This creates the emotional intensity of existentialist narrative—characters cannot escape through claiming they had no choice or that circumstances determined them. They must choose and live with the consequences."
 ```
 

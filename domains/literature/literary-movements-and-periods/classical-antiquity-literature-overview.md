@@ -25,6 +25,14 @@ status: draft
 ## Core Idea
 Classical antiquity (8th century BCE to 5th century CE) produced the foundational literary works and forms that shaped Western literature for millennia. Greek drama, epic poetry, and rhetoric established conventions of formal beauty, psychological insight, and moral complexity that became models for all subsequent periods. Roman literature adapted and expanded these Greek traditions while developing new forms like satire and philosophical dialogue.
 
+## How It's Best Learned
+Draw a timeline from Homer to late antiquity and place one short reading on it for each genre. Good anchors are a book of the Iliad, a Greek tragedy such as Sophocles' Oedipus the King, a famous speech, and a book of Virgil's Aeneid. For each, note what it inherits and what it changes. Then follow one form, such as epic, into a later period.
+
+## Common Misconceptions
+- Greek and Roman literature form one uniform tradition. (Roman writers adapted Greek models in Latin for Roman purposes. Virgil's Aeneid reshapes Homeric epic to tell a story of Rome's origins.)
+- Roman literature was a copy of Greek literature. (Romans adapted and expanded Greek forms and developed satire as a distinctively Roman genre.)
+- Ancient epics and plays were written mainly for private, silent reading. (Homeric epic grew out of oral performance, and Athenian tragedy was staged before large audiences at civic festivals.)
+
 ## Questions
 
 ```yaml
@@ -60,6 +68,7 @@ Classical antiquity (8th century BCE to 5th century CE) produced the foundationa
 
 - type: short-answer
   question: "Explain why classical antiquity's development of multiple genres (drama, epic, rhetoric) rather than a single literary form was important to Western literature's development."
+  answer: "Distinct genres gave later writers a toolkit: epic for heroic narrative, drama for character and conflict, rhetoric for persuasion. Because each form had its own conventions, later periods could adopt, combine, or challenge them, which kept the tradition alive."
   explanation: "By establishing diverse genres, each with distinct conventions and purposes, classical antiquity created a toolkit that subsequent writers could adapt to their own times. Epic poetry offered models for heroic narrative; drama provided templates for character development and dialogue; rhetoric gave writers principles for persuasion and emotional effect. Having multiple genres meant later writers didn't need to invent everything from scratch—they could work within known forms while adapting them to new contexts. This flexibility made classical conventions durable: they could be followed, challenged, combined, and reimagined across vastly different historical periods. A 17th-century playwright could draw on Greek dramatic structure; an 18th-century satirist could use Horatian rhetorical principles. The multiplicity of classical forms meant the tradition could be continuously revisited and reinterpreted."
 ```
 

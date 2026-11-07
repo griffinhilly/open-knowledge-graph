@@ -23,6 +23,14 @@ status: draft
 ## Core Idea
 Aestheticism (late 19th century) rejected Victorian demand that art serve moral purposes, asserting art's autonomy and beauty's primacy over content. Aesthete writers cultivated exquisite style, explored sensory experience, and asserted that aesthetic experience justified itself. This movement challenged Victorian moralism while anticipating Modernism's form-consciousness.
 
+## How It's Best Learned
+Test the phrase "art for art's sake" on one short lyric. List everything the poem does that has no moral or practical use: its sound patterns, colors, and textures. Then write a Victorian critic's objection to the poem and the Aesthete's reply. Arguing both sides turns the abstract idea of autonomy into a concrete dispute.
+
+## Common Misconceptions
+- An autonomous artwork cannot contain moral or social content. (Autonomy means art does not need such content to justify itself. A work may still touch on moral questions without being judged by them.)
+- Aestheticism and Modernism are the same movement. (Aestheticism came first, in the late 19th century. It anticipated Modernism's attention to form, but Modernism made its own breaks with traditional structure.)
+- Aestheticism was a passing taste for decoration with no lasting effect. (Its claim that form itself carries meaning fed directly into Modernism's form-consciousness.)
+
 ## Questions
 
 ```yaml
@@ -58,6 +66,7 @@ Aestheticism (late 19th century) rejected Victorian demand that art serve moral 
 
 - type: short-answer
   question: "How does the Aesthetic principle of 'autonomy' free writers from constraints that Victorian culture placed on them?"
+  answer: "Victorian culture required art to justify itself through moral improvement, social commentary, or accurate representation. Autonomy declares that art needs no external justification, so writers could choose subjects, forms, and styles for their aesthetic merit alone."
   explanation: "Victorian culture expected art to justify itself through moral improvement, social commentary, or accurate representation. The Aesthetic principle of autonomy declares that art needs no such external justification—it can exist purely for its own beauty and the sensory experience it creates. This freed writers to explore subjects, forms, and styles purely for their aesthetic merit, without needing to show how a poem about a peacock feather or a subtle emotional state 'improved' readers or addressed social problems."
 ```
 

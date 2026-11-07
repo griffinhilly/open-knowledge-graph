@@ -25,6 +25,14 @@ status: draft
 ## Core Idea
 Decadent literature pursued beauty and refined sensation to the point of excess and exhaustion, celebrating artificial, rare, and perverse experiences. The movement emphasized highly wrought style, exotic imagery, and exploration of transgression and spiritual decay as aesthetic experiences.
 
+## How It's Best Learned
+Read the chapter of Huysmans's Against Nature in which Des Esseintes has a living tortoise's shell set with jewels. Then reread a calmer Aestheticist passage about beauty. Mark the point in Huysmans where the pursuit of beauty tips into exhaustion or decay. Notice also how the dense, ornate sentences make the reader feel the same overload.
+
+## Common Misconceptions
+- Decadent writers were simply promoting vice. (They treated transgression and decay as material for aesthetic experience. The works often show the cost of excess, as when the jeweled tortoise dies.)
+- Decadence and Aestheticism are the same movement. (Decadence grew out of Aestheticism but pushed further, finding beauty in decay, artifice, and transgression.)
+- The ornate Decadent style is overwritten by accident. (The elaborate style is deliberate. Its formal excess mirrors the excess of sensation the works pursue.)
+
 ## Questions
 
 ```yaml
@@ -60,6 +68,7 @@ Decadent literature pursued beauty and refined sensation to the point of excess 
 
 - type: short-answer
   question: "Explain how the Decadent movement took the Aesthetic principle of 'art for art's sake' further by incorporating transgression and decay."
+  answer: "Aestheticism held that beauty needed no moral justification. Decadence went further by seeking the most intense beauty in transgression, decay, and artifice, challenging the remaining assumption that beauty should at least connect to the noble or virtuous."
   explanation: "Aestheticism claimed art required no moral justification beyond beauty itself. Decadence pushed this further by asking: what if we pursue beauty precisely through transgression and decay? What if the most refined aesthetic experiences come from perversity, spiritual exhaustion, artificial excess? Aestheticism valued formal perfection and beauty; Decadence valued beauty precisely when it emerged from exhaustion, decay, and transgression. If aestheticism said 'beauty requires no moral lesson,' Decadence said 'beauty can emerge from moral transgression.' This was radical because it challenged the remaining assumption that beauty should at least be connected to something elevated or virtuous. Decadent writers found their greatest aesthetic intensity in exploring the artificial, the rare, the perverse—subjects that conventional morality would condemn or dismiss."
 ```
 

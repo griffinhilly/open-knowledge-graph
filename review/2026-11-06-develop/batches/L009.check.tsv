@@ -1,0 +1,60 @@
+domains/history/economic-social-history/agricultural-revolution-neolithic.md	how	3	0	ok	older text: Q4 answer lists horses among Fertile Crescent domesticates (horses were domesticated on the steppe)
+domains/history/economic-social-history/agricultural-revolution-neolithic.md	mis	8	1	fixed	inequality bullet: "stratification not found at forager sites" overstated (ranked foragers exist); copied from Explainer
+domains/history/economic-social-history/ancient-trade-networks.md	how	3	0	ok
+domains/history/economic-social-history/ancient-trade-networks.md	mis	8	0	ok
+domains/history/economic-social-history/asian-economic-miracles.md	how	3	0	ok
+domains/history/economic-social-history/asian-economic-miracles.md	mis	8	1	fixed	workers bullet dropped where (South Korea, Taiwan) and implied wages did not rise; real wages rose fast
+domains/history/economic-social-history/atlantic-slave-trade-economics.md	how	3	0	ok
+domains/history/economic-social-history/atlantic-slave-trade-economics.md	mis	8	0	ok
+domains/history/economic-social-history/bretton-woods-system.md	how	3	0	ok	older text: Core Idea states the impossible trinity as gold standard/fixed rates/independent policy; it is fixed rates/capital mobility/independent policy
+domains/history/economic-social-history/bretton-woods-system.md	mis	8	1	fixed	"only the dollar was tied to gold" imprecise (par values were expressed in gold); now "only the dollar was convertible, for official holders"
+domains/history/economic-social-history/consumer-society-emergence.md	how	3	0	ok
+domains/history/economic-social-history/consumer-society-emergence.md	mis	8	2	fixed	demand bullet overstated ("built on purpose", wages folded in); obsolescence correction implied durability-limited products are a myth
+domains/history/economic-social-history/cotton-economy-slavery.md	how	3	0	ok
+domains/history/economic-social-history/cotton-economy-slavery.md	mis	8	1	fixed	"most worked as sharecroppers and were held in debt" overstated; now many, sharecroppers or tenants, often in debt
+domains/history/economic-social-history/decolonization-economic-impact.md	how	3	0	ok
+domains/history/economic-social-history/decolonization-economic-impact.md	mis	8	0	ok
+domains/history/economic-social-history/demographic-transition-history.md	how	3	0	ok	older text: Explainer says world population was "stable at 1-2 billion for centuries"; it was under 1 billion before about 1800
+domains/history/economic-social-history/demographic-transition-history.md	mis	8	0	ok
+domains/history/economic-social-history/digital-economy-history.md	how	3	1	fixed	Mosaic listed as a commercial breakthrough; it came from publicly funded NCSA; replaced with Netscape
+domains/history/economic-social-history/digital-economy-history.md	mis	8	0	ok
+domains/history/economic-social-history/enclosure-movement.md	how	3	0	ok
+domains/history/economic-social-history/enclosure-movement.md	mis	8	0	ok
+domains/history/economic-social-history/energy-transitions-history.md	how	3	0	ok
+domains/history/economic-social-history/energy-transitions-history.md	mis	8	0	ok
+domains/history/economic-social-history/environmental-history-overview.md	how	3	0	ok
+domains/history/economic-social-history/environmental-history-overview.md	mis	8	1	fixed	justice bullet dropped where (evidence is from US studies); style: banned word "landscapes" replaced
+domains/history/economic-social-history/factory-system-labor.md	how	3	0	ok
+domains/history/economic-social-history/factory-system-labor.md	mis	8	0	ok
+domains/history/economic-social-history/famine-history.md	how	3	0	ok
+domains/history/economic-social-history/famine-history.md	mis	8	2	fixed	"Sen showed" for the contested Bengal 1943 supply claim (now "argued", debate noted); "policy decides" absolute
+domains/history/economic-social-history/globalization-history.md	how	3	0	ok	older text: Q3 explanation says "offshore domestically", a contradiction
+domains/history/economic-social-history/globalization-history.md	mis	8	0	ok
+domains/history/economic-social-history/gold-standard-history.md	how	3	0	ok
+domains/history/economic-social-history/gold-standard-history.md	mis	8	1	fixed	adjustment bullet gave price/wage deflation as the only channel (capital flows and bank rate also adjusted); added "often"
+domains/history/economic-social-history/great-depression-causes-responses.md	how	3	1	fixed	"Hoover's spending cuts" wrong: federal spending rose 1929-32; replaced with the 1932 tax increase. older text: Core Idea and Explainer repeat Hoover austerity
+domains/history/economic-social-history/great-depression-causes-responses.md	mis	8	1	fixed	same Hoover austerity claim; "showed" softened to "suggest" (1937 also had monetary tightening)
+domains/history/economic-social-history/hanseatic-league-trade.md	how	3	0	ok
+domains/history/economic-social-history/hanseatic-league-trade.md	mis	8	1	fixed	"core business was bulk necessities" left out cloth, a leading Hansa good by value; furs and wax added
+domains/history/economic-social-history/history-of-banking.md	how	3	0	ok	older text: Explainer credits the Medici with inventing the letter of credit; they did not
+domains/history/economic-social-history/history-of-banking.md	mis	8	1	fixed	Glass-Steagall was only partly repealed (1999)
+domains/history/economic-social-history/history-of-education.md	how	3	0	ok
+domains/history/economic-social-history/history-of-education.md	mis	8	0	ok
+domains/history/economic-social-history/history-of-insurance.md	how	3	1	fixed	said the pool failures explain why Bismarck made insurance compulsory; the file says his motive was political. older text: Q3 is true-false with a what-question; Explainer calls the 1906 SF earthquake a shipping loss
+domains/history/economic-social-history/history-of-insurance.md	mis	8	1	fixed	social insurance "covers everyone" false for Bismarck-era schemes; copied from Explainer
+domains/history/economic-social-history/history-of-money.md	how	3	0	ok	older text: Q3 is true-false with a what-question
+domains/history/economic-social-history/history-of-money.md	mis	8	1	fixed	Song state issuance began in the 1020s; 10th-century notes were private Sichuan notes
+domains/history/economic-social-history/history-of-taxation.md	how	3	0	ok	older text: Q3 is true-false with a what-question; Core Idea calls a same-rate tax "regressive" by definition
+domains/history/economic-social-history/history-of-taxation.md	mis	8	0	ok
+domains/history/economic-social-history/industrial-revolution-economic-impact.md	how	3	0	ok	older text: Q3 is true-false with a what-question
+domains/history/economic-social-history/industrial-revolution-economic-impact.md	mis	8	1	fixed	"helped wreck India's textile industry" overstated; hand spinning and the export trade collapsed, mills grew later
+domains/history/economic-social-history/inequality-historical-patterns.md	how	3	0	ok
+domains/history/economic-social-history/inequality-historical-patterns.md	mis	8	2	fixed	decline was mostly 1914-1950, not to 1980; Britain did not abolish hereditary privilege (hereditary peers); both copied from Explainer
+domains/history/economic-social-history/informal-economy-history.md	how	3	0	ok	older text: Q3 is true-false with a why-question
+domains/history/economic-social-history/informal-economy-history.md	mis	8	1	fixed	South Africa has an unusually small informal sector for its income; replaced with Mexico (copied from Q1 explanation)
+domains/history/economic-social-history/labor-movement-history.md	how	3	0	ok
+domains/history/economic-social-history/labor-movement-history.md	mis	8	1	fixed	US unions were not "less political"; they lacked a labor or socialist party
+domains/history/economic-social-history/medieval-manorial-economy.md	how	3	0	ok	older text: Q0 option says output rose about 50%, explanation says 33%
+domains/history/economic-social-history/medieval-manorial-economy.md	mis	8	1	fixed	risk-spreading explanation of scattered strips is a contested thesis, stated as fact
+domains/history/economic-social-history/mercantilism-and-colonialism.md	how	3	0	ok
+domains/history/economic-social-history/mercantilism-and-colonialism.md	mis	8	1	fixed	silver as the sole cause of the price rise overstated; now "helped raise"

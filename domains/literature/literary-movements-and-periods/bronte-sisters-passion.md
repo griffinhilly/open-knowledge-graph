@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Charlotte, Emily, and Anne Brontë wrote novels featuring protagonists—often female—who refused Victorian conventional submission, expressing desire, anger, and spiritual hunger. Their work combined psychological intensity with engagement of contemporary social issues. The sisters demonstrated that women writers could command the full resources of the novel form to explore complex interiority and moral philosophy.
 
+## How It's Best Learned
+Read one key passage from each sister: Jane's outburst to Rochester that she is not "soulless and heartless" in Jane Eyre, Catherine's "I am Heathcliff" speech in Wuthering Heights, and a scene of Helen's defiance in Anne's The Tenant of Wildfell Hall. For each, note what the character wants, what convention she breaks, and how the narration frames her.
+
+## Common Misconceptions
+- The three sisters wrote in one shared style. (Charlotte's intense first-person narration, Emily's layered narrators and violent passions, and Anne's sober moral realism differ markedly.)
+- Wuthering Heights presents Heathcliff and Cathy's passion as an ideal romance. (The novel shows that passion as destructive as well as powerful, harming the people around them.)
+- The sisters published openly as women writers. (They first published under the pseudonyms Currer, Ellis, and Acton Bell, partly to avoid prejudice against women authors.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Charlotte, Emily, and Anne Brontë wrote novels featuring protagonists—often f
 
 - type: short-answer
   question: "Explain how the Brontë sisters' portrayal of female desire and anger functioned as both personal and political statement."
+  answer: "Victorian culture expected women to be submissive and self-effacing. By giving female characters open desire, anger, and spiritual hunger, the Brontës asserted women's full humanity, turning personal emotion into a claim about who deserves serious literary treatment."
   explanation: "In Victorian culture, women were expected to be submissive, modest, and self-effacing. By creating female protagonists who expressed passionate desire, anger, and spiritual hunger, the Brontës made a political statement about women's full humanity and their right to authentic self-expression. Personal emotion became political: showing a woman's rage was declaring that women's inner lives mattered, that their feelings were legitimate. This was radical because it claimed women deserved to be portrayed with the same psychological depth and moral seriousness as male characters. The Brontës' innovation wasn't just stylistic; it challenged assumptions about who could be a subject of serious literature."
 ```
 

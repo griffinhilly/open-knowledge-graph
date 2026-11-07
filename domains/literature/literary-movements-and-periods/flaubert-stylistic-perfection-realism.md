@@ -25,6 +25,14 @@ status: draft
 ## Core Idea
 Flaubert synthesized realist representation with obsessive stylistic refinement, treating prose style as a primary means of achieving truth. His demand for le mot juste (the precise word) established style as inseparable from content and influenced modernist views of literary form as intrinsic to meaning.
 
+## How It's Best Learned
+Compare two English translations of the same paragraph of Madame Bovary. List every place the translators chose different words, and ask which choices change what you see or feel. Flaubert tested his sentences by reading them aloud, so read the passage aloud too. Then revise a paragraph of your own description, replacing each vague word with an exact one.
+
+## Common Misconceptions
+- "Le mot juste" means using rare or fancy words. (It means the exact word for the case, which is often a plain one. The goal is precision, not ornament.)
+- Close attention to style makes a writer less of a realist. (Flaubert treated precise expression as the means of representing reality truthfully.)
+- Modernist writers copied Flaubert's style. (They took up his belief that style and meaning are inseparable, then pushed it into new forms he did not use.)
+
 ## Questions
 
 ```yaml
@@ -60,6 +68,7 @@ Flaubert synthesized realist representation with obsessive stylistic refinement,
 
 - type: short-answer
   question: "Explain how Flaubert's demand for stylistic perfection actually served realist purposes rather than contradicting realism."
+  answer: "Realism aims to represent reality truthfully, and imprecise words only approximate it. Flaubert's search for the exact word captured the specific quality of experience, so his stylistic care was a rigorous pursuit of realist accuracy."
   explanation: "Realism aims to represent reality truthfully. Flaubert understood that imprecise language distorts reality—it represents not what actually is but an approximation. Finding the precise word, the exact phrase, the right rhythm is essential to capturing the nuance and specificity of actual experience. When representing a character's consciousness, a nearly-correct word might miss the precise quality of a thought or feeling. Stylistic precision thus serves accuracy: Flaubert's obsessive refinement was not decoration but a rigorous pursuit of truth. This synthesis proved revolutionary: it showed that realism and formal beauty were not opposed but complementary. The obsessive care with style that produces beautiful prose is the same care that produces accurate realist representation. Flaubert proved that you could be simultaneously a realist (committed to truth) and a stylist (committed to formal perfection)—these commitments reinforce rather than contradict each other."
 ```
 
