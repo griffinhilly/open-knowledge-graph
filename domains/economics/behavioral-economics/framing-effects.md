@@ -47,7 +47,7 @@ Work through the Asian disease problem in both frames and write out the expected
 - question: "Framing effects are irrational errors that can always be eliminated through education or deliberation."
   type: true-false
   answer: false
-  explanation: "While awareness of framing effects can reduce their impact in some cases, they are remarkably robust. They persist among experts (physicians, statisticians), under high stakes, and even when subjects are shown both frames simultaneously. This persistence suggests that framing effects reflect a fundamental feature of human cognition — evaluation relative to reference points — rather than a correctable error. Education can make people more cautious about frame-dependent judgments, but it cannot eliminate the underlying reference-dependent evaluation process."
+  explanation: "While awareness of framing effects can reduce their impact in some cases, they are remarkably robust. They persist among experts (including physicians and university faculty), under high stakes, and even when subjects are shown both frames simultaneously. This persistence suggests that framing effects reflect a fundamental feature of human cognition — evaluation relative to reference points — rather than a correctable error. Education can make people more cautious about frame-dependent judgments, but it cannot eliminate the underlying reference-dependent evaluation process."
 
 - question: "What does the existence of framing effects imply about the concept of 'revealed preferences' in economics?"
   type: short-answer

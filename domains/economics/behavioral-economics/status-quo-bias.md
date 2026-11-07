@@ -42,7 +42,7 @@ List three services you have kept for years, such as a bank, a phone plan or an 
     - "Switch to the highest-return plan because they want to maximize retirement savings"
     - "Opt out of the retirement plan entirely"
   answer: 1
-  explanation: "Status quo bias predicts strong adherence to the default. Madrian and Shea (2001) found that the majority of employees remained in the default retirement plan years after enrollment, even when better-matched alternatives were available at no switching cost. The default becomes the reference point; switching away from it means accepting the psychological costs of loss (giving up the current plan), effort (evaluating alternatives), and potential regret (if the new choice performs poorly)."
+  explanation: "Status quo bias predicts strong adherence to the default. Madrian and Shea (2001) found that a substantial fraction of employees hired under automatic enrollment kept both the default contribution rate and the default fund, even though they were free to change them and few employees hired before automatic enrollment had chosen that combination. The default becomes the reference point; switching away from it means accepting the psychological costs of loss (giving up the current plan), effort (evaluating alternatives), and potential regret (if the new choice performs poorly)."
 
 - question: "Status quo bias is entirely explained by loss aversion — no other psychological mechanism is involved."
   type: true-false
@@ -52,7 +52,7 @@ List three services you have kept for years, such as a bank, a phone plan or an 
 - question: "How does status quo bias interact with default effects to create powerful policy tools?"
   type: short-answer
   answer: "Because people tend to stick with whatever option is designated as the default, the choice of default has an outsized influence on outcomes. Policies that set beneficial defaults — automatic enrollment in retirement savings, organ donor opt-out systems, renewable energy as the default utility plan — leverage status quo bias to improve outcomes without restricting choice. The default becomes the status quo that inertia preserves, effectively 'nudging' people toward better outcomes while maintaining freedom to switch."
-  explanation: "The power of defaults was dramatically demonstrated in organ donation: countries with opt-out systems (you are a donor unless you actively opt out) have donation rates near 90%, while opt-in countries have rates near 15%. The difference is not in preferences about organ donation but in which option requires active effort. Status quo bias transforms the administrative choice of default into a potent determinant of outcomes."
+  explanation: "The power of defaults was dramatically demonstrated in organ donation: countries with opt-out systems (you are a donor unless you actively opt out) have effective consent rates above 85%, while opt-in countries have consent rates below 30% (Johnson and Goldstein, 2003). Actual donation rates differ far less, because consent is only one step toward donation. The difference is not in preferences about organ donation but in which option requires active effort. Status quo bias transforms the administrative choice of default into a potent determinant of outcomes."
 ```
 
 ## Explainer
