@@ -1,0 +1,14 @@
+section	change	sources
+Core Idea	LHB recast as a contested hypothesis; Nice model framed as one explanation; volatile delivery kept, independent of spike	https://en.wikipedia.org/wiki/Late_Heavy_Bombardment ; Bottke & Norman 2017 Annu. Rev. Earth Planet. Sci. 45
+Explainer p1	Spike presented as the 1970s reading of Apollo melt-age cluster (Tera et al. 1974); ends on open question	https://en.wikipedia.org/wiki/Late_Heavy_Bombardment
+Explainer p2	Nice model kept; marked as model claim; trillions -> vast numbers	Gomes et al. 2005 (via Wikipedia)
+Explainer p3	Replaced catastrophe paragraph with evidence for/against: Imbrium ejecta bias (Haskin 1998, Norman 2010), Ar-Ar partial resetting (Boehnke & Harrison 2016 PNAS), lunar meteorite ages (Cohen 2000; Hartmann 2007), early instability from Patroclus-Menoetius binary (<100 Myr; Nesvorny et al. 2018 Nat. Astron.), sawtooth (Morbidelli et al. 2012), pro-spike HSE argument (Morbidelli et al. 2018 Icarus 305)	https://en.wikipedia.org/wiki/Late_Heavy_Bombardment ; https://arxiv.org/abs/1208.4624 ; https://arxiv.org/abs/1801.03756 ; https://phys.org/news/2018-09-scientists-evidence-early-planetary-shake-up.html ; https://ui.adsabs.harvard.edu/abs/2017AJ....153..103N
+Explainer p4	Volatile delivery hedged: most of Earth's water likely from main accretion; dropped claim that end of LHB coincides with earliest life; Earth-hit-harder sentence moved here (matches Misconceptions)	https://arxiv.org/pdf/astro-ph/0510285 ; https://arxiv.org/pdf/1404.4460
+Q index 0 (MC)	Question and answer (1) unchanged; explanation now says the delayed pulse is the original model's claim and is debated	as above
+Q index 1 (MC)	Answer (2) unchanged; explanation no longer claims LHB gave substantial ocean water or ties LHB end to first life; notes it holds for spike or decline	as above
+Q index 2 (TF)	Rewritten: Imbrium sampling-bias argument against the spike; answer true (describes critics' case, does not settle it)	Haskin 1998; Boehnke & Harrison 2016; Wikipedia
+Q index 3 (TF)	Rewritten: Nice instability need not be at 3.9 Ga; answer false; explanation cites Patroclus-Menoetius early-instability evidence	Nesvorny et al. 2018; Morbidelli et al. 2012
+Q index 4 (SA)	Answer: trillions -> vast numbers; explanation: spike is the model's prediction, later versions allow a short delay	as above
+Frontmatter	unchanged	-
+How It's Best Learned / Misconceptions	unchanged; checked consistent (Earth hit harder; Nice model not confirmed; spike debated)	-
+note	Brief said Questions 2-3; read as 0-based (the two true-false items whose keys asserted the spike). Index 1 explanation also hedged. If 1-based was meant, index 1's answer key is unchanged and does not depend on the spike.	-
