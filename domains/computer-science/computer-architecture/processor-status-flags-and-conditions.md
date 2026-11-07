@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Condition codes (stored in the processor status register) indicate the outcome of ALU operations: zero flag (result is zero), negative flag (sign bit set), overflow flag (signed arithmetic overflow), and carry flag (unsigned overflow). Conditional branch instructions test these flags to alter control flow. Some flags are set only on certain instruction types.
 
+## How It's Best Learned
+Compute N, Z, C and V by hand for a few 8-bit additions, such as 0x7F + 0x01 (N=1, V=1, C=0) and 0xFF + 0x01 (Z=1, C=1, V=0). Then trace CMP with −128 and 1: the difference 0x7F looks positive (N=0), but V=1, so N≠V and a signed less-than branch is taken. That case shows why BLT tests N and V together.
+
+## Common Misconceptions
+- A signed less-than branch only needs to check the negative flag. (When the subtraction overflows, N shows the wrong sign; CMP −128, 1 gives N=0 even though −128 is smaller, so the test is N≠V.)
+- The carry flag and the overflow flag report the same thing. (Carry reports an unsigned result out of range and overflow reports a signed one; 0xFF + 0x01 sets carry but not overflow.)
+- Every instruction updates the flags. (This varies by architecture; ARM arithmetic and logic instructions update them only with the S suffix, though comparisons such as CMP always do, and x86 MOV leaves them unchanged.)
+- The carry flag after a subtraction means the same thing on every processor. (x86 sets carry when a borrow occurs, while ARM sets it when no borrow occurs.)
+
 ## Questions
 
 ```yaml
@@ -50,7 +59,7 @@ Condition codes (stored in the processor status register) indicate the outcome o
   answer: true
   explanation: "The CMP/comparison instruction performs a subtraction that updates all relevant flags (Z, N, C, V) at once. Multiple conditional branch instructions can then test whichever flag combination is relevant — BEQ tests Z=1, BLT tests N≠V, BCS tests C=1, and so on. This means one comparison sets up multiple possible branch outcomes without any repeated computation."
 
-- question: "On most processor architectures, nearly every instruction automatically updates most four status flags (zero, negative, carry, overflow) as a side effect of execution."
+- question: "On most processor architectures, nearly every instruction automatically updates all four status flags (zero, negative, carry, overflow) as a side effect of execution."
   type: true-false
   answer: false
   explanation: "Flag update behavior is architecture-dependent. On x86, most arithmetic and logical instructions set flags, but moves and loads do not. On ARM, flags are only updated when the instruction explicitly includes an 'S' suffix (e.g., ADDS vs ADD). This means flags can retain their values across multiple instructions, and programmers must carefully track which instruction most recently set the flags being tested — a common source of bugs in assembly programming."

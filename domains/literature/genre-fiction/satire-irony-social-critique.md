@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Satire uses irony, exaggeration, and humor to criticize social institutions and human folly. Satirical fiction often employs ironic narrators whose perspective differs from the author's actual position. Satire can be gentle or savage, and effectiveness depends on readers recognizing the gap between narrator and author.
 
+## How It's Best Learned
+Take one paragraph from an ironic first-person satire, such as the opening of Swift's "A Modest Proposal," and rewrite it as a sincere complaint that states what the author actually believes. Compare the two versions side by side. The rewrite removes the reader's work of decoding, and the comparison shows what the gap between narrator and author adds.
+
+## Common Misconceptions
+- The narrator of a satire speaks for the author. (Satirical narrators often defend the very folly the author attacks, and the critique lives in the gap between what they say and what the reader sees.)
+- Satire is always harsh and cruel. (Satire ranges from gentle ridicule that keeps some sympathy for its targets to savage attacks that expose monstrous indifference.)
+- Satire is mainly an attack on particular people. (It can name individuals, but its main targets are institutions, customs, and kinds of folly that many people share.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Satire uses irony, exaggeration, and humor to criticize social institutions and 
 
 - question: How does an ironic narrator create satirical critique without explicit author commentary?
   type: short-answer
+  answer: "The narrator states a position sincerely, while events, outcomes, or the narrator's own exaggerations show that position to be absurd or cruel. Readers infer the author's real view from that gap, so the critique arrives without the author stating it."
   explanation: A strong answer should explain that an ironic narrator presents a perspective that, through exaggeration or contradiction with events/outcomes, reveals the absurdity of the narrator's position. Students should demonstrate understanding that satire's power comes from readers inferring the author's actual position from the gap between narrator and reality.
 ```
 

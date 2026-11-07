@@ -64,6 +64,7 @@ Dark fantasy is not simply fantasy with more curse words and sex; it interrogate
 
 - question: Why does understanding the moral reasoning of characters who make compromising choices matter more in dark fantasy than depicting those choices as simply evil?
   type: short-answer
+  answer: Showing the pressures, competing loyalties, and costs behind a wrong choice turns the story into an inquiry into motivation instead of a lesson in good versus evil. Readers come to understand the choice without endorsing it, which makes moral judgment harder and more honest.
   explanation: Good answers should explain that moral complexity requires understanding why someone commits a wrong action—what pressures they face, what values conflict with morality, what costs they're willing to pay. This shifts dark fantasy from simple moralism to inquiry into human motivation, making readers complicit in understanding (if not endorsing) difficult choices.
 ```
 

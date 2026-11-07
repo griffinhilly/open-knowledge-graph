@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Enslaved Africans and their descendants resisted bondage through marronage, rebellion, and cultural persistence, challenging narratives of passive victimhood. Caribbean slave rebellions, particularly in Jamaica and Hispaniola, demonstrated enslaved peoples' agency and laid foundations for the Haitian Revolution.
 
+## How It's Best Learned
+Place a set of acts on a line from covert to open: feigned illness, tool breakage, secret religious practice, running away, marronage, armed revolt. For each, note its risk, how visible it was to slaveholders, and what kind of source would record it. Then reread a slaveholder's complaint about "lazy" workers and ask what behavior it may describe.
+
+## Common Misconceptions
+- Most enslaved people accepted their condition, and resistance meant only large revolts. (Resistance ran from everyday acts such as slowdowns and feigned illness through marronage to open revolt. Revolts were the most visible end of a wide range.)
+- Maroon communities were brief hiding places that colonial armies soon destroyed. (In Jamaica, Maroon communities held territory for decades and won treaties with the British in 1739 that recognized their freedom and land.)
+- A rebellion that was crushed changed nothing. (Suppressed revolts kept colonial authorities on guard and left memories and experience of collective action that later movements could draw on.)
+- The Haitian Revolution was a sudden explosion with no background. (It drew on a long history of resistance, networks among the enslaved and preserved African traditions, and it began amid the political crisis that the French Revolution opened in the colony. Historians still debate how much marronage itself contributed.)
+
 ## Questions
 
 ```yaml

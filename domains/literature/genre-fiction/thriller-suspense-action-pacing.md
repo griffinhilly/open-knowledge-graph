@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Thriller fiction emphasizes suspense, danger, and rapid pacing. Thrillers center on characters facing threats with high stakes and time pressure. The genre prioritizes action and plot momentum, though contemporary thrillers often develop character complexity alongside suspense.
 
+## How It's Best Learned
+Start from Alfred Hitchcock's well-known example of a bomb under a table. Write a short scene twice: once where the bomb goes off without warning, and once where the reader sees the bomb and its timer while the characters chat. Compare what the reader feels during the dialogue in each version. The second turns ordinary talk into suspense.
+
+## Common Misconceptions
+- Suspense and surprise are the same thing. (Surprise is a brief shock at a reveal; suspense is extended dread, often built by letting the reader know that danger is coming.)
+- A thriller is any story with action. (Action alone does not make a thriller; the genre combines danger, high stakes, and time pressure that keep the outcome in doubt.)
+- If the hero is likely to survive, there can be no real suspense. (Suspense can rest on how the hero survives and what survival will cost, so it holds even when a happy ending seems likely.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Thriller fiction emphasizes suspense, danger, and rapid pacing. Thrillers center
 
 - question: How does the combination of high stakes and time pressure work together to create thriller intensity?
   type: short-answer
+  answer: "High stakes make the outcome matter, and time pressure denies the protagonist the chance to wait for a safer plan. Together they force fast, risky decisions about things that matter, so each element makes the other stronger."
   explanation: A strong answer should explain that high stakes mean the outcome matters greatly and time pressure means the protagonist cannot afford to wait for better circumstances or safer plans. Together, these force protagonists into desperate action and difficult decisions quickly. Students should demonstrate understanding that each element amplifies the effect of the other.
 ```
 

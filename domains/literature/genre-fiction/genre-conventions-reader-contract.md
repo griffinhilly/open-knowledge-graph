@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Genres establish contracts between authors and readers: readers expect certain conventions in exchange for suspension of disbelief. Successful genre fiction fulfills reader expectations while offering innovation. Breaking genre contracts (unexpectedly killing protagonists, withholding promised endings) requires authorial authority and narrative justification.
 
+## How It's Best Learned
+Write the contract for one genre as three promises a reader expects, such as "the mystery will be solved." Then study a famous break, such as the execution of Ned Stark in George R. R. Martin's *A Game of Thrones*. Reread the earlier chapters and mark the scenes that prepare it, such as his refusals to compromise and the warnings he ignores. Those marks are what turn a broken promise into a justified one.
+
+## Common Misconceptions
+- Genre conventions are clichés that good writers avoid. (Conventions are the shared expectations that let a genre work; clichés are tired ways of meeting them, and fresh fiction often meets the same expectation in a new way.)
+- Fulfilling the contract makes a book predictable. (Readers may know what will happen, such as the case being solved, while still being surprised by how and by whom.)
+- The contract is the same for every book in a genre and never changes. (Expectations differ across subgenres and shift over time as new works reshape what readers anticipate.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Genres establish contracts between authors and readers: readers expect certain c
 
 - question: Why does breaking a genre convention require 'authorial authority'? What gives an author this kind of authority?
   type: short-answer
+  answer: Readers will accept a broken convention only if they trust it was deliberate. An author earns that trust by showing command of the genre's conventions first and by preparing the break within the story so it feels meaningful rather than careless.
   explanation: A good answer should explain that authorial authority is earned through demonstrating competence within the genre (showing you understand the conventions before breaking them) and through narrative justification (making the rule-break feel inevitable and meaningful within the story). Students should recognize that authority isn't arbitrary but earned.
 ```
 

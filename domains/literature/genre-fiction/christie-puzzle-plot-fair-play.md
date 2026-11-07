@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Agatha Christie pioneered the puzzle-plot mystery where readers have access to the same clues as the detective and theoretically could solve the case. Christie's mysteries depend on psychological insight, misdirection, and structural innovation. Her work emphasizes how readers are manipulated through selective information management.
 
+## How It's Best Learned
+Read *The Murder of Roger Ackroyd* to the end, then go back to the narrator's account of the evening of the murder. Copy out the sentences that turn out to be literally true but misleading, and note what each one leaves out. Doing this shows how Christie keeps the clues on the page while steering your interpretation. Then debate whether the book plays fair, since readers have argued about that since it appeared.
+
+## Common Misconceptions
+- Fair play means a careful reader will usually solve the case. (It means the clues are available; Christie's misdirection is designed so that many readers still miss what they mean.)
+- Misdirection means the author lies to the reader or holds back the key clue. (In a fair-play mystery the clue is shown, and the reader is led to read it wrongly through emphasis, placement, and assumption.)
+- Christie's mysteries follow a fixed formula, so they are predictable. (She varied the structure from book to book, including the identity of the narrator and the number of culprits, which made readers' expectations a target.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Agatha Christie pioneered the puzzle-plot mystery where readers have access to t
 
 - question: How can misdirection work while still maintaining fair play—giving readers all necessary clues?
   type: short-answer
+  answer: Misdirection works on how readers interpret the facts rather than on which facts they see. The clue is on the page, but the author guides readers to give it the wrong meaning or ignore it, so they are fairly outwitted rather than kept in the dark.
   explanation: Good answers should explain that misdirection operates through psychology and interpretation, not through information hiding. The clue is present, but readers (and the detective) interpret it incorrectly based on assumptions, psychology, or false leads. For example, a character's alibi might be truthful (fair play) but misinterpreted as providing an alibi for a different crime than the one they committed.
 ```
 

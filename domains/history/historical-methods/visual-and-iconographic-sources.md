@@ -27,6 +27,12 @@ Images, maps, photographs, and visual media are not transparent windows into the
 ## How It's Best Learned
 Select a historical image and analyze it systematically: Describe what you literally see, then consider framing (what is centered?), perspective (whose viewpoint?), style (what period?), and context (who created it, for whom?). Compare with scholarly analysis to identify what you missed.
 
+## Common Misconceptions
+- A photograph is an objective record of what was there. (Photographers choose framing, timing and subject, scenes can be staged, and captions steer how viewers read the image.)
+- A detailed, realistic image shows how things looked at the time. (Artists idealized, followed conventions and copied earlier models, so realism of style is no guarantee of accuracy.)
+- A symbol has one fixed meaning that can be looked up. (Meanings depend on the tradition, period and setting, so the same object can carry different meanings in different images.)
+- Images only illustrate what written sources already tell us. (Images can be primary evidence for clothing, tools, rituals and hierarchies that texts record poorly.)
+
 ## Questions
 
 ```yaml

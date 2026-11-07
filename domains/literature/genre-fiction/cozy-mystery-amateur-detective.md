@@ -25,6 +25,11 @@ Cozy mysteries feature amateur detectives solving crimes in limited communities 
 ## How It's Best Learned
 Read a traditional cozy (Agatha Christie's Miss Marple) and a contemporary cozy (Martha Grimes, Donna Andrews). Notice how community dynamics create both investigation possibilities and cozy pleasures.
 
+## Common Misconceptions
+- Cozy mysteries have low stakes because the violence happens off the page. (A murder still happens, and the stakes come from its effect on a community the reader knows, including the chance that a likable neighbor is guilty.)
+- The amateur sleuth succeeds by luck or by tripping over clues. (Good cozies give the amateur a real edge, such as local knowledge, trust that opens doors, or skills from a trade or hobby.)
+- The domestic and hobby details are filler between clues. (They build the community the crime disrupts, and they often hide the clue that solves the case.)
+
 ## Questions
 
 ```yaml
@@ -60,6 +65,7 @@ Read a traditional cozy (Agatha Christie's Miss Marple) and a contemporary cozy 
 
 - question: Why does the intimate, limited community setting make cozy mysteries emotionally and narratively distinct from hardboiled detective fiction?
   type: short-answer
+  answer: In a cozy, the suspects are neighbors and friends the detective knows and cares about, so solving the crime means facing that someone familiar is guilty. The threat is the breaking of community bonds rather than physical danger in a corrupt city, and domestic details serve as both clues and emotional grounding.
   explanation: Good answers should address how limited communities create emotional stakes around people the detective cares about (not strangers), how the puzzle becomes secondary to community disruption, how the detective's outsiderness (if any) or insiderness shapes investigation, and how domestic details and relationships provide both investigation tools and emotional resonance beyond the puzzle.
 ```
 

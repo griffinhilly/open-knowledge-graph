@@ -19,6 +19,14 @@ status: draft
 ## Core Idea
 Contemporary fiction frequently blends genres, combining conventions from multiple categories (romantic suspense, supernatural mystery, historical fantasy). Successful genre blending balances expectations from each category while creating coherent narrative. Genre hybridity has long history but accelerates with contemporary readers' sophisticated generic literacy.
 
+## How It's Best Learned
+Choose a blended novel, such as a paranormal romance or a supernatural mystery. Before reading, list the core promise of each parent genre, for example a satisfying end to the relationship, or a crime solved through clues. While reading, tick each promise when it is kept, and mark scenes where one genre's element drives the other's plot. Those marked scenes are where the blend becomes more than two stories side by side.
+
+## Common Misconceptions
+- A blended novel can drop the parts of a genre that do not fit. (Readers keep each parent genre's core promise in mind, so a romantic suspense that skips the romantic resolution tends to disappoint romance readers.)
+- Blending means a fifty-fifty mix. (Most hybrids have a dominant genre that sets the main promise, with the other genre adding complications, setting, or tone.)
+- Combining more genres makes a book more original. (Stacking conventions without making them affect each other produces clutter; the blend works when the combination creates new tension.)
+
 ## Questions
 
 ```yaml
@@ -54,6 +62,7 @@ Contemporary fiction frequently blends genres, combining conventions from multip
 
 - question: How does genre blending depend on readers' generic literacy to succeed?
   type: short-answer
+  answer: Readers need to recognize each genre's conventions to notice how the story combines, balances, or bends them. A reader who knows only one of the genres may find the blend confusing or miss it entirely.
   explanation: Readers must recognize conventions from each genre to appreciate how the narrative plays with and balances them. Without recognizing genre expectations, blending is invisible. Sophisticated readers recognize subversion, hybrid forms, and balanced expectations—making their literacy essential to genre blending's effect.
 ```
 

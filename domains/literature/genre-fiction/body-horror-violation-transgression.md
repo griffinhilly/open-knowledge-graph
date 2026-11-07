@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Body horror depicts bodily violation, mutation, and dissolution as horrifying. These narratives explore anxieties about bodily autonomy, medical intrusion, parasitic infestation, and the boundaries between self and other. Body horror can function as social metaphor (infection as contagion of ideas, mutation as deviation from norms) or as literal nightmare. Body horror often foregrounds the visceral experience of horror rather than psychological complexity.
 
+## How It's Best Learned
+Read Octavia Butler's "Bloodchild," in which a young man is expected to carry an alien's eggs inside his body. As you read, mark every moment where his consent is asked for, assumed, or bypassed. Then ask how watching the grubs cut out of Lomas's body changes the way you read Gan's final choice. The exercise ties the visceral scenes directly to the question of bodily autonomy.
+
+## Common Misconceptions
+- Body horror is about pain. (Pain can be part of it, but the deeper fear is losing control over what happens inside one's own body and where the self ends.)
+- The monster in body horror is always an outside creature. (The threat often comes from within, as with disease or mutation, or from medicine and other trusted systems acting on the body without consent.)
+- If a body horror story is a metaphor, the physical details do not matter. (The metaphor works through the reader's physical response, so the concrete sensations carry the meaning.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Body horror depicts bodily violation, mutation, and dissolution as horrifying. T
 
 - question: How does body horror's focus on visceral experience over psychological complexity serve its thematic purposes?
   type: short-answer
+  answer: Foregrounding physical sensation makes the reader imagine the invasion or mutation in their own body, so abstract fears about autonomy and boundaries become concrete. The discomfort this produces lets the reader feel some of what the character feels.
   explanation: Good answers should explain that foregrounding physical sensation creates immediate, embodied understanding of violation and autonomy loss. By forcing readers to imaginatively experience bodily invasion and mutation, the visceral focus makes abstract anxieties about autonomy and boundaries concrete. This bypasses intellectual defenses and generates genuine discomfort, which is the point—the reader experiences something of what the character experiences.
 ```
 

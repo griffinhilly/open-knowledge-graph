@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Texts survive through copying, translation, and editing. Textual criticism reconstructs the most reliable version by comparing manuscript variants, detecting scribal errors and intentional changes, and tracing the history of transmission. This method acknowledges that no ancient text survives in its original form and probability, not certainty, guides reconstruction.
 
+## How It's Best Learned
+Run a copying chain. One person copies a short paragraph by hand, two others copy that copy, and a fourth copies one of theirs. Collate all versions word by word, label each variant by error type, and use the shared errors to draw the stemma. Then check your tree against who actually copied from whom.
+
+## Common Misconceptions
+- The oldest surviving manuscript has the best text. (A later copy can descend from a better lost ancestor, so age alone does not settle which reading is original.)
+- The reading found in most manuscripts is probably the original one. (Many manuscripts may copy one ancestor, so agreement counts as one witness until the stemma shows they are independent.)
+- The harder reading always wins. (Lectio difficilior is a heuristic. A reading that makes no sense at all may simply be a copying error.)
+
 ## Questions
 
 ```yaml
@@ -48,7 +56,7 @@ Texts survive through copying, translation, and editing. Textual criticism recon
   answer: 2
   explanation: "Homoeoteleuton (Greek: 'same ending') describes exactly this error: a scribe's eye drifts from one phrase to a visually similar phrase further down the page, and the text between them is silently omitted. The pattern of two lines sharing the same ending phrase is the diagnostic signature of this error type. Dittography is the opposite error (accidental duplication); lectio difficilior is a principle of evaluation, not a type of error."
 
-- question: "The goal of textual criticism is to recover the exact original text exactly as the author wrote it."
+- question: "The goal of textual criticism is to recover the original text exactly as the author wrote it."
   type: true-false
   answer: false
   explanation: "Textual criticism aims to reconstruct the most probable text — it operates probabilistically, not definitively. Original authorial manuscripts for most ancient texts have not survived, and may never have existed in a fixed form (many ancient works were composed orally). The discipline produces reasoned reconstructions supported by manuscript evidence, published alongside critical apparatus showing all significant variants so readers can evaluate the editorial decisions. Certainty is not the claim; best-available inference is."

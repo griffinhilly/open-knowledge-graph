@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 First contact narratives explore humanity's encounter with alien intelligence. These stories grapple with fundamental challenges: how to communicate with minds potentially operating on incommensurable logic; how to interpret alien behavior without projecting human assumptions; whether cooperation or conflict is inevitable. First contact raises questions about xenophobia, cultural relativism, and the possibility of understanding radical otherness.
 
+## How It's Best Learned
+Pair Ted Chiang's "Story of Your Life," where a linguist learns to communicate with aliens, with Stanisław Lem's *Solaris*, where scientists study an alien ocean for decades without understanding it. For each, list the methods the humans try and the assumptions behind them. Then ask why one effort succeeds and the other fails. The comparison shows the genre's range on whether a truly different mind can be understood.
+
+## Common Misconceptions
+- First contact stories are alien invasion stories. (Invasion is one variant, but the genre centers on the problem of understanding, and many stories contain no war at all.)
+- An alien that looks strange enough is truly alien. (Odd bodies with human motives and logic leave the real question untouched; the hard part is imagining a mind that thinks differently.)
+- With enough time and a good enough translator, any message can be decoded. (Some stories, like *Solaris*, suggest the gap may lie in basic categories of thought, which better tools cannot close.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ First contact narratives explore humanity's encounter with alien intelligence. T
 
 - question: Why is the failure or success of communication in first contact narratives more significant than the alien species' technological capabilities?
   type: short-answer
+  answer: Communication decides whether the two sides can understand each other at all, and that decides whether cooperation or conflict follows. Technology is only one factor, and even advanced aliens may fail to reach minds whose logic differs from theirs, so the story's tension rests on whether understanding is possible.
   explanation: Good answers should explain that communication determines whether mutual understanding is possible, while technology is just one variable. Even advanced aliens can't communicate with species whose logic is incommensurable. The narrative tension comes from whether understanding is possible, not from military capability. First contact explores what understanding even means when facing radical difference.
 ```
 

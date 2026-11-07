@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Kurt Vonnegut's satire combines black humor, absurdist logic, and direct social critique, particularly regarding war and violence. Vonnegut employs deadpan narration, metafictional elements, and science fiction devices to critique militarism and nationalism while maintaining emotional depth beneath comedic surface.
 
+## How It's Best Learned
+Read the first chapter of Slaughterhouse-Five, where Vonnegut speaks in his own voice about trying to write his Dresden book. Then follow the phrase "So it goes" through the novel and note what each use follows. Seeing the same flat phrase follow death after death shows how deadpan repetition does the anti-war work.
+
+## Common Misconceptions
+- Vonnegut's humor makes light of war. (The jokes sit on top of real horror, such as the firebombing of Dresden in Slaughterhouse-Five, and the comedy keeps that horror in view.)
+- The Tralfamadorians speak for Vonnegut. (Their view that every moment exists forever and death is unimportant comforts Billy Pilgrim, but readers and critics disagree about how far the novel endorses it.)
+- The science fiction elements show Vonnegut is not being serious. (Aliens and time travel let him show war's damage from strange angles, and Billy's jumps through time can be read as the disorientation of trauma.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Kurt Vonnegut's satire combines black humor, absurdist logic, and direct social 
 
 - question: How does using absurdist logic allow Vonnegut to critique war more effectively than straightforward realism would?
   type: short-answer
+  answer: "Absurdist logic follows the stated justifications of war to grotesque conclusions, exposing contradictions that realism might present as normal. Readers who laugh at the absurdity are pushed to see that the real practices behind it are just as irrational."
   explanation: A strong answer should explain that absurdist logic reveals the inherent irrationality and contradiction in war and militarism by taking them to logical extremes. By showing the absurd consequences of military logic, Vonnegut makes readers recognize the absurdity they would otherwise accept as normal. Students should demonstrate understanding that satire using absurdism works by making the reader see familiar systems through distorted but logically consistent logic.
 ```
 

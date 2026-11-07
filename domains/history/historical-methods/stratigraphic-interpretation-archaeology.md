@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Stratigraphic layers in archaeological sites form a chronological sequence: lower layers are older, upper layers younger. Interpreting stratigraphy means distinguishing natural layers from human disturbance, understanding mixing and displacement, and recognizing post-depositional changes that can scramble the sequence.
 
+## How It's Best Learned
+Work from a drawn section profile with three layers and one pit cutting the top two. Number each layer and the cut, then build a Harris matrix: a diagram where each unit sits below anything that cuts or covers it. The pit must sit above every layer it cuts, even though its fill reaches deeper than the top layer. Then state what the sequence tells you about the pit's date relative to each layer.
+
+## Common Misconceptions
+- Deeper always means older. (Superposition holds for undisturbed deposits. A pit, grave or posthole can place later material below earlier layers.)
+- A layer is as old as the oldest artifact in it. (A layer formed no earlier than the youngest object that truly belongs to it, since older objects can be redeposited into later layers.)
+- Stratigraphy gives dates in years. (On its own it gives a relative sequence. Calendar dates come from methods such as radiocarbon dating applied to material from the layers.)
+
 ## Questions
 
 ```yaml
@@ -54,7 +62,7 @@ Stratigraphic layers in archaeological sites form a chronological sequence: lowe
   answer: true
   explanation: "Correct on both counts. Compositional analysis (XRF, SEM), typological comparison, and use-wear analysis can all be applied to decontextualized objects. What cannot be recovered is chronological and associative information: its layer, its neighbors, its feature association. A Bronze Age pot analyzed in isolation tells you about Bronze Age pottery-making; the same pot in situ tells you about a specific community at a specific time engaged in specific activities. The loss is real, permanent, and irreversible."
 
-- question: "Because layers accumulate from bottom to top, any artifact found in a lower layer at a site is typically older than any artifact found in an upper layer."
+- question: "Because layers accumulate from bottom to top, any artifact found in a lower layer at a site is necessarily older than any artifact found in an upper layer."
   type: true-false
   answer: false
   explanation: "The law of superposition applies to undisturbed deposits, but real archaeological sites are full of disturbances. Intrusive features — pits, wells, post-holes, burials — cut through earlier layers and deposit later material at lower physical depths. A Bronze Age burial cut into a Neolithic deposit places Bronze Age skeletal remains physically below the level of the Neolithic material. Bioturbation can also move artifacts vertically. Physical depth is not the same as date; interpreting stratigraphy requires identifying cuts, recognizing intrusions, and distinguishing primary from secondary deposits."

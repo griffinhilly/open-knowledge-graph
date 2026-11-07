@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Isaac Asimov's Three Laws of Robotics establish a logical system for artificial intelligence behavior. Asimov's fiction explores paradoxes and edge cases within these laws: robots cannot harm humans, must obey humans, and must self-preserve—except when laws conflict, creating narrative tension from logical constraints.
 
+## How It's Best Learned
+Write the three laws on a card in priority order, then read "Runaround" from *I, Robot*. Pause before the ending and diagram which laws are pulling on the robot Speedy and why they balance. Then predict how the humans can break the deadlock. Checking your prediction against the story shows how Asimov builds a plot out of the laws' ranking.
+
+## Common Misconceptions
+- The Three Laws are a recipe for safe robots, and Asimov presents them as solving the problem. (Many of the stories show the laws producing strange or harmful behavior in edge cases, so the laws are the source of the puzzle.)
+- A robot story under the Three Laws has no real conflict, because the robots must behave. (The conflict comes from laws pulling against each other or from vague terms like "harm," and the humans must work out what the robot is reasoning.)
+- The laws are simple yes-or-no switches. (In stories such as "Runaround," the laws act with different strengths, so a weak order and a strong self-preservation drive can balance each other.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Isaac Asimov's Three Laws of Robotics establish a logical system for artificial 
 
 - question: Why does Asimov's approach of using rigid logical laws create better science fiction narratives than robots with flexible ethical judgment?
   type: short-answer
+  answer: Rigid laws that can conflict let the author build exact paradoxes with no easy way out. The robot must find a solution inside the rules, and the reader can follow its logic step by step, which a robot with flexible judgment would not allow.
   explanation: Good answers should explain that rigid, conflicting rules create paradoxes and force careful logical thinking—both in the narrative and for readers. With rigid laws, the author can construct scenarios with no easy answers, where the robots must find creative solutions within constraints. This is more intellectually engaging than robots that simply 'do the right thing.' It also explores how formalized rules can have unintended consequences.
 ```
 

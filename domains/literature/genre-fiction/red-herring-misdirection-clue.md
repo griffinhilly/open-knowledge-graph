@@ -30,6 +30,11 @@ Red herrings are false clues that lead readers (and sometimes the detective) tow
 ## How It's Best Learned
 Read a mystery in real time, marking which clues seem significant. Compare your predictions to the solution. Analyze which red herrings worked and why.
 
+## Common Misconceptions
+- Red herrings are unfair tricks on the reader. (In a fair-play mystery, a red herring points the wrong way while the true clues stay on the page, so an attentive reader can still reach the solution.)
+- A red herring is always a false suspect. (Objects, details, timelines, and motives can also mislead; any element that draws suspicion away from the true solution can serve.)
+- The more red herrings a mystery has, the better it is. (Too many pointless false leads can make readers feel cheated, so each one works best when it is plausible in the moment and explained by the end.)
+
 ## Questions
 
 ```yaml
@@ -65,6 +70,7 @@ Read a mystery in real time, marking which clues seem significant. Compare your 
 
 - question: How does a reader's attention and logical thinking contribute to the effectiveness of a red herring?
   type: short-answer
+  answer: "A red herring works when readers jump to conclusions from narrative habits, such as assuming that an emphasized detail or a suspicious character must matter. A reader who tracks all the evidence and tests each theory against it is harder to fool, so red herrings reward careful attention and logic."
   explanation: A strong answer should explain that red herrings test whether readers are paying careful attention and following logical inference. They reward attentive reading that tracks all clues systematically, while punishing readers who jump to conclusions based on narrative conventions. Students should demonstrate understanding that red herrings function because readers make assumptions based on literary convention, not because clues themselves are illogical.
 ```
 

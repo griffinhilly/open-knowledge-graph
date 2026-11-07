@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 Overflow occurs when an arithmetic result exceeds the maximum representable value. In two's complement, overflow is detected by comparing input and output signs—a sum of two positive numbers should not be negative.
 
+## How It's Best Learned
+Add 100 + 50 and 5 + (−3) in 8 bits, column by column, writing down every carry. In the first sum the carry into bit 7 is 1 and the carry out is 0, so the result 10010110 (−106) has overflowed. In the second both carries are 1, so there is no overflow even though a carry leaves the word. Then confirm both verdicts with the sign rule.
+
+## Common Misconceptions
+- A carry out of the most significant bit means the signed result overflowed. (Signed overflow shows when the carry into the MSB differs from the carry out; 5 + (−3) produces a carry out and the correct answer 2.)
+- Signed and unsigned overflow are detected the same way. (For unsigned addition the carry out of the MSB signals overflow; for signed addition you check the signs, or compare the carries into and out of the MSB.)
+- When an addition overflows, the processor stops with an error. (On many architectures the result wraps and at most a flag is set; some instructions trap instead, such as MIPS `add`.)
+- Underflow means the same thing for integers and floating point. (Integer "underflow" is an informal name for overflow past the most negative value; floating-point underflow means a result too close to zero to store as a normalized number.)
+
 ## Questions
 
 ```yaml

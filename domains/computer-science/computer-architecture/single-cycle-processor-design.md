@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 A single-cycle processor completes one instruction per clock cycle: fetch, decode, execute, memory access, and writeback all happen in a single clock period. The clock period must accommodate the longest critical path through all stages. This design is simple and has no pipeline hazards, but the slow clock limits performance.
 
+## How It's Best Learned
+Assign stage delays of 200 ps for instruction memory, 100 ps for register read, 200 ps for the ALU, 200 ps for data memory and 100 ps for register write. Sum only the stages each instruction uses: add 600 ps, beq 500 ps, sw 700 ps, lw 800 ps. The clock must be 800 ps, so every add sits idle for 200 ps. Trace the lw path on a datapath diagram to see why it is longest.
+
+## Common Misconceptions
+- A single-cycle processor is fast because every instruction finishes in one cycle. (CPI is 1, but each cycle is as long as the slowest instruction, so simple instructions waste part of every cycle.)
+- The clock period can be set to the average instruction delay. (With a cycle shorter than the load path, a load would write back a value that had not finished arriving; the clock must cover the longest path.)
+- One memory can serve both instruction fetch and data access. (A load must read an instruction and read data within the same cycle, so the standard single-cycle design uses separate instruction and data memories.)
+
 ## Questions
 
 ```yaml

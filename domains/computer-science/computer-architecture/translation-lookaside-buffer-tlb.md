@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 The TLB is a small associative cache that stores recent virtual-to-physical address translations. A TLB hit provides the physical page number in one cycle; a miss requires a page table walk (several memory accesses). TLB entries include the virtual page number, physical page number, and protection bits. TLB size is a trade-off between speed and area; typical sizes are 32–512 entries.
 
+## How It's Best Learned
+Translate addresses by hand with 32-bit virtual addresses and 4 KB pages. 0x00403A7C splits into page number 0x00403 and offset 0xA7C. If the TLB maps 0x00403 to frame 0x1F2, the physical address is 0x1F2A7C, with the offset copied unchanged. Then try 0x00404010, which misses, and count the extra memory reads a two-level page-table walk needs.
+
+## Common Misconceptions
+- A TLB miss means the page is not in memory. (A TLB miss means only that the translation is not cached; the page-table walk usually finds the page resident, and a page fault happens only if the page table marks it not present.)
+- The TLB stores copies of data from memory. (It stores translations, meaning page numbers plus protection and valid bits, and leaves the data to the caches.)
+- The page offset is translated along with the page number. (Only the page number changes; the offset within the page passes through to the physical address unchanged.)
+- The TLB must be flushed on every context switch. (With address space identifiers, entries from several processes can sit in the TLB at once, so a full flush is not needed on each switch.)
+
 ## Questions
 
 ```yaml

@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 The Thirty Years War (1618-1648) was a catastrophic conflict in central Europe that began over religious disputes but evolved into a struggle for power and territory among European states. The war devastated entire regions, killing roughly one-third of the population in some areas, and demonstrated the limits of religious authority in an increasingly secular political system.
 
+## How It's Best Learned
+Make a table with one row per phase: Bohemia (1618), Denmark (1625), Sweden (1630), France (1635). For each, record who entered, their religion, their enemy, and what they wanted. By the French row, religion no longer predicts who fights whom. A map of Habsburg lands on either side of France makes Richelieu's motive easy to see.
+
+## Common Misconceptions
+- The war was Protestants against Catholics from start to finish. (Religion drove the early phase, but Catholic France later funded Protestant Sweden against the Catholic Habsburgs. State interest came to shape the alliances.)
+- Most of the dead were soldiers killed in battle. (Much of the population loss came from disease, famine, and armies living off the land. Civilians bore much of the cost.)
+- Germany as a whole lost a third of its people. (Losses varied greatly by region. Some areas lost half or more of their people, while others suffered far less, and estimates of the overall loss still vary.)
+- The Peace of Westphalia ended the fighting among all the powers involved. (France and Spain kept fighting each other until 1659.)
+
 ## Questions
 
 ```yaml

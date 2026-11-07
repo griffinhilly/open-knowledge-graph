@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 J.R.R. Tolkien, a philologist, created fantasy worlds where language and mythology are primary. His constructed languages function as linguistic systems with internal consistency. His fictional mythology draws from Norse, Celtic, and Medieval sources, creating depth through connection to invented history and linguistic structure.
 
+## How It's Best Learned
+Work through a few Sindarin place-names with a glossary. Mordor ("Black Land") and Gondor ("Stone-land") share the element dor, "land," and Mordor and Moria ("Black Chasm") share mor, "black." Then hunt for other shared roots across the map. Seeing one consistent language under the names shows how Tolkien made invented geography feel old and lived in.
+
+## Common Misconceptions
+- Tolkien invented languages to decorate his stories. (He described the languages as coming first, with the stories made partly to give them a world to live in.)
+- Elvish is a single language. (Tolkien built a family of Elvish languages, chiefly Quenya and Sindarin, that descend from a common ancestor and diverged as their speakers separated.)
+- Tolkien's languages are disguised copies of real ones. (They are original, though he drew sounds and patterns from languages he loved, such as Finnish for Quenya and Welsh for Sindarin.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ J.R.R. Tolkien, a philologist, created fantasy worlds where language and mytholo
 
 - question: How does constructing coherent languages contribute to the sense of depth and authenticity in Tolkien's worlds?
   type: short-answer
+  answer: "Consistent languages imply speakers with long histories, because words share roots, names translate, and related languages drift apart over time. That gives readers the sense that the world existed before the story and extends beyond it."
   explanation: A strong answer should explain that internally consistent languages make the world feel real and historically deep because they demonstrate that the world has cultural and historical development. Languages don't appear suddenly; they evolve from proto-languages, borrow from each other, develop through time. Students should demonstrate understanding that the work Tolkien put into linguistic consistency creates the impression of a world that exists independent of the narrative and has greater depth than just the story events.
 ```
 

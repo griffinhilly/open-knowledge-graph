@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 The Spanish Inquisition (1478 onward) functioned as an instrument of royal and ecclesiastical control, investigating heresy, forced conversions, and the expulsion of Jews and Muslims. It demonstrates how religious authority merged with state power to enforce doctrinal and ethnic conformity.
 
+## How It's Best Learned
+Build a two-column table comparing the medieval papal inquisitions with the Spanish Inquisition: who appointed its head, whom it could try, and what goal it served. Then place 1478, 1492, and the forced conversions of Muslims in the early 1500s on one timeline. Ask at each point whether the target was belief, ancestry, or political loyalty.
+
+## Common Misconceptions
+- The Spanish Inquisition killed millions of people. (Modern historians have revised the death toll far downward from the legend. Its significance lies more in how it worked than in its execution count.)
+- The Spanish Inquisition was run from Rome to enforce papal power. (It was founded at the request of Ferdinand and Isabella, and the crown appointed the Grand Inquisitor.)
+- The Inquisition tried Jews for refusing to become Christian. (Its courts judged baptized Christians, so its main early targets were conversos. Unconverted Jews were dealt with by the royal expulsion of 1492.)
+- "Purity of blood" was a test of a person's religious beliefs. (Limpieza de sangre judged ancestry. A sincere Christian with Jewish or Muslim ancestors could still be marked as impure.)
+
 ## Questions
 
 ```yaml

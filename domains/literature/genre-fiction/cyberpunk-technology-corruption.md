@@ -68,6 +68,7 @@ Cyberpunk is not anti-technology; it's skeptical about who controls technology a
 
 - question: Why is cyberpunk equally invested in visual and aesthetic style as in narrative plot?
   type: short-answer
+  answer: Cyberpunk's look carries its themes. Neon over decay and worn, patched technology show gleaming surfaces covering social rot, and the styled, commodified imagery comments on a culture where style is something sold.
   explanation: Good answers should address how cyberpunk's specific aesthetic (neon, decay, digital imagery, worn technology) communicates themes about technological surfaces and underlying rot, creates immersion in a particular cultural moment, and functions as commentary on commodification and style. The look of cyberpunk expresses its philosophical concerns as much as plot does.
 ```
 

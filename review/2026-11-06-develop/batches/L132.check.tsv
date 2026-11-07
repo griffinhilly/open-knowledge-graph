@@ -1,0 +1,60 @@
+domains/history/historical-methods/historical-rhetoric-analysis.md	how	4	0	ok
+domains/history/historical-methods/historical-rhetoric-analysis.md	mis	8	0	ok
+domains/history/historical-methods/historical-semantics-and-terminology-change.md	how	3	0	ok
+domains/history/historical-methods/historical-semantics-and-terminology-change.md	mis	8	0	ok
+domains/history/historical-methods/historical-semantics-and-terminology-change.md	old:core	1	1	fixed	Core Idea "abolitioner" changed to "abolitionist". Also noted (not fixed): Q0 distractor A defines "Historicism" as judging the past by present standards, which is presentism.
+domains/history/historical-methods/historiographical-influence-and-reception.md	how	3	0	ok
+domains/history/historical-methods/historiographical-influence-and-reception.md	mis	8	0	ok	Noted (old Explainer, not fixed): "wave of revisionist scholarship" on the Holocaust is an ambiguous label, since "revisionism" also names Holocaust denial.
+domains/history/historical-methods/historiographical-positionality-and-bias.md	how	3	0	ok
+domains/history/historical-methods/historiographical-positionality-and-bias.md	mis	8	0	ok
+domains/history/historical-methods/historiographical-positioning.md	how	3	0	ok
+domains/history/historical-methods/historiographical-positioning.md	mis	8	0	ok
+domains/history/historical-methods/historiographical-positioning.md	q:4:explanation	1	0	ok
+domains/history/historical-methods/historiography-schools-and-movements.md	mis	8	0	ok
+domains/history/historical-methods/identifying-causation-in-history.md	mis	8	0	ok	Noted (old Explainer, not fixed): structural causes are called "necessary" while the same Explainer says most causes are contributing, not necessary.
+domains/history/historical-methods/intellectual-genealogies.md	how	3	0	ok
+domains/history/historical-methods/intellectual-genealogies.md	mis	8	0	ok
+domains/history/historical-methods/linguistic-analysis-historical.md	how	5	0	ok
+domains/history/historical-methods/linguistic-analysis-historical.md	mis	8	0	ok
+domains/history/historical-methods/literature-as-historical-evidence.md	how	3	0	ok
+domains/history/historical-methods/literature-as-historical-evidence.md	mis	8	1	fixed	Bullet 3 belief ("A portrayal in fiction tells us about the people portrayed") was broader than its correction, which covers only stereotyped portrayals; as stated the belief is often true. Narrowed belief to stereotyped portrayals.
+domains/history/historical-methods/lived-experience-social-history.md	how	4	0	ok
+domains/history/historical-methods/lived-experience-social-history.md	mis	8	1	fixed	Bullet 4 belief ("Official records tell us mainly about the institutions") is largely true and the correction conceded it; not a real misconception. Changed belief to "can tell us only about".
+domains/history/historical-methods/local-community-history.md	how	3	0	ok	Noted (old Q1 explanation, not fixed): question is about American industrialization but the examples include Lancashire and Bombay.
+domains/history/historical-methods/local-community-history.md	mis	8	0	ok
+domains/history/historical-methods/longue-duree-analysis.md	how	5	0	ok
+domains/history/historical-methods/longue-duree-analysis.md	mis	8	0	ok
+domains/history/historical-methods/longue-duree-analysis.md	old:ex	1	1	fixed	Explainer drafting duplication "the sea as connector and connector of" reduced to "the sea as connector of". Also noted (not fixed): Explainer gives événement time as "years to decades"; Braudel's short time is usually glossed as days to months/years.
+domains/history/historical-methods/material-culture-historical-interpretation.md	how	4	0	ok
+domains/history/historical-methods/material-culture-historical-interpretation.md	mis	8	0	ok
+domains/history/historical-methods/material-symbolic-integration.md	how	4	0	ok
+domains/history/historical-methods/material-symbolic-integration.md	mis	8	0	ok	Noted (old Q0, not fixed): "18th-century European sumptuary laws"; such laws were mainly medieval and early modern and were fading by the 18th century.
+domains/history/historical-methods/network-analysis-and-relationship-mapping.md	how	5	0	ok
+domains/history/historical-methods/network-analysis-and-relationship-mapping.md	mis	8	0	ok
+domains/history/historical-methods/numismatic-analysis-and-coins.md	how	5	0	ok
+domains/history/historical-methods/numismatic-analysis-and-coins.md	mis	8	0	ok	Noted (old Q0/Explainer, not fixed): "90% silver under Augustus (1st century BCE)" is loose; Augustan denarii are usually put above 95% fine, and his reign ran 27 BCE to 14 CE.
+domains/history/historical-methods/oral-history-documentation-and-ethics.md	how	4	0	ok
+domains/history/historical-methods/oral-history-documentation-and-ethics.md	mis	8	0	ok
+domains/history/historical-methods/oral-history-interview-techniques.md	how	3	0	ok
+domains/history/historical-methods/oral-history-interview-techniques.md	mis	8	0	ok
+domains/history/historical-methods/periodization-and-historical-division.md	mis	8	0	ok	Noted (old Q1 stem, not fixed): "studying 15th-century Europe" with a 1517 boundary.
+domains/history/historical-methods/photographic-evidence-analysis.md	how	5	0	ok
+domains/history/historical-methods/photographic-evidence-analysis.md	mis	8	0	ok	Noted (old Explainer, not fixed): attribution of "Napalm Girl" to Nick Ut has been publicly disputed since 2025 (World Press Photo suspended the credit); consider hedging.
+domains/history/historical-methods/quantitative-and-statistical-evidence.md	how	3	0	ok
+domains/history/historical-methods/quantitative-and-statistical-evidence.md	mis	8	0	ok
+domains/history/historical-methods/radiocarbon-and-scientific-dating.md	mis	8	0	ok
+domains/history/historical-methods/reception-history-methods.md	how	3	0	ok
+domains/history/historical-methods/reception-history-methods.md	mis	8	0	ok
+domains/history/historical-methods/research-design-and-historical-inquiry.md	how	3	0	ok
+domains/history/historical-methods/research-design-and-historical-inquiry.md	mis	8	0	ok
+domains/history/historical-methods/secondary-source-mining.md	how	4	0	ok	Noted (old, not fixed): Q0 dates the first historian 1920, Explainer's parallel example says 1930; Q0 explanation says "not new evidence" while the keyed option says "not necessarily".
+domains/history/historical-methods/secondary-source-mining.md	mis	8	0	ok
+domains/history/historical-methods/source-contextualization.md	how	5	0	ok
+domains/history/historical-methods/source-contextualization.md	mis	8	0	ok
+domains/history/historical-methods/source-credibility-and-bias-assessment.md	how	4	0	ok
+domains/history/historical-methods/source-credibility-and-bias-assessment.md	mis	8	0	ok	Noted (old Q4 answer, not fixed): says hostility and exaggeration "disqualify it as direct evidence", in tension with the file's "bias does not disqualify a source".
+domains/history/historical-methods/source-selection-strategy.md	how	3	0	ok
+domains/history/historical-methods/source-selection-strategy.md	mis	8	0	ok
+domains/history/historical-methods/source-selection-strategy.md	old:q:3:question	1	1	fixed	Garbled stem "can seldom be answered by examining most available source" (likely a bad never->seldom substitution) rewritten as "When it is impractical to examine every available source for a research question"; answer false still correct.
+domains/history/historical-methods/source-synthesis-and-triangulation.md	how	4	0	ok
+domains/history/historical-methods/source-synthesis-and-triangulation.md	mis	8	0	ok

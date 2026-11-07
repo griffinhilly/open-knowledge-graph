@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Romance fiction centers on developing romantic relationships, typically ending in commitment or emotional resolution. Romance prioritizes emotional authenticity and intimate relationship complexity. While romance traditionally ended in marriage, contemporary romance encompasses diverse relationship structures and orientations.
 
+## How It's Best Learned
+Chart one romance novel as two lines, chapter by chapter: one for the external plot, one for the emotional closeness between the leads. Mark each barrier, such as fear, a misunderstanding, or family opposition, and the scene where it falls. The chart shows that external events matter mainly through how they move the emotional line.
+
+## Common Misconceptions
+- Because the ending is expected, a romance has no suspense. (The suspense lies in how the couple overcomes what keeps them apart, and confidence in the ending lets readers invest in the setbacks.)
+- Any story with a love plot is a romance. (In genre romance the relationship is the main plot and the ending is emotionally satisfying; a story where the love affair is a subplot or ends in tragedy is usually classed elsewhere.)
+- A romance ending means the leads get married. (Older romances often ended in marriage, but contemporary romance also ends in other forms of commitment, such as a couple choosing a shared future.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Romance fiction centers on developing romantic relationships, typically ending i
 
 - question: How does contemporary romance differ from traditional romance in terms of relationship outcomes?
   type: short-answer
+  answer: "Traditional romance usually measured a happy ending by marriage. Contemporary romance accepts other committed outcomes, such as partnerships without marriage, and includes a wider range of relationship structures and orientations, such as same-sex couples."
   explanation: A strong answer should explain that contemporary romance has expanded beyond marriage as the only acceptable ending to include various relationship structures and orientations. Students should demonstrate understanding that the evolution reflects changing social values and broadened definitions of commitment and fulfillment.
 ```
 

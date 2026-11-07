@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 The Peace of Westphalia (1648) ended the Thirty Years War by affirming state sovereignty and establishing that rulers could determine religion within their territories, replacing medieval universal Christendom with a system of independent nations. It marked the origin of the modern international state system based on secular political principles rather than religious authority.
 
+## How It's Best Learned
+Run one case twice: a Catholic prince asks the Emperor to act against a Protestant neighbor, once before 1648 and once after. Ask what each side could claim in each version. Then compare the Peace of Augsburg (1555) with Westphalia on which confessions each recognized. Finish by listing what continued after 1648 to test the "clean break" story.
+
+## Common Misconceptions
+- The Peace of Westphalia was a single treaty. (It was two treaties, negotiated at Osnabrück and Münster.)
+- Westphalia gave every individual the freedom to choose a religion. (Its religious terms dealt mainly with rulers' authority over religious settlement and with which confessions were recognized. Individual freedom of conscience was not its organizing principle.)
+- After 1648 the Holy Roman Empire stopped functioning. (The Empire continued to operate until 1806.)
+- Contemporaries saw 1648 as the founding of a new system of sovereign states. (That story was built largely by later theorists. In practice, intervention and cross-border religious ties continued after 1648.)
+
 ## Questions
 
 ```yaml

@@ -21,6 +21,14 @@ status: draft
 ## Core Idea
 Raymond Chandler and Dashiell Hammett revolutionized detective fiction by bringing realism, corruption, and urban atmosphere to the genre. Hammett emphasizes minimal description and sharp dialogue; Chandler develops complex psychology and memorable prose. Both authors elevated detective fiction beyond puzzles to social commentary.
 
+## How It's Best Learned
+Put the first page of Hammett's *The Maltese Falcon* beside the first page of Chandler's *The Big Sleep*. Mark every simile, every adjective, and every line that tells you what the detective thinks or feels. Hammett's third-person narration stays outside Sam Spade, while Chandler's first-person Marlowe comments on everything he sees. The marked pages make the style difference visible before you discuss what each style lets the author say about the city.
+
+## Common Misconceptions
+- Hammett and Chandler wrote in the same hardboiled style. (Hammett's prose is spare and external, while Chandler's is full of similes and the narrator's voice, so they shaped the tradition in different ways.)
+- Hardboiled detectives are cynics with no moral code. (Marlowe and Spade are worldly and suspicious, but each keeps a personal code that the corrupt world around him lacks.)
+- Chandler's similes are decoration on top of the plot. (They carry Marlowe's judgments of people and places, so much of the social commentary lives in the figures of speech.)
+
 ## Questions
 
 ```yaml
@@ -56,6 +64,7 @@ Raymond Chandler and Dashiell Hammett revolutionized detective fiction by bringi
 
 - question: Why was the shift from puzzle-focused detective fiction to social commentary significant to the genre's development?
   type: short-answer
+  answer: Moving past the puzzle let detective fiction take on corruption, moral ambiguity, class conflict, and urban decay. That made the genre a vehicle for serious literary and social critique instead of only a game of solving the crime.
   explanation: Good answers should address how elevating detective fiction to social commentary allowed it to explore themes beyond 'whodunit' mechanics—corruption, moral ambiguity, class conflict, and urban decay. This transformation made detective fiction capable of serious literary and social critique, expanding the genre's scope and intellectual engagement.
 ```
 
@@ -63,7 +72,7 @@ Raymond Chandler and Dashiell Hammett revolutionized detective fiction by bringi
 
 Dashiell Hammett and Raymond Chandler approached the revolutionary transformation of detective fiction from different angles, but both rejected the tidy puzzle-box mysteries that had dominated the genre since Sherlock Holmes. Hammett came first, and his innovation was primarily one of style and tone. He stripped away the ornate Victorian prose and complex machinery of deduction, replacing it with sharp dialogue, minimal description, and the speaking patterns of actual people living in corrupt cities. Hammett's prose could convey character, atmosphere, and meaning through what he left unsaid. A Hammett story doesn't explain; it shows. This seemingly technical choice had profound effects on what detective fiction could be: leaner, faster, more aligned with actual human speech patterns.
 
-Chandler built on Hammett's foundation but took detective fiction in a different direction. Where Hammett was spare, Chandler was ornate; where Hammett let meaning emerge through dialogue and action, Chandler developed elaborate psychological insight and memorably turned phrases. Chandler's innovation was showing that detective fiction could contain rich interiority, that the detective protagonist could be complex, deeply realized, morally compromised. Chandler's prose was calculated to be memorable—"It was about eleven o'clock in the morning, mid October, with sun in the windows and a view of the Hollywood sign"—demonstrating that detective fiction could have literary value, not just narrative momentum.
+Chandler built on Hammett's foundation but took detective fiction in a different direction. Where Hammett was spare, Chandler was ornate; where Hammett let meaning emerge through dialogue and action, Chandler developed elaborate psychological insight and memorably turned phrases. Chandler's innovation was showing that detective fiction could contain rich interiority, that the detective protagonist could be complex, deeply realized, morally compromised. Chandler's prose was calculated to be memorable—"It was about eleven o'clock in the morning, mid October, with the sun not shining and a look of hard wet rain in the clearness of the foothills"—demonstrating that detective fiction could have literary value, not just narrative momentum.
 
 Both authors transformed the content of detective fiction as much as its form. Earlier detective fiction typically centered on an intellectual puzzle: given these clues, who is guilty? Chandler and Hammett asked different questions. Who is corrupt? Whom can you trust in a system designed to exploit? Their detectives operate in cities where law enforcement is compromised, where the powerful are protected, where solving a crime doesn't necessarily serve justice. This shift from puzzle to social commentary fundamentally altered what detective fiction could explore. It could now be a vehicle for critiquing capitalism, urban decay, institutional corruption, and moral compromise—themes that pure puzzle-box mysteries couldn't engage.
 

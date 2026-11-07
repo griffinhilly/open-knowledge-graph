@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Arthur Conan Doyle's Sherlock Holmes stories established the detective fiction template: a brilliant detective with unusual methods solves crimes baffling conventional police. Holmes's deductive method (observation + logic = solution) creates narrative structure and character identity. These stories established conventions detective fiction still follows.
 
+## How It's Best Learned
+Start with the first meeting of Holmes and Watson in *A Study in Scarlet*, where Holmes tells Watson he has been in Afghanistan. Before reading Holmes's explanation in the next chapter, list the clues you think he used. Then compare your list with his and mark each step that picks the most likely explanation while passing over others. This shows his "deduction" as reasoning from effects back to causes.
+
+## Common Misconceptions
+- Holmes uses deduction in the strict logical sense. (He mostly reasons from small details to the best available explanation, which logicians call abduction, and his conclusions could in principle be wrong.)
+- Holmes was the first fictional detective. (Edgar Allan Poe's C. Auguste Dupin appeared decades earlier, with an admiring friend as narrator, and Doyle built on that model.)
+- Readers of Holmes stories have every clue they need to solve the case. (Holmes often reveals facts or observations only in his final explanation, so the stories invite readers to follow his reasoning more than to beat him.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Arthur Conan Doyle's Sherlock Holmes stories established the detective fiction t
 
 - question: Why did making the detective's method explicit and teachable—observation plus logic—make detective fiction a new kind of narrative?
   type: short-answer
+  answer: Because Holmes's method is a visible process of observing details and reasoning from them, readers can follow each step and try it themselves. That made readers active participants in the investigation rather than an audience for a mysterious genius.
   explanation: Good answers should address how explicit methodology invites readers to follow along and test their own observation and logic. If the method were magical or inexplicable, readers couldn't participate. By making deduction a learnable process of observation and reasoning, Holmes stories made readers active participants in the investigation, invited to deduce alongside the detective.
 ```
 

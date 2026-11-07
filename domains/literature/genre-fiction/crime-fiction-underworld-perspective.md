@@ -23,6 +23,14 @@ status: draft
 ## Core Idea
 Crime fiction presents the criminal underworld from inside, exploring criminal logic, loyalty structures, and survival within illegal hierarchies. Unlike detective fiction (which solves crimes from the outside), crime fiction may center criminals as protagonists. These narratives explore how crime is organized, how criminals justify their actions, and what codes and hierarchies structure criminal communities.
 
+## How It's Best Learned
+Read the first chapters of Patricia Highsmith's *The Talented Mr. Ripley* and mark each moment you catch yourself hoping Ripley will not be found out. Next to each mark, note what the narration is doing: staying close to his fears, explaining his reasoning, or making a victim unlikable. Then rewrite one scene as a police report. Comparing the two versions shows how the inside view changes the reader's sympathies.
+
+## Common Misconceptions
+- Crime fiction that centers criminals is approving of crime. (Showing how a criminal thinks makes the crime understandable, which is different from endorsing it, and many of these books show the harm and cost of that life.)
+- A criminal protagonist has to be caught or punished by the end. (Some of the genre's best-known books let the criminal escape, and the unease this leaves is part of their effect.)
+- Codes of loyalty in criminal groups are just a cover for selfishness. (The fiction often treats these codes as real obligations that shape identity, while also showing how they break down under pressure.)
+
 ## Questions
 
 ```yaml
@@ -58,6 +66,7 @@ Crime fiction presents the criminal underworld from inside, exploring criminal l
 
 - question: How does centering criminal protagonists fundamentally change the narrative and moral dynamics compared to detective fiction?
   type: short-answer
+  answer: With a criminal at the center, readers see motives and codes from inside and may come to care about the criminal, so the story explores what criminal life is like instead of solving a crime from outside. Because of that sympathy, the ending cannot deliver simple justice in the way a detective story can.
   explanation: Good answers should address how reader identification with criminal protagonists creates different moral engagement, how crime fiction explores motivation from inside rather than solving from outside, how criminal codes and hierarchies become meaningful rather than merely objects of investigation, and how the narrative cannot end in simple justice because readers have come to understand and care about the criminal perspective.
 ```
 

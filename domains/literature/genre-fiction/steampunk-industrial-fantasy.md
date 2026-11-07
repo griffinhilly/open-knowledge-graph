@@ -28,6 +28,11 @@ Steampunk imagines alternative histories where steam power rather than electrici
 ## How It's Best Learned
 Read Scott Westerfeld's Leviathan trilogy or Cherie Priest's Boneshaker. Notice how the alternate technology creates both narrative possibilities (airships change military strategy) and aesthetic choices.
 
+## Common Misconceptions
+- Steampunk is a costume style of goggles and gears. (In fiction, the alternate technology usually changes how the world works, and many stories use it to examine industry, empire, and class.)
+- Steampunk stories are set in Victorian England. (Many are, but the genre also uses other places and periods; Cherie Priest's Boneshaker, for example, is set in an alternate Seattle.)
+- Steampunk celebrates the Victorian era. (Many works enjoy its look while criticizing its empire, its labor exploitation, and its class divisions.)
+
 ## Questions
 
 ```yaml
@@ -63,6 +68,7 @@ Read Scott Westerfeld's Leviathan trilogy or Cherie Priest's Boneshaker. Notice 
 
 - question: How does steampunk's alternate technology create both narrative and aesthetic possibilities?
   type: short-answer
+  answer: "Narratively, the alternate technology changes what characters can do, as when airships open new routes for travel and warfare. Aesthetically, visible gears, brass, and steam give the world its look, and that look also shows how the world's machines and society work."
   explanation: A strong answer should explain that technology choices affect plot (airships change military strategy and exploration possibilities) and visual design (Victorian dress with mechanical accessories, goggles, gears). Students should demonstrate understanding that in steampunk, form and function intertwine—the aesthetic isn't merely decorative but integral to how the world functions.
 ```
 

@@ -1,0 +1,71 @@
+domains/computer-science/distributed-systems/at-least-once-semantics.md	how	3	0	ok	worked both traces and both handlers; results hold
+domains/computer-science/distributed-systems/at-least-once-semantics.md	mis	8	0	ok
+domains/computer-science/distributed-systems/at-most-once-semantics.md	how	3	0	ok
+domains/computer-science/distributed-systems/at-most-once-semantics.md	mis	8	0	ok
+domains/computer-science/distributed-systems/byzantine-fault-tolerance.md	how	4	0	ok	n=4 quorum 3 and n=3 needs faulty vote both check out
+domains/computer-science/distributed-systems/byzantine-fault-tolerance.md	mis	8	0	ok
+domains/computer-science/distributed-systems/byzantine-fault-tolerance.md	old:questions	1	0	ok	not fixed: Q1 explanation says option B reflects n>2f, but n>2f gives f=4 not 5; minor
+domains/computer-science/distributed-systems/cache-coherence-protocols.md	how	3	0	ok	MESI trace E; S,S; M,I; S,S verified
+domains/computer-science/distributed-systems/cache-coherence-protocols.md	mis	8	0	ok
+domains/computer-science/distributed-systems/cache-coherence-protocols.md	old:questions	1	1	fixed	file had two ## Questions sections; merged the second YAML list into the first
+domains/computer-science/distributed-systems/causal-consistency.md	how	3	0	ok
+domains/computer-science/distributed-systems/causal-consistency.md	mis	8	0	ok
+domains/computer-science/distributed-systems/consensus-problem.md	how	4	0	ok	each broken algorithm breaks the stated property
+domains/computer-science/distributed-systems/consensus-problem.md	mis	6	0	ok	not fixed: old Q2 statement omits "deterministic", but its explanation supplies it
+domains/computer-science/distributed-systems/consistency-models.md	how	4	0	ok	history checked against linearizable, sequential, eventual
+domains/computer-science/distributed-systems/consistency-models.md	mis	8	0	ok
+domains/computer-science/distributed-systems/consistent-hashing.md	how	4	0	ok	ring worked: 5,80,95->10; 20->40; 50->75; adding 60 moves only 50
+domains/computer-science/distributed-systems/consistent-hashing.md	mis	8	0	ok
+domains/computer-science/distributed-systems/consistent-hashing.md	old:ex	1	1	fixed	Redis Cluster uses 16384 hash slots, not consistent hashing; now "Memcached client libraries"
+domains/computer-science/distributed-systems/crdts-convergent-replicated-types.md	how	4	0	ok	G-Counter merges and sum-inflation verified
+domains/computer-science/distributed-systems/crdts-convergent-replicated-types.md	mis	8	0	ok
+domains/computer-science/distributed-systems/data-sharding-partitioning.md	how	4	0	ok
+domains/computer-science/distributed-systems/data-sharding-partitioning.md	mis	8	0	ok
+domains/computer-science/distributed-systems/distributed-hash-tables.md	how	4	0	ok	Chord fingers 4,4,7,9 and route 1->9->12->15 verified
+domains/computer-science/distributed-systems/distributed-hash-tables.md	mis	8	0	ok
+domains/computer-science/distributed-systems/distributed-hash-tables.md	old:q:1:answer	1	1	fixed	answer key chose "predecessor transfers keys"; in Chord the successor transfers them (its own explanation says so); swapped successor/predecessor in options 0 and 1
+domains/computer-science/distributed-systems/distributed-hash-tables.md	old:ex	1	1	fixed	Explainer said the predecessor transfers keys to a joining node; changed to successor
+domains/computer-science/distributed-systems/distributed-lock-management.md	mis	8	0	ok
+domains/computer-science/distributed-systems/distributed-snapshots.md	how	3	0	ok	$1,500 consistent cut and $1,600 inconsistent cut verified
+domains/computer-science/distributed-systems/distributed-snapshots.md	mis	8	0	ok
+domains/computer-science/distributed-systems/distributed-system-models.md	how	4	0	ok
+domains/computer-science/distributed-systems/distributed-system-models.md	mis	8	1	fixed	"consensus is impossible in the fully asynchronous model" dropped the deterministic qualifier (randomized consensus works); added "Deterministic"
+domains/computer-science/distributed-systems/distributed-tracing.md	how	3	0	ok	child spans 100+300+200+2500=3,100 verified
+domains/computer-science/distributed-systems/distributed-tracing.md	mis	8	0	ok
+domains/computer-science/distributed-systems/eventual-consistency.md	how	4	0	ok	LWW with lagging R2 clock keeps the earlier x=1, as stated
+domains/computer-science/distributed-systems/eventual-consistency.md	mis	8	0	ok
+domains/computer-science/distributed-systems/eventual-consistency.md	old:q:4:explanation	1	1	fixed	said Amazon DynamoDB exposes vector clocks to applications; that is Dynamo/Riak, not DynamoDB; changed to Riak
+domains/computer-science/distributed-systems/eventual-consistency.md	old:q:2:question	1	0	fixed	typo "most key" -> "most keys" (style only)
+domains/computer-science/distributed-systems/exactly-once-semantics.md	how	4	1	fixed	"one transaction" alone does not stop two concurrent copies under default isolation; added "under a unique key"
+domains/computer-science/distributed-systems/exactly-once-semantics.md	mis	8	0	ok
+domains/computer-science/distributed-systems/failure-models-distributed.md	how	2	0	ok
+domains/computer-science/distributed-systems/failure-models-distributed.md	mis	8	0	ok
+domains/computer-science/distributed-systems/flp-impossibility.md	how	4	1	fixed	argument skipped the assumption that all inputs are univalent, so "pair decides differently" then "one is bivalent" read as a contradiction; added the assumption
+domains/computer-science/distributed-systems/flp-impossibility.md	mis	8	0	ok
+domains/computer-science/distributed-systems/flp-impossibility.md	old:core	1	1	fixed	Core Idea said "no algorithm"; FLP covers deterministic algorithms only; added "deterministic"
+domains/computer-science/distributed-systems/gossip-protocols.md	how	3	0	ok
+domains/computer-science/distributed-systems/gossip-protocols.md	mis	8	0	ok
+domains/computer-science/distributed-systems/hinted-handoff.md	how	3	0	ok
+domains/computer-science/distributed-systems/hinted-handoff.md	mis	6	0	ok
+domains/computer-science/distributed-systems/hybrid-logical-clocks.md	how	4	0	ok	HLC rules worked: (100,1), (100,2), then (101,0) verified
+domains/computer-science/distributed-systems/hybrid-logical-clocks.md	mis	8	1	fixed	"only vector clocks can show concurrency" is an absolute (dependency lists and similar causal-history tracking can too); reworded
+domains/computer-science/distributed-systems/hybrid-logical-clocks.md	old:core	1	1	fixed	Core Idea said HLC orders by "physical time" happens-before; HLC guarantees causal order only (contradicted new mis bullet 1); changed to "causally happens before"
+domains/computer-science/distributed-systems/idempotent-operations.md	how	4	1	fixed	"send unless in sent log" presented as a safe form, but a crash between send and log still resends; added that caveat
+domains/computer-science/distributed-systems/idempotent-operations.md	mis	8	0	ok
+domains/computer-science/distributed-systems/leader-election-algorithms.md	how	3	0	ok	Bully trace from node 2 verified; node 4 wins
+domains/computer-science/distributed-systems/leader-election-algorithms.md	mis	6	1	fixed	correction stated highest-responding-ID wins as general, but Raft (in Core Idea) does not elect by ID; scoped to Bully and Ring
+domains/computer-science/distributed-systems/logical-clocks.md	how	4	0	ok	stamps 1,2 / 1,3 / 1,2,3 verified
+domains/computer-science/distributed-systems/logical-clocks.md	mis	8	0	ok
+domains/computer-science/distributed-systems/logical-clocks.md	old:q:0:options	1	1	fixed	option 1 held drafting chatter ("... wait, the question asks ..."); replaced with a clean distractor (6)
+domains/computer-science/distributed-systems/multi-master-replication.md	how	4	0	ok
+domains/computer-science/distributed-systems/multi-master-replication.md	mis	6	0	ok
+domains/computer-science/distributed-systems/network-partition-tolerance.md	how	4	0	ok	3/2 and 2/2/1 splits verified
+domains/computer-science/distributed-systems/network-partition-tolerance.md	mis	8	0	ok
+domains/computer-science/distributed-systems/network-time-protocol-ntp.md	how	4	0	fixed	delay 8 and offset 46 verified; the "becomes 48" redo works only if the true offset stays 46 (same timestamps give 46 vs true 44); added that condition (clarity)
+domains/computer-science/distributed-systems/network-time-protocol-ntp.md	mis	8	0	ok
+domains/computer-science/distributed-systems/network-time-protocol-ntp.md	old:q:0:question	1	1	fixed	premise of slewing a 500 ms offset is wrong: ntpd steps offsets above 128 ms by default; changed to 50 ms
+domains/computer-science/distributed-systems/operational-transformation.md	how	4	0	ok	both sites reach "aXb", matches Explainer
+domains/computer-science/distributed-systems/operational-transformation.md	mis	6	0	ok	not fixed: Explainer/Q3 say OT requires a central server; decentralized OT algorithms exist, so this is overstated
+domains/computer-science/distributed-systems/operational-transformation.md	old:q:4:answer	1	1	fixed	short answer used a different abc example (deletes 'b', ends 'aXc') than the topic's own (deletes 'c', ends 'aXb') while claiming to use it; aligned to Explainer with 0-based positions
+domains/computer-science/distributed-systems/quorum-based-replication.md	how	3	0	ok	N=3 quorum sets and W=1 overlap failure verified
+domains/computer-science/distributed-systems/quorum-based-replication.md	mis	8	1	fixed	"W=1 with R=N works without either being a majority" is false: R=N is a majority; reworded

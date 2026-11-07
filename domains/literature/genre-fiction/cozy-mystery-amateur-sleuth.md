@@ -19,6 +19,14 @@ status: draft
 ## Core Idea
 Cozy mysteries feature amateur sleuths—ordinary people like teachers, bakers, or retirees—solving crimes in small communities. Cozy mysteries avoid graphic violence and explicit content, emphasizing puzzle-solving and community detail. The amateur's intimate knowledge of their community provides investigative advantage over professional investigators.
 
+## How It's Best Learned
+Read a short Miss Marple story such as "The Tuesday Night Club" from *The Thirteen Problems*. Note each time she solves part of the puzzle by comparing a suspect to someone she knows from her village. Then pick an ordinary job, such as a baker or a school librarian, and list three things that person would learn about neighbors that a visiting police officer would not. The list shows where an amateur's access comes from.
+
+## Common Misconceptions
+- The police in cozy mysteries are incompetent so the amateur can shine. (In many cozies the police are capable but lack the amateur's local knowledge and the trust that makes people talk freely.)
+- The sleuth's job or hobby is only a marketing hook. (In well-built cozies the trade gives the sleuth both access to people and knowledge that helps read the clues.)
+- Because cozies avoid graphic violence, they avoid serious crimes. (Murder is the usual crime; the restraint lies in how it is shown on the page.)
+
 ## Questions
 
 ```yaml
@@ -54,6 +62,7 @@ Cozy mysteries feature amateur sleuths—ordinary people like teachers, bakers, 
 
 - question: Why does the ordinariness of cozy mystery protagonists (teachers, bakers, etc.) enhance rather than diminish the investigative narrative?
   type: short-answer
+  answer: An ordinary job puts the sleuth in daily contact with many neighbors who already trust them, which makes their access to gossip and secrets believable. It also keeps the focus on observation and reasoning rather than official power or physical action.
   explanation: Good answers should explain that ordinariness makes access believable (a teacher or baker can move through community freely), creates relatable protagonists, emphasizes the puzzle-solving intellectual element over physical action, and highlights how community knowledge matters more than professional training or special skills.
 ```
 

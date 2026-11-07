@@ -25,7 +25,12 @@ status: draft
 Western fiction explores the American frontier as a space of lawlessness, opportunity, and violence. Westerns feature recurring conflicts between civilization and wilderness, law and justice, individual freedom and community order. The western landscape often functions symbolically—as opportunity, as hostile nature, as moral frontier—as much as geographically. Westerns create mythology about American identity and the price of settlement.
 
 ## How It's Best Learned
-Read both canonical westerns (Louis L'Amour, Cormac McCarthy's Blood Meridian) and revisionist westerns (Octavia Butler's Parable series, N.K. Jemisin's Broken Earth). Notice how the genre accommodates both celebration and critique of frontier mythology.
+Read both canonical westerns (Louis L'Amour, Owen Wister's The Virginian) and revisionist westerns (Cormac McCarthy's Blood Meridian, Thomas Berger's Little Big Man). Notice how the genre accommodates both celebration and critique of frontier mythology.
+
+## Common Misconceptions
+- Westerns are simple stories of good guys against bad guys. (Many westerns turn on the gap between law and justice, so a lawman can be wrong and an outlaw can be right.)
+- Westerns show the frontier as it really was. (Westerns build a myth of the frontier; the real West included a wider range of people, such as Black, Mexican, and Chinese Americans, than many classic westerns show.)
+- Revisionist westerns reject the genre. (They keep its landscapes, conflicts, and forms while questioning its myths, for example by centering the costs of settlement for Native peoples.)
 
 ## Questions
 
@@ -62,6 +67,7 @@ Read both canonical westerns (Louis L'Amour, Cormac McCarthy's Blood Meridian) a
 
 - question: How do revisionist westerns differ from canonical westerns in their treatment of frontier mythology?
   type: short-answer
+  answer: "Canonical westerns often celebrate frontier expansion and the lone hero who brings order. Revisionist westerns keep the genre's forms but question the myth, showing costs such as the violence of settlement and the displacement of Native peoples, and giving a voice to people the classic hero story left out."
   explanation: A strong answer should explain that canonical westerns often celebrate frontier expansion and individual heroism, while revisionist westerns critique the mythology by revealing its costs (indigenous displacement, violence, environmental destruction) and expanding perspectives beyond the canonical hero. Students should demonstrate understanding that a genre can accommodate multiple ideological positions within its formal structures.
 ```
 

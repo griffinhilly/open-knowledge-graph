@@ -19,6 +19,14 @@ status: draft
 ## Core Idea
 Fantasy magic systems operate according to internal rules and typically entail costs or limitations. Magic can be elemental, sympathetic, mechanical, or based on other systems. Well-designed magic systems answer: Who can use magic? What is its cost? What are its limits? These constraints shape narrative possibility.
 
+## How It's Best Learned
+Fill in a one-page card for a magic system from a book you know, answering who can use magic, what it costs, and what it cannot do. Then look at the story's climax and check whether the solution uses only rules the reader learned earlier. If it relies on a new power, the ending will likely feel unearned. Brandon Sanderson states this as a rule of thumb: magic can solve problems in proportion to how well the reader understands it.
+
+## Common Misconceptions
+- "Sympathetic magic" means magic driven by feelings. (The term means magic that works through likeness or connection, such as acting on a doll or a lock of hair to affect the person it stands for.)
+- A magic system is a list of spells. (The spells matter less than the rules behind them: who has access, what each use costs, and where the limits lie.)
+- The cost of magic has to be physical exhaustion. (Costs can be moral, social, or relational as well, such as debts to a patron or the loss of memories, and these often produce richer conflict.)
+
 ## Questions
 
 ```yaml
@@ -54,6 +62,7 @@ Fantasy magic systems operate according to internal rules and typically entail c
 
 - question: How do the costs and limits of a magic system determine what stories can be told within that world?
   type: short-answer
+  answer: Costs stop magic from solving every problem at once, which creates tension, and limits force characters to find non-magical solutions. Rules about who can use magic shape the social order, so these constraints decide which conflicts can arise and how they can be resolved.
   explanation: Good answers should explain that costs prevent magic from solving all problems instantly (creating narrative tension), limits determine what magic cannot do (forcing characters to find non-magical solutions), and restrictions on who can use magic (creating social hierarchies or chosen-one narratives). These constraints force characters into specific conflicts and solutions.
 ```
 

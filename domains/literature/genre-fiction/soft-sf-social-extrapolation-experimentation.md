@@ -21,6 +21,14 @@ status: draft
 ## Core Idea
 Soft science fiction prioritizes social, psychological, and anthropological extrapolation over technical accuracy. Rather than assuming advanced physics, soft SF asks how societies and human psychology might evolve under different conditions. Soft SF often sacrifices technical plausibility for thematic and philosophical depth.
 
+## How It's Best Learned
+Write a soft SF novel's speculative premise in one line. Then list three social institutions it touches, such as family, work, or law, and find one scene showing how each has adapted. Le Guin's The Dispossessed suits this well, since its anarchist society on Anarres reshapes language, work, and property. The exercise shows where the author's rigor actually goes.
+
+## Common Misconceptions
+- Soft SF is science fiction with lazy science. (Its rigor goes into social and psychological consequences, and a society built on an implausible premise still has to be internally coherent.)
+- Soft SF ignores science altogether. (It often draws on the social sciences, such as anthropology, sociology, and linguistics, for its speculation.)
+- Soft SF stories cannot feature advanced technology. (Starships and strange devices can appear; what marks soft SF is that the story treats them as background and focuses on what they mean for people.)
+
 ## Questions
 
 ```yaml
@@ -56,6 +64,7 @@ Soft science fiction prioritizes social, psychological, and anthropological extr
 
 - question: What kinds of questions does soft SF ask that hard SF might not prioritize?
   type: short-answer
+  answer: "Soft SF asks how a change in conditions would reshape people and societies, such as how gender, kinship, property, ethics, or psychology would work if one condition were different. Hard SF puts more weight on whether the technology or physics behind the change would actually work."
   explanation: A strong answer should explain that soft SF prioritizes questions about society, psychology, and meaning (What would gender relations be like without biological sex differences? How would psychology develop in extreme isolation? How would ethics change in a resource-abundant society?) rather than questions about technology and physics. Students should demonstrate understanding that soft SF explores human implications rather than technical mechanics.
 ```
 

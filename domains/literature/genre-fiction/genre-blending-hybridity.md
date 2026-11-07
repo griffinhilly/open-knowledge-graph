@@ -23,6 +23,14 @@ status: draft
 ## Core Idea
 Contemporary fiction increasingly blends genres—fantasy mysteries, science fiction romance, noir thrillers, satirical horror. Genre blending can honor both traditions or subvert them for critical effect. Hybrid genres require readers and writers to understand multiple genre conventions and navigate competing expectations. Genre blending often produces innovation through collision and unexpected combination.
 
+## How It's Best Learned
+Take a fantasy mystery and write down two rule sets: the fair-play rules of the mystery and the rules the book sets for what magic can do. At the solution, check whether the answer respects both, or whether magic arrives as a surprise that breaks the puzzle. Then find one blended work that bends a convention on purpose, and say what the bend is meant to show.
+
+## Common Misconceptions
+- Adding magic to a mystery ruins fair play. (Fair play survives if the book sets out what magic can and cannot do before the solution, so the reader can reason with it.)
+- Subverting a genre means ignoring its conventions. (Subversion depends on the reader expecting the convention, so the writer has to set it up before turning it against itself.)
+- A hybrid book is one that could not decide what genre it belongs to. (Strong hybrids are deliberate, and the collision between genres is the source of their effect.)
+
 ## Questions
 
 ```yaml
@@ -58,6 +66,7 @@ Contemporary fiction increasingly blends genres—fantasy mysteries, science fic
 
 - question: Explain how understanding genre conventions is essential to successfully reading a hybrid genre work.
   type: short-answer
+  answer: A hybrid work puts several genres' conventions in dialogue, so readers must know what each tradition expects in order to see where the work honors, combines, or subverts them. Without that knowledge, the interplay that gives the hybrid its effect goes unnoticed.
   explanation: A good answer should recognize that hybrid genres put multiple genre conventions in dialogue with each other, and that readers need to understand what expectations each tradition brings in order to appreciate how the work honors, subverts, or combines them. Students should show that genre knowledge is not optional but foundational.
 ```
 

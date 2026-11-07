@@ -25,7 +25,7 @@ status: draft
 Time travel narratives grapple with causality, paradoxes, and multiple timeline theories. Fixed timeline theories prevent changing the past (whatever happened, happened); branching timeline theories allow divergence from a split point; ontological paradoxes create logical loops where information or objects arrive with no origin. Different time-travel frameworks enable different story structures and raise different philosophical questions about free will and determinism.
 
 ## How It's Best Learned
-Chart three time-travel stories using different causality frameworks (e.g., Primer [fixed], Back to the Future [branching], All You Need Is Kill [ontological]). Notice how each framework constrains and enables different plot developments.
+Chart three time-travel stories using different causality frameworks (e.g., Twelve Monkeys [fixed], Back to the Future [branching], Robert A. Heinlein's "—All You Zombies—" [ontological]). Notice how each framework constrains and enables different plot developments.
 
 ## Common Misconceptions
 Not all time-travel stories require paradoxes; some use consistent timelines where the past cannot be changed. The philosophical framework matters as much as the mechanics.
@@ -65,6 +65,7 @@ Not all time-travel stories require paradoxes; some use consistent timelines whe
 
 - question: How do branching timeline theory and fixed timeline theory enable different kinds of narrative stakes?
   type: short-answer
+  answer: "In a branching timeline, the traveler's changes create a new world, so the stakes concern consequence and responsibility, including what stays lost in the original timeline. In a fixed timeline nothing can be changed, so the stakes shift to discovering the role the traveler always played and what that means for free will."
   explanation: A strong answer should explain that branching timelines allow for alternate history possibilities where the protagonist's actions create new timelines (raising questions about responsibility and consequence), while fixed timelines create deterministic narratives where the protagonist discovers they were always meant to act as history recorded. Students should demonstrate understanding that the philosophical framework shapes what kinds of dramatic tension become possible.
 ```
 

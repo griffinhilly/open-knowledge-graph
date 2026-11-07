@@ -1,0 +1,60 @@
+domains/history/historical-methods/absence-evidence-and-silence.md	how	3	0	ok
+domains/history/historical-methods/absence-evidence-and-silence.md	mis	6	0	ok
+domains/history/historical-methods/anachronism-and-historical-thinking.md	how	3	0	ok
+domains/history/historical-methods/anachronism-and-historical-thinking.md	mis	8	0	ok
+domains/history/historical-methods/archival-research-and-navigation.md	how	3	0	ok
+domains/history/historical-methods/archival-research-and-navigation.md	mis	8	0	ok
+domains/history/historical-methods/archival-systems-and-research-access.md	how	3	0	ok
+domains/history/historical-methods/archival-systems-and-research-access.md	mis	6	0	ok
+domains/history/historical-methods/artifact-examination-techniques.md	how	3	0	ok
+domains/history/historical-methods/artifact-examination-techniques.md	mis	8	0	ok
+domains/history/historical-methods/audio-visual-historical-sources.md	how	5	0	ok
+domains/history/historical-methods/audio-visual-historical-sources.md	mis	8	0	ok
+domains/history/historical-methods/audio-visual-historical-sources.md	old:ex	1	0	ok	Not changed: the claim that Riefenstahl used techniques "borrowed from Hollywood" (incl. telephoto compression) is loosely sourced; not certain enough to edit.
+domains/history/historical-methods/author-perspective-and-position.md	mis	8	0	ok
+domains/history/historical-methods/biographical-historical-method.md	how	4	0	ok
+domains/history/historical-methods/biographical-historical-method.md	mis	8	0	ok
+domains/history/historical-methods/biographical-research-methodology.md	how	4	0	ok
+domains/history/historical-methods/biographical-research-methodology.md	mis	8	0	ok
+domains/history/historical-methods/chronometric-dating-methods.md	how	4	0	ok	Checked stratigraphy logic: coin minted 50 CE in C gives C and layers above a terminus post quem of 50 CE; older charcoal in B correctly framed as old wood or redeposition.
+domains/history/historical-methods/chronometric-dating-methods.md	mis	8	0	ok
+domains/history/historical-methods/chronometric-dating-methods.md	old:q:1:explanation	1	1	fixed	Old-wood parenthetical said the inner rings came from "a long-lived tree that died long before the tree was felled" (self-contradictory); now says the inner rings formed long before felling.
+domains/history/historical-methods/comparative-historical-analysis.md	how	3	0	ok
+domains/history/historical-methods/comparative-historical-analysis.md	mis	8	0	ok
+domains/history/historical-methods/counter-narrative-analysis.md	how	4	0	ok
+domains/history/historical-methods/counter-narrative-analysis.md	mis	8	0	ok
+domains/history/historical-methods/counterfactual-and-speculative-historical-reasoning.md	how	3	0	ok
+domains/history/historical-methods/counterfactual-and-speculative-historical-reasoning.md	mis	8	0	ok	Bullet 3's correction answers the belief only indirectly (imaginability vs plausibility) but is true.
+domains/history/historical-methods/cultural-history-methods.md	how	4	0	ok
+domains/history/historical-methods/cultural-history-methods.md	mis	8	0	ok
+domains/history/historical-methods/decolonizing-and-inclusive-historical-methods.md	how	3	0	ok
+domains/history/historical-methods/decolonizing-and-inclusive-historical-methods.md	mis	8	0	ok
+domains/history/historical-methods/demographic-analysis-and-census-records.md	how	3	0	ok	Sex ratio 1200/800 = 150 per 100 checked.
+domains/history/historical-methods/demographic-analysis-and-census-records.md	mis	8	0	ok
+domains/history/historical-methods/digital-tools-and-archives.md	how	5	0	ok
+domains/history/historical-methods/digital-tools-and-archives.md	mis	8	0	ok
+domains/history/historical-methods/document-authentication-and-forgery-detection.md	how	3	0	ok
+domains/history/historical-methods/document-authentication-and-forgery-detection.md	mis	8	1	fixed	Bullet 3 belief "Forgeries are deliberate frauds" is true by definition (a forgery is made to deceive); reworded to "Every misattributed document is a deliberate forgery" so the honest-error correction fits. Style: "genuinely old" -> "truly old". Note: Core Idea's "Forgeries—accidental or deliberate" has the same definitional slip; left untouched.
+domains/history/historical-methods/document-interpretation-and-textual-analysis.md	mis	8	0	ok
+domains/history/historical-methods/engaging-historiographic-arguments.md	how	3	0	ok	Note: the older Misconceptions section (one bullet, "Thinking that ...; ..." form) does not follow the "- belief. (correction)" format; not in scope, not changed.
+domains/history/historical-methods/environmental-historical-methods.md	how	3	0	ok
+domains/history/historical-methods/environmental-historical-methods.md	mis	8	0	ok	Style: banned word "landscape" -> "terrain" in bullet 1.
+domains/history/historical-methods/environmental-proxy-analysis.md	how	4	0	ok	Calibration arithmetic checked: slope 4 °C/mm, intercept 10; 0.5 mm -> 12 °C; extrapolation caveat correct.
+domains/history/historical-methods/environmental-proxy-analysis.md	mis	8	0	ok
+domains/history/historical-methods/epigraphic-analysis-and-inscriptions.md	how	3	0	ok	Expansion D.M. / C. IULIO SECUNDO / VIX. ANN. XL -> Dis Manibus / Gaio Iulio Secundo / vixit annos XL checked (C. = Gaius, dative).
+domains/history/historical-methods/epigraphic-analysis-and-inscriptions.md	mis	8	0	ok
+domains/history/historical-methods/family-history-genealogy.md	how	3	0	ok	Birth intervals 1821-1823-1826 = 2 and 3 years checked.
+domains/history/historical-methods/family-history-genealogy.md	mis	8	0	ok
+domains/history/historical-methods/family-history-genealogy.md	old:ex	1	1	fixed	"licenses, bans" -> "banns" (marriage banns).
+domains/history/historical-methods/gender-analytical-category.md	how	3	0	ok
+domains/history/historical-methods/gender-analytical-category.md	mis	8	0	ok
+domains/history/historical-methods/historical-cartography-and-map-analysis.md	how	3	0	ok
+domains/history/historical-methods/historical-cartography-and-map-analysis.md	mis	8	0	ok	Style: banned word "landscape" -> "land" in bullet 2.
+domains/history/historical-methods/historical-database-design-and-structure.md	how	3	0	ok
+domains/history/historical-methods/historical-database-design-and-structure.md	mis	8	0	ok	Checked: English legal year began 25 March until 1752, so February 1643 (Old Style year) = February 1644.
+domains/history/historical-methods/historical-geography-and-spatial-analysis.md	how	3	0	ok
+domains/history/historical-methods/historical-geography-and-spatial-analysis.md	mis	8	0	ok	Bullet 4 (settlement form gives hypotheses to test) is more cautious than the Explainer's "infer ... before reading a single document"; compatible with Q2's "tentatively".
+domains/history/historical-methods/historical-inference-logic.md	how	3	0	ok
+domains/history/historical-methods/historical-inference-logic.md	mis	8	0	ok
+domains/history/historical-methods/historical-narrative-and-argument-construction.md	how	3	0	ok
+domains/history/historical-methods/historical-narrative-and-argument-construction.md	mis	8	0	ok

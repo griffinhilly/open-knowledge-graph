@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Jonathan Swift's satire uses irony, exaggeration, and grotesque invention to attack political hypocrisy and human cruelty. Swift employs ironic narrators whose positions dramatize absurdity. His satire addresses specific historical issues while exploring universal human folly through works like 'A Modest Proposal' and 'Gulliver's Travels'.
 
+## How It's Best Learned
+Read Book I of Gulliver's Travels with a short note on early 18th-century English politics beside it. Match the Lilliputian quarrels to their targets: the High-Heels and Low-Heels to the Tories and Whigs, and the war over which end to break an egg to religious schism. Then ask what the satire still mocks once that history is set aside.
+
+## Common Misconceptions
+- Gulliver's Travels is a children's adventure story. (It is often abridged for children, but the full book is a satire on politics, learning, and human nature, and its final voyage is bitter.)
+- Swift seriously proposed eating children. (The speaker of "A Modest Proposal" is an ironic persona; Swift used the monstrous plan to attack the callous treatment of Ireland's poor.)
+- Gulliver speaks for Swift. (Gulliver is often naive or ridiculous, most of all at the end, when his admiration for the Houyhnhnms leaves him unable to bear other humans, and readers are invited to judge him too.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Jonathan Swift's satire uses irony, exaggeration, and grotesque invention to att
 
 - question: How does Swift use grotesque exaggeration (like the cannibalistic 'solution' in 'A Modest Proposal') to critique political indifference?
   type: short-answer
+  answer: "Swift's speaker calmly proposes, in the language of economic reason, that poor Irish children be sold as food. The open horror of that plan mirrors the hidden cruelty of attitudes and policies that already treated the Irish poor as disposable, so readers who recoil from the proposal are pushed to recoil from the real indifference too."
   explanation: A strong answer should explain that Swift proposes something morally horrifying to expose the actual indifference and cruelty that already exist in policy. By suggesting an explicit horror, he reveals the implicit horrors already accepted. Students should demonstrate understanding that grotesque satire works by making readers recoil, then recognizing they should recoil equally at the real policies being critiqued.
 ```
 

@@ -24,6 +24,14 @@ status: draft
 ## Core Idea
 Weird fiction blends science fiction and horror elements, emphasizing the strange, uncanny, and fundamentally alien. Weird fiction often features non-Euclidean geometries, tentacle creatures, and phenomena that challenge human perception and language. Weird fiction prioritizes atmosphere and the sense of confronting the incomprehensible over coherent worldbuilding or emotional realism.
 
+## How It's Best Learned
+Read H. P. Lovecraft's "The Colour Out of Space" and underline each place where the narrator says something cannot be described or can only be approximated. Then try to describe the colour yourself in one sentence. Your attempt, set beside the story's workarounds (comparison, negation, effects on witnesses), shows how weird fiction builds its effect from the failure of language.
+
+## Common Misconceptions
+- Weird fiction means Lovecraft and tentacles. (Lovecraft is central to its history, but the label also covers writers such as Algernon Blackwood and later New Weird authors, and many weird stories have no monster at all.)
+- Weird fiction is just horror under another name. (It shares horror's dread but aims at strangeness, and some weird stories are more eerie or awe-struck than frightening.)
+- The unexplained parts of a weird story are lazy writing. (Withholding explanation is deliberate, because a fully explained phenomenon stops feeling alien.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +67,7 @@ Weird fiction blends science fiction and horror elements, emphasizing the strang
 
 - question: Why would coherent worldbuilding actually work against weird fiction's goal of creating a sense of the incomprehensible?
   type: short-answer
+  answer: "Coherent worldbuilding explains and systematizes phenomena, which makes them knowable and so less alien. Weird fiction keeps its power by leaving gaps and refusing explanation, so the universe still seems not to fit human logic."
   explanation: A strong answer should explain that if everything is explained and systematized, the alien becomes comprehensible and loses its power to disturb. By leaving phenomena unexplained and emphasizing their alienness, weird fiction maintains the unsettling sense that the universe doesn't conform to human logic or perception. Students should demonstrate understanding that incomprehensibility requires leaving gaps and refusing explanation.
 ```
 

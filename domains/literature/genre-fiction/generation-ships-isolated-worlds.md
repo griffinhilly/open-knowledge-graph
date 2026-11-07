@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Generation ship narratives feature self-contained societies traveling through space for centuries, with multiple human generations born, living, and dying aboard. These narratives explore how knowledge, social structures, and psychology evolve in isolation from external input. The generation ship creates a bounded world where outside help is impossible and the future depends entirely on internal resources, making these vessels microcosms of human society.
 
+## How It's Best Learned
+Read Robert Heinlein's novella "Universe," whose crew has forgotten that they live on a ship. Make a chart with two columns: facts about the voyage as the founders knew them, and what each fact has become in the crew's beliefs. Then sketch your own ship across three generations. Note what the founders knew, what the grandchildren were taught, and what the great-grandchildren actually believe.
+
+## Common Misconceptions
+- Generation ship stories are mainly about the technology of space travel. (The ship is usually a device for isolating a society so the story can watch how its knowledge, power, and beliefs change.)
+- A society sealed off from outside influence stays the same. (These stories often show isolation producing drift: forgotten purposes, new myths, and shifts in who holds power.)
+- Later generations will share the founders' mission. (Many stories turn on descendants who never chose the voyage and may reject or forget its goal.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Generation ship narratives feature self-contained societies traveling through sp
 
 - question: Why do generation ships function as microcosms of human society rather than just survival vessels?
   type: short-answer
+  answer: Over centuries, with no outside input, a ship's population develops its own hierarchies, knowledge, and beliefs. Because the system is closed, readers can trace how social choices play out across generations, which makes the ship a laboratory for human society.
   explanation: Good answers should explain that the bounded timeframe (centuries) and population (enough for genetic diversity) allow exploration of how society develops internally. Social hierarchies, knowledge systems, and psychology develop without external reference. The ship becomes a laboratory for understanding human social evolution.
 ```
 

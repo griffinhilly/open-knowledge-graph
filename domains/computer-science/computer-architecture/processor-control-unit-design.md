@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 The control unit interprets instructions and generates control signals for the datapath. In hardwired control, a decoder produces signals directly from instruction bits. In microprogrammed control, a ROM stores microcode sequences that output control signals over multiple cycles. The choice involves trade-offs: hardwired is fast but complex to modify; microprogrammed is flexible but slower.
 
+## How It's Best Learned
+Fill in a table with one row per instruction (add, lw, sw, beq) and one column per control signal (RegWrite, ALUSrc, MemRead, MemWrite, Branch). That table is the truth table a hardwired decoder implements. Then rewrite lw as a sequence of microinstructions, one per cycle from fetch to write-back, to see the same signals spread over time as words in a control store.
+
+## Common Misconceptions
+- The control unit moves and computes the data. (The datapath moves and transforms data; the control unit only sets the signals that tell the datapath what to do each cycle.)
+- Microcode is the same thing as the machine code a programmer writes. (Microcode sits below the instruction set; each machine instruction is carried out by a short microprogram the programmer never sees.)
+- Each instruction corresponds to one fixed set of control signals. (In a multicycle or microprogrammed design an instruction uses a sequence of control words, one per cycle.)
+- Hardwired and microprogrammed processors need different datapaths. (The same datapath can be driven by either; the two approaches differ in how the control signals are produced.)
+
 ## Questions
 
 ```yaml

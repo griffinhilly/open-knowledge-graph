@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Jean-Jacques Rousseau modified contract theory to argue that legitimate authority rests on the 'general will'—the collective will of citizens directing laws toward the common good. Rousseau's emphasis on popular sovereignty and democratic legitimacy profoundly influenced revolutionary movements and democratic theory.
 
+## How It's Best Learned
+Start from a concrete vote, such as a tax-versus-schools referendum, and ask two questions of each voter: "What do I want?" and "What is good for the community?" The first set of answers is the will of all; the second points toward the general will. Then draw where sovereignty sits for Hobbes (above the subjects) and for Rousseau (in the assembled citizens) to see the contrast.
+
+## Common Misconceptions
+- The general will is whatever the majority votes for. (Rousseau separates the general will from the "will of all," the sum of private preferences. A vote expresses the general will only when citizens vote with the common good in mind.)
+- Like Hobbes, Rousseau has the people hand power to a ruler. (For Rousseau the people as a body are the sovereign. A government is only an agent that carries out the laws the sovereign people make.)
+- Rousseau wanted people to return to a state of nature. (*The Social Contract* asks how a legitimate political society can be built. Rousseau argues that civil society can give people a moral freedom they lacked in the state of nature.)
+- Rousseau's ideas support electing representatives to make laws for the people. (Rousseau argued that sovereignty cannot be represented. He held that elected deputies cannot make law in the people's place.)
+
 ## Questions
 
 ```yaml

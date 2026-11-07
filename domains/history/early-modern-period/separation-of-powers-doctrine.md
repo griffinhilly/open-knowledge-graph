@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Montesquieu's theory that governmental power should be divided among separate executive, legislative, and judicial branches provided a theoretical counter to absolute monarchy by showing how power could be structured to prevent tyranny. Rather than concentrating power in a single ruler, Montesquieu argued that liberty depended on having different branches of government check and balance each other. His analysis of the English system suggested how mixed government could preserve both authority and liberty. The separation of powers doctrine became foundational to modern constitutional theory and provided the theoretical basis for American governmental structure.
 
+## How It's Best Learned
+Trace one case through a single ruler: a king writes a law against criticism, arrests a critic, and judges him. Then rerun the case with the three powers in separate hands and mark each point where someone can stop it. Finish by matching American checks (veto, override, impeachment, Senate confirmation) to which branch limits which.
+
+## Common Misconceptions
+- Separation of powers means each branch works in isolation from the others. (Montesquieu and later Madison wanted branches that could resist one another. The checks only work because the branches interact.)
+- Montesquieu was the first to propose dividing government power. (Earlier writers, Locke among them, had already distinguished legislative from executive power. Montesquieu's version, with a distinct judicial power, became the most influential.)
+- Montesquieu described English government exactly as it worked. (His account was idealized. In practice, English branches overlapped considerably.)
+- Separation of powers works because it puts good people in charge of each branch. (The doctrine is structural. It aims to protect liberty even when officeholders pursue their own interests.)
+
 ## Questions
 
 ```yaml

@@ -28,7 +28,7 @@ status: draft
 Alternate history explores 'what if' scenarios where a historical event unfolded differently (the South won the Civil War, Nazi Germany won WWII, the Byzantine Empire survived). The divergence point must be plausible, and subsequent history should follow logically from the change, treating history as a complex system where small changes produce large consequences. Alternate history requires rigorous historical knowledge to make both the original and the speculative timeline credible.
 
 ## How It's Best Learned
-Read Harry Turtledove's Southern Victory series and Phillip K. Dick's The Man in the High Castle. Compare how each author handles the divergence point and the logical extrapolation from it.
+Read Harry Turtledove's Southern Victory series and Philip K. Dick's The Man in the High Castle. Compare how each author handles the divergence point and the logical extrapolation from it.
 
 ## Common Misconceptions
 Alternate history is not alternate fantasy; the divergence should be plausible given historical forces. The speculative timeline should follow historical logic, not author convenience.
@@ -68,6 +68,7 @@ Alternate history is not alternate fantasy; the divergence should be plausible g
 
 - question: Why is understanding historical complexity essential to writing effective alternate history, rather than just picking an event to change?
   type: short-answer
+  answer: An author needs to know the economic, social, and political forces of the period to judge what was actually possible and to trace how one change would spread through them. Without that knowledge the new timeline follows author convenience rather than historical logic and stops being credible.
   explanation: Good answers should discuss how understanding underlying historical forces, economic systems, social pressures, and political dynamics allows an author to logically extrapolate consequences from a divergence point. Without this knowledge, the speculative timeline becomes implausible. Effective alternate history shows how changing one event ripples through interconnected systems.
 ```
 

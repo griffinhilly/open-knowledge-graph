@@ -26,6 +26,14 @@ status: draft
 ## Core Idea
 Action thrillers emphasize physical movement, combat, and spectacle. These narratives often feature professional protagonists (soldiers, spies, assassins) executing complex operations. Action serves the plot and tension rather than existing independently; the thrill derives from physical danger, strategic thinking, and the protagonist's competence under pressure.
 
+## How It's Best Learned
+Take one action sequence from a thriller and mark it up beat by beat. For each beat, write what the protagonist wants, what blocks them, and what changes in the plot or the stakes. Then try deleting the sequence. If the story still makes sense without it, the action was spectacle; if a later scene breaks, the action was doing narrative work.
+
+## Common Misconceptions
+- An action thriller is just a string of fights and chases. (The sequences are built to move the plot and raise the stakes, so each one should change the situation the protagonist faces.)
+- The suspense in an action thriller is whether the hero survives. (With a skilled professional lead, much of the tension is whether the plan can be carried out under pressure and how the hero adapts when it goes wrong.)
+- Action scenes are a break from characterization. (The choices a protagonist makes under danger, such as which risks to take and whom to protect, show character directly.)
+
 ## Questions
 
 ```yaml
@@ -61,6 +69,7 @@ Action thrillers emphasize physical movement, combat, and spectacle. These narra
 
 - question: How does the role of action in an action thriller differ from gratuitous action sequences in other stories?
   type: short-answer
+  answer: In an action thriller, each action sequence advances the plot, raises the stakes, or shows the protagonist's competence. Gratuitous action could be removed without changing the story.
   explanation: A good answer should reference how action thrillers use physical sequences to serve plot development and tension-building, rather than as standalone spectacle. Students should demonstrate understanding that action is functional to narrative purpose and character competence demonstration.
 ```
 

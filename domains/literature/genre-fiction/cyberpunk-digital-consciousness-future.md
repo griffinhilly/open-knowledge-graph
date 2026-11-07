@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Cyberpunk explores near-future worlds dominated by artificial intelligence, virtual reality, and digital networks, typically controlled by mega-corporations. The genre investigates identity, corporate power, and human agency in technological systems where consciousness itself may be digital or distributed.
 
+## How It's Best Learned
+Read the scenes in William Gibson's *Neuromancer* featuring the Dixie Flatline, a recorded copy of a dead hacker's mind. List what the construct can and cannot do compared with the living man, and note who controls the recording. Then discuss two questions: is the construct the same person, and what does his final request show about how he sees himself? The case turns abstract questions about digital identity into a concrete one.
+
+## Common Misconceptions
+- Cyberpunk is mainly a look: neon, rain, and chrome. (The style serves a critique of corporate power and of what technology does to identity and agency.)
+- Cyberpunk heroes are idealistic rebels fighting the system. (They are more often hustlers, thieves, and hired hands working at the edges, and their resistance is small and self-interested.)
+- A copied or uploaded mind in cyberpunk is simply the person living on. (The genre usually treats this as an open question, asking about continuity, ownership, and whether the copy is a new being.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Cyberpunk explores near-future worlds dominated by artificial intelligence, virt
 
 - question: How does the possibility of digital or distributed consciousness fundamentally reshape questions about personal identity and human agency in cyberpunk?
   type: short-answer
+  answer: If a mind can be uploaded, copied, or spread across networks, it becomes unclear which version is the real self and whether the self stays continuous. A mind that exists as software can also be owned or altered by corporations, so a person's agency depends on systems others control.
   explanation: Good answers should address how uploading consciousness raises questions about continuity of self, how distributed consciousness challenges unified identity, how consciousness as software rather than biology complicates ownership (corporate control of consciousness), and how agency becomes ambiguous when humans may be running code created by others.
 ```
 

@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Synchronous systems use a global clock signal to coordinate state changes across all flip-flops, ensuring predictable behavior. Clock frequency is limited by the longest combinational path (critical path). Proper clock distribution ensures all flip-flops receive the clock edge simultaneously; skew must be minimized.
 
+## How It's Best Learned
+Draw a timing diagram for two flip-flops joined by 3 ns of logic, with 0.3 ns clock-to-Q delay and 0.2 ns setup time. The minimum period is 0.3 + 3 + 0.2 = 3.5 ns, about 286 MHz. Then delay the receiving flip-flop's clock by 0.5 ns and redraw: the slow path gains time, but a very short path could now change that input before the late edge samples it.
+
+## Common Misconceptions
+- Clock frequency is set by how fast a single transistor can switch. (It is set by the slowest flip-flop-to-flip-flop path plus flip-flop overheads; faster gates raise it by shortening that path.)
+- Any timing failure can be fixed by slowing the clock. (Slowing the clock fixes setup violations on long paths, but a hold violation, where new data races through a short path before a skewed edge samples it, does not depend on the clock period.)
+- In a synchronous circuit every signal changes only at the clock edge. (Flip-flop outputs change just after the edge, but the combinational logic between them keeps switching and can glitch during the cycle; only the values sampled at the next edge count.)
+
 ## Questions
 
 ```yaml

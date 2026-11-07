@@ -19,6 +19,15 @@ status: validated
 ## Core Idea
 Sign-magnitude uses the most significant bit for sign (0=positive, 1=negative) and remaining bits for magnitude. Intuitive but cumbersome for arithmetic because operations depend on comparing signs.
 
+## How It's Best Learned
+Add +3 and −2 in 4-bit sign-magnitude two ways. A plain binary adder gives 0011 + 1010 = 1101, which reads as −5. The sign-magnitude rule sees different signs, subtracts 3 − 2, and keeps the sign of the larger, giving 0001. Then add −3 and −2 (same signs, so add magnitudes: 1101). The contrast shows what extra circuitry the format demands.
+
+## Common Misconceptions
+- To negate a sign-magnitude number, you flip all its bits. (Flipping all bits is one's complement; sign-magnitude flips only the sign bit, so −5 is 1101 in 4 bits, while 1010 means −2.)
+- A standard binary adder handles sign-magnitude numbers. (Feeding +3 and −2 as 0011 and 1010 into a plain adder gives 1101, which reads as −5 instead of +1.)
+- 1000 is the most negative 4-bit value. (That holds in two's complement, where 1000 is −8; in sign-magnitude 1000 is negative zero and the most negative value is 1111, or −7.)
+- Sign-magnitude is no longer used anywhere. (IEEE 754 floating-point numbers store a separate sign bit alongside a magnitude.)
+
 ## Questions
 
 ```yaml

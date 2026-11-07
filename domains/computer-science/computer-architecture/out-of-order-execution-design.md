@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 Out-of-order execution allows instructions to complete before earlier instructions, maximizing hardware utilization. Register renaming removes false data dependencies by mapping logical registers to physical registers, enabling more parallelism.
 
+## How It's Best Learned
+Trace four instructions through a rename table and a reorder buffer by hand: I1 `R1 = load [R2]` (a cache miss), I2 `R3 = R1 + 4`, I3 `R1 = R5 * 2`, I4 `R6 = R1 - 1`. Give each write a fresh physical register (P10 to P13). I3 and I4 can then finish while the load waits, yet they retire after I1 and I2.
+
+## Common Misconceptions
+- An out-of-order processor also updates the programmer-visible registers out of order. (Execution is out of order, but the reorder buffer retires results to architectural state in program order.)
+- Register renaming lets an instruction run before the instruction whose result it needs. (Renaming removes only WAR and WAW hazards; a true RAW dependence still makes the consumer wait for its value.)
+- The compiler chooses which physical register each instruction uses. (Software sees only the architectural registers; the hardware does the mapping to physical registers at run time.)
+- Out-of-order means instructions are fetched out of order. (In typical designs fetch, decode and rename proceed in program order; only issue to the execution units is reordered.)
+
 ## Questions
 
 ```yaml
@@ -51,7 +60,7 @@ Out-of-order execution allows instructions to complete before earlier instructio
   answer: 2
   explanation: "If instructions committed their results to the visible architectural state as soon as they finished executing, an exception in an early instruction would find that later instructions had already modified registers and memory — making precise recovery impossible. The reorder buffer (ROB) holds completed results and releases them to architectural state strictly in program order, so the committed state always reflects what in-order execution would have produced up to that point. This invariant enables precise exception handling and recovery from branch mispredictions."
 
-- question: "Register renaming in out-of-order processors eliminates most data dependencies between instructions."
+- question: "Register renaming in out-of-order processors eliminates all data dependencies between instructions."
   type: true-false
   answer: false
   explanation: "Register renaming eliminates only *false dependencies* — WAW (write-after-write) and WAR (write-after-read) hazards that arise purely from reuse of the same register name. It cannot eliminate true RAW (read-after-write) dependencies, where one instruction genuinely needs the result produced by an earlier instruction. Those real dependencies still enforce ordering constraints. The power of renaming is removing the artificial constraints introduced by the ISA's limited number of architectural registers, revealing the true data-flow graph."

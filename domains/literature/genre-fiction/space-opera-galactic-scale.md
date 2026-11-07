@@ -30,6 +30,11 @@ Space opera features sprawling narratives across multiple worlds, with large-sca
 ## How It's Best Learned
 Compare Frank Herbert's Dune with E.E. 'Doc' Smith's Lensman series or contemporary space operas like Expanse. Notice how political intrigue and personal relationships ground the vast scale.
 
+## Common Misconceptions
+- Space opera is soft SF by definition. (Space opera is defined by scale and adventure, and some works pair galactic scope with real attention to physics; The Expanse, for example, takes acceleration and travel times seriously.)
+- The name means the stories are musical or operatic. (The term was coined by analogy with "horse opera" and "soap opera" as a mocking label for formula adventure, and later lost much of its negative sense.)
+- Space opera is simple good-versus-evil adventure. (Older space opera often was, but many works center political complexity, shifting alliances, and morally mixed factions, as Dune does.)
+
 ## Questions
 
 ```yaml
@@ -65,6 +70,7 @@ Compare Frank Herbert's Dune with E.E. 'Doc' Smith's Lensman series or contempor
 
 - question: How do personal relationships and political intrigue 'ground' the vast galactic scale of space opera narratives?
   type: short-answer
+  answer: "Personal relationships give readers particular people to care about, so a galactic war matters because it threatens them. Political intrigue shows how individual choices, loyalties, and betrayals move the larger power struggle, which ties the vast scale to human decisions."
   explanation: A strong answer should explain that without personal stakes and political consequences for characters, galactic-scale conflicts would feel abstract and disconnected from reader emotions. Personal relationships make readers care about characters caught in galactic events. Political intrigue makes readers understand why individuals matter in massive power struggles. Students should demonstrate understanding that emotional grounding makes epic scale meaningful rather than merely spectacular.
 ```
 

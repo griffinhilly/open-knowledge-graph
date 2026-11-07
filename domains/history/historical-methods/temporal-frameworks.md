@@ -24,10 +24,18 @@ status: validated
 ## Core Idea
 Historical time is not a neutral container but a constructed framework that shapes interpretation. Historians work with multiple time scales simultaneously—human lifespans, generational change, economic cycles, and millennial shifts—each revealing different patterns. Decisions about how to frame chronology (by dynasty, event, century, or structural change) are methodological choices with significant interpretive consequences.
 
+## How It's Best Learned
+Pick one event you already know, such as a famine or a war, and draw three stacked timelines for it: days to years, decades, and centuries. On each line, write one cause that is visible at that scale and one kind of source you would need to see it. Then compare which causes disappear when you move up or down a scale.
+
+## Common Misconceptions
+- Time is a neutral grid, and dates just record when things happened. (Choices of scale, starting point and calendar shape which patterns and causes a historian can see.)
+- The longue durée approach means individual events and choices do not matter. (Braudel ranked events below slower structures and called them surface disturbances. Yet his book on the Mediterranean still gives a full part to events and politics.)
+- A date written in an old source can be read directly on the modern calendar. (Sources may count by reign years, other eras or the Julian calendar, so dates often need conversion.)
+
 ## Questions
 
 ```yaml
-- question: "A historian studying why wages declined for agricultural laborers in 14th-century England focuses on the effects of the Black Death. A second historian studying the same period examines a century of population pressure, land prices, and labor supply trends. Which claim best describes what the second historian can see that the first cannot?"
+- question: "A historian studying why wages rose for agricultural laborers in late 14th-century England focuses on the effects of the Black Death. A second historian studying the same period examines a century of population pressure, land prices, and labor supply trends. Which claim best describes what the second historian can see that the first cannot?"
   type: multiple-choice
   options:
     - "The second historian sees nothing the first doesn't — events are where causes are found"
@@ -73,4 +81,4 @@ The French historian Fernand Braudel made this framework famous in his work on t
 
 This matters methodologically because **your temporal frame selects your evidence**. An event-level history relies on chronicles, correspondence, and eyewitness accounts. A conjunctural history relies on tax records, price series, and demographic registers. A longue-durée history relies on archaeology, climatology, and ecological data. Each level of analysis requires different sources and different techniques. Scholars who work only at one level systematically miss what the other levels reveal. A diplomatic historian who never looks at population trends may miss that the peace they study was driven by demographic exhaustion. A structural historian who never looks at individual decisions may miss that a crisis had plausible alternative outcomes.
 
-**Calendar systems and reference points** add a further layer of complexity: the past was not organized by the Gregorian calendar. Chinese history tracked time by dynastic reigns and sexagenary cycles. Islamic history counted from the Hijra (622 CE). Julian and Gregorian calendars coexisted in Europe until the 18th century, creating dating ambiguities in cross-national sources. Your knowledge of chronometric dating methods gives you tools for anchoring these divergent systems to a common timeline — but it also reminds you that "time" as experienced by historical actors was structured by their own frameworks, not ours. When a medieval chronicler says "in the 23rd year of the king's reign," they are recording time relationally, anchored to a human event, not to an abstract universal grid. Reading historical time requires translating between these frameworks without assuming our own is the natural one.
+**Calendar systems and reference points** add a further layer of complexity: the past was not organized by the Gregorian calendar. Chinese history tracked time by dynastic reigns and sexagenary cycles. Islamic history counted from the Hijra (622 CE). Julian and Gregorian calendars coexisted in Europe into the 20th century, creating dating ambiguities in cross-national sources. Your knowledge of chronometric dating methods gives you tools for anchoring these divergent systems to a common timeline — but it also reminds you that "time" as experienced by historical actors was structured by their own frameworks, not ours. When a medieval chronicler says "in the 23rd year of the king's reign," they are recording time relationally, anchored to a human event, not to an abstract universal grid. Reading historical time requires translating between these frameworks without assuming our own is the natural one.

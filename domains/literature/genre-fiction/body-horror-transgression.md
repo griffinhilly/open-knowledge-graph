@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Body horror emphasizes violation, mutation, or grotesque transformation of the human body. The genre generates fear through visceral physicality: mutation, disease, parasitism, or forced transformation that violates bodily integrity. Body horror often carries metaphorical significance, with physical transgression representing deeper anxieties.
 
+## How It's Best Learned
+Start with the opening pages of Kafka's "The Metamorphosis." List each concrete detail of Gregor's new body, then next to each one write what it takes away from him: his job, his family role, his privacy. This turns the transformation into a map of the anxieties it carries. Repeat the exercise with a contemporary body horror story and compare the two maps.
+
+## Common Misconceptions
+- Body horror is the same thing as gore. (Gore is graphic injury; body horror centers on the body changing, being invaded, or turning against its owner, and it often stands for a wider fear.)
+- Each body horror story has one hidden meaning to decode. (The same transformation can carry several anxieties at once, such as illness, shame, and loss of control, and readers can reasonably disagree about which matters most.)
+- Restraint always makes horror stronger, so the best body horror hints rather than shows. (This genre usually depends on precise physical detail, because the reader's imagined sensation is the source of the fear.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Body horror emphasizes violation, mutation, or grotesque transformation of the h
 
 - question: Why would an author choose body horror as the vehicle for exploring abstract anxieties rather than addressing those anxieties directly?
   type: short-answer
+  answer: Showing an abstract fear as a concrete violation of the body makes readers feel it physically through imagination instead of only thinking about it. It also lets an author approach taboo or uncomfortable subjects in a form readers cannot easily keep at a distance.
   explanation: Good answers should explain that metaphor through bodily violation creates visceral, emotional understanding that abstract discussion cannot achieve. Readers experience the anxiety physically through their imagination of the body's violation. This also allows authors to explore taboo subjects and uncomfortable truths more powerfully because readers must confront them in concrete form rather than abstract form.
 ```
 

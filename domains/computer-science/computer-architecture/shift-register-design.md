@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 A shift register is a chain of flip-flops that shifts data left or right. Serial-in, parallel-out (SIPO) shift registers convert serial data to parallel; parallel-in, serial-out (PISO) do the reverse. Shift registers are used for serial communication, pattern detection, and controlling sequencing of operations.
 
+## How It's Best Learned
+Fill in a clock-by-clock table for a 4-bit SIPO register that starts at 0000 and receives the serial bits 1, 0, 1, 1 into stage Q0. After four edges Q0 to Q3 read 1101, so the first bit to arrive sits at the far end. Then load 1101 into a PISO register and list which bit leaves on each edge.
+
+## Common Misconceptions
+- A longer shift register takes longer to perform one shift. (All the flip-flops share one clock, so a single shift takes one clock period at any length; moving one bit from end to end is what takes N cycles.)
+- Shifting right divides any binary number by two. (A logical right shift fills with 0 and gives wrong answers for negative numbers; an arithmetic shift copies the sign bit and rounds down, so −3 shifted right once is −2.)
+- Shifting and rotating are the same operation. (A shift drops the bit that falls off the end and brings in a fill bit; a rotate feeds the dropped bit back in at the other end.)
+- Level-sensitive latches work just as well as flip-flops in a shift register. (While a shared latch enable is active, data can race through several stages; edge-triggered flip-flops move each bit exactly one stage per clock.)
+
 ## Questions
 
 ```yaml

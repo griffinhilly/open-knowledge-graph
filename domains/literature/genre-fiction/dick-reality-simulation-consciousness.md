@@ -21,6 +21,14 @@ status: draft
 ## Core Idea
 Philip K. Dick's fiction explores questions of identity and reality in worlds where perception cannot be trusted. Protagonists discover false memories, artificial identities, or simulated realities, investigating what it means to be human and real in technologically deceptive worlds.
 
+## How It's Best Learned
+Read Dick's short story "We Can Remember It for You Wholesale," in which a man pays for implanted memories of a trip to Mars. At each twist, write down what the protagonist now believes about his own past and what evidence he has for it. You will find that his proof keeps coming from the same people and machines that may be deceiving him. That pattern is the engine of Dick's fiction.
+
+## Common Misconceptions
+- Dick's plots work like puzzles that end once the true reality is revealed. (Many of his stories end with the uncertainty still in place, or with one false layer giving way to another.)
+- In Dick's fiction, humans and androids are clearly different, and the androids are the threat. (In *Do Androids Dream of Electric Sheep?* the test for androids measures empathy, and the novel shows humans who lack it, which blurs the line it is meant to draw.)
+- Dick's paranoid characters are presented as mentally ill. (Their suspicion often turns out to be justified, so the stories treat paranoia as a reasonable response to a world that really is deceiving them.)
+
 ## Questions
 
 ```yaml
@@ -56,6 +64,7 @@ Philip K. Dick's fiction explores questions of identity and reality in worlds wh
 
 - question: Why does the possibility that one's memories might be false or one's identity might be artificially constructed create existential crisis in Dick's fiction?
   type: short-answer
+  answer: Our sense of who we are rests on memory and a continuous past. If memories can be implanted or identity built artificially, a character cannot trust that past or answer "what am I?", and the doubt spreads to everything else they perceive as real.
   explanation: Good answers should explain that identity is typically constructed from memory and continuous selfhood. If memories can be implanted, you cannot trust your past. If identity is artificial, your sense of self is unstable. Without reliable memory and identity, the question 'what am I?' becomes genuinely unanswerable. This extends to reality itself—if identity can be false, what else about your perceived reality might be false?
 ```
 

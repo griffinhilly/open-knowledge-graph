@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 The same events look different depending on the time scale you use. A revolution seems dramatic over decades but might be minor in a century-long trend or insignificant in a millennium. Different scales (event, decade, century, millennium) suit different questions; historians must be clear about temporal framing.
 
+## How It's Best Learned
+Treat scale like the zoom on a map. Take one long data series, such as a country's population or grain prices, and sketch it over a 10-year, a 100-year and a 1,000-year window around the same event. Note how the event looks in each. Then read two historians who disagree about that event and name the scale each is using.
+
+## Common Misconceptions
+- The long view is the deeper, truer one, and short-term detail is noise. (Each scale answers different questions. Event-level work shows contingency and choice that long-run views can hide.)
+- If two historians call the same event a rupture and a minor episode, one of them must be wrong. (They may be working at different time scales, and each claim can hold at its own scale.)
+- A historian's time scale is set by the topic. (The historian chooses the scale to fit the question, and the same topic can be studied at several scales.)
+
 ## Questions
 
 ```yaml

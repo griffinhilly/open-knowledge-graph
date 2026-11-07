@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Psychological horror generates fear through threats to mental stability and perception. Rather than physical monsters, it employs unreliable narration, paranoia, obsession, or dissolution of reality. Horror emerges from internal psychological threats: madness, guilt, trauma, or inability to trust one's own mind.
 
+## How It's Best Learned
+Read a short first-person horror story such as Poe's "The Tell-Tale Heart." Make two columns: what the narrator reports, and what an outside observer in the room would likely see. Mark the point where the columns split, and name the state (guilt, fear, obsession) that drives the gap. That gap is where the story's fear comes from.
+
+## Common Misconceptions
+- Psychological horror never involves the supernatural. (Many works keep a ghost or curse ambiguous, so the reader cannot tell whether the threat is real or produced by the character's mind.)
+- Psychological horror is horror without violence. (Violence can appear; what marks the subgenre is that the fear comes from the character's mental state and perception rather than from the violent act.)
+- Once the narrator is revealed as unstable, the mystery is solved and the horror ends. (The reveal often deepens the horror, because the reader has shared that distorted view and cannot fully sort what was real.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Psychological horror generates fear through threats to mental stability and perc
 
 - question: How does guilt and trauma function as a source of horror in psychological horror narratives?
   type: short-answer
+  answer: "Guilt and trauma are internal states that erode the protagonist's stability and perception, producing intrusive memories, hallucinations, or paranoia. They frighten because the protagonist cannot flee them the way one flees a monster; the threat is part of the self."
   explanation: A good answer should explain that guilt and trauma are internal states that undermine mental stability and create psychological torment. Students should demonstrate understanding that past psychological wounds can be as threatening as external monsters because they attack the protagonist's sense of self and reality.
 ```
 

@@ -22,7 +22,16 @@ status: validated
 # Thomas Hobbes and the Leviathan
 
 ## Core Idea
-Thomas Hobbes' *Leviathan* (1651) proposed that people rationally contract to create a sovereign authority to escape the violent 'state of nature' where life is 'nasty, brutish, and short.' Hobbes argued for absolute monarchy as the only guarantee of order and security, establishing social contract theory as the dominant framework for understanding political legitimacy in early modern thought.
+Thomas Hobbes' *Leviathan* (1651) proposed that people rationally contract to create a sovereign authority to escape the violent 'state of nature' where life is 'nasty, brutish, and short.' Hobbes argued for an absolute sovereign, which he thought best held by a monarch, as the only guarantee of order and security, establishing social contract theory as the dominant framework for understanding political legitimacy in early modern thought.
+
+## How It's Best Learned
+Set up the two-farmers case as a grid: each farmer can attack or hold back, with no one to enforce promises. Check each cell and see why striking first looks safer for both. Then add a sovereign who punishes attackers and redo the grid. Read the result alongside the Civil War: the king was executed in 1649, and *Leviathan* appeared in 1651.
+
+## Common Misconceptions
+- Hobbes believed people are naturally evil. (His argument rests on the situation. With no one to enforce agreements, even peaceful people have reason to strike first.)
+- Hobbes defended the divine right of kings. (He grounded the sovereign's authority in the consent of subjects seeking security, not in God's appointment.)
+- Hobbes held that subjects may never resist the sovereign for any reason. (He allowed resistance when the sovereign fails to protect a subject's life, the purpose for which the contract was made.)
+- Hobbes's state of nature describes a real period before governments existed. (He used it mainly as a thought experiment about life without a common power. Civil war gave him a glimpse of what it would look like.)
 
 ## Questions
 

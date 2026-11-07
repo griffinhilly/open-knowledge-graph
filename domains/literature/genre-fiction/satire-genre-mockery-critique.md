@@ -24,6 +24,14 @@ status: draft
 ## Core Idea
 Satire uses exaggeration, irony, and ridicule to critique social systems, institutions, or ideologies. Literary satire combines sharp observation with formal wit, employing narrative conventions as tools for exposure. Unlike parody (which mocks individual works or styles), satire targets institutions or ideologies, using genre conventions and realistic detail to reveal absurdities and contradictions.
 
+## How It's Best Learned
+Start with Swift's "A Modest Proposal." Write the speaker's literal proposal in one sentence and its real target in another: the treatment of Ireland's poor. Then mark three places where the calm, reasonable tone makes the proposal more horrifying. The exercise shows how exaggeration delivered with a straight face exposes a real cruelty.
+
+## Common Misconceptions
+- Satire has to be funny. (Ridicule is its tool, but some satire is bleak or savage, and any laughter it draws serves the critique.)
+- Any story that exaggerates is satire. (Exaggeration becomes satire when it points at a real target in the world; exaggeration for its own sake is farce or absurd comedy.)
+- The speaker in a satire states the author's views. (Many satires use a speaker whose views the author is attacking, so readers have to read past the literal statements to find the critique.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +67,7 @@ Satire uses exaggeration, irony, and ridicule to critique social systems, instit
 
 - question: Why is the combination of sharp observation with formal wit important for effective satire?
   type: short-answer
+  answer: "Sharp observation finds real contradictions and absurdities in an institution, so the critique has a true target. Formal wit turns those findings into exaggeration and irony that readers enjoy and remember, which helps the critique land."
   explanation: A strong answer should explain that sharp observation reveals genuine absurdities in social systems while formal wit makes those absurdities entertaining and memorable. Students should demonstrate understanding that satire requires both intellectual rigor (spotting real contradictions) and stylistic skill (making the critique witty and engaging).
 ```
 

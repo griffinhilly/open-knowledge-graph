@@ -29,6 +29,14 @@ status: draft
 ## Core Idea
 Detective fiction centers on a protagonist using logic, observation, or intuition to solve a crime or puzzle. Detectives vary by method (deductive reasoning like Sherlock Holmes, intuitive insight like Columbo, systematic procedure like modern police procedurals) and by social position (professional investigator, amateur, reluctant solver). The detective's character—quirks, limitations, motivations—shapes both the investigation's nature and the mystery's meaning.
 
+## How It's Best Learned
+Invent one simple crime, such as a man found dead in his study with the window open. Write a paragraph showing how a Holmes-style deducer, a Marple-style amateur, and a police procedural team would each start the investigation. Note what each one looks at first and whom each one questions. Then compare what the story becomes about in each version: physical traces, human nature, or careful routine.
+
+## Common Misconceptions
+- A detective's quirks are color added to make the character memorable. (The best-drawn quirks are tied to how the detective notices things, so they shape the investigation itself.)
+- The best fictional detectives are lone geniuses. (Brilliance is one model; procedurals and many amateur sleuth stories show truth emerging from teamwork, persistence, or local knowledge.)
+- A detective's limitation is a weakness the plot has to work around. (Many authors turn the limitation into an advantage, as when suspects underestimate a detective who seems harmless or slow.)
+
 ## Questions
 
 ```yaml
@@ -64,6 +72,7 @@ Detective fiction centers on a protagonist using logic, observation, or intuitio
 
 - question: How does matching the detective's method and personality to their social position create coherent character?
   type: short-answer
+  answer: A detective is coherent when the method fits the position. A professional uses the procedures and resources of an institution, an amateur draws on local knowledge and an outsider's view, and a reluctant solver is pushed in by personal stakes.
   explanation: Good answers should explain that a professional investigator's systematic procedures fit their institutional position, while an amateur's intuitive insight comes from their outsider perspective. A reluctant solver must be forced or motivated by personal stakes. The detective's methods make sense given their position and motivations, creating characters where everything coheres.
 ```
 

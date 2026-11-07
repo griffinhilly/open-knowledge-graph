@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Voltaire attacked religious intolerance, dogmatism, and clerical authority, advocating for religious freedom and rational deism as alternatives to orthodox Christianity. Voltaire's polemical writings popularized Enlightenment critique of religious establishment and directly challenged the intellectual legitimacy of the ancien régime.
 
+## How It's Best Learned
+Sort Voltaire's positions into four rows: belief in a Creator (kept), miracles and revelation (rejected), the Church as an institution (attacked), and monarchy (kept, but reformed from above). Then read the chapters of *Candide* set in Lisbon, with the earthquake and the auto-da-fé, beside the Calas case. Ask which row each passage attacks.
+
+## Common Misconceptions
+- Voltaire was an atheist who wanted to abolish belief in God. (He was a deist. He held that a rational Creator made the universe and regarded atheism as another kind of dogmatism.)
+- "Écrasez l'infâme" was a call to destroy all religion. (The slogan targeted fanaticism and institutional intolerance, not belief in God.)
+- Voltaire wanted a democratic revolution. (He favored enlightened despotism, meaning reform from above by rational monarchs. Later radicals took his critique further than he did.)
+- Voltaire wrote "I disapprove of what you say, but I will defend to the death your right to say it." (That line comes from Evelyn Beatrice Hall's 1906 book about him. She wrote it as a summary of his attitude.)
+
 ## Questions
 
 ```yaml
@@ -46,7 +55,7 @@ Voltaire attacked religious intolerance, dogmatism, and clerical authority, advo
   answer: 1
   explanation: "Voltaire explicitly rejected atheism as another form of dogmatism. His position was deism: God designed the universe and set natural laws in motion, but further intervention through miracles, revealed scripture, and priestly intermediaries was a human invention. Reason, not revelation, was the path to moral truth. This was not unique to Voltaire — Jefferson, Franklin, and many philosophes held similar views — but Voltaire was distinctive for the wit and ferocity with which he advanced it in popular works like Candide."
 
-- question: "Voltaire's religious critique was primarily aimed at converting France to atheism and eliminating belief in God largely."
+- question: "Voltaire's religious critique was primarily aimed at converting France to atheism and eliminating belief in God."
   type: true-false
   answer: false
   explanation: "Voltaire explicitly rejected atheism, calling it as dogmatic as orthodox belief. His target was institutional religion — the Church as a political and coercive structure — and the specific claims of miracles, revelation, and priestly authority. His slogan 'Écrasez l'infâme' referred to fanaticism and institutional intolerance, not to theism. His deism retained a Creator but stripped away the institutional apparatus. Voltaire was attacking the Church's power and its record of persecution, not arguing that God does not exist."

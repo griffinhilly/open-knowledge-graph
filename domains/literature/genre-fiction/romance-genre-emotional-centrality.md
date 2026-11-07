@@ -27,6 +27,11 @@ Romance fiction centers on two protagonists whose emotional and romantic develop
 ## How It's Best Learned
 Read romance from different eras and subgenres (Austen, contemporary romance, paranormal romance). Notice how each defines 'romantic satisfaction' and 'happy ending' differently.
 
+## Common Misconceptions
+- Romance novels are interchangeable formula. (Genre romance shares a central relationship and a satisfying ending, but the subgenres, settings, and barriers between the leads vary widely, and much of the craft lies in how a book reaches the expected ending.)
+- The expected happy ending makes romance shallow. (A promised ending shifts the reader's attention to how the characters change; the expectation is a genre convention and says nothing by itself about a book's depth.)
+- The emotional arc belongs to one protagonist, and the love interest is the prize. (Romance usually develops both protagonists, and many novels alternate point of view between them so readers follow both arcs.)
+
 ## Questions
 
 ```yaml
@@ -62,6 +67,7 @@ Read romance from different eras and subgenres (Austen, contemporary romance, pa
 
 - question: How do different eras of romance fiction define 'romantic satisfaction' and 'happy ending' differently?
   type: short-answer
+  answer: "In Austen's novels, satisfaction usually means a well-matched marriage that often also settles questions of money and social position. Contemporary romance keeps the promise of a fulfilling resolution but widens it to include committed partnerships without marriage, varied sexualities, and other relationship structures."
   explanation: A strong answer should provide examples showing how romance's definition of success has evolved. Students might reference how Austen's marriage-based endings differ from contemporary romance's expanded possibilities. They should demonstrate understanding that 'happy ending' is not a fixed concept but changes with social values and literary innovation.
 ```
 

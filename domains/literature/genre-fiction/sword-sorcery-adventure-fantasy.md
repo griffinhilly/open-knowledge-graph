@@ -23,6 +23,14 @@ status: draft
 ## Core Idea
 Sword and sorcery features smaller-scale adventures and personal quests rather than world-saving conflicts. These narratives emphasize action, immediate survival, and pragmatic heroism over grand destiny or prophetic significance. Sword and sorcery often features morally ambiguous protagonists operating in dangerous worlds, prioritizing concrete objectives over ideological triumph.
 
+## How It's Best Learned
+Read one of Fritz Leiber's Fafhrd and the Gray Mouser stories next to a chapter of an epic fantasy such as The Lord of the Rings. For a key scene in each, write what the hero wants and what is lost if they fail. The sword-and-sorcery answers tend to be personal, such as loot, a friend, or the hero's own life, while the epic answers reach whole kingdoms.
+
+## Common Misconceptions
+- Sword and sorcery is a less ambitious version of epic fantasy. (It is a separate form aimed at a different satisfaction, built on personal and immediate stakes instead of the fate of the world.)
+- Sword-and-sorcery heroes are brutes who win by strength alone. (Many survive by cunning; Leiber's Gray Mouser is a thief who lives by his wits.)
+- Magic is the hero's main tool in sword and sorcery. (Sorcery more often belongs to villains and is dangerous or corrupting, while the hero relies on a blade and quick thinking.)
+
 ## Questions
 
 ```yaml
@@ -58,6 +66,7 @@ Sword and sorcery features smaller-scale adventures and personal quests rather t
 
 - question: Why do morally ambiguous protagonists work better in sword and sorcery than in high-fantasy epics?
   type: short-answer
+  answer: "Sword and sorcery centers on personal survival and concrete goals in dangerous worlds, so a thief or mercenary acting for gain fits the stakes. High-fantasy epics often cast the hero as a champion of good against cosmic evil, which pushes the hero toward moral clarity."
   explanation: A strong answer should explain that high-fantasy epics often require protagonists to represent ideological forces (good vs. evil) while sword and sorcery focuses on immediate pragmatic survival, which doesn't require moral purity. Students should demonstrate understanding that the scale and stakes of the narrative genre determines what character types work.
 ```
 

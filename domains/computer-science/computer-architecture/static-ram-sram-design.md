@@ -22,7 +22,15 @@ status: validated
 # Static RAM (SRAM) Cell Design and Arrays
 
 ## Core Idea
-An SRAM cell is a cross-coupled NOR or NAND latch that stores one bit and requires continuous power. Unlike DRAM, SRAM is fast (single-cycle access) but power-hungry and area-inefficient. SRAM arrays use row and column decoders for addressing. Register files and caches are typically built from SRAM; main memory uses DRAM.
+An SRAM cell is a latch made of two cross-coupled inverters that stores one bit and requires continuous power. Unlike DRAM, SRAM is fast (single-cycle access) but power-hungry and area-inefficient. SRAM arrays use row and column decoders for addressing. Register files and caches are typically built from SRAM; main memory uses DRAM.
+
+## How It's Best Learned
+Draw the six-transistor cell and label the nodes Q and Q̄, the word line, and the bit lines BL and BL̄. Walk a read of a stored 1: precharge both bit lines high, raise the word line, and watch the Q̄ = 0 side pull BL̄ slightly low. Then walk a write of 0, with drivers forcing BL low until the inverters flip. Finish by placing the cell in a 4×4 array with a row decoder and column multiplexer.
+
+## Common Misconceptions
+- "Static" means SRAM keeps its data when the power is off. (Static means no refresh is needed while powered; SRAM is volatile and loses its contents when power is removed.)
+- Reading an SRAM cell destroys the stored bit, as reading a DRAM cell does. (The cross-coupled inverters keep driving the stored value during a read, so the cell does not need to be rewritten afterward.)
+- The word line carries the bit being read or written. (The word line selects which row of cells connects to the bit lines; the data itself travels on the complementary bit-line pair.)
 
 ## Questions
 

@@ -1,0 +1,77 @@
+domains/literature/genre-fiction/genre-conventions-tropes-archetypes.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/genre-evolution-publishing-markets.md	how	3	0	ok
+domains/literature/genre-fiction/genre-evolution-publishing-markets.md	mis	8	0	ok
+domains/literature/genre-fiction/genre-evolution-publishing-markets.md	q:4:answer	1	0	ok	old explainer ties early Gothic to "the printing press's affordances for serialization"; dubious, left unchanged
+domains/literature/genre-fiction/genre-fiction-defining-characteristics.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/genre-fiction-vs-literary.md	mis	8	0	ok
+domains/literature/genre-fiction/genre-fiction-vs-literary.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/genre-fiction-vs-literary.md	old:q:3:explanation	1	1	fixed	said the Core Idea lists Handmaid's Tale; it is the How It's Best Learned section
+domains/literature/genre-fiction/genre-subgenres-taxonomy.md	mis	8	0	ok
+domains/literature/genre-fiction/genre-subgenres-taxonomy.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/genre-world-building-consistency.md	mis	8	0	ok
+domains/literature/genre-fiction/genre-world-building-consistency.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/gothic-romance-desire-danger.md	mis	8	0	ok
+domains/literature/genre-fiction/gothic-romance-desire-danger.md	q:4:answer	1	0	ok	Jane Eyre/Thornfield/third-storey laughter details correct
+domains/literature/genre-fiction/grimdark-nihilism-decay.md	how	2	0	ok
+domains/literature/genre-fiction/grimdark-nihilism-decay.md	mis	6	0	ok
+domains/literature/genre-fiction/grimdark-nihilism-decay.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/hard-sf-extrapolation-rigor-scientific.md	how	2	0	ok	Mars one-way light delay ~3-22 min verified
+domains/literature/genre-fiction/hard-sf-extrapolation-rigor-scientific.md	mis	6	0	ok
+domains/literature/genre-fiction/hard-sf-extrapolation-rigor-scientific.md	q:4:answer	1	0	ok	old explainer lists faster-than-light travel as a hard-SF premise, in tension with its own "real physical laws" claim; left unchanged
+domains/literature/genre-fiction/hardboiled-detective-noir-cynicism.md	how	2	0	ok
+domains/literature/genre-fiction/hardboiled-detective-noir-cynicism.md	mis	8	0	ok
+domains/literature/genre-fiction/hardboiled-detective-noir-cynicism.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/hardboiled-noir-moral-ambiguity.md	q:4:answer	1	0	ok	Chandler first person / Maltese Falcon external narration correct
+domains/literature/genre-fiction/haunted-house-space-trauma.md	how	2	0	ok
+domains/literature/genre-fiction/haunted-house-space-trauma.md	mis	6	0	ok
+domains/literature/genre-fiction/haunted-house-space-trauma.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/high-fantasy-secondary-world.md	how	3	0	ok
+domains/literature/genre-fiction/high-fantasy-secondary-world.md	mis	8	1	fixed	"Magic hidden in our world is urban fantasy" overstated; such stories are also called contemporary or low fantasy; softened to "usually called contemporary or urban fantasy"
+domains/literature/genre-fiction/high-fantasy-secondary-world.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/historical-fiction-period-voice.md	how	3	0	ok	"okay" first attested 1839 verified
+domains/literature/genre-fiction/historical-fiction-period-voice.md	mis	8	0	ok
+domains/literature/genre-fiction/historical-fiction-period-voice.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/historical-fiction-research-invention.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/jackson-domestic-horror-uncanny.md	how	2	0	ok	Lottery details (stones, black box, Tessie late) correct
+domains/literature/genre-fiction/jackson-domestic-horror-uncanny.md	mis	8	0	ok
+domains/literature/genre-fiction/jackson-domestic-horror-uncanny.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/jackson-domestic-horror-uncanny.md	old:ex	1	1	fixed	"a mother is poisoning her son" matches no Jackson work; changed to "a young woman poisoned her own family" (We Have Always Lived in the Castle)
+domains/literature/genre-fiction/king-everyday-evil-supernatural.md	how	2	0	ok
+domains/literature/genre-fiction/king-everyday-evil-supernatural.md	mis	6	0	ok
+domains/literature/genre-fiction/king-everyday-evil-supernatural.md	q:4:answer	1	0	ok	old explainer files Cujo (rabid dog) under supernatural horror; arguable, left unchanged
+domains/literature/genre-fiction/le-guin-anthropological-thought-experiment.md	how	3	0	ok	Genly Ai, Gethen, field-notes chapter correct
+domains/literature/genre-fiction/le-guin-anthropological-thought-experiment.md	mis	6	0	ok
+domains/literature/genre-fiction/le-guin-anthropological-thought-experiment.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/le-guin-anthropological-thought-experiment.md	old:ex	1	1	fixed	typo "ambisexually" -> "ambisexual"
+domains/literature/genre-fiction/literary-fiction-vs-genre-debate.md	how	2	0	ok
+domains/literature/genre-fiction/literary-fiction-vs-genre-debate.md	mis	6	0	ok
+domains/literature/genre-fiction/literary-fiction-vs-genre-debate.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/literary-fiction-vs-genre-debate.md	old:ex	2	2	fixed	typos "Magaret Atwood" and "millions copies"
+domains/literature/genre-fiction/locked-room-mystery-impossible-crime.md	how	2	0	ok	Rue Morgue window (broken nail, spring catch) consistent
+domains/literature/genre-fiction/locked-room-mystery-impossible-crime.md	mis	6	0	ok
+domains/literature/genre-fiction/locked-room-mystery-impossible-crime.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/love-triangle-competing-desires.md	how	2	0	ok
+domains/literature/genre-fiction/love-triangle-competing-desires.md	mis	8	0	ok
+domains/literature/genre-fiction/love-triangle-competing-desires.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/lovecraft-eldritch-forbidden-knowledge.md	how	3	0	ok	Call of Cthulhu sources (Angell papers, Wilcox relief, Legrasse, Johansen) correct
+domains/literature/genre-fiction/lovecraft-eldritch-forbidden-knowledge.md	mis	8	0	ok	Derleth naming of Cthulhu Mythos correct
+domains/literature/genre-fiction/lovecraft-eldritch-forbidden-knowledge.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/magic-systems-rules-cosmology.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/mystery-genre-puzzle-structure.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/mystery-technique-misdirection-clues.md	how	3	0	ok
+domains/literature/genre-fiction/mystery-technique-misdirection-clues.md	mis	8	0	ok
+domains/literature/genre-fiction/mystery-technique-misdirection-clues.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/noir-aesthetic-moral-corruption.md	how	3	0	ok	Cain novel / Wilder 1944 film correct
+domains/literature/genre-fiction/noir-aesthetic-moral-corruption.md	mis	6	0	ok
+domains/literature/genre-fiction/noir-aesthetic-moral-corruption.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/noir-aesthetic-moral-corruption.md	old:ex	1	1	fixed	duplicated word "institutions, institutions" removed
+domains/literature/genre-fiction/noir-moral-ambiguity-corruption.md	how	2	0	ok
+domains/literature/genre-fiction/noir-moral-ambiguity-corruption.md	mis	6	0	ok
+domains/literature/genre-fiction/noir-moral-ambiguity-corruption.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/paranormal-romance-supernatural-love.md	mis	8	0	ok
+domains/literature/genre-fiction/paranormal-romance-supernatural-love.md	q:4:answer	1	0	ok	consistent with file; note Anita Blake is usually shelved as urban fantasy and predates Twilight, so "deconstructs" framing (old How) is shaky
+domains/literature/genre-fiction/paranormal-romance-supernatural-love.md	old:q:4:explanation	1	1	fixed	typo "deconstuctive"
+domains/literature/genre-fiction/portal-fantasy-threshold-crossing.md	how	3	0	ok
+domains/literature/genre-fiction/portal-fantasy-threshold-crossing.md	mis	8	0	ok
+domains/literature/genre-fiction/portal-fantasy-threshold-crossing.md	q:4:answer	1	0	ok
+domains/literature/genre-fiction/psychological-horror-mind-dissolution.md	q:4:answer	1	0	ok	Yellow Wallpaper details correct; old How pairs "The Lottery" with tracking a protagonist's sanity, a poor fit, left unchanged

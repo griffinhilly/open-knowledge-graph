@@ -31,6 +31,14 @@ status: validated
 ## Core Idea
 Theoretical frameworks—from Marxism to postcolonialism, structuralism to microhistory—shape which questions historians ask and what counts as evidence. Rather than treating theory as separate from practice, historians integrate theoretical insights with archival work and evidence analysis. Good historical work is simultaneously theoretically informed and empirically grounded.
 
+## How It's Best Learned
+Take one small source, such as a page of a parish register or a factory wage book. Write the question a Marxist, a gender historian and a microhistorian would each bring to it, and what each would count as evidence. Then read the page and note one detail that would surprise or complicate each framework. This shows theory shaping the questions and the evidence answering back.
+
+## Common Misconceptions
+- Good historians avoid theory and just let the sources speak. (Every historian brings assumptions about what matters. Leaving them unstated hides them from scrutiny without removing them.)
+- Once you pick a theoretical framework, the job is to fit the evidence into it. (Evidence can contradict a framework, and good practice revises the framework when it does.)
+- Theory belongs to big structural studies, while close work on a single case is purely empirical. (Microhistory, such as Ginzburg's study of one miller, relies on theoretical ideas about popular culture and how ideas spread.)
+
 ## Questions
 
 ```yaml

@@ -35,6 +35,15 @@ status: validated
 ## Core Idea
 Transnational and connected history methods study processes, people, and ideas that cross borders and link different regions and societies. Rather than treating nations as bounded analytical units, these approaches trace networks, migrations, exchanges, and entanglements that shaped human experience. This methodology requires working across archives, languages, and traditions of scholarship to reveal hidden connections.
 
+## How It's Best Learned
+Pick one traveling thing, such as a sugar shipment, a pamphlet or one migrant's life, and draw its route on a map. At each stop, note which state, archive and language would hold its record. Then cover all but one country and list what that single national archive would miss. Compare this with a side-by-side comparison of the same two places.
+
+## Common Misconceptions
+- Transnational history is comparative history with more countries. (Comparison sets cases side by side. Connected history traces the links through which the cases shaped each other.)
+- Studying connections means nations and borders do not matter. (States, borders and archives shaped how people and goods moved, and the approach often studies how nations were formed through those connections.)
+- If two places were in contact, influence between them is proven. (Contact shows a possible channel. The historian still needs evidence of what actually moved and what effect it had.)
+- Transnational history requires a world-scale topic. (It can follow a single person, object or idea across a few borders.)
+
 ## Questions
 
 ```yaml
@@ -42,7 +51,7 @@ Transnational and connected history methods study processes, people, and ideas t
   type: multiple-choice
   options:
     - "Historian A — comparative methods with controlled variables produce more reliable causal claims about divergence"
-    - "Historian B — Britain and India's divergent development was produced through a relationship, and tracing that relationship is the only way to understand it"
+    - "Historian B — Britain and India's divergent development was produced through a relationship, and tracing that relationship is needed to understand it"
     - "Historian A — national archives provide more complete and reliable sources than cross-border evidence"
     - "Historian B — comparative history cannot handle economic or colonial questions"
   answer: 1

@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Urban fantasy overlays magical systems onto contemporary urban settings, where magic exists secretly alongside ordinary reality through concealment or disbelief. The genre blends fantasy wonder with the mundane details and challenges of city life, grounding magical conflict in recognizable locations.
 
+## How It's Best Learned
+Pick a city street you know well and draft one page about a magical presence hidden there. Decide who can see it, how ordinary people explain it away, and which everyday system (rent, cameras, police) threatens to expose it. Then compare your choices with the opening of Neil Gaiman's Neverwhere, where a hidden London Below sits under the real city.
+
+## Common Misconceptions
+- Any fantasy set in a city is urban fantasy. (An invented city in a secondary world is still secondary-world fantasy; urban fantasy uses a recognizable contemporary world.)
+- Because magic is hidden, the mundane world does not matter much. (Much of the drama comes from mundane pressures, such as rent, surveillance, and police, that limit what magical characters can do.)
+- Concealment means ordinary people never notice the magic. (Many stories turn on the moment an ordinary person sees through the concealment and is pulled into the hidden world, as in Neverwhere.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Urban fantasy overlays magical systems onto contemporary urban settings, where m
 
 - question: How does the secrecy or concealment of magic change the experience of urban fantasy compared to secondary-world fantasy?
   type: short-answer
+  answer: "Secrecy forces characters to hide magic from cameras, police, and neighbors, so fear of discovery and the gap between what ordinary people believe and what is true drive the tension. In a secondary world where magic operates openly, those constraints and that dramatic irony largely disappear."
   explanation: A strong answer should explain that secrecy creates tension about discovery and forces magic to adapt to mundane constraints (hiding from technology, surveillance, law enforcement). Students should demonstrate understanding that the overlay of magic onto a recognizable contemporary world creates different narrative possibilities than a secondary world where magic operates openly and without mundane interference.
 ```
 

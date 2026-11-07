@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Fan fiction comprises stories written by fans using characters and worlds from established media. Fan fiction transforms source material through new narratives, alternative relationships, or thematic reinterpretation. Fan communities create collaborative networks and shared universes, raising questions about authorship, adaptation, and creative ownership.
 
+## How It's Best Learned
+Pick one scene from a book or show you know well. Sketch how three common fan forms would change it: a missing scene set just before or after it, the same events told by a minor character, and an alternate universe that keeps the characters but moves the setting. For each sketch, note which canon facts you kept and which you dropped. That shows how fans decide what about a work cannot be changed.
+
+## Common Misconceptions
+- Fan fiction began with the internet. (Fans circulated stories in printed fanzines long before, notably in *Star Trek* fandom from the late 1960s, and the internet greatly widened their reach.)
+- Fan fiction is legal as long as no one is paid for it. (Being non-commercial can help a fair use argument, but the legal status of fan works is unsettled and depends on the jurisdiction and the case.)
+- Fan fiction is mostly about romance between characters. (Romantic pairings are popular, but fans also write missing scenes, character studies, crossovers, and stories that repair or rethink a canon ending.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Fan fiction comprises stories written by fans using characters and worlds from e
 
 - question: How does fan fiction's transformative approach to source material differ from adaptation, and why might this distinction matter legally and creatively?
   type: short-answer
+  answer: Adaptation usually aims for fidelity as it moves a work to a new medium, while fan fiction deliberately changes the source to serve the fan's vision and the community's interests. Under US copyright law, how transformative a work is bears on whether a fan work counts as fair use or as infringement of a derivative-work right.
   explanation: 'Good answers should address that adaptation typically seeks fidelity to source material while fan fiction explicitly transforms it. Creative: fan fiction prioritizes the fan''s vision and community over author intent. Legal: questions about derivative works, copyright, fair use, and whether transformation constitutes fair use or copyright infringement. Answers should reflect understanding that fan fiction is explicitly about making source material serve new creative purposes.'
 ```
 

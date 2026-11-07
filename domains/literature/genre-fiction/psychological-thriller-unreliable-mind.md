@@ -27,6 +27,14 @@ status: draft
 ## Core Idea
 Psychological thrillers locate threat in the mind—in unreliable narrators, gaslighting, hidden motivations, and psychological warfare. These narratives exploit reader identification with a narrator whose perception proves demonstrably false or incomplete. Trust becomes the central suspense; the thriller's impact often depends on readers discovering they've been manipulated or misled alongside the protagonist.
 
+## How It's Best Learned
+After finishing a psychological thriller with a late reveal, reread the first few chapters. Highlight each sentence that reads differently now that you know the truth. Sort each one as a lie, an omission, or the narrator's own misreading. The sorted list shows how the author built your trust while still leaving fair evidence on the page.
+
+## Common Misconceptions
+- An unreliable narrator in a thriller is a narrator who lies to the reader. (Unreliability can come from deliberate deception, self-deception, missing information, or a perception that another character is manipulating, as in gaslighting.)
+- Once you know the twist, a psychological thriller has nothing left to offer. (A well-built thriller plants evidence that a reread brings out, and seeing how the trust was constructed is part of the genre's appeal.)
+- Psychological thrillers and psychological horror are the same thing. (Both work through unstable perception, but thrillers usually drive toward uncovering a hidden truth or scheme, while psychological horror dwells on the dread of a mind coming apart.)
+
 ## Questions
 
 ```yaml
@@ -62,6 +70,7 @@ Psychological thrillers locate threat in the mind—in unreliable narrators, gas
 
 - question: Why is reader identification with the narrator particularly important for the success of a psychological thriller?
   type: short-answer
+  answer: "Readers must accept and sympathize with the narrator's view so that the revelation of unreliability lands as a betrayal of their own trust. Without that identification, the twist reads as new information rather than as the reader's own experience of being misled."
   explanation: A strong answer should explain that readers must trust and identify with the narrator to experience the betrayal when that narrator proves unreliable. Without initial identification, the revelation of unreliability loses its impact. Students should demonstrate understanding that the emotional effectiveness of the twist depends on having been misled.
 ```
 

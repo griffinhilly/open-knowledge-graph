@@ -28,6 +28,12 @@ European political development during the early modern period involved the progr
 ## How It's Best Learned
 Compare the institutional structure of medieval kingdoms with early modern states to see how bureaucratic centralization occurred. Examine specific examples like France under Richelieu or Spain under the Habsburgs.
 
+## Common Misconceptions
+- Kings centralized their states mainly by declaring that their power was absolute. (Claims of authority needed institutions to enforce them. Intendants, permanent taxes, and standing armies did the actual work of centralization.)
+- Medieval kings already governed their whole kingdoms directly. (Medieval kingdoms were networks of personal lordship. Nobles, the Church, and chartered cities each had their own courts and legal powers.)
+- Every European state followed the same path to absolute monarchy. (England ended with a parliamentary monarchy, and the Holy Roman Empire stayed a patchwork of principalities. Centralization took different forms in different places.)
+- Sovereignty meant a ruler could do anything at all. (For Bodin, sovereignty meant no higher human authority within the territory. He still held that the sovereign was bound by divine and natural law.)
+
 ## Questions
 
 ```yaml

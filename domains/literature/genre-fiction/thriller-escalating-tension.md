@@ -25,6 +25,14 @@ status: draft
 ## Core Idea
 Thrillers emphasize accelerating pacing where stakes and action intensify relentlessly toward climax. Thriller structure often employs a ticking clock (literal or metaphorical), escalating threats, and mounting pressure on protagonists. The forward momentum is as crucial as plot; pacing itself functions as a structural tool that creates the sensation of being trapped and unable to escape.
 
+## How It's Best Learned
+Graph one thriller chapter by chapter, rating from 1 to 5 how bad failure would be at each point. Mark where the ticking clock first appears and each time it shortens. In a well-built thriller the line steps upward, and the steps tend to come closer together near the climax. Then find one flat stretch and ask what the author could add there.
+
+## Common Misconceptions
+- Escalation means more and bigger action scenes. (Escalation is about stakes and options; each development should make failure costlier or the way out narrower, and that can happen in a tense scene of dialogue.)
+- A ticking clock has to be a literal countdown. (Many thrillers use a metaphorical clock, such as a spreading disease or a closing investigation, which presses just as hard.)
+- Short chapters make a thriller fast by themselves. (Short chapters speed the reading when each one ends on a new complication or question; short chapters where nothing changes still feel flat.)
+
 ## Questions
 
 ```yaml
@@ -60,6 +68,7 @@ Thrillers emphasize accelerating pacing where stakes and action intensify relent
 
 - question: How does the sensation of escalating threats differ from the sensation of escalating action?
   type: short-answer
+  answer: "Escalating threats raise what is at risk, so failure would cost more as the story goes on. Escalating action raises the speed and frequency of events, so the protagonist has less time to respond. The first concerns stakes, the second concerns pace."
   explanation: A strong answer should explain that escalating threats increase danger and stakes (what's at risk gets worse) while escalating action increases momentum and frequency of events (things happen faster). Both may occur together in thrillers, but they function differently. Students should demonstrate understanding that threat escalation is about stakes while action escalation is about pacing.
 ```
 

@@ -25,6 +25,11 @@ Fan fiction rewrites existing narratives from published works, extending stories
 ## How It's Best Learned
 Explore fan fiction archives (Archive of Our Own) and read analyses of fan communities. Notice the sophistication of fan critical vocabulary and the creative diversity of fan works.
 
+## Common Misconceptions
+- "Slash" means sexually explicit fan fiction. (Slash names a same-gender romantic pairing, after the slash in labels like "Kirk/Spock"; how explicit a story is gets marked by a separate rating.)
+- A fan who rewrites an ending thinks the original is bad. (Rewriting is often a sign of deep attachment, and a changed ending can work as an argument about what the source implied or left unexplored.)
+- Because fan fiction borrows its characters, it cannot count as criticism. (Retelling can make an interpretive argument, as published works like Jean Rhys's *Wide Sargasso Sea* do with *Jane Eyre*, and fan works do the same thing in a community setting.)
+
 ## Questions
 
 ```yaml
@@ -60,6 +65,7 @@ Explore fan fiction archives (Archive of Our Own) and read analyses of fan commu
 
 - question: Why does fan fiction's development of specific taxonomies and critical vocabulary (slash fiction, gen fiction, AU) constitute a form of literary criticism?
   type: short-answer
+  answer: Terms like slash, gen, and AU name specific kinds of change a writer makes to the source, such as reinterpreting a relationship or altering the world's premises. Having precise names for these choices lets fans analyze and argue about what a work transforms and why, which is the work of criticism.
   explanation: Good answers should address how these categories enable precise discussion of narrative types, thematic choices, and creative interventions. Terminology allows fans to analyze what works transform from source material and how. This metalinguistic awareness—the ability to talk precisely about creative choices—is fundamental to literary criticism. Fans aren't just writing; they're analyzing and theorizing their own and others' creative work.
 ```
 

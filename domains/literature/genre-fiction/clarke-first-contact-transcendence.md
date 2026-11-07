@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Arthur C. Clarke's fiction combines hard scientific extrapolation with themes of cosmic transcendence and humanity's encounter with advanced alien intelligence. Clarke explores humanity's place in a vast universe and the spiritual dimensions of scientific discovery, emphasizing wonder and the limits of human understanding.
 
+## How It's Best Learned
+Read *Rendezvous with Rama* with a two-column log. In one column, list the questions about the alien ship that the explorers answer by measurement and reasoning, such as how it produces gravity. In the other, list the questions that stay open, such as who built it and why. Comparing the columns shows how Clarke uses careful science to frame a mystery he leaves unsolved.
+
+## Common Misconceptions
+- First contact in Clarke ends with humans and aliens understanding each other. (Often the aliens stay out of reach, and the story ends with humans aware of how much they cannot grasp.)
+- Clarke's aliens are threats to be fought. (His advanced intelligences are usually indifferent to humans or act on purposes far above them, and conflict with them is rarely the point.)
+- The sense of transcendence in Clarke is a turn away from science toward religion. (The awe comes from what science reveals about scale and strangeness, and some of his stories, such as "The Star," use scientific discovery to unsettle religious faith.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Arthur C. Clarke's fiction combines hard scientific extrapolation with themes of
 
 - question: Why does Clarke's emphasis on the 'spiritual dimensions of scientific discovery' avoid becoming anti-scientific or mystical?
   type: short-answer
+  answer: Clarke's wonder grows out of scientific knowledge about the scale and strangeness of the cosmos, so it rests on understanding rather than replacing it. Because he works out the science carefully, the mysteries he leaves open feel earned instead of mystical.
   explanation: Good answers should explain that Clarke's spirituality emerges from the rational contemplation of scientific discoveries—the wonder we feel when understanding the cosmos, not from rejecting understanding. Wonder at the vastness and complexity of the universe is a rational response to genuine knowledge, not an escape into mysticism.
 ```
 

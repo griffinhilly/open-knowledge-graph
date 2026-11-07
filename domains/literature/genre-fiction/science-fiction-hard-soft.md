@@ -68,6 +68,7 @@ Hard SF is not inherently superior to soft SF; they offer different satisfaction
 
 - question: Why would a hard SF reader ask different questions of a narrative than a soft SF reader?
   type: short-answer
+  answer: "A hard SF reader checks whether the speculation follows from known science and whether its consequences are worked out, because coherence is what satisfies them. A soft SF reader asks what the speculative change reveals about people and society, because human meaning is what satisfies them."
   explanation: A strong answer should explain that hard SF readers prioritize scientific plausibility and check whether speculation follows from established principles, while soft SF readers prioritize emotional authenticity and what the speculative elements reveal about human meaning. Students should demonstrate understanding that different reader priorities lead to different satisfaction criteria.
 ```
 

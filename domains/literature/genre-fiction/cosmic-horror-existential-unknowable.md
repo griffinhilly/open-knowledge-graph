@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Cosmic horror emphasizes humanity's insignificance in an indifferent universe governed by incomprehensible forces. The genre generates existential dread rather than fear of immediate threats: the realization that complete understanding may be impossible and the universe is indifferent to human concerns. Cosmic horror often features eldritch entities or forbidden knowledge.
 
+## How It's Best Learned
+Read Lovecraft's "The Call of Cthulhu," which opens by calling the mind's inability to connect all it knows a mercy. As you read, chart each document the narrator assembles and what new piece of knowledge it adds. Beside the chart, note how his dread rises as the pieces fit together. The chart shows the genre's key move: understanding more makes things worse.
+
+## Common Misconceptions
+- Cosmic horror is about tentacled monsters. (The creatures are a means of showing scale and indifference; the dread comes from what their existence implies about humanity's place.)
+- The entities in cosmic horror are evil. (Evil implies caring about humans; the entities are usually indifferent, which is more disturbing than hostility.)
+- The hero can find a way to defeat the cosmic threat with enough knowledge. (Knowledge in these stories tends to reveal how outmatched humans are, so learning more rarely leads to victory.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Cosmic horror emphasizes humanity's insignificance in an indifferent universe go
 
 - question: How does the concept of 'forbidden knowledge' function in cosmic horror, and why does learning the truth cause dread rather than enlightenment?
   type: short-answer
+  answer: Forbidden knowledge reveals that reality is beyond human comprehension and indifferent to human concerns. Instead of giving the protagonist power, it shows how small and outmatched humanity is, so the truth produces despair rather than enlightenment.
   explanation: Good answers should explain that forbidden knowledge in cosmic horror reveals that complete understanding is impossible or that reality is fundamentally incomprehensible to human minds. Knowledge doesn't illuminate; it reveals the limits of human understanding and our insignificance. Learning the truth about cosmic forces produces despair, not empowerment.
 ```
 

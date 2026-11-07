@@ -20,6 +20,15 @@ status: draft
 ## Core Idea
 Jane Austen established the romance plot combining emotional development with social satire. Austen's heroines navigate marriage as economic necessity while seeking emotional authenticity. Her novels balance romance with sharp observation of social hypocrisy, functioning simultaneously as love stories and social critiques.
 
+## How It's Best Learned
+Read the chapters of *Pride and Prejudice* in which Mr. Collins proposes to Elizabeth and then to Charlotte Lucas. Make a two-column chart of each woman's money, prospects, and reasons, and note where the narrator's tone turns ironic. The pairing shows the economic pressure and the romantic ideal side by side, and it lets you see the satire doing its work inside the love plot.
+
+## Common Misconceptions
+- Austen's novels are gentle love stories, and the satire is decoration. (The comedy targets money, rank, and vanity, and it sets the terms the heroine has to choose within, so it shapes the plot.)
+- Austen's satire mocks marriage itself. (Her targets are bad reasons for marrying and the people who push them; the novels still end in marriages they present as good ones.)
+- The famous opening line of *Pride and Prejudice* states the narrator's own belief. (The line is ironic: the "truth universally acknowledged" is really the hope of families with daughters to marry off.)
+- Characters like Charlotte Lucas are shown as simply foolish for marrying without love. (The novel shows why a woman with little money might make that choice, even while Elizabeth refuses to.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +64,7 @@ Jane Austen established the romance plot combining emotional development with so
 
 - question: How does Austen's social satire enhance rather than diminish the emotional power of her romance plots?
   type: short-answer
+  answer: The satire exposes the hypocrisy and money-driven values around marriage, so a heroine's search for real respect and affection looks harder to win and more valuable. Its irony and humor also keep the romance from turning sentimental.
   explanation: Good answers should explain that satire reveals hypocrisy in social values, making genuine emotional connections more precious and hard-won. By showing the falseness in society's assumptions, Austen's satire makes her heroines' pursuit of authentic feeling more meaningful. The satire also provides ironic distance and humor that prevents romance from becoming sentimental.
 ```
 

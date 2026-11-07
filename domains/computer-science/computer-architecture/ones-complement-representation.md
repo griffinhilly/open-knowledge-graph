@@ -18,6 +18,15 @@ status: validated
 ## Core Idea
 One's complement represents negative numbers by inverting all bits. Unlike two's complement, it has two zero representations and makes arithmetic more complicated, though it was used historically.
 
+## How It's Best Learned
+Write out all 16 four-bit patterns with their one's complement values, from 0000 = +0 up through 1111 = −0. Then add two pairs by hand: +2 + −5 (0010 + 1010 = 1100, which is −3, no carry) and +5 + −3 (10001, so the carry wraps around to give 0010). Placing the table beside a two's complement table shows where the extra zero sits.
+
+## Common Misconceptions
+- To negate a number in one's complement, you flip the bits and add 1. (Flip-and-add-1 is two's complement; one's complement negation is the bit flip alone.)
+- In 4-bit one's complement, 1111 is −1. (1111 is negative zero; −1 is 1110, the inverse of 0001.)
+- A carry out of the most significant bit is thrown away, as in two's complement. (In one's complement that carry is added back into the least significant bit.)
+- A 4-bit one's complement number ranges from −8 to +7. (The range is −7 to +7, because one of the 16 patterns is spent on negative zero.)
+
 ## Questions
 
 ```yaml
@@ -41,7 +50,7 @@ One's complement represents negative numbers by inverting all bits. Unlike two's
   answer: 1
   explanation: "In one's complement, negation = flip all bits. Applying this to +0 (0000) produces 1111, which represents −0. Both 0000 and 1111 evaluate to zero, but are distinct bit patterns. This forces comparison logic to test two patterns when checking for zero. Two's complement avoids this: flipping all bits of 0000 gives 1111, but then adding 1 wraps back to 0000, so there is only one zero."
 
-- question: "In one's complement, end-around carry is mainly needed when the two operands have opposite signs."
+- question: "In one's complement, end-around carry is only needed when the two operands have opposite signs."
   type: true-false
   answer: false
   explanation: "End-around carry is needed whenever a carry overflows out of the MSB position, regardless of the signs of the operands. This can happen in mixed-sign addition or in other arithmetic operations. The rule is structural: any overflow carry past the MSB must be added back to the LSB. Limiting it to opposite-sign cases would miss legitimate corrections."

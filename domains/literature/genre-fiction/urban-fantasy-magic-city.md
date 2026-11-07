@@ -28,7 +28,12 @@ status: draft
 Urban fantasy overlays magical systems onto contemporary cities, creating spaces where the magical and mundane coexist. Urban fantasy explores how magic operates within modern bureaucracy, technology, and social structures. Urban fantasy often features lower stakes than high fantasy but deeper engagement with contemporary institutions, from corporations to law enforcement to social media.
 
 ## How It's Best Learned
-Compare a traditional urban fantasy like Jim Butcher's Dresden Files with a contemporary deconstruction like N.K. Jemisin's Inheritance Trilogy or Naomi Novik's Scholomance. Notice how the magical community's relationship to the mundane world changes stakes and themes.
+Compare a traditional urban fantasy like Jim Butcher's Dresden Files with a contemporary reworking like N.K. Jemisin's The City We Became. Notice how the magical community's relationship to the mundane world changes stakes and themes.
+
+## Common Misconceptions
+- Urban fantasy is another name for paranormal romance. (The two overlap and often share shelves, but urban fantasy usually centers on an investigation or conflict, while paranormal romance centers on the love story.)
+- Urban fantasy stakes are always small and local. (Many stories stay within one city, but some threaten far more; what marks the subgenre is its contemporary setting.)
+- The city in urban fantasy is just a backdrop. (In strong examples, the city's real geography, institutions, and history shape how magic works and what the conflict is.)
 
 ## Questions
 
@@ -65,6 +70,7 @@ Compare a traditional urban fantasy like Jim Butcher's Dresden Files with a cont
 
 - question: How does the magical community's relationship to the mundane world change the stakes and themes in urban fantasy?
   type: short-answer
+  answer: "If magic is secret, stories turn on hiding it, guarding the boundary between worlds, and what happens when outsiders find out. If magic is public, stories turn on law, regulation, and power struggles between magical and mundane groups, so the degree of openness decides which conflicts are possible."
   explanation: A strong answer should explain that if magic is secret and hidden from mundanes, themes involve maintaining secrecy and managing the friction between worlds. If magic is public and integrated, themes involve power dynamics and institutional corruption. Students should demonstrate understanding that the degree and nature of magical-mundane interaction fundamentally shapes what kinds of conflicts and themes become possible.
 ```
 

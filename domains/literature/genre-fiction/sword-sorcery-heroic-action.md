@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Sword and sorcery emphasizes personal heroic action and direct combat over large-scale political fantasy. Protagonists are skilled warriors facing magical threats in exotic settings. The subgenre prioritizes exciting action sequences and personal quests over elaborate worldbuilding.
 
+## How It's Best Learned
+Take one of Robert E. Howard's Conan stories and mark every passage of world information: what it explains, how long it runs, and whether the next action scene uses it. Then do the same for the opening chapters of an epic fantasy. Comparing the two sets of marks shows how sword and sorcery delivers just enough setting to make each fight make sense.
+
+## Common Misconceptions
+- Sword-and-sorcery worlds are thinly imagined. (Howard wrote a long invented history of Conan's Hyborian Age; a world can be detailed while the stories keep most of it offstage.)
+- The action scenes are filler between plot points. (Fights and escapes usually are the plot, and a good one changes the hero's situation or shows their character.)
+- A sword-and-sorcery hero is a knight serving a noble cause. (Typical heroes are outsiders such as barbarians, thieves, or mercenaries who fight for themselves rather than for a crown.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Sword and sorcery emphasizes personal heroic action and direct combat over large
 
 - question: How does emphasizing personal heroic action allow sword and sorcery to move more quickly than elaborate fantasy worldbuilding?
   type: short-answer
+  answer: "Because the story turns on what the hero does next, it needs only enough setting and magic to make the immediate danger clear. Less exposition leaves more room for action, so scenes move quickly from one confrontation to the next."
   explanation: A strong answer should explain that personal action narratives don't require detailed explanation of worldbuilding, governmental systems, or magical rules. Readers care about what the protagonist can do and achieve, not how the world functions comprehensively. Students should demonstrate understanding that narrative focus determines pacing.
 ```
 

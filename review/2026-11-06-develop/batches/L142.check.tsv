@@ -1,0 +1,16 @@
+domains/biology/microbiology/viral-pathogenesis-and-disease.md	how	4	0	ok
+domains/biology/microbiology/viral-pathogenesis-and-disease.md	mis	8	0	ok
+domains/biology/microbiology/viral-replication-dna-polymerase.md	how	3	0	ok
+domains/biology/microbiology/viral-replication-dna-polymerase.md	mis	8	1	fixed	acyclovir bullet credited "herpesvirus thymidine kinase" generally; CMV has no TK (uses UL97); narrowed to HSV and VZV
+domains/biology/microbiology/viral-replication-dna-polymerase.md	old:core	1	1	fixed	Core Idea said herpes/poxvirus polymerases often lack proofreading and drive antigenic drift; both proofread (3'->5' exo) and mutate slowly; rewrote the sentence
+domains/biology/microbiology/viral-replication-dna-polymerase.md	old:ex	2	2	fixed	Explainer para 4 repeated the same error (many viral DNA pols lack proofreading; herpesvirus antigenic drift); replaced with proofreading + acyclovir-resistance example + latency
+domains/biology/microbiology/viral-replication-dna-polymerase.md	old:q:3:explanation	1	1	fixed	deleted sentence claiming antigenic drift lets herpesviruses evade immunity; note q:2 "completely independent of the host cell cycle" (answer true) is an absolute left as is
+domains/biology/microbiology/viral-replication-rna-polymerase.md	how	3	0	ok	arithmetic checked: 1e-4 x 10,000 = 1; 1e-3 x 10,000 = 10
+domains/biology/microbiology/viral-replication-rna-polymerase.md	mis	8	1	fixed	"host RNA polymerases use DNA templates" stated as absolute; added "normally" and hepatitis delta virus (host Pol II) exception
+domains/biology/microbiology/viral-replication-strategies-rna-vs-dna.md	how	3	0	ok
+domains/biology/microbiology/viral-replication-strategies-rna-vs-dna.md	mis	6	0	ok
+domains/biology/microbiology/viral-replication-strategies-rna-vs-dna.md	old:core	1	1	fixed	Core Idea said herpesviruses use host DNA polymerase; they encode their own; reassigned host-polymerase example to papilloma/polyomaviruses
+domains/biology/microbiology/viral-replication-strategies-rna-vs-dna.md	old:ex	2	2	fixed	Explainer used herpesviruses as host-replication example (fixed to papilloma/polyoma with herpes note); said provirus is transcribed "whenever the cell divides" (it is copied at division, transcribed independently)
+domains/biology/microbiology/viral-replication-strategies-rna-vs-dna.md	old:q:2	1	1	fixed	T/F "All RNA viruses must encode their own RdRp" keyed true, contradicting retroviruses (and the new mis bullet 1); scoped to "Apart from retroviruses" and noted HDV in explanation; answer true unchanged
+domains/biology/microbiology/yeast-fermentation-and-metabolic-pathways.md	how	4	0	ok	carbon and ATP counts checked
+domains/biology/microbiology/yeast-fermentation-and-metabolic-pathways.md	mis	6	0	ok

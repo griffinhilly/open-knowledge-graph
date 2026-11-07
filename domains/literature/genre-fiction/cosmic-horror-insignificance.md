@@ -25,7 +25,7 @@ status: draft
 Cosmic horror emphasizes human insignificance against vast, incomprehensible cosmic forces or entities. Lovecraft pioneered this subgenre by treating cosmic beings as fundamentally alien and indifferent to humanity, not evil but utterly beyond human moral categories. Cosmic horror suggests that certain knowledge destroys sanity because reality is fundamentally hostile to human understanding and meaning-making.
 
 ## How It's Best Learned
-Read Lovecraft's 'The Call of Cthulhu' alongside contemporary cosmic horror expansions like Ted Chiang's 'Story of Your Life' or Paul Tremblay's work. Notice how modern writers expand and critique Lovecraft's assumptions.
+Read Lovecraft's 'The Call of Cthulhu' alongside contemporary cosmic horror expansions like Victor LaValle's *The Ballad of Black Tom* or Paul Tremblay's work. Notice how modern writers expand and critique Lovecraft's assumptions.
 
 ## Common Misconceptions
 Cosmic horror is not necessarily pessimistic; some versions find meaning in defiance or in accepting human limitation. Lovecraft's racism is not inherent to the cosmic horror tradition; contemporary authors have transformed it toward inclusivity.
@@ -65,6 +65,7 @@ Cosmic horror is not necessarily pessimistic; some versions find meaning in defi
 
 - question: How have contemporary cosmic horror authors transformed Lovecraft's tradition while maintaining its core philosophical insights?
   type: short-answer
+  answer: Contemporary authors keep the core themes of human insignificance, incomprehensible forces, and the limits of understanding while rejecting Lovecraft's prejudices. Victor LaValle's *The Ballad of Black Tom*, for example, retells a Lovecraft story from the point of view of a Black protagonist, widening who faces the cosmic forces and how they respond.
   explanation: Good answers should address how modern authors preserve the core themes—human insignificance, incomprehensible forces, limits to understanding—while rejecting Lovecraft's specific prejudices and exploring more inclusive visions. The transformation isn't abandoning cosmic horror's philosophy but expanding who gets to inhabit and respond to cosmic realities.
 ```
 

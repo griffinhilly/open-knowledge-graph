@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Western fiction features frontier settings with emphasis on individual morality, landscape, and conflict between civilization and wilderness. Westerns explore themes of justice, honor, and freedom, either romanticizing frontier mythology or offering revisionist critiques. The genre may depict realistic frontier life or mythologize the American West.
 
+## How It's Best Learned
+Read the closing chapters of Jack Schaefer's Shane and list each moral choice a character makes, with the authority it appeals to: law, community, or personal code. Mark where distance or isolation removes any outside authority. Then ask why Shane rides away after the fight. One common reading is that his violence saved the homesteaders but has no place in the settled community it protected.
+
+## Common Misconceptions
+- The western hero's code is the same as the law. (The hero often follows a personal code of honor that can clash with official law, and much of the drama comes from that clash.)
+- Landscape in a western is scenery. (The land shapes the moral situations, through scarce water or distance from any sheriff, and often stands for freedom or for nature's indifference.)
+- Romantic and revisionist westerns tell different kinds of stories. (They often share plots and settings; the difference lies in the values each assigns to frontier violence and settlement.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Western fiction features frontier settings with emphasis on individual morality,
 
 - question: How does the frontier landscape affect character morality and decision-making in western narratives?
   type: short-answer
+  answer: "The frontier's isolation removes the courts, police, and social codes that settle moral questions elsewhere, so characters must judge and act by their own codes. Its scarcity and danger, such as limited water or a hard winter, also create the dilemmas they face."
   explanation: A strong answer should explain that the frontier setting creates conditions where civilized moral frameworks may not apply, forcing characters to develop their own moral codes based on survival needs, community survival, or personal justice. The landscape's challenges and opportunities shape what kinds of moral choices become necessary. Students should demonstrate understanding that setting isn't merely backdrop but actively shapes the moral situations characters face.
 ```
 
@@ -66,7 +75,7 @@ Individual morality is central to westerns in ways it might not be in other genr
 
 The emphasis on landscape in western fiction serves thematic purposes beyond setting. The western landscape is often depicted as immense, beautiful, indifferent to human moral codes. This creates a certain humility or insignificance for characters. Individual human morality plays out against a backdrop that doesn't care about moral categories. Additionally, the landscape itself creates situations that generate moral choices. Scarce water might force difficult decisions about who deserves resources. A harsh winter might require moral compromises to ensure survival. The landscape is not neutral; it's actively generating the conditions for moral complexity.
 
-Western fiction accommodates both romanticization and critique of frontier mythology because the genre's core interests are themaic rather than ideological. A writer can celebrate frontier individualism and risk-taking while exploring the same themes; another can critique the costs of expansion and displacement. Both work within the genre because they both engage with the frontier as a space where civilization's rules don't apply and individual character determines outcomes. The difference is in the values attributed to these conditions, not in the fundamental narrative structure.
+Western fiction accommodates both romanticization and critique of frontier mythology because the genre's core interests are thematic rather than ideological. A writer can celebrate frontier individualism and risk-taking while exploring the same themes; another can critique the costs of expansion and displacement. Both work within the genre because they both engage with the frontier as a space where civilization's rules don't apply and individual character determines outcomes. The difference is in the values attributed to these conditions, not in the fundamental narrative structure.
 
 Understanding western fiction requires recognizing that it's a space for exploring American mythology and the fundamental moral questions mythology raises. What does it mean to establish civilization in wilderness? What price does settlement exact? What freedom is worth what cost? These questions don't have single answers, which is why the genre can support both celebration and critique. A character who heroically settles the wilderness in one narrative is a colonizer in another. The landscape that enables freedom in one story is hostile nature waiting to kill in another. These perspectives coexist within western fiction, making the genre a contested space where American identity and values are continually negotiated and reimagined.
 ```

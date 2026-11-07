@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Conversion between bases uses positional notation: any base-b number equals sum of (digit × b^position). Binary and hexadecimal are particularly related—every 4 binary digits map to 1 hex digit. Understanding these conversions is essential for reading machine code and memory addresses.
 
+## How It's Best Learned
+Take one value, such as 0x2F, around all three bases. Substitute nibbles to get 0010 1111, sum weights to get 2×16 + 15 = 47, then divide 47 by 2 repeatedly and read the remainders upward to get 101111 again. Seeing both routes land on the same bits builds trust in each method. Keep a 16-row nibble table at hand until the mappings come without lookup.
+
+## Common Misconceptions
+- When splitting binary into groups of four, you start from the left. (Group from the right, the least significant end, and pad the leftmost group with zeros: 101101 becomes 0010 1101, which is 0x2D.)
+- Hex 10 means ten. (0x10 is 1×16 + 0 = 16; ten is written 0xA.)
+- The remainders from repeated division are read in the order you computed them. (The first remainder is the least significant digit, so you read them from last to first.)
+- Converting a number to hex changes how the computer stores it. (The stored bits stay the same; the base only changes how a human writes the value down.)
+
 ## Questions
 
 ```yaml
@@ -45,7 +54,7 @@ Conversion between bases uses positional notation: any base-b number equals sum 
   answer: 2
   explanation: "Computers store everything in binary — hex is purely a display convention for humans. The reason hex is preferred is the lossless 4:1 compression: one hex character represents exactly four bits, so an 8-bit byte becomes two hex characters, a 32-bit address becomes 8 hex characters. This is compact without requiring any arithmetic: the translation is a direct symbol substitution. Decimal would require arithmetic (repeated division) to recover binary, and binary itself would be an unmanageably long string of 0s and 1s."
 
-- question: "To convert between binary and hexadecimal, you is expected to first convert both values to decimal as an intermediate step."
+- question: "To convert between binary and hexadecimal, you must first convert both values to decimal as an intermediate step."
   type: true-false
   answer: false
   explanation: "Binary and hex share a direct relationship because 16 = 2⁴. Every hex digit maps to exactly four binary digits, and vice versa, with no arithmetic required — you simply substitute symbols. For example, 0xA = 1010 and 0xF = 1111. Going through decimal would be slower and unnecessary. Decimal is base 10, which has no power-of-2 relationship with binary or hex, so decimal conversions genuinely do require arithmetic. But binary↔hex is a direct, table-based lookup."
