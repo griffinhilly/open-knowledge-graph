@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: exoplanet-atmospheric-composition-spectroscopy
   type: hard
+- id: evolution-of-earths-atmosphere
+  type: soft
 tags:
 - biosignatures
 - life-detection

@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: two-layer-energy-balance
   type: soft
+- id: numerical-weather-prediction
+  type: soft
 builds-toward:
 - climate-sensitivity-radiative-feedbacks
 tags:

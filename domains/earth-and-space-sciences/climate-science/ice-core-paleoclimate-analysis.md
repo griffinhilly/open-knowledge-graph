@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: isotopes-and-nuclear-composition
   type: soft
+- id: glaciers-and-glaciation
+  type: soft
 builds-toward:
 - glacial-interglacial-cycles
 - younger-dryas-event

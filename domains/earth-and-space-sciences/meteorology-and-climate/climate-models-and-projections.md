@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: global-atmospheric-circulation
   type: soft
+- id: numerical-weather-prediction
+  type: soft
 tags:
 - GCM
 - CMIP

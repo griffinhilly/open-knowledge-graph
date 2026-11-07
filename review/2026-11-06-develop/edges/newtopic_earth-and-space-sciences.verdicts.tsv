@@ -1,0 +1,22 @@
+ADD	stratospheric-ozone-depletion	remote-sensing-atmosphere	soft	high	Satellite ozone retrieval is a main remote-sensing-of-atmosphere application; knowing the ozone-hole chemistry gives the measurements meaning.
+ADD	stratospheric-ozone-depletion	environmental-governance-transnational-commons	soft	high	The Montreal Protocol is the standard case study of a successful transnational environmental regime.
+ADD	air-pollution-and-photochemical-smog	anthropogenic-aerosol-forcing-effects	soft	high	Anthropogenic aerosols are mostly sulfate and other particles from air pollution; knowing their sources helps with their climate forcing.
+ADD	acid-deposition	environmental-geochemistry	soft	high	Acid deposition and its buffering by bedrock and soils is a core environmental-geochemistry case.
+ADD	mineral-resources-and-ore-deposits	environmental-geochemistry	soft	high	Acid mine drainage from sulfide ores is a central environmental-geochemistry problem.
+ADD	mineral-resources-and-ore-deposits	induced-polarization-methods	soft	high	IP surveys are used mainly to explore for disseminated sulfide ore deposits.
+ADD	numerical-weather-prediction	climate-models-and-projections	soft	high	Climate models share dynamical cores, grids and parameterizations with NWP models.
+ADD	numerical-weather-prediction	general-circulation-models	soft	high	GCMs use the same discretized primitive equations and parameterizations introduced in NWP.
+ADD	sun-structure-and-solar-activity	planetary-magnetospheres-and-solar-wind	soft	high	The solar wind and CMEs that drive magnetospheres originate in the corona and solar activity.
+ADD	sun-structure-and-solar-activity	solar-variability-climate	soft	high	Solar variability is driven by the sunspot and magnetic cycle described in the solar-structure topic.
+ADD	sun-structure-and-solar-activity	aurora-and-magnetosphere-coupling	soft	high	Auroral storms are triggered by CMEs and high-speed solar wind streams from solar activity.
+ADD	evolution-of-earths-atmosphere	planetary-habitability-and-biosignatures	soft	high	Earth's oxygenation history is the reference case for how life changes a planet's atmosphere.
+ADD	evolution-of-earths-atmosphere	biosignatures-exoplanet-atmospheres	soft	high	O₂ and O₃ as biosignatures rest on Earth's Great Oxidation Event record.
+ADD	glaciers-and-glaciation	erosion-agents-fluvial-glacial-coastal	soft	high	Glacial erosion and deposition draw upon how glaciers form and flow.
+ADD	glaciers-and-glaciation	glacial-interglacial-cycles	soft	high	Ice-age cycles are the growth and decay of ice sheets; glacier mass balance is the underlying mechanism.
+ADD	glaciers-and-glaciation	ice-sheet-climate-coupling	soft	high	Ice-sheet coupling assumes accumulation, ablation, flow and isostatic response.
+ADD	glaciers-and-glaciation	ice-core-paleoclimate-analysis	soft	high	Ice-core air bubbles are trapped during the snow-to-firn-to-ice transformation taught here.
+ADD	earths-spheres-and-system-interactions	feedback-mechanisms-in-climate	soft	high	Climate feedbacks are interactions among the atmosphere, hydrosphere, cryosphere and biosphere introduced here.
+ADD	topographic-maps	digital-elevation-models	soft	high	DEMs are the digital form of contour-map elevation data; contour reading, slope and profiles carry over.
+ADD	topographic-maps	geomorphology	soft	high	Landform analysis relies on reading relief, gradient and drainage from topographic maps.
+ADD	gnss-satellite-positioning	gps-geodesy-and-crustal-deformation	soft	high	GPS geodesy applies the GNSS positioning principles (pseudorange, carrier phase, differential methods).
+ADD	borehole-geophysics-well-logging	synthetic-seismogram-modeling	soft	high	Synthetic seismograms are built from sonic and density well logs.

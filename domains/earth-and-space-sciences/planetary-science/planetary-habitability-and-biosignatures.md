@@ -10,6 +10,8 @@ prerequisites:
   type: soft
 - id: planetary-magnetospheres-and-solar-wind
   type: soft
+- id: evolution-of-earths-atmosphere
+  type: soft
 builds-toward:
 - biosignatures-exoplanet-atmospheres
 - exoplanet-characterization-spectroscopy

@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: sovereignty-westphalian-state-system
   type: soft
+- id: stratospheric-ozone-depletion
+  type: soft
 builds-toward:
 - global-governance-polycentrism
 tags:

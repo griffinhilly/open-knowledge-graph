@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: albedo-feedback-paleoclimate
   type: soft
+- id: glaciers-and-glaciation
+  type: soft
 builds-toward:
 - paleoclimate-data-model-comparison
 tags:

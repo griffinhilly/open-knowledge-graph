@@ -18,6 +18,8 @@ prerequisites:
   type: soft
 - id: precession-climate-forcing
   type: soft
+- id: glaciers-and-glaciation
+  type: soft
 builds-toward:
 - paleoclimate-data-model-comparison
 tags:

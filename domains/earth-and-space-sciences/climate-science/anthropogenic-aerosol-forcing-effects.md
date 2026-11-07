@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: cloud-formation-and-types
   type: soft
+- id: air-pollution-and-photochemical-smog
+  type: soft
 builds-toward:
 - climate-models-and-projections
 - climate-sensitivity-radiative-feedbacks

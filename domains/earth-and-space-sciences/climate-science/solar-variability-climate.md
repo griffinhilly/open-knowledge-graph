@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: paleoclimatology
   type: soft
+- id: sun-structure-and-solar-activity
+  type: soft
 builds-toward:
 - climate-models-and-projections
 - climate-sensitivity-radiative-feedbacks

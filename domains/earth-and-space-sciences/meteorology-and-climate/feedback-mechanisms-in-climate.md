@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: surface-energy-budget-fluxes
   type: soft
+- id: earths-spheres-and-system-interactions
+  type: soft
 builds-toward:
 - climate-models-and-projections
 tags:

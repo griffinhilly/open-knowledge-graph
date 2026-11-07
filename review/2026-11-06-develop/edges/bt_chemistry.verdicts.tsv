@@ -57,3 +57,80 @@ DROP	chemometrics-multivariate-calibration	raman-spectroscopy-analytical-methods
 DROP	selectivity-vs-sensitivity-analytical-tradeoffs	response-surface-methodology-method-optimization	-	medium	RSM is an experimental-design technique; the trade-off topic is not needed for it.
 DROP	food-safety-pesticide-allergen-analysis	trace-metals-ultra-low-concentration	-	high	Trace metal analysis does not draw on food-safety analysis.
 DROP	liquid-chromatography-mass-spectrometry-lc-ms	two-dimensional-chromatography-comprehensive	-	medium	2D chromatography rests on orthogonal separation, not on MS detection.
+ADD	acid-base-definitions	acid-base-chemistry	soft	medium	B builds on the Arrhenius and Bronsted-Lowry definitions that A lays out, though B restates them.
+ADD	acids-properties-and-examples	acid-base-chemistry	soft	medium	Intro-level acid properties give concrete grounding for B's formal treatment.
+ADD	bases-properties-and-examples	acid-base-chemistry	soft	medium	Intro-level base properties give concrete grounding for B's formal treatment.
+ADD	everyday-acids-and-bases	acid-base-chemistry	soft	medium	Familiar examples help, but B does not depend on them.
+ADD	ph-scale	acid-base-chemistry	soft	high	B's strong/weak acid discussion uses pH; prior pH-scale knowledge helps.
+ADD	electronegativity-and-polarity-continuum	acid-base-definitions	soft	medium	Lewis and Bronsted acid behaviour links to bond polarity; helpful, not required.
+ADD	ion-formation-from-electron-transfer	acid-base-definitions	soft	medium	Arrhenius definitions talk about H+ and OH- ions, so the ion concept helps.
+DROP	integrated-rate-laws	arrhenius-equation	-	medium	Arrhenius needs a rate constant (from chemical-kinetics), not integrated rate laws.
+ADD	mass-and-weight	atomic-mass-and-molar-mass	soft	medium	The basic concept of mass underlies atomic and molar mass.
+DROP	composition-of-compounds	chemical-equations-and-balancing	-	high	Balancing equations does not use percent composition or empirical formulas.
+DROP	mole-concept	chemical-equations-and-balancing	-	medium	Balancing works by counting atoms; moles enter later in stoichiometry.
+DROP	the-mole-concept-and-avogadro	chemical-equations-and-balancing	-	medium	Balancing works by counting atoms; Avogadro's number is not needed.
+ADD	combustion-reactions	chemical-equations-and-balancing	soft	medium	B classifies equation types; combustion is one of the familiar types.
+ADD	synthesis-and-decomposition	chemical-equations-and-balancing	soft	medium	B classifies equation types; synthesis and decomposition are familiar types.
+DROP	signs-of-chemical-change	chemical-equations-and-balancing	-	medium	Writing and balancing equations is symbolic and does not draw on observing signs of change.
+ADD	gibbs-free-energy-spontaneity	chemical-equilibrium	soft	medium	The link between dG and K helps; B already lists the similar entropy-and-gibbs topic.
+ADD	reaction-coordinate-diagrams	chemical-equilibrium	soft	medium	Forward and reverse barriers help explain dynamic equilibrium.
+ADD	concentration-units	colligative-properties	hard	high	B's formulas use molality (dTb = iKbm), which A defines.
+ADD	concentration-and-molarity	colligative-properties-solutions	hard	medium	B's freezing-point and osmotic formulas need solute concentration.
+ADD	solution-properties	colligative-properties-solutions	soft	medium	Knowing what a solution is and how solutes dissolve helps B.
+ADD	atomic-mass-and-molar-mass	concentration-units	soft	medium	Converting grams of solute to moles uses molar mass; B already has mole-concept.
+ADD	electron-configuration	covalent-bonding	soft	medium	Valence-shell configuration explains electron sharing; B already has valence-electrons.
+ADD	periodic-table-overview	covalent-bonding	soft	medium	Locating nonmetals on the table helps; B already has periodic-trends.
+ADD	bond-classification	crystal-structures-and-properties	soft	high	B sorts solids by bond type (ionic, metallic, covalent network, molecular).
+ADD	flexibility-and-brittleness	crystal-structures-and-properties	soft	medium	B explains properties like brittleness from structure; the concrete property helps.
+ADD	hardness-and-strength	crystal-structures-and-properties	soft	medium	B explains hardness from lattice structure; the concrete property helps.
+JUDGE	oxidation-reduction-reactions	electrochemistry-basics	-	medium	Near-duplicate topics (both titled Oxidation-Reduction Reactions); a human should decide whether to merge them.
+ADD	atomic-structure-and-atoms	electron-configuration	soft	medium	Electrons in atoms are needed; B already lists the near-duplicate atomic-structure-basics.
+DROP	isotopes-and-nuclear-composition	electron-configuration	-	high	Electron configuration does not depend on neutron count or isotopes.
+ADD	noble-gases-and-stability	electron-configuration	soft	medium	Noble-gas stability motivates filled shells and noble-gas shorthand.
+DROP	cooking-as-chemical-change	endothermic-and-exothermic-reactions	-	medium	B is about the sign of dH; cooking as chemical change is not needed.
+ADD	entropy-and-disorder	entropy-and-gibbs-free-energy	hard	medium	dG = dH - TdS cannot be understood without the entropy concept A introduces.
+DROP	heat-capacity-calorimetry	entropy-and-gibbs-free-energy	-	medium	Gibbs free energy does not rest on calorimetry.
+ADD	balancing-redox-equations	galvanic-electrochemical-cells	soft	medium	Overall cell reactions combine balanced half-reactions.
+ADD	half-reactions-and-balancing	galvanic-electrochemical-cells	hard	medium	B is framed in terms of anode and cathode half-reactions.
+ADD	measuring-volume	gas-laws	soft	medium	Volume measurement is one of the quantities gas laws relate.
+ADD	limiting-reagent-calculations	gas-stoichiometry	soft	medium	Gas stoichiometry problems often include limiting-reagent steps.
+DROP	percent-yield-and-limiting-reagent-analysis	gas-stoichiometry	-	medium	Volume-volume conversions do not need percent yield.
+ADD	entropy-and-disorder	gibbs-free-energy-spontaneity	soft	medium	dG = dH - TdS uses entropy; B gets it transitively via entropy-and-gibbs-free-energy.
+ADD	spontaneity-and-gibbs-free-energy-intro	gibbs-free-energy-spontaneity	soft	medium	The intro version precedes this fuller treatment (near-duplicate pair).
+DROP	bond-energy-and-enthaly	hess-law-of-enthalpy	-	medium	Hess's law combines reaction enthalpies; bond energies are a parallel method, not a base.
+ADD	electron-configuration	ionic-bonding	soft	medium	Ions form to reach noble-gas configurations; B already has valence-electrons.
+JUDGE	ion-formation-from-electron-transfer	ionic-bonding	-	medium	B truly draws on A, but A now lists B as a prerequisite; the existing edge must be reversed, not just added.
+ADD	periodic-table-overview	ionic-bonding	soft	medium	Locating metals and nonmetals helps; B already has periodic-trends.
+JUDGE	gas-laws-ideal-gas	kinetic-molecular-theory	-	medium	KMT explains the gas laws, but sibling gas-laws lists KMT as its prerequisite; direction needs a human call.
+ADD	equilibrium-expression-kc-kp-constants	le-chatelier-principle-applications	soft	medium	B says temperature changes K, so knowing K helps.
+ADD	dissolving-and-solutions	matter-classification-and-properties	soft	medium	Solutions are the standard example of homogeneous mixtures.
+ADD	physical-vs-chemical-change-summary	matter-classification-and-properties	soft	medium	Classifying properties as physical or chemical draws on this distinction.
+DROP	reversible-and-irreversible-changes	matter-classification-and-properties	-	medium	Classifying elements, compounds and mixtures does not need reversibility.
+ADD	separating-mixtures-filtering-evaporating	matter-classification-and-properties	soft	medium	Physical separability is what distinguishes mixtures from compounds.
+ADD	separating-mixtures-magnets-and-sieves	matter-classification-and-properties	soft	medium	Physical separability is what distinguishes mixtures from compounds.
+ADD	suspensions-and-colloids	matter-classification-and-properties	soft	medium	Suspensions are examples of heterogeneous mixtures.
+DROP	alloys-intro	metallic-bonding	-	medium	Metallic bonding explains alloys; the dominant direction is B to A.
+ADD	thermal-and-electrical-conductivity	metallic-bonding	soft	medium	B's electron-sea model explains conductivity, the phenomenon A introduces.
+DROP	hybridization-introduction	molecular-geometry-basics	-	high	Geometry comes from VSEPR; hybridization draws on geometry, not the reverse.
+DROP	resonance-structures	molecular-geometry-prediction	-	medium	VSEPR prediction works from Lewis structures; resonance is not needed.
+ADD	covalent-bonding	molecular-polarity	soft	high	Polarity concerns covalent molecules; B already has polar-covalent-bonds.
+ADD	single-replacement-reactions	oxidation-reduction-basics	soft	medium	Single replacement reactions are familiar redox examples.
+ADD	rusting-and-tarnishing	oxidation-reduction-basics	soft	medium	Rusting is a familiar redox example.
+ADD	stoichiometry-calculations	percent-yield-calculations	hard	high	Theoretical yield is calculated from stoichiometry, as B states.
+ADD	metals-nonmetals-metalloids	periodic-table-overview	soft	medium	The metal/nonmetal regions are part of reading the periodic table.
+ADD	metals-nonmetals-metalloids	periodic-trends	soft	medium	Metallic character is one of the trends B covers.
+ADD	solution-concentration	ph-and-acid-base-calculations	hard	high	pH = -log[H+] requires molar concentration.
+DROP	real-gases-van-der-waals	phase-changes-and-diagrams	-	medium	Phase changes and diagrams do not need the van der Waals equation.
+DROP	bond-energy-and-enthaly	reaction-coordinate-diagrams	-	medium	B is about activation energy and transition states, not bond-energy sums.
+DROP	hess-law-of-enthalpy	reaction-coordinate-diagrams	-	medium	Energy profiles do not draw on Hess's law.
+DROP	henrys-law-gas-solubility	solute-solvent-interactions-solvation	-	medium	Solvation is about intermolecular interactions, not gas solubility versus pressure.
+DROP	states-of-matter-properties-and-transitions	solution-concentration	-	high	Concentration units do not draw on phase transitions.
+DROP	properties-of-liquids	solution-properties	-	medium	B draws on dissolving and intermolecular forces, not general liquid properties.
+DROP	crystal-structures-and-properties	states-of-matter-phase-changes	-	medium	B's basic phase-change treatment does not need crystal lattice types.
+ADD	density-how-packed-together	states-of-matter-properties-and-transitions	soft	medium	B distinguishes states by how closely particles are packed.
+ADD	atomic-mass-and-molar-mass	stoichiometry-calculations	hard	medium	The grams-to-moles step needs molar mass; B already lists the similar molar-mass-and-conversions.
+ADD	temperature-reading	thermochemistry-heat-and-energy	soft	medium	Calorimetric heat measurement relies on reading temperature changes.
+ADD	noble-gases-and-stability	valence-electrons-and-reactivity	soft	medium	Unreactive noble gases illustrate how valence electrons govern reactivity.
+ADD	concentration-units	vapor-pressure-raoults-law	soft	high	Raoult's law uses mole fraction, one of the units A covers.
+DROP	electronegativity-and-bond-polarity	vsepr-theory	-	high	VSEPR counts electron groups; electronegativity is not needed.
+DROP	composition-of-compounds	writing-ionic-formulas	-	medium	Ionic formulas come from balancing charges, not percent composition.

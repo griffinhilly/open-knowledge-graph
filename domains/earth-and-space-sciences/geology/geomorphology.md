@@ -22,6 +22,8 @@ prerequisites:
   type: soft
 - id: mountains-valleys-and-plains
   type: soft
+- id: topographic-maps
+  type: soft
 tags:
 - geomorphology
 - landforms

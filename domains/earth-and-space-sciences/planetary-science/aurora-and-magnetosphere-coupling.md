@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: planetary-magnetospheres-and-solar-wind
   type: hard
+- id: sun-structure-and-solar-activity
+  type: soft
 tags:
 - magnetosphere
 - aurora

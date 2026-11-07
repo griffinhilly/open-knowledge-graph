@@ -48,3 +48,35 @@ DROP	egg-to-adult	cell-differentiation-development	-	medium	Differentiation draw
 DROP	human-growth-stages	cell-differentiation-development	-	medium	Human growth stages are not used in explaining cell fate specification.
 DROP	metamorphosis	cell-differentiation-development	-	medium	Metamorphosis is not drawn on in explaining transcriptional cell fate programs.
 DROP	prokaryotic-cells	cell-membrane-structure	-	medium	Membrane structure draws on eukaryotic cells and chemistry, not on prokaryotes.
+DROP	passive-transport	cell-signaling-intro	-	medium	Signal transduction draws on membrane structure and enzymes, not on diffusion mechanics.
+DROP	membrane-transport-mechanisms	cell-signaling-receptor-pathways	-	medium	Receptor-to-second-messenger pathways do not depend on an integrated transport survey.
+ADD	living-vs-nonliving	cell-theory	soft	medium	Cell theory's claim that all living things are cells uses the living/nonliving distinction.
+DROP	plants-are-alive-too	cell-theory	-	medium	Cell theory does not specifically draw on the early-grade plants-are-alive topic.
+DROP	cell-biology-intro	cellular-respiration-overview	-	medium	Respiration draws on mitochondria, enzymes and redox, not on a general unifying-principles survey.
+DROP	cilia-flagella-axonemal-structure	centrosomes-and-spindle-pole-bodies	-	medium	Basal bodies derive from centrioles, so cilia draw on centrosomes, not the reverse.
+ADD	cellular-respiration-overview	electron-transport-chain	soft	high	The overview places the ETC as the final, ATP-rich stage of respiration.
+ADD	mitochondrion-energy-production	electron-transport-chain	soft	medium	Overlaps the existing hard mitochondria prerequisite; useful context only.
+ADD	plant-vs-animal-cells	eukaryotic-cells	soft	medium	Plant and animal cells are the familiar eukaryotic examples the topic generalizes.
+DROP	endocytosis-clathrin-mediated-pathway	exocytosis-snare-proteins-membrane-fusion	-	medium	SNARE-mediated fusion does not draw on clathrin coat assembly.
+ADD	cell-adhesion-tissue	gap-junctions-communication	soft	medium	Gap junctions are one class of cell-cell junction alongside adhesion junctions.
+ADD	enzyme-structure-and-function	glycolysis	soft	high	Glycolysis is a sequence of enzyme-catalyzed steps.
+DROP	nuclear-organization-architecture	histone-modifications-epigenetic	-	medium	Histone marks are explained at the nucleosome level, not through 3D genome architecture.
+ADD	centrosomes-and-spindle-pole-bodies	kinetochore-structure-and-function	soft	medium	Kinetochores capture microtubules nucleated from the spindle poles.
+ADD	cellular-respiration-overview	krebs-cycle	soft	high	The overview places the Krebs cycle within respiration.
+ADD	enzyme-structure-and-function	krebs-cycle	soft	high	The cycle is a series of enzyme-catalyzed reactions.
+ADD	glycolysis	krebs-cycle	soft	high	Glycolysis supplies the pyruvate whose acetyl-CoA enters the cycle.
+DROP	peroxisome-oxidative-metabolism	lysosomes-cellular-digestion	-	medium	Lysosome function does not draw on peroxisomal oxidation; they are parallel organelles.
+DROP	anaphase-promoting-complex-cell-cycle-control	mitosis	-	high	Mitosis is the basic topic; APC/C already depends on it via cohesin, so adding would create a cycle.
+ADD	cell-cycle-checkpoints-regulation	mitosis-stages-regulation	soft	medium	The regulation of mitosis includes the spindle assembly checkpoint.
+ADD	prokaryotic-eukaryotic-cells-comparison	nucleus-structure-and-function	soft	medium	The nucleus topic frames its regulatory role as a layer prokaryotes lack.
+DROP	flowers-and-pollination	photosynthesis-overview	-	high	Pollination plays no role in explaining photosynthesis.
+ADD	parts-of-a-plant	photosynthesis-overview	soft	medium	Knowing leaves, roots and stems helps place where photosynthesis happens.
+DROP	seeds-and-germination	photosynthesis-overview	-	medium	Germination is not drawn on in explaining the photosynthetic process.
+DROP	seeds-to-plants-to-seeds	photosynthesis-overview	-	medium	The plant life cycle is not drawn on in explaining photosynthesis.
+DROP	plant-vs-animal-cells	prokaryotic-cells	-	medium	Comparing two eukaryotic cell types does not inform prokaryotic structure.
+ADD	single-celled-organisms	prokaryotic-cells	soft	medium	Bacteria are the canonical single-celled organisms.
+DROP	receptor-mediated-endocytosis	protein-trafficking-secretion	-	medium	The secretory pathway does not draw on endocytosis; a near-duplicate is already listed soft.
+ADD	cellular-respiration-overview	pyruvate-oxidation	soft	high	The overview places pyruvate oxidation between glycolysis and the Krebs cycle.
+DROP	spliceosome-and-splicing-regulation	rna-editing-post-transcriptional-modification	-	medium	Editing is mentioned as distinct from splicing; it does not draw on spliceosome mechanics.
+ADD	lipid-bilayer-and-amphipathic-molecules	selective-permeability-and-membrane-channels	soft	high	Selectivity is explained by the hydrophobic core of the bilayer.
+ADD	kinetochore-structure-and-function	sister-chromatid-cohesion-cohesin-proteins	soft	medium	Cohesion resists kinetochore pulling and creates the tension that signals biorientation.

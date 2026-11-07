@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: electromagnetic-waves
   type: soft
+- id: sun-structure-and-solar-activity
+  type: soft
 builds-toward:
 - atmospheric-escape-mechanisms
 - planetary-habitability-and-biosignatures

@@ -14,6 +14,8 @@ prerequisites:
   type: soft
 - id: erosion-by-wind-and-ice
   type: soft
+- id: glaciers-and-glaciation
+  type: soft
 builds-toward:
 - sediment-transport-and-deposition
 - geomorphology

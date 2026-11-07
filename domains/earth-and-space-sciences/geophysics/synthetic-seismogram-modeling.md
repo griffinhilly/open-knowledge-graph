@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: elastic-wave-propagation-in-solids
   type: hard
+- id: borehole-geophysics-well-logging
+  type: soft
 builds-toward: []
 tags:
 - seismic
