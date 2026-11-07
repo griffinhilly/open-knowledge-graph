@@ -44,14 +44,14 @@ If gcd(a, n) = 1, then a^φ(n) ≡ 1 (mod n), where φ is Euler's totient functi
     - "Euler's theorem requires gcd(a, n) = 1, but gcd(6, 9) = 3 ≠ 1, so the theorem does not apply"
     - "Nothing — the computation is correct"
   answer: 2
-  explanation: "Euler's theorem has a necessary hypothesis: gcd(a, n) = 1. Here gcd(6, 9) = 3, so 6 and 9 share a common factor and the theorem simply does not apply. φ(9) = 6 is actually correct (the units mod 9 are 1, 2, 4, 5, 7, 8). But since 6 is not a unit mod 9, you cannot use Euler's theorem to reduce 6^10 mod 9. In fact 6^10 mod 9 = 0, since 6^2 = 36 ≡ 0 (mod 9)... wait, that's 3^2|36, and 9|36, so yes 6^2 ≡ 0. The coprimality condition is not a technical nicety — without it the theorem is false."
+  explanation: "Euler's theorem has a necessary hypothesis: gcd(a, n) = 1. Here gcd(6, 9) = 3, so 6 and 9 share a common factor and the theorem simply does not apply. φ(9) = 6 is actually correct (the units mod 9 are 1, 2, 4, 5, 7, 8). But since 6 is not a unit mod 9, you cannot use Euler's theorem to reduce 6^10 mod 9. In fact 6^10 ≡ 0 (mod 9), because 6^2 = 36 = 4 · 9 ≡ 0 (mod 9), and every higher power of 6 is then also ≡ 0. The coprimality condition is not a technical nicety — without it the theorem is false."
 
 - question: "Fermat's Little Theorem — that a^(p−1) ≡ 1 (mod p) for any prime p not dividing a — is a special case of Euler's Theorem."
   type: true-false
   answer: true
   explanation: "Yes. When n = p is prime, every integer from 1 to p−1 is coprime to p, so φ(p) = p − 1. Euler's theorem then says a^φ(p) = a^(p−1) ≡ 1 (mod p) for gcd(a, p) = 1 — exactly Fermat's Little Theorem. Euler's theorem is the generalization that extends this to composite moduli, which is what gives it broader applicability, including in RSA where the modulus n = pq is the product of two large primes."
 
-- question: "Euler's theorem states that a^φ(n) ≡ 1 (mod n) holds for most integer a, including those that share a common factor with n."
+- question: "Euler's theorem states that a^φ(n) ≡ 1 (mod n) holds for every integer a, including those that share a common factor with n."
   type: true-false
   answer: false
   explanation: "The condition gcd(a, n) = 1 is essential — without it the theorem is false. For example, a = 2, n = 4: φ(4) = 2, and 2^2 = 4 ≡ 0 (mod 4), not 1. The reason is that the proof relies on the set of units modulo n (integers coprime to n) forming a group under multiplication; multiplying by a unit permutes this group. If gcd(a, n) > 1, then a is not a unit and does not act on the units by permutation — the proof breaks down entirely."

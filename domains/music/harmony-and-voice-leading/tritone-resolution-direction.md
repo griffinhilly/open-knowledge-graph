@@ -21,7 +21,7 @@ status: validated
 # Tritone Resolution Direction and Voice-Leading
 
 ## Core Idea
-Tritones (augmented fourths and diminished fifths) must resolve by contrary motion: augmented fourths expand outward to a fifth; diminished fifths contract inward to a fourth. This resolution convention drives harmonic closure and voice-leading direction.
+Tritones (augmented fourths and diminished fifths) must resolve by contrary motion: augmented fourths expand outward to a sixth; diminished fifths contract inward to a third. This resolution convention drives harmonic closure and voice-leading direction.
 
 ## Questions
 
@@ -49,7 +49,7 @@ Tritones (augmented fourths and diminished fifths) must resolve by contrary moti
 - question: "An augmented fourth and a diminished fifth are enharmonically equivalent in equal temperament (same number of half steps) but resolve in opposite directions."
   type: true-false
   answer: true
-  explanation: "Both the augmented fourth and diminished fifth span exactly 6 half steps — they sound the same in equal temperament. But their voice-leading resolutions differ based on spelling and context. An augmented fourth (like F–B in C major, with F below) expands outward to a major sixth or fifth. A diminished fifth (like B–F with B below) contracts inward to a major third. The same two pitches, spelled differently, create different tonal functions and resolve in opposite directions — a vivid example of how tonal context, not just acoustic content, drives voice leading."
+  explanation: "Both the augmented fourth and diminished fifth span exactly 6 half steps — they sound the same in equal temperament. But their voice-leading resolutions differ based on spelling and context. An augmented fourth (like F–B in C major, with F below) expands outward to a sixth (here the minor sixth E–C). A diminished fifth (like B–F with B below) contracts inward to a major third. The same two pitches, spelled differently, create different tonal functions and resolve in opposite directions — a vivid example of how tonal context, not just acoustic content, drives voice leading."
 
 - question: "If a composer keeps the leading tone stationary (not resolving upward) at a V–I cadence, this is considered standard voice-leading practice and has no effect on the sense of tonal resolution."
   type: true-false
@@ -66,7 +66,7 @@ Tritones (augmented fourths and diminished fifths) must resolve by contrary moti
 
 The tritone — an interval spanning exactly three whole steps, equivalent to six half steps — has been called the *diabolus in musica* by medieval theorists. Its sonic character is unstable and demanding: neither the brightness of a perfect fifth nor the sweetness of a third, the tritone creates a tension that strongly implies motion. Understanding *which direction* that motion goes is one of the most practically useful concepts in voice leading, because the tritone appears in every dominant seventh chord and therefore governs every authentic cadence.
 
-From your prerequisite work with interval quality, you know that the tritone appears in two enharmonically equivalent forms: the **augmented fourth** (like F to B♭ in C major — wait, actually F to B in C major) and the **diminished fifth** (like B to F in C major). These are the same size in equal temperament but resolve differently because of the voice-leading context. The rule is: **augmented fourths expand outward** to a major sixth or fifth, while **diminished fifths contract inward** to a major third or fourth. The direction of resolution is determined by which note is the leading tone and which is the fourth scale degree — the same two notes, but the direction each moves depends on which one is "above" and which is "below."
+From your prerequisite work with interval quality, you know that the tritone appears in two enharmonically equivalent forms: the **augmented fourth** (like F up to B in C major) and the **diminished fifth** (like B to F in C major). These are the same size in equal temperament but resolve differently because of the voice-leading context. The rule is: **augmented fourths expand outward** to a sixth, while **diminished fifths contract inward** to a third. The direction of resolution is determined by which note is the leading tone and which is the fourth scale degree — the same two notes, but the direction each moves depends on which one is "above" and which is "below."
 
 The most important application is the **dominant seventh chord**. In C major, the G7 chord contains the tritone B–F: B is the leading tone (scale degree 7, pulling upward to the tonic C), and F is the fourth scale degree (pulling downward to the third, E). When this chord resolves to I, B moves up a half step to C and F moves down a half step to E — contrary motion, each moving toward their nearest resolution. This is not a stylistic convention but a consequence of the natural tendency of each pitch within the key. The leading tone *must* ascend; the fourth degree has strong gravitational pull downward. The tritone resolution is the acoustical and tonal logic that makes the V–I cadence feel inevitable rather than arbitrary.
 

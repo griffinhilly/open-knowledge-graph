@@ -30,7 +30,7 @@ A structure or system is statically determinate if all support reactions and int
 - question: "A bridge beam is supported by a pin at the left end, a roller at the middle, and a roller at the right end. How many unknown reaction forces does this create, and what does that imply about the beam?"
   type: multiple-choice
   options:
-    - "3 unknowns (pin = 2, two rollers = 1 each = 2, total = 4) — wait, that's 4: statically indeterminate"
+    - "3 unknowns (pin = 2, roller = 1; the middle roller only adds support) — statically determinate"
     - "4 unknowns (pin = 2, roller = 1, roller = 1) — statically indeterminate to the first degree"
     - "3 unknowns (pin = 1, two rollers = 1 each) — statically determinate"
     - "5 unknowns — requires material stiffness properties to solve"

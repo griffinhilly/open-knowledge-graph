@@ -63,7 +63,7 @@ Set up a concave mirror with a lamp as the object, find the real image on a scre
 - question: "For a convex mirror, the focal length is negative, because reflected rays diverge rather than converge to a real focal point."
   type: true-false
   answer: true
-  explanation: "A convex mirror's surface curves away from the incoming light, causing reflected rays to diverge. They appear to come from a point behind the mirror — the virtual focus — rather than converging to a point in front. By the sign convention (distances in front of the mirror are positive), a focal point behind the mirror gets a negative f. This is why convex mirrors always produce virtual, upright, diminished images and have positive dᵢ in the mirror equation only when... wait, actually dᵢ is negative for convex mirrors too. The key: f < 0 for convex mirrors consistently gives dᵢ < 0, confirming the image is always virtual."
+  explanation: "A convex mirror's surface curves away from the incoming light, causing reflected rays to diverge. They appear to come from a point behind the mirror — the virtual focus — rather than converging to a point in front. By the sign convention (distances in front of the mirror are positive), a focal point behind the mirror gets a negative f. This is why convex mirrors always produce virtual, upright, diminished images: with f < 0 and a real object (dₒ > 0), the mirror equation 1/dᵢ = 1/f − 1/dₒ always gives dᵢ < 0, so the image is always behind the mirror."
 
 - question: "Why does an object placed just inside the focal point of a concave mirror produce a large, virtual, upright image rather than a real, inverted one?"
   type: short-answer

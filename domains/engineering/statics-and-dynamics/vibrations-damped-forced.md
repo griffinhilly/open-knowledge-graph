@@ -63,7 +63,7 @@ Analyze standard underdamped, critically damped, and overdamped responses. Use f
 - question: "At resonance, the steady-state response of a forced damped oscillator lags the driving force by exactly 90°, regardless of the value of the damping ratio ζ."
   type: true-false
   answer: true
-  explanation: "The 90° phase lag at ω = ω_n is a universal property of the damped forced oscillator, independent of damping level. This is because the phase angle φ = arctan(2ζr / (1 − r²)) evaluated at r = ω/ω_n = 1 gives arctan(2ζ·0) = arctan(∞) ... wait, actually at r=1: φ = arctan(2ζ·1 / (1−1²)) = arctan(2ζ/0) = 90° for all ζ > 0. The phase is always 90° at the undamped natural frequency — it is the amplitude peak that shifts, not the 90° phase crossing."
+  explanation: "The 90° phase lag at ω = ω_n is a universal property of the damped forced oscillator, independent of damping level. This is because the phase angle φ = arctan(2ζr / (1 − r²)) evaluated at r = ω/ω_n = 1: the denominator 1 − r² is zero, so for any ζ > 0 the argument 2ζ/0 is infinite and φ = 90°. The phase is always 90° at the undamped natural frequency — it is the amplitude peak that shifts, not the 90° phase crossing."
 
 - question: "Explain why a mechanical system can experience harmful resonance even when damping is present, and what determines the severity of the resonant response."
   type: short-answer

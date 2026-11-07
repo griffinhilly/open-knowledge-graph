@@ -25,7 +25,7 @@ status: validated
 # Whole Steps and Half Steps
 
 ## Core Idea
-Whole steps and half steps are the two smallest distances between pitches in Western music. A half step is the smallest interval in the chromatic scale (one fret, one piano key, or two semitones), while a whole step is double that distance (two frets or two semitones). Understanding these building blocks is essential for constructing scales and recognizing melodic patterns.
+Whole steps and half steps are the two smallest distances between pitches in Western music. A half step is the smallest interval in the chromatic scale (one fret, one piano key, or one semitone), while a whole step is double that distance (two frets or two semitones). Understanding these building blocks is essential for constructing scales and recognizing melodic patterns.
 
 ## How It's Best Learned
 Start by comparing adjacent pitches on a keyboard or fingerboard to feel the distance. Sing or play patterns of whole and half steps in isolation, then identify them in familiar melodies.
@@ -50,11 +50,11 @@ Students often confuse the visual distance on the staff with the actual distance
   type: multiple-choice
   options:
     - "Two, because C and E are two letter names apart"
-    - "Three, because C–D is one whole step and D–E is one whole step, totaling four half steps — wait, that's four"
+    - "Five, because you count every key from C to E, including both ends"
     - "Four, because C–D is a whole step (two half steps) and D–E is a whole step (two more half steps)"
     - "Three, because there are three black keys between C and E"
   answer: 2
-  explanation: "C to D is a whole step = 2 half steps (C → C# → D). D to E is a whole step = 2 half steps (D → D# → E). Total: 4 half steps. The answer is 4, which corresponds to option C. This illustrates why counting letter names is unreliable for measuring intervals: 'two letters apart' does not mean 'two half steps.' The acoustic distance depends on which specific notes are involved."
+  explanation: "C to D is a whole step = 2 half steps (C → C# → D). D to E is a whole step = 2 half steps (D → D# → E). Total: 4 half steps. This illustrates why counting letter names is unreliable for measuring intervals: 'two letters apart' does not mean 'two half steps.' The acoustic distance depends on which specific notes are involved."
 
 - question: "On a standard piano keyboard, E to F is a half step because there is no black key between them."
   type: true-false
