@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Electrons and nucleons have intrinsic angular momentum (spin) with s = ½, giving two possible z-components: m_s = ±½. The spin-½ system is the simplest nontrivial quantum system with a 2-dimensional Hilbert space.
 
+## How It's Best Learned
+Map spinors onto the Bloch sphere by hand. Write the state for direction (θ, φ) as cos(θ/2)|↑⟩ + e^{iφ} sin(θ/2)|↓⟩, then find the states for +x, −x, +y and −y. Check that |↑⟩ and |↓⟩ sit at opposite poles. Then compute measurement probabilities along one axis for a state prepared along another, and compare with cos²(angle/2).
+
+## Common Misconceptions
+- Orthogonal spin states point in perpendicular directions. (Orthogonal spin-½ states are opposite points on the Bloch sphere, such as spin-up and spin-down along the same axis.)
+- The state α|↑⟩ + β|↓⟩ means the spin is really up or really down and we just do not know which. (A pure superposition is spin-up along some other axis. A measurement along that axis gives one result with certainty.)
+- Multiplying a spinor by an overall phase e^{iγ} gives a different physical state. (A global phase changes no measurement probability. Only the relative phase between α and β matters, and it sets the azimuthal angle on the Bloch sphere.)
+
 ## Questions
 
 ```yaml

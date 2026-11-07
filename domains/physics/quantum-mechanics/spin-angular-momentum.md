@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Spin is intrinsic angular momentum with no classical analog. Electrons have s = ½, obeying [Ŝ_i, Ŝ_j] = iℏ ε_{ijk} Ŝ_k. The spin magnetic moment couples to magnetic fields.
 
+## How It's Best Learned
+Build the s = ½ matrices yourself from the ladder-operator results you already have: Ŝ_z is diagonal, and Ŝ_x and Ŝ_y come from Ŝ₊ and Ŝ₋. Check the commutators by multiplying 2×2 matrices. Then find the eigenvectors of Ŝ_x and use them to predict a sequence of Stern-Gerlach devices: z, then x, then z again.
+
+## Common Misconceptions
+- A spin-up electron has its spin vector pointing straight along z with length ℏ/2. (The magnitude is √(s(s+1))ℏ = (√3/2)ℏ, larger than the z-component. When S_z is definite, S_x and S_y are not.)
+- After S_z is found to be +ℏ/2, a measurement of S_x will give a predictable result. (The S_z eigenstate is an equal superposition of the S_x eigenstates. Each outcome ±ℏ/2 has probability ½.)
+- Rotating a spin-½ state by 360° returns it unchanged. (A 2π rotation multiplies the state by −1. It takes 4π to return to the original sign, which shows up in interference experiments.)
+
 ## Questions
 
 ```yaml

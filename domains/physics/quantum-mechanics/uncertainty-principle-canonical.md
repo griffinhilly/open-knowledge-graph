@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 For any two observables with commutator [Â, B̂], the uncertainty product satisfies ΔA ΔB ≥ |⟨[Â, B̂]⟩|/2. The canonical relation ΔxΔp ≥ ℏ/2 shows position and momentum cannot both be arbitrarily precise. These relations are fundamental constraints on what can be simultaneously known about a quantum system.
 
+## How It's Best Learned
+Test the bound on states you can compute exactly. For a Gaussian wave packet, find Δx and Δp and see the product equal ℏ/2. For the first excited oscillator state, get 3ℏ/2. For angular momentum in |l = 1, m = 1⟩, compute ΔL_x and ΔL_y from ⟨L_x²⟩ = (ℏ²/2)(l(l+1) − m²) and compare the product with ½ℏ|⟨L_z⟩|.
+
+## Common Misconceptions
+- Δx is the resolution of the instrument that measures position. (Δx is the spread of results over many identically prepared systems. A single position measurement can be as sharp as the apparatus allows.)
+- Most quantum states sit right at the bound Δx Δp = ℏ/2. (Only Gaussian wave packets reach it. The nth oscillator eigenstate has Δx Δp = (n + ½)ℏ, well above the minimum for large n.)
+- Since ΔL_x ΔL_y ≥ ½ℏ|⟨L_z⟩|, the bound is the same for every state, like the one for x and p. (It depends on the state through ⟨L_z⟩. The x and p bound is state-independent only because [x̂, p̂] is a constant.)
+
 ## Questions
 
 ```yaml

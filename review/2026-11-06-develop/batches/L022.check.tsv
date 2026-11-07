@@ -1,0 +1,60 @@
+domains/computer-science/advanced-algorithms/advanced-network-flow.md	how	3	0	ok
+domains/computer-science/advanced-algorithms/advanced-network-flow.md	mis	8	1	fixed	Blocking-flow bullet said a non-maximal blocking flow "is why Dinic needs several phases"; wrong cause (phases are needed because longer augmenting paths remain). Old text: O(E sqrt V) is for unit networks (unit capacity plus degree condition), not all unit-capacity networks; Q1 calls it "optimal for bipartite matching", which is unproven.
+domains/computer-science/advanced-algorithms/algorithmic-game-theory.md	how	3	0	ok
+domains/computer-science/advanced-algorithms/algorithmic-game-theory.md	mis	8	0	ok
+domains/computer-science/advanced-algorithms/approximation-algorithms-advanced.md	how	4	0	ok
+domains/computer-science/advanced-algorithms/approximation-algorithms-advanced.md	mis	8	2	fixed	Bullet 1 belief was true as stated (the ratio is defined against the true optimum); reworded to be about the proof. Bullet 3 said the LP "appears only in the proof", contradicting Core Idea (complementary slackness guides the algorithm).
+domains/computer-science/advanced-algorithms/bloom-filters.md	how	4	1	fixed	Derivation steps skipped the complement: (1-1/m)^(kn) is the chance a bit stays 0, and its k-th power is not the query rate. Added "subtract from 1". Checked: m/n=10 gives optimum k near 7 and half the bits set.
+domains/computer-science/advanced-algorithms/bloom-filters.md	mis	8	0	ok
+domains/computer-science/advanced-algorithms/cache-oblivious-algorithms.md	how	4	0	ok
+domains/computer-science/advanced-algorithms/cache-oblivious-algorithms.md	mis	8	2	fixed	LRU bullet dropped the regularity qualifier (bound must change by a constant factor when M halves). Mergesort bullet contradicted itself: 2-way mergesort has contiguous subproblems and an I/O-efficient merge, yet is not optimal; the issue is fan-out. Rewrote with the log_2(N/M) cost.
+domains/computer-science/advanced-algorithms/communication-complexity.md	how	3	0	ok
+domains/computer-science/advanced-algorithms/communication-complexity.md	mis	8	1	fixed	Distinct-elements bullet: constant-factor estimation in small space needs randomization; deterministic approximation still needs Omega(n). Added "randomized".
+domains/computer-science/advanced-algorithms/concentration-inequalities-algorithmic.md	how	3	0	ok	Worked: Markov 0.83, Chebyshev 0.025, Chernoff about 1e-4 for Pr[X>=600].
+domains/computer-science/advanced-algorithms/concentration-inequalities-algorithmic.md	mis	8	0	ok
+domains/computer-science/advanced-algorithms/derandomization-techniques.md	how	4	0	ok
+domains/computer-science/advanced-algorithms/derandomization-techniques.md	mis	8	0	ok
+domains/computer-science/advanced-algorithms/expander-graphs.md	how	3	0	ok
+domains/computer-science/advanced-algorithms/expander-graphs.md	mis	8	0	ok
+domains/computer-science/advanced-algorithms/exponential-time-hypothesis.md	how	3	1	fixed	"Carries a 2^(o(n)) lower bound" misstates the bound (ETH rules out 2^(o(n)) algorithms) and ignored that reductions are linear in n+m, which needs the sparsification lemma. Old text: Core Idea SETH definition uses 2^((1-eps)kn), which is wrong (SETH is about 2^((1-eps)n)); 3-SUM and APSP hardness are not SETH/ETH-based.
+domains/computer-science/advanced-algorithms/exponential-time-hypothesis.md	mis	8	0	ok
+domains/computer-science/advanced-algorithms/external-memory-algorithms.md	how	3	0	ok	Worked: 2-way about 10 merge passes vs one pass at M/B=10^6.
+domains/computer-science/advanced-algorithms/external-memory-algorithms.md	mis	8	0	ok
+domains/computer-science/advanced-algorithms/fft-polynomial-multiplication.md	how	3	0	ok	Worked: (1+2x)(3+x) via 4th roots gives 3+7x+2x^2.
+domains/computer-science/advanced-algorithms/fft-polynomial-multiplication.md	mis	8	0	ok
+domains/computer-science/advanced-algorithms/fibonacci-heaps-amortized-analysis.md	how	4	0	ok	Checked a cascading cut is reachable after one delete-min on ten keys.
+domains/computer-science/advanced-algorithms/fibonacci-heaps-amortized-analysis.md	mis	8	0	ok
+domains/computer-science/advanced-algorithms/fine-grained-complexity.md	how	3	0	ok
+domains/computer-science/advanced-algorithms/fine-grained-complexity.md	mis	8	0	ok	Old text: Core Idea SETH stated with 2^((1-eps)kn); Q0 describes ETH (3-SAT, 2^(cn)) but calls it SETH.
+domains/computer-science/advanced-algorithms/fixed-parameter-tractability-advanced.md	how	3	1	fixed	"Build a tree decomposition with bags of size three" fails for a general 8-10 vertex graph; added treewidth 2 and an example graph.
+domains/computer-science/advanced-algorithms/fixed-parameter-tractability-advanced.md	mis	8	1	fixed	Treewidth bullet called "small treewidth means sparse" a misconception, but treewidth k does imply at most about kn edges. Reworded to the converse (sparse does not imply small treewidth, grid example).
+domains/computer-science/advanced-algorithms/las-vegas-vs-monte-carlo.md	how	3	0	ok
+domains/computer-science/advanced-algorithms/las-vegas-vs-monte-carlo.md	mis	8	0	ok
+domains/computer-science/advanced-algorithms/linear-programming-algorithms.md	how	4	1	fixed	Simplex "from the origin" fails unless the origin is feasible; added that condition.
+domains/computer-science/advanced-algorithms/linear-programming-algorithms.md	mis	8	1	fixed	"A linear objective has no interior maximum" is false for a constant objective; added "non-constant".
+domains/computer-science/advanced-algorithms/link-cut-trees.md	how	4	0	ok
+domains/computer-science/advanced-algorithms/link-cut-trees.md	mis	8	1	fixed	"The bound is amortized" holds for the splay-tree version only; the biased-tree version gives worst-case O(log n). Added qualifier.
+domains/computer-science/advanced-algorithms/matroid-intersection.md	how	3	0	ok
+domains/computer-science/advanced-algorithms/matroid-intersection.md	mis	8	0	ok
+domains/computer-science/advanced-algorithms/online-algorithms-competitive-analysis.md	how	3	0	ok	Checked: cycling 4 pages makes LRU with k=3 fault every request.
+domains/computer-science/advanced-algorithms/online-algorithms-competitive-analysis.md	mis	8	0	ok
+domains/computer-science/advanced-algorithms/parallel-algorithms-pram.md	how	3	0	ok
+domains/computer-science/advanced-algorithms/parallel-algorithms-pram.md	mis	8	1	fixed	P-completeness bullet dropped the polynomial-work condition (a polylog-depth algorithm with superpolynomial processors would not give NC = P).
+domains/computer-science/advanced-algorithms/parameterized-complexity.md	how	3	0	ok
+domains/computer-science/advanced-algorithms/parameterized-complexity.md	mis	8	0	ok
+domains/computer-science/advanced-algorithms/pcp-theorem-hardness-of-approximation.md	how	3	0	ok
+domains/computer-science/advanced-algorithms/pcp-theorem-hardness-of-approximation.md	mis	8	0	ok	Old text: Core Idea says PCP is behind "all" inapproximability results; overstated.
+domains/computer-science/advanced-algorithms/polynomial-identity-testing.md	how	3	1	fixed	Tutte-matrix step said to "check that the determinant is nonzero"; with random values mod a small prime it can vanish by chance. Added "usually" and the Schwartz-Zippel bound 4/p. Checked the sample circuit is identically 0.
+domains/computer-science/advanced-algorithms/polynomial-identity-testing.md	mis	8	0	ok
+domains/computer-science/advanced-algorithms/probabilistic-method.md	how	3	0	ok	Worked: C(n,10)*2^(-44) crosses 1 near n = 100.
+domains/computer-science/advanced-algorithms/probabilistic-method.md	mis	8	1	fixed	E[X]<1 bullet said it shows "only that some outcome has X = 0"; it also gives Pr[X=0] >= 1-E[X]. Replaced with the Markov bound.
+domains/computer-science/advanced-algorithms/property-testing.md	how	3	0	ok	Worked: one-point deviation on 3 bits gives distance 1/8 and BLR rejection 18/64.
+domains/computer-science/advanced-algorithms/property-testing.md	mis	8	0	ok
+domains/computer-science/advanced-algorithms/ptas-and-fptas.md	how	3	0	ok
+domains/computer-science/advanced-algorithms/ptas-and-fptas.md	mis	8	0	ok
+domains/computer-science/advanced-algorithms/quantum-algorithms-beyond-shor.md	how	3	0	ok	Worked: n=4 Grover gives amplitude 1 on the marked item after one iteration.
+domains/computer-science/advanced-algorithms/quantum-algorithms-beyond-shor.md	mis	8	1	fixed	"Interference ... takes many steps" is an absolute; Deutsch-Jozsa and Bernstein-Vazirani use one query. Cut the clause.
+domains/computer-science/advanced-algorithms/random-sampling-techniques.md	how	3	0	ok
+domains/computer-science/advanced-algorithms/random-sampling-techniques.md	mis	8	0	ok
+domains/computer-science/advanced-algorithms/randomized-algorithms.md	how	3	0	ok	Worked: n=4 expected comparisons 29/6.
+domains/computer-science/advanced-algorithms/randomized-algorithms.md	mis	8	0	ok

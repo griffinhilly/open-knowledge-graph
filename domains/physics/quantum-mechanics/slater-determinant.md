@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 A Slater determinant is an antisymmetric N-electron wavefunction written as a determinant of single-particle orbitals. It automatically enforces the Pauli principle and forms the basis of Hartree-Fock theory.
 
+## How It's Best Learned
+Write out the 2×2 determinant by hand, then a 3×3 one for spin-orbitals 1s↑, 1s↓ and 2s↑, and expand it into its six terms. Swap two electron labels and check the sign flips. Then set two spin-orbitals equal and watch the terms cancel. For the two same-spin electrons, put both at one point and see the amplitude vanish.
+
+## Common Misconceptions
+- Two electrons cannot share a spatial orbital in a Slater determinant. (They can if their spins differ. The determinant vanishes when two spin-orbitals, space and spin together, are identical.)
+- Electrons in a Slater determinant move with no correlation at all. (Same-spin electrons avoid each other through the antisymmetry, which creates the exchange or Fermi hole. What the determinant misses is the extra correlation from Coulomb repulsion.)
+- Every antisymmetric many-electron wavefunction is a single Slater determinant. (A general antisymmetric state is a linear combination of determinants. Configuration interaction methods build on this.)
+- A Slater determinant has a definite total spin. (Some do and some do not. A determinant with one spin-up and one spin-down electron in different spatial orbitals mixes singlet and triplet.)
+
 ## Questions
 
 ```yaml

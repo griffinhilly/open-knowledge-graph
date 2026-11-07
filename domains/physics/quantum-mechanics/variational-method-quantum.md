@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 Parameterize trial wavefunction ψ(α, β, ...) and compute ⟨H⟩; minimize by ∂⟨H⟩/∂α = 0. Widely used in quantum chemistry (Hartree-Fock) and condensed matter.
 
+## How It's Best Learned
+Do the hydrogen ground state twice by hand. First use the Gaussian trial e^{−αr²}: compute ⟨T⟩ and ⟨V⟩ as functions of α, minimize, and reach −(8/(3π)) × 13.6 eV ≈ −11.5 eV. Then repeat with e^{−αr} and land on the exact answer. Plot both E(α) curves to see how flat they are near their minima.
+
+## Common Misconceptions
+- A lower variational energy means the wavefunction is better for every property. (The energy error is second order in the wavefunction error, but other expectation values, such as ⟨r²⟩, are first order. They can be noticeably worse than the energy suggests.)
+- Any solution of ∂E/∂α = 0 is the best estimate. (A stationary point can be a maximum or saddle point, and the minimum can sit at a boundary of the parameter range. Check that it is the lowest value.)
+- The same minimization gives excited-state energies. (Unconstrained minimization goes to the ground state. An excited-state bound needs a trial function orthogonal to the lower states, for instance by choosing a different symmetry.)
+
 ## Questions
 
 ```yaml

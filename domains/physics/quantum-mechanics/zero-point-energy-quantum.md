@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 Unlike classical mechanics where a harmonic oscillator can have zero energy at rest, quantum mechanics requires minimum energy E₀ = ℏω/2 due to the uncertainty principle. Particles cannot simultaneously have definite position and momentum, so zero-point energy is a fundamental quantum constraint. It appears in all oscillatory systems and is observable in van der Waals forces and Lamb shift.
 
+## How It's Best Learned
+Compute ⟨T⟩ and ⟨V⟩ in the ground state with the ladder operators, writing x and p in terms of â₊ and â₋. Each comes out ℏω/4. Then compare H₂ and D₂, which share one potential curve but differ in mass. The heavier molecule has the lower vibrational zero-point energy, ½ℏω with ω ∝ 1/√μ, so it is harder to break apart.
+
+## Common Misconceptions
+- Zero-point energy is special to harmonic oscillators. (Any confined quantum particle has a ground-state energy above the potential minimum. A particle in a box has E₁ = π²ℏ²/(2mL²), not zero.)
+- In the ground state the particle sits still and only its position is uncertain. (The ground state has ⟨p²⟩ = mℏω/2, not zero. Its kinetic energy averages ℏω/4.)
+- A molecule's bond dissociation energy equals the depth of its potential well. (The measured value is the well depth minus the zero-point energy. That is why H₂ and D₂ have different dissociation energies on the same potential curve.)
+
 ## Questions
 
 ```yaml

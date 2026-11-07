@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 WKB is a semiclassical method valid when de Broglie wavelength varies slowly. Writing ψ(x) ≈ A(x) e^{iS(x)/ℏ} accurately describes tunneling, quantization, and smooth-potential scattering.
 
+## How It's Best Learned
+Substitute ψ = A e^{iS/ℏ} into the Schrödinger equation and sort terms by powers of ℏ. The leading order gives S'² = p². The next order gives 2S'A' + S''A = 0, which yields A ∝ 1/√p. Then take a linear potential and compute |dλ/dx| as a function of x. You will see where it grows near the turning point and the approximation fails.
+
+## Common Misconceptions
+- WKB, like the Born approximation, assumes the potential is weak. (WKB assumes the potential varies slowly compared with the local wavelength. The potential itself can be large.)
+- WKB is reliable only for highly excited states. (Accuracy usually improves with n, but low states can still come out well. For the harmonic oscillator, WKB quantization gives the exact energies, including the ground state.)
+- The tunneling exponent uses the full base width of the barrier. (The integral runs between the two turning points at the particle's energy. As E rises toward the top, that range shrinks and tunneling grows.)
+
 ## Questions
 
 ```yaml

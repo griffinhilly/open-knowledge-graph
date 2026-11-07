@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Scattering theory describes how quantum particles interact with localized potentials. An incoming plane wave scatters into outgoing spherical waves. Scattering amplitude f(θ, φ) encodes angular distribution; dσ/dΩ = |f|².
 
+## How It's Best Learned
+Sketch the setup first: a beam along z, a small target, and a detector at angle θ covering solid angle dΩ. Then compute the incident and scattered probability currents from ψ ≈ e^{ikz} + f e^{ikr}/r. Take their ratio and dσ/dΩ = |f|² falls out. Finish by checking the units of f and the 1/r falloff against flux conservation.
+
+## Common Misconceptions
+- The cross section is the physical size of the target. (It is an effective area set by the interaction and the beam energy. It can be much larger or smaller than the target's geometric size.)
+- The scattered wave falls off as 1/r² like the intensity from a point source. (The amplitude falls as 1/r, so the probability density falls as 1/r². That keeps the flux through a growing sphere constant.)
+- Measuring dσ/dΩ at every angle gives the full scattering amplitude. (It gives only |f|². The phase of f needs interference effects or further theory to recover.)
+
 ## Questions
 
 ```yaml

@@ -1,0 +1,60 @@
+domains/computer-science/information-theory/algorithmic-information-theory.md	how	3	1	fixed	Said both Chaitin's theorem and the halting problem "follow from" the uncomputability of K(x); plain uncomputability of K does not imply Chaitin's theorem. Softened to "connects to". OLD TEXT: Explainer says Omega encodes "every finite mathematical problem" (overstated; it settles Pi_1-type questions such as halting).
+domains/computer-science/information-theory/algorithmic-information-theory.md	mis	8	1	fixed	Chaitin bullet dropped the qualifier: an inconsistent system proves everything. Added "sound formal system with computably listable axioms".
+domains/computer-science/information-theory/arithmetic-coding.md	how	4	0	ok
+domains/computer-science/information-theory/arithmetic-coding.md	mis	8	0	ok	OLD TEXT: Q3 ABAC answer is wrong. From [0.36,0.468), C selects [0.4572,0.468), width 0.0108 = 0.6*0.3*0.6*0.1 (not 0.006); -log2(0.0108) = 6.53 bits.
+domains/computer-science/information-theory/binary-symmetric-channel.md	how	3	0	ok	Repetition-3 at p=0.1: rate 1/3, error 0.028, checked.
+domains/computer-science/information-theory/binary-symmetric-channel.md	mis	8	0	ok
+domains/computer-science/information-theory/broadcast-channel-capacity.md	how	4	0	ok
+domains/computer-science/information-theory/broadcast-channel-capacity.md	mis	8	0	ok	OLD TEXT, serious: Q2 (true-false) answer "true" is wrong; superposition beats time-sharing and the region is not a triangle. Q4 explanation contains drafting chatter ("Hmm... let me recalculate... I'll mark option") and no option matches (correct R_2 = 0.5*log2(1+4/(6+4)) = 0.24, R_1 = 1.40). Q1 option uses wrong formula. Explainer credits the BC-MAC duality to Bergmans (it is Jindal-Vishwanath-Goldsmith / Vishwanath-Jindal-Goldsmith, 2003-04) and says "cloud cloud".
+domains/computer-science/information-theory/broadcast-channel.md	how	3	0	ok
+domains/computer-science/information-theory/broadcast-channel.md	mis	8	1	fixed	Correction said superposition coding is "not enough" when receivers are better on different frequencies; for parallel Gaussian BCs, per-subchannel superposition coding does reach capacity (Tse 1997). Replaced with the certain claim that no single ranking holds across the band. Same overclaim sits in the OLD Explainer paragraph 4.
+domains/computer-science/information-theory/causal-information-theory.md	how	4	0	ok
+domains/computer-science/information-theory/causal-information-theory.md	mis	8	1	fixed	"They differ when X and Y share a confounder" was absolute (they can coincide; they also differ under reverse causation). Now "They can differ, for example when...". OLD TEXT: Q2 is a "Why...?" question typed true-false.
+domains/computer-science/information-theory/channel-capacity.md	how	4	0	ok
+domains/computer-science/information-theory/channel-capacity.md	mis	8	0	ok
+domains/computer-science/information-theory/channel-coding-theorem.md	how	4	0	ok
+domains/computer-science/information-theory/channel-coding-theorem.md	mis	8	0	ok
+domains/computer-science/information-theory/data-compression-basics.md	how	4	1	fixed	Exercise fails when worked: Huffman on random letters still saves bits against 8-bit ASCII, so savings do not vanish. Changed "random characters" to "uniformly random bytes".
+domains/computer-science/information-theory/data-compression-basics.md	mis	8	0	ok
+domains/computer-science/information-theory/differential-entropy.md	how	3	0	ok	Worked: h = 2, 0, -2 bits; quantized entropies 1, 2, 3 match h + log2(1/delta).
+domains/computer-science/information-theory/differential-entropy.md	mis	8	1	fixed	"MI and KL keep their discrete properties" overstated: continuous MI can be infinite and has no H-based upper bound. Now names the two properties that do carry over. OLD TEXT: Core Idea says MI is "always non-negative and finite" (I(X;X) is infinite for continuous X).
+domains/computer-science/information-theory/entropy-rate-stochastic-processes.md	how	4	0	ok
+domains/computer-science/information-theory/entropy-rate-stochastic-processes.md	mis	8	0	ok
+domains/computer-science/information-theory/fanos-inequality.md	how	4	0	ok	Worked |X|=8: bound 0.109 bits at P_e=0.01, 1.72 bits at P_e=0.3.
+domains/computer-science/information-theory/fanos-inequality.md	mis	6	0	ok
+domains/computer-science/information-theory/fisher-information-theory.md	how	3	0	ok
+domains/computer-science/information-theory/fisher-information-theory.md	mis	8	0	ok
+domains/computer-science/information-theory/gaussian-channel.md	how	3	0	ok
+domains/computer-science/information-theory/gaussian-channel.md	mis	8	0	ok
+domains/computer-science/information-theory/huffman-coding.md	how	4	0	ok	Worked {0.4,0.3,0.2,0.1}: L = 1.9, H = 1.846.
+domains/computer-science/information-theory/huffman-coding.md	mis	8	0	ok	Checked {0.3,0.3,0.2,0.2} gives all 2-bit codewords.
+domains/computer-science/information-theory/information-geometry-advanced.md	how	4	0	ok
+domains/computer-science/information-theory/information-geometry-advanced.md	mis	8	0	ok	OLD TEXT: Q1 calls the Levi-Civita connection "(flat connection)"; it is not flat in general (the normal family has curvature -1/2).
+domains/computer-science/information-theory/information-geometry-basics.md	how	4	0	ok	Checked d(2 arcsin sqrt p)/dp = 1/sqrt(p(1-p)).
+domains/computer-science/information-theory/information-geometry-basics.md	mis	8	1	fixed	"If two parameter values give the same distribution, the Fisher matrix is singular" is false (e.g. label swap in a mixture). Singularity comes from a local direction that leaves the distribution unchanged; reworded to that.
+domains/computer-science/information-theory/information-theoretic-security.md	how	4	0	ok
+domains/computer-science/information-theory/information-theoretic-security.md	mis	8	0	ok
+domains/computer-science/information-theory/information-theory-neuroscience.md	how	4	0	ok
+domains/computer-science/information-theory/information-theory-neuroscience.md	mis	8	0	ok	OLD TEXT, serious: Q1 claims I(S;R)=0 differs from independence and marks that option correct; its own explanation then says independence is exactly what I=0 means. Option 0 is the right answer.
+domains/computer-science/information-theory/information-theory-statistical-inference.md	how	4	0	ok
+domains/computer-science/information-theory/information-theory-statistical-inference.md	mis	8	0	ok
+domains/computer-science/information-theory/joint-and-conditional-entropy.md	how	3	0	ok
+domains/computer-science/information-theory/joint-and-conditional-entropy.md	mis	8	0	ok
+domains/computer-science/information-theory/kl-divergence.md	how	4	0	ok
+domains/computer-science/information-theory/kl-divergence.md	mis	8	0	ok
+domains/computer-science/information-theory/kolmogorov-complexity-algorithmic.md	how	3	0	ok
+domains/computer-science/information-theory/kolmogorov-complexity-algorithmic.md	mis	8	0	ok	OLD TEXT: Core Idea credits uncomputability of K to "Chaitin's incompleteness results" and calls it "deeper than the halting problem"; loose.
+domains/computer-science/information-theory/kolmogorov-complexity-information-theory.md	how	4	0	ok
+domains/computer-science/information-theory/kolmogorov-complexity-information-theory.md	mis	6	0	ok
+domains/computer-science/information-theory/maximum-entropy-principle.md	how	3	0	ok
+domains/computer-science/information-theory/maximum-entropy-principle.md	mis	8	0	ok
+domains/computer-science/information-theory/mimo-capacity.md	how	4	0	ok
+domains/computer-science/information-theory/mimo-capacity.md	mis	8	0	ok
+domains/computer-science/information-theory/minimum-description-length.md	how	4	0	ok
+domains/computer-science/information-theory/minimum-description-length.md	mis	8	0	ok
+domains/computer-science/information-theory/multiple-access-channel-capacity.md	how	4	1	fixed	Exercise fails when worked: time-sharing at fixed power is the straight line between single-user points and never touches the sum-rate line. Replaced with the FDMA curve (full power in each band share), which touches it at alpha = P_1/(P_1+P_2) = 10/11. Checked corners: (1.73, 0.063) and (1.29, 0.5); sum 1.79. OLD TEXT: Core Idea says Gaussian sum capacity is log2(1+sum P/N) (missing 1/2 for real channels) and that it is "achieved by the orthogonal multiple access of users alone".
+domains/computer-science/information-theory/multiple-access-channel-capacity.md	mis	8	0	ok
+domains/computer-science/information-theory/multiple-access-channel.md	how	3	0	ok	Checked binary adder: I(X1;Y|X2)=1, H(Y)=1.5.
+domains/computer-science/information-theory/multiple-access-channel.md	mis	8	0	ok
+domains/computer-science/information-theory/mutual-information.md	how	3	0	ok	Checked Y=X^2: Cov=0, I = H(1/3,2/3) = 0.918 bits.
+domains/computer-science/information-theory/mutual-information.md	mis	8	0	ok

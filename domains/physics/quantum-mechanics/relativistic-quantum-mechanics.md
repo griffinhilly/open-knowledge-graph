@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Schrödinger equation is not Lorentz covariant. The Klein-Gordon (spin-0) and Dirac (spin-½) equations are relativistically invariant. Negative-energy solutions interpret as antiparticles, naturally leading to quantum field theory.
 
+## How It's Best Learned
+Start from E² = (pc)² + (mc²)² and make the operator substitutions yourself to get the Klein-Gordon equation. Then compute its conserved density and see that it can be negative. Next, try to write a first-order equation with plain-number coefficients and show that squaring it fails. Find the conditions the coefficients must meet, and the case for matrices follows.
+
+## Common Misconceptions
+- The Klein-Gordon equation is wrong and only the Dirac equation is truly relativistic. (Both are Lorentz covariant. Klein-Gordon describes spin-0 particles; its trouble is reading its solution as a single-particle probability amplitude.)
+- A Dirac spinor's four components are like a four-vector's, one per spacetime direction. (A spinor transforms differently from a four-vector under Lorentz transformations. In the standard representation the components hold two spin states for each of the positive- and negative-energy solutions.)
+- Relativistic quantum mechanics is the Schrödinger equation with a corrected kinetic energy. (Adding relativistic corrections to the Hamiltonian is only an approximation. A covariant wave equation must treat time and space derivatives on the same footing.)
+
 ## Questions
 
 ```yaml

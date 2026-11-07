@@ -18,6 +18,14 @@ status: validated
 ## Core Idea
 Transition rates depend on ⟨f|H'|i⟩. Selection rules (e.g., Δl = ±1, Δj = 0, ±1 for electric dipole) determine allowed vs. forbidden transitions.
 
+## How It's Best Learned
+Compute two hydrogen matrix elements side by side: ⟨1s|z|2p, m = 0⟩, which is nonzero, and ⟨1s|z|2s⟩, which vanishes by parity. Then use the fact that cos θ · Y_{l,m} is a combination of Y_{l+1,m} and Y_{l−1,m} only. That one identity shows why parity alone cannot be the whole story. It also gives Δm = 0 for z-polarized light.
+
+## Common Misconceptions
+- Parity alone gives the rule Δl = ±1. (Parity requires Δl to be odd. The vector character of r, which can change angular momentum by at most one unit, rules out Δl = ±3 and beyond.)
+- Electric dipole transitions in hydrogen need Δn = ±1. (There is no rule on n. For example, 3p → 1s is allowed, with Δn = 2.)
+- A j = 0 → j = 0 transition is allowed whenever the two states have opposite parity. (A single photon carries one unit of angular momentum, so single-photon transitions from j = 0 to j = 0 do not occur.)
+
 ## Questions
 
 ```yaml

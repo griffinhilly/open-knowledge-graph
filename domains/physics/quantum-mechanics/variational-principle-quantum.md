@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 For any normalized |ψ⟩, ⟨ψ|Ĥ|ψ⟩ ≥ E₀ (ground state energy). Minimizing over trial wavefunctions estimates E₀ without solving Schrödinger's equation exactly.
 
+## How It's Best Learned
+See the proof in a two-level system first. With |ψ⟩ = cos θ|0⟩ + sin θ|1⟩, you get ⟨Ĥ⟩ = E₀ + (E₁ − E₀) sin²θ. The bound is plain, and the energy error grows as θ², which shows why energies come out better than wavefunctions. Then do the general eigenbasis proof. Finish by deriving 1 − |c₀|² ≤ (⟨Ĥ⟩ − E₀)/(E₁ − E₀).
+
+## Common Misconceptions
+- An energy very close to E₀ means the trial state is very close to the ground state. (The energy error is quadratic in the state error. When the gap E₁ − E₀ is small, a nearly exact energy can come from a state with poor ground-state overlap.)
+- The principle gives an upper bound on every level, not just the ground state. (An unconstrained trial state bounds only E₀. A bound on E₁ needs a trial state orthogonal to the ground state.)
+- The principle works for any Hamiltonian. (It needs Ĥ to be bounded below. The Dirac Hamiltonian has negative-energy states without a floor, so naive minimization with it can collapse.)
+
 ## Questions
 
 ```yaml

@@ -18,6 +18,14 @@ status: validated
 ## Core Idea
 WKB quantization: ∮ p(x) dx = (n + ½)πℏ (Bohr-Sommerfeld rule) for bound states between classical turning points. Reproduces harmonic oscillator and hydrogen spectra to leading order.
 
+## How It's Best Learned
+Apply the one-way form, ∫ p dx from x₁ to x₂ = (n + ½)πℏ, to the harmonic oscillator. The integral is half the area of an ellipse, πE/ω, so Eₙ = (n + ½)ℏω drops out. Then redo a box with hard walls, where the wall phase differs, and recover the exact box energies. Finally, compare the rule with a numerical solution for an anharmonic well.
+
+## Common Misconceptions
+- The ½ is the same for every potential. (It comes from two smooth turning points. A hard wall reflects with a different phase, so a box with two hard walls takes n + 1 with n = 0, 1, 2, …, and one hard wall with one smooth turning point takes n + ¾.)
+- The ½ only shifts every level by a constant, so it does not affect the spectrum's shape. (That is true only when levels are evenly spaced, as for the oscillator. In general E depends nonlinearly on n, so the ½ changes the spacings as well.)
+- Applying the rule to each well of a symmetric double well gives the full low-lying spectrum. (It gives pairs of equal levels. The small splitting between them comes from tunneling through the barrier, which needs an extra WKB treatment.)
+
 ## Questions
 
 ```yaml

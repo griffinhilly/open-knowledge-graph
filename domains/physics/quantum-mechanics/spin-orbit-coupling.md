@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Spin-orbit coupling arises from the relativistic interaction H_SO ∝ L·S between the electron's spin magnetic moment and the magnetic field from its orbital motion. This coupling causes fine structure splitting in atomic energy levels and demonstrates that orbital and spin angular momenta cannot be independently conserved.
 
+## How It's Best Learned
+Take l = 1 and write L·S as a 6×6 matrix in the uncoupled |m_l, m_s⟩ basis. It splits into small blocks of fixed m_j = m_l + m_s. Diagonalize the 2×2 blocks and you get the eigenvalues ℏ²/2 (j = 3/2) and −ℏ² (j = 1/2), matching the J² identity. Check that the shifts, weighted by 2j + 1, sum to zero.
+
+## Common Misconceptions
+- Every level splits in two under spin-orbit coupling. (For l = 0 the only value is j = ½ and L·S is zero, so s states get no spin-orbit shift.)
+- In hydrogen, the fine structure comes from spin-orbit coupling alone. (The relativistic kinetic-energy correction and the Darwin term are of the same order. Together the three give energies that depend on n and j, so 2s₁/₂ and 2p₁/₂ coincide at this order.)
+- The rest-frame magnetic-field argument gives the correct size of the coupling. (The electron's frame is accelerating, and Thomas precession reduces the naive result by a factor of 2.)
+
 ## Questions
 
 ```yaml

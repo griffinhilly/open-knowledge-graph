@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Time-varying perturbations H'(t) cause state evolution; coefficients expand as c_n(t) ≈ c_n⁽⁰⟩ − (i/ℏ) ∫₀ᵗ dt' ⟨n|H'(t')|m⟩ e^{iω_{nm}t'} c_m⁽⁰⟩.
 
+## How It's Best Learned
+Work one integral exactly: a perturbation with matrix element V switched on at t = 0 and driving at frequency ω. Write the first-order probability as a function of detuning Δ = ω_{nm} − ω, then plot it against Δ for several times t. The central peak grows as t² and narrows as 1/t. Then compare with the exact two-level solution to see where first order fails.
+
+## Common Misconceptions
+- At resonance the transition probability keeps growing as t² indefinitely. (That growth holds only while the probability is small. The exact two-level answer oscillates between the states, which are Rabi oscillations.)
+- If ⟨n|H'|m⟩ = 0, the transition from m to n can never happen. (It vanishes at first order only. It can still occur at second order through intermediate states, or through terms the chosen H' leaves out.)
+- Off resonance the transition probability is exactly zero. (It is small but nonzero and oscillates in time. A short pulse has a broad frequency spread and can drive transitions over a range of detunings.)
+
 ## Questions
 
 ```yaml

@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 A quantum state is represented by a vector in Hilbert space, written as |ψ⟩ in Dirac notation or ψ(x) in position representation. The wavefunction ψ(x) is the position-space representation of the state vector, and |ψ(x)|² gives the probability density of finding the particle at position x. All information about a quantum system is encoded in its state vector.
 
+## How It's Best Learned
+Start from a finite case: put x on a grid of N points, so |ψ⟩ becomes a column of N numbers ψ_j = ⟨x_j|ψ⟩. Inner products become sums and the Born rule reads off |ψ_j|². Then let the spacing shrink and watch sums turn into integrals. Finish by Fourier transforming a Gaussian ψ(x) to get ψ̃(p) for the same state.
+
+## Common Misconceptions
+- The wavefunction is a physical wave spread through ordinary space, like a water wave. (It is a complex probability amplitude. For N particles it is a function on 3N-dimensional configuration space, not on ordinary space.)
+- Since |ψ(x)|² uses only magnitudes, the relative phase between parts of ψ has no effect. (Relative phase changes interference. ψ₁ + ψ₂ and ψ₁ − ψ₂ generally give different position densities where ψ₁ and ψ₂ overlap, and different momentum distributions.)
+- A position eigenstate |x⟩ is a normal, normalizable state like any other. (⟨x|x'⟩ = δ(x − x'), so |x⟩ cannot be normalized. It is a useful idealization outside the Hilbert space of physical states.)
+
 ## Questions
 
 ```yaml

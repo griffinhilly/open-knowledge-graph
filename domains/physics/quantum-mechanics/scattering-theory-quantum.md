@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Scattering theory describes collisions where particles interact via a potential V(r). Far from the interaction region, the wavefunction is a superposition of incident plane wave and outgoing scattered wave ψ ≈ e^{ikz} + f(θ,φ) e^{ikr}/r. The scattering amplitude f(θ,φ) encodes all information about the interaction; differential cross-section dσ/dΩ = |f|². Scattering theory bridges quantum mechanics and experiment.
 
+## How It's Best Learned
+Begin with a one-dimensional step or square barrier, where incident, reflected and transmitted waves play the roles of beam and scattered wave. Then move to three dimensions and derive dσ/dΩ = |f|² from the probability currents. Compare the classical hard-sphere cross section πR² with the quantum results to see what the wave picture changes.
+
+## Common Misconceptions
+- The total cross section is the target's geometric area. (It is an effective area. In quantum scattering it can differ from the geometric area by a large factor, especially near a resonance.)
+- The scattering amplitude f is itself a probability. (f is a complex amplitude. The measured rate in a direction is |f|², and the phase of f matters for interference and the optical theorem.)
+- A resonance is a peak at a particular scattering angle. (A resonance is a sharp rise in the cross section near a particular energy. It reflects a quasi-bound state of the potential.)
+
 ## Questions
 
 ```yaml

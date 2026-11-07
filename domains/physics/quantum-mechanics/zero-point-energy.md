@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 The quantum harmonic oscillator cannot have zero energy; the ground state has E₀ = ½ℏω. This consequence of the uncertainty principle appears throughout quantum mechanics from molecular vibrations to quantum field theory.
 
+## How It's Best Learned
+Add temperature to the oscillator. The thermal average energy is ½ℏω + ℏω/(e^{ℏω/kT} − 1). Plot it against kT and see that it levels off at ½ℏω as T → 0 and approaches kT when kT ≫ ℏω. Then treat the modes of a one-dimensional cavity as oscillators. Note that the summed ½ℏω diverges, and that forces depend on how the sum changes with cavity length.
+
+## Common Misconceptions
+- A heavier particle on the same spring has more zero-point energy. (E₀ = ½ℏω with ω = √(k/m), so a heavier particle has less. This is the root of isotope effects in molecular vibrations.)
+- Zero-point energy goes away at high temperature. (It stays ½ℏω per oscillator. It just becomes small next to the thermal energy, which grows like kT.)
+- The Casimir effect measures the total energy of the vacuum. (The force depends on how zero-point energy changes as the plate separation changes, not on its absolute value. The same force can also be derived as an interaction between the charges in the plates.)
+
 ## Questions
 
 ```yaml

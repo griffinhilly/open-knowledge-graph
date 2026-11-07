@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 The variational method states that for any trial state |ψ(α)⟩: ⟨ψ|H|ψ⟩/⟨ψ|ψ⟩ ≥ E₀. Minimizing over variational parameters α gives an upper bound on ground state energy, useful when exact solutions are impossible.
 
+## How It's Best Learned
+After a hydrogen warm-up, try helium, which has no exact solution. Use a product of two hydrogen-like 1s orbitals with the nuclear charge Z as the free parameter. Minimizing gives Z = 27/16, less than 2, and an energy close to experiment. The parameter carries physics: each electron partly screens the nucleus from the other.
+
+## Common Misconceptions
+- The trial function has to be normalized before you can use it. (The ratio ⟨ψ|H|ψ⟩/⟨ψ|ψ⟩ takes care of normalization. You can normalize first, but it is optional.)
+- A variational result tells you how close you are to E₀. (It gives the sign of the error, not its size. Without the exact value or a separate lower bound, the gap is unknown.)
+- Expanding the trial state in a fixed basis gives only the ground-state energy. (Diagonalizing H in an N-function basis gives N roots. Each one is an upper bound on the matching exact level.)
+
 ## Questions
 
 ```yaml

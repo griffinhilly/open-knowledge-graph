@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 The formal uncertainty principle states ΔA·ΔB ≥ ½|⟨[A,B]⟩|. For position and momentum, this gives Δx·Δp ≥ ℏ/2, a fundamental limit encoded in quantum theory's mathematical structure.
 
+## How It's Best Learned
+Write out the Cauchy-Schwarz proof line by line, but keep the real part of ⟨u|v⟩ that the usual proof drops. That real part is the anticommutator term of the stronger Robertson-Schrödinger relation. Then test both forms on a Gaussian with a quadratic phase, e^{−x²/4σ² + ibx²}. Robertson's bound is no longer reached, but the stronger relation still holds with equality.
+
+## Common Misconceptions
+- Every Gaussian wavefunction has Δx·Δp = ℏ/2. (A Gaussian with a quadratic phase has a larger product. A freely spreading packet develops such a phase, so its Δx grows while Δp stays fixed.)
+- If ⟨[Â, B̂]⟩ = 0 in some state, then Â and B̂ commute. (The expectation value can vanish in one state while the operators do not commute. L_x and L_y in a state with ⟨L_z⟩ = 0 are an example.)
+- The energy-time relation comes from the commutator of Ĥ with a time operator, like x and p. (Time is a parameter in quantum mechanics, not an observable. The energy-time relation is derived differently, with Δt read as the time an observable takes to change noticeably.)
+
 ## Questions
 
 ```yaml

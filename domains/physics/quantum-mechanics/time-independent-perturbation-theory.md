@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 For a solvable unperturbed Hamiltonian H₀ with small perturbation H', energies and states are power series expansions: E = E⁽⁰⟩ + λE⁽¹⟩ + ...., |ψ⟩ = |ψ⁽⁰⟩⟩ + λ|ψ⁽¹⟩⟩ + ....
 
+## How It's Best Learned
+Start with a 2×2 Hamiltonian, diagonal entries E₁ and E₂ and off-diagonal coupling V, which you can solve exactly. Expand the exact eigenvalues in powers of V/(E₂ − E₁) and match each term to the perturbation formulas. Then let E₂ approach E₁ and watch the expansion fail. This sets up degenerate perturbation theory.
+
+## Common Misconceptions
+- A perturbation is small when its matrix elements are small numbers. (What matters is their size compared with the energy gaps between the levels they connect. The same H' can be small for one level and large for a nearly degenerate one.)
+- If λ is small enough, the perturbation series converges. (Many perturbation series are asymptotic rather than convergent. For the anharmonic oscillator with an x⁴ term, the series diverges for any nonzero coupling, though its first terms are still accurate.)
+- The first-order state correction should include a piece along |n⁽⁰⁾⟩. (That component is conventionally set to zero, which is why the sum skips m = n. A nonzero choice only changes normalization and overall phase.)
+
 ## Questions
 
 ```yaml

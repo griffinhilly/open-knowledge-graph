@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Total angular momentum J⃗ = L⃗ + S⃗ is conserved in rotationally symmetric systems. The quantum number j ranges from |l − s| to l + s; for an electron (s = ½), j = l ± ½.
 
+## How It's Best Learned
+Build the coupled states for l = 1, s = ½ by hand. Start from |m_l = 1, ↑⟩, which is |j = 3/2, m_j = 3/2⟩. Apply J₋ = L₋ + S₋ to get |3/2, 1/2⟩ as a mix of two product states. Then form the orthogonal combination, which is |1/2, 1/2⟩. Count states in both bases to confirm 6 = 4 + 2.
+
+## Common Misconceptions
+- Since j = l + s for the top level, the magnitude of J is the magnitude of L plus the magnitude of S. (Magnitudes are √(j(j+1))ℏ and so on, which do not add. For l = 1, s = ½, j = 3/2, |J| ≈ 1.94ℏ while |L| + |S| ≈ 2.28ℏ.)
+- A state |j, m_j⟩ has definite values of m_l and m_s. (It is usually a superposition of product states sharing the same m_j = m_l + m_s. Only the states with j = l + s and m_j = ±j are single products.)
+- J² stays conserved even when the atom sits in an external magnetic field. (A field along z breaks full rotational symmetry. J_z is still conserved, but the Zeeman term does not commute with J², so strong fields mix different j.)
+
 ## Questions
 
 ```yaml
