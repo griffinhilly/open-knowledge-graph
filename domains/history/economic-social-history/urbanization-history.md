@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Urbanization — the migration of people from countryside to cities — accelerated during the Industrial Revolution. Cities grew because factories were located in or near existing cities; workers migrated to seek factory work; cities generated services (trade, banking, government) that provided employment. Between 1800 and 1900, the proportion of people living in cities in Britain rose from 25% to 75%. Rapid urbanization created challenges: housing was inadequate, crowded, and unsanitary; water supplies became contaminated; disease spread easily. London's cholera epidemics and other cities' public health crises were consequences of unplanned rapid urbanization. Cities were filthy, dangerous, and squalid for workers while amenities existed only for the wealthy. Yet cities also offered opportunity — wages in cities were higher than rural areas; cities had schools, theaters, and public spaces offering life beyond farming. Urbanization generated social problems that motivated reform: public health movements pushed for clean water, sewers, and sanitation; housing reformers fought for tenement regulation; sanitation engineers built the infrastructure needed for large cities. Understanding urbanization reveals how industrial economic organization drove massive social transformation: the movement of billions of people from countryside to cities reshaped geography, politics, culture, and social relationships. It also shows how cities were built environments that reflected power — wealth determined access to good housing, clean air, and safety, while workers lived in crowded, dangerous conditions.
 
+## How It's Best Learned
+Follow one city, such as Manchester or London, through a sequence: population growth, then housing and water conditions, then disease, then reform. Read a passage from Engels on Manchester alongside a street map so the split between rich and poor districts is visible. Then compare that 19th-century sequence with a present-day megacity like Lagos, asking which steps match and which are missing.
+
+## Common Misconceptions
+- Cities first appeared with the Industrial Revolution. (Large cities like Rome and Baghdad existed long before; industrial urbanization differed in its speed, scale, and link to factory work.)
+- People moved to industrial cities because life there was better in every way. (Wages were often higher, but crowding, bad water, and disease made city death rates higher than rural ones for much of the period.)
+- The bad conditions in early industrial cities fixed themselves as cities got richer. (Change came through deliberate public investment and reform, such as sewers, clean water systems, and housing laws, often after long political fights.)
+- Today's urbanization in the Global South repeats Britain's path, only later. (Much of it is driven by rural distress rather than factory jobs, so many migrants end up in informal settlements and informal work.)
+
 ## Questions
 
 ```yaml

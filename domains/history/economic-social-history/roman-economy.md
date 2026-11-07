@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 The Roman economy was the largest and most complex in the ancient world. Its foundations were agriculture (most people were farmers), supplemented by trade, manufacturing (pottery, metals, glass), and services (banking, law). Rome maintained an enormous military, funded through taxation of provinces and revenue from mines and state property. Long-distance trade flowed along roads and sea routes; the government subsidized grain imports to feed the urban poor. Roman use of slave labor was substantial: slavery provided labor for mines, agriculture, domestic service, and skilled crafts. The Roman economy was thus built on coerced labor, conquest-driven taxation, and centralized resource distribution. Yet Rome also developed sophisticated credit systems, insurance mechanisms, and standardized currency — financial innovations that enabled large-scale commerce. The Roman economy was extensive but not intensively integrated — most people lived in small, locally self-sufficient communities; the empire coordinated trade but did not reorganize production. Understanding the Roman economy reveals both its sophistication and its dependence on extraction and slavery. It also shows how ancient economies functioned differently from modern ones: less differentiated, more localized, more dependent on coercion.
 
+## How It's Best Learned
+Trace one shipment of the annona from an Egyptian field to a grain dole in Rome, naming who grew, taxed, shipped, and received it at each stage. Then set that state-run flow beside evidence of private markets, such as amphora shipwrecks and sea loans. This shows how redistribution and markets coexisted. End by tracking the denarius's silver content over time against military spending and prices.
+
+## Common Misconceptions
+- Most Romans lived in cities and worked in trade or crafts. (Most people were farmers in small, largely self-sufficient communities, and cities like Rome depended on grain moved in from the provinces.)
+- Rome either had a modern market economy or no real markets at all. (State redistribution of grain and military pay ran alongside active markets with prices, contracts, credit, and bankers.)
+- Roman roads were purely military and carried little commerce. (They were built largely for armies and officials, but merchants and travelers used them too, especially for goods valuable enough to bear overland costs.)
+- The 3rd-century inflation came from greedy merchants raising prices. (Emperors cut the silver in their coins, first the denarius and then the antoninianus that replaced it, to pay soldiers, and the flood of debased coins drove prices up.)
+
 ## Questions
 
 ```yaml

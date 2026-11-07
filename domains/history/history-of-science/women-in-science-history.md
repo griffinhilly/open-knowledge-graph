@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Women contributed to science at every stage, yet their contributions were often overlooked or attributed to male colleagues. Émilie du Châtelet made fundamental contributions to physics in the 18th century but could only publish under her husband's name. Mary Somerville's scientific work was so respected she became a celebrity, yet was excluded from scientific societies. Lise Meitner's experimental work helped uncover nuclear fission, but Otto Hahn received the Nobel Prize alone. Rosalind Franklin's X-ray crystallography revealed DNA's structure, yet she was credited only in passing by Watson and Crick. These cases were not exceptional but symptomatic: women faced legal barriers to education, exclusion from scientific societies and universities, and systematic credit deprivation. Barriers to women in science derived from broader gender ideology — women were thought incapable of abstract reasoning — and practical constraints: women could not attend universities or hold professorships. In the 20th century, these barriers gradually fell in many countries, though gender disparities in science remain substantial. Understanding women in science requires both celebrating their contributions and acknowledging how systemic barriers shaped the historical record. It also requires recognizing that the very definition of science — what counted as rigorous knowledge — was partly constructed in ways that excluded women.
 
+## How It's Best Learned
+Take one case, such as Henrietta Leavitt or Lise Meitner, and trace the credit chain link by link: who did the work, who published it, who was recognized, and which rule (job title, membership, degree) shaped each link. Repeat for a second case and list the mechanisms the two share. A timeline of barriers falling, from Girton College in 1869 to Cambridge degrees in 1948, adds the institutional frame.
+
+## Common Misconceptions
+- Women were largely absent from science before the 20th century. (Women contributed throughout, often as collaborators, assistants or observatory "computers" whose work was credited to men or left unrecorded.)
+- Women in science mostly gathered data while men did the theory. (Du Châtelet's defense of vis viva and Meitner's explanation of fission with Otto Frisch were theoretical contributions of the first order.)
+- Lost credit came from a few unfair individuals. (Rossiter's Matilda Effect names a structural pattern: men controlled journals, prizes and appointments, and women were assumed to be assistants.)
+- Once universities and societies admitted women, the problem of credit was solved. (Informal exclusion continued, as when Hahn received the 1944 Nobel alone and the 1967 discovery of pulsars brought a Nobel for Bell Burnell's supervisor.)
+
 ## Questions
 
 ```yaml

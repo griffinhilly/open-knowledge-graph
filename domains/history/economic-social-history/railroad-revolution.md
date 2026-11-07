@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Railroads, beginning in Britain in the 1820s, revolutionized transportation. They moved goods faster and cheaper than any previous method, enabling the movement of bulk goods (grain, coal, ore) long distances. Railroads connected hinterlands to ports, making remote resources economically valuable. They enabled faster communication over long distances. Railroads required enormous capital investment — building rail networks was expensive — which led to new forms of corporate organization and financing. Railroads employed millions of workers and generated related industries (steel, engineering, construction). Railroad networks integrated national economies: regions specialized in production for which they were suited; goods moved freely across regions; labor migrated along rail routes. Railroads also enabled state power: governments could move armies rapidly to suppress rebellions; empires could administer distant colonies more effectively. Colonial powers built railroads in colonized territories, primarily to extract resources (minerals, agricultural products) — railroads served extraction, not local development. Yet railroads also changed everyday life: faster communication enabled daily newspapers; people could travel farther from home; time zones were invented to coordinate railroad schedules. Understanding railroads reveals how transportation technology shapes economic organization; it also shows how new technologies embody power — railroads were tools of extraction, capitalist profit, and state control as much as they were tools of progress.
 
+## How It's Best Learned
+Start with transport costs: work out roughly how far coal could go by wagon, canal, and rail before shipping ate its value. Then compare two rail maps, one of a national network and one of a colonial line running from interior to port. Ask what each network was built to connect. Finish by testing Fogel's counterfactual: list what canals could replace and what they could not.
+
+## Common Misconceptions
+- Railroads were built mainly to carry passengers. (Cheap overland movement of bulk freight such as coal, grain, and ore was central to their economic impact, though passenger traffic was a surprise success on the first lines.)
+- Building a railroad brought development to whatever region it reached. (Colonial lines were often designed to carry raw materials to ports for export, which tied the region to the imperial economy without building local industry.)
+- Economic historians agree railroads were the indispensable cause of American growth. (Fogel's counterfactual estimated their social savings at a few percent of GNP, and the size of their wider effects is still debated.)
+- Standard gauge won because it was the best technical choice. (It won largely because it spread first and network compatibility rewarded the common standard, even though Brunel's broader gauge offered more stability at speed.)
+
 ## Questions
 
 ```yaml

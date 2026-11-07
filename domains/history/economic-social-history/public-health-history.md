@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Public health emerged from the need to control epidemics in crowded cities. Early improvements were infrastructural: clean water systems, sewers, sanitation. John Snow's investigation of cholera in 1854 revealed that disease spread through contaminated water, spurring investment in clean water supplies. Once germ theory provided mechanistic understanding, prevention made sense: eliminate breeding grounds for disease vectors (mosquitoes for malaria, fleas for plague); vaccinate to prevent infection; quarantine to limit spread. Public health campaigns reduced mortality from infectious disease dramatically. Mortality fell not primarily from medical treatment (antibiotics came late in the transition) but from prevention. Public health also involves health promotion: reducing smoking, alcohol, sedentary behavior; promoting nutrition and exercise. Modern public health integrates epidemiology (studying disease patterns), environmental health (water quality, air pollution, occupational hazards), and social determinants of health (poverty, inequality, discrimination increase disease burden). Understanding public health reveals that health is not purely a medical issue but a social and political one: clean water requires government investment; vaccination coverage requires political will and public trust; reducing inequality reduces disease. Health disparities between and within countries reflect not biology but access to clean water, food, sanitation, medical care, and social opportunity.
 
+## How It's Best Learned
+Start with John Snow's Broad Street map and reason from it as he did: where the deaths cluster, which groups escaped, and what that implies about the cause. Then follow London from the 1854 outbreak to the Great Stink and Bazalgette's sewers. Ask at each step who had to act and why they acted when they did. Close by comparing this sanitation story with a later behavioral campaign such as tobacco control.
+
+## Common Misconceptions
+- Death rates fell in the 1800s mainly because doctors got better at curing disease. (Most of the early fall came from prevention such as clean water, sewers, and vaccination. Effective clinical treatment like antibiotics arrived in the 1940s, after much of the decline.)
+- Sanitation reform had to wait until germ theory explained how disease spread. (Snow traced cholera to water before the bacterium was identified, and London's sewers were built while miasma theory still dominated medical thinking.)
+- Health gaps between rich and poor groups mostly reflect biological differences. (They largely track differences in access to clean water, food, housing, sanitation, and medical care.)
+- Public health is a medical field run by doctors in clinics. (Much of it is engineering, law, and politics: building sewers, passing regulations, and winning public trust for measures like vaccination.)
+
 ## Questions
 
 ```yaml

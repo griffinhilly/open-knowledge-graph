@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 The modern research enterprise is built on institutions that fund and organize science. Scientific academies, starting with the Royal Society of London (1660), provided forums for communication and some support for research. Universities became centers of scientific research in the 19th century, especially after the Humboldtian model made research a core part of university missions. Modern science funding is dominated by governments: national academies, funding councils (like the NIH and NSF in the US), and defense agencies direct billions toward research. Private funding through industry and foundations plays a role but is usually aligned with practical applications. Government funding for science increased dramatically during and after WWII, accelerating during the Cold War, and remains substantial. How science is funded shapes what science gets done: funding agencies set priorities; researchers write proposals to match those priorities; graduate students pursue research aligned with available funding. The history of funding institutions reveals that science is not a natural activity pursued by individuals driven by curiosity alone, but an institutional practice shaped by collective decisions about what knowledge society values. This has advantages — coordinated large-scale projects, fair allocation of resources through peer review — and disadvantages — conformity to established research directions, neglect of curiosity-driven research without immediate application.
 
+## How It's Best Learned
+Build a table with one row per era (academy, research university, private foundation, postwar federal agency) and three columns: who paid, who decided what got funded, and which fields grew. Then follow one field, such as physics, down the rows. Finish by testing Bush's linear model against Pasteur's work on fermentation and disease, which was basic and applied at once.
+
+## Common Misconceptions
+- Science has mostly run on lone researchers following their curiosity, with funding as a side detail. (Patrons, academies, universities, foundations and governments have paid for and organized research, and their priorities shape which questions get studied.)
+- Universities have been research centers for as long as they have existed. (Before the 19th-century Humboldtian reform, most universities taught from established texts, and original research took place mainly in academies and among independent scholars.)
+- Peer review sends money to the most scientifically important proposals. (Peer review tends to favor established researchers, prestigious institutions and familiar approaches, and agency mandates also steer what gets funded.)
+- Large-scale federal funding of science in the US is a long-standing tradition. (Federal research funding was small before World War II; the system of agencies like the NSF and expanded NIH grew out of the war and the Cold War.)
+
 ## Questions
 
 ```yaml

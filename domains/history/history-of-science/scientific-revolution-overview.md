@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 The Scientific Revolution (roughly 1550-1750) was a fundamental shift in how Europeans understood the natural world — from deductive reasoning based on ancient authorities like Aristotle to empirical observation, measurement, and mathematical description. Rather than a sudden break, it was a gradual reorientation toward the experimental method, rejection of teleological thinking, and the view that nature could be described mathematically. This revolution set the intellectual foundations for modern science, though it also emerged from and was constrained by religious, political, and economic contexts of early modern Europe.
 
+## How It's Best Learned
+Compare two answers to "why does a stone fall?": the Aristotelian one (it seeks its natural place) and Galileo's inclined-plane measurements. Name what kind of explanation each gives. Then draw a timeline from 1543 to Newton's Principia in 1687, placing each figure next to the ancient authority they challenged and the older knowledge they kept.
+
+## Common Misconceptions
+- The Scientific Revolution was a sudden, total break with ancient and medieval thought. (It was a gradual reorientation that drew on Greek astronomical data, Islamic mathematics and some medieval natural philosophy.)
+- "Mechanical explanation" means doing science with machines. (It means explaining nature through prior causes, forces and mathematical laws instead of through purposes or natural places.)
+- The new science grew mainly inside the universities. (Much of the work also took place in royal courts, informal academies and new scientific societies such as the Royal Society, though many leading figures studied or taught at universities.)
+- The leading figures of the revolution rejected religion. (Many were religious; Descartes, for example, kept God as the source of motion and the guarantor that nature is intelligible.)
+
 ## Questions
 
 ```yaml
