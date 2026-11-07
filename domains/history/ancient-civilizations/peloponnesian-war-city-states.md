@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: spartan-militarism-and-society
   type: hard
+- id: greco-persian-wars
+  type: soft
 tags:
 - greece
 - peloponnesian-war

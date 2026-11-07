@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: treaty-of-versailles
   type: soft
+- id: progressive-era-united-states
+  type: soft
 builds-toward:
 - rise-of-fascism
 - world-war-ii-origins

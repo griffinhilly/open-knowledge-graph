@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: late-antiquity-medieval-transition
   type: soft
+- id: rise-of-christianity-roman-empire
+  type: soft
 builds-toward:
 - crusades
 - great-schism-1054

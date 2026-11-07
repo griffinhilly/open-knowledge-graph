@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: decolonization
   type: soft
+- id: reconstruction-era-united-states
+  type: soft
 builds-toward:
 - globalization
 - postcolonial-history

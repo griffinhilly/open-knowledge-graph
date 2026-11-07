@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: origins-of-world-religions
   type: soft
+- id: rise-of-christianity-roman-empire
+  type: soft
 builds-toward:
 - great-schism-1054
 tags:

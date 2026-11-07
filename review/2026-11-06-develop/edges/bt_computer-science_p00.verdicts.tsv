@@ -60,3 +60,108 @@ ADD	symbol-tables-and-scope	type-inference-algorithms	soft	medium	Inference need
 DROP	tree-walking-interpreters	type-inference-algorithms	-	high	Type inference does not depend on interpreter design.
 DROP	alias-analysis	value-numbering-optimization	-	medium	B's hash-based value numbering works on scalar expressions; alias info matters only for a load/store extension.
 DROP	loop-unrolling-optimization	vectorization-and-simd	-	high	Path vectorization -> loop-invariant-code-motion -> loop-unrolling exists; reverse would be a cycle.
+ADD	barrel-shifter-design	arithmetic-logic-unit	soft	medium	ALUs perform shifts, and a barrel shifter is the standard way to build that unit.
+ADD	binary-arithmetic	arithmetic-logic-unit	hard	high	An ALU implements binary arithmetic; it cannot be understood without it.
+ADD	carry-lookahead-adder-design	arithmetic-logic-unit	soft	medium	Fast ALUs use carry-lookahead, but an ALU can be understood with a ripple adder.
+DROP	fixed-point-number-representation	arithmetic-logic-unit	-	medium	An integer ALU needs two's complement, not fixed-point formats; fixed-point is already upstream via twos-complement.
+ADD	combinational-circuit-design	binary-adders	soft	high	Half and full adders are combinational circuits, though gates and Boolean algebra suffice to build them.
+DROP	twos-complement	binary-adders	-	medium	Half and full adders work on unsigned bits; two's complement matters for subtraction in the ALU.
+ADD	xor-equivalence-gates	boolean-function-implementation	soft	medium	XOR/XNOR are part of the gate toolkit for implementing functions, but AND/OR/NOT suffice.
+DROP	memory-bus-interconnect	cache-memory-design	-	medium	Cache design (mapping, associativity, replacement) does not rest on bus architecture.
+DROP	memory-management-paging-segmentation	cache-memory-design	-	high	Cache design works on physical addresses and does not need paging or segmentation.
+ADD	memory-organization	cache-memory-design	soft	high	Splitting addresses into tag, index and offset draws on memory addressing; already upstream via memory-hierarchy-overview.
+ADD	static-ram-sram-design	cache-memory-design	soft	medium	Caches are built from SRAM arrays, but cache organization can be learned without cell design.
+JUDGE	ripple-carry-adder-design	carry-lookahead-adder-design	-	high	CLA is motivated by ripple-carry delay, but ripple-carry-adder-design lists CLA as a prerequisite; that reverse edge looks wrong.
+ADD	arithmetic-logic-unit	cpu-control-unit	soft	medium	The control unit drives ALU operation-select signals; cpu-datapath already covers much of this.
+DROP	processor-control-unit-design	data-hazards-control-hazards	-	medium	Hazards rest on pipelining fundamentals; control-unit design is not needed to understand them.
+DROP	memory-protection-hardware	exception-handling-architecture	-	medium	B uses page faults only as examples; the handler mechanism stands without protection hardware.
+DROP	translation-lookaside-buffer-tlb	exception-handling-architecture	-	medium	TLB misses are one exception source; B's mechanism (save state, vector, return) does not need TLB design.
+DROP	shift-register-design	finite-state-machine-processor-design	-	high	FSM-based control does not use shift registers.
+DROP	binary-adders	fixed-point-number-representation	-	high	A number format does not depend on adder circuits.
+ADD	fixed-point-number-representation	floating-point-representation	soft	high	Floating point is explained in contrast to fixed point; already upstream via twos-complement.
+JUDGE	half-adder-circuit-design	full-adder-and-carry-logic	-	high	A full adder is built from half adders, but half-adder-circuit-design lists carry-lookahead (which needs full adders), so adding cycles; fix that edge.
+JUDGE	binary-number-system	hexadecimal-number-system	-	medium	Hex is taught as binary shorthand, but hex -> base-conversion -> binary already exists, so adding cycles.
+ADD	number-base-conversion-operations	instruction-set-architecture	soft	medium	Reading instruction encodings uses hex-binary conversion, but ISA concepts stand without it.
+DROP	kernel-mode-and-privilege-levels	interrupts-and-dma	-	medium	B explains interrupt and DMA mechanics with no use of privilege levels; kernel mode draws on interrupts instead.
+DROP	counters-design-analysis	io-systems-overview	-	high	I/O systems and buses do not depend on counter circuits.
+DROP	direct-memory-access-dma	io-systems-overview	-	high	DMA -> interrupts-and-dma -> io-systems-overview exists; reverse would be a cycle.
+DROP	memory-management-paging-segmentation	io-systems-overview	-	high	I/O buses and device access do not depend on paging or segmentation.
+ADD	number-base-conversion-operations	memory-address-decoding	soft	medium	Address ranges are given in hex and decoded in binary; hex is already upstream via memory-organization.
+DROP	dynamic-ram-dram-design	memory-hierarchy-overview	-	medium	The overview names DRAM as a level but needs no refresh or array design.
+DROP	memory-interleaving-and-bandwidth	memory-hierarchy-overview	-	high	Interleaving is a bandwidth refinement that itself builds on DRAM; the overview does not need it.
+DROP	addressing-modes-instruction-format	memory-management-paging-segmentation	-	high	Paging and segmentation rest on virtual memory, not instruction addressing modes.
+DROP	registers-and-register-files	memory-organization	-	medium	Byte addressing and word layout do not depend on register-file design.
+DROP	universal-logic-gates	multiplexers-and-demultiplexers	-	high	Muxes are built from AND/OR/NOT; NAND/NOR universality is not needed.
+ADD	data-hazards-control-hazards	out-of-order-execution-design	hard	high	OoO and register renaming exist to handle RAW/WAR/WAW hazards; B cannot be understood without them.
+DROP	counters-design-analysis	pipelining-fundamentals	-	high	Pipelining does not depend on counter circuits.
+DROP	hardwired-microprogrammed-control	pipelining-fundamentals	-	medium	Pipelining rests on the datapath and control unit; the hardwired vs microprogrammed choice is not needed.
+DROP	out-of-order-execution-design	power-thermal-performance-metrics	-	high	out-of-order-execution-design already lists power-thermal-performance-metrics; reverse would be a cycle.
+DROP	superscalar-and-vliw-design	power-thermal-performance-metrics	-	high	superscalar-and-vliw-design already lists power-thermal-performance-metrics; reverse would be a cycle.
+DROP	static-ram-sram-design	registers-and-register-files	-	medium	Registers are built from flip-flops and muxes; SRAM cell design is not needed.
+ADD	flip-flops-and-latches	sequential-circuit-design	hard	high	Sequential circuits store state in flip-flops; B cannot be understood without them.
+ADD	synchronous-logic-and-clocks	single-cycle-processor-design	soft	medium	A single-cycle CPU completes each instruction in one clock period; already upstream via FSM processor design.
+DROP	hardwired-microprogrammed-control	superscalar-and-vliw-design	-	medium	Superscalar and VLIW rest on pipelining and branch prediction, not on the control-implementation style.
+ADD	binary-number-system	twos-complement	hard	high	Two's complement is a binary encoding; already upstream via binary-arithmetic.
+DROP	eigrp-enhanced-distance-vector-routing	bgp-border-gateway-protocol	-	high	BGP rests on OSPF, distance-vector routing and aggregation; Cisco's EIGRP is not needed.
+DROP	encapsulation-and-protocol-layers	error-detection-and-correction	-	high	Parity, checksums and ECC do not depend on protocol encapsulation.
+DROP	dns-domain-name-system	http-hypertext-transfer-protocol	-	medium	HTTP's request-response model over TCP stands without DNS; DNS is usually taught alongside, not before.
+DROP	email-protocols-smtp-pop3-imap	https-and-tls	-	high	TLS does not draw on email; email lists network-security-fundamentals, which lists https-and-tls, so this would cycle.
+DROP	ip-fragmentation-reassembly	icmp-internet-control-message-protocol	-	medium	ICMP's error and diagnostic messages stand without fragmentation; "fragmentation needed" is one message type.
+DROP	osi-model-layers	ipv4-addressing	-	medium	B already draws layering context from tcp-ip-model; the OSI model adds nothing required.
+DROP	icmpv6-neighbor-discovery-protocol	ipv6-addressing	-	high	icmpv6-neighbor-discovery-protocol already lists ipv6-addressing as a prerequisite; reverse would be a cycle.
+DROP	openflow-network-control-protocol	network-function-virtualization-nfv	-	high	NFV virtualizes network functions on servers and rests on SDN, not on OpenFlow specifics.
+DROP	dhcp-dynamic-host-configuration	network-management-and-monitoring	-	high	B covers SNMP metrics and alerting; DHCP is not needed.
+DROP	dhcp-relay-snooping-security	network-management-and-monitoring	-	high	B covers device monitoring and alerting; DHCP snooping is not needed.
+DROP	network-function-virtualization-nfv	network-management-and-monitoring	-	high	Monitoring device health and metrics does not depend on NFV.
+DROP	openflow-network-control-protocol	network-management-and-monitoring	-	high	B is about SNMP-style monitoring, not SDN control protocols.
+DROP	packet-analysis-wireshark-tcpdump	network-management-and-monitoring	-	medium	B centers on SNMP agents and metric thresholds, not packet capture.
+DROP	path-mtu-discovery-pmtud	network-management-and-monitoring	-	high	Monitoring and alerting do not depend on PMTUD.
+DROP	reverse-proxy-caching-architecture	network-management-and-monitoring	-	high	Monitoring and alerting do not depend on reverse-proxy design.
+DROP	routing-convergence-flap-damping	network-management-and-monitoring	-	high	Monitoring and alerting do not depend on BGP flap damping.
+DROP	snmp-simple-network-management-protocol	network-management-and-monitoring	-	high	snmp already lists network-management-and-monitoring as a prerequisite; reverse would be a cycle.
+DROP	syslog-network-logging-protocol	network-management-and-monitoring	-	high	syslog already lists network-management-and-monitoring as a prerequisite; reverse would be a cycle.
+DROP	arp-address-resolution-protocol	network-security-fundamentals	-	medium	B treats spoofing generically with firewalls and encryption; ARP specifics are not needed.
+DROP	bgp-route-filtering-hijacking-prevention	network-security-fundamentals	-	high	bgp-route-filtering already lists network-security-fundamentals as a prerequisite; reverse would be a cycle.
+DROP	dhcp-relay-snooping-security	network-security-fundamentals	-	high	dhcp-relay-snooping already lists network-security-fundamentals as a prerequisite; reverse would be a cycle.
+DROP	dnssec-dns-security-extensions	network-security-fundamentals	-	high	dnssec already lists network-security-fundamentals as a prerequisite; reverse would be a cycle.
+DROP	email-protocols-smtp-pop3-imap	network-security-fundamentals	-	high	email-protocols already lists network-security-fundamentals as a prerequisite; reverse would be a cycle.
+DROP	ftp-file-transfer-protocol	network-security-fundamentals	-	high	FTP lists email-protocols, which lists network-security-fundamentals; reverse would be a cycle.
+DROP	icmpv6-neighbor-discovery-protocol	network-security-fundamentals	-	high	Firewalls, encryption and threat models do not depend on IPv6 neighbor discovery.
+DROP	ipsec-authentication-encryption	network-security-fundamentals	-	high	ipsec already lists network-security-fundamentals as a prerequisite; reverse would be a cycle.
+DROP	packet-analysis-wireshark-tcpdump	network-security-fundamentals	-	medium	B's firewalls, encryption and rate limiting stand without packet-capture tools.
+DROP	snmp-simple-network-management-protocol	network-security-fundamentals	-	high	Security fundamentals do not depend on SNMP.
+DROP	ssh-secure-shell	network-security-fundamentals	-	high	ssh already lists network-security-fundamentals as a prerequisite; reverse would be a cycle.
+DROP	syslog-network-logging-protocol	network-security-fundamentals	-	high	Security fundamentals do not depend on syslog.
+DROP	vlans-virtual-area-networks	network-security-fundamentals	-	medium	B's defenses (filtering, encryption, authentication) stand without VLAN segmentation.
+DROP	bgp-route-filtering-hijacking-prevention	network-standards-and-ietf	-	high	An overview of standards bodies does not depend on any specific protocol.
+DROP	dnssec-dns-security-extensions	network-standards-and-ietf	-	high	An overview of standards bodies does not depend on any specific protocol.
+DROP	routing-convergence-flap-damping	network-standards-and-ietf	-	high	An overview of standards bodies does not depend on any specific protocol.
+DROP	sctp-stream-control-transmission-protocol	network-standards-and-ietf	-	high	An overview of standards bodies does not depend on any specific protocol.
+DROP	segment-routing-architecture-sr	network-standards-and-ietf	-	high	An overview of standards bodies does not depend on any specific protocol.
+DROP	link-aggregation-control-protocol-lacp	network-topologies	-	high	LACP lists switching-basics, which lists network-topologies; reverse would be a cycle.
+DROP	packet-switching-circuit-switching	osi-model-layers	-	medium	The layered reference model stands without the packet vs circuit switching contrast.
+ADD	routing-algorithms-overview	ospf-open-shortest-path-first	soft	high	OSPF is one routing protocol; the overview frames link-state vs distance-vector, though link-state routing is the hard base.
+DROP	link-aggregation-control-protocol-lacp	qos-quality-of-service	-	high	QoS rests on congestion control and bandwidth; link bundling is not needed.
+DROP	network-function-virtualization-nfv	qos-quality-of-service	-	high	QoS queuing and marking do not depend on NFV.
+DROP	sctp-stream-control-transmission-protocol	qos-quality-of-service	-	high	QoS does not depend on SCTP.
+DROP	eigrp-enhanced-distance-vector-routing	routing-convergence-flap-damping	-	medium	B centers on BGP flap damping; EIGRP's DUAL is a different convergence story.
+DROP	rip-routing-information-protocol	routing-convergence-flap-damping	-	medium	B centers on BGP flap damping; RIP's count-to-infinity is not used.
+DROP	overlay-networks-and-tunneling	software-defined-networking	-	medium	SDN's control/data-plane split stands without overlays, though data-center SDN often uses them.
+DROP	ftp-file-transfer-protocol	ssh-secure-shell	-	high	SFTP runs over SSH, so the dependency runs from SSH to FTP/SFTP.
+ADD	ethernet-protocol	switching-basics	soft	high	Switches forward Ethernet frames by MAC; already upstream via mac-addressing.
+DROP	path-mtu-discovery-pmtud	tcp-flow-control-and-congestion-control	-	high	Windows, slow start and AIMD do not depend on PMTUD.
+DROP	tcp-connection-termination-fin-rst	tcp-flow-control-and-congestion-control	-	high	Flow and congestion control do not depend on how connections close.
+ADD	mac-addressing	vlans-virtual-area-networks	soft	high	VLANs partition MAC-based switching domains; already upstream via switching-basics.
+DROP	spanning-tree-protocol-stp	vlans-virtual-area-networks	-	medium	VLAN tagging and segmentation stand without STP; per-VLAN STP is a later refinement.
+DROP	ipsec-authentication-encryption	vpn-virtual-private-networks	-	high	ipsec already lists vpn-virtual-private-networks as a prerequisite; reverse would be a cycle.
+DROP	mpls-multiprotocol-label-switching	vpn-virtual-private-networks	-	high	B covers IPsec/TLS/WireGuard VPNs and never mentions MPLS.
+ADD	overlay-networks-and-tunneling	vpn-virtual-private-networks	soft	medium	B defines VPNs as encrypted tunnels, so the tunneling concept helps.
+DROP	ssh-secure-shell	vpn-virtual-private-networks	-	high	SSH lists ipsec, which lists vpn-virtual-private-networks; reverse would be a cycle.
+DROP	queue-applications-level-order-traversal	breadth-first-search	-	high	queue-applications already hard-requires breadth-first-search; reverse would be a cycle.
+DROP	circular-linked-lists	deques-double-ended-queues	-	medium	Deques are built from circular arrays or doubly linked lists, not circular linked lists.
+DROP	backtracking-constraint-satisfaction-problems	dynamic-programming-intro	-	medium	DP rests on recursion and overlapping subproblems; backtracking is a sibling technique.
+DROP	recurrence-relations-analysis-techniques	dynamic-programming-intro	-	medium	DP draws on recurrence formulation (already via recurrence-relations), not on runtime analysis by master theorem.
+DROP	backtracking-constraint-satisfaction-problems	greedy-algorithms	-	high	Greedy choice and exchange arguments do not depend on backtracking.
+ADD	recursion-basics	recursion-tail-recursion-optimization	hard	high	Tail-call optimization cannot be understood without recursion and the call stack.
+DROP	insertion-sort	sorting-lower-bounds	-	medium	B rests on merge, quick and heap sort; insertion sort adds no needed idea.
+DROP	selection-sort	sorting-lower-bounds	-	medium	B rests on merge, quick and heap sort; selection sort adds no needed idea.

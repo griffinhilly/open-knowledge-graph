@@ -10,9 +10,11 @@ prerequisites:
   type: hard
 - id: enlightenment-origins
   type: soft
+- id: napoleonic-era
+  type: soft
 builds-toward:
-  - revolutions-of-1848
-  - world-war-i-origins
+- revolutions-of-1848
+- world-war-i-origins
 tags:
 - nationalism
 - nation-state

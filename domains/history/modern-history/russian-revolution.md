@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: marxism-and-socialism
   type: hard
+- id: rise-of-russian-empire
+  type: soft
 builds-toward:
 - cold-war-origins
 - rise-of-fascism

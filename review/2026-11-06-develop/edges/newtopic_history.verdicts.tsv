@@ -1,0 +1,16 @@
+ADD	greco-persian-wars	peloponnesian-war-city-states	soft	high	The Delian League formed after the Persian Wars grew into the Athenian empire that Sparta fought.
+ADD	greco-persian-wars	hellenistic-period	soft	high	Alexander's conquest of Persia was framed as revenge for Xerxes' invasion; the wars set up the Greek-Persian relationship.
+ADD	rise-of-christianity-roman-empire	byzantine-orthodox-christianity	soft	high	Byzantine Christianity starts from Constantine, Nicaea and the Theodosian settlement.
+ADD	rise-of-christianity-roman-empire	medieval-church-power	soft	high	Papal and episcopal authority grew out of the late Roman church.
+ADD	aztec-mexica-empire	conquistador-conquest-colonization	soft	high	The conquest of Mexico cannot be understood without the tribute empire and its resentful subject peoples.
+ADD	inca-empire	conquistador-conquest-colonization	soft	high	Pizarro's conquest depended on the Inca civil war and epidemic.
+ADD	indian-ocean-trade-network	early-modern-global-trade-networks	soft	high	Early modern European trade entered an existing Indian Ocean network.
+ADD	indian-ocean-trade-network	age-of-exploration	soft	high	Portuguese voyages aimed at, and disrupted, Indian Ocean trade.
+ADD	delhi-sultanate	mughal-empire	soft	high	Babur founded the Mughal Empire by defeating the last Delhi sultan at Panipat (1526).
+ADD	british-north-american-colonies	american-revolution	soft	high	The Revolution arose from colonial self-government and the post-1763 tightening of British control.
+ADD	napoleonic-era	congress-of-vienna	hard	high	The Congress of Vienna was the settlement of the Napoleonic Wars.
+ADD	napoleonic-era	nationalism-and-nation-states	soft	high	Resistance to Napoleonic rule and his redrawing of German and Italian borders fed nineteenth-century nationalism.
+ADD	reconstruction-era-united-states	civil-rights-movement	soft	high	The civil rights movement relied on the Fourteenth and Fifteenth Amendments and fought the Jim Crow order that followed Reconstruction.
+ADD	meiji-restoration	axis-expansion-world-war-ii	soft	high	Japanese expansion in the 1930s grew from the Meiji state's industrial and imperial project.
+ADD	progressive-era-united-states	great-depression	soft	high	The New Deal response built on Progressive-era ideas of federal regulation.
+ADD	rise-of-russian-empire	russian-revolution	soft	high	Tsarist autocracy and serfdom, built from Peter to Catherine, are the background to 1917.

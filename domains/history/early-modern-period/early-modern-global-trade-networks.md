@@ -16,6 +16,8 @@ prerequisites:
   type: soft
 - id: columbian-exchange
   type: soft
+- id: indian-ocean-trade-network
+  type: soft
 builds-toward:
 - colonial-plantation-economy
 tags:

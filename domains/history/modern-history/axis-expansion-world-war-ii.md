@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: world-war-ii-origins
   type: hard
+- id: meiji-restoration
+  type: soft
 builds-toward:
 - racial-genocide-holocaust-context
 - nuclear-weapons-and-deterrence

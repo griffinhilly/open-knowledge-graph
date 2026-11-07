@@ -13,3 +13,4 @@ newtopic_earth-and-space-sciences.verdicts.tsv
 newtopic_economics.verdicts.tsv
 newtopic_computer-science.verdicts.tsv
 bt_chemistry.verdicts.tsv
+newtopic_history.verdicts.tsv

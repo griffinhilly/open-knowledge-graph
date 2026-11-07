@@ -8,6 +8,8 @@ prerequisites:
   type: hard
 - id: absolutism-and-monarchy
   type: soft
+- id: napoleonic-era
+  type: hard
 builds-toward:
 - revolutions-of-1848
 - nationalism-and-nation-states

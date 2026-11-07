@@ -12,6 +12,8 @@ prerequisites:
   type: soft
 - id: ottoman-empire-early-modern
   type: soft
+- id: indian-ocean-trade-network
+  type: soft
 builds-toward:
 - columbian-exchange
 - atlantic-slave-trade

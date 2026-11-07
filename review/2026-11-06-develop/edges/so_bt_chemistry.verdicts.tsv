@@ -36,3 +36,65 @@ ADD	reference-material-traceability	quality-control-and-quality-assurance	soft	m
 DROP	chemometrics-multivariate-calibration	raman-spectroscopy-analytical-methods	-	medium	Raman theory and practice do not require chemometrics; A is also staged higher.
 DROP	selectivity-vs-sensitivity-analytical-tradeoffs	response-surface-methodology-method-optimization	-	medium	Redundant: B requires the method-development workflow, which already requires A.
 DROP	liquid-chromatography-mass-spectrometry-lc-ms	two-dimensional-chromatography-comprehensive	-	medium	2D chromatography draws on GC and HPLC separation, not on MS detection.
+ADD	acid-base-definitions	acid-base-chemistry	soft	high	B builds on the Arrhenius, Brønsted-Lowry and Lewis definitions that A lays out.
+ADD	acids-properties-and-examples	acid-base-chemistry	soft	medium	Concrete knowledge of acid properties grounds B's formal treatment.
+ADD	bases-properties-and-examples	acid-base-chemistry	soft	medium	Concrete knowledge of base properties grounds B's formal treatment.
+DROP	everyday-acids-and-bases	acid-base-chemistry	-	medium	Applied context only; B already soft-links pH scale and neutralization, which A builds on.
+DROP	electronegativity-and-polarity-continuum	acid-base-definitions	-	medium	The three definitions rest on proton and electron-pair transfer, not on polarity.
+DROP	ion-formation-from-electron-transfer	acid-base-definitions	-	medium	B already soft-requires ionic bonding; ion formation by electron transfer adds nothing B uses.
+DROP	integrated-rate-laws	arrhenius-equation	-	medium	Arrhenius relates k to temperature; it does not need integrated rate laws.
+DROP	mass-and-weight	atomic-mass-and-molar-mass	-	medium	B is about amu and g/mol; the mass-versus-weight distinction is not used.
+DROP	mole-concept	chemical-equations-and-balancing	-	high	Balancing counts atoms; moles come after balanced equations, not before.
+DROP	the-mole-concept-and-avogadro	chemical-equations-and-balancing	-	high	Balancing counts atoms; moles come after balanced equations, not before.
+ADD	combustion-reactions	chemical-equations-and-balancing	soft	medium	B names combustion as an equation type, and A supplies concrete reactions to balance.
+ADD	synthesis-and-decomposition	chemical-equations-and-balancing	soft	medium	B names synthesis as an equation type, and A supplies concrete reactions to balance.
+DROP	signs-of-chemical-change	chemical-equations-and-balancing	-	medium	B already requires matter classification and reactants-and-products; observing change signs is not used.
+DROP	gibbs-free-energy-spontaneity	chemical-equilibrium	-	medium	B already soft-links entropy-and-gibbs-free-energy; A's ΔG°–K link draws on K, so the direction runs the other way.
+DROP	reaction-coordinate-diagrams	chemical-equilibrium	-	medium	K, Q and Le Chatelier do not need energy profiles.
+ADD	concentration-and-molarity	colligative-properties-solutions	soft	medium	Colligative formulas use molality and particle concentration, which A teaches.
+ADD	solution-properties	colligative-properties-solutions	soft	medium	Knowing how solutes dissolve and dissociate helps explain particle-count effects.
+DROP	atomic-mass-and-molar-mass	concentration-units	-	medium	B already hard-requires mole-concept (The Mole and Molar Mass), which covers molar mass.
+DROP	electron-configuration	covalent-bonding	-	medium	Redundant: B hard-requires periodic-trends and valence-electrons, both of which hard-require A.
+DROP	periodic-table-overview	covalent-bonding	-	medium	Redundant: B hard-requires periodic-trends and valence-electrons, both of which hard-require A.
+ADD	flexibility-and-brittleness	crystal-structures-and-properties	soft	medium	B explains physical properties such as brittleness from crystal type; A supplies the observed phenomena.
+ADD	hardness-and-strength	crystal-structures-and-properties	soft	medium	B says crystal type determines hardness; A supplies the observed phenomena.
+DROP	atomic-structure-and-atoms	electron-configuration	-	medium	B already hard-requires atomic-structure-basics, which A itself builds on.
+DROP	noble-gases-and-stability	electron-configuration	-	medium	Configuration explains noble-gas stability, so the dependence runs from B to A.
+DROP	cooking-as-chemical-change	endothermic-and-exothermic-reactions	-	medium	B already soft-links burning and an endo/exo intro; cooking adds nothing B uses.
+DROP	entropy-and-disorder	entropy-and-gibbs-free-energy	-	medium	Redundant: B soft-requires spontaneity-and-gibbs-free-energy-intro, which hard-requires A.
+DROP	heat-capacity-calorimetry	entropy-and-gibbs-free-energy	-	medium	ΔG = ΔH − TΔS does not need calorimetry.
+DROP	balancing-redox-equations	galvanic-electrochemical-cells	-	medium	B's core is half-reactions at anode and cathode, not full redox balancing.
+ADD	half-reactions-and-balancing	galvanic-electrochemical-cells	soft	medium	B assigns oxidation and reduction half-reactions to electrodes, which A teaches.
+DROP	measuring-volume	gas-laws	-	medium	Gas laws use volume as a variable; a concrete measuring skill is not needed.
+DROP	limiting-reagent-calculations	gas-stoichiometry	-	medium	Volume-ratio calculations do not need limiting reagents.
+DROP	percent-yield-and-limiting-reagent-analysis	gas-stoichiometry	-	medium	Volume-ratio calculations do not need percent yield.
+DROP	entropy-and-disorder	gibbs-free-energy-spontaneity	-	medium	Redundant: B hard-requires entropy-and-gibbs-free-energy, which reaches A via the spontaneity intro.
+DROP	spontaneity-and-gibbs-free-energy-intro	gibbs-free-energy-spontaneity	-	medium	Redundant: B hard-requires entropy-and-gibbs-free-energy, which soft-requires A.
+DROP	bond-energy-and-enthaly	hess-law-of-enthalpy	-	medium	Hess's law combines reaction enthalpies; it does not need bond energies.
+DROP	electron-configuration	ionic-bonding	-	medium	Redundant: B hard-requires periodic-trends and valence-electrons, both of which hard-require A.
+DROP	periodic-table-overview	ionic-bonding	-	medium	Redundant: B hard-requires periodic-trends and valence-electrons, both of which hard-require A.
+DROP	equilibrium-expression-kc-kp-constants	le-chatelier-principle-applications	-	medium	Redundant: B hard-requires reaction-quotient-direction-of-reaction, which hard-requires A.
+DROP	dissolving-and-solutions	matter-classification-and-properties	-	medium	B already soft-links pure-substances-and-mixtures; dissolving adds nothing B uses.
+ADD	physical-vs-chemical-change-summary	matter-classification-and-properties	soft	medium	B's learning path explicitly distinguishes physical and chemical changes.
+DROP	reversible-and-irreversible-changes	matter-classification-and-properties	-	medium	Not used by B; it feeds B indirectly through physical-vs-chemical-change-summary.
+DROP	separating-mixtures-filtering-evaporating	matter-classification-and-properties	-	medium	Not needed; it feeds B indirectly through physical-vs-chemical-change-summary.
+DROP	separating-mixtures-magnets-and-sieves	matter-classification-and-properties	-	medium	B classifies by composition; mechanical separation methods are not used.
+DROP	suspensions-and-colloids	matter-classification-and-properties	-	medium	B already soft-links pure-substances-and-mixtures; mixture subtypes are not used.
+DROP	alloys-intro	metallic-bonding	-	medium	B's core explains conductivity, malleability and luster; alloys are only a tag.
+ADD	thermal-and-electrical-conductivity	metallic-bonding	soft	medium	B's electron-sea model explains the conductivity that A introduces concretely.
+DROP	resonance-structures	molecular-geometry-prediction	-	medium	VSEPR counts electron domains from a Lewis structure; resonance is not required.
+ADD	single-replacement-reactions	oxidation-reduction-basics	soft	high	B's learning path starts from metal-displacement reactions, which A teaches.
+ADD	rusting-and-tarnishing	oxidation-reduction-basics	soft	medium	B cites corrosion as an everyday redox example, which A introduces concretely.
+ADD	metals-nonmetals-metalloids	periodic-table-overview	soft	medium	B covers metal, nonmetal and metalloid regions of the table, which A introduces.
+DROP	metals-nonmetals-metalloids	periodic-trends	-	medium	Redundant: B hard-requires periodic-table-overview, which covers the metal/nonmetal regions.
+DROP	real-gases-van-der-waals	phase-changes-and-diagrams	-	medium	Phase diagrams and transitions do not need the van der Waals equation.
+DROP	bond-energy-and-enthaly	reaction-coordinate-diagrams	-	medium	Energy profiles use Ea and ΔH, not bond-energy estimates.
+DROP	hess-law-of-enthalpy	reaction-coordinate-diagrams	-	medium	Energy profiles do not need Hess's law path addition.
+DROP	henrys-law-gas-solubility	solute-solvent-interactions-solvation	-	medium	Henry's law is a downstream special case; solvation draws on intermolecular forces.
+DROP	properties-of-liquids	solution-properties	-	medium	B already soft-links dissolving-and-solutions and water as solvent; liquid properties are not used.
+DROP	crystal-structures-and-properties	states-of-matter-phase-changes	-	medium	B explains phase changes through intermolecular forces, not crystal types.
+ADD	density-how-packed-together	states-of-matter-properties-and-transitions	soft	medium	B distinguishes states by how closely particles pack, which A introduces.
+DROP	atomic-mass-and-molar-mass	stoichiometry-calculations	-	medium	B already hard-requires molar-mass-and-conversions and mole-concept, which cover this.
+DROP	temperature-reading	thermochemistry-heat-and-energy	-	medium	Thermometer reading is a lab skill; enthalpy concepts do not need it.
+ADD	noble-gases-and-stability	valence-electrons-and-reactivity	soft	medium	Noble-gas stability illustrates why valence-shell filling governs reactivity.
+DROP	composition-of-compounds	writing-ionic-formulas	-	high	Charge balancing of ions does not use percent composition or empirical formulas.

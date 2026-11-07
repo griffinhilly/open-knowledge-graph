@@ -18,6 +18,8 @@ prerequisites:
   type: hard
 - id: montesquieu-separation-governmental-powers
   type: soft
+- id: british-north-american-colonies
+  type: soft
 builds-toward:
 - french-revolution-origins
 - haitian-revolution

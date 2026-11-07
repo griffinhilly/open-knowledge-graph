@@ -10,6 +10,8 @@ prerequisites:
   type: hard
 - id: greek-philosophy-origins
   type: soft
+- id: greco-persian-wars
+  type: soft
 builds-toward:
 - roman-empire-rise
 - origins-of-world-religions

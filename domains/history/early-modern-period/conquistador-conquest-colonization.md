@@ -6,6 +6,10 @@ course: early-modern-period
 prerequisites:
 - id: age-of-exploration
   type: hard
+- id: aztec-mexica-empire
+  type: soft
+- id: inca-empire
+  type: soft
 builds-toward:
 - spanish-colonial-empire
 - columbian-exchange

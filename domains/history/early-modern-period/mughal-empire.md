@@ -8,6 +8,8 @@ prerequisites:
   type: soft
 - id: mongol-empire
   type: soft
+- id: delhi-sultanate
+  type: soft
 builds-toward:
 - early-modern-global-trade-networks
 tags:
